@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808254"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356462"
 ---
 # <a name="service-level-and-description"></a>Description et niveau de service
 
@@ -45,7 +45,7 @@ Lorsque vous créez un ordre de travail, vous pouvez définir les niveaux de ser
 8. Pour définir une heure de fin pour l’ordre de travail, en plus d’une date de fin, définissez l’option **Définir l’heure de fin** sur **Oui**. Puis saisissez l’heure de fin dans le champ **Heure de fin**. Si vous définissez l’option sur **Non**, l’heure actuelle de la journée est utilisée.
 9. Sélectionnez **Enregistrer**.
 
-![Page Niveau de service des ordres de travail](media/19-setup-for-work-orders.png)
+![Page Niveau de service des ordres de travail.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Créer une description
 

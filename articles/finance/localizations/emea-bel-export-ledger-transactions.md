@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: a2865984236f3282ee05ddc875bf9a6925df4fa5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e25ebced8fef55476f72b260f10edbab879b02b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839905"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348472"
 ---
 # <a name="export-ledger-transactions"></a>Exporter les écritures comptables
 
@@ -47,7 +47,7 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
     | Avant 10.0.16                            | **Format d’exportation des écritures comptables** sous **États comptables** >  **modèle Exportation des écritures comptables**. |
     | À partir de 10.0.16                     | **Exportation des données de comptabilité générale** sous le modèle **Fichier d’audit standard (SAF-T)**.                                  |
 
-    > ![Configurations ER](media/be-audit-er-configs.png)
+    > ![Configurations ER.](media/be-audit-er-configs.png)
 
 2. Après l’importation, vous devez disposer des versions suivantes, ou les versions ultérieures, des configurations ER :
 
@@ -60,13 +60,13 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
     > [!NOTE]
     > Une fois toutes les configurations ER du tableau précédent importées, définissez l’option **Valeur par défaut pour le mappage de modèle** sur **Oui** pour la configuration **Mappage du modèle de données de comptabilité** sur la page **Configurations**.
 
-    > ![Valeur par défaut de l’option de modèle de mappage](media/be-audit-default-mm.png)
+    > ![Valeur par défaut de l’option de modèle de mappage.](media/be-audit-default-mm.png)
 
 3. À partir de la version 10.0.16, pour utiliser le format **Exportation des données du grand livre (BE)**, définissez le nom de la configuration ER dans un nouveau paramètre de comptabilité. Accédez à **Comptabilité** > **Paramétrage de la comptabilité** > **Paramètres de comptabilité**. 
 4. Développer le raccourci **Rapports électroniques**, puis sélectionnez l’onglet **Comptabilité**. 
 5. Dans le groupe **Exportation des écritures comptables**, dans le champ **Exportation des écritures comptables**, sélectionnez le format **Exportation des données de comptabilité**, puis enregistrez le nouveau paramètre.
 
-    ![Paramètre de comptabilité](media/be-audit-gl-parameter.png)
+    ![Paramètre de comptabilité.](media/be-audit-gl-parameter.png)
 
 ### <a name="generate-the-export-ledger-transactions-report"></a>Générer le rapport Exportation des écritures comptables
 
@@ -87,7 +87,7 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 
 Dans ce cas, le fichier généré contient les données suivantes.
 
-![Données des écritures comptables](media/1_Export_ledger_transactions.png)
+![Données des écritures comptables.](media/1_Export_ledger_transactions.png)
 
 Voici une explication des colonnes de ce fichier :
 

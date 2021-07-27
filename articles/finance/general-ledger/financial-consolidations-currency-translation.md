@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193903"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345378"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d’ensemble de consolidations financières et conversion de devises
 
@@ -66,13 +67,13 @@ Voici quelques-uns des scénarios de consolidation pris en charge par la fonctio
 ## <a name="legal-entity-setup"></a>Paramétrage de l’entité juridique
 Avant de traiter une consolidation, vous devez paramétrer l’entité juridique. Vous pouvez exécuter la consolidation autant de fois que nécessaire, et toutes les données seront converties de la devise comptable de la société source vers la devise définie pour la société de consolidation. Par conséquent, pour la structure organisationnelle suivante, si vous devez d’abord convertir toutes les sociétés nord-américaines en dollar américain (USD) puis en euro (EUR), la devise de la société parent, vous devez avoir au moins deux sociétés de consolidation.
 
-![Structure organisationnelle](./media/organizational-structure.png "Structure organisationnelle")
+![Structure organisationnelle.](./media/organizational-structure.png "Structure organisationnelle")
 
 Dans la structure organisationnelle précédente, vous devez avoir une entité juridique pour la consolidation nord-américaine, car les consolidations s’effectuent toujours de la devise comptable de la société source vers la devise de la société de consolidation. Dans l’exemple, si toutes les sociétés sont incluses dans une consolidation unique, la filiale mexicaine sera convertie de pesos mexicains (MXN) en EUR, et non de MXN en USD puis en EUR.
 
 Lorsque vous créez l’entité juridique, vous pouvez spécifier si la société est utilisée pour le processus de consolidation et le processus d’élimination, ou pour l’un d’eux uniquement. Dans l’illustration suivante, la société est utilisée pour les deux processus. Notez que vous ne pouvez pas valider les journaux d’opérations diverses dans une société de consolidation, mais vous pouvez les valider dans une société d’élimination. Par conséquent, vous souhaitez peut-être avoir une société d’élimination distincte.
 
-![Entité juridique utilisée pour la consolidation et l’élimination](./media/sep-elimination-company.png "Entité juridique utilisée pour la consolidation et l’élimination")
+![Entité juridique utilisée pour la consolidation et l’élimination.](./media/sep-elimination-company.png "Entité juridique utilisée pour la consolidation et l’élimination")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Comptes principaux et groupes de comptes de consolidation
 Vous devez choisir la manière dont vous souhaitez consolider votre plan de comptes. Au cours du processus de consolidation, trois options sont disponibles pour consolider les comptes principaux.
@@ -81,11 +82,11 @@ La première option consiste à utiliser les comptes principaux des sociétés s
 
 La deuxième option consiste à spécifier un compte de consolidation par défaut dans la page **Comptes principaux**. Le compte sera ensuite mis en correspondance avec le compte de consolidation. Cette option peut être utile si vous avez différents plans de comptes ou vous devez les mettre en correspondance avec un graphique défini par le siège.
 
-![Compte de consolidation par défaut spécifié sur la page Comptes principaux](./media/main-accounts.png "Compte de consolidation par défaut spécifié sur la page Comptes principaux")
+![Compte de consolidation par défaut spécifié sur la page Comptes principaux.](./media/main-accounts.png "Compte de consolidation par défaut spécifié sur la page Comptes principaux")
 
 La troisième option consiste à utiliser des groupes de comptes de consolidation. Vous pouvez définir autant de groupes de comptes de consolidation que nécessaire. Ensuite, dans la page **Comptes de consolidation supplémentaires**, vous mettez en correspondance le compte principal du plan de comptes avec le compte requis pour ce groupe.
 
-![Mise en correspondance sur la page Comptes de consolidation supplémentaires](./media/additional-consolidation-accounts.png "Mise en correspondance sur la page Comptes de consolidation supplémentaires")
+![Mise en correspondance sur la page Comptes de consolidation supplémentaires.](./media/additional-consolidation-accounts.png "Mise en correspondance sur la page Comptes de consolidation supplémentaires")
 
 ## <a name="consolidating-online"></a>Consolidation en ligne
 Pour savoir comment entrer les détails des consolidations en ligne, voir [Consolidations financières en ligne](./consolidate-online.md).
@@ -97,7 +98,7 @@ Pour afficher les résultats de la consolidation, plusieurs options sont disponi
 - Consultez la page de liste **Balance comptable** dans la société de consolidation.
 - Dans la liste des transactions de consolidation sur la page **Consolidations**, affichez les soldes créés par date pour chaque société source pour chaque période.
 
-    ![Transactions de consolidation sur la page Consolidations](./media/managing-consolidation-transactions.png "Transactions de consolidation sur la page Consolidations")
+    ![Transactions de consolidation sur la page Consolidations.](./media/managing-consolidation-transactions.png "Transactions de consolidation sur la page Consolidations")
 
 Pour réexécuter la consolidation, vous pouvez simplement traiter la consolidation. Sinon, vous pouvez d’abord sélectionner **Supprimer les transactions** dans la page **Consolidations**.
 Dans le cas où les soldes de votre compte consolidé ne sont pas exacts, ces soldes peuvent être corrigés à l’aide de la page **Ajustements de la période de clôture**.
@@ -118,7 +119,7 @@ Vous trouverez les paramètres des éliminations dans la zone **Paramétrage** d
 
 Vous pouvez définir la date d’effet de la règle d’élimination et sa date d’expiration, selon vos besoins. Si vous souhaitez que la règle d’élimination soit disponible dans le processus de proposition d’élimination, vous devez définir l’option **Actif** sur **Oui**. Sélectionnez un nom de journal du type **Élimination**.
 
-![Propriétés de base sur une règle d’élimination](./media/ledger-elimination-rule-journal.png "Propriétés de base sur une règle d’élimination")
+![Propriétés de base sur une règle d’élimination.](./media/ledger-elimination-rule-journal.png "Propriétés de base sur une règle d’élimination")
 
 Après avoir défini les propriétés de base, sélectionnez **Lignes** pour définir les règles de traitement réelles. Il existe deux options pour les éliminations : vous pouvez éliminer le montant de modification net ou définir un montant fixe.
 
@@ -126,7 +127,7 @@ Sélectionnez les comptes source. Vous pouvez utiliser un astérisque (\*) comme
 
 Après avoir sélectionné les comptes source, utilisez le champ **Spécification de compte** pour spécifier le compte utilisé dans la société de destination. Sélectionnez **Source** pour utiliser le même compte principal que celui défini dans le compte source. Si vous sélectionnez **Défini par l’utilisateur**, vous devez spécifier un compte de destination.
 
-![Page de ligne de règle d’élimination comptable](./media/ledger-elimination-rule-line.png "Page de ligne de règle d’élimination comptable")
+![Page de ligne de règle d’élimination comptable.](./media/ledger-elimination-rule-line.png "Page de ligne de règle d’élimination comptable")
 
 Le champ **Spécification de dimension** fonctionne comme le champ **Spécification de compte**. Sélectionnez **Source** pour utiliser les mêmes dimensions dans la société de destination et la société source. Si vous sélectionnez **Défini par l’utilisateur**, vous devez spécifier les dimensions dans la société de destination en sélectionnant **Dimensions de destination**. Sélectionnez ensuite les dimensions source et les dimensions financières et valeurs utilisées comme source de l’élimination.
 

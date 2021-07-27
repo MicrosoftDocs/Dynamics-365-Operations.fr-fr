@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188932"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350496"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -45,7 +45,7 @@ Une gamme décrit l’ordre des opérations accomplies pour fabriquer un produit
 
 Une gamme simple est séquentielle et ne présente qu’un seul point de départ.  
 
-[![Gamme simple](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Gamme simple.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Si vous activez uniquement les gammes simples dans les paramètres de contrôle de la production, Supply Chain Management génère automatiquement les numéros d’opération (10, 20, 30, etc.) lorsque vous définissez la gamme.
 
@@ -53,7 +53,7 @@ Si vous activez uniquement les gammes simples dans les paramètres de contrôle 
 
 Si vous activez les réseaux de gammes plus complexes dans les paramètres de contrôle de la production, vous pouvez définir des gammes ayant plusieurs points de départ et des opérations pouvant être exécutées en parallèle.  
 
-[![Réseau de gammes](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Réseau de gammes.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Chaque opération ne peut avoir qu’une opération successive, et la gamme entière doit se terminer par une seule opération.
@@ -64,7 +64,7 @@ Si vous activez les réseaux de gammes plus complexes dans les paramètres de co
 
 Parfois, une combinaison de plusieurs ressources opérationnelles ayant des spécifications différentes est requise pour exécuter une opération. Par exemple, une opération d’assemblage peut nécessiter une machine, un outil, et un collaborateur pour chacune des machines pour superviser l’opération. Cet exemple peut être modélisé à l’aide d’opérations parallèles, où une opération est désignée comme opération primaire et les autres comme secondaires.  
 
-[![Gamme ayant des opérations primaire et secondaires](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Gamme ayant des opérations primaire et secondaires.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Généralement, l’opération primaire représente la ressource critique et dicte le temps d’exécution pour les opérations secondaires. Toutefois, lors d’une planification qui implique une capacité finie, les ressources planifiées à la fois pour l’opération primaire et les opérations secondaires doivent être disponibles et avoir une capacité libre simultanément.  
 

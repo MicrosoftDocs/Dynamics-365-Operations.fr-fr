@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897306"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360686"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
 
@@ -71,29 +71,29 @@ Les personnes ont souvent des questions sur l’ordre dans lequel les différent
 
 L’illustration suivante présente la dimension par défaut fixe définie sur le compte principal 401100.
 
-[![Dimensions financières par défaut](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Dimensions financières par défaut.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Pour cet exemple très élémentaires, nous entrons un journal des opérations diverses où la dimension Département est définie pour utiliser la valeur **023** par défaut (Operations). Nous entrons et validons un compte général. L’illustration suivante présente la dimension financière par défaut sous l’en-tête de comptabilité.
 
-[![Journaux des opérations diverses](./media/general-journal.png)](./media/general-journal.png)
+[![Journaux des opérations diverses.](./media/general-journal.png)](./media/general-journal.png)
 
 La dimension par défaut de l’en-tête de journal va générer le département 023 à appliquer par défaut dans la ligne de compte de vente. L’illustration suivante présente la ligne de journal des opérations diverses, où la valeur de dimension par défaut **023** de l’en-tête est appliquée.
 
-[![N° document de journal](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![N° document de journal.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Toutefois, si la ligne est validée, la dimension fixe est appliquée, et la ligne est validée dans le département 022. L’illustration suivante présente le document validé, où la dimension fixe est appliquée pour le compte de vente.
 
-[![Justificatifs de transaction avec une dimension fixe appliquée](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Justificatifs de transaction avec une dimension fixe appliquée.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Exemple 2
 
 Cet exemple utilise le même paramétrage que le premier exemple. Cependant, nous ajoutons un second composant et utilisons la dimension Département en tant que dimension d’équilibrage. Dans l’illustration suivante, **Département** est défini comme dimension financière pour la comptabilité USMF.
 
-[![Illustration montrant le Département comme dimension financière d'équilibrage](./media/ledger.png)](./media/ledger.png)
+[![Illustration montrant le Département comme dimension financière d'équilibrage.](./media/ledger.png)](./media/ledger.png)
 
 Lorsque le même paramétrage d’en-tête de journal est utilisé, et que la même transaction est validée, la dimension fixe est appliquée en premier. Puis la logique d’équilibrage est appliquée pour garantir que chaque département a une entrée équilibrée. L’illustration suivante présente des pièces comptables incluant l’entrée d’équilibrage après que la dimension fixe a été appliquée.
 
-[![Justificatifs de transaction après l'application de l'entrée d'équilibrage](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Justificatifs de transaction après l'application de l'entrée d'équilibrage.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Exemple 3
 
@@ -101,11 +101,11 @@ Dans cet exemple, nous ajoutons une règle avancée. La règle avancée spécifi
 
 Cet exemple est important en raison de la commande. La structure de compte est déterminée une fois le compte principal entré. Si vous faites référence au paramétrage de la structure de compte, le système peut déterminer que le compte principal, les unités commerciales, le département, le centre de coût sont appropriés. À ce stade, la règle avancée n’a pas été déclenchée, car les dimensions fixes ne sont pas appliquées jusqu’à ce que les dimensions par défaut aient été appliquées pour le justificatif de journal lors de la validation. Dans l’illustration suivante, le segment Client n’est pas présent, car les critères de la règle avancée n’ont pas été remplis.
 
-[![Compte général](./media/drop-down.png)](./media/drop-down.png)
+[![Compte général.](./media/drop-down.png)](./media/drop-down.png)
 
 La validation ne sera pas réussi, car la dimension fixe a été appliquée à la fin du processus. La validation de la dimension détermine que le segment Client est nécessaire si le compte principal est 401100 et que le département est 022. La validation ne peut pas se produire en raison d’une erreur de validation. L’illustration suivante présente le message qui apparaît après que la validation de dimension détermine que le client est un segment requis.
 
-[![Détails du message](./media/message.png)](./media/message.png)
+[![Détails du message.](./media/message.png)](./media/message.png)
 
 Dans cet exemple, vous devez remplacer la valeur par défaut pour que la règle avancée se déclenche et que vous puissiez entrer le segment Client. Toutefois, cette solution n’est pas toujours possible, et certains utilisateurs ne se rendent même pas compte des règles de validation. Par conséquent, il est important que vous compreniez dans quel l’ordre les dimensions par défaut sont appliquées lorsque vous paramétrez votre plan de comptes.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c360985509f8f1379ed4a9bd17b95f2d8c85340e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bc2422e395239560be580ec9dd1335d93b20aadc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808590"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354879"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Créer des ordres de travail à partir de demandes de maintenance
 
@@ -50,7 +50,7 @@ Après avoir créé des demandes de maintenance, vous pouvez facilement les conv
 
 6. Sélectionnez **Gestion des actifs** \> **Commun** \> **Ordres de travail** \> **Tous les ordres de travail**, puis ouvrez le nouvel ordre de travail.
 
-    ![Ouvrir le nouvel ordre de travail](media/05-manage-maintenance-requests.png)
+    ![Ouvrir le nouvel ordre de travail.](media/05-manage-maintenance-requests.png)
 
 
 

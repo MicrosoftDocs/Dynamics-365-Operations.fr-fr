@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dd652af3100f8de59e06490443baeebca58a4dd3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7976a7d555c04cb2ea01a2dbe571f6b8b440b69a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838536"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347066"
 ---
 # <a name="maintenance-forecasts"></a>Prévisions en matière de maintenance
 
@@ -102,7 +102,7 @@ Pour avoir une vue d’ensemble de l’emplacement d’utilisation de l’articl
 
 L’illustration suivante présente un exemple de la liste de page **Prévisions en matière de maintenance de l’ordre de travail**.
 
-![Figure 1](media/06-work-orders.png)
+![Figure 1.](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Mise à jour automatique des prévisions de l’ordre de travail
@@ -120,7 +120,7 @@ Si les coûts horaires, les coûts d’article et les dépenses sont mises à jo
 
 L’illustration suivante présente un exemple de la boîte de dialogue **Mettre à jour les prévisions de l’ordre de travail**.
 
-![Figure 2](media/07-work-orders.png)
+![Figure 2.](media/07-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

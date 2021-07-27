@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792927"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348240"
 ---
 # <a name="create-and-update-store-hours"></a>Créer et mettre à jour les heures d’ouverture du magasin
 
@@ -49,14 +49,14 @@ Pour configurer les heures d’ouverture de magasin, procédez comme suit :
     > [!NOTE]
     > Vous pouvez créer plusieurs modèles avec des dates de début et de fin se chevauchant. Par conséquent, vous pouvez, par exemple, définir les heures d’ouverture de magasin pour les magasins dans différents fuseaux horaires.
 
-    ![Boîte de dialogue Ajouter une plage](../dev-itpro/media/Storehours1.png "Boîte de dialogue Ajouter une plage")
+    ![Boîte de dialogue Ajouter une plage.](../dev-itpro/media/Storehours1.png "Boîte de dialogue Ajouter une plage")
 
 4. Associez le modèle des heures d’ouverture de magasin avec les magasins où il est utilisé. Dans la boîte de dialogue **Choisir des nœuds d’organisation**, sélectionnez les magasins, les régions et les organisations auxquels le modèle doit être associé.
 
     - Seul un modèle d’heures d’ouverture de magasin peut être associé à chaque magasin.
     - Utilisez les boutons de flèche pour sélectionner les magasins, les régions ou les organisations. Le calendrier est disponible pour les magasins ou les groupes de magasins, et il est visible au PDV pour référence.
 
-    ![Boîte de dialogue Choisir des nœuds d’organisation](../dev-itpro/media/Storehours2.png "Boîte de dialogue Choisir des nœuds d’organisation")
+    ![Boîte de dialogue Choisir des nœuds d’organisation.](../dev-itpro/media/Storehours2.png "Boîte de dialogue Choisir des nœuds d’organisation")
 
 5. Sur la page **Programme de distribution**, exécutez les tâches **1070** et **1090** pour rendre les heures d’ouverture de magasin disponibles au PDV.
 
@@ -75,7 +75,7 @@ Procédez comme suit pour ajouter des heures d’ouverture de magasin aux reçus
 
 Les reçus du PDV incluent désormais les heures d’ouverture de magasin. Si des congés sont inclus dans le modèle, ils figurent sur le ticket de caisse.
 
-![Exemple de ticket de caisse](../dev-itpro/media/Storehours3.png "Exemple de ticket de caisse")
+![Exemple de ticket de caisse.](../dev-itpro/media/Storehours3.png "Exemple de ticket de caisse")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

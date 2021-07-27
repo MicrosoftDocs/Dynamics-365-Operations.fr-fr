@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353802"
 ---
 # <a name="pickup-information-module"></a>Module Information sur les prélèvements
 
@@ -40,7 +40,7 @@ Si plusieurs articles sont sélectionnés pour le retrait dans plusieurs magasin
 
 L’illustration suivante montre un exemple de sélection de créneau horaire via le module d’informations de retrait sur une page de paiement.
 
-![Exemple de module d’informations de retrait sur une page de paiement](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Exemple de module d’informations de retrait sur une page de paiement.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Propriétés du module
 
@@ -56,11 +56,11 @@ Pour obtenir des instructions sur la façon d’ajouter un module d’informatio
 
 L’illustration suivante montre un exemple de page de paiement pour l’e-commerce qui comprend des plages horaires pour les éléments de campagne de retrait.
 
-![Exemple de page de paiement pour l’e-commerce qui comprend des plages horaires pour les articles de lignes de retrait](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Exemple de page de paiement pour l’e-commerce qui comprend des plages horaires pour les articles de lignes de retrait.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Créer et mettre à jour des plages horaires pour le ramassage des clients](dev-itpro/pickup-timeslots.md)
+[Créer et mettre à jour des créneaux horaires pour le prélèvement client](dev-itpro/pickup-timeslots.md)
 
 [Module Validation](add-checkout-module.md)
 

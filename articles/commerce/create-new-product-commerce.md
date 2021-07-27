@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795713"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352420"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Créer un produit dans Commerce
 
@@ -49,13 +49,13 @@ Un produit est principalement défini par un numéro, un nom, ainsi qu’une des
 
 L’image suivant présente un exemple de produit ajouté.
 
-![Créer un produit](media/create-new-product.png)
+![Créer un produit.](media/create-new-product.png)
 
 Une fois qu’un produit est ajouté, des données supplémentaires peuvent être paramétrées pour lui, telles que **Description du produit**, **Groupes de variantes**, **Groupes de dimensions**, **Attributs du produit** et **Produits connexes**.
 
 L’image suivante montre les détails supplémentaires d’un produit.
 
-![Détails de produit](media/create-new-product-2.png)
+![Détails de produit.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Créer des variantes de produits
 
@@ -74,23 +74,23 @@ Pour vendre un produit, il doit d’abord être remis à une entité juridique.
 
 1. Sur la page du produit, sélectionnez **Lancer des produits**.
 
-    ![Lancer des produits](media/create-new-product-3.png)
+    ![Lancer le produit.](media/create-new-product-3.png)
 
 1. Sélectionnez le produit à lancer, puis sélectionnez **Suivant**.
 
-    ![Choisissez le produit à lancer](media/create-new-product-4.png)
+    ![Choisir le produit à lancer.](media/create-new-product-4.png)
 
 1. Sélectionnez le jeu de variantes de produit à lancer, puis sélectionnez **Suivant**.
 
-    ![Choisissez des variantes à lancer](media/create-new-product-5.png)
+    ![Choisir des variantes à lancer.](media/create-new-product-5.png)
 
 1. Sélectionnez l’entité juridique, puis sélectionnez **Suivant**.
 
-    ![Choisir une entité juridique](media/create-new-product-6.png)
+    ![Choisir une entité juridique.](media/create-new-product-6.png)
 
 1. Sélectionnez **Terminer**.
 
-    ![Terminer le lancement de produit](media/create-new-product-7.png)
+    ![Terminer le lancement de produit.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Configurer un produit lancé
 
@@ -105,7 +105,7 @@ Une fois qu’un produit est lancé, il nécessitera alors une configuration sup
 
 L’image suivante présente un exemple de configuration pour un produit lancé.
 
-![Configurer un produit lancé](media/create-new-product-8.png)
+![Configurer un produit lancé.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

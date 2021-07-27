@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826009"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354759"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Workflows d’approbation du journal de stock
 
@@ -55,7 +55,7 @@ Pour créer vos workflows d’approbation du journal de stock :
     - **Journal de nomenclature de stock**
     - **Journal d’ajustement du stock**
 
-    ![Boîte de dialogue Créer un workflow](media/journal-workflow-create-workflow.png "Boîte de dialogue Créer un workflow")
+    ![Boîte de dialogue Créer un workflow.](media/journal-workflow-create-workflow.png "Boîte de dialogue Créer un workflow")
 
 1. L’application Éditeur de workflow se lance sur votre ordinateur. (Vous pouvez être invité à approuver cette action.) Utilisez-la pour concevoir votre workflow selon vos besoins. Pour plus d’informations sur l’utilisation de l’éditeur de workflow, voir [Vue d’ensemble du système de workflow](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Après avoir enregistré et fermé l’application Éditeur de workflow, vous devez choisir d’activer cette version de workflow ou de la conserver comme inactive.
@@ -73,7 +73,7 @@ Pour associer un workflow du journal de stock à un nom de journal de stock :
 1. Sélectionnez un nom de journal dans la colonne de liste pour ouvrir sa page de paramètres.
 1. Dans l’organisateur **Général**, définissez l’option **Workflow d’approbation** sur **Oui**. Si vous êtes invité à approuver l’action, cliquez sur **Oui**.
 
-    ![Affecter un workflow à un nom de journal](media/journal-workflow-journal-name.png "Affecter un workflow à un nom de journal")
+    ![Affecter un workflow à un nom de journal.](media/journal-workflow-journal-name.png "Affecter un workflow à un nom de journal")
 
 1. Ouvrez la liste déroulante **Workflow** et sélectionnez le workflow approprié. La liste affiche chaque workflow actif que vous avez créé à l’aide de l’application Éditeur de workflow.
 
@@ -87,7 +87,7 @@ Après avoir associé un nom de journal de stock à son workflow d’approbation
 1. Complétez le journal selon les besoins.
 1. Lorsque vous créez ou ouvrez un journal de stock auquel est associé un workflow d’approbation, le bouton **Workflow** est actif dans le volet Actions. Lorsque vous êtes prêt à soumettre le journal pour approbation, cliquez sur le bouton **Workflow** pour ouvrir une boîte de dialogue déroulante, puis sélectionnez **Soumettre**. La demande d’approbation est ensuite envoyée à l’approbateur approprié, qui en est informé à l’aide de la méthode de notification configurée pour le workflow.
 
-    ![Soumettre un journal pour approbation](media/journal-workflow-inventory-journal.png "Soumettre un journal pour approbation")
+    ![Soumettre un journal pour approbation.](media/journal-workflow-inventory-journal.png "Soumettre un journal pour approbation")
 
 Pour rappeler une demande d’approbation, ouvrez le journal approprié, cliquez sur le bouton **Workflow**, puis sélectionnez **Rappeler**. Le workflow est alors réinitialisé.
 

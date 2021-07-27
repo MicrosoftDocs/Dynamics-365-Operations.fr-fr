@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac1495f12a51d72a90ad88fc2d8e0a574418467
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796994"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345132"
 ---
 # <a name="install-the-pos-layout-designer"></a>Installer le concepteur de mise en page du PDV
 
@@ -40,7 +40,7 @@ Le l’interface de conception graphique de MPOS ou PDV Cloud est contrôlée pa
 5. Une fois l’installation terminée, sur la page **Se connecter**, saisissez votre nom d’utilisateur et votre mot de passe Commerce, puis cliquez sur **Se connecter** pour démarrer le concepteur.
 6. Une fois que vos informations d’identification sont validées et que le concepteur démarre, vous pouvez concevoir votre propre mise en page ou modifier la mise en page existante.
 
-    [![Mise en page dans le concepteur en un seul clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![Mise en page dans le concepteur en un seul clic.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Résolution des problèmes d’installation du concepteur de mise en page
 

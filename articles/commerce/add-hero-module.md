@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797645"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347508"
 ---
 # <a name="content-block-module"></a>Module de bloc de contenu
 
@@ -46,15 +46,15 @@ De plus, le thème peut exposer différentes propriétés pour chaque dispositio
 
 L’image suivante montre un exemple d’un module de bloc de contenu avec une disposition de bannière.
 
-![Exemple d’un module de bannière](./media/Hero.PNG)
+![Exemple d’un module de bannière.](./media/Hero.PNG)
 
 L’image suivante montre un exemple d’un module de bloc de contenu avec une disposition de fonctionnalité.
 
-![Exemples de modules de fonctionnalités](./media/Feature.PNG)
+![Exemples de modules de fonctionnalités.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Propriétés du module de bloc de contenu
 
-| Nom de la propriété  | Valeurs | Description |
+| Nom de la propriété  | Valeurs | Description  |
 |----------------|--------|-------------|
 | Image          | Fichier image | Une image peut être utilisée pour présenter un produit ou une promotion. Une image peut être chargée dans la galerie d’images, ou une image existante peut être utilisée. |
 | En-tête        | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Chaque module de bannière peut avoir un en-tête. Par défaut, la balise d’en-tête **H2** sert pour l’en-tête. Toutefois, la balise peut être modifiée pour satisfaire aux exigences d’accessibilité. |

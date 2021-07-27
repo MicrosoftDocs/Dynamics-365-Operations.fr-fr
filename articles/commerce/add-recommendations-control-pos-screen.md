@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797477"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348342"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Ajouter des recommandations à l’écran de transaction
 
@@ -43,7 +43,7 @@ Vous pouvez afficher les recommandations de produit sur votre périphérique de 
 6. Lorsque vous vous connectez, une page similaire à celle illustrée ci-dessous s’affiche. La mise en page diffère selon les personnalisations que vous avez apportées à votre magasin.
 
 
-    [![Concepteur de mise en page](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Concepteur de mise en page.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Choisir une option d’affichage
 
@@ -58,11 +58,11 @@ Deux options de configuration sont disponibles. Choisissez l’option qui convie
 1. Réduisez la hauteur de la zone des détails des lignes de transaction de manière à ce qu’elle soit identique à celle du volet Client à sa gauche.
 
 
-    [![Hauteur de la zone de détails des lignes de transaction réduite](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hauteur de la zone de détails des lignes de transaction réduite.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Dans le menu à gauche, déplacez le contrôle de recommandations entre la zone des détails des lignes de transaction et le groupe de boutons en bas au centre de l’écran de transaction. Redimensionnez le contrôle de manière à l’ajuster dans cet espace.
 
-    [![Contrôle de recommandations ajouté à la disposition](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Contrôle de recommandations ajouté à la disposition.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Cliquez sur **X** pour enregistrer et fermer le concepteur de mise en page.
@@ -77,13 +77,13 @@ Deux options de configuration sont disponibles. Choisissez l’option qui convie
 
 2. Cliquez sur **Personnaliser**.
 
-    [![Personnalisation - Boîte de dialogue Contrôle de l’onglet](./media/pic-5.png)](./media/pic-5.png)
+    [![Personnalisation - Boîte de dialogue Contrôle de l’onglet.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Cliquez sur **Nouvel onglet**.
 4. Recherchez le nouvel onglet que vous venez d’ajouter. Vous devrez peut-être faire défiler l’écran vers le bas.
 5. Dans la liste déroulante **Contenu**, sélectionnez **Produits recommandés**.
 
-    [![Sélection de Produits recommandés dans le champ Contenu](./media/pic-6.png)](./media/pic-6.png)
+    [![Sélection de Produits recommandés dans le champ Contenu.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Dans le champ **Libellé**, saisissez un nom pour l’onglet de recommandations. Par exemple, saisissez « Produits recommandés ».
 7. Dans le champ **Image**, sélectionnez l’image à afficher sous l’onglet.

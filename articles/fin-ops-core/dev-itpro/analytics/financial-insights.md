@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345810"
 ---
 # <a name="financial-analysis"></a>Analyse financière
 
@@ -60,7 +60,7 @@ Pour apparaître dans les tableaux d’analyse et être inclus dans d’autres �
 ## <a name="entity-store"></a>Magasin des entités
 Les données de l’**analyse financière** sont extraites du magasin des entités (**Administration du système** \> **Paramétrage** \> **Magasin des entités**). Si vous ouvrez l’espace de travail **Vue d’ensemble d’un processus CFO** ou de l’**analyse financière** et que le message d’avertissement suivant s’affiche dans les éléments visuels, vous devez mettre à jour les entités.
 
-![Avertissement](./media/Cantdisplay.png)
+![Avertissement.](./media/Cantdisplay.png)
 
 Vous devez mettre à jour les entités suivantes pour visualiser les données dans les espaces de travail de l’**analyse financière** :
 
@@ -124,7 +124,7 @@ Les utilisateurs peuvent filtrer l’état à l’aide du volet **Filtre** à ga
 - **Filtres au niveau de l’élément visuel** – Ces filtres sont appliqués uniquement à l’élément visuel sélectionné. Ces filtres sont appliqués en plus des filtres au niveau de la page.
 - **Filtre d’extraction** – Ce filtre utilise un élément visuel « source » qui est appliqué à l’élément visuel actuel lorsque vous effectuez une extraction de l’élément visuel source vers l’élément visuel actuel.
 
-![Options de filtre](./media/filter.png)
+![Options de filtre.](./media/filter.png)
 
 Pour supprimer une valeur de filtre spécifique, sélectionnez le symbole d’effacement en regard de celle-ci. Ne supprimez pas un filtre en cliquant sur la croix (X). Si vous cliquez sur la croix (X), le champ de filtrage est supprimé comme option de filtre. Si vous supprimez par erreur un champ du filtre, fermez l’espace de travail, puis rouvrez-le. Les paramètres de filtre par défaut seront réappliqués.
 
@@ -169,25 +169,25 @@ Plusieurs niveaux d’exploration sont disponibles via Power BI. Chaque niveau a
 
 Dans l’illustration suivante, l’instruction **Balance comptable** est réduite au niveau le plus élevé de la hiérarchie de ligne, à savoir le type de compte principal.
 
-![Relevé de balance comptable](./media/trial-balance.png)
+![Relevé de balance comptable.](./media/trial-balance.png)
 
 Pour afficher le niveau suivant de la hiérarchie, à savoir les catégories de compte principal, vous pouvez définir le champ **Explorer** sur **Lignes**, puis sélectionnez le bouton **Développer** (le troisième bouton après le champ Explorer). Toutes les catégories de compte principal sont maintenant développées. Actuellement, Power BI ne permet pas de développer une seule ligne ou colonne, mais affiche toutes les autres lignes ou colonnes.
 
-![Exploration descendante de la balance comptable sur les lignes](./media/trial-balance2.png)
+![Exploration descendante de la balance comptable sur les lignes.](./media/trial-balance2.png)
 
 Pour développer les comptes principaux de toutes les lignes, vous pouvez utiliser à nouveau le bouton **Développer**. Toutefois, pour accéder aux comptes principaux d’une seule ligne, sélectionnez d’abord le bouton **Descendre dans la hiérarchie** (la flèche unique pointant vers le bas à droite de la fenêtre), puis sélectionnez la ligne à explorer. L’illustration suivante montre le résultat lorsque la ligne **Ventes** est sélectionnée après activation du bouton **Descendre dans la hiérarchie**.
 
-![Bouton d’extension de la balance comptable](./media/trial-balance3.png)
+![Bouton d’extension de la balance comptable.](./media/trial-balance3.png)
 
 Une fois que vous avez exploré une ligne unique, plusieurs clics sont nécessaires pour revenir à la balance comptable complète. Le bouton **Monter dans la hiérarchie** (le premier bouton après le champ **Explorer**) est utilisé uniquement dans le contexte de la catégorie **Ventes**, comme le montre l’illustration suivante.
 
-![Bouton d’exploration ascendante de la balance comptable](./media/trial-balance4.png)
+![Bouton d’exploration ascendante de la balance comptable.](./media/trial-balance4.png)
 
 Vous pouvez continuer à utiliser le bouton **Monter dans la hiérarchie** pour revenir au niveau le plus élevé de la récapitulation des lignes.
 
 Power BI dispose également d’un bouton permettant d’accéder au niveau suivant de la hiérarchie (le deuxième bouton après le champ **Explorer**). L’effet de ce bouton diffère de celui du bouton **Développer** (le troisième bouton après le champ **Explorer**), qui permet de développer la hiérarchie. Lorsque vous développez la hiérarchie, celle-ci est conservée dans l’état. Par exemple, comme indiqué précédemment, si vous développez le type de compte principal, l’état affiche toujours le type de compte principal. Toutefois, lorsque vous accédez au niveau suivant de la hiérarchie, l’état n’affiche plus le parent de la hiérarchie, comme le montre l’illustration suivante.
 
-![Bouton d’exploration de retour de la balance comptable](./media/trial-balance5.png)
+![Bouton d’exploration de retour de la balance comptable.](./media/trial-balance5.png)
 
 Pour afficher les détails de transaction des soldes résumés, vous pouvez sélectionner des montants à explorer dans Financial and Operations.
 
@@ -226,7 +226,7 @@ Actuellement, les tableaux d’analyse ne prennent pas en charge les hiérarchie
 ## <a name="data-limitations"></a>Limitations des données
 Les éléments visuels des tableaux d’analyse ont une limite au nombre de lignes qui peuvent être affichées. Actuellement, la limite est définie sur 30 000. Si vous dépassez cette limite, un symbole d’avertissement s’affiche sur l’élément visuel pour vous en informer.
 
-![Limitations des données](./media/data-limit.png)
+![Limitations des données.](./media/data-limit.png)
 
 Si le nombre maximal est dépassé, les totaux indiqués dans le tableau d’analyse sont incorrects, car toutes les lignes n’ont pas été chargées dans l’élément visuel.
 

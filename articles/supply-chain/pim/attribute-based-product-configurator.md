@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359099"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Prix de vente basés sur les attributs pour la configuration de produits basée sur les contraintes
 
@@ -33,7 +33,7 @@ Pour définir votre devise par défaut :
 1. Ouvrez l’onglet **Modèles de configuration de produits basés sur les contraintes**.
 1. Ouvrez la liste déroulante **Devise par défaut** et sélectionnez votre devise.
 
-    ![Définir la devise par défaut pour la configuration de produit basée sur les contraintes](media/prod-config-currency.png "Définir la devise par défaut pour la configuration de produit basée sur les contraintes")
+    ![Définissez la devise par défaut pour la configuration de produit basée sur les contraintes.](media/prod-config-currency.png "Définir la devise par défaut pour la configuration de produit basée sur les contraintes")
 
 1. Si vous souhaitez joindre un fichier Excel avec une répartition des prix pour toutes les lignes de commande ou de devis, dans la section **Modèle de prix**, définissez **Attacher** sur *Oui*.
 
@@ -60,7 +60,7 @@ L’exemple suivant montre un prix de base d’un nombre statique de 899,95 EUR
 - Pour une finition Palissandre, ajouter 119,95 EUR.
 - Ajouter 12,95 EUR pour chaque unité de hauteur de haut parleur.
 
-![Exemple de modèle de prix](media/prod-config-rules-example.png "Exemple de modèle de prix")
+![Exemple de modèle de prix.](media/prod-config-rules-example.png "Exemple de modèle de prix")
 
 ## <a name="add-support-for-multiple-currencies"></a>Ajouter la prise en charge de plusieurs devises
 
@@ -81,7 +81,7 @@ Pour ajouter des prix explicites dans une devise supplémentaire :
 
 Dans l’exemple ci-dessous, _EUR_ est la devise par défaut, et _USD_ a été ajouté en tant que devise supplémentaire.
 
-![Exemple de modèle avec plusieurs devises](media/prod-config-rules-currency-example.png "Exemple de modèle avec plusieurs devises")
+![Exemple de modèle avec plusieurs devises.](media/prod-config-rules-currency-example.png "Exemple de modèle avec plusieurs devises")
 
 > [!NOTE]
 > Vous ne pouvez pas ajouter de règles d’expression uniques pour une devise autre que celle par défaut. Pour créer des règles d’expression qui ne seraient pertinentes que pour une devise autre que la devise par défaut, définissez l’expression de prix pour la devise par défaut sur zéro. Définissez ensuite l’expression appropriée pour la devise autre que celle par défaut.
@@ -93,11 +93,11 @@ Pour tester le fonctionnement des prix de vente dans une session de configuratio
 - Utilisez les paramètres de configuration proposés ici pour sélectionner les options du produit, puis voir comment elles affectent la valeur indiquée pour **Prix et date d’expédition**.
 - Sélectionnez **Afficher la répartition des prix** pour télécharger un document Excel qui montre tous les détails sur la façon dont le prix a été calculé.
 
-![Tester votre modèle de produit](media/prod-config-test.png "Tester votre modèle de produit")
+![Testez votre modèle de produit.](media/prod-config-test.png "Tester votre modèle de produit")
 
 La feuille de calcul téléchargée montre à la fois la valeur absolue et la contribution sous forme de pourcentage pour chaque élément de prix actif. Si vous avez défini l’option de modèle de prix **Attacher** sur la page **Paramètres de gestion des informations sur les produits**, cette feuille Excel est jointe à la ligne de commande ou de devis.
 
-![Feuille de calcul Excel montrant la répartition des prix](media/prod-config-excel-example.png "Feuille de calcul Excel montrant la répartition des prix")
+![Feuille de calcul Excel montrant la répartition des prix.](media/prod-config-excel-example.png "Feuille de calcul Excel montrant la répartition des prix")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Configurer des critères de sélection pour les modèles de prix
 
@@ -116,7 +116,7 @@ Pour configurer des critères de sélection pour les modèles de prix :
     - **Début de validité** - Spécifiez le premier jour où la requête s’appliquera.
     - **Expiration** - Spécifiez la dernière date à laquelle la requête s’appliquera.
 
-    ![Critères de modèle de prix](media/prod-config-price-model-criteria.png "Critères de modèle de prix")
+    ![Critères de modèle de prix.](media/prod-config-price-model-criteria.png "Critères de modèle de prix")
 
 1. Sélectionnez la ligne de la requête que vous souhaitez définir, puis sélectionnez **Modifier** sur le **Volet Actions**. La boîte de dialogue du concepteur de requêtes s’ouvre. Le concepteur fonctionne comme la plupart des concepteurs de requêtes dans Supply Chain Management. Utilisez-le pour définir les conditions dans lesquelles le modèle de prix de la ligne sélectionnée doit être appliqué.
 
@@ -137,7 +137,7 @@ La dernière étape consiste à spécifier les prix de vente basés sur les attr
 1. Sélectionnez le modèle de configuration de produit cible.
 1. Dans le volet Action, ouvrez l’onglet **Modèle** et, dans le groupe **Détails du modèle de produit**, sélectionnez **Versions**.
 1. La page **Versions** s’ouvre. Assurez-vous que **Méthode de tarification** est défini sur **Basé sur les attributs**.
-    ![Définir la méthode de tarification sur Basé sur les attributs](media/prod-config-versions.png "Définir la méthode de tarification sur Basé sur les attributs")
+    ![Définissez la méthode de tarification sur Basé sur les attributs.](media/prod-config-versions.png "Définir la méthode de tarification sur Basé sur les attributs")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

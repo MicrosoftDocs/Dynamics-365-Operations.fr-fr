@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: c34410a8c817de9fed350bf2cd2dd918a37c230f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0cd19f218e9fa05cd23c52fdf9bbdac6ad82a23b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795355"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357712"
 ---
 # <a name="social-share-module"></a>Module Partage social
 
@@ -36,11 +36,11 @@ Chaque plateforme de média social peut suivre les cookies, ce module oblige don
 
 L’illustration suivante met en évidence un exemple de module de partage social utilisé sur une page de détails de produit.
 
-![Exemple de module de partage social](./media/ecommerce-socialshare.png)
+![Exemple de module de partage social.](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Propriétés du module Partage social
 
-| Nom de la propriété             | Valeur                 | Description |
+| Nom de la propriété             | Valeur                  | Description  |
 |---------------------------|-----------------------|-------------|
 | Légende                  | Détails | Cette propriété spécifie une légende pour le module. |
 | Orientation | **Horizontal** ou **Vertical**  | Cette propriété définit l’orientation de la mise en page des éléments de médias sociaux. |

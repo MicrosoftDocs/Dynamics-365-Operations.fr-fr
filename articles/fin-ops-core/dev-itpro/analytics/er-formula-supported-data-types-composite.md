@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224090"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355344"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Types de données composites pris en charge pour les formules des États électroniques
 
@@ -43,11 +43,11 @@ La valeur par défaut d’une *classe* est **null**.
 
 L’illustration suivante montre comment la source de données **Informations système (xInfo)** du type **Classe** est ajouté pour rendre l’instance de la classe d’application **xInfo** et appeler sa méthode **productName()** pour recevoir le nom de l’application en cours. Le nom de l’application en cours est récupéré au moment de l’exécution par l’exécution de la liaison `xInfo.productName` qui a été configurée pour le champ **Nom du logiciel (SoftwareName)** du modèle de données ER. Cette liaison appelle la méthode `productName()` de la classe d’application **xInfo** qui est représentée dans le mappage de modèle actuel en tant que source de données **Informations système (xInfo)**.
 
-[![Configuration d’une source de données Classe dans le concepteur de mappage de modèle ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Configuration d’une source de données Classe dans le concepteur de mappage de modèle ER.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 L’illustration suivante montre comment le format ER est configuré pour placer le nom d’application fourni dans les documents générés. Le champ **Nom du logiciel (SoftwareName)** du modèle de données utilisé était lié au composant **Chaîne** imbriqué sous l’élément XML **softwareUsed** du format ER. Ainsi, le nom de l’application en cours est placé au moment de l’exécution dans l’élément XML **softwareUsed** d’un document généré au format XML.
 
-[![Configuration de la structure d’un document électronique sortant dans le concepteur de format ER](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Configuration de la structure d’un document électronique sortant dans le concepteur de format ER.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Conteneur
 
@@ -60,7 +60,7 @@ La valeur par défaut d’un *conteneur* est **null**.
 
 L’illustration suivante montre comment le champ **Bitmap(Image)** du type *Conteneur* est lié au champ **Logo** du modèle de données du type **Conteneur** dans le mappage du modèle **Facture de vente**. Cette liaison rend le logo de l’entreprise disponible dans n’importe quel format ER conçu pour la définition racine **Facture de vente** et qui utilise ce mappage de modèle au moment de l’exécution.
 
-[![Liaison d’un champ du type Conteneur au concepteur de mappage de modèle ER](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Liaison d’un champ du type Conteneur au concepteur de mappage de modèle ER.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Enregistrer
 
@@ -109,7 +109,7 @@ La valeur par défaut d’un *objet* est **null**.
 
 L’illustration suivante montre comment la source de données **ReportDataContract** du type *Objet* est ajoutée pour transmettre des informations sur une facture générée du code source au modèle de mappage **Facture de projet**. Par exemple, le texte de l’instance de facture est transmis dans le cadre du contexte d’exécution. Ce texte est extrait du code source à l’exécution par l’exécution de la liaison `ReportDataContract.parmInvoiceInstanceText` qui a été configurée pour le champ **Note** du modèle de données ER. Cette liaison appelle la méthode `parmInvoiceInstanceText()` de la classe d’application **PSAProjInvoiceContract** qui est représentée dans le mappage de modèle actuel en tant que source de données **ReportDataContract**.
 
-[![Configuration d’une source de données Objet dans le concepteur de mappage de modèle ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Configuration d’une source de données Objet dans le concepteur de mappage de modèle ER.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Pour savoir comment transmettre les détails du contexte d’exécution du code source à la solution ER en cours d’exécution, consultez [Développer des artefacts d’application pour appeler l’état conçu](er-quick-start1-new-solution.md#DevelopCustomCode).
 

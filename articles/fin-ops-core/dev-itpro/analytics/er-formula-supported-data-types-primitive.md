@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224091"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355320"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Types de données primitifs pris en charge pour les formules des États électroniques
 
@@ -118,7 +118,7 @@ Une *énumération* de modèle peut être utilisée dans les expressions de tout
 
 L’illustration suivante montre comment ajouter l’énumération de format **Liste des sous-catégories de taxe au preneur Natura** au format ER modifiable.
 
-[![Configuration d’une énumération de format dans le concepteur de format ER](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Configuration d’une énumération de format dans le concepteur de format ER.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Une *énumération* de format ne peut être utilisée que dans les expressions du format ER où l’*énumération* a été introduite.
 
@@ -126,15 +126,15 @@ Vous devez utiliser le type approprié de sources de données ER pour intégrer 
 
 - Les énumérations d’applications sont accessibles en utilisant les sources de données **Dynamics 365 for Operations \ Énumération** et **Général \ Paramètres d’entrée utilisateur**. L’illustration suivante montre comment ajouter au format ER modifiable les sources de données **appenumNoYes** et **uipNoYes** qui se réfèrent à l’énumération d’applications **NoYes**.
 
-    [![Ajout de sources de données d’énumération d’applications dans le concepteur de format ER](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Ajout de sources de données d’énumération d’applications dans le concepteur de format ER.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Les énumérations de modèles de données sont accessibles en utilisant les sources de données **Modèle de données\Énumération** et **Modèle de données\Paramètres d’entrée utilisateur d’énumération**. L’illustration suivante montre comment ajouter au format ER modifiable la source de données **CustVendCorrectiveReasonCode** qui se réfère à l’énumération de modèles de données **CustVendCorrectiveReasonCode**.
 
-    [![Ajout de sources de données d’énumération de modèles dans le concepteur de format ER](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Ajout de sources de données d’énumération de modèles dans le concepteur de format ER.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Les énumérations de formats sont accessibles en utilisant les sources de données **Format\Énumération** et **Format\Paramètres d’entrée utilisateur d’énumération**. L’illustration suivante montre comment ajouter au format ER modifiable la source de données **NaturaReverseCharge** qui se réfère à l’énumération de format **Sous-catégories de taxe au preneur Natura**.
 
-    [![Ajout de sources de données d’énumération de formats dans le concepteur de format ER](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Ajout de sources de données d’énumération de formats dans le concepteur de format ER.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 Une *énumération* n’a pas de conversions implicites. Cependant, vous pouvez utiliser la fonction de conversion [TEXT](er-functions-text-text.md) pour convertir une *énumération* en chaîne de texte. Cette conversion ne dépend pas de la langue. Pour savoir comment associer un valeur *énumération* avec les étiquettes spécifiques à la langue appropriées, voir les exemples d’utilisation des fonctions [LISTOFFIELDS](er-functions-list-listoffields.md) et [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md).
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6e8eefe7afe385ca77eca6027638ff938e1356e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b69156ee79dbbe8cbb8f5eb5988a751f0488d8e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357736"
 ---
 # <a name="site-selector-module"></a>Module de sélection de site
 
@@ -37,11 +37,11 @@ Le module de sélecteur de sites doit être configuré avec la liste des sites (
 
 L’illustration suivante montre un exemple de module de sélecteur de sites qui figure dans l’en-tête d’une page de site.
 
-![Exemple de module de sélecteur de sites dans l’en-tête d’une page de site](./media/ecommerce-sitepicker.PNG)
+![Exemple de module de sélecteur de sites dans l’en-tête d’une page de site.](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Propriétés du module de sélecteur de sites
 
-| Nom de la propriété | Valeur                 | Description |
+| Nom de la propriété | Valeur                  | Description  |
 |---------------|-----------------------|-------------|
 | Titre       | Détails                  | En-tête du module. |
 | Options de site  | Nom, image, URL      | Cette propriété spécifie un nom, un lien vers la page d’accueil du site et une image facultative à afficher pour chaque site inclus dans le module. L’image peut être un drapeau ou une représentation d’un marché, d’une région ou d’un lieu. |

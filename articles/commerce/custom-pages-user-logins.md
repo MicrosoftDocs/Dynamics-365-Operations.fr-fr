@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349648"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Paramétrer des pages personnalisées pour les connexions utilisateur
 
@@ -40,7 +40,7 @@ Les pages Commerce personnalisées peuvent être générées en utilisant les mo
 
 Après avoir paramétré votre client Azure AD B2C et l’avoir associé à votre environnement Commerce, cliquez sur la page **Azure AD B2C** dans le portail Azure, puis, dans le menu, sous **Stratégies**, sélectionnez **Flux utilisateurs (stratégies)**.
 
-![Commande Flux utilisateurs (stratégie) dans le menu](./media/B2C_CustomPage_PoliciesMenu.png)
+![Commande Flux utilisateurs (stratégie) dans le menu.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Vous pouvez désormais configurer les flux de connexion utilisateur « Inscription et connexion », « Modification de profil » et « Réinitialisation du mot de passe ».
 
@@ -54,13 +54,13 @@ Pour configurer la stratégie « Inscription et connexion », procédez comme 
 1. Dans la colonne **Attribut de collecte**, activez les cases à cocher pour, **Adresse e-mail**, **Prénom** et **Nom de famille**.
 1. Dans la colonne **Réclamation de retour**, activez les cases à cocher pour **Adresse e-mail**, **Prénom**, **Fournisseur d’identification**, **Nom de famille** et **ID objet de l’utilisateur**.
 
-    ![Attributs et réclamations sélectionnés](./media/B2C_SignInSignUp_Attributes.png)
+    ![Attributs et réclamations sélectionnés.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Cliquez sur **OK** pour créer la stratégie.
 1. Double-cliquez sur le nom de la stratégie, puis, dans le volet de navigation, sélectionnez **Propriétés**.
 1. Définissez l’option **Activer l’application de la disposition de page Javascript** sur **Activé**.
 
-    ![La page de propriétés de la nouvelle stratégie](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![La page de propriétés de la nouvelle stratégie.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Le nom de la stratégie est entièrement référencé dans l’environnement Commerce. (Le préfixe **B2C\_1\_** sera inclus dans la référence.) Les stratégies ne peuvent pas être renommées après leur création. Si vous remplacez une stratégie existante pour votre environnement Commerce, vous pouvez supprimer la stratégie d’origine et créer une stratégie qui a le même nom. Sinon, si l’environnement a déjà été mis en service, vous pouvez envoyer le nouveau nom de stratégie via une demande de service.
@@ -150,7 +150,7 @@ Pour mettre à jour la stratégie « Inscription et connexion » avec les info
     1. Pour les attributs **Adresse e-mail**, **Prénom**, et **Nom de famille**, sélectionnez **Non** dans la colonne **Facultatif**.
 1. Sélectionnez **Enregistrer**.
 
-    ![Configuration de la stratégie de page de connexion au compte local](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Configuration de la stratégie de page de connexion au compte local.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Mettez à jour la stratégie « Modification de profil » avec les informations personnalisées de page
 
@@ -188,11 +188,11 @@ Dans la bibliothèque de modules, les modules de connexion sont préremplis avec
 
 Par exemple, le texte par défaut pour le lien de mot de passe oublié est **Mot de passe oublié ?**. Ce qui suit présente ce texte par défaut dans la page de connexion.
 
-![Texte par défaut pour le lien de mot de passe oublié sur la page Connexion](./media/B2C_SignUp_ModuleFace.png)
+![Texte par défaut pour le lien de mot de passe oublié sur la page Connexion.](./media/B2C_SignUp_ModuleFace.png)
 
 Toutefois, dans le fichier global.json du module de connexion de la bibliothèque de modules, vous pouvez modifier le texte en **Mot de passe oublié ?**, comme l’indique l’illustration suivante.
 
-![Texte du lien mis à jour dans le fichier global.json du module de connexion](./media/B2C_CustomizingStringsForModule.png)
+![Texte du lien mis à jour dans le fichier global.json du module de connexion.](./media/B2C_CustomizingStringsForModule.png)
 
 Après avoir mis à jour le fichier global.json et publié vos modifications, le nouveau texte du lien s’affiche dans le module de connexion de la page de connexion à Commerce et en direct.
 

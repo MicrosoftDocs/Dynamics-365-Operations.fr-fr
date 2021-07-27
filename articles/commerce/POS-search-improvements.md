@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796364"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345158"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Recherche de produits et de clients dans le point de vente (PDV)
 
@@ -36,7 +36,7 @@ Par défaut, les recherches de produits sont effectuées sur l’assortiment de 
 
 Dans la page **Modifier le catalogue**, les employés peuvent facilement sélectionner n’importe quel magasin, ou ils peuvent rechercher des produits dans tous les magasins.
 
-![Modification du catalogue](./media/Changecatalog.png "Modification du catalogue")
+![Modification du catalogue.](./media/Changecatalog.png "Modification du catalogue")
 
 Une recherche locale permet d’effectuer une recherche de produit dans les propriétés de produit suivantes :
 
@@ -59,9 +59,9 @@ Une recherche locale permet d’effectuer une recherche de produit dans les prop
 - Les détaillants peuvent configurer la recherche de produits pour afficher des suggestions de recherche sous la forme de noms de produit de type utilisateurs. Un nouveau paramètre pour cette fonctionnalité est disponible dans le profil de fonctionnalité du PDV, dans un nouveau groupe nommé **Recherche du produit**. Le paramètre est appelé **Afficher des suggestions de recherche lors de la saisie**. Cette fonctionnalité peut aider les employés à rechercher rapidement le produit pour lequel il effectue une recherche, car ils ne doivent pas entrer le nom entier manuellement.
 - Désormais, l’algorithme de la recherche de produit recherche également les critères de recherche contenus dans la propriété **Nom de recherche** du produit.
 
-![Suggestions de produit](./media/Productsuggestions.png "Suggestions de produit")
+![Suggestions de produit.](./media/Productsuggestions.png "Suggestions de produit")
 
-## <a name="customer-search"></a>Recherche du client
+## <a name="customer-search"></a>Recherche de client
 
 La recherche de client est utilisée pour trouver des clients à différentes fins. Par exemple, les caissiers peuvent afficher la liste des souhaits d’un client ou l’historique de ses achats, ou encore ajouter le client à une transaction. L’algorithme de recherche fait correspondre les termes de la recherche avec les valeurs qui sont présentes dans les propriétés suivantes du client :
 
@@ -83,7 +83,7 @@ Pour effectuer une recherche globalement, les employés peuvent sélectionner le
 
 L’ID client n’est pas affiché pour les clients demandés à partir d’autres entités juridiques, car aucun ID client n’a été créé pour ces parties dans la société actuelle. Toutefois, si un employé ouvre la page de détails du client, le système génère automatiquement un ID client pour la partie et associe également les carnets d’adresses du client du magasin au client. Par conséquent, le client est visible dans les recherches de magasin locales qui sont effectuées ultérieurement.
 
-![Recherche de clients globale](./media/Globalcustomersearch.png "Recherche de clients globale")
+![Recherche de clients globale.](./media/Globalcustomersearch.png "Recherche de clients globale")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Fonctionnalités supplémentaires de recherche de clients locale
 
@@ -94,11 +94,11 @@ Lorsque l’utilisateur recherche un numéro de téléphone, le système ignore 
 
 La recherche traditionnelle de client peut être un processus relativement long, car elle recherche parmi les plusieurs champs. Au lieu de cela, les caissiers peuvent rechercher dans une propriété de client simple, comme le nom, l’adresse e-mail, ou le numéro de téléphone. Les propriétés que l’algorithme de recherche du client utilise sont collectivement désignées comme *critères de recherche du client*. L’administrateur système peut facilement configurer un ou plusieurs critères comme raccourcis qui figurent dans le PDV. Comme la recherche est limitée à un critère unique, seuls les résultats de la recherche appropriés sont affichés, et les performances sont supérieures aux performances d’une recherche client standard. L’illustration suivante montre les raccourcis de la recherche de client dans le PDV.
 
-![Raccourcis de la recherche de clients](./media/SearchShortcutsPOS.png "Raccourcis de la recherche de clients")
+![Raccourcis de la recherche de clients.](./media/SearchShortcutsPOS.png "Raccourcis de la recherche de clients")
 
 Pour définir des critères de recherche en tant que raccourcis, l’administrateur doit ouvrir la page **Paramètres de commerce**, puis, dans l’onglet **Critères de recherche POS**, sélectionnez tous les critères à afficher en tant que raccourcis.
 
-![Configurer les raccourcis de la recherche](./media/ConfigureShortcutsAX.png "Configurer les raccourcis de la recherche")
+![Configurer les raccourcis de la recherche.](./media/ConfigureShortcutsAX.png "Configurer les raccourcis de la recherche")
 
 > [!NOTE]
 > Si vous ajoutez un trop grand nombre de raccourcis, le menu déroulant de la barre de recherche du PDV est surchargé, et l’expérience de recherche de l’employé peut en être affectée. Il est recommandé d’ajouter uniquement autant de raccourcis que nécessaire.

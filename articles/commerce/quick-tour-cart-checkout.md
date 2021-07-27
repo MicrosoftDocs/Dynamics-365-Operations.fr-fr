@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027937"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352034"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Vue d’ensemble des pages du panier et du paiement
 
@@ -37,7 +38,7 @@ La page du panier sert de sac à provisions et inclut tous les articles ajoutés
 
 L’illustration suivante affiche un exemple de page de panier qui a été générée à l’aide de la bibliothèque de modules et du thème « Fabrikam ».
 
-![Exemple d’une page de panier](./media/cart2.PNG)
+![Exemple d’une page de panier.](./media/cart2.PNG)
 
 Le corps principal de la page du panier affiche tous les articles que le client a ajoutés au panier. Toutes les remises applicables sont présentées. Ces remises incluent des remises complexes. Par exemple, elles comprennent des remises comme « Achetez-en 3 et obtenez 10 % de remise » ou « Achetez une bouteille et un sac à dos pour obtenir une remise de 10 % ». Le modules de synthèse de commande affiche le montant dû après que les remises, l’expédition, les taxes, etc., aient été appliquées. Il existe également un module de code promotionnel qui permet au client d’appliquer ou de supprimer des codes promotionnels.
 
@@ -53,7 +54,7 @@ La page de caisse est celle où les clients entrent des informations requises po
 
 L’illustration suivante affiche un exemple de page de paiement qui a été générée à l’aide de la bibliothèque de modules.
 
-![Exemple d’une page de caisse](./media/Checkout.PNG)
+![Exemple d’une page de caisse.](./media/Checkout.PNG)
 
 Le corps principal de la page de caisse est là où toutes les informations de la commande sont collectées. Ces informations incluent l’adresse d’expédition, les options de livraison, et les informations de paiement. La caisse est un flux pas-à-pas, car les informations doivent être entrées dans un ordre spécifique pour être traitées. Par exemple, l’adresse d’expédition doit être entrée pour que les coûts d’expédition soient calculés et que le paiement puisse être autorisé.
 

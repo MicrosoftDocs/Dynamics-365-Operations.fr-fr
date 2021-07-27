@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359507"
 ---
 # <a name="transportation-management-overview"></a>Vue d’ensemble de la gestion du transport
 
@@ -67,17 +69,17 @@ La Gestion du transport vous permet d’utiliser les transports de votre sociét
 ## <a name="planning-transportation-in-supply-chain-management"></a>Planification du transport dans Supply Chain Management
 Dans Gestion du transport, la planification des transports peut être basée sur les commandes ou sur les expéditions créées selon ces commandes. Les expéditions existent toujours à un moment donné mais elles ne sont pas requises pour la planification des transports. Les ordres de transfert font partie du scénario sortant et peuvent être planifiés avec des commandes client. 
 
-![Load drawing](./media/Load-drawing1-1024x477.jpg)
+![Load drawing.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Transport entrant
 Lorsque vous commandez des articles à un fournisseur et que ces articles doivent être livrés à votre entrepôt, vous pouvez souhaiter organiser le transport des articles vous-même. Utilisez Supply Chain Management pour planifier le transport et la réception de la charge entrante. La figure suivante indique le flux du processus entreprise de planification du transport pour un chargement entrant. 
 
-![Flux de processus entreprise pour le transport de chargement entrant](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Flux de processus entreprise pour le transport de chargement entrant.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Transport sortant
 Vous pouvez planifier et traiter une charge sortante pour expédier des articles spécifiques de l’entrepôt d’une société à un client. Utilisez Supply Chain Management pour planifier le transport et l’expédition de la charge sortante. La figure suivante indique le flux du processus entreprise de planification et le traitement des charges sortantes pour l’expédition. 
 
-![Planification et traitement des charges sortantes](./media/Planningandprocessingoutboundloads.jpg)
+![Planification et traitement des charges sortantes.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Création de chargement
 Supply Chain Management fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume. Cette stratégie vous permet d’utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs. Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l’organisateur **Paramétrage** sur la page **Atelier de création de chargement**. En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l’arbre d’objets d’application (AOA).

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345030"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -119,7 +121,7 @@ Pour permettre d’utiliser la plus large gamme possible de périphériques avec
 -   **Objet de contrôle** – L’objet de contrôle pour une classe de périphérique (comme une ligne d’affichage) fournit l’interface du programme logiciel. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) fournit un ensemble normalisé d’objets de contrôle OPOS qui sont appelés objets de contrôle commun (CCO). Les CCO sont utilisés pour tester le composant PDV de Commerce. Par conséquent, les tests garantissent que, si Commerce prend en charge une classe de périphériques par OPOS, de nombreux types de périphérique peuvent être pris en charge, à condition que le fabricant fournisse un objet de service conçu pour OPOS. Il n’est pas nécessaire de tester explicitement chaque type de périphérique.
 -   **Objet de service** – L’objet de service fournit les communications entre l’objet de contrôle (CCO) et le périphérique. Généralement, l’objet de service pour un périphérique est fourni par le fabricant de celui-ci. Toutefois, dans certains cas, vous devez télécharger l’objet de service à partir du site web du fabricant. Par exemple, il peut s’y trouver un objet de service plus récent disponible. Pour trouver l’adresse du site Web du fabricant, consultez la documentation de votre matériel.
 
-[![Objet de contrôle et objet de service](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour la mise en œuvre d’OPOS pour le PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV mettent en œuvre la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s’ils n’ont pas été préalablement testés ensemble. 
+[![Objet de contrôle et objet de service.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La prise en compte de la norme OLE pour l’implémentation d’OPOS pour les PDV garantit que, si les fabricants de périphérique et les éditeurs de PDV implémentent la norme correctement, les systèmes de PDV et les périphériques pris en charge peuvent fonctionner ensemble, même s’ils n’ont pas été testés ensemble au préalable. 
 
 > [!NOTE]
 > La prise en charge d’OPOS ne garantit pas la prise en charge de tous les périphériques dotés de pilotes OPOS. Commerce doit d’abord prendre en charge ce type de périphérique, ou la classe, via OPOS. En outre, les objets de service ne peuvent pas toujours être à jour avec la dernière version des CCO. Vous devez également tenir compte du fait que, de manière générale, la qualité des objets de service est variable.

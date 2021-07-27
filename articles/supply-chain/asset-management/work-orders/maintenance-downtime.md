@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813723"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344614"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Temps d’arrêt pour maintenance pour des ordres de travail
 
@@ -45,7 +45,7 @@ Vous pouvez créer des enregistrements de temps d’arrêt pour maintenance sur 
 
 L’illustration ci-dessous présente un exemple de la page **Codes motif des temps d’arrêt pour maintenance**.
 
-![Figure 1](media/15-work-orders.png)
+![Figure 1.](media/15-work-orders.png)
 
 Après avoir créé les codes motif de temps d’arrêt pour maintenance que vous souhaitez utiliser, vous pouvez créer les enregistrements des temps d’arrêt pour maintenance pour les ordres de travail et les actifs.
 
@@ -71,15 +71,15 @@ Après avoir créé les codes motif de temps d’arrêt pour maintenance que vou
 
 L’illustration ci-dessous présente un exemple d’inscription de temps d’arrêt pour maintenance.
 
-![Figure 2](media/16-work-orders.png)
+![Figure 2.](media/16-work-orders.png)
 
 Le calendrier qui est utilisé pour calculer un enregistrement de temps d’arrêt pour maintenance dépend de votre sélection dans la configuration des actifs et des paramètres. Si une ressource est sélectionnée sur un actif dans le champ **Ressource** de l’organisateur **Immobilisation** de la page **Tous les actifs**, la configuration du calendrier pour le groupe de ressources associé est utilisé, comme indiqué sur l’illustration suivante.
 
-![Figure 3](media/17-work-orders.png)
+![Figure 3.](media/17-work-orders.png)
 
 Si aucune ressource n’est sélectionnée sur l’actif, le calendrier standard sélectionné sur la page **Paramètres de gestion des actifs** est utilisé, comme indiqué sur l’illustration suivante.
 
-![Figure 4](media/18-work-orders.png)
+![Figure 4.](media/18-work-orders.png)
 
 Pour afficher une vue d’ensemble de tous les enregistrements de temps d’arrêt pour maintenance, cliquez sur **Gestion des actifs** > **Recherches** > **Temps d’arrêt pour maintenance**.
 

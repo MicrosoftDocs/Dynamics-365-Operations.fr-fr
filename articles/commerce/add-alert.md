@@ -2,7 +2,7 @@
 title: Module de bannière promotionnelle
 description: Cette rubrique couvre les modules de bannière promotionnelle et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796244"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479350"
 ---
 # <a name="promo-banner-module"></a>Module Bannière promotionnelle
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de bannière promotionnelle et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -34,7 +35,7 @@ Les modules de bannière promotionnelle prennent en charge un texte et un lien. 
 
 Les modules de bannière promotionnelle sont pilotés par les données du système de gestion de contenu (CMS) et peuvent être placés dans n’importe quelle page.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Exemples d’utilisation de bannières promotionnelles dans le commerce électronique
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Exemples d’utilisation de bannières promotionnelles dans l'e-commerce
 
 Les bannières promotionnelles peuvent être utilisées dans l’en-tête du site pour afficher des promotions ou des messages à l’échelle du site, comme dans les exemples suivants.
 
@@ -46,11 +47,11 @@ Les bannières promotionnelles peuvent être utilisées dans l’en-tête du sit
 
 L’image suivante montre un exemple d’une bannière promotionnelle.
 
-![Exemple d’un module de bannière promotionnelle](./media/ecommerce-Promobanner.PNG)
+![Exemple d’un module de bannière promotionnelle.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Propriétés du module de bannière promotionnelle
 
-| Nom de la propriété             | Valeur                              | Description |
+| Nom de la propriété             | Valeur                               | Description  |
 |---------------------------|------------------------------------|-------------|
 | Messages de bannière           | Texte et liens                     | Un groupe de texte et de liens. |
 | Lire automatiquement                  | **Vrai** ou **Faux**              | Une valeur qui indique si les messages sont automatiquement parcourus, si plusieurs messages sont configurés. |
@@ -59,6 +60,10 @@ L’image suivante montre un exemple d’une bannière promotionnelle.
 | Afficher le flipper du carrousel     | **Vrai** ou **Faux**              | Valeur qui indique si les flippers du carrousel doivent être affichés, afin que les clients puissent parcourir manuellement plusieurs éléments de bannière. |
 | Alignement du texte            | **Droite**, **Gauche** ou **Centre** | L’alignement du texte dans le module de bannière promotionnelle. |
 | Lien                      | Une URL                              | URL pour un lien supplémentaire. |
+|Alignement du texte             | **Droite**, **Gauche** ou **Centre** | Cette propriété est disponible en tant qu'extension de thème dans le thème Adventure Works. Elle permet à un utilisateur de définir l'alignement du texte dans la bannière promotionnelle. |
+
+> [!IMPORTANT]
+> Le thème Adventure Works est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Ajouter un module de bannière promotionnelle à une page 
 
@@ -78,7 +83,6 @@ Pour ajouter un module de bannière promotionnelle à une page et définir les p
 
 > [!NOTE]
 > Une bannière promotionnelle est généralement utilisée dans l’emplacement d’en-tête de page ou un emplacement de sous-titre.
-
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

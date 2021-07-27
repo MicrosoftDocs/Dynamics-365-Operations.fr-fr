@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a3b9a8b5775d2001f3384480e2f9593f2dfa8b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752410"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356317"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
 
@@ -92,11 +92,11 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 59. Cliquez sur Ajouter un attribut.
 60. Dans le champ Nom, tapez « Desc ».
 61. Cliquez sur OK.
-![Page Concepteur d’opérations de gestion des états électroniques](../media/er-financial-dimensions-guides-format1.png)
+![Page Concepteur d’opérations de gestion des états électroniques.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mettre en correspondance les éléments d’état avec les sources de données
 1. Cliquez sur l’onglet Mise en relation.
-2. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données ».
+2. Dans l'arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données ».
 3. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements ».
 4. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements\Transaction : Liste d’enregistrements ».
 5. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements\Transaction : Liste d’enregistrements\Données de dimensions : Liste d’enregistrements ».
@@ -141,7 +141,7 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 44. Cliquez sur Lier.
 45. Cliquez sur Enregistrer.
 46. Fermez la page.
-![Page Concepteur d’opérations de gestion des états électroniques](../media/er-financial-dimensions-guides-format2.png)
+![Page Concepteur d’opérations de gestion des états électroniques.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

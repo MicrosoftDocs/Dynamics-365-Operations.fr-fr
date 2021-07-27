@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937060"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349672"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modifier l’ordre de tri pour les entités de promotion des ventes
 
@@ -51,9 +51,9 @@ Avant de pouvoir exécuter cette procédure, les données de démonstration doiv
 
 L’ordre d’affichage pour la hiérarchie de navigation du canal est reportée dans le siège pour la hiérarchie des produits Commerce et les produits lancés par catégorie.
 
-![Hiérarchie des produits personnalisée triée par des valeurs négatives](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Hiérarchie des produits personnalisée triée par des valeurs négatives.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Tri personnalisé des produits lancés par catégorie selon la hiérarchie des produits](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Tri personnalisé des produits lancés par catégorie selon la hiérarchie des produits.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Configuration de l’ordre d’affichage des catégories de la hiérarchie de navigation du canal
 
@@ -77,11 +77,11 @@ Avant de pouvoir exécuter cette procédure, les données de démonstration doiv
 
 L’ordre d’affichage pour la hiérarchie de navigation du canal apparaît dans le siège, le catalogue, puis les canaux.
 
-![Tri de la hiérarchie de navigation du canal personnalisée](./media/ChannelNavCustomSorted.png)
+![Tri de la hiérarchie de navigation du canal personnalisée.](./media/ChannelNavCustomSorted.png)
 
-![Tri de la hiérarchie de navigation du canal personnalisée selon la hiérarchie de navigation du canal](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Tri de la hiérarchie de navigation du canal personnalisée selon la hiérarchie de navigation du canal.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![PDV avec des catégories triées par personnalisation](./media/POSChannelCategoriesCustomSorted.png)
+![PDV avec des catégories triées par personnalisation.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Par défaut, la fonctionnalité d’ordre de tri personnalisé est désactivée. Pour savoir comment activer cette fonctionnalité et les autres, consultez [Gestion des fonctionnalités](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

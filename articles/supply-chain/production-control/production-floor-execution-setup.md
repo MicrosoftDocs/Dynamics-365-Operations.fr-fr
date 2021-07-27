@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814704"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353962"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production
 
@@ -70,7 +70,7 @@ Souvent, vous exécuterez l’interface d’exécution de l’atelier de product
 
 La partie supérieure de l’illustration suivante montre à quoi ressemble l’interface par défaut. La partie inférieure montre à quoi il ressemble en mode plein écran lorsque le volet de navigation est masqué.
 
-![Interface standard ou plein écran](media/pfei-full-screen.png "Interface standard ou plein écran")
+![Interface standard ou plein écran.](media/pfei-full-screen.png "Interface standard ou plein écran")
 
 ## <a name="extend-the-session-past-12-hours"></a>Prolonger la session au-delà de 12 heures
 

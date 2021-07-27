@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a03c8f340e8ebb2fb0440518c154ed3bdd0197f6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7f735726a7e126174bc9c6a4002e421df3f21298
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053249"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360614"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 
@@ -29,7 +29,7 @@ ms.locfileid: "6053249"
 
 Lorsqu’un client affiche la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources, les noms des personnes et les postes sont tronqués. Par conséquent, il peut être difficile d’effectuer une capture d’écran, ou d’imprimer et de distribuer la hiérarchie.
 
-![Hiérarchie des postes](media/position-h.png)
+![Hiérarchie des postes.](media/position-h.png)
 
 **Cause**
 
@@ -47,48 +47,48 @@ Procédez comme suit pour exporter dans Visio.
 
 2. Dans le volet Actions, sélectionnez le bouton **Ouvrir dans Microsoft Office**, puis, sous **Exporter vers Excel**, sélectionnez **Postes**. Sinon, appuyez sur Ctrl+T.
 
-    ![Exporter la page de la liste des postes vers Excel](media/org-admin.png)
+    ![Exporter la page de la liste des postes vers Excel.](media/org-admin.png)
 
 3. Enregistrez le fichier Excel exporté.
 
-    ![Boîte de dialogue Exporter vers Excel](media/export-excel.png)
+    ![Boîte de dialogue Exporter vers Excel.](media/export-excel.png)
 
 4. Dans Visio, sélectionnez **Visio – Créer**, puis sélectionnez la catégorie de modèle **Entreprise**.
 
-    ![Nouveau diagramme](media/new.png)
+    ![Nouveau diagramme.](media/new.png)
 
 5. Sélectionnez **Assistant de graphique d’organisation**, puis sélectionnez **Créer**.
 
-    ![Boîte de dialogue Assistant de graphique d’organisation](media/orgchart-wizard.png)
+    ![Boîte de dialogue Assistant de graphique d’organisation.](media/orgchart-wizard.png)
 
 6. Sélectionnez **Informations déjà stockées dans un fichier ou une base de données**, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 1](media/orgchart-wizard7.png)
+    ![Assistant Diagramme de l’organisation 1.](media/orgchart-wizard7.png)
 
 7. Choisissez **Un texte, Org Plus (\*.txt), ou fichier Excel**, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 2](media/orgchart-wizard3.png)
+    ![Assistant Diagramme de l’organisation 2.](media/orgchart-wizard3.png)
 
 8. Naviguez pour sélectionner le fichier Excel exporté contenant la hiérarchie des postes, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 3](media/orgchart-wizard2.png)
+    ![Assistant Diagramme de l’organisation 3.](media/orgchart-wizard2.png)
 
 9. Définissez le champ **Nom** sur **Poste**, définissez le champ **Référence** sur **Poste de référence**, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 4](media/orgchart-wizard1.png)
+    ![Assistant Diagramme de l’organisation 4.](media/orgchart-wizard1.png)
 
 10. Sélectionnez les champs qui doivent être affichés sur chaque nœud, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 5](media/orgchart-wizard5.png)
+    ![Assistant Diagramme de l’organisation 5.](media/orgchart-wizard5.png)
 
 11. Ajoutez la colonne **Poste** à la liste **Champs de données de forme**, puis la sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 6](media/orgchart-wizard6.png)
+    ![Assistant Diagramme de l’organisation 6.](media/orgchart-wizard6.png)
 
 12. Les images ne sont pas actuellement disponibles. Par conséquent, sur la page suivante, sélectionnez **Suivant**.
 13. Sélectionnez **Je souhaite que l’Assistant répartisse automatiquement mon graphique d’organisation entre les pages**.
 
-    ![Assistant Diagramme de l’organisation 7](media/orgchart-wizard4.png)
+    ![Assistant Diagramme de l’organisation 7.](media/orgchart-wizard4.png)
 
 14. Sélectionnez **Terminer**.
 
@@ -98,7 +98,7 @@ Le diagramme généré dans Visio affiche chaque responsable sur une feuille de 
 
 Selon les champs sélectionnés à inclure dans le diagramme, chaque nœud affiche les informations appropriées lorsque le fichier Visio est généré.
 
-![Diagramme de la hiérarchie](media/hierarchy.png)
+![Diagramme de la hiérarchie.](media/hierarchy.png)
 
 **Option supplémentaire**
 

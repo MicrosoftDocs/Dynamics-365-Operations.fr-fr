@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168727"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343956"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Configuration requise pour le calibrage de matériel pour les environnements sur site
 
@@ -36,7 +36,7 @@ Après avoir vérifié la documentation, vous pouvez commencer le processus d’
 
 Tous les facteurs affichés dans l’illustration suivante contribuent au calibrage. Plus les informations collectées sont détaillées, plus vous pouvez déterminer précisément le calibrage. Le calibrage du matériel, sans données de prise en charge, est susceptible d’être inexact. La configuration requise minimale pour les données nécessaires est la ligne de transaction de chargement de pointe horaire.
 
-[![Calibrage du matériel pour les environnements sur site](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Calibrage du matériel pour les environnements sur site.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 De gauche à droite, le premier facteur, et le plus important, nécessaire pour estimer précisément le calibrage est un profil de transaction ou une caractérisation de transaction. Il est important de toujours rechercher le volume transactionnel de pointe horaire. S’il existe des plusieurs périodes de pointe, ces périodes doivent être précisément définies.
 

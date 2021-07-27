@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744661"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348653"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Test agnostique en matière de données à l’aide de Regression Suite Automation Tool
 
@@ -30,9 +30,9 @@ Même si la validation technique d’une application d’ERP ne peut pas être t
 - La structure ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![Pyramide de classification de test](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Pyramide de classification de test.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 -   **Structure SysTest** : la structure SysTest est fiable pour écrire les tests unitaires. Parce que les tests unitaires sont généralement l’occasion de tester une méthode ou une fonction, ils doivent toujours être agnostique en matière de données et dépendre uniquement des données de saisie fournies dans le cadre du test.
 -   **Structure ATL** : Microsoft a une structure ATL qui correspond à une abstraction sur la structure SysTest et qui se charge du test technique en écrivant beaucoup plus simplement et de manière fiable. Cette structure doit être utilisée pour écrire des tests de composant ou des tests d’intégration simples.
 -   **RSAT** : utilisé pour les tests d’intégration et les tests du cycle métier. Les tests du cycle métier, également appelés tests de validation de la régression, dépendent des données existantes. Cependant, ces tests peuvent devenir agnostiques en matière de données si vous tenez compte de facteurs supplémentaires. 
@@ -42,7 +42,7 @@ Même si la validation technique d’une application d’ERP ne peut pas être t
     - o Saisissez les identifiants uniques, comme les numéros de facture, via la série de numéro ou à l’aide des fonctions Microsoft Excel comme =TEXT(NOW(),"yyyymmddhhmm"). Cette fonctionnalité fournira un numéro unique chaque minute, ce qui vous permet de suivre lorsque l’action s’est produite. Elle peut être utilisée pour les variables telles que les numéros de reçu de produit et les numéros de facture fournisseur. Ces tests continuent de fonctionner sur la même base de données, encore et encore, sans exiger de restauration.
     - Définissez toujours le **mode Modifier** de l’environnement sur **Lire** ou **Modifier** comme le premier cas de test, car l’option par défaut est **Auto**. Les options **Auto** utilisent toujours le paramètre précédent et peut générer des tests non fiables. 
  
-    [![Page Options, onglet Performance](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Page Options, onglet Performance.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Validez uniquement après avoir filtré sur une transaction spécifique plutôt qu’une validation générique. Par exemple, pour le nombre d’enregistrements, filtrez le nombre de transactions ou la date de transaction de telle sorte que la validation exclut toutes les autres transactions. 
     - Si vous activez un solde client ou un contrôle budgétaire, enregistrez la valeur tout d’abord, puis ajoutez la valeur de votre transaction pour valider le résultat attendu au lieu de valider une valeur attendue fixe. 

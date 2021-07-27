@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015875"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344242"
 ---
 # <a name="maintenance-requests"></a>Demandes de maintenance
 
@@ -40,7 +40,7 @@ Les demandes de maintenance peuvent être créées pour n’importe quel actif d
 
 Pour afficher les demandes de maintenance, sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance**, **Demandes de maintenance actives** ou **Mes demandes de maintenance de poste technique**. Chaque page de liste affiche certaines des informations liées à une demande de maintenance.
 
-![Afficher les demandes de maintenance](media/01-manage-maintenance-requests.png)
+![Afficher les demandes de maintenance.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Utilisez la page de liste **Mes demandes de maintenance de poste technique** pour afficher une liste des demandes de maintenance contenant soit les postes techniques auxquels vous êtes associé en tant que collaborateur, soit les actifs qui sont installés à des postes techniques auxquels vous êtes associé en tant que collaborateur. (Pour plus d’informations sur le paramétrage des postes techniques pour les agents de maintenance, voir [Agents de maintenance et groupes d’agents](../setup-for-objects/workers-and-worker-groups.md).)
@@ -49,7 +49,7 @@ Pour afficher les demandes de maintenance, sélectionnez **Gestion des actifs** 
 
 Pour ouvrir la vue détaillée d’un enregistrement, sur la page de liste **Toutes les demandes de maintenance**, dans la vue de grille, sélectionnez un lien dans la colonne **Demande de maintenance**.
 
-![Afficher les détails de la demande de maintenance](media/02-manage-maintenance-requests.png)
+![Afficher les détails de la demande de maintenance.](media/02-manage-maintenance-requests.png)
 
 Les boutons du volet Actions sont organisés sur les onglets. Le tableau suivant décrit brièvement les boutons liés à Gestion des actifs.
 

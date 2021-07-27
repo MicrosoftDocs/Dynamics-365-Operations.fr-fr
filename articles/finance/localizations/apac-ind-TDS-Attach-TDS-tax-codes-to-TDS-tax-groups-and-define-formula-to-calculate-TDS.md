@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023247"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358480"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Joindre les codes de taxe TDS aux groupes de taxes TDS et définir la formule de calcul du TDS
 
@@ -33,7 +33,7 @@ Suivez ces étapes pour configurer un groupe de taxes TDS, y associer des codes 
 
 1. Accédez à **Taxe \> > Taxes indirectes \> Retenue à la source \> Groupes de retenue à la source**.
 
-    [![Page Groupes de retenue à la source](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Page Groupes de retenue à la source.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Dans le volet Actions, sélectionnez **Nouveau** pour créer un groupe de retenue à la source pour TDS et entrez les détails requis.
 3. Dans le champ **Type de taxe**, sélectionnez **TDS**.
@@ -43,7 +43,7 @@ Suivez ces étapes pour configurer un groupe de taxes TDS, y associer des codes 
 7. Pour empêcher que le groupe de taxe ne soit calculé dans les transactions, cochez la case **Exempté**.
 8. Dans le volet Actions, sélectionnez **Concepteur** pour ouvrir le concepteur de formule, afin de pouvoir définir la formule de calcul de TDS pour le groupe de taxes TDS. Sur la page **Concepteur**, l'onglet **Taxes** affiche les codes de taxe TDS qui ont été sélectionnés pour le groupe de taxe TDS.
 
-    [![Page Concepteur](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Page Concepteur.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Dans l'onglet **Calcul**, sélectionnez **Alt + N** pour créer une ligne. Le champ **ID** affiche l'ID de priorité généré automatiquement pour le calcul TDS.
 10. Dans le champ **Code taxe**, sélectionnez le code de taxe TDS pour laquelle définir la formule. Tous les codes de taxe TDS qui ont été sélectionnés pour le groupe de taxe TDS peuvent être sélectionnés dans ce champ.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841235"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344804"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatisation des factures pour les documents numérisés
 
@@ -34,7 +34,7 @@ La solution d’automatisation des factures active une interface standard qui pe
 
 L’illustration suivante présente un exemple de scénario d’intégration dans lequel Contoso a fait appel à un fournisseur de services OCR pour le traitement des factures fournisseur. Les fournisseurs de Contoso envoient les factures au fournisseur de services par courrier électronique. Par le biais du traitement OCR, le fournisseur de services génère des métadonnées de facture (en-tête et/ou lignes) et une image numérisée de la facture. Une couche d’intégration transforme ensuite ces artefacts afin qu’ils puissent être consommés.
 
-![Exemple de scénario d’intégration](media/vendor_invoice_automation_01.png)
+![Exemple de scénario d’intégration.](media/vendor_invoice_automation_01.png)
 
 Plusieurs variations du scénario précédent sont possibles si l’intégration des factures est requise. La migration des données est un autre cas d’utilisation où cette interface peut être utilisée pour créer des factures et des pièces jointes.
 
@@ -92,7 +92,7 @@ Dans les scénarios où les factures fournisseur sont envoyées dans Finance and
 
 La nouvelle page de liste pour les exceptions de facture est disponible sous **Comptabilité fournisseur** > **Factures** > **Échecs d’importation** > **Factures fournisseur qui n’ont pas été importées**. Cette page affiche tous les enregistrements d’en-tête de facture fournisseur à partir de la table intermédiaire de l’entité de données En-tête de facture fournisseur. Notez que vous pouvez afficher les mêmes enregistrements à partir de l’espace de travail **Gestion des données**. Vous pouvez également exécuter les mêmes actions que celles fournies dans la fonction de gestion des exceptions à partir de l’espace de travail **Gestion des données**. La fonction de gestion des exceptions a été optimisée pour un utilisateur fonctionnel, ce qui la rend plus facile à utiliser.
 
-![Page de liste des exceptions](media/vendor_invoice_automation_02.png)
+![Page de liste des exceptions.](media/vendor_invoice_automation_02.png)
 
 Cette page de liste contient les champs suivants qui sont disponibles via le flux :
 
@@ -136,7 +136,7 @@ La page de liste des exceptions prend en charge les constructions de sécurité 
 + Par utilisateur
 + Par entité juridique
 
-![Importer une tâche sécurisée par rôle d’utilisateur et entité juridique](media/vendor_invoice_automation_04.png)
+![Importer une tâche sécurisée par rôle d’utilisateur et entité juridique.](media/vendor_invoice_automation_04.png)
 
 Si la sécurité est configurée pour la tâche d’importation de facture, la page de liste des exceptions honore ces paramètres. Les utilisateurs pourront visualiser uniquement les enregistrements d’exception de facture que ce paramétrage les autorise à voir.
 

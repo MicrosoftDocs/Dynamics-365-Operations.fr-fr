@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f7bed45ccf151a2667dcc8dddd5c0586a594ca58
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e2831d4a81f04b19eb894f533ac8768017aa8c98
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360992"
 ---
 # <a name="maintenance-schedule"></a>Programme de maintenance
 
@@ -63,7 +63,7 @@ Pour ouvrir un programme de maintenance :
 
 L’illustration ci-dessous présente la page de liste **Tout le programme de maintenance**.
 
-![Figure 1](media/16-preventive-maintenance.png)
+![Figure 1.](media/16-preventive-maintenance.png)
 
 
 

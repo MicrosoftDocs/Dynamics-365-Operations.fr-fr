@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820809"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350644"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatiser les propositions de paiement fournisseur
 
@@ -97,11 +97,11 @@ Nous vous recommandons d’évaluer si l’automatisation sera bénéfique à vo
 
 Une fois la série d’automatisations des propositions de paiement fournisseur créée, les occurrences de chaque paiement sont affichées dans la vue hebdomadaire de l’automatisation des processus. Pour les paiements fournisseur, la vue hebdomadaire d’automatisation des processus a été ajoutée à la fois à l’espace de travail **Paiements fournisseur** et **Automatisation des processus**.
 
-[![Vue hebdomadaire de l’automatisation des processus dans l’espace de travail Paiements fournisseur](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Vue hebdomadaire de l’automatisation des processus dans l’espace de travail Paiements fournisseur.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 La vue hebdomadaire de l’automatisation des processus dans l’espace de travail **Paiements fournisseur** affiche uniquement les automatisations des propositions de paiement fournisseur. Elle affiche toutes les occurrences des paiements de la semaine en cours, pour toutes les entités juridiques pour lesquelles l’utilisateur connecté dispose d’autorisations de sécurité. Par exemple, si le commis aux paiements de la comptabilité fournisseur est responsable des paiements dans les sociétés USMF et USSI, il verra les occurrences des automatisations de proposition de paiement fournisseur pour ces deux sociétés, mais pas pour d’autres.
 
-[![Vue hebdomadaire de l’automatisation des processus pour les sociétés USMF et USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Vue hebdomadaire de l’automatisation des processus pour les sociétés USMF et USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Chaque occurrence affiche la société dans laquelle le journal des paiements a été créé ou le sera. Si les paiements sont créés à l’aide de paiements centralisés, la société qui s’affiche est celle dans laquelle les paiements seront créés. L’occurrence ne montre pas nécessairement quelles factures de la société seront payées.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a2bc5aa1080709931b3aa71c548a7bf2fb9b1192
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188073"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354291"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l’enregistreur de tâches
 
@@ -62,21 +62,21 @@ Que vous créiez un enregistrement de tâche à partir de rien ou en le fondant 
 
 Ceci est le volet de modification proposé lorsque vous ajoutez une annotation à mesure que vous créez votre enregistrement. Entrez une annotation de titre dans la zone **Titre**. 
 
-[![Volet Modification avec annotation de titre](./media/screen1.png)](./media/screen1.png) 
+[![Volet Modification avec annotation de titre.](./media/screen1.png)](./media/screen1.png) 
 
 Voilà à quoi ressemble l’annotation de titre dans la « bulle » dans le Guide de tâche. 
 
-[![Apparence d’annotation de titre dans le guide de tâche](./media/screen2.png)](./media/screen2.png)
+[![Apparence d’annotation de titre dans le guide de tâche.](./media/screen2.png)](./media/screen2.png)
 
 -   **Remarques :** une annotation de remarque s’affiche après le texte d’étape généré automatiquement par l’enregistreur de tâche. Dans le guide de tâche, elle n’est visible que si l’utilisateur clique sur le lien **Afficher plus** dans la bulle du guide de tâche. Utilisez ce type d’annotation pour décrire tout ce que l’utilisateur a besoin de savoir pour effectuer l’étape.
 
 Ceci est le volet de modification proposé lorsque vous ajoutez une annotation à mesure que vous créez votre enregistrement. Entrez une annotation de notes dans la zone **Notes**. 
 
-[![Volet Modification avec annotation dans la zone Notes](./media/screen3.png)](./media/screen3.png) 
+[![Volet Modification avec annotation dans la zone Notes.](./media/screen3.png)](./media/screen3.png) 
 
 Voilà à quoi ressemble l’annotation de notes dans la « bulle » dans le Guide de tâche.
 
-[![Apparence d’annotation de notes dans le guide de tâche](./media/screen4.png)](./media/screen4.png)
+[![Apparence d’annotation de notes dans le guide de tâche.](./media/screen4.png)](./media/screen4.png)
 
 -   **Étape d’informations** : ces annotations sont créées en cliquant avec le bouton droit sur un contrôle ou n’importe où dans un écran &lt; **Enregistreur de tâches** &lt; **Ajouter une étape d’informations.** Les étapes d’informations apparaissent comme une étape numérotée au point où vous l’insérez, même si aucune action n’a été enregistrée dans l’IU. Vous pouvez ajouter une étape d’informations au niveau de l’écran ou une étape d’informations associée à un contrôle. Lorsqu’une étape d’informations est associée à un écran, la « bulle » du guide de tâche apparaît quelque part dans l’écran, sans pointeur, lors de la lecture du guide. Lorsqu’une étape d’informations est associée à un contrôle, la « bulle » du guide de tâche pointe vers le contrôle lors de la lecture du guide. Dans le volet Aide, une annotation d’étape d’informations s’affiche comme une étape numérotée, indépendamment du texte que vous avez entré. Utilisez les étapes d’informations pour préparer l’utilisateur pour les étapes suivantes, pour décrire les étapes qui doivent être effectuées en dehors de l’application, ou pour faire référence à d’autres enregistrements (bien que vous ne puissiez pas créer d’hyperliens dans les annotations).
 

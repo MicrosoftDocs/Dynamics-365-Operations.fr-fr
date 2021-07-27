@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822537"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354106"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Définir les agents de maintenance préférés
 
@@ -59,7 +59,7 @@ Plus vous faites de sélections pour le même enregistrement, plus votre paramé
 
     [!NOTE] En général, si un agent de maintenance préféré est sélectionné lors de la planification des ordres de travail, le module Gestion des actifs parcourt tous les enregistrements **Agents de maintenance préférés** pour vérifier une correspondance éventuelle, en vérifiant toujours la combinaison la plus spécifique en premier. Si aucune correspondance n’est trouvée, l’enregistrement « par défaut » avec une sélection dans le champ **Groupe d’agents de maintenance préféré** ou le champ **Agent de maintenance préféré** est utilisé.
 
-![Figure 1](media/02-work-order-scheduling.png)
+![Figure 1.](media/02-work-order-scheduling.png)
 
 Vous pouvez également paramétrer les agents de maintenance *responsables* à sélectionner lorsqu’une demande de maintenance ou un ordre de travail est créé. Vous pouvez modifier la sélection dans **Tous les ordres de travail** et **Toutes les demandes de maintenance**, le cas échéant. Pour plus d’informations, consultez [Agents de maintenance responsables](../setup-for-maintenance-requests/responsible-workers.md).
 

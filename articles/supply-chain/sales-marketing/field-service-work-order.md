@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824964"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345546"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5824964"
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d’exécution dans Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
 
-[![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
@@ -245,31 +245,31 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 
 Filtre : (msdyn_systemstatus ne 690970005) et (msdyn_systemstatus ne 690970000) et (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Mise en correspondance de modèles dans l’intégration de données](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderServiceLineEstimate
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004)
 
-[![Mise en correspondance de modèles dans l’intégration de données](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderServiceLineUsed
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004))
 
-[![Mise en correspondance de modèles dans l’intégration de données](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderProductLineEstimate
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) et (msdyn_allocated eq true)
 
-[![Mise en correspondance de modèles dans l’intégration de données](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderProductLineUsed
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
 
-[![Mise en correspondance de modèles dans l’intégration de données](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
