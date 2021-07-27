@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351583"
 ---
 # <a name="functional-locations-and-assets"></a>Actifs et postes techniques
 
@@ -34,13 +34,13 @@ Cette rubrique décrit les postes techniques et les actifs dans Gestion des acti
 
 Gestion des actifs est intégré de façon transparente à plusieurs modules avec d’autres applications Finance and Operations. L’illustration suivante présente les interfaces avec d’autres modules.
 
-![Diagramme affichant comment le module Gestion d’actifs se connecte par interface aux autres modules](media/01-overview-image.png)
+![Diagramme affichant comment le module Gestion d’actifs se connecte par interface aux autres modules.](media/01-overview-image.png)
 
 Gestion des actifs vous permet de gérer et d’exécuter plus efficacement toutes les tâches relatives à la gestion et à la maintenance de nombreux types d’équipements de votre société. Cet équipement inclut les machines, l’équipement de production et les véhicules. Gestion des actifs prend également en charge les solutions de nombreux secteurs.
 
 L’illustration suivante présente une vue d’ensemble de la fonctionnalité principale couverte par Gestion des actifs.
 
-![Diagramme affichant la fonctionnalité principale du module Gestion des actifs](media/02-overview-image.png)
+![Diagramme affichant la fonctionnalité principale du module Gestion des actifs.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Actifs et emplacements fonctionnels
 
@@ -50,11 +50,11 @@ Les coûts d’actifs suivent toujours le poste de l’actif. En d’autres term
 
 La façon dont vous établissez votre hiérarchie des postes techniques dépend des exigences de votre société pour la maintenance de l’équipement interne ou l’entretien de l’équipement du client. La figure suivante présente un exemple des postes techniques basés sur des emplacements géographiques.
 
-![Diagramme affichant des postes techniques basés sur des emplacements géographiques](media/03-overview-image.png)
+![Diagramme affichant des postes techniques basés sur des emplacements géographiques.](media/03-overview-image.png)
 
 La figure suivante présente un exemple des postes techniques basés sur les clients.
 
-![Diagramme affichant des postes techniques basés sur des clients](media/04-overview-image.png)
+![Diagramme affichant des postes techniques basés sur des clients.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

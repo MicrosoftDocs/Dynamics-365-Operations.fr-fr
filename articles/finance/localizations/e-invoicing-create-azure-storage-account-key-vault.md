@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963237"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357412"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Créer un compte de stockage Azure et un coffre de clés
 
@@ -49,7 +49,7 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 5. Sélectionnez **Ajouter une stratégie** pour ajouter une stratégie d’accès stockée.
 6. Définissez les champs **Identifiant** et **Autorisations** au besoin. Dans le champ **Autorisations**, vous devez sélectionner toutes les autorisations.
 
-    ![Octroi de l’autorisation de stockage Blob](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Octroi de l’autorisation de stockage Blob.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Entrez les dates de début et d’expiration. La date d’expiration doit être dans le futur.
 8. Cliquez sur **OK** pour enregistrer la stratégie, puis enregistrez vos modifications du conteneur.
@@ -57,7 +57,7 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 10. Cliquez avec le bouton droit sur le conteneur, puis sélectionnez **Obtenir la signature d’accès partagé**.
 11. Dans la boîte de dialogue **Signature d’accès partagé**, copiez et stockez la valeur dans le champ **URI**. Cette valeur sera utilisée dans la procédure suivante et sera appelée *URI de la signature d’accès partagé*.
 
-    ![Sélection et copie de la valeur de l’URI](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![Sélection et copie de la valeur de l’URI.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configurer le coffre de clés pour stocker l’URI du compte de stockage
 
@@ -69,11 +69,11 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 6. Configurez la stratégie d’accès pour accorder à la Facturation électronique le niveau correct d’accès sécurisé au secret que vous avez créé. Allez dans **Paramètres \> Stratégie d’accès** et sélectionnez **Ajouter une stratégie d’accès**.
 7. Définissez les autorisations du secret pour les opérations **Obtenir** et **Lister**.
 
-    ![Autorisation de l’accès au service](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Autorisation de l’accès au service.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Définissez les autorisations du certificat pour les opérations **Obtenir** et **Lister**.
 
-    ![Octroi de l’autorisation de certificat](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Octroi de l’autorisation de certificat.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. Dans le champ **Sélectionnez le principal**, sélectionnez **Aucune sélection**.
 10. Dans la boîte de dialogue **Principal**, sélectionnez le principal en ajoutant **Service de facturation électronique**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837871"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361149"
 ---
 # <a name="asset-fault-analysis"></a>Analyse des problèmes d’actifs
 
@@ -60,7 +60,7 @@ Dans la capture d’écran ci-dessous, seul le bouton **Symptôme** est sélecti
 - Les enregistrements de défaillance ont été effectués sur trois symptômes de défaillance : « Fuite d’air », « Fusible grillé » et « Équipement bloqué ».  
 - Dans la colonne **% probabilité**, tous les pourcentages doivent totaliser 100 %. La probabilité est basée sur tous les enregistrements de **Symptôme** de cette analyse des défaillances.
 
-![Figure 1](media/06-controlling-and-reporting.png)
+![Figure 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Grouper par symptôme et période
 
@@ -69,7 +69,7 @@ Dans le capture d’écran ci-dessous, **Année** et **Mois** ont été ajoutés
 - Les symptômes de défaillance s’affichent comme des enregistrements par an/mois.  
 - Dans la colonne **% probabilité**, si vous additionnez les pourcentages pour chaque mois, vous devez arriver à 100 %. La probabilité est basée sur tous les enregistrements de **Symptôme** de cette analyse des défaillances. Si vous avez un grand nombre de lignes sur un actif, mais qu’un pourcentage élevé figure sur une ligne, cela peut indiquer un symptôme de défaillance à examiner de près pour trouver une manière de limiter le nombre d’enregistrements pour ce symptôme de défaillance.
 
-![Figure 2](media/07-controlling-and-reporting.png)
+![Figure 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Grouper par plusieurs symptômes et actif
 
@@ -84,7 +84,7 @@ Dans la capture d’écran ci-dessous, **Actif** et **Type d’actif** ont été
 - Les symptômes de défaillance sont désormais divisés dans des combinaisons **Actif** / **Type d’actif** / **Symptôme** .  
 - Dans la colonne **% probabilité** si vous additionnez tous les pourcentages des combinaisons **Actif** / **Type d’actif** / **Symptôme** respectivement, vous devez arriver à 100 %. La probabilité est basée sur les enregistrements de **Symptôme** de cette analyse des défaillances. Si vous avez un grand nombre de lignes sur un actif, mais qu’un pourcentage élevé figure sur une ligne, cela peut indiquer un symptôme de défaillance à examiner de près pour trouver une manière de limiter le nombre d’enregistrements pour ce symptôme de défaillance.
 
-![Figure 3](media/08-controlling-and-reporting.png)
+![Figure 3.](media/08-controlling-and-reporting.png)
 
 **Grouper par deux symptômes, actif et type d’actif**
 
@@ -92,7 +92,7 @@ Dans la capture d’écran ci-dessous, **Secteur** a été ajouté à **Symptôm
 
 - Dans la colonne **% probabilité** si vous additionnez tous les pourcentages des combinaisons **Actif** / **Type d’actif** / **Symptôme** d’un actif, vous devez arriver à 100 %. La probabilité est basée sur la combinaison **Symptôme** et **Zone** dans cette analyse des défaillances. Si vous avez un grand nombre de lignes sur un actif, mais qu’un pourcentage élevé figure sur une ligne, cela peut indiquer une zone de défaillance à examiner de près pour trouver une manière de limiter le nombre d’enregistrements pour cette zone de défaillance.  
 
-![Figure 4](media/09-controlling-and-reporting.png)
+![Figure 4.](media/09-controlling-and-reporting.png)
 
 **Grouper par trois symptôme, actif et type d’actif**
 
@@ -100,7 +100,7 @@ Dans le capture d’écran ci-dessous, **Type** a été ajouté, et le calcul le
  
 - Dans la colonne **% probabilité** si vous additionnez tous les pourcentages des combinaisons **Actif** / **Type d’actif** / **Symptôme** d’un actif, vous devez arriver à 100 %. La probabilité est basée sur la combinaison **Symptôme**, **Secteur** et **Type** dans cette analyse des défaillances. Si vous avez un grand nombre de lignes sur un actif, mais qu’un pourcentage élevé figure sur une ligne, cela peut indiquer un type de défaillance à examiner de près pour trouver une manière de limiter le nombre d’enregistrements pour ce type de défaillance.
 
-![Figure 5](media/10-controlling-and-reporting.png)
+![Figure 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

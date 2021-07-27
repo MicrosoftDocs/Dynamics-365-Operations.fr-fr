@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838632"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346176"
 ---
 # <a name="target-entities"></a>Entités cibles
 
@@ -34,13 +34,13 @@ Dans l’espace de travail **Gestion des données**, vous pouvez obtenir une vue
 
 2. Dans la section **Importer/Exporter**, cliquez sur **Entités de données**. 
 
-    ![Figure 1](media/01-data-management.png)
+    ![Figure 1.](media/01-data-management.png)
 
 3. Sur la page **Entités cibles**, consultez « Gestion des actifs » dans le filtre, puis appuyez sur la touche Entrée pour afficher une liste des entités associées à la gestion des actifs.
 
     L’illustration suivante présente certaines des entités de gestion des actifs.
 
-   ![Figure 2](media/02-data-management.png)
+   ![Figure 2.](media/02-data-management.png)
 
 4. Sélectionnez une entité et cliquez sur **Modifier la mise en correspondance cible**.
 
@@ -48,7 +48,7 @@ Dans l’espace de travail **Gestion des données**, vous pouvez obtenir une vue
 
     Sur la figure ci-dessous, une visualisation des champs associés à l’entité des types d’actif s’affiche.
 
-    ![Figure 3](media/03-data-management.png)
+    ![Figure 3.](media/03-data-management.png)
 
 
 

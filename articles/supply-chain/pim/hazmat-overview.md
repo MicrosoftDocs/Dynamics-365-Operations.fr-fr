@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829376"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356997"
 ---
 # <a name="hazardous-materials-overview"></a>Vue d’ensemble des matières dangereuses
 
@@ -27,7 +28,7 @@ Pour rester conformes aux réglementations sur l’expédition et le transport, 
 
 Le diagramme suivant illustre les étapes nécessaires pour configurer et utiliser la fonction sur les matières dangereuses.
 
-![Configuration et utilisation de la fonction sur les matières dangereuses](media/hazmat-overview.png "Configuration et utilisation de la fonction sur les matières dangereuses")
+![Configuration et utilisation de la fonction sur les matières dangereuses.](media/hazmat-overview.png "Configuration et utilisation de la fonction sur les matières dangereuses")
 
 La fonctionnalité sur les matières dangereuses est configurée dans la gestion des informations sur les produits et fournit des documents qui peuvent être imprimés via la gestion des entrepôts. Par conséquent, de manière générale, ces domaines sont les deux principaux domaines dans lesquels vous allez examiner, configurer et utiliser les fonctionnalités de cette fonctionnalité :
 

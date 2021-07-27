@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: bdca4d63fbe04a01cf1bbf2ccd7b095d4718a115
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1beb706812aea0898b2bce9fc9aefa4541bb8924
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910303"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360848"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management
 
@@ -38,7 +38,7 @@ La rubrique présente les modèles et les tâches sous-jacentes utilisés pour s
 
 La solution Prospect en disponibilités utilise la fonction d’intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d’intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L’illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
-[![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flux de données dans Prospect en disponibilités.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Modèle et tâches
 
@@ -130,11 +130,11 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Mise en correspondance de modèles dans l’intégrateur de données](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Mise en correspondance de modèles dans l’intégrateur de données.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Mise en correspondance de modèles dans l’intégrateur de données](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Mise en correspondance de modèles dans l’intégrateur de données.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

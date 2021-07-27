@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0ea0fc8d50c25312b184ec1d3bd613695870d121
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2d098f323d58bf3233a83655b213afe131ae3f36
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792557"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349278"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promouvoir une variante et terminer une expérience
 
 Cette rubrique décrit comment promouvoir la variante qui a produit les meilleurs résultats dans votre expérience et comment terminer le test. Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres rubriques.
 
-[ ![Expérimentation parcours utilisateur - Examiner et terminer](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![Expérimentation parcours utilisateur - Examiner et terminer.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 Après avoir [réalisé votre expérience](experimentation-run-monitor.md) et collecté suffisamment de données pour déterminer la variante que vous souhaitez utiliser sur votre site en ligne, vous allez promouvoir la variante et terminer l’expérience.
 

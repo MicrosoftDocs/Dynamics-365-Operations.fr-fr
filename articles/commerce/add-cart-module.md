@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797861"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346850"
 ---
 # <a name="cart-module"></a>Module Panier
 
@@ -35,15 +35,15 @@ Le module de panier affiche les données selon l’ID du panier, qui est un cook
 
 L’image suivante montre un exemple de page de panier sur le site Fabrikam.
 
-![Exemple de module de panier sur le site Fabrikam](./media/cart2.PNG)
+![Exemple de module de panier sur le site Fabrikam.](./media/cart2.PNG)
 
 L’image suivante montre un exemple de page de panier sur le site Fabrikam. Dans cet exemple, des frais de traitement s’appliquent à un élément de ligne.
 
-![Exemple de module de panier avec frais de traitement pour un élément de ligne](./media/ecommerce-handling-fee.png)
+![Exemple de module de panier avec frais de traitement pour un élément de ligne.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Propriétés et emplacements du module de panier
 
-| Propriété | Valeurs | Description |
+| Propriété | Valeurs | Description  |
 |----------------|--------|-------------|
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête pour le panier, tel que « Panier d’achat » ou « Articles dans votre panier ». |
 | Afficher les erreurs de rupture de stock | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, la page du panier affichera les erreurs liées au stock. Nous vous recommandons de définir cette propriété sur **True** si des contrôles de stock sont appliqués sur le site. |

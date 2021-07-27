@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 6a8fa56d705d4b4ecb936fd2f49bc773509e38dd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 89c078ecdbd70f0dd5de87262979e652484f928f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894860"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359286"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -115,7 +115,7 @@ Pour plus d’informations sur le paramétrage des déclarations de fin, voir [D
 
 Créez des lignes sur la page **Paramétrage INTERVAT** (**Taxe \> Paramétrage \> Taxe \> Paramétrage INTERVAT**). Les informations que vous entrez dans cette page sont utilisées lorsque vous sélectionnez **Ouvrir le site web** sur la page **Déclaration de taxe INTERVAT**. Créez un élément pour chaque langue. Définissez les champs suivants : **Langue**, **Description** et **URL**.
 
-![Page Paramétrage INTERVAT](media/1_Intervat_setup.png)
+![Page Paramétrage INTERVAT.](media/1_Intervat_setup.png)
 
 ### <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
@@ -665,7 +665,7 @@ Vous pouvez également clôturer la période fiscale en générant un paiement d
 4.  Cliquez sur **OK**. Le système génère la ligne de déclaration de taxe INTERVAT et un fichier XML INTERVAT.
 5.  Passez en revue les informations de la déclaration.
 
-![Page Déclaration de taxe INTERVAT](media/2_Intervat_tax%20declaration.png)
+![Page Déclaration de taxe INTERVAT.](media/2_Intervat_tax%20declaration.png)
 
 6.  Dans l’onglet **Général**, vérifiez les champs suivants : **ID INTERVAT**, **Date**, **Période**, **Date de début**, **Date de fin**, **Fréquence**, **Statut** et **Nom du fichier**.
 7.  Dans l’onglet **Cadre I : Informations générales**, vérifiez les champs suivants. Vous pouvez modifier ces champs, même si la période a été clôturée. Les exceptions sont les champs de la section **Pourcentages au prorata**. Ces champs sont en lecture seule.
@@ -699,7 +699,7 @@ Pour imprimer une déclaration de taxe INTERVAT pour plusieurs périodes fiscale
 1.  Allez dans **Taxe** \> **Recherches et états** \> **États de taxe** \> **Déclaration de taxe de synthèse INTERVAT**.
 2.  Utilisez les filtres pour spécifier les critères de sélection des données, puis passez en revue les informations de l’état.
 
-![État des déclarations de taxe de synthèse INTERVAT généré](media/3_Intervat_summary_tax_declarations.png)
+![État des déclarations de taxe de synthèse INTERVAT généré.](media/3_Intervat_summary_tax_declarations.png)
 
 ## <a name="example"></a>Exemple
 L’exemple suivant montre comment paramétrer des codes taxe et des codes déclaration de taxe, valider des transactions et générer la déclaration de taxe INTERVAT.
@@ -765,7 +765,7 @@ Au lieu des codes **55** et **59**, vous pouvez utiliser les codes correctifs **
 9.  Dans la boite de dialogue **État de la taxe pour la période de règlement**, dans le champ **Version de paiement de la taxe**, sélectionnez **Original**.
 10.  Cliquez sur **OK** et passez en revue les données.
 
-![Page Déclaration de taxe INTERVAT générée](media/4_Intervat_tax_declaration.png)
+![Page Déclaration de taxe INTERVAT générée.](media/4_Intervat_tax_declaration.png)
 
 Notez que le montant de l’avoir est indiqué dans le code **84**.
 
@@ -773,7 +773,7 @@ Notez que le montant de l’avoir est indiqué dans le code **84**.
 12.  Cliquez sur **Nouveau** pour créer une ligne pour février 2020.
 13.  Sélectionnez **Corrections de taxe \> Ajustements** et créez une ligne.
 
-![Page Ajustements](media/5_Adjustments.png)
+![Page Ajustements.](media/5_Adjustments.png)
 
 14.  Allez dans **Taxe** \> **Déclarations** \> **Taxe** \> **Régler et valider la taxe**.
 15.  Dans la boite de dialogue **Régler et valider la taxe**, dans le champ **Version de paiement de la taxe**, sélectionnez **Original**.
@@ -786,15 +786,15 @@ Notez que le montant de l’avoir est indiqué dans le code **84**.
    -   **Mettre à jour :** Non
    -   **Mise en correspondance des formats :** Format INTERVAT (BE)
 
-![Nouvelle page Déclaration de taxe INTERVAT](media/6_Intervat.png)
+![Nouvelle page Déclaration de taxe INTERVAT.](media/6_Intervat.png)
 
 18.  Cliquez sur **OK**, ouvrez le fichier et examinez le rapport.
 
-![État de déclaration de taxe INTERVAT au format xml](media/7_Intervat_XML.png)
+![État de déclaration de taxe INTERVAT au format xml.](media/7_Intervat_XML.png)
 
 19.  Sélectionnez **Détails** et examinez les données.
 
-![Page Détails INTERVAT](media/8_Intervat_details.png)
+![Page Détails INTERVAT.](media/8_Intervat_details.png)
 
 Notez que le montant du code **62** est égal à **200**.
     

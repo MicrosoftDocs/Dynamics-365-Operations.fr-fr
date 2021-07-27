@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355827"
 ---
 # <a name="ratings-and-reviews-modules"></a>Modules Classements et Évaluations
 
@@ -42,20 +42,20 @@ Trois modules affichent le récapitulatif des classements et des évaluations su
  
 L’illustration suivante présente à quoi les modules de classements et d’évaluation ressemble sur une page de détails de produit.
 
-![Modules de classements et d’évaluations sur une page de détails de produit](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Modules de classements et d’évaluations sur une page de détails de produit.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Pour plus d’informations sur la procédure d’optimisation des modèles et des dispositions de page de détails de produit afin de partager les configurations des modules de classements et d’évaluation entre plusieurs pages de détails des produits sur votre site de commerce électronique, voir [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md).
 
 L’illustration ci-dessous indique comment la boîte de dialogue **Ajouter un module** présente les modules de classements et d’évaluation dans Dynamics 365 Commerce.
-![Boîte de dialogue Ajouter un module](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Boîte de dialogue Ajouter un module.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Module Écrire une évaluation
 
 Le module Écrire une évaluation inclut un bouton **Écrire une évaluation** qui permet aux utilisateurs de se connecter, d’affecter un classement, et d’écrire une évaluation de produit. Ce module permet également aux utilisateurs de modifier un classement ou une évaluation qu’il a précédemment soumis. Ce module apparaît généralement au-dessus des modules d’histogramme des classements et de liste d’évaluations de produit sur une page de détails de produit.
 L’illustration suivante présente la boîte de dialogue **Écrire une évaluation** qui s’affiche lorsqu’un client sélectionne **Écrire une évaluation**. Le client peut utiliser cette boîte de dialogue pour envoyer un classement et une évaluation.
 
-![Boîte de dialogue Écrire une évaluation](media/rnr-eCommerce-write-review-module.png)
+![Boîte de dialogue Écrire une évaluation.](media/rnr-eCommerce-write-review-module.png)
 
 Le tableau suivant montre la propriété du module Écrire une évaluation qui doit être configurée dans l’outil de création.
 
@@ -67,7 +67,7 @@ Le tableau suivant montre la propriété du module Écrire une évaluation qui d
 
 Le module d’histogramme de classements affiche un histogramme de classements. Ce module s’affiche généralement entre le module Écrire une évaluation et le module de liste d’évaluations de produit sur une page de détails de produit.
 Le module d’histogramme de classements ne requiert aucune configuration. Vous devez simplement ajouter le module dans modèle de page de détails de produit. Les illustrations suivantes présentent à quoi un modèle de page de détails de produit dans Dynamics 365 Commerce lorsque des modules de classements et d’évaluations sont configurés pour s’afficher sur les pages de détails de produit.
-![Modèle de page de détails de produit lorsque les classements et les évaluations sont configurés pour s’afficher sur des pages de détails de produit](media/rnr-eCommerce-pdp-reviews-modules.png)
+![Modèle de page de détails de produit lorsque les classements et les évaluations sont configurés pour s’afficher sur des pages de détails de produit.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Module Liste de classements de produit
 
@@ -82,11 +82,11 @@ Le tableau suivant montre les propriétés du module de liste d’évaluations d
 
 Le module de liste d’évaluations de produit inclut un emplacement dans lequel vous pouvez ajouter un module d’histogramme des classements. L’illustration ci-dessous indique comment vous pouvez ajouter un module d’histogramme de classements dans le module de liste d’évaluations de produit dans Dynamics 365 Commerce.
 
-![Ajout d’un module histogramme de classements dans un module de liste d’évaluations de produit](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Ajout d’un module histogramme de classements dans un module de liste d’évaluations de produit.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Présentation de la bibliothèque de modules](starter-kit-overview.md)
+[Vue d’ensemble de la bibliothèque de modules](starter-kit-overview.md)
 
 [Module Conteneur](add-container-module.md)
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796001"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352516"
 ---
 # <a name="cookie-consent-module"></a>Module de consentement aux cookies
 
@@ -35,11 +35,11 @@ Si le consentement aux cookies de l’utilisateur du site n’est pas obtenu, le
 Un module de consentement aux cookies peut être configuré sur le fragment d’en-tête d’une page afin qu’il puisse être appliqué lors du chargement de la page. Le module de consentement aux cookies doit comporter un message clair informant l’utilisateur du site de l’utilisation des cookies sur le site et doit fournir un lien vers la page de protection des données personnelles du site.
 
 L’illustration suivante met en évidence un exemple de message de consentement aux cookies avec un lien vers la page de politique de protection des données personnelles du site affiché sur l’en-tête d’une page de site.
-![Exemple de module de consentement aux cookies](./media/ecommerce-cookieconsent.png)
+![Exemple de module de consentement aux cookies.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Propriétés du module de consentement aux cookies
 
-| Nom de la propriété             | Valeur                 | Description |
+| Nom de la propriété             | Valeur                  | Description  |
 |---------------------------|-----------------------|-------------|
 | Texte enrichi                  | Texte enrichi | Spécifie une notification de texte enrichi aux utilisateurs du site indiquant que le site utilise des cookies de navigateur et que les utilisateurs doivent accepter l’utilisation de cookies pour que le site soit pleinement fonctionnel. |
 | Liens | URL | Un ou plusieurs liens peuvent être ajoutés à la page de protection des données personnelles d’un site qui décrit les types de cookies suivis sur le site. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d460cab24ca73d43a0f055c5f65791968841e472
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 511652c50354a440d6a165d82cb9563ce1136040
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835508"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359051"
 ---
 # <a name="sales-returns"></a>Retours sur ventes
 
@@ -33,7 +33,7 @@ Les clients peuvent retourner des articles pour différentes raisons. Par exempl
 ## <a name="return-order-process"></a>Processus d’ordre de retour
 L’illustration suivante fournit une vue d’ensemble du processus d’ordre de retour.  
 
-[![Processus d’ordre de retour](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Processus d’ordre de retour.](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Il existe deux types de processus d’ordre de retour : le retour physique et le retour de type Créditer uniquement.
 
@@ -62,7 +62,7 @@ Le processus RMA (retour de marchandises) découle de la fonctionnalité de comm
 ## <a name="create-a-return-order"></a>Création d’un ordre de retour
 Le processus d’ordre de retour démarre lorsqu’un client contacte votre organisation pour renvoyer un produit défectueux ou non désiré et/ou pour être crédité. Une fois que votre organisation a accepté le retour, celui-ci est documenté par un ordre de retour. Cet ordre de retour devient l’élément essentiel du traitement interne du produit retourné. L’illustration suivante présente la procédure de création d’un ordre de retour.  
 
-[![Procédure de création d’un ordre de retour](./media/salesreturn02.png)](./media/salesreturn02.png)
+[![Procédure de création d’un ordre de retour.](./media/salesreturn02.png)](./media/salesreturn02.png)
 
 ### <a name="create-a-return-order-header"></a>Créer un ne-tête d’ordre de retour
 
@@ -177,7 +177,7 @@ En plus de déterminer la destination des marchandises retournées, les codes di
 ## <a name="arrival-at-the-warehouse-for-inspection"></a>Arrivée à l’entrepôt pour inspection
 Avant de recevoir physiquement les articles retournés dans le stock en validant un bon de livraison, les articles doivent passer par l’enregistrement d’arrivée et une inspection facultative. L’illustration suivante présente une vue d’ensemble du processus d’arrivée. Les sections suivantes décrivent toutes les étapes présentées dans l’illustration.  
 
-[![Processus d’arrivée](./media/salesreturn03.png)](./media/salesreturn03.png)  
+[![Processus d’arrivée.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
 Le processus présente plusieurs variations qui ne sont pas abordées dans cette rubrique. Voici quelques unes de ces variations.
 
@@ -220,7 +220,7 @@ Il existe deux méthodes pour gérer le remplacement de produit :
 
 Dans le remplacement avant, l’article de remplacement peut être livré au client avant que l’article ne soit retourné. Cette méthode est utile, par exemple, si l’article est une pièce de machine qui ne peut pas être retirée tant qu’une pièce détachée n’est pas prête à la remplacer, ou simplement si vous souhaitez que votre client reçoive le produit de remplacement le plus tôt possible. L’ordre de remplacement avant est une commande client indépendante. Les informations d’en-tête sont initialisée à partir du client, et les informations de ligne sont initialisées à partir de l’ordre de retour. Vous pouvez modifier, traiter et supprimer l’ordre de remplacement indépendamment de l’ordre de retour. Lorsque vous supprimez un ordre de remplacement, vous recevez un message indiquant que l’ordre a été créé comme un ordre de remplacement. L’illustration suivante présente le processus du remplacement avant.  
 
-![Processus de remplacement avant](./media/SalesReturn04.png)
+![Processus de remplacement avant.](./media/SalesReturn04.png)
 
 L’ordre de retour contient une référence à l’ordre de remplacement. Si un ordre de remplacement avant a été créé pour un ordre de retour avant que l’article défectueux ne soit retourné, vous ne pouvez pas sélectionner les codes disposition pour le remplacement après que l’article défectueux a été renvoyé.
 
@@ -228,7 +228,7 @@ L’ordre de retour contient une référence à l’ordre de remplacement. Si un
 
 Si vous expédiez un article de remplacement au client, et que vous utilisez l’action de disposition **Remplacer et mettre au rebut** ou **Remplacer et créditer** dans l’ordre de retour, suivez le processus présenté dans l’illustration suivante.  
 
-![Processus de remplacement lors de l’utilisation d’un code disposition](./media/SalesReturn05.png)
+![Processus de remplacement lors de l’utilisation d’un code disposition.](./media/SalesReturn05.png)
 
 L’article de remplacement sera livré à l’aide d’une commande client est indépendante, la commande client de remplacement. Cette commande client est créée lorsque le bon de livraison de l’ordre de retour est généré. L’en-tête de l’ordre utilise les informations du client référencé dans l’en-tête de l’ordre de retour. Les informations de ligne sont collectées à partir des informations entrées dans la page **Article de remplacement**. La page **Article de remplacement** doit être remplie pour les lignes ayant des actions de disposition commençant par le mot « remplacer ». Toutefois, ni la quantité ni l’identité de l’article de remplacement n’est validée ou limitée. Cela permet de traiter les cas où le client souhaite recevoir le même article, mais dans une taille ou une configuration différente, ainsi que les cas où le client souhaite un article complètement différent. Par défaut, un article identiques est entré dans la page **Article de remplacement**. Toutefois, vous pouvez sélectionner un autre article, à condition que la fonction ait été paramétrée. 
 
@@ -268,7 +268,7 @@ Les ordres de retour peuvent être réalisés entre deux sociétés de votre org
 
 L’illustration suivante montre le paramétrage minimal requis pour que deux sociétés participent à une relation intersociétés et profitent du commerce intersociétés.  
 
-![Paramétrage minimal](./media/SalesReturn06.png)
+![Paramétrage minimal.](./media/SalesReturn06.png)
 
 Dans le scénario suivant, CompBuy est la société acheteuse, et CompSell est la société vendeuse. Généralement, la société vendeuse expédie les marchandises, soit à la société acheteuse soit, dans les scénarios d’expédition directe, directement au client final. Chez CompBuy, le fournisseur IC\_CompSell est défini comme un point de terminaison intersociétés associé à la société CompSell. Simultanément, Chez CompSell, le client IC\_CompBuy est défini comme un point de terminaison intersociétés associé à la société CompBuy. Les détails et les mises en correspondance de valeurs de la stratégie d’action appropriée doivent être définis dans les deux sociétés. Dans un scénario d’expédition directe, un ordre de retour intersociétés, qui est également une commande client intersociétés, est créé dans la société vendeuse. Le numéro de retour marchandises de l’ordre de retour intersociétés peut être repris dans la souche de numéros de retour marchandises chez CompSell, ou il peut être copié depuis le numéro de retour marchandises affecté à l’ordre de retour d’origine chez CompBuy. Les paramètres de numéro de retour marchandises de la stratégie d’action **PurchaseRequisition** chez CompBuy déterminent ces actions. Si le numéro de retour marchandises est synchronisé, vous devez prévoir de limiter le risque de conflits de numéros si les deux sociétés utilisent la même souche de numéros.
 
@@ -276,7 +276,7 @@ Dans le scénario suivant, CompBuy est la société acheteuse, et CompSell est l
 
 Ce scénario implique deux sociétés de la même organisation, comme le montre l’illustration suivante.  
 
-![Retour intersociétés simple](./media/SalesReturn07.png)
+![Retour intersociétés simple.](./media/SalesReturn07.png)
 
 La chaîne de commande peut être établie lorsqu’un ordre de retour fournisseur est créée dans la société acheteuse ou qu’un ordre de retour client est créé dans la société vendeuse. La commande correspondante est créée dans l’autre société et s’assure que les informations d’en-tête et de ligne dans l’ordre de retour fournisseur reflètent les paramètres de l’ordre de retour client. L’ordre de retour créé peut inclure ou exclure la référence (**Rechercher une commande client**) à une facture client existante. Les bons de livraison et les factures des deux commandes peuvent être traités individuellement. Par exemple, vous n’êtes pas obligé de générer un bon de livraison pour l’ordre de retour fournisseur avant de générer le bon de livraison pour l’ordre de retour client.
 
@@ -284,7 +284,7 @@ La chaîne de commande peut être établie lorsqu’un ordre de retour fournisse
 
 Ce scénario peut être établi si une vente précédente du type **Livraison directe** a été effectuée et s’il existe une facture concernant le client dans la société qui interagit avec le client. Dans l’illustration suivante, la société CompBuy a précédemment vendu et facturé des produits au client Extern. Les produits ont été expédiés directement de la société CompSell au client via une chaîne de commandes intersociétés.  
 
-![Retours à expédition directe entre trois parties](./media/SalesReturn08.png)
+![Retours à expédition directe entre trois parties.](./media/SalesReturn08.png)
 
 Si le client Extern souhaite retourner les produits, un ordre de retour (RMA02) est créé pour le client dans la société CompBuy. Pour établir la chaîne intersociétés, l’ordre de retour doit être marqué pour la livraison directe. Lorsque vous utilisez la fonction **Rechercher une commande client** pour trouver la facture client du retour, une chaîne de commandes intersociétés incluant les documents suivants est établie :
 
@@ -306,7 +306,7 @@ Dans les exemples suivants, le prix de revient du retour est représenté comme 
 
 L’ordre de retour ne fait pas référence à une facture client. L’article retourné est crédité. Le paramètre **Correction de crédit** n’est pas sélectionné lorsque la facture d’ordre de retour ou l’avoir sont générés.  
 
-![L’ordre de retour ne fait pas référence à une facture client](./media/SalesReturn09.png)  
+![L’ordre de retour ne fait pas référence à une facture client.](./media/SalesReturn09.png)  
 
 >[Remarque!] Le prix de base de l’article sert de valeur par défaut pour le paramètre **Prix de vente de retour**. Le prix par défaut diffère du prix de revient au moment de la sortie du stock. Par conséquent, l’implication est qu’une perte de 3 a été subie. En outre, l’ordre de retour n’inclut pas la remise qui a été accordée au client sur la commande client. Par conséquent, un crédit excessif apparaît.
 
@@ -314,7 +314,7 @@ L’ordre de retour ne fait pas référence à une facture client. L’article r
 
 L’exemple 2 est le même que l’exemple 1, mais le paramètre **Correction de crédit** est sélectionné lorsque la facture d’ordre de retour est générée.  
 
-![Ordre de retour lorsque la correction de crédit est sélectionnée ](./media/SalesReturn10.png)  
+![Ordre de retour lorsque la correction de crédit est sélectionnée.](./media/SalesReturn10.png)  
 
 >[Remarque!] Les validations comptables sont entrées comme des corrections négatives.
 
@@ -322,7 +322,7 @@ L’exemple 2 est le même que l’exemple 1, mais le paramètre **Correction 
 
 Dans cet exemple, la ligne d’ordre de retour est créée à l’aide de la fonction **Rechercher une commande client**. Le paramètre **Correction de crédit** n’est pas sélectionné quand la facture est générée.  
 
-![Ligne d’ordre de retour créée à l’aide de la fonction Rechercher une commande client ](./media/SalesReturn11.png)  
+![Ligne d’ordre de retour créée à l’aide de la fonction Rechercher une commande client.](./media/SalesReturn11.png)  
 
 >[Remarque!] **Remise** et **Prix de vente de retour** sont définis correctement. Par conséquent, une contrepassation exacte de la facture client est réalisée.
 

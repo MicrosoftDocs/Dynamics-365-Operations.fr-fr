@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186784"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358977"
 ---
 # <a name="note-integration"></a>Intégration d’une note
 
@@ -51,23 +51,23 @@ Pour créer une note dans une application Customer Engagement, puis la synchroni
 1. Dans l’application Customer Engagement, ouvrez l’enregistrement de compte d’un client.
 2. Dans le volet **Chronologie**, sélectionnez le signe plus (**+**), puis sélectionnez **Note** pour créer une note.
 
-    ![Création d’une note dans l’application Customer Engagement](media/notes-ce-1.png)
+    ![Création d’une note dans l’application Customer Engagement.](media/notes-ce-1.png)
 
 3. Entrez un nom et une description, puis sélectionnez **Ajouter une note**.
 
-    ![Saisie d’un titre et d’une description](media/notes-ce-2.png)
+    ![Saisie d’un titre et d’une description.](media/notes-ce-2.png)
 
     La nouvelle note est ajoutée à la chronologie du client.
 
-    ![Nouvelle note sur la chronologie du client](media/notes-ce-3.png)
+    ![Nouvelle note sur la chronologie du client.](media/notes-ce-3.png)
 
 4. Connectez-vous à l’application Finance and Operations et ouvrez le même enregistrement client. Notez que le bouton **Pièces jointes** (symbole de trombone) dans le coin supérieur droit indique que l’enregistrement a une pièce jointe.
 
-    ![Notification concernant une pièce jointe](media/notes-ce-4.png)
+    ![Notification concernant une pièce jointe.](media/notes-ce-4.png)
 
 5. Sélectionnez le bouton **Pièces jointes** pour ouvrir la page **Pièces jointes**. Vous devriez trouver la note que vous avez créée dans l’application Customer Engagement.
 
-    ![Note de l’application Customer Engagement](media/notes-ce-5.png)
+    ![Note de l’application Customer Engagement.](media/notes-ce-5.png)
 
 Toutes les mises à jour de la note sont synchronisées entre l’application Finance and Operations et l’application Customer Engagement.
 
@@ -79,21 +79,21 @@ Pour créer une note dans une application Finance and Operations, puis la synchr
 
 1. Dans l’application Finance and Operations, sur la page **Pièces jointes**, sélectionnez **Nouveau** \> **Note**.
 
-    ![Création d’une note dans l’application Finance and Operations](media/notes-fo-1.png)
+    ![Création d’une note dans l’application Finance and Operations.](media/notes-fo-1.png)
 
 2. Entrez un titre et des instructions brèves, puis sélectionnez **Enregistrer**.
 
-    ![Saisie d’un titre et d’instructions](media/notes-fo-2.png)
+    ![Saisie d’un titre et d’instructions.](media/notes-fo-2.png)
 
 3. Dans l’application Customer Engagement, mettez à jour l’enregistrement. La nouvelle note doit figurer sur la chronologie.
 
-    ![Nouvelle note sur la chronologie dans l’application Customer Engagement](media/notes-fo-3.png)
+    ![Nouvelle note sur la chronologie dans l’application Customer Engagement.](media/notes-fo-3.png)
 
 Vous pouvez classer une note comme interne ou externe.
 
 - Dans l’application Finance and Operations, sur la page **Pièces jointes**, ouvrez la note, puis, dans le champ **Restriction**, sélectionnez **Interne** ou **Externe**.
 
-    ![Champ de restriction](media/notes-fo-4.png)
+    ![Champ de restriction.](media/notes-fo-4.png)
 
 Vous pouvez également créer une URL.
 
@@ -101,13 +101,13 @@ Vous pouvez également créer une URL.
 2. Entrez un titre et l’URL.
 3. Dans le champ **Restriction**, sélectionnez **Interne** ou **Externe**.
 
-    ![Création d’une URL dans l’application Finance and Operations](media/notes-fo-5.png)
+    ![Création d’une URL dans l’application Finance and Operations.](media/notes-fo-5.png)
 
 4. Sélectionnez **Enregistrer**.
 
     Étant donné que les applications Customer Engagement n’ont pas de type d’URL, l’URL est intégrée à la double écriture en tant que note.
 
-    ![URL apparaissant en tant que note dans l’application Customer Engagement](media/notes-ce-6.png)
+    ![URL apparaissant en tant que note dans l’application Customer Engagement.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Les pièces jointes ne sont pas prises en charge.

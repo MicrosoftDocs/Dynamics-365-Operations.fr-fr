@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808686"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360944"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>États du cycle de vie de la demande de maintenance
 
@@ -48,7 +48,7 @@ Les états du cycle de vie de la demande de maintenance définissent les différ
 
 L’illustration suivante présente un exemple de la page **États du cycle de vie de la demande de maintenance**.
 
-![Page États du cycle de vie de la demande de maintenance](media/02-setup-for-requests.png)
+![Page États du cycle de vie de la demande de maintenance.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Les états du cycle de vie de la demande de maintenance, les groupes d’états du cycle de vie et les types sont liés et utilisés de la même manière que les états du cycle de vie de l’ordre de travail, les groupes d’états du cycle de vie et les types. 
@@ -66,9 +66,9 @@ Après avoir créé les états du cycle de vie requis pour vos demandes de maint
 
 5. Dans le raccourci **États du cycle de vie**, sélectionnez les états du cycle de vie qui doivent être inclus dans le modèle de cycle de vie :
 
-    - Pour inclure un état du cycle de vie dans le modèle de cycle de vie, sélectionnez-le dans la section **États du cycle de vie restants**, puis utilisez le bouton Flèche droite ![Flèche droite](media/03-setup-for-requests.png) pour le déplacer vers la section **États du cycle de vie sélectionnés**.
-    - Pour inclure tous les états du cycle de vie disponibles dans le modèle de cycle de vie, sélectionnez le bouton **Sélectionner tous les états disponibles** ![Sélectionner tous les états disponibles](media/04-setup-for-requests.png). Tous les états du cycle de vie sont déplacés vers la section **États du cycle de vie sélectionnés**.
-    - Pour supprimer un état du cycle de vie du modèle de cycle de vie, sélectionnez-le dans la section **États du cycle de vie sélectionnés**, puis utilisez le bouton Flèche gauche ![Flèche gauche](media/05-setup-for-requests.png) pour le déplacer vers la section **États du cycle de vie restants**.
+    - Pour inclure un état dans le modèle de cycle de vie, sélectionnez-le dans la section **États du cycle de vie restants**, puis sélectionnez le bouton de flèche droite ![flèche droite.](media/03-setup-for-requests.png) pour le déplacer dans la section **États de cycle de vie sélectionnés**.
+    - Pour inclure tous les états du cycle de vie disponibles dans le modèle de cycle de vie, sélectionnez le bouton **Sélectionner tous les états disponibles** ![Sélectionner tous les états disponibles.](media/04-setup-for-requests.png). Tous les états du cycle de vie sont déplacés vers la section **États du cycle de vie sélectionnés**.
+    - Pour supprimer un état de cycle de vie du modèle de cycle de vie, sélectionnez-le dans la section **États du cycle de vie sélectionnés**, puis sélectionnez le bouton de flèche gauche ![flèche gauche.](media/05-setup-for-requests.png) pour le déplacer dans la section **États de cycle de vie restants**.
 
 6. Dans le raccourci **Général**, les champs de la section **Mises à jour** sont utiles si vous utilisez la réparation au dépôt.
 
@@ -77,7 +77,7 @@ Après avoir créé les états du cycle de vie requis pour vos demandes de maint
 
 L’illustration suivante présente un exemple de la page **Modèles de cycle de vie de la demande de maintenance**.
 
-![Page Modèles de cycle de vie de la demande de maintenance](media/06-setup-for-requests.png)
+![Page Modèles de cycle de vie de la demande de maintenance.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838656"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346200"
 ---
 # <a name="work-hour-control"></a>Contrôle de temps de travail
 
@@ -66,7 +66,7 @@ La capture d’écran suivante présente un exemple de calcul de **contrôle des
 - Le champ **Heures réelles** indique les heures validées sur les ordres de travail. 
 - Le champ **Heures engagées** indique les totaux horaires dans lesquels votre société s’engage en termes d’ordres de travail.
 
-![Exemple de calcul de contrôle des heures de l’actif](media/04-controlling-and-reporting.png)
+![Exemple de calcul de contrôle des heures de l’actif.](media/04-controlling-and-reporting.png)
 
 Une autre manière d’effectuer un calcul d’heures est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Ensuite vous cliquez sur le bouton **Contrôle d’heure** sur l’organisateur **Général**. Les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l’organisateur **Enregistrements à inclure**. Cliquez sur **OK** dans la boîte de dialogue **Contrôle des heures d’actif**, et le calcul pour les actifs sélectionnés s’affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
 

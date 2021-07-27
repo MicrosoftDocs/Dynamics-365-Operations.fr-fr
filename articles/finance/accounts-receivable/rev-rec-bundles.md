@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816266"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347780"
 ---
 # <a name="revenue-recognition-bundles"></a>Offres groupées dans la prise en compte de revenu
 
@@ -59,15 +59,15 @@ Les prix de vente de base suivants sont définis pour les éléments constitutif
 
 Une commande client est saisie pour le client US-004, Cave Wholesales. La seule ligne qui est saisie est pour le lot d’ordinateurs portables. Le prix unitaire par défaut de la ligne parente peut provenir de nombreux endroits, tels que l’accord commercial ou le prix de vente de base. Dans cet exemple, un montant de 2 300 $ a été saisi manuellement comme prix unitaire.
 
-[![Lot d’ordinateurs portables sur une commande client](./media/bundle-01.png)](./media/bundle-01.png)
+[![Lot d’ordinateurs portables sur une commande client.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Étant donné que la commande client contient un lot, elle doit être confirmée. La boîte de dialogue de confirmation affiche les composants de l’offre groupée.
 
-[![Boîte de dialogue Confirmer les commandes client avec les éléments constitutifs](./media/bundle-02.png)](./media/bundle-02.png)
+[![Boîte de dialogue Confirmer les commandes client avec les éléments constitutifs.](./media/bundle-02.png)](./media/bundle-02.png)
 
 Cependant, le rapport de confirmation imprimé affichera uniquement l’élément parent du lot, car ce rapport est le document externe présenté au client.
 
-[![Rapport de confirmation avec uniquement l’élément parent](./media/bundle-03.png)](./media/bundle-03.png)
+[![Rapport de confirmation avec uniquement l’élément parent.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Une fois la commande client confirmée, l’article parent est toujours affiché sur la commande client, mais son statut est désormais **Annulé**. De plus, le montant net fait l’objet d’un suivi dans le champ **Montant net de l’offre groupée**. Ce montant est nécessaire pour imprimer la facture, car la facture montre l’article parent, pas les articles constitutifs.
 
@@ -85,7 +85,7 @@ La somme des composants doit être égale à 2 300 $, et c’est le cas (1713,
 
 Si des modifications sont nécessaires pour tous les éléments constitutifs, l’élément parent peut être supprimé. Dans ce cas, les éléments constitutifs sont également supprimés. L’article parent peut ensuite être ajouté à nouveau et les modifications requises peuvent être effectuées avant la confirmation de la commande client.
 
-[![Article d’offre groupée qui inclut les modifications apportées aux éléments constitutifs](./media/bundle-04.png)](./media/bundle-04.png)
+[![Article d’offre groupée qui inclut les modifications apportées aux éléments constitutifs.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Lorsque la commande client est emballée et retirée, les documents comprennent uniquement les composants de l’offre groupée. Le bon de livraison et la facture doivent inclure un lot complet. Sinon, ils ne peuvent pas être validés. Par exemple, la boîte de dialogue affiche trois éléments constitutifs. Si vous essayez de supprimer l’un d’entre eux, vous recevez un message d’erreur indiquant que tous les produits du lot doivent être expédiés avant de pouvoir être facturés.
 
@@ -95,19 +95,19 @@ Un montant partiel ne peut être expédié et facturé que si la quantité est r
 
 L’étape finale consiste à facturer la commande client. Lors de la facturation, la boîte de dialogue de facturation affichera les éléments constitutifs.
 
-[![Boîte de dialogue de facturation avec les éléments constitutifs](./media/bundle-06.png)](./media/bundle-06.png)
+[![Boîte de dialogue de facturation avec les éléments constitutifs.](./media/bundle-06.png)](./media/bundle-06.png)
 
 Cependant, la facture imprimée affichera uniquement l’élément parent.
  
-[![Facture imprimée avec uniquement l’élément parent](./media/bundle-07.png)](./media/bundle-07.png)
+[![Facture imprimée avec uniquement l’élément parent.](./media/bundle-07.png)](./media/bundle-07.png)
 
 Le journal des factures qui est créé après la validation n’inclut pas l’article parent du groupe, car le statut de cet article est **Annulé**.
 
-[![Journal des factures sans l’élément parent](./media/bundle-08.png)](./media/bundle-08.png)
+[![Journal des factures sans l’élément parent.](./media/bundle-08.png)](./media/bundle-08.png)
 
 Il est important que le journal des factures n’inclue pas l’article parent du groupe, car tous les processus exécutés après la validation de la facture sont basés sur ce journal des factures. Par exemple, si vous créez une note de crédit à partir de l’onglet **Vendre** du volet Actions, la note de crédit créée inclura les éléments constitutifs mais pas l’élément parent.
 
-[![Note de crédit qui montre les éléments constitutifs mais pas l’élément parent](./media/bundle-09.png)](./media/bundle-09.png)
+[![Note de crédit qui montre les éléments constitutifs mais pas l’élément parent.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 09da3c3a79b5540670db25d5466023132d2848f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354783"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Moyenne mobile, séquence de coût de secours
 
@@ -42,7 +42,7 @@ Pour sélectionner la séquence de coût de secours pour les calculs de moyenne 
     - **Coût actif - Dernière sortie**
     - **Coût actif - Prix de l’article** - Les organisations peuvent rencontrer des problèmes de performances si elles utilisent des processus métier où le stock devient régulièrement négatif et si, en même temps, le volume de transactions est élevé. Ce paramètre peut aider à atténuer ces problèmes de performances.
 
-![Paramètres de comptabilité de stock](media/inventory-accounting-parameters.png "Paramètres de comptabilité de stock")
+![Paramètres de comptabilité de stock.](media/inventory-accounting-parameters.png "Paramètres de comptabilité de stock")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792193"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352010"
 ---
 # <a name="home-page-overview"></a>Vue d’ensemble de la page d’accueil
 
@@ -31,7 +32,7 @@ La page d’accueil est la page par défaut vers laquelle les clients se dirigen
 
 L’illustration suivante montre un exemple de page d’accueil qui a été générée à l’aide de la bibliothèque de modules et du thème « Fabrikam ».
 
-![Exemple d’une page d’accueil](./media/Homepage2.PNG)
+![Exemple d’une page d’accueil.](./media/Homepage2.PNG)
 
 Le haut de la page d’accueil comporte en-tête qui affiche toutes les catégories de produits et d’autres pages que le détaillant souhaite que les clients parcourent. Le bas de la page d’accueil comporte un pied de page qui contient des liens rapides vers diverses rubriques qui peuvent intéresser les clients.
 
@@ -41,13 +42,13 @@ La section principale de la page d’accueil peut mettre en évidence des produi
 
     L’illustration suivante présente un exemple de page d’accueil où le premier article dans la section principale est la disposition en bannière d’un module de bloc de contenu appelé « Dernières nouveautés ».
 
-    ![Exemple d’un module de bannière](./media/Hero.PNG)
+    ![Exemple d’un module de bannière.](./media/Hero.PNG)
 
 - **Fonctionnalités** : une disposition avec fonctionnalités d’un module de bloc de contenu permet de commercialiser des produits ou de publier des promotions en associant des images et du texte. Les dispositions avec fonctionnalités peuvent être utilisées de manière indépendante ou être hébergés dans un module de carrousel.
 
     L’illustration suivante présente un exemple de disposition avec fonctionnalités d’un module de bloc de contenu sur une page d’accueil.
 
-    ![Exemples de modules de fonctionnalités](./media/Feature.PNG)
+    ![Exemples de modules de fonctionnalités.](./media/Feature.PNG)
 
 - **Vignette** : une disposition en vignette d’un module de bloc de contenu permet de présenter plusieurs produits ou une catégorie de produits en associant des images et du texte dans une disposition à plusieurs colonnes. Dans l’illustration d’une page d’accueil qui apparaît plus haut dans cette rubrique, une disposition en vignette est utilisée pour le rendu en 3 colonnes des articles **Achats Femme**, **Achats Homme** et **Achats accessoires**.
 - **Lecteur vidéo** – Un module de lecteur vidéo permet de présenter du contenu vidéo sur la page d’accueil. L’illustration d’une page d’accueil qui apparaît plus haut dans cette rubrique comprend un module de lecteur vidéo.
@@ -56,7 +57,7 @@ La section principale de la page d’accueil peut mettre en évidence des produi
 
     L’illustration suivante présente des exemples de modules de recommandations de produits sur une page d’accueil.
 
-    ![Exemples de modules de recommandations de produits](./media/Recommendations.PNG)
+    ![Exemples de modules de recommandations de produits.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Tous les modules qui sont mentionnés ici peuvent être utilisés dans n’importe quelle page de site. Toutefois, leur placement sur la page d’accueil est importante, car cette page est là où les clients interagissent en premier avec votre site.

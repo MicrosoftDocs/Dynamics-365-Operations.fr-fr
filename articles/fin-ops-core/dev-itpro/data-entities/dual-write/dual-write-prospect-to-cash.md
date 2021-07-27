@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754086"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361389"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -33,7 +33,7 @@ Un objectif important de la plupart des entreprises consiste à convertir les pr
 
 Dans les interfaces de l’application, vous pouvez accéder en temps réel aux statuts de traitement et aux informations de facturation. Par conséquent, vous pouvez gérer plus facilement des fonctions telles que le stockage de produits, la gestion des stocks et l’exécution dans Supply Chain Management, sans avoir à recréer les devis et les commandes.
 
-![Flux de données en double écriture dans les prospects en disponibilités](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Flux de données en double écriture dans les prospects en disponibilités.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Pour plus d’informations sur l’intégration des clients et des contacts, voir [Données principales client intégrées](customer-mapping.md). Pour plus d’informations sur l’intégration de produit, voir [Expérience produit uniformisée](product-mapping.md).
 

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188408"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360814"
 ---
 # <a name="mobile-app-home-page"></a>Page d’accueil Application mobile
 
@@ -39,7 +39,7 @@ L’application mobile permet à votre organisation de rendre ses processus mét
 ## <a name="elements-of-the-mobile-app"></a>Éléments de l’application mobile
 La navigation dans l’application mobile utilise quatre éléments de base : le tableau de bord, les espaces de travail, les pages, et les actions. 
 
-[![Concepts de navigation dans l’application mobile](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Concepts de navigation dans l’application mobile.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Lorsque vous démarrez l’application, vous accédez au **Tableaux de bord**.
 2. Dans le tableau de bord, vous pouvez afficher la liste des **espaces de travail** qui ont été publiés.
@@ -53,7 +53,7 @@ La navigation dans l’application mobile utilise quatre éléments de base : l
 ## <a name="implementation-process"></a>Processus d’implémentation
 L’illustration suivante présente le processus pour implémenter les deux espaces de travail mobiles qui sont fournis par Microsoft et les espaces de travail mobiles personnalisés. 
 
-[![Processus d’implémentation d’applications mobiles](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Processus d’implémentation d’applications mobiles.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Le tableau suivant contient des liens vers des ressources qui vous aident à implémenter les deux espaces de travail mobiles qui sont fournis par Microsoft et les espaces de travail mobiles personnalisés. Les numéros dans la première colonne correspondent aux étapes numérotées dans l’illustration précédente.
 

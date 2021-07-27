@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187914"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355698"
 ---
 # <a name="budgeting-home-page"></a>Page d’accueil de la fonctionnalité de budgétisation
 
@@ -32,7 +34,7 @@ Cette rubrique fournit une vue d’ensemble des composants de la fonctionnalité
 
 Le cycle de planification des ressources pour une société comporte généralement des activités de planification, de budgétisation et de prévision.
 
-[![Composants de la fonctionnalité de budgétisation](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Composants de la fonctionnalité de budgétisation.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Les processus de planification stratégique à long terme et de planification budgétaire annuelle sont pris en charge par un document de plan budgétaire. Les documents de plan budgétaire sont étroitement intégrés avec Microsoft Excel. Les utilisateurs peuvent configurer des scénarios monétaires et quantitatifs illimités, et définir une hiérarchie organisationnelle de budgétisation pour prendre en charge les méthodes de budgétisation du haut-en-bas et de bas-en-haut. Une fois que le budget est établi et approuvé dans l’application, vous devez convertir le plan budgétaire en écriture du registre budgétaire. Les écritures du registre budgétaires fournissent des outils pour tenir à jour le budget et pour conserver la trace des montants grâce à des codes budgétaires. Les écritures du registre budgétaires permettent de réviser les budgets d’origine, effectuer des transferts et reporter des montants budgétaires de l’année précédente. Selon le budget établi, une société peut activer le contrôle budgétaire. Le niveau de contrôle dépend du niveau de la culture organisationnelle et du niveau de maturité de l’organisation. Les organisations qui ont un faible niveau de maturité peuvent laisser le budget « tel quel » et être plus réactives que proactives si un budget ne respecte pas leurs attentes. D’autres organisations peuvent activer les stratégies de contrôle budgétaire qui empêchent les utilisateurs d’acheter si les fonds budgétaires ne sont pas disponibles.
 
@@ -46,7 +48,7 @@ Enfin, les organisations très mûres peuvent créer une culture organisationnel
 -   [Modèles de planification budgétaire pour Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Outils de budgétisation
-[![Outils de budgétisation](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Outils de budgétisation.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 D’autres fonctionnalités de planification et de budgétisation sont disponibles et sont intégrées aux budgets comptables.
 

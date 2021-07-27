@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360099"
 ---
 # <a name="asset-lifecycle-states"></a>États du cycle de vie de l’actif
 
@@ -61,9 +61,9 @@ Après avoir créé les états du cycle de vie de l’actif requis, vous pouvez 
 
 5. Dans le raccourci **États du cycle de vie**, sélectionnez les états du cycle de vie de l’actif qui doivent être inclus dans le modèle de cycle de vie de l’actif :
 
-    - Pour utiliser un état du cycle de vie pour le modèle, sélectionnez-le dans la section **États du cycle de vie restants**, puis utilisez le bouton Flèche droite ![Flèche droite](media/15-setup-for-objects.png) pour le déplacer vers la section **États du cycle de vie sélectionnés**.
-    - Pour utiliser tous les états du cycle de vie disponibles pour le modèle, sélectionnez le bouton **Tous les états du cycle de vie disponibles** ![Tous les états du cycle de vie disponibles](media/20-setup-for-objects.png). Tous les états du cycle de vie sont transférés vers la section **États du cycle de vie sélectionnés**.
-    - Pour supprimer un état du cycle de vie du modèle, sélectionnez-le dans la section **États du cycle de vie sélectionnés**, puis utilisez le bouton Flèche gauche ![Flèche gauche](media/16-setup-for-objects.png) pour le déplacer vers la section **États du cycle de vie restants**.
+    - Pour utiliser un état de cycle de vie du modèle, sélectionnez-le dans la section **États du cycle de vie restants**, puis sélectionnez le bouton de flèche droite ![flèche droite](media/15-setup-for-objects.png). pour le déplacer dans la section **États de cycle de vie sélectionnés**.
+    - Pour utiliser tous les états du cycle de vie disponibles pour le modèle, sélectionnez le bouton **Tous les états du cycle de vie disponibles** ![Tous les états du cycle de vie disponibles.](media/20-setup-for-objects.png). Tous les états du cycle de vie sont transférés vers la section **États du cycle de vie sélectionnés**.
+    - Pour supprimer un état de cycle de vie du modèle, sélectionnez-le dans la section **états du cycle de vie sélectionnés**, puis sélectionnez le bouton de flèche gauche ![flèche gauche](media/16-setup-for-objects.png). pour le déplacer dans la section **États de cycle de vie restants**.
 
 6. Sélectionnez **Mises à jour de l’état du cycle de vie** pour définir les états du cycle de vie de l’actif qui peuvent suivre un état du cycle de vie sélectionné.
 7. Vous utilisez le raccourci **État de l’actif** si vous gérez des actifs que vous recevez pour réparation. Dans la section **Entrant/Sortant**, vous pouvez sélectionner les états du cycle de vie de l’actif pour indiquer le workflow d’un actif que vous recevez pour réparation. Si vous offrez des actifs d’emprunt aux clients ou aux départements, dans la section **Emprunt**, vous pouvez sélectionner les états du cycle de vie pour les actifs d’emprunt.

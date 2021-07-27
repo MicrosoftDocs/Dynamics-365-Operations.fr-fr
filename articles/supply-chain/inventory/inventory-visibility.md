@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017004"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358096"
 ---
 # <a name="inventory-visibility-add-in"></a>Complément de visibilité de stock
 
@@ -53,11 +53,11 @@ Avant de pouvoir installer le complément Visibilité du stock, vous devez proc�
   - `Inventory Visibility Integration.zip` (si la version de Supply Chain Management que vous exécutez est antérieure à la version 10.0.18)
 - Vous pouvez également contacter l’équipe de visibilité de l’inventaire à [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) pour obtenir les packages de Package Deployer. Ces packages peuvent être utilisés par un outil Package Deployer officiel.
   - `InventoryServiceBase.PackageDeployer.zip`
-  - `InventoryServiceApplication.PackageDeployer.zip` (ce package contient toutes les modifications apportées au package `InventoryServiceBase`, ainsi que des composants d'application d'interface utilisateur supplémentaires)
-- Suivez les instructions données dans [Démarrage rapide : enregistrer une application avec la plateforme d'identité Microsoft](/azure/active-directory/develop/quickstart-register-app) pour inscrire une application et ajouter un secret client à AAD dans le cadre de votre abonnement Azure.
+  - `InventoryServiceApplication.PackageDeployer.zip` (ce package contient toutes les modifications apportées au package `InventoryServiceBase`, ainsi que des composants d’application d’interface utilisateur supplémentaires)
+- Suivez les instructions données dans [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app) pour inscrire une application et ajouter un secret client à AAD dans le cadre de votre abonnement Azure.
   - [Inscrire une application](/azure/active-directory/develop/quickstart-register-app)
   - [Ajouter un secret client](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-  - Les valeurs **Identifiant de l'application (client)**, **Secret client** et **ID du locataire** seront utilisées dans les étapes suivantes.
+  - Les valeurs **Identifiant de l’application (client)**, **Secret client** et **ID du locataire** seront utilisées dans les étapes suivantes.
 
 > [!NOTE]
 > Les régions actuellement pris en charge comprennent le Canada, les États-Unis et l’Union européenne (UE).
@@ -66,7 +66,7 @@ Si vous avez des questions sur ces conditions préalables, contactez l’équipe
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Paramétrer Dataverse
 
-Pour configurer Dataverse pour une utilisation avec la visibilité du stock, vous devez d'abord préparer les prérequis, puis décider si vous souhaitez configurer Dataverse à l'aide de l'outil Package Deployer ou en important manuellement les solutions (vous n'avez pas à faire les deux). Ensuite installez le complément de visibilité de stock. Les sous-sections suivantes décrivent comment effectuer chacune de ces tâches.
+Pour configurer Dataverse pour une utilisation avec la visibilité du stock, vous devez d’abord préparer les prérequis, puis décider si vous souhaitez configurer Dataverse à l’aide de l’outil Package Deployer ou en important manuellement les solutions (vous n’avez pas à faire les deux). Ensuite installez le complément de visibilité de stock. Les sous-sections suivantes décrivent comment effectuer chacune de ces tâches.
 
 #### <a name="prepare-dataverse-prerequisites"></a>Préparer les conditions préalables Dataverse
 
@@ -82,9 +82,9 @@ Avant de commencer la configuration de Dataverse, ajoutez un principe de service
     New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
     ```
 
-#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Configurer Dataverse à l'aide de l'outil Package Deployer
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Configurer Dataverse à l’aide de l’outil Package Deployer
 
-Une fois les conditions préalables en place, utilisez la procédure suivante si vous préférez configurer Dataverse à l'aide de l'outil Package Deployer. Consultez la section suivante pour plus de détails sur la façon d'importer les solutions manuellement (ne faites pas les deux).
+Une fois les conditions préalables en place, utilisez la procédure suivante si vous préférez configurer Dataverse à l’aide de l’outil Package Deployer. Consultez la section suivante pour plus de détails sur la façon d’importer les solutions manuellement (ne faites pas les deux).
 
 1. Installez les outils de développement comme décrit dans [Télécharger les outils depuis NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
 
@@ -101,14 +101,14 @@ Une fois les conditions préalables en place, utilisez la procédure suivante si
         - Copiez chacun de ces dossiers et fichiers dans le répertoire `.\Tools\PackageDeployment`, qui a été créé lorsque vous avez installé les outils de développement.
     1. Exécutez `.\Tools\PackageDeployment\PackageDeployer.exe`. Suivez les instructions sur votre écran pour importer les solutions.
 
-1. Attribuez les rôles de sécurité à l'utilisateur de l'application.
+1. Attribuez les rôles de sécurité à l’utilisateur de l’application.
     1. Ouvrez l’URL de votre environnement Dataverse.
-    1. Accédez à **Paramètres avancés \> Système \> Sécurité \> Utilisateurs**, et recherchez l'utilisateur nommé **# InventoryVisibility**.
+    1. Accédez à **Paramètres avancés \> Système \> Sécurité \> Utilisateurs**, et recherchez l’utilisateur nommé **# InventoryVisibility**.
     1. Sélectionner **Attribuer un rôle**, puis **Administrateur système**. S’il y a un rôle nommé **Utilisateur Common Data Service**, sélectionnez-le aussi.
 
 #### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Configurer Dataverse manuellement en important des solutions
 
-Une fois les conditions préalables en place, utilisez la procédure suivante si vous préférez configurer Dataverse en important manuellement des solutions. Consultez la section précédente pour plus de détails sur l'utilisation de l'outil Package Deployer (ne faites pas les deux).
+Une fois les conditions préalables en place, utilisez la procédure suivante si vous préférez configurer Dataverse en important manuellement des solutions. Consultez la section précédente pour plus de détails sur l’utilisation de l’outil Package Deployer (ne faites pas les deux).
 
 1. Créer un utilisateur d’application pour la visibilité de l’inventaire dans Dataverse :
 
@@ -119,7 +119,7 @@ Une fois les conditions préalables en place, utilisez la procédure suivante si
 
     Pour plus d’informations, voir [Créer un utilisateur d’application](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
-1. Si la langue par défaut de votre Dataverse n'est pas **l'Anglais** :
+1. Si la langue par défaut de votre Dataverse n’est pas **l’Anglais** :
 
     1. Accédez à **Paramètres avancés \> Administration \> Langues**,
     1. Sélectionnez **Anglais (LanguageCode = 1033)** et sélectionnez **Appliquer**.
@@ -143,7 +143,7 @@ Une fois les conditions préalables en place, utilisez la procédure suivante si
 
             Pour plus d’informations sur cette variable, consultez la section [Configurer l’intégration de la visibilité de l’inventaire](#setup-inventory-visibility-integration) plus loin dans cette rubrique.
 
-        ![déclencheur de configuration](media/configuration-trigger.png "déclencheur de configuration")
+        ![Déclencheur de configuration.](media/configuration-trigger.png "déclencheur de configuration")
 
     1. Sélectionnez **Activer**.
 
@@ -157,7 +157,7 @@ Pour pouvoir installer le complément Visibilité du stock, procédez comme suit
 1. Sur la page d’environnement, faites défiler vers le bas jusqu’à ce que vous voyiez la section **Compléments d’environnement** dans la section **Intégration Power Platform**, où vous pouvez trouver le nom de l’environnement Dataverse.
 1. Dans la section **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
 
-    ![Page de l’environnement dans LCS](media/inventory-visibility-environment.png "Page de l’environnement dans LCS")
+    ![Page de l’environnement dans LCS.](media/inventory-visibility-environment.png "Page de l’environnement dans LCS")
 
 1. Sélectionnez le lien **Installer un nouveau complément**. Une liste des compléments disponibles s’ouvre.
 1. Dans la liste, sélectionnez **visibilité de stock**.
@@ -166,7 +166,7 @@ Pour pouvoir installer le complément Visibilité du stock, procédez comme suit
     - **ID application AAD (client)**
     - **ID locataire AAD**
 
-    ![Ajouter dans la page de configuration](media/inventory-visibility-setup.png "Page de configuration de complément")
+    ![Ajouter dans la page de configuration.](media/inventory-visibility-setup.png "Page de configuration de complément")
 
 1. Acceptez les termes et conditions en cochant la case **Termes et conditions**.
 1. Sélectionnez **Installer**. Le statut du complément s’affichera comme **Installation en cours**. Une fois terminé, actualisez la page pour voir le statut changer en **Installé**.
@@ -300,7 +300,7 @@ Obtenez un jeton de service de sécurité en procédant comme suit :
 
 ### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Exemple de requête
 
-Pour votre référence, voici un exemple de requête http ; vous pouvez utiliser n'importe quel outil ou langage de code pour envoyer cette requête, tel que ``Postman``.
+Pour votre référence, voici un exemple de requête http ; vous pouvez utiliser n’importe quel outil ou langage de code pour envoyer cette requête, tel que ``Postman``.
 
 ```json
 # Url

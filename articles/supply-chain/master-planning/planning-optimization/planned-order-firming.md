@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271206"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360374"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -81,7 +81,7 @@ Pour confirmer manuellement les commandes prévisionnelles, recherchez et sélec
     - **Regrouper par période** (dans la section **Commandes fournisseur**) – Sélectionnez la période selon laquelle regrouper les commandes fournisseur prévisionnelles. Pour utiliser cette option, vous devez également sélectionner l’option **Regrouper par fournisseur**.
     - **Regrouper par période** (dans la section **Transferts**) – Sélectionnez la période selon laquelle regrouper les ordres de transfert prévisionnels. Les commandes seront regroupées en fonction des valeurs **Entrepôt d’origine** et **Entrepôt de destination**.
 
-    ![Raccourci Paramètres dans la boîte de dialogue Confirmation](./media/manual-firming.png "Raccourci Paramètres dans la boîte de dialogue Confirmation")
+    ![Raccourci Paramètres dans la boîte de dialogue Confirmation.](./media/manual-firming.png "Raccourci Paramètres dans la boîte de dialogue Confirmation")
 
 1. Sur le raccourci **Exécuter à l’arrière-plan**, configurez le processus pour qu’il s’exécute par lots. Cependant, cela n’a pas de sens de mettre en place un calendrier récurrent lorsque vous effectuez une confirmation manuelle. Les champs fonctionnent comme pour d’autres types de [travaux d’arrière-plan](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) dans Supply Chain Management. Cependant, pour la confirmation manuelle, le traitement par lots ne traitera que les commandes prévisionnelles actuellement sélectionnées. Il ne traitera aucune commande correspondant aux filtres actuellement appliqués sur la page.
 1. Cliquez sur **OK** pour appliquer vos paramètres et générer des commandes confirmées.
@@ -140,15 +140,15 @@ Pour confirmer une commande prévisionnelle à l’aide du processus de confirma
     - **Nombre de jours futurs de la plage de gestion de la confirmation** – Sélectionnez la durée dans l’avenir du calcul par la planification des divers besoins et autres éléments.
     - **Nombre de jours passés de la plage de gestion de la confirmation** – Sélectionnez la durée dans le passé du calcul par la planification des divers besoins et autres éléments.
 
-    ![Raccourci Paramètres dans la boîte de dialogue Confirmation des commandes prévisionnelles](./media/planned-order-firming-main-1.png "Raccourci Paramètres dans la boîte de dialogue Confirmation des commandes prévisionnelles")
+    ![Raccourci Paramètres dans la boîte de dialogue Confirmation des commandes prévisionnelles.](./media/planned-order-firming-main-1.png "Raccourci Paramètres dans la boîte de dialogue Confirmation des commandes prévisionnelles")
 
 1. Pour spécifier les enregistrements à inclure dans la commande, sélectionnez le bouton **Filtre** sur le raccourci **Enregistrements à inclure**. Une boîte de dialogue de requête standard apparaît, dans laquelle vous pouvez définir des critères de sélection, des critères de tri et des jointures. Les champs fonctionnent comme pour d’autres types de requêtes dans Supply Chain Management. Les champs ici sont en lecture seule et affichent les valeurs liées à votre requête.
 
-    ![Raccourci Enregistrements à inclure dans la boîte de dialogue Confirmation des commandes prévisionnelles](./media/planned-order-firming-main-2.png "Raccourci Enregistrements à inclure dans la boîte de dialogue Confirmation des commandes prévisionnelles")
+    ![Raccourci Enregistrements à inclure dans la boîte de dialogue Confirmation des commandes prévisionnelles.](./media/planned-order-firming-main-2.png "Raccourci Enregistrements à inclure dans la boîte de dialogue Confirmation des commandes prévisionnelles")
 
 1. Sélectionnez **Aperçu** pour prévisualiser le contenu de votre commande confirmée, en fonction de vos paramètres jusqu’à présent. La liste des commandes prévisionnelles qui seront confirmées s’affiche sous forme de message. Vous pouvez ensuite ajuster vos paramètres selon vos besoins jusqu’à ce que l’aperçu affiche la commande confirmée qui vous convient.
 
-    ![Exemple d’aperçu de commande confirmé](./media/planned-order-firming-preview.png "Exemple d’aperçu de commande confirmé")
+    ![Exemple d’aperçu de commande confirmé.](./media/planned-order-firming-preview.png "Exemple d’aperçu de commande confirmé")
 
     > [!WARNING]
     > Cette fonctionnalité confirmera toutes les commandes prévisionnelles qui correspondent aux critères de filtrage. Une confirmation non critique des commandes prévisionnelles peut entraîner la création d’un grand nombre d’ordres d’achat, de transfert et de fabrication indésirables. Avant de continuer, utilisez toujours le bouton **Aperçu** pour valider les enregistrements qui seront inclus.

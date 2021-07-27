@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99e873a07accd33aebfe010fbc8678cd8bc3ed9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798961"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349302"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Afficher un aperçu et publier une expérience
 
 Cette rubrique décrit comment afficher un aperçu et publier votre expérience dans Dynamics 365 Commerce après avoir [connecté votre expérience et modifié vos variantes](experimentation-connect-edit.md). Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres rubriques.
 
-[ ![Expérimentation parcours utilisateur - Afficher un aperçu et publier](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![Expérimentation parcours utilisateur - Afficher un aperçu et publier.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>Afficher un aperçu de vos variantes d’expérience
 Vous pouvez afficher un aperçu de vos variantes et continuer à les modifier jusqu’à ce qu’elles correspondent à ce que vous souhaitez.

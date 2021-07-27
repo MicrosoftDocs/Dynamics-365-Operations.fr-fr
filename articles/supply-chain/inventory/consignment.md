@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360398"
 ---
 # <a name="set-up-consignment"></a>Définir une consignation
 
@@ -61,7 +61,7 @@ Une commande de réapprovisionnement avec consignation est un document qui perme
 
 La dimension **Propriétaire** permet de séparer les informations sur le stock appartenant au fournisseur et sur celui appartenant à l’entité juridique de réception. Les lignes de commande de réapprovisionnement avec consignation ont un statut **Commande en cours** tant que la quantité totale des lignes n’a pas été reçue ou annulée. Lorsque la quantité totale a été reçue ou annulée, le statut passe à **Terminé**. Le stock physique disponible associé à une commande de réapprovisionnement avec consignation peut être enregistré à l’aide d’un processus d’enregistrement ainsi que d’un processus de mise à jour d’accusé de réception de marchandises. L’enregistrement peut être effectué dans le cadre du processus d’arrivée d’article ou en mettant à jour manuellement les lignes de commande. Lorsque le processus de mise à jour d’accusé de réception de marchandises est utilisé, un enregistrement est créé dans le journal d’accusé de réception de marchandises, qui permet de confirmer la réception des marchandises aux fournisseurs.
 
-[![Commandes de réapprovisionnement avec consignation](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Commandes de réapprovisionnement avec consignation.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Journal des modifications de propriété du stock
 
@@ -74,7 +74,7 @@ Les seules transactions de stock créées sont celles qui sont associées à un 
 
 Il n’est pas possible de mettre à jour la quantité sur les lignes de commande fournisseur avec consignation une fois la commande créée.
 
-[![Journal des modifications de propriété du stock](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Journal des modifications de propriété du stock.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Collaboration fournisseur dans les processus de consignation
 
@@ -90,13 +90,13 @@ Pour plus d’informations sur le paramétrage des fournisseurs pour utiliser la
 
 Pour enregistrer le stock de consignation entrant physique, vous devez définir un propriétaire fournisseur. Cette opération s’effectue sur la page **Propriétaire du stock**. Lorsque vous sélectionnez un **Compte fournisseur**, cette option génère des valeurs par défaut pour les champs **Nom** et **Propriétaire**. La valeur du champ **Propriétaire** est visible du fournisseur, vous pouvez le modifier si vos noms de comptes fournisseur ne sont pas faciles à reconnaître pour les personnes extérieures. Il est possible de modifier le champ **Propriétaire**, mais uniquement jusqu’à ce que vous enregistriez l’enregistrement **Propriétaire du stock**. Le champ **Nom** est rempli avec le nom du tiers auquel le compte fournisseur est associé, et il ne peut pas être modifié.
 
-[![Propriétaires du stock](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Propriétaires du stock.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Groupe de dimension de suivi
 
 Les articles qui vont être utilisés dans les processus de consignation doivent être associés à un **Groupe de dimensions de suivi** dans lequel la dimension **Propriétaire** est définie sur **Active**. La dimension du propriétaire a toujours les options **Stock physique** et **Stock financier** sélectionnées. Le **Plan de couverture par dimension** n ’est jamais sélectionné.
 
-[![Groupe de dimension de suivi](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Groupe de dimension de suivi.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

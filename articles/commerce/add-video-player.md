@@ -2,7 +2,7 @@
 title: Module Lecteur vidéo
 description: Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797405"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479278"
 ---
 # <a name="video-player-module"></a>Module de lecture vidéo
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -43,12 +44,16 @@ Le module lecteur vidéo prend également en charge les pistes audio secondaires
 
 L’image suivante montre un exemple de module de lecture vidéo sur une page d’accueil.
 
-![Exemple de module de lecture vidéo](./media/ecommerce-videoplayer.PNG)
+![Exemple de module de lecture vidéo.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Propriétés du module de lecture vidéo
 
-| Nom de la propriété         | Valeur                               | Description |
+| Nom de la propriété         | Valeur                                | Description  |
 |-----------------------|-------------------------------------|-------------|
+| Titre               | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d'en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |
+| Texte enrichi             | Texte du paragraphe | Les modules prennent en charge le texte de paragraphe dans en format de texte enrichi. Certains capacités de texte enrichi de base sont prises en charge, telles que les liens hypertexte, le gras, le souligné, et l'italique. Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s’applique au module. |
+| Lien                  | Texte du lien, URL du lien, étiquette ARIA (Applications Internet enrichie accessibles), et sélecteur **Ouvrir le lien dans le nouvel onglet** | Le module prend en charge un ou plusieurs liens d’« appels à l’action ». Si un lien est ajouté, un texte de lien, une URL, et une étiquette ARIA sont requis. Les étiquettes ARIA doivent être descriptives pour satisfaire aux exigences d’accessibilité. Les liens peuvent être configurés de sorte qu’ils sont ouverts sur un nouvel onglet. |
+| Sous-texte              | Titre, texte ou liens | Un contexte supplémentaire pour le module de lecture vidéo peut être ajouté, tel qu'un nom d'auteur ou de concepteur, ou des liens vers des blogs personnels. |
 | Lecture automatique             | **Vrai** ou **Faux**               | Si la valeur est définie sur **Vrai**, la vidéo est automatiquement lue. |
 | Sourdine                  | **Vrai** ou **Faux**               | Si la valeur est définie sur **Vrai**, l’audio est automatiquement mis en sourdine. Pour ce lecteur, la valeur par défaut est **Faux**. Dans le navigateur Chrome, les vidéos en lecture automatique sont mises en sourdine par défaut, et l’audio est joué si l’utilisateur lit manuellement le vidéo. |
 | Boucle                  | **Vrai** ou **Faux**               | Si la valeur est définie sur **Vrai**, la vidéo est répétée en boucle. |
@@ -58,6 +63,9 @@ L’image suivante montre un exemple de module de lecture vidéo sur une page d�
 | Contrôles du lecteur vidéo | **Vrai** ou **Faux**               | Si la valeur est définie sur **Vrai**, tous les contrôles du lecteur vidéo sont affichés. Ceux-ci incluent les boutons de lecture et de pause, un indicateur de progression et des options de sous-titres codés. |
 | Masquer l’affiche     | **Vrai** ou **Faux**               | Une vidéo peut avoir un contour de poster. Lorsque la valeur de cette propriété est définie sur **Vrai**, le cadre du poster est masqué. |
 | Niveau du masque            | Nombre de **0** à **100** | Masque qui est appliqué à la vidéo pour le style. |
+
+> [!IMPORTANT]
+> Les propriétés **Titre**, **Texte enrichi**, **Lien** et **Sous-texte** sont disponibles à partir de 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Ajouter un module de lecture vidéo à une page
 

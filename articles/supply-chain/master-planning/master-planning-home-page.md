@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92dfb05addc1c791b24f129587b842d22423eb54
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 15fbab7d0260ed714edfbbb5ef54caddb69cae3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360003"
 ---
 # <a name="master-planning-home-page"></a>Page d’accueil de la planification
 
@@ -40,7 +40,7 @@ Les trois principaux processus de planification sont :
 
 - **Planification prévisionnelle** - Le calendrier des prévisions calcule les besoins bruts. Il est basé sur les futures projections (ou prévisions), et permet aux sociétés d’effectuer la planification à long terme des matières et des capacités. Pour plus d’informations, voir [Vue d’ensemble de la prévision de la demande](introduction-demand-forecasting.md).
 
-- **Planification intersociétés** - Le plan général intersociétés calcule les besoins nets dans les entités juridiques. Il relie la demande et l’approvisionnement entre les sociétés non seulement pour la demande et l’approvisionnement fermes à court terme, mais aussi pour la demande et l’approvisionnement planifiés (qui ne sont pas encore confirmés) à long terme. Pour plus d'informations, voir [Planification intersociétés](planning-optimization/Intercompany-planning.md).
+- **Planification intersociétés** - Le plan général intersociétés calcule les besoins nets dans les entités juridiques. Il relie la demande et l’approvisionnement entre les sociétés non seulement pour la demande et l’approvisionnement fermes à court terme, mais aussi pour la demande et l’approvisionnement planifiés (qui ne sont pas encore confirmés) à long terme. Pour plus d’informations, voir [Planification intersociétés](planning-optimization/Intercompany-planning.md).
 
 Les sociétés peuvent modifier la sortie du plan. Ils peuvent exécuter les plans de régénération, les plans de modification nette, ou les deux. Les plans de régénération mettent à jour l’ensemble des besoins, tandis que les plans de modification nette ne mettent à jour que le plan des articles présentant de nouveaux besoins depuis la dernière exécution de la planification.
 
@@ -50,7 +50,7 @@ Les plans de calcul PDP/MRP impliquent généralement le court terme, qui peut a
 
 Le programme de formation suivant montre les principaux concepts et tâches qui constituent la structure du module Planification. Cliquez sur les liens dans la section [Liens rapides](#quick-links) pour savoir comment utiliser le module.
 
-[![Programme de formation pour la planification](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
+[![Programme de formation pour la planification.](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Liens rapides
 

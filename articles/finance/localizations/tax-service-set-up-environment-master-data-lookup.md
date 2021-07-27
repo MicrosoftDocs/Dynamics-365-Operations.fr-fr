@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e4aa941c57e8c31793d6db8ae87140cd1bb1a82b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 348643d7213b8c053d6a15b4b716a3ce75ba2fa2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021342"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346372"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Configurer un environnement pour la recherche de données principales
 
@@ -28,8 +28,8 @@ ms.locfileid: "6021342"
 
 Cette rubrique explique comment configurer votre environnement pour utiliser la fonctionnalité de recherche de données principales pour le calcul des taxes.
 
-1. Configurez l'intégration de Power Platform dans Lifecycle Services (LCS). Pour plus d’informations, voir la rubrique [Intégration de Microsoft Power Platform - Vue d'ensemble des compléments](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
-2. Configurez Dynamics 365 Finance et Microsoft Dataverse. Pour plus d'informations, consultez [Obtenir la solution](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) et [Authentification et autorisation](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+1. Configurez l’intégration de Power Platform dans Lifecycle Services (LCS). Pour plus d’informations, voir la rubrique [Intégration de Microsoft Power Platform - Vue d’ensemble des compléments](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
+2. Configurez Dynamics 365 Finance et Microsoft Dataverse. Pour plus d’informations, consultez [Obtenir la solution](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) et [Authentification et autorisation](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
 3. Vous devez paramétrer les entités suivantes : Pour plus d’informations, consultez [Activation des entités virtuelles](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
       - CompanyInfoEntity
       - CurrencyEntity
@@ -57,7 +57,7 @@ Cette rubrique explique comment configurer votre environnement pour utiliser la 
       - (Version préliminaire) Prise en charge des sources de données Dataverse du service fiscal
       - (Version préliminaire) Fonctionnalités de globalisation
 
-5. connectez-vous à RCS à l'aide d'un compte d'administrateur de locataire.
+5. connectez-vous à RCS à l’aide d’un compte d’administrateur de locataire.
 6. Accédez à **Gestion des états électroniques** > **Applications connectées**. 
 7. Sélectionnez **Nouveau** pour ajouter un enregistrement et entrez les informations de champ suivantes. 
 
@@ -69,16 +69,16 @@ Cette rubrique explique comment configurer votre environnement pour utiliser la 
 
 8. Sélectionnez **Vérifier la connexion** et terminez le processus de connexion. 
 
-   [![Bouton Vérifier la connexion](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+   [![Bouton Vérifier la connexion.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 9. Accédez à **Gestion des états électroniques** > **Configurations de taxe** et importez des configurations de taxe à partir de [Configurations de taxe](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-   [![Page Configurations de taxe, arborescence du modèle de données de taxe](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+   [![Page Configurations de taxe, arborescence du modèle de données de taxe.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
-10. Accédez à la **Mise en correspondance du modèle de document de taxe**, ou à la **Mise en correspondance du modèle Dataverse** si vous utilisez une configuration Microsoft et, dans le champ **Application connectée**, sélectionnez l'enregistrement que vous avez créé à l'étape 7.
+10. Accédez à la **Mise en correspondance du modèle de document de taxe**, ou à la **Mise en correspondance du modèle Dataverse** si vous utilisez une configuration Microsoft et, dans le champ **Application connectée**, sélectionnez l’enregistrement que vous avez créé à l’étape 7.
 11. Définissez **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**.
 
-   [![Page Mise en correspondance de modèle](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+   [![Page Mise en correspondance de modèle.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751152"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351888"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 
@@ -49,7 +49,7 @@ Pour terminer les exemples de cette rubrique, vous devez avoir accès à Microso
     
     L’illustration suivante présente les configurations que vous devez avoir lorsque vous avez fini.
 
-    ![Page Configurations d’ER](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![Page Configurations ER.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>Définir les paramètres pour l’entreprise DEMF
 
@@ -59,7 +59,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 2.  Dans l’arborescence des configurations, sélectionnez le format **Format pour apprendre comment rechercher les données LE**.
 3.  Dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres spécifiques à l’application**, sélectionnez **Configurer**.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Sur la page **Paramètres spécifiques à l’application**, vous pouvez configurer les règles pour la source données **Sélecteur** du format **Format pour apprendre comment rechercher les données LE**.
     
@@ -75,14 +75,14 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 
     La recherche affiche la liste des codes taxe pour la sélection. Cette liste est renvoyée par la source de données **Model.Data.Tax** qui a été configurée dans le format de gestion des états électroniques de base. Parce que cette source de données contient le champ **Nom**, le nom de chaque code taxe s’affiche dans la recherche.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Sélectionnez le code taxe **VAT19**.
 8.  Dans le champ **Résultat de la recherche** du nouvel enregistrement, sélectionnez la flèche du menu déroulant pour ouvrir la recherche. La recherche affiche la liste des valeurs pour l’énumération de format TaxationLevel pour la sélection.
 
     Notez que, si l’allemand est sélectionné comme langue préférée de l’utilisateur sous lequel vous êtes connecté, les libellés des valeurs dans la recherche seront en allemand, à condition qu’ils aient été traduits au format de gestion des états électroniques de base. En outre, si le libellé d’une source de données de recherche a été traduit, ce libellé apparaîtra dans la langue préférée de l’utilisateur dans l’onglet **Recherches**.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Sélectionnez la valeur **Imposition normale**.
 
@@ -120,7 +120,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
     
     En ajoutant ce dernier enregistrement, vous définissez la règle suivante : dès que le code taxe transmis comme argument ne répond plus aux règles précédentes, la source de données de recherche renverra **Autre** comme le niveau d’imposition demandé.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Dans le champ **État**, sélectionnez **Terminé**.
 
@@ -144,7 +144,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 6.  Sélectionnez le code taxe **InVAT7**.
 7.  Dans le volet Actions, sous l’onglet **Code taxe**, au groupe **Recherches**, sélectionnez **Taxe validée** permet d’afficher des informations sur la valeur de taxe et le taux appliqué de taxe par code taxe.
 
-    ![Page de la taxe validée](./media/GER-AppSpecParms-Statement.PNG)
+    ![Page de la taxe validée.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Fermez la page Taxe validée.
 
@@ -160,7 +160,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 
     La recherche affiche désormais la liste des codes taxe pour la taxe de société **USMF** pour sélection.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Sélectionnez le code taxe **EXEMPT**.
 9.  Dans le champ **Résultat de la recherche** du nouvel enregistrement, sélectionnez la valeur **Aucune imposition**.
@@ -170,7 +170,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 13. Dans le champ **État**, sélectionnez **Terminé**.
 14. Sélectionnez **Enregistrer**.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Fermez la page **Paramètres spécifiques de l’application**.
 
@@ -225,13 +225,13 @@ Dans l’exemple précédent, vous avez accédé aux paramètres spécifiques à
 
 1.  Réutilisez un élément de menu **ERSolutionAppSpecificParametersDesigner** existant, ou mettez en œuvre votre propre élément de menu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Page Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Page Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Utilisez l’une des procédures suivantes :
 
     1.  Créez un bouton d’option de menu, et liez-le à l’enregistrement correspondant depuis la table **ERSolutionTable** en définissant sa propriété **Source de données** sur **ERSolutionTable**.
     
-        ![Page Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Page Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Créez un bouton unique, et remplacez la méthode **Cliqué** comme indiqué dans l’exemple suivant.
     

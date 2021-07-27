@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754372"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355368"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Fonction Base64StringToContainer pour la gestion des états électroniques
 
@@ -73,11 +73,11 @@ Vous définissez les sources de données suivantes dans la mise en correspondanc
 
 Dans cet exemple, la source de données **\#MediaAsBase64String** code le contenu binaire de la pièce jointe multimédia actuelle sous forme de texte qui représente un groupe Base64 de schémas de codage binaire-texte. La source de données **\#BlobFomBase64** décode la chaîne Base64 et renvoie une valeur binaire au format BLOB.
 
-![Exemple de sources de données sur la page Concepteur de mise en correspondance de modèles pour la gestion des états électroniques](./media/er-functions-container-base64stringtocontainer-1.png)
+![Exemple de sources de données sur la page Concepteur de mise en correspondance de modèles pour la gestion des états électroniques.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions Conteneur](er-functions-category-container.md)
+[Fonctions du conteneur](er-functions-category-container.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

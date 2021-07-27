@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909377"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359483"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installer et connecter l’application d’entreposage
 
@@ -64,28 +64,28 @@ Pour permettre à l’application d’entrepôt d’interagir avec un serveur Su
 1. Entrez le nom et le mot de passe de l’utilisateur qui a accès à l’abonnement Azure.
 1. Dans le portail Azure, dans le volet gauche de navigation, cliquez sur **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Assurez-vous que vous utilisez l’instance Azure AD utilisée par Supply Chain Management.
 1. Dans la liste **Gérer**, cliquez sur **Enregistrements d’application**.
 
-    ![Enregistrements d’application](media/app-connect-azure-register.png "Enregistrements d’application")
+    ![Enregistrements d’application.](media/app-connect-azure-register.png "Enregistrements d’application")
 
 1. Dans la barre d’outils, sélectionnez **Nouvelle inscription** pour ouvrir l’assistant **Enregistrer une application**.
 1. Entrez un nom pour l’application et sélectionnez l’option **Comptes dans ce répertoire organisationnel uniquement**, puis **Enregistrer**.
 
-    ![Enregistrer un assistant d’application](media/app-connect-azure-register-wizard.png "Enregistrer un assistant d’application")
+    ![Enregistrer un assistant d’application.](media/app-connect-azure-register-wizard.png "Enregistrer un assistant d’application")
 
 1. Votre nouvel enregistrement d’application s’ouvre. Notez la valeur dans le champ **ID d’application (client)**, car vous en aurez besoin ultérieurement. Cet ID sera appelé *ID client* plus loin dans cette rubrique.
 
-    ![ID application (client)](media/app-connect-azure-app-id.png "ID application (client)")
+    ![ID application (client).](media/app-connect-azure-app-id.png "ID application (client)")
 
 1. Dans la liste **Gérer**, cliquez sur **Certificat et secrets**. Sélectionnez ensuite l’un des boutons suivants, selon la façon dont vous souhaitez configurer l’application pour l’authentification. (Pour plus d’informations, consultez la section [Authentification à l’aide d’un certificat ou un secret client](#authenticate) plus loin dans cette rubrique.)
 
     - **Télécharger le certificat** : Téléchargez un certificat à utiliser comme secret. Nous recommandons cette approche, car elle est plus sécurisée et peut également être automatisée plus complètement. Si vous exécutez l’application d’entrepôt sur des appareils Windows, notez la valeur **Empreinte** affichée après le téléchargement du certificat. Vous aurez besoin de cette valeur lorsque vous configurerez le certificat sur les appareils Windows.
     - **Nouveau secret client** : Créez une clé en saisissant une description et une durée dans la section **Mot de passe**, puis sélectionnez **Ajouter**. Faites une copie de la clé et conservez-la en lieu sûr.
 
-    ![Certificat et secrets](media/app-connect-azure-authentication.png "Certificat et secrets")
+    ![Certificat et secrets.](media/app-connect-azure-authentication.png "Certificat et secrets")
 
 Pour plus d’informations sur la configuration des applications de service Web dans Azure AD, consultez les ressources suivantes :
 
@@ -105,7 +105,7 @@ Pour permettre à Supply Chain Management d’utiliser votre application Azure A
     1. Créez un utilisateur.
     1. Attribuez l’utilisateur de l’appareil mobile d’entreposage.
 
-    ![Attribuer l’utilisateur de l’appareil mobile d’entreposage](media/app-connect-app-users.png "Attribuer l’utilisateur de l’appareil mobile d’entreposage")
+    ![Attribuez l’utilisateur de l’appareil mobile d’entreposage.](media/app-connect-app-users.png "Attribuer l’utilisateur de l’appareil mobile d’entreposage")
 
 1. Associez votre application Azure AD à l’utilisateur de l’application d’entrepôt :
 
@@ -113,7 +113,7 @@ Pour permettre à Supply Chain Management d’utiliser votre application Azure A
     1. Créez une ligne.
     1. Entrez l’ID client que vous avez noté dans la section précédente, donnez-lui un nom et sélectionnez l’utilisateur que vous venez de créer. Nous vous recommandons de marquer tous vos appareils. Ensuite, s’ils sont perdus, vous pouvez facilement supprimer leur accès à Supply Chain Management à partir de cette page.
 
-    ![Applications Azure Active Directory](media/app-connect-aad-apps.png "Applications Azure Active Directory")
+    ![Applications Azure Active Directory.](media/app-connect-aad-apps.png "Applications Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Authentifiez-vous en utilisant un certificat ou un secret client
 
@@ -201,26 +201,26 @@ Suivez ces étapes pour importer les paramètres de connexion à partir d’un f
 1. Accédez à **Paramètres de connexion**.
 1. Définissez l’option **Utiliser le mode démo** sur _Non_.
 
-    ![Utiliser l’option du mode démo](media/app-connect-app-demo-mode.png "Utiliser l’option du mode démo")
+    ![Utiliser l’option du mode démo.](media/app-connect-app-demo-mode.png "Utiliser l’option du mode démo")
 
 1. Sélectionnez **Choisir le fichier** ou **Scanner le code QR**, selon la façon dont vous souhaitez importer les paramètres :
 
     - Si vous importez les paramètres de connexion à partir d’un fichier, l’application a peut-être déjà trouvé le fichier si le nom par défaut et l’emplacement par défaut ont été utilisés lors de son enregistrement. Sinon, sélectionnez **Choisir le fichier**, recherchez le fichier sur votre appareil local et sélectionnez-le. Si vous sélectionnez un emplacement personnalisé, l’application le stockera et l’utilisera automatiquement la prochaine fois.
     - Si vous importez les paramètres de connexion en scannant un code QR, sélectionnez **Scanner le code QR**. L’application vous demande l’autorisation d’utiliser l’appareil photo de l’appareil. Une fois que vous avez donné votre autorisation, l’appareil photo démarre, afin que vous puissiez l’utiliser pour la numérisation. Selon la qualité de l’appareil photo de l’appareil et la complexité du code QR, il peut être difficile d’obtenir une analyse correcte. Dans ce cas, essayez de réduire la complexité du code QR en générant une seule connexion par code QR. (Actuellement, vous ne pouvez utiliser que l’appareil photo de l’appareil pour numériser le code QR.)
 
-    ![Importer les paramètres de connexion](media/app-connect-app-select-file.png "Importer les paramètres de connexion")
+    ![Importer les paramètres de connexion.](media/app-connect-app-select-file.png "Importer les paramètres de connexion")
 
 1. Une fois les paramètres de connexion chargés, sélectionnez le bouton **Précédent** (flèche gauche) dans le coin supérieur gauche de la page.
 
-    ![Paramètres de connexion chargés](media/app-connect-app-settings-loaded.png "Paramètres de connexion chargés")
+    ![Paramètres de connexion chargés.](media/app-connect-app-settings-loaded.png "Paramètres de connexion chargés")
 
 1. Si vous utilisez un appareil Android et un certificat pour l’authentification, l’appareil vous invite à sélectionner le certificat.
 
-    ![Choisir une invite de certificat sur un appareil Android](media/app-connect-app-choose-cert.png "Choisir une invite de certificat sur un appareil Android")
+    ![Choisir une invite de certificat sur un appareil Android.](media/app-connect-app-choose-cert.png "Choisir une invite de certificat sur un appareil Android")
 
 1. L’application se connecte à votre serveur Supply Chain Management et affiche la page de connexion.
 
-    ![Page de connexion](media/app-connect-sign-in.png "Page de connexion")
+    ![Page de connexion.](media/app-connect-sign-in.png "Page de connexion")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurer manuellement l’application
 
@@ -230,11 +230,11 @@ Vous pouvez configurer manuellement l’application sur l’appareil pour qu’i
 1. Accédez à **Paramètres de connexion**.
 1. Définissez l’option **Utiliser le mode démo** sur _Non_.
 
-    ![Le mode démo est désactivé](media/app-connect-app-select-file.png "Le mode démo est désactivé")
+    ![Le mode démo est désactivé.](media/app-connect-app-select-file.png "Le mode démo est désactivé")
 
 1. Appuyez sur le champ **Sélectionner la connexion** pour développer les paramètres requis pour saisir manuellement les détails de la connexion.
 
-    ![Champs de connexion manuelle](media/app-connect-manual-connect.png "Champs de connexion manuelle")
+    ![Champs de connexion manuelle.](media/app-connect-manual-connect.png "Champs de connexion manuelle")
 
 1. Entrez les informations suivantes :
 

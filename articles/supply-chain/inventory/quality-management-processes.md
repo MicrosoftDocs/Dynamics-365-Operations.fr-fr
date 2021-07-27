@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble de la gestion de la qualité et de la non-conformité
-description: Cette rubrique présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d'approvisionnement.
+title: Vue d’ensemble de la gestion de la qualité et de la non-conformité
+description: Cette rubrique présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d’approvisionnement.
 author: perlynne
 ms.date: 03/23/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11574
+ms.custom:
+- "11574"
+- intro-internal
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ca6f9884b1d977e36f04f6da04ab8a0ea228632
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: d8bb3862b2a082dd975af8bbb30961caf209c5ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956228"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344518"
 ---
-# <a name="quality-and-nonconformance-management-overview"></a>Vue d'ensemble de la gestion de la qualité et de la non-conformité
+# <a name="quality-and-nonconformance-management-overview"></a>Vue d’ensemble de la gestion de la qualité et de la non-conformité
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d'approvisionnement.
+Cette rubrique présente les fonctionnalités de gestion de la qualité et des non-conformités dans Microsoft Dynamics 365 Supply Chain Management et explique comment elles peuvent contribuer à améliorer la qualité des produits dans votre chaîne d’approvisionnement.
 
 L’assurance qualité implique le test des produits et la gestion des matières non conformes. La gestion de la qualité garantit un haut niveau de qualité des produits dans votre chaîne logistique. Ces processus permettent également d’optimiser les processus de la chaîne logistique et d’améliorer la satisfaction client. La gestion de la qualité peut vous aider à gérer les délais de rotation lors de la survenue de produits non conformes, indépendamment du point d’origine de ces produits. Vous pouvez lier les résultats du diagnostic aux tâches de correction. Le système peut programmer des tâches de corriger les problèmes et donc aider à empêcher la répétition de ces problèmes à l’avenir. La gestion de la qualité permet également de suivre les problèmes (notamment les problèmes internes) par type de problème, et vous permet d’identifier des solutions comme étant à court terme ou à long terme. Les statistiques concernant les indicateurs clés de performance (KPI) donnent des indications sur les problèmes de non-conformité qui sont survenus antérieurement et sur les solutions qui ont été appliquées pour les corriger. Vous pouvez utiliser les données historiques pour examiner l’efficacité des mesures de qualité prises antérieurement et déterminer les mesures appropriées à l’avenir.
 
 La gestion de la qualité peut vous aider à gérer les délais de rotation lorsque vous traitez des produits non conformes, indépendamment de leur point d’origine. Étant donné que les types de diagnostics sont liés à la génération d’états de correction, Supply Chain Management peut programmer des tâches afin de corriger les problèmes et les empêcher de se reproduire.
 
-Outre la fonctionnalité de gestion de la non-conformité, la gestion de la qualité inclut la fonctionnalité de suivi des problèmes par type de problème (même lorsqu'il s'agit de problèmes internes) et d’identification des solutions comme à court terme ou à long terme. Les statistiques concernant les indicateurs clés de performance (KPI) donnent des indications sur l’historique des problèmes de non-conformité antérieurs et sur les solutions qui ont été utilisées pour les corriger. Vous pouvez utiliser les données historiques pour examiner l’efficacité des mesures de qualité antérieures et déterminer les mesures appropriées à utiliser à l’avenir.
+Outre la fonctionnalité de gestion de la non-conformité, la gestion de la qualité inclut la fonctionnalité de suivi des problèmes par type de problème (même lorsqu’il s’agit de problèmes internes) et d’identification des solutions comme à court terme ou à long terme. Les statistiques concernant les indicateurs clés de performance (KPI) donnent des indications sur l’historique des problèmes de non-conformité antérieurs et sur les solutions qui ont été utilisées pour les corriger. Vous pouvez utiliser les données historiques pour examiner l’efficacité des mesures de qualité antérieures et déterminer les mesures appropriées à utiliser à l’avenir.
 
 Lorsque vous paramétrez une association de qualité, Supply Chain Management peut générer des ordres de qualité pour différents processus d’entreprise, événements et conditions. L’association de qualité peut couvrir un article spécifique, un groupe d’articles spécifique, ou tous les articles.
 
@@ -62,7 +64,7 @@ Voici quelques-unes des manières dont vous pouvez contrôler le processus de ge
 - Documenter le coût de gestion d’une non-conformité. Ce coût peut inclure les articles (tels que les pièces de rechange), les frais divers, et les heures de travail nécessaires pour corriger la non-conformité.
 - Programmer les processus de correction des erreurs à l’aide de la gestion des corrections qui est liée aux ordres de qualité.
 
-[![Processus de gestion de la qualité](media/quality-management-process-diagram.png)](media/quality-management-process-diagram.png)
+[![Processus de gestion de la qualité.](media/quality-management-process-diagram.png)](media/quality-management-process-diagram.png)
 
 ## <a name="product-testing-and-quality-orders"></a>Test des produits et ordres de qualité
 

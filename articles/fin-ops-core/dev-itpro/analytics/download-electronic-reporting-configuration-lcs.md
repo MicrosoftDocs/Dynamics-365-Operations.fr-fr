@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271181"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358693"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Télécharger les configurations d’états électroniques à partir de Lifecycle Services
 
@@ -41,7 +41,7 @@ Cette rubrique explique comment télécharger la dernière version de [Configura
 3. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
 4. Dans la vignette **Microsoft**, sélectionnez **Référentiels**.
 
-    [![Vignette Microsoft sur la page des configurations de localisation](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Vignette Microsoft sur la page des configurations de localisation.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **LCS**. Si ce référentiel n’apparaît pas dans la grille, procédez comme suit :
 
@@ -55,7 +55,7 @@ Cette rubrique explique comment télécharger la dernière version de [Configura
 
 6. Sélectionnez **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné.
 
-    [![Page des référentiels de configurations](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Page des référentiels de configurations.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Si vous ne parvenez pas à accéder au référentiel LCS pour télécharger des configurations à partir de la bibliothèque d’actifs partagée dans LCS, vous pouvez télécharger des configurations à partir du [référentiel général](er-download-configurations-global-repo.md).
@@ -67,7 +67,7 @@ Cette rubrique explique comment télécharger la dernière version de [Configura
     > [!NOTE]
     > Le bouton **Importer** n’est pas disponible pour les versions de configuration des états électroniques qui sont déjà présentes dans l’instance actuelle.
 
-    [![Page du référentiel de configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Page du référentiel de configuration.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Vous devez résoudre ces problèmes avant d’utiliser la version de configuration importée. Pour plus d’informations, voir la liste des rubriques associées pour cette rubrique.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360968"
 ---
 # <a name="functional-location-lifecycle-states"></a>États du cycle de vie du poste technique
 
@@ -56,9 +56,9 @@ Une fois que vous avez créé les états du cycle de vie requis pour vos postes 
 1. Sélectionnez **Gestion des actifs** > **Paramétrage** > **Postes techniques** > **Modèles de cycle de vie**.
 2. Sélectionnez **Nouveau** pour créer un modèle de cycle de vie.
 3. Insérez l’ID du modèle de cycle de vie dans le champ **Modèle de cycle de vie** et un nom pour le modèle de cycle de vie dans le champ **Nom**. Dans les champs **Types de postes techniques** et **États du cycle de vie**, vous pouvez consulter le nombre de types de postes techniques qui utilise le modèle de cycle de vie et le nombre d’états sélectionnés dans le modèle de cycle de vie.
-4. Dans le raccourci **États du cycle de vie**, sélectionnez les états qui doivent être inclus dans le modèle. Cela s’effectue en cliquant sur un état dans la section **États du cycle de vie restants** et en cliquant sur le bouton ![flèche suivant](media/02-setup-for-functional-locations.png).
-5. Si vous souhaitez sélectionner tous les états disponibles pour un modèle, cliquez sur le bouton ![Sélectionner toutes les phases disponibles](media/03-setup-for-functional-locations.png). Tous les états sont transférés vers la section **États du cycle de vie sélectionnés**.
-6. Pour supprimer un état sélectionné à partir du modèle, sélectionnez l’état dans la section **États du cycle de vie sélectionnés** puis sélectionnez le bouton ![flèche précédent](media/04-setup-for-functional-locations.png).
+4. Dans le raccourci **États du cycle de vie**, sélectionnez les états qui doivent être inclus dans le modèle. Cela s’effectue en cliquant sur un état dans la section **États du cycle de vie restants** et en cliquant sur le bouton ![flèche suivant](media/02-setup-for-functional-locations.png) .
+5. Si vous souhaitez sélectionner tous les états disponibles pour un modèle, cliquez sur le bouton ![Sélectionner toutes les phases disponibles.](media/03-setup-for-functional-locations.png) . Tous les états sont transférés vers la section **États du cycle de vie sélectionnés**.
+6. Pour supprimer un état sélectionné à partir du modèle, sélectionnez l’état dans la section **États du cycle de vie sélectionnés** puis sélectionnez le bouton ![flèche précédent.](media/04-setup-for-functional-locations.png) .
 7. Sélectionnez **Mises à jour de l’état du cycle de vie** pour définir quels états du cycle de vie peuvent suivre un état sélectionné.
 
 

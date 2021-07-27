@@ -2,7 +2,7 @@
 title: Conformité des cookies
 description: Cette rubrique décrit les considérations relatives à la conformité des cookies et les stratégies par défaut incluses dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088385"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333067"
 ---
 # <a name="cookie-compliance"></a>Conformité des cookies
 
@@ -33,26 +33,27 @@ Pour en savoir plus sur les principes de base utilisés par Microsoft pour la co
 
 Le tableau suivant montre la liste de référence actuelle des cookies placés par les sites Dynamics 365 Commerce.
 
-| Nom du cookie                               | Utilisation                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Cookies d’authentification Store Microsoft Azure Active Directory (Azure AD) pour l’authentification unique (SSO). Stocke les informations chiffrées de l’utilisateur principal (nom, prénom, e-mail). |
-| &#95;msdyn365___cart&#95;                           | ID du panier de magasin utilisé pour obtenir la liste des produits ajoutés à l’instance du panier. |
-| &#95;msdyn365___ucc&#95;                            | Suivi du consentement de conformité des cookies.                          |
-| ai_session                                  | Détecte le nombre de sessions d’activité de l’utilisateur qui ont inclus certaines pages et fonctionnalités de l’application. |
-| ai_user                                     | Détecte le nombre de personnes qui ont utilisé l’application et ses fonctionnalités. Les utilisateurs sont comptés à l’aide d’ID anonymes. |
-| b2cru                                       | Stocke l’URL de redirection de manière dynamique.                              |
-| JSESSIONID                                  | Utilisé par le connecteur de paiement Adyen pour stocker la session utilisateur.       |
-| OpenIdConnect.nonce.&#42;                       | Authentification                                               |
-| x-ms-cpim-cache:.&#42;                          | Utilisé pour maintenir l’état de la demande.                      |
-| x-ms-cpim-csrf                              | Jeton de falsification de requête intersites (CRSF) utilisé pour la protection contre CRSF.     |
-| x-ms-cpim-dc                                | Utilisé pour acheminer les demandes vers l’instance de serveur d’authentification de production appropriée. |
-| x-ms-cpim-rc.&#42;                              | Utilisé pour acheminer les demandes vers l’instance de serveur d’authentification de production appropriée. |
-| x-ms-cpim-slice                             | Utilisé pour acheminer les demandes vers l’instance de serveur d’authentification de production appropriée. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Utilisé pour maintenir la session SSO.                        |
-| x-ms-cpim-trans                             | Utilisé pour le suivi des transactions (le nombre d’onglets ouverts s’authentifiant sur un site B2C), y compris la transaction en cours. |
-| \_msdyn365___muid_                            | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé comme userId à des fins d'expérimentation. |
-| \_msdyn365___exp_                             | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé pour mesurer l'équilibrage de charge des performances.         |
-| d365mkt                                       | Utilisé si la détection basée sur l’emplacement pour suivre l’adresse IP d’un utilisateur pour les suggestions d’emplacement du magasin est activée dans le générateur de site de Commerce sous **Paramètres du site > Général > Activer la détection du magasin selon l’emplacement**.      |
+| Nom du cookie                               | Utilisation                                                        | Durée de vie |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Cookies d’authentification Store Microsoft Azure Active Directory (Azure AD) pour l’authentification unique (SSO). Stocke les informations chiffrées de l’utilisateur principal (nom, prénom, e-mail). | Session |
+| \_msdyn365___cart                           | ID du panier de magasin utilisé pour obtenir la liste des produits ajoutés à l’instance du panier. | Session |
+| \_msdyn365___checkout_cart_                           | ID du panier pour le paiement du magasin utilisé pour obtenir la liste des produits ajoutés à l’instance du panier pour le paiement. | Session |
+| \_msdyn365___ucc_                            | Suivi du consentement de conformité des cookies.                          | 1 an |
+| ai_session                                  | Détecte le nombre de sessions d’activité de l’utilisateur qui ont inclus certaines pages et fonctionnalités de l’application. | 30 minutes |
+| ai_user                                     | Détecte le nombre de personnes qui ont utilisé l’application et ses fonctionnalités. Les utilisateurs sont comptés à l’aide d’ID anonymes. | 1 an |
+| b2cru                                       | Stocke l’URL de redirection de manière dynamique.                              | Session |
+| JSESSIONID                                  | Utilisé par le connecteur de paiement Adyen pour stocker la session utilisateur.       | Session |
+| OpenIdConnect.nonce.&#42;                       | Authentification                                               | 11 minutes |
+| x-ms-cpim-cache:.&#42;                          | Utilisé pour maintenir l’état de la demande.                      | Session |
+| x-ms-cpim-csrf                              | Jeton de falsification de requête intersites (CRSF) utilisé pour la protection contre CRSF.     | Session |
+| x-ms-cpim-dc                                | Utilisé pour acheminer les demandes vers l’instance de serveur d’authentification de production appropriée. | Session |
+| x-ms-cpim-rc.&#42;                              | Utilisé pour acheminer les demandes vers l’instance de serveur d’authentification de production appropriée. | Session |
+| x-ms-cpim-slice                             | Utilisé pour acheminer les demandes vers l’instance de serveur d’authentification de production appropriée. | Session |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Utilisé pour maintenir la session SSO.                        | Session |
+| x-ms-cpim-trans                             | Utilisé pour le suivi des transactions (le nombre d’onglets ouverts s’authentifiant sur un site B2C), y compris la transaction en cours. | Session |
+| \_msdyn365___muid_                            | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé comme ID utilisateur à des fins d'expérimentation. | 1 an |
+| \_msdyn365___exp_                             | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé pour mesurer l'équilibrage de charge des performances.         | 1 heure |
+| d365mkt                                       | Utilisé si la détection basée sur l’emplacement pour suivre l’adresse IP d’un utilisateur pour les suggestions d’emplacement du magasin est activée dans le générateur de site de Commerce sous **Paramètres du site \> Général \> Activer la détection du magasin selon l’emplacement**.      | 1 heure |
 
 Si un utilisateur du site sélectionne des liens de réseaux sociaux dans un site, les cookies du tableau suivant seront également suivis sur son navigateur.
 
