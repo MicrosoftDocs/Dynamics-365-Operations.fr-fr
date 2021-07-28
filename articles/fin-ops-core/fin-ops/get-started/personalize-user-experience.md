@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348677"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -85,7 +85,7 @@ Certaines des modifications les plus courantes et importantes qui peuvent être 
 
 En outre, les types les plus classiques de personnalisations sont disponibles en cliquant avec le bouton droit sur un élément et en sélectionnant **Personnaliser**. (Notez que tous les éléments sur la page ne peuvent pas être personnalisés). Lorsque vous utilisez cette méthode de personnalisation, la *fenêtre des propriétés* de l’élément s’affiche.
 
-![Personnalisation des propriétés d’un élément](./media/cli-element-property-window.png)
+![Personnalisation des propriétés d’un élément.](./media/cli-element-property-window.png)
 
 Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élément comme suit :
 
@@ -98,7 +98,7 @@ Vous pouvez utiliser la fenêtre des propriétés pour personnaliser un élémen
 
 La fenêtre des propriétés peut contenir d’autres fonctionnalités de personnalisation, selon l’élément. Par exemple, la fenêtre des propriétés d’une vignette vous permet de promouvoir cette vignette sur un tableau de bord, et les fenêtres des propriétés pour les éléments du tableau de bord par défaut vous permet de créer un espace de travail dans un nouveau tableau de bord personnalisé.
 
-### <a name="personalization-toolbar"></a>Barre d'outils de personnalisation
+### <a name="personalization-toolbar"></a>Barre d’outils de personnalisation
 
 Si vous souhaitez apporter plusieurs modifications à une page, ou des changements qui ne sont pas disponibles par le biais d’autres mécanismes (par ex. si vous souhaitez réorganiser des éléments), vous pouvez utiliser la barre d’outils **Personnalisation**. Pour ouvrir la barre d’outils **Personnalisation**, suivez l’une des étapes suivantes :
 
@@ -107,7 +107,7 @@ Si vous souhaitez apporter plusieurs modifications à une page, ou des changemen
 - Sélectionnez **Personnaliser cette page**, dans le groupe **Personnaliser** sous l’onglet **Options**, sur le volet Action de la page.
 - Sélectionnez le bouton **Paramètres** (symbole d’engrenage) dans la barre de navigation, puis sélectionnez **Personnaliser**.
 
-[![Barre d’outils de personnalisation](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barre d’outils de personnalisation.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navigation dans la page
 
@@ -147,7 +147,7 @@ Pour certaines pages qui incluent des listes, la fonctionnalité de personnalisa
 > [!NOTE]
 > Si la fonctionnalité [Vues enregistrées](saved-views.md) est activée, le contenu que vous transférez à un espace de travail est directement associé à une vue. La requête de la vue est utilisée pour extraire des données de l’espace de travail, et la vignette ou le lien correspondant dans l’espace de travail ouvre la page dans cette vue, de sorte que la requête et les personnalisations de la vue soient appliquées à celle-ci. Si la vue est mise à jour, les éléments de l’espace de travail correspondants seront ajustés à la nouvelle définition de vue.
 
-[![Ajouter à l’espace de travail](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Ajouter à l’espace de travail.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Pour ajouter une liste à un espace de travail, triez ou filtrez d’abord la liste sur la page pour afficher les informations comme vous souhaitez les voir apparaître dans l’espace de travail. (Si la fonctionnalité **Vues enregistrées** est activée, vous ne pouvez pas continuer tant que vous n’enregistrez pas de vue ayant ces conditions.) Sélectionnez **Ajouter à l’espace de travail** ensuite. Sélectionnez un espace de travail, puis, dans le champ **Présentation**, sélectionnez **Liste**. Après avoir sélectionné **Configurer**, une boîte de dialogue s’affiche pour vous permettre de sélectionner les colonnes qui doivent apparaître dans la liste de l’espace de travail. Vous pouvez également spécifier l’étiquette utilisée pour la liste de l’espace de travail.
 - Pour ajouter une vignette à un espace de travail, filtrez d’abord la liste sur la page pour afficher les données qui doivent être récapitulées ou auxquelles vous souhaitez avoir un accès rapide. (Si la fonctionnalité **Vues enregistrées** est activée, vous ne pouvez pas continuer tant que vous n’enregistrez pas de vue ayant ces conditions.) Sélectionnez **Ajouter à l’espace de travail** ensuite. Sélectionnez un espace de travail, puis, dans le champ **Présentation**, sélectionnez **Vignette**. Après avoir sélectionné **Configurer**, une boîte de dialogue s’affiche pour vous permettre de spécifier l’étiquette qui doit être utilisée pour la vignette dans l’espace de travail. Vous pouvez également spécifier si la vignette doit afficher un nombre. Après la vignette ajoutée à l’espace de travail, vous pouvez la sélectionner pour ouvrir la page actuelle dans l’espace de travail. Vous pouvez ensuite afficher la liste filtrée associée à la vignette.
@@ -173,7 +173,7 @@ Une fonctionnalité de personnalisation unique disponible sur le tableau de bord
 
 ## <a name="sharing-personalizations"></a>Partage des personnalisations
 
-Après avoir personnalisé une page, vous pouvez utiliser plusieurs méthodes pour partager vos personnalisations avec d’autres utilisateurs. Dans la liste suivante, les méthodes sont classées dans l'ordre allant du plus recommandé au moins recommandé.
+Après avoir personnalisé une page, vous pouvez utiliser plusieurs méthodes pour partager vos personnalisations avec d’autres utilisateurs. Dans la liste suivante, les méthodes sont classées dans l’ordre allant du plus recommandé au moins recommandé.
 
 1. Publiez des vues pour les utilisateurs.
 2. Copiez les vues ou les personnalisations pour les utilisateurs.
@@ -181,11 +181,11 @@ Après avoir personnalisé une page, vous pouvez utiliser plusieurs méthodes po
 
 ### <a name="publish-views-to-users"></a>Publier des vues pour les utilisateurs
 
-Si la fonctionnalité [Vues enregistrées](saved-views.md) est activée et si la page prend en charge les vues, la meilleure façon de partager des personnalisations avec d'autres utilisateurs est de publier la vue auprès des utilisateurs qui ont un ou plusieurs rôles de sécurité. Pour plus d’informations, voir [Publication de vues](saved-views.md#publishing-views).
+Si la fonctionnalité [Vues enregistrées](saved-views.md) est activée et si la page prend en charge les vues, la meilleure façon de partager des personnalisations avec d’autres utilisateurs est de publier la vue auprès des utilisateurs qui ont un ou plusieurs rôles de sécurité. Pour plus d’informations, voir [Publication de vues](saved-views.md#publishing-views).
 
 ### <a name="copy-views-or-personalizations-to-users"></a>Copier les vues ou les personnalisations pour les utilisateurs
 
-Si la fonctionnalité [Vues enregistrées](saved-views.md) est désactivée, ou si la page ne prend pas en charge les vues, la méthode recommandée pour partager les personnalisations est de les copier entre les utilisateurs. Cette méthode n'est disponible que pour les utilisateurs privilégiés (par exemple, les administrateurs système). Cependant, les administrateurs peuvent rechercher la personnalisation d'un utilisateur spécifique dans le système (y compris la vue personnelle de l'utilisateur si les vues enregistrées sont activées) et copier la configuration vers d'autres utilisateurs.
+Si la fonctionnalité [Vues enregistrées](saved-views.md) est désactivée, ou si la page ne prend pas en charge les vues, la méthode recommandée pour partager les personnalisations est de les copier entre les utilisateurs. Cette méthode n’est disponible que pour les utilisateurs privilégiés (par exemple, les administrateurs système). Cependant, les administrateurs peuvent rechercher la personnalisation d’un utilisateur spécifique dans le système (y compris la vue personnelle de l’utilisateur si les vues enregistrées sont activées) et copier la configuration vers d’autres utilisateurs.
 
 Si les vues enregistrées sont activées, procédez comme suit pour copier les personnalisations.
 
@@ -200,7 +200,7 @@ Si les vues enregistrées sont activées, procédez comme suit pour copier les p
     Suivez ces étapes pour copier des personnalisations sur des pages qui ne prennent pas en charge les vues :
 
     1. Sélectionnez **Paramètres utilisateur**.
-    2. Sélectionnez l'utilisateur qui possède la personnalisation que vous souhaitez distribuer.
+    2. Sélectionnez l’utilisateur qui possède la personnalisation que vous souhaitez distribuer.
     3. Sélectionnez **Gérer toutes les personnalisations**.
     4. Sélectionnez les personnalisations souhaitées dans la liste.
     5. Sélectionnez **Copier pour les utilisateurs**.
@@ -217,35 +217,35 @@ Si les vues enregistrées ne sont pas activées, procédez comme suit pour copie
 
 ### <a name="export-and-import-views-or-personalizations"></a>Exporter et importer des vues ou des personnalisations
 
-Une autre façon de partager des personnalisations consiste à exporter et à importer. Les utilisateurs individuels, ou un administrateur agissant en leur nom, peuvent utiliser cette méthode pour exporter leurs personnalisations ou vues, puis donner le fichier exporté à d'autres utilisateurs afin de l'importer. Les utilisateurs peuvent également donner leurs personnalisations exportées à un utilisateur qui dispose de privilèges d'administrateur, et cet utilisateur peut ensuite utiliser la page d'administration **Personnalisation** pour appliquer le fichier de personnalisation à plusieurs utilisateurs en même temps.
+Une autre façon de partager des personnalisations consiste à exporter et à importer. Les utilisateurs individuels, ou un administrateur agissant en leur nom, peuvent utiliser cette méthode pour exporter leurs personnalisations ou vues, puis donner le fichier exporté à d’autres utilisateurs afin de l’importer. Les utilisateurs peuvent également donner leurs personnalisations exportées à un utilisateur qui dispose de privilèges d’administrateur, et cet utilisateur peut ensuite utiliser la page d’administration **Personnalisation** pour appliquer le fichier de personnalisation à plusieurs utilisateurs en même temps.
 
 #### <a name="export"></a>Exportation
 
-En général, vous pouvez exporter l'une de vos propres vues ou personnalisations en ouvrant la page appropriée, en ouvrant la barre d'outils **Personnalisation**, puis en sélectionnant **Exporter**. Pour plus d'informations sur la barre d'outils, consultez la section précédente [Barre d'outils de personnalisation](#personalization-toolbar) dans cette rubrique. Sinon, si les [vues enregistrées](saved-views.md) sont activés, vous pouvez aller dans **Paramètres \> Options utilisateur \> Personnalisation** pour afficher la liste de toutes vos personnalisations dans le système. À partir de là, vous pouvez sélectionner les vues ou les personnalisations à exporter, puis sélectionner **Exporter**.
+En général, vous pouvez exporter l’une de vos propres vues ou personnalisations en ouvrant la page appropriée, en ouvrant la barre d’outils **Personnalisation**, puis en sélectionnant **Exporter**. Pour plus d’informations sur la barre d’outils, consultez la section précédente [Barre d’outils de personnalisation](#personalization-toolbar) dans cette rubrique. Sinon, si les [vues enregistrées](saved-views.md) sont activés, vous pouvez aller dans **Paramètres \> Options utilisateur \> Personnalisation** pour afficher la liste de toutes vos personnalisations dans le système. À partir de là, vous pouvez sélectionner les vues ou les personnalisations à exporter, puis sélectionner **Exporter**.
 
-En outre, les administrateurs peuvent exporter les personnalisations d'autres utilisateurs en suivant ces étapes.
+En outre, les administrateurs peuvent exporter les personnalisations d’autres utilisateurs en suivant ces étapes.
 
 1. Accédez à **Administration système \> Paramétrage \> Personnalisation**.
-2. Sous l'onglet **Utilisateurs**, sélectionnez l'utilisateur souhaité.
+2. Sous l’onglet **Utilisateurs**, sélectionnez l’utilisateur souhaité.
 3. Recherchez et sélectionnez la vue ou la personnalisation qui vous intéresse.
 4. Sélectionnez **Exporter**.
 
 #### <a name="import"></a>IMPORTER
 
-Pour importer une vue ou une personnalisation, vous pouvez simplement ouvrir la barre d'outils **Personnalisation** et sélectionner **Importer**. De plus, les administrateurs peuvent importer un fichier et le donner immédiatement à un ou plusieurs utilisateurs.
+Pour importer une vue ou une personnalisation, vous pouvez simplement ouvrir la barre d’outils **Personnalisation** et sélectionner **Importer**. De plus, les administrateurs peuvent importer un fichier et le donner immédiatement à un ou plusieurs utilisateurs.
 
 Si les vues enregistrées sont activées, procédez comme suit :
 
 1. Accédez à **Administration système \> Paramétrage \> Personnalisation**.
 2. Dans la volet Actions, sélectionnez **Importer les vues \> Vues utilisateur**.
-3. Sélectionnez le mode d'importation :
+3. Sélectionnez le mode d’importation :
 
     - **Sélectionner des utilisateurs spécifiques** - Attribuer la vue ou la personnalisation aux utilisateurs sélectionnés.
-    - **Importer tel quel** - Importer la vue ou la personnalisation vers le même utilisateur qui l'a exportée.
+    - **Importer tel quel** - Importer la vue ou la personnalisation vers le même utilisateur qui l’a exportée.
 
 4. Sélectionnez **Parcourir**, puis recherchez et sélectionnez la personnalisation à importer.
 5. Sélectionnez **Suivant**.
-6. Si vous avez sélectionné **Sélectionner des utilisateurs spécifiques** à l'étape 3, sélectionnez les utilisateurs vers lesquels importer la personnalisation.
+6. Si vous avez sélectionné **Sélectionner des utilisateurs spécifiques** à l’étape 3, sélectionnez les utilisateurs vers lesquels importer la personnalisation.
 7. Sélectionnez **Importer**.
 8. Résolvez les conflits au besoin.
 
@@ -254,7 +254,7 @@ Si les vues enregistrées ne sont pas activées, procédez comme suit :
 1. Accédez à **Administration système \> Paramétrage \> Personnalisation**.
 2. Sélectionnez **Appliquer**.
 3. Sélectionnez les utilisateurs auxquels distribuer la personnalisation.
-4. Sélectionnez **Importer des personnalisations à partir d'un fichier**.
+4. Sélectionnez **Importer des personnalisations à partir d’un fichier**.
 5. Sélectionnez **Parcourir**, puis recherchez et sélectionnez la personnalisation à importer.
 6. Cliquez sur **OK**.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3c7dafe55fc7072aa12b98ff42ed7d9e4719f4cd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 51526c8409e0a04cf35e2dbd63cb4a3bd7d121e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804695"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352960"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Déterminer la combinaison optimale de chevauchement les remises
 
@@ -39,11 +39,11 @@ Vous pouvez créer un nombre illimité de remises sur un ensemble courant de pro
 
 Dans cet exemple, deux produits sont nécessaires afin de pouvoir bénéficier de chaque remise, et les remises ne peuvent pas être combinées. Les remises dans cet exemple sont des remises **Meilleur prix**. Les deux produits qualifiés pour les deux remises. Voici les deux remises.
 
-![Exemple de deux meilleures remises de prix](./media/overlapping-discount-combo-01.jpg)
+![Exemple de deux meilleures remises de prix.](./media/overlapping-discount-combo-01.jpg)
 
 Pour deux produits, la meilleure de ces deux remises dépend des prix des deux produits. Lorsque le prix des deux produits est égal ou quasiment identiques, la remise 1 est préférable. Lorsque le prix d’un produit est considérablement inférieur au prix de l’autre produit, la remise 2 est préférable. Voici la règle mathématique pour évaluer ces deux remises, l’une en fonction de l’autre.
 
-![Règle d’évaluation des remises](./media/overlapping-discount-combo-02.jpg)
+![Règle d’évaluation des remises.](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Lorsque le prix du produit 1 est égal à deux-tiers du prix du produit 2, les deux remises sont égales. Dans cet exemple, le pourcentage de remise effective pour la remise 1 varie d’un faible pourcentage (lorsque les prix des deux produits sont distants) à un maximum de 25 % (lorsque les deux produits ont le même prix). Le pourcentage de remise effective pour la remise 2 est fixe. Elle est toujours de 20 %. Comme le pourcentage de remise effective pour la remise 1 a une plage qui peut être supérieure ou inférieure à la remise 2, la meilleure remise dépendra des prix des deux produits qui doivent être remisés. Dans cet exemple, le calcul est réalisé rapidement, car seules deux remises sont appliquées sur uniquement deux produits. Il existe uniquement deux combinaisons possibles : une application de la remise 1 ou une application de la remise 2. Il n’existe aucune permutation à calculer. La valeur de chaque remise est calculée à l’aide des deux produits, et la meilleure remise est utilisée.
@@ -57,11 +57,11 @@ Ensuite, nous utiliserons quatre produits et les deux mêmes remises. Les quatre
 
 Pour lire les tableaux, utilisez un produit d’une ligne et un produit d’une colonne. Par exemple, dans le tableau pour la remise 1, lorsque vous combinez les deux produits à $20, vous obtenez une remise de $10. Dans le tableau pour la remise 2, lorsque vous combinez le produit de $15 et le produit de $5, vous obtenez une remise de $4.
 
-![Exemple utilisant quatre produits pour deux remises identiques](./media/overlapping-discount-combo-03.jpg)
+![Exemple utilisant quatre produits pour deux remises identiques.](./media/overlapping-discount-combo-03.jpg)
 
 En premier, nous trouvons la plus grande remise qui est disponible à partir de deux produits à l’aide de l’une ou l’autre des remises. Les deux tableaux montrent la quantité de remise pour toutes les combinaisons des deux produits. Les parties ombrées des tableaux représentent soit les cas où un produit est associé à lui-même, ce que nous ne pouvons pas faire, soit un couplage en sens inverse de deux produits qui produit le même montant de remise et peut être ignoré. En examinant les tableaux, vous pouvez voir que la remise 1 pour les deux articles à $20 est la plus grande remise disponible pour l’une ou l’autre des remises sur chacun des quatre produits. (Cette remise est mise en surbrillance en vert dans le premier tableau.) Cela laisse uniquement le produit à $15 et le produit à $5. En examinant les deux tableaux de nouveau, vous pouvez voir que, pour ces deux produits, la remise 1 donne une remise de $2,50, alors que la remise 2 donne une remise de $4. Par conséquent, nous sélectionnons la remise 2. La remise totale est de $14. Pour faciliter la visualisation de cette discussion, voici deux tableaux supplémentaires qui affichent le pourcentage de remise effective pour toutes les combinaisons possibles pour les remise 1 et remise 2. Seule la moitié de la liste des combinaisons est incluse, car, pour ces deux remises, l’ordre dans lequel les deux produits sont ajoutés dans la remise n’importe pas. La remise effective la plus élevée (25 %) est mise en surbrillance en vert, et la plus faible remise effective (10 %) est mise en surbrillance en rouge.
 
-![Pourcentage de remise effectif pour toutes les combinaisons de deux produits pour les deux remises](./media/overlapping-discount-combo-04.jpg)
+![Pourcentage de remise effectif pour toutes les combinaisons de deux produits pour les deux remises.](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Lorsque les prix varient, et qu’au moins deux remises se concurrencent, la seule façon de garantir la meilleure combinaison de remises est d’évaluer les deux remises et de les comparer.
@@ -70,7 +70,7 @@ En premier, nous trouvons la plus grande remise qui est disponible à partir de 
 
 Cette section continue l’exemple de la section précédente. Nous ajouterons plus de produits et une remise différente, puis nous verrons le nombre de combinaisons devant être calculées et comparées. Le tableau suivant indique le nombre de combinaisons de remises possibles au fur et à mesure que la quantité de produits augmente. Le tableau montre ce qui se produit à la fois lorsqu’il y a deux remises se chevauchant, comme dans l’exemple précédent, et lorsqu’il y a trois remises se chevauchant. Le nombre de combinaisons de rabais possibles qui doivent être évaluées dépasse rapidement ce que même un ordinateur rapide peut calculer et comparer assez rapidement pour être acceptable pour les transactions de détail.
 
-![Nombre de combinaisons de remises possibles au fur et à mesure que la quantité de produits augmente](./media/overlapping-discount-combo-05.jpg)
+![Nombre de combinaisons de remises possibles au fur et à mesure que la quantité de produits augmente.](./media/overlapping-discount-combo-05.jpg)
 
 Lorsque des quantités encore plus importantes ou plus de remises se chevauchant sont appliquées, le nombre total de combinaisons de remises possibles se traduit rapidement en millions, et le temps requis pour évaluer et sélectionner la meilleure combinaison possible devient rapidement perceptible. Certaines optimisations ont été effectuées dans le moteur de prix afin de réduire le nombre total de combinaisons à évaluer. Toutefois, comme le nombre de remises se chevauchant et les quantités dans une transaction ne sont pas limitées, un grand nombre de combinaisons doivent toujours être évaluées dès qu’il y a des remises qui se chevauchent. Ce problème est le problème auquel la méthode de classement de valeur marginale s’adresse.
 
@@ -78,7 +78,7 @@ Lorsque des quantités encore plus importantes ou plus de remises se chevauchant
 
 Pour résoudre le problème d’un nombre exponentiel de combinaisons qui doivent être évaluées, il existe une optimisation qui calcule la valeur par produit partagé de chaque remise sur l’ensemble des produits auxquels on peut appliquer deux remises ou plus. Nous nous référons à cette valeur comme **valeur marginale** de la remise pour les produits partagés. La valeur marginale est la moyenne par augmentation de produit dans le montant de remise totale lorsque les produits partagés sont inclus dans chaque remise. La valeur marginale est calculée en prenant le montant de remise totale (DTotal), soustrayant le montant de remise sans produits partagés (DMinus\\ Shared), et divisant cette différence par le nombre de produits partagés (ProductsShared).
 
-![Formule de calcul de la valeur marginale](./media/overlapping-discount-combo-06.jpg)
+![Formule de calcul de la valeur marginale.](./media/overlapping-discount-combo-06.jpg)
 
 Après calcul de la valeur marginale de chaque remise sur un ensemble de produits partagés, les réductions s’appliquent aux produits partagés dans l’ordre, de manière exhaustive, de la valeur marginale la plus élevée à la valeur marginale la plus faible. Pour cette méthode, toutes les possibilités restantes de remise ne sont pas comparées à chaque fois qu’une seule instance d’une remise est appliquée. Au lieu de cela, les remises se chevauchant sont comparées une fois et ensuite appliquées dans l’ordre. Aucune comparaison supplémentaire n’est effectuée. Vous pouvez configurer le seuil pour basculer vers la méthode de valeur marginale dans l’onglet **Remise** de la page **Paramètres de commerce**. La durée acceptable pour calculer la remise totale varie entre différents secteurs au détail. Toutefois, la durée correspondante est en général une plage comprise entre des dizaines de millisecondes et une seconde.
 

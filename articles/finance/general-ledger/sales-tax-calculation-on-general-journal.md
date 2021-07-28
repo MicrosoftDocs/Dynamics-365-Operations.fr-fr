@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358831"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcul de taxe sur les lignes générales du journal
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ Sinon, la direction de la taxe est taxe déductible.
 
 Le diagramme suivant illustre la règle sous forme graphique.
 
-![Options de direction de la taxe pour les comptes de projet](media/Sales-Tax-Direction-Vendor.jpg)
+![Options de direction de la taxe pour les comptes de projet.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Le type de compte est Fournisseur
 
@@ -73,7 +73,7 @@ Sinon, la direction de la taxe est taxe déductible.
 
 Le diagramme suivant illustre la règle sous forme graphique.
 
-![Options de direction de la taxe pour les comptes de fournisseur](media/Sales-Tax-Direction-Vendor.jpg)
+![Options de direction de la taxe pour les comptes de fournisseur.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Le type de compte est Client
 
@@ -89,7 +89,7 @@ Sinon, la direction de la taxe est taxe de comptabilité fournisseur.
 
 Le diagramme suivant illustre la règle sous forme graphique.
 
-![Options de direction de la taxe pour les comptes client](media/Sales-Tax-Direction-Customer.jpg)
+![Options de direction de la taxe pour les comptes client.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Le type de compte est Comptabilité
 
@@ -103,19 +103,19 @@ Sinon, si le montant du journal est positif (débit), la direction de la taxe es
 
 Le diagramme suivant illustre la règle sous forme graphique.
 
-![Options de direction de la taxe pour les comptes généraux](media/Sales-Tax-Direction-Ledger.jpg)
+![Options de direction de la taxe pour les comptes généraux.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Remplacer la direction de la taxe
 
 Vous pouvez remplacer la direction de la taxe lorsque le justificatif contient uniquement les lignes dont le type de compte est **Comptabilité**.
 
-Accédez à **Comptabilité \> Plan de comptes \> Comptes \> Comptes principaux**, puis sélectionnez l'organisateur **Remplacements des entités juridiques**.
+Accédez à **Comptabilité \> Plan de comptes \> Comptes \> Comptes principaux**, puis sélectionnez l’organisateur **Remplacements des entités juridiques**.
 
 ## <a name="determine-the-sales-tax-amount"></a>Déterminer le montant de la taxe
 
 Cette section décrit la manière dont le signe du montant de taxe est calculé.
 
-![Page des transactions de la taxe](media/sales-tax-amount-sign.jpg)
+![Page des transactions de la taxe.](media/sales-tax-amount-sign.jpg)
 
 Le tableau suivant montre la règle générique pour déterminer la direction de la taxe et le signe des montants de taxe dans la table temporaire de taxe.
 

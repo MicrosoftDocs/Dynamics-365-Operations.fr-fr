@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746409"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352936"
 ---
 # <a name="getenumvaluebyname-er-function"></a>Fonction GETENUMVALUEBYNAME ER
 
@@ -62,7 +62,7 @@ Aucune exception n’est levée si aucune valeur *Enum* n’est trouvée en util
 
 Dans l’illustration suivante, l’énumération **ReportDirection** est présentée dans un modèle de données. Notez que les étiquettes sont définies pour les valeurs d’énumération.
 
-![Valeurs disponibles pour une énumération de modèle de données](./media/ER-data-model-enumeration-values.PNG)
+![Valeurs disponibles pour une énumération de modèle de données.](./media/ER-data-model-enumeration-values.PNG)
 
 Les détails suivants sont illustrés dans le graphique ci-dessous :
 
@@ -70,7 +70,7 @@ Les détails suivants sont illustrés dans le graphique ci-dessous :
 - L’expression `$IsArrivals` est conçue pour utiliser la source de données **$Direction** basée sur l’énumération du modèle comme paramètre de cette fonction.
 - La valeur de cette expression de comparaison est **TRUE**.
 
-![Exemple d’énumération de modèle de données](./media/ER-data-model-enumeration-usage.PNG)
+![Exemple d’énumération de modèle de données.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Exemple 2
 
@@ -78,14 +78,14 @@ Les fonctions `GETENUMVALUEBYNAME` et [`LISTOFFIELDS`](er-functions-list-listoff
 
 Dans l’illustration suivante, la source de données **TransType** est introduite dans un mappage de modèle. Cette source de données fait référence à l’énumération d’application **LedgerTransType**.
 
-![Source de données d’un mappage de modèle faisant référence à une énumération d’application](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Source de données d’un mappage de modèle faisant référence à une énumération d’application.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 L’illustration suivante présente la source de données **TransTypeList** configurée dans un mappage de modèle. Cette source de données est configurée en fonction de l’énumération d’application **TransType**. La fonction `LISTOFFIELDS` permet de renvoyer toutes les valeurs d’énumération sous la forme d’une liste d’enregistrements contenant des champs. De cette façon, les détails de chaque valeur d’énumération sont exposés.
 
 > [!NOTE]
 > Le champ **EnumValue** est configuré pour la source de données **TransTypeList** à l’aide de l’expression `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Ce champ renvoie une valeur d’énumération pour chaque enregistrement de cette liste.
 
-![Source de données d’un mappage de modèle qui renvoie toutes les valeurs d’énumération d’une énumération sélectionnée sous la forme d’une liste d’enregistrements](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Source de données d’un mappage de modèle qui renvoie toutes les valeurs d’énumération d’une énumération sélectionnée sous la forme d’une liste d’enregistrements.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 L’illustration suivante présente la source de données **VendTrans** qui est configurée dans un mappage de modèle. Cette source de données renvoie les enregistrements de transaction fournisseur à partir de la table d’application **VendTrans**. Le type comptable de chaque transaction est défini par la valeur du champ **TransType**.
 
@@ -94,11 +94,11 @@ L’illustration suivante présente la source de données **VendTrans** qui est 
 >
 > Le champ **TransTypeTitle** est lié au champ **LedgerType** d’un modèle de données qui permet d’utiliser ces informations dans chaque format d’état électronique qui utilise le modèle de données comme source de données.
 
-![Source de données d’un mappage de modèle qui renvoie les transactions fournisseur](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Source de données d’un mappage de modèle qui renvoie les transactions fournisseur.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 L’illustration suivante montre comment utiliser le [débogueur de source de données](er-debug-data-sources.md) pour tester le mappage de modèle configuré.
 
-![Utilisation du débogueur de source de données pour tester le mappage de modèle configuré](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Utilisation du débogueur de source de données pour tester le mappage de modèle configuré.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 Le champ **LedgerType** d’un modèle de données expose les étiquettes des types de transaction comme prévu.
 

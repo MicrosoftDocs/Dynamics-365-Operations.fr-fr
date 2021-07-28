@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802043"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349550"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connecter des périphériques au point de vente (POS)
 
@@ -78,7 +78,7 @@ Bien que la station matérielle elle-même spécifiée au niveau du canal inclut
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS avec des périphériques connectés
 
-[![Point de vente fixe traditionnel](./media/traditional-300x279.png)](./media/traditional.png)
+[![Point de vente fixe traditionnel.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Pour connecter MPOS aux périphériques de PDV dans un scénario de PDV fixe traditionnel, accédez d’abord à la caisse enregistreuse elle-même et affectez-lui un profil de matériel. Vous pouvez trouver les caisses enregistreuses de PDV dans **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. 
 
@@ -97,7 +97,7 @@ Enfin, dans MPOS, utilisez l’opération **Sélectionner une station matériell
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS ou Cloud POS avec une station matérielle autonome
 
-[![Périphériques partagés](./media/shared-300x254.png)](./media/shared.png)
+[![Périphériques partagés.](./media/shared-300x254.png)](./media/shared.png)
 
 Dans ce scénario, une station matérielle autonome est partagée entre les clients MPOS et Cloud POS. Ce scénario nécessite de créer un profil de station matérielle afin de spécifier le package de téléchargement, le port et le profil de matériel qu’utilise la station matérielle. Vous trouverez le profil de station matérielle dans **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de la station matérielle**. 
 

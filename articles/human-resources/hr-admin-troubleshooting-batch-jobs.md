@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 13482ab7b9ee6303138a7a5e82dce78138e0b8ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357311"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Optimiser les performances en planifiant des traitements par lots après les heures de travail
 
@@ -51,11 +51,11 @@ Les traitements par lots suivants doivent s’exécuter la nuit ou après les he
 
 3. Sélectionnez **Exécuter à l’arrière-plan**, puis sélectionnez **Récurrence**.
 
-   ![Définir la récurrence](media/talent-batch-history-cleanup-recurrence.png)
+   ![Définir la récurrence.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. Sous **Définir la récurrence**, définissez **Date de début** et **Heure de début** pour qu’elles se produisent pendant les heures creuses ou le week-end. Sélectionnez **Aucune date de fin**. 
 
-   ![Définir la date et heure de début de la récurrence](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Définir la date et heure de début de la récurrence.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Cliquez sur **OK**.
 

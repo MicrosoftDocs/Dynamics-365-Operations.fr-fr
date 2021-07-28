@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023239"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358264"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Configurer les informations de groupe TDS, PAN et TAN pour les fournisseurs et les clients
 
@@ -31,7 +31,7 @@ Cette rubrique explique comment configurer les informations sur le groupe de tax
 
 1. Accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs** ou **Comptabilité client \> Clients \> Tous les clients**.
 
-    [![Page Tous les fournisseurs](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Page Tous les fournisseurs.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Dans le volet Actions, sélectionnez **Nouveau** pour créer un fournisseur ou client, puis entrez les détails requis. Vous pouvez également sélectionner un fournisseur ou un client existant.
 3. Dans le raccourci **Facture et livraison**, dans la section **Retenue à la source**, définissez l'option **Calcul de la retenue à la source** sur **Oui** pour calculer la retenue à la source, le TDS ou la taxe perçue à la source (TCS) pour le fournisseur ou le client.
@@ -60,7 +60,7 @@ Cette rubrique explique comment configurer les informations sur le groupe de tax
     - Autorité locale
     - Autres
 
-    [![Raccourci Informations fiscales](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Raccourci Informations fiscales.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Dans le volet Actions, dans l'onglet **Fournisseur**, dans le groupe **Inscription**, sélectionnez **ID enregistrement** pour ouvrir la page **Gérer les adresses**.
 10. Dans la page **Gérer les adresses**, dans le raccourci **Informations fiscales**, sélectionnez **Ajouter** ou **Modifier** pour ouvrir la page **Gérer les informations fiscales** où vous pouvez gérer l'entrée d'enregistrement de taxe.

@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: dc73f1bde3407c144dc1cd48283385c19713430e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349082"
 ---
 # <a name="workflow-system-overview"></a>Vue d’ensemble du système de workflow
 
@@ -39,7 +41,7 @@ Un workflow est un système qui s’exécute sur le serveur d’objets d’appli
 
 Un workflow représente un processus entreprise. Il définit la circulation, la progression, d’un document dans le système en indiquant qui doit traiter une tâche, prendre une décision ou approuver un document. Par exemple, l’illustration suivante représente un workflow d’état de dépenses.
 
-![Workflow avec des éléments affectés à des utilisateurs](./media/workflow_user.gif)
+![Workflow avec des éléments affectés à des utilisateurs.](./media/workflow_user.gif)
 
 Pour mieux comprendre ce workflow, supposons que Sam soumette un état de dépenses de USD 7 000. Dans ce scénario, Ivan doit passer en revue les reçus envoyés par Sam. Frank et Sue doivent ensuite approuver l’état de dépenses. Supposons maintenant que Sam soumette un état de dépenses de USD 11 000. Dans ce scénario, Ivan doit passer en revue les reçus, et Frank, Sue et Ann doivent approuver l’état de dépenses.
 

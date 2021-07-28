@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795427"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357808"
 ---
 # <a name="shipping-address-module"></a>Module Adresse d’expédition
 
@@ -37,11 +37,11 @@ Bien que le module Adresse de livraison ne fournisse pas la validation d’adres
 
 L’illustration suivante montre un exemple d’un nouveau module d’adresse de livraison dans une page de caisse.
 
-![Exemple de module Adresse de livraison sur une page de paiement](./media/ecommerce-shippingaddress.PNG)
+![Exemple de module Adresse de livraison sur une page de paiement.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Propriétés du module
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Rubrique optionnelle pour le module Adresse de livraison. |
 | Afficher le type d’adresse | **Vrai** ou **Faux** | Si cette propriété facultative est définie sur **True**, un type d’adresse, tel que **Domicile** ou **Professionnelle**, sera affiché. Si aucun type d’adresse n’est spécifié, l’adresse sera automatiquement enregistrée sous **Type**=**Autre**. |

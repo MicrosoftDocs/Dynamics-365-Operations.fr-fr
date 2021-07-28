@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352130"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Ajouter des recommandations produit sur PDV
 
@@ -39,7 +39,7 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
 
     - Si un associé du magasin visite une page **Détails de produit** lorsque vous regardez des transactions antérieures sur différents canaux, le service de recommandation propose des éléments supplémentaires susceptibles d’être achetés ensemble.
 
-    [![Recommandations sur la page de Détails du produit](./media/proddetails.png)](./media/proddetails.png)
+    [![Recommandations sur la page de Détails du produit.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Sur la page **Transaction** :
 
@@ -48,7 +48,7 @@ Les recommandations de produit sont activées pour les scénarios de PDV suivant
     > [!NOTE]
     > Pour afficher les recommandations sur la page **Transaction**, le détaillant doit actualiser la mise en page de l’écran dans Dynamics 365 Commerce. Le contrôle **Recommandations** doit être déposé sur la page **Transaction**.
 
-    [![Recommandations sur la page Transaction](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Recommandations sur la page Transaction.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurer Commerce pour activer les recommandations de PDV
 

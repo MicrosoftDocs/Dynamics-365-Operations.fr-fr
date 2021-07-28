@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941027"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350957"
 ---
 # <a name="company-concept-in-dataverse"></a>Concept de société dans Dataverse
 
@@ -43,7 +43,7 @@ Comme les unités commerciales et la société ne sont pas des concepts équival
 
 L’illustration suivante montre un exemple de ce paramétrage de données dans Dataverse.
 
-![Paramétrage des données dans Dataverse](media/dual-write-company-1.png)
+![Paramétrage des données dans Dataverse.](media/dual-write-company-1.png)
 
 En raison de cette configuration, toutes les lignes liées à la société USMF sont détenu par une équipe liée à l’unité commerciale USMF dans Dataverse. Par conséquent, tout utilisateur ayant accès à cette unité commerciale via un rôle de sécurité défini sur la visibilité au niveau de l’unité commerciale peut à présent voir ces lignes. L’exemple suivant montre comment les équipes peuvent être utilisées pour fournir un accès correct à ces lignes.
 
@@ -52,21 +52,21 @@ En raison de cette configuration, toutes les lignes liées à la société USMF 
 + L’équipe « Ventes USMF » est liée à l’unité commerciale USMF mentionnée précédemment.
 + Par conséquent, les membres de l’équipe « Ventes USMF » peuvent voir les comptes qui appartiennent à l’utilisateur « DW USMF », provenant de la table Société USMF dans Finance and Operations.
 
-![Utilisations possibles des équipes](media/dual-write-company-2.png)
+![Utilisations possibles des équipes.](media/dual-write-company-2.png)
 
 Comme le montre l’illustration précédente, cette correspondance 1:1 entre l’unité commerciale, la société et l’équipe est uniquement un point de départ. Dans cet exemple, une unité commerciale « Europe » est créée manuellement dans Dataverse comme parent de DEMF et d’ESMF. Cette nouvelle unité commerciale racine est indépendante de la double écriture. Toutefois, elle peut être utilisée pour donner membres de l’équipe « Ventes EUR » l’accès aux données du compte dans DEMF et ESMF en définissant la visibilité des données sur **BU parent/enfant** dans le rôle de sécurité associé.
 
 Une rubrique finale pour expliquer comment la double écriture détermine à quelle l’équipe propriétaire elle doit affecter les lignes. Ce comportement est contrôlé par la colonne **Équipe propriétaire par défaut** dans la ligne cdm\_Company. Lorsqu’une ligne cdm\_Company est activé pour la double écriture, un plug-in crée automatiquement l’unité commerciale et l’équipe propriétaire associées (si elles n’existent pas encore), et définit la colonne **Équipe propriétaire par défaut**. L’administrateur peut modifier cette colonne avec une valeur différente. Toutefois, l’administrateur ne peut pas désactiver la colonne tant que la table est activée pour la double écriture.
 
 > [!div class="mx-imgBorder"]
-![Colonne d’équipe propriétaire par défaut](media/dual-write-default-owning-team.jpg)
+![Colonne d’équipe propriétaire par défaut.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Agrégation par bande et amorçage de la société
 
 L’intégration de Dataverse apporte la parité de la société à l’aide d’un identificateur de société pour agréger les données par bande. Comme l’illustration suivante le montre, les tables spécifiques à la société sont développées de sorte qu’elles aient une relation plusieurs à un (N:1) avec la table cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![Relation plusieurs à un (N:1) entre une table spécifique à la société et la table cdm_Company](media/dual-write-bootstrapping.png)
+![Relation plusieurs à un (N:1) entre une table spécifique à la société et la table cdm_Company.](media/dual-write-bootstrapping.png)
 
 + Pour les lignes, une fois une société ajoutée et enregistrée, la valeur passe en lecture seule. Par conséquent, les utilisateurs doivent s’assurer de sélectionner la société adéquate.
 + Seules les lignes ayant des données de la société sont admissibles à la double écriture entre l’application et Dataverse.
@@ -98,7 +98,7 @@ Il existe plusieurs façons de renseigner automatiquement le nom de l’entrepri
 
 Pour appliquer un filtrage basé sur le contexte de l’entreprise sur vos formulaires personnalisés ou sur des colonnes de recherche personnalisées ajoutées aux formulaires standard, ouvrez le formulaire et utilisez la section **Filtrage des enregistrements associés** pour appliquer le filtre d’entreprise. Vous devez le définir pour chaque colonne de recherche qui nécessite un filtrage basé sur la société sous-jacente sur une ligne donnée. Le paramètre est affiché pour **Compte** dans l’illustration suivante.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Appliquer le contexte de l’entreprise":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Appliquer le contexte de l’entreprise.":::
 
 
 

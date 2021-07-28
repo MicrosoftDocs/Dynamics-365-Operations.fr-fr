@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892431"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360734"
 ---
 # <a name="asset-leasing-get-started"></a>Démarrer la location d’actifs
 
@@ -35,7 +37,7 @@ Pour plus d’informations sur les normes comptables, reportez-vous à la docume
 ## <a name="asset-leasing-elements"></a>Éléments de location d’actifs
 Le diagramme suivant illustre les principaux éléments du processus métier pour les baux.
 
-[![Éléments de location d’actifs](./media/overview-01.png)](./media/overview-01.png)
+[![Éléments de location d’actifs.](./media/overview-01.png)](./media/overview-01.png)
 
 Un actif loué contient les principaux composants suivants :
 
@@ -54,7 +56,7 @@ La location d’actifs met en correspondance les informations des baux, les éch
 
 Le diagramme suivant illustre le registre des baux, le bail, l’échéancier de paiement calculé, les tests de classification des baux et des registres des baux et les transactions comptables correspondantes.
 
-[![Location, registre des baux et échéancier de paiement](./media/overview-02.png)](./media/overview-02.png)
+[![Location, registre des baux et échéancier de paiement.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Registre des baux** – Le registre des baux comprend toutes les informations relatives au contrat d’un bail, comme la durée du bail, la juste valeur et les paiements de location. Il comprend également la norme comptable que vous suivez, le type de bail et les seuils pris en compte dans le test de classification des baux. Le registre des baux contient également les transactions de bail qui ont été validées dans la comptabilité. 
   
@@ -117,7 +119,7 @@ La première période commencera avec la période zéro, si le type de rente est
 
 Les tests de classification incluent le transfert de propriété, l’option d’achat, la durée du bail, la valeur actuelle nette et l’actif unique. Le diagramme suivant illustre les tests de classification des baux.
 
-[![Tests de classification des baux](./media/overview-03.png)](./media/overview-03.png)
+[![Tests de classification des baux.](./media/overview-03.png)](./media/overview-03.png)
 
 Chaque type de bail gère la comptabilité différemment pour différentes transactions de bail. Les transactions comprennent la comptabilisation initiale, les charges d’intérêts, les paiements de location dus et l’amortissement du bail. Elles sont basées sur les normes comptables que vous suivez (IFRS 16 ou ASC 842). Les comptes généraux sont définis sous le profil de validation des baux pour chaque type de transaction et structure de comptabilité.
 
@@ -232,7 +234,7 @@ Procédez comme suit pour créer un bail.
 
    La page **Échéancier de paiement** répertorie les futurs échéanciers de paiement pour un ID de bail. Sélectionnez **Confirmer l’échancier** pour pouvoir valider les transactions **Comptabilisation initiale**. 
 
-[![Fonction de comptabilisation initiale](./media/overview-13.png)](./media/overview-13.png)
+[![Fonction de comptabilisation initiale.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Sélectionnez **Comptabilisation initiale** pour créer un journal de comptabilisation initiale. 
 
@@ -246,7 +248,7 @@ Procédez comme suit pour créer un bail.
 
    La page **Programme d’amortissement des actifs** affiche les transactions d’amortissement pour l’ID de bail sélectionné. 
 
-   [![Page des transactions du droit d’utilisation de l’actif](./media/overview-20.png)](./media/overview-20.png)
+   [![Page des transactions du droit d’utilisation de l’actif.](./media/overview-20.png)](./media/overview-20.png)
 
    La page **Transactions du droit d’utilisation de l’actif** répertorie la comptabilisation initiale, l’amortissement cumulé et le solde de l’actif. 
 

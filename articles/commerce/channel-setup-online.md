@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936942"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351174"
 ---
 # <a name="set-up-an-online-channel"></a>Paramétrer un canal en ligne
 
@@ -55,11 +55,11 @@ Pour créer et configurer un canal en ligne, procédez comme suit.
 
 L’image suivante montre la création d’un canal en ligne.
 
-![Nouveau canal en ligne](media/channel-setup-online-1.png)
+![Nouveau canal en ligne.](media/channel-setup-online-1.png)
 
 L’image suivante présente un exemple de canal en ligne.
 
-![Exemple de canal en ligne](media/channel-setup-online-2.png)
+![Exemple de canal en ligne.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Configurer les langues
 
@@ -75,7 +75,7 @@ Les tâches supplémentaires qui sont requises pour la configuration du canal en
 
 L’image suivante montre les options de configuration **Modes de livraison**, **Modes de paiement** et **Affectation du groupe d’exécution** de l’onglet **Configurer**.
 
-![Actions supplémentaires de configuration de canal en ligne](media/channel-setup-online-3.png)
+![Actions supplémentaires de configuration de canal en ligne.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>paramétrer les modes de paiement ;
 
@@ -90,7 +90,7 @@ Pour configurer des modes de paiement, pour chaque type de paiement pris en char
 
 L’image suivante présente un exemple de mode de paiement au comptant.
 
-![Exemple de modes de paiement](media/channel-setup-retail-5.png)
+![Exemple de modes de paiement.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
@@ -104,7 +104,7 @@ Pour modifier ou ajouter un mode de livraison, procédez comme suit.
 
 L’image suivante présente un exemple de mode de livraison.
 
-![Paramétrer des modes de livraison](media/channel-setup-retail-7.png)
+![Paramétrer des modes de livraison.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Paramétrer une affectation de groupe d’exécution
 
@@ -118,13 +118,13 @@ Pour paramétrer une affectation de groupe d’exécution, procédez comme suit.
 
 L’image suivante montre un exemple de configuration d’affectation de groupe d’exécution.
 
-![Configurer l’affectation du groupe d’exécution](media/channel-setup-retail-9.png)
+![Configurer l’affectation du groupe d’exécution.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Présentation des canaux](channels-overview.md)
+[Vue d’ensemble des canaux](channels-overview.md)
 
-[Configuration requise pour le paramétrage de canaux](channels-prerequisites.md)
+[Conditions préalables à la configuration de canal](channels-prerequisites.md)
 
 [Paramétrer un canal de vente au détail](channel-setup-retail.md)
 

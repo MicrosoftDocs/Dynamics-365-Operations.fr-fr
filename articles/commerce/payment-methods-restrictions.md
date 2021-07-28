@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804525"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352346"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restreindre les modes de paiement pour les retours sans reçu
 
@@ -38,7 +38,7 @@ Pour paramétrer les modes de paiement, vous devez effectuer les tâches suivant
 3. Paramétrer les modes de paiement du magasin. Associez les modes de paiement à chaque magasin, puis entrez les paramètres propres au magasin pour chaque mode de paiement de ce dernier.
 4. Paramétrer les modes de paiement par carte pour les magasins. Vous devez paramétrer la carte pour tous les modes de paiement par carte acceptés par le magasin.
 
-![Paramétrage du magasin](media/NoReceiptReturns1.png "Paramétrage du magasin de vente au détail") 
+![Paramétrage du magasin.](media/NoReceiptReturns1.png "Paramétrage du magasin de vente au détail") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restreindre les modes de paiement pour les retours sans reçu
@@ -49,12 +49,12 @@ La valeur par défaut du bouton d’activation/de désactivation est **Non**, ce
 
 Lorsque **Limitation des remboursements sans réception** est défini sur **Activé**, le mode de paiement sélectionné ne sera pas autorisé pour les remboursements. 
 
-![Mode de paiement du magasin](media/NoReceiptReturns3.png "Mode de paiement du magasin de vente au détail") 
+![Mode de paiement du magasin.](media/NoReceiptReturns3.png "Mode de paiement du magasin de vente au détail") 
 
 > [!NOTE]
 > Quand un agent de caisse sélectionne un mode de paiement limité au remboursement sans reçu, un message s’affiche pour vérifier les modes de paiement acceptables.
 
-![Modes de paiement acceptables](media/NoReceiptReturns4.png "Modes de paiement acceptables") 
+![Modes de paiement acceptables.](media/NoReceiptReturns4.png "Modes de paiement acceptables") 
 
 Si une transaction a à la fois un retour avec reçu et un retour sans reçu, les conditions de restriction ne seront pas appliquées, car la transaction est un workflow de retour avec reçu. 
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359979"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Recherche de produits et de variantes de produits lors de la saisie de commande
 
@@ -58,7 +58,7 @@ Si vous saisissez « parleur 05 » vous n’obtiendrez aucun résultat. Cela est
 Vous pouvez limiter le nombre de résultats de la recherche à l’aide du champ **Nombre de résultats** sur la page **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche**. Si vous définissez ce champ sur 0, tous les résultats de la recherche seront renvoyés. Si le définissez sur 10, par exemple, il renverra 10 résultats de recherche au maximum.
 
 ## <a name="configure-the-product-search"></a>Configuration de la recherche de produit
-Avant de pouvoir utiliser la fonction de recherche de produit et de variante de produit, procédez comme suit pour configurer la recherche de produit. [![3 étapes pour configurer la recherche de produit\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Avant de pouvoir utiliser la fonction de recherche de produit et de variante de produit, procédez comme suit pour configurer la recherche de produit. [![3 étapes pour configurer la recherche de produit\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Étape 1 : Inclure tous les produits et identificateurs et dimensions de variantes de produits appropriés dans les critères de recherche
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352106"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Configuration de Microsoft Teams à partir de Dynamics 365 Commerce
 
@@ -49,7 +49,7 @@ Pour configurer Teams dans Commerce Headquarters, procédez comme suit.
 > [!TIP]
 > Si aucun de vos directeurs régionaux, directeurs de magasin et employés de magasin n’a été associé à une licence Teams, le message d’erreur suivant peut s’afficher : « Impossible de récupérer les catégories de SKU applicables pour l’utilisateur ». Pour corriger le problème, sélectionnez **Synchroniser les équipes et les membres** dans le volet Actions.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>Valider la configuration de Teams dans le centre d’administration de Teams
 
@@ -63,7 +63,7 @@ Pour valider la configuration de Microsoft Teams dans le centre d’administrati
 
 L’illustration suivante montre un exemple de la page **Gérer les équipes** dans le centre d’administration de Teams.
 
-![Exemple de la page Gérer les équipes dans le centre d’administration de Teams](media/Teams-FLW-Admin-Teams.png)
+![Exemple de la page Gérer les équipes dans le centre d’administration de Teams.](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Charger une hiérarchie organisationnelle de Commerce vers Teams
     
@@ -86,7 +86,7 @@ Pour vérifier que la hiérarchie organisationnelle a été chargée vers Micros
 1. Sur l’onglet **Listes publiées**, créez une nouvelle liste contenant une tâche factice.
 1. Sélectionnez **Publier**. La hiérarchie organisationnelle doit apparaître dans la boîte de dialogue **Sélectionner les destinataires de la publication**, comme indiqué dans l’exemple de l’illustration suivante.
 
-![Exemple de hiérarchie organisationnelle dans la boîte de dialogue Sélectionner les destinataires de la publication](media/Microsoft-teams-verify-org-hierarchy.png)
+![Exemple de hiérarchie organisationnelle dans la boîte de dialogue Sélectionner les destinataires de la publication.](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

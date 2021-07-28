@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356701"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -33,18 +33,18 @@ La fonctionnalité existante pour les journaux financiers (le journal des opéra
 
 - Paramétrez le nom du journal (**Comptabilité** \> **Paramétrage de journaux** \> **Noms de journal**) afin que le champ **Nouveau N° document** soit défini sur **Un seul N° document**. Chaque ligne que vous ajoutez au journal est désormais incluse sur le même N° document. Par conséquent, le N° document peut être entré comme un N° document multiligne, comme un compte/compte de contrepartie sur la même ligne, ou comme une combinaison.
 
-    [![Ligne unique](./media/same-line.png)](./media/same-line.png)
+    [![Ligne unique.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > La définition de N° document n’inclut **pas** les cas où les noms de journaux paramétrés comme **Un N° document uniquement**, mais que l’utilisateur entre ensuite un N° document qui inclut uniquement des types de comptes généraux. Dans cette rubrique, un N° document signifie un justificatif unique contenant plusieurs fournisseurs, clients, banques, immobilisations, ou projets.
 
 - Entrez un N° document multiligne lorsqu’il n’existe pas de compte de contrepartie.
 
-    [![N° document multiligne](./media/Multi-line.png)](./media/Multi-line.png)
+    [![N° document multiligne.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Entrez un N° document lorsque le compte et le compte de contrepartie contiennent un type de compte auxiliaire, par exemple **fournisseur**/**fournisseur**, **client**/**client**, **fournisseur**/**client** ou **banque**/**banque**.
 
-    [![N° document du compte général auxiliaire](./media/subledger.png)](./media/subledger.png)
+    [![N° document du compte général auxiliaire.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Problèmes liés à la fonctionnalité N° document
 
@@ -52,11 +52,11 @@ La fonctionnalité N° document génère des problèmes pendant le règlement, l
 
 Par exemple, vous validez le justificatif multiligne suivant.
 
-[![Exemple de justificatif multiligne](./media/example.png)](./media/example.png)
+[![Exemple de justificatif multiligne.](./media/example.png)](./media/example.png)
 
 Vous générez ensuite l’état **Dépenses par fournisseur** dans l’espace de travail **Financial Insights**. Sur cet état, les soldes des comptes de dépenses sont regroupés par groupe de fournisseurs et fournisseur. Lorsque l’état est généré, le système ne peut pas déterminer quels groupes de fournisseurs/fournisseurs ont engagé la dépense de 250,00. Comme les détails de la transaction sont manquants, le système suppose que la totalité de la dépense de 250,00 a été engagée par le premier fournisseur indiqué dans le N° document. Par conséquent, la dépense de 250,00 qui sont inclus dans le solde du compte principal 600120, sont affichés sous ce groupe de fournisseurs/fournisseur. Toutefois, il est très probable que le premier fournisseur indiqué dans le justificatif ne soit pas le bon fournisseur. Par conséquent, l’état est probablement incorrect.
 
-[![Dépenses par état fournisseur](./media/expenses.png)](./media/expenses.png)
+[![Dépenses par état fournisseur.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Avenir de la fonctionnalité N° document
 

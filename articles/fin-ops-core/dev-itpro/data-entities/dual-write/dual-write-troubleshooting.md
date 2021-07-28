@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350738"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -44,16 +44,16 @@ Après avoir installé l’outil Package Deployer, installez le package de solut
 
 1. Téléchargez le dernier fichier de package de solution depuis Yammer.com. Une fois le fichier zip du package téléchargé, cliquez dessus avec le bouton droit et sélectionnez **Propriétés**. Cochez la case **Débloquer**, puis sélectionnez **Appliquer**. Si vous ne voyez pas la case à cocher **Débloquer**, le fichier zip est déjà débloqué et vous pouvez ignorer cette étape.
 
-    ![Boîte de dialogue Propriétés](media/unblock_option.png)
+    ![Boîte de dialogue Propriétés.](media/unblock_option.png)
 
 2. Extrayez le fichier zip du package et copiez tous les fichiers dans le dossier **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Contenu du dossier Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Contenu du dossier Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Collez tous les fichiers copiés dans le dossier **Outils** de l’outil Package Deployer. 
 4. Exécutez **PackageDeployer.exe** pour sélectionner l’environnement Dataverse et installez les solutions.
 
-    ![Contenu du dossier Outils](media/paste_copied_files.png)
+    ![Contenu du dossier Outils.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Activer et afficher le journal de suivi des plug-ins dans Dataverse pour afficher les détails de l’erreur
 

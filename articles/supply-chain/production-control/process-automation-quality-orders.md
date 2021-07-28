@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115183"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353986"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Invoquer les flux d’automatisation de processus pour créer des ordres de qualité
 
@@ -30,7 +30,7 @@ Vous pouvez télécharger le modèle de solution d’automatisation [ici](https:
 
 Pour obtenir une vue d’ensemble de cette fonctionnalité et de ses capacités, regardez la vidéo suivante : [Utiliser RPA pour créer des ordres de qualité dans Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Options d’automatisation avec RPA](media/rpa-automation-options.png "Options d’automatisation avec RPA")
+![Options d’automatisation avec RPA.](media/rpa-automation-options.png "Options d’automatisation avec RPA")
 
 Le modèle de solution Power Automate comprend un flux d’automatisation cloud et un flux d’automatisation de bureau qui automatisent la création d’ordres de qualité dans Supply Chain Management.
 
@@ -38,7 +38,7 @@ L’automatisation peut être lancée en réponse à de nombreux événements et
 
 Les paramètres de la solution sont inclus pour configurer l’automatisation pour un scénario d’utilisation spécifique dans une installation de production.
 
-![Créer un ordre de qualité](media/rpa-create-quality-roder.png "Créer un ordre de qualité")
+![Créer un ordre de qualité.](media/rpa-create-quality-roder.png "Créer un ordre de qualité")
 
 Pour obtenir un guide étape par étape complet sur la façon de télécharger, d’installer et d’utiliser l’exemple de solution pour automatiser la création d’ordres de qualité, consultez [Automatiser la création d’ordres de qualité dans Dynamics 365 Supply Chain Management avec l’automatisation robotisée des processus en utilisant Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

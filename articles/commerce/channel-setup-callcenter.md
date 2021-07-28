@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800661"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351198"
 ---
 # <a name="set-up-a-call-center-channel"></a>Paramétrer un canal de centre d’appels
 
@@ -54,11 +54,11 @@ Pour créer et configurer un centre d’appels, procédez comme suit.
 
 L’image suivante montre la création d’un canal de centre d’appels.
 
-![Nouveau canal de centre d’appels](media/channel-setup-callcenter-1.png)
+![Nouveau canal de centre d’appels.](media/channel-setup-callcenter-1.png)
 
 L’image suivante présente un exemple de canal de centre d’appels.
 
-![Exemple de canal de centre d’appels](media/channel-setup-callcenter-2.png)
+![Exemple de canal de centre d’appels.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Configuration de canal supplémentaire
 
@@ -66,7 +66,7 @@ Les tâches supplémentaires requises pour la configuration du canal de centre d
 
 L’image suivante montre les options de configuration **Modes de livraison** et **Modes de paiement** de l’onglet **Configurer**.
 
-![Actions supplémentaires de configuration de canal de centre d’appels](media/channel-setup-callcenter-3.png)
+![Actions supplémentaires de configuration de canal de centre d’appels.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>paramétrer les modes de paiement ;
 
@@ -81,7 +81,7 @@ Pour configurer des modes de paiement, pour chaque type de paiement pris en char
 
 L’image suivante présente un exemple de mode de paiement au comptant.
 
-![Exemple de modes de paiement](media/channel-setup-callcenter-payments.png)
+![Exemple de modes de paiement.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
@@ -97,7 +97,7 @@ Pour modifier ou ajouter un mode de livraison à associer au canal du centre d�
 
 L’image suivante présente un exemple de mode de livraison.
 
-![Paramétrer des modes de livraison](media/channel-setup-retail-7.png)
+![Paramétrer des modes de livraison.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Configurer des utilisateurs de canal
 

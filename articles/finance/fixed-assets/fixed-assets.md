@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355554"
 ---
 # <a name="fixed-assets-home-page"></a>Page d’accueil des immobilisations
 
@@ -30,7 +32,7 @@ Les immobilisations sont des articles de valeur appartenant à un individu ou à
 
 Vous pouvez définir et entrer des informations d’acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation pour déterminer l’amortissement. Vous pouvez calculer des ajustements pour les immobilisations ou les céder. Lorsque vous utilisez les modules Comptabilité et Immobilisations, vous pouvez afficher la valeur actuelle de toutes les immobilisations. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. Il peut s’agir de respecter des règles concernant l’enregistrement des transactions d’acquisition et de cession, l’amortissement, les durées de vie, les revalorisations et dévalorisations des immobilisations. La fonctionnalité Immobilisations intègre bon nombre de ces normes et règles.
 
-[![Processus d’entreprise](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Processus d’entreprise.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 

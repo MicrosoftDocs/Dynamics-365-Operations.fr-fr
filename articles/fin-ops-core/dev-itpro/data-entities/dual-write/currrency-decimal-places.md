@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748945"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350933"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migration de type de données de devise pour la double écriture
 
@@ -82,13 +82,13 @@ Il existe certaines limitations :
 
 Une fois la migration terminée, les administrateurs peuvent définir la précision de la devise. Accédez à **Paramètres \> Administration** et sélectionnez **Paramètres système**. Ensuite, dans l’onglet **Général**, modifiez la valeur de la colonne **Définir la précision de la devise utilisée pour la tarification dans tout le système**, comme indiqué dans l’illustration suivante.
 
-![Paramètres système pour la devise](media/currency-system-settings.png)
+![Paramètres système pour la devise.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gestion d’entreprise : Devises
 
 Si vous souhaitez que la précision de la devise pour une devise spécifique diffère de la précision de la devise utilisée pour la tarification, vous pouvez la modifier. Accédez à **Paramètres \> Gestion d’entreprise**, sélectionnez **Devises** et sélectionnez la devise à modifier. Ensuite définissez la colonne **Précision des devises** sur le nombre de décimales souhaité, comme indiqué dans l’illustration suivante.
 
-![Paramètres de devise pour un environnement local spécifique](media/specific-currency.png)
+![Paramètres de devise pour un environnement local spécifique.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tables : colonne Devise
 

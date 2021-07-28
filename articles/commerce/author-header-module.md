@@ -2,7 +2,7 @@
 title: Module d’en-tête
 description: Cette rubrique couvre les modules d’en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799907"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479254"
 ---
 # <a name="header-module"></a>Module En-tête
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules d’en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ Le module d’en-tête comprend un logo de site, des liens vers la hiérarchie d
 
 L’image suivante montre un exemple de module d’en-tête sur une page d’accueil.
 
-![Exemple d’un module d’en-tête](./media/ecommerce-header.png)
+![Exemple d’un module d’en-tête.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Propriétés d’un module d’en-tête
 
@@ -58,9 +59,16 @@ Les modules suivants peuvent être utilisés dans un module d’en-tête :
 - **Sélecteur de magasin** - Le module de sélecteur de magasin peut être inclus dans l’emplacement de sélecteur de magasin d’un module d’en-tête. Il permet aux utilisateurs de parcourir et de trouver des magasins à proximité. Les utilisateurs peuvent également spécifier un magasin préféré. Ce magasin sera alors affiché dans l’en-tête. Lorsque le module de sélecteur de magasin est inclus dans le module d’en-tête, sa propriété **Mode** doit être définie sur **Rechercher des magasins**. Pour plus d’informations, voir [Module Sélecteur de magasin](store-selector.md).
 
 > [!NOTE]
-> - La prise en charge de l’utilisation du module d’icônes de panier dans les modules d’en-tête est disponible dans Dynamics 365 Commerce Version 10.0.11.
-> - La prise en charge de l’utilisation du module de sélecteur de site dans les modules d’en-tête est disponible dans Dynamics 365 Commerce Version 10.0.14.
-> - La prise en charge de l’utilisation du module de sélecteur de magasin dans les modules d’en-tête est disponible dans Dynamics 365 Commerce Version 10.0.15.
+> - La prise en charge de l’utilisation du module d’icônes de panier dans les modules d’en-tête est disponible depuis Dynamics 365 Commerce Version 10.0.11.
+> - La prise en charge de l’utilisation du module de sélecteur de sites dans les modules d’en-tête est disponible depuis Dynamics 365 Commerce Version 10.0.14.
+> - La prise en charge de l’utilisation du module de sélecteur de magasins dans les modules d’en-tête est disponible depuis Dynamics 365 Commerce Version 10.0.15.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Module d'en-tête dans le thème Adventure Works
+
+Dans le thème Adventure Works, le module d'en-tête prend en charge la propriété **Mobile Logo**. Cette propriété permet de spécifier un logo pour les fenêtres mobiles. La propriété **Mobile Logo** est disponible en tant qu'extension de définition de module.
+
+> [!IMPORTANT]
+> Le thème Adventure Works est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Créer un fragment d’en-tête pour une page
 

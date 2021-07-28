@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022834"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356828"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Lors de l’approvisionnement d’un environnement d’e-commerce dans [Microsof
 
 L’illustration suivante montre l’écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôtes pris en charge** en surbrillance. 
 
-![Écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôte pris en charge** en surbrillance](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôte pris en charge** en surbrillance.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Vous pouvez créer une demande de service pour ajouter des domaines supplémentaires à un environnement si l’approvisionnement a déjà eu lieu. Pour créer une demande de service dans LCS, dans votre environnement, accédez à **Support \> Problèmes de support** et sélectionnez **Soumettre un incident**.
 
@@ -56,7 +56,7 @@ Lorsque vous configurez un site pour la première fois dans le générateur de s
 
 L’illustration suivante montre la boîte de dialogue **Configurer votre site** pour un site nommé « par défaut » lorsque vous accédez au site pour la première fois dans le générateur de site.
 
-![Boîte de dialogue **Configurer votre site**](./media/Domains_SetupyoursiteScreen.png)
+![Boîte de dialogue **Configurer votre site**.](./media/Domains_SetupyoursiteScreen.png)
 
 La zone **Sélectionnez un domaine** vous permet d’associer l’un des noms d’hôte pris en charge fournis pour votre site dans LCS à votre site dans le constructeur de site.
 
@@ -79,11 +79,11 @@ Une fois que votre site est configuré avec un chemin, toutes les URL associées
 
 L’illustration suivante montre la boîte de dialogue **Nouvelle URL** dans le générateur de site avec un exemple de chemin d’accès d’URL mis en évidence. 
 
-![Boîte de dialogue **Nouvelle URL** dans le générateur de site](./media/Domains_PageSetup2a.png)
+![Boîte de dialogue **Nouvelle URL** dans le générateur de site.](./media/Domains_PageSetup2a.png)
 
 L’illustration suivante montre la page **URL** dans le générateur de site avec un exemple d’URL mis en évidence dans la liste.
 
-![Exécuter l’option Flux d’utilisateur dans le flux de stratégie](./media/Domains_URLsInSiteBuilder2a.png)
+![Exécuter l’option Flux d’utilisateur dans le flux de stratégie.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domaines dans le générateur de site
 

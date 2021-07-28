@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358000"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles
 
@@ -53,14 +53,14 @@ Le scénario suivant montre comment créer un en-tête de journal des arrivées 
 1. Définissez **Numéro de compte** sur *1001*.
 1. Définissez **Numéro** sur le numéro de la commande fournisseur que vous avez identifiée pour cet exercice.
 
-    ![Journal des arrivées d’articles](../media/item-arrival-journal-header.png "Journal des arrivées d’articles")
+    ![Journal des arrivées d’articles.](../media/item-arrival-journal-header.png "Journal des arrivées d’articles")
 
 1. Sélectionnez **OK** pour créer l’en-tête du journal.
 1. Dans la section **Lignes de journal**, sélectionnez **Ajouter une ligne** et entrez les données suivantes :
     - **Numéro d’article** : défini sur *M9200*. Les éléments **Site**, **Entrepôt** et **Quantité** seront définis en fonction des données de transaction d’inventaire pour les 10 palettes (1000 unités chaque).
     - **Emplacement** : défini sur *001*. Cet emplacement spécifique ne suit pas les contenants.
 
-    ![Ligne du journal des arrivées d’articles](../media/item-arrival-journal-line.png "Ligne du journal des arrivées d’articles")
+    ![Ligne du journal des arrivées d’articles.](../media/item-arrival-journal-line.png "Ligne du journal des arrivées d’articles")
 
     > [!NOTE]
     > Le champ **Date** détermine la date à laquelle la quantité disponible de cet article sera enregistrée dans le stock.  

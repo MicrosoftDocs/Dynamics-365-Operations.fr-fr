@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910087"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354010"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fournir des guides de réalité mixte aux collaborateurs de la production
 
@@ -57,7 +59,7 @@ Les sous-sections suivantes décrivent quelques scénarios sélectionnés dans l
 
 ### <a name="assembly"></a>Assembly
 
-![Utiliser les guides dans les tâches d’assemblage](media/instruction-guides-hero-assembly.png "Utiliser les guides dans les tâches de service")
+![Utiliser les guides dans les tâches d’assemblage.](media/instruction-guides-hero-assembly.png "Utiliser les guides dans les tâches de service")
 
 Les instructions relatives aux opérations d’assemblage montrent aux travailleurs les outils et les pièces dont ils ont besoin et comment les utiliser dans des situations de travail réelles.
 
@@ -65,7 +67,7 @@ Les responsables de production peuvent créer et attribuer des guides, par exemp
 
 ### <a name="service"></a>Service
 
-![Utiliser les guides dans les tâches de service](media/instruction-guides-hero-service.png "Utiliser les guides dans les tâches de service")
+![Utiliser les guides dans les tâches de service.](media/instruction-guides-hero-service.png "Utiliser les guides dans les tâches de service")
 
 Dotez les techniciens d’instructions guidées sur le chantier, éliminant ainsi le besoin de planifier des visites supplémentaires.
 
@@ -73,7 +75,7 @@ Les gestionnaires de services peuvent attribuer des guides, par exemple, à des 
 
 ### <a name="quality"></a>Qualité
 
-![Utiliser les guides dans les tâches d’assurance qualité](media/instruction-guides-hero-quality.png "Utiliser les guides dans les tâches d’assurance qualité")
+![Utiliser les guides dans les tâches d’assurance qualité.](media/instruction-guides-hero-quality.png "Utiliser les guides dans les tâches d’assurance qualité")
 
 Déployez de nouveaux processus et assurez une cohérence accrue en transformant les connaissances des employés en un outil reproductible.
 
@@ -81,13 +83,13 @@ Les gestionnaires de l’assurance qualité peuvent attribuer des guides, par ex
 
 ### <a name="certifications"></a>Certifications
 
-![Utiliser les guides pour les tâches liées à la certification](media/instruction-guides-hero-certification.png "Utiliser les guides pour les tâches liées à la certification")
+![Utiliser les guides pour les tâches liées à la certification.](media/instruction-guides-hero-certification.png "Utiliser les guides pour les tâches liées à la certification")
 
 Assurez-vous que chaque employé respecte des normes élevées en identifiant rapidement qui a besoin d’aide et où.
 
 ### <a name="safety"></a>Sécurité
 
-![Utiliser les guides dans les consignes de sécurité au travail](media/instruction-guides-hero-safety.png "Utiliser les guides dans les consignes de sécurité au travail")
+![Utiliser les guides dans les consignes de sécurité au travail.](media/instruction-guides-hero-safety.png "Utiliser les guides dans les consignes de sécurité au travail")
 
 Fournissez des instructions qui parcourent les procédures dangereuses virtuellement avant toute tentative dans l’environnement physique. Avec une approche de réalité mixte, les travailleurs peuvent expérimenter virtuellement des procédures dangereuses.
 
@@ -119,9 +121,9 @@ Pour rendre la fonction disponible sur votre système, vous devez activer ses cl
 
 Pour configurer l’affichage des guides dans l’atelier, accédez à **Réalité mixte \> Dynamics 365 Guides \> Configurer l’intégration des guides**.
 
-![Configurer l’intégration des guides pour la fabrication](media/instruction-guides-configure-integration.png "Configurer l’intégration des guides pour la fabrication")
+![Configurer l’intégration des guides pour la fabrication.](media/instruction-guides-configure-integration.png "Configurer l’intégration des guides pour la fabrication")
 
-Définisse les champs suivants :
+Définissez les champs suivants :
 
 - **URL Microsoft Dataverse** – Spécifiez l’URL de l’environnement Microsoft Dataverse dans lequel vous créez vos guides. Le format est "contoso.crm4.dynamics.com", où la première partie de l’URL porte généralement le nom de votre organisation (par exemple, "contoso"), la deuxième partie est spécifique à la région de données de votre environnement (par exemple "crm4")., et la dernière partie est le domaine (comme "dynamics.com"). Une façon de trouver la bonne URL consiste à accéder à [home.dynamics.com](https://home.dynamics.com/) puis ouvrez votre application Guides. Lorsque Guides s’ouvre, vous verrez l’URL dans la barre d’adresse de votre navigateur (ne prenez que l’URL de base, qui devrait ressembler à l’exemple précédent). Cette valeur est utilisée pour composer les adresses de vos guides et sera encodée dans les codes QR."
 - **Taille du code QR** - Définissez la taille du code QR rendu. Nous vous recommandons de choisir une taille qui remplira la majeure partie de votre écran, mais pas plus. *15* est généralement une valeur adaptée.
@@ -136,7 +138,7 @@ Définisse les champs suivants :
 
 Utilisez la page **Tous les guides** pour voir la liste de tous les guides disponibles dans votre organisation et toutes les affectations à vos processus et ressources de production. Pour l’ouvrir, accédez à **Réalité mixte \> Guides \> Tous les guides**. La liste dans la partie supérieure montre tous les guides disponibles et vous pouvez utiliser le champ ici pour filtrer la liste. La liste dans la partie inférieure montre toutes les affectations de guide et fournit une barre d’outils pour les gérer.
 
-![Gérer les guides](media/instruction-guides-allguides.png "Gérer les guides")
+![Gérer les guides.](media/instruction-guides-allguides.png "Gérer les guides")
 
 Les sections suivantes décrivent les types d’objets auxquels vous pouvez attribuer des guides. Chaque guide attribué fournit des instructions qui sont automatiquement liées aux travaux de production respectifs et qui seront disponibles dans l’atelier.
 
@@ -157,7 +159,7 @@ Pour ajouter un guide à une ressource :
 1. Développez le raccourci **Guides associés**.
 1. Sélectionnez **Ajouter** dans la barre d’outils **Guides associés**. Une nouvelle ligne est ajoutée à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer. Si vous avez un grand nombre de guides, vous pouvez filtrer la liste pour trouver celui que vous recherchez.
-    ![Gérer les guides](media/instruction-guides-allguides.png "Gérer les guides")
+    ![Gérer les guides.](media/instruction-guides-allguides.png "Gérer les guides")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Associer un guide à un groupe de ressources
 
@@ -178,7 +180,7 @@ Pour ajouter un guide à un groupe de ressources :
 1. Développez le raccourci **Guides associés**.
 1. Sélectionnez **Ajouter** dans la barre d’outils **Guides associés**. Une nouvelle ligne est ajoutée à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer. Si vous avez un grand nombre de guides, vous pouvez filtrer la liste pour trouver celui que vous recherchez.
-    ![Ajouter un guide à un groupe de ressources](media/instruction-guides-resourcegroup.png "Ajouter un guide à un groupe de ressources")
+    ![Ajouter un guide à un groupe de ressources.](media/instruction-guides-resourcegroup.png "Ajouter un guide à un groupe de ressources")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Associer un guide à un produit lancé
 
@@ -198,7 +200,7 @@ Pour ajouter un guide à un produit lancé :
 1. La page **Guides associés** s’ouvre pour votre produit sélectionné.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille. 
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à un produit lancé](media/instruction-guides-ReleasedProduct-AddGuides.png "Ajouter un guide à un produit lancé")
+    ![Ajouter un guide à un produit lancé.](media/instruction-guides-ReleasedProduct-AddGuides.png "Ajouter un guide à un produit lancé")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Associer un guide à une formule
 
@@ -223,7 +225,7 @@ Pour ajouter un guide à une formule :
 1. Développez le raccourci **Guides associés**.
 1. Sélectionnez **Ajouter** dans la barre d’outils **Guides associés**. Une nouvelle ligne est ajoutée à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à une formule](media/instruction-guides-Formula.png "Ajouter un guide à une formule")
+    ![Ajouter un guide à une formule.](media/instruction-guides-Formula.png "Ajouter un guide à une formule")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Associer un guide à une version de formule
 
@@ -248,11 +250,11 @@ Pour ajouter un guide à une version de formule :
 1. Ouvrez l’onglet **En-tête** au-dessus du raccourci supérieur.
 1. Sur le raccourci **Versions de formule**, sélectionnez la version à laquelle vous souhaitez affecter un guide.
 1. Dans la barre d’outils **Versions de formule**, sélectionnez **Guides associés**.
-    ![Ouvrez les guides associés à une version de formule sélectionnée](media/instruction-guides-FormulaVersion.png "Ouvrez les guides associés à une version de formule sélectionnée")
+    ![Ouvrez les guides associés à une version de formule sélectionnée.](media/instruction-guides-FormulaVersion.png "Ouvrez les guides associés à une version de formule sélectionnée")
 1. La page **Guides associés** s’ouvre pour votre version de formule.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille. 
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à une version de formule](media/instruction-guides-FormulaVersionAddGuide.png "Ajouter un guide à une version de formule")
+    ![Ajouter un guide à une version de formule.](media/instruction-guides-FormulaVersionAddGuide.png "Ajouter un guide à une version de formule")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Associer un guide à une nomenclature
 
@@ -275,7 +277,7 @@ Pour ajouter un guide à une nomenclature :
 1. Développez le raccourci **Guides associés**.
 1. Sélectionnez **Ajouter** dans la barre d’outils **Guides associés**. Une nouvelle ligne est ajoutée à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à une nomenclature](media/instruction-guides-BOM.png "Ajouter un guide à une nomenclature")
+    ![Ajouter un guide à une nomenclature.](media/instruction-guides-BOM.png "Ajouter un guide à une nomenclature")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Associer un guide à une version de nomenclature
 
@@ -297,11 +299,11 @@ Pour ajouter un guide à une version de nomenclature :
 1. Ouvrez l’onglet **En-tête** au-dessus du raccourci supérieur.
 1. Sur le raccourci **Versions de nomenclature**, sélectionnez la version à laquelle vous souhaitez affecter un guide.
 1. Dans la barre d’outils **Versions de nomenclature**, sélectionnez **Guides associés**.
-    ![Ouvrez les guides associés à une version de nomenclature sélectionnée](media/instruction-guides-BOMVersion.png "Ouvrez les guides associés à une version de nomenclature sélectionnée")
+    ![Ouvrez les guides associés à une version de nomenclature sélectionnée.](media/instruction-guides-BOMVersion.png "Ouvrez les guides associés à une version de nomenclature sélectionnée")
 1. La page **Guides associés** s’ouvre pour votre version de nomenclature.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à une version de nomenclature](media/instruction-guides-BOMVersionAddGuide.png "Ajouter un guide à une version de nomenclature")
+    ![Ajouter un guide à une version de nomenclature.](media/instruction-guides-BOMVersionAddGuide.png "Ajouter un guide à une version de nomenclature")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Associer un guide à une gamme
 
@@ -322,7 +324,7 @@ Pour ajouter un guide à une gamme :
 1. Développez le raccourci **Guides associés**.
 1. Sélectionnez **Ajouter** dans la barre d’outils **Guides associés**. Une nouvelle ligne est ajoutée à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à une gamme](media/instruction-guides-Route.png "Ajouter un guide à une gamme")
+    ![Ajouter un guide à une gamme.](media/instruction-guides-Route.png "Ajouter un guide à une gamme")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Associer un guide à une version de gamme
 
@@ -340,11 +342,11 @@ Pour ajouter un guide à une version de gamme :
 1. Ouvrez la gamme à laquelle vous souhaitez affecter un guide.
 1. Sur le raccourci **Versions**, sélectionnez la version à laquelle vous souhaitez affecter un guide.
 1. Dans la barre d’outils **Versions**, sélectionnez **Guides associés**.
-    ![Ouvrez les guides associés à une version de gamme sélectionnée](media/instruction-guides-RouteVersion.png "Ouvrez les guides associés à une version de gamme sélectionnée")
+    ![Ouvrez les guides associés à une version de gamme sélectionnée.](media/instruction-guides-RouteVersion.png "Ouvrez les guides associés à une version de gamme sélectionnée")
 1. La page **Guides associés** s’ouvre pour votre version de nomenclature.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
-    ![Ajouter un guide à une version de gamme](media/instruction-guides-RouteVersionAddGuide.png "Ajouter un guide à une version de gamme")
+    ![Ajouter un guide à une version de gamme.](media/instruction-guides-RouteVersionAddGuide.png "Ajouter un guide à une version de gamme")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Associer un guide à une relation d’opération de gamme
 
@@ -367,8 +369,8 @@ Pour ajouter un guide à une relation d’opération de gamme :
 1. La page **Détails de gamme** s’ouvre pour votre gamme sélectionnée.
 1. Dans la grille supérieure, sélectionnez l’opération pour laquelle vous souhaitez fournir des conseils.
 1. Dans la grille du bas, sélectionnez une relation spécifique (ou la relation générique **Tout**).
-    ![Sélectionner une opération puis une relation](media/instruction-guides-RouteOperationRelation.png "Sélectionner une opération puis une relation")
-1. Au-dessus de la grille inférieure, ouvrez l’onglet **Guides associés**.  ![L’onglet Guides associés](media/instruction-guides-RouteOperationRelation-AddGuide.png "L’onglet Guides associés")
+    ![Sélectionner une opération puis une relation.](media/instruction-guides-RouteOperationRelation.png "Sélectionner une opération puis une relation")
+1. Au-dessus de la grille inférieure, ouvrez l’onglet **Guides associés**.  ![L’onglet Guides associés.](media/instruction-guides-RouteOperationRelation-AddGuide.png "L’onglet Guides associés")
 1. Sélectionnez **Ajouter** à partir de la barre d’outils en haut de la grille inférieure pour ajouter une nouvelle ligne à la grille.
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer. Dans le reste de la ligne, cochez la case de chaque contexte dans lequel le Guide sélectionné doit être disponible.
 
@@ -379,11 +381,11 @@ Pour ajouter un guide à une relation d’opération de gamme :
 
 Lorsqu’un collaborateur ouvre une liste de travaux sur l’interface d’exécution de l’atelier, Supply Chain Management trouve les guides appropriés pour les travaux affichés. Utilisez le bouton **Guides** pour afficher les guides pertinents.
 
-![Bouton Guides dans l’interface d’exécution de l’atelier](media/instruction-guides-Shopfloor1.png "Bouton Guides dans l’interface d’exécution de l’atelier")
+![Bouton Guides dans l’interface d’exécution de l’atelier.](media/instruction-guides-Shopfloor1.png "Bouton Guides dans l’interface d’exécution de l’atelier")
 
 Ensuite, placez un HoloLens et accédez au guide respectif en jetant un coup d’œil au code QR et en activant le guide respectif.
 
-![Code QR pour accéder aux guides à l’aide d’un HoloLens](media/instruction-guides-Shopfloor2.png "Code QR pour accéder aux guides à l’aide d’un HoloLens")
+![Code QR pour accéder aux guides à l’aide d’un HoloLens.](media/instruction-guides-Shopfloor2.png "Code QR pour accéder aux guides à l’aide d’un HoloLens")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Résoudre la logique de sélection des guides
 
@@ -406,7 +408,7 @@ Lorsque Supply Chain Management génère les tâches pour l’atelier de product
 - Si vous associez une version de gamme à un ordre de fabrication, tous les guides associés à cette version, ainsi que les guides associés à la gamme parente de cette version, seront affichés sur la tâche.
 - Si vous définissez plusieurs relations d’opération de gamme qui incluent la relation *Tout* et attribuez des guides à celles-ci, seuls les guides de la relation la plus spécifique seront affichés pour le travail.  
 
-![Diagramme sur la résolution des guides pertinents](media/instruction-guides-Resolve.png "Diagramme sur la résolution des guides pertinents")
+![Diagramme sur la résolution des guides pertinents.](media/instruction-guides-Resolve.png "Diagramme sur la résolution des guides pertinents")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

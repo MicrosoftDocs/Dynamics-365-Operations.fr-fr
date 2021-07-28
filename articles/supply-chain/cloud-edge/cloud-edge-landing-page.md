@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354807"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unités d’échelle Cloud et périphérie pour les charges de travail de fabrication et de gestion d’entrepôt
 
@@ -41,7 +41,7 @@ Les fonctionnalités de charge de travail sont publiées en continu au travers d
 
 Les unités de mise à l’échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités de mise à l’échelle peuvent s’exécuter dans le cloud. Elle peuvent également fonctionner en périphérie, sur site dans les locaux de votre établissement.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités de mise à l’échelle":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités de mise à l’échelle.":::
 
 Les unités d’échelle offrent résilience, fiabilité et évolutivité pour les charges de travail affectées. Les unités d’échelle en périphérie peuvent être temporairement déconnectées de l’environnement du hub cloud, et les employés peuvent continuer à travailler sur les charges de travail affectées en périphérie.
 
@@ -157,7 +157,7 @@ Les unités d’échelle sont proposées dans le cadre de plusieurs unités de g
 
 La SKU d’entrée de gamme est connue sous le nom de *Basique*, et la SKU la plus performante est connue sous le nom de *Standard*. Chaque SKU est préchargée avec un nombre spécifique de transactions mensuelles. Cependant, vous pouvez augmenter le budget mensuel des transactions en ajoutant des compléments de dépassement pour chaque SKU.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Compléments pour les unités d’échelle cloud":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Compléments pour les unités d’échelle cloud.":::
 
 > [!TIP]
 > Pour identifier le dimensionnement qui répond le mieux à vos besoins, collaborez avec votre partenaire et Microsoft pour comprendre la taille de transaction mensuelle dont vous avez besoin.
@@ -181,11 +181,11 @@ Si le locataire que vous recherchez ne figure pas dans la liste, accédez à [LC
 
 Pour chaque locataire, la liste affiche le statut de l’intégration.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Liste des locataires sous l’onglet Locataires Dynamics 365":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Liste des locataires sous l’onglet Locataires Dynamics 365.":::
 
 Sélectionnez **Cliquer ici pour commencer** pour demander l’intégration du locataire LCS. Vous devez accepter les conditions. Vous devez également fournir une adresse e-mail professionnelle à laquelle Microsoft peut envoyer des communications liées au processus d’intégration.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Soumission d’inscription d’un locataire":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Soumission d’inscription d’un locataire.":::
 
 Microsoft examinera votre demande et vous informera des étapes suivantes en envoyant un e-mail à l’adresse que vous avez indiquée sur le formulaire d’inscription. Microsoft travaillera en étroite collaboration avec vous pour activer les unités d’échelle dans la topologie hybride pour votre scénario d’entreprise.
 
@@ -195,13 +195,13 @@ Une fois l’intégration terminée, vous pouvez utiliser le port pour configure
 
 Aller au [portail de gestionnaire d’unité d’échelle](https://aka.ms/SCMSUM) et connectez-vous à l’aide de votre compte de locataire. Sur la page **Configurer les unités d’échelle**, vous pouvez ajouter un environnement de hub s’il n’est pas déjà répertorié. Vous pouvez ensuite sélectionner le hub que vous souhaitez configurer avec des unités d’échelle et des charges de travail.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Expérience de gestion des unités d’échelle et de la charge de travail":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Expérience de gestion des unités d’échelle et de la charge de travail.":::
 
 Pour ajouter une ou plusieurs unités d’échelle disponibles dans vos abonnements, sélectionnez **Ajouter des unités d’échelle**.
 
 Sur l’onglet **Charges de travail définies**, utilisez le bouton **Créer une charge de travail** pour ajouter une charge de travail de gestion d’entrepôt à l’une de vos unités d’échelle. Pour chaque charge de travail, vous devez spécifier le contexte des processus qui appartiendront à la charge de travail. Pour les charges de travail de gestion d’entrepôt, le contexte est un entrepôt spécifique dans un site et une entité juridique spécifiques.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Création de charge de travail":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Création de charge de travail.":::
 
 > [!TIP]
 > Au fil du temps, des améliorations incrémentielles seront ajoutées à l’expérience de gestionnaire des unités d’échelle pour faciliter les opérations de gestion du cycle de vie. Les fonctionnalités spécifiques de la version actuelle sont documentées dans un manuel d’intégration mis à la disposition des clients qui sont en cours d’intégration à la topologie hybride distribuée pour Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

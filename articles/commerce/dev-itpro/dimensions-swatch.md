@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117222"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353860"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
 
@@ -39,11 +39,11 @@ La fonction d’affichage des dimensions comme échantillons permet à Commerce 
 
 L’illustration suivante montre un exemple où les couleurs apparaissent comme échantillons sur la page des détails d’un produit de Commerce.
 
-![Exemple de couleurs affichées comme échantillons sur la page des détails d’un produit](../dev-itpro/media/swatch_pdp.png)
+![Exemple de couleurs affichées comme échantillons sur la page des détails d’un produit.](../dev-itpro/media/swatch_pdp.png)
 
 L’illustration suivante montre un exemple où les couleurs apparaissent comme échantillons dans une page de liste de résultats de recherche de Commerce.
 
-![Exemple de couleurs affichées comme échantillons dans une page de liste de résultats de recherche](../dev-itpro/media/swatch_searchresults.PNG)
+![Exemple de couleurs affichées comme échantillons dans une page de liste de résultats de recherche.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Activer la fonction d’affichage des dimensions comme échantillon dans Commerce Headquarters
 
@@ -57,15 +57,15 @@ La configuration peut être effectuée dans l’un des niveaux suivants :
 
 - **Dimension** : dans Commerce Headquarters, ouvrez la page d’une dimension en recherchant **Couleur**, **Taille** ou **Style**. Dans chaque page, une grille répertorie les valeurs de dimension. Vous pouvez gérer les valeurs d’ordre d’affichage, de code hexadécimal et d’URL d’image. L’illustration suivante montre un exemple de configuration dans la page **Couleurs**.
 
-    ![Exemple de configuration de dimensions dans la page Couleurs](../dev-itpro/media/swatch_Color.PNG)
+    ![Exemple de configuration de dimensions dans la page Couleurs.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Groupe de dimensions** : dans Dynamics 365 Commerce, vous pouvez utiliser la propriété **RefinerGroup** pour créer des groupes de dimensions. Si les groupes de dimensions sont définis, ouvrez la page appropriée en recherchant **Groupe de couleurs**, **Groupe de tailles** ou **Groupe de styles**. Sur chaque page, vous pouvez gérer les valeurs de code hexadécimal, d’URL d’image et de groupe d’affinement. L’illustration suivante montre un exemple de configuration dans la page **Groupes de couleurs**.
 
-    ![Exemple de configuration de dimensions dans la page Groupes de couleurs](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Exemple de configuration de dimensions dans la page Groupes de couleurs.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Dimension du produit (lors de la création du produit)**  : lorsque vous créez un nouveau produit, vous pouvez utiliser la page **Dimensions du produit** pour saisir les valeurs de dimension. Pour les produits existants, les champs **Code hexadécimal**, **URL** (pour les images) et **RefinerGroup** sont peut-être déjà définis. Vous pouvez néanmoins modifier les valeurs au besoin. L’illustration suivante montre un exemple de configuration dans la page **Dimensions du produit**.
 
-    ![Exemple de configuration de dimensions dans la page Dimensions du produit](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Exemple de configuration de dimensions dans la page Dimensions du produit.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > Le processus de gestion des configurations de code hexadécimal et d’URL d’image suit le même modèle que celui utilisé pour gérer l’ordre d’affichage des dimensions.
@@ -76,7 +76,7 @@ Pour la plupart des dimensions de couleur, une valeur de couleur de code hexadé
 
 L’illustration suivante montre un exemple dans lequel les dimensions de couleur sont configurées à l’aide de valeurs de code hexadécimal.
 
-![Exemple de configuration de dimensions qui utilise des codes hexadécimaux](../dev-itpro/media/swatch_color_hexcode.png)
+![Exemple de configuration de dimensions qui utilise des codes hexadécimaux.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Configurer les valeurs de dimension à l’aide d’URL d’image
 
@@ -86,13 +86,13 @@ Vous devez charger chaque image dans le générateur de sites de Commerce et la 
 
 L’illustration suivante montre un exemple dans lequel les URL d’image sont utilisées pour la configuration de la page **Couleurs**.
 
-![Exemple de configuration de dimensions qui utilise les URL d’image](../dev-itpro/media/swatch_color_urls.PNG)
+![Exemple de configuration de dimensions qui utilise les URL d’image.](../dev-itpro/media/swatch_color_urls.PNG)
 
 Vous pouvez utiliser un modèle multimédia pour définir les URL d’image, tout comme vous le pouvez pour les images de produit et de catégorie. Lorsque vous chargez des images dans le générateur de sites, les conventions de nom de fichier et les chemins d’accès de fichier doivent être cohérents.
 
 L’illustration suivante montre un exemple dans lequel les URL d’image sont utilisées pour la configuration d’un modèle multimédia.
 
-![Exemple de configuration d’un modèle multimédia](../dev-itpro/media/swatch_media_template.PNG)
+![Exemple de configuration d’un modèle multimédia.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Configurer les valeurs de dimension en utilisant à la fois des codes hexadécimaux et des URL d’image
 
@@ -100,7 +100,7 @@ Pour la plupart des dimensions de couleur, vous pouvez configurer à la fois des
 
 L’illustration suivante montre un exemple dans lequel les codes hexadécimaux et les URL d’image sont utilisés pour la configuration de la page **Couleurs**.
 
-![Exemple de configuration de dimensions qui utilise à la fois des codes hexadécimaux et des URL d’image](../dev-itpro/media/swatch_color_hexandimage.png)
+![Exemple de configuration de dimensions qui utilise à la fois des codes hexadécimaux et des URL d’image.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>Configurer les groupes d’affinement
 
@@ -110,7 +110,7 @@ Par exemple, si vos valeurs de dimension de couleur sont « bleu », « plaid
 
 L’exemple de l’illustration suivante montre la relation entre les propriétés **Couleur** et **RefinerGroup** dans Commerce Headquarters.
 
-![Exemple de gestion des groupes d’affinement](../dev-itpro/media/swatch_refiner_group.png)
+![Exemple de gestion des groupes d’affinement.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Gérer les images dans le générateur de sites de Commerce
 
@@ -118,7 +118,7 @@ Si les URL d’image sont utilisées pour des valeurs de dimension, les images c
 
 L'illustration suivante montre un exemple dans lequel la boîte de dialogue **Charger les fichiers** est utilisée pour charger des images dans la bibliothèque multimédia du générateur de sites. Elle met en surbrillance les catégories **Taille**, **Couleur** et **Style** disponibles pour sélection.
 
-![Exemple de catégories de fichier image lors du chargement dans la bibiothèque multimédia du générateur de sites](../dev-itpro/media/swatch_sitebuilder.png)
+![Exemple de catégories de fichier image lors du chargement dans la bibiothèque multimédia du générateur de sites.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Activer l’affichage d’échantillons dans les pages du site d’e-commerce
 

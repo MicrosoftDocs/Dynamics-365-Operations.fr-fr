@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052262"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353660"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Générer des rapports ACA dans Gestion des avantages
 
@@ -48,15 +48,15 @@ Les groupes de couverture de soins abordables vous aident à gérer ces informat
 
 1. Dans l’espace de travail **Gestion des avantages**, sélectionnez **Groupe de couverture de soins abordables**.
 
-    ![Sélection d’un groupe de couverture de soins abordables](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Sélection d’un groupe de couverture de soins abordables.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Sélectionnez **Nouveau** pour créer un nouveau groupe de couverture de soins abordables ou **Modifier** pour modifier un groupe existant.
 
-    ![Sélectionner Nouveau ou Modifier](./media/hr-benefits-management-aca-new.png)
+    ![Sélectionner Nouveau ou Modifier.](./media/hr-benefits-management-aca-new.png)
 
 3. Définisse les champs suivants.
 
-    | Champ | Description |
+    | Champ | Description  |
     |---|---|
     | Nom | Entrez un nom pour le groupe. |
     | Description | Permet d’entrer une description du groupe. |
@@ -67,7 +67,7 @@ Les groupes de couverture de soins abordables vous aident à gérer ces informat
     | Groupe valable à partir de | La première date à laquelle cet enregistrement est valide. |
     | Groupe valable jusqu’en | La dernière date à laquelle cet enregistrement est valide. S’il n’y a pas de date d’expiration, saisissez **Jamais**. |
 
-    ![Création d’un groupe de couverture](./media/hr-benefits-management-aca-new-group.png)
+    ![Création d’un groupe de couverture.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Sélectionnez **Enregistrer**.
 
@@ -77,11 +77,11 @@ Les groupes de couverture de soins abordables vous aident à gérer ces informat
 2. Sélectionnez le groupe auquel affecter les employés.
 3. Sélectionnez **Affectation en masse**.
 
-    ![Sélection d’Affectation en masse](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Sélection d’Affectation en masse.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Sélectionnez les employés dans la liste, puis sélectionnez **Attribuer**.
 
-    ![Affectation des employés sélectionnés à un groupe](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Affectation des employés sélectionnés à un groupe.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Tenir à jour plusieurs versions des options de couverture
 
@@ -111,12 +111,12 @@ Pour saisir des exceptions pour les valeurs d’un groupe de couverture de soins
 2. Sélectionnez l’employé dans la liste.
 3. Sur l’onglet **Emploi**, dans la section **Plus d’information**, sélectionnez **Couverture de soins abordables**.
 
-    ![Changer les options pour un employé](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Changer les options pour un employé.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Sélectionnez **Modifier**.
 5. Pour chaque mois nécessitant des modifications, activez la case à cocher **Remplacer par défaut**, puis modifiez les autres valeurs selon vos besoins.
 
-    ![Remplacer les valeurs par défaut](./media/hr-benefits-management-aca-override-default.png)
+    ![Remplacer les valeurs par défaut.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -131,7 +131,7 @@ Pour indiquer si un régime de prestations sociales doit être déclaré, procé
 3. Sélectionnez **Modifier**.
 4. Définissez l’option **Déclaré en vertu de la Loi sur les soins abordables** sur **Oui**.
 
-    ![Génération d’états sur la couverture des soins de santé](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Génération d’états sur la couverture des soins de santé.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Sélectionnez **Enregistrer**.
 
@@ -147,23 +147,23 @@ Vous pouvez générer les formulaires ACA 1095-B et 1095-C et les distribuer à 
     > [!NOTE]
     > Si vous imprimez des formulaires 1095-C pour plus de 500 employés, vous recevrez plusieurs fichiers PDF. Nous vous recommandons d’augmenter la valeur du champ **Taille maximale du fichier en mégaoctets** sur la page **Paramètres de gestion des documents** sur **150**. (Pour ouvrir rapidement cette page, vous pouvez utiliser le champ de recherche de la barre de navigation.)
     >
-    > ![Modification de la taille maximale du fichier](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Modification de la taille maximale du fichier.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Pour vérifier l’état de vos rapports et les afficher, utilisez le champ de recherche de la barre de navigation pour ouvrir la page **Tâches de gestion des états électroniques**.
 
-    ![Recherche de la page Tâches de gestion des états électroniques](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Recherche de la page Tâches de gestion des états électroniques.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Sélectionnez le rapport à afficher, puis sélectionnez **Afficher les fichiers**.
 
-    ![Affichage des fichiers](./media/hr-benefits-management-aca-show-files.png)
+    ![Affichage des fichiers.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Cliquez sur **Ouvrir**.
 
-    ![Ouverture d’un fichier](./media/hr-benefits-management-aca-open-file.png)
+    ![Ouverture d’un fichier.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Dans la barre de notification qui apparaît au bas de la fenêtre du navigateur, ouvrez le fichier zip, puis sélectionnez le rapport. Vous pouvez afficher ou imprimer le fichier PDF.
 
-    ![Exemple de formulaire 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Exemple de formulaire 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Afficher les informations de couverture ACA
 
@@ -178,7 +178,7 @@ Pour afficher ces informations, procédez comme suit :
 1. Dans l’espace de travail **Gestion des avantages**, sélectionnez **Couverture du collaborateur en matière de soins abordables**.
 2. Sélectionnez un groupe dans le champ **Nom de groupe**.
 
-    ![Affichage de la couverture ACA](./media/hr-benefits-management-aca-view-coverage.png)
+    ![Affichage de la couverture ACA.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Si l’une des valeurs par défaut du groupe de couverture lié aux soins abordables est remplacée, un astérisque apparaît en regard de la valeur modifiée. Si les valeurs des 12 mois sont identiques et ne sont pas remplacées, la valeur apparaît dans la colonne **Tous les 12 mois**.
 
@@ -198,11 +198,11 @@ Pour exporter l’une des listes vers Microsoft Excel, procédez comme suit :
 
 Si vous devez déclarer des personnes prises en charge par une couverte personnelle employeur, vous pouvez également consulter qui sont couvertes par les régimes d’avantages sociaux avec la mention **Déclarer dans le cadre de la loi sur les soins abordables**. Sélectionnez **Afficher la couverture des personnes à charge** dans le volet Actions.
 
-![Affichage de la couverture des personnes à charge](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Affichage de la couverture des personnes à charge.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Les informations de couverture pour les personnes à charge de l’employé sont affichées.
 
-![Couverture des personnes à charge](./media/hr-benefits-management-aca-dependents.png)
+![Couverture des personnes à charge.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > La page affiche uniquement les régimes d’avantages qui sont marqués comme **ACA déclarables**.

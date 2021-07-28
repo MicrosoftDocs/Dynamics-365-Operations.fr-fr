@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842223"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352760"
 ---
 # <a name="procurement"></a>Approvisionnement
 
@@ -36,7 +36,7 @@ La page de liste **Demande d’achat de l’ordre de travail** (**Gestion des ac
 
 L’illustration suivante présente un exemple de la liste de page **Demande d’achat de l’ordre de travail**.
 
-![Figure 1](media/08-work-orders.png)
+![Figure 1.](media/08-work-orders.png)
 
 
 La page de liste **Achats de l’ordre de travail** (**Gestion des actifs** > **Commun** > **Approvisionnement** > **Achats de l’ordre de travail**) affiche une liste des commandes fournisseur associées aux ordres de travail. Lorsque vous sélectionnez une tâche d’ordre de travail dans cette page, vous pouvez utiliser les boutons du groupe **Afficher** sous l’onglet du volet d’action **Achats d’ordres de travail** pour exécuter différentes actions :
@@ -47,7 +47,7 @@ La page de liste **Achats de l’ordre de travail** (**Gestion des actifs** > **
 
 L’illustration suivante présente un exemple de la liste de page **Achats de l’ordre de travail**.
 
-![Figure 2](media/09-work-orders.png)
+![Figure 2.](media/09-work-orders.png)
 
 
 Sur la page de liste **Achats de l’ordre de travail** et la page de liste **Demande d’achat de l’ordre de travail**, un symbole lié au contrôle de la date de livraison s’affiche à droite de chaque ligne. Si le symbole est un point d’exclamation dans un cercle rouge, la livraison de la commande fournisseur ou de la demande d’achat associée peut être retardée.
@@ -93,7 +93,7 @@ Pour afficher ou entrer le numéro d’activité associé à une ligne de comman
 
 L’illustration suivante présente un exemple de la page **Commande fournisseur**, avec un focus sur le **Numéro d’activité**.
 
-![Figure 3](media/10-work-orders.png)
+![Figure 3.](media/10-work-orders.png)
 
 De même, pour afficher ou entrer le numéro d’activité associé à une ligne de demande d’achat d’ordre de travail, sur la page de liste **Demande d’achat d’ordre de travail**, sélectionnez l’enregistrement de la demande d’achat, puis, dans la colonne **Demande d’achat**, sélectionnez le lien vers la demande d’achat. Vous pouvez trouver le champ **Numéro d’activité** sur l’onglet **Projet** de l’organisateur **Détails de ligne**.
 

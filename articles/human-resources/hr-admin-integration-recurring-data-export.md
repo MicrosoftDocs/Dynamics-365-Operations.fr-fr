@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361221"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Créer une application d’exportation de données récurrentes
 
@@ -63,13 +63,13 @@ Avant de commencer l’exercice de ce didacticiel, vous devez disposer des élé
 
 L’application logique terminée ressemblera à l’illustration suivante.
 
-![Présentation de l’application logique](media/integration-logic-app-overview.png)
+![Présentation de l’application logique.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>Étape 1 : créer un projet d’exportation de données dans Human Resources
 
 Dans Human Resources, créezun projet d’exportation de données qui exporte des collaborateurs. Nommez le projet **Exportation de collaborateurs** et assurez-vous que l’option **Générer le package de données** est définie sur **Oui**. Ajoutez une seule entité (**Collaborateur**) au projet et sélectionnez le format dans lequel exporter. (Le format Microsoft Excel est utilisé dans ce didacticiel.)
 
-![Projet de données Exportation de collaborateurs](media/integration-logic-app-export-workers-project.png)
+![Projet de données Exportation de collaborateurs.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Notez le nom du projet d’exportation de données. Vous en aurez besoin lorsque vous créerez l’application logique à l’étape suivante.
@@ -80,12 +80,12 @@ La majeure partie de l’exercice consiste à créer l’application logique.
 
 1. Dans le portail Azure, créez une application logique.
 
-    ![Page de création d’application logique](media/integration-logic-app-creation-1.png)
+    ![Page de création d’application logique.](media/integration-logic-app-creation-1.png)
 
 2. Dans Logic Apps Designer, commencez par une application logique vide.
 3. Ajoutez un [Déclencheur de calendrier de récurrence ](/azure/connectors/connectors-native-recurrence)pour exécuter l’application logique toutes les 24 heures (ou selon un horaire de votre choix).
 
-    ![Boîte de dialogue de récurrence](media/integration-logic-app-recurrence-step.png)
+    ![Boîte de dialogue de récurrence.](media/integration-logic-app-recurrence-step.png)
 
 4. Appelez l’API REST DMF [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage)pour planifier l’exportation de votre package de données.
 
@@ -97,7 +97,7 @@ La majeure partie de l’exercice consiste à créer l’application logique.
         > [!NOTE]
         > Le service Human Resources ne fournit pas encore de connecteur qui expose toutes les API qui composent l’API REST du package DMF, telles que **ExportToPackage**. Au lieu de cela, vous devez appeler les API en utilisant des requêtes HTTPS brutes via le connecteur HTTP with Azure AD. Ce connecteur utilise Azure Active Directory (Azure AD) pour l’authentification et l’autorisation des ressources humaines.
 
-        ![Connecteur HTTP with Azure AD](media/integration-logic-app-http-aad-connector-step.png)
+        ![Connecteur HTTP with Azure AD.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Connectez-vous à votre environnement Human Resources via le connecteur HTTP with Azure AD.
     3. Configurez une requête HTTP **POST** pour appeler l’API REST DMF **ExportToPackage**.
@@ -116,21 +116,21 @@ La majeure partie de l’exercice consiste à créer l’application logique.
             }
             ```
 
-        ![Appeler une action de requête HTTP](media/integration-logic-app-export-to-package-step.png)
+        ![Appeler une action de requête HTTP.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Vous voudrez peut-être renommer chaque étape afin qu’elle soit plus significative que le nom par défaut, **Appeler une requête HTTP**. Par exemple, vous pouvez renommer cette étape **ExporterVersPackage**.
 
 5. [Initialisez une variable](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)pour stocker l’état d’exécution de la requête **ExporterVersPackage**.
 
-    ![Initialiser l’action variable](media/integration-logic-app-initialize-variable-step.png)
+    ![Initialiser l’action variable.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Attendez que l’état d’exécution de l’exportation de données soit **Réussi**.
 
     1. Ajoutez une action [Jusqu’à la boucle](/azure/logic-apps/logic-apps-control-flow-loops#until-loop)qui se répète jusqu’à ce que la valeur de la variable **ExecutionStatus** soit **Réussi**.
     2. Ajoutez une action **Retard** qui attend cinq secondes avant d’interroger l’état d’exécution actuel de l’exportation.
 
-        ![Conteneur jusqu’à la boucle](media/integration-logic-app-until-loop-step.png)
+        ![Conteneur jusqu’à la boucle.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Définissez le nombre limite sur **15** pour attendre un maximum de 75 secondes (15 itérations × 5 secondes) que l’exportation soit terminée. Si votre exportation prend plus de temps, ajustez la limite comme il convient.        
@@ -146,9 +146,9 @@ La majeure partie de l’exercice consiste à créer l’application logique.
             > [!NOTE]
             > Vous devrez peut-être saisir la valeur **Corps de la demande** soit en mode code, soit dans l’éditeur de fonctions du concepteur.
 
-        ![Appeler une action de requête HTTP 2](media/integration-logic-app-get-execution-status-step.png)
+        ![Appeler une action de requête HTTP 2.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Définir l’action variable](media/integration-logic-app-set-variable-step.png)
+        ![Définir l’action variable.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > La valeur pour l’action **Définir la variable** (**body(’Invoke\_an\_HTTP\_request\_2’)?[’value’]**) différera de la valeur du corps **Appeler une requête HTTP 2**, même si le concepteur affichera les valeurs de la même manière.
@@ -161,7 +161,7 @@ La majeure partie de l’exercice consiste à créer l’application logique.
         - **URL de la demande :** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Corps de la demande :** {"executionId": body(’GetExportedPackageURL’)?[’value’]}
 
-        ![Action GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
+        ![Action GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Téléchargez le package exporté.
 
@@ -173,7 +173,7 @@ La majeure partie de l’exercice consiste à créer l’application logique.
             > [!NOTE]
             > Vous devrez peut-être saisir la valeur **URI** soit en mode code, soit dans l’éditeur de fonctions du concepteur.
 
-        ![Action HTTP GET](media/integration-logic-app-download-file-step.png)
+        ![Action HTTP GET.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Cette requête ne nécessite aucune authentification supplémentaire, car l’URL retournée par l’API **GetExportedPackageUrl** inclut un jeton de signatures d’accès partagé qui autorise l’accès au téléchargement du fichier.
@@ -187,7 +187,7 @@ La majeure partie de l’exercice consiste à créer l’application logique.
         - **Nom de fichier :** worker\_package.zip
         - **Contenu du fichier :** le corps de l’étape précédente (contenu dynamique)
 
-        ![Créer une action de fichier](media/integration-logic-app-create-file-step.png)
+        ![Créer une action de fichier.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>Étape 3 : tester l’application logique
 
@@ -197,9 +197,9 @@ Si un échec est signalé pour une étape, sélectionnez l’étape ayant échou
 
 L’illustration suivante montre à quoi ressemble Logic Apps Designer lorsque toutes les étapes de l’application logique s’exécutent correctement.
 
-![Exécution de l’application logique réussie](media/integration-logic-app-successful-run.png)
+![Exécution de l’application logique réussie.](media/integration-logic-app-successful-run.png)
 
-## <a name="summary"></a>Synthèse
+## <a name="summary"></a>Résumé
 
 Dans ce didacticiel, vous avez appris à utiliser une application logique pour exporter des données à partir de Human Resources et enregistrer les données exportées vers un dossier OneDrive for Business. Vous pouvez modifier les étapes de ce didacticiel selon vos besoins pour répondre aux besoins de votre entreprise.
 

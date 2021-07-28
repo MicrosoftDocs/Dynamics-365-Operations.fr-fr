@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022420"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352082"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Mettre en service un environnement d’évaluation Dynamics 365 Commerce
 
@@ -90,16 +90,16 @@ Pour déployer l’environnement, procédez comme suit.
 1. Dans le champ **Version de l’application**, sélectionnez la version la plus récente. Si vous devez absolument sélectionner une version d’application autre que la version la plus récente, ne sélectionnez pas de version antérieure à la version **10.0.14**.
 1. Dans le champ **Version de la plateforme**, utilisez la version de la plateforme automatiquement choisie pour la version de l’application sélectionnée. 
 
-    ![Sélection des versions de l’application et de la plateforme](./media/project1.png)
+    ![Sélection des versions de l’application et de la plateforme.](./media/project1.png)
 
 1. Sélectionnez **Suivant**.
 1. Sélectionner **Démonstration** comme topologie de l’environnement.
 
-    ![Sélection de la topologie de l’environment 1](./media/project2.png)
+    ![Sélection de la topologie de l’environment 1.](./media/project2.png)
 
 1. Sur la page **Déployer l’environnement**, entrez un nom d’environnement. Laissez les paramètres avancés inchangés.
 
-    ![Page Déployer l’environnement](./media/project4.png)
+    ![Page Déployer l’environnement.](./media/project4.png)
 
 1. Ajustez la taille de la machine virtuelle selon vos besoins. (Nous recommandons l’unité de gestion de stock de machine virtuelle \[SKU\] **D13 v2**.)
 1. Passez en revue les conditions de prix et de licence, puis cochez la case pour indiquer que vous les acceptez.

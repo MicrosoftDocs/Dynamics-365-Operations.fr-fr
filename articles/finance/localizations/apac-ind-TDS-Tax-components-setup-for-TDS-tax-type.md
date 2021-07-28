@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023233"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358168"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Configurer des composants de taxe pour le type de taxe TDS
 
@@ -33,7 +33,7 @@ Procédez comme suit pour configurer des composants TDS.
 
 1. Accédez à **Taxe \> Configuration \> Retenue à la source \> Composants de retenue à la source**.
 
-    [![Page Composants de retenue à la source](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Page Composants de retenue à la source.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. Dans le champ **Type de taxe**, sélectionnez **TDS** pour configurer des composants pour le type de taxe TDS.
 3. Dans le volet Actions, sélectionnez **Nouveau** pour créer une ligne.
@@ -50,7 +50,7 @@ Procédez comme suit pour configurer des composants TDS.
 
     Par exemple, si le montant du seuil d'exception est de 5 000 TDS est calculé sur une ligne de facture spécifique si le montant de la ligne de facture dépasse 5 000 (en d'autres termes, s'il est de 5 001 ou plus).
 
-    [![Page Seuil](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Page Seuil.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Le montant du seuil d'exception doit être inférieur ou égal au montant du seuil.
@@ -66,6 +66,6 @@ Procédez comme suit pour configurer des composants TDS.
 
 14. Sélectionnez **OK** pour copier et créer des composants TDS pour l'autre groupe de composants TDS sur la page **Composants de retenue à la source**.
 
-    [![Boîte de dialogue Copier les composants de la retenue à la source](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Boîte de dialogue Copier les composants de la retenue à la source.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Fermez la page.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027913"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353728"
 ---
 # <a name="listjoin-er-function"></a>Fonction LISTJOIN ER
 
@@ -66,15 +66,15 @@ Vous entrez ensuite une source de données **Enregistrement 2** du type `Contai
 - **Montant** : Ce champ contient une expression qui renvoie une valeur de type `Real`.
 - **IsValid** : Ce champ contient une expression qui renvoie une valeur de type `Boolean`.
 
-![Page du concepteur de mise en correspondance des modèles ER](./media/er-functions-list-listjoin-image1.gif)
+![Page du concepteur de mise en correspondance des modèles ER.](./media/er-functions-list-listjoin-image1.gif)
 
 Dans ce cas, l’expression `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` renvoie une nouvelle liste qui contient deux enregistrements.
 
-![Page de concepteur de mappage de modèle ER avec deux enregistrements](./media/er-functions-list-listjoin-image2.gif)
+![Page de concepteur de mappage de modèle ER avec deux enregistrements.](./media/er-functions-list-listjoin-image2.gif)
 
 La structure de cette liste se compose d’un seul champ **Montant** de type `Real`, car ce champ est le seul champ présenté dans chaque argument de la fonction appelée.
 
-![Champ Montant de la page du concepteur de mise en correspondance des modèles ER](./media/er-functions-list-listjoin-image3.gif)
+![Champ Montant de la page du concepteur de mise en correspondance des modèles ER.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

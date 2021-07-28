@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72004
+ms.custom:
+- "72004"
+- intro-internal
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e00c980183708c5b9e995fb2a26d45baf13ca14
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd029ae873ee604beb841568ce7f15b2e1575060
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348779"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d’ensemble de la prévision de la demande
 
@@ -61,7 +63,7 @@ Trois sujets principaux sont implémentés dans une prévision de la demande :
 
 Le diagramme suivant illustre le flux de base dans une prévision de la demande.
 
-[![diagramme d’introduction de la prévision de la demande](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
+[![diagramme d’introduction de la prévision de la demande.](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
 La génération de la prévision de la demande commence dans Supply Chain Management. Les données transactionnelles historiques de la base de données transactionnelle de Supply Chain Management sont collectées et remplissent une table intermédiaire. Cette table intermédiaire est ultérieurement fournie à un service Machine Learning. En effectuant une personnalisation minimale, vous pouvez raccorder diverses sources de données à la table intermédiaire. Les sources de données peuvent inclure des fichiers Microsoft Excel, les fichiers CSV et les données Microsoft Dynamics AX 2009 et Microsoft Dynamics AX 2012. Par conséquent, vous pouvez générer des prévisions de la demande qui considèrent un historique des données réparti entre plusieurs systèmes. Toutefois, les données principales, telles que les noms d’article et les unités de mesure, doivent être identiques entre les différentes sources de données.
 

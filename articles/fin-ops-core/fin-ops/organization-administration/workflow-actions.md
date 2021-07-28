@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df08bdffb2bda67269eec9f1572bd76af9ae1e11
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747175"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355746"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Actions dans les processus d’approbation d’un workflow
 
@@ -29,7 +29,7 @@ Cet article décrit les mesures que peut prendre chaque participant au processus
 
 Un workflow peut impliquer plusieurs groupes de personnes : l’expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d’état de dépenses suivant, Sam est l’expéditeur, les membres de la file d’attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.
 
-[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Les sections suivantes expliquent les actions de workflow que chaque groupe peut effectuer.
 

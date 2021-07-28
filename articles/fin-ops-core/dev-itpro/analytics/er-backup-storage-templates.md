@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351840"
 ---
 # <a name="backup-storage-of-er-templates"></a>Stockage de sauvegarde des modèles de gestion des états électroniques
 
@@ -65,19 +65,19 @@ Pour configurer le paramètre **Exécuter automatiquement la procédure de resta
 > [!NOTE]
 > Ce paramètre est défini comme spécifique à la société connectée et à l’utilisateur de l’application.
 
-![Page Configurations d’ER](./media/GER-BackupTemplates-1.png)
+![Page Configurations ER.](./media/GER-BackupTemplates-1.png)
 
 L’illustration suivante présente un exemple du message qui s’affiche lorsque le paramètre **Exécuter automatiquement la procédure de restauration des modèles endommagés dans le traitement par lots** est défini sur **Activé**.
 
-![Page du journal des paiements fournisseur](./media/GER-BackupTemplates-2.png)
+![Page du journal des paiements fournisseur.](./media/GER-BackupTemplates-2.png)
 
 L’illustration ci-dessous indique le processus de traitement par lots **Restaurer les modèles endommagés depuis la sauvegarde de la base de données interne** sur la page **Processus de traitement par lots**.
 
-![Page Traitement par lots](./media/GER-BackupTemplates-3.png)
+![Page Traitement par lots.](./media/GER-BackupTemplates-3.png)
 
 Le journal d’exécution du processus de traitement par lots terminé **Restaurer les modèles endommagés depuis la sauvegarde de la base de données interne** contient des informations sur les modèles qui ont été restaurés depuis l’emplacement de stockage de sauvegarde vers l’emplacement de stockage principal.
 
-![Page Historique du traitement par lots](./media/GER-BackupTemplates-4.png)
+![Page Historique du traitement par lots.](./media/GER-BackupTemplates-4.png)
 
 Par défaut, le processus de création automatique des copies de sauvegarde des modèles qui résident dans les configurations du format de gestion des états électroniques est activé. Pour arrêter de réaliser des copies de sauvegarde des modèles, définissez l’option **Arrêter de créer des copies de sauvegarde des modèles** sur **Activé** sous l’onglet **Pièces jointes** de la page **Paramètres des états électroniques**. Vous pouvez ouvrir cette page depuis l’espace de travail **Gestion des états électroniques**.
 
@@ -85,7 +85,7 @@ Si vous définissez l’option **Arrêter de créer des copies de sauvegarde des
 
 Si vous avez mis votre environnement à niveau avec Finance and Operations version 10.0.5 (Octobre 2019) et si vous souhaitez migrer vers un nouvel environnement comprenant des configurations de format de gestion des états électroniques pouvant être exécutées, sélectionnez **Compléter le stockage de sauvegarde** sur la page **Paramètres des états électroniques avant la migration**. Ce bouton lance le processus de création de copies de sauvegarde de tous les modèles disponibles afin qu’ils puissent être stockés dans l’emplacement de stockage de sauvegarde de gestion des états électroniques pour les modèles.
 
-![Page Paramètres de la gestion des états électroniques](./media/GER-BackupTemplates-5.png)
+![Page Paramètres de la gestion des états électroniques.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Récupération manuelle
 

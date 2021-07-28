@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356414"
 ---
 # <a name="product-configuration-model-calculations"></a>Calculs du modèle de configuration de produit
 
@@ -70,7 +70,7 @@ Cet exemple utilise l’attribut texte `textFixedList` comme attribut cible. Cet
 
 La capture d’écran suivante montre à quoi peuvent ressembler les paramètres de cet attribut dans votre système.
 
-![Paramètres de type d’attribut pour l’exemple 2](media/model-calculations-example2.png "Paramètres de type d’attribut pour l’exemple 2")
+![Paramètres de type d’attribut pour l’exemple 2.](media/model-calculations-example2.png "Paramètres de type d’attribut pour l’exemple 2")
 
 L’attribut est utilisé dans l’instruction conditionnelle suivante :
 
@@ -92,7 +92,7 @@ Cet exemple utilise l’attribut cible `textFixedList` de l’exemple précéden
 
 La capture d’écran suivante montre à quoi peuvent ressembler les paramètres de cet attribut dans votre système.
 
-![Paramètres de type d’attribut pour l’exemple 3](media/model-calculations-example3.png "Paramètres de type d’attribut pour l’exemple 3")
+![Paramètres de type d’attribut pour l’exemple 3.](media/model-calculations-example3.png "Paramètres de type d’attribut pour l’exemple 3")
 
 La valeur de l’attribut `textFixedList` est calculée à l’aide de l’instruction conditionnelle suivante :
 

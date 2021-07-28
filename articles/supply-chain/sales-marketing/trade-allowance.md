@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102804"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359531"
 ---
 # <a name="trade-allowance-management"></a>Gestion des reprises
 
@@ -59,7 +59,7 @@ Un accord de reprise est un programme d’incitation dans lequel des récompense
 
 Les fonds alloués aux accords de reprise sont enregistrés sur la page **Fonds**. Pour ouvrir la page **Fonds**, sélectionnez **Ventes et marketing** \> **Reprises** \> **Fonds** \> **Fonds**.
 
-![Page Fonds](./media/trade-allowance-management-funds-page.png "Page Fonds")
+![Page Fonds.](./media/trade-allowance-management-funds-page.png "Page Fonds")
 
 Dans la page **Fonds**, vous pouvez afficher les détails des fonds de promotion.
 
@@ -75,7 +75,7 @@ Une fois que la définition du fonds est en place, l’étape suivante de la pla
 
 Les accords de reprise sont enregistrés sur la page **Accords de reprise**. Pour ouvrir la page **Accords de reprise**, sélectionnez **Ventes et marketing** \> **Reprises** \> **Accords de reprise**.
 
-![Page Accords de reprise](./media/trade-allowance-management-agreements-page.png "Page Accords de reprise")
+![Page Accords de reprise.](./media/trade-allowance-management-agreements-page.png "Page Accords de reprise")
 
 #### <a name="header"></a>En-tête
 
@@ -103,7 +103,7 @@ L’onglet **Événements de promotion des ventes** indique les types d’évén
 
 Lorsque vous sélectionnez l’événement de promotion des ventes, puis sélectionnez l’onglet **Montants**, les détails de l’événement s’affichent.
 
-![Lignes de l’accord de reprise](./media/trade-allowance-management-agreements-lines.png "Lignes de l’accord de reprise")
+![Lignes de l’accord de reprise.](./media/trade-allowance-management-agreements-lines.png "Lignes de l’accord de reprise")
 
 Dans la section **Lignes de reprise**, spécifiez les plages de quantité ou de montant que le client doit atteindre pour les définitions pour obtenir les récompenses.
 

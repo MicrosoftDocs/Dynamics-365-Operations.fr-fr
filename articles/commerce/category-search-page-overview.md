@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794347"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351271"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Vue d’ensemble de la page d’arrivée de catégories et de la page des résultats de la recherche par défaut
 
@@ -31,7 +31,7 @@ Cette rubrique fournit une vue d’ensemble de la page d’arrivée de catégori
 
 La page par défaut d’atterrissage de catégorie est la page vers laquelle les utilisateurs du site web sont généralement dirigés lorsqu’ils sélectionnent une catégorie dans la hiérarchie de navigation. La page de catégorie vous permet de parcourir, et vous pouvez également trier et affiner les produits commandés par catégorie.
 
-![Page d’arrivée de catégorie par défaut](./media/SimpleCategoryLandingDressCategory.png)
+![Page d’arrivée de catégorie par défaut.](./media/SimpleCategoryLandingDressCategory.png)
 
 En haut de la page se trouve un en-tête qui affiche toutes les catégories de produits et d’autres pages que le responsable de la promotion des ventes a classés par catégorie. La configuration est effectuée dans le cadre de la configuration de la hiérarchie de navigation du canal. Au bas de la page se trouve un pied de page qui inclut des liens rapides vers diverses rubriques qui peuvent intéresser un client.
 
@@ -55,7 +55,7 @@ Les composants suivants sont essentiels pour une catégorie :
 
 Si vous souhaitez une page d’arrivée de catégorie pour avoir une expérience plus personnalisée pour une catégorie spécifique, vous pouvez « enrichir » la page d’arrivée de catégorie pour cette catégorie. Par exemple, vous pouvez ajouter une vidéo de marketing et de la narration de catégorie pour obtenir l’attention du client. Pour plus d’informations, voir [Enrichir une page d’arrivée de catégorie](enrich-category-page.md).
 
-![Page d’arrivée de catégorie enrichie](./media/CategoryLandingPages.png)
+![Page d’arrivée de catégorie enrichie.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Suggestion automatique et pages de résultats de la recherche
 
@@ -69,11 +69,11 @@ Voici certains types de suggestions qui peuvent être affichés :
 - Les **Produits** fournissent des liens directs vers la page de détails des produits.
 - Les **Suggestions de recherche de catégorie étendue** répertorie différentes catégories et permettent aux utilisateurs de rechercher le mot clé dans une catégorie spécifique.
 
-![Suggestion automatique immersive](./media/ImmersiveAutoSuggestUX.png)
+![Suggestion automatique immersive.](./media/ImmersiveAutoSuggestUX.png)
 
 Lorsque les utilisateurs sélectionnent l’un des mot clé ou des suggestions de recherche de catégorie étendue, ou lorsqu’il n’y a aucune suggestion de terme de recherche qu’ils saisissent, ils sont redirigés à une page de résultats de la recherche. Les utilisateurs peuvent alors parcourir, trier et affiner la liste des résultats de la recherche pour rechercher l’article souhaité.
 
-![Rechercher la page de destination](./media/SearchLanding.png)
+![Rechercher la page de destination.](./media/SearchLanding.png)
 
 Les composants suivants sont essentiels pour une page de résultats de recherche :
 
@@ -94,7 +94,7 @@ Les composants suivants sont essentiels pour une page de résultats de recherche
 
 >[!NOTE]
 >Ces fonctionnalités de recherche dans le cloud sont disponibles à partir de la version 10.0.8. Assurez-vous que sous **Paramètres Commerce > Paramètres de configuration**, il existe une entrée pour « ProductSearch.UseAzureSearch » définie sur « true ». 
-![Paramètres de configuration pour la recherche dans le cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Paramètres de configuration pour la recherche dans le cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749984"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350158"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER
 
@@ -31,20 +31,20 @@ L’outil de génération d’états électroniques (ER) permet aux utilisateurs
 
 Pour faciliter l’utilisation des concepteurs de mise en correspondance ER, la fonction de [chemin d’accès relatif](er-formula-language.md#relative-path) a été introduite. Par défaut, l’option de représentation du chemin d’accès relatif est activée pour toute nouvelle instance de l’application où l’expérience de conception ER est activée (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Nous avons implémenté le paramètre de chemin relatif afin que les utilisateurs puissent continuer à utiliser le chemin d’accès complet avec cette présentation des liaisons ER.
 
-[![Paramètres utilisateur](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Paramètres utilisateur.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Lorsque le paramètre de chemin d’accès relatif est activé, un seul caractère @ remplace le chemin d’accès vers l’élément parent dans la liaison de l’élément du modèle actuel. Le chemin d’accès complet de la liaison devient plus court, ce rend toute la mise en correspondance plus lisible et facile à comprendre. Dans la plupart des cas, aucun défilement supplémentaire n’est requis dans le concepteur ER pour afficher toutes les liaisons du modèle de données.
 
-[![Concepteur de mise en correspondance de modèle](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Concepteur de mise en correspondance de modèle.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Lorsque vous commencez à créer une nouvelle expression ER, vous devez entrer un seul caractère pour définir une liaison vers un champ de l’élément parent.
 
-[![Concepteur de formule](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Concepteur de formule.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Lorsque vous décidez de modifier la source de données de l’élément de modèle parent, avec le chemin d’accès absolu, vous devez manuellement re-lier cet élément de modèle, ainsi que tous les éléments imbriqués, avec une nouvelle source de données. Lorsque l’utilisation du chemin d’accès relatif est activée, si vous sélectionnez une nouvelle source de données à lier à un élément parent, vous bénéficiez d’une option pour re-lier automatiquement en un seul clic tous les éléments imbriqués de cet élément parent.
 
-[![Remplacer le message de chemin existant](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Remplacer le message de chemin existant.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Si vous confirmez la nouvelle liaison des éléments imbriqués, le nouvel élément parent sera placé dans le chemin de chaque élément imbriqué contenant l’élément parent existant.
 Cette fonction n’empêche pas la compatibilité ascendante de la structure ER. Toutes les configurations ER précédemment conçues fonctionneront avec cette nouvelle fonction, et aucune mise à niveau ou conversion n’est requise.

@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 76c2f07ac5c25eea576cbb69256e76fbef4d86ca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754110"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350883"
 ---
 # <a name="dual-write-overview"></a>Vue d’ensemble de la double écriture
 
@@ -37,7 +37,7 @@ La double écriture est une infrastructure prête à l’emploi qui fournit une 
 
 La double écriture offre une intégration bidirectionnelle étroitement couplée entre les applications Finance and Operations et Dataverse. Toute modification de données dans les applications Finance and Operations provoque des écritures dans Dataverse et toute modification de données dans Dataverse provoque des écritures dans les applications Finance and Operations. Ce flux de données automatisé offre une expérience utilisateur intégrée dans les différentes applications.
 
-![Relation de données entre les applications](media/dual-write-overview.jpg)
+![Relation de données entre les applications.](media/dual-write-overview.jpg)
 
 La double écriture a deux aspects : un aspect *infrastructure* et un aspect *application*.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350400"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Configurer un environnement de développement d’e-commerce pour déboguer sur une machine virtuelle Retail Server Niveau 1
 
@@ -38,11 +38,11 @@ Lorsque vous déboguez dans un environnement de niveau 1, étant donné que le 
 
 L’illustration suivante montre un exemple d’erreur qui peut se produire lorsqu’une variante est sélectionnée sur une page de détails de produit.
 
-![Erreur lorsqu’une variante est sélectionnée sur une page de détails du produit](media/unhandled-rejection-error.jpg)
+![Erreur lorsqu’une variante est sélectionnée sur une page de détails du produit.](media/unhandled-rejection-error.jpg)
 
 L’illustration suivante montre un exemple d’erreur similaire dans les outils de débogage d’un navigateur (outils de développement F12). Le message d’erreur mentionne la violation de la directive de stratégie de sécurité du contenu.
 
-![Erreur des outils de débogage](media/debugger-tools-error.JPG)
+![Erreur des outils de débogage.](media/debugger-tools-error.JPG)
 
 ## <a name="resolution"></a>Résolution
 

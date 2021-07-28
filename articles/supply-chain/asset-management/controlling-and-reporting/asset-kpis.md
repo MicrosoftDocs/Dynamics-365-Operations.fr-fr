@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90759931fcbdb1e5acbd62f8a40e5b37b918f31a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b2122cb123e041d2194fa1ef5fd8024ec4c1a2a0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813867"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361088"
 ---
 # <a name="asset-kpis"></a>Indicateurs de performance clé de l’actif
 
@@ -82,7 +82,7 @@ Le tableau ci-dessous présente une description des champs de la page **Indicate
 
 L’illustration suivante présente une capture d’écran d’un calcul de KPI pour quatre actifs.
 
-![Capture d’écran d’un calcul d’indicateur de performance clé pour quatre actifs](media/11-controlling-and-reporting.png)
+![Capture d’écran d’un calcul d’indicateur de performance clé pour quatre actifs.](media/11-controlling-and-reporting.png)
 
 - Vous pouvez choisir plusieurs actifs dans **Tous les actifs** et cliquer sur le bouton **Indicateurs de performance clés de l’actif** sur l’onglet **Général**. Ensuite, cliquez sur **Ajouter** dans la boîte de dialogue **Calculer les indicateurs de performance clé de l’actif** pour calculer des indicateurs de performance clé pour les actifs sélectionnés.  
 - Les résultats d’un calcul de KPI peuvent inclure ou pas des [enregistrements de temps d’arrêt de maintenance](../work-orders/maintenance-downtime.md), selon le paramétrage et l’utilisation des codes motif de temps d’arrêt pour maintenance. 
