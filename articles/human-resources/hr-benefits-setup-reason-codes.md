@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056346"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360542"
 ---
 # <a name="set-up-reason-codes"></a>Paramétrer des codes motif
 
@@ -56,15 +56,15 @@ Vous verrez une bannière sur la page **Liens** de l’espace de travail **Gesti
 
 1. Sélectionnez **Codes motif** pour plus de détails sur l’état de la migration.
 
-   [![Codes motif](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Codes motif.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Sélectionnez un code motif dont la migration a échoué.
 
-   [![Statut de migration du code motif](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Statut de migration du code motif.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. Sélectionnez **Migrer le code motif**.
 
-   [![Migrer le code motif](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Migrer le code motif.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. Dans le volet **Bénéficier de la migration du code motif**, vous avez deux options pour mapper à un code motif de gestion du personnel :
 
@@ -73,10 +73,10 @@ Vous verrez une bannière sur la page **Liens** de l’espace de travail **Gesti
      > Vous ne pouvez utiliser un code motif existant dans Gestion du personnel que si un autre code motif de Gestion des avantages n’y a pas déjà été migré.
    - Pour créer un nouveau code motif dans la gestion du personnel, saisissez-en un nouveau dans **Nouveau code motif**, puis entrez une description dans **Nouvelle description**.
 
-   [![Mettre en correspondance vers un code motif de Gestion du personnel](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Mettre en correspondance vers un code motif de Gestion du personnel.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 Une fois les codes motif migrés vers Gestion du personnel, l’option permettant de les utiliser dans Gestion des avantages est automatiquement définie sur **Oui**.
 
-[![Utiliser le code motif dans Gestion des avantages](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Utiliser le code motif dans Gestion des avantages.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

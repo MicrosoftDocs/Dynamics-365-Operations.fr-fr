@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fad5756a028b7a5d61918da6eb75d95f1aee6398
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bed54119b8b13ba0a63cf4560a32ac9d95daf5fe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811197"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359692"
 ---
 # <a name="set-up-general-budget-reservations-and-submit-them-to-a-workflow"></a>Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 
@@ -29,7 +29,7 @@ Lorsqu’une réservation budgétaire générale est paramétrée pour utiliser 
 
 L’illustration suivante indique comment paramétrer un workflow pour des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cette rubrique.
 
-![Paramétrage d’un workflow de réservation budgétaire générale](media/gbr-workflow-process.jpg "Paramétrage d’un workflow de réservation budgétaire générale")
+![Paramétrage d’un workflow de réservation budgétaire générale.](media/gbr-workflow-process.jpg "Paramétrage d’un workflow de réservation budgétaire générale")
 
 ## <a name="optional-set-up-reviewers-for-general-budget-reservations"></a>Facultatif : paramétrage de réviseurs pour les réservations budgétaires générales
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053007"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353684"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Définir et gérer un programme d’avantages
 
@@ -32,7 +32,7 @@ Human Resources propose un ensemble d’outils pouvant servir à paramétrer et 
 
 Avant que les collaborateurs puissent être inscrits à des avantages, vous devez créer les éléments de chaque avantage. Ces éléments combinent des plans d’avantages similaires et définissent les paramètres par défaut, tels que les taux de déduction et les détails comptables. Plusieurs de ces paramètres peuvent être ajustés lors de l’inscription ultérieure des collaborateurs à l’avantage. Pour chaque plan d’avantages, une organisation peut proposer plusieurs options d’inscription. Un collaborateur peut également renoncer à son inscription au plan. 
 
-[![Avantage du flux de processus](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Avantage du flux de processus.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Détails des avantages
 
@@ -44,9 +44,9 @@ Avant de commencer à créer des avantages et à y inscrire des collaborateurs, 
 
 Pour chaque type d’avantage, tel que les soins ophtalmologiques ou dentaires, une organisation peut offrir un ou plusieurs régimes à ses collaborateurs. Pour chaque régime, l’organisation peut proposer différentes options. Par exemple, les collaborateurs peuvent acheter une couverture d’assurance vie supplémentaire équivalent à une, deux ou trois fois leur salaire annuel. Chaque combinaison d’un régime et d’options forme un avantage auquel les collaborateurs peuvent s’inscrire. 
 
-[![illustration d’avantage](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![illustration d’avantage.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
-## <a name="eligibility"></a>Admissibilité
+## <a name="eligibility"></a>Éligibilité
 Plusieurs facteurs déterminent le droit des collaborateurs aux différents types d’avantages qu’un employeur offre. Lorsque vous créez un avantage dans Dynamics 365 Human Resources, vous pouvez définir le type de droit qui s’applique à cet avantage. 
 
 Vous pouvez rendre un avantage accessible à tous les collaborateurs. Par exemple, certaines entreprises offrent des cartes de parking à tous les employés comme avantage en nature. Lorsque vous créez cet avantage, vous définissez le droit sur **Tous les collaborateurs sont éligibles**. 

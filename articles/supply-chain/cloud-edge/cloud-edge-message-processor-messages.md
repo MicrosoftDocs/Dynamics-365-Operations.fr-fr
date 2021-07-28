@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271099"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350568"
 ---
 # <a name="message-processor-messages"></a>Messages du processeur de messages
 
@@ -88,15 +88,15 @@ Dans cet exemple, utilisez **Quand un événement commercial se produit** avec *
 
 1. Dans [Power Automate](https://preview.flow.microsoft.com), créez un nouveau flux cloud automatisé pour le déclencheur de flux **Quand un événement commercial se produit – Application Fin & Ops (Dynamics 365)** suivi des étapes **Analyser JSON** et **Envoi d’un message e-mail**, comme indiqué dans l’illustration suivante.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flux cloud automatisé Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flux cloud automatisé Power Automate.":::
 
 1. Dans l’étape **Quand un événement commercial se produit**, vous pouvez rechercher ou entrer l’**Instance** de hub après la **Catégorie** et puis l’**Événement commercial** *Message du processeur de messages traité*, comme indiqué dans l’illustration suivante.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate – Étape : Quand un événement commercial se produit":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate – Étape : Quand un événement commercial se produit.":::
 
 1. Pour l’étape **Analyser JSON**, entrez un **Schéma** qui définit les champs étendus. Vous pouvez utiliser l’option *Télécharger le schéma* sur la page **Catalogue des événements commerciaux** dans Supply Chain Management ou commencer par coller le texte du schéma donné en exemple. Cet exemple de texte est fourni après l’illustration suivante.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate- Étape : Analyser JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate- Étape : Analyser JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Dans cet exemple, utilisez **Quand un événement commercial se produit** avec *
 
 1. Dans l’étape **Envoyer un e-mail**, vous pouvez sélectionner les champs individuels ou commencer par coller l’exemple du corps de l’e-mail dans le champ **Corps**. Cet exemple est fourni après l’illustration suivante.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate – Étape : Envoi d’un message e-mail":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate – Étape : Envoi d’un message e-mail.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

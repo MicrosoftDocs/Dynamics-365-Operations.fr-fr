@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840411"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360422"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurer les stratégies de consolidation de l’expédition
 
@@ -179,7 +179,7 @@ Suivez ces étapes pour créer la stratégie de consolidation des expéditions p
 1. Laissez l’option **Consolider avec des expéditions en cours** définie sur *Non*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Dans le raccourci **Champs de consolidation**, dans la liste **Champs restants**, sélectionnez la ligne où **Nom de domaine** est défini sur *Mode de livraison*.
-1. Sélectionnez le bouton **Ajouter** ![Flèche droite](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
+1. Sélectionnez le bouton **Ajouter** ![Flèche droite.](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
 1. Dans la boîte de dialogue de l’éditeur de requête, sur l’onglet **Plage**, dans la grille, recherchez la ligne où le champ **Champ** est défini sur *Compte client* et définissez le champ **Critères** pour cette ligne sur *US-001*.
 1. Sélectionnez **Ajouter** pour ajouter une ligne ayant les paramètres suivants sur la grille :
@@ -214,7 +214,7 @@ Suivez ces étapes pour créer la stratégie de consolidation des expéditions p
 1. Définissez l’option **Consolider avec des expéditions en cours** définie sur *Oui*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Dans le raccourci **Champs de consolidation**, dans la liste **Champs restants**, sélectionnez la ligne où **Nom de domaine** est défini sur *Mode de livraison*.
-1. Sélectionnez le bouton **Ajouter** ![Flèche droite](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
+1. Sélectionnez le bouton **Ajouter** ![Flèche droite.](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
 1. Dans la boîte de dialogue de l’éditeur de requête, sur l’onglet **Jointures**, développez et sélectionnez **Tables \> Détails du chargement** dans l’arborescence.
 1. Sélectionnez **Ajouter une jointure de table**.
@@ -251,9 +251,9 @@ Suivez ces étapes pour créer la stratégie de consolidation des expéditions p
 1. Définissez l’option **Consolider avec des expéditions en cours** définie sur *Oui*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Dans le raccourci **Champs de consolidation**, dans la liste **Champs restants**, sélectionnez la ligne où **Nom de domaine** est défini sur *Demande client*.
-1. Sélectionnez le bouton **Ajouter** ![Flèche droite](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
+1. Sélectionnez le bouton **Ajouter** ![Flèche droite.](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
 1. Dans la liste **Champs restants**, sélectionnez la ligne où le champ **Nom de champ** est défini sur *Mode de livraison*.
-1. Sélectionnez le bouton **Ajouter** ![Flèche droite](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
+1. Sélectionnez le bouton **Ajouter** ![Flèche droite.](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
 1. Dans la boîte de dialogue de l’éditeur de requête, sur l’onglet **Plage**, recherchez la ligne où le champ **Champ** est défini sur *Compte client* et définissez le champ **Critères** pour cette ligne sur *US-001*.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue.
@@ -283,7 +283,7 @@ Suivez ces étapes pour créer la stratégie de consolidation des expéditions p
 1. Laissez l’option **Consolider avec des expéditions en cours** définie sur *Non*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Dans le raccourci **Champs de consolidation**, dans la liste **Champs restants**, sélectionnez la ligne où **Nom de domaine** est défini sur *Mode de livraison*.
-1. Sélectionnez le bouton **Ajouter** ![Flèche droite](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
+1. Sélectionnez le bouton **Ajouter** ![Flèche droite.](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
 1. Dans la boîte de dialogue de l’éditeur de requête, sur l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne ayant les paramètres suivants sur la grille :
 
@@ -317,7 +317,7 @@ En règle générale, cette analyse de rentabilisation peut être traitée à l�
 1. Laissez l’option **Consolider avec des expéditions en cours** définie sur *Non*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Dans le raccourci **Champs de consolidation**, dans le champ **Champs restants**, sélectionnez la ligne où **Nom de domaine** est défini sur *Mode de livraison*.
-1. Sélectionnez le bouton **Ajouter** ![Flèche droite](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
+1. Sélectionnez le bouton **Ajouter** ![Flèche droite.](media/forward-button.png) pour déplacer le champ vers la liste **Champs sélectionnés**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
 1. Dans la boîte de dialogue de l’éditeur de requête, sur l’onglet **Plage**, recherchez la ligne où le champ **Champ** est défini sur *Entrepôt* et définissez le champ **Critères** pour cette ligne sur *61, 63*.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053681"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360147"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -71,11 +71,11 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
 4. Dans le volet des tâches **Copier une instance**, sélectionnez l’instance à remplacer, puis sélectionnez **Copier**. Attendez que la valeur du champ **Statut de la copie** affiche **Terminé**.
 
-   ![[Sélectionner l’instance à remplacer](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Sélectionner l’instance à remplacer.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
 
-   ![[Sélectionner Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Sélectionner Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
 

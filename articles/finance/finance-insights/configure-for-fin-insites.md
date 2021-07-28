@@ -1,6 +1,6 @@
 ---
-title: Configuration pour Informations financières - versions jusqu’à 10.0.19
-description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières pour les versions allant jusqu’à 10.0.19.
+title: Configuration pour Finance Insights - avant la version 10.0.19
+description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Finance Insights pour les versions précédant la version 10.0.19.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357436"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Configuration de Informations financières (version préliminaire)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>Configuration de Finance Insights pour la version préliminaire privée (version préliminaire) - avant la version 10.0.19
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186418"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Les procédures suivantes de configuration de Informations financières sont valables pour les versions de Microsoft Dynamics 365 Finance jusqu’à 10.0.19. Pour configurer Informations financières sur la version 10.0.20 et les versions ultérieures, voir [Configuration de Informations financières (version préliminaire) - versions 10.0.20 et ultérieures](configure-for-fin-insites-PubPrvw.md).
+> Les procédures suivantes de configuration de Finance Insights sont valables pour les versions de Microsoft Dynamics 365 Finance avant la version 10.0.19. Pour configurer Informations financières sur la version 10.0.20 et les versions ultérieures, voir [Configuration de Informations financières (version préliminaire) - versions 10.0.20 et ultérieures](configure-for-fin-insites-PubPrvw.md).
 
 Informations financières combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Microsoft Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières.
 
@@ -59,7 +59,7 @@ Utilisez les étapes suivantes pour configurer Dataverse pour Informations finan
 
     1. Ouvrez la page **Environnements**.
 
-        [![Page Environnements](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![Page Environnements.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. Sélectionnez l’environnement Dataverse créé ci-dessus, puis sélectionnez **Paramètres**.
     3. Sélectionnez **Ressources \> Tous les anciens paramètres**.
@@ -792,6 +792,8 @@ Le complément sera installé dans quelques minutes.
     | URL de l’organisation CDS                                     | URL de l’organisation Dataverse copiée. |
     | ID org. CDS                                               | ID de l’organisation Dataverse copié. |
 5. Activez **S’agit-il de l’environnement CDS par défaut pour le locataire ?**.
+
+L'installation du complément peut prendre plusieurs minutes.
     
 ## <a name="configure-the-entity-store"></a>Configurer le magasin des entités
 

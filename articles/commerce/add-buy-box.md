@@ -2,7 +2,7 @@
 title: Module Zone d’achat
 description: Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dce3c8adcd2926e60d001bddb5c278fac6860268
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 307c9876aa0fed77778fcf81903f9c52e3f5be67
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796220"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479230"
 ---
 # <a name="buy-box-module"></a>Module Zone d’achat
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -35,7 +36,7 @@ L’URL d’une page de détails de produit inclut l’ID produit. Toutes les in
 
 L’image suivante montre un exemple de module de zone d’achat dans une page de détails d’un produit.
 
-![Exemple d’un module de zone d’achat](./media/ecommerce-pdp-buybox.PNG)
+![Exemple d’un module de zone d’achat.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Propriétés et emplacements des modules de zone d’achat 
 
@@ -67,16 +68,18 @@ Les paramètres de module de zone d’achat suivants peuvent être configurés s
 
 - **Limite de quantité de lignes du panier** – Cette propriété est utilisée pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
 - **Stock** – Pour plus d’informations sur l’application des paramètres de stock, voir [Appliquer les paramètres de stock](inventory-settings.md).
-- **Ajouter le produit au panier** – Cette propriété est utilisée pour spécifier le comportement après l’ajout d’un article au panier. Les valeurs possibles sont **Page Accéder au panier**, **Page Ne pas accéder au panier** et **Afficher la notification**. Lorsque la valeur est définie sur **Page Accéder au panier**, les utilisateurs sont envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Page Ne pas accéder au panier**, les utilisateurs ne sont pas envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Afficher la notification**, les utilisateurs reçoivent une notification de confirmation et peuvent continuer à naviguer sur la page des détails du produit. 
+- **Ajouter le produit au panier** – Pour savoir comment postuler **Ajouter le produit au panier** paramètres, voir [Paramètres Ajouter un produit aux paramètres](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Extensions de définition de module de zone d'achat dans le thème Adventure Works
+
+Le module de zone d'achat fourni par le thème Adventure Works possède une extension de définition de module qui prend en charge l'implémentation d'un module de spécifications de produit dans un module d'accordéon dans une zone d'achat PDP. Pour présenter les attributs de spécification de produit dans une zone d'achat PDP, ajoutez un module de spécification de produit à l'emplacement du module d'accordéon à l'emplacement de la zone d'achat.
+
 
 > [!IMPORTANT]
-> Les paramètres de site **Ajouter un article au panier** sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Le thème Adventure Works est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.
 
-L’image suivante montre un exemple de notification de confirmation « ajouté au panier » sur le site Fabrikam.
 
-![Exemple de module de notification](./media/ecommerce-addtocart-notifications.PNG)
-
-## <a name="commerce-scale-unit-interaction"></a>Interaction avec l’unité d’échelle commerciale
+## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
 
 Le module de zone d’achat extrait les informations sur le produit à l’aide des API (Application Programming Interfaces) de Commerce Scale Unit. L’ID produit de la page de détails de produit est utilisée pour récupérer toutes les informations.
 
@@ -122,15 +125,17 @@ Pour ajouter un module de zone d’achat à une nouvelle page et définir les pr
 
 [Module de confirmation de commande](order-confirmation-module.md)
 
-[Module En-tête](author-header-module.md)
+[Module d’en-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
 
 [Module Partage social](social-share-module.md)
 
+[Paramètres Ajouter un produit dans le panier](add-cart-settings.md)
+
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
 
-[Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)
+[Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](e-commerce-extensibility/sdk-updates.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

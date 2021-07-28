@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744121"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360293"
 ---
 # <a name="accessibility-features"></a>Fonctions d’accessibilité
 
@@ -52,13 +52,13 @@ Chaque action disponible sur une page est accessible à partir d’un clavier, v
 
 Vous souhaitez exécuter l’action **Journal de notification par e-mail** qui s’affiche dans le groupe **Notification par e-mail** de l’onglet **Commande client** du volet Actions.
 
-![Action Journal de notification par e-mail du volet Actions](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action « Journal de notification par e-mail » du volet Actions")
+![Action Journal de notification par e-mail du volet Actions.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action « Journal de notification par e-mail » du volet Actions")
 
 Une option consiste à utiliser le clavier. Appuyez sur Ctrl+F6 pour activer le volet Actions, puis appuyez sur Tab à plusieurs reprises pour parcourir les onglets et actions, jusqu’à ce que l’action **Journal de notification par e-mail** soit active.
 
 Toutefois, vous pouvez également exécuter l’action plus directement. À partir de n’importe quel emplacement sur la page, appuyez sur Ctrl+Apostrophe (’) pour afficher la zone de recherche d’actions.
 
-![Zone de recherche d’actions](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Recherche pour les actions")
+![Zone de recherche d’actions.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Recherche pour les actions")
 
 Dans la zone de recherche, tapez des mots qui décrivent l’action. L’action devient accessible, et vous pouvez l’exécuter directement. Par exemple, en tapant **e-mail**, **notific** (mot partiel) ou **journal**, vous pouvez « accéder » à la fonctionnalité Journal de notification par e-mail.
 

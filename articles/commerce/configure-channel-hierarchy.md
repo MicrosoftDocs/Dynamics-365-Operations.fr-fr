@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796122"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352588"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurer un canal pour une utiliser une hiérarchie de navigation du canal
 
@@ -45,9 +45,9 @@ Pour configurer un canal afin d’utiliser une hiérarchie de navigation de cana
 
 L’image suivante montre comment configurer un canal afin d’utiliser une hiérarchie de navigation de canal.
 
-![Exemple de configuration de canal](media/configure-channel-hierarchy-1.png)
+![Exemple de configuration de canal.](media/configure-channel-hierarchy-1.png)
 
-## <a name="set-attribute-metadata"></a>Paramétrer les métadonnées d’attribut
+## <a name="set-attribute-metadata"></a>Paramétrer les métadonnées d'attribut
 
 La définition des métadonnées d’attribut permettra la configuration des attributs sur chaque nœud.
 
@@ -61,9 +61,9 @@ Procédez comme suit pour configurer les métadonnées d’attributs.
 
 L’image suivante montre un exemple d’ensemble d’attributs de produit de canal configuré sur un nœud de catégorie de canal.
 
-![Attributs de canal sur un nœud de catégorie de canal](media/configure-channel-hierarchy-2.png)
+![Attributs de canal sur un nœud de catégorie de canal.](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Publier des modifications
+## <a name="publish-changes"></a>Publier les modifications
 
 Pour que les modifications prennent effet, vous devrez publier les modifications.
 
@@ -74,11 +74,11 @@ Pour publier des modifications, procédez comme suit.
 
 L’image suivante montre comment publier les mises à jour du canal.
 
-![Publier les mises à jour du canal](media/configure-channel-hierarchy-3.png)
+![Publier les mises à jour du canal.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Créer une hiérarchie de navigation du canal](create-channel-hierarchy.md)
+[Créer une hiérarchie de navigation dans un canal](create-channel-hierarchy.md)
 
 
 

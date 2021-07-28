@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: f15deae8a2b457548606616dd540f71a505f727a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303462"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357093"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Régulariser les plans de congé et d’absence
 
@@ -123,7 +123,7 @@ Pour afficher les détails de la transaction pour un montant de provision spéci
 - Les détails sur la période de provision et les taux
 - Les modifications apportées aux configurations du plan de congés
 
-![Afficher l’audit des transactions de provision de congés](media/hr-leave-and-absence-accrue-audit.png)
+![Afficher l’audit des transactions de provision de congés.](media/hr-leave-and-absence-accrue-audit.png)
 
 ## <a name="see-also"></a>Voir également :
 

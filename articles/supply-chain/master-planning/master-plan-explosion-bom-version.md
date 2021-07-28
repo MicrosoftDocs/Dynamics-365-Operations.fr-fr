@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c4f1306faa2c0ae02fee48449839db4ff0907ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187408"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348390"
 ---
 # <a name="explosion-of-a-bom-version"></a>Éclatement d’une version de nomenclature
 
@@ -34,7 +34,7 @@ Un éclatement de la demande d’une version de nomenclature crée une demande p
 -   La dimension de site est obligatoire et doit être entrée dans la transaction de demande.
 -   La dimension de site est cohérente. Le site pour la demande de niveau inférieur est donc identique au site de la transaction de demande initiale.
 
-L’illustration suivante présente le processus d’éclatement de la demande de planification. ![Éclatement de la demande à l’aide d’une version de nomenclature](./media/multisitedemandexplosionscenariousingbomversion.gif)
+L’illustration suivante présente le processus d’éclatement de la demande de planification. ![Éclatement de la demande à l’aide d’une version de nomenclature.](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

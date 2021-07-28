@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a3b48667bb266fec082c48e777fd71d8e5ef6dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907641"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357021"
 ---
 # <a name="intercompany-planning"></a>Planification intersociétés
 
@@ -76,7 +76,7 @@ Pour cet exemple, un ordre de fabrication planifié est créé dans la société
 
 L’illustration suivante montre comment cet exemple peut apparaître sur la page **Origine des besoins à plusieurs niveaux** pour l’ordre de fabrication planifié.
 
-![Exemple intersociétés impliquant deux entreprises](media/IntercompanyPlanning1.png)
+![Exemple intersociétés impliquant deux entreprises.](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Exemple intersociétés impliquant trois entreprises
 
@@ -84,7 +84,7 @@ Pour cet exemple, une commande fournisseur prévisionnelle est créé dans la so
 
 L’illustration suivante montre comment cet exemple peut apparaître sur la page **Origine des besoins à plusieurs niveaux** pour l’ordre de fabrication planifié.
 
-![Exemple intersociétés impliquant trois entreprises](media/IntercompanyPlanning2.png)
+![Exemple intersociétés impliquant trois entreprises.](media/IntercompanyPlanning2.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

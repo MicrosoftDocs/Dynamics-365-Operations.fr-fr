@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796146"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352612"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurer les modes de livraison et les frais du centre d’appels
 
@@ -65,11 +65,11 @@ Dans la section **Lignes**, vous pouvez définir un ou plusieurs frais par devis
 
 Les sociétés configurent souvent des frais progressifs. Dans ce cas, le montant que les clients paient pour la livraison est basé sur la valeur de la commande. Pour configurer les frais progressifs, entrez des valeurs dans les champs **Montant de départ** et **Montant d’arrivée** et définissez les frais proprement dit dans le champ **Valeur des frais**. Par exemple, pour les commandes qui ont une valeur inférieure à $50, un détaillant facture $5,95 pour l’expédition par voie terrestre. Pour les commandes qui ont une valeur supérieure ou égale à $50, mais inférieure à $100, le détaillant facture $7,95. Enfin, pour les commandes qui ont une valeur supérieure ou égale à $100, le détaillant ne facture aucun frais d’expédition. L’illustration suivante présente la configuration de ces frais.
 
-![Exemple de frais progressifs fixes](media/fixedtieredcharges.png)
+![Exemple de frais progressifs fixes.](media/fixedtieredcharges.png)
 
 Vous pouvez utiliser une combinaison de catégories pour les frais, selon les besoins de votre entreprise. Par exemple, pour toutes les commandes qui ont une valeur inférieure à $100, des frais fixes de $9,95 sont facturés pour l’expédition. Ensuite, pour les commandes dont la valeur est supérieure ou égale à $100, les frais de livraison sont calculés au taux de 5 % de la valeur de la commande. L’illustration suivante présente la configuration de ces frais.
 
-![Exemple de frais progressifs mixtes](media/mixedtieredcharges.png)
+![Exemple de frais progressifs mixtes.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Appliquer les modes de livraison lors de la saisie d’une commande dans un centre d’appels
 

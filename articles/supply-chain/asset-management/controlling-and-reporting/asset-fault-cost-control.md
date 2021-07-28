@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bbf2d6b8e22981db76ca028073f8170cbe7f40b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811180"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361064"
 ---
 # <a name="asset-fault-cost-control"></a>Contrôle des coûts de problème de l’actif
 
@@ -56,7 +56,7 @@ Cet exemple affiche un calcul du contrôle des coûts de défaillance d’un act
 - Le champ **Coût réel** indique les coûts validés sur les ordres de travail. 
 - Le champ **Coût engagé** indique les coûts totaux dans lesquels votre société s’engage en termes d’ordres de travail.
 
-    ![Figure 1](media/05-controlling-and-reporting.png)
+    ![Figure 1.](media/05-controlling-and-reporting.png)
 
 Pour obtenir des informations sur la configuration de défaillances, consultez la rubrique [Gestion des défaillances](../setup-for-work-orders/fault-management.md).
 

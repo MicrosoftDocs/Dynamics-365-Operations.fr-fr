@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747149"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348551"
 ---
 # <a name="workflow-elements"></a>Éléments du workflow
 
@@ -60,7 +60,7 @@ Un *processus d’approbation* est un processus qui consiste en différentes ét
 
 Vous pouvez créer un workflow pour traiter des documents ou les lignes d’un document. Par exemple, vous avez créé un workflow d’approbation pour des feuilles de temps. (Nous appellerons ce workflow le *workflow de document*.) Il est possible d’y ajouter un élément de *workflow pour ligne*. Lorsque l’élément de ligne est exécuté, chaque ligne du document est soumise pour traitement. Vous pouvez décider de faire traiter toutes les lignes par le même workflow pour ligne ou chaque ligne par un workflow pour ligne différent. Imaginons qu’un employé ait soumis une feuille de temps semblable à celle de la figure suivante.
 
-![Workflow avec lignes](./media/workflow_lineitemworkflow.gif)
+![Workflow avec lignes.](./media/workflow_lineitemworkflow.gif)
 
 Dans ce cas, il pourrait s’avérer utile de créer les workflows pour ligne suivants :
 

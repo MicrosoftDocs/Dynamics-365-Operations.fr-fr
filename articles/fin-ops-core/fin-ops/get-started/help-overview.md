@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923444"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373365"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -35,7 +37,7 @@ Les utilisateurs des applications suivantes peuvent accéder à l’aide context
 
 Dans toutes ces applications, vous pouvez accéder au volet **Aide** depuis tous les produits que vous utilisez.
 
-![Volet Aide](./media/help-pane-ops-help.png)
+![Volet Aide.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Aide sur docs.microsoft.com
 
@@ -46,12 +48,23 @@ Le site docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) est
 
 Vous pouvez trouver du contenu sur docs.microsoft.com en utilisant n’importe quel moteur de recherche. Pour optimiser les résultats, il est recommandé d’effectuer une recherche de site, par exemple le **« terme de recherche » site:docs.microsoft.com dynamics 365**.
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Être informé des changements via un flux RSS
+<!--## Get notified about changes through an RSS feed
 
-Pour vous abonner à un flux RSS (Really Simple Syndication) de toutes les mises à jour concernant le contenu de docs.microsoft.com, utilisez le lien suivant :
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[Flux RSS](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>Laissez-nous des commentaires
 
 Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un commentaire au bas de la page.
@@ -60,7 +73,7 @@ Si vous avez des commentaires ou des questions sur une rubrique, laissez-nous un
 
 2. Commencez à taper vos commentaires, puis cliquez sur **Envoyer les commentaires**.
 
-    ![Valider le commentaire](./media/feedback.png)
+    ![Valider le commentaire.](./media/feedback.png)
 
 > [!NOTE]
 > Si vous souhaitez envoyer des commentaires sur la documentation, vous devez vous connecter en utilisant un compte GitHub. Pour plus d’informations, voir [Configuration et gestion de votre profil GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -84,11 +97,11 @@ Un guide de tâche est une expérience contrôlée, guidée, interactive qui vou
 
 Microsoft a publié des bibliothèques de guides de tâches pour les versions de produits jusqu’à la version de décembre 2017 de Dynamics 365 for Finance and Operations. La section [Accès aux guides de tâche à partir du volet Aide](#accessing-task-guides-from-the-help-pane) de cette rubrique décrit comment trouver les guides de tâche appropriés à votre produit.
 
-![Vue de lecture du Guide de tâche](./media/task-guide-ops.png)
+![Vue de lecture du Guide de tâche.](./media/task-guide-ops.png)
 
 Pour démarrer l’expérience guidée et interactive, cliquez sur **Démarrer le guide de tâche** au bas du volet **Aide**. Un pointeur noir vous indique où aller en premier. Suivez les instructions qui s’affichent dans l’IU et entrez les données telles qu’elles sont indiquées.
 
-![Instruction d’étape du Guide de tâche](./media/task-guide-step-1-ops.png)
+![Instruction d’étape du Guide de tâche.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Les données que vous entrez dans un guide de tâche sont réelles. Si vous êtes dans un environnement de production, les données seront saisies dans la société que vous utilisez actuellement.
@@ -101,7 +114,7 @@ Certains champs ont des descriptions de champ pour aider les utilisateurs à se 
 
 Pour accéder au contenu de l’aide, sélectionnez le bouton **Aide** (**?**), puis sélectionnez **Aide**. Sinon, appuyez sur **Ctrl+Maj+?**. Dans les deux cas, le volet **Aide** s’ouvre. À partir du volet **Aide**, vous pouvez accéder à des rubriques conceptuelles ou à des guides de tâches pertinents pour la zone du produit dans laquelle vous vous trouvez actuellement.
 
-![Volet Aide](./media/help-pane-ops-help.png)
+![Volet Aide.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Accès aux rubriques d’aide à partir du volet Aide
 
@@ -118,13 +131,13 @@ Avant de pouvoir accéder aux guides de tâche à partir du volet **Aide**, un a
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 Une fois que l’administrateur système a effectué ces étapes, vous pouvez ouvrir le volet **Aide**, puis cliquer sur l’onglet **Guides de tâche**. Vous obtenez désormais les guides de tâche qui s’appliquent à la page sur laquelle vous êtes actuellement. Si aucun guide de tâche n’est trouvé, vous pouvez entrer des mots clés pour affiner votre recherche. Après avoir cliqué sur le guide de tâche dans le volet **Aide**, le volet **Aide** affiche les instructions pas-à-pas et vous pouvez lire le guide de tâche.
 
-![Vue de lecture du Guide de tâche](./media/task-guide-ops.png)
+![Vue de lecture du Guide de tâche.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Où se trouvent les guides de tâche traduits pour les bibliothèques Microsoft ?
 

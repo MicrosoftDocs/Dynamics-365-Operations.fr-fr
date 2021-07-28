@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936728"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349624"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Commandes des clients en point de vente (PDV)
 
@@ -44,7 +46,7 @@ Avant d’essayer d’utiliser la fonctionnalité de commande client dans le PDV
 
 Pour utiliser les commandes client, vous devez configurer les modes de livraison que le canal de magasin peut utiliser. Vous devez définir au moins un mode de livraison qui peut être utilisé lorsque des lignes de commande sont expédiées à un client depuis un magasin. Vous devez également définir au moins un mode de retrait qui peut être utilisé lorsque des lignes de commande sont récupérées dans le magasin. Les modes de livraison sont définis sur la page **Modes de livraison** au siège de Commerce. Pour plus d’informations sur la configuration des modes de livraison pour les canaux de Commerce, voir [Définir les modes de livraison](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Page Modes de livraison](media/customer-order-modes-of-delivery.png)
+![Page Modes de livraison.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Paramétrer les Groupes d’exécution
@@ -53,7 +55,7 @@ Certains emplacements de magasins ou d’entrepôt peuvent ne pas être en mesur
 
 Dans Commerce version 10.0.12 et versions ultérieures, les organisations peuvent définir si l’entrepôt ou les combinaisons d’entrepôt/magasin définies dans les groupes d’exécution peuvent être utilisés pour l’expédition, pour le retrait ou pour l’expédition et le retrait. Cela permet à l’entreprise d’avoir plus de flexibilité pour déterminer les entrepôts qui peuvent être sélectionnés lors de la création d’une commande client pour les articles à expédier et les magasins qui peuvent être sélectionnés lors de la création d’une commande client pour les articles à retirer. Pour utiliser ces options de configuration, vous devez activer la fonctionnalité **Possibilité de spécifier des emplacements comme « Expédition » ou « Retrait » activée dans le groupe d’exécution**. Si un entrepôt lié à un groupe d’exécution n’est pas un magasin, il ne peut être configuré qu’en tant que lieu d’expédition. Il ne peut pas être utilisé lorsque les commandes avec retrait sont configurées dans le PDV.
 
-![Page Groupes d’exécution](media/customer-order-fulfillment-group.png)
+![Page Groupes d’exécution.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Configurer les paramètres de canal
 
@@ -65,7 +67,7 @@ Lorsque vous travaillez avec des commandes client dans le PDV, vous devez prendr
 - **Utiliser la taxe basée sur la destination** – Cette option indique si l’adresse de livraison est utilisée pour déterminer le groupe de taxe appliqué aux lignes de commande expédiées à l’adresse du client.
 - **Utiliser la taxe basée sur le client** – Cette option indique si le groupe de taxe défini pour l’adresse de livraison du client est utilisé pour taxer les commandes client créées dans le PDV pour l’expédition au domicile du client.
 
-![Enregistrer la configuration de canal sur la page Magasins](media/customer-order-all-stores.png)
+![Enregistrer la configuration de canal sur la page Magasins.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Définir les paramètres de la commande client
 
@@ -80,7 +82,7 @@ Avant d’essayer de créer des commandes client dans le PDV, vous devez configu
 - **Code frais d’expédition** – Si l’option **Utiliser les frais automatiques avancés** est définie sur **Oui**, ce paramètre n’a aucun effet. Si cette option est définie sur **Non**, les utilisateurs seront invités à saisir manuellement des frais d’expédition lorsqu’ils créeront des commandes client dans le PDV. Utilisez ce paramètre pour mapper un code frais de Comptabilité client qui sera appliqué aux commandes lorsque les utilisateurs saisiront des frais d’expédition. Le code frais définit la logique de validation financière pour les frais d’expédition.
 - **Utiliser les frais automatiques avancés** – Définissez cette option sur **Oui** pour utiliser les frais automatiques calculés par le système lorsque les commandes client sont créées dans le PDV. Ces frais automatiques peuvent être utilisés pour calculer les frais d’expédition ou d’autres frais spécifiques à la commande ou à l’article. Pour plus d’informations sur la configuration et l’utilisation de frais automatiques avancés, consultez [Frais automatiques avancés omnicanaux](./omni-auto-charges.md).
 
-![Onglet Commandes client sur la page des paramètres de Commerce](media/customer-order-parameters.png)
+![Onglet Commandes client sur la page des paramètres de Commerce.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Mettre à jour les dispositions de l’écran des transactions dans le PDV
 
@@ -95,7 +97,7 @@ Assurez-vous que la [disposition de l’écran](./pos-screen-layouts.md) du PDV 
 - **Changer de mode de livraison** – Cette opération permet de changer rapidement le mode de livraison des lignes déjà configurées pour l’expédition, sans exiger que les utilisateurs passent à nouveau par le flux « Expédier tous les produits » ou « Expédier les produits sélectionnés ».
 - **Remplacement de dépôt** – Cette opération permet de modifier le montant du dépôt que le client paiera pour la commande client sélectionnée.
 
-![Opérations sur l’écran de transaction du PDV](media/customer-order-screen-layout.png)
+![Opérations sur l’écran de transaction du PDV.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Utiliser des commandes client dans le PDV
 

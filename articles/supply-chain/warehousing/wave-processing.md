@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019025"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355480"
 ---
 # <a name="wave-creation-and-processing"></a>Création et traitement des vagues
 
@@ -42,7 +42,7 @@ Vous pouvez spécifier laquelle de ces options d’ordre de fabrication utiliser
 
 Le schéma suivant montre le flux de création, de traitement et de libération des vagues d’expédition. Les numéros correspondent aux sections ultérieures de la présente section.
 
-![Processus de création d’une vague](media/wave-processing-diagram.png "Processus de création d’une vague")
+![Processus de création d’une vague.](media/wave-processing-diagram.png "Processus de création d’une vague")
 
 ### <a name="prerequisites"></a>Conditions préalables
 
@@ -158,7 +158,7 @@ Quand la fonctionnalité *Planifier la création de travail* est activée, le tr
 
 L’organigramme suivant montre comment le travail planifié est créé pendant le traitement de vague.
 
-![Planifier la création du travail](media/schedule-work-creation-process.png)
+![Planifier la création du travail.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Travail planifié
 

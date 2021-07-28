@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823834"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360710"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Ajouter des dimensions financières à l’espace de travail CFO
 
@@ -45,14 +45,14 @@ Cette rubrique explique comment ajouter des dimensions financières à l’espac
 11. Définissez la valeur **Direction de filtre croisé** sur **Unique**.
 12. Sélectionnez **Rendre cette relation active** et **Supposer l’intégrité référentielle**, sélectionnez **OK**, puis sélectionnez **Fermer**.
 
-    [![Créer une relation](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Créer une relation.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Dans la liste **Champs**, la table et les dimensions financières disponibles doivent s’afficher. Faites glisser les dimensions financières souhaitées vers les filtres au niveau de l’état.
 14. Enregistrez vos modifications.
 15. Dans l’arbre d’objets d’application (AOT), cliquez avec le bouton droit sur votre projet, puis sélectionnez **Synchroniser**.
 16. Générez votre projet, puis ouvrez l’application pour afficher les résultats.
 
-    [![Espace de travail terminé](./media/workspace.png)](./media/workspace.png)
+    [![Espace de travail terminé.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

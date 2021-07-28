@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353442"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Planification visuelle pour Lean manufacturing
 
@@ -47,7 +47,7 @@ Vous pouvez planifier uniquement les tâches de type **Traiter**. La tâche de k
 ## <a name="kanban-schedule-board"></a>Carte de programme du kanban
 La page **Carte de programme du kanban** contient sept éléments principaux, comme indiqué dans l’illustration suivante. 
 
-![Carte de programme du kanban](./media/kanban-schedule-board-1024x554.png)
+![Carte de programme du kanban.](./media/kanban-schedule-board-1024x554.png)
 1.  Volet Actions
 2.  Champs Filtrer
 3.  Bouton pour les tâches non planifiées
@@ -71,7 +71,7 @@ Pour améliorer la vue d’ensemble fournie par la carte de programme du kanban,
 ## <a name="plan-unplanned-jobs"></a>Planifier des tâches non planifiées
 Vous pouvez planifier des tâches de kanban non planifiées dans la boîte de dialogue **Planifier des tâches non planifiées**. Pour ouvrir cette boîte de dialogue, cliquez sur le bouton **Tâches non planifiées** qui affiche le nombre actuel de tâches non planifiées. Sinon, cliquez sur **Planifier des tâches non planifiées** sous l’onglet **Tableau** du volet Actions. La boîte de dialogue affiche la liste des tâches de kanban non planifiées pour la cellule de travail. Vous pouvez utiliser le champ **Filtrer** pour filtrer tous les champs de la grille. Par exemple, vous pouvez filtrer les tâches de kanban pour un produit spécifique. Après avoir filtré la liste des tâches que vous souhaitez planifier, sélectionnez-les dans la liste, puis cliquez sur **OK**. Pour utiliser la planification automatique pour planifier les tâches, définissez l’option **Planification automatique** sur **Oui**. Dans ce cas, les tâches sont planifiées dans une période en fonction de leur date d’échéance. Vous pouvez aussi planifier les tâches par période. Sélectionnez simplement une période dans le champ **Période**. L’illustration suivante présente un exemple de la boîte de dialogue **Planifier des tâches non planifiées**. 
 
-![Boîte de dialogue Planifier des tâches non planifiées](./media/plan-unplanned-jobs-1024x564.png)
+![Boîte de dialogue Planifier des tâches non planifiées.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Définir l’ordre des tâches de kanban dans la même période
 Vous pouvez modifier l’ordre d’une ou de plusieurs tâches sélectionnées dans une période. Cette fonction peut être utile si vous souhaitez définir la priorité des tâches dans la période. Vous pouvez également définir l’ordre des tâches qui ont les mêmes attributs de produit, pour optimiser l’exécution des tâches. Vous pouvez modifier l’ordre par le biais d’une opération de glisser-déplacer, ou à l’aide des options de menu **En arrière** et **En avant** dans l’onglet **Tableau** du volet Actions.

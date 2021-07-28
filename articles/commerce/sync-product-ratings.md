@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791677"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354611"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Synchronisation des évaluations de produit dans Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Pour vérifier que la sous-tâche **RetailProductRating** existe, procédez comm
 
 L’illustration suivante présente un exemple de détails de sous-tâche dans Commerce.
 
-![Détails la sous-tâche RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Détails la sous-tâche RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Si vous ne trouvez pas la sous-tâche **RetailProductRating**, il est possible que vous ayez déjà exécuté la tâche **Synchroniser les classements de produits** et la tâche **1040 CDX** avant d’initialiser le planificateur de commerce. Dans ce cas, procédez comme suit pour exécuter la tâche **Synchronisation de données complète**.
@@ -83,7 +83,7 @@ Pour importer les classements de produits dans Commerce à partir du service de 
 
 L’illustration suivante présente un exemple de configuration de traitement par lots dans Commerce.
 
-![Configuration du traitement par lots de synchronisation des évaluations de produits](media/rnr-hq-batchjob-recurrence.png)
+![Configuration du traitement par lots de synchronisation des évaluations de produits.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Vérifiez que le traitement par lots de la synchronisation de classement de produit a abouti
 
@@ -95,7 +95,7 @@ Pour vérifier que le traitement par lots **Synchroniser les classements de prod
 
 L’illustration suivante donne un exemple de détails de traitement par lots dans Commerce lorsque le traitement par lots est programmé pour une exécution à des intervalles de deux heures.
 
-![Détails du traitement par lots de synchronisation des évaluations de produits](media/rnr-hq-batchjob-status-checking.png)
+![Détails du traitement par lots de synchronisation des évaluations de produits.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Rendez les classements de produit disponibles dans le PDV
 
@@ -113,15 +113,15 @@ Pour activer les classements de produits dans le PDV, procédez comme suit.
 
 L’illustration suivante donne un exemple de la configuration des paramètres de commerce pour activer les classements de produits au PDV.
 
-![Configuration des paramètres de commerce pour les évaluations de produit au PDV](media/rnr-hq-enable-ratings-in-pos.png)
+![Configuration des paramètres de commerce pour les évaluations de produit au PDV.](media/rnr-hq-enable-ratings-in-pos.png)
 
 L’illustration suivante montre un exemple de classements de produits dans PDV.
 
-![Classements de produits dans le PDV](media/rnr-pos-catalog-ratings.png)
+![Classements de produits dans le PDV.](media/rnr-pos-catalog-ratings.png)
 
 L’illustration suivante montre un exemple de classements de produits dans les canaux de centres d’appels.
 
-![Classements de produits dans un canal de centre d’appels](media/rnr-call-center-ratings.png)
+![Classements de produits dans un canal de centre d’appels.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
