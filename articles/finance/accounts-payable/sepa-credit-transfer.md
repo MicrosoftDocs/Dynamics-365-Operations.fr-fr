@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346448"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Vue d’ensemble des virements SEPA
 
@@ -30,7 +32,7 @@ Cet article fournit des informations générales sur les virements ISO 20022, n
 
 ## <a name="what-is-a-credit-transfer-message"></a>Qu’est-ce qu’un message de virement ?
 Le message de virement est une demande qu’une partie initiatrice (votre société) envoie pour déplacer des fonds depuis son propre compte vers celui d’un créditeur. Il existe de nombreuses implémentations des messages de virement, spécifiques à chaque banque et à chaque pays ou région. Certains d’entre elles sont utilisés au sein d’une pays ou d’une région, et d’autres sont en passe de devenir la norme. Une norme bien établie au niveau mondial est la norme ISO 20022 et ses messages d’initiation, tels que le Virement. L’illustration suivante présente les relations et la couverture des messages de virement sélectionnés. 
-![Virement](./media/credit-transfer.jpg) Messages de virement 
+![Virement.](./media/credit-transfer.jpg) Messages de virement 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Que sont les paiements ISO 20022 et SEPA ?
 L’Espace unique de paiement en euro (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l’entreprise ou l’organisation et la banque sont localisées. Il n’existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l’Union européenne (EU), plus l’Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l’Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes. La Commission européenne a établi les fondements légaux des paiements SEPA dans la Directive sur les Services de Paiement (PSD, Payment Services Directive). Le Conseil européen des paiements (EPC) assure le fonctionnement du SEPA par les activités suivantes :

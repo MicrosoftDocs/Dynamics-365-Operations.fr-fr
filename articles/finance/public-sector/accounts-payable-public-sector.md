@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: BudgetParameters, CustParameters, LedgerJournalTable, OMLegalEntity, PurchAgreementListPage, PurchTableListPage, SrmParameters, VendCertificationType, VendCoverPageLayout, VendOpenInvoicesListPage, VendParametersVendParameters, VendTableListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 19661
+ms.custom:
+- "19661"
+- intro-internal
 ms.assetid: b4c903dd-5ec7-4ec5-9dc9-77ba4f00fab8
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3869ec88951732a7f12a6c4ac37371de54bb20ec
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 91f79fd4c0ea96367211874028b4a31b6055e3b8
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189621"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338139"
 ---
 # <a name="accounts-payable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité fournisseur (Secteur public)
 

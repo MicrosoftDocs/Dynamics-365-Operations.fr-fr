@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188019"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343884"
 ---
 # <a name="budget-planning"></a>Planification budgétaire
 
@@ -47,11 +47,11 @@ Julia travaille en tant que gestionnaire des finances dans les parcs de divertis
 
 Le schéma de configuration de la planification budgétaire pour le scénario se présente comme suit :
 
-![Schéma de configuration de planification budgétaire](./media/screenshot1-300x152.png)
+![Schéma de configuration de planification budgétaire.](./media/screenshot1-300x152.png)
 
 Julia utilise le modèle Excel suivant pour préparer le budget :
 
-[![Modèle Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+[![Modèle Excel.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
 ## <a name="exercise-1-configuration"></a>Exercice 1 : Configuration
 
@@ -60,27 +60,27 @@ Comme tout le processus de budgétisation se produit au département Finances, p
 
 1.1. Accédez aux hiérarchies d’organisation (Administration d’organisation &gt; Organisations &gt; Hiérarchies d’organisation) et cliquez sur le bouton Nouveau.
 
-![Hiérarchies de l’organisation](./media/screenshot3.png) 
+![Hiérarchies de l’organisation.](./media/screenshot3.png) 
 
 1.2. Entrez le nom de la hiérarchie d’organisation dans la zone Nom et cliquez sur le bouton Affecter un objectif.
 
 1.3. Sélectionnez l’objectif de la planification de budget, cliquez sur le bouton Ajouter et affectez la hiérarchie d’organisation nouvellement créée. 
 
-[![Affecter un objectif](./media/screenshot5.png)](./media/screenshot5.png)
+[![Affectez un objectif.](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. Répétez l’étape ci-dessus pour l’objectif d’organisation de sécurité. Fermez l’écran une fois terminé.
 
 1.5. Dans l’écran des hiérarchies d’organisation, cliquez sur Afficher. Cliquez sur Modifier dans le Concepteur de hiérarchies et créez une hiérarchie en cliquant sur Insérer.
 
-[![Insérer](./media/screenshot7.png)](./media/screenshot7.png) 
+[![Insérez.](./media/screenshot7.png)](./media/screenshot7.png) 
 
 1.6. Sélectionnez le département Finances pour la hiérarchie de budgétisation. 
 
-[![Finances](./media/screenshot8.png)](./media/screenshot8.png)
+[![Finances.](./media/screenshot8.png)](./media/screenshot8.png)
 
 1.7. Une fois terminé, cliquez sur Publier et fermer. Sélectionnez 1/1/2015 comme date d’effet de la validation de hiérarchie.
 
-[![Date d’effet](./media/screenshot9.png)](./media/screenshot9.png)
+[![Date d'effet.](./media/screenshot9.png)](./media/screenshot9.png)
 
 ### <a name="task-2-configure-user-security"></a>Tâche 2 : Configurez la sécurité des utilisateurs
 La planification budgétaire utilise des stratégies de sécurité spéciales pour configurer l’accès aux données des plans budgétaires. Julia doit octroyer l’accès aux plans budgétaires des Finances pour elle-même. 
@@ -90,15 +90,15 @@ La planification budgétaire utilise des stratégies de sécurité spéciales po
 
 2.2. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire. Dans l’onglet Paramètres, définissez la valeur Modèle de sécurité sur En fonction des organisations de sécurité. 
 
-[![Paramètres](./media/screenshot11.png)](./media/screenshot11.png) 
+[![Paramètres.](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3. Accédez à Administration système &gt; Utilisateurs &gt; Utilisateurs. Donnez à l’utilisateur Administrateur (Julia Funderburk) le rôle de Responsable du budget. 
 
-[![Responsable du budget](./media/screenshot12.png)](./media/screenshot12.png) 
+[![Responsable du budget.](./media/screenshot12.png)](./media/screenshot12.png) 
 
 2.4. Choisissez un rôle d’utilisateur et cliquez sur Affecter des organisations. 
 
-[![Affecter des organisations](./media/screenshot13.png)](./media/screenshot13.png)
+[![Affectez des organisations.](./media/screenshot13.png)](./media/screenshot13.png)
 
 2.5. Sélectionnez « Accorder l’accès à des organisations spécifiques ». Choisissez une Hiérarchie d’organisation créée dans la première étape. Choisissez le nœud Finances et cliquez sur le bouton Accorder à l’organisation enfant. 
 
@@ -109,7 +109,7 @@ La planification budgétaire utilise des stratégies de sécurité spéciales po
 
 *Remarque : vous pouvez créer des scénarios pour cet exercice si vous le voulez et les utiliser à la place.* 
 
-[![Nouveaux scénarios](./media/screenshot15.png)](./media/screenshot15.png) 
+[![Nouveaux scénarios.](./media/screenshot15.png)](./media/screenshot15.png) 
 
 *Remarque : comme Julia n’utilise pas le processus d’approbation officielle pour la préparation de budget, nous ignorerons les stades et les workflows paramétrés dans cet atelier pratique et utiliserons le paramétrage existant pour approuver automatiquement cette configuration de workflow.*
 
@@ -118,13 +118,13 @@ Les colonnes du plan budgétaire sont des colonnes monétaires ou basées sur la
 
 4.1. Dans Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire, ouvrez la page Colonnes. Cliquez sur le bouton Agence dans le coin supérieur droit de l’écran et choisissez Colonnes (non filtrées). 
 
-[![Colonnes non filtrées](./media/screenshot16.png)](./media/screenshot16.png) 
+[![Colonnes non filtrées.](./media/screenshot16.png)](./media/screenshot16.png) 
 
 4.2. Le système ouvre un classeur Excel à utiliser pour renseigner les valeurs. Si une invite s’affiche, cliquez sur Autoriser la modification et Faire confiance à cette application. 
 
 4.3. Nous aurons besoin de plus de colonnes pour renseigner les valeurs. Cliquez sur Conception dans le volet de droite pour ajouter les colonnes dans la grille. 
 
-[![Configuration](./media/screenshot19.png)](./media/screenshot19.png) 
+[![Configuration.](./media/screenshot19.png)](./media/screenshot19.png) 
 
 4.4. Cliquez sur le petit bouton en forme de crayon situé en regard de Colonnes du plan pour afficher les colonnes disponibles à ajouter dans la grille. 
 
@@ -136,7 +136,7 @@ Les colonnes du plan budgétaire sont des colonnes monétaires ou basées sur la
 
 4.7. Revenez à l’application et réactualisez la page. Les valeurs publiées s’affichent. 
 
-[![Actualiser](./media/screenshot23.png)](./media/screenshot23.png)
+[![Actualiser.](./media/screenshot23.png)](./media/screenshot23.png)
 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tâche 5 : Créez des structures et des modèles de document de plan budgétaire
 La structure définit à quoi la grille de lignes de document du plan budgétaire ressemble lorsque l’utilisateur ouvre le document de plan budgétaire. Il est également possible de changer la structure de document du plan budgétaire pour afficher les mêmes données dans différents angles. À présent qu’elle a défini les colonnes à utiliser avec notre document de plan budgétaire, Julia doit créer une structure de document du plan budgétaire similaire au tableau Excel qu’elle utilise pour créer les données du budget (voir la section Vue d’ensemble du scénario dans cet atelier pratique) 
@@ -147,14 +147,14 @@ La structure définit à quoi la grille de lignes de document du plan budgétair
 -   Répertoriez toutes les colonnes du plan budgétaire créées dans l’étape précédente dans la section Éléments. Rendez tous les chiffres, saufs ceux de l’année précédente, modifiables.
 -   Cliquez sur le bouton Description pour sélectionner les dimensions financières qui doivent afficher des descriptions dans la grille.
 
-[![Description](./media/screenshot24.png)](./media/screenshot24.png) 
+[![Descriptions.](./media/screenshot24.png)](./media/screenshot24.png) 
 
 En s’appuyant sur la définition de la structure du plan budgétaire, nous pouvons créer un modèle Excel à utiliser comme autre manière de modifier les données du budget. Comme le modèle Excel doit correspondre à la définition de la structure de plan budgétaire, vous ne pourrez pas modifier la structure du plan budgétaire après avoir généré le modèle Excel, donc cette tâche doit être effectuée après que tous les composants de la structure sont définis. 
 
 5.2. Pour la structure créée dans l’étape 5.1, cliquez sur le bouton Modèle &gt; Générer. Confirmer le message d’avertissement. Pour afficher le modèle, cliquez sur Modèle &gt; Afficher. 
 
 *Remarque : veillez à sélectionner « Enregistrer sous » et sélectionnez l’emplacement dans lequel le modèle doit être enregistré afin de le modifier. Si l’utilisateur sélectionne « Ouvrir » dans la boîte de dialogue sans enregistrer, les modifications effectuées dans le fichier ne sont pas conservées lorsque le fichier est fermé.* 
-[![Vue du modèle](./media/screenshot25.png)](./media/screenshot25.png) 
+[![Vue du modèle.](./media/screenshot25.png)](./media/screenshot25.png) 
 
 5.3. &lt; Étape facultative&gt; Modifiez le modèle Excel pour le rendre plus convivial – ajoutez des formules de total, des champs d’en-tête, une mise en forme, etc. Sauvegardez les modifications et téléchargez le fichier dans la structure du plan budgétaire en cliquant sur Présentation &gt; Télécharger. 
 
@@ -174,11 +174,11 @@ Julia doit créer et activer un nouveau processus de planification budgétaire e
 
 *Remarque : vous pouvez créer des structures supplémentaires de document et les affecter pour qu’elles soient disponibles au stade du workflow de planification budgétaire en cliquant sur le bouton Autres structures.* 
 
-[![Autres mises en page](./media/screenshot27.png)](./media/screenshot27.png) 
+[![Autres mises en page.](./media/screenshot27.png)](./media/screenshot27.png) 
 
 6.2. Sélectionnez Actions &gt; Activer pour activer ce workflow de planification budgétaire. 
 
-[![Activer](./media/screenshot28.png)](./media/screenshot28.png)
+[![Activer.](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>Exercice 2 : Simulation du processus
 
@@ -187,26 +187,26 @@ Julia doit créer et activer un nouveau processus de planification budgétaire e
 
 7.2. Accédez à Budgétisation &gt; Plans budgétaires pour rechercher un plan budgétaire créé par le processus Générer. 
 
-[![Plan budgétaire](./media/screenshot30.png)](./media/screenshot30.png) 
+[![Plan budgétaire.](./media/screenshot30.png)](./media/screenshot30.png) 
 
 7.3. Ouvrez les détails du document en cliquant sur le lien hypertexte du numéro de document. Le plan budgétaire est affiché comme défini dans la structure créée lors de cet atelier pratique. 
 
-[![Affichage de plan budgétaire](./media/screenshot31.png)](./media/screenshot31.png)
+[![Affichage de plan budgétaire.](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tâche 8 : Créez un budget de l’année en cours basé sur les chiffres réels de l’année précédente
 Les méthodes de répartition peuvent être utilisées dans le plan budgétaire pour copier facilement les informations des plans budgétaires d’un scénario à un autre / les répartir sur des périodes / répartir sur des dimensions. Nous emploierons des répartitions pour créer le budget de l’année en cours à partir des chiffres réels de l’année précédente. 
 
 8.1. Choisissez toutes les lignes de la grille de document du plan budgétaire et cliquez sur le bouton Répartir le budget. 
 
-[![Toutes les lignes](./media/screenshot32.png)](./media/screenshot32.png) 
+[![Toutes les lignes.](./media/screenshot32.png)](./media/screenshot32.png) 
 
 8.2. Sélectionnez la méthode de répartition, la clé de période, la source et les scénarios de destination et cliquez sur Répartir. 
 
-[![Répartir](./media/screenshot33.png)](./media/screenshot33.png)
+[![Répartir.](./media/screenshot33.png)](./media/screenshot33.png)
 
 Les montants effectifs de l’année précédente seront copiés dans le budget de l’année en cours et répartis sur plusieurs périodes en utilisant la clé de période de courbe de vente. 
 
-[![Courbe de vente](./media/screenshot34.png)](./media/screenshot34.png)
+[![Courbe de vente.](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tâche 9 : Ajustez le document de plan budgétaire à l’aide d’Excel et finalisez le document
 9.1. Cliquez sur le bouton Feuille de calcul pour ouvrir le contenu du document dans Excel.
@@ -215,9 +215,9 @@ Les montants effectifs de l’année précédente seront copiés dans le budget 
 
 9.3. Revenez au document du plan budgétaire. Cliquez sur Workflow &gt; Envoyer pour approuver automatiquement le document.
 
-[![Approbation automatique](./media/screenshot37.png)](./media/screenshot37.png) 
+[![Approbation automatique.](./media/screenshot37.png)](./media/screenshot37.png) 
 
-Une fois le workflow terminé, le stade du document de plan budgétaire devient Approuvé. [![Approbation](./media/screenshot38.png)](./media/screenshot38.png)
+Une fois le workflow terminé, le stade du document de plan budgétaire devient Approuvé. [![Approbation.](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>Annexe
 
@@ -225,21 +225,21 @@ Une fois le workflow terminé, le stade du document de plan budgétaire devient 
 
 A. Accédez à Budgétisation &gt; Paramétrage &gt; Budgétisation de base &gt; Workflows de budgétisation. Créez un workflow à l’aide du modèle Workflows de planification budgétaire :
 
-[![Créer un workflow](./media/screenshot39.png)](./media/screenshot39.png)
+[![Créer un workflow.](./media/screenshot39.png)](./media/screenshot39.png)
 
 Ce workflow contient uniquement une tâche – Plan budgétaire de transition échelonnée. 
 
-[![Plan budgétaire de transition échelonnée](./media/screenshot40.png)](./media/screenshot40.png) 
+[![Plan budgétaire de transition échelonnée.](./media/screenshot40.png)](./media/screenshot40.png) 
 
 Enregistrez et activez le workflow. 
 
 B. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire. Dans l’onglet Stades, créez 2 stades : Initial et Envoyé. 
 
-[![Initial et envoyé](./media/screenshot41.png)](./media/screenshot41.png)
+[![Initial et envoyé.](./media/screenshot41.png)](./media/screenshot41.png)
 
 C. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire. Dans l’onglet Stades de workflow, associez le workflow Approbation automatique créé à l’étape A aux stades Initial et Envoyé.
 
-[![Budgétisation et planification budgétaire](./media/screenshot42.png)](./media/screenshot42.png)  
+[![Budgétisation et planification budgétaire.](./media/screenshot42.png)](./media/screenshot42.png)  
 
 
 

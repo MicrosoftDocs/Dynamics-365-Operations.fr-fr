@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99fd4b816b1a3a1fe3c2d1579be45b43fdc3d385
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 89fe41d7ce57b584be34b156696b4044c4571afe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347270"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Le remboursement d’un ordre de retour est refusé
 
@@ -34,7 +34,7 @@ Un remboursement est refusé lorsque la carte de crédit utilisée pour facturer
 
 Les détails de l’autorisation de paiement comprendront le message d’erreur suivant : « SendRequest() de la passerelle Adyen a échoué avec le statut ’InternalServerError’.22144 ; réponse vide renvoyée par Adyen. (22001); »
 
-![Erreur de remboursement refusé pour un ordre de retour](media/refund-order-decline.jpg)
+![Erreur de remboursement refusé pour un ordre de retour.](media/refund-order-decline.jpg)
 
 ## <a name="resolution"></a>Résolution
 

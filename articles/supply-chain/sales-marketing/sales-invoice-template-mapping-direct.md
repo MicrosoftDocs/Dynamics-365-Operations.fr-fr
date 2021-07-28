@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 69f497ed8efff9aa18dedbce65d88e3b2d5168a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8941ca0d2b9599dabd05427949d72f55aae7d6bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839027"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347636"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Synchroniser les en-têtes et les lignes de facture client directement entre Finance and Operations et Sales
 
@@ -33,7 +33,7 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 
 La solution Prospect en disponibilités utilise la fonction d’intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d’intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L’illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
-[![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flux de données dans Prospect en disponibilités.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
@@ -116,11 +116,11 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Mise en correspondance de modèles dans l’intégration de données](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Mise en correspondance de modèles dans l’intégration de données.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Mise en correspondance de modèles dans l’intégration de données](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Mise en correspondance de modèles dans l’intégration de données.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 

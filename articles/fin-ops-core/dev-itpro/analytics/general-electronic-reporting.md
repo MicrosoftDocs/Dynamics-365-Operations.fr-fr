@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944363"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345688"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -101,7 +103,7 @@ Un composant de format vous permet de joindre certains fichiers pouvant être ut
 
 L’illustration ci-dessous indique les flux de données pour ces formats.
 
-[![Flux de données des composants de format sortants](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Flux de données des composants de format sortants.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Pour exécuter une configuration de format de génération d’états électroniques unique et générer un document électronique sortant, vous devez identifier le mappage de la configuration de format.
 
@@ -115,7 +117,7 @@ Un composant de format est le modèle de document entrant qui est importé au mo
 
 L’illustration ci-dessous indique les flux de données pour ces formats.
 
-[![Flux de données des composants de format entrants](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Flux de données des composants de format entrants.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Pour exécuter une configuration simple de format de génération d’états électroniques pour importer les données d’un document électronique entrant, vous devez identifier le mappage souhaité d’une configuration de format, ainsi que le point d’intégration d’un mappage de modèle. Vous pouvez utiliser les mêmes mappages et destinations de modèles avec différents formats pour différents types de documents entrants.
 
@@ -290,7 +292,7 @@ ER vous permet d’adopter automatiquement les modifications de la version la pl
 
 La liste des configurations de gestion des états électroniques pour Finance est constamment mis à jour. Ouvrez le [référentiel global](er-download-configurations-global-repo.md) pour consulter la liste des configurations de gestion des états électroniques actuellement prises en charge. Sur l’organisateur **Détails de l’abandon**, vous pouvez consulter les informations sur les configurations qui ont été abandonnées ou qui ne sont plus gérées. 
 
-![Contendu du référentiel global sur la page Référentiel de configuration](./media/er-overview-03.gif)
+![Contendu du référentiel global sur la page Référentiel de configuration.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

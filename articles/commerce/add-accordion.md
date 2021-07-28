@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ddca8a3cc136080aa63f58cda3ba32bf6d2ca37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796268"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346970"
 ---
 # <a name="accordion-module"></a>Module Accordéon
 
@@ -34,11 +34,11 @@ Les modules accordéon sont des modules de type conteneur qui sont utilisés pou
 
 L’image suivante montre un exemple de module d’accordéon utilisé pour organiser les informations sur la page des questions fréquemment posées (FAQ) d’un magasin.
 
-![Exemple d’un module d’accordéon](./media/ecommerce-accordion.PNG)
+![Exemple d’un module d’accordéon.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Propriétés du module d’accordéon
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
 | En-tête | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’accordéon. |
 | Développer tout | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, la fonctionnalité de développement/réduction est activée, de sorte que tous les éléments du module d’accordéon peuvent être développés et réduits. |

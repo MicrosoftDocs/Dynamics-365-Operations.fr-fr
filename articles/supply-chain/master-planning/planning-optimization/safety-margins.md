@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908291"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347732"
 ---
 # <a name="safety-margins"></a>Marges de sécurité
 
@@ -41,7 +41,7 @@ Il existe trois types de marges de sécurité :
 
 L’illustration suivante montre comment ces marges de sécurité s’appliquent au fil du temps.
 
-![Marges de sécurité](media/safety-margins-1.png)
+![Marges de sécurité.](media/safety-margins-1.png)
 
 Toutes les marges sont définies en jours. La valeur par défaut, *0* (zéro), indique qu’aucune marge n’est appliquée. Si vous définissez plusieurs marges, elles s’ajoutent toutes au temps total de la *date d’ordre* d’approvisionnement à la *date de demande*. Par exemple, une configuration n’a pas de délai et les trois types de marge sont définis sur un jour. Dans ce cas, il y aura trois jours entre la date de l’ordre d’approvisionnement et la date de demande, donc si la date de l’ordre est le 1er juillet, la date de la demande sera le 4 juillet.
 
@@ -51,7 +51,7 @@ La marge de réception est probablement la plus utilisée des trois marges de s�
 
 L’illustration suivante met en évidence la marge de réception.
 
-![Marge de réception](media/safety-margins-2.png)
+![Marge de réception.](media/safety-margins-2.png)
 
 La marge de réception est généralement utilisée comme tampon pour garantir le temps d’enregistrement de l’entrepôt ou d’autres processus chronophages qui ne sont pas capturés dans le cadre du délai général dans le système. Pour les achats, un avantage est que la *date de livraison* de la commande fournisseur est avancée en conséquence. Si vous augmentez le délai au lieu d’utiliser une marge de sécurité, le fournisseur sera toujours invité à livrer à la dernière minute.
 
@@ -66,7 +66,7 @@ Notez qu’une marge de réception n’est pas appliquée lorsque le stock dispo
 
 L’illustration suivante met en évidence la marge de renouvellement.
 
-![Marge de renouvellement](media/safety-margins-3.png)
+![Marge de renouvellement.](media/safety-margins-3.png)
 
 La marge de renouvellement ajoutée avant le délai de livraison de l’article pour tous les ordres prévisionnels pendant la planification. Par conséquent, cela garantit un délai supplémentaire pour qu’un ordre d’approvisionnement soit passé. Cette marge est généralement utilisée comme tampon pour garantir le temps nécessaire aux processus d’approbation ou à d’autres processus internes requis lors de la création d’ordres d’approvisionnement. La marge de renouvellement est placée entre la *date de l’ordre* d’approvisionnement et la *date de début*.
 
@@ -77,7 +77,7 @@ La marge de renouvellement ajoutée avant le délai de livraison de l’article 
 
 L’illustration suivante met en évidence la marge de sortie.
 
-![Marge de sortie](media/safety-margins-4.png)
+![Marge de sortie.](media/safety-margins-4.png)
 
 La marge de sortie est déduite de la date de demande lors de la planification. Elle permet de vous assurer que vous avez le temps de réagir et d’expédier les ordres de demande entrantes. Cette marge est généralement utilisée comme tampon pour garantir le temps d’expédition et les processus d’entrepôt sortants associés.
 
@@ -165,7 +165,7 @@ L’illustration suivante présente une matrice qui résume les calendriers qui 
 - **Entrepôt (WH) :** Jaune
 - **Fournisseur (F) :** Bleu
 
-[![Matrice de présentation de la configuration du calendrier](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matrice de présentation de la configuration du calendrier.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calcul des retards
 
@@ -173,11 +173,11 @@ Les trois types de marges de sécurité sont inclus lorsque le système détermi
 
 Par exemple, un article a un délai d’un jour et une marge de réception de trois jours. Une commande client pour cet article est définie comme requise aujourd’hui. Dans ce cas, le retard est calculé comme suit *délai* + *marge de réception* = quatre jours. Par conséquent, si aujourd’hui est le 14 août, les quatre jours de retard produisent une livraison le 18 août. L’illustration suivante présente cet exemple.
 
-![Exemple de calcul de retard](media/safety-margins-delays.png)
+![Exemple de calcul de retard.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Prise en main de l’optimisation de la planification](get-started.md)
+[Mise en route de l’optimisation de la planification](get-started.md)
 
 [Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
 

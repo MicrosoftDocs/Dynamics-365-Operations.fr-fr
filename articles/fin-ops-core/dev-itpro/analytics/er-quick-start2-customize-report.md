@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345934"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajuster un format de gestion des états électroniques pour générer un document électronique personnalisé
 
@@ -142,7 +144,7 @@ Pour ajouter les configurations de gestion des états électroniques standard à
 5. Dans l’organisateur **Versions**, sélectionnez la version **1.1** de la configuration du format de gestion des états électroniques sélectionnée.
 6. Sélectionnez **Importer** pour télécharger la version sélectionnée depuis le référentiel global vers l’instance actuelle de Finance.
 
-![Page du référentiel de configuration](./media/er-quick-start2-import-solution1.png)
+![Page du référentiel de configuration.](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > Si vous ne parvenez pas à accéder au [Référentiel global](er-download-configurations-global-repo.md), vous pouvez [télécharger les configurations](download-electronic-reporting-configuration-lcs.md) depuis Microsoft Dynamics Lifecycle Services (LCS).
@@ -158,7 +160,7 @@ Pour ajouter les configurations de gestion des états électroniques standard à
     - **Mise en correspondance des modèles de paiement 1611** – Cette configuration contient le composant de gestion des états électroniques [Mise en correspondance des modèles](general-electronic-reporting.md#data-model-and-model-mapping-components) qui décrit comment le modèle de données est rempli avec les données d’application au moment de l’exécution.
     - **BACS (UK)** – Cette configuration contient les composants de gestion des états électroniques [Format](general-electronic-reporting.md#FormatComponentOutbound) et Mise en correspondance des formats. Le composant Format spécifie la présentation de l’état. Le composant Mise en correspondance des formats contient la source de données du modèle et spécifie comment la présentation de l’état est remplie en utilisant cette source de données au moment de l’exécution.
 
-![Page Configurations](./media/er-quick-start2-imported-solution1.png)
+![Page Configurations.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Préparer un paiement fournisseur pour traitement
 
@@ -177,7 +179,7 @@ Vous devez ajouter des informations bancaires pour un compte fournisseur auquel 
     5. Dans le champ **IBAN**, entrez **GB33BUKB20201555555555**.
     6. Dans le champ **Numéro d’acheminement**, conservez la valeur par défaut, <a id="DefineRoutingNumber"></a>**123456**.
 
-    ![Page Comptes bancaires fournisseur](./media/er-quick-start2-bank-account.png)
+    ![Page Comptes bancaires fournisseur.](./media/er-quick-start2-bank-account.png)
 
 4. Sélectionnez **Enregistrer**.
 5. Fermez la page.
@@ -185,7 +187,7 @@ Vous devez ajouter des informations bancaires pour un compte fournisseur auquel 
 7. Sur la page Détails sur le fournisseur, sélectionnez **Modifier** pour rendre la page modifiable, si nécessaire.
 8. Dans l’organisateur **Paiement**, dans le champ **Compte bancaire**, sélectionnez **GBP OPER**.
 
-    ![Page Détails sur le fournisseur](./media/er-quick-start2-bank-account-reference.png)
+    ![Page Détails sur le fournisseur.](./media/er-quick-start2-bank-account-reference.png)
 
 9. Sélectionnez **Enregistrer**.
 10. Fermez la page.
@@ -202,11 +204,11 @@ Vous devez entrer un nouveau paiement fournisseur en utilisant une [proposition 
 6. Dans la boîte de dialogue **Proposition de paiement fournisseur**, configurez les conditions de filtrage des enregistrements pour le compte fournisseur **GB_SI_000001** uniquement, puis cliquez sur **OK**.
 7. Sélectionnez la ligne de la facture **00000007_Inv**, puis sélectionnez **Créer un paiement**.
 
-    ![Boîte de dialogue Proposition de paiement fournisseur](./media/er-quick-start2-payment-proposal.png)
+    ![Boîte de dialogue Proposition de paiement fournisseur.](./media/er-quick-start2-payment-proposal.png)
 
 8. Vérifiez que le paiement entré est configuré pour utiliser le mode de paiement **Électronique**.
 
-    ![Page des paiements fournisseur](./media/er-quick-start2-payment-line.png)
+    ![Page Paiements fournisseur.](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Traiter un paiement fournisseur en utilisant le format de gestion des états électroniques standard
 
@@ -220,7 +222,7 @@ Vous devez configurer le mode de paiement électronique afin qu’il utilise la 
 4. Dans l’organisateur **Formats de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK)**.
 
-    ![Page Modes de paiement – fournisseurs](./media/er-quick-start2-method-of-payment1.png)
+    ![Page Modes de paiement – fournisseurs.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -237,7 +239,7 @@ Vous devez configurer le mode de paiement électronique afin qu’il utilise la 
 5. Cliquez sur **OK**.
 6. Dans la boîte de dialogue **Paramètres des états électroniques**, définissez l’option **Imprimer l’état de contrôle** sur **Oui**, puis cliquez sur **OK**.
 
-    ![Page Paramètres des états électroniques](./media/er-quick-start2-payment-dialog1.png)
+    ![Page de boîte de dialogue Paramètres des états électroniques.](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > En plus du fichier de paiement, vous pouvez maintenant générer l’état de contrôle.
@@ -249,7 +251,7 @@ Vous devez configurer le mode de paiement électronique afin qu’il utilise la 
 
         Notez que, conformément à la [structure](#PositionRoutingNumber) du format de gestion des états électroniques fourni, la ligne de paiement du fichier généré commence par le numéro d’acheminement qui a été [défini](#DefineRoutingNumber) pour le compte bancaire configuré.
 
-        ![Fichier de paiement au format TXT](./media/er-quick-start2-payment-file1.png)
+        ![Fichier de paiement au format TXT.](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Personnaliser le format de gestion des états électroniques standard
 
@@ -265,13 +267,13 @@ Dans ce cas, en tant que représentant de Litware, Inc., vous devez créer (dér
 4. Dans le groupe de champs **Nouveau**, sélectionnez l’option **Provenant du nom : BACS (UK), Microsoft**.
 5. Dans le champ **Nom**, entrez **BACS (UK custom)**.
 
-    ![Boîte de dialogue déroulante Créer une configuration](./media/er-quick-start2-add-derived-format.png)
+    ![Boîte de dialogue déroulante Créer une configuration.](./media/er-quick-start2-add-derived-format.png)
 
 6. Sélectionnez **Créer une configuration**.
 
 La version 1.1.1 de la configuration du format de gestion des états électroniques **BACS (UK custom)** est créée. Cette version présente le [statut](general-electronic-reporting.md#component-versioning) **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
 
-![Page Configurations](./media/er-quick-start2-derived-format-configuration1.png)
+![Page Configurations.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Modifier un format personnalisé
 
@@ -291,7 +293,7 @@ Vous devez configurer votre format personnalisé afin qu’il réponde aux exige
 
 7. Sélectionnez l’élément **transaction**.
 
-    ![Élément transaction dans le concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-derived-format0.png)
+    ![Élément de transaction dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > L’état fourni est configuré de sorte que <a id="PositionRoutingNumber"></a>chaque ligne de paiement commence par le numéro d’acheminement bancaire. L’élément de format **vendBankRouteNum** est utilisé à cet effet. 
@@ -309,13 +311,13 @@ Vous devez configurer votre format personnalisé afin qu’il réponde aux exige
 9. Dans l’arborescence de la structure du format, sélectionnez **vendBankSWIFT**.
 10. Sélectionnez **Déplacer vers le haut** pour déplacer l’élément de format sélectionné d’un niveau vers le haut. Répétez cette étape jusqu’à ce que l’élément **vendBankSWIFT** soit le <a id="PositionSWIFTCode"></a>premier élément sous l’élément parent **transaction**.
 
-    ![VendBankSWIFT comme premier élément sous l’élément transaction du concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-derived-format1.png)
+    ![VendBankSWIFT comme premier élément sous la transaction dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-derived-format1.png)
 
 11. Alors que l’élément **vendBankSWIFT** est toujours sélectionné dans l’arborescence de la structure du format, sélectionnez l’onglet **Mise en correspondance**, puis développez la source de données **modèle**.
 12. Développez **model.Payment** \> **model.Payment.CreditorAgent** et sélectionnez le champ de source de données **model.Payment.CreditorAgent.BICFI**. Ce champ de source de données expose le code SWIFT d’une banque fournisseur à laquelle le rôle d’agent est affecté dans le paiement fournisseur traité.
 13. Sélectionnez **Lier**. L’élément de format **vendBankSWIFT** est maintenant lié au champ de source de données **model.Payment.CreditorAgent.BICFI**, afin que les codes SWIFT soient entrés dans les fichiers de paiement générés.
 
-    ![Élément de format vendBankSWIFT lié au champ de source de données model.Payment.CreditorAgent.BICFI dans le concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-derived-format2.png)
+    ![Élément de format vendBankSWIFT lié au champ de source de données model.Payment.CreditorAgent.BICFI dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-derived-format2.png)
 
 14. Sélectionnez **Enregistrer**.
 15. Fermez la page du concepteur.
@@ -333,7 +335,7 @@ Pour utiliser la version provisoire d’un format de gestion des états électro
 5. Dans l’arborescence de configuration du volet gauche, sélectionnez **BACS (UK custom)**.
 6. Définissez l’option **Exécuter le brouillon** sur **Oui**.
 
-    ![Option Exécuter le brouillon de la page Configurations](./media/er-quick-start2-derived-format-configuration2.png)
+    ![Option Exécuter le brouillon de la page Configurations.](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Traiter un paiement fournisseur en utilisant le format de gestion des états électroniques personnalisé
 
@@ -347,7 +349,7 @@ Vous devez configurer le mode de paiement électronique afin que votre format de
 4. Dans l’organisateur **Format de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK custom)**.
 
-    ![Page Modes de paiement – fournisseurs](./media/er-quick-start2-method-of-payment2.png)
+    ![Page Modes de paiement – fournisseurs.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -376,7 +378,7 @@ Vous devez configurer le mode de paiement électronique afin que votre format de
 
         Notez que, conformément à la structure de votre format de gestion des états électroniques personnalisé, la ligne de paiement du fichier généré [commence](#PositionSWIFTCode) maintenant par le code SWIFT qui a été [entré](#DefineSWIFTCode) pour le compte bancaire du vendeur dont le paiement a été traité.
 
-        ![Fichier de paiement au format TXT](./media/er-quick-start2-payment-file2.png)
+        ![Fichier de paiement au format TXT.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Importer les nouvelles versions des configurations du format de gestion des états électroniques standard
 
@@ -393,7 +395,7 @@ Pour ajouter les nouvelles versions des configurations de gestion des états él
 5. Dans l’organisateur **Versions**, sélectionnez la version **3.3** de la configuration du format de gestion des états électroniques sélectionnée.
 6. Sélectionnez **Importer** pour télécharger la version sélectionnée depuis le référentiel global vers l’instance actuelle de Finance.
 
-![Page du référentiel de configuration](./media/er-quick-start2-import-solution2.png)
+![Page du référentiel de configuration.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Si vous ne parvenez pas à accéder au [Référentiel global](er-download-configurations-global-repo.md), vous pouvez [télécharger les configurations](download-electronic-reporting-configuration-lcs.md) depuis LCS.
@@ -408,7 +410,7 @@ Pour ajouter les nouvelles versions des configurations de gestion des états él
 6. Sur la page **Concepteur de formats**, développez l’élément de format **BACSReportsFolder**.
 7.  Notez que la version 3.3 contient l’élément de format **PaymentAdviceReport** utilisé pour générer un état d’avis de paiement lorsqu’un paiement fournisseur est traité.
 
-    ![Élément de format PaymentAdviceReport du concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-imported-solution2.png)
+    ![Élément de format PaymentAdviceReport du concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-imported-solution2.png)
 
 8. Fermez la page du concepteur.
 
@@ -434,14 +436,14 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
 3. Dans l’organisateur **Versions**, sélectionnez la version **1.1.2**, puis sélectionnez **Redéfinir**.
 4. Dans la boîte de dialogue **Redéfinir**, dans le champ **Version cible**, sélectionnez la version **3.3** de la configuration de base pour l’appliquer en tant que nouvelle base et l’utiliser pour mettre à jour la configuration.
 
-    ![Boîte de dialogue Redéfinir](./media/er-quick-start2-rebase1.png)
+    ![Boîte de dialogue Redéfinir.](./media/er-quick-start2-rebase1.png)
 
 5. Cliquez sur **OK**.
 6. Notez que le numéro de la version provisoire a été modifié de **1.1.2** à **3.3.2** pour refléter les modifications de la version de base.
 
     Lorsque la version personnalisée et une nouvelle version de base sont fusionnées, des conflits peuvent être détectés à cause des modifications de format qui ne peuvent pas être fusionnées automatiquement.
 
-    ![Configuration redéfinie avec des conflits sur la page Configurations](./media/er-quick-start2-rebase2.png)
+    ![Configuration redéfinie avec des conflits sur la page Configurations.](./media/er-quick-start2-rebase2.png)
 
     Si des conflits sont détectés, ils doivent être résolus manuellement dans le concepteur de format.
 
@@ -449,13 +451,13 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
 8. Sélectionnez **Concepteur**.
 9. Dans la page **Concepteur de formats**, dans l’organisateur **Détails**, sélectionnez un enregistrement de conflit de redéfinition, puis sélectionnez **Appliquer la valeur de base**.
 
-    ![Enregistrement de conflit de redéfinition dans le concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-rebase3.png)
+    ![Enregistrement de conflit de redéfinition dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-rebase3.png)
 
 10. Sélectionnez **Enregistrer**.
 
     L’enregistrement de conflit de redéfinition ne devrait plus s’afficher dans l’organisateur **Détails**.
 
-    ![Conflit résolu dans le concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-rebase4.png)
+    ![Conflit résolu dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > Vous avez résolu le conflit en confirmant que la version 3 du modèle de base doit être utilisée dans ce format de gestion des états électroniques.
@@ -463,7 +465,7 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
 11. Développez **BACSReportsFolder** \> **fichier** \> **transactions** \> **transaction**.
 12. Sous l’onglet **Mise en correspondance**, notez que la version 3.3.2 de votre format de gestion des états électroniques personnalisé contient à la fois votre personnalisation (l’élément de format **vendBankSWIFT** et sa liaison) et la nouvelle fonctionnalité de la version 3.3 du format de gestion des états électroniques de base fournie par Microsoft (l’élément de format **PaymentAdviceReport** ainsi que ses éléments imbriqués et ses liaisons configurées). En quelques clics de souris, vous avez adopté les modifications d’une nouvelle version de base en les fusionnant avec votre personnalisation.
 
-    ![Format fusionné dans le concepteur d’opérations de gestion des états électroniques](./media/er-quick-start2-rebase5.png)
+    ![Format fusionné dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start2-rebase5.png)
 
 13. Fermez la page du concepteur.
 
@@ -488,7 +490,7 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
     - Définissez l’option **Imprimer l’état de contrôle** sur **Oui**.
     - Définissez l’option **Imprimer un avis de paiement** sur **Oui**.
 
-    ![Boîte de dialogue Paramètres de génération d’états électroniques](./media/er-quick-start2-payment-dialog2.png)
+    ![Boîte de dialogue Paramètres de génération d’états électroniques.](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > En plus du fichier de paiement, vous pouvez maintenant générer à la fois l’état de contrôle et l’état d’avis de paiement.
@@ -499,13 +501,13 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
     - État de contrôle au format Excel
     - État d’avis de paiement au format Excel
 
-        ![État d’avis de paiement au format Excel](./media/er-quick-start2-payment-advice-report.png)
+        ![État d’avis de paiement au format Excel.](./media/er-quick-start2-payment-advice-report.png)
 
     - Fichier de paiement au format TXT
 
         Notez que la ligne de paiement du fichier généré commence par le code SWIFT qui a été entré pour le compte bancaire d’un vendeur dont le paiement a été traité.
 
-        ![Fichier de paiement au format TXT](./media/er-quick-start2-payment-file3.png)
+        ![Fichier de paiement au format TXT.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Ressources supplémentaires
 

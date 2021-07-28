@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345206"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Afficher les notifications dans le point de vente (PDV)
 
@@ -72,14 +72,14 @@ Les boutons du PDV peuvent désormais afficher un nombre permettant aux travaill
 
 L’illustration suivante présente les paramètres de contenu en direct dans le concepteur de grille de boutons.
 
-![Paramètres de contenu en direct dans le concepteur de grille de boutons](./media/ButtonGridDesigner.png "Paramètres de contenu en direct dans le concepteur de grille de boutons")
+![Paramètres de contenu en direct dans le concepteur de grille de boutons.](./media/ButtonGridDesigner.png "Paramètres de contenu en direct dans le concepteur de grille de boutons")
 
 Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer que la mise en page de l’écran appropriée est mise à jour. Pour déterminer la mise en page de l’écran utilisée par le PDV, sélectionnez l’icône **Paramètres** dans l’angle supérieur droit et notez l’**ID mise en page de l’écran** et **Résolution de mise en page**. Maintenant, à l’aide du navigateur Edge, cliquez sur la page **Mise en page de l’écran**, recherchez l’**ID mise en page de l’écran** et **Résolution de mise en page** identifiés ci-dessus et activez la case à cocher **Activer le contenu en direct**. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution** et exécutez les 1 090 tâches (registres) pour synchroniser les modifications de la mise en page.
 
-![Trouver la mise en page de l’écran utilisée par le PDV](./media/Choose_screen_layout.png "Trouver la mise en page de l’écran")
+![Trouver la mise en page de l’écran utilisée par le PDV.](./media/Choose_screen_layout.png "Trouver la mise en page de l’écran")
 
 L’illustration suivante présente les effets de la sélection de **Haut-Droite** par rapport à **Centré** dans le champ **Alignement de contenu** pour les boutons de différentes tailles.
 
-![Contenu en direct sur les boutons du PDV](./media/ButtonsWithLiveContent.png "Contenu en direct sur les boutons du PDV")
+![Contenu en direct sur les boutons du PDV.](./media/ButtonsWithLiveContent.png "Contenu en direct sur les boutons du PDV")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

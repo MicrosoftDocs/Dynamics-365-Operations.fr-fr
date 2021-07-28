@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347946"
 ---
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
@@ -174,7 +174,7 @@ Dans la colonne **Code de format** dans une définition de ligne, les codes de f
 
 Dans l’exemple suivant, un utilisateur souhaite empêcher que le titre et les traits de soulignement dans la ligne **Disponibilités totales** de son état soient imprimés, car il n’y a eu aucune activité dans aucun des comptes de disponibilités. Par conséquent, dans la ligne 220 (qui est une ligne de format comme l’indique le code de format **---**), dans la cellule **Formules/Lignes/Unités associées**, l’utilisateur entre **250**, qui est le code de ligne de la ligne de montant qu’il souhaite supprimer.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Sélectionner la ligne de base pour un calcul de colonne
 Dans la déclaration relationnelle, vous affectez une ou plusieurs lignes de base dans la définition de ligne à l’aide du code de format **CBR** (ligne de changement de base). Une ligne de base est alors référencée par un calcul dans la définition de colonne. Voici quelques exemples de typiques de calculs CBR :
@@ -399,7 +399,7 @@ La cellule **Lier aux dimensions financières** contient des liens vers des donn
 2. Double-cliquez sur une cellule dans la colonne **Lien vers les dimensions financières**.
 3. Dans la boîte de dialogue **Dimensions**, double-cliquez sur une cellule sous le nom de dimension.
 4. Dans la boîte de dialogue pour la dimension, sélectionnez **Individuelle ou plage**.
-5. Dans le champ **À partir de**, entrez la dimension de départ, ou cliquez sur ![Parcourir](media/browse.gif "Parcourir") pour rechercher des dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu’à**.
+5. Dans le champ **À partir de**, entrez la dimension de départ ou cliquez sur ![Parcourir.](media/browse.gif "Parcourir") pour rechercher les dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu’à**.
 6. Cliquez sur **OK** pour fermer la boîte de dialogue pour la dimension. La boîte de dialogue **Dimensions** affiche la dimension ou la plage mise à jour.
 7. Cliquez sur **OK** pour fermer la boîte de dialogue **Dimensions**.
 
@@ -476,7 +476,7 @@ Le tableau suivant décrit les champs de la boîte de dialogue **Dimensions**.
 
 | Article                | Description |
 |---------------------|-------------|
-| Individuelle ou plage | Dans le champ **À partir de**, entrez le nom d’un compte, ou cliquez sur le bouton **Parcourir** ![Parcourir](media/browse.gif "Parcourir") pour chercher le compte. Pour sélectionner une plage, entrez ou cherchez une valeur dans le champ **Jusqu’à**. |
+| Individuelle ou plage | Dans le champ **À partir de**, entrez le nom d’un compte, ou cliquez sur le bouton **Parcourir** ![Parcourir](media/browse.gif "Parcourir"). pour rechercher le compte. Pour sélectionner une plage, entrez ou cherchez une valeur dans le champ **Jusqu’à**. |
 | Ensemble de valeurs de dimension | Dans le champ **Nom**, entrez le nom d’un ensemble de valeurs de dimensions. Pour créer, modifier, copier ou supprimer un ensemble, cliquez sur **Gérer les ensembles de valeurs de dimension**. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour cette valeur de dimension définie dans la définition de ligne. |
 | Compte de totalisation   | Dans le champ **Nom**, entrez ou recherchez une dimension des comptes de totalisation. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour ce compte de totalisation dans la définition d’état. |
 

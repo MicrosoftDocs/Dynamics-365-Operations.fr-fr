@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344268"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Intégration de Dynamics 365 Supply Chain Management (Gestion des actifs) avec Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Pour associer un guide à un modèle de liste de contrôle de maintenance, suive
     1. Sur le raccourci **Lignes de liste de contrôle de maintenance**, sélectionnez la ligne à laquelle vous souhaitez associer le guide.
     1. Dans le raccourci **Guides associés**, sélectionnez **Ajouter un guide**.
 
-        ![Associer un guide à un modèle de ligne de contrôle de maintenance](media/am-guides-integration-add-guide.png "Associer un guide à un modèle de ligne de contrôle de maintenance")
+        ![Associer un guide à un modèle de ligne de contrôle de maintenance.](media/am-guides-integration-add-guide.png "Associer un guide à un modèle de ligne de contrôle de maintenance")
 
     1. Dans le champ **Nom**, sélectionnez un guide, puis sélectionnez **Enregistrer**.
 
-        ![Sélectionner un guide dans le champ Nom](media/am-guides-integration-select-guide.png "Sélectionner un guide dans le champ Nom")
+        ![Sélectionner un guide dans le champ Nom.](media/am-guides-integration-select-guide.png "Sélectionner un guide dans le champ Nom")
 
 1. Associer le modèle de liste de contrôle de maintenance à un type de tâche :
 
     1. [Créer un type de tâche de maintenance](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) ou sélectionner un type de tâche de maintenance existant.
     1. Dans le volet Actions, sélectionnez **Valeurs par défaut du type de tâche de maintenance**.
 
-        ![Bouton Valeurs par défaut du type de tâche de maintenance](media/am-guides-integration-job-defaults.png "Bouton Valeurs par défaut du type de tâche de maintenance")
+        ![Bouton Valeurs par défaut du type de tâche de maintenance.](media/am-guides-integration-job-defaults.png "Bouton Valeurs par défaut du type de tâche de maintenance")
 
     1. Créez une ligne, puis sélectionnez **Enregistrer**.
 
-        ![Créer une ligne](media/am-guides-integration-add-line.png "Créer une ligne").
+        ![Créez une ligne.](media/am-guides-integration-add-line.png "Créer une ligne")
 
     1. Dans le volet Actions, sélectionnez **Liste de contrôle de maintenance**.
 
-        ![Bouton Liste de contrôle de maintenance](media/am-guides-integration-maintenance-checklist.png "Bouton Liste de contrôle de maintenance")
+        ![Bouton Liste de contrôle de maintenance.](media/am-guides-integration-maintenance-checklist.png "Bouton Liste de contrôle de maintenance")
 
     1. Dans le raccourci **Lignes de liste de contrôle de maintenance**, ajoutez une ligne, puis remplacez la valeur du champ **Type** par **Modèle**.
 
-        ![Changer la valeur Type](media/am-guides-integration-checklist-lines.png "Changer la valeur Type")
+        ![Changer la valeur Type.](media/am-guides-integration-checklist-lines.png "Changer la valeur Type")
 
     1. Dans le raccourci **Détails de la ligne**, dans le champ **Modèle**, sélectionnez le modèle auquel vous avez associé le guide, puis sélectionnez **Enregistrer**.
 
-        ![Sélectionner le modèle](media/am-guides-integration-checklist-line-details.png "Sélectionner le modèle")
+        ![Sélectionner le modèle.](media/am-guides-integration-checklist-line-details.png "Sélectionner le modèle")
 
 1. [Créez un bon de travail](work-orders/manually-created-workorders.md#create-work-order), puis sélectionnez le type de tâche de maintenance qui utilise le modèle de liste de contrôle de maintenance auquel vous avez associé le guide. Le guide est automatiquement associé à l’ordre de travail.
 
-    ![Sélectionner le type de tâche de maintenance](media/am-guides-integration-create-work-order.png "Sélectionner le type de tâche de maintenance")
+    ![Sélectionner le type de tâche de maintenance.](media/am-guides-integration-create-work-order.png "Sélectionner le type de tâche de maintenance")
 
 1. Affichez le guide qui est associé à l’ordre de travail et aux collaborateurs :
 
@@ -95,11 +95,11 @@ Pour associer un guide à un modèle de liste de contrôle de maintenance, suive
     1. [Ouvrez la liste de contrôle de maintenance](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) pour l’ordre de travail.
     1. Sélectionnez une ligne de liste de contrôle pour voir le guide associé.
 
-        ![Guide associé à une ligne de liste de contrôle](media/am-guides-integration-show-guide.png "Guide associé à une ligne de liste de contrôle")
+        ![Guide associé à une ligne de liste de contrôle.](media/am-guides-integration-show-guide.png "Guide associé à une ligne de liste de contrôle")
 
     1. Ouvrez le guide dans HoloLens.
 
-        ![Ouvrer le guide dans HoloLens](media/am-guides-integration-hololens-select.png "Ouvrir le guide dans HoloLens")
+        ![Ouvrer le guide dans HoloLens.](media/am-guides-integration-hololens-select.png "Ouvrir le guide dans HoloLens")
 
 > [!NOTE]
 > Vous pouvez également associer un guide directement dans la liste de contrôle de maintenance d’un ordre de travail ou d’un type de travail.

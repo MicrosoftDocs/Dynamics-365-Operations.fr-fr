@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344369"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux
 1. Connectez-vous au [portail Azure](https://portal.azure.com/).
 1. Dans le menu du portail Azure, sélectionnez **Créer une ressource**. Assurez-vous d’utiliser l’abonnement et le répertoire qui seront connectés à votre environnement Commerce.
 
-    ![Créer une ressource dans le portail Azure](./media/B2CImage_1.png)
+    ![Créer une ressource dans le portail Azure.](./media/B2CImage_1.png)
 
 1. Accédez à **Identité \> Azure Active Directory B2C**.
 1. Une fois sur la page **Créer un locataire B2C ou lier à un locataire existant**, utilisez une des options ci-dessous qui répond le mieux aux besoins de votre entreprise :
@@ -52,25 +52,25 @@ Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux
         1. Pour **Pays ou région**, sélectionnez le pays ou la région.
         1. Sélectionnez **Créer** pour créer le locataire.
 
-     ![Créer un locataire Azure AD](./media/B2CImage_2.png)
+     ![Créer un locataire Azure AD.](./media/B2CImage_2.png)
 
      - **Lier un locataire Azure AD B2C existant à mon abonnement Azure** : utilisez cette option si vous avez déjà un locataire Azure AD B2C auquel vous souhaitez vous lier.
         1. Sélectionnez **Lier un locataire Azure AD B2C existant à mon abonnement Azure**.
         1. Pour **Locataire Azure AD B2C**, sélectionnez le locataire B2C approprié. Si le message « Aucun locataire B2C admissible trouvé » s’affiche dans la zone de sélection, vous n’avez pas de locataire B2C éligible existant et vous devez en créer un.
         1. Pour **Groupe de ressources**, sélectionnez **Créer**. Entrez un **Nom** pour le groupe de ressources qui contient le locataire, sélectionnez **Emplacement du groupe de ressources**, puis **Créer**.
 
-    ![Lier un locataire Azure AD B2C existant à l’abonnement Azure](./media/B2CImage_3.png)
+    ![Lier un locataire Azure AD B2C existant à l’abonnement Azure.](./media/B2CImage_3.png)
 
 1. Une fois le nouveau répertoire Azure AD B2C créé (cela peut prendre quelques instants), un lien vers le nouveau répertoire apparaît sur le tableau de bord. Ce lien vous emmène vers la page « Bienvenue dans Azure Active Directory B2C ».
 
-    ![Lier au nouveau répertoire AAD](./media/B2CImage_4.png)
+    ![Lier au nouveau répertoire AAD.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Si vous avez plusieurs abonnements dans votre compte Azure, ou si vous avez configuré le locataire B2C sans créer de lien vers un abonnement actif, une bannière **Résoudre les problèmes** vous demande d’associer le locataire à un abonnement. Sélectionnez le message de résolution du problème et suivez les instructions pour résoudre le problème d’abonnement.
 
 L’image suivante montre un exemple d’une bannière Azure AD B2C **Résolution des problèmes**.
 
-![Avertissement indiquant que le répertoire n’a pas d’abonnement actif](./media/B2CImage_5.png)
+![Avertissement indiquant que le répertoire n’a pas d’abonnement actif.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>Créer l’application B2C
 
@@ -136,11 +136,11 @@ Pour créer une stratégie de flux d’utilisateur d’inscription et de connexi
 
 L’image suivante est un exemple de flux d’utilisateur d’inscription et de connexion Azure AD B2C.
 
-![Paramètres de la stratégie Inscription et connexion](./media/B2CImage_11.png)
+![Paramètres de la stratégie Inscription et connexion.](./media/B2CImage_11.png)
 
 L’image suivante montre l’option **Exécuter le flux d’utilisateur** dans le flux d’utilisateur Inscription et connexion à Azure AD B2C.
 
-![Exécuter l’option Flux d’utilisateur dans le flux de stratégie](./media/B2CImage_23.png)
+![Exécuter l’option Flux d’utilisateur dans le flux de stratégie.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Créer une stratégie de flux d’utilisateur de modification de profil
 
@@ -161,7 +161,7 @@ Pour créer une stratégie de flux d’utilisateur de modification de profil, pr
 
 L’image suivante montre un exemple du flux d’utilisateur de modification de profil Azure AD B2C.
 
-![Créer le flux d’utilisateur de modification de profil](./media/B2CImage_12.png)
+![Créer le flux d’utilisateur de modification de profil.](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Créer une stratégie de flux d’utilisateur de réinitialisation du mot de passe
 
@@ -225,18 +225,18 @@ Pour ajouter et configurer un fournisseur d’identité sociale, procédez comme
 
 L’image suivante présente des exemples d’écrans **Ajouter un fournisseur d’identité** et **Configurer le fournisseur d’identité sociale** dans Azure AD B2C.
 
-![Ajouter un fournisseur d’identité sociale à votre application](./media/B2CImage_14.png)
+![Ajouter un fournisseur d’identité sociale à votre application.](./media/B2CImage_14.png)
 
 L’image suivante montre un exemple de sélection des fournisseurs d’identité sur la page Azure AD B2C **Fournisseurs d’identité**.
 
-![Sélectionner chaque fournisseur d’identité sociale à activer pour votre stratégie](./media/B2CImage_16.png)
+![Sélectionner chaque fournisseur d’identité sociale à activer pour votre stratégie.](./media/B2CImage_16.png)
 
 L’image suivante montre un exemple d’écran de connexion par défaut avec un bouton de connexion du fournisseur d’identité sociale affiché.
 
 > [!NOTE]
 > Si vous utilisez les pages personnalisées créées dans Commerce pour vos flux d’utilisateurs, les boutons des fournisseurs d’identité sociale devront être ajoutés à l’aide des fonctionnalités d’extensibilité de la bibliothèque de modules Commerce. De plus, lors de la configuration de vos applications avec un fournisseur d’identité sociale spécifique, dans certains cas, les chaînes d’URL ou de configuration peuvent être sensibles à la casse. Reportez-vous aux instructions de connexion de votre fournisseur d’identité sociale pour plus d’informations.
  
-![Exemple d’écran de connexion par défaut avec le bouton de connexion du fournisseur d’identité sociale affiché](./media/B2CImage_17.png)
+![Exemple d’écran de connexion par défaut avec le bouton de connexion du fournisseur d’identité sociale affiché.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Mettre à jour Commerce Headquarters avec les nouvelles informations Azure AD B2C
 
@@ -291,15 +291,15 @@ Pour collecter les informations d’application requises, procédez comme suit.
 
 L’image suivante montre un exemple de la page **Azure AD B2C - Applications**.
 
-![Accéder à l’application B2C au sein de votre locataire](./media/B2CImage_19.png)
+![Accéder à l’application B2C au sein de votre locataire.](./media/B2CImage_19.png)
 
 L’image suivante montre un exemple d’une page **Propriétés** de l’application dans Azure AD B2C. 
 
-![Copier l’ID d’application à partir des propriétés de l’application B2C](./media/B2CImage_21.png)
+![Copier l’ID d’application à partir des propriétés de l’application B2C.](./media/B2CImage_21.png)
 
 L’image suivante montre un exemple de stratégies de flux d’utilisateur sur la page **Azure AD B2C - Flux d’utilisateur (stratégies)**.
 
-![Collecter les noms de chaque flux de stratégie B2C](./media/B2CImage_22.png)
+![Collecter les noms de chaque flux de stratégie B2C.](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Saisir les informations de votre application de locataire AAD B2C dans Commerce
 

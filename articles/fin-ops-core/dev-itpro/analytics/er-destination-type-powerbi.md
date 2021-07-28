@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 964ed05eaba2a4dbba904b4ce0e0be33d0925fb5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 20f3c04e5a916524c2c2e8fcb49dfbcd41eb6bb6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753454"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347898"
 ---
 # <a name="power-bi-destination"></a>Destination Power BI
 
@@ -30,11 +30,11 @@ Vous pouvez configurer une destination Microsoft Power BI pour chaque composant 
 
 Définissez **Activé** sur **Oui** pour utiliser la configuration ER pour organiser le transfert des données entre votre instance Dynamics 365 Finance et les services Microsoft Power BI. Les fichiers transférés sont stockés sur une instance Microsoft SharePoint Server qui doit être configurée à cette fin. Pour plus d’informations, voir [Configurer les états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
-[![Page Paramètres de destination](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![Page Paramètres de destination.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+- [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
 

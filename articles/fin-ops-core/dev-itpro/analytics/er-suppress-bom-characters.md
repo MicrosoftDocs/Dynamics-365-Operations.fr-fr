@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893274"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345886"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Concevoir des configurations pour la gestion des états électroniques pour supprimer les caractères de nomenclature dans les fichiers générés
 
@@ -29,14 +29,14 @@ Vous pouvez créer une [solution](er-quick-start1-new-solution.md) de [gestion d
 > [!NOTE]
 > Si le format contient un nom de codage incorrect, une erreur est générée lorsque vous enregistrez vos modifications des paramètres du format.
 
-![Ajouter un élément racine sur la page Concepteur de format](./media/er-suppress-bom-characters-image1.gif)
+![Ajouter un élément racine sur la page Concepteur de format.](./media/er-suppress-bom-characters-image1.gif)
 
 Si vous spécifiez **UTF-8**, **UTF-16** ou **UTF-32** comme encodage, l’option **Supprimer les caractères de marque d’ordre d’octet** devient disponible. Définissez cette option sur **Oui** pour supprimer les [ caractères de marque d’ordre d’octet](/globalization/encoding/byte-order-mark) dans les fichiers sortants générés lors de l’exécution du format de gestion des états électroniques modifiable.
 
 > [!NOTE]
 > Si vous laissez le champ **Codage** vide, la valeur par défaut **UTF-8** est utilisée.
 
-![Définition de l’option Supprimer les caractères de marque d’ordre d’octet sur la page Concepteur de format](./media/er-suppress-bom-characters-image2.gif)
+![Définition de l’option Supprimer les caractères de marque d’ordre d’octet sur la page Concepteur de format.](./media/er-suppress-bom-characters-image2.gif)
 
 Pour examiner la fonctionnalité au moment de l’exécution, suivez la procédure appropriée. Par exemple, suivez les étapes de la rubrique [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md). Une fois que vous avez terminé les étapes de la section [Modifier le format pour que le calcul soit basé sur la sortie générée](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) de cette rubrique, suivez ces étapes supplémentaires.
 
@@ -59,7 +59,7 @@ Pour examiner la fonctionnalité au moment de l’exécution, suivez la procédu
 
     La première différence que vous remarquerez est dans l’en-tête du fichier. Le fichier SampleXmlReport.xml contient un caractère de marque d’ordre d’octet, contrairement au fichier SampleXmlReport (1).xml.
 
-    ![Comparaison des fichiers générés avec un utilitaire de comparaison de fichiers](./media/er-suppress-bom-characters-image3.png)
+    ![Comparaison des fichiers générés avec un utilitaire de comparaison de fichiers.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Voir également :
 

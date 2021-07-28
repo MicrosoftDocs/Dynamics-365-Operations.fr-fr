@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344880"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Suivez l’exécution des formats d’ER pour résoudre les problèmes de performances
 
@@ -56,14 +56,14 @@ Vous devez également télécharger et localement enregistrer les fichiers suiva
 
 Chaque suivi des performances ER généré dans l’application est enregistré comme pièce jointe de l’enregistrement de journal d’exécution. Le cadre de Gestion des documents est utilisé pour traiter ces pièces jointes. Vous devez configurer les paramètres ER à l’avance, pour spécifier le type de document de Gestion des documents qui doit être utilisé pour associer les suivis des performances. Dans l’espace de travail **Génération des états électroniques**, sélectionnez **Paramètres de gestion des états électroniques**. Puis, dans la page **Paramètres de la gestion des états électroniques**, sous l’onglet **Pièces jointes**, dans le champ **Autres**, sélectionnez le type de document de Gestion des documents à utiliser pour les suivis des performances.
 
-![Page Paramètres de la gestion des états électroniques](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Page Paramètres de la gestion des états électroniques.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Pour être disponible dans le champ de recherche **Autres**, un type de document de gestion des documents doit être configuré de la façon suivante dans la page **Types de documents** (**Administration d’organisation \> Gestion des documents \> Types de document**) :
 
 - **Classe :** Associer un fichier
 - **Groupe :** Fichier
 
-![Page Types de documents](./media/GER-PerfTrace-DM-DocumentType.png)
+![Page Types de documents.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Le type de document sélectionné doit être disponible dans chaque société de l’instance actuelle, car les pièces jointes de gestion des documents sont spécifiques à la société.
@@ -72,7 +72,7 @@ Pour être disponible dans le champ de recherche **Autres**, un type de document
 
 Les suivis des performances ER générés sont importées dans RCS pour analyse à l’aide du concepteur de format ER et du concepteur de mise en correspondance ER. Comme les suivis des performances ER sont stockées en tant que pièces jointes de l’enregistrement de journal d’exécution associé au format ER, vous devez configurer les paramètres RCS à l’avance, pour spécifier le type de document de gestion des documents qui doit être utilisé pour associer les suivis des performances. Dans l’instance de RCS qui a été mise en service dans votre société, dans l’espace de travail **Génération d’états électronique**, sélectionnez **Paramètres de la gestion des états électroniques**. Puis, dans la page **Paramètres de la gestion des états électroniques**, sous l’onglet **Pièces jointes**, dans le champ **Autres**, sélectionnez le type de document de Gestion des documents à utiliser pour les suivis des performances.
 
-![Page Paramètres de la gestion des états électroniques dans RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Page Paramètres de la gestion des états électroniques dans RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Pour être disponible dans le champ de recherche **Autres**, un type de document de gestion des documents doit être configuré de la façon suivante dans la page **Types de documents** (**Administration d’organisation \> Gestion des documents \> Types de document**) :
 
@@ -92,7 +92,7 @@ Supposons que vous avez commencé à créer une solution ER pour générer un no
     2. Sélectionnez **Parcourir** pour sélectionner le fichier approprié pour la configuration ER requise ER au format XML.
     3. Cliquez sur **OK**.
 
-    ![Page Configurations dans RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Page Configurations dans RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Exécutez la solution ER pour suivre l’exécution
 
@@ -109,7 +109,7 @@ Supposons que vous avez terminé de configurer la première version de la soluti
     3. Dans l’organisateur **Configurations**, sélectionnez la configuration **Format de suivi des performances**.
     4. Dans l’organisateur **Versions**, sélectionnez la version **1.1** de la configuration sélectionnée, puis sélectionnez **Importer**.
 
-    ![Page du référentiel de configuration](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Page du référentiel de configuration.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Les versions correspondantes des configurations de modèle de données et de mise en correspondance de modèle sont importées automatiquement comme conditions préalables à la configuration de format ER importée.
 
@@ -156,7 +156,7 @@ Les versions correspondantes des configurations de modèle de données et de mis
     > [!NOTE]
     > Les paramètres dans la boîte de dialogue **Paramètres utilisateur** sont spécifiques à l’utilisateur et à la société actuelle.
 
-    ![Boîte de dialogue Paramètres utilisateur](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Boîte de dialogue Paramètres utilisateur.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>Exécuter le format ER
 
@@ -177,11 +177,11 @@ Les suivis des performances ci-dessous sont découplés du format ER source et p
 2. Dans la page **Journaux d’exécution d’états électroniques**, dans le volet gauche, dans le champ **Nom de la configuration**, sélectionnez **Format de suivi des performances** pour rechercher les enregistrements de journal générés par l’exécution de la configuration **Format de suivi des performances**.
 3. Sélectionnez le bouton **Pièces jointes** (le symbole du trombone) dans le coin supérieur droit de la page, ou appuyez sur **Ctrl+Maj+A**.
 
-    ![Bouton Pièces jointes sur la page Journaux d’exécution d’états électronique](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Bouton Pièces jointes sur la page Journaux d’exécution d’états électronique.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Dans la page **Documents joints des journaux d’exécution d’états électroniques**, dans le volet Actions, sélectionnez **Ouvrir** pour obtenir le suivi des performances comme fichier zip et l’enregistrer localement.
 
-    ![Pièces jointes pour les journaux d’exécution des états électroniques](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Pièces jointes pour les journaux d’exécution des états électroniques.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > Le suivi généré a une référence à l’état ER source via un identificateur d’état unique au format **GUID** uniquement. La numérotation de version du format n’est pas prise en compte.
@@ -198,7 +198,7 @@ Notez que l’association entre le suivi des performances généré pour le form
 6. Sélectionnez **Parcourir**, puis sélectionnez le fichier compressé que vous exporté précédemment.
 7. Cliquez sur **OK**.
 
-    ![Boîte de dialogue Paramètres des résultats du suivi des performances dans RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Boîte de dialogue Paramètres des résultats du suivi des performances dans RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Utilisez le suivi des performances à des fins d’analyse dans RCS – Exécution du format
 
@@ -209,7 +209,7 @@ Notez que l’association entre le suivi des performances généré pour le form
     - Le temps réel consacré à la saisie de données dans la sortie générée à l’aide de l’élément de format
     - Le même temps exprimé en pourcentage du temps total consacré à la génération de l’ensemble de la sortie
 
-    ![Page Concepteur de formats dans RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Page Concepteur de formats dans RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Fermez la page **Concepteur de formats**.
 
@@ -232,7 +232,7 @@ Notez que ER vous indique que la mise en correspondance de modèles actuelle dup
 - Un appel est effectué pour entrer les détails de chaque transaction dans le modèle de données, selon les liaisons configurées.
 - Un appel est effectué pour entrer le nombre calculé de transactions par fournisseur dans le modèle de données.
 
-![Message sur les demandes de base de données en double dans la page Concepteur de mise en correspondance de modèles dans RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Message sur les demandes de base de données en double dans la page Concepteur de mise en correspondance de modèles dans RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 La valeur **\[Q:530\]** indique que la table VendTrans a été appelée 530 fois pour renvoyer un enregistrement de cette table à la source de données VendTable/\<Relations/VendTrans.VendTable\_AccountNum. La valeur **\[530\]** indique que la source de données VendTable/\<Relations/VendTrans.VendTable\_AccountNum a été appelée 530 fois pour renvoyer un enregistrement de cette source de données et entrer les détails de celui-ci dans le modèle de données.
 
@@ -240,7 +240,7 @@ Il est recommandé d’utiliser pour la mise en cache pour la source de données
 
 Il peut également être utile de réduire le nombre d’appels effectués à la source de données LedgerTransTypeList. Cette source de données permet d’associer chaque valeur de l’énumération **LedgerTransType** avec son étiquette. Grâce à cette source de données, vous pouvez trouver une étiquette appropriée et l’entrer dans le modèle de données de chaque transaction fournisseur. Le nombre actuel d’appels à cette source de données (9 027) est assez élevé pour 265 transactions.
 
-![Page Concepteur de mise en correspondance de modèles dans RCS, affichant 9 027 appels à la source de données](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![Page Concepteur de mise en correspondance de modèles dans RCS, affichant 9 027 appels à la source de données.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Améliorer la mise en correspondance de modèles en fonction des informations du suivi d’exécution
 
@@ -253,7 +253,7 @@ Il peut également être utile de réduire le nombre d’appels effectués à la
     3. Développez l’élément **VendTable**, développez la liste des relations un-à-plusieurs de la source de données VendTable (l’élément **\<Relations**), puis sélectionnez l’élément **VendTrans.VendTable\_AccountNum**.
     4. Sélectionnez **Mettre en cache**.
 
-    ![Paramétrage de la mise en cache pour empêcher les appels en double](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Paramétrage de la mise en cache pour empêcher les appels en double.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Procédez comme suit pour adapter la source de données LedgerTransTypeList à la portée de la source de données VendTable :
 
@@ -274,7 +274,7 @@ Il peut également être utile de réduire le nombre d’appels effectués à la
     3. Sélectionnez l’élément **VendTable.\$TransType**.
     4. Sélectionnez **Mettre en cache**.
 
-    ![Paramétrage de la mise en cache du champ $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Paramétrage de la mise en cache du champ $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Procédez comme suit pour modifier le champ **\$TransTypeRecord** pour qu’il commence à utiliser le champ **\$TransType** mis en cache :
 
@@ -341,7 +341,7 @@ Notez que le nombre d’appels à la source de données LedgerTransTypeList a é
 
 Outre RCS, certaines versions peuvent offrir des fonctionnalités pour une expérience de concepteur de structure ER. Ces versions ont une option **Activer le mode de configuration** qui peut être activée. Vous pouvez rechercher cette option sur l’onglet **Général** de la page **Paramètres de la gestion des états électroniques**, accessible à partir de l’espace de travail **Gestion des états électroniques**.
 
-![Activer l’option Activer le mode de configuration sur la page des paramètres de gestion des états électroniques](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Activer l’option Activer le mode de configuration sur la page des paramètres de gestion des états électroniques.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Si vous utilisez une de ces versions de Finance and Operations, vous pouvez analyser les détails des suivis des performances générés directement dans l’application. Vous ne devez pas les exporter depuis l’application et les importer dans RCS.
 
@@ -359,7 +359,7 @@ Répétez les étapes de la section [Exécuter le format ER](#run-format) plus h
 
 Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier contient le suivi des performances dans le format PerfView. Vous pouvez ensuite utiliser l’outil d’analyse des performances PerfView pour analyser les détails de l’exécution de format ER.
 
-![Informations de suivi des performances au format PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Informations de suivi des performances au format PerfView.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utiliser des outils externes pour examiner une trace d’exécution comprenant des requêtes de base de données
 
@@ -375,7 +375,7 @@ En raison des améliorations apportées à la structure ER, le suivi des perform
     - Définissez l’option **Collecter les statistiques sur les requêtes** sur **Oui**.
     - Définissez l’option **Suivre les requêtes** sur **Oui**.
 
-    ![Section Suivi de l’exécution, boîte de dialogue Paramètres utilisateur](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Section Suivi de l’exécution, boîte de dialogue Paramètres utilisateur.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Exécuter le format ER
 
@@ -383,7 +383,7 @@ Répétez les étapes de la section [Exécuter le format ER](#run-format) plus h
 
 Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier contient le suivi des performances dans le format PerfView. Vous pouvez ensuite utiliser l’outil d’analyse des performances PerfView pour analyser les détails de l’exécution de format ER. Ce suivi comprend désormais les détails de l’accès à la base de données SQL lors de l’exécution du format ER.
 
-![Suivre les informations pour le format ER exécuté dans PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Suivre les informations pour le format ER exécuté dans PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

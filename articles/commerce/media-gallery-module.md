@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271278"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346714"
 ---
 # <a name="media-gallery-module"></a>Module Galerie multimédia
 
@@ -41,11 +41,11 @@ Voici quelques exemples d’utilisation des modules Galerie multimédia :
 
 Dans l’exemple de l’illustration suivante, une zone d’achat sur une page de détails de produit héberge des images de produit en utilisant un module Galerie multimédia.
 
-![Exemple d’une zone d’achat sur une page de détails de produit qui héberge des images de produit en utilisant un module Galerie multimédia](./media/ecommerce-pdp-buybox.PNG)
+![Exemple d’une zone d’achat sur une page de détails de produit qui héberge des images de produit en utilisant un module Galerie multimédia.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Propriétés de la galerie multimédia
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
 | Source de l’image | **Contexte de la page** ou **ID produit** | La valeur par défaut est **Contexte de la page**. Si l’option **Contexte de la page** est sélectionnée, le module s’attend à ce que la page fournisse les informations sur l’ID produit. Si l’option **ID produit** est sélectionnée, l’ID produit d’une image doit être fourni comme valeur de la propriété **ID produit**. Cette fonctionnalité est disponible dans la version 10.0.12 de Commerce. |
 | ID produit | ID produit | Cette propriété n’est applicable que si la valeur de la propriété **Source de l’image** est **ID produit**. |
@@ -59,11 +59,11 @@ Dans l’exemple de l’illustration suivante, une zone d’achat sur une page d
 
 L’illustration suivante montre un exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles.
 
-![Exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles](./media/ecommerce-media-zoom.png)
+![Exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles.](./media/ecommerce-media-zoom.png)
 
 L’illustration suivante montre un exemple de module Galerie multimédia contenant des images organisées (c’est-à-dire que les images spécifiées ne dépendent pas de l’ID produit ou du contexte de la page).
 
-![Exemple de module Galerie multimédia contenant des images organisées](./media/ecommerce-media-curated.PNG)
+![Exemple de module Galerie multimédia contenant des images organisées.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
 

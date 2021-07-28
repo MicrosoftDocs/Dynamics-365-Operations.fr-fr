@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830760"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344144"
 ---
 # <a name="work-split"></a>Fractionnement du travail
 
@@ -51,7 +51,7 @@ La fonctionnalité *Fractionnement du travail* ajoute les deux boutons suivants 
 - **Fractionnement du travail** – Fractionnez l’ID de travail actuel en plusieurs petits ID de travail qui peuvent être traités par des collaborateurs distincts.
 - **Annuler la session de fractionnement de travail** - Annulez la session de fractionnement du travail et rendez le travail disponible pour traitement.
 
-![Boutons Fractionnement du travail et Annulation de session de fractionnement du travail](media/Work_split_buttons.png "Boutons Fractionnement du travail et Annulation de session de fractionnement du travail")
+![Boutons Fractionnement du travail et Annulation de session de fractionnement du travail.](media/Work_split_buttons.png "Boutons Fractionnement du travail et Annulation de session de fractionnement du travail")
 
 > [!IMPORTANT]
 > Le bouton **Travail fractionné** ne sera pas disponible si l’une des conditions suivantes est remplie :
@@ -94,7 +94,7 @@ Pour fractionner le travail, procédez comme suit.
 
     Le champ **Motif de blocage de travail** du travail en cours sera défini sur *Travail fractionné*, et le travail sera bloqué.
 
-    ![Motif de blocage](media/Blocking_reason.png "Motif de blocage")
+    ![Motif de blocage.](media/Blocking_reason.png "Motif de blocage")
 
 1. Sélectionnez les lignes à supprimer de l’ID de travail actuel et ajoutez-les à un nouvel ID de travail. Les événements suivants surviennent :
 

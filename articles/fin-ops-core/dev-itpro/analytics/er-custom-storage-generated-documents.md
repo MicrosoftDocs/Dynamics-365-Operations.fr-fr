@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894122"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348162"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Spécifier un emplacement personnalisé de stockage pour les documents générés
 
@@ -39,7 +39,7 @@ Vous devez également avoir accès à l’environnement de développement pour c
 
 Dans la topologie actuelle, [créez un format d’états électroniques](tasks/er-format-configuration-2016-11.md) pour générer les documents que vous prévoyez pour ajouter un emplacement de stockage personnalisé. Sinon [importez un format d’états électroniques existant dans cette topologie](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Page Concepteur de formats](media/er-extend-file-storages-format.png)
+![Page Concepteur de formats.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Le format d’états électroniques que vous créez ou importez doit contenir au moins un des éléments de format suivants :
@@ -58,7 +58,7 @@ Pour spécifier comment les documents qu’un format d’états électroniques g
 3. Dans le champ **Classe**, spécifiez **Fichier joint**.
 4. Dans le champ **Groupe**, spécifiez **Fichier**.
 
-![Page Types de documents](media/er-extend-file-storages-document-type.png)
+![Page Types de documents.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Les types de documents sont spécifiques à la société. Pour utiliser un format d’états électroniques avec une destination configurée dans plusieurs sociétés, vous devez configurer un type de document distinct dans chaque société.
@@ -113,14 +113,14 @@ L’événement **AttachingFile ()** est déclenché lorsque les destinations de
 - **Archive** – Lorsque cette destination est utilisée, un nouvel enregistrement pour le format d’états électroniques exécuté est créé dans la table ERFormatMappingRunJobTable. Le champ **Archivé** dans cet enregistrement est défini sur **Faux**. Si le format d’états électroniques est exécuté avec succès, le document généré est joint à cet enregistrement, et l’événement **AttachingFile()** est déclenché. Le type de document sélectionné dans cette destination d’états électroniques détermine l’emplacement de stockage du fichier joint (stockage Microsoft Azure ou dossier Microsoft SharePoint ).
 - **Archive Tâche** – Lorsque cette destination est utilisée, un nouvel enregistrement pour le format d’états électronique exécuté est créé dans la table ERFormatMappingRunJobTable. Le champ **Archivé** dans cet enregistrement est défini sur **Vrai**. Si le format d’états électroniques est exécuté avec succès, le document généré est joint à cet enregistrement, et l’événement **AttachingFile()** est déclenché. Le type de document configuré dans les paramètres des états électroniques détermine l’emplacement de stockage du fichier joint (stockage Azure ou dossier Microsoft SharePoint).
 
-![Page Paramètres de la gestion des états électroniques](media/er-extend-file-storages-parameters.png)
+![Page Paramètres de la gestion des états électroniques.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Configurer une destination des états électroniques
 
 1. Configurez la destination archivée pour un des éléments précédemment mentionnés (fichier, dossier, fusion, ou pièce jointe) du format des états électroniques que vous avez créé ou importé. Pour obtenir de l’aide, voir [États électroniques – Configurer des destinations](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Utilisez le type de document que vous avez ajouté plus tôt pour la destination configurée. (Pour l’exemple dans cette rubrique, le type de document est **FileX**.)
 
-![Boîte de dialogue Paramètres de destination](media/er-extend-file-storages-destination.png)
+![Boîte de dialogue Paramètres de destination.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Modifier le code source
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 252829ac2d070833023f1b49aef615cc376f37b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117081"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344638"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Types, catégories, variantes, opérations et listes de contrôle de tâches de maintenance
 
@@ -54,7 +54,7 @@ Vous devez commencer par paramétrer les catégories de type de tâche de mainte
 
     Après avoir lié les catégories de types de tâches de maintenance aux types de tâches de maintenance, le champ **Types de tâche** affiche le nombre de types de tâches de maintenance liées à cette catégorie de type de tâche de maintenance.
 
-![Page Catégories de type de tâche de maintenance](media/01-setup-for-work-orders.png)
+![Page Catégories de type de tâche de maintenance.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Créer une variante du type de tâche de maintenance
 
@@ -68,7 +68,7 @@ Vous devez commencer par paramétrer les catégories de type de tâche de mainte
 
     Dans le raccourci **Détails**, le champ **Types de tâches** indique le nombre de types de tâches de maintenance ajoutés à cette variante de type de tâche de maintenance.
 
-![Page Variantes de type de tâche de maintenance](media/02-setup-for-work-orders.png)
+![Page Variantes de type de tâche de maintenance.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Créer une opération de tâche de maintenance
 
@@ -89,7 +89,7 @@ Vous devez commencer par paramétrer les catégories de type de tâche de mainte
 
     Dans le raccourci **Détails**, le champ **Certificats** indique le nombre de certificats ajoutés à cette opération de tâche de maintenance.
 
-![Page Opération de tâche de maintenance](media/03-setup-for-work-orders.png)
+![Page Opération de tâche de maintenance.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Créer une variable de liste de contrôle de maintenance
 
@@ -110,7 +110,7 @@ Lorsque vous créez des lignes de liste de contrôle de maintenance dans le type
 6. Dans le champ **Valeur**, entrez une description de la valeur.
 7. Dans le champ **Résultat**, sélectionnez un résultat pour la ligne.
 
-![Créer Variables de liste de contrôle de maintenance](media/04-setup-for-work-orders.png)
+![Créer Variables de liste de contrôle de maintenance.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Créer un modèle de liste de contrôle de maintenance
 
@@ -139,7 +139,7 @@ Les modèles de liste de contrôle de maintenance peuvent être utilisés comme 
 
     Dans le raccourci **Détails**, le champ **Chèques** affiche le nombre total de lignes de la liste de contrôle dans le modèle. Ce dernier inclut les lignes imbriquées dans n’importe quel modèle existant que vous avez indiqué dans le modèle.
 
-![Créer Modèles de liste de contrôle de maintenance](media/05-setup-for-work-orders.png)
+![Créer Modèles de liste de contrôle de maintenance.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Créer un type de tâche de maintenance
 
@@ -162,7 +162,7 @@ Les modèles de liste de contrôle de maintenance peuvent être utilisés comme 
 
 11. Dans le raccourci **Types d’actif**, vous pouvez ajouter des types d’actif au type de tâche de maintenance.
 
-![Page Types de tâches de maintenance](media/06-setup-for-work-orders.png)
+![Page Types de tâches de maintenance.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Créer des lignes de valeur par défaut du type de tâche maintenance et des prévisions, des listes de contrôle de maintenance, des outils, une description, et des pièces jointes associés
 
@@ -231,7 +231,7 @@ Les modèles de liste de contrôle de maintenance peuvent être utilisés comme 
 31. Pour copier une valeur par défaut du type de tâches de maintenance sur une autre valeur par défaut, sélectionnez la ligne de la valeur par défaut du type de tâche de maintenance pour copier un autre paramétrage, sélectionnez **Copier le paramétrage**, puis sélectionnez la valeur par défaut du type de tâche de maintenance à copier.
 32. Pour afficher la liste des actifs, des plans de maintenance, ou des visites de maintenance qui utilisent actuellement une ligne de valeur par défaut du type de tâches de maintenance, sélectionnez la ligne, puis sélectionnez **Utilisé par**.
 
-![Page Valeurs par défaut du type de tâche de maintenance](media/07-setup-for-work-orders.png)
+![Page Valeurs par défaut du type de tâche de maintenance.](media/07-setup-for-work-orders.png)
 
 Lorsque le système sélectionne la valeur par défaut du type de tâche de maintenance disponible qui doit être utilisée dans une ligne d’ordre de travail, la sélection est basée sur l’actif et le paramétrage du type d’actif. Le module Gestion des actifs parcourt tous les enregistrements de valeur par défaut du type de tâche de maintenance associés au type de tâches de maintenance associé au type d’actif à la recherche d’une correspondance possible. Il vérifie toujours la combinaison la plus spécifique en premier. En d’autres termes, le module Gestion des actifs vérifie tout d’abord une correspondance possible pour le champ **Transaction** afin de trouver la combinaison la plus spécifique. Si aucune correspondance n’est trouvée, il recherche une correspondance pour le champ **Variante du type de tâche de maintenance**. Si aucune correspondance n’est détectée, il cherche une correspondance pour le champ **Type de tâche de maintenance**, etc. (sur **Transaction**, puis sur **Variante de type de tâche de maintenance**, puis sur **Type de tâche de maintenance**, puis sur **Actif**, puis sur **Modèle**, puis sur **Fabricant**, puis sur **Type d’actif**). Si aucune correspondance n’est détectée, l’enregistrement par défaut où seul le type de tâche de maintenance est sélectionné est utilisé.
 
@@ -252,7 +252,7 @@ Après avoir créé les combinaisons par défaut de type de tâche de maintenanc
 4. Sélectionnez une combinaison de types de tâches de maintenance pour voir le paramétrage associé pour les listes de contrôle de maintenance, les prévisions et les outils. La section **Détails** du raccourci **Type de tâche de maintenance par défaut** indique le numéro des listes de contrôle de maintenance associées, les heures prévues, les articles, etc., qui sont associés à la combinaison de type de tâche de maintenance sélectionnée.
 5. Pour afficher les détails du type de tâche de maintenance sélectionné, sélectionnez **Types de tâches de maintenance**.
 
-![Page Types de tâches de maintenance de l’actif](media/08-setup-for-work-orders.png)
+![Page Types de tâches de maintenance de l’actif.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Mise à jour automatique des prévisions de type de tâche de maintenance
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190086"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347684"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docking des ordres de fabrication aux quais d’expédition
 
@@ -42,7 +42,7 @@ Un produit est déclaré terminé à l’emplacement de sortie de production (3)
 -   Si une remorque est déjà affectée à la porte de baie, le conducteur du camion sera dirigée pour charger le produit directement sur la remorque.
 -   S’il n’existe aucune activité planifiée pour transférer le produit, le conducteur du chariot élévateur sera dirigé pour mettre le produit précisément à un emplacement dans l’entrepôt interne (5).
 
-[![Cross-docking d’opportunités](./media/scenario1.png)](./media/scenario1.png)
+[![Cross-docking d’opportunités.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Configurer le cross-docking
 Configurez le processus de cross-docking dans **Stratégies de travail**. Une stratégie de travail inclut un type d’ordre d’exécution, un emplacement et un produit. Dans l’exemple suivant, le cross-docking est configuré pour le produit X et l’emplacement Y.

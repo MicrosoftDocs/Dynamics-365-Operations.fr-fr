@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838248"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345232"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurer les filtres de produit pour les transactions en entrepôt
 
@@ -46,11 +46,11 @@ Les filtres des produits fournissent jusqu’à 10 caractéristiques **Titre du
 1. Dans le champ **Titre de filtre**, sélectionnez une valeur.
 1. Dans le champ **Code de filtre**, entrez une valeur.
 
-    ![Paramétrage d’un filtre de produit](media/Product_Filters10.png "Paramétrage d’un filtre de produit")
+    ![Paramétrage d’un filtre de produit.](media/Product_Filters10.png "Paramétrage d’un filtre de produit")
 
 1. Dans le champ **Description**, entrez un nom pour le code. Par exemple, *Code 2* pourrait représenter des fournisseurs. Vous pouvez ensuite créer un filtre de produit pour un fournisseur ou un groupe de fournisseurs spécifique. Pour plus d’informations, voir la section [Paramétrage de codes filtre fournisseur](#vendor-product-filters) plus loin dans cette rubrique.
 
-    ![Ensemble de filtres des produits](media/Product_Filters.png "Ensemble de filtres des produits")
+    ![Ensemble de filtres des produits.](media/Product_Filters.png "Ensemble de filtres des produits")
 
 ## <a name="set-up-product-filter-groups"></a>Configurer les groupes de filtre de produit
 
@@ -69,7 +69,7 @@ Pour paramétrer des groupes de filtres, procédez comme suit.
 1. Dans le champ **Groupe d’articles**, sélectionnez le groupe d’articles auquel le filtre de produit doit s’appliquer.
 1. Dans les champs **Code 1** à **Code 10**, sélectionnez les codes de filtre à inclure dans le groupe, si nécessaire.
 
-    ![Groupe d’articles](media/ProdFilterGroup.png "Groupe d’articles")
+    ![Groupe d’articles.](media/ProdFilterGroup.png "Groupe d’articles")
 
 > [!NOTE]
 > Si vous recevez un message d’erreur lorsque vous fermez la page, il est possible qu’un paramétrage de code soit manquant. Sur la page **Groupes d’articles**, vous pouvez rendre les codes obligatoires pour un groupe d’articles en sélectionnant les options **Attribuer le code de filtre 1 au groupe d’articles**, **Attribuer le code de filtre 2 au groupe d’articles**, et ainsi de suite.
@@ -88,7 +88,7 @@ Pour paramétrer des codes filtre sur des groupes d’articles, procédez comme 
 
     Pour mettre à jour un produit lancé, ouvrez sa page **Détails des produits lancés**, puis, dans le volet Actions, sélectionnez **Modifier**. Les filtres associés aux codes deviennent alors disponibles sur l’organisateur **Entrepôt**.
 
-    ![Groupes d’articles](media/ItemGroup10.png "Groupes d’articles")
+    ![Groupes d’articles.](media/ItemGroup10.png "Groupes d’articles")
 
 1. Dans la section **Filtre de groupe d’articles**, cochez les cases des filtres qui doivent correspondre pour que le groupe de filtres soit le groupe de filtres par défaut pour un article.
 

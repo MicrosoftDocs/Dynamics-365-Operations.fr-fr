@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184020"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345498"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -73,7 +73,7 @@ Le hub possède les données suivantes :
 
 Les unités d’échelle sont propriétaires du traitement de la vague réelle (tel que la répartition du travail, le travail de réapprovisionnement et la création de la demande de travail) après le lancement de la vague. Par conséquent, les employés d’entrepôt peuvent traiter le travail sortant à l’aide d’une application mobile Gestion des entrepôts connectée à l’unité de mise à l’échelle.
 
-![Flux de traitement de vague](./media/wes-wave-processing-ga.png "Flux de traitement de vague")
+![Flux de traitement de vague.](./media/wes-wave-processing-ga.png "Flux de traitement de vague")
 
 ### <a name="process-work-and-ship"></a>Traiter le travail et expédier
 
@@ -81,7 +81,7 @@ Dès que le processus de travail final place le stock au lieu d’expédition fi
 
 Dès que le hub a mis à jour les transactions à *Prélevé*, il peut traiter la confirmation d’expédition sortante et le bon de livraison associé ou transférer l’ordre de transfert pour le chargement.
 
-![Flux des traitements sortants](./media/WES-outbound-processing-19.png "Flux des traitements sortants")
+![Flux des traitements sortants.](./media/WES-outbound-processing-19.png "Flux des traitements sortants")
 
 ## <a name="inbound-process-flow"></a>Flux des processus entrants
 
@@ -107,11 +107,11 @@ Le collaborateur peut exécuter le processus de réception à l’aide d’une a
 
 Si vous n’utilisez pas le processus de *lancement dans l’entrepôt*, et n’utilisent donc pas les *commandes d’entrepôt*, le hub peut traiter la réception en entrepôt et le traitement du travail indépendamment des unités de mise à l’échelle.
 
-![Flux des processus entrants](./media/wes-inbound-ga.png "Flux des processus entrants")
+![Flux des processus entrants.](./media/wes-inbound-ga.png "Flux des processus entrants")
 
 Lors de l’enregistrement entrant via le processus de réception de la commande d’entrepôt d’unité d’échelle au niveau de l’application d’entrepôt, la charge de travail de l’unité d’échelle signalera au hub de mettre à jour les transactions de ligne de commande d’achat associées à *Enregistré*. Dès que cela est terminé, vous serez en mesure d’accuser réception du produit concerné par la commande d’achat sur le hub.
 
-![Flux des traitements entrants](./media/WES-inbound-processing-19.png "Flux des traitements entrants")
+![Flux des traitements entrants.](./media/WES-inbound-processing-19.png "Flux des traitements entrants")
 
 ## <a name="supported-processes-and-roles"></a>Processus et rôles pris en charge
 

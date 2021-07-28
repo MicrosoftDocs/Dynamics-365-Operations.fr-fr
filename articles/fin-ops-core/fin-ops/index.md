@@ -9,17 +9,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.custom: 62303
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be65f8c49d5a4fb87f7d859c1e012d53515ad073
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bc81c7eed4724f9f68b592b23818781e1b047ebf
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893496"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340299"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentation des applications Finance and Operations
 
@@ -44,11 +44,11 @@ La majeure partie de ce contenu s’applique également aux produits associés 
  <p><a href="get-started/purchase-on-premises.md">Acheter Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Cycle de vie de l’implémentation</a></h3>
-<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Intégration d’un projet</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Préparation au lancement</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Mises à jour de service à une version</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Mises à jour du service One Version</a></h3>
 <p><a href="get-started/one-version.md">FAQ sur les mises à jour de service à une version</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Stratégie du cycle de vie de logiciel : Cloud</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Stratégie du cycle de vie de logiciel : Sur site</a></p>

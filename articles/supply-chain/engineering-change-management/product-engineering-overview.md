@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 70567489e5a1b84677ee63c296d15f5bdeb728ca
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115047"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338605"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -68,6 +69,6 @@ Ensuite, activez les clés de configuration en suivant ces étapes.
 1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 > [!IMPORTANT]
-> À partir d'avril 2022, les clés de licence pour **Gestion du changement technologique** et **Dimension du produit – Version** seront activées par défaut pour toutes les nouvelles installations, mais vous pourrez toujours les désactiver si nécessaire.
+> À partir d’avril 2022, les clés de licence pour **Gestion du changement technologique** et **Dimension du produit – Version** seront activées par défaut pour toutes les nouvelles installations, mais vous pourrez toujours les désactiver si nécessaire.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

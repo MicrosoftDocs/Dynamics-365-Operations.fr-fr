@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129808"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345182"
 ---
 # <a name="create-returns-in-pos"></a>Créer des retours dans le PDV
 
@@ -48,7 +48,7 @@ Si une transaction ou une commande correspond aux critères de recherche, la pag
 
 Pour chaque ligne de commande de la liste des produits retournables, le PDV affiche des informations sur la quantité d’achat d’origine et les quantités de tous les retours qui ont été précédemment traités. La quantité de retour qu’un utilisateur saisit pour une ligne de commande doit être inférieure ou égale à la valeur du champ **Disponible pour le retour**.
 
-![Page des produits retournables](media/returnslist.png)
+![Page des produits retournables.](media/returnslist.png)
 
 Pendant le traitement du retour, si un utilisateur possède le produit physique et que ce produit porte un code-barres, l’utilisateur peut scanner le code-barres pour enregistrer le retour. Chaque lecture du code-barres augmente la quantité de retour d’un article. Cependant, si l’étiquette du code à barres comporte une quantité intégrée, cette quantité sera saisie dans le champ **Retour maintenant**.
 
@@ -97,6 +97,13 @@ Si les informations côté canal ne sont pas à jour pour une raison quelconque 
 
 > [!NOTE]
 > Quand la fonction **Expérience unifiée de traitement des retours dans le PDV** est activée, de nouvelles fonctions facultatives prenant en charge la validation des retours de produits à numéro de série deviennent disponibles. Pour plus d’informations, consultez [Retour de produits contrôlés par numéro de série dans le point de vente (PDV)](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Activer le calcul de taxe correct pour les retours avec une quantité partielle
+
+Cette fonctionnalité garantit que lorsqu’une commande est retournée à l’aide de plusieurs factures, les taxes seront finalement égales au montant des taxes initialement facturées.
+1.  Accédez à l’espace de travail **Gestion des fonctionnalités** et recherchez **Activer le calcul de taxe correct pour les retours avec une quantité partielle**.
+2.  Sélectionnez **Activer le calcul de taxe correct pour les retours avec une quantité partielle**, puis cliquez sur **Activer**.
+
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

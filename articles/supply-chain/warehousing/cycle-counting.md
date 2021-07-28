@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838344"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345256"
 ---
 # <a name="cycle-counting"></a>Inventaire tournant
 
@@ -34,7 +34,7 @@ L’inventaire tournant est un processus d’entrepôt qui permet d’auditer le
 2.  **Traiter l’inventaire tournant** – Après avoir créé le travail d’inventaire tournant, vous effectuez le travail d’inventaire tournant en comptant les articles dans un emplacement d’entrepôt puis vous utilisez un appareil mobile pour entrer le résultat dans Dynamics 365 Supply Chain Management. Sinon, vous pouvez compter les articles dans un emplacement d’entrepôt sans créer de travail d’inventaire tournant. Ce processus est également appelé *inventaire tournant ponctuel*.
 3.  **Corriger des différences dans la valeur comptabilisée** – Après la réalisation d’un inventaire tournant, les articles présentant des différences au niveau de la valeur comptabilisée ont un statut de travail de **Révision en attente** dans la page **Tout le travail**. Vous pouvez résoudre ces différences dans la page **Révision en attente de travail d’inventaire tournant**.
 
-L’illustration suivante indique comment effectuer le processus d’inventaire tournant. ![Flux de processus pour l’inventaire tournant](./media/performcyclecountinginawarehouselocation.jpg)
+L’illustration suivante indique comment effectuer le processus d’inventaire tournant. ![Flux de processus pour l’inventaire tournant.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Conditions requises pour l’inventaire tournant
 Le tableau suivant indique les conditions requises devant être mises en place avant d’utiliser l’inventaire tournant.

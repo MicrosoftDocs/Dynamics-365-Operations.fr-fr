@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c9508ef6bffdbd92ffcdd494ebb7e0264f954892
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12a25ffff05a4d1e0ae71480115ddc209379c9f7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346361"
 ---
 # <a name="set-up-general-budget-reservation-rules-and-reservation-types"></a>Paramétrer des règles de réservation budgétaire générale et des types de réservation
 
@@ -32,7 +32,7 @@ Les entités du secteur public utilisent souvent des réservations budgétaires 
 
 L’illustration suivante indique comment paramétrer le système pour utiliser des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cette rubrique.
 
-![Paramétrage de la réservation budgétaire générale](media/gbr-rules-reservations-process.jpg "Paramétrage de la réservation budgétaire générale")
+![Paramétrage de la réservation budgétaire générale.](media/gbr-rules-reservations-process.jpg "Paramétrage de la réservation budgétaire générale")
 
 ## <a name="prerequisites"></a>Conditions préalables
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9440471d6983136971878c8ee9e327d4dd407833
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836660"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346152"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Présentation de la fonctionnalité de gestion des modifications techniques
 
@@ -57,7 +57,7 @@ Une organisation d’ingénierie est propriétaire des données d’ingénierie 
     - **Organisation d’ingénierie :** *DEMF*
     - **Nom de l’organisation :** *Contoso Entertainment System Allemagne*
 
-    ![Ajout d’une organisation d’ingénierie](media/engineering-org.png "Ajout d’une organisation d’ingénierie")
+    ![Ajout d’une organisation d’ingénierie.](media/engineering-org.png "Ajout d’une organisation d’ingénierie")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Configurer le groupe de dimensions de produit de version
 
@@ -67,7 +67,7 @@ Une organisation d’ingénierie est propriétaire des données d’ingénierie 
 1. Sélectionnez **Enregistrer** pour enregistrer la nouvelle dimension et charger les valeurs sur le raccourci **Dimensions du produit**.
 1. Sur le raccourci **Dimensions du produit**, définissez **Version** en tant que dimension de produit active.
 
-    ![Ajout d’un groupe de dimensions de produit](media/product-dimension-groups.png "Ajout d’un groupe de dimensions de produit")
+    ![Ajout d’un groupe de dimensions de produit.](media/product-dimension-groups.png "Ajout d’un groupe de dimensions de produit")
 
 ### <a name="set-up-product-lifecycle-states"></a>Configurer les états du cycle de vie du produit
 
@@ -82,7 +82,7 @@ Au fur et à mesure qu’un produit d’ingénierie parcourt son cycle de vie, i
 1. Sélectionnez **Enregistrer** pour enregistrer le nouvel état du cycle de vie et charger les valeurs sur le raccourci **Processus d’entreprise activés**.
 1. Sur le raccourci **Processus d’entreprise activés**, sélectionnez les processus d’entreprise qui doivent être disponibles. Pour cet exemple, laissez le champ **Stratégie** défini sur *Activé* pour tous les processus d’entreprise.
 
-    ![Activation des processus d’entreprise pour un état du cycle de vie](media/product-lifecycle-states-1.png "Activation des processus d’entreprise pour un état du cycle de vie")
+    ![Activation des processus d’entreprise pour un état du cycle de vie.](media/product-lifecycle-states-1.png "Activation des processus d’entreprise pour un état du cycle de vie")
 
 1. Sélectionnez **Nouveau** pour ajouter un autre état du cycle de vie, puis définissez les valeurs suivantes pour elle :
 
@@ -92,7 +92,7 @@ Au fur et à mesure qu’un produit d’ingénierie parcourt son cycle de vie, i
 1. Sélectionnez **Enregistrer** pour enregistrer le nouvel état du cycle de vie et charger les valeurs sur le raccourci **Processus d’entreprise activés**.
 1. Sur le raccourci **Processus d’entreprise activés**, sélectionnez les processus d’entreprise qui doivent être disponibles. Pour cet exemple, définissez le champ **Stratégie** sur *Activé avec avertissement* pour tous les processus d’entreprise.
 
-    ![Activation (avec avertissements) des processus d’entreprise pour un état du cycle de vie](media/product-lifecycle-states-2.png "Activation (avec avertissements) des processus d’entreprise pour un état du cycle de vie")
+    ![Activation (avec avertissements) des processus d’entreprise pour un état du cycle de vie.](media/product-lifecycle-states-2.png "Activation (avec avertissements) des processus d’entreprise pour un état du cycle de vie")
 
 ### <a name="set-up-a-version-number-rule"></a>Configurer une règle de numéro de version
 
@@ -103,7 +103,7 @@ Au fur et à mesure qu’un produit d’ingénierie parcourt son cycle de vie, i
     - **Règle de numéro :** *Auto*
     - **Format :** *V-\#\#*
 
-    ![Ajout d’une règle de numéro de version du produit](media/version-number-rule.png "Ajout d’une règle de numéro de version du produit")
+    ![Ajout d’une règle de numéro de version du produit.](media/version-number-rule.png "Ajout d’une règle de numéro de version du produit")
 
 ### <a name="set-up-a-product-release-policy"></a>Configurer une stratégie de lancement de produit
 
@@ -135,7 +135,7 @@ Au fur et à mesure qu’un produit d’ingénierie parcourt son cycle de vie, i
     - **Copier l’approbation de la gamme :** Cochez cette case.
     - **Copier l’activation de la gamme :** Cochez cette case.
 
-    ![Ajout d’une stratégie de lancement de produit](media/product-release-policy.png "Ajout d’une stratégie de lancement de produit")
+    ![Ajout d’une stratégie de lancement de produit.](media/product-release-policy.png "Ajout d’une stratégie de lancement de produit")
 
 ### <a name="set-up-an-engineering-product-category"></a>Configurer une catégorie de produits d’ingénierie 
 
@@ -160,7 +160,7 @@ Les catégories de produits d’ingénierie constituent la base de la création 
 1. Sur le raccourci **Stratégie de publication**, définissez le champ **Stratégie de lancement du produit** sur *Composants*.
 1. Sélectionnez **Enregistrer**.
 
-    ![Ajout d’une catégorie de produits d’ingénierie](media/product-category-details.png "Ajout d’une catégorie de produits d’ingénierie")
+    ![Ajout d’une catégorie de produits d’ingénierie.](media/product-category-details.png "Ajout d’une catégorie de produits d’ingénierie")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Configurer les conditions d’acceptation des produits
 
@@ -168,7 +168,7 @@ Les catégories de produits d’ingénierie constituent la base de la création 
 1. Aller à **Gestion des modifications d’ingénierie &gt; Configurer &gt; Paramètres de la gestion des modifications d’ingénierie**.
 1. Sur l’onglet **Contrôle de version**, dans la section **Acceptation du produit**, définissez le champ **Acceptation du produit** sur *Manuel*.
 
-    ![Configuration des conditions d’acceptation des produits](media/engineering-change-management-parameters.png "Configuration des conditions d’acceptation des produits")
+    ![Configuration des conditions d’acceptation des produits.](media/engineering-change-management-parameters.png "Configuration des conditions d’acceptation des produits")
 
 ## <a name="create-a-new-engineering-product"></a>Créer un produit d’ingénierie
 
@@ -187,23 +187,23 @@ Un produit d’ingénierie est un produit qui est versionné et contrôlé par l
     - **Numéro de produit :** *Z0001*
     - **Nom du produit :** *Ensemble de haut-parleurs*
 
-    ![Ajout d’un produit d’ingénierie](media/new-product-dialog.png "Ajout d’un produit d’ingénierie")
+    ![Ajout d’un produit d’ingénierie.](media/new-product-dialog.png "Ajout d’un produit d’ingénierie")
 
     Notez que le champ **Version** est automatiquement défini à l’aide de la règle de numéro de version du produit que vous avez définie précédemment.
 
 1. Cliquez sur **OK** pour créer le produit et fermer la boîte de dialogue.
 1. La page des détails du nouveau produit s’ouvre. Notez que des valeurs sont déjà remplies pour certains champs, tels que **Groupe de dimensions de stockage**, **Groupe de dimensions de suivi**, et/ou **Groupe de modèles d’article**. Ces champs ont été définis automatiquement car le produit est lancé dans l’entité juridique *DEMF* et utilise la stratégie de lancement du produit *Composants*, qui est associée à la catégorie de produit d’ingénierie *Composants*. Parce que vous avez déjà utilisé l’article *D0006* comme modèle pour configurer une ligne pour l’entité juridique *DEMF*, les valeurs renseignées ont été extraites de l’article *D0006*.
 
-    ![Détails des produits lancés](media/product-details.png "Détails des produits lancés")
+    ![Détails des produits lancés.](media/product-details.png "Détails des produits lancés")
 
 1. Dans le volet Actions, sur l’onglet **Ingénieur**, dans le groupe **Gestion des modifications d’ingénierie**, sélectionnez **Versions d’ingénierie** pour afficher les versions du produit.
 
-    ![Versions d’ingénierie](media/engineering-versions-list.png "Versions d’ingénierie")
+    ![Versions d’ingénierie.](media/engineering-versions-list.png "Versions d’ingénierie")
 
 1. Sur la page **Versions d’ingénierie**, notez qu’il n’existe qu’une seule version du produit et qu’elle est active.
 1. Sélectionnez la version pour en afficher les détails.
 
-    ![Détails de la version d’ingénierie](media/engineering-version-details.png "Détails de la version d’ingénierie")
+    ![Détails de la version d’ingénierie.](media/engineering-version-details.png "Détails de la version d’ingénierie")
 
 1. Sur la page **Version d’ingénierie**, sur le raccourci **Nomenclature**, sélectionnez **Créer une nomenclature**.
 1. Dans la boîte de dialogue **Créer une nomenclature**, définissez les valeurs suivantes :
@@ -212,25 +212,25 @@ Un produit d’ingénierie est un produit qui est versionné et contrôlé par l
     - **Nom :** Ensemble de haut-parleurs
     - **Site :** 1
 
-    ![Création d’une BOM](media/create-bom.png "Création d’une BOM")
+    ![Création d’une BOM.](media/create-bom.png "Création d’une BOM")
 
 1. Sélectionnez **OK** pour ajouter la nomenclature et fermer la boîte de dialogue.
 1. Sur le raccourci **Nomenclature**, sélectionnez **Nomenclature**.
 1. Sur la page **Nomenclature**, sur le raccourci **Lignes de nomenclature**, ajoutez trois lignes, une par numéro d’article *D0001*, *D0003* et *D0006*.
 
-    ![Ajout de lignes de nomenclature](media/bom.png "Ajout de lignes de nomenclature")
+    ![Ajout de lignes de nomenclature.](media/bom.png "Ajout de lignes de nomenclature")
 
 1. Sélectionnez **Enregistrer**.
 1. Fermez la page.
 1. Sur la page **Version d’ingénierie**, sur le raccourci **Nomenclature**, sélectionnez **Approuver**.
 1. Dans la boîte de dialogue qui apparaît, sélectionnez **OK**.
 
-    ![Approuver la nomenclature](media/approve-dialog.png "Approuver la nomenclature")
+    ![Approuver la nomenclature.](media/approve-dialog.png "Approuver la nomenclature")
 
 1. Sur la page **Version d’ingénierie**, sur le raccourci **Nomenclature**, sélectionnez **Activer**.
 1. Notez que les cases **Actif** et **Approuvé** sont cochées pour la nomenclature.
 
-    ![Nomenclature approuvée et activée](media/approved-bom.png "Nomenclature approuvée et activée")
+    ![Nomenclature approuvée et activée.](media/approved-bom.png "Nomenclature approuvée et activée")
 
 1. Fermez la page.
 
@@ -244,25 +244,25 @@ Le produit a maintenant été conçu par le service Ingénierie. Pour cet exempl
 1. Dans le volet Actions, sur l’onglet **Produit**, dans le groupe **Tenir à jour**, sélectionnez **Lancer la structure du produit** pour ouvrir l’Assistant **Lancer les produits**.
 1. Sur la page **Sélectionner les produits d’ingénierie à lancer**, cochez la case **Sélectionner** pour le produit *Z0001*.
 
-    ![Sélection des produits d’ingénierie à lancer](media/select-eng-product-to-release.png "Sélection des produits d’ingénierie à lancer")
+    ![Sélection des produits d’ingénierie à lancer.](media/select-eng-product-to-release.png "Sélection des produits d’ingénierie à lancer")
 
 1. Sélectionnez **Détails de la version**.
 1. La page **Détails de la version du produit** apparaît, où vous pouvez consulter les détails du produit qui sera lancé et sa structure de produit. Notez que l’option **Envoyer la nomenclature** est définie sur *Oui*. Par conséquent, le produit *Z0001* et tous ses articles enfants dans la nomenclature seront lancés.
 
     Vous pouvez sélectionner n’importe quel article enfant dans le volet gauche pour consulter ses détails. Si un article enfant a une nomenclature, vous pouvez également choisir de publier la nomenclature de cet article enfant.
 
-    ![Consulter les détails de la version du produit](media/product-release-details.png "Consulter les détails de la version du produit")
+    ![Consulter les détails de la version du produit.](media/product-release-details.png "Consulter les détails de la version du produit")
 
 1. Fermez la page pour revenir à l’Assistant **Lancer les produits**.
 1. Sélectionnez **Suivant** pour ouvrir la page **Sélectionner le produit à lancer**. Si vous aviez sélectionné des produits standard (non techniques), ils apparaîtront sur cette page. Notez que lorsque vous lancez un produit standard en sélectionnant **Lancer la structure du produit**, sa nomenclature et sa gamme sont également publiés.
 
-    ![Sélection des produits standard à lancer](media/select-std-product-to-release.png "Sélection des produits standard à lancer")
+    ![Sélection des produits standard à lancer.](media/select-std-product-to-release.png "Sélection des produits standard à lancer")
 
 1. Sélectionnez **Suivant** pour ouvrir la page **Sélectionner les variantes du produit**. Pour cet exemple, il n’y a aucune variante.
 1. Sélectionnez **Suivant** pour ouvrir la page **Sélectionner les sociétés**.
 1. Sélectionnez les entreprises dans lesquelles le produit doit être lancé. Pour cet exemple, cochez la case **USMF**.
 
-    ![Sélection des entreprises vers lesquelles publier](media/select-release-companies.png "Sélection des entreprises vers lesquelles publier")
+    ![Sélection des compagnies vers lesquelles publier.](media/select-release-companies.png "Sélection des entreprises vers lesquelles publier")
 
 1. Sélectionnez **Suivant** pour ouvrir la page **Confirmer la sélection**.
 1. Sélectionnez **Terminer**.
@@ -280,7 +280,7 @@ Pour examiner le produit et le livrer à l’entreprise *USMF*, suivez ces étap
 
     La page **Ouvrir les versions du produit** montre le produit *Z0001*, qui a un statut de *En attente d’acceptation*.
 
-    ![Lancements de produits en cours](media/open-product-releases.png "Lancements de produits en cours")
+    ![Lancements de produits en cours.](media/open-product-releases.png "Lancements de produits en cours")
 
 1. Sélectionnez la valeur dans la colonne **Numéro du produit** pour ouvrir la page **Détails de la version du produit**. Notez les informations suivantes :
 
@@ -288,7 +288,7 @@ Pour examiner le produit et le livrer à l’entreprise *USMF*, suivez ces étap
     - Le raccourci **Détails de la version** affiche des informations sur le produit et la version publiée. Ici, vous pouvez modifier les paramètres tels que les dates de validité.
     - Le raccourci **Gamme** montre la gamme du produit. Cependant, pour cet exemple, vous n’avez lancé aucune gamme.
 
-    ![Détails du lancement de produit](media/product-release-details-2.png "Détails du lancement de produit")
+    ![Détails du lancement de produit.](media/product-release-details-2.png "Détails du lancement de produit")
 
 1. Lorsque vous avez terminé de consulter les informations, vous êtes prêt à accepter le produit et, de cette manière, à le lancer dans l’entreprise *USMF*. Dans le volet Actions, sélectionnez **Actions &gt; Accepter**.
 1. Le produit est à présent lancé dans la société *USMF*. Allez à **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Vous devriez voir l’article *Z0001*.
@@ -304,7 +304,7 @@ Le gestionnaire de données principales pour l’entreprise *USMF* veut s’assu
 1. Sur le volet Actions, sous l’onglet **Produit**, dans le groupe **État du cycle de vie**, cliquez sur **Modifier l’état du cycle de vie**.
 1. Dans la boîte de dialogue déroulante **Modifier l’état du cycle de vie**, définissez le champ **État** sur *Prototype*, puis sélectionnez **OK**.
 
-    ![Modification de l’état du cycle de vie](media/change-lifecycle-state.png "Modification de l’état du cycle de vie")
+    ![Modification de l’état du cycle de vie.](media/change-lifecycle-state.png "Modification de l’état du cycle de vie")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Ajouter un produit d’ingénierie à une commande client
 
@@ -318,7 +318,7 @@ Le produit peut désormais être vendu à un client. Pour ajouter le produit à 
 
     Vous recevez un message d’avertissement qui vous informe que le statut de l’article est *Prototype*. Cependant, comme le message n’est qu’un avertissement, la commande client a quand même été créée.
 
-    ![Commande client pour un produit d’ingénierie](media/sales-order-eng-product.png "Commande client pour un produit d’ingénierie")
+    ![Commande client pour un produit d’ingénierie.](media/sales-order-eng-product.png "Commande client pour un produit d’ingénierie")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Demander des modifications du produit d’ingénierie
 
@@ -328,7 +328,7 @@ Le produit a été envoyé à un client, mais ce dernier n’était pas entière
 1. Recherchez et ouvrez la commande client que vous avez créée dans l’exercice précédent.
 1. Sur le raccourci **Lignes de commande client**, sélectionnez **Gestion des modifications d’ingénierie &gt; Nouvelle demande de modification d’ingénierie**.
 
-    ![Création d’une demande de modification technique à partir d’une commande client](media/sales-order-eng-change-request.png "Création d’une demande de modification technique à partir d’une commande client")
+    ![Création d’une demande de modification technique à partir d’une commande client.](media/sales-order-eng-change-request.png "Création d’une demande de modification technique à partir d’une commande client")
 
 1. Remplissez la demande de modification technique, en fonction des commentaires du client. Pour cet exemple, définissez les valeurs suivantes :
 
@@ -341,7 +341,7 @@ Le produit a été envoyé à un client, mais ce dernier n’était pas entière
 1. Dans le raccourci **Informations**, sélectionnez **Nouveau &gt; Note** pour ajouter une note à la grille.
 1. Dans le champ **Description** de la nouvelle note, indiquez que l’article *D0003* doit être supprimé de la nomenclature. Si vous devez ajouter plus d’informations pour la note, vous pouvez saisir du texte dans le champ **Remarques**.
 
-    ![Demande de modification d’ingénierie](media/eng-change-request.png "Demande de modification d’ingénierie")
+    ![Demande de modification d’ingénierie.](media/eng-change-request.png "Demande de modification d’ingénierie")
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Notez que l’article a été automatiquement ajouté sur le raccourci **Produits** et que la source de la demande de modification technique (la commande client) a été ajoutée sur le raccourci **Source**.
@@ -370,26 +370,26 @@ L’ingénieur examine maintenant la demande du client et crée un ordre de modi
     - **Produit :** *Z0001*
     - **Impact :** *Nouvelle version*
 
-    ![Création d’un ordre de modification technique](media/eng-change-order.png "Création d’un ordre de modification technique")
+    ![Création d’un ordre de modification technique.](media/eng-change-order.png "Création d’un ordre de modification technique")
 
 1. Remarquez que, parce que vous définissez le champ **Impact** sur *Nouvelle version*, le champ **Nouvelle version** sur l’onglet **Détails** du raccourci **Détails du produit** montre quel sera le nouveau numéro de version (*V-02* pour cet exemple).
 
-    ![Détails sur le produit pour un ordre de modification technique](media/eng-change-order-product-details.png "Détails sur le produit pour un ordre de modification technique")
+    ![Détails sur le produit pour un ordre de modification technique.](media/eng-change-order-product-details.png "Détails sur le produit pour un ordre de modification technique")
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Sur le raccourci **Détails du produit**, sur l’onglet **Nomenclature**, sélectionnez **Lignes** pour ouvrir la nomenclature pour la version *V-01* du produit *Z0001*.
 
-    ![Lignes de nomenclature de produits d’ingénierie](media/eng-product-bom-lines.png "Lignes de nomenclature de produits d’ingénierie")
+    ![Lignes de nomenclature de produits d’ingénierie.](media/eng-product-bom-lines.png "Lignes de nomenclature de produits d’ingénierie")
 
 1. Sélectionnez la ligne pour le numéro d’article *D0003*, puis, dans le volet Actions, sélectionnez **Supprimer**. La valeur du champ **Modifier le type** de cette ligne devient *Supprimé*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
-    ![Lignes de nomenclature de produits d’ingénierie modifiés](media/eng-product-bom-lines-modified.png "Lignes de nomenclature de produits d’ingénierie modifiés")
+    ![Lignes de nomenclature de produits d’ingénierie modifiés.](media/eng-product-bom-lines-modified.png "Lignes de nomenclature de produits d’ingénierie modifiés")
 
 1. Fermer la page **Ligne de nomenclature** pour revenir à la page **Ordre de modification technique**.
 1. Sur le raccourci **Détails du produit**, sur l’onglet **Nomenclature**, notez que la valeur du champ **Modifier le type** pour la nomenclature *Z0001* est maintenant *Modifié*.
 
-    ![Ordre de modification technique qui inclut une nomenclature modifiée](media/eng-change-order-changed-bom.png "Ordre de modification technique qui inclut une nomenclature modifiée")
+    ![Ordre de modification technique qui inclut une nomenclature modifiée.](media/eng-change-order-changed-bom.png "Ordre de modification technique qui inclut une nomenclature modifiée")
 
     L’ordre doit maintenant être approuvé avant que les modifications puissent être traitées. Lorsque les modifications sont traitées, les produits sont mis à jour avec les modifications incluses dans l’ordre de modification technique. Pour cet exemple, la personne qui crée l’ordre de modification technique a été indiquée comme approbateur.
 

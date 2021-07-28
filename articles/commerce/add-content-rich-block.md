@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797765"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347540"
 ---
 # <a name="text-block-module"></a>Module de bloc de texte
 
@@ -42,11 +42,11 @@ Les modules de bloc de texte peuvent être utilisés comme suit :
 
 L’image suivante montre un exemple de module de bloc de texte utilisé sur une page d’accueil.
 
-![Exemple d’un module de bloc de texte](./media/ecommerce-textblock.PNG)
+![Exemple d’un module de bloc de texte.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Propriétés de module de bloc de texte
 
-| Nom de la propriété     | Valeur                                            | Description |
+| Nom de la propriété     | Valeur                                             | Description  |
 |-------------------|--------------------------------------------------|-------------|
 | Texte enrichi         | Texte enrichi                                        | Texte du paragraphe. Certains capacités de texte enrichi de base sont prises en charge, telles que gras, souligné, et italiques. |
 | Nom de classe personnalisé | Un nom de classe de feuilles de style en cascade (CSS)        | Le nom d’une classe CSS personnalisée qu’un développeur fournit pour formater ce module. Le nom de classe doit être défini dans le pack de thème. |

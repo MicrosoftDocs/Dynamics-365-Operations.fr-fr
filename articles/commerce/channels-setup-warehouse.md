@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800493"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345982"
 ---
 # <a name="warehouse-set-up"></a>Paramétrer un entrepôt
 
@@ -45,7 +45,7 @@ Pour configurer un site d’entrepôt, procédez comme suit.
 
 L’image suivante présente un exemple de site d’entrepôt.
 
-![Exemple de site d’entrepôt](media/warehouse-site.png)
+![Exemple de site d’entrepôt.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Paramétrer un entrepôt
 
@@ -98,7 +98,7 @@ Pour paramétrer des emplacements de stockage d’entrepôt pour le stock standa
     
 L’image suivante montre une configuration de l’emplacement de stockage de l’entrepôt de San Francisco.
 
-![Exemple de configuration d’emplacement de stockage](media/warehouse-inventory-locations.png)
+![Exemple de configuration d’emplacement de stockage.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Paramétrage d’entrepôt complet
 
@@ -121,13 +121,13 @@ Pour terminer le paramétrage de l’entrepôt, procédez comme suit.
 
 L’image suivante montre les détails d’un entrepôt configuré.
 
-![Exemple d’entrepôt configuré](media/warehouse-sample.png)
+![Exemple d’entrepôt configuré.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble de gestion des entrepôts](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
+[Vue d’ensemble de la gestion des entrepôts](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
-[Présentation des canaux](channels-overview.md)
+[Vue d’ensemble des canaux](channels-overview.md)
 
 [Conditions préalables au paramétrage du canal](channels-prerequisites.md)
 

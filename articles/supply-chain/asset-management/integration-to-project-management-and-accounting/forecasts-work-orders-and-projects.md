@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813819"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345426"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prévisions, ordres de travail et projets
 
@@ -58,13 +58,13 @@ Certaines de ces informations pourraient rester introuvables sur un ordre de tra
 
 Par exemple, dans l’illustration suivante, en raison de la façon dont le type d’actif **Moteur de camion** est configuré, chaque tâche de l’ordre de travail est créée avec le type d’actif **Moteur de camion** comme sous-projet de l’ID de projet 000186.
 
-![Figure 1](media/01-integration-to-pma.png)
+![Figure 1.](media/01-integration-to-pma.png)
 
 L’objectif de l’ID de projet sur la tâche de l’ordre de travail, et le numéro d’activité associé, consiste à suivre les coûts associés à la tâche de l’ordre de travail, et l’actif qui y est sélectionné, dans le module **Gestion de projet et comptabilité**. (Pour afficher l’ID du projet et le numéro d’activité, sélectionnez **Gestion des actifs** > **Commun** > **Ordres de travail** > **Tous les ordres de travail**, puis sélectionnez l’ordre de travail. Dans l’organisateur **Détails de ligne**, le champ **ID de projet** indique l’ID du projet et le champ **Numéro d’activité** précise le numéro de l’activité.) Pour plus d’informations sur le contrôle des coûts dans Gestion des actifs, voir [Contrôle de date et de coût](../controlling-and-reporting/cost-and-date-control.md).
 
 L’illustration suivante présente une vue d’ensemble graphique des projets d’ordre de travail et des activités de projet associées.
 
-![Figure 2](media/02-integration-to-pma.png)
+![Figure 2.](media/02-integration-to-pma.png)
 
 Lorsqu’une nouvelle tâche d’ordre de travail est créée sur un ordre de travail, un projet est automatiquement créé pour la tâche. Les dimensions financières pour l’actif associé à la tâche de l’ordre de travail sont automatiquement transférées au projet de l’ordre de travail.
 
@@ -86,17 +86,17 @@ Pour garantir l’utilisation appropriée des états de cycle de vie des ordres 
 
 Les illustrations suivantes présentent les associations entre les groupes de projets de l’ordre de travail, les types de projets associés, les stades de projet, les états du cycle de vie de l’ordre de travail.
 
-![Figure 3](media/03-integration-to-pma.png)
+![Figure 3.](media/03-integration-to-pma.png)
 
-![Figure 4](media/04-integration-to-pma.png)
+![Figure 4.](media/04-integration-to-pma.png)
 
-![Figure 5](media/05-integration-to-pma.png)
+![Figure 5.](media/05-integration-to-pma.png)
 
 Pour plus d’informations sur la configuration des projets de l’ordre de travail, voir [Configuration du projet de l’ordre de travail](../setup-for-work-orders/work-order-project-setup.md). Pour plus d’informations sur la manière de créer des états du cycle de vie de l’ordre de travail, consultez [États du cycle de vie de l’ordre de travail](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 L’illustration suivante présente une vue d’ensemble graphique des différents projets créés dans le module **Gestion des actifs** pour activer l’intégration avec le module **Gestion de projets et comptabilité**. Elle présente également les processus de travail auxquels les projets sont liés.
 
-![Figure 6](media/06-integration-to-pma.png)
+![Figure 6.](media/06-integration-to-pma.png)
 
 
 

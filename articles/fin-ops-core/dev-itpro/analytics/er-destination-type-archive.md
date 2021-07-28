@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a9e0f07241de003dd2971e0d336f89795ad1319b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894026"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348018"
 ---
 # <a name="archive-er-destination-type"></a>Type de destination pour l’archivage d’états électronique
 
@@ -30,7 +30,7 @@ Vous pouvez configurer une destination d’archive pour chaque composant **Dossi
 
 Vous pouvez utiliser cette option pour envoyer le document généré vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les [types](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documents dans **Administration d’organisation** \> **Gestion de documents** \> **Types de documents**. La configuration des destinations d’états électroniques est identique à la configuration du système de gestion des documents.
 
-[![Page Types de documents](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Page Types de documents.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats peuvent être enregistrés dans l’archive Tâche. Vous pouvez afficher les résultats sous **Administration d’organisation** \> **Gestion des états électroniques** \> **Tâches de gestion des états électroniques archivées**.
 
@@ -41,7 +41,7 @@ L’emplacement détermine où le fichier est enregistré. Une fois la destinati
 
 Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Pour définir le serveur SharePoint par défaut, accédez à **Administration d’organisation** \> **Gestion des documents** \> **Paramètres de gestion des documents**. Sur l’onglet **SharePoint**, configurez le dossier SharePoint. Ensuite, vous pouvez le sélectionner comme dossier où la sortie ER sera enregistrée. L’emplacement **SharePoint** doit être sélectionné dans ce type de document.
 
-[![Sélection d’un dossier SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Sélection d’un dossier SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Stockage Azure
 

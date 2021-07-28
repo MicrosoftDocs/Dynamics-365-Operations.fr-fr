@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837151"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345624"
 ---
 # <a name="revenue-recognition-setup"></a>Configuration de la fonctionnalité de prise en compte de revenu
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ Les paramètres de prise en compte de revenu sont configurés dans l’onglet **
     - Définissez cette option sur **Non** pour limiter la validation de la transaction de correction dans la comptabilité. Lorsque cette option est définie sur **Non**, aucun document supplémentaire n’est créé dans la comptabilité client pour la correction interne de la comptabilité. Lorsque la facture est payée, le processus de règlement utilise l’ancienne écriture comptable pour valider les éventuels escomptes de règlement, ou les profits ou pertes réalisés.
     - Définissez cette option sur **Oui** pour créer automatiquement un document de contrepassation et une nouvelle facture pour la transaction de correction dans la comptabilité client. Comme cette correction est une correction comptable interne, les nouveaux documents ne sont pas expédiés ni communiqués au client. Le document de contrepassation est réglé par rapport à la facture d’origine, et la nouvelle facture corrigée est payée par le client. Notez que les trois documents sont affichés dans les états, comme le relevé client.
 
-[![Informations de paramétrage](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Informations de paramétrage.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Échéanciers de produit
 
@@ -82,7 +82,7 @@ Si vous constaté le produit par jalons, nous vous recommandons de créer un éc
 
 Les échéanciers de produit sont créés sur la page **Échéanciers de produit** (**prise en compte de revenu \> Paramétrage \> Échéanciers de produit**).
 
-[![Échéanciers de produit](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Echéanciers de produit.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Entrez des valeurs descriptives dans les champs **Échéanciers de produit** et **Description**. Les paramètres supplémentaires suivants permettent de créer l’échéancier de produit lors de la validation de la facture.
 
@@ -104,7 +104,7 @@ Entrez des valeurs descriptives dans les champs **Échéanciers de produit** et 
 
 Sélectionnez le bouton **Détails de l’échéancier de produit** pour afficher les périodes générales et les pourcentages constatés dans chaque période. Par défaut, la valeur **Constater le pourcentage** est divisée également par le nombre de périodes. Si la base de la constatation est définie sur **Mensuellement** ou **Occurrences**, le pourcentage de constatation peut être modifié. Lorsque vous modifiez le pourcentage de constatation, un message d’avertissement vous informe que le total n’est pas égal à 100 %. SI vous recevez ce message, vous pouvez continuer à modifier les lignes. Toutefois, le pourcentage total doit être égal à 100 avant de fermer la page.
 
-[![Détails de l’échéancier de produit](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Détails de l’échéancier de produit.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Configuration des stocks
 
@@ -139,7 +139,7 @@ Les groupes d’articles et les produits lancés peuvent être paramétrés à l
 
 Une fois la configuration des paramètres terminée pour le produit lancé, vous devez définir manuellement le prix du produit en entrant le prix de juste valeur ou le prix médian (si vous utilisez la méthode du prix médian) sur la page **Prix de produit** (accédez à **prise en compte de revenu \> Paramétrage \> Paramétrage des stocks \> Produits lancés**, puis, dans le volet Actions, sous l’onglet **Vendre**, dans le groupe **prise en compte de revenu**, sélectionnez **Prix de produit**).
 
-[![Prix de produit](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Prix de produit.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Le prix de produit qui est défini manuellement dans cette page permet de déterminer la répartition de prix du produit sur chaque commande client, selon les critères définis. Chaque critère est mis en correspondance avec la ligne de commande client pour déterminer le prix de produit à utiliser dans le processus de répartition.
 
@@ -181,7 +181,7 @@ Lorsque vous configurez un article d’offre groupée vous devez paramétrer deu
 
 Les composants doivent être ensuite être affectés à l’article parent de l’offre groupée ou de la nomenclature dans la page **Versions de nomenclature** (accédez à **prise en compte de revenu \> Paramétrage \> Paramétrage de stock et de produit \> Produits lancés**, puis, dans le volet Actions, sous l’onglet **Ingénieur**, dans le groupe **Nomenclature**, sélectionnez **Versions de nomenclature**). Pour plus d’informations, voir la documentation sur le paramétrage des nomenclatures.
 
-[![Produits lancés, échéanciers de nomenclature](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Produits lancés, échéanciers de nomenclature.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Si l’article parent de l’offre groupée et les composants d’offre groupée sont paramétrés pour la répartition, le prix du produit de l’offre groupée sera réparti sur les composants en fonction de leur pourcentage de contribution au produit.
 

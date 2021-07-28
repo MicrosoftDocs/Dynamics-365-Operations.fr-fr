@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822829"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345474"
 ---
 # <a name="year-end-activities-faq"></a>FAQ sur les activités de fin d’exercice 
 
@@ -29,7 +29,7 @@ Cette rubrique a été compilée pour faciliter les activités de clôture de fi
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Comptabilité : Comment savoir si nous sommes bien en train d’exécuter la clôture de fin d’exercice et non de l’annuler ?
 Il arrive que des organisations essayent d’exécuter la clôture de fin d’exercice, mais qu’au lieu de cela, elles l’annulent. Si la clôture de fin d’exercice se termine très rapidement ou si elle ne produit pas de soldes d’ouverture, validez le paramètre **Annuler la clôture précédente** dans **Clôture de fin d’exercice** (**Comptabilité > Clôture de période > Clôture de fin d’exercice > Exécuter la clôture fiscale**). 
 
-[![Exécution de la clôture de fin d’exercice et annulation de la clôture de fin d’exercice](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Exécution de la clôture de fin d’exercice et annulation de la clôture de fin d’exercice.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 Si le paramètre **Annuler la clôture précédente** est défini sur **Oui**, la clôture de fin d’exercice précédente est annulée. Lors d’une annulation, toutes les écritures de solde de clôture et de solde d’ouverture sont supprimées, comme si la clôture de fin d’exercice n’avait jamais été exécutée. Les justificatifs sont supprimés. La clôture de fin d’exercice ne s’exécutera pas à nouveau automatiquement. Vous devez recommencer le processus, cette fois en définissant le paramètre **Annuler la clôture précédente** sur **Non**. 
 
@@ -39,11 +39,11 @@ Si le paramètre **Annuler la clôture précédente** est défini sur **Oui**, l
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Comptabilité : Quelle est la différence entre le paramètre Annuler et Supprimer comptabilité pour la clôture de l’exercice ?
 Une confusion peut exister sur la différence entre le paramètre **Annuler la clôture précédente** de la boîte de dialogue **Clôture de fin d’exercice** et le paramètre **Suppression des transactions de clôture d’exercice lors du transfert** dans Comptabilité (**Comptabilité > Clôture de période > Clôture de fin d’exercice > Exécuter la clôture fiscale**).  
 
-[![Différence entre le paramètre Annuler et Supprimer comptabilité pour la clôture de l’exercice](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Différence entre le paramètre Annuler et Supprimer comptabilité pour la clôture de l’exercice.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
 Sélectionnez **Annuler la clôture précédente** dans le menu déroulant de la boîte de dialogue lors de l’exécution du processus de clôture de fin d’exercice pour supprimer toutes les écritures du solde de clôture et du solde d’ouverture, comme si la clôture de fin d’exercice n’avait jamais été exécutée. Les justificatifs seront supprimés. La clôture de fin d’exercice ne s’exécutera pas à nouveau automatiquement. Pour exécuter la clôture de fin d’exercice, vous devez relancer ce processus, en définissant cette fois le paramètre **Annuler la clôture précédente** sur **Non** (**Comptabilité > Paramètre comptable > Paramètres de Comptabilité**). 
 
-[![Paramètres de Comptabilité](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Paramètres de Comptabilité.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 Le paramètre **Suppression des transactions de clôture d’exercice lors du transfert** en Comptabilité est utilisé uniquement lors de l’exécution (et non de l’annulation) de la clôture de fin d’exercice (le paramètre **Annuler la clôture précédente** est défini sur **Non**). Si ce paramètre est défini sur **Oui**, toutes les écritures de solde de clôture et de solde d’ouverture seront supprimées et la clôture de fin d’exercice recommencera. Ce processus est utilisé lorsque l’organisation souhaite que toutes les transactions, y compris les ajustements depuis la dernière clôture de l’exercice, soient comptabilisées dans une seule écriture comptable pour les écritures du solde de clôture et du solde d’ouverture. 
 
@@ -60,7 +60,7 @@ Lors de la clôture de fin d’exercice, chaque solde d’ensemble de dimensions
 
 Les ensembles de dimensions inutiles ont également un impact sur le traitement par lots **BudgetDimensionFocusInitializeBalance** (**Comptabilité > Plan comptable > Dimensions > Ensembles de dimensions financières**).
 
-[![Ensembles de dimensions financières](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Ensembles de dimensions financières.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuration du modèle de clôture de fin d’exercice
 Le modèle de clôture de fin d’exercice permet aux organisations de sélectionner le niveau de dimension financière à maintenir lors du transfert des soldes de profits et pertes vers les bénéfices non répartis. Les paramètres permettent à une organisation de conserver les dimensions financières détaillées (**Clôturer tout**) lors du transfert des soldes vers les bénéfices non répartis ou de choisir de récapituler les montants en une seule valeur de dimension (**Clôturer individuellement**). Cela peut être défini pour chaque dimension financière. Pour plus d’informations sur ces paramètres, consultez la rubrique [Clôture de fin d’exercice](year-end-close.md).
@@ -72,14 +72,14 @@ Si vous avez effectué une mise à jour vers la version 10.0.13 ou ultérieure d
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Comptabilité - En quoi consiste Clôture de période - Clôture de fin d’exercice ?
  
-[![Clôture de période, Clôture de fin d’exercice](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Clôture de période, Clôture de fin d’exercice.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Améliorations des performances pour la reconstruction des ensembles de dimensions financières (nouvelle fonctionnalité)
 Une nouvelle fonctionnalité ajoutée dans la version 10.0.16 améliore les performances des processus de clôture et de consolidation de fin d’exercice. Cette fonctionnalité s’intitule Améliorations des performances pour la reconstruction des ensembles de dimensions financières. Elle modifie la reconstruction des ensembles de dimensions afin qu’ils ne soient reconstruits que pour une période pertinente. Dans les versions précédentes, les ensembles de dimensions étaient reconstruits pour toutes les dates. Par exemple, si vous clôturez l’année 2020, le système ne reconstruira que les soldes des transactions de l’exercice 2020. Si vous exécutez la consolidation pour une plage de dates allant du 1er novembre 2020 au 30 novembre 2020, le système ne reconstruira que les soldes pour cette plage de dates.
 
 Cette fonctionnalité étant considérée comme importante, vous devrez l’activer à l’aide de l’espace de travail **Gestion des fonctionnalités**.
  
-[![Clôture de fin d’exercice](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![Clôture de fin d’exercice.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Comptabilité fournisseur : Quels changements ont été apportés pour prendre en charge la génération d’états de fin d’exercice pour le formulaire 1099 pour 2020 ?
 
@@ -114,15 +114,15 @@ Non. La routine de la fonctionnalité Mise à jour 1099 est effectuée sur un se
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Comptabilité fournisseur : 1099 - « Recalculer les montants des honoraires existants » vs « Tout mettre à jour » dans l’utilitaire Mise à jour 1099.
 La case à cocher **Recalculer les montants des honoraires existants** réinitialisera le montant des honoraires aux valeurs totales payées, en cas d’utilisation conjointement avec la case à cocher **Tout mettre à jour**. 
 
-[![Transactions 1099 fiscales : Avant d’exécuter la routine de mise à jour](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![Transactions 1099 fiscales : Avant d’exécuter la routine de mise à jour.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
 La case à cocher **Recalculer les montants des honoraires existants** n’entre en jeu que lorsqu’il y a des valeurs de déclaration d’honoraire partielles sur la facture ou si elle a été modifiée sur le formulaire de taxe sur les honoraires. Par exemple, supposons que vous ayez une facture évaluée à 1000 $, mais que l’utilisateur tape manuellement un montant d’honoraires de 500 $ sur la facture.
 
-[![Transactions 1099 fiscales : Marquer à la fois Tout mettre à jour et Recalculer les montants des honoraires existants](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![Transactions 1099 fiscales : Marquer à la fois Tout mettre à jour et Recalculer les montants des honoraires existants.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 Lorsque cela est payé, le montant des honoraires payés sera de 500 $. Si vous effectuez la routine de recalcul, le système remplacera le montant des honoraires par 1000 $, c’est-à-dire le montant total qui a été payé.
 
-[![Transactions 1099 fiscales : Après l’exécution de la routine 1099](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![Transactions 1099 fiscales : Après l’exécution de la routine 1099.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Comptabilité fournisseur : 1099 - Créer manuellement des transactions de déclaration d’honoraires
 Une organisation peut avoir besoin de créer manuellement des transactions de déclaration d’honoraires qui ne sont pas associées à une facture. Vous pouvez ajouter des transactions manuelles de déclaration d’honoraires en accédant à **Comptabilité fournisseur > Tâches périodiques> Taxe sur les honoraires > Règlement fournisseur pour les déclarations d’honoraires**. Cliquez sur le bouton **Transactions manuelles de déclaration d’honoraires**. 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814510"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344470"
 ---
 # <a name="replenishment-strategies"></a>Stratégies de réapprovisionnement
 
@@ -45,7 +45,7 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votr
 
 Pour accéder aux modèles, accédez à **Gestion des entrepôts \> Configuration \> Réapprovisionnement \> Modèles de réapprovisionnement**. Dans la section **Aperçu**, sélectionnez ou créez un modèle de réapprovisionnement de la demande de vague où le champ **Type de réapprovisionnement** est défini sur *Demande de vague*. Configurez ensuite les lignes de modèle de réapprovisionnement dans la section **Détails du modèle de réapprovisionnement**. Pour chaque ligne, dans le champ **Stratégie de réapprovisionnement**, sélectionnez la stratégie de réapprovisionnement que vous souhaitez utiliser.
 
-![Page Modèles de réapprovisionnement](media/ReplenTempWaveDmdMaxLocCap.png "Page Modèles de réapprovisionnement")
+![Page Modèles de réapprovisionnement.](media/ReplenTempWaveDmdMaxLocCap.png "Page Modèles de réapprovisionnement")
 
 Si la colonne **Stratégie de réapprovisionnement** n’apparaît pas dans la grille dans la section **Détails du modèle de réapprovisionnement**, assurez-vous que la fonction a été activée et que le modèle de réapprovisionnement sélectionné a un type de réapprovisionnement de *Demande de vague*.
 
@@ -85,7 +85,7 @@ Si vous définissez la stratégie de réapprovisionnement sur *Capacité maximal
 - **Travail de réapprovisionnement 1 :** Choisissez 4 boîtes dans l’emplacement en vrac et placez-les au point de vente pick-001.
 - **Travail de réapprovisionnement 2 :** Choisissez 5 boîtes dans l’emplacement en vrac et placez-les au point de vente pick-002.
 
-[![Exemple 1](media/ReplenTemp_example_1.png "Exemple 1")](media/ReplenTemp_example_1_large.png)
+[![Exemple 1.](media/ReplenTemp_example_1.png "Exemple 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Exemple 2
 
@@ -109,7 +109,7 @@ Selon le paramètre de l’option **Autoriser le fractionnement** sur les direct
 
 Les résultats diffèrent en raison des informations disponibles lorsque vous créez le travail. Quand **Autoriser le fractionnement** est défini sur *Oui* sur les directives d’emplacement pour le prélèvement de réapprovisionnement, vous savez que vous avez réussi à trouver 160 pièces. Par conséquent, vous pouvez créer du travail pour cette quantité. Cependant, lorsque l’option **Autoriser le fractionnement** est définie sur *Non*, vous ne connaissez pas l’existence des 160 pcs. Comme la quantité supplémentaire que vous avez décidé de réapprovisionner était de 3 boîtes, vous supprimez cette quantité supplémentaire et essayez à nouveau la quantité d’origine.
 
-[![Exemple 2](media/ReplenTemp_example_2.png "Exemple 2")](media/ReplenTemp_example_2_large.png)
+[![Exemple 2.](media/ReplenTemp_example_2.png "Exemple 2")](media/ReplenTemp_example_2_large.png)
 
 Par conséquent, pour obtenir la quantité maximale vers les emplacements réapprovisionnés, vous devez définir l’option **Autoriser le fractionnement** sur *Oui* sur les directives d’emplacement pour le prélèvement de réapprovisionnement.
 

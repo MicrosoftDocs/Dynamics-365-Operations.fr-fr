@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052455"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344686"
 ---
 # <a name="configure-dataverse-integration"></a>Configurer l’intégration Dataverse
 
@@ -48,15 +48,15 @@ Vous souhaiterez peut-être désactiver l’intégration dans ces situations :
 
 1. Dans l’instance Human Resources où vous souhaitez afficher ou configurer les paramètres d’intégration avec Dataverse, sélectionnez la vignette **Administration du système**.
 
-    [![Vignette Administration du système](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Vignette Administration du système.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Sélectionnez l’onglet **Liens**.
 
-    [![Onglet Liens](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Onglet Liens.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. Sous **Intégrations**, sélectionnez **Configuration Dataverse**.
 
-    [![Lien Configuration Dataverse](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Lien Configuration Dataverse.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Activer ou désactiver l’intégration des données entre Human Resources et Dataverse
 
@@ -67,7 +67,7 @@ Vous souhaiterez peut-être désactiver l’intégration dans ces situations :
 
 - Pour désactiver l’intégration, définissez l’option sur **Non**.
 
-[![Activer ou désactiver l’intégration Dataverse](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Activer ou désactiver l’intégration Dataverse.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Il est vivement recommandé de désactiver l’intégration de Dataverse lors de l’exécution des tâches de migration des données. Les chargements de données volumineuses peuvent avoir une incidence significative sur les performances. Par exemple, le chargement de 2 000 collaborateurs peut prendre plusieurs heures lorsque l’intégration est activée et moins d’une heure lorsqu’elle est désactivée. Les chiffres fournis dans cet exemple ne servent qu’à des fins de démonstration. La durée exacte nécessaire pour importer des enregistrements peut varier considérablement en fonction de nombreux facteurs.
@@ -98,7 +98,7 @@ Si vous rencontrez des problèmes lors de la synchronisation des données entre 
 
 - Pour supprimer l’association d’un enregistrement Human Resources et une ligne Dataverse, sélectionnez la table dans le champ **Table Dataverse**, puis sélectionnez **Effacer les informations de suivi**.
 
-[![Effacement des informations de suivi](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Effacement des informations de suivi.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Pour exécuter une synchronisation complète sur la table après avoir effacé le suivi, consultez la procédure suivante.
 
@@ -116,13 +116,13 @@ Pour exécuter une synchronisation complète sur une table entre Human Resources
 
 2. Sélectionnez **Synchroniser maintenant**.
 
-[![Exécution d’une synchronisation complète](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Exécution d’une synchronisation complète.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Voir également :
 
 [Tables Dataverse](hr-developer-entities.md)<br>
 [Configurer des tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[FAQ sur les tables virtuelles Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[FAQ sur les tables virtuelles de Human Resources](hr-admin-virtual-entity-faq.md)<br>
 [Qu’est-ce que Microsoft Dataverse ?](/powerapps/maker/data-platform/data-platform-intro)<br>
 [Mises à jour de la terminologie](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
