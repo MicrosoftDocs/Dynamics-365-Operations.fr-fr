@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82332a8ac8a68f5a9092ae08a094514827f39113
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d351066b0092318275491d933b7b90089c6855b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812713"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359931"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Stratégie du solveur pour la configuration du produit
 
@@ -50,7 +50,7 @@ Des études d’implémentation client réelles ont montré qu’une modificatio
 
 Pour modifier la stratégie du solveur, dans la page **Modèles de configuration de produit**, dans le volet Actions, sélectionnez **Propriétés du modèle**. Puis, dans la boîte de dialogue **Modifier les détails du modèle**, sélectionnez une stratégie du solveur.
 
-[![Modification de la stratégie du solveur](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Modification de la stratégie du solveur.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Actuellement, il n’existe aucune logique qui détecte automatiquement la stratégie du solveur la plus efficace pour la configuration du produit basée sur les contraintes. Par conséquent, vous devez tester les stratégies du solveur une par une.
 

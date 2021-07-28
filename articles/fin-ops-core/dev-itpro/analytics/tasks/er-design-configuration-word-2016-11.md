@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944290"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359409"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Réutiliser les configurations ER avec des modèles Excel pour générer des rapports au format Word
 
@@ -54,14 +54,14 @@ Ces procédures concernent une fonctionnalité qui a été ajoutée dans Dynamic
 5. Sélectionnez **Concepteur**.
 6. Sur la page **Concepteur de format**, notez que le titre de l’élément de format racine indique qu’un modèle Excel est actuellement utilisé.
 
-![Sélectionner la configuration existante](../media/er-design-configuration-word-2016-11-image01.gif)
+![Sélectionner la configuration existante.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Consulter le modèle Word téléchargé
 
 1. Dans l’application de bureau Word, ouvrez le fichier de modèle **SampleVendPaymDocReport.docx** que vous avez téléchargé précédemment.
 2. Vérifiez que le modèle ne contient que la mise en page du document que vous souhaitez générer comme sortie de gestion des états électroniques.
 
-![Disposition du modèle Word dans l’application de bureau](../media/er-design-configuration-word-2016-11-image02.png)
+![Disposition du modèle Word dans l’application de bureau.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Remplacer le modèle Excel par le modèle Word et ajouter une partie XML personnalisée
 
@@ -84,7 +84,7 @@ Actuellement, le document Excel est utilisé comme modèle pour générer la sor
 
 9. Notez que le titre de l’élément de format racine indique qu’un modèle Word est actuellement utilisé.
 
-    ![Remplacer le modèle Excel par le modèle Word et ajouter une partie XML personnalisée](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Remplacer le modèle Excel par le modèle Word et ajouter une partie XML personnalisée.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Dans l’onglet **Format**, sélectionnez **Pièces jointes**.
 
@@ -110,7 +110,7 @@ Si vous connaissez bien le processus de conception des documents Word comme form
 1. Dans l’application de bureau Word, ouvrez le fichier de modèle **SampleVendPaymDocReportBounded.docx**.
 2. Vérifiez que le modèle contient la mise en page du document que vous souhaitez générer comme sortie de gestion des états électroniques. Les contrôles de contenu qui sont utilisés comme espaces réservés pour les données que la gestion des états électroniques entrera dans ce modèle lors de l’exécution sont basés sur les mappages configurés entre les éléments de la partie XML personnalisée **État** et les contrôles de contenu du document Word.
 
-![Aperçu du modèle Word dans l’application de bureau](../media/er-design-configuration-word-2016-11-image04.png)
+![Aperçu du modèle Word dans l’application de bureau.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Charger le modèle Word dans lequel la partie XML personnalisée est mappée aux contrôles de contenu
 
@@ -144,7 +144,7 @@ Pour exécuter la version brouillon du format modifiable, vous devez le rendre [
 3. Sur la page **Paiements fournisseur**, sélectionnez toutes les lignes de la grille.
 4. Sélectionnez **Statut de paiement** \> **Aucun**.
 
-    ![Paiements pour traitement sur la page Paiements fournisseur](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Paiements pour traitement sur la page Paiements fournisseur.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Dans le volet Actions, sélectionnez **Générer les paiements**.
 6. Dans la boîte de dialogue qui s’affiche, procédez comme suit :
@@ -156,11 +156,11 @@ Pour exécuter la version brouillon du format modifiable, vous devez le rendre [
 7. Dans la boîte de dialogue **Paramètres de gestion des états électroniques**, sélectionnez **OK**.
 8. La sortie générée se présente sous le format Word et contient les détails des paiements traités. Analysez la sortie générée.
 
-    ![Sortie générée au format Word](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Sortie générée au format Word.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Créer une configuration de gestion des états électroniques pour générer des états au format Word](../er-design-configuration-word.md)
+- [Concevoir une configuration ER pour générer des états au format Word](../er-design-configuration-word.md)
 - [Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

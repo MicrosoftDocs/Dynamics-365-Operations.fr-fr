@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816881"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356674"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Retenue à la source dans les transactions d’achat
 
@@ -64,15 +64,15 @@ Le groupe de retenue à la source et le groupe de retenue à la source d’artic
 
 Le montant temporaire de la retenue à la source est disponible dans le champ **Retenue à la source ajustée** de l’onglet **Totaux** sur la page **Bon de commande**.
 
-![La retenue à la source est incluse dans le bon de commande](media/withholding-tax-adjusted.png)
+![La retenue à la source est incluse dans le bon de commande.](media/withholding-tax-adjusted.png)
 
 La retenue à la source est calculée dans le **Journal des paiements fournisseur**. Vous pouvez ajuster manuellement les codes de retenue à la source applicables, ainsi que les montants réels de la retenue à la source dans l’onglet **Retenue à la source** sur la page **Régler des transactions**.
 
-![La retenue peut être ajustée manuellement sur la page Règlement des transactions](media/withholding-tax-vendor-payment-tab.png)
+![La retenue peut être ajustée manuellement sur la page Règlement des transactions.](media/withholding-tax-vendor-payment-tab.png)
 
 Le montant de la retenue à la source dérivé sera déduit du paiement du fournisseur et imputé au compte **Compte de retenue à la source** dans un justificatif associé.
 
-![Compte de retenue à la source montrant un justificatif associé](media/withholding-tax-adjusted.png)
+![Compte de retenue à la source montrant un justificatif associé.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

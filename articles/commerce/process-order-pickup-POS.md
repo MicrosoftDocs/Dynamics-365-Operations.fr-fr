@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802765"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352154"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Traiter les retraits de commandes client dans le PDV
 
@@ -32,7 +32,7 @@ Si vous êtes un utilisateur du magasin, vous pouvez effectuer le retrait en uti
 
 Si la commande ou les lignes de commande sélectionnées ne sont pas configurées pour le retrait dans ce magasin spécifique, ou si la commande a déjà été entièrement retirée, l’opération de **retrait** ne sera pas disponible.
 
-![Opération de retrait](media/pickupoperation.png)
+![Opération de retrait.](media/pickupoperation.png)
 
 Dans Microsoft Dynamics 365 Commerce version 10.0.17 et ultérieure, la fonction **Expérience utilisateur améliorée pour le traitement des commandes à retirer dans le point de vente** peut être activée via la gestion des fonctionnalités dans Commerce Headquarters. Si cette fonction est désactivée, les utilisateurs ne peuvent pas sélectionner les quantités à retirer. Par défaut, la quantité totale qui a été commandée pour la ligne est la quantité qui sera retirée. Cette expérience peut être problématique, car les utilisateurs peuvent oublier de sélectionner certains articles pour le retrait lorsqu’ils effectuent le retrait via le traitement des commandes.
 
@@ -40,13 +40,13 @@ La fonction **Expérience utilisateur améliorée pour le traitement des command
 
 Quand la fonction **Expérience utilisateur améliorée pour le traitement des commandes à retirer dans le point de vente** est activée et que vous sélectionnez l’opération **Retirer**, la boîte de dialogue **Retirer** apparaît. Vous pouvez alors sélectionner les articles et les quantités qui seront retirées. Par défaut, toute quantité commandée dont le stock est dans un état retiré ou emballé est considérée comme éligible pour le retrait. Par défaut, cette quantité est définie comme quantité à retirer. Vous pouvez modifier la quantité saisie, à condition qu’elle ne soit pas de 0 (zéro) et ne dépasse pas la quantité totale ouverte (c’est-à-dire non facturée) pour la ligne sélectionnée.
 
-![Boîte de dialogue Retrait](media/pickupselect.png)
+![Boîte de dialogue Retrait.](media/pickupselect.png)
 
 Après avoir sélectionné les quantités qui seront retirées, sélectionnez **Retrait** et la page de transaction apparaît. Si la fonction de [paiements omnicanaux](omni-channel-payments.md) est activée, et qu’il y a des paiements préautorisés par carte de crédit dans le dossier, vous devez appliquer le paiement.
 
 Sur la page de transaction, le système calcule les montants dus en calculant le total dû pour les articles de retrait sélectionnés, puis en soustrayant les dépôts précédemment appliqués ou les paiements par carte de crédit autorisés. Vous devez traiter le paiement pour terminer la transaction de retrait. Si la [mise en page de l’écran](pos-screen-layouts.md) de la page de transaction est configurée pour inclure l’opération **Conclure la transaction**, et qu’aucun montant n’est dû, vous pouvez terminer la transaction sans sélectionner de mode de paiement. Si l’opération **Conclure la transaction** n’est pas disponible, vous pouvez sélectionner le lien **Montant de 0,00 $ dû** dans le volet **Totaux** pour conclure la transaction sans avoir à sélectionner de mode de paiement.
 
-![Page de transaction pour une transaction de retrait de commande client](media/pickupcart.png)
+![Page de transaction pour une transaction de retrait de commande client.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Modification des lignes ou des quantités à retirer
 
@@ -54,7 +54,7 @@ Si vous devez modifier la quantité à retirer après avoir sélectionné les ar
 
 Si la fonction **Expérience utilisateur améliorée pour le traitement des commandes à retirer dans le point de vente** est activée, les organisations peuvent ajouter un bouton pour l’opération **Changer les lignes de retrait** dans la mise en page de l’écran de la page de transaction. Après avoir créé le panier de transaction pour le retrait dans le PDV et sélectionné les articles, vous pouvez sélectionner **Changer les lignes de retrait** si vous devez changer les articles à retirer mais que vous ne voulez pas annuler toute la transaction. Dans la boîte de dialogue **Changer les lignes de retrait** qui apparaît, vous pouvez modifier les articles et les quantités à retirer. Le panier de transaction est ensuite mis à jour pour refléter vos modifications.
 
-![Boîte de dialogue Modifier les éléments à retirer](media/pickupchange.png)
+![Boîte de dialogue Modifier les éléments à retirer.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

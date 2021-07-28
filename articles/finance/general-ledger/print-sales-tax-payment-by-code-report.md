@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815450"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358855"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Imprimer l’état de déclaration de taxe par code 
 
@@ -40,11 +40,11 @@ Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction
     - **Devise comptable** – Imprimez les montants du rapport dans la devise comptable.
     - **Devise du code taxe** – Imprimer les montants du rapport dans les devises des codes taxe.
 
-    ![Boîte de dialogue Déclaration de taxe par code](media/Sales-tax-payment-by-code.png)
+    ![Boîte de dialogue Déclaration de taxe par code.](media/Sales-tax-payment-by-code.png)
 
 L’illustration suivante présente un exemple de l’état généré. Le rapport montre que le code de déclaration de taxe **101** a la devise **EUR** si le champ **Devise de la taxe** est défini sur **EUR** pour le code taxe auquel le code de déclaration est affecté.
 
-![Exemple de l’état de déclaration de taxe par code](media/Sales-tax-payment-by-code-2.png)
+![Exemple de l’état de déclaration de taxe par code.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

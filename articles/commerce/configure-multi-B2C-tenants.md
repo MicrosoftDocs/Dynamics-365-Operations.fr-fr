@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 0ad2a86fbc17f107a065330a56da6cdcca69e172
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352564"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurer plusieurs locataires B2C dans un environnement Commerce
 
@@ -49,7 +49,7 @@ Souvent, lorsque chaque canal ou site est considéré comme une entreprise disti
 
 L’illustration suivante présente plusieurs clients B2C dans un environnement Commerce.
 
-![Plusieurs locataires B2C dans un environnement Commerce](media/MultiB2C_In_Environment.png)
+![Plusieurs locataires B2C dans un environnement Commerce.](media/MultiB2C_In_Environment.png)
 
 Si vous décidez que votre entreprise exige des clients B2C distincts par canal dans le même environnement Commerce, poursuivez les procédures dans les sections suivantes pour demander cette fonctionnalité.
 

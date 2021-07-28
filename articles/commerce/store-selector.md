@@ -2,7 +2,8 @@
 title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021462"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479374"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -40,22 +42,22 @@ Le module de sélection de magasin permet aux utilisateurs d’entrer un lieu (v
 
 ## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configuration des groupes d’exécution dans Commerce Headquarters
 
-Pour que le sélecteur de magasin affiche les magasins disponibles, le groupe d'exécution doit être configuré dans Commerce Headquarters. Pour plus d’informations, voir [Paramétrer les groupes d’exécution](customer-orders-overview.md#set-up-fulfillment-groups).
+Pour que le sélecteur de magasin affiche les magasins disponibles, le groupe d’exécution doit être configuré dans Commerce Headquarters. Pour plus d’informations, voir [Paramétrer les groupes d’exécution](customer-orders-overview.md#set-up-fulfillment-groups).
 
-En outre, pour chaque magasin du groupe d'exécution, la latitude et la longitude de l'emplacement du magasin doivent être définies dans Commerce Headquarters.
+En outre, pour chaque magasin du groupe d’exécution, la latitude et la longitude de l’emplacement du magasin doivent être définies dans Commerce Headquarters.
 
 Pour entrer les valeurs de longitude et de la latitude pour un emplacement de magasin dans Commerce Headquarters, procédez comme suit.
 
 1. Accédez à **Gestion des stocks \> Paramétrage \> Décomposition du stock**.
-1. Sélectionnez l'emplacement de l'entrepôt dans le volet de gauche.
+1. Sélectionnez l’emplacement de l’entrepôt dans le volet de gauche.
 1. Dans le raccourci **Adresses**, sélectionnez **Avancé**.
 
-    ![Exemple de détails d'un magasin dans Commerce Headquarters](./media/Store-address.png)
+    ![Exemple de détails d’un magasin dans Commerce Headquarters.](./media/Store-address.png)
 
 1. Dans le volet Actions, sélectionnez **Modifier**.
 1. Dans le raccourci **Général**, entrez des valeurs pour la **Latitude** et la **Longitude**.
 
-    ![Exemple de configuration de latitude et de longitude pour un magasin dans Commerce Headquarters](./media/Store-latitude-longitude.png)
+    ![Exemple de configuration de latitude et de longitude pour un magasin dans Commerce Headquarters.](./media/Store-latitude-longitude.png)
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**. 
 
@@ -70,7 +72,6 @@ Pour l’API REST de Suggestion automatique, vous devez vous assurer que les URL
 - Dans l’instruction **script-src**, **ajoutez &#42;.bing.com, &#42;.virtualearth.net**.
 - Dans l’instruction **script style-src**, ajoutez **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Mode Retrait en magasin
 
 Le module de sélection de magasin prend en charge un mode **Retrait en magasin** qui affiche une liste de magasins où un produit est disponible pour le retrait. Il affiche également les heures d’ouverture du magasin et l’inventaire des produits pour chaque magasin de la liste. Le module de sélection de magasin nécessite le contexte d’un produit pour rendre la disponibilité du produit et permettre à l’utilisateur d’ajouter le produit au panier, si le mode de livraison du produit est défini sur **retrait** dans le magasin sélectionné. Pour plus d’informations, voir [Paramètres de stock](inventory-settings.md). 
@@ -81,7 +82,7 @@ Pour que ce scénario fonctionne, les produits doivent être configurés de sort
 
 L’image suivante montre un exemple de module du sélecteur de magasins utilisé sur un PDP.
 
-![Exemple d’un module du sélecteur de magasins utilisé sur un PDP](./media/BOPIS.PNG)
+![Exemple d’un module du sélecteur de magasins utilisé sur un PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Dans la version 10.0.16 et ultérieure, une nouvelle fonctionnalité peut être activée qui permet à une organisation de définir plusieurs modes de ramassage d’options de livraison pour les clients.  Si cette fonctionnalité est activée, le sélecteur de magasin et d’autres modules d’e-commerce seront améliorés pour permettre à l’acheteur de choisir parmi plusieurs options de livraison de ramassage potentielles si elles sont configurées.  Pour en savoir plus sur cette fonctionnalité, reportez-vous à [cette documentation](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ Le module de sélection de magasin prend également en charge un mode **Recherch
 
 L’illustration suivante montre un exemple de module de sélection de magasin utilisé avec un module de carte sur une page d’emplacements de magasin.
 
-![Exemple d’un module de sélection de magasin et d’un module de carte sur une page d’emplacements de magasin](./media/ecommerce-Storelocator.PNG)
+![Exemple d’un module de sélection de magasin et d’un module de carte sur une page d’emplacements de magasin.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Afficher une carte
 
@@ -110,6 +111,10 @@ Le module de sélection de magasin peut être utilisé avec le module de carte p
 | Options de suggestion automatique : Résultats maximum | Nombre | Cette propriété définit le nombre maximal de résultats de suggestion automatique pouvant être affichés via l’API de suggestion automatique de Bing. |
 | Rayon de recherche | Nombre | Cette propriété définit le rayon de recherche des magasins, en kilomètres. Si aucune valeur n’est spécifiée, le rayon de recherche par défaut, 50 kilomètres, est utilisé. |
 | Conditions d’utilisation du service | URL |  Cette propriété spécifie l’URL des conditions d’utilisation de service requises pour utiliser le service Bing Cartes. |
+
+## <a name="site-settings"></a>Paramètres du site
+
+Le module sélecteur de magasin respecte les [Paramètres Ajouter un produit au panier](add-cart-settings.md). Une fois qu’un article a été ajouté au panier à partir du module de sélection de magasin, les utilisateurs du site voient les flux de travail configurés appropriés.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Ajouter un module de sélecteur de magasins à une page
 

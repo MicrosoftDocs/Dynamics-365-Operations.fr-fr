@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353370"
 ---
 # <a name="work-policies"></a>Stratégies de travail
 
@@ -200,7 +200,7 @@ La commande fournisseur est maintenant reçue, mais aucun travail ne lui est ass
 
 Dans l’exemple suivant, il existe deux ordres de fabrication, *PRD-001* et *PRD-002*. L’ordre de fabrication *PRD-001* a une opération qui est appelée *Assemblage*, où le produit *SC1* est déclaré terminé à l’emplacement *001*. L’ordre de fabrication *PRD-002* a une opération qui est appelée *Peinture* et consomme le produit *SC1* de l’emplacement *001*. L’ordre de fabrication *PRD-002* consomme également la matière première *RM1* de l’emplacement *001*. Les matières premières *RM1* sont stockées à l’emplacement d’entrepôt *BULK-001* et seront prélevées à l’emplacement *001* par le travail d’entrepôt pour le prélèvement de matières premières. Le travail de prélèvement est généré lorsque la production de *PRD-002* est lancée.
 
-[![Stratégies de travail d’entrepôt](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Stratégies de travail d’entrepôt.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Lorsque vous planifiez de configurer une stratégie de travail d’entrepôt pour ce scénario, vous devez prendre en compte les points suivants :
 

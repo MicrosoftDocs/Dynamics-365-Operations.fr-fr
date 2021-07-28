@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894775"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356075"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Mise en route de la facturation électronique pour l’Italie
 
@@ -59,7 +61,7 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 
 4. Sélectionnez la fonctionnalité **Exportation de factures électroniques (IT)**, puis sélectionnez **Importer**.
 
-![Importation de la fonctionnalité Exportation de factures électroniques (IT)](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![Importation de la fonctionnalité Exportation de factures électroniques (IT).](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 Lorsque vous importez la fonctionnalité **Exportation de factures électroniques (IT)** à partir du référentiel global, tous les paramètres décrits dans les sections suivantes sont également importés.
 
@@ -67,13 +69,13 @@ Lorsque vous importez la fonctionnalité **Exportation de factures électronique
 
 1. Sur la page **Fonctionnalités de facturation électronique**, dans l’onglet **Versions**, sélectionnez **Nouveau**. 
 
-    ![Ajout d’une nouvelle version de la fonctionnalité de facturation électronique](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![Ajout d’une nouvelle version de la fonctionnalité de facturation électronique.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Ensuite, vous allez configurer les formats d’états électroniques (ER) associés à la fonctionnalité de facturation électronique.
 
 2. Dans l’onglet **Configurations**, sélectionnez **Ajouter** pour gérer les versions de configuration.
 
-    ![Gestion des versions de configuration de la fonctionnalité de facturation électronique](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![Gestion des versions de configuration de la fonctionnalité de facturation électronique.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     Dans cette étape, vous ajoutez et configurez les formats ER de différents fichiers utilisés pour exporter des factures électroniques italiennes. Pour les factures électroniques FatturaPA italiennes, utilisez les configurations standard suivantes ou les configurations personnalisées réelles que vous utilisez pour la facturation électronique :
 
@@ -85,17 +87,17 @@ Lorsque vous importez la fonctionnalité **Exportation de factures électronique
 3. Sélectionnez une configuration de format de fichier ER spécifique.
 4. Sélectionnez **Modifier** ou **Afficher** pour ouvrir la page **Concepteur de formats**.
 
-    ![Ouverture de la page Concepteur de formats](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![Ouverture de la page Concepteur de formats.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. Utilisez la page **Concepteur de formats** pour modifier ou afficher les configurations de format de fichier ER.
 
-    ![Page Concepteur de formats](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Page Concepteur de formats.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Gérer les paramétrages de la fonctionnalité de facturation électronique
 
 - Sur la page **Fonctionnalités de facturation électronique**, dans l’onglet **Paramétrages**, sélectionnez **Ajouter**, **Supprimer** ou **Modifier** pour gérer les paramétrages de la fonctionnalité de facturation électronique.
 
-![Gestion des paramétrages de la fonctionnalité de facturation électronique](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![Gestion des paramétrages de la fonctionnalité de facturation électronique.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 Dans cette étape, vous configurez les événements applicables aux factures électroniques, notamment la génération des fichiers de sortie XML au format **FatturaPA** et la signature numérique (si nécessaire).
 
@@ -105,20 +107,20 @@ Dans cette étape, vous configurez les événements applicables aux factures él
 2. Sélectionnez **Modifier**.
 3. Sur la page **Paramétrage de version de fonctionnalité**, sélectionnez l’onglet **Actions** pour gérer la liste des actions. Les actions définissent une liste d’opérations qui doivent être exécutées dans un ordre séquentiel pour permettre l’exécution complète de l’événement.
 
-    ![Onglet Actions](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Onglet Actions.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
-    | ID action | Nom de l’action        | Description de l’action                                     |
+    | ID action | Nom de l’action        | Description de l'action                                     |
     |-----------|--------------------|--------------------------------------------------------|
     | 1         | Transformer le document | Créez le fichier XML de la facture électronique au format **FatturaPA**. |
     | 2         | Signer le document      | Appliquez une certificat numérique au fichier XML.             |
 
 4. Sélectionnez l’onglet **Règles d’applicabilité** pour afficher et gérer les règles d’applicabilité. Les règles d’applicabilité définissent le contexte d’exécution de l’action.
 
-    ![Onglet Règles d’applicabilité](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Onglet Règles d’applicabilité.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Sélectionnez l’onglet **Variables** pour afficher et gérer les variables.
 
-    ![Onglet Variables](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Onglet Variables.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. Définissez les variables publiques nécessaires pour exécuter les actions.
 
@@ -133,7 +135,7 @@ Les étapes et les paramètres nécessaires pour configurer le paramétrage de l
 3. Dans le champ **Date d’effet**, sélectionnez la date à laquelle l’environnement doit prendre effet.
 4. Sélectionnez **Activer**. 
 
-![Activation de l’environnement de facturation électronique](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![Activation de l’environnement de facturation électronique.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>Publier la fonctionnalité de facturation électronique
 
@@ -149,7 +151,7 @@ Vous pouvez publier la fonctionnalité de facturation électronique en modifiant
 1. Sur la page **Fonctionnalités de facturation électronique**, dans l’onglet **Versions**, sélectionnez la version de la fonctionnalité de facturation électronique présentant le statut **Terminé**.
 2. Sélectionnez **Modifier le statut \> Publier**.
 
-![Modification du statut de la fonctionnalité de facturation électronique](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![Modification du statut de la fonctionnalité de facturation électronique.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Paramétrer l’intégration de la facturation électronique dans Finance
 
@@ -170,7 +172,7 @@ Lors du paramétrage de Finance, vous effectuerez les tâches suivantes :
 1. Allez dans **Administration de l’organisation \> Paramétrage \> Paramètres des documents électroniques**.
 2. Dans l’onglet **Fonctionnalités**, cochez la case **Activé** dans la ligne de la référence de fonctionnalité **IT00036**.
 
-![Activation de la fonctionnalité FatturaPA](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![Activation de la fonctionnalité FatturaPA.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Configurer des documents électroniques
 
@@ -185,7 +187,7 @@ Lors du paramétrage de Finance, vous effectuerez les tâches suivantes :
     - Pour **Journal des factures client**, sélectionnez **Contexte de la facture client**.
     - Pour **Facture de projet**, sélectionnez **Contexte de la facture de projet**.
 
-![Configuration des types de réponse](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Configuration des types de réponse.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>Traitement de facture électronique
 
@@ -207,13 +209,13 @@ Vous pouvez envoyer les documents manuellement, en fonction de votre demande de 
 2. Pour le premier envoi d’un document, définissez l’option **Envoyer de nouveau les documents** sur **Non**. Si vous devez envoyer à nouveau un document via le service, définissez cette option sur **Oui**.
 3. Dans le raccourci **Enregistrements à inclure**, sélectionnez **Filtrer** pour ouvrir la boîte de dialogue **Recherche** dans laquelle vous pouvez créer une requête pour sélectionner des documents pour envoi.
 
-![Boîte de dialogue Envoyer des documents électroniques](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Boîte de dialogue Envoyer des documents électroniques.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Requête de filtre
 
 1. Dans la boîte de dialogue **Recherche**, configurez les conditions de filtrage des factures client et des factures de projet, ou laissez les conditions vides pour inclure toutes les factures non envoyées.
 
-    ![Configuration des critères de filtrage de l’envoi](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Configuration des critères de filtrage de l’envoi.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Cliquez sur **OK** pour fermer la boîte de dialogue **Recherche**.
 3. Cliquez sur **OK** pour envoyer les documents sélectionnés.
@@ -227,13 +229,13 @@ Vous pouvez afficher les journaux d’envoi pour tous les documents envoyés.
 1. Allez dans **Administration de l’organisation \> Périodique \> Documents électroniques \> Journal d’envoi de documents électroniques**.
 2. Dans le champ **Type de document**, sélectionnez **Journal des factures client** ou **Facture de projet** pour filtrer les documents électroniques requis.
 
-    ![Sélection d’un type de document pour afficher les journaux d’envoi](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Sélection d’un type de document pour afficher les journaux d’envoi.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     La valeur affichée dans la colonne **Statut d’envoi** représente le statut du processus d’envoi. Elle indique si le processus a été exécuté comme configuré et si une action supplémentaire est nécessaire.
 
 3. Dans le volet Actions, sélectionnez **Recherches \> Détails de l’envoi** pour afficher les détails des journaux d’exécution de l’envoi.
 
-    ![Affichage des détails du journal d’envoi](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Affichage des détails du journal d’envoi.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Dans le raccourci **Actions de traitement**, vous pouvez afficher le journal d’exécution des actions configurées dans la version de fonctionnalité paramétrée dans RCS. La colonne **Statut** indique si l’exécution de l’action a réussi.
 5. Dans le raccourci **Fichiers d’action**, vous pouvez afficher les fichiers intermédiaires générés lors de l’exécution des actions. Vous pouvez sélectionner **Afficher** pour télécharger le fichier XML de sortie au format **FatturaPA** et afficher son contenu.

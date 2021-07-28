@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839605"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361112"
 ---
 # <a name="maintenance-plans"></a>Plans de maintenance
 
@@ -145,23 +145,23 @@ Ci-dessous, vous trouverez des exemples de la configuration des lignes du plan d
 
 **Exemple 1 - Ligne du plan de maintenance basée sur l’heure :** Une tâche de lubrification peut être configurée dans un intervalle fixe, survenant une fois par semaine. À ce titre, sélectionnez « Répété à partir de la date du plan » dans le champ **Type d’intervalle**. Découvrez un exemple dans l’illustration suivante.
 
-![Une tâche de service configurée sur un intervalle fixe, qui est effectuée une fois par semaine](media/02-preventive-maintenance.png "Une tâche de service configurée sur un intervalle fixe, qui se produit une fois par semaine")
+![Une tâche de service configurée sur un intervalle fixe, qui est effectuée une fois par semaine.](media/02-preventive-maintenance.png "Une tâche de service configurée sur un intervalle fixe, qui se produit une fois par semaine")
 
 **Exemple 2 - Ligne du plan de maintenance basée sur l’heure :** une tâche d’inspection peut être configurée pour être exécutée environ une fois par semaine. À ce titre, sélectionnez « Répété à partir du dernier ordre de travail » dans le champ **Type d’intervalle**. Découvrez un exemple dans l’illustration suivante.
 
-![Une tâche d’inspection configurée pour être effectuée environ une fois par semaine](media/03-preventive-maintenance.png "Une tâche d’inspection configurée pour être effectuée environ une fois par semaine")
+![Une tâche d’inspection configurée pour être effectuée environ une fois par semaine.](media/03-preventive-maintenance.png "Une tâche d’inspection configurée pour être effectuée environ une fois par semaine")
 
 **Exemple 3 - Ligne du plan de maintenance basée sur le compteur :** L’illustration graphique suivante présente un compteur horaire pour lequel une nouvelle ligne de programme de maintenance est créée toutes les 250 heures. Le type d’intervalle pour cette ligne basée sur le compteur est « Répété depuis la date de début ». La date de début est la date de début des actifs associés dans la vue détaillée **Tous les actifs** \> raccourci **Plans de maintenance des actifs** \> champ **Date de début**, ou dans la vue détaillée **Poste technique** \> raccourci **Plans de maintenance** \> champ **Date de début**. C’est un exemple d’un plan de maintenance *préventive*, car la ligne du programme de maintenance est automatiquement créée chaque fois que le seuil (+ 250) est atteint.
 
-![Un compteur d’heures qui crée périodiquement des lignes de programme de maintenance](media/04-preventive-maintenance.png "Un compteur d’heures qui crée périodiquement des lignes du programme de maintenance")
+![Un compteur d’heures qui crée périodiquement des lignes de programme de maintenance.](media/04-preventive-maintenance.png "Un compteur d’heures qui crée périodiquement des lignes du programme de maintenance")
 
 **Exemple 4 - Ligne du plan de maintenance basée sur le compteur :** L’illustration graphique suivante présente une baisse de la contre-valeur, mesurant l’usure des plaquettes de frein. Une ligne du programme de maintenance est créée lorsqu’un enregistrement de compteur inférieur à 20 mm est créé sur les plaquettes de frein. Le type d’intervalle pour cette ligne basée sur le compteur est « Une fois atteint en dessous » ou « Une fois depuis la dernière date de début ». C’est un exemple d’un plan de maintenance *réactive*, car la ligne du programme de maintenance n’est pas créée tant qu’une mesure inférieure à 20 mm n’est pas enregistrée.
 
-![Une baisse de la valeur du compteur, mesurant l’usure des plaquettes de frein](media/05-preventive-maintenance.png "Une baisse de la valeur du compteur, mesurant l’usure des plaquettes de frein")
+![Une baisse de la valeur du compteur, mesurant l’usure des plaquettes de frein.](media/05-preventive-maintenance.png "Une baisse de la valeur du compteur, mesurant l’usure des plaquettes de frein")
 
 **Exemple 5 - Ligne du plan de maintenance basée sur le compteur :** l’illustration graphique suivante présente un compteur avec un seuil de -18° Celsius. Une ligne du programme de maintenance est créée lors d’un enregistrement de compteur au-dessus de -18° Celsius. Le type d’intervalle pour cette ligne basée sur le compteur est « Une fois atteint au-dessus ». C’est un exemple d’un plan de maintenance *réactive*, car la ligne du programme de maintenance n’est pas créée tant qu’une mesure supérieure à -18° Celsius n’est pas enregistrée.
 
-![Un compteur avec un seuil de -18° Celsius](media/06-preventive-maintenance.png "Un compteur avec un seuil de -18° Celsius")
+![Un compteur avec un seuil de -18° Celsius.](media/06-preventive-maintenance.png "Un compteur avec un seuil de -18° Celsius")
 
 - Lorsque vous créez un actif et que cet actif utilise un type d’actif associé à un plan de maintenance, le plan de maintenance est automatiquement inséré dans le raccourci **Tous les objets \> Plans de maintenance des actifs**. De plus, dans **Valeurs par défaut du type d’actif**, sous l’organisateur **Plans de maintenance**, les plans de maintenance associés sont automatiquement insérés.
 - Si vous ajoutez ou supprimez des types d’actif ou de poste technique dans **Plans de maintenance**, cette modification réfléchira uniquement aux nouveaux actifs créés après avoir apporté la modification.
@@ -169,7 +169,7 @@ Ci-dessous, vous trouverez des exemples de la configuration des lignes du plan d
 
 L’illustration suivante présente un exemple d’un plan de maintenance « Service du camion » sur la page **Plans de maintenance**.
 
-![Un exemple de plan de maintenance de service de camion](media/07-preventive-maintenance.png "Un exemple de plan de maintenance de service de camion")
+![Un exemple de plan de maintenance de service de camion.](media/07-preventive-maintenance.png "Un exemple de plan de maintenance de service de camion")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Ajouter un plan de maintenance à un actif
 
@@ -187,11 +187,11 @@ L’illustration suivante présente un exemple d’un plan de maintenance « Se
 
 L’illustration suivante présente un exemple d’un plan de maintenance configuré sur un actif sur la page **Tous les actifs**.
 
-![Un exemple de plans de maintenance configurés sur un actif](media/08-preventive-maintenance.png "Un exemple de plans de maintenance configurés sur un actif")
+![Un exemple de plans de maintenance configurés sur un actif.](media/08-preventive-maintenance.png "Un exemple de plans de maintenance configurés sur un actif")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Améliorations de la maintenance basée sur un compteur
+## <a name="counter-based-maintenance-enhancements"></a>Améliorations apportées à la maintenance par compteur
 
 La fonctionnalité *Améliorations de la maintenance basée sur un compteur* introduit les fonctionnalités suivantes :
 

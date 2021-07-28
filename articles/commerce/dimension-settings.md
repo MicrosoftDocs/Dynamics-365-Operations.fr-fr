@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117223"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356900"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Appliquer les paramètres d’affichage pour les dimensions du produit
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce prend en charge les dimensions de taille, de style et de c
 
 Dans le générateur de sites de Commerce, les paramètres de dimension sont définis dans **Paramètres du site \> Extensions \> Paramètres de dimension**. L’illustration suivante montre un exemple de paramètres de dimension dans le générateur de sites.
 
-![Exemple de paramètres de site dans le générateur de sites de Commerce](./dev-itpro/media/swatch_site_settings.PNG)
+![Exemple de paramètres de site dans le générateur de sites de Commerce.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Deux paramètres de dimension sont disponibles :
 
@@ -41,13 +41,13 @@ Deux paramètres de dimension sont disponibles :
 
     L’illustration suivante montre un exemple dans lequel la page des détails d’un produit sur un site d’e-commerce comprend des échantillons de couleur et de taille. Dans cet exemple, un code hexadécimal est configuré pour la dimension de couleur. Par conséquent, les échantillons sont affichés comme couleurs. Cependant, ni un code hexadécimal ni une URL d’image ne sont configurés pour la dimension de taille. Par conséquent, le texte est affiché.
 
-    ![Exemple de la dimension de couleur affichée comme échantillons dans la page des détails d’un produit d’e-commerce](./dev-itpro/media/swatch_pdp.png)
+    ![Exemple de la dimension de couleur affichée comme échantillons dans la page des détails d’un produit d’e-commerce.](./dev-itpro/media/swatch_pdp.png)
 
 - **Dimensions à afficher dans la fiche produit** : spécifiez les dimensions qui doivent apparaître sur les fiches produit affichées dans les listes et dans les pages de liste. Pour qu’une dimension puisse apparaître sur une fiche produit, ce paramètre doit être activé pour cette dimension. Le paramètre **Dimensions à afficher comme image** doit également être activé. Le comportement de sélection d’échantillons dans les fiches produit est optimisé pour la dimension de couleur. Pour les autres dimensions, une extension de vue peut être nécessaire pour personnaliser le comportement de sélection d’échantillons.
 
     L’illustration suivante montre un exemple dans lequel une page de liste sur un site d’e-commerce contient des fiches produit incluant des échantillons de couleur.
 
-    ![Exemple de la dimension de couleur affichée comme échantillons dans une page de liste d’e- commerce](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Exemple de la dimension de couleur affichée comme échantillons dans une page de liste d’e-commerce.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Pour plus d’informations sur la configuration des dimensions du produit afin qu’elles s’affichent comme échantillons dans les pages du site, consultez [Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons](./dev-itpro/dimensions-swatch.md).
 

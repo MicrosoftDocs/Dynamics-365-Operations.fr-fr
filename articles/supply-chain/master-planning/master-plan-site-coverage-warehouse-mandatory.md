@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 008061d286505a2e678e15fbff7706da9c410dfe
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 01fd971d6914df9f95c0009d75c6663b97fa11ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187552"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358072"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Planification pour couverture de site, entrepôt obligatoire
 
@@ -41,7 +41,7 @@ Le graphique suivant illustre l’exécution du calcul de planification. Les par
 -   Des relations de rechargement sont définies pour l’entrepôt. Cliquez sur **Gestion des stocks &gt; Paramétrage &gt; Décomposition du stock &gt; Entrepôts**. Dans l’onglet **Planification**, voir le groupe de champs **Entrepôt principal**.
 -   Le type de commande par défaut est défini à Production, Commande fournisseur, ou Kanban. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez l’article, puis cliquez sur **Plan &gt; Paramètres de commande par défaut**. Dans l’écran **Paramètres de commande par défaut**, voir le **Type de commande par défaut**.
 
-![Demande pour l’entrepôt de couverture du site obligatoire](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
+![Demande pour l’entrepôt de couverture du site obligatoire.](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
 
 

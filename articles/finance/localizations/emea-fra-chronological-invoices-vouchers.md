@@ -14,12 +14,12 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3793437009701f006f7cd88fb53792624a1e540a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8243e335301ce93496329a5aaa762b5017983cf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826089"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360182"
 ---
 # <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° de justificatif chronologiques
 
@@ -51,7 +51,7 @@ Dans certains pays, il est obligatoire que toutes les factures et les documents 
 
 Dans la page **Paramètres de la comptabilité client**, sous l’onglet **Souches de numéros**, sélectionnez l’une des références prises en charge, par exemple **Facture financière**. Cliquez ensuite sur le bouton **Paramétrage de la numérotation chronologique** qui sera disponible pour les références prises en charge. Dans la page **Paramétrage de la numérotation chronologique**, définissez les souches de numéros ayant des périodes valides.
 
-![Paramétrage des numéros chronologiques](media/emea-chronological-numbering.jpg)
+![Paramétrage des numéros chronologiques.](media/emea-chronological-numbering.jpg)
 
 ### <a name="number-sequence-groups"></a>Groupes de souches de numéros
 

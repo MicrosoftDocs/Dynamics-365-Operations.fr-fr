@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 06ddad1f2df895da4819a06e3552acab8e9aff78
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ce0da7eb99d6da876362bb7e3f2cfbb9e561cfd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358939"
 ---
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
@@ -78,7 +78,7 @@ Télécharger et installer l’application mobile Finance and Operations :
 3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
-[![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Extraire pour actualiser.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Afficher les membres de l’équipe à l’aide de l’espace de travail Mon équipe
 1.  Dans l’application mobile, sélectionnez l’espace de travail **Mon équipe**. La liste des employés de l’équipe s’affiche. La liste affiche également le titre de chaque membre de l’équipe et les rapports directs entretenus.

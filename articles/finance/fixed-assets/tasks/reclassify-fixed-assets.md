@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbfb754459fad1f3b1509f4f9c65c20e0385b013
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: bf7e689d5b02178758a8f850b3cd735f70898dbc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944710"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356725"
 ---
 # <a name="reclassify-fixed-assets"></a>Reclassifier des immobilisations
 
@@ -33,19 +33,19 @@ Lorsqu’une immobilisation est reclassifiée :
 
 - Les transactions d’immobilisation existantes relatives à l’immobilisation originale sont annulées et regénérées pour la nouvelle immobilisation.
 
-- Lorsqu'un actif faisant l'objet d'une transaction de transfert a été reclassé, le système affiche un message dans le **Centre d'action** pour indiquer qu'une opération de transfert n'a pas été effectuée pendant le processus de reclassement. Il est nécessaire de terminer une transaction de transfert pour déplacer les transactions de reclassement existantes vers les dimensions financières appropriées. 
+- Lorsqu’un actif faisant l’objet d’une transaction de transfert a été reclassé, le système affiche un message dans le **Centre d’action** pour indiquer qu’une opération de transfert n’a pas été effectuée pendant le processus de reclassement. Il est nécessaire de terminer une transaction de transfert pour déplacer les transactions de reclassement existantes vers les dimensions financières appropriées. 
 
-   Au cours du processus de reclassement, le système exécute les actions suivantes pour reclasser le solde de l'actif de l'actif d'origine vers le nouvel actif. 
+   Au cours du processus de reclassement, le système exécute les actions suivantes pour reclasser le solde de l’actif de l’actif d’origine vers le nouvel actif. 
    
-   - Le processus de reclassement copie les données du livre d'immobilisations d'origine vers le nouveau livre d'immobilisations.
+   - Le processus de reclassement copie les données du livre d’immobilisations d’origine vers le nouveau livre d’immobilisations.
 
-   - La transaction de reclassement utilise les informations de l'acquisition comptabilisée d'origine qui incluent des informations sur la dimension financière qui sont incluses dans la transaction d'acquisition.  
+   - La transaction de reclassement utilise les informations de l’acquisition comptabilisée d’origine qui incluent des informations sur la dimension financière qui sont incluses dans la transaction d’acquisition.  
    
-   - Dans le même temps, le processus de reclassement annule la transaction initiale d'acquisition et de transfert d'actifs. 
+   - Dans le même temps, le processus de reclassement annule la transaction initiale d’acquisition et de transfert d’actifs. 
 
 Le diagramme et la procédure suivants fournissent un exemple du processus de reclassement. 
 
-[![Schéma illustrant le processus de reclassement](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
+[![Schéma illustrant le processus de reclassement.](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
 
 Procédez comme suit pour reclassifier une immobilisation :
 

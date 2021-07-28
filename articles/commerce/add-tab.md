@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797453"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348294"
 ---
 # <a name="tab-module"></a>Module Onglet
 
@@ -34,13 +34,13 @@ Dans chaque module d’onglet, un ou plusieurs modules d’élément d’onglet 
 
 L’image suivante montre un exemple de module d’onglet sur une page de site. Dans cet exemple, l’onglet **Livraison** est sélectionné.
 
-![Exemple d’un module d’onglet](./media/ecommerce-tab.PNG)
+![Exemple d’un module d’onglet.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Propriétés du module d’onglet
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
-| En-tête | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’onglet. |
+| Titre | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’onglet. |
 | Index des onglets actifs | Nombre | Cette propriété spécifie l’onglet qui doit être actif par défaut au chargement d’une page. Si aucune valeur n’est fournie, le premier élément d’onglet est activé par défaut. |
 
 ## <a name="tab-item-module-properties"></a>Propriétés du module d’élément d’onglet

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907715"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349768"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -32,7 +32,7 @@ Avant que les travailleurs puissent commencer à utiliser l’appareil, un super
 
 Une fois l’appareil préparé, la page de connexion apparaît dessus. Cette page affiche des informations sur le statut des tâches pour la cellule de travail locale. Ces informations sont mises à jour périodiquement. Sur la page, les employés utilisent leur ID badge pour se connecter. Bien que les employés ne soient pas obligés d’avoir un compte utilisateur pour Supply Chain Management, ils doivent avoir un compte *collaborateur à temps enregistré* qu’ils peuvent utiliser lorsqu’ils se connectent.
 
-![Page de connexion à l’interface d’exécution de l’atelier de production](media/pfei-sign-in-page.png "Page de connexion à l’interface d’exécution de l’atelier de production")
+![Page de connexion à l’interface d’exécution de l’atelier de production.](media/pfei-sign-in-page.png "Page de connexion à l’interface d’exécution de l’atelier de production")
 
 Les sections restantes de cette rubrique décrivent comment les travailleurs interagissent avec l’interface.
 
@@ -40,7 +40,7 @@ Les sections restantes de cette rubrique décrivent comment les travailleurs int
 
 L’onglet **Toutes les tâches** fournit une liste de tâches qui affiche toutes les tâches de production dont le statut est *Non commencé*, *Arrêté* ou *Commencé*. (Ce nom d’onglet est personnalisable et peut être différent pour votre système.)
 
-![Onglet Toutes les tâches](media/pfei-all-jobs-tab.png "Onglet Toutes les tâches")
+![Onglet Toutes les tâches.](media/pfei-all-jobs-tab.png "Onglet Toutes les tâches")
 
 La liste des tâches comprend les colonnes suivantes. Les numéros correspondent aux numéros dans l’illustration précédente.
 
@@ -59,7 +59,7 @@ La liste des tâches comprend les colonnes suivantes. Les numéros correspondent
 
 L’onglet **Tâches actives** affiche une liste de toutes les tâches que le collaborateur connecté a déjà commencées. (Ce nom d’onglet est personnalisable et peut être différent pour votre système.)
 
-![Onglet Tâches actives](media/pfei-active-jobs-tab.png "Onglet Tâches actives")
+![Onglet Tâches actives.](media/pfei-active-jobs-tab.png "Onglet Tâches actives")
 
 La liste des tâches actives comprend les colonnes suivantes :
 
@@ -76,7 +76,7 @@ La liste des tâches actives comprend les colonnes suivantes :
 
 L’onglet **Ma machine** permet aux collaborateurs de sélectionner un actif connecté à une ressource de machine dans le filtre défini sur l’onglet **Toutes les tâches**. Le collaborateur peut ensuite voir l’état et l’intégrité de l’actif sélectionné en lisant les valeurs de quatre compteurs sélectionnés au maximum et les listes des demandes de maintenance récentes et des temps d’arret enregistrés. Le collaborateur peut également demander la maintenance de l’actif sélectionné et enregistrer et modifier les temps d’arrêt de la machine. (Ce nom d’onglet est personnalisable et peut être différent pour votre système.)
  
-![Onglet Ma machine](media/pfei-my-machine-tab.png "Onglet Ma machine")
+![Onglet Ma machine.](media/pfei-my-machine-tab.png "Onglet Ma machine")
 
 L’onglet **Ma machine** contient les colonnes suivantes. Les numéros correspondent aux numéros dans l’illustration précédente.
 
@@ -87,7 +87,7 @@ L’onglet **Ma machine** contient les colonnes suivantes. Les numéros correspo
 
 1. **Paramètres** : sélectionnez l’icône d’engrenage pour ouvrir une boîte de dialogue dans laquelle vous pouvez choisir les compteurs à afficher pour l’actif de machine sélectionné. Les valeurs de ces compteurs sont affichées en haut de l’onglet **Gestion des actifs**. Le menu **Paramètres** (illustré dans la capture d’écran suivante) vous permet d’activer jusqu’à quatre compteurs. Pour chaque compteur que vous souhaitez activer, utilisez le champ de recherche en haut de la vignette pour sélectionner un compteur. Le champ de recherche répertorie tous les compteurs associés à l’actif sélectionné en haut de la page **Gestion des actifs**. Définissez chaque compteur pour surveiller la valeur **Agrégée** ou la valeur **Réelle** la plus récente du compteur. Par exemple, si vous définissez un compteur qui suit le nombre d’heures de fonctionnement de la machine, vous devez le définir sur **Agrégé**. Si vous définissez un compteur pour mesurer la dernière température ou pression mise à jour, vous devez le définir sur **Réel**. Sélectionnez **OK** pour enregistrer vos paramètres et fermer la boîte de dialogue.
 
-    ![Paramètres de l’onglet Ma machine](media/pfei-my-machine-tab-settings.png "Paramètres de l’onglet Ma machine")
+    ![Paramètres de l’onglet Ma machine.](media/pfei-my-machine-tab-settings.png "Paramètres de l’onglet Ma machine")
 
 1. **Faire une demande de maintenance** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez créer une demande de maintenance. Vous pourrez fournir une description et une note. La demande sera présentée à un utilisateur de Supply Chain Management, qui pourra alors convertir la demande de maintenance en ordre de travail de maintenance.
 1. **Enregistrer les temps d’arrêt** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez enregistrer les temps d’arrêt de la machine. Vous pourrez sélectionner un code motif et entrer un intervalle de dates ou d’heures pour le temps d’arrêt. L’enregistrement des temps d’arrêt de la machine est utilisé pour calculer l’efficacité de l’actif de machine.
@@ -98,7 +98,7 @@ L’onglet **Ma machine** contient les colonnes suivantes. Les numéros correspo
 
 Les travailleurs démarrent une tâche de production en sélectionnant une tâche sur l’onglet **Toutes les tâches** puis en sélectionnant **Commencer la tâche** pour ouvrir la boite de dialogue **Commencer la tâche**.
 
-![Boîte de dialogue Commencer la tâche](media/pfei-start-job-dialog.png "Boîte de dialogue Commencer la tâche")
+![Boîte de dialogue Commencer la tâche.](media/pfei-start-job-dialog.png "Boîte de dialogue Commencer la tâche")
 
 Les travailleurs utilisent la boîte de dialogue **Commencer la tâche** pour confirmer la quantité de production, puis démarrer la tâche. Les travailleurs peuvent ajuster la quantité en sélectionnant le champ **Quantité** puis en utilisant le clavier numérique qui apparaît. Les travailleurs sélectionnent ensuite **Démarrer** pour commencer à travailler sur la tâche. La boîte de dialogue **Commencer la tâche** se ferme et la tâche est ajoutée à l’onglet **Tâches actives**.
 
@@ -108,13 +108,13 @@ Les travailleurs peuvent démarrer une tâche qui a n’importe quel statut. Lor
 
 Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut déclarer les bonnes quantités produites en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie de l’avancement**. Puis, dans la boîte de dialogue **Saisie de l’avancement**, le travailleur entre la bonne quantité à l’aide du clavier numérique. La quantité est vide par défaut. Une fois qu’une quantité est entrée, le travailleur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
 
-![Boîte de dialogue Saisie de l’avancement](media/pfei-report-progress-dialog.png "Boîte de dialogue Saisie de l’avancement")
+![Boîte de dialogue Saisie de l’avancement.](media/pfei-report-progress-dialog.png "Boîte de dialogue Saisie de l’avancement")
 
 ## <a name="reporting-scrap"></a>Déclarer le rebut
 
 Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut déclarer le rebut en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie du rebut**. Puis, dans la boîte de dialogue **Saisie du rebut**, le travailleur entre la quantité mise au rebut à l’aide du clavier numérique. Le travailleur sélectionne également une raison (*Aucune*, *Machine*, *Opérateur* ou *Matériel*).
 
-![Boîte de dialogue Saisie du rebut](media/pfei-report-scrap-dialog.png "Boîte de dialogue Saisie du rebut")
+![Boîte de dialogue Saisie du rebut.](media/pfei-report-scrap-dialog.png "Boîte de dialogue Saisie du rebut")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Terminer une tâche et commencer une nouvelle tâche
 

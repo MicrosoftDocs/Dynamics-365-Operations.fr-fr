@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097257"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356510"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -61,7 +61,7 @@ Vous pouvez demander au bot d’effectuer ce qui suit :
 
 - Lancer une demande de congé. Par exemple, envoyez un message indiquant : « Prendre des congés » ou « Je souhaite prendre des congés les jeudi et vendredi prochains » pour être plus précis dans votre demande de congé pour le type de congé. 
 
-  ![Démarrer une demande de congé dans le chat Teams](./media/hr-teams-leave-app-initiate.png)
+  ![Démarrer une demande de congé dans le chat Teams.](./media/hr-teams-leave-app-initiate.png)
 
 - Le bot conversationnel remplira une demande de congé pour vous. Sélectionner **Demander un congé** et modifiez les détails de votre demande.
 
@@ -69,11 +69,11 @@ Vous pouvez demander au bot d’effectuer ce qui suit :
 
    Si vous sélectionnez un congé d’une demi-journée lorsque l’unité de demande de congé est exprimée en jours, vous pouvez spécifier si vous souhaitez demander un congé la matinée ou l’après-midi en sélectionnant l’option **Définition de la demi-journée** dans le menu **Plus d’options**.
    
-   ![Définitions de la demi-journée](./media/HalfDayDefinitions.png)
+   ![Définitions de la demi-journée.](./media/HalfDayDefinitions.png)
 
 - Lorsque vous avez terminé de modifier les détails de votre demande de congé, sélectionnez **Envoyer** pour la soumettre pour approbation.
 
-  ![Soumettre une demande de congé](./media/hr-teams-leave-app-submit.png)
+  ![Soumettre une demande de congé.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Gérer votre demandes dans Teams
 
@@ -93,7 +93,7 @@ L’onglet **Congés** vous permet de visualiser ce qui suit :
 
 2. Saisissez le ou les jours que vous souhaitez prendre, puis sélectionnez **Ajouter**.
 
-   ![L’application de congé Human Resources de Teams ajoute les congés](./media/TimeOffHours.png)
+   ![L’application de congé Human Resources de Teams ajoute les congés.](./media/TimeOffHours.png)
 
 3. Le cas échéant, entrez un code motif. Saisissez également des commentaires et ajoutez des pièces jointes.
 
@@ -123,7 +123,7 @@ Après avoir installé l’application Human Resources pour Teams, vous pouvez f
 
 1. Dans une équipe ou dans une discussion dans Teams, sélectionnez le bouton Ressources humaines sous la fenêtre de discussion.
 
-   ![Bouton Ressources humaines sous la fenêtre de discussion](./media/hr-teams-leave-app-chat-button.png)
+   ![Bouton Ressources humaines sous la fenêtre de discussion.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Sélectionnez la demande de congé que vous souhaitez partager. Si vous souhaitez partager un brouillon de demande de congé, sélectionnez **Brouillons** en premier.
 
@@ -173,11 +173,11 @@ Si les traductions ne s’affichent pas comme prévu, assurez-vous que la langue
 
 Dans Teams, regardez **Langue de l’application** dans **Réglages**.
 
-![Paramètres Teams](./media/hr-teams-leave-app-settings.png)
+![Paramètres Teams.](./media/hr-teams-leave-app-settings.png)
 
 Dans Human Resources, sélectionnez **Réglages** puis **Options utilisateur**. Vérifiez que le champ **Langue** correspond au champ **Langue de l’application** dans Teams.
 
-![Options utilisateur Human Resources](./media/hr-teams-leave-app-user-options.png)
+![Options utilisateur Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 Si vous rencontrez toujours des problèmes de traduction, faites-le nous savoir. Pour plus d’informations, voir [Obtenir de l’aide sur les applications Finance and Operations ou Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
@@ -191,11 +191,11 @@ Si vous recevez une erreur lors de la tentative d’approbation des demandes de 
 
 ### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Les approbateurs de congé ne reçoivent pas les messages de discussion de Teams pour approuver les demandes de congé
 
-1. Assurez-vous que les notifications sont activées pour l'environnement et l'utilisateur. Pour plus d’informations, consultez [Activer les notifications pour l’application Human Resources dans Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) et [Activer ou désactiver les notifications Teams pour les utilisateurs individuels](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+1. Assurez-vous que les notifications sont activées pour l’environnement et l’utilisateur. Pour plus d’informations, consultez [Activer les notifications pour l’application Human Resources dans Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) et [Activer ou désactiver les notifications Teams pour les utilisateurs individuels](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
 
-2. Assurez-vous que les utilisateurs sont connectés à l'onglet **Chats** avec les mêmes informations d'identification utilisées pour approuver les demandes de congé. Utilisez les messages « déconnexion », puis « connexion » pour vous connecter avec les informations d'identification correctes.
+2. Assurez-vous que les utilisateurs sont connectés à l’onglet **Chats** avec les mêmes informations d’identification utilisées pour approuver les demandes de congé. Utilisez les messages « déconnexion », puis « connexion » pour vous connecter avec les informations d’identification correctes.
 
-3. Si le problème persiste, vérifiez l'état du traitement par lots du système Événements commerciaux en tant qu'administrateur système. S'il est en attente ou en cours d'exécution, revenez dans quelques minutes. Si le statut reste inchangé, enregistrez un ticket de support afin que notre équipe puisse vous aider à résoudre le problème.
+3. Si le problème persiste, vérifiez l’état du traitement par lots du système Événements commerciaux en tant qu’administrateur système. S’il est en attente ou en cours d’exécution, revenez dans quelques minutes. Si le statut reste inchangé, enregistrez un ticket de support afin que notre équipe puisse vous aider à résoudre le problème.
 
 ## <a name="known-accessibility-issues"></a>Problèmes d’accessibilité connus
 

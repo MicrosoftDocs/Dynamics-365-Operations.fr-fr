@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053561"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357359"
 ---
 # <a name="human-resources-app-in-teams"></a>Application Human Resources de Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053561"
 
 L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams permet aux employés de demander rapidement des congés et d’afficher les informations sur leur solde de congés dans Microsoft Teams. Les employés peuvent interagir avec un bot pour demander des informations. L’onglet **Congés** fournit des informations plus détaillées. En outre, il permet d’envoyer des informations aux personnes sur le prochain congé dans les équipes et dans les chats en dehors de l’application Human Resources.
 
-![Bot d’application de congé Human Resources de Teams](./media/hr-teams-leave-app-bot.png)
+![Bot d’application de congé Human Resources de Teams.](./media/hr-teams-leave-app-bot.png)
 
-![Onglet Congés de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Onglet Congés de l’application de congé Human Resources de Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Carte de demande de congé de Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![Carte de demande de congé de Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Installer et configurer
 
@@ -57,11 +57,11 @@ Si vous souhaitez que les utilisateurs reçoivent des notifications de demande d
 
 4. Sur l’onglet **Général**, définissez **Activer les notifications pour l’application Teams** sur **Oui**.
 
-   ![Activer les notifications de l’application Teams dans les paramètres système](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Activer les notifications de l’application Teams dans les paramètres système.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Pour activer les notifications Teams pour tous les utilisateurs, sélectionnez **Oui** à l’invite.
 
-   ![Activer les notifications Teams pour tous les utilisateurs](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Activer les notifications Teams pour tous les utilisateurs.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Activer ou désactiver les notifications Teams pour les utilisateurs individuels
 
@@ -77,7 +77,7 @@ Une fois que vous avez activé les notifications pour l’application Dynamics 3
 
 5. Définissez **Activer les notifications pour l’application Teams** sur **Oui** pour activer les notifications pour l’utilisateur ou **Non** pour désactiver les notifications pour l’utilisateur.
 
-   ![Activer les notifications de l’application Teams dans l’onglet Workflow des options utilisateur](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Activer les notifications de l’application Teams dans l’onglet Workflow des options utilisateur.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -126,11 +126,11 @@ Si un utilisateur reçoit une erreur lors de la tentative d’approbation des de
 
 ### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Les approbateurs de congé ne reçoivent pas les messages de discussion de Teams pour approuver les demandes de congé
 
-1. Assurez-vous que les notifications sont activées pour l'environnement et l'utilisateur. Pour plus d’informations, consultez [Activer les notifications pour l’application Human Resources dans Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) et [Activer ou désactiver les notifications Teams pour les utilisateurs individuels](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+1. Assurez-vous que les notifications sont activées pour l’environnement et l’utilisateur. Pour plus d’informations, consultez [Activer les notifications pour l’application Human Resources dans Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) et [Activer ou désactiver les notifications Teams pour les utilisateurs individuels](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
 
-2. Assurez-vous que les utilisateurs sont connectés à l'onglet **Chats** avec les mêmes informations d'identification utilisées pour approuver les demandes de congé. Utilisez les messages « déconnexion », puis « connexion » pour vous connecter avec les informations d'identification correctes.
+2. Assurez-vous que les utilisateurs sont connectés à l’onglet **Chats** avec les mêmes informations d’identification utilisées pour approuver les demandes de congé. Utilisez les messages « déconnexion », puis « connexion » pour vous connecter avec les informations d’identification correctes.
 
-3. Si le problème persiste, vérifiez l'état du traitement par lots du système Événements commerciaux en tant qu'administrateur système. S'il est en attente ou en cours d'exécution, revenez dans quelques minutes. Si le statut reste inchangé, enregistrez un ticket de support afin que notre équipe puisse vous aider à résoudre le problème.
+3. Si le problème persiste, vérifiez l’état du traitement par lots du système Événements commerciaux en tant qu’administrateur système. S’il est en attente ou en cours d’exécution, revenez dans quelques minutes. Si le statut reste inchangé, enregistrez un ticket de support afin que notre équipe puisse vous aider à résoudre le problème.
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 

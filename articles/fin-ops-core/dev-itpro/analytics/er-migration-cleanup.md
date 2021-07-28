@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750884"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351047"
 ---
 # <a name="er-migration-cleanup"></a>Nettoyage de migration ER 
 
@@ -30,11 +30,11 @@ Lorsque vous gérez vos instances Finance, vous pouvez décider de migrer votre 
 
 Si vous essayez d’exécuter un format de gestion d’états électroniques qui utilise un modèle pour générer des documents commerciaux, une exception survient et vous êtes averti du modèle manquant. Vous êtes également invité à utiliser l’option de nettoyage de migration pour supprimer, puis réimporter la configuration du format des états électroniques qui contient le modèle.
 
-[![Exécution d’un format ER](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Exécution d’un format ER.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Vous recevrez une erreur similaire si vous accédez à la page **Configurations** (**Administration de l’organisation** \> **Rapports électroniques** \> **Configurations**) et dans l’arborescence des configurations, essayez de supprimer une configuration au format ER qui utilise un modèle.
 
-[![Suppression d’un format ER](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Suppression d’un format ER.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Effectuez les étapes suivantes pour résoudre les problèmes avec les modèles ER auxquels vous ne pouvez pas accéder.
 
@@ -50,7 +50,7 @@ Effectuez les étapes suivantes pour résoudre les problèmes avec les modèles 
 >
 > Si vous utilisez l’option **Nettoyage de migration** pour supprimer la configuration au format ER lorsque le modèle référencé est disponible dans le stockage Blob, vous ne supprimez que les artefacts de configuration dans la base de données d’application. Le fichier physique du modèle dans le stockage Blob reste. L’écrasement de fichiers dans le stockage Blob n’est plus autorisé. Pour plus d’informations, voir [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). De plus, vous ne pourrez plus réimporter les configurations supprimées à l’aide du nettoyage de migration dans cet environnement. Pour résoudre ce problème, vous devez rechercher le fichier correspondant dans le stockage Blob et le supprimer manuellement.
 
-[![Importation d’un format ER](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Importation d’un format ER.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Un problème similaire peut se produire si vous migrez votre instance d’application vers un autre emplacement qui a été utilisé comme cible de migration plusieurs fois et pour lequel le stockage Blob contient déjà des fichiers de modèle ER.
 

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6fbada6feb55b8627b1aa1ddfe367177edb7a0a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356582"
 ---
 # <a name="workers-without-employment"></a>Collaborateurs sans emploi
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Les collaborateurs sans emploi futur, actuel ou passé au sein de votre organisation apparaissent dans le formulaire **Collaborateurs sans emploi**. Les collaborateurs ayant ce statut peuvent apparaître lorsque vous importez des collaborateurs sans dossier ou lorsque vous supprimez l'emploi d'un collaborateur via **Collaborateur > Historique des emplois**.
+Les collaborateurs sans emploi futur, actuel ou passé au sein de votre organisation apparaissent dans le formulaire **Collaborateurs sans emploi**. Les collaborateurs ayant ce statut peuvent apparaître lorsque vous importez des collaborateurs sans dossier ou lorsque vous supprimez l’emploi d’un collaborateur via **Collaborateur > Historique des emplois**.
 
 Par défaut, le formulaire **Collaborateurs sans emploi** est disponible pour les postes suivants :
 
@@ -36,26 +36,26 @@ Par défaut, le formulaire **Collaborateurs sans emploi** est disponible pour le
 - Responsable paie
 - Responsable formation
 
-Dans la liste **Collaborateurs sans emploi**, vous pouvez supprimer les individus répertoriés. Par défaut, ce privilège est accordé au poste d'Assistant des ressources humaines. Vous pouvez accorder ce privilège à d'autres postes en procédant comme suit :
+Dans la liste **Collaborateurs sans emploi**, vous pouvez supprimer les individus répertoriés. Par défaut, ce privilège est accordé au poste d’Assistant des ressources humaines. Vous pouvez accorder ce privilège à d’autres postes en procédant comme suit :
 
 1. Sélectionnez **Administration du système**, puis **Configuration de sécurité**.
 
-2. Dans l'onglet **Privilèges**, filtrez la liste **Privilèges** sur **Tenir à jour les collaborateurs**.
+2. Dans l’onglet **Privilèges**, filtrez la liste **Privilèges** sur **Tenir à jour les collaborateurs**.
 
-   [![Liste des privilèges de filtrage](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![Liste des privilèges de filtrage.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
-3. Dans la colonne **Références**, sélectionnez **Options du menu d'affichage**.
+3. Dans la colonne **Références**, sélectionnez **Options du menu d’affichage**.
 
-4. Dans **Options du menu d'affichage**, sélectionnez **HcmWorkersWithoutEmployment**.
+4. Dans **Options du menu d’affichage**, sélectionnez **HcmWorkersWithoutEmployment**.
 
-   [![Sélectionner l'écran](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![Sélectionner l’écran.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
-5. Définissez l'autorisation **Supprimer** sur **Accorder**.
+5. Définissez l’autorisation **Supprimer** sur **Accorder**.
 
-6. Sélectionnez l'onglet **Objets non publiés**.
+6. Sélectionnez l’onglet **Objets non publiés**.
 
 7. Sélectionnez **Publier tous**.
 
-   [![Publier les modifications](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![Publier les modifications.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

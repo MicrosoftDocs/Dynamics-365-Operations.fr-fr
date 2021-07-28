@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360518"
 ---
 # <a name="enter-skills"></a>Saisir les compétences
 
@@ -45,17 +45,17 @@ Pour saisir des compétences sans nécessiter d’approbation, vous devez créer
 
 4. Dans le volet **Créer un flux de travail**, sélectionnez **Compétences du collaborateur**.
 
-   [![Sélectionner le flux de travail des compétences du collaborateur](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Sélectionner le flux de travail des compétences du collaborateur.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Dans la boîte de dialogue **Ouvrir ce fichier ?**, sélectionnez **Ouvrir**. Lorsque vous y êtes invité, entrez vos informations d’identification.
 
 6. Dans l’éditeur de flux de travail, sélectionnez l’élément de flux de travail **Approuver les compétences** et faites-le glisser sur le canevas.
 
-   [![Sélectionner l’élément de flux de travail Approuver les compétences](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Sélectionner l’élément de flux de travail Approuver les compétences.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Connectez l’élément **Début** à l’élément **Approuver les compétences 1**, puis connectez l’élément **Approuver les compétences 1** à l’élément **Fin**. Vous devrez peut-être faire défiler vers le bas pour voir l’élément **Fin**. Vous pouvez le faire glisser plus près des autres éléments.
 
-   [![Connecter les éléments du flux de travail](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Connecter les éléments du flux de travail.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Double-cliquez sur l’élément de flux de travail **Approuver les compétences 1**, puis cliquez avec le bouton droit sur l’élément **Étape 1**. Cliquez avec le bouton droit sur l’élément **Étape 1**, puis sélectionnez **Propriétés**.
 
@@ -65,7 +65,7 @@ Pour saisir des compétences sans nécessiter d’approbation, vous devez créer
 
 11. Sélectionnez **Ajouter une condition**. Après **Où**, sélectionnez **Compétences du libre-service des employés**, puis sélectionnez **Compétences du libre-service des employés**. Après **est**, sélectionnez **champ**, puis sélectionnez **Relation utilisateur/personne**.
 
-    [![Spécifier la condition](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Spécifier la condition.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Sélectionnez **Affectation** dans la barre de navigation de gauche.
 
@@ -73,7 +73,7 @@ Pour saisir des compétences sans nécessiter d’approbation, vous devez créer
 
 14. Dans l’onglet **Sélection de la hiérarchie**, dans le champ **Type de hiérarchie :**, sélectionnez **Hiérarchie managériale**.
 
-    [![Spécifier la hiérarchie managériale](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Spécifier la hiérarchie managériale.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Sélectionnez **Fermer**, sélectionnez **Flux de travail** dans la barre de navigation du canevas, puis sélectionnez **Enregistrer et fermer**.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351415"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisation de la charge de travail sortante
 
@@ -60,7 +60,7 @@ Pour configurer une visualisation de la charge de travail sortante, procédez co
     - **Jours à inclure** – Entrez le nombre de jours dans le passé pour lesquels le graphique doit être généré.
     - **Type d’ordre de travail** – Sélectionnez les types d’ordre de travail sortant sur lesquels filtrer.
 
-    ![Configurer la page des filtres](media/work-viz-filters-1.png "Configurer la page des filtres")
+    ![Configurer la page des filtres.](media/work-viz-filters-1.png "Configurer la page des filtres")
 
 1. Fermez la page **Configurer les filtres** pour revenir à la page **Visualisations de la charge de travail sortante**.
 
@@ -70,11 +70,11 @@ Pour configurer une visualisation de la charge de travail sortante, procédez co
     - **Dernière actualisation** – Ce champ indique la date et l’heure de la dernière mise à jour des informations du graphique.
     - **Temps estimé/réel** – Si des normes du travail sont définies dans votre système, définissez cette option sur *Oui* pour afficher les temps de prélèvement estimés cumulés en haut de chaque colonne du graphique. Si vous n’utilisez pas les normes du travail, cette option n’est pas disponible.
 
-    ![Exemple de visualisation](media/work-viz-chart.png "Exemple de visualisation")
+    ![Exemple de visualisation.](media/work-viz-chart.png "Exemple de visualisation")
 
 1. Sélectionnez n’importe quelle barre du graphique pour afficher les détails de la ligne de travail associée.
 
-    ![Détails de la ligne de travail](media/work-viz-work-details.png "Détails de la ligne de travail")
+    ![Détails de la ligne de travail.](media/work-viz-work-details.png "Détails de la ligne de travail")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Exemple : Visualisation de la charge de travail sortante pour les zones
 
@@ -92,7 +92,7 @@ Pour cet exemple, vous souhaitez configurer une visualisation qui montre les lig
 
 L’illustration suivante présente un exemple du graphique en résultant.
 
-![Visualisation du statut de la zone et du travail](media/work-viz-chart.png "Visualisation du statut de la zone et du travail")
+![Visualisation du statut de la zone et du travail.](media/work-viz-chart.png "Visualisation du statut de la zone et du travail")
 
 Ce graphique montre deux zones nommées **ATELIER** et **VRAC**, plus une zone nommée **Vide**. La zone **Vide** représente toutes les lignes de travail qui ne sont membres d’aucune zone. Le graphique montre toujours toutes les données filtrées non liées comme **Vides**, pour offrir autant de visibilité que possible. Dans la zone **ATELIER**, le graphique montre trois lignes fermées et quatre lignes ouvertes. Dans la zone **VRAC**, le graphique montre quatre lignes fermées, une ligne ouverte et 24 lignes annulées. Enfin, le graphique montre huit lignes fermées qui ne font partie d’aucune zone et sont donc répertoriées comme **Vides**.
 

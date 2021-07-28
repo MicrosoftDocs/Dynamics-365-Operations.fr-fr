@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097232"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354735"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Jours négatifs et jours négatifs dynamiques
 
@@ -43,7 +43,7 @@ Vous pouvez recevoir la demande relativement tôt dans le délai d’exécution 
 
 La figure suivante présente une vue graphique de ce scénario.
 
-![Vue graphique du scénario 1](./media/negative-days-1.jpg)
+![Vue graphique du scénario 1.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Cas A : les jours négatifs sont inférieurs au délai d’exécution de l’article
 
@@ -51,11 +51,11 @@ Si vous avez défini les jours négatifs à un nombre inférieur au délai d’e
 
 La figure suivante présente une capture d’écran de ce cas.
 
-![Capture d’écran du cas A pour le scénario 1](./media/negative-days-2.png)
+![Capture d’écran du cas A pour le scénario 1.](./media/negative-days-2.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas A pour le scénario 1](./media/negative-days-3.png)
+![Vue graphique du cas A pour le scénario 1.](./media/negative-days-3.png)
 
 Si vous envisagez les performances de la MRP et êtes inquiet, ce cas n’est pas très performant. La MRP doit créer un ordre prévisionnel et doit calculer les retards et les actions. Ces tâches demandent du temps. Ce cas ajoute également deux transactions supplémentaires à votre plan. D’autre part, la commande client est retardée de seulement six jours, et non sept jours.
 
@@ -73,11 +73,11 @@ Plage de gestion des jours négatifs dynamiques = délai d’achat + plage de ge
 
 Lorsque des jours négatifs dynamiques sont utilisés, la plage de gestion utilisée par la MRP pour rechercher des réceptions est à présent 6 + 2 + 0 = 8 jours. La MRP trouve la commande fournisseur existante et y associe la commande client. Aucun ordre prévisionnel n’est créé. Par conséquent, le temps d’exécution de la MRP est plus court. L’illustration suivante présente les besoins nets pour l’article DemoProduct.
 
-![Besoins nets pour le cas C du scénario 1](./media/negative-days-4.png)
+![Besoins nets pour le cas C du scénario 1.](./media/negative-days-4.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas C pour le scénario 1](./media/negative-days-5.png)
+![Vue graphique du cas C pour le scénario 1.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Cas D : utiliser uniquement des jours négatifs dynamiques
 
@@ -85,11 +85,11 @@ Si vous définissez les jours négatifs sur **0** (zéro) et utilisez seulement 
 
 La figure suivante présente une capture d’écran de ce cas.
 
-![Capture d’écran du cas D pour le scénario 1](./media/negative-days-6.png)
+![Capture d’écran du cas D pour le scénario 1.](./media/negative-days-6.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas D pour le scénario 1](./media/negative-days-7.png)
+![Vue graphique du cas D pour le scénario 1.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Cas E : utiliser des jours négatifs supérieurs au délai d’exécution de l’article et la plage de gestion des jours négatifs dynamiques
 
@@ -106,7 +106,7 @@ Vous pouvez recevoir la demande à un moment quelconque du délai d’exécution
 
 La figure suivante présente une vue graphique de ce scénario.
 
-![Vue graphique du scénario 2](./media/negative-days-8.png)
+![Vue graphique du scénario 2.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Cas A : les jours négatifs sont inférieurs au délai d’exécution de l’article
 
@@ -114,11 +114,11 @@ Si vous avez défini les jours négatifs à un nombre inférieur au délai d’e
 
 La figure suivante présente une capture d’écran de ce cas.
 
-![Capture d’écran du cas A pour le scénario 2](./media/negative-days-9.png)
+![Capture d’écran du cas A pour le scénario 2.](./media/negative-days-9.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas A pour le scénario 2](./media/negative-days-10.png)
+![Vue graphique du cas A pour le scénario 2.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Cas B : les jours négatifs sont supérieurs au délai d’exécution de l’article
 
@@ -130,11 +130,11 @@ Ce cas ressemble au cas C pour le scénario 1, car les jours négatifs dynamiq
 
 La figure suivante présente une capture d’écran de ce cas.
 
-![Capture d’écran du cas C pour le scénario 2](./media/negative-days-11.png)
+![Capture d’écran du cas C pour le scénario 2.](./media/negative-days-11.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas C pour le scénario 2](./media/negative-days-12.png)
+![Vue graphique du cas C pour le scénario 2.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Cas D : utiliser uniquement des jours négatifs dynamiques
 
@@ -155,7 +155,7 @@ Vous pouvez recevoir la demande après le délai d’exécution de l’article. 
 
 La figure suivante présente une vue graphique de ce scénario.
 
-![Vue graphique du scénario 3](./media/negative-days-13.png)
+![Vue graphique du scénario 3.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Cas A : les jours négatifs sont inférieurs au délai d’exécution de l’article
 
@@ -163,11 +163,11 @@ Si vous avez défini les jours négatifs à un nombre inférieur au délai d’e
 
 La figure suivante présente une capture d’écran de ce cas.
 
-![Capture d’écran du cas A pour le scénario 3](./media/negative-days-14.png)
+![Capture d’écran du cas A pour le scénario 3.](./media/negative-days-14.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas A pour le scénario 3](./media/negative-days-15.png)
+![Vue graphique du cas A pour le scénario 3.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Dans le capture d’écran précédente, la date de besoin de la commande fournisseur est le 12 janvier. Comme cette capture d’écran a été pris en 2015, alors que le 11 janvier était un dimanche, la MRP a déplacé la date de besoin au jour ouvrable suivant, qui est le lundi 12 janvier. Néanmoins, la commande fournisseur a la date de livraison du 11 janvier.
@@ -178,11 +178,11 @@ Si vous définissez les jours négatifs à un nombre supérieur au délai d’ex
 
 La figure suivante présente une capture d’écran de ce cas.
 
-![Capture d’écran du cas B pour le scénario 3](./media/negative-days-16.png)
+![Capture d’écran du cas B pour le scénario 3.](./media/negative-days-16.png)
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas B pour le scénario 3](./media/negative-days-17.png)
+![Vue graphique du cas B pour le scénario 3.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Cas C : corréler automatiquement le délai d’exécution l’article et la plage de gestion des jours négatifs
 
@@ -192,7 +192,7 @@ La plage de gestion des jours négatifs dynamiques est désormais 6 + 2 – 7 = 
 
 La figure suivante présente une vue graphique de ce qui se produit dans ce cas.
 
-![Vue graphique du cas C pour le scénario 3](./media/negative-days-18.png)
+![Vue graphique du cas C pour le scénario 3.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Cas D : utiliser uniquement des jours négatifs dynamiques
 
@@ -219,11 +219,11 @@ Vous pouvez définir les jours négatifs à une longue plage de gestion, puis ut
 
 La figure suivante présente une vue graphique de ce qui se produit.
 
-![Vue graphique de l’exemple](./media/negative-days-19.png)
+![Vue graphique de l’exemple.](./media/negative-days-19.png)
 
 La MRP produit les résultats suivants :
 
-![Exemple de résultats 1](./media/negative-days-20.png)
+![Exemple de résultats 1.](./media/negative-days-20.png)
 
 Dans le capture d’écran précédente, la date de besoin de la commande client est le 9 janvier au lieu du 10 janvier. Comme cette capture d’écran a été pris en 2015, alors que le 10 janvier était un samedi, la date de besoin de la commande aurait du être le jour ouvrable précédent, qui est le vendredi 9 janvier.
 
@@ -233,7 +233,7 @@ Les résultats ne sont pas erronés, mais le temps d’exécution de la MRP peut
 
 Si vous réduisez les jours négatifs à un nombre plus proche du délai d’exécution de l’article, et que vous utilisez des jours négatifs dynamiques, la MRP produit les résultats suivants.
 
-![Exemple de résultats 2](./media/negative-days-21.png)
+![Exemple de résultats 2.](./media/negative-days-21.png)
 
 La MRP crée un ordre prévisionnel associé à la première commande client. Ensuite, comme prévu, la deuxième commande client est liée à la commande fournisseur existante, sur la base des jours négatifs. Ce résultat de planification est également correct, et le temps d’exécution de la MRP peut être plus court. Dans ce cas, il n’est pas vital de comprendre et savoir utiliser les messages d’action.
 

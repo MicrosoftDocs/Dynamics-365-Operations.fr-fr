@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359361"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture depuis Lifecycle Services
 
@@ -34,13 +34,13 @@ Vous devez terminer l’intégration de Power Platform comme décrit dans les ru
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurer la double écriture pour les nouveaux environnements Dataverse
 
-Suivez ces étapes pour configurer la double écriture depuis la page **Détails de l'environnement** de LCS :
+Suivez ces étapes pour configurer la double écriture depuis la page **Détails de l’environnement** de LCS :
 
 1. Dans la page **Détails de l’environnement**, développez la section **Intégration de Power Platform**.
 
 2. Sélectionnez le bouton **Application de double écriture**.
 
-    ![Intégration de Power Platform](media/powerplat_integration_step2.png)
+    ![Intégration à Power Platform.](media/powerplat_integration_step2.png)
 
 3. Passez en revue les conditions générales, puis sélectionnez **Configurer**.
 
@@ -52,7 +52,7 @@ Suivez ces étapes pour configurer la double écriture depuis la page **Détails
 
 7. Sélectionnez **Lier à l’environnement Power Platform** pour créer un lien entre Dataverse et les bases de données de l’environnement actuel. Cette opération prend généralement moins de 5 minutes.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Lier à l’environnement Power Platform":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Lier à l’environnement Power Platform.":::
 
 8. Une fois la liaison terminée, un lien hypertexte s’affiche. Utilisez le lien pour vous connecter à la zone d’administration de la double écriture dans l’environnement Finance and Operations. À partir de là, vous pouvez configurer les mappages d’entités.
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799104"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349422"
 ---
 # <a name="recall-order-operation-in-pos"></a>Rappeler l’opération de commande dans le PDV
 
@@ -29,7 +29,7 @@ Pour activer cette fonctionnalité, activez la fonctionnalité **Rappeler l’op
 
 La configuration du bouton de l’opération **Rappeler la commande** permet aux organisations de déployer l’opération avec un affichage prédéfini.
 
-![Configuration de la grille de boutons](media/recallorderbuttongrid.png)
+![Configuration de la grille de boutons.](media/recallorderbuttongrid.png)
 
 Les options d’affichage sont les suivantes.
 - **Aucun** - Cette option déploie l’opération sans affichage spécifique. Lorsqu’un utilisateur ouvre l’opération avec cette configuration, il sera invité à rechercher et trouver des commandes ou à choisir un filtre de commande prédéfini.
@@ -42,11 +42,11 @@ Lors du lancement de l’opération **Rappel de la commande** à partir du PDV, 
 - Sélectionnez l’icône **Rechercher les commandes** ou **Rechercher et filtrer** sur la barre des applications pour utiliser le mécanisme de filtre afin de localiser les commandes qui répondent aux critères de filtre.
 - Choisissez un filtre prédéfini dans le menu déroulant **Afficher les commandes** (commandes à traiter, commandes à prélever ou commandes à expédier).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Après application des critères de recherche, l’application affichera une liste des commandes client correspondantes. Il est important de noter que lors de l’utilisation des options de recherche/filtrage, les commandes récupérées ne doivent pas nécessairement être des commandes liées au magasin actuel de l’utilisateur. Ce processus de recherche récupérera et affichera toute commande client qui correspond aux critères de recherche, même si la commande a été créée ou définie pour être exécutée par un autre magasin, canal ou emplacement d’entrepôt.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Un utilisateur peut sélectionner une commande dans la liste pour afficher des détails supplémentaires. Le panneau d’informations situé sur le côté droit de l’écran affiche les détails de la commande sélectionnée, y compris les détails de la ligne de commande, les détails de livraison et les détails d’exécution.
 

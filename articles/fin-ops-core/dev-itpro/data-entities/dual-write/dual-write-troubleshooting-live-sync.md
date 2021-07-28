@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748895"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350786"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Résoudre les problèmes de synchronisation en direct
 
@@ -73,21 +73,21 @@ Si des données existent des deux côtés et si vous avez confirmé que le probl
 
 Vous pouvez recevoir un message d’erreur de type « Bad Request » qui ressemble à l’exemple suivant lorsque vous créez des données dans une application Finance and Operations.
 
-![Exemple de message d’erreur « Bad Request »](media/error_record_id_source.png)
+![Exemple de message d’erreur « Bad Request ».](media/error_record_id_source.png)
 
 Pour résoudre le problème, vous devez attribuer le rôle de sécurité correct à l’équipe de l’unité commerciale Dynamics 365 Sales ou Dynamics 365 Customer Service mappée pour activer le privilège manquant.
 
 1. Dans l’application Finance and Operations, recherchez l’unité commerciale mappée dans le jeu de connexions d’intégration de données.
 
-    ![Cartographie de l’organisation](media/mapped_business_unit.png)
+    ![Cartographie de l’organisation.](media/mapped_business_unit.png)
 
 2. Connectez-vous à l’environnement dans l’application pilotée par le modèle dans Dynamics 365, accédez à **Paramètre \> Sécurité** et recherchez l’équipe de l’unité commerciale mappée.
 
-    ![Équipe de l’unité commerciale cartographiée](media/setting_security_page.png)
+    ![Équipe de l’unité commerciale cartographiée.](media/setting_security_page.png)
 
 3. Ouvrez la page de l’équipe à modifier, puis sélectionnez **Gérer les rôles** pour ouvrir la boîte de dialogue **Gérer les rôles d’équipe**.
 
-    ![Bouton Gérer les rôles](media/manage_team_roles.png)
+    ![Bouton Gérer les rôles.](media/manage_team_roles.png)
 
 4. Attribuez le rôle disposant du privilège de lecture/écriture aux tables concernées, puis sélectionnez **OK**.
 

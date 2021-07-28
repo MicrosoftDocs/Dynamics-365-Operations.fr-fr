@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831383"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359761"
 ---
 # <a name="location-license-plate-positioning"></a>Positionnement des contenants dans un emplacement
 
@@ -88,7 +88,7 @@ La fonctionnalité doit être activée dans le profil d’emplacement pour chaqu
 1. Alors que **Contenant** est toujours sélectionné, sélectionnez **Ajouter une jointure de table**.
 1. Dans la liste des tables qui s’affiche, dans la colonne **Relation**, sélectionnez **Positionnement des contenants dans un emplacement (contenant)**. Sélectionnez ensuite **Sélectionner** pour ajouter **Positionnement des contenants dans un emplacement** à la jointure de table **Dimensions de stock**.
 
-    ![Jointures de table](media/LpTableJoin.png "Jointures de table")
+    ![Jointures de table.](media/LpTableJoin.png "Jointures de table")
 
 1. Cliquez sur **OK** pour confirmer les tables jointes mises à jour et fermer l’éditeur de requêtes.
 1. Dans l’organisateur **Actions d’instruction d’emplacement**, sélectionnez à nouveau **Modifier la requête** pour rouvrir l’éditeur de requêtes.
@@ -100,7 +100,7 @@ La fonctionnalité doit être activée dans le profil d’emplacement pour chaqu
     - **Champ :** *Position du contenant*
     - **Critères :** *1*
 
-    ![Nouvelle plage](media/LpPositionCriteria.png "Nouvelle plage")
+    ![Nouvelle plage.](media/LpPositionCriteria.png "Nouvelle plage")
 
 1. Cliquez sur **OK** pour confirmer vos modifications et fermer l’éditeur de requêtes.
 
@@ -275,7 +275,7 @@ Maintenant que la fonctionnalité *Positionnement des contenants dans un emplace
 1. Sur la page **Analyser un ID travail/ID contenant**, sélectionnez le champ **ID**, puis entrez l’ID de travail à partir de la ligne de vente.
 1. Notez que le travail de prélèvement vous demande de sélectionner l’article *A0002* dans l’emplacement *01A01R1S2B*. Vous recevez cette instruction car l’article *A0002* se trouve sur un contenant en position *1* dans cet emplacement.
 
-    ![Emplacement en position 1](media/LocationLicensePlatePositioning.png "Emplacement en position 1")
+    ![Emplacement en position 1.](media/LocationLicensePlatePositioning.png "Emplacement en position 1")
 
 1. Entrez l’ID de contenant que vous avez créé pour l’emplacement, puis suivez les invites pour sélectionner la commande client.
 

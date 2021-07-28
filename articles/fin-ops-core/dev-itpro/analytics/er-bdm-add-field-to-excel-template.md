@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351792"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
 
@@ -50,14 +50,14 @@ La configuration du format de gestion des états électroniques **Facturation fi
 
 Pour plus d’informations sur la manière d’importer des configurations de gestion des états électroniques, voir [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Page de bibliothèque d’actifs partagés LCS](./media/BDM-AddFldExcel-LCS.png)
+![Page de bibliothèque d’actifs partagés LCS.](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>Modifiez le modèle de solution de gestion des états électroniques
 
 1.  Connectez-vous en tant qu’utilisateur avec accès à l’espace de travail **Gestion de document commercial**.
 2.  Ouvrez l’espace de travail du module **Gestion de document commercial**.
 
-    ![Espace de travail du module Gestion de document commercial](./media/BDM-AddFldExcel-Workspace.png)
+    ![Espace de travail du module Gestion de document commercial.](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  Dans la grille, sélectionnez le modèle **Facture financière (Excel)**.
 4.  Dans le volet droit, sélectionnez **Nouveau modèle** pour créer un modèle basé sur le modèle sélectionné.
@@ -66,20 +66,20 @@ Pour plus d’informations sur la manière d’importer des configurations de ge
 
 La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 pour modifier le modèle sélectionné en ligne dans le contrôle incorporé.
 
-![Page Éditeur de modèle BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
+![Page Éditeur de modèle BDM.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>Ajoutez le libellé pour un nouveau champ au modèle
 
 1.  Sur la page Éditeur de modèle BDM, sur le ruban Excel, sur l’onglet **Afficher**, sélectionnez les cases **En-têtes et grilles de ligne** pour le modèle Excel modifiable.
 
-    ![Cases à cocher En-têtes et Lignes de grille sélectionnées](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![Cases à cocher En-têtes et Lignes de grille sélectionnées.](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  Sélectionnez les cellules **E8:F8**.
 3.  Dans le ruban d’Excel, sur l’onglet **Accueil**, sélectionnez **Fusionner et centrer** pour fusionner les cellules sélectionnées en une cellule fusionnée **E8:F8**.
 4.  Dans la cellule fusionnée **E8:F8**, saisissez **URL**.
 5.  Sélectionnez la cellule fusionnée **E7:F7**, sélectionnez **Reproduire la mise en forme**, puis sélectionnez la cellule fusionnée **E8:F8** pour la formater de la même manière que la cellule fusionnée **E7:F7**.
 
-    ![Nouveau libellé de champ ajouté au modèle](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![Nouveau libellé de champ ajouté au modèle.](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>Formater le modèle pour réserver l’espace pour un nouveau champ
 
@@ -87,13 +87,13 @@ La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 
 2.  Dans le ruban d’Excel, sur l’onglet **Accueil**, sélectionnez **Fusionner et centrer** pour fusionner les cellules sélectionnées en une cellule fusionnée **G8:H8**.
 3.  Sélectionnez la cellule fusionnée **G7:H7**, sélectionnez **Reproduire la mise en forme**, puis sélectionnez la cellule fusionnée **G8:H8** pour la formater de la même manière que la cellule fusionnée **G7:H7**.
 
-    ![Espace réservé pour le nouveau champ](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![Espace réservé pour le nouveau champ.](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  Dans le champ **Nom**, sélectionnez **CompanyInfo**.
 
     La plage **CompanyInfo** du modèle Excel actuel contient tous les champs qui sont utilisés pour remplir l’en-tête d’un état généré avec les détails de la société actuelle en tant que vendeur.
 
-    ![Plage CompanyInfo sélectionnée](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![Plage CompanyInfo sélectionnée.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>Ajouter un nouveau champ au modèle
 
@@ -103,7 +103,7 @@ La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 
     > [!NOTE]
     > Vous devez ajuster la section du modèle à utiliser comme nouveau champ. Vous avez déjà apporté cet ajustement en formatant la cellule fusionnée **G8:H8**.
 
-    ![Ajout d’un nouveau champ au modèle](./media/BDM-AddFldExcel-AddCell.png)
+    ![Ajout d’un nouveau champ au modèle.](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  Sélectionnez **Excel\Cellule** pour ajouter un nouveau champ comme cellule dans le modèle.
 
@@ -114,11 +114,11 @@ La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 
 4.  Dans le champ **Plage Excel**, entrez **CompanyURL_Value**.
 5.  Cliquez sur **OK**.
 
-    ![Champ CompanyURL_Value ajouté à la structure de modèle](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![Champ CompanyURL_Value ajouté à la structure de modèle.](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  Dans le volet **Structure du modèle**, sélectionnez le bouton représentant les points de suspension (…), et sélectionnez **Afficher les liaisons**.
 
-    ![Afficher les liaisons sélectionnées](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![Afficher les liaisons sélectionnées.](./media/BDM-AddFldExcel-ShowBindings.png)
 
     Le volet **Structure du modèle** affiche maintenant les sources de données disponibles au format de gestion des états électroniques sous-jacents.
 
@@ -126,21 +126,21 @@ La page Éditeur de modèle BDM s’affiche. Vous pouvez utiliser Microsoft 365 
 8.  Dans la section **Sources de données** du volet **Structure du modèle**, développez **Modèle \> InvoiceBase \> CompanyInfo**.
 9.  Sous **CompanyInfo**, sélectionnez l’élément **WebsiteURI**.
 
-    ![Élément WebsiteURI sélectionné](./media/BDM-AddFldExcel-BindURL.png)
+    ![Élément WebsiteURI sélectionné.](./media/BDM-AddFldExcel-BindURL.png)
 
 10. Sélectionnez **Lier**.
 11. Dans le volet **Structure de modèle**, sélectionnez **Enregistrer**, puis fermez la page Éditeur de modèle BDM.
 
 Dans l’espace de travail **Gestion de document commercial**, l’onglet **Modèle** dans le volet de droit présente le modèle mis à jour. Dans la grille, notez que le champ **Statut** pour le modèle modifié a été modifié sur **Brouillon**, et le champ **Révision** n’est plus vide. Ces modifications indiquent que le processus de modification de ce modèle a commencé.
 
-![Modèle modifié dans l’espace de travail Gestion de document commercial](./media/BDM-AddFldExcel-Workspace2.png)
+![Modèle modifié dans l’espace de travail Gestion de document commercial.](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>Revoir les paramètres de société
 
 1.  Accédez à **Administration d’organisation \> Organisations \> Entités juridiques**.
 2.  Dans l’organisateur **Informations de contact**, vérifiez que l’URL de la société est entrée.
 
-![URL de société entrée sur la page Entités juridiques](./media/BDM-AddFldExcel-CompanyInfo.png)
+![URL de société entrée sur la page Entités juridiques.](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Générer des documents commerciaux pour tester le modèle mis à jour
 
@@ -150,13 +150,13 @@ Dans l’espace de travail **Gestion de document commercial**, l’onglet **Mod�
 4.  Sous **Facture financière**, sélectionnez le niveau **Document d’origine** pour préciser le champ des factures à traiter.
 5.  Dans le volet droit, dans le champ **Format de l’état**, sélectionnez le modèle **Facture financière (Excel) Contoso** pour le niveau spécifié de document.
 
-    ![Modèle Facture financière (Excel) Contoso sélectionné](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Modèle Facture financière (Excel) Contoso sélectionné.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Appuyez sur **Échap** pour fermer la page actuelle.
 7.  Sélectionnez **Imprimer \> Sélectionné**.
 8.  Téléchargez le document généré, puis rouvrez-le dans Excel.
 
-    ![Facture financière dans Excel](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![Facture financière dans Excel.](./media/BDM-AddFldExcel-PreviewReport.png)
 
 Le modèle révisé est utilisé pour générer l’état de facture financière pour l’article sélectionné. Pour analyser la manière dont cet état est affecté par les modifications apportées au modèle, vous pouvez exécuter cet état dans une session de l’application immédiatement après avoir modifié le modèle dans une autre session de l’application.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11d15a9e932eb02fc1bc8960d9c7ecbf4b57a4e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752386"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356293"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 4 – Exécuter le rapport)
 
@@ -34,19 +34,19 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 2. Dans l’arborescence, développez « Exemple de modèle de dimensions financières ».
 3. Dans l’arborescence, sélectionnez « Exemple de modèle de dimensions financières\État du journal comptable ».
 4. Cliquez sur Exécuter.
-![Page Configurations d’ER](../media/er-financial-dimensions-guides-run1.png)
+![Page Configurations ER.](../media/er-financial-dimensions-guides-run1.png)
 5. Dans le champ Nom de dimension, entrez ou sélectionnez une valeur.
     * Pour sélectionner toutes les dimensions de la société actuelle, entrez les informations suivantes : BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Page Configurations d’ER](../media/er-financial-dimensions-guides-run2.png)
+![Page Configurations ER.](../media/er-financial-dimensions-guides-run2.png)
 6. Développez les enregistrements pour inclure la section.
 7. Cliquez sur Filtre.
 8. Sélectionnez la ligne de la table Journaux comptables et du champ Numéro de lot du journal.
 9. Dans le champ Critères, tapez « 00057 ».
 10. Cliquez sur OK.
 11. Cliquez sur OK.
-![Page Configurations d’ER](../media/er-financial-dimensions-guides-run3.png)
+![Page Configurations ER.](../media/er-financial-dimensions-guides-run3.png)
     * Examinez la sortie générée. Pour chaque transaction du lot sélectionné, les dimensions financières de l’ensemble de dimensions correspondant sont présentées. Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l’état n’est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance.  
-![Page Configurations d’ER](../media/er-financial-dimensions-guides-run4.png)
+![Page Configurations ER.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

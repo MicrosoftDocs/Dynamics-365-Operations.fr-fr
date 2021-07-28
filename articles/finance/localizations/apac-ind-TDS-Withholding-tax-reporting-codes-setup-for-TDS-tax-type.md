@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023248"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361284"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
 
@@ -31,7 +31,7 @@ Les codes déclaration de retenue à la source sont utilisés pour générer les
 
 1. Accédez à **Taxe \> Configuration \> Retenue à la source \> Codes déclaration de retenue à la source**.
 
-    [![Page des codes déclaration de retenue à la source](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Page des codes déclaration de retenue à la source.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. Dans le champ **Type de taxe**, sélectionnez **TDS** pour définir des codes déclaration de retenue à la source pour le type de taxe TDS.
 3. Dans le champ **Composant de retenue à la source**, sélectionnez le composant TDS pour lequel vous définissez le code de déclaration de retenue à la source. Le champ **Groupe de composants de retenue à la source** affiche le groupe de composants TDS qui a été défini pour le composant TDS que vous définissez.

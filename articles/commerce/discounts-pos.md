@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356876"
 ---
 # <a name="show-discounts-in-pos"></a>Afficher les remises dans le PDV
 
@@ -33,7 +33,7 @@ Les promotions jouent un rôle important dans la motivation des clients qui doiv
 
 Commerce comprend une opération intitulée « Afficher toutes les remises ». Cette opération affiche toutes les remises actuellement en cours dans un magasin. L’opération « Afficher toutes les remises » peut être associée à un bouton du point de vente (PDV), et ce bouton peut être ajouté à la page **Bienvenue** ou **Transaction**. L’illustration suivante présente un exemple de la page **Toutes les remises** qui est ouverte.
 
-![Page Toutes les remises](./media/View_all_discounts.png "Page Toutes les remises")
+![Page Toutes les remises.](./media/View_all_discounts.png "Page Toutes les remises")
 
 Pour afficher les remises, le système recherche toutes les remises correspondant à une ou plusieurs des conditions suivantes :
 
@@ -61,11 +61,11 @@ Les illustrations suivantes montrent la logique qui détermine les remises à af
 
 L’illustration suivante montre la logique utilisée lorsque le contrôle de simultanéité de la remise est défini sur **Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités**.
 
-![Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités](./media/Model_1.png "Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités.").
+![Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités.](./media/Model_1.png "Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités.").
 
 L’illustration suivante montre la logique utilisée lorsque le contrôle de simultanéité de la remise est défini sur **Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités**.
 
-![Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités](./media/Model_2.png "Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités").
+![Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités.](./media/Model_2.png "Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

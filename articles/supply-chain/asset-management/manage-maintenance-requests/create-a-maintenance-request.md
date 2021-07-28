@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102972"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354903"
 ---
 # <a name="create-maintenance-requests"></a>Créer des demandes de maintenance
 
@@ -52,7 +52,7 @@ La section **Demandes de maintenance actives** du volet **Informations associée
 11. Dans le champ **Détails**, entrez des notes supplémentaires requises.
 12. Cliquez sur **OK**.
 
-![Créer une demande de maintenance](media/03-manage-maintenance-requests.png)
+![Créer une demande de maintenance.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Traitement ultérieur des demandes de maintenance
 
@@ -67,7 +67,7 @@ Dans la vue Détails, vous pouvez mettre à jour diverses informations. Voici qu
 - Sélectionnez un type de tâche de maintenance et, si ces informations sont pertinentes, une variante de la tâche de maintenance associée et un commerce de tâche.
 - Dans les champs **Latitude** et **Longitude**, entrez les coordonnées géographiques. Toutes les coordonnées ajoutées à une demande de maintenance sont automatiquement transférées vers un ordre de travail associé. 
 
-![Mettre à jour la demande de maintenance](media/04-manage-maintenance-requests.png)
+![Mettre à jour la demande de maintenance.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Si vous sélectionnez un actif lorsque vous créez une demande de maintenance, vous pouvez ajouter un défaut à l’actif. Une fois la demande de maintenance créée, vous pouvez ajouter des défauts, comme vous le souhaitez. Pour ajouter des défauts, sélectionnez **Défaut d’actif** sur la page **Toutes les demandes de maintenance**.

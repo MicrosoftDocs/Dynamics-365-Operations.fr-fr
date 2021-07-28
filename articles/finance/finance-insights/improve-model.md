@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186640"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355674"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Améliorer le modèle de prévision (version préliminaire)
 
@@ -33,7 +33,7 @@ Cette rubrique décrit les fonctionnalités que vous pouvez utiliser pour améli
 
 Vous sélectionnez d’abord un ou plusieurs des trois résultats possibles pour les factures : **À temps**, **En retard**, et **Très tard**. Les trois résultats doivent être sélectionnés. Si vous désactivez la sélection de l’un des résultats, les factures seront filtrées du processus de formation et la précision de la prédiction sera réduite.
 
-[![Confirmer les résultats](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Confirmer les résultats.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Si votre organisation ne requiert que deux résultats, modifiez les seuils **En retard** et **Très tard** à 0 (zéro) jour. De cette façon, vous réduisez efficacement la prédiction à un état binaire de **À temps** ou **En retard**.
 
@@ -51,7 +51,7 @@ Les sections suivantes présentent les champs disponibles pour la facture et les
 
 L’illustration suivante présente les champs disponibles pour la table de facturation.
 
-[![Champs disponibles pour la table de facturation](./media/available-fields.png)](./media/available-fields.png)
+[![Champs disponibles pour la table de facturation.](./media/available-fields.png)](./media/available-fields.png)
 
 Les champs suivants ne doivent pas être sélectionnés pour la formation :
 
@@ -66,7 +66,7 @@ Les champs suivants ne doivent pas être sélectionnés pour la formation :
 
 L’illustration suivante présente les champs disponibles pour la table client.
 
-[![Champs disponibles pour la table client](./media/related-entities.png)](./media/related-entities.png)
+[![Champs disponibles pour la table client.](./media/related-entities.png)](./media/related-entities.png)
 
 Le champ suivant ne doit pas être sélectionné pour la formation :
 
@@ -74,8 +74,8 @@ Le champ suivant ne doit pas être sélectionné pour la formation :
 
 ## <a name="filters"></a>Filtres
 
-Les filtres ne prennent actuellement pas en charge le scénario de prédicteur de paiement client. Par conséquent, sélectionnez **Passer cette étape** et passez à la page de résumé.
+Vous pouvez filtrer les factures utilisées pour la formation en définissant des critères de filtrage pour les champs de la facture ou dans les tables client. Par exemple, vous pouvez définir un seuil pour inclure uniquement les factures dont le total est égal ou supérieur à un montant spécifique. Vous pouvez également exclure les factures associées aux clients d’un groupe de clients spécifique.
 
-[![Modèle de mise au point avec filtres](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Pour plus d’informations sur le filtrage de vos données, consultez [Créer un modèle de prédiction](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

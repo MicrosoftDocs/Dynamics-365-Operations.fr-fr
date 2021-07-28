@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8976bc69f63fe5b05ab7dcb8d415515436902658
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 613fd4bad93e28360ca6862b7b30b2e4356ca489
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909082"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353394"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Sales
 
@@ -38,7 +38,7 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 
 La solution Prospect en disponibilités utilise la fonction d’intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d’intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L’illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
-[![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flux de données dans Prospect en disponibilités.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
@@ -104,7 +104,7 @@ L’illustration suivante présente un exemple de modèle de mise en corresponda
 > [!NOTE]
 > La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Supply Chain Management.
 
-![Mise en correspondance de modèles dans l’intégrateur de données](./media/products-direct-template-mapping-data-integrator-1.png)
+![Mise en correspondance de modèles dans l’intégrateur de données.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>Rubriques connexes

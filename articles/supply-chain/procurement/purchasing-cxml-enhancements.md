@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359955"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Améliorations des cXML d’achat
 
@@ -38,7 +38,7 @@ Après avoir activé la fonctionnalité, vous devez configurer les paramètres d
 
 L’illustration suivante résume cette configuration.
 
-![Zones de configuration des fonctionnalités cXML](media/cxml-settings-areas.png "Zones de configuration des fonctionnalités cXML")
+![Zones de configuration des fonctionnalités cXML.](media/cxml-settings-areas.png "Zones de configuration des fonctionnalités cXML")
 
 De plus, vous devez configurer le [Traitement par lots des demandes de commande fournisseur](#po-batch). Ce traitement par lots est utilisé pour envoyer les commandes fournisseur confirmées.
 
@@ -46,7 +46,7 @@ De plus, vous devez configurer le [Traitement par lots des demandes de commande 
 
 Utilisez la page **Paramètres cXML** pour définir quelques paramètres généraux qui s’appliquent à la fonctionnalité d’envoi de commande fournisseur.
 
-![Page des paramètres cXML](media/cxml-parameters.png "Page des paramètres cXML")
+![Page des paramètres cXML.](media/cxml-parameters.png "Page des paramètres cXML")
 
 Accédez à **Approvisionnements \> Configuration \> Gestion cXML \> Paramètres cXML** et définissez les paramètres suivants :
 
@@ -67,7 +67,7 @@ Chaque fois que vous confirmez une commande fournisseur où l’option **Envoyer
 - Pour configurer un fournisseur afin qu’il utilise automatiquement cXML pour toutes les nouvelles commandes fournisseur créées à partir d’une demande, accédez à **Approvisionnements \> Fournisseurs \>Tous les fournisseurs** et sélectionnez ou créez un fournisseur pour ouvrir sa page de détails. Puis, sur le FastTab **Commande fournisseur par défaut**, définissez l’option **Envoyer une commande fournisseur via cXML** sur _Oui_. Si cXML doit également être utilisé automatiquement pour les nouvelles commandes fournisseur qui ne sont **pas** créées à partir d’une demande, vous devez également définir la propriété de commande **ENABLEMANUALPO** sur _True_ pour le catalogue externe associé, comme décrit dans la section [Définir les propriétés de commande](#set-order-properties) plus loin dans cette rubrique.
 - Pour les commandes fournisseurs individuelles, accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur** et sélectionnez ou créez une commande fournisseur pour ouvrir sa page de détails. Passez à la vue **En-tête**, puis sur le FastTab **Configuration**, définissez l’option **Envoyer une commande fournisseur via cXML** au besoin.
 
-![Paramètres par défaut pour les commandes achat fournisseur](media/cxml-order-defaults.png "Paramètres par défaut pour les commandes achat fournisseur")
+![Paramètres par défaut pour les commandes achat fournisseur.](media/cxml-order-defaults.png "Paramètres par défaut pour les commandes achat fournisseur")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Paramétrage d’un catalogue externe pour utiliser cXML
 
@@ -76,7 +76,7 @@ Sur la page **Catalogues externes**, pour chacun de vos catalogues, vous pouvez 
 > [!NOTE]
 > Lorsque vous confirmez une commande fournisseur qui peut être envoyée via cXML, le système recherche le fournisseur associé à la commande fournisseur, puis trouve le premier catalogue externe actif associé à ce fournisseur. Le système utilise ensuite les paramètres de ce catalogue externe pour envoyer la commande fournisseur. Si plusieurs catalogues externes sont configurés, le système utilise uniquement le premier catalogue externe qu’il trouve, en fonction du fournisseur sur la commande fournisseur. Par conséquent, nous vous recommandons de créer un seul catalogue externe pour chaque fournisseur.
 
-![Paramètres de catalogue externe](media/cxml-supplier-catalog.png "Paramètres de catalogue externe")
+![Paramètres de catalogue externe.](media/cxml-supplier-catalog.png "Paramètres de catalogue externe")
 
 ### <a name="set-the-punchout-protocol-type"></a>Définir le type de protocole PunchOut
 
@@ -143,11 +143,11 @@ Comme mentionné dans la section [Définir les propriétés de commande](#set-or
 
 Pour définir les types de notes que le système recherchera, accédez à **Approvisionnements \> Paramétrage \> Écrans \> À partir du paramétrage**. Puis, sur l’onglet **Commande fournisseur**, définissez le champ **Inclure les documents de type** sur le type de note que vous souhaitez pouvoir inclure. Seules les notes textuelles seront incluses, pas les pièces jointes.
 
-![Page Paramétrage d’écran](media/cxml-form-setup.png "Page Paramétrage d’écran")
+![Page Paramétrage d’écran.](media/cxml-form-setup.png "Page Paramétrage d’écran")
 
 Les pièces jointes seront incluses avec une commande fournisseur uniquement si leur champ **Type** est défini sur la valeur que vous sélectionnez dans le champ **Inclure les documents de type**, et si leur champ **Restriction** est défini sur _Externe_. Pour créer, afficher ou modifier les pièces jointes d’une commande fournisseur, accédez à **Approvisionnements \> Toutes les commandes fournisseur**, sélectionnez ou créez une commande fournisseur, puis sélectionnez le bouton **Pièces jointes** (symbole de trombone) dans le coin supérieur droit.
 
-![Note jointe qui est configurée pour être envoyée à un fournisseur](media/cxml-note-to-vendor.png "Note jointe qui est configurée pour être envoyée à un fournisseur")
+![Note jointe qui est configurée pour être envoyée à un fournisseur.](media/cxml-note-to-vendor.png "Note jointe qui est configurée pour être envoyée à un fournisseur")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Afficher le journal des messages des paniers cXML pour le catalogue externe PunchOut
 
@@ -155,7 +155,7 @@ Lorsque vous définissez le champ **Type de protocole Punchout** sur _cXML_ pour
 
 Pour ouvrir le journal d’un catalogue externe, sélectionnez le catalogue approprié, puis, dans le volet Actions, sélectionnez **Journal des messages des paniers cXML**. La page **Journal des messages des paniers cXML** affiche une liste des paniers qui ont été retournés, le code XML associé à ces paniers et les lignes qui ont été créées sur la demande d’achat associée.
 
-![Page du journal des messages des paniers cXML](media/cxml-cart-message-log.png "Page du journal des messages des paniers cXML")
+![Page du journal des messages des paniers cXML.](media/cxml-cart-message-log.png "Page du journal des messages des paniers cXML")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Définir les éléments extrinsèques pour le catalogue externe PunchOut
 
@@ -178,21 +178,21 @@ Pour ajouter des éléments extrinsèques à un catalogue externe, procédez com
         - **Nom** - Utilisez le nom de famille de la personne de contact associée à l’utilisateur qui accède au catalogue externe.
         - **Numéro de téléphone** - Utilisez le numéro de téléphone principal de la personne de contact associée à l’utilisateur qui accède au catalogue externe.
 
-![Paramètres des éléments extrinsèques](media/cxml-extrinsics.png "Paramètres des éléments extrinsèques")
+![Paramètres des éléments extrinsèques.](media/cxml-extrinsics.png "Paramètres des éléments extrinsèques")
 
 L’utilisateur ou l’administrateur ne verra pas les éléments extrinsèques, car ils ne sont ajoutés que lorsque l’utilisateur effectue un PunchOut. Ils seront automatiquement insérés entre les éléments **BuyerCookie** et **BrowserFromPost** dans le message de demande de configuration cXML. Par conséquent, vous n’avez pas à les définir manuellement dans le XML lorsque vous configurez le catalogue externe.
 
-![Éléments extrinsèques ajoutés au XML](media/cxml-extrinsics-xml.png "Éléments extrinsèques ajoutés au XML")
+![Éléments extrinsèques ajoutés au XML.](media/cxml-extrinsics-xml.png "Éléments extrinsèques ajoutés au XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Créer et traiter une commande fournisseur
 
 Lorsque vous créez une commande fournisseur pour un fournisseur, celle-ci hérite du paramètre de l’option **Envoyer une commande fournisseur via cXML** de ce fournisseur. Cependant, le paramètre reste disponible sur le FastTab **Paramétrage** dans la vue **Entête** de la commande fournisseur, afin que vous puissiez le modifier ultérieurement si nécessaire.
 
-![Commande fournisseur configurée pour utiliser cXML](media/cxml-purchase-order.png "Commande fournisseur configurée pour utiliser cXML")
+![Commande fournisseur configurée pour utiliser cXML.](media/cxml-purchase-order.png "Commande fournisseur configurée pour utiliser cXML")
 
 Lorsque vous créez une commande fournisseur à partir d’une demande d’achat provenant d’un flux PunchOut, tous les détails de ligne requis sont renseignés. Vous pouvez ensuite ajouter manuellement des lignes de commande fournisseur ou les copier à partir d’autres commandes fournisseur. Assurez-vous de définir tous les champs obligatoires. Ces champs obligatoires incluent le numéro de référence externe, qui est le numéro de fournisseur qui sera utilisé dans le message cXML.
 
-![Exemple de numéro de référence externe](media/cxml-line-details.png "Exemple de numéro de référence externe")
+![Exemple de numéro de référence externe.](media/cxml-line-details.png "Exemple de numéro de référence externe")
 
 Lorsque vous avez terminé de remplir tous les détails de la commande fournisseur, assurez-vous de la confirmer. Aucun message n’est envoyé tant que la commande fournisseur n’est pas confirmée. Pour confirmer la commande fournisseur, dans le volet Actions, sous l’onglet **Achats**, dans le groupe **Actions**, cliquez sur **Confirmer**. 
 
@@ -200,17 +200,17 @@ Une fois la commande fournisseur confirmée, vous pouvez afficher le statut de l
 
 Chaque commande fournisseur peut avoir de nombreuses confirmations. Chaque confirmation est marquée d’un numéro incrémentiel. Dans l’illustration suivante, la commande fournisseur est *00000275*, et la confirmation est *00000275-1*. Cette numérotation reflète la fonctionnalité standard de Supply Chain Management, dans laquelle les modifications d’une commande fournisseur, et par conséquent le type de message cXML qui doit être envoyé au fournisseur, sont identifiées en fonction de la confirmation. Comme le montre l’illustration, la page **Confirmations des commandes fournisseur** comprend également les champs **Statut d’envoi de la commande** et **Statut du fournisseur de la demande de commande**. Pour plus d’informations sur les différentes valeurs de statut que vous pouvez voir sur cette page, consultez la section [Surveiller les demandes de commande fournisseur](#monitor-po-requests) plus loin dans cette rubrique.
 
-![Page Confirmations de commande fournisseur](media/cxml-po-confirmations.png "Page Confirmations de commande fournisseur")
+![Page Confirmations de commande fournisseur.](media/cxml-po-confirmations.png "Page Confirmations de commande fournisseur")
 
 Pour afficher plus d’informations sur le document, sélectionnez **Demande de commande fournisseur** au-dessus de la grille.
 
 La page **Demande de commande fournisseur** comprend deux grilles. La grille dans la partie supérieure de la page contient un enregistrement de chaque commande fournisseur marquée pour l’envoi. La grille sur l’onglet **Historique des demandes de commande fournisseur** dans la partie inférieure de la page peut avoir plusieurs enregistrements pour la commande fournisseur sélectionnée, pour indiquer le statut de chaque confirmation. L’illustration suivante montre la commande fournisseur 00000275 dans la grille supérieure et le document 00000275-1 dans la grille sur l’onglet **Historique des demandes de commande fournisseur**.
 
-![Page Demande de commande fournisseur](media/cxml-po-request.png "Page Demande de commande fournisseur")
+![Page Demande de commande fournisseur.](media/cxml-po-request.png "Page Demande de commande fournisseur")
 
 Si le traitement par lots est configuré et en cours d’exécution, le document sera envoyé. Vous pouvez afficher le changement de statut une fois le document envoyé. Dans l’illustration suivante, le champ **Statut d’envoi de la commande** est défini sur _Envoyé_. Le champ **Statut du fournisseur de la demande de commande** est défini sur _Reçu_ pour indiquer que le fournisseur a reçu le document, qu’il a pu le lire et le stocker dans son système. La grille sur l’onglet **Historique des demandes de commande fournisseur** affiche l’heure à laquelle le document a été envoyé. Pour plus d’informations sur les différentes valeurs de statut que vous pouvez voir sur cette page, consultez la section [Surveiller les demandes de commande fournisseur](#monitor-po-requests).
 
-![Messages de statut sur la page Demande de commande fournisseur](media/cxml-po-request-2.png "Messages de statut sur la page Demande de commande fournisseur")
+![Messages de statut sur la page Demande de commande fournisseur.](media/cxml-po-request-2.png "Messages de statut sur la page Demande de commande fournisseur")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Planifier le traitement par lots de demande de commande fournisseur
 
@@ -226,7 +226,7 @@ Le processus recherchera les documents de demande de commande fournisseur dont l
 
 Lorsque les commandes pouvant être envoyées via cXML sont confirmées, elles passent au statut _En attente_. Comme décrit dans la section [Créer et traiter une commande fournisseur](#create-po), vous pouvez afficher le statut de la commande fournisseur sur la page **Demande de commande fournisseur**. Chaque demande de commande fournisseur peut avoir l’un des statuts, selon ses paramètres et ses données. Cette section décrit les différents types de statut et les valeurs qu’ils peuvent avoir. Ces informations peuvent vous aider à gérer les problèmes et à comprendre le statut de vos commandes fournisseur.
 
-![Statut de la commande fournisseur sur la page Demande de commande fournisseur](media/cxml-monitor-po-request.png "Statut de la commande fournisseur sur la page Demande de commande fournisseur")
+![Statut de la commande fournisseur sur la page Demande de commande fournisseur.](media/cxml-monitor-po-request.png "Statut de la commande fournisseur sur la page Demande de commande fournisseur")
 
 La grille dans la partie supérieure de la page **Demande de commande fournisseur** peut afficher les valeurs de statut suivantes :
 
@@ -262,17 +262,17 @@ La grille sur l’onglet **Historique des demandes de commande fournisseur** dan
 
 Pour afficher le code XML du message de demande de commande fournisseur, sélectionnez l’onglet **Texte XML de demande** en bas de la page **Demande de commande fournisseur**. Les informations de cet onglet peuvent être utiles lors des tests ou de la validation des erreurs. Pour faciliter la lecture des informations, vous pouvez les afficher sous forme de message formaté. Copiez le contenu de l’onglet dans un fichier texte, puis affichez-le dans un éditeur XML.
 
-![Onglet Texte XML de demande](media/cxml-request-xml-text.png "Onglet Texte XML de demande")
+![Onglet Texte XML de demande.](media/cxml-request-xml-text.png "Onglet Texte XML de demande")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Afficher les détails de la réponse du fournisseur
 
 Pour afficher le contenu d’un accusé de réception ou d’une réponse d’erreur du fournisseur, sélectionnez l’onglet **Réponse XML** onglet en bas de la page **Demande de commande fournisseur**.
 
-![Onglet Réponse XML](media/cxml-response-xml.png "Onglet Réponse XML")
+![Onglet Réponse XML.](media/cxml-response-xml.png "Onglet Réponse XML")
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Paramétrer un catalogue externe pour PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
+- [Paramétrer un catalogue externe pour PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
 - [Utiliser des catalogues externes pour PunchOut eProcurement](use-external-catalogs-for-punchout.md)
 
 

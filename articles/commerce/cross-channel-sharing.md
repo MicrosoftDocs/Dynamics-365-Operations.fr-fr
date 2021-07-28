@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799515"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349720"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Activer et utiliser le partage intercanaux
 
@@ -48,15 +48,15 @@ Pour activer le partage intercanal dans le générateur de site Commerce, procé
 1. Accédez à **Paramètres du site \> Fonctionnalités**.
 1. Définissez l’option pour la fonctionnalité **Intercanal** sur **Activé**.
 
-    ![Option Intercanal définie sur Activé dans le générateur de site Commerce](./media/enabling-cross-channel-sharing.png)
+    ![Option Intercanal définie sur Activé dans le générateur de site Commerce.](./media/enabling-cross-channel-sharing.png)
 
 Une fois que vous avez activé le partage intercanal, les informations intercanal s’affichent dans la section **Canaux** sous **Paramètres du site \> Fonctionnalités**, comme illustré ci-dessous.
 
-![Informations sur les canaux visibles après l’activation du partage intercanal](./media/channels-cross-channel.png)
+![Informations sur les canaux visibles après l’activation du partage intercanal.](./media/channels-cross-channel.png)
 
 De plus, après avoir activé le partage intercanal, le champ **Canal** dans le coin supérieur droit du générateur de site Commerce inclura une option **Magasin en ligne intercanal** que vous pouvez utiliser pour gérer le contenu intercanal, comme illustré ci-dessous.
 
-![Option de magasin en ligne intercanal dans le champ Canaux une fois le partage intercanal activé](./media/cross-channel-dropdown.png)
+![Option de magasin en ligne intercanal dans le champ Canaux une fois le partage intercanal activé.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Créer et utiliser du contenu intercanal
 

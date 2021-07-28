@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353106"
 ---
 # <a name="navigation-menu-module"></a>Module du menu de navigation
 
@@ -33,11 +33,11 @@ L’objectif principal des modules de menu de navigation est de permettre aux ut
 Le module de menu de navigation peut être ajouté au module d’en-tête d’une page. Dans le thème Fabrikam, le menu de navigation affiche deux niveaux par défaut. Dans le thème Starter, le menu de navigation affiche trois niveaux par défaut. Pour modifier le nombre de niveaux, une extension de vue est requise sur le thème.
 
 L’illustration suivante montre un exemple de menu de navigation pour le site Fabrikam avec deux niveaux de hiérarchie de catégories et des éléments de menu statiques.
-![Exemple de module de menu de navigation](./media/ecommerce-header.png)
+![Exemple de module de menu de navigation.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Propriétés du module Menu de navigation
 
-| Nom de la propriété             | Valeur                 | Description |
+| Nom de la propriété             | Valeur                  | Description  |
 |---------------------------|-----------------------|-------------|
 | Source                  | **Vente au détail**, **Création manuelle**, **Vente au détail et création manuelle** | La valeur **Vente au détail** permet d’afficher la hiérarchie de navigation des canaux depuis le siège Commerce dans le menu de navigation. La valeur **Création manuelle** permet aux éléments de menu statiques d’être organisés. La valeur **Vente au détail et création manuelle** permet un mélange des deux. |
 | Afficher les images des catégories | **Vrai** ou **Faux**    | Lorsqu’elle est activée, cette propriété affiche les images de catégorie dans le menu de navigation, telles que définies dans le siège Commerce pour chaque catégorie. Ajouté dans la version 10.0.14 de Commerce. |
@@ -50,7 +50,7 @@ L’illustration suivante montre un exemple de menu de navigation pour le site F
 | Menu racine | chaîne | Cette propriété peut être utilisée pour définir le texte d’une racine personnalisée si la propriété **Afficher le menu racine** est définie sur **True**. |
 
 L’illustration suivante montre un exemple d’image de catégorie affichée dans le menu de navigation du site Fabrikam.
-![Exemple de module de navigation avec images de catégories](./media/ecommerce-categoryimages.PNG)
+![Exemple de module de navigation avec images de catégories.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Ajouter un module de menu de navigation à un module d’en-tête
 

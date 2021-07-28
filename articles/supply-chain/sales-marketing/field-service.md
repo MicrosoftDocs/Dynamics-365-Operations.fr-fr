@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359603"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Vue d’ensemble de l’intégration à Microsoft Dynamics 365 Field Service
 
@@ -34,7 +34,7 @@ Les modèles standard peuvent être utilisés pour créer des projets d’intég
 
 L’intégration avec Field Service se base sur la fonctionnalité existante de Prospect en disponibilités.
 
-![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service](./media/field-service-integration.png)
+![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service.](./media/field-service-integration.png)
 
 La première phase de l’intégration entre Field Service et Supply Chain Management porte sur l’activation des ordres de travail et des accords dans Field Service à facturer dans Supply Chain Management. Le flux pris en charge commence dans Field Service, où les informations des ordres de travail sont synchronisées avec Supply Chain Management comme commandes client. Dans Supply Chain Management, les commandes client sont facturées pour générer des documents de facture. De plus, les informations des factures d’accord Field Service sont synchronisées sur Supply Chain Management. L’intégrateur de données Microsoft Dynamics 365 synchronise les données à l’aide de projets personnalisables. Les modèles standard peuvent être utilisés pour créer des projets d’intégration personnalisés dans lesquels des colonnes et tables standard et personnalisées supplémentaires, ainsi que des entités, peuvent être mis en correspondance pour ajuster l’intégration et satisfaire aux besoins spécifiques.
 
@@ -58,7 +58,7 @@ La fonctionnalité supplémentaire de cette deuxième phase est axée sur la pos
 - Projets Supply Chain Management connectés aux ordres de travail Dynamics 365 Field Service
 - Les ordres de travail Dynamics 365 Field Service avec un lien vers les projets Supply Chain Management appliquent ce numéro de projet à la commande client pour permettre la facturation depuis le projet. 
 
-![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service](./media/FSv2overview.png)
+![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>La seconde phase de l’intégration entre Field Service et Supply Chain Management active la synchronisation avec les modèles suivants :
 - Entrepôts (Supply Chain Management vers Field Service) - Entrepôts de Supply Chain Management vers Field Service [requête avancée] 

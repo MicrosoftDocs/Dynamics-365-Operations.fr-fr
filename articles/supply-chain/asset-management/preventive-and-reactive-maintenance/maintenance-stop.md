@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356486"
 ---
 # <a name="maintenance-downtime-activities"></a>Activités de temps d’arrêt pour maintenance
 
@@ -40,7 +40,7 @@ Une fois les actifs sélectionnés sur un enregistrement des temps d’arrêt de
 
 Cliquez sur **Gestion des actifs** > **Commun** > **Activités des temps d’arrêt pour maintenance** > **Toutes les activités de temps d’arrêt pour maintenance** pour ouvrir une liste de toutes les activités des temps d’arrêt pour maintenance et afficher une partie des informations relatives aux activités. Cliquez sur un lien dans la colonne **Activités des temps d’arrêt pour maintenance** pour ouvrir la vue détaillée. L’illustration ci-dessous présente un exemple de la liste **Activités de temps d’arrêt pour maintenance**.
 
-![Figure 1](media/19-preventive-maintenance.png)
+![Figure 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Créer une activité de temps d’arrêt pour maintenance
@@ -61,7 +61,7 @@ Cliquez sur **Gestion des actifs** > **Commun** > **Activités des temps d’arr
 
 L’illustration ci-dessous présente un exemple de la vue des détails **Activités de temps d’arrêt pour maintenance**.
 
-![Figure 2](media/20-preventive-maintenance.png)
+![Figure 2.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Les tâches de maintenance des ordres de travail et les lignes du programme de maintenance associées aux actifs sélectionnés sont automatiquement mises à jour si les nouveaux ordres de travail ou les lignes du programme de maintenance sont créés une fois l’activité des temps d’arrêt pour maintenance créée. Par exemple, si vous programmez des plans de maintenance ou des visites de maintenance sur les actifs associés deux jours après la création de l’activité des temps d’arrêt pour maintenance, de nouvelles lignes du programme de maintenance sont automatiquement ajoutées à l’activité des temps d’arrêt pour maintenance.
@@ -72,7 +72,7 @@ L’illustration ci-dessous présente un exemple de la vue des détails **Activi
 
 10. Cliquez sur **OK** pour démarrer le calcul. Le nombre total d’heures s’affiche dans la vue d’ensemble **Charge maximale**. Dans l’onglet **Charge maximale** > les groupes de volet Actions **Regroupement par…**, cliquez sur les boutons appropriés pour obtenir une vue d’ensemble plus détaillée de la répartition des heures prévues. L’illustration ci-dessous affiche les résultats d’un calcul **Charge de la capacité**.
 
-![Figure 3](media/21-preventive-maintenance.png)
+![Figure 3.](media/21-preventive-maintenance.png)
 
 11. Une fois que vous obtenez une vue d’ensemble de la charge maximale, si vous souhaitez procéder à des ajustements des tâches de maintenance des ordres de travail ou des lignes du programme de maintenance, revenez à la vue détaillée **Activités de temps d’arrêt pour maintenance** et sélectionnez les lignes à ajuster dans les organisateurs **Tâches de maintenance des ordres de travail résultantes** et **Lignes du programme de maintenance**.
 
@@ -89,7 +89,7 @@ L’illustration ci-dessous présente un exemple de la vue des détails **Activi
 
 16. Cliquez sur **OK** pour démarrer le calcul. Le nombre total de prévisions des articles s’affiche dans la vue d’ensemble **Prévisions des articles**. Dans l’onglet **Prévisions des articles** > les groupes de volet Actions **Regroupement par…**, cliquez sur les boutons appropriés pour obtenir une vue d’ensemble plus détaillée de la répartition des articles prévus. L’illustration ci-dessous affiche les résultats d’un calcul **Charge de la capacité**.
 
-![Figure 4](media/22-preventive-maintenance.png)
+![Figure 4.](media/22-preventive-maintenance.png)
 
 - Vous pouvez copier des actifs d’une activité de temps d’arrêt pour maintenance à une autre. Dans **Toutes les activités de temps d’arrêt pour maintenance**, sélectionnez le bouton **Copier les activités de temps d’arrêt pour maintenance**, puis effectuez vos sélections dans les champs **Des activités de temps d’arrêt pour maintenance** et **Aux activités de temps d’arrêt pour maintenance**, puis cliquez sur **OK**.
 - Dans **Toutes les activités de temps d’arrêt pour maintenance**, cliquez sur le bouton **Lignes du programme de maintenance** ou le bouton **Ordres de travail actifs** pour ouvrir les listes associées et afficher les lignes associées à l’activité de temps d’arrêt pour maintenance sélectionnée.

@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353936"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Présentation du portail client pour Dynamics 365 Supply Chain Management
 
@@ -63,7 +64,7 @@ Les [portails Power Apps](/powerapps/maker/portals/overview) sont une fonctionna
 
 La [double écriture](/powerapps/maker/portals/overview) est un produit d’infrastructure prêt à l’emploi qui fournit une interaction en temps quasi réel entre les applications Customer Engagement et les applications Finance and Operations. La double écriture offre une intégration bidirectionnelle entre les applications Finance and Operations et Microsoft Dataverse. Par conséquent, elle offre une expérience utilisateur intégrée entre les différentes applications. Le portail client dépend des tables synchronisées par la double écriture. Avant que les données issues de Supply Chain Management puissent apparaître dans le portail client, la double écriture doit être activée pour toutes les tables appropriées.
 
-![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
+![Dépendances du portail client.](media/customer-portal-elements.png "Dépendances du portail client")
 
 Le portail client sert de point de départ pour les organisations qui souhaitent utiliser les portails Power Apps pour créer un site Web ouvert sur l’extérieur qui utilise les données de leur installation Supply Chain Management. Il aide les organisations à connecter la double écriture, Supply Chain Management et les portails Power Apps.
 

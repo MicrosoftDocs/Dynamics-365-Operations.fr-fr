@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816794"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356019"
 ---
 # <a name="inbound-and-outbound-assets"></a>Actifs entrants et sortants
 
@@ -42,7 +42,7 @@ Le paramétrage de Gestion des actifs détermine si vous pouvez utiliser les act
 3. Sélectionnez **Mettre à jour l’état de la demande de maintenance**.
 4. Sélectionnez **Entrant** (ou un autre état du cycle de vie créé pour les actifs entrants), puis **OK**.
 
-![Enregistrer les actifs comme entrants](media/07-manage-maintenance-requests.png)
+![Enregistrer les actifs comme entrants.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Enregistrer les actifs entrants comme reçus
 
@@ -51,7 +51,7 @@ Le paramétrage de Gestion des actifs détermine si vous pouvez utiliser les act
 3. Sélectionnez **Recevoir des actifs**.
 4. Dans le champ **Reçu**, entrez de date et l’heure. Puis sélectionnez **OK**. L’enregistrement est supprimé de la page de liste **Actifs entrants**.
 
-![Enregistrer les actifs entrants comme reçus](media/08-manage-maintenance-requests.png)
+![Enregistrer les actifs entrants comme reçus.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Enregistrer les actifs comme sortants
 

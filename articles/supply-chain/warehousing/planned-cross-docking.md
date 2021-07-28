@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911246"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359075"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking planifié
 
@@ -42,7 +42,7 @@ Si votre système n’inclut pas déjà les fonctionnalités décrites dans cett
 1. *Cross-docking planifié*
 1. *Modèles de cross-docking avec instructions d’emplacement*
     > [!NOTE]
-    > Cette fonction permet au champ **Code directif** d'être spécifié sur le modèle de cross-docking, de la même manière que vous configurez les modèles de réapprovisionnement. L'activation de cette fonctionnalité vous empêche d'ajouter un code directif sur les lignes du modèle de travail de cross-docking pour la dernière ligne *Placement*. Cela garantit que l'emplacement final de placement pourra être déterminé lors de la création du travail avant de prendre en compte les modèles de travail.
+    > Cette fonction permet au champ **Code directif** d’être spécifié sur le modèle de cross-docking, de la même manière que vous configurez les modèles de réapprovisionnement. L’activation de cette fonctionnalité vous empêche d’ajouter un code directif sur les lignes du modèle de travail de cross-docking pour la dernière ligne *Placement*. Cela garantit que l’emplacement final de placement pourra être déterminé lors de la création du travail avant de prendre en compte les modèles de travail.
 
 ## <a name="setup"></a>Paramétrage
 
@@ -92,7 +92,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 
     - **Code directif :** Laissez ce champ vide
 
-        Cette option est activée par la fonctionnalité *Modèles de cross-docking avec directives d'emplacement*. Le système utilise des directives d’emplacement pour aider à déterminer le meilleur emplacement vers lequel déplacer l’inventaire de cross-docking. Vous pouvez le configurer en attribuant un code de directive à chaque modèle de cross-docking pertinent. Si un code directif est défini, le système recherche les instructions d’emplacement par code directif lorsque le travail est généré. De cette manière, vous pouvez limiter les directives d'emplacement utilisées pour un modèle de cross-docking particulier.
+        Cette option est activée par la fonctionnalité *Modèles de cross-docking avec directives d’emplacement*. Le système utilise des directives d’emplacement pour aider à déterminer le meilleur emplacement vers lequel déplacer l’inventaire de cross-docking. Vous pouvez le configurer en attribuant un code de directive à chaque modèle de cross-docking pertinent. Si un code directif est défini, le système recherche les instructions d’emplacement par code directif lorsque le travail est généré. De cette manière, vous pouvez limiter les directives d’emplacement utilisées pour un modèle de cross-docking particulier.
 
     - **Valider l’intervalle de temps :** *Oui*
 
@@ -318,7 +318,7 @@ Actuellement, les deux ID de travail ont le même contenant cible. Pour effectue
 
 L’illustration suivante montre comment le travail de cross-docking terminé peut apparaître dans Microsoft Dynamics 365 Supply Chain Management.
 
-![Travail de cross-docking terminé](media/PlannedCrossDockingWork.png "Travail de cross-docking terminé")
+![Travail de cross-docking terminé.](media/PlannedCrossDockingWork.png "Travail de cross-docking terminé")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

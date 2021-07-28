@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822513"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354058"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Planifier un ordre de travail à une date et une heure spécifiques
 
@@ -38,13 +38,13 @@ Si un ordre de travail doit être programmé à une date *et* à une heure spéc
 
 4. Dans l’organisateur **En-tête de l’ordre de travail**, saisissez les dates et heures de début et de fin dans les champs **Début prévu** et **Fin prévue**.
 
-    ![Figure 1](media/05-work-order-scheduling.png)
+    ![Figure 1.](media/05-work-order-scheduling.png)
 
 5. Dans l’onglet **Général**, cliquez sur **Planifier** pour utiliser le processus de planification standard, ou cliquez sur **Répartir** si vous souhaitez affecter l’ordre de travail à un agent spécifique.
 
 6. Afin de remplacer les réservations de capacité existantes pour vous assurer que l’ordre de travail est planifié dans la période prévue, effectuez vos sélections comme illustré sur la figure ci-dessous dans la boîte de dialogue **Planifier un ordre de travail** > section **Capacité finie**. Cela signifie que le processus de planification ignorera les réservations de capacité existantes, car l’ordre de travail doit démarrer à l’heure de début prévue.
 
-    ![Figure 2](media/06-work-order-scheduling.png)
+    ![Figure 2.](media/06-work-order-scheduling.png)
 
 7. Cliquez sur **OK** pour démarrer la planification.
 

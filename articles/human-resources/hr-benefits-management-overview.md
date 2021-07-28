@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b6ace2ce83c668e83ec1b433f8062148a6dfaf4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2f3a5583400b21aa11e88ba48b67e56fdbb05c3f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059062"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353636"
 ---
 # <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages sociaux
 
@@ -28,7 +28,7 @@ ms.locfileid: "6059062"
 
 Pour rester compétitif, vous devez offrir un riche ensemble d’avantages pour attirer et retenir vos meilleurs employés. En plus des avantages standard comme la couverture médicale et dentaire, vous voudrez peut-être également offrir des services étendus comme l’aide à l’adoption, les programmes de loisirs et les allocations vestimentaires. La fonction de gestion des avantages dans Microsoft Dynamics 365 Human Resources vous offre une solution flexible qui prend en charge une grande variété d’options d’avantages. Human resources inclut également une expérience utilisateur facile à utiliser qui met en valeur vos offres.
 
-- Les régimes d'avantages sociaux améliorés vous permettent de créer et de gérer des régimes d'avantages sociaux uniques et de prendre en charge des tableaux de taux complexes et des niveaux imbriqués. Vous pouvez facilement créer des programmes d’avantages, des offres groupées et des règles d’inscription automatique pour une expérience utilisateur plus facile.
+- Les régimes d’avantages sociaux améliorés vous permettent de créer et de gérer des régimes d’avantages sociaux uniques et de prendre en charge des tableaux de taux complexes et des niveaux imbriqués. Vous pouvez facilement créer des programmes d’avantages, des offres groupées et des règles d’inscription automatique pour une expérience utilisateur plus facile.
 
 - Les programmes de crédits flexibles vous permettent de répartir au prorata la retraite et d’autres événements de vie.
 
@@ -41,8 +41,8 @@ Pour rester compétitif, vous devez offrir un riche ensemble d’avantages pour 
 Si vous souhaitez accéder aux données de démonstration, vous devrez redéployer votre environnement de bac à sable.
 
 >[!NOTE]
->Vous pouvez désormais personnaliser les formulaires de gestion des avantages sociaux. Vous pouvez désormais ajouter des champs personnalisés liés aux taux de couverture au formulaire **Option de couverture** pour les régimes d’avantages sociaux. Pour plus d’informations sur l'utilisation des champs personnalisés, voir [Champs personnalisés](hr-developer-custom-fields.md).
->![Champs personnalisés de gestion des avantages sociaux](media/hr-benefits-management-custom-fields.png)
+>Vous pouvez désormais personnaliser les formulaires de gestion des avantages sociaux. Vous pouvez désormais ajouter des champs personnalisés liés aux taux de couverture au formulaire **Option de couverture** pour les régimes d’avantages sociaux. Pour plus d’informations sur l’utilisation des champs personnalisés, voir [Champs personnalisés](hr-developer-custom-fields.md).
+>![Champs personnalisés de gestion des avantages sociaux.](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Activation de la gestion des avantages sociaux
 
@@ -59,7 +59,7 @@ Avant de pouvoir inscrire des employés aux avantages sociaux, vous devez fourni
 
 Si vous avez un employé qui reçoit une rémunération supplémentaire, comme des commissions, vous pouvez ajouter un montant **Salaire annuel des avantages sociaux** depuis l’enregistrement de l’employé. Human Resources utilise le montant **Salaire annuel des avantages sociaux** lors de la détermination des montants de couverture, au lieu du montant annuel de la rémunération fixe. Le **Salaire annuel des avantages sociaux** doit être valide à la date de début de l’employé ou au début de la période de prestation, selon quelle date est la plus récente. Si une rémunération fixe et un montant de salaire annuel des avantages sociaux sont enregistrés pour un employé, le salaire annuel des avantages sociaux sera utilisé pour déterminer les montants de couverture.
 
-Lorsque vous créez un régime d'avantages sociaux qui utilise des taux basés sur le sexe ou l’âge, vous devez saisir une date de naissance et un sexe pour l’employé afin de calculer le coût des avantages sociaux.
+Lorsque vous créez un régime d’avantages sociaux qui utilise des taux basés sur le sexe ou l’âge, vous devez saisir une date de naissance et un sexe pour l’employé afin de calculer le coût des avantages sociaux.
 
 ## <a name="configure-benefits-management"></a>Configurer la gestion des avantages
 

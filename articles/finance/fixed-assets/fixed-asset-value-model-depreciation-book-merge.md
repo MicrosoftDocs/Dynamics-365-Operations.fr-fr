@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355578"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826736"
 
 Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations version 1611, la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.
 
-La nouvelle fonctionnalité de registre est basée sur la fonctionnalité précédente de modèle de valeur mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. [![Registre en tant que fusion de modèle de valeur et fonctionnalité de registre d’amortissements](./media/fixed-assets.png)](./media/fixed-assets.png) En raison de cette fusion, vous pouvez désormais utiliser un ensemble unique de pages, de recherches et d’états pour tous vos processus d’immobilisation. Les tableaux de cette rubrique décrivent la fonctionnalité précédente des registres d’amortissement et des modèles de valeur, avec la nouvelle fonctionnalité pour les registres.
+La nouvelle fonctionnalité de registre est basée sur la fonctionnalité précédente de modèle de valeur mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. [![Registre en tant que fusion de modèle de valeur et fonctionnalité de registre d’amortissements.](./media/fixed-assets.png)](./media/fixed-assets.png) En raison de cette fusion, vous pouvez désormais utiliser un ensemble unique de pages, de recherches, et d’états pour tous vos processus d’immobilisation. Les tableaux de cette rubrique décrivent la fonctionnalité précédente des registres d’amortissement et des modèles de valeur, avec la nouvelle fonctionnalité pour les registres.
 
 ## <a name="setup"></a>Configuration
 Par défaut, les registres valident la comptabilité et la comptabilité auxiliaire d’immobilisation. Les registres ont une nouvelle option **Valider dans la comptabilité** qui permet de désactiver la validation dans la Comptabilité et la validation uniquement dans la comptabilité auxiliaire d’immobilisation. Cette fonctionnalité est semblable au comportement de validation précédent pour les registres des amortissements. Le paramétrage des noms de journaux dispose d’une couche de validation qui est nommée Aucune. Cette couche de validation a été ajoutée spécifiquement pour les transactions d’immobilisation. Pour valider des transactions pour les registres qui ne valident pas dans la comptabilité, vous devez utiliser un nom de journal dont la couche de validation est définie sur **Aucune**.

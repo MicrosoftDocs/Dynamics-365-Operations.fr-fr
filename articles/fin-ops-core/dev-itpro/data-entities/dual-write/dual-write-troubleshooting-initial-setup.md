@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350834"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
@@ -42,7 +42,7 @@ Cette rubrique fournit des informations sur la résolution des problèmes de l�
 
 Les erreurs sur la page **Lien de configuration vers Dataverse** sont généralement causés par des problèmes de configuration ou d’autorisations incomplets. Veillez à ce que l’ensemble du contrôle d’intégrité passe sur la page **Lien de configuration vers Dataverse**, comme indiqué dans l’illustration suivante. Vous ne pouvez pas lier la double écriture sauf si le contrôle d’intégrité réussit.
 
-![Contrôle d’intégrité réussi](media/health_check.png)
+![Contrôle d’intégrité réussi.](media/health_check.png)
 
 Vous devez avoir les identifiants d’admin client Azure AD pour lier les environnements Finance and Operations et Dataverse. Après avoir lié les environnements, les utilisateurs peuvent se connecter en utilisant leurs informations d’identification de compte et mettre à jour une carte de table existante.
 
@@ -77,7 +77,7 @@ Pour garantir le bon fonctionnement de la double écriture, les sociétés que v
 4. Sélectionnez la société qui était liée lorsque vous avez configuré la double écriture.
 5. Vérifiez que la colonne **Équipe propriétaire par défaut** a une valeur. Dans l’illustration suivante, la colonne **Équipe propriétaire par défaut** est définie sur **Double écriture USMF**.
 
-    ![Vérification de l’équipe propriétaire par défaut](media/default_owning_team.png)
+    ![Vérification de l’équipe propriétaire par défaut.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Trouver la limite du nombre tables juridiques ou de sociétés pouvant être liées pour la double écriture
 

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811435"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355153"
 ---
 # <a name="cost-element-dimensions"></a>Dimensions d’éléments de coût
 
@@ -63,7 +63,7 @@ Il existe deux types d’éléments de coût : les éléments de coût principau
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensions d’éléments de coût et membres de la dimension d’élément de coût
 Les éléments de coût sont appelés des *dimensions d’éléments de coût*. Les valeurs de dimension individuelle sont appelées *membres de la dimension d’élément de coût*. Par exemple, vous disposez d’une structure de plan de comptes américain qui est la base de la génération d’états statutaires. Cette structure de plan de comptes est utilisée comme dimension d’élément de coût. Les comptes, qui sont des éléments de coût principaux, sont représentées comme les membres de la dimension d’élément de coût dans le contrôle de gestion. La capture d’écran suivante illustre un exemple de comptes principaux comme dimension d’élément de coût avec ses comptes principaux réels comme membres de la dimension d’élément de coût. 
 
-[![Capture d’écran des comptes principaux comme dimension d’élément de coût](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Capture d’écran des comptes principaux comme dimension d’élément de coût.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importer les membres de la dimension d’élément de coût à l’aide de connecteurs de données
 Pour faciliter le paramétrage des membres de la dimension d’élément de coût dans le contrôle de gestion, vous pouvez utiliser des connecteurs de données qui sont préconçus ou personnalisés pour récupérer les éléments de coût principaux d’un ou plusieurs systèmes sources.

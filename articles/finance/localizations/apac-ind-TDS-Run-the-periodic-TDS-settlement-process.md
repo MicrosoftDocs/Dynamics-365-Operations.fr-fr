@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023227"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358336"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>Exécuter le processus de règlement TDS périodique
 
@@ -31,7 +31,7 @@ Cette rubrique explique comment régler la taxe déduite à la source (TDS) pér
 
 1. Accédez à **Taxe \> Déclarations \> Retenue à la source \> Paiement de la retenue à la source**.
 
-    [![Boîte de dialogue Paiement de retenue à la source](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
+    [![Boîte de dialogue Paiement de retenue à la source.](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
 
 2. Dans la boîte de dialogue **Paiement de la retenue à la source**, dans le champ **Type de taxe**, sélectionnez **TDS**.
 3. Dans le **Numéro de compte fiscal (TAN)**, sélectionnez le numéro de compte de taxe (TAN) pour lequel exécuter le processus de règlement.

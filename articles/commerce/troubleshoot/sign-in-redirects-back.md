@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020601"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350376"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Le lien de connexion redirige vers un site d’e-commerce
 
@@ -43,7 +43,7 @@ Pour confirmer que l’URL de réponse est correctement configurée dans l’app
 1. Sélectionnez l’application que vous avez créée lors de la configuration Azure AD B2C.
 1. Sous **URL de réponse**, assurez-vous que la liste comprend des entrées pour l’URL du domaine du site et l’URL générée par e-commerce, comme indiqué dans l’exemple de l’illustration suivante.
 
-    ![Entrées d’URL de réponse Azure AD B2C](media/aad-b2c-reply-url.jpg)
+    ![Entrées d’URL de réponse Azure AD B2C.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > L’URL du domaine du site et l’URL générée par e-commerce doivent être dans un format d’URL valide qui n’inclut pas de barres obliques de début ou de fin.

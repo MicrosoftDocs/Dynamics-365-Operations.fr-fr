@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efa9be4a5243444c2bf0b154836efbf8cfa76de9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2f1e633bf06a44acadee8e9fd93d682321b80e0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359267"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l’Europe
 
@@ -45,7 +45,7 @@ La déclaration de TVA est basée sur les montants des transactions de taxe. Le 
 
 Pour chaque code déclaration de taxe, une présentation d’état spécifique doit être déterminée. Les codes taxe sont également liés à une administration fiscale spécifique via des périodes de règlement de la taxe. Pour chaque administration fiscale, une présentation d’état doit être déterminée. Ainsi, seuls les codes déclaration de taxe avec la même présentation d’état paramétrée pour une administration fiscale dans les périodes de règlement de la taxe pour le code taxe peuvent être sélectionnés dans le paramétrage d’état du code taxe. Une transaction de taxe générée lors de la validation d’une commande ou d’un journal, contient un code taxe, une source de taxe, une direction de taxe et des montants de transaction (montant de base de la taxe et montant de la taxe dans la devise comptable, la devise de taxe et la devise de la transaction). Selon la combinaison d’attributs de transaction de taxe, les montants des transactions composent les montants totaux pour les codes déclaration de taxe spécifiés pour les codes taxe. La relation des données est illustrée dans le graphique ci-dessous :
 
-![diagramme](./media/diagram4.jpg)
+![diagramme.](./media/diagram4.jpg)
 
 ## <a name="vat-statement-setup"></a>Paramétrage de la déclaration de TVA
 Pour générer une déclaration de TVA, vous devez paramétrer les éléments suivants.

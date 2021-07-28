@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 75913edcbac0151d5d27d866ff5430b194c62738
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 447d319f5a96851f7eb3104b3330026d269e7dd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815258"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358807"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Spécification de taxe par écriture comptable
 [!include [banner](../includes/banner.md)]
@@ -54,7 +54,7 @@ Lorsque vous générez l’état, les champs par défaut suivants sont disponibl
 
 Pour afficher uniquement les comptes hors taxe sur l’état, paramétrez une condition de filtre, comme un astérisque (\*), comme le montre l’illustration suivante.
 
-![État affichant des comptes hors taxe](media/taxspecperledgertrans.png)
+![État affichant des comptes hors taxe.](media/taxspecperledgertrans.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
