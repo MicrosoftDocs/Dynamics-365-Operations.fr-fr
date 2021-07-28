@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837895"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346224"
 ---
 # <a name="register-consumption"></a>Enregistrer la consommation
 
@@ -54,7 +54,7 @@ Dans certains cas, vous pouvez être en mesure d’ajouter ou de supprimer des l
 
 Le capture d’écran suivante présente un exemple des enregistrements d’heure et d’article sur un bon de travail dans **Journaux des ordres de travail**.
 
-![Figure 1](media/01-consumption.png)
+![Figure 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Répartir les heures sur les ordres de travail avec plusieurs tâches de l’ordre de travail
@@ -73,13 +73,13 @@ Si un ordre de travail contient plusieurs tâches de l’ordre de travail, vous 
 
 6. Insérez le nombre d’heures de travail à répartir dans le champ **Heures**.
 
-    ![Figure 2](media/02-consumption.png)
+    ![Figure 2.](media/02-consumption.png)
 
 7. Cliquez sur **OK**.
 
 *Exemple :* dans la capture d’écran ci-dessous, les lignes de journal pour un ordre de travail contenant trois tâches d’ordre de travail sont affichées. La première ligne, contenant trois heures de travail, a été fractionnée, et une heure de travail est enregistrée sur chaque tâche de l’ordre de travail. Une fois que trois lignes d’enregistrement horaire ont été créées, vous décidez ce qu’il convient de faire avec la ligne d’enregistrement horaire d’origine (la première ligne dans l’exemple). Vous pouvez la garder telle quelle ou la supprimer. 
 
-![Figure 3](media/03-consumption.png)
+![Figure 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Dimensions financières sur les enregistrements de consommation
 

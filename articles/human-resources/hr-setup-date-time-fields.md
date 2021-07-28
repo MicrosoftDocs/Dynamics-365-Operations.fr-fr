@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051735"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356558"
 ---
 # <a name="understand-date-and-time-fields"></a>Comprendre les champs de date et d’heure
 
@@ -36,13 +36,13 @@ Les champs **Date et heure** contiennent des informations sur le fuseau horaire,
 
 Lors de l’affichage des données dans un champ de **Date et heure**, Human Resources ajuste la date et l’heure selon le fuseau horaire de l’utilisateur défini dans l’écran **Options utilisateur** (**Commun > Configuration > Options utilisateur**). Il est possible que les informations de date et d’heure que vous entrez dans le champ ne soient pas identiques à celles écrites dans la base de données.
 
-[![Écran Options utilisateur](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Écran Options utilisateur.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Présentation des champs de date et d’heure dans les écrans 
 
 Les données de **Date et heure** affichées dans l’écran ne sont pas identiques à celles stockées dans la base de données si le fuseau horaire de l’utilisateur n’est pas défini au format Heure universelle coordonnée (UTC). Les données des champs **Date et heure** sont toujours stockées au format UTC.
 
-[![UTS de l’écran du collaborateur](./media/worker-form.png)](./media/worker-form.png)
+[![Écran du collaborateur.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Présentation des champs de date et d’heure dans la base de données 
 
@@ -52,7 +52,7 @@ Dans l’exemple ci-dessus, l’heure de début correspond à un moment précis 
   
 Dans l’exemple ci-dessous, le poste de l’employé 000724 devient actif au même moment, quel que soit le fuseau horaire. L’employé sera actif le 30/04/2019 dans le fuseau horaire GMT, qui est le même que le 05/01/2019 dans le fuseau horaire GMT+12:00. Les deux font référence au même moment et pas à une date spécifique. 
 
-[![GMT de l’écran du collaborateur](./media/worker-form2.png)](./media/worker-form2.png)
+[![Écran du collaborateur.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Données de date et d’heure dans Data Management Framework, Excel, Dataverse et Power BI 
 
@@ -68,27 +68,27 @@ Lors de l’utilisation de sources externes telles que DMF pour afficher ou cré
 
 **Human Resources avec le fuseau horaire de l’utilisateur défini sur UTC**
 
-[![Écran du collaborateur défini sur UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Écran du collaborateur défini sur UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources avec le fuseau horaire de l’utilisateur défini sur GMT +12:00** 
 
-[![Écran du collaborateur défini sur GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Écran du collaborateur défini sur GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel Via OData**
 
-[![Excel Via OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel Via OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **Phase intermédiaire DMF**
 
-[![Phase intermédiaire DMF](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![Phase intermédiaire DMF.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Exportation DMF**
 
-[![Exportation DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![Exportation DMF.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel via Dataverse**
 
-[![Excel via Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel via Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Voir également :
 

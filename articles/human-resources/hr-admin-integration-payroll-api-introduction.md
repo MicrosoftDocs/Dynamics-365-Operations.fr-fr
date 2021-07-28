@@ -1,32 +1,32 @@
 ---
-title: Présentation de l'API d'intégration de la paie
-description: Cette rubrique décrit l'API d'intégration de la paie de Dynamics 365 Human Resources.
+title: Présentation de l’API d’intégration de la paie
+description: Cette rubrique décrit l’API d’intégration de la paie de Dynamics 365 Human Resources.
 author: andreabichsel
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058558"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360566"
 ---
-# <a name="payroll-integration-api-introduction"></a>Présentation de l'API d'intégration de la paie
+# <a name="payroll-integration-api-introduction"></a>Présentation de l’API d’intégration de la paie
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Ce document décrit l'API d'intégration de la paie de Dynamics 365 Human Resources. L'API permet de rationnaliser de bout en bout les intégrations entre Human Resources et les systèmes de paie partenaires. L'expérience intégrée commence dans Human Resources avec le profil du collaborateur, le salaire et les déductions, et les informations sur les cotisations. Lorsque vous embauchez un collaborateur et que vous saisissez le profil et les informations de paie requis dans Human Resources, le système de paie extrait ces informations pour les utiliser lors du traitement de la paie. Toutes les mises à jour apportées aux informations du collaborateur ou de la paie sont également extraites pour être utilisées dans les cycles de paie ultérieurs.
+Ce document décrit l’API d’intégration de la paie de Dynamics 365 Human Resources. L’API permet de rationnaliser de bout en bout les intégrations entre Human Resources et les systèmes de paie partenaires. L’expérience intégrée commence dans Human Resources avec le profil du collaborateur, le salaire et les déductions, et les informations sur les cotisations. Lorsque vous embauchez un collaborateur et que vous saisissez le profil et les informations de paie requis dans Human Resources, le système de paie extrait ces informations pour les utiliser lors du traitement de la paie. Toutes les mises à jour apportées aux informations du collaborateur ou de la paie sont également extraites pour être utilisées dans les cycles de paie ultérieurs.
 
-![Flux d’intégration de la paie](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Flux d’intégration de la paie.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Pour permettre l’intégration, Human Resources comprend les composants suivants :
 
@@ -43,11 +43,11 @@ Pour plus d’informations générales sur l’API Web Microsoft Dataverse :
 - [Utiliser l’API Web Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)
 - [Guide du développeur Microsoft Dataverse](/powerapps/developer/data-platform)
 
-Cette documentation comprend des détails et des conseils pour les développeurs sur l'utilisation de l'API Web Dataverse, y compris les rubriques suivantes :
+Cette documentation comprend des détails et des conseils pour les développeurs sur l’utilisation de l’API Web Dataverse, y compris les rubriques suivantes :
 
-- [S'authentifier auprès de Microsoft Dataverse avec l'API Web](/powerapps/developer/data-platform/webapi/authenticate-web-api)
-- [Effectuer des opérations à l'aide de l'API Web](/powerapps/developer/data-platform/webapi/perform-operations-web-api)
-- [Utiliser Postman avec l'API Web](/powerapps/developer/data-platform/webapi/use-postman-web-api)
+- [S’authentifier auprès de Microsoft Dataverse avec l’API Web](/powerapps/developer/data-platform/webapi/authenticate-web-api)
+- [Effectuer des opérations à l’aide de l’API Web](/powerapps/developer/data-platform/webapi/perform-operations-web-api)
+- [Utiliser Postman avec l’API Web](/powerapps/developer/data-platform/webapi/use-postman-web-api)
 - [Utiliser le suivi des modifications pour synchroniser les données avec des systèmes externes](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems)
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Tables virtuelles pour Human Resources dans Dataverse
@@ -60,7 +60,7 @@ Pour plus d’informations sur la génération des tables virtuelles pour l’AP
 
 Le diagramme suivant illustre les relations au sein de l’API. Plusieurs types ont des clés étrangères vers d’autres entités préexistantes dans Human Resources qui ne sont pas illustrées ici. Ce document fournit des informations sur les entités spécifiques aux scénarios d’intégration de la paie. Cependant, il existe de nombreuses autres entités dans l’API Web Dataverse pour Human Resources qui peuvent également être pertinentes pour votre intégration. Certaines de ces entités sont référencées dans des relations de clé étrangère ou des propriétés de navigation.
 
-![Modèle de données de l’API d’intégration de la paie](media/hr-admin-payroll-api-data-model.png)
+[![Modèle de données de l’API d’intégration de la paie.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Collaborateur avec paie et entités associées
 
@@ -68,7 +68,8 @@ Entités :
 
 - [Employé avec paie](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Adresse du collaborateur avec paie](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Régime de rémunération fixe avec paie](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Régime de rémunération fixe avec paie](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Régime de rémunération variable avec paie](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Tâche du poste de paie](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Poste de paie](hr-admin-integration-payroll-api-payroll-position.md)
 

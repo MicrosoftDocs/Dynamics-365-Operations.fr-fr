@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: af19a3abd78d543d82f7a8d017e2dc413115a6d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 679c2453068695caca03ac9618573eba0686b863
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018432"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347318"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>L’option « Enregistrer pour mon prochain paiement » n’apparaît pas
 
@@ -34,7 +34,7 @@ La case à cocher **Enregistrer pour mon prochain paiement** n’apparaît pas d
 
 L’illustration suivante montre un exemple de page de paiement qui inclut la case à cocher **Enregistrer pour mon prochain paiement**.
 
-![Case à cocher Enregistrer pour mon prochain paiement dans le module Paiement](media/payment-module-save-payment.jpg)
+![Case à cocher Enregistrer pour mon prochain paiement dans le module Paiement.](media/payment-module-save-payment.jpg)
 
 ## <a name="resolution"></a>Résolution
 
@@ -46,7 +46,7 @@ Pour vérifier que le connecteur de paiement Dynamics 365 pour Adyen est correct
 1. Sélectionnez le magasin en ligne.
 1. Sur le raccourci **Comptes de paiement**, assurez-vous que le champ **Autoriser l’enregistrement des informations de paiement dans l’e-commerce** est défini sur **True**.
 
-![Autoriser l’enregistrement des informations de paiement dans le champ e-commerce dans Commerce Headquarters](media/payment-connector-save-payment.jpg)
+![Autoriser l’enregistrement des informations de paiement dans le champ e-commerce dans Commerce Headquarters.](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

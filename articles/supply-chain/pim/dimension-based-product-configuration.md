@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19821
+ms.custom:
+- "19821"
+- intro-internal
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16027cc7fd22a34e3f689678aa9f5e85800cbf02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 604b9e14d7a218ab75ebeff5b686f380ef88b34e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829520"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354687"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Vue d’ensemble de la configuration des produits basée sur les dimensions
 
@@ -66,7 +68,7 @@ La gamme de configuration détermine l’ordre des groupes de configurations, te
 Les règles de configuration sont un mécanisme qui garantit qu’un produit inclus dans un groupe de configurations dans une nomenclature applique soit une inclusion soit une exclusion d’un produit dans un groupe de configurations différent dans la même nomenclature.
 
 ## <a name="product-modeling-process"></a>Processus de modélisation de produits
-La séquence naturelle pour générer un modèle de produit basé sur les dimensions commence par définir les groupes de configurations pertinents. Il est important de vérifier que tous les produits qui seront utilisés dans la nomenclature ont été lancés vers la société pour laquelle le modèle de produit est établi. Avec ces éléments constitutifs en place, l’utilisateur peut créer la nomenclature et affecter des groupes de configurations à toutes les lignes de nomenclature appropriées. Lorsque la nomenclature est terminée, une gamme de configuration peut être définie pour organiser les groupes de configurations dans l’ordre approprié. [![Processus de modélisation de produit basé sur les dimensions](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Si certains produits de différents groupes de configuration doivent être ou ne doivent pas être utilisés ensemble, vous pouvez créer des règles de configuration qui appliqueront ces relations de produit. Une fois la nomenclature liée avec un produit générique basé sur les dimensions par l’intermédiaire d’une version de nomenclature et que les deux ont été approuvés et activés, vous pouvez créer des configurations de produit et entrer un nom pour chaque configuration. Les configurations peuvent être définies avant qu’une transaction quelconque soit générée, ou avant qu’une certaine configuration devienne nécessaire.
+La séquence naturelle pour générer un modèle de produit basé sur les dimensions commence par définir les groupes de configurations pertinents. Il est important de vérifier que tous les produits qui seront utilisés dans la nomenclature ont été lancés vers la société pour laquelle le modèle de produit est établi. Avec ces éléments constitutifs en place, l’utilisateur peut créer la nomenclature et affecter des groupes de configurations à toutes les lignes de nomenclature appropriées. Lorsque la nomenclature est terminée, une gamme de configuration peut être définie pour organiser les groupes de configurations dans l’ordre approprié. [![Processus de modélisation de produit basé sur les dimensions.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Si certains produits de différents groupes de configuration doivent être ou ne doivent pas être utilisés ensemble, vous pouvez créer des règles de configuration qui appliqueront ces relations de produit. Une fois la nomenclature liée avec un produit générique basé sur les dimensions par l’intermédiaire d’une version de nomenclature et que les deux ont été approuvés et activés, vous pouvez créer des configurations de produit et entrer un nom pour chaque configuration. Les configurations peuvent être définies avant qu’une transaction quelconque soit générée, ou avant qu’une certaine configuration devienne nécessaire.
 
 ### <a name="suggested-use"></a>Suggestion d’utilisation
 

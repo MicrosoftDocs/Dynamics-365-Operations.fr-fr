@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0015ca2ccbb0098a5a96bf56ff355fb2f9f8f626
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748921"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350909"
 ---
 # <a name="integrated-customer-master"></a>Données principales client intégrées
 
@@ -36,7 +36,7 @@ Les données client peuvent être gérées dans plusieurs applications Dynamics�
 
 *Client* est un concept bien défini dans les applications. Par conséquent, l’intégration des données client implique l’harmonisation du concept de client entre les deux applications. La relation des données est illustrée dans le flux de données client.
 
-![Flux de données client](media/dual-write-customer-data-flow.png)
+![Flux de données client.](media/dual-write-customer-data-flow.png)
 
 Les clients peuvent être classés largement en deux types : les clients commerciaux/organisationnels et les consommateurs/utilisateurs finaux. Ces deux types de clients sont stockés et gérés différemment dans Finance and Operations et dans Dataverse.
 

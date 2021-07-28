@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14de281927fa3e6410627839005c6b81a93d89bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820320"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347018"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Demandes de renseignements et déclarations de matières dangereuses
 
@@ -29,7 +29,7 @@ Tous ces états, sauf **Marchandises dangereuses multimodales**, utilisent le mo
 
 L’illustration suivante montre la séquence des activités qui se produisent lorsque le système génère des états sur les matières dangereuses.
 
-![Séquence des activités pour les états sur les matières dangereuses](media/hazmat-report-sequence.png "Séquence des activités pour les états sur les matières dangereuses")
+![Séquence des activités pour les états sur les matières dangereuses.](media/hazmat-report-sequence.png "Séquence des activités pour les états sur les matières dangereuses")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Paramétrer les états sur les matières dangereuses
 

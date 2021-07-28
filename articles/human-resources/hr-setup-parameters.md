@@ -2,7 +2,7 @@
 title: Configurer les paramètres de Human Resources
 description: Cette rubrique décrit comment définir les paramètres spécifiques à la société dans Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052407"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356534"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurer les paramètres de Human Resources
 
@@ -30,7 +30,7 @@ Les réglages de certains paramètres des Ressources humaines sont partagés ent
 
 Deux pages permettent de définir les paramètres de Human Resources. Pour les paramètres communs à des sociétés, vous utilisez la page **Paramètres partagés de ressources humaines**. Pour les paramètres qui sont spécifiques à une société (en d’autres termes, les paramètres s’appliquent à une seule société), vous utilisez la page **Paramètres de ressources humaines**.
 
-![Accéder aux paramètres de Human resources](./media/hr-employee-self-service-human-resources-parameters.png)
+![Accéder aux paramètres de Human resources.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 Sur la page **Paramètres de Ressources humaines**, les paramètres sont répartis sur six onglets :
 
@@ -51,14 +51,15 @@ Chaque onglet contient les informations qui concernent une seule société.
 
 Les paramètres de l’onglet **Général** définissent l’apparence des informations relatives à l’absence, la blessure ou la maladie, et les nouvelles embauches. Les paramètres sous cet onglet définissent également certains entrées par défaut qui s’affichent au fur et à mesure que vous travaillez. Plus précisément, cet onglet vous permet :
 
-- Permet de sélectionner la couleur à appliquer aux transactions d’absence en cours
-- Spécifiez la feuille de style à utiliser pour les rapports
-- Permettre l’intégration entre les formations et l’enregistrement des absences
+- Permet de sélectionner la couleur à appliquer aux transactions d’absence en cours.
+- Spécifiez la feuille de style à utiliser pour les rapports.
+- Permettre l’intégration entre les formations et l’enregistrement des absences.
 - Sélectionnez le code d’absence utilisé pour contrôler cette intégration.
 - Indiquez combien de temps il faut conserver les incidents de blessures et de maladies.
 - Spécifiez le numéro d’identification par défaut affiché lorsqu’un nouveau travailleur est embauché.
+- Spécifiez la date utilisée pour calculer les années de service. 
 
-![Onglet Général](./media/hr-setup-parameters-general.png)
+![Onglet Général.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Recrutement
 
@@ -76,7 +77,7 @@ Dans Human Resources, vous pouvez utiliser l’onglet **Rémunération** pour ch
 
 Pour plus d’informations sur les plans de rémunération, voir [Vue d’ensemble des régimes de rémunération](hr-compensation-overview.md).
 
-![Onglet Rémunération](./media/hr-setup-parameters-compensation.png)
+![Onglet Rémunération.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Souches de numéros
 
@@ -96,13 +97,13 @@ Pour plus d’informations, voir [Vue d’ensemble des souches de numéros](../f
 > [!NOTE]
 > Le nombre d’heures travaillées ne peut pas dépasser 1 250, et la durée de l’emploi ne peut pas dépasser 12 mois. Ces valeurs maximales sont conformes à la législation fédérale des États-Unis.
 
-![Onglet Souches de numéros](./media/hr-setup-parameters-number-sequences.png)
+![Onglet Souches de numéros.](./media/hr-setup-parameters-number-sequences.png)
 
-## <a name="fmla"></a>Congé FMLA
+## <a name="fmla"></a>FMLA
 
 Dans l’onglet FMLA, vous définissez les conditions d’éligibilité FMLA et les heures de droit FMLA. Pour plus d’informations, voir [Configurer les paramètres de congé et d’absence](hr-leave-and-absence-parameters.md).
 
-![Onglet FMLA](./media/hr-setup-parameters-fmla.png)
+![Onglet FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Espace collaborateur
 
@@ -115,7 +116,7 @@ Les paramètres sur l’onglet **Libre-service des employés** affecte la façon
 
 Pour plus d’informations sur la configuration du libre-service des employés, voir [Aperçu du libre-service des employés et des gestionnaires](hr-employee-manager-self-service-overview.md).
 
-![Onglet Libre-service employé](./media/hr-setup-parameters-employee-self-service.png)
+![Onglet Libre-service employé.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Responsable en libre-service
 
@@ -129,13 +130,13 @@ Les paramètres sur l’onglet **Gestionnaire libre-service** affecte ce que les
 
 Pour plus d’informations sur la configuration du libre-service des responsables, voir [Aperçu du libre-service des employés et des gestionnaires](hr-employee-manager-self-service-overview.md).
 
-![Onglet Responsable en libre-service](./media/hr-setup-parameters-manager-self-service.png)
+![Onglet Responsable en libre-service.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Gestion des avantages
 
 Dans l’onglet Gestion des avantages, vous pouvez configurer les options de messagerie pour la gestion des avantages. Pour plus d’informations sur la configuration et l’utilisation de la gestion des avantages, voir [Présentation de la gestion des avantages](hr-benefits-management-overview.md).
 
-![Onglet Gestion des avantages](./media/hr-setup-parameters-benefits-management.png)
+![Onglet Gestion des avantages.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Congé et absence
 
@@ -145,7 +146,7 @@ Pour plus d’informations sur la configuration et l’utilisation des congés e
 
 Sur l’onglet **Méthodes de payement**, vous pouvez sélectionner les modes de paiement pris en charge par votre organisation. Pour plus d’informations sur la configuration de la rémunération, voir [Vue d’ensemble des régimes de rémunération](hr-compensation-overview.md).
 
-![Onglet Modes de paiement](./media/hr-setup-parameters-payment-methods.png)
+![Onglet Modes de paiement.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

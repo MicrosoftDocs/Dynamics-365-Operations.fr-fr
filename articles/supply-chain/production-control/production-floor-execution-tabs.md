@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814678"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347660"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Concevoir l’interface d’exécution de l’atelier de production
 
@@ -32,7 +32,7 @@ Sur la page **Configurer l’exécution de l’atelier de production**, vous pou
 
 Chaque onglet est divisé en quatre sections, comme indiqué dans l’illustration suivante.
 
-![Disposition des onglets](media/pfe-tab-layout.png "Disposition des onglets")
+![Disposition des onglets.](media/pfe-tab-layout.png "Disposition des onglets")
 
 Les éléments suivants sont présentés dans l’illustration :
 
@@ -47,7 +47,7 @@ Pour créer et configurer un nouvel onglet, procédez comme suit :
 
 1. Sélectionnez **Onglets de conception** dans le volet Actions pour ouvrir la page **Onglets de conception**.
 
-    ![Page Onglets de conception](media/pfe-design-tabs.png "Page Onglets de conception")
+    ![Page Onglets de conception.](media/pfe-design-tabs.png "Page Onglets de conception")
 
 1. Sélectionnez **Nouveau** dans le volet Actions.
 
@@ -67,7 +67,7 @@ Une fois que vous avez conçu tous les onglets dont vous avez besoin, vous pouve
 
 1. Accédez à **Contrôle de la production \> Paramétrage \> Contrôle et suivi de la production \> Configurer l’exécution de l’atelier de production**.
 
-    ![Configurer l’exécution de l’atelier de production](media/pfe-config-prod-floor-execution.png "Configurer l’exécution de l’atelier de production")
+    ![Configurer l’exécution de l’atelier de production.](media/pfe-config-prod-floor-execution.png "Configurer l’exécution de l’atelier de production")
 
 1. Dans le raccourci **Sélection d’onglet**, sélectionnez **Ajouter**.
 

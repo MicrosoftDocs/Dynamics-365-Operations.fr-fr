@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751654"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359003"
 ---
 # <a name="generate-printable-fti-forms"></a>Générer des écrans FTI imprimables
 
@@ -77,7 +77,7 @@ Pour générer des écrans FTI à l’aide de la structure de gestion des états
 3. Sélectionnez le niveau de document pour spécifier la portée des factures aux fins de traitement.
 4. Sélectionnez le format de gestion des états électroniques pour le niveau de document spécifié.
 
-![Paramétrage de la gestion de l’impression](media/FTIbyGER-PMSetting.png)
+![Paramétrage de la gestion de l’impression.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Seuls les formats de gestion des états électroniques qui utilisent le descripteur racine **FreeTextInvoice** du modèle de données **CustomersInvoicing** figurent dans le champ **Recherche de format d’état** pour le format sélectionné.
@@ -87,9 +87,9 @@ Les écrans FTI sont générés dans la structure de gestion des états électro
 
 Pour générer des écrans FTI, vous pouvez sélectionner des factures par plage ou par sélection. 
 
-![Sélection de la facture](media/FTIbyGER-InvoiceSelection.png)
+![Sélection de la facture.](media/FTIbyGER-InvoiceSelection.png)
 
-![Aperçu de la facture](media/FTIbyGER-InvoiceExcelPreview.png)
+![Aperçu de la facture.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Lorsque vous utilisez des formats de gestion des états électroniques pour imprimer des écrans FTI de cette manière, les destinations de fichier de gestion des états électroniques par défaut sont utilisées. Vous ne pouvez pas modifier la destination. Pour plus d’informations sur la configuration des destinations de gestion des états électroniques pour les formats de gestion des états électroniques, voir [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ Vous pouvez également générer des écrans FTI lorsque vous validez une FTI, e
 > - **Nom :** ERFormatDestinationRuntimeMaintain
 > - **Libellé :** Mettre à jour la destination du format de gestion des états électroniques durant l’exécution
 
-![Destination de la gestion des états électroniques](media/FTIbyGER-ERFileDestinationSetting.png)
+![Destination de la gestion des états électroniques.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Destination du format de gestion des états électroniques](media/FTIbyGER-ERFileDestinationUsage.png)
+![Destination du format de gestion des états électroniques.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 La structure de gestion des états électroniques prend en charge actuellement les destinations suivantes pour les documents générés :
 
@@ -128,7 +128,7 @@ Vous pouvez télécharger des exemples de configurations de gestion d’états �
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Fonctionnalités implémentées dans l’exemple de format de gestion d’états électroniques
 Dans l’exemple de configuration du format de gestion d’états électroniques, un fichier Excel est utilisé comme modèle pour générer des écrans FTI.
 
-![Concepteur de formats](media/FTIbyGER-ERFormat.png)
+![Concepteur de formats.](media/FTIbyGER-ERFormat.png)
 
 Actuellement, cet exemple de format de gestion d’états électroniques prend en charge les fonctionnalités suivantes pour générer des écrans FTI :
 
@@ -179,7 +179,7 @@ Outre l’écran de facture généré, des bordereaux de transfert d’argent pe
 - Pour l’entité juridique utilisant le contexte de pays/région pour la Finlande, et disposant d’au moins un compte bancaire marqué comme **Compte de virement** et **Code-barres de la banque**. 
 - Pour une facture marquée comme étant obligatoire pour le document de paiement joint associé au **Finnois**.
 
-![Bordereau de virement](media/FTIbyGER-GiroSlip.PNG)
+![Bordereau de virement.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > L’exemple de format de gestion des états électroniques a été configuré pour générer éventuellement des bordereaux de transfert d’argent dans la feuille de calcul distincte.
@@ -194,7 +194,7 @@ Utilisez les éléments de l’exemple de format de gestion des états électron
 - Le texte de l’objet de l’e-mail est accessible via l’expression de gestion des états électroniques suivante : **Emailing.TxtToUse.Subject**.
 - Le texte du corps de l’e-mail est accessible via l’expression de gestion des états électroniques suivante : **Emailing.TxtToUse.Body**.
 
-![Paramètres de destination](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Paramètres de destination.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 Le texte par défaut de l’objet et du corps de l’e-mail est défini dans l’exemple de format de gestion des états électroniques. La langue dépend des libellés du format. Ce texte par défaut sera utilisé pour les e-mails si un modèle d’e-mail d’organisation personnalisé avec l’ID **ERFTITMP** prédéfini n’a pas été ajouté.
 
@@ -203,9 +203,9 @@ Le texte par défaut de l’objet et du corps de l’e-mail est défini dans l�
 
 Si le modèle d’e-mail d’organisation ayant l’ID **ERFTITMP** prédéfini a été ajouté pour l’entité juridique pour laquelle vous traitez la facture, le modèle du texte du sujet et du corps de l’e-mail sera utilisé pour générer l’e-mail. 
 
-![Modèles d’e-mail d’organisation](media/FTIbyGER-EmailTemplate.png)
+![Modèles d’e-mail d’organisation.](media/FTIbyGER-EmailTemplate.png)
 
-![Télécharger le modèle d’e-mail](media/FTIbyGER-EmailTemplateBody.png)
+![Charger le modèle d’e-mail.](media/FTIbyGER-EmailTemplateBody.png)
 
 L’expression de gestion des états électroniques **Emailing.TxtToUse.Subject** de l’exemple de format de gestion des états électroniques est configurée pour remplacer toutes les occurrences de l’espace réservé %1 par l’ID de traitement de la facture.
 
@@ -218,10 +218,10 @@ L’expression **Emailing.TxtToUse.Body** de l’exemple de format est configur�
 - « %5 » est remplacé par la fonction de la personne à contacter dans la société.
 - « %6 » est remplacé par l’adresse e-mail de la personne à contacter dans la société.
 
-![Courrier électronique](media/FTIbyGER-Email.PNG)
+![E-mail.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-[Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

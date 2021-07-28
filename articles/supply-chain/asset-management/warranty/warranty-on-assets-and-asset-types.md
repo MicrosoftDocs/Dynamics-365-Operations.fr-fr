@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f05f5af76aeb037d606d38a368a49d011f0d2bd6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27a079e0fdc0fe1644e59a454659d77ec0eb416b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354202"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garanties sur les actifs et les types d’actifs
 
@@ -47,7 +47,7 @@ Cette rubrique explique comment paramétrer les garanties sur les actifs et les 
     > [!IMPORTANT]
     > Si une date est sélectionnée dans le champ **Début de garantie** sur un ordre de travail, l’assurance devient valide pour l’ordre de travail à cette date. Lorsque vous créez un ordre de travail, le champ **Début de garantie** est automatiquement défini à la date de création. Toutefois, vous pouvez modifier la date afin qu’elle corresponde, par exemple, à la date de début d’un contrat de garantie.
     >
-    > ![Page Ordre de travail](media/02-warranty.png)
+    > ![Page Ordre de travail.](media/02-warranty.png)
 
 > [!NOTE]
 > Lorsque vous créez un ordre de travail pour un actif couvert par une garantie fournisseur, si l’ordre de travail a une date de début prévue pendant la période de garantie, vous recevez une notification concernant le contrat de garantie. Vous pouvez ensuite annuler l’ordre de travail, si vous le souhaitez.

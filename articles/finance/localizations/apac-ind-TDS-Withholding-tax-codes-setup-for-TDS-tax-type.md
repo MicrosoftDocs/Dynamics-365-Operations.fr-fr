@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349926"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
 
@@ -31,7 +31,7 @@ Cette rubrique explique comment configurer des codes taxes pour la fonction Taxe
 
 1. Accédez à **Taxe \> Taxes indirectes \> Retenue à la source \> Codes de retenue à la source**.
 
-    [![Page Codes de retenue à la source](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Page Codes de retenue à la source.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. Dans le volet Actions, sélectionnez **Nouveau** pour créer un code de retenue à la source pour TDS et entrez les détails requis.
 3. Dans le raccourci **Général**, dans le champ **Type de taxe**, sélectionnez **TDS** pour classer le code de taxe comme code de taxe TDS.

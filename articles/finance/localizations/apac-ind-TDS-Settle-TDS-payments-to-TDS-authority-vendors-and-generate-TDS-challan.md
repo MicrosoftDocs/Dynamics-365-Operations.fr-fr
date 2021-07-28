@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5b77985a75d2930267cf94d6f218d53b47e6e705
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a9912151ef9fc68941858545e39bccc1e5d3e411
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023245"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358312"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>Régler les paiements TDS aux fournisseurs de l'autorité TDS et générer un challan TDS
 
@@ -31,7 +31,7 @@ Cette rubrique explique comment régler les paiements de taxe déduite à la sou
 
 1. Accédez à **Comptabilité fournisseur \> Paiements \> Journal des paiements fournisseur**.
 
-    [![Page du journal des paiements fournisseur](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
+    [![Page du journal des paiements fournisseur.](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
 
 2. Sur la page **Journal des paiements fournisseur**, sélectionnez **Nouveau** pour créer une ligne de journal.
 3. Dans le champ **Compte**, sélectionnez le fournisseur de l'autorité TDS auquel régler les paiements TDS.

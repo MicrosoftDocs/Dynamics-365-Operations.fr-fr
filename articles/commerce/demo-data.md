@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a3daa2286eb444d3aaad1fd29eb6be5737415a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c3670cc1f690e8b65b53beb9128554216b2a95f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801972"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350424"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Dispositions de l’écran de données de démonstration dans Modern POS (MPOS) et le PDV Cloud
 
@@ -33,13 +33,13 @@ Cette rubrique fournit des informations sur les mises en page d’écran incluse
 
 Les exemple de mises en page d’écran qui sont inclus dans les données de démonstration de Commerce fournissent le contenu qui est optimisé pour différents segments de la vente au détail, rôles de travailleur du magasin et périphériques. Une mise en page unique peut contenir plusieurs tailles de mise en page et des combinaisons de groupes de boutons afin de garantir la couverture à mesure que les travailleurs de magasin passent entre les périphériques et les stations. Cette rubrique décrit les différences entre ces mises en page, les opérations qu’elles fournissent, et les expériences générales qu’elles constituent.
 
-![Mises en page des données de démonstration entre périphériques](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Mises en page des données de démonstration entre périphériques.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomie d’un ID mise en page de l’écran
 
 Pour rechercher des mises en page d’écran, accédez à **Commerce et vente au détail** \> **Paramétrage de canal** \> **Paramétrage PDV** \> **PDV** \> **Mises en page de l’écran**.
 
-![Page Mises en page de l’écran](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Page Mises en page de l’écran.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Les ID mise en page de l’écran peuvent se composer de 10 caractères au maximum. L’ID est une chaîne composée de trois éléments d’informations, dans cet ordre :
 
@@ -52,12 +52,12 @@ Les ID mise en page de l’écran peuvent se composer de 10 caractères au maxi
 | Lettre | Société         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
+| V      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>Version de la mise en page
 
-| Numéro de version | Description                                                                                |
+| Numéro de version | Description                                                                                 |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La version de base qui prend en charge plusieurs tailles d’écran pour différents périphériques et proportions |
 | 3.1            | La version de base qui dispose du support technique supplémentaire du volet **Produits recommandés**        |
@@ -79,7 +79,7 @@ F4MGR
 
 L’illustration suivante présente un exemple de l’écran de bienvenue d’un directeur de magasin de Fabrikam.
 
-![Écran de bienvenue pour le directeur de magasin de Fabrikam](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Écran de bienvenue pour le directeur de magasin de Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Tailles de mise en page
 
@@ -108,7 +108,7 @@ Le tableau suivant indique les tailles de mise en page autorisées pour les rés
 > [!TIP]
 > Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d’écran de la fenêtre d’application active. Pour trouver l’ID de mise en page de l’écran et la résolution de mise en page qui sont actuellement utilisés, le Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d’application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l’écran**.
 
-![Mises en page de l’écran et résolutions/tailles de mise en page dans Commerce et PDV](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Mises en page de l’écran et résolutions/tailles de mise en page dans Commerce et PDV.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Sociétés et marques
 
@@ -129,19 +129,19 @@ Les exemples d’illustrations suivantes présentent la page d’accueil et la p
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Page d’accueil de données de démonstration pour Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Page d’accueil de données de démonstration pour Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Page de transaction de données de démonstration pour Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Page de transaction de données de démonstration pour Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Page d’accueil de données de démonstration pour Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Page d’accueil de données de démonstration pour Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Page de transaction de données de démonstration pour Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Page de transaction de données de démonstration pour Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Mises en page de données de démonstration pour Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Mises en page de données de démonstration pour Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Matrice de connexion de l’utilisateur
 
@@ -168,7 +168,7 @@ Différentes mises en page de l’écran ont été fournies aux utilisateurs. En
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 

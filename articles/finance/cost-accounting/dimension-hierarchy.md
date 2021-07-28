@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355081"
 ---
 # <a name="dimension-hierarchy"></a>Hiérarchie des dimensions
 
@@ -39,7 +39,7 @@ Les hiérarchies de dimensions sont utilisées dans divers endroits dans le cont
 
 Voici un exemple d’une hiérarchie de dimensions.
 
-![Exemple d’une hiérarchie de dimensions](./media/dimension-hierarchy.png)
+![Exemple d’une hiérarchie de dimensions.](./media/dimension-hierarchy.png)
 
 Une hiérarchie de dimensions peut être créée pour les types de dimensions suivants :
 
@@ -80,7 +80,7 @@ Une hiérarchie de dimensions est créée comme structure arborescente qui inclu
 
 Une petite société a la structure d’organisation suivante, où les services Finances et Ressources humaines sont des départements dépendants de l’administrateur, et les services Assemblage et Emballage sont des départements relevant de la production.
 
-![Exemple d’une structure d’organisation](./media/dimension-hierarchy-org.png)
+![Exemple d’une structure d’organisation.](./media/dimension-hierarchy-org.png)
 
 Une dimension d’objet de coût représente tous les centres de coût dans l’organisation.
 

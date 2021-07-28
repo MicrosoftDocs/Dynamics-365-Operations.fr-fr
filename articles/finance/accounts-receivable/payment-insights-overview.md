@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822393"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359315"
 ---
 # <a name="customer-payment-insights-preview"></a>Informations de paiement du client (Aperçu)
 
@@ -47,11 +49,11 @@ Pour chaque facture en cours, Informations de paiement du client (version préli
 
 Informations de paiement du client (version préliminaire) offre également une vue cumulée des paiements attendus pouvant aider les organisations à comprendre le montant total du paiement auquel elles peuvent s’attendre d’un client selon une des trois options, Dans les temps, En retard, Très en retard.
 
-[![Vue cumulée des prévisions de paiement](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Vue cumulée des prévisions de paiement.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 En outre, chaque facture se voit attribuer une probabilité de paiement dans les temps. Si la probabilité de paiement dans les temps est inférieure à 50 %, les factures sont marquées avec un cercle rouge pour indiquer que ces factures peuvent exiger une attention particulière en termes de recouvrement. 
 
-[![Liste des probabilités de paiement](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Liste des probabilités de paiement.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Informations de paiement du client (version préliminaire) offre également des informations contextuelles pour expliquer les prévisions, comme les facteurs principaux ayant influencé les prévisions, l’état actuel de l’entreprise avec le client et les détails concernant l’historique du comportement de paiement du client. Dans de nombreuses entreprises, le processus de recouvrement est une activité réactive ; le processus de recouvrement ne commence pas tant que les factures ne sont pas échues. 
 

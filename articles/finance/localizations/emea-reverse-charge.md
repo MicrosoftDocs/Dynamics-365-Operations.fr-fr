@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348883"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mécanisme de Taxe au preneur pour le régime TVA/TPS
 
@@ -121,7 +121,7 @@ Lorsqu’une facture d’achat soumise à la taxe au preneur est validée, deux 
 
 Dans le capture d’écran suivant, une transaction a l’ordre **Taxe déductible**, et l’autre transaction a la direction **Taxe collectée**. 
 
-![Taxe validée](media/apac-sau-posted-sales-tax.png)
+![Taxe validée.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Activer le mécanisme de la taxe au preneur pour la fonctionnalité de modèle TVA/TPS
 Dans l’espace de travail **Rechercher la fonctionnalité**, recherchez la fonctionnalité et sélectionnez **Activer**.

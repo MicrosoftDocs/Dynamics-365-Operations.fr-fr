@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796968"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346666"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajuster les résultats de recommandation produit fondées sur l’IA et le ML
 
@@ -51,7 +51,7 @@ En fonction de votre entreprise, la liste « Meilleure vente » peut apporter 
 
 La liste de produits « Meilleure vente » a un paramètre modifiable :
 
-![Exemple de paramètre par défaut de liste de meilleures ventes](./media/examplebestsellingparameters.PNG)
+![Exemple de paramètre par défaut de liste de meilleures ventes.](./media/examplebestsellingparameters.PNG)
 
 1. **Inclure les ventes des X dernier jours** - Les transactions de ventes qui ont eu lieu au cours du nombre de jours spécifié avant la date actuelle peuvent être utilisés pour commander des produits. La valeur par défaut ci-dessus suggère que tous les achats effectués d’un produit dans les 30 derniers jours soient utilisés pour déterminer l’emplacement du produit dans la liste de produits les plus vendus. 
 
@@ -65,13 +65,13 @@ La liste de produits « Meilleure vente » a un paramètre modifiable :
 1.  Pour ajouter des produits à la table, sélectionnez **Ajouter une ligne**. 
 1.  Sous la colonne Produit, recherchez un produit par **Nom** ou par **Numéro de produit.**
 
-    ![Exemple de recherche d’un produit dans la nouvelle liste de produits](./media/examplenewlistconfiguration1.png)
+    ![Exemple de recherche d’un produit dans la nouvelle liste de produits.](./media/examplenewlistconfiguration1.png)
 
 1.  Dans la colonne Type de ligne, sélectionnez l’une des deux options :
     -   **Inclure** – force un produit au dessus de la liste
     -   **Exclure** – supprime un produit de la liste qui s’affiche
     
-    ![Exemple d’inclusion ou d’exclusion d’un produit de la nouvelle liste de produits](./media/examplenewlistconfiguration2.png)
+    ![Exemple d’inclusion ou d’exclusion d’un produit de la nouvelle liste de produits.](./media/examplenewlistconfiguration2.png)
 
 1.  La modification de l’**Ordre d’affichage** modifie l’ordre dans lequel les produits marqués à **Inclure** s’affichent dans la liste.
     - Si deux produits ont la même valeur d’**ordre d’affichage**, l’ordre final de ces deux résultats peut différer du back-office.
@@ -87,11 +87,11 @@ Un *produit initial* est le produit pour lequel vous voulez générer des résul
 Procédez comme suit pour ajouter ou supprimer manuellement des résultats pour un produit d’origine :
 1.  Sélectionnez le **Produit d’origine**. 
 1.  Dans la colonne **Produit**, recherchez un produit par **Nom** ou **Numéro de produit.**
-![Exemple de la recherche d’un produit sur la liste Fréquemment achetés ensemble](./media/exampleFBTlistconfiguration1.png)
+![Exemple de la recherche d’un produit sur la liste Fréquemment achetés ensemble.](./media/exampleFBTlistconfiguration1.png)
 1. Dans la colonne **Type de ligne**, sélectionnez l’une des deux options :
     - **Inclure** – force un produit au dessus de la liste
     - **Exclure** – supprime un produit de la liste qui s’affiche     
-![Exemple de Inclure ou Exclure un produit sur la liste Fréquemment achetés ensemble](./media/exampleFBTlistconfiguration2.png)
+![Exemple de Inclure ou Exclure un produit sur la liste Fréquemment achetés ensemble.](./media/exampleFBTlistconfiguration2.png)
 1.  Pour supprimer des produits de la table : sélectionnez la ligne à supprimer et sélectionnez Supprimer.
 
 

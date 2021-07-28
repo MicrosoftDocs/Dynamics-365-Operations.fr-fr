@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799043"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349350"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identifier une hypothèse et déterminer les métriques de réussite pour une expérience
 La première phase du cycle de vie de l’expérimentation comprend l’identification de l’hypothèse de l’expérience et la détermination des métriques que vous suivrez pour évaluer la réussite. Le diagramme suivant montre toutes les étapes impliquées dans [la configuration et l’exécution d’une expérience](experimentation-overview.md) sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres rubriques. 
 
-[ ![Expérimentation parcours utilisateur - Identifier](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Expérimentation parcours utilisateur - Identifier.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Une hypothèse est une déclaration dans laquelle vous prédisez le résultat de l’expérience. De nombreux facteurs entrent dans la définition d’une hypothèse, par exemple, la recherche sur le comportement des utilisateurs et les données de site web que vous avez collectées. Avec l’hypothèse, vous définirez l’hypothèse ou la théorie que vous souhaitez valider avec votre expérience. Un exemple d’hypothèse pour votre expérience peut être "*une photo d’un t-shirt blanc sur ma page d’accueil entraînera un taux de clics plus élevé que celle d’un pull bleu marine pendant les mois d’été, car les gens veulent porter quelque chose de léger et de couleur claire en été.*" Dans ce cas, vous allez créer des variantes comprenant un t-shirt blanc et un pull bleu marine, et publier les deux en même temps.
 

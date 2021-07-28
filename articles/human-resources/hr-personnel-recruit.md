@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051807"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359675"
 ---
 # <a name="recruit-job-candidates"></a>Recruter des candidats à un poste
 
@@ -61,13 +61,13 @@ Si votre organisation possède plusieurs emplacements, vous pouvez les ajouter a
 
 3. Dans le champ **Emplacement de la demande de recrutement**, entrez le nom de l’emplacement.
 
-   ![Ajouter un emplacement de demande de recrutement](./media/hr-recruit-0a-add-location.png)
+   ![Ajouter un emplacement de demande de recrutement.](./media/hr-recruit-0a-add-location.png)
 
 4. Dans **Description**, entrez une description de l’emplacement.
 
 5. Sous **Emplacement**, sélectionnez **Ajouter**. Si la fenêtre contextuelle **Nouvelle adresse** apparaît, entrez l’adresse de l’emplacement.
 
-   ![Entrer l’adresse](./media/hr-recruit-0b-address.png)
+   ![Entrer l’adresse.](./media/hr-recruit-0b-address.png)
 
 6. Sous **Informations de contact**, entrez les informations du contact du lieu.
 
@@ -83,11 +83,11 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
 3. Sélectionnez **Demande de recrutement**.
 
-   ![Démarrer une demande de recrutement](./media/hr-recruit-1-request-to-recruit.png)
+   ![Démarrer une demande de recrutement.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Remplissez les champs **Description**, **Poste** et **Estimation de la date de début**.
 
-   ![Remplissez la demande de recrutement](./media/hr-recruit-2-request-to-recruit.png)
+   ![Remplissez la demande de recrutement.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Sélectionnez **Continuer**. La demande de recrutement pour votre poste apparaît.
 
@@ -95,7 +95,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
 7. Sous **Emploi**, modifiez les informations selon vos besoins, puis sélectionnez **Créer des détails à partir du poste**.
 
-   ![Créer des détails à partir de la tâche](./media/hr-recruit-3-create-details-from-job.png)
+   ![Créer des détails à partir de la tâche.](./media/hr-recruit-3-create-details-from-job.png)
 
    Le reste de la demande de recrutement sera rempli avec les informations par défaut pour l’emploi que vous avez entré.
 
@@ -103,13 +103,13 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
 9. Sous **Postes**, sélectionnez **Ajouter**, puis sélectionnez un poste pour cette demande de recrutement.
 
-   ![Ajouter un poste](./media/hr-recruit-4-select-position.png)
+   ![Ajouter un poste.](./media/hr-recruit-4-select-position.png)
 
 10. Sous **Compétences**, sélectionnez **Ajouter**, puis sélectionnez une compétence.
 
 11. Sous **Exigences scolaires**, sélectionnez **Ajouter**, puis sélectionnez des valeurs dans les listes déroulantes **Éducation** et **Niveau d’instruction requis**.
 
-   ![Ajouter des exigences scolaires](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Ajouter des exigences scolaires.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Sous **Commentaire**, ajoutez des commentaires si nécessaire.
 
@@ -117,7 +117,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
 14. Lorsque votre demande de recrutement est terminée et que vous êtes prêt à démarrer le processus de recrutement, sélectionnez **Activer** dans la barre de menus.
 
-   ![Activer la demande de recrutement](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Activer la demande de recrutement.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Sélectionnez **Enregistrer**.
 
@@ -131,7 +131,7 @@ Si vous êtes un responsable et souhaitez consulter vos propres demandes :
 
 3. Sous **Informations sur mon équipe**, sélectionnez l’onglet **Demandes de recrutement**.
 
-   ![Sélectionnez l’onglet Demandes de recrutement](./media/hr-recruit-7-recruiting-requests.png)
+   ![Sélectionnez l’onglet Demandes de recrutement.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Pour afficher ou modifier une demande de recrutement, sélectionnez-la dans la grille.
 
@@ -141,7 +141,7 @@ Si vous êtes un professionnel des RH et que vous souhaitez consulter toutes les
 
 2. Sélectionnez **Demandes de recrutement**.
 
-   ![Afficher les demandes de recrutement dans Gestion du personnel](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Afficher les demandes de recrutement dans Gestion du personnel.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Pour afficher ou modifier une demande de recrutement, sélectionnez-la dans la grille.
 
@@ -155,7 +155,7 @@ Si votre organisation s’est intégrée à une autre application pour gérer le
 
 3. Sous **Recrutement**, sélectionnez **Candidats**.
 
-   ![Afficher les candidats](./media/hr-recruit-9-candidates.png)
+   ![Afficher les candidats.](./media/hr-recruit-9-candidates.png)
 
 4. Pour ajouter un candidat, sélectionnez **Nouveau**. Pour modifier un candidat existant, sélectionnez le candidat dans la liste, puis sélectionnez **Modifier**. Le profil du candidat apparaît.
 
@@ -163,7 +163,7 @@ Si votre organisation s’est intégrée à une autre application pour gérer le
 
 6. Sous **Demande de recrutement**, sélectionnez une demande de recrutement à laquelle associer le candidat. Puis complétez les champs **Estimation de date de début estimée**, **Responsable du recrutement**, **Poste** et **Description** le cas échéant.
 
-   ![Lien vers une demande de recrutement](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Lien vers une demande de recrutement.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Complétez toutes les informations dans les domaines suivants que vous souhaitez inclure dans le dossier du candidat :
    - **Commentaires**
@@ -182,11 +182,11 @@ Lorsque vous êtes prêt à embaucher un candidat, suivez cette procédure pour 
 
 1. Sur le formulaire de candidature, sélectionnez **Embaucher**.
 
-   ![Engager un candidat](./media/hr-recruit-11-hire.png)
+   ![Engager un candidat.](./media/hr-recruit-11-hire.png)
 
 2. Sur le formulaire **Embaucher un nouveau collaborateur**, sous **Détails**, remplissez tous les champs.
 
-   ![Entrez les détails de la nouvelle recrue](./media/hr-recruit-12-hire-new-worker.png)
+   ![Entrez les détails de la nouvelle recrue.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Sous **Détails du poste**, vérifiez et modifiez les informations si nécessaire.
 
@@ -203,7 +203,7 @@ Si vous décidez de ne pas embaucher un candidat, suivez cette procédure pour l
 
 1. Sur le formulaire de candidature, sélectionnez **Ne pas embaucher**.
 
-   ![Ne pas engager un candidat](./media/hr-recruit-13-do-not-hire.png)
+   ![Ne pas engager un candidat.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Sélectionnez un **Code motif** et incluez vos commentaires.
 
@@ -215,7 +215,7 @@ Si nécessaire, vous pouvez ignorer un candidat après l’avoir embauché. Par 
 
 - Sur le formulaire de candidature, sélectionnez **Ignorer un candidat**.
 
-  ![Ignorer le candidat](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Ignorer le candidat.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Voir également :
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821535"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344566"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Date LIFO avec valeur physique et marquage
 
@@ -55,7 +55,7 @@ Dans cet exemple, le groupe de modèles d’article n’est pas marqué pour inc
 
 Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement à 15,00 EUR. 
 
-La figure suivante indique l’impact du modèle de stock Date LIFO lorsque l’option **Inclure la valeur physique** n’est pas utilisée. ![Date LIFO avec Inclure la valeur physique](./media/lifodatewithoutincludephysicalvalue.gif) 
+La figure suivante indique l’impact du modèle de stock Date LIFO lorsque l’option **Inclure la valeur physique** n’est pas utilisée. ![Date LIFO avec Inclure la valeur physique.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
@@ -90,7 +90,7 @@ La figure suivante illustre ces transactions :
 
 Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement à 20,00 EUR. 
 
-La figure suivante indique l’impact du modèle de stock LIFO lorsque l’option **Inclure la valeur physique** est utilisée. ![Date LIFO avec Inclure la valeur physique](./media/lifodatewithincludephysicalvalue.gif) 
+La figure suivante indique l’impact du modèle de stock LIFO lorsque l’option **Inclure la valeur physique** est utilisée. ![Date LIFO avec Inclure la valeur physique.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
@@ -136,7 +136,7 @@ La figure suivante illustre ces transactions :
 
 Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement à 27,50 EUR. 
 
-La figure suivante illustre les effets du modèle de stock LIFO lorsque le marquage entre les sorties et les réceptions est utilisé. ![Date LIFO avec marquage](./media/lifodatewithmarking.gif) 
+La figure suivante illustre les effets du modèle de stock LIFO lorsque le marquage entre les sorties et les réceptions est utilisé. ![Date LIFO avec marquage.](./media/lifodatewithmarking.gif) 
 
 **Clés du diagramme**
 

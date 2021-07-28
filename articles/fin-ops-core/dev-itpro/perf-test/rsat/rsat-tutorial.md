@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866154"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357516"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Didacticiel Regression Suite Automation Tool
 
@@ -67,11 +67,11 @@ RSAT vous permet d’utiliser le même enregistrement de tâche avec plusieurs c
 
 Cette fonction peut être utilisée pour vérifier si une action s’est produite. Par exemple, lorsqu’un ordre de fabrication est créé, estimé, puis démarré, l’application présente un message « Production – démarrer » pour vous informer que l’ordre de fabrication a commencé.
 
-![Notification Production – Démarrer](./media/use_rsa_tool_05.png)
+![Notification Production – Démarrer.](./media/use_rsa_tool_05.png)
 
 Vous pouvez valider ce message dans RSAT en entrant le texte du message dans l’onglet **Validation du message** du fichier de paramètres Excel pour l’enregistrement approprié.
 
-![Onglet Validation du message](./media/use_rsa_tool_06.png)
+![Onglet Validation du message.](./media/use_rsa_tool_06.png)
 
 Une fois le scénario de test exécuté, le message du fichier de paramètres Excel est comparé au message qui s’affiche. Si les messages ne correspondent pas, le scénario de test échoue.
 
@@ -104,11 +104,11 @@ Lorsque vous exécutez le scénario de test, RSAT génère des instantanés (ima
 
 La figure suivante présente une capture d’écran du flux de ce scénario.
 
-![Flux du scénario de démonstration](./media/use_rsa_tool_14.png)
+![Flux du scénario de démonstration.](./media/use_rsa_tool_14.png)
 
 L’illustration suivante montre la hiérarchie des processus métier pour ce scénario dans le Concepteur de processus d’entreprise LCS.
 
-![Processus métier pour le scénario de démonstration](./media/use_rsa_tool_15.png)
+![Processus métier pour le scénario de démonstration.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Stratégie – Points d’apprentissage clés
 

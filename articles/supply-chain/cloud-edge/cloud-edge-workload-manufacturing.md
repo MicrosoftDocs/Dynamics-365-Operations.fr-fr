@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270533"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352734"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
 
@@ -44,7 +44,7 @@ Cette rubrique décrit le fonctionnement des charges de travail d’exécution d
 
 Comme le montre l’illustration suivante, le cycle de vie de fabrication est divisé en trois phases : *Planifier*, *Exécuter*, et *Finaliser*.
 
-[![Phases d’exécution de la fabrication lorsqu’un seul environnement est utilisé](media/mes-phases.png "Phases d’exécution de la fabrication lorsqu’un seul environnement est utilisé")](media/mes-phases-large.png)
+[![Phases d'exécution de fabrication lorsqu'un seul environnement est utilisé](media/mes-phases.png "Phases d'exécution de fabrication lorsqu'un seul environnement est utilisé.](media/mes-phases-large.png)
 
 La phase _Planification_ comprend la définition du produit, la planification, la création et l’ordonnancement des commandes et la validation. L’étape de libération indique la transition depuis la phase _Planifier_ à la phase _Exécuter_. Lorsqu’un ordre de fabrication est lancé, les travaux d’ordre de fabrication seront visibles dans l’atelier de production et prêts à être exécutés.
 
@@ -54,7 +54,7 @@ Lorsqu’un travail de production est marqué comme terminé, il passe de la pha
 
 Comme le montre l’illustration suivante, lorsque des unités d’échelle sont utilisées, la phase _Exécuter_ est divisée en une charge de travail distincte.
 
-[![Phases d’exécution de la fabrication lorsque des unités d’échelle sont utilisées](media/mes-phases-workloads.png "Phases d’exécution de la fabrication lorsque des unités d’échelle sont utilisées")](media/mes-phases-workloads-large.png)
+[![Phases d'exécution de fabrication lorsque des unités d'échelle sont utilisées](media/mes-phases-workloads.png "Phases d'exécution de fabrication lorsque des unités d'échelle sont utilisées."](media/mes-phases-workloads-large.png)
 
 Le modèle passe désormais d’une installation à instance unique à un modèle basé sur le hub et les unités d’échelle. Les phases _Plan_ et _Finaliser_ s’exécutent comme des opérations de back-office sur le hub et la charge de travail d’exécution de la fabrication s’exécute sur les unités d’échelle. Les données sont transférées de manière asynchrone entre le hub et les unités d’échelle.
 
@@ -87,7 +87,7 @@ Bien que la tâche s’exécute généralement automatiquement, vous pouvez l’
 
 Pour consulter le journal de traitement de l’enregistrement, connectez-vous au hub et accédez à **Contrôle de production \> Tâches périodiques \> Gestion de la charge de travail backoffice \> Journal de traitement d’enregistrement brut**. La page **Journal de traitement d’enregistrement brut** affiche une liste des enregistrements bruts traités et le statut de chaque enregistrement.
 
-![Page Journal de traitement de l’enregistrement brut](media/mes-processing-log.png "Page Journal de traitement de l’enregistrement brut")
+![Page Journal de traitement de l’enregistrement brut.](media/mes-processing-log.png "Page Journal de traitement de l’enregistrement brut")
 
 Vous pouvez travailler sur n’importe quel enregistrement de la liste en le sélectionnant, puis en sélectionnant l’un des boutons suivants dans le volet Actions :
 

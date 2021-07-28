@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358667"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 
@@ -69,11 +69,11 @@ Par exemple, vous pouvez utiliser le format de gestion des états électroniques
 
 L’illustration suivante montre comment vous pouvez réaliser cette configuration des destinations de gestion des états électroniques en tant qu’ensemble d’enregistrements de destination individuels lorsque chaque enregistrement est configuré pour une action utilisateur individuelle :
 
-![Page de destination de rapport électronique qui a des paramètres de destination dépendants de l’action pour un format de gestion des états électroniques lorsque chaque enregistrement de destination est configuré pour une seule action utilisateur](./media/er-destination-action-dependent-01.png)
+![Page de destination de rapport électronique qui a des paramètres de destination dépendants de l’action pour un format de gestion des états électroniques lorsque chaque enregistrement de destination est configuré pour une seule action utilisateur.](./media/er-destination-action-dependent-01.png)
 
 L’illustration suivante montre comment vous pouvez réaliser cette configuration des destinations de gestion des états électroniques en tant qu’ensemble d’enregistrements de destination individuels lorsque chaque enregistrement est configuré pour une destination individuelle :
 
-![Page de destination de rapport électronique qui a des paramètres de destination dépendants de l’action pour un format de gestion des états électroniques lorsque chaque enregistrement de destination est configuré pour une seule destination](./media/er-destination-action-dependent-01a.png)
+![Page de destination de rapport électronique qui a des paramètres de destination dépendants de l’action pour un format de gestion des états électroniques lorsque chaque enregistrement de destination est configuré pour une seule destination.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Si un code d’action est fourni pour le format de gestion des états électroniques en cours d’exécution, mais qu’aucune destination n’a été configurée pour ce code d’action, le[ défaut](electronic-reporting-destinations.md#default-behavior) le comportement de destination est appliqué.
@@ -84,7 +84,7 @@ Lorsqu’un format de gestion des états électroniques est exécuté, si les ac
 
 L’illustration suivante montre un exemple de **Destinations au format de gestion des états électroniques** qui apparaît lorsqu’une facture financière est [ publiée](../../../finance/accounts-receivable/create-free-text-invoice-new.md) et le format de gestion des états électroniques **Facture financière (Excel)** est exécuté pour générer ce document, si l’action **Imprimante** a été provisionnée et les destinations de gestion des états électroniques ont été configurées pour ce format, comme indiqué plus haut dans cette rubrique.
 
-![Boîte de dialogue qui donne la possibilité de modifier les destinations de gestion des états électroniques initialement configurées pour le format de gestion des états électroniques en cours d’exécution](./media/er-destination-action-dependent-02.gif)
+![Boîte de dialogue qui donne la possibilité de modifier les destinations de gestion des états électroniques initialement configurées pour le format de gestion des états électroniques en cours d’exécution.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Si vous avez configuré des destinations de gestion des états électroniques pour plusieurs composants du format de gestion des états électroniques en cours d’exécution, une option sera proposée séparément pour chaque composant configuré du format de gestion des états électroniques.
@@ -103,7 +103,7 @@ Suivez ces étapes pour vérifier le code d’action utilisateur fourni.
 6. Sur la page **Journaux de débogage de configuration**, filtrez les journaux d’exécution de gestion des états électroniques pour trouver le journal de votre exécution au format de gestion des états électroniques.
 7. Examinez les entrées de journal qui doivent contenir l’enregistrement qui présente le code d’action utilisateur fourni, si une action a été fournie pour l’exécution au format de gestion des états électroniques.
 
-    ![Page des journaux d’exécution de rapports électroniques qui contient des informations sur le code d’action de l’utilisateur qui a été fourni pour l’exécution filtrée d’un format de gestion des états électroniques](./media/er-destination-action-dependent-03.png)
+    ![Page des journaux d’exécution de rapports électroniques qui contient des informations sur le code d’action de l’utilisateur qui a été fourni pour l’exécution filtrée d’un format de gestion des états électroniques.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Liste des documents commerciaux (vague 1)</a>
 

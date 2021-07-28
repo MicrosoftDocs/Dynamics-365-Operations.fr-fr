@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750562"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352910"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Modèles de données avec plusieurs feuilles de calcul
 
@@ -32,13 +32,13 @@ Prenons l’exemple d’un fichier Excel avec des feuilles de calcul intitulées
 
 Si vous ajoutez la deuxième entité **Entrepôts** sans quitter l’écran **Ajouter un fichier**, la recherche de feuille de calcul vous permet de sélectionner la feuille de calcul **Entrepôts** sans avoir à télécharger à nouveau le fichier. Vous ne devez télécharger un nouveau fichier que si les données **Entrepôts** se trouvent dans un autre fichier.
 
-![Feuilles de calcul multiples](./media/AddFileMultipleWorkSheets.png)
+![Feuilles de calcul multiples.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Corriger la mise en correspondance de la feuille de calcul avec une entité
 
 La mise en correspondance de la feuille de calcul avec une entité de données dans la tâche d’importation peut être corrigée à partir de la grille. La colonne **Feuille de calcul** de la grille affiche les feuilles de calcul du fichier qui a été mis en correspondance. Vous pouvez choisir une autre feuille de calcul dans le menu déroulant. Si la feuille de calcul choisie est déjà mise en correspondance avec une entité dans le projet de données, le système vous demande de confirmer la modification. Il est recommandé de corriger toutes les mises en correspondance dans la grille.
 
-![Mettre à jour la mise en correspondance de la feuille de calcul](./media/UpdateMappings.png)
+![Mettre à jour la mise en correspondance de la feuille de calcul.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Remettre en correspondance la feuille de calcul avec un nouveau fichier
 

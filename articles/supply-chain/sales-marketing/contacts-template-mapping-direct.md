@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908106"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355923"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management
 
@@ -38,7 +38,7 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 
 La solution Prospect en disponibilités utilise la fonction d’intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d’intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L’illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
-[![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flux de données dans Prospect en disponibilités.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
@@ -119,11 +119,11 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 ### <a name="contact-to-contact"></a>Contact vers contact
 
-![Mise en correspondance de modèles dans l’intégrateur de données](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Mise en correspondance de modèles dans l’intégrateur de données.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Contact vers client
 
-![Mise en correspondance de modèles dans l’intégrateur de données](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Mise en correspondance de modèles dans l’intégrateur de données.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Rubriques connexes

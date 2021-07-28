@@ -1,6 +1,6 @@
 ---
 title: Frais automatiques avancés omnicanaux
-description: Cette rubrique décrit les capacités de gestion d'autres frais de commande pour les commandes du canal Commerce en utilisant les fonctions de frais automatiques avancés.
+description: Cette rubrique décrit les capacités de gestion d’autres frais de commande pour les commandes du canal Commerce en utilisant les fonctions de frais automatiques avancés.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353058"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
@@ -43,7 +43,7 @@ Avec la fonctionnalité des frais automatiques avancés, les utilisateurs de PDV
 
 Dans la page **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres de Commerce**, accédez à l’onglet **Commandes client**. Dans l’organisateur **Frais**, définissez **Utiliser les frais automatiques avancés** sur **Oui**.
 
-![Paramètre de frais automatiques avancés](media/advancedchargesparameter.png)
+![Paramètre de frais automatiques avancés.](media/advancedchargesparameter.png)
 
 Lorsque les frais automatiques avancés sont activés, les utilisateurs ne sont plus invités à saisir manuellement des frais d’expédition au terminal de PDV lors de la création d’une commande client de type « Expédier tout » ou « Expédier sélection ». Les frais de la commande au PDV sont systématiquement calculés et ajoutés à la transaction au PDV (si un tableau de frais automatiques correspondant qui répond au critère de la commande créée est trouvé). Les utilisateurs peuvent également ajouter ou conserver manuellement des frais au niveau de l’en-tête ou de la ligne manuellement via les opérations en PDV récemment ajoutées qui peuvent être ajoutées aux mises en page de l’écran de PDV.
 
@@ -86,7 +86,7 @@ Configurez deux types de frais automatiques au niveau de l’en-tête. Configure
 
 Pour les frais de livraison terrestre, dans la section des lignes de la page **Frais automatiques**, définissez les frais qui seront appliqués pour les commandes entre 0,01 USD et 100 USD sur 10 USD. Créez une autre ligne de frais pour indiquer que les commandes supérieures à 100,01 USD n’auront pas de frais de livraison.
 
-![Exemple de deux tables de frais automatiques](media/headerchargesexample.png)
+![Exemple de deux tables de frais automatiques.](media/headerchargesexample.png)
 
 Pour les frais de livraison aérienne, dans la section des lignes du formulaire Frais automatiques, définissez des frais de 20 USD qui seront appliqués pour toutes les commandes (entre 0,01 USD et 9 999 999 USD).
 
@@ -116,7 +116,7 @@ Accédez à **Comptabilité client \> Paramétrage des frais \> Frais automatiqu
 
 Définissez le menu déroulant **Niveau** sur **Ligne**, puis créez un nouvel enregistrement de frais automatiques pour tous les clients et pour le produit ou le groupe de produits spécifique sur lequel les frais de configuration seront facturés.
 
-![Exemple de table de frais automatiques au niveau de la ligne](media/linechargesexample.png)
+![Exemple de table de frais automatiques au niveau de la ligne.](media/linechargesexample.png)
 
 Envoyez les frais vers l’unité d’échelle commerciale/la base de données du canal de telle sorte que le PDV puisse les utiliser en exécutant la tâche **programme de distribution 1040**.
 
@@ -136,7 +136,7 @@ Un détaillant effectue une exception aux processus traditionnels en décidant d
 
 Veillez à ce que le code de frais qui sera utilisé dans ce scénario a été correctement configuré en accédant à **Comptabilité client \> Paramétrage des frais \> Frais** pour définir un code de frais approprié pour le scénario.
 
-![Exemple de frais](media/chargesexample.png)
+![Exemple de frais.](media/chargesexample.png)
 
 Si les frais doivent être considérés comme des frais associés « d’expédition » destinés aux remises et aux promotions pratiquées sur l’expédition, définissez **Frais d’expédition** du code de frais sur **Oui**. Si ces frais sont également autorisés pour être systématiquement remboursés pendant le traitement d’une transaction de retour dans l’application du PDV, définissez **Remboursable** sur **Oui**. L’indicateur **Remboursable** est applicable uniquement lorsque le paramètre **Utiliser les frais automatiques avancés** est défini sur **Oui**.
 

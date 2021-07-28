@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837943"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360123"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Utiliser l’espace de travail mobile pour la gestion des actifs
 
@@ -60,7 +60,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
-    ![Sélectionner un espace de travail](media/am-mobile-01.png "Sélectionner un espace de travail")
+    ![Sélectionnez un espace de travail.](media/am-mobile-01.png "Sélectionner un espace de travail")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Afficher les tâches de l’ordre de travail assignées dans une vue de type Calendrier.
 
@@ -90,7 +90,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Sélectionnez **Terminé**.
 
-    ![Écran Ajouter une ligne](media/am-mobile-03.png "Écran Ajouter une ligne")
+    ![Écran Ajouter une ligne.](media/am-mobile-03.png "Écran Ajouter une ligne")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Ajouter une pièce jointe à une tâche de l’ordre de travail
@@ -129,7 +129,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Sélectionnez le bouton Retour (**<**) pour revenir à la page précédente.
 
-    ![Liste de contrôle de maintenance et détails de la ligne](media/am-mobile-05.png "Liste de contrôle de maintenance et détails de la ligne")
+    ![Liste de contrôle de maintenance et détails de la ligne.](media/am-mobile-05.png "Liste de contrôle de maintenance et détails de la ligne")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Afficher et mettre à jour les compteurs d’actifs sur une tâche de l’ordre de travail
 
@@ -146,7 +146,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Saisissez une nouvelle valeur de compteur et sélectionnez **Terminé**.
 
-    ![Afficher et mettre à jour les compteurs d’actifs](media/am-mobile-06.png "Afficher et mettre à jour les compteurs d’actifs")
+    ![Affichez et mettez à jour les compteurs d’actifs.](media/am-mobile-06.png "Afficher et mettre à jour les compteurs d’actifs")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Enregistrer la consommation sur une tâche de l’ordre de travail
 
@@ -178,7 +178,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
     1. Saisissez le **Prix de revient** pour l’enregistrement de la dépense.
     1. Sélectionnez **Terminé**.
 
-    ![Mettre à jour un journal des ordres de travail](media/am-mobile-07.png "Mettre à jour un journal des ordres de travail")
+    ![Mettez à jour un journal des ordres de travail.](media/am-mobile-07.png "Mettre à jour un journal des ordres de travail")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Mettre à jour l’état du cycle de vie sur un ordre de travail
 
@@ -194,7 +194,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Sélectionnez **Terminé**.
 
-    ![Mettre à jour l’état du cycle de vie sur un ordre de travail](media/am-mobile-08.png "Mettre à jour l’état du cycle de vie sur un ordre de travail")
+    ![Mettez à jour l’état du cycle de vie sur un ordre de travail.](media/am-mobile-08.png "Mettre à jour l’état du cycle de vie sur un ordre de travail")
 
 ## <a name="create-a-maintenance-request"></a>Créer une demande de maintenance
 
@@ -216,7 +216,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Sélectionnez **Terminé**.
 
-    ![Créer une demande de maintenance](media/am-mobile-09.png "Créer une demande de maintenance")
+    ![Créez une demande de maintenance.](media/am-mobile-09.png "Créer une demande de maintenance")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Ajouter la pièce jointe à une demande de maintenance
 
@@ -236,7 +236,7 @@ Téléchargez et installez l’application mobile Dynamics 365 for Unified Opera
 
 1. Sélectionnez **Terminé**.
 
-    ![Ajouter une pièce jointe à une demande de maintenance](media/am-mobile-10.png "Ajouter une pièce jointe à une demande de maintenance")
+    ![Ajoutez une pièce jointe à une demande de maintenance.](media/am-mobile-10.png "Ajouter une pièce jointe à une demande de maintenance")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

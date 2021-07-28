@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838224"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358048"
 ---
 # <a name="quality-check"></a>Contrôle qualité
 
@@ -310,7 +310,7 @@ Une fois la commande fournisseur créée, elle peut être reçue en utilisant l�
 
     La page **Contrôle qualité** qui apparaît n’a pas de champs de saisie. Il n’a que le bouton de confirmation (coche) en bas et le bouton Menu (**≡**) au sommet. (Le bouton Menu est parfois appelé le menu hamburger ou bouton hamburger.) Pour accélérer le processus de contrôle qualité, lorsque la palette passe le contrôle qualité, l’utilisateur confirme simplement la page **Contrôle qualité**.
 
-    ![Page Contrôle qualité](media/quality-check.png "Page Contrôle qualité")
+    ![Page Contrôle qualité.](media/quality-check.png "Page Contrôle qualité")
 
 1. Sélectionnez le bouton de confirmation pour réussir le contrôle qualité de la palette 1 de la ligne 1.
 

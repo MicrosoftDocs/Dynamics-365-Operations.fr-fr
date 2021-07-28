@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897330"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347832"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Références aux factures d’origine dans les notes de crédit
 
@@ -51,7 +51,7 @@ Suivez ces étapes pour définir le paramètre qui contrôle si les références
 1. Accédez à **Comptabilité client** \> **Configuration** \> **Paramètres de la comptabilité client**.
 2. Sur l’onglet **Mises à jour**, sur le raccourci **Facture**, définissez l’option **Appliquer la mise en page de la facturation de crédit aux états des facture client et de projet** sur **Oui**.
 
-![Configuration des paramètres de la comptabilité client](media/original-invoice-number-in-credit-note.jpg)
+![Configuration des paramètres de la comptabilité client.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Définir des références aux factures originales
 
@@ -65,7 +65,7 @@ Utilisez les procédures suivantes pour définir des références aux factures o
 4. Dans le volet Actions, sous l’onglet **Facture**, dans le groupe **Fonctions**, sélectionnez **Facturation de crédit**.
 5. Saisissez la référence à la facture d’origine et sélectionnez le motif de la correction.
 
-![Définition de la référence pour une facture en texte libre](media/reference-original-invoice-FTI.jpg)
+![Définition de la référence pour une facture en texte libre.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Avoir du client
 
@@ -74,7 +74,7 @@ Utilisez les procédures suivantes pour définir des références aux factures o
 3. Dans le volet Actions, sous l’onglet **Vendre**, dans le groupe **Avoir**, sélectionnez **Avoir**.
 4. Entrez le motif de la correction. La référence à la facture originale est automatiquement établie.
 
-![Définition de la référence d’une commande client](media/reference-original-invoice-SO.jpg)
+![Définition de la référence d’une commande client.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Avoir de projet
 
@@ -84,13 +84,13 @@ Utilisez les procédures suivantes pour définir des références aux factures o
 4. Sélectionnez **Facturation de crédit**.
 5. Entrez le motif de la correction. La référence à la facture originale est automatiquement établie.
 
-![Définition de la référence pour une facture de projet](media/reference-original-invoice-project.jpg)
+![Définition de la référence pour une facture de projet.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Impression d’avoirs
 
 Lorsque vous imprimez du texte libre, des notes de crédit client et projet, elles incluront la référence à la facture d’origine et le motif de la correction.
 
-![Note de crédit imprimée](media/credit-note-FTI.jpg)
+![Note de crédit imprimée.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Assurez-vous que les formats imprimables des documents sont correctement configurés, en supposant que les références aux factures d’origine soient imprimées.

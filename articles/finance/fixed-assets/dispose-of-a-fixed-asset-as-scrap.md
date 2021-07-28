@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e465594968ac860a9cb8f6f5d679084e5594457
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355603"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Céder une immobilisation comme mise au rebut
 
@@ -43,7 +43,7 @@ La rubrique décrit le processus afin d’éliminer les transactions pour une im
 Avant d’éliminer une immobilisation comme mise au rebut, vous devez créer des comptes généraux associés à la valeur d’acquisition de l’actif, l’amortissement pour l’année actuel, l’amortissement pour les années passées et la VN de l’actif. Les types de transactions d’immobilisation sont répertoriés sur la page **Profils de validation d’immobilisations**. Accédez à **Immobilisations \> Paramétrage \> Profils de validation d’immobilisations**, puis sur l’organisateur **Cession**, sélectionnez **Mise au rebut** dans le champ au-dessus de la grille. L’illustration suivante indique que la liste des types de transactions d’immobilisation sur la page **Profils de validation d’immobilisations**.
 
 
-[![Éliminer un actif comme mise au rebut, Fig. 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Éliminer un actif comme mise au rebut, Fig. 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Pour l’exemple suivant, une immobilisation a été acquise le 1er janvier 2018, et elle sera mise au rebut le 31 mars 2019.
 
@@ -58,27 +58,27 @@ Valeur nette = Prix d’achat – amortissement
 
 Dans cet exemple, l’immobilisation a été acquise et amortie sur 15 mois, de janvier 2018 à mars 2019. Par conséquent, la VN de l’actif est 9 000 EUR (24 000 EUR – 15 000 EUR).
 
-[![Exemple d’amortissement des immobilisations](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Exemple d’amortissement des immobilisations.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Pour créer un journal de cession, **Immobilisations \> Entrées de journal \> Journal des immobilisations**, puis, dans le volet Actions, sélectionnez **Lignes**. Sélectionnez **Cession – Mise au rebut**, puis sélectionnez un ID d’immobilisation. Pour céder intégralement l’actif, ne saisissez pas de valeur dans le champ **Débit** ou dans le champ **Crédit**.
 
-[![Journal des immobilisations](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Journal des immobilisations.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 La transaction de la mise au rebut de la cession de l’immobilisation change les champs de valeur pour le registre des immobilisations des manières suivantes :
 
 - Dans la section **Solde**, le champ **Statut** est mis jour sur **Mis au rebut**.
 - Dans la section **Problème**, le champ **Date de cession** est défini sur la date à laquelle l’immobilisation a été mise au rebut.
 
-[![Détail du journal des immobilisations](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Détail du journal des immobilisations.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 L’illustration suivante présente le solde d’immobilisation.
 
-[![Solde d’immobilisation](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Solde d’immobilisation.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 L’illustration suivante présente le justificatif validé.
 
-[![Valeur comptable nette](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Valeur comptable nette.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

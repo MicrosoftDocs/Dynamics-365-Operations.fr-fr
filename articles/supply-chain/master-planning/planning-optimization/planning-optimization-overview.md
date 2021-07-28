@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5ecfa8ac4db050ee1e38f3b420d81beba19b9409
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9b55a48847e9c6201e7a93a2fb5d6622b581d785
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812953"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354711"
 ---
 # <a name="planning-optimization-overview"></a>Vue d’ensemble d’Optimisation de la planification
 
@@ -33,7 +33,7 @@ Pour utiliser Optimisation de a planification, vous devez installer le compléme
 
 L’illustration suivante présente l’avantage d’exécuter Optimisation de la planification pendant les heures de bureau.
 
-![Avantage d’exécuter Optimisation de la planification pendant les heures de bureau](media/PlanningOptimization1.png)
+![Avantage d’exécuter Planning Optimization pendant les heures de bureau.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Performances améliorées
 
@@ -62,11 +62,11 @@ Si le complément d’Optimisation de la planification est désinstallé, toutes
 
 L’illustration suivante présente le flux de données.
 
-![Flux de données pour les exécutions de régénération](media/PlanningOptimization2.png)
+![Flux de données pour les exécutions de régénération.](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Ressources associées
 
-[Prise en main de l’Optimisation de la planification](get-started.md)
+[Mise en route de l’optimisation de la planification](get-started.md)
 
 [Analyse de concordance d’optimisation de la planification](planning-optimization-fit-analysis.md)
 

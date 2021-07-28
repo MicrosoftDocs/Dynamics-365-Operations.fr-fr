@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804231"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347464"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Configurer et exécuter la tâche de validation des déclarations
 
@@ -31,9 +31,9 @@ Cette procédure décrit la configuration et l’exécution d’un traitement pa
 2. Cliquez sur Valider les relevés en mode de traitement par lots.
     * Sélectionnez une hiérarchie organisationnelle, puis dans l’arborescence des nœuds d’organisation, sélectionnez un magasin individuel ou un nœud. Sélectionnez un nœud si vous souhaitez créer le traitement par lots pour un groupe de magasins.  
     * Cliquez sur la flèche pour ajouter votre sélection.  
-3. Cliquez sur Exécuter dans l’onglet d’arrière-plan. ![Exécuter à l’arrière-plan](../dev-itpro/media/runbackground.png "Exécuter à l’arrière-plan") 
+3. Cliquez sur Exécuter dans l’onglet d’arrière-plan. ![Exécuter à l’arrière-plan.](../dev-itpro/media/runbackground.png "Exécuter à l’arrière-plan") 
 4. Activez ou désactivez la case à cocher Traitement par lots.
-![Traitement par lots](../dev-itpro/media/batchprocessing.png "Traitement par lots et répétition") 
+![Traitement par lots.](../dev-itpro/media/batchprocessing.png "Traitement par lots et répétition") 
 5. Cliquez sur Répétition.
 6. Entrez une date dans le champ Date de début.
 7. Dans le champ Heure de début, saisissez une heure.

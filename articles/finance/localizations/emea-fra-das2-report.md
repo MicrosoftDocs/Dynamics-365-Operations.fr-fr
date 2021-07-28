@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5f67ff3abbf39f702c167b9cb78f595134a8949
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bbdf4de8e26f05717cfbb48245e5a443dccdb2c7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892389"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360180"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
@@ -57,7 +57,7 @@ Après avoir téléchargé les configurations des états électroniques à parti
 
 ### <a name="example"></a>Exemple
 
-[![Exemple de configuration](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
+[![Exemple de configuration.](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
 
 Sur la ligne 1 de la configuration précédente, le compte principal **622000**, qui est utilisé pour valider les transactions de dépenses de frais, est configuré sur classification **C** (**Commissions**), ce qui est établi par l’autorité fiscale.
 

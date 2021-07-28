@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301327"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348827"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestion de la qualité pour les processus d’entrepôt
 
@@ -43,7 +43,7 @@ La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ gé
 
 Quand la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée, elle modifie la configuration des principales entités de gestion des entrepôts et de gestion de la qualité. L’illustration suivante donne un aperçu des entités qui activent les ordres de qualité pour les processus d’entrepôt. Le texte entre parenthèses indique les actions suggérées lorsque la gestion de la qualité a été appliquée avant que la fonctionnalité _Gestion de la qualité pour les processus de gestion d’entrepôt_ n’ait été activée.
 
-![Entités de gestion de la qualité](media/quality-management-entity-diagram.png "Entités de gestion de la qualité")
+![Entités de gestion de la qualité.](media/quality-management-entity-diagram.png "Entités de gestion de la qualité")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Éléments permettant le changement : Types d’échantillonnage d’articles de qualité et d’ordres de travail d’ordre de qualité
 

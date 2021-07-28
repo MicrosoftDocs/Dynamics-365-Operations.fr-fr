@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936828"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346826"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ajouter la prise en charge d’un réseau de distribution de contenu (CDN)
 
@@ -74,11 +74,11 @@ Pour configurer un regroupement principal dans Azure Front Door Service, procéd
 
 L’illustration suivante présente la boîte de dialogue **Ajouter un regroupement principal** dans Azure Front Door Service avec le nom d’hôte principal entré.
 
-![Boîte de dialogue Ajouter un regroupement principal](./media/CDN_BackendPool.png)
+![Boîte de dialogue Ajouter un regroupement principal.](./media/CDN_BackendPool.png)
 
 L’illustration suivante présente la boîte de dialogue **Ajouter un regroupement principal** dans Azure Front Door Service avec les valeurs d’équilibrage de charge par défaut.
 
-![Boîte de dialogue Ajouter un regroupement principal](./media/CDN_BackendPool_2.png)
+![Boîte de dialogue Ajouter un regroupement principal.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Assurez-vous de désactiver les **Tests d’intégrité** lors de la configuration de votre propre service Azure Front Door pour Commerce.
@@ -107,13 +107,13 @@ Si votre domaine est nouveau et n’est pas un domaine actif préexistant, vous 
 
 L’illustration suivante présente la boîte de dialogue **Configuration CNAME** à Azure Front Door Service.
 
-![Boîte de dialogue Configuration CNAME](./media/CNAME_Configuration.png)
+![Boîte de dialogue Configuration CNAME.](./media/CNAME_Configuration.png)
 
 Vous pouvez utiliser Azure Front Door Service pour gérer le certificat, ou vous pouvez utiliser votre propre certificat pour le domaine personnalisé.
 
 L’illustration suivante présente la boîte de dialogue **HTTPS domaine personnalisé** à Azure Front Door Service.
 
-![Boîte de dialogue HTTPS domaine personnalisé](./media/Custom_Domain_HTTPS.png)
+![Boîte de dialogue HTTPS domaine personnalisé.](./media/Custom_Domain_HTTPS.png)
 
 Pour obtenir des instructions détaillées sur l’ajout d’un domaine personnalisé à votre Azure Front Door, voir [Ajouter un domaine personnalisé à votre Front Door](/azure/frontdoor/front-door-custom-domain).
 

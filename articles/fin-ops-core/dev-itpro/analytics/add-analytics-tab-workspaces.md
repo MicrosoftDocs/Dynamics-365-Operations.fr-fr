@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754596"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354443"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
 
@@ -54,11 +54,11 @@ Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visu
 3. Dans la boîte de dialogue **Ajouter le nouvel article**, sous **Artefacts d’opérations**, sélectionnez le modèle **Ressource**.
 4. Entrez un nom qui sera utilisé pour référencer l’état dans des métadonnées X++, puis cliquez sur **Ajouter**.
 
-    ![Ajoutez la boîte de dialogue Nouvel article](media/analytical-workspace-add.png)
+    ![Ajoutez la boîte de dialogue Nouvel article.](media/analytical-workspace-add.png)
 
 5. Cherchez le fichier .pbix contenant la définition de l’état analytique, puis cliquez sur **Ouvrir**.
 
-    ![Sélectionnez une boîte de dialogue Fichier de ressource](media/analytical-workspace-select-resource.png)
+    ![Sélectionnez une boîte de dialogue Fichier de ressource.](media/analytical-workspace-select-resource.png)
 
 Maintenant que vous avez ajouté le fichier .pbix comme ressource Dynamics 365, vous pouvez inclure les états dans des espaces de travail et ajouter des liens directs à l’aide des options de menu.
 
@@ -67,7 +67,7 @@ Dans cet exemple, nous étendrons l’espace de travail **Gestion des réservati
 
 L’illustration suivante indique à quoi ressemble l’écran **FMClerkWorkspace** dans le concepteur de Microsoft Visual Studio.
 
-![Écran FMClerkWorkspace avant les modifications](media/analytical-workspace-definition-before.png)
+![Écran FMClerkWorkspace avant les modifications.](media/analytical-workspace-definition-before.png)
 
 Procédez comme suit pour prolonger la définition d’écran pour l’espace de travail **Gestion des réservations**.
 
@@ -92,7 +92,7 @@ Procédez comme suit pour prolonger la définition d’écran pour l’espace de
 
 L’illustration suivante présente ce à quoi la conception ressemble une fois ces modifications appliquées.
 
-![FMClerkWorkspace après des modifications](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace après des modifications.](media/analytical-workspace-definition-after.png)
 
 Maintenant que vous avez ajouté des contrôles d’écrans qui seront utilisés pour inclure l’état de l’espace de travail, vous devez définir la taille du contrôle parent de sorte qu’il s’adapte à la mise en page. Par défaut, la page **Volet de filtres** et la page **Onglet** sont visibles sur l’état. Toutefois, vous pouvez modifier la visibilité de ces contrôles en fonction du client cible de l’état.
 
@@ -142,7 +142,7 @@ Procédez comme suit pour ajouter une logique métier qui initialise le contrôl
 
 Vous avez terminé la tâche d’ajouter une logique métier pour initialiser le contrôle de la visionneuse de rapports intégrée. L’illustration suivante présente ce à quoi l’espace de travail ressemble une fois ces modifications appliquées.
 
-![État intégré à l’espace de travail](media/analytical-workspace-final.png)
+![État intégré à l’espace de travail.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Vous pouvez accéder à la vue opérationnelle existante à l’aide des onglets de l’espace de travail sous le titre de la page.

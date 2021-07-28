@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdc345ca3bdf227e5543a6f1178e6bbe2a5f7f78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345354"
 ---
 # <a name="maintenance-request-reports"></a>États de demande de maintenance
 
@@ -41,7 +41,7 @@ L’état **Détails de la demande de maintenance** affiche différentes informa
 
 L’illustration suivante présente un exemple de l’état **Détails de la demande de maintenance**.
 
-![État Détails de la demande de maintenance](media/09-manage-maintenance-requests.png)
+![État Détails de la demande de maintenance.](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Créer un état de la liste des demandes de maintenance
 
@@ -54,7 +54,7 @@ L’état **Liste des demandes de maintenance** affiche une liste de toutes les 
 
 L’illustration suivante présente un exemple de l’état **Liste des demandes de maintenance** pour toutes les demandes de maintenance actives.
 
-![États Liste des demandes de maintenance](media/10-manage-maintenance-requests.png)
+![États Liste des demandes de maintenance.](media/10-manage-maintenance-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103166"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359785"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -30,7 +30,7 @@ Pour chaque chargement entrant, votre système doit déjà inclure une commande 
 
 L’illustration suivante présente le flux classique de gestion des chargements entrants avec des quantités de commandes fournisseur à leur arrivée à votre entrepôt.
 
-![Processus de gestion des chargements entrants](media/inbound-process.png "Le processus de gestion du chargement entrant")
+![Processus de gestion des chargements entrants.](media/inbound-process.png "Le processus de gestion du chargement entrant")
 
 1. **Le fournisseur confirme la commande fournisseur.**
 
@@ -293,7 +293,7 @@ Dans cette section, vous allez créer une option de menu d’appareil mobile et 
 
     Vous pouvez laisser tous les autres paramètres à leurs valeurs par défaut.
 
-    ![Paramètres d’option de menu d’appareil mobile](media/inbound-mobile-menu-items.png "Paramètres d’élément de menu d’appareil mobile")
+    ![Paramètres d’option de menu d’appareil mobile.](media/inbound-mobile-menu-items.png "Paramètres d’élément de menu d’appareil mobile")
 
     Pour plus d’informations sur la manière de configurer les options de menu d’appareil mobile, voir [Configurer des appareils mobiles pour le travail en entrepôt](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Dans cette procédure, vous allez créer manuellement une commande fournisseur e
     - Sur le raccourci **Chargement**, le champ **État du chargement** est défini sur _Ouvert_.
     - Dans la section **Lignes de chargement**, il y a une seule ligne où le champ **Quantité** est défini sur _10_ et le champ **Quantité créée par le travail** est défini sur _0_ (zéro).
 
-    ![Détails de la charge](media/inbound-load-details.png "Détails de la charge")
+    ![Détails du chargement.](media/inbound-load-details.png "Détails de la charge")
 
 1. Dans le volet Actions, sous l’onglet **Expédier et recevoir**, sélectionnez **Confirmer \> Expédition entrante**. Notez que l’**État du chargement** est passé sur _Expédié_.
 1. Prenez note de la valeur **ID chargement** afin de pouvoir l’utiliser dans la procédure suivante.

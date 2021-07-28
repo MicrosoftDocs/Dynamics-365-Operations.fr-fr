@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894146"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348138"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Spécifier des emplacements de stockage personnalisé pour les documents générés
 
@@ -41,7 +41,7 @@ Toutes les tâches de cette rubrique peuvent être effectuées dans l’entrepri
 
 Pour générer les documents pour lesquels vous prévoyez d’ajouter un emplacement de stockage personnalisé, [importez](er-download-configurations-global-repo.md) la configuration du format ER **Reprise des immobilisations** dans la topologie actuelle.
 
-![Page du référentiel de configuration](./media/er-custom-storage-generated-files-import-format.png)
+![Page du référentiel de configuration.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Exécuter l’état de récupération d’immobilisation
 
@@ -52,7 +52,7 @@ Pour générer les documents pour lesquels vous prévoyez d’ajouter un emplace
 5. Dans le champ **Mappage de format**, sélectionnez **Reprise des immobilisations**.
 6. Cliquez sur **OK**.
 
-![Boîte de dialogue de runtime pour le rapport de reprise des immobilisations](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Boîte de dialogue de runtime pour l’état de reprise des immobilisations.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Dans Microsoft Excel, examinez le document sortant généré et disponible pour téléchargement. Ce comportement est le [comportement par défaut](electronic-reporting-destinations.md#default-behavior) pour un format ER pour lequel aucune [destination](electronic-reporting-destinations.md) n’est configurée, et qui s’exécute en mode interactif.
 

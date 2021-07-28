@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023226"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358384"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Enregistrez les numéros de certificat de concession TDS
 
@@ -33,7 +33,7 @@ Cette rubrique explique comment enregistrer les numéros de certificat de conces
 2. Dans le champ **Type de taxe**, sélectionnez **TDS** pour enregistrer les certificats de concession pour le type de taxe TDS.
 3. Dans l'onglet **Aperçu**, sélectionnez **Alt + N** pour créer une ligne.
 
-    [![En-tête de la nouvelle ligne](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![En-tête de la nouvelle ligne.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. Dans le champ **Code de retenue à la source**, sélectionnez le code de taxe TDS pour lequel les certificats de concession fournisseur sont émis. Le champ **Nom de code de retenue à la source** affiche le nom du code taxe TDS.
 5. Dans les champs **Date de début** et **Date de fin**, définissez la période de validité du certificat de concession qui utilise le code de taxe TDS pour calculer TDS pour le fournisseur sur une base concessionnelle.
@@ -50,6 +50,6 @@ Cette rubrique explique comment enregistrer les numéros de certificat de conces
 
 11. Dans le champ **Numéro de certificat**, entrez le numéro de certificat de concession.
 
-    [![Raccourci Certificat](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Raccourci Certificat.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Fermez la page.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838743"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361256"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Partager des configurations d’états électroniques (ER) dans Regulatory Configuration Services (RCS)/le référentiel global avec des organisations externes.
 
@@ -47,7 +47,7 @@ Suivez ces étapes pour vérifier que la configuration que vous souhaitez partag
 
 1. Dans l’espace de travail **États électroniques**, sélectionnez **Référentiels** comme fournisseur de configuration.
 
-    ![Fournisseurs de configuration](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Fournisseurs de configuration.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Select **Référentiel global** \> **Ouvrir**.
 3. Recherchez la configuration à partager. Vous pouvez utiliser le champ de filtre pour affiner votre recherche. Si vous ne trouvez pas la configuration dans le référentiel global, suivez les étapes indiquées dans [Créer et télécharger une nouvelle version d’une configuration d’état électronique (ER)](rcs-global-repo-upload.md).
@@ -61,11 +61,11 @@ Une fois qu’une configuration a été créée sous votre fournisseur de config
 3. Sélectionnez la configuration à partager.
 4. Dans le raccourci **Partagé avec**, sélectionnez **Organisation**.
 
-    ![Raccourci Partagé avec](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Raccourci Partagé avec.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Dans la boîte de dialogue, entrez le nom de domaine de l’organisation externe, puis sélectionnez **OK**.
 
-    ![Boîte de dialogue Partager la version de la configuration avec l’organisation externe](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Boîte de dialogue Partager la version de la configuration avec l’organisation externe.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 La configuration est partagée avec l’organisation externe et est disponible pour cette organisation dans le référentiel global. De là, elle peut être importée dans l’instance de RCS de l’organisation ou dans ses instances des applications Finance and Operations.
 

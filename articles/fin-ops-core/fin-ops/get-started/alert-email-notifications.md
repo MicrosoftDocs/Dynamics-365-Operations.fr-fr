@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360256"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notifications d’alerte du client par e-mail
 
@@ -36,7 +36,7 @@ Pour plus d’informations sur la configuration de l’e-mail, consultez la rubr
 
 L’image suivante présente la boîte de dialogue **Créer une règle d’alerte**, qui comprend désormais une option **Envoyer un e-mail**.
 
-[![Créer la boîte de dialogue de règle d’alerte, où l’option Envoyer un e-mail est définie sur Oui](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Créer la boîte de dialogue de règle d’alerte, où l’option Envoyer un e-mail est définie sur Oui.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Lorsque l’option **Envoyer un e-mail** est définie sur **Oui**, les notifications d’alerte continuent d’être fournies depuis le centre d’action.
@@ -47,7 +47,7 @@ Le service envoie des notifications par e-mail à l’aide de modèles d’e-mai
 
 L’image suivante présente la structure des notifications d’alerte lorsqu’elles sont reçues par e-mail.
 
-[![Notifications d’alerte basées sur un modèle pour la création des enregistrements, les modifications de champ et la suppression du modèle](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Notifications d’alerte basées sur un modèle pour la création des enregistrements, les modifications de champ et la suppression du modèle.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

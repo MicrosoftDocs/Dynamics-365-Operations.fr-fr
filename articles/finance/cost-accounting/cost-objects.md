@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20ae6295389fa3cbaa7c90844d2a90f1e38387c4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d91fc52b184fda73fcf36175598aa514945db48
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818775"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355129"
 ---
 # <a name="cost-object-dimensions"></a>Dimensions d’objets de coût
 
@@ -34,7 +34,7 @@ Un objet de coût peut être n’importe quel type d’objet que vous voulez est
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Dimensions d’objet de coût, et membres de la dimension d’objet de coût
 Les objets de coût sont appelés *dimensions d’objet de coût*. Une fois que vous avez décidé à quelle l’entité la dimension d’objets de coût doit faire référence, vous devez spécifier les valeurs de dimension individuelle ou les importer dans le contrôle de gestion depuis d’autres systèmes sources. Ces valeurs de dimension individuelle sont appelées *membres de la dimension d’objet de coût*. Par exemple, vous souhaitez utiliser la dimension financière qui est nommée Centre de coût comme dimension d’objet de coût. Pour voir comment le flux des coûts vers les différents centres de coût, vous devez importer les membres de la dimension d’objet de coût. Dans ce cas, les membres de la dimension d’objet de coût sont les centres de coût réels, tels que les Ventes, la Production, l’Administration, et les Emplacements géographiques. La capture d’écran suivante illustre un exemple de Centres de coûts comme dimension d’objet de coût avec ses centres de coûts réels comme membres de la dimension d’objet de coût. 
 
-[![Capture d’écran présentant les centres de coût comme dimension d’objet de coût](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Capture d’écran présentant les centres de coût comme dimension d’objet de coût.](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Importer les membres de la dimension d’objet de coût à l’aide de connecteurs de données
 Pour faciliter l’importation de membres de dimension d’objet de coût, vous utilisez des connecteurs de données pour récupérer les valeurs des entités à utiliser en tant que dimensions de coût d’objet. Vous pouvez utiliser des connecteurs de données préconçus ou des personnalisés que vous créez.

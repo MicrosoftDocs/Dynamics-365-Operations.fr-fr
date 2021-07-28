@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016130"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354951"
 ---
 # <a name="cost-and-date-control"></a>Contrôle de date et de coût
 
@@ -58,7 +58,7 @@ Les calculs effectués pour les actifs, les postes techniques et les ordres de t
 
     L’illustration suivante présente un exemple de la boîte de dialogue **Contrôle des coûts d’actif**.
 
-    ![Boîte de dialogue Contrôle des coûts des actifs](media/01-controlling-and-reporting.png)
+    ![Boîte de dialogue Contrôle des coûts des actifs.](media/01-controlling-and-reporting.png)
 
 10. Sur la page **Contrôle des coûts d’actif**, cliquez sur le bouton **Grouper par**, cliquez sur les boutons appropriés à afficher le niveau requis de détail du calcul. Les boutons **Grouper par** sélectionnés sont mis en surbrillance. Cliquez sur un bouton pour l’activer ou le désactiver.
 
@@ -71,7 +71,7 @@ La capture d’écran suivante présente un exemple de résultats du calcul dans
 - Le champ **Coûts engagés en cours** indique les engagements à payer des articles, des heures, et des services commandés ou reçus mais pas encore réglés. 
 - Le champ **Coût réel** affiche les coûts associés lorsque tous les enregistrements de consommation ont été validés.
 
-![Exemples de résultats de calcul dans Contrôle des coûts d’actif](media/02-controlling-and-reporting.png)
+![Exemples de résultats de calcul dans Contrôle des coûts d’actif.](media/02-controlling-and-reporting.png)
 
 Une autre manière d’effectuer un calcul du coût est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Cliquez ensuite sur le bouton **Contrôle des coûts** sur l’onglet **Général** . Dans la boîte de dialogue **Contrôle des coûts d’actif**, les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l’organisateur **Enregistrements à inclure**. Cliquez sur **OK** et un calcul des coûts pour les actifs sélectionnés s’affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
@@ -99,7 +99,7 @@ La capture d’écran suivante présente un exemple des résultats des calculs d
 - Le champ **Retard de fin moyen** indique la différence en jours entre la date de fin prévue pour un bon de travail par rapport à la date de fin réelle. Si, par exemple, la date de fin réelle était trois jours après la date de fin prévue, « -3 » s’affichera dans ce champ.  
 - Les champs **Occurrences** indiquent le nombre d’écarts entre les dates de début et de fin prévues et celles de début et de fin réelles sur les ordres de travail.
 
-![Exemples de résultats de calcul dans Contrôle de la date de l’ordre de travail](media/03-controlling-and-reporting.png)
+![Exemples de résultats de calcul dans Contrôle de la date de l’ordre de travail.](media/03-controlling-and-reporting.png)
 
 
 

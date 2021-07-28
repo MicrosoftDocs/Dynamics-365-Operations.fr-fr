@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795379"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357760"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Activer les recommandations « acheter des aspects similaires »
 
@@ -68,7 +68,7 @@ Pour activer la fonctionnalité de recommandations « Acheter des aspects simil
 
 L’illustration suivante montre la fonctionnalité **Acheter des aspects similaires** sur la page **Gestion des fonctionnalités** au siège Commerce.
 
-![La fonctionnalité Acheter des aspects similaires sur la page Gestion des fonctionnalités du siège Commerce](./media/enableshopsimilarlooks.png)
+![La fonctionnalité Acheter des aspects similaires sur la page Gestion des fonctionnalités du siège Commerce.](./media/enableshopsimilarlooks.png)
 
 Une fois les tâches précédentes terminées, les terminaux de PDV sont automatiquement améliorés avec un volet **Acheter des produits similaires**. En sélectionnant **En savoir plus**, les utilisateurs de terminaux de PDV peuvent être redirigés vers une page dédiée à la page « Acheter des aspects similaires » qui peut être filtrée davantage.
 
@@ -88,7 +88,7 @@ Pour ajouter un bouton **Acheter des aspects similaires** à une PDP à l’aide
 
 L’illustration suivante montre la case à cocher **Activer le lien Acheter des aspects similaires** et le bouton **Achetez des aspects similaires** sur un exemple de PDP dans le générateur de site.
 
-![Case à cocher Activer le lien Acheter des aspects similaires et le bouton Achetez des aspects similaires sur une PDP dans le générateur de site](./media/SSLecomtooling.png)
+![Case à cocher Activer le lien Acheter des aspects similaires et le bouton Achetez des aspects similaires sur une PDP dans le générateur de site.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

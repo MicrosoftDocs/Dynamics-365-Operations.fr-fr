@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792605"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349494"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Pour une vue d’ensemble plus approfondie des étapes requises pour activer Azu
 
 L’image suivante présente un exemple de configuration Azure Data Lake Storage.
 
-![Exemple de configuration Azure Data Lake Storage](./media/exampleADLSConfig1.png)
+![Exemple de configuration Azure Data Lake Storage.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Tester la connexion Azure Data Lake Storage
 
@@ -79,7 +79,7 @@ Pour activer l’actualisation automatique pour le magasin d’entités, procéd
 
 L’image suivante montre un exemple de magasin d’entités avec l’actualisation automatique activée.
 
-![Exemple de magasin d’entités avec l’actualisation automatique activée](./media/exampleADLSConfig2.png)
+![Exemple de magasin d’entités avec l’actualisation automatique activée.](./media/exampleADLSConfig2.png)
 
 Azure Data Lake Storage est maintenant configuré pour l’environnement. 
 

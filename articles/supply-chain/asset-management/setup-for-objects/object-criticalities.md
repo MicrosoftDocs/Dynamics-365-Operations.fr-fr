@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808350"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351487"
 ---
 # <a name="asset-criticality-types"></a>Types d’élément critique de l’actif
 
@@ -40,7 +40,7 @@ Pour paramétrer l’élément critique, commencez par créer les types d’él�
 4. Dans le champ **Nom**, entrez un nom pour le type d’élément critique.
 5. Dans le champ **Facteur**, entrez un facteur. Ce facteur est utilisé lors du calcul de la planification des ordres de travail pour déterminer l’enregistrement d’élément critique qui doit être utilisé. (L’enregistrement avec le facteur le plus élevé est toujours utilisé). Ce paramètre est utile si, comme indiqué dans l’illustration suivante, les lignes d’élément critique sont créées avec la même valeur d’élément critique.
 
-    ![Page des types d’éléments critiques](media/23-setup-for-objects.png)
+    ![Page des types d’éléments critiques.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Paramétrer les éléments critiques de l’actif
 

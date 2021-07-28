@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344218"
 ---
 # <a name="vendor-rebates"></a>Remises fournisseur
 
@@ -53,7 +53,7 @@ Un accord de remise fournisseur est un enregistrement d’un contrat avec un fou
 
 Pour ouvrir la page **Accords de remise fournisseur**, sélectionnez **Approvisionnements** &gt; **Remises fournisseur** &gt; **Accords de remise**.
 
-![Contrat d’achat](media/purchase-agreement.PNG)
+![Contrat d’achat.](media/purchase-agreement.PNG)
 
 Sur la page **Accords de remise fournisseur**, vous pouvez afficher les détails des conditions négociées d’un accord fournisseur.
 
@@ -129,7 +129,7 @@ Lorsque des réclamations ont été approuvées, elles peuvent être traitées p
 
     Un journal de régularisation des remises est validé pour le montant de réclamation. Cette validation débite le compte devant recevoir les remises fournisseur provisionnées pour le crédit fournisseur prévu et crédite le compte devant recevoir les remises fournisseur provisionnées provisoires pour le gain attendu.
 
-    ![Message](media/message.png)
+    ![Message.](media/message.png)
 
 5. Dans la liste des remises, sélectionnez la ligne, puis dans le volet Actions, sélectionnez **Transactions de remise** pour voir et accéder au numéro de lot de journal correspondant à cette validation de régularisation des remises.
 

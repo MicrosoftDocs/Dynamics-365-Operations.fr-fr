@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910207"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358024"
 ---
 # <a name="small-parcel-shipping"></a>Expédition de petits colis
 
@@ -274,7 +274,7 @@ Procédez comme suit pour emballer l’expédition.
 
     L’étiquette d’expédition doit maintenant être imprimée sur l’imprimante ZPL que vous avez sélectionnée précédemment. Elle doit ressembler à l’exemple ci-dessous.
 
-    ![Exemple d’étiquette d’expédition](media/sps-label-example.png "Exemple d’étiquette d’expédition")
+    ![Exemple d’étiquette d’expédition.](media/sps-label-example.png "Exemple d’étiquette d’expédition")
 
 1. Notez que les valeurs **ID manifeste du conteneur** et **Transport total** ont été ajoutées telles qu’elles ont été reçues du transporteur.
 

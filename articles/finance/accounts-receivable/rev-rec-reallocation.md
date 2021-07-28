@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356123"
 ---
 # <a name="revenue-recognition-reallocation"></a>Réaffectation de la prise en compte de revenu
 
@@ -48,7 +48,7 @@ Un paramètre affecte le processus de réaffectation.
 
 Chaque organisation doit décider si la correction doit mettre à jour uniquement la Comptabilité ou si elle doit également mettre à jour la Comptabilité client. La décision détermine le paramètre approprié de l’option **Valider les corrections des factures dans la comptabilité client lors de la réaffectation** de l’onglet **Prise en compte de revenu** de la page **Paramètres de comptabilité** (**Prise en compte de revenu \> Paramétrage \> Paramètres de Comptabilité**). Le paramètre approprié dépend du scénario spécifique. Pour plus d’informations sur les scénarios possibles, consultez les liens de la section [Scénarios de réaffectation](#scenarios-for-reallocation) plus loin dans cette rubrique.
 
-[![Onglet Prise en compte de revenu sur la page Paramètres de Comptabilité](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Onglet Prise en compte de revenu sur la page Paramètres de Comptabilité.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Si l’option **Valider les corrections des factures dans la Comptabilité client** est définie sur **Oui**, le processus de réaffectation produit le résultat suivant :
 
@@ -76,7 +76,7 @@ Comme cela a été mentionné, vous ne pouvez mettre à jour que Comptabilité o
 
 Pour démarrer le processus de réaffectation, sélectionnez **Redistribuer le prix avec les nouvelles lignes de commande** dans une commande client que vous devez réaffecter. Sinon, allez dans **Prise en compte de revenu \> Tâches périodiques \> Redistribuer le prix avec les nouvelles lignes de commande**, puis entrez les filtres appropriés, tels que le compte client.
 
-[![Page Redistribuer le prix avec les nouvelles lignes de commande](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Page Redistribuer le prix avec les nouvelles lignes de commande.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 La grille supérieure de la page **Redistribuer le prix avec les nouvelles lignes de commande** s’intitule **Ventes**. Elle répertorie les commandes du client. Sélectionnez les commandes client qui doivent être réaffectées. Vous ne pouvez pas sélectionner des commandes client de projet, car elles ne peuvent pas être réaffectées. Vous ne pouvez pas non plus sélectionner de commandes client qui ont déjà un ID de réaffectation, car les commandes client hors projet ne peuvent être réaffectées qu’une seule fois. Si une commande client a un ID de réaffectation, elle a déjà été marquée pour une réaffectation par un autre utilisateur.
 
@@ -86,11 +86,11 @@ Après avoir sélectionné les lignes de commande client requises, utilisez les 
 
 - **Mettre à jour la réaffectation** : Calculez les nouveaux montants de prix de revenu pour les lignes de commande client sélectionnées. Si une ligne a été supprimée ou annulée, la réaffectation sera effectuée uniquement pour les lignes existantes que vous avez sélectionnées. L’illustration suivante montre un exemple de lignes de commande client avant la mise à jour de la réaffectation.
 
-    [![Lignes de commande client avant la mise à jour de la réaffectation](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Lignes de commande client avant la mise à jour de la réaffectation.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Les nouveaux montants de prix de revenu sont indiqués dans la colonne **Montant réaffecté** dans la grille **Lignes**. À ce stade, la réaffectation a été traitée, mais elle n’a pas encore été calculée. L’illustration suivante montre un exemple de lignes de commande client après la mise à jour de la réaffectation.
 
-    [![Lignes de commande client après la mise à jour de la réaffectation](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Lignes de commande client après la mise à jour de la réaffectation.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Processus** : Traiter ou afficher les prix des revenus réaffectés. Une fois que vous avez cliqué sur ce bouton, il n’y a aucun moyen d’annuler la réaffectation. Si vous n’avez pas sélectionné **Mettre à jour la réaffectation** avant de sélectionner **Processus**, la réaffectation est exécutée automatiquement.
 
@@ -100,7 +100,7 @@ Après avoir sélectionné les lignes de commande client requises, utilisez les 
 - **Justificatif attendu** : Affichez un aperçu des écritures comptables qui ont été créées pour toutes les lignes de commande client qui ont été facturées. Si aucune ligne n’a été facturée, rien n’est affiché. Si vous n’avez pas sélectionné **Mettre à jour la réaffectation** avant de sélectionner **Justificatif attendu**, la réaffectation est exécutée automatiquement.
 - **Réaffectation des revenus** : Ouvrez une page qui affiche la répartition du prix des revenus pour toutes les lignes sélectionnées. Vous ne pouvez modifier aucune des informations de la page. Elle indique les montants de ligne qui ont été utilisés pour effectuer la réaffectation.
 
-    [![Montants de ligne qui ont été utilisés pour la réaffectation](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Montants de ligne qui ont été utilisés pour la réaffectation.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Réinitialiser les données pour le client sélectionné** : Si le processus de réaffectation a été lancé mais ne s’est pas terminé, effacez les données du tableau de réaffectation pour le client sélectionné uniquement. Par exemple, si vous marquez plusieurs lignes de commande client pour réaffectation et que vous laissez la page ouverte sans sélectionner **Processus**, la page se ferme. Dans ce cas, les lignes de commande client resteront marquées et ne seront pas disponibles pour qu’un autre utilisateur puisse terminer le processus de réaffectation. La page peut même être vide lorsqu’elle est ouverte. Dans cette situation, le bouton **Réinitialiser les données pour le client sélectionné** peut être utilisé pour effacer les commandes client non traitées afin qu’un autre utilisateur puisse terminer le processus de réaffectation.
 
