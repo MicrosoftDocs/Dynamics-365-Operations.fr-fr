@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753598"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348042"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Supprimer les contrôles de contenu Word dans les rapports générés
 
@@ -63,7 +63,7 @@ Vous devez également télécharger et enregistrer le modèle suivant pour l’e
     > [!NOTE]
     > Le contrôle de contenu répétitif est balisé par la clé **SummaryLines** qui correspond au champ de la partie XML personnalisée à laquelle elle a été mappée.
 
-    ![Disposition du modèle Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Disposition du modèle Word.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Sélectionnez la configuration d’états électroniques existante
 
@@ -98,7 +98,7 @@ Actuellement, le fichier SampleVendPaymDocReportBounded.docx est utilisé comme 
 7. Cliquez sur **OK**.
 8. Dans la boîte de dialogue **Paramètres de génération d’états électroniques**, sélectionnez **OK** et analysez la sortie générée.
 
-    ![Paiements pour traitement sur la page Paiements fournisseur](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Paiements pour traitement sur la page Paiements fournisseur.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     La sortie est présentée au format Word et contient la section récapitulative.
 
@@ -149,7 +149,7 @@ Si vous souhaitez supprimer la section récapitulative dans un document génér�
 
 9. Sélectionnez **Enregistrer** pour enregistrer les modifications dans le format modifiable.
 
-    ![Sortie générée au format Word](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Sortie générée au format Word.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Exécuter le format modifié pour créer une sortie Word
 
@@ -163,7 +163,7 @@ Si vous souhaitez supprimer la section récapitulative dans un document génér�
 8. Dans la boîte de dialogue **Paramètres de génération d’états électroniques**, dans le champ **Supprimer la section récapitulative**, sélectionnez **Oui**.
 9. Sélectionnez **OK** et analysez la sortie générée.
 
-    ![Sortie générée au format Word](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Sortie générée au format Word.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Notez que la sortie ne contient pas la section récapitulative, car elle a été supprimée.
 

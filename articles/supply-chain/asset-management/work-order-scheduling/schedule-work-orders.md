@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347114"
 ---
 # <a name="schedule-work-orders"></a>Planifier des ordres de travail
 
@@ -56,7 +56,7 @@ Seuls les ordres de travail avec un état du cycle de vie de l’ordre de travai
 
 *Exemple :* Dans la figure ci-dessous, la formule insérée dans le champ **Début prévu** génère la planification des ordres de travail pour tous les ordres de travail avec la date de début prévue à compter d’une semaine à partir de maintenant et ultérieurement. Cette formule peut s’avérer utile lorsque vous exécutez la planification des ordres de travail sur une base actuelle, mais que vous souhaitez vous assurer que les ordres de travail pour les 5-6 prochains jours ne sont pas replanifiés.
 
-![Figure 1](media/03-work-order-scheduling.png)
+![Figure 1.](media/03-work-order-scheduling.png)
 
 Le type d’ordre de travail associé aux ordres de travail peut configurer la planification pour un agent de maintenance (bouton à bascule **Gestion des actifs** > **Paramétrage** > **Ordres de travail** > **Types d’ordre de travail** > **Un agent de maintenance** défini sur « Oui »). Cela signifie que si le type d’ordre de travail est utilisé sur un ordre de travail, le bouton à bascule **Un agent de maintenance** est automatiquement défini sur « Oui » sur la page des détails **Tous les ordres de travail** > vue **En-tête** > organisateur **Planifier**. Lors de la planification des ordres de travail, toutes les tâches des ordres de travail créées sur l’ordre de travail sont ensuite planifiées au même agent de maintenance. Le cas échéant, vous pouvez modifier la sélection sur le bouton à bascule **Un agent de maintenance** dans **Tous les ordres de travail** pour autoriser la planification de plusieurs agents ou un agent sur les tâches de l’ordre de travail.
 

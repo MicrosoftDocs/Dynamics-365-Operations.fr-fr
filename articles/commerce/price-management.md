@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794161"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352226"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -46,7 +46,7 @@ En soi, un groupe de prix est simplement un nom, une description et, éventuelle
 
 L’illustration ci-dessous indique comment les groupes de prix sont utilisés. Dans cette illustration, notez que « Groupe de prix » est littéralement au centre de la gestion des prix et des remises. Les entités commerciales que vous pouvez utiliser pour gérer les prix et les remises différentiels sont à gauche, et les enregistrements de prix et de remises réels sont à droite.
 
-![Groupes de prix](./media/PriceGroups.png "Groupes de prix")
+![Groupes de prix.](./media/PriceGroups.png "Groupes de prix")
 
 Lorsque vous créez des groupes de prix, vous ne devez pas utiliser un groupe de prix unique pour plusieurs types d’entités commerciales. Sinon, il peut être difficile de déterminer la raison pour laquelle un prix ou une remise spécifique est appliqué à une transaction.
 

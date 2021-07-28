@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022809"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349871"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Déclaration de retenue à la source pour l’Égypte (EG-00005)
 
@@ -103,7 +103,7 @@ Pour générer les états du formulaire de déclaration de WHT dans Microsoft Ex
 2. Sur l’onglet **Retenue à la source**, dans le champ **Mise en correspondance des formats de déclaration de WHT**, sélectionnez **Déclaration de WHT Excel (EG)**. Si vous laissez le champ vide, l’état de taxe standard sera généré au format SSRS.
 
 
-![Formulaire de déclaration](media/egypt-wht-declaration-setup1.png)
+![Formulaire de déclaration.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>Générer les formulaires de déclaration de retenue
 Le processus de préparation et d’envoi d’un formulaire de déclaration de retenue pour une période spécifique est basé sur les transactions de retenue à la source validées pendant la tâche de règlement et de validation de la taxe. Pour plus d’informations sur la retenue à la source globale, voir [Retenue à la source globale](../general-ledger/global-withholding-tax-overview.md).

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 3340ea07414eb92997ab4a9d6fa46cd075f8f9db
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ea0f60424ff1ee40a4231aa9cc129bb942fca519
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021005"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353562"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuration des paramètres de coût au débarquement
 
@@ -31,7 +31,7 @@ La page **paramètres de coût au débarquement** vous permet de configurer les 
 
 Pour travailler avec les paramètres, accédez à **Prix au débarquement \> Configurer \> Paramètres de coût au débarquement**, puis définissez les champs comme décrit dans les sous-sections suivantes.
 
-![Page Paramètres de coût au débarquement](media/landed-cost-parameters.png "Page Paramètres de coût au débarquement")
+![Page Paramètres de coût au débarquement.](media/landed-cost-parameters.png "Page Paramètres de coût au débarquement")
 
 ## <a name="general-tab"></a>Onglet Général
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021269"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345522"
 ---
 # <a name="archive-inventory-transactions"></a>Archiver les mouvements de stock
 
@@ -64,7 +64,7 @@ Pour archiver les transactions de stock, procédez comme suit.
 
     La page **Archive des transactions d’inventaire** apparaît et affiche une liste des enregistrements de processus archivés.
 
-    ![Page Archive des transactions de stock](media/archive-inventory-empty.png "Page Archive des transactions de stock")
+    ![Page Archive des transactions de stock.](media/archive-inventory-empty.png "Page Archive des transactions de stock")
 
 1. Dans le volet Actions, sélectionnez **Archive des transactions d’inventaire** pour créer une archive de transactions d’inventaire.
 1. Dans la boîte de dialogue **Archive des transactions d’inventaire**, sur le raccourci **Paramètres**, définissez les champs suivants :
@@ -72,7 +72,7 @@ Pour archiver les transactions de stock, procédez comme suit.
     - **De la date dans la période comptable fermée** – Sélectionnez la date de transaction la plus récente à inclure dans l’archive.
     - **À la date dans la période comptable fermée** – Sélectionnez la date de transaction la plus ancienne à inclure dans l’archive.
 
-    ![Boîte de dialogue Archive des transactions de stock](media/archive-inventory-dates.png "Boîte de dialogue Archive des transactions de stock")
+    ![Boîte de dialogue Archive des transactions de stock.](media/archive-inventory-dates.png "Boîte de dialogue Archive des transactions de stock")
 
     > [!NOTE]
     > Seules les périodes qui respectent les [conditions préalables](#prerequisites) sera disponible pour la sélection.
@@ -87,7 +87,7 @@ Pour archiver les transactions de stock, procédez comme suit.
 
 La page **Archive des transactions d’inventaire** affiche votre historique d’archivage complet. Chaque ligne de la grille affiche des informations telles que la date de création de l’archive, l’utilisateur qui l’a créée et son statut.
 
-![Page Historique de l’archivage des transactions d’inventaire](media/archive-inventory-full.png "Page Historique de l’archivage des transactions d’inventaire")
+![Page Historique de l’archivage des transactions d’inventaire.](media/archive-inventory-full.png "Page Historique de l’archivage des transactions d’inventaire")
 
 Dans la liste déroulante en haut de la page, sélectionnez l’une des valeurs suivantes pour filtrer les archives affichées dans la grille :
 
@@ -109,7 +109,7 @@ La barre d’outils au-dessus de la grille fournit les boutons suivants que vous
 
 - **Transactions archivées** – Afficher les détails complets de l’archive sélectionnée. La page **Transactions archivées** qui apparaît montre toutes les transactions dans l’archive.
 
-    ![Page des transactions archivées](media/archive-inventory-transactions.png "Page des transactions archivées")
+    ![Page des transactions archivées.](media/archive-inventory-transactions.png "Page des transactions archivées")
 
     Pour afficher plus d’informations sur une transaction spécifique sur la page **Transactions archivées**, sélectionnez-le dans la grille, puis, dans le volet Actions, sélectionnez **Détails de la transaction archivée**. La page **Détails de la transaction archivés** qui apparaît affiche des informations telles que l’écriture comptable, les références de comptabilité auxiliaire associées et les dimensions financières.
 

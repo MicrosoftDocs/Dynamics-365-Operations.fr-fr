@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791163"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355449"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Créer et mettre à jour des plages horaires pour le ramassage des clients
 
@@ -34,7 +34,7 @@ La fonction de créneau horaire permet aux détaillants de définir un créneau 
 
 L’illustration suivante montre un exemple de sélection de créneau horaire lors du paiement en ligne.
 
-![Exemple de sélection de créneau horaire lors du paiement en ligne de la commande](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Exemple de sélection de créneau horaire lors du paiement en ligne de la commande.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Propriétés du créneau horaire
 
@@ -60,7 +60,7 @@ Un créneau horaire est défini à l’aide des propriétés suivantes :
 - **Jours actifs** – Spécifiez les jours de la semaine où les plages horaires de retrait sont actives. Cette propriété permet au détaillant de définir les jours où il souhaite prendre en charge les ordres de retrait.
 - **Canaux de vente au détail** – Spécifiez les canaux de vente au détail. Chaque tranche horaire peut être associée à un ou plusieurs magasins de détail. En fonction des heures d’ouverture de chaque magasin, une ou plusieurs entrées de créneau horaire peuvent être créées et associées à un canal. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Un seul modèle de créneau horaire peut être configuré par canal. Ces canaux incluent des magasins physiques, des centres d’appel, des appareils mobiles et des sites de commerce en ligne.
 
@@ -85,14 +85,14 @@ Pour configurer la fonctionnalité de créneau horaire au siège de Commerce, pr
     > [!NOTE]
     > Vous pouvez créer plusieurs modèles, mais un seul modèle peut être associé à un seul canal ou magasin.
 
-    ![Boîte de dialogue Retrait des commandes – Paramètres de l’heure](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Boîte de dialogue Retrait des commandes – Paramètres de l’heure.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Lorsque vous avez terminé, sélectionnez **OK**.
 1. Si les plages horaires d’une journée varient, créez des entrées supplémentaires sur le raccourci **Retrait des commandes – Paramètres de l’heure** pour vous assurer que les dates et heures ne se chevauchent pas.
 1. Sur le raccourci **Canaux de vente au détail**, sélectionnez **Ajouter** pour associer le modèle de créneau horaire aux magasins ou chaînes où il sera utilisé.
 1. Dans la boîte de dialogue **Choisir des nœuds d’organisation**, utilisez les boutons de flèches pour sélectionner (ou désélectionner) les magasins, les régions et les organisations auxquels le modèle doit être associé.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Lorsque vous avez terminé, sélectionnez **OK**.
 1. Sur la page **Programme de distribution**, exécutez les tâches **1070** et **1135** pour synchroniser les données avec les canaux.
@@ -103,7 +103,7 @@ Au PDV, lorsqu’une commande ou une ligne de commande est identifiée pour le r
 
 L’illustration suivante montre un exemple de sélection de créneau horaire pour une commande au PDV.
 
-![Un exemple de sélection de créneau horaire pour une commande au PDV](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Un exemple de sélection de créneau horaire pour une commande au PDV.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Sélection des plages horaires pour les commandes d’e-commerce
 
@@ -114,17 +114,17 @@ Pour plus d’informations sur la façon de rendre la sélection de créneau hor
 
 L’illustration suivante montre un exemple de commande e-commerce où un créneau horaire de retrait a été sélectionné.
 
-![Exemple de commande e-commerce où un créneau horaire de retrait a été sélectionné](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Exemple de commande e-commerce où un créneau horaire de retrait a été sélectionné.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Sélection des plages horaires pour les commandes de centre d’appels
 
 Dans l’application du centre d’appels, les agents peuvent sélectionner le magasin ou le lieu de retrait, ainsi qu’une date et un créneau horaire, comme indiqué dans l’illustration suivante.
 
-![Exemple de commande de centre d’appels où un créneau horaire de retrait a été sélectionné](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Exemple de commande de centre d’appels où un créneau horaire de retrait a été sélectionné.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Module d’information sur le retrait](../pickup-info-module.md)
+[Module Information sur les prélèvements](../pickup-info-module.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

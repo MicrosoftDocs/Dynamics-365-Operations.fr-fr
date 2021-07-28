@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085498"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351150"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -62,7 +62,7 @@ Si vous définissez l’option **Traitement par lots** sur **Oui**, un format ER
 > [!NOTE]
 > La description de travail vous informe de l’exécution d’une mise en correspondance des formats de gestion des états électroniques. Il contient également le nom du composant de gestion des états électroniques exécuté.
 
-[![Exécution d’un format ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![Exécution d’un format ER.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Vous pouvez trouver des informations sur cette tâche à plusieurs endroits :
 
@@ -74,17 +74,17 @@ Vous pouvez trouver des informations sur cette tâche à plusieurs endroits :
 
 - Dans la page **Tâches d’états électroniques**, sélectionnez **Afficher les fichiers** pour afficher la liste des erreurs et avertissements générés lors de l’exécution des tâches.
 
-    [![Révision de la liste des tâches ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![Révision de la liste des tâches ER.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Comportement configuré par l’utilisateur
 
 Sur la page **Destination de la gestion des états électroniques**, vous pouvez remplacer le comportement par défaut d’une configuration. Les configurations importées ne sont pas affichées sur cette page jusqu’à ce que vous sélectionniez **Nouveau** puis, dans le champ **Référence**, une configuration pour créer des paramètres de destination.
 
-[![Sélection d’une configuration dans le champ Référence](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Sélection d’une configuration dans le champ Référence.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Après avoir créé une référence, vous pouvez créer une destination de fichier pour chaque composant de sortie de **Dossier** ou de **Fichier** du format ER référencé.
 
-[![Création d’une destination de fichier](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Création d’une destination de fichier.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Ensuite, dans la boîte de dialogue **Paramètres de destination**, vous pouvez activer et désactiver des destinations individuelles pour la destination de fichier. Le bouton **Paramètres** est utilisé pour contrôler l’ensemble des destinations pour une destination de fichier sélectionnée. Dans la boîte de dialogue **Paramètres de destination**, vous pouvez contrôler séparément chaque destination en définissant l’option **Activé** pour celle-ci.
 
@@ -92,7 +92,7 @@ Dans certaines versions de Finance **avant la version 10.0.9**, vous pouvez cré
 
 Par exemple, vous pouvez utiliser cette fonctionnalité pour configurer des destinations de fichier pour un composant de fichier utilisé pour générer un document sortant au format Excel. Une destination ([Archiver](er-destination-type-archive.md)) peut être configurée pour stocker le fichier Excel d’origine dans l’archive des tâches ER et une autre destination ([Email](er-destination-type-email.md)) peut être configurée pour [convertir](#OutputConversionToPDF) le fichier Excel au format PDF et envoyer le fichier PDF par e-mail.
 
-[![Configuration de plusieurs destinations pour un seul élément de format](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Configuration de plusieurs destinations pour un seul élément de format.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Lorsque vous exécutez un format de gestion des états électroniques, toutes les destinations qui ont été configurées pour les composants du format sont toujours exécutées. De plus, dans Finance **version 10.0.17 et ultérieure**, la fonctionnalité des destinations de gestion des états électroniques a été améliorée et vous permet désormais de configurer différents ensembles de destinations pour un seul format de gestion des états électroniques. Cette configuration marque chaque ensemble comme configuré pour une action utilisateur particulière. L’API de gestion des états électroniques a été [étendue](er-apis-app10-0-17.md) afin qu’une action puisse être exécutée par l’utilisateur en exécutant un format de gestion des états électroniques. Le code d’action fourni est transmis aux destinations pour la gestion des états électroniques. Vous pouvez exécuter différentes destinations d’un format de gestion des états électroniques, en fonction du code d’action fourni. Pour plus d’informations, consultez [Configurer les destinations de gestion des états électroniques dépendant de l’action](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Vous pouvez paramétrer des destinations uniquement pour les configurations d’
 
 Lorsque vous configurez des destinations de fichiers pour un format sélectionné, vous les configurez pour l’ensemble du format.
 
-[![Lien Configuration](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Lien Configuration.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 En même temps, vous pouvez avoir plusieurs [versions](general-electronic-reporting.md#component-versioning) du format importé dans l’instance Finance actuelle. Vous pouvez les afficher si vous sélectionnez le lien **Configuration** proposé lorsque vous sélectionnez le champ **Référence**.
 
-[![Versions de configuration](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Versions de configuration.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Par défaut, les destinations configurées sont appliquées uniquement lorsque vous exécutez une version au format ER dont l’état est soit **Terminé**, soit **Partagé**. Cependant, vous devez parfois utiliser des destinations configurées lorsque la version préliminaire d’un format ER est exécutée. Par exemple, vous modifiez une version provisoire de votre format et vous souhaitez utiliser des destinations configurées pour tester la manière dont la sortie générée sera livrée. Suivez ces étapes pour appliquer des destinations pour un format ER lorsque la version préliminaire est exécutée.
 
@@ -128,7 +128,7 @@ Par défaut, les destinations configurées sont appliquées uniquement lorsque v
 2. Dans la page **Configurations**, dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
 3. Paramétrez l’option **Utiliser des destinations pour le statut de brouillon** sur **Oui**.
 
-[![Option Utiliser des destinations pour le statut de brouillon](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Option Utiliser des destinations pour le statut de brouillon.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Pour utiliser la version de brouillon d’un format ER, vous devez marquer le format ER en conséquence.
 
@@ -136,11 +136,11 @@ Pour utiliser la version de brouillon d’un format ER, vous devez marquer le fo
 2. Dans la page **Configurations**, dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
 3. Définissez l’option **Exécuter la configuration** sur **Oui**.
 
-[![Option Exécuter la configuration](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Option Exécuter la configuration.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Une fois cette configuration terminée, l’option **Exécuter le brouillon** devient disponible pour les formats ER que vous modifiez. Définissez cette option sur **Oui** pour commencer à utiliser la version de brouillon du format lorsque le format est exécuté.
 
-[![Option Exécuter le brouillon](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Option Exécuter le brouillon.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Gestion des échecs de destination
 
@@ -148,7 +148,7 @@ Habituellement, un format ER est exécuté dans le cadre d’un processus métie
 
 Par exemple, vous configurez le traitement des paiements fournisseur afin que le format ER **Transfert de crédit ISO20022** soit exécuté pour générer le fichier de paiement et les documents supplémentaires (par exemple, la lettre explicative et l’état de contrôle). Si un paiement doit être considéré comme ayant été traité avec succès uniquement si la lettre explicative est envoyée avec succès par e-mail, vous devez cocher la case **Arrêter le traitement en cas d’échec** pour le composant **CoveringLetter** dans la destination de fichier appropriée, comme indiqué dans l’illustration suivante. Dans ce cas, le statut du paiement sélectionné pour le traitement passe de **Aucun** à **Expédié** uniquement lorsque la lettre explicative générée est acceptée pour livraison par un fournisseur de messagerie configuré dans l’instance Finance.
 
-[![Configuration de la gestion des processus pour l’échec de destination du fichier](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Configuration de la gestion des processus pour l’échec de destination du fichier.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Si vous décochez la case **Arrêter le traitement en cas d’échec** pour le composant **CoveringLetter** dans la destination, un paiement sera considéré comme ayant été traité avec succès même si la lettre explicative n’est pas livrée avec succès par e-mail,. Le statut du paiement sera modifié de **Aucun** à **Expédié** même si la lettre explicative ne peut pas être envoyée car, par exemple, l’adresse e-mail du destinataire ou de l’expéditeur est manquante ou incorrecte.
 
@@ -160,9 +160,9 @@ Vous pouvez utiliser l’option de conversion PDF pour convertir la sortie au fo
 
 Pour rendre l’option de conversion PDF disponible dans l’instance Finance actuelle, ouvrez l’espace de travail **Gestion des fonctionnalités** et activez la fonctionnalité **Convertir les documents sortants de rapports électroniques à partir de formats Microsoft Office au format PDF**.
 
-[![Activation de la fonctionnalité de conversion PDF des documents sortants dans Gestion des fonctionnalités](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Activation de la fonctionnalité de conversion PDF des documents sortants dans Gestion des fonctionnalités.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
-### <a name="applicability"></a>Conditions d’application
+### <a name="applicability"></a>Conditions d'application
 
 L’option de conversion PDF ne peut être activée que pour les composants de fichier utilisés pour générer une sortie au format Office (Excel ou Word) (**fichier Excel**). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF. Dans les versions de Finance **antérieures à la version 10.0.18**, vous ne pouvez activer cette option que pour les composants du type **Excel\\File** utilisés pour générer une sortie au format [Excel](er-fillable-excel.md) ou [Word](er-design-configuration-word.md). Cependant, dans **la version 10.0.18 et les versions ultérieures**, vous pouvez également activer cette option pour les composants du type **Common\\File**.
 
@@ -185,13 +185,13 @@ Seules les polices système courantes du système d’exploitation Windows sont 
 
 Pour activer la conversion PDF pour une destination de fichier, cochez la case **Convertir en PDF**.
 
-[![Activation de la conversion PDF pour une destination de fichier](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Activation de la conversion PDF pour une destination de fichier.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Sélectionner une orientation de page pour la conversion PDF</a>
 
 Si vous générez une configuration des états électroniques au format Excel et si vous souhaitez la convertir au format PDF, vous pouvez spécifier l’orientation de page du document PDF. Lorsque vous cochez la case **Convertir en PDF** pour activer la conversion PDF pour une destination de fichier qui produit un fichier de sortie au format Excel, le champ **Orientation de la page** devient disponible sur le raccourci **Paramètres de conversion PDF**. Dans le champ **Orientation de la page**, sélectionnez l’orientation préférée.
 
-[![Sélection d’une orientation de page pour la conversion PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![Sélection d’une orientation de page pour la conversion PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Pour avoir la possibilité de sélectionner l’orientation de la page PDF, vous devez installer Finance version 10.0.10 ou ultérieure.
@@ -222,7 +222,7 @@ Dans le raccourci **Général**, dans le champ **Envoyer le dossier en tant que*
     > [!NOTE]
     > Lorsque vous sélectionnez **Fichiers distincts**, la sortie générée est collectée en mémoire dans un état compressé. Par conséquent, la [limite de taille de fichier](er-compress-outbound-files.md) maximale est appliquée pour la sortie compressée lorsque la taille réelle du fichier peut dépasser cette limite. Nous vous recommandons de sélectionner cette valeur lorsque vous prévoyez que la taille de la sortie générée est relativement importante.
 
-[![Configuration d’une destination pour un composant de format Dossier](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Configuration d’une destination pour un composant de format Dossier.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Limitations
 

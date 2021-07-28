@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103044"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343772"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Stratégie flexible de réservation de dimension au niveau de l’entrepôt
 
@@ -58,7 +58,7 @@ Si la hiérarchie de réservation *Batch-below\[location\]* sert bien les object
 
 Pour permettre la flexibilité souhaitée dans le comportement de réservation de lots pour les articles associés à une hiérarchie de réservation de stock *Batch-below\[location\]*, les gestionnaires de stock doivent sélectionner la case à cocher **Autoriser la réservation à la commande** pour le niveau **Numéro du lot** sur la page **Hiérarchies de réservation du stock**.
 
-![Rendre flexible la hiérarchie de réservation du stock](media/Flexible-inventory-reservation-hierarchy.png)
+![Rendre flexible la hiérarchie de réservation du stock.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Quand le niveau **Numéro du lot** dans la hiérarchie est sélectionné, toutes les dimensions au-dessus de ce niveau et jusqu’à l’**Emplacement** seront automatiquement sélectionnées. (Par défaut, toutes les dimensions au-dessus de l’**Emplacement** sont présélectionnés.) Ce comportement reflète la logique selon laquelle toutes les dimensions dans la plage entre le numéro de lot et l’emplacement sont également automatiquement réservées après avoir réservé un numéro de lot spécifique sur la ligne de commande.
 
@@ -145,7 +145,7 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
 
 6. Sur la page **Réservation de lot**, sélectionnez la ligne pour le lot **B11**, puis sélectionnez **Réserver une ligne**. Il n’y a pas de logique désignée pour attribuer des emplacements et des contenants lors de la réservation automatique. Vous pouvez saisir manuellement la quantité dans le champ **Réservation**. Notez que, sur l’organisateur **Numéros de lot validés sur la ligne source**, le lot **B11** est affiché comme **Validé**.
 
-    ![Validation d’un numéro de lot spécifique sur une ligne de commande client sur la page de réservation de lot](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Validation d’un numéro de lot spécifique sur une ligne de commande client sur la page de réservation de lot.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > La réservation de la quantité sur une ligne de commande client peut être effectuée sur plusieurs lots. De même, la réservation du même lot peut être effectuée sur plusieurs emplacements et contenants (si les contenants sont activés pour les emplacements).
@@ -154,7 +154,7 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
 
 7. Allez à **Gestion des informations sur les produits** \> **Produits** \> **Produits lancés**. Sélectionnez votre article, puis sélectionnez **Gérer le stock**\>**Vue** \>**Transactions**.
 
-    ![Réservation validée en tant que type de transaction de stock](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Réservation validée en tant que type de transaction de stock.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Vérifiez les transactions de stock de l’article qui sont liées à la réservation de la ligne de commande client.
 
@@ -172,7 +172,7 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
     - Pour créer un travail, le système utilise des modèles de travail mais pas des directives d’emplacement. Tous les paramètres standard définis pour les modèles de travail, tels que le nombre maximal de lignes de sélection ou une unité de mesure spécifique, seront appliqués pour déterminer le moment où un nouveau travail doit être créé. Cependant, les règles associées aux directives d’emplacement pour identifier les emplacements de prélèvement ne sont pas prises en compte, car la réservation validée par la commande spécifie déjà toutes les dimensions du stock. Ces dimensions de stock incluent les dimensions au niveau du stockage en entrepôt. Par conséquent, le travail hérite de ces dimensions sans avoir à consulter les directives d’emplacement.
     - Le numéro de lot n’apparaît pas sur la ligne de prélèvement (comme c’est le cas pour la ligne de travail créée pour un article auquel est associé une hiérarchie de réservation *Batch-above\[location\]*.) Au lieu de cela, le numéro de lot « origine » et toutes les autres dimensions de stockage sont affichés sur la transaction de stock de la ligne de travail qui est référencée à partir des transactions de stock associées.
 
-        ![Transaction de stock d’entrepôt pour les travaux provenant de la réservation validée par la commande](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Transaction de stock d’entrepôt pour les travaux provenant de la réservation validée par la commande.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Une fois le travail créé, la transaction de stock de l’article où le champ **Référence** est défini sur **Réservation confirmée par la commande** est retirée. La transaction de stock où le champ **Référence** est défini sur **Travail** détient désormais la réservation physique sur toutes les dimensions de stock de la quantité.
 
@@ -207,7 +207,7 @@ Avant de pouvoir utiliser la réservation de contenant flexible, deux fonctionna
 
 Pour activer la réservation de contenant sur une commande, vous devez activer la case à cocher **Autoriser la réservation sur ordre de la demande** pour le niveau **Contenant** sur la page **Hiérarchies de réservation de stock** de la hiérarchie associée à l’article concerné.
 
-![Page Hiérarchies de réservation de stock pour une hiérarchie de réservation de contenant flexible](media/Flexible-LP-reservation-hierarchy.png)
+![Page Hiérarchies de réservation de stock pour une hiérarchie de réservation de contenant flexible.](media/Flexible-LP-reservation-hierarchy.png)
 
 Vous pouvez activer la réservation de contenant sur la commande à n’importe quel moment de votre déploiement. Cette modification n’affectera pas les réservations ou les travaux d’entrepôt en cours créés avant la modification. Cependant, vous ne pouvez pas désactiver la case à cocher **Autoriser la réservation sur ordre de la commande** s’il existe des mouvements de stock sortants en cours présentant le statut de sortie *En commande*, *Commandé réservé* ou *Physique réservé* pour un ou plusieurs articles associés à cette hiérarchie de réservation.
 
@@ -227,7 +227,7 @@ Lorsque la ligne de commande client qui utilise une réservation de contenant va
 
 Si un élément de travail d’entrepôt se compose de lignes correspondant à une palette complète et dont les quantités sont validées par contenant, vous pouvez optimiser le processus de prélèvement en utilisant un élément de menu de l’appareil mobile où l’option **Traiter par contenant** est définie sur *Oui*. Un magasinier peut ensuite numériser un contenant pour terminer un prélèvement au lieu de numériser les articles du travail individuellement.
 
-![Élément de menu de l’appareil mobile où l’option Traiter par contenant est définie sur Oui](media/Handle-by-LP-menu-item.png)
+![Élément de menu de l’appareil mobile où l’option Traiter par contenant est définie sur Oui.](media/Handle-by-LP-menu-item.png)
 
 Comme la fonctionnalité **Traiter par contenant** ne prend pas en charge les travaux couvrant plusieurs palettes, il est préférable d’avoir un élément de travail distinct pour les différents contenants. Pour utiliser cette approche, ajoutez le champ **ID contenant validé par commande** en tant que décomposition de l’en-tête de travail sur la page **Modèle de travail**.
 
@@ -249,7 +249,7 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
 1. Dans le champ **Nom**, entrez une valeur (par exemple *FlexibleLP*).
 1. Dans le champ **Description**, entrez une valeur (par exemple *Réservation de contenant flexible*).
 1. Dans la liste **Sélectionné**, sélectionnez **Numéro de lot**, **Numéro de série** et **Propriétaire**.
-1. Cliquez sur le bouton **Supprimer** ![flèche vers l’arrière](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
+1. Sélectionnez le bouton **Supprimer**![flèche vers l’arrière.](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
 1. Cliquez sur **OK**.
 1. Dans la ligne du niveau de dimension **Contenant**, activez la case à cocher **Autoriser la réservation sur ordre de la commande**. Le niveau **Emplacement** est automatiquement sélectionné et vous ne pouvez pas le désactiver.
 1. Sélectionnez **Enregistrer**.

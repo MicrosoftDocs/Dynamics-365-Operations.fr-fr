@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792461"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353826"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Créer et configurer des garanties étendues
 
@@ -81,7 +81,7 @@ Pour créer un article de garantie dans Commerce, procédez comme suit.
 
     Par exemple, pour une garantie de deux ans, définissez le champ **Unité de temps** sur **Années** et le champ **Durée** sur **2**. Vous pouvez également définir le champ **Unité de temps** sur **Mois** et le champ **Durée** sur **24**, comme indiqué dans l’illustration suivante.
 
-    ![Page de détails du produit pour un article de garantie](./media/ew-time-properties.png)
+    ![Page de détails du produit pour un article de garantie.](./media/ew-time-properties.png)
 
 1. Sélectionnez **Enregistrer** pour enregistrer la garantie.
 1. Remettez le produit sous garantie à l’entreprise afin qu’il puisse être vendu. Pour plus d’informations, voir [Paramétrage des produits vendus au détail](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Pour créer un article de garantie dans Commerce, procédez comme suit.
 
     Par exemple, l’illustration suivante montre le champ **Base de gamme de prix** défini sur **Prix de base**, le champ **Limite inférieure** défini sur $500 et le champ **Limite supérieure** défini sur $1000.
     
-    ![Page Détails du produit lancé pour une garantie](./media/ew-release-product-details.png)
+    ![Page Détails du produit lancé pour une garantie.](./media/ew-release-product-details.png)
 
 1. Assortissez la garantie au canal où il sera vendu. Pour plus d’informations, voir [Paramétrer des assortiments](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Deux opérations PDV permettent aux vendeurs de vendre des articles sous garanti
 
 L’illustration suivante montre un exemple de page de terminal de point de vente avec une invite pour ajouter un article sous garantie pour l’achat en cours d’un article sous garantie.
 
-![Exemple d’invite permettant d’ajouter une garantie pour l’achat en cours](./media/ew-sell-warranty.png)
+![Exemple d’invite permettant d’ajouter une garantie pour l’achat en cours.](./media/ew-sell-warranty.png)
 
 L’illustration suivante montre un exemple de la fonctionnalité permettant d’ajouter une garantie pour un article sous garantie déjà vendu.
 
-![Exemple de fonctionnalité permettant d’ajouter une garantie pour un article sous garantie déjà vendu](./media/ew-add-warranty-existing.png)
+![Exemple de fonctionnalité permettant d’ajouter une garantie pour un article sous garantie déjà vendu.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Traiter les transactions de garantie
 

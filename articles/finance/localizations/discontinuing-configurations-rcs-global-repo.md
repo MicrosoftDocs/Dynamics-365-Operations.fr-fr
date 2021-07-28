@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360203"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Interrompre les configurations dans le référentiel RCS Global
 
@@ -45,7 +45,7 @@ Pour interrompre la configuration, procédez comme suit.
 2. Définissez le paramètre **Interrompre** sur **Oui**.
 3. Sélectionnez **OK** pour interrompre les configurations. Le champ **Date d’interruption** sera rempli lorsque vous enregistrez les modifications.
 
-![Interrompre les informations de configuration](media/Discontinue-details-2.png)
+![Interrompre les informations de configuration.](media/Discontinue-details-2.png)
   
 Vous pouvez rétablir la configuration sur **Partagé** ou ajuster les informations d’interruption à tout moment. Si vous partagez une configuration, spécifiez la valeur pour **Date de fin de prise en charge** et toutes les autres informations relatives à l’interruption pour indiquer les interruptions futures que vous prévoyez.
 

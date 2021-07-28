@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347162"
 ---
 # <a name="asset-types"></a>Types d’actif
 
@@ -45,9 +45,9 @@ Tout d’abord, vous paramétrez les types d’actif requis. Ensuite, vous crée
 7. Sélectionnez **Enregistrer**.
 8. Dans l’organisateur **Types de tâches de maintenance**, sélectionnez les types de tâches de maintenance qui doivent être associés au type d’actif :
 
-    - Pour sélectionner un type de tâche de maintenance, sélectionnez-le dans le champ **Types de tâche de maintenance restants**, puis utilisez le bouton Flèche droite ![bouton Flèche droite](media/29-setup-for-objects.png) pour le déplacer vers la section **Types de tâche de maintenance sélectionnés**.
-    - Pour sélectionner tous les types de tâche de maintenance disponibles, utilisez le bouton ![Transférer tout](media/30-setup-for-objects.png). Tous les types de tâche de maintenance sont transférés du champ **Types de tâche de maintenance restants** vers le champ **Types de tâche de maintenance sélectionnés**.
-    - Pour annuler la sélection d’un type de tâche de maintenance, sélectionnez-le dans le champ **Types de tâche de maintenance sélectionnés**, puis utilisez le bouton Flèche gauche ![bouton Flèche gauche](media/31-setup-for-objects.png) pour le déplacer vers le champ **Types de tâche de maintenance restants**.
+    - Pour sélectionner un type de tâche de maintenance, sélectionnez-le dans le champ **Types de tâche de maintenance restants**, puis sélectionnez le bouton de flèche droite ![Bouton Flèche droite.](media/29-setup-for-objects.png) pour le déplacer dans la section **Types de tâches de maintenance sélectionnés**.
+    - Pour sélectionner tous les types de tâche de maintenance disponibles, utilisez le bouton ![Transférer tout.](media/30-setup-for-objects.png) . Tous les types de tâche de maintenance sont transférés du champ **Types de tâche de maintenance restants** vers le champ **Types de tâche de maintenance sélectionnés**.
+    - Pour annuler la sélection d’un type de tâche de maintenance, sélectionnez-le dans le champ **Types de tâche de maintenance sélectionnés**, puis sélectionnez le bouton de flèche gauche ![Bouton Flèche gauche.](media/31-setup-for-objects.png) pour le déplacer dans le champ **Types de tâches de maintenance restants**.
 
 9. Vous pouvez également sélectionner les compteurs qui doivent être associées au type d’actif. Dans le raccourci **Compteurs**, effectuez vos sélections à l’aide des méthodes décrites pour les types de tâche de maintenance à l’étape 8. Pour plus d’informations sur la configuration des compteurs, voir [Compteurs](counters.md).
 10. Vous pouvez également sélectionner les types d’attribut qui doivent être associés au type d’actif. Dans le raccourci **Types d’attribut**, effectuez vos sélections à l’aide des méthodes décrites pour les types de tâche de maintenance à l’étape 8. Ensuite, pour créer la séquence préférée de types d’attribut, sélectionnez un type d’attribut dans le champ **Types d’attribut sélectionnés**, puis utilisez les boutons Flèche haut et Flèche bas pour le déplacer. La séquence de types d’attributs s’affichera sur les actifs qui utilisent ce type d’actif. Pour plus d’informations sur les attributs d’actif, voir [Types d’attribut de maintenance](../setup-for-functional-locations/specification-types.md).

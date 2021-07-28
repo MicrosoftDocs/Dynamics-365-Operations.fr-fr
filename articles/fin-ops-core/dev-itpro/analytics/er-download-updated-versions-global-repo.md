@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893954"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351720"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importer des versions mises à jour des configurations de gestion des états électroniques
 
@@ -41,11 +41,11 @@ Cette rubrique explique comment importer des versions mises à jour des configur
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Sur la page **Configurations de localisation**, dans la section **Liens connexes**, sélectionnez **Importer les mises à jour des versions de configurations**.
 
-    ![Page Configurations de localisation](./media/er-download-updated-versions-global-repo1.png)
+    ![Page Configurations de localisation.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Dans la boîte de dialogue **Importer les mises à jour des versions des configurations de gestion des états électroniques**, dans le champ **Mode d’exécution**, sélectionnez **Afficher uniquement les mises à jour disponibles**. Puis sélectionnez **OK**. 
 
-    ![Champ Mode d’exécution défini sur Afficher uniquement les mises à jour disponibles](./media/er-download-updated-versions-global-repo2.png)
+    ![Champ Mode d’exécution défini sur Afficher uniquement les mises à jour disponibles.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Passez en revue les messages que vous recevez. Ces messages fournissent les informations suivantes sur les configurations de gestion des états électroniques dans l’instance actuelle de Finance et la façon de les comparer au contenu du référentiel global :
 
@@ -72,14 +72,14 @@ Cette rubrique explique comment importer des versions mises à jour des configur
 4. Dans la boîte de dialogue **Importer les mises à jour des versions des configurations de gestion des états électroniques**, dans le champ **Mode d’exécution**, sélectionnez **Importer les dernières mises à jour** pour importer les dernières versions des configurations de gestion des états électroniques depuis le référentiel global vers l’instance actuelle de Finance.
 5. Pour planifier un traitement par lots pour l’importation, sur l’organisateur **Exécuter à l’arrière-plan**, définissez l’option **Traitement par lots** sur **Oui**. Si vous souhaitez répéter l’importation régulièrement, configurez la périodicité requise.
 
-    ![Champ Mode d’exécution défini sur Importer les dernières mises à jour](./media/er-download-updated-versions-global-repo5.png)
+    ![Champ Mode d’exécution défini sur Importer les dernières mises à jour.](./media/er-download-updated-versions-global-repo5.png)
 
 6. Cliquez sur **OK**.
 7. Pour savoir quelles versions de configuration ont été importées, procédez comme suit :
 
     - Si vous exécutez l’importation de manière interactive au lieu d’utiliser un traitement par lots, consultez les messages que vous recevez.
 
-        ![Messages reçus lors de l’exécution d’une importation interactive](./media/er-download-updated-versions-global-repo6.png)
+        ![Messages reçus lors de l’exécution d’une importation interactive.](./media/er-download-updated-versions-global-repo6.png)
 
     - Si vous exécutez l’importation en mode de traitement par lots, procédez comme suit :
 
@@ -87,7 +87,7 @@ Cette rubrique explique comment importer des versions mises à jour des configur
         2. Recherchez et sélectionnez le travail **Importer les mises à jour des versions des configurations de gestion des états électroniques**, puis, dans le volet Actions, sous l’onglet **Traitement par lots**, sélectionnez **Historique des traitements par lots** pour afficher l’historique des travaux.
         3. Sur la page **Historique des traitements par lots**, sélectionnez **Journal**. Ensuite, dans le message que vous recevez, sélectionnez le lien **Détails du message** pour afficher le journal des travaux.
 
-        ![Journal des travaux](./media/er-download-updated-versions-global-repo7.png)
+        ![Journal des travaux.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Il n’est pas recommandé de planifier un traitement par lots récurrent pour importer des versions mises à jour des configurations de gestion des états électroniques directement depuis le référentiel global vers un environnement de production, car les versions importées seront immédiatement disponibles pour utilisation. Utilisez plutôt cette approche pour déployer des versions des configurations de gestion des états électroniques dans un environnement de bac à sable. Elles peuvent ensuite être évaluées dans l’environnement de bac à sable avant d’être déployées dans un environnement de production.

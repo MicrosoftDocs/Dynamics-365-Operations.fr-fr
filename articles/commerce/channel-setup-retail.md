@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937532"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346056"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurer un canal de vente au détail
 
@@ -50,11 +50,11 @@ Avant de créer un canal de vente au détail, assurez-vous de suivre les [Condit
 
 L’image suivante montre la création d’un canal de vente au détail.
 
-![Nouveau canal de vente au détail](media/channel-setup-retail-1.png)
+![Nouveau canal de vente au détail.](media/channel-setup-retail-1.png)
 
 L’image suivante présente un exemple de canal de vente au détail.
 
-![Exemple de canal de vente au détail](media/channel-setup-retail-2.png)
+![Exemple de canal de vente au détail.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Autres paramètres
 
@@ -64,7 +64,7 @@ De plus, voir [Mises en page de l’écran pour le point de vente (PDV)](pos-scr
 
 L’image suivante présente un exemple de paramétrage de canal de vente au détail.
 
-![Exemple de paramétrage de canal de vente au détail](media/channel-setup-retail-3.png)
+![Exemple de paramétrage de canal de vente au détail.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Paramétrage de canal supplémentaire
 
@@ -74,7 +74,7 @@ Les tâches supplémentaires requises pour le paramétrage du canal en ligne com
 
 L’image suivante montre diverses autres options de paramétrage de canal de vente au détail dans l’onglet **Paramétrer**.
 
-![Paramétrer un canal](media/channel-setup-retail-4.png)
+![Paramétrer un canal.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>paramétrer les modes de paiement ;
 
@@ -89,7 +89,7 @@ Pour configurer des modes de paiement, pour chaque type de paiement pris en char
 
 L’image suivante présente un exemple de mode de paiement au comptant.
 
-![Exemple de modes de paiement](media/channel-setup-retail-5.png)
+![Exemple de modes de paiement.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Paramétrer une déclaration des montants en caisse
 
@@ -98,7 +98,7 @@ L’image suivante présente un exemple de mode de paiement au comptant.
 
 L’image suivante présente un exemple de mode de déclaration des montants en caisse.
 
-![Paramétrer des déclaration des montants en caisse](media/channel-setup-retail-6.png)
+![Paramétrer des déclaration des montants en caisse.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
@@ -112,7 +112,7 @@ Pour modifier ou ajouter un mode de livraison, procédez comme suit.
 
 L’image suivante présente un exemple de mode de livraison.
 
-![Paramétrer des modes de livraison](media/channel-setup-retail-7.png)
+![Paramétrer des modes de livraison.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Paramétrer le compte de revenus/dépenses
 
@@ -129,7 +129,7 @@ Pour paramétrer le compte de revenus/dépenses, procédez comme suit.
 
 L’image suivante montre un exemple de compte de revenus/dépenses.
 
-![Paramétrer des comptes de revenus/dépenses](media/channel-setup-retail-8.png)
+![Paramétrer des comptes de revenus/dépenses.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Paramétrer des sections
 
@@ -155,7 +155,7 @@ Pour paramétrer une affectation de groupe d’exécution, procédez comme suit.
 
 L’image suivante montre un exemple de configuration d’affectation de groupe d’exécution.
 
-![Paramétrer l’affectation du groupe d’exécution](media/channel-setup-retail-9.png)
+![Paramétrer l’affectation du groupe d’exécution.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Configurer des coffres-forts
 

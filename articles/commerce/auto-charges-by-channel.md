@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799908"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349696"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Activer et configurer les frais automatiques par canal
 
@@ -66,7 +66,7 @@ Pour affecter une hiérarchie par défaut à un objectif de hiérarchie d’orga
 1. Dans le volet Actions, sélectionnez **Exécuter maintenant**.
 1. Répétez les deux étapes précédentes pour exécuter les tâches **1070** (**Configuration des canaux**) et **1110** (**Configuration globale**).
 
-![Configuration de l’objectif de hiérarchies d’organisation des frais automatiques de la vente au détail](media/Auto-charges-org-hierarchy-purpose.png)
+![Configuration de l’objectif de hiérarchies d’organisation des frais automatiques de la vente au détail.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Définir les frais automatiques par canal
 
@@ -86,7 +86,7 @@ Pour définir les frais automatiques par canal dans Commerce, procédez comme su
 1. Dans le volet Actions, sélectionnez **Exécuter maintenant**.
 1. Répétez les deux étapes précédentes pour exécuter les tâches **1070** (**Configuration des canaux**) et **1110** (**Configuration globale**).
     
-![Frais automatiques définis par canal](media/Auto-charges-line-charge-by-channel.png)
+![Frais automatiques définis par canal.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
@@ -94,7 +94,7 @@ L’exemple suivant décrit les étapes requises pour configurer un produit afin
 
 L’organisation définit un code de frais nommé **RECYCLER**, comme indiqué dans l’illustration suivante.
 
-![Code de frais RECYCLER](media/Auto-charges-charge-code.png)
+![Code de frais RECYCLER.](media/Auto-charges-charge-code.png)
 
 Des frais automatiques sont créés au niveau de la ligne. Ils présentent la configuration suivante :
 
@@ -112,13 +112,13 @@ Une ligne de frais automatiques est créée. Ils présentent la configuration su
 - Le champ **Catégorie** est défini sur **Fixe**.
 - Le champ **Frais** est défini sur **6,25 USD**.
 
-![Configuration des frais automatiques au niveau de la ligne et de la ligne de frais automatiques](media/Auto-charges-recyclingfee-line-fee.png)
+![Configuration des frais automatiques au niveau de la ligne et de la ligne de frais automatiques.](media/Auto-charges-recyclingfee-line-fee.png)
 
 Dans l’application PDV, une commande client est créée dans le canal de magasin **San Francisco**. La ligne **Frais** indique les frais de recyclage de **6,25 USD**.
 
 En sélectionnant **Options de transaction \>Frais \>Gérer les frais** dans l’application de PDV, vous pouvez afficher le code des frais et la description des frais de recyclage.
 
-![Frais de recyclage dans l’application de PDV](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Frais de recyclage dans l’application de PDV.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

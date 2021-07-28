@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186394"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355650"
 ---
 # <a name="customer-payment-predictions-preview"></a>Prévisions de paiement client (version préliminaire)
 
@@ -53,11 +55,11 @@ Pour chaque facture ouverte, la fonctionnalité attribue trois probabilités de 
 
 La fonction fournit également une vue agrégée des paiements attendus.
 
-[![Vue cumulée des prévisions de paiement](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Vue cumulée des prévisions de paiement.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Chaque facture se voit attribuer une probabilité de paiement dans les temps. Les factures dont la probabilité de paiement dans les temps est inférieure à 50 pourcent sont marquées avec un cercle rouge pour indiquer qu’elles peuvent nécessiter de l’attention de la part de l’agent de recouvrement.
 
-[![Liste des probabilités de paiement](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Liste des probabilités de paiement.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 La fonction de prédiction de paiement client fournit également des informations contextuelles pour expliquer la prédiction. Ces informations comprennent les principaux facteurs qui ont influencé la prévision, l’état actuel des affaires avec le client et des détails sur le comportement de paiement historique du client.
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3a0cc24a77b29cedaa10ebb4d6e2ad2a4cbf629
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344756"
 ---
 # <a name="electronic-invoicing-overview"></a>Vue d’ensemble de la Facturation électronique
 
@@ -98,7 +100,7 @@ Lorsque la Facturation électronique est installée à partir de LCS et que le p
 
 L’illustration suivante montre comment les données sont envoyées vers et depuis la Facturation électronique.
 
-![Flux de données pour la Facturation électronique](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Flux de données pour la Facturation électronique.](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 L’activation et l’utilisation de la facturation électronique peuvent nécessiter l’envoi de données limitées, notamment l’ID d’enregistrement fiscal de l’organisation. Ces données seront transmises à des organismes tiers autorisés par les administrations fiscales aux fins d’envoi de factures électroniques dans les formats prédéfinis requis pour l’intégration avec les services web de ces gouvernements. Les données importées depuis ces systèmes externes vers ce service en ligne Dynamics 365 sont soumises à notre [déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=512132). Pour plus d’informations, consultez les sections Déclaration de confidentialité dans la documentation de la fonctionnalité spécifique au pays.

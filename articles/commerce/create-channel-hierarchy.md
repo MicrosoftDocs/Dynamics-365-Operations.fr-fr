@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352468"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Créer une hiérarchie de navigation dans un canal
 
@@ -49,7 +49,7 @@ Pour créer une hiérarchie de navigation du canal, procédez comme suit.
 
 L’image suivante montre un exemple de nœud racine.
 
-![Exemple de nœud racine](media/create-channel-hierarchy-1.png)
+![Exemple de nœud racine.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Crer des nœuds de catégorie de navigation
 
@@ -65,7 +65,7 @@ Pour créer des nœuds de catégorie de navigation supplémentaires pour représ
 
 L’image suivante montre un exemple d’une hiérarchie de navigation de canal terminée.
 
-![Exemple de hiérarchie du canal](media/create-channel-hierarchy-2.png)
+![Exemple de hiérarchie du canal.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Ajouter des produits à des nœuds de catégorie
 
@@ -81,7 +81,7 @@ Pour ajouter des produits à des nœuds de catégorie, procédez comme suit.
 
 L’image suivant présente un exemple de nœud avec produits ajoutés.
 
-![Produits ajoutés à un nœud de catégorie](media/create-channel-hierarchy-3.png)
+![Produits ajoutés à un nœud de catégorie.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Ajouter des groupes d’attributs de produit à des nœuds de catégorie
 
@@ -97,13 +97,13 @@ Pour ajouter un produit d’un groupe d’attributs à un nœud de catégorie, p
 
 L’image suivant présente un exemple de nœud avec des groupes d’attributs de produits ajoutés.
 
-![Groupes d’attributs de produit sur un nœud](media/create-channel-hierarchy-4.png)
+![Groupes d’attributs de produit sur un nœud.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Paramétrer des assortiments](set-up-assortments.md)
 
-[Gérer les attributs et les groupes d’attributs](attribute-attributegroups-lifecycle.md)
+[Gérer les attributs et les groupes d'attributs](attribute-attributegroups-lifecycle.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

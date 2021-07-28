@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346568"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurer le mappage des colonnes de statut des commandes client
 
@@ -100,7 +100,7 @@ Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
 1. Dans un navigateur, accédez à `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Remplacez **\<test-name\>** avec le lien de votre entreprise vers Sales.
 2. Sur la page qui s’ouvre, recherchez **organisationid**, et notez la valeur.
 
-    ![Recherche de Organizationid](media/sales-map-orgid.png)
+    ![Recherche de Organizationid.](media/sales-map-orgid.png)
 
 3. Dans Sales, ouvrez la console du navigateur et exécutez le script suivant. Utilisez la valeur **organisationid** de l’étape 2.
 
@@ -119,33 +119,33 @@ Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
     );
     ```
 
-    ![Code JavaScript dans la console du navigateur](media/sales-map-script.png)
+    ![Code JavaScript dans la console du navigateur.](media/sales-map-script.png)
 
 4. Vérifiez que **IsSOPIntegrationEnabled** est défini sur **true**. Utilisez l’URL de l’étape 1 pour vérifier la valeur.
 
-    ![IsSOPIntegrationEnabled défini sur true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled défini sur true.](media/sales-map-integration-enabled.png)
 
 Pour activer l’attribut **isIntegrationUser**, procédez comme suit.
 
 1. Dans Sales, accédez à **Paramètre \> Personnalisation \> Personnaliser le système**, sélectionnez **Table utilisateur**, puis ouvrez **Écran \> Utilisateur**.
 
-    ![Ouverture de l’écran utilisateur](media/sales-map-user.png)
+    ![Ouverture de l’écran utilisateur.](media/sales-map-user.png)
 
 2. Dans Field Explorer, recherchez **Mode utilisateur de l’intégration** et double-cliquez dessus pour l’ajouter à l’écran. Enregistrez votre modification.
 
-    ![Ajout de la colonne Mode utilisateur de l’intégration à l’écran](media/sales-map-field-explorer.png)
+    ![Ajout de la colonne Mode utilisateur de l’intégration à l’écran.](media/sales-map-field-explorer.png)
 
 3. Dans Sales, accédez à **Paramètre \> Sécurité \> Utilisateurs** et changez les vues de **Utilisateurs activés** à **Utilisateurs de l’application**.
 
-    ![Modification de la vue de Utilisateurs activés à Utilisateurs de l’application](media/sales-map-enabled-users.png)
+    ![Modification de la vue de Utilisateurs activés à Utilisateurs de l’application.](media/sales-map-enabled-users.png)
 
 4. Sélectionnez les deux entrées pour **DualWrite IntegrationUser**.
 
-    ![Liste des utilisateurs d’application](media/sales-map-user-mode.png)
+    ![Liste des utilisateurs d’application.](media/sales-map-user-mode.png)
 
 5. Changez la valeur de la colonne **Mode utilisateur de l’intégration** sur **Oui**.
 
-    ![Changement de la valeur de la colonne Mode utilisateur de l’intégration](media/sales-map-user-mode-yes.png)
+    ![Changement de la valeur de la colonne Mode utilisateur de l’intégration.](media/sales-map-user-mode-yes.png)
 
 Vos commandes client sont maintenant mappées.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830122"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352710"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Moyenne pondérée avec valeur physique et marquage
 
@@ -65,7 +65,7 @@ Dans le scénario décrit dans les sections suivantes, une réception et une sor
 
 Le diagramme suivant illustre cette série de transactions avec les effets du choix du modèle de stock à moyenne pondérée et le principe de règlement direct sans l’option Inclure la valeur physique. 
 
-![Règlement direct de moyenne pondérée sans Inclure la valeur physique](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Règlement direct de moyenne pondérée sans Inclure la valeur physique.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 - Les mouvements de stock sont représentés par les flèches verticales.
@@ -99,7 +99,7 @@ Les transactions suivantes sont illustrées dans le graphique ci-dessous :
 
 Le diagramme suivant illustre cette série de transactions avec les effets du choix du modèle de stock à moyenne pondérée et le principe de règlement récapitulatif sans l’option Inclure la valeur physique. 
 
-![Règlement récapitulatif de moyenne pondérée sans Inclure la valeur physique](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Règlement récapitulatif de moyenne pondérée sans Inclure la valeur physique.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 - Les mouvements de stock sont représentés par les flèches verticales.
@@ -128,7 +128,7 @@ Les transactions suivantes sont illustrées dans le graphique ci-dessous :
 
 Le diagramme suivant illustre cette série de transactions avec les effets du choix du modèle de stock à moyenne pondérée et le principe de règlement direct avec l’option Inclure la valeur physique. 
 
-![Règlement direct de moyenne pondérée avec Inclure la valeur physique](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Règlement direct de moyenne pondérée avec Inclure la valeur physique.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 - Les mouvements de stock sont représentés par les flèches verticales.
@@ -161,7 +161,7 @@ Les transactions suivantes sont illustrées dans le graphique ci-dessous :
 
 Le diagramme suivant illustre cette série de transactions avec les effets du choix du modèle de stock à moyenne pondérée et le principe de règlement récapitulatif sans l’option Inclure la valeur physique. 
 
-![Règlement récapitulatif de moyenne pondérée avec Inclure la valeur physique](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Règlement récapitulatif de moyenne pondérée avec Inclure la valeur physique.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 - Les mouvements de stock sont représentés par les flèches verticales.
@@ -209,7 +209,7 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 
 Le diagramme suivant illustre cette série de transactions avec les effets du choix du modèle de stock de moyenne pondérée avec marquage. 
 
-![Moyenne pondérée avec marquage](./media/weightedaveragewithmarking.gif) 
+![Moyenne pondérée avec marquage.](./media/weightedaveragewithmarking.gif) 
 
 **Clés du diagramme**
 - Les mouvements de stock sont représentés par les flèches verticales.

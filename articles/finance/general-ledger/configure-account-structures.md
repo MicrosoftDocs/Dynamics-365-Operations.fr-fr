@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22123eb7a46910a2bc68a85b57271cfa2f3eb41e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8d4d3ebed7cf3f006672454e086fc0f918f2418d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193804"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360662"
 ---
 # <a name="configure-account-structures"></a>Configurer les structures de compte
 
@@ -65,7 +65,7 @@ La section **Segments** et **Détails des valeurs autorisées** fournit une exp�
 
 La section **Détails des valeurs autorisées** vous aide à créer des critères à l’aide d’**Opérateurs** tels que commence par, compris entre, comprend, etc.
 
-[![Autoriser des valeurs](./media/account.png)](./media/account.png) 
+[![Autoriser des valeurs.](./media/account.png)](./media/account.png) 
 
 Les valeurs autorisées seront par défaut celles d’un journal ou d’une page d’entrée de répartition comptable s’il n’y a pas de autres valeurs possibles à sélectionner en fonction du paramétrage de la structure de compte.
 

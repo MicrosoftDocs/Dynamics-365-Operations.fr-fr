@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093918"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351655"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configuration des règles et des options d’admissibilité
 
@@ -42,7 +42,7 @@ Pendant l’inscription ouverte, les employés peuvent sélectionner des plans d
 
    | Champ | Description  |
    | --- | --- |
-   | **Règle d'éligibilité** | Identificateur unique de la règle d’éligibilité. |
+   | **Règle d’éligibilité** | Identificateur unique de la règle d’éligibilité. |
    | **Description** | Brève description de la règle d’éligibilité. |
    | **Valide à partir d’une date et heure** | Date de début de la règle d’éligibilité. | 
    | **Valide jusqu’à une date et heure** | Date de fin de la règle d’éligibilité. |
@@ -118,7 +118,7 @@ Le tableau suivant affiche des informations sur les champs du formulaire d’él
 | Nom | Nom des critères en cours de création. |
 | Nom de la table | Nom de la table contenant le champ personnalisé utilisé pour la règle d’éligibilité. |
 | Nom du champ | Champ qui sera utilisé pour la règle d’éligibilité. |
-| Type d'opérateur | Affiche l’opérateur utilisé dans la configuration de l’éligibilité de champs personnalisés. |
+| Type d’opérateur | Affiche l’opérateur utilisé dans la configuration de l’éligibilité de champs personnalisés. |
 | Valeur  | Affiche la valeur utilisée dans la configuration de l’éligibilité de champs personnalisés. |
 
 ## <a name="eligibility-logic"></a>Logique d’éligibilité
@@ -137,20 +137,20 @@ Vous pouvez définir des règles avec plusieurs critères. Lorsque vous définis
 
 Par exemple, la règle **Employés actifs** ci-dessus se compose des critères suivants. Pour que l’employé soit éligible en vertu de la règle **Employés actifs**, il doit être employé dans l’entité juridique USMF *et* avoir un type de poste à temps plein.  
 
-![Critères dans une règle d’éligibilité](media/CriteriaWithinAnEligibilityRule.png) 
+![Critères dans une règle d’éligibilité.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Conditions multiples dans les critères
 
 Les règles peuvent être étendues davantage pour utiliser plusieurs conditions dans un seul critère. L’employé doit remplir au moins une condition pour être éligible. Pour continuer avec l’exemple ci-dessus, la règle **Employés actifs** peut être étendue davatange pour inclure les employés qui sont également des employés à temps partiel. En conséquence, l’employé doit maintenant être un employé d’USMF *et* un employé à temps plein ou à temps partiel.  
 
-![Conditions multiples dans les critères](media/MultipleConditionsWithinCriteria.png) 
+![Conditions multiples dans les critères.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Conditions d’éligibilité dans un critère de champ personnalisé 
 De la même manière que ce qui précède, les champs personnalisés peuvent être utilisés lors de la création de règles d’éligibilité et fonctionnent de la même manière. Par exemple, vous souhaitez peut-être offrir un remboursement Internet aux employés de Fargo et Copenhagen qui travaillent à domicile, car les coûts d’Internet sont plus élevés dans ces lieux. Pour ce faire, créez deux champs personnalisés : **Emplacement du bureau** (liste de sélection) et **Travail à domicile** (case à cocher). Ensuite, créez une règle appelée **Employés travaillant à domicile**. Le critère de la règle est défini sur **Emplacement du bureau = Fargo** ou **Copenhagen** *et* **Travail à domicile = Oui**.
 
 Les règles d’éligibilité personnalisées doivent être configurées comme indiqué dans l’image suivante. 
 
-![Conditions d’éligibilité dans un critère de champ personnalisé](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Conditions d’éligibilité dans un critère de champ personnalisé.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Configuration des offres groupées
 
@@ -210,7 +210,7 @@ Vous pouvez utiliser des programmes de crédits flexibles pour inscrire les empl
 
    | Champ | Description  |
    | --- | --- |
-   | ID de crédit d'avantage | Identifiant unique du programme de crédits flexibles. |
+   | ID de crédit d’avantage | Identifiant unique du programme de crédits flexibles. |
    | Description | Description du programme de crédits flexibles. | 
    | Date de début | Date et heure d’activation du programme de crédits flexibles. |
    | Au | Date de fin du programme de crédits flexibles. Vous pouvez laisser la valeur par défaut (31/12/2154) pour indiquer que le programme de crédit flexible n’a pas d’expiration planifiée. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c627b6238a5c0ec1a45ebd9692aae7c634c4952e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018976"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356797"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Archiver les factures client imprimées avec des numéros de hachage
 
@@ -60,5 +60,5 @@ Vous pouvez publier et imprimer n’importe quelle facture financière, facture 
 
 Ouvrez la page **Pièces jointes** pour la facture imprimée. Sur le raccourci **Pièce jointe**, dans le groupe de champs **Détails supplémentaires**, dans **Numéro de hachage du document**, recherchez le numéro de hachage enregistré calculé pour la facture imprimée.
 
-![Numéro de hachage de la pièce jointe](media/attach-hash-num.jpg)
+![Numéro de hachage de la pièce jointe.](media/attach-hash-num.jpg)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023225"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348907"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Paramétrer les périodes de règlement de retenue pour le type de taxe TDS
 
@@ -31,7 +31,7 @@ Cette rubrique explique comment configurer des périodes de configuration pour l
 
 1. Accédez à **Taxes \> Taxes indirectes \> Retenue à la source \> Périodes de règlement de la retenue à la source**.
 
-    [![Page Périodes de règlement de la retenue à la source](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Page Périodes de règlement de la retenue à la source.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. Dans le champ **Type de taxe**, sélectionnez **TDS** pour configurer des périodes de décompte de la retenue à la source pour le type de taxe TDS.
 3. Sélectionnez **Nouveau** pour créer une ligne.
@@ -47,6 +47,6 @@ Cette rubrique explique comment configurer des périodes de configuration pour l
     > [!NOTE]
     > Pour exécuter le processus de règlement TDS périodique, accédez à **Comptabilité \> Périodique \> Retenue à la source \> Paiement de la retenue à la source**.
 
-    [![Page Paiement de la retenue à la source](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Page Paiement de la retenue à la source.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Fermez la page.

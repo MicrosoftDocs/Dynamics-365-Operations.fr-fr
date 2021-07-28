@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346690"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Mapper les magasins et les équipes si votre organisation a des équipes préexistantes dans Microsoft Teams
 
@@ -57,7 +57,7 @@ Pour mapper les magasins et les équipes correspondantes dans Commerce Headquart
 
 L’image d’exemple suivante montre le groupe **Exporter le mappage des équipes** dans Commerce avec les éléments **Ajouter une entité** et les en-têtes du fichier CSV exporté mis en surbrillance.
 
-![Exporter le mappage des équipes dans Commerce avec les éléments Ajouter une entité et les en-têtes du fichier CSV exporté mis en surbrillance](media/d365-commerce-data-mgmt-export-entity.png)
+![Exporter le mappage des équipes dans Commerce avec les éléments Ajouter une entité et les en-têtes du fichier CSV exporté mis en surbrillance.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Après avoir terminé les étapes précédentes, suivez les étapes de la rubrique [Synchroniser la gestion des tâches entre Microsoft Teams et les PDV](synchronize-tasks-teams-pos.md) pour synchroniser la gestion des tâches. 

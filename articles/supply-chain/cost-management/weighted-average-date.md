@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821295"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343698"
 ---
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
@@ -39,7 +39,7 @@ Moyenne pondérée = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 +
 
 Pendant la clôture du stock, le calcul est exécuté quotidiennement via la période de clôture, comme montré dans l’illustration suivante. 
 
-![Modèle de calcul quotidien de date moyenne pondérée](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Modèle de calcul quotidien de date moyenne pondérée.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Les mouvements de sortie du stock, notamment les commandes client, les journaux de stock, les avoirs sur achat et les ordres de fabrication, sont effectués à un prix de revient estimé à la date de validation. Ce prix de revient estimé est également appelé prix de revient moyen en cours. À la date de la clôture de stock, le système analyse les mouvements de stock des périodes précédentes, des jours précédents et du jour actuel. Cette analyse vise à déterminer les principes de clôture suivants à utiliser :
 
@@ -72,7 +72,7 @@ Les transactions suivantes sont illustrées dans le graphique ci-dessous :
 -   2b. Sortie financière de stock mise à jour pour une quantité de 2 à un coût de 10,00 EUR chacune.
 -   3. La clôture du stock est effectuée à l’aide de la méthode de règlement direct permettant de régler la réception financière du stock avec la sortie financière du stock.
 
-![Règlement direct à la date moyenne pondérée sans l’option Inclure la valeur physique](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Règlement direct à la date moyenne pondérée sans l’option Inclure la valeur physique.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Clé à l’illustration :**
 
@@ -126,7 +126,7 @@ Le système génère et valide la transaction de transfert de stock récapitulat
 
 Le diagramme suivant illustre cette série de transactions avec les effets du choix du modèle de stock à moyenne pondérée et le principe de règlement récapitulatif sans l’option **Inclure la valeur physique**. 
 
-![Règlement récapitulatif à la date moyenne pondérée sans l’option Inclure la valeur physique](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Règlement récapitulatif à la date moyenne pondérée sans l’option Inclure la valeur physique.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Clé à l’illustration :**
 

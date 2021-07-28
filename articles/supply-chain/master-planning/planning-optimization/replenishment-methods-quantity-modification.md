@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261694"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347756"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Méthodes de réapprovisionnement et modification des quantités
 
@@ -34,11 +34,11 @@ Les codes de couverture suivants peuvent être utilisés dans l’optimisation d
 
 - **Période** : méthode de réapprovisionnement qui associe toutes les demandes pour une période en une commande du produit. La commande sera planifiée pour le premier jour de la période et sa quantité répondra aux besoins nets pendant la période définie. La période commence avec la première demande du produit et couvre la plage de temps définie. La période suivante commencera avec les prochains besoins du produit. Le code de couverture *Période* est souvent utilisé pour les épuisements de stock non prévisibles, les produits influencés par la saison ou les produits à coût élevé. L’illustration suivante présente un exemple.
 
-    ![Exemple d’utilisation du code de couverture Période](./media/coverage-code-period.png "Exemple d’utilisation du code de couverture Période")
+    ![Exemple d’utilisation du code de couverture Période.](./media/coverage-code-period.png "Exemple d’utilisation du code de couverture Période")
 
 - **Besoin** : méthode de réapprovisionnement dans laquelle le système crée un ordre de fabrication, de transfert ou d’achat planifié selon les besoins du produit. Cette méthode est utilisée pour les produits coûteux qui ont une demande intermittente. Le code de couverture *Besoin* est souvent utilisé pour les produits configurables ou les scénarios de fabrication sur commande. L’illustration suivante présente un exemple.
 
-    ![Exemple d’utilisation du code de couverture Besoin](./media/coverage-code-requirement.png "Exemple d’utilisation du code de couverture Besoin")
+    ![Exemple d’utilisation du code de couverture Besoin.](./media/coverage-code-requirement.png "Exemple d’utilisation du code de couverture Besoin")
 
 - **Min./max.**  : La méthode de réapprovisionnement est basée sur le niveau des stocks. Elle définit le réapprovisionnement du stock jusqu’à un niveau spécifique lorsque le niveau de stock disponible prévu est inférieur à un seuil spécifique. La quantité de réapprovisionnement sera la différence entre le niveau maximum et le niveau disponible prévisionnel. Le code de couverture *Min./Max.* est souvent utilisé pour les épuisements de stock prévisibles, les produits les plus demandés ou les produits moins coûteux. L’illustration suivante présente un exemple.
 

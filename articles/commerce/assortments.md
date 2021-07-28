@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797279"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348705"
 ---
 # <a name="assortment-management"></a>Gestion des assortiments
 
@@ -35,27 +35,27 @@ Le mélange global de produits d’un canal est déterminé par les assortiments
 
 Dans l’exemple suivant, un seul assortiment est configuré pour chaque magasin. Dans ce cas, seul le produit 1 est disponible dans le magasin 1, et seul le produit 2 est disponible dans le magasin 2.
 
-![Chaque produit est disponible dans un magasin](./media/Managing-assortments-figure1.png)
+![Chaque produit est disponible dans un magasin.](./media/Managing-assortments-figure1.png)
 
 Pour rendre le produit 2 disponible dans le magasin 1, vous pouvez ajouter le produit à l’assortiment 1.
 
-![Produit 2 ajouté à l’assortiment 1](./media/Managing-assortments-figure2.png)
+![Produit 2 ajouté à l’assortiment 1.](./media/Managing-assortments-figure2.png)
 
 Sinon, vous pouvez ajouter le magasin 1 à l’assortiment 2.
 
-![Magasin 1 ajouté à l’assortiment 2](./media/Managing-assortments-figure3.png)
+![Magasin 1 ajouté à l’assortiment 2.](./media/Managing-assortments-figure3.png)
 
-### <a name="organization-hierarchies"></a>Hiérarchies de l’organisation
+### <a name="organization-hierarchies"></a>Hiérarchies de l'organisation
 
 Dans les situations où plusieurs canaux partagent les mêmes assortiments de produits, vous pouvez configurer les assortiments à l’aide de la hiérarchie d’organisation d’assortiments Commerce. Lorsque des nœuds de cette hiérarchie sont ajoutés, tous les canaux de ce nœud et ses nœuds enfants sont inclus.
 
-![Hiérarchie d’organisation](./media/Managing-assortments-figure4.png)
+![Hiérarchie d’organisation.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Catégories de produits
 
 De même, côté produit, vous pouvez inclure des groupes de produits à l’aide de hiérarchies de catégories de produits. Vous pouvez configurer des assortiments en incluant un ou plusieurs nœuds de hiérarchie de catégories. Dans ce cas, l’assortiment permet d’inclure tous les produits dans ce nœud de catégorie, ainsi que ses nœuds enfants.
 
-![Catégories de produits](./media/Managing-assortments-figure5.png)
+![Catégories de produits.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Produits ou catégories exclus
 
@@ -64,7 +64,7 @@ En plus d’inclure des produits et des catégories dans les assortiments, vous 
 > [!NOTE]
 > Si un produit est inclus et exclu dans un ou plusieurs assortiments par définition, le produit sera toujours considéré comme exclu.
 
-![Produit exclu](./media/Managing-assortments-figure6.png)
+![Produit exclu.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Produits globaux et lancés
 

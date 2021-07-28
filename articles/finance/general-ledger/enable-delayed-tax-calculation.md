@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350022"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Activer un calcul de taxe différé sur les journaux
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ Le système octroie la priorité au paramètre de l’en-tête du journal. Par d
 1. Accédez à **Comptabilité \> Paramétrage de la comptabilité \> Paramètres de comptabilité**.
 2. Sous l’onglet **Taxe**, sous l’organisateur **Général**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
-![Image des paramètres de comptabilité](media/delayed-tax-calculation-gl.png)
+![Image des paramètres de comptabilité.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Activez le calcul de taxe différé au niveau du nom du journal
 
 1. Accédez à **Comptabilité \> Paramétrage du journal \> Noms des journaux**.
 2. Sous l’organisateur **Général**, dans la section **Taxe**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
-![Images des noms des journaux](media/delayed-tax-calculation-journal-name.png)
+![Images des noms des journaux.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Activez le calcul de taxe différé au niveau de l’en-tête du journal
 
@@ -61,7 +61,7 @@ Le système octroie la priorité au paramètre de l’en-tête du journal. Par d
 3. Sélectionner un nom de journal.
 4. Dans l’onglet **Paramétrage**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
-![Image de la page du journal des opérations diverses](media/delayed-tax-calculation-journal-header.png)
+![Image de la page du journal des opérations diverses.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

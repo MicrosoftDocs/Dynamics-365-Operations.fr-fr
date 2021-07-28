@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189942"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356925"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Réapprovisionnement avec des kanbans de prélèvement
 
@@ -35,7 +35,7 @@ Le kanban de prélèvement permet de déplacer un kanban d’un seul article ent
 
 Le scénario suivant montre un système de réapprovisionnement basé sur le type pull dans lequel un signal de type pull déclenche la création d’un kanban pour réapprovisionner en matières un processus de production. 
 
-[![Signal de type pull déclenchant la création d’un kanban pour réapprovisionner en matières un processus de production](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Signal de type pull déclenchant la création d’un kanban pour réapprovisionner en matières un processus de production.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban de prélèvement
 2.  Emplacement d’origine et emplacement de rangement du kanban pour le travail d’entrepôt
@@ -72,7 +72,7 @@ Si la distance entre les emplacements d’entrepôt et l’emplacement d’entr�
 
 Dans le scénario suivant, l’activité de transfert du kanban de prélèvement est configurée pour un transfert entre deux emplacements au sein du même entrepôt. L’activité de transfert du kanban de prélèvement est paramétrée pour une exécution automatique. 
 
-[![L’activité de transfert est exécutée automatiquement lorsque le travail de prélèvement de kanban est traité](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![L’activité de transfert est exécutée automatiquement lorsque le travail de prélèvement de kanban est traité.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Entrepôt partagé pour les matières premières et la production
 2.  Emplacements de l’entrepôt pour les matières premières

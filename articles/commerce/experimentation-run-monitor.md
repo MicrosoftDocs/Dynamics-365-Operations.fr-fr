@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4afc19ed103f204fec61ab20b88f767ad5f05b38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af5676511c16d0492a7c3a61b7bf3a88b43758a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792533"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349254"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Exécuter et surveiller une expérience
 
@@ -28,7 +28,7 @@ Cette rubrique décrit comment exécuter et surveiller votre expérience dans un
 
 Le diagramme suivant montre toutes les étapes impliquées dans la configuration et l’exécution d’une expérience sur un site web d’e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d’autres rubriques.
 
-[ ![Expérimentation parcours utilisateur - Exécuter et surveiller](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Expérimentation parcours utilisateur - Exécuter et surveiller.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 Une fois que vous avez publié vos variantes, toutes les étapes à suivre dans Commerce pour exécuter votre expérience sont terminées. L’étape suivante consiste à déterminer la variante à montrer à chaque utilisateur lorsqu’il demande une page. Le service tiers effectue cette détermination, mais vous devez d’abord activer l’expérience dans le service. Étant donné que les étapes d’activation d’une expérience varient d’un service à l’autre, vous devrez suivre les instructions fournies avec votre service ou fournisseur. Si l’expérience n’est pas activée, les utilisateurs ne verront que la version par défaut de la page (aucune variante ne sera affichée).
 

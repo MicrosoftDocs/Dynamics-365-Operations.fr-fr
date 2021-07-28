@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790980"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344345"
 ---
 # <a name="set-up-assortments"></a>Paramétrage d’assortiments
 
@@ -31,7 +31,7 @@ Cet article décrit ce qu’est un assortiment et explique comment paramétrer d
 
 Un assortiment est un ensemble de produits connexes que vous affectez à un canal de commerce comme un magasin traditionnel ou un magasin en ligne. Les assortiments permettent d’identifier les produits disponibles dans chaque magasin. Un assortiment peut inclure des catégories de produits. Par conséquent, tous les produits affectés à une catégorie spécifique sont inclus dans l’assortiment. Un assortiment peut également inclure des produits spécifiques et des variantes spécifiques de produits. En configurant un assortiment, vous pouvez affecter simultanément des milliers de produits à vos canaux, dans toutes les combinaisons requises par vos magasins. Vous pouvez définir autant d’assortiments de produits que vous le souhaitez. Chaque produit peut être inclus dans un ou plusieurs assortiments et chaque assortiment peut être affecté à un ou plusieurs canaux. Vous pouvez par exemple définir un assortiment qui inclut un ensemble de produits de base. Tous les magasins reçoivent cet assortiment. Vous définissez ensuite un autre assortiment qui n’inclut que du matériel sportif volumineux. Seuls vos plus grands magasins reçoivent cet assortiment. Le diagramme suivant illustre la façon dont les produits peuvent être affectés à des assortiments et comment les assortiments peuvent être affectés aux canaux.
 
-![Relations de l’assortiment des produits](./media/assortments_relationship.gif)
+![Relations de l’assortiment des produits.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Conditions préalables
 

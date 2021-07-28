@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188123"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359859"
 ---
 # <a name="sales-and-marketing-overview"></a>Vue d’ensemble de Ventes et marketing
 
@@ -29,18 +31,18 @@ Vous pouvez faire appel à ce module pour obtenir, stocker et utiliser différen
 
 ## <a name="marketing"></a>Marketing
 
-Vous utilisez des campagnes et des activités marketing pour rechercher et établir des relations avec les clients potentiels, afin que les interactions initiales puissent évoluer vers des relations commerciales. Le flux de processus suivant présente le processus d’entreprise pour le marketing. [![Processus d’entreprise pour le marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
+Vous utilisez des campagnes et des activités marketing pour rechercher et établir des relations avec les clients potentiels, afin que les interactions initiales puissent évoluer vers des relations commerciales. Le flux de processus suivant présente le processus d’entreprise pour le marketing. [![Processus d’entreprise pour le marketing.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relations
 
-Dans les ventes et le marketing, les interactions initiales que vous avez avec des clients potentiels peuvent se produire dans diverses situations. Par exemple, vous pouvez trouver un client potentiel quand vous participez à un salon ou vous pouvez avoir un prospect possible avec un client après l’exécution d’une campagne de publipostage par votre organisation. Il est très important de comprendre le flux de l’entité d’une partie avant que cette partie devienne un client. Le graphique suivant illustre le flux des relations d’entités à mesure qu’un prospect devient un client réel. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Dans les ventes et le marketing, les interactions initiales que vous avez avec des clients potentiels peuvent se produire dans diverses situations. Par exemple, vous pouvez trouver un client potentiel quand vous participez à un salon ou vous pouvez avoir un prospect possible avec un client après l’exécution d’une campagne de publipostage par votre organisation. Il est très important de comprendre le flux de l’entité d’une partie avant que cette partie devienne un client. Le graphique suivant illustre le flux des relations d’entités à mesure qu’un prospect devient un client réel. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campagnes
 
 Une campagne cible les contacts (prospects, opportunités et clients) sélectionnés pour y participer. Dans Supply Chain Management, vous pouvez créer plusieurs types de campagnes, comme le télémarketing, le publipostage, et les campagnes par courrier électronique, afin d’optimiser vos clients potentiels. À mesure que vos campagnes évoluent et que vous recevez des réponses positives, vous pouvez commencer le processus de vente avec les destinataires qui ont répondu positivement à la campagne.
 
 ## <a name="sales"></a>Ventes
-La fonctionnalité de vente vous permet de créer des devis, des ventes de gamme supérieure et des ventes croisées pour les clients nouveaux et existants, de créer des commandes client et de créer des factures de vente pour les clients. Le flux de processus suivant présente le processus d’entreprise pour les ventes. [![Processus d’entreprise pour les ventes](./media/sales01.jpg)](./media/sales01.jpg)
+La fonctionnalité de vente vous permet de créer des devis, des ventes de gamme supérieure et des ventes croisées pour les clients nouveaux et existants, de créer des commandes client et de créer des factures de vente pour les clients. Le flux de processus suivant présente le processus d’entreprise pour les ventes. [![Processus d’entreprise pour les ventes.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Devis de vente
 

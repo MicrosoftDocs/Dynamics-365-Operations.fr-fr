@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7504b2b36f6869f90de196bf32c09e7bdd51e7b5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac58ea4f1dfd8208c1c2f78e36d82d1375475413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792655"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349518"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurer un profil de notification par e-mail
 
@@ -59,7 +59,7 @@ Pour créer un modèle d’e-mail, procédez comme suit.
 
 L’image suivante montre quelques exemples de paramètres de modèle d’e-mail.
 
-![Paramètres du modèle d’e-mail](media/email-template.png)
+![Paramètres du modèle d’e-mail.](media/email-template.png)
 
 ### <a name="create-an-email-event"></a>Créer un événement d’e-mail
 
@@ -74,7 +74,7 @@ Pour créer un événement d’e-mail, procédez comme suit.
 
 L’image suivante montre quelques exemples de notification d’événements.
 
-![Paramètres de notification d’événements](media/email-notification-profile.png)
+![Paramètres de notification d’événements.](media/email-notification-profile.png)
 
 ### <a name="next-steps"></a>Étapes suivantes
 

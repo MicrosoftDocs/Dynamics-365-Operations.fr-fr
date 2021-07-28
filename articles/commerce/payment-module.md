@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804477"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352322"
 ---
 # <a name="payment-module"></a>Module Paiement
 
@@ -46,9 +46,9 @@ Le connecteur de paiement Adyen prend également en charge l’authentification 
 
 L’illustration suivante montre un exemple de modules de carte-cadeau, de points de fidélité et de paiement Adyen sur une page de caisse.
 
-![Exemple de modules de carte cadeau, de points de fidélité et de paiement Adyen sur une page de caisse](./media/ecommerce-payments.PNG)
+![Exemple de modules de carte cadeau, de points de fidélité et de paiement Adyen sur une page de caisse.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Connecteur de paiement Dynamics 365 pour Paypal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector pour PayPal
 
 À partir de la version 10.0.14 de Commerce, le module de paiement est également intégré au connecteur de paiement Dynamics 365 pour PayPal. Pour plus d’informations sur le paramétrage et la configuration de ce connecteur de paiement, voir [Connecteur de paiement Dynamics 365 pour Paypal](paypal.md).
  
@@ -59,14 +59,14 @@ Lorsque le module de paiement est configuré pour utiliser le connecteur de paie
 Le connecteur de paiement Paypal ne nécessite pas de module d’adresse de facturation car toutes les informations relatives à la facturation sont gérées par Paypal dans son iFrame. Cependant, les modules d’adresse de livraison et d’options de livraison sont obligatoires.
 
 L’illustration suivante montre un exemple de deux modules de paiement sur une page de paiement, l’un configuré avec le connecteur de paiement Adyen et l’autre avec le connecteur de paiement Paypal.
-![Exemple de modules de paiement Adyen et Paypal sur une page de caisse](./media/ecommerce-paypal.png)
+![Exemple de modules de paiement Adyen et Paypal sur une page de caisse.](./media/ecommerce-paypal.png)
 
 L’illustration suivante montre un exemple de l’iFrame Paypal appelée à l’aide du bouton Paypal. 
-![Exemple d’iFrame Paypal sur une page de paiement](./media/ecommerce-paypal-iframe.png)
+![Exemple d’iFrame Paypal sur une page de paiement.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Propriétés du module Paiement
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
 | Titre | Texte d’en-tête | Rubrique optionnelle pour le module Paiement. |
 | Hauteur de l’iFrame | Pixels | Hauteur de l’iFrame, en pixels. La hauteur peut être ajustée au besoin. |
@@ -76,7 +76,7 @@ L’illustration suivante montre un exemple de l’iFrame Paypal appelée à l�
 |Est le paiement principal|  **Vrai** ou **Faux** | Si **Vrai**, tous les messages d’erreur seront générés à partir du connecteur de paiement principal sur la page de paiement. Si les connecteurs de paiement Adyen et Paypal sont configurés, définissez Adyen sur **Vrai**, qui a été ajouté dans la version 10.0.14 de Commerce.|
 
 L’illustration suivante montre un exemple de valeur **Types d’offres pris en charge** définie sur "Paypal" dans la configuration du connecteur de paiement au siège de Commerce.
-![Exemple de types d’appels d’offres pris en charge au siège du Commerce](./media/ecommerce-paymenttendertypes.png)
+![Exemple de types d’appels d’offres pris en charge au siège du Commerce.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Adresse de facturation
 

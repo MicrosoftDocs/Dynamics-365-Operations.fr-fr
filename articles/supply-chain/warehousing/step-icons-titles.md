@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049362"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344493"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management
 
@@ -25,7 +25,7 @@ Cette rubrique décrit comment affecter des icônes d’étape et des titres d�
 
 Les illustrations suivantes montrent comment les icônes et les titres d’étape apparaissent dans l’application mobile Warehouse Management.
 
-![Exemple d’une icône d’étape et d’un titre d’étape dans l’application mobile Warehouse Management](media/step-icon-example.png "Exemple d’une icône d’étape et d’un titre d’étape dans l’application mobile Warehouse Management")
+![Exemple d’une icône d’étape et d’un titre d’étape dans l’application mobile Warehouse Management.](media/step-icon-example.png "Exemple d’une icône d’étape et d’un titre d’étape dans l’application mobile Warehouse Management")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Activer cette fonctionnalité dans votre système
 
@@ -350,13 +350,13 @@ Cet exemple explique comment configurer des icônes et des titres d’étape pou
 
 L’illustration suivante présente ce flux de tâches.
 
-![Diagramme du flux de tâches](media/step-icons-example-task-flow.png "Diagramme du flux de tâches")
+![Diagramme du flux de tâches.](media/step-icons-example-task-flow.png "Diagramme du flux de tâches")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Créer une classe d’étape pour la page de saisie du conteneur
 
 La page de saisie du conteneur permet au collaborateur de scanner ou d’entrer un ID de conteneur.
 
-![Page de saisie du conteneur](media/step-icons-example-container-input.png "Page de saisie du conteneur")
+![Page de saisie du conteneur.](media/step-icons-example-container-input.png "Page de saisie du conteneur")
 
 Dans la page de saisie du conteneur, le nom de contrôle du champ de saisie est `ContainerId`. Comme ce nom de contrôle ne figure pas sur la [liste des ID d’étape](#step-ids-classes), vous ne trouverez pas d’étape existante basée sur celui-ci. Par conséquent, vous devez créer une classe d’étape qui représente l’étape. Voici un exemple :
 
@@ -382,7 +382,7 @@ Pour affecter une icône d’étape, définissez `defaultStepIcon` sur l’un de
 
 La page de saisie du poids permet au collaborateur de saisir un poids.
 
-![Page de saisie du poids](media/step-icons-example-weight-input.png "Page de saisie du poids")
+![Page de saisie du poids.](media/step-icons-example-weight-input.png "Page de saisie du poids")
 
 Dans la page de saisie du poids, le nom de contrôle du champ de saisie est `Weight`, qui figure dans la [liste des ID d’étape](#step-ids-classes). Par conséquent, si l’icône et le titre de l’étape définis dans la classe `WHSMobileAppStepWeight` vous conviennent, vous n’avez rien à changer pour cette étape.
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941053"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350810"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Résoudre les problèmes lors de la synchronisation initiale
 
@@ -38,7 +38,7 @@ Cette rubrique fournit des informations sur la résolution des problèmes de l�
 
 Après avoir activé les modèles de mappage, le statut des cartes doit être **En cours d’exécution**. Si le statut est défini sur **Pas en cours d’exécution**, des erreurs se sont produites lors de la synchronisation initiale. Pour afficher les erreurs, sélectionnez l’onglet **Détails de la synchronisation initiale** sur la page **Double écriture**.
 
-![Erreur sur l’onglet Détails de la synchronisation initiale](media/initial_sync_status.png)
+![Erreur sur l’onglet Détails de la synchronisation initiale.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Vous ne pouvez pas terminer la synchronisation initiale : 400 Bad Request
 
@@ -85,7 +85,7 @@ Pour régler le problème, procédez comme suit.
 1. Connectez-vous à l’application Finance and Operations.
 2. Sur la page **Applications Azure Active Directory**, supprimez le client **DtAppID**, puis ajoutez-le à nouveau.
 
-![Client DtAppID dans la liste des applications Azure AD](media/aad_applications.png)
+![Client DtAppID dans la liste des applications Azure AD.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Échecs d’auto-référence ou de référence circulaire lors de la synchronisation initiale
 
@@ -115,11 +115,11 @@ Si des ligne de la table fournisseur ont des valeurs dans les colonnes **Primary
     2. Recherchez **primarycontactperson** pour trouver la colonne source **PrimaryContactPersonId**.
     3. Sélectionnez **Actions**, puis sélectionnez **Supprimer**.
 
-        ![Suppression de la colonne PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Suppression de la colonne PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. Répétez cette procédure pour supprimer la colonne **InvoiceVendorAccountNumber**.
 
-        ![Suppression de la colonne InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Suppression de la colonne InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. Enregistrez vos modifications dans le mappage.
 
@@ -129,11 +129,11 @@ Si des ligne de la table fournisseur ont des valeurs dans les colonnes **Primary
     2. Sélectionnez la table **Fournisseurs V2**.
     3. Dans le volet Actions, sélectionnez **Options**, puis sélectionnez **Change tracking**.
 
-        ![Sélection de l’option de Suivi des modifications](media/selfref_options.png)
+        ![Sélection de l’option de Suivi des modifications.](media/selfref_options.png)
 
     4. Sélectionnez **Désactiver le suivi des modifications**.
 
-        ![Sélection du paramètre Désactiver le suivi des modifications](media/selfref_tracking.png)
+        ![Sélection du paramètre Désactiver le suivi des modifications.](media/selfref_tracking.png)
 
 3. Exécutez la synchronisation initiale du mappage **Fournisseurs V2 (fournisseurs\_msdyn)**. La synchronisation initiale doit s’exécuter correctement sans aucune erreur.
 4. Exécutez la synchronisation initiale pour le mappage **Contacts CDS V2 (contacts)**. Vous devez synchroniser ce mappage si vous souhaitez synchroniser la colonne de contact principal sur la table des fournisseurs, car la synchronisation initiale doit également être effectuée pour les lignes de contacts.
@@ -162,11 +162,11 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
     2. Recherchez **contactperson** pour trouver la colonne source **ContactPersonID**.
     3. Sélectionnez **Actions**, puis sélectionnez **Supprimer**.
 
-        ![Suppression de la colonne PrimaryContactPersonId](media/cust_selfref3.png)
+        ![Suppression de la colonne PrimaryContactPersonId.](media/cust_selfref3.png)
 
     4. Répétez cette procédure pour supprimer la colonne **InvoiceAccount**.
 
-        ![Suppression de la colonne InvoiceAccount](media/cust_selfref4.png)
+        ![Suppression de la colonne InvoiceAccount.](media/cust_selfref4.png)
 
     5. Enregistrez vos modifications dans le mappage.
 
@@ -176,11 +176,11 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
     2. Sélectionnez la table **Clients V3**.
     3. Dans le volet Actions, sélectionnez **Options**, puis sélectionnez **Change tracking**.
 
-        ![Sélection de l’option de Suivi des modifications](media/selfref_options.png)
+        ![Sélection de l’option de Suivi des modifications.](media/selfref_options.png)
 
     4. Sélectionnez **Désactiver le suivi des modifications**.
 
-        ![Sélection du paramètre Désactiver le suivi des modifications](media/selfref_tracking.png)
+        ![Sélection du paramètre Désactiver le suivi des modifications.](media/selfref_tracking.png)
 
 3. Exécutez la synchronisation initiale pour le mappage **Clients V3 (Comptes)**. La synchronisation initiale doit s’exécuter correctement sans aucune erreur.
 4. Exécutez la synchronisation initiale pour le mappage **Contacts CDS V2 (contacts)**.
@@ -196,7 +196,7 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 
         L’illustration suivante montre un projet qui met à jour **CustomerAccount** et **ContactPersonId**.
 
-        ![Projet d’intégration de données pour mettre à jour CustomerAccount et ContactPersonId](media/cust_selfref6.png)
+        ![Projet d’intégration de données pour mettre à jour CustomerAccount et ContactPersonId.](media/cust_selfref6.png)
 
     2. Ajoutez les critères de l’entreprise dans le filtre du côté Dataverse, car seules les lignes correspondant aux critères de filtrage seront mis à jour dans l’application Finance and Operations. Pour ajouter un filtre, sélectionnez le bouton de filtre. Ensuite, dans la boîte de dialogue **Modifier la requête**, vous pouvez ajouter une requête de filtre telle que **\_msdyn\_company\_value eq ’\<guid\>’**. 
 
@@ -204,7 +204,7 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 
         Si vous n’entrez pas de requête de filtre pour **\_msdyn\_company\_value**, toutes les lignes seront synchronisées.
 
-        ![Ajout d’une requête de filtre](media/cust_selfref7.png)
+        ![Ajout d’une requête de filtre.](media/cust_selfref7.png)
 
     La synchronisation initiale des lignes est maintenant terminée.
 

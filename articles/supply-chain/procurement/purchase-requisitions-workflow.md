@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188171"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353466"
 ---
 # <a name="purchase-requisition-workflow"></a>workflow de demande d’achat
 
@@ -51,7 +51,7 @@ L’illustration suivante indique le flux d’une demande d’achat dans le proc
 -   **Acheteur** : utilisateur qui effectue une révision d’approvisionnement et peut approuver le document.
 -   **Responsable du demandeur** : utilisateur qui effectue une révision décisionnelle et peut approuver le document.
 
-![Processus de révision du workflow des demandes d’achat](./media/purchreqworkflowoverview_submission.gif)  
+![Processus de révision du workflow des demandes d’achat.](./media/purchreqworkflowoverview_submission.gif)  
 Dans cet exemple, le processus de workflow de la demande d’achat inclut les étapes suivantes :
 
 1.  Le préparateur envoie une demande d’achat pour révision.
@@ -74,7 +74,7 @@ Les rôles suivants sont inclus dans le processus de workflow pour cet exemple :
 -   **Responsable de département** : utilisateur qui effectue une révision des dépenses et peut approuver le document.
 -   **Responsable de groupe** : utilisateur qui effectue une révision d’autorité de signature et peut approuver le document.
 
-![Processus de révision du workflow de la ligne de demande d’achat](./media/purchreqlineworkflowoverview.gif)  
+![Processus de révision du workflow de la ligne de demande d’achat.](./media/purchreqlineworkflowoverview.gif)  
 Dans cet exemple, le processus de workflow pour les lignes de demande d’achat inclut les étapes suivantes :
 
 1.  Le préparateur envoie une demande d’achat pour révision. Chaque ligne est acheminée vers le réviseur configuré pour la recevoir dans le processus de workflow.

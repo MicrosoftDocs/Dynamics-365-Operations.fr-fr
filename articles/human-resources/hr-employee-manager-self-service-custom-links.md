@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b85084a2ccb9e9cad09f86af43995bfbce44a1e9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: fd92ab2646031a488352e1a0d250c21d1527eaa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051327"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357237"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Créer des liens personnalisés dans le libre-service des responsables
 
@@ -38,11 +38,11 @@ Pour utiliser cette fonctionnalité, activez **Liens personnalisés dans le libr
 
 2. Sous **Configurer des liens pour les responsables**, vous pouvez ajouter, modifier ou supprimer un lien. Vous pouvez également regrouper les liens afin qu’ils s’affichent dans un groupe dans le libre-service des responsables.
 
-   ![Configurer des liens personnalisés dans le libre-service des responsables](./media/hr-employee-manager-self-service-custom-links-setup.png)
+   ![Configurer des liens personnalisés dans le libre-service des responsables.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
 3. Pour voir les liens, accédez à l’onglet **Mon équipe** dans le libre-service des employés.
 
-   ![Afficher des liens personnalisés dans le libre-service des responsables](./media/hr-employee-manager-self-service-custom-links-view.png)
+   ![Afficher des liens personnalisés dans le libre-service des responsables.](./media/hr-employee-manager-self-service-custom-links-view.png)
 
 ## <a name="see-also"></a>Voir également :
 

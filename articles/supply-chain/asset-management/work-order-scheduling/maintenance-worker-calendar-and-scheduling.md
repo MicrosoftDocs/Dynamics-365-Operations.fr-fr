@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808134"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354130"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Planification et calendrier d’agent de maintenance
 
@@ -32,7 +32,7 @@ Lorsque vous planifiez les ordres de travail, vous créez un programme pour les 
 
 La capture d’écran ci-dessous présente l’exemple d’un agent de maintenance associé à une ressource qui utilise le calendrier du temps de travail « Production ».
 
-![Figure 1](media/01-work-order-scheduling.png)
+![Figure 1.](media/01-work-order-scheduling.png)
 
 Le paramétrage du calendrier pour les outils et les actifs n’est pas nécessaire par rapport à la planification des ordres de travail. On suppose que les outils et les actifs sont disponibles 24 heures par jour pour maintenance.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349008"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Évaluer le modèle de prédiction de paiement client initial (version préliminaire)
 
@@ -33,32 +33,32 @@ Cette rubrique explique comment évaluer un modèle de prédiction après avoir 
 
 Sur la page **Paramètres Informations financières** dans Microsoft Dynamics 365 Finance, un lien **Améliorez la précision du modèle** apparaît à côté du score de précision.
 
-[![Lien Améliorer la précision du modèle](./media/prediction-model.png)](./media/prediction-model.png)
+[![Lien Améliorer la précision du modèle.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Ce lien vous amène à AI Builder, où vous pouvez en savoir plus sur le modèle actuel et prendre des mesures pour l’améliorer. L’illustration suivante présente la page ouverte.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 La page ouverte affiche les informations suivantes :
 
 - Dans la section **Performance**, la note de performance du modèle fournit une perspective sur la qualité du modèle. Pour plus d’informations sur cette note, voir [Performances du modèle de prédiction](/ai-builder/prediction-performance) dans la documentation AI Builder.
 - La section **Données les plus influentes** montre l’importance des différents types d’entrée de données pour votre modèle. Vous pouvez évaluer cette liste et les pourcentages correspondants pour déterminer si les informations sont cohérentes avec ce que vous savez sur votre entreprise et votre marché.
 
-    [![Sections de performances et de données les plus influentes pour le modèle de prédiction](./media/models.png)](./media/models.png)
+    [![Sections de performances et de données les plus influentes pour le modèle de prédiction.](./media/models.png)](./media/models.png)
 
 - Dans la section **Performance**, sélectionnez **Voir les détails** pour en savoir plus sur la note et d’autres considérations. Dans l’illustration suivante, les détails montrent que le modèle utilise moins d’informations que ce qui est recommandé. Par conséquent, le système a généré un message d’avertissement.
 
-    [![Avertissements sur les performances du modèle](./media/details.png)](./media/details.png)
+    [![Avertissements sur les performances du modèle.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Approfondir
 
 Bien que la précision soit un bon point de départ pour évaluer un modèle et que la note de performance offre une perspective, AI Builder fournit des mesures plus détaillées que vous pouvez utiliser pour votre évaluation. Pour télécharger les détails, dans la section **Performance**, sélectionnez le bouton points de suspension (**...**) à côté du bouton **Utiliser le modèle**, puis sélectionnez **Télécharger des métriques détaillées**.
 
-[![Commande Télécharger les métriques détaillées](./media/performance.png)](./media/performance.png)
+[![Commande Télécharger les métriques détaillées.](./media/performance.png)](./media/performance.png)
 
 L’illustration suivante montre le format dans lequel vous pouvez télécharger les données.
 
-[![Format des données téléchargées](./media/data-format.png)](./media/data-format.png)
+[![Format des données téléchargées.](./media/data-format.png)](./media/data-format.png)
 
 Pour une analyse plus approfondie des résultats, un bon point de départ est de revoir la métrique "Matrice de confusion". Par exemple, voici les données affichées pour cette métrique dans l’illustration précédente.
 
