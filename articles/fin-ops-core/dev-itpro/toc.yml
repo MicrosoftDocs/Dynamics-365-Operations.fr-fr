@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.19 (juin\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.18 (mai\_2021)"
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -366,6 +364,8 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: FAQ sur la maintenance planifiée dans les environnements en libre-service
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Continuité des activités et récupération d’urgence
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Terminer l’intégration d’Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute et Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Appliquer des mises à jour et des extensions à Commerce Scale Unit (cloud)
                   href: deployment/Update-retail-channel.md
+                - name: Mise à jour automatique pour Commerce Scale Unit (cloud)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Initialiser Commerce Scale Unit (cloud)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Migrer les canaux vers une autre Commerce Scale Unit
@@ -388,10 +390,12 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: Préparer les déploiements locaux
                   items:
-                    - name: Vue d’ensemble de déploiement local
+                    - name: Vue d’ensemble du déploiement local
                       href: deployment/on-premises-overview.md
                     - name: Planifier et préparer les déploiements locaux
                       href: deployment/plan-onprem-deployment.md
+                    - name: Logiciels pris en charge par Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
                     - name: Dimension du matériel requise
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Authentification dans Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Configurer des environnements de développement à boîte unique
                   href: dev-tools/configure-developer-vm.md
-                - name: Créer des utilisateurs sur des machines de développement
-                  href: dev-tools/enable-development-machine.md
                 - name: FAQ sur les ordinateurs virtuels de développement et de version n’accordant pas l’accès à un administrateur
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Renommer les environnements locaux pour accéder à Azure DevOps
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Partie et carnet d’adresses global
                       href: data-entities/dual-write/party-gab.md
-                    - name: Utilisation de Power Portal avec le modèle de données de partie
+                    - name: Utilisation des portails Microsoft Power Apps avec le modèle de données de partie
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,9 +1606,11 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Mise à niveau d’AX 2012 - Mise en service
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: "Effectuer une mise à niveau depuis AX\_2012 - FAQ sur la mise à niveau de données"
+                  href: migration-upgrade/upgrade-faq.md
                 - name: "Modifications affectant la mise à niveau à partir d’AX\_2012"
                   items:
-                    - name: Rendre unique le délimiteur du plan de comptes
+                    - name: Rendre unique le délimiteur du plan comptable
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
                     - name: Mettre à niveau les journaux de document simple et les réévaluations de devise
                       href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md

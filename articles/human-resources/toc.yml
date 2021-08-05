@@ -3,8 +3,10 @@
   items:
     - name: Nouveautés
       items:
-        - name: Nouveautés ou modifications dans Human Resources
+        - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "12\_juillet\_2021"
+          href: hr-whats-new-2021-07-12.md
         - name: "22\_juin\_2021"
           href: hr-whats-new-2021-06-22.md
         - name: "20\_mai\_2021"
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: FAQ sur le lancement
           href: hr-admin-go-live-faq.md
+        - name: FAQ sur la fusion de l’infrastructure de Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: Ressources documentaires
           items:
             - name: Système d’aide
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Traiter les régimes de rémunération
               href: hr-compensation-process.md
+            - name: Marquer un employé comme prêt pour le paiement
+              href: hr-compensation-payroll.md
         - name: Gérer les avantages
           items:
             - name: Gestion des avantages
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Configurer les types d’événements de vie
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Créer des types de plan
+                    - name: Vue d’ensemble du type de plan
                       href: hr-benefits-setup-plan-types.md
                     - name: Paramétrer des codes motif
                       href: hr-benefits-setup-reason-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Afficher les calendriers des équipes et de la société
               href: hr-employee-self-service-calendar.md
+            - name: Configurer le rôle de gestionnaire des absences
+              href: hr-configure-absence-manager.md
             - name: Gérer les stratégies d’achat et de vente de congés
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Créer des flux de travail d’achat et de vente de congés

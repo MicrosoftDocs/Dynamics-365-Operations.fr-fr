@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: "Supply Chain Management\_10.0.19 (juin\_2021)"
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: "Supply Chain Management\_10.0.18 (mai\_2021)"
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Créer une commande fournisseur pour un fournisseur occasionnel
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Créer un ordre de lancement d’achat à la création de la commande fournisseur
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Créer un ordre de lancement d’achat à partir d’un contrat d’achat
+                - name: Appliquer un contrat d’achat lors de la création d’une commande fournisseur
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Créer un ordre de retour d’achat
                   href: procurement/tasks/create-purchase-return-order.md

@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: "Finance\_10.0.19 (juin\_2021)"
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: "Finance\_10.0.18 (mai\_2021)"
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: État des services transfrontaliers
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Droits de douane sur les achats
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahreïn
               items:
                 - name: Vue d’ensemble du Bahreïn
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Générer un fichier de déclaration d’échanges de biens de l’UE
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Déclaration d’échanges de biens française
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Déclaration d’échanges de biens italienne
+                      href: localizations/emea-ita-intrastat.md
                 - name: États du journal de stock
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Délais d’émission de facture
@@ -2964,10 +2968,16 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Relevé du chiffre d’affaires et des soldes
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: Différence de change Comptabilité fournisseur/Comptabilité client divisée
+                - name: Répartir la différence de change de Comptabilité fournisseur/Comptabilité client
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Déclaration de TVA avec registres (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Préparer les rapports JPK-V7M
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: Rapports JPK-V7M
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Détails de scénarios métier spécifiques dans le rapport JPK-V7M
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Qatar
               items:
                 - name: Vue d’ensemble du Qatar
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Provisions pour créances irrécouvrables dans la comptabilité client
                       href: localizations/rus-bad-debts.md
+                    - name: Calcul des registres d’actifs et de passifs fiscaux
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Arabie Saoudite
               items:
                 - name: Vue d’ensemble de l’Arabie Saoudite
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Générer des états aux formats Office avec des images intégrées
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Concevoir un format ER pour générer un rapport dans Excel avec des images incorporées aux en-têtes ou pieds de page
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Supprimer les caractères de nomenclature dans les fichiers générés
