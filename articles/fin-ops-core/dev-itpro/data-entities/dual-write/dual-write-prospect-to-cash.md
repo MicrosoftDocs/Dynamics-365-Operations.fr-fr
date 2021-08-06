@@ -4,30 +4,21 @@ description: Cette rubrique fournit des informations sur le prospect en disponib
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0fcbc5b0f571e9f2cf7f1ad7c1e976d022199b47
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361389"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542269"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Un objectif important de la plupart des entreprises consiste à convertir les prospects en clients, puis de maintenir une relation commerciale continue avec ces clients. Dans les applications Microsoft Dynamics 365, le processus prospect en disponibilités se fait via des flux de travail de traitement des commandes ou des devis, et les données financières sont rapprochées et reconnues. L’intégration de prospect en disponibilités à double écriture crée un flux de travail qui prend un devis et une commande provenant de Dynamics 365 Sales ou Dynamics 365 Supply Chain Management, et rend l’offre et la commande disponibles dans les deux applications.
 
@@ -70,6 +61,7 @@ Les devis sont créés dans Sales ou Supply Chain Management. Si vous créez un 
 + Les colonnes **Conditions de transport**, **Conditions de livraison**, **Méthode d’expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces colonnes, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles la table est synchronisée.
 
 Si vous utilisez également la solution Field Service, assurez-vous de réactiver le paramètre **Création rapide de ligne de devis**. La réactivation du paramètre vous permet de continuer à créer des lignes de devis à l’aide de la fonction de création rapide.
+
 1. Accédez à votre application Dynamics 365 Sales.
 2. Sélectionnez l’icône des paramètres dans la barre de navigation supérieure.
 3. Sélectionnez **Paramètres avancés**.
@@ -121,43 +113,25 @@ Prospect en disponibilité comprend un ensemble de mappages de tables de base qu
 
 | Applications Finance and Operations | Applications Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
-| En-têtes de facture client V2    | factures                          | La table En-têtes de facture de vente V2 de l’application Finance and Operations contient des factures pour les commandes client et des factures en texte libre. Un filtre est appliqué dans Dataverse pour la double écriture qui filtrera tous les documents de facture financière. |
-| Lignes de facture client V2      | invoicedetails                    |             |
-| En-têtes de commande client CDS     | salesorders                       |             |
-| Lignes de commande client CDS       | salesorderdetails                 |             |
-| Codes d’origine des commandes client    | msdyn\_salesorderorigins          |             |
-| En-tête de devis de vente CDS  | devis                            |             |
-| Lignes de devis de vente CDS   | quotedetails                      |             |
+[Tous les produits](mapping-reference.md#138) | msdyn_globalproducts | |
+[Clients V3](mapping-reference.md#101) | comptes | |
+[Clients V3](mapping-reference.md#116) | contacts | |
+[Contacts V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[En-têtes de commande client CDS](mapping-reference.md#217) | salesorders | |
+[Lignes de commande client CDS](mapping-reference.md#216) | salesorderdetails | |
+[En-tête de devis de vente CDS](mapping-reference.md#215) | devis | |
+[Lignes de devis de vente CDS](mapping-reference.md#214) | quotedetails | |
+[Produits lancés V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[En-têtes de facture client V2](mapping-reference.md#118) | factures | La table En-têtes de facture de vente V2 de l’application Finance and Operations contient des factures pour les commandes client et des factures en texte libre. Un filtre est appliqué dans Dataverse pour la double écriture qui filtrera tous les documents de facture financière. |
+[Lignes de facture client V2](mapping-reference.md#117) | invoicedetails | |
+[Codes d'origine des commandes client](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Voici les cartes des tables principales associées pour le prospect en disponibilités :
-
-+ [Clients V3 vers comptes](customer-mapping.md#customers-v3-to-accounts)
-+ [Contacts CDS V2 vers contacts](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Clients V3 vers contacts](customer-mapping.md#customers-v3-to-contacts)
-+ [Produits lancés V2 vers msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Tous les produits vers msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Liste de prix](product-mapping.md)
+Pour plus d’informations sur les tarifs, voir [Expérience produit uniformisée](product-mapping.md).
 
 ## <a name="limitations"></a>Limitations
+
 - Les commandes de retour ne sont pas prises en charge.
 - Les notes de crédit ne sont pas prises en charge.
-- Les dimensions financières doivent être définies pour les données principales, par exemple, client et fournisseur. Lorsqu’un client est ajouté à une offre ou à une commande client, les dimensions financières associées à l’enregistrement client sont automatiquement transmises à la commande. Actuellement, la double écriture n’inclut pas les données de dimensions financières pour les données principales. 
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
+- Les dimensions financières doivent être définies pour les données principales, par exemple, client et fournisseur. Lorsqu’un client est ajouté à une offre ou à une commande client, les dimensions financières associées à l’enregistrement client sont automatiquement transmises à la commande. Actuellement, la double écriture n’inclut pas les données de dimensions financières pour les données principales.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

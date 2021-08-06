@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: caf45eda4ad0e7140097cb856a6ef0a65d7ecba9
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479278"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638119"
 ---
 # <a name="video-player-module"></a>Module de lecture vidéo
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -48,7 +47,7 @@ L’image suivante montre un exemple de module de lecture vidéo sur une page d�
 
 ### <a name="video-player-module-properties"></a>Propriétés du module de lecture vidéo
 
-| Nom de la propriété         | Valeur                                | Description  |
+| Nom de la propriété         | Valeur                               | Description |
 |-----------------------|-------------------------------------|-------------|
 | Titre               | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d'en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |
 | Texte enrichi             | Texte du paragraphe | Les modules prennent en charge le texte de paragraphe dans en format de texte enrichi. Certains capacités de texte enrichi de base sont prises en charge, telles que les liens hypertexte, le gras, le souligné, et l'italique. Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s’applique au module. |
@@ -65,7 +64,7 @@ L’image suivante montre un exemple de module de lecture vidéo sur une page d�
 | Niveau du masque            | Nombre de **0** à **100** | Masque qui est appliqué à la vidéo pour le style. |
 
 > [!IMPORTANT]
-> Les propriétés **Titre**, **Texte enrichi**, **Lien** et **Sous-texte** sont disponibles à partir de 10.0.20 de Dynamics 365 Commerce.
+> Les propriétés **Titre**, **Texte enrichi**, **Lien** et **Sous-texte** sont disponibles à partir de la version 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Ajouter un module de lecture vidéo à une page
 

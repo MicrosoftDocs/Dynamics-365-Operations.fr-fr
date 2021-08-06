@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350738"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542489"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -61,14 +61,14 @@ Après avoir installé l’outil Package Deployer, installez le package de solut
 
 Pour activer le journal de suivi, procédez comme suit.
 
-1. Connectez-vous à l’application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres**, puis, sous **Système**, sélectionnez **Administration**.
+1. Connectez-vous à l'application d'engagement client , ouvrez la page **Paramètres** puis, sous **Système**, sélectionnez **Administration**.
 2. Sur la page **Administration**, sélectionnez **Paramètres système**.
 3. Sur l’onglet **Personnalisation**, dans la colonne **Suivi de plug-ins et d’activités de workflow personnalisées**, sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
 
 
 Pour afficher le journal de suivi, procédez comme suit.
 
-1. Connectez-vous à l’application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres**, puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
+1. Connectez-vous à l'application d'engagement client , ouvrez la page **Paramètres** puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
 2. Recherchez les journaux de suivi où la colonne **Nom du type** est définie sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
 

@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a01fb446a1b7dd07e0429b96ff949b88a591f800
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: b1d00b9173fd1d5faee71e0fec6c9d1546989e41
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479458"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638852"
 ---
 # <a name="interactive-feature-module"></a>Module de fonctionnalité interactive
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de fonctionnalités interactives et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -47,13 +46,13 @@ Le module de fonctionnalité interactive peut prendre en charge diverses disposi
 
 ## <a name="interactive-feature-module-properties"></a>Propriétés du module de fonctionnalité interactive
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête de texte pour le module de fonctionnalité interactive. |
 
 ## <a name="interactive-feature-item-module-properties"></a>Propriétés du module d’élément de fonctionnalité interactive
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Image         | Fichier image | Image qui représente un produit ou une catégorie. L’image peut être chargée dans le générateur de site de la bibliothèque multimédia dans Commerce, ou une image existante peut être utilisée. |
 | Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d'en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |

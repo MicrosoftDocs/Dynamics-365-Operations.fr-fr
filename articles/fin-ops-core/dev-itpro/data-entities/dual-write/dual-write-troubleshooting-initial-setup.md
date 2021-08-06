@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350834"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542413"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
@@ -71,7 +71,7 @@ Pour fournir le consentement de l’application, procédez comme suit.
 
 Pour garantir le bon fonctionnement de la double écriture, les sociétés que vous sélectionnez lors de la configuration sont créées dans l’environnement Dataverse. Par défaut, ces sociétés sont en lecture seule et la propriété **IsDualWriteEnable** est définie sur la valeur **True**. De plus, le propriétaire et l’équipe de l’unité commerciale propriétaire par défaut et l’équipe sont créés et comprennent le nom de l’entreprise. Avant d’activer les cartes, vérifiez que le propriétaire de l’équipe par défaut est spécifié. Pour trouver la table **Sociétés (CDM\_Company)**, procédez comme suit.
 
-1. Dans l’application pilotée par modèle dans Dynamics 365, sélectionnez le filtre dans le coin supérieur droit.
+1. Dans l'application d'engagement client, sélectionnez le filtre dans le coin supérieur droit.
 2. Dans la liste déroulante sélectionnez **Société**.
 3. Sélectionnez **Exécuter** pour voir les résultats.
 4. Sélectionnez la société qui était liée lorsque vous avez configuré la double écriture.

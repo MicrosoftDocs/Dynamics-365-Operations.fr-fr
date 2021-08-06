@@ -2,7 +2,7 @@
 title: Mise en route du calcul de la taxe
 description: Cette rubrique explique comment paramétrer le calcul des taxes.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336654"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644972"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Prise en main du calcul des taxes (Version préliminaire)
 
@@ -58,15 +58,16 @@ Avant de pouvoir effectuer les étapes de cette rubrique, les conditions préala
 Les étapes de cette section ne sont pas liées à une entité juridique spécifique. Vous ne devez effectuer cette procédure qu’une seule fois et vous pouvez la réaliser dans n’importe quelle entité juridique dans RCS.
 
 1. Connectez-vous à [RCS](https://marketing.configure.global.dynamics.com/).
-2. Dans l’espace de travail **États électroniques**, ajoutez un nouveau fournisseur de configuration. Utilisez le nom de votre entreprise comme nom du fournisseur. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Sélectionnez le fournisseur de configuration que vous venez de créer, puis sélectionnez **Activer**.
-4. Sélectionnez le fournisseur de configuration **Microsoft**, puis sélectionnez **Référentiels**.
-5. Dans le champ **Type**, sélectionnez **Global**.
-6. Cliquez sur **Ouvrir**.
-7. Accédez à **Modèle de données fiscales**, développez l’arborescence de fichiers, puis sélectionnez **Configuration de taxe**.
-8. Sélectionnez la dernière version, puis sélectionnez **Importer**.
-9. Revenir à l’espace de travail **Fonctionnalités de globalisation (Version préliminaire)**, sélectionnez **Fonctionnalités**, sélectionnez la vignette **Calcul des taxes**, puis sélectionnez **Ajouter**.
-10. Sélectionnez l’une des fonctionnalités suivantes :
+2. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et activez la fonctionnalité **Fonctions de globalisation**.
+3. Dans l’espace de travail **États électroniques**, ajoutez un nouveau fournisseur de configuration. Utilisez le nom de votre entreprise comme nom du fournisseur. Pour plus d’informations, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Sélectionnez le fournisseur de configuration que vous venez de créer, puis sélectionnez **Activer**.
+5. Sélectionnez le fournisseur de configuration **Microsoft**, puis sélectionnez **Référentiels**.
+6. Dans le champ **Type**, sélectionnez **Global**.
+7. Cliquez sur **Ouvrir**.
+8. Accédez à **Modèle de données fiscales**, développez l’arborescence de fichiers, puis sélectionnez **Configuration de taxe**.
+9. Sélectionnez la dernière version, puis sélectionnez **Importer**.
+10. Revenez à l’espace de travail **Fonctions de globalisation**, sélectionnez **Fonctionnalités**, sélectionnez la vignette **Calcul des taxes**, puis sélectionnez **Ajouter**.
+11. Sélectionnez l’une des fonctionnalités suivantes :
 
     - **Nouvelle fonctionnalité** : créer une configuration de fonctionnalité avec un contenu vierge.
     - **Sur la base d’une fonctionnalité existante** : créer une fonctionnalité à partir d’une fonctionnalité existante et copier le contenu de la configuration de la fonctionnalité existante.

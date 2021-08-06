@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 951136a6a5197d2ec081b325df2980ad2fcf6e42
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350883"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542710"
 ---
 # <a name="dual-write-overview"></a>Vue d’ensemble de la double écriture
 
@@ -84,7 +84,7 @@ La double écriture crée un mappage entre les concepts des applications Finance
 
 La double écriture assure l’intégration des données entre les applications Microsoft Dynamics 365. Cette infrastructure robuste relie des environnements et permet à différentes applications métier de fonctionner ensemble. Voici les principales raisons pour lesquelles vous devez utiliser la double écriture :
 
-+ La double écriture offre une intégration étroitement couplée, en temps quasi réel et bidirectionnelle entre les applications Finance and Operations et les applications pilotées par modèle de Dynamics 365. Cette intégration fait de Microsoft Dynamics 365 un emplacement central pour toutes vos solutions d’entreprise. Les clients qui utilisent Dynamics 365 Finance et Dynamics 365 Supply Chain Management, mais qui utilisent des solutions autres que Microsoft pour la gestion de la relation client, se tournent vers Dynamics 365 pour sa prise en charge de la double écriture.
++ La double écriture offre une intégration étroitement couplée, en temps quasi réel et bidirectionnelle entre les applications Finance and Operations et les applications d'engagement client. Cette intégration fait de Microsoft Dynamics 365 un emplacement central pour toutes vos solutions d’entreprise. Les clients qui utilisent Dynamics 365 Finance et Dynamics 365 Supply Chain Management, mais qui utilisent des solutions autres que Microsoft pour la gestion de la relation client, se tournent vers Dynamics 365 pour sa prise en charge de la double écriture.
 + Les données des clients, des produits, des opérations, des projets et de l’Internet des objets (IoT) sont automatiquement envoyées à Dataverse via la double écriture. Cette connexion est utile pour les entreprises intéressées par les extensions Power Platform.
 + L’infrastructure de double écriture suit le principe no-code/low-code. Un effort d’ingénierie minimal est nécessaire pour étendre les mappages entre tables standard et pour inclure des mappages personnalisés.
 + La double écriture prend en charge à la fois le mode en ligne et le mode hors connexion. Microsoft est la seule société qui offre une prise en charge des modes en ligne et hors connexion.

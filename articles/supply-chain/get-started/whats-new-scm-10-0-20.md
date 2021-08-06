@@ -1,5 +1,5 @@
 ---
-title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
+title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,34 +10,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301744"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641054"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version préliminaire de Microsoft Dynamics 365 Supply Chain Management 10.0.20. Cette version a un numéro de build de 10.0.886 et est disponible comme suit :
+Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.20. Cette version a un numéro de build de 10.0.886 et est disponible comme suit :
 
 - **Version préliminaire de la version :** mai 2021
 - **Disponibilité générale de la version (mise à jour automatique) :** juillet 2021
 - **Disponibilité générale de la version (mise à jour automatique) :** août 2021
 
-
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
 Le tableau suivant répertorie les fonctionnalités comprises dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe.
 
-La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d’autres peuvent déjà être généralement disponibles.
+La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 | Fonctionnalités | Fonctionnalité | Informations supplémentaires |
 |---|---|---|
-| Inventaire et logistique | [Amélioration des performances des commandes client](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Cette fonctionnalité rend l’interface utilisateur plus réactive lors de l’ouverture de commandes client, en particulier les commandes comportant de nombreuses lignes. |
+| Inventaire&nbsp;et&nbsp;logistique | [Amélioration des performances des commandes client](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Cette fonctionnalité rend l’interface utilisateur plus réactive lors de l’ouverture de commandes client, en particulier les commandes comportant de nombreuses lignes. |
 | Fabrication | [Invoquer les flux d’automatisation de processus pour créer des ordres de qualité](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [Invoquer les flux d’automatisation de processus pour créer des ordres de qualité](../production-control/process-automation-quality-orders.md ) |
 | Fabrication | [Interface d’exécution améliorée de l’atelier de production pour la fabrication](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [Configurer l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md) |
 | Gestion des informations sur les produits | [Gérer les changements de formules et de leurs composants](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Gérer les changements de formules et de leurs composants](../engineering-change-management/manage-formula-changes.md) |
@@ -47,9 +45,9 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 Le tableau suivant répertorie les améliorations de fonctionnalités incluses dans cette version. Chacune d’elles apporte une amélioration incrémentielle à une fonctionnalité existante. Comme il ne s’agit que d’améliorations, elles ne sont pas répertoriées dans le [plan de version](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Cependant, pour s’assurer que ces améliorations n’entrent pas en conflit avec vos personnalisations ou préférences existantes, chacune d’elles est désactivée par défaut (sauf indication contraire). Si vous souhaitez utiliser l’une de ces fonctionnalités, vous devez l’activer explicitement dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Fonctionnalités | Nom de la fonctionnalité dans Gestion des fonctionnalités | Informations supplémentaires |
+| Fonctionnalités | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
 |---|---|---|
-| Planification | Jours négatifs pour l’optimisation de la planification | Cette fonctionnalité en version préliminaire permet à l’optimisation de la planification de prendre en compte la tolérance de retard en fonction du paramètre **Jours négatifs** défini dans les groupes de couverture. |
+| Planification générale | Jours négatifs pour l’optimisation de la planification | Cette fonctionnalité permet à l’optimisation de la planification de prendre en compte la tolérance de retard en fonction du paramètre **Jours négatifs** défini dans les groupes de couverture. |
 | Planification | Autorisation parallèle de l’ajustement de la prévision de la demande | Cette fonctionnalité permet l’autorisation parallèle de la prévision de la demande ajustée dans la page **Prévision de la demande ajustée**. Cette fonctionnalité a pour but d’augmenter les performances lorsqu’un grand nombre de prévisions est autorisé. Lors de l’autorisation, l’utilisateur peut spécifier le **Nombre de fils de discussion** dans la boîte de dialogue d’autorisation. |
 | Planification | (Aperçu) Confirmation et consolidation pouvant être traitées par lots pour les lots de commandes planifiées de consommables et d’articles emballés | Cette fonctionnalité vous permet d’utiliser les traitements par lots pour confirmer et consolider les commandes planifiées de consommables et d’articles emballés. |
 | Contrôle de la production | Copier les gammes génériques | Cette fonctionnalité améliore la fonction de copie de la gamme pour permettre aux utilisateurs de copier des gammes qui ne sont pas spécifiques à un élément. Ellle permet au système de mettre à jour toutes les informations pertinentes (telles que le site, le groupe de gammes, les besoins en ressources et les différentes heures) une fois que la fonction de copie de la gamme a été utilisée pour remplacer une gamme qui n’est pas encore affectée à un article. |
@@ -75,7 +73,7 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.20 des applications Finance and Operations (juillet 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.20 des applications Finance and Operations (juillet 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

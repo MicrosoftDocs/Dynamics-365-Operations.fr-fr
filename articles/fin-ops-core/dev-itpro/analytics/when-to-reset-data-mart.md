@@ -2,7 +2,7 @@
 title: FAQ sur les réinitialisations du mini-data warehouse
 description: Cette rubrique fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266607"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638265"
 ---
 # <a name="data-mart-resets-faq"></a>FAQ sur les réinitialisations du mini-data warehouse
 
@@ -37,6 +37,9 @@ Si une ou plusieurs des affirmations suivantes s’appliquent à votre situation
 
 - La base de données de l’application a été restaurée.
 - Vous avez ouvert un ticket de support et un ingénieur du support vous a demandé de réinitialiser le mini-data warehouse dans le cadre d’une étape de résolution des problèmes.
+ 
+> [!NOTE]
+> Le processus de réinitialisation d'un mini-data warehouse est affecté par le nombre de transactions de comptabilité et de budget dans votre base de données. Selon le nombre de transactions dans votre système, une réinitialisation du mini-data warehouse peut être effectuée en à peine 15 minutes, ou elle peut prendre jusqu'à quatre heures. Cependant, si votre réinitialisation prend plus de quatre heures, nous vous recommandons de contacter le support.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Quand la réinitialisation d’un mini-data warehouse est-elle inappropriée ?
 

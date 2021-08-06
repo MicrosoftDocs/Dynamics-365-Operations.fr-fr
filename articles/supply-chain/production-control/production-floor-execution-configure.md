@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271153"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641078"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -70,8 +70,6 @@ Cette fonctionnalité ajoute un onglet de gestion des actifs à l’interface d�
 - Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production
 
 ### <a name="enable-job-search"></a>Activer la recherche de tâches
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Cette fonctionnalité permet d’ajouter un champ de recherche à la liste des tâches. Les collaborateurs peuvent rechercher une tâche spécifique en entrant l’ID de la tâche ou en recherchant toutes les tâches pour une commande spécifique en entrant l’ID de la commande. Les collaborateurs peuvent entrer l’ID en utilisant un pavé numérique ou en scannant un code-barres. Pour l’utiliser, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 

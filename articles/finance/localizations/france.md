@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e103a4b923a521897c61697e315807fbdff8731c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 12a33378dc00e2fec441c261f73854a5ebedf9cb
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336672"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538903"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -40,6 +40,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Amortissement dérogatoire](emea-fra-derogatory-depreciation.md)
 - [Lettres de change et billets à ordre français](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
 - [Présentation du fichier d’audit pour la France (FEC)](emea-fra-fec-audit-file.md)
+- [Déclaration d’échanges de biens française](emea-fra-intrastat.md)
 - [Codes NAF et numéros Siret](emea-fra-naf-codes-siret-numbers.md)
 - [Paramétrer des codes NAF et numéros SIRET](tasks/fr-00003-naf-codes-siret-numbers.md)
 - [Pénalités pour les paiements client en retard](emea-fra-apply-penalty-customer-payment-past-due.md)

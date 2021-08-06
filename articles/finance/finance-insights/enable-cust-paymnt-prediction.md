@@ -2,7 +2,7 @@
 title: Activer les prédictions de paiement des clients (version préliminaire)
 description: Cette rubrique explique comment activer et configurer la fonctionnalité de Prédictions de paiement des clients dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 03320aa925ae94ef39d54e64701846089ec66084
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349032"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638582"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Activer les prédictions de paiement des clients (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment activer et configurer la fonctionnalité de Prédictions de paiement des clients dans Informations financières. Vous activez la fonction dans l’espace de travail **Gestion des fonctionnalités** et entrez les paramètres de configuration sur la page **Paramètres Informations financières**. Cette rubrique comprend également des informations qui peuvent vous aider à utiliser efficacement la fonctionnalité.
 

@@ -4,24 +4,17 @@ description: Cette rubrique fournit des informations sur la consultation de la d
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 0fded78134b1427e6faea9656e1d3b02b467ae91
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 175e1cc568ed027feee39eabfd9f08de6fe7f4b4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193405"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542635"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilité du stock en double écriture
 
@@ -64,58 +57,12 @@ Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**,
 - Demandes de stock CDS disponibles (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Modèles
+
 Les modèles suivants sont disponibles pour exposer les données de stock disponibles.
 
-Applications Finance and Operations | Application Customer Engagement | Description 
+Applications de Finance and Operations | Applications Customer Engagement     | Description
 ---|---|---
-[Entrées disponibles dans le stock CDS](#145) | msdyn_inventoryonhandentries |
-[Demandes disponibles dans le stock CDS](#147) | msdyn_inventoryonhandrequests |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Entrées de stock CDS disponibles (msdyn_inventoryonhandentries)
-
-Ce modèle synchronise les données entre les applications Finance and Operations et Dataverse.
-
-Champ Finance and Operations | Type de mise en correspondance | Champ Customer Engagement | Valeur par défaut
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Demandes de stock CDS disponibles(msdyn_inventoryonhandrequests)
-
-Ce modèle synchronise les données entre les applications Finance and Operations et Dataverse.
-
-Champ Finance and Operations | Type de mise en correspondance | Champ Customer Engagement | Valeur par défaut
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
-
+[Entrées disponibles dans le stock CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[Demandes disponibles dans le stock CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

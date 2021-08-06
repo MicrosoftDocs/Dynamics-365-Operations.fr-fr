@@ -1,7 +1,7 @@
 ---
 title: Explorateur de comptabilité source
 description: Cet article fournit des informations sur l’explorateur de comptabilité source, que vous pouvez utiliser pour l’analyse détaillée d’informations sources à l’origine des écritures comptables.
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820929"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661035"
 ---
 # <a name="accounting-source-explorer"></a>Explorateur de comptabilité source
 
@@ -46,8 +46,10 @@ Pour les documents sources qui utilisent le concept des identités de référenc
 
 Pour ces documents, vous pouvez également accéder au document source réel de l’explorateur de comptabilité source.
 
-
-
-
+> [!NOTE]
+> A partir de la version 10.0.20, le bouton **Mettre à jour** fournit deux plages supplémentaires pour restreindre la requête initiale exécutée pour saisir des données sur la page. Ces plages supplémentaires sont également disponibles dans la version 10.0.19 en tant que mise à jour de service. Les champs suivants ont été ajoutés :
+>
+> - N° document de départ, N° document de fin
+> - Compte principal de départ, Compte principal de fin
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

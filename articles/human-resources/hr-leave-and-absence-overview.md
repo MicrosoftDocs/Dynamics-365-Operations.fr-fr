@@ -2,7 +2,7 @@
 title: Vue d’ensemble des congés et des absences
 description: Dans Dynamics 365 Human Resources, l’espace de travail Congés et absences fournit un cadre flexible pour créer des plans de congé. Il fournit également des workflows pour gérer les demandes et une page en libre service intuitive permettant aux employés de demander un congé.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339713"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639484"
 ---
 # <a name="leave-and-absence-overview"></a>Vue d’ensemble des congés et des absences
 
@@ -33,8 +33,9 @@ Dynamics 365 Human Resources vous aide à offrir des avantages sociaux important
 Avant de pouvoir créer des plans de congés pour vos employés, vous devez effectuer quelques étapes de configuration :
 
 - [Configuration des paramètres de congé et d’absence](hr-leave-and-absence-parameters.md)
-- [Création d’un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
-- [Créer un workflow de demande d’absence](hr-leave-and-absence-workflow.md)
+- [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
+- [Créer un flux de travail de demande de congé](hr-leave-and-absence-workflow.md)
+- [Configurer le rôle de gestionnaire des absences](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Création et gestion des plans de congés
 
@@ -48,10 +49,11 @@ Avant de créer des plans de congé pour vos employés, vous devez créer des ty
 
 ## <a name="request-time-off-and-manage-requests"></a>Demande de congés et gestion des demandes
 
-Vos employés peuvent soumettre des demandes de congés et vous pouvez les gérer dans l’espace de travail **Libre-service employé**.
+Vos employés peuvent soumettre des demandes de congés et vous pouvez les gérer dans l’espace de travail **Libre service employé**.
 
-[Demander un congé](hr-employee-self-service-request-time-off.md)
-[Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)
+- [Demander un congé](hr-employee-self-service-request-time-off.md)
+- [Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)
+- [Configurer le rôle de gestionnaire des absences](hr-configure-absence-manager.md)
 
 
 

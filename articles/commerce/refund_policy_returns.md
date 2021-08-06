@@ -2,7 +2,7 @@
 title: Créer et mettre à jour une stratégie de retour et de remboursement pour un canal
 description: Cette rubrique explique comment configurer une stratégie de retour et de remboursement pour un canal.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345106"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558295"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Créer et mettre à jour une stratégie de retour et de remboursement pour un canal
 
@@ -36,12 +36,21 @@ La portée de la politique se limite actuellement à la définition des offres d
 
 ## <a name="enable-return-policy"></a>Activer la stratégie de retour
 
-Pour activer la fonctionnalité de stratégie de retour de canal, procédez comme suit :
+Pour activer la fonctionnalité de politique de retour de canal dans Commerce Headquarters, procédez comme suit.
 
 1. Accédez à l’espace de travail **Gestion des fonctionnalités** dans Dynamics 365 Commerce.
 1. Recherchez la fonctionnalité **Activer les stratégies de retour de canal** dans la liste des noms de fonction.
 1. Sélectionnez **Activer maintenant**.
-1. Sur la page **Calendrier de diffusion**, exécutez la tâche **1110** (Configuration globale) pour distribuer le changement de fonctionnalité. 
+1. Sur la page **Calendrier de diffusion**, exécutez la tâche **1110** (Configuration globale) pour distribuer le changement de fonctionnalité.
+
+## <a name="initialize-the-commerce-scheduler"></a>Initialiser le planificateur Commerce
+
+Après avoir activé la fonctionnalité **Activer les politiques de retour de canal**, vous devez initialiser le planificateur Commerce pour vous assurer que les nouvelles modifications de la base de données des fonctionnalités sont ajoutées via la synchronisation Commerce Data Exchange (CDX). 
+
+Pour initialiser le planificateur Commerce dans Commerce Headquarters, procédez comme suit.
+
+- Accédez à **Retail et Commerce \> Configuration du siège \> Planificateur de commerce \> Initialiser le planificateur de commerce**. Sinon, faites une recherche sur « Initialiser le planificateur Commerce ».
+- Dans la boîte de dialogue **Initialiser le planificateur Commerce**, vérifiez que l’option **Supprimer la configuration existante** est définie sur **Non**, puis cliquez sur **OK**.
 
 ## <a name="configure-return-policy"></a>Configurer la stratégie de retour
 

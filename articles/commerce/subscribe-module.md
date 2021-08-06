@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e70bc01d4c662d08a9171a9d2feb0e2f7901ccbb
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: 6440d761c07a33139babb9e07bdb251c6cb49676
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479459"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638800"
 ---
 # <a name="subscribe-module"></a>Module d’abonnement
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules d’abonnement et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -41,7 +40,7 @@ L’illustration suivante montre un exemple de module d’abonnement dans le pie
 
 ## <a name="subscribe-module-properties"></a>Propriétés du module d’abonnement
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête de texte pour le module d’abonnement, tel que **Abonnez-vous à la newsletter** ou **Inscrivez-vous pour 10 % de réduction**. |
 | Paragraphe     | Texte du paragraphe | Le module d’abonnement prend en charge le texte de paragraphe au format de texte enrichi, pour fournir des détails supplémentaires pour l’appel à l’action dans l’en-tête. |

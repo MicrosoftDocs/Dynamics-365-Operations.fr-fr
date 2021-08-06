@@ -2,7 +2,7 @@
 title: Résultats des modèles Machine Learning (version préliminaire)
 description: Cette rubrique traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f766303f0592dec917a23339511a957fcdc940d6
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349056"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638678"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Résultats des modèles Machine Learning (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML. Le public cible comprend des ingénieurs, des analystes et des gestionnaires qui souhaitent développer leurs connaissances et leurs compétences en science des données.
 

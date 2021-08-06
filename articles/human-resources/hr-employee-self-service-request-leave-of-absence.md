@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056322"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639412"
 ---
 # <a name="request-a-leave-of-absence"></a>Demander un congé
 
@@ -30,7 +30,7 @@ Vous pouvez soumettre une demande de congé et voir l’état de vos demandes de
 
 ## <a name="request-a-leave-of-absence"></a>Demander un congé
 
-1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
+1. Dans l’espace de travail **Libre service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
 
 2. Pour soumettre une demande de congé, sélectionnez **Demander un congé**.
 
@@ -45,9 +45,13 @@ Vous pouvez soumettre une demande de congé et voir l’état de vos demandes de
 
 ## <a name="view-leave-of-absence-request-status"></a>Afficher le statut des demandes de congé
 
-1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
+1. Dans l’espace de travail **Libre service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
 
 2. Pour visualiser vos demandes de congé, sélectionnez **Afficher les congés**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importation de demandes de congé depuis d'autres systèmes ou des systèmes plus anciens
+
+Pour importer des demandes de congé à partir d'un autre système, vous devez passer par le workflow normal pour créer les transactions de congé appropriées. Autrement, vous pouvez importer les transactions bancaires de congé et les demandes de congé dans un état Terminé. Notez que les transactions bancaires de congés ne sont pas créées automatiquement si vous importez uniquement les demandes de congés.
 
 ## <a name="see-also"></a>Voir également :
 

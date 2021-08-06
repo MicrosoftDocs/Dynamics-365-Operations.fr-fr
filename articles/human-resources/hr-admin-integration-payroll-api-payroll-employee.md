@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314283"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538852"
 ---
 # <a name="payroll-employee"></a>Employé avec paie
 
@@ -28,19 +28,23 @@ Cette rubrique décrit l’entité d’employé de la paie pour Dynamics 365 Hum
 
 Nom physique : mshr_payrollemployeeentity.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit des informations sur l’employé. Vous devez définir les [paramètres d’intégration de la paie](hr-admin-integration-payroll-api-parameters.md) avant d’utiliser cette entité.
 
+>[!IMPORTANT] 
+>Les champs **Prénom**, **Deuxième prénom**, **Nom de famille**, **NomValideApartirDe** et **NomValideJusqu** ne seront plus disponibles sur cette entité. Il s'agit de s'assurer que cette entité est associée à une seule source de données de date d'effet, qui est **HcmEmployment** avec les champs **Date de début d'emploi** et **Date de fin d'emploi**.
+
+>Ces champs seront disponibles sur l'entité **DirPersonNameHistoricalEntity**, qui a été publiée dans la mise à jour de plateforme 43. Il existe une relation OData entre **PayrollEmployeeEntity** et **DirPersonNameHistoricalEntity** sur le champ **Personne**. Sinon, l'entité **DirPersonNameHistoricalEntity** peut être directement interrogée via OData en utilisant le nom public **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>Propriétés
 
-| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description  |
+| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
 | **Numéro personnel**<br>mshr_personnelnumber<br>*Chaîne* | Lecture seule<br>Requis | Numéro personnel unique du collaborateur. |
 | **Champ principal**<br>mshr_primaryfield<br>*Chaîne* | Requis<br>Généré par le système |  |
-| **Nom**<br>mshr_lastname<br>*Chaîne* | Lecture seule<br>Requis | Nom de famille du collaborateur. |
 | **ID entité juridique**<br>mshr_legalentityID<br>*Chaîne* | Lecture seule<br>Requis | Spécifie l’entité juridique (société). |
-| **Valide à partir du**<br>mshr_namevalidfrom<br>*Décalage de date et heure* | Lecture seule <br>Requis | Date à partir de laquelle les informations relatives au collaborateur sont valides.  |
 | **Sexe**<br>mshr_gender<br>[Jeu d’options mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Lecture seule<br>Requis | Genre du collaborateur. |
 | **ID d’entité Collaborateur avec paie**<br>mshr_payrollemployeeentityid<br>*GUID* | Requis<br>Généré par le système | Valeur GUID générée par le système pour identifier le collaborateur de manière unique. |
 | **Date de début de l’emploi**<br>mshr_employmentstartdate<br>*Décalage de date et heure* | Lecture seule<br>Requis | Date de début de l’emploi du collaborateur. |
@@ -50,8 +54,6 @@ Cette entité fournit des informations sur l’employé. Vous devez définir les
 | **Valide jusqu’au**<br>mshr_namevalidto<br>*Décalage de date et heure* |  Lecture seule<br>Requis | Date jusqu’à laquelle les informations relatives au collaborateur sont valides. |
 | **Date de naissance**<br>mshr_birthdate<br>*Décalage de date et heure* | Lecture seule <br>Requis | La date de naissance du collaborateur. |
 | **Numéro d’identification**<br>mshr_identificationnumber<br>*Chaîne* | Lecture seule <br>Requis |Le numéro d’identification défini pour le collaborateur.  |
-| **Prénom**<br>mshr_firstname<br>*Chaîne* | Lecture seule<br>Requis | Prénom du collaborateur. |
-| **Autres prénoms**<br>mshr_middlename<br>*Chaîne* | Lecture seule<br>Requis |Deuxième prénom du collaborateur.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Exemple de requête pour un Collaborateur avec paie
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

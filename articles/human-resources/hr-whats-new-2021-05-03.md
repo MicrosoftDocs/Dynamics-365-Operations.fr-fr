@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
-ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
+ms.openlocfilehash: 8cee60750d3c451024466109acbdc5924074a11f
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059627"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6559958"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources, 3 mai 2021
 
@@ -51,7 +51,7 @@ Les correctifs de bogues suivants sont compris dans cette version.
 > [!NOTE]
 > Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
 
-| Numéro du problème | Sortie |  Description  |
+| Numéro du problème | Sortie |  Description |
 | --- | --- | --- |
 | 559312 |  Le niveau n'est pas affiché lors de la création d'un plan de rémunération fixe pour un employé. |  En cas de non-concordance de fuseau horaire entre le fuseau horaire de l'utilisateur et le fuseau horaire de l'entreprise, le niveau de rémunération du travail ne pouvait pas être lu. La requête a été mise à jour pour être extraite en fonction de l'heure UTC. |
 | 573676  | Impossible d'ajouter une nouvelle période dans l'écran **Plan d'avantages**. | Mise à jour du formulaire afin que le bouton **Nouveau** soit activé sous le raccourci **Période** dans l'onglet **Plans d'avantages**. |
@@ -65,7 +65,7 @@ Les nouvelles fonctions suivantes sont en version préliminaire. Pour plus d’i
 | Espace de travail de gestion des avantages | [Espace de travail de gestion des avantages (version préliminaire)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Espace de travail de gestion des avantages](hr-benefits-management-workspace.md) |
 | Améliorations de l'expérience du flux de travail sur les congés et les absences | [Améliorations de l'expérience du flux de travail sur les congés et les absences](https://go.microsoft.com/fwlink/?linkid=2147528) | [Demander un congé](hr-employee-self-service-request-time-off.md)|
 | Activer l'intégration simplifiée de la paie (API d'intégration de la paie) | [Activer l'intégration simplifiée avec des prestataires de paie](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [API d’intégration de la paie](hr-admin-integration-payroll-api-introduction.md)|
-| Audit des transactions de régularisation de congés | - | [Audit des transactions de régularisation de congés](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Audit des transactions de régularisation de congés | - | [Audit des transactions de régularisation de congés](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>Bientôt disponible
 

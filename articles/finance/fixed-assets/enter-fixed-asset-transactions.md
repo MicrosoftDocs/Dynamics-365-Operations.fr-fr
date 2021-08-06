@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815714"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645370"
 ---
 # <a name="fixed-asset-transaction-options"></a>Options de transactions d’immobilisations
 
@@ -46,7 +46,7 @@ Lorsque le journal Commande fournisseur ou le journal Stock vers immobilisations
 ## <a name="general-ledger"></a>Comptabilité
 Vous pouvez valider tout type de transaction d’immobilisation dans la page Journal des opérations diverses. Vous pouvez également utiliser les journaux dans le module Immobilisations pour valider les transactions d’immobilisation.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Options de saisie des types de transactions d’immobilisation
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Options de saisie des types de transactions d’immobilisation
 
 
 | Type de transaction                    | Module                   | Options                                   |
@@ -61,10 +61,20 @@ Vous pouvez valider tout type de transaction d’immobilisation dans la page Jou
 | ** **                               | Comptabilité           | Journal des opérations diverses                           |
 | ** **                               | Module Comptabilité client      | Facture financière                         |
 
-
 La valeur restante des périodes d’amortissement de l’immobilisation n’est pas mise à jour lorsqu’une ligne de journal de type transaction d’amortissement est créée manuellement ou importée via une entité des données. Cette valeur est mise à jour lorsque le processus de proposition d’amortissement est utilisé pour créer la ligne de journal.
 
 Pour plus d’informations, voir [Intégration des immobilisations](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Transactions qui nécessitent des N° documents différents
+
+Les transactions d'immobilisations suivantes utiliseront des N° documents différents :
+
+- Une acquisition supplémentaire est effectuée sur une immobilisation et l’amortissement de « rattrapage » est calculé.
+- Une immobilisation est fractionnée.
+- Un paramètre pour calculer l’amortissement sur la cession est activé et l’immobilisation est ensuite cédée.
+- Une date de mise en service d’immobilisation est antérieure à la date d’acquisition. Par conséquent, un ajustement d’amortissement est validé.
+
+> [!NOTE]
+> Lorsque vous entrez des transactions, assurez-vous que toutes les transactions s’appliquent à la même immobilisation. Un N° document ne sera pas validé s’il contient plus d’une immobilisation, même si le champ **Nouveau N° document** est défini sur **Un N° document uniquement** sur la page **Noms de journal** dans la comptabilité. Si vous incluez plusieurs immobilisations dans le N° document, vous recevrez le message « Il ne peut y avoir qu’une transaction d’immobilisation par N° document » et vous ne pourrez pas publier le N° document.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

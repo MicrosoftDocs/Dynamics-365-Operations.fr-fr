@@ -2,7 +2,7 @@
 title: Gérer les congés des employés
 description: Gérer les congés des employés dans Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055626"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639460"
 ---
 # <a name="manage-employee-leave"></a>Gérer les congés des employés
 
@@ -44,16 +44,15 @@ Vous pouvez gérer les congés d’un employé par type de congé. Cela comprend
 
 Vous pouvez inclure un code motif et un commentaire lors de l’ajustement du solde de congés d’un employé. 
 
->[!IMPORTANT]
->L’affichage d’informations supplémentaires sur les soldes de congés est en version préliminaire. Vous devrez l’activer dans votre environnement de **bac à sable**. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).<br>
->Lorsque vous survolez un solde de congé, vous verrez maintenant :<br>
->- **Disponible** : Total cette année – Prendre cette année
->- **Total cette année** : Toutes les régularisations, ajustements et reports pour l’année
->- **Pris cette année** : Tous les congés approuvés
+Désormais, lorsque vous survolez un solde de congés, les informations suivantes s'affichent :
+
+- **Disponible** : la valeur **Total cette année** moins la valeur **Pris cette année**.
+- **Total cette année** : tous les régularisations, ajustements et reports pour l’année.
+- **Pris cette année** : tous les congés approuvés.
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)
 
 

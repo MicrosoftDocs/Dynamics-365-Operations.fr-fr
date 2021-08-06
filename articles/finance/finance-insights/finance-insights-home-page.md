@@ -2,7 +2,7 @@
 title: Page d’accueil Informations financières (version préliminaire)
 description: Informations financières fournit des modèles configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Toutes ces fonctionnalités sont basées sur des modèles Machine Learning intelligents.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2086a33285d9a529480c5f34fb048105e65c2046
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338227"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638512"
 ---
 # <a name="finance-insights-home-page-preview"></a>Page d’accueil Informations financières (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Informations financières fournit des modèles configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Toutes ces fonctionnalités sont basées sur des modèles Machine Learning intelligents. Lorsque ces nouvelles fonctionnalités sont combinées à l’automatisation des paiements et des recouvrements des fournisseurs, elles fournissent un système financier riche et intelligent qui stimule la prise de décision et vous aide à prendre des mesures pour répondre efficacement aux défis commerciaux actuels et futurs.
 

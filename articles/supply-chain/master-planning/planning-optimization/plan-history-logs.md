@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187245"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646485"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Afficher l’historique du plan et les journaux de planification
 
@@ -34,6 +34,19 @@ Pour afficher l’historique d’un plan, ouvrez le plan en accédant à **Plani
 L’historique des exécutions de la planification générale de l’optimisation de la planification ne conserve que 60 enregistrements maximum par plan général. Chaque fois que vous exécutez un nouveau calcul de planification générale, le premier enregistrement de l’historique de ce plan est supprimé.
 
 Outre le fait de voir l’heure de début et le statut des tâches, vous pouvez afficher le journal pour une tâche spécifique. Le journal inclut des informations supplémentaires et des avertissements. Toutes les tâches n’ont pas un journal. Pour afficher le journal pour une tâche, sélectionnez **Journal**. Les entrées de journal ne sont stockées que pendant 30 jours après la date de fin de la tâche, après quoi elles sont automatiquement supprimées.
+
+Si l'option **Traitement par lots** du raccourci **Exécuter en arrière-plan** a été activée lors de la configuration du traitement de la planification générale, le journal des tâches de traitement par lots affiche plus d'informations sur les avertissements et les erreurs générés lors de l'exécution de la planification générale. Par exemple, les erreurs de confirmation automatique sont capturées uniquement dans le journal des tâches de traitement par lots. Elles ne sont pas affichées dans les journaux de la page **Historique**.
+
+Pour afficher les erreurs de confirmation automatique et d'autres avertissements ou erreurs qui se sont produits lors d'une exécution de la planification générale, procédez comme suit.
+
+1. Allez dans **Administration du système \> Recherches \> Traitements par lots**.
+1. Recherchez et sélectionnez l'enregistrement qui représente l'exécution de la planification générale qui vous intéresse. (Par exemple, la valeur du champ **Description de la tâche** peut commencer par *Planification générale*.)
+1. Suivez l'une de ces étapes, selon que vous utilisez ou non le *formulaire amélioré* ou le *formulaire hérité (non amélioré)* pour la page **Tâches de traitement par lots** :
+
+    - Si vous utilisez le formulaire amélioré : dans le volet Actions, sélectionnez **Historique des tâches de traitement par lots**. Puis, sur la page **Historique des tâches de traitement par lots**, dans le volet Actions, sélectionnez **Journal**.
+    - Si vous utilisez le formulaire hérité : dans le volet Actions, sur l'onglet **Tâche de traitement par lots**, sélectionnez **Journal**.
+
+1. Sélectionnez **Détails du message** pour ouvrir le volet **Détails du message**, où vous pouvez afficher tous les avertissements et les erreurs qui ont été capturés pendant le traitement.
 
 ## <a name="related-resources"></a>Ressources associées
 

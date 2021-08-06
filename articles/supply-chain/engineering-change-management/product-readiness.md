@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115071"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641154"
 ---
 # <a name="product-readiness"></a>Disponibilité du produit
 
@@ -177,8 +177,6 @@ Pour affecter une stratégie de disponibilité à une catégorie d’ingénierie
 <a name="standard-products"></a>
 
 ## <a name="readiness-checks-on-standard-products"></a>Stratégies de disponibilité des produits standard
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Vous pouvez activer les vérifications de la disponibilité des produits standard (autres que des produits d’ingénierie) en activant la fonctionnalité *Vérifications de la disponibilité du produit* dans Gestion des fonctionnalités. Cette fonctionnalité apporte quelques petits changements au système de vérification de la disponibilité afin qu’il prenne en charge les produits standard.
 

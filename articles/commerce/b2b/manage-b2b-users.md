@@ -2,24 +2,24 @@
 title: Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 description: Cette rubrique décrit comment les administrateurs peuvent ajouter, modifier et supprimer des utilisateurs partenaires sur des sites Web de commerce électronique interentreprises (B2B).
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936654"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655604"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 
@@ -67,7 +67,7 @@ Pour approuver et configurer un utilisateur administrateur de partenaire dans Co
 
 1. Allez dans **Retail et Commerce IT \> Programme de distribution**, et exécutez la tâche **1010** (**Clients**) pour transférer les dossiers client et les dossiers de la hiérarchie des clients nouvellement créés vers la base de données des canaux.
 
-Une fois la demande approuvée et les enregistrements de la hiérarchie des clients et des clients synchronisés avec la base de données des canaux, le demandeur peut se connecter au site Web de commerce électronique B2B en utilisant l’adresse e-mail qu’il a fournie lors de la soumission de la demande. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte.
+Une fois la demande approuvée et les enregistrements de la hiérarchie des clients et des clients synchronisés avec la base de données des canaux, le demandeur peut se connecter au site Web de commerce électronique B2B en utilisant l’adresse e-mail qu’il a fournie lors de la soumission de la demande. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte. Pour permettre que l'enregistrement du fournisseur d'identité (Azure AD B2C) soit lié à l'enregistrement client B2B qui a été créé lors de l'inscription ou de la connexion, suivez les instructions de la rubrique [Activer la liaison automatique des enregistrements d’identité avec les comptes client](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Intégrer des utilisateurs partenaires supplémentaires
 
@@ -83,7 +83,7 @@ Pour intégrer des utilisateurs partenaires supplémentaires à un site Web de c
 
 1. Exécutez la tâche **1010** (**Clients**) pour synchroniser le nouvel utilisateur du partenaire commercial avec la base de données des canaux.
 
-Une fois l’enregistrement client synchronisé, le statut de l’utilisateur sur le site Web de commerce électronique B2B est défini sur **Actif** et le nouvel utilisateur peut se connecter au site Web de commerce électronique B2B en utilisant son adresse e-mail. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte.
+Une fois l’enregistrement client synchronisé, le statut de l’utilisateur sur le site Web de commerce électronique B2B est défini sur **Actif** et le nouvel utilisateur peut se connecter au site Web de commerce électronique B2B en utilisant son adresse e-mail. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte. Pour permettre que l'enregistrement du fournisseur d'identité (Azure AD B2C) soit lié à l'enregistrement client B2B qui a été créé lors de l'inscription ou de la connexion, suivez les instructions de la rubrique [Activer la liaison automatique des enregistrements d’identité avec les comptes client](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Modifier les détails de l’utilisateur du partenaire commercial
 
@@ -121,7 +121,7 @@ Pour intégrer des partenaires commerciaux et des utilisateurs directement dans 
 ## <a name="additional-information"></a>Informations supplémentaires
 
 - Toutes les tâches mentionnées dans cette rubrique peuvent être configurées pour s’exécuter selon une planification dans un format de lot. On s’attend à ce que les partenaires commerciaux configurent les travaux par lots selon les besoins.
-- Actuellement, un seul enregistrement utilisateur/client peut être désigné en tant qu’utilisateur administrateur, et ce rôle ne peut être modifié que dans Commerce Headquarters. Il n’y a pas de prise en charge des fonctionnalités en libre-service qui permettent aux partenaires commerciaux de désigner plusieurs administrateurs ou de changer d’administrateur à partir de sites Web de commerce électronique B2B.
+- Actuellement, un seul enregistrement utilisateur/client peut être désigné en tant qu’utilisateur administrateur, et ce rôle ne peut être modifié que dans Commerce Headquarters. Il n’y a pas de prise en charge des fonctionnalités en libre service qui permettent aux partenaires commerciaux de désigner plusieurs administrateurs ou de changer d’administrateur à partir de sites Web de commerce électronique B2B.
 <!--- The modules and labels of the different fields referenced in the screenshots for e-commerce are only for illustration purposes. Customers have complete control on the placement of the B2B related modules and the labels.-->
 - Bien que des limites de dépenses puissent être définies pour les utilisateurs, l’application des limites de dépenses pendant le processus de saisie des commandes n’a pas encore été mise en œuvre.
 - Toute la logique métier et la validation de l’expérience d’un utilisateur sur un site Web de commerce électronique B2B sont basées sur la configuration de l’enregistrement client qui est mappé à l’utilisateur dans Commerce Headquarters.

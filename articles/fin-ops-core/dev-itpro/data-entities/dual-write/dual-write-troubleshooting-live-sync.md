@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350786"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542513"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Résoudre les problèmes de synchronisation en direct
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Cette rubrique fournit des informations sur la résolution des problèmes de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse. Notamment elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 
@@ -81,7 +79,7 @@ Pour résoudre le problème, vous devez attribuer le rôle de sécurité correct
 
     ![Cartographie de l’organisation.](media/mapped_business_unit.png)
 
-2. Connectez-vous à l’environnement dans l’application pilotée par le modèle dans Dynamics 365, accédez à **Paramètre \> Sécurité** et recherchez l’équipe de l’unité commerciale mappée.
+2. Connectez-vous à l’environnement dans l’application d'engagement client, accédez à **Paramètre \> Sécurité** et recherchez l’équipe de l’unité commerciale mappée.
 
     ![Équipe de l’unité commerciale cartographiée.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous créez des donn�
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Impossible de générer la charge utile pour vérifier CustCustomerV3Entity** », « logDateTime » : « 2019-08-27T18:51:52.5843124Z », « verboseError » : « Échec de la création de la charge utile avec l’erreur URI non valide : l’URI est vide. »}\], « isErrorCountUpdated » : true}*
 
-Voici à quoi ressemble l’erreur dans l’application pilotée par modèle dans Dynamics 365 :
+Voici à quoi ressemble l'erreur dans l'application d'engagement client :
 
 *Une erreur inattendue s’est produite depuis le code ISV. (ErrorType = ClientError) Exception inattendue depuis le plug-in (Execute) : Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: échec du triatement du compte d’entité – (Échec de la tentative de connexion, car la partie connectée n’a pas répondu correctement après un temps donné, ou la connexion établie a échoué en raison de l’absence de réponse de l’hôte connecté*
 
@@ -125,6 +123,5 @@ Pour régler le problème, procédez comme suit.
 
 3. Assurez-vous que la colonne **externalenvironmentURL** a l’URL Dataverse ou d’application appropriée. Supprimez toutes les lignes en double qui pointent vers la mauvaise URL Dataverse. Supprimez les lignes correspondantes dans les tables DUALWRITEPROJECTFIELDCONFIGURATION et DUALWRITEPROJECTCONFIGURATION.
 4. Arrêter le mappage de tables et le redémarrer
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

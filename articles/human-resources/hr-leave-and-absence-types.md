@@ -2,7 +2,7 @@
 title: Configuration des types de congé et d’absence
 description: Configurez les types de congés que les employés peuvent prendre dans Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 63970f69a437864675eada975c54446325fb60e2
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271125"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639580"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d’absence
 
@@ -73,9 +73,40 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
  
 4. Définissez **Règles d’expiration** pour le type de congé. Lorsque vous configurez cette option, vous pouvez choisir l’unité jours ou mois et définir la durée de l’expiration. La date d’effet de la règle d’expiration est utilisée pour déterminer quand démarrer l’exécution du traitement par lots qui traite l’expiration du congé, ou la date à laquelle la règle entre en vigueur. L’expiration elle-même se produira toujours à la date de début de la période de régularisation. Par exemple, si la date de début de la période de régularisation est le 3 août 2021 et que la règle d’expiration a été fixée à 6 mois, la règle sera traitée en fonction du décalage de l’expiration par rapport à la date de début de la période de régularisation ; elle sera donc exécutée le 3 février 2022. Tout solde de congé existant au moment de l’expiration sera soustrait du type de congé et sera reflété dans le solde de congé.
  
+## <a name="configure-the-required-attachment-per-leave-type"></a>Configurer la pièce jointe requise par type de congé
+
+> [!NOTE]
+> Pour utiliser le champ **Pièce jointe requise**, vous devez d'abord activer la fonctionnalité **(Version préliminaire) Configurer la pièce jointe requise pour les demandes de congé** dans la Gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
+
+1. Sur la page **Congés et absences**, sur l'onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d'absences**.
+
+2. Sélectionnez un type de congé et d'absence dans la liste. Ensuite, dans la section **Général**, utilisez le champ **Pièce jointe requise** pour spécifier si une pièce jointe doit être chargée lorsqu'un employé soumet une nouvelle demande de congé pour le type de congé sélectionné. 
+
+Les employés devront charger une pièce jointe lorsqu'ils soumettront une nouvelle demande de congé d'un type où le champ **Pièce jointe requise** est activé. Pour afficher la pièce jointe qui a été chargée dans le cadre d'une demande de congé, les approbateurs de la demande de congé peuvent utiliser l'option **Pièces jointes** pour les éléments de travail qui leur sont affectés. Si une demande de congé est consultée à l'aide de l'application Human Resources dans Microsoft Teams, l'option **Afficher les détails** de la demande de congé peut être utilisée pour afficher ses détails et ses éventuelles pièces jointes.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurer les unités de congé (heures/jours) par type de congé
+
+> [!NOTE]
+> Pour utiliser la fonctionnalité d'unités de congé par type de congé, vous devez d'abord activer la fonctionnalité **(Version préliminaire) Configurer les unités de congé par type de congé** dans la Gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Par défaut, les types de congé d'une entité juridique utilisent les unités de congé de la configuration des paramètres de congé au niveau de l'entité juridique.
+> 
+> L'unité de congé d'un type de congé et d'absence ne peut être modifiée que s'il n'y a pas de transactions de congé pour ce type de congé.
+> 
+> La fonctionnalité ne peut pas être désactivée une fois qu'elle a été activée.
+
+1. Sur la page **Congés et absences**, sur l'onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d'absences**.
+
+2. Sélectionnez un type de congé et d'absence dans la liste. Ensuite, dans la section **Général**, dans le champ **Unité**, sélectionnez l'unité de congé. Vous pouvez sélectionner **Heures** ou **Jours**.
+
+3. Facultatif : si vous avez sélectionné **Heures** dans le champ **Unité**, vous pouvez utiliser le champ **Activer la définition d'une demi-journée** pour spécifier si les employés peuvent sélectionner la première demi-journée ou la deuxième demi-journée de congé s'ils demandent une demi-journée de congé.
+
+Les employés qui soumettent une nouvelle demande de congé peuvent sélectionner différents types de congés pour construire leur demande de congé. Cependant, tous les types de congés sélectionnés dans le cadre d'une seule demande de congé doivent avoir la même unité de congé. Les employés peuvent afficher l'unité de congé pour chaque type de congé dans le formulaire **Demander un congé**.
+
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
 - [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
 - [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)

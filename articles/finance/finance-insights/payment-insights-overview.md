@@ -2,7 +2,7 @@
 title: Prévisions de paiement client (version préliminaire)
 description: Cette rubrique décrit la fonctionnalité de prédiction de paiement qui peut vous aider à mieux comprendre les pratiques de paiement typiques d’un client. Cette fonctionnalité peut également vous aider à identifier les circonstances qui devraient vous amener à démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25542e72e620e5273a9cd215d5b6cd2f89a2f364
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355650"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638366"
 ---
 # <a name="customer-payment-predictions-preview"></a>Prévisions de paiement client (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit la fonctionnalité de prédiction de paiement qui peut vous aider à mieux comprendre les pratiques de paiement typiques d’un client. Cette fonctionnalité peut également vous aider à identifier les circonstances qui devraient vous amener à démarrer les processus de collectes plus tôt que vous ne pourriez les démarrer autrement.
 

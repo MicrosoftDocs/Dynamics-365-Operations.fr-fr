@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: b41692304635c968b02329adeab9145b3707dd6c
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479350"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638047"
 ---
 # <a name="promo-banner-module"></a>Module Bannière promotionnelle
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de bannière promotionnelle et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -51,7 +50,7 @@ L’image suivante montre un exemple d’une bannière promotionnelle.
 
 ## <a name="promo-banner-module-properties"></a>Propriétés du module de bannière promotionnelle
 
-| Nom de la propriété             | Valeur                               | Description  |
+| Nom de la propriété             | Valeur                              | Description |
 |---------------------------|------------------------------------|-------------|
 | Messages de bannière           | Texte et liens                     | Un groupe de texte et de liens. |
 | Lire automatiquement                  | **Vrai** ou **Faux**              | Une valeur qui indique si les messages sont automatiquement parcourus, si plusieurs messages sont configurés. |

@@ -2,7 +2,7 @@
 title: Gérer les demandes de congé dans Teams
 description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356510"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639436"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -166,6 +166,10 @@ Si vous rencontrez des problèmes pour vous connecter ou utiliser l’applicatio
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Impossible de se connecter à l’application Human Resources dans Teams
 
 Si vous ne pouvez pas vous connecter à l’application, il est possible que le compte que vous utilisez pour vous connecterà Microsoft Teams ne soit pas associé à un enregistrement d’employé dans Dynamics 365 Human Resources. Contactez votre administrateur système pour vous assurer que votre enregistrement d’employé est correctement associé.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Impossible de trouver l'environnement Dynamics 365 Human Resources dans les paramètres
+
+Si vous ne pouvez pas sélectionner le bon environnement Dynamics 365, l'enregistrement d'utilisateur n'a peut-être pas été correctement synchronisé. Contactez votre administrateur système pour recréer l'enregistrement d'utilisateur et l'associer aux informations d'identification de l'utilisateur. Essayez ensuite de vous connecter à l'application Human Resources pour Microsoft Teams après quelques minutes.
 
 ### <a name="translations-dont-display-correctly"></a>Les traductions ne s’affichent pas correctement
 

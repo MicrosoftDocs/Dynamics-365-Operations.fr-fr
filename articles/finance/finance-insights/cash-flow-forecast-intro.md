@@ -2,7 +2,7 @@
 title: Prévision de flux de trésorerie (version préliminaire)
 description: Cette rubrique décrit la fonctionnalité de prévision des flux de trésorerie.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3f16c8471123969443af52ff9bed7fc017b8e9c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339213"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638774"
 ---
 # <a name="cash-flow-forecast-preview"></a>Prévision de flux de trésorerie (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Le flux de trésorerie est essentiel à toute entreprise. Même les entreprises rentables peuvent être confrontées à l’insolvabilité si elles ne maintiennent pas les flux de trésorerie nécessaires pour répondre aux besoins immédiats. La capacité de prévision des flux de trésorerie dans les informations financières peut aider les entreprises à surveiller et à gérer efficacement leurs soldes de trésorerie. Cette fonctionnalité utilise l’apprentissage automatique pour aider les entreprises à prévoir les flux de trésorerie avec plus de précision qu’auparavant. Elle peut également aider les responsables à prendre des décisions qui optimisent les opportunités selon l’emplacement actuel de leurs disponibilités. 
 

@@ -2,7 +2,7 @@
 title: Page d’accueil de déploiement local
 description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
 author: sericks007
-ms.date: 03/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: ef19a154b4e18246c88adea48ee2709af17f039f
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f5ecc71326892683e0a49685262aae0db4a49ea9
+ms.sourcegitcommit: 41a5d18552bcc94cb1ddbbe3f3278eaf9d05f418
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338928"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617068"
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d’accueil de déploiement local
 
@@ -33,6 +33,7 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Vue d’ensemble de déploiement local](on-premises-overview.md)
 - [Planifier et préparer les déploiements locaux](plan-onprem-deployment.md)
 - [Configuration requise pour les déploiements locaux](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Logiciels pris en charge par Microsoft Dynamics 365 Finance + Operations (local)](onprem-compatibility.md)
 - [Configuration requise pour le calibrage de matériel pour les environnements sur site](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Acheter Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Comparaison des fonctions dans le cloud et sur site](../../fin-ops/get-started/cloud-prem-comparison.md)

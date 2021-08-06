@@ -2,7 +2,7 @@
 title: Configuration des règles et des options d’admissibilité
 description: Définissez les règles et les options d’admissibilité dans la gestion des avantages de Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351655"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558367"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Configuration des règles et des options d’admissibilité
+# <a name="configure-eligibility-rules-and-options"></a>Configurer les règles et les options d’éligibilité 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Après avoir configuré les paramètres nécessaires pour la gestion des avantages dans Microsoft Dynamics 365 Human Resources, vous pouvez créer des règles d’admissibilité, des offres groupées, des périodes et des programmes que vous associez à vos plans d’avantages.
+Après avoir configuré les paramètres requis pour la gestion des avantages dans Microsoft , vous pouvez créer les règles d’admissibilité, les offres groupées, les périodes et les programmes que vous associez à vos régimes d’avantages.
+
+Les règles d'admissibilité servent à déterminer si les employés sont admissibles à un régime. Les employés doivent remplir la condition d'au moins une règle pour être considérés comme admissibles à l'avantage. Par exemple, vous avez un régime comportant deux règles. La première règle (ligne 1) stipule que le type d'employé doit être **Employé**. La deuxième règle (ligne 2) stipule que le type d'employé doit être Employé à temps plein. Par conséquent, les employés qui satisfont à la règle 1 sont admissibles même s'ils ne sont employés qu'à temps partiel.
+
+Cependant, vous pouvez configurer une seule règle comportant plusieurs conditions. Dans ce cas, les employés doivent remplir toutes les conditions de la règle pour être considérés comme admissibles à l'avantage. Par exemple, vous avez une règle nommée **Employé à temps plein**. Cette règle stipule que le type d'employé doit être **Employé** *et* que l'employé doit être employé à temps plein. Par conséquent, les employés doivent remplir les deux conditions de la règle pour être admissibles.
+
+> [!IMPORTANT]
+> Au moins une règle d'admissibilité doit être associée à chaque régime d'avantages. Vous pouvez associer plusieurs règles à un avantage.
 
 ## <a name="create-an-eligibility-rule"></a>Création d’une règle d’admissibilité
 
@@ -40,7 +47,7 @@ Pendant l’inscription ouverte, les employés peuvent sélectionner des plans d
 
 3. Spécifiez des valeurs pour les champs suivants.
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **Règle d’éligibilité** | Identificateur unique de la règle d’éligibilité. |
    | **Description** | Brève description de la règle d’éligibilité. |
@@ -48,17 +55,17 @@ Pendant l’inscription ouverte, les employés peuvent sélectionner des plans d
    | **Valide jusqu’à une date et heure** | Date de fin de la règle d’éligibilité. |
    | **Type d’employé utilisateur** | Spécifie s’il faut utiliser le type d’employé de l’employé pour la règle d’admissibilité aux avantages. |
    | **Type de collaborateur** | Type de collaborateur si le bouton bascule **Utiliser le type d’employé** est réglé sur **Oui**. |
-   | **Utiliser le statut d’employé** | Spécifie s’il faut utiliser le statut d’employé de l’employé pour la règle d’admissibilité aux avantages. |
+   | **Utiliser le statut d'employé** | Spécifie s’il faut utiliser le statut d’employé de l’employé pour la règle d’admissibilité aux avantages. |
    | **État** | Statut de l’employé si le bouton bascule **Utiliser le statut d’employé** est réglé sur **Oui**. Si le bouton bascule **Utiliser le statut d’employé** est défini sur **Non**, le champ n’est pas utilisé. |
-   | **Utiliser la catégorie d’emploi** | Spécifie s’il faut utiliser la valeur **Catégorie d’emploi** pour la règle d’éligibilité aux avantages. | 
-   | **Catégorie d’emploi** | Catégorie d’emploi de l’employé si le bouton bascule **Utiliser la catégorie d’emploi** est réglé sur **Oui**. |
-   | **Utiliser la nouvelle règle d’embauche** | Spécifie s’il faut utiliser la nouvelle valeur de la période d’embauche d’un nouvel employé dans le cadre de la règle d’éligibilité aux avantages. |
+   | **Utiliser la catégorie d'emploi** | Spécifie s’il faut utiliser la valeur **Catégorie d’emploi** pour la règle d’éligibilité aux avantages. | 
+   | **Catégorie d'emploi** | Catégorie d’emploi de l’employé si le bouton bascule **Utiliser la catégorie d’emploi** est défini sur **Oui**. |
+   | **Utiliser la nouvelle règle d'embauche** | Spécifie s’il faut utiliser la nouvelle valeur de la période d’embauche d’un nouvel employé dans le cadre de la règle d’éligibilité aux avantages. |
    | **Période d’inscription** | Période pendant laquelle l’inscription du nouvel employé est autorisée. Si vous définissez également cela dans les paramètres, le réglage des paramètres a priorité sur celui-ci. |
-   | **Utiliser le statut d’emploi précédent** | Spécifie s’il faut utiliser un statut d’emploi précédent de l’employé dans le cadre de la règle d’éligibilité des avantages. Par exemple, vous pouvez spécifier une règle d’admissibilité qui renonce à une période d’attente de couverture pour tous les employés qui sont passés d’un statut **Mis en page** à un statut **Employé** dans les 90 jours suivant leur emploi précédent. |
+   | **Utiliser le statut d'emploi précédent** | Spécifie s’il faut utiliser un statut d’emploi précédent de l’employé dans le cadre de la règle d’éligibilité des avantages. Par exemple, vous pouvez spécifier une règle d’admissibilité qui renonce à une période d’attente de couverture pour tous les employés qui sont passés d’un statut **Mis en page** à un statut **Employé** dans les 90 jours suivant leur emploi précédent. |
 
 4. Sous **Critères supplémentaires**, sélectionnez les options suivantes et ajoutez des informations si nécessaire.
 
-   | Option | Description  |
+   | Option | Description |
    | --- | --- |
    | **Âge éligible** | Spécifie la ou les tranches d’âge requises pour satisfaire la règle d’éligibilité. |
    | **Département éligible** | Spécifie le ou les départements dans lesquels un employé doit se trouver pour satisfaire à la règle d’éligibilité. |
@@ -72,12 +79,12 @@ Pendant l’inscription ouverte, les employés peuvent sélectionner des plans d
    | **Type de poste éligible** | Spécifie le ou les types de poste qui satisfont à la règle d’éligibilité. Par exemple, à plein temps. |
    | **État éligible** | Spécifie le ou les états ou provinces qui satisfont à la règle d’éligibilité. Par exemple, le Dakota du Nord aux États-Unis ou la Colombie-Britannique au Canada. |
    | **Conditions d’emploi éligibles** | Spécifie les conditions d’emploi qui satisfont à la règle d’éligibilité. Par exemple, à volonté ou contrat de groupe. |
-   | **Union éligible** | Spécifie les adhésions à un syndicat qui satisfont à la règle d’éligibilité. Par exemple, Forklift Drivers of America. </br></br>Lorsque vous utilisez une règle d’admissibilité syndicale, le dossier syndical du collaborateur doit avoir la date de fin renseignée. Vous ne pouvez pas la laisser vide. |
+   | **Union éligible** | Spécifie les adhésions à un syndicat qui satisfont à la règle d’éligibilité. Par exemple, Forklift Drivers of America.</br></br>Lorsque vous utilisez une règle d’admissibilité syndicale, le dossier syndical du collaborateur doit avoir la date de fin renseignée. Vous ne pouvez pas la laisser vide. |
    | **Code postal éligible** | Spécifie le ou les codes postaux qui satisfont à la règle d’éligibilité. Par exemple, 58104. |
 
 5. Sous **Détails supplémentaires**, vous pouvez afficher les détails supplémentaires suivants.
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **Champ utilisateur éligible** | Spécifie des règles d’éligibilité supplémentaires en fonction des champs définis par le client. |
    | **Type d’éligibilité** | Spécifie la catégorie de critère que vous avez sélectionnée sous **Critères supplémentaires**. |
@@ -113,13 +120,13 @@ Les types de champs personnalisés suivants sont pris en charge dans le processu
 
 Le tableau suivant affiche des informations sur les champs du formulaire d’éligibilité de champs personnalisés.
 
-| Champ  | Description  |
+| Champ  | Description |
 |--------|-------------|
 | Nom | Nom des critères en cours de création. |
 | Nom de la table | Nom de la table contenant le champ personnalisé utilisé pour la règle d’éligibilité. |
 | Nom du champ | Champ qui sera utilisé pour la règle d’éligibilité. |
 | Type d’opérateur | Affiche l’opérateur utilisé dans la configuration de l’éligibilité de champs personnalisés. |
-| Valeur  | Affiche la valeur utilisée dans la configuration de l’éligibilité de champs personnalisés. |
+| Valeur | Affiche la valeur utilisée dans la configuration de l’éligibilité de champs personnalisés. |
 
 ## <a name="eligibility-logic"></a>Logique d’éligibilité
 
@@ -131,7 +138,7 @@ Lorsque plusieurs règles d’éligibilité sont affectées à un plan d’avant
 ![L’employé doit répondre aux exigences de la règle Type d’emploi ou de la règle Employés actifs.](media/RulesAssignedToAPlan.png)
  
 ### <a name="criteria-within-an-eligibility-rule"></a>Critères dans une règle d’éligibilité 
-Dans une règle, vous définissez les critères qui forment la règle. Dans l’exemple ci-dessus, les critères de la règle **Type d’emploi** sont définis sur Type d’emploi = Directeurs. Par conséquent, l’employé doit être un directeur pour être éligible. Il s’agit d’une règle dans laquelle il n’y a qu’un seul critère dans la règle.
+Dans une règle, vous définissez les critères qui forment la règle. Dans l’exemple ci-dessus, le critère de la règle **Type d’emploi** est défini sur Type d’emploi = Directeurs. Par conséquent, l’employé doit être un directeur pour être éligible. Il s’agit d’une règle dans laquelle il n’y a qu’un seul critère dans la règle.
 
 Vous pouvez définir des règles avec plusieurs critères. Lorsque vous définissez plusieurs critères dans une règle d’éligibilité, un employé doit répondre à tous les critères de la règle pour être éligible au plan d’avantages. 
 
@@ -166,12 +173,12 @@ Les offres groupées sont un ensemble de plans d’avantages connexes. Vous pouv
 
 3. Spécifiez des valeurs pour les champs suivants.
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **Offre groupée** | Identificateur unique d’une offre groupée. |
    | **Description** | Description de l’offre groupée. |
-   | **Élément maître** | Indique si l’un des plans de l’offre groupée doit être marqué comme plan général. Le plan général doit être sélectionné lors de l’inscription ouverte dans le cadre de l’offre groupée avant que l’administrateur des avantages puisse confirmer les choix d’avantages de l’employé. |
-   | **Valide à partir d’une date et heure** | Date et heure d’activation de l’offre groupée. |
+   | **Élément maître** | Indique si l’un des plans de l’offre groupée doit être marqué comme plan général. Le régime général doit être sélectionné lors de l’inscription ouverte dans le cadre de l’offre groupée avant que l’administrateur des avantages puisse confirmer les choix d’avantages de l’employé. |
+   | **Valide à partir d'une date et heure** | Date et heure d’activation de l’offre groupée. |
    | **Fin de validité** | Date d’expiration de l’offre groupée. La valeur par défaut est 12/31/2154, qui représente jamais. |
 
 4. Sélectionnez **Enregistrer**.
@@ -186,12 +193,12 @@ Les périodes définissent quand les avantages sont en vigueur et quand les empl
 
 3. Spécifiez des valeurs pour les champs suivants.
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **Période** | Identificateur unique d’une période. |
    | **Valide à partir d’une date et heure** | Date et heure de début pendant lesquelles la période d’avantages est active. |
    | **Valide jusqu’à une date et heure** | Date et heure de fin pendant lesquelles la période d’avantages devient inactive. |
-   | **Début de l’inscription** | Date de début de l’inscription ouverte. L’inscription ouverte est lorsqu’un employé peut faire des choix d’avantages en libre-service. |
+   | **Début de l’inscription** | Date de début de l’inscription ouverte. L’inscription ouverte est lorsqu’un employé peut faire des choix d’avantages en libre service. |
    | **Fin de l’inscription** | Date de fin de l’inscription ouverte. |
    | **Ouvert(e)** | Indique si la période est ouverte en fonction de la date du système et des dates et heures de début et de fin de validité. | 
    | **Période précédente** | Spécifie la période d’avantages qui précède la période d’avantages sélectionnée. Ces informations sont utilisées lors de l’inscription à l’admissibilité aux avantages pour attribuer des plans, des options de couverture et des bénéficiaires d’une année précédente. |
@@ -208,7 +215,7 @@ Vous pouvez utiliser des programmes de crédits flexibles pour inscrire les empl
 
 3. Sélectionnez un programme de crédit flexible à appliquer. Les champs contiennent les informations suivantes.
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | ID de crédit d’avantage | Identifiant unique du programme de crédits flexibles. |
    | Description | Description du programme de crédits flexibles. | 
@@ -230,7 +237,7 @@ Les programmes sont un ensemble de plans d’avantages qui partagent un ensemble
 
 3. Spécifiez des valeurs pour les champs suivants.
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **Programme** | Identificateur unique du programme. |
    | **Description** | Description du programme. | 

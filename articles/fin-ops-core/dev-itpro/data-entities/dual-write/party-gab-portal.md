@@ -1,6 +1,6 @@
 ---
-title: Utilisation de Power Portal avec le modèle de données de partie
-description: Cette rubrique décrit les modifications apportées aux rôles web de Power Portal en raison du modèle de données de partie en double écriture.
+title: Utilisation des portails Microsoft Power Apps avec le modèle de données de partie
+description: Cette rubrique décrit les modifications apportées aux rôles web des portails Microsoft Power Apps en raison du modèle de données de partie en double écriture.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358615"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542561"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Utilisation de Power Portal avec le modèle de données de partie
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Utilisation des portails Microsoft Power Apps avec le modèle de données de partie
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ Pour créer ces nouvelles autorisations de table, procédez comme suit :
 
     Vous devez créer trois nouvelles autorisations :
 
-    + Connexion Contact à Partie
-    + Connexion Partie à Compte
-    + Connexion Compte à Commande
+    + Connexion des tables **Contact** à **Partie**
+    + Connexion des tables **Partie** à **Compte**
+    + Connexion des tables **Compte** à **Commande**
 
 4. Créez et enregistrez une nouvelle autorisation pour la connexion de Contact à Partie, en définissant ces paramètres :
 
-    + **Nom** : Connexion Partie à Compte (ou votre choix)
+    + **Nom** : connexion des tables **Partie** à **Compte** (ou votre choix)
     + **Nom de la table** : msdyn_contactforparty
     + **Site web** : Portail client
     + **Étendue** : Contact

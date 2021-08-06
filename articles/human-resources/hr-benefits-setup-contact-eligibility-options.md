@@ -2,7 +2,7 @@
 title: configuration des options d’éligibilité des contacts personnels
 description: Configurez les options d’éligibilité pour les contacts personnels dans Microsoft Dynamics 365 Human Resources. Les contacts personnels peuvent être des bénéficiaires ou des personnes à charge.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d85677973f67f0c68de6c5ede62c142524939833
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 071523e2a1e9de6f0ed2b77e4ad6802efb0073f7
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054402"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558247"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>configuration des options d’éligibilité des contacts personnels
+# <a name="configure-personal-contact-eligibility-options"></a>Configurer les options d’éligibilité des contacts personnels
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article vous montre comment configurer les types de contacts personnels à utiliser dans les avantages de Microsoft Dynamics 365 Human Resources. Les contacts personnels peuvent être des bénéficiaires ou des personnes à charge. 
+Cette rubrique explique comment configurer les types de contacts personnels pouvant être utilisés pour les avantages dans Microsoft Dynamics 365 Human Resources. Les contacts personnels sont les personnes qui seront couvertes par vos régimes (personnes à charge) ou qui bénéficieront de vos régimes (bénéficiaires). Les personnes à charge sont généralement les conjoints ou les enfants. Les bénéficiaires peuvent être des conjoints, des enfants, des fiducies ou des parents.
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Options d’éligibilité des contacts personnels**.
 

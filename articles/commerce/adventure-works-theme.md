@@ -2,7 +2,7 @@
 title: Présentation du thème Adventure Works
 description: Cette rubrique donne un aperçu du thème Adventure Works et décrit comment l'appliquer aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479453"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655630"
 ---
 # <a name="adventure-works-theme-overview"></a>Présentation du thème Adventure Works
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique donne un aperçu du thème Adventure Works et décrit comment l'appliquer aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce a un thème pour le e-commerce nommé Adventure Works. Le thème Adventure Works présente des produits sportifs et récréatifs et est optimisé pour une expérience de narration enrichie et améliorée. Il offre une apparence moderne, de nouvelles mises en page et des effets d'animation pour créer une expérience d'achat en ligne immersive et engageante pour les clients de l'e-commerce.
 
-Le thème Adventure Works propose les nouveaux workflows suivants :
+## <a name="trial-environments-in-commerce"></a>Environnements d'essai dans Commerce
+
+Pour voir à quoi ressemble le thème Adventure Works lorsqu'il est déployé pour les sites B2C et B2B, visitez les sites d'essai suivants :
+
+- [Site Adventure Works B2C](https://www.adventure-works.com/)
+- [Site Adventure Works B2B](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Fonctionnalités du thème
+
+Le thème Adventure Works propose les nouvelles fonctionnalités suivantes :
 
 - Le module de lecteur vidéo prend désormais en charge les fonctionnalités de titre, de paragraphe et de liens pour une narration supplémentaire.
-- L'action d'ajout au panier appelle +le mini panier au lieu de fournir une notification.
+- Les transitions de contenu sont améliorées grâce à l'animation.
+- L'action « Ajouter au panier » appelle le mini panier au lieu de fournir une notification.
 - Le module d'affichage rapide est un volet qui se glisse dans les fenêtres de PC de bureau et de mobiles.
-- Un panier vide peut désormais présenter des promotions.
+- Il offre de nouvelles dispositions pour les pages du site. 
+- Le contenu marketing peut être configuré pour le panier et le mini panier lorsqu'ils sont vides.
+- Le mini panier peut afficher des messages promotionnels, tels que « Livraison gratuite pour les commandes de plus de 50 USD ».
+- Les fiches descriptives sont affichées sur les pages de recherche et de catégorie.
 
-Le thème Adventure Works comprend les modules de narration suivants dans la bibliothèque de modules Commerce :
+Le thème Adventure Works comprend désormais les modules de narration suivants dans la bibliothèque de modules Commerce :
 
-- Module de liste de titres
-- Module de fonctionnalité interactive
-- Module d'abonnement
-- Module Image active
-- Module de liste d'images
+- [Module de liste de vignettes](tile-list-module.md)
+- [Module de fonctionnalités interactives](interactive-feature-module.md)
+- [Module Image actif](active-image-module.md)
+- [Module d’abonnement](subscribe-module.md)
+- [Module de liste d’images](image-list-module.md)
 
 Le thème Adventure Works est entièrement réactif et offre une expérience optimisée pour les fenêtres de PC de bureau, de mobiles et de tablettes.
 
@@ -78,11 +90,15 @@ De même, d'autres modules incluent des extensions de définition de module. Par
 
 Pour plus d'informations sur les extensions de thème, consultez [Extensions de thème](e-commerce-extensibility/theme-module-extensions.md).
 
+## <a name="install-the-adventure-works-theme"></a>Installer le thème Adventure Works
+
+Pour plus d'informations sur l'installation du thème Adventure Works, consultez [Installer le thème Adventure Works](install-adventure-works.md).
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de la bibliothèque de modules](starter-kit-overview.md)
 
-[Module de liste de titres](tile-list-module.md)
+[Module de liste de vignettes](tile-list-module.md)
 
 [Module de fonctionnalité interactive](interactive-feature-module.md)
 
