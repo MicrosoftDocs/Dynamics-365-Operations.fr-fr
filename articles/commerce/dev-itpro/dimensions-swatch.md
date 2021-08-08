@@ -14,17 +14,16 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353860"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638292"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Cette rubrique décrit comment configurer les valeurs des dimensions du produit comme échantillons dans Microsoft Dynamics 365 Commerce Headquarters. Pour plus d’informations sur les dimensions du produit, consultez [Dimensions du produit](../../supply-chain/pim/product-dimensions.md).
 

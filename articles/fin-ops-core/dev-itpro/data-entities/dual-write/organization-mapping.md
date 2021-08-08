@@ -4,24 +4,17 @@ description: Cette rubrique décrit l’intégration des données organisationne
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355296"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542585"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hiérarchie d’organisation dans Dataverse
 
@@ -45,32 +38,17 @@ Des mises en correspondance de la table Hiérarchie d’organisation sont dispon
 
 Les informations de produit contiennent toutes les informations associées au produit et à sa définition, comme les dimensions du produit ou les dimensions de suivi et de stockage. Lorsque le tableau suivant s’affiche, un ensemble de cartes de tables est créé pour synchroniser les produits et les informations associées.
 
-Applications Finance and Operations | Autres applications Dynamics 365 | Description
+Applications de Finance and Operations | Applications Customer Engagement     | Description
 -----------------------|--------------------------------|---
-Objectifs de la hiérarchie d’organisation | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de la table Objectif de la hiérarchie d’organisation.
-Type de la hiérarchie d’organisation | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de la table Type de hiérarchie d’organisation.
-Hiérarchie d’organisation – publiée | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de la table Hiérarchie d’organisation publiée.
-Unité opérationnelle | msdyn_internalorganizations |
-Entités juridiques | msdyn_internalorganizations |
-Entités juridiques | cdm_companies | Fournit la synchronisation bidirectionnelle d’informations sur l’entité juridique (société).
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
-
-[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
-
-[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
+[Entités juridiques](mapping-reference.md#102) | cdm_companies | Fournit la synchronisation bidirectionnelle d’informations sur l’entité juridique (société).
+[Entités juridiques](mapping-reference.md#142) | msdyn_internalorganizations |
+[Unité opérationnelle](mapping-reference.md#143) | msdyn_internalorganizations |
+[Hiérarchie d’organisation – publiée](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de la table Hiérarchie d’organisation publiée.
+[Objectifs de la hiérarchie d'organisation](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de la table Objectif de la hiérarchie d’organisation.
+[Type de la hiérarchie d’organisation](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de la table Type de hiérarchie d’organisation.
 
 ## <a name="internal-organization"></a>Organisation interne
 
-Les informations d’organisation internes dans Dataverse proviennent de deux tables, **unité opérationnelle** et **entités juridiques**.
-
-[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-Companies.md)]
-
+Les informations d’organisation internes dans Dataverse proviennent de deux tables, **Unité opérationnelle** et **Entités juridiques**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

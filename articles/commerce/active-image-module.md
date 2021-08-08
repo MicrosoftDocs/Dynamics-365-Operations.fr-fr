@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6cc2f9bafcdd17ac33d5591b8c21f3354d95d92e
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: 5375a9fc4b168addadadb457b89f5c3ac2ab2746
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479455"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638071"
 ---
 # <a name="active-image-module"></a>Module Image active
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules Image active et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -42,7 +41,7 @@ L'illustration suivante montre un exemple de fenêtre contextuelle d'aperçu sur
 
 ## <a name="active-image-module-properties"></a>Propriétés du module Image active
 
-| Nom de la propriété      | Valeurs | Description  |
+| Nom de la propriété      | Valeurs | Description |
 |--------------------|--------|-------------|
 | Image              | Fichier image | Une image peut être utilisée pour présenter un ou plusieurs produits. L’image peut être chargée dans le générateur de site de la bibliothèque multimédia dans Commerce, ou une image existante peut être utilisée. |
 | Largeur              | Nombre de pixels | Cette propriété définit la largeur de l'image. Les coordonnées actives sont calculées en fonction de la largeur de l'image.|

@@ -2,7 +2,7 @@
 title: Vue d’ensemble
 description: Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338052"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639508"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
@@ -97,13 +97,14 @@ Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instru
 [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)</br>
 [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)</br>
 [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
-[Régulariser les plans de congé et d’absence](hr-leave-and-absence-accrue.md)</br>
-[Afficher l’analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
+[Régulariser les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
+[Afficher l'analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
 [Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)</br>
 [Demander un congé](hr-employee-self-service-request-time-off.md)</br>
 [Afficher les calendriers des équipes et de la société](hr-employee-self-service-calendar.md)</br>
+[Configurer le rôle de gestionnaire des absences](hr-configure-absence-manager.md)</br>
 
-## <a name="develop-employees"></a>Développer les employés
+## <a name="develop-employees"></a>Faire évoluer les employés
 
 [Vue d’ensemble de la gestion des performances](hr-develop-performance-management-overview.md)</br>
 [Aligner les qualifications du personnel](hr-develop-skills.md)</br>

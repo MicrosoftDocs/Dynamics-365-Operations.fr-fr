@@ -12,17 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7a067994828f3df577c0dc4146d26ac81990d4ac
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: e53c8ceb91a007775fa74f0c9598a65745f01cec
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129807"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638095"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Retour de produits contrôlés par numéro de série dans le PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique décrit les fonctionnalités de validation des articles à numéro de série dans le cadre du processus de retour dans l’application de point de vente (PDV) de Microsoft Dynamics 365 Commerce.
 
