@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728625"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vues enregistrées standard pour Supply Chain Management
 
@@ -77,6 +77,18 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module App
 | Détails de la commande fournisseur | Gestion financière | Cette vue simplifiée est optimisée pour exécuter des activités liées aux finances, telles que la facturation et la vérification des prix, totaux et frais. | Vues enregistrées pour les commandes fournisseur |
 | Détails de la commande fournisseur | Approbation de commande | Cette vue simplifiée est optimisée pour l’approbation de nouvelles commandes fournisseur. | Vues enregistrées pour les commandes fournisseur |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Vues enregistrées pour le module Gestion des informations sur les produits
+
+Le tableau suivant décrit les vues enregistrées disponibles pour le module Gestion des informations sur les produits.
+
+| Page | Nom de vue | Afficher la description | Nom de la fonction |
+|---|---|---|---|
+| Liste Produits lancés | Création de produits | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la création de produits. | Vues enregistrées pour les produits lancés |
+| Détails des produits lancés | Création de produits | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la création de produits. | Vues enregistrées pour les produits lancés |
+| Détails des produits lancés | Gestion des informations logistiques | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations logistiques des produits. | Vues enregistrées pour les produits lancés |
+| Détails des produits lancés | Gestion des informations sur l’achat | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations sur l’achat des produits. | Vues enregistrées pour les produits lancés |
+| Détails des produits lancés | Gestion des informations sur les ventes | Vue de page simplifiée qui inclut uniquement les champs les plus utilisés lors de la gestion des informations liées aux ventes des produits. | Vues enregistrées pour les produits lancés |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Vues enregistrées pour le module Contrôle de la production
 
 Le tableau suivant décrit les vues enregistrées disponibles pour le module Contrôle de la production.
@@ -110,7 +122,7 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Ges
 | Toutes les expéditions | Traitement entrant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les expéditions entrantes. | Vues enregistrées pour le traitement de l’expédition |
 | Toutes les expéditions | Traitement sortant | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés pour traiter les expéditions sortantes. | Vues enregistrées pour le traitement de l’expédition |
 | Toutes les vagues | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour le traitement de la vague |
-| Atelier de planification des chargements | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour l’atelier de planification du travail |
+| Atelier de planification des chargements | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour l’atelier de planification des chargements |
 | Détails du travail | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour la page des détails du travail |
 
 
