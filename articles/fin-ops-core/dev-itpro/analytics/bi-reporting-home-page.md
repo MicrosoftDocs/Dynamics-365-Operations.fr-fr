@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712734"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Génération d'états et analyses avec la page d'accueil Power BI
 
@@ -71,7 +71,7 @@ Pour en savoir plus, consultez les rubriques suivantes :
 - [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [Créer des configurations de gestion des états électroniques](electronic-reporting-configuration.md)
 
-## <a name="financial-reporting"></a>États financiers
+## <a name="financial-reporting"></a>Financial reporting
 Des états financiers standard sont fournis et utilisent les catégories du compte principal par défaut. Vous pouvez utiliser le concepteur d'états pour créer ou modifier des tableaux d'analyse traditionnels, comme les comptes de résultat et de bilan. Vous pouvez ensuite partager les résultats avec d'autres membres de votre organisation. Les bilans, le flux de trésorerie et la balance comptable récapitulative annuelle sont des exemples d’états financiers.
 
 [![Exemple d’états financiers.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)

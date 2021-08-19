@@ -94,6 +94,8 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce\_10.0.21 (octobre\_2021)"
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: "Commerce\_10.0.20 (août\_2021)"
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: "Commerce\_10.0.19 (juin\_2021)"
@@ -516,9 +518,17 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Ignorer la boîte de dialogue Monnaie due dans le PDV
                       href: dev-itpro/skip-change-due.md
-                    - name: Connecteur de paiement Adyen
-                      href: dev-itpro/adyen-connector.md
-                    - name: Enregistrement des instruments de paiement en ligne avec le connecteur Adyen
+                    - name: Dynamics 365 Payment Connector pour Adyen
+                      items:
+                        - name: Vue d’ensemble de Dynamics 365 Payment Connector pour Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Configurer Dynamics 365 Payment Connector pour Adyen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: FAQ de Dynamics 365 Payment Connector pour Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Résoudre les problèmes avec Dynamics 365 Payment Connector pour Adyen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
+                    - name: Enregistrement des instruments de paiement en ligne avec le Connecteur Adyen
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Authentification rigoureuse des clients (SCA) à l’aide du Connecteur Adyen
                       href: adyen_redirect.md
@@ -1182,6 +1192,10 @@
               items:
                 - name: Génération d’états de canal en ligne
                   href: generate-reports.md
+            - name: Ciblage
+              items:
+                - name: 'Ciblage par appareil, marché et géolocalisation'
+                  href: targeting-overview.md
             - name: Expérimentation
               items:
                 - name: Expérimentation dans Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Localisation de Commerce pour la Russie
                   href: localizations/rus-commerce-localization.md
+                - name: Configurer la localisation de Commerce pour la Russie
+                  href: localizations/rus-commerce-setup.md
+                - name: Paiements anticipés dans Commerce pour la Russie
+                  href: localizations/rus-commerce-prepayments.md
             - name: Suède
               items:
                 - name: Fonctionnalité de la caisse enregistreuse

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716490"
 ---
 # <a name="rebate-management-deals"></a>Accords de gestion des remises
 
@@ -102,6 +102,7 @@ Une fois que vous avez créé un accord comme décrit dans la section précéden
         - *Tous* – La ligne d’accord s’applique à tous les articles.
 
     - **Relation d’article** : si vous avez sélectionné *Table* dans le champ **Code article**, sélectionnez l’article auquel s’applique la ligne d’accord. Si vous avez sélectionné *Groupe*, choisissez le groupe d’articles. Si vous avez sélectionné *Tous*, ce champ n’est pas disponible.
+    - **Type d’unité** – Sélectionnez le type d’unité qui s’applique à la ligne de transaction (*Unité de stock* ou *Unité en poids variable*). Notez que ce champ peut être vide pour les enregistrements plus anciens. Dans ce cas, la valeur *Unité de stock* est supposée.
     - **(Paramètres de gestion des stocks)**  : dans les champs restants de la ligne d’accord, spécifiez des valeurs pour les paramètres de gestion des stocks qui seront utilisés pour définir les articles inclus dans l’accord (tels que la taille, la couleur, le style, le site et l’entrepôt). Pour ajouter ou supprimer les dimensions, sélectionnez **Afficher les dimensions** dans le volet Actions.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
