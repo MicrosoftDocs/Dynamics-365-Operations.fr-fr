@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730008"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking planifié
 
@@ -114,12 +114,15 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 
 1. Dans l’organisateur **Sources d’approvisionnement**, vous spécifiez les types d’approvisionnement valides pour ce modèle. Sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
 
-    - **Numéro de souche :** *1*
+    - **Souche de N° :** *1*
     - **Source d’approvisionnement :** *Commande fournisseur*
+
+> [!NOTE]
+> Vous pouvez paramétrer une requête pour contrôler le moment où un modèle spécifique de cross-docking est utilisé. La requête pour les modèles de cross-docking n’a que la table *InventTable* (articles) et la table de type jointure interne *WHSInventTable* (articles WHS). Si vous souhaitez ajouter d’autres tables à la requête, vous pouvez les joindre en utilisant uniquement *jointures existantes* ou *aucune jointure*. Lorsque vous filtrez sur les tables jointes, un enregistrement de la table principale est récupéré pour chaque enregistrement correspondant dans la table jointe. Si le type de jointure est *jointure existante*, la recherche se termine une fois la première correspondance trouvée. Par exemple, si vous joignez la table des lignes de commande client à la table des articles, le système valide et renvoie les articles pour lesquels au moins une ligne de commande client a la condition définie. Essentiellement, les données sont extraites de la table parent (articles) et non de la table enfant (ligne de commande client). Par conséquent, le filtrage par documents source tels que les lignes de commande client ou les clients ne peut pas être effectué directement.
 
 ### <a name="create-a-work-class"></a>Créer une classe de travail
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Travail \> Classes de travail**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Travail \> Classes de travail**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer une classe de travail.
 1. Définissez les valeurs suivantes :
 
@@ -151,6 +154,9 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
     - **ID classe de travail :** *CrossDock*
 
 1. Sélectionnez **Enregistrer** et confirmez que la case **Valide** est cochée pour le modèle *51 Cross Dock*.
+1. Facultatif : Sélectionnez **Modifier la requête** si vous souhaitez définir des critères pour contrôler quand et où le modèle de travail est utilisé.
+
+    Vous pouvez paramétrer une requête pour contrôler le moment où un modèle spécifique de travail est utilisé. Par exemple, vous pouvez spécifier qu’un modèle peut être utilisé pour travailler uniquement à un emplacement spécifique. Si vous souhaitez que le modèle de travail de cross-docking soit appliqué à un emplacement spécifique, vous devez filtrer sur le champ **Lieu de départ**, non le champ **Emplacement**, car la création de travail pour les processus entrants (achat, cross-docking et réapprovisionnement) commence à partir de la ligne de rangement. Lorsque le travail est créé, la directive d’emplacement définit le champ **Lieu** sur l’emplacement de rangement. Cependant, le lieu de prélèvement est stocké dans le champ **Lieu de départ**.
 
 > [!NOTE]
 > Les ID de classe de travail pour les types de travail *Prélever* et *Placer* doivent être identiques.
