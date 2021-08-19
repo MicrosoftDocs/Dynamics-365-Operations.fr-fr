@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-05-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a7ab4c7263947767164702fb7dd6da7573175253
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: a24f199484c7596189b19e4cddf344e9186c6044edd2906affca9b530de44168
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722197"
 ---
 # <a name="work-cant-be-canceled-because-its-blocked"></a>Le travail ne peut pas être annulé car il est bloqué
 
@@ -46,7 +46,7 @@ Pour débloquer le travail, sélectionnez l'onglet **Motifs de blocage**, puis s
 Si les étapes précédentes n'ont pas résolu le problème, vous pouvez annuler le travail en suivant ces étapes.
 
 1. Allez dans **Gestion des entrepôts \> Tâches périodiques \> Nettoyer \> Annuler le travail**.
-1. Dans le champ **ID de travail**, spécifiez l'ID de travail que vous souhaitez annuler et dont le **Statut de travail** est actuellement *Ouvert*, *En cours*, *Annulé*, *Combiné* ou *Fermé*.
+1. Dans le champ **ID de travail**, spécifiez l’ID de travail que vous souhaitez annuler et dont le **Statut de travail** est actuellement *Ouvert*, *En cours*, *Annulé*, *Combiné* ou *Fermé*.
 1. Cliquez sur **OK**.
 1. Sélectionnez **Oui** pour confirmer que vous souhaitez annuler le travail.
 

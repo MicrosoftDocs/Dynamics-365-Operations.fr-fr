@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720250"
 ---
 # <a name="rebate-management-module-overview"></a>Vue d’ensemble du module de gestion des remises
 
@@ -91,10 +91,9 @@ Les utilisateurs n’ont plus à gérer les accords ou les provisions en deux é
 
 Lorsque les remises sont calculées, le processus crée des transactions qui peuvent être examinées avant la validation. Un processus distinct valide les transactions de gestion des remises. Il est alors possible de créer un journal, un avoir ou une transaction de débit lors de la validation des transactions proposées. Il est possible d’obtenir des relevés de déclaration et des listes de transactions aux fins de conformité, d’efficacité et de transparence.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Paiement des redevances garanties
 
-Dans la gestion des remises, la génération automatique de paiements permet de gérer les redevances rapidement et facilement, même lorsque des minimums garantis s’appliquent. 
+Dans la gestion des remises, la génération automatique de paiements permet de gérer les redevances rapidement et facilement, même lorsque des minimums garantis s’appliquent.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Maximiser les dépenses par rapport aux remises
 
