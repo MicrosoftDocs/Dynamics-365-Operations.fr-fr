@@ -2,7 +2,7 @@
 title: Planification avec des quantités disponibles négatives
 description: Cette rubrique explique comment une quantité disponible négative est gérée lorsque vous utilisez la fonctionnalité d’optimisation de la planification.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758542"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planification avec des quantités disponibles négatives
 
@@ -73,17 +73,29 @@ Dans ce cas, le moteur de planification suppose que la quantité disponible pour
 
 Le résultat est une commande planifiée de 25 pcs (= 25 pcs &minus; 0 pcs) pour remplir l’entrepôt 13 de 0 pcs à 25 pcs
 
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planification lorsqu’il y a une réservation par rapport au stock disponible négatif
+
+Si vous ajustez le stock alors que des réservations physiques existent, vous pouvez provoquer une situation où une commande est physiquement réservée par rapport à un stock négatif. Dans ce cas, étant donné qu’une réservation physique existe, l’optimisation de la planification suppose qu’elle est prise en charge par le stock disponible, même si la réception du stock disponible n’est pas encore enregistrée dans le système. Par conséquent, il suppose que le réapprovisionnement n’est pas requis et ne crée pas d’ordre planifié pour réapprovisionner la quantité de la commande.
+
+L’exemple suivant illustre ce scénario.
+
+### <a name="example"></a>Exemple
+
+Le système est configuré de la manière suivante :
+
+- Le produit *FG* existe avec *10* unités. de stock disponible.
+- La configuration du produit permet un stock physique négatif.
+- Une commande client existe pour une quantité de *10* unités. de produit *FG*.
+- La quantité de la commande client est physiquement réservée par rapport au stock disponible existant.
+
+Vous ajustez ensuite la quantité de produit *FG* de sorte que le stock disponible devienne 0 (zéro). Étant donné que le stock de produits en stock est nul, la quantité de la commande client est désormais réservée par rapport au stock négatif. Cependant, si vous exécutez la planification principale maintenant, aucun ordre planifié ne sera créé pour fournir la commande client, car l’optimisation de la planification supposera que le stock disponible requis existe pour fournir la réservation physique.
+
 ## <a name="related-resources"></a>Ressources associées
 
-[Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
-
-[Mise en route de l’optimisation de la planification](get-started.md)
-
-[Analyse de concordance d’optimisation de la planification](planning-optimization-fit-analysis.md)
-
-[Afficher l’historique du plan et les journaux de planification](plan-history-logs.md)
-
-[Annuler une tâche de planification](cancel-planning-job.md)
-
+- [Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
+- [Mise en route de l’optimisation de la planification](get-started.md)
+- [Analyse de concordance d’optimisation de la planification](planning-optimization-fit-analysis.md)
+- [Afficher l’historique du plan et les journaux de planification](plan-history-logs.md)
+- [Annuler une tâche de planification](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
