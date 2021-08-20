@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744796"
 ---
 # <a name="goods-in-transit-processing"></a>Traitement de marchandises en transit
 
@@ -104,6 +104,7 @@ Vous pouvez également recevoir des marchandises en créant un journal des arriv
 1. Ouvrez le voyage, le conteneur ou le folio.
 1. Dans le volet Actions, sous l’onglet **Gestion**, dans le groupe **Fonctions**, sélectionnez **Créer un journal des arrivées**.
 1. Dans la boîte de dialogue **Créer un journal des arrivées**, définissez les valeurs suivantes :
+
     - **Initialiser la quantité** – Réglez cette option sur *Oui* pour définir la quantité à partir de la quantité en transit. Si cette option est définie sur *Non*, aucune quantité par défaut n’est définie à partir des lignes de marchandises en transit.
     - **Créer à partir de marchandises en transit** – Réglez cette option sur *Oui* pour prendre des quantités des lignes en transit sélectionnées pour le voyage, le conteneur ou le folio sélectionné.
     - **Créer à partir des lignes de commande** – Réglez cette option sur *Oui* pour définir la quantité par défaut dans le journal des arrivées à partir des lignes de commande fournisseur. La quantité par défaut dans le journal des arrivées peut être définie de cette manière uniquement si la quantité sur la ligne de commande correspond à la quantité sur la commande de marchandises en transit.
@@ -140,4 +141,21 @@ Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Ma
 
 ### <a name="work-templates"></a>Modèles de travail
 
+Cette section décrit les fonctionnalités que le module **Prix au débarquement** ajoute aux modèles de travail.
+
+#### <a name="goods-in-transit-work-order-type"></a>Type d’ordre de travail Marchandises en transit
+
 Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Marchandises en transit* à la page **Modèles de travail**. Ce type d’ordre de travail doit être configuré de la même manière que les [Modèles de travail de commande fournisseur](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Décompositions de l’en-tête de travail
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Modèles de travail qui ont un type d’ordre de travail de *Marchandises en transit* peut être configuré pour fractionner les en-têtes de travail. Dans la page **Modèles de travail**, suivez l’une des étapes suivantes :
+
+- Sur l’onglet **Général** pour le modèle, définissez les maximums d’en-tête de travail. Ces maximums fonctionnent de la même manière que pour les modèles de travail de commande fournisseur. (Pour plus d’informations, voir les [modèles de travail de commande fournisseur](/dynamicsax-2012/appuser-itpro/create-a-work-template).)
+- Utilisez le bouton **Pauses d’en-tête de travail** pour définir quand le système doit créer des en-têtes de travail, selon les champs utilisés pour le tri. Par exemple, pour créer un en-tête de travail pour chaque ID conteneur, sélectionnez **Modifier la requête** dans le volet Actions, puis ajoutez le champ **ID conteneur** à l’onglet **Tri** de l’éditeur de requêtes. Les champs ajoutés à l’onglet **Tri** sont disponibles pour la sélection comme *champs de regroupement*. Pour configurer vos champs de regroupement, sélectionnez **Pauses d’en-tête de travail** dans le volet Actions, puis, pour chaque champ que vous souhaitez utiliser comme champ de regroupement, cochez la case dans la colonne **Regrouper selon ce champ**.
+
+Le prix au débarquement [crée une transaction en surplus](over-under-transactions.md) si la quantité enregistrée dépasse la quantité d’origine de la commande. Lorsqu’un en-tête de travail est terminé, le système met à jour le statut des transactions de stock pour la quantité de commande principale. Cependant, il met d’abord à jour la quantité liée à la transaction en surplus après l’achat complet du principal.
+
+Si vous annulez un en-tête de travail pour une transaction en surplus qui a déjà été enregistrée, l’opération de dépassement est d’abord réduite de la quantité annulée. Une fois la transaction en surplus réduite à une quantité de 0 (zéro), l’enregistrement est supprimé et toute quantité supplémentaire n’est pas enregistrée par rapport à la quantité de commande principale.
