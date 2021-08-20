@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: caba37d3e7bb5d2f08a8c10ff0f0e1bc886e5648
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: c07bb53787ba49e4e6010802fc8c9b43ea6b2d6b3bec49096efd9832140d4d9e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736501"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Réimpression et annulation d’étiquettes de vague
 
@@ -41,7 +41,7 @@ Cette rubrique présente une collection de scénarios qui montrent, à travers d
 
 Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes. Dans le volet Actions de chaque page, sous l’onglet **Expéditions**, dans le groupe **Informations associées**, sélectionnez **Étiquettes de vague**.
 
-- Toutes les expéditions \>Détails de l’expédition
+- Toutes les expéditions \> Détails de l’expédition
 - Tous les chargements \>Charger du chargement
 - Toutes les vagues
 - Étiquettes de vague

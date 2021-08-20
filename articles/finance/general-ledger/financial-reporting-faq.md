@@ -2,7 +2,7 @@
 title: FAQ sur les états financiers
 description: Cette rubrique fournit des réponses à certaines questions fréquentes sur les états financiers.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266631"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733609"
 ---
 # <a name="financial-reporting-faq"></a>FAQ sur les états financiers
 
@@ -77,5 +77,29 @@ Le message indique qu’un problème s’est produit lorsque le système a tent�
 
 - Vérifiez le statut d’intégration des données en accédant à **Outils \> Statut d’intégration** dans Report Designer. Si l’intégration est incomplète, attendez qu’elle se termine. Ensuite, recommencez ce que vous faisiez lorsque vous avez reçu le message.
 - Contactez le support pour identifier et résoudre le problème. Il peut y avoir des données incohérentes dans le système. Les ingénieurs du support peuvent vous aider à identifier ce problème sur le serveur et à rechercher les données spécifiques qui peuvent nécessiter une mise à jour.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Comment la sélection de la conversion des taux historiques affecte-t-elle les performances des états ?
+
+Le taux historique est généralement utilisé avec les bénéfices non répartis, les immobilisations corporelles et les comptes de capitaux propres. Le taux historique peut être requis, sur la base des directives du Bureau des normes comptables financières (FASB) ou des principes comptables généralement reconnus (PCGR). Pour plus d’informations, consultez [Fonctionnalités de devise dans les rapports financiers](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Combien y a-t-il de types de taux de change ?
+
+Il existe trois types :
+
+- **Taux actuel** – Ce type est généralement utilisé avec les comptes de bilan. Il est généralement connu sous le nom de *Taux de change au comptant* et peut être le taux du dernier jour du mois ou à une autre date prédéterminée.
+- **Taux moyen** – Ce type est généralement utilisé avec les comptes de résultat (bénéfice/perte). Vous pouvez configurer le taux moyen pour faire une moyenne simple ou pondérée.
+- **Taux historique** – Ce type est généralement utilisé avec les bénéfices non répartis, les immobilisations corporelles et les comptes de capitaux propres. Ces comptes peuvent être requis, selon les directives FASB ou les principes GAAP.
+
+## <a name="how-does-historical-currency-translation-work"></a>Comment fonctionne la conversion historique des devises ?
+
+Les tarifs sont spécifiques à la date de la transaction. Par conséquent, chaque transaction est convertie individuellement, sur la base du taux de change le plus proche.
+
+Pour la conversion historique des devises, les soldes de période précalculés peuvent être utilisés à la place des détails de transaction individuels. Ce comportement diffère du comportement pour la conversion selon le taux en cours.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Comment la conversion historique des devises affecte-t-elle les performances ?
+
+Lorsque les données présentées sur les rapports sont mises à jour, il peut y avoir un retard car les montants doivent être recalculés en vérifiant les détails de la transaction. Ce délai est déclenché chaque fois que les taux sont mis à jour ou que plusieurs transactions sont affichées. Par exemple, si des milliers de comptes sont configurés pour la conversion historique plusieurs fois par jour, il peut y avoir un délai pouvant aller jusqu’à une heure avant que les données du rapport soient mises à jour. En revanche, s’il y a un plus petit nombre de comptes spécifiques, les délais de traitement des mises à jour des données du rapport peuvent être réduits à quelques minutes ou moins.
+
+De même, lorsque les rapports sont générés en utilisant la conversion de devise pour les comptes de type historique, il y aura des calculs supplémentaires par transaction. Selon le nombre de comptes, le temps de génération des rapports peut plus que doubler.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
