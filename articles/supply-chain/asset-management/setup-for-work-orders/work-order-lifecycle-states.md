@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5facd333c9a76f391b36de71fa3a8e276fe2583f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768664"
 ---
 # <a name="work-order-lifecycle-states"></a>États du cycle de vie d’ordres de travail
 
@@ -37,7 +37,7 @@ La table suivante décrit les options dans les sections **Ordre de travail** et 
 
 ![Page État du cycle de vie de l’ordre de travail.](media/09-setup-for-work-orders.png)
 
-| Nom de l’option                   | Description  |
+| Nom de l’option                   | Description |
 |-------------------------------|-------------|
 | Actif.ve                        | Définissez cette option sur **Oui** si l’ordre de travail doit être actif alors qu’il est dans cet état du cycle de vie. |
 | Ajouter la ligne                      | Définissez cette option sur **Oui** si les tâches de l’ordre de travail peuvent être ajoutées à un ordre de travail qui est dans cet état du cycle de vie. |

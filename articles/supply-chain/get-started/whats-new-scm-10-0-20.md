@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773511"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.20 (août 2021)
 
@@ -47,8 +47,7 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 
 | Fonctionnalités | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
 |---|---|---|
-| Planification générale | Jours négatifs pour l’optimisation de la planification | Cette fonctionnalité permet à l’optimisation de la planification de prendre en compte la tolérance de retard en fonction du paramètre **Jours négatifs** défini dans les groupes de couverture. |
-| Planification | Autorisation parallèle de l’ajustement de la prévision de la demande | Cette fonctionnalité permet l’autorisation parallèle de la prévision de la demande ajustée dans la page **Prévision de la demande ajustée**. Cette fonctionnalité a pour but d’augmenter les performances lorsqu’un grand nombre de prévisions est autorisé. Lors de l’autorisation, l’utilisateur peut spécifier le **Nombre de fils de discussion** dans la boîte de dialogue d’autorisation. |
+| Planification générale | Autorisation parallèle de l’ajustement de la prévision de la demande | Cette fonctionnalité permet l’autorisation parallèle de la prévision de la demande ajustée dans la page **Prévision de la demande ajustée**. Cette fonctionnalité a pour but d’augmenter les performances lorsqu’un grand nombre de prévisions est autorisé. Lors de l’autorisation, l’utilisateur peut spécifier le **Nombre de fils de discussion** dans la boîte de dialogue d’autorisation. |
 | Planification | (Aperçu) Confirmation et consolidation pouvant être traitées par lots pour les lots de commandes planifiées de consommables et d’articles emballés | Cette fonctionnalité vous permet d’utiliser les traitements par lots pour confirmer et consolider les commandes planifiées de consommables et d’articles emballés. |
 | Contrôle de la production | Copier les gammes génériques | Cette fonctionnalité améliore la fonction de copie de la gamme pour permettre aux utilisateurs de copier des gammes qui ne sont pas spécifiques à un élément. Ellle permet au système de mettre à jour toutes les informations pertinentes (telles que le site, le groupe de gammes, les besoins en ressources et les différentes heures) une fois que la fonction de copie de la gamme a été utilisée pour remplacer une gamme qui n’est pas encore affectée à un article. |
 | Contrôle de la production | Mettre à jour les ressources requises liées lorsqu’une opération de gamme est modifiée | Cette fonctionnalité permet au système de mettre à jour les ressources requises liées après qu’un utilisateur a modifié l’opération d’une étape de gamme existante. |
