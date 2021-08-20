@@ -5,6 +5,8 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "26\_juillet\_2021"
+          href: hr-whats-new-2021-07-26.md
         - name: "12\_juillet\_2021"
           href: hr-whats-new-2021-07-12.md
         - name: "22\_juin\_2021"
@@ -27,45 +29,45 @@
           href: hr-whats-new-2021-01-28.md
         - name: "21\_janvier\_2021"
           href: hr-whats-new-2021-01-21.md
-        - name: "2\_décembre\_2020"
-          href: hr-whats-new-2020-12-02.md
-        - name: "22\_octobre\_2020"
-          href: hr-whats-new-2020-10-22.md
-        - name: "6\_octobre\_2020"
-          href: hr-whats-new-2020-10-06.md
-        - name: "26\_septembre\_2020"
-          href: hr-whats-new-2020-09-26.md
-        - name: "16\_septembre\_2020"
-          href: hr-whats-new-2020-09-16.md
-        - name: "3\_septembre\_2020"
-          href: hr-whats-new-2020-09-03.md
-        - name: "20\_août\_2020"
-          href: hr-whats-new-2020-08-20.md
-        - name: "6\_août\_2020"
-          href: hr-whats-new-2020-08-06.md
-        - name: "23\_juillet\_2020"
-          href: hr-whats-new-2020-07-23.md
-        - name: "8\_juillet\_2020"
-          href: hr-whats-new-2020-07-08.md
-        - name: "25\_juin\_2020"
-          href: hr-whats-new-2020-06-23.md
-        - name: "11\_juin\_2020"
-          href: hr-whats-new-2020-06-11.md
-        - name: "28\_mai\_2020"
-          href: hr-whats-new-2020-05-28.md
-        - name: "14\_mai\_2020"
-          href: hr-whats-new-2020-05-14.md
-        - name: "1er\_mai\_2020"
-          href: hr-whats-new-2020-05-01.md
         - name: "Nouvelles archives\_2020"
           items:
+            - name: "2\_décembre\_2020"
+              href: hr-whats-new-2020-12-02.md
+            - name: "22\_octobre\_2020"
+              href: hr-whats-new-2020-10-22.md
+            - name: "6\_octobre\_2020"
+              href: hr-whats-new-2020-10-06.md
+            - name: "26\_septembre\_2020"
+              href: hr-whats-new-2020-09-26.md
+            - name: "16\_septembre\_2020"
+              href: hr-whats-new-2020-09-16.md
+            - name: "3\_septembre\_2020"
+              href: hr-whats-new-2020-09-03.md
+            - name: "20\_août\_2020"
+              href: hr-whats-new-2020-08-20.md
+            - name: "6\_août\_2020"
+              href: hr-whats-new-2020-08-06.md
+            - name: "23\_juillet\_2020"
+              href: hr-whats-new-2020-07-23.md
+            - name: "8\_juillet\_2020"
+              href: hr-whats-new-2020-07-08.md
+            - name: "25\_juin\_2020"
+              href: hr-whats-new-2020-06-23.md
+            - name: "11\_juin\_2020"
+              href: hr-whats-new-2020-06-11.md
+            - name: "28\_mai\_2020"
+              href: hr-whats-new-2020-05-28.md
+            - name: "14\_mai\_2020"
+              href: hr-whats-new-2020-05-14.md
+            - name: "1er\_mai\_2020"
+              href: hr-whats-new-2020-05-01.md
             - name: "13\_avril\_2020"
               href: hr-whats-new-2020-04-13.md
             - name: "3\_avril\_2020"
               href: hr-whats-new-2020-04-03.md
             - name: "24\_mars\_2020"
               href: hr-whats-new-2020-03-24.md
-            - name: "19\_mars\_2020"
+            - name: 19 mars 2020
               href: hr-whats-new-2020-03-19.md
             - name: "10\_mars\_2020"
               href: hr-whats-new-2020-03-10.md
@@ -471,8 +473,12 @@
                   href: hr-admin-integration-payroll-api-leave-balance.md
                 - name: Type de congé
                   href: hr-admin-integration-payroll-api-leave-type.md
-                - name: Demande de congés
+                - name: Demande de congé
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Entités liées aux avantages
+              items:
+                - name: Régime des avantages sociaux pour les collaborateurs de la paie
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Jeux d’options
               items:
                 - name: Sexe
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Type de processus
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Couverture du type de régime des avantages
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Statut du régime des avantages sociaux des employés
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Guide de l’utilisateur
       items:
         - name: Vue d’ensemble
