@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773294"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Premiers pas avec la comptabilité globale des stocks
 
@@ -42,7 +42,7 @@ La comptabilité globale des stocks ne prend actuellement pas en charge toutes l
 > [!IMPORTANT]
 > Pour utiliser la comptabilité globale des stocks, vous devez disposer d’un environnement à haute disponibilité compatible LCS (et non d’un environnement OneBox). De plus, vous devez exécuter Supply Chain Management version 10.0.19 ou ultérieure.
 
-Pour vous inscrire à la version préliminaire publique de la comptabilité globale des stocks, envoyez votre ID d’environnement LCS par e-mail à l’[Équipe Comptabilité globale des stocks](mailto:GlobalInventoryAccounting@service.microsoft.com). Une fois que vous avez été approuvé pour le programme, l’équipe vous enverra un e-mail de suivi contenant une clé bêta de Comptabilité globale des stocks et vos points de terminaison de service. Après avoir reçu la clé bêta, vous pourrez [installer le complément](#install).
+Pour vous inscrire à la version préliminaire publique de la comptabilité globale des stocks, envoyez votre ID d’environnement LCS par e-mail à l’[Équipe Comptabilité globale des stocks](mailto:GlobalInvAccount@microsoft.com). Une fois que vous avez été approuvé pour le programme, l’équipe vous enverra un e-mail de suivi contenant une clé bêta de Comptabilité globale des stocks et vos points de terminaison de service. Après avoir reçu la clé bêta, vous pourrez [installer le complément](#install).
 
 ## <a name="licensing"></a>Gestionnaire de licences
 

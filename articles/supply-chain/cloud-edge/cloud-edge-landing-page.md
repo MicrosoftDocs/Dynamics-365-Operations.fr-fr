@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780672"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unités d’échelle Cloud et périphérie pour les charges de travail de fabrication et de gestion d’entrepôt
 
@@ -102,7 +102,7 @@ Votre environnement de production actuel doit être étiqueté avec le type **Li
 > [!IMPORTANT]
 > Les types d’environnement qui s’exécutent en tant qu’infrastructure en tant que service (IaaS) ne sont pas pris en charge. Ces environnements sont généralement étiquetés avec le type **Géré par Microsoft** dans LCS. Si vous disposez d’environnements de ce type, collaborez avec votre contact Microsoft pour établir la chronologie de votre migration vers le type **Libre service**.
 
-Microsoft est en train de faire passer tous les environnements cloud de Supply Chain Management d’un modèle IaaS à une topologie hébergée dans Service Fabric. Cette transition apporte une meilleure évolutivité et facilite la gestion des services. Par conséquent, les opérations de déploiement et de maintenance sont plus rapides. De même, les composants de service sont en cours de migration vers le concept de microservices, et le modèle d’hébergement de services va [opérer une transition](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) d’un modèle de machine virtuelle (VM) à une architecture conteneurisée légère.
+Microsoft est en train de faire passer tous les environnements cloud de Supply Chain Management d’un modèle IaaS à une topologie hébergée dans Service Fabric. Cette transition apporte une meilleure évolutivité et facilite la gestion des services. Par conséquent, les opérations de déploiement et de maintenance sont plus rapides. De même, les composants de service sont en cours de migration vers le concept de microservices, et le modèle d’hébergement de services va [opérer une transition](/virtualization/windowscontainers/about/containers-vs-vm) d’un modèle de machine virtuelle (VM) à une architecture conteneurisée légère.
 
 Pour finir, la même infrastructure de services en conteneurs basée sur Service Fabric alimentera à la fois les instances cloud et de périphérie du service, que l’instance soit un hub dans le cloud ou une unité d’échelle dans le cloud ou en périphérie.
 
