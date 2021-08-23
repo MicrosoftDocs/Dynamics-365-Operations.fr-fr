@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 1fa07f8a021bb5b4138b833ce8a7ff68c6f06d2f9eae560f776b220195213658
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777336"
 ---
 # <a name="videos"></a>Vidéos 
 
@@ -85,7 +85,7 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 ## <a name="videos-for-dynamics-365-finance"></a>Vidéos pour Dynamics 365 Finance
 
 ### <a name="business-document-management"></a>Gestion des documents commerciaux
-- [Créer un nouveau document commercial à l'aide de la Gestion des documents commerciaux](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+- [Créer un nouveau document commercial à l’aide de la Gestion des documents commerciaux](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="customize-the-app"></a>Personnaliser l’application
 - [Ajouter des champs personnalisés](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
@@ -117,7 +117,7 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vidéos pour Dynamics 365 Supply Chain Management
 
 ### <a name="business-document-management"></a>Gestion des documents commerciaux
-- [Créer un nouveau document commercial à l'aide de la Gestion des documents commerciaux](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+- [Créer un nouveau document commercial à l’aide de la Gestion des documents commerciaux](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Coûts
 - [Espace de travail mobile de contrôle des coûts](https://youtu.be/imsuTg8rUVk)

@@ -10,12 +10,12 @@ audience: Application User
 ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 33a90863b89b866f63d943a2083ec9a5a9b3d158
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 65ec533357ca81f88a3d45ecafd39c072851e5e17ab148266f5bb7941a3500cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715009"
 ---
 # <a name="prepare-your-environment-to-generate-an-fec"></a>Préparer votre environnement pour générer un FEC
 

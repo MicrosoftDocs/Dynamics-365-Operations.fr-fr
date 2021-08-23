@@ -13,12 +13,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 6652fe6af52b0c1e568dd0ed8c877a8682cb60b4
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e42accc64cb6243d2e3f206a75c9f71eeb5262b534a9b6baa19a104af2072e05
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738406"
 ---
 # <a name="budget-analysis-report"></a>État d’analyse budgétaire
 

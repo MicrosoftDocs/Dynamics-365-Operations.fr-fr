@@ -2,7 +2,7 @@
 title: Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
 description: Cette rubrique décrit comment configurer les valeurs des dimensions du produit comme échantillons dans Microsoft Dynamics 365 Commerce Headquarters.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764612"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
 
@@ -46,7 +46,7 @@ L’illustration suivante montre un exemple où les couleurs apparaissent comme 
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Activer la fonction d’affichage des dimensions comme échantillon dans Commerce Headquarters
 
-Pour activer la fonction d’affichage des dimensions comme échantillons dans Commerce Headquarters, accédez à **Espaces de travail \> Gestion des fonctionnalités** et activez la fonctionnalité **Activer la prise en charge des images pour les valeurs de dimension du produit**. Lorsque cet indicateur de fonction est activé, trois nouveaux champs sont ajoutés pour chaque dimension dans les tables appropriées dans Commerce Headquarters : **Code hexadécimal**, **URL** (pour les images) et **RefinerGroup**.
+Pour activer la fonction d’affichage des dimensions comme échantillons dans Commerce Headquarters, accédez à **Espaces de travail \> Gestion des fonctionnalités** et activez la fonctionnalité **Activer un mécanisme pour représenter les dimensions en tant qu'échantillons**. Lorsque cet indicateur de fonction est activé, trois nouveaux champs sont ajoutés pour chaque dimension dans les tables appropriées dans Commerce Headquarters : **Code hexadécimal**, **URL** (pour les images) et **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurer les valeurs de dimension dans Commerce Headquarters
 
@@ -125,9 +125,22 @@ Avant que les échantillons puissent apparaître dans les pages du site d’e-co
 
 De plus, vous devez activer la propriété **Inclure les attributs du produit dans les résultats de la recherche** pour les modules de résultats de la recherche. Si votre site utilise des pages de catégorie personnalisées, vous devez mettre à jour les modules de résultats de la recherche qui sont utilisés dans ces pages, afin que la propriété **Inclure les attributs du produit dans les résultats de la recherche** soit activée. Pour plus d’informations, consultez [Module de résultats de la recherche](../search-result-module.md).
 
+## <a name="inventory-awareness-on-swatches"></a>Connaissance du stock sur les échantillons
+
+Les échantillons ont une capacité facultative d'afficher la disponibilité du stock d'une couleur ou d'une dimension de variante de produit. Par exemple, un produit est vendu en plusieurs tailles, mais certaines tailles sont en rupture de stock. Dans ce cas, les échantillons des produits en rupture de stock sont affichés différemment pour indiquer qu'ils ne sont pas disponibles. Cette capacité permet de réduire le nombre de clics client requis pour déterminer la disponibilité du produit.
+
+La fonction de disponibilité du stock des échantillons peut être configurée pour être utilisée à la fois sur les pages de détails des produits et les pages de recherche ou de liste de catégories où les échantillons sont affichés. Pour l'activer, vous devez définir la propriété **Mettre à jour le média lors de la sélection des dimensions** sur **True** dans le [module Galerie multimédia](../media-gallery-module.md). Ce paramètre permet de mettre à jour les images de la galerie multimédia lorsque les dimensions sont sélectionnées. 
+
+> [!IMPORTANT]
+> La fonction de disponibilité du stock des échantillons est disponible à partir de la version 10.0.21 de Commerce. Elle nécessite l'installation du package de bibliothèque du module Commerce version 9.31.
+
+L'illustration suivante montre un exemple de prise en compte du stock sur les échantillons de taille d'une page de détails de produit.
+
+![Exemple de prise en compte du stock sur les échantillons de taille d'un page de détails de produit](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Afficher les échantillons dans le PDV et d’autres canaux
 
-Actuellement, Commerce n’a pas d’implémentation prédéfinie qui prend en charge l’affichage des échantillons dans le point de vente (PDV) et d’autres canaux. Cependant, vous pouvez implémenter la fonctionnalité d’affichage d’échantillons comme une extension qui oblige les API de canal à renvoyer les codes hexadécimaux et les URL d’image nécessaires à l’affichage des échantillons.
+Actuellement, Commerce n’a pas d’implémentation prédéfinie qui prend en charge l’affichage des échantillons dans le point de vente (PDV) et d’autres canaux. Cependant, vous pouvez implémenter la fonctionnalité d’affichage d’échantillons en tant qu'extension, puisque les API de canal renvoient les codes hexadécimaux et les URL d’image nécessaires à l’affichage des échantillons.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

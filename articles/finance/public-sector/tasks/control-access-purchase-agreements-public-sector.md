@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a05dea1f98e80809361cad519b24457f7458dd6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 638278ebc43d652c6c8c8008887b8e0dbaa0dee00f71fc32c1db4c26b7df2568
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816826"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742839"
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a>Contrôler l’accès aux contrats d’achat dans le secteur public
 
