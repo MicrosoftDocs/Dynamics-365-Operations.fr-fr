@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b71544672fec13872455fd561cef303db2a41af3
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8b0c480d4578b1f62259e4d4d45780a80401386463e85a8107ffc85f5fa308a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727933"
 ---
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 

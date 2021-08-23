@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d8d1b563b08cce1d7b56c0ab5ebc06d1c900f281e1ceb961721978ba8718eba8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741110"
 ---
 # <a name="e-commerce-site-overview"></a>Présentation du site d’e-commerce
 
@@ -113,7 +113,7 @@ Pour plus d’informations sur la gestion d contenu du site, voir les rubriques 
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
 

@@ -15,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fb4f74a578ae44536c0a460dfb9c5940abb0474
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 5ff344b43f98da4cc2b05bd4228950d82842846ca2b8e949c8511c8422786a2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760650"
 ---
 # <a name="vendor-invoice-payment-holds-in-the-public-sector-in-france"></a>Mises en attente du paiement d’une facture fournisseur dans le secteur public en France
 

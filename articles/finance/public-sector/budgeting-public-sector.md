@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dc03e89a9347f961636388451ca99aa8a7250e2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 91401f98409c00198a3fb520f1d40addc1fedefdc09a3f5de18c38c76d2c8a8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766916"
 ---
 # <a name="budgeting-in-the-public-sector-overview"></a>Vue d’ensemble de la budgétisation disponible pour le secteur public
 

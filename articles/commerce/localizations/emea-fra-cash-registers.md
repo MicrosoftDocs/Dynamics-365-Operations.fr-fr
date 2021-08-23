@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 02231210d2300e9a43cd06e4cc3301b8a0da7dfe
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba47acdde727505bda3d30e8bdb35e832ffabbc50a0279d4dd923f17a638b61b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722016"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 

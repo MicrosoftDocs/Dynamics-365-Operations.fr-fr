@@ -17,12 +17,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: e8ed193b68255bc459d5e32c5a538309feb278f6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7b4be3c9b94115c80331f0311df45e6cc929b5b77745c337cec884ad9cb1e323
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743737"
 ---
 # <a name="calculating-canadian-harmonized-sales-tax"></a>Calcul de la taxe de vente harmonisée canadienne
 

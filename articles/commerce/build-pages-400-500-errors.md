@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6b35b3c07b1edd41e6a3763c0001529e125e4636
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741139"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Établir des pages personnalisées de réponse pour les erreurs de code statut 4xx/5xx
 
@@ -34,7 +34,7 @@ Si une demande échoue, le serveur publie des réponses d’erreur du code statu
 Pour commencer à générer une page de réponse d’erreur du code statut, procédez comme suit.
 
 1. Dans votre navigateur web préféré, connectez-vous à Dynamics 365 Commerce. 
-1. Sélectionnez le site pour lequel vous souhaitez créer une page de réponse d’erreur du code statut 4xx/5xx.
+1. Sélectionnez le site pour lequel vous souhaitez créer une page de réponse d'erreur du code statut 4xx/5xx.
 
 ### <a name="build-the-template"></a>Générer le modèle
 

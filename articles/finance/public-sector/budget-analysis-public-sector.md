@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 215d9765b12664b314124a408f2c98eeac441c77
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: f0819bd974d6d02063dc0642c2a3d3e5fe15d5282f71a987facd804ecb3b3773
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747026"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 

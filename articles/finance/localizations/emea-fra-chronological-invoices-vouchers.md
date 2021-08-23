@@ -14,12 +14,12 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8243e335301ce93496329a5aaa762b5017983cf
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b408d9b6810c71fcddf25cba4513e2dfc81e63b621684f8397d58255a579935c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768731"
 ---
 # <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° de justificatif chronologiques
 

@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: def176d9ffaa14df8e6a6a7b0da9fbeda940a1b2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e756e377eb23559c747c08d7d0ed37f28f6fc248ae73d58625b068b28b71a44c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772703"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 

@@ -15,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5e8a854c8735ac9b5fbb42513c9616fbc71d62
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 78aee73e2e819f292ce10df575c3eb070d923efc11c1d7e479000712333dd2c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721712"
 ---
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 

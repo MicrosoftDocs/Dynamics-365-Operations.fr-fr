@@ -13,12 +13,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 6a941b3e2e9b0fa50b373974c9ce88604921dfd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b15667e0b5ade3601d385eeb87b9d80ea64620a0d56b55121cb5d0c2c758e884
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779749"
 ---
 # <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
 

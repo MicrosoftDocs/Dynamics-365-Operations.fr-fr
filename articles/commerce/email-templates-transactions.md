@@ -2,7 +2,7 @@
 title: Créer des modèles d’e-mail pour les événements transactionnels
 description: Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718705"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Créer des modèles de messages électroniques pour les événements transactionnels
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce fournit une solution prête à l’emploi pour l’envoi d’e-mails qui alertent les clients sur les événements transactionnels (par exemple, lorsqu’une commande est passée, une commande est prête pour le retrait ou une commande a été expédiée). Cette rubrique décrit les étapes de création, de téléchargement et de configuration des modèles d’e-mail utilisés pour envoyer des e-mails transactionnels.
 
@@ -79,26 +77,33 @@ Les espaces réservés suivants récupèrent et affichent les données définies
 | Nom de l’espace réservé     | Valeur de l’espace réservé                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | Le nom du client ayant passé la commande.               |
-| salesid              | L’ID ventes de la commande.                                   |
-| deliveryaddress      | L’adresse de livraison des commandes expédiées.                     |
 | customeraddress      | L’adresse du client.                                 |
 | customeremailaddress | L’adresse e-mail que le client a saisie lors du paiement.     |
+| salesid              | L’ID ventes de la commande.                                   |
+| orderconfirmationid  | L’ID intercanal qui a été généré lors de la création de la commande. |
+| channelid            | L’ID du canal de vente au détail ou en ligne par lequel la commande a été passée. |
+| deliveryname         | Le nom spécifié pour l’adresse de livraison.        |
+| deliveryaddress      | L’adresse de livraison des commandes expédiées.                     |
 | deliverydate         | La date de livraison.                                           |
 | shipdate             | La date d’expédition.                                               |
 | modeofdelivery       | Le mode de livraison de la commande.                              |
+| ordernetamount       | Le montant total de la commande, moins le montant total de la taxe.         |
+| Remise             | La remise totale pour la commande.                            |
 | frais              | Le total des frais pour la commande.                             |
 | taxe                  | Le montant total de la taxe pour la commande.                                 |
 | total                | Le montant total de la commande.                              |
-| ordernetamount       | Le montant total de la commande, moins le montant total de la taxe.         |
-| Remise             | La remise totale pour la commande.                            |
 | storename            | Le nom du magasin où la commande a été passée.            |
 | storeaddress         | L’adresse du magasin ayant passé la commande.              |
 | storeopenfrom        | L’heure d’ouverture du magasin ayant passé la commande.         |
 | storeopento          | L’heure de fermeture du magasin ayant passé la commande.         |
-| pickupstorename      | Le nom du magasin où la commande sera récupérée.     |
-| pickupstoreaddress   | L’adresse du magasin où la commande sera récupérée.  |
-| pickupopenstorefrom  | L’heure d’ouverture du magasin où la commande sera récupérée. |
-| pickupopenstoreto    | L’heure de fermeture du magasin où la commande sera récupérée. |
+| pickupstorename      | Le nom du magasin où la commande sera récupérée.\* |
+| pickupstoreaddress   | L’adresse du magasin où la commande sera récupérée.\* |
+| pickupopenstorefrom  | L’heure d’ouverture du magasin où la commande sera récupérée.\* |
+| pickupopenstoreto    | L’heure de fermeture du magasin où la commande sera récupérée.\* |
+| pickupchannelid      | L’ID de canal du magasin qui est spécifié pour un mode de livraison en retrait.\* |
+| packingslipid        | L’ID du bon de livraison qui a été généré lorsque les lignes d’une commande ont été emballées.\* |
+
+\* Ces espaces réservés renvoient des données uniquement lorsqu’ils sont utilisés pour le type de notification **Commande prête pour l’enlèvement**. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Espaces réservés de la ligne de commande (au niveau de la ligne de vente)
 
@@ -106,7 +111,10 @@ Les espaces réservés suivants récupèrent et affichent des données pour des 
 
 | Nom de l’espace réservé               | Valeur de l’espace réservé |
 |--------------------------------|-------------------|
-| productid                      | L’ID produit de la ligne. |
+| productid                      | <p>L’ID du produit. Cet ID prend en compte les variantes.</p><p><strong>Remarque :</strong> Cet espace réservé est déconseillé au profit de **lineproductrecid**.</p> |
+| lineproductrecid               | L’ID du produit. Cet ID prend en compte les variantes. Il identifie de manière unique un article au niveau de la variante. |
+| lineitemid                     | L’ID de niveau produit du produit. (Cet ID ne prend en compte les variantes.) |
+| lineproductvariantid           | L’ID de la variante de produit. |
 | lineproductname                | Nom du produit. |
 | lineproductdescription         | La description du produit. |
 | linequantity                   | Le nombre d’unités commandées pour la ligne, plus l’unité de mesure (par exemple, **ea** ou **paire**). |
@@ -125,6 +133,8 @@ Les espaces réservés suivants récupèrent et affichent des données pour des 
 | linedeliverydate               | La date de livraison de la ligne. |
 | linedeliverymode               | Le mode de livraison de la ligne. |
 | linedeliveryaddress            | L’adresse de livraison de la ligne. |
+| linepickupdate                 | La date de retrait que le client a spécifiée, pour les commandes qui utilisent un mode de livraison en retrait. |
+| linepickuptimeslot             | La plage de retrait que le client a spécifiée, pour les commandes qui utilisent un mode de livraison en retrait. |
 | giftcardnumber                 | Le numéro de la carte cadeau, pour les produits du type de la carte cadeau. |
 | giftcardbalance                | Le solde de la carte cadeau, pour les produits du type de la carte cadeau. |
 | giftcardmessage                | Le message de la carte cadeau, pour les produits du type de la carte cadeau. |

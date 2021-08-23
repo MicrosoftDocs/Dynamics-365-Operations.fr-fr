@@ -2,7 +2,7 @@
 title: Commandes des clients en point de vente (PDV)
 description: Cette rubrique fournit des informations sur les commandes client dans le point de vente (PDV). Les commandes client sont également appelées commandes spéciales. La rubrique inclut une discussion sur les paramètres associés et les flux de transaction.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755081"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Commandes des clients en point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur la création et la gestion des commandes client dans le point de vente (PDV). Les commandes client peuvent être utilisées pour capturer les ventes pour lesquelles les acheteurs souhaitent récupérer des produits à une date ultérieure, récupérer des produits à un autre endroit ou se faire expédier des articles. 
+Cette rubrique fournit des informations sur la création et la gestion des commandes client dans l'application de point de vente (PDV). Les commandes client peuvent être utilisées pour capturer les ventes pour lesquelles les acheteurs souhaitent récupérer des produits à une date ultérieure, récupérer des produits à un autre endroit ou se faire expédier des articles. 
 
 Dans le monde de Commerce dans plusieurs canaux, de nombreux détaillants offrent la possibilité que les commandes client ou les commandes spéciales répondent à diverses exigences de produit et de traitement. Voici quelques scénarios classiques :
 
@@ -132,6 +132,10 @@ Les commandes de vente au détail créées dans le canal en ligne ou en magasin 
 > [!IMPORTANT]
 > Toutes les commandes de produits ne peuvent pas être modifiées via l’application PDV. Les commandes créées dans un canal de centre d’appels ne peuvent pas être modifiées par le biais du PDV si le paramètre [Activer la finalisation de la commande](./set-up-order-processing-options.md#enable-order-completion) est activé pour le canal du centre d’appels. Pour garantir un traitement correct des paiements, les commandes provenant d’un canal de centre d’appels et qui utilisent la fonctionnalité Activer l’achèvement de commande doivent être modifiées par le biais de l’application du centre d’appels du siège de Commerce.
 
+> [!NOTE]
+> Nous vous recommandons de ne pas modifier les commandes et devis dans le point de vente qui sont créés par un utilisateur n'appartenant pas au centre d'appels dans Commerce Headquarters. Ces commandes et devis n'utilisent pas le moteur de tarification Commerce. Par conséquent, s'ils sont modifiés dans le PDV, le moteur de tarification Commerce les retarifiera.
+
+
 Dans les versions 10.0.17 et ultérieures, les utilisateurs peuvent modifier les commandes éligibles via l’application PDV, même si la commande est partiellement traitée. Cependant, les commandes entièrement facturées ne peuvent toujours pas être modifiées par le biais du PDV. Pour activer cette fonctionnalité, activez la fonctionnalité **Modifier les commandes partiellement exécutées dans le point de vente** dans l’espace de travail **Gestion des fonctionnalités**. Si cette fonctionnalité n’est pas activée, ou si vous utilisez la version 10.0.16 ou antérieure, les utilisateurs ne pourront modifier les commandes client dans le PDV que si la commande est complètement ouverte. De plus, si la fonctionnalité est activée, vous pouvez limiter le nombre de magasins qui peuvent modifier les commandes partiellement traitées. L’option permettant de désactiver cette fonctionnalité pour des magasins spécifiques peut être configurée via le **Profil de la fonctionnalité** sous le raccourci **Général**.
 
 
@@ -142,7 +146,23 @@ Dans les versions 10.0.17 et ultérieures, les utilisateurs peuvent modifier les
 5. Terminez le processus de modification en sélectionnant une opération de paiement.
 6. Pour quitter le processus de modification sans enregistrer les modifications, vous pouvez utiliser l’opération **Annuler la transaction**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Impact sur les prix appliqués lorsque les commandes sont modifiées
 
+Lorsque les commandes sont passées dans le PDV ou sur un site d'e-commerce Commerce, les clients s'engagent sur un montant. Ce montant comprend un prix, et il peut également inclure une remise. Un client qui passe une commande puis contacte le centre d'appels plus tard pour modifier cette commande (par exemple, pour ajouter un autre article) aura des attentes spécifiques concernant l'application de remises. Même si les promotions sur les lignes de commande existantes ont expiré, le client s'attendra à ce que les remises initialement appliquées à ces lignes restent en vigueur. Cependant, si aucune remise n'était en vigueur lorsque la commande a été passée à l'origine, mais qu'une remise est entrée en vigueur depuis lors, le client s'attendra à ce que la nouvelle remise soit appliquée à la commande modifiée. Sinon, le client peut simplement annuler la commande existante, puis créer une nouvelle commande sur laquelle la nouvelle remise est appliquée. Comme le montre ce scénario, les prix et les remises sur lesquels les clients se sont engagés doivent être préservés. Dans le même temps, les utilisateurs des points de vente et des centres d'appels doivent avoir la possibilité de recalculer les prix et les remises pour les lignes de commande client selon les besoins.
+
+Lorsque les commandes sont rappelées et modifiées dans le PDV, les prix et remises des lignes de commande existantes sont considérés comme "verrouillés". En d'autres termes, ils ne changent pas, même si certaines lignes de commande sont annulées ou modifiées, ou si de nouvelles lignes de commande sont ajoutées. Pour modifier les prix et remises des lignes de vente existantes, l'utilisateur du PDV doit sélectionner **Recalculer**. Le verrouillage des prix est alors supprimé des lignes de commande existantes. Cependant, avant Commerce version 10.0.21, cette fonctionnalité n'était pas disponible dans le centre d'appels. Au lieu de cela, toute modification apportée aux lignes de commande entraînait le recalcul des prix et des remises.
+
+Dans Commerce version 10.0.21, une nouvelle fonctionnalité nommée **Empêcher le calcul de prix involontaire pour les commandes commerciales** est disponible dans l'espace de travail **Gestion des fonctionnalités**. Par défaut, cette fonctionnalité est activée. Lorsqu'elle est activée, une nouvelle propriété **Prix bloqué** est disponible pour toutes les commandes d'e-commerce. Une fois la capture des commandes terminée pour les commandes passées à partir de n'importe quel canal, cette propriété est automatiquement activée (c'est-à-dire que la case est cochée) pour toutes les lignes de commande. Le moteur de tarification Commerce exclut ensuite ces lignes de commande de tous les calculs de prix et de remises. Par conséquent, si la commande est modifiée, les lignes de commande seront exclues du calcul des prix et des remises par défaut. Cependant, les utilisateurs de centre d'appels peuvent désactiver la propriété (c'est-à-dire décocher la case) pour n'importe quelle ligne de commande, puis sélectionner **Recalculer** pour inclure les lignes de commande existantes dans les calculs de prix.
+
+Même lorsqu'ils appliquent une remise manuelle à une ligne de vente existante, les utilisateurs de centre d'appels doivent désactiver la propriété **Prix bloqué** de la ligne de vente avant d'appliquer la remise manuelle.
+
+Les utilisateurs de centre d'appels peuvent également désactiver la propriété **Prix bloqué** pour les lignes de commande en gros en sélectionnant **Supprimer le verrouillage des prix** dans le groupe **Calculer** sur l'onglet **Vendre** dans le volet Actions de la page **Commande client**. Dans ce cas, le blocage de prix est supprimé de toutes les lignes de commande à l'exception des lignes non modifiables (c'est-à-dire, des lignes dont le statut est **Partiellement facturé** ou **Facturé**). Ensuite, une fois les modifications apportées à la commande terminées et soumises, le verrouillage des prix est réappliqué à toutes les lignes de commande.
+
+> [!IMPORTANT]
+> Quand la fonctionnalité **Empêcher le calcul de prix involontaire pour les commandes commerciales** est activée, la configuration de l'évaluation de l'accord commercial sera ignorée dans les workflows de tarification. En d'autres termes, les boîtes de dialogue d'évaluation de l'accord commercial n'afficheront pas la section **Prix associé**. Ce comportement se produit car la configuration de l'évaluation de l'accord commercial et la fonctionnalité de verrouillage des prix ont un objectif similaire : empêcher les modifications de prix involontaires. Cependant, l'expérience utilisateur lors de l'évaluation de l'accord commercial ne s'adapte pas bien aux commandes importantes pour lesquelles les utilisateurs doivent sélectionner une ou plusieurs lignes de commande pour la retarification.
+
+> [!NOTE]
+> La propriété **Prix bloqué** peut être désactivée pour une ou plusieurs lignes sélectionnées uniquement lorsque le module **Centre d'appels** est utilisé. Le comportement du PDV reste inchangé. En d'autres termes, l'utilisateur du point de vente ne peut pas débloquer les prix pour les lignes de commande sélectionnées. Cependant, il peut sélectionner **Recalculer** pour supprimer le verrouillage des prix de toutes les lignes de commande existantes.
 
 ### <a name="cancel-a-customer-order"></a>Annuler une commande client
 

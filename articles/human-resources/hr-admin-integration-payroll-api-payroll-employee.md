@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768189"
 ---
 # <a name="payroll-employee"></a>Employé avec paie
 
@@ -33,27 +33,25 @@ Nom physique : mshr_payrollemployeeentity.
 Cette entité fournit des informations sur l’employé. Vous devez définir les [paramètres d’intégration de la paie](hr-admin-integration-payroll-api-parameters.md) avant d’utiliser cette entité.
 
 >[!IMPORTANT] 
->Les champs **Prénom**, **Deuxième prénom**, **Nom de famille**, **NomValideApartirDe** et **NomValideJusqu** ne seront plus disponibles sur cette entité. Il s'agit de s'assurer que cette entité est associée à une seule source de données de date d'effet, qui est **HcmEmployment** avec les champs **Date de début d'emploi** et **Date de fin d'emploi**.
-
->Ces champs seront disponibles sur l'entité **DirPersonNameHistoricalEntity**, qui a été publiée dans la mise à jour de plateforme 43. Il existe une relation OData entre **PayrollEmployeeEntity** et **DirPersonNameHistoricalEntity** sur le champ **Personne**. Sinon, l'entité **DirPersonNameHistoricalEntity** peut être directement interrogée via OData en utilisant le nom public **PersonHistoricalNames**.
-
+>Les champs **Prénom**, **Deuxième prénom**, **Nom de famille**, **NomValideApartirDe** et **NomValideJusqu** ne sont plus disponibles sur cette entité. Cela garantit qu’il n’y a qu’une seule source de données à date effective qui soutient cette entité.
+>Ces champs seront disponibles sur l'entité **DirPersonNameHistoricalEntity**, qui a été publiée dans la mise à jour de plateforme 43. Il existe une relation OData entre **PayrollEmployeeEntity** et **DirPersonNameHistoricalEntity** sur le champ **Personne**. 
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description |
+| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description  |
 | --- | --- | --- |
-| **Numéro personnel**<br>mshr_personnelnumber<br>*Chaîne* | Lecture seule<br>Requis | Numéro personnel unique du collaborateur. |
-| **Champ principal**<br>mshr_primaryfield<br>*Chaîne* | Requis<br>Généré par le système |  |
-| **ID entité juridique**<br>mshr_legalentityID<br>*Chaîne* | Lecture seule<br>Requis | Spécifie l’entité juridique (société). |
-| **Sexe**<br>mshr_gender<br>[Jeu d’options mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Lecture seule<br>Requis | Genre du collaborateur. |
+| **Numéro personnel**<br>mshr_personnelnumber<br>*Chaîne* | Lecture seule | Numéro personnel unique du collaborateur. |
+| **Champ principal**<br>mshr_primaryfield<br>*Chaîne* | Lecture seule<br>Généré par le système |  |
+| **ID entité juridique**<br>mshr_legalentityID<br>*Chaîne* | Lecture seule | Spécifie l’entité juridique (société). |
+| **Sexe**<br>mshr_gender<br>[Jeu d’options mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Lecture seule | Genre du collaborateur. |
 | **ID d’entité Collaborateur avec paie**<br>mshr_payrollemployeeentityid<br>*GUID* | Requis<br>Généré par le système | Valeur GUID générée par le système pour identifier le collaborateur de manière unique. |
-| **Date de début de l’emploi**<br>mshr_employmentstartdate<br>*Décalage de date et heure* | Lecture seule<br>Requis | Date de début de l’emploi du collaborateur. |
-| **ID du type d’identification**<br>mshr_identificationtypeid<br>*Chaîne* |Lecture seule<br>Requis | Le type d’identification défini pour le collaborateur. |
-| **Date de fin de l’emploi**<br>mshr_employmentenddate<br>*Décalage de date et heure* | Lecture seule<br>Requis |Date de fin de l’emploi du collaborateur.  |
-| **ID zone de données**<br>mshr_dataareaid_id<br>*GUID* | Requis <br>Généré par le système | Valeur GUID générée par le système identifiant l’entité juridique (société). |
-| **Valide jusqu’au**<br>mshr_namevalidto<br>*Décalage de date et heure* |  Lecture seule<br>Requis | Date jusqu’à laquelle les informations relatives au collaborateur sont valides. |
-| **Date de naissance**<br>mshr_birthdate<br>*Décalage de date et heure* | Lecture seule <br>Requis | La date de naissance du collaborateur. |
-| **Numéro d’identification**<br>mshr_identificationnumber<br>*Chaîne* | Lecture seule <br>Requis |Le numéro d’identification défini pour le collaborateur.  |
+| **Date de début de l’emploi**<br>mshr_employmentstartdate<br>*Décalage de date et heure* | Lecture seule | Date de début de l’emploi du collaborateur. |
+| **ID du type d’identification**<br>mshr_identificationtypeid<br>*Chaîne* |Lecture seule | Le type d’identification défini pour le collaborateur. |
+| **Date de fin de l'emploi**<br>mshr_employmentenddate<br>*Décalage de date et heure* | Lecture seule |Date de fin de l’emploi du collaborateur.  |
+| **ID zone de données**<br>mshr_dataareaid_id<br>*GUID* | Lecture seule <br>Généré par le système | Valeur GUID générée par le système identifiant l’entité juridique (société). |
+| **Valide jusqu’au**<br>mshr_namevalidto<br>*Décalage de date et heure* |  Lecture seule | Date jusqu’à laquelle les informations relatives au collaborateur sont valides. |
+| **Date de naissance**<br>mshr_birthdate<br>*Décalage de date et heure* | Lecture seule | La date de naissance du collaborateur. |
+| **Numéro d’identification**<br>mshr_identificationnumber<br>*Chaîne* | Lecture seule |Le numéro d’identification défini pour le collaborateur.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Exemple de requête pour un Collaborateur avec paie
 

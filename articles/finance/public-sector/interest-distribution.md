@@ -14,12 +14,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d978462afc9b5b2eb6f48948ba782f4cc698cd04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e368c56a40e9a8dc3a0b02dd238f163bc7c3a3f46acabfc7f2d4e70494b757e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780309"
 ---
 # <a name="set-up-interest-distribution-for-cash-accounts"></a>Paramétrer la distribution d’intérêts pour les comptes de disponibilités
 

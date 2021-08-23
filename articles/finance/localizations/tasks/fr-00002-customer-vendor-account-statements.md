@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be28ca5c91d51d2ee5aadf5f7616a1d65949d065
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e767475363b383b3ef23ce4e50d4c24e5421001e1b931a5a65be20f14e596f02
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821761"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735417"
 ---
 # <a name="fr-00002-customer-and-vendor-account-statements"></a>FR-00002 Relevés de compte client et fournisseur
 

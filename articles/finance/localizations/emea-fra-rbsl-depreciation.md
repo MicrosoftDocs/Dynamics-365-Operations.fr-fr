@@ -14,12 +14,12 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4e5d30bbd4a90e987de5315b5792c7d9fc356be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5a0c3f509c3ee44c2a89fdf0b4a6d05d26a94752dd03ffe93277d5f49f75e1e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741493"
 ---
 # <a name="rbsl-depreciation"></a>Amortissement dégressif fiscal
 

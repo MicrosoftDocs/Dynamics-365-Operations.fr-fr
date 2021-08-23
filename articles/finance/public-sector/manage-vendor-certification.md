@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 932b8bc2982a7c38404ff4203fce7fb65c1182d4490d2aad5a6d78fd809ec768
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736110"
 ---
 # <a name="maintain-vendor-certification"></a>Mettre à jour la certification des fournisseurs
 
@@ -23,13 +23,20 @@ ms.locfileid: "6270502"
 
 Cette rubrique décrit les étapes que vos fournisseurs peuvent suivre pour maintenir leurs certifications à jour à l’aide de l’espace de travail **Collaboration du fournisseur**. Parmi les exemples de certifications on trouve une entreprise Woman Business Enterprise (WBE) ou une entreprise de leadership dans la conception énergétique et environnementale (LEED). Les fournisseurs devront saisir les informations de certification dans l’espace de travail **Informations fournisseur**. Ils devront ensuite sélectionner **Plus de détails**, puis **Certifications**.
 
+## <a name="turn-on-the-vendor-certification-feature"></a>Activer la fonctionnalité de certification des fournisseurs
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module** - *Comptabilité fournisseur*
+- **Nom de la fonctionnalité** - *Activer la gestion de la certification pour la collaboration avec les fournisseurs*
+
 ## <a name="add-a-new-certification"></a>Ajouter une nouvelle certification
 
 Pour ajouter une nouvelle certification, cliquez sur le bouton **Ajouter** situé au-dessus de la grille **Certification** dans l’espace de travail **Informations fournisseur**. Entrez les informations suivantes :
- 
+
 - Numéro de certification
 - Type de certification
-- Organisme de certification 
+- Organisme de certification
 - Date de la certification
 - Montant de la responsabilité, le cas échéant
 - Date d’effet
@@ -42,9 +49,9 @@ Les certifications entrées par vos fournisseurs sur cette page se verront attri
 
 Les fournisseurs peuvent modifier ou supprimer leurs certifications au besoin.
 
-## <a name="vendor-collaboration-generated-certification-records"></a>La collaboration des fournisseurs a généré des enregistrements de certification 
- 
+## <a name="vendor-collaboration-generated-certification-records"></a>La collaboration des fournisseurs a généré des enregistrements de certification
+
 Une fois les informations de certification ajoutées par un fournisseur, les informations seront visibles sur la page **La collaboration des fournisseurs a généré des certifications**. Pour ouvrir la page, accédez à **Comptes fournisseurs > Demandes de renseignements > Rapports des fournisseurs > Certifications générées par la collaboration avec les fournisseurs**. Par défaut, tous les enregistrements de certification nouveaux ou modifiés sont visibles. L’adjoint chargé de la comptabilité fournisseur peut visualiser les modifications et valider les informations via leur processus de confirmation pour valider. Une fois les informations confirmées, l’enregistrement de certification répertorié sur la page peut être sélectionné et marqué comme révisé. Marquer l’enregistrement comme révisé le supprimera de la liste par défaut.
- 
-Tous les changements de certification sont visibles sur la page **La collaboration des fournisseurs a généré des certifications**. Si une modification n’est pas affichée sur la page, vous pouvez l’afficher en ajustant les filtres pour le compte fournisseur, la plage de dates d’effet ou en choisissant d’inclure des informations sur les modifications de certification qui ont été examinées. 
+
+Tous les changements de certification sont visibles sur la page **La collaboration des fournisseurs a généré des certifications**. Si une modification n’est pas affichée sur la page, vous pouvez l’afficher en ajustant les filtres pour le compte fournisseur, la plage de dates d’effet ou en choisissant d’inclure des informations sur les modifications de certification qui ont été examinées.
 

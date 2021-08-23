@@ -10,12 +10,12 @@ audience: Application User
 ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: 607c7c1f754ffb0c94384e8d48c610bf523b6800
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 059d6e406ff4f95ebdf9abafa669519af31dc2bfbe7d5ee849acbee73722b5ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015965"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779782"
 ---
 # <a name="audit-file-for-france-fichier-des-critures-comptables-fec"></a>Dossier d'audit pour la France (Fichier des écritures comptables, FEC)
 

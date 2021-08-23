@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6c27ff03d229333bc6abcebaccb21271011160a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4e59ba39b06753333198665e91bde993d41ad58110f2d155a43af5e89bbdbc09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740854"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 
