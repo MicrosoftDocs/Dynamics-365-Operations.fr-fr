@@ -2,7 +2,7 @@
 title: Gérer le cycle de vie de la configuration des états électroniques (ER)
 description: Cette rubrique décrit comment gérer le cycle de vie des configurations d’états électroniques (ER) pour Dynamics 365 Finance.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767777"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gérer le cycle de vie de la configuration des états électroniques
 
@@ -82,20 +82,34 @@ Les configurations ER conçues dans l’environnement de développement peuvent 
 
 ![Cycle de vie de la configuration ER.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Prise en compte de la persistance des données
+## <a name="data-persistence-consideration"></a>Prise en compte de la persistance des données
 
 Vous pouvez [importer](tasks/er-import-configuration-lifecycle-services.md) individuellement différentes [versions](general-electronic-reporting.md#component-versioning) d’une [configuration](general-electronic-reporting.md#Configuration) ER dans votre instance Finance. Lorsqu’une nouvelle version d’une configuration ER est importée, le système contrôle le contenu de la version provisoire de cette configuration :
 
-   - Lorsque la version importée est inférieure à la version la plus élevée de cette configuration dans l’instance Finance actuelle, le contenu de la version provisoire de cette configuration reste inchangé.
-   - Lorsque la version importée est supérieure à toute autre version de cette configuration dans l’instance Finance actuelle, le contenu de la version importée est copié dans la version provisoire de cette configuration, pour vous permettre de continuer à modifier la dernière version terminée.
+- Lorsque la version importée est inférieure à la version la plus élevée de cette configuration dans l’instance Finance actuelle, le contenu de la version provisoire de cette configuration reste inchangé.
+- Lorsque la version importée est supérieure à toute autre version de cette configuration dans l’instance Finance actuelle, le contenu de la version importée est copié dans la version provisoire de cette configuration, pour vous permettre de continuer à modifier la dernière version terminée.
 
 Si cette configuration appartient au [fournisseur](general-electronic-reporting.md#Provider) de configurations actuellement activé, la version provisoire de cette configuration vous est visible dans le raccourci **Versions** de la page **Configurations** (**Administration de l’organisation** > **Gestion des états électroniques** > **Configurations**). Vous pouvez sélectionner la version provisoire de la configuration et [modifier](er-quick-start2-customize-report.md#ConfigureDerivedFormat) son contenu en utilisant le concepteur ER approprié. Une fois que vous avez modifié la version provisoire d’une configuration ER, son contenu ne correspond plus à celui de la version la plus élevée de cette configuration dans l’instance Finance actuelle. Pour éviter la perte de vos modifications, le système affiche une erreur indiquant que l’importation ne peut pas se poursuivre parce que la version de cette configuration est supérieure à la version la plus élevée de cette configuration dans l’instance Finance actuelle. Lorsque cela se produit, par exemple avec la configuration du format **X**, l’erreur **La version du format « X » n’est pas terminée** s’affiche.
 
 Pour annuler les modifications que vous avez introduites dans la version provisoire, sélectionnez la version terminée ou partagée la plus élevée de votre configuration ER dans Finance dans le raccourci **Versions**, puis sélectionnez l’option **Obtenir cette version**. Le contenu de la version sélectionnée est copié dans la version provisoire.
 
+## <a name="applicability-consideration"></a>Considération relative à l’applicabilité
+
+Lorsque vous concevez une nouvelle version d’une configuration ER, vous pouvez définir sa [dépendance](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) sur d’autres composants logiciels. Cette étape est considérée comme une condition préalable au contrôle du téléchargement de la version de cette configuration à partir d’un référentiel ER ou d’un fichier XML externe, et à toute utilisation ultérieure de la version. Lorsque vous essayez d’importer une nouvelle version d’une configuration ER, le système utilise les conditions préalables configurées pour contrôler si la version peut être importée.
+
+Dans certains cas, vous pouvez exiger que le système ignore les conditions préalables configurées lorsque vous importez de nouvelles versions des configurations ER. Pour que le système ignore les conditions préalables lors de l’importation, procédez comme suit.
+
+1. Accédez à **Administration d’organisation** \> **États électroniques** \> **Configurations**.
+2. Dans la page **Configurations**, dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
+3. Définissez l’option **Ignorer les mises à jour du produit et la vérification des conditions préalables de version lors de l’importation** sur **Oui**.
+
+    > [!NOTE]
+    > Ce paramètre est spécifique à l’utilisateur et à l’entreprise.
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 
+[Définir la dépendance des configurations ER sur d’autres composants](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

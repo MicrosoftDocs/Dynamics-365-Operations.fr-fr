@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 481df7c2f811424b0b1e0f5c43320ef3a206b123
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc88b5de70fcc775ae89d2cf5c5ec4998f0799e4dbcc5189c361fc399ce649b2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757920"
 ---
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 

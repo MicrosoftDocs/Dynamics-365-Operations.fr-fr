@@ -17,12 +17,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 49457fe008a50772f13cf9e564ef7344b1246c7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 777983c7699a8a7e2c07297d767bed63f37103e1464b19b9afbbee16787a2c53
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727947"
 ---
 # <a name="set-up-vendors-for-1099-reporting"></a>Paramétrer des fournisseurs pour l’état 1099
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08988d2e90ed9d6f60569092e231a527d3d73d55
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765612"
 ---
 # <a name="administration-overview"></a>Vue d’ensemble de l’administration
 
@@ -72,7 +72,7 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Intégrer Microsoft Power Apps](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
   - [Rechercher des informations à l’aide des recherches](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
   - [Modification de la date d’une session](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
-  - [Configurer un fuseau horaire préféré de l’utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
+  - [Configurer un fuseau horaire préféré de l'utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Comprendre Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Ressources documentaires
@@ -83,7 +83,7 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Créer une documentation ou une formation à l’aide de l’enregistreur de tâches](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Résoudre les problèmes liés à Human Resources
-  - [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [Obtenir de l'aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
   - [Les états analytiques ne sont pas mis à jour](hr-admin-troubleshooting-analytic-reports.md)
   - [Impossible de créer un environnement dans le centre d’administration Power Apps](hr-admin-troubleshooting-power-apps.md)

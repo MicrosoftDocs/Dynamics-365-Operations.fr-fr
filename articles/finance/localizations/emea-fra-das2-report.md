@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbdf4de8e26f05717cfbb48245e5a443dccdb2c7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4e228816be343817b5c25a6e2605a75afeaa9b507f40011faa685f8a66be6154
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779784"
 ---
 # <a name="das-2-report"></a>État DAS-2
 

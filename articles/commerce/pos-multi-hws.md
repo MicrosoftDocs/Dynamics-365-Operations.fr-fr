@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0611e90e47eabf0cb96208690acda22651d669ae812d2af2547a294c32ed0a1d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018631"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764535"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminaux de paiement dédiés et invites pour une imprimante et un tiroir-caisse
 
@@ -75,8 +75,8 @@ Pour configurer le profil matériel affecté à la caisse enregistreuse, procéd
 
     | Périphérique | Type | Nom du périphérique | Détails supplémentaires |
     |---|---|---|---|
-    | Imprimante | Réseau | *N'importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. L’**ID du profil de reçu** doit être le même que l’**ID du profil de reçu** qui est mappé sur l’imprimante réseau configurée dans le profil matériel affecté à la station matérielle au niveau du canal. |
-    | Tiroir-caisse | Réseau | *N'importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. Définissez l’option **Utiliser les équipes de travail partagées** sur **Oui**. |
+    | Imprimante | Réseau | *N’importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. L’**ID du profil de reçu** doit être le même que l’**ID du profil de reçu** qui est mappé sur l’imprimante réseau configurée dans le profil matériel affecté à la station matérielle au niveau du canal. |
+    | Tiroir-caisse | Réseau | *N’importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. Définissez l’option **Utiliser les équipes de travail partagées** sur **Oui**. |
     | Service TEF | Adyen | Non applicable | Pour plus d’informations sur la configuration du connecteur de paiement Adyen prêt à l’emploi, voir [Connecteur de paiement Dynamics 365 pour Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). D’autres connecteurs de paiement peuvent être pris en charge via le [kit de développement logiciel (SDK) Commerce pour les paiements](./dev-itpro/end-to-end-payment-extension.md). |
     | Clavier d’identification personnelle | Réseau | **MicrosoftAdyenDeviceV001** | Aucun(e). |
 
@@ -99,8 +99,8 @@ Pour configurer le profil matériel utilisé pour regrouper l’imprimante de re
 
     | Périphérique | Type | Description | Détails supplémentaires |
     |---|---|---|---|
-    | Imprimante | Réseau | **Epson** ou **Star** | Le nom d’appareil est sensible à la casse. L'**ID du profil de reçu** doit être le même que l'**ID du profil de reçu** qui est mappé sur l'imprimante configurée dans le profil matériel affecté à la caisse enregistreuse. |
-    | Tiroir-caisse | Secours | **Epson** ou **Star** | Le nom d'appareil est sensible à la casse. Définissez l'option **Utiliser les équipes de travail partagées** sur **Oui**. |
+    | Imprimante | Réseau | **Epson** ou **Star** | Le nom d’appareil est sensible à la casse. L’**ID du profil de reçu** doit être le même que l’**ID du profil de reçu** qui est mappé sur l’imprimante configurée dans le profil matériel affecté à la caisse enregistreuse. |
+    | Tiroir-caisse | Secours | **Epson** ou **Star** | Le nom d’appareil est sensible à la casse. Définissez l’option **Utiliser les équipes de travail partagées** sur **Oui**. |
 
 5. Sélectionnez **Enregistrer**.
 

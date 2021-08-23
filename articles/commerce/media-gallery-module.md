@@ -2,7 +2,7 @@
 title: Module Galerie multimédia
 description: Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733195"
 ---
 # <a name="media-gallery-module"></a>Module Galerie multimédia
 
@@ -56,6 +56,10 @@ Dans l’exemple de l’illustration suivante, une zone d’achat sur une page d
 | Images | Images sélectionnées dans la bibliothèque multimédia du générateur de site | En plus de leur affichage à partir d’un produit, les images peuvent être organisées pour un module Galerie multimédia. Ces images sont ajoutées à toutes les images de produit disponibles. Cette fonctionnalité est disponible dans la version 10.0.12 de Commerce. |
 | Orientation des miniatures | **Vertical** ou **Horizontal** | Cette propriété spécifie si les images miniatures doivent être affichées dans une bande verticale ou une bande horizontale. |
 | Masquer les images principales du produit pour la variante | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu’une variante est sélectionnée, les images du produit maître sont masquées à moins que la variante ne comporte aucune image. Cette propriété n’affecte pas les produits sans variantes. |
+| Mettre à jour le média lors de la sélection des dimensions | **Vrai** ou **Faux** | Si cette propriété est définie sur **Vrai**, les images de la bibliothèque multimédia seront mises à jour lorsqu’une dimension (telle que la couleur, le style ou la taille) est sélectionnée et qu’une image est disponible. Cette propriété permet de simplifier l’expérience de navigation, car toutes les dimensions de variante de produit ne doivent pas être sélectionnées pour que l’image correspondante soit mise à jour. Cette propriété est disponible dans l’onglet **Avancé**. |
+
+> [!IMPORTANT]
+> La propriété **Mettre à jour le média lors de la sélection des dimensions** est disponible à partir de la version 10.0.21 de Commerce. Elle nécessite l'installation du package de bibliothèque du module Commerce version 9.31.
 
 L’illustration suivante montre un exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles.
 

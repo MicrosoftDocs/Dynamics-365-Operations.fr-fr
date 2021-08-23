@@ -3,7 +3,6 @@ title: Liste des fonctions ER dans la catégorie de date et d’heure
 description: Cette rubrique fournit des informations sur les fonctions de date et d’heure prises en charge dans les États électroniques (ER).
 author: NickSelin
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd8524c9cd368f0fe64347e3212b419bb0902b4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760048"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Liste des fonctions ER dans la catégorie de date et d’heure
 

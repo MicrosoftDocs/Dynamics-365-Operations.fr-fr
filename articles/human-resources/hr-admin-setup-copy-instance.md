@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740837"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -52,9 +52,9 @@ Les événements suivants se produisent lorsque vous copiez une base de données
 
 - Les documents dans le stockage Microsoft Azure Blob n’est pas copié d’un environnement à un autre. En conséquence, tous les documents et modèles joints ne seront pas copiés et resteront dans l’environnement source.
 
-- Tous les utilisateurs sauf l’utilisateur Admin et les autres comptes d’utilisateurs de service interne seront désactivés. L’utilisateur Admin peut supprimer ou masquer les données avant que d’autres utilisateurs ne soient autorisés à réintégrer le système.
+- Tous les utilisateurs, à l’exception de ceux dotés du rôle de sécurité « Administrateur système » et d’autres comptes d’utilisateurs du service interne, seront indisponibles. L’utilisateur Admin peut supprimer ou masquer les données avant que d’autres utilisateurs ne soient autorisés à réintégrer le système.
 
-- L’utilisateur Admin doit apporter les modifications de configuration requises, telles que la reconnexion des points de terminaison d’intégration à des services ou URL spécifiques.
+- Tout utilisateur doté du rôle de sécurité « Administrateur système » doit apporter les modifications de configuration requises, telles que la reconnexion des points de terminaison d’intégration à des services ou URL spécifiques.
 
 ## <a name="copy-the-human-resources-database"></a>Copier la base de données Human Resources
 
@@ -77,7 +77,7 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
    ![[Sélectionner Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
+6. Sélectionnez l'environnement Power Apps à copier, puis sélectionnez **Copier**.
 
 7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Dataverse. Pour plus d’informations et instructions, voir [Configurer l’intégration Dataverse](./hr-admin-integration-common-data-service.md).
 
@@ -111,7 +111,7 @@ Certains de ces éléments ne sont pas copiés, car ils sont spécifiques à l�
 
 De plus, les statuts suivants changent lorsque vous copiez une instance :
 
-- Tous les utilisateurs sauf Admin sont définis sur **Désactivé**.
+- Tous les utilisateurs, à l’exception de ceux dotés du rôle de sécurité « Administrateur système », sont définis sur **Désactivé**.
 
 - Tous les traitements par lots, à l’exception de certains traitements système, sont définis sur **Retenir**.
 

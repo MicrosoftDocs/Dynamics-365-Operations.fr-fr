@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bed54119b8b13ba0a63cf4560a32ac9d95daf5fe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ea066a437868c4e5c0bdb28323bb7d5300b8c8cde8c3de0fcb0c7866d103c5ed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766257"
 ---
 # <a name="set-up-general-budget-reservations-and-submit-them-to-a-workflow"></a>Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 

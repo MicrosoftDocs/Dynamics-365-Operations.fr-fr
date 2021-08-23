@@ -13,12 +13,12 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0ad0a72a6d57872a7f96007fc8a486b9b62e2f67
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f91e494066ea18c5cc88d4fbe0f5dc8482b3537a034fddca0c2ca308b8e37671
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839887"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730464"
 ---
 # <a name="swiss-qr-bills"></a>Factures QR pour la Suisse
 

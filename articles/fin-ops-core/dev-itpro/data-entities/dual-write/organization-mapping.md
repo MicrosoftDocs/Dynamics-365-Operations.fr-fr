@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 30826bf69525a85bede6ec0b64ec1a579aea26a0a6c487583739ad3fcb787a28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769243"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hiérarchie d’organisation dans Dataverse
 
@@ -44,7 +44,7 @@ Applications de Finance and Operations | Applications Customer Engagement     | 
 [Entités juridiques](mapping-reference.md#142) | msdyn_internalorganizations |
 [Unité opérationnelle](mapping-reference.md#143) | msdyn_internalorganizations |
 [Hiérarchie d’organisation – publiée](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de la table Hiérarchie d’organisation publiée.
-[Objectifs de la hiérarchie d'organisation](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de la table Objectif de la hiérarchie d’organisation.
+[Objectifs de la hiérarchie d’organisation](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de la table Objectif de la hiérarchie d’organisation.
 [Type de la hiérarchie d’organisation](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de la table Type de hiérarchie d’organisation.
 
 ## <a name="internal-organization"></a>Organisation interne

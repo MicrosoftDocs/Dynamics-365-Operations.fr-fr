@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9af77caa8295b034ce69353b63e31b6ce9916c68
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: a63a9a68e99088f92e6ec1fbd3594224ee6347bd716058c312f0771241fdb932
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744909"
 ---
 # <a name="accounts-receivable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité client (Secteur public)
 

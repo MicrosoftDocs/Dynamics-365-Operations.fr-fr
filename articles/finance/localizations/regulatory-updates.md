@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b6519465ca4e205eb86a595f82ce1278a9a90ce2
-ms.sourcegitcommit: bf2daeccbe3f2826e734f409bfc823820144aa23
+ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "6617965"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772743"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -52,7 +52,7 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      Allemagne        |   2021 avril       | 10.0.20HF      |   Modifications du format de facturation électronique (xRechnung) en Allemagne depuis 2021  |
 |      Inde         |   2021 mars      | 10.0.19      |   Factures électroniques GST : commandes d’exportation, exportation présumée, SEZ  |
 |      Inde         |   2021 mars      | 10.0.19      |   Code QR Dynamics sur la facture B2C  |
-|      Inde         |   2021 juin      | 10.0.21      |   Nouvelle version de l'API pour la facture électronique (v.1.04)  |
+|      Inde         |   2021 juin      | 10.0.21      |   Nouvelle version de l’API pour la facture électronique (v.1.04)  |
 |      Italie         |   2021 mars      | 10.0.19      |   Modifications du format de communication des factures (Esterometro) v.2.1.1  |
 |      Italie        |   mai 2021      | 10.0.19      |   Retail - Mise à jour de l’exemple d’intégration d’imprimante fiscale pour prendre en charge le XML RT 2.0  |
 |      Italie         |   2021 mars      | 10.0.19      |   Retail - Activer les factures spécifiques à la vente au détail enfreignant la validation chronologique  |

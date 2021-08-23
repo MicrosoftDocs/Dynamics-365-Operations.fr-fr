@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 36cfed92535c1df3ba55fd56bc8aa2f9eccf3003
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 0f3e4a2267dd80c0631f9d09e12907dd9a6b517b503b1c549d28c95b0789cab0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747539"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 
@@ -22,7 +22,7 @@ ms.locfileid: "6542437"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Le terme *Fournisseur* désigne une organisation de fournisseurs ou un propriétaire unique qui fournit des biens ou des services à une entreprise. Bien que le *fournisseur* soit un concept établi dans les applications Microsoft Dynamics 365 Supply Chain Management, il n’existe aucun concept de fournisseur dans les applications d'engagement client. Cependant, vous pouvez surcharger la table **Compte/Contact** pour stocker les informations fournisseur. Le fournisseur principal intégré introduit un concept de fournisseur explicite dans les applications d'engagement client. Vous pouvez utiliser le nouveau concept de fournisseur ou stocker les données fournisseur dans la table **Compte/Contact**. La double écriture prend en charge les deux approches.
+Le terme *Fournisseur* désigne une organisation de fournisseurs ou un propriétaire unique qui fournit des biens ou des services à une entreprise. Bien que le *fournisseur* soit un concept établi dans les applications Microsoft Dynamics 365 Supply Chain Management, il n’existe aucun concept de fournisseur dans les applications d’engagement client. Cependant, vous pouvez surcharger la table **Compte/Contact** pour stocker les informations fournisseur. Le fournisseur principal intégré introduit un concept de fournisseur explicite dans les applications d’engagement client. Vous pouvez utiliser le nouveau concept de fournisseur ou stocker les données fournisseur dans la table **Compte/Contact**. La double écriture prend en charge les deux approches.
 
 Dans les deux approches, les données du fournisseur sont intégrées entre Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service et les portails Power Apps. Dans Supply Chain Management, les données sont disponibles pour les workflows tels que les demandes d’achat et les commandes d’achat.
 

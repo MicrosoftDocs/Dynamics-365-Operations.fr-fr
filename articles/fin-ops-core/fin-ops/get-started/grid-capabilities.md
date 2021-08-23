@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923596"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775240"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -158,6 +158,13 @@ Si votre organisation découvre une page qui n’arrive pas à utiliser la nouve
  ```this.forceLegacyGrid();```
 
 Cette API sera disponible jusqu’à la version d’octobre 2021, lorsque le nouveau contrôle de grille deviendra obligatoire. Si des problèmes nécessitent l’utilisation de cette API, signalez-les à Microsoft.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forcer une page à utiliser la nouvelle grille après avoir précédemment refusé la grille
+Si vous avez refusé l’utilisation de la nouvelle grille pour une page individuelle, vous souhaiterez peut-être réactiver ultérieurement la nouvelle grille une fois les problèmes sous-jacents résolus. Pour ce faire, il vous suffit de supprimer l’appel à `forceLegacyGrid()`. La modification ne prendra effet que lorsque l’un des événements suivants se produira :
+
+- **Redéploiement de l’environnement** : lorsqu’un environnement est mis à jour et redéployé, la table qui stocke les pages pour lesquelles a été refusée la nouvelle grille (FormControlReactGridState) est automatiquement effacée.
+
+- **Effacement manuel de la table** : pour les scénarios de développement, vous devrez utiliser SQL pour effacer la table FormControlReactGridState, puis redémarrer l’AOS. Cette combinaison d’actions réinitialisera la mise en cache des pages pour lesquelles la nouvelle grille a été refusée.  
 
 ## <a name="developer-size-to-available-width-columns"></a>[Développeur] Ajuster à disponible la largeur des colonnes
 Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l’intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu’elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s’étirent pour utiliser toute largeur supplémentaire disponible à l’intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l’intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l’une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s’étirera plus pour prendre la largeur de grille supplémentaire disponible.  

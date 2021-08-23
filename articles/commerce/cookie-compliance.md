@@ -2,7 +2,7 @@
 title: Conformité des cookies
 description: Cette rubrique décrit les considérations relatives à la conformité des cookies et les stratégies par défaut incluses dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747695"
 ---
 # <a name="cookie-compliance"></a>Conformité des cookies
 
@@ -54,6 +54,10 @@ Le tableau suivant montre la liste de référence actuelle des cookies placés p
 | \_msdyn365___muid_                            | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé comme ID utilisateur à des fins d'expérimentation. | 1 an |
 | \_msdyn365___exp_                             | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé pour mesurer l'équilibrage de charge des performances.         | 1 heure |
 | d365mkt                                       | Utilisé si la détection basée sur l’emplacement pour suivre l’adresse IP d’un utilisateur pour les suggestions d’emplacement du magasin est activée dans le générateur de site de Commerce sous **Paramètres du site \> Général \> Activer la détection du magasin selon l’emplacement**.      | 1 heure |
+| \_msdyn365___tuid_                           | Utilisé uniquement si l'expérimentation est activée pour un environnement ; génère un GUID pour servir d'identifiant utilisateur. La valeur changera si l'état de connexion d'un utilisateur change.      | 1 an |
+| \_msdyn365___aud_0                          | Stocke les valeurs de segment utilisées par le ciblage et n'est utilisé que si le ciblage est configuré sur une page ou un fragment demandé par un utilisateur du site. Le cookie est placé uniquement lorsque les valeurs de segment proviennent d'un fournisseur de segmentation tiers.      | 7 jours |
+| \_msdyn365___aud_1                           | Stocke les valeurs de segment utilisées par le ciblage et n'est utilisé que si le ciblage est configuré sur une page ou un fragment demandé par un utilisateur du site. Le cookie est placé uniquement lorsque les valeurs de segment proviennent d'un fournisseur de segmentation tiers.      | 7 jours |
+| \_msdyn365___aud_2                           | Stocke les valeurs de segment utilisées par le ciblage et n'est utilisé que si le ciblage est configuré sur une page ou un fragment demandé par un utilisateur du site. Le cookie est placé uniquement lorsque les valeurs de segment proviennent d'un fournisseur de segmentation tiers.      | 7 jours |
 
 Si un utilisateur du site sélectionne des liens de réseaux sociaux dans un site, les cookies du tableau suivant seront également suivis sur son navigateur.
 

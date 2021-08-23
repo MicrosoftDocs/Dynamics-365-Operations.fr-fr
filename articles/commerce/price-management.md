@@ -2,7 +2,7 @@
 title: Gestion des prix de vente dans Retail
 description: Cette rubrique décrit les concepts de création et de gestion des prix de vente dans Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 05/28/2020
+ms.date: 07/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759283"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -40,21 +40,21 @@ Les termes suivants sont utilisés dans cette rubrique.
 
 ## <a name="price-groups"></a>Groupes de prix
 
-Les groupes de prix sont au cœur de la gestion des prix et des remises dans Commerce. Les groupes de prix permettent d’affecter des prix et des remises aux entités commerciales (c’est-à-dire les canaux, les catalogues, les affiliations et les programmes de fidélité). Du fait que les groupes de prix sont utilisés pour tous les prix et remises, il est primordial que vous organisiez la manière dont vous les utiliserez avant de commencer.
+Les groupes de prix sont au cœur de la gestion des prix et des remises dans Commerce. Les groupes de prix permettent d’affecter des prix et des remises aux entités Commerce (à savoir les canaux, les catalogues, les affiliations et les programmes de fidélité). Du fait que les groupes de prix sont utilisés pour tous les prix et remises, il est primordial que vous organisiez la manière dont vous les utiliserez avant de commencer.
 
-En soi, un groupe de prix est simplement un nom, une description et, éventuellement, une priorité de tarification. Le point principal à garder en tête concernant les groupes de prix est qu’ils sont utilisés pour gérer les relations plusieurs à plusieurs que les remises et les prix ont avec les entités commerciales.
+En soi, un groupe de prix est simplement un nom, une description et, éventuellement, une priorité de tarification. Le point principal à garder en tête concernant les groupes de prix est qu’ils permettent de gérer les relations plusieurs à plusieurs que les remises et les prix ont avec les entités Commerce.
 
-L’illustration ci-dessous indique comment les groupes de prix sont utilisés. Dans cette illustration, notez que « Groupe de prix » est littéralement au centre de la gestion des prix et des remises. Les entités commerciales que vous pouvez utiliser pour gérer les prix et les remises différentiels sont à gauche, et les enregistrements de prix et de remises réels sont à droite.
+L’illustration ci-dessous indique comment les groupes de prix sont utilisés. Dans cette illustration, notez que « Groupe de prix » est littéralement au centre de la gestion des prix et des remises. Les entités Commerce vous permettant de gérer les prix et remises différentiels sont à gauche, et les enregistrements de prix et remises réels sont à droite.
 
 ![Groupes de prix.](./media/PriceGroups.png "Groupes de prix")
 
-Lorsque vous créez des groupes de prix, vous ne devez pas utiliser un groupe de prix unique pour plusieurs types d’entités commerciales. Sinon, il peut être difficile de déterminer la raison pour laquelle un prix ou une remise spécifique est appliqué à une transaction.
+Lorsque vous créez des groupes de prix, vous ne devez pas utiliser un groupe de prix unique pour plusieurs types d’entités Commerce. Sinon, il peut être difficile de déterminer la raison pour laquelle un prix ou une remise spécifique est appliqué à une transaction.
 
 Comme l’indique la ligne rouge en pointillés dans l’illustration, Commerce prend en charge les fonctionnalités essentielles de Microsoft Dynamics 365 d’un groupe de prix directement défini sur un client. Toutefois, dans ce cas, vous n’obtenez que les accords commerciaux sur le prix de vente. Si vous souhaitez appliquer des prix spécifiques au client, il est préférable de ne pas définir les groupes de prix directement sur le client. Au lieu de cela, utilisez les affiliations. 
 
 Notez que si le groupe de prix est défini sur le client, ce groupe de prix est associé à l’en-tête de commande client des commandes créées pour ce client. Si l’utilisateur modifie le groupe de prix sur l’en-tête de commande, l’ancien groupe de prix est remplacé par le nouveau groupe de prix uniquement pour la commande en cours. Par exemple, l’ancien groupe de prix n’affectera pas la commande en cours, mais il sera toujours associé au client pour les commandes futures.
 
-Les sections suivantes fournissent plus d’informations sur les entités commerciales qui vous permettent de définir des prix distincts lorsque des groupes de prix sont utilisés. La configuration des prix et des remises pour toutes ces entités est un processus en deux étapes. Ces étapes peuvent être effectuées dans n’importe quel ordre. Toutefois, l’ordre logique veut que l’on définisse d’abord les groupes de prix sur les entités, car cette étape est susceptible d’être un paramétrage occasionnel effectué lors de l’implémentation. Ensuite, lorsque les prix et les remises sont créés, vous pouvez définir les groupes de prix sur ces prix et remises individuellement.
+Les sections suivantes fournissent plus d’informations sur les entités Commerce vous permettant de définir des prix distincts lorsque des groupes de prix sont utilisés. La configuration des prix et des remises pour toutes ces entités est un processus en deux étapes. Ces étapes peuvent être effectuées dans n’importe quel ordre. Toutefois, l’ordre logique veut que l’on définisse d’abord les groupes de prix sur les entités, car cette étape est susceptible d’être un paramétrage occasionnel effectué lors de l’implémentation. Ensuite, lorsque les prix et les remises sont créés, vous pouvez définir les groupes de prix sur ces prix et remises individuellement.
 
 ### <a name="channels"></a>Canaux
 
@@ -214,29 +214,30 @@ Lorsque vous définissez des prix de vente dans Dynamics 365, vous ne spécifie
 
 Si vous utilisez des types de taxes inclusifs et exclusifs, il est primordial que vous définissiez les prix correctement, car le montant total payé par le client change si le paramètre **Prix inclut la taxe** sur le canal est modifié.
 
-## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Différences entre la tarification au détail et la tarification hors vente au détail
+## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Différences entre la tarification Commerce et la tarification non Commerce
 
-Un seul moteur de tarification permet de calculer les prix sur tous les canaux : centre d’appels, magasin de vente au détail et magasins en ligne. Cela permet d’activer les scénarios de commerce unifié.
+Un seul moteur de tarification permet de calculer les prix sur tous les canaux : centre d’appels, magasin de vente au détail et boutiques en ligne. Cela permet d’activer les scénarios Commerce unifié.
 
-La tarification est conçue pour utiliser des entités de vente au détail au lieu d’entités hors vente au détail. Spécifiquement, elle est conçue pour définir des prix par magasin, pas par entrepôt.
+La tarification est conçue pour utiliser des entités Commerce au lieu d’entités non Commerce. Spécifiquement, elle est conçue pour définir des prix par magasin, pas par entrepôt.
 
-Le moteur de tarification **ne prend pas en charge** les fonctionnalités suivantes de la tarification :
+Le moteur de tarification Commerce **ne prend pas en charge** les fonctionnalités de tarification suivantes :
 
 - La définition des prix par site ou par dimensions de stockage de site et d’entrepôt n’est pas prise en charge. Si vous spécifiez uniquement la dimension Site sur les accords commerciaux, le moteur de tarification ignorera le site et appliquera l’accord commercial à tous les sites. Si vous spécifiez à la fois le site et l’entrepôt, le comportement n’est pas défini/non testé, car il est prévu que les détaillants utilisent les groupes de prix du magasin pour contrôler les prix de chaque magasin/entrepôt.
 - La tarification basée sur des attributs n’est pas prise en charge.
 - Le transfert de remise fournisseur n’est pas pris en charge.
+- La fonctionnalité Devise générique n’est pas prise en charge, c.-à-d. même si le bouton bascule **Inclure la devise générique** est activé pour un accord commercial, ce dernier est malgré tout considéré valide uniquement pour la devise définie dans l’accord commercial.
 - Le moteur de tarification standard de Supply Chain Management prend en charge le calcul des prix en fonction de la « date d’expédition demandée » et de la « date de réception demandée » ainsi que de la date actuelle. Cependant, la tarification au détail ne prend actuellement pas en charge ces valeurs. La raison en est que pour les scénarios B2C, les clients ne s’attendent pas à ce que la date de livraison demandée affecte le prix de l’article. Dans certains cas, les détaillants ont à la fois des opérations B2B et B2C. Pour les opérations B2B, il est courant de modifier les prix en fonction des dates de livraison. Ces détaillants peuvent utiliser la tarification de Supply Chain Management pour leurs affaires B2B et la tarification au détail pour leurs affaires B2C. La tarification au détail n’entre en jeu que si l’utilisateur de l’application est ajouté en tant qu’utilisateur du centre d’appels, de sorte que les détaillants peuvent affecter certains utilisateurs qui utiliseront la tarification Supply Chain Management et en affecter quelques autres qui utiliseront la tarification au détail. Cela implique que ces derniers utilisateurs devront être ajoutés en tant qu’utilisateurs du centre d’appels. De plus, la propriété **Utiliser la date du jour pour calculer les prix** dans la section **Paramètres Commerce > Tarification et remises > Divers** doit être activée. De cette façon, ils peuvent continuer à utiliser la valeur du paramètre de la comptabilité client pour la date d’expédition demandée ou la date de réception demandée pour la tarification de Supply Chain Management, mais la tarification au détail continuera à utiliser la date du jour pour le calcul des prix.
 
-De plus, **seul** le moteur de tarification prend en charge les fonctionnalités suivantes de la tarification :
+De plus, **seul** le moteur de tarification Commerce prend en charge les fonctionnalités de tarification suivantes :
 
-- Le prix est basé sur les dimensions de produit, dans l’ordre du prix variable le plus spécifique au prix variable le moins spécifique jusqu’au prix du produit générique. Un prix défini à l’aide de deux dimensions de produit (par exemple, de couleur et de taille) est utilisé avant un prix défini à l’aide d’une seule dimension de produit (par exemple, de taille).
+- Le prix est basé sur les dimensions de produit, dans l’ordre du prix variable le plus spécifique au prix variable le moins spécifique jusqu’au prix du produit générique. Un prix défini à l’aide de deux dimensions de produit (par exemple la couleur et la taille) est utilisé avant un prix défini à l’aide d’une seule dimension de produit (par exemple la taille).
 - Le même groupe de prix peut être utilisé pour contrôler la tarification et les remises.
 
 ## <a name="pricing-api-enhancements"></a>Optimisation de l’API de tarification
 
 Le prix est l’un des facteurs principaux qui régit les décisions de achat de nombreux clients, et de nombreux clients comparent les prix sur plusieurs sites avant qu’ils fassent un achat. Pour s’assurer qu’ils offrent des prix concurrentiels, les détaillants observent attentivement leurs concurrents et offrent des promotions fréquemment. Pour aider les détaillants à attirer des clients, il est primordial que la recherche de produit, la fonctionnalité Parcourir, les listes, et la page de détails des produits indiquent les prix les plus précis.
 
-Dans une version à venir de Commerce, l’interface de programmation d’application (API) **GetActivePrices** renverra les prix incluant des remises simples (par exemple, des remises à ligne unique qui ne dépendent pas d’autres articles dans le panier). Ainsi, les prix indiqués sont affichés aussi proches du montant réel que les clients payeront pour les articles. Cette API inclura tous les types de remises simples : remises basées sur l’affiliation, sur la fidélité, sur le catalogue, et sur le canal. En outre, l’API retournera les noms et des informations de validité sur les remises appliquées, de sorte que les détaillants puissent fournir une description plus détaillée du prix et créer un sentiment d’urgence si la validité de la remise expire prochainement.
+L’interface de programmation d’applications (API) **GetActivePrices** dans Commerce renvoie des prix comprenant des remises simples (par exemple des remises à ligne unique ne dépendant pas d’autres articles dans le panier). Ainsi, les prix indiqués sont affichés aussi proches du montant réel que les clients payeront pour les articles. Cette API comprend tous les types de remises simples : remises basées sur l’affiliation, sur la fidélité, sur le catalogue, et sur le canal. En outre, l’API renvoie les noms et des informations de validité sur les remises appliquées, de sorte que les détaillants puissent fournir une description plus détaillée du prix et créer un sentiment d’urgence si la validité de la remise expire prochainement.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

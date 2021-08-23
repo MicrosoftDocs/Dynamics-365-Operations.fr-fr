@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 12a25ffff05a4d1e0ae71480115ddc209379c9f7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0aee308826c3e0069d0c9c52f70eedf4fe0d59ed5ba70100869755eb747685ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727203"
 ---
 # <a name="set-up-general-budget-reservation-rules-and-reservation-types"></a>Paramétrer des règles de réservation budgétaire générale et des types de réservation
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732343"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurer le rôle de gestionnaire des absences
 
@@ -89,16 +89,21 @@ Le rôle Gestionnaire des absences doit être attribué à des employés pour le
 
 ## <a name="absence-manager-workspace"></a>Espace de travail du gestionnaire des absences
 
-Dans l'espace de travail **Libre service employé**, l'onglet **Gestionnaire des absences** affiche les informations d'absence sur les employés qui sont affectés au gestionnaire des absences dans la hiérarchie Congés.
+Dans l’espace de travail **Libre service employé**, l’onglet **Gestionnaire des congés** affiche les informations d’absence sur les employés qui sont affectés au gestionnaire des absences dans la hiérarchie Congés. Plusieurs options sont disponibles pour le gestionnaire des absences : 
+ - Examiner les demandes de congés.</br>
+ - Soumettre une demande de congé au nom d’un employé.</br>
+ - Afficher tous les employés qui leur sont affectés dans le cadre de la hiérarchie Congés.</br>
+ - Afficher le calendrier du gestionnaire des absences.</br>
 
-Sur l'onglet **Congés et absences**, les options suivantes sont disponibles pour chaque employé :
-
-- **Congé** : affiche les soldes, les congés approuvés et les demandes de congés pour l'employé sélectionné.
-- **Soldes de congés** : affiche la liste des soldes des différents plans de congés de l'employé sélectionné.
+L’espace de travail **Gestion des congés** comporte deux onglets :
+ - **Demandes de congés** : cet onglet répertorie toutes les demandes de congés en attente que le gestionnaire des absences peut approuver. Le gestionnaire des absences peut sélectionner plusieurs enregistrements et agir sur eux en même temps. Si la vue des congés interentreprises est activée, cette liste affiche les demandes de congés en attente dans toutes les entités juridiques auxquelles elles ont accès. Sinon, elle affiche les demandes de congés en attente pour l’entité juridique actuellement sélectionnée. </br>
+ - **Tous les employés** : cet onglet répertorie tous les employés qui sont affectés au gestionnaire des absences dans la hiérarchie Congés. Plusieurs options sont disponibles pour chaque employé :
+    - **Demander un congé** : soumet une nouvelle demande de congé pour l’employé sélectionné.</br>
+    - **Congé** : affiche les soldes, les congés approuvés et les demandes de congés pour l'employé sélectionné.</br>
 
 ## <a name="approve-time-off-requests"></a>Approuver des demandes de congé
 
-Les gestionnaires des absences peuvent approuver ou refuser les demandes de congés pour les employés. Ils peuvent également créer des demandes au nom des employés, selon les besoins.
+Les gestionnaires des absences peuvent approuver ou refuser les demandes de congés pour les employés. 
 
 > [!IMPORTANT]
 > Avant que les gestionnaires des absences ne puissent approuver ou refuser des demandes de congé, le workflow de demande de congé doit être configuré de manière à leur attribuer des éléments de travail de demande de congé aux fins d'examen.
@@ -109,15 +114,13 @@ Les gestionnaires des absences peuvent approuver ou refuser les demandes de cong
 >
 > Pour plus d’informations sur la création d'un workflow de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
 
-1. Dans l'espace de travail **Libre service employé**, sélectionnez l'onglet **Gestionnaire des absences**.
+1. Dans l’espace de travail **Libre service employé**, sélectionnez l’onglet **Gestion des congés**.
 
-2. Sur l'onglet **Gestionnaire des absences**, sélectionnez l'employé souhaité.
+2. Dans l’onglet **Demandes de congés**, sélectionnez les demandes de congés sur lesquelles vous souhaitez agir. Vous pouvez sélectionner plusieurs enregistrements dans cette vue de liste.
 
-3. Sélectionnez **Détails**, puis **Congé**.
+3. Utilisez les boutons d’action en haut de la grille pour approuver, refuser ou déléguer la demande de congé. 
 
-4. Recherchez la demande de congé et sélectionnez l'option **Approbation**. Vous pouvez ensuite sélectionner une option pour approuver ou annuler la demande de congé.
-
-Un statut **Annuler** indique que la demande a été refusée. Un statut **Terminé** indique que la demande a été approuvée.
+L’utilisateur peut également utiliser la vignette **Demandes de congés** sur la gauche pour accéder à la liste de tous les éléments de travail de demandes de congés. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Afficher les congés dans le calendrier
 
@@ -126,7 +129,7 @@ Les utilisateurs ayant le rôle de gestionnaire des absences peuvent afficher le
 > [!IMPORTANT]
 > Un administrateur système doit configurer les options d'affichage du calendrier du gestionnaire des absences. Sur la page **Paramètres des congés et absences**, sur l'onglet **Calendrier**, il existe des options pour masquer ou afficher les dates de naissance, les absences sans détails, les congés et les demandes de congé en attente. Il existe également une option pour filtrer l'option d'affichage du calendrier par type de collaborateur.
 
-1. Dans l'espace de travail **Libre service employé**, sélectionnez **Gestionnaire des absences** puis **Calendrier de gestion des absences**.
+1. Dans l’espace de travail **Libre service employé**, sélectionnez **Gestion des congés**, puis **Calendrier du gestionnaire des absences**.
 
 2. Dans le champ **Date**, saisissez les dates souhaitées.
 

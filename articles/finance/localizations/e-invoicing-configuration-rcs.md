@@ -2,7 +2,7 @@
 title: Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 description: Cette rubrique explique comment configurer la Facturation électronique dans Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757972"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 
@@ -46,21 +46,13 @@ Les fonctionnalités prennent également en charge les scénarios dans lesquels 
 
 Enfin, les fonctionnalités prennent en charge l’échange de messages avec des services Web externes qui sont hébergés par l’administration fiscale ou par une partie accréditée, et les demandes d’autorisation ou un tampon d’approbation dans la facture électronique.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Disponibilité des fonctionnalités de facturation électronique
+## <a name="availability-of-electronic-invoicing-features"></a>Disponibilité des fonctionnalités de facturation électronique
 
 La disponibilité des fonctionnalités de facturation électronique dépend du pays ou de la région. Bien que certaines fonctionnalités soient généralement disponibles, d’autres sont en version préliminaire.
 
-#### <a name="generally-available-features"></a>Fonctionnalités en disponibilité générale
+### <a name="generally-available-features"></a>Fonctionnalités en disponibilité générale
 
 Le tableau suivant présente les fonctionnalités de facturation électronique actuellement en disponibilité générale.
-
-| Pays/région | Nom de la fonction                         | Document commercial |
-|----------------|--------------------------------------|-------------------|
-| Égypte          | Facture électronique pour l’Égypte (EG) | Factures de vente et factures projet |
-
-#### <a name="preview-features"></a>Fonctionnalités d'aperçu
-
-Le tableau suivant présente les fonctionnalités de facturation électronique actuellement en version préliminaire.
 
 | Pays/région | Nom de la fonction                         | Document commercial |
 |----------------|--------------------------------------|-------------------|
@@ -68,29 +60,39 @@ Le tableau suivant présente les fonctionnalités de facturation électronique a
 | Belgique        | Facture électronique belge (BE)      | Factures de vente et factures projet |
 | Brésil         | NF-e (BR) pour le Brésil                  | Modèle de document fiscal 55, lettres de correction, annulations et rejets |
 | Brésil         | NFS-e ABRASF Curitiba (BR) pour le Brésil | Documents fiscaux du service |
+| Brésil         | Importation NF-e (BR) pour le Brésil à partir d’e-mails | Modèle 55 du document fiscal |
 | Danemark        | Facture électronique danoise (DK)       | Factures de vente et factures projet |
+| Égypte          | Facture électronique pour l’Égypte (EG)     | Factures de vente et factures projet |
 | Estonie        | Facture électronique estonienne (EE)     | Factures de vente et factures projet |
 | Finlande        | Facture électronique finlandaise (DK)      | Factures de vente et factures projet |
 | France         | Facture électronique française (FR)       | Factures de vente et factures projet |
 | Allemagne        | Facture électronique allemande (DE)       | Factures de vente et factures projet |
 | Italie          | FatturaPA (IT)                       | Factures de vente et factures projet |
-| Mexique         | CFDI mexicain (MX)                    | Factures de vente, bons de livraison, transferts d’inventaire, compléments de paiement et annulations |
 | Pays-Bas    | Facture électronique néerlandaise (NL)        | Factures de vente et factures projet |
 | Norvège         | Facture électronique norvégienne (NO)    | Factures de vente et factures projet |
 | Espagne          | Facture électronique espagnole (ES)      | Factures de vente et factures projet |
 | Europe         | Facture électronique PEPPOL            | Factures de vente et factures projet PEPPOL |
+| Europe         | Facture fournisseur PEPPOL                | Factures fournisseur importation PEPPOL |
+
+### <a name="preview-features"></a>Fonctionnalités d'aperçu
+
+Le tableau suivant présente les fonctionnalités de facturation électronique actuellement en version préliminaire.
+
+| Pays/région | Nom de la fonction                         | Document commercial |
+|----------------|--------------------------------------|-------------------|
+| Mexique         | CFDI mexicain (MX)                    | Factures de vente, bons de livraison, transferts d’inventaire, compléments de paiement et annulations |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Composants configurables des fonctionnalités de facturation électronique
 
 Les fonctionnalités de facturation électronique se composent des groupes suivants de composants configurables :
 
-- **Formats** – Les formats vous permettent de configurer ce que la Facturation électronique doit générer lorsqu’un document électronique devient une facture électronique. Les formats incluent la configuration de format de la facture électronique et des fichiers et messages utilisés pour soumettre des demandes et recevoir des réponses lorsqu’une communication avec un service Web externe est requise.
-- **Actions** – Les actions vous permettent de configurer la manière dont la Facturation électronique génère la transformation d’un document électronique que Finance et Supply Chain Management a soumis dans une facture électronique.
-- **Règles d’applicabilité** – Les règles d’applicabilité vous permettent de configurer le contexte que la Facturation électronique doit prendre en compte pour traiter une fonction de facturation électronique.
-- **Variables** – Les variables vous permettent de configurer le support pour la construction de la logique de configuration. Les variables peuvent fonctionner comme entrée de valeurs pour effectuer une action spécifique. Elles peuvent aussi fonctionner comme un échange de valeurs entre Finance et Supply Chain Management et la Facturation électronique.
-- **Mappage du modèle de document électronique** – Le mappage du modèle de document électronique vous permet de configurer le mappage du modèle ER. Le mappage de modèle définit le mappage des données de la facture abstraite qui est intégré dans la Facturation électronique lorsque des documents électroniques sont soumis.
-- **Modèle de contexte de facture** – Le modèle de contexte de facture vous permet de configurer le modèle de contexte de facture ER et de définir le contexte d’une fonction de facturation électronique.
-- **Types de réponse** – Les types de réponse vous permettent de configurer ce que la Facturation électronique doit mettre à jour dans Finance et Supply Chain Management suite au traitement des factures électroniques.
+- **Formats** : les formats vous permettent de configurer ce que la Facturation électronique doit générer lorsqu’un document électronique devient une facture électronique. Les formats incluent la configuration de format de la facture électronique et des fichiers et messages utilisés pour soumettre des demandes et recevoir des réponses lorsqu’une communication avec un service Web externe est requise.
+- **Actions** : les actions vous permettent de configurer la manière dont la Facturation électronique génère la transformation d’un document électronique que Finance et Supply Chain Management a soumis dans une facture électronique.
+- **Règles d’applicabilité** : les règles d’applicabilité vous permettent de configurer le contexte que la Facturation électronique doit prendre en compte pour traiter une fonction de facturation électronique.
+- **Variables** : les variables vous permettent de configurer le support pour la construction de la logique de configuration. Les variables peuvent fonctionner comme entrée de valeurs pour effectuer une action spécifique. Elles peuvent aussi fonctionner comme un échange de valeurs entre Finance et Supply Chain Management et la Facturation électronique.
+- **Mappage du modèle de document électronique** : le mappage du modèle de document électronique vous permet de configurer le mappage du modèle ER. Le mappage de modèle définit le mappage des données de la facture abstraite qui est intégré dans la Facturation électronique lorsque des documents électroniques sont soumis.
+- **Modèle de contexte de facture** : le modèle de contexte de facture vous permet de configurer le modèle de contexte de facture ER et de définir le contexte d’une fonction de facturation électronique.
+- **Types de réponse** : les types de réponse vous permettent de configurer ce que la Facturation électronique doit mettre à jour dans Finance et Supply Chain Management suite au traitement des factures électroniques.
 
 ### <a name="formats"></a>Formats
 
@@ -204,10 +206,10 @@ Le tableau suivant répertorie les actions disponibles et indique si elles sont 
 | Action                                        | Description                                                                  | Disponibilité         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Transformer le document                            | Exécutez le format de rapport électronique pour transformer le document.                   | Disponibilité générale  |
-| Signer le document XML                             | Signez des documents xml avec une signature numérique.                                   | En mode aperçu           |
-| Signer un document JSON pour l’administration fiscale égyptienne | Signez les documents json avec une signature numérique pour l’administration fiscale égyptienne.       | Disponibilité générale  |
+| Signer le document XML                             | Signez des documents xml avec une signature numérique.                                   | Disponibilité générale  |
+| Signer le document json pour l’administration fiscale égyptienne | Signez les documents json avec une signature numérique pour l’administration fiscale égyptienne.       | Disponibilité générale  |
 | Intégration avec le service ETA égyptien           | Communiquez avec l’administration fiscale égyptienne.                                     | Disponibilité générale  |
-| Appeler le service SEFAZ brésilien                  | Intégration avec le service brésilien SEFAZ pour la soumission de documents fiscaux.       | En mode aperçu           |
+| Appeler le service SEFAZ brésilien                  | Intégration avec le service brésilien SEFAZ pour la soumission de documents fiscaux.       | Disponibilité générale  |
 | Appeler le service PAC mexicain                      | Intégration avec le service PAC mexicain pour la soumission CFDI.                      | En mode aperçu           |
 | Réponse du processus                              | Analysez la réponse reçue de l’appel de service Web.                     | Disponibilité générale  |
 | Utiliser MS Power Automate                         | Intégrer avec le flux intégré à Microsoft Power Automate.                       | En mode aperçu           |

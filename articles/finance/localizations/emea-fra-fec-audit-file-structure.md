@@ -10,12 +10,12 @@ audience: Application User
 ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: c27f326d80abcaa2643165c4b671cf82ee2bf1b9
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 243f21fa02abdce58b760f6a427e4be0dbda084995b22d23ca3c0e2ed08b447a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747060"
 ---
 # <a name="structure-of-dynamics-365-finance-data-sources-for-the-fec"></a>Structure des sources de données Dynamics 365 Finance pour le fichier FEC
 

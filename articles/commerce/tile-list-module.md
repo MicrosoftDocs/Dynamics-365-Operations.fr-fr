@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10bf7139ba89f5089d288e78fab9e3d63249aac9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 513775afe325008ebd6cd18d2d9485a972984090da3803d255a1584b16b1e014
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767849"
 ---
 # <a name="tile-list-module"></a>Module de liste de titres
 
@@ -55,8 +55,8 @@ Le module de liste de vignettes peut prendre en charge diverses dispositions et 
 | Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Image         | Fichier image | Une image peut être utilisée pour présenter un produit ou une catégorie. L’image peut être chargée dans le générateur de site de la bibliothèque multimédia dans Commerce, ou une image existante peut être utilisée. |
-| Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d'en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |
-| Paragraphe     | Texte du paragraphe | Les modules prennent en charge le texte de paragraphe dans en format de texte enrichi. Certains capacités de texte enrichi de base sont prises en charge, telles que les liens hypertexte, le gras, le souligné, et l'italique. Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s’applique au module. |
+| Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d’en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |
+| Paragraphe     | Texte du paragraphe | Les modules prennent en charge le texte de paragraphe dans en format de texte enrichi. Certains capacités de texte enrichi de base sont prises en charge, telles que les liens hypertexte, le gras, le souligné, et l’italique. Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s’applique au module. |
 | Lien          | Texte du lien, URL du lien, étiquette ARIA (Applications Internet enrichie accessibles), et **Ouvrir le lien dans le nouvel onglet** | Les modules prennent en charge un ou plusieurs liens d’« appels à l’action ». Si un lien est ajouté, un texte de lien, une URL, et une étiquette ARIA sont requis. Les étiquettes ARIA doivent être descriptives pour satisfaire aux exigences d’accessibilité. Les liens peuvent être configurés de sorte qu’ils sont ouverts sur un nouvel onglet. |
 | Lien de vignette     | Texte du lien, URL du lien, étiquette ARIA et sélecteur **Ouvrir le lien dans le nouvel onglet** | Cette propriété permet de définir un lien « appel à l’action ». Si un lien est ajouté, un texte de lien, une URL, et une étiquette ARIA sont requis. Les étiquettes ARIA doivent être descriptives pour satisfaire aux exigences d’accessibilité. Les liens peuvent être configurés de sorte qu’ils sont ouverts sur un nouvel onglet.|
 | Icône          | Image | En plus d’une image de produit ou de catégorie, un symbole d’icône peut être ajouté. L’image du symbole de l’icône apparaîtra au-dessus de l’image du produit ou de la catégorie. |

@@ -14,12 +14,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3ee157eafbf44fa495e0b8e254aa9c85b2324277
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fc1658b5a4ae687b90d2690834ce172275471733690546a62d84a8a2c62af0a0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768705"
 ---
 # <a name="restrict-editing-of-accounting-distributions-on-invoices"></a>Restreindre la modification des répartitions comptables dans les factures
 

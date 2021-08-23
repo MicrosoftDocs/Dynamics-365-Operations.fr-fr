@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 355661c5fd5aee2a74c8bea55103e2f73c4692d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c7fda523aa14a2d7dd669bd32bce5c72e5c7f1b6b91d61bebf5480075211b21f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763052"
 ---
 # <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a>Créer un fournisseur occasionnel et une facture dans le secteur public
 

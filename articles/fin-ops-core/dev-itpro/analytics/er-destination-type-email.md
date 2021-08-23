@@ -2,7 +2,7 @@
 title: Type de destination pour l’envoi d’états électroniques par e-mail
 description: Cette rubrique explique comment configurer une destination d’e-mail pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769317"
 ---
 # <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
@@ -42,23 +42,43 @@ Vous pouvez aussi [grouper](#grouping) de nombreux composants **Dossier** ou **F
 
 Plusieurs groupes de composants peuvent être configurés pour une configuration de format ER unique. De cette manière, vous pouvez configurer une destination d’e-mail pour chaque groupe de composants et une destination d’e-mail pour chaque composant.
 
-## <a name="configure-an-email-destination"></a>Configurer une destination d’e-mail
+## <a name="enable-an-email-destination"></a>Activer une destination de l’e-mail
 
-Pour envoyer un fichier de sortie ou plusieurs fichiers de sortie par e-mail, sur la page **Destination des rapports électroniques**, sur le raccourci **Destination du fichier**, sélectionnez un composant ou un groupe de composants dans la grille, puis sélectionnez **Paramètres**. Dans la boîte de dialogue **Paramètres de destination** qui apparaît, sur l’onglet **E-mail**, définissez l’option **Activée** sur **Oui**. Vous pouvez ensuite spécifier les destinataires du message et modifier l’objet et le corps du courrier électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de génération d’états électroniques pour créer dynamiquement les textes de courrier électronique.
+Pour envoyer un ou plusieurs fichiers de sortie par e-mail, procédez comme suit.
 
-Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que pour la fonction de Gestion de l’impression, ou vous pouvez résoudre une adresse e-mail en utilisant une référence directe à la configuration ER via une formule.
+1. Sur la page **Destination de la gestion des états électroniques**, dans le raccourci **Destination du fichier**, sélectionnez un composant ou un groupe de composants dans la grille.
+2. Sélectionnez **Paramètres**, puis, dans la boîte de dialogue **Paramètres de destination**, dans l’onglet **E-mail**, définissez l’option **Activé** sur **Oui**.
 
 [![Définition de l’option Activé sur Oui pour une destination d'e-mail.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>Configurer une destination d’e-mail
+
+Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail, et modifier l’objet et le corps du courrier électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement les textes de courrier électronique.
+
+Par défaut, un e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
+
+> [!NOTE]
+> Lorsqu’une destination de courrier électronique est configurée, le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailConfigure` **Configurer l’adresse e-mail de l’expéditeur pour les destinations au format ER**.
+>
+> Lorsqu’une destination de courrier électronique est proposée pour modification au moment de l’[exécution](electronic-reporting-destinations.md#security-considerations), le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailMaintain` **Gérer l’adresse e-mail de l’expéditeur pour la destination au format ER**.
+>
+> Lorsque le champ **De** est configuré pour utiliser une adresse e-mail autre que celle de l’utilisateur actuel, l’autorisation **Envoyer en tant que** ou **Envoyer pour le compte de** doit être correctement [définie](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) à l’avance. Sinon, l’exception suivante est générée au moment de l’exécution : « Impossible d’envoyer l’e-mail en tant que \<from email account\> depuis le compte \<current user account\>, veuillez vérifier les autorisations « Envoyer en tant que » sur le \<from email account\>. »
+
+Vous pouvez configurer le champ **De** pour renvoyer plusieurs adresses e-mail. Dans ce cas, la première adresse de la liste est utilisée comme adresse d’expéditeur de courrier électronique.
+
+Pour spécifier les destinataires des e-mails, vous devez configurer les champs **À** et **Cc** (facultatifs).
+
+Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que pour la fonction Gestion de l’impression, ou vous pouvez résoudre une adresse e-mail en utilisant une référence directe à la configuration ER par le biais d’une formule.
+
 ## <a name="email-address-types"></a>Types d’adresses électroniques
 
-Si vous sélectionnez **Modifier** à côté du champ **À** ou **Cc** dans la boîte de dialogue **Paramètres de destination**, la boîte de dialogue **Envoyer à** apparaît. Sélectionnez **Ajouter**, puis sélectionnez le type d’adresse électronique à utiliser. Deux types sont actuellement pris en charge : **E-mail de configuration de l’impression** et **E-mail de configuration**.
+Si vous sélectionnez **Modifier** à côté du champ **De**, **À** ou **Cc** dans la boîte de dialogue **Paramètres de destination**, la boîte de dialogue **E-mail de**, **E-mail à** ou **Copie de l’e-mail** appropriée apparaît. Là, vous pouvez configurer l’expéditeur et les destinataires de l’e-mail. Sélectionnez **Ajouter**, puis sélectionnez le type d’adresse électronique à utiliser. Deux types sont actuellement pris en charge : **E-mail de configuration de l’impression** et **E-mail de configuration**.
 
 [![Sélection du type d’adresse e-mail.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>E-mail de gestion de l'impression
 
-Si vous sélectionnez **E-mail de gestion de l’impression** comme type d’adresse e-mail, vous pouvez saisir des adresses e-mail fixes dans la boîte de dialogue **Envoyer à** en définissant les champs suivants :
+Si vous sélectionnez **E-mail de gestion de l’impression** comme type d’adresse e-mail, vous pouvez saisir des adresses e-mail fixes dans la boîte de dialogue **E-mail de**, **E-mail à** ou **Copie de l’e-mail** en définissant les champs suivants :
 
 - Sélectionnez le champ **Source du message électronique**, puis **Aucune**.
 - Dans le champ **Adresses e-mail supplémentaires, séparées par ";"**, entrez les adresses e-mail fixes.
@@ -74,6 +94,7 @@ Vous pouvez également obtenir des adresses électroniques à partir des coordon
 - Candidat
 - Fournisseur potentiel
 - Fournisseur non autorisé
+- Entité juridique
 
 Par exemple, pour configurer une destination de courrier électronique pour un format ER utilisé pour traiter les paiements fournisseur, sélectionnez le rôle **Fournisseur**.
 
@@ -106,7 +127,7 @@ Pour spécifier le type d’adresses e-mail à utiliser lors du runtime, dans la
 
 ### <a name="configuration-email"></a>E-mail de configuration
 
-Sélectionnez **E-mail de configuration** comme type d’adresse e-mail si la configuration que vous utilisez a un nœud dans les sources de données qui renvoie une seule adresse e-mail ou plusieurs adresses e-mail séparées par des points-virgules (;). Vous pouvez utiliser les [sources de données](general-electronic-reporting.md#FormatComponentOutbound) et les [fonctions](er-formula-language.md#functions) dans le concepteur de formule pour obtenir une adresse e-mail correctement mise en forme ou des adresses e-mail correctement mises en forme séparées par des points-virgules. Par exemple, si vous utilisez la configuration **Transfert de crédit ISO 20022**, le nœud qui représente l’adresse e-mail principale d’un fournisseur à partir des coordonnées du fournisseur auquel la lettre explicative doit être envoyée est `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Sélectionnez **E-mail de configuration** comme type d’adresse e-mail si la configuration que vous utilisez a un nœud dans les sources de données qui renvoie une seule adresse e-mail ou plusieurs adresses e-mail séparées par des points-virgules (;). Vous pouvez utiliser les [sources de données](general-electronic-reporting.md#FormatComponentOutbound) et les [fonctions](er-formula-language.md#Functions) dans le concepteur de formule pour obtenir une adresse e-mail correctement mise en forme ou des adresses e-mail correctement mises en forme séparées par des points-virgules. Par exemple, si vous utilisez la configuration **Transfert de crédit ISO 20022**, le nœud qui représente l’adresse e-mail principale d’un fournisseur à partir des coordonnées du fournisseur auquel la lettre explicative doit être envoyée est `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Configuration d’une source d’adresse e-mail.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

@@ -2,7 +2,7 @@
 title: Tenir à jour les informations bancaires pour un compte fournisseur
 description: Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cette rubrique explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
 author: v-kiarnd
-ms.date: 01/14/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2011-01-14
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b81f5bf5f2bb89902eb0e5424ad0db6075010c67
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 3fbcba98ecc4cf2f177c39bdca0c47cd7d86540d9e7c117a891448816f8b1f83
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737370"
 ---
 # <a name="maintain-vendor-bank-account-information"></a>Tenir à jour les informations bancaires pour un compte fournisseur
 
@@ -48,6 +48,13 @@ S’il existe des documents liés à la certification spécifique, vous pouvez l
 Les informations bancaires que les fournisseurs saisissent sur la page afficheront **Fournisseur** comme source. Vous pouvez également saisir des informations de compte bancaire à la place d’un fournisseur. Ces informations apparaîtront ici, et **Client** sera affiché comme source. Pour plus d’informations, voir [Créer un compte bancaire fournisseur](../../supply-chain/procurement/tasks/create-vendor-bank-account.md).
 
 Une fois qu’un compte a été ajouté, les fournisseurs peuvent modifier les dates d’effet et d’expiration de leur banque au besoin.
+
+## <a name="turn-on-the-vendor-bank-account-information-feature"></a>Activer la fonctionnalité d’informations de compte bancaire fournisseur
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module** - *Comptabilité fournisseur*
+- **Nom de la fonctionnalité** - *Tenir à jour les informations bancaires des fournisseurs à l’aide de l’espace de travail de collaboration avec les fournisseurs*
 
 ## <a name="vendor-collaboration-generated-bank-changes-page"></a>Page des modifications bancaires générées par la collaboration avec les fournisseurs
 

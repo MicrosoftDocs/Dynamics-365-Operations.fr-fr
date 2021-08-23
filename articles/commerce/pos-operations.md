@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: dc4835258c7a1968c51e4d1a3a4d0eb33aaf2cddf31efd965adff0ac80aa4ec1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745282"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -65,7 +65,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 641 | Exécuter les produits sélectionnés | Permet de définir le mode de livraison des lignes sélectionnées sur **Exécuter**. | Oui | Oui | Non | Oui\* | Non |
 | 647 | Changer de mode de livraison | Modifiez le mode de livraison pour les lignes de vente préconfigurées. | Oui | Oui | Non | Non| Non |
 | 1215 | Modifier le mot de passe | Cette opération permet à l’utilisateur du PDV de modifier son mot de passe. | Oui | Oui | Oui | N° | N° |
-| 123 | Modifier l'unité de mesure | Permet de modifier l’unité de mesure de la ligne sélectionnée. | Oui | Oui | N° | Oui | N° |
+| 123 | Modifier l’unité de mesure | Permet de modifier l’unité de mesure de la ligne sélectionnée. | Oui | Oui | N° | Oui | N° |
 | 639 | Effacer le représentant par défaut sur la transaction | Permet de supprimer le groupe de ventes de commission (commercial) de la transaction. | Oui | Oui | N° | Oui | N° |
 | 106 | Effacer la quantité | Permet de réinitialiser la quantité de la ligne sélectionnée actuellement sur **1**. | Oui | Oui | N° | Oui | N° |
 | 640 | Effacer le représentant sur la ligne | Permet de supprimer le groupe de ventes de commission (commercial) de la ligne sélectionnée actuellement. | Oui | Oui | N° | Oui | N° |

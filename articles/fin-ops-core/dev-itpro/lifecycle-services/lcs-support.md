@@ -2,7 +2,7 @@
 title: Obtenir de l’aide pour les applications Finance and Operations ou Lifecycle Services (LCS)
 description: Cette rubrique explique comment obtenir de l’aide pour les applications Finance and Operations ou Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
-ms.date: 09/16/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b32ae88f9c4439b83ae60e6a0b5f0e16280fcf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713332"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtenir de l’aide pour les applications Finance and Operations ou Lifecycle Services (LCS)
 
@@ -48,7 +48,7 @@ Cette rubrique explique comment obtenir de l’aide pour les applications Financ
 <td>Dans <a href="https://lcs.dynamics.com/">LCS</a>, utilisez l’outil <strong>Recherche d’incidents</strong> pour rechercher rapidement des articles de base de connaissances Microsoft, des correctifs et des solutions aux problèmes signalés. Vous pouvez voir les problèmes signalés qui sont en cours de résolution pour un domaine fonctionnel spécifique et ceux qui ont déjà été résolus. Pour plus d’informations, voir <a href="issue-search-lcs.md">Recherche d’incidents (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Obtenir du support dans l’application.</td>
+<td>Obtenez de l’aide au sein de votre application Finance and Operations.</td>
 <td>Sélectionnez le bouton <strong>Aide</strong> (<strong>?</strong>) dans le coin supérieur droit de l’application, puis sélectionnez <strong>Support</strong>. Les problèmes sont signalés dans l’onglet <strong>Problèmes actifs</strong> dans LCS. Là, les administrateurs peuvent déterminer s’ils doivent fournir une assistance en interne ou soumettre les problèmes à Microsoft.</td>
 </tr>
 <tr>

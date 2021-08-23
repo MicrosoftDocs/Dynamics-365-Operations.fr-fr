@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db75b09f1ae1f83a88a5e5eaef0c8c1b8eab5901
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774459"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Générer et exécuter les états prêts à l’emploi
 
@@ -36,7 +36,7 @@ La société fictive utilisée pour créer cet enregistrement est USRT. Cet enre
 4. Entrez une date dans le champ Date de début.
 5. Entrez une date dans le champ Date de fin.
 6. Dans le champ Canal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans l’arborescence, sélectionnez « Contoso Retail\Contoso Retail USA\Central\Houston ».
+7. Dans l’arborescence, sélectionnez « Contoso Retail\Contoso Retail USA\Central\Houston ».
     * La hiérarchie d’organisation par défaut pour Commerce s’affiche pour la génération d’états.   Accédez à Administration d’organisation > Organisations > Objectifs de la hiérarchie d’organisation et choisissez Génération d’états de Commerce et, sous Hiérarchies affectées, vérifiez le nom de la hiérarchie pour lequel la colonne Valeur par défaut est cochée. Dans le cadre des données de démonstration (utilisées pour cet enregistrement de tâche), vous remarquez que Magasins par région est la hiérarchie d’organisation par défaut pour la génération d’états.     
 8. Cliquez sur OK.
 9. Dans le champ Afficher, sélectionnez une option.
@@ -48,7 +48,7 @@ La société fictive utilisée pour créer cet enregistrement est USRT. Cet enre
 2. Entrez une date dans le champ Date de début.
 3. Entrez une date dans le champ Date de fin.
 4. Dans le champ Canal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans l’arborescence, sélectionnez « Contoso Retail\Contoso Retail USA\West\Seattle ».
+5. Dans l’arborescence, sélectionnez « Contoso Retail\Contoso Retail USA\West\Seattle ».
     * La hiérarchie d’organisation par défaut pour Commerce s’affiche pour la génération d’états. Accédez à Administration d’organisation > Organisations > Objectifs de la hiérarchie d’organisation et choisissez Génération d’états de Commerce et, sous Hiérarchies affectées, vérifiez le nom de la hiérarchie pour lequel la colonne Valeur par défaut est cochée. Dans le cadre des données de démonstration (utilisées pour cet enregistrement de tâche), vous remarquez que Magasins par région est la hiérarchie d’organisation par défaut pour la génération d’états.     
 6. Cliquez sur OK.
 7. Cliquez sur OK.

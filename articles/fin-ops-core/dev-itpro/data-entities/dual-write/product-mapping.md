@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7b477ad83d2e101715ab85ea3f6b703732950dea
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726185"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -60,14 +60,14 @@ Applications Finance and Operations | Autres applications Dynamics 365 | Descri
 [Tailles de produit générique](mapping-reference.md#190) | msdyn_sharedproductsizes | La table **Taille de produit partagée** indique les tailles qu’un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
 [Styles de produit générique](mapping-reference.md#191) | msdyn_sharedproductstyles | La table **Style de produit partagé** indique les styles qu’un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
 [Numéro de produit identifié par code-barres](mapping-reference.md#164) | msdyn\_productbarcodes | Les codes-barres de produit permettent d’identifier de manière unique les produits.
-[Conversions d'unités spécifiques à un produit](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
+[Conversions d’unités spécifiques à un produit](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
 [Produits lancés V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | La table **msdyn\_sharedproductdetails** contient les colonnes des applications Finance and Operations qui définissent le produit et qui contiennent les informations de gestion et financières du produit.
 [Tailles](mapping-reference.md#174) | msdyn\_productsizes
 [Groupes de dimension de stockage](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Le groupe de dimensions de stockage de produit représente la méthode utilisée pour définir l’emplacement du produit dans l’entrepôt.
 [Styles](mapping-reference.md#178) | msdyn\_productsytles
 [Groupes de dimension de suivi](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups | Le groupe de dimensions de suivi de produit représente la méthode utilisée pour suivre le produit dans le stock.
 [Unités](mapping-reference.md#219) | UM
-[Conversion d'unités](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
+[Conversion d’unités](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="integration-of-products"></a>Intégration des produits
 
@@ -143,9 +143,9 @@ Le concept d’unité de mesure est intégré entre les applications Finance and
 
 Applications de Finance and Operations | Applications Customer Engagement |
 ---|---
-[Conversions d'unités spécifiques à un produit](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
+[Conversions d’unités spécifiques à un produit](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
 [Unités](mapping-reference.md#219) | UM
-[Conversion d'unités](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
+[Conversion d’unités](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Synchronisation initiale de la mise en correspondance des données des unités entre Finance and Operations et Dataverse
 

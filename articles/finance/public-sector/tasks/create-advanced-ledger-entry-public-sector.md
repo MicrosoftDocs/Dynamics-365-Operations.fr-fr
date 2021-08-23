@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c208e955de3b9cdb277be1681a5361cd85d679d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5db0dff5080954e83d81a29662a09939395c98ef7d50c7192abebce61a1df554
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766913"
 ---
 # <a name="create-an-advanced-ledger-entry-in-the-public-sector"></a>Créer une écriture comptable avancée dans le secteur public
 

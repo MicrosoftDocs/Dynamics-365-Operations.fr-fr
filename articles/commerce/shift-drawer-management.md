@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b437f2cef4be389c1b6bc2aa9f543cb5400e3e3ec59e55ec8034c957e57195d9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737504"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestion d’équipe et de tiroir-caisse
 
@@ -86,7 +86,7 @@ Les *entrées de fond de caisse* sont des transactions hors ventes qui sont effe
 
 Les *vidages de caisse* sont des transactions hors ventes qui sont effectuées au cours d’une équipe active et qui diminuent le montant des disponibilités dans le tiroir-caisse. Cette opération est le plus souvent utilisée conjointement à une opération d’entrée de fond de caisse dans une équipe différente. Par exemple, comme la caisse enregistreuse 1 manque de fonds, l’utilisateur de la caisse enregistreuse 2 effectue un vidage de caisse pour réduire le montant de son tiroir-caisse. L’utilisateur de la caisse enregistreuse 1 effectue ensuite une entrée de fond de caisse pour augmenter le montant de son tiroir-caisse.
 
-### <a name="suspend-shift"></a>Suspendre l'équipe de travail
+### <a name="suspend-shift"></a>Suspendre l’équipe de travail
 
 Les utilisateurs peuvent interrompre leur équipe active pour libérer la caisse enregistreuse actuelle pour un autre utilisateur, ou pour déplacer leur équipe vers une autre caisse enregistreuse (dans ce cas, l’équipe est souvent appelée une équipe « tiroir-caisse flottant »).
 
