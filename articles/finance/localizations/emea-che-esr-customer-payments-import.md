@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6259cd01ec6335731fccdedf84d5049593242036
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f4c969c4c384e086c36ec771daffba1483a8209cb1fcf6dd9bd2c6c65505b90
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775875"
 ---
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 

@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb83addd5d3f98da66b3155cdb450fdde603c30c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a79dfdb3b0a59e9dfa1872541c7dfc59cb8b2d1a1b6af98099584b3b7144f93
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728693"
 ---
 # <a name="fr-00018-daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter"></a>FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance
 

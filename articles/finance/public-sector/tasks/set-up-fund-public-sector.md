@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4126b07d3e4fd94f2d486c9d585ca5d1cd7eda9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a2c93cf09e8080a1d125ef7365d5fecfbddd0fbe80066c9dab4185a08faf88c5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763049"
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a>Paramétrer un fonds dans le secteur public
 

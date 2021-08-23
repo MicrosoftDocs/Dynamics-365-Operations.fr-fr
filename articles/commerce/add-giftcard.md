@@ -2,7 +2,7 @@
 title: Module de carte cadeau
 description: Cette rubrique couvre les modules de carte cadeau et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728337"
 ---
 # <a name="gift-card-module"></a>Module Carte cadeau
 
@@ -48,11 +48,17 @@ L’image suivante montre un exemple de module de carte cadeau dans une page de 
 
 - **Afficher des champs supplémentaires** – Cette propriété définit quels champs doivent être affichés pour les cartes cadeaux en plus du numéro de carte-cadeau, qui est toujours affiché par défaut. Par exemple, certaines cartes cadeaux prennent en charge l’affichage d’un numéro d’identification personnel (PIN) et d’autres prennent en charge l’affichage d’un code PIN et d’une date d’expiration. Alternativement, cette propriété peut être définie sur « Aucune », ce qui n’affichera que le numéro de la carte cadeau et aucun champ supplémentaire.
 
-Valeurs prises en charge :
--   PIN
--   Date d’expiration
--   Code PIN et date d’expiration 
--   None
+    Les valeurs suivantes sont prises en charge :
+
+    - Code PIN
+    - Date d'expiration
+    - Code PIN et date d’expiration 
+    - None
+
+- **Activer pour les utilisateurs invités** : lorsque cette propriété est activée, les utilisateurs invités peuvent accepter ou vérifier les soldes des cartes-cadeaux. Cette propriété nécessite que l'accès anonyme (invité) pour les cartes-cadeaux soit activé dans Commerce Headquarters. Pour plus d'informations, consultez [Activer les paiements par carte-cadeau pour la caisse invités](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> La propriété **Activer pour les utilisateurs invités** est disponible à partir de Commerce version 10.0.21. Elle nécessite l'installation du package de bibliothèque du module Commerce version 9.31.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Paramètres du site pour les modules de cartes cadeaux
 

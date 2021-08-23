@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744224"
 ---
 # <a name="view-team-and-company-calendars"></a>Afficher les calendriers des équipes et de la société
 
@@ -47,7 +47,7 @@ Les responsables peuvent également accéder au calendrier de l’équipe à par
 
 Les utilisateurs ayant le rôle de gestionnaire des absences peuvent afficher les demandes de congés dans leur calendrier. Procédez comme suit pour accéder au calendrier des congés.
 
-1. Dans l'espace de travail **Libre service employé**, sélectionnez **Gestionnaire des absences** puis **Calendrier de gestion des absences**.
+1. Dans l’espace de travail **Libre service employé**, sélectionnez **Gestion des congés**, puis **Calendrier du gestionnaire des absences**.
 
 2. Dans le champ **Date**, saisissez les dates souhaitées.
 

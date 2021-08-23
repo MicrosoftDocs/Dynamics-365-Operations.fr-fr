@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726405"
 ---
 # <a name="define-channel-attributes"></a>Définir les attributs de canal
 
@@ -30,7 +30,7 @@ Enrichissez le canal en ajoutant des attributs de canal et de produit. Vous deve
 
 ## <a name="define-channel-product-attribute"></a>Définissez l’attribut de produit de canal.
 1. Accédez à Commerce et vente au détail > Paramétrage du canal > Catégories de canal et attributs de produit.
-2. Dans l’arborescence, sélectionnez « Contoso Retail\Fashion\Houston ».
+2. Dans l’arborescence, sélectionnez « Contoso Retail\Fashion\Houston ».
 3. Cliquez sur Modifier.
 4. Dans le champ Hiérarchie de catégories, saisissez ou sélectionnez une valeur.
     * La hiérarchie de navigation sera utilisée pour déplacer le produit au sein de vos canaux.  

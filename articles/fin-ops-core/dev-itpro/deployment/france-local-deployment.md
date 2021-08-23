@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: tfehr
 ms.search.validFrom: 2019-07-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5753933a8e6f04475a859c3a13d54818772d6933
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 459c5f5874750b89f1d1800196fbaba50b13fb4c23c3f745d4d9d0a73eec1b9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719832"
 ---
 # <a name="finance-and-operations-apps-in-france"></a>Applications Finance and Operations en France
 

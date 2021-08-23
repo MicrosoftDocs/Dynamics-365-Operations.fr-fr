@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5e6eaabaada0a93f63fcc369d67b023f939648
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 592c88325236bdb120ca74f67605a5e574870cd8ce59cbe81bdd506facaa4a2f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777103"
 ---
 # <a name="advanced-ledger-entries-in-the-public-sector"></a>Écritures comptables avancées dans le secteur public
 

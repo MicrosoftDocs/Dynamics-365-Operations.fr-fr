@@ -14,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0de631891e2ec146541218be2569f92f53f12ca8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dab3e00baefb92e83b8ede46e3ed233467d5609cdd261e6b17132d1fa375568e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754125"
 ---
 # <a name="project-accounting-with-general-budget-reservations"></a>Comptabilité de projet avec des réservations budgétaires générales
 

@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2d5c6b45fa07aeab665ffdcd95e60a6c05c4972
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ecaa429d8e02c5b41dacaf733d34bff5829900785b5c76d5ab79a9ad2143540
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781152"
 ---
 # <a name="fr-00004-setup-method-of-payment"></a>FR-00004 Paramétrer le mode de paiement
 

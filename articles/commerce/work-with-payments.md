@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f7ab0aadb9ef99e2a8f7263434ddbc2f4813926a
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b89daf41c8a14f5e03dc2a67c95e9d1fed2d5cab891ae65e20655c285b1f6ac2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762570"
 ---
 # <a name="payment-methods-in-call-centers"></a>Modes de paiement dans les centres d’appels
 
@@ -49,7 +49,7 @@ Lorsque vous créez un mode de paiement, il existe cinq fonctions de mode de pai
 
 Pour les scénarios de traitement des remboursements, le centre d’appels utilise également des modes de paiement définis dans Comptabilité client. Pour configurer ces modes de paiement, accédez à **Retail et Commerce** \> **Paramétrage du canal** \> **Paramétrage du centre d’appels** \> **Modes de remboursement du centre d’appels**. Vous devez effectuer cette configuration pour traiter les chèques de remboursement aux clients. Par exemple, si un client a payé initialement pour une commande au comptant ou à l’aide d’un chèque, l’utilisateur peut avoir besoin d’envoyer au client un chèque de remboursement via la Comptabilité client. Dans ce cas, les types de paiement au comptant et par chèque dans le centre d’appels doivent être mis en correspondance avec le mode de paiement approprié dans Comptabilité client pour garantir que le remboursement soit correctement traité.
 
-En outre, si un utilisateur traite un ordre de retour en tant qu’utilisateur du centre d’appels dans Commerce, mais que l'utilisateur ne peut pas lier le retour à une vente d’origine, le mode de paiement **Retour** doit être défini dans les paramètres du centre d’appels. Accédez à **Retail et Commerce** \> **Paramétrage du canal** \> **Paramétrage du centre d’appels** \> **Paramètres du centre d’appels**, puis, dans l’onglet **Retour marchandises/Retour**, dans le champ **Mode de paiement**, vérifiez qu’un mode de paiement est défini. Le mode de paiement est le mode de paiement utilisé pour les remboursements. Généralement, il est défini comme méthode de vérification ou méthode de compte client.
+En outre, si un utilisateur traite un ordre de retour en tant qu’utilisateur du centre d’appels dans Commerce, mais que l’utilisateur ne peut pas lier le retour à une vente d’origine, le mode de paiement **Retour** doit être défini dans les paramètres du centre d’appels. Accédez à **Retail et Commerce** \> **Paramétrage du canal** \> **Paramétrage du centre d’appels** \> **Paramètres du centre d’appels**, puis, dans l’onglet **Retour marchandises/Retour**, dans le champ **Mode de paiement**, vérifiez qu’un mode de paiement est défini. Le mode de paiement est le mode de paiement utilisé pour les remboursements. Généralement, il est défini comme méthode de vérification ou méthode de compte client.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
