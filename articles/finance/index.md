@@ -2,7 +2,7 @@
 title: Page d’accueil Finance
 description: Cette rubrique fournit une liste de ressources et d’autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779420"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394561"
 ---
 # <a name="finance-home-page"></a>Page d’accueil Finance
 
@@ -35,6 +35,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
     :::column:::
         - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
         - [Comptabilité client](accounts-receivable/accounts-receivable.md)
+        - [Leasing d’actifs](asset-leasing/asset-leasing-homepage.md)
         - [Budgétisation](budgeting/budgeting-overview.md) 
         - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
         - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
@@ -43,6 +44,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
         - [Gestion des dépenses](/dynamics365/project-operations/prod-exp/expense-management)
         - [Financial Reporting](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Comptabilité et Financial Reporting](general-ledger/general-ledger.md) 
         - [Gestion et comptabilité des projets](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Secteur public](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 - [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [Blog sur Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Blog de la communauté de partenaires Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Guides de tâche
-Une aide supplémentaire est disponible sous forme de guides de tâche dans Finance and Operations. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n’importe quelle page.
 
 ### <a name="videos"></a>Vidéos
 

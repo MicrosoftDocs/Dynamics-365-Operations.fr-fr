@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Obtenir le statut d’activité de l’opération
                       href: database/api/v1/reference-get-status.md
-                    - name: Démarrer et arrêter les environnements
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Données de démonstration
           items:
             - name: Vue d’ensemble des données de démonstration
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Continuité des activités et récupération d’urgence
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Terminer l’intégration d’Azure Resource Manager
+                - name: Terminer le processus d’intégration d’Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Terminer le processus d’intégration d’Azure Resource Manager pour les projets LCS de l’administration américaine
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute et Finance and Operations
                   href: deployment/expressroute.md
                 - name: Architecture de Finance and Operations
@@ -938,12 +938,22 @@
           items:
             - name: "Ressources pour Lifecycle\_Services"
               items:
-                - name: "Ressources pour Lifecycle\_Services"
+                - name: Ressources Lifecycle Services
                   href: lifecycle-services/lcs.md
                 - name: LCS pour les clients
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS pour les partenaires
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: Démarrer et arrêter les environnements
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Extraire les métadonnées d’environnement
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Extraire l’historique d’environnement
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Extraire le fichier ZIP de certificat RSAT d’environnement
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Nouveautés ou modifications dans Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Guide de l’utilisateur de Lifecycle Services
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Résolution des problèmes
                       items:
-                        - name: Vérifier la configuration en double écriture dans les applications Finance and Operations et Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Résolution générale des problèmes
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Résoudre les problèmes lors de la configuration initiale
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Résoudre les problèmes lors de la synchronisation initiale
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Résoudre les problèmes liés à la double écriture dans les applications Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Résoudre les problèmes de synchronisation en direct
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Résoudre les problèmes liés à la double écriture dans les applications Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Résoudre les problèmes de carnet d’adresses global et de partie
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Résoudre les problèmes liés à la prise en charge de la solution
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Résolution générale des problèmes
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Vérifier la configuration en double écriture dans les applications Finance and Operations et Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Forum aux questions sur la double écriture
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Entités virtuelles
@@ -1180,9 +1192,9 @@
           items:
             - name: Ressources de la plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Mise en route
+            - name: Prise en main
               items:
-                - name: Mise en route de la plateforme mobile
+                - name: Prise en main de la plateforme mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Remarques relatives à l’architecture et à la conception
                   href: mobile-apps/platform/mobile-platform-architecture.md
