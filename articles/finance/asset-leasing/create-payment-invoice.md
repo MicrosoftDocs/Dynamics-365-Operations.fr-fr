@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 94657a1c423fafb89d2fe2c16937947e0d898771ddb30a029d0938cc17aaf7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc87c329f6f5dd9532b1319f8d88fbc41dcd4d14
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716667"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344318"
 ---
 # <a name="create-payment-invoices"></a>Créer des factures de paiement
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Vous pouvez créer des factures mensuelles pour des locations individuelles ou vous pouvez utiliser un processus par lots pour les créer pour plusieurs baux. La procédure suivante montre comment créer une entrée de paiement de location individuelle lorsque le paramètre **Payer au fournisseur** sur la page **Configuration du registre de location** est activé.
 
@@ -39,6 +41,8 @@ Vous pouvez créer des factures mensuelles pour des locations individuelles ou v
 5. Sélectionnez le journal adéquat, puis sélectionnez la facture à payer.
 
     Pour cet exemple, le paramètre **Payer au fournisseur** du registre de location est activé. Par conséquent, la facture sera dans le journal des factures. La section **Aperçu** présente un résumé de l’entrée de journal et la section **Lignes** montre les détails des lignes de journal réelles.
+    
+   Le système verrouille l'édition de certains champs financiers pour éviter tout écart entre les transactions et les échéanciers. Les champs verrouillés incluent : **Compte**, **Montants**, **Dimensions financières**, **Devise** et **Type de transaction**. De plus, vous ne pourrez pas ajouter ou supprimer des lignes d'entrée de journal dans les entrées de journal de location d'actifs, car cela pourrait entraîner des écarts entre les échéanciers et les transactions.
 
     > [!NOTE]
     > Si le paramètre **Payer au fournisseur** est désactivé, les écritures du journal des paiements seront répertoriées sur la page **Location d’actifs** pour le registre de location, et le système créera une entrée de bail d’actif au lieu d’une facture. L’entrée de paiement de location sera enregistrée dans le nom de journal spécifié dans le champ **Journal mensuel des baux**.

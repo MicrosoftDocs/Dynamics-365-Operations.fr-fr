@@ -15,18 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7caabeaf92bbce63cc30b2fb76111b33455af1910c2ea822453c550c61e02dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740882"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343212"
 ---
 # <a name="set-up-lease-journal-names"></a>Configurer les noms des registres des baux
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Les noms des journaux de location spécifient les journaux dans lesquels les transactions sont imputées. Seuls les noms de journaux attribués au type de journal **Location d’actifs** apparaît dans les champs **Reconnaissance initiale** et **Nom du journal mensuel** sur la page **Paramètres de location d’actifs**. Seul le type de journal **Enregistrement de la facture fournisseur** peut être affecté au champ **Nom du journal des factures**.
+
+Le système verrouille l'édition de certains champs financiers pour éviter tout écart entre les transactions et les échéanciers. Les champs verrouillés incluent : **Compte**, **Montants**, **Dimensions financières**, **Devise** et **Type de transaction**. De plus, vous ne pourrez pas ajouter ou supprimer des lignes d'entrée de journal dans les entrées de journal de location d'actifs, car cela pourrait entraîner des écarts entre les échéanciers et les transactions.
+
 
 Pour configurer les noms des journaux de bail, procédez comme suit.
 

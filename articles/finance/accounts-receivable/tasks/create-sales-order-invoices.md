@@ -1,6 +1,6 @@
 ---
 title: Créer des factures de commande client
-description: Ce guide de tâche décrit la facturation d’une commande client, notamment la fusion des factures et le traitement par lots.
+description: Cette rubrique de tâche décrit comment facturer une commande client, notamment la fusion des factures et le traitement par lots.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771822"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394608"
 ---
 # <a name="create-sales-order-invoices"></a>Créer des factures de commande client
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide de tâche décrit la facturation d’une commande client, notamment la fusion des factures et le traitement par lots. La société fictive USMF sert d’exemple dans cette procédure.
+Cette rubrique de tâche décrit comment facturer une commande client, notamment la fusion des factures et le traitement par lots. La société fictive USMF sert d’exemple dans cette procédure.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Créer une facture à partir d’une commande client
 1. Accédez au **volet Navigation > Modules > Comptabilité client > Commandes > Commandes client expédiées mais pas facturées**.
 2. Sélectionnez une commande client dans la liste. 
-3. Dans le **volet Actions**, cliquez sur **Facture > Générer > Facture**. Notez que cette commande client a plusieurs bons de livraison associés. Elle indique uniquement le mot <multiple> au lieu du numéro de bon de livraison.  
+3. Dans le **volet Actions**, cliquez sur **Facture > Générer > Facture**. Notez que cette commande client a plusieurs bons de livraison associés. Elle indique uniquement le mot *multiple* au lieu du numéro de bon de livraison.  
 4. Développez la section **Paramètres**.
     - La validation doit être définie sur Oui pour valider la facture. Vous pouvez également désactiver la validation et simplement imprimer la facture. Toutefois, vous pouvez obtenir le même résultat en créant une facture pro forma au lieu d’une facture.  
     - Cette option est utilisée pour les traitements par lots. La requête est exécutée lorsque le traitement par lots est exécuté.

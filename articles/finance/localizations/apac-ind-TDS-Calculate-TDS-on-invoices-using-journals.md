@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfe473f39ee729957924fd7c161aed01138cd507eea56766af35177891676f65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fde81efed6b8a72e2149056f0196e4f9d60e59f2
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778891"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345517"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Calculer le TDS sur les factures à l'aide de journaux
 
@@ -65,6 +65,6 @@ Commencez par ouvrir la page **Journaux des opérations diverses** (**Comptabili
 
 8. Renseignez les informations demandées. Contrôlez et validez le journal. Le montant TDS calculé sur les factures d'achat est imputé au compte fournisseur. Le montant TDS qui a été calculé en fonction des factures client est imputé au compte fournisseur défini pour chaque code TVA TDS du groupe TDS. Les comptes clients et fournisseurs pour les codes TVA TDS sont définis sur la page **Codes de retenue à la source**.
 
-9. Sélectionnez **Retenue à la source validée** pour ouvrir la page **Opérations** **de retenue** **à la source**. Dans le champ **Valeur**, le pourcentage total qui a été utilisé pour calculer TDS pour la transaction s'affiche.
+9. Sélectionnez **Retenue à la source validée** pour ouvrir la page **Opérations de retenue à la source**. Dans le champ **Valeur**, le pourcentage total qui a été utilisé pour calculer TDS pour la transaction s'affiche.
 
    Les champs des onglets **Aperçu**, **Général** et **Montant** dans la page Opérations de retenue à la source temporaire affichent le montant TDS calculé et les détails du montant TDS ajusté pour chaque code de taxe TDS associé au groupe TDS.

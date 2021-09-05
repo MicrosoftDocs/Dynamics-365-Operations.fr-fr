@@ -1,6 +1,6 @@
 ---
 title: Créer une série de lettres de relance
-description: Utilisez ce guide de tâche pour créer une série de lettres de relance.
+description: Utilisez cette procédure pour créer une série de lettres de relance.
 author: mikefalkner
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 64d23d0875c5bb93ebe54fd40367f89574da87c72e90daab25a8828ec2158abb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b3062390da10f344c354cd2cc5cd7fb73623570
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740072"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394680"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Créer une série de lettres de relance
 
 [!include [banner](../../includes/banner.md)]
 
-Utilisez ce guide de tâche pour créer une série de lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
+Utilisez cette procédure pour créer une série de lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 
 1. Dans le volet de navigation, accédez à **Modules > Crédit et recouvrements > Paramétrage > Paramétrer la série de lettres de relance**.
 2. Cliquez sur **Nouveau**.

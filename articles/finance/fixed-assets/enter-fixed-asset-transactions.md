@@ -1,8 +1,8 @@
 ---
 title: Options de transactions d’immobilisations
 description: Cette rubrique décrit les différentes méthodes disponibles pour créer des transactions d’immobilisation.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764261"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344688"
 ---
 # <a name="fixed-asset-transaction-options"></a>Options de transactions d’immobilisations
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit les différentes méthodes disponibles pour créer des transactions d’immobilisation.
 
@@ -57,15 +58,17 @@ Vous pouvez valider tout type de transaction d’immobilisation dans la page Jou
 |                                     | Approvisionnements | Commande fournisseur                            |
 | Amortissement                        | Immobilisations             | Immobilisations                              |
 |                                     | Comptabilité           | Journal des opérations diverses                           |
-| Cession                            | Immobilisations             | Immobilisations                              |
-| ** **                               | Comptabilité           | Journal des opérations diverses                           |
-| ** **                               | Module Comptabilité client      | Facture financière                         |
+| Cession                            | Actifs             | Actifs                              |
+|                                     | Comptabilité           | Journal des opérations diverses                           |
+|                                     | Module Comptabilité client      | Facture financière                         |
 
-La valeur restante des périodes d’amortissement de l’immobilisation n’est pas mise à jour lorsqu’une ligne de journal de type transaction d’amortissement est créée manuellement ou importée via une entité des données. Cette valeur est mise à jour lorsque le processus de proposition d’amortissement est utilisé pour créer la ligne de journal.
+La valeur restante n’est pas mise à jour pour les périodes d’amortissement d’une immobilisation lorsqu’une ligne de journal de type transaction d’amortissement est créée manuellement ou importée via une entité des données. Cette valeur restante est mise à jour lorsque le processus de proposition d’amortissement est utilisé pour créer la ligne de journal.
 
 Pour plus d’informations, voir [Intégration des immobilisations](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Transactions qui nécessitent des N° documents différents
+Le système empêche de comptabiliser deux fois l’amortissement sur la même période. Par exemple, si deux utilisateurs créent des propositions d’amortissement séparément pour janvier, l’amortissement du premier utilisateur est enregistré dans le premier journal. Lorsque le deuxième utilisateur comptabilise l’amortissement dans le deuxième journal, le système vérifie la date à laquelle l’amortissement a été exécuté pour la dernière fois et ne comptabilise pas l’amortissement pour la même période une deuxième fois.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Transactions qui nécessitent un N° document différent
 
 Les transactions d'immobilisations suivantes utiliseront des N° documents différents :
 

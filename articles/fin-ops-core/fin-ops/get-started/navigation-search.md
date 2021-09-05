@@ -2,7 +2,7 @@
 title: Recherche de navigation
 description: Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages.
 author: aneesmsft
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82c7bf17eaf0276c448223182b4268a50addb37f1ff115fec0223bc3313905e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749602"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344396"
 ---
 # <a name="navigation-search"></a>Recherche de navigation
 
@@ -34,7 +34,7 @@ Pour utiliser cette fonction, cliquez sur l’icône **Rechercher** pour affiche
 > [!NOTE]
 > La zone **Rechercher** vous aide rechercher et accéder aux pages. Elle ne vous aidera pas à rechercher des données spécifiques ou des actions.
 
-[![search-box.](media/navigation-search.png "zone Recherche")
+![search-box.](media/navigation-search.png "zone Recherche")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Accéder rapidement à une page spécifique
 

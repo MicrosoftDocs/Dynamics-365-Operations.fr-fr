@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble des règlements
 description: Cette rubrique fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
-author: kweekley
-ms.date: 04/10/2020
+author: panolte
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 30a96b377d70c74a29e9e90699ccb077c727b20758378b5336660c6c056c6022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4a4fd0756a4516b0c14e136730d21d062a106a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755688"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344809"
 ---
 # <a name="settlement-overview"></a>Vue d’ensemble des règlements
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Cette rubrique fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
 
@@ -74,9 +76,25 @@ Les règlements peuvent également générer des transactions. Par exemple, le r
 
 Lorsque vous essayez de régler une transaction, vous remarquerez peut-être un symbole qui indique que la transaction est marquée dans un autre emplacement. Dans ce cas, vous pouvez sélectionner la transaction sur la page **Règlement des transactions**, puis sélectionnez **Enquête \> Règlement depuis la fenêtre de règlement**. La vue de cette demande affiche les journaux, les commandes client, les factures, les propositions de paiement et les emplacements des clients qui pourraient bloquer la transaction du règlement. Pour résoudre le problème, vous pouvez sélectionner le lien pour passer directement de l’enquête à l’emplacement bloqué. Vous pouvez ensuite mettre à jour le document avec les ajustements nécessaires pour le régler. Vous pouvez également utiliser l’indicateur **Marqué** permettant d’identifier d’autres documents inclus dans le même emplacement de blocage.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Résoudre les problèmes liés aux transactions qui ne peuvent pas être réglées
+
+Parfois, vous ne pouvez pas régler les transactions car une autre activité traite actuellement le document. Si vous essayez de régler les transactions, une erreur se produit, car ces transactions sont utilisées. Pour résoudre ce problème, vous pouvez utiliser la page **Détails de la transaction marquée** pour rechercher les transactions marquées pour le règlement et identifier tout autre processus qui y accède.
+
+Les transactions sont marquées pour le règlement lorsque des factures fournisseur sont payées ou lorsque des clients paient leurs factures en cours. Parfois, ces factures peuvent déjà être marquées pour le règlement. Par conséquent, les utilisateurs ne peuvent pas les sélectionner pour le paiement. Les factures peuvent être marquées par un autre journal des paiements client, commande client, journal des paiements fournisseur ou commande fournisseur dans l'entité juridique actuelle ou une autre entité juridique.
+
+Si une transaction est bloquée pour le règlement lorsque vous saisissez un paiement client, ouvrez la page **Détails de la transaction marquée par le client** (**Comptabilité client \> Tâches périodiques \> Détails de la transaction marquée par le client**). Pour identifier rapidement l'endroit où une transaction est bloquée, vous pouvez définir n'importe lequel des paramètres de sélection suivants : **Compte client**, **Justificatif**, **Date** ou **Facture**. Si vous ne définissez aucun paramètre de sélection, le système affiche tous les documents bloqués de la société actuelle ou d'une autre société que vous sélectionnez. Une fois que la transaction qui a été bloquée pour le règlement est identifiée, vous pouvez la sélectionner, puis sélectionner **Supprimer le marquage des transactions sélectionnées**. La transaction sélectionnée est ensuite supprimée de tous les journaux l'incluant. Cependant, le document n'est pas supprimé de l'autre emplacement. Seules les informations de marquage sont supprimées de ce journal.
+
+Si une transaction est bloquée pour le règlement lorsque vous saisissez un paiement fournisseur, ouvrez la page **Détails de la transaction marquée par le fournisseur** (**Comptabilité fournisseur \> Tâches périodiques \> Détails de la transaction marquée par le fournisseur**). Pour identifier rapidement l'endroit où une transaction est bloquée, vous pouvez définir n'importe lequel des paramètres de sélection suivants : **Compte fournisseur**, **Justificatif**, **Date** ou **Facture**. Si vous ne définissez aucun paramètre de sélection, le système affiche tous les documents bloqués de la société actuelle ou d'une autre société que vous sélectionnez. Une fois que la transaction est identifiée, vous pouvez la sélectionner, puis sélectionner **Supprimer le marquage des transactions sélectionnées** pour réparer le problème bloquant. La transaction sélectionnée est ensuite supprimée de tous les journaux l'incluant. Cependant, le document n'est pas supprimé de l'autre emplacement. Seules les informations de marquage sont supprimées de ce journal.
+
+Pour identifier tous les documents bloqués, ouvrez la page **Tous les détails de la transaction marquée** (**Comptabilité client \> Tâches périodiques \> Tous les détails de la transaction marquée** ou **Comptabilité fournisseur \> Tâches périodiques \> Tous les détails de la transaction marquée**). Pour identifier rapidement l'endroit où une transaction est bloquée, vous pouvez définir n'importe lequel des paramètres de sélection suivants : **Compte client**, **Compte fournisseur**, **Justificatif**, **Date** ou **Facture**. Si vous ne définissez aucun paramètre de sélection, le système affiche tous les documents bloqués de la société actuelle ou d'une autre société que vous sélectionnez. Une fois que la transaction est identifiée, vous pouvez la sélectionner, puis sélectionner **Supprimer le marquage des transactions sélectionnées** pour réparer le problème bloquant. La transaction sélectionnée est ensuite supprimée de tous les journaux l'incluant. Cependant, le document n'est pas supprimé de l'autre emplacement. Seules les informations de marquage sont supprimées de ce journal.
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+
+- **Module :** gestion de la trésorerie et de la banque
+- **Nom de la fonctionnalité :** Formulaire de détail de la transaction marquée
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Solde de règlement](settle-remainder.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

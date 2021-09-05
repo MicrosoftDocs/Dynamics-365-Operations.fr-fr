@@ -1,6 +1,6 @@
 ---
 title: Disponibilité du produit
-description: Ces rubriques expliquent comment vous pouvez utiliser les vérifications de disponibilité pour vous assurer que les données principales requises sont complétées pour un produit avant son utilisation dans les transactions.
+description: Cette rubrique explique comment vous pouvez utiliser les vérifications de disponibilité pour vous assurer que les données principales requises sont complétées pour un produit avant son utilisation dans les transactions.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723549"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415319"
 ---
 # <a name="product-readiness"></a>Disponibilité du produit
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser les vérifications de disponibilité pour vous assurer que toutes les données principales requises ont été spécifiées pour un produit avant son utilisation dans les transactions. Lorsque des vérifications de disponibilité sont utilisés, un utilisateur ou une équipe est chargé de valider des données spécifiques prédéfinies liées au produit. S’il y a une vérification de disponibilité ouverte pour un produit, le produit ne peut pas être lancé ou utilisé dans les transactions.
+Vous pouvez utiliser les vérifications de disponibilité pour vous assurer que toutes les données principales requises ont été spécifiées pour un produit avant son utilisation dans les transactions. Lorsque des vérifications de disponibilité sont utilisés, un utilisateur ou une équipe est chargé de valider des données spécifiques prédéfinies liées au produit. S’il y a une vérification de disponibilité ouverte pour un produit, le produit ne peut pas être utilisé dans les transactions.
 
-La case à cocher **Actif** d’un produit d’ingénierie, d’une variante ou d’une version n’est disponible qu’après que toutes les données requises ont été saisies et vérifiées, et après que toutes les vérifications de disponibilité ont été traités. À ce stade, le produit, la version ou la variante peut être lancé à d’autres sociétés et utilisé dans les transactions. Vous pouvez créer des vérifications de disponibilité pour les nouveaux produits, les nouvelles variantes et les nouvelles versions d’ingénierie.
+La case à cocher **Actif** d’un produit d’ingénierie, d’une variante ou d’une version n’est disponible qu’après que toutes les données requises ont été saisies et vérifiées, et après que toutes les vérifications de disponibilité ont été traités. À ce stade, le produit, la version ou la variante peut être utilisé dans les transactions. Vous pouvez créer des vérifications de disponibilité pour les nouveaux produits, les nouvelles variantes et les nouvelles versions d’ingénierie.
 
 Vous pouvez également appliquer des vérifications de disponibilité aux produits standard (autres que des produits d’ingénerie). Pour plus d’informations, consultez la section [Vérifications de la disponibilité des produits standard](#standard-products) plus loin dans cette rubrique.
 

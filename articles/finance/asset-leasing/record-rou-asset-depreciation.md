@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778360"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345368"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Pour les contrats de location comptabilisés au bilan d’une organisation, le droit d’utilisation de l’actif est amorti sur une base mensuelle. Cette rubrique explique comment créer l’écriture de journal pour l’amortissement. L’amortissement débite le compte général des dépenses et crédite le compte général des amortissements cumulés, en fonction de la configuration de votre profil comptable et du type de bail. Ces entrées peuvent être créées pour chaque bail ou pour plusieurs baux à l’aide de la fonctionnalité de journal par lots.
 
@@ -36,6 +38,9 @@ Pour les contrats de location comptabilisés au bilan d’une organisation, le d
 
 2. Sélectionnez la période d’amortissement, puis sélectionnez **Créer un journal**. Vous recevez un message indiquant que le journal qui sera utilisé pour enregistrer l’amortissement a été créé.
 3. Sélectionnez **Journaux \> Journaux de location d’actifs** pour ouvrir la page **Journal de location d’actifs**, où vous pouvez afficher l’écriture de journal des dépenses d’amortissement qui a été créée.
+
+   Le système verrouille l'édition de certains champs financiers pour éviter tout écart entre les transactions et les échéanciers. Les champs verrouillés incluent : **Compte**, **Montants**, **Dimensions financières**, **Devise** et **Type de transaction**. De plus, vous ne pourrez pas ajouter ou supprimer des lignes d'entrée de journal dans les entrées de journal de location d'actifs, car cela pourrait entraîner des écarts entre les échéanciers et les transactions.
+
 4. Sélectionnez l’entrée de journal, puis sélectionnez **Publier** pour enregistrer l’écriture d’amortissement dans la comptabilité.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Calcul des frais d’amortissement du droit d’utilisation de l’actif pour les locations simples

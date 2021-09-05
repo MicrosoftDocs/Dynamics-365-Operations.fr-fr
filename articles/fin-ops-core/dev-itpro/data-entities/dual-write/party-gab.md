@@ -2,19 +2,19 @@
 title: Carnet d’adresses global et de la partie
 description: Cette rubrique décrit la fonctionnalité de carnet d’adresses global et de la partie de la double écriture.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729774"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386683"
 ---
 # <a name="party-and-global-address-book"></a>Carnet d’adresses global et de la partie
 
@@ -139,7 +139,10 @@ La grille comprend les colonnes suivantes :
 
 Vous pouvez utiliser le bouton **Nouvelle adresse électronique** au-dessus de la grille pour créer autant d’adresses que vous le souhaitez.
 
-Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets (par exemple des onglets **Résumé** et **Détails**).
+Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets, par exemple des onglets **Résumé** et **Détails**. Les coordonnées affichées sur l'onglet **Détails** sont des copies en lecture seule de l'adresse électronique principale, comme le téléphone principal, l'e-mail principal, le téléphone principal, le télécopieur principal et l'identifiant Twitter principal. Au cours du processus de qualification des prospects, vous pouvez fournir un numéro de téléphone professionnel et un numéro de téléphone mobile. Le numéro de téléphone professionnel est considéré comme téléphone principal si **IsMobile=No** et le numéro de téléphone mobile est considéré comme téléphone secondaire si **IsMobile=Yes**.
+
+> [!TIP]
+> Utilisez les onglets **Adresses** et **Adresses électroniques** sur les formulaires **Compte** et **Contact** pour gérer les adresses postales et électroniques. Cela garantit que les données d'adresse se synchronisent avec les applications Finance and Operations.
 
 ## <a name="setup"></a>Paramétrage
 
@@ -249,13 +252,11 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     [En-têtes de commande client CDS](mapping-reference.md#217) | salesorders
     [En-têtes de facture client V2](mapping-reference.md#118) | factures
 
-> [!Note]
+> [!NOTE]
 > Le mappage `CDS Contacts V2 (contacts)` est celui que vous aviez interrompu à l’étape 1. Lorsque vous essayez d’exécuter d’autres mappages, ces 2 mappages peuvent apparaître dans la liste des personnes à charge. N’exécutez pas ces mappages.
-
-> [!Note]
+>
 > Si la solution du carnet d’adresses global et de partie est installée, vous devez désactiver le plugin nommé `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Si vous désinstallez la solution du carnet d’adresses global et de partie, vous devez alors activer à nouveau le plugin.
-
-> [!Note]
+>
 > Le champ `msdyn_*partynumber` (un champ de texte sur une seule ligne) qui est inclus dans les tables **Compte**, **Contact** et **Fournisseur** ne doit plus être utilisé à l’avenir. Le nom de l’étiquette contient un préfixe **(Obsolète)** pour plus de clarté. Au lieu de cela, utilisez le champ **msdyn_partyid**. Ce champ effectue une recherche vers la table **msdyn_party**.
 
 > Nom de la table | Ancien champ | Nouveau champ
@@ -296,7 +297,6 @@ Pour plus d’informations, voir [Référence de mappage en double écriture](ma
 
 + Dans l’application Finance and Operations, lorsque vous créez un client avec l’adresse et que vous l’enregistrez, il est possible que l’adresse ne se synchronise pas avec la table **Adresse**. Cela est dû à un problème de séquençage de plateforme à double écriture. Pour contourner le problème, créez d’abord le client et enregistrez-le. Ajoutez ensuite l’adresse.
 + Dans les applications Finance and Operations, lorsqu’un enregistrement client a une adresse principale et que vous créez un nouveau contact pour ce client, l’enregistrement hérite d’une adresse principale de l’enregistrement client associé. Cela se produit également pour le contact fournisseur. Dataverse ne prend actuellement pas en charge ce comportement. Si la double écriture est activée, un client contact hérité d’une adresse principale de l’application Finance and Operations est synchronisé avec Dataverse avec son adresse.
-+ Les adresses électroniques de la table `msdyn_partyelectronicaddress` ne se trouvent pas dans les champs d’adresse électronique des tables **Compte** et **Contact**. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les tables **Compte** et **Contact** ne seront pas écrasées.
 + Les adresses électroniques définies sur l’onglet Adresses électroniques des formulaires **Compte**, **Contact** et **Fournisseur** proviennent de la table `msdyn_partyelectronicaddress`. Ces informations ne sont pas transmises aux transactions associées telles que la commande client, le devis et la commande fournisseur. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les enregistrements de compte et de contact continueront à fonctionner sur les transactions telles que la commande client, le devis et le bon de commande.
 + Dans les applications Finance and Operations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l’action échoue. Il s’agit d’un problème connu.
 

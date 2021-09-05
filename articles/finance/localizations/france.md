@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 811dac70acde40379a61db44083c88b2a4d95333bf0aff25c3134dabd6cfa666
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: c43b7840c6e9c0e99b95e782e2a8930a48f6ca26
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012051"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345507"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -51,6 +51,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Paramétrer des modes de paiement](tasks/fr-00004-setup-method-payment.md)
 - [Mettre à jour un mode de paiement pour le client](tasks/fr-00004-update-method-payment-customer.md)
 - [Déclaration de TVA](emea-fra-VAT-declaration-preview-France.md)
+- [État DAS2](emea-fra-das2-report.md)
 - Commerce
   - [Fonctionnalité de la caisse enregistreuse](../../commerce/localizations/emea-fra-cash-registers.md)
   - [Instructions de déploiement de caisses enregistreuses](../../commerce/localizations/emea-fra-deployment.md)

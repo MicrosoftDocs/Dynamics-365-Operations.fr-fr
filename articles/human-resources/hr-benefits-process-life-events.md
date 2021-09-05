@@ -1,8 +1,8 @@
 ---
 title: Traitement des événements de vie
 description: Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6bfbb9e31a7d8973c2b993f3792a7216f41924e0ff4c24b08c0dd954ab327c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 688a47d77dbd75ecd12af23f22a1d401703ed672
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775015"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417475"
 ---
 # <a name="process-life-events"></a>Traitement des événements de vie
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie. Par exemple, mariage, changement d’emploi ou changement de personne à charge / bénéficiaire. Pour utiliser des événements de vie, vous devez activer les événements de vie dans l’écran des paramètres d’avantages, configurer les types d’événements de vie et configurer les options d’événements de vie pour les types de plan.
+Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie. Par exemple, mariage, changement d’emploi ou changement de personne à charge / bénéficiaire. Pour utiliser des événements de vie, vous devez activer les événements de vie dans la page **Paramètres des avantages**, configurer les types d’événements de vie et configurer les options d’événements de vie pour les types de plan.
 
 Avant de pouvoir traiter des événements de vie, vous devez avoir déjà exécuté l’inscription ouverte au moins une fois au cours d’une période d’embauche. Aux États-Unis, l’inscription ouverte est généralement une fois par an. En dehors des États-Unis, l’inscription ouverte peut être exécutée au moment de l’embauche. Un collaborateur n’a pas besoin de sélectionner un régime de prestations pour que les événements de vie soient traités, mais ils doivent avoir été inclus dans le processus d’inscription ouverte. 
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423445"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -81,9 +81,9 @@ Comme le produit est représenté par un SKU, les concepts des produits distinct
 
 ![Modèle de données pour les produits.](media/dual-write-product.png)
 
-Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d’autres produits Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de la table juridique dans laquelle le produit est lancé dans une application Finance and Operations. S’il n’y a pas de liste de prix pour la devise donnée, une liste de prix sera automatiquement créée et le produit lui sera attribué.
+Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d’autres produits Dynamics 365 en mode **Brouillon**. Ils sont ajoutés à la première liste de prix avec la même devise que celle utilisée dans l'application d'engagement client et en utilisant le tri alphabétique sur le nom de la liste de prix. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de la table juridique dans laquelle le produit est lancé dans une application Finance and Operations. S’il n’y a pas de liste de prix pour la devise donnée, une liste de prix sera automatiquement créée et le produit lui sera attribué.
 
-L’implémentation actuelle des plugins à double écriture qui associent la liste de prix par défaut à l’unité recherche la devise associée à l’application Finance and Operations et identifie la première liste de prix dans l’application Customer Engagement en utilisant le tri alphabétique sur le nom de la liste de prix. Pour définir une liste de prix par défaut pour une devise spécifique lorsque vous avez plusieurs listes de prix pour cette devise, vous devez mettre à jour le nom de la liste de prix avec un nom commençant par une lettre antérieure dans l’ordre alphabétique par rapport aux autres listes de prix pour cette même devise.
+L’implémentation actuelle des plugins à double écriture qui associent la liste de prix par défaut à l’unité recherche la devise associée à l’application Finance and Operations et identifie la première liste de prix dans l’application Customer Engagement en utilisant le tri alphabétique sur le nom de la liste de prix. Pour définir une liste de prix par défaut pour une devise spécifique lorsque vous avez plusieurs listes de prix pour cette devise, vous devez mettre à jour le nom de la liste de prix avec un nom commençant par une lettre antérieure dans l’ordre alphabétique par rapport aux autres listes de prix pour cette même devise. S'il n'a pas de liste de prix pour la devise donnée, une nouvelle est créée.
 
 Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l’état **Actif**, afin de pouvoir l’utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l’état actif = Oui**.
 

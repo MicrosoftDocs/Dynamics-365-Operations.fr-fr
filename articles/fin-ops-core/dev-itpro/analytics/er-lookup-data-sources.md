@@ -2,7 +2,7 @@
 title: Configurer les sources de données de recherche pour utiliser les paramètres spécifiques à l’application d’états électroniques
 description: Cette rubrique explique comment vous pouvez configurer des sources de données de recherche dans les formats de gestion des états électroniques pour utiliser les paramètres propres à une application ER.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723187"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343427"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurer les sources de données de recherche pour utiliser les paramètres spécifiques à l’application d’états électroniques 
 
@@ -69,7 +69,7 @@ Vous pouvez configurer les règles de recherche pour le format ER sélectionné 
 L'illustration suivante montre comment la source de données `Model.Data.Summary.LevelByLookup` du type **Champ calculé** peut être configurée pour appeler la source de données **Recherche** fournissant les paramètres requis. Pour traiter cet appel au moment de l'exécution, la Gestion des états électroniques parcourt la liste des règles configurées dans l'ordre défini pour localiser la première règle qui satisfait les conditions stipulées. Dans cet exemple, c'est la règle qui contient le code taxe qui correspond à celui fourni. Par conséquent, la règle la plus appropriée est trouvée et la valeur d'énumération configurée pour la règle trouvée est renvoyée par cette source de données.
 
 > [!NOTE]
-> Une exception est levée lorsqu'aucune règle applicable n'est trouvée. Pour éviter ces exceptions, configurez des règles supplémentaires à la fin de la liste de règles pour gérer les cas où une valeur non configurée ou aucune valeur n'est fournie. Utilisez les options **\*Non vide\*** et **\*Vide\*** en conséquence.  
+> Une exception est levée lorsqu'aucune règle applicable n'est trouvée. Pour éviter ces exceptions, configurez des règles supplémentaires à la fin de la liste de règles pour gérer les cas où une valeur non configurée ou aucune valeur n'est fournie. Utilisez les options **\*Non vide**\* et **\*Vide**\* en conséquence.  
 >
 > ![Ajouter une source de données pour appeler la source de données Recherche configurée.](./media/er-lookup-data-sources-img7.png)
 

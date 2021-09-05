@@ -2,7 +2,7 @@
 title: Type de destination pour l’envoi d’états électroniques par e-mail
 description: Cette rubrique explique comment configurer une destination d’e-mail pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769317"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343858"
 ---
 # <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
@@ -53,9 +53,22 @@ Pour envoyer un ou plusieurs fichiers de sortie par e-mail, procédez comme suit
 
 ## <a name="configure-an-email-destination"></a>Configurer une destination d’e-mail
 
-Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail, et modifier l’objet et le corps du courrier électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement les textes de courrier électronique.
+### <a name="email-content"></a>Contenu de l'e-mail
 
-Par défaut, un e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
+Vous pouvez modifier l'objet et le corps du message électronique.
+
+Dans le champ **Objet**, saisissez le texte de l'objet de l'e-mail qui doit apparaître dans le champ objet d'un message électronique généré lors de l'exécution. Dans le champ **Corps**, saisissez le texte du corps de l'e-mail qui doit apparaître dans le champ corps d'un message électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement le texte du courrier électronique lors de l'exécution. La formule configurée doit renvoyer une valeur de type [Chaîne](er-formula-supported-data-types-primitive.md#string).
+
+Le corps de votre email est composé au format TEXTE ou HTML, selon le client de messagerie. Vous pouvez utiliser n’importe quelle mise en page, style et image de marque pris en charge par le format HTML et les feuilles de style en cascade en ligne (CSS).
+
+> [!NOTE]
+> Les clients de messagerie imposent des restrictions de mise en page et de style qui pourraient nécessiter des ajustements du HTML et du CSS que vous utilisez pour le corps du message. Nous vous recommandons de vous familiariser avec les meilleures pratiques de création de code HTML que les clients de messagerie les plus populaires prendront en charge.
+>
+> Utilisez le codage correct pour implémenter un retour chariot, en fonction de la mise en forme du corps. Pour plus d'informations, voir la définition du type de données [Chaîne](er-formula-supported-data-types-primitive.md#string).
+
+### <a name="email-addresses"></a>Adresses e-mail
+
+Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail. Par défaut, l'e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
 
 > [!NOTE]
 > Lorsqu’une destination de courrier électronique est configurée, le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailConfigure` **Configurer l’adresse e-mail de l’expéditeur pour les destinations au format ER**.

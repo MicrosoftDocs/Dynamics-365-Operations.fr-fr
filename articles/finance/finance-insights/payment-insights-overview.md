@@ -1,5 +1,5 @@
 ---
-title: Prévisions de paiement client (version préliminaire)
+title: Prédictions de paiement des clients
 description: Cette rubrique décrit la fonctionnalité de prédiction de paiement qui peut vous aider à mieux comprendre les pratiques de paiement typiques d’un client. Cette fonctionnalité peut également vous aider à identifier les circonstances qui devraient vous amener à démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bfb8d307079e4cca86a34eef3f0bdd6c6a268a1038940ecb8cf46950c1f5c9e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713256"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386659"
 ---
-# <a name="customer-payment-predictions-preview"></a>Prévisions de paiement client (version préliminaire)
+# <a name="customer-payment-predictions"></a>Prédictions de paiement des clients
 
 [!include [banner](../includes/banner.md)]
 

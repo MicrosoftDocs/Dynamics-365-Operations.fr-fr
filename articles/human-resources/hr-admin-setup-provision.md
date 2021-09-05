@@ -1,8 +1,8 @@
 ---
 title: Mettre en service Human Resources
-description: Cette rubrique décrit le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/14/2021
+description: Cette rubrique explique le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756146"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393521"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756146"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cette rubrique décrit le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources. Cette rubrique suppose que vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). Si vous disposez d’une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Human Resources et que vous ne pouvez pas effectuer les étapes décrites dans cet article, contactez le support technique.
+Cette rubrique explique le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources. 
 
-Pour commencer, l’administrateur global doit se connecter à [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) et créer un projet Human Resources. Il n’est pas nécessaire de contacter le support technique ou les représentants de Dynamics Service Engineering (DSE) sauf si un problème de licence vous empêche de mettre en service Human Resources.
+## <a name="prerequisites"></a>Conditions préalables
+
+Avant de commencer la mise en service d'un nouvel environnement de production, les conditions préalables suivantes doivent être en place :
+
+- Vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). Si vous disposez d’une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Human Resources et que vous ne pouvez pas effectuer les étapes décrites dans cette rubrique, contactez le support technique.
+
+- L’administrateur global s'est connecté à [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) et a créé un projet Human Resources. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
 
@@ -42,7 +48,7 @@ Les environnements d’essai ne sont pas destinés à être utilisés comme envi
 
 Avant de créer votre premier environnement Human Resources, vous devez planifier soigneusement les besoins en environnement de votre projet. Un abonnement de base à l’application Human Resources comprend deux environnements : un environnement de production et un environnement sandbox. Selon la complexité de votre projet, vous devrez peut-être acheter des environnements sandbox supplémentaires pour prendre en charge les activités du projet. 
 
-Les considérations relatives aux environnements supplémentaires incluent, mais sans s’y limiter, les éléments suivants :
+Considérations relatives aux environnements supplémentaires :
 
 - **Migration de données** : Vous devrez peut-être envisager un environnement supplémentaire pour les activités de migration de données afin de permettre à votre environnement sandbox d’être utilisé à des fins de test tout au long du projet. Le fait de disposer d’un environnement supplémentaire permet aux activités de migration de données de se poursuivre tandis que les activités de test et de configuration se produisent simultanément dans un environnement différent.
 - **Intégration** : Vous devrez peut-être envisager un environnement supplémentaire pour configurer et tester les intégrations. Cela peut inclure des intégrations natives telles que les intégrations Ceridian Dayforce LinkedIn Talent Hub, ou des intégrations personnalisées telles que celles pour la paie, les systèmes de suivi des candidatures ou les régimes et les fournisseurs de prestations.
@@ -50,10 +56,11 @@ Les considérations relatives aux environnements supplémentaires incluent, mais
 - **Projet en plusieurs phases** : Vous pouvez avoir besoin d’un environnement supplémentaire pour prendre en charge la configuration, la migration des données, les tests ou d’autres activités dans une phase de projet qui est planifiée après la mise en service initiale du projet.
 
  > [!IMPORTANT]
- > Nous vous recommandons d’utiliser votre environnement de production tout au long de votre projet comme environnement de configuration GOLD. Ceci est important, car vous ne pouvez pas copier un environnement sandbox dans un environnement de production. Par conséquent, lors de la mise en service, votre environnement GOLD est votre environnement de production et c’est là que vous allez effectuer vos activités de basculement.</br></br>
- > Nous vous recommandons d’utiliser votre environnement sandbox ou un autre environnement pour effectuer une simulation de basculement avant votre mise en service. Vous pouvez le faire en actualisant l’environnement de production avec votre configuration GOLD dans votre environnement sandbox.</br></br>
- > Nous vous recommandons de conserver une liste de contrôle de basculement détaillée qui inclut chacun des packages de données requis pour migrer les données finales dans l’environnement de production lors de la mise en service.</br></br>
- > Nous recommandons aussi d’utiliser votre environnement sandbox tout au long de votre projet comme environnement de configuration TEST. Si vous avez besoin d’environnements supplémentaires, votre organisation peut les acheter moyennant un coût supplémentaire.</br></br>
+ > En tenant compte de votre environnement, nous vous recommandons ce qui suit :
+ > - Utilisez votre environnement de production tout au long de votre projet comme environnement de configuration GOLD. Ceci est important, car vous ne pouvez pas copier un environnement sandbox dans un environnement de production. Par conséquent, lors de la mise en service, votre environnement GOLD est votre environnement de production et c’est là que vous allez effectuer vos activités de basculement.</br></br>
+ > - Utilisez votre environnement de bac à sable ou un autre environnement pour effectuer une simulation de basculement avant votre mise en service. Vous pouvez le faire en actualisant l’environnement de production avec votre configuration GOLD dans votre environnement sandbox.</br></br>
+ > - Conservez une liste de contrôle de basculement détaillée qui inclut chacun des packages de données requis pour migrer les données finales dans l’environnement de production lors de la mise en service.</br></br>
+ > - Utilisez votre environnement de bac à sable tout au long de votre projet comme environnement TEST. Si vous avez besoin d’environnements supplémentaires, votre organisation peut les acheter moyennant un coût supplémentaire.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Créer un projet LCS
 
@@ -86,7 +93,7 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
     > Le type d’instance Human Resources ne peut plus être modifié une fois défini. Vérifiez que le type d’instance correct est sélectionné avant de continuer.</br></br>
     > Le type d’instance Human Resources est distinct du type d’instance de l’environnement Microsoft Power Apps, que vous définissez dans le Centre d’administration Power Apps.
     
-3. Sélectionnez l’option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l’environnement de test de Human Resources. Les données de démonstration sont utiles pour les environnements de démonstration ou de formation à long terme, et ne doivent jamais être utilisées pour les environnements de production. Vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
+3. Sélectionnez l’option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même jeu de données de démonstration que celui utilisé dans l’environnement d’essai de Human Resources. Les données de démonstration sont utiles pour les environnements de démonstration ou de formation à long terme, et ne doivent jamais être utilisées pour les environnements de production. Vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
 
 4. Human Resources est toujours mis en service dans un environnement Microsoft Power Apps pour permettre l’intégration et l’extensibilité des applications Power Apps. Lisez la section « Sélectionnant d’un environnement Power Apps » de cet article avant de continuer. Si vous n’avez pas déjà un environnement Power Apps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d’administration de Power Apps. Puis suivez les étapes pour [Créer un environnement Power Apps](/powerapps/administrator/create-environment).
 
@@ -115,7 +122,7 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 
 4. Des stratégies d’intégration de données et de test doivent être envisagées, par exemple : bac à sable (Sandbox), UAT ou Production. Prenez en compte avec précaution les implications de votre déploiement, car il sera difficile de modifier l’environnement Human Resources mappé à un environnement Power Apps par la suite.
 
-5. Vous ne pouvez pas utiliser les environnements Power Apps suivants pour Human Resources. Ils sont filtrés à partir de la liste de sélection dans LCS :
+5. Les environnements Power Apps suivants ne peuvent pas être utilisés pour Human Resources. Ils sont filtrés à partir de la liste de sélection dans LCS :
  
     - **Environnements Power Apps par défaut** – Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production lors des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
    
@@ -147,7 +154,7 @@ Les données de l’environnement Human Resources seront toujours contenues dans
 
 ## <a name="grant-access-to-the-environment"></a>Autoriser l’accès à l’environnement
 
-Par défaut, l’administrateur global ayant créé l’environnement y a accès. Vous devez explicitement autoriser l’accès à d’autres utilisateurs d’application. Vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans l’environnement Human Resources. L’administrateur global qui a déployé Human Resources doit également lancer Attract et Onboard pour terminer l’initialisation et activer l’accès pour les autres utilisateurs. Sinon, les autres utilisateurs ne pourront pas accéder à Attract et Onboard et recevront des erreurs de violation de l’accès. Pour plus d’informations, voir [Création de nouveaux utilisateurs](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Par défaut, l’administrateur global ayant créé l’environnement y a accès. Vous devez explicitement autoriser l’accès à d’autres utilisateurs d’application. Vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans l’environnement Human Resources. Pour plus d’informations, voir [Création de nouveaux utilisateurs](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

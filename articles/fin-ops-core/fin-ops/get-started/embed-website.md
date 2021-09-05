@@ -2,7 +2,7 @@
 title: Incorporer des applications tierces
 description: Cette rubrique explique comment incorporer des applications tierces pour augmenter la fonctionnalité du produit.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737797"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345408"
 ---
 # <a name="embed-third-party-apps"></a>Incorporer des applications tierces
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-De nombreux clients utilisent une gamme d'applications pour gérer leur entreprise. Certaines de ces applications sont des applications Web tierces qui fonctionnent conjointement aux applications Finance and Operations. Pour offrir une expérience utilisateur plus transparente, vous pouvez utiliser la fonctionnalité **Applications pleine page (Version préliminaire)** pour intégrer ces applications tierces directement dans vos applications Finance and Operations (à condition que les applications tierces soient configurées pour être incorporées). De cette manière, les utilisateurs peuvent accéder aux sites Web et aux applications dont ils ont besoin sans avoir à changer d'onglet ou de fenêtre.
+De nombreux clients utilisent une gamme d'applications pour gérer leur entreprise. Certaines de ces applications sont des applications Web tierces qui fonctionnent conjointement aux applications Finance and Operations. Pour offrir une expérience utilisateur plus transparente, vous pouvez utiliser la fonctionnalité **Applications pleine page** pour intégrer ces applications tierces directement dans vos applications Finance and Operations (à condition que les applications tierces soient configurées pour être incorporées). De cette manière, les utilisateurs peuvent accéder aux sites Web et aux applications dont ils ont besoin sans avoir à changer d'onglet ou de fenêtre.
 
-Avant de pouvoir intégrer des applications tierces dans le produit, vous devez activer la fonctionnalité **Applications pleine page (Version préliminaire)** dans la gestion des fonctionnalités. Vous pouvez ensuite utiliser l'une des méthodes suivantes pour intégrer une application ou un site Web tiers. Ces méthodes sont analogues aux méthodes utilisées pour incorporer des applications de canevas à partir de Microsoft Power Apps dans les applications Finance and Operations.
+Avant de pouvoir intégrer des applications tierces dans le produit, vous devez activer la fonctionnalité **Applications pleine page** dans la gestion des fonctionnalités. Vous pouvez ensuite utiliser l'une des méthodes suivantes pour intégrer une application ou un site Web tiers. Ces méthodes sont analogues aux méthodes utilisées pour incorporer des applications de canevas à partir de Microsoft Power Apps dans les applications Finance and Operations.
 
 - Incorporez l'application ou le site Web sur une page existante en tant que nouvelle page d'onglet (section d'onglet pivotant, de raccourci, de panneau ou d'espace de travail).
 - Créez une nouvelle expérience pleine page pour l'application ou le site Web à partir du tableau de bord.
@@ -64,7 +64,7 @@ Utilisez cette procédure si vous souhaitez ajouter une page existante au systè
 Utilisez cette procédure si l'application que vous souhaitez intégrer n'est pas liée à une page existante, ou si vous souhaitez simplement une expérience pleine page pour l'application dans l'application Finance and Operations.
 
 1. Ouvrez le tableau de bord.
-2. Sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) la page, sélectionnez **Personnaliser**, puis sélectionnez **Ajouter une page**.
+2. Sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) le tableau de bord, sélectionnez **Personnaliser**, puis sélectionnez **Ajouter une page**.
 3. Dans le volet **Ajouter une page**, sélectionnez **Site Web**.
 4. Configurez l’application incorporée :
 
@@ -76,15 +76,15 @@ Utilisez cette procédure si l'application que vous souhaitez intégrer n'est pa
     > - L'application ou le site Web doit être configuré pour être intégré.
 
 5. Sélectionnez **Sauvegarder** pour ajouter l'application au tableau de bord en tant que nouvelle mosaïque.
-6. Sélectionnez la nouvelle mosaïque sur le tableau de bord et confirmez que l'application apparaît comme prévu. Si l'application n'est pas rendue, consultez la section [Dépannage](#troubleshooting) plus loin dans cette rubrique.
+6. Sélectionnez la nouvelle mosaïque sur le tableau de bord et confirmez que l'application apparaît comme prévu. Si l’application n’est pas rendue, consultez la section [Résolution des problèmes](#troubleshooting) ultérieurement dans cette rubrique.
 
 ## <a name="sharing-embedded-apps"></a>Partage d’applications incorporées
 
 Après avoir intégré une application à l'aide de l'une des méthodes décrites dans les sections précédentes, vous souhaiterez peut-être partager la vue avec d'autres utilisateurs du système. Pour partager une application incorporée, utilisez l'une des méthodes suivantes :
 
-- **Publier la vue (recommandé) :** Si l'application incorporée a été enregistrée dans une vue, la méthode recommandée et préférée pour la partager consiste à publier la vue auprès des utilisateurs disposant des rôles de sécurité appropriés. Ainsi, tous les utilisateurs disposant des rôles de sécurité ciblés par la vue publiée verront l’application dans les applications Finance and Operations. Pour plus d'informations sur la publication d'une vue, voir [Publier des vues](saved-views.md#publishing-views).
+- **Publier la vue (recommandé) :** Si l’application incorporée a été enregistrée dans une vue, la méthode recommandée et préférée pour la partager consiste à publier la vue auprès des utilisateurs disposant des rôles de sécurité appropriés dans les entités juridiques ciblées. Dans ce cas, seuls les utilisateurs souhaités voient l’application intégrée sur cette page. Pour plus d'informations sur la publication d'une vue, voir [Publier des vues](saved-views.md#publishing-views).
 
-    Vous pouvez également publier une application qui a été incorporée en tant qu'expérience pleine page à partir du tableau de bord. Sur le tableau de bord, sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) la mosaïque associée à l'application, sélectionnez **Personnaliser**, puis sélectionnez **Publier la page**. Actuellement, vous pouvez publier uniquement vers les rôles de sécurité. Cependant, la possibilité de publier vers des entités juridiques sera ajoutée avant que la fonctionnalité ne devienne généralement disponible.
+    Vous pouvez également publier une application qui a été incorporée en tant qu'expérience pleine page à partir du tableau de bord. Sur le tableau de bord, sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) la mosaïque associée à l'application, sélectionnez **Personnaliser**, puis sélectionnez **Publier la page**. Une expérience qui ressemble à l’expérience *Publier des vues* est affichée et vous pouvez sélectionner les rôles de sécurité sur lesquels publier. Dans la mise à jour 10.0.21 ou ultérieure, si la fonction **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez également publier l’application sur les entités juridiques souhaitées.
 
 - **Copiez la personnalisation :** Pour les pages qui ne prennent pas en charge les vues (par exemple, les boîtes de dialogue ou les espaces de travail), ou pour l'expérience d'application pleine page, vous pouvez copier la personnalisation vers les utilisateurs appropriés. Pour plus d’informations, consultez [Partage des personnalisations](personalize-user-experience.md#sharing-personalizations).
 

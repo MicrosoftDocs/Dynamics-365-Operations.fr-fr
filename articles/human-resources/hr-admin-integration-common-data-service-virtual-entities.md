@@ -1,8 +1,8 @@
 ---
-title: Configurer des tables virtuelles Dataverse
-description: Cette rubrique montre comment configurer des tables virtuelles pour Dynamics 365 Human Resources. Générez et mettez à jour des tables virtuelles existantes et analysez les tables générées et disponibles.
-author: andreabichsel
-ms.date: 01/25/2021
+title: Configurer les tables virtuelles de Dataverse
+description: Cette rubrique montre comment configurer, générer, mettre à jour les tables virtuelles existantes et analyser les tables générées et disponibles pour Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721605"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414662"
 ---
-# <a name="configure-dataverse-virtual-tables"></a>Configurer des tables virtuelles Dataverse
+# <a name="configure-dataverse-virtual-tables"></a>Configurer les tables virtuelles de Dataverse
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -140,6 +140,9 @@ L’étape suivante consiste à configurer la source de données de table virtue
 
      >[!NOTE]
      >Assurez-vous d’inclure le caractère "**/**" à la fin de l’URL pour éviter de recevoir une erreur.
+
+     >[!NOTE]
+     >L'URL cible détermine l'environnement Human Resources vers lequel les tables virtuelles pointent pour les données. Si vous créez un environnement de bac à sable en créant une copie de votre environnement de production, mettez à jour cette valeur avec l'URL de l'espace de noms de votre nouvel environnement de bac à sable. Cela garantit que les tables virtuelles sont connectées aux données de l'environnement de bac à sable plutôt que de continuer à pointer vers l'environnement de production.
 
    - **ID du locataire** : ID du locataire Azure Active Directory (Azure AD).
 

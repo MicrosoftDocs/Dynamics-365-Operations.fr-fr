@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720524"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344056"
 ---
 # <a name="one-voucher"></a>N° document
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>Qu’est-ce qu’un N° document ?
@@ -81,7 +82,7 @@ La dépréciation de la fonctionnalité N° document est un changement important
 
 Les scénarios suivants peuvent être réalisés uniquement à l’aide de la fonctionnalité N° document. Si votre organisation a l’un de ces scénarios, vous devez activer plusieurs transactions à entrer dans un justificatif en modifiant la définition du paramètre **Autoriser plusieurs transactions dans un justificatif** sur la page **Paramètres de comptabilité**. Ces écarts fonctionnels seront comblés par le biais d’autres fonctionnalités dans les versions ultérieures.
 
-> [!Note]
+> [!NOTE]
 > [Pour chacun des scénarios suivants, le champ **Autoriser plusieurs transactions dans un justificatif** doit être défini sur Oui dans l’organisateur **Général** sur la page **Paramètres de comptabilité**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Valider le résumé des paiements fournisseur ou client sur un compte bancaire
@@ -115,15 +116,7 @@ Dans ce scénario, les clients indiqués dans le N° document unique sont les m�
 Si la tâche périodique Remboursement est exécutée dans le module Comptabilité client, elle crée une transaction pour déplacer le solde d’un client à un fournisseur. Pour ce scénario, N° document doit être utilisé pour rembourser le client.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Maintenance des immobilisations : rattraper l’amortissement, fractionner l’immobilisation, calculer l’amortissement sur la cession
-Les transactions d’immobilisation suivantes créent également plusieurs transactions dans un justificatif unique :
-
-- Une acquisition supplémentaire est effectuée sur une immobilisation et l’amortissement de « rattrapage » est calculé.
-- Une immobilisation est fractionnée.
-- Un paramètre pour calculer l’amortissement sur la cession est activé et l’immobilisation est ensuite cédée.
-- Une date de mise en service d’immobilisation est antérieure à la date d’acquisition. Par conséquent, un ajustement d’amortissement est validé.
-
-> [!Note]
-> Lorsque vous entrez des transactions, assurez-vous que toutes les transactions s’appliquent à la même immobilisation. Le justificatif n’est pas validé s’il contient plus d’une immobilisation, même si le champ **Nouveau justificatif** est défini sur Un seul N° document sur la page **Noms de journal** dans la comptabilité. Si vous incluez plusieurs immobilisations dans le justificatif, le message **Il ne peut y avoir qu’une transaction d’immobilisation par justificatif** s’affiche et vous ne pouvez pas publier le justificatif.  
+Avec la version 10.0.21 et les versions ultérieures, les transactions d'immobilisations pour l'amortissement de rattrapage, le fractionnement d'un actif et le calcul de l'amortissement pour la cession d'un actif seront créées à l'aide de différents numéros de justificatif.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Lettres de change et billets à ordre
 Les lettres de change et les billets à ordre nécessitent qu’un N° document soit utilisé, car les transactions déplacent le solde client ou fournisseur d’un compte général Comptabilité client/Comptabilité fournisseur à un autre, selon l’état du paiement.

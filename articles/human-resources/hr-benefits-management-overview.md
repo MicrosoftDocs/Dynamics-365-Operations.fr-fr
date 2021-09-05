@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble de la gestion des avantages
-description: Présentation de la fonction de gestion des avantages dans Dynamics 365 Human Resources. Offrez à vos employés des options d’avantages étendues avec une expérience en ligne facile à utiliser.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de gestion des avantages dans Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719141"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417390"
 ---
-# <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages sociaux
+# <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pour rester compétitif, vous devez offrir un riche ensemble d’avantages pour attirer et retenir vos meilleurs employés. En plus des avantages standard comme la couverture médicale et dentaire, vous voudrez peut-être également offrir des services étendus comme l’aide à l’adoption, les programmes de loisirs et les allocations vestimentaires. La fonction de gestion des avantages dans Microsoft Dynamics 365 Human Resources vous offre une solution flexible qui prend en charge une grande variété d’options d’avantages. Human resources inclut également une expérience utilisateur facile à utiliser qui met en valeur vos offres.
+Pour rester compétitif, vous devez offrir un riche ensemble d’avantages pour attirer et retenir vos meilleurs employés. En plus des avantages standard comme la couverture médicale et dentaire, vous voudrez peut-être également offrir des services étendus comme l’aide à l’adoption, les programmes de loisirs et les allocations vestimentaires. La fonction de gestion des avantages dans Microsoft Dynamics 365 Human Resources offre une solution flexible qui prend en charge une grande variété d’options d’avantages. Human resources inclut également une expérience utilisateur facile à utiliser qui met en valeur vos offres.
 
 - Les régimes d’avantages sociaux améliorés vous permettent de créer et de gérer des régimes d’avantages sociaux uniques et de prendre en charge des tableaux de taux complexes et des niveaux imbriqués. Vous pouvez facilement créer des programmes d’avantages, des offres groupées et des règles d’inscription automatique pour une expérience utilisateur plus facile.
 - Les programmes de crédits flexibles vous permettent de répartir au prorata la retraite et d’autres événements de vie.
@@ -37,13 +37,13 @@ Pour rester compétitif, vous devez offrir un riche ensemble d’avantages pour 
 Si vous souhaitez accéder aux données de démonstration, vous devrez redéployer votre environnement de bac à sable.
 
 > [!NOTE]
-> Vous pouvez désormais personnaliser les formulaires de gestion des avantages sociaux. Vous pouvez désormais ajouter des champs personnalisés liés aux taux de couverture au formulaire **Option de couverture** pour les régimes d’avantages sociaux. Pour plus d’informations sur l'utilisation des champs personnalisés, voir [Champs personnalisés](hr-developer-custom-fields.md).
+> Vous pouvez désormais personnaliser les pages de gestion des avantages sociaux. Des champs personnalisés liés aux taux de couverture peuvent être ajoutés à la page **Option de couverture** pour les régimes d’avantages sociaux. Pour plus d’informations sur l’utilisation des champs personnalisés, voir [Champs personnalisés](hr-developer-custom-fields.md).
 >
 > ![Champs personnalisés de gestion des avantages sociaux](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Activation de la gestion des avantages sociaux
 
-Cette rubrique décrit comment activer les fonctionnalités dans Human Resources. Il indique également les fonctionnalités existantes dans Human Resources qui sont remplacées par la Gestion des avantages ou les fonctionnalités qui sont désactivées après l'activation de la Gestion des avantages.
+Cette rubrique décrit comment activer les fonctionnalités dans Human Resources. Il explique également les fonctionnalités existantes dans Human Resources qui sont remplacées par la Gestion des avantages et les fonctionnalités qui sont désactivées après l’activation de la Gestion des avantages.
 
 > [!IMPORTANT]
 > Après avoir activé la gestion des avantages sociaux dans un environnement de type **Production**, vous ne pouvez pas le désactiver. Nous vous recommandons d’activer et de tester la gestion des avantages dans un environnement de type **Bac à sable** avant de l’activer dans un environnement de type **Production**. Il existe des différences importantes entre l’ancienne fonctionnalité Avantage et la nouvelle fonctionnalité de gestion des avantages qui nécessitent une configuration supplémentaire et doivent être testées avant d’être mises en production.

@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble du type de régime
-description: Un type de plan dans Microsoft Dynamics 365 Human Resources est un regroupement de haut niveau de types spécifiques d’avantages. Chaque type de plan possède un code de type de plan qui détermine les règles du type de plan.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Un type de plan dans Microsoft Dynamics 365 Human Resources est un regroupement de haut niveau de types spécifiques d’avantages.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423342"
 ---
-# <a name="plan-type-overview"></a>Vue d’ensemble du type de régime
+# <a name="plan-type-overview"></a>Vue d’ensemble du type de plan
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,10 +32,10 @@ Chaque type de plan indique si un employé peut souscrire à un plan de son type
 
 Si un type de plan implique des contacts, le type de plan indique si les contacts sont des bénéficiaires ou des personnes à charge. Par exemple, un type de plan d’assurance vie de base aurait des bénéficiaires, tandis qu’un type de plan d’assurance maladie de base aurait des personnes à charge. Dans certains cas, un plan peut ne pas avoir de contacts personnels. Par exemple, un compte de dépenses flexible ou une allocation de stationnement.
 
-Un type de plan peut définir des options de couverture. Les options de couverture sont définies dans le formulaire d’option de couverture. Une option de couverture peut spécifier le montant de l’avantage ou les contacts éligibles pour le type de plan. Par exemple, si le type de contact est Bénéficiaire, l’option de couverture doit définir les modalités de ce que le bénéficiaire est en droit de recevoir lorsque l’avantage est utilisé. Si le type de contact est Personne à charge, l’option de couverture doit définir la relation entre la personne à charge et l’employé. 
+Un type de plan peut définir des options de couverture. Les options de couverture sont définies dans la page **Option de couverture**. Une option de couverture peut spécifier le montant de l’avantage ou les contacts éligibles pour le type de plan. Par exemple, si le type de contact est Bénéficiaire, l’option de couverture doit définir les modalités de ce que le bénéficiaire est en droit de recevoir lorsque l’avantage est utilisé. Si le type de contact est Personne à charge, l’option de couverture doit définir la relation entre la personne à charge et l’employé. 
 
 > [!IMPORTANT]
-> Le formulaire comprend des données clés qui affectent les options disponibles lorsqu'un nouveau régime d'avantages est créé :
+> La page comprend des données clés qui affectent les options disponibles lorsqu’un nouveau régime d’avantages est créé :
 >
 > - **Code type de régime** : ce champ affecte ce qui est affiché sur l'onglet **Configuration** lors de la configuration de l'avantage réel.  
 > - **Inscription simultanée** : ce champ détermine si plusieurs inscriptions sont autorisées. (Pour un plan médical, ce champ est généralement défini sur **Une inscription**.)

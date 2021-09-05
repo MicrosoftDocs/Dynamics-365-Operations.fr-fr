@@ -2,7 +2,7 @@
 title: Configurer un locataire B2C dans Commerce
 description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772250"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344496"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux
  
  > [!NOTE]
  > Les environnements d’évaluation de Commerce sont fournis avec un locataire Azure AD B2C à des fins de démonstration. Il n’est pas nécessaire que vous chargiez votre propre locataire Azure AD B2C en suivant les étapes ci-dessous pour les environnements d’évaluation.
+
+> [!TIP]
+> Vous pouvez protéger davantage les utilisateurs de votre site et améliorer la sécurité de vos locataire B2C Azure AD avec la protection d'identité et l'accès conditionnel Azure AD. Pour passer en revue les capacités disponibles pour les locataires Azure AD B2C Premium P1 et Premium P2, voir [Protection de l'identité et accès conditionnel pour Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Créer ou générer un lien vers un locataire AAD B2C existant dans le portail Azure
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720082"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386097"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications dans l’application mobile Warehouse Management
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720082"
 
 Cette rubrique répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Version 2.0.9.0
+
+Cette version résout un problème où l'application pouvait cesser de répondre si les utilisateurs remontaient d'une page depuis le haut d'une liste.
+
+## <a name="version-2080"></a>Version 2.0.8.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Ajout de la prise en charge pour la [fonctionnalité d'instructions d'étape](mobile-app-titles-instructions.md) qui a été introduite dans Supply Chain Management version 10.0.21.
+- Ajout d'une animation de conseils pour montrer aux utilisateurs qu'ils peuvent fermer les superpositions en utilisant le balayage vers le bas.
+- Ajout de la prise en charge des touches de fonction sur les listes d'actions et les menus. Les utilisateurs peuvent maintenir enfoncée n'importe quelle touche de fonction pendant trois secondes pour obtenir une liste des commandes disponibles.
+- Correction d'un problème qui entraînait l'affichage du message d'erreur suivant sur certains appareils : « Impossible de trouver une vue appropriée pour la taille spécifiée ».
+- Correction d'un problème où le mode plein écran ne fonctionnait pas toujours avec le clavier à l'écran.
+- Correction d'un problème où le balayage de page ne fonctionnait pas sur les appareils Windows.
+- Divers problèmes corrigés qui empêchaient le système de répondre.
+
+## <a name="version-2070"></a>Version 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nouvelles fonctionnalités, correctifs et améliorations dans la version 2.0.7.0
 

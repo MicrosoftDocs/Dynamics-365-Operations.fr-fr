@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730475"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345195"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Mise en route de la Facturation électronique pour le Brésil 
 
@@ -55,7 +55,7 @@ Effectuez ces étapes avant de déployer la configuration de l’application sur
 
 Cette section complète la section **Configuration du paramétrage de l’application spécifique au pays** de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
-1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette *Facturation électronique*.
+1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
 2. Sur la page **Fonctionnalités de Facturation électronique**, vérifiez que la fonctionnalité de Facturation électronique **NF-e (BR) pour le Brésil** est sélectionnée.
 3. Sur l’onglet **Versions**, vérifiez que la version **Brouillon** est sélectionnée.
 4. Sur l’onglet **Paramétrages**, sélectionnez **Paramétrage de l’application** et, dans le champ **Application connectée**, sélectionnez l’application sur laquelle vous souhaitez déployer.

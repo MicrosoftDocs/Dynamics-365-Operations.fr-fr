@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714328"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384583"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gérer les modifications apportées aux produits d’ingénierie
 
@@ -113,16 +113,16 @@ Pour examiner les transactions affectées, bloquer les transactions sélectionn�
     - **Afficher la transaction** : ouvrez l’enregistrement de transaction sélectionné.
     - **Bloquer la commande** : ce bouton n’est disponible que dans l’onglet **Commandes client**. Sélectionnez-le pour bloquer la commande client sélectionnée.
     - **Bloquer la ligne** : ce bouton n’est disponible que dans l’onglet **Commandes fournisseur**. Sélectionnez-le pour bloquer la ligne de commande fournisseur sélectionnée.
-    - **Notifier le responsable** : ce bouton n’est disponible que dans l’onglet **Commandes client**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le responsable de la commande client sélectionnée.
-    - **Notifier l’auteur de la commande** : ce bouton n’est disponible que dans l’onglet **Commandes fournisseur**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme l’auteur de la commande fournisseur sélectionnée.
-    - **Notifier la production** : ce bouton n’est disponible que dans l’onglet **Ordres de fabrication**. Contrairement aux commandes client et aux commandes fournisseur, aucun utilisateur n’est défini comme responsable des ordres de fabrication de bout en bout. À la place, différents superviseurs ou planificateurs s’approprient généralement un site spécifique ou une partie spécifique de la production (par exemple, pour des ressources ou des groupes de ressources spécifiques). Par conséquent, lorsque vous sélectionnez ce bouton, tous les utilisateurs responsables d’une ressource associée à l’ordre de fabrication sélectionné reçoivent une notification de modification.
-    - **Notifier le préparateur** : ce bouton n’est disponible que dans l’onglet **Demande d’achat**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le préparateur de la demande d’achat sélectionnée.
-    - **Notifier le responsable des ventes** : ce bouton n’est disponible que dans l’onglet **Devis**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le responsable du devis sélectionné.
+    - **Notifier le responsable** : ce bouton n’est disponible que dans l’onglet **Commandes client**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le responsable de la commande client sélectionnée. Pour plus d’informations sur qui peut voir les notifications et comment, consultez [Examiner et traiter les notifications de changement pour les transactions](#review-notifications).
+    - **Notifier l’auteur de la commande** : ce bouton n’est disponible que dans l’onglet **Commandes fournisseur**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme l’auteur de la commande fournisseur sélectionnée. Pour plus d’informations sur qui peut voir les notifications et comment, consultez [Examiner et traiter les notifications de changement pour les transactions](#review-notifications).
+    - **Notifier la production** : ce bouton n’est disponible que dans l’onglet **Ordres de fabrication**. Contrairement aux commandes client et aux commandes fournisseur, aucun utilisateur n’est défini comme responsable des ordres de fabrication de bout en bout. À la place, différents superviseurs ou planificateurs s’approprient généralement un site spécifique ou une partie spécifique de la production (par exemple, pour des ressources ou des groupes de ressources spécifiques). Par conséquent, lorsque vous sélectionnez ce bouton, tous les utilisateurs responsables d’une ressource associée à l’ordre de fabrication sélectionné reçoivent une notification de modification. Pour plus d’informations sur qui peut voir les notifications et comment, consultez [Examiner et traiter les notifications de changement pour les transactions](#review-notifications).
+    - **Notifier le préparateur** : ce bouton n’est disponible que dans l’onglet **Demande d’achat**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le préparateur de la demande d’achat sélectionnée. Pour plus d’informations sur qui peut voir les notifications et comment, consultez [Examiner et traiter les notifications de changement pour les transactions](#review-notifications).
+    - **Notifier le responsable des ventes** : ce bouton n’est disponible que dans l’onglet **Devis**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le responsable du devis sélectionné. Pour plus d’informations sur qui peut voir les notifications et comment, consultez [Examiner et traiter les notifications de changement pour les transactions](#review-notifications).
     - **Mettre au rebut** : ce bouton n’est disponible que dans l’onglet **Inventaire**. Sélectionnez-le pour mettre au rebut l’inventaire sélectionné.
     - **Afficher l’historique** : ouvrez un historique des actions effectuées sur la transaction sélectionnée en utilisant la boîte de dialogue **Impact commercial sur les transactions ouvertes**. (Par exemple, l’historique indique si des notifications ont été envoyées ou si des transactions ont été bloquées.) 
     - **Afficher toutes les transactions** : ouvrez la liste complète de toutes les transactions, et pas seulement les transactions ouvertes.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Examiner et traiter les notifications de modification pour les transactions
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Examiner et traiter les notifications de modification pour les transactions
 
 Vous pouvez lire et traiter les notifications de modification que vous recevez des manières suivantes :
 

@@ -1,8 +1,8 @@
 ---
 title: Configurer les déductions
 description: Utiliser les déductions dans Microsoft Dynamics 365 Human Resources pour déterminer combien, le cas échéant, déduire du salaire d’un employé pour chaque avantage.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 914f3348982cb10874ab585badb8bbba2885ea6970fda7cbe1c73e56c8d447a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a865f109379064ae8829532af9253238e203c322
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423495"
 ---
 # <a name="configure-deductions"></a>Configurer les déductions
 
@@ -45,7 +45,7 @@ Utiliser les déductions dans Microsoft Dynamics 365 Human Resources pour déter
    | **En-tête du montant** | Code en-tête du système de paie que ce montant de déduction utilisera pour la partie employé de la déduction lors du traitement des avantages dans la paie. Ceci est normalement utilisé lorsque vous utilisez un fournisseur de paie tiers. |
    | **Suppression possible** | Spécifie si une valeur exportée de Dynamics 365 for Finance and Operations peut entraîner la suppression de la valeur dans le système de paie. |
    | **Colonnes associées** | Spécifie s’il faut exporter l’en-tête et le montant des déductions dans les colonnes adjacentes associées vers le système de paie. |
-   | **Modifier la date d’effet** | Date à laquelle le changement de déduction des avantages prendra effet. À cette date, le système modifiera automatiquement la déduction de l’avantage et mettra à jour tous les plans d’avantage associés à cette déduction, tant que vous exécutez le traitement de **Mise à jour du changement de déduction**. |
+   | **Modifier la date d’effet** | Date à laquelle le changement de déduction des avantages prendra effet. À cette date, le changement de déduction des avantages et tous les plans d’avantage associés à cette déduction sont mis à jour, tant que vous exécutez le traitement **Mise à jour du changement de déduction**. |
    | **Modification de la déduction terminée** | La case à cocher **Modification de la déduction terminé** sera automatiquement cochée une fois que les modifications de déduction d’avantage auront été effectuées par le traitement de mise à jour de la modification de déduction. |
    
 4. Pour effectuer le suivi et conserver les modifications apportées à la configuration du taux des avantages, sélectionnez **Actions**, puis sélectionnez **Tenir les versions à jour**.

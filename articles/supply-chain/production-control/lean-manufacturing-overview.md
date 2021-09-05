@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da812bcc7d31db25abc0ed7e6c1a7f9e5433f80bfdfc5421e4e18d6b8af68884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738913"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343916"
 ---
 # <a name="lean-manufacturing-overview"></a>Vue d’ensemble du Lean manufacturing
 
@@ -66,7 +66,7 @@ Le lean manufacturing fournit une visibilité vis-à-vis du statut actuel des ac
 La liste suivante décrit les tableaux kanban spécialisés :
 -   Planification des tâches de kanban : fournit une vue d’ensemble des tâches de kanban. Le tableau affiche les tâches de kanban et leur statut pour une ou plusieurs cellules de travail. Les tâches sont répertoriées selon les périodes de planification (jours ou semaines) définies dans le modèle de flux de production. Le tableau affiche également la consommation de capacité pour chaque période de planification, afin de pouvoir surveiller la charge prévue. Vous pouvez modifier le statut des tâches de kanban, replanifier des opérations kanban dans différentes périodes de planification, et effectuer d’autres tâches.
 -   Tableau kanban pour les tâches de transfert – Ce tableau fournit une vue d’ensemble des tâches de transfert en cours. Vous pouvez mettre à jour et enregistrer les listes de prélèvements, débuter et terminer des tâches de transfert, et effectuer d’autres tâches.
--   Tableau kanban pour les opérations de traitement – cette carte est conçue pour prendre en charge le flux de production normal et pour donner une vue d’ensemble de la situation actuelle dans une ou plusieurs cellules de travail. À partir de ce tableau, les kanbans peuvent être classés par ordre de priorité, prélevés ou fabriqués. Le tableau est également conçu pour prendre en charge la lecture des codes-barres pour la génération d’états de kanban.
+-   Tableau kanban pour les opérations de traitement – cette carte est conçue pour prendre en charge le flux de production normal et pour donner une vue d’ensemble de la situation actuelle dans une ou plusieurs cellules de travail. À partir de ce tableau, les kanbans peuvent être classés par ordre de priorité, prélevés ou fabriqués. Le tableau est également conçu pour prendre en charge la lecture de codes-barres pour la génération d’états de kanban.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Tâches de kanban et intégration avec les processus Supply Chain Management
 Les tâches de kanban sont totalement intégrées aux processus actuels pour les mouvements de stock dans Supply Chain Management.

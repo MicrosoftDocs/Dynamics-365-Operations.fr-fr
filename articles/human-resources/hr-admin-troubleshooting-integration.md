@@ -1,8 +1,8 @@
 ---
 title: Intégration avec Finance
-description: Cet article explique quelles données sont synchronisées dans le cadre d’une intégration de Human Resources et de Finance.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette rubrique explique quelles données sont synchronisées dans le cadre d’une intégration de Human Resources et de Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782142"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413374"
 ---
 # <a name="integration-with-finance-faq"></a>Intégration avec Finance
 
@@ -158,8 +158,7 @@ Veillez, lors de la création de vos connexions, à choisir Dynamics 365 Finance
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Lors de la synchronisation des emplois, j’obtiens les erreurs « CompanyInfo_FK doesn’t exist » ou « The value ’12/31/2154 11:59:59 pm » dans le champ « Date de fin de l’emploi » reste introuvable dans le tableau « Emploi » associé. Que dois-je faire ?
 
-Veillez à bien mettre en correspondance les entités juridiques appropriées. La synchronisation des entités juridiques ne fait pas partie du modèle par défaut. Aussi, il est prévu que chaque entité juridique présente dans Human Resources et Dataverse soit également présente dans Finance.
-En outre, veillez à sélectionner les bonnes entités juridiques pour le jeu de connexions associé.
+Veillez à bien mettre en correspondance les entités juridiques appropriées. La synchronisation des entités juridiques ne fait pas partie du modèle par défaut. Aussi, il est prévu que chaque entité juridique présente dans Human Resources et Dataverse soit également présente dans Finance. En outre, veillez à sélectionner les bonnes entités juridiques pour le jeu de connexions associé.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Après la configuration de mon projet, la mise en correspondance des champs pour Finance semble vide. Que dois-je faire ?
 

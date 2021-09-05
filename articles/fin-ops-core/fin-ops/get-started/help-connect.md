@@ -2,7 +2,7 @@
 title: Configurer l’expérience d’aide pour les applications Finance and Operations
 description: Cette rubrique fournit des informations sur les composants du système d’aide pour certaines applications Microsoft Dynamics 365.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714521"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343810"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurer l’expérience d’aide pour les applications Finance and Operations
 
@@ -54,7 +54,7 @@ Pour configurer des guides de tâche pour une solution, procédez comme suit sur
 > [!IMPORTANT]
 > La première fois que vous ouvrez l’onglet **Aide**, vous devez vous connecter à Lifecycle Services. Veillez à cliquer sur le lien au milieu de l’écran, attendez la connexion, fermez la boîte de dialogue, puis cliquez sur **OK** pour accéder à l’écran **Paramètres système**.
 >
-> [![Se connecter à LCS](./media/connect-to-lcs-crop-1024x365.png "Se connecter à LCS."](./media/connect-to-lcs-crop.png)
+> [![Se connecter à LCS](./media/connect-to-lcs-crop-1024x365.png "Connectez-vous à LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Sélectionnez le projet Lifecycle Services auquel se connecter.
 2. Sélectionnez les bibliothèques BPM (dans le projet sélectionné) à partir desquelles récupérer les enregistrements de tâche.

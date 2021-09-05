@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739308"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345226"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Joindre les codes de taxe TDS aux groupes de taxes TDS et définir la formule de calcul du TDS
 
@@ -55,7 +55,7 @@ Suivez ces étapes pour configurer un groupe de taxes TDS, y associer des codes 
     > [!NOTE]
     > Le champ **Base imposable** ne peut pas être défini sur **Hors montant brut** pour le code fiscal TDS dont l'ID de priorité est **1**.
 
-12. Le calcul TDS est basé sur la formule définie dans le champ **Expression de calcul** pour chaque code de taxe associé au groupe de taxe TDS. Sélectionnez le signe plus (**+**), signe moins (**-**), signe de multiplication (**\**_) ou le signe de division (_*/**) pour saisir l'expression de calcul du code de taxe TDS sélectionné dans le champ **Expression de calcul**.
+12. Le calcul TDS est basé sur la formule définie dans le champ **Expression de calcul** pour chaque code de taxe associé au groupe de taxe TDS. Sélectionnez le signe plus (+), signe moins (-), signe de multiplication (\*) ou le signe de division (/) pour saisir l’expression de calcul du code de taxe TDS sélectionné dans le champ **Expression de calcul**.
 
     > [!NOTE]
     > Aucune expression de calcul ne peut être définie pour le code TVA TDS dont l'ID de priorité est **1**.

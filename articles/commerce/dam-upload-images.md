@@ -2,7 +2,7 @@
 title: Importer des images
 description: Cette rubrique décrit comment charger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423253"
 ---
 # <a name="upload-images"></a>Importer des images
 
@@ -52,10 +52,17 @@ La convention de dénomination par défaut varie en fonction de la catégorie :
 - Les images de catégorie doivent être intitulées "**/Categories/\{CategoryName\}.png**"
 - Les images de client doivent être intitulées "**/Customers/\{CustomerNumber\}.jpg**"
 - Les images d’employé doivent être intitulées "**/Workers/\{WorkerNumber\}.jpg**"
-- Les images de produit doivent être intitulées "**/Products/\{ProductNumber\}_000_001.png**"
+- Les images de produit doivent être intitulées «  **/Products/\{ProductNumber\}\__000_001.png** »
     - 001 est la séquence de l’image et peut être 001, 002, 003, 004 ou 005
 - Les images de variante de produit doivent être intitulées «  **/Produits/\{NuméroProduit\} \^ \{Style\} \^ \{Taille\} \^ \{Couleur\} \^\_000_001.png** »
-    - Par exemple : 93039 \^ \^ 2 \^ Noir\^_000_001.png
+    - Par exemple : 93039 \^ &nbsp;\^ 2 \^ Noir \^\_000_001.png
+- Les images de variante de produit avec dimension de configuration doivent être intitulées «  **/Produits/\{NuméroProduit\} \^ \{Configuration\}\_000_001.png** »
+    - Par exemple : 93039 \^LB8017_000_001.png
+
+> [!NOTE]
+> Pour les images de variantes de produits, si la valeur de dimension est vide, il doit y avoir deux espaces entre les curseurs dans le nom de fichier.
+
+Les exemples ci-dessus utilisent la configuration par défaut. Le caractère de séparation et les dimensions sont configurables et la dénomination exacte requise peut varier d’un déploiement à l’autre. Une méthode pour identifier la convention de dénomination exacte requise consiste à utiliser la console de développement du navigateur pour inspecter les demandes d’image de variante de produit tout en modifiant les dimensions du produit sur la page de détails du produit (PDP) de la vitrine.
 
 ## <a name="upload-an-image"></a>Télécharger une image
 

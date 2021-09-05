@@ -4,24 +4,17 @@ description: Cette rubrique fournit des informations de résolution des problèm
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736372"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416979"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Résoudre les problèmes lors de la synchronisation initiale
 
@@ -46,7 +39,7 @@ Après avoir activé les modèles de mappage, le statut des cartes doit être **
 
 Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez d’exécuter le mappage et la synchronisation initiale :
 
-*(\[Bad Request\], Le serveur distant a renvoyé une erreur : (400) Bad Request.), l’exportation AX a rencontré une erreur*
+*(\[Bad Request\], Le serveur distant a renvoyé une erreur : (400) Bad Request.), l’exportation AX a rencontré une erreur.*
 
 Voici un exemple du message de l’intégralité du message d’erreur.
 
@@ -198,7 +191,7 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 
         ![Projet d’intégration de données pour mettre à jour CustomerAccount et ContactPersonId.](media/cust_selfref6.png)
 
-    2. Ajoutez les critères de l’entreprise dans le filtre du côté Dataverse, car seules les lignes correspondant aux critères de filtrage seront mis à jour dans l’application Finance and Operations. Pour ajouter un filtre, sélectionnez le bouton de filtre. Ensuite, dans la boîte de dialogue **Modifier la requête**, vous pouvez ajouter une requête de filtre telle que **\_msdyn\_company\_value eq ’\<guid\>’**. 
+    2. Ajoutez les critères de l’entreprise dans le filtre du côté Dataverse, car seules les lignes correspondant aux critères de filtrage seront mis à jour dans l’application Finance and Operations. Pour ajouter un filtre, sélectionnez le bouton de filtre. Ensuite, dans la boîte de dialogue **Modifier la requête**, vous pouvez ajouter une requête de filtre telle que **\_msdyn\_company\_value eq ’\<guid\>’**.
 
         > [REMARQUE] Si le bouton de filtre n’est pas présent, créez un ticket de support pour demander à l’équipe d’intégration de données d’activer la fonction de filtrage sur votre locataire.
 
@@ -210,5 +203,36 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
 
 8. Dans l’application Finance and Operations, réactivez le suivi des modifications pour la table **Clients V3**.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Échecs de synchronisation initiale sur les cartes avec plus de 10 champs de recherche
+
+Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez d’exécuter un échec de synchronisation initial sur les mises en correspondance **Clients V3 - Comptes**, **Commandes** ou toute carte avec plus de 10 champs de recherche :
+
+*CRMExport : exécution du package terminée. Erreur Description 5 tente d’obtenir des données de https://xxxxx//datasets/yyyyy/tables/accounts/items? $select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq ’id’)&$orderby=accountnumber asc failed.*
+
+En raison de la limitation de recherche sur la requête, la synchronisation initiale est un échec lorsque le mappage d’entité contient plus de 10 recherches. Pour plus d’informations, consultez [Récupérer les enregistrements de table liés à une requête](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Pour régler ce problème, procédez comme suit :
+
+1. Supprimez les champs de recherche facultatifs de la carte d’entité à double écriture afin que le nombre de recherches soit inférieur ou égal à 10.
+2. Enregistrez la carte et effectuez la synchronisation initiale.
+3. Lorsque la synchronisation initiale de la première étape est réussie, ajoutez les champs de recherche restants et supprimez les champs de recherche que vous avez synchronisés lors de la première étape. Veillez à ce que le nombre de champs de recherche soit inférieur ou égal à 10. Enregistrez la carte et exécutez la synchronisation initiale.
+4. Répétez ces étapes jusqu’à ce que tous les champs de recherche soient synchronisés.
+5. Ajoutez tous les champs de recherche à la carte, enregistrez la carte et exécutez la carte avec **Ignorer la synchronisation initiale**.
+
+Ce processus active la carte pour le mode de synchronisation en direct.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Problème connu lors de la synchronisation initiale des adresses postales et électroniques des parties
+
+Le message d’erreur suivant peut s’afficher lorsque vous essayez d’exécuter la synchronisation initiale des adresses postales et électroniques des parties :
+
+*Le numéro de partie est introuvable dans Dataverse.*
+
+Une plage est définie sur **DirPartyCDSEntity** dans les applications Finance and Operations qui filtrent les parties de type **Personne** et **Organisation**. En conséquence, une synchronisation initiale du mappage **Parties CDS - msdyn_parties** ne synchronisera pas les parties d’autres types, y compris **Entité juridique** et **Unité opérationnelle**. Lorsque la synchronisation initiale s’exécute pour **Adresses postales des parties CDS (msdyn_partypostaladdresses)** ou **Contacts de partie V3 (msdyn_partyelectronicaddresses)**, il se peut que vous receviez l’erreur.
+
+Nous travaillons sur un correctif pour supprimer la plage de type partie sur l’entité Finance and Operations afin que les parties de tous types puissent se synchroniser avec Dataverse avec succès.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Y a-t-il des problèmes de performances lors de l’exécution de la synchronisation initiale pour les données des clients ou des contacts ?
+
+Si vous avez exécuté la synchronisation initiale pour les données **Client** et si les cartes **Client** sont en cours d’exécution, et si vous exécutez ensuite la synchronisation initiale pour les données **Contacts**, il peut y avoir des problèmes de performances lors des insertions et des mises à jour des tables **LogisticsPostalAddress** et **LogisticsElectronicAddress** pour les adresses **Contact**. Les mêmes tables d’adresses postales et électroniques globales sont suivies pour **CustCustomerV3Entity** et **VendVendorV2Entity** et la double écriture essaie de créer plus de requêtes pour écrire des données de l’autre côté. Si vous avez déjà exécuté la synchronisation initiale pour **Client**, puis arrêtez la carte correspondante lors de l’exécution de la synchronisation initiale pour les données **Contacts**. Faites de même pour les données **Fournisseur**. Une fois la synchronisation initiale est terminée, vous pouvez exécuter toutes les cartes en ignorant la synchronisation initiale.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

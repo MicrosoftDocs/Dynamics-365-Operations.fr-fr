@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738267"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343475"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Améliorer les performances du moteur de planification
 
@@ -70,7 +70,7 @@ Le moteur de planification comporte un modèle de données plus abstrait que la 
 
 Lors de l’envoi au moteur, cet itinéraire est divisé en huit tâches, comme indiqué dans l’illustration suivante (sélectionnez l’image pour l’agrandir).
 
-[![Planification des tâches du moteur](media/scheduling-engine-jobs.png « Planification des tâches du moteur ».](media/scheduling-engine-jobs-large.png)
+[![Tâches du moteur de planification](media/scheduling-engine-jobs.png "Tâches du moteur de planification.")](media/scheduling-engine-jobs-large.png)
 
 Le lien standard entre deux tâches est `FinishStart`, ce qui signifie que l’heure de fin d’une tâche doit être antérieure à l’heure de début d’une autre tâche. Étant donné que la configuration doit être effectuée par la même ressource qui exécutera plus tard le processus, il y a des contraintes `OnSameResource` entre elles. Entre les tâches des opérations primaire et secondaire pour 10, il y a des liens `StartStart` et `FinishFinish`, ce qui signifie que les tâches doivent toutes les deux commencer et se terminer en même temps, et il y a des contraintes `NotOnSameResource`, qui empêcheront l’emploi de la même ressource pour les opérations primaire et secondaire.
 

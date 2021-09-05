@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751096"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344976"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -51,6 +51,9 @@ Pour voir le résultat de l’analyse d’ajustement de l’optimisation de la p
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Aperçu des résultats possibles de l’analyse de concordance
 
 Le tableau suivant présente les différents résultats qui peuvent être affichés après une analyse de concordance. Les symboles de numéro (_\#_) seront remplacés par un nombre qui indique le nombre d’enregistrements présentant le problème répertorié. Les fonctionnalités prises en charge ou en version préliminaire sont disponibles avec la version 10.0.9 ou les versions ultérieures (sauf si un numéro de version supérieur est indiqué dans la colonne « Disponibilité attendue »).
+
+> [!NOTE]
+> Certaines incohérences ne peuvent pas être identifiées par l'analyse de concordance pour l’optimisation de la planification. Pour plus d'informations, consultez [Différences entre la planification générale classique et l'optimisation de la planification](planning-optimization-differences-with-built-in.md).
 
 | Fonctionnalité | Problème répertorié | Explication | Disponibilité attendue |
 | --- | --- | --- | --- |
@@ -105,6 +108,10 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 [Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
 
 [Mise en route de l’optimisation de la planification](get-started.md)
+
+[Différences entre la planification générale classique et l'optimisation de la planification](planning-optimization-differences-with-built-in.md)
+
+[Paramètres non utilisés par l’optimisation de la planification](not-used-parameters.md)
 
 [Afficher l’historique du plan et les journaux de planification](plan-history-logs.md)
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763690"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388931"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Créer et mettre à jour une stratégie de retour et de remboursement pour un canal
 
@@ -42,15 +42,6 @@ Pour activer la fonctionnalité de politique de retour de canal dans Commerce He
 1. Recherchez la fonctionnalité **Activer les stratégies de retour de canal** dans la liste des noms de fonction.
 1. Sélectionnez **Activer maintenant**.
 1. Sur la page **Calendrier de diffusion**, exécutez la tâche **1110** (Configuration globale) pour distribuer le changement de fonctionnalité.
-
-## <a name="initialize-the-commerce-scheduler"></a>Initialiser le planificateur Commerce
-
-Après avoir activé la fonctionnalité **Activer les politiques de retour de canal**, vous devez initialiser le planificateur Commerce pour vous assurer que les nouvelles modifications de la base de données des fonctionnalités sont ajoutées via la synchronisation Commerce Data Exchange (CDX). 
-
-Pour initialiser le planificateur Commerce dans Commerce Headquarters, procédez comme suit.
-
-- Accédez à **Retail et Commerce \> Configuration du siège \> Planificateur de commerce \> Initialiser le planificateur de commerce**. Sinon, faites une recherche sur « Initialiser le planificateur Commerce ».
-- Dans la boîte de dialogue **Initialiser le planificateur Commerce**, vérifiez que l’option **Supprimer la configuration existante** est définie sur **Non**, puis cliquez sur **OK**.
 
 ## <a name="configure-return-policy"></a>Configurer la stratégie de retour
 

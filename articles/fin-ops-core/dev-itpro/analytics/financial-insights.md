@@ -2,7 +2,7 @@
 title: Analyse financière
 description: L’analyse financière utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d’analyse.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767825"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416303"
 ---
 # <a name="financial-analysis"></a>Analyse financière
 
@@ -36,9 +36,9 @@ L’**analyse financière** combine les données de la comptabilité et des comp
 > - **Page** – Onglet dans un fichier .pbix unique. Chaque page peut contenir un ou plusieurs éléments visuels.
 > - **Élément visuel** – Source de données unique, telle qu’une carte, un indicateur de performance clé, un graphique, une matrice ou un tableau d’analyse. Une page contenant un tableau d’analyse comme élément visuel ne peut pas avoir d’autres éléments visuels, en raison de la taille des données générées.
 
-Actuellement, l’**analyse financière** est utilisée pour afficher les données de l’entité juridique active ou de toutes les entités juridiques. Dans les prochaines versions, l’espace de travail deviendra le lieu où vous pourrez utiliser Power BI pour modifier et créer des éléments visuels.
+L'espace de travail **Analyse financière** vous permet essentiellement d’afficher et de filtrer les données des états existants. Vous pouvez ajouter de nouveaux éléments visuels à l’espace de travail **Analyse financière**. L'espace de travail **Analyse financière** est disponible pour la société actuelle ainsi que pour toutes les sociétés afin d'afficher les données de toutes les entités juridiques, quelles que soient les entités juridiques auxquelles le rôle a accès.
 
-L’espace de travail **Vue d’ensemble d’un processus CFO** affiche les mêmes éléments visuels que l’espace de travail **Analyse financière**, mais vous permet essentiellement d’afficher et de filtrer les données des états existants. Dans les prochaines versions, vous pourrez ajouter de nouveaux éléments visuels à l’espace de travail **Analyse financière**. Les nouveaux éléments visuels peuvent également être disponibles dans les espaces de travail axés sur d’autres rôles, comme les responsables de projets ou les responsables de la comptabilité fournisseur. L’espace de travail **Vue d’ensemble d’un processus CFO** continue d’afficher les données de toutes les entités juridiques, quelles que soient les entités juridiques auxquelles le rôle a accès.
+- [Ajouter ou modifier les visualisations Power BI sur votre tableau de bord](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Configuration Dynamics 365 Finance
 **Comptabilité**

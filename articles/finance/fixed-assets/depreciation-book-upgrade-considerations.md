@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713802"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344712"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Vue d’ensemble de la mise à niveau des registres des amortissements
 
@@ -51,7 +51,7 @@ Option 1 :  **Souche de numéros définie par le système** – Il s’agit de l
 Option 2 : **Souche de numéros définie par l’utilisateur existante** – Cette option vous permet de définir la souche de numéros à utiliser pour la mise à niveau. Envisagez d’utiliser cette option si vous avez besoin de la configuration de souche de numéros avancée. Pour utiliser une souche de numéros, vous devez modifier la classe de mise à niveau ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans avec les informations suivantes :
 
 -   **Code de souche de numéros** – Code de la souche de numéros.
-    -   Nom constant : **NumberSequenceExistingCode**
+    -   Nom constant : **NumberSequenceExistingCode**
     -   Valeur par défaut : Pas de valeur par défaut, elle doit être mise à jour dans le code de souche de numéros.
 -   **Souche de numéros partagée** – Valeur booléenne pour identifier la portée de la souche de numéros. Utilisez « true » pour les souches de numéros partagées entre toutes les sociétés, et « false » pour une portée spécifique à une société. Lorsque vous utilisez « false », la souche de numéros avec le nom spécifié doit exister dans chaque société qui contient les transactions du registre des amortissements. Les souches de numéros partagées existent dans chaque partition contenant des transactions du registre des amortissements.
     -   Nom constant : **NumberSequenceExistingIsShared**

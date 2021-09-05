@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773535"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384657"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management, version 10.0.19 (juin 2021)
 
@@ -41,7 +41,7 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 | Inventaire et logistique | [Fonctionnalité de recherche pour les champs Introduction au document et Conclusion du document sur la page Devis de vente](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Cette fonction ajoute une fonctionnalité de recherche pour les champs **Introduction au document** et **Conclusion du document** de la page **Devis de vente**.<br><br>Cette fonctionnalité est activée par défaut. |
 | Inventaire et logistique | [Exécution en entrepôt avec des unités d’échelle de périphérie sur votre matériel personnalisé](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Fabrication | [Contrôle et suivi de la production avec des unités d’échelle de périphérie sur votre matériel personnalisé](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planification | [Planification des capacités infinies pour l’optimisation de la planification](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Cette fonctionnalité active la planification de la capacité avec une capacité infinie pour l’optimisation de la planification. Sans cette fonctionnalité, les ordres de fabrication planifiés obtiennent leur délai du délai du stock de produits lancés, quelle que soit la période de planification. |
+| Planification | [Planification des capacités infinies pour l’optimisation de la planification](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Planification avec une capacité infinie](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Planification | Confirmation de commande prévisionnelle basée sur une requête | [Ordres prévisionnels confirmés](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gestion des informations sur les produits | [Améliorations de la page de suggestions de variante](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Créer des variantes de produits prédéfinies](../pim/tasks/create-predefined-product-variants.md) |
 

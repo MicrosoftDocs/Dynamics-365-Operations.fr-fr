@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble de l’administration
-description: Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette rubrique fournit une liste de ressources et d'autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765612"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393569"
 ---
 # <a name="administration-overview"></a>Vue d’ensemble de l’administration
 
@@ -28,11 +28,11 @@ ms.locfileid: "6765612"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
+Cette rubrique fournit une liste de ressources et d'autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
 
 - [Configuration requise](hr-admin-system-requirements.md)
 
-- Paramétrer et gérer des instances
+- Configurer et gérer des instances
   - [Provision de Human Resources](hr-admin-setup-provision.md)
   - [Copier une instance](hr-admin-setup-copy-instance.md)
   - [Supprimer une instance](hr-admin-setup-remove-instance.md)
@@ -92,13 +92,22 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Exécuter le processus de rémunération](hr-admin-troubleshooting-compensation.md)
   - [Enregistrer un guide de tâches dans LCS](hr-admin-troubleshooting-task-guide.md)
   - [Accéder aux adresses privées selon les rôles de sécurité](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources n’apparaissent pas dans les applications Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources ne s’affiche pas dans les applications Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [Options de génération d’états](hr-admin-troubleshooting-reporting.md)
   - [FAQ sur l’intégration](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+### <a name="elearning-courses"></a>Cours eLearning
+Pour les cours et formations en ligne, consultez [Dynamics 365 Human Resources sur Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Vidéos
+
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
 ## <a name="see-also"></a>Voir également :
 
-- [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
+- [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
 - [Guide du développeur](hr-developer-overview.md)
 - [Guide de l’utilisateur](hr-hrpro-overview.md)
 

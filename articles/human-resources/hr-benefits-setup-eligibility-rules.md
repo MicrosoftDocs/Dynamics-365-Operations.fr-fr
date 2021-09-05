@@ -1,8 +1,8 @@
 ---
-title: Configuration des règles et des options d’admissibilité
-description: Définissez les règles et les options d’admissibilité dans la gestion des avantages de Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/25/2021
+title: Configurer les règles et les options d’éligibilité
+description: Cette rubrique décrit comment définir les règles et les options d’éligibilité dans la gestion des avantages dans Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423469"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurer les règles et les options d’éligibilité 
 
@@ -217,13 +217,13 @@ Vous pouvez utiliser des programmes de crédits flexibles pour inscrire les empl
 
    | Champ | Description |
    | --- | --- |
-   | ID de crédit d’avantage | Identifiant unique du programme de crédits flexibles. |
-   | Description | Description du programme de crédits flexibles. | 
-   | Date de début | Date et heure d’activation du programme de crédits flexibles. |
-   | Au | Date de fin du programme de crédits flexibles. Vous pouvez laisser la valeur par défaut (31/12/2154) pour indiquer que le programme de crédit flexible n’a pas d’expiration planifiée. |
-   | Valeur de crédit total | Nombre de crédits que chaque employé devra utiliser pour ses avantages. |
-   | Règle au prorata | Règle à utiliser pour la répartition proportionnelle des crédits flexibles lorsqu’un employé est embauché au milieu de la période de crédit flexible. </br></br><ul><li>**Aucun** – L’employé ne reçoit aucun crédit flexible s’il est embauché après le début de la période du programme de crédit flexible.</li><li>**Crédit total** – L’employé reçoit le montant total des crédits flexibles, quel que soit le moment de son embauche.</li><li>**Calculer au prorata** – L’employé reçoit un montant proportionnel de crédits flexibles en fonction de sa date de début.</li></ul> |
-   | Formule de calcul au prorata des crédits flexibles | Règle à utiliser pour la répartition proportionnelle des crédits flexibles lorsque les employés sont embauchés au milieu d’une période d’avantage pour le programme de crédit flexible. La répartition est basée sur la date de début de l’emploi. Ce champ est uniquement utilisé si vous sélectionnez **Calculer au prorata** dans le champ **Règle au prorata**. </br></br><ul><li>**Quotidien** – Calcule au prorata le nombre de crédits flexibles qu’un employé reçoit au niveau quotidien. Le nombre total de crédits flexibles est divisé par le nombre de jours de la période. Par exemple, si votre période d’avantages est de 400 jours, le système divisera le nombre total de crédits flexibles par 400 pour calculer le nombre de crédits flexibles que les employés reçoivent par jour.</li><li>**Mois en cours** – Calcule au prorata le nombre de crédits flexibles qu’un employé reçoit au niveau du mois, arrondi au mois en cours. Le nombre total de crédits flexibles est divisé par le nombre de mois de la période. Par exemple, si votre période d’avantages est de 15 mois, le système divisera le nombre total de crédits flexibles par 15 pour calculer le nombre de crédits flexibles que les employés reçoivent par mois.</li><li>**Mois suivant** – Calcule au prorata le nombre de crédits flexibles qu’un employé reçoit au niveau du mois, arrondi au mois suivant. Le nombre total de crédits flexibles est divisé par le nombre de mois de la période. Par exemple, si votre période d’avantages est de 15 mois, le système divise le nombre total de crédits flexibles par 15 pour calculer le nombre de crédits flexibles que les employés reçoivent par mois.</li></ul> |
+   | **ID de crédit d’avantage** | Identifiant unique du programme de crédits flexibles. |
+   | **Description** | Description du programme de crédits flexibles. | 
+   | **Date de début** | Date et heure d’activation du programme de crédits flexibles. |
+   | **Au** | Date de fin du programme de crédits flexibles. Vous pouvez laisser la valeur par défaut (31/12/2154) pour indiquer que le programme de crédit flexible n’a pas d’expiration planifiée. |
+   | **Valeur de crédit total** | Nombre de crédits que chaque employé devra utiliser pour ses avantages. |
+   | **Règle au prorata** | Règle à utiliser pour la répartition proportionnelle des crédits flexibles lorsqu’un employé est embauché au milieu de la période de crédit flexible. </br></br><ul><li>**Aucun** – L’employé ne reçoit aucun crédit flexible s’il est embauché après le début de la période du programme de crédit flexible.</li><li>**Crédit total** – L’employé reçoit le montant total des crédits flexibles, quel que soit le moment de son embauche.</li><li>**Calculer au prorata** – L’employé reçoit un montant proportionnel de crédits flexibles en fonction de sa date de début.</li></ul> |
+   | **Formule de calcul au prorata des crédits flexibles** | Règle à utiliser pour la répartition proportionnelle des crédits flexibles lorsque les employés sont embauchés au milieu d’une période d’avantage pour le programme de crédit flexible. La répartition est basée sur la date de début de l’emploi. Ce champ est uniquement utilisé si vous sélectionnez **Calculer au prorata** dans le champ **Règle au prorata**. </br></br><ul><li>**Quotidien** – Calcule au prorata le nombre de crédits flexibles qu’un employé reçoit au niveau quotidien. Le nombre total de crédits flexibles est divisé par le nombre de jours de la période. Par exemple, si votre période d’avantages est de 400 jours, le système divisera le nombre total de crédits flexibles par 400 pour calculer le nombre de crédits flexibles que les employés reçoivent par jour.</li><li>**Mois en cours** – Calcule au prorata le nombre de crédits flexibles qu’un employé reçoit au niveau du mois, arrondi au mois en cours. Le nombre total de crédits flexibles est divisé par le nombre de mois de la période. Par exemple, si votre période d’avantages est de 15 mois, le système divisera le nombre total de crédits flexibles par 15 pour calculer le nombre de crédits flexibles que les employés reçoivent par mois.</li><li>**Mois suivant** – Calcule au prorata le nombre de crédits flexibles qu’un employé reçoit au niveau du mois, arrondi au mois suivant. Le nombre total de crédits flexibles est divisé par le nombre de mois de la période. Par exemple, si votre période d’avantages est de 15 mois, le système divise le nombre total de crédits flexibles par 15 pour calculer le nombre de crédits flexibles que les employés reçoivent par mois.</li></ul> |
    
    Assurez-vous que chaque régime de prestations est inscrit à un seul programme de crédit flexible par période d’avantages. Sinon, le système ne saura pas quel programme de crédit flexible utiliser pour accorder des crédits flexibles et vous rencontrerez des problèmes. 
 

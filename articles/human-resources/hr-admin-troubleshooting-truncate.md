@@ -1,8 +1,8 @@
 ---
 title: Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
-description: Cet article explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources. La troncation de texte peut rendre difficile l’exécution d’une capture d’écran ou d’une impression de la hiérarchie.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette rubrique explique comment résoudre le problème de noms de personnes et de postes tronqués dans la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779324"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413533"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 
@@ -43,7 +43,7 @@ Procédez comme suit pour exporter dans Visio.
 
 1. Dans Human Resources, ouvrez la page de liste **Postes**.
 
-    Pour inclure des informations supplémentaires dans le diagramme de structure de l’organisation, ajoutez des champs à la liste **Postes**, afin qu’ils soient disponibles lorsque vous utilisez l’Assistant ultérieurement dans cette procédure.
+    Pour inclure des informations supplémentaires dans le diagramme de structure de l’organisation, ajoutez des champs à la liste **Postes**, afin qu’ils soient disponibles lorsque vous utilisez l’**Assistant Diagramme de l’organisation** ultérieurement dans cette procédure.
 
 2. Dans le volet Actions, sélectionnez le bouton **Ouvrir dans Microsoft Office**, puis, sous **Exporter vers Excel**, sélectionnez **Postes**. Sinon, appuyez sur Ctrl+T.
 

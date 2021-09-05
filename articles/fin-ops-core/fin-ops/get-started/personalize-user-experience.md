@@ -2,7 +2,7 @@
 title: Personnaliser l’expérience de l’utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l’application.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719299"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344372"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -169,7 +169,7 @@ Le tableau de bord est souvent la première page que vous voyez lorsque vous ouv
 Une fonctionnalité de personnalisation unique disponible sur le tableau de bord est la possibilité d’ajouter des vignettes. 
 
 - Si la fonctionnalité **Applications pleine page** est désactivée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter un espace de travail**. Une nouvelle vignette d’espace de travail est créée en bas du tableau de bord. Vous pouvez renommer cette nouvelle vignette d’espace de travail comme vous le souhaitez. Vous pouvez également ajouter des listes, des vignettes et des liens à l’espace de travail, comme décrit dans la section [Ajout de listes, de vignettes ou de liens vers un espace de travail](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Si la fonctionnalité **Applications pleine page** est activée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter une application**. Dans la boîte de dialogue, indiquez si vous souhaitez ajouter une vignette pour un nouvel espace de travail ou une vignette dont le contenu est Power Apps ou un site web. Suivez ensuite les étapes pour configurer l’option que vous avez sélectionnée. Une nouvelle vignette est créée en bas du tableau de bord. 
+- Si la fonctionnalité **Applications pleine page** est activée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter une application**. Dans la boîte de dialogue, indiquez si vous souhaitez ajouter une vignette pour un nouvel espace de travail ou une vignette dont le contenu est Power Apps ou un site web. Suivez ensuite les étapes pour configurer l’option que vous avez sélectionnée. Une nouvelle vignette est créée en bas du tableau de bord. Pour plus d'informations sur l'ajout, la modification, la suppression et le partage de ces applications intégrées, consultez [Intégrer des applications de canevas à partir de Power Apps](embed-power-apps.md) et [Intégrer des applications tierces](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Partage des personnalisations
 

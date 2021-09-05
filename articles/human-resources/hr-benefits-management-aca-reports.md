@@ -1,8 +1,8 @@
 ---
 title: Générer des rapports sur la Loi sur les soins abordables dans l’espace de travail Gestion des avantages
-description: Ces rubriques décrivent comment Gestion des avantages vous aide à suivre les informations qui sont déclarées sur le formulaire 1095-B et le formulaire 1095-C pour le mandat de l’employeur de la Loi sur les soins abordables (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: Cette rubrique décrit comment Gestion des avantages effectue le suivi des informations qui sont déclarées sur le formulaire 1095-B et le formulaire 1095-C pour le mandat de l’employeur de la Loi sur les soins abordables (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727063"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416252"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Générer des rapports ACA dans Gestion des avantages
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Gestion des avantages vous aide à suivre les informations qui sont déclarées sur le formulaire 1095-B et le formulaire 1095-C pour le mandat de l’employeur de la Loi sur les soins abordables (ACA). Comme la fonctionnalité de génération d’états ACA dans l’ancien espace de travail **Avantages**, cette fonctionnalité s’applique uniquement aux entités juridiques aux États-Unis.
+Gestion des avantages effectue le suivi des informations qui sont déclarées sur le formulaire 1095-B et le formulaire 1095-C pour le mandat de l’employeur de la Loi sur les soins abordables (ACA). Comme la fonctionnalité de génération d’états ACA dans l’ancien espace de travail **Avantages**, cette fonctionnalité s’applique uniquement aux entités juridiques aux États-Unis.
 
 Pour utiliser cette fonctionnalité, vous devez d’abord activer **Gestion avancée des avantages**. Pour plus d’informations, y compris des mises en garde importantes sur la Gestion des avantages, voir [Activer ou désactiver la gestion des avantages](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -145,7 +145,7 @@ Vous pouvez générer les formulaires ACA 1095-B et 1095-C et les distribuer à 
 2. Modifiez les paramètres selon vos besoins, puis cliquez sur **OK**.
 
     > [!NOTE]
-    > Si vous imprimez des formulaires 1095-C pour plus de 500 employés, vous recevrez plusieurs fichiers PDF. Nous vous recommandons d’augmenter la valeur du champ **Taille maximale du fichier en mégaoctets** sur la page **Paramètres de gestion des documents** sur **150**. (Pour ouvrir rapidement cette page, vous pouvez utiliser le champ de recherche de la barre de navigation.)
+    > Si vous imprimez des formulaires 1095-C pour plus de 500 employés, vous recevrez plusieurs fichiers PDF. Nous vous recommandons d’augmenter la valeur du champ **Taille maximale du fichier en mégaoctets** sur la page **Paramètres de gestion des documents** sur **150**. (Pour ouvrir rapidement cette page, utilisez le champ de recherche de la barre de navigation.)
     >
     > ![Modification de la taille maximale du fichier.](./media/hr-benefits-management-aca-maximum-file-size.png)
 

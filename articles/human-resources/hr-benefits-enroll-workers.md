@@ -1,8 +1,8 @@
 ---
 title: Inscrire et annuler l’inscription des travailleurs à des avantages
-description: Cette procédure illustre comment un collaborateur peut être inscrit à un ou plusieurs avantages, et comment plusieurs collaborateurs peuvent être inscrits à un avantage.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette procédure montre comment inscrire un seul collaborateur à un ou plusieurs avantages, et comment inscrire plusieurs collaborateurs à un avantage.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 0e508a0a4d89f91ef76cbf2724c7b77510a8ef028dde0c4e1c2a4200b96e39fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb9baef543e2d8e069c3e7ea667e3fdf0811fe10
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727135"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416453"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrire et annuler l’inscription des travailleurs à des avantages
 
@@ -26,7 +26,7 @@ ms.locfileid: "6727135"
 
 
 
-Cette procédure illustre comment un collaborateur peut être inscrit à un ou plusieurs avantages, et comment plusieurs collaborateurs peuvent être inscrits à un avantage. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Cette procédure montre comment inscrire un seul collaborateur à un ou plusieurs avantages, et comment inscrire plusieurs collaborateurs à un avantage. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>Inscrire un seul collaborateur à des avantages

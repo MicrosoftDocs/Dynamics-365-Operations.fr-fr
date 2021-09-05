@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des paiements fournisseurs
-description: Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique.
+description: Cette procédure décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique.
 author: kweekley
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721825"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394436"
 ---
 # <a name="vendor-payment-overview"></a>Vue d’ensemble des paiements fournisseurs
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique. La société fictive USMF sert d’exemple dans cette procédure.
+Cette procédure décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique. La société fictive USMF sert d’exemple dans cette procédure.
 
 1. Accédez à **Volet de navigation > Modules > Comptabilité fournisseur > Paiements > Journal des paiements**.
 2. Cliquez sur **Nouveau**.

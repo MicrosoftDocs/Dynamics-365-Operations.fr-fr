@@ -1,8 +1,8 @@
 ---
-title: Processus d’éligibilité à l’inscription
-description: Cet article explique comment exécuter le processus d’éligibilité à l’inscription.
-author: andreabichsel
-ms.date: 04/06/2020
+title: Traiter l’éligibilité à l’inscription
+description: Cette rubrique explique comment exécuter le processus d’éligibilité à l’inscription.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782070"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417482"
 ---
-# <a name="process-enrollment-eligibility"></a>Processus d’éligibilité à l’inscription
+# <a name="process-enrollment-eligibility"></a>Traiter l’éligibilité à l’inscription
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article explique comment exécuter le processus d’éligibilité à l’inscription.
+Cette rubrique explique comment exécuter le processus d’éligibilité à l’inscription.
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Traitement**, sélectionnez **Processus d’éligibilité à l’inscription**.
 
@@ -53,13 +53,13 @@ Cet article explique comment exécuter le processus d’éligibilité à l’ins
 
 ## <a name="view-process-results"></a>Afficher les résultats du processus
 
-Cet article explique comment afficher les résultats du processus d’éligibilité.
+Cette rubrique explique comment afficher les résultats du processus d’éligibilité.
 
 1.  Dans l’espace de travail **Gestion des avantages**, sous **Traitement**, sélectionnez **Résultats du processus**.
 
-2.  Dans le formulaire **Résultats du processus**, les champs suivants sont spécifiés :
+2.  Dans la page **Résultats du processus**, les champs suivants sont spécifiés :
 
-   | Champ | Description |
+   | Champ | Description  |
    | --- | --- |
    | **ID processus** | ID unique pour la combinaison de Collaborateur, Entité juridique et exécution de processus. |
    | **Type de processus** | Cela identifie le processus qui a été exécuté. Par exemple : Inscription. |

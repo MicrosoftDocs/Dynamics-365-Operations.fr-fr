@@ -2,7 +2,7 @@
 title: Configurer un environnement d’évaluation Dynamics 365 Commerce
 description: Cette rubrique explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742438"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416477"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurer un environnement d’évaluation Dynamics 365 Commerce
 
@@ -128,7 +128,7 @@ Pour exécuter la synchronisation complète des données dans Commerce, procéde
 Pour effectuer des tests de transactions sur le site, vous pouvez utiliser les informations de carte de crédit de test suivantes :
 
 - **Numéro de carte :** 4111-1111-1111-1111
-- **Date d’expiration :** 10/20
+- **Date d’expiration :** 10/30
 - **Code de valeur de la vérification de la carte (CVV) :** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Pour effectuer des tests de transactions sur le site, vous pouvez utiliser les i
 Une fois les étapes de mise en service et de configuration terminées, vous pouvez commencer à évaluer votre environnement d’évaluation. Utilisez l’URL du générateur de site Commerce pour accéder à l’expérience de création. Utilisez l’URL du site Commerce pour accéder à l’expérience du site du client de vente au détail.
 
 Pour configurer des fonctionnalités facultatives de votre environnement d’évaluation Commerce, consultez [Configurer les fonctionnalités facultatives d’un environnement d’évaluation Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> Les environnements d’évaluation de Commerce sont fournis avec un locataire Azure Active Directory (Azure AD) B2C à des fins de démonstration. Il n’est pas nécessaire que vous configuriez votre propre locataire Azure AD B2C pour les environnements d’évaluation. Cependant, si vous configurez l’environnement d’évaluation pour utiliser votre propre client Azure AD B2C, veuillez vous assurer d’ajouter ``https://login.commerce.dynamics.com/_msdyn365/authresp`` comme URL de réponse dans l’application Azure AD B2C via le portail Azure.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -159,6 +162,8 @@ Pour configurer des fonctionnalités facultatives de votre environnement d’év
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site web Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,34 +2,25 @@
 title: Résoudre les problèmes lors de la configuration initiale
 description: Cette rubrique fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 7c51a92ab101937a0ccf630fa0355485e42e9a0deca36c23327d96976f5228b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2b75155aac12d79b9d68cce3e066acaaf80d6764
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758190"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380186"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Cette rubrique fournit des informations sur la résolution des problèmes de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse. Notamment elle fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 
@@ -46,46 +37,55 @@ Les erreurs sur la page **Lien de configuration vers Dataverse** sont générale
 
 Vous devez avoir les identifiants d’admin client Azure AD pour lier les environnements Finance and Operations et Dataverse. Après avoir lié les environnements, les utilisateurs peuvent se connecter en utilisant leurs informations d’identification de compte et mettre à jour une carte de table existante.
 
-## <a name="error-when-you-open-the-link-to-dataverse-page"></a>Erreur lorsque vous ouvrez la page Lier à Dataverse
-
-**Informations d’identification requises pour résoudre le problème :** admin client Azure AD
-
-Vous pouvez recevoir le message d’erreur suivant lorsque vous ouvrez la page **Lier à Dataverse** dans une application Finance and Operations :
-
-*Le code d’état de réponse n’indique pas la réussite : 404 (Introuvable).*
-
-Cette erreur se produit lorsque l’étape de consentement n’est pas terminée. Pour valider si l’étape de consentement est terminée, connectez-vous à portal.Azure.com en utilisant le compte admin client Azure AD et voyez si l’application tierce avec l’ID **33976c19-1db5-4c02-810e-c243db79efde** apparaît dans la liste **Applications d’entreprise** Azure AD. Si ce n’est pas le cas, vous devez fournir le consentement de l’application.
-
-Pour fournir le consentement de l’application, procédez comme suit.
-
-1. Ouvrez l’URL suivante en utilisant vos informations d’identification d’administrateur. Vous devriez être invité à donner votre consentement.
-
-    <https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent>
-
-2. Sélectionnez **Accepter** pour indiquer que vous donnez votre consentement pour installer l’application avec l’ID **33976c19-1db5-4c02-810e-c243db79efde** dans votre client.
-
-    > [!TIP]
-    > Cette application est nécessaire pour lier les applications Dataverse et Finance and Operations. Si vous rencontrez des problèmes avec cette étape, ouvrez votre navigateur en mode navigation privée (dans Google Chrome) ou en mode InPrivate (dans Microsoft Edge).
-
-## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Vérifier que les données d’entreprise et les équipes en double écriture sont correctement configurées lors de la liaison
-
-Pour garantir le bon fonctionnement de la double écriture, les sociétés que vous sélectionnez lors de la configuration sont créées dans l’environnement Dataverse. Par défaut, ces sociétés sont en lecture seule et la propriété **IsDualWriteEnable** est définie sur la valeur **True**. De plus, le propriétaire et l’équipe de l’unité commerciale propriétaire par défaut et l’équipe sont créés et comprennent le nom de l’entreprise. Avant d’activer les cartes, vérifiez que le propriétaire de l’équipe par défaut est spécifié. Pour trouver la table **Sociétés (CDM\_Company)**, procédez comme suit.
-
-1. Dans l'application d'engagement client, sélectionnez le filtre dans le coin supérieur droit.
-2. Dans la liste déroulante sélectionnez **Société**.
-3. Sélectionnez **Exécuter** pour voir les résultats.
-4. Sélectionnez la société qui était liée lorsque vous avez configuré la double écriture.
-5. Vérifiez que la colonne **Équipe propriétaire par défaut** a une valeur. Dans l’illustration suivante, la colonne **Équipe propriétaire par défaut** est définie sur **Double écriture USMF**.
-
-    ![Vérification de l’équipe propriétaire par défaut.](media/default_owning_team.png)
-
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Trouver la limite du nombre tables juridiques ou de sociétés pouvant être liées pour la double écriture
 
 Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez d’activer des cartes :
 
-*Échec de la double écriture - Échec de l’enregistrement du plugin : \[(Impossible d’obtenir la carte de partition pour le projet DWM - 1ae35e60-4bc2-4905-88ea-69efd3b29260 - 7f12cb89-1550-42e2-858e-4761fc1443ea. L’erreur dépasse le nombre maximal de partitions autorisé pour le mappage DWM - 1ae35e60-4bc2-4905-88ea-69efd3b29260 – 7f12cb89-1550-42e2-858e-4761fc1443ea) \], Une ou plusieurs erreurs se sont produites.*
+*Échec de la double écriture - Échec de l’enregistrement du plugin : [(Impossible d’obtenir la carte de partition pour le projet DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. L’erreur dépasse le nombre maximal de partitions autorisé pour le mappage DWM - 1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)], Une ou plusieurs erreurs se sont produites.*
 
 La limite actuelle lorsque vous liez les environnements est d’environ 40 tables juridiques. Cette erreur se produit si vous essayez d’activer des cartes et si plus de 40 tables juridiques sont liées entre les environnements.
 
+## <a name="connection-set-failed-while-linking-environment"></a>Échec de l’ensemble de connexion lors de la liaison de l’environnement
+
+Lors de la liaison de l’environnement à double écriture, l’action échoue avec un message d’erreur :
+
+*Échec de l’enregistrement de l’ensemble de connexion ! Un élément avec la même clé a déjà été ajouté.*
+
+La double écriture ne prend pas en charge plusieurs entités juridiques/sociétés portant le même nom. Par exemple, si vous avez deux sociétés avec le nom « DAT » dans le Dataverse alors il obtient ce message d’erreur.
+
+Pour débloquer le client, supprimez les enregistrements en double de la table **cdm_company** dans Dataverse. Aussi, si la table **cdm_company** a des enregistrements avec un nom vide, supprimez ou corrigez ces enregistrements.
+
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Erreur lors de l’ouverture de la page Double écriture dans les applications Finance and Operations
+
+Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez de lier un environnement Dataverse pour la double écriture :
+
+*Le code d’état de réponse n’indique pas la réussite : 404 (Introuvable).*
+
+Cette erreur se produit lorsque l’étape de consentement de l’application n’est pas terminée. Vous pouvez valider si le consentement a été donné en vous connectant à `portal.azure.com` en utilisant le compte administrateur du client et vérifiez si l’application tierce avec ID `33976c19-1db5-4c02-810e-c243db79efde` apparaît dans la liste des applications d’entreprise d’AAD. Si ce n’est pas le cas, réexécutez l’étape de consentement comme décrit dans la section suivante.
+
+### <a name="providing-app-consent"></a>Fournir le consentement de l’application
+
++ Lancez l’URL suivante en utilisant vos informations d’identification d’administrateur.
+
+    `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
+
++ Sélectionnez **Accepter** pour consentir. Vous donnez votre consentement pour installer l’application (avec `id=33976c19-1db5-4c02-810e-c243db79efde`) dans votre client.
++ Cette application est requise pour que Dataverse communique avec les applications Finance and Operations.
+
+    ![Résolution des problèmes lors de la synchronisation initiale.](media/Initial-sync-setup-troubleshooting-1.png)
+
+> [!NOTE]
+> Si cela ne fonctionne pas, lancez l’URL en mode privé de Microsoft Edge ou en mode navigation privée de Chrome.
+
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>L’environnement Finance and Operations n’est pas détectable
+
+Vous pouvez recevoir le message d’erreur suivant :
+
+L’environnement des applications *Finance and Operations \*\*\*.cloudax.dynamics.com n’est pas détectable.*
+
+Deux choses peuvent causer un problème avec l’environnement non détectable :
+
++ L’utilisateur utilisé pour la connexion n’est pas dans le même client que l’instance Finance and Operations.
++ Des instances Finance and Operations héritées hébergées par Microsoft présentaient un problème de découverte. Pour résoudre ce problème, mettez à jour l’instance Finance and Operations. L’environnement devient détectable avec n’importe quelle mise à jour.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

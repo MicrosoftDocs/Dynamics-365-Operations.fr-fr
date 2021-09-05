@@ -1,8 +1,8 @@
 ---
 title: Paramétrer des modèles de valeur
 description: Cette procédure indique comment créer un nouveau registre d’immobilisations et l’associer à un groupe d’immobilisations.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741534"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344656"
 ---
 # <a name="set-up-value-models"></a>Paramétrer des modèles de valeur
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Cette procédure indique comment créer un nouveau registre d’immobilisations et l’associer à un groupe d’immobilisations. Elle utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.
-
 
 ## <a name="create-a-book"></a>Créer un registre
 1. Accédez à Immobilisations > Configuration > Registres.
@@ -48,9 +49,10 @@ Cette procédure indique comment créer un nouveau registre d’immobilisations 
 1. Cliquez sur Groupes d’immobilisations.
 2. Saisissez ou sélectionnez une valeur dans le champ Groupe d’immobilisations.
 3. Entrez un nombre dans le champ Durée de vie.
-    * Notez que les périodes d’amortissement sont calculées après la définition de la durée de vie.  
-    * Vous pouvez définir la convention d’amortissement comme requis pour les besoins fiscaux.  
 
+  - Les périodes d’amortissement sont calculées après la saisie de la durée de vie de l'actif.  
+  - La convention d’amortissement peut être définie comme requis pour les besoins fiscaux.
+  - Pour les immobilisations associées à des baux, la valeur du champ **Durée de vie** sera remplacée par la moindre valeur entre la durée du bail dans le registre des immobilisations ou de la durée de vie utile de l'actif. Si le champ **Transfert de propriété** est défini sur **Oui** pour le registre des baux, la valeur dans le champ **Durée de vie** sera toujours la durée de vie utile de l’actif.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

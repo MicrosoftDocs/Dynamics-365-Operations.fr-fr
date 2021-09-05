@@ -1,8 +1,8 @@
 ---
-title: Création de plans d’avantages pour les collaborateurs
-description: Vous pouvez créer des plans d’avantages pour les collaborateurs dans Microsoft Dynamics 365 Human Resources pour sélectionner les régimes de prestations des employés et confirmer les choix de régimes de prestations.
-author: andreabichsel
-ms.date: 04/06/2020
+title: Créer des plans d'avantages pour les collaborateurs
+description: Cette rubrique explique comment créer, sélectionner et confirmer des plans d’avantages sociaux dans Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ccd16d2c9a986da602bb9f346fb175a92e15c9ba4265ac0e951e57eda03308
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 701bc6f1bb3ef684b163c32032e1094c8ae4deb0
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782094"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417402"
 ---
-# <a name="create-worker-benefit-plans"></a>Création de plans d’avantages pour les collaborateurs
+# <a name="create-worker-benefit-plans"></a>Créer des plans d'avantages pour les collaborateurs
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vous pouvez créer des plans d’avantages pour les collaborateurs dans Microsoft Dynamics 365 Human Resources pour sélectionner les plans d’avantages des employés et confirmer les choix de plans d’avantages. En règle générale, les employés sélectionnent eux-mêmes les plans d’avantages en utilisant le libre-service employé, puis un administrateur des avantages confirme les sélections. 
+Vous pouvez créer des plans d’avantages pour les collaborateurs dans Microsoft Dynamics 365 Human Resources pour sélectionner les régimes de prestations des employés et confirmer les choix de régimes de prestations. En règle générale, les employés sélectionnent eux-mêmes les plans d’avantages en utilisant le libre-service employé, puis un administrateur des avantages confirme les sélections. 
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages des collaborateurs**.
 
