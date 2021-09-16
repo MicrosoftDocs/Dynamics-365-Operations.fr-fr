@@ -14,6 +14,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
+                - name: "Mises à jour de la plateforme pour la version\_10.0.22 (novembre\_2021)"
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.21 (octobre\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.20 (août\_2021)"
@@ -502,7 +504,7 @@
               href: dev-tools/application-stack-server-architecture.md
             - name: Recevoir des copies d’évaluation
               href: dev-tools/get-evaluation-copy.md
-            - name: Souscrire des abonnements d’aperçu
+            - name: Souscrire des abonnements de versions préliminaires
               href: dev-tools/sign-up-preview-subscription.md
             - name: Déployer des environnements de développement et y accéder
               items:
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: Langage de programmation X++
               items:
-                - name: X++ et fonctions du débogueur
-                  href: dev-tools/new-x-debugger-features.md
-                - name: "Configuration requise de Visual Studio\_2017 pour X++"
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: Déboguer un code X++
-                  href: dev-tools/debug-xpp.md
-                - name: Classes EventHandlerResult dans les scénarios de demande ou de réponse
-                  href: dev-tools/event-handler-result-class.md
-                - name: Rédiger la logique du système à l’aide de code source C# et X++
-                  href: dev-tools/write-business-logic.md
-                - name: Modifications dans X++ et le compilateur X++
-                  href: dev-tools/programming-language-support.md
-                - name: Fournisseur LINQ pour C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Rédiger des règles de recommandation
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Propriétés de l’Explorateur d’application
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Prise en charge du langage X++
+                  items:
+                    - name: "Configuration requise de Visual Studio\_2017 pour X++"
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Déboguer un code X++
+                      href: dev-tools/debug-xpp.md
+                    - name: Classes EventHandlerResult dans les scénarios de demande ou de réponse
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Rédiger la logique du système à l’aide de code source C# et X++
+                      href: dev-tools/write-business-logic.md
+                    - name: Fournisseur LINQ pour C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Rédiger des règles de recommandation
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Propriétés de l’explorateur d’application
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: Référence du langage X++
                   items:
                     - name: Vue d’ensemble de référence du langage X++
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Bibliothèques
                           href: dev-ref/xpp-library-objects.md
-                        - name: Événements
+                        - name: Événements et délégués
                           href: dev-ref/xpp-events.md
                     - name: Sélection et manipulation de données X++
                       items:
@@ -906,6 +906,8 @@
               href: dev-tools/date-effectivity.md
             - name: Développement pour les éditeurs de logiciels indépendants
               items:
+                - name: Page d’accueil Développement pour les éditeurs de logiciels indépendants
+                  href: dev-tools/isv-dev-home-page.md
                 - name: Lier des modules X++ à des packages à l’aide de ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: Gestionnaire de licences ISV
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Livre de recettes pour les requêtes
               href: lifecycle-services/querycookbook.md
+            - name: Abonnements expirés et suppression des données
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: "Microsoft Dynamics\_365 Translation Service"
               items:
                 - name: "Vue d’ensemble de Dynamics\_365 Translation\_Service"
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Considérations relatives à la synchronisation initiale
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Limites de la synchronisation en direct
+                      href: data-entities/dual-write/sync-limits.md
                     - name: "Configuration en double écriture depuis Lifecycle\_Services"
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Activer la double écriture pour les applications Finance and Operations existantes
@@ -1192,9 +1198,9 @@
           items:
             - name: Ressources de la plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Prise en main
+            - name: Mise en route
               items:
-                - name: Prise en main de la plateforme mobile
+                - name: Mise en route de la plateforme mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Remarques relatives à l’architecture et à la conception
                   href: mobile-apps/platform/mobile-platform-architecture.md

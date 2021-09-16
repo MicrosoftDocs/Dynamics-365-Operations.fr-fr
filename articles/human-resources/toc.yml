@@ -3,9 +3,11 @@
   items:
     - name: Nouveautés
       items:
-        - name: "Nouveautés ou modifications dans Human\_Resources"
+        - name: Nouveautés ou modifications dans Human Resources
           href: hr-admin-whats-new.md
-        - name: "09\_août\_2021"
+        - name: "23\_août\_2021"
+          href: hr-whats-new-2021-08-23.md
+        - name: "9\_août\_2021"
           href: hr-whats-new-2021-08-09.md
         - name: "26\_juillet\_2021"
           href: hr-whats-new-2021-07-26.md
@@ -543,6 +545,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurer les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Gestion des propriétaires d’emplacements
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: Système de flux de travail
               items:
                 - name: Vue d’ensemble du système de flux de travail
@@ -553,7 +557,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
                 - name: Actions de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
-                - name: Créer des flux de travail
+                - name: Création de flux de travail
                   items:
                     - name: Vue d’ensemble de création des flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
@@ -577,11 +581,11 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
                     - name: Configuration de flux de travail pour ligne
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: Configurer le traitement par lots Traitement des messages de flux de travail comme critique
+                - name: Configuration du traitement par lots Traitement des messages de flux de travail comme critique
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
                 - name: Délégation d’éléments de travail dans un flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: Afficher l’historique du flux de travail
+                - name: Affichage de l’historique du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configuration du système pour envoyer un e-mail de flux de travail associé aux utilisateurs
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json

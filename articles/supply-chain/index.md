@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0fc784c3d0a1df7984761c95b5f6955cc1b441e7a51ac75eecd971a42a47a317
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743600"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416549"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d’accueil de Supply Chain Management
 
@@ -80,8 +80,8 @@ Les enregistrements de conférence technique suivants traitent des fonctionnalit
   - [Vue d’ensemble de la gestion des coûts](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **Planification :**
   - [Étendre la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-  - [Planification - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
-  - [Besoin d’aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
+  - [Planification – conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
+  - [Optimisation des performances MRP](https://youtu.be/RLXybx20B5o)
 - **Gestion des informations sur les produits :**
   - [Configurateur de produits dans Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Gestion des entrepôts :**
