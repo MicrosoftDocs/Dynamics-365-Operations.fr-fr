@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748857"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471642"
 ---
 # <a name="message-processor-messages"></a>Messages du processeur de messages
 
@@ -44,7 +44,7 @@ Vous pouvez utiliser les champs en haut des **Messages du processeur de messages
   - *En file d’attente* – Le message est prêt à être traité par le processeur de messages.
   - *Traité* – Le message a été traité par le processeur de messages.
   - *Annulé* – Le message a été traité, mais le traitement a échoué.
-- **Contenu du message** – Ce filtre lance une recherche en texte intégral du contenu du message. (Le contenu du message n’est pas affiché dans la grille.) Le filtre traite la plupart des symboles spéciaux (tels que « - ») comme des espaces et traite tous les caractères d’espacement comme des opérateurs booléens OR. T = Par exemple, cela signifie que si vous recherchez une valeur `journalid` égale à « USMF-123456 », le système trouvera tous les messages contenant « USMF » ou « 123456 », et vous obtiendrez probablement une longue liste. Par conséquent, il serait préférable de saisir uniquement « 123456 », car cela renverra des résultats plus spécifiques.
+- **Contenu du message** – Ce filtre lance une recherche en texte intégral du contenu du message. (Le contenu du message n’est pas affiché dans la grille.) Le filtre traite la plupart des symboles spéciaux (tels que « - ») comme des espaces et traite tous les caractères d’espacement comme des opérateurs booléens OR. Par exemple, cela signifie que si vous recherchez une valeur `journalid` égale à « USMF-123456 », le système trouvera tous les messages contenant « USMF » ou « 123456 », et vous obtiendrez probablement une longue liste. Par conséquent, il serait préférable de saisir uniquement « 123456 », car cela renverra des résultats plus spécifiques.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Exemple de type de message : demande de mise à jour financière de l’ajustement des stocks
 
@@ -65,7 +65,7 @@ La barre d’outils sur l’onglet **Journal** comprend les boutons suivants :
 
 ## <a name="message-processor-batch-job"></a>Tâche par lots du processeur de messages
 
-Lors de l’exécution d’un déploiement cloud et périphérique, la tâche par lots *Processeur de messages* sera automatiquement invoquée lorsqu’un nouveau message est créé pour le traitement, vous ne devriez donc pas avoir besoin de planifier ce travail manuellement.
+Lors de l’exécution d’une topologie hybride distribué avec des unités d'échelle, la tâche par lots *Processeur de messages* sera automatiquement invoquée lorsqu’un nouveau message est créé pour le traitement, vous ne devriez donc pas avoir besoin de planifier ce travail manuellement.
 
 Si nécessaire, vous pouvez accéder à la tâche par lots via **Administration système > Processeur de messages > Processeur de messages**.
 

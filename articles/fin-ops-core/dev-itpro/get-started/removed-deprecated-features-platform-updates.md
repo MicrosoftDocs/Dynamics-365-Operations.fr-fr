@@ -2,7 +2,7 @@
 title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774407"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463619"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -32,7 +32,29 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Notification d’abandon de fonctionnalités à compter de mai 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Notification d’abandon de fonctionnalités à compter d’août 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Rapports SQL Microsoft Azure dans Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Nous abandonnons certains rapports SQL dans LCS. Vous n’aurez plus besoin de surveiller les rapports, car cette fonctionnalité a été remplacée par d’autres services. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Rapports SQL : DTU actuel, Détails du DTU actuel, Obtenir les détails du verrouillage, Liste du guide du plan actuel, Obtenir la liste des ID de requête, Obtenir le plan de requête SQL pour un ID de plan donné, Obtenir les plans de requête et le statut d’exécution, Obtenir la configuration de l’accélérateur, Obtenir les statistiques d’attente, Répertorier les requêtes les plus chères |
+| **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
+| **État**                         | Obsolète : date de suppression prévue en octobre 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Actions Azure SQL dans LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Nous abandonnons certaines actions SQL dans LCS.  |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Zones de produit affectées**         | Actions SQL : Créer un guide de plan pour forcer l’ID de plan, Créer un guide de plan pour ajouter des conseils de table, Supprimer un guide de plan, Désactiver/Activer les verrous de page et l’escalade de verrous, Mettre à jour les statistiques sur une table, Régénérer l’index, Créer un index |
+| **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
+| **État**                         | Obsolète : date de suppression prévue en octobre 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Notification d’abandon de fonctionnalités à compter de mai 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portail de globalisation de Lifecycle Services (LCS)
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345147"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475034"
 ---
 # <a name="inventory-visibility-reservations"></a>Réservations dans la visibilité des stocks
 
@@ -32,19 +32,20 @@ Vous pouvez éventuellement configurer Microsoft Dynamics 365 Supply Chain Manag
 
 Lorsque vous activez la fonction de réservation, Supply Chain Management est automatiquement prêt à compenser les réservations effectuées à l'aide de la visibilité des stocks.
 
-> [!NOTE]
-> La fonctionnalité de compensation nécessite Supply Chain Management version 10.0.22 ou ultérieure. Si vous souhaitez utiliser les réservations de visibilité des stocks, nous vous recommandons d'attendre d'avoir mis à niveau Supply Chain Management vers la version 10.0.22 ou ultérieure.
-
-## <a name="turn-on-the-reservation-feature"></a>Activer la fonction de réservation
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Activer et configurer la fonction de réservation
 
 Pour activer la fonctionnalité de réservation, procédez comme suit.
 
-1. Dans Power Apps, ouvrez **Visibilité des stocks**.
+1. Connectez-vous à Power Apps et ouvrez la **Visibilité du stock**.
 1. Ouvrez la page **Configuration**.
 1. Sur l'onglet **Gestion des fonctionnalités**, activez la fonctionnalité *OnHandReservation*.
 1. Connectez-vous à Supply Chain Management.
-1. Allez dans **Gestion des stocks \> Configuration \> Paramètres d'intégration de la visibilité des stocks**.
-1. Sous **Compensation de réservation**, définissez l'option **Activer la compensation de réservation** sur *Oui*.
+1. Accédez à l'espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** et activez la fonction *Intégration de la visibilité du stock avec compensation de réservation* (nécessite la version 10.0.22 ou ultérieure).
+1. Accédez à **Gestion des stocks \> Paramétrage \> Paramètres d'intégration de la visibilité du stock**, ouvrez l'onglet **Compensation de réservation** et effectuez les réglages suivants :
+    - **Activer la compensation des réservations** : définissez-le sur *Oui* pour activer cette fonctionnalité.
+    - **Modificateur de la compensation des réservations** : sélectionnez le statut de la transaction de stock qui compensera les réservations effectuées sur la visibilité des stocks. Ce paramètre détermine l'étape de traitement de la commande qui déclenche les compensations. L'étape est tracée par le statut du mouvement de stock de la commande. Choisissez l’une des méthodes suivantes :
+        - *Sur commande* - Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
+        - *Réserve* - Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu'elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu'une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Utiliser la fonction de réservation dans la visibilité des stocks
 
@@ -56,13 +57,21 @@ La hiérarchie de réservation décrit la séquence de dimensions qui doit être
 
 La hiérarchie de réservation peut différer de la hiérarchie d'indexation. Cette indépendance vous permet de mettre en œuvre une gestion des catégories où les utilisateurs peuvent décomposer les dimensions en détails pour spécifier les exigences nécessaires pour effectuer des réservations plus précises.
 
-Pour configurer une hiérarchie de réservation provisoire dans Power Apps, ouvrez la page **Configuration**, puis, sur l'onglet **Mappage de réservation provisoire**, paramétrez la hiérarchie des réservations en ajoutant et/ou en modifiant des dimensions et leurs niveaux hiérarchiques.
+Pour configurer une hiérarchie de réservation provisoire dans Power Apps, ouvrez la page **Configuration**, puis, sur l'onglet **Hiérarchie de réservation provisoire**, paramétrez la hiérarchie des réservations en ajoutant et/ou en modifiant des dimensions et leurs niveaux hiérarchiques.
+
+Votre hiérarchie de réservation provisoire doit contenir `SiteId` et `LocationId` en tant que composants, car ils construisent la configuration de la partition.
+
+Pour plus d'informations sur la configuration des réservations, consultez la rubrique [Configuration des réservations](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Appeler l'API de réservation
 
 Les réservations se font dans le service de visibilité des stocks en soumettant une requête POST à l'URL du service, telle que `/api/environment/{environment-ID}/onhand/reserve`.
 
 Pour une réservation, le corps de la requête doit contenir un ID d'organisation, un ID de produit, des quantités réservées et des dimensions. La demande génère un ID de réservation unique pour chaque enregistrement de réservation. L'enregistrement de réservation contient la combinaison unique de l'ID du produit et des dimensions.
+
+Lorsque vous appelez l'API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu'une valeur `False` signifie que la validation n'est pas requise. La valeur par défaut est `True`.
+
+Si vous souhaitez annuler une réservation ou annuler la réservation de quantités de stock spécifiées, définissez la quantité sur une valeur négative et définissez le paramètre `ifCheckAvailForReserv` sur `False` pour ignorer la validation.
 
 Voici un exemple du corps de la requête, pour référence.
 
@@ -108,18 +117,9 @@ Pour les statuts de mouvement de stock qui incluent un modificateur de compensat
 
 La quantité compensée suit la quantité en stock qui est spécifiée sur les mouvement de stock. La compensation ne prend pas effet s'il ne reste aucune quantité réservée dans le service de visibilité des stocks.
 
-> [!NOTE]
-> La fonctionnalité de compensation est disponible à partir de la version 10.0.22
+### <a name="set-up-the-reservation-offset-modifier"></a>Configurer le modificateur de compensation des réservations
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Configurer le modificateur de compensation de réserve
-
-Le modificateur de compensation de réserve détermine l'étape de traitement de la commande qui déclenche les compensations. L'étape est tracée par le statut du mouvement de stock de la commande. Pour paramétrer le modificateur de compensation de réserve, procédez comme suit.
-
-1. Allez dans **Gestion des stocks \> Configuration \> Paramètres d'intégration de la visibilité des stocks \> Compensation de réservation**.
-1. Définissez le champ **Modificateur de compensation de réserve** sur l’une des valeurs suivantes :
-
-    - *Sur commande* - Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création.
-    - *Réserve* - Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu'elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu'une seule fois, pour la première étape lorsque le processus mentionné se produit.
+Si vous ne l'avez pas déjà fait, configurez le modificateur de réservation comme décrit dans [Activer et configurer la fonction de réservation](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Définir des ID de réservation
 

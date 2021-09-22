@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712047"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474914"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.16 (février 2021)
 
@@ -56,34 +56,10 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 - [Aperçu des matières dangereuses](../pim/hazmat-overview.md) (et sujets connexes)
 - [Migration vers l’optimisation de la planification pour la planification générale](../master-planning/new-master-planning-engine.md)
 - [Améliorations des cXML d’achat](../procurement/purchasing-cxml-enhancements.md)
-- [Dépannage de la gestion des coûts](../cost-management/troubleshoot-costmanagement.md)
-- [Résoudre les problèmes des opérations d’entrepôt entrantes](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Résolution des problèmes de création de chargement et expéditions](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Résoudre les problèmes de la planification](../master-planning/troubleshoot-masterplanning.md)
-- [Résoudre les problèmes des opérations d’entrepôt sortantes](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Résoudre les problèmes des lancements partiels et des expéditions partielles](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Résoudre les problèmes du configurateur de produit](../pim/troubleshooting-productconfigurator.md)
-- [Résoudre les problèmes d’informations sur le produit](../pim/troubleshooting-productinformation.md)
-- [Résolution des problèmes des workflows d’approvisionnement](../procurement/troubleshoot-procurementworkflows.md)
-- [Résoudre les problèmes de commandes fournisseur](../procurement/troubleshoot-purchaseorders.md)
-- [Résoudre les problèmes de prix, de remises, d’accords et de rabais](../procurement/troubleshooting-pricediscountagreements.md)
-- [Résoudre les problèmes d’accusés de réception de marchandises et de facturation](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Résoudre les problèmes de fabrication discrète](../production-control/troubleshoot-discretemanufacturing.md)
-- [Résoudre les problèmes de prélèvement et de conditionnement](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Résoudre les problèmes de traitement de la production](../production-control/troubleshoot-processmanufacturing.md)
-- [Résoudre les problèmes de réservations dans la gestion des entrepôts](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Résoudre les problèmes de commandes client](../sales-marketing/troubleshooting-sales.md)
-- [Résoudre les problèmes de devis de vente](../sales-marketing/troubleshooting-salesquotation.md)
-- [Résoudre les problèmes de mise à niveau et de migration vers la gestion avancée des entrepôts](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Résoudre les problèmes de connexion de l’application mobile Gestion des entrepôts](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Résoudre des problèmes de configuration de l’entrepôt](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Résoudre les problèmes de réapprovisionnement de l’entrepôt](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Résoudre les problèmes de configuration d’entrepôt](../warehousing/troubleshoot-warehouse-setup.md)
-- [Résoudre les problèmes de travail d’entrepôt](../warehousing/troubleshoot-warehouse-work.md)
 - [Clusters de rangement](../warehousing/putaway-clusters.md)
 - [Stratégies de réapprovisionnement](../warehousing/replenishment-strategies.md)
 - [Fractionnement du travail](../warehousing/work-split.md)
-- [Utiliser des instructions d’emplacement](../warehousing/create-location-directive.md)
+- [Utiliser les instructions d’emplacement](../warehousing/create-location-directive.md)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a367b95a65c45b1e7ac46e9ac96baa2417bf3e48e3d5bfeca21c82cc8c427c24
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5cb4c2b9b4a3c54e71f73369096d00b436079c1c
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714352"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475010"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Attributs d’ingénierie et recherche d’attributs d’ingénierie
 
@@ -26,15 +26,13 @@ ms.locfileid: "6714352"
 
 Vous devez utiliser les attributs d’ingénierie pour spécifier toutes les caractéristiques non standard, afin de vous assurer que toutes les données de produit générique peuvent être enregistrées dans le système. Vous pouvez ensuite utiliser la recherche d’attributs d’ingénierie pour trouver facilement des produits en fonction de ces caractéristiques enregistrées.
 
-## <a name="engineering-attributes"></a>Attributs d’ingénierie
+## <a name="create-engineering-attributes-and-attribute-types"></a>Créer des attributs d’ingénierie et des types d’attributs
 
 En règle générale, les produits d’ingénierie ont de nombreuses caractéristiques et propriétés que vous devez capturer. Bien que vous puissiez enregistrer certaines des propriétés à l’aide des champs de produit standard, vous pouvez également créer des propriétés d’ingénierie si nécessaire. Vous pouvez définir vos propres *attributs d’ingénierie* et les intégrer à la définition du produit.
 
-### <a name="create-engineering-attributes-and-attribute-types"></a>Créer des attributs d’ingénierie et des types d’attributs
-
 Chaque attribut d’ingénierie doit appartenir à un *type d’attribut*. Cette exigence existe car chaque attribut d’ingénierie doit avoir un *Type de données* qui définit les types de valeurs qu’il peut contenir. Un type d’attribut d’ingénierie peut être un type standard (tel que du texte libre, un entier ou un décimal) ou un type personnalisé (tel qu’un texte comportant un ensemble spécifique de valeurs à sélectionner). Vous pouvez réutiliser chaque type d’attribut avec n’importe quel nombre d’attributs d’ingénierie.
 
-#### <a name="set-up-engineering-attribute-types"></a>Paramétrer les types d’attributs d’ingénierie
+### <a name="set-up-engineering-attribute-types"></a>Paramétrer les types d’attributs d’ingénierie
 
 Pour afficher, créer ou modifier un type d’attribut d’ingénierie, procédez comme suit.
 
@@ -48,7 +46,7 @@ Pour afficher, créer ou modifier un type d’attribut d’ingénierie, procéde
     - **Plage de valeurs** – Cette option n’est disponible que si vous définissez le champ **Type** sur *Entier*, *Décimal* ou *Devise*. Définissez-le sur *Oui* pour établir les valeurs minimales et maximales qui seront acceptées pour les attributs de ce type. Vous utilisez le raccourci **Intervalle** pour établir les valeurs minimum et maximum et (pour la devise) la devise qui s’applique aux limites que vous avez entrées. Définissez cette option sur *Non* pour accepter n’importe quelle valeur. 
     - **Unité de mesure** – Ce champ n’est disponible que si vous définissez le champ **Type** sur *Entier* ou *Décimal*. Sélectionnez l’unité de mesure qui s’applique à ce type d’attribut. Si aucune unité n’est requise, laissez ce champ vide.
 
-#### <a name="set-up-engineering-attributes"></a>Paramétrer les attributs d’ingénierie
+### <a name="set-up-engineering-attributes"></a>Paramétrer les attributs d’ingénierie
 
 Pour afficher, créer ou modifier un attribut d’ingénierie, procédez comme suit.
 
@@ -70,17 +68,43 @@ Pour afficher, créer ou modifier un attribut d’ingénierie, procédez comme s
     - **Minimum** – Entrez la valeur minimale recommandée ou acceptée.
     - **Maximum** – Entrez la valeur maximale recommandée ou acceptée.
 
-### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Connectez les attributs d’ingénierie à une catégorie de produits d’ingénierie
+### <a name="engineering-attribute-inheritance"></a>Héritage des attributs d'ingénierie
+
+Pour les structures de produit, telles que les nomenclatures ou les formules, des attributs sélectionnés peuvent être transmis des articles enfants aux articles parents. Vous pouvez considérer ce processus comme un « héritage inversé ».
+
+#### <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
+
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette section, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Héritage d'attributs amélioré pour la gestion des modifications techniques*.
+
+#### <a name="attribute-inheritance-example"></a>Exemple d'héritage d'attributs
+
+Pour un produit alimentaire tel qu'un gâteau aux carottes, le système doit enregistrer chaque allergène contenu dans le produit. Le gâteau aux carottes peut être modélisé dans le système comme un produit d'ingénierie ayant une formule. Cette formule contient les ingrédients du gâteau aux carottes, tels que la farine, le lait, les carottes et les noix. Dans cet exemple, l'entreprise propose deux modèles de gâteau aux carottes : l'un qui contient du lactose et l'autre qui n'en contient pas.
+
+Le gâteau qui contient du lactose a les attributs suivants au niveau des ingrédients :
+
+- Ingrédient "farine" : attribut "gluten" = oui
+- Ingrédient "lait" : attribut "lactose" = oui
+- Ingrédient "noix" : attribut "noix" = oui
+
+Le gâteau qui ne contient pas de lactose emploie du lait sans lactose et a les attributs suivants au niveau des ingrédients :
+
+- Ingrédient "farine" : attribut "gluten" = oui
+- Ingrédient "lait" : attribut "lactose" = non
+- Ingrédient "noix" : attribut "noix" = oui
+
+Étant donné que ces produits sont majoritairement similaires, il peut être pratique de transmettre ces attributs des produits enfants (les deux variantes) au produit parent (le gâteau aux carottes de base). Pour mettre en œuvre cet « héritage inversé », vous pouvez utiliser la fonctionnalité *Héritage d'attributs*. Cette fonctionnalité est définie pour chaque [version d'ingénierie](engineering-versions-product-category.md).
+
+## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Connectez les attributs d’ingénierie à une catégorie de produits d’ingénierie
 
 Certains attributs d’ingénierie s’appliquent à tous les produits, tandis que d’autres sont spécifiques à des produits individuels ou à des catégories de produits. Par exemple, les attributs électriques ne sont pas requis pour les produits mécaniques. Par conséquent, vous pouvez configurer des *catégories de produits d’ingénierie*. Une catégorie de produits d’ingénierie établit l’ensemble des attributs d’ingénierie qui doivent faire partie de la définition des produits appartenant à cette catégorie. Vous pouvez également spécifier les attributs d’ingénierie obligatoires et s’il existe une valeur par défaut.
 
 Pour plus d’informations sur l’utilisation des catégories de produits d’ingénierie, notamment sur la manière de connecter des attributs à des catégories, voir [Versions d’ingénierie et catégories de produits d’ingénierie](engineering-versions-product-category.md).
 
-### <a name="set-values-for-engineering-attributes"></a>Définir les valeurs des attributs d’ingénierie
+## <a name="set-attribute-values-for-engineering-attributes"></a>Définir les valeurs d'attribut des attributs d’ingénierie
 
 Les attributs d’ingénierie qui sont connectés à une catégorie de produits d’ingénierie sont présentés lorsque vous créez un produit d’ingénierie basé sur cette catégorie. À ce moment-là, vous pouvez définir des valeurs pour les attributs. Plus tard, ces valeurs peuvent être modifiées sur la page **Version d’ingénierie** ou dans le cadre de la gestion des modifications techniques dans un ordre de modification technique. Pour plus d’informations, voir [Gérer modifications des produits techniques](engineering-change-management.md).
 
-### <a name="create-an-engineering-product"></a>Créer un produit d’ingénierie
+## <a name="create-an-engineering-product"></a>Créer un produit d’ingénierie
 
 Pour créer un produit d’ingénierie, ouvrez la page **Produits lancés**. Ensuite, sur le volet Actions, sous l’onglet **Produit**, dans le groupe **Nouveau**, cliquez sur **Produit d’ingénierie**.
 

@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757804"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475082"
 ---
 # <a name="inventory-forecasts"></a>Prévisions du stock
 
@@ -94,7 +94,7 @@ Le tableau suivant décrit les commandes disponibles sur la barre d’outils de 
 
 | Commande | Description |
 |---|---|
-| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. |
+| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cette rubrique.) |
 | Mise à jour par lot | Ouvrez la page **Modifier les transactions de prévision**. (Voir la section [Mettre à jour en bloc les transactions de prévision](#bulk-update), plus loin dans cette rubrique.) |
 | Prévisions de stock | Ouvrez une vue de la page **Prévision de stock** filtrée pour la combinaison article/modèle sélectionnée. (Voir la section [Prévision de stock](#inventory-forecast) plus loin dans cette rubrique.) |
 | Créer une demande d’articles | Ouvrez une boîte de dialogue dans laquelle vous pouvez créer des besoins d’article et des commandes client ou des lignes de journal d’article pour les transactions de prévision liées au projet. Bien que cette commande soit disponible à la fois pour les lignes de prévision d’approvisionnement et les lignes de prévision de la demande, elle ne peut pas être utilisée sur la page **Prévision d’approvisionnement**. |
@@ -201,7 +201,7 @@ Le tableau suivant décrit les commandes disponibles sur la barre d’outils de 
 
 | Commande | Description |
 |---|---|
-| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. |
+| Répartir la prévision | Si vous utilisez une méthode de répartition, générez les lignes d’échéancier individuelles pour la transaction de prévision. La quantité de la ligne est ensuite répartie par date (selon les intervalles de temps sélectionnés), quantité et montant pour tout l’horizon temporel. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cette rubrique.)|
 | Mise à jour par lot | Ouvrez la page **Modifier les transactions de prévision**. (Voir la section [Mettre à jour en bloc les transactions de prévision](#bulk-update), plus loin dans cette rubrique.) |
 | Prévisions de stock | Ouvrez une vue de la page **Prévision de stock** filtrée pour la combinaison article/modèle sélectionnée. (Voir la section [Prévision de stock](#inventory-forecast) plus loin dans cette rubrique.) |
 | Créer une demande d’articles | Ouvrez une boîte de dialogue dans laquelle vous pouvez créer des besoins d’article et des commandes client ou des lignes de journal d’article pour les transactions de prévision liées au projet. |
@@ -296,7 +296,7 @@ L’onglet **Dimensions de stock** affiche toutes les valeurs de dimension de st
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>La grille Répartition sur la page Prévision de la demande
 
-Si vous utilisez une clé de répartition par article ou si vous avez saisi une prévision d’article pour une ou plusieurs périodes futures, vous pouvez répartir la prévision en sélectionnant **Répartir la prévision** dans la barre d’outils de l’onglet **Vue d’ensemble**. La quantité est ensuite répartie de la manière indiquée par les lignes dans la grille **Répartition**.
+Si vous utilisez une clé de répartition par article ou si vous avez saisi une prévision d’article pour une ou plusieurs périodes futures, vous pouvez répartir la prévision en sélectionnant **Répartir la prévision** dans la barre d’outils de l’onglet **Vue d’ensemble**. La quantité est ensuite répartie de la manière indiquée par les lignes dans la grille **Répartition**. (Voir la section [Répartir la prévision](#allocate-forecast) plus loin dans cette rubrique.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Prévisions de stock
 
@@ -328,6 +328,25 @@ Le tableau suivant décrit les champs de la grille sur la page **Prévision de s
 | **Sous-nomenclature** | Numéro de nomenclature d’une sous-nomenclature spécifique. |
 | **Sous-gamme** | Numéro de gamme d’une sous-gamme spécifique. |
 | (Autres dimensions) | Des dimensions supplémentaires peuvent être affichées sous forme de colonnes dans la grille. Pour sélectionner les dimensions supplémentaires affichées, sélectionnez **Stock \> Dimensions d’affichage** dans le volet Actions. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Répartir la prévision
+
+La procédure suivante permet de traiter les lignes de transaction de prévision sélectionnées. Lorsque vous affectez une prévision, la quantité est ensuite répartie comme indiqué par les lignes de la grille **Répartition**.
+
+1. Selon le type d’entité pour lequel vous créez une prévision et le type de prévision que vous souhaitez créer, ouvrez une page de prévision d’offre ou de demande, comme décrit dans [Afficher et saisir manuellement des lignes de prévision](#manual-entry).
+1. Sur la page des lignes de prévision de l'offre ou de la demande, sélectionnez une ligne de prévision, puis, sur l'onglet **Vue d'ensemble**, sélectionnez **Répartir la prévision** sur la barre d'outils.
+1. Dans la boîte de dialogue **Répartir la prévision**, définissez les champs décrits dans le tableau suivant. (La valeur que vous sélectionnez dans le champ **Méthode** détermine les autres champs disponibles.)
+
+    | Champ | Description |
+    |---|---|
+    | méthode | <p>Sélectionnez la méthode utilisée pour affecter la transaction de prévision :</p><ul><li>**Aucune** : aucune répartition n’est effectuée.</li><li>**Période** : prévoir la même quantité pour chaque période. Si vous sélectionnez cette valeur, spécifiez une quantité dans le champ **Par** et une unité de temps dans le champ **Unité**.</li><li>**Clé** : la quantité prévue est répartie en fonction de la clé de répartition par période que vous spécifiez dans le champ **Clé de période**. Cette méthode permet de prendre en compte les variations saisonnières.</li><ul>|
+    | Par | <p>Permet d’entrer le nombre d’intervalles de temps dans le futur couverts par la prévision. Ce champ n’est disponible que si vous avez sélectionné *Période* dans le champ **Méthode**.</p><p>Par exemple, sélectionnez *Période* dans le champ **Méthode**, entrez *1* dans le champ **Par**, et sélectionnez *Mois* dans le champ **Unité**. Ensuite, dans le champ **Fin**, spécifiez une date de fin pouvant aller jusqu’à 1 an dans le futur. Dans ce cas, une ligne de prévision sera créée pour chaque mois de l’année à venir, en fonction de l’article et de la quantité spécifiés sur la ligne d’en-tête. |
+    | Unité | Sélectionnez l’unité de l’intervalle de temps : *Jours*, *Mois* ou *Années*. La répartition correspond alors au nombre de jours, mois ou années que vous avez spécifié dans le champ **Par**.|
+    | Clé de période | Spécifiez la clé de répartition par période utilisée pour répartir la prévision. Pour plus d’informations, voir [Répartition de données de planification budgétaire](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Terminer | Spécifiez la date de fin qui s'applique à vos paramètres dans les champs **Par** et **Unité**. |
+
+1. Sélectionnez **OK** pour confirmer vos paramètres.
+1. Vous pouvez consulter les résultats sur l'onglet **Répartition** pour la même ligne.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Mise à jour en bloc des transactions de prévision
 

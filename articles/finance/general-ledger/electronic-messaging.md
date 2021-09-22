@@ -2,7 +2,7 @@
 title: Messagerie électronique
 description: Cette rubrique fournit des informations générales et de configuration pour la messagerie électronique dans Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768337"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478722"
 ---
 # <a name="electronic-messaging"></a>Messages électroniques
 
@@ -57,6 +57,16 @@ La fonctionnalité ME prend en charge les scénarios suivants :
 - Stockez et vérifiez tous les états générés.
 - Stockez et vérifiez toutes les informations de journal associées aux actions exécutées pour un message ou un élément du message.
 - Contrôlez le traitement par l’intermédiaire de différents statuts de message et statuts d’élément du message.
+
+## <a name="security-privileges"></a>Privilèges de sécurité
+
+Les privilèges de sécurité suivants sont disponibles pour les messages électroniques.
+
+| Privilège de sécurité           | Niveau d'accès | Association |
+|------------------------------|--------------|-------------|
+| Mettre à jour les messages électroniques | Ce privilège donne un accès complet à la fonctionnalité ME. Si vous disposez de ce privilège, vous pouvez paramétrer la messagerie électronique et exécuter tous les traitements. | Ce privilège est inclus dans le droit de sécurité **Tenir à jour les transactions de taxe**. Ce droit, à son tour, est inclus dans le rôle de sécurité **Comptable**. |
+| Afficher les messages électroniques     | Ce privilège donne un accès en lecture seule à la fonctionnalité ME. Si vous disposez de ce privilège, vous pouvez afficher les paramètres et les messages de la messagerie électronique. Cependant, vous ne pouvez rien configurer ni exécuter. | Ce privilège est inclus dans le droit de sécurité **Interroger le statut des transactions de taxe**. Ce droit, à son tour, est inclus dans les rôles de sécurité suivants :<ul><li>Gestionnaire de recouvrement</li><li>Commis à la comptabilité client</li><li>Responsable Comptabilité client</li><li>Comptable des taxes</li><li>Comptable</li><li>Responsable comptabilité</li><li>Chef comptable</li><li>Responsable des ventes</li><li>Commis à la comptabilité fournisseur</li></ul> |
+| Traiter les messages électroniques  | Ce privilège donne accès uniquement aux pages **Messages électroniques** et **Éléments des messages électroniques**. Si vous disposez de ce privilège, vous pouvez exécuter tous les traitements appelés à partir de ces pages. | Ce privilège est inclus dans le droit de sécurité **Utiliser les messages électroniques**. Ce droit, à son tour, est inclus dans le rôle de sécurité **Opérateur des messages électroniques**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Fonctionnalités réglementaires spécifiques au pays prises en charge par la fonctionnalité ME
 

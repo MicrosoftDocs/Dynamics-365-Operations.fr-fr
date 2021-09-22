@@ -1,8 +1,8 @@
 ---
 title: Paramétrer des codes motif
 description: Dynamics 365 Human Resources utilise des codes de motif pour expliquer pourquoi les avantages d’un employé changent.
-author: andreabichsel
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd7c5a35a6d4b40eb376eee2580af681f7bfd7f8f93aab8aad67f238fc40470b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f89d6158f351e30376fc3f80c793f29734cdcbb
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732679"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431340"
 ---
 # <a name="set-up-reason-codes"></a>Paramétrer des codes motif
 
@@ -29,11 +29,11 @@ ms.locfileid: "6732679"
 Dynamics 365 Human Resources utilise des codes de motif pour expliquer pourquoi les avantages d’un employé changent.
 
 > [!NOTE]
-> Depuis janvier 2021, les codes motif migrent vers l’espace de travail **Gestion du personnel** au lieu de l’espace de travail **Gestion des avantages**. Pour plus d’informations, voir [Migrer manuellement les codes motif vers la gestion du personnel](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
+> Depuis janvier 2021, les codes motif ont été migrés vers l’espace de travail **Gestion du personnel** au lieu de l’espace de travail **Gestion des avantages**. Pour plus d’informations, voir [Migrer manuellement les codes motif vers la gestion du personnel](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
 
 ## <a name="create-reason-codes"></a>Créer des codes motifs
 
-1. Dans l’espace de travail **Gestion du personnel** (ou l’espace de travail **Gestion des avantages** si vos codes motifs n’ont pas encore migré), sélectionnez **Liens**, puis **Codes motifs**.
+1. Dans l’espace de travail **Gestion du personnel** (ou l’espace de travail **Gestion des avantages** si vos codes motifs n’ont pas migré), sélectionnez **Liens**, puis **Codes motifs**.
 
 2. Sélectionnez **Nouveau**.
 
@@ -44,13 +44,13 @@ Dynamics 365 Human Resources utilise des codes de motif pour expliquer pourquoi 
    | **Code motif** | Nom unique pour identifier la raison pour laquelle un employé modifierait la souscription à un régime de prestations. |
    | **Description** | Description du code motif. |
 
-4. Sous **Scénarios applicables**, définissez **Gestion des avantages** sur **Oui**. (Ne s’applique pas si vos codes motif n’ont pas encore migré vers l’espace de travail **Gestion du personnel**.)
+4. Sous **Scénarios applicables**, définissez **Gestion des avantages** sur **Oui**. (Ne s’applique pas si vos codes motif n’ont pas migré vers l’espace de travail **Gestion du personnel**.)
 
 5. Sélectionnez **Enregistrer**.
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Migrer manuellement les codes motif vers Gestion du personnel
 
-En janvier 2021, les codes motif ont migré vers l’espace de travail **Gestion du personnel** au lieu de l’espace de travail **Gestion des avantages**. La plupart des données de code motif migreront automatiquement dans votre environnement. Il est possible que certaines données de code motif ne migrent pas. Par exemple, les codes motif ont désormais un maximum de 15 caractères, de sorte que ceux de plus de 15 caractères ne migreront pas automatiquement.
+En janvier 2021, les codes motif ont été migrés vers l’espace de travail **Gestion du personnel** au lieu de l’espace de travail **Gestion des avantages**. La plupart des données de code motif migreront automatiquement dans votre environnement. Il est possible que certaines données de code motif ne migrent pas. Par exemple, les codes motif ont désormais un maximum de 15 caractères, de sorte que ceux de plus de 15 caractères ne migreront pas automatiquement.
 
 Vous verrez une bannière sur la page **Liens** de l’espace de travail **Gestion des avantages** vous informant de la migration et indiquant si des codes motif n’ont pas migré.
 

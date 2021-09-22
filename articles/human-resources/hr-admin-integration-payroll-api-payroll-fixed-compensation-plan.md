@@ -2,7 +2,7 @@
 title: Régime de rémunération fixe avec paie
 description: Cette rubrique fournit des détails un exemple de requête pour l’entité Régime de rémunération fixe dans Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429221"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Régime de rémunération fixe avec paie
 
@@ -26,7 +26,7 @@ ms.locfileid: "6738389"
 
 Cette rubrique décrit l’entité du plan de rémunération fixe de la paie pour Dynamics 365 Human Resources.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit le plan de rémunération fixe attribué pour un poste donné d’un employé.
 
@@ -34,18 +34,27 @@ Nom physique : mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description  |
+| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
-| **ID employé**<br>mshr_fk_employee_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : Foreign key:mshr_Employee_id de mshr_payrollemployeeentity entity  | ID employé |
-| **Salaire**<br>mshr_payrate<br>*Décimal* | Lecture seule<br>Requis | Taux de rémunération défini dans le régime de rémunération fixe. |
-| **ID plan**<br>mshr_planid<br>*Chaîne* | Lecture seule<br>Requis |Spécifie le régime de rémunération.  |
-| **Valide à partir du**<br>mshr_validfrom<br>*Décalage de date et heure* |  Lecture seule<br>Requis |Date à partir de laquelle les informations relatives à la rémunération fixe sont valides.  |
-| **Entité Régime de rémunération fixe avec paie**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Requis<br>Généré par le système | Valeur GUID générée par le système pour identifier le rémunération fixe de manière unique. |
-| **Fréquence de paiement**<br>mshr_payfrequency<br>*Chaîne* | Lecture seule<br>Requis |La fréquence à laquelle l’employé sera payé.  |
-| **Valide jusqu’au**<br>mshr_validto<br>*Décalage de date et heure* | Lecture seule <br>Requis | Date jusqu’à laquelle les informations relatives à la rémunération fixe sont valides. |
-| **ID poste**<br>mshr_positionid<br>*Chaîne* | Lecture seule <br>Requis | ID de poste associé à l’employé et à l’inscription au régime de rémunération fixe. |
-| **Devise**<br>mshr_currency<br>*Chaîne* | Lecture seule <br>Requis |La devise définie pour le régime de rémunération fixe   |
-| **Numéro personnel**<br>mshr_personnelnumber<br>*Chaîne* | Lecture seule<br>Requis |Numéro personnel unique du collaborateur.  |
+| **ID plan**</br>mshr_planid</br>*Chaîne* | Lecture seule | Spécifie le régime de rémunération.  |
+| **Numéro personnel**</br>mshr_personnelnumber</br>*Chaîne* | Lecture seule | Numéro personnel unique du collaborateur. |
+| **Salaire**</br>mshr_payrate</br>*Décimal* | Lecture seule | Taux de rémunération défini dans le régime de rémunération fixe. |
+| **ID poste**</br>mshr_positionid</br>*Chaîne* | Lecture seule | ID de poste associé à l’employé et à l’inscription au régime de rémunération fixe. |
+| **Valide à partir du**</br>mshr_validfrom</br>*Décalage de date et heure* |  Lecture seule | Date à partir de laquelle les informations relatives à la rémunération fixe sont valides.  |
+| **Valide jusqu’au**</br>mshr_validto</br>*Décalage de date et heure* | Lecture seule | Date jusqu’à laquelle les informations relatives à la rémunération fixe sont valides. |
+| **Fréquence de paiement**</br>mshr_payfrequency</br>*Chaîne* | Lecture seule | La fréquence à laquelle l’employé sera payé.  |
+| **Devise**</br>mshr_currency</br>*Chaîne* | Lecture seule | La devise définie pour le régime de rémunération fixe. |
+| **Entité Régime de rémunération fixe avec paie**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Généré par le système | Valeur GUID générée par le système pour identifier le rémunération fixe de manière unique. |
+
+## <a name="relations"></a>Relations
+
+|Valeur de propriété | Entité liée | Propriété de navigation | Type de collection |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Exemple de requête
 

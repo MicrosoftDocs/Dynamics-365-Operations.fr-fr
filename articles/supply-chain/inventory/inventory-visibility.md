@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344286"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474986"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Vue d'ensemble du complément de visibilité des stocks
 
@@ -31,22 +31,20 @@ En tant que microservice basé sur Microsoft Dataverse, la visibilité des stock
 
 Vous pouvez intégrer la visibilité des stocks à plusieurs systèmes tiers en définissant des options de configuration pour les dimensions de stock standardisées et en définissant des types de transaction. la visibilité des stocks prend également en charge l'extensibilité personnalisée grâce à des quantités calculées configurables.
 
-## <a name="supported-features"></a>Fonctionnalités prises en charge
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Intégration de la visibilité des stocks avec Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Intégration de la visibilité des stocks avec Dynamics 365 Supply Chain Management
+La solution intégrée extrait les données de stock de Dynamics 365 Supply Chain Management et suit en permanence les changements de niveau des stocks. Pour plus d'informations, consultez [Installer et configurer la visibilité des stocks](inventory-visibility-setup.md) et [Configurer la visibilité des stocks](inventory-visibility-configuration.md).
 
-La solution intégrée extrait les données de stock de Dynamics 365 Supply Chain Management et suit en permanence les changements de niveau des stocks. Pour plus d’informations, voir [Paramétrage de la visibilité des stocks](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Obtenir une vue globale des stocks
 
-### <a name="get-a-global-view-of-inventory"></a>Obtenir une vue globale des stocks
-
-La solution intégrée vous permet de définir vos propres sources de données et de centraliser les données de stock. Pour plus d’informations, voir [Configuration de la visibilité des stocks](inventory-visibility-configuration.md).
+La solution intégrée vous permet de définir vos propres sources de données et de centraliser les données de stock. Pour plus d’informations, voir [Configurer la visibilité des stocks](inventory-visibility-configuration.md).
 
 Il existe deux approches pour afficher vos stocks :
 
 - Soumettez une requête via l'API hautes performances. Cette API peut renvoyer des données de stock en temps quasi réel directement à partir d'une instance mise en cache. Vous pouvez trouver des contrats et des exemples dans [API publiques de visibilité des stocks](inventory-visibility-api.md).
 - Consultez la liste brute du stock disponible. Cette liste est périodiquement synchronisée à partir d'une instance mise en cache et est visible dans Dataverse. Pour plus d’informations, voir [Application de visibilité des stocks](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Réservations provisoires
+## <a name="soft-reservations"></a>Réservations provisoires
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

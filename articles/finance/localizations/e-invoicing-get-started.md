@@ -2,7 +2,7 @@
 title: Mise en route de la Facturation électronique
 description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732979"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463832"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Mise en route de la Facturation électronique
 
@@ -40,14 +40,14 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importer une fonctionnalité de facturation électronique à partir du fournisseur de configuration Microsoft 
 
 1. Connectez-vous à votre compte RCS (Regulatory Configuration Service).
-2. Dans l’espace de travail **Fonctionnalité de globalisation**, dans la section **Fonctionnalités**, sélectionnez la vignette **Facturation électronique**.
+2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Fonctionnalités**, sélectionnez la vignette **Facturation électronique**.
 3. Sélectionnez **Importer**, puis **Synchroniser**.
 4. Filtrez la colonne **Fournisseur de configuration** par le terme **Microsoft**.
-5. Sélectionnez le nom d’une fonction de facturation électronique dans le tableau au début de cette rubrique, puis sélectionnez **Importer**.
+5. Sélectionnez le nom d'une fonctionnalité de facturation électronique dans le tableau, puis sélectionnez **Importer**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Créer une fonctionnalité de facturation électronique sous votre fournisseur d’organisation
 
-1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
+1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalités de globalisation**, sélectionnez la vignette **Facturation électronique**.
 2. Sélectionnez **Ajouter** > **Basé sur la fonctionnalité existante**, et dans le champ **Nom**, entrez le nom de la fonctionnalité de facturation électronique.
 3. Dans le champ **Description**, entrez la description de la fonctionnalité.
 4. Dans le **Champ de fonction de base**, sélectionnez la fonction de facturation électronique importée à partir du fournisseur de configuration Microsoft.
@@ -113,7 +113,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
     | Facture électronique espagnole (ES)      | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
     | Facture électronique PEPPOL            | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
 
-7. Pour chaque nom de table que vous créez, sélectionnez et entrez une valeur de contexte selon le tableau suivant.
+6. Pour chaque nom de table que vous créez, sélectionnez et entrez une valeur de contexte selon le tableau suivant.
 
     | Nom de la fonction                         | Document commercial | Contexte |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
     | Facture électronique espagnole (ES)      | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | Facture électronique PEPPOL            | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
 
-8. Pour chaque nom de table et contexte, sélectionnez et entrez un mappage de document commercial selon le tableau suivant.
+7. Pour chaque nom de table et contexte, sélectionnez et entrez un mappage de document commercial selon le tableau suivant.
 
     | Nom de la fonction                         | Document commercial | Mise en correspondance du document commercial |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Déployer la fonctionnalité de Facturation électronique dans une application connectée
 
 1. Sur l’onglet **Versions**, sélectionnez une version de la fonctionnalité de Facturation électronique que vous souhaitez déployer.
-4. Sélectionnez **Déployer**.
-5. Définissez l’option **Déployer sur une application connectée** sur **Oui**.
-6. Dans le champ **Connecter l’application**, sélectionnez la connexion associée à votre instance Finance ou Supply Chain Management.
-7. Définissez l’option **Déployer sur un environnement de service** sur **Non**.
-10. Cliquez sur **OK**.
+2. Sélectionnez **Déployer**.
+3. Définissez l’option **Déployer sur une application connectée** sur **Oui**.
+4. Dans le champ **Connecter l’application**, sélectionnez la connexion associée à votre instance Finance ou Supply Chain Management.
+5. Définissez l’option **Déployer sur un environnement de service** sur **Non**.
+6. Cliquez sur **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Activer la fonctionnalité de facturation électronique dans Finance ou Supply Chain Management
 
@@ -213,7 +213,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
 ## <a name="issue-electronic-invoices"></a>Émettre des factures électroniques
 
 1. Allez dans **Administration de l’organisation** \> **Périodique** \> **Documents électroniques** \> **Envoyer des documents électroniques**.
-2. Dans l’organisateur **Enregistrement à inclure**, sélectionnez **Filtre**.
+2. Dans l’organisateur **Enregistrements à inclure**, sélectionnez **Filtre**.
 3. Sélectionnez **Ajouter** pour ajouter un nom de table au filtre de requête.
 4. Sélectionnez la table qui contient les factures.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394507"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465075"
 ---
 # <a name="get-started-with-tax-calculation"></a>Mise en route du calcul de la taxe
 
@@ -49,13 +49,9 @@ Pour un environnement de production, les conditions préalables suivantes doiven
 - Vous devez créer un environnement RCS pour votre organisation et vous devez avoir accès à votre compte. Pour plus d'informations sur la création d'un environnement RCS, consultez [Présentation de Regulatory Configuration Service](rcs-overview.md).
 - Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de l'environnement Finance ou Supply Chain Management déployé, en fonction de vos besoins métiers :
 
-    - Calcul de la taxe
+    - Service de calcul de la taxe
     - Prise en charge de plusieurs numéros d’enregistrement TVA
     - Taxe dans l’ordre de transfert
-    - Transfert de la liste des ventes intracommunautaires basé sur les transactions de taxe uniquement
-    - Génération d’états de déclaration d’échanges de biens par ID taxe multiple
-    - Déclaration de la liste des ventes intracommunautaires par ID taxe multiple
-    - Déclaration de taxe par ID taxe multiple
 
 - Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de votre environnement RCS déployé.
 
@@ -65,18 +61,14 @@ Pour un environnement de production, les conditions préalables suivantes doiven
 
 Pour un environnement de test, les conditions préalables suivantes doivent être remplies :
 
-- Vous devez avoir accès à votre compte LCS et disposer d'un projet LCS déployé ayant un environnement de niveau 2 ou supérieur qui exécute Dynamics 365 version 10.0.18 avec KB4616360 ou une version ultérieure.
+- Vous devez avoir accès à votre compte LCS et disposer d'un projet LCS déployé ayant un environnement de niveau 2 ou supérieur qui exécute Dynamics 365 version 10.0.21 ou ultérieure.
 - Vous devez créer un environnement RCS pour votre organisation et vous devez avoir accès à votre compte. Pour plus d'informations sur la création d'un environnement RCS, consultez [Présentation de Regulatory Configuration Service](rcs-overview.md).
 - Vous devez contacter Microsoft, en envoyant un e-mail à <taxcalc@microsoft.com>, pour activer la distribution de versions d’évaluation dans l'environnement Finance ou Supply Chain Management déployé.
 - Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de l'environnement Finance ou Supply Chain Management déployé, en fonction de vos besoins métiers :
 
-    - Calcul de la taxe
+    - Service de calcul de la taxe
     - Prise en charge de plusieurs numéros d’enregistrement TVA
     - Taxe dans l’ordre de transfert
-    - Transfert de la liste des ventes intracommunautaires basé sur les transactions de taxe uniquement
-    - Génération d’états de déclaration d’échanges de biens par ID taxe multiple
-    - Déclaration de la liste des ventes intracommunautaires par ID taxe multiple
-    - Déclaration de taxe par ID taxe multiple
 
 - Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de votre environnement RCS déployé.
 
@@ -103,12 +95,12 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
 7. Accédez à **Modèle de données fiscales**, développez l’arborescence de fichiers, puis sélectionnez **Configuration de taxe**.
 8. Sélectionnez la version de configuration de taxe correcte, en fonction de votre version de Finance, puis sélectionnez **Importer**.
 
-    | Version | Configuration de taxe                       | Mappage de modèles                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Configuration de taxe - Europe 30.12.82     |                                 |
-    | 10.0.19         | Configuration du calcul des taxes 36.38.193 |                                 |
-    | 10.0.20         | Configuration du calcul des taxes 40.43.208 |                                 |
-    | 10.0.21         | Configuration du calcul des taxes 40.46.212 | Mappage de modèles Dataverse 40.46.9 |
+    | Version | Configuration de taxe                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Configuration de taxe - Europe 30.12.82     |
+    | 10.0.19         | Configuration du calcul des taxes 36.38.193 |
+    | 10.0.20         | Configuration du calcul des taxes 40.43.208 |
+    | 10.0.21         | Configuration du calcul des taxes 40.46.212 |
 
 9. Dans l’espace de travail **Fonctionnalités de globalisation**, sélectionnez **Fonctionnalités**, sélectionnez la vignette **Calcul des taxes**, puis sélectionnez **Ajouter**.
 10. Sélectionnez l’une des fonctionnalités suivantes :

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736621"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474770"
 ---
 # <a name="forecast-reduction-keys"></a>Clés de réduction des prévisions
 
@@ -86,7 +86,18 @@ Dans ce cas, si vous lancez le calendrier des prévisions le 1er janvier, les be
 
 ### <a name="transactions--reduction-key"></a>Transactions – clé de réduction
 
-Si vous sélectionnez **Transactions - Clé de réduction**, les besoins prévisionnels sont réduits par les transactions qui surviennent au cours de périodes définies par la clé de réduction.
+Si vous définissez le champ **Méthode utilisée pour réduire les besoins prévisionnels** sur *Transactions - clé de réduction*, les besoins prévisionnels sont réduits par les transactions de demande qualifiées qui se produisent pendant les périodes définies par la clé de réduction.
+
+La demande qualifiée est définie par le champ **Réduire les prévisions de** sur la page **Groupes de couverture**. Si vous définissez le champ **Réduire les prévisions de** sur *Commandes*, seules les transactions de commande client sont considérées comme des demandes qualifiées. Si vous la définissez sur *Toutes les transactions*, toutes les transactions de sortie de stock autres qu'intersociétés sont considérées comme une demande qualifiée. Si les commandes client intersociétés doivent également être considérées comme une demande qualifiée, définissez l'option **Inclure les commandes intersociétés** sur *Oui*.
+
+La réduction des prévisions commence avec le premier (le plus ancien) enregistrement de prévision de la demande dans la période de la clé de réduction. Si la quantité des transactions de stock qualifiées est supérieure à la quantité des lignes de prévision de la demande dans la même période de clé de réduction, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité de prévision de la demande dans la période précédente (s'il y a une prévision non consommée).
+
+S'il ne reste aucune prévision non consommée dans la période de la clé de réduction précédente, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité prévue le mois suivant (s'il existe une prévision non consommée).
+
+La valeur du champ **Pour cent** sur les lignes clés de réduction n'est pas utilisée lorsque le champ **Méthode utilisée pour réduire les besoins prévisionnels** est défini sur *Transactions - clé de réduction*. Seules les dates sont utilisées pour définir la période de clé de réduction.
+
+> [!NOTE]
+> Toute prévision publiée à la date du jour ou avant sera ignorée et ne sera pas utilisée pour créer des commandes planifiées. Par exemple, si votre prévision de la demande pour le mois est générée le 1er janvier et que vous exécutez une planification générale qui inclut la prévision de la demande du 2 janvier, le calcul ignorera la ligne de prévision de la demande datée du 1er janvier.
 
 #### <a name="example-transactions--reduction-key"></a>Exemple : Transactions - clé de réduction
 

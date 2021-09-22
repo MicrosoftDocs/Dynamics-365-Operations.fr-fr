@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393521"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441163"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -43,6 +43,11 @@ Avant de commencer la mise en service d'un nouvel environnement de production, l
 Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
 
 Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 60 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
+
+Lors de la création d'un environnement d'essai Human Resources, un environnement d'essai Power Apps est également créé sur le locataire et est lié à l'environnement Human Resources. L'environnement Power Apps, nommé « TestDrive », a la même période d'essai que l'environnement Human Resources.
+
+> [!NOTE]
+> L'approvisionnement d'un environnement d'essai Human Resources échouera si l'utilisateur authentifié n'a pas l'autorisation de créer d'environnement d'essai Power Apps. L'utilisateur doit être inclus dans le groupe d'utilisateurs qui peut créer des environnements d'essai dans le centre d'administration de Power Platform. Pour plus d'informations, consultez [Contrôler qui peut créer et gérer des environnements dans le centre d'administration de Power Platform](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planifier les environnements Human Resources
 
@@ -69,7 +74,7 @@ Pour utiliser LCS pour gérer vos environnements Human Resources, vous devez d�
 1. Connectez-vous à [LCS](https://lcs.dynamics.com/Logon/Index) à l’aide du compte utilisé pour vous abonner à Human Resources.
 
    > [!NOTE]
-   > Pour garantir un provisionnement réussi, le compte que vous utilisez pour provisionner l’environnement Human Resources doit être affecté au rôle **Administrateur système** ou au rôle **Personnalisateur système** dans l’environnement Power Apps associé à l’environnement Human Resources. Voir [Configurer la sécurité des utilisateurs dans Human Resources](/power-platform/admin/database-security) pour plus d’informations sur l’attribution de rôles de sécurité aux utilisateurs dans la Power Platform.
+   > Pour garantir un provisionnement réussi, le compte que vous utilisez pour provisionner l’environnement Human Resources doit être affecté au rôle **Administrateur système** ou au rôle **Personnalisateur système** dans l’environnement Power Apps associé à l’environnement Human Resources. Pour plus d'informations sur l'affectation de rôles de sécurité aux utilisateurs dans Power Platform, voir [Configurer la sécurité utilisateur sur les ressources](/power-platform/admin/database-security).
 
 2. Sélectionnez le signe plus (**+**) pour créer un projet.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760512"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474600"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.17 (avril 2021)
 
@@ -99,10 +99,6 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 Nous avons récemment ajouté ou mis à jour de manière significative les rubriques d’aide suivantes. Ils ne sont pas nécessairement liés aux nouvelles fonctionnalités ajoutées pour cette version, comme indiqué dans la section précédente, mais ils peuvent vous aider à tirer le meilleur parti des fonctionnalités existantes.
 
-### <a name="cost-management"></a>Gestion des coûts
-
-- [Résoudre les problèmes de gestion des coûts](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Gestion des actifs
 
 - [Paramétrer l’Espace de travail mobile pour la gestion des actifs](../asset-management/set-up-asset-management-mobile.md)
@@ -115,9 +111,7 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 - [Regroupement des lignes de prélèvement](../warehousing/pick-line-grouping.md)
 
-- [Résoudre des problèmes des opérations d’inventaire](../inventory/troubleshoot-inventory-operations.md)
-
-- [Créneaux de l’entrepôt](../warehousing/warehouse-slotting.md)
+- [Créneaux de l'entrepôt](../warehousing/warehouse-slotting.md)
 
 ### <a name="manufacturing"></a>Fabrication
 

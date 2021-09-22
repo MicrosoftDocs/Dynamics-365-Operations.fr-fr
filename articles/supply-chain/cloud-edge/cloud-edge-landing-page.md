@@ -1,5 +1,5 @@
 ---
-title: Gestion des unités d’échelle du Cloud et de Edge avec les charges de travail de fabrication et de gestion de l’entreposage
+title: Unités d'échelle dans une topologie hybride distribuée
 description: Cette rubrique fournit des informations sur les unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780672"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471738"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unités d’échelle Cloud et périphérie pour les charges de travail de fabrication et de gestion d’entrepôt
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d'échelle dans une topologie hybride distribuée
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,22 +26,22 @@ ms.locfileid: "6780672"
 >
 > Lorsque vous activez les unités d’échelle cloud et de périphérie, il vous est demandé de confirmer que vous comprenez que certaines données liées à la configuration et au traitement des unités d’échelle cloud et de périphérie peuvent être stockées dans un centre de données situé aux États-Unis. Pour en savoir plus sur le traitement des données pour les unités d’échelle cloud et de périphérie, consultez la section [Traitement des données lors de la gestion des unités d’échelle](#data-processing-management), plus loin dans cette rubrique.
 
-## <a name="core-value-proposition-for-scale-units"></a>Proposition de valeur fondamentale pour les unités d’échelle
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Proposition de valeur de base pour une topologie hybride distribuée
 
-Les entreprises qui travaillent avec la fabrication et la distribution doivent être en mesure d’exécuter des processus commerciaux clés 24 heures sur 24, 7 jours sur 7, sans interruption et à grande échelle. Les unités d’échelle cloud et de périphérie permettent aux entreprises d’exécuter sans interruption des processus de fabrication et d’entrepôt critiques, même lorsqu’elles sont confrontées à des problèmes occasionnels de connectivité réseau ou de latence.
+Les entreprises qui travaillent avec la fabrication et la distribution doivent être en mesure d’exécuter des processus commerciaux clés 24 heures sur 24, 7 jours sur 7, sans interruption et à grande échelle. Une topologie hybride distribuée permet aux entreprises d’exécuter sans interruption des processus de fabrication et d’entrepôt critiques, même lorsqu’elles sont confrontées à des problèmes occasionnels de connectivité réseau ou de latence.
 
-Les unités d’échelle cloud et de périphérie permettent de répartir les charges de travail d’exécution de l’atelier et de l’entrepôt entre différents environnements. Cette fonctionnalité peut aider à améliorer les performances, à éviter les interruptions de service et à maximiser la disponibilité. Les unités d’échelle sont fournies via les compléments suivants pour votre abonnement Supply Chain Management :
+Une topologie hybride distribuée introduit le concept d'*unités d'échelle*, qui permettent de répartir les charges de travail de l'exécution en atelier et de l'exécution en entrepôt entre différents environnements. Cette fonctionnalité peut aider à améliorer les performances, à éviter les interruptions de service et à maximiser la disponibilité. Les unités d’échelle sont fournies via les compléments suivants pour votre abonnement Supply Chain Management :
 
 - Complément Cloud Scale Unit pour Dynamics 365 Supply Chain Management (*disponible en avril 2021*)
 - Complément Edge Scale Unit pour Dynamics 365 Supply Chain Management (*disponible prochainement*)
 
 Les fonctionnalités de charge de travail sont publiées en continu au travers d’améliorations incrémentielles.
 
-## <a name="scale-units-and-dedicated-workloads"></a>Unités de mise à l’échelle et charges de travail dédiées
+## <a name="scale-units-and-dedicated-workloads"></a>Unités d’échelle et charges de travail dédiées
 
-Les unités de mise à l’échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités de mise à l’échelle peuvent s’exécuter dans le cloud. Elle peuvent également fonctionner en périphérie, sur site dans les locaux de votre établissement.
+Les unités d’échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités d’échelle peuvent s’exécuter dans le cloud. Elle peuvent également fonctionner en périphérie, sur site dans les locaux de votre établissement.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités de mise à l’échelle.":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités d’échelle.":::
 
 Les unités d’échelle offrent résilience, fiabilité et évolutivité pour les charges de travail affectées. Les unités d’échelle en périphérie peuvent être temporairement déconnectées de l’environnement du hub cloud, et les employés peuvent continuer à travailler sur les charges de travail affectées en périphérie.
 
@@ -56,10 +56,10 @@ La charge de travail de gestion de l’entrepôt est la première charge de trav
 Pour la gestion de l’entrepôt, les unités d’échelle offrent les fonctionnalités suivantes :
 
 - Le système peut traiter des méthodes de vague sélectionnées pour les commandes client et le réapprovisionnement de la demande.
-- Les employés de l’entrepôt peuvent exécuter les ventes et demander le travail d’entrepôt de réapprovisionnement à l’aide de l’application mobile Gestion des entrepôts.
-- Les employés de l’entrepôt peuvent se renseigner sur les stocks disponibles à l’aide de l’application mobile Gestion des entrepôts.
-- Les employés de l’entrepôt peuvent créer et exécuter des mouvements de stock à l’aide de l’application mobile Gestion des entrepôts.
-- Les employés des entrepôts peuvent enregistrer des commandes fournisseur et faire du rangement en utilisant l’application mobile Gestion des entrepôts.
+- Les employés de l’entrepôt peuvent exécuter les ventes et demander le travail d’entrepôt de réapprovisionnement à l’aide de l’application mobile Warehouse Management.
+- Les employés de l’entrepôt peuvent se renseigner sur les stocks disponibles à l’aide de l’application mobile Warehouse Management.
+- Les employés de l’entrepôt peuvent créer et exécuter des mouvements de stock à l’aide de l’application mobile Warehouse Management.
+- Les employés des entrepôts peuvent enregistrer des commandes fournisseur et faire du rangement en utilisant l’application mobile Warehouse Management.
 
 Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-warehousing.md).
 
@@ -95,7 +95,7 @@ Votre projet Microsoft Dynamics Lifecyle Services (LCS) existant doit répondre 
 - Les versions Governmental Cloud de LCS ne sont pas prises en charge.
 - La version Mooncake de LCS n’est pas prise en charge.
 
-#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>Votre environnement de production actuel doit être de type Libre service dans LCS.
+#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>Votre environnement de production actuel doit être de type Libre service dans LCS
 
 Votre environnement de production actuel doit être étiqueté avec le type **Libre service** type in LCS. Ce type indique que le locataire de votre projet LCS a déjà été converti afin de prendre en charge le modèle d’hébergement Azure Service Fabric.
 

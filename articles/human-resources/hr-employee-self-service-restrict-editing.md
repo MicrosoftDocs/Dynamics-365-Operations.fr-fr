@@ -1,8 +1,8 @@
 ---
 title: Restreindre la modification des informations personnelles
 description: Empêcher les employés de modifier leurs coordonnées dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 03/03/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87977ff004e0785ec1d31fe3abac2728f87e7083348895b58e58f46cd3e79925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a13818103434df5005ad2805ac2ea7495bb767
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748881"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431403"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Restreindre la modification des informations personnelles
 
@@ -38,11 +38,11 @@ Cette rubrique décrit comment empêcher les employés de modifier les détails 
 
    ![Accéder aux paramètres de Human resources.](./media/hr-employee-self-service-human-resources-parameters.png)
 
-2. Sur la page **Paramètres des ressources humaines**, sélectionnez l’onglet **Libre-service des employés**.
+2. Sur la page **Paramètres des ressources humaines**, sélectionnez l’onglet **Libre service des employés**.
 
    ![Sélectionnez Libre service employé.](./media/hr-employee-self-service-tab.png)
 
-3. Sur l’onglet **Libre-service des employés**, décochez toutes les informations dans la section **Adresse et coordonnées** que vous ne souhaitez pas que les employés ajoutent ou modifient. Dans cet exemple, nous avons décoché les coordonnées **Professionnelles**.
+3. Sur l’onglet **Libre service des employés**, décochez toutes les informations dans la section **Adresse et coordonnées** que vous ne souhaitez pas que les employés ajoutent ou modifient. Dans cet exemple, nous avons décoché les coordonnées **Professionnelles**.
 
    ![Restreindre la modification des informations de contact professionnel.](./media/hr-employee-self-service-restrict-business.png)
 
@@ -54,7 +54,7 @@ Cette rubrique décrit comment empêcher les employés de modifier les détails 
 
 Une fois que vous avez empêché les employés d’ajouter ou de modifier les coordonnées, ils peuvent voir les informations, mais ne peuvent pas les modifier.
 
-Dans cet exemple, où les employés ne peuvent pas modifier les coordonnées **Professionnelles**, ils peuvent toujours voir les informations dans le libre-service des employés :
+Dans cet exemple, où les employés ne peuvent pas modifier les coordonnées **Professionnelles**, ils peuvent toujours voir les informations dans le **Libre service des employés** :
 
 ![Afficher les coordonnées professionnelles.](./media/hr-employee-self-service-restrict-view.png)
 
@@ -76,6 +76,6 @@ Les employés bénéficient de la même expérience lorsqu’ils sélectionnent 
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d’ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)<br>
+[Vue d’ensemble du libre service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)<br>
 [Configurer les paramètres de Human Resources](hr-setup-parameters.md)<br>
 [Modifier les informations personnelles](hr-employee-manager-self-service-edit-personal-information.md)

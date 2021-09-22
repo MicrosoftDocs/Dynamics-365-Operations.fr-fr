@@ -2,7 +2,7 @@
 title: Composants d’administration de la Facturation électronique
 description: Cette rubrique fournit des informations sur les composants liés à l’administration de la Facturation électronique.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721724"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463879"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Composants d’administration de la Facturation électronique
 
@@ -31,14 +31,14 @@ Cette rubrique fournit des informations sur les composants liés à l’administ
 
 ## <a name="azure"></a>Azure
 
-Utilisez Microsoft Azure pour créer les secrets du compte de stockage et du compte Key Vault. Utilisez ensuite les secrets dans la configuration de la Facturation électronique.
+Utilisez Microsoft Azure pour créer les secrets du coffre de clés et configurer un compte de stockage. Utilisez ensuite les secrets du coffre de clés et le jeton SAS du compte de stockage dans la configuration de la Facturation électronique.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Utilisez Microsoft Dynamics Lifecycle Services (LCS) pour activer les microservices de votre projet de déploiement LCS.
+Utilisez Microsoft Dynamics Lifecycle Services (LCS) pour activer le module complémentaire Facturation électronique pour votre projet de déploiement LCS.
 
 > [!NOTE]
-> L’installation du microservice dans LCS nécessite au moins une machine virtuelle de niveau 2. Pour plus d’informations sur la planification de l’environnement, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> L’installation du complément dans LCS nécessite au moins un **environnement de niveau 2**. Pour plus d’informations sur la planification de l’environnement, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ Pour plus d’informations sur RCS, voir [Regulatory Configuration Services (RCS
 
 Avant de pouvoir utiliser RCS pour configurer des factures électroniques, vous devez le configurer pour permettre la communication avec la Facturation électronique. Vous devez effectuer cette configuration sur l’onglet **Facturation électronique** de la page **Paramètres de la gestion des états électroniques**.
 
-#### <a name="service-endpoint"></a>Point de terminaison de service
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Point de terminaison de service
 
 La Facturation électronique est disponible dans plusieurs emplacements géographiques du centre de données Azure. Le tableau suivant répertorie la disponibilité par région.
 
-| Emplacement géographique du centre de données Azure |
-|----------------------------|
-| Etats-Unis              |
-| Europe                     |
-| Royaume-Uni             |
-| Asie                       |
+
+| Zone géographique Azure Datacenter | URI du point de terminaison de service                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Etats-Unis              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Europe                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Royaume-Uni             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Asie                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Environnements de service
 
-Les environnements de service sont des partitions logiques créées pour prendre en charge l’exécution des fonctionnalités de facturation électronique dans la Facturation électronique. Les secrets de sécurité et les certificats numériques, ainsi que la gouvernance (c’est-à-dire les autorisations d’accès), doivent être configurés au niveau de l’environnement de service.
+Les environnements de service sont des partitions logiques créées pour prendre en charge l’exécution des fonctionnalités de globalisation dans la Facturation électronique. Les secrets de sécurité et les certificats numériques, ainsi que la gouvernance (c’est-à-dire les autorisations d’accès), doivent être configurés au niveau de l’environnement de service.
 
 Les clients peuvent créer autant d’environnements de service qu’ils le souhaitent. Tous les environnements de service créés par un client sont indépendants les uns des autres.
 
@@ -84,8 +85,8 @@ Les environnements de service peuvent être gérés via leur statut. Les options
 
 Le service de Facturation électronique a la responsabilité de stocker toutes vos données métier dans les ressources Azure appartenant à votre société. Pour vous assurer que le service fonctionne correctement et que toutes les données métier requises et générées par la Facturation électronique ne sont accessibles que de manière appropriée, vous devez créer deux ressources Azure principales :
 
-- Un compte de stockage Azure (stockage Blob) qui va stocker les factures électroniques
-- Un compte Azure Key Vault qui va stocker les certificats et l’Uniform Resource Identifier (URI) du compte de stockage
+- Un compte de stockage Azure (stockage Blob) qui stockera les documents électroniques, y compris les factures électroniques, les résultats des transformations de documents et les réponses des services web externes.
+- Un coffre de clés Azure qui va stocker les certificats et l’URI (Uniform Resource Identifier) du compte de stockage (jeton SAS).
 
 
 Un compte Key Vault dédié et un compte de stockage client doivent être alloués spécifiquement pour utiliser la Facturation électronique. Pour plus d’informations, voir [Créer un compte de stockage Azure et un Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Pour activer la communication entre Finance et Supply Chain Management et la Fac
 
 Le point de terminaison du service est l’URL où se trouve la Facturation électronique. Pour pouvoir émettre des factures électroniques, le point de terminaison de service doit être configuré dans Finance et Supply Chain Management pour permettre la communication avec le service.
 
-Pour configurer le point de terminaison du service, accédez à **Administration d’organisation \> Paramétrage \> Paramètres des documents électroniques**, puis, sur l’onglet **Services de soumission**, dans le champ **URL de la Facturation électronique**, entrez l’URL comme décrit dans le tableau de la section **Point de terminaison du service**.
+Pour configurer le point de terminaison du service, accédez à **Administration d'organisation \> Paramétrage \> Paramètres des documents électroniques**, puis, sur l'onglet **Facturation électronique**, dans le champ **URL du point de terminaison**, entrez l'URL appropriée issue du tableau de la section [Point de terminaison du service](#svc-endpoint-uris), plus haut dans cette rubrique.
 
 #### <a name="environments"></a>Environnements
 
 Le nom de l’environnement entré dans Finance et Supply Chain Management fait référence au nom de l’environnement créé dans RCS et publié dans la Facturation électronique.
 
-L’environnement doit être configuré sur l’onglet **Services de soumission** de la page **Paramètres des documents électroniques**, de sorte que chaque demande d’émission de factures électroniques contienne l’environnement dans lequel la Facturation électronique peut déterminer quelle fonction de facturation électronique doit traiter la demande.
+L'environnement doit être configuré sur l'onglet **Facturation électronique** de la page **Paramètres du document électronique**. De cette façon, chaque demande d'émission de factures électroniques contient l'environnement dans lequel la facturation électronique peut déterminer quelle fonction de facturation électronique doit traiter la demande.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

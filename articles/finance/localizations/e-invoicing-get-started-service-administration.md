@@ -2,7 +2,7 @@
 title: Mise en route de l’administration du service de Facturation électronique
 description: Cette rubrique explique comment démarrer avec la Facturation électronique.
 author: gionoder
-ms.date: 05/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765642"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463807"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Mise en route de l’administration du service de Facturation électronique
 
@@ -33,7 +33,7 @@ ms.locfileid: "6765642"
 Avant d’effectuer les étapes de cette rubrique, les conditions préalables suivantes doivent être remplies :
 
 - Vous devez avoir accès à votre compte Microsoft Dynamics Lifecycle Services (LCS).
-- Vous devez avoir un projet LCS qui inclut la version 10.0.17 ou ultérieure de Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management. En outre, ces applications doivent être déployées dans l’une des zones géographiques Azure suivantes :
+- Vous devez avoir un projet LCS qui inclut la version 10.0.17 ou ultérieure de Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management. En outre, ces applications doivent être déployées dans l’une des zones géographiques Azure suivantes :
 
     - Etats-Unis
     - Europe
@@ -47,20 +47,20 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installer le module complémentaire pour les microservices dans Lifecycle Services
 
 1. Connectez-vous à votre compte LCS et, sur le tableau de bord du projet LCS, sélectionnez un projet LCS.
-2. Dans le projet, sur le tableau de bord de l’environnement, sélectionnez votre projet de déploiement LCS. Le projet que vous sélectionnez doit être en cours d’exécution.
+2. Dans le projet, sur le tableau de bord **Environnements**, sélectionnez environnement déployé. L'environnement que vous sélectionnez doit être en cours d'exécution.
 3. Dans l'onglet **Intégration Power Platform**, dans le groupe de champs **Compléments d'environnement**, sélectionnez **Installer un nouveau complément**.
 4. Sélectionnez **Facturation électronique**.
 5. Dans le champ **ID d’application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
-6. Dans le champ **ID client AAD**, entrez l’ID client de votre compte d’abonnement Azure.
+6. Dans le champ **ID client AAD**, entrez l’ID client de votre compte d’abonnement Azure. Le locataire Azure Active Directory (Azure AD) que vous spécifiez doit être le même que celui utilisé pour RCS.
 7. Passez en revue les conditions générales, puis cochez la case.
-8. Sélectionnez **Installer**.
+8. Sélectionnez **Installer**. L'installation peut prendre jusqu'à plusieurs minutes.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Définir les paramètres pour l’intégration RCS avec la Facturation électronique
 
 1. Connectez-vous à votre compte RCS.
-2. Dans l’espace de travail **Génération d’états électroniques**, dans la section **Liens connexes**, sélectionnez **Paramètres de la gestion des états électroniques**.
-3. Sur l’onglet **Service de facturation électronique**, dans le champ **URI du point de terminaison de service**, entrez le point de terminaison de service approprié pour la zone géographique Azure, comme indiqué dans le tableau suivant.
+2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Paramètres associés**, sélectionnez **Paramètres de la gestion des états électroniques**.
+3. Sur l’onglet **Facturation électronique**, dans le champ **URI du point de terminaison de service**, entrez le point de terminaison de service approprié pour la zone géographique Azure, comme indiqué dans le tableau suivant.
 
     | Zone géographique Azure Datacenter | URI du point de terminaison de service                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
     | Royaume-Uni             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Asie                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-4. Vérifiez que le champ **ID candidature** est bien défini sur **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Cette valeur est une valeur fixe.
+4. Vérifiez que le champ **ID d'application** est bien défini sur **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Cette valeur est une valeur fixe.
 5. Dans le champ **ID environnement LCS**, entrez l’ID de votre environnement LCS.
 6. Sélectionnez **Sauvegarder**, puis fermez la page.
 
@@ -77,7 +77,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 1. Connectez-vous à votre compte RCS.
 2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Environnement**, sélectionnez la vignette **Facturation électronique**.
-3. Sur la page **Configurations d’environnement**, dans le volet Actions, sélectionnez **Environnement de service**, puis sélectionnez **Paramètres Key Vault**.
+3. Sur la page **Configurations d’environnement**, dans le volet Actions, sélectionnez **Environnements de service**, puis sélectionnez **Paramètres Key Vault**.
 4. Sélectionnez **Nouveau** pour créer une référence Key Vault.
 5. Dans le champ **Nom**, entrez le nom de la référence Key Vault. Entrez une description dans le champ **Description**.
 6. Dans le champ **URI Key Vault**, collez le secret du coffre de clés à partir d’Azure Key Vault. Pour plus d’informations, voir [Créer un compte de stockage Azure et un coffre de clés](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -113,17 +113,19 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 8. Entrez l’alias de l’utilisateur dans le champ **Identifiant utilisateur**. Entrez l’adresse e-mail de l’utilisateur dans le champ **E-mail**.
 9. Sélectionnez **Enregistrer**.
 10. Si les factures spécifiques à votre pays/région nécessitent une chaîne de certificats pour appliquer des signatures numériques, dans le volet Actions, sélectionnez **Paramètres Key Vault**, puis **Chaîne de certificats**, et suivez ces étapes :
+
     1. Sélectionnez **Nouveau** pour créer une chaîne de certificats.
     2. Dans le champ **Nom**, entrez le nom de l’environnement de la chaîne de certificats. Entrez une description dans le champ **Description**.
     3. Dans la section **Certificats**, sélectionnez **Ajouter** pour ajouter un certificat à la chaîne.
     4. Utilisez le bouton **Vers le haut** ou **Vers le bas** pour changer la position du certificat dans la chaîne.
     5. Sélectionnez **Sauvegarder**, puis fermez la page.
     6. Fermez la page.
+
 11. Sur la page **Environnement de service**, dans le volet Actions, sélectionnez **Publier** pour publier l’environnement dans le Cloud. La valeur du champ **Statut** est remplacée par **Publié**.
 
 ## <a name="create-a-connected-application"></a>Créer une application connectée
 
-1. Sur la page **Configurations d’environnement**, dans le volet Actions, sélectionnez **Applications connectées**.
+1. Sur la page **Configuration d’environnement**, dans le volet Actions, sélectionnez **Applications connectées**.
 2. Sélectionnez **Nouveau** pour créer une application connectée.
 3. Dans le champ **Nom**, entrez le nom de l’application à connecter.
 4. Dans le champ **Application**, entrez l’URL de l’environnement Finance et Supply Chain Management à connecter.
@@ -133,7 +135,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 ## <a name="link-connected-applications-to-environments"></a>Lier les applications connectées aux environnements
 
-1. Sur la page **Configurations d’environnement**, sélectionnez **Nouveau** pour affecter une application connectée à un environnement.
+1. Sur la page **Configuration d’environnement**, sélectionnez **Nouveau** pour affecter une application connectée à un environnement.
 2. Sélectionnez une application connectée dans le champ **Application connectée**.
 3. Sélectionnez un environnement de service dans le champ **Environnement de service**.
 4. Sélectionnez **Sauvegarder**, puis fermez la page.
@@ -149,7 +151,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 ### <a name="set-up-the-service-endpoint-url"></a>Paramétrer l’URL du point de terminaison de service
 
 1. Allez dans **Administration de l’organisation \> Paramétrage \> Paramètres des documents électroniques**.
-2. Sur l’onglet **Service d’envoi**, dans le champ **URL du point de terminaison de service**, entrez le point de terminaison de service approprié pour la zone géographique Azure, comme indiqué dans le tableau suivant.
+2. Sur l’onglet **Facturation électronique**, dans le champ **URL du point de terminaison**, entrez le point de terminaison de service approprié pour la zone géographique Azure, comme indiqué dans le tableau suivant.
 
     | Zone géographique Azure Datacenter | URI du point de terminaison de service                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -161,9 +163,8 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 3. Dans le champ **Environnement**, entrez le nom de l’environnement de service publié dans la Facturation électronique.
 4. Sélectionnez **Sauvegarder**, puis fermez la page.
 
-### <a name="enable-flighting-keys"></a>Activer les clés de distribution de version d’évaluation
+### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>Activer les clés de distribution de version d’évaluation pour Finance ou Supply Chain Management, version 10.0.17
 
-Activez les clés de distribution de version d’évaluation pour Microsoft Dynamics 365 Finance ou Microsoft Dynamics 365 Supply Chain Management, versions 10.0.17 ou antérieures. 
 1. Exécutez la commande SQL suivante :
 
     INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES (’BusinessDocumentSubmissionServiceEnabled’, 1)

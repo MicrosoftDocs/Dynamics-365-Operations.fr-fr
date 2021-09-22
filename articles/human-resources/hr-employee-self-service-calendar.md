@@ -1,8 +1,8 @@
 ---
 title: Créer un calendrier d’équipe
 description: Affichezr et créez des calendriers d’équipe dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eacf2dc460367ebefb7e9f4d9e301ec719cd2317
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744224"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431484"
 ---
 # <a name="view-team-and-company-calendars"></a>Afficher les calendriers des équipes et de la société
 
@@ -47,7 +47,7 @@ Les responsables peuvent également accéder au calendrier de l’équipe à par
 
 Les utilisateurs ayant le rôle de gestionnaire des absences peuvent afficher les demandes de congés dans leur calendrier. Procédez comme suit pour accéder au calendrier des congés.
 
-1. Dans l’espace de travail **Libre service employé**, sélectionnez **Gestion des congés**, puis **Calendrier du gestionnaire des absences**.
+1. Dans l’espace de travail **Libre service des employés**, sélectionnez **Gestion des congés**, puis **Calendrier du gestionnaire des absences**.
 
 2. Dans le champ **Date**, saisissez les dates souhaitées.
 
@@ -73,9 +73,9 @@ Les calendriers contiennent désormais des filtres et des options supplémentair
 - Les employés sans demandes de congé
 - Les anniversaires des employés
 - Les demandes de congés 
-- Demandes d’absence
+- Demandes d'absence
 
-La configuration du calendrier dans les paramètres de congé et d’absence détermine les options d’affichage disponibles.
+La configuration du calendrier dans la page **Paramètres de congé et d’absence** détermine les options d’affichage disponibles.
 
 Vous pouvez également filtrer les calendriers par responsable ou service. L’affectation du poste principal détermine les employés affichés lorsque ces filtres sont définis. 
 

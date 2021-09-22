@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345648"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441287"
 ---
 # <a name="maintain-bar-code-types"></a>Tenir à jour les types de codes-barres
 
@@ -32,7 +32,8 @@ Cette procédure montre comment paramétrer une nouvelle définition de code-bar
 1. Dans le champ **Paramétrage des codes-barres**, tapez une valeur.
 1. Tapez une valeur dans le champ **Description**.
 1. Sélectionnez une option dans le champ **Type de code-barres**.
-    * Si vous utilisez USMF, vous pouvez sélectionner Code 39.  
+    * Si vous utilisez USMF, vous pouvez sélectionner Code 39.
+1. Dans le champ **ID de masque**, spécifiez l'ID du masque de code à barres. Les masques de code-barres permettent de créer des codes-barres et d’identifier rapidement les codes-barres qui sont lus dans le système de point de vente (PDV). Pour plus de détails, voir [Configurer des masques de code à barres](../../../commerce/set-up-bar-code-masks.md).
 1. Entrez un nombre dans le champ **Taille**.
 1. Dans le champ **Longueur maximale**, entrez un nombre.
 1. Sélectionnez **Enregistrer**.

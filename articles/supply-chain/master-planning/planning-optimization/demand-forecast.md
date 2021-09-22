@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778674"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474842"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planification avec prévisions de la demande
 
@@ -137,32 +137,85 @@ Dans ce cas, si vous lancez le calendrier des prévisions le 1er janvier, les be
 
 #### <a name="transactions--reduction-key"></a>Transactions – clé de réduction
 
-Si vous sélectionnez **Transactions - Clé de réduction**, les besoins prévisionnels sont réduits par les transactions qui surviennent au cours de périodes définies par la clé de réduction.
+Si vous définissez le champ **Méthode utilisée pour réduire les besoins prévisionnels** sur *Transactions - clé de réduction*, les besoins prévisionnels sont réduits par les transactions de demande qualifiées qui se produisent pendant les périodes définies par la clé de réduction.
+
+La demande qualifiée est définie par le champ **Réduire les prévisions de** sur la page **Groupes de couverture**. Si vous définissez le champ **Réduire les prévisions de** sur *Commandes*, seules les transactions de commande client sont considérées comme des demandes qualifiées. Si vous la définissez sur *Toutes les transactions*, toutes les transactions de sortie de stock autres qu'intersociétés sont considérées comme une demande qualifiée. Si les commandes client intersociétés doivent également être considérées comme une demande qualifiée, définissez l'option **Inclure les commandes intersociétés** sur *Oui*.
+
+La réduction des prévisions commence avec le premier (le plus ancien) enregistrement de prévision de la demande dans la période de la clé de réduction. Si la quantité des transactions de stock qualifiées est supérieure à la quantité des lignes de prévision de la demande dans la même période de clé de réduction, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité de prévision de la demande dans la période précédente (s'il y a une prévision non consommée).
+
+S'il ne reste aucune prévision non consommée dans la période de la clé de réduction précédente, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité prévue le mois suivant (s'il existe une prévision non consommée).
+
+La valeur du champ **Pour cent** sur les lignes clés de réduction n'est pas utilisée lorsque le champ **Méthode utilisée pour réduire les besoins prévisionnels** est défini sur *Transactions - clé de réduction*. Seules les dates sont utilisées pour définir la période de clé de réduction.
+
+> [!NOTE]
+> Toute prévision publiée à la date du jour ou avant sera ignorée et ne sera pas utilisée pour créer des commandes planifiées. Par exemple, si votre prévision de la demande pour le mois est générée le 1er janvier et que vous exécutez une planification générale qui inclut la prévision de la demande du 2 janvier, le calcul ignorera la ligne de prévision de la demande datée du 1er janvier.
 
 ##### <a name="example-transactions--reduction-key"></a>Exemple : Transactions - clé de réduction
 
 Cet exemple décrit la manière dont les commandes réelles, qui se produisent durant les périodes définies par la clé de réduction, réduisent les besoins de prévision de la demande.
 
-Pour cet exemple, sélectionnez **Transactions - clé de réduction** dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, de la page **Plans généraux**.
+[![Commandes réelles et prévisions avant l'exécution de la planification générale.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Les commandes client suivantes sont prises en compte le 1er janvier.
+Pour cet exemple, sélectionnez *Transactions - clé de réduction* dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, de la page **Plans généraux**.
 
-| Mois    | Nombre de pièces commandées |
-|----------|--------------------------|
-| Janvier  | 956                      |
-| Février | 1 176                    |
-| Mars    | 451                      |
-| Avril    | 119                      |
+Les lignes de prévision de la demande suivantes existent au 1er avril.
 
-Si vous utilisez les mêmes prévisions de la demande de 1000 pièces par mois utilisées dans l’exemple précédent, les quantités requises suivantes sont transférées vers le plan général.
+| Date     | Nombre de pièces prévu |
+|----------|-----------------------------|
+| 5 avril  | 100                         |
+| 12 avril | 100                         |
+| 19 avril | 100                         |
+| 26 avril | 100                         |
+| mai 3    | 100                         |
+| mai 10   | 100                         |
+| mai 17   | 100                         |
 
-| Mois                | Nombre de pièces requises |
-|----------------------|---------------------------|
-| Janvier              | 44                        |
-| Février             | 0                         |
-| Mars                | 549                       |
-| Avril                | 881                       |
-| Mai à décembre | 1 000                     |
+Les lignes de commande client suivantes existent en avril.
+
+| Date     | Nombre de pièces demandé |
+|----------|----------------------------|
+| 27 avril | 240                        |
+
+[![Approvisionnement prévu généré sur la base des commandes d'avril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Les quantités de besoin suivantes sont transférées au plan général lors de l'exécution de la planification générale le 1er avril. Comme vous le voyez, les transactions prévues d'avril ont été réduites de la quantité demandée de 240 dans une séquence, à partir de la première de ces transactions.
+
+| Date     | Nombre de pièces requises |
+|----------|---------------------------|
+| 5 avril  | 0                         |
+| 12 avril | 0                         |
+| 19 avril | 60                        |
+| 26 avril | 100                       |
+| 27 avril | 240                       |
+| mai 3    | 100                       |
+| mai 10   | 100                       |
+| mai 17   | 100                       |
+
+Maintenant, supposons que de nouvelles commandes ont été importées pour la période de mai.
+
+Les lignes de commande client suivantes existent en mai.
+
+| Date   | Nombre de pièces demandé |
+|--------|----------------------------|
+| mai 4  | 80                         |
+| mai 11 | 130                        |
+
+[![Approvisionnement prévu généré sur la base des commandes d'avril et de mai.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Les quantités de besoin suivantes sont transférées au plan général lors de l'exécution de la planification générale le 1er avril. Comme vous le voyez, les transactions prévues d'avril ont été réduites de la quantité demandée de 240 dans une séquence, à partir de la première de ces transactions. Cependant, les transactions de prévision de mai ont été réduites de 210 au total, à partir de la première transaction de prévision de la demande en mai. Cependant, les totaux par période sont conservés (400 en avril et 300 en mai).
+
+| Date     | Nombre de pièces requises |
+|----------|---------------------------|
+| 5 avril  | 0                         |
+| 12 avril | 0                         |
+| 19 avril | 60                        |
+| 26 avril | 100                       |
+| 27 avril | 240                       |
+| mai 3    | 0                         |
+| mai 4    | 80                        |
+| mai 10   | 0                         |
+| mai 11   | 130                       |
+| mai 17   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Transactions – période dynamique
 

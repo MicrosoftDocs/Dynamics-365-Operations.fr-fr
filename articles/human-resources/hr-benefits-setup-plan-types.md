@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423342"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431390"
 ---
 # <a name="plan-type-overview"></a>Vue d’ensemble du type de plan
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423342"
 
 Un type de plan est un regroupement de haut niveau de types spécifiques d’avantages. Chaque type de plan possède un code de type de plan qui détermine les règles du type de plan. Par exemple, le type de régime **Assurance-vie de base** aura le code de type de régime **Vie**, car il s'agit d'un type d'assurance-vie qui doit respecter les règles édictées pour le code de type de régime **Vie**. Un autre type de régime pourrait être **Assurance-vie complémentaire**. Ce type de régime aura également le code de type de régime **Vie**.
 
-Chaque type de plan indique si un employé peut souscrire à un plan de son type ou à plusieurs. Par exemple, un employé serait probablement en mesure de souscrire à la fois à l’assurance vie de base et à l’assurance vie supplémentaire du type de plan Vie. Un employé serait probablement autorisé à souscrire à une seule police de type médical.
+Chaque type de plan indique si un employé peut souscrire à un plan de son type ou à plusieurs. Par exemple, un employé serait probablement en mesure de souscrire à la fois à **l’assurance vie de base** et à **l’assurance vie supplémentaire** du type de plan Vie. Un employé serait probablement autorisé à souscrire à une seule police de type médical.
 
-Si un type de plan implique des contacts, le type de plan indique si les contacts sont des bénéficiaires ou des personnes à charge. Par exemple, un type de plan d’assurance vie de base aurait des bénéficiaires, tandis qu’un type de plan d’assurance maladie de base aurait des personnes à charge. Dans certains cas, un plan peut ne pas avoir de contacts personnels. Par exemple, un compte de dépenses flexible ou une allocation de stationnement.
+Si un type de plan implique des contacts, le type de plan indique si les contacts sont des bénéficiaires ou des personnes à charge. Par exemple, un type de plan **d’assurance vie de base** aurait des bénéficiaires, tandis qu’un type de plan d’assurance maladie de base aurait des personnes à charge. Dans certains cas, un plan peut ne pas avoir de contacts personnels. Par exemple, un compte de dépenses flexible ou une allocation de stationnement.
 
-Un type de plan peut définir des options de couverture. Les options de couverture sont définies dans la page **Option de couverture**. Une option de couverture peut spécifier le montant de l’avantage ou les contacts éligibles pour le type de plan. Par exemple, si le type de contact est Bénéficiaire, l’option de couverture doit définir les modalités de ce que le bénéficiaire est en droit de recevoir lorsque l’avantage est utilisé. Si le type de contact est Personne à charge, l’option de couverture doit définir la relation entre la personne à charge et l’employé. 
+
+Un type de plan peut définir des options de couverture. Les options de couverture sont définies dans la page **Options de couverture**. Une option de couverture peut spécifier le montant de l’avantage ou les contacts éligibles pour le type de plan. Par exemple, si le type de contact est **Bénéficiaire**, l’option de couverture doit définir les modalités de ce que le bénéficiaire est en droit de recevoir lorsque l’avantage est utilisé. Si le type de contact est **Personne à charge**, l’option de couverture doit définir la relation entre la personne à charge et l’employé. 
 
 > [!IMPORTANT]
-> La page comprend des données clés qui affectent les options disponibles lorsqu’un nouveau régime d’avantages est créé :
+> La page **Types de plan** comprend des données clés qui affectent les options disponibles lorsqu’un nouveau régime d’avantages est créé :
 >
 > - **Code type de régime** : ce champ affecte ce qui est affiché sur l'onglet **Configuration** lors de la configuration de l'avantage réel.  
 > - **Inscription simultanée** : ce champ détermine si plusieurs inscriptions sont autorisées. (Pour un plan médical, ce champ est généralement défini sur **Une inscription**.)

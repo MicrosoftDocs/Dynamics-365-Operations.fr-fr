@@ -2,7 +2,7 @@
 title: Concevoir des états multilingues dans les états électroniques
 description: Cette rubrique explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718403"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473403"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Concevoir des états multilingues dans les états électroniques
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -229,10 +231,14 @@ Comme décrit précédemment dans cette rubrique, les attributs **Étiquette** e
 - La valeur d’une étiquette ER liée aux attributs **Étiquette** est stockée dans le champ **Étiquette** de l’enregistrement renvoyé.
 - La valeur d’une étiquette ER liée aux attributs **Description** est stockée dans le champ **Description** de l’enregistrement renvoyé.
 
+## <a name="performance"></a><a name=performance></a>Performance
+
+Lorsque vous configurez un composant dans un format ER pour générer un état dans votre [langue](#language) préférée, ou pour importer un document entrant dont le contenu sera analysé dans votre langue préférée, nous vous recommandons d'activer la fonction **Mettre en cache la langue préférée de l'utilisateur actuel pour les exécutions ER** dans l'espace de travail [Gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md). Cette fonctionnalité permet d'améliorer les performances, en particulier pour les composants au format ER qui contiennent plusieurs références à des étiquettes dans les formules et les liaisons ER et de nombreuses règles de [validation](general-electronic-reporting-formula-designer.md#TestFormula) pour générer les messages utilisateur dans votre langue préférée.
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
-- [Fonctions de génération d’états électroniques](er-formula-language.md#functions)
+- [Fonctions de génération d’états électroniques](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

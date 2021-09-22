@@ -1,8 +1,8 @@
 ---
 title: Réservations budgétaires générales
 description: Cette rubrique fournit des informations sur les réservations budgétaires générales pour le secteur public.
-author: AlexRenney
-ms.date: 04/25/2019
+author: TaylorVH
+ms.date: 08/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,18 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5eda93048aa1c818115f3ba862a70851c76a1a853ccdfc9c763de9abdc61fa22
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fad1bb06063ac8fa04b93fb36e2f157f0d1d30a7
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741471"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473393"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Une *réservation budgétaire générale* est un document qui est parfois également appelé un *engagement*. Les entités du secteur public utilisent souvent ce document pour répartir ou réserver des fonds budgétés afin qu’ils soient disponibles pour d’autres fins. Généralement, ces réservations sont effectuées avant que des fournisseurs aient été sélectionnés pour l’achat. En utilisant les réservations budgétaires générales, une organisation peut explicitement suivre les dépenses prévues à des fins de gestion et de génération d’états. Chaque demande d’achat, commande fournisseur ou facture fournisseur générée peut être associée à au moins une réservation budgétaire générale.
 
@@ -41,6 +43,13 @@ Les entités du secteur privé utilisent l’expression *réservation budgétair
 Vous pouvez créer différents types de réservation budgétaire générale pour spécifier plusieurs caractéristiques et exigences, selon vos besoins d’achat. Les caractéristiques incluent le workflow utilisé pour la réservation, et les valeurs par défaut. Par exemple, vous pouvez créer trois types de réservations. Vous utilisez un type pour les demandes d’achat, un autre type pour les commandes fournisseur, et encore un autre type pour les factures fournisseur.
 
 Dans la réservation budgétaire générale, vous pouvez également afficher les répartitions comptables et les lignes du journal de comptabilité auxiliaire pour la transaction.
+
+> [!NOTE]
+> Les comptes généraux utilisés sur les réservations budgétaires générales doivent être inclus dans le contrôle budgétaire. Si ces comptes ne sont pas inclus dans le contrôle budgétaire, ce qui suit se produira. 
+>- La réservation budgétaire générale et ses documents de consommation ne seront ni grevés ni pré-grevés. 
+>- Les opérations de report ne créeront pas d'écritures dans le registre budgétaire. 
+>- L'annulation et la finalisation des réservations budgétaires générales ne réduiront pas le report de budget.
+>- Les comptes généraux ne seront pas inclus dans l'analyse budgétaire ni les études statistiques du contrôle budgétaire.
 
 Si vous utilisez la comptabilité de projet, vous pouvez activer le suivi des coûts engagés pour les réservations budgétaires générales.
 

@@ -2,7 +2,7 @@
 title: Calculer la disponibilité des stocks pour les canaux de vente au détail
 description: Cette rubrique décrit comment une société peut utiliser Microsoft Dynamics 365 Commerce pour afficher la disponibilité estimée des produits dans les canaux en ligne et en magasin.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741810"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472169"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calculer la disponibilité des stocks pour les canaux de vente au détail
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit comment une société peut utiliser Microsoft Dynamics 365 Commerce pour afficher la disponibilité estimée des produits dans les canaux en ligne et en magasin.
 
@@ -43,6 +44,21 @@ Les modifications de stock suivantes sont actuellement prises en compte dans la 
 - Stock vendu par le biais de commandes de clients en magasin ou sur le canal en ligne
 - Stock retourné au magasin
 - Stock traité (prélèvement, emballage, expédition) depuis l’entrepôt du magasin
+
+Pour utiliser le calcul du stock côté canal, vous devez activer la fonction **Calcul de la disponibilité des produits optimisée**.
+
+Si votre environnement Commerce est dans la version **10.0.8 à 10.0.11**, procédez comme suit.
+
+1. Dans Commerce Headquarters, accédez à **Retail et Commerce** \> **Paramètres partagés de Commerce**.
+1. Sous l'onglet **Stock**, dans le champ **Tâche Disponibilité du produit**, sélectionnez **Utiliser le processus optimisé pour la tâche Disponibilité du produit**.
+
+Si votre environnement Commerce est dans la version **10.0.12 à version ultérieure**, procédez comme suit.
+
+1. Dans Commerce Headquarters, accédez à **Espaces de travail \> Gestion des fonctionnalités**, et activez la fonction **Calcul de la disponibilité des produits optimisée**.
+1. Si vos canaux en ligne et en magasin utilisent les mêmes entrepôts de traitement des commandes, vous devez également activer la fonction **Amélioration de la logique de calcul des stocks côté canal du commerce électronique**. De cette façon, la logique de calcul côté canal prendra en compte les transactions non validées qui sont créées dans le canal de magasin. (Ces transactions peuvent être des transactions au comptant sans livraison, des commandes clients et des retours.)
+1. Exécutez la tâche **1070** (**Configuration du canal**).
+
+Si votre environnement Commerce a été mis à niveau à partir d'une version antérieure à la version 10.0.8 de Commerce, après avoir activé la fonction **Calcul de la disponibilité des produits optimisée**, vous devez également exécuter **Initialiser le planificateur de commerce** pour que la fonction prenne effet. Pour exécuter l'initialisation, accédez à **Retail et Commerce** \> **Paramétrage Headquarters** \> **Planificateur de commerce**.
 
 Pour utiliser le calcul du stock côté canal, comme condition préalable, un instantané périodique des données d’inventaire du siège créé par la tâche **Disponibilité du produit** doit être envoyé aux bases de données de canal. L’instantané représente les informations dont Commerce Headquarters dispose sur la disponibilité du stock pour une combinaison spécifique d’un produit ou d’une variante de produit et d’un entrepôt. Il inclut uniquement les transactions d’inventaire qui ont été traitées et publiées dans Commerce Headquarters au moment où l’instantané a été pris, et il peut ne pas être précis à 100 %% en temps réel en raison du traitement constant des ventes qui se produit sur les serveurs distribués.
 
@@ -73,9 +89,7 @@ Commerce fournit les API suivantes pour les scénarios de commerce électronique
 
 Les deux API utilisent en interne la logique de calcul côté canal et retournent une estimation de la quantité **physique disponible**, de la quantité **totale disponible**, de l’**unité de mesure (UoM)**, et du **niveau de stock** pour le produit et l’entrepôt demandés. Les valeurs retournées peuvent être affichées sur votre site de commerce électronique si vous le souhaitez, ou elles peuvent être utilisées pour déclencher une autre logique métier sur votre site de commerce électronique. Par exemple, vous pouvez empêcher l’achat de produits avec un niveau « rupture de stock ».
 
-Bien que les autres API disponibles sur Commerce puissent accéder directement à Commerce Headquarters pour extraire les quantités disponibles des produits, il est déconseillé de les utiliser dans un environnement de commerce électronique en raison des problèmes potentiels de performances et de l’impact que ces demandes fréquentes peuvent avoir sur vos serveurs Commerce Headquarters. De plus, avec le calcul côté canal, les deux API mentionnées ci-dessus peuvent fournir une estimation plus précise de la disponibilité d’un produit en tenant compte des transactions créées dans les canaux qui ne sont pas encore connues de Commerce Headquarters.
-
-Pour utiliser les deux API mentionnées précédemment, vous devez activer la fonctionnalité **Calcul de la disponibilité des produits optimisée** via l’espace de travail **Gestion des fonctionnalités** dans Commerce Headquarters. Si vos canaux en ligne et en magasin utilisent les mêmes entrepôts de traitement des commandes, vous devez également activer la fonctionnalité **Amélioration de la logique de calcul des stocks côté canal du commerce électronique** qui fournit la logique de calcul côté canal aux deux API pour prendre en compte les transactions non comptabilisées (transactions au comptant sans livraison, commandes client, retours) créées dans le canal de magasin. Vous devrez exécuter la tâche **1070** (**Configuration du canal**) après avoir activé ces fonctionnalités.
+Bien que les autres API disponibles sur Commerce puissent accéder directement à Commerce Headquarters pour extraire les quantités disponibles des produits, il est déconseillé de les utiliser dans un environnement de commerce électronique en raison des problèmes potentiels de performances et de l’impact que ces demandes fréquentes peuvent avoir sur vos serveurs Commerce Headquarters. De plus, avec le calcul côté canal, les deux API mentionnées ci-dessus peuvent fournir une estimation plus précise de la disponibilité d’un produit, en tenant compte des transactions créées dans les canaux qui ne sont pas encore connues de Commerce Headquarters.
 
 Pour définir la manière dont la quantité de produit doit être retournée dans le résultat de l’API, procédez comme suit.
 
@@ -85,17 +99,17 @@ Pour définir la manière dont la quantité de produit doit être retournée dan
 
 Le paramètre **Quantité dans le résultat de l’API** propose trois options :
 
-- **Renvoyer la quantité de stock** – La quantité physique disponible et la quantité totale disponible d’un produit demandé sont renvoyées dans le résultat de l’API.
-- **Renvoyer la quantité de stock en soustrayant la marge de stock** – La quantité renvoyée dans le résultat de l’API est ajustée en soustrayant la valeur de la marge de stock. Pour plus d’informations sur la marge de stock, consultez [Configurer des marges de stock et des niveaux de stock](inventory-buffers-levels.md).
-- **Ne pas retourner la quantité de stock** – Seul le niveau de stock est renvoyé dans le résultat de l’API. Pour plus d’informations sur les niveaux de stock, consultez [Configurer des marges de stock et des niveaux de stock](inventory-buffers-levels.md).
+- **Renvoyer la quantité de stock** : la quantité physique disponible et la quantité totale disponible d’un produit demandé sont renvoyées dans le résultat de l’API.
+- **Renvoyer la quantité de stock en soustrayant la marge de stock** : la quantité renvoyée dans le résultat de l’API est ajustée en soustrayant la valeur de la marge de stock. Pour plus d’informations sur la marge de stock, consultez [Configurer des marges de stock et des niveaux de stock](inventory-buffers-levels.md).
+- **Ne pas retourner la quantité de stock** : seul le niveau de stock est renvoyé dans le résultat de l’API. Pour plus d’informations sur les niveaux de stock, consultez [Configurer des marges de stock et des niveaux de stock](inventory-buffers-levels.md).
 
 Vous pouvez utiliser le paramètre d’API `QuantityUnitTypeValue` pour spécifier le type d’unité pour la quantité renvoyée par l’API. Ce paramètre prend en charge les options **unité de stock** (par défaut), **unité d’achat** et **unité de vente**. La quantité retournée est arrondie à la précision définie de l’unité de mesure (UdM) correspondante dans Commerce Headquarters.
 
 L’API **GetEstimatedAvailability** propose les paramètres d’entrée suivants pour prendre en charge différents scénarios de requête :
 
-- `DefaultWarehouseOnly` – Utilisez ce paramètre pour interroger le stock d’un produit dans l’entrepôt par défaut du canal en ligne. 
-- `FilterByChannelFulfillmentGroup` et `SearchArea` – Utilisez ces deux paramètres pour interroger le stock d’un produit à partir de tous les lieux de collecte dans une zone de recherche spécifique, en fonction des données `longitude`, `latitude` et `radius`. 
-- `FilterByChannelFulfillmentGroup` et `DeliveryModeTypeFilterValue` – Utilisez ces deux paramètres pour interroger le stock d’un produit dans des entrepôts spécifiques qui sont liés au groupe de traitement d’un canal en ligne et sont configurés pour prendre en charge certains modes de livraison. Le paramètre `DeliveryModeTypeFilterValue` prend en charge les options **tout** (par défaut), **expédition**, et **prélèvement**. Par exemple, dans un scénario où une commande en ligne peut être exécutée à partir de plusieurs entrepôts d’expédition, vous pouvez utiliser ces deux paramètres pour interroger la disponibilité du stock d’un produit dans tous ces entrepôts d’expédition. Dans ce cas, l’API renvoie la quantité disponible et le niveau de stock du produit dans chacun des entrepôts d’expédition, ainsi qu’une quantité agrégée et un niveau de stock agrégé de tous les entrepôts d’expédition dans la portée de la requête.
+- `DefaultWarehouseOnly` : utilisez ce paramètre pour interroger le stock d’un produit dans l’entrepôt par défaut du canal en ligne. 
+- `FilterByChannelFulfillmentGroup` et `SearchArea` : utilisez ces deux paramètres pour interroger le stock d’un produit à partir de tous les lieux de collecte dans une zone de recherche spécifique, en fonction des données `longitude`, `latitude` et `radius`. 
+- `FilterByChannelFulfillmentGroup` et `DeliveryModeTypeFilterValue` : utilisez ces deux paramètres pour interroger le stock d’un produit dans des entrepôts spécifiques qui sont liés au groupe de traitement d’un canal en ligne et sont configurés pour prendre en charge certains modes de livraison. Le paramètre `DeliveryModeTypeFilterValue` prend en charge les options **tout** (par défaut), **expédition**, et **prélèvement**. Par exemple, dans un scénario où une commande en ligne peut être exécutée à partir de plusieurs entrepôts d’expédition, vous pouvez utiliser ces deux paramètres pour interroger la disponibilité du stock d’un produit dans tous ces entrepôts d’expédition. Dans ce cas, l’API renvoie la quantité disponible et le niveau de stock du produit dans chacun des entrepôts d’expédition, ainsi qu’une quantité agrégée et un niveau de stock agrégé de tous les entrepôts d’expédition dans la portée de la requête.
  
 Les modules de zone d’achat, de sélecteur de magasin, de liste de souhaits, de panier et d’icône de panier de Commerce utilisent les API et les paramètres mentionnés ci-dessus pour afficher les messages de niveau de stock sur le site de commerce électronique. Le générateur du site Commerce fournit divers paramètres de stock pour contrôler le merchandising et le comportement d’achat. Pour plus d’informations, voir [Appliquer les paramètres de stock](inventory-settings.md).
 
@@ -136,6 +150,5 @@ Pour garantir la meilleure estimation possible du stock, il est important d’ut
 > - Pour des raisons de performances, lorsque les calculs de la disponibilité du stock côté canal sont utilisés pour effectuer une demande de disponibilité du stock à l’aide des API de commerce électronique ou de la logique de stock côté canal PDV, le calcul utilise un cache pour déterminer si un délai suffisant s’est écoulé pour justifier la réexécution de la logique de calcul. Le cache par défaut est défini sur 60 secondes. Par exemple, vous avez activé le calcul côté canal pour votre magasin et affiché le stock disponible pour un produit sur la page **Recherche de stock**. Si une unité du produit est ensuite vendue, la page **Recherche de stock** n’affiche pas le stock réduit tant que le cache n’a pas été effacé. Une fois que les utilisateurs valident des transactions dans le PDV, ils doivent attendre 60 secondes avant de vérifier que le stock disponible a été réduit.
 
 Si votre scénario d’entreprise nécessite un temps de mise en cache plus petit, contactez le représentant du support technique pour obtenir de l’aide.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

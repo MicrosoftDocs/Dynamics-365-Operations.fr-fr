@@ -1,8 +1,8 @@
 ---
 title: Configurer les périodes d’attente
 description: Dans Microsoft Dynamics 365 Human Resources, les jours d’attente établissent un jalon à utiliser pour les régimes d’avantages.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 537ca48e819f047f2095bd5d9337ac7d80e49c5f
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732583"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431063"
 ---
 # <a name="configure-waiting-periods"></a>Configurer les périodes d’attente
 
@@ -38,7 +38,7 @@ Dans Microsoft Dynamics 365 Human Resources, les jours d’attente établissent 
    | --- | --- |
    | **Code d’attente** | Identificateur unique pour la période d’attente. |
    | **Description** | Description de la période d’attente. |
-   | **Méthode d’attente** | Sélectionnez la méthode d’attente appropriée dans la liste déroulante des valeurs. Les options sont Net, Mois en cours, Trimestre en cours, Année en cours et Semaine en cours. |
+   | **Méthode d’attente** | Sélectionnez la méthode d’attente appropriée dans la liste déroulante des valeurs. Les options sont **Net**, **Mois en cours**, **Trimestre en cours**, **Année en cours**, and **Semaine en cours**. |
    | **Mois** | Entrez le nombre de mois à ajouter à la méthode d’attente pour calculer la date d’attente. |
    | **Jours** | Entrez le nombre de jours à ajouter à la méthode d’attente pour calculer la date d’attente. |
    | **Jour d’attente** | Sélectionnez le jour d’attente à utiliser pour calculer la date d’attente. |

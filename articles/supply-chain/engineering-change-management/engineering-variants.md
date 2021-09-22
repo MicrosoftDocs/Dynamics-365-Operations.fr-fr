@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766145"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471834"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Générer des variantes pour les produits d’ingénierie
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit comment générer des variantes pour les produits d’ingénierie.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Activer la génération de variantes pour les produits d'ingénierie
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Gestion des modifications d’ingénierie*
+- **Nom de la fonction :** *Génération de variantes pour les produits d'ingénierie*
+
+> [!IMPORTANT]
+> La fonction *Génération de variantes pour les produits d'ingénierie* ne sera visible dans votre système qu'une fois que vous aurez activé la clé de configuration *Gestion des changements techniques*. Pour plus d’instructions, consultez [Vue d’ensemble de la gestion des modifications techniques](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Générer une ou plusieurs nouvelles variantes d’un produit d’ingénierie
 
@@ -38,10 +49,15 @@ La procédure suivante fournit un exemple de création de plusieurs variantes in
 1. Ajoutez une nomenclature (BOM) et acheminez vers la variante si nécessaire.
 1. Sur le volet Actions, ouvrez l’onglet **Produit** et, dans le groupe **Produit générique**, cliquez sur **Dimensions de produit**.
 1. La page **Dimensions du produit** s’ouvre. Cette page comprend un onglet pour chaque dimension disponible. Sur chaque onglet, ajoutez une ligne pour chaque valeur que vous prendrez en charge pour chaque dimension pertinente. (Pour cet exemple, vous pouvez ajouter des lignes sur l’onglet **Couleur** pour *blanc*, *Jaune* et *Vert*).
-1. Fermez la page et sélectionnez **Variantes de produit publiées**. Notez que la première variante créée (blanc V-1) apparaît.
-1. Sélectionner **Suggestions de variantes**.
-1. Le système suggère des variantes avec les valeurs de couleur créées (par exemple, blanc V-1, jaune V-1 et vert V-1).
-1. Sélectionnez les variantes proposées et sélectionnez **OK** pour transmettre les variantes à la société d’ingénierie. Notez que les conditions suivantes s’appliquent : 
+1. Fermez la page et sélectionnez **Variantes de produit publiées**. Notez que la première variante que vous avez créée (bleu V-1) apparaît.
+1. Dans le volet Actions, sous l’onglet **Variante de produit**, sélectionnez **Suggestions de variantes**.
+1. Dans la boîte de dialogue **Suggestions de variantes** exécutez l'une des étapes suivantes :
+
+    - En haut de la boîte de dialogue, il y a une section pour chaque dimension disponible. Pour chaque dimension, cochez la case de chaque valeur pour laquelle vous souhaitez générer une suggestion de variante, puis sélectionnez **Suggérer** sur la barre d'outils. Les suggestions pertinentes sont ajoutées à la section **Variantes suggérées**.
+    - Sélectionnez **Tout suggérer** dans la barre d'outils pour générer des suggestions de variantes pour toutes les combinaisons disponibles de valeurs de dimension. Les suggestions sont ajoutées à la section **Variantes suggérées**.
+
+1. Dans la section **Variantes suggérées**, cochez la case de chaque variante que vous souhaitez créer. Sélectionnez ensuite **Créer** pour générer et transmettre les variantes sélectionnées à la société d’ingénierie. Les conditions suivantes s'appliquent :
+
     - Aucune des variantes créées n’aura de nomenclature ou de gamme.
     - Les attributs de ces variantes seront par défaut de la catégorie ingénierie et ne seront pas copiés à partir de la variante précédente.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753478"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463587"
 ---
 # <a name="reverse-journal-posting"></a>Contrepasser la validation du journal
 
@@ -28,11 +28,15 @@ ms.locfileid: "6753478"
 
 Cette rubrique décrit les fonctionnalités Microsoft Dynamics 365 Finance qui vous permettent de contrepasser un journal entier, ou de contrepasser un ou plusieurs documents provenant de la liste de transactions de documents, peu importe leur origine. 
 
+Avant de pouvoir utiliser une des fonctionnalités décrites dans cette rubrique, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+ - Module : Comptabilité
+ - Nom de la fonctionnalité : **Contrepassation en masse pour plusieurs documents**
+
 ## <a name="reversing-journals"></a>Contrepassation des journaux
 
 Vous pouvez contrepasser des lignes de journal individuellement. Avec la contrepassation de la validation du journal, vous pouvez également contrepasser tout un journal financier. Pour contrepasser un journal : 
 
-- Ouvrez le journal financier et filtrez selon les journaux validés.
+- Filtrez sur les journaux publiés et ouvrez la vue **Lignes** sur le journal.
 - Sélectionnez le menu **Contrepasser** en haut de la page.
 - Vous verrez le nombre total de documents et les lignes de documents ainsi que le volume total des lignes contrepassées.
 - Sélectionnez **Oui** pour utiliser les dates de transaction existantes ou **Non** pour en saisir de nouvelles. Dans certains cas, la période de la transaction d’origine peut être clôturée et vous devez saisir une nouvelle date de transaction pour la contrepassation.
@@ -52,8 +56,8 @@ Vous pouvez également contrepasser les documents provenant de la **Liste des tr
 
 Pour ce faire, procédez comme suit : 
 
-- Sélectionnez le menu **Contrepasser** en haut de la page
-- Vous verrez le nombre total de documents et les lignes de documents ainsi que le volume total des lignes contrepassées.
+- Sélectionnez le menu déroulant **Contrepasser l’intégralité du journal** en haut de la page.
+- Le nombre total de documents et les lignes de documents sont affichés, ainsi que le volume total des lignes contrepassées.
 - Sélectionnez **Oui** pour utiliser les dates de transaction existantes ou **Non** pour en saisir de nouvelles. Dans certains cas, la période de la transaction d’origine peut être clôturée et vous devez saisir une nouvelle date de transaction pour la contrepasser.
 - Si vous sélectionnez **Non**, entrez une date de transaction pour la contrepassation. 
 - Entrez un commentaire décrivant la transaction de contrepassation.

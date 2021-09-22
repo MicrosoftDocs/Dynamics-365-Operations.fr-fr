@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416178"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481313"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Synchroniser à la demande avec le moteur de tarification de Supply Chain Management
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management comprend un moteur de tarificatio
     + Total des taxes
     + Montant total
     
-5. Pour garantir que le système prend en compte les accords commerciaux et les contrats de vente pour calculer le prix :
+5. Pour garantir que le système prend en compte les accords commerciaux pour calculer le prix :
     1. Accédez à votre environnement Supply Chain Management.
     2. Accédez à **Comptabilité client \> Configuration \> Paramètres de la comptabilité client**.
     3. Sélectionnez l’onglet **Prix** dans la barre de navigation latérale.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management comprend un moteur de tarificatio
 
 Lorsque vous sélectionnez **Ordre de prix** dans Sales, la fonction **Totaux** sur l’onglet **Commande client \> Vue** dans Supply Chain Management est appelé pour la commande client associée. Les valeurs du total de la commande dans Sales sont utilisées pour remplir les colonnes correspondantes dans Supply Chain Management.
 
-Lorsque le total de la commande client est calculé dans Supply Chain Management, le calcul évalue les accords commerciaux et les accords de vente existants pour le client et les produits répertoriés dans la commande client. Ces informations sont utilisées pour calculer les totaux. Quand **Ordre de prix** est sélectionné, Sales reflète automatiquement toute la configuration effectuée dans Supply Chain Management.
+Lorsque le total de la commande client est calculé dans Supply Chain Management, le calcul évalue les accords commerciaux existants pour le client et les produits répertoriés dans la commande client. Ces informations sont utilisées pour calculer les totaux. Quand **Ordre de prix** est sélectionné, Sales reflète automatiquement toute la configuration effectuée dans Supply Chain Management.
 
 ## <a name="limitations"></a>Limitations
 

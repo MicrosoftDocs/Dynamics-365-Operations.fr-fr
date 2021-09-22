@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2112c87912a1d130017c5804c4193b62c1e5a476be79bfd485640ec98b42f77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730897"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473523"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Synchronisation des évaluations de produit dans Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Pour consommer des classements de produit dans les omnicanaux, par exemple au point de vente (PDV) et dans les centres d’appels, les classements de produit du service de classements et d’évaluations doivent être importés dans la base de données du canal de commerce. Lorsque les classements de produit sont disponibles dans les omnicanaux, ils peuvent aider les clients indirectement lors de leurs interactions avec des vendeurs.
 

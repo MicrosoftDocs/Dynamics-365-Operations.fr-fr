@@ -2,7 +2,7 @@
 title: Configurer un locataire B2C dans Commerce
 description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344496"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466266"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux
 
 > [!TIP]
 > Vous pouvez protéger davantage les utilisateurs de votre site et améliorer la sécurité de vos locataire B2C Azure AD avec la protection d'identité et l'accès conditionnel Azure AD. Pour passer en revue les capacités disponibles pour les locataires Azure AD B2C Premium P1 et Premium P2, voir [Protection de l'identité et accès conditionnel pour Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Prérequis de l’environnement dynamique
+
+Avant de commencer, assurez-vous que votre environnement Dynamics 365 Commerce et le canal de commerce électronique sont configurés de manière appropriée en remplissant les conditions préalables suivantes.
+
+- Définissez la valeur **AllowAnonymousAccess** des opérations de PDV sur « 1 » dans Commerce Headquarters :
+    1. Accédez aux **Opérations de PDV**.
+    1. Dans la grille des opérations, cliquez avec le bouton droit de la souris et sélectionnez **Personnaliser**.
+    1. Sélectionnez **Ajouter un champ**.
+    1. Dans la liste des colonnes disponibles, sélectionnez la colonne **AllowAnonymousAccess** pour l’ajouter.
+    1. Sélectionnez **Mettre à jour**.
+    1. Pour l’opération « Ajout de client » **612**, modifiez **AllowAnonymousAccess** sur « 1 ».
+    1. Exécutez la tâche **1090 (Registres)**.
+- Définissez l’attribut **Manuel** du compte client de la souche de numéros sur **Non** dans Commerce Headquarters :
+    1. Accédez à **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres Comptabilité client**.
+    1. Sélectionnez des **Souches de numéros**.
+    1. Dans la ligne **Compte client**, double-cliquez sur la valeur **Code de souches de numéros**.
+    1. Sur le raccourci **Général** de la souche de numéros, définissez **Manuel** sur **Non**.
+
+Après le déploiement de votre environnement Dynamics 365 Commerce, il est également recommandé d’[Initialiser les données d’origine](enable-configure-retail-functionality.md) dans l’environnement.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Créer ou générer un lien vers un locataire AAD B2C existant dans le portail Azure
 

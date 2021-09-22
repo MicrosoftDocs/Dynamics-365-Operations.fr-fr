@@ -2,7 +2,7 @@
 title: Gestion des clients en magasin
 description: Cette rubrique explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 05/25/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ea2953510d134be0d33a6afa65027a6c9d2816f7dc16ca669859e80ee40f4278
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754414"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472223"
 ---
 # <a name="customer-management-in-stores"></a>Gestion des clients en magasin
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
 
@@ -38,32 +39,36 @@ Les vendeurs peuvent également capturer des adresses e-mail et des numéros de 
 Les détaillants peuvent utiliser la page **Tous les magasins** dans Commerce Headquarters (**Retail et Commerce \> Canaux \> Magasins**) pour associer un client par défaut à chaque magasin. Commerce copie ensuite les propriétés définies pour le client par défaut dans tous les enregistrements client créés. Par exemple, la boîte de dialogue **Créer un client** affiche les propriétés héritées du client par défaut associé au magasin. Ces propriétés incluent le **type de client**, le **groupe de clients**, l’**option de réception**, l’**email de réception**, la **devise** et la **langue**. Toutes les **affiliations** (regroupements de clients) sont également héritées du client par défaut. Cependant, les **dimensions financières** sont héritées du groupe de clients associé au client par défaut, et non du client par défaut lui-même.
 
 > [!NOTE]
-> La valeur de l’**e-mail de réception** est copiée à partir du client par défaut uniquement si l’ID de l’e-mail de réception n’est pas fourni pour les nouveaux clients créés. Cela signifie que si l’ID de l’e-mail de réception est présent sur le client par défaut, tous les clients créés à partir du site d’e-commerce recevront le même ID d’e-mail de réception, car il n’y a pas d’interface utilisateur pour capturer l’ID de l’e-mail de réception du client. Nous vous recommandons de conserver le champ **e-mail de réception** vide pour le client par défaut du magasin et de ne l’utiliser que si un processus métier dépend de la présence d’une adresse e-mail de réception. 
+> La valeur de l’**e-mail de réception** est copiée à partir du client par défaut uniquement si l’ID de l’e-mail de réception n’est pas fourni pour les nouveaux clients créés. Cela signifie que si l’ID de l’e-mail de réception est présent sur le client par défaut, tous les clients créés à partir du site d’e-commerce recevront le même ID d’e-mail de réception, car il n’y a pas d’interface utilisateur pour capturer l’ID de l’e-mail de réception du client. Nous vous recommandons de laisser le champ **e-mail de réception** vierge pour le client par défaut du magasin et de ne l’utiliser que si un processus métier dépend de la présence d’une adresse e-mail de réception. 
 
 Les vendeurs peuvent capturer plusieurs adresses pour un client. Le nom et le numéro de téléphone du client sont hérités des informations de contact associées à chaque adresse. Le raccourci **Adresses** pour un enregistrement client comprend un champ **Objectif** que les vendeurs peuvent modifier. Si le type de client est **Personne**, la valeur par défaut est **Domicile**. Si le type de client est **Organisation**, la valeur par défaut est **Entreprise**. Les autres valeurs prises en charge par ce champ incluent **Domicile**, **Bureau** et **Boîte aux lettres**. La valeur du champ **Pays** d’une adresse est héritée de l’adresse principale spécifiée sur la page **Unité opérationnelle** de Commerce Headquarters, accessible via **Administration d’organisation \> Organisations \> Unités opérationnelles**.
 
 ## <a name="sync-customers-and-async-customers"></a>Clients synchrones et clients asynchrones
 
+> [IMPORTANT] Chaque fois que le PDV se déconnecte, le système passe automatiquement en mode de création de client asynchrone, même si le mode de création de client asynchrone est désactivé. Par conséquent, quelle que soit votre sélection entre la création de clients synchrone et asynchrone, les administrateurs de Commerce Headquarters doivent créer et planifier une tâche par lots récurrente pour la **tâche P**, la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** (anciennement nommée **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone**), et la tâche **1010** afin que tous les clients asynchrones soient convertis en clients synchrones dans Commerce Headquarters.
+
 Dans Commerce, il existe deux modes de création de client : Synchrone (ou Sync) et Asynchrone (ou Async). Par défaut, les clients sont créés de manière synchrone. Cela signifie qu’ils sont créés dans Commerce Headquarters en temps réel. Le mode de création Client synchrone est avantageux car les nouveaux clients sont immédiatement consultables sur tous les canaux. Cependant, il présente également un inconvénient. Il génère des appels [Commerce Data Exchange : Service en temps réel](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) vers Commerce Headquarters. Les performances peuvent alors être affectées si de nombreux appels de création de clients simultanés sont effectués.
 
-Si l’option **Créer un client en mode asynchrone** est définie sur **Oui** dans le profil de fonctionnalité du magasin (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du magasin en ligne \> Profils de fonctionnalité**), les appels de service en temps réel ne sont pas utilisés pour créer des enregistrements client dans la base de données des canaux. Le mode de création de client asynchrone n’affecte pas les performances de Commerce Headquarters. Un identificateur global unique (GUID) temporaire est attribué à chaque nouvel enregistrement de client asynchrone et est utilisé comme ID de compte client. Ce GUID ne s’affiche pas pour les utilisateurs du PDV. Au lieu de cela, ces utilisateurs verront **En attente de synchronisation** comme identifiant de compte client. Bien que cette configuration oblige la création des clients de manière asynchrone, notez que les modifications apportées aux enregistrements client sont toujours effectuées de manière synchrone.
+Si l’option **Créer un client en mode asynchrone** est définie sur **Oui** dans le profil de fonctionnalité du magasin (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du magasin en ligne \> Profils de fonctionnalité**), les appels de service en temps réel ne sont pas utilisés pour créer des enregistrements client dans la base de données des canaux. Le mode de création de client asynchrone n’affecte pas les performances de Commerce Headquarters. Un identificateur global unique (GUID) temporaire est attribué à chaque nouvel enregistrement de client asynchrone et est utilisé comme ID de compte client. Ce GUID ne s’affiche pas pour les utilisateurs du PDV. Au lieu de cela, ces utilisateurs verront **En attente de synchronisation** comme identifiant de compte client. 
 
 ### <a name="convert-async-customers-to-sync-customers"></a>Convertir les clients asynchrones en clients synchrones
 
-Pour convertir les clients asynchrones en clients synchrones, vous devez d’abord exécuter la tâche P pour envoyer les clients asynchrones vers Commerce Headquarters. Puis exécutez la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** pour créer des identifiants de compte client. Enfin, exécutez la tâche **1010** pour synchroniser les nouveaux identifiants de compte client avec les canaux.
+Pour convertir les clients asynchrones en clients synchrones, vous devez d’abord exécuter la **tâche P** pour envoyer les clients asynchrones vers Commerce Headquarters. Ensuite, exécutez la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** (anciennement nommée **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone**) pour créer des identifiants de compte client. Enfin, exécutez la tâche **1010** pour synchroniser les nouveaux identifiants de compte client avec les canaux.
 
 ### <a name="async-customer-limitations"></a>Limitations des clients asynchrones
 
 La fonctionnalité de client asynchrone présente actuellement les limitations suivantes :
 
-- Les enregistrements de client asynchrone ne peuvent pas être modifiés, sauf si le client a été créé dans Commerce Headquarters et que le nouvel ID de compte client a été synchronisé avec le canal.
+- Les enregistrements de client asynchrone ne peuvent pas être modifiés, sauf si le client a été créé dans Commerce Headquarters et que le nouvel ID de compte client a été synchronisé avec le canal. Par conséquent, l'adresse ne peut pas être enregistrée pour un client asynchrone tant que ce client n'est pas synchronisé avec Commerce Headquarters, car l'ajout d'une adresse client est implémenté en interne en tant qu'opération de modification du profil client. Cependant, si la fonction **Activer la création asynchrone des adresses client** est activée, les adresses des clients peuvent également être enregistrées pour les clients asynchrones.
 - Les affiliations ne peuvent pas être associées aux clients asynchrones. Par conséquent, les nouveaux clients asynchrones n’héritent pas des affiliations du client par défaut.
 - Les cartes de fidélité ne peuvent pas être émises pour les clients asynchrones, sauf si le nouvel identifiant de compte client a été synchronisé avec le canal.
 - Les adresses e-mail et numéros de téléphone secondaires ne peuvent pas être capturés pour les clients asynchrones.
 
+Bien que certaines des limitations mentionnées précédemment puissent vous inciter à choisir l'option de client synchrone pour votre entreprise, l'équipe Commerce s'efforce de faire en sorte que les capacités des clients asynchrones correspondent plus fidèlement aux capacités des clients synchrones. Par exemple, à partir de la version Commerce, version 10.0.22, une nouvelle fonction **Activer la création asynchrone des adresses client** que vous pouvez activer dans l'espace de travail **Gestion des fonctionnalités** enregistre de manière asynchrone les adresses des clients nouvellement créées pour les clients synchrones et les clients asynchrones. Pour enregistrer ces adresses dans le profil client de Commerce Headquarters, vous devez planifier un traitement par lots récurrent pour la **tâche P**, la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** et la tâche **1010**, afin que tous les clients asynchrones soient convertis en clients synchrones dans Commerce Headquarters.
+
 ### <a name="customer-creation-in-pos-offline-mode"></a>Création d’un client au PDV en mode hors connexion
 
-Si le PDV se déconnecte alors que le mode de création de client asynchrone est activé, les nouveaux enregistrements de client sont créés de manière asynchrone. Si le PDV se déconnecte alors que le mode de création de client asynchrones est désactivé, le système passe automatiquement en mode de création de client asynchrone. Cela signifie que des enregistrements client peuvent être créés de manière asynchrone même si le mode de création de client asynchrone est désactivé. Par conséquent, les administrateurs de Commerce Headquarters doivent créer et planifier un traitement par lots récurrent pour la tâche P, la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** et la tâche **1010**, afin que tous les clients asynchrones soient convertis en clients synchrones dans Commerce Headquarters.
+Chaque fois que le PDV se déconnecte, le système passe automatiquement en mode de création de client asynchrone, même si le mode de création de client asynchrone est désactivé. Par conséquent, comme mentionné précédemment, les administrateurs de Commerce Headquarters doivent créer et planifier un traitement par lots récurrent pour la **tâche P**, la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** et la tâche **1010**, afin que tous les clients asynchrones soient convertis en clients synchrones dans Commerce Headquarters.
 
 > [!NOTE]
 > Si l’option **Filtrer les tables de données client partagées** est définie sur **Oui** sur la page **Schéma de canal de Commerce** (**Retail et Commerce \> Configuration du siège \> Planificateur de Commerce \> Groupe Base de données des canaux**), les enregistrements client ne sont pas créés en mode hors ligne PDV. Pour plus d’informations, voir [Exclusion des données hors ligne](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion).

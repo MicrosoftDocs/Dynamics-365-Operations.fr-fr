@@ -1,5 +1,5 @@
 ---
-title: Paramétrage de la visibilité des stocks
+title: Installer le complément de visibilité de stock
 description: Cette rubrique décrit comment installer le module complémentaire de visibilité des stocks pour Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343582"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474818"
 ---
-# <a name="set-up-inventory-visibility"></a>Paramétrage de la visibilité des stocks
+# <a name="install-and-set-up-inventory-visibility"></a>Installer et configurer la visibilité des stocks
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Avant de pouvoir installer la Visibilité des stocks, vous devez effectuer les t
     - `Inventory Visibility Integration.zip` (si la version de Supply Chain Management que vous exécutez est antérieure à la version 10.0.18)
 
 > [!NOTE]
-> Les pays et régions actuellement pris en charge sont le Canada (CCA, ECA), les États-Unis (WUS, EUS), l'Union européenne (NEU, WEU), le Royaume-Uni (SUK, WUK) et l'Australie (EAU, SEAU) .
+> Les pays et régions actuellement pris en charge sont le Canada (CCA, ECA), les États-Unis (WUS, EUS), l'Union européenne (NEU, WEU), le Royaume-Uni (SUK, WUK), l'Australie (EAU, SEAU), le Japon (EJP, WJP) et le Brésil (SBR, SCUS).
 
 Si vous avez des questions sur ces conditions préalables, contactez l’équipe produit de visibilité des stocks.
 
@@ -119,6 +119,9 @@ Après avoir enregistré une application et ajouté un clé secrète client à A
 1. Acceptez les termes et conditions en cochant la case **Termes et conditions**.
 1. Sélectionnez **Installer**. Le statut du complément s’affiche comme **Installation en cours**. Lorsque l’installation est terminée, actualisez la page. Le statut devrait changer pour **Installé**.
 
+> [!IMPORTANT]
+> Si vous avez plusieurs environnements LCS, créez une application Azure AD différente pour chaque environnement. Si vous utilisez le même ID d'application et le même ID de locataire pour installer le complément de visibilité des stocks pour différents environnements, un problème de jeton se produira pour les environnements plus anciens. Seul le dernier installé sera valide.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Désinstaller le complément de visibilité des stocks
 
 Pour désinstaller le complément de visibilité des stocks, sélectionnez **Désinstaller** sur la page LCS. Le processus de désinstallation met fin au complément de visibilité des stocks, annule l'enregistrement du complément de LCS et supprime toutes les données temporaires stockées dans le cache de données du complément de visibilité des stocks. Cependant, les données de stock principales qui sont stockées dans votre abonnement Dataverse ne sont pas supprimées.
@@ -133,7 +136,7 @@ Pour désinstaller les données de stock stockées dans votre abonnement Dataver
 
 Après avoir supprimé ces solutions, les données stockées dans les tables seront également supprimées.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Paramétrer Supply Chain Management
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurer la visibilité des stocks dans Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Déployer le package d’intégration de la visibilité d’inventaire
 
@@ -153,8 +156,23 @@ Assurez-vous que les fonctionnalités suivantes sont activées dans votre enviro
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurer l’intégration de la visibilité du stock
 
-1. Dans Supply Chain Management, ouvrez l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** et activez la fonctionnalité *Intégration de la visibilité de l’inventaire*.
-1. Aller à **Gestion de l’inventaire \> Installation \> Paramètres d’intégration de la visibilité de l’inventaire** et entrez l’URL de l’environnement dans lequel vous exécutez la visibilité de l’inventaire. Pour plus d’informations, voir [Rechercher le point de terminaison de service](inventory-visibility-power-platform.md#get-service-endpoint).
+Une fois que vous avez installé le complément, préparez votre système Supply Chain Management pour l'utiliser en procédant comme suit.
+
+1. Dans Supply Chain Management, ouvrez l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** et activez les fonctionnalités suivantes :
+    - *Intégration de la visibilité des stocks* : requis.
+    - *Intégration de la visibilité des stocks avec compensation des réservations* : recommandé mais facultatif. Nécessite la version 10.0.22 ou ultérieure. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md).
+
+1. Allez dans **Gestion des stocks \> Configuration \> Paramètres de l'intégration de la visibilité des stocks**.
+1. Ouvrez l'onglet **Général** et effectuez les réglages suivants :
+    - **Point de terminaison de la visibilité des stocks** : saisissez l'URL de l'environnement dans lequel vous exécutez la visibilité des stocks. Pour plus d’informations, voir [Rechercher le point de terminaison de service](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Nombre maximal d'enregistrements dans une seule requête** : définissez le nombre maximal d'enregistrements à inclure dans une seule requête. Vous devez saisir un nombre entier positif inférieur ou égal à 1000. La valeur par défaut est 512. Nous vous recommandons fortement de conserver la valeur par défaut, à moins que vous n'ayez reçu des conseils du support Microsoft ou que vous soyez par ailleurs certain de devoir la modifier.
+
+1. Si vous avez activé l'option *Intégration de la visibilité des stocks avec compensation des réservations*, ouvrez l'onglet **Compensation des réservations** et effectuez les réglages suivants :
+    - **Activer la compensation des réservations** : définissez-le sur *Oui* pour activer cette fonctionnalité.
+    - **Modificateur de la compensation des réservations** : sélectionnez le statut de la transaction de stock qui compensera les réservations effectuées sur la visibilité des stocks. Ce paramètre détermine l'étape de traitement de la commande qui déclenche les compensations. L'étape est tracée par le statut du mouvement de stock de la commande. Choisissez l’une des méthodes suivantes :
+        - *Sur commande* - Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
+        - *Réserve* - Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu'elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu'une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
+
 1. Aller à **Gestion de l’inventaire \> Périodique \> Intégration de la visibilité de l’inventaire** et activez le travail. Tous les événements de changement d’inventaire de Supply Chain Management seront désormais publiés dans la visibilité des stocks.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
 description: Cette rubrique couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748544"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478669"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
 
@@ -58,6 +58,8 @@ Par défaut, seuls les responsables peuvent affecter une connexion étendue aux 
 Pour supprimer la connexion étendue affectée à un collaborateur, recherchez le collaborateur à l’aide de l’opération **Connexion étendue**. Sélectionnez le collaborateur, puis cliquez sur **Annuler l’affectation**. Toutes les informations d’identification de la connexion étendue associées à ce collaborateur sont supprimées.
 
 ## <a name="extending-extended-logon"></a>Extension de connexion étendue
+
+L'ouverture de session étendue n'autorise que cinq caractères significatifs comme identifiant unique prêt à l'emploi. Par exemple, si vous configurez deux cartes avec les ID « 1234567 » et « 1234578 », elles seront toutes les deux considérées comme « 12345 ». Vous pouvez créer une extension pour prendre en charge plus de caractères. Pour des instructions détaillées, consultez [Extension de la fonctionnalité d'ouverture de session étendue pour MPOS et Cloud POS ](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 Le service de connexion peut être étendu pour prendre en charge les périphériques de connexion étendue supplémentaires, tels que des scanneurs de paume. Pour plus d’informations, voir la documentation sur l’extensibilité de PDV.
 

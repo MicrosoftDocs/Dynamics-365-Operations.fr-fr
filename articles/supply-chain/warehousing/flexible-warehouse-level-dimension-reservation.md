@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 32beabd40aa62cce832505edd56d92a8a8f12192b821f075e9b1f058d52bf8d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733442"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474938"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Stratégie flexible de réservation de dimension au niveau de l’entrepôt
 
@@ -152,7 +152,7 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
     >
     > La réservation d’un lot spécifique pour la quantité sur une ligne de commande client peut également être partielle. Par exemple, la quantité totale de 100 unités peut être réservée pour qu’un lot spécifique soit validé à 20 unités, tandis que 80 unités sont réservées au niveau du site et de l’entrepôt pour tout lot disponible. Dans ce cas, le WMS gérera les opérations de prélèvement en utilisant deux lignes de travail distinctes.
 
-7. Allez à **Gestion des informations sur les produits** \> **Produits** \> **Produits lancés**. Sélectionnez votre article, puis sélectionnez **Gérer le stock**\>**Vue** \>**Transactions**.
+7. Allez à **Gestion des informations sur les produits** \> **Produits** \> **Produits lancés**. Sélectionnez votre article, puis sélectionnez **Gérer le stock** \> **Vue** \>**Transactions**.
 
     ![Réservation validée en tant que type de transaction de stock.](media/Inventory-transactions-for-order-committed-reservation.png)
 
@@ -161,11 +161,11 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
     - Une transaction où la **Référence** est définie sur **Commande client** et le **Problème** est défini sur **Physique réservé** représente la réservation de la ligne de commande pour les dimensions de stock au-dessus du niveau **Emplacement**. Selon la hiérarchie de réservation de stock de l’article, ces dimensions sont le site, l’entrepôt et l’état du stock.
     - Une transaction où le champ **Référence** est défini sur **Réservation confirmée par la commande** et le champ **Problème** est défini sur **Physique réservé** représente la réservation de la ligne de commande pour le lot spécifique et toutes les dimensions de stock au-dessus. Selon la hiérarchie de réservation de stock de l’article, ces dimensions sont le numéro du lot et l’emplacement. Dans cet exemple, l’emplacement est **Bulk-001**.
 
-9. Dans l’en-tête de la commande client, sélectionnez **Entrepôt** \>**Actions** \>**Libérer dans l’entrepôt**. La ligne de commande est maintenant traité par vagues et une charge et un travail sont créés.
+9. Dans l’en-tête de la commande client, sélectionnez **Entrepôt** \> **Actions** \> **Lancement vers l'entrepôt**. La ligne de commande est maintenant traité par vagues et une charge et un travail sont créés.
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Examiner et traiter le travail en entrepôt dont les numéros de lot sont validés par la commande
 
-1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Entrepôt** \>**Détails du travail**.
+1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Entrepôt** \> **Détails du travail**.
 
     Le travail qui gère l’opération de prélèvement pour les quantités de lots validées sur la ligne de commande client présente les caractéristiques suivantes :
 
@@ -249,7 +249,7 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
 1. Dans le champ **Nom**, entrez une valeur (par exemple *FlexibleLP*).
 1. Dans le champ **Description**, entrez une valeur (par exemple *Réservation de contenant flexible*).
 1. Dans la liste **Sélectionné**, sélectionnez **Numéro de lot**, **Numéro de série** et **Propriétaire**.
-1. Sélectionnez le bouton **Supprimer**![flèche vers l’arrière.](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
+1. Sélectionnez le bouton **Supprimer** ![flèche vers l’arrière.](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
 1. Cliquez sur **OK**.
 1. Dans la ligne du niveau de dimension **Contenant**, activez la case à cocher **Autoriser la réservation sur ordre de la commande**. Le niveau **Emplacement** est automatiquement sélectionné et vous ne pouvez pas le désactiver.
 1. Sélectionnez **Enregistrer**.
@@ -340,7 +340,7 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
     > [!NOTE]
     > Une transaction où le champ **Référence** est défini sur *Commande client* représente la réservation de la ligne de commande pour les dimensions de stock situées au-dessus du niveau **Emplacement** (site, entrepôt et statut du stock). Une transaction où le champ **Référence** est défini sur *Réservation validée par commande* représente la réservation de la ligne de commande pour le contenant et l’emplacement spécifiques.
 
-1. Pour libérer la commande client, dans le volet Actions, dans l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
+1. Pour libérer la commande client, dans le volet Actions, dans l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Lancement vers l'entrepôt**.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Examiner et traiter le travail en entrepôt avec des contenants validés par commande attribués
 
@@ -407,7 +407,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Gestion des entrepôts lorsque vous commencez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Warehouse Management lorsque vous commencez le travail de prélèvement.</li>
 <li>Sélectionnez <strong>Suggérer</strong>.</li>
 <li>Confirmez le nouvel emplacement suggéré en fonction de la disponibilité de la quantité de lots.</li>
 </ol>
@@ -424,7 +424,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Gestion des entrepôts lorsque vous commencez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Warehouse Management lorsque vous commencez le travail de prélèvement.</li>
 <li>Entrez manuellement un emplacement.</li>
 </ol>
 </td>
@@ -448,11 +448,11 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </thead>
 <tbody>
 <tr>
-<td>L’option <strong>Autoriser le fractionnement du travail </strong> est activée sur l’élément de menu de l’appareil mobile.</td>
+<td>L’option <strong>Autoriser le fractionnement du travail</strong> est activée sur l’élément de menu de l’appareil mobile.</td>
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Complet</strong> sur l’application mobile Gestion des entrepôts lorsque vous traitez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Complet</strong> sur l’application mobile Warehouse Management lorsque vous traitez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Qté prélevée</strong>, entrez la quantité partielle de prélèvement requise pour indiquer la pleine capacité.</li>
 </ol>
 </td>
@@ -527,7 +527,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Initiez un déplacement sur l’application mobile Gestion des entrepôts.</li>
+<li>Initiez un déplacement sur l’application mobile Warehouse Management.</li>
 <li>Entrez les emplacements d’origine et de destination.</li>
 </ol></td>
 <td>
@@ -639,11 +639,11 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </thead>
 <tbody>
 <tr>
-<td rowspan='2'>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Aucun</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Non</strong>.</td>
+<td rowspan='2'>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles</strong> = <strong>Aucun</strong>, <strong>Ajuster le stock</strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations</strong> = <strong>Non</strong>.</td>
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Gestion des entrepôts lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -672,7 +672,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Gestion des entrepôts lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -696,7 +696,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Gestion des entrepôts lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l’emplacement / le contenant dans la liste.</li>
@@ -722,7 +722,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Gestion des entrepôts lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 </ol>
@@ -735,7 +735,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>N°</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Gestion des entrepôts lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l’emplacement / le contenant dans la liste.</li>
@@ -759,7 +759,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Gestion des entrepôts lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation automatique</strong>.</li>
 </ol>
@@ -850,7 +850,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
     - Réservation contre fourniture commandée
     - Ordres de transfert et prélèvement des matières premières
 
-- La règle de consolidation des conteneurs pour l’emballage par unité de directive présente des limites. Pour les réservations validées par la commande, nous vous recommandons de ne pas utiliser de modèles de construction de conteneur où le cham **Pack par unité de directive** est activé. Dans la conception actuelle, les directives d’emplacement ne sont pas utilisées lors de la création d’un travail d’entrepôt. Par conséquent, seule l’unité la plus basse du groupe de séquences d’unités (l’unité d’inventaire) est appliquée pendant l’étape de vague de conteneurisation.
+- La règle de regroupement des conteneurs pour l’emballage par unité de directive présente des limites. Pour les réservations validées par la commande, nous vous recommandons de ne pas utiliser de modèles de construction de conteneur où le cham **Pack par unité de directive** est activé. Dans la conception actuelle, les directives d’emplacement ne sont pas utilisées lors de la création d’un travail d’entrepôt. Par conséquent, seule l’unité la plus basse du groupe de séquences d’unités (l’unité d’inventaire) est appliquée pendant l’étape de vague de conteneurisation.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -858,7 +858,5 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 - [Réservation du même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Prélever le lot le plus ancien sur un appareil mobile](pick-oldest-batch.md)
 - [Confirmation du contenant et du lot](batch-and-license-plate-confirmation.md)
-- [Résoudre les problèmes de réservations dans la gestion des entrepôts](troubleshoot-warehouse-reservations.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

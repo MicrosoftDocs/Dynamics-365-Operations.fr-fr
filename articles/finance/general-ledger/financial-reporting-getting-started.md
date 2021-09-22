@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56c253d8ef2c8114edbd7098c29464d83086b2db
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748208"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441213"
 ---
 # <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
@@ -38,7 +38,7 @@ Vous pouvez trouver le menu **États financiers** dans les endroits suivants :
 -   **Budget** &gt; **Recherches et états** &gt; **Budget de base**
 -   **Budget** &gt; **Recherches et états** &gt; **Planification budgétaire**
 -   **Budget** &gt; **Recherches et états** &gt; **Contrôle budgétaire**
--   Consolidations
+-   Regroupements
 
 Pour créer et générer des états financiers pour une entité juridique, vous devez paramétrer les informations suivantes pour cette entité juridique :
 
@@ -180,7 +180,7 @@ Voici quelques étapes que vous pouvez suivre pour rendre votre conversation ave
  
 Les étapes suivantes décrivent le processus d’activation des messages de l’Observateur d’événements pour Financial Reporting. Les journaux générés par l’Observateur d’événements aideront les ingénieurs du support à identifier rapidement la source du problème de connexion. Envoyez des copies de ces journaux avec votre ticket lorsque vous contactez le support.
 
-> 1.    Copiez le fichier RegisterETW.zip sur la station de travail client (de préférence sur le Bureau) et extrayez [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+> 1.    Copiez le fichier RegisterETW.zip sur la station de travail client (de préférence sur le Bureau) et extrayez [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122).
 
 > 2.    Assurez-vous que l’Observateur d’événements Windows est fermé.
 
