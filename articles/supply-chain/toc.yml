@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: "Supply Chain Management\_10.0.20 (août\_2021)"
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: "Supply Chain Management\_10.0.19 (juin\_2021)"
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -1409,7 +1407,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Destination d’écran
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configurer des destinations
+                    - name: Configurer les destinations
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurer les destinations dépendantes de l’action
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Planification avec une capacité infinie
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Planification avec sélection des ressources en fonction des capacités
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Marquage du stock avec l’optimisation de la planification
                   href: master-planning/planning-optimization/marking.md
                 - name: Planification intersociétés
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: Créer un appel d’offre
                   href: procurement/tasks/create-request-quotation.md
+                - name: Soumissions sous pli scellé les appels d’offre
+                  href: procurement/sealed-bidding.md
                 - name: Créer une demande qui emploie un appel d’offre
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Créer une méthode d’attribution pour les appels d’offre

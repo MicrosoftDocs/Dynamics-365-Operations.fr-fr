@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: "Commerce\_10.0.20 (août\_2021)"
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: "Commerce\_10.0.19 (juin\_2021)"
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Créer des accords commerciaux à l’aide de règles de tarification de catégorie
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Retarder le calcul du prix exact et de la remise
+                  href: delayed-price-calculation.md
             - name: Recommandations
               items:
                 - name: Vue d’ensemble des recommandations produit
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Publier des documents fiscaux brésiliens via les relevés de vente au détail dans Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector pour Adyen dans les PDV Commerce pour le Brésil
+                  href: localizations/latam-bra-adyen.md
             - name: Europe de l’Est
               items:
                 - name: Commun
@@ -2060,7 +2062,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/commerce/toc.json
                         - name: Destination d’écran
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurer des destinations
+                    - name: Configurer les destinations
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Configurer les destinations dépendantes de l’action
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Actions de données de base
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Appeler les API Retail Server
+                    - name: Appeler les API Commerce Scale Unit
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: Appeler les API d’extension Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,11 +2516,9 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Configurer un pipeline de build pour le kit de développement logiciel (SDK) de conditionnement indépendant
                   href: dev-itpro/build-pipeline.md
-                - name: Fusionner les systèmes de génération pour Commerce et Finance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-                - name: "Migrer le Kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
+                - name: "Migrer le kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
                   href: dev-itpro/retail-sdk/migrate-sdk.md
-                - name: Exemples d’extensibilité du Kit de développement logiciel (SDK) Retail
+                - name: Exemples d’extensibilité du kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Créer des packages déployables
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Extensibilité de Hardware Station
               items:
-                - name: "Hardware\_Station et extensibilité"
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Intégrer un PDV à un nouveau périphérique matériel
                   href: dev-itpro/hardware-device-extension.md
             - name: "Extensibilité de Retail\_Server"

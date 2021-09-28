@@ -1007,7 +1007,11 @@
                 - name: FAQ sur la fenêtre de maintenance planifiée
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Surveillance et diagnostics
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Outils de surveillance et de diagnostics
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Utiliser Azure Data Explorer pour interroger les journaux d’informations brutes
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Redémarrer les services d’environnement
               href: lifecycle-services/restart-environment-services.md
             - name: Signaler une panne de production

@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: "Finance\_10.0.20 (août\_2021)"
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: "Finance\_10.0.19 (juin\_2021)"
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Automatisation du processus de recouvrement
                   href: accounts-receivable/collections-process-automate.md
+                - name: Configurer les paramètres pour l’automatisation du processus de recouvrement
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Paramétrage de la gestion du crédit
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informations de paramétrage de la gestion du crédit
@@ -1635,7 +1635,9 @@
                 - name: Déclaration de TVA
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: État des services transfrontaliers
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: État de déclaration d’échanges de biens
+                  href: localizations/emea-aut-intrastat.md
                 - name: Droits de douane sur les achats
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahreïn
@@ -1664,10 +1666,12 @@
                   href: localizations/emea-bel-reconciliation-reports.md
                 - name: États sur les journaux
                   href: localizations/emea-bel-journal-reports.md
-                - name: Paramétrer la déclaration de la balance des paiements
+                - name: Paramétrer la déclaration du solde des paiements
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Paramétrer et tenir à jour PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Liste annuelle de TVA des ventes intérieures
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brésil
               items:
                 - name: Vue d’ensemble du Brésil
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Factures électroniques
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: "Complément du bordereau d’expédition (Carta de Porte) (version\_1.0)"
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Relevés de comptabilité électronique
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Entrer des ID d’enregistrement de taxe pour les entités juridiques mexicaines
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: ID d’enregistrement fournisseur
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Oman
-              items:
-                - name: Vue d’ensemble d’Oman
-                  href: localizations/oman.md
-                - name: Déclaration de TVA pour Oman (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Pays-Bas
               items:
                 - name: Vue d’ensemble des Pays-Bas
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Liste des ventes intracommunautaires
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Nouvelle-Zélande
+              items:
+                - name: Formulaire de déclaration de GST GST101A pour la Nouvelle-Zélande (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Norvège
               items:
                 - name: Vue d’ensemble de la Norvège
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Factures électroniques client en Norvège
                   href: localizations/emea-nor-e-invoices.md
+            - name: Oman
+              items:
+                - name: Vue d’ensemble d’Oman
+                  href: localizations/oman.md
+                - name: Déclaration de TVA pour Oman (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Pologne
               items:
                 - name: Vue d’ensemble de la Pologne
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: Préparation de votre environnement pour interagir avec le service web MTD VAT de HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Autorisation de votre environnement Finance pour interagir avec le service web MTD de HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Test de l’interopérabilité avec le bac à sable MTD VAT
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Envoi d’un retour de TVA au service web MTD de HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Liste de contrôle pour la configuration des messages électroniques pour MTD VAT
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: "Génération d’une déclaration de TVA au format papier (déclaration TVA\_100)"
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: Test de l’interopérabilité avec le bac à sable MTD VAT
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Autorisation de votre environnement Finance pour interagir avec le service web MTD de HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Envoi d’un retour de TVA au service web MTD de HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: Récupération des informations sur les paiements et le passif relatifs à la TVA auprès de HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                         - name: Détails de configuration de la TVA pour les déclarations de TVA au Royaume-Uni
                           href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Récupération des informations sur les paiements et les obligations relatives à la TVA auprès de HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: "Génération d’une déclaration de TVA au format papier (déclaration TVA\_100)"
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: État Statistiques sur les pratiques de paiement
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: États-Unis
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux rapports Excel
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: Concevoir un format ER pour paginer les documents générés dans Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Créer des configurations pour générer des états au format Word
                   items:
                     - name: Concevoir une configuration ER pour générer des états au format Word

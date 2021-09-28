@@ -2,7 +2,7 @@
 title: Réaffectation de la prise en compte de revenu
 description: Cette rubrique fournit des informations sur la réaffectation, qui permet aux organisations de recalculer les prix de produit lorsque les conditions d’une vente contractuelle sont modifiées. Elle comprend des liens vers d’autres rubriques décrivant comment reconnaître les revenus dans plusieurs scénarios.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745035"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487016"
 ---
 # <a name="revenue-recognition-reallocation"></a>Réaffectation de la prise en compte de revenu
 
@@ -34,11 +34,23 @@ Votre organisation doit déterminer elle-même si une réaffectation est nécess
 
 Il existe quelques limitations importantes sur le processus de réaffectation :
 
-- Le processus ne peut être exécuté qu’une seule fois. Par conséquent, il est important de l’exécuter uniquement une fois que toutes les modifications sont finalisées.
+- Le processus ne peut être exécuté qu’une seule fois. Par conséquent, il est important de l’exécuter uniquement une fois toutes les modifications finalisées.
+
+    - Cette limitation est supprimée des versions 10.0.17 et ultérieures.
+
 - Le processus ne peut pas être exécuté sur les commandes client du projet.
+
+    - Cette limitation est supprimée des versions 10.0.17 et ultérieures.
+
 - Si plusieurs commandes client sont impliquées, elles doivent concerner le même compte client.
-- Toutes les commandes client doivent être réallouées dans la même devise de transaction.
+- Toutes les commandes client doivent être réaffectées dans la même devise de transaction.
 - Le processus ne peut pas être contrepassé ou annulé après son exécution.
+
+    - Cette limitation est supprimée des versions 10.0.17 et ultérieures.
+
+- La réaffectation ne peut être effectuée que pour les commandes client ou les commandes client du projet. Elle ne peut pas être effectuée pour une combinaison de commandes client et de commandes client du projet.
+
+    - Cette limitation est supprimée des versions 10.0.17 et ultérieures.
 
 ## <a name="set-up-reallocation"></a>Configurer la réaffectation
 
@@ -78,7 +90,7 @@ Pour démarrer le processus de réaffectation, sélectionnez **Redistribuer le p
 
 [![Page Redistribuer le prix avec les nouvelles lignes de commande.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-La grille supérieure de la page **Redistribuer le prix avec les nouvelles lignes de commande** s’intitule **Ventes**. Elle répertorie les commandes du client. Sélectionnez les commandes client qui doivent être réaffectées. Vous ne pouvez pas sélectionner des commandes client de projet, car elles ne peuvent pas être réaffectées. Vous ne pouvez pas non plus sélectionner de commandes client qui ont déjà un ID de réaffectation, car les commandes client hors projet ne peuvent être réaffectées qu’une seule fois. Si une commande client a un ID de réaffectation, elle a déjà été marquée pour une réaffectation par un autre utilisateur.
+La grille supérieure de la page **Redistribuer le prix avec les nouvelles lignes de commande** s’intitule **Ventes**. Elle répertorie les commandes du client. Sélectionnez les commandes client à réaffecter. Si une commande client a un ID de réaffectation, elle a déjà été marquée pour une réaffectation par un autre utilisateur. Si une ou plusieurs commandes client ont été précédemment réaffectées et doivent être incluses dans une autre réaffectation, celle-ci doit d’abord être annulée. Elles peuvent alors être incluses dans une nouvelle réaffectation. Pour plus d’informations, voir les sections [Annuler une réaffectation](#undo-a-reallocation) et [Réaffecter plusieurs fois](#reallocate-multiple-times) plus loin dans cette rubrique.
 
 La grille inférieure de la page s’intitule **Lignes**. Après avoir sélectionné une ou plusieurs commandes client dans la grille **Ventes**, la grille **Lignes** affiche les lignes de commande client. Sélectionnez les lignes de la commande client qui doivent être réaffectées. Si vous avez sélectionné une seule commande client, les lignes de cette même commande client doivent être réaffectées. Cette situation peut se produire lorsqu’une des lignes de commande client a été précédemment facturée, puis une nouvelle ligne a été ajoutée, ou une ligne existante a été supprimée ou annulée. Si une ligne a été supprimée, elle n’apparaîtra pas dans la grille. Par conséquent, elle ne peut pas être sélectionnée. Cependant, elle sera toujours prise en compte lors de l’exécution du processus de réaffectation.
 
@@ -104,6 +116,26 @@ Après avoir sélectionné les lignes de commande client requises, utilisez les 
 
 - **Réinitialiser les données pour le client sélectionné** : Si le processus de réaffectation a été lancé mais ne s’est pas terminé, effacez les données du tableau de réaffectation pour le client sélectionné uniquement. Par exemple, si vous marquez plusieurs lignes de commande client pour réaffectation et que vous laissez la page ouverte sans sélectionner **Processus**, la page se ferme. Dans ce cas, les lignes de commande client resteront marquées et ne seront pas disponibles pour qu’un autre utilisateur puisse terminer le processus de réaffectation. La page peut même être vide lorsqu’elle est ouverte. Dans cette situation, le bouton **Réinitialiser les données pour le client sélectionné** peut être utilisé pour effacer les commandes client non traitées afin qu’un autre utilisateur puisse terminer le processus de réaffectation.
 
+## <a name="undo-a-reallocation"></a>Annuler une réaffectation
+
+Une réaffectation est annulée en exécutant une autre réaffectation. La réaffectation est refaite et l’utilisateur sélectionne différentes lignes de commande client à inclure dans le deuxième processus de réaffectation.
+
+Si une réaffectation a été effectuée sur deux ou plusieurs commandes client distinctes, elle peut être annulée en sélectionnant **Redistribuer le prix avec les nouvelles lignes de commande** de toute commande client incluse dans la réaffectation. Vous ne pouvez pas accéder à **Prise en compte de revenu \> Tâches périodiques \> Redistribuer le prix avec les nouvelles lignes de commande** pour annuler la réaffectation, car la page ainsi ouverte n’affiche que les commandes client n’ayant pas d’ID de réaffectation. L’ID de réaffectation est attribué une fois que le document a été réaffecté.
+
+Sur la page **Redistribuer le prix avec les nouvelles lignes de commande**, décochez toutes les commandes client qui devraient être exclues de l’accord contractuel. Utilisez les boutons appropriés du volet Actions, tels que **Mettre à jour la réaffectation** et **Traiter**, pour traiter la réaffectation. Si toutes les commandes client, à l’exception de la commande client active, ne sont pas marquées, l’ID de réaffectation sera supprimé lorsque la modification sera traitée.
+
+Si une réaffectation a été effectuée en ajoutant une nouvelle ligne à une commande client entièrement ou partiellement facturée, la réaffectation ne peut être annulée qu’en supprimant cette ligne de la commande client, puis en exécutant à nouveau la réaffectation. La ligne de commande client doit être supprimée, car toutes les lignes d’une commande client sont supposées faire partie du même contrat. Vous ne pouvez pas décocher une ligne de commande client pendant que vous êtes sur la page **Redistribuer le prix avec les nouvelles lignes de commande**.
+
+## <a name="reallocate-multiple-times"></a>Réaffecter plusieurs fois
+
+Plusieurs réaffectations peuvent être effectuées sur la même commande client si plusieurs modifications ont été apportées au contrat. Chaque réaffectation déclenche l’affectation d’un ID de réaffectation à la commande client ou au groupe de commandes client, pour regrouper les modifications. Si plusieurs réaffectations sont effectuées, chaque réaffectation supplémentaire utilise le même ID de réaffectation que la première réaffectation.
+
+Par exemple, la commande client 00045 est saisie et comporte plusieurs lignes. Une fois la commande client entièrement facturée, une nouvelle ligne de commande client y est ajoutée. La réaffectation est alors exécutée en ouvrant la page **Redistribuer le prix avec les nouvelles lignes de commande** soit à partir de la commande client 00045, soit en accédant à **Prise en compte de revenu \> Tâches périodiques \> Réaffecter le prix avec de nouvelles lignes de commande**. L’ID de réaffectation **Reall000001** est affecté à la commande client.
+
+Une deuxième commande client, 00052, est créée pour le même contrat. La réaffectation peut être réexécutée en ouvrant la page **Redistribuer le prix avec les nouvelles lignes de commande** de la commande client 00045, mais pas de la commande client 00052. Si vous ouvrez la page **Redistribuer le prix avec les nouvelles lignes de commande** de la commande client 00052, la commande client 00045 ne sera pas affichée, car un ID de réaffectation lui a été affecté. La page affiche uniquement les commandes client sans ID de réaffectation.
+
+Il existe deux façons d’effectuer la deuxième réaffectation. Vous pouvez annuler la réaffectation de la commande client 00045. Dans ce cas, l’ID de réaffectation est supprimé et vous pouvez alors effectuer la réaffectation à partir de la commande client 00045 ou de la commande client 00052. Sinon, vous pouvez ouvrir la page **Redistribuer le prix avec les nouvelles lignes de commande** de la commande client 00045 et ajoutez la deuxième commande client. Lorsque la réaffectation est traitée, l’ID de réallocation **Reall000001** est affecté à la fois à la commande client 00045 et à la commande client 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Scénarios de réaffectation
 
 Les rubriques suivantes traitent de différents scénarios de prise en compte de revenu :
@@ -112,6 +144,5 @@ Les rubriques suivantes traitent de différents scénarios de prise en compte de
 - [Réaffectation de la prise en compte de revenu - Scénario 2](rev-rec-reallocation-scenario-2.md) : Deux commandes client sont saisies, puis le client ajoute un article au contrat après la facturation de la première commande client.
 - [Réaffectation de la prise en compte de revenu - Scénario 3](rev-rec-reallocation-scenario-3.md) : Une nouvelle ligne est ajoutée à une commande client existante, facturée.
 - [Réaffectation de la prise en compte de revenu - Scénario 4](rev-rec-reallocation-scenario-4.md) : Une nouvelle ligne est supprimée d’une commande client existante partiellement facturée.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
