@@ -2,7 +2,7 @@
 title: Définir et concevoir des formats de tickets de caisse
 description: Cet article décrit comment modifier des mises en page d’impression pour contrôler la manière dont les tickets de caisse, les factures et d’autres documents sont imprimés. Dynamics 365 Commerce comprend un concepteur de mise en page d’impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d’impression.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715356"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500168"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Définir et concevoir des formats de réception
 
@@ -37,7 +37,7 @@ Cet article décrit comment modifier des mises en page d’impression pour contr
 1. Cliquez sur **Retail et Commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **PDV** &gt; **Formats de ticket de caisse**.
 2. Dans la page **Formats de ticket de caisse**, cliquez sur **Nouveau** pour créer une mise en page d’impression ou sélectionnez-en une.
 3. Dans le champ **Formats de ticket de caisse**, saisissez un identificateur pour la mise en page d’impression, puis sélectionnez le type de ticket de caisse pour lequel la mise en page est utilisée. Vous pouvez également entrer une description et un nom abrégé pour le ticket de caisse dans le champ **Titre**.
-4. Dans l’organisateur **Général**, sélectionnez une option pour définir le comportement d’impression :
+4. Dans l’organisateur **Général**, sélectionnez une option pour définir le comportement d’impression :
 
     - **Toujours imprimer** – Le ticket de caisse est imprimé automatiquement, comme approprié.
     - **Ne pas imprimer** – Le ticket de caisse n’est pas imprimé.
@@ -46,11 +46,16 @@ Cet article décrit comment modifier des mises en page d’impression pour contr
 
 ## <a name="print-images"></a>Imprimer des images
 
-Le concepteur de ticket de caisse comprend une variable **Logo** qui peut être utilisée pour spécifier les images à imprimer sur le ticket de caisse. Les images incluses dans les tickets de caisse à l’aide de la variable **Logo** doivent être de type fichier bitmap monochrome (.bmp). Si une image .bmp est spécifiée dans le concepteur de tickets de caisse, mais ne s’imprime pas lorsqu’elle est envoyée à l’imprimante, la taille du fichier est peut-être trop grande ou les dimensions en pixels de l’image ne sont pas compatibles avec l’imprimante. Si cela se produit, essayez de réduire la résolution du fichier image.   
+Le concepteur de reçus comprend une variable **Logo**. Vous pouvez utiliser cette variable pour spécifier une image qui doit être imprimée sur les reçus. Les images impriméese sur les reçus à l’aide de la variable **Logo** doivent être de type fichier bitmap monochrome (.bmp). Si une image bitmap est spécifiée dans le concepteur de reçus, mais n’est pas imprimée lorsque le reçu est envoyé à l’imprimante, l’un des problèmes suivants peut en être la cause :
+
+- La taille du fichier est trop importante ou les dimensions en pixels de l’image ne sont pas compatibles avec l’imprimante. Dans ce cas, essayez de réduire la résolution ou les dimensions du fichier image.
+- Certains pilotes d’imprimante Object Linking and Embedding for Point of Sale (OPOS) n’implémentent pas la méthode **PrintMemoryBitmap** utilisée par les stations matérielles pour imprimer les images de logo. Dans ce cas, essayez d’ajouter l’indicateur suivant au fichier **HardwareStation.Extension.config** de votre station matérielle dédiée ou partagée :
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Conception du format d’un ticket de caisse
 
-Le concepteur de mise en page d’impression permet de créer graphiquement la mise en page du document d’écran. La page **Concepteur de format du ticket de caisse** contient trois sections : **En-tête** **Lignes** et **Pied de page**. Certains types de mises en page d’impression utilisent des éléments provenant des trois sections, d’autres uniquement ceux d’une ou deux sections. Pour afficher les éléments disponibles pour chaque section, cliquez sur le bouton adéquat dans le volet de navigation à gauche de la page.
+Le concepteur de mise en page d’impression permet de créer graphiquement la mise en page du document d’écran. La page **Concepteur de format du ticket de caisse** contient trois sections : **En-tête** **Lignes** et **Pied de page**. Certains types de mises en page d’impression utilisent des éléments provenant des trois sections, d’autres uniquement ceux d’une ou deux sections. Pour afficher les éléments disponibles pour chaque section, cliquez sur le bouton adéquat dans le volet de navigation à gauche de la page.
 
 1. Cliquez sur **Retail et Commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **PDV** &gt; **Formats de ticket de caisse**.
 2. Dans la page **Format du ticket de caisse**, sélectionnez une mise en page de l’écran, puis cliquez sur **Concepteur**.
@@ -63,7 +68,7 @@ Le concepteur de mise en page d’impression permet de créer graphiquement la m
     > [!NOTE]
     > Vous pouvez spécifier le nombre de lignes de chacune des sections en adaptant le nombre dans le coin inférieur droit de la section. Pour faciliter la modification d’une section, augmentez sa hauteur en faisant glisser la barre de dimensionnement au bas de la section. La hauteur de la section de l’espace de travail ne modifie pas le nombre de lignes du ticket de caisse.
 
-8. Une fois un élément déposé dans l’espace de travail, définissez ses propriétés dans le volet **Informations sur l’objet** en bas de la page. Entrez au moins l’un des paramètres suivants :
+8. Une fois un élément déposé dans l’espace de travail, définissez ses propriétés dans le volet **Informations sur l’objet** en bas de la page. Entrez au moins l’un des paramètres suivants :
 
     - **Aligner** – Permet de définir l’alignement du champ sur **Gauche** ou sur **Droite**.
     - **Caractère de remplissage** – Spécifiez le caractère espace. Par défaut, un espace vide est utilisé, mais vous pouvez entrer n’importe quel caractère.

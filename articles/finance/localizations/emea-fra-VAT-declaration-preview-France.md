@@ -2,7 +2,7 @@
 title: Déclaration de TVA (France)
 description: Cette rubrique explique comment configurer et générer un état pour la France, qui peut être utilisé pour effectuer une déclaration de taxe sur la valeur ajoutée (TVA).
 author: anasyash
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,16 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c47ff6372b99ecf6594209f1dc83781716e4f5a
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 0608f087c07a9b6edbce21580fe2f92b8c155649
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345579"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487972"
 ---
 # <a name="vat-declaration-france"></a>Déclaration de TVA (France)
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 
 ## <a name="overview"></a>Vue d’ensemble
@@ -1147,7 +1145,7 @@ Suivez ces étapes pour définir quels codes de taxe génèrent le montant dans 
     | Champ                     | Description                                     |
     |---------------------------|------------------------------------------------|
     | Période de règlement         | Sélectionnez la période de règlement.                  |
-    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes :            |
+    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes :            |
     | Date de début                 | Permet de sélectionner la date de début de la période de reporting. |
 
     - **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré.
@@ -1175,7 +1173,7 @@ Suivez ces étapes pour définir quels codes de taxe génèrent le montant dans 
     | Champ                     | Description                                     |
     |---------------------------|------------------------------------------------|
     | Période de règlement         | Sélectionnez la période de règlement.                  |
-    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes :            |
+    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes :            |
     | Date de début                 | Permet de sélectionner la date de début de la période de reporting. |
 
     - **Original** : permet de générer le paiement de la taxe d’origine pour la période de règlement.
@@ -1239,7 +1237,7 @@ La procédure suivante s’applique à l’exemple de traitement de message éle
     | **Champ**                                                                                                                                                                                                                                                                         | **Description**                                                                                                                                                                                                            |
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Période de règlement                                                                                                                                                                                                                                                                 | Sélectionnez la période de règlement. Si vous avez sélectionné **Collecter des données** à l’étape 5, vous pouvez ignorer ce champ. L’état sera généré pour les transactions de taxe qui sont incluses dans les paiements de taxe collectés. |
-    | Version de la déclaration de taxe                                                                                                                                                                                                                                                           | Vous devez sélectionner l’une des valeurs suivantes :                                                                                                                                                                                        |
+    | Version de la déclaration de taxe                                                                                                                                                                                                                                                           | Vous devez sélectionner l’une des valeurs suivantes :                                                                                                                                                                                        |
     | Crédit reporté de la déclaration précédente Coefficient d’impôt unique Remboursement de crédit demandé Crédit de TVA transféré à la société mère du groupe sur la déclaration récapitulative Taxes assimilées Total exigible payé par la société mère du groupe sur la déclaration récapitulative | Définissez ces champs comme expliqué dans la section [Aperçu de la déclaration de TVA dans Excel](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) plus haut dans cette rubrique.            |
 
     - **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré.
@@ -1270,7 +1268,7 @@ Suivez les étapes suivantes pour configurer des messages électroniques pour co
     | Champ                  | Description                                                                                                                    |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
     | Nom                   | Entrez une valeur qui vous aidera à comprendre d’où vient cet enregistrement. Par exemple, entrez **Paiement TVA de la Filiale 1**. |
-    | Type d'élément de message      | Sélectionnez **Retour TVA**. Cette valeur est la seule valeur disponible pour tous les enregistrements.                                    |
+    | Type d’élément de message      | Sélectionnez **Retour TVA**. Cette valeur est la seule valeur disponible pour tous les enregistrements.                                    |
     | Type de compte           | Sélectionnez **Tout**.                                                                                                               |
     | Nom de la table principale      | Spécifiez **TaxReportVoucher** pour tous les enregistrements.                                                                             |
     | Champ Numéro du document  | Spécifiez **Voucher** pour tous les enregistrements.                                                                                      |

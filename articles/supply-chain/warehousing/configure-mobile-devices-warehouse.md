@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acf5e191f1d4b12a59490a5ab8f222c5351886c33eedcb8833921541d1bda7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee8d0962626c42ab76e908072e686cc5c0a61d1
+ms.sourcegitcommit: f332cabe9d5c6ece431fd5aa06759481be53f06a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736573"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506533"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d’entrepôt
 
@@ -29,7 +29,7 @@ ms.locfileid: "6736573"
 Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 
 > [!NOTE]
-> Cette rubrique s’applique aux fonctionnalités du module Gestion des entrepôts. Il ne s’applique pas aux fonctionnalités du module Gestion du stock. Les options de menu qui s’affichent dans les menus d’un appareil mobile d’entrepôt sont configurées dans la page **Options de menu d’appareil mobile**. Comme les options de menu peuvent être placées dans différents menus, il est facile de configurer les structures de menu de manière à ce que seuls des types de travail spécifiques soient visibles par des utilisateurs spécifiques. Vous pouvez configurer les options de menu pour effectuer les tâches suivantes :
+> Cette rubrique s’applique aux fonctionnalités du module Gestion des entrepôts. Il ne s’applique pas aux fonctionnalités du module Gestion du stock. Les options de menu qui s’affichent dans les menus d’un appareil mobile d’entrepôt sont configurées dans la page **Options de menu d’appareil mobile**. Comme les options de menu peuvent être placées dans différents menus, il est facile de configurer les structures de menu de manière à ce que seuls des types de travail spécifiques soient visibles par des utilisateurs spécifiques. Vous pouvez configurer les options de menu pour effectuer les tâches suivantes :
 
 - Traiter une recherche ou effectuer une activité, telle que l’impression d’une étiquette, la génération de contenants, le démarrage d’un ordre d’exécution ou la recherche rapide d’informations sur les articles dans un emplacement.
 - Créer le travail qui sera effectué via un autre processus. Par exemple, la réception d’un article pour une commande fournisseur peut créer le travail de rangement pour un autre collaborateur.
@@ -56,7 +56,7 @@ Si le champ **Mode** d’une option de menu est défini sur **Indirect**, vous p
 | Dernière palette de production | Indiquer que la dernière palette d’articles a été produite pour un ordre de fabrication, et que le statut de l’ordre de fabrication doit être mis à jour sur **Déclaré terminé**. Le statut des matières premières qui n’ont pas été consommées lors de la production passe de **Prélevé** à **En commande**, et les articles peuvent être renvoyés au stock. |
 | Recherche d’article | Numériser un article pour déterminer sa progression dans l’entrepôt. La recherche renvoie tous les emplacements et quantités pour l’article numérisé. |
 | Réimprimer l’étiquette | Réimprimer une étiquette de contenant. |
-| Création de contenant | Créer un contenant parent en combinant plusieurs contenants dans le même emplacement. Cette option peut s’avérer utile si vous déplacez plusieurs contenants simultanément. Une fois le contenant parent déplacé, vous devez le décomposer en contenants avant de prélever des articles de chaque contenant. <p></p>**Astuce :** pour déplacer un contenant parent, vous devez utiliser un appareil mobile qui est configuré pour créer des mouvements. |
+| Création de contenant | Créer un contenant parent en combinant plusieurs contenants dans le même emplacement. Cette option peut s’avérer utile si vous déplacez plusieurs contenants simultanément. Une fois le contenant parent déplacé, vous devez le décomposer en contenants avant de prélever des articles de chaque contenant. <p></p>**Astuce :** pour déplacer un contenant parent, vous devez utiliser un appareil mobile qui est configuré pour créer des mouvements. |
 | Décomposition du contenant | Décomposer un contenant afin de pouvoir prélever des articles des contenants qui le composent. |
 | Vérification à l’arrivée du chauffeur | Si vous utilisez Gestion du transport, enregistrer l’arrivée d’un chauffeur en numérisant l’ID de chargement sortant, l’ID de rendez-vous ou l’ID d’expédition. Pour cette option, un chargement doit être affecté au rendez-vous et son statut doit être **Chargé**. |
 | Vérification au départ du chauffeur | Enregistrer qu’un chauffeur a terminé son rendez-vous. |
@@ -181,7 +181,7 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 <td>Transfert d’entrepôt</td>
 <td>Indiquez que les articles ont été transférés d’un entrepôt vers un autre. Cette option nécessite que le collaborateur soit autorisé à effectuer le travail dans les deux entrepôts.
 
-<strong>Remarque :</strong> cette option de menu nécessite un journal de transfert de stock par défaut avec le champ <strong>Création du n° document</strong> défini sur <strong>Validation</strong>.</td>
+<strong>Remarque :</strong> cette option de menu nécessite un journal de transfert de stock par défaut avec le champ <strong>Création du n° document</strong> défini sur <strong>Validation</strong>.</td>
 </tr>
 <tr>
 <td>Chargement de contenant</td>
@@ -236,7 +236,7 @@ Outre la configuration des options de menu pour créer le travail d’entrepôt,
 </tr>
 <tr class="odd">
 <td>Regroupement système</td>
-<td>Supply Chain Management regroupe le travail d’un collaborateur en fonction d’un champ spécifié. Par exemple, un travail de prélèvement est groupé lorsqu’un collaborateur numérise un ID d’expédition, un ID de chargement, ou n’importe quelle valeur pouvant lier chaque unité de travail. Si vous sélectionnez cette option, les champs suivants sont requis :
+<td>Supply Chain Management regroupe le travail d’un collaborateur en fonction d’un champ spécifié. Par exemple, un travail de prélèvement est groupé lorsqu’un collaborateur numérise un ID d’expédition, un ID de chargement, ou n’importe quelle valeur pouvant lier chaque unité de travail. Si vous sélectionnez cette option, les champs suivants sont requis :
 <ul>
 <li><strong>Champ de regroupement système</strong> – Sélectionnez le champ qu’un collaborateur numérise pour grouper le travail.</li>
 <li><strong>Étiquette de regroupement système</strong> – Entrez le texte indiquant au collaborateur ce qu’il doit numériser pour grouper le travail.</li>
@@ -244,7 +244,7 @@ Outre la configuration des options de menu pour créer le travail d’entrepôt,
 </tr>
 <tr class="even">
 <td>Utilisateur validé dirigé</td>
-<td>Le collaborateur sélectionne le travail à effectuer lorsque le travail est associé à une entité supérieure, telle qu’un chargement ou une expédition. Le collaborateur détermine l’ordre dans lequel les articles sont prélevés. Si vous sélectionnez cette option, les champs suivants sont requis :
+<td>Le collaborateur sélectionne le travail à effectuer lorsque le travail est associé à une entité supérieure, telle qu’un chargement ou une expédition. Le collaborateur détermine l’ordre dans lequel les articles sont prélevés. Si vous sélectionnez cette option, les champs suivants sont requis :
 <ul>
 <li><strong>Champ Utilisateur validé dirigé</strong> – Sélectionnez le champ que le collaborateur numérise pour grouper le travail.</li>
 <li><strong>Étiquette d’utilisateur validé dirigé</strong> – Entrez le texte indiquant au collaborateur quoi numériser lorsque le travail de prélèvement est groupé par le système.</li>
@@ -365,7 +365,7 @@ Le tableau suivant décrit ces options.
 </tr>
 <tr class="even">
 <td>Prélever le traitement par lots le plus ancien</td>
-<td>Indiquez si le collaborateur doit prélever en premier le lot le plus ancien dans un emplacement. Les options suivantes sont disponibles :
+<td>Indiquez si le collaborateur doit prélever en premier le lot le plus ancien dans un emplacement. Les options suivantes sont disponibles :
 <ul>
 <li><strong>Aucun</strong> – Le collaborateur peut prélever n’importe quel lot dans l’emplacement. Le collaborateur ne reçoit aucun message.</li>
 <li><strong>Avertir</strong> – Le collaborateur peut prélever n’importe quel lot dans l’emplacement, mais il reçoit un message d’avertissement si un lot n’est pas le plus ancien.</li>

@@ -2,7 +2,7 @@
 title: Créer une configuration pour générer des documents au format Excel
 description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748470"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488136"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -138,6 +138,55 @@ Pour en savoir plus sur l’incorporation d’images et de formes, consultez [In
 
 Le composant **Saut de page** oblige Excel à démarrer une nouvelle page. Ce composant n’est pas requis lorsque vous souhaitez utiliser la pagination par défaut d’Excel, mais vous devez l’utiliser lorsque vous souhaitez qu’Excel suive votre format ER pour structurer la pagination.
 
+## <a name="page-component"></a><a name="page-component"></a>Composant de page
+
+### <a name="overview"></a>Vue d’ensemble
+
+Vous pouvez utiliser le composant **Page** lorsque vous souhaitez qu’Excel suive votre format ER et structure la pagination dans un document sortant généré. Lorsqu’un format ER exécute des composants qui sont sous le composant **Page**, les sauts de page requis sont automatiquement ajoutés. Au cours de ce processus, la taille du contenu généré, la mise en page du modèle Excel et le format de papier sélectionné dans le modèle Excel sont pris en compte.
+
+Si vous devez diviser un document généré en différentes sections, chacune ayant une pagination différente, vous pouvez configurer plusieurs composants **Page** dans chaque composant [Feuille](er-fillable-excel.md#sheet-component).
+
+### <a name="structure"></a><a name="page-component-structure"></a>Structure
+
+Si le premier composant sous le composant **Page** est un composant [Plage](er-fillable-excel.md#range-component) où la propriété **Direction de réplication** est définie sur **Pas de réplication**, cette plage est considérée comme l’en-tête de page pour la pagination basée sur les paramètres du composant **Page**. La plage Excel associée à ce composant de format est répétée en haut de chaque page générée à l’aide des paramètres du composant **Page** actuel.
+
+> [!NOTE]
+> Pour une pagination correcte, si la plage [Lignes à répéter en haut](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) est configurée dans votre modèle Excel, l’adresse de cette plage Excel doit être identique à l’adresse de la plage Excel associée au composant **Plage** précédemment décrit.
+
+Si le dernier composant sous le composant **Page** est un composant **Plage** où la propriété **Direction de réplication** est définie sur **Pas de réplication**, cette plage est considérée comme le pied de page pour la pagination basée sur les paramètres du composant **Page**. La plage Excel associée à ce composant de format est répétée en bas de chaque page générée à l’aide des paramètres du composant **Page** actuel.
+
+> [!NOTE]
+> Pour une pagination correcte, les plages Excel associées aux composants **Plage** ne doivent pas être redimensionnées lors de l’exécution. Nous vous déconseillons de formater les cellules de cette plage en utilisant les options **Ajuster le texte dans une cellule** et **Ajuster automatiquement la hauteur de ligne** Excel [options](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84).
+
+Vous pouvez ajouter plusieurs autres composants **Plage** entre les composants **Plage** en option pour spécifier comment un document généré est rempli.
+
+Si l’ensemble des composants **Plage** imbriqués sous le composant **Page** n’est pas conforme à la structure décrite précédemment, une [erreur](er-components-inspections.md#i17) de validation se produit au moment de la conception dans le concepteur de format ER. Le message d’erreur vous informe que le problème peut causer des problèmes lors de l’exécution.
+
+> [!NOTE]
+> Pour générer une sortie correcte, ne spécifiez pas de liaison pour tout composant **Plage** sous le composant **Page** si la propriété **Direction de réplication** pour ce composant **Plage** est défini sur **Pas de réplication**, et la plage est configurée pour générer des en-têtes ou des pieds de page.
+
+Si vous souhaitez que la somme associée à pagination et le décompte des totaux cumulés et des totaux par page, nous vous recommandons de configurer les sources de données [Collecte de données](er-data-collection-data-sources.md) requises. Pour découvrir comment utiliser le composant **Page** pour paginer un document Excel généré, exécutez les procédures dans [Concevoir un format ER pour paginer un document généré au format Excel](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Limitations
+
+Lorsque vous utilisez le composant **Page** pour la pagination Excel, vous ne connaîtrez pas le nombre final de pages dans un document généré tant que la pagination n’est pas terminée. Par conséquent, vous ne pouvez pas calculer le nombre total de pages en utilisant des formules ER et imprimer le nombre correct de pages d’un document généré sur n’importe quelle page avant la dernière page.
+
+> [!TIP]
+> Pour obtenir ce résultat dans un en-tête ou un pied de page Excel en utilisant la [mise en page](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) Excel spéciale pour les en-têtes et les pieds de page.
+
+Les composants de **Page** configurés ne sont pas pris en compte lorsque vous mettez à jour un modèle Excel au format modifiable dans Dynamics 365 Finance version 10.0.22. Cette fonctionnalité est prise en compte pour les versions ultérieures de Finance.
+
+Si vous configurez votre modèle Excel pour utiliser la [mise en forme conditionnelle](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), cela peut ne pas fonctionner comme prévu dans certains cas.
+
+### <a name="applicability"></a>Conditions d’application
+
+Le composant **Page** fonctionne pour le composant au format de [fichier Excel](er-fillable-excel.md#excel-file-component) uniquement lorsque ce composant est configuré pour utiliser un modèle dans Excel. Si vous [remplacez](tasks/er-design-configuration-word-2016-11.md) le modèle Excel avec un modèle Word, puis exécutez le format ER modifiable, le composant **Page** est ignoré.
+
+Le composant **Page** ne fonctionne que lorsque la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques** est activée. Une exception est levée au moment de l’exécution si les états électroniques essaient de traiter le composant **Page** lorsque cette fonctionnalité est désactivée.
+
+> [!NOTE]
+> Une exception est levée au moment de l’exécution si un format ER traite le composant **Page** pour un modèle Excel qui contient au moins une formule qui fait référence à une cellule qui n’est pas valide. Pour éviter les erreurs d’exécution, corrigez le modèle Excel comme décrit dans [Comment corriger une erreur #REF!](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Composant Pied de page
 
 Le composant **Pied de page** est utilisé pour remplir les pieds de page au bas d’une feuille de calcul générée dans un classeur Excel.
@@ -197,9 +246,12 @@ Lorsque vous validez un format ER qui peut être modifié, une vérification de 
 Lorsqu’un document sortant dans un format du classeur Microsoft Excel est généré, certaines cellules de ce document peuvent contenir des formules Excel. Quand la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre de reporting électronique** est activée, vous pouvez contrôler le moment où les formules sont calculées en modifiant la valeur du [paramètre](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Options de calcul** dans le modèle Excel utilisé :
 
 - Sélectionnez **Automatique** pour recalculer toutes les formules dépendantes chaque fois qu’un document généré est ajouté par de nouvelles plages, cellules, etc.
+
     >[!NOTE]
     > Cela peut entraîner un problème de performances pour les modèles Excel contenant plusieurs formules associées.
+
 - Sélectionnez **Manuel** pour éviter le recalcul de formule lors de la génération d’un document.
+
     >[!NOTE]
     > Le recalcul de la formule est forcé manuellement lorsqu’un document généré est ouvert pour un aperçu à l’aide d’Excel.
     > N’utilisez pas cette option si vous configurez une destination ER qui suppose l’utilisation d’un document généré sans son aperçu dans Excel (conversion PDF, envoi par e-mail, etc.) car le document généré peut ne pas contenir de valeurs dans des cellules contenant des formules.

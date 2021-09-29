@@ -1,8 +1,8 @@
 ---
 title: Prise en charge de la fonction de taxe pour les ordres de transfert
 description: Cette rubrique explique la prise en charge de la nouvelle fonctionnalité de taxe pour les ordres de transfert à l’aide du service de calcul des taxes.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721687"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500074"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
@@ -53,7 +53,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         4. Sélectionnez **Ajouter** dans la table **Taux**.
         5. Faites basculer l’option **Est exonéré** sur **Oui** dans la section **Général**.
 
-        ![Code taxe NL-Exempt.](../media/tax-feature-support-02.png)
+           ![Code taxe NL-Exempt.](../media/tax-feature-support-02.png)
 
     - Lorsqu’un ordre de transfert est reçu dans un entrepôt de Belgique, le mécanisme de taxe au preneur est appliqué en utilisant les codes taxe **BE-RC-21** et **BE-RC+21**.
         
@@ -66,7 +66,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         6. Faites basculer l’option **Est une taxe au preneur** sur **Oui** dans la section **Général**.
         7. Sélectionnez **Enregistrer**.
 
-        ![Code taxe BE-RC-21 pour les taxes au preneur.](../media/tax-feature-support-03.png)
+           ![Code taxe BE-RC-21 pour les taxes au preneur.](../media/tax-feature-support-03.png)
         
         Créez le code taxe **BE-RC+21**.
         1. Sélectionnez **Ajouter**, entrez **BE-RC-21** dans le champ **Code taxe**.
@@ -76,7 +76,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         5. Entrez **21** dans le champ **Taux de taxe**.
         6. Sélectionnez **Enregistrer**.
 
-        ![Code taxe BE-RC+21 pour les taxes au preneur.](../media/tax-feature-support-04.png)
+           ![Code taxe BE-RC+21 pour les taxes au preneur.](../media/tax-feature-support-04.png)
 
 3. Définissez l’applicabilité des codes taxe.
 
@@ -97,6 +97,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         7. Dans les champs **Groupe de taxes** et **Groupe de taxes d’article**, saisissez le groupe de taxes de vente et le groupe de taxes de vente d’article associés qui sont définis dans votre système Finance.
         
         Ajoutez une autre règle pour la réception des ordres de transfert.
+        
         1. Sélectionnez **Ajouter** dans la table **Règles d’applicabilité**.
         2. Dans le champ **Processus d’entreprise**, sélectionnez **Stock** pour rendre la règle applicable à un ordre de transfert.
         3. Dans le champ **Expédier depuis le pays/ la région**, entrez **NLD**.
@@ -105,7 +106,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         6. Dans le champ **Codes taxe**, sélectionnez **BE-RC+21** et **BE-RC-21**.
         7. Dans les champs **Groupe de taxes** et **Groupe de taxes d’article**, saisissez le groupe de taxes de vente et le groupe de taxes de vente d’article associés qui sont définis dans votre système Finance.
 
-        ![Règles d’applicabilité.](../media/image5.png)
+           ![Règles d’applicabilité.](../media/image5.png)
 
 4. Complétez et publiez la nouvelle version de la fonctionnalité de taxe.
 
@@ -115,7 +116,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
 
 Procédez comme suit pour activer et paramétrer les taxes pour les ordres de transfert.
 
-1. Dans Finance, accédez à **Espaces de travail** \> **Gestion des fonctionnalités**.
+1. Dans Finance, accédez à **Espaces de travail** > **Gestion des fonctionnalités**.
 2. Dans la liste, recherchez et sélectionnez la fonctionnalité **Taxe dans l’ordre de transfert**, puis sélectionnez **Activer maintenant** pour l’activer.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Procédez comme suit pour activer et paramétrer les taxes pour les ordres de tr
     > [!IMPORTANT]
     > Vous devez effectuer cette étape pour chaque entité juridique dans Finance pour laquelle vous souhaitez rendre disponibles le service de taxe et la fonctionnalité de taxe dans les ordres de transfert.
 
-    1. Accédez à **Taxe** \> **Paramétrage** \> **Configuration de taxe** \> **Configuration du service de taxe**.
+    1. Accédez à **Taxe** > **Paramétrage** > **Configuration de taxe** > **Configuration du service de taxe**.
     2. Dans le champ **Processus d’entreprise**, sélectionnez **Inventaire**.
 
-    ![Définition du champ Processus d’entreprise.](../media/image8.png)
+      ![Définition du champ Processus d’entreprise.](../media/image8.png)
 
 4. Vérifiez que le mécanisme de taxe au preneur est configuré. Accédez à **Comptabilité** \> **Paramétrage** \> **Paramètres** puis, sur l’onglet **Taxe au preneur**, vérifiez que l’option **Activer la taxe au preneur** est définie sur **Oui**.
 
@@ -140,10 +141,10 @@ Procédez comme suit pour activer et paramétrer les taxes pour les ordres de tr
 5. Vérifiez que les codes taxe, les groupes de taxe, les groupes de taxes d’article et les numéros d’immatriculation de TVA associés ont été configurés dans Finance conformément aux instructions du service de taxe.
 6. Créez un compte de transit provisoire. Cette étape n’est requise que lorsque la taxe appliquée à un ordre de transfert n’est pas applicable à un mécanisme d’exonération de taxe ou de taxe au preneur.
 
-    1. Accédez à **Taxe** \> **Paramétrage** \> **Taxe de vente** \> **Groupes de validations dans la comptabilité**.
+    1. Accédez à **Taxe** > **Paramétrage** > **Taxe** \ **Groupes de validations dans la comptabilité**.
     2. Dans le champ **Transit provisoire**, sélectionnez un compte général.
 
-    ![Sélection d’un compte de transit provisoire.](../media/image10.png)
+       ![Sélection d’un compte de transit provisoire.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Configurer l’inventaire de base pour les transactions d’ordre de transfert
 
@@ -151,7 +152,7 @@ Suivez ces étapes pour configurer l’inventaire de base afin d’activer les t
 
 1. Créez des sites d’expédition et de livraison pour vos entrepôts dans différents pays ou régions, et ajoutez l’adresse principale de chaque site.
 
-    1. Allez à **Gestion des entrepôts** \> **Paramétrage** \> **Entrepôt** \> **Sites**.
+    1. Accédez à **Gestion des entrepôts** > **Paramétrage** > **Entrepôt** > **Sites**.
     2. Sélectionnez **Nouveau** pour créer le site que vous attribuerez ultérieurement à un entrepôt.
     3. Répétez l’étape 2 pour tous les autres sites que vous devez créer.
 
@@ -162,11 +163,11 @@ Suivez ces étapes pour configurer l’inventaire de base afin d’activer les t
 
 2. Créez des entrepôts d’expédition, de transit et de livraison. Les informations d’adresse conservées dans un entrepôt remplaceront l’adresse du site lors du calcul de la taxe.
 
-    1. Accédez à **Gestion des entrepôts** \> **Paramétrage** \> **Entrepôt** \> **Entrepôts**.
+    1. Accédez à **Gestion des entrepôts** > **Paramétrage** > **Entrepôt** > **Entrepôts**.
     2. Sélectionnez **Nouveau** pour créer un entrepôt et affectez-le au site correspondant.
     3. Répétez l’étape 2 pour créer un entrepôt pour chaque site, selon les besoins.
 
-    ![Paramétrage d’entrepôts.](../media/image12.png)
+       ![Paramétrage d’entrepôts.](../media/image12.png)
 
     > [!NOTE]
     > Pour un entrepôt d’expédition, un entrepôt de transit doit être sélectionné dans le champ **Entrepôt de transit** pour les transactions d’ordre de transfert.
@@ -175,7 +176,7 @@ Suivez ces étapes pour configurer l’inventaire de base afin d’activer les t
 
 3. Vérifiez que la configuration de la validation du stock est paramétrée pour les transactions d’ordre de transfert.
 
-    1. Accédez à **Gestion des stocks** \> **Paramétrage** \> **Validation** \> **Validation**.
+    1. Accédez à **Gestion des stocks** > **Paramétrage** > **Validation** > **Validation**.
     2. Sur l’onglet **Inventaire**, vérifiez qu’un compte général est configuré pour les deux validations **Sortie de stock** et **Réception de stock**.
 
         ![Configuration des validations Sortie de stock et Réception de stock.](../media/image14.png)
@@ -187,3 +188,6 @@ Suivez ces étapes pour configurer l’inventaire de base afin d’activer les t
     4. Vérifiez qu’un compte général est configuré pour la validation **Somme à recevoir entre unités**.
 
         ![Configuration de la validation Somme à recevoir entre unités.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

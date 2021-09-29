@@ -3,7 +3,7 @@ title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: d2b55534de9815567ccdf95fe7094e405a617859
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 6fb3631f52adf94eabd8bab9c3e3784e2fc11db8
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386727"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488005"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -78,7 +78,7 @@ Les types d’enregistrements suivants (transactions et événements) sont sign�
 - Transactions de vente
 - Copies des tickets de caisse
 - États des équipes clôturées/Z
-- Événements d'audit
+- Événements d’audit
 
 La signature est créée puis enregistrée dans la base de données des canaux lorsque la transaction est finalisée ou que l’événement est enregistré. Les données signées sont une chaîne de texte composée de plusieurs champs de données. Ces champs varient en fonction du type d’enregistrement. Le processus général de signature inclut les étapes suivantes :
 
@@ -149,6 +149,9 @@ Lorsqu’une équipe est clôturée, l’événement est enregistré dans le jou
 - Numéro séquentiel de l’événement de clôture d’équipe signé pour le registre.
 - Valeur (O/N) qui indique si la transaction est le premier événement de clôture d’équipe signée pour la caisse enregistreuse.
 - La signature précédente pour la même caisse enregistreuse. Une valeur vide est utilisée pour le premier événement de clôture d’équipe signée.
+
+> [!NOTE]
+> En raison de l’exigence de maintenir une chaîne d’équipes fermées pour le même registre, la fermeture d’une équipe sur un registre différent de celui sur lequel l’équipe a été ouverte n’est pas prise en charge. Elle peut être ajoutée lors des mises à jour ultérieures.
 
 Vous pouvez afficher la signature d’une clôture d’équipe, avec les données d’équipe utilisées pour la générer, sous l’onglet **Résultats de l’enregistrement fiscal** de la page **Équipes** dans Commerce Headquarters.
 

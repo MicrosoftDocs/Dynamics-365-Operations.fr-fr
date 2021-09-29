@@ -9,18 +9,18 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417080"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486944"
 ---
 # <a name="swedish-intrastat"></a>Déclaration d’échanges de biens suédoise
 
 [!include[banner](../includes/banner.md)]
 
-La page **Déclaration d'échanges de biens** sert à générer et rapporter des informations sur le commerce entre pays/régions de l'Union européenne. La déclaration d’échanges de biens suédoise contient des informations sur le commerce de biens à déclarer.
+La page **Déclaration d’échanges de biens** sert à générer et rapporter des informations sur le commerce entre pays/régions de l’Union européenne. La déclaration d’échanges de biens suédoise contient des informations sur le commerce de biens à déclarer.
 
 Les champs suivants sont inclus dans la déclaration d’échanges de biens suédoise :
 
@@ -31,7 +31,7 @@ Les champs suivants sont inclus dans la déclaration d’échanges de biens sué
    - Poids
    - Montant de la facture
 
-## <a name="set-up-intrastat"></a>Configuration de la Déclaration d'échanges de biens
+## <a name="set-up-intrastat"></a>Configuration de la Déclaration d’échanges de biens
 
 Importer la dernière version des configurations de génération d’états électroniques (ER) :
 
@@ -45,10 +45,10 @@ Pour plus d’informations, voir [Télécharger les configurations des états é
 
 1. Dans Microsoft Dynamics 365 Finance, accédez à **Taxes** > **Paramétrage** > **Paramètres de commerce extérieur**.
 2. Dans l’onglet **Déclaration d’échanges de biens**, dans le raccourci **Gestion des états électroniques**, dans le champ **Mappage de format de fichier**, sélectionnez **Déclaration d’échanges de biens (SE)**.
-3. Dans le champ **Mappage de format d'état**, sélectionnez **Déclaration d'échanges de biens**.
-4. Dans le raccourci **Hiérarchie des codes marchandise**, dans le champ **Hiérarchie des catégories**, sélectionnez **Déclaration d'échanges de biens**.
+3. Dans le champ **Mappage de format d’état**, sélectionnez **Déclaration d’échanges de biens**.
+4. Dans le raccourci **Hiérarchie des codes marchandise**, dans le champ **Hiérarchie des catégories**, sélectionnez **Déclaration d’échanges de biens**.
 5. Dans le champ **Code transaction** sélectionnez le code transaction pour les transferts de propriété. Vous pouvez utiliser ce code pour les transactions qui génèrent des transferts de propriété réels ou prévus contre compensation (financière ou autre). Vous l’utilisez également pour les corrections. Les entreprises suédoises utilisent des codes de transaction à un chiffre.
-6. Dans le champ **Avoir**, sélectionnez le code transaction pour le retour des marchandises. Ce code sert pour le retour des marchandises après la transaction enregistrée à l’origine sous le code de transaction. Les entreprises suédoises utilisent des codes de transaction à un chiffre.
+6. Dans le champ **Avoir**, sélectionnez le code transaction pour le retour des marchandises.
 7. Dans l’onglet **Propriétés de pays/région**, dans le champ **Pays/région**, répertoriez tous les pays ou régions avec lesquels votre société fait affaire. Pour chaque pays de l’UE, dans le champ **Type de pays/région**, sélectionnez **UE**, afin que le pays apparaisse sur votre déclaration d’échanges de biens.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Paramétrer les paramètres du produit pour la déclaration d’échanges de biens
@@ -66,17 +66,17 @@ Pour plus d’informations, voir [Télécharger les configurations des états é
     - Correction
     - Facture
 
-## <a name="intrastat-transfer"></a>Transfert des déclarations d'échanges de biens
+## <a name="intrastat-transfer"></a>Transfert des déclarations d’échanges de biens
 
-Sur la page **Déclaration d'échanges de biens**, dans le volet Actions, vous pouvez sélectionner **Transférer** pour transférer automatiquement les informations sur le commerce intracommunautaire à partir de vos commandes clients, de vos factures financières, des commandes fournisseur, des factures fournisseurs, des accusés de réception de produits fournisseurs, des factures de projet et des ordres de transfert. Seuls les documents ayant un pays de l'UE comme pays ou région de destination (pour les expéditions) ou de consignation (pour les arrivées) seront transférés.
+Sur la page **Déclaration d’échanges de biens**, dans le volet Actions, vous pouvez sélectionner **Transférer** pour transférer automatiquement les informations sur le commerce intracommunautaire à partir de vos commandes clients, de vos factures financières, des commandes fournisseur, des factures fournisseurs, des accusés de réception de produits fournisseurs, des factures de projet et des ordres de transfert. Seuls les documents ayant un pays de l’UE comme pays ou région de destination (pour les expéditions) ou de consignation (pour les arrivées) seront transférés.
 
 Vous pouvez également saisir manuellement des transactions en sélectionnant **Nouveau** dans le volet Actions.
 
-### <a name="generate-an-intrastat-report"></a>Génération d'une déclaration d'échanges de biens
+### <a name="generate-an-intrastat-report"></a>Génération d’une déclaration d’échanges de biens
 
 1. Accédez à **Taxes** > **Déclarations** > **Commerce extérieur** > **Déclaration d’échanges de biens**.
 2. Dans le volet Actions, sélectionnez **Résultat** > **État**.
-3. Dans la boîte de dialogue **Déclaration d'échanges de biens**, définissez les champs suivants :
+3. Dans la boîte de dialogue **Déclaration d’échanges de biens**, définissez les champs suivants :
 
     | Champ            | Description                                                                                                                         |
     |------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,14 +85,14 @@ Vous pouvez également saisir manuellement des transactions en sélectionnant **
     | Générer un fichier    | Définissez cette option sur **Oui** pour générer un fichier .txt. pour votre rapport de déclaration d’échanges de biens.                                                       |
     | Nom de fichier        | Entrez le nom du fichier .txt.                                                                                                    |
     | Générer un rapport  | Définissez cette option sur **Oui** pour générer un fichier .xlsx pour votre rapport de déclaration d’échanges de biens.                                                     |
-    | Nom du fichier d'état | Entrez le nom du fichier .xlsx.                                                                                                   |
+    | Nom du fichier d’état | Entrez le nom du fichier .xlsx.                                                                                                   |
     | Direction        | Sélectionnez **Arrivées** pour un rapport sur les arrivées intracommunautaires. Sélectionnez **Expéditions** pour un rapport sur les envois intracommunautaires. |
 
 4. Cliquez sur **OK** et examinez les états générés.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple montre comment valider les arrivées et les expéditions pour la déclaration d’échanges de biens. Il utilise l'entité juridique **DEMF**.
+Cet exemple montre comment valider les arrivées et les expéditions pour la déclaration d’échanges de biens. Il utilise l’entité juridique **DEMF**.
 
 ### <a name="preliminary-setup"></a>Paramétrage préliminaire
 
@@ -159,7 +159,7 @@ Cet exemple montre comment valider les arrivées et les expéditions pour la dé
 
 1. Accédez à **Taxes** > **Déclarations** > **Commerce extérieur** > **Déclaration d’échanges de biens**.
 2. Dans le volet Actions, sélectionnez **Transférer**.
-3. Dans la boîte de dialogue **Déclaration d'échanges de biens (Transfert)**, dans la section **Paramètres**, définissez l'option **Facture client** sur **Oui**.
+3. Dans la boîte de dialogue **Déclaration d’échanges de biens (Transfert)**, dans la section **Paramètres**, définissez l’option **Facture client** sur **Oui**.
 4. Sélectionnez **Filtrer**.
 5. Dans la boîte de dialogue **Filtre de déclaration d’échanges de biens**, dans l’onglet **Plage**, sélectionnez la première ligne et assurez-vous que le champ **Champ** est défini sur **Date**.
 6. Dans le champ **Critères**, sélectionnez la date actuelle.
@@ -173,7 +173,7 @@ Cet exemple montre comment valider les arrivées et les expéditions pour la dé
     ![Détails de lignes journal de déclaration d’échanges de biens pour la commande client](media/swe_intrastat_journal_sales_order_line_details.png)
 
 10. Dans le volet Actions, sélectionnez **Résultat** > **État**.
-11. Dans la boîte de dialogue **Déclaration d'échanges de biens**, dans le raccourci **Paramètres**, dans la section **Date**, sélectionnez le mois de la commande client que vous avez créée.
+11. Dans la boîte de dialogue **Déclaration d’échanges de biens**, dans le raccourci **Paramètres**, dans la section **Date**, sélectionnez le mois de la commande client que vous avez créée.
 12. Dans la section **Options** **d’exportation**, définissez l’option **Générer un fichier** sur **Oui**. Puis, dans le champ **Nom du fichier**, entrez le nom requis.
 13. Définissez l’option **Générer un état** sur **Oui**. Puis, dans le champ **Nom du fichier d’état**, entrez le nom requis.
 14. Dans le champ **Direction**, sélectionnez **Répartitions**.
@@ -215,7 +215,7 @@ Cet exemple montre comment valider les arrivées et les expéditions pour la dé
     ![Détails de lignes journal de déclaration d’échanges de biens pour la commande fournisseur](media/swe_intrastat_journal_purchase_order_line_details.png)
 
 6. Dans le volet Actions, sélectionnez **Résultat** > **État**.
-7. Dans la boîte de dialogue **Déclaration d'échanges de biens**, dans le raccourci **Paramètres**, dans la section **Date**, sélectionnez le mois de la commande client que vous avez créée.
+7. Dans la boîte de dialogue **Déclaration d’échanges de biens**, dans le raccourci **Paramètres**, dans la section **Date**, sélectionnez le mois de la commande client que vous avez créée.
 8. Dans la section **Options** **d’exportation**, définissez l’option **Générer un fichier** sur **Oui**. Puis, dans le champ **Nom du fichier**, entrez le nom requis.
 9. Définissez l’option **Générer un état** sur **Oui**. Puis, dans le champ **Nom du fichier d’état**, entrez le nom requis.
 10. Dans le champ **Direction**, sélectionnez **Arrivées**.

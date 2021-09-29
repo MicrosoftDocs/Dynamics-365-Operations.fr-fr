@@ -2,7 +2,7 @@
 title: Processus de publication de l’optimisation de la planification et historique des versions
 description: Cette rubrique fournit des informations sur le processus de publication et l’historique des versions de l’optimisation de la planification.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d0f7a9f59d1034451c5c2dec1150c017bda27ad4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474698"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506781"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -33,6 +33,7 @@ Les environnements qui utilisent l’optimisation de la planification reçoivent
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|
+| <p>Ajout de la prise en charge des plans de versions avec **Méthode de planification** défini sur *Planification des opérations*.</p><p>Sur la page **Groupes d’itinéraires**, respectez les paramètres des cases **Activation**, **Temps de travail** et **Capacité** pour les lignes avec un **Itinéraire/type de tâche** défini sur *Configurer* ou *Traiter*. </p><p>Améliorations générales des performances, de la qualité et de la stabilité. | <p>La planification des opérations est disponible dans la gestion des fonctionnalités à partir de la version 10.0.20.</p><p>Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification*</p>  | 9-17 septembre 2021 |
 | Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 25–30 août 2021 |
 | <p>Champ **Délai** ajouté aux ordres planifiés.</p><p>Améliorations générales des performances, de la qualité et de la stabilité.</p> | Aucune gestion des fonctionnalités n’est requise. | 12–17 août 2021 |
 | <p>Exigences de type de ressource ajoutées pour la planification de capacité infinie.</p><p>Efficacité des ressources et efficacité du calendrier améliorées pour une planification de capacité infinie.</p><p>Pour plus d’informations, voir [Planification avec une capacité infinie](infinite-capacity-planning.md). | <p>Disponible dans la gestion des fonctionnalités à partir de la version 10.0.20.</p><p>Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification*</p> | 6–12 juillet 2021 |

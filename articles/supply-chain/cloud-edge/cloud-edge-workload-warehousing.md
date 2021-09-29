@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471714"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500425"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -32,42 +32,42 @@ ms.locfileid: "7471714"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Exécution d’entrepôt sur des unités d’échelle
 
-Les charges de travail de la gestion des entrepôts permettent aux unités d'échelle du cloud et de la périphérie d'exécuter des processus sélectionnés à partir des fonctionnalités de gestion des entrepôts.
+Les charges de travail de la gestion des entrepôts permettent aux unités d’échelle du cloud et de la périphérie d’exécuter des processus sélectionnés à partir des fonctionnalités de gestion des entrepôts.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Vous devez avoir un hub Dynamics 365 Supply Chain Management et une unité d’échelle déployée avec la charge de travail de gestion d’entrepôt. Pour plus d'informations sur l'architecture et le processus de déploiement, consultez [Unités d'échelle dans une topologie hybride distribuée](cloud-edge-landing-page.md).
+Vous devez avoir un hub Dynamics 365 Supply Chain Management et une unité d’échelle déployée avec la charge de travail de gestion d’entrepôt. Pour plus d’informations sur l’architecture et le processus de déploiement, consultez [Unités d’échelle dans une topologie hybride distribuée](cloud-edge-landing-page.md).
 
-## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Fonctionnement de la charge de travail d'exécution de l'entrepôt sur les unités d’échelle
+## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Fonctionnement de la charge de travail d’exécution de l’entrepôt sur les unités d’échelle
 
 Pour les processus de la charge de travail de gestion de l’entrepôt, les données sont synchronisées entre le hub et les unités d’échelle.
 
 Une unité d’échelle ne peut conserver que les données dont elle est propriétaire. Le concept de propriété des données pour les unités d’échelle permet d’éviter les conflits multimaître. Par conséquent, il est important que vous compreniez quelles données de processus sont détenues par le hub et lesquelles appartiennent aux unités d’échelle.
 
-En fonction des processus métier, le même enregistrement de données peut changer de propriétaire entre le hub et les unités d'échelle. Un exemple de ce scénario est fourni dans la section suivante.
+En fonction des processus métier, le même enregistrement de données peut changer de propriétaire entre le hub et les unités d’échelle. Un exemple de ce scénario est fourni dans la section suivante.
 
 > [!IMPORTANT]
-> Certaines données peuvent être créées à la fois sur le hub et sur l'unité d'échelle. Il put s'agir des **Contenants** et des **Numéros de lot**. Une gestion des conflits dédiée est assurée dans le cas d'un scénario où le même enregistrement unique est créé à la fois sur le hub et sur une unité d'échelle au cours du même cycle de synchronisation. Lorsque cela se produit, la synchronisation suivante échouera et vous devrez accéder à **Administration système > Demandes de renseignements > Demandes de renseignements sur les charges de travail > Enregistrements en double**, où vous pouvez afficher et fusionner les données.
+> Certaines données peuvent être créées à la fois sur le hub et sur l’unité d’échelle. Il put s’agir des **Contenants** et des **Numéros de lot**. Une gestion des conflits dédiée est assurée dans le cas d’un scénario où le même enregistrement unique est créé à la fois sur le hub et sur une unité d’échelle au cours du même cycle de synchronisation. Lorsque cela se produit, la synchronisation suivante échouera et vous devrez accéder à **Administration système > Demandes de renseignements > Demandes de renseignements sur les charges de travail > Enregistrements en double**, où vous pouvez afficher et fusionner les données.
 
 ## <a name="outbound-process-flow"></a>Flux des processus sortants
 
-Le processus de propriété des données sortantes dépend de l'utilisation ou non du processus de planification des chargements. Dans tous les cas, le hub est propriétaire des *documents source*, tels que les commandes client et les ordres de transfert, ainsi que du processus de répartition des commandes et des données de transaction de commande associées. Mais lorsque vous utilisez le processus de planification des chargements, les chargements seront créés dans le hub et seront donc initialement détenus par le hub. Dans le cadre du processus *Lancement vers l'entrepôt*, la propriété des données de chargement est transférée au déploiement de l'unité d'échelle dédié, qui deviendra le propriétaire du *traitement de vague d'expédition* consécutif (comme la répartition du travail, le travail de réapprovisionnement et la création de la demande de travail). Par conséquent, les magasiniers ne peuvent traiter le travail de ventes sortantes et d'ordres de transfert qu'à l'aide d'une application mobile Warehouse Management connectée au déploiement qui exécute la charge de travail de l'unité d'échelle spécifique.
+Le processus de propriété des données sortantes dépend de l’utilisation ou non du processus de planification des chargements. Dans tous les cas, le hub est propriétaire des *documents source*, tels que les commandes client et les ordres de transfert, ainsi que du processus de répartition des commandes et des données de transaction de commande associées. Mais lorsque vous utilisez le processus de planification des chargements, les chargements seront créés dans le hub et seront donc initialement détenus par le hub. Dans le cadre du processus *Lancement vers l’entrepôt*, la propriété des données de chargement est transférée au déploiement de l’unité d’échelle dédié, qui deviendra le propriétaire du *traitement de vague d’expédition* consécutif (comme la répartition du travail, le travail de réapprovisionnement et la création de la demande de travail). Par conséquent, les magasiniers ne peuvent traiter le travail de ventes sortantes et d’ordres de transfert qu’à l’aide d’une application mobile Warehouse Management connectée au déploiement qui exécute la charge de travail de l’unité d’échelle spécifique.
 
-Dès que le processus de travail final place le stock au lieu d’expédition final (Baydoor), l’unité d’échelle signale au hub de mettre à jour les transactions de stock sur le document source à *Prélevé*. Jusqu'à ce que ce processus s'exécute et soit de nouveau synchronisé, le stock disponible sur la charge de travail de l'unité d'échelle sera physiquement réservé au niveau de l'entrepôt et vous pourrez immédiatement traiter la confirmation d'expédition sortante sans attendre la fin de cette synchronisation. Le bon de livraison et la facturation ou l'expédition de l'ordre de transfert pour le chargement seront traités dans le hub.
+Dès que le processus de travail final place le stock au lieu d’expédition final (Baydoor), l’unité d’échelle signale au hub de mettre à jour les transactions de stock sur le document source à *Prélevé*. Jusqu’à ce que ce processus s’exécute et soit de nouveau synchronisé, le stock disponible sur la charge de travail de l’unité d’échelle sera physiquement réservé au niveau de l’entrepôt et vous pourrez immédiatement traiter la confirmation d’expédition sortante sans attendre la fin de cette synchronisation. Le bon de livraison et la facturation ou l’expédition de l’ordre de transfert pour le chargement seront traités dans le hub.
 
-Le schéma suivant montre le flux sortant et indique où se déroulent les processus métier individuels. (Sélectionnez le schéma pour l'agrandir.)
+Le schéma suivant montre le flux sortant et indique où se déroulent les processus métier individuels. (Sélectionnez le schéma pour l’agrandir.)
 
 [![Flux des traitements sortants.](media/wes_outbound_warehouse_processes-small.png "Flux des traitements sortants")](media/wes_outbound_warehouse_processes.png)
 
 ### <a name="outbound-processing-with-load-planning"></a>Traitement sortant avec planification des chargements
 
-Lorsque vous utilisez le processus de planification des chargements, les chargements et les expéditions sont créés sur le hub et la propriété des données est transférée aux unités d'échelle dans le cadre du processus *Lancement vers l'entrepôt*, comme illustré dans la figure suivante.
+Lorsque vous utilisez le processus de planification des chargements, les chargements et les expéditions sont créés sur le hub et la propriété des données est transférée aux unités d’échelle dans le cadre du processus *Lancement vers l’entrepôt*, comme illustré dans la figure suivante.
 
 ![Traitement sortant avec planification des chargements.](./media/wes_outbound_processing_with_load_planning.png "Traitement sortant avec planification des chargements")
 
 ### <a name="outbound-processing-without-load-planning"></a>Traitement sortant sans planification des chargements
 
-Lorsque vous n'utilisez pas le processus de planification des chargements, les expéditions sont créées sur les unités d'échelle. Les chargements sont également créés sur les unités d'échelle dans le cadre du processus de vague.
+Lorsque vous n’utilisez pas le processus de planification des chargements, les expéditions sont créées sur les unités d’échelle. Les chargements sont également créés sur les unités d’échelle dans le cadre du processus de vague.
 
 ![Traitement sortant sans planification des chargements.](./media/wes_outbound_processing_without_load_planning.png "Traitement sortant sans planification des chargements")
 
@@ -82,32 +82,32 @@ Le hub possède les données suivantes :
 > [!NOTE]
 > Le flux de commandes fournisseur entrant est différent en termes de concept du flux sortant. Vous pouvez gérer le même entrepôt sur l’unité d’échelle ou sur le hub selon que la commande fournisseur a été lancée ou non dans l’entrepôt. Après avoir lancé une commande vers l’entrepôt, vous ne pouvez travailler avec cette commande que lorsque vous êtes connecté à l’unité d’échelle.
 >
-> Si vous utilisez le processus *Lancement vers l'entrepôt*, les [*commandes d’entrepôt*](cloud-edge-warehouse-order.md) sont créées et la propriété du flux de réception associé est attribuée à l’unité d’échelle. Le hub ne pourra pas enregistrer la réception entrante.
+> Si vous utilisez le processus *Lancement vers l’entrepôt*, les [*commandes d’entrepôt*](cloud-edge-warehouse-order.md) sont créées et la propriété du flux de réception associé est attribuée à l’unité d’échelle. Le hub ne pourra pas enregistrer la réception entrante.
 
-Vous devez vous connecter au hub pour utiliser le processus *Lancement vers l'entrepôt*. Pour le traitement des commandes fournisseur, accédez à l’une des pages suivantes pour l’exécuter ou le planifier :
+Vous devez vous connecter au hub pour utiliser le processus *Lancement vers l’entrepôt*. Pour le traitement des commandes fournisseur, accédez à l’une des pages suivantes pour l’exécuter ou le planifier :
 
-- **Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur > Entrepôt > Actions > Lancement vers l'entrepôt**
-- **Gestion des entrepôts > Lancement vers l'entrepôt > Lancement automatique des commandes fournisseur**
+- **Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur > Entrepôt > Actions > Lancement vers l’entrepôt**
+- **Gestion des entrepôts > Lancement vers l’entrepôt > Lancement automatique des commandes fournisseur**
 
 Lors de l’utilisation de **Libération automatique des commandes fournisseur**, vous pouvez sélectionner des lignes de commande fournisseur spécifiques en fonction d’une requête. Un scénario typique serait de configurer un traitement par lots récurrent qui libère toutes les lignes de commande fournisseur confirmées qui devraient arriver le jour suivant.
 
 Le collaborateur peut exécuter le processus de réception à l’aide d’une application mobile Warehouse Management connectée à l’unité d’échelle. Les données sont ensuite enregistrées par l’unité d’échelle et rapportées à la commande magasin entrante. La création et le traitement de la mise en stock ultérieure seront également gérés par l’unité d’échelle.
 
-Si vous n’utilisez pas le processus de *Lancement vers l'entrepôt*, et n’utilisez donc pas les *commandes d’entrepôt*, le hub peut traiter la réception en entrepôt et le traitement du travail indépendamment des unités d’échelle.
+Si vous n’utilisez pas le processus de *Lancement vers l’entrepôt*, et n’utilisez donc pas les *commandes d’entrepôt*, le hub peut traiter la réception en entrepôt et le traitement du travail indépendamment des unités d’échelle.
 
 ![Flux des processus entrants.](./media/wes-inbound-ga.png "Flux des processus entrants")
 
-Lorsqu'un collaborateur effectue un enregistrement entrant à l'aide d'un processus de réception de l'application mobile Warehouse Management par rapport à l'unité d'échelle, une réception est enregistrée par rapport à l'ordre d'entrepôt associé, qui est stocké sur l'unité d'échelle. La charge de travail de l'unité d'échelle indique alors au hub de mettre à jour les transactions de ligne de commande fournisseur associées sur *Enregistré*. Dès que cela est terminé, vous serez en mesure d’accuser réception du produit concerné par la commande d’achat sur le hub.
+Lorsqu’un collaborateur effectue un enregistrement entrant à l’aide d’un processus de réception de l’application mobile Warehouse Management par rapport à l’unité d’échelle, une réception est enregistrée par rapport à l’ordre d’entrepôt associé, qui est stocké sur l’unité d’échelle. La charge de travail de l’unité d’échelle indique alors au hub de mettre à jour les transactions de ligne de commande fournisseur associées sur *Enregistré*. Dès que cela est terminé, vous serez en mesure d’accuser réception du produit concerné par la commande d’achat sur le hub.
 
-Le schéma suivant montre le flux entrant et indique où se déroulent les processus métier individuels. (Sélectionnez le schéma pour l'agrandir.)
+Le schéma suivant montre le flux entrant et indique où se déroulent les processus métier individuels. (Sélectionnez le schéma pour l’agrandir.)
 
 [![Flux des traitements entrants](media/wes_inbound_warehouse_processes-small.png "Flux des traitements entrants")](media/wes_inbound_warehouse_processes.png)
 
 ## <a name="supported-processes-and-roles"></a>Processus et rôles pris en charge
 
-Tous les processus de gestion d’entrepôt ne sont pas pris en charge dans une charge de travail d'exécution de l'entrepôt sur une unité d’échelle. Par conséquent, nous vous recommandons d’attribuer des rôles qui correspondent aux fonctionnalités disponibles pour chaque utilisateur.
+Tous les processus de gestion d’entrepôt ne sont pas pris en charge dans une charge de travail d’exécution de l’entrepôt sur une unité d’échelle. Par conséquent, nous vous recommandons d’attribuer des rôles qui correspondent aux fonctionnalités disponibles pour chaque utilisateur.
 
-Pour faciliter ce processus, un exemple de rôle nommé *Gestionnaire d’entrepôt sur la charge de travail* est inclus dans les données de démonstration sur **Administration du système \> Sécurité \> Configuration de la sécurité**. Le but de ce rôle est de permettre aux responsables d’entrepôt d’accéder à la charge de travail d'exécution de l'entrepôt sur l’unité d’échelle. Le rôle accorde l’accès aux pages pertinentes dans le contexte d’une charge de travail hébergée sur une unité d’échelle.
+Pour faciliter ce processus, un exemple de rôle nommé *Gestionnaire d’entrepôt sur la charge de travail* est inclus dans les données de démonstration sur **Administration du système \> Sécurité \> Configuration de la sécurité**. Le but de ce rôle est de permettre aux responsables d’entrepôt d’accéder à la charge de travail d’exécution de l’entrepôt sur l’unité d’échelle. Le rôle accorde l’accès aux pages pertinentes dans le contexte d’une charge de travail hébergée sur une unité d’échelle.
 
 Les rôles d’utilisateur sur une unité d’échelle sont attribués dans le cadre de la synchronisation initiale des données du hub vers l’unité d’échelle.
 
@@ -115,9 +115,9 @@ Pour modifier les rôles attribués à un utilisateur, accédez à **Administrat
 
 Les utilisateurs qui agissent en tant que gestionnaires d’entrepôt sur le hub et les unités d’échelle doivent se voir attribuer uniquement le rôle de *Magasinier* existant. Sachez que ce rôle accorde aux Magasiniers l’accès aux fonctionnalités (telles que le traitement de la réception des ordres de transfert) qui apparaissent dans l’interface utilisateur (IU) mais qui ne sont actuellement pas prises en charge sur les unités d’échelle.
 
-### <a name="supported-warehouse-execution-processes"></a>Processus d'exécution d'entrepôt pris en charge
+### <a name="supported-warehouse-execution-processes"></a>Processus d’exécution d’entrepôt pris en charge
 
-Les processus d’exécution d’entrepôt suivants peuvent être activés pour une charge de travail d'exécution d'entrepôt sur une unité d’échelle :
+Les processus d’exécution d’entrepôt suivants peuvent être activés pour une charge de travail d’exécution d’entrepôt sur une unité d’échelle :
 
 - Méthodes de vague sélectionnées pour les commandes client et les ordres de transfert (validation, création de chargement, répartition, réapprovisionnement de la demande, mise en conteneur, création de travail et impression d’étiquettes de vague)
 
@@ -128,7 +128,7 @@ Les processus d’exécution d’entrepôt suivants peuvent être activés pour 
 - Ajustements du stock à l’aide de l’application d’entrepôt
 - Enregistrement des commandes fournisseur et travaux de rangement en utilisant l’application d’entrepôt
 
-Les types de travail suivants peuvent être créés sur une unité d'échelle et peuvent donc être traités dans le cadre d'une charge de travail de gestion d'entrepôt :
+Les types de travail suivants peuvent être créés sur une unité d’échelle et peuvent donc être traités dans le cadre d’une charge de travail de gestion d’entrepôt :
 
 - **Mouvements d’inventaire** : mouvement manuel et mouvement par modèle de travail.
 - **Inventaire tournant** : comprend un processus d’approbation/rejet des écarts dans le cadre des opérations de comptage.
@@ -139,7 +139,7 @@ Les types de travail suivants peuvent être créés sur une unité d'échelle et
 - **Produits finis rangés** : après le processus de déclaration de fin de production.
 - **Rangement des co-produits et sous-produits** : après le processus de déclaration de fin de production.
 
-Aucun autre type de traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail d'exécution d'entrepôt sur une unité d’échelle, vous ne pouvez pas accuser réception d’un ordre de transfert (réception de transfert), car cela est traité par l’instance du hub.
+Aucun autre type de traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail d’exécution d’entrepôt sur une unité d’échelle, vous ne pouvez pas accuser réception d’un ordre de transfert (réception de transfert), car cela est traité par l’instance du hub.
 
 > [!NOTE]
 > Les éléments de menu et les boutons de l’appareil mobile pour les fonctionnalités non prises en charge ne sont pas affichés dans l’_application mobile Warehouse Management_ lorsqu’elle est connecté à un déploiement d’unité d’échelle.
@@ -157,6 +157,7 @@ La fonctionnalité de gestion d’entrepôt suivante n’est actuellement pas pr
 
 - Traitement entrant des lignes de commande fournisseur affectées à un chargement.
 - Traitement entrant des commandes fournisseur pour un projet.
+- Gestion des coûts au débarquement, utilisation des trajets et suivi des marchandises en transit.
 - Traitement entrant et sortant pour les articles qui ont des dimensions de suivi actives **Propriétaire** et/ou **Numéro de série**.
 - Traitement du stock inventaire qui a une valeur de statut de blocage.
 - Modification d’un statut d’inventaire pendant tout processus de mouvement de travail.
@@ -183,13 +184,14 @@ La fonctionnalité de gestion d’entrepôt suivante n’est actuellement pas pr
 
 Le tableau suivant indique quelles fonctionnalités sortantes sont prises en charge et où elles sont prises en charge lorsque les charges de travail de gestion d’entrepôt sont utilisées dans des unités d’échelle de cloud et Edge.
 
-| Processus                                                      | Hub | Charge de travail de l'exécution d’entrepôt sur une unité d’échelle |
+| Processus                                                      | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle |
 |--------------------------------------------------------------|-----|------------------------------|
 | Traitement du document source                                   | Oui | N° |
-| Traitement de la gestion du transport et du chargement                | Oui, mais uniquement les processus de planification des chargements. Le traitement de la gestion des transports n'est pas pris en charge  | N° |
-| Lancement vers l'entrepôt                                         | Oui | N° |
+| Traitement de la gestion du transport et du chargement                | Oui, mais uniquement les processus de planification des chargements. Le traitement de la gestion des transports n’est pas pris en charge  | N° |
+| Marchandises au débarquement et en transit                                         | Oui | N° |
+| Mise en production dans l’entrepôt                                         | Oui | N° |
 | Cross-docking planifié                                        | N°  | N° |
-| Regroupement d'expéditions                                       | Oui, lors de l'utilisation de la planification des chargements | Oui |
+| Consolidation d’expédition                                       | Oui, lors de l’utilisation de la planification des chargements | Oui |
 | Traitement de vague d’expédition                                     | N°  |Oui, sauf **Création et tri de chargement** |
 | Gérer les expéditions pour la vague                                  | N°  | Oui|
 | Traitement du travail en entrepôt (y compris impression de contenant)        | N°  | Oui, mais uniquement pour les fonctionnalités prises en charge mentionnées précédemment |
@@ -212,13 +214,13 @@ Le tableau suivant indique quelles fonctionnalités sortantes sont prises en cha
 | Traitement du travail - Dirigé par « Chargement de transport »            | N°  | N° |
 | Réduire la quantité prélevée                                       | N°  | N° |
 | Contrepasser le travail                                                 | N°  | N° |
-| Inverse la confirmation d'expédition                                | N°  | Oui|
+| Inverse la confirmation d’expédition                                | N°  | Oui|
 
 ### <a name="inbound"></a>Entrant(e)
 
 Le tableau suivant indique quelles fonctionnalités entrantes sont prises en charge et où elles sont prises en charge lorsque les charges de travail de gestion d’entrepôt sont utilisées dans des unités d’échelle de cloud et Edge.
 
-| Processus                                                          | Hub | Charge de travail de l'exécution d’entrepôt sur une unité d’échelle<BR>*(Les articles accompagnés de la mention « Oui » s’appliquent uniquement aux commandes d’entrepôt)* |
+| Processus                                                          | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle<BR>*(Les articles accompagnés de la mention « Oui » s’appliquent uniquement aux commandes d’entrepôt)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
 | Traitement&nbsp;document&nbsp;source                             | Oui | N° |
 | Traitement de la gestion du transport et du chargement                    | Oui | N° |
@@ -250,7 +252,7 @@ Le tableau suivant indique quelles fonctionnalités entrantes sont prises en cha
 
 Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepôt et de traitement des exceptions sont prises en charge et où elles sont prises en charge lorsque les charges de travail de gestion d’entrepôt sont utilisées dans des unités d’échelle de cloud et Edge.
 
-| Processus                                            | Hub | Charge de travail de l'exécution d’entrepôt sur une unité d’échelle |
+| Processus                                            | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle |
 |----------------------------------------------------|-----|------------------------------|
 | Recherche de contenant                              | Oui | Oui                          |
 | Recherche d’article                                       | Oui | Oui                          |
@@ -283,14 +285,14 @@ Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepô
 
 Le tableau suivant résume les scénarios de production de gestion des entrepôts qui sont actuellement pris en charge sur les charges de travail d’unité d’échelle.
 
-| Processus | Hub | Charge de travail de l'exécution d’entrepôt sur une unité d’échelle |
+| Processus | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle |
 |---------|-----|------------------------------|
 | Rangement des produits finis et déclarés terminés | Oui | Oui |
 | Rangement des coproduits et des sous-produits | Oui | Oui |
-| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Lancement vers l'entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | N° |
+| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Lancement vers l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | N° |
 | Réapprovisionnement en matières premières | N° | N° |
 
-## <a name="maintaining-scale-units-for-warehouse-execution"></a>Tenue à jour des unités d’échelle pour l'exécution d'entrepôt
+## <a name="maintaining-scale-units-for-warehouse-execution"></a>Tenue à jour des unités d’échelle pour l’exécution d’entrepôt
 
 Plusieurs tâches de traitement par lots s’exécutent à la fois sur les unités de hub et d’échelle.
 

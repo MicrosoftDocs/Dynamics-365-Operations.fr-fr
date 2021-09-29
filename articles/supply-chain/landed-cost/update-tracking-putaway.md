@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782585"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500021"
 ---
 # <a name="update-tracking-for-put-away"></a>Suivi des mises à jour pour rangement
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 La tâche périodique *Suivi des mises à jour pour le rangement* est conçue pour être exécutée comme un lot récurrent nocturne. Elle identifie quels trajets ont reçu toutes les transactions d’inventaire et quels trajets n’ont pas de valeur pour la date de fin réelle. Elle définit ensuite la date de fin réelle à la date du jour selon les besoins.
 

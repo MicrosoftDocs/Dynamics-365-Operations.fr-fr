@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744176"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488200"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Activer la gestion des changements sur les produits existants
 
@@ -47,7 +47,9 @@ Par conséquent, si vous avez un produit distinct, vous pouvez le modifier uniqu
 
 Une *catégorie de produit d’ingénierie* doit être attribué à chaque produit d’ingénierie. Vous ferez cette tâche lorsque vous exécuterez l’Assistant **Convertir en produit d’ingénierie**. Des catégories de produits d’ingénierie doivent exister pour tous les produits standard pertinents *avant que* vous pouvez convertir ces produits.
 
-La catégorie de produit d’ingénierie fournit une base pour la création d’un produit d’ingénierie et établit un ensemble de valeurs et de règles par défaut. La catégorie d’ingénierie doit correspondre au produit auquel vous l’affectez. Par exemple, le type de produit et le groupe de dimensions doivent correspondre à la fois au produit et à sa catégorie de produit d’ingénierie. Pour plus d’informations, voir [Versions d’ingénierie et catégories de produits d’ingénierie](engineering-versions-product-category.md).
+La catégorie de produit d’ingénierie fournit une base pour la création d’un produit d’ingénierie et établit un ensemble de valeurs et de règles par défaut. Les attributs d’ingénierie et leurs valeurs par défaut (telles que définies pour la catégorie d’ingénierie) sont également appliqués au produit d’ingénierie résultant. Vous pouvez modifier les valeurs d’attribut et/ou ajouter d’autres attributs d’ingénierie au produit résultant selon vos besoins.
+
+La catégorie d’ingénierie doit correspondre au produit auquel vous l’affectez. Par exemple, le type de produit et le groupe de dimensions doivent correspondre à la fois au produit et à sa catégorie de produit d’ingénierie. Pour plus d’informations, voir [Versions d’ingénierie et catégories de produits d’ingénierie](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > L’assistant **Convertir en produit d’ingénierie** ne peut convertir le produit qu’en produits d’ingénierie dont la version n’est pas suivie dans les transactions. Par conséquent, l’option **Suivre la version dans les transactions** doit être définie sur *Non* pour les catégories de produits d’ingénierie que vous créez pour convertir des produits existants.

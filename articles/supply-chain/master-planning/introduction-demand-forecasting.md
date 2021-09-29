@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736669"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484047"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d’ensemble de la prévision de la demande
 
@@ -34,11 +34,13 @@ La prévision de la demande est utilisée pour prévoir une demande indépendant
 Pour générer la prévision de base, une synthèse des transactions d’historique est transmise à Microsoft Azure Machine Learning hébergé sur Azure. Comme ce service n’est pas partagé entre les utilisateurs, il peut être facilement personnalisé pour répondre aux exigences propres au secteur. Vous pouvez utiliser Supply Chain Management pour visualiser la prévision, régler la prévision, et afficher des indicateurs de performance clés (KPI) sur la précision de la prévision.
 
 > [!NOTE]
-> Microsoft Azure Machine Learning Studio (classique) est nécessaire pour la génération de prévisions avec Machine Learning. À compter de janvier 2021, il est disponible à l’Est du Japon, au centre-sud des États-Unis, en Asie du Sud-Est, au centre-ouest des États-Unis et en Europe de l’Ouest. Pour obtenir des informations mises à jour sur la disponibilité actuelle, voir [Produits Azure par région.](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Microsoft Azure Machine Learning Studio (classique) est nécessaire pour la génération de prévisions avec Machine Learning. À compter du 1er décembre 2021, vous ne pourrez plus créer de nouvelles ressources Machine Learning Studio (classique). Cependant, vous pourrez continuer à utiliser vos ressources existantes de Machine Learning Studio (classique) jusqu’au 31 août 2024. Pour des informations mises à jour, voir [Azure Machine Learning Studio](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> La version 10.0.23 de Dynamics 365 Supply Chain Management et les versions ultérieures prennent en charge le nouveau Azure Machine Learning Studio.
 
 ## <a name="key-features-of-demand-forecasting"></a>Fonctions clé de la prévision de la demande
 
-Voici certaines fonctionnalités principales de la prévisions de la demande :
+Voici certaines fonctionnalités principales de la prévisions de la demande :
 
 - Générer une prévision de base statistique basée sur des données historiques.
 - Utiliser un ensemble dynamique de dimensions de prévision.
@@ -49,7 +51,7 @@ Voici certaines fonctionnalités principales de la prévisions de la demande :
 
 ## <a name="major-themes-in-demand-forecasting"></a>Sujets principaux dans une prévision de la demande
 
-Trois sujets principaux sont implémentés dans une prévision de la demande :
+Trois sujets principaux sont implémentés dans une prévision de la demande :
 
 - **Modularité** – La prévision de la demande est modulaire et facile à configurer. Vous pouvez activer ou désactiver la fonctionnalité en modifiant la clé de configuration dans **Commerce** &gt; **Prévision de stock** &gt; **Prévision de la demande**.
 - **Réutilisation de la pile Microsoft** – Le Machine Learning, qui fait désormais partie de Microsoft Cortana Analytics Suite, vous permet de créer rapidement et facilement des expériences d’analyse prévisionnelles, telles que des expériences d’estimation de la demande, à l’aide des langages de programmation d’algorithmes R ou Python et d’une interface de glisser-déplacer simple.

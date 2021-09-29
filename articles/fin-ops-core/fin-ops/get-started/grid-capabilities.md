@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775240"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483852"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -30,7 +30,7 @@ Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités uti
 -  Calcul des totaux
 -  Saisie avant le système
 -  Évaluation des expressions mathématiques 
--  Regroupement des données tabulaires (activé séparément à l’aide de la fonctionnalité **(Version préliminaire) Regroupement en grilles**)
+-  Regroupement des données tabulaires (activé séparément à l’aide de la fonctionnalité **Regroupement en grilles**)
 -  Figer les colonnes
 
 ## <a name="calculating-totals"></a>Calcul des totaux
@@ -93,7 +93,7 @@ Pour booster la productivité, les utilisateurs peuvent entrer des formules math
 Pour que le système reconnaisse une valeur comme une expression, démarrez la valeur avec un signe égal (**=**). Pour en savoir plus sur les opérateurs et la syntaxe pris en charge, consultez [Symboles mathématiques pris en charge](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Regroupement des données tabulaires
-Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **Regroupement en grilles**, disponible généralement dans la version 10.0.16/Platform update 40 et dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finance and Operations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
+Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **Regroupement en grilles**, dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finance and Operations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
 
 Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon laquelle vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle colonne **Grouper par** au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe : 
 -  Valeur des données pour le groupe 
@@ -108,9 +108,6 @@ Après avoir regroupé les données dans une seule colonne, vous pouvez regroupe
 
 À tout moment, vous pouvez supprimer le regroupement sur n’importe quelle colonne en cliquant avec le bouton droit sur cette colonne et en sélectionnant **Dissocier**. Vous pouvez également supprimer le regroupement de toutes les colonnes en sélectionnant **Options de grille** puis **Dissocier tout**.   
 
-Notez qu’avant la version 10.0.16 / Platform update 40, un seul niveau de regroupement est pris en charge. Dans ces versions, si les données sont groupées et que vous sélectionnez **Regrouper par cette colonne** pour une colonne différente, le groupement d’origine est remplacé.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Développer et réduire les groupes
 Le regroupement initial de données aura tous les groupes développés. Vous pouvez créer des vues résumées des données en réduisant des groupes individuels, ou vous pouvez utiliser le développement et la réduction de groupe pour faciliter la navigation dans les données. Pour développer ou réduire un groupe, sélectionnez le bouton de chevron (>) dans la ligne d’en-tête de groupe correspondante. Notez que l’état de développement/réduction des groupes individuels **n’est pas** enregistré dans la personnalisation.
 
@@ -118,10 +115,10 @@ Le regroupement initial de données aura tous les groupes développés. Vous pou
 De la même manière que vous pouvez sélectionner (ou désélectionner) toutes les lignes de la grille en cochant la case en haut de la première colonne de la grille, vous pouvez également sélectionner (ou désélectionner) rapidement toutes les lignes d’un groupe en cochant la case dans la ligne d’en-tête de groupe correspondante. La case à cocher dans la ligne d’en-tête de groupe reflète toujours l’état de sélection actuel des lignes de ce groupe, que toutes les lignes soient sélectionnées, qu’aucune ligne ne soit sélectionnée ou que seules certaines lignes soient sélectionnées.
 
 ### <a name="hiding-column-names"></a>Masquer les noms de colonnes
-Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. À compter de la version 10.0.14/Platform update 38, vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
+Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. Vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
 
 ## <a name="freezing-columns"></a>Figer les colonnes
-Certaines colonnes d’une grille peuvent être suffisamment importantes en termes de contexte que vous ne souhaitez pas qu’elles défilent hors de la vue. Au lieu de cela, vous voulez que les valeurs de ces colonnes soient toujours visibles. Dans la version 10.0.17, la fonctionnalité **Figer les colonnes dans la grille** offre cette flexibilité aux utilisateurs. 
+Certaines colonnes d’une grille peuvent être suffisamment importantes en termes de contexte que vous ne souhaitez pas qu’elles défilent hors de la vue. Au lieu de cela, vous voulez que les valeurs de ces colonnes soient toujours visibles. La fonctionnalité **Figer les colonnes dans la grille** offre cette flexibilité aux utilisateurs. 
 
 Pour figer une colonne, cliquez avec le bouton droit sur l’en-tête de la colonne, puis sélectionnez **Figer la colonne**. La première fois que vous effectuez cette étape, la colonne sélectionnée devient la première colonne et ne défilera plus hors du champ visuel. Toute colonne suivante que vous figez sera ajoutée à droite de la dernière colonne figée. Vous pouvez utiliser la fonctionnalité Déplacer standard pour réorganiser les colonnes figées selon vos besoins. Cependant, les colonnes figées ne peuvent pas être déplacées de sorte qu’elles apparaissent dans l’ensemble des colonnes non figées. De même, les colonnes non figées ne peuvent pas être déplacées de sorte qu’elles apparaissent dans l’ensemble des colonnes figées.
 
@@ -132,32 +129,16 @@ Notez que les colonnes de sélection de ligne et d’état de ligne dans la nouv
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 
 
-**10.0.9 / Platform update 33 et versions ultérieures**
+La fonctionnalité **Nouveau contrôle de grille** est disponible directement dans la gestion des fonctionnalités de tout environnement. Après avoir activé la fonctionnalité dans la gestion des fonctionnalités, toutes les sessions utilisateur suivantes utiliseront le nouveau contrôle de grille. 
 
-La fonctionnalité **Nouveau contrôle de grille** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme les autres fonctionnalités d’aperçu public, l’activation de cette fonctionnalité en production est soumise à l’[accord supplémentaire Conditions d’utilisation](public-preview-terms.md).  
-
-**10.0.8 / Platform update 32 et 10.0.7 / Platform update 31**
-
-La fonctionnalité **Nouveau contrôle de grille** peut être activée dans les environnements de niveau 1 (développement/test) et de niveau 2 (bac à sable) afin de fournir des tests et des modifications de conception supplémentaires en suivant les étapes ci-dessous.
-
-1.  **Activer la version d’évaluation** : Exécutez l’instruction SQL suivante : 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Réinitialiser IIS** pour vider le cache de la version d’évaluation statique. 
-
-3.  **Rechercher la fonctionnalité** : accédez à l’espace de travail **Gestion des fonctions**. Si **Nouveau contrôle de grille** n’apparaît pas dans la liste de toutes les fonctionnalités, sélectionnez **Vérifier les mises à jour**.   
-
-4.  **Activer la fonctionnalité** : Recherchez la fonctionnalité **Nouveau contrôle de grille** dans la liste des fonctionnalités, puis sélectionnez **Activer maintenant** dans le volet des détails. Notez qu’une actualisation du navigateur est requise. 
-
-Toutes les sessions utilisateur suivantes démarreront avec le nouveau contrôle de grille activé.
+Cette fonctionnalité est activée par défaut à partir de la version 10.0.21 et devrait devenir obligatoire avec la version 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Développeur] Empêcher des pages individuelles d’utiliser la nouvelle grille 
-Si votre organisation découvre une page qui n’arrive pas à utiliser la nouvelle grille, une API est disponible à partir de la version 10.0.13/Platform update 37 pour autoriser un formulaire individuel à utiliser le contrôle de grille hérité tout en autorisant le reste du système à utiliser le nouveau contrôle de grille. Pour désactiver une page individuelle dans la nouvelle grille, ajoutez le message d’appel suivant `super()` dans la méthode `run()` du formulaire.
+Si votre organisation découvre une page qui n’arrive pas à utiliser la nouvelle grille, une API est disponible pour autoriser un formulaire individuel à utiliser le contrôle de grille hérité tout en autorisant le reste du système à utiliser le nouveau contrôle de grille. Pour désactiver une page individuelle dans la nouvelle grille, ajoutez le message d’appel suivant `super()` dans la méthode `run()` du formulaire.
 
  ```this.forceLegacyGrid();```
 
-Cette API sera disponible jusqu’à la version d’octobre 2021, lorsque le nouveau contrôle de grille deviendra obligatoire. Si des problèmes nécessitent l’utilisation de cette API, signalez-les à Microsoft.
+Cette API restera disponible jusqu’à ce que le nouveau contrôle de grille devienne obligatoire, ce qui est actuellement prévu pour avril 2022. Si des problèmes nécessitent l’utilisation de cette API, signalez-les à Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forcer une page à utiliser la nouvelle grille après avoir précédemment refusé la grille
 Si vous avez refusé l’utilisation de la nouvelle grille pour une page individuelle, vous souhaiterez peut-être réactiver ultérieurement la nouvelle grille une fois les problèmes sous-jacents résolus. Pour ce faire, il vous suffit de supprimer l’appel à `forceLegacyGrid()`. La modification ne prendra effet que lorsque l’un des événements suivants se produira :

@@ -1,8 +1,8 @@
 ---
 title: Développer une structure de rémunération
-description: Cet article décrit la création d’un régime de rémunération fixe et l’inscription des employés au régime par le biais de règles d’admissibilité.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Cette rubrique explique comment créer un régime de rémunération fixe et inscrire les employés au régime par le biais de règles d’admissibilité.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732367"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483950"
 ---
 # <a name="develop-a-compensation-structure"></a>Développer une structure de rémunération
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article décrit la création d’un régime de rémunération fixe et l’inscription des employés au régime par le biais de règles d’admissibilité. Cet article utilise les données de démonstration USMF et s’adresse aux gestionnaires des rémunérations et avantages.
+Cette rubrique décrit comment créer un régime de rémunération fixe et inscrire les employés au régime par le biais de règles d’admissibilité. Cette rubrique utilise les données de démonstration USMF et s’adresse aux gestionnaires des rémunérations et avantages.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Création d’un régime de rémunération fixe
 

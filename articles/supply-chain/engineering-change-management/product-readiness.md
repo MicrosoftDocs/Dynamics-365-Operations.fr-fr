@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415319"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500596"
 ---
 # <a name="product-readiness"></a>Disponibilité du produit
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser les vérifications de disponibilité pour vous assurer que toutes les données principales requises ont été spécifiées pour un produit avant son utilisation dans les transactions. Lorsque des vérifications de disponibilité sont utilisés, un utilisateur ou une équipe est chargé de valider des données spécifiques prédéfinies liées au produit. S’il y a une vérification de disponibilité ouverte pour un produit, le produit ne peut pas être utilisé dans les transactions.
+Vous pouvez utiliser les vérifications de disponibilité pour vous assurer que toutes les données principales requises ont été spécifiées pour un produit avant son utilisation dans les transactions. Lorsque des vérifications de disponibilité sont utilisés, un utilisateur ou une équipe est chargé de valider des données spécifiques prédéfinies liées au produit.
 
-La case à cocher **Actif** d’un produit d’ingénierie, d’une variante ou d’une version n’est disponible qu’après que toutes les données requises ont été saisies et vérifiées, et après que toutes les vérifications de disponibilité ont été traités. À ce stade, le produit, la version ou la variante peut être utilisé dans les transactions. Vous pouvez créer des vérifications de disponibilité pour les nouveaux produits, les nouvelles variantes et les nouvelles versions d’ingénierie.
+Vous pouvez cocher la case **Actif** d’un produit d’ingénierie, d’une variante ou d’une version qu’après que toutes les données requises ont été saisies et vérifiées, et après que toutes les vérifications de disponibilité ont été traités. Si une ou plusieurs vérifications n’ont pas été effectuées pour le produit, la version ou la variante, lorsque vous essayez de cocher la case **Actif**, vous recevez un message vous avertissant que toutes les vérifications n’ont pas été effectuées.
 
-Vous pouvez également appliquer des vérifications de disponibilité aux produits standard (autres que des produits d’ingénerie). Pour plus d’informations, consultez la section [Vérifications de la disponibilité des produits standard](#standard-products) plus loin dans cette rubrique.
+Vous pouvez créer des vérifications de disponibilité pour les nouveaux produits, les nouvelles variantes et les nouvelles versions d’ingénierie. Vous pouvez également appliquer des contrôles de préparation aux produits standard (non techniques) (voir aussi [Vérifications de l’état de préparation des produits standard](#standard-products)). 
+
+Vous pouvez utiliser des produits standard dans les transactions même si tous les contrôles de préparation n’ont pas été effectués. Si vous devez empêcher l’utilisation d’un produit dans les transactions, utilisez son état de cycle de vie. Vous pouvez affecter un état de cycle de vie qui empêche l’utilisation d’un produit dans les transactions, puis, une fois tous les contrôles de préparation terminés, affecter un nouvel état de cycle de vie qui autorise les transactions requises.
 
 ## <a name="types-of-readiness-checks"></a>Types de vérifications de disponibilité
 

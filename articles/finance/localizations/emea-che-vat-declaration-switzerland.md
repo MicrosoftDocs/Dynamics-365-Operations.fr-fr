@@ -2,7 +2,7 @@
 title: Déclaration TVA (Suisse)
 description: Cette rubrique fournit des informations sur la configuration et la génération d’une déclaration de TVA pour la Suisse.
 author: anasyash
-ms.date: 08/12/2021
+ms.date: 09/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 787f2b22f23680e8daf03988181951e2256eb253
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c2d1e617743a1859f9b1b55387fc5f4b4afb408
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7351030"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487939"
 ---
 # <a name="vat-declaration-switzerland"></a>Déclaration TVA (Suisse)
 
@@ -238,7 +238,7 @@ Le package de données contient des paramètres de message électronique utilis�
    | Champ                     | Description                                     |
    |---------------------------|------------------------------------------------|
    | Période de règlement         | Sélectionnez la période de règlement.                  |
-   | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes : <br>- **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré. <br>- **Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période. <br> - **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris l’original et toutes les corrections.            |
+   | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes : <br>- **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré. <br>- **Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période. <br> - **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris l’original et toutes les corrections.            |
    | Date de début                 | Permet de sélectionner la date de début de la période de reporting. |
 
 3. Sélectionnez **OK** et passez en revue la déclaration Excel.
@@ -251,7 +251,7 @@ Le package de données contient des paramètres de message électronique utilis�
    | Champ                     | Description                                     |
    |---------------------------|------------------------------------------------|
    | Période de règlement         | Sélectionnez la période de règlement.                  |
-   | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes : <br> - **Original** : permet de générer le paiement de la taxe d’origine pour la période de règlement. <br> - **Dernières corrections** : permet de générer un paiement de taxe rectificatif après la création du paiement de taxe d’origine pour la période de règlement.          |
+   | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes : <br> - **Original** : permet de générer le paiement de la taxe d’origine pour la période de règlement. <br> - **Dernières corrections** : permet de générer un paiement de taxe rectificatif après la création du paiement de taxe d’origine pour la période de règlement.          |
    | Date de début                 | Permet de sélectionner la date de début de la période de reporting. |
 
 3. Cliquez sur **OK**.
@@ -289,7 +289,7 @@ La procédure suivante s’applique à l’exemple de traitement de message éle
       | **Champ**               | **Description**    |
       |-------------------------|---------------------|
       | Période de règlement       | Sélectionnez la période de règlement. Si vous avez sélectionné **Collecter des données** à l’étape 5, vous pouvez ignorer ce champ. L’état sera généré pour les transactions de taxe qui sont incluses dans les paiements de taxe collectés. |
-      | Version de la déclaration de taxe | Vous devez sélectionner l’une des valeurs suivantes : <br>-**Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré. <br>-**Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période. <br>- **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris Original et Toutes les corrections.               |
+      | Version de la déclaration de taxe | Vous devez sélectionner l’une des valeurs suivantes : <br>-**Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré. <br>-**Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période. <br>- **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris Original et Toutes les corrections.               |
     
     Si vous avez sélectionné **Collecter des données** à l’étape 5, vous pouvez ignorer ce champ. L’état sera généré pour les transactions de taxe qui sont incluses dans les paiements de taxe collectés.
 
@@ -309,7 +309,7 @@ Suivez les étapes suivantes pour configurer des messages électroniques pour co
 1. Accédez à **Espaces de travail** > **Gestion des fonctionnalités**.
 2. Recherchez et sélectionnez la fonctionnalité **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** dans la liste, puis sélectionnez **Activer maintenant**.
 3. Accédez à **Taxe** > **Paramétrage** > **Messages électroniques** > **Actions Renseignement des enregistrements**.
-4. Sur la page **Action Renseigner des enregistrements**, sélectionnez la ligne **Remplir les enregistrement de retour TVA FR**.
+4. Sur la page **Action Renseigner des enregistrements**, sélectionnez la ligne **Remplir les enregistrement de retour TVA CH**.
 
    Dans la grille **Configuration des sources de données**, un nouveau champ **Société** est disponible. Pour les enregistrements existants, ce champ affiche l’identificateur de l’entité juridique actuelle.
 
@@ -318,7 +318,7 @@ Suivez les étapes suivantes pour configurer des messages électroniques pour co
    | Champ                  | Description                                                                                                                    |
    |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
    | Nom                   | Entrez une valeur qui vous aidera à comprendre d’où vient cet enregistrement. Par exemple, entrez **Paiement TVA de la Filiale 1**. |
-   | Type d'élément de message      | Sélectionnez **Retour TVA**. Cette valeur est la seule valeur disponible pour tous les enregistrements.                                    |
+   | Type d’élément de message      | Sélectionnez **Retour TVA**. Cette valeur est la seule valeur disponible pour tous les enregistrements.                                    |
    | Type de compte           | Sélectionnez **Tout**.                                                                                                               |
    | Nom de la table principale      | Spécifiez **TaxReportVoucher** pour tous les enregistrements.                                                                             |
    | Champ Numéro du document  | Spécifiez **Voucher** pour tous les enregistrements.                                                                                      |

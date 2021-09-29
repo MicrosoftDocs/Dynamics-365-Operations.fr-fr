@@ -1,21 +1,21 @@
 ---
 title: Nouveautés ou modifications dans l’application mobile Warehouse Management
 description: Cette rubrique répertorie les fonctionnalités nouvelles et modifiées pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386097"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485620"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications dans l’application mobile Warehouse Management
 
@@ -23,20 +23,32 @@ ms.locfileid: "7386097"
 
 Cette rubrique répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
 
+## <a name="version-20100"></a>Version 2.0.10.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Animation ajoutée lors du balayage via des listes et des pages.
+- Le texte s’enroule désormais correctement sur la page d’erreur de connexion.
+- Les zones de liste déroulante sans valeurs par défaut s’affichent désormais correctement.
+- Les informations dans la zone de sous-en-tête sont désormais affichées uniquement sur la page de détails complets.
+- Les champs de saisie vides ne sont plus affichés sur la carte de détails.
+- Les valeurs de confirmation ne sont plus dupliquées sur la carte de détails.
+- Divers problèmes corrigés qui empêchaient le système de répondre.
+
 ## <a name="version-2090"></a>Version 2.0.9.0
 
-Cette version résout un problème où l'application pouvait cesser de répondre si les utilisateurs remontaient d'une page depuis le haut d'une liste.
+Cette version résout un problème où l’application pouvait cesser de répondre si les utilisateurs remontaient d’une page depuis le haut d’une liste.
 
 ## <a name="version-2080"></a>Version 2.0.8.0
 
 Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
 
-- Ajout de la prise en charge pour la [fonctionnalité d'instructions d'étape](mobile-app-titles-instructions.md) qui a été introduite dans Supply Chain Management version 10.0.21.
-- Ajout d'une animation de conseils pour montrer aux utilisateurs qu'ils peuvent fermer les superpositions en utilisant le balayage vers le bas.
-- Ajout de la prise en charge des touches de fonction sur les listes d'actions et les menus. Les utilisateurs peuvent maintenir enfoncée n'importe quelle touche de fonction pendant trois secondes pour obtenir une liste des commandes disponibles.
-- Correction d'un problème qui entraînait l'affichage du message d'erreur suivant sur certains appareils : « Impossible de trouver une vue appropriée pour la taille spécifiée ».
-- Correction d'un problème où le mode plein écran ne fonctionnait pas toujours avec le clavier à l'écran.
-- Correction d'un problème où le balayage de page ne fonctionnait pas sur les appareils Windows.
+- Ajout de la prise en charge pour la [fonctionnalité d’instructions d’étape](mobile-app-titles-instructions.md) qui a été introduite dans Supply Chain Management version 10.0.21.
+- Ajout d’une animation de conseils pour montrer aux utilisateurs qu’ils peuvent fermer les superpositions en utilisant le balayage vers le bas.
+- Ajout de la prise en charge des touches de fonction sur les listes d’actions et les menus. Les utilisateurs peuvent maintenir enfoncée n’importe quelle touche de fonction pendant trois secondes pour obtenir une liste des commandes disponibles.
+- Correction d’un problème qui entraînait l’affichage du message d’erreur suivant sur certains appareils : « Impossible de trouver une vue appropriée pour la taille spécifiée ».
+- Correction d’un problème où le mode plein écran ne fonctionnait pas toujours avec le clavier à l’écran.
+- Correction d’un problème où le balayage de page ne fonctionnait pas sur les appareils Windows.
 - Divers problèmes corrigés qui empêchaient le système de répondre.
 
 ## <a name="version-2070"></a>Version 2.0.7.0

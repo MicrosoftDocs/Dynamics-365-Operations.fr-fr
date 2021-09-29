@@ -2,7 +2,7 @@
 title: Vues enregistrées
 description: Cette rubrique décrit l’utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344342"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487839"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introduction
 
@@ -48,7 +47,7 @@ Il existe deux variantes de taille pour le sélecteur de vue :
  
 Si vous sélectionnez le nom de la vue, le sélecteur de vue est ouvert et indique la liste des vues disponibles pour la page.
 
-**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue affiche les vues disponibles dans deux sections. La première section affiche toutes les vues spécifiques à l'entité juridique actuelle, tandis que la seconde affiche les vues disponibles pour toutes les entités juridiques. La première section n'est visible que s'il existe des vues spécifiques à l'entité juridique pour la page.
+**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue affiche les vues disponibles dans deux sections. La première section affiche toutes les vues spécifiques à l’entité juridique actuelle, tandis que la seconde affiche les vues disponibles pour toutes les entités juridiques. La première section n’est visible que s’il existe des vues spécifiques à l’entité juridique pour la page.
 
 - **Vue standard** – La vue **Standard** est la vue prédéfinie de la page, où aucune personnalisation explicite n’est appliquée.
 - **Vues personnelles** – Les vues sans verrou représentent vos vues personnelles. Ce sont des vues que vous avez créées ou qu’un administrateur vous a données.
@@ -71,8 +70,8 @@ Si vous souhaitez enregistrer ces modifications, procédez comme suit.
 
     1. Sélectionnez **Enregistrer sous**. 
     2. Dans le volet **Enregistrer la vue sous**, entrez un nom et, éventuellement, une description pour la vue.
-    3. Si vous souhaitez que cette vue soit votre vue par défaut, sélectionnez **Épingler par défaut**. Pour plus d'informations sur les vues par défaut, consultez la section suivante [Modification de la vue par défaut](#changing-the-default-view). 
-    4. **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez choisir si vous souhaitez que cette vue soit disponible pour toutes les entités juridiques ou uniquement pour un sous-ensemble d'entre elles.
+    3. Si vous souhaitez que cette vue soit votre vue par défaut, sélectionnez **Épingler par défaut**. Pour plus d’informations sur les vues par défaut, consultez la section suivante [Modification de la vue par défaut](#changing-the-default-view). 
+    4. **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez choisir si vous souhaitez que cette vue soit disponible pour toutes les entités juridiques ou uniquement pour un sous-ensemble d’entre elles.
     5. Sélectionnez **Enregistrer**.
 
 ## <a name="changing-the-default-view"></a>Modification de la vue par défaut
@@ -98,11 +97,11 @@ Sinon, lorsque vous créez une vue (à l’aide l’action **Enregistrer sous**)
 
 La boîte de dialogue **Gérer mes vues** vous donne des fonctionnalités de gestion de base sur vos vues personnelles et l’ordre des vues dans le sélecteur de vue. Pour ouvrir cette page, sélectionnez le nom de vue pour ouvrir le menu déroulant du sélecteur de vue, sélectionnez **Plus**, puis sélectionnez **Gérer mes vues**.
 
-**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, la section **Mes vues** de la boîte de dialogue **Gérer mes vues** affiche les vues disponibles pour la page dans des sections. Toutes les vues spécifiques à l'entité juridique actuelle sont affichées dans leur propre section. La section **Vues globales** est toujours affichée, afin que vous puissiez gérer les vues disponibles pour la page dans toutes les entités juridiques. 
+**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, la section **Mes vues** de la boîte de dialogue **Gérer mes vues** affiche les vues disponibles pour la page dans des sections. Toutes les vues spécifiques à l’entité juridique actuelle sont affichées dans leur propre section. La section **Vues globales** est toujours affichée, afin que vous puissiez gérer les vues disponibles pour la page dans toutes les entités juridiques. 
 
 Pour obtenir une liste des vues disponibles pour cette page, l’ensemble d’actions suivant est disponibles.
 
-- **Modifier la vue par défaut** – Utilisez l’action **Épingler par défaut** pour faire de la vue actuelle sélectionnée la vue par défaut de cette page. Si la fonctionnalité **Importer la prise en charge des entités juridiques pour les vues enregistrées** est activée, la section **Vues globales** vous permet de faire d'une vue la vue par défaut de l'entité juridique actuelle ou de toutes les entités juridiques.
+- **Modifier la vue par défaut** – Utilisez l’action **Épingler par défaut** pour faire de la vue actuelle sélectionnée la vue par défaut de cette page. Si la fonctionnalité **Importer la prise en charge des entités juridiques pour les vues enregistrées** est activée, la section **Vues globales** vous permet de faire d’une vue la vue par défaut de l’entité juridique actuelle ou de toutes les entités juridiques.
 - **Réorganiser vos vues** – Utilisez les actions **Déplacer vers le haut** et **Déplacer vers le bas** pour réorganiser les vues dans un ordre spécifique.
 - **Renommer une vue** – Utilisez l’action **Renommer** pour modifier le nom de la vue personnelle actuelle sélectionnée. Cette action est désactivée pour les vues verrouillées. 
 - **Supprimer une vue** – Utilisez l’action **Supprimer** pour supprimer définitivement la vue actuelle sélectionnée de la page. Il n’existe aucune façon de récupérer une vue après l’avoir supprimer.
@@ -141,7 +140,7 @@ Pour publier une vue, procédez comme suit :
     > - Si vous publiez une vue en tant que vue par défaut pour certaines ou toutes les entités juridiques, le comportement suivant se produit :
     >
     >    - Si seule la fonctionnalité de base **Vues enregistrées** est activée, la vue unique et globale par défaut sera modifiée pour chaque utilisateur ciblé. 
-    >    - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée et que vous publiez la vue sur un sous-ensemble d'entités juridiques, la vue par défaut de ces entités juridiques sera modifiée pour chaque utilisateur ciblé.
+    >    - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée et que vous publiez la vue sur un sous-ensemble d’entités juridiques, la vue par défaut de ces entités juridiques sera modifiée pour chaque utilisateur ciblé.
     >
     > - Si un utilisateur a des rôles dans lesquels plusieurs vues sont publiées comme vue par défaut, la dernière vue publiée sera utilisée comme vue par défaut de l’utilisateur. 
 
@@ -152,8 +151,8 @@ Pour publier une vue, procédez comme suit :
     > [!NOTE]
     > Tenez compte du comportement suivant si vous publiez une vue sur une entité juridique spécifique, mais que vous ne publiez pas cette vue comme vue par défaut :
     >
-    > - Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l'utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique.
-    > - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n'affiche que la vue pour les entités juridiques spécifiées.
+    > - Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique.
+    > - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées.
 
 11. Cliquez sur **Publier**.
 
@@ -249,7 +248,7 @@ Pour les pages ayant de grands sélecteurs de vue (les personnalisations et les 
 
 Si vous publiez une vue sur une entité juridique spécifique, mais que vous ne publiez pas cette vue comme vue par défaut, le comportement suivant se produit :
 
-- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l'utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée lorsqu'elle est chargée, et les vues personnelles sont globales.
-- **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n'affiche que la vue pour les entités juridiques spécifiées. Ce comportement se produit car la fonctionnalité permet aux vues (y compris les vues personnelles) d'être liées à des entités juridiques spécifiques.
+- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée lorsqu’elle est chargée, et les vues personnelles sont globales.
+- **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées. Ce comportement se produit car la fonctionnalité permet aux vues (y compris les vues personnelles) d’être liées à des entités juridiques spécifiques.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

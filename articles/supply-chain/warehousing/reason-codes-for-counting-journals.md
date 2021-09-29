@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345264"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500588"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Codes motif d’inventaire de stock
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Les codes motif permettent d’analyser les résultats d’un processus d’inventaire et les écarts qui surviennent lors de ce processus. Vous pouvez indiquer le motif du comptage, tel qu’une palette brisée ou un ajustement du stock basé sur des exemples de stock. En même temps, vous pouvez utiliser la fonctionnalité d’ajustement pour valider la valeur des ajustements de stock disponible sur le compte de contrepartie approprié, en fonction du motif de chaque ajustement de stock.
 
@@ -42,8 +41,6 @@ Avant de paramétrer le système, nous vous recommandons de définir une straté
 - Les codes motif doivent-ils conduire à la comptabilisation du compte de contrepartie financière ?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Activer les fonctionnalités de code motif dans votre système
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Si vous ne voyez pas toutes les fonctionnalités décrites dans cette rubrique dans votre système, vous devez probablement activer la fonctionnalité *Valider les ajustements en stock à l’aide de codes de motif configurables connectés aux comptes de contrepartie*. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 

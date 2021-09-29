@@ -1,8 +1,8 @@
 ---
 title: Archiver les factures client imprimées avec des numéros de hachage
 description: Cette rubrique explique comment activer l’archivage afin de stocker des factures client imprimées avec des numéros de hachage.
-author: ilyako
-ms.date: 03/05/2021
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 474f5f19d709f3f04a2dbf4383360f58db7ecc8953e8624d9eef92286c52d4d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724205"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500525"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Archiver les factures client imprimées avec des numéros de hachage
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Dans certains pays, il existe une obligation légale de stocker les numéros de hachage calculés dans le système avec les impressions de certains documents. Les numéros de hachage peuvent être utilisés pour les rapports destinés aux autorités et pendant les audits.
 

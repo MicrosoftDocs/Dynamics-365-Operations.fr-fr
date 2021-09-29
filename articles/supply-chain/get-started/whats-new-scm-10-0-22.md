@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6fc4b9d0a0f5319c8a75e7d687ee82ea81497844
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471858"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484070"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 
 | Fonctionnalités | Fonctionnalité | Informations supplémentaires | Activé par   |
 |---|---|---|---|
-| Planification | [Prise en charge de l’optimisation de la planification pour l’allocation des ressources en fonction des capacités](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Planification avec une capacité infinie](../master-planning/planning-optimization/infinite-capacity-planning.md) | Gestion des fonctionnalités (*Planification des capacités infinies pour l’optimisation de la planification*) |
+| Planification | [Prise en charge de l’optimisation de la planification pour l’allocation des ressources en fonction des capacités](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Planification avec sélection des ressources en fonction des capacités](../master-planning/planning-optimization/capability-based-scheduling.md) | Gestion des fonctionnalités (*Planification des capacités infinies pour l’optimisation de la planification*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Améliorations de fonctionnalités incluses dans cette version
 
@@ -46,7 +46,7 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 | Topologie hybride distribuée | *(Aucune gestion des fonctionnalités n’est requise.)* | <p>Cette version étend les capacités de planification de la charge sortante de la charge de travail de gestion d’entrepôt pour les unités à l’échelle Cloud et périphérie.</p><p>Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gestion des modifications d’ingénierie | Générer des variantes pour les produits d’ingénierie | <p>Cette fonctionnalité vous permet de générer plusieurs variantes pour un produit d’ingénierie, en fonction de sa couleur, sa taille, son style ou ses dimensions de configuration.</p><p>Pour plus d’informations, voir [Générer des variantes pour les produits d’ingénierie](../engineering-change-management/engineering-variants.md).</p> |
 | Gestion des entrepôts et des stocks | Intégration de la visibilité du stock avec la compensation de réservation | <p>Cette fonction ne peut être activée qu’une fois la fonctionnalité *Intégration de la visibilité de l’inventaire* activée. Il fournit des fonctionnalités pour compenser les réservations effectuées sur la visibilité du stock.</p><p>Pour plus d’informations, voir [Réservation dans la visibilité des stocks](../inventory/inventory-visibility-reservations.md).</p> |
-| Ventes et marketing | Limiter le nombre de commandes clients qui peuvent être sélectionnées pour validation | <p>Cette fonctionnalité est activée automatiquement. Elle ajoute un champ appelé **Nombre max. de commandes client à valider** dans la page **Paramètres de la comptabilité client**. Ce champ vous permet de définir le nombre maximal de commandes client pouvant être sélectionnées lors de la validation des confirmations, des prélèvements, des bons de livraison et des factures à partir de la page de liste des commandes client. La valeur par défaut est *100*.</p><p>Cette fonctionnalité permet d’améliorer les performances de la page de liste des commandes client lorsqu’un nombre important de commandes client est sélectionné. Elle n'a aucun impact sur le nombre de commandes client pouvant être traitées par une tâche périodique.</p> |
+| Ventes et marketing | Limiter le nombre de commandes clients qui peuvent être sélectionnées pour validation | <p>Cette fonctionnalité est activée automatiquement. Elle ajoute un champ appelé **Nombre max. de commandes client à valider** dans la page **Paramètres de la comptabilité client**. Ce champ vous permet de définir le nombre maximal de commandes client pouvant être sélectionnées lors de la validation des confirmations, des prélèvements, des bons de livraison et des factures à partir de la page de liste des commandes client. La valeur par défaut est *100*.</p><p>Cette fonctionnalité permet d’améliorer les performances de la page de liste des commandes client lorsqu’un nombre important de commandes client est sélectionné. Elle n’a aucun impact sur le nombre de commandes client pouvant être traitées par une tâche périodique.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 

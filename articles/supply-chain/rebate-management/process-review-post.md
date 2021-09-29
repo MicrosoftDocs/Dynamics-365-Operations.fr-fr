@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729408"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500473"
 ---
 # <a name="process-review-and-post-rebates"></a>Traiter, examiner et valider les remises
 
@@ -43,8 +43,6 @@ La tâche périodique **Calculer le prix d’achat FIFO** doit être exécutée 
 Accédez à **Gestion des remises \> Tâches périodiques \> Calculer le prix d’achat FIFO**. Dans la boîte de dialogue qui apparaît, sélectionnez **OK** pour exécuter le calcul.
 
 ## <a name="create-source-transactions"></a>Créer des transactions sources
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Vous pouvez créer les commandes fournisseur ou les commandes client qui ont des transactions sources avant ou après avoir créé une transaction de gestion des remises applicable.
 
@@ -142,7 +140,7 @@ Lorsque vous traitez un accord, le système calcule toutes les remises et redeva
 
 ### <a name="process-deals-using-a-batch-job"></a>Traiter les accords à l’aide d’un traitement par lots
 
-Au lieu de traiter des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour traiter plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour traiter des accords à l’aide d’un traitement par lots, procédez comme suit :
+Au lieu de traiter des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour traiter plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour traiter des accords à l’aide d’un traitement par lots, procédez comme suit :
 
 1. Utilisez l’une des procédures suivantes :
 
@@ -157,8 +155,6 @@ Au lieu de traiter des accords ou des lignes d’accord spécifiques, vous pouve
 1. Sélectionnez **OK** pour exécuter et/ou planifier le calcul.
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Traiter les transactions à l’aide de le Workbench des remises
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Au lieu de traiter des accords ou des lignes d’accord spécifiques, vous pouvez utiliser *Workbench de remise* pour traiter plusieurs transactions en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Vous n’avez pas besoin de sélectionner de lignes. Le système traitera toutes les lignes qui répondent aux exigences de date et de filtre que vous avez définies.
 
@@ -213,8 +209,6 @@ Pour afficher et modifier les transactions de gestion des remises à l’aide de
 > Si vous utilisez un processus de revendication, lorsque vous traitez la période suivante, la liste des transactions comprend toutes les transactions non réclamées de la validation précédente, ainsi que toutes les nouvelles transactions pour la période sélectionnée.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Afficher et modifier les transactions de gestion des remises à l’aide du Workbench des remises
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Pour afficher et modifier les transactions de gestion des remises à l’aide du Workbench des remises, procédez comme suit.
 
@@ -279,7 +273,7 @@ Après avoir traité les accords pertinents, procédez comme suit pour consulter
 
 ### <a name="post-transactions-using-a-batch-job"></a>Valider les transactions à l’aide d’un traitement par lots
 
-Au lieu de valider les transactions pour des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour valider les transactions de plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour valider les transactions à l’aide d’un traitement par lots, procédez comme suit :
+Au lieu de valider les transactions pour des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour valider les transactions de plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour valider les transactions à l’aide d’un traitement par lots, procédez comme suit :
 
 1. Utilisez l’une des procédures suivantes :
 
@@ -294,8 +288,6 @@ Au lieu de valider les transactions pour des accords ou des lignes d’accord sp
 1. Sélectionnez **OK** pour exécuter et/ou planifier le calcul.
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Valider les transactions à l’aide de le Workbench des remises
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Une fois que vous avez traité les transactions de provision, de remise ou d’annulation, suivez ces étapes pour utiliser le Workbench de remises pour examiner et valider les transactions générées pour une ou plusieurs lignes de transaction spécifiques pour toutes les transactions.
 
@@ -317,7 +309,7 @@ Une fois vos transactions validées, vous pouvez consulter les journaux, documen
 
 ### <a name="review-journals-by-using-the-rebate-deals-list-page"></a>Examiner les journaux à l’aide de la page de liste des remises
 
-Pour consulter les écritures de journal associées à un accord de gestion de remise, procédez comme suit :
+Pour consulter les écritures de journal associées à un accord de gestion de remise, procédez comme suit :
 
 1. Ouvrez la [page de liste des accords de remise](rebate-management-deals.md) pour le type d’accord que vous souhaitez utiliser.
 1. Sélectionnez l’accord pour lequel inspecter les écritures de journal.
@@ -332,8 +324,6 @@ Pour consulter les écritures de journal associées à un accord de gestion de r
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Vérifiez les journaux à l’aide de le Workbench des remises
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Pour vérifier les journaux à l’aide du Workbench de remises, procédez comme suit :
 
 1. Accédez à **Gestion des remises \> Accords de gestion des remises \> Workbench des remises**.
@@ -342,8 +332,6 @@ Pour vérifier les journaux à l’aide du Workbench de remises, procédez comme
 1. Une liste des journaux, documents ou articles pertinents s’affiche. Pour afficher plus d’informations sur un journal, un document ou un article, sélectionnez sa ligne, puis, dans le volet Actions, sélectionnez **Afficher les détails**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Opérations de gestion des remises sur le Workbench des déductions
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Lorsque vous validez une transaction de gestion des remises qui comporte l’une des valeurs suivantes **Type de paiement**, le système crée un journal des déductions client ou une facture financière pour le compte client concerné :
 
@@ -358,8 +346,6 @@ Pour plus d’informations, consultez [Gérer les déductions à l’aide du Wor
 
 ## <a name="purge-unposted-transactions"></a>Vider les transactions non validées
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Après avoir traité les transactions de provision, de remise ou d’annulation, suivez ces étapes pour vider les transactions non validées sélectionnées.
 
 1. Accédez à **Gestion des remises \> Accords de gestion des remises \> Workbench des remises**.
@@ -368,8 +354,6 @@ Après avoir traité les transactions de provision, de remise ou d’annulation,
 4. Cliquez sur **OK** pour supprimer les transactions non validées.
 
 ## <a name="cancel-a-posted-provision"></a>Annuler une provision validée
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Après avoir traité et validé une provision, suivez ces étapes pour annuler les transactions de provision validées.
 

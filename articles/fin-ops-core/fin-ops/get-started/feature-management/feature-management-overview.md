@@ -2,7 +2,7 @@
 title: Présentation de la gestion des fonctionnalités
 description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
 author: Peakerbl
-ms.date: 07/30/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,17 +16,16 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 9b51e848a965589ef0a14e5b880f213d18abc53097c18eed51320d7443a3b5f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741606"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488176"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Les fonctionnalités sont ajoutées et mises à jour dans chaque version. L’expérience de gestion des fonctionnalités fournit un espace de travail dans lequel vous pouvez afficher une liste des fonctionnalités fournies dans chaque version. Vous pouvez ensuite utiliser l’espace de travail pour afficher la documentation des fonctionnalités et pour activer ou désactiver des fonctionnalités.
 
@@ -169,7 +168,7 @@ Les exemples suivants décrivent ce qui se produit lorsque vous utilisez l’ent
 
 ## <a name="feature-management-and-flighting"></a>Gestion des fonctionnalités et distribution de version d’évaluation
 
-La Gestion des fonctionnalités vous permet de contrôler les fonctionnalités qui sont fournies dans chaque version. La distribution de version d’évaluation permet à Microsoft Teams de fournir des fonctionnalités à un nombre limité de clients, afin que celles-ci puissent être testées et validées sans affecter tous les clients. La Gestion des fonctionnalités ne contrôle pas la distribution de version d'évaluation des fonctionnalités.
+La Gestion des fonctionnalités vous permet de contrôler les fonctionnalités qui sont fournies dans chaque version. La distribution de version d’évaluation permet à Microsoft Teams de fournir des fonctionnalités à un nombre limité de clients, afin que celles-ci puissent être testées et validées sans affecter tous les clients. La Gestion des fonctionnalités ne contrôle pas la distribution de version d’évaluation des fonctionnalités.
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Utilisation de la Gestion des fonctionnalités pour activer des fonctionnalités de fournisseur de logiciels indépendant ou des fonctions personnalisées
 

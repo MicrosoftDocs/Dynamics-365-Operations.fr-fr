@@ -1,7 +1,7 @@
 ---
 title: Canada GST/GIFT (HST Internet File Transfer)
 description: Cet article décrit la configuration et utiliser la fonctionnalité de transfert de fichiers via Internet Canada GST/GIFT (HST Internet File Transfer).
-author: ericwang
+author: EricWangChen
 ms.date: 08/20/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Canada
-ms.author: kfend
+ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 503e623cf803939438e6618d5cd5ee1863bfc7c746b3e7b533b66a338a7cd5a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 425333a0f69dd0d1b256806f6e4f3167472216ee
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744949"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488218"
 ---
 # <a name="canada-gsthst-internet-file-transfer"></a>Canada GST/GIFT (HST Internet File Transfer) 
 

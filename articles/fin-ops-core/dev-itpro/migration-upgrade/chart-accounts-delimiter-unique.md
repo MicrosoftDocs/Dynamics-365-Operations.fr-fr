@@ -2,7 +2,7 @@
 title: Rendre unique le délimiteur du plan de comptes
 description: Cette rubrique explique comment vous ne pouvez pas avoir le même séparateur pour le plan de comptes et les valeurs de dimension. Vous devez modifier les valeurs de délimiteur après la mise à niveau.
 author: panolte
-ms.date: 03/30/2018
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,23 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 5887eb2fb6a5849058981b93b3ae39be3f75a5e6ae0a8da15170ecb81792553a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719816"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500501"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Rendre unique le délimiteur du plan de comptes
 
 [!include [banner](../includes/banner.md)]
 
 Dans Microsoft Dynamics AX 2012, vous pouviez utiliser le même délimiteur pour votre plan de comptes et les valeurs de dimension. Dans les versions actuelles de Finance and Operations, vous ne pouvez pas avoir le même délimiteur pour le plan de comptes et les valeurs de dimension. Si un délimiteur est en double, vous pouvez le modifier après la mise à niveau. 
-
-Cette fonction est disponible dans les versions suivantes :
-- Finance and Operations version 8.0
-- Finance and Operations version 7.1, KB 4094701 Impossible d’entrer des dimensions financières lorsque les valeurs de la dimension contiennent le délimiteur de plan de comptes
-- Finance and Operations version 7.2, KB 4092967 Impossible de choisir un sous-projet lorsque comme dimension lorsque le format de celui-ci contient le délimiteur de dimension
 
 ## <a name="update-delimiter"></a>Mettre à jour le délimiteur
 En cas de conflit avec le plan de comptes, le délimiteur de plan de comptes et le format de l’ID de projet/sous-projet peut être modifié. Aucun autre délimiteur de dimension ne peut être modifié. 

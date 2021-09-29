@@ -1,8 +1,8 @@
 ---
 title: Configuration des types de congé et d’absence
 description: Configurez les types de congés que les employés peuvent prendre dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730416"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485805"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d’absence
 
@@ -65,9 +65,9 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
 1. Définissez les options d’arrondi pour le type de congé. Les options incluent **Aucun**, **Haut**, **Bas** et **Le plus proche**. Vous pouvez également définir la précision d’arrondi pour le type de congé.
 
-2. Définissez **Correction des congés** pour le type de congés. Lorsque vous sélectionnez cette option, Human Resources utilise le nombre de congés qui tombent un jour ouvrable pour déterminer comment cumuler des congés pour le type de congé. Par exemple, si le jour de Noël tombe un lundi, Human Resources soustraira un jour du type de congé lors du traitement des régularisations.
+2. Définissez **Correction des congés** pour le type de congés. Lorsque vous sélectionnez cette option, le nombre de congés qui tombent un jour ouvrable est utilisé pour déterminer comment cumuler des congés pour le type de congé. Par exemple, si le jour de Noël tombe un lundi, Human Resources soustraira un jour du type de congé lors du traitement des régularisations.
 
-   Vous définissez des congés dans le calendrier du temps de travail. Pour plus d’informations, voir [Création d’un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
+   Vous définissez des congés dans le calendrier du temps de travail. Pour plus d’informations, voir [Création d’un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md).
    
  3. Définissez **Report de type de congé** pour le type de congé. Lorsque vous sélectionnez cette option, tous les soldes de report seront transférés vers le type de congé spécifié. Le report de type de congé doit également être inclus dans le plan de congé et d’absence. 
  
@@ -76,37 +76,37 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Configurer la pièce jointe requise par type de congé
 
 > [!NOTE]
-> Pour utiliser le champ **Pièce jointe requise**, vous devez d'abord activer la fonctionnalité **(Version préliminaire) Configurer la pièce jointe requise pour les demandes de congé** dans la Gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
+> Pour utiliser le champ **Pièce jointe requise**, vous devez d’abord activer la fonctionnalité **Configurer la pièce jointe requise pour les demandes de congé** dans la Gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
 
-1. Sur la page **Congés et absences**, sur l'onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d'absences**.
+1. Sur la page **Congés et absences**, sur l’onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d’absences**.
 
-2. Sélectionnez un type de congé et d'absence dans la liste. Ensuite, dans la section **Général**, utilisez le champ **Pièce jointe requise** pour spécifier si une pièce jointe doit être chargée lorsqu'un employé soumet une nouvelle demande de congé pour le type de congé sélectionné. 
+2. Sélectionnez un type de congé et d’absence dans la liste. Ensuite, dans la section **Général**, utilisez le champ **Pièce jointe requise** pour spécifier si une pièce jointe doit être chargée lorsqu’un employé soumet une nouvelle demande de congé pour le type de congé sélectionné. 
 
-Les employés devront charger une pièce jointe lorsqu'ils soumettront une nouvelle demande de congé d'un type où le champ **Pièce jointe requise** est activé. Pour afficher la pièce jointe qui a été chargée dans le cadre d'une demande de congé, les approbateurs de la demande de congé peuvent utiliser l'option **Pièces jointes** pour les éléments de travail qui leur sont affectés. Si une demande de congé est consultée à l'aide de l'application Human Resources dans Microsoft Teams, l'option **Afficher les détails** de la demande de congé peut être utilisée pour afficher ses détails et ses éventuelles pièces jointes.
+Les employés devront charger une pièce jointe lorsqu’ils soumettront une nouvelle demande de congé d’un type où le champ **Pièce jointe requise** est activé. Pour afficher la pièce jointe qui a été chargée dans le cadre d’une demande de congé, les approbateurs de la demande de congé peuvent utiliser l’option **Pièces jointes** pour les éléments de travail qui leur sont affectés. Si une demande de congé est consultée à l’aide de l’application Human Resources dans Microsoft Teams, l’option **Afficher les détails** de la demande de congé peut être utilisée pour afficher ses détails et ses éventuelles pièces jointes.
 
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurer les unités de congé (heures/jours) par type de congé
 
 > [!NOTE]
-> Pour utiliser la fonctionnalité d'unités de congé par type de congé, vous devez d'abord activer la fonctionnalité **(Version préliminaire) Configurer les unités de congé par type de congé** dans la Gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
+> Pour utiliser la fonctionnalité d’unités de congé par type de congé, vous devez d’abord activer la fonctionnalité **Configurer les unités de congé par type de congé** dans la Gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
-> Par défaut, les types de congé d'une entité juridique utilisent les unités de congé de la configuration des paramètres de congé au niveau de l'entité juridique.
+> Par défaut, les types de congé d’une entité juridique utilisent les unités de congé de la configuration des paramètres de congé au niveau de l’entité juridique.
 > 
-> L'unité de congé d'un type de congé et d'absence ne peut être modifiée que s'il n'y a pas de transactions de congé pour ce type de congé.
+> L’unité de congé d’un type de congé et d’absence ne peut être modifiée que s’il n’y a pas de transactions de congé pour ce type de congé.
 > 
-> La fonctionnalité ne peut pas être désactivée une fois qu'elle a été activée.
+> La fonctionnalité ne peut pas être désactivée une fois qu’elle a été activée.
 
-1. Sur la page **Congés et absences**, sur l'onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d'absences**.
+1. Sur la page **Congés et absences**, sur l’onglet **Liens**, sous **Paramétrage**, sélectionnez **Types de congés et d’absences**.
 
-2. Sélectionnez un type de congé et d'absence dans la liste. Ensuite, dans la section **Général**, dans le champ **Unité**, sélectionnez l'unité de congé. Vous pouvez sélectionner **Heures** ou **Jours**.
+2. Sélectionnez un type de congé et d’absence dans la liste. Ensuite, dans la section **Général**, dans le champ **Unité**, sélectionnez l’unité de congé. Vous pouvez sélectionner **Heures** ou **Jours**.
 
-3. Facultatif : si vous avez sélectionné **Heures** dans le champ **Unité**, vous pouvez utiliser le champ **Activer la définition d'une demi-journée** pour spécifier si les employés peuvent sélectionner la première demi-journée ou la deuxième demi-journée de congé s'ils demandent une demi-journée de congé.
+3. Facultatif : si vous avez sélectionné **Heures** dans le champ **Unité**, vous pouvez utiliser le champ **Activer la définition d’une demi-journée** pour spécifier si les employés peuvent sélectionner la première demi-journée ou la deuxième demi-journée de congé s’ils demandent une demi-journée de congé.
 
-Les employés qui soumettent une nouvelle demande de congé peuvent sélectionner différents types de congés pour construire leur demande de congé. Cependant, tous les types de congés sélectionnés dans le cadre d'une seule demande de congé doivent avoir la même unité de congé. Les employés peuvent afficher l'unité de congé pour chaque type de congé dans le formulaire **Demander un congé**.
+Les employés qui soumettent une nouvelle demande de congé peuvent sélectionner différents types de congés pour construire leur demande de congé. Cependant, tous les types de congés sélectionnés dans le cadre d’une seule demande de congé doivent avoir la même unité de congé. Les employés peuvent afficher l’unité de congé pour chaque type de congé dans le formulaire **Demander un congé**.
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
 - [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
 - [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)

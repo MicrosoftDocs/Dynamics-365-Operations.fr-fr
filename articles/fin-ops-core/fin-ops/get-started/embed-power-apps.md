@@ -2,7 +2,7 @@
 title: Incorporer des applications canevas à partir de Power Apps
 description: Cette rubrique explique comment incorporer des applications canevas de Microsoft Power Apps dans le client pour augmenter la fonctionnalité du produit.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344527"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488052"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Incorporer des applications canevas à partir de Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps est un service qui permet aux développeurs et aux utilisateurs non techniciens de générer des applications d’entreprise personnalisées pour les appareils mobiles, les tablettes et le web sans écrire de code. Les applications Finance and Operations prennent en charge l’intégration avec Power Apps. Les applications canevas développées par vous, votre organisation ou l’écosystème élargi peuvent être incorporées dans les applications Finance and Operations pour augmenter la fonctionnalité du produit. Par exemple, vous pouvez créer une application canevas de Power Apps en complément d’une application Finance and Operations avec des informations extraites d’un autre système.
 
@@ -75,7 +74,7 @@ Intégrez une application canevas depuis le tableau de bord si l’application q
 2. Sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) la page, sélectionnez **Personnaliser**, puis sélectionnez **Ajouter une page**.
 3. Dans le volet **Ajouter une page**, sélectionnez **Power Apps**.
 4. Configurez l’application incorporée. Pour plus d’informations, voir la section [Configuration d’une application canevas](#configuring-a-canvas-app) plus loin dans cette rubrique.
-5. Sélectionnez **Sauvegarder** pour ajouter l'application au tableau de bord en tant que nouvelle mosaïque.
+5. Sélectionnez **Sauvegarder** pour ajouter l’application au tableau de bord en tant que nouvelle mosaïque.
 6. Sélectionnez la nouvelle mosaïque sur le tableau de bord et confirmez que l’application canevas apparaît comme prévu.
 
 ### <a name="configuring-a-canvas-app"></a>Configuration d’une application canevas
@@ -100,7 +99,7 @@ Après avoir incorporé une application canevas sur une page et confirmé qu’e
 
     - **Publier la vue (recommandé) :** si la fonction **[Vues enregistrées](saved-views.md)** est activée, l’approche recommandée et préférée consiste à créer une vue qui inclut l’application canevas intégrée, puis à publier cette vue pour les utilisateurs souhaités. Cette approche garantit que tous les utilisateurs disposant des rôles de sécurité ciblés par la vue publiée verront l’application canevas sur la page.
 
-        Vous pouvez également publier une application canevas qui a été incorporée en tant qu’expérience pleine page à partir du tableau de bord. Sur le tableau de bord, sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) la mosaïque associée à l'application, sélectionnez **Personnaliser**, puis sélectionnez **Publier la page**. Une expérience qui ressemble à l’expérience *Publier des vues* est affichée et vous pouvez sélectionner les rôles de sécurité sur lesquels publier. Dans la mise à jour 10.0.21 ou ultérieure, si la fonction **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez également publier l’application sur les entités juridiques souhaitées.
+        Vous pouvez également publier une application canevas qui a été incorporée en tant qu’expérience pleine page à partir du tableau de bord. Sur le tableau de bord, sélectionnez et maintenez sélectionnée (ou cliquez avec le bouton droit) la mosaïque associée à l’application, sélectionnez **Personnaliser**, puis sélectionnez **Publier la page**. Une expérience qui ressemble à l’expérience *Publier des vues* est affichée et vous pouvez sélectionner les rôles de sécurité sur lesquels publier. Dans la mise à jour 10.0.21 ou ultérieure, si la fonction **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez également publier l’application sur les entités juridiques souhaitées.
 
     - Si la fonction **Vues enregistrées** est désactivée, l’administrateur système peut donner une personnalisation qui inclut l’application canevas à l’ensemble d’utilisateurs approprié via la page **Personnalisation**. Vous pouvez également exporter les personnalisations de votre page et les envoyer à un ou plusieurs utilisateurs. Chacun de ces utilisateurs peut ensuite importer la personnalisation. La barre d’outils de personnalisation a des boutons qui vous permettent d’exporter et d’importer des personnalisations.
 

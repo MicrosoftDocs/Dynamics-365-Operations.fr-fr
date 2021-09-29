@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715332"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500301"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -34,11 +34,11 @@ Cette rubrique explique les concepts relatifs aux périphériques de magasin. El
 
 ### <a name="pos-registers"></a>Caisses enregistreuses de PDV
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d’une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques utilisés dans le registre, le magasin sur lequel est mappé le registre ainsi que l’expérience visuelle de l’utilisateur qui se connecte à ce registre.
+Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d’une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques utilisés dans le registre, le magasin sur lequel est mappé le registre ainsi que l’expérience visuelle de l’utilisateur qui se connecte à ce registre.
 
 ### <a name="devices"></a>Périphériques
 
-Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé sur la caisse enregistreuse d’un PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. 
+Navigation : cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Périphériques**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé sur la caisse enregistreuse d’un PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. 
 
 Les appareils peuvent être associés aux types d’application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android et Retail Modern POS – iOS.
 
@@ -562,7 +562,7 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
 > Si les périphériques utilisent souvent différentes stations matérielles, nous vous recommandons de configurer Modern POS pour inviter les caissiers à sélectionner une station matérielle lorsqu’ils commencent le processus de soumission. Cliquez sur **Commerce et vente au détail** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Caisses enregistreuses**. Sélectionnez le registre, puis définissez l’option **Sélectionner à la soumission** sur **Oui**. Utilisez le programme de distribution **1090** pour synchroniser les modifications avec la base de données des canaux.
 
 ## <a name="extensibility"></a>Extensibilité
-Pour plus d’informations sur les scénarios d’extensibilité pour la station matérielle, voir [Extensibilité des stations matérielles](dev-itpro/hardware-station-extensibility.md).
+Pour plus d’informations sur les scénarios d’extensibilité de la station matérielle, voir [Intégrer le PDV avec un nouveau périphérique matériel et générer le programme d’installation de l’extension](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Sécurité
 Conformément aux normes de sécurité, les paramètres suivants doivent être utilisés dans un environnement de production : 

@@ -1,5 +1,5 @@
 ---
-title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
+title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391206"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500553"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version préliminaire de Microsoft Dynamics 365 Supply Chain Management 10.0.21. Cette version a un numéro de build de 10.0.960 et est disponible comme suit :
+Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.21. Cette version a un numéro de build de 10.0.960 et est disponible comme suit :
 
 - **Version préliminaire :** Août 2021
 - **Disponibilité générale de la version (mise à jour manuelle) :** Septembre 2021
@@ -36,7 +35,7 @@ Au moment du déploiement de la version 10.0.21 sur IaaS, vous pouvez recevoir 
 
 **Message d’avertissement :** Échec du script \[SetupDiagnostics\] à exécuter la machine virtuelle
 
-Le déploiement fonctionnera malgré l'avertissement. Cependant, les problèmes connus suivants peuvent survenir dans Lifecycle Services (LCS) :
+Le déploiement fonctionnera malgré l’avertissement. Cependant, les problèmes connus suivants peuvent survenir dans Lifecycle Services (LCS) :
 
 - Sur la page **Surveillance de l’environnement**, le lien **Afficher les informations détaillées sur la version** n’apparaîtra pas, vous ne pourrez donc pas voir les versions spécifiques des modules installés dans votre environnement. Sans ces données, les correctifs ultérieurs peuvent échouer, car le processus qui applique les correctifs utilise ces données pour vérifier que les conditions préalables de la version du module sont remplies. Comme il n’est pas possible d’utiliser la build PEAP/version préliminaire en production ou d’appliquer des correctifs, l’impact devrait être minime.
 - Les onglets **Indicateurs de performance** et **Analyse des indices** sur la page **Surveillance de l’environnement** sous SQL Insights n’affichera aucune donnée. Toutes les autres fonctionnalités **Surveillance de l’environnement** fonctionneront comme prévu.
@@ -46,13 +45,14 @@ Le déploiement fonctionnera malgré l'avertissement. Cependant, les problèmes 
 
 Le tableau suivant répertorie les fonctionnalités comprises dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe.
 
-La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d’autres peuvent déjà être généralement disponibles.
+La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 | Fonctionnalités | Fonctionnalité | Informations supplémentaires |
 |---|---|---|
-| Inventaire&nbsp;et&nbsp;logistique | [Complément Comptabilité globale des stocks pour Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Page d’accueil de la comptabilité globale des stocks](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Inventaire&nbsp;et&nbsp;logistique | [Complément Comptabilité globale des stocks pour Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Page d’accueil de la comptabilité globale des stocks](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Valider les ajustements en stock à l’aide de codes de motif configurables connectés aux comptes de contrepartie](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Codes motif d’inventaire de stock](../warehousing/reason-codes-for-counting-journals.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Stratégie d’exportation de données référencées de devis de vente](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Choisissez si les modifications des données référencées par devis entraîneront l’ajout de ces devis (ou lignes) à la prochaine exportation incrémentielle. Vos exportations incrémentielles s’exécuteront plus rapidement si vous choisissez de ne pas inclure de tels devis ou lignes.<br><br>Cette fonctionnalité ajoute un paramètre appelé **Ignorer les données référencées des devis lors du suivi des modifications** sur la page **Paramètres de la Comptabilité client**. |
+| Inventaire&nbsp;et&nbsp;logistique | Appel d’offre scellé <!-- KFM: Add RP link when available --> | [Soumissions sous pli scellé les appels d’offre](../procurement/sealed-bidding.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Réservation provisoire pour le complément de visibilité des stocks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Réservations dans la visibilité des stocks](../inventory/inventory-visibility-reservations.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Améliorations des déductions et du poids variable pour la gestion des remises](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Gérer les déductions à l’aide du workbench de déduction](../rebate-management/deduction-workbench.md )<br><br>[Traiter, examiner et valider les remises](../rebate-management/process-review-post.md)<br><br>[Accords de gestion des remises](../rebate-management/rebate-management-deals.md) |
@@ -69,7 +69,7 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 | Gestion des coûts | Détails de la progression de la clôture du stock | Cette fonctionnalité d’évaluation permet une vue détaillée de la progression de la clôture des stocks. |
 | Approvisionnements | Empêcher la surconsommation des réservations budgétaires générales lorsque le flux de travail contient plusieurs demandes d’achat | Cette fonctionnalité d’évaluation améliore la vérification des erreurs lorsque les utilisateurs soumettent et approuvent des demandes d’achat qui dépassent le solde restant d’une ligne de réservation budgétaire générale. Cela permet d’éviter la surconsommation des réservations budgétaires générales lorsque plusieurs demandes d’achat sont dans le workflow. |
 | Contrôle de la production | Afficher les numéros de série, de traitements par lots et de contenants complets dans l’interface d’exécution de l’atelier de production | Cette fonctionnalité offre une expérience améliorée pour l’affichage des listes de n° de série, n° lot et numéros de contenant dans l’interface d’exécution de l’atelier de production. L’affichage passe d’une vue de carte avec un nombre limité de caractères à une vue de liste qui offre suffisamment d’espace pour afficher les valeurs complètes. La liste offre également la possibilité de rechercher des numéros spécifiques. |
-| Ventes et marketing | Limiter le nombre de commandes clients qui peuvent être sélectionnées pour validation | Cette fonctionnalité vous permet de définir le nombre maximal de commandes client pouvant être sélectionnées lors de la validation des confirmations, des prélèvements, des bons de livraison et des factures à partir de la page de liste des commandes client. Elle est activée automatiquement. Cette fonctionnalité ajoute un paramètre appelé **Nombre max. de commandes client à valider** dans la page **Paramètres de la comptabilité client**. Le nouveau paramètre prend par défaut une valeur de *100*. Cette fonctionnalité permet d'améliorer les performances de la page de liste des commandes client lorsqu'un nombre important de commandes client est sélectionné. Elle n'a aucun impact sur le nombre de commandes client pouvant être traitées par une tâche périodique. |
+| Ventes et marketing | Limiter le nombre de commandes clients qui peuvent être sélectionnées pour validation | Cette fonctionnalité vous permet de définir le nombre maximal de commandes client pouvant être sélectionnées lors de la validation des confirmations, des prélèvements, des bons de livraison et des factures à partir de la page de liste des commandes client. Elle est activée automatiquement. Cette fonctionnalité ajoute un paramètre appelé **Nombre max. de commandes client à valider** dans la page **Paramètres de la comptabilité client**. Le nouveau paramètre prend par défaut une valeur de *100*. Cette fonctionnalité permet d’améliorer les performances de la page de liste des commandes client lorsqu’un nombre important de commandes client est sélectionné. Elle n’a aucun impact sur le nombre de commandes client pouvant être traitées par une tâche périodique. |
 | Gestion des entrepôts | Découpler le travail de rangement des APE | Cette fonctionnalité est requise pour envoyer et recevoir des avis d’expédition anticipés (ASN) lorsque vous exécutez une charge de travail de gestion d’entrepôt sur une unité d’échelle (dans le cadre d’une topologie hybride distribuée). Il ajoute une nouvelle table de base de données dédiée au stockage des informations sur le travail de rangement. Auparavant, ces informations étaient stockées dans des tables également utilisées pour les ASN. |
 | Gestion des entrepôts | Insérer des créneaux dans les unités mixtes | Permet au système d’insérer des articles dans des emplacements comprenant des unités mixtes (telles que des boîtes et des caisses). Pour chaque ligne de modèle de créneau, cette fonctionnalité vous permet de choisir si la ligne doit positionner les articles à des emplacements à unités mixtes ou à unité unique. |
 | Gestion des entrepôts | Utiliser une API plus rapide pour la clôture/réouverture des conteneurs sur la station de conditionnement | Lorsque cette fonctionnalité d’évaluation est activée, les transactions de stock liées aux conteneurs sont créées à l’aide d’un processus léger qui améliore les performances de fermeture ou de réouverture des conteneurs lors du traitement manuel de la station d’emballage. |

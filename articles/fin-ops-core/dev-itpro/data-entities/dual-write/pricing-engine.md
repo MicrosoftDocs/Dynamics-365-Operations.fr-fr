@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481313"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485732"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Synchroniser à la demande avec le moteur de tarification de Supply Chain Management
 
@@ -60,6 +60,7 @@ Lorsque les colonnes dans Sales sont remplies, les limitations suivantes s’app
 + La configuration des frais et des allocations de frais dans Supply Chain Management n’est pas répliquée dans Sales.
 + Les prix ne tiennent pas compte des prix de détail spéciaux spécifiés dans la colonne **Canal de vente au détail** sur la page de ligne de commande client dans Supply Chain Management.
 + Les remises définies dans la section **Gestion des reprises** de Supply Chain Management ne sont pas prises en compte.
++ La tarification ne tient pas compte des accords de vente.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

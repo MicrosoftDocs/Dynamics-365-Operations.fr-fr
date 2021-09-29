@@ -2,7 +2,7 @@
 title: Planification avec une capacité infinie
 description: Cette rubrique fournit des informations sur la planification de capacité infinie pour Planning Optimization. Elle décrit également les limitations actuelles des fonctionnalités.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471666"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506805"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planification avec une capacité infinie
 
@@ -27,7 +27,12 @@ La fonctionnalité *Planification de capacité infinie pour Planning Optimizatio
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Activer la fonction de planification de capacité infinie
 
-Si votre système n’inclut pas déjà la fonctionnalité décrite dans cette rubrique, ouvrez l’espace de travail [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Planification de capacité infinie pour Planning Optimization*.
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Planification*
+- **Nom de la fonctionnalité :** *Planification des capacités infinies pour l’optimisation de la planification*
+
+Pour plus d’informations sur cette fonctionnalité, voir [Planification avec sélection des ressources en fonction des capacités](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Fonctionnalité ajoutée
 
@@ -42,7 +47,7 @@ Au cours du processus de planification, le système prend également en compte l
 - Type de ressource
 - Ressource
 - Groupe de ressources
-- Capacité
+- Capacité (Pour plus d’informations, voir [Planification avec sélection des ressources en fonction des capacités](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Les exigences liées aux ressources humaines, telles que les compétences ou les exigences de certificat, ne sont pas encore prises en charge.
@@ -55,7 +60,6 @@ En résumé, la planification de Planning Optimization prend en charge les scén
 
 Les limitations suivantes s’appliquent lorsque vous utilisez la planification pour Planning Optimization :
 
-- La fonctionnalité prend uniquement en charge la planification des tâches. Les paramètres liés à la planification des opérations ne sont pas pris en compte lors de la planification, quelle que soit la méthode de planification sur les plans directeurs.
 - La fonctionnalité ne prend en charge qu’une capacité infinie.
 - La fonctionnalité ne prend pas en charge la fonctionnalité de chargement de ressources.
 - La fonctionnalité ne prend pas en compte les rebuts d’itinéraire.

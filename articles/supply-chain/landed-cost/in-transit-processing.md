@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744796"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500277"
 ---
 # <a name="goods-in-transit-processing"></a>Traitement de marchandises en transit
 
@@ -148,8 +148,6 @@ Cette section décrit les fonctionnalités que le module **Prix au débarquement
 Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Marchandises en transit* à la page **Modèles de travail**. Ce type d’ordre de travail doit être configuré de la même manière que les [Modèles de travail de commande fournisseur](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 #### <a name="work-header-breaks"></a>Décompositions de l’en-tête de travail
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Modèles de travail qui ont un type d’ordre de travail de *Marchandises en transit* peut être configuré pour fractionner les en-têtes de travail. Dans la page **Modèles de travail**, suivez l’une des étapes suivantes :
 

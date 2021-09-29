@@ -2,7 +2,7 @@
 title: Vue d’ensemble spécifique à la Belgique
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité spécifique à la Belgique.
 author: ShylaThompson
-ms.date: 04/08/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: belgium
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a0ff7402ce067e29534363726ba2b0e1702510f9a9090aa49b311cc83ee1d13
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43014fa9e07f3727b54566f043728d21cfcd0f96
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781163"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486886"
 ---
 # <a name="belgium-overview"></a>Vue d’ensemble spécifique à la Belgique
 
@@ -41,7 +41,8 @@ Pour plus d’informations sur la configuration et la création de la déclarati
 |----------------------------|--------------------------|----------------------------------------|
 |État BLWI (Belgisch Luxemburgs Wissel Instituut).|**Taxe** > **Déclarations** > **Commerce extérieur** > **BLWI** | Pour paramétrer les informations BLWI, voir [Paramétrer la déclaration de la balance des paiements (Belgique)](tasks/be-00011-set-up-payment-balance-reporting.md). Pour générer l’état BLWI, voir [Création et transfert de transactions vers l’état BLWI (Belgique)](tasks/be-00011-create-transfer-blwi.md).| 
 |État PRODCOM|**Taxe** > **Déclarations** > **Commerce extérieur** > **PRODCOM**|Les fabricants de produits industriels envoient l’état PRODCOM au Nationaal Instituut voor de Statistiek (NIS), en réponse à l’enquête PRODCOM régulièrement mise en place. L’état PRODCOM affiche les statistiques de production pour les produits industriels fabriqués par des sociétés de production implantées en Belgique. Cet état est généralement utilisé par les chefs comptables et les comptables. Pour plus d’informations, voir [Paramétrer et mettre à jour PRODCOM](emea-bel-prodcom-report.md). |
-|États sur les journaux|**Comptabilité** > **Recherches et états** > **États sur les journaux**|Périodiquement, les entreprises belges doivent imprimer un état pour chaque journal. Cet état fournit une liste chronologique de toutes les écritures dans les comptes de la comptabilité pour chaque journal. Ces rapports prouvent l'intégrité de la comptabilité et sont utilisés lors des audits financiers pour rapprocher le règlement de la TVA avec les écritures sur les comptes correspondants de la comptabilité. Pour plus d'informations, voir [États des journaux (Journaux de validation)](emea-bel-journal-reports.md). |
+|États sur les journaux|**Comptabilité** > **Recherches et états** > **États sur les journaux**|Périodiquement, les entreprises belges doivent imprimer un état pour chaque journal. Cet état fournit une liste chronologique de toutes les écritures dans les comptes de la comptabilité pour chaque journal. Ces rapports prouvent l’intégrité de la comptabilité et sont utilisés lors des audits financiers pour rapprocher le règlement de la TVA avec les écritures sur les comptes correspondants de la comptabilité. Pour plus d’informations, voir [États des journaux (Journaux de validation)](emea-bel-journal-reports.md). |
+|Liste annuelle de TVA des ventes intérieures| **Taxe** > **Recherche et états** > **États de taxe** > **État du chiffre d’affaires des factures – Belgique** | L’état du chiffre d’affaires des factures est envoyé aux autorités une fois par an. Il est utilisé pour déclarer le chiffre d’affaires des clients belges assujettis à la TVA, si ce chiffre d’affaires dépasse un certain montant. L’état comprend les factures des transactions des clients pour lesquelles les clients ont un numéro d’entreprise formaté conformément aux directives des autorités belges. Pour plus d’informations, voir [Liste annuelle de TVA des ventes intérieures](emea-bel-annual-vat-listing-of-domestic-sales.md). |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

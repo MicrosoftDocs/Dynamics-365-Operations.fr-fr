@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441163"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488081"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -32,22 +32,24 @@ Cette rubrique explique le processus de mise en service d’un nouvel environnem
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de commencer la mise en service d'un nouvel environnement de production, les conditions préalables suivantes doivent être en place :
+Avant de commencer la mise en service d’un nouvel environnement de production, les conditions préalables suivantes doivent être en place :
 
 - Vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). Si vous disposez d’une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Human Resources et que vous ne pouvez pas effectuer les étapes décrites dans cette rubrique, contactez le support technique.
 
-- L’administrateur global s'est connecté à [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) et a créé un projet Human Resources. 
+- L’administrateur global s’est connecté à [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) et a créé un projet Human Resources. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
 
 Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
 
+Les environnements d’essai offrent la possibilité d’évaluer la fonctionnalité des ressources humaines pour les personnes qui n’ont pas encore accès à un environnement de ressources humaines. Si vous fournissez un environnement d’essai et que l’utilisateur authentifié a déjà accès à un ou plusieurs environnements de ressources humaines existants, l’utilisateur est redirigé vers l’environnement existant ou la liste d’environnements.
+
 Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 60 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
 
-Lors de la création d'un environnement d'essai Human Resources, un environnement d'essai Power Apps est également créé sur le locataire et est lié à l'environnement Human Resources. L'environnement Power Apps, nommé « TestDrive », a la même période d'essai que l'environnement Human Resources.
+Lors de la création d’un environnement d’essai Human Resources, un environnement d’essai Power Apps est également créé sur le locataire et est lié à l’environnement Human Resources. L’environnement Power Apps, nommé « TestDrive », a la même période d’essai que l’environnement Human Resources.
 
 > [!NOTE]
-> L'approvisionnement d'un environnement d'essai Human Resources échouera si l'utilisateur authentifié n'a pas l'autorisation de créer d'environnement d'essai Power Apps. L'utilisateur doit être inclus dans le groupe d'utilisateurs qui peut créer des environnements d'essai dans le centre d'administration de Power Platform. Pour plus d'informations, consultez [Contrôler qui peut créer et gérer des environnements dans le centre d'administration de Power Platform](//power-platform/admin/control-environment-creation).
+> L’approvisionnement d’un environnement d’essai Human Resources échouera si l’utilisateur authentifié n’a pas l’autorisation de créer d’environnement d’essai Power Apps. L’utilisateur doit être inclus dans le groupe d’utilisateurs qui peut créer des environnements d’essai dans le centre d’administration de Power Platform. Pour plus d’informations, consultez [Contrôler qui peut créer et gérer des environnements dans le centre d’administration de Power Platform](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planifier les environnements Human Resources
 
@@ -74,7 +76,7 @@ Pour utiliser LCS pour gérer vos environnements Human Resources, vous devez d�
 1. Connectez-vous à [LCS](https://lcs.dynamics.com/Logon/Index) à l’aide du compte utilisé pour vous abonner à Human Resources.
 
    > [!NOTE]
-   > Pour garantir un provisionnement réussi, le compte que vous utilisez pour provisionner l’environnement Human Resources doit être affecté au rôle **Administrateur système** ou au rôle **Personnalisateur système** dans l’environnement Power Apps associé à l’environnement Human Resources. Pour plus d'informations sur l'affectation de rôles de sécurité aux utilisateurs dans Power Platform, voir [Configurer la sécurité utilisateur sur les ressources](/power-platform/admin/database-security).
+   > Pour garantir un provisionnement réussi, le compte que vous utilisez pour provisionner l’environnement Human Resources doit être affecté au rôle **Administrateur système** ou au rôle **Personnalisateur système** dans l’environnement Power Apps associé à l’environnement Human Resources. Pour plus d’informations sur l’affectation de rôles de sécurité aux utilisateurs dans Power Platform, voir [Configurer la sécurité utilisateur sur les ressources](/power-platform/admin/database-security).
 
 2. Sélectionnez le signe plus (**+**) pour créer un projet.
 
@@ -135,7 +137,12 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
    
     - **Zones géographiques non prises en charge** – L’environnement doit être dans une zone géographique prise en charge. Pour plus d’informations, consultez [Zones géographiques prises en charge](hr-admin-setup-provision.md#supported-geographies).
 
-6. Après avoir déterminé l’environnement à utiliser, vous pouvez poursuivre le processus d’approvisionnement. 
+6. Les capacités de double écriture pour l’intégration des données de Ressources humaines avec l’environnement Power Apps ne peuvent être utilisées que si l’option **Activer les applications Dynamics 365** est sélectionnée pour l’environnement. Voir [Page d’accueil de la double écriture](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) pour en savoir plus sur la double écriture.
+
+    > [!NOTE]
+    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. Pour plus d’informations, voir [Quelques considérations importantes lors de la création d’un nouvel environnement](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.
+
+7. Après avoir déterminé l’environnement à utiliser, vous pouvez poursuivre le processus d’approvisionnement. 
 
 ### <a name="supported-geographies"></a>Zones géographiques prises en charge
 

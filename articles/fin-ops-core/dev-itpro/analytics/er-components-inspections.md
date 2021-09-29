@@ -2,7 +2,7 @@
 title: Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 description: Cette rubrique explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718621"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488112"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 
@@ -229,6 +229,12 @@ Le tableau suivant offre une vue d’ensemble des inspections fournies par ER. P
 <p>Les en-têtes/pieds de page (&lt;type de composant : en-tête ou pied de page&gt;) sont incohérents</p>
 <p><b>Runtime :</b> Le dernier composant configuré est utilisé lors du runtime si la version provisoire du format ER configuré est exécutée.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Paramètre incohérent du composant Page</a></td>
+<td>Intégrité des données</td>
+<td>Erreur</td>
+<td>Il existe plus de deux composants de plage sans réplication. Veuillez supprimer les composants inutiles.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Modifiez le format configuré en supprimant l’un des composants **Excel\\En-t�
 #### <a name="option-2"></a>Option 2
 
 Modifiez la valeur de la propriété **Apparence en-tête/pied de page** pour l’un des composants **Excel\\En-tête** ou **Excel\\Pied de page** incohérents.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Paramètre incohérent du composant Page
+
+Lorsque vous [configurez](er-fillable-excel.md) un composant au format ER pour utiliser un modèle Excel pour générer un document sortant, vous pouvez ajouter le composant **Excel\\Page** pour paginer un document généré à l’aide de formules ER. Pour chaque composant **Excel\\Page** que vous ajoutez, vous pouvez ajouter de nombreux composants [Plage](er-fillable-excel.md#range-component) tout en restant conforme à la [structure](er-fillable-excel.md#page-component-structure) suivante :
+
+- Le premier composant **Plage** imbriqué peut être configuré de sorte que la propriété **Direction de réplication** est définie sur **Pas de réplication**. Cette plage est utilisée pour créer des en-têtes de page dans les documents générés.
+- Vous pouvez ajouter de nombreux autres composants **Plage** imbriqués où la propriété **Direction de réplication** est définie sur **Verticale**. Ces plages sont utilisées pour remplir les documents générés.
+- Le dernier composant **Plage** imbriqué peut être configuré de sorte que la propriété **Direction de réplication** est définie sur **Pas de réplication**. Cette plage permet de créer des pieds de page dans les documents générés et d’ajouter les sauts de page requis.
+
+Si vous ne suivez pas cette structure pour un format ER dans le concepteur de format ER au moment du design, une erreur de validation se produit et vous recevez le message d’erreur suivant : « Il existe plus de deux composants de plage sans réplication. Veuillez supprimer les composants inutiles. »
+
+### <a name="automatic-resolution"></a>Résolution automatique
+
+Aucune option pour résoudre automatiquement ce problème n’est disponible.
+
+### <a name="manual-resolution"></a>Résolution manuelle
+
+#### <a name="option-1"></a>Option 1
+
+Modifiez le format configuré en changeant la propriété **Direction de réplication** pour tous les composants **Excel\\Plage** incompatibles.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
