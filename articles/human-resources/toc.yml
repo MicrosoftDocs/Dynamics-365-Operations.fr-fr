@@ -5,6 +5,8 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "20\_septembre\_2021"
+          href: hr-whats-new-2021-09-20.md
         - name: "6\_septembre\_2021"
           href: hr-whats-new-2021-09-06.md
         - name: "23\_août\_2021"
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Réinitialiser les traitements par lots bloqués
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Réinitialiser la synchronisation de Dataverse
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Les états analytiques ne sont pas mis à jour
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Impossible de créer un environnement dans le centre d’administration de Power Apps
@@ -485,6 +489,12 @@
               items:
                 - name: Régime des avantages sociaux pour les collaborateurs de la paie
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Autres entités
+              items:
+                - name: Historique du nom de la personne
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Taux de conversion
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Jeux d’options
               items:
                 - name: Sexe
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurer le carnet d’adresses global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configuration de l’adresse
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: FAQ sur les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurer les carnets d’adresses
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: Génération d’états ACA
                   href: hr-benefits-management-aca-reports.md
+                - name: Relevé des avantages
+                  href: hr-benefits-statement.md
             - name: Définir et gérer un programme d’avantages
               href: hr-benefits-manage-program.md
             - name: Stratégies de droit aux avantages

@@ -1398,12 +1398,16 @@
               items:
                 - name: Localisation de Commerce pour la Russie
                   href: localizations/rus-commerce-localization.md
-                - name: Format d’adresse client simplifié dans les PDV Commerce pour la Russie
-                  href: localizations/rus-simplified-address.md
                 - name: Configurer la localisation de Commerce pour la Russie
                   href: localizations/rus-commerce-setup.md
                 - name: Acomptes dans Commerce pour la Russie
                   href: localizations/rus-commerce-prepayments.md
+                - name: Format d’adresse client simplifié dans les PDV Commerce pour la Russie
+                  href: localizations/rus-simplified-address.md
+                - name: Exemple d’intégration de l’imprimante fiscale pour la Russie
+                  href: localizations/rus-fpi-sample.md
+                - name: Gestion des informations clients pour la Russie
+                  href: localizations/rus-customer-information.md
             - name: Suède
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer le carnet d’adresses global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuration de l’adresse
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: FAQ sur les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les carnets d’adresses
@@ -2329,7 +2335,11 @@
         - name: Extensibilité
           items:
             - name: Développement et extensibilité du commerce
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: Commerce pour les développeurs et les professionnels de l’informatique
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Configurer un environnement de développement local
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Extensibilité des canaux en ligne
               items:
                 - name: Vue d’ensemble de l’extensibilité des canaux en ligne

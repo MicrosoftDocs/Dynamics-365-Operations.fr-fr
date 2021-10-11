@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Gestion des contrats de redevance
               href: accounts-payable/royalty-contract.md
+            - name: Référence aux factures originales dans les notes de crédit (factures fournisseurs)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Paiements et règlements
               items:
                 - name: Paiements centralisés de la Comptabilité fournisseur
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Présentation des instantanés
                   href: finance-insights/payment-snapshots.md
+            - name: FAQ sur la résolution des problèmes liés à Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Gestion et comptabilité du projet
           items:
             - name: Vue d’ensemble de la gestion et de la comptabilité du projet
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Création de rapports pour les enregistrements de TVA multiples
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Génération d’états pour l’Autriche
+                          items:
+                            - name: Déclaration de TVA
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Génération d’états pour la France
                           items:
                             - name: Déclaration de TVA
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: État des services transfrontaliers
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: État de déclaration d’échanges de biens
+                - name: Déclaration d’échanges de biens pour l’Autriche
                   href: localizations/emea-aut-intrastat.md
                 - name: Droits de douane sur les achats
                   href: localizations/emea-aut-purchase-duties.md
+                - name: Déclaration de TVA
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahreïn
               items:
                 - name: Vue d’ensemble du Bahreïn
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Rapport trimestriel de communication TVA
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: État de liste noire
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Date de compétence et journal fiscal
                   href: localizations/emea-ita-competence-date.md
                 - name: Amortissement des immobilisations
@@ -3801,6 +3809,8 @@
           items:
             - name: Vue d’ensemble des états électroniques
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Composants des états électroniques
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Configurations
               items:
                 - name: Créer des configurations
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer le carnet d’adresses global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Configuration de l’adresse
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: FAQ sur les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les carnets d’adresses

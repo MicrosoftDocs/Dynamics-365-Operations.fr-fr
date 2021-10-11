@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.20 (août\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.19 (juin\_2021)"
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Personnaliser les mises en correspondance d’entités et de champs
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Conseils sur la personnalisation de la double écriture
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Gestion de plusieurs cartes d’entités
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Modifier une entité juridique après la configuration en double écriture

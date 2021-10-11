@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Paramètres non utilisés par l’optimisation de la planification
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Programme d’approvisionnement
+                  href: master-planning/supply-schedule.md
                 - name: Appliquer des filtres à un plan
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planification avec prévision de la demande
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Afficher le besoin prévisionnel intersociétés en sortie
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Collaborer avec les clients de la chaîne d’approvisionnement interne
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Exigences nettes et informations de rattachement avec la planification générale intégrée
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Prévisions
@@ -2037,9 +2037,13 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Espace de travail mobile d’approbation de commande fournisseur
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Création et facturation d’une commande fournisseur intersociétés pour un usage interne
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Vérifier les différences entre les prix de commande intersociétés
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Enregistrer la réception de marchandises sur la commande fournisseur
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-            - name: Création de commande fournisseur
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
+            - name: Création de commandes fournisseur
               items:
                 - name: Créer des commandes fournisseur manuellement
                   href: procurement/purchase-order-creation.md
@@ -2725,10 +2729,66 @@
               items:
                 - name: Simulation de prix
                   href: sales-marketing/price-simulation.md
-                - name: Création en masse de devis de vente
+                - name: Créer en masse des devis de vente
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Créer et modifier des devis de vente
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Commerce intersociétés
+              items:
+                - name: Paramétrage du commerce intersociétés
+                  items:
+                    - name: Paramétrage du commerce intersociétés
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Paramètres intersociétés
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Paramétrer des fournisseurs, des clients et des articles pour le commerce intersociétés'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Paramétrage des frais des commandes intersociétés
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Définition des paramètres de validation d’une commande intersociétés
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Synchroniser les informations intersociétés
+                  items:
+                    - name: Synchroniser les prix et les remises intersociétés
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Synchroniser les frais intersociétés
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Synchroniser les informations clients intersociétés
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Synchroniser les codes de disposition intersociétés
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Commandes clients et factures intersociétés
+                  items:
+                    - name: Création de commandes fournisseur et client intersociétés dans plusieurs sociétés
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Commandes et ordres de retour intersociétés
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Créer une commande client intersociétés pour un usage interne
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Création et facturation d’une commande client intersociétés pour un client externe
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Réservations intersociétés
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Modifier ou supprimer une commande client intersociétés d’origine
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Modifier les commandes intersociétés
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Numéros de lot et de série intersociétés
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Bons de livraison intersociétés
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Enregistrement automatique des paiements pour les factures client intersociétés
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Commandes fournisseurs intersociétés
+                  items:
+                    - name: Création et facturation d’une commande fournisseur intersociétés pour un usage interne
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Vérifier les différences entre les prix de commande intersociétés
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Conversions de devise intersociétés
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Calcul PDP/MRP intersociétés
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Retours
               items:
                 - name: Retours sur ventes
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Installer et configurer le module de coût au débarquement
               items:
+                - name: Activer le module de coût au débarquement pour votre système
+                  href: landed-cost/landed-cost-enable.md
                 - name: Paramètres du coût au débarquement
                   href: landed-cost/landed-cost-parameters.md
                 - name: Paramètres d’approvisionnement du coût au débarquement
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Instruction d’emplacement relatif à l’âge du prélèvement du stock
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Ancrage
+                      href: warehousing/anchoring.md
                     - name: Tri sortant
                       href: warehousing/outbound-sorting.md
                     - name: Mettre au mur – Mettre en magasin
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Prélever le lot le plus ancien sur un appareil mobile
                       href: warehousing/pick-oldest-batch.md
+                - name: Paramètres globaux des appareils mobiles
+                  href: warehousing/mobile-device-parameters.md
                 - name: Paramètres utilisateur d’appareil mobile
                   href: warehousing/mobile-device-user-settings.md
                 - name: Traitement des événements de l’application d’entrepôt
