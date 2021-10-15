@@ -1,7 +1,7 @@
 ---
 title: Finaliser le paramétrage de base d’un produit générique lancé
 description: Cette rubrique indique comment terminer la configuration minimale requise avant que le produit générique puisse être utilisé dans les versions de nomenclature.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 370afb43d314915958b6e5377028f2ade2b9609cc6e365f0499a9f7c3373f9e3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734161"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568493"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Finaliser le paramétrage de base d’un produit générique lancé
 

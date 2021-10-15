@@ -1,7 +1,7 @@
 ---
 title: Transférer des matériaux avec des tâches de kanban
 description: Cette procédure traite de l’exécution d’une tâche de kanban de prélèvement pour transférer des matériaux.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d4e6d8bbdb50394ef575e1088dd238eb39170124854edb878f6dccb6c9e07d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11771bbedc9fe4bdfaaa074c449cd329ce1a1d8f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771345"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567989"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>Transférer des matériaux avec des tâches de kanban
 

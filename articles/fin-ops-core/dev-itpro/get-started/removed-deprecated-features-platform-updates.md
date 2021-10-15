@@ -2,7 +2,7 @@
 title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500107"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595143"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -32,14 +32,26 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.21 des applications Finance and Operations
+
+### <a name="skype-for-business-online-support"></a>Assistance Skype Entreprise en ligne
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Skype Entreprise en ligne a été retiré. Pour plus d'informations, consultez [Le service Skype Entreprise en ligne a été retiré](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Remplacé par une autre fonctionnalité ?**   | Pas pour le moment, bien que nous puissions envisager d'ajouter la présence de Teams à l'avenir.|
+| **Zones de produit affectées**         | Client Web |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète. Le paramètre **Skype activé** a été désactivé à partir de la version 10.0.21. La suppression de ce paramètre est prévue pour avril 2022 ; cependant, la fonctionnalité cessera de fonctionner après la fermeture du service par l'équipe Skype. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Notification d’abandon de fonctionnalités à compter d’août 2021
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Rapports SQL Microsoft Azure dans Lifecycle Services (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** |   Toutes les activités et le suivi sont effectués en interne, par la plate-forme, grâce à l’automatisation. Cela ne nécessite aucune intervention manuelle.|
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Motif de l’abandon/de la suppression** | Toutes les activités et le suivi sont effectués en interne, par la plate-forme, grâce à l’automatisation. Cela ne nécessite aucune intervention manuelle.|
+| **Remplacé par une autre fonctionnalité ?**   | Oui, il existe maintenant un système automatisé, ce qui rend ces capacités obsolètes. |
 | **Zones de produit affectées**         | Rapports SQL : DTU actuel, Détails du DTU actuel, Obtenir les détails du verrouillage, Liste du guide du plan actuel, Obtenir la liste des ID de requête, Obtenir le plan de requête SQL pour un ID de plan donné, Obtenir les plans de requête et le statut d’exécution, Obtenir la configuration de l’accélérateur, Obtenir les statistiques d’attente, Répertorier les requêtes les plus chères |
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
 | **État**                         | Obsolète : date de suppression prévue en octobre 2021. |
@@ -48,8 +60,8 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Nous abandonnons certaines actions SQL dans LCS.  |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Motif de l’abandon/de la suppression** | Nous abandonnons certaines actions SQL dans LCS. Toutes les activités et le suivi sont effectués en interne, par la plate-forme, grâce à l’automatisation. Cela ne nécessite aucune intervention manuelle. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, il existe maintenant un système automatisé, ce qui rend ces capacités obsolètes. |
 | **Zones de produit affectées**         | Actions SQL : Créer un guide de plan pour forcer l’ID de plan, Créer un guide de plan pour ajouter des conseils de table, Supprimer un guide de plan, Désactiver/Activer les verrous de page et l’escalade de verrous, Mettre à jour les statistiques sur une table, Régénérer l’index, Créer un index |
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
 | **État**                         | Obsolète : date de suppression prévue en octobre 2021. |
@@ -158,7 +170,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | En général, le code personnalisé offre des avantages limités tout en nécessitant en même temps des ressources et des calculs importants pour être pris en charge. Le code personnalisé est principalement utilisé par les auteurs de rapports pour appeler des méthodes publiques à partir d’un assembly de code personnalisé. Cependant, le service hébergé dans le cloud ne prend pas en charge les références aux assemblys personnalisés pour les rapports SSRS. |
-| **Remplacé par une autre fonctionnalité ?**   | Les auteurs de rapports peuvent choisir de continuer à référencer les API .NET publiques pour les opérations Math, Conversion et Format à partir de n’importe quelle expression de zone de texte. Pour plus d’informations, voir la rubrique [Ajouter du code à un rapport (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Remplacé par une autre fonctionnalité ?**   | Les auteurs de rapports peuvent choisir de continuer à référencer les API .NET publiques pour les opérations Math, Conversion et Format à partir de n’importe quelle expression de zone de texte. Pour plus d’informations, voir la rubrique [Ajouter du code à un rapport (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Zones de produit affectées**         | Sous-ensemble de conceptions de rapport d’application définies dans RDL qui contiennent du code personnalisé. |
 | **Option de déploiement**              | Tous |
 | **État**                         | Avec la version 10.0.13, le compilateur commencera à émettre un avertissement pour les instances où du code personnalisé est détecté dans une définition de rapport SSRS. Pour résoudre le problème, ouvrez la définition de conception de rapport et supprimez tous les artefacts de code personnalisé. Cet avertissement sera remplacé par une erreur du compilateur dans une future mise à jour.   |

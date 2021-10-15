@@ -1,8 +1,8 @@
 ---
 title: Prévision des flux de trésorerie
 description: Cette rubrique fournit une vue d’ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d’autres modules dans le système.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779444"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547953"
 ---
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
@@ -83,7 +83,10 @@ Vous pouvez remplacer le paramètre par défaut du champ **Compte de liquidités
 
 ### <a name="budgeting"></a>Budget
 
-Les budgets créés à partir des modèles de budget peuvent être inclus dans les prévisions des flux de trésorerie. Dans l’onglet **Budgétisation** de la page **Configuration des prévisions de flux de trésorerie**, sélectionnez les modèles de budget à inclure dans la prévision. Par défaut, de nouvelles écritures de registre budgétaires sont incluses dans les prévisions après l’activation du modèle de budget pour les prévisions des flux de trésorerie. L’inclusion dans les prévisions des flux de trésorerie peut être remplacée sur des écritures de registre budgétaires.
+Les budgets créés à partir des modèles de budget peuvent être inclus dans les prévisions des flux de trésorerie. Sur la page **Configuration des prévisions de flux de trésorerie**, sous l'onglet **Budgétisation**, sélectionnez les modèles de budget à inclure dans la prévision. Par défaut, de nouvelles écritures de registre budgétaires sont incluses dans les prévisions après l’activation du modèle de budget pour les prévisions des flux de trésorerie.
+
+Les écritures du registre budgétaire peuvent être incluses dans les prévisions de trésorerie sur une base individuelle grâce à la personnalisation. Lorsque vous ajoutez la colonne "Inclure dans les prévisions de flux de trésorerie" à la page **Saisie du registre budgétaire**, le système écrasera les paramètres de la page **Paramétrage des prévisions de trésorerie** pour inclure une entrée de registre budgétaire individuelle dans la prévision.
+
 
 ### <a name="inventory-management"></a>Gestion des stocks
 
@@ -144,7 +147,7 @@ L’espace de travail **Aperçu de la trésorerie – toutes les sociétés** af
 
 L’espace de travail **Vue d’ensemble des disponibilités – société actuelle** affiche les analyses de prévisions des flux de trésorerie dans la devise comptable définie pour la société. La devise comptable utilisée pour les analyses est définie sur la page **Comptabilité**. Cet espace de travail affiche une vue d’ensemble des prévisions des flux de trésorerie et les soldes du compte bancaire pour la société actuelle. Un graphique des encaissements et décaissements fournit une vue d’ensemble des futurs mouvements et soldes de disponibilités dans la devise comptable, ainsi que des informations détaillées sur les transactions de prévision. Vous pouvez également afficher les soldes de devise prévus.
 
-Pour plus d’informations sur les analyses de prévisions des flux de trésorerie, voir la rubrique [Contenu Power BI Vue d’ensemble des disponibilités](./cash-overview-power-bi-content.md).
+Pour plus d’informations sur les analyses de prévisions des flux de trésorerie, voir [Contenu Power BI Vue d’ensemble des disponibilités](Cash-Overview-Power-BI-content.md).
 
 En outre, vous pouvez afficher des données de prévision des flux de trésorerie pour des comptes et des articles spécifiques dans les pages suivantes :
 

@@ -2,7 +2,7 @@
 title: Personnaliser l’expérience de l’utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l’application.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344372"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581063"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -119,7 +119,8 @@ Les outils suivants sont disponibles dans la barre d’outils **Personnalisation
 
 - Utilisez l’outil **Sélectionner** pour sélectionner et modifier les propriétés d’un élément. Pour utiliser cet outil, sélectionnez le bouton **Sélectionner** dans la barre d’outils, puis sélectionnez l’élément souhaité. La fenêtre des propriétés de l’élément s’affiche où vous pouvez modifier les propriétés de cet élément. Vous pouvez répéter le processus pour d’autres éléments qui peuvent être personnalisés sur la page. Notez que certaines propriétés de personnalisation ne soient pas disponibles dans certains scénarios. Par exemple, vous ne pouvez pas verrouiller un champ obligatoire.
 - Utilisez l’outil **Masquer** pour masquer un élément sur la page. Pour utiliser cet outil, sélectionnez le bouton **Masquer** dans la barre d’outils, puis sélectionnez l’élément à masquer. Lorsque vous utilisez l’outil **Masquer**, tous les éléments actuellement masqués sont rendus visibles mais ils sont affichés dans un conteneur grisé. Vous pouvez ensuite rendre un élément visible en le sélectionnant. Pour afficher l’aspect de la page lorsque les éléments sont masqués, basculez vers un autre outil de personnalisation ou fermez la barre d’outils de personnalisation.
-- Utilisez l’outil **Ajouter des champs** pour ajouter des champs à la page. Si vous utilisez cet outil, vous pouvez ajouter uniquement les champs qui font partie de la définition de page. Pour plus d’informations sur la création de champs qui ne font pas partie de la définition de page actuelle, voir [Créer et utiliser les champs personnalisés](user-defined-fields.md). Après avoir sélectionné l’outil **Ajouter des champs** sur la barre d’outils, vous devez d’abord sélectionner la grille ou la section où vous souhaitez ajouter un champ. Une boîte de dialogue affiche la liste des champs associés à la grille ou à la section sélectionnée. Dans la boîte de dialogue, sélectionnez un ou plusieurs champs à ajouter, puis sélectionnez **Mettre à jour**. Pour supprimer un champ que vous avez précédemment ajouté, répétez le processus, mais effacez la sélection du champ dans la boîte de dialogue.
+- Utilisez l’outil **Ajouter des champs** pour ajouter des champs à la page. Si vous utilisez cet outil, vous pouvez ajouter uniquement les champs qui font partie de la définition de page. Pour plus d’informations sur la création de champs qui ne font pas partie de la définition de page actuelle, voir [Créer et utiliser les champs personnalisés](user-defined-fields.md). Après avoir sélectionné l’outil **Ajouter des champs** sur la barre d’outils, vous devez d’abord sélectionner la grille ou la section où vous souhaitez ajouter un champ. Une boîte de dialogue affiche la liste des champs associés à la grille ou à la section sélectionnée. Dans la boîte de dialogue, sélectionnez un ou plusieurs champs à ajouter à partir de la liste **Champs recommandés** ou **Tous les champs**. Après avoir choisi les champs souhaités, sélectionnez **Mettre à jour**. Pour supprimer un champ que vous avez précédemment ajouté, répétez le processus, mais effacez la sélection du champ dans la boîte de dialogue.
+    - La liste **Champs recommandés** affiche les champs qui ont été précédemment ajoutés par d'autres utilisateurs de votre organisation. Cette liste de champs est mise à jour en fonction de la fréquence de récurrence du **Traitement par lot de recommandation**. Une expérience similaire existe lors de l'ajout de nouveaux champs de filtre à l'aide du volet Filtre sur une page.
 - Utilisez l’outil **Déplacer** pour déplacer un élément vers un autre emplacement dans le groupe actuel d’éléments. Notez que vous ne pouvez pas déplacer un élément en dehors de son groupe parent. Pour utiliser cet outil, sélectionnez le bouton **Déplacer** dans la barre d’outils, puis sélectionnez l’élément à déplacer. Lorsque vous sélectionnez un élément, l’application détermine les emplacements où l’élément est autorisé à être déplacé. Ces emplacements sont appelés des *zones de déplacement*. Lorsque vous faites glisser l’élément dans le groupe actuel, chaque zone de déplacement est indiquée par une ligne colorée et grasse en regard de la zone où l’élément peut être déplacé.
 - Utilisez l’outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez le bouton **Ignorer** sur la barre d’outils, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez supprimer ou ajouter de manière interactive des champs à la séquence de l’onglet.
 - Utilisez l’outil **Afficher dans l’en-tête** pour faire apparaître un champ dans la section récapitulative de l’organisateur. Lorsque vous sélectionnez l’outil **Afficher dans l’en-tête** sur la barre d’outils, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l’organisateur et supprimer des champs du récapitulatif en sélectionnant les champs.

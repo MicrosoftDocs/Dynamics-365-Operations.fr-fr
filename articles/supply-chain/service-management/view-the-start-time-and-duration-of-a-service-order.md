@@ -1,7 +1,7 @@
 ---
 title: Afficher l’heure de début et la durée d’une commande de service
 description: Vous pouvez afficher la date de début du travail sur la commande de service et sa date de fin.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43c866239f34ed97938eb183ad50ee411d5dbf8e8b893493dfbdaaf77c58ff4f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dd3fe5847d795dafed453294ccc1058955127450
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715640"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567749"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>Affichage de l’heure de début et de la durée d’une commande de service 
 

@@ -2,7 +2,7 @@
 title: Paramétrer des codes taxe
 description: Cette rubrique explique comment paramétrer des codes taxe dans Dynamics 365 Finance.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719196"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562100"
 ---
 # <a name="set-up-sales-tax-codes"></a>Paramétrer des codes taxe
 
@@ -38,11 +38,19 @@ La société fictive USMF est citée en exemple dans cette tâche.
 8. Dans le **Volet Actions** en haut de l’interface, sélectionnez **Code taxe**.
 9. Sélectionnez **Valeurs**.
 10. Entrez la valeur pour ce code taxe dans la colonne **valeur**.
-    - Dans le raccourci **Calcul**, dans le champ Origine, si Montant par unité est sélectionné, la valeur sera multipliée par la quantité de la transaction pour calculer le montant de la taxe.  Si le code taxe n’est pas une taxe basée sur des unités, la valeur est un pourcentage appliqué sur le code d’origine pour cette taxe pour calculer le montant de la taxe.     
+
+    Dans le raccourci **Calcul**, dans le champ **Origine**, si **Montant par unité** est sélectionné, la valeur sera multipliée par la quantité de la transaction pour calculer le montant de la taxe.  Si le code taxe n’est pas une taxe basée sur des unités, la valeur est un pourcentage appliqué sur le code d’origine pour cette taxe pour calculer le montant de la taxe.     
+
 11. Sélectionnez **Enregistrer**.
 12. Fermez la page.
 13. Sélectionnez **Enregistrer**.
 
+Depuis Microsoft Dynamics 365 Finance version 10.0.22, si vous utilisez le [Service fiscal](../../localizations/global-tax-calcuation-service-overview.md), et que la fonction [**Prise en charge de plusieurs numéros d'immatriculation à la TVA**](../../localizations/emea-multiple-vat-registration-numbers.md) est activée dans l'espace de travail **Gestion des fonctionnalités**, vous pouvez utiliser le champ **Type de taxe** pour spécifier le type de code TVA. Les valeurs disponibles sont les suivantes :
 
+- TVA standard
+- TVA réduite
+- 0 % de TVA
+- Accise
+- Autre
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

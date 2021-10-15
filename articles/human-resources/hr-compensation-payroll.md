@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483780"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559605"
 ---
 # <a name="ready-to-pay"></a>Prêt à payer
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Si vous souhaitez marquer un employé comme prêt à payer, vous devez d’abord activer la fonctionnalité **(Version préliminaire) Intégration de la paie** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités en version préliminaire, consultez [Gérer les fonctionnalités](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Si l’une de ces validations échoue, vous ne pouvez pas marquer l’employé c
 
 Si le champ **Prêt pour le paiement** est sur **Non**, cela indique que vous devez effectuer une action pour vous assurer que le profil du collaborateur est complet. Cela n’empêchera pas les données d’être exposées dans une entité de données. 
 
-## <a name="known-issues"></a>Problèmes connus
+## <a name="process-automation"></a>Automatisation des processus
 
-- Vous devez désactiver la fonctionnalité **Entrée d’employé simplifiée** dans la gestion des fonctionnalités. Les vignettes de l’espace de travail de gestion de la rémunération ne fonctionneront pas correctement si vous utilisez cette fonctionnalité.
-- Sur la page **Collaborateur**, l’onglet **Paie**, le groupe **Prêt pour le paiement** est disponible pour n’importe quel rôle d’utilisateur. 
+Vous pouvez automatiser la validation de tous les employés en utilisant [Automatisation des processus](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Dans l'espace de travail **Gestion de la rémunération**, accédez à **Liens** \> **Paramètres** \> **Automatisations de processus**.
 
 ## <a name="see-also"></a>Voir également :
 

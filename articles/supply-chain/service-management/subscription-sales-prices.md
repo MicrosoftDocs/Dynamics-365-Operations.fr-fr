@@ -1,7 +1,7 @@
 ---
 title: Prix de vente des abonnements
 description: Lors de la création d’un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l’écran Prix de vente (abonnement).
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59e9084c1b1a2d27ac7a813dd412ebf49011252a199742b31af7c3c328c5ffd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712932"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569983"
 ---
-# <a name="subscription-sales-prices"></a>Prix de vente des abonnements   
+# <a name="subscription-sales-prices"></a>Prix de vente des abonnements
 
 [!include [banner](../includes/banner.md)]
-
 
 Lors de la création d’un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l’écran **Prix de vente (abonnement)**.
 
@@ -33,14 +32,14 @@ L’écran **Prix de vente (abonnement)** permet de créer des prix de vente pou
 
 Si le code période et la devise de l’abonnement et du prix de vente sont identiques, les prix de vente d’abonnement sont sélectionnés en fonction des priorités indiquées dans le tableau suivant. Une cellule vide dans le tableau indique un champ sans valeur et un X indique une valeur égale à celle de l’abonnement à partir duquel la transaction est générée.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,7 +119,6 @@ Si le code période et la devise de l’abonnement et du prix de vente sont iden
 </tbody>
 </table>
 
-
 Lors de la création de frais d’abonnement, le prix de vente le plus détaillé, voir le tableau ci-dessus, est sélectionné comme prix de vente de l’abonnement.
 
 ## <a name="update-and-index-subscription-sales-prices"></a>Mise à jour et indexation des prix de vente des abonnements
@@ -135,15 +133,15 @@ Lors de la création de frais d’abonnement, le prix de vente est calculé à p
 
 Vous souhaitez paramétrer des prix de vente de 500 EUR pour un nouveau projet 9030. Dans l’écran **Prix de vente (abonnement)**, créez une ligne de prix de vente d’abonnement comme indiqué dans le tableau suivant :
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -174,14 +172,14 @@ Notez que les champs **Catégorie** et **Abonnement** sont vides.
 
 Vous pouvez ensuite créer les abonnements suivants.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -226,14 +224,14 @@ Des frais d’abonnement avec un prix de vente de 500 EUR sont créés pour les
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -274,15 +272,15 @@ Des frais d’abonnement avec un prix de vente de 500 EUR sont créés pour les
 
 Plus tard, vous souhaitez spécifier des prix de vente pour la catégorie SousCat1 du projet 9030. Vous créez donc une ligne de prix de vente avec un prix de vente de 550 EUR pour la combinaison du projet 9030 et de la sous-catégorie SousCat1. Il existe désormais deux lignes de prix de vente d’abonnement pour le projet 9030, comme indiqué dans le tableau suivant.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,19 +315,18 @@ Plus tard, vous souhaitez spécifier des prix de vente pour la catégorie SousCa
 </tbody>
 </table>
 
-
 Répétez la procédure ci-dessus pour créer des frais d’abonnement pour les deux abonnements du groupe d’abonnements Sous1. Le tableau suivant indique les transactions qui sont créées pour chaque abonnement lié au groupe d’abonnements.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -367,16 +364,10 @@ Répétez la procédure ci-dessus pour créer des frais d’abonnement pour les 
 </tbody>
 </table>
 
-
 Pour la première transaction d’abonnement 00020\_135, le prix de vente de 550 EUR est calculé à partir du paramétrage du prix de vente d’abonnement défini pour la combinaison du projet et de la catégorie spécifiques. Pour la deuxième transaction d’abonnement 00021\_135, le prix de vente de 500 EUR est utilisé comme prix de vente d’abonnement du projet car aucun prix n’est défini pour la combinaison du projet 9030 et de la catégorie SousCat2.
 
 ## <a name="see-also"></a>Voir également :
 
 [Mise à jour et indexation des prix de vente des abonnements](update-and-index-subscription-sales-prices.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

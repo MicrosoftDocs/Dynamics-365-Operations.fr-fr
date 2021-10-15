@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386739"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559557"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 
@@ -36,6 +36,18 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.21
 
 [!include [banner](../includes/preview-banner.md)]
+
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Configuration de la gestion des remises qui se chevauchent dans les paramètres Commerce
+
+Le paramètre **Gestion des remises qui se chevauchent** sur la page **Paramètres commerciaux** est obsolète dans la version Commerce version 10.0.21. À l'avenir, le moteur de tarification Commerce utilisera un seul algorithme pour déterminer la combinaison optimale de remises qui se chevauchent.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l'option **Meilleure performance**. Par conséquent, il s'agit essentiellement d'une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles lors du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l'ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettre à jour la logique interne du moteur de tarification Commerce afin qu'il utilise désormais uniquement l'algorithme avancé (c'est-à-dire l'algorithme à l'origine de l'option **Meilleure performance**).</p> |
+| **Remplacé par une autre fonctionnalité ?**   | Non. Nous recommandons aux organisations qui utilisent le commutateur d'option **Calcul équilibré** ou **Calcul exhaustif** à l'option **Meilleure performance** avant que cette fonctionnalité ne soit supprimée. |
+| **Zones de produit affectées**         | Tarification et remises |
+| **Option de déploiement**              | Tout |
+| **État**                         | Depuis la version 10.0.21, le paramètre **Gestion des remises qui se chevauchent** sera supprimé des paramètres Commerce en octobre 2022. |
 
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK Retail distribué à l'aide de Lifecycle Services
 
@@ -101,9 +113,9 @@ Le développement d'extensions PDV à l'aide de ModernPos.sln, CloudPOs.sln, POS
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
-| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
+| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
 | **Zones de produit affectées**         | Tous les produits Dynamics 365 |
-| **Option de déploiement**              | Tous|
+| **Option de déploiement**              | Tout|
 | **État**                         | Obsolète. Internet Explorer 11 ne sera plus pris en charge après août 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.11

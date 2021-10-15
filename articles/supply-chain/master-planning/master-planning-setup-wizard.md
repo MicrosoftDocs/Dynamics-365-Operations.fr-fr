@@ -1,7 +1,7 @@
 ---
 title: Assistant Paramétrage de planification
-description: Cette rubrique décrit les différentes stratégies et les paramètres importants utilisés pour paramétrer la planification.
-author: t-benebo
+description: Cette rubrique décrit comment exécuter l'assistant de configuration de la planification principale pour configurer la planification principale.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 26dea90a208eddc39b9a92d534fbc3a5242da29f4839a7f0e427b0efb03701b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767458"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577502"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistant Paramétrage de planification
 
@@ -176,15 +176,15 @@ Dans l’Assistant, les valeurs suivantes sont entrées pour le fabricant Contos
 
     Tous les articles utilisés pour la production doivent être planifiés. Comme les articles ont des délais très différents, la planification permet d’améliorer les performances lors qu’elle utilise les groupes de couverture. Là aussi, une marge d’une semaine peut être entrée, et l’éclatement peut être effectué pour le même temps que la couverture.
 
-### <a name="example-2-contoso-retailer"></a>Exemple 2 : Distributeur Contoso
+### <a name="example-2-contoso-retailer"></a>Exemple 2 : Détaillant Contoso
 
-Le distributeur Contoso est une société de distribution dans le secteur de la mode. Elle utilise la planification pour calculer quand des commandes fournisseur doivent être placées, selon ses ventes prévues. Voici certaines de ses caractéristiques :
+Le détaillant Contoso est une société de distribution dans le secteur de la mode. Elle utilise la planification pour calculer quand des commandes fournisseur doivent être placées, selon ses ventes prévues. Voici certaines de ses caractéristiques :
 
-- Le distributeur Contoso utilise une prévision de la demande pour prévoir ses ventes. Les commandes fournisseur sont organisées selon la prévision.
+- Le détaillant Contoso utilise une prévision de la demande pour prévoir ses ventes. Les commandes fournisseur sont organisées selon la prévision.
 - Les magasins utilisent des demandes de réassort.
 - Le délai entre l’entrepôt principal et chaque magasin est d’environ deux semaines pour tous les articles.
 
-Dans l’Assistant, les valeurs suivantes sont entrées pour le distributeur Contoso :
+Dans l’Assistant, les valeurs suivantes sont entrées pour le détaillant Contoso :
 
 - **Prévision de la demande :**
 
@@ -198,7 +198,7 @@ Dans l’Assistant, les valeurs suivantes sont entrées pour le distributeur Con
     - **Question :** « Souhaitez-vous que la planification confirme automatiquement les ordres prévisionnels en documents de commande, par exemple en ordres de production ou en commandes fournisseur ? »
     - **Réponse :** « Oui, comme défini dans ce plan général. » **1 jour** est entré.
 
-    Comme le distributeur Contoso va créer des commandes fournisseur directement à partir des commandes fournisseur prévisionnelles, il est utile que les commandes fournisseur prévisionnelles soient automatiquement confirmées. Étant donné que la société exécute la planification chaque jour, une plage de gestion de confirmation d’un jour confirme automatiquement toutes les commandes requises pour le lendemain.
+    Comme le détaillant Contoso va crée des commandes fournisseur directement à partir des commandes fournisseur prévisionnelles, il est utile que les commandes fournisseur prévisionnelles soient automatiquement confirmées. Étant donné que la société exécute la planification chaque jour, une plage de gestion de confirmation d’un jour confirme automatiquement toutes les commandes requises pour le lendemain.
 
 - **Demandes approuvées :**
 

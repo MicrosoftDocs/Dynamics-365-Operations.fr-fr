@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465075"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562124"
 ---
 # <a name="get-started-with-tax-calculation"></a>Mise en route du calcul de la taxe
 
@@ -100,7 +100,7 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     | 10.0.18         | Configuration de taxe - Europe 30.12.82     |
     | 10.0.19         | Configuration du calcul des taxes 36.38.193 |
     | 10.0.20         | Configuration du calcul des taxes 40.43.208 |
-    | 10.0.21         | Configuration du calcul des taxes 40.46.212 |
+    | 10.0.21         | Configuration du calcul des taxes 40.48.215 |
 
 9. Dans l’espace de travail **Fonctionnalités de globalisation**, sélectionnez **Fonctionnalités**, sélectionnez la vignette **Calcul des taxes**, puis sélectionnez **Ajouter**.
 10. Sélectionnez l’une des fonctionnalités suivantes :
