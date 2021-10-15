@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386336"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594829"
 ---
 # <a name="model-management-lifecycle"></a>Modéliser le cycle de vie de gestion
 
@@ -32,4 +32,4 @@ Nous vous recommandons de former le modèle d’IA dans un environnement sandbox
 
 Étant donné que le modèle d’IA est basé sur la facture disponible et les données client, il est important que l’environnement sandbox dispose d’une copie récente des données de production. Vous pouvez commencer à entraîner votre modèle en suivant les étapes de [Utiliser les prédictions de paiement du client](use-customer-payment-predictions.md). Une fois le modèle recyclé, évaluez les résultats comme décrit dans [Évaluer le modèle de prédiction de paiement initial du client](evaluate-payment-prediction.md). Utilisez les informations dans [Améliorer le modèle de prédiction](improve-model.md) pour expérimenter des combinaisons de fonctionnalités et de filtres qui peuvent aider à améliorer le modèle.
 
-Lorsque vous êtes satisfait des résultats de l’entraînement, suivez les étapes de [Distribuer votre modèle d’IA](https://docs.microsoft.com/ai-builder/distribute-model) pour faire passer le modèle dans votre environnement de production.
+Lorsque vous êtes satisfait des résultats de l’entraînement, suivez les étapes de [Distribuer votre modèle d’IA](/ai-builder/distribute-model) pour faire passer le modèle dans votre environnement de production.

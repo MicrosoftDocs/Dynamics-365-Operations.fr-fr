@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767949"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592626"
 ---
 # <a name="confirm-and-transfer"></a>Confirmer et transférer
 
@@ -45,8 +45,8 @@ Vous ne pouvez fractionner que les chargements qui répondent à l’ensemble de
 
 - Une ou plusieurs lignes de chargement ont prélevé des quantités.
 - Le statut de chargement est inférieur à Chargé.
-- Il n’existe aucune donnée de ligne de chargement. (Ces données sont créées par consolidation du contenant dans l’emplacement intermédiaire et la fonctionnalité *Confirmer et transférer* ne prend pas en charge la consolidation du contenant.)
-- Aucun stock n’est actuellement en attente de conditionnement dans un emplacement de conditionnement. (La fonctionnalité *Confirmer et transférer* ne prend pas en charge le stock qui a été prélevé au poste de conditionnement mais qui n’a pas encore été conditionné.)
+- Il n’existe aucune donnée de ligne de chargement. (Ces données sont créées par consolidation du contenant dans l’emplacement intermédiaire et la fonctionnalité Confirmer et transférer ne prend pas en charge la consolidation du contenant.)
+- Aucun stock n’est actuellement en attente de conditionnement dans un emplacement de conditionnement. (La fonctionnalité *Confirmer et transférer* ne prend pas en charge l'inventaire qui a été prélevé dans la station d'emballage mais qui n'a pas encore été emballé, à moins que les conteneurs emballés ne soient placés à des emplacements intermédiaires avec le travail de chargement créé.)
 
 > [!NOTE]
 > Cette fonctionnalité diffère de la fonctionnalité de chargement du transport, qui devrait être utilisée dans les entrepôts qui ne peuvent jamais planifier et créer de chargements avant le prélèvement, mais qui chargent à la place l’espace de transport disponible une fois le prélèvement terminé.

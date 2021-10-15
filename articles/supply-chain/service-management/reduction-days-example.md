@@ -1,7 +1,7 @@
 ---
 title: Exemple de jours de réduction
 description: Exemple de jours de réduction.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,30 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727796"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567941"
 ---
-# <a name="reduction-days-example"></a>Exemple de jours de réduction 
+# <a name="reduction-days-example"></a>Exemple de jours de réduction
 
 [!include [banner](../includes/banner.md)]
-
 
 Vous avez créé une transaction d’abonnement pour un abonnement de maintenance d’un client, comme décrit dans le tableau suivant.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,21 +65,20 @@ Vous avez créé une transaction d’abonnement pour un abonnement de maintenanc
 </tbody>
 </table>
 
-
 Le client signale qu’il n’a pas besoin d’une couverture de service pendant deux jours (10 et 11 mars). Vous acceptez de réduire l’abonnement pour ces deux jours.
 
 Vous créez une nouvelle transaction de type **Jours de réduction**, telle que décrite dans le tableau suivant.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,16 +106,10 @@ Vous créez une nouvelle transaction de type **Jours de réduction**, telle que 
 </tbody>
 </table>
 
-
 Lorsque les transactions pour mars 2011 sont facturées, le prix de vente de 200 EUR est réduit de 12,90 EUR. Le montant facturable pour la transaction d’abonnement est donc de 187,10 EUR et deux transactions sont facturées pour un total de 187,10 EUR.
 
 ## <a name="see-also"></a>Voir également :
 
 [Réduction des jours sur les frais d’abonnement](reduce-the-days-on-subscription-fees.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

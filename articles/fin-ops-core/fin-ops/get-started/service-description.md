@@ -2,19 +2,19 @@
 title: Description du service pour les applications Finance and Operations
 description: Cette rubrique fournit la description du service pour les applications Finance and Operations.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472503"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581814"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications Finance and Operations
 
@@ -28,7 +28,7 @@ Les applications Finance and Operations sont des offres SaaS (software as a serv
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Combinées avec les outils [Business Intelligence](/power-bi/fundamentals/power-bi-service-overview), d’[infrastructure](https://azure.microsoft.com/global-infrastructure/), de [calcul](/azure/service-fabric/service-fabric-overview) et les [services de base de données](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview), ces applications permettent aux organisations d’exécuter des processus métiers opérationnels et propres à l’industrie. Soutenus par leur partenaire d’implémentation, les clients déterminent la configuration de la logique d’application métier qui convient le mieux à leurs processus métier uniques. Les fonctionnalités et les processus métier peuvent être augmentés ou étendus via une des solutions suivantes ou une association d’entre elles :
+Combinées avec les outils [Business Intelligence](/power-bi/fundamentals/power-bi-service-overview), d’[infrastructure](https://azure.microsoft.com/global-infrastructure/), de [calcul](/azure/service-fabric/service-fabric-overview) et les [services de base de données](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/), ces applications permettent aux organisations d’exécuter des processus métiers opérationnels et propres à l’industrie. Soutenus par leur partenaire d’implémentation, les clients déterminent la configuration de la logique d’application métier qui convient le mieux à leurs processus métier uniques. Les fonctionnalités et les processus métier peuvent être augmentés ou étendus via une des solutions suivantes ou une association d’entre elles :
 
 - [Expérience de personnalisation](personalize-user-experience.md) intégrée
 - Outils [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)
@@ -197,17 +197,17 @@ Le tableau suivant décrit certains scénarios et activités types pour le servi
 | Provisionnez toutes les instances de production et les instances hors production. | O | |
 | Validez les instances de production déployées et les instances hors production. | | O |
 | **Mises à jour de service** | |
-| Microsoft applique les mises à jour de service aux instances hors production et de production désignées. | O | O |
-| Téléchargez la mise à jour depuis LCS, définissez, développez et testez la mise à jour, puis renvoyez le package de mise à jour du code à LCS. | | O |
-| Demandez que les mises à jour d’extension soient appliquées à l’instance de production. | | O |
+| Appliquez les mises à jour de service aux instances hors production et de production désignées. | O | |
+| Appliquez manuellement les mises à jour de service de LCS aux instances sandbox. Définissez, développez, testez la mise à jour et fournissez le package de mise à jour du code à LCS. | | O |
+| Demandez et planifiez que les mises à jour d’extension soient appliquées à l’instance de production. | | O |
 | Créez une sauvegarde du code et des données pour l’instance de production avant l’application des mises à jour. | O | |
 | En cas d’échec, restaurez l’instance de production vers la sauvegarde du code et des données. | O | |
 | **Gestion des données (sauvegarde, restauration et mise à jour)** | | |
 | Sauvegardez la base de données. | O | |
 | Déterminez la haute disponibilité et un plan de récupération d’urgence. | O | |
-| Surveillez les performances de la base de données de l’instance de production. | O | O |
-| Ajustez la base de données de l’instance de production pour les performances. | O | O |
-| Lancez la copie de la base de données de l’instance de production vers une instance hors production. | | O |
+| Surveillez les performances de la base de données de l’instance de production. | O | |
+| Ajustez la base de données de l’instance de production pour les performances. | O | |
+| Effectuez une actualisation ponctuelle de la base de données de l'instance de production sur une instance de non-production. | | O |
 | **Mise à jour des infrastructures** | | |
 | Planifiez des mises à jour régulières de l’infrastructure. | O | |
 | **Mise à l’échelle vers le haut et vers le bas (utilisateurs, stockage et instances)** | | |
@@ -215,7 +215,7 @@ Le tableau suivant décrit certains scénarios et activités types pour le servi
 | Mettez à jour les modifications d’utilisation dans l’outil d’estimation d’abonnement LCS. | | O |
 | Signalez tout problème de performance important qui affecte l’utilisation du service. | | O |
 | Gérez de manière proactive les ressources requises pour le service applicable. | O | |
-| Enquêtez et résolvez les incidents. | O | O |
+| Enquêtez et résolvez les incidents. | O | |
 | **Sécurité (accès utilisateur)** | | |
 | Fournissez un accès utilisateur au service. | | O |
 | Fournissez un accès au projet LCS pour la gestion et l’exploitation des instances qui ont été déployées via LCS. | | O |

@@ -2,7 +2,7 @@
 title: Afficher et mettre à jour les données d’entité avec Excel
 description: Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761352"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592663"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Afficher et mettre à jour les données d’entité avec Excel 
 
@@ -60,7 +60,7 @@ Le module complémentaire Excel lit automatiquement les données de l’entité 
 
 6. Cliquez sur **OK**, puis cliquez sur **Oui** pour confirmer la modification. Le complément Excel redémarre et charge les métadonnées.
 
-    Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour plus d’informations, voir « Le bouton Charger les applets s’affiche » dans la section [Dépannage](../office-integration/use-excel-add-in.md#troubleshooting) de cette rubrique.
+    Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un lien **Charger les applets**, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour plus d'informations sur la résolution de ce problème, consultez l'entrée de dépannage [Charger les applets](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane).
 
 7. Sélectionnez **Design**. Le complément Excel récupère les métadonnées d’entité.
 8. Sélectionnez **Ajouter une table**. La liste des entités apparaît. Les entités sont répertoriées dans le format « Nom – Étiquette ».
@@ -136,7 +136,7 @@ Les données qui sont lues dans le classeur à partir d’un environnement peuve
 ## <a name="troubleshooting"></a>Dépannage
 Il existe quelques problèmes pouvant être résolus en quelques pas.
 
-- **Le bouton Charger les applets s’affiche** – Si le complément Excel comporte un bouton **Charger les applets** après la connexion, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour résoudre ce problème, vérifiez que le nom d’utilisateur approprié s’affiche dans le coin supérieur droit du complément Excel. Si un nom d’utilisateur incorrect s’affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
+- **Le lien "Charger les applets" est affiché** – Pour plus d'informations sur la résolution de ce problème, consultez l'entrée de dépannage [Charger les applets](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane). 
 - **Vous recevez un message « Interdit »** – Si vous recevez un message « Interdit » alors que le complément Excel charge les métadonnées, le compte qui est connecté dans le complément Excel ne dispose pas de l’autorisation d’utilisation du service, de l’instance ou de la base de données cible. Pour résoudre ce problème, vérifiez que le nom d’utilisateur approprié s’affiche dans le coin supérieur droit du complément Excel. Si un nom d’utilisateur incorrect s’affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
 - **Une page web vide s’affiche au-dessus d’Excel** – Si une page web vide s’affiche lors du processus de connexion, le compte nécessite AD FS, mais la version d’Excel qui exécute le complément n’est pas assez récente pour charger la boîte de dialogue de connexion. Pour résoudre ce problème, mettez à jour la version d’Excel que vous utilisez. Pour mettre à jour la version d’Excel lorsque vous êtes dans une entreprise se trouvant dans un canal différé, utilisez l’[Outil de déploiement Office](/deployoffice/overview-office-deployment-tool) pour [passer du canal différé au canal actuel](/deployoffice/overview-update-channels).
 - **Vous recevez un message de dépassement du délai lorsque vous publiez des modifications de données** : si vous recevez des messages de dépassement du délai lorsque vous essayez de publier les modifications de données sur une entité, envisagez la possibilité de réduire la taille du lot de publication pour le classeur concerné. Les entités qui déclenchent de plus grandes quantités de logique lors des modifications d’enregistrement peuvent nécessiter l’envoi des mises à jour par lots plus petits pour éviter les dépassements de délai.

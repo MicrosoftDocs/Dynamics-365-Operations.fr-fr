@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429221"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559337"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Régime de rémunération fixe avec paie
 
@@ -42,7 +42,7 @@ Nom physique : mshr_payrollfixedcompensationplanentity.
 | **ID poste**</br>mshr_positionid</br>*Chaîne* | Lecture seule | ID de poste associé à l’employé et à l’inscription au régime de rémunération fixe. |
 | **Valide à partir du**</br>mshr_validfrom</br>*Décalage de date et heure* |  Lecture seule | Date à partir de laquelle les informations relatives à la rémunération fixe sont valides.  |
 | **Valide jusqu’au**</br>mshr_validto</br>*Décalage de date et heure* | Lecture seule | Date jusqu’à laquelle les informations relatives à la rémunération fixe sont valides. |
-| **Fréquence de paiement**</br>mshr_payfrequency</br>*Chaîne* | Lecture seule | La fréquence à laquelle l’employé sera payé.  |
+| **Fréquence de paiement**</br>mshr_payfrequency</br>*Chaîne* | Lecture seule | L'identifiant de la [fréquence de rémunération](hr-admin-integration-payroll-api-compensation-pay-frequency.md) pour le taux de rémunération donné. |
 | **Devise**</br>mshr_currency</br>*Chaîne* | Lecture seule | La devise définie pour le régime de rémunération fixe. |
 | **Entité Régime de rémunération fixe avec paie**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Généré par le système | Valeur GUID générée par le système pour identifier le rémunération fixe de manière unique. |
 

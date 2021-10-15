@@ -1,7 +1,7 @@
 ---
 title: Synchroniser les transferts et les ajustements de stock depuis Field Service vers Supply Chain Management
 description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ajustements de stock et les transferts depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f1fc4b65fefcc050591f721cf5271fdd79f1b648d992be988af7ac02e220850c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717889"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566381"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Synchroniser les transferts et les ajustements de stock depuis Field Service vers Supply Chain Management
 
@@ -72,12 +72,12 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Ajustement de stock (Field Service vers Supply Chain Management) : ajustement de stock
 
-[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Mappage de modèle dans l'intégration de données, ajustement d'inventaire (Field Service à Supply Chain Management) : ajustement d'inventaire.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transfert de stock (Field Service vers Supply Chain Management) : transfert de stock
 
-[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Mappage de modèle dans l'intégration de données, transfert d'inventaire (Field Service à Supply Chain Management) : transfert d'inventaire.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472223"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563059"
 ---
 # <a name="customer-management-in-stores"></a>Gestion des clients en magasin
 
@@ -45,7 +45,8 @@ Les vendeurs peuvent capturer plusieurs adresses pour un client. Le nom et le nu
 
 ## <a name="sync-customers-and-async-customers"></a>Clients synchrones et clients asynchrones
 
-> [IMPORTANT] Chaque fois que le PDV se déconnecte, le système passe automatiquement en mode de création de client asynchrone, même si le mode de création de client asynchrone est désactivé. Par conséquent, quelle que soit votre sélection entre la création de clients synchrone et asynchrone, les administrateurs de Commerce Headquarters doivent créer et planifier une tâche par lots récurrente pour la **tâche P**, la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** (anciennement nommée **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone**), et la tâche **1010** afin que tous les clients asynchrones soient convertis en clients synchrones dans Commerce Headquarters.
+> [!IMPORTANT]
+> Chaque fois que le PDV se déconnecte, le système passe automatiquement en mode de création de client asynchrone, même si le mode de création de client asynchrone est désactivé. Par conséquent, quelle que soit votre sélection entre la création de clients synchrone et asynchrone, les administrateurs de Commerce Headquarters doivent créer et planifier une tâche par lots récurrente pour la **tâche P**, la tâche **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone** (anciennement nommée **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone**), et la tâche **1010** afin que tous les clients asynchrones soient convertis en clients synchrones dans Commerce Headquarters.
 
 Dans Commerce, il existe deux modes de création de client : Synchrone (ou Sync) et Asynchrone (ou Async). Par défaut, les clients sont créés de manière synchrone. Cela signifie qu’ils sont créés dans Commerce Headquarters en temps réel. Le mode de création Client synchrone est avantageux car les nouveaux clients sont immédiatement consultables sur tous les canaux. Cependant, il présente également un inconvénient. Il génère des appels [Commerce Data Exchange : Service en temps réel](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) vers Commerce Headquarters. Les performances peuvent alors être affectées si de nombreux appels de création de clients simultanés sont effectués.
 

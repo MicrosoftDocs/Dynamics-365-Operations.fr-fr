@@ -1,7 +1,7 @@
 ---
 title: Méthodes de réapprovisionnement et modification des quantités
 description: Cette rubrique fournit des informations sur les méthodes de réapprovisionnement dans l’optimisation de la planification. Elle explique également comment la quantité de commandes multiples pour un produit affecte le résultat.
-author: crytt
+author: ChristianRytt
 ms.date: 6/1/2021
 ms.topic: article
 ms.search.form: ReqGroup, ReqItemTable, InventItemOrderSetup
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19853bdb3c469dbfea3a3a0165a9cb5f47e73122cc695de3535a58f6e65e7933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 017dabb46265769bf727056a9bf1a8c0cfdc99f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759525"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567293"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Méthodes de réapprovisionnement et modification des quantités
 
@@ -72,7 +72,7 @@ En d’autres termes, l’optimisation de la planification réapprovisionnera to
 
 Si la quantité de réapprovisionnement (la différence entre le niveau maximum et le niveau de stock prévu) n’est pas un multiple de la quantité multiple définie, l’optimisation de la planification utilisera la première valeur possible qui, avec le niveau de stock prévu, sera inférieure au niveau maximal. Si la somme est inférieure au niveau minimum, l’optimisation de la planification utilisera la première valeur qui, avec le stock prévu, sera supérieure au niveau maximum.
 
-Les sous-sections suivantes fournissent quelques exemples qui montrent comment la quantité de commande multiple d’un produit affecte le résultat de la méthode de réapprovisionnement *Min./Max.*.
+Les sous-sections suivantes fournissent quelques exemples qui montrent comment la quantité de commande multiple d’un produit affecte le résultat *Min./Max.* .
 
 ### <a name="example-1"></a>Exemple 1
 

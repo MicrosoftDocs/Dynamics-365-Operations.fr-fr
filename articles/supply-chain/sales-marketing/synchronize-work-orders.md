@@ -1,7 +1,7 @@
 ---
 title: Synchroniser les ordres de travail avec un projet entre Field Service et Supply Chain Management
 description: Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les ordres d’exécution avec un nombre de projets depuis Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1b953e7649e0a88a31b40aa21de9296f4591904d7629cb12eb10f36091c33bc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779978"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572527"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Synchroniser les ordres de travail avec un projet entre Field Service et Supply Chain Management
 
@@ -61,19 +61,19 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Ordres de travail avec Projet (Field Service vers Supply Chain Management) : WorkOrderHeader
 
-[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Mappage de modèle dans l'intégration de données, Ordres de travail avec projet (Field Service à Supply Chain Management) : WorkOrderHeader.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Ordres de travail avec Projet (Field Service vers Supply Chain Management) : WorkOrderHeaderProject
 
-[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Mappage de modèle dans l'intégration de données, Ordres de travail avec projet (Field Service à Supply Chain Management) : WorkOrderHeaderProject.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Ordres de travail avec Projet (Field Service vers Supply Chain Management) : WorkOrderProduct
 
-[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Mappage de modèle dans l'intégration de données, Ordres de travail avec projet (Field Service à Supply Chain Management) : WorkOrderProduct.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Ordres de travail avec Projet (Field Service vers Supply Chain Management) : WorkOrderService
 
-[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Mappage de modèle dans l'intégration de données, Ordres de travail avec projet (Field Service à Supply Chain Management) : WorkOrderService.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

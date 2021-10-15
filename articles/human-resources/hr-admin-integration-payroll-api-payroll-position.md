@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741451"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559360"
 ---
 # <a name="payroll-position"></a>Poste de paie
 
@@ -32,22 +32,29 @@ Nom physique : mshr_payrollpositionentity.
 
 Cette entité fournit des informations liées au poste pour un employé donné.
 
-Nom physique : 
+Nom physique : mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description  |
+| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
-| **Durée annuelle normale**<br>annualregularhours<br>*Décimal* | Lecture seule<br>Requis | Heures normales annuelles définies sur le poste.  |
-| **ID de l’entité Détails du poste de paie**<br>payrollpositiondetailsentityid<br>*Guid* | Requis<br>Généré par le système. | Valeur GUID générée par le système pour identifier le poste de manière unique.  |
-| **Champ principal**<br>mshr_primaryfield<br>*Chaîne* | Requis<br>Généré par le système |  |
-| **Valeur d’ID du poste**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_PayrollPositionJobEntity de mshr_payrollpositionjobentity |ID du travail associé au poste.|
-| **Valeur de l’ID du régime de rémunération fixe**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_FixedCompPlan_id de mshr_payrollfixedcompensationplanentity  | ID du régime de rémunération fixe associé au poste. |
-| **ID du cycle de paie**<br>mshr_primaryfield<br>*Chaîne* | Lecture seule<br>Requis | Le cycle de paie défini sur le poste. |
-| **Rémunéré par l’entité juridique**<br>paidbylegalentity<br>*Chaîne* | Lecture seule<br>Requis | L’entité juridique définie sur le poste, responsable de l’émission du paiement. |
-| **ID poste**<br>mshr_positionid<br>*Chaîne* | Lecture seule<br>Requis | ID du poste. |
-| **Valide jusqu’au**<br>validto<br>*Décalage de date et heure* | Lecture seule<br>Requis |La date à partir de laquelle les détails du poste sont valides.  |
-| **Valide à partir du**<br>validfrom<br>*Décalage de date et heure* | Lecture seule<br>Requis |La date jusqu’à laquelle les détails du poste sont valides.  |
+| **ID poste**</br>mshr_positionid</br>*Chaîne* | Lecture seule | ID du poste. |
+| **ID du cycle de paie**</br>mshr_paycycleid</br>*Chaîne* | Lecture seule | Le cycle de paie qui est défini sur le poste. |
+| **Durée annuelle normale**</br>annualregularhours</br>*Décimal* | Lecture seule | Les heures régulières annuelles qui sont définies sur le poste. |
+| **Rémunéré par l’entité juridique**</br>paidbylegalentity</br>*Chaîne* | Lecture seule | L’entité juridique qui est définie sur le poste, et responsable de l’émission du paiement. |
+| **Valide jusqu’au**</br>validto</br>*Décalage de date et heure* | Lecture seule | La date jusqu’à laquelle les détails du poste sont valides. |
+| **Valide à partir du**</br>validfrom</br>*Décalage de date et heure* | Lecture seule | La date à partir de laquelle les détails du poste sont valides. |
+| **Champ principal**</br>mshr_primaryfield</br>*Chaîne* | Généré par le système | Champ principal. |
+| **ID de l’entité Détails du poste de paie**</br>payrollpositiondetailsentityid</br>*Guid* | Requis</br>Généré par le système. | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique le poste. |
+
+## <a name="relations"></a>Relations
+
+| Valeur de propriété  | Entité liée | Propriété de navigation | Type de collection |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Non applicable |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | Non applicable |
 
 ## <a name="example-query"></a>Exemple de requête
 

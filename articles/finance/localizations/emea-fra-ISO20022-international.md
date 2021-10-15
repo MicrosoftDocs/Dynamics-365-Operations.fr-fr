@@ -1,7 +1,7 @@
 ---
 title: Conditions préalables au format de virement ISO 20022
 description: Cette rubrique fournit des informations sur l’importation des exigences nécessaires pour définir le format de paiement ISO20022 (FR) (pain.001).
-author: neserovleo
+author: anasyash
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: France
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 536d3d5bd83388e13df7055b7f00a25e4141a7709ec2e57493570b3c60991f46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 395ef6bdbb7f4604a8f8f50374286c2d8cfeac4d
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740872"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592651"
 ---
 # <a name="prerequisites-for-iso-20022-credit-transfer-format"></a>Conditions préalables au format de virement ISO 20022
 

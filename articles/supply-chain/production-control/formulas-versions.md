@@ -1,7 +1,7 @@
 ---
 title: Formules et versions de formule
 description: Cette rubrique fournit des informations sur les formules et les versions de formule. Une formule définit les matières, les ingrédients et les résultats d’un processus spécifique du traitement de la production. Les formules sont utilisées pour planifier et générer des produits dans le traitement de la production.
-author: cvocph
+author: johanhoffmann
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86b0c8fa3c6379b9f1df11fd6b20f9e263656c2b98ea00f4225aebd5d25ac41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780050"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570271"
 ---
 # <a name="formulas-and-formula-versions"></a>Formules et versions de formule
 

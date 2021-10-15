@@ -1,7 +1,7 @@
 ---
-title: Demandes d’articles dans une commande de service
-description: Si vous devez réserver des articles spécifiques pour une commande de service, vous pouvez créer des demandes d’article en stock pour celle-ci.
-author: ShylaThompson
+title: Demandes d’articles de la commande de service
+description: Cette rubrique décrit les exigences relatives aux éléments de commande de service.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a57dc7f41e283d097daef1b92b6b22c093655ff48c7a3778f7ab541ebb24964
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae211cb24e3ed0e9e54643448ee378a20658ad89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746086"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573199"
 ---
-# <a name="service-order-item-requirements"></a>Demandes d’articles dans une commande de service   
+# <a name="service-order-item-requirements"></a>Demandes d’articles de la commande de service
 
 [!include [banner](../includes/banner.md)]
-
 
 Vous pouvez créer une commande de service pour suivre et gérer les services que vous fournissez à vos clients. Si vous devez réserver des articles spécifiques pour une commande de service, vous pouvez créer des demandes d’article en stock pour celle-ci. Une demande d’article peut être immédiatement consommée du stock, ou elle peut lancer une commande fournisseur pour l’article.
 
@@ -37,31 +36,24 @@ Dès qu’une demande d’article est créée pour une commande de service, elle
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Affichage d’une demande d’article à partir d’une commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
-
-2.  Cliquez sur **Répartir**, puis sur **Demande d’articles** pour ouvrir l’écran **Demandes d’articles**.
-
-3.  Cliquez sur l’onglet **Projet**, puis consultez le champ **Commande de service** pour voir les commandes de service pour la demande d’articles.
+1. Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1. Sélectionnez **Répartir**, puis sélectionnez **Demande d’articles** pour ouvrir l’écran **Demandes d’articles**.
+1. Sélectionnez l’onglet **Projet**, puis consultez le champ **Commande de service** pour voir les commandes de service pour la demande d’articles.
 
 ## <a name="delete-service-orders-with-item-requirements"></a>Suppression des commandes de service avec les demandes d’articles
 
 Si une demande d’articles est créée sur une commande de service, vous ne pouvez pas supprimer la commande de service. Pour pouvoir supprimer la commande de service, vous devez supprimer la demande d’articles.
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
-
-2.  Cliquez sur **Répartir**, puis sur **Demande d’articles** pour ouvrir l’écran **Demandes d’articles**. Cet écran affiche la liste des demandes d’articles qui sont créées sur la commande de service.
-
-3.  Sélectionnez la demande d’articles à supprimer, puis cliquez sur **Supprimer**.
+1. Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1. Sélectionnez **Répartir**, puis sélectionnez **Demande d’articles** pour ouvrir l’écran **Demandes d’articles**. Cet écran affiche la liste des demandes d’articles qui sont créées sur la commande de service.
+1. Sélectionnez la demande d’articles à supprimer, puis sélectionnez **Supprimer**.
 
 - ou -
 
-1.  Cliquez sur **Gestion et comptabilité des projets** \> **Commun** \> **Projets** \> **Tous les projets**.
-
-2.  Ouvrez le projet contenant la commande de service dans laquelle une demande d’articles est créée.
-
-3.  Dans l’écran **Projet**, dans le volet droit, cliquez sur **Demandes d’articles**. L’écran **Demandes d’articles** s’ouvre et affiche la liste des demandes d’article qui sont associées au projet sélectionné.
-
-4.  Sélectionnez la demande d’articles à supprimer, puis cliquez sur **Supprimer**.
+1. Accédez à **Gestion et comptabilité des projets** \> **Commun** \> **Projets** \> **Tous les projets**.
+1. Ouvrez le projet contenant la commande de service dans laquelle une demande d’articles est créée.
+1. Dans l’écran **Projet**, dans le volet droit, sélectionnez **Demandes d’articles**. L’écran **Demandes d’articles** s’ouvre et affiche la liste des demandes d’article qui sont associées au projet sélectionné.
+1. Sélectionnez la demande d’articles à supprimer, puis sélectionnez **Supprimer**.
 
 ## <a name="see-also"></a>Voir également :
 

@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble des politiques d’achat
 description: Cet article fournit des informations sur les politiques d’achat. Une stratégie d’achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d’achat permettent aux administrateurs de l’approvisionnement d’implémenter leur stratégie d’approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d’achats stratégiques de l’organisation.
-author: kamaybac
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4fd090f6e8b91c6a75eced17fadd76f686c5441f1526736534ad1a947d80cea0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d3c35cabc9b5b8c69dbf4d597388192b4130d49
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761780"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575486"
 ---
 # <a name="purchasing-policies-overview"></a>Vue d’ensemble des politiques d’achat
 
@@ -57,7 +57,7 @@ Lorsqu’un employé de l’entité juridique 2222 crée une demande d’achat, 
 Dans l’exemple précédent, toutes les règles d’achat étaient définies dans une seule hiérarchie d’organisation intitulée Sociétés. Cependant, une organisation complexe peut définir des stratégies pour plusieurs hiérarchies d’organisation.  
 
 
-Contoso est une grande entreprise qui fait appel à des règles d’achat complexes pour contrôler le processus de demande. Contoso a défini des règles pour deux hiérarchies d’organisation différentes : « Contrôle d’achat global » et « Département ».  
+Contoso est une grande entreprise qui fait appel à des règles d’achat complexes pour contrôler le processus de demande. Contoso a défini des règles pour deux hiérarchies d’organisation différentes : « Contrôle d’achat global » et « Département ».  
 
 La stratégie 123 est définie pour la hiérarchie d’organisation « Département » pour le département Ventes au Royaume-Uni. Dans la stratégie 123, la règle « Contrôle de demande d’achat » spécifie que des restrictions de quantité de commande minimale doivent être appliquées. Dans cette règle, l’option **Appliquer des restrictions de quantité de commande minimale** est sélectionnée.  
 

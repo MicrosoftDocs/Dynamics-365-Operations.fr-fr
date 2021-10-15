@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble du module Gestion des services
 description: Utilisez le module Gestion des services pour établir des accords de service et des services récurrents, traiter des commandes de service et des demandes de renseignements des clients, ainsi que pour gérer et analyser la fourniture de services aux clients.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53b8807fd13e52fab907f13db2001f46f72ab34efacd2fc35afa252c6a7dfd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bff30d4904d57e8d0c4da7f85897cd43f3287f9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730176"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576374"
 ---
 # <a name="service-management-overview"></a>Vue d’ensemble du module Gestion des services
 

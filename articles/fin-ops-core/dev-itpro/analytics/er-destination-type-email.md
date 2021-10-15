@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343858"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595201"
 ---
 # <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
@@ -75,7 +75,7 @@ Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail. Par d
 >
 > Lorsqu’une destination de courrier électronique est proposée pour modification au moment de l’[exécution](electronic-reporting-destinations.md#security-considerations), le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailMaintain` **Gérer l’adresse e-mail de l’expéditeur pour la destination au format ER**.
 >
-> Lorsque le champ **De** est configuré pour utiliser une adresse e-mail autre que celle de l’utilisateur actuel, l’autorisation **Envoyer en tant que** ou **Envoyer pour le compte de** doit être correctement [définie](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) à l’avance. Sinon, l’exception suivante est générée au moment de l’exécution : « Impossible d’envoyer l’e-mail en tant que \<from email account\> depuis le compte \<current user account\>, veuillez vérifier les autorisations « Envoyer en tant que » sur le \<from email account\>. »
+> Lorsque le champ **De** est configuré pour utiliser une adresse e-mail autre que celle de l’utilisateur actuel, l’autorisation **Envoyer en tant que** ou **Envoyer pour le compte de** doit être correctement [définie](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) à l’avance. Sinon, l’exception suivante est générée au moment de l’exécution : « Impossible d’envoyer l’e-mail en tant que \<from email account\> depuis le compte \<current user account\>, veuillez vérifier les autorisations « Envoyer en tant que » sur le \<from email account\>. »
 
 Vous pouvez configurer le champ **De** pour renvoyer plusieurs adresses e-mail. Dans ce cas, la première adresse de la liste est utilisée comme adresse d’expéditeur de courrier électronique.
 

@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: c2efd656b2c76a9d545aa899d424f0ab4f39ece3779b48c1367699eb9e6dd90e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ecd35a1629091b3e699ca443f0380d95b312bff6
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742865"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595409"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -140,7 +140,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <tbody>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Section II. Sorties</strong></p>
+<p><strong>Section II. Sorties</strong></p>
 </td>
 </tr>
 <tr>
@@ -258,7 +258,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Section III. Entrées</strong></p>
+<p><strong>Section III. Entrées</strong></p>
 </td>
 </tr>
 <tr>
@@ -417,7 +417,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Section IV. Taxes à payer</strong></p>
+<p><strong>Section IV. Taxes à payer</strong></p>
 </td>
 </tr>
 <tr>
@@ -488,7 +488,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Section V. Taxes déductibles</strong></p>
+<p><strong>Section V. Taxes déductibles</strong></p>
 </td>
 </tr>
 <tr>
@@ -526,7 +526,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Section VI. Solde</strong></p>
+<p><strong>Section VI. Solde</strong></p>
 </td>
 </tr>
 <tr>
@@ -553,7 +553,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Section VII. Dépôt</strong></p>
+<p><strong>Section VII. Dépôt</strong></p>
 </td>
 </tr>
 <tr>

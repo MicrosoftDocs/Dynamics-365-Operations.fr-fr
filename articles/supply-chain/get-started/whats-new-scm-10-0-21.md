@@ -4,18 +4,18 @@ description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou o
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500553"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579734"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
 
@@ -26,20 +26,6 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 - **Version préliminaire :** Août 2021
 - **Disponibilité générale de la version (mise à jour manuelle) :** Septembre 2021
 - **Disponibilité générale de la version (mise à jour automatique) :** Octobre 2021
-
-## <a name="known-deployment-issue"></a>Problème de déploiement connu
-
-Au moment du déploiement de la version 10.0.21 sur IaaS, vous pouvez recevoir l’avertissement de déploiement suivant :
-
-**Code d’avertissement :** 95017
-
-**Message d’avertissement :** Échec du script \[SetupDiagnostics\] à exécuter la machine virtuelle
-
-Le déploiement fonctionnera malgré l’avertissement. Cependant, les problèmes connus suivants peuvent survenir dans Lifecycle Services (LCS) :
-
-- Sur la page **Surveillance de l’environnement**, le lien **Afficher les informations détaillées sur la version** n’apparaîtra pas, vous ne pourrez donc pas voir les versions spécifiques des modules installés dans votre environnement. Sans ces données, les correctifs ultérieurs peuvent échouer, car le processus qui applique les correctifs utilise ces données pour vérifier que les conditions préalables de la version du module sont remplies. Comme il n’est pas possible d’utiliser la build PEAP/version préliminaire en production ou d’appliquer des correctifs, l’impact devrait être minime.
-- Les onglets **Indicateurs de performance** et **Analyse des indices** sur la page **Surveillance de l’environnement** sous SQL Insights n’affichera aucune donnée. Toutes les autres fonctionnalités **Surveillance de l’environnement** fonctionneront comme prévu.
-- La page **Diagnostic système complet** ne sera pas accessible. Les données associées sur le statut des exécutions nocturnes du collecteur et les problèmes détectés par ses règles ne s’afficheront pas non plus.
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 

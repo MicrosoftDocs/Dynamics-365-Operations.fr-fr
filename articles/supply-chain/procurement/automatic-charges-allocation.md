@@ -1,23 +1,23 @@
 ---
 title: Répartition automatique des frais
 description: La fonction de frais dans Microsoft Dynamics 365 Supply Chain Management vous aide à répartir automatiquement des frais sur les bons de commande ou les commandes client.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753937"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592538"
 ---
 # <a name="automatic-allocation-of-charges"></a>Répartition automatique des frais
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753937"
 En fonction du client avec lequel vous travaillez ou de l’article que vous vendez, vous pouvez appliquer des frais supplémentaires spécifiques. La fonction de *frais* dans Microsoft Dynamics 365 Supply Chain Management vous aide à répartir automatiquement des frais sur les bons de commande ou les commandes client.
 
 Les frais automatiques, ou frais auto, sont appliqués automatiquement lorsque vous créez une commande client ou fournisseur. Vous pouvez définir des frais auto pour des fournisseurs, clients, groupes de fournisseurs, articles spécifiques. Vous pouvez également définir des frais auto qui s’appliquent à tous les fournisseurs, clients ou articles.
+
+## <a name="set-up-parameters"></a>Définir les paramètres
+
+La page **Paramètres d’approvisionnement** a quelques paramètres qui sont particulièrement pertinents lorsque vous souhaitez allouer des frais automatiquement. Pour terminer ce paramétrage, procédez comme suit.
+
+1. Accédez à **Approvisionnements \> Paramétrage \> Paramètres d’approvisionnements**.
+1. Ouvrez l’onglet **Prix**.
+1. Sur le raccourci **Prix**, définissez les paramètres suivants :
+    - **Rechercher des frais automatiques pour l'en-tête** – Spécifie si les frais doivent être automatiquement alloués pour les en-têtes de commande d'achat. Effectuez un paramétrage sur *Oui* pour utiliser la répartition automatique des frais.
+    - **Rechercher des frais automatiques pour la ligne** – Spécifie si les frais doivent être automatiquement alloués pour les lignes de commande fournisseur. Effectuez un paramétrage sur *Oui* pour utiliser la répartition automatique des frais.
 
 ## <a name="set-up-charges-codes"></a>Paramétrer des codes frais
 

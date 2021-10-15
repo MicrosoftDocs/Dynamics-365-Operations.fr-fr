@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772276"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581135"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
@@ -116,7 +116,7 @@ Dans la vue **Liste complète des commandes**, vous pouvez sélectionner manuell
 
 ### <a name="over-delivery-shipping-validations"></a>Validations d’expédition pour livraison excessive
 
-Les validations se produisent pendant le processus de réception pour les lignes de document. Elles comprennent les validations pour livraison excessive. Si un utilisateur tente de recevoir plus de stock que à ce qui a été commandé sur une commande fournisseur, mais la livraison excessive n’est pas configurée ou la quantité reçue dépasse la tolérance de livraison excessive configurée pour la ligne de commande fournisseur, l’utilisateur reçoit une erreur et n’est pas autorisé à recevoir la quantité excédentaire.
+Les validations se produisent pendant le processus d'exécution pour les lignes de document. Elles comprennent les validations pour livraison excessive. Si un utilisateur tente d'expédier plus de stock que à ce qui a été commandé sur un ordre de transfert, mais la livraison excessive n’est pas configurée ou la quantité expédiée dépasse la tolérance de livraison excessive configurée pour la ligne de commande à transférer, l’utilisateur reçoit une erreur et n’est pas autorisé à expédier la quantité excédentaire.
 
 ### <a name="underdelivery-close-lines"></a>Lignes de clôture de livraison incomplète
 

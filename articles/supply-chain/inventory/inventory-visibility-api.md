@@ -2,7 +2,7 @@
 title: API publiques de visibilité des stocks
 description: Cette rubrique décrit les API publiques fournies par la visibilité des stocks.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474650"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592486"
 ---
 # <a name="inventory-visibility-public-apis"></a>API publiques de visibilité des stocks
 
@@ -82,6 +82,8 @@ Microsoft a construit une interface utilisateur (IU) dans Power Apps afin que vo
 
 Le jeton de sécurité de la plateforme est utilisé pour appeler l’API publique de visibilité des stocks. Par conséquent, vous devez générer un jeton _Azure Active Directory (Azure AD)_ en utilisant votre application Azure AD. Vous devez ensuite utiliser le jeton Azure AD pour obtenir le _jeton d’accès_ du service de sécurité.
 
+Microsoft fournit une collection de jetons d'obtention *Postman* prête à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Pour obtenir un jeton de service de sécurité, procédez comme suit.
 
 1. Connectez-vous au portail Azure et utilisez-le pour trouver les valeurs `clientId` et `clientSecret` pour votre application Dynamics 365 Supply Chain Management.
@@ -131,7 +133,7 @@ Pour obtenir un jeton de service de sécurité, procédez comme suit.
    - La valeur `context` doit être l’ID d’environnement LCS dans lequel vous souhaitez déployer le complément.
    - Définissez toutes les autres valeurs comme indiqué dans l’exemple.
 
-1. Envoyez une requête HTTP avec les propriétés suivantes :
+1. Récupérez un jeton d'accès (`access_token`) en envoyant une requête HTTP avec les propriétés suivantes :
 
    - **URL :** `https://securityservice.operations365.dynamics.com/token`
    - **Méthode :** `POST`
@@ -148,7 +150,8 @@ Pour obtenir un jeton de service de sécurité, procédez comme suit.
    }
    ```
 
-Dans les sections suivantes, vous utiliserez `$access_token` pour représenter le jeton qui a été récupéré à la dernière étape.
+> [!IMPORTANT]
+> Lorsque vous utilisez la demande de collecte *Postman* pour appeler les API publiques Inventory Visibility, vous devez ajouter un jeton de support pour chaque demande. Pour trouver votre jeton au porteur, sélectionnez l'onglet **Autorisation** sous l'URL de la demande, sélectionnez le type **Jeton du porteur**, tapez et copiez le jeton d'accès qui a été récupéré à la dernière étape. Dans les sections suivantes de cette rubrique, `$access_token` sera utilisé pour représenter le jeton qui a été récupéré à la dernière étape.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Créer des événements de modification de stock disponible
 
@@ -380,7 +383,7 @@ Pour utiliser l’API *Reserve*, vous devez ouvrir la fonctionnalité de réserv
 
 Une réservation peut être effectuée pour différents paramètres de source de données. Pour configurer ce type de réservation, indiquez d'abord la source de données dans le paramètre `dimensionDataSource`. Ensuite, dans le paramètre `dimensions`, spécifiez les dimensions en fonction des paramètres de dimension dans la source de données cible.
 
-Lorsque vous appelez l'API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu'une valeur `False` signifie que la validation n'est pas requise. La valeur par défaut est `True`.
+Lorsque vous appelez l'API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu’une valeur `False` signifie que la validation n’est pas requise. La valeur par défaut est `True`.
 
 Si vous souhaitez annuler une réservation ou annuler la réservation de quantités de stock spécifiées, définissez la quantité sur une valeur négative et définissez le paramètre `ifCheckAvailForReserv` sur `False` pour ignorer la validation.
 
@@ -508,7 +511,7 @@ Dans le corps de cette requête, `dimensionDataSource` est toujours un paramètr
 
 - `organizationId` ne doit contenir qu'une seule valeur, mais c'est tout de même un tableau.
 - `productId` peut contenir une ou plusieurs valeurs. Si c'est un tableau vide, tous les produits seront renvoyés.
-- `siteId` et `locationId` sont utilisés dans la visibilité des stocks pour le partitionnement.
+- `siteId` et `locationId` sont utilisés pour le partitionnement pour la visibilité du stock. Vous pouvez spécifier plusieurs valeurs `siteId` et `locationId` dans une requête *Requête en main*. Dans la version actuelle, vous devez spécifier à la fois les valeurs `siteId` et `locationId`.
 
 Le paramètre `groupByValues` doit suivre votre configuration pour l'indexation. Pour plus d’informations, voir [Configuration de la hiérarchie d’index des produits](./inventory-visibility-configuration.md#index-configuration).
 

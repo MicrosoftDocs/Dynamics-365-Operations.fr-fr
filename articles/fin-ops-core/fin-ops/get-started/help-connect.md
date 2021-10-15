@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343810"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594855"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurer l’expérience d’aide pour les applications Finance and Operations
 
@@ -30,7 +30,7 @@ Dans cette rubrique, vous trouverez un aperçu des composants du système d’ai
 
 ## <a name="help-architecture"></a>Architecture de l’aide
 
-Les applications Finance and Operations incluent des aperçus conceptuels et d’autres sujets qui sont publiés sur le site [https://docs.microsoft.com/dynamics365](/dynamics365/). Ce contenu est ensuite accessible à partir du volet **Aide** du produit. La figure suivante illustre les parties du système d’aide.
+Les applications Finance and Operations incluent des aperçus conceptuels et d’autres rubriques qui sont publiés sur le site [Microsoft Dynamics 365 documentation](/dynamics365/). Ce contenu est ensuite accessible à partir du volet **Aide** du produit. La figure suivante illustre les parties du système d’aide.
 
 [![Architecture de l’aide.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Le système d’aide intégré au produit extrait des articles de docs.microsoft
 ## <a name="adding-task-guides"></a>Ajout de guides de tâche
 
 > [!NOTE]
-> L’onglet **Guides de tâche** n’est pas disponible actuellement dans Human Resources ou Commerce. <!--We are currently working to enable this functionality in a future release.--> Toutefois, les guides de tâche dans l’expérience Mise en route dans Human Resources restent disponibles pour couvrir les fonctionnalités de base. Pour Human Resources et Commerce, l’aide est disponible sur le site [https://docs.microsoft.com/dynamics365](/dynamics365/).
+> L’onglet **Guides de tâche** n’est pas disponible actuellement dans Human Resources ou Commerce. <!--We are currently working to enable this functionality in a future release.--> Toutefois, les guides de tâche dans l’expérience Mise en route dans Human Resources restent disponibles pour couvrir les fonctionnalités de base. Pour Human Resources et Commerce, l’aide est disponible sur le site [Documentation Microsoft Dynamics 365](/dynamics365/).
 
 Sur la page **Paramètres système**, les administrateurs système peuvent configurer l’accès aux bibliothèques de guides de tâches pertinentes pour une implémentation.
 

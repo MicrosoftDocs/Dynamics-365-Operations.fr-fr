@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414582"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559459"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurer l’intégration avec Dayforce
 
@@ -64,7 +64,6 @@ Activer l’intégration de la paie a deux principaux effets :
 
 > [!NOTE]
 > Le package de données transféré au point de terminaison SFTP est chiffré à l’aide d’une clé unique dans le module. Cette clé est dans un coffre Azure Key Vault qui n’est accessible que par Ceridian. Il est impossible de déchiffrer et examiner le contenu du package de données. Si vous devez examiner le contenu du package de données, vous devez exporter le projet de données « Exportation de l’intégration de la paie » manuellement, le télécharger, puis l’ouvrir. L’exportation manuelle n’appliquera pas de chiffrement ou de transfert au package.
-> Pour les instances où les fichiers d'intégration sont envoyés à partir d'un test d'acceptation utilisateur ou d'un environnement de bac à sable Dynamics 365 Human Resources vers un environnement de test Ceridian Dayforce, vous pouvez utiliser l'URL de coffre de clés suivante : https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Configurer vos données 
 

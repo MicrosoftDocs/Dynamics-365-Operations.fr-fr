@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781804"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579878"
 ---
 # <a name="work-split"></a>Fractionnement du travail
+
+[!include [banner](../includes/banner.md)]
 
 La fonctionnalité de fractionnement du travail vous permet de diviser les ID d’ordres de travail volumineux (c’est-à-dire les ordres de travail avec plusieurs lignes) en plusieurs ID d’ordres de travail plus petits que vous pouvez ensuite affecter à plusieurs magasiniers. De cette manière, le même nombre de création de travail peut être prélevé simultanément par plusieurs magasiniers.
 

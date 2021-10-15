@@ -1,0 +1,123 @@
+---
+title: Composants des états électroniques
+description: Cette rubrique décrit les composants Gestion des états électroniques (ER).
+author: nselin
+ms.date: 09/28/2021
+ms.topic: ''
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ERWorkspace
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.region: global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: de8bccf5a8a9bb81be51658010ad4c2ef67aabb2
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562247"
+---
+# <a name="electronic-reporting-components"></a>Composants des états électroniques
+
+[!include [banner](../includes/banner.md)]
+
+La Gestion des états électroniques (ER) prend en charge les types de composants suivants :
+
+- Modèle de données
+- Mappage de modèles
+- Format
+- Métadonnées
+
+## <a name="data-model-component"></a>Composant Modèle de données
+
+Un composant de modèle de données est une représentation abstraite d’une structure de données. Il décrit un domaine de l’entreprise spécifique avec suffisamment de détail pour satisfaire aux conditions de génération d’états pour ce domaine. Un composant de modèle de données se compose des éléments suivants :
+
+- **Modèle de données** – Un ensemble d'entités commerciales spécifiques à un domaine et une définition structurée hiérarchiquement des relations entre ces entités.
+- **Mappage de modèles** – Les sources de données d'application sélectionnées sont liées à des éléments individuels d'un modèle de données qui spécifie, au moment de l'exécution, le flux de données et les règles de saisie des données métier dans un composant de modèle de données.
+
+L'entité commerciale d'un modèle de données est représentée sous la forme d'un conteneur ou d'un enregistrement. Les propriétés d’entité commerciale sont représentées comme des articles de données, ou champs. Chaque article de données est doté d’un nom, d’un libellé, d’une description et d’une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu’il soit reconnu comme une chaîne, entier, réel, date, énumération (enum) ou valeur booléenne, etc. De plus, l'élément de données peut être un autre enregistrement ou une liste d'enregistrements.
+
+Un composant de modèle de données unique peut contenir plusieurs hiérarchies des entités commerciales spécifiques à un domaine. Il contient également les mappages de modèles qui prennent en charge le flux de données spécifiques aux états au moment de l’exécution. Les hiérarchies sont différenciées par un enregistrement unique qui est sélectionné comme racine de la mise en correspondance de modèle. Par exemple, le modèle de données du domaine du paiement peut prendre en charge les mises en correspondance suivantes :
+
+
+- Société \> Fournisseur \> Transactions de paiement du domaine comptabilité fournisseur
+- Client \> Société \> Transactions de paiement du domaine comptabilité client
+
+Les entités commerciales (par exemple, les transactions de paiement et la société) ne sont conçues qu'une fois. Différents mappages peuvent les réutiliser selon les besoins.
+
+## <a name="model-mapping-component"></a>Composant de mise en correspondance de modèles
+
+Le mappage de modèles lie les sources de données d'application sélectionnées sont liées à des éléments individuels d'un modèle de données qui spécifient, au moment de l'exécution, le flux de données et les règles de saisie des données métier dans un composant de modèle de données.
+
+Un mappage de modèle qui prend en charge les documents électroniques sortants a les fonctionnalités suivantes :
+
+- Il peut utiliser les différents types de données comme sources de données pour un modèle de données. Ces types de données incluent des tables, des entités de données, des méthodes et des énumérations.
+- Il prend en charge les paramètres d’entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l’exécution.
+- Il prend en charge la transformation des données en groupes requis. Vous pouvez également filtrer, trier et ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel. Pour plus d’informations, voir [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md).
+
+Un mappage de modèle qui prend en charge les documents électroniques entrants a les fonctionnalités suivantes :
+
+- Il peut utiliser différents éléments de données pouvant être mis à jour comme cibles. Ces éléments de données incluent des tables, des entités de données et des vues. Les données peuvent être mises à jour par des données entrantes provenant de documents électroniques. Plusieurs cibles peuvent être utilisées dans un mappage de modèle unique.
+- Il prend en charge les paramètres d’entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l’exécution.
+
+Un composant de modèle de données est conçu pour chaque domaine métier utilisé comme source de données unifiée pour la création de rapports. La source de données unifiée isole les rapports de la mise en œuvre physique des sources de données. Le composant représente des concepts et des fonctionnalités d’entreprise spécifiques au domaine sous une forme qui rend la conception d’origine du format de rapport et toute autre maintenance plus efficaces.
+
+## <a name="format-component"></a>Composant des formats
+
+### <a name="format-components-for-outgoing-electronic-documents"></a>Composants de format pour les documents électroniques sortants
+
+Un composant de format est le modèle utilisé pour la sortie générée au moment de l’exécution. Un modèle se compose des éléments suivants :
+
+- Un format qui définit la structure et le contenu d’un document électronique sortant généré au moment de l’exécution.
+- des sources de données, en tant qu’ensemble de paramètres d’entrée utilisateur et de modèle de données spécifique au domaine avec la mise en correspondance du modèle sélectionnée ;
+- Une mise en correspondance de format, en tant qu’ensemble de liaisons des sources de données de format avec des éléments individuels de format qui spécifient au moment de l’exécution le flux de données et les règles de génération de sortie de format.
+- Une validation de format en tant qu’ensemble de règles configurables qui contrôlent la génération d’états au moment de l’exécution en fonction du contexte d’exécution. Par exemple, il peut y avoir une règle qui arrête la génération de sortie des paiements d’un fournisseur et lance une exception lorsque des attributs spécifiques du fournisseur sélectionné sont manquants, comme le numéro de compte bancaire.
+
+Un composant de format prend en charge les fonctions suivantes :
+
+- Création d'une sortie de rapports en tant que fichiers individuels dans différents formats, tels que texte, XML, document Microsoft Word ou feuille de calcul
+- Création de plusieurs fichiers séparément et encapsulation dans des fichiers zip
+
+Un composant de format vous permet de joindre certains fichiers pouvant être utilisés dans la sortie d’états :
+
+- des classeurs Excel qui contiennent une feuille de calcul qui peut être utilisée comme modèle pour les sorties au format de feuille de calcul OPENXML ;
+- des fichiers Word qui contiennent un document qui peut être utilisé comme modèle pour les sorties au format de document Microsoft Word
+- d’autres fichiers pouvant être incorporés à la sortie du format en tant que fichiers prédéfinis.
+
+L’illustration ci-dessous indique les flux de données pour ces formats.
+
+[![Flux de données des composants de format entrants.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+Pour exécuter une configuration simple de format de génération d’états électroniques pour importer les données d’un document électronique entrant, vous devez identifier le mappage souhaité d’une configuration de format, ainsi que le point d’intégration d’un mappage de modèle. Vous pouvez utiliser les mêmes mappages et destinations de modèles avec différents formats pour différents types de documents entrants.
+
+## <a name="component-versioning"></a>Contrôle de versions du composant
+
+Le contrôle de versions est pris en charge pour les composants d’états électroniques. Le workflow suivant est fourni pour gérer et sauvegarder les modifications dans les composants d’états électroniques :
+
+1. La version qui est créée est marquée comme étant une version en mode **Brouillon**. Cette version peut être modifiée et est disponible pour des séries de tests.
+2. La version **Brouillon** peut être convertie en une version **Terminée**. Cette version peut être utilisée dans les processus de création d’états locaux.
+3. La version **Terminée** peut être convertie en une version **Partagée**. Cette version est publiée dans Microsoft Dynamics Lifecycle Services (LCS) et peut être utilisée dans le processus de création de rapports globaux.
+4. La version **Partagée** peut être convertie en une version **Interrompue**. Cette version peut être supprimée.
+
+Les versions dotées du statut **Terminée** ou **Partagée** sont disponibles pour un autre échange de données. Les actions suivantes peuvent être exécutées sur un composant possédant ces statuts :
+
+- Le composant peut être sérialisé au format XML et exporté vers un fichier au format XML.
+- Le composant peut être resérialisé à partir d’un fichier XML et importé dans l’application sous la forme d’une nouvelle version d’un composant d’état électronique.
+
+## <a name="component-date-effectivity"></a>Validité de date du composant
+
+Les versions du composant d’état électronique est soumis à une date d’effet. Vous pouvez définir la date "Prend effet le" pour un composant d’état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d’états. La date de session de l’application permet de définir si un composant est valide pour l’exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d’états.
+
+## <a name="component-access"></a>Accès au composant
+
+L'accès aux composants au format ER dépend du réglage du code de pays/région de l'Organisation internationale de normalisation (ISO). Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu’il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l’adresse principale est défini pour l’un des codes pays/régions ISO du composant de format.
+
+Différentes versions d’un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

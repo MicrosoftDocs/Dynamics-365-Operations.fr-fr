@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8ae7bc937e916195b49df91be73ba906bcd2e593c9222cdc07adfcbf2396c05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733683"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595384"
 ---
 # <a name="create-new-users"></a>Créer de nouveaux utilisateurs
 
@@ -29,7 +29,7 @@ Avant de pouvoir accéder aux applications Finance and Operations, vous devez d�
 Pour plus d’informations sur l’achat et la licence pour les applications Finance and Operations, voir [Guide des licences Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Attribuer une licence à un utilisateur
-Les administrateurs système peuvent [attribuer des licences aux utilisateurs](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) dans le [Centre d’administration Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Les administrateurs système peuvent [attribuer des licences aux utilisateurs](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) dans le [Centre d’administration Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Ajouter un utilisateur externe à Azure AD et attribuer une licence 
 Les utilisateurs externes doivent être représentés dans votre répertoire de locataires (Azure Active Directory (Azure AD)) pour leur attribuer des licences. Ces utilisateurs externes doivent être ajoutés au client dans Azure AD en tant qu’utilisateurs invités, puis se voir attribuer les licences appropriées. Obligation concernant les applications Finance and Operations : l’entreprise de l’utilisateur invité doit utiliser Azure AD. Pour plus d’informations, voir [Ajouter utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](/azure/active-directory/b2b/add-users-administrator).

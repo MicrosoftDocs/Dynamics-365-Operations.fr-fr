@@ -1,7 +1,7 @@
 ---
 title: Commandes de service
-description: Une commande de service représente la visite d’un site client par un technicien de service à une date spécifique.
-author: ShylaThompson
+description: Cette rubrique fournit une vue d'ensemble de l'utilisation des ordres de service.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89ff650b0813318573fa273533ba31b57e35696a551105cca7e1a247099b218f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739704"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566117"
 ---
-# <a name="service-orders"></a>Commandes de service   
+# <a name="service-orders"></a>Commandes de service
 
 [!include [banner](../includes/banner.md)]
-
 
 Une commande de service représente la visite d’un site client par un technicien de service à une date spécifique. Chaque commande de service comporte une ou plusieurs ligne de commande de service. Les lignes de commande de service représentent les heures de travail que doit exécuter le technicien chargé du service, ainsi que les articles liés, les dépenses et les frais.
 
@@ -39,19 +38,19 @@ Vous pouvez également créer des commandes de service de façon individuelle, s
 
 
 > [!NOTE]
-> <P>Pour créer des commandes de service sans les associer à un accord de service, vous devez activer la case à cocher <STRONG>Autoriser sans accord de service</STRONG> dans l’écran <STRONG>Paramètres de gestion des services</STRONG>.</P>
+> Pour créer des commandes de service sans les associer à un accord de service, vous devez activer la case à cocher **Autoriser sans accord de service** sur la page **Paramètres de gestion des services**.
 
-**Scénario**
+### <a name="scenario"></a>Scénario
 
 Le scénario suivant décrit une autre situation dans laquelle il est utile de créer une commande de service qui n’est pas associée à un accord de service.
 
-Le répartiteur de la société reçoit un appel concernant une demande de service d’urgence sur un ascenseur. Il n’y a plus le temps de paramétrer un accord de service et un projet pour le service. Par conséquent, le répartiteur crée une commande de service directement dans l’écran **Commandes de service**, associe la commande de service à un projet existant, puis crée les lignes de commande de service. Il crée également une relation de tâche ou d’objet pour une commande de service existante afin d’enregistrer des tâches qui ne sont pas associées à l’accord de service. Pour plus d’informations, voir [Création manuelle de commandes de service](create-service-orders-manually.md) et [Création de relations de tâches de service](create-service-task-relations.md).
+Le répartiteur de la société reçoit un appel concernant une demande de service d’urgence sur un ascenseur. Il n’y a plus le temps de paramétrer un accord de service et un projet pour le service. Par conséquent, le répartiteur crée une commande de service directement sur la page **Commandes de service**, associe la commande de service à un projet existant, puis crée les lignes de commande de service. Il crée également une relation de tâche ou d’objet pour une commande de service existante afin d’enregistrer des tâches qui ne sont pas associées à l’accord de service. Pour plus d’informations, voir [Création manuelle de commandes de service](create-service-orders-manually.md) et [Création de relations de tâches de service](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>Surveiller la progression des commandes de service
 
 Pour surveiller la progression d’une commande de service via différentes équipes et divers processus de travail, vous pouvez définir un système d’étapes et des codes motif pour les commandes de service. Vous pouvez spécifier les actions autorisées pour chaque étape. Pour plus d’informations, voir [Créer des codes motifs](create-reason-codes.md).
 
-**Exemple**
+### <a name="example"></a>Exemple
 
 Une commande de service est approuvée par le répartiteur. Le répartiteur met à jour l’étape de la commande de service et spécifie un code motif qui indique que la commande de service a été lancée au technicien de service. Le technicien se rend sur le site du client et exécute le service.
 
@@ -59,7 +58,7 @@ Une commande de service est approuvée par le répartiteur. Le répartiteur met 
 
 Vous pouvez spécifier les articles en stock requis pour les commandes de service. Toutefois, la commande de service doit être associée à un projet. Les demandes d’articles pour les commandes de service sont traitées au travers d’un projet. 
 
-**Exemple**
+### <a name="example"></a>Exemple
 
 Les commandes de service créées à partir de l’accord de service sont ensuite traitées par le répartiteur. Pour la première commande de service, le répartiteur réalise que le technicien de service a besoin d’une pièce de rechange importante non disponible en stock. Il crée donc une demande d’article (pièce détachée) à partir de la commande de service.
 
@@ -73,7 +72,7 @@ L’une des autres commandes de service générée pour le mois de janvier est d
 
 ## <a name="post-from-projects"></a>Validation à partir de projets
 
-À la fin de chaque semaine, le répartiteur souhaite valider toutes les commandes de service associées à un projet spécifique. Par conséquent, il identifie le projet approprié dans l’écran **Projets** et valide les commandes de service terminées. Pour plus d’informations, voir [Valider des commandes de service (écran Classe)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+À la fin de chaque semaine, le répartiteur souhaite valider toutes les commandes de service associées à un projet spécifique. Par conséquent, il identifie le projet approprié sur la page **Projets** et valide les commandes de service terminées. Pour plus d’informations, voir [Valider des commandes de service (écran Classe)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Supprimer des commandes de service
 

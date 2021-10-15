@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble de planification des charges à l’aide de la consolidation de point de transbordement
 description: Cet article décrit la fonctionnalité de consolidation des expéditions dans un point de transbordement lorsque vous livrez des marchandises provenant d’entrepôts différents pour le même client, ou lorsque vous recevez des marchandises à partir de plusieurs fournisseurs dans le même entrepôt.
-author: MarkusFogelberg
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1ec672caaa382c819a5f1d972604e46c4e6a5cdc3ade22e35102065706102bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 248bc0cc4d00dfc5ccff7edfb555af31645649d7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728481"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574927"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>Vue d’ensemble de planification des charges à l’aide de la consolidation de point de transbordement
 

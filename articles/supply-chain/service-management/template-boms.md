@@ -1,7 +1,7 @@
 ---
 title: Nomenclatures des modèles
 description: Une nomenclature des modèles permet d’avoir une liste normalisée des composants d’objets de service traités régulièrement.
-author: ShylaThompson
+author: kamaybac
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
@@ -15,25 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab8586f81dc4a897d243b9d289109f039c390fcbf90c5c205125cf49eb5e8e39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724746"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571305"
 ---
-# <a name="template-boms"></a>Nomenclatures des modèles    
+# <a name="template-boms"></a>Nomenclatures des modèles
 
 [!include [banner](../includes/banner.md)]
-
 
 Une nomenclature des modèles permet d’avoir une liste normalisée des composants d’objets de service traités régulièrement. Les composants figurant dans la nomenclature des modèles représentent les sous-composants individuels de l’objet de service. En appliquant la nomenclature des modèles à un objet de service, vous pouvez conserver un enregistrement des sous-composants remplacés sur l’objet de service.
 
 Pour appliquer une nomenclature des modèles à un accord de service ou une commande de service, vous associez celle-ci à une relation d’objets de service.
 
-
 > [!NOTE]
-> <P>Vous ne pouvez appliquer qu’une seule nomenclature des modèles à un objet de service.</P>
+> Vous ne pouvez appliquer qu’une seule nomenclature des modèles à un objet de service.
 
 ## <a name="create-a-template-bom"></a>Création d’un modèle de nomenclature
 
@@ -41,8 +39,8 @@ Le tableau suivant contient des informations sur les différentes méthodes qui 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,7 +68,6 @@ Le tableau suivant contient des informations sur les différentes méthodes qui 
 </tbody>
 </table>
 
-
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Appliquer la nomenclature des modèles à un accord de service ou une commande de service
 
 Vous pouvez appliquer la nomenclature des modèles à un accord de service et/ou à une commande de service. L’accord de service couvre généralement une relation de long terme avec un client. L’historique des remplacements enregistré dans la nomenclature des services constitue des données utiles pour l’accord de service.
@@ -81,7 +78,7 @@ Vous pouvez également appliquer une nomenclature des modèles à une commande d
 
 Vous pouvez copier l’historique d’une ligne de nomenclature des services d’un accord de service vers un autre accord de service. En copiant l’historique des services entre des accords de service, vous pouvez conserver l’enregistrement des remplacements effectués sur un article.
 
-**Exemple**
+### <a name="example"></a>Exemple
 
 Vous avez défini un accord de service de trois ans pour le véhicule d’un client. Pendant cette période, le client s’habitue à l’excellence du service offert par la société. Par conséquent, une fois l’accord expiré, le client souhaite en paramétrer un nouveau. Vous êtes désormais en mesure de négocier un accord plus avantageux pour la société. Comme l’enregistrement des composants remplacés peut s’avérer utile à l’avenir, vous copiez l’historique de la nomenclature des services vers le nouvel accord.
 
@@ -99,26 +96,18 @@ Vous pouvez modifier le mode d’affichage des informations de ligne de nomencla
 
 Pour utiliser les nomenclatures des modèles, vous devez paramétrer deux souches de numéros. Paramétrez une souche de numéros pour la nomenclature des modèles et une souche de numéros pour le numéro de ligne d’historique de nomenclature.
 
-
 > [!NOTE]
-> <P>Les souches de numéros sont utilisées pour attribuer des identificateurs aux enregistrements qui en ont besoin. Avant de pouvoir affecter une souche de numéros à une nomenclature des modèles ou une ligne d’historique de nomenclature, vous devez paramétrer des codes souche de numéros.</P>
-
+> Les souches de numéros sont utilisées pour attribuer des identificateurs aux enregistrements qui en ont besoin. Avant de pouvoir affecter une souche de numéros à une nomenclature des modèles ou une ligne d’historique de nomenclature, vous devez paramétrer des codes souche de numéros.
 
 ## <a name="set-up-number-sequences"></a>Définir des souches de numéros
 
-1.  Dans la page de liste **Souches de numéros**, créez des souches de numéros pour les nomenclatures des modèles et le numéro de ligne d’historique de nomenclature. 
-
-2.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Paramètres de gestion des services**.
-
-3.  Cliquez sur **Souches de numéros**, puis sélectionnez un code souche de numéros pour les références de souches de numéros créées dans l’écran **Souches de numéros**.
-
-4.  Fermez l’écran pour enregistrer vos modifications.
-
+1. Dans la page de liste **Souches de numéros**, créez des souches de numéros pour les nomenclatures des modèles et le numéro de ligne d’historique de nomenclature.
+1. Sélectionnez **Gestion des services** \> **Paramétrage** \> **Paramètres de gestion des services**.
+1. Sélectionnez **Souches de numéros**, puis sélectionnez un code souche de numéros pour les références de souches de numéros créées dans l’écran **Souches de numéros**.
+1. Fermez l’écran pour enregistrer vos modifications.
 
 > [!NOTE]
-> <P>Le numéro de ligne d’historique de nomenclature est utilisé par le système pour associer les transactions dans l’historique de nomenclature avec un accord ou une commande de service. Le numéro n’est pas affiché dans l’interface utilisateur.</P>
-
-
+> Le numéro de ligne d’historique de nomenclature est utilisé par le système pour associer les transactions dans l’historique de nomenclature avec un accord ou une commande de service. Le numéro n’est pas affiché dans l’interface utilisateur.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -127,10 +116,5 @@ Pour utiliser les nomenclatures des modèles, vous devez paramétrer deux souche
 [Gestion des modèles de nomenclatures sur des relations d’objets](manage-template-boms-on-object-relations.md)
 
 [Modifier une nomenclature des services](modify-service-bom.md)
-
- 
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

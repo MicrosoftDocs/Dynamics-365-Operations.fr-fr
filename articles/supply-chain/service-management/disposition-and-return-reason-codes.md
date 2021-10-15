@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble des retours client
 description: Créez et utilisez des codes motif de retour et des codes disposition pour prendre en charge le processus de retour de produits.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31a5c52a12e1d2c97f3a0d15ccbe4cdb35ff039b7cbe0c538fc4643c5ce49955
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a133726542537b560374aa6a7ddc5651e292d92e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724770"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573295"
 ---
 # <a name="customer-returns-overview"></a>Vue d’ensemble des retours client
 

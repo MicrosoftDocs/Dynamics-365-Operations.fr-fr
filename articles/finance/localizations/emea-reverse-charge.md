@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9996b4d6ab84070cc3e9863a454c4fd8ed14091490273cde0eec1ea2bc508fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756224"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594717"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mécanisme de Taxe au preneur pour le régime TVA/TPS
 
@@ -45,7 +45,6 @@ Pour appliquer la taxe au preneur, vous devez effectuer le paramétrage suivant.
 Il est recommandé d’utiliser des codes de taxe distincts pour les opérations de vente et les opérations d’achat.
 
 <table>
-<body>
 <tr>
 <td><strong>Code taxe pour les ventes</strong></td>
 <td>Créez un code taxe pour les opérations de vente soumises à la taxe au preneur (<strong>Taxe</strong> &gt; <strong>Taxes indirectes</strong> &gt; <strong>Taxe</strong> &gt; <strong>Codes taxe</strong>).
@@ -62,7 +61,6 @@ Vous devrez affecter ce code taxe négatif à un groupe de taxe d’article, pui
 <p>Pour plus d’informations, consultez la section suivante &quot;Paramétrer les groupes de taxe et les groupes de taxe d’article&quot;.</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Paramétrer des groupes de taxe et groupes de taxe d’article

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722629"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559581"
 ---
 # <a name="payroll-position-job"></a>Tâche du poste de paie
 
@@ -34,16 +34,22 @@ Nom physique : mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description  |
+| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
-| **ID tâche**<br>mshr_jobid<br>*Chaîne* | Lecture seule<br>Requis |ID de la tâche. |
-| **Valide à partir du**<br>mshr_validto<br>*Décalage de date et heure* | Lecture seule <br>Requis | Date à partir de laquelle la relation entre le poste et la tâche sont valides. |
-| **Valide jusqu’au**<br>mshr_validto<br>*Décalage de date et heure* | Lecture seule <br>Requis | Date jusqu’à laquelle la relation entre le poste et la tâche sont valides.  |
-| **ID poste**<br>mshr_positionid<br>*Chaîne* | Lecture seule<br>Requis | ID du poste. |
-| **Champ principal**<br>mshr_primaryfield<br>*Chaîne* | Requis<br>Généré par le système |  |
-| **Valeur d’ID du poste**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_PayrollPositionJobEntity de mshr_payrollpositionjobentity |ID du travail associé au poste.|
-| **Valeur de l’ID du régime de rémunération fixe**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_FixedCompPlan_id de mshr_payrollfixedcompensationplanentity  | ID du régime de rémunération fixe associé au poste. |
-| **ID de l’entité Tâche du poste de paie**<br>mshr_payrollpositionjobentityid<br>*Guid* | Requis<br>Généré par le système. | Valeur GUID générée par le système pour identifier la tâche de manière unique.  |
+| **ID poste**</br>mshr_positionid</br>*Chaîne* | Lecture seule | ID du poste. |
+| **Valide à partir du**</br>mshr_validto</br>*Décalage de date et heure* | Lecture seule | Cette date à partir de laquelle la relation entre le poste et la tâche sont valides. |
+| **Valide jusqu’au**</br>mshr_validto</br>*Décalage de date et heure* | Lecture seule | Date jusqu’à laquelle la relation entre le poste et la tâche sont valides. |
+| **ID tâche**</br>mshr_jobid</br>*Chaîne* | Lecture seule | ID de la tâche. |
+| **Champ principal**</br>mshr_primaryfield</br>*Chaîne* | Généré par le système | Champ principal. |
+| **ID de l’entité Tâche du poste de paie**</br>mshr_payrollpositionjobentityid</br>*Guid* | Généré par le système. | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique la tâche. |
+
+## <a name="relations"></a>Relations
+
+| Valeur de propriété  | Entité liée | Propriété de navigation | Type de collection |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Non applicable |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Exemple de requête
 

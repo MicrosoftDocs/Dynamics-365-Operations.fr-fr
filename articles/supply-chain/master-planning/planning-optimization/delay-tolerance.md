@@ -1,7 +1,7 @@
 ---
 title: Tolérance de retard (jours négatifs)
 description: Cette rubrique fournit des informations sur le calcul de la tolérance de retard et son impact sur la création d’ordres planifiés dans l’optimisation de la planification.
-author: crytt
+author: ChristianRytt
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c0bc3d429a1bf13285b385130d419f628330bb3728c6f071cf118edac2a59d87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778698"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577478"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolérance de retard (jours négatifs)
 

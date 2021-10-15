@@ -1,7 +1,7 @@
 ---
 title: Surveillance des activités du service
 description: L’écran Tableau d’affectation vous permet d’obtenir une mise à jour de statut instantanée des diverses activités de service planifiées, et vous donne accès à des outils pour le suivi du flux général des commandes de service dans votre société.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/04/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 423038241aa54f721de81eba01435db61f0623f5a35abf84a6086a674893e6a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 508910b0d32b946cb1d120a5eec5a2e50197f35a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713516"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580406"
 ---
 # <a name="monitor-service-activities"></a>Surveillance des activités du service 
 
