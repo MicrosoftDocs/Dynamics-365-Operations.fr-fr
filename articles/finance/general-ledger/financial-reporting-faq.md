@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733609"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605277"
 ---
 # <a name="financial-reporting-faq"></a>FAQ sur les états financiers
 
@@ -80,7 +80,7 @@ Le message indique qu’un problème s’est produit lorsque le système a tent�
 
 ## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Comment la sélection de la conversion des taux historiques affecte-t-elle les performances des états ?
 
-Le taux historique est généralement utilisé avec les bénéfices non répartis, les immobilisations corporelles et les comptes de capitaux propres. Le taux historique peut être requis, sur la base des directives du Bureau des normes comptables financières (FASB) ou des principes comptables généralement reconnus (PCGR). Pour plus d’informations, consultez [Fonctionnalités de devise dans les rapports financiers](financial-reporting-currency-capability.md).
+Le taux historique est généralement utilisé avec les bénéfices non répartis, les immobilisations corporelles et les comptes de capitaux propres. Le taux historique peut être requis, sur la base des directives du Bureau des normes comptables financières (FASB) ou des principes comptables généralement reconnus (PCGR). Pour plus d’informations, consultez [Fonctionnalités de devise dans les états financiers](financial-reporting-currency-capability.md).
 
 ## <a name="how-many-types-of-currency-rate-are-there"></a>Combien y a-t-il de types de taux de change ?
 
@@ -98,8 +98,31 @@ Pour la conversion historique des devises, les soldes de période précalculés 
 
 ## <a name="how-does-historical-currency-translation-affect-performance"></a>Comment la conversion historique des devises affecte-t-elle les performances ?
 
-Lorsque les données présentées sur les rapports sont mises à jour, il peut y avoir un retard car les montants doivent être recalculés en vérifiant les détails de la transaction. Ce délai est déclenché chaque fois que les taux sont mis à jour ou que plusieurs transactions sont affichées. Par exemple, si des milliers de comptes sont configurés pour la conversion historique plusieurs fois par jour, il peut y avoir un délai pouvant aller jusqu’à une heure avant que les données du rapport soient mises à jour. En revanche, s’il y a un plus petit nombre de comptes spécifiques, les délais de traitement des mises à jour des données du rapport peuvent être réduits à quelques minutes ou moins.
+Lorsque les données présentées sur les états sont mises à jour, il peut y avoir un retard car les montants doivent être recalculés en vérifiant les détails de la transaction. Ce délai est déclenché chaque fois que les taux sont mis à jour ou que plusieurs transactions sont affichées. Par exemple, si des milliers de comptes sont configurés pour la conversion historique plusieurs fois par jour, il peut y avoir un délai pouvant aller jusqu’à une heure avant que les données de l’état soient mises à jour. En revanche, s’il y a un plus petit nombre de comptes spécifiques, les délais de traitement des mises à jour des données de l’état peuvent être réduits à quelques minutes ou moins.
 
-De même, lorsque les rapports sont générés en utilisant la conversion de devise pour les comptes de type historique, il y aura des calculs supplémentaires par transaction. Selon le nombre de comptes, le temps de génération des rapports peut plus que doubler.
+De même, lorsque les états sont générés en utilisant la conversion de devise pour les comptes de type historique, il y aura des calculs supplémentaires par transaction. Selon le nombre de comptes, le temps de génération des états peut plus que doubler.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Quels sont les intervalles d’intégration estimés pour le mini-data warehouse ?
+
+Financial Reporter utilise 16 tâches pour copier des données entre Dynamics 365 Finance et la base de données Financial Reporter. Le tableau suivant répertorie ces 16 tâches et indique l’intervalle qui spécifie la fréquence d’exécution de chaque tâche. Les intervalles ne peuvent pas être modifiés.
+
+| Nom                                                       | Intervalle | Unité de temps |
+|------------------------------------------------------------|----------|-----------------|
+| Catégories de compte AX 2012 vers Catégorie de compte            | 41       | Minutes         |
+| Comptes AX 2012 vers Compte                                | 7        | Minutes         |
+| Entreprises AX 2012 vers Entreprises                               | 300      | Secondes         |
+| Entreprises AX 2012 vers Organisation                          | 23       | Minutes         |
+| Combinaisons de dimensions AX 2012 vers Combinaison de dimensions    | 1        | Minutes         |
+| Valeurs de dimension AX 2012 vers Valeur de dimension                | 11       | Minutes         |
+| Dimensions AX 2012 vers Dimension                            | 31       | Minutes         |
+| Taux de change AX 2012 vers Taux de change                    | 17       | Minutes         |
+| Exercices AX 2012 vers Exercice                        | 13       | Minutes         |
+| Transactions de la comptabilité AX 2012 vers Récapitulatif                | 1        | Minutes         |
+| Hiérarchies d’organisation AX 2012 vers Arborescence                   | 3 600    | Secondes         |
+| Scénarios AX 2012 vers Scénario                              | 29       | Minutes         |
+| Qualificatifs de type de transaction AX 2012 vers Qualificatif de type de récapitulatif | 19       | Minutes         |
+| Tâche de maintenance                                           | 1        | Minutes         |
+| Définitions d’état MR vers États financiers AX7             | 45       | Secondes         |
+| Versions des états MR vers Versions des états financiers AX         | 45       | Secondes         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

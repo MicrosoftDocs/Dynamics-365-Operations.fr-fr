@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Créer un accord commercial
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Améliorations des performances du nettoyage de l’historique des ventes
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Gestion des services
           items:
             - name: Vue d’ensemble de gestion des services
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Ventes et marketing
               items:
+                - name: La tâche de nettoyage de l’historique des mises à jour des ventes a échoué ou présente des problèmes de performances
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Un élément d’offre groupée n’est pas pris en charge dans un processus intersociétés
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: Impossible d’annuler une commande fournisseur intersociétés liée à une commande client

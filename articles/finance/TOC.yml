@@ -1192,8 +1192,10 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Composants de l’état financier
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: Fonctionnalités de devise dans les rapports financiers
+            - name: Fonctionnalités de devise dans les états financiers
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Calcul des bénéfices non répartis dans les états financiers
+              href: general-ledger/retained-earnings-enhancements.md
             - name: États financiers du bilan
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Générer les états financiers
