@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773343"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641109"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Activer Power BI pour la comptabilité globale des stocks
 
@@ -49,7 +49,10 @@ Pour configurer l’intégration de Power BI, procédez comme suit.
 1. Configurez le rapport Power BI **Comptabilité globale des stocks** en suivant ces étapes :
 
     1. Accédez à **Mon espace de travail**, recherchez le jeu de données pour la comptabilité globale des stocks puis, dans le menu **Options**, sélectionnez **Paramètres**.
-    1. Dans **Paramètres de la comptabilité globale des stocks**, développez **Paramètres** et mettez à jour tous les paramètres si nécessaire.
+    1. Dans **Paramètres de la comptabilité globale des stocks**, développez **Paramètres** et mettez à jour tous les paramètres si nécessaire. En particulier, assurez-vous de vérifier les paramètres suivants :
+        1. Remplacez les valeurs par défaut **URL Dataverse** et **ID d'environnement** en utilisant les valeurs trouvées sur la page **Détails de l'environnement** dans LCS (dans la section **Intégration Power Platform**).
+        1. Sélectionnez le lien **Modifier les identifiants** à côté de l'étiquette **CD** dans la section **Identifiants de la source de données**. Connectez-vous ensuite à votre compte Dataverse en utilisant la méthode d'authentification **OAuth2**.
+    1. Vérifiez que les rapports Power BI trouvés sur **Mon espace de travail \> Rapports \> Comptabilité globale des stocks** fonctionnent désormais correctement et affichent le contenu de votre système.
 
 1. Enregistrez l’application comme décrit dans [Configurer l’intégration PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Intégrez le fichier de rapport Power BI **Comptabilité globale des stocks** dans Dynamics 365 Supply Chain Management en suivant les étapes ci-après :

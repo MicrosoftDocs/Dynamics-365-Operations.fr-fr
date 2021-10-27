@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568685"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645804"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Différences entre la planification générale intégrée et l’optimisation de la planification
 
@@ -29,7 +29,7 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 | Dimensions extensibles | Les dimensions extensibles sont vides sur les ordres prévisionnels, même lorsque la case **Plan de couverture par dimension** est cochée sur la page **Groupes de dimensions de stockage** ou **Groupes de dimensions de suivi**. |
 | Cycles de production filtrés | Pour plus de détails, voir [Planification de la production - Filtres](production-planning.md#filters). |
 | Planification prévisionnelle | La planification prévisionnelle n’est pas prise en charge. Nous vous recommandons d’utiliser la planification générale dans laquelle un modèle de prévision est affecté au plan général. |
-| Souches de numéros pour les ordres prévisionnels | Les souches de numéros pour les ordres prévisionnels ne sont pas prises en charge. Les numéros des ordres prévisionnels sont générés côté service. |
+| Souches de numéros pour les ordres prévisionnels | Les souches de numéros pour les ordres prévisionnels ne sont pas prises en charge. Les numéros des ordres prévisionnels sont générés côté service. Le numéro de commande planifiée est normalement affiché avec 10 chiffres, mais la séquence est en fait construite sur 20 caractères, avec 10 chiffres alloués pour le nombre de cycles de planification et les 10 autres chiffres pour le nombre de commandes planifiées. |
 | Copie de plan, suppression de plan et le nettoyage de version de plan | <p>Les éléments suivants sont désactivés sous **Planification \> Planification \> Tenir à jour les plans** dans le volet de navigation :</p><ul><li>Copier un plan</li><li>Suppression de programme</li><li>Nettoyage de la version du plan</li></ul> |
 | Ordres de retour | Les ordres de retour ne sont pas pris en compte. |
 | Fonctionnalités liées à la planification | Pour plus de détails, voir [Planification avec une capacité infinie](infinite-capacity-planning.md#limitations). |

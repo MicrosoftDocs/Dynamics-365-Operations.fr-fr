@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773786"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605183"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
 
@@ -92,7 +92,7 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 59. Cliquez sur Ajouter un attribut.
 60. Dans le champ Nom, tapez « Desc ».
 61. Cliquez sur OK.
-![Page Concepteur d’opérations de gestion des états électroniques.](../media/er-financial-dimensions-guides-format1.png)
+![Arborescence de la page Concepteur de formats.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mettre en correspondance les éléments d’état avec les sources de données
 1. Cliquez sur l’onglet Mise en relation.
@@ -141,7 +141,7 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 44. Cliquez sur Lier.
 45. Cliquez sur Enregistrer.
 46. Fermez la page.
-![Page Concepteur d’opérations de gestion des états électroniques.](../media/er-financial-dimensions-guides-format2.png)
+![Page de concepteur de format, éléments de rapport mappés sur des sources de données.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

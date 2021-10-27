@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718549"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605369"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurer les mises en correspondance de modèle de gestion des états électroniques selon le contexte du pays
 
@@ -48,7 +48,7 @@ Certaines étapes de cette rubrique requièrent l’exécution d’un format de 
 
 Suivez les étapes de l’[Annexe 1](#appendix1) de cette rubrique pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais la configuration de mise en correspondance de modèle **Mise en correspondance (Général)** qui contient la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
 
-![Page Configurations ER.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![Page des configurations ER, Format pour apprendre la configuration des mappages.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Exécuter le format configuré
 
@@ -61,7 +61,7 @@ Sachez que le navigateur Internet propose de télécharger le fichier texte qui 
 
 Suivez les étapes de l’[Annexe 2](#appendix2) de cette rubrique pour concevoir les composants de gestion des états électroniques requis. Vous avez désormais les configurations de mise en correspondance de modèle **Mise en correspondance (Général)** et **Mise en correspondance (Général) personnalisée** qui contient la mise en correspondance du modèle pour la définition **Point d’entrée 1**.
 
-![Page Configurations ER.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![Page des configurations ER, Mappage de la configuration personnalisée générale.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Exécuter le format configuré
 
@@ -71,7 +71,7 @@ Suivez les étapes de l’[Annexe 2](#appendix2) de cette rubrique pour concevo
 
 Notez que l’exécution du format de gestion des états électroniques sélectionné est un échec. Un message d’erreur vous informe que plus d’une mise en correspondance de modèle existe pour le modèle **Modèle pour apprendre les mises en correspondances** et la définition **Point d’entrée 1** dans les configurations de mise en correspondance de modèle **Mise en correspondance (Général)** et **Mise en correspondance (Général) personnalisée**. Le message vous recommande également de sélectionner une de ces configurations en tant que configuration par défaut.
 
-![Page Configurations ER.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Page de configuration ER avec message d'erreur.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Définir une configuration de mise en correspondance par défaut
 
@@ -82,7 +82,7 @@ Procédez comme suit pour définir la configuration de mise en correspondance de
 3.  Définissez l’option **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**.
 4.  Sélectionnez **Enregistrer**.
 
-![Page Configurations ER.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![Page des configurations ER, valeur par défaut pour le curseur de mappage du modèle défini sur Oui.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Exécuter le format configuré
 
@@ -101,7 +101,7 @@ Suivez les étapes de l’[Annexe 3](#appendix3) de cette rubrique pour concevo
 
 Notez que la version 1 de la configuration de mise en correspondance du modèle **Mise en correspondance (FR)** est configurée pour qu’elle s’applique uniquement aux formats de gestion des états électroniques du modèle **Modèle pour apprendre les mises en correspondance** qui sont exécutés dans les sociétés Finance dont le contexte de pays/région est le français.
 
-![Page Configurations ER.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![Page des configurations ER, Configuration du mappage de modèle (FR)](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Exécuter le format configuré
 
@@ -121,7 +121,7 @@ Procédez comme suit pour définir la configuration de mise en correspondance du
 3.  Définissez l’option **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**.
 4.  Sélectionnez **Enregistrer**.
 
-![Page Configurations ER.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![Page des configurations ER, mappage (FR) de la configuration, valeur par défaut pour le curseur de mappage du modèle défini sur Oui.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Exécuter le format configuré
 
@@ -276,7 +276,7 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 5.  Sélectionnez **Enregistrer**.
 6.  Fermez la page **Concepteur de formule**.
 
-    ![Page du concepteur de mise en correspondance des modèles ER.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Page du concepteur de mappage de modèle ER, définition du point d'entrée 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Sélectionnez **Enregistrer**.
 8.  Fermez la page **Concepteur de mise en correspondance des modèles**.
@@ -289,12 +289,12 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 15. Sélectionnez **Enregistrer**.
 16. Fermez la page **Concepteur de formule**.
 
-    ![Page du concepteur de mise en correspondance des modèles ER.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Page du concepteur de mappage de modèle ER, définition du point d'entrée 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Sélectionnez **Enregistrer**.
 18. Fermez la page **Concepteur de mise en correspondance des modèles**.
 
-    ![Page Mises en correspondance de modèle de gestion des états électroniques.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Page de mappages de modèles ER avec définitions de points d'entrée.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Fermez la page **Mises en correspondance des modèles**.
 
@@ -369,7 +369,7 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 6.  Sélectionnez **Enregistrer**.
 7.  Fermez la page.
 
-    ![Page du concepteur de mise en correspondance des modèles ER.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![Page du concepteur de mappage de modèle ER, fonctionnalité générique 1 formule personnalisée.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Sélectionnez **Enregistrer**.
 9.  Fermez la page.
@@ -380,12 +380,12 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 14. Sélectionnez **Enregistrer**.
 15. Fermez la page.
 
-    ![Page du concepteur de mise en correspondance des modèles ER.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![Page du concepteur de mappage de modèle ER, fonctionnalité générique 2 formule personnalisée.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Sélectionnez **Enregistrer**.
 17. Fermez la page.
 
-    ![Page Mises en correspondance de modèle de gestion des états électroniques.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![Page de mappage du modèle ER à la source de données pour le mappage de copie de mappage (général).](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Fermez la page.
 
@@ -432,7 +432,7 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 7.  Sélectionnez **Enregistrer**.
 8.  Fermez la page.
 
-    ![Page du concepteur de mise en correspondance des modèles ER.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![Page du concepteur de mappage de modèle ER, formule fonctionnalité 1 FR](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Sélectionnez **Enregistrer**.
 10. Fermez la page.
@@ -444,12 +444,12 @@ Notez que la version temporaire 1 de cette configuration de gestion des états �
 16. Sélectionnez **Enregistrer**.
 17. Fermez la page.
 
-    ![Page du concepteur de mise en correspondance des modèles ER.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![Page du concepteur de mappage de modèle ER, formule fonctionnalité 2 FR](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Sélectionnez **Enregistrer**.
 19. Fermez la page.
 
-    ![Page Mises en correspondance de modèle de gestion des états électroniques.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![Modèle ER de la page de mappage des sources de données.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Fermez la page.
 

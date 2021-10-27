@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769922"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605203"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Suivre les résultats de rapport généré et les comparer avec des valeurs de base
 
@@ -76,7 +76,7 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, tapez **Modèle d’apprentissage des références ER**.
 4. Sélectionnez **Créer une configuration** pour confirmer la création d’une nouvelle entrée de modèle de données ER.
 
-![Boîte de dialogue déroulante Créer une configuration.](media/GER-BaselineSample-ModelAdd.PNG "Capture d’écran de la boîte de dialogue de menu déroulant Créer une configuration")
+![Boîte de dialogue Créer une configuration, ajouter une nouvelle configuration de modèle ER.](media/GER-BaselineSample-ModelAdd.PNG "Capture d’écran de la boîte de dialogue de menu déroulant Créer une configuration")
 
 ### <a name="design-a-data-model"></a>Élaborer un modèle de données
 
@@ -99,7 +99,7 @@ Pour effectuer les étapes de cet exemple, vous devez commencer par effectuer le
 3. Dans le champ **Nom**, entrez **Format pour l’apprentissage des références ER**.
 4. Sélectionnez **Créer une configuration** pour confirmer la création d’une nouvelle entrée de format ER.
 
-![Boîte de dialogue déroulante Créer une configuration.](media/GER-BaselineSample-FormatAdd.PNG "Capture d’écran de la boîte de dialogue de menu déroulant Créer une configuration")
+![Boîte de dialogue Créer une configuration, ajouter une nouvelle configuration de format ER.](media/GER-BaselineSample-FormatAdd.PNG "Capture d’écran de la boîte de dialogue de menu déroulant Créer une configuration")
 
 ### <a name="design-a-format"></a>Concevoir un format
 
@@ -107,41 +107,41 @@ Pour cet exemple, vous allez créer un format ER simple pour générer des docum
 
 1. Dans la page **Configurations**, dans le volet Action, sélectionnez **Concepteur**.
 2. Sélectionnez **Ajoutez racine**.
-2. Dans la boîte de dialogue déroulante, procédez comme suit :
+3. Dans la boîte de dialogue déroulante, procédez comme suit :
 
     1. Dans l’arborescence, sélectionnez **Common\\File**.
     2. Dans le champ **Nom**, entrez **Production**.
     3. Cliquez sur **OK**.
 
-3. Sélectionnez **Ajouter**.
-4. Dans la boîte de dialogue déroulante, procédez comme suit :
+4. Sélectionnez **Ajouter**.
+5. Dans la boîte de dialogue déroulante, procédez comme suit :
 
     1. Dans l’arborescence, sélectionnez **XML\\Element**.
     2. Dans le champ **Nom**, entrez **Document**.
     3. Cliquez sur **OK**.
 
-5. Dans l’arborescence, sélectionnez **Résultat\\Document**.
-6. Sélectionnez **Ajouter**.
-7. Dans la boîte de dialogue déroulante, procédez comme suit :
+6. Dans l’arborescence, sélectionnez **Résultat\\Document**.
+7. Sélectionnez **Ajouter**.
+8. Dans la boîte de dialogue déroulante, procédez comme suit :
 
     1. Dans l’arborescence, sélectionnez **XML\\Attribute**.
     2. Dans le champ **Nom**, entrez **Identifiant**.
     3. Cliquez sur **OK**.
 
-    ![Page Concepteur de formats.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Capture d’écran de la page Concepteur de format")
+    ![Page du concepteur de format, attribut XML sélectionné dans l'arborescence.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Capture d’écran de la page Concepteur de format")
 
-8. Dans l’onglet **Mise en correspondance**, sélectionnez **Supprimer**.
-9. Sélectionnez **Ajoutez racine**.
-10. Dans la boîte de dialogue déroulante, dans l’arborescence, sélectionnez **Général\\Paramètres d’entrée utilisateur**, puis procédez comme suit :
+9. Dans l’onglet **Mise en correspondance**, sélectionnez **Supprimer**.
+10. Sélectionnez **Ajoutez racine**.
+11. Dans la boîte de dialogue déroulante, dans l’arborescence, sélectionnez **Général\\Paramètres d’entrée utilisateur**, puis procédez comme suit :
 
     1. Dans le champ **Nom**, entrez **Identifiant**.
     2. Dans le champ **Étiquette**, entrez **Entrer l’identifiant**.
     3. Cliquez sur **OK**.
 
-11. Dans l’arborescence, sélectionnez **Résultat\\Document\\Id**.
-12. Sélectionnez **Lier**, puis sélectionnez **Enregistrer**.
+12. Dans l’arborescence, sélectionnez **Résultat\\Document\\Id**.
+13. Sélectionnez **Lier**, puis sélectionnez **Enregistrer**.
 
-![Page Concepteur de formats.](media/GER-BaselineSample-FormatMappingDesign.PNG "Capture d’écran de la page Concepteur de format")
+![Page de concepteur de format, onglet Mappage.](media/GER-BaselineSample-FormatMappingDesign.PNG "Capture d’écran de la page Concepteur de format")
 
 Selon la structure conçue, le format configuré génère un fichier XML. Ce fichier XML contient l’élément **Racine** qui a l’attribut **ID** défini sur la valeur que l’utilisateur entre dans la boîte de dialogue de l’exécution ER.
 
@@ -201,7 +201,7 @@ La base de référence est ajoutée au format **Format pour l’apprentissage de
 10. Dans le champ **Base de référence**, entrez ou sélectionnez la pièce jointe **out.Admin**.
 11. Sélectionnez **Enregistrer**.
 
-![Page Références de base du format de gestion des états électroniques.](media/GER-BaselineSample-SetupBaselineLine.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
+![Références de base de la gestion des états électroniques, Raccourci Bases de références avec une base sélectionnée.](media/GER-BaselineSample-SetupBaselineLine.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Exécutez le format ER conçu et consultez le journal pour analyser les résultats
 
@@ -212,7 +212,7 @@ La base de référence est ajoutée au format **Format pour l’apprentissage de
 5. Cliquez sur **OK**.
 6. Accédez à **Administration d’organisation** \> **États électroniques** \> **Journaux de débogage des configurations**.
 
-    ![Page Journaux d’exécution de la gestion des états électroniques.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
+    ![Page des journaux d'exécution de rapports électroniques, avec des lignes de base égales.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
 
     > [!NOTE]
     > Le journal d’exécution contient des informations sur le résultat de la comparaison du fichier généré avec la base de référence configurée. Dans cet exemple, le journal indique que le fichier généré et la base de référence sont égaux.
@@ -228,7 +228,7 @@ La base de référence est ajoutée au format **Format pour l’apprentissage de
 5. Cliquez sur **OK**.
 6. Accédez à **Administration d’organisation** \> **États électroniques** \> **Journaux de débogage des configurations**.
 
-    ![Page Journaux d’exécution de la gestion des états électroniques.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
+    ![Page des journaux d'exécution de rapports électroniques, avec des lignes de base différentes.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Capture d’écran de la page Journaux d’exécution de la gestion des états électroniques")
 
     > [!NOTE]
     > Le journal d’exécution contient des informations sur le résultat de la comparaison du fichier généré avec la base de référence configurée. Dans cet exemple, le journal indique que le fichier généré et la base de référence sont différents.

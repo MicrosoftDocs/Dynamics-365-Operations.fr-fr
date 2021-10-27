@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488081"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644525"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -49,7 +49,7 @@ Les environnements d’essai ne sont pas destinés à être utilisés comme envi
 Lors de la création d’un environnement d’essai Human Resources, un environnement d’essai Power Apps est également créé sur le locataire et est lié à l’environnement Human Resources. L’environnement Power Apps, nommé « TestDrive », a la même période d’essai que l’environnement Human Resources.
 
 > [!NOTE]
-> L’approvisionnement d’un environnement d’essai Human Resources échouera si l’utilisateur authentifié n’a pas l’autorisation de créer d’environnement d’essai Power Apps. L’utilisateur doit être inclus dans le groupe d’utilisateurs qui peut créer des environnements d’essai dans le centre d’administration de Power Platform. Pour plus d’informations, consultez [Contrôler qui peut créer et gérer des environnements dans le centre d’administration de Power Platform](//power-platform/admin/control-environment-creation).
+> L’approvisionnement d’un environnement d’essai Human Resources échouera si l’utilisateur authentifié n’a pas l’autorisation de créer d’environnement d’essai Power Apps. L’utilisateur doit être inclus dans le groupe d’utilisateurs qui peut créer des environnements d’essai dans le centre d’administration de Power Platform. Pour plus d’informations, consultez [Contrôler qui peut créer et gérer des environnements dans le centre d’administration de Power Platform](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planifier les environnements Human Resources
 

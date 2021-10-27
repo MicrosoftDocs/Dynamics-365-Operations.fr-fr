@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770018"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605228"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajuster un format de gestion des états électroniques pour générer un document électronique personnalisé
 
@@ -160,7 +160,7 @@ Pour ajouter les configurations de gestion des états électroniques standard à
     - **Mise en correspondance des modèles de paiement 1611** – Cette configuration contient le composant de gestion des états électroniques [Mise en correspondance des modèles](general-electronic-reporting.md#data-model-and-model-mapping-components) qui décrit comment le modèle de données est rempli avec les données d’application au moment de l’exécution.
     - **BACS (UK)** – Cette configuration contient les composants de gestion des états électroniques [Format](general-electronic-reporting.md#FormatComponentOutbound) et Mise en correspondance des formats. Le composant Format spécifie la présentation de l’état. Le composant Mise en correspondance des formats contient la source de données du modèle et spécifie comment la présentation de l’état est remplie en utilisant cette source de données au moment de l’exécution.
 
-![Page Configurations.](./media/er-quick-start2-imported-solution1.png)
+![Page de configurations avec les configurations ER spécifiées disponibles dans l'arborescence.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Préparer un paiement fournisseur pour traitement
 
@@ -222,7 +222,7 @@ Vous devez configurer le mode de paiement électronique afin qu’il utilise la 
 4. Dans l’organisateur **Formats de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK)**.
 
-    ![Page Modes de paiement – fournisseurs.](./media/er-quick-start2-method-of-payment1.png)
+    ![Modes de paiement - page fournisseurs pour configurer un mode de paiement électronique afin de traiter les paiements des fournisseurs à l'aide d'un format standard.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -273,7 +273,7 @@ Dans ce cas, en tant que représentant de Litware, Inc., vous devez créer (dér
 
 La version 1.1.1 de la configuration du format de gestion des états électroniques **BACS (UK custom)** est créée. Cette version présente le [statut](general-electronic-reporting.md#component-versioning) **Brouillon** et peut être modifiée. Le contenu actuel de votre format de gestion des états électroniques personnalisé correspond au contenu du format fourni par Microsoft.
 
-![Page Configurations.](./media/er-quick-start2-derived-format-configuration1.png)
+![Page de configurations avec la version 1.1.1 de la configuration du format ER BACS (UK custom).](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Modifier un format personnalisé
 
@@ -349,7 +349,7 @@ Vous devez configurer le mode de paiement électronique afin que votre format de
 4. Dans l’organisateur **Format de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK custom)**.
 
-    ![Page Modes de paiement – fournisseurs.](./media/er-quick-start2-method-of-payment2.png)
+    ![Modes de paiement - page fournisseurs pour configurer un mode de paiement électronique afin de traiter les paiements des fournisseurs à l'aide d'un format personnalisé.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -378,7 +378,7 @@ Vous devez configurer le mode de paiement électronique afin que votre format de
 
         Notez que, conformément à la structure de votre format de gestion des états électroniques personnalisé, la ligne de paiement du fichier généré [commence](#PositionSWIFTCode) maintenant par le code SWIFT qui a été [entré](#DefineSWIFTCode) pour le compte bancaire du vendeur dont le paiement a été traité.
 
-        ![Fichier de paiement au format TXT.](./media/er-quick-start2-payment-file2.png)
+        ![Fichier de paiement au format TXT utilisé pour traiter le paiement du fournisseur.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Importer les nouvelles versions des configurations du format de gestion des états électroniques standard
 
@@ -395,7 +395,7 @@ Pour ajouter les nouvelles versions des configurations de gestion des états él
 5. Dans l’organisateur **Versions**, sélectionnez la version **3.3** de la configuration du format de gestion des états électroniques sélectionnée.
 6. Sélectionnez **Importer** pour télécharger la version sélectionnée depuis le référentiel global vers l’instance actuelle de Finance.
 
-![Page du référentiel de configuration.](./media/er-quick-start2-import-solution2.png)
+![Page Référentiel de configuration, raccourci Versions, bouton Importer.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Si vous ne parvenez pas à accéder au [Référentiel global](er-download-configurations-global-repo.md), vous pouvez [télécharger les configurations](download-electronic-reporting-configuration-lcs.md) depuis LCS.
@@ -507,7 +507,7 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
 
         Notez que la ligne de paiement du fichier généré commence par le code SWIFT qui a été entré pour le compte bancaire d’un vendeur dont le paiement a été traité.
 
-        ![Fichier de paiement au format TXT.](./media/er-quick-start2-payment-file3.png)
+        ![Fichier de paiement au format TXT utilisé pour traiter le paiement du fournisseur à l'aide d'un format ER redéfini.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Ressources supplémentaires
 

@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble de consolidations financières et conversion de devises
 description: Cette rubrique décrit les consolidations financières et la conversion de devises dans le module Comptabilité.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748978"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615933"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d’ensemble de consolidations financières et conversion de devises
 
@@ -182,5 +182,17 @@ Voici quelques-uns des scénarios de consolidation pris en charge par l’outil 
 ## <a name="generating-consolidated-financial-statements"></a>Génération de tableaux d’analyse consolidés
 Pour plus d’informations sur les scénarios où vous pouvez générer des tableaux d’analyse consolidés, voir [Générer des tableaux d’analyse consolidés](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Améliorations des performances pour les consolidations importantes
+
+Les environnements comportant de nombreuses transactions comptables peuvent s'exécuter plus lentement que ce qui est optimal. Pour résoudre ce problème, vous pouvez configurer un traitement parallèle des lots qui utilise un nombre de dates défini par l'utilisateur. Pour vous assurer que la solution fonctionne comme prévu, ajoutez un point d'extension à la consolidation pour renvoyer un conteneur de plages de dates. L'implémentation de base doit contenir une plage de dates pour l'état de début et la date de fin de la consolidation. Les plages de dates dans l'implémentation de base seront validées pour s'assurer qu'elles ne contiennent pas d'espaces ou de chevauchement. Les plages de dates seront utilisées pour créer des lots de lots parallèles pour chaque entreprise.
+
+Vous pouvez personnaliser le nombre de plages de dates pour répondre aux besoins de votre organisation. En personnalisant le nombre de plages de dates, vous pouvez contribuer à simplifier les tests et à minimiser l'impact sur le code existant, car il n'y a pas de logique d'allocation. Les seuls nouveaux tests requis valident la création de lots de lots, valident des plages de dates et testent un sous-ensemble de plages de dates pour vérifier que les lots peuvent être réunis pour la tâche de lot finale. 
+
+Cette fonctionnalité améliore le processus de consolidation dans la comptabilité lorsque le processus est exécuté dans un lot. L'amélioration améliore les performances du processus de consolidation de la comptabilité en divisant la consolidation en plusieurs tâches pouvant être traitées en parallèle. Dans la méthode par défaut d'exécution d'une consolidation, chaque tâche traite huit jours d'activité de la comptabilité. Cependant, un point d'extension a été ajouté qui vous permet de personnaliser le nombre de tâches qui sont créées.
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+
+- **Module :** Comptabilité
+- **Nom de la fonctionnalité :** Amélioration des performances pour les grandes consolidations
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 091c953146850166ef1c93749d9bc2ec0b6a80fe58bdcb3c3d3b00bf45e7b0fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761828"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645780"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -40,7 +40,7 @@ Avant d’activer l’Optimisation de la planification, nous vous recommandons f
 
 ## <a name="availability"></a>Disponibilité
 
-Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Europe, Royaume-Uni, Australie et Asie-Pacifique. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge.
+Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Europe, Royaume-Uni, Australie, Asie-Pacifique et le Japon. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d'informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Notez que Optimisation de la planification ne prend pas en charge les déploiements locaux de Dynamics 365 Supply Chain Management.
 

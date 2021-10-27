@@ -2,7 +2,7 @@
 title: Vue d’ensemble des tâches d’importation et d’exportation de données
 description: L’espace de travail Gestion des données vous permet de créer et de gérer des tâches d’importation et d’exportation de données.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404032"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612362"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -198,16 +198,10 @@ Lors de la planification du processus de nettoyage, les paramètres suivants doi
 > [!NOTE]
 > Si les enregistrements des tables intermédiaires ne sont pas complètement nettoyés, assurez-vous que la tâche de nettoyage est planifiée pour s’exécuter périodiquement. Comme expliqué ci-dessus, lors de l’exécution du nettoyage, la tâche va nettoyer autant d’ID d’exécution que possible dans le nombre maximal d’heures indiqué. Pour continuer le nettoyage des enregistrements intermédiaires restants, la tâche doit être planifiée pour s’exécuter périodiquement.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Nettoyage et archivage de l’historique des tâches (disponible pour un aperçu dans Platform update 39 ou la version 10.0.15)
+## <a name="job-history-clean-up-and-archival"></a>Nettoyage et archivage de l'historique des tâches 
 La fonctionnalité de nettoyage et d’archivage de l’historique des tâches remplace les versions précédentes de la fonctionnalité de nettoyage. Cette section explique ces nouvelles fonctionnalités.
 
-L’un des principaux changements apportés à la fonctionnalité de nettoyage est l’utilisation du traitement par lots du système pour nettoyer l’historique. L’utilisation du traitement par lots système permet aux applications Finance and Operations d’obtenir que e traitement par lots de nettoyage soit automatiquement planifié et exécuté dès que le système est prêt. Il n’est plus nécessaire de planifier manuellement le traitement par lots. Dans ce mode d’exécution par défaut, le traitement par lots s’exécutera toutes les heures à partir de minuit et conservera l’historique d’exécution des 7 jours les plus récents. L’historique purgé est archivé pour une récupération ultérieure.
-
-> [!NOTE]
-> Étant donné que cette fonctionnalité est en version préliminaire, le traitement par lots système ne supprimera aucun historique d’exécution tant qu’il ne sera pas activé via le déploiement en mode Flighting DMFEnableExecutionHistoryCleanupSystemJob. Lorsque la fonctionnalité est généralement disponible dans une version ultérieure, ce vol ne sera pas nécessaire et le traitement par lots du système commencera à se purger et à archiver une fois que le système sera prêt, en fonction du calendrier défini comme expliqué ci-dessus. 
-
-> [!NOTE]
-> Dans une prochaine version, les versions précédentes de la fonctionnalité de nettoyage seront supprimées des applications Finance and Operations.
+L’un des principaux changements apportés à la fonctionnalité de nettoyage est l’utilisation du traitement par lots du système pour nettoyer l’historique. L’utilisation du traitement par lots système permet aux applications Finance and Operations d’obtenir que e traitement par lots de nettoyage soit automatiquement planifié et exécuté dès que le système est prêt. Il n’est plus nécessaire de planifier manuellement le traitement par lots. Dans ce mode d’exécution par défaut, le traitement par lots s’exécutera toutes les heures à partir de minuit et conservera l’historique d’exécution des 7 jours les plus récents. L’historique purgé est archivé pour une récupération ultérieure. À partir de la version 10.0.20, cette fonctionnalité est toujours activée.
 
 Le deuxième changement dans le processus de nettoyage est l’archivage de l’historique d’exécution purgé. La tâche de nettoyage archivera les enregistrements supprimés dans le stockage d’objets blob que DIXF utilise pour les intégrations régulières. Le fichier archivé sera au format de package DIXF et sera disponible pendant 7 jours dans le blob pendant lequel il pourra être téléchargé. La longévité par défaut de 7 jours pour le fichier archivé peut être modifiée à un maximum de 90 jours dans les paramètres.
 

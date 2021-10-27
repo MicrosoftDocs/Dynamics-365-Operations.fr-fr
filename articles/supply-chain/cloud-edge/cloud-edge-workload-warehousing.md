@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500425"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641158"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -171,7 +171,8 @@ La fonctionnalité de gestion d’entrepôt suivante n’est actuellement pas pr
 - Traitement avec stock disponible négatif.
 - Traitement du travail en entrepôt avec notes d’expédition.
 - Traitement du travail en entrepôt avec manutention des matières/Warehouse Automation.
-- Utilisation de l’image des données principales du produit (par exemple, sur l’application mobile Warehouse Management).
+- Images des données principales du produit (par exemple, sur l’application mobile Warehouse Management).
+- Partage de données entre sociétés pour les produits.
 
 > [!WARNING]
 > Certaines fonctionnalités d’entrepôt ne seront pas disponibles pour les entrepôts exécutant les charges de travail de gestion d’entrepôt sur une unité d’échelle et ne sont pas non plus prises en charge sur le hub ou sur la charge de travail de l’unité d’échelle.
@@ -187,11 +188,10 @@ Le tableau suivant indique quelles fonctionnalités sortantes sont prises en cha
 | Processus                                                      | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle |
 |--------------------------------------------------------------|-----|------------------------------|
 | Traitement du document source                                   | Oui | N° |
-| Traitement de la gestion du transport et du chargement                | Oui, mais uniquement les processus de planification des chargements. Le traitement de la gestion des transports n’est pas pris en charge  | N° |
-| Marchandises au débarquement et en transit                                         | Oui | N° |
-| Mise en production dans l’entrepôt                                         | Oui | N° |
+| Traitement de la gestion du transport et du chargement                | Oui, mais uniquement les processus de planification des chargements. Le traitement de la gestion des transports n'est pas pris en charge  | N° |
+| Lancement vers l'entrepôt                                         | Oui | N° |
 | Cross-docking planifié                                        | N°  | N° |
-| Consolidation d’expédition                                       | Oui, lors de l’utilisation de la planification des chargements | Oui |
+| Regroupement d'expéditions                                       | Oui, lors de l’utilisation de la planification des chargements | Oui |
 | Traitement de vague d’expédition                                     | N°  |Oui, sauf **Création et tri de chargement** |
 | Gérer les expéditions pour la vague                                  | N°  | Oui|
 | Traitement du travail en entrepôt (y compris impression de contenant)        | N°  | Oui, mais uniquement pour les fonctionnalités prises en charge mentionnées précédemment |
@@ -224,6 +224,7 @@ Le tableau suivant indique quelles fonctionnalités entrantes sont prises en cha
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
 | Traitement&nbsp;document&nbsp;source                             | Oui | N° |
 | Traitement de la gestion du transport et du chargement                    | Oui | N° |
+| Marchandises au débarquement et en transit                       | Oui | N° |
 | Confirmation d’envoi entrant                                    | Oui | N° |
 | Lancement de la commande fournisseur vers l’entrepôt (traitement des commandes entrepôt) | Oui | N° |
 | Annulation des lignes de commande d’entrepôt<p>Notez que cela n’est pris en charge que lorsqu’aucun enregistrement n’a eu lieu sur la ligne</p> | Oui | N° |

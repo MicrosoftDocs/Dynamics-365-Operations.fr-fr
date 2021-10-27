@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749822"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605253"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 
@@ -58,8 +58,6 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 1.  Sélectionnez l’entité juridique **DEMF**.
 2.  Dans l’arborescence des configurations, sélectionnez le format **Format pour apprendre comment rechercher les données LE**.
 3.  Dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres spécifiques à l’application**, sélectionnez **Configurer**.
-
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Sur la page **Paramètres spécifiques à l’application**, vous pouvez configurer les règles pour la source données **Sélecteur** du format **Format pour apprendre comment rechercher les données LE**.
     
@@ -75,14 +73,14 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 
     La recherche affiche la liste des codes taxe pour la sélection. Cette liste est renvoyée par la source de données **Model.Data.Tax** qui a été configurée dans le format de gestion des états électroniques de base. Parce que cette source de données contient le champ **Nom**, le nom de chaque code taxe s’affiche dans la recherche.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Page de paramètres spécifiques à l’application ER, Recherche de champs de code.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Sélectionnez le code taxe **VAT19**.
 8.  Dans le champ **Résultat de la recherche** du nouvel enregistrement, sélectionnez la flèche du menu déroulant pour ouvrir la recherche. La recherche affiche la liste des valeurs pour l’énumération de format TaxationLevel pour la sélection.
 
     Notez que, si l’allemand est sélectionné comme langue préférée de l’utilisateur sous lequel vous êtes connecté, les libellés des valeurs dans la recherche seront en allemand, à condition qu’ils aient été traduits au format de gestion des états électroniques de base. En outre, si le libellé d’une source de données de recherche a été traduit, ce libellé apparaîtra dans la langue préférée de l’utilisateur dans l’onglet **Recherches**.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Page de paramètres spécifiques à l'application ER, résultats de la recherche affichés dans la langue préférée de l'allemand.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Sélectionnez la valeur **Imposition normale**.
 
@@ -120,7 +118,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
     
     En ajoutant ce dernier enregistrement, vous définissez la règle suivante : dès que le code taxe transmis comme argument ne répond plus aux règles précédentes, la source de données de recherche renverra **Autre** comme le niveau d’imposition demandé.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Page des paramètres spécifiques à l'application ER, onglet Conditions avec le dernier enregistrement d'Autre.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Dans le champ **État**, sélectionnez **Terminé**.
 
@@ -160,7 +158,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 
     La recherche affiche désormais la liste des codes taxe pour la taxe de société **USMF** pour sélection.
 
-    ![Page Paramètres spécifiques à l’application de la gestion des états électroniques.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Page des paramètres spécifiques à l'application ER, recherche dans le champ Code affichant la liste des codes de taxe pour la société USMF.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Sélectionnez le code taxe **EXEMPT**.
 9.  Dans le champ **Résultat de la recherche** du nouvel enregistrement, sélectionnez la valeur **Aucune imposition**.
@@ -225,13 +223,13 @@ Dans l’exemple précédent, vous avez accédé aux paramètres spécifiques à
 
 1.  Réutilisez un élément de menu **ERSolutionAppSpecificParametersDesigner** existant, ou mettez en œuvre votre propre élément de menu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Page Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Page Visual Studio, volet Propriétés.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Utilisez l’une des procédures suivantes :
 
     1.  Créez un bouton d’option de menu, et liez-le à l’enregistrement correspondant depuis la table **ERSolutionTable** en définissant sa propriété **Source de données** sur **ERSolutionTable**.
     
-        ![Page Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Page Visual Studio, volets Design.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Créez un bouton unique, et remplacez la méthode **Cliqué** comme indiqué dans l’exemple suivant.
     
