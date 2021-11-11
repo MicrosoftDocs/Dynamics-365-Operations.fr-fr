@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759015"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675176"
 ---
 # <a name="revenue-recognition-setup"></a>Configuration de la fonctionnalité de prise en compte de revenu
 [!include [banner](../includes/banner.md)]
@@ -26,11 +26,11 @@ ms.locfileid: "6759015"
 Un nouveau module **prise en compte de revenu** qui inclut des options de menu pour tous les paramètres de configuration requis a été ajouté. Cette rubrique décrit les options de paramétrage, ainsi que leurs implications.
 
 > [!NOTE]
-> La fonctionnalité de prise en compte de revenu ne peut pas être activée via la gestion des fonctionnalités. Vous devez pour l’instant utiliser les clés de configuration pour l’activer.
+> La fonctionnalité de prise en compte de revenu est désormais activée par défaut via Gestion des fonctionnalités. Si votre organisation n’utilise pas cette fonctionnalité, vous pouvez la désactiver dans l’espace de travail **Gestion des fonctionnalités**.
+>
+> La fonctionnalité de prise en compte de revenu (y compris la fonctionnalité groupée), n’est pas prise en charge pour une utilisation dans les canaux commerciaux (commerce électronique, PDV et centre d’appels). Les articles configurés pour la prise en compte de revenu ne doivent pas être ajoutés aux commandes ou aux transactions créées dans les canaux commerciaux.
 
-> La fonctionnalité de prise en compte de revenu (y compris la fonctionnalité groupée), n’est pas prise en charge pour une utilisation dans les canaux commerciaux (commerce électronique, PDV, centre d’appels). Les articles configurés avec la fonctionnalité de prise en compte de revenu ne doivent pas être ajoutés aux commandes ou aux transactions créées dans les canaux commerciaux.
-
-Le module **prise en compte de revenu** comporte les options de paramétrage suivantes :
+Le module **Prise en compte de revenu** comporte les options de paramétrage suivantes :
 
 - Journaux de prise en compte de revenu
 - Paramètres pour la prise en compte de revenu
@@ -40,12 +40,16 @@ Le module **prise en compte de revenu** comporte les options de paramétrage sui
     - Groupes d’articles et produits lancés
     - Définition de l’échéancier de produit
     - Définition des prix de produit
+    - Configuration des stocks
 
-        - Profils de validation
-        - Offres groupées
+        - Définition de l’échéancier de produit
+        - Définition des prix de produit
 
-    - Composants d’offre groupée
-    - Article d’offre groupée
+    - Profils de validation
+    - Offres groupées
+
+        - Composants d’offre groupée
+        - Article d’offre groupée
 
 - Paramétrage de projet
 
@@ -91,20 +95,27 @@ Entrez des valeurs descriptives dans les champs **Échéanciers de produit** et 
 - **Termes du contrat automatiques** : activez cette case à cocher si les dates de début et de fin du contrat doivent être définies automatiquement. Ces dates ne sont définies automatiquement que pour des produits lancés du type de produit **Support post-contrat**. La date de début du contrat est automatiquement définie sur la date d’expédition demandée de la ligne de la commande client, et la date de fin de contrat est automatiquement définie comme la date de début plus le nombre de mois ou d’occurrences défini dans le paramétrage de l’échéancier de produit. Par exemple, le produit sur la ligne de commande client concerne une garantie d’un an. L’échéancier de produit par défaut est **12M** (12 mois), et la case à cocher **Termes du contrat automatiques** est activée pour cet échéancier de produit. Si la ligne de commande client contient la date d’expédition demandée 16 décembre 2019, la date de début par défaut du contrat est le 16 décembre 2019, et la date de fin par défaut du contrat est le 15 décembre 2020.
 - **Base de constatation** : la base de constatation détermine la manière dont le prix du produit est réparti entre les occurrences.
 
-    - **Mensuellement par dates** : le montant est réparti selon les jours réels dans chaque mois.
+    - **Mensuellement en jours** : le montant est réparti selon les jours réels dans chaque mois du calendrier.
     - **Mensuellement** : le montant est réparti également sur le nombre de mois défini dans les occurrences.
     - **Occurrences** : le montant est réparti également entre les occurrences, mais il peut inclure une période supplémentaire si vous sélectionnez **Date de début réelle** comme convention de constatation.
+    - **Période fiscale en jours** : le montant est réparti selon les jours réels de chaque période fiscale. 
 
-- **Convention de constatation** : la convention de constatation détermine les dates par défaut définies dans l’échéancier de produit pour la facture.
+    Les résultats des champs **Mensuellement en jours** et de **Période fiscale en jours** seront les mêmes lorsque les exercices fiscaux suivront des mois civils. La seule exception est lorsque la convention de constatation est définie sur **Fin de mois/période**, et que les champs **Date de début du contrat** et **Date de fin** sont laissés vides sur une ligne de commande client.
+
+- **Convention de constatation** : la convention de constatation détermine les dates définies dans l’échéancier de produit pour la facture.
 
     - **Date de début réelle** : l’échéancier est créé en utilisant la date de début du contrat (pour les articles assortis de support post-contrat \[PCS\]), ou la date de facture (pour les articles essentiels et non essentiels).
-    - **1er du mois** : la date sur la première ligne de l’échéancier est la date de début du contrat (ou la date de facture). Toutefois, toutes les lignes de l’échéancier suivantes sont créées pour le premier du mois.
+    - **1er jour du mois/période** : la date sur la première ligne de l’échéancier est la date de début du contrat (ou la date de facture). Toutefois, toutes les lignes de l’échéancier suivantes sont créées pour le premier jour du mois ou de la période fiscale.
     - **Fractionnement au quinze du mois** : la date sur la première ligne de l’échéancier dépend de la date de la facture. Si la facture est validée entre le premier et le quinze du mois, l’échéancier de produit est créé en utilisant le premier jour du mois. Si la facture est validée entre le seize et le dernier jour du mois, l’échéancier de produit est créé en utilisant le premier jour du mois suivant.
-    - **1er du mois suivant** : la date sur l’échéancier est le premier jour du mois suivant.
 
-Sélectionnez le bouton **Détails de l’échéancier de produit** pour afficher les périodes générales et les pourcentages constatés dans chaque période. Par défaut, la valeur **Constater le pourcentage** est divisée également par le nombre de périodes. Si la base de la constatation est définie sur **Mensuellement** ou **Occurrences**, le pourcentage de constatation peut être modifié. Lorsque vous modifiez le pourcentage de constatation, un message d’avertissement vous informe que le total n’est pas égal à 100 %. SI vous recevez ce message, vous pouvez continuer à modifier les lignes. Toutefois, le pourcentage total doit être égal à 100 avant de fermer la page.
+        **Fractionnement au quinze du moi** ne peut pas être sélectionné si la base de reconnaissance est définie sur **Période fiscale en jours**.
 
-[![Détails de l’échéancier de produit.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **1er jour du mois suivant/de la période suivante** : la date sur l’échéancier est le premier jour du mois suivant ou de la période fiscale suivante.
+    - **Fin de mois/période** : la date sur la première ligne de l’échéancier est la date de début du contrat (ou la date de facture). Toutefois, toutes les lignes de l’échéancier suivantes sont créées pour le dernier jour du mois ou de la période fiscale. 
+
+Sélectionnez le bouton **Détails de l’échéancier de produit** pour afficher les périodes générales et les pourcentages constatés dans chaque période. Par défaut, la valeur **Constater le pourcentage** est divisée également par le nombre de périodes. Si la base de la constatation est définie sur **Mensuellement**, le pourcentage de constatation peut être modifié. Lorsque vous modifiez le pourcentage de constatation, un message d’avertissement vous informe que le total n’est pas égal à 100 %. SI vous recevez ce message, vous pouvez continuer à modifier les lignes. Toutefois, le pourcentage total doit être égal à 100 avant de fermer la page.
+
+[![Détails de l’échéancier de produit.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Configuration des stocks
 
