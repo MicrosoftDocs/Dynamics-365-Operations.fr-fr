@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579758"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678663"
 ---
 # <a name="manage-standard-cost-updates"></a>Gérer des mises à jour des coûts standard
 
@@ -43,8 +43,6 @@ L’exemple suivant illustre l’utilisation des approches à une version et à 
 L’exemple utilise une version d’évaluation des coûts supplémentaire pour la gestion des mises à jour au cours de l’année 2020. Plusieurs versions d’évaluation des coûts supplémentaires peuvent être utilisées, telles qu’une version distincte pour chaque lot de mises à jour. Dans ce cas, le secours doit être exprimé comme les coûts actifs car ils pourraient être dispersés entre plusieurs versions d’évaluation des coûts.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Dimensions financières pour la réévaluation des coûts standard
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 L’activation d’un nouveau prix standard réévaluera généralement la valeur du stock disponible en fonction des transactions de réévaluation des coûts standard. Généralement, les dimensions financières de l’article sont ensuite validées sur les transactions. Cependant, si vous souhaitez contrôler si et comment les dimensions financières sont validées, utilisez la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer la fonctionnalité nommée *Options des dimensions financières par défaut pour la réévaluation du coût standard du stock*. Une fois cette fonctionnalité activée, accédez à **Gestion des coûts > Paramétrage des stratégies comptables de stock > Paramètres** et définissez la nouvelle liste déroulante **Origine de la dimension financière** sur l’une des valeurs suivantes :
 

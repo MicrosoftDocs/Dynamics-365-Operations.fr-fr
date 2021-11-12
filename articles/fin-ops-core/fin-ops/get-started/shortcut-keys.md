@@ -2,7 +2,7 @@
 title: Raccourcis clavier
 description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance and Operations.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743169"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647534"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finance and Operations.
 
@@ -148,14 +149,15 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Basculer la vue entre la ligne sélectionnée et la ligne d’en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d’en-tête)                                                  | Flèche droite/Flèche gauche        |
 | Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d’en-tête)                                              | Entrer                           |
+| Redimensionner la colonne actuelle pour l'adapter au contenu (avec le focus dans la ligne d'en-tête)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d’entrée
 
-| Opération                                                                   | Raccourci                         |
+| Opération                                                                   | Appuyer sur                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Ouvrir le lien hypertexte                                                           | Ctrl+Entrée                    |
-| Entrer la date de session dans un champ de date                                       | D                         |
-| Entrer la date actuelle dans un champ de date                                       | T                         |
+| Entrer la date de session dans un champ de date                                       | D                             |
+| Entrer la date actuelle dans un champ de date                                       | T                             |
 | Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                         | Alt + Flèche Bas                |
 | Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                        | Échap                           |
 | Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte)                   | Alt + Flèche Bas                |
@@ -202,8 +204,8 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Utiliser l’outil Déplacer (lorsque vous êtes en mode personnalisation)                                                                       | L                                   |
 | Sélectionner le contrôle actuel comme celui à déplacer (lorsque vous utilisez l’outil Déplacer et qu’aucun contrôle n’a encore été sélectionné)  | Espace ou Entrée                      |
 | Désactiver le contrôle pour le déplacement (à l’aide de l’outil Déplacer)                                                                   | Échap                                 |
-| Effectuer un déplacement vers la position suivante pour le contrôle sélectionné (à l’aide de l’outil Déplacer)                                          | Tabulation ou flèche vers la droite ou flèche vers le bas    |
-| Effectuer un déplacement vers la position précédente pour le contrôle sélectionné (à l’aide de l’outil Déplacer)                                      | Maj+Tab ou flèche vers la gauche ou flèche vers le haut |
+| Déplacer le contrôle sélectionné vers la position suivante (à l’aide de l’outil Déplacer)                                              | Tabulation ou flèche vers la droite ou flèche vers le bas    |
+| Déplacer le contrôle sélectionné vers la position précédente (à l’aide de l’outil Déplacer)                                          | Maj+Tab ou flèche vers la gauche ou flèche vers le haut |
 | Utiliser l’outil Masquer (lorsque vous êtes en mode personnalisation)                                                                       | H                                   |
 | Effectuer un basculement si le contrôle actuel est visible ou masqué (à l’aide de l’outil Masquer)                                     | Espace ou Entrée                      |
 | Utiliser l’outil Ignorer (lorsque vous êtes en mode personnalisation)                                                                       | k                                   |

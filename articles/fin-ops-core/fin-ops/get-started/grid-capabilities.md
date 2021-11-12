@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483852"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700135"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités utiles et puissantes qui peuvent être utilisées pour améliorer la productivité des utilisateurs, créer des vues plus intéressantes de vos données et obtenir des informations significatives sur vos données. Cet article couvrira les capacités suivantes : 
@@ -32,6 +33,8 @@ Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités uti
 -  Évaluation des expressions mathématiques 
 -  Regroupement des données tabulaires (activé séparément à l’aide de la fonctionnalité **Regroupement en grilles**)
 -  Figer les colonnes
+-  Ajuster automatiquement la largeur de la colonne
+-  Colonnes extensibles
 
 ## <a name="calculating-totals"></a>Calcul des totaux
 Dans les applications Finance and Operations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Une section de pied de page au bas de la grille affiche ces totaux. 
@@ -43,7 +46,7 @@ Une zone de pied de page se trouve au bas de chaque grille tabulaire dans les ap
 - Les totaux généraux au bas des colonnes numériques configurées
 - Le nombre de lignes dans le dataset 
 
-Ce pied de page est masqué par défaut, mais peut être facilement activé. Pour afficher le pied de page d’une grille, cliquez avec le bouton droit sur un en-tête de colonne dans la grille et sélectionnez l’option **Afficher le pied de page**. Une fois que vous avez activé le pied de page pour une grille particulière, ce paramètre sera mémorisé jusqu’à ce que l’utilisateur choisisse de masquer le pied de page. Pour masquer le pied de page, cliquez avec le bouton droit sur un en-tête de colonne et sélectionnez **Masquer le pied de page**.  (L’emplacement de l’action **Afficher le pied de page/Masquer le pied de page** sera déplacé dans une future mise à jour. 
+Ce pied de page est masqué par défaut, mais peut être facilement activé. Pour afficher le pied de page d’une grille, sélectionnez le bouton **Options de grille** dans l’en-tête de la grille, puis sélectionnez l’option **Afficher le pied de page**. Une fois que vous avez activé le pied de page pour une grille particulière, ce paramètre sera mémorisé jusqu’à ce que l’utilisateur choisisse de masquer le pied de page. Pour masquer le pied de page, sélectionnez **Masquer le pied de page** dans le menu **Options de grille**.  
 
 ### <a name="specifying-columns-with-totals"></a>Spécification de colonnes avec des totaux
 Actuellement, aucune colonne n’affiche les totaux par défaut. Cela est considéré comme une activité de configuration à part, similaire à l’ajustement de la largeur des colonnes dans les grilles. Une fois que vous avez spécifié que vous souhaitez voir les totaux d’une colonne, ce paramètre sera mémorisé lors de votre prochaine visite sur la page.  
@@ -82,7 +85,7 @@ Pour prendre en charge ce nouveau comportement, une nouvelle colonne pour le sta
 Lorsque les utilisateurs saisissent des données avant l’emplacement où le serveur effectue son traitement, ils peuvent s’attendre à quelques dégradations dans l’expérience de saisie de données, comme un manque de recherches, de validation au niveau du contrôle et de saisie de valeurs par défaut. Les utilisateurs qui ont besoin d’une liste déroulante pour trouver une valeur sont encouragés à attendre que le serveur rattrape la ligne actuelle. La validation au niveau du contrôle et la saisie des valeurs par défaut se produisent également lorsque le serveur traite cette ligne.   
 
 ### <a name="pasting-from-excel"></a>Collage depuis Excel
-Les utilisateurs ont toujours pu exporter des données à partir de grilles dans les applications Finance and Operations vers Excel à l’aide du mécanisme **Exporter vers Excel**. Cependant, la possibilité d’entrer des données avant le système permet à la nouvelle grille de prendre en charge la copie de tableaux à partir d’Excel et de les coller directement dans des grilles dans les applications Finance and Operations. La cellule de grille à partir de laquelle l’opération de collage est lancée détermine où le tableau copié commence à être collé. Le contenu de la grille est écrasé par le contenu de la table copiée, sauf dans deux cas :
+Les utilisateurs ont toujours pu exporter des données à partir de grilles dans les applications Finance and Operations vers Microsoft Excel à l’aide du mécanisme **Exporter vers Excel**. Cependant, la possibilité d’entrer des données avant le système permet à la nouvelle grille de prendre en charge la copie de tableaux à partir d’Excel et de les coller directement dans des grilles dans les applications Finance and Operations. La cellule de grille à partir de laquelle l’opération de collage est lancée détermine où le tableau copié commence à être collé. Le contenu de la grille est écrasé par le contenu de la table copiée, sauf dans deux cas :
 
 - Si le nombre de colonnes dans la table copiée dépasse le nombre de colonnes qui restent dans la grille, à partir de l’emplacement de collage, l’utilisateur est informé que les colonnes supplémentaires ont été ignorées. 
 - Si le nombre de lignes dans le tableau copié dépasse le nombre de lignes dans la grille, à partir de l’emplacement de collage, les cellules existantes sont remplacées par le contenu collé et toutes les lignes supplémentaires du tableau copié sont insérées en tant que nouvelles lignes en bas de la grille. 
@@ -125,6 +128,9 @@ Pour figer une colonne, cliquez avec le bouton droit sur l’en-tête de la colo
 Pour libérer une colonne, cliquez avec le bouton droit sur l’en-tête de la colonne figée, puis sélectionnez **Libérer la colonne**. 
 
 Notez que les colonnes de sélection de ligne et d’état de ligne dans la nouvelle grille sont toujours figées comme les deux premières colonnes. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour les utilisateurs, quelle que soit la position de défilement horizontal dans la grille. Ces deux colonnes ne peuvent pas être réorganisées.
+
+## <a name="autofit-column-width"></a>Ajuster automatiquement la largeur de la colonne
+Comme dans Excel, les utilisateurs peuvent forcer automatiquement le redimensionnement d’une colonne en fonction du contenu actuellement affiché dans cette colonne. Pour ce faire, double-cliquez sur les poignées de redimensionnement dans la colonne, ou mettez en évidence l’en-tête de colonne et appuyez sur **A** (pour l’ajustement automatique). Cette fonctionnalité est disponible à partir de la version 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569335"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678687"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -93,7 +93,6 @@ L’onglet **Ma machine** contient les colonnes suivantes. Les numéros correspo
 1. **Enregistrer les temps d’arrêt** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez enregistrer les temps d’arrêt de la machine. Vous pourrez sélectionner un code motif et entrer un intervalle de dates ou d’heures pour le temps d’arrêt. L’enregistrement des temps d’arrêt de la machine est utilisé pour calculer l’efficacité de l’actif de machine.
 1. **Afficher ou modifier** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier ou afficher les enregistrements de temps d’arrêt existants.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Démarrer et terminer les tâches de production
 
 Les travailleurs démarrent une tâche de production en sélectionnant une tâche sur l’onglet **Toutes les tâches** puis en sélectionnant **Commencer la tâche** pour ouvrir la boite de dialogue **Commencer la tâche**.
@@ -109,6 +108,32 @@ Les travailleurs peuvent démarrer une tâche qui a n’importe quel statut. Lor
 Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut déclarer les bonnes quantités produites en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie de l’avancement**. Puis, dans la boîte de dialogue **Saisie de l’avancement**, le travailleur entre la bonne quantité à l’aide du clavier numérique. La quantité est vide par défaut. Une fois qu’une quantité est entrée, le travailleur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
 
 ![Boîte de dialogue Saisie de l’avancement.](media/pfei-report-progress-dialog.png "Boîte de dialogue Saisie de l’avancement")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Rapporter les bonnes quantités sur les commandes par lots qui ont des co-produits et des sous-produits
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Les collaborateurs peuvent utiliser l'interface d'exécution de l'atelier de production pour signaler l'avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits.
+
+Certains fabricants, en particulier dans les industries de transformation, utilisent des commandes par lots pour gérer leurs processus de production. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des co-produits et des sous-produits en sortie. Lorsque des commentaires sur ces commandes par lots sont signalés, la quantité de sortie doit être enregistrée sur l'élément de formule, ainsi que sur les co-produits et sous-produits.
+
+Lorsqu'un collaborateur termine ou termine partiellement une tâche sur une commande par lots, il peut signaler les quantités bonnes ou rebutées pour chaque produit défini comme sortie pour la commande. Les produits définis comme sortie pour une commande par lots peuvent être du type *Formule*, *Co-produit* ou *Sous-produit*.
+
+Pour déclarer de bonnes quantités sur les produits, un collaborateur sélectionne un travail sur l'onglet **Emplois actifs**, puis sélectionne **Saisie de l’avancement**.
+
+Ensuite, dans la boîte de dialogue **Saisie de l’avancement**, le collaborateur peut sélectionner parmi les produits définis comme sortie pour la commande par lots sur laquelle il doit générer un rapport. Le collaborateur peut sélectionner un ou plusieurs produits dans la liste, puis sélectionner **Saisie de l’avancement**. Pour chaque produit, la quantité est vide par défaut et le collaborateur peut utiliser le clavier numérique pour saisir la quantité. Le collaborateur peut utiliser les boutons **Précédent** et **Suivant** pour vous déplacer entre les produits sélectionnés. Une fois la quantité saisie pour chaque produit, le collaborateur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
+
+![Générer un rapport sur les co-produits et sous-produits.](media/report-co-by-products.png "Générer un rapport sur les co-produits et sous-produits")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Rapports sur les commandes par lots pour les articles de planification
+
+Lorsqu'un collaborateur termine un travail sur une commande par lots pour un article de planification, il rapportera uniquement les quantités sur les co-produits et les sous-produits, car les articles de planification ne contiennent pas d'article du type *Formule*.
+
+### <a name="reporting-co-product-variation"></a>Signalement de la variation des coproduits
+
+Si une commande par lots est créée à partir d'une version de formule où l'option **Variantes de co-produits** est définie sur *Oui*, le collaborateur peut générer des rapports sur les co-produits qui ne font pas partie de la définition des commandes par lots. Cette fonctionnalité est utilisée dans des scénarios où une sortie de produit inattendue peut se produire dans le processus de production.
+
+Dans ce cas, le collaborateur peut spécifier le co-produit et la quantité à déclarer en sélectionnant **Variantes de co-produits** dans la boîte de dialogue de progression du rapport. L'ouvrier peut alors sélectionner parmi tous les produits lancés qui sont définis comme co-produits.
 
 ## <a name="reporting-scrap"></a>Déclarer le rebut
 

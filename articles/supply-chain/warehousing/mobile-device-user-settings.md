@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769417"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647483"
 ---
 # <a name="mobile-device-user-settings"></a>Paramètres utilisateur d’appareil mobile
 
@@ -54,7 +54,7 @@ Vous pouvez également définir un profil de paramètres qui s’applique aux ma
 
 Suivez ces étapes pour créer et gérer les paramètres utilisateur de vos appareils mobiles.
 
-1. Accéder à **Gestion des entrepôts \> Appareil mobile \> Paramètres utilisateur d’appareil mobile**.
+1. Accéder à **Warehouse management \> Configuration \> Appareil mobile \> Paramètres utilisateur d’appareil mobile**.
 1. Sélectionnez un profil de paramètres utilisateur existant dans le volet de liste pour ouvrir son enregistrement. Sinon, sélectionnez **Nouveau** dans le volet Actions pour créer un profil.
 
     Chaque profil du volet de liste est étiqueté pour indiquer la marque, le modèle et / ou l’ID utilisateur auxquels le profil s’applique. Les profils plus généraux ont une valeur de *Tout* pour certaines ou toutes ces caractéristiques.
@@ -83,7 +83,7 @@ Utilisez la page **Marques d’appareils mobiles** pour afficher, créer et gér
 
 Suivez ces étapes pour créer et gérer les paramètres utilisateur de vos marques et modèles d’appareils mobiles.
 
-1. Accédez à **Gestion des entrepôts \> Appareil mobile \> Marques d’appareil mobile**.
+1. Allez dans **Warehouse management \> Configuration \> Appareil mobile \> Marques d’appareil mobile**.
 1. Dans le volet de liste, sélectionnez une marque d’appareil mobile pour ouvrir ses enregistrements. Sinon, sélectionnez **Nouveau** dans le volet Actions pour créer une marque.
 1. Dans la section d’en-tête de l’enregistrement de la marque de l’appareil nouveau ou sélectionné, définissez les champs suivants :
 

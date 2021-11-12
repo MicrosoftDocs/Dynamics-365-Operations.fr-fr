@@ -1,7 +1,7 @@
 ---
 title: Amortissement manuel
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement manuelle.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 444506bdbf33cb1bd05ae7b55f2059e0eb1ab5b136e8fb1adb6f9e5f53b7067c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743023"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674825"
 ---
 # <a name="manual-depreciation"></a>Amortissement manuel
 
@@ -30,11 +30,11 @@ Cet article donne une vue d’ensemble de la méthode d’amortissement manuelle
 
 Lorsque vous paramétrez un profil d’amortissement d’immobilisation et sélectionnez **Manuel** dans le champ **Méthode** de la page **Profils d’amortissement**, l’amortissement des immobilisations affectées au profil d’amortissement est déterminé par le pourcentage que vous spécifiez pour chaque intervalle dans l’année civile. Les intervalles pour lesquels vous paramétrez des pourcentages sont validés en fonction de la valeur sélectionnée dans le champ **Période fréquence** de l’organisateur **Général** de la page **Profils d’amortissement**. Les valeurs que vous pouvez sélectionner sont les suivants :
 
--   Tous les ans
--   Mensuel
--   Trimestriel
--   Semestriel
--   Opérations diverses
+- Tous les ans
+- Mensuel
+- Trimestriel
+- Semestriel
+- Opérations diverses
 
 Après avoir sélectionné la fréquence de période, cliquez sur **Programmes manuels** et paramétrez les pourcentages pour chaque intervalle de validation. Ensemble, les programmes manuels et les intervalles de validation définissent le montant d’amortissement, comme l’illustrent les exemples de cet article. L’amortissement manuel est toujours calculé comme pourcentage du prix d’acquisition. Dans le cas de l’amortissement manuel, les pourcentages que vous spécifiez dans les intervalles de l’amortissement ne doivent pas nécessairement totaliser 100 pour cent. L’amortissement manuel est une méthode d’amortissement flexible qui est souvent utilisée pour définir un profil d’amortissement exceptionnel sur la page **Registres**, tel qu’un amortissement non périodique à des fins particulières (par exemple, de taxe).
 

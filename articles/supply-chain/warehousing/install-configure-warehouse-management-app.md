@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384609"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647618"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Gestion des entrepôts
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur la configuration des applications de service Web 
     - [Démarrage rapide : Enregistrer une application avec la plateforme d’identités Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Comment : Utiliser le portail pour créer une application Azure AD et un principal de service qui peut accéder aux ressources](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Créer et configurer un compte d’utilisateur dans Supply Chain Management
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Créer et configurer un compte d’utilisateur dans Supply Chain Management
 
 Pour permettre à Supply Chain Management d’utiliser votre application Azure AD, procédez comme suit.
 
@@ -117,17 +117,24 @@ Pour permettre à Supply Chain Management d’utiliser votre application Azure A
 
     1. Dans Supply Chain Management, accédez à **Administration du système \> Utilisateurs \> Utilisateurs**.
     1. Créez un utilisateur.
-    1. Attribuez l’utilisateur de l’appareil mobile d’entreposage.
+    1. Attribuez le rôle *Utilisateur de l’appareil mobile d’entreposage* à l’utilisateur.
 
     ![Attribuez l’utilisateur de l’appareil mobile d’entreposage.](media/app-connect-app-users.png "Attribuer l’utilisateur de l’appareil mobile d’entreposage")
 
 1. Associez votre application Azure AD à l’utilisateur de l’application mobile Gestion des entrepôts :
 
     1. Accédez à **Administration système \> Paramétrage \> Applications Azure Active Directory**.
-    1. Créez une ligne.
-    1. Entrez l’ID client que vous avez noté dans la section précédente, donnez-lui un nom et sélectionnez l’utilisateur que vous venez de créer. Nous vous recommandons de marquer tous vos appareils. Ensuite, si un appareil est perdu, vous pouvez facilement supprimer son accès à Supply Chain Management à partir de cette page.
+    1. Sélectionnez **Nouveau** dans le volet Actions pour créer une ligne.
+    1. Dans le champ **ID client**, saisissez l’ID client noté dans la section précédente.
+    1. Dans le champ **Nom**, entrez un nom.
+    1. Dans le champ **ID utilisateur**, sélectionnez l’ID client que vous venez de créer.
 
     ![Applications Azure Active Directory.](media/app-connect-aad-apps.png "Applications Azure Active Directory")
+
+> [!TIP]
+> Une façon d’utiliser ces paramètres consiste à créer un ID client dans Azure pour chacun de vos appareils physiques, puis à ajouter chaque ID client à la page **Applications Azure Active Directory**. Ensuite, si un appareil est perdu, vous pouvez facilement supprimer son accès à Supply Chain Management en supprimant son ID client à partir de cette page. (En effet, les informations d’identification de connexion enregistrées sur chaque appareil spécifient également un ID client, comme décrit plus loin dans cette rubrique.)
+>
+> De plus, les paramètres de langue, de format de numéro et de fuseau horaire par défaut pour chaque ID client sont établis par les préférences définies pour la valeur **ID utilisateur** qui est mise en correspondance ici. Par conséquent, vous pouvez utiliser ces préférences pour établir des paramètres par défaut pour chaque appareil ou groupe d’appareils, en fonction de l’ID client. Cependant, ces paramètres par défaut seront remplacés s’ils sont également définis pour le *compte d’utilisateur de l’application d’entrepôt* qu’un collaborateur utilise pour se connecter à l’appareil. (Pour plus d’informations, voir [Comptes d’utilisateur d’appareil mobile](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Authentifiez-vous en utilisant un certificat ou un secret client
 

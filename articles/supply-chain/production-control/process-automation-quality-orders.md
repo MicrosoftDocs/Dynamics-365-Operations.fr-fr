@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 131d88c51755a433a874ac0fe086b3eaa48f161c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3e0840944b7619f870194f6c16e15672bb888546
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572791"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678541"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Invoquer les flux d’automatisation de processus pour créer des ordres de qualité
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 12/1/2021 -->
 
 Les organisations ont une demande croissante pour automatiser les processus métier standard, fournir des interactions plus pratiques avec le personnel et utiliser divers signaux et systèmes de données pour gérer automatiquement les processus métier. Avec l’automatisation robotisée des processus (RPA) et Microsoft Power Automate, les entreprises peuvent utiliser une expérience sans code pour automatiser les processus répétitifs et gagner ainsi en efficacité et en précision.
 

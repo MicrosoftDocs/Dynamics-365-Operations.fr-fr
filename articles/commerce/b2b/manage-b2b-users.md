@@ -2,7 +2,7 @@
 title: Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 description: Cette rubrique décrit comment les administrateurs peuvent ajouter, modifier et supprimer des utilisateurs partenaires sur des sites Web de commerce électronique interentreprises (B2B).
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734941"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713691"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 
@@ -68,6 +68,18 @@ Pour approuver et configurer un utilisateur administrateur de partenaire dans Co
 1. Allez dans **Retail et Commerce IT \> Programme de distribution**, et exécutez la tâche **1010** (**Clients**) pour transférer les dossiers client et les dossiers de la hiérarchie des clients nouvellement créés vers la base de données des canaux.
 
 Une fois la demande approuvée et les enregistrements de la hiérarchie des clients et des clients synchronisés avec la base de données des canaux, le demandeur peut se connecter au site Web de commerce électronique B2B en utilisant l’adresse e-mail qu’il a fournie lors de la soumission de la demande. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte. Pour permettre que l'enregistrement du fournisseur d'identité (Azure AD B2C) soit lié à l'enregistrement client B2B qui a été créé lors de l'inscription ou de la connexion, suivez les instructions de la rubrique [Activer la liaison automatique des enregistrements d’identité avec les comptes client](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notifier les prospects B2B lorsqu’ils sont approuvés ou rejetés
+
+Lorsque vous approuvez ou rejetez une demande d’intégration de prospect B2B, vous pouvez automatiquement envoyer une notification par e-mail au prospect. 
+
+Pour configurer des notifications par e-mail dans Commerce Headquarters pour les événements du type de notification Prospect B2B approuvé ou Prospect B2B rejeté, procédez comme suit.
+
+1. Créez des modèles d’e-mails pour les e-mails qui seront envoyés aux prospects lorsque le type de notification Prospect B2B approuvé ou Prospect B2B rejeté est déclenché.
+
+    Pour plus d’informations sur les espaces réservés pris en charge par les types de notification Prospect B2B approuvé et Prospect B2B rejeté, voir [Types de notifications](../email-templates-transactions.md#notification-types). Pour plus d’informations sur la création de modèles d’e-mails, voir [Créer un modèle d’e-mail](../email-templates-transactions.md#create-an-email-template). 
+
+1. Ajoutez les types de notification Prospect B2B approuvé et Prospect B2B rejeté à votre profil de notification par e-mail et mettez-les en correspondance avec les modèles d’e-mail que vous avez créés. Pour plus d’informations sur les profils de notification, voir [Configurer un profil de notification par e-mail](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Intégrer des utilisateurs partenaires supplémentaires
 

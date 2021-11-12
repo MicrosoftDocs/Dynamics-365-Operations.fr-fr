@@ -1,7 +1,7 @@
 ---
 title: Méthodes et conventions d’amortissement
 description: Cet article fournit une vue d’ensemble des conventions d’amortissement et des méthodes d’amortissement prises en charge par Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713232"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674524"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Méthodes et conventions d’amortissement
 
@@ -52,10 +52,10 @@ Vous pouvez choisir parmi les méthodes d’amortissement suivantes.
 -   Facteur
 -   Consommation
 -   Durée de vie linéaire restante
--   Amortissement dégressif de 200 %
--   Amortissement dégressif de 175 %
+-   Dégressif de 200 %
+-   Dégressif de 175 %
 -   Amortissement dégressif de 150 %
--   Amortissement dégressif de 125 %
+-   Dégressif de 125 %
 
 
 

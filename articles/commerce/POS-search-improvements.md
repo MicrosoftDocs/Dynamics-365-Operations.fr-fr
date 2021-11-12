@@ -2,7 +2,7 @@
 title: Recherche de produits et de clients dans le point de vente (PDV)
 description: Cette rubrique fournit une vue d’ensemble des améliorations apportées à la fonctionnalité de recherche de produits et de clients dans Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716393"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700087"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Recherche de produits et de clients dans le point de vente (PDV)
 
@@ -47,7 +47,7 @@ Une recherche locale permet d’effectuer une recherche de produit dans les prop
 - Code-barres
 - Nom de recherche
 
-### <a name="additional-local-product-search-capabilities"></a>Fonctionnalités supplémentaires de recherche de produits locale
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Fonctionnalités supplémentaires de recherche de produits locaux (recherche en texte intégral SQL classique) 
 
 - Pour les recherches de plusieurs mots clés (c’est-à-dire, pour les recherches qui utilisent des critères de recherche), les détaillants peuvent configurer si les résultats de la recherche correspondent à *certains* termes de recherche ou uniquement ceux correspondant à *tous* les termes de recherche. Le paramètre pour cette fonctionnalité est disponible dans le profil de fonctionnalité du PDV, dans un nouveau groupe nommé **Recherche du produit**. Le paramètre par défaut est **Mettre en correspondance certains termes de recherche**. Ce paramètre est également le paramètre recommandé. Lorsque le paramètre **Mettre en correspondance certains termes de recherche** est utilisé, tous les produits qui correspondent partiellement ou complètement à un ou plusieurs termes de la recherche sont retournés comme résultats. Ces résultats sont triés automatiquement dans l’ordre croissant des produits dont la plupart des mots clés correspondent (complètement ou partiellement).
 
@@ -55,6 +55,8 @@ Une recherche locale permet d’effectuer une recherche de produit dans les prop
 
     - La recherche est effectuée sur plusieurs propriétés de produit. Par exemple, seuls les produits qui ont des mots clés recherchés dans au moins une propriété de produit sont retournés.
     - Les dimensions ne sont pas recherchées.
+> [!NOTE]
+> Les configurations suivantes **Mettre en correspondance certains termes de recherche**/**Mettre en correspondance tous les termes de recherche** dans les profils de fonctionnalité de PDV ne sont applicables que pour les expériences de recherche de produits **locales** (recherche en texte intégral SQL classique). Cette configuration n’a aucun effet sur les expériences de recherche dans le cloud. Le nouveau moteur de recherche possède son propre algorithme avancé qui optimise la pertinence de la recherche pour les résultats de recherche de produits. 
 
 - Les détaillants peuvent configurer la recherche de produits pour afficher des suggestions de recherche sous la forme de noms de produit de type utilisateurs. Un nouveau paramètre pour cette fonctionnalité est disponible dans le profil de fonctionnalité du PDV, dans un nouveau groupe nommé **Recherche du produit**. Le paramètre est appelé **Afficher des suggestions de recherche lors de la saisie**. Cette fonctionnalité peut aider les employés à rechercher rapidement le produit pour lequel il effectue une recherche, car ils ne doivent pas entrer le nom entier manuellement.
 - Désormais, l’algorithme de la recherche de produit recherche également les critères de recherche contenus dans la propriété **Nom de recherche** du produit.
@@ -147,7 +149,5 @@ La liste suivante montre les différences entre la fonctionnalité de recherche 
 > La fonctionnalité de recherche de clients à l’aide du service de recherche cognitive Azure est disponible dans certaines régions seulement pour la version préliminaire. La fonctionnalité de recherche de clients *n’est pas* disponible dans les régions suivantes :
 > - Brésil
 > - Inde
-> - Canada
-> - Royaume-Uni
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576926"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647187"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -74,6 +74,12 @@ Cette fonctionnalité ajoute un onglet de gestion des actifs à l’interface d�
 Cette fonctionnalité permet d’ajouter un champ de recherche à la liste des tâches. Les collaborateurs peuvent rechercher une tâche spécifique en entrant l’ID de la tâche ou en recherchant toutes les tâches pour une commande spécifique en entrant l’ID de la commande. Les collaborateurs peuvent entrer l’ID en utilisant un pavé numérique ou en scannant un code-barres. Pour l’utiliser, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 
 - Recherche de tâche pour l’interface d’exécution de l’atelier de production
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Activer la génération de rapport sur les co-produits et sous-produits
+
+Cette fonctionnalité permet aux collaborateurs d'utiliser l'interface d'exécution de l'atelier de production pour signaler l'avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits. Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+
+- État sur les co-produits et sous-produits de l’interface d’exécution de l’atelier de production
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Utiliser les configurations de l’exécution de l’atelier de production
 

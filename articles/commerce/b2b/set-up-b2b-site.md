@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721005"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713746"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Mettre en place un site e-commerce B2B
 
@@ -37,7 +37,7 @@ Les sites de commerce électronique interentreprises (B2B) fournissent des fonct
 
 Vous pouvez accéder aux paramètres au niveau du site dans le générateur de site, à l’adresse **Paramètres du site \> Extensions**. Les deux paramètres au niveau du site suivants s’appliquent aux scénarios B2B :
 
-- **Activer les paiements du compte client** – Cette propriété permet aux utilisateurs de payer les commandes à l’aide de comptes clients. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**. Si votre site B2B prend en charge les comptes clients, vous devez sélectionner **Activé pour les clients B2C**.
+- **Activer les paiements du compte client** – Cette propriété permet aux utilisateurs de payer les commandes à l’aide de comptes clients. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**. Si votre site B2B prend en charge les comptes clients, vous devez sélectionner **Activé pour les clients B2B**.
 - **Activer les limites de quantité de commande** – Cette propriété vous permet de définir des limites sur le nombre d’articles pouvant être commandés pour chaque produit ou catégorie. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**.
 
 > [!NOTE]

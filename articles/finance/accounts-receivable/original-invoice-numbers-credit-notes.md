@@ -2,7 +2,7 @@
 title: Références aux factures d’origine dans les notes de crédit
 description: Cette rubrique explique comment configurer et imprimer les numéros de facture d’origine dans les notes de crédit associées.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723845"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700353"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Références aux factures d’origine dans les notes de crédit
 
@@ -95,5 +95,10 @@ Lorsque vous imprimez du texte libre, des notes de crédit client et projet, ell
 > [!NOTE]
 > Assurez-vous que les formats imprimables des documents sont correctement configurés, en supposant que les références aux factures d’origine soient imprimées.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>Références aux factures originales dans les notes de débit
+
+Par défaut, les références aux factures originales peuvent être saisies pour les notes de crédit. Par exemple, vous pouvez saisir des références lorsque vous apportez des corrections négatives (décroissantes) aux factures originales.
+
+Pour saisir des références lorsque vous apportez des corrections positives (augmentation) aux factures originales, vous devez activer la fonctionnalité **Références aux factures originales dans les notes de débit** dans l’espace de travail **Gestion des fonctionnalités**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

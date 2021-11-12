@@ -1,8 +1,8 @@
 ---
 title: Options de configuration pour l’automatisation des factures fournisseur (Version préliminaire)
 description: Cette rubrique décrit les options disponibles pour le péramétrage et la configuration de l’automatisation des factures fournisseur.
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724277"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675467"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Options de configuration pour l’automatisation des factures fournisseur
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724277"
 
 Cette rubrique décrit les options disponibles pour le péramétrage et la configuration de l’automatisation des factures fournisseur. Les fonctionnalités d’automatisation des factures utilisent les types de paramètres de configuration suivants :
 
+- Paramètres d'application automatique des acomptes dans les factures importées.
 - Paramètres de soumission des factures fournisseur importées au système de workflow et de mise en correspondance des lignes de réception des marchandises avec les lignes de facture fournisseur en attente.
 - Paramètres des tâches d’automatisation du traitement en arrière-plan. L’infrastructure d’automatisation des processus est utilisée pour soumettre les factures fournisseurs importées au système de workflow. Il est également utilisé pour faire correspondre automatiquement les lignes de réception de produit validées aux lignes de facture fournisseur en attente et pour effectuer la validation de rapprochement des factures pour les factures manuelles qui étaient automatiquement rapprochées des lignes de réception de produit. Différents processus métier utilisent cette infrastructure pour définir la fréquence d’exécution du processus sélectionné. Les fréquences disponibles pour les processus en arrière-plan **Faire correspondre la réception des marchandises avec les lignes de facture** et **Soumettre les factures fournisseurs au workflow** sont notamment **Chaque heure** et **Chaque jour**.
 
 Pour configurer ou afficher des informations sur une tâche en arrière-plan, accédez à **Administration système \> Configuration \> Automatisations de processus**, et sélectionnez l’onglet **Tâche en arrière-plan**.
 
 Pour obtenir une automatisation sans contact du processus d’importation à la validation de la facture fournisseur, vous devez configurer un flux de travail de facture fournisseur. Pour configurer un workflow, accédez à **Comptabilité fournisseur > Configuration > Workflows de la comptabilité fournisseur**. Pour vous assurer que la facture peut être traitée du début à la fin sans intervention manuelle, vous devez inclure une tâche de validation automatisée dans votre configuration de workflow.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Paramètres d'application automatique des acomptes dans les factures importées
+
+- **Appliquer automatiquement le prépaiement pour les factures importées** – Lorsque cette option est définie sur **Oui**, le système recherche automatiquement les acomptes existants pour une commande d'achat correspondante lorsque les factures fournisseur sont importées. Si des acomptes pouvant être appliqués sont trouvés, une ligne supplémentaire est ajoutée pour appliquer les acomptes dans les factures fournisseur en cours d'importation.
+- **Bloquer le processus d'automatisation du suivi en cas d'échec de l'application de prépaiement** – Lorsque cette option est définie sur **Oui**, les factures seront bloquées si un prépaiement ne peut pas être appliqué. Comme d'autres processus automatisés, tels que le processus de rapprochement des reçus et la soumission à un processus de workflow, le processus d'automatisation des factures ne récupérera pas les factures bloquées tant que le prépaiement n'est pas appliqué manuellement. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Paramètres de soumission des factures fournisseurs importées au système de workflow
 

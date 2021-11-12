@@ -1,7 +1,7 @@
 ---
-title: Vue d’ensemble de la mise à niveau du registre des amortissements
-description: 'Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements.'
-author: ShylaThompson
+title: Vue d’ensemble de la mise à niveau des registres des amortissements
+description: Cette rubrique décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344712"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675150"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Vue d’ensemble de la mise à niveau des registres des amortissements
 
 [!include [banner](../includes/banner.md)]
 
-Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations (1611), la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. Cette rubrique fournit des éléments à prendre en compte pour la mise à niveau. 
+Cette rubrique décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. La fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre. La fonctionnalité de registre vous permet d’utiliser un seul ensemble de pages, de demandes et de rapports pour tous les processus d’immobilisations de votre organisation. Cette rubrique fournit des éléments à prendre en compte avant de procéder à la mise à niveau. 
 
-La procédure de mise à niveau déplacera votre paramétrage actuel et toutes les transactions existantes dans la structure du nouveau registre. Les modèles de valeur restent telles qu’elles sont, comme registre qui valide dans la comptabilité. Les registres d’amortissements seront déplacés vers un registre dont l’option **Valider dans la comptabilité** est définie sur **Non**. Les noms des journaux du registre des amortissements seront transférés vers un nom de journal de comptabilité dont la couche de validation est définie sur **Aucune**. Les transactions du registre des amortissements seront déplacées vers les transactions d’immobilisation. 
+La procédure de mise à niveau déplacera votre paramétrage actuel et toutes les transactions existantes dans la structure du nouveau registre. Les modèles de valeur restent telles qu’elles sont, comme registre qui valide dans la comptabilité. Les registres d’amortissements seront déplacés vers un registre dont l’option Valider dans la comptabilité est définie sur Non. Les noms des journaux du registre des amortissements seront transférés vers un nom de journal de comptabilité dont la couche de validation est définie sur Aucune. Les transactions du registre des amortissements seront déplacées vers les transactions d’immobilisation.
 
-Avant d’exécuter la mise à niveau des données, vous devez comprendre les deux options disponibles pour mettre à niveau des lignes du journal du registre des amortissements vers les N° de documents de transaction, et la souche de numéros qui sera utilisée pour la souche de N° de justificatif. 
+Avant d’exécuter la mise à niveau des données, vous devez comprendre les deux options disponibles pour mettre à niveau des lignes du journal du registre des amortissements vers les N° de documents de transaction, et la souche de numéros qui sera utilisée pour la souche de N° de justificatif.
 
 Option 1 :  **Souche de numéros définie par le système** – Il s’agit de l’option par défaut pour optimiser les performances de mise à niveau. La mise à niveau n’utilise pas la structure de souches de numéros, mais à la place répartit les N° de documents avec une approche basée sur les jeux. Après la mise à niveau, la nouvelle souche de numéros est créée avec le **Jeu de numéros suivant** basé comme il se doit sur les transactions mises à niveau. Par défaut, la souche de numéros utilisée est au format FADBUpgr\#\#\#\#\#\#\#\#\#. Il existe quelques paramètres disponibles pour ajuster le format en utilisant cette approche :
 

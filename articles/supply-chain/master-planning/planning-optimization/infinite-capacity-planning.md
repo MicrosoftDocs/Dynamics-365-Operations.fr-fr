@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9c1eef91bcf7d1ce6379e87417be5a8b3be069e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f3ecfa388eac42a817d751b882f365a51fc57cf
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575630"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678955"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planification avec une capacité infinie
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)] <!--KFM: Until 1/14/2022 -->
 
 La fonctionnalité *Planification de capacité infinie pour Planning Optimization* introduit une planification basée sur les informations d’itinéraire. Elle vous permet de planifier des tâches en fonction d’un large éventail de configurations d’itinéraires. La planification de Planning Optimization couvre les paramètres d’itinéraire fréquemment utilisés, y compris la séquence d’opérations d’itinéraire ou les exigences pour les ressources d’opérations d’itinéraire.
 

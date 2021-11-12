@@ -1,7 +1,7 @@
 ---
 title: Effets d’amortissement avec contrepassations
 description: Cet article traite des conséquences potentielles de la contrepassation d’une transaction d’immobilisation.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37f0412166404e6903819840debcdd0ab0630115dcdb68297e0072723adacb53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760660"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674548"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Effets d’amortissement avec contrepassations
 
@@ -30,7 +30,7 @@ Cet article traite des conséquences potentielles de la contrepassation d’une 
 
 Vous pouvez contrepasser des transactions d’immobilisation et les transactions associées à une immobilisation. Vous pouvez également annuler une transaction contrepassée. 
 
-Vous pouvez contrepasser ou annuler une transaction qui n’était pas la dernière validée dans le registre des immobilisations. Vous devez commencer par déterminer si des transactions d’amortissement ont été validées après la transaction en cours de contrepassation. Cela est dû au fait que l’amortissement n’est pas recalculé lors de la contrepassation d’une transaction. Par conséquent, il est souvent surévalué ou sous-évalué après la contrepassation, comme illustré dans les exemples. 
+Vous pouvez contrepasser ou annuler une transaction qui n’était pas la dernière validée dans le registre des immobilisations. Commencez par déterminer si des transactions d’amortissement ont été validées après la transaction en cours de contrepassation. Cette étape est nécessaire car l’amortissement n’est pas recalculé lors de la contrepassation d’une transaction. Par conséquent, il est souvent surévalué ou sous-évalué après la contrepassation, comme illustré dans les exemples. 
 
 Pour garantir l’exactitude de l’amortissement lors de la contrepassation d’une transaction, ne poursuivez pas la contrepassation si un message indiquant que l’amortissement ne sera pas recalculé s’affiche. Contrepassez d’abord la transaction d’amortissement validée après la transaction que vous tentez de contrepasser, puis poursuivez la contrepassation. Aucun message sur les nouveaux calculs d’amortissement ne s’affiche et vous pouvez poursuivre la contrepassation. 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b415252ef93987765d8970cde6b45f397136afd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b24aa8c342a3de647acc9cf0b4ec175ca24cef43
+ms.sourcegitcommit: e891a6cc0674d27b7e218fdf22ca5ba8ac3310d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572647"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7648376"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installer, configurer et mettre à jour le portail client
 
@@ -41,7 +41,7 @@ Contrairement aux autres fonctionnalités de Supply Chain Management, le modèle
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuration requise pour activer le portail client
 
-Après vous être assuré que vous disposez des licences requises, vous pouvez configurer la double écriture comme décrit dans les [instructions de synchronisation initiale de la double écriture](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Après vous être assuré que vous disposez des licences requises, vous pouvez configurer la double écriture comme décrit dans les [instructions de synchronisation initiale de la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Veillez à activer les mappages de table suivants en double écriture :
 

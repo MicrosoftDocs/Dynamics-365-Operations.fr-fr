@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble spécifique à la Belgique
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité spécifique à la Belgique.
-author: ShylaThompson
-ms.date: 09/09/2021
+author: anasyash
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: intro-internal
 ms.search.region: belgium
-ms.author: roschlom
+ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 43014fa9e07f3727b54566f043728d21cfcd0f96
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 48e8ab9c46d3cc890adfec6ec84482fd584535f5
+ms.sourcegitcommit: ed43ceae9b2ef3f616b81127bcf4c4b0862e23f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486886"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "7714845"
 ---
 # <a name="belgium-overview"></a>Vue d’ensemble spécifique à la Belgique
 
@@ -43,6 +43,7 @@ Pour plus d’informations sur la configuration et la création de la déclarati
 |État PRODCOM|**Taxe** > **Déclarations** > **Commerce extérieur** > **PRODCOM**|Les fabricants de produits industriels envoient l’état PRODCOM au Nationaal Instituut voor de Statistiek (NIS), en réponse à l’enquête PRODCOM régulièrement mise en place. L’état PRODCOM affiche les statistiques de production pour les produits industriels fabriqués par des sociétés de production implantées en Belgique. Cet état est généralement utilisé par les chefs comptables et les comptables. Pour plus d’informations, voir [Paramétrer et mettre à jour PRODCOM](emea-bel-prodcom-report.md). |
 |États sur les journaux|**Comptabilité** > **Recherches et états** > **États sur les journaux**|Périodiquement, les entreprises belges doivent imprimer un état pour chaque journal. Cet état fournit une liste chronologique de toutes les écritures dans les comptes de la comptabilité pour chaque journal. Ces rapports prouvent l’intégrité de la comptabilité et sont utilisés lors des audits financiers pour rapprocher le règlement de la TVA avec les écritures sur les comptes correspondants de la comptabilité. Pour plus d’informations, voir [États des journaux (Journaux de validation)](emea-bel-journal-reports.md). |
 |Liste annuelle de TVA des ventes intérieures| **Taxe** > **Recherche et états** > **États de taxe** > **État du chiffre d’affaires des factures – Belgique** | L’état du chiffre d’affaires des factures est envoyé aux autorités une fois par an. Il est utilisé pour déclarer le chiffre d’affaires des clients belges assujettis à la TVA, si ce chiffre d’affaires dépasse un certain montant. L’état comprend les factures des transactions des clients pour lesquelles les clients ont un numéro d’entreprise formaté conformément aux directives des autorités belges. Pour plus d’informations, voir [Liste annuelle de TVA des ventes intérieures](emea-bel-annual-vat-listing-of-domestic-sales.md). |
+|Déclaration d’échanges de biens, Belgique|  **Taxes** > **Déclarations** > **Commerce extérieur** > **Déclaration d’échanges de biens** | Vous pouvez utiliser la page **Déclaration d’échanges de biens** pour générer et rapporter des informations sur le commerce entre pays/régions de l’Union européenne. La déclaration d’échanges de biens belge contient des informations sur le commerce de biens à déclarer. Pour plus d’informations, voir [Déclaration d’échanges de biens, Belgique](emea-bel-intrastat.md). |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

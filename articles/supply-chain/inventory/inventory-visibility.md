@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575169"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678907"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Vue d'ensemble du complément de visibilité des stocks
 
@@ -45,8 +45,6 @@ Il existe deux approches pour afficher vos stocks :
 - Consultez la liste brute du stock disponible. Cette liste est périodiquement synchronisée à partir d'une instance mise en cache et est visible dans Dataverse. Pour plus d’informations, voir [Application de visibilité des stocks](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Réservations provisoires
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La réservation provisoire s'applique lorsqu'une entreprise doit réserver une quantité spécifique de produits afin de prendre en charge, par exemple, l'exécution des commandes client tout en évitant la survente. Lorsqu'une commande client est créée et confirmée dans Supply Chain Management ou d'autres systèmes de gestion des commandes, une demande de réservation de la quantité est envoyée à la visibilité des stocks. La visibilité des stocks vous permet de réserver des produits qui ont des détails de dimension et des types de mouvement de stock spécifiques. (Pour plus d'informations, voir [Application de visibilité des stocks](inventory-visibility-power-platform.md).) Une fois la quantité réservée avec succès, un ID de réservation est renvoyé. Vous pouvez utiliser cet ID de réservation pour revenir à la commande d'origine dans Supply Chain Management ou d''autres systèmes de gestion des commandes.
 

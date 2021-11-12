@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474674"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678469"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer la visibilité du stock
 
@@ -366,16 +366,12 @@ L’index vous permet d’interroger le stock disponible des manières suivantes
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuration de la réservation (facultatif)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 La configuration de la réservation est requise si vous souhaitez utiliser la fonction de réservation provisoire. La configuration se compose de deux parties fondamentales :
 
 - Mappage de réservation provisoire
 - Hiérarchie de réservation provisoire
 
 ### <a name="soft-reservation-mapping"></a>Mappage de réservation provisoire
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Lorsque vous effectuerez une réservation, vous souhaiterez peut-être savoir si le stock disponible est actuellement disponible pour la réservation. La validation est liée à une mesure calculée qui représente une formule de calcul d’une combinaison de mesures physiques.
 
@@ -446,8 +442,6 @@ Par conséquent, si vous essayez de faire des réservations sur `iv.SoftReservOr
 > Lorsque vous appelez l'API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu'une valeur `False` signifie que la validation n'est pas requise. La valeur par défaut est `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Hiérarchie de réservation provisoire
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La hiérarchie de réservation décrit la séquence de dimensions qui doit être spécifiée lors des réservations. EIle fonctionne de la même manière que la hiérarchie d’index des produits pour les requêtes de stock disponible.
 
@@ -747,8 +741,6 @@ Le tableau suivant montre la configuration d’index par défaut.
 Cette section décrit la configuration de réservation par défaut.
 
 #### <a name="reservation-mapping"></a>Mappage de réservations
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Le tableau suivant montre le mappage de réservations par défaut.
 

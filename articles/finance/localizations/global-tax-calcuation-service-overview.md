@@ -2,7 +2,7 @@
 title: Vue d’ensemble du calcul de la taxe
 description: Cette rubrique explique la portée et les fonctionnalités générales de la fonctionnalité de calcul des taxes.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394584"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647055"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Le calcul des taxes est un service multi-locataire hyper évolutif qui permet au moteur Global Tax Engine d’automatiser et de simplifier le processus de détermination et de calcul des taxes. Le moteur de taxe est entièrement configurable. Les éléments qui peuvent être configurés incluent, mais sans s’y limiter, le modèle de données taxables, le code taxe, la matrice d’applicabilité de la taxe et la formule de calcul de la taxe. Le moteur de taxe fonctionne sur la plateforme des services essentiels Microsoft Azure, et offre une technologie moderne et une évolutivité exponentielle.
 
@@ -115,10 +113,14 @@ Les transactions suivantes sont prises en charge dans la version 10.0.21 :
     - Frais divers d’en-tête d’appel d’offre
     - Frais divers de ligne d’appel d’offre
 
-- Stocks
+- Stock
 
     - Ordre de transfert – Expédition
     - Ordre de transfert – Réception
+
+Les transactions suivantes sont prises en charge dans la version 10.0.23 : 
+
+- Facture financière
 
 ## <a name="supported-countriesregions"></a>Pays/régions pris en charge
 
@@ -145,6 +147,28 @@ Les pays/régions suivants pour l'adresse principale d'une entité juridique son
 - Suisse
 - Royaume-Uni
 - Etats-Unis
+
+Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.22 :
+
+- Australie
+- Royaume de Bahreïn
+- Canada
+- Égypte
+- Hong Kong (R.A.S.)
+- Koweït
+- Nouvelle-Zélande
+- Oman
+- Qatar
+- Arabie saoudite
+- Afrique du Sud
+- Émirats arabes unis
+
+Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.23 :
+
+- Thaïlande
+- Japon
+- Malaisie
+- Singapour
 
 ## <a name="related-resources"></a>Ressources associées
 

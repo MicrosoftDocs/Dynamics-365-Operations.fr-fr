@@ -2,7 +2,7 @@
 title: Mise en route du calcul de la taxe
 description: Cette rubrique explique comment paramétrer le calcul des taxes.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562124"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647432"
 ---
 # <a name="get-started-with-tax-calculation"></a>Mise en route du calcul de la taxe
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit des informations sur la prise en main du calcul des taxes. Elle vous guide au travers des étapes de configuration dans Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance et Dynamics 365 Supply Chain Management. Elle passe ensuite en revue le processus courant d’utilisation des fonctionnalités du calcul des taxes dans les transactions de Finance and Supply Chain Management.
 
@@ -41,29 +39,10 @@ La configuration se compose de quatre étapes principales :
 
 Avant de pouvoir effectuer les étapes de cette rubrique, des conditions préalables doivent être remplies pour chaque type d'environnement.
 
-### <a name="for-a-production-environment"></a>Pour un environnement de production
-
-Pour un environnement de production, les conditions préalables suivantes doivent être remplies :
+Les conditions préalables suivantes doivent être remplies :
 
 - Vous devez avoir accès à votre compte LCS et disposer d'un projet LCS déployé ayant un environnement de niveau 2 ou supérieur qui exécute Dynamics 365 version 10.0.21 ou ultérieure.
 - Vous devez créer un environnement RCS pour votre organisation et vous devez avoir accès à votre compte. Pour plus d'informations sur la création d'un environnement RCS, consultez [Présentation de Regulatory Configuration Service](rcs-overview.md).
-- Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de l'environnement Finance ou Supply Chain Management déployé, en fonction de vos besoins métiers :
-
-    - Service de calcul de la taxe
-    - Prise en charge de plusieurs numéros d’enregistrement TVA
-    - Taxe dans l’ordre de transfert
-
-- Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de votre environnement RCS déployé.
-
-    - Fonctionnalités de globalisation
-
-### <a name="for-a-test-environment-public-preview"></a>Pour un environnement de test (version préliminaire publique)
-
-Pour un environnement de test, les conditions préalables suivantes doivent être remplies :
-
-- Vous devez avoir accès à votre compte LCS et disposer d'un projet LCS déployé ayant un environnement de niveau 2 ou supérieur qui exécute Dynamics 365 version 10.0.21 ou ultérieure.
-- Vous devez créer un environnement RCS pour votre organisation et vous devez avoir accès à votre compte. Pour plus d'informations sur la création d'un environnement RCS, consultez [Présentation de Regulatory Configuration Service](rcs-overview.md).
-- Vous devez contacter Microsoft, en envoyant un e-mail à <taxcalc@microsoft.com>, pour activer la distribution de versions d’évaluation dans l'environnement Finance ou Supply Chain Management déployé.
 - Les fonctionnalités suivantes doivent être activées dans l'espace de travail **Gestion des fonctionnalités** de l'environnement Finance ou Supply Chain Management déployé, en fonction de vos besoins métiers :
 
     - Service de calcul de la taxe

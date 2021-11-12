@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638468"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647213"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management, version 10.0.19 (juin 2021)
 
@@ -48,7 +48,7 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 Le tableau suivant répertorie les améliorations de fonctionnalités incluses dans cette version. Chacune d’elles apporte une amélioration incrémentielle à une fonctionnalité existante. Comme il ne s’agit que d’améliorations, elles ne sont pas répertoriées dans le [plan de version](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Cependant, pour s’assurer que ces améliorations n’entrent pas en conflit avec vos personnalisations ou préférences existantes, chacune d’elles est désactivée par défaut (sauf indication contraire). Si vous souhaitez utiliser l’une de ces fonctionnalités, vous devez l’activer explicitement dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Fonctionnalités | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
+| Module | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
 |---|---|---|
 | Ventes et marketing | Améliorations des performances de nettoyage de l’historique des ventes | Le nettoyage de l’historique des ventes peut prendre beaucoup de temps s’il est rarement exécuté dans les environnements avec un volume important de mises à jour des ventes. Pour réduire la durée et améliorer la fiabilité, cette fonctionnalité divise le nettoyage en lots qui s’exécutent sur une durée limitée. Dans la mesure du possible, les capacités de la base de données seront exploitées pour réduire le blocage et éviter de joindre des tables transactionnelles pendant le nettoyage. Pour plus d'informations, consultez [Améliorations des performances de nettoyage de l'historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventes et marketing | Mettre à jour la date de réception demandée avec la date confirmée pour les commandes intersociétés | Cette fonctionnalité vous permet de contrôler ce qu’il adviendra des valeurs du champ de vente et d’achat lors de l’utilisation de la livraison directe intersociétés. Vous pouvez choisir si le système mettra à jour les dates demandées ou ignorera leur mise à jour. Si vous ignorez la mise à jour, les dates demandées représenteront ce que le client a demandé. Si vous activez la mise à jour, les dates demandées (lors de l’utilisation du contrôle de date de livraison) ne représentent que ce que le client a demandé initialement. Le contrôle de date de livraison, s’il est différent de *Aucun*, annulera ce qui a été initialement demandé. Vous pouvez définir cette option à l’aide du nouveau paramètre **Mettre à jour la date de réception demandée avec la date confirmée** dans les paramètres du fournisseur ou du client intersociétés.<br><br>Si la fonctionnalité est désactivée, le système remplacera la date de réception demandée dans les commandes client d’origine en fonction de la règle du contrôle de date de livraison, mais la date d’expédition demandée restera telle quelle. |

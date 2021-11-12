@@ -2,7 +2,7 @@
 title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
-ms.date: 08/09/2021
+ms.date: 10/28/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579734"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715252"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
 
@@ -38,7 +38,7 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 | Inventaire&nbsp;et&nbsp;logistique | [Complément Comptabilité globale des stocks pour Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Page d’accueil de la comptabilité globale des stocks](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Valider les ajustements en stock à l’aide de codes de motif configurables connectés aux comptes de contrepartie](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Codes motif d’inventaire de stock](../warehousing/reason-codes-for-counting-journals.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Stratégie d’exportation de données référencées de devis de vente](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Choisissez si les modifications des données référencées par devis entraîneront l’ajout de ces devis (ou lignes) à la prochaine exportation incrémentielle. Vos exportations incrémentielles s’exécuteront plus rapidement si vous choisissez de ne pas inclure de tels devis ou lignes.<br><br>Cette fonctionnalité ajoute un paramètre appelé **Ignorer les données référencées des devis lors du suivi des modifications** sur la page **Paramètres de la Comptabilité client**. |
-| Inventaire&nbsp;et&nbsp;logistique | Appel d’offre scellé <!-- KFM: Add RP link when available --> | [Soumissions sous pli scellé les appels d’offre](../procurement/sealed-bidding.md) |
+| Inventaire&nbsp;et&nbsp;logistique | [Appel d’offre scellé](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Soumissions sous pli scellé les appels d’offre](../procurement/sealed-bidding.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Réservation provisoire pour le complément de visibilité des stocks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Réservations dans la visibilité des stocks](../inventory/inventory-visibility-reservations.md) |
 | Inventaire&nbsp;et&nbsp;logistique | [Améliorations des déductions et du poids variable pour la gestion des remises](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Gérer les déductions à l’aide du workbench de déduction](../rebate-management/deduction-workbench.md )<br><br>[Traiter, examiner et valider les remises](../rebate-management/process-review-post.md)<br><br>[Accords de gestion des remises](../rebate-management/rebate-management-deals.md) |
@@ -50,7 +50,7 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 Le tableau suivant répertorie les améliorations de fonctionnalités incluses dans cette version. Chacune d’elles apporte une amélioration incrémentielle à une fonctionnalité existante. Comme il ne s’agit que d’améliorations, elles ne sont pas répertoriées dans le [plan de version](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Cependant, pour s’assurer que ces améliorations n’entrent pas en conflit avec vos personnalisations ou préférences existantes, chacune d’elles est désactivée par défaut (sauf indication contraire). Si vous souhaitez utiliser l’une de ces fonctionnalités, vous devez l’activer explicitement dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Fonctionnalités | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
+| Module | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
 |---|---|---|
 | Gestion des coûts | Détails de la progression de la clôture du stock | Cette fonctionnalité d’évaluation permet une vue détaillée de la progression de la clôture des stocks. |
 | Approvisionnements | Empêcher la surconsommation des réservations budgétaires générales lorsque le flux de travail contient plusieurs demandes d’achat | Cette fonctionnalité d’évaluation améliore la vérification des erreurs lorsque les utilisateurs soumettent et approuvent des demandes d’achat qui dépassent le solde restant d’une ligne de réservation budgétaire générale. Cela permet d’éviter la surconsommation des réservations budgétaires générales lorsque plusieurs demandes d’achat sont dans le workflow. |
@@ -59,6 +59,64 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 | Gestion des entrepôts | Découpler le travail de rangement des APE | Cette fonctionnalité est requise pour envoyer et recevoir des avis d’expédition anticipés (ASN) lorsque vous exécutez une charge de travail de gestion d’entrepôt sur une unité d’échelle (dans le cadre d’une topologie hybride distribuée). Il ajoute une nouvelle table de base de données dédiée au stockage des informations sur le travail de rangement. Auparavant, ces informations étaient stockées dans des tables également utilisées pour les ASN. |
 | Gestion des entrepôts | Insérer des créneaux dans les unités mixtes | Permet au système d’insérer des articles dans des emplacements comprenant des unités mixtes (telles que des boîtes et des caisses). Pour chaque ligne de modèle de créneau, cette fonctionnalité vous permet de choisir si la ligne doit positionner les articles à des emplacements à unités mixtes ou à unité unique. |
 | Gestion des entrepôts | Utiliser une API plus rapide pour la clôture/réouverture des conteneurs sur la station de conditionnement | Lorsque cette fonctionnalité d’évaluation est activée, les transactions de stock liées aux conteneurs sont créées à l’aide d’un processus léger qui améliore les performances de fermeture ou de réouverture des conteneurs lors du traitement manuel de la station d’emballage. |
+
+## <a name="features-turned-on-by-default-in-this-release"></a>Fonctionnalités activées par défaut dans cette version
+
+Le tableau suivant répertorie les fonctionnalités qui sont activées par défaut dans la version 10.0.21. La plupart des fonctionnalités qui ont été activées de manière atomique peuvent être désactivées dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Nom de la fonction | Date d'activation | Fonction ajoutée le | État de la fonctionnalité | Module |
+| :--- | :--- | :--- | :--- | :--- |
+| Stockage des états sur le stock disponible | 01/09/2021 | 01/04/2020 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Transférer l’annulation de commande | 01/09/2021 | 13/07/2020 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Déverrouiller le journal de stock | 01/09/2021 | 17/08/2020 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Vues enregistrées pour la gestion des stocks | 01/09/2021 | 30/09/2020 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Navigation jusqu'à la version de nomenclature à partir des lignes de nomenclature. | 01/09/2021 | 11/11/2019 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Utilisation de l'unité de mesure et de la quantité d'unités dans les journaux de stock. | 01/09/2021 | 11/11/2019 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Autoriser les valeurs d'attributs de lot vides | 01/09/2021 | 11/11/2019 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Incrémenter automatiquement les numéros de ligne des lignes d'ordre de transfert de stock. | 01/09/2021 | 11/10/2019 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Workflow d'approbation du journal de stock | 01/09/2021 | 06/01/2020 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Activer la fonction d'avertissement des paramètres de gestion de la qualité du stock | 01/09/2021 | 07/10/2019 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Créer un ordre de transfert à partir de la ligne de vente | 01/09/2021 | 31/08/2019 | Activé par défaut | Gestion des entrepôts et des stocks |
+| Sélection du modèle de prévision sur les détails de prévision de la demande | 01/09/2021 | 11/10/2019 | Activé par défaut | Planification générale |
+| Visualisation de la progression de la planification | 01/09/2021 | 07/10/2019 | Activé par défaut | Planification générale |
+| Confirmation automatique pour l'optimisation de la planification | 01/09/2021 | 11/10/2019 | Activé par défaut | Planification générale |
+| Confirmation de la mise en parallèle des ordres prévisionnels | 01/09/2021 | 31/08/2019 | Activé par défaut | Planification générale |
+| Message de soumission d'offre réussie | 01/09/2021 | 15/05/2019 | Activé par défaut | Approvisionnements |
+| Lien de référence de l'appel d'offre ajouté à la CF | 01/09/2021 | 31/08/2019 | Activé par défaut | Approvisionnements |
+| Possibilité de confirmer les commandes fournisseur acceptées de la collaboration fournisseur par lots | 01/09/2021 | 10/09/2019 | Activé par défaut | Approvisionnements |
+| Améliorations des cXML d’achat | 01/09/2021 | 11/11/2019 | Activé par défaut | Approvisionnements |
+| Afficher le lien &quot;Ouvrir les appels d’offres publiés&quot; sous forme de vignette | 01/09/2021 | 30/09/2020 | Activé par défaut | Approvisionnements |
+| Questions et réponses concernant les appels d'offre | 01/09/2021 | 19/02/2020 | Activé par défaut | Approvisionnements |
+| Documents d’expédition et informations sur les matières dangereuses d'un produit | 01/09/2021 | 14/06/2020 | Activé par défaut | Gestion des informations sur les produits |
+| Contrôle stricte des quantités de commande par défaut | 01/09/2021 | 24/06/2020 | Activé par défaut | Gestion des informations sur les produits |
+| Fonction de gestion du pays d’origine | 01/09/2021 | 13/07/2020 | Activé par défaut | Gestion des informations sur les produits |
+| Vues enregistrées pour les produits lancés | 01/09/2021 | 30/09/2020 | Activé par défaut | Gestion des informations sur les produits |
+| Améliorations apportées aux boîtes de dialogue d’approbation et de transfert des tâches | 01/09/2021 | 11/10/2019 | Activé par défaut | Contrôle de la production |
+| Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail | 01/09/2021 | 31/08/2019 | Activé par défaut | Contrôle de la production |
+| Un nouveau bouton Fin de pause a été ajouté à la page Terminal des bons de travail. | 01/09/2021 | 19/02/2020 | Activé par défaut | Contrôle de la production |
+| Activez la réception partielle des articles sous-traités et corrigez l'erreur de calcul du rebut pour les lignes de nomenclature de type Fournisseur. | 01/09/2021 | 11/11/2019 | Activé par défaut | Contrôle de la production |
+| Vues enregistrées pour le contrôle de la production | 01/09/2021 | 17/08/2020 | Activé par défaut | Contrôle de la production |
+| Dynamics 365 Guides pour la Fabrication | 01/09/2021 | 13/07/2020 | Activé par défaut | Contrôle de la production |
+| Exécution de l’atelier de production | 01/09/2021 | 30/09/2020 | Activé par défaut | Contrôle de la production |
+| Fonctionnalité de verrouillage des périphériques des bons de travail et des terminaux des bons de travail afin de procéder à leur désinfection. | 01/09/2021 | 10/05/2020 | Activé par défaut | Contrôle de la production |
+| Répartition des frais sur une commande client | 01/09/2021 | 30/09/2020 | Activé par défaut | Ventes et marketing |
+| Limiter le nombre de commandes clients qui peuvent être sélectionnées pour validation | 01/09/2021 | 01/09/2021 | Activé par défaut | Ventes et marketing |
+| Nettoyer l’historique des mises à jour des commandes clients | 01/09/2021 | 01/09/2021 | Activé par défaut | Ventes et marketing |
+| Modifier la souche de numéros pour le travail d'inventaire tournant | 01/09/2021 | 07/10/2019 | Activé par défaut | Gestion des entrepôts |
+| Réapprovisionnement d'une demande de vague basée sur la tâche | 01/09/2021 | 07/10/2019 | Obligatoire | Gestion des entrepôts |
+| Masquer le champ Valeur totale sur les pages &quot;Toutes les charges&quot; et &quot;Détails de la charge&quot; | 01/09/2021 | 07/10/2019 | Activé par défaut | Gestion des entrepôts |
+| Impression d’étiquettes de vague | 01/09/2021 | 19/02/2020 | Obligatoire | Gestion des entrepôts |
+| Associer les mouvements de stock de commande fournisseur au chargement | 01/09/2021 | 06/01/2020 | Obligatoire | Gestion des entrepôts |
+| Mises en page d’étiquettes de contenant améliorées | 01/09/2021 | 19/02/2020 | Activé par défaut | Gestion des entrepôts |
+| Blocage des tâches à l’échelle de l’organisation | 01/09/2021 | 19/02/2020 | Obligatoire | Gestion des entrepôts |
+| Détails de la ligne de travail | 01/09/2021 | 11/10/2019 | Activé par défaut | Gestion des entrepôts |
+| Rendre modifiable le champ Statut du stock pour les mouvements de stock sur l'appareil mobile | 01/09/2021 | 16/10/2019 | Activé par défaut | Gestion des entrepôts |
+| Confirmer les expéditions sortantes des traitements par lots | 01/09/2021 | 13/07/2020 | Activé par défaut | Gestion des entrepôts |
+| Contrôler l'affichage ou non d'une page de résumé de réception sur les appareils mobiles | 01/09/2021 | 01/04/2020 | Activé par défaut | Gestion des entrepôts |
+| Inviter à résoudre les noms ambigus &#39;Loc / LP&#39; | 01/09/2021 | 01/04/2020 | Activé par défaut | Gestion des entrepôts |
+| Capture des variantes de produit et des dimensions de suivi dans l’application d’entreposage lors de la réception des articles du chargement | 01/09/2021 | 10/05/2020 | Activé par défaut | Gestion des entrepôts |
+| N’autorisez pas à créer des chargements, qui ne satisfont pas aux exigences du modèle de création de chargement de vague. | 01/09/2021 | 17/08/2020 | Activé par défaut | Gestion des entrepôts |
+| Évaluer toutes les actions pour les directives d’emplacement qui autorise plusieurs SKU | 01/09/2021 | 30/09/2020 | Activé par défaut | Gestion des entrepôts |
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 

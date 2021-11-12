@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463832"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700377"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Mise en route de la Facturation électronique
 
@@ -84,6 +84,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
 | Facture électronique norvégienne (NO)    | <p>Modèle de contexte de facture client</p><p>Modèle de facture</p> |
 | Facture électronique espagnole (ES)      | <p>Modèle de contexte de facture client</p><p>Modèle de facture</p> |
 | Facture électronique PEPPOL            | <p>Modèle de contexte de facture client</p><p>Modèle de facture</p> |
+| Facture électronique saoudienne (SA)| <p>Modèle de contexte de facture client</p><p>Modèle de facture</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Configurer le paramétrage de l’application
@@ -112,6 +113,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
     | Facture électronique norvégienne (NO)    | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
     | Facture électronique espagnole (ES)      | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
     | Facture électronique PEPPOL            | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
+    | Facture électronique saoudienne (SA)| <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
 
 6. Pour chaque nom de table que vous créez, sélectionnez et entrez une valeur de contexte selon le tableau suivant.
 
@@ -133,6 +135,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
     | Facture électronique norvégienne (NO)    | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | Facture électronique espagnole (ES)      | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | Facture électronique PEPPOL            | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
+    | Facture électronique saoudienne (SA)| <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
 
 7. Pour chaque nom de table et contexte, sélectionnez et entrez un mappage de document commercial selon le tableau suivant.
 
@@ -154,6 +157,7 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
     | Facture électronique norvégienne (NO)    | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture – Facture client</p><p>Mappage de modèle de facture – Facture projet</p> |
     | Facture électronique espagnole (ES)      | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture – Facture client</p><p>Mappage de modèle de facture – Facture projet</p> |
     | Facture électronique PEPPOL            | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture – Facture client</p><p>Mappage de modèle de facture – Facture projet</p> |
+    | Facture électronique saoudienne (SA)| <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture – Facture client</p><p>Mappage de modèle de facture – Facture projet</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Configuration du paramétrage de l’application spécifique au pays
@@ -207,6 +211,8 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
     | Facture électronique norvégienne (NO)                     | Norvège          |
     | Facture électronique PEPPOL                             | Général          |
     | Facture électronique espagnole (ES)                       | Espagne           |
+    | Facture électronique saoudienne (SA)                 | Arabie saoudite    |
+    
 
 4. Sélectionnez **Enregistrer**.
 
@@ -242,8 +248,9 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
 - [Mise en route de l’administration du service de Facturation électronique](e-invoicing-get-started-service-administration.md)
 - [Mise en route de la Facturation électronique pour le Brésil](e-invoicing-bra-get-started.md)
 - [Mise en route de la Facturation électronique pour le Mexique](e-invoicing-mex-get-started.md)
-- [Mise en route de la Facturation électronique pour l’Italie](e-invoicing-ita-get-started.md)
+- [Mise en route de la facturation électronique pour l’Italie](e-invoicing-ita-get-started.md)
 - [Factures électroniques client en Égypte](emea-egy-e-invoices.md)
+- [Factures électroniques client en Arabie saoudite](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

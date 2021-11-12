@@ -1,7 +1,7 @@
 ---
 title: Amortissement linéaire sur la durée de vie
-description: Cet article donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
-author: ShylaThompson
+description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement de service linéaire sur la durée de vie restante.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985a1a23510a2cc698eb496cf9f3db2427d21119c1586ed69cf7e5ffd3d08867
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b34cdf9485d38cdbf1362bd605841201a4295f26
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752197"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675269"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
 
 [!include [banner](../includes/banner.md)]
 
-Cet article donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
+Cette rubrique donne une vue d’ensemble de la méthode d’amortissement de service linéaire sur la durée de vie restante.
 
 Lorsque vous paramétrez un profil d’amortissement des immobilisations et sélectionnez Durée de vie linéaire dans le champ Méthode de la page Profils d’amortissement, l’amortissement des immobilisations affectées à ce profil d’amortissement est basé sur la durée de vie totale de l’immobilisation. Le montant d’amortissement est généralement identique dans chaque période d’amortissement. 
 
@@ -44,11 +44,11 @@ Si vous sélectionnez Calendrier, l’exercice supposé s’étend sur la pério
 L’option Calendrier met à jour la base d’amortissement (généralement la valeur comptable nette moins la valeur résiduelle) le premier janvier de chaque année. Dans les exemples plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. 
 
 Si vous sélectionnez Calendrier, les options suivantes sont disponibles dans le champ Période fréquence qui définit les dates et les montants de validation de régularisation des amortissements au cours de l’année civile :
--   Annuel valide un montant le 31 décembre.
--   L’option Mensuellement valide un montant mensuel à la fin de chaque mois du calendrier.
--   L’option Trimestriel valide un montant trimestriel à la fin de chaque trimestre du calendrier (31 mars, 30 juin, 30 septembre et 31 décembre).
--   Semestriel valide un montant semestriel à la fin de chaque semestre du calendrier (30 juin et 31 décembre).
--   L’option Quotidien valide le montant d’amortissement pour la méthode d’amortissement quotidien à l’aide d’une transaction par jour.
+- Annuel valide un montant le 31 décembre.
+- L’option Mensuellement valide un montant mensuel à la fin de chaque mois du calendrier.
+- L’option Trimestriel valide un montant trimestriel à la fin de chaque trimestre du calendrier (31 mars, 30 juin, 30 septembre et 31 décembre).
+- Semestriel valide un montant semestriel à la fin de chaque semestre du calendrier (30 juin et 31 décembre).
+- L’option Quotidien valide le montant d’amortissement pour la méthode d’amortissement quotidien à l’aide d’une transaction par jour.
 
 Par exemple, si vous sélectionnez Annuel, l’amortissement annuel n’est validé qu’une seule fois, le 31 décembre de chaque année. Si vous sélectionnez Mensuellement, l’amortissement mensuel est validé chaque mois comme 1/12 du montant d’amortissement annuel.
 
@@ -59,14 +59,14 @@ Si vous sélectionnez Fiscal dans le champ Année d’amortissement, l’amortis
 Par exemple, pour l’exercice allant du 1er juillet au 30 juin, le calcul de l’amortissement commence le 1er juillet. L’exercice peut avoir une longueur supérieure ou inférieure à 12 mois. L’amortissement est ajusté automatiquement en fonction de chaque période fiscale. La longueur de l’exercice suivant est basée sur les périodes fiscales paramétrées lors de la création d’un exercice dans l’écran Calendriers fiscaux. 
 
 Si vous sélectionnez Fiscal, les options suivantes sont disponibles dans le champ Période fréquence :
--   Annuel valide le montant total de l’amortissement calculé pour l’exercice comme montant unique le dernier jour de l’exercice.
--   Période fiscale calcule le montant total de l’amortissement pour l’exercice, qui est à recevoir dans les périodes définies dans l’écran Calendriers fiscaux pour le calendrier fiscal.
+- Annuel valide le montant total de l’amortissement calculé pour l’exercice comme montant unique le dernier jour de l’exercice.
+- Période fiscale calcule le montant total de l’amortissement pour l’exercice, qui est à recevoir dans les périodes définies dans l’écran Calendriers fiscaux pour le calendrier fiscal.
 
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Exemple : amortissement linéaire d’une immobilisation inchangée
 Supposons que l’immobilisation présente les caractéristiques suivantes :
 
 | Caractéristique      | Valeur  |
-|---------------------|--------|
+|:---------------------|--------:|
 | Prix d’acquisition    | 11,000 |
 | Valeur résiduelle       | 1 000  |
 | Base d’amortissement   | 10 000 |
@@ -76,7 +76,7 @@ Supposons que l’immobilisation présente les caractéristiques suivantes :
 Vous obtenez le même montant d’amortissement chaque année. (coûts d’acquisition - valeur résiduelle) / années de durée de vie
 
 | Période | Calcul du montant d’amortissement annuel | Valeur nette à la fin de l’exercice |
-|--------|-------------------------------------------|---------------------------------------|
+|:--------:|:-------------------------------------------|---------------------------------------:|
 | Année 1 | (11 000 – 1 000) / 5 = 2 000              | 9 000                                 |
 | Année 2 | (11 000 – 1 000) / 5 = 2 000              | 7 000                                 |
 | Année 3 | (11 000 – 1 000) / 5 = 2 000              | 5 000                                 |
@@ -90,7 +90,7 @@ Supposons que vous ajoutez un ajustement d’acquisition de 4 000 pour l’ann�
 La durée de vie de l’ajustement d’acquisition est identique à celle de l’immobilisation et commence au moment de l’acquisition. Une valeur comptable nette reste à la fin de l’année 5, qui correspond à la valeur comptable nette de l’ajustement d’acquisition. L’amortissement par période est calculé comme dans le tableau suivant.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable nette à la fin de l’exercice |
-|--------|-------------------------------------------|---------------------------------------|
+|:--------:|:-------------------------------------------|---------------------------------------:|
 | Année 1 | 10 000 / 5 = 2 000                        | 11 000 – 2 000 = 9 000                |
 | Année 2 | 4 000 (ajustement d’acquisition)            | 9 000 + 4 000 =13 000                 |
 | Année 2 | 14 000 / 5 = 2 800                        | 13 000 – 2 800 = 10 200               |

@@ -2,7 +2,7 @@
 title: Déclaration TVA (Suisse)
 description: Cette rubrique fournit des informations sur la configuration et la génération d’une déclaration de TVA pour la Suisse.
 author: anasyash
-ms.date: 09/10/2021
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c2d1e617743a1859f9b1b55387fc5f4b4afb408
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 917438395785e12695867666ec36246ea113d0c0
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487939"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647448"
 ---
 # <a name="vat-declaration-switzerland"></a>Déclaration TVA (Suisse)
 
@@ -139,6 +139,9 @@ Ouvrez l’espace de travail **Déclaration électronique** et importez les vers
 ### <a name=""></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields">Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA</a>
 
 Pour générer automatiquement une déclaration de TVA, associez les codes de taxe dans l’application aux résultats de recherche dans la configuration ER.
+
+> [!NOTE]
+> Nous vous recommandons d’activer la fonctionnalité, **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, les paramètres configurés pour la version antérieure d’un format ER deviennent automatiquement applicables pour la version ultérieure du même format. Si cette fonctionnalité n’est pas activée, vous devez configurer explicitement les paramètres spécifiques à l’application pour chaque version de format. La fonctionnalité, **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** est disponible dans l’espace de travail **Gestion des fonctionnalités** à partir de la version Finance 10.0.23. Pour plus d’informations sur la configuration des paramètres d’un format ER pour chaque entité juridique, voir [Définir les paramètres d’un format de gestion des états électroniques par entité juridique](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 #### <a name="set-up-turnover-lookup"></a>Configurer la recherche de chiffre d’affaires
 

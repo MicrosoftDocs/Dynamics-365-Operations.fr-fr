@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722789"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647138"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d’ensemble des factures fournisseur
 
@@ -72,12 +72,9 @@ Votre organisation peut utiliser des workflows pour gérer le processus de révi
 Voici plusieurs façons d’empêcher une facture d’être soumise à un flux de travail.
 
 - **Le total de la facture et le total enregistré ne sont pas identiques.** La personne qui a soumis la facture recevra une alerte indiquant que les totaux ne sont pas égaux. L’alerte offre la possibilité de corriger les soldes avant de soumettre à nouveau la facture au workflow. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le total de la facture et le total de la facture enregistrée ne sont pas identiques** sur la page **Gestion des fonctionnalités** est activé. 
-
 - **La facture contient des frais non alloués.** La personne qui a soumis la facture recevra une alerte indiquant que la facture a des frais non attribués afin de pouvoir corriger la facture avant de la soumettre à nouveau au flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail en cas de charges non attribuées sur une facture fournisseur** de la page **Gestion des fonctionnalités** est activé.
-
 - **La facture contient le même numéro de facture qu’une autre facture validée.** La personne qui a envoyé la facture recevra un message indiquant qu’une facture avec un numéro en double a été trouvée. Le numéro en double peut être corrigé avant d’envoyer à nouveau la facture au flux de travail. Cette alerte s’affiche lorsque le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.
-
-- **La facture contient une ligne où la quantité de la facture est inférieure à la quantité correspondante de l’accusé de réception de marchandises.** La personne qui envoie la facture ou tente de la publier recevra un message indiquant que les quantités ne sont pas égales. Ce message offre la possibilité de corriger les valeurs avant de renvoyer la facture au flux de travail. Cette fonctionnalité est disponible si le paramètre **Bloquer la publication et l’envoi de factures fournisseur au flux de travail** dans la page **Gestion des fonctionnalités** est activé et le paramètre **Bloquer la publication et l’envoi au flux de travail** dans la page **Paramètres de la comptabilité fournisseur** est activé.  
+- **La facture contient une ligne où la quantité de la facture est inférieure à la quantité correspondante de l’accusé de réception de marchandises.** La personne qui envoie la facture ou tente de la publier recevra un message indiquant que les quantités ne sont pas égales. Ce message offre la possibilité de corriger les valeurs avant de renvoyer la facture au flux de travail. Cette fonctionnalité est disponible si le paramètre **Bloquer la publication et l’envoi de factures fournisseur au flux de travail** dans la page **Gestion des fonctionnalités** est activé et le paramètre **Bloquer la publication et l’envoi au flux de travail** dans la page **Paramètres de la comptabilité fournisseur** est activé.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Rapprochement des factures fournisseur avec les accusés de réception de marchandises
 
@@ -122,9 +119,32 @@ Une instance de workflow arrêtée en raison d’une erreur irrécupérable aura
 Vous pouvez utiliser la page **Historique du workflow** pour réinitialiser le statut du workflow sur **Brouillon**. Vous pouvez ouvrir cette page à partir de **Facture fournisseur** ou de **Commun > Recherches > Workflow**. Pour réinitialiser le statut du workflow sur **Brouillon**, sélectionnez **Rappeler**. Vous pouvez également réinitialiser le statut du workflow sur Brouillon en sélectionnant l’action **Rappeler** dans la page **Facture fournisseur** ou **Factures fournisseur en attente**. Une fois le statut du workflow réinitialisé sur **Brouillon**, il devient disponible pour modifier sur la page **Facture fournisseur**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Affichage du total de la facture sur la page Factures fournisseur en attente
+
 Vous pouvez consulter le total de la facture sur la page **Factures fournisseur en attente** en activant le paramètre **Afficher le total de la facture sur la liste des factures fournisseur en attente** sur la page **Paramètres des comptes fournisseurs**. 
 
+## <a name="vendor-open-transactions-report"></a>État des transactions en cours fournisseur
 
+Le rapport **Transactions ouvertes par le fournisseur** fournit des informations détaillées sur les transactions en cours pour chaque fournisseur à la date que vous spécifiez. Ce rapport est souvent utilisé lors de la procédure d'audit pour vérifier les soldes entre les transactions du livre du fournisseur et les transactions du compte du grand livre.
+
+Pour chaque transaction, l’état comprend les détails suivants :
+
+- Numéro de facture
+- Date de la transaction
+- N° document
+- Montant de la transaction dans la devise de transaction et la devise comptable
+- Solde créditeur dans la devise de transaction et la devise comptable
+- Solde débiteur dans la devise de transaction et la devise comptable
+- Montant du sous-total dans la devise comptable
+- Date d'échéance du paiement
+
+### <a name="filter-the-data-on-the-report"></a>Filtrer les données sur l’état
+
+Lorsque vous générez l’état **Transactions ouvertes par le fournisseur**, les paramètres par défaut suivants sont disponibles. Vous pouvez les utiliser pour filtrer les données qui seront incluses dans le rapport.
+
+- **Exclure le règlement futur** – Cochez cette case pour exclure les transactions réglées après la date saisie dans le champ **Transactions ouvertes par**.
+- **Transactions ouvertes par** – Saisissez une date pour inclure les transactions ouvertes à cette date. Si vous ne saisissez pas de date, ce champ est défini sur la date maximale. (La date maximale est la dernière date que le système acceptera, le 31 décembre 2154.) Par défaut, la prochaine fois que le rapport sera exécuté, ce champ sera défini comme la dernière date qui y a été entrée.
+
+Vous pouvez utiliser les filtres sous le champ **Enregistrement à inclure** pour limiter davantage les données de transaction incluses dans le rapport.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

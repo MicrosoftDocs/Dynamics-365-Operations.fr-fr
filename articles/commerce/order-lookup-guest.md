@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0368f567898210f122047a9f298bcb28b7540de1
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472608"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674974"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Activer la recherche de commande pour les caisses d'invité
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique explique comment activer la recherche de commande pour les caisses d'invité dans Microsoft Dynamics 365 Commerce.
 

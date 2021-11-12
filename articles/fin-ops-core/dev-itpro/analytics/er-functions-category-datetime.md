@@ -2,7 +2,7 @@
 title: Liste des fonctions ER dans la catégorie de date et d’heure
 description: Cette rubrique fournit des informations sur les fonctions de date et d’heure prises en charge dans les États électroniques (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760048"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647261"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Liste des fonctions ER dans la catégorie de date et d’heure
 
@@ -31,8 +31,9 @@ Les fonctions de date et d’heure d’états électroniques (ER) peuvent être 
 
 | Fonction | Description |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Cette fonction renvoie une valeur de *DateTime* qui est le nombre de jours spécifié avant ou après une date de début spécifiée. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente une valeur de date donnée dans le format spécifié et dans une culture éventuellement spécifiée. |
+| [AddDays](er-functions-datetime-adddays.md) | Cette fonction renvoie une valeur *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* qui est le nombre de jours spécifié avant ou après une date de début spécifiée. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Cette fonction renvoie une valeur *DateTime* qui est convertie d’une valeur de date/heure donnée en une valeur de date/heure dans un autre fuseau horaire. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Cette fonction renvoie une valeur *[Chaîne](er-formula-supported-data-types-primitive.md#string)* qui présente une valeur de date donnée dans le format spécifié et dans une culture éventuellement spécifiée. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente une valeur de date/heure donnée dans le format spécifié et dans une culture éventuellement spécifiée. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Cette fonction renvoie une valeur *DateTime* qui est convertie à partir d’une valeur de texte donnée dans le format spécifié et dans une culture spécifiée en option sur une valeur de date/heure. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Cette fonction renvoie une valeur de *DateTime* qui est convertie d’une valeur de date donnée en une valeur de date/heure en temps universel coordonné (Heure de Greenwich, \[GMT\]). |

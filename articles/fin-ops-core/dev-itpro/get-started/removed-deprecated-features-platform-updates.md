@@ -2,7 +2,7 @@
 title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595143"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725047"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -31,6 +31,64 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est p
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+
+## <a name="feature-removal-effective-october-2021"></a>Suppression de la fonctionnalité à compter d'octobre 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Rapports SQL Microsoft Azure dans Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Toutes les activités et le suivi sont effectués en interne, par la plate-forme, grâce à l’automatisation. Cela ne nécessite aucune intervention manuelle.|
+| **Remplacé par une autre fonctionnalité ?**   | Oui, il existe maintenant un système automatisé, ce qui rend ces capacités obsolètes. |
+| **Zones de produit affectées**         | Rapports SQL : DTU actuel, Détails du DTU actuel, Obtenir les détails du verrouillage, Liste du guide du plan actuel, Obtenir la liste des ID de requête, Obtenir le plan de requête SQL pour un ID de plan donné, Obtenir les plans de requête et le statut d’exécution, Obtenir la configuration de l’accélérateur, Obtenir les statistiques d’attente, Répertorier les requêtes les plus chères |
+| **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
+| **État**                         | Supprimé(e) |
+
+### <a name="azure-sql-actions-in-lcs"></a>Actions Azure SQL dans LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Nous abandonnons certaines actions SQL dans LCS. Toutes les activités et le suivi sont effectués en interne, par la plate-forme, grâce à l’automatisation. Cela ne nécessite aucune intervention manuelle. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, il existe maintenant un système automatisé, ce qui rend ces capacités obsolètes. |
+| **Zones de produit affectées**         | Actions SQL : Créer un guide de plan pour forcer l’ID de plan, Créer un guide de plan pour ajouter des conseils de table, Supprimer un guide de plan, Désactiver/Activer les verrous de page et l’escalade de verrous, Mettre à jour les statistiques sur une table, Régénérer l’index, Créer un index |
+| **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
+| **État**                         | Supprimé(e) |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Notification d’abandon de fonctionnalités à compter d’octobre 2021
+
+### <a name="show-related-document-attachments-feature"></a>Fonctionnalité "Afficher les pièces jointes des documents associés"
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | La fonctionnalité renvoyait des résultats inattendus. |
+| **Remplacé par une autre fonctionnalité ?**   | Non. Tout autre projet concernant cette fonctionnalité sera communiqué par le biais de notre processus de divulgation de vague de publication standard. |
+| **Zones de produit affectées**         | Client Web - Expérience de pièce jointe de document |
+| **Option de déploiement**              | Tout |
+| **État**                         | Désapprouvé  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.23 des applications Finance and Operations
+
+### <a name="ondbsynchronize-event"></a>Événement OnDBSynchronize
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Il n'y a aucun contrôle pour exécuter cet événement. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, déplacer les méthodes existantes souscrites par l'événement **OnDBSynchronzie** à une classe étendue SysSetup. |
+| **Zones de produit affectées**         | Synchronisation de base de données |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète. La date de retrait prévue est octobre 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>API SystemNotificationsManager.AddNotification
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Microsoft requiert des paramètres supplémentaires lors de l'ajout de notifications. |
+| **Remplacé par une autre fonctionnalité ?**   | Oui l'API **SystemNotificationsManager.AddSystemNotification()**. Cette API nécessite que vous définissiez explicitement ExpirationDateTime et RuleID pour les notifications générées. |
+| **Zones de produit affectées**         | Client Web |
+| **Option de déploiement**              | Tout |
+| **État**                         | Obsolète. La date de retrait prévue est Avril 2023. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.21 des applications Finance and Operations
 
@@ -54,7 +112,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Oui, il existe maintenant un système automatisé, ce qui rend ces capacités obsolètes. |
 | **Zones de produit affectées**         | Rapports SQL : DTU actuel, Détails du DTU actuel, Obtenir les détails du verrouillage, Liste du guide du plan actuel, Obtenir la liste des ID de requête, Obtenir le plan de requête SQL pour un ID de plan donné, Obtenir les plans de requête et le statut d’exécution, Obtenir la configuration de l’accélérateur, Obtenir les statistiques d’attente, Répertorier les requêtes les plus chères |
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
-| **État**                         | Obsolète : date de suppression prévue en octobre 2021. |
+| **État**                         | Obsolète : date de suppression prévue est octobre 2021. |
 
 ### <a name="azure-sql-actions-in-lcs"></a>Actions Azure SQL dans LCS
 
@@ -64,7 +122,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Oui, il existe maintenant un système automatisé, ce qui rend ces capacités obsolètes. |
 | **Zones de produit affectées**         | Actions SQL : Créer un guide de plan pour forcer l’ID de plan, Créer un guide de plan pour ajouter des conseils de table, Supprimer un guide de plan, Désactiver/Activer les verrous de page et l’escalade de verrous, Mettre à jour les statistiques sur une table, Régénérer l’index, Créer un index |
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
-| **État**                         | Obsolète : date de suppression prévue en octobre 2021. |
+| **État**                         | Obsolète : date de suppression prévue est octobre 2021. |
 
 ## <a name="feature-deprecation-effective-may-2021"></a>Notification d’abandon de fonctionnalités à compter de mai 2021
 
@@ -76,7 +134,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Oui, cette fonctionnalité est remplacée par la [Recherche d’incidents](../lifecycle-services/issue-search-lcs.md) de LCS et le [Service d’envoi d’alertes de réglementation de Dynamics](../lcs-solutions/submit-localization-alerts.md). |
 | **Zones de produit affectées**         | Portail de globalisation de LCS|
 | **Option de déploiement**              | Déploiement cloud |
-| **État**                         | Obsolète : date de suppression prévue en mai 2022. |
+| **État**                         | Obsolète : date de suppression prévue est mai 2022. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Fonctionnalité supprimée à compter du 28 janvier 2021

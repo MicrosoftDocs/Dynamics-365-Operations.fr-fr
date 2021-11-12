@@ -2,7 +2,7 @@
 title: Vue d’ensemble des tâches d’importation et d’exportation de données
 description: L’espace de travail Gestion des données vous permet de créer et de gérer des tâches d’importation et d’exportation de données.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612362"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675367"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -68,6 +68,9 @@ Lorsque vous sélectionnez une entité, vous devez sélectionner le format des d
 | Excel                  | Excel                                      | \-S/O-                     |
 | XML                    | \-S/O-                                      | Élément XML Attribut XML |
 | Délimité, largeur fixe | Virgule, point-virgule, onglet, barre verticale, deux points | \-S/O-                     |
+
+> [!NOTE]
+> Il est important de sélectionner la valeur appropriée pour **Séparateur de ligne**, **Séparateur de colonne**, et **Qualificatif de texte**, si l’option **Format de fichier** est définie sur **Délimité**. Assurez-vous que vos données ne contiennent pas le caractère utilisé comme délimiteur ou qualificateur, car cela peut entraîner des erreurs lors de l’importation et de l’exportation.
 
 ### <a name="sequence-the-entities"></a>Séquencer les entités
 Les entités peuvent être séquencées dans un modèle de données, ou dans des tâches d’importation et d’exportation. Lorsque vous exécutez une tâche qui contient plusieurs entités de données, vous devez vous assurer que les entités de données sont correctement séquencées. Séquencez principalement les entités afin de pouvoir traiter les dépendances fonctionnelles entre les entités. Si les entités n’ont aucune dépendance fonctionnelle, elles peuvent être planifiées pour l’importation ou l’exportation parallèle.

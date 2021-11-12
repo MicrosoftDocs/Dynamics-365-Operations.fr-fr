@@ -1,7 +1,7 @@
 ---
 title: Amortissement paramétrable
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement paramétrable.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdb35f7b0efaf2f1a5f63eb0dbdf14363f63a389c5449b7fe145a46fd5c14cc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746462"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674453"
 ---
 # <a name="factor-depreciation"></a>Amortissement paramétrable
 
@@ -28,7 +28,7 @@ ms.locfileid: "6746462"
 
 Cet article donne une vue d’ensemble de la méthode d’amortissement paramétrable.
 
-Les facteurs sont les pourcentages utilisés pour l’amortissement des immobilisations. Lorsque vous paramétrez un profil d’amortissement d’immobilisations et sélectionnez **Facteur** dans le champ **Méthode** de la page **Profils d’amortissement**, vous pouvez paramétrer un amortissement progressif, dégressif ou linéaire :
+Les facteurs sont les pourcentages utilisés pour l’amortissement des immobilisations. Lorsque vous paramétrez un profil d’amortissement d’immobilisations et sélectionnez **Facteur** dans le champ **Méthode** de la page **Profils d’amortissement**, vous pouvez paramétrer un amortissement progressif, dégressif ou linéaire.
 
 -   Dans l’amortissement progressif, le montant d’amortissement augmente avec chaque période d’amortissement.
 -   Dans l’amortissement dégressif, le montant d’amortissement par période diminue dans le temps.

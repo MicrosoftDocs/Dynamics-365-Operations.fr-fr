@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577478"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678565"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolérance de retard (jours négatifs)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 La fonctionnalité de tolérance de retard permet à l’optimisation de la planification de prendre en compte la valeur **Jours négatifs** définie pour les groupes de couverture. Elle sert à prolonger la période de tolérance de retard qui est appliquée lors de la planification générale. De cette façon, vous pouvez éviter de créer de nouvelles commandes d’approvisionnement si l’approvisionnement existant peut couvrir la demande après un court délai. Le but de cette fonctionnalité est de déterminer s’il est judicieux de créer un nouvel ordre d’approvisionnement pour une demande donnée.
 

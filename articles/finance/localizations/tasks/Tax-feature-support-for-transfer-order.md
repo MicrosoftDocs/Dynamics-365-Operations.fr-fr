@@ -2,7 +2,7 @@
 title: Prise en charge de la fonction de taxe pour les ordres de transfert
 description: Cette rubrique explique la prise en charge de la nouvelle fonctionnalité de taxe pour les ordres de transfert à l’aide du service de calcul des taxes.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500074"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647711"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
@@ -31,7 +31,7 @@ Cette rubrique fournit des informations sur le calcul des taxes et l’intégrat
 Pour configurer et utiliser cette fonctionnalité, vous devez effectuer trois étapes principales :
 
 1. **Configuration RCS :** dans Regulatory Configuration Service, configurez la fonctionnalité de taxe, les codes taxe et l’applicabilité des codes taxe pour la détermination du code taxe dans les ordres de transfert.
-2. **Configuration Finance :** dans Microsoft Dynamics 365 Finance, activez la fonctionnalité **Taxe dans l’ordre de transfert**, configurez les paramètres du service de taxe pour le stock et configurez les paramètres fiscaux de base.
+2. **Configuration de Dynamics 365 Finance :** Dans Finance, activez la fonctionnalité **Taxe dans l’ordre de transfert**, configurez les paramètres du service de calcul de taxe pour le stock et configurez les paramètres fiscaux de base.
 3. **Configuration du stock :** paramétrez la configuration du stock pour les transactions d’ordre de transfert.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Configurer RCS pour les taxes et les transactions d’ordre de transfert
@@ -39,8 +39,6 @@ Pour configurer et utiliser cette fonctionnalité, vous devez effectuer trois é
 Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert. Dans l’exemple présenté ici, l’ordre de transfert va des Pays-Bas vers la Belgique.
 
 1. Sur la page **Fonctionnalité de taxe**, sur l’onglet **Versions**, sélectionnez la version provisoire de la fonctionnalité, puis sélectionnez **Modifier**.
-
-    ![Sélection de Modifier.](../media/tax-feature-support-01.png)
 
 2. Sur la page **Configuration des fonctionnalités de taxe**, sur l’onglet **Codes taxe**, sélectionnez **Ajouter** pour créer de nouveaux codes taxe. Pour cet exemple, trois codes taxe sont créés : **NL-Exempt**, **BE-RC-21** et **BE-RC+21**.
 
@@ -51,9 +49,8 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         2. Sélectionnez **Par montant net** dans le champ **Composant de taxe**.
         3. Sélectionnez **Enregistrer**.
         4. Sélectionnez **Ajouter** dans la table **Taux**.
-        5. Faites basculer l’option **Est exonéré** sur **Oui** dans la section **Général**.
-
-           ![Code taxe NL-Exempt.](../media/tax-feature-support-02.png)
+        5. Définissez **Est exonéré** sur **Oui** dans la section **Général**.
+        6. Dans le champ **Code d'exonération**, entrez **EC**.
 
     - Lorsqu’un ordre de transfert est reçu dans un entrepôt de Belgique, le mécanisme de taxe au preneur est appliqué en utilisant les codes taxe **BE-RC-21** et **BE-RC+21**.
         
@@ -63,10 +60,8 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         3. Sélectionnez **Enregistrer**.
         4. Sélectionnez **Ajouter** dans la table **Taux**.
         5. Entrez **-21** dans le champ **Taux de taxe**.
-        6. Faites basculer l’option **Est une taxe au preneur** sur **Oui** dans la section **Général**.
+        6. Définissez **Est une taxe au preneur** sur **Oui** dans la section **Général**.
         7. Sélectionnez **Enregistrer**.
-
-           ![Code taxe BE-RC-21 pour les taxes au preneur.](../media/tax-feature-support-03.png)
         
         Créez le code taxe **BE-RC+21**.
         1. Sélectionnez **Ajouter**, entrez **BE-RC-21** dans le champ **Code taxe**.
@@ -76,16 +71,26 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         5. Entrez **21** dans le champ **Taux de taxe**.
         6. Sélectionnez **Enregistrer**.
 
-           ![Code taxe BE-RC+21 pour les taxes au preneur.](../media/tax-feature-support-04.png)
-
-3. Définissez l’applicabilité des codes taxe.
+3. Définissez le groupe de taxe.
+    1. Sélectionnez **Gérer les colonnes**, puis sélectionnez le champ de ligne **Groupe de taxes**.
+    2. Sélectionnez **->**, puis sélectionnez **OK**.
+    3. Sélectionnez **Ajouter** pour ajouter un groupe de taxes.
+    4. Dans la colonne **Groupe de taxes**, entrez **AR-EU**, puis sélectionnez le code fiscal **NL-Exempt**.
+    5. Sélectionnez **Ajouter** pour ajouter un groupe de taxes.
+    6. Dans la colonne **Groupe de taxes**, entrez **RC-TVA**, puis sélectionnez les codes fiscaux **BE-RC-21** et **BE-RC+21**.
+4. Définissez le groupe de taxe d'article.
+    1. Sélectionnez **Gérer les colonnes**, puis sélectionnez le champ de ligne **Groupe de taxes d'article**.
+    2. Sélectionnez **->**, puis sélectionnez **OK**.
+    3. Sélectionnez **Ajouter** pour ajouter un groupe de taxes d'article.
+    4. Entrez **FULL** dans la colonne **Groupe de taxes d'article**. Sélectionnez les codes fiscaux **BE-RC-21**, **BE-RC+21** et **NL-Exempt**.
+5. Définissez l’applicabilité du groupe de taxes.
 
     1. Sélectionnez **Gérer les colonnes**, puis sélectionnez les colonnes à utiliser pour créer le tableau d’applicabilité.
 
         > [!NOTE]
         > Assurez-vous d’ajouter les colonnes **Processus d’entreprise** et **Directions de taxe** à la table. Les deux colonnes sont essentielles à la fonctionnalité de taxe dans les ordres de transfert.
 
-    2. Ajoutez des règles d’applicabilité. Ne laissez pas vides les champs **Codes taxe**, **Groupe de taxes** et **Groupe de taxes d’article**.
+    2. Ajoutez des règles d’applicabilité. Ne laissez pas le champ **Groupe de taxes** vide.
         
         Ajoutez une nouvelle règle pour l’expédition des ordres de transfert.
         1. Sélectionnez **Ajouter** dans la table **Règles d’applicabilité**.
@@ -93,8 +98,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         3. Dans le champ **Expédier depuis le pays/ la région**, entrez **NLD**.
         4. Dans le champ **Expédier vers le pays/ la région**, entrez **BEL**.
         5. Dans le champ **Direction de taxe**, sélectionnez **Sortie** pour rendre la règle applicable à l’expédition des ordres de transfert.
-        6. Dans le champ **Codes taxe**, sélectionnez **NL-Exempt**.
-        7. Dans les champs **Groupe de taxes** et **Groupe de taxes d’article**, saisissez le groupe de taxes de vente et le groupe de taxes de vente d’article associés qui sont définis dans votre système Finance.
+        6. Dans le champ **Groupe de taxes**, sélectionnez **AR-EU**.
         
         Ajoutez une autre règle pour la réception des ordres de transfert.
         
@@ -103,14 +107,19 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         3. Dans le champ **Expédier depuis le pays/ la région**, entrez **NLD**.
         4. Dans le champ **Expédier vers le pays/ la région**, entrez **BEL**.
         5. Dans le champ **Direction de taxe**, sélectionnez **Entrée** pour rendre la règle applicable à la réception des ordres de transfert.
-        6. Dans le champ **Codes taxe**, sélectionnez **BE-RC+21** et **BE-RC-21**.
-        7. Dans les champs **Groupe de taxes** et **Groupe de taxes d’article**, saisissez le groupe de taxes de vente et le groupe de taxes de vente d’article associés qui sont définis dans votre système Finance.
+        6. Dans le champ **Groupe de taxes**, sélectionnez **RC-TVA**.
 
-           ![Règles d’applicabilité.](../media/image5.png)
+6. Définissez l’applicabilité du groupe de taxes d'article.
 
-4. Complétez et publiez la nouvelle version de la fonctionnalité de taxe.
+    1. Sélectionnez **Gérer les colonnes**, puis sélectionnez les colonnes à utiliser pour créer le tableau d’applicabilité.
+    2. Ajoutez des règles d’applicabilité. Ne laissez pas le champ **Groupe de taxes d'article** vide.
+        
+        Ajoutez une nouvelle règle pour l’expédition des ordres de transfert et reçus.
+        1. Dans la table **Règles d’applicabilité**, sélectionnez **Ajouter**.
+        2. Dans le champ **Processus d’entreprise**, sélectionnez **Stock** pour rendre la règle applicable à un ordre de transfert.
+        3. Dans le champ **Groupe de taxes d'article**, sélectionnez **FULL**.
+7. Complétez et publiez la nouvelle version de la fonctionnalité de taxe.
 
-    [![Changer le statut de la nouvelle version.](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>Configurer Finance pour les transactions d’ordre de transfert
 
@@ -120,28 +129,26 @@ Procédez comme suit pour activer et paramétrer les taxes pour les ordres de tr
 2. Dans la liste, recherchez et sélectionnez la fonctionnalité **Taxe dans l’ordre de transfert**, puis sélectionnez **Activer maintenant** pour l’activer.
 
     > [!IMPORTANT]
-    > La fonctionnalité **Taxe dans l’ordre de transfert** dépend entièrement du service de taxe. Par conséquent, elle ne peut être activée qu’après avoir installé le service de taxe.
+    > La fonctionnalité **Taxe dans l’ordre de transfert** dépend entièrement du service de calcul de taxe. Par conséquent, elle ne peut être activée qu’après avoir installé le service de calcul de taxes.
 
     ![Fonctionnalités Taxe dans l’ordre de transfert.](../media/image7.png)
 
-3. Activez le service de taxe et sélectionnez le processus d’entreprise **Inventaire**.
+3. Activez le service de calcul de taxes et sélectionnez le processus d’entreprise **Stock**.
 
     > [!IMPORTANT]
-    > Vous devez effectuer cette étape pour chaque entité juridique dans Finance pour laquelle vous souhaitez rendre disponibles le service de taxe et la fonctionnalité de taxe dans les ordres de transfert.
+    > Vous devez effectuer cette étape pour chaque entité juridique dans Finance pour laquelle vous souhaitez rendre disponibles le service de calcul de taxes et la fonctionnalité de taxe dans les ordres de transfert.
 
-    1. Accédez à **Taxe** > **Paramétrage** > **Configuration de taxe** > **Configuration du service de taxe**.
+    1. Accédez à **Taxes** > **Paramétrage** > **Configuration de taxe** > **Paramètres du calcul des taxes**.
     2. Dans le champ **Processus d’entreprise**, sélectionnez **Inventaire**.
-
-      ![Définition du champ Processus d’entreprise.](../media/image8.png)
 
 4. Vérifiez que le mécanisme de taxe au preneur est configuré. Accédez à **Comptabilité** \> **Paramétrage** \> **Paramètres** puis, sur l’onglet **Taxe au preneur**, vérifiez que l’option **Activer la taxe au preneur** est définie sur **Oui**.
 
     ![Activer l’option de taxe au preneur.](../media/image9.png)
 
-5. Vérifiez que les codes taxe, les groupes de taxe, les groupes de taxes d’article et les numéros d’immatriculation de TVA associés ont été configurés dans Finance conformément aux instructions du service de taxe.
+5. Vérifiez que les codes taxe, les groupes de taxe, les groupes de taxes d’article et les numéros d’immatriculation de TVA associés ont été configurés dans Finance conformément aux instructions du service de calcul des taxes.
 6. Créez un compte de transit provisoire. Cette étape n’est requise que lorsque la taxe appliquée à un ordre de transfert n’est pas applicable à un mécanisme d’exonération de taxe ou de taxe au preneur.
 
-    1. Accédez à **Taxe** > **Paramétrage** > **Taxe** \ **Groupes de validations dans la comptabilité**.
+    1. Accédez à **Taxe** > **Paramétrage** > **Taxe** > **Groupes de validations dans la comptabilité**.
     2. Dans le champ **Transit provisoire**, sélectionnez un compte général.
 
        ![Sélection d’un compte de transit provisoire.](../media/image10.png)

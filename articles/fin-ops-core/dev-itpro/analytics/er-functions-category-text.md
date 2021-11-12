@@ -2,7 +2,7 @@
 title: Liste des fonctions ER dans la catégorie de texte
 description: Cette rubrique fournit des informations sur les fonction de texte prises en charge dans les États électroniques (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741012"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647558"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Liste des fonctions ER dans la catégorie de texte
 
@@ -40,7 +40,8 @@ Les fonctions de texte des états électroniques (ER) peuvent être utilisées p
 | [Gauche](er-functions-text-left.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre de caractères spécifié à partir du début de la chaîne spécifiée. |
 | [Len](er-functions-text-len.md) | Cette fonction renvoie une valeur *Entier* qui représente le nombre de caractères de la chaîne spécifiée. |
 | [Lower](er-functions-text-lower.md) | Cette fonction renvoie la chaîne de texte spécifiée sous la forme *Chaîne* après avoir été convertie en lettres minuscules. |
-| [Mid](er-functions-text-mid.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre de caractères spécifié à partir de la chaîne spécifiée, à partir de la position donnée. |
+| [Mid](er-functions-text-mid.md) | Cette fonction renvoie une valeur de *[Chaîne](er-formula-supported-data-types-primitive.md#string)* qui présente le nombre de caractères spécifié à partir de la chaîne spécifiée, à partir de la position donnée. |
+| [NewGUID](er-functions-text-newguid.md) | Cette fonction renvoie une valeur *[GUID](er-formula-supported-data-types-primitive.md#guid)* nouvellement générée. |
 | [NumberFormat](er-functions-text-numberformat.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre spécifié dans le format spécifié et dans une culture éventuellement spécifiée. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Cette fonction renvoie le nombre spécifié sous la forme *Chaîne* après avoir été épelée (c’est-à-dire convertie en chaînes de texte) dans la langue spécifiée. |
 | [PadLeft](er-functions-text-padleft.md) | Cette fonction renvoie une valeur de *Chaîne* de longueur spécifique, où le début de la chaîne spécifiée est entouré par une ou plusieurs instances des caractères spécifiés. |
