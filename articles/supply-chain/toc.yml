@@ -74,12 +74,12 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: "Supply Chain Management\_10.0.22 (novembre\_2021)"
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: "Supply Chain Management\_10.0.21 (octobre\_2021)"
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: "Supply Chain Management\_10.0.20 (août\_2021)"
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Planification avec accords commerciaux d’achat
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Paramètres de date et d’heure utilisés par l’optimisation de la planification
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Marges de sécurité
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Tolérance de retard (jours négatifs)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer le carnet d’adresses global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configuration de l’adresse
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: FAQ sur les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les carnets d’adresses
@@ -2423,22 +2427,10 @@
                           href: production-control/tasks/report-production-order-finished.md
                         - name: Terminer un ordre de fabrication
                           href: production-control/tasks/end-production-order.md
-                    - name: Lancer des ordres de fabrication
+                    - name: Lancement des ordres de fabrication
                       href: production-control/release-production-orders.md
-                    - name: Déclaration de fin des ordres de fabrication
+                    - name: Signaler la fin des ordres de fabrication
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Configurer et utiliser l’interface d’exécution de l’atelier de production
-                      items:
-                        - name: Configurer l’interface d’exécution de l’atelier de production
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Concevoir l’interface d’exécution de l’atelier de production
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production
-                          href: production-control/production-floor-execution-use.md
-                        - name: Appliquer un style à l’interface d’exécution de l’atelier de production
-                          href: production-control/production-floor-execution-styles.md
                     - name: Configurer le bon de travail pour les périphériques
                       href: production-control/config-job-card-device.md
                     - name: Signaler comme terminé à partir du périphérique du bon de travail
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Validation de la production
                       href: cost-management/production-posting.md
+            - name: Configurer et utiliser l’interface d’exécution de l’atelier de production
+              items:
+                - name: Configurer l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-configure.md
+                - name: Concevoir l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-setup.md
+                - name: Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-use.md
+                - name: Appliquer un style à l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-styles.md
         - name: Gestion des remises
           items:
             - name: Vue d’ensemble du module de gestion des remises
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Personnaliser le titre d’étape et les instructions pour l’application mobile Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Configurer les champs promus pour les étapes dans l’appareil mobile
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Configurer des détours pour les étapes dans les éléments de menu de l’appareil mobile
+                      href: warehousing/warehouse-app-detours.md
                     - name: Réception du contenant avec l’application mobile Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Paramétrer une option de menu d’appareil mobile pour effectuer un travail dans une commande fournisseur
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Paramètres globaux des appareils mobiles
                   href: warehousing/mobile-device-parameters.md
+                - name: Comptes utilisateur d’appareil mobile
+                  href: warehousing/mobile-device-work-users.md
                 - name: Paramètres utilisateur d’appareil mobile
                   href: warehousing/mobile-device-user-settings.md
                 - name: Traitement des événements de l’application d’entrepôt
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestion des entrepôts
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: Ancre validé pour le chemin de certification introuvable au moment de la configuration de la connexion à l’application
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: Ancre validé pour le chemin de certification introuvable au moment de la mise à jour et de la migration vers WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: L’invite de réservation automatique pour le numéro de lot est affichée même avec le stock disponible
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Le travail de prélèvement ne peut pas être débloqué en raison d’un travail de réapprovisionnement inachevé
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: Impossible de déplacer le stock vers un emplacement contrôlé par le contenant
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Ancre validé pour le chemin de certification introuvable au moment de la configuration de la connexion à l’application
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Le profil de groupement est introuvable
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Impossible de traiter la correction de la note de livraison
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Impossible d’annuler la réservation du stock sur une ligne de commande client
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Ancre validé pour le chemin de certification introuvable au moment de la mise à jour et de la migration vers WMS
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Vous ne pouvez pas confirmer une expédition, car le client est en attente'
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 'Vous ne pouvez pas confirmer une expédition, car les lignes de chargement ont une quantité nulle'
