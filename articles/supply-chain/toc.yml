@@ -711,13 +711,15 @@
                   href: cost-management/weighted-average-physical-value-marking.md
                 - name: Clôture du stock
                   href: cost-management/inventory-close.md
-                - name: Ajustement des valeurs de coût du stock disponible
+                - name: Ajuster les valeurs de coût du stock disponible
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: État de stockage de la valeur de stock
+                - name: États de valeur de stock
                   href: cost-management/inventory-value-report-storage.md
-                - name: Stockage des états de balance âgée
+                - name: Exemples et logique de l’état de valeur de stock
+                  href: cost-management/inventory-value-report-examples.md
+                - name: Stockage Stock - Balance âgée
                   href: cost-management/inventory-aging-report-storage.md
-                - name: Exemples et logique de l’état de vieillissement des stocks
+                - name: Exemples et logique Stock - Balance âgée
                   href: cost-management/inventory-aging-report.md
             - name: Comptabilité de fabrication
               items:
@@ -1373,7 +1375,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Inspecter les composants de la gestion des états électroniques configurés
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Chemin relatif dans les liaisons de données
+                - name: Chemin d’accès relatif dans les liaisons de données
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/supply-chain/toc.json
             - name: Utiliser des solutions de gestion des états électroniques dans Supply Chain Management
               items:
@@ -1507,7 +1509,7 @@
                       href: inventory/quality-item-sampling.md
                     - name: Associations de qualité
                       href: inventory/quality-associations.md
-                    - name: Travailleurs chargés d’approuver les non-conformités
+                    - name: Collaborateurs chargés d’approuver les non-conformités
                       href: inventory/quality-responsible-workers.md
                     - name: Types de problèmes de non-conformité
                       href: inventory/quality-problem-types.md
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Planification avec sélection des ressources en fonction des capacités
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Planification fondée sur les priorités
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Marquage du stock avec l’optimisation de la planification
                   href: master-planning/planning-optimization/marking.md
                 - name: Planification intersociétés
@@ -1717,13 +1721,15 @@
                   href: master-planning/tasks/create-material-plan-co-products.md
                 - name: Tenir à jour les ordres prévisionnels
                   href: master-planning/maintain-planned-orders.md
-                - name: Traitement du stock de sécurité pour les articles
+                - name: Exécution du stock de sécurité pour les articles
                   href: master-planning/safety-stock-replenishment.md
+                - name: Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles
+                  href: master-planning/safety-stock-journal.md
                 - name: Retards
                   href: master-planning/delays.md
                 - name: Annuler une tâche de planification principale
                   href: master-planning/cancel-master-planning-job.md
-                - name: Utiliser le suivi pour l’éclatement
+                - name: Utiliser le traçage pour l’éclatement
                   href: master-planning/trace-explosion.md
                 - name: Messages d’action
                   href: master-planning/action-messages.md
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: Invoquer les flux d’automatisation de processus pour créer des ordres de qualité
               href: production-control/process-automation-quality-orders.md
+            - name: Intégrer avec des systèmes d’exécution de fabrication tiers
+              href: production-control/mes-integration.md
             - name: Production discrète
               items:
                 - name: Tenir à jour les données principales de production
@@ -2645,10 +2653,12 @@
                   href: production-control/production-floor-execution-tabs.md
                 - name: Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production
                   href: production-control/production-floor-execution-setup.md
-                - name: Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production
+                - name: Comment les collaborateurs utilisent l’interface d’exécution de l’atelier de production
                   href: production-control/production-floor-execution-use.md
                 - name: Appliquer un style à l’interface d’exécution de l’atelier de production
                   href: production-control/production-floor-execution-styles.md
+                - name: Personnaliser l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-customize.md
         - name: Gestion des remises
           items:
             - name: Vue d’ensemble du module de gestion des remises
@@ -3515,7 +3525,7 @@
           items:
             - name: Gestion des coûts
               items:
-                - name: Écarts des états de balance âgée
+                - name: Écarts Stock - Balance âgée
                   href: troubleshooting/costing/aging-report-discrepancies.md
                 - name: Avertissements ou erreurs lors de la modification du statut de la période comptable sans clôture du stock
                   href: troubleshooting/costing/change-ledger-period-without-closing.md

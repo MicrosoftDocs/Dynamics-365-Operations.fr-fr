@@ -1172,11 +1172,13 @@
               items:
                 - name: Vue d’ensemble des événements commerciaux
                   href: business-events/home-page.md
+                - name: Gestion des points de terminaison d’événement commercial
+                  href: business-events/managing-business-event-endpoints.md
                 - name: Événements commerciaux d’application
                   href: business-events/app-business-events.md
                 - name: Événements commerciaux de flux de travail
                   href: business-events/business-events-workflow.md
-                - name: Événements commerciaux par lots
+                - name: Événements commerciaux de traitement par lots
                   href: business-events/system-business-events.md
                 - name: Alertes en tant qu’événements commerciaux
                   href: business-events/alerts-business-events.md
@@ -1194,16 +1196,20 @@
                   items:
                     - name: Événements commerciaux et Power Automate
                       href: business-events/how-to/how-to-flow.md
-                    - name: "Événements commerciaux et Azure\_Event\_Grid"
+                    - name: Événements commerciaux et Azure Event Grid
                       href: business-events/how-to/how-to-eventgrid.md
-                    - name: "Événements commerciaux et Azure\_Service\_Bus"
+                    - name: Événements commerciaux et Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: File d’attente Événements commerciaux et Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: Événements commerciaux et approbations de flux de travail
                       href: business-events/how-to/how-to-workflow.md
                     - name: Événements commerciaux et Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
-                    - name: "Événements commerciaux et Azure\_Event\_Hubs"
+                    - name: Événements commerciaux et Azure Event Hubs
                       href: business-events/how-to/event-hub.md
+                    - name: Abonnez-vous aux événements dans Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: Événements commerciaux lors de la clôture de période financière
                       href: business-events/how-to/period-close.md
             - name: Compléments
@@ -1436,7 +1442,7 @@
               href: process-automation/log-results.md
             - name: Personnaliser l’interface utilisateur
               href: process-automation/ui-customization.md
-        - name: "Regression\_Suite\_Automation\_Tool"
+        - name: Regression Suite Automation Tool
           items:
             - name: "Vue d’ensemble de Regression\_Suite\_Automation\_Tool"
               href: perf-test/rsat/rsat-overview.md
@@ -1654,8 +1660,6 @@
                   items:
                     - name: Rendre unique le délimiteur du plan comptable
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Mettre à niveau les journaux de document simple et les réévaluations de devise
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Modèle de données de planification de ressources projet
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Modifications d’un sous-système de flux de travail

@@ -2,7 +2,7 @@
 title: Page d’accueil Finance
 description: Cette rubrique fournit une liste de ressources et d’autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394561"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753719"
 ---
 # <a name="finance-home-page"></a>Page d’accueil Finance
 
@@ -37,16 +37,14 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
         - [Comptabilité client](accounts-receivable/accounts-receivable.md)
         - [Leasing d’actifs](asset-leasing/asset-leasing-homepage.md)
         - [Budgétisation](budgeting/budgeting-overview.md) 
-        - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
+        - [Gestion des disponibilités et de la banque](cash-bank-management/cash-bank-management.md)
         - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Gestion des dépenses](/dynamics365/project-operations/prod-exp/expense-management)
         - [Financial Reporting](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Comptabilité et Financial Reporting](general-ledger/general-ledger.md) 
-        - [Gestion et comptabilité des projets](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Secteur public](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ Consultez les vidéos de procédure qui sont désormais disponibles sur la [cha�
 
 ### <a name="countryregion-functionality"></a>Fonctionnalité spécifique à un pays/une région
 
-Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d’autres domaines de la gestion financière. Reportez-vous à la section [Fonctions locales et relatives aux réglementations](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) de notre contenu d’aide pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région.
+Les réglementations spécifiques à un pays/une région affectent le paramétrage des taxes et d’autres domaines de la gestion financière. Pour en savoir plus sur les fonctionnalités spécifiques à un pays/une région, reportez-vous à la section [Fonctions de localisation et de réglementation](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Contenu supplémentaire
 
-La fonctionnalité Supply Chain Management couvre des parties du processus Approvisionnement au paiement incluant la demande, la commande, la réception, la facturation et le paiement pour les biens et services achetés par votre organisation. Reportez-vous à la [page d’accueil de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) pour obtenir des informations sur les fonctionnalités de gestion des achats, du stock et de la fabrication.
+La fonctionnalité Supply Chain Management couvre des parties du processus Approvisionnement au paiement, notamment :
+
+   - Demande d’achat
+   - Commande 
+   - Réception
+   - Facturation
+   - Payer les biens et services que votre organisation achète 
+    
+Pour obtenir des informations sur les fonctionnalités de gestion des achats, du stock et de la fabrication, reportez-vous à la [page d’accueil de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>Cours eLearning
 

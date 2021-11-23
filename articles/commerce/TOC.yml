@@ -2044,7 +2044,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Inspecter les composants de la gestion des états électroniques configurés
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/commerce/toc.json
-                - name: Chemin relatif dans les liaisons de données
+                - name: Chemin d’accès relatif dans les liaisons de données
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/commerce/toc.json
             - name: Utiliser des solutions d’états électroniques dans Commerce
               items:
@@ -2532,12 +2532,14 @@
                   items:
                     - name: Bonnes pratiques pour le développement de Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
-                    - name: FAQ sur les kits de développement logiciel (SDK) Dynamics 365 Commerce Online
+                    - name: FAQ sur le kit de développement logiciel (SDK) Dynamics 365 Commerce Online
                       href: e-commerce-extensibility/sdk-faq.md
-                    - name: Recommandations relatives au débogage pour le développement de Dynamics 365 Commerce
+                    - name: Meilleures pratiques relatives au débogage pour le développement de Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: Kit de développement logiciel (SDK) Retail
               items:
+                - name: Migrer vers le kit de développement logiciel (SDK) Commerce
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Architecture du kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Configurer un pipeline de build pour le kit de développement logiciel (SDK) de conditionnement indépendant
