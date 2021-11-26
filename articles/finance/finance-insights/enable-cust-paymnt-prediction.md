@@ -2,7 +2,7 @@
 title: Activer les prédictions de paiement des clients
 description: Cette rubrique explique comment activer et configurer la fonctionnalité de Prédictions de paiement des clients dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,46 +15,38 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 16ccd7f2e11f0b46aaa646de272e668d29ccc0c0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599373"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752926"
 ---
 # <a name="enable-customer-payment-predictions"></a>Activer les prédictions de paiement des clients
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique explique comment activer et configurer la fonctionnalité de Prédictions de paiement des clients dans Informations financières. Vous activez la fonction dans l’espace de travail **Gestion des fonctionnalités** et entrez les paramètres de configuration sur la page **Paramètres Informations financières**. Cette rubrique comprend également des informations qui peuvent vous aider à utiliser efficacement la fonctionnalité.
+Cette rubrique explique comment activer et configurer la fonctionnalité de Prédictions de paiement des clients dans Informations financières. Vous activez la fonction dans l’espace de travail **Gestion des fonctionnalités** et entrez les paramètres de configuration sur la page **Configuration de Finance Insights**. Cette rubrique comprend également des informations qui peuvent vous aider à utiliser efficacement la fonctionnalité.
 
 > [!NOTE]
 > Avant d’effectuer les étapes suivantes, assurez-vous de suivre les étapes prérequises dans la rubrique [Configurer pour Informations financières](configure-for-fin-insites.md).
 
-1. Utilisez les informations de la page d’environnement dans Microsoft Dynamics Lifecycle Services (LCS) pour se connecter à l’instance principale d’Azure SQL pour cet environnement. Exécutez la commande Transact-SQL (T-SQL) suivante pour activer les déploiements en mode Flighting pour l’environnement sandbox. (Vous devrez peut-être activer l’accès pour votre adresse IP dans LCS avant de pouvoir vous connecter à distance à Application Object Server \[AOS\].)
+1. Activez la fonctionnalité Prédictions de paiement des clients :
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('PayPredEnableFeature', 1)`
+    1. Ouvrez l’espace de travail **Gestion des fonctionnalités**.
+    2. Sélectionnez **Rechercher des mises à jour**.
+    3. Sur l’onglet **Tous**, recherchez **Prédictions de paiement des clients**. Si vous ne trouvez pas cette fonctionnalité, recherchez **(Version préliminaire) Prédictions de paiement des clients**. 
+    4. Activer la fonctionnalité.
 
-    > [!NOTE]
-    > Ignorez cette étape si vous utilisez la version 10.0.20 ou ultérieure, ou si vous utilisez un déploiement Service Fabric. L’équipe Informations financières devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de l’activer, contactez <fiap@microsoft.com>. 
+    La fonctionnalité Prédictions de paiement des clients est maintenant activée et prête à être configurée.
 
-2. Activez la fonctionnalité Informations sur les paiements des clients :
+2. Configurez la fonctionnalité Informations sur les paiements des clients :
 
-    1. Accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
-    2. Trouvez la fonctionnalité nommée **(Version préliminaire) Informations sur les paiements des clients**.
-    3. Sélectionnez **Activer maintenant**.
+    1. Aller à **Crédits et collections \> Configurer \> Finance Insights \> Prédictions de paiement des clients**.
+    2. Sur la page **Configuration de Finance Insights**, sur l’onglet **Prédictions de paiement des clients**, sélectionnez le lien **Afficher les champs de données utilisés dans le modèle de prédiction** pour ouvrir la page **Champs de données pour le modèle de prédiction**. Là, vous pouvez afficher la liste par défaut des champs qui sont utilisés pour créer le modèle de prédiction d’intelligence artificielle (IA) pour les prédictions de paiement des clients.
 
-    La fonctionnalité Informations sur les paiements des clients est maintenant activée et prête à être configurée.
-
-3. Configurez la fonctionnalité Informations sur les paiements des clients :
-
-    1. Aller à **Crédits et collections \> Configurer \> Informations financières \> Paramètres Informations financières**.
-
-        [![Page de paramètres Finance Insights avant la configuration de la fonctionnalité.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
-
-    2. Sur la page **Paramètres Informations financières**, sur l’onglet **Informations sur les paiements des clients**, sélectionnez le lien **Afficher les champs de données utilisés dans le modèle de prédiction** pour ouvrir la page **Champs de données pour le modèle de prédiction**. Là, vous pouvez afficher la liste par défaut des champs qui sont utilisés pour créer le modèle de prédiction d’intelligence artificielle (IA) pour les prédictions de paiement des clients.
-
-        Pour utiliser la liste de champs par défaut pour créer le modèle de prédiction, fermez la page **Champs de données pour le modèle de prédiction**, puis sur la page **Paramètres Informations financières**, définissez l’option **Activer la fonctionnalité** sur **Oui**.
+        Pour utiliser la liste de champs par défaut pour créer le modèle de prédiction, fermez la page **Champs de données pour le modèle de prédiction**, puis sur la page **Configuration de Finance Insights**, définissez l’option **Activer la fonctionnalité** sur **Oui**.
 
     3. Spécifiez la période de transaction "très tardive" pour définir ce que le compartiment de prédiction **Très tard** signifie pour votre entreprise.
 
@@ -67,21 +59,13 @@ Cette rubrique explique comment activer et configurer la fonctionnalité de Pré
         > [!NOTE]
         > Si vous modifiez la période de transaction "très tardive" et sélectionnez **Modifier le seuil de retard** une fois que le modèle de prédiction IA pour les paiements des clients a été créé, le modèle de prédiction existant est supprimé et un modèle est créé. Le nouveau modèle de prédiction déplacera les transactions dans la période "très tardive", en fonction des paramètres qui ont été saisis pour la définir.
 
-    4. Après avoir défini la période de transaction "très tardive", sélectionnez **Créer un modèle de prédiction** pour créer le modèle de prédiction. La section **Modèle de prédiction** sur la page **Paramètres Informations financières** affiche l’état du modèle de prédiction.
+    4. Après avoir défini la période de transaction "très tardive", sélectionnez **Créer un modèle de prédiction** pour créer le modèle de prédiction. La section **Modèle de prédiction** sur la page **Configuration de Finance Insights** affiche l’état du modèle de prédiction.
 
         > [!NOTE]
         > A tout moment pendant la création du modèle de prédiction, vous pouvez sélectionner **Réinitialiser la création du modèle** pour redémarrer le processus.
 
     La fonction a maintenant été configurée et est prête à être utilisée.
 
-Une fois que la fonction a été activée et configurée, et que le modèle de prédiction a été créé et fonctionne, la section **Modèle de prédiction** de la page **Paramètres Informations financières** montre la précision du modèle, comme indiqué dans l’illustration suivante.
-
-[![Précision du modèle de prédiction sur la page de paramètres Financial insights.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
-
-## <a name="release-details"></a>Détails du lancement
-
-La version préliminaire publique de Informations financières est disponible pour les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
-
-Les fonctionnalités en version préliminaire publiques peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
+Une fois que la fonction a été activée et configurée, et que le modèle de prédiction a été créé et fonctionne, la section **Modèle de prédiction** de la page **Configuration de Finance Insights** montre la précision du modèle.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

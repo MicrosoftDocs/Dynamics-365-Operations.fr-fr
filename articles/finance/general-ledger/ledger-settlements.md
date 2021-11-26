@@ -1,7 +1,7 @@
 ---
 title: Règlements comptables
 description: Cette rubrique explique comment utiliser la page Règlements comptables pour régler des écritures comptables et contrepasser des règlements.
-author: mikefalkner
+author: kweekley
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 7ec52495fba19c69a22d6403ed15cbe33fca542cd5476b5560033e7798f72383
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ba50321ea5e1cfb727f20bdb598f0c4e3236994
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779858"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753994"
 ---
 # <a name="ledger-settlements"></a>Règlements comptables
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570175"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790864"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Concevoir l’interface d’exécution de l’atelier de production
 
@@ -54,12 +54,12 @@ Pour créer et configurer un nouvel onglet, procédez comme suit :
 1. Définissez les paramètres suivants dans l’en-tête de la page :
 
     - **Nom de l’onglet** – Spécifiez un nom pour l’onglet.
-    - **Vue principale** – Choisissez entre les deux listes de tâches prédéfinies (*Tâches actives*, *Toutes les tâches* ou *Ma machine*).
+    - **Vue principale** – Choisissez dans les listes prédéfinies (*Tâches actives*, *Toutes les tâches* et *Ma machine*).
     - **Vue détaillée** – Choisissez entre une valeur vide ou **Détails de la tâche**. Si vous sélectionnez la valeur vide, il n’y aura pas de vue détaillée dans l’onglet. Si vous sélectionnez **Détails de la tâche**, la vue détaillée contiendra une description détaillée de la tâche sélectionnée dans la liste des travaux de la vue principale.
 
 1. Dans la section **Barre d’outils principale**, choisissez les boutons qui doivent être disponibles dans la barre d’outils principale. La colonne **Actions disponibles** affiche une liste de tous les boutons qui peuvent être ajoutés. Les colonnes **Actions sélectionnées** affichent une liste de tous les boutons inclus dans la configuration actuelle. Utilisez les boutons entre les colonnes pour déplacer les éléments sélectionnés entre les colonnes selon les besoins. Utilisez les boutons haut et bas à côté de la colonne **Actions sélectionnées** pour contrôler l’ordre dans lequel les boutons sont présentés dans l’interface utilisateur.
 
-1. Dans la section **Barre d’outils** **secondaire**, choisissez les boutons qui doivent être disponibles dans la barre d’outils secondaire. La colonne **Actions disponibles** affiche une liste de tous les boutons qui peuvent être ajoutés. Les colonnes **Actions sélectionnées** affichent une liste de tous les boutons inclus dans la configuration actuelle. Utilisez les boutons entre les colonnes pour déplacer les éléments sélectionnés entre les colonnes selon les besoins. Utilisez les boutons haut et bas à côté de la colonne **Actions sélectionnées** pour contrôler l’ordre dans lequel les boutons sont présentés dans l’interface utilisateur.
+1. Dans la section **Barre d’outils secondaire**, choisissez les boutons qui doivent être disponibles dans la barre d’outils secondaire. La colonne **Actions disponibles** affiche une liste de tous les boutons qui peuvent être ajoutés. Les colonnes **Actions sélectionnées** affichent une liste de tous les boutons inclus dans la configuration actuelle. Utilisez les boutons entre les colonnes pour déplacer les éléments sélectionnés entre les colonnes selon les besoins. Utilisez les boutons haut et bas à côté de la colonne **Actions sélectionnées** pour contrôler l’ordre dans lequel les boutons sont présentés dans l’interface utilisateur.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Associer un onglet à une configuration
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec1683554e389948a64aee68e4d069be1e93cc1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2e0145c28b40f4fbfb54ad7e7ed32fbc130c569
+ms.sourcegitcommit: 8afd0cdb39ec443fb7631c39401967cce0fac34e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567341"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7727430"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -33,6 +33,9 @@ Les environnements qui utilisent l’optimisation de la planification reçoivent
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|
+| <p>Ajout de la prise en charge des formules de calcul du temps de traitement, de l’itinéraire de production avec chevauchement et du numéro d’opération de production sur les transactions de besoins.</p><p>Messages d’erreur améliorés pour la planification de la production liés au délai d’attente, à la capacité introuvable et à l’itinéraire cyclique.</p><p>Amélioration de la cohérence lors du calcul des dates de réception et de sortie des commandes planifiées et des commandes confirmées.</p><p>Améliorations générales des performances, de la qualité et de la stabilité. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 22 au 27 octobre 2021 |
+| <p>Ajout de la prise en charge de la prise en compte du pourcentage de rebut dans le calcul du temps de traitement.</p><p>Ajout de la prise en charge du numéro d’opération et de l’utilisation des matériaux lors de la planification. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 5 au 7 octobre 2021 |
+| <p>Ajout de la prise en charge des types de tâches de routage de production : **File d’attente avant**, **File d’attente après**, et **Temps de transport**.</p><p>Améliorations générales des performances, de la qualité et de la stabilité. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 25 au 30 septembre 2021 |
 | <p>Ajout de la prise en charge des plans de versions avec **Méthode de planification** défini sur *Planification des opérations*.</p><p>Sur la page **Groupes d’itinéraires**, respectez les paramètres des cases **Activation**, **Temps de travail** et **Capacité** pour les lignes avec un **Itinéraire/type de tâche** défini sur *Configurer* ou *Traiter*. </p><p>Améliorations générales des performances, de la qualité et de la stabilité. | <p>La planification des opérations est disponible dans la gestion des fonctionnalités à partir de la version 10.0.20.</p><p>Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification*</p>  | 9-17 septembre 2021 |
 | Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 25–30 août 2021 |
 | <p>Champ **Délai** ajouté aux ordres planifiés.</p><p>Améliorations générales des performances, de la qualité et de la stabilité.</p> | Aucune gestion des fonctionnalités n’est requise. | 12–17 août 2021 |

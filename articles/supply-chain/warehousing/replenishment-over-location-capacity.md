@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576110"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778205"
 ---
 # <a name="replenishment-over-location-capacity"></a>Réapprovisionnement sur la capacité de l’emplacement
 
@@ -32,8 +32,8 @@ La fonctionnalité permet de créer plus de travaux de réapprovisionnement que 
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans l’ordre suivant) :
 
-1. Blocage des tâches à l’échelle de l’organisation
-1. Réapprovisionnement sur la capacité de l’emplacement
+1. Blocage des tâches à l’échelle de l’organisation (À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
+1. Réapprovisionnement selon la capacité de l’emplacement
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurer la fonctionnalité pour l’exemple de scénario
 

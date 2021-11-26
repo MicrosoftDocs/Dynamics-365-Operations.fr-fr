@@ -55,14 +55,14 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |                                      | ER : Intégration avec LCS                                                                  | Oui       | Non              |
 |                                      | ER : Intégration avec SharePoint                                                           | Oui       | Non              |
 |                                      | ER : Intégration avec Regulatory Configuration Service (RCS)                              | Oui       | Non              |
-|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | N°        | Oui             |
-|                                      | Intégration à PowerBI.com                                                              | Oui       | N°              |
-|                                      | Intégration à PowerBI Desktop                                                          | N°        | Oui             |
-|                                      | Espaces de travail analytiques                                                                     | Oui       | N°              |
-|                                      | Processus métier intelligent : Recommandations                                             | Oui       | N°              |
-|                                      | Création d’états Power BI avec OData à l’aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | N°              |
+|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | Non        | Oui             |
+|                                      | Intégration à PowerBI.com                                                              | Oui       | Non              |
+|                                      | Intégration à PowerBI Desktop                                                          | Non        | Oui             |
+|                                      | Espaces de travail analytiques                                                                     | Oui       | Non              |
+|                                      | Processus métier intelligent : Recommandations                                             | Oui       | Non              |
+|                                      | Création d’états Power BI avec OData à l’aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | Non              |
 |                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l’échelle                                 | Oui       | Oui             |
-|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | N°              |
+|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | Non              |
 | Lifecycle Services                   |                                                                                           | Oui       | Oui             |
 |                                      | Processus métier configurables                                                           | Oui       | Non              |
 | Localisations                        |                                                                                           | Oui       | Oui             |
@@ -86,14 +86,14 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |-------------------------|-------------------|-----------|-----------------|
 | Gestion des actifs                     |                                                                                           | Oui       | Oui             |
 | Conformité et certifications        |                                                                                           | Oui       | Oui             |
-|                                      | Type de certification SOC 1 Type 1                                                                | Oui       | N°              |
+|                                      | Type de certification SOC 1 Type 1                                                                | Oui       | Non              |
 | Contrôle de gestion                      |                                                                                           | Oui       | Oui             |
-|                                      | Pack de contenu Contrôle de gestion pour Power BI                                                 | Oui       | N°              |
-|                                      | Espace de travail Contrôle de gestion pour application mobile                                                  | Oui       | N°              |
+|                                      | Pack de contenu Contrôle de gestion pour Power BI                                                 | Oui       | Non              |
+|                                      | Espace de travail Contrôle de gestion pour application mobile                                                  | Oui       | Non              |
 | Gestion des coûts                      |                                                                                           | Oui       | Oui             |
-|                                      | Pack de contenu de gestion des coûts pour Power BI                                                 | Oui       | N°              |
+|                                      | Pack de contenu de gestion des coûts pour Power BI                                                 | Oui       | Non              |
 | Intégration et gestion des données      |                                                                                           | Oui       | Oui             |
-|                                      | Extension pilotée par la configuration                                                            | Oui       | N°              |
+|                                      | Extension pilotée par la configuration                                                            | Oui       | Non              |
 |                                      | Exportation des données vers votre propre entrepôt de données                                                    | Oui       | Oui             |
 |                                      | Activation de l’exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui             |
 |                                      | Intégration de données                                                                         | Oui       | Oui             |
@@ -104,42 +104,42 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |                                      | ER : Intégration avec LCS                                                                  | Oui       | Non              |
 |                                      | ER : Intégration avec SharePoint                                                           | Oui       | Non              |
 |                                      | ER : Intégration avec Regulatory Configuration Service (RCS)                              | Oui       | Non              |
-|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | N°        | Oui             |
-|                                      | Intégration à PowerBI.com                                                              | Oui       | N°              |
-|                                      | Intégration à PowerBI Desktop                                                          | N°        | Oui             |
-|                                      | Espaces de travail analytiques                                                                     | Oui       | N°              |
-|                                      | Processus métier intelligent : Recommandations                                             | Oui       | N°              |
-|                                      | Création d’états Power BI avec OData à l’aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | N°              |
+|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | Non        | Oui             |
+|                                      | Intégration à PowerBI.com                                                              | Oui       | Non              |
+|                                      | Intégration à PowerBI Desktop                                                          | Non        | Oui             |
+|                                      | Espaces de travail analytiques                                                                     | Oui       | Non              |
+|                                      | Processus métier intelligent : Recommandations                                             | Oui       | Non              |
+|                                      | Création d’états Power BI avec OData à l’aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | Non              |
 |                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l’échelle                                 | Oui       | Oui             |
-|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | N°              |
+|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | Non              |
 | Gestion des stocks                 |                                                                                           | Oui       | Oui             |
 | Lifecycle Services                   |                                                                                           | Oui       | Oui             |
 |                                      | Processus métier configurables                                                           | Oui       | Non              |
 | Localisations                        |                                                                                           | Oui       | Oui             |
 | Fabrication                        |                                                                                           | Oui       | Oui             |
 | Planification et prévisions      |                                                                                           | Oui       | Oui             |
-| Service Optimisation de la planification                |                                                                                           | Oui       | N°              |
+| Service Optimisation de la planification                |                                                                                           | Oui       | Non              |
 | Application, espaces de travail et plateforme mobiles |                                                                                           | Oui       | Oui             |
 | Intégration Office                   |                                                                                           | Oui       | Oui             |
 | Administration d’organisation          |                                                                                           | Oui       | Oui             |
 | Approvisionnements             |                                                                                           | Oui       | Oui             |
-|                                      | Extraction du catalogue externe à partir de la demande d’achat                                   | Oui       | N°              |
-|                                      | États Power BI sur l’analyse des dépenses et des achats                                                  | Oui       | N°              |
+|                                      | Extraction du catalogue externe à partir de la demande d’achat                                   | Oui       | Non              |
+|                                      | États Power BI sur l’analyse des dépenses et des achats                                                  | Oui       | Non              |
 | Gestion des informations sur les produits       |                                                                                           | Oui       | Oui             |
 | Données de produit générique                  |                                                                                           | Oui       | Oui             |
 | Production                           |                                                                                           | Oui       | Oui             |
-|                                      | États Power BI sur les performances de la production                                                   | Oui       | N°              |
+|                                      | États Power BI sur les performances de la production                                                   | Oui       | Non              |
 | Gestion et comptabilité des projets    |                                                                                           | Oui       | Oui             |
 | Ventes                                |                                                                                           | Oui       | Oui             |
-|                                      | États Power BI sur les performances de rentabilité et de ventes                                      | Oui       | N°              |
+|                                      | États Power BI sur les performances de rentabilité et de ventes                                      | Oui       | Non              |
 | Sécurité                             |                                                                                           | Oui       | Oui             |
 | Gestion des services                   |                                                                                           | Oui       | Oui             |
 | Gestion de la chaîne d’approvisionnement.              |                                                                                           | Oui       | Oui             |
 | Gestion du transport            |                                                                                           | Oui       | Oui             |
-| Collaboration du fournisseur                 |                                                                                           | Oui       | N°              |
+| Collaboration du fournisseur                 |                                                                                           | Oui       | Non              |
 | Gestion des entrepôts                 |                                                                                           | Oui       | Oui             |
 |                                      | Application d’entrepôt mobile                                                                      | Oui       | Oui             |
-|                                      | États Power BI d’entrepôt                                                              | Oui       | N°              |
+|                                      | États Power BI d’entrepôt                                                              | Oui       | Non              |
 | Client Web                           |                                                                                           | Oui       | Oui             |
 |                                      | Enregistreur de tâches – Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
 | Support                              |                                                                                           | Oui       | Oui             |
@@ -164,12 +164,12 @@ Pour afficher une liste des fonctionnalités disponibles dans les déploiements 
 | Surveillance et télémétrie   |                                           | Oui       | Oui             |
 | Compatibilité de plateforme     |                                           | Oui       | Oui             |
 | Maintenance                  |                                           | Oui       | Oui             |
-|                            | Environnements de maintenance                    | Oui       | N°              |
+|                            | Environnements de maintenance                    | Oui       | Non              |
 | Analyseur de suivi               |                                           | Oui       | Oui             |
 | PerfTimer                  |                                           | Oui       | Oui\*           |
 | Mettre à niveau                    |                                           | Oui       | Oui             |
-|                            | Mettre à niveau                                   | Oui       | N°              |
-|                            | Mise à niveau et prise en charge des versions précédentes | Oui       | N°              |
+|                            | Mettre à niveau                                   | Oui       | Non              |
+|                            | Mise à niveau et prise en charge des versions précédentes | Oui       | Non              |
 | Développement Visual Studio  |                                           | Oui       | Oui             |
 
 \* Dans les environnements sur site, PerfTimer affiche uniquement les résultats pour le client.

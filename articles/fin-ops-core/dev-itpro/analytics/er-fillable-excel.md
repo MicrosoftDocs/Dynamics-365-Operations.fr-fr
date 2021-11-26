@@ -2,7 +2,7 @@
 title: Créer une configuration pour générer des documents au format Excel
 description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488136"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731636"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -85,6 +85,8 @@ Sur l’onglet **Mise en correspondance** du concepteur d’opération ER, vous 
 
 Le composant **Plage** indique une plage Excel qui doit être contrôlée par ce composant ER. Le nom de la plage est défini dans la propriété **Plage Excel** de ce composant.
 
+### <a name="replication"></a>Réplication
+
 La propriété **Direction de la réplication** spécifie si et comment la plage sera répétée dans un document généré :
 
 - Si la propriété **Direction de la réplication** est définie sur **Pas de réplication**, la plage Excel appropriée ne sera pas répétée dans le document généré.
@@ -92,6 +94,8 @@ La propriété **Direction de la réplication** spécifie si et comment la plage
 - Si la propriété **Direction de la réplication** est définie sur **Horizontal**, la plage Excel appropriée sera répétée dans le document généré. Chaque plage répliquée est placée à droite de la plage d’origine dans un modèle Excel. Le nombre de répétitions est défini par le nombre d’enregistrements dans une source de données du type **Liste d’enregistrements** lié à ce composant ER.
 
 Pour en savoir plus sur la réplication horizontale, suivez les étapes de la rubrique [Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Composants imbriqués
 
 Le composant **Plage** peut avoir d’autres composants ER imbriqués qui sont utilisés pour entrer des valeurs dans les plages nommées Excel appropriées.
 
@@ -105,11 +109,40 @@ Le composant **Plage** peut avoir d’autres composants ER imbriqués qui sont u
     > [!NOTE]
     > Utilisez ce modèle pour permettre à l’application Excel de formater les valeurs entrées en fonction des paramètres régionaux de l’ordinateur local qui ouvre le document sortant.
 
+### <a name="enabling"></a>Activation
+
 Sur l’onglet **Mise en correspondance** du concepteur d’opération ER, vous pouvez configurer la propriété **Activé** pour un composant **Plage** pour spécifier si le composant doit être placé dans un document généré :
 
 - Si une expression de la propriété **Activé** est configurée pour renvoyer **Vrai** lors de l’exécution ou si aucune expression n’est configurée, la plage appropriée sera renseignée dans le document généré.
 - Si une expression de la propriété **Activé** est configurée pour renvoyer la valeur **Faux** lors de l’exécution et si la plage ne représente pas les lignes et les colonnes entières, la plage appropriée ne sera pas renseignée dans le document généré.
 - Si une expression de la propriété **Activé** est configurée pour renvoyer la valeur **Faux** lors de l’exécution et si cette plage représente les lignes et les colonnes entières, celles-ci seront masquées dans le document.
+
+### <a name="resizing"></a>Redimensionnement
+
+Vous pouvez configurer votre modèle Excel pour utiliser des cellules pour présenter des données textuelles. Pour vous assurer que tout le texte d’une cellule est visible dans un document généré, vous pouvez configurer cette cellule pour qu’elle enveloppe automatiquement le texte à l’intérieur. Vous pouvez également configurer la ligne qui contient cette cellule pour ajuster automatiquement sa hauteur si le texte encapsulé n’est pas entièrement visible. Pour plus d’informations, consultez la section « Encapsuler le texte dans une cellule » dans [Corriger les données coupées dans les cellules](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> En raison d’une [Limitation d’Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) connue, même si vous configurez des cellules pour encapsuler le texte et que vous configurez les lignes qui contiennent ces cellules pour ajuster automatiquement leur hauteur pour s’adapter au texte encapsulé, vous ne pourrez peut-être pas utiliser les fonctionnalités Excel **Ajustement automatique** et **Encapsuler le texte** pour les cellules fusionnées et les lignes qui les contiennent. 
+
+À partir de Dynamics 365 Finance version 10.0.23, vous pouvez forcer ER à calculer, dans un document généré, la hauteur de chaque ligne qui a été configurée pour adapter automatiquement sa hauteur au contenu des cellules imbriquées chaque fois que cette ligne contient au moins une cellule fusionnée qui a été configurée pour encapsuler le texte à l’intérieur. La hauteur calculée est ensuite utilisée pour redimensionner la ligne afin de s’assurer que toutes les cellules de la ligne sont visibles dans le document généré. Pour commencer à utiliser cette fonctionnalité lorsque vous exécutez des formats ER qui ont été configurés pour utiliser des modèles Excel pour générer des documents sortants, procédez comme suit.
+
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+2. Sur la page **Configurations de localisation**, dans la section **Liens connexes**, sélectionnez **Paramètres de gestion des états électroniques**.
+3. Sur la page **Paramètres de gestion des états électroniques**, sous l’onglet **Runtime**, définissez l’option **Ajuster automatiquement la hauteur de ligne** sur **Oui**.
+
+Lorsque vous souhaitez modifier cette règle pour un seul format ER, mettez à jour la version brouillon de ce format en suivant ces étapes.
+
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez **Configurations des états**.
+3. Sur la page **Configurations**, dans l’arborescence des configurations du volet gauche, sélectionnez une configuration ER conçue pour utiliser un modèle Excel pour générer des documents sortants.
+4. Dans le raccourci **Versions**, sélectionnez la version de la configuration ayant un statut **Brouillon**.
+5. Dans le volet Actions, sélectionnez **Concepteur**.
+6. Sur la page **Concepteur de formats**, dans l’arborescence des formats du volet gauche, sélectionnez le composant Excel lié à un modèle Excel.
+7. Sur l’onglet **Format**, dans le champ **Ajuster la hauteur de la ligne**, sélectionnez une valeur pour spécifier si ER doit être forcé, au moment du runtime, à modifier la hauteur des lignes dans un document sortant généré par le format ER modifié :
+
+    - **Par défaut** – Utilisez le paramètre général configuré dans le champ **Ajuster automatiquement la hauteur de ligne** sur la page **Paramètres de rapport électronique**.
+    - **Oui** – Remplacez le paramètre général et modifiez la hauteur de ligne au moment du runtime.
+    - **Non** – Remplacez le paramètre général sans modifier la hauteur de ligne au moment du runtime.
 
 ## <a name="cell-component"></a>Composant Cellule
 

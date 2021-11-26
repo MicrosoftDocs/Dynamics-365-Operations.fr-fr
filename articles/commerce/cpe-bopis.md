@@ -1,7 +1,7 @@
 ---
 title: Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce
 description: Cette rubrique explique comment configurer l’achat en ligne, le retrait en magasin (BOPIS) dans un environnement d’évaluation Microsoft Dynamics 365 Commerce après qu’il a été approvisionné.
-author: rubendel
+author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1087e13da870a855c703cb87cc2327521acd19e4c205fbf75b343b9bbd8e81b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751599"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779792"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce
 

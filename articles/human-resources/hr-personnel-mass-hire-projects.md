@@ -1,8 +1,8 @@
 ---
 title: Projets d’embauche collective
-description: Les projets d’embauche collective autorisent les spécialistes des ressources humaines à créer plusieurs postes et à embaucher de manière efficace des collaborateurs pour ces postes.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Cette rubrique décrit les projets d’embauche collective qui autorisent les spécialistes des ressources humaines à créer plusieurs postes et à embaucher de manière efficace des collaborateurs pour ces postes.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e6c2addcf3f43c843692013489afcc1912b9baac1dbdfa6b4d4a1afc4398cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e0a8bba2227136995542d08f4b3f1e9d6d48ad5
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754799"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728654"
 ---
 # <a name="mass-hire-projects"></a>Projets d’embauche collective
 
@@ -43,19 +43,19 @@ Utilisez les projets d’embauche collective lorsque vous embauchez plusieurs tr
 
 Pendant l’été, vous engagez généralement 15 à 20 étudiants à mi-temps pour occuper les places de stagiaires disponibles dans votre société. Cette année, vous souhaitez embaucher cinq comptables, cinq responsables de commandes et cinq caissiers. Au lieu de créer chaque enregistrement de poste et de travailleur séparément, vous créez un projet d’embauche collective nommé « SummerInterns ». Les dates de début et de fin du projet sont en rapport avec les dates de début et de fin des postes que vous créez pour le projet d’embauche collective.
 
-Sur la page **Projets d’embauche collective**, sélectionnez le projet « SummerInterns », puis cliquez sur **Ouvrir le projet**. Maintenant que le projet d’embauche collective est ouvert, cliquez sur **Créer des postes** et entrez les informations sur le poste de comptable. Vous pouvez indiquer que vous souhaitez créer cinq postes de comptable à l’aide des mêmes informations, puis cliquez sur OK. Répétez ce processus pour les postes de responsable des commandes et de caissier.
+Sur la page **Projets d’embauche collective**, sélectionnez le projet **SummerInterns**, puis cliquez sur **Ouvrir le projet**. Maintenant que le projet d’embauche collective est ouvert, sélectionnez **Créer des postes** et entrez les informations sur le poste de comptable. Vous pouvez indiquer que vous souhaitez créer cinq postes de comptable à l’aide des mêmes informations pour chaque d’eux. Puis sélectionnez **OK**. Répétez ce processus pour les postes de responsable des commandes et de caissier.
 
-Une fois que vous avez trouvé les stagiaires à embaucher pour les postes, vous entrez les informations de chaque étudiant dans les **Détails du poste** correspondant. Lorsque vous avez entré tous les détails du poste, sélectionnez le poste sur la page Projets d’embauche collective, puis cliquez sur **Embaucher**. Un enregistrement de poste sera créé pour chaque poste et un enregistrement de travailleur sera créé et affecté au poste adéquat pour chaque personne embauchée.
+Une fois que vous avez sélectionné les stagiaires à embaucher pour les postes, vous entrez les informations de chaque poste dans les Détails du poste correspondant. Lorsque vous avez entré tous les détails du poste, sélectionnez le poste sur la page **Projets d’embauche collective**, puis cliquez sur **Embaucher**. Un enregistrement de poste sera créé pour chaque poste et un enregistrement de travailleur sera créé et affecté au poste adéquat pour chaque personne que vous embauchez.
 
 ## <a name="mass-hire-project-statuses"></a>Statuts du projet d’embauche collective
 
 Un projet d’embauche collective peut avoir les statuts suivants :
 
-- Créé
-- Ouverte
-- Clôturé(e)
+- Créé(e)
+- Ouvrir
+- Clôturé
 
-Sur la page **Projet d’embauche collective**, cliquez sur **Ouvrir le projet** ou **Fermer le projet** pour modifier le statut d’un projet d’embauche collective. Le tableau suivant décrit ce que vous pouvez faire avec un projet selon son statut.
+Sur la page **Projet d’embauche collective**, sélectionnez **Ouvrir le projet** ou **Fermer le projet** pour modifier le statut d’un projet d’embauche collective. Le tableau suivant décrit ce que vous pouvez faire avec un projet selon son statut.
 
 <table>
 <thead>
@@ -75,8 +75,8 @@ Sur la page **Projet d’embauche collective**, cliquez sur **Ouvrir le projet**
 </tr>
 <tr>
 <td>Clôturé(e)</td>
-<td>Vous ne pouvez pas ajouter de postes au projet. Pour ajouter des postes au projet d’embauche collective, rouvrez le projet. Il s’agit du statut des projets terminés.
-<blockquote>[!NOTE] Pour pouvoir clôturer un projet d’embauche collective, tous les postes du projet doivent avoir le statut Créé ou Fermé.</blockquote>
+<td><p>Vous ne pouvez pas ajouter de postes au projet. Pour ajouter des postes au projet d’embauche collective, rouvrez le projet. Il s’agit du statut des projets terminés.</p>
+<p><strong>Remarque :</strong> pour pouvoir clôturer un projet d’embauche collective, tous les postes du projet doivent avoir le statut <b>Créé</b> ou <b>Fermé</b>.</p>
 </td>
 </tr>
 </tbody>

@@ -1,8 +1,8 @@
 ---
 title: Développer un plan de succession
 description: À mesure que votre organisation se développe, vous devez planifier la relève.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768213"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731514"
 ---
 # <a name="develop-a-succession-plan"></a>Développer un plan de succession
 
@@ -35,7 +35,7 @@ ms.locfileid: "6768213"
 7. Sélectionnez **Personne**.
 8. Entrez un nom ou sélectionnez le menu déroulant dans le champ **Personne**.
 9. Cliquez sur **OK**.
-10. Développez le raccourci **Certificats** pour afficher ou modifier les certificats inclus dans la mise en correspondance des qualifications.
+10. Développez le raccourci **Certificats** pour afficher ou modifier les certificats inclus dans le mappage des qualifications.
 11. Développez le raccourci **Qualifications** pour afficher ou modifier les qualifications à inclure.
 12. Marquez la première ligne de la liste. Exemple : Comptabilité.
 13. Activez la case à cocher **Facultatif**.
@@ -48,8 +48,8 @@ ms.locfileid: "6768213"
 20. Sélectionnez une option dans le champ **Importance**.
 21. Sélectionnez la ligne 4 dans la liste.
 22. Activez la case à cocher **Facultatif**.
-23. Sélectionnez une option dans le champ Importance.
-24. Développez le raccourci **Formation** pour afficher ou modifier les compétences de formation à inclure dans la mise en correspondance des qualifications.
+23. Sélectionnez une option dans le champ **Importance**.
+24. Développez le raccourci **Formation** pour afficher ou modifier les compétences de formation à inclure dans le mappage des qualifications.
 25. Sélectionnez **Exécuter**.
 26. Cliquez sur **OK**.
 27. Sélectionnez **Résultat**.

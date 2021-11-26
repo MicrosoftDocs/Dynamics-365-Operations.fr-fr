@@ -1,8 +1,8 @@
 ---
 title: Créer des questionnaires
-description: Cet article décrit le processus de création d’un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l’enregistrement et l’organisation des réponses.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Cette rubrique décrit le processus de création d’un questionnaire.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755562"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729049"
 ---
 # <a name="create-questionnaires"></a>Créer des questionnaires
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article décrit le processus de création d’un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l’enregistrement et l’organisation des réponses. 
+Cette rubrique décrit le processus de création d’un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l’enregistrement et l’organisation des réponses. 
 
 Plus la conception d’un questionnaire est soignée, plus la qualité des données collectées est élevée. Grâce à une conception soignée, vous pouvez mieux sélectionner les options appropriées du questionnaire lorsque vous en avez besoin. Les points suivants peuvent vous aider à planifier un questionnaire efficace :
 
@@ -63,7 +63,7 @@ Certains prérequis doivent être en place avant de pouvoir créer des questionn
 
 ### <a name="questionnaire-types"></a>Types de questionnaire
 
-Les types de questionnaire sont obligatoires et doivent être affectés lorsque vous créez un questionnaire. Les types de questionnaire aident à gérer et classer les questionnaires plus facilement. Utilisez les types de questionnaire pour classer les questionnaires et les différencier les uns des autres. Par exemple, si vous devez opérer un choix parmi plusieurs questionnaires, vous pouvez les filtrer par type pour faciliter la recherche d’un questionnaire spécifique. Voici quelques exemples de types de questionnaire :
+Les **types de questionnaires** sont obligatoires et doivent être affectés lorsque vous créez un questionnaire. Les **types de questionnaires** aident à gérer et classer les questionnaires plus facilement. Utilisez les types de questionnaire pour classer les questionnaires et les différencier les uns des autres. Par exemple, si vous devez opérer un choix parmi plusieurs questionnaires, vous pouvez les filtrer par type pour faciliter la recherche d’un questionnaire spécifique. Voici quelques exemples de types de questionnaire :
 
 -   développement des Ressources Humaines ;
 -   études clientèle ;
@@ -71,9 +71,9 @@ Les types de questionnaire sont obligatoires et doivent être affectés lorsque 
 
 ### <a name="question-types"></a>Types de question
 
-Les types de question sont obligatoires et doivent être affectés lorsque vous créez une question. 
+Les **types de questions** sont obligatoires et doivent être affectés lorsque vous créez une question. 
 
-Les types de question permettent de classer les questions par catégorie pour la génération d’états. Les types de question facilitent également la recherche des questions, car vous pouvez utiliser les types comme filtres dans la page **Questions**. Voici quelques exemples de types de question :
+Les **types de questions** permettent de classer les questions par catégorie pour la génération d’états. Les **types de questions** facilitent également la recherche des questions, car vous pouvez utiliser les types comme filtres dans la page **Questions**. Voici quelques exemples de types de question :
 
 -   Ressources humaines
 -   Gestion de l’activité
@@ -105,7 +105,7 @@ Pour fournir une liste de réponses possibles pour des questions fermées, vous 
 
 Les groupes de réponses et les réponses sont des composants qui constituent les principales informations à partir desquelles les questions sont créées. Une fois le groupe de réponses créé, vous pouvez l’associer à une question dans le champ **Groupe de réponse** de la page **Questions**. 
 
-Vous pouvez utiliser un groupe de réponses pour plusieurs questions d’un même questionnaire et pour plusieurs questionnaires. 
+Vous pouvez utiliser un **Groupe de réponses** pour plusieurs questions d’un même questionnaire et pour plusieurs questionnaires. 
 
 > [!NOTE]
 > Si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l’existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
@@ -171,7 +171,7 @@ Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suiva
 
 ### <a name="result-groups"></a>Groupes de résultats
 
-Les groupes de résultats sont facultatifs lorsque vous associez des questions à un questionnaire. 
+Les **Groupes de résultats** sont facultatifs lorsque vous associez des questions à un questionnaire. 
 
 Un groupe de résultats permet de calculer les points et de classer les résultats d’un questionnaire. Si vous utilisez des groupes de résultats, vous pouvez effectuer les tâches suivantes :
 

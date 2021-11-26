@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386683"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781342"
 ---
 # <a name="party-and-global-address-book"></a>Carnet d’adresses global et de la partie
 
@@ -31,12 +31,12 @@ Une partie est une personne ou une organisation impliquée dans une entreprise. 
 + **Collaborateur** : un employé. Un employé de Contoso par exemple.
 + **Fournisseur** : une organisation de fournisseurs ou un propriétaire unique qui fournit des biens ou des services à une entreprise. Par exemple, si Fabrikam vend des fournitures à Contoso, Fabrikam est fournisseur de Contoso.
 + **Contact** : une personne à contacter. Par exemple, si Contoso achète des fournitures à Fabrikam, les employés de Contoso contacteront le contact chez Fabrikam.
-+ **Client** : une personne ou une entreprise qui achète des choses à une entreprise. Par exemple, si Contoso achète des fournitures à Fabrikam, Contoso est un client de Fabrikam.
++ **Client** : une personne ou une entreprise qui achète des choses à une entreprise. Par exemple, si Contoso achète des fournitures à Fabrikam, Contoso est donc un client de Fabrikam.
 
 Le modèle de partie est souvent utilisé pour représenter des relations moyennes à complexes entre des organisations et des personnes, en particulier lorsqu’une partie joue plus d’un rôle. Voici quelques exemples courants :
 
 + Une partie peut être à la fois un client et un fournisseur. Par exemple, en Amérique du Nord, Fabrikam vend des fils électriques à Contoso et achète des haut-parleurs assemblés à Contoso. En Europe, Fabrikam vend des pièces à Contoso, mais n’achète rien à Contoso.
-+ Une partie peut être à la fois un collaborateur et un client. Par exemple, un employé de  Contoso achète des appareils électroniques à Contoso pour son usage personnel.
++ Une partie peut être à la fois un collaborateur et un client. Par exemple, un employé de Contoso achète des appareils électroniques à Contoso pour son usage personnel.
 + Il peut y avoir une relation plusieurs-à-plusieurs entre une personne et une organisation. Par exemple, Fabrikam offre des services d’expertise et emploie un coordonnateur de placement. Le coordinateur de placement fait correspondre les experts avec les demandes de travail de plusieurs clients de Fabrikam. Contoso est l’un des clients de Fabrikam. Lorsque Contoso a besoin d’un expert, il contacte le coordinateur de placement, qui facilite ensuite l’exécution de la demande. Étant donné que le coordinateur de placement gère les demandes de tous les clients, une relation N : N est impliquée.
 
 L’illustration suivante montre le modèle de données pour la partie :
@@ -139,10 +139,10 @@ La grille comprend les colonnes suivantes :
 
 Vous pouvez utiliser le bouton **Nouvelle adresse électronique** au-dessus de la grille pour créer autant d’adresses que vous le souhaitez.
 
-Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets, par exemple des onglets **Résumé** et **Détails**. Les coordonnées affichées sur l'onglet **Détails** sont des copies en lecture seule de l'adresse électronique principale, comme le téléphone principal, l'e-mail principal, le téléphone principal, le télécopieur principal et l'identifiant Twitter principal. Au cours du processus de qualification des prospects, vous pouvez fournir un numéro de téléphone professionnel et un numéro de téléphone mobile. Le numéro de téléphone professionnel est considéré comme téléphone principal si **IsMobile=No** et le numéro de téléphone mobile est considéré comme téléphone secondaire si **IsMobile=Yes**.
+Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets, par exemple des onglets **Résumé** et **Détails**. Les coordonnées affichées sur l’onglet **Détails** sont des copies en lecture seule de l’adresse électronique principale, comme le téléphone principal, l’e-mail principal, le téléphone principal, le télécopieur principal et l’identifiant Twitter principal. Au cours du processus de qualification des prospects, vous pouvez fournir un numéro de téléphone professionnel et un numéro de téléphone mobile. Le numéro de téléphone professionnel est considéré comme téléphone principal si **IsMobile=No** et le numéro de téléphone mobile est considéré comme téléphone secondaire si **IsMobile=Yes**.
 
 > [!TIP]
-> Utilisez les onglets **Adresses** et **Adresses électroniques** sur les formulaires **Compte** et **Contact** pour gérer les adresses postales et électroniques. Cela garantit que les données d'adresse se synchronisent avec les applications Finance and Operations.
+> Utilisez les onglets **Adresses** et **Adresses électroniques** sur les formulaires **Compte** et **Contact** pour gérer les adresses postales et électroniques. Cela garantit que les données d’adresse se synchronisent avec les applications Finance and Operations.
 
 ## <a name="setup"></a>Paramétrage
 

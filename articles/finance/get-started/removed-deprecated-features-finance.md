@@ -40,7 +40,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Exclus du traitement de la messagerie électronique d’interopérabilité avec le système de facturation en ligne hongrois |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : d’ici le 15 avril 2022, nous prévoyons de ne plus prendre en charge la configuration du format « Demande d’informations de facture (HU) par requête RTIR ». |

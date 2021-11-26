@@ -1,7 +1,7 @@
 ---
 title: Paramétrage de masques de codes-barres
 description: Cette rubrique décrit la procédure de paramétrage des caractères de masque de code-barres, des masques de code-barres, ainsi que la procédure d’affectation de masques de code-barres aux codes-barres.
-author: rubencdelgado
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7004ed901bd4bcac0dab4fede9cf793fd05c3af7796006fb5b089f257f81208e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731567"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779820"
 ---
 # <a name="set-up-bar-code-masks"></a>Paramétrage de masques de codes-barres
 

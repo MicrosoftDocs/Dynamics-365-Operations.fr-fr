@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569285"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778229"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Déclarer comme terminé à partir du périphérique de bon de travail
 
@@ -218,7 +218,7 @@ Les processus d’entrepôt avancés peuvent utiliser la dimension de contenant 
 
 Pour utiliser les fonctionnalités décrites dans cette section, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes (dans cet ordre) :
 
-1. Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail
+1. Contenant pour signaler la fin ajouté au périphérique de carte de travail (à partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 1. Activer la génération automatique du numéro de contenant lors de la déclaration de fin dans le périphérique de bon de travail
 1. Imprimer une étiquette à partir d’un périphérique de bons de travail
 

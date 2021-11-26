@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575385"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777592"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
@@ -102,7 +102,7 @@ Les personnes qui travaillent dans le secteur public peuvent afficher les appels
 
     Si vous avez été invité pour faire une offre, vous pouvez rechercher le même appel d’offre sur la page **Nouvelles invitations à une offre**. Vous souhaitez parfois faire une offre pour un appel d’offre en cours, mais vous n’y avez pas été invité. Dans ce cas, vous pouvez vous inviter vous-même, à condition que le client ait activé l’auto-invitation pour le dossier d’appel d’offre.
 
-    Améliorer l’accessibilité du lien **Ouvrir les appels d’offre publiés** en activant la fonctionnalité **Afficher le lien "Ouvrir les appels d’offre publiés" sous forme de vignette**. Cette fonctionnalité convertit le lien en vignette et le déplace vers un emplacement bien en vue, afin qu’il soit facile à trouver.
+    Améliorer l’accessibilité du lien **Ouvrir les appels d’offre publiés** en activant la fonctionnalité **Afficher le lien "Ouvrir les appels d’offre publiés" sous forme de vignette**. Cette fonctionnalité convertit le lien en vignette et le déplace vers un emplacement bien en vue, afin qu’il soit facile à trouver. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 
 - Sélectionnez le lien **Appels d’offre publiés clôturés** pour afficher la liste des appels d’offre clôturés qui sont accessibles au public. Un appel d’offre clôturé est un appel d’offre qui a expiré. Vous pouvez rechercher la date et l’heure d’expiration sur l’en-tête de l’appel d’offre.
 

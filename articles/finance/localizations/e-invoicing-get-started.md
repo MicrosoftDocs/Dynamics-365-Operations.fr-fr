@@ -2,7 +2,7 @@
 title: Mise en route de la Facturation électronique
 description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700377"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779692"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Mise en route de la Facturation électronique
 
@@ -43,7 +43,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Fonctionnalités**, sélectionnez la vignette **Facturation électronique**.
 3. Sélectionnez **Importer**, puis **Synchroniser**.
 4. Filtrez la colonne **Fournisseur de configuration** par le terme **Microsoft**.
-5. Sélectionnez le nom d'une fonctionnalité de facturation électronique dans le tableau, puis sélectionnez **Importer**.
+5. Sélectionnez le nom d’une fonctionnalité de facturation électronique dans le tableau, puis sélectionnez **Importer**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Créer une fonctionnalité de facturation électronique sous votre fournisseur d’organisation
 
@@ -57,7 +57,12 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 Selon le pays ou la région, la fonctionnalité de Facturation électronique peut nécessiter une configuration particulière. 
 
-Pour connaître les étapes spécifiques, consultez la documentation de mise en route disponible pour votre pays ou région.
+> [!NOTE]
+> Lorsque vous activez la fonctionnalité de facturation électronique pour la Finlande, les paramètres spécifiques à l’application dans les recherches ne sont pas pris en charge. Pour résoudre ce problème, dans le module **Déclaration électronique**, passez en revue les configurations des formats de facture client et de facture de projet. Configurez manuellement le champ calculé pour le mappage **$PaymentMethodSubstitution**, puis lier ce champ au champ **EpiPaymentMeansCode** à partir des formats de facture client et de facture de projet.
+>
+> Lorsque vous activez la fonctionnalité de facturation électronique pour l’Italie, les paramètres spécifiques à l’application dans les recherches ne sont pas pris en charge. Pour résoudre ce problème, dans le module **Déclaration électronique**, configurez manuellement le champ calculé pour le mappage **$NaturaReverseCharge**.
+>
+> Pour connaître les étapes spécifiques associées à d’autres emplacements, consultez la documentation « Mise en route » disponible pour votre pays ou région.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importer les configurations de mappage de modèle pour la gestion des états électroniques
 
@@ -241,6 +246,14 @@ Pour connaître les étapes spécifiques, consultez la documentation de mise en 
 
 3. Sélectionnez une facture dans la grille, puis sélectionnez **Recherches** \> **Détails de l’envoi**.
 
+## <a name="download-an-electronic-document-file"></a>Télécharger un fichier de document électronique
+
+1. Allez dans **Administration de l’organisation** \> **Périodique** \> **Documents électroniques** \> **Journal d’envoi de documents électroniques**.
+2. Dans le champ **Type de document**, sélectionnez la table contenant les factures.
+3. Sélectionnez un document dans la grille, puis sélectionnez **Document électronique** \> **Télécharger un fichier**. Une archive contenant le fichier du document électronique sera proposée au téléchargement.
+
+> [!NOTE]
+> Avant de pouvoir télécharger des fichiers, l’option **Exporter le résultat** doit être activée pour l’action associée dans la configuration de la fonctionnalité Facturation électronique dans RCS.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

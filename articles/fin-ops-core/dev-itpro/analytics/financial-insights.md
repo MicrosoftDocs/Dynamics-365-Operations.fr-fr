@@ -89,8 +89,8 @@ Le tableau de comparaison suivant permet de différencier les deux options :
 
 | Fonctionnalité                                                   | Financial Reporting                                               | Analyse financière |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Modifier les états par défaut**                                 | Oui                                                               | N° |
-| **Créer des rapports**                                   | Oui                                                               | N° |
+| **Modifier les états par défaut**                                 | Oui                                                               | Non |
+| **Créer des rapports**                                   | Oui                                                               | Non |
 | **Imprime les états**                                        | Oui                                                               | Non |
 | **Exporter vers Excel**                                      | Oui                                                               | Exportations limitées de données brutes vers Excel, et non dans un état formaté |
 | **Prise en charge de la hiérarchie/hiérarchie d’organisation de génération d’états**   | Oui                                                               | Non |

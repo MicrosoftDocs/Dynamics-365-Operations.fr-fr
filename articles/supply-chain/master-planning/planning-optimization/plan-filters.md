@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780196"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729025"
 ---
 # <a name="apply-filters-to-a-plan"></a>Appliquer les filtres à un plan
 
@@ -43,7 +43,7 @@ Un filtre de plan est configuré. Il inclut des éléments A, B et C. Les exécu
 - **Filtre de runtime qui inclut tous les articles (filtre vierge) :** les articles A, B et C sont inclus dans l’exécution de la planification et le résultat de la planification précédente pour les articles A et B est remplacé.
 
 > [!NOTE]
-> Vous devez éviter de définir un filtre de plan sur le plan sélectionné comme **Plan général dynamique actuel** sur la page **Paramètres de planification**. Sinon, la fonctionnalité dynamique de plan général est limitée aux articles filtrés. Par exemple, si les exigences nettes sont mises à jour pour un article qui ne fait pas partie du filtre de plan, aucun résultat ne sera généré.
+> Si vous définissez un filtre de plan sur le plan sélectionné comme **Schéma directeur dynamique actuel** sur la page **Paramètres de planification principale**, alors la fonctionnalité de plan directeur dynamique sera limitée aux éléments filtrés. Par exemple, si les exigences nettes sont mises à jour pour un article qui ne fait pas partie du filtre de plan, aucun résultat ne sera généré.
 
 ## <a name="related-resources"></a>Ressources associées
 

@@ -333,9 +333,9 @@ Microsoft offre aux clients Finance and Operations trois plans de support : Pr
 | Soumission illimitée d’incidents de rupture/réparation | Oui | Oui | Oui |
 | Accès 24h/24 et 7j/7 via LCS | Oui | Oui | Oui |
 | Temps de réponse aux incidents | Moins d’une heure | Moins d’une heure | Jour ouvrable suivant |
-| Heures de conseil | Les regroupements sont acquis par contrat. | N° | N° |
-| Responsable de compte support dédié | Oui | N° | N° |
-| Ingénieur support dédié | Engagé dans le cadre d’un contrat distinct | N° | N° |
+| Heures de conseil | Les regroupements sont acquis par contrat. | Non | Non |
+| Responsable de compte support dédié | Oui | Non | Non |
+| Ingénieur support dédié | Engagé dans le cadre d’un contrat distinct | Non | Non |
 
 Pour plus d’informations, voir [Vue d’ensemble du support](/power-platform/admin/support-overview).
 

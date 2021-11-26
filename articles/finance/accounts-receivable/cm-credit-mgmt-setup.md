@@ -1,7 +1,7 @@
 ---
 title: Paramétrage de la gestion du crédit
 description: Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 128c23af03754791f5ed300da78099a13cb6fa0898834361d4a3e1cda41a224e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769153"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753463"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 

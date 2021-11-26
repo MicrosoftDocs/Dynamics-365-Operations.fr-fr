@@ -1,8 +1,8 @@
 ---
 title: Comprendre les champs de date et d’heure
-description: Présenter l’utilisation des champs de date et d’heure dans Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette rubrique explique l’utilisation des champs de date et d’heure dans Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb011ca7b5f4c036b2f49875a256885182564c391c6dd263a0bfa70bbd29f4a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 06c783c1e4a2961f1445909ea03d557c0985064e
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733538"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728587"
 ---
 # <a name="understand-date-and-time-fields"></a>Comprendre les champs de date et d’heure
 
@@ -28,37 +28,37 @@ ms.locfileid: "6733538"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Les champs **Date et heure** sont un concept fondamental dans Dynamics 365 Human Resources. Il est important de bien comprendre l’utilisation des données de **Date et heure** dans des écrans, dans Dataverse, et dans des sources externes.
+Les champs **Date et heure** sont un concept fondamental dans Microsoft Dynamics 365 Human Resources. Il est important de bien comprendre l’utilisation des données de **Date et heure** sur les pages, dans Dataverse, et dans des sources externes.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Comprendre la différence entre les types de données du champ Date et Date et heure
 
-Les champs **Date et heure** contiennent des informations sur le fuseau horaire, mais pas les champs **Date**. Les champs **Date** affichent les mêmes informations partout. Lorsque vous entrez une date dans un champ **Date**, Human Resources écrit la même date dans la base de données.
+Les champs **Date et heure** contiennent des informations sur le fuseau horaire, au contraire des champs **Date**. Les champs **Date** présentent les mêmes informations partout. Lorsque vous entrez une date dans un champ **Date**, la même date est écrite dans la base de données.
 
-Lors de l’affichage des données dans un champ de **Date et heure**, Human Resources ajuste la date et l’heure selon le fuseau horaire de l’utilisateur défini dans l’écran **Options utilisateur** (**Commun > Configuration > Options utilisateur**). Il est possible que les informations de date et d’heure que vous entrez dans le champ ne soient pas identiques à celles écrites dans la base de données.
+Lorsque des données sont affichées dans un champ de **Date et heure**, la date et l’heure sont ajustées selon le fuseau horaire de l’utilisateur sélectionné sur la page **Options utilisateur** (**Commun \> Configuration \> Options utilisateur**). Les informations de date et d’heure que vous entrez dans le champ peuvent ne pas être identiques à celles écrites dans la base de données.
 
-[![Écran Options utilisateur.](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Page Options utilisateur.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
 
-## <a name="understanding-date-and-time-fields-in-forms"></a>Présentation des champs de date et d’heure dans les écrans 
+## <a name="understanding-date-and-time-fields-on-pages"></a>Présentation des champs de date et d’heure sur les pages 
 
 Les données de **Date et heure** affichées dans l’écran ne sont pas identiques à celles stockées dans la base de données si le fuseau horaire de l’utilisateur n’est pas défini au format Heure universelle coordonnée (UTC). Les données des champs **Date et heure** sont toujours stockées au format UTC.
 
-[![Écran du collaborateur.](./media/worker-form.png)](./media/worker-form.png)
+[![UTC de la page Collaborateur.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Présentation des champs de date et d’heure dans la base de données 
 
-Lorsque l’application Human Resources écrit une valeur de **Date et heure** dans la base de données, les données sont enregistrées au format UTC. Cela permet aux utilisateurs de voir les données de **Date et heure** selon le fuseau horaire défini dans les options utilisateur.
+Lorsqu’une valeur de **Date et heure** est écrite dans la base de données, les données sont stockées au format UTC. Par conséquent, les utilisateurs peuvent voir les données de **Date et heure** selon le fuseau horaire défini dans les options utilisateur.
  
 Dans l’exemple ci-dessus, l’heure de début correspond à un moment précis et pas à une date particulière. En faisant passer le fuseau horaire de l’utilisateur connecté de GMT +12:00 à GMT UTC, le même enregistrement s’affiche sous la forme 30/04/2019 12:00:00 au lieu de 05/01/2019 12:00:00.
-  
-Dans l’exemple ci-dessous, le poste de l’employé 000724 devient actif au même moment, quel que soit le fuseau horaire. L’employé sera actif le 30/04/2019 dans le fuseau horaire GMT, qui est le même que le 05/01/2019 dans le fuseau horaire GMT+12:00. Les deux font référence au même moment et pas à une date spécifique. 
 
-[![Écran du collaborateur.](./media/worker-form2.png)](./media/worker-form2.png)
+Dans l’exemple ci-dessous, le poste de l’employé 000724 devient actif au même moment, quel que soit le fuseau horaire. L’employé sera actif le 30/04/2019 dans le fuseau horaire GMT, qui est le même que le 05/01/2019 dans le fuseau horaire GMT+12:00. Les deux font référence au même moment et pas à une date spécifique. 
+
+[![GMT de la page Collaborateur.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Données de date et d’heure dans Data Management Framework, Excel, Dataverse et Power BI 
 
-Data Management Framework, le module complémentaire Excel, Dataverse et la génération d’états Power BI sont conçus pour interagir avec des données directement au niveau de la base de données. Comme il n’y a aucun client pour ajuster les données de **Date et heure** sur le fuseau horaire de l’utilisateur, toutes les valeurs de **Date et heure** sont en UTC, ce qui peut aboutir à certains hypothèses incorrectes lors de la saisie ou de l’affichage des données.  
+Data Management Framework (DMF), le module complémentaire Excel, Dataverse et la génération d’états Power BI sont conçus pour interagir avec des données directement au niveau de la base de données. Comme il n’y a aucun client pour ajuster les données de **Date et heure** sur le fuseau horaire de l’utilisateur, toutes les valeurs de **Date et heure** sont en UTC, ce qui peut aboutir à certains hypothèses incorrectes lors de la saisie ou de l’affichage des données.
  
-Les données de **Date et heure** envoyées via DMF, Excel, ou Dataverse sont supposées être en UTC par la base de données. Cela peut entraîner de la confusion lorsque la valeur de **Date et heure** soumise ne s’affiche pas comme prévu car l’utilisateur qui affiche les données n’a pas défini son fuseau horaire sur UTC. 
+Lorsque les données de **Date et heure** sont envoyées via DMF, Excel, ou Dataverse, la base de données présume qu’elles sont en UTC. Cependant, si les utilisateurs qui consultent les données n’ont pas leur fuseau horaire défini sur UTC, la valeur **Date et l’heure** n’apparaîtra pas comme prévu et les utilisateurs pourraient en être confus. 
  
 Il peut se produire la même chose dans le sens inverse, lorsque les données sont exportées. Les données de **Date et heure** de l’entité DMF exportée peuvent être différentes que ce qui est affiché dans le client Dynamics. 
  
@@ -68,11 +68,11 @@ Lors de l’utilisation de sources externes telles que DMF pour afficher ou cré
 
 **Human Resources avec le fuseau horaire de l’utilisateur défini sur UTC**
 
-[![Écran du collaborateur défini sur UTC.](./media/worker-form3.png)](./media/worker-form3.png)
+[![Page du collaborateur définie sur UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources avec le fuseau horaire de l’utilisateur défini sur GMT +12:00** 
 
-[![Écran du collaborateur défini sur GMT.](./media/worker-form4.png)](./media/worker-form4.png)
+[![Page du collaborateur définie sur GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel Via OData**
 
@@ -84,7 +84,7 @@ Lors de l’utilisation de sources externes telles que DMF pour afficher ou cré
 
 **Exportation DMF**
 
-[![Exportation DMF.](./media/DMFexport.png)](./media/DMFexport.png)
+[![Exportation DMF.](./media/DMFExport.png)](./media/DMFExport.png)
 
 **Excel via Dataverse**
 

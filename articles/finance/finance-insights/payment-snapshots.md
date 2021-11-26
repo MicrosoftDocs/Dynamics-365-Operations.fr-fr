@@ -2,7 +2,7 @@
 title: Présentation des instantanés
 description: Cette rubrique décrit la fonction d’instantanés, qui vous permet d’enregistrer une prévision de flux de trésorerie pour une analyse ou une comparaison avec les chiffres réels ultérieurement. Lorsque vous générez une prévision de flux de trésorerie, vous pouvez enregistrer cette prévision sous la forme d’un "instantané". Vous pouvez ensuite utiliser ces instantanés pour modifier les comptes inclus dans la prévision, ou comparer la prévision dans l’instantané aux chiffres réels.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752755"
 ---
 # <a name="snapshots-overview"></a>Présentation des instantanés
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Les instantanés permettent aux organisations de modifier et d’enregistrer des informations sur leur position de trésorerie et leurs prévisions de trésorerie à un moment donné. Vous pouvez comparer l’instantané avec les données financières réelles, examiner l’écart et utiliser ces informations pour améliorer les prévisions de flux de trésorerie au fil du temps. Plus spécifiquement, les instantanés peuvent être utilisés comme suit :
 
@@ -40,8 +41,6 @@ Vous pouvez créer un instantané en sélectionnant **Nouvel instantané** soit 
 
 Les entrées et sorties de trésorerie dans les instantanés peuvent être modifiées à tout moment. Lorsqu’un montant d’entrée ou un montant de sortie est modifié, le montant mis à jour est calculé au prorata des comptes de liquidité qui ont constitué le solde d’origine. Lorsque vous avez terminé de modifier un instantané, cliquez sur **Enregistrer** pour enregistrer vos modifications.
 
-Pour comparer plusieurs instantanés, sélectionnez **Comparer des instantanés**. Vous pouvez comparer deux instantanés à la fois. Sélectionnez les deux instantanés à comparer, puis sélectionnez **OK**. La page **Comparer un instantané** affichera une comparaison des instantanés sélectionnés. Le graphique dans la section supérieure de la page montre une comparaison des entrées de trésorerie, des sorties de trésorerie et des soldes bancaires au cours des périodes qui se chevauchent entre les deux instantanés. La grille de la partie inférieure montre une comparaison détaillée des deux prévisions pour chaque montant de liquidité. La colonne **Écart** de la grille montre la différence entre les soldes d’une période.
-
-Pour comparer les résultats financiers réels avec une prévision enregistrée sous forme d’instantané, sélectionnez **Comparer avec les chiffres réels**. La page **Comparer un instantané** affichera une comparaison des montants réels et des prévisions. Le graphique dans la section supérieure de la page montre une comparaison des entrées de trésorerie, des sorties de trésorerie et des soldes bancaires au cours des périodes qui se chevauchent entre les deux instantanés. La grille de la partie inférieure montre une comparaison détaillée des deux soldes réels par période et le solde prévisionnel pour chaque montant de liquidité. La colonne **Écart** de la grille montre la différence entre le solde réel d’une période et le solde prévisionnel.
+Pour comparer les résultats financiers réels avec une prévision enregistrée sous forme d’instantané, sélectionnez **Comparer avec les chiffres réels**. La page **Comparer avec des chiffres réels** affichera une comparaison des montants réels et des prévisions. Le graphique dans la section supérieure de la page montre une comparaison des entrées de trésorerie, des sorties de trésorerie et des soldes bancaires au cours des périodes qui se chevauchent entre les deux instantanés. La grille de la partie inférieure montre une comparaison détaillée des deux soldes réels par période et le solde prévisionnel pour chaque montant de liquidité. La colonne **Écart** de la grille montre la différence entre le solde réel d’une période et le solde prévisionnel.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

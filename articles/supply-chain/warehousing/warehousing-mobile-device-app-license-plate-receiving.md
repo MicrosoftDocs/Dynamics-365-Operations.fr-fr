@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576038"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777600"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Réception du contenant via l’application mobile Gestion des entrepôts
 
@@ -77,7 +77,7 @@ Lorsque cette fonction est activée, les options de menu d’appareil mobile pou
 - **Afficher un résumé détaillé** - Pendant la réception des contenants, les collaborateurs verront une page supplémentaire qui affiche les informations complètes de l’APE.
 - **Ignorer le récapitulatif** - Les collaborateurs ne verront pas les informations complètes de l’APE. Les collaborateurs de l’entrepôt ne sont également pas en mesure de définir un code de disposition ou d’ajouter des exceptions pendant le processus de réception.
 
-Pour rendre cette fonctionnalité disponible sur votre système, vous devez activer la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour rendre cette fonctionnalité disponible sur votre système, la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* doit être activée dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Empêcher les contenants expédiés par ordre de transfert d’être utilisés dans des entrepôts autres que l’entrepôt de destination
 

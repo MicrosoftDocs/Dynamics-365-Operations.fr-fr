@@ -88,21 +88,21 @@ Le tableau suivant fournit une vue d’ensemble des différentes combinaisons po
 | Statut du système <br>(Field Service) | Statut de ligne <br>(Field Service) | Affecté <br>(Field Service) |Valeur synchronisée <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | En cours - Planifié   | Estimé   | Oui       | Estimé                       |
-| En cours - Planifié   | Estimé   | N°        | Utilisé(e)                            |
+| En cours - Planifié   | Estimé   | Non        | Utilisé(e)                            |
 | En cours - Planifié   | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| En cours - Planifié   | Utilisé(e)        | N°        | Utilisé(e)                            |
+| En cours - Planifié   | Utilisé(e)        | Non        | Utilisé(e)                            |
 | En cours - En cours | Estimé   | Oui       | Estimé                       |
-| En cours - En cours | Estimé   | N°        | Utilisé(e)                            |
+| En cours - En cours | Estimé   | Non        | Utilisé(e)                            |
 | En cours - En cours | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| En cours - En cours | Utilisé(e)        | N°        | Utilisé(e)                            |
+| En cours - En cours | Utilisé(e)        | Non        | Utilisé(e)                            |
 | En cours - Terminé   | Estimé   | Oui       | Estimé                       |
-| En cours - Terminé   | Estimé   | N°        | Utilisé(e)                            |
+| En cours - Terminé   | Estimé   | Non        | Utilisé(e)                            |
 | En cours - Terminé   | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| En cours - Terminé   | Utilisé(e)        | N°        | Utilisé(e)                            |
+| En cours - Terminé   | Utilisé(e)        | Non        | Utilisé(e)                            |
 | Clôturé - Validé    | Estimé   | Oui       | Utilisé(e)                            |
-| Clôturé - Validé    | Estimé   | N°        | Utilisé(e)                            |
+| Clôturé - Validé    | Estimé   | Non        | Utilisé(e)                            |
 | Clôturé - Validé    | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| Clôturé - Validé    | Utilisé(e)        | N°        | Utilisé(e)                            |
+| Clôturé - Validé    | Utilisé(e)        | Non        | Utilisé(e)                            |
 
 Le tableau suivant fournit une vue d’ensemble des différentes combinaisons pour les lignes de services.
 

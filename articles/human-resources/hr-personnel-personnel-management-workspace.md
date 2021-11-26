@@ -1,43 +1,43 @@
 ---
 title: Espace de travail Gestion du personnel
 description: Cette rubrique décrit les éléments conceptuels de l’espace de travail Gestion du personnel.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754814"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771336"
 ---
 # <a name="personnel-management-workspace"></a>Espace de travail Gestion du personnel
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L’espace de travail **Gestion du personnel** comprend une grande quantité de contenu. Il contient les mouvements de personnel, il suit les changements d’employés, les postes ouverts, les changements d’adresse, les enregistrements qui expirent et les analyses, et il fournit des liens vers des informations spécifiques. Cette rubrique fournit des informations détaillées sur chaque partie de l’espace de travail.
+L’espace de travail **Gestion du personnel** comprend une grande quantité de contenu. Il contient les mouvements de personnel, suit les changements d’employés, les postes ouverts, les changements d’adresse, les enregistrements qui expirent et les analyses, et fournit des liens vers des informations spécifiques. Cette rubrique fournit des informations détaillées sur chaque partie de l’espace de travail.
 
 ## <a name="activity-tab"></a>Onglet Activité
 
 L’onglet **Activité** contient des sections qui regroupent les employés en fonction de leur étape dans le processus d’embauche :
 
-- Candidats à l’embauche
-- Affectation à venir
-- Embauches récentes
-- Quitter
-- Ayant quitté la société
+- **Candidats à l’embauche**
+- **Affectation à venir**
+- **Embauches récentes**
+- **Quitter**
+- **Ayant quitté la société**
 
 Lorsqu’un employé est à l’une de ces étapes, des actions spécifiques sont disponibles sous forme de bouton sur la carte ou dans le menu qui apparaît lorsque vous sélectionnez les points de suspension (**...**) dans le coin supérieur droit. Les sous-sections suivantes décrivent les sections de l’onglet **Activité** et répertorient les actions disponibles.
 
@@ -51,9 +51,9 @@ La section **Candidats à embaucher** de l’espace de travail est remplie à pa
 
 Lorsque les candidats apparaissent dans la section **Candidats à embaucher**, vous pouvez effectuer les actions suivantes en sélectionnant les points de suspension sur la carte du candidat :
 
-- Ignorer le candidat
-- Ne pas embaucher
-- Embaucher
+- **Ignorer le candidat**
+- **Ne pas embaucher**
+- **Embaucher**
 
 > [!NOTE]
 > Si la liste des candidats est remplie à partir de Microsoft Dataverse, les mêmes candidats s’afficheront dans toutes les entités juridiques car aucune entité juridique n’a été associée au candidat.
@@ -65,7 +65,7 @@ La section **Début bientôt** répertorie les employés qui ont une date de dé
 Si le responsable n’apparaît pas sur la carte, cela signifie qu’un poste n’a pas été attribué à l’employé.
 
 > [!NOTE] 
-> Nous vous recommandons d’attribuer un poste à un employé avant d’appliquer une liste de contrôle, car les tâches d’intégration sont parfois attribuées au responsable d’un employé nouvellement embauché. Cependant, si aucun poste n’est attribué, le responsable du nouvel employé ne peut être déterminé. Dans ce cas, les tâches d’intégration destinées au responsable seront plutôt attribuées au propriétaire de la liste de contrôle.
+> Nous vous recommandons d’attribuer un poste à un collaborateur avant d’appliquer une liste de contrôle. Parfois, les tâches d’intégration sont attribuées au responsable d’un employé nouvellement embauché. Cependant, si aucun poste n’est attribué, le responsable du nouvel employé ne peut être déterminé. Dans ce cas, les tâches d’intégration destinées au responsable seront plutôt attribuées au propriétaire de la liste de contrôle.
 
 Lorsque les employés apparaissent dans la section **Début bientôt**, les actions suivantes sont disponibles pour eux :
 
@@ -85,7 +85,7 @@ La section **Embauches récentes** répertorie les employés qui ont une date de
 Par défaut, la liste affiche les employés qui ont été embauchés au cours des sept derniers jours. Pour modifier ce paramètre, sur la page **Paramètres Human Resources**, sur l’onglet **Général**, définissez un laps de temps pour **Embauches récentes**. Les données de la section **Embauches récentes** peuvent être affichées pour un nombre spécifique de jours, de mois ou d’années. Par exemple, pour afficher la liste des employés qui ont été embauchés au cours des 14 derniers jours, définissez le champ **Période** sur **14** et le champ **Unité** sur **Jours**.
 
 > [!NOTE]
-> Les paramètres de la page **Paramètres Human Resources** sont propres à l’entreprise. Par conséquent, la période pendant laquelle vous consultez les embauches récentes peut varier selon l’entreprise. Par exemple, dans la société USMF, vous souhaiterez peut-être afficher toutes les nouvelles recrues des sept derniers jours. Toutefois, dans la société USSI, vous souhaiterez peut-être afficher toutes les nouvelles recrues des 14 derniers jours. Dans ce cas, vous devez ouvrir la page **Paramètres Human Resources** dans chaque entreprise et définir les paramètres selon vos besoins.
+> Les paramètres de la page **Paramètres Human Resources** sont propres à l’entreprise. Par conséquent, la période pendant laquelle vous consultez les embauches récentes peut varier selon l’entreprise. Par exemple, dans la société USMF, vous souhaiterez peut-être afficher toutes les nouvelles recrues des sept derniers jours. Toutefois, dans la société USSI, vous souhaiterez peut-être afficher toutes les nouvelles recrues des 14 derniers jours. Dans ce cas, ouvrez la page **Paramètres Human Resources** dans chaque entreprise et définir les paramètres selon vos besoins.
 
 Si le responsable n’apparaît pas sur la carte, cela signifie qu’un poste n’a pas été attribué à l’employé.
 
@@ -132,13 +132,9 @@ Lorsque les employés apparaissent dans la section **Partis**, les actions suiva
 
 L’onglet **Changements pour l’employé** fournit une liste de toutes les actions de personnel pour l’employé. Cette liste n’est pas disponible par défaut. Pour activer la fonctionnalité, sur la page **Paramètres partagés des ressources humaines**, sur l’onglet **Actions personnelles**, définissez l’option **Activer les actions des employés** sur **Oui**.
 
-Pour plus d’informations sur les actions du personnel, voir (page Lien vers les actions du personnel).
-
 ## <a name="position-changes-tab"></a>Onglet Changements de poste
 
 L’onglet **Changements de poste** fournit une liste de toutes les actions de personnel pour le poste. Cette liste n’est pas disponible par défaut. Pour activer la fonctionnalité, sur la page **Paramètres partagés des ressources humaines**, sur l’onglet **Actions personnelles**, définissez l’option **Activer les actions de poste** sur **Oui**.
-
-Pour plus d’informations sur les actions du personnel, voir (page Lien vers les actions du personnel).
 
 ## <a name="open-positions-tab"></a>Onglet Postes vacants
 
@@ -151,11 +147,11 @@ L’onglet **Postes vacants** répertorie tous les postes vacants. Pour apparaî
 
 L’onglet **Enregistrements expirés** répertorie tous les éléments qui ont expiré ou expireront pour les employés de l’entreprise à laquelle l’utilisateur est connecté. Les éléments suivants apparaissent dans la liste :
 
-- Certificats
-- Identification
-- Essais
-- Filtrages
-- Tests
+- **Certificats**
+- **Identification**
+- **Essais**
+- **Filtrages**
+- **Tests**
 
 Pour spécifier si la liste affiche les enregistrements ayant expiré ou qui vont expirer, sur la page **Paramètres Human Resources**, sur l’onglet **Général**, définissez un délai pour **Enregistrements en cours d’expiration** ou **Enregistrements expirés**. Les données de l’onglet **Enregistrements en cours d’expiration** peuvent être affichées pour un nombre spécifique de jours. Par exemple, pour afficher la liste des enregistrements qui expireront dans les 14 prochains jours, définissez le champ **Nombre de jours** sur **14**.
 

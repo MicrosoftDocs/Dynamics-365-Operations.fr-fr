@@ -2,7 +2,7 @@
 title: Personnaliser l’expérience de l’utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l’application.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581063"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777983"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -120,7 +120,7 @@ Les outils suivants sont disponibles dans la barre d’outils **Personnalisation
 - Utilisez l’outil **Sélectionner** pour sélectionner et modifier les propriétés d’un élément. Pour utiliser cet outil, sélectionnez le bouton **Sélectionner** dans la barre d’outils, puis sélectionnez l’élément souhaité. La fenêtre des propriétés de l’élément s’affiche où vous pouvez modifier les propriétés de cet élément. Vous pouvez répéter le processus pour d’autres éléments qui peuvent être personnalisés sur la page. Notez que certaines propriétés de personnalisation ne soient pas disponibles dans certains scénarios. Par exemple, vous ne pouvez pas verrouiller un champ obligatoire.
 - Utilisez l’outil **Masquer** pour masquer un élément sur la page. Pour utiliser cet outil, sélectionnez le bouton **Masquer** dans la barre d’outils, puis sélectionnez l’élément à masquer. Lorsque vous utilisez l’outil **Masquer**, tous les éléments actuellement masqués sont rendus visibles mais ils sont affichés dans un conteneur grisé. Vous pouvez ensuite rendre un élément visible en le sélectionnant. Pour afficher l’aspect de la page lorsque les éléments sont masqués, basculez vers un autre outil de personnalisation ou fermez la barre d’outils de personnalisation.
 - Utilisez l’outil **Ajouter des champs** pour ajouter des champs à la page. Si vous utilisez cet outil, vous pouvez ajouter uniquement les champs qui font partie de la définition de page. Pour plus d’informations sur la création de champs qui ne font pas partie de la définition de page actuelle, voir [Créer et utiliser les champs personnalisés](user-defined-fields.md). Après avoir sélectionné l’outil **Ajouter des champs** sur la barre d’outils, vous devez d’abord sélectionner la grille ou la section où vous souhaitez ajouter un champ. Une boîte de dialogue affiche la liste des champs associés à la grille ou à la section sélectionnée. Dans la boîte de dialogue, sélectionnez un ou plusieurs champs à ajouter à partir de la liste **Champs recommandés** ou **Tous les champs**. Après avoir choisi les champs souhaités, sélectionnez **Mettre à jour**. Pour supprimer un champ que vous avez précédemment ajouté, répétez le processus, mais effacez la sélection du champ dans la boîte de dialogue.
-    - La liste **Champs recommandés** affiche les champs qui ont été précédemment ajoutés par d'autres utilisateurs de votre organisation. Cette liste de champs est mise à jour en fonction de la fréquence de récurrence du **Traitement par lot de recommandation**. Une expérience similaire existe lors de l'ajout de nouveaux champs de filtre à l'aide du volet Filtre sur une page.
+    - La liste **Champs recommandés** affiche les champs qui ont été précédemment ajoutés par d’autres utilisateurs de votre organisation. Cette liste de champs est mise à jour en fonction de la fréquence de récurrence du **Traitement par lot de recommandation**. Une expérience similaire existe lors de l’ajout de nouveaux champs de filtre à l’aide du volet Filtre sur une page.
 - Utilisez l’outil **Déplacer** pour déplacer un élément vers un autre emplacement dans le groupe actuel d’éléments. Notez que vous ne pouvez pas déplacer un élément en dehors de son groupe parent. Pour utiliser cet outil, sélectionnez le bouton **Déplacer** dans la barre d’outils, puis sélectionnez l’élément à déplacer. Lorsque vous sélectionnez un élément, l’application détermine les emplacements où l’élément est autorisé à être déplacé. Ces emplacements sont appelés des *zones de déplacement*. Lorsque vous faites glisser l’élément dans le groupe actuel, chaque zone de déplacement est indiquée par une ligne colorée et grasse en regard de la zone où l’élément peut être déplacé.
 - Utilisez l’outil **Ignorer** pour supprimer un élément de la séquence de tabulation du clavier de la page. Lorsque vous sélectionnez le bouton **Ignorer** sur la barre d’outils, tous les éléments actuellement ignorés sont affichés dans un conteneur grisé. Vous pouvez supprimer ou ajouter de manière interactive des champs à la séquence de l’onglet.
 - Utilisez l’outil **Afficher dans l’en-tête** pour faire apparaître un champ dans la section récapitulative de l’organisateur. Lorsque vous sélectionnez l’outil **Afficher dans l’en-tête** sur la barre d’outils, tous les champs sélectionnés comme champs récapitulatifs sont affichés dans un conteneur grisé. Vous pouvez en mode interactif ajouter des champs au récapitulatif de l’organisateur et supprimer des champs du récapitulatif en sélectionnant les champs.
@@ -170,7 +170,7 @@ Le tableau de bord est souvent la première page que vous voyez lorsque vous ouv
 Une fonctionnalité de personnalisation unique disponible sur le tableau de bord est la possibilité d’ajouter des vignettes. 
 
 - Si la fonctionnalité **Applications pleine page** est désactivée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter un espace de travail**. Une nouvelle vignette d’espace de travail est créée en bas du tableau de bord. Vous pouvez renommer cette nouvelle vignette d’espace de travail comme vous le souhaitez. Vous pouvez également ajouter des listes, des vignettes et des liens à l’espace de travail, comme décrit dans la section [Ajout de listes, de vignettes ou de liens vers un espace de travail](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Si la fonctionnalité **Applications pleine page** est activée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter une application**. Dans la boîte de dialogue, indiquez si vous souhaitez ajouter une vignette pour un nouvel espace de travail ou une vignette dont le contenu est Power Apps ou un site web. Suivez ensuite les étapes pour configurer l’option que vous avez sélectionnée. Une nouvelle vignette est créée en bas du tableau de bord. Pour plus d'informations sur l'ajout, la modification, la suppression et le partage de ces applications intégrées, consultez [Intégrer des applications de canevas à partir de Power Apps](embed-power-apps.md) et [Intégrer des applications tierces](embed-website.md).
+- Si la fonctionnalité **Applications pleine page** est activée, vous ajoutez une nouvelle vignette en cliquant avec le bouton droit sur un élément du tableau de bord, puis en sélectionnant **Ajouter une application**. Dans la boîte de dialogue, indiquez si vous souhaitez ajouter une vignette pour un nouvel espace de travail ou une vignette dont le contenu est Power Apps ou un site web. Suivez ensuite les étapes pour configurer l’option que vous avez sélectionnée. Une nouvelle vignette est créée en bas du tableau de bord. Pour plus d’informations sur l’ajout, la modification, la suppression et le partage de ces applications intégrées, consultez [Intégrer des applications de canevas à partir de Power Apps](embed-power-apps.md) et [Intégrer des applications tierces](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Partage des personnalisations
 
@@ -220,7 +220,10 @@ Si les vues enregistrées ne sont pas activées, procédez comme suit pour copie
 
 Une autre façon de partager des personnalisations consiste à exporter et à importer. Les utilisateurs individuels, ou un administrateur agissant en leur nom, peuvent utiliser cette méthode pour exporter leurs personnalisations ou vues, puis donner le fichier exporté à d’autres utilisateurs afin de l’importer. Les utilisateurs peuvent également donner leurs personnalisations exportées à un utilisateur qui dispose de privilèges d’administrateur, et cet utilisateur peut ensuite utiliser la page d’administration **Personnalisation** pour appliquer le fichier de personnalisation à plusieurs utilisateurs en même temps.
 
-#### <a name="export"></a>Exportation
+> [!IMPORTANT]
+> Du fait que les personnalisations persistent à travers les mises à jour, la réimportation de toutes les personnalisations après une mise à jour de service ou à tout autre moment est inutile et fortement déconseillée.   
+
+#### <a name="export"></a>Exporter
 
 En général, vous pouvez exporter l’une de vos propres vues ou personnalisations en ouvrant la page appropriée, en ouvrant la barre d’outils **Personnalisation**, puis en sélectionnant **Exporter**. Pour plus d’informations sur la barre d’outils, consultez la section précédente [Barre d’outils de personnalisation](#personalization-toolbar) dans cette rubrique. Sinon, si les [vues enregistrées](saved-views.md) sont activés, vous pouvez aller dans **Paramètres \> Options utilisateur \> Personnalisation** pour afficher la liste de toutes vos personnalisations dans le système. À partir de là, vous pouvez sélectionner les vues ou les personnalisations à exporter, puis sélectionner **Exporter**.
 

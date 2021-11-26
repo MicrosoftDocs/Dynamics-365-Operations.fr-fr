@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572383"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778471"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Confirmer les expéditions sortantes des traitements par lots
 
@@ -27,7 +27,7 @@ Cette rubrique décrit comment configurer un traitement par lots qui confirme au
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Activer la fonctionnalité Confirmer les expéditions sortantes des traitements par lots
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. La fonctionnalité est répertoriée comme suit :
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
 
 - **Module** - *Gestion des entrepôts*
 - **Nom de la fonctionnalité** - *Confirmer les expéditions sortantes des traitements par lots*

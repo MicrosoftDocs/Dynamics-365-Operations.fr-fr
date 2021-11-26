@@ -4,25 +4,25 @@ description: Cette rubrique explique comment paramétrer le commerce intersocié
 author: GalynaFedorova
 ms.date: 09/01/2021
 ms.topic: article
-ms.search.form: CustTable, VendTable, EcoResProductListPage
+ms.search.form: CustTable, VendTable, EcoResProductListPage, InterCompanyTradingRelationSetupCustomer
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 75d6679152a056f6883658911f93464252e5fe87
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 7288cc8f336b6b1f5174fe2bef38017e0c96e560
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548252"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777714"
 ---
 # <a name="set-up-intercompany-trade"></a>Paramétrage du commerce intersociétés
 
 [!include [banner](../../includes/banner.md)]
 
-Pour permettre à Microsoft Dynamics 365 Supply Chain Management d'exécuter le commerce intersociétés, vous devez paramétrer des clients et des fournisseurs. Vous devez également paramétrer les modules Achats, Ventes, Approvisionnements et Ventes et marketing.
+Pour permettre à Microsoft Dynamics 365 Supply Chain Management d’exécuter le commerce intersociétés, vous devez paramétrer des clients et des fournisseurs. Vous devez également paramétrer les modules Achats, Ventes, Approvisionnements et Ventes et marketing.
 
 ## <a name="before-you-set-up-intercompany-trade"></a>Avant le paramétrage du commerce intersociétés
 
@@ -40,13 +40,13 @@ Pour paramétrer le commerce intersociétés pour des clients et des fournisseur
 1. Allez dans **Comptabilité client \> Clients \> Tous les clients**.
 1. Permet de sélectionner un compte client.
 1. Dans le volet Actions, sous l’onglet **Général**, sélectionnez **Intersociétés**.
-1. Spécifiez les paramètres de paramétrage intersociétés pour le compte client. Ces paramètres incluent l'entité juridique qui contient le fournisseur correspondant et le compte fournisseur. Les paramètres incluent également les stratégies de commande fournisseur, les stratégies de commande client, la mise en correspondance des valeurs et les stratégies pour les contrats de vente et les contrats d'achat. Vous spécifiez également s'il faut utiliser les valeurs de données de base du compte client ou du compte fournisseur dans l'autre entité juridique.
-1. Répétez les étapes 1 à 4 pour les autres clients intersociétés de l'entité juridique.
+1. Spécifiez les paramètres de paramétrage intersociétés pour le compte client. Ces paramètres incluent l’entité juridique qui contient le fournisseur correspondant et le compte fournisseur. Les paramètres incluent également les stratégies de commande fournisseur, les stratégies de commande client, la mise en correspondance des valeurs et les stratégies pour les contrats de vente et les contrats d’achat. Vous spécifiez également s’il faut utiliser les valeurs de données de base du compte client ou du compte fournisseur dans l’autre entité juridique.
+1. Répétez les étapes 1 à 4 pour les autres clients intersociétés de l’entité juridique.
 1. Accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**.
 1. Sélectionnez un compte fournisseur.
 1. Dans le volet Actions, sous l’onglet **Général**, sélectionnez **Intersociétés**.
-1. Spécifiez les paramètres de paramétrage intersociétés pour le compte fournisseur. Ces paramètres incluent l'entité juridique qui contient le client correspondant et le compte client. Les paramètres incluent également les stratégies de commande client, les stratégies de commande fournisseur, la mise en correspondance des valeurs et les stratégies pour les contrats d'achat et les contrats de vente. Vous spécifiez également s'il faut utiliser les valeurs de données de base du compte fournisseur ou du compte client dans l'autre entité juridique.
-1. Répétez les étapes 6 à 9 pour les autres fournisseurs intersociétés de l'entité juridique.
+1. Spécifiez les paramètres de paramétrage intersociétés pour le compte fournisseur. Ces paramètres incluent l’entité juridique qui contient le client correspondant et le compte client. Les paramètres incluent également les stratégies de commande client, les stratégies de commande fournisseur, la mise en correspondance des valeurs et les stratégies pour les contrats d’achat et les contrats de vente. Vous spécifiez également s’il faut utiliser les valeurs de données de base du compte fournisseur ou du compte client dans l’autre entité juridique.
+1. Répétez les étapes 6 à 9 pour les autres fournisseurs intersociétés de l’entité juridique.
 
 ## <a name="set-up-products"></a>Paramétrage de produits
 

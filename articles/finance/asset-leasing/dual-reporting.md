@@ -47,7 +47,7 @@ Le registre IFRS 16 est mis en place de manière à être conforme à la norme 
 | Configuration Valeur actuelle/Juste valeur de l’actif | 0,00           |
 | Seuil à court terme                    | 12             |
 | Seuil de faible valeur                     | 5,000.00       |
-| Payer au fournisseur                           | N°             |
+| Payer au fournisseur                           | Non             |
 
 **Registre statutaire**
 
@@ -64,7 +64,7 @@ Le registre statutaire est un registre de comptabilité de caisse dans lequel la
 | Configuration Valeur actuelle/Juste valeur de l’actif | 0,00        |
 | Seuil à court terme                    | 0           |
 | Seuil de faible valeur                     | 0           |
-| Payer au fournisseur                           | N°          |
+| Payer au fournisseur                           | Non          |
 
 **Registre de contrepassation statutaire**
 
@@ -81,7 +81,7 @@ Le registre de contrepassation statutaire est constitué de la même manière qu
 | Configuration Valeur actuelle/Juste valeur de l’actif | 0,00                           |
 | Seuil à court terme                    | 0                              |
 | Seuil de faible valeur                     | 0                              |
-| Payer au fournisseur                           | N°                             |
+| Payer au fournisseur                           | Non                             |
 
 Pour cet exemple, un bail a été créé avec les paramètres suivants sur les onglets **Général** et **Lignes d’échéancier de paiement**.
 

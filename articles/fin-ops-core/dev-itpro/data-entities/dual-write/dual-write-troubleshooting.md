@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
+ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380210"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781172"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -33,14 +33,14 @@ Cette rubrique fournit des informations sur la résolution générale des probl�
 
 Pour activer le journal de suivi, procédez comme suit.
 
-1. Connectez-vous à l'application d'engagement client , ouvrez la page **Paramètres** puis, sous **Système**, sélectionnez **Administration**.
+1. Connectez-vous à l’application d’engagement client , ouvrez la page **Paramètres** puis, sous **Système**, sélectionnez **Administration**.
 2. Sur la page **Administration**, sélectionnez **Paramètres système**.
 3. Sur l’onglet **Personnalisation**, dans la colonne **Suivi de plug-ins et d’activités de workflow personnalisées**, sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
 
 
 Pour afficher le journal de suivi, procédez comme suit.
 
-1. Connectez-vous à l'application d'engagement client , ouvrez la page **Paramètres** puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
+1. Connectez-vous à l’application d’engagement client , ouvrez la page **Paramètres** puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
 2. Recherchez les journaux de suivi où la colonne **Nom du type** est définie sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
 
@@ -48,7 +48,7 @@ Pour afficher le journal de suivi, procédez comme suit.
 
 **Rôle requis pour afficher les erreurs :** Administrateur système
 
-Des erreurs de double écriture qui proviennent de Dataverse peuvent apparaître dans l'application Finance and Operations. Pour activer la journalisation détaillée des erreurs, procédez comme suit :
+Des erreurs de double écriture qui proviennent de Dataverse peuvent apparaître dans l’application Finance and Operations. Pour activer la journalisation détaillée des erreurs, procédez comme suit :
 
 1. Pour toutes les configurations de projet dans l’application Finance and Operations, il y a un indicateur **IsDebugMode** sur la table **DualWriteProjectConfiguration**.
 2. Ouvrez la table **DualWriteProjectConfiguration** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finance and Operations et ajoutez **DualWriteProjectConfiguration** à la fiche. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).

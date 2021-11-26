@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575606"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778129"
 ---
 # <a name="monitor-a-master-planning-run"></a>Surveiller l’exécution d’une planification générale
 
@@ -33,7 +33,7 @@ Depuis la page **Afficher la progression de la planification**, vous pouvez affi
 Pour utiliser cette fonctionnalité, procédez comme suit :
 
 1. Dans l’espace de travail **Gestion des fonctionnalités**, sous l’onglet **Nouveau**, sélectionnez **Visualisation de la progression de la planification** dans la liste. Si la fonctionnalité ne s’affiche pas sur l’onglet **Nouveau**, examinez les onglets **Non activé** et **Tous**.
-1. Sélectionnez **Activer maintenant**. Sinon, sélectionnez **Programme**, puis sélectionnez l’heure à laquelle vous souhaitez activer la fonctionnalité.
+1. Sélectionnez **Activer maintenant**. Sinon, sélectionnez **Programme**, puis sélectionnez l’heure à laquelle vous souhaitez activer la fonctionnalité. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 
 La page **Afficher la progression de la planification** peut afficher les tâches historiques de planification et les tâches actives de planification. 
 

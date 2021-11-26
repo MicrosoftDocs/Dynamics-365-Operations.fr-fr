@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
+ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556763"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781961"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Didacticiel Regression Suite Automation Tool
 
@@ -79,13 +79,13 @@ Une fois le scénario de test exécuté, le message du fichier de paramètres Ex
 
 Cette fonction prend des captures d’écran des étapes qui ont été effectuées au cours de l’enregistrement de tâche. Il est utile à des fins d’audit ou de débogage.
 
-- Pour utiliser cette fonction lors de l'exécution de RSAT avec l'interface utilisateur, ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** sous le dossier d'installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l'élément suivant de **False** à **True**.
+- Pour utiliser cette fonction lors de l’exécution de RSAT avec l’interface utilisateur, ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** sous le dossier d’installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l’élément suivant de **False** à **True**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Pour utiliser cette fonction lors de l'exécution de RSAT par la CLI (par exemple, Azure DevOps), ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** sous le dossier d'installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l'élément suivant de **False** à **True**.
+- Pour utiliser cette fonction lors de l’exécution de RSAT par la CLI (par exemple, Azure DevOps), ouvrez le fichier **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** sous le dossier d’installation de RSAT (par exemple, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), puis modifiez la valeur de l’élément suivant de **False** à **True**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />

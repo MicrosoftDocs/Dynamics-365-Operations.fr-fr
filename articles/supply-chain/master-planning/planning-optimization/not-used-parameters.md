@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645756"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728953"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Paramètres non utilisés par Planning Optimization
 
@@ -60,7 +60,7 @@ Planning Optimization n’utilise pas les paramètres ou options suivants sur la
 
 - Organisateur **Général** :
 
-  - **Jours positifs** – Support *Jours positifs* en attente.
+  - **Jours positifs** – La valeur *Jours positifs* n’est pas utilisée. Avec l’Optimisation de la planification, les jours positifs sont considérés comme infinis.
   - **Consommer le stock disponible** – Support *Consommation du stock disponible* en attente.
   - **Utiliser la nomenclature ou la version de formule spécifiée** – Support *Versions de formule avec co/sous-produit* en attente.
   - **Utiliser la version de routage spécifiée** – Support *Demande avec des exigences de nomenclature ou de routage spécifiques définies* en attente.
@@ -112,10 +112,10 @@ Planning Optimization n’utilise pas les paramètres ou options suivants sur la
 
 - Onglet **Délai** :
 
-  - **Moment d'achat** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
-  - **Délai de production** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
-  - **Délai de transfert** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
-  - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Moment d’achat** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Délai de production** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Délai de transfert** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
 
 ## <a name="master-plans-page"></a>Page Plans généraux
 
@@ -182,14 +182,14 @@ Planning Optimization n’utilise pas l’option de paramètre suivante sur la p
 
 - Onglet **Commande fournisseur** :
 
-  - **Délai d’achat** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
-  - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Délai d’achat** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
 
 - Raccourci **Stock** :
 
   - **Contrôle de la date de livraison** – Planning Optimization ne prend pas en charge l’option *CTP*, support *CTP* en attente.
-  - **Délai de stock** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
-  - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l'Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n'enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l'option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Délai de stock** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
+  - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
 
 ## <a name="working-time-calendars-page"></a>Page Calendriers de temps de travail
 

@@ -1,8 +1,8 @@
 ---
-title: Activer les propositions de budget
+title: Activer une proposition de budget
 description: Cette rubrique explique comment activer la fonctionnalité de proposition de budget dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386484"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752710"
 ---
-# <a name="enable-budget-proposals"></a>Activer les propositions de budget
+# <a name="enable-budget-proposal"></a>Activer une proposition de budget
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment activer la fonctionnalité de proposition de budget dans Informations financières.
 
-1. Utilisez les informations de la page d’environnement dans Microsoft Dynamics Lifecycle Services (LCS) pour se connecter à l’instance principale d’Azure SQL pour cet environnement. Exécutez la commande Transact-SQL (T-SQL) suivante pour activer les déploiements en mode Flighting pour l’environnement sandbox. (Vous devrez peut-être activer l’accès pour votre adresse IP dans LCS avant de pouvoir vous connecter à distance à Application Object Server \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Ignorez cette étape si vous utilisez la version 10.0.20 ou ultérieure, ou si vous utilisez un déploiement Service Fabric. L’équipe Informations financières devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de l’activer, contactez <fiap@microsoft.com>.
-
-2. Ouvrez l’espace de travail **Gestion des fonctionnalités** et procédez comme suit :
+1. Ouvrez l’espace de travail **Gestion des fonctionnalités** et procédez comme suit :
 
     1. Sélectionnez **Rechercher des mises à jour**.
-    2. Recherchez **Proposition de budget** et activez cette fonction.
+    2. Sur l’onglet **Tous**, recherchez **Proposition de budget**. Si vous ne trouvez pas cette fonctionnalité, recherchez **(Version préliminaire) Proposition de budget**. 
+    3. Activer la fonctionnalité.
 
-3. Aller à **Budgétisation \> Configurer \> Budgétisation de base \> Proposition de budget (version préliminaire)** et sélectionnez **Activer la fonctionnalité**.
+2. Aller à **Budgétisation \> Configurer \> Budgétisation de base \> Proposition de budget** et sélectionnez **Activer la fonctionnalité**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

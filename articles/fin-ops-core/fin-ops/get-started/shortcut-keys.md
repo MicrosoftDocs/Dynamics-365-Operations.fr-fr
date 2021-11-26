@@ -2,7 +2,7 @@
 title: Raccourcis clavier
 description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance and Operations.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647534"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800191"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -128,8 +128,10 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 
 ## <a name="grid-shortcuts"></a>Raccourcis de grille
 
-| Opération                                                                                                             | Raccourci                           |
+| Opération                                                                                                             | Appuyer sur                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Défilement vertical                                                                                                     | Molette de la souris                     |
+| Défilement horizontal                                                                                                   | Maj + Molette de la souris             |
 | Accéder à la colonne suivante/précédente                                                                                       | Tab/Maj+Tab                 |
 | Accéder à la ligne suivante/précédente                                                                                          | Flèche Haut/Flèche Bas           |
 | Se déplacer jusqu’à la ligne suivante/précédente sans la sélectionner<blockquote>[!NOTE] Ce raccourci s’applique uniquement aux scénarios de sélection multiple.</blockquote> | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
@@ -141,19 +143,19 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Accéder au premier enregistrement                                                                                               | Ctrl + Début                       |
 | Accéder au dernier enregistrement                                                                                                | Ctrl + Fin                        |
 | Sélectionner ou désélectionner toutes les lignes                                                                                               | Ctrl+Maj+M                    |
-| Accéder à la première ligne marquée                                                                                           | Alt+Maj+M, F                    |
-| Accéder à la ligne marquée suivante                                                                                            | Alt+Maj+M, L                    |
-| Accéder à la ligne marquée précédente                                                                                        | Alt+Maj+M, P                    |
-| Accéder à la dernière ligne marquée                                                                                           | Alt+Maj+M, N                    |
+| Accéder à la première ligne marquée                                                                                           | Alt+Maj+M, F                  |
+| Accéder à la ligne marquée suivante                                                                                            | Alt+Maj+M, L                  |
+| Accéder à la ligne marquée précédente                                                                                        | Alt+Maj+M, P                  |
+| Accéder à la dernière ligne marquée                                                                                           | Alt+Maj+M, N                  |
 | Exécuter l’action par défaut dans une grille<blockquote>[!NOTE] Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.</blockquote> | Entrer                           |
 | Basculer la vue entre la ligne sélectionnée et la ligne d’en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d’en-tête)                                                  | Flèche droite/Flèche gauche        |
 | Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d’en-tête)                                              | Entrer                           |
-| Redimensionner la colonne actuelle pour l'adapter au contenu (avec le focus dans la ligne d'en-tête)                                           | A                               |
+| Redimensionner la colonne actuelle pour l’adapter au contenu (avec le focus dans la ligne d’en-tête)                                           | A (ou double-cliquez sur la poignée de dimensionnement de la colonne) |
 
 ## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d’entrée
 
-| Opération                                                                   | Appuyer sur                          |
+| Opération                                                                   | Appuyer sur                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Ouvrir le lien hypertexte                                                           | Ctrl+Entrée                    |
 | Entrer la date de session dans un champ de date                                       | D                             |

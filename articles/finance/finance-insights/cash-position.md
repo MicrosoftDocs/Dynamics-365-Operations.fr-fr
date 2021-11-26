@@ -2,7 +2,7 @@
 title: Emplacement des disponibilités
 description: Cette rubrique décrit comment la fonction de prévision des flux de trésorerie prédit l’emplacement des disponibilités d’une organisation à des moments spécifiques. Il décrit également les options disponibles pour afficher les prévisions pour différentes périodes.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386312"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752878"
 ---
 # <a name="cash-position"></a>Emplacement des disponibilités
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 L’emplacement des disponibilités désigne la projection des flux de trésorerie prévus à court terme. Il est basé sur la projection des encaissements des clients qui règlent les factures et commandes impayées, ainsi que sur les décaissements prévisionnels payés aux fournisseurs pour les factures d’achat et les commandes.
 
@@ -44,8 +45,5 @@ La partie inférieure de l’onglet **Emplacement des disponibilités** affiche 
 - La grille **Compte bancaire** montre l’impact des encaissements et décaissements attendus sur le solde bancaire.
 
 Pour enregistrer et modifier la position de trésorerie, créez une capture instantanée. Pour plus d’informations sur l’utilisation des captures d’écran, voir [Vue d’ensemble des captures d’écran](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

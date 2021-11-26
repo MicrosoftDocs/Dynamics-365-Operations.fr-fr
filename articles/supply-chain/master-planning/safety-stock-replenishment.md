@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-oldolg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 28f902c589cd80f1c34dc2758232548309db9aca
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474626"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790936"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Traitement du stock de sécurité pour les articles
 
@@ -110,7 +110,7 @@ L’illustration suivante présente un exemple pour le code couverture **Min/Max
 
 [![Min/Max. Date du jour.](media/TodayMinMax.png)](media/TodayMinMax.png)
 
-### <a name="todays-date--procurement-time"></a>Date du jour + délai d'approvisionnement
+### <a name="todays-date--procurement-time"></a>Date du jour + délai d’approvisionnement
 
 La quantité minimale indiquée est atteinte à la date d’exécution de la planification, plus le délai d’achat ou de production. Cette date inclut toutes les marges de sécurité. Si l’article est assorti d’un accord commercial et que la case à cocher **Rechercher des accords commerciaux** est activée sur la page **Paramètres de planification**, le délai de livraison de l’accord commercial n’est pas pris en compte. Les délais sont calculés à partir des paramètres de couverture de l’article ou à partir de l’article.
 
@@ -189,5 +189,9 @@ La transaction de demande de stock de sécurité n’est pas traitée en priorit
 Pendant la phase de couverture de la planification, le réapprovisionnement du stock de sécurité n’est plus dépriorisé. Le stock disponible peut être utilisé avant les autres types de demande. Lors du calcul du retard, une nouvelle logique est ajoutée pour parcourir les lignes de vente retardées, les demandes de ligne de nomenclature et tous les autres types de demande, pour déterminer si la livraison peut être effectuée à temps, à condition que le stock de sécurité soit utilisé. Si le système détermine qu’il peut réduire les retards à l’aide du stock de sécurité, les lignes de vente ou de nomenclature remplacent leur couverture d’origine par le stock de sécurité, et le système déclenche à la place le réapprovisionnement du stock de sécurité.
 
 Si le plan ou l’article n’est pas paramétré pour le calcul du retard, la contrainte du stock de sécurité a la même priorité que les autres types de demande. Cela signifie qu’il existe une réserve de stock disponible avant les autres types de demande.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles](safety-stock-journal.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

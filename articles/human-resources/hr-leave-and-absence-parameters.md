@@ -1,8 +1,8 @@
 ---
 title: Configuration des paramètres de congé et d’absence
-description: Définissez les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/02/2020
+description: Cette rubrique décrit comment définir les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777957"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728855"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d’absence
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les paramètres des ressources humaines associés, notamment :
+Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les **paramètres des ressources humaines** associés, notamment :
 
 - Souche de numéros pour les demandes de congé
 - Paramètres relatifs au Family Medical and Leave Act (FMLA)
@@ -74,7 +74,7 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 
     - Sélectionnez **Calcul du solde** pour afficher les soldes à partir d’aujourd’hui ou de la période de régularisation. Si vous sélectionnez **Solde à ce jour**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à ce jour. Si vous sélectionnez **Solde à compter de la période de régularisation**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à partir de la période de régularisation définie par la fréquence dans le plan de congés. 
 
-    - Définissez l’heure de début du report de la tâche par lots d’expiration.  
+    - Définissez **l’heure de début** du traitement par lots du **report de l’expiration**.  
     
     - Sélectionnez **Oui** pour **Autoriser les employés à acheter des congés** et **Autoriser les employés à vendre des congés**. Si vous sélectionnez **Oui** pour ces options, vous pouvez créer des stratégies d’achat et de vente de congés et permettre aux employés de soumettre des demandes d’achat et de vente de congés.
 

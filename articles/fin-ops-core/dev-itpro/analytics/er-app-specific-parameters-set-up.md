@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675391"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733461"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 
@@ -226,15 +226,6 @@ Vous pouvez également utiliser cette approche d’importation-exportation pour 
 Si vous configurez des paramètres spécifiques à l’application pour une version d’un format de gestion des états électroniques, puis importez une version ultérieure du même format dans l’instance Finance actuelle, les paramètres spécifiques à l’application existants ne seront pas appliqués à la version importée, sauf si vous utilisez la fonctionnalité **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique**. Pour plus d’informations, voir la section [Réutiliser les paramètres existants](#reuse-existing-parameters) plus loin dans cette rubrique.
 
 Lorsque vous sélectionnez un fichier pour importation, la structure des paramètres spécifiques à l’application de ce fichier est comparée à la structure des sources de données correspondantes du type **Recherche** dans le format de gestion des états électroniques sélectionné pour importation. Par défaut, l’importation est terminée uniquement si la structure de chaque paramètre spécifique à l’application correspond à la structure de la source de données correspondante dans le format de gestion des états électroniques sélectionné pour importation. Si les structures ne correspondent pas, un message d’avertissement vous informe que l’importation ne peut pas être finalisée. Si vous forcez l’importation, les paramètres spécifiques à l’application existants pour le format de gestion des états électroniques sélectionné seront effacés et vous devrez les configurer à partir de zéro.
-
-À partir de Dynamics 365 Finance version 10.0.23, vous pouvez modifier le comportement par défaut et éviter de recevoir un message d’avertissement en activant la fonctionnalité **Aligner les paramètres spécifiques à l’application de rapports électroniques lors de l’importation** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, si la structure des paramètres spécifiques à l’application que vous importez est différente de celle des sources de données correspondantes dans le format de gestion des états électroniques sélectionné pour importation, l’importation sera effective dans les cas suivants.
-
-- La structure du format de gestion des états électroniques cible a été modifiée par l’ajout de nouvelles colonnes de condition à toutes les sources de données existantes du type **Recherche**. Une fois l’importation terminée, les paramètres spécifiques à l’application sont mis à jour. Dans tous les enregistrements importés de paramètres spécifiques à l’application, les valeurs de chaque colonne de condition ajoutée sont initialisées avec la valeur par défaut pour le [type de données](er-formula-supported-data-types-primitive.md) de cette colonne.
-- La structure du format de gestion des états électroniques cible a été modifiée par la suppression de colonnes de condition de toutes les sources de données existantes du type **Recherche**. Une fois l’importation terminée, les paramètres spécifiques à l’application sont mis à jour. Dans tous les enregistrements importés de paramètres spécifiques à l’application, les valeurs de chaque colonne de condition supprimée sont supprimées.
-- La structure du format de gestion des états électroniques cible a été modifiée par l’ajout de nouvelles sources de données du type **Recherche**. Une fois l’importation terminée, les recherches ajoutées sont ajoutées aux paramètres spécifiques à l’application.
-- La structure du format de gestion des états électroniques cible a été modifiée par la suppression de certaines sources de données existantes du type **Recherche**. Une fois l’importation terminée, tous les artefacts liés aux sources de données du type **Recherche** qui ont été supprimés du format de gestion des états électroniques cible sont supprimés des paramètres spécifiques à l’application importés.
-
-Lorsque l’importation est terminée, en plus des modifications qui viennent d’être décrites, l’état des paramètres spécifiques à l’application importés est remplacé par **En cours**. Un message d’avertissement vous informe que les paramètres spécifiques à l’application ajustés automatiquement doivent être modifiés manuellement.
 
 ### <a name="reuse-existing-parameters"></a>Réutiliser les paramètres existants
 

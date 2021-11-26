@@ -75,14 +75,14 @@ Le tableau suivant fournit des exemples qui montrent comment les différents par
 
 | Produit lancé : Fournisseur | Paramètres de commande par défaut : Délai | Couverture de l’article : Remplacer le fournisseur | Couverture de l’article : Remplacer le délai | Accord commercial : Fournisseur | Accord commercial : Délai | Accord commercial : Ignorer le délai | Fournisseur résultant | Délai résultant |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | N° | N° | US003 | 3 | N° | **US001** | **1** |
-| US001 | 1 | ***Oui : US002** _ | _*_Oui : 2_*_ | US003 | 3 | N° | **US002** | **2** |
-| *(Vide)* | 1 | N° | N° | ***US003** _ | _*_3_*_ | N° | **US003** | **3** |
-| *(Vide)* | ***1*** | N° | N° | _*_US003_*_ | 3 | Oui | **US003** | **1** |
-| *(Vide)* | ***1*** | _*_Oui : US002_*_ | N° | US003 | 3 | N° | **US002** | **1** |
-| *(Vide)* | ***1*** | _*_Oui : US002_*_ | N° | US003 | 3 | N° | **US002** | **1** |
-| *(Vide)* | 1 | N° | Oui : 2 | ***US003*** | _*_3_*_ | N° | **US003** | **3** |
-| *(Vide)* | 1 | N° | ***Oui : 2*** | _*_US003_*_ | 3 | Oui | **US003** | **2** |
+| ***US001** _ | _*_1_*_ | Non | Non | US003 | 3 | Non | **US001** | **1** |
+| US001 | 1 | ***Oui : US002** _ | _*_Oui : 2_*_ | US003 | 3 | Non | **US002** | **2** |
+| *(Vide)* | 1 | Non | Non | ***US003** _ | _*_3_*_ | Non | **US003** | **3** |
+| *(Vide)* | ***1*** | Non | Non | _*_US003_*_ | 3 | Oui | **US003** | **1** |
+| *(Vide)* | ***1*** | _*_Oui : US002_*_ | Non | US003 | 3 | Non | **US002** | **1** |
+| *(Vide)* | ***1*** | _*_Oui : US002_*_ | Non | US003 | 3 | Non | **US002** | **1** |
+| *(Vide)* | 1 | Non | Oui : 2 | ***US003*** | _*_3_*_ | Non | **US003** | **3** |
+| *(Vide)* | 1 | Non | ***Oui : 2*** | _*_US003_*_ | 3 | Oui | **US003** | **2** |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

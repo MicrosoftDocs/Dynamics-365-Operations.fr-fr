@@ -101,7 +101,7 @@ Le développement d'extensions PDV à l'aide de ModernPos.sln, CloudPOs.sln, POS
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | À partir de cette version, dans le formulaire **Paramètres du planificateur Commerce** dans Dynamics 365 Headquarters, le champ **Intervalle de génération de l’ensemble de données complet en jours** sera obsolète. À partir de cette version également, le champ sera supprimé visuellement afin que la valeur ne puisse pas être modifiée. Cela restera comme la valeur **0**. |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Dynamics 365 Commerce |
 | **Option de déploiement**              | Tous|
 | **État**                         | Obsolète. N’utilisez pas ce champ et ne modifiez pas sa valeur.|

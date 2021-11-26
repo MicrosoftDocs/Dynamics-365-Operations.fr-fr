@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678833"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778155"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
 
@@ -31,7 +31,7 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 Le tableau suivant répertorie les fonctionnalités incluses dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe. Pour déterminer comment activer une fonctionnalité, voir la colonne *Activé par*. Pour plus d’informations sur la gestion des fonctionnalités, voir [Présentation de la gestion des fonctions](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Il se peut que nous mettions à jour de cette rubrique pour inclure des fonctionnalités qui auront été intégrées à la version après la publication initiale de cette rubrique.
 
-| Fonctionnalités | Fonctionnalité | Informations supplémentaires | Activé par   |
+| Fonctionnalités | Fonctionnalité | Informations supplémentaires | Activé par |
 |---|---|---|---|
 | Planification | [Prise en charge de l’optimisation de la planification pour l’allocation des ressources en fonction des capacités](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Planification avec sélection des ressources en fonction des capacités](../master-planning/planning-optimization/capability-based-scheduling.md) | Gestion des fonctionnalités (*Planification des capacités infinies pour l’optimisation de la planification*) |
 
@@ -39,9 +39,8 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 
 Le tableau suivant répertorie les améliorations de fonctionnalités incluses dans cette version. Chacune d’elles apporte une amélioration incrémentielle à une fonctionnalité existante. Comme il ne s’agit que d’améliorations, elles ne sont pas répertoriées dans le [plan de version](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Cependant, pour s’assurer que ces améliorations n’entrent pas en conflit avec vos personnalisations ou préférences existantes, chacune d’elles est désactivée par défaut (sauf indication contraire). Si vous souhaitez utiliser l’une de ces fonctionnalités, vous devez l’activer explicitement dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Module | Nom de la fonction dans la Gestion des fonctionnalités | Informations supplémentaires |
+| Module | Nom de la fonction dans la Gestion des fonctionnalités | Plus d’informations |
 |---|---|---|
-| Gestion des coûts | Créer des documents associés pour les réévaluations d’arrondi des coûts standard | <p>Lorsqu’une écriture financière d’inventaire (telle qu’une facture de commande client ou une transaction d’inventaire) est effectuée, cette fonction oblige le système à créer un document distinct pour toutes les réévaluations d’arrondi des coûts standard associées et à le joindre à la pièce comptable d’écriture financière en tant que pièce associée.</p><p>Sans cette fonctionnalité, le système enregistre les réévaluations d’arrondi des coûts standard sur le même enregistrement de document. Ce comportement peut parfois entraîner des informations de date contradictoires, car les réévaluations utilisent la date de la session ou du système, alors que les écritures financières utilisent la date comptable.</p> |
 | Topologie hybride distribuée | *(Aucune gestion des fonctionnalités n’est requise.)* | <p>Cette version étend les capacités de planification de la charge sortante de la charge de travail de gestion d’entrepôt pour les unités à l’échelle Cloud et périphérie.</p><p>Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gestion des modifications d’ingénierie | Générer des variantes pour les produits d’ingénierie | <p>Cette fonctionnalité vous permet de générer plusieurs variantes pour un produit d’ingénierie, en fonction de sa couleur, sa taille, son style ou ses dimensions de configuration.</p><p>Pour plus d’informations, voir [Générer des variantes pour les produits d’ingénierie](../engineering-change-management/engineering-variants.md).</p> |
 | Gestion des entrepôts et des stocks | Intégration de la visibilité du stock avec la compensation de réservation | <p>Cette fonction ne peut être activée qu’une fois la fonctionnalité *Intégration de la visibilité de l’inventaire* activée. Il fournit des fonctionnalités pour compenser les réservations effectuées sur la visibilité du stock.</p><p>Pour plus d’informations, voir [Réservation dans la visibilité des stocks](../inventory/inventory-visibility-reservations.md).</p> |

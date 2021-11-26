@@ -201,7 +201,7 @@ La configuration dans cette section est effectuée par entité juridique. Vous d
 3. Sur l’onglet **Calcul**, définissez la règle d’arrondi attendue pour l’entité juridique. Pour plus d'informations sur la logique d'arrondi, voir [Règles d'arrondi du calcul des taxes](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. Sur l’onglet **Gestion des erreurs**, définissez la méthode de gestion des erreurs attendue pour l’entité juridique. Trois options sont disponibles :
 
-    - N°
+    - Non
     - Avertissement
     - Erreur
 

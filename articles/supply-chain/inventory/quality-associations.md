@@ -344,7 +344,7 @@ Dans la production, vous définissez le champ **Type d’événement** sur *Déc
 </tr>
 <tr>
 <td>Quantité fixe : 1</td>
-<td>N°</td>
+<td>Non</td>
 <td>
 <p>Numéro du lot : Non</p>
 <p>Numéro de série : Non</p>
@@ -399,7 +399,7 @@ Dans la production, vous définissez le champ **Type d’événement** sur *Déc
 </tr>
 <tr>
 <td>Quantité fixe : 2</td>
-<td>N°</td>
+<td>Non</td>
 <td>
 <p>Numéro du lot : Oui</p>
 <p>Numéro de série : Oui</p>

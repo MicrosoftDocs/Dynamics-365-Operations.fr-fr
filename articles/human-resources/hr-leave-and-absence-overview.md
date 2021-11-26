@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble des congés et des absences
-description: Dans Dynamics 365 Human Resources, l’espace de travail Congés et absences fournit un cadre flexible pour créer des plans de congé. Il fournit également des workflows pour gérer les demandes et une page en libre service intuitive permettant aux employés de demander un congé.
-author: andreabichsel
-ms.date: 07/16/2021
+description: Dans Dynamics 365 Human Resources, l’espace de travail Congés et absences fournit un cadre flexible pour créer des plans de congé.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6dc63554f5ed32b2b3b387ef3fa4bcde2c202489003a99cb414547e33160ac8e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0088f9fe070ee4054c531ca128daba9389054902
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764156"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728611"
 ---
 # <a name="leave-and-absence-overview"></a>Vue d’ensemble des congés et des absences
 

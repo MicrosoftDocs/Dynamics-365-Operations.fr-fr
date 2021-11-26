@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577838"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778057"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -205,7 +205,7 @@ Le tableau suivant résume les effets du paramètre **Autoriser plusieurs accus�
 | Autoriser plusieurs accusés de réception de marchandises par chargement | Quantité de chargement | Statut de charge | Note |
 |---|---|---|---|
 | Lorsque ce champ n’est pas disponible (versions antérieures à 10.0.10) | <p>La quantité de chargement est définie de manière à ce qu’elle soit égale à la quantité enregistrée.</p><p>Si la quantité de chargement est mise à jour sur 0 (zéro), cela signifie qu’aucun enregistrement n’a été effectué, la ligne de chargement est supprimée.</p><p>S’il n’y a pas de lignes de chargement sur le chargement, le chargement est supprimé.</p> | _Reçu(e)_ | S’il existe plusieurs chargements pour la quantité enregistrée de la ligne de commande, seul l’état du chargement à partir duquel l’accusé de réception a été validé est mis à jour sur _Reçu_. |
-| N° | <p>La quantité de chargement est définie de manière à ce qu’elle soit égale à la quantité enregistrée associée à l’ID chargement.</p><p>Si aucun ID chargement n’est enregistré pour la transaction de stock, le comportement correspond au comportement dans les versions antérieures à 10.0.10.</p> | _Reçu(e)_ | |
+| Non | <p>La quantité de chargement est définie de manière à ce qu’elle soit égale à la quantité enregistrée associée à l’ID chargement.</p><p>Si aucun ID chargement n’est enregistré pour la transaction de stock, le comportement correspond au comportement dans les versions antérieures à 10.0.10.</p> | _Reçu(e)_ | |
 | Oui | Pas de mise à jour | _Reçu_, si la quantité de chargement totale enregistrée est égale ou supérieure à la quantité de chargement | |
 | Oui | Pas de mise à jour | _Expédié_ ou _En cours_, si la quantité de chargement totale enregistrée est inférieure à la quantité de chargement | |
 
@@ -267,7 +267,7 @@ Ces scénarios nécessitent la fonctionnalité _Plusieurs validations d’accus�
 
 1. Ouvrez l’espace de travail **Gestion des fonctionnalités**. (Pour plus de détails sur la recherche et l’utilisation de cet espace de travail, voir [Présentation de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) .)
 
-1. Activez la fonctionnalité _Associer les transactions de stock de la commande fournisseur au chargement_, qui est répertoriée de la manière suivante :
+1. Vérifiez que la fonctionnalité _Associer les transactions de stock de la commande fournisseur au chargement_ est activée. À partir de la version 10.0.21 de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée. Toutefois, cette fonctionnalité figure toujours dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) comme suit :
 
     - **Module :** _Gestion des entrepôts_
     - **Nom de la fonction :** _Associer les transactions de stock de la commande fournisseur au chargement_

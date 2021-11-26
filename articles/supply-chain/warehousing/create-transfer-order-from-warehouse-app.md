@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746817"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777813"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Créer des ordres de transfert depuis l’application d’entrepôt
 
@@ -36,7 +36,7 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer et activ
 1. Puis activez la fonctionnalité *Créer des ordres de transfert depuis l’application d’entreposage*, qui est répertoriée en tant que :
     - **Module** - Gestion des entrepôts
     - **Nom de la fonctionnalité** - Créer et traiter des ordres de transfert à partir de la l’application d’entreposage
-1. Pour automatiser le traitement des expéditions sortantes, vous devez également activer la fonctionnalité [Confirmer les expéditions sortantes des traitements par lots](confirm-outbound-shipments-from-batch-jobs.md). Cette fonctionnalité est répertoriée comme suit :
+1. Pour automatiser le traitement des expéditions sortantes, vous devez également activer la fonctionnalité [Confirmer les expéditions sortantes des traitements par lots](confirm-outbound-shipments-from-batch-jobs.md). À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
     - **Module** - Gestion des entrepôts
     - **Nom de la fonctionnalité** - Confirmer les expéditions sortantes des traitements par lots
 

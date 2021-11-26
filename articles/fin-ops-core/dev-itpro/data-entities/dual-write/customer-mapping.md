@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0b78b6071a354fef91573455f03b908d8b09a525299daef62d9a4f49752e6c03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48070628aafd7daac65327a484c87dc01ffb3954
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725158"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781688"
 ---
 # <a name="integrated-customer-master"></a>Données principales client intégrées
 
@@ -22,7 +22,7 @@ ms.locfileid: "6725158"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Les données client peuvent être gérées dans plusieurs applications Dynamics 365. Par exemple, une ligne client peut provenir d'une activité de vente dans Dynamics 365 Sales (une application d'engagement client), ou une ligne peut provenir d'une activité de vente au détail dans Dynamics 365 Commerce (une application de Finance and Operations). Peu importe d’où proviennent les données client, elles sont intégrées en arrière-plan. Le client principal intégré vous permet de gérer les données client dans n’importe quelle application Dynamics 365 et offre une vue complète du client dans la suite de l’application Dynamics 365.
+Les données client peuvent être gérées dans plusieurs applications Dynamics 365. Par exemple, une ligne client peut provenir d’une activité de vente dans Dynamics 365 Sales (une application d’engagement client), ou une ligne peut provenir d’une activité de vente au détail dans Dynamics 365 Commerce (une application de Finance and Operations). Peu importe d’où proviennent les données client, elles sont intégrées en arrière-plan. Le client principal intégré vous permet de gérer les données client dans n’importe quelle application Dynamics 365 et offre une vue complète du client dans la suite de l’application Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Flux de données client
 

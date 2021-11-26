@@ -2,7 +2,7 @@
 title: Utiliser les prédictions de paiement des clients
 description: Cette rubrique décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Informations financières.
 author: ShivamPandey-msft
-ms.date: 07/17/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,33 +15,29 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386288"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752782"
 ---
 # <a name="use-customer-payment-predictions"></a>Utiliser les prédictions de paiement des clients
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment utiliser les prédictions de paiement du client. Avant d’utiliser cette fonctionnalité, assurez-vous que vous avez terminé les étapes de configuration correspondantes. Pour plus d’informations, voir [Activer les prédictions de paiement client](enable-cust-paymnt-prediction.md).
 
-Vous pouvez afficher les prévisions de paiement des clients dans l’espace de travail **Gérer le crédit client et les recouvrements** et sur deux nouvelles pages de liste, **Prévisions de paiement par transaction** et **Prédiction de paiement par client**.
+Vous pouvez afficher les prévisions de paiement des clients dans l’espace de travail **Gérer le crédit client et les recouvrements** et sur deux nouvelles pages de liste : **Prédictions de paiement par transaction** et **Prédictions de paiement par client**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Gérer l’espace de travail de crédit et recouvrements client
 
-L’espace de travail **Gérer le crédit client et les recouvrements** comprend deux nouvelles vignettes, **Prédiction de paiement par transaction** et **Clients avec des soldes de retard élevés prévus**.
+L’espace de travail **Gérer le crédit client et les recouvrements** comprend deux nouvelles vignettes : **Prédictions de paiement par transaction** et **Prédictions de paiement par le client**.
 
-- La vignette **Prédiction de paiement par transaction** indique le nombre de transactions client ouvertes dont la probabilité de paiement est inférieure à 50 %% dans le compartiment **À temps**. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par transaction**.
-- La vignette **Clients avec des soldes de retard élevés prévus** indique le nombre de clients pour lesquels plus de la moitié (50 %%) du solde total devrait être payé en retard et/ou très tard. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par client**.
+### <a name="transaction-payment-predictions-list-page"></a>Page de liste Prédictions de paiement par transaction
 
-[![Gérer l’espace de travail de crédit et recouvrements client.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
-
-### <a name="payment-predictions-per-transaction-list-page"></a>Prédictions de paiement par page de liste de transactions
-
-Sur la liste **Prévisions de paiement par transaction**, vous pouvez afficher la probabilité de paiement pour les transactions ouvertes dans les compartiments **À temps**, **Tard**, et **Très tard**. Pour chaque transaction de la grille, la colonne **Probabilité à l’heure** indique la probabilité que la facture soit payée au plus tard à la date d’échéance. Si la probabilité d’un paiement à temps est inférieure à 50 %%, un cercle rouge apparaît à côté du pourcentage dans la colonne **Probabilité à temps** pour indiquer le risque de retard de paiement.
+Sur la liste **Prédictions de paiement par transaction**, vous pouvez afficher la probabilité de paiement pour les transactions ouvertes dans les compartiments **À temps**, **Tard**, et **Très tard**. Pour chaque transaction de la grille, la colonne **Probabilité à l’heure** indique la probabilité que la facture soit payée au plus tard à la date d’échéance. Si la probabilité d’un paiement à temps est inférieure à 50 %%, un cercle rouge apparaît à côté du pourcentage dans la colonne **Probabilité à temps** pour indiquer le risque de retard de paiement.
 
 [![Prédiction de paiement par page de transactions.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -55,9 +51,9 @@ Les données dans la section **Principaux facteurs**, et sur les raccourcis **Cu
 
 [![Indicateurs graphiques pour les prévisions de paiement dans le volet Informations connexes.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Page de liste Prédiction de paiement par client
+### <a name="customer-payment-predictions-list-page"></a>Page de liste Prédictions de paiements par client
 
-La page de liste **Prédiction de paiement par client** affiche le solde ouvert total et le montant qui devrait être payé dans les compartiments **À temps**, **Tard** et **Très tard**.
+La page de liste **Prédictions de paiement par client** affiche le solde ouvert total et le montant qui devrait être payé dans les compartiments **À temps**, **Tard** et **Très tard**.
 
 [![Page Prédictions de paiements par client.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
@@ -81,11 +77,11 @@ Dans ce cas, les paiements sont projetés pour chaque tranche de la manière sui
 
 La section **Informations connexes** sur le côté droit de la page affiche plus de détails sur les prédictions :
 
-- Pour la transaction sélectionnée dans la grille, le raccourci **Prédictions de paiement** affiche les détails des prévisions de paiement dans les compartiments **À temps**, **Tard**, et **Très tard**. La section **Principaux facteurs** montre les principaux facteurs qui ont influencé les paiements. Les principaux facteurs sont les attributs de la transaction sélectionnée et/ou du client pour cette transaction.
+- Pour la transaction sélectionnée dans la grille, le raccourci **Prédictions de paiement** affiche les détails des prévisions de paiement dans les compartiments **À temps**, **Tard**, et **Très tard**.
 - Le raccourci **Customer Insights** affiche les statistiques de facturation, de paiement et de recouvrement en cours pour le client pour la transaction sélectionnée.
 - Le raccourci **Historique client** affiche l’historique de paiement du client dans les compartiments **À temps**, **Tard**, et **Très tard**.
 
-Les données dans la section **Principaux facteurs**, et sur les raccourcis **Customer Insights** et **Historique client**, aide à expliquer les prévisions de paiement. Cela peut vous aider à accroître votre confiance dans l’efficacité des prédictions.
+Les données sur les raccourcis **Customer Insights** et **Historique client** aident à expliquer les prédictions de paiement. Cela peut vous aider à accroître votre confiance dans l’efficacité des prédictions.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Améliorer la précision des prévisions de paiement
 
@@ -96,11 +92,5 @@ Vous pouvez voir l’exactitude des prévisions de paiement en accédant à **Cr
 Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améliorez la précision du modèle** pour ouvrir l’expérience d’extension AI Builder. Dans l’expérience d’extension AI Builder, vous pouvez sélectionner ou annuler la sélection de champs jusqu’à ce que vous ayez sélectionné les champs qui vous semblent les plus importants pour prédire avec précision les probabilités de paiement. Lorsque vous avez terminé, vous pouvez facilement recycler le modèle de prédiction et publier vos modifications. Le modèle de prédiction nouvellement formé sera automatiquement sélectionné pour les prédictions dans Dynamics 365 Finance.
 
 [![Expérience d’extension AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
-
-## <a name="release-details"></a>Détails du lancement
-
-La version préliminaire publique de Informations financières est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
-
-Les fonctionnalités en version préliminaire publiques peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

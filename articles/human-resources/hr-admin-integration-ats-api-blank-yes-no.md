@@ -34,7 +34,7 @@ Cette énumération fournit l’option définie pour les propriétés oui/non qu
 | --- | --- | --- |
 | 200000000 | Blanc | Aucune valeur n’a été sélectionnée. |
 | 200000001 | Oui | Oui. |
-| 200000002 | N° | N° |
+| 200000002 | Non | Non |
 
 ## <a name="see-also"></a>Voir également :
 

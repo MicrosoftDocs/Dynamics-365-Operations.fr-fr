@@ -43,7 +43,7 @@ Par exemple, un produit de télévision classique peut avoir les attributs suiva
 |            | Entrées composites         | 0–10                        | 2             |
 |            | Entrées de composants         | 0–10                        | 1             |
 | LCD        | Compatible 3D                 | Oui ou Non                   | Oui           |
-|            | Activé pour la 3D               | Oui ou Non                   | N°            |
+|            | Activé pour la 3D               | Oui ou Non                   | Non            |
 | Plasma     | Température de fonctionnement      | 0–43 degrés              | 32            |
 |            | Température de fonctionnement        | 0–43 degrés              | 100           |
 | Projection | Garantie du tube de projection | 612 ou 18 mois         | 12            |

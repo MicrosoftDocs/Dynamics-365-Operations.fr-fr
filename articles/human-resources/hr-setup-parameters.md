@@ -1,8 +1,8 @@
 ---
 title: Configurer les paramètres de Human Resources
 description: Cette rubrique décrit comment définir les paramètres spécifiques à la société dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739249"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771433"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurer les paramètres de Human Resources
 
@@ -65,7 +65,7 @@ Les paramètres de l’onglet **Général** définissent l’apparence des infor
 
 Les paramètres sur l’onglet **Recrutement** définit les types de documents utilisés pour la correspondance envoyée automatiquement aux candidats. Vous pouvez également indiquer le projet de recrutement utilisé pour les candidatures spontanées.
 
-La période définie pour le projet de recrutement âgé détermine les projets de recrutement inclus dans la vignette **Projets âgés** de l’espace de travail **Gestion des recrutements**. La période définie pour l’avertissement de la date limite de candidature est utilisée pour afficher les projets de recrutement qui approchent leur date limite de candidature dans la vignette **Date limite de candidature qui approche** de l’espace de travail **Recrutement**.
+La période définie dans **Projet de recrutement âgé** détermine les projets de recrutement inclus dans la vignette **Projets âgés** de l’espace de travail **Gestion des recrutements**. La période définie pour l’avertissement de la date limite de candidature est utilisée pour présenter les projets de recrutement qui approchent leur date limite de candidature dans la vignette **Date limite de candidature qui approche** de l’espace de travail **Recrutement**.
 
 Pour plus d’informations sur le recrutement, consultez [Recruter des candidats](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ Dans l’onglet FMLA, vous définissez les conditions d’éligibilité FMLA et 
 
 ## <a name="employee-self-service"></a>Espace collaborateur
 
-Les paramètres sur l’onglet **Libre-service des employés** affecte la façon dont le libre-service des employés apparaît aux employés. Sur cet onglet, vous pouvez :
+Les paramètres sur l’onglet **Libre service employé** affecte la façon dont le **libre service employé** apparaît aux employés. Sur cet onglet, vous pouvez effectuer les tâches suivantes :
 
-- Entrer le nom de l’employé pour l’espace de travail du libre-service pour employés
+- Entrer le nom de l’employé pour l’espace de travail **Libre service employé**
 - Sélectionnez les informations qu’un responsable peut saisir pour les employés
 - Ajouter des liens utiles pour les employés
 - Empêcher les employés d’ajouter ou de modifier leurs coordonnées professionnelles. Pour plus d’informations, consultez [Restreindre la modification des informations personnelles](hr-employee-self-service-restrict-editing.md).
 
-Pour plus d’informations sur la configuration du libre-service des employés, voir [Aperçu du libre-service des employés et des gestionnaires](hr-employee-manager-self-service-overview.md).
+Pour plus d’informations sur la configuration de **Libre service employé**, voir [Aperçu du libre service des employés et des gestionnaires](hr-employee-manager-self-service-overview.md).
 
 ![Onglet Libre-service employé.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Responsable en libre-service
 
-Les paramètres sur l’onglet **Gestionnaire libre-service** affecte ce que les gestionnaires voient dans le libre-service pour responsables. Sur cet onglet, vous pouvez configurer les options suivantes :
+Les paramètres sur l’onglet **Libre service gestionnaire** affecte ce que les gestionnaires voient dans le **Libre service gestionnaire**. Sur cet onglet, vous pouvez configurer les options suivantes :
 
 - La plage des enregistrements expirant
 - Les gestionnaires de l’information peuvent afficher dans les enregistrements expirant
@@ -128,13 +128,13 @@ Les paramètres sur l’onglet **Gestionnaire libre-service** affecte ce que les
 - Vues des collaborateurs sortants
 - Liens utiles pour les gestionnaires
 
-Pour plus d’informations sur la configuration du libre-service des responsables, voir [Aperçu du libre-service des employés et des gestionnaires](hr-employee-manager-self-service-overview.md).
+Pour plus d’informations sur la configuration du **Libre service gestionnaire**, voir [Aperçu du libre service employé et gestionnaire](hr-employee-manager-self-service-overview.md).
 
 ![Onglet Responsable en libre-service.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Gestion des avantages
 
-Dans l’onglet Gestion des avantages, vous pouvez configurer les options de messagerie pour la gestion des avantages. Pour plus d’informations sur la configuration et l’utilisation de la gestion des avantages, voir [Présentation de la gestion des avantages](hr-benefits-management-overview.md).
+Dans l’onglet **Gestion des avantages**, vous pouvez configurer les options de messagerie pour la gestion des avantages. Pour plus d’informations sur la configuration et l’utilisation de la gestion des avantages, voir [Présentation de la gestion des avantages](hr-benefits-management-overview.md).
 
 ![Onglet Gestion des avantages.](./media/hr-setup-parameters-benefits-management.png)
 

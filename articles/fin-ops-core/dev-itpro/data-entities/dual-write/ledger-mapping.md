@@ -1,20 +1,20 @@
 ---
 title: Comptabilité intégrée
 description: Cette rubrique décrit l’intégration des données de comptabilité entre Finance and Operations et d’autres applications Dynamics 365 à l’aide de Dataverse.
-author: robinarh
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e5bdef8ef440bd5ef84060b61b4cf1d0088f204c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: e41d600464d707d01a0e319dd3cd343b04aa26b7
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416831"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782378"
 ---
 # <a name="integrated-ledger"></a>Comptabilité intégrée
 
@@ -39,7 +39,7 @@ Applications de Finance and Operations | Applications Customer Engagement     | 
 [Dimensions financières](mapping-reference.md#128) | msdyn_dimensionattributes |
 [Entité Intégration du calendrier fiscal](mapping-reference.md#132) | msdyn_fiscalcalendars |
 [Période de calendrier fiscal](mapping-reference.md#131) | msdyn_fiscalcalendarperiods |
-[Entité Intégration de l'exercice de calendrier fiscal](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
+[Entité Intégration de l’exercice de calendrier fiscal](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
 [Registre](mapping-reference.md#148) | msdyn_ledgers |
 [Compte principal](mapping-reference.md#152) | msdyn_mainaccounts |
 [Catégories de compte principal](mapping-reference.md#151) | msdyn_mainaccountcategories |

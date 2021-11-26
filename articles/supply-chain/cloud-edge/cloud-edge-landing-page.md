@@ -1,5 +1,5 @@
 ---
-title: Unités d'échelle dans une topologie hybride distribuée
+title: Unités d’échelle dans une topologie hybride distribuée
 description: Cette rubrique fournit des informations sur les unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471738"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733437"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d'échelle dans une topologie hybride distribuée
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d’échelle dans une topologie hybride distribuée
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,10 +30,10 @@ ms.locfileid: "7471738"
 
 Les entreprises qui travaillent avec la fabrication et la distribution doivent être en mesure d’exécuter des processus commerciaux clés 24 heures sur 24, 7 jours sur 7, sans interruption et à grande échelle. Une topologie hybride distribuée permet aux entreprises d’exécuter sans interruption des processus de fabrication et d’entrepôt critiques, même lorsqu’elles sont confrontées à des problèmes occasionnels de connectivité réseau ou de latence.
 
-Une topologie hybride distribuée introduit le concept d'*unités d'échelle*, qui permettent de répartir les charges de travail de l'exécution en atelier et de l'exécution en entrepôt entre différents environnements. Cette fonctionnalité peut aider à améliorer les performances, à éviter les interruptions de service et à maximiser la disponibilité. Les unités d’échelle sont fournies via les compléments suivants pour votre abonnement Supply Chain Management :
+Une topologie hybride distribuée introduit le concept d’*unités d’échelle*, qui permettent de répartir les charges de travail de l’exécution en atelier et de l’exécution en entrepôt entre différents environnements. Cette fonctionnalité peut aider à améliorer les performances, à éviter les interruptions de service et à maximiser la disponibilité. Les unités d’échelle sont fournies via les compléments suivants pour votre abonnement Supply Chain Management :
 
-- Complément Cloud Scale Unit pour Dynamics 365 Supply Chain Management (*disponible en avril 2021*)
-- Complément Edge Scale Unit pour Dynamics 365 Supply Chain Management (*disponible prochainement*)
+- Complément Cloud Scale Unit pour Dynamics 365 Supply Chain Management
+- Complément d’unité d’échelle Edge pour Dynamics 365 Supply Chain Management
 
 Les fonctionnalités de charge de travail sont publiées en continu au travers d’améliorations incrémentielles.
 
@@ -51,21 +51,12 @@ Vous pouvez configurer un environnement de hub et les unités d’échelle cloud
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail de gestion d’unité d’échelle dédiées dans une unité d’échelle
 
-La charge de travail de gestion de l’entrepôt est la première charge de travail distribuée pour les unités d’échelle qui a été publiée en disponibilité générale.
-
-Pour la gestion de l’entrepôt, les unités d’échelle offrent les fonctionnalités suivantes :
-
-- Le système peut traiter des méthodes de vague sélectionnées pour les commandes client et le réapprovisionnement de la demande.
-- Les employés de l’entrepôt peuvent exécuter les ventes et demander le travail d’entrepôt de réapprovisionnement à l’aide de l’application mobile Warehouse Management.
-- Les employés de l’entrepôt peuvent se renseigner sur les stocks disponibles à l’aide de l’application mobile Warehouse Management.
-- Les employés de l’entrepôt peuvent créer et exécuter des mouvements de stock à l’aide de l’application mobile Warehouse Management.
-- Les employés des entrepôts peuvent enregistrer des commandes fournisseur et faire du rangement en utilisant l’application mobile Warehouse Management.
-
+La charge de travail de gestion d’entrepôt vous permet d’exécuter des processus de gestion d’entrepôt sur un déploiement isolé.
 Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail d’exécution de fabrication dédiées dans une unité d’échelle
 
-La première parution de la charge de travail de fabrication est actuellement en version préliminaire et offre les fonctionnalités suivantes :
+La charge de travail de fabrication offre les capacités suivantes :
 
 - Les opérateurs de machines et les superviseurs d’atelier peuvent accéder au plan de production opérationnel.
 - Les opérateurs de machine peuvent maintenir le plan à jour en exécutant des tâches de fabrication discrètes et de processus.
@@ -191,17 +182,33 @@ Microsoft examinera votre demande et vous informera des étapes suivantes en env
 
 Une fois l’intégration terminée, vous pouvez utiliser le port pour configurer les unités d’échelle et les charges de travail.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gérez les unités d’échelle cloud et les charges de travail à l’aide du portail de gestionnaire d’unité d’échelle
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gérez les unités d’échelle et les charges de travail à l’aide du portail de gestionnaire d’unité d’échelle
 
 Aller au [portail de gestionnaire d’unité d’échelle](https://aka.ms/SCMSUM) et connectez-vous à l’aide de votre compte de locataire. Sur la page **Configurer les unités d’échelle**, vous pouvez ajouter un environnement de hub s’il n’est pas déjà répertorié. Vous pouvez ensuite sélectionner le hub que vous souhaitez configurer avec des unités d’échelle et des charges de travail.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Expérience de gestion des unités d’échelle et de la charge de travail.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portail de gestionnaire d’unité d’échelle, page Configurer les unités d’échelle.":::
 
 Pour ajouter une ou plusieurs unités d’échelle disponibles dans vos abonnements, sélectionnez **Ajouter des unités d’échelle**.
 
 Sur l’onglet **Charges de travail définies**, utilisez le bouton **Créer une charge de travail** pour ajouter une charge de travail de gestion d’entrepôt à l’une de vos unités d’échelle. Pour chaque charge de travail, vous devez spécifier le contexte des processus qui appartiendront à la charge de travail. Pour les charges de travail de gestion d’entrepôt, le contexte est un entrepôt spécifique dans un site et une entité juridique spécifiques.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Création de charge de travail.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Boîte de dialogue Définir les charges de travail.":::
+
+#### <a name="manage-workloads"></a>Gérer les charges de travail
+
+Lorsqu’une ou plusieurs charges de travail sont activées, utilisez l’option **Gérer les charges de travail** pour initier et gérer des processus tels que ceux répertoriés dans le tableau suivant.
+
+| Processus | Description |
+|---|---|
+| Suspendre la communication de l’unité d’échelle | Suspendez les messages du pipeline entre le hub et une unité d’échelle. Ce processus arrêtera la communication et drainera le pipeline de données entre le hub et les unités d’échelle. Vous devez exécuter ce processus avant d’exécuter une opération de maintenance Supply Chain Management sur le hub ou l’unité d’échelle, mais vous pouvez également l’utiliser dans d’autres situations. |
+| Reprendre la communication de l’unité d’échelle | Reprenez les messages du pipeline entre le hub et une unité d’échelle. Vous devrez peut-être utiliser ce processus, par exemple, après avoir exécuté une opération de maintenance Supply Chain Management sur le hub ou l’unité d’échelle. |
+| Mise à niveau des charges de travail | Synchronisez les nouvelles fonctionnalités entre les charges de travail du hub et de l’unité d’échelle. Vous devrez peut-être utiliser ce processus, par exemple, lorsque la maintenance a modifié les requêtes d’échange de données et/ou a ajouté de nouvelles tables ou champs à la charge de travail. |
+| Transférer les charges de travail vers une unité d’échelle | Planifiez une charge de travail en cours d’exécution sur le hub pour qu’elle soit déplacée vers une unité d’échelle. Lorsque ce processus est exécuté, la synchronisation des données circule et le hub et l’unité d’échelle sont configurés pour modifier la propriété de la charge de travail. |
+| Transférer l’unité d’échelle vers le hub | Planifiez une charge de travail en cours d’exécution sur une unité d’échelle pour qu’elle soit déplacée vers le hub. Lorsque ce processus est exécuté, la synchronisation des données circule et le hub et l’unité d’échelle sont configurés pour modifier la propriété de la charge de travail.
+| Transition d’urgence vers le hub | <p>Transférez immédiatement une charge de travail existante vers le hub. *Ce processus modifiera la propriété des seules données actuellement disponibles sur le hub.*</p><p><strong>Avertissement :</strong> ce processus peut entraîner une perte de données pour les données non synchronisées et l’échec du processus métier. Par conséquent, il ne doit être utilisé qu’en cas d’urgence, lorsque les processus métier doivent être traités sur le hub, car l’unité d’échelle subit une panne qui ne peut pas être corrigée dans un délai raisonnable.</p> |
+| Mise hors service de la topologie distribuée | Supprimez un déploiement d’unité d’échelle et exécutez-le uniquement sur le hub, sans traitement de la charge de travail. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Expérience de gestion des unités d’échelle et de la charge de travail.":::
 
 > [!TIP]
 > Au fil du temps, des améliorations incrémentielles seront ajoutées à l’expérience de gestionnaire des unités d’échelle pour faciliter les opérations de gestion du cycle de vie. Les fonctionnalités spécifiques de la version actuelle sont documentées dans un manuel d’intégration mis à la disposition des clients qui sont en cours d’intégration à la topologie hybride distribuée pour Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

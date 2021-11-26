@@ -128,7 +128,7 @@ La plupart des systèmes sources peuvent fournir les données qui correspondent 
 |---|---|---|---|
 | Membres de la dimension d’élément de coût  |  Oui | Oui  | Oui  |
 |  Membres de la dimension d’objet de coût |  Oui | Oui  | Oui  |
-|  Membres de la dimension statistique | Oui  | N°  | N°  |
+|  Membres de la dimension statistique | Oui  | Non  | Non  |
 |  Comptabilité | Oui  | Oui  | Oui  |
 |  Écritures budgétaires  | Oui  | Oui  | Oui  |
 |  Mesures statistiques | Oui  | Oui  | Oui  |

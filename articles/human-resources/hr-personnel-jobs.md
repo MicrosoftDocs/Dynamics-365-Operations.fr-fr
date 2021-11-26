@@ -1,26 +1,26 @@
 ---
 title: Paramétrer les composants d’une tâche
-description: Cet article décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d’utilisation de ces éléments dans votre organisation.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d’utilisation de ces éléments dans votre organisation.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754774"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731538"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Paramétrer les composants d’une tâche
 
@@ -60,7 +60,7 @@ Les fonctions de tâche décrivent les catégories fonctionnelles de haut niveau
 Tenez à jour les fonctions de tâche à l’aide de la page **Fonctions de tâche**. Sur la page **Fonctions de tâche**, entrez un code d’identification et une brève description de la fonction de tâche.
 
 ## <a name="compensation"></a>Rémunération
-Pour affecter un régime de rémunération fixe à un employé qui occupe un poste pour une tâche, vous devez définir des niveaux de rémunération sur la tâche. Le niveau de rémunération est utilisé lorsque les montants minimum, médian et maximum sont définis dans une structure de rémunération (grille de rémunération). Lorsqu’un régime de rémunération fixe est créé, la structure de rémunération est sélectionnée. La structure de rémunération comprend également le niveau de rémunération. Lorsque vous sélectionnez un plan de rémunération fixe pour un employé, les niveaux de rémunération disponibles pour la sélection dépendent de la tâche auquel le poste de l’employé est associé. Pour plus d’informations sur la configuration des régimes de rémunération, voir [Régimes de rémunération](hr-compensation-overview.md).
+Pour affecter un régime de rémunération fixe à un employé qui occupe un poste pour une tâche, vous devez définir des niveaux de rémunération sur la tâche. Le **niveau de rémunération** est utilisé lorsque les montants minimum, médian et maximum sont définis dans une structure de rémunération (grille de rémunération). Lorsqu’un régime de rémunération fixe est créé, la structure de rémunération est sélectionnée. La structure de rémunération comprend également le niveau de rémunération. Lorsque vous sélectionnez un plan de rémunération fixe pour un employé, les niveaux de rémunération disponibles pour la sélection dépendent de la tâche auquel le poste de l’employé est associé. Pour plus d’informations sur la configuration des régimes de rémunération, voir [Régimes de rémunération](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Compétences de tâche
 Les compétences de tâche décrivent les compétences requises pour effectuer une tâche. Un niveau de compétence doit être associé à chaque compétence de tâche. Les niveaux de compétence sont définis par l’utilisateur. Ils indiquent le niveau de connaissance ou d’aptitude requis pour la compétence. Par exemple, les entreprises peuvent définir des niveaux numériques, tels que 1 à 5, où **1** indique un débutant et **5** indique un expert. Alternativement, les entreprises peuvent établir des niveaux qui sont étiquetés **Débutant**, **Intermédiaire** ou **Expert**. Une fois le niveau de compétence défini, l’importance de la compétence peut également être définie. Par exemple, si un comptable doit avoir une solide connaissance de Microsoft Excel, une compétence qui s’appelle **Connaissances Excel** peut être créée. Le niveau de compétence peut alors être défini sur **Intermédiaire** et l’importance peut être définie sur **Plus**.
@@ -82,7 +82,7 @@ Les descriptifs de tâche décrivent les tâches de base devant être accomplies
 <td>Responsable des ventes</td>
 <td><ul>
 <li><strong>Examen des performances</strong> – examen du rendement au travail de chaque commercial.</li>
-<li><strong>Examen des absences</strong> – approbation ou rejet des demandes ou enregistrement d’absence de chaque commercial.</li>
+<li><strong>Examen des absences</strong> – approbation ou rejet des demandes ou enregistrement d&#39;absence de chaque commercial.</li>
 </ul></td>
 </tr>
 <tr class="even">

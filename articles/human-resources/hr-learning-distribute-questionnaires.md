@@ -1,8 +1,8 @@
 ---
-title: Distribuer et programmer des questionnaires
-description: Cet article décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront.
-author: andreabichsel
-ms.date: 04/04/2017
+title: Distribuer et planifier des questionnaires
+description: Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755513"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729001"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Distribuer et programmer des questionnaires
+# <a name="distribute-and-schedule-questionnaires"></a>Distribuer et planifier des questionnaires
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
+Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
 
 Il existe plusieurs méthodes pour distribuer un questionnaire :
 
--   Marquer le questionnaire comme actif. Le questionnaire est alors mis à la disposition de tous les employés, sauf si son accès est restreint par un groupe de questionnaire.
+-   Marquer le questionnaire comme **Actif**. Le questionnaire est alors mis à la disposition de tous les employés, sauf si son accès est restreint par un groupe de questionnaire.
 -   Affecter des droits à un groupe de questionnaires. Le questionnaire est alors à la disposition de tous les membres du groupe sélectionné.
 -   Créer des sessions de réponse prévues. Le questionnaire est alors accessible à une seule personne.
 -   Créer un programme. Le questionnaire peut alors être accessibles à plusieurs personnes.

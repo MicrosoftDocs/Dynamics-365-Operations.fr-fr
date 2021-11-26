@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579878"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778255"
 ---
 # <a name="work-split"></a>Fractionnement du travail
 
@@ -33,7 +33,7 @@ La fonctionnalité de fractionnement du travail vous permet de diviser les ID d�
 
 Avant de pouvoir utiliser la fonctionnalité de répartition du travail, vous devez activer la fonctionnalité et sa fonctionnalité prérequise dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut des fonctionnalités et les activer si nécessaire.
 
-Tout d’abord, activez la fonctionnalité *Blocage du travail à l’échelle de l’organisation* prérequise si elle n’est pas déjà activée. Dans l’espace de travail **Gestion des fonctionnalités**, cette fonctionnalité est répertoriée comme suit :
+Tout d’abord, activez la fonctionnalité *Blocage du travail à l’échelle de l’organisation* prérequise si elle n’est pas déjà activée. À partir de la version 10.0.21 de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée. Toutefois, cette fonctionnalité figure toujours dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Blocage du travail l’échelle de l’organisation*

@@ -42,7 +42,7 @@ L’exemple de système contient la configuration suivante des dimensions de sto
 | Nom      | Actifs | Stock physique | Stock financier |
 |-----------|--------|--------------------|---------------------|
 | Site      | Oui    | Oui                | Oui                 |
-| Entrepôt | Oui    | Oui                | N°                  |
+| Entrepôt | Oui    | Oui                | Non                  |
 
 ### <a name="inventory-model"></a>Modèle de stock
 

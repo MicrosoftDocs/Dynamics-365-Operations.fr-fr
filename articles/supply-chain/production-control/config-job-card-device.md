@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576950"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777738"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurer le bon de travail pour les périphériques
 
@@ -34,19 +34,19 @@ Quelques-uns des paramètres décrits dans cette rubrique doivent être activés
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans l’ordre) :
 
-1. Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail
+1. Contenant pour signaler la fin ajouté au périphérique de carte de travail (à partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 1. Activer la génération automatique du numéro de contenant lors de la déclaration de fin dans le périphérique de bon de travail
 
 ### <a name="print-label"></a>Imprimer l’étiquette
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans l’ordre) :
 
-1. Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail
+1. Contenant pour signaler la fin ajouté au périphérique de carte de travail (à partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 1. Imprimer une étiquette à partir d’un périphérique de bons de travail
 
 ### <a name="allow-locking-of-touch-screen"></a>Autoriser le verrouillage de l’écran tactile
 
-Pour rendre cette fonctionnalité disponible, activez la fonctionnalité suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Si vous souhaitez utiliser cette fonctionnalité, vérifiez que la fonctionnalité suivante est activée dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 
 - Fonctionnalité de verrouillage des périphériques des bons de travail et des terminaux des bons de travail afin de procéder à leur désinfection
 

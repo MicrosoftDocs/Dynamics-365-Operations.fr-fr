@@ -47,11 +47,11 @@ Le tableau suivant montre quelques exemples typiques de configurations de princi
 
 | Principe de réduction des remises | Description | Appliquer la réduction | Base de réduction | Exclure de la réduction |
 |---|---|---|---|---|
-| Différé | Réduire la remise | Oui | Les deux | N° |
+| Différé | Réduire la remise | Oui | Les deux | Non |
 | Exclreb | Exclure la remise | Oui | Remise | Oui |
 | Quantité multiple | Plusieurs remises | Oui | Les deux | Oui |
-| None | Provision et remise seulement | N° | Les deux | Oui |
-| Mise en service | Provision seulement | Oui | Mise en service | N° |
+| None | Provision et remise seulement | Non | Les deux | Oui |
+| Mise en service | Provision seulement | Oui | Mise en service | Non |
 | Remise | Remise seulement | Oui | Remise | Oui |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Exemples de calculs de principe de réduction de remise

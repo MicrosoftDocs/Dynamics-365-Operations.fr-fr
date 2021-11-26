@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735894"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777863"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programmer l’impression d’étiquettes pendant la vague
 
@@ -33,7 +33,7 @@ Lorsque vous utilisez la fonctionnalité *Impression d’étiquettes de vague ba
 Pour utiliser les fonctionnalités décrites dans cette rubrique, elles doivent être activées pour votre système. Utilisez l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités dans l’ordre suivant :
 
 1. *Impression d’étiquettes de vague* : cette fonction est requise pour activer la méthode de traitement par vague pour l’impression d’étiquettes de vague.
-1. *Blocage des tâches à l’échelle de l’organisation* : cette fonction est requise pour la configuration manuelle et automatique de la création de travail planifiée.
+1. *Blocage des tâches à l’échelle de l’organisation* : cette fonction est requise pour la configuration manuelle et automatique de la création de travail planifiée. (À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
 1. *Impression d’étiquettes de vague basée sur les tâches* : cette fonction est requise pour séparer l’impression d’étiquettes de vague en une portée de transaction distincte.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Activer manuellement la nouvelle méthode d’étape de vague

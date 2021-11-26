@@ -2,7 +2,7 @@
 title: Prévision des flux de trésorerie
 description: Cette rubrique fournit une vue d’ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d’autres modules dans le système.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752902"
 ---
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Vous pouvez utiliser les outils de prévisions des flux de trésorerie pour analyser les besoins à venir en devises et vous permettre d’estimer les futurs besoins en disponibilités de votre société. Pour obtenir une prévision des flux de trésorerie, vous devez effectuer les tâches suivantes :
 
@@ -83,7 +84,7 @@ Vous pouvez remplacer le paramètre par défaut du champ **Compte de liquidités
 
 ### <a name="budgeting"></a>Budget
 
-Les budgets créés à partir des modèles de budget peuvent être inclus dans les prévisions des flux de trésorerie. Sur la page **Configuration des prévisions de flux de trésorerie**, sous l'onglet **Budgétisation**, sélectionnez les modèles de budget à inclure dans la prévision. Par défaut, de nouvelles écritures de registre budgétaires sont incluses dans les prévisions après l’activation du modèle de budget pour les prévisions des flux de trésorerie.
+Les budgets créés à partir des modèles de budget peuvent être inclus dans les prévisions des flux de trésorerie. Sur la page **Configuration des prévisions de flux de trésorerie**, sous l’onglet **Budgétisation**, sélectionnez les modèles de budget à inclure dans la prévision. Par défaut, de nouvelles écritures de registre budgétaires sont incluses dans les prévisions après l’activation du modèle de budget pour les prévisions des flux de trésorerie.
 
 Les écritures du registre budgétaire peuvent être incluses dans les prévisions de trésorerie sur une base individuelle grâce à la personnalisation. Lorsque vous ajoutez la colonne "Inclure dans les prévisions de flux de trésorerie" à la page **Saisie du registre budgétaire**, le système écrasera les paramètres de la page **Paramétrage des prévisions de trésorerie** pour inclure une entrée de registre budgétaire individuelle dans la prévision.
 
@@ -93,9 +94,12 @@ Les écritures du registre budgétaire peuvent être incluses dans les prévisio
 Les approvisionnements et les prévisions de la demande de stock peuvent être inclus dans les prévisions des flux de trésorerie. Dans l’onglet **Gestion des stocks** de la page **Configuration des prévisions de flux de trésorerie**, sélectionnez le modèle de budget à inclure dans la prévision de flux de trésorerie. L’inclusion dans les prévisions des flux de trésorerie peut être remplacée sur chaque ligne d’approvisionnement et de prévision de la demande.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configuration des dimensions pour la prévision des flux de trésorerie
-Un nouvel onglet sur la page **Configuration des prévisions de flux de trésorerie** vous permet de contrôler les dimensions financières à utiliser pour le filtrage dans l’espace de travail **Prévision des flux de trésorerie**. Cet onglet n’apparaîtra que lorsque la fonction de prévision des flux de trésorerie est activée. 
+Un nouvel onglet sur la page **Configuration des prévisions de flux de trésorerie** vous permet de contrôler quelles dimensions financières doivent être utilisées pour le filtrage dans l’espace de travail **Prévision des flux de trésorerie**. Cet onglet apparaîtra uniquement lorsque la fonction de prévision des flux de trésorerie dans Finance Insights est activée. 
 
 Sur l’onglet **Dimensions**, choisissez dans la liste des dimensions à utiliser pour le filtrage et utilisez les touches fléchées pour les déplacer vers la colonne de droite. Seules deux dimensions peuvent être sélectionnées pour filtrer les données de prévision des flux de trésorerie. 
+
+### <a name="setting-up-external-source"></a>Configuration de la source externe
+Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Avant de saisir ou d’importer des données externes, des sources externes doivent être configurées. Sur l’onglet **Source externe**, configurez les catégories de flux de trésorerie externes. Une catégorie peut être **Sortant** ou **Entrant**. **Liquidité** doit être sélectionné comme type de validation. Dans la grille **Paramètres de l’entité juridique**, sélectionnez les entités juridiques et les comptes principaux correspondants auxquels s’appliquent les catégories de flux de trésorerie externes.
 
 ### <a name="project-management-and-accounting"></a>Gestion et comptabilité du projet
 

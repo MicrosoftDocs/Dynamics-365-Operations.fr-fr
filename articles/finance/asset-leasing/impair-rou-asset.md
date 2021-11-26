@@ -92,8 +92,8 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
     | Date de la transaction       | 1/1/2022 |
     | Périodes restantes      | 84       |
     | Valider                   | Oui      |
-    | Aperçu avant validation | N°       |
-    | Clôturer le registre             | N°       |
+    | Aperçu avant validation | Non       |
+    | Clôturer le registre             | Non       |
 
 6. Une écriture au journal des charges de dépréciation a été créée et enregistrée. Pour l’afficher, accédez au journal de location de l’actif dans le registre de location. Notez que le montant de la dépréciation a été débité du compte général des charges de dépréciation, et le compte général du droit d’utilisation de l’actif a été crédité.
 7. Pour voir l’effet net de la dépréciation, consultez les tableaux des transactions de passif et d’actif. Notez que la dépense de dépréciation a diminué le droit d’utilisation de l’actif, mais que la valeur comptable du passif locatif n’a pas changé.

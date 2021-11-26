@@ -38,9 +38,9 @@ Le tableau suivant montre quand le système valide les transactions de stock en 
 
 | Condition                                               | Le système utilise le prix de revient moyen en cours estimé | Le système utilise le prix de revient défini dans l’enregistrement principal de l’article |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| Le numérateur\* et le dénominateur\*\* sont tous les deux positifs.  | Oui                                                      | N°                                                                |
-| Le numérateur\*, le dénominateur\*\*, ou les deux sont négatifs. | N°                                                       | Oui                                                               |
-| Le dénominateur\*\* est 0 (zéro).                        | N°                                                       | Oui                                                               |
+| Le numérateur\* et le dénominateur\*\* sont tous les deux positifs.  | Oui                                                      | Non                                                                |
+| Le numérateur\*, le dénominateur\*\*, ou les deux sont négatifs. | Non                                                       | Oui                                                               |
+| Le dénominateur\*\* est 0 (zéro).                        | Non                                                       | Oui                                                               |
 
 \* Numérateur = (montant physique + montant financier) \*\* Dénominateur = (quantité physique + quantité financière) 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577910"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778375"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Planifier la création de travail pendant la vague
 
@@ -33,7 +33,7 @@ Lorsque la fonctionnalité est activée, le travail planifié est automatiquemen
 
 Pour utiliser les fonctionnalités décrites dans cette rubrique, elles doivent être activées pour votre système. Utilisez l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes dans l’ordre indiqué :
 
-1. **Blocage des tâches à l’échelle de l’organisation** : Requis pour la configuration manuelle et automatique de la création de travail planifiée.
+1. **Blocage des tâches à l’échelle de l’organisation** : Requis pour la configuration manuelle et automatique de la création de travail planifiée. (À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
 1. **Planifier la création du travail** : Requis pour la configuration manuelle et automatique de la création de travail planifiée.
 1. **Méthode de vague « Planifier la création du travail » à l’échelle de l’organisation** : Requis pour la configuration manuelle et automatique de la création de travail planifiée. Vous n’avez pas besoin de cette fonctionnalité si vous n’utilisez que la configuration manuelle.
 

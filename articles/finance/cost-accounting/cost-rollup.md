@@ -69,7 +69,7 @@ Une hiérarchie de dimensions qui répond aux conditions de génération d’ét
 
 | Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d’accès |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisation             | Centres de coût | Hiérarchie de classification de dimension | N°                    |
+| Organisation             | Centres de coût | Hiérarchie de classification de dimension | Non                    |
 
 **Hiérarchie des dimensions**
 

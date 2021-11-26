@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 03bfb5f97b332abb7f34e179d7b294ed2228ab474825a76271f42cc60971a645
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716092"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781789"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -124,7 +124,7 @@ Prospect en disponibilité comprend un ensemble de mappages de tables de base qu
 [Produits lancés V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
 [En-têtes de facture client V2](mapping-reference.md#118) | factures | La table En-têtes de facture de vente V2 de l’application Finance and Operations contient des factures pour les commandes client et des factures en texte libre. Un filtre est appliqué dans Dataverse pour la double écriture qui filtrera tous les documents de facture financière. |
 [Lignes de facture client V2](mapping-reference.md#117) | invoicedetails | |
-[Codes d'origine des commandes client](mapping-reference.md#186) | msdyn_salesorderorigins | |
+[Codes d’origine des commandes client](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
 Pour plus d’informations sur les tarifs, voir [Expérience produit uniformisée](product-mapping.md).
 

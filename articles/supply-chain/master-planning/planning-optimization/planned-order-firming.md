@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764834"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778519"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -39,7 +39,7 @@ La plupart des fonctionnalités de commandes prévisionnelles sont disponibles d
 
 La confirmation de la mise en parallèle permet d’accélérer le processus de confirmation en le mettant en parallèle sur plusieurs threads. Cette approche peut être utile lorsque de nombreuses commandes prévisionnelles sont confirmées.
 
-Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation de la mise en parallèle des commandes prévisionnelles*.
+Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation de la mise en parallèle des commandes prévisionnelles*. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Activer la confirmation des commandes prévisionnelles avec filtrage
 
@@ -51,7 +51,7 @@ Pour rendre cette fonctionnalité disponible dans votre système, accédez à [G
 
 La confirmation automatique vous permet de confirmer les commandes prévisionnelles dans le cadre du processus de planification durant la plage de gestion de confirmation. La confirmation automatique est toujours prise en charge pour le moteur de planification intégré à Supply Chain Management. Vous devez cependant activer la fonctionnalité pour l’utiliser également avec l’Optimisation de la planification.
 
-Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation automatique de l’Optimisation de la planification*.
+Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation automatique de l’Optimisation de la planification*. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 
 ## <a name="manually-firm-planned-orders"></a>Confirmer manuellement les commandes prévisionnelles
 

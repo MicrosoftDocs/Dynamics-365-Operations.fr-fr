@@ -14,12 +14,12 @@ ms.search.industry: public sector
 ms.author: henrikan
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 10b35e92a3b14db03bfe6a42f2c64d1bbc56313c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 80ec7ae9e345f20344b48de39111532a9896b38d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575452"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777756"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d’offre
 
@@ -31,7 +31,7 @@ Les utilisateurs peuvent publier plusieurs fois les réponses aux questions des 
 
 ## <a name="turn-on-the-feature"></a>Activer la fonctionnalité
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Approvisionnements*
 - **Nom de la fonction :** *Questions et réponses à l’appel d’offres*

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745174"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753024"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
 
@@ -84,7 +84,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Option de déploiement**              | Tous |
 | **État**                         | Abandon : Avant le 1er octobre 2020, nous prévoyons de ne plus prendre en charge la méthode  **setUtcString ()**. Les développeurs doivent utiliser la méthode **setUtcDateTime ()** à la place. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>État de la liste rouge (IT) – Référence de la fonctionnalité IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>État de la liste rouge (IT) – Référence de la fonctionnalité IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -216,7 +216,7 @@ La prise en charge de la création de commandes client basées sur le projet où
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La fonctionnalité demeure activée après la suppression du paramètre. |
-| **Remplacé par une autre fonctionnalité ?**   | N° La fonctionnalité de prise en charge des commandes client basée sur un projet avec plusieurs sources de financement sera toujours activée.   |
+| **Remplacé par une autre fonctionnalité ?**   | Non La fonctionnalité de prise en charge des commandes client basée sur un projet avec plusieurs sources de financement sera toujours activée.   |
 | **Zones de produit affectées**         |Le paramètre **Autoriser les commandes client pour les projets avec plusieurs sources de financement** sera supprimé. Les méthodes suivantes seront modifiées lorsque le paramètre sera supprimé : méthode **ctrlSalesOrderTable** dans la classe **ProjStatusType**, méthode **validate** pour le champ **ProjId**, et méthode **run** dans l’écran **SalescreateOrder**. Les méthodes suivantes seront abandonnées lorsque le paramètre sera supprimé : **IsSalesOrderAllowedForMultipleFundingSources** dans le fichier de table **ProjTable**, méthode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** dans le fichier de table **ProjTable**, champ de données **AllowSalesOrdersForMultipleFundingSources** dans l’écran **ProjParameters** et les fichiers **ProjParameterEntity**, méthode privée **IsAssociatedToMultipleFundingSourcesContract** dans le fichier de table **ProjTable**. |
 | **Option de déploiement**              | Tous  |
 | **État**                         | L’abandon est prévu pour la vague de publication d’avril 2020. |
@@ -262,7 +262,7 @@ La prise en charge de la création de commandes client basées sur le projet où
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Lorsque vous utilisez la fonction **Renommer la clé principale** pour modifier l’ItemId d’un produit lancé, seules les références directes de clé étrangère sont mises à jour. Toutes les autres références au produit lancé, comme des ordres de fabrication, conserveront l’ancien ItemId. Par conséquent, il peut y avoir des données incohérentes qui risquent de bloquer les processus d’entreprise. |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Gestion des informations sur les produits |
 | **Option de déploiement**              | Tout  |
 | **État**                         | Supprimé à partir de Finance and Operations 10.0.0 avec platform update 24.|
@@ -360,7 +360,7 @@ Fonctionnalité pour créer des modèles de nouveaux registres de l’impôt sur
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La fonctionnalité n’est pas compatible avec le modèle d’extensibilité Finance and Operations. |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Taxes |
 | **Option de déploiement**              | Tous |
 | **État**                         | Supprimé à partir de Finance and Operations 8.1 avec platform update 20. |
@@ -371,7 +371,7 @@ Module spécifique à la Russie pour la gestion des informations d’administrat
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La paie n’est pas incluse dans l’orientation stratégique globale du portefeuille Dynamics 365. Les partenaires et les ISV sont les mieux placés pour fournir des fonctionnalités de paie conformes aux réglementations locales et aux mises à jour fiscales.|
-| **Remplacé par une autre fonctionnalité ?**   | N°|
+| **Remplacé par une autre fonctionnalité ?**   | Non|
 | **Zones de produit affectées**         | Gestion de la paie et des ressources humaines russe |
 | **Option de déploiement**              | Tous |
 | **État**                         | Abandon : le délai cible pour la suppression de la fonctionnalité est l’une des mises à jour de la version 10.0. |
@@ -387,7 +387,7 @@ Aucune fonctionnalité n’a été supprimée ou rendue obsolète avec cette ver
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail.  |
-| **Remplacé par une autre fonctionnalité ?**   | N° Cependant, après le printemps 2018, nous prévoyons de rétablir cette fonctionnalité pour tirer parti d’un nouveau service de recommandation.   |
+| **Remplacé par une autre fonctionnalité ?**   | Non Cependant, après le printemps 2018, nous prévoyons de rétablir cette fonctionnalité pour tirer parti d’un nouveau service de recommandation.   |
 | **Zones de produit affectées**         | Recommandations de produit personnalisées dans le PDV.                                                    |
 | **Option de déploiement**              | Tout                                                                                      |
 | **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Operations 1611 et versions ultérieures.  |
@@ -455,7 +455,7 @@ Ces taxes ont été englobées dans le GST indien.
 |              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Motif de la suppression ou de l’abandon**       | Peu utilisé par les clients                                                  |
-| **Remplacé par une autre fonctionnalité ?**            | N°                                                                      |
+| **Remplacé par une autre fonctionnalité ?**            | Non                                                                      |
 | **Zones de produit affectées**                  | Retenue à la source indienne                                                  |
 | **Option de déploiement**                       | Tous les modules                                                                    |
 | **Statut**                                  | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.   |        
@@ -467,7 +467,7 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 |             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Motif de la suppression ou de l’abandon**       | Peu utilisé par les clients                                                  |
-| **Remplacé par une autre fonctionnalité ?**            | N°                                                                      |
+| **Remplacé par une autre fonctionnalité ?**            | Non                                                                      |
 | **Zones de produit affectées**                  | Retenue à la source indienne                                                  |
 | **Option de déploiement**                       | Tous les modules                                                                   |
 | **Statut**                                  | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.     |    
@@ -478,7 +478,7 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 |              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Motif de la suppression ou de l’abandon**       | Peu utilisé par les clients                                                  |
-| **Remplacé par une autre fonctionnalité ?**            | N°                                                                      |
+| **Remplacé par une autre fonctionnalité ?**            | Non                                                                      |
 | **Zones de produit affectées**                  | Importer et exporter                                                       |
 | **Option de déploiement**                       | Tous les modules                                                                    |
 | **Statut**                                  | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.  |    
@@ -492,7 +492,7 @@ Les utilisateurs peuvent le télécharger à partir du portail gouvernemental.
 |  &nbsp; |  &nbsp;|
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Nous supprimons la version actuelle du service de recommandation de produit car nous remodelons cette fonction avec un meilleur algorithme et de nouvelles fonctionnalités orientées détail.  |
-| **Remplacé par une autre fonctionnalité ?**   | N° Cependant, après le printemps 2018, nous prévoyons de rétablir cette fonctionnalité pour tirer parti d’un nouveau service de recommandation.   |
+| **Remplacé par une autre fonctionnalité ?**   | Non Cependant, après le printemps 2018, nous prévoyons de rétablir cette fonctionnalité pour tirer parti d’un nouveau service de recommandation.   |
 | **Zones de produit affectées**         | Recommandations de produit personnalisées dans le PDV.                                                    |
 | **Option de déploiement**              | Tout                                                                                      |
 | **Statut**                         |Supprimé à partir de 15 février 2018. Cela concerne les clients exécutant Dynamics 365 for Retail 7.2 et versions ultérieures. |
@@ -531,7 +531,7 @@ Règle de correspondance utilisée pour sélectionner et marquer un document ban
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Utilisation limitée.                                                                         |
-| **Remplacé par une autre fonctionnalité ?**   | N° Les fonctions de filtrage de colonnes doivent permettre de rechercher des documents pour le rapprochement. |
+| **Remplacé par une autre fonctionnalité ?**   | Non Les fonctions de filtrage de colonnes doivent permettre de rechercher des documents pour le rapprochement. |
 | **Zones de produit affectées**         | Gestion de la trésorerie et de la banque                                                               |
 | **Option de déploiement**              | Tous                                                                                    |
 | **État**                         | Supprimé à partir de juillet 2017.                                                               |
@@ -578,7 +578,7 @@ Cet outil est utilisé lorsqu’un plan de comptes en Espagne nécessite des mod
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Utilisation limitée                                                  |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                             |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                             |
 | **Zones de produit affectées**         | Comptabilité                                                 |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction. |
 
@@ -622,7 +622,7 @@ EDIVAT est une norme belge obsolète pour la déclaration électronique via cour
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La fonctionnalité n’est plus utilisée.                           |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                             |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                             |
 | **Zones de produit affectées**         | Comptabilité                                                 |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction. |
 
@@ -655,7 +655,7 @@ Un outil est utilisé pour paramétrer la collecte des informations pour la comp
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Utilisation limitée                                                                            |
-| **Remplacé par une autre fonctionnalité ?**   | N° L’outil sera remplacé par des configurations de génération d’états électroniques dans les versions futures. |
+| **Remplacé par une autre fonctionnalité ?**   | Non L’outil sera remplacé par des configurations de génération d’états électroniques dans les versions futures. |
 | **Zones de produit affectées**         | Comptabilité générale                                                                           |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.                           |
 
@@ -699,7 +699,7 @@ Cette fonctionnalité est utilisée pour les modifications apportées au plan de
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Utilisation limitée                                                  |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                             |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                             |
 | **Zones de produit affectées**         | Comptabilité                                                 |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction. |
 
@@ -787,7 +787,7 @@ L’identification par radio-fréquence (RFID) est une technologie de collecte d
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Faible utilisation de la part des clients et ensemble de fonctionnalités limité.   |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                              |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                              |
 | **Zones de produit affectées**         | Gestion des stocks                            |
 | **Statut**                         | Supprimé à partir de Dynamics 365 for Operations 1611. |
 
@@ -798,7 +798,7 @@ La législation lettone impose des règles spécifiques sur la numérotation des
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La numérotation de facture d’état ne doit plus être mise à jour. L’état sur les numéros de facture utilisés n’est plus nécessaire. |
-| **Remplacé par une autre fonctionnalité ?**   | N°       |
+| **Remplacé par une autre fonctionnalité ?**   | Non       |
 | **Zones de produit affectées**         | Module Comptabilité client    |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.  |
 
@@ -860,7 +860,7 @@ Informations sur les salaires dans Ressources humaines
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Faible utilisation                                                           |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                                  |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                                  |
 | **Zones de produit affectées**         | Ressources humaines                                                     |
 | **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611 |
 
@@ -883,7 +883,7 @@ Un workflow pour la gestion de la création des objectifs de l’employé est l�
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Améliorations des performances        |
-| **Remplacé par une autre fonctionnalité ?**   | N°                             |
+| **Remplacé par une autre fonctionnalité ?**   | Non                             |
 | **Zones de produit affectées**         | Module Comptabilité fournisseur               |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0. |
 
@@ -916,7 +916,7 @@ Si la clé de configuration des **versions de nomenclature** a été désactivé
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | L’utilisation d’une clé de configuration pour contrôler les versions de nomenclature n’effectue pas de mise à l’échelle dans un environnement cloud. |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                                                      |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                                                      |
 | **Zones de produit affectées**         | Gestion des informations sur les produits, Gestion des stocks                                    |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.                                                          |
 
@@ -927,7 +927,7 @@ Mode de paiement spécifique aux sociétés brésiliennes
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La prise en charge du mode de paiement du Bordero brésilien est devenue obsolète dans la localisation brésilienne |
-| **Remplacé par une autre fonctionnalité ?**   | N°   |
+| **Remplacé par une autre fonctionnalité ?**   | Non   |
 | **Zones de produit affectées**         | Module Comptabilité fournisseur   |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction. |
 
@@ -949,7 +949,7 @@ L’environnement de secours (SCAN) permet de générer, d’exporter, et d’im
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Cette méthode de secours ne s’applique plus dans tous les états brésiliens |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                                          |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                                          |
 | **Zones de produit affectées**         | Module Comptabilité client                                                         |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.              |
 
@@ -1000,7 +1000,7 @@ Le Centre de conformité est un site Enterprise Portal pour gérer les besoins e
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Peu utilisé par les clients. Microsoft SharePoint inclut la même capacité que celle qui était disponible dans le Centre de conformité. |
-| **Remplacé par une autre fonctionnalité ?**   | N°   |
+| **Remplacé par une autre fonctionnalité ?**   | Non   |
 | **Zones de produit affectées**         | Conformité et contrôles internes  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.    |
 
@@ -1029,7 +1029,7 @@ Cet outil était utilisé pour faire passer des données clés de Microsoft Dyna
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Les groupes de files d’attente étaient utilisés pour afficher une ou plusieurs files d’attente dans la zone de récapitulatif. L’utilisation était limitée et il y avait également des soucis de performances, car une modification d’enregistrement dans un écran parent entrainait une requête par file d’attente dans le groupe des files d’attente. |
-| **Remplacé par une autre fonctionnalité ?**   | N°      |
+| **Remplacé par une autre fonctionnalité ?**   | Non      |
 | **Zones de produit affectées**         | Tous les modules    |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.  |
 
@@ -1047,7 +1047,7 @@ Cet outil était utilisé pour faire passer des données clés de Microsoft Dyna
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La prise en charge du format de chèque danois a été abandonnée, et l’état a été supprimé de la localisation DK. |
-| **Remplacé par une autre fonctionnalité ?**   | N°    |
+| **Remplacé par une autre fonctionnalité ?**   | Non    |
 | **Zones de produit affectées**         | Tous les modules    |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.  |
 
@@ -1079,7 +1079,7 @@ Dynamics AX 2012 autorisait le stockage de pièces jointes dans la base de donn
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Aucune utilisation de la fonctionnalité n’a été trouvée. |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                     |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                     |
 | **Zones de produit affectées**         | Pointage                    |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.         |
 
@@ -1099,7 +1099,7 @@ Dans Dynamics AX 2012 R3, le terminal Retail Modern POS pouvait se connecter di
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La connexion directe à la base de données nécessitait un niveau de sécurité moindre au niveau des protocoles et a été utilisée principalement pour atteindre des niveaux de performances supérieurs. En raison des améliorations au niveau des performances et de la sécurité dans Finance and Operations, cette fonctionnalité entraîne désormais plus de problèmes qu’elle n’en résout. |
-| **Remplacé par une autre fonctionnalité ?**   | N° Seule la communication standard via le serveur de vente au détail est désormais prise en charge.  |
+| **Remplacé par une autre fonctionnalité ?**   | Non Seule la communication standard via le serveur de vente au détail est désormais prise en charge.  |
 | **Zones de produit affectées**         | Base de données des canaux/Retail Modern POS   |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.  |
 
@@ -1137,7 +1137,7 @@ Cette fonctionnalité fournit la sortie XBLR (eXtensible Business Reporting Lang
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Faible utilisation de la part des clients et ensemble de fonctionnalités limité  |
-| **Remplacé par une autre fonctionnalité ?**   | N°              |
+| **Remplacé par une autre fonctionnalité ?**   | Non              |
 | **Zones de produit affectées**         | Module Conformité et contrôles internes, Comptabilité fournisseur  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0. |
 
@@ -1193,7 +1193,7 @@ La génération de notes préliminaires ne peut pas être effectuée à l’aide
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Le format XML pour la génération d’états pour la Liste des ventes intracommunautaires pour l’Allemagne n’est plus pris en charge. Seul le format de fichier texte ELMA5 peut être utilisé pour envoyer la liste des ventes intracommunautaires à l’administration fiscale allemande. |
-| **Remplacé par une autre fonctionnalité ?**   | N°         |
+| **Remplacé par une autre fonctionnalité ?**   | Non         |
 | **Zones de produit affectées**         | Taxes        |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction.   |
 
@@ -1246,7 +1246,7 @@ Cette fonctionnalité a permis la génération de factures électroniques mexica
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La méthode ne s’applique plus. La génération de factures électroniques à l’aide de la méthode CFD a été abandonnée par les administrations fiscales et remplacée par la méthode Comprobante Fiscal Digital a través de Internet (CFDI), dans laquelle la signature est déléguée au fournisseur tiers (PAC). L’état mensuel a été supprimé, et une option de recherche permet aux utilisateurs d’en savoir plus sur les transactions historiques. |
-| **Remplacé par une autre fonctionnalité ?**   | N°    |
+| **Remplacé par une autre fonctionnalité ?**   | Non    |
 | **Zones de produit affectées**         | Comptabilité client, Projet   |
 | **Statut**                         | Déconseillé : une date de suppression n’a pas été définie pour cette fonction. |
 
@@ -1278,7 +1278,7 @@ Les journaux de gestion de stock et d’entrepôt ne prennent plus en charge la 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Aucune utilisation de la fonctionnalité n’a été trouvée. |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                     |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                     |
 | **Zones de produit affectées**         | Gestion des stocks                   |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.         |
 
@@ -1311,7 +1311,7 @@ Cette fonctionnalité permet de remplacer le nom de l’une des trois dimensions
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La version actuelle de Dynamics AX ne prend pas en charge le changement de nom au moment de l’exécution. |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                                                            |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                                                            |
 | **Zones de produit affectées**         | Gestion des informations sur les produits                                                |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.                                                |
 
@@ -1322,7 +1322,7 @@ Dans Dynamics AX 2012 R3, le serveur de vente au détail pouvait fonctionner vi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | En raison de nouvelles exigences de sécurité, seule la communication sécurisée via TLS 1.2 (ou version ultérieure, si disponible) est maintenant prise en charge. Le programme d’installation en libre-service configurera automatiquement l’ordinateur pour la communication. |
-| **Remplacé par une autre fonctionnalité ?**   | N° Seule la communication standard HTTPS est désormais prise en charge. |
+| **Remplacé par une autre fonctionnalité ?**   | Non Seule la communication standard HTTPS est désormais prise en charge. |
 | **Zones de produit affectées**         | Serveur de vente au détail  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0. |
 
@@ -1340,7 +1340,7 @@ Dans Dynamics AX 2012 R3, le serveur de vente au détail pouvait fonctionner vi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Faible utilisation de la part des clients et ensemble de fonctionnalités limité |
-| **Remplacé par une autre fonctionnalité ?**   | N°                                           |
+| **Remplacé par une autre fonctionnalité ?**   | Non                                           |
 | **Zones de produit affectées**         | taxe U.S.                                 |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.               |
 
@@ -1351,7 +1351,7 @@ Sites Services vous permet de créer des sites Web qui étendent vos processus d
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | L’infrastructure Microsoft Azure utilisée par Dynamics AX dispose des nouvelles capacités qui peuvent être utilisées à la place (par exemple, les sites Azure). |
-| **Remplacé par une autre fonctionnalité ?**   | N°   |
+| **Remplacé par une autre fonctionnalité ?**   | Non   |
 | **Zones de produit affectées**         | Recrutement RH, gestion des incidents, demande de devis, enregistrement des fournisseurs, espaces de travail de collaboration pour les opportunités et les campagnes  |
 | **Statut**                         | Supprimé à partir de Dynamics AX 7.0.    |
 
@@ -1392,7 +1392,7 @@ L’application pour tablettes Windows 8 a fourni la fonctionnalité pour la sa
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Finance and Operations est compatible avec les tablettes. L’application pour tablettes n’est plus nécessaire.    |
-| **Remplacé par une autre fonctionnalité ?**   | N°          |
+| **Remplacé par une autre fonctionnalité ?**   | Non          |
 | **Zones de produit affectées**         | Gestion des dépenses   |
 | **Statut**                         | Supprimé : cette fonctionnalité n’est disponible que pour Dynamics AX 2012 R3. |
 

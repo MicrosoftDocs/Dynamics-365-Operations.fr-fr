@@ -1,8 +1,8 @@
 ---
 title: Demande de congés
 description: Demandez des congés dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756098"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771410"
 ---
 # <a name="request-time-off"></a>Demande de congés
 
@@ -42,7 +42,7 @@ Vous pouvez soumettre des demandes de congés, consulter vos soldes de vacances 
 
 6. Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande. Sinon, sélectionnez **Enregistrer en tant que brouillon**.
 
-Les employés qui soumettent une nouvelle demande de congé peuvent sélectionner différents types de congés pour construire leur demande de congé. Cependant, tous les types de congés sélectionnés dans le cadre d'une seule demande de congé doivent avoir la même unité de congé. Les employés peuvent afficher l'unité de congé pour chaque type de congé dans le formulaire **Demander un congé**.
+Les employés qui soumettent une nouvelle demande de congé peuvent sélectionner différents types de congés pour construire leur demande de congé. Cependant, tous les types de congés sélectionnés dans le cadre d’une seule demande de congé doivent avoir la même unité de congé. Les employés peuvent afficher l’unité de congé pour chaque type de congé sur la page **Demander un congé**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Ajouter une pièce jointe à une demande existante
 
@@ -64,7 +64,7 @@ Lors de la mise à jour d’une demande de congé existante, vous pouvez ajouter
 
 1. Dans l’espace de travail **Libre service employé**, sélectionnez **Afficher les congés** dans la vignette **Soldes des congés**.
 
-2. Sur le formulaire **Congés**, sélectionnez une ou plusieurs demandes de congé à annuler.
+2. Sur la page **Congés**, sélectionnez une ou plusieurs demandes de congé à annuler.
 
 3. Sélectionnez le bouton **Annuler**.
 

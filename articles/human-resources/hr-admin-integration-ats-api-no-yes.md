@@ -34,7 +34,7 @@ Cette énumération fournit un jeu d’options pour les propriétés booléennes
 
 | Valeur | Étiquette | Description |
 | --- | --- | --- |
-| 200000000 | N° | N° |
+| 200000000 | Non | Non |
 | 200000001 | Oui | Oui. |
 
 ## <a name="see-also"></a>Voir également :

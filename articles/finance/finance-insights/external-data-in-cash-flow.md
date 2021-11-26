@@ -1,8 +1,8 @@
 ---
 title: Utiliser des données externes dans les prévisions de flux de trésorerie
-description: Cette rubrique décrit les étapes de configuration que vous devez effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
+description: Cette rubrique décrit les étapes de configuration à effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
 author: rcarlson
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,35 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386460"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753000"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts"></a>Utiliser des données externes dans les prévisions de flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Cette rubrique décrit les étapes de configuration spécifiques à l’utilisation de données externes et permettant d’inclure les données externes dans une prévision de flux de trésorerie.
 
 ## <a name="external-data-setup"></a>Configuration des données externes
 
-Utilisez l’onglet **Source externe** sur la page **Configuration des prévisions de trésorerie** (**Gestion de la trésorerie et de la banque \> Prévisions de trésorerie**) pour saisir des paramètres prenant en charge l’utilisation de données externes dans les prévisions de flux de trésorerie.
+Utilisez l’onglet **Source externe** sur la page **Configuration des prévisions de trésorerie** (**Gestion de la trésorerie et de la banque \> Prévisions de trésorerie \> Configuration des prévisions de flux de trésorerie**) pour saisir des paramètres prenant en charge l’utilisation de données externes dans les prévisions de flux de trésorerie.
 
-Pour plus d’informations sur la configuration des compteurs, voir [Prévisions de flux de trésorerie](../cash-bank-management/cash-flow-forecasting.md).
+Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Avant de saisir ou d’importer des données externes, des sources externes doivent être configurées. Sur l’onglet **Source externe**, configurez les catégories de flux de trésorerie externes. Une catégorie peut être **Sortant** ou **Entrant**. **Liquidité** doit être sélectionné comme type de validation. Dans la grille **Paramètres de l’entité juridique**, sélectionnez les entités juridiques et les comptes principaux correspondants auxquels s’appliquent les catégories de flux de trésorerie externes.
 
-Pour saisir des données externes pour les prévisions de flux de trésorerie, vous pouvez utiliser l’expérience Ouvrir dans Excel pour saisir et modifier des données externes. Sélectionnez le bouton **Données externes** puis soit **Ajouter des données externes** soit **Modifier les données externes existantes**. Quand le fichier Microsoft Excel est ouvert, vous pouvez saisir des informations dans les champs suivants :
+Pour plus d’informations sur la configuration des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](../cash-bank-management/cash-flow-forecasting.md).
 
-- **ID entrée**
+## <a name="enter-external-data"></a>Saisir des données externes
+
+Pour saisir et modifier des données externes pour les prévisions de flux de trésorerie, vous pouvez utiliser l’expérience **Ouvrir dans Excel**. Sélectionnez le bouton **Données externes** sur la page **Configuration des prévisions de flux de trésorerie**, puis **Ajouter des données externes** ou **Modifier les données externes existantes**. Quand le fichier Microsoft Excel est ouvert, vous pouvez saisir des informations dans les champs suivants :
+
+- **ID entrée** (unique)
 - **Description** (facultative)
-- **Nom de la source externe** – Sélectionnez l’une des valeurs de la liste que vous avez définie lors de la configuration de Informations financières.
+- **Nom de la source externe** – Sélectionnez l’une des valeurs de la liste que vous avez définie lors de la configuration de Finance Insights.
 - **Entité juridique**
 - **Date**
 - **Montant dans la devise de transaction**

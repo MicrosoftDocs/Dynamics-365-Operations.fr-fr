@@ -421,7 +421,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Non applicable</td>
 </tr>
 <tr>
-<td>N°</td>
+<td>Non</td>
 <td>
 <ol>
 <li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Warehouse Management lorsque vous commencez le travail de prélèvement.</li>
@@ -719,7 +719,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </tr>
 <tr>
 <td>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Manuel</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Non</strong>. De plus, l’option <strong>Autoriser la réaffectation manuelle des articles </strong>est activée pour le collaborateur.</td>
-<td>N°</td>
+<td>Non</td>
 <td>
 <ol>
 <li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
@@ -732,7 +732,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </tr>
 <tr>
 <td>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Manuel</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Oui</strong>. De plus, l’option <strong>Autoriser la réaffectation manuelle des articles </strong>est activée pour le collaborateur.</td>
-<td>N°</td>
+<td>Non</td>
 <td>
 <ol>
 <li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>

@@ -1,8 +1,8 @@
 ---
 title: Gérer des articles prêtés aux employés
 description: Les articles empruntés sont des enregistrements qui permettent aux responsables de suivre les articles physiques que votre société prête aux employés.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760584"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728757"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Gérer des articles qui prêtés aux employés
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760584"
 
 Les articles empruntés sont des enregistrements qui permettent aux responsables de suivre les articles physiques que votre société prête aux employés. 
 
-Voici quelques exemples d’articles qu’une société peut prêter aux employés :
+Voici des exemples d’articles qu’une société peut prêter aux collaborateurs :
+
 -   téléphones portables ;
 -   véhicules ;
 -   équipement informatique ;
@@ -37,7 +38,7 @@ Chaque article physique doit avoir un article de prêt correspondant. Chaque enr
 
 Lors de l’emprunt d’un article, entrez la date d’emprunt de l’article et la date de retour prévue. Au retour de l’article, entrez la date de retour réelle.
 
-Les employés peuvent consulter les enregistrements des articles qui ont été empruntés à l’aide de l’espace de travail Libre service employé. Ils peuvent également modifier les enregistrements existants ou indiquer de nouveaux articles empruntés, s’ils ont reçu des articles physiques supplémentaires.  Un workflow peut être paramétré pour acheminer les modifications apportées aux nouveaux articles empruntés ou à ceux existants via un processus d’approbation. 
+Les employés peuvent utiliser l’espace de travail **Libre service employé** pour consulter les enregistrements des articles qui ont été empruntés. Ils peuvent également modifier les enregistrements existants ou indiquer de nouveaux articles empruntés, s’ils ont reçu des articles physiques supplémentaires. Un workflow peut être paramétré pour acheminer les modifications apportées aux nouveaux articles empruntés ou à ceux existants via un processus d’approbation. 
 
 Les responsables peuvent afficher les articles empruntés pour leurs états directs. Ils peuvent également avoir l’autorisation d’ajouter de nouveaux articles empruntés au nom de leurs employés.
 

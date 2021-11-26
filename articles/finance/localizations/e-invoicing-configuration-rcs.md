@@ -2,7 +2,7 @@
 title: Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 description: Cette rubrique explique comment configurer la Facturation électronique dans Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757972"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779668"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "6757972"
 
 Cette rubrique fournit des informations sur les fonctionnalités de configuration de la Facturation électronique dans Dynamics 365 Regulatory Configuration Services (RCS).
 
-C’est grâce aux capacités de configuration que la Facturation électronique vous aide à répondre aux exigences commerciales et réglementaires des factures électroniques sans avoir à effectuer de codage. Et dans les scénarios où les factures électroniques doivent être approuvées électroniquement par un service Web, les capacités de configuration vous aident également à répondre aux exigences d’échange de messages avec un service Web, sans faire de code.
+C’est grâce aux capacités de configuration que la Facturation électronique vous aide à répondre aux exigences commerciales et réglementaires des factures électroniques sans avoir à effectuer de codage. Et dans les scénarios où les factures électroniques doivent être approuvées électroniquement par un service web, les capacités de configuration vous aident également à répondre aux exigences d’échange de messages avec un service web, sans faire de code.
 
 ## <a name="electronic-reporting"></a>Gestion des états électroniques
 
@@ -73,8 +73,9 @@ Le tableau suivant présente les fonctionnalités de facturation électronique a
 | Espagne          | Facture électronique espagnole (ES)      | Factures de vente et factures projet |
 | Europe         | Facture électronique PEPPOL            | Factures de vente et factures projet PEPPOL |
 | Europe         | Facture fournisseur PEPPOL                | Factures fournisseur importation PEPPOL |
+| Arabie saoudite   | Facture électronique saoudienne (SA)| Factures de vente et factures projet |
 
-### <a name="preview-features"></a>Fonctionnalités d'aperçu
+### <a name="preview-features"></a>Fonctionnalités d’aperçu
 
 Le tableau suivant présente les fonctionnalités de facturation électronique actuellement en version préliminaire.
 
@@ -197,6 +198,11 @@ Les listes suivantes présentent les configurations de format ER disponibles pou
 - Facture client (ES)
 - Facture de projet (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Facture électronique d’Arabie saoudite (AS) : factures client et de projet pour l’Arabie saoudite
+
+- Facture client électronique (AS)
+- Facture électronique de projet (AS)
+
 En plus des configurations de format d’états électroniques disponibles par défaut pour une utilisation avec le service de facturation électronique, vous pouvez également créer vos propres configurations de format d’états électroniques. Cependant, les configurations de format créées pour être utilisées avec les fonctionnalités de facturation électronique ne prennent pas en charge la référence directe aux tables de Finance ou de Supply Chain Management ou aux métadonnées correspondantes. Seules les références au mappage de modèles d’états électroniques sont prises en charge.
 
 ### <a name="actions"></a>Actions
@@ -214,29 +220,29 @@ Le tableau suivant répertorie les actions disponibles et indique si elles sont 
 | Réponse du processus                              | Analysez la réponse reçue de l’appel de service Web.                     | Disponibilité générale  |
 | Utiliser MS Power Automate                         | Intégrer avec le flux intégré à Microsoft Power Automate.                       | En mode aperçu           |
 
-### <a name="applicability-rules"></a>Règles d'applicabilité
+### <a name="applicability-rules"></a>Règles d’applicabilité
 
-Les règles d'applicabilité sont des clauses configurables qui sont définies au niveau de la fonctionnalité Facturation électronique. Les règles sont configurées pour fournir un contexte d'exécution des fonctionnalités de facturation électronique via l'ensemble de fonctionnalités de la Facturation électronique.
+Les règles d’applicabilité sont des clauses configurables qui sont définies au niveau de la fonctionnalité Facturation électronique. Les règles sont configurées pour fournir un contexte d’exécution des fonctionnalités de facturation électronique via l’ensemble de fonctionnalités de la Facturation électronique.
 
-Lorsqu'un document commercial de Finance ou Supply Chain Management est soumis à la facturation électronique, le document commercial ne comporte pas de référence explicite permettant à l'ensemble de fonctionnalités de Facturation électronique d'appeler une fonction de facturation électronique particulière pour traiter l'envoi.
+Lorsqu’un document commercial de Finance ou Supply Chain Management est soumis à la facturation électronique, le document commercial ne comporte pas de référence explicite permettant à l’ensemble de fonctionnalités de Facturation électronique d’appeler une fonction de facturation électronique particulière pour traiter l’envoi.
 
-Néanmoins, lorsqu'il est correctement configuré, le document commercial contient les éléments nécessaires qui permettent à la facturation électronique de déterminer quelle fonction de facturation électronique doit être sélectionnée, puis de générer la facture électronique.
+Néanmoins, lorsqu’il est correctement configuré, le document commercial contient les éléments nécessaires qui permettent à la facturation électronique de déterminer quelle fonction de facturation électronique doit être sélectionnée, puis de générer la facture électronique.
 
-Les règles d'applicabilité permettent à l'ensemble de fonctionnalités de la Facturation électronique de trouver les fonctionnalités de facturation électronique exactes qui doivent être utilisées pour traiter l'envoi. Cela se fait en faisant correspondre le contenu du document commercial envoyé avec les clauses des règles d'applicabilité.
+Les règles d’applicabilité permettent à l’ensemble de fonctionnalités de la Facturation électronique de trouver les fonctionnalités de facturation électronique exactes qui doivent être utilisées pour traiter l’envoi. Cela se fait en faisant correspondre le contenu du document commercial envoyé avec les clauses des règles d’applicabilité.
 
-Par exemple, deux fonctionnalités de facturation électronique avec des règles d'applicabilité associées sont déployées dans l'ensemble de fonctionnalités de la Facturation électronique.
+Par exemple, deux fonctionnalités de facturation électronique avec des règles d’applicabilité associées sont déployées dans l’ensemble de fonctionnalités de la Facturation électronique.
 
-| Fonction de facturation électronique | Règles d'applicabilité        |
+| Fonction de facturation électronique | Règles d’applicabilité        |
 |------------------------------|--------------------------- |
 | A                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
 | o                            | <p>Pays = MX</p><p>et</p><p>Entité juridique = MXMF</p>  |
 
-Si un document commercial de Finance ou Supply Chain Management est envoyé à l'ensemble de fonctionnalités de Facturation électronique, le document commercial contient les attributs suivants renseignés comme suit :
+Si un document commercial de Finance ou Supply Chain Management est envoyé à l’ensemble de fonctionnalités de Facturation électronique, le document commercial contient les attributs suivants renseignés comme suit :
 
 - Pays = BR
 - Entité juridique = BRMF
 
-L'ensemble de fonctionnalités de Facturation électronique sélectionnera la fonction de facturation électronique **A** pour traiter l'envoi et générer la facture électronique.
+L’ensemble de fonctionnalités de Facturation électronique sélectionnera la fonction de facturation électronique **A** pour traiter l’envoi et générer la facture électronique.
 
 De la même manière, si le document commercial contient :
 
@@ -245,11 +251,11 @@ De la même manière, si le document commercial contient :
 
 La fonction de facturation électronique **B** est sélectionné pour générer la facture électronique.
 
-La configuration des règles d'applicabilité ne peut pas être ambiguë. Cela signifie que deux ou plusieurs fonctionnalités de facturation électronique ne peuvent pas avoir les mêmes clauses, sinon cela n'entraînera aucune sélection. En cas de doublons de fonctionnalités de facturation électronique, pour éviter toute ambiguïté, utilisez des clauses supplémentaires pour permettre à l'ensemble de fonctionnalités de Facturation électronique de faire la distinction entre les deux fonctionnalités de facturation électronique.
+La configuration des règles d’applicabilité ne peut pas être ambiguë. Cela signifie que deux ou plusieurs fonctionnalités de facturation électronique ne peuvent pas avoir les mêmes clauses, sinon cela n’entraînera aucune sélection. En cas de doublons de fonctionnalités de facturation électronique, pour éviter toute ambiguïté, utilisez des clauses supplémentaires pour permettre à l’ensemble de fonctionnalités de Facturation électronique de faire la distinction entre les deux fonctionnalités de facturation électronique.
 
 Par exemple, prenons la fonction de facturation électronique **C**. Cette fonction est une copie de la fonction de facturation électronique **A**.
 
-| Fonction de facturation électronique | Règles d'applicabilité        |
+| Fonction de facturation électronique | Règles d’applicabilité        |
 |------------------------------|--------------------------- |
 | A                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
 | C                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
@@ -259,11 +265,11 @@ Dans cet exemple, la fonction **C** se trouve devant un envoi de document commer
 - Pays = BR
 - Entité juridique = BRMF
 
-La fonctionnalité de Facturation électronique ne peut pas distinguer quelle fonction de facturation électronique doit être utilisée pour traiter l'envoi, car les envois contiennent exactement les mêmes clauses.
+La fonctionnalité de Facturation électronique ne peut pas distinguer quelle fonction de facturation électronique doit être utilisée pour traiter l’envoi, car les envois contiennent exactement les mêmes clauses.
 
-Pour créer une distinction entre les deux fonctions via les règles d'applicabilité, une nouvelle clause doit être ajoutée à l'une des fonctions pour permettre à l'ensemble de fonctionnalités de Facturation électronique de sélectionner la fonction de facturation électronique appropriée.
+Pour créer une distinction entre les deux fonctions via les règles d’applicabilité, une nouvelle clause doit être ajoutée à l’une des fonctions pour permettre à l’ensemble de fonctionnalités de Facturation électronique de sélectionner la fonction de facturation électronique appropriée.
 
-| Fonction de facturation électronique | Règles d'applicabilité        |
+| Fonction de facturation électronique | Règles d’applicabilité        |
 |------------------------------|--------------------------- |
 | A                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
 | C                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p><p>et</p><p>Modèle = 55</p>  |
@@ -271,10 +277,10 @@ Pour créer une distinction entre les deux fonctions via les règles d'applicabi
 Pour prendre en charge la création de clauses plus complexes, les ressources suivantes sont disponibles :
 
 Opérateurs logiques :
-- And
+- Et
 - Ou
 
-Types d'opérateurs :
+Types d’opérateurs :
 - Equal
 - Not equal
 - Greater than
@@ -292,9 +298,9 @@ Types de données :
 - UUID
 
 Capacité de regrouper et de dissocier des clauses.
-L'exemple ressemble à ceci :
+L’exemple ressemble à ceci :
 
-| Fonction de facturation électronique | Règles d'applicabilité        |
+| Fonction de facturation électronique | Règles d’applicabilité        |
 |------------------------------|--------------------------- |
 | C                            | <p>Pays = BR</p><p>et</p><p>(Entité juridique = BRMF</p><p>ou</p><p>Modèle = 55)</p>  |
 

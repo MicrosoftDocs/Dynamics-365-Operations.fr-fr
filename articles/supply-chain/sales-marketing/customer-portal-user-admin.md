@@ -88,9 +88,9 @@ Le tableau suivant montre quelles commandes client les utilisateurs de chaque r�
 
 | Commandes client | Administrator | Représentant client pour le client&nbsp;X | Utilisateur autorisé : Jane | Utilisateur autorisé : Sam | Utilisateur non autorisé : May |
 |---|---|---|---|---|---|
-| Client&nbsp;X Auteur de la commande :&nbsp;Jane | Oui | Oui | Oui | N° | N° |
-| Client&nbsp;X Auteur de la commande :&nbsp;Sam | Oui | Oui | N° | Oui | N° |
-| Client&nbsp;Y Auteur de la commande :&nbsp;May | Oui | N° | N° | N° | N° |
+| Client&nbsp;X Auteur de la commande :&nbsp;Jane | Oui | Oui | Oui | Non | Non |
+| Client&nbsp;X Auteur de la commande :&nbsp;Sam | Oui | Oui | Non | Oui | Non |
+| Client&nbsp;Y Auteur de la commande :&nbsp;May | Oui | Non | Non | Non | Non |
 
 > [!NOTE]
 > Même si Sam et Jane sont des contacts qui travaillent pour le client X, ils ne peuvent voir que les commandes qu’ils ont eux-mêmes passées et rien d’autre. Bien que May ait une commande dans le système, elle ne peut pas voir cette commande dans le portail client, car elle est un utilisateur non autorisé. (De plus, elle doit avoir passé la commande par un autre canal que le portail client.)

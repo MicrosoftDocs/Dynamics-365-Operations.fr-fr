@@ -170,7 +170,7 @@ Dans la page **Paramètres de calcul**, sélectionnez **Heures supplémentaires*
 
 | Spécification d'enr. | Type de spécification de profils | Calcul   | Paramètre | Payée         | Paramètre |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Temps de travail       | Heures supplémentaires                   | Durée standard | Oui | Période de rémunération     | N°  |
+| Temps de travail       | Heures supplémentaires                   | Durée standard | Oui | Période de rémunération     | Non  |
 |                    |                            | Période de rémunération      | Oui | Heures supplémentaires rémunérées | Oui |
 
 Après avoir ajusté les paramètres de calcul, les articles de salaire ci-après sont générés.

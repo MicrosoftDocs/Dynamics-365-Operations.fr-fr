@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579638"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778031"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
@@ -67,7 +67,7 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 
 **Remarques :**
 
--   Si vous activez **Sélection du modèle de prévision sur les détails de prévision de la demande** à partir de Gestion des fonctionnalités, vous pourrez sélectionner les modèles de prévision à inclure, pour la prévision historique, sur la page **Détails des prévisions de la demande**.
+-   Si vous activez **Sélection du modèle de prévision sur les détails de prévision de la demande** à partir de Gestion des fonctionnalités, vous pourrez sélectionner les modèles de prévision à inclure, pour la prévision historique, sur la page **Détails des prévisions de la demande**. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
 -   L’intervalle de confiance qui apparaît dans la section **Prévision** de la page représente la différence entre la limite supérieure de l’intervalle de confiance et la limite inférieure de l’intervalle de confiance. Pour afficher des valeurs pour les limites supérieures et inférieures, pointez sur le graphique dans la section **Prévisions et demandes historiques représentées graphiquement**.
 -   Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu’il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l’intervalle de confiance.
 

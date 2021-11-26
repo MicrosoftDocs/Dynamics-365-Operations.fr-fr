@@ -1,8 +1,8 @@
 ---
 title: Créer des départements et les inclure dans la hiérarchie des départements
-description: Un département est une unité opérationnelle qui représente une catégorie ou un domaine fonctionnel d’une organisation. Un département est responsable d’un domaine spécifique de l’organisation, par exemple les ventes, la comptabilité ou les ressources humaines. Les départements vous permettent de générer des états sur les domaines fonctionnels. Les départements peuvent avoir la responsabilité des résultats.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Un département est une unité opérationnelle qui représente une catégorie ou un domaine fonctionnel d’une organisation. Un département est responsable d’un domaine spécifique de l’organisation, par exemple les ventes, la comptabilité ou les ressources humaines.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727015"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731610"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Créer des départements et les inclure dans la hiérarchie des départements
 
@@ -32,15 +32,15 @@ Un département peut inclure un groupe de centres de coût. Des postes peuvent �
 
 | Champ               | Description                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nom                | Entrez un nom pour le département.                                                                                                                                                                                  |
-| Numéro du département   | Il se peut qu’une valeur par défaut soit générée automatiquement si un code souche de numéros est affecté à la référence **Numéro d’organisation** sur la page **Souches de numéros**.                                                 |
-| Nom de recherche         | Entrez un nom ou un acronyme pouvant être utilisé pour rechercher le département.                                                                                                                                            |
-| Mémo                | Entrez les éventuelles informations supplémentaires ici.                                                                                                                                                                            |
-| Dans la hiérarchie        | Une case cochée indique que le département est inclus dans la hiérarchie des départements. Pour plus d’informations sur l’ajout d’un département à la hiérarchie des départements, voir les informations fournies dans cet article. |
-| Numéro DUNS         | DUNS est l’acronyme de Data Universal Number System (Système de codage numérique universel des données). Il s’agit d’un numéro de neuf chiffres émis par Dun & Bradstreet.                                                                                                     |
-| Responsable             | Spécifiez le contact qui gère le département.                                                                                                                                                                    |
-| Adresses           | Ajoutez les informations d’adresse du département. Par exemple, ajoutez l’adresse postale du bâtiment dans lequel le département est situé.                                                                          |
-| Informations de contact | Ajoutez les informations de contact du département. Par exemple, ajoutez le numéro de téléphone de la réception du département.                                                                                           |
+| **Nom**                | Entrez un nom pour le département.                                                                                                                                                                                  |
+| **Numéro du département**   | Il se peut qu’une valeur par défaut soit générée automatiquement si un code souche de numéros est affecté à la référence **Numéro d’organisation** sur la page **Souches de numéros**.                                                 |
+| **Nom de recherche**         | Entrez un nom ou un acronyme pouvant être utilisé pour rechercher le département.                                                                                                                                            |
+| **Mémo**                | Entrez les éventuelles informations supplémentaires ici.                                                                                                                                                                            |
+| **Dans la hiérarchie**        | Une case cochée indique que le département est inclus dans la hiérarchie des départements. Pour plus d’informations sur l’ajout d’un département à la hiérarchie des départements, voir les informations fournies dans cet article. |
+| **Numéro DUNS**         | DUNS est l’acronyme de Data Universal Number System (Système de codage numérique universel des données). Il s’agit d’un numéro de neuf chiffres émis par Dun & Bradstreet.                                                                                                     |
+| **Responsable**             | Spécifiez le contact qui gère le département.                                                                                                                                                                    |
+| **Adresses**           | Ajoutez les informations d’adresse du département. Par exemple, ajoutez l’adresse postale du bâtiment dans lequel le département est situé.                                                                          |
+| **Informations de contact** | Ajoutez les informations de contact du département. Par exemple, ajoutez le numéro de téléphone de la réception du département.                                                                                           |
 
 Pour ajouter un département à la hiérarchie des départements, procédez comme suit.
 

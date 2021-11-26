@@ -1,8 +1,8 @@
 ---
 title: Définir les nouvelles tâches
 description: Cette tâche se concentre sur la création d’une nouvelle tâche.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770454"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771364"
 ---
 # <a name="define-new-jobs"></a>Définir les nouvelles tâches
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770454"
 
 Cette tâche se concentre sur la création d’une nouvelle tâche. Elle est effectuée à l’aide de la saisie manuelle et de la copie à partir de la fonctionnalité de modèle. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée au spécialiste en ressources humaines.
 
-1. Accédez à Ressources humaines > Tâches > Tâches.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Tâches.
-4. Dans le champ Description, entrez une valeur.
-5. Sélectionnez un titre standard qui sera utilisé pour la tâche. 
-    * Le titre entré sera utilisé comme valeur par défaut pour les nouveaux postes affectés à la tâche.  
+1. Accédez à **Ressources humaines \> Tâches \> Tâches**.
+2. Cliquez sur **Nouveau**.
+3. Dans le champ **Tâche**, entrez une valeur.
+4. Dans le champ **Description**, entrez une valeur.
+5. Sélectionnez un titre standard qui sera utilisé pour la tâche.
+
+    Ce titre sera utilisé comme valeur par défaut pour les nouveaux postes affectés à la tâche.
+
 6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Sélectionnez « Nombre maximal de postes » dans le groupe Nombre maximal de postes.
+7. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+8. Sélectionnez **Nombre maximal de postes** dans le groupe **Nombre maximal de postes**.
 9. Entrez le nombre maximal de postes. 
-    * Il n’est pas possible d’affecter plus de postes que la valeur maximale entrée ici.  
-10. Activez ou désactivez l’extension de la section Description.
-11. Dans le champ Note, entrez une description standard pour la tâche.
-    * La description s’applique à tous les postes attribués à la tâche définie ici.  
-12. Activez ou désactivez l’extension de la section Classification de mission.
-13. Sélectionnez une fonction de tâche à utiliser dans des états standard dans les ressources humaines.
-14. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-16. Sélectionnez un type de tâche pour classer des tâches au sein de votre organisation. 
-    * Les types de tâches peuvent être utilisés dans les déclarations dans le module Ressources humaines.  
-17. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-18. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-19. Activez ou désactivez l’extension de la section Rémunération.
-20. Sélectionnez un niveau de rémunération.
-    * Le niveau de rémunération définira la rémunération minimale et maximale qu’un employé peut obtenir pour la tâche. Les règles de rémunération détermineront si la rémunération de l’employé peut être en dehors de la plage.  
-21. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-23. Activez ou désactivez l’extension de la section Qualifications.
-    * Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides. Une fois les informations d’un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.   
-24. Cliquez sur Enregistrer.
-25. Cliquez sur Copier depuis.
-26. Cliquez sur Copier à partir d’un modèle.
-27. Dans le champ Modèle de poste, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-28. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-29. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-30. Cliquez sur l’option Note.
-    * Seuls les éléments sélectionnés sont copiés dans la tâche sélectionnée.    
-31. Cliquez sur OK.
-32. Activez ou désactivez l’extension de la section Certificats.
-33. Activez ou désactivez l’extension de la section Formation.
-34. Cliquez sur Enregistrer.
 
+    Les attributions de postes dépassant ce nombre ne seront pas autorisées.
 
+10. Dans la section **Description**, dans le champ **Note**, entrez **Entrer une description standard de la tâche**.
+
+    Cette description s’applique à tous les postes attribués à la tâche que vous définissez.
+
+11. Dans la section **Classification des tâches**, sélectionnez une fonction de tâche à utiliser dans des états standard dans les ressources humaines.
+12. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+13. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+14. Dans le champ **Type de tâche**, sélectionnez un type de tâche pour classer des tâches dans votre organisation.
+
+    Les types de tâches peuvent être utilisés dans les déclarations dans le module Ressources humaines.
+
+15. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+16. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+17. Dans la section **Rémunération**, sélectionnez un niveau de rémunération.
+
+    Le niveau de rémunération définit la rémunération minimale et maximale qu’un employé peut obtenir pour la tâche. Les règles de rémunération détermineront si la rémunération de l’employé peut être en dehors de la plage.
+
+18. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+19. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+20. Dans la section **Compétences**, notez que les champs des raccourcis **Qualifications**, **Certificats** et **Formation** sont vides. Une fois les informations d’un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.
+21. Cliquez sur **Enregistrer**.
+22. Sélectionnez **Copier depuis**.
+23. Sélectionnez **Copier à partir d’un modèle**.
+24. Dans le champ **Modèle de tâche**, cliquez sur la flèche de liste déroulante pour ouvrir la recherche.
+25. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+26. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+27. Sélectionnez l’option **Note**.
+
+    Seuls les éléments que vous sélectionnez sont copiés dans la tâche sélectionnée.
+
+28. Cliquez sur **OK**.
+29. Développez la section **Certificats**.
+30. Développez la section **Formation**.
+31. Cliquez sur **Enregistrer**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

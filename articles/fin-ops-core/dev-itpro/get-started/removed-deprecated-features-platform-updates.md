@@ -178,7 +178,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Les artefacts de métadonnées associés à Dynamics AX 2012 Enterprise Portal (EP) ne sont plus utilisés, car EP n’a jamais été pris en charge dans les applications Finance and Operations. |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : tout le code EP devrait être supprimé dans la version d’octobre 2021. |
@@ -335,7 +335,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Les URL de navigation intégrées dans des documents rendus par le service peuvent contenir des données de l’entreprise sensibles. Nous supprimons le support des liens de suivi intégrés dans les documents par mesure de prudence pour protéger davantage les données des clients. Les utilisateurs bénéficieront de performances améliorées tout en produisant des documents interactivement suite à ce changement.  |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Génération d’états |
 | **Option de déploiement**              | Tout |
 | **État**                         | Cette fonctionnalité est supprimée activement du service.<br><br>Le client moderne offre de nombreuses options pour produire des vues qui comprennent des liens générés automatiquement pour contribuer à la navigation dans l’application. Les documents paginés rendus par le service sont recommandés pour les communications externes qui sont envoyées par courrier électronique, archivées et imprimées pour les destinataires. Nous avons amélioré l’expérience de prévisualisation des documents directement dans le navigateur, ce qui offre un accès direct aux imprimantes locales. Pour plus d’informations, voir [Afficher un aperçu des documents PDF avec une visionneuse intégrée](../analytics/preview-pdf-documents.md). |

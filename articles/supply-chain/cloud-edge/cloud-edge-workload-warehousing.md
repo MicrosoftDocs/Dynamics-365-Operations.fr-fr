@@ -187,34 +187,34 @@ Le tableau suivant indique quelles fonctionnalités sortantes sont prises en cha
 
 | Processus                                                      | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle |
 |--------------------------------------------------------------|-----|------------------------------|
-| Traitement du document source                                   | Oui | N° |
-| Traitement de la gestion du transport et du chargement                | Oui, mais uniquement les processus de planification des chargements. Le traitement de la gestion des transports n'est pas pris en charge  | N° |
-| Lancement vers l'entrepôt                                         | Oui | N° |
-| Cross-docking planifié                                        | N°  | N° |
+| Traitement du document source                                   | Oui | Non |
+| Traitement de la gestion du transport et du chargement                | Oui, mais uniquement les processus de planification des chargements. Le traitement de la gestion des transports n'est pas pris en charge  | Non |
+| Lancement vers l'entrepôt                                         | Oui | Non |
+| Cross-docking planifié                                        | Non  | Non |
 | Regroupement d'expéditions                                       | Oui, lors de l’utilisation de la planification des chargements | Oui |
-| Traitement de vague d’expédition                                     | N°  |Oui, sauf **Création et tri de chargement** |
-| Gérer les expéditions pour la vague                                  | N°  | Oui|
-| Traitement du travail en entrepôt (y compris impression de contenant)        | N°  | Oui, mais uniquement pour les fonctionnalités prises en charge mentionnées précédemment |
-| Prélèvement de groupement                                              | N°  | Oui|
-| Traitement d’emballage manuel, y compris le traitement des travaux de type « Prélèvement du conteneur compressé » | N° <P>Un certain traitement peut être effectué après un processus de prélèvement initial géré par une unité d’échelle, mais n’est pas recommandé en raison des opérations bloquées suivantes.</p>  | N° |
-| Supprimer un conteneur du groupe                                  | N°  | N° |
-| Traitement du tri sortant                                  | N°  | N° |
+| Traitement de vague d’expédition                                     | Non  |Oui, sauf **Création et tri de chargement** |
+| Gérer les expéditions pour la vague                                  | Non  | Oui|
+| Traitement du travail en entrepôt (y compris impression de contenant)        | Non  | Oui, mais uniquement pour les fonctionnalités prises en charge mentionnées précédemment |
+| Prélèvement de groupement                                              | Non  | Oui|
+| Traitement d’emballage manuel, y compris le traitement des travaux de type « Prélèvement du conteneur compressé » | Non <P>Un certain traitement peut être effectué après un processus de prélèvement initial géré par une unité d’échelle, mais n’est pas recommandé en raison des opérations bloquées suivantes.</p>  | Non |
+| Supprimer un conteneur du groupe                                  | Non  | Non |
+| Traitement du tri sortant                                  | Non  | Non |
 | Impression de documents relatifs à la charge                           | Oui | Oui|
-| Connaissement et génération d’APE                            | N°  | Oui|
-| Confirmation d’envoi                                             | N°  | Oui|
-| Confirmation d’expédition avec « Confirmer et transférer »            | N°  | N° |
-| Traitement des bons de livraison et des factures                        | Oui | N° |
-| Prélèvement partiel (commandes client et ordres de transfert)                    | N°  | Oui, sans supprimer les réservations pour les documents source|
-| Prélèvement excessif (commandes client et ordres de transfert)                     | N°  | Oui|
-| Changement de lieu de travail (commandes clients et ordres de transfert)         | N°  | Oui|
-| Travaux complets (commandes client et ordres de transfert)                    | N°  | Oui|
+| Connaissement et génération d’APE                            | Non  | Oui|
+| Confirmation d’envoi                                             | Non  | Oui|
+| Confirmation d’expédition avec « Confirmer et transférer »            | Non  | Non |
+| Traitement des bons de livraison et des factures                        | Oui | Non |
+| Prélèvement partiel (commandes client et ordres de transfert)                    | Non  | Oui, sans supprimer les réservations pour les documents source|
+| Prélèvement excessif (commandes client et ordres de transfert)                     | Non  | Oui|
+| Changement de lieu de travail (commandes clients et ordres de transfert)         | Non  | Oui|
+| Travaux complets (commandes client et ordres de transfert)                    | Non  | Oui|
 | Imprimer l’état de travail                                            | Oui | Oui|
-| Étiquette de vague                                                   | N°  | Oui|
-| Fractionnement du travail                                                   | N°  | Oui|
-| Traitement du travail - Dirigé par « Chargement de transport »            | N°  | N° |
-| Réduire la quantité prélevée                                       | N°  | N° |
-| Contrepasser le travail                                                 | N°  | N° |
-| Inverse la confirmation d’expédition                                | N°  | Oui|
+| Étiquette de vague                                                   | Non  | Oui|
+| Fractionnement du travail                                                   | Non  | Oui|
+| Traitement du travail - Dirigé par « Chargement de transport »            | Non  | Non |
+| Réduire la quantité prélevée                                       | Non  | Non |
+| Contrepasser le travail                                                 | Non  | Non |
+| Inverse la confirmation d’expédition                                | Non  | Oui|
 
 ### <a name="inbound"></a>Entrant(e)
 
@@ -222,22 +222,22 @@ Le tableau suivant indique quelles fonctionnalités entrantes sont prises en cha
 
 | Processus                                                          | Hub | Charge de travail de l’exécution d’entrepôt sur une unité d’échelle<BR>*(Les articles accompagnés de la mention « Oui » s’appliquent uniquement aux commandes d’entrepôt)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Traitement&nbsp;document&nbsp;source                             | Oui | N° |
-| Traitement de la gestion du transport et du chargement                    | Oui | N° |
-| Marchandises au débarquement et en transit                       | Oui | N° |
-| Confirmation d’envoi entrant                                    | Oui | N° |
-| Lancement de la commande fournisseur vers l’entrepôt (traitement des commandes entrepôt) | Oui | N° |
-| Annulation des lignes de commande d’entrepôt<p>Notez que cela n’est pris en charge que lorsqu’aucun enregistrement n’a eu lieu sur la ligne</p> | Oui | N° |
+| Traitement&nbsp;document&nbsp;source                             | Oui | Non |
+| Traitement de la gestion du transport et du chargement                    | Oui | Non |
+| Marchandises au débarquement et en transit                       | Oui | Non |
+| Confirmation d’envoi entrant                                    | Oui | Non |
+| Lancement de la commande fournisseur vers l’entrepôt (traitement des commandes entrepôt) | Oui | Non |
+| Annulation des lignes de commande d’entrepôt<p>Notez que cela n’est pris en charge que lorsqu’aucun enregistrement n’a eu lieu sur la ligne</p> | Oui | Non |
 | Réception et rangement de l’article de commande fournisseur                       | <p>Oui,&nbsp;quand&nbsp;il&nbsp;n’y a pas de commande d’entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, lorsqu’un bon de commande ne fait pas partie d’une <i>charge</i></p> |
 | Réception et rangement de la ligne de commande fournisseur                       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, lorsqu’un bon de commande ne fait pas partie d’une <i>charge</i></p></p> |
-| Réception et rangement d’ordre de retour                              | Oui | N° |
+| Réception et rangement d’ordre de retour                              | Oui | Non |
 | Réception et rangement de contenant mixte                       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui |
-| Réception des articles du chargement                                              | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
-| Réception et rangement de contenant                             | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
-| Réception et rangement des articles de l’ordre de transfert                       | Oui | N° |
-| Réception et rangement de la ligne d’ordre de transfert                       | Oui | N° |
+| Réception des articles du chargement                                              | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
+| Réception et rangement de contenant                             | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
+| Réception et rangement des articles de l’ordre de transfert                       | Oui | Non |
+| Réception et rangement de la ligne d’ordre de transfert                       | Oui | Non |
 | Annuler le travail (entrant)                                            | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, mais uniquement lorsque l’option <b>Annuler l’enregistrement du reçu lors de l’annulation du travail</b> (sur la page <b>Paramètres de gestion de l’entrepôt</b>) est désactivée</p> |
-| Traitement de l’accusé de réception de marchandises d’une commande fournisseur                        | Oui | N° |
+| Traitement de l’accusé de réception de marchandises d’une commande fournisseur                        | Oui | Non |
 | Réception de bon de commande avec sous-livraison                      | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui, mais uniquement en effectuant une demande d’annulation depuis le hub |
 | Réception de bon de commande avec livraison excédentaire                       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui  |
 | Réception avec création de travaux de *Cross docking*                 | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
@@ -246,7 +246,7 @@ Le tableau suivant indique quelles fonctionnalités entrantes sont prises en cha
 | Réception avec création de travaux de type *Qualité dans le contrôle qualité*       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
 | Réception avec création d’ordre de qualité                            | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
 | Traitement du travail - Dirigé par *Rangement de groupement*                 | Oui | Non |
-| Traitement du travail avec *Prélèvement partiel*                               | Oui | N° |
+| Traitement du travail avec *Prélèvement partiel*                               | Oui | Non |
 | Chargement de contenant                                           | Oui | Oui |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Opérations d’entrepôt et traitement des exceptions
@@ -262,9 +262,9 @@ Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepô
 | Mouvement                                           | Oui | Oui                          |
 | Mouvement par modèle                               | Oui | Oui                          |
 | Transfert d’entrepôt                                 | Oui | Non                           |
-| Créer un ordre de transfert depuis l’application d’entreposage           | Oui | N°                           |
+| Créer un ordre de transfert depuis l’application d’entreposage           | Oui | Non                           |
 | Ajustement (entrée/sortie)                                | Oui | Oui, mais pas pour le scénario d’ajustement si la réservation de stock doit être supprimée à l’aide du paramètre **Supprimer les réservations** sur les types d’ajustement de stock</p>                           |
-| Modification du statut du stock                            | Oui | N°                           |
+| Modification du statut du stock                            | Oui | Non                           |
 | Comptage cyclique et traitement des écarts de comptage | Oui | Oui                           |
 | Réimpression d’étiquette (impression de contenant)             | Oui | Oui                          |
 | Création de contenant                                | Oui | Non                           |
@@ -290,8 +290,8 @@ Le tableau suivant résume les scénarios de production de gestion des entrepôt
 |---------|-----|------------------------------|
 | Rangement des produits finis et déclarés terminés | Oui | Oui |
 | Rangement des coproduits et des sous-produits | Oui | Oui |
-| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Lancement vers l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | N° |
-| Réapprovisionnement en matières premières | N° | N° |
+| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Lancement vers l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | Non |
+| Réapprovisionnement en matières premières | Non | Non |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Tenue à jour des unités d’échelle pour l’exécution d’entrepôt
 
