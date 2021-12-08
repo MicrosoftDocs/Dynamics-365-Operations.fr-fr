@@ -74,13 +74,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Conseils de mise en œuvre de Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: Applications Finance and Operations exploitées par 21Vianet en Chine
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Applications Finance and Operations en France
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Obtenir de l’aide
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
-            - name: Mise à niveau et assistance N-1
+            - name: Mise à niveau et prise en charge N-1
               items:
                 - name: Mise à niveau et prise en charge N-1 pour Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
@@ -1274,6 +1270,8 @@
               href: set-up-rfm-analysis.md
             - name: "Configurer Microsoft Clarity dans Dynamics 365\_Commerce"
               href: set-up-clarity.md
+            - name: Analyse de Commerce (version préliminaire)
+              href: commerce-analytics.md
         - name: Globalisation
           items:
             - name: Vue d’ensemble de l’intégration fiscale pour le canal Commerce
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Gestion des informations clients pour la Russie
                   href: localizations/rus-customer-information.md
+            - name: Arabie Saoudite
+              items:
+                - name: Générer des codes QR et les imprimer sur les reçus pour l’Arabie Saoudite
+                  href: localizations/emea-sau-qr-code.md
             - name: Suède
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Meilleures pratiques relatives au débogage pour le développement de Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: Tester les pages de sites de commerce électronique pour détecter les fuites de mémoire
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Kit de développement logiciel (SDK) Retail
               items:
                 - name: Migrer vers le kit de développement logiciel (SDK) Commerce

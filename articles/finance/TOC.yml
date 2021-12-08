@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer l’entreposage pour les déploiements locaux
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Applications Finance and Operations exploitées par 21Vianet en Chine
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Applications Finance and Operations en France
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nouveautés ou modifications
               items:
                 - name: Nouveautés ou modifications dans les applications Finance and Operations
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Balance âgée des clients
               href: accounts-receivable/customer-aging.md
+            - name: Stockage des données âgées du client
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Créer un journal d’annulation pour un client
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gestion des notes avancées
@@ -1476,7 +1474,11 @@
                           items:
                             - name: Déclaration de TVA
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
-                        - name: Génération d’états pour les Pays-Bas
+                        - name: Rapports pour l’Allemagne
+                          items:
+                            - name: Déclaration de TVA
+                              href: /localizations/emea-deu-vat-declaration-germany.md
+                        - name: Rapports pour les Pays-Bas
                           items:
                             - name: Déclaration de TVA
                               href: localizations/emea-nl-vat-declaration-netherlands.md
@@ -2158,13 +2160,15 @@
                       href: localizations/tasks/customize-german-audit-file-configuration.md
                     - name: Ajouter des filtres à la configuration d’un fichier d’audit
                       href: localizations/emea-deu-gdpdu-data-filtering.md
-                - name: Ajustements d’amortissement pour les acquisitions supplémentaires au cours de la deuxième année
+                - name: Ajustements de l’amortissement pour les acquisitions supplémentaires au cours de la deuxième année
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: Déclaration de TVA
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Transmission électronique de la déclaration de TVA (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Déclaration d’échanges de biens (Allemagne)
                   href: localizations/emea-deu-intrastat.md
-                - name: Déclaration de TVA pour l’Allemagne
+                - name: Déclaration de TVA
                   href: localizations/emea-de-vat-declaration.md
                 - name: Rapport Factures électroniques client
                   href: localizations/emea-deu-e-invoices.md
