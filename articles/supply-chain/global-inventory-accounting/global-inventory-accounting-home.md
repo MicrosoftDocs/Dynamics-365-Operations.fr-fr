@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678493"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860481"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Page d’accueil de la comptabilité globale des stocks
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Les organisations internationales subissent une pression croissante de la part des autorités pour se conformer aux normes comptables locales et mondiales. L’évaluation des stocks joue un rôle important dans cette conformité. Le complément Comptabilité globale des stocks pour Microsoft Dynamics 365 Supply Chain Management fournit une solution complète qui permet aux organisations (en particulier aux organisations internationales) d’utiliser plusieurs registres d’évaluation des coûts pour assurer la comptabilité des stocks. Par conséquent, ces organisations peuvent respecter plusieurs normes comptables et une comptabilité de gestion interne en même temps.
 

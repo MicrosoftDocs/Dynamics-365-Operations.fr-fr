@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569671"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825373"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit
 
@@ -39,7 +39,7 @@ Dans Dynamics 365 Supply Chain Management, l’identificateur principal d’un p
 
 Dans de nombreux cas, le numéro de produit n’est pas créé initialement dans Dynamics 365 Supply Chain Management. Au lieu de cela, il est associé à un produit dans un système de gestion des cycles de vie des produits ou un système de gestion d’informations sur les produits. Dans ce cas, vous utilisez des entités de données pour importer les produits et les variantes de produit. Supply Chain Management utilise ensuite les numéros de toutes les opérations.
 
-Lorsque vous implémentez Supply Chain Management, vous devez accorder un soin particulier à votre stratégie relative aux numéros de produit. Un bon système de numérotation améliore les flux de logistique et permet d’éviter les erreurs. Un bon identificateur de produit comporte au maximum 15 caractères. Idéalement, il comporte moins de 10 caractères et n’inclut pas plus de cinq caractères de classification. Vous pouvez également utiliser des noms de recherche pour activer les recherches rapides. Un nom de recherche est un nom supplémentaire qui représente les classifications d’un produit.
+Lorsque vous implémentez Supply Chain Management, vous devez accorder un soin particulier à votre stratégie relative aux numéros de produit. Un bon système de numérotation améliore les flux de logistique et permet d’éviter les erreurs. Un bon identifiant de produit doit généralement comporter 20 caractères ou moins, mais nous recommandons généralement d’utiliser moins de 10 caractères et de ne pas inclure plus de 5 caractères de classification. Vous pouvez également utiliser des noms de recherche pour activer les recherches rapides. Un nom de recherche est un nom supplémentaire qui représente les classifications d’un produit.
 
 Lorsque vous utilisez Microsoft Dataverse, le numéro de produit dans Supply Chain Management est également le numéro de produit dans Microsoft Dataverse. Les variantes de produit sont synchronisées avec Dataverse en tant que produits distincts.
 
@@ -47,7 +47,7 @@ Lorsque vous utilisez Microsoft Dataverse, le numéro de produit dans Supply Cha
 
 Le numéro d’article est l’identificateur de produit utilisé par une entité juridique spécifique. Idéalement, le numéro d’article doit être identique au numéro de produit. Si la nomenclature diffère selon l’entité juridique, il devient difficile de suivre un produit tout au long de la chaîne d’approvisionnement, et des processus fastidieux de réétiquetage et référencement doivent être mis en place. Pour des raisons de compatibilité avec des versions précédentes (c’est-à-dire, avec Microsoft Dynamics AX 2009 et versions antérieures), nous avons retenu ce modèle. Toutefois, il est recommandé d’éliminer les identificateurs spécifiques aux entités juridiques chaque fois que possible, et d’utiliser le numéro de produit unique comme identificateur principal à la place.
 
-En outre, une variante de produit ne peut pas être identifié de façon unique par un numéro d’article. Elle nécessite toujours la combinaison d’un numéro d’article et de toutes les dimensions de produit qui sont définies sur le produit générique. Cette condition requise peut devenir encombrante et ralentir les processus d’identification. C’est pourquoi il est recommandé d’utiliser le numéro de produit unique à la place du numéro d’article chaque fois que possible.
+En outre, une variante de produit ne peut pas être identifiée de façon unique par un numéro d’article. Elle nécessite toujours la combinaison d’un numéro d’article et de toutes les dimensions de produit qui sont définies sur le produit générique. Cette condition requise peut devenir encombrante et ralentir les processus d’identification. C’est pourquoi il est recommandé d’utiliser le numéro de produit unique à la place du numéro d’article chaque fois que possible.
 
 De nombreuses pages comportent toujours le numéro d’article et les dimensions de produit comme identificateurs principaux. Toutefois, les numéros de produit peuvent être utilisés pour les recherches. Dans **Ventes et marketing** &gt; **Paramétrage** &gt; **Recherche** &gt; **Paramètres de recherche**, vous pouvez modifier la recherche afin qu’elle utilise des numéros de produit au lieu de numéros d’article comme principale stratégie de recherche. Si vous définissez l’option **Activer la recherche pour la recherche de produit** sur **Oui**, la recherche affiche non seulement les produits génériques, mais aussi les variantes de produit. Pour plus d’informations, consultez [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md).
 
@@ -79,7 +79,7 @@ Dans la page **Produits lancés**, suivez l’une des étapes suivantes.
 - Pour les clients, sous l’onglet **Vendre**, dans le groupe **Informations associées**, sélectionnez **Description d’article externe**.
 - Pour les fournisseurs, sous l’onglet **Acheter**, dans le groupe **Informations associées**, sélectionnez **Description d’article externe**.
 
-Sur la page **Descriptions d’article externes**, vous pouvez associer le numéro d’article client ou fournisseur à un produit lancé. Cette association doit être effectuée pour chaque entité juridique. Les informations suivantes peuvent être capturées. Malheureusement, les libellés sont légèrement erronées dans la version actuelle de Supply Chain Management. Toutefois, ces libellés peuvent être modifiés dans la prochaine version.
+Sur la page **Descriptions d’article externes**, vous pouvez associer le numéro d’article client ou fournisseur à un produit lancé. Cette association doit être effectuée pour chaque entité juridique. Les informations suivantes peuvent être capturées. Malheureusement, les libellés sont légèrement erronés dans la version actuelle de Supply Chain Management. Toutefois, ces libellés peuvent être modifiés dans la prochaine version.
 
 | Champ | Informations client correspondantes | Informations fournisseur correspondantes |
 |-------|------------------------------------|----------------------------------|
@@ -134,7 +134,7 @@ Malheureusement, il n’existe aucune fonctionnalité standard qui vous permet d
 | Codes externes pour les variantes de produits lancés | Code externe | Code externe, classes de code externe, numéro d’article, dimensions de produit | Les codes externes sont par entité juridique. Pour l’importation, vous devez faire référence à une classe de code définie. Importez les classes de code à l’aide l’entité **Classes de code externe pour les produits lancés**. Cette entité fait référence à des variantes de produit par numéro d’article et dimensions de produit. |
 | Exporter les codes des variantes de produit lancé par identificateur du numéro de produit | Code externe | Code externe, classes de code externe, numéro de produit | Les codes externes sont par entité juridique. Pour l’importation, vous devez faire référence à une classe de code définie. Importez les classes de code à l’aide l’entité **Classes de code externe pour les produits lancés**. Cette entité fait référence à des variantes de produit par numéro de produit de la variante. (Dans la prochaine version majeure) |
 | GTIN | Non applicable | Non applicable | Actuellement, il n’existe aucune entité spécifique utilisée pour importer et exporter des codes GTIN. Nous vous recommandons d’utiliser l’entité **Codes-barres d’article** à la place. |
-| Entité d’identificateur du service de données communes d’entité de produit | Non applicable | Numéro d’article, nom de recherche d’article, nom de recherche de produit, numéro d’article fournisseur, le numéro d’article client, codes externes, codes GTIN, codes-barres | Cette entité consolide tous les identificateurs dans un seul modèle de données, de sorte qu’une seule interface puisse être utilisée pour exporter facilement tous les identificateurs et leurs types associés. Utilisez l’entité **Code d’identification d’entité de produit** pour exporter les codes et descriptions d’identificateur. Utlisez l’entité **Portée des identificateurs d’entité de produit** pour exporter des informations de portée supplémentaires vers un identificateur, telles que la partie, l’entité juridique, la quantité, ou l’unité. |
+| Entité d’identificateur du service de données communes d’entité de produit | Non applicable | Numéro d’article, nom de recherche d’article, nom de recherche de produit, numéro d’article fournisseur, le numéro d’article client, codes externes, codes GTIN, codes-barres | Cette entité consolide tous les identificateurs dans un seul modèle de données, de sorte qu’une seule interface puisse être utilisée pour exporter facilement tous les identificateurs et leurs types associés. Utilisez l’entité **Code d’identification d’entité de produit** pour exporter les codes et descriptions d’identificateur. Utilisez l’entité **Portée des identificateurs d’entité de produit** pour exporter des informations de portée supplémentaires vers un identificateur, telles que la partie, l’entité juridique, la quantité, ou l’unité. |
 
 ### <a name="product-and-item-number-sequences"></a>Souches de numéros de produit et d’article
 

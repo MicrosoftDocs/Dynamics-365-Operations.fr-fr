@@ -1,7 +1,7 @@
 ---
 title: Fonds dans le secteur public
-description: Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
-author: ShylaThompson
+description: Cette rubrique explique comment les entités du secteur public peuvent se servir des fonds pour attester de leur responsabilité financière. Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives.
+author: v-kiarnd
 ms.date: 08/07/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19571
 ms.assetid: c746c09f-dc9e-4381-ae92-e1af484064b6
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59ba39b06753333198665e91bde993d41ad58110f2d155a43af5e89bbdbc09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f61fe55134565db18a930fe8cde99b2083143d
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740854"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817703"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 
@@ -34,7 +34,7 @@ Un fonds est un ensemble de registres financiers en équilibre qui permet de con
 Pour en savoir plus sur les paramètres de comptabilité requis pour les fonds, voir [Comptabilité dans le secteur public](general-ledger-public-sector.md).
 
 ## <a name="what-fund-classes-and-fund-types-do-i-need-to-set-up"></a>Quels classes et types de fonds dois-je paramétrer ?
-Le Governmental Accounting Standards Board (GASB) recommande un ensemble de principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale.  GAAP identifie huit types de fonds catégorisés en trois classes de fonds :
+Le Governmental Accounting Standards Board (GASB) recommande un ensemble de principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale. GAAP identifie huit types de fonds catégorisés en trois classes de fonds :
 
 -   Fonds gouvernementaux
     -   Fonds général

@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble du module Comptabilité dans le secteur public
-description: Cette rubrique décrit la fonctionnalité Comptabilité disponible pour le secteur public.
-author: ShylaThompson
+description: Cette rubrique décrit la fonctionnalité Comptabilité disponible pour les organisations du secteur public.
+author: v-kiarnd
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,21 +15,21 @@ ms.custom:
 ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e756e377eb23559c747c08d7d0ed37f28f6fc248ae73d58625b068b28b71a44c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 228147db9421da87701eb507fbbeb45dcb4c61d1
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772703"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817705"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité Comptabilité disponible pour le secteur public.
+Cette rubrique décrit la fonctionnalité Comptabilité disponible pour les organisations du secteur public.
 
 ## <a name="how-do-general-ledger-parameters-need-to-be-set-for-public-sector-organizations"></a>Comment paramètres de comptabilité doivent-ils être définis pour les organisations du secteur public ?
 
@@ -51,7 +51,7 @@ Les numéros de fonds servent de valeurs de dimension dans les numéros de compt
 Vous pouvez utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié. Pour plus d’informations, voir [Écritures comptables avancées dans le secteur public](advanced-ledger-entries-public-sector.md) et [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
 ## <a name="why-should-i-use-posting-definitions"></a>Pourquoi utiliser les définitions de validation ?
-Vous pouvez utiliser les définitions de validation pour créer des lignes de journal de comptabilité auxiliaire pour les transactions d’origine qui répondent aux critères sélectionnés, par exemple, pour générer plusieurs écritures comptables équilibrées basées sur des attributs tels que des types de transactions et des comptes. Les définitions de validation permettent un contrôle précis des mises à jour comptables créées par les documents source, contrairement:aux mises à jour largement appliquées des profils de validation. Les définitions de validation de comptabilité sont exigées lorsque vous utilisez des écritures comptables avancées. Les définitions de validation sont utilisées dans le traitement de fin d’exercice des comptes généraux. Vous pouvez utiliser les définitions de validation pour clôturer les comptes pour les soldes de fonds ou les bénéfices non répartis, en fonction de la classe de fonds et du type de clôture de compte. Les définitions de validation sont requises pour clôturer les comptes généraux et transférer les soldes vers la période d’ouverture du nouvel exercice. Pour plus d’informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
+Vous pouvez utiliser les définitions de validation pour créer des lignes de journal de comptabilité auxiliaire pour les transactions d’origine qui répondent aux critères sélectionnés, par exemple, pour générer plusieurs écritures comptables équilibrées basées sur des attributs tels que des types de transactions et des comptes. Les définitions de validation permettent un contrôle précis des mises à jour comptables créées par les documents source, contrairement aux mises à jour largement appliquées des profils de validation. Les définitions de validation de comptabilité sont exigées lorsque vous utilisez des écritures comptables avancées. Les définitions de validation sont utilisées dans le traitement de fin d’exercice des comptes généraux. Vous pouvez utiliser les définitions de validation pour clôturer les comptes pour les soldes de fonds ou les bénéfices non répartis, en fonction de la classe de fonds et du type de clôture de compte. Les définitions de validation sont requises pour clôturer les comptes généraux et transférer les soldes vers la période d’ouverture du nouvel exercice. Pour plus d’informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
 ## <a name="how-do-i-collect-and-analyze-data-to-meet-the-common-governmentwide-accounting-classification-cgac-requirements"></a>Comment recueillir et analyser des données pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental ?
 Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir et d’analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. Pour plus d’informations, voir [Hiérarchies financières dérivées dans le secteur public](derived-financial-hierarchies-public-sector.md).

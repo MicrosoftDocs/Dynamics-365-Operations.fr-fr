@@ -2,19 +2,19 @@
 title: Description du service pour les applications Finance and Operations
 description: Cette rubrique fournit la description du service pour les applications Finance and Operations.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581814"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825398"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications Finance and Operations
 
@@ -50,7 +50,7 @@ Le modèle de fonctionnement des applications Finance and Operations définit de
 
 ### <a name="customer-activities"></a>Activités client
 
-Les clients collaborent avec leur partenaire et [Microsoft FastTrack](/dynamics365/fasttrack/) suivant le cadre [Success by Design](/dynamics365/fasttrack/success-by-design-overview) et à l’aide d’outils et de modèles de Bonnes pratiques fournis dans [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) pour mettre en œuvre leur solution. Les activités courantes comprennent :
+Les clients collaborent avec leur partenaire et [Microsoft FastTrack](/dynamics365/fasttrack/) et suivent le [Guide de mise en œuvre pour Dynamics 365](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), le guide [Success by Design](/dynamics365/fasttrack/success-by-design-overview), ainsi que les outils et les modèles de pratiques recommandées de [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) pour mettre en œuvre leur solution. Les activités courantes comprennent :
 
 - Gestion de l’identité et de la sécurité des utilisateurs
 - Définir, développer et exploiter les processus métier
@@ -371,7 +371,7 @@ Un outil dans LCS qui aide à effectuer une analyse d’ajustement pour une impl
 
 Un partenaire qui fait partie du programme Microsoft Cloud Solution Provider (CSP) et qui fournit aux clients des services cloud à valeur ajoutée, une assistance, une facture et une gestion des clients à grande échelle.
 
-### <a name="customer"></a>Client 
+### <a name="customer"></a>Client
 
 Une entité commerciale qui utilise les applications Finance and Operations et est représenté par un locataire dans Office 365.
 
@@ -381,7 +381,7 @@ Environnement sandbox hors production utilisé pour développer des extensions. 
 
 ### <a name="downtime"></a>Temps d'arrêt
 
-Toute période pendant laquelle les utilisateurs ne peuvent pas se connecter ou accéder à leur locataire actif en raison d’une défaillance de la plate-forme non expirée ou de l’infrastructure de service, comme le détermine Microsoft à partir de la surveillance automatisée de l’intégrité et des journaux système. Les temps dְ’arrêt n’incluent pas les temps d’arrêt programmés, l’indisponibilité des fonctionnalités complémentaires du service, l’impossibilité d’accéder au service en raison de vos modifications apportées au service ou les périodes où la capacité de l’unité d’échelle est dépassée.
+Toute période pendant laquelle les utilisateurs ne peuvent pas se connecter ou accéder à leur locataire actif en raison d’une défaillance de la plate-forme non expirée ou de l’infrastructure de service, comme le détermine Microsoft à partir de la surveillance automatisée de l’intégrité et des journaux système. Les temps d'arrêt n’incluent pas les temps d’arrêt programmés, l’indisponibilité des fonctionnalités complémentaires du service, l’impossibilité d’accéder au service en raison de vos modifications apportées au service ou les périodes où la capacité de l’unité d’échelle est dépassée.
 
 ### <a name="implementation-partner"></a>Partenaire d’implémentation
 

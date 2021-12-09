@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567221"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860611"
 ---
 # <a name="define-coverage-rules-for-items"></a>Définir des règles de couverture pour les articles
 
@@ -111,8 +111,9 @@ Créez des règles de couverture d'article en procédant comme suit :
 1. Sélectionnez l’onglet **Délai**.
 1. Activez la case à cocher dans l’en-tête **Achat**.
 1. Entrez « 5 » dans le champ **Délai d’achat**.
-1. Sélectionnez **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
 
-
+> [!NOTE]
+> Pour les articles fabriqués, le **délai de production standard** est utilisé en cas d’absence d’itinéraire pour l’article. Si un itinéraire actif a été associé à l’article, la planification générale planifiera la commande et calculera ses dates en fonction des heures d’acheminement et de la capacité des ressources (le cas échéant).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

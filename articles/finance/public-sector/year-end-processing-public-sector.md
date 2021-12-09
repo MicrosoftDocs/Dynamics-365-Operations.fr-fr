@@ -1,7 +1,7 @@
 ---
-title: Traitement de fin d’exercice dans le secteur public
-description: Cet article fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
-author: ShylaThompson
+title: Traitement de fin d’exercice (Secteur public)
+description: Cette rubrique fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: 19601
 ms.assetid: ba9a7abc-bd18-47c2-b745-96cdcec8ac98
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef6dde0b63966796c9d52deff83c7c1d012e864d8e5ca0f7f01bc96c36fa99b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ac994392fccf6db475b3bb3811573ac529bbc12
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757917"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817681"
 ---
-# <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice dans le secteur public
+# <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
+Cette rubrique fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
 
 Cette rubrique décrit la fonctionnalité de fin d’exercice disponible pour le secteur public. À la fin d’un exercice, vous devez générer des transactions de clôture et préparer vos comptes pour l’exercice suivant.  Les clients du secteur public ont les fonctionnalités suivantes :
 

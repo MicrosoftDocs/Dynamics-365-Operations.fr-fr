@@ -2,7 +2,7 @@
 title: Configuration de Finance Insights
 description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752976"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827026"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuration de Finance Insights
 
@@ -43,14 +43,34 @@ Procédez comme suit pour déployer les environnements.
 
 2. Si vous configurez Finance Insights dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement avant que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner correctement le modèle de prédiction. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Configurer votre client Azure AD
+
+Azure Active Directory (Azure AD) doit être configuré pour pouvoir être utilisé avec les applications Dataverse et Microsoft Power Platform. Cette configuration nécessite que le rôle de **Propriétaire du projet** ou le rôle de **Gestionnaire de l’environnement** soit attribué à l’utilisateur dans le champ **Rôle de sécurité du projet** dans LCS.
+
+Vérifiez que la configuration suivante est bien terminée :
+
+- Vous disposez d’un accès **Administrateur système** et **Personnalisateur de système** dans le centre d’administration Power Portal.
+- Une licence Dynamics 365 Finance ou équivalente est appliquée à l’utilisateur qui installe le complément Finance Insights.
+
+Les applications Azure AD suivantes sont enregistrées dans Azure AD.
+
+|  Demande                             | ID d’application                               |
+|------------------------------------------|--------------------------------------|
+| CDS Microservices ERP Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Configurer Dataverse
 
 Procédez comme suit pour configurer Dataverse pour Informations financières.
 
 - Dans LCS, ouvrez la page d’environnement et vérifiez que la section **Intégration Power Platform** est déjà configurée.
 
-    - Si elle est déjà configurée, le nom d’environnement Dataverse lié à l’environnement Finance doit être répertorié.
-    - Si elle n’est pas encore configurée, sélectionnez **Configurer**. La configuration de l’environnement Dataverse peut prendre jusqu’à une heure. Lorsque la configuration est terminée, le nom de l’environnement Dataverse lié à l’environnement Finance devrait figurer dans la liste.
+    - Si Dataverse est déjà configuré, le nom d’environnement Dataverse lié à l’environnement Finance doit être répertorié.
+    - Si Dataverse n’est pas encore configuré, sélectionnez **Configurer**. La configuration de l’environnement Dataverse peut prendre jusqu’à une heure. Lorsque la configuration est terminée, le nom de l’environnement Dataverse lié à l’environnement Finance devrait figurer dans la liste.
+    - Si cette intégration a été configurée avec un environnement Microsoft Power Platform, contactez votre administrateur pour vous assurer que l’environnement lié n’est pas désactivé.
+
+        Pour plus d’informations, voir [Activation de l’intégration de Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+
+        Pour accéder au site d’administration Microsoft Power Platform, allez sur <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Configurer le complément Informations financières
 

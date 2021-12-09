@@ -10,11 +10,11 @@ audience: Application User
 ms.author: elgolu
 ms.reviewer: kfend
 ms.search.region: France
-ms.openlocfilehash: eb4e2fbb6b94830ddd1f75ee02f0990e562e894e
-ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.openlocfilehash: b17621ee0f9112598cfdcd9a4ead27ecb187d26c
+ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2021
+ms.lasthandoff: 11/26/2021
 ms.locfileid: "7792593"
 ---
 # <a name="generate-an-fec-in-dynamics-365-finance"></a>Générer une feuille de distribution des dépenses (FEC) dans Dynamics 365 Finance
@@ -34,7 +34,8 @@ Pour générer un fichier d’audit du Fichier des écritures comptables (FEC), 
     | 3 Soldes fournisseur              | Annexe des soldes d’ouverture de l’exercice pour les fournisseurs | Pour cette partie du rapport, définissez le champ **Période - date de début**. Le rapport est généré pour le début de l’exercice car il est lié à la date spécifiée dans le champ **Période - date de début**. Valeurs dans les colonnes **JournalLib**, **EcritureNum**, **PieceRef** et **EcritureLib** du rapport représentent les valeurs collectées à partir des transactions du compte général du type **ouverture** pour l’exercice comptable. |
     | 4 Transactions client        | Annexe des transactions clients pour une période déterminée | Pour cette partie du rapport, définissez les champs **Période - date de début** et **Période - date de fin**. |
     | 5 Transactions fournisseur          | Annexe des transactions fournisseurs pour une période déterminée | Pour cette partie du rapport, définissez les champs **Période - date de début** et **Période - date de fin**. |
-    | 6 FEC principal étendu             | Fichier FEC principal incluant les détails des soldes d’ouverture de l’exercice pour les clients et les fournisseurs | Pour cette partie du rapport, définissez les champs **Période - date de début** et **Période - date de fin**. Assurez-vous que la période spécifiée inclut le début d’un exercice fiscal. |
+    | 6 FEC principal étendu             | Fichier FEC principal incluant les détails des soldes d’ouverture de l’exercice pour les clients et les fournisseurs | Pour cette partie du rapport, définissez les champs **Période - date de début** et **Période - date de fin**. Assurez-vous que la période spécifiée inclut le début d'un exercice fiscal. |
+    | 7 Justification pour les numéros manquants | À partir de la version 10.0.23 de Finance, utilisez cette annexe pour déclarer les documents de la comptabilité qui manquent dans le fichier FEC principal. | Pour cette partie du rapport, définissez les champs **Période - date de début** et **Période - date de fin**. |
 
 6. Opérations du compte général qui sont incluses dans les types de rapport **FEC principal** et **FEC principal étendu** doivent être filtrés par couche de validation **Actuel**. Seuls les comptes principaux commençant par **1**, **2**, **3**, **4**, **5**, **6** ou **7** doivent être inclus dans le FEC. Utilisez le champ **Enregistrements à inclure** pour filtrer les enregistrements que le rapport doit inclure. Utilisez le filtre pour rapporter les données qui respectent les règles du Livre des procédures fiscales, article A47 A-1, chapitre VII : "Le numéro de compte, ne les trois premiers caractères doivent correspondre à des chiffres respectant les normes du plan comptable français. »
 7. Pour générer le rapport en mode batch, sur le raccourci **Exécuter à l’arrière-plan**, spécifiez les paramètres du lot.

@@ -1,7 +1,7 @@
 ---
 title: Planifier pour les fournisseurs occasionnels dans le secteur public
-description: Cet article fournit des informations sur l’importation et la création de fournisseurs occasionnels et de factures.
-author: ShylaThompson
+description: Cette rubrique explique comment les organisations du secteur public peuvent se préparer à importer et à créer plusieurs fournisseurs ponctuels et factures.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: 27251
 ms.assetid: 936570cb-932f-4027-b3c7-2235ad79bc1c
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8b0c480d4578b1f62259e4d4d45780a80401386463e85a8107ffc85f5fa308a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 799cc888d73662980706062ac54bcbb9ce1caa3b
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727933"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817699"
 ---
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur l’importation et la création de fournisseurs occasionnels et de factures. 
+Cette rubrique fournit des informations sur l’importation et la création de fournisseurs ponctuels et de factures. 
 
 Généralement, si vous planifiez d’importer en masse des informations facturation et sur les fournisseurs, vous commencez par créer un fichier de données au format feuille de calcul et l’enregistrez au format CSV (valeurs séparées par des virgules).
 

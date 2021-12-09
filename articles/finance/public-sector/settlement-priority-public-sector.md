@@ -1,7 +1,7 @@
 ---
 title: Priorité de règlement (Secteur public)
 description: Cette rubrique fournit des informations sur la manière dont le secteur public peut hiérarchiser automatiquement ou manuellement les règlements à l’aide des classifications de facturation.
-author: ShylaThompson
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19551
 ms.assetid: b6f96e12-5614-4edf-9f67-47bf011b6ee7
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e720d7e6c275dc66a5af72f2bdad33209a8de9f8cb25fbbf3bf07216e977917c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 854eeb429169a857de4dd0946d80ada229f74e14
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775858"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817708"
 ---
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 

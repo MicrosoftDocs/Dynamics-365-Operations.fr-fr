@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641158"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813721"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -290,7 +290,8 @@ Le tableau suivant résume les scénarios de production de gestion des entrepôt
 |---------|-----|------------------------------|
 | Rangement des produits finis et déclarés terminés | Oui | Oui |
 | Rangement des coproduits et des sous-produits | Oui | Oui |
-| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Lancement vers l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | Non |
+| Démarrer l’ordre de fabrication | Oui | Oui |
+| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Lancement vers l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | Non |
 | Réapprovisionnement en matières premières | Non | Non |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Tenue à jour des unités d’échelle pour l’exécution d’entrepôt

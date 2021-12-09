@@ -1,7 +1,7 @@
 ---
 title: Écritures comptables avancées dans le secteur public
-description: Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.
-author: ShylaThompson
+description: Cette rubrique explique comment les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: 19511
 ms.assetid: 3db0233e-d767-4dc0-b008-733098b6ca70
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 592c88325236bdb120ca74f67605a5e574870cd8ce59cbe81bdd506facaa4a2f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64ec598c44bc5bb425551a925fe35991a088b149
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777103"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817687"
 ---
 # <a name="advanced-ledger-entries-in-the-public-sector"></a>Écritures comptables avancées dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.
+Cette rubrique explique comment les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.
 
 ## <a name="how-do-i-set-up-advanced-ledger-entries"></a>Comment paramétrer des écritures comptables avancées ?
 
@@ -39,7 +39,7 @@ Oui. Si votre organisation utilise le contrôle budgétaire, vous pouvez l’act
 ## <a name="can-i-use-advanced-ledger-entries-with-projects"></a>Puis-je utiliser les écritures comptables avancées avec des projets ?
 Oui. Si vous souhaitez que les utilisateurs soient en mesure de modifier les dimensions financières pour un projet sur la ligne d’écriture comptable avancée, vous devez sélectionner l’option **Autoriser la modification des dimensions financières dans l’écran d’écriture comptable avancée** sur la page **Paramètres de comptabilité**. Si vous ne sélectionnez pas cette option, les utilisateurs peuvent modifier les dimensions financières dans le champ **Compte général** uniquement si les dimensions financières ne correspondent pas aux dimensions financières par défaut d’un projet.
 
-## <a name="how-do-i-use-advanced-ledger-entries-to-record-yearend-accrual-entries"></a>Comment utiliser les écritures comptables avancées pour enregistrer les entrées de régularisation de fin d’exercice ?
+## <a name="how-do-i-use-advanced-ledger-entries-to-record-year-end-accrual-entries"></a>Comment utiliser les écritures comptables avancées pour enregistrer les entrées de régularisation de fin d’exercice ?
 Créez une écriture comptable avancée, sélectionnez l’option **Entrée de contrepassation**, puis entrez une date de contrepassation. L’écriture comptable avancée de contrepassation est créée lors de la validation de l’écriture comptable avancée. L’écriture comptable avancée de contrepassation aura un nouveau numéro de transaction et le statut de brouillon. La date de contrepassation sera utilisée comme date comptable et le montant débiteur ou créditeur de chaque ligne de l’écriture originale sera contrepassé. La même définition de validation sera utilisée. Le libellé de transaction de l’en-tête et des lignes contiendra les mots « Entrée de contrepassation de », le numéro de transaction de l’écriture comptable avancée originale, ainsi que son libellé de transaction.
 
 

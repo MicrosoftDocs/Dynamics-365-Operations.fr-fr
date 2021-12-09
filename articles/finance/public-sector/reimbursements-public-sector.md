@@ -1,7 +1,7 @@
 ---
 title: Remboursements dans le secteur public
 description: Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public.
-author: ShylaThompson
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 27311
 ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ffc7d72d5933ee967e406de38decbbb7c9a5789a1f2f8b429b6981d4e240774
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ed6f4925ed9045fe737210f8794c05de6dfec34
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763055"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817696"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
@@ -53,7 +53,7 @@ Elle ne les affectent pas. Les classifications de facturation ne sont jamais app
 Oui. Si vous devez traiter un remboursement pour un client ayant des transactions débitrices en attente, utilisez les filtres sur la page de remboursement afin de sélectionner le client, puis sélectionnez l’option permettant d’inclure les clients avec des transactions débitrices en attente. Lorsque vous procédez ainsi, les transactions de remboursement sont créées pour le montant total de toutes les transactions créditrices du client. Les montants débiteurs impayés ne sont pas déduits des montants créditeurs.
 
 ## <a name="can-i-process-reimbursements-for-customers-who-have-pending-settlements"></a>Puis-je traiter les remboursements pour les clients ayant des règlements en attente ?
-N° Les remboursements ne sont traités pour aucun client qui possède des règlements en attente non validés au journal.
+Non Les remboursements ne sont traités pour aucun client qui possède des règlements en attente non validés au journal.
 
 ## <a name="can-i-reverse-reimbursement-settlements"></a>Puis-je contrepasser des règlements de remboursement ?
 Non, pas directement. Toutefois, vous pouvez utiliser les entrées du journal des opérations diverses pour créer les transactions qui auraient l’effet de contrepasser les écritures comptables.

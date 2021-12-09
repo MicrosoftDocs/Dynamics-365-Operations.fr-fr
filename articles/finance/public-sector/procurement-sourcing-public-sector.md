@@ -1,7 +1,7 @@
 ---
 title: Approvisionnements dans le secteur public
 description: Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
-author: ShylaThompson
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19681
 ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc95092c0756515692db7573cb15dca6e8da7c6f
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: b91435dd1d8220f607922872713e5f0f43c4cac9
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594924"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817789"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
@@ -117,7 +117,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 <td><p>750,00</p></td>
 <td>150,00</td>
 <td>400,00</td>
-<td></td>
+<td>&nbsp;</td>
 <td><p>350,00</p></td>
 </tr>
 <tr class="even">

@@ -10,12 +10,12 @@ ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781462"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817359"
 ---
 # <a name="dual-write-overview"></a>Vue d’ensemble de la double écriture
 
@@ -68,11 +68,7 @@ La double écriture crée un mappage entre les concepts des applications Finance
 + Possibilité de rechercher la disponibilité et les détails du stock disponible
 + Expérience Projet en disponibilités
 + Possibilité de gérer plusieurs adresses et rôles via le concept de partie
-+ Gestion à source unique pour les utilisateurs
-+ Canaux intégrés pour la vente au détail et le marketing
-+ Visibilité sur les promotions et les remises
-+ Fonctions de demande de service
-+ Opérations de service simplifiées
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Principales raisons d’utiliser la double écriture
 

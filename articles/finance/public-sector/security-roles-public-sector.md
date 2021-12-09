@@ -1,7 +1,7 @@
 ---
 title: Rôles de sécurité (Secteur public)
 description: Cette rubrique fournit des informations sur les rôles de sécurité du secteur public, y compris les rôles de chef de projet et d’acheteur.
-author: ShylaThompson
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b58a2c1377069d5d7ff499b5dfe7d1b65ed2374b2796032c31c7771d3fbfffb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 688090820420bd96865ca73e5752a2e5cedae423
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766260"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817756"
 ---
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité (Secteur public)
 

@@ -2,7 +2,7 @@
 title: Page d’accueil de Finance Insights
 description: Informations financières fournit des modèles configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Toutes ces fonctionnalités sont basées sur des modèles Machine Learning intelligents.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752854"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813745"
 ---
 # <a name="finance-insights-home-page"></a>Page d’accueil de Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights fournit des modèles configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Toutes ces fonctionnalités sont basées sur des modèles Machine Learning intelligents. Lorsque ces nouvelles fonctionnalités sont combinées à l’automatisation des paiements et des recouvrements des fournisseurs, elles fournissent un système financier riche et intelligent qui stimule la prise de décision et vous aide à prendre des mesures pour répondre efficacement aux défis commerciaux actuels et futurs.
+Finance Insights fournit des solutions configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Ces fonctionnalités utilisent des modèles d’apprentissage automatique intelligents pour créer des modèles à l’aide des données que vous fournissez (y compris les données d’un tiers telles que les informations de rapport sur les consommateurs d’un bureau). Ces capacités intelligentes éclairent la prise de décision et vous aident à prendre des mesures pour répondre efficacement aux défis commerciaux actuels et futurs. Vous êtes responsable de toutes les données utilisées avec ou issues de Finance Insights.
 
 > [!NOTE]
 > La version préliminaire publique de Finance Insights est disponible pour le déploiements aux États-Unis, au Canada, au Royaume-Uni, en Europe, en Asie-Pacifique, au Japon, en Australie et en Nouvelle-Zélande. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
