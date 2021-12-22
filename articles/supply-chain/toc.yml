@@ -70,7 +70,9 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.23
+                    - name: "Supply\_Chain\_Management\_10.0.24 (février\_2022)"
+                      href: get-started/whats-new-scm-10-0-24.md
+                    - name: "Supply\_Chain\_Management\_10.0.23 (janvier\_2022)"
                       href: get-started/whats-new-scm-10-0-23.md
                     - name: "Supply Chain Management\_10.0.22 (novembre\_2021)"
                       href: get-started/whats-new-scm-10-0-22.md
@@ -947,6 +949,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
                     - name: List
                       items:
                         - name: Fonctions de liste
@@ -3753,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestion des entrepôts
               items:
-                - name: Warehouse Mobile App
+                - name: Warehouse mobile app
                   items:
                     - name: Ancre validé pour le chemin de certification introuvable au moment de la configuration de la connexion à l’application
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md

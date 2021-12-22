@@ -4,6 +4,8 @@
     - name: Nouveautés
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
+          href: hr-whats-new-2021-11-29.md
+        - name: "29\_novembre\_2021"
           href: hr-admin-whats-new.md
         - name: "5\_octobre\_2021"
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Traiter les modifications de taux
                       href: hr-benefits-process-rate-changes.md
+                - name: Sélection des avantages des employés
+                  href: employee-select-benefits-ess.md
                 - name: Génération d’états ACA
                   href: hr-benefits-management-aca-reports.md
                 - name: Relevé des avantages

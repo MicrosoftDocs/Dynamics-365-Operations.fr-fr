@@ -92,7 +92,9 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: "Commerce\_10.0.24 (février\_2022)"
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (janvier 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: "Commerce\_10.0.22 (novembre\_2021)"
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: Vue d’ensemble des paiements omnicanaux
                       href: omni-channel-payments.md
+                    - name: Plusieurs modes de paiement disponibles pour le retrait en magasin
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Paiements de commandes de Commerce omnicanal
                       href: dev-itpro/commerce-payments.md
                     - name: Archiver les données de transaction de carte de crédit
@@ -814,6 +818,10 @@
           items:
             - name: Gestion des clients dans les magasins
               href: customer-mgmt-stores.md
+            - name: Mode de création asynchrone de clients
+              href: async-customer-mode.md
+            - name: Convertir des clients asynchrones en clients synchrones
+              href: convert-async-to-sync.md
             - name: Gestion des clients
               items:
                 - name: Vue d’ensemble de la gestion des clients
@@ -1330,7 +1338,9 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Publier des documents fiscaux brésiliens via les relevés de vente au détail dans Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
-                - name: Dynamics 365 Payment Connector pour Adyen dans les PDV Commerce pour le Brésil
+                - name: Document fiscal CF-e et intégration à la fonctionnalité SAT dans Commerce POS pour le Brésil
+                  href: localizations/latam-bra-cf-e-sat.md
+                - name: Dynamics 365 Payment Connector pour Adyen dans Commerce POS pour le Brésil
                   href: localizations/latam-bra-adyen.md
             - name: Europe de l’Est
               items:
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Prise en charge de la mise à niveau et de N-1 pour l’Inde
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Générer des codes QR et les imprimer sur des reçus
+                - name: Générer des codes QR et les imprimer sur des reçus pour l’Inde
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: Intégration de la taxe sur les Produits et Services (GST) pour les sites de commerce électronique
+                  href: localizations/apac-ind-e-commerce.md
             - name: Italie
               items:
                 - name: Exemple d’intégration de l’imprimante fiscale pour l’Italie
@@ -1616,6 +1628,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Fonctions de liste

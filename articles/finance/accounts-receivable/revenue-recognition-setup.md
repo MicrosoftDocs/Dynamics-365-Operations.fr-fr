@@ -2,7 +2,7 @@
 title: Configuration de la fonctionnalité de prise en compte de revenu
 description: Cette rubrique décrit les options de paramétrage pour la prise en compte de revenu, ainsi que leurs implications.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675176"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867218"
 ---
 # <a name="revenue-recognition-setup"></a>Configuration de la fonctionnalité de prise en compte de revenu
 [!include [banner](../includes/banner.md)]
@@ -61,11 +61,11 @@ Le premier scénario a lieu lorsque toutes les obligations contractuelles sont r
 
 Le deuxième scénario a lieu lorsqu’un journal est créé après une réaffectation. Une réaffectation a lieu lorsqu’une ligne de commande client est ajoutée à une commande client précédemment facturée, ou lorsqu’une nouvelle commande client est créée incluant une ligne qui fait partie du contrat d’origine. Si une facture a été validée avant que la ligne de commande client soit ajoutée, une écriture comptable de correction doit être créée pour la facture client validée.
 
-Le journal est paramétré sur la page **Noms de journal** (**prise en compte de revenu \> Paramétrage \> Noms de journal**). Le type de journal doit être défini sur **prise en compte de revenu**. Le journal de prise en compte de revenu permet de sélectionner la couche de validation dans laquelle opérer la validation.
+Le journal est paramétré sur la page **Noms de journal** (**Prise en compte de revenu \> Paramétrage \> Noms de journal**). Le type de journal doit être défini sur **Prise en compte de revenu**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Paramètres pour la prise en compte de revenu
 
-Les paramètres de prise en compte de revenu sont configurés dans l’onglet **prise en compte de revenu** de la page **Paramètres de comptabilité** (**prise en compte de revenu \> Paramétrage \> Paramètres de comptabilité**). Les paramètres disponibles sont les suivants :
+Les paramètres de prise en compte de revenu sont configurés dans l’onglet **Prise en compte de revenu** de la page **Paramètres de comptabilité** (**Prise en compte de revenu \> Paramétrage \> Paramètres de comptabilité**). Les paramètres disponibles sont les suivants :
 
 - **Nom du journal de prise en compte de revenu** : sélectionnez le journal créé pour la prise en compte de revenu. Le journal est requis lorsque le produit est constaté à partir de l’échéancier de produit, ou lorsque vous effectuez la réaffectation d’une commande client déjà facturée.
 - **Activer la méthode de répartition de remise** : définissez cette option sur **Oui** pour déterminer le prix du produit via la répartition de la juste valeur qui est définie dans le prix du produit pour chaque produit lancé. Cette répartition inclut la répartition de toutes les éventuelles remises ligne entre les différents articles. Si cette option est définie sur **Non**, le système utilise le prix médian défini dans le prix du produit pour chaque produit lancé. Si cette option est définie sur **Non**, mais qu’aucun prix médian n’est paramétré pour les produits lancés, la répartition du prix de produit n’a pas lieu.
