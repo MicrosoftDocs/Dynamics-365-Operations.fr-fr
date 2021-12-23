@@ -2,7 +2,7 @@
 title: Clôture de fin d’exercice
 description: Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778264"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892475"
 ---
 # <a name="year-end-close"></a>Clôture de fin d’exercice
 
@@ -44,7 +44,7 @@ Sur la page **Compte principal** :
 Dans la page **Paramètres de comptabilité** sous **Clôture d’exercice**:
 
 - L’option **Supprimer les entrées de fin d’exercice existantes à la re-clôture d’exercice** sert à spécifier si la transaction d’ouverture générée par le système d’une clôture de fin d’exercice précédente doit être supprimée lors de la nouvelle exécution de la clôture de fin d’exercice. Si cette option est définie sur **Oui**, les transactions d’ouverture et de clôture facultatives précédentes sont supprimées et une nouvelle transaction d’ouverture ou de clôture est créée sur la base des soldes actuels. Si cette option est définie sur **Non**, les transactions d’ouverture et de clôture facultatives précédentes sont conservées et une transaction d’ouverture ou de clôture supplémentaire est créée pour transférer les soldes à partir des transactions d’ajustement qui ont été validées après la clôture de fin d’exercice précédente.
-- L’option **Créer des transactions de clôture lors du transfert** sert à créer des transactions de clôture dans l’exercice en cours de clôture afin de réduire à 0 (zéro) les soldes des comptes de résultat. Si cette option est définie sur **Oui**, les transactions de clôture et d’ouverture sont toutes les deux créées. Si cette option est définie sur **Non**, seule la transaction d’ouverture est créée dans l’exercice suivant pour transférer les soldes. Les soldes de compte de résultat restent à la fin de l’exercice.
+- L’option **Créer des transactions de clôture lors du transfert** sert à créer des transactions de clôture dans l’exercice en cours de clôture afin de réduire à 0 (zéro) les soldes de tous les comptes principaux. Si cette option est définie sur **Oui**, les transactions de clôture et d’ouverture sont toutes les deux créées. Si cette option est définie sur **Non**, seule la transaction d’ouverture est créée dans l’exercice suivant pour transférer les soldes. Les soldes de tous les comptes principaux restent à la fin de l’exercice.
 - L’option **Définir le statut de l’exercice sur définitivement clôturé** sert à affecter à l’exercice le statut Définitivement clôturé. Utilisez cette option avec précaution, car les périodes dont le statut est Définitivement fermé ne peuvent pas être rouvertes. Par conséquent, les ajustements ne peuvent pas être imputés à l’exercice. Il est recommandé de définir cette option sur **Non**.
 - L’option **Le N° document est obligatoire** a été supprimée. Un N° document est désormais requis lors de l’exécution du processus de clôture de fin d’exercice. Le N° document est saisi manuellement à ce moment-là.
 

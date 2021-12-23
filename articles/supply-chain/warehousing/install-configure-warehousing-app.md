@@ -1,7 +1,7 @@
 ---
 title: Installer et connecter l’application d’entrepôt
 description: Cette rubrique explique comment installer l’application d’entrepôt sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384633"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902269"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installer et connecter l’application d’entreposage
 

@@ -2,7 +2,7 @@
 title: Activer la recherche des données de base pour la configuration du calcul des taxes
 description: Cette rubrique explique comment configurer et activer la fonctionnalité de recherche de données principales pour le calcul des taxes.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749508"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867350"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Activer la recherche des données de base pour la configuration du calcul des taxes 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer et activer la fonctionnalité de recherche de données principales pour le calcul des taxes. Une liste déroulante est disponible pour sélectionner des valeurs dans la configuration de calcul de la taxe pour des champs tels que **Compte fournisseur**, **Code de l’article** et **Conditions de livraison**. Ces valeurs proviennent du de l’environnement connecté Microsoft Dynamics 365 Finance en utilisant la source de données Microsoft Dataverse.
+Cette rubrique explique comment configurer et activer la fonctionnalité de recherche de données principales pour le calcul des taxes. Une liste déroulante est disponible pour sélectionner des valeurs dans la configuration de calcul des taxes pour des champs tels que **Entité juridique**, **Compte fournisseur**, **Code article** et **Conditions de livraison**. Ces valeurs proviennent du de l’environnement connecté Microsoft Dynamics 365 Finance en utilisant la source de données Microsoft Dataverse.
+
+> [!NOTE] 
+> La fonctionnalité de recherche des données principales du calcul des taxes est une fonctionnalité facultative. Vous pouvez ignorer les étapes suivantes si vous désactivez la fonctionnalité **Prise en charge des sources de données Dataverse du service fiscal** dans le service Regulatory Configuration Service (RCS). Cependant, dans ce cas, la liste déroulante ne sera pas disponible dans la configuration du calcul des taxes.
 
 1. Configurer l’intégration de Microsoft Power Platform dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir la rubrique [Intégration de Microsoft Power Platform - Vue d’ensemble des compléments](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Une fois cette étape terminée, le nom d’un environnement Microsoft Power Platform apparaîtra dans la section **Intégration Power Platform**.
 2. Accédez au [centre d’administration Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments), puis sélectionnez le nom de l’environnement. L’URL d’environnement est fourni.

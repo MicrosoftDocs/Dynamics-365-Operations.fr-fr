@@ -1,7 +1,7 @@
 ---
 title: Paramétrage de profils de validation d’immobilisation
-description: Ce guide de tâche va paramétrer les profils de validation d’immobilisation.
-author: saraschi2
+description: Cette procédure montre comment configurer les profils de comptabilisation des immobilisations.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767621"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883766"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Paramétrage de profils de validation d’immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide de tâche va paramétrer les profils de validation d’immobilisation.  Il utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.  Les exemples donnés dans le guide de tâches concernent un profil de validation de base, même s’il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
+Cette procédure montre comment configurer les profils de comptabilisation des immobilisations. Les exemples donnés dans la rubrique concernent un profil de validation de base, même s’il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
 
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Paramétrage > Profils de validation d’immobilisation**.
 2. Cliquez sur **Nouveau**.

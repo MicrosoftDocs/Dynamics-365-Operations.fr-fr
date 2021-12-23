@@ -2,7 +2,7 @@
 title: Configurer les noms des registres des baux
 description: Cette rubrique explique comment définir les noms des journaux de location. Les noms des journaux de location spécifient les journaux dans lesquels les entrées provenant de la location d’actifs sont imputées.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343212"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890748"
 ---
 # <a name="set-up-lease-journal-names"></a>Configurer les noms des registres des baux
 
@@ -39,6 +39,7 @@ Pour configurer les noms des journaux de bail, procédez comme suit.
 2. Sur l’onglet **Général**, dans le champ **Nom du journal de reconnaissance initiale** et sélectionnez un journal. Toutes les entrées de journal de reconnaissance initiale seront enregistrées sous ce nom de journal.
 3. Dans le champ **Nom du journal des factures**, sélectionnez un journal. Si l’option **Payer au fournisseur** est définie sur **Oui** pour le registre de location, les factures de location et de paiement des dépenses seront imputées à ce nom de journal.
 4. Dans le champ **Nom du journal des baux**, sélectionnez un journal. Toutes les écritures d’amortissement, d’intérêts et de reclassement à court terme seront enregistrées sous ce nom de journal. Si l’option **Payer au fournisseur** est définie sur **Non** pour le registre de location, les entrées de paiements de location et de paiement des dépenses seront imputées à ce nom de journal.
+5. Dans le champ **Nom du journal de modification des baux**, sélectionnez un journal. Les transactions d'ajustement de bail, de résiliation et de dépréciation seront enregistrées dans ce nom de journal. Le nom du journal que vous sélectionnez ne doit pas avoir de flux de travail ou d'approbation affecté. Si le nom du journal de modification de location n'est pas défini, les transactions d'ajustement de bail, de résiliation et de dépréciation seront enregistrées dans le nom de journal sélectionné dans le champ **Nom du journal des baux**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

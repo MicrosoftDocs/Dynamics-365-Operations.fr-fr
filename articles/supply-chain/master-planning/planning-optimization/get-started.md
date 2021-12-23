@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645780"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902557"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -40,7 +40,7 @@ Avant d’activer l’Optimisation de la planification, nous vous recommandons f
 
 ## <a name="availability"></a>Disponibilité
 
-Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Europe, Royaume-Uni, Australie, Asie-Pacifique et le Japon. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d'informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Europe, Royaume-Uni, Australie, Asie-Pacifique, Japon et Inde. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d'informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Notez que Optimisation de la planification ne prend pas en charge les déploiements locaux de Dynamics 365 Supply Chain Management.
 

@@ -1,8 +1,8 @@
 ---
 title: Améliorations de la fonctionnalité de validation du relevé
 description: Cette rubrique décrit les améliorations apportées à la fonction de validation des relevés.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,19 +10,20 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772202"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891439"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
 [!include [banner](includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit le premier ensemble d’améliorations apportées à la fonction de validation des relevés. Ces améliorations sont disponibles dans Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -57,7 +58,7 @@ En outre, les paramètres suivants ont été introduits dans l’organisateur **
 
 - **Nombre maximal de validation de relevés en parallèle** – Ce champ définit le nombre de tâches de traitement par lots qui seront utilisées pour valider plusieurs relevés. 
 - **Thread maximal pour le traitement des commandes par relevé** – Ce champ représente le nombre maximal de threads utilisés par le traitement par lots de validation de relevé pour créer et facturer les commandes client d’un seul relevé. Le nombre total de threads qui seront utilisés par le processus de validation du relevé sera calculé en fonction de la valeur de ce paramètre multipliée par la valeur indiquée dans le paramètre **Nombre maximal de validation de relevés en parallèle**. La définition de la valeur de ce paramètre trop élevée peut avoir un impact négatif sur les performances du processus de validation du relevé.
-- **Nombre maximal de lignes de transaction incluses dans l’agrégation** – Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu’une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d’agrégation, tels que le client, date d’activité ou les dimensions financières. Il est important de noter que les lignes d’une transaction unique ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu’il y a un risque que le nombre de lignes d’une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
+- **Nombre maximal de lignes de transaction incluses dans l’agrégation** – Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu’une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d’agrégation, tels que le client, date d’activité ou les dimensions financières. Il est important de noter que les lignes d’une transaction unique ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu’il y a un risque que le nombre de lignes dans une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
 - **Nombre maximal de threads pour valider les transactions en magasin** – Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions. La validation des transactions est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans l’organisateur **Carte cadeau** sous l’onglet **Validation** de la page **Paramètres Commerce**. Cela doit être défini, même si aucune carte cadeau n’est utilisée par l’organisation.
 
 > [!NOTE]
@@ -92,7 +93,7 @@ Le tableau suivant décrit les différents états et leur ordre lors du processu
 | 3           | Commande client créée  | Selon la transaction regroupée, les commandes client sont créées dans le système. |
 | 4           | Commande client facturée | Les commandes client sont facturées. |
 | 5           | Remises validées        | Les journaux de remise périodiques sont validés selon la configuration. |
-| 6           | Documents de revenus/dépenses validés   | Les transaction de revenus/dépenses sont validées comme documents. |
+| 6           | Documents de revenus/dépenses validés   | Les transactions de revenus/dépenses sont validées comme documents. |
 | 7           | Documents associés         | Les journaux des paiements sont créés et associés à la facture correspondante. |
 | 8           | Paiements validés         | Les journaux des paiements sont validés. |
 | 9           | Cartes cadeaux validées       | Les transactions de carte cadeau sont validées comme documents. |
@@ -116,9 +117,17 @@ Un relevé passe par différentes opérations (par exemple, créer, calculer, ef
 
 ### <a name="aggregated-transactions"></a>Transactions regroupées
 
-Lors du processus de validation, les transactions de vente sont regroupées selon la configuration. Ces transactions regroupées sont stockées dans le système et utilisées pour créer des commandes client. Chaque transaction regroupée crée une commande client correspondante dans le système. Vous pouvez afficher les transactions regroupées à l’aide du bouton **Transactions regroupées** dans le groupe **Détails d’exécution** du relevé.
+Au cours du processus de validation, les transactions cash-and-carry sont regroupées par client et par produit. Par conséquent, le nombre de commandes client et de lignes créées est réduit. Les transactions regroupées sont stockées dans le système et utilisées pour créer des commandes client. Chaque transaction regroupée crée une commande client correspondante dans le système. 
 
-L’onglet **Détails de la commande client** d’une transaction regroupée affiche les informations suivantes :
+Si un relevé n'est pas entièrement validé, vous pouvez afficher les transactions qui y sont regroupées. Dans le volet Actions, sous l’onglet **Relevé**, dans le groupe **Détails de l'exécution**, sélectionnez **Transactions regroupées**.
+
+![Bouton de transactions regroupées pour un relevé qui n'est pas entièrement validé.](media/aggregated-transactions.png)
+
+Pour les relevés validés, vous pouvez afficher les transactions qui sont regroupées sur la page **Relevés validés**. Dans le volet Actions, sélectionnez **Recherches**, puis sélectionnez **Transactions regroupées**.
+
+![Commande de transactions regroupées pour les relevés validés.](media/aggregated-transactions-posted-statements.png)
+
+Le raccourci **Détails de la commande client** d’une transaction regroupée affiche les informations suivantes :
 
 - **ID enregistrement** – ID de la transaction regroupée.
 - **Numéro de relevé** – Relevé auquel la transaction regroupée appartient.
@@ -127,12 +136,28 @@ L’onglet **Détails de la commande client** d’une transaction regroupée aff
 - **Nombre de lignes regroupées** – Nombre total de lignes de la transaction regroupée et de la commande client.
 - **Statut** – Dernier statut de la transaction regroupée.
 - **ID facture** – ID facture client lorsque la commande client de la transaction regroupée est facturée. Si ce champ est vide, la facture de la commande client n’a pas été validée.
+- **Code d'erreur** : ce champ est défini si le regroupement est dans un état d'erreur.
+- **Message d'erreur** : ce champ est défini si le regroupement est dans un état d'erreur. Il affiche des détails sur la cause de l'échec du processus. Vous pouvez utiliser les informations du code d'erreur pour résoudre le problème, puis redémarrer manuellement le processus. Selon le type de résolution, les ventes regroupées peuvent devoir être supprimées et traitées sur un nouveau relevé.
 
-L’onglet **Détails de la transaction** d’une transaction regroupée affiche toutes les transactions qui ont été extraites dans la transaction regroupée. Les lignes regroupées de la transaction regroupée affiche tous les enregistrements regroupés à partir des transactions. Les lignes regroupées affichent également des détails comme l’article, la variante, la quantité, le prix, le montant net, l’unité et l’entrepôt. En gros, chaque ligne regroupée correspond à une ligne de commande client.
+![Champs de l'organisateur Détails de la commande client d'une transaction regroupée.](media/aggregated-transactions-error-message-view.png)
 
-Dans la page **Transactions regroupées**, vous pouvez télécharger le code XML pour une transaction regroupée spécifique à l’aide du bouton **Exporter la commande client au format XML**. Vous pouvez utiliser le code XML pour déboguer les problèmes qui affectent la création et la validation de la commande client. Téléchargez le code XML, chargez-le dans un environnement de test et déboguez le problème dans l’environnement de test. La fonctionnalité de téléchargement du code XML pour les transactions regroupées n’est pas disponible pour les relevés qui ont été validés.
+Le raccourci **Détails de la transaction** d’une transaction regroupée affiche toutes les transactions qui ont été extraites dans la transaction regroupée. Les lignes regroupées de la transaction regroupée affiche tous les enregistrements regroupés à partir des transactions. Les lignes regroupées affichent également des détails comme l’article, la variante, la quantité, le prix, le montant net, l’unité et l’entrepôt. En gros, chaque ligne regroupée correspond à une ligne de commande client.
 
-La vue Transaction regroupée offre les avantages suivantes :
+![Raccourci Détails de la transaction d'une transaction regroupée.](media/aggregated-transactions-sales-details.png)
+
+Dans certaines situations, il est possible que les transactions regroupées ne puissent pas valider leur commande client consolidée. Dans ces situations, un code d'erreur sera associé au statut du relevé. Pour afficher uniquement les transactions regroupées comportant des erreurs, vous pouvez activer le filtre **Afficher uniquement les échecs** dans la vue des transactions regroupées en cochant la case. En activant ce filtre, vous limitez les résultats aux transactions regroupées qui comportent des erreurs nécessitant une résolution. Pour plus d’informations sur la façon de résoudre ces erreurs, voir [Modifier et vérifier les commandes en ligne et les transactions de commandes client asynchrones](edit-order-trans.md).
+
+![Case à cocher pour le filtre Afficher uniquement les échecs dans la vue des transactions regroupées.](media/aggregated-transactions-failure-view.png)
+
+Sur la page **Transactions regroupées**, vous pouvez télécharger le code XML pour une transaction regroupée spécifique en sélectionnant **Exporter les données d'agrégation**. Vous pouvez consulter le code XML dans n'importe quel formateur XML pour voir les détails des données réelles qui impliquent la création et la validation de la commande client. La fonctionnalité de téléchargement du code XML pour les transactions regroupées n’est pas disponible pour les relevés qui ont été validés.
+
+![Bouton Exporter les données d'agrégation sur la page Transactions regroupées.](media/aggregated-transactions-export.png)
+
+Si jamais vous ne pouvez pas résoudre l'erreur en corrigeant les données sur la commande client ou les données qui prennent en charge la commande client, un bouton **Supprimer la commande client** est disponible. Pour supprimer une commande, sélectionnez la transaction regroupée qui a échoué, puis sélectionnez **Supprimer la commande client**. La transaction regroupée et la commande client correspondante seront supprimées. Vous pouvez désormais consulter les transactions à l'aide des fonctionnalités de modification et d'audit. Elles peuvent aussi être retraitées via un nouveau relevé. Une fois toutes les erreurs résolues, vous pouvez reprendre la validation du relevé en exécutant la fonction de validation du relevé pour le relevé concerné.
+
+![Bouton Supprimer la commande client dans la vue des transactions regroupées.](media/aggregated-transactions-delete-cust-order.png)
+
+La vue des transactions regroupées offre les avantages suivants :
 
 - L’utilisateur a une visibilité sur les transactions regroupées qui ont échoué lors de la création de la commande client et sur les commandes client qui ont échoué lors de la facturation.
 - L’utilisateur a une visibilité sur la manière dont les transactions sont regroupées.

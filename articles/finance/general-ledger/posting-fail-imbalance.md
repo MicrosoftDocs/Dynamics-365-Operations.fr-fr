@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605427"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903248"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Échec de validation du journal en raison de déséquilibres
 
@@ -44,7 +44,7 @@ Si un document n'a qu'une seule devise de transaction, le total des débits doit
 
 - Le total des débits et le total des crédits n'étaient **pas** équilibrés dans la devise de transaction, mais ils étaient équilibrés pour la devise comptable et la devise de déclaration. Un client a supposé que le document serait quand même validé. Cependant, cette supposition était incorrecte. **Les montants en devise de transaction sur un document doivent toujours être équilibrés lorsque toutes les lignes du document ont la même devise de transaction.**
 - Le justificatif a été importé avec une entité de données via le cadre de gestion des données (DMF), et l'utilisateur pensait que les montants en devise de transaction étaient équilibrés. Dans le fichier d'importation, certains montants comportaient plus de deux décimales et plus de deux décimales étaient incluses lors de l'importation des montants. Par conséquent, les débits n'étaient pas égaux aux crédits, car ils étaient décalés d'une fraction de centime. Le journal ne reflétait pas cette différence sur les lignes du document, car les montants qui sont affichés n'ont que deux décimales.
-- Le justificatif a été importé avec une entité de données via DMF, et l'utilisateur pensait que les montants en devise de transaction étaient équilibrés. Bien que le **justificatif** ait été équilibré, certaines lignes du document avaient des dates de transaction différentes. Si vous ajoutiez le total des débits et le total des crédits dans la devise de transacton par **justificatif et date de transaction**, ils n'étaient pas équilibrés. Cette exigence est appliquée lorsque vous saisissez un document via le journal des opérations diverses dans le système. Cependant, il n'est pas appliqué lorsqu'un justificatif est importé avec une entité de données via DMF.
+- Le justificatif a été importé avec une entité de données via DMF, et l'utilisateur pensait que les montants en devise de transaction étaient équilibrés. Bien que le **justificatif** ait été équilibré, certaines lignes du document avaient des dates de transaction différentes. Si vous ajoutiez le total des débits et le total des crédits dans la devise de transaction par **justificatif et date de transaction**, ils n'étaient pas équilibrés. Cette exigence est appliquée lorsque vous saisissez un document via le journal des opérations diverses dans le système. Cependant, il n'est pas appliqué lorsqu'un justificatif est importé avec une entité de données via DMF.
 
 Dans un scénario pris en charge, un document peut avoir plusieurs devises de transaction. Dans ce cas, le système ne vérifie **pas** que les débits sont égaux aux crédits dans la devise de transaction, car les devises ne correspondent pas. Au lieu de cela, le système vérifie que les montants en devise comptable et en devise de déclaration sont équilibrés.
 
@@ -52,13 +52,13 @@ Dans un scénario pris en charge, un document peut avoir plusieurs devises de tr
 
 Si toutes les lignes d'un document ont la même devise de transaction et si les montants en devise de transaction sont équilibrés, le système vérifie que les montants en devise comptable sont équilibrés. Si le document est saisi dans une devise étrangère, le taux de change sur les lignes du document est utilisé pour convertir les montants en devise de transaction dans la devise comptable. Tout d'abord, chaque ligne du justificatif est traduite et arrondie à deux décimales. Ensuite, les lignes sont additionnées pour déterminer le total des débits et le total des crédits. Étant donné que chaque ligne est convertie, le total des débits et le total des crédits peuvent ne pas être équilibrés. Néanmoins, si la valeur absolue de la différence entre dans la valeur **Différence minime maximale** définie sur la page **Paramètres de Comptabilité**, le document sera validé et la différence sera automatiquement enregistrée sur le compte pour la différence minime.
 
-Si le document comporte plusieurs devises de transaction, chaque ligne du document est convertie dans la devise comptable et arrondie à deux décimales, puis les lignes sont additionnées pour déterminer le total des débits et des crédits. Pour être considérés comme équilibrés, les débits et les crédits doivent être équilibrés, soit tels que convertis, soit lorsque la différence d'arrondi du centime dans la devise comptable est incluse.
+Si le document comporte plusieurs devises de transaction, chaque ligne du document est convertie dans la devise comptable et arrondie à deux décimales, puis les lignes sont additionnées pour déterminer le total des débits et des crédits. Pour être considérés comme équilibrés, les débits et crédits doivent être équilibrés dans la devise comptable.  Un compte de différence minime n'est jamais ajouté au justificatif dans la devise comptable pour équilibrer les débits et les crédits. 
 
 ### <a name="reporting-currency"></a>Devise de déclaration
 
 Si toutes les lignes d'un document ont la même devise de transaction et si les montants en devise de transaction sont équilibrés, le système vérifie que les montants en devise de déclaration sont équilibrés. Si le document est saisi dans une devise étrangère, le taux de change sur les lignes du document est utilisé pour convertir les montants en devise de transaction dans la devise de déclaration. Tout d'abord, chaque ligne du justificatif est traduite et arrondie à deux décimales. Ensuite, les lignes sont additionnées pour déterminer le total des débits et le total des crédits. Étant donné que chaque ligne est convertie, le total des débits et le total des crédits peuvent ne pas être équilibrés. Néanmoins, si la différence entre dans la valeur **Arrondi maximal dans la devise de déclaration** définie sur la page **Paramètres de Comptabilité**, le document sera validé et la différence sera automatiquement enregistrée sur le compte pour la différence minime.
 
-Si le document comporte plusieurs devises de transaction, chaque ligne du document est convertie dans la devise de déclaration et arrondie à deux décimales, puis les lignes sont additionnées pour déterminer le total des débits et des crédits. Pour être considérés comme équilibrés, les débits et les crédits doivent être équilibrés, soit tels que convertis, soit lorsque la différence d'arrondi du centime dans la devise de déclaration est incluse.
+Si le document comporte plusieurs devises de transaction, chaque ligne du document est convertie dans la devise de déclaration et arrondie à deux décimales, puis les lignes sont additionnées pour déterminer le total des débits et des crédits. Pour être considérés comme équilibrés, les débits et crédits doivent être équilibrés dans la devise de déclaration.  Un compte de différence minime n'est jamais ajouté au justificatif dans la devise de déclaration pour équilibrer les débits et les crédits.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Exemple pour un déséquilibre de devise comptable
 
@@ -67,7 +67,7 @@ Si le document comporte plusieurs devises de transaction, chaque ligne du docume
 
 Taux de change : 1,5
 
-| Ligne | N° document | Compte | Devise | Débit (Transaction) | Crédit (Transaction) | Debit (Comptabilité) | Crédit (Comptabilité) |
+| Ligne | N° document | Compte | Devise | Débit (Transaction) | Crédit (Transaction) | Débit (Comptabilité) | Crédit (Comptabilité) |
 |---|---|---|---|---|---|---|---|
 | 1 | 001 | 1101-01 | EUR | 3.33 | | 5.00 (4,995) | |
 | 2 | 001 | 1101-02 | EUR | 3.33 | | 5.00 (4,995) | |

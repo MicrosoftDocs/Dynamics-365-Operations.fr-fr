@@ -2,7 +2,7 @@
 title: Importer des images
 description: Cette rubrique décrit comment charger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423253"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891520"
 ---
 # <a name="upload-images"></a>Importer des images
 
@@ -41,7 +41,8 @@ Lors du téléchargement d’une image, les informations suivantes peuvent être
 - **Publier les actifs après chargement** : lorsque cette case est cochée, la ou les images sont publiées immédiatement après le chargement.
 
 > [!NOTE]
-> Les actifs d’image auxquels une catégorie a été affectée sont également automatiquement étiquetés avec la catégorie en tant que mot clé pour faciliter la recherche d’éléments de catégorie spécifique.
+> - Les actifs d’image auxquels une catégorie a été affectée sont également automatiquement étiquetés avec la catégorie en tant que mot clé pour faciliter la recherche d’éléments de catégorie spécifique.
+> - Les pages de détails du produit génèrent dynamiquement le **Texte alternatif** en utilisant le nom du produit, donc le fait de changer le **Texte alternatif** pour une image de produit n'aura aucun impact sur l'image rendue.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Conventions de dénomination des images omnicanal 
 
@@ -57,7 +58,7 @@ La convention de dénomination par défaut varie en fonction de la catégorie :
 - Les images de variante de produit doivent être intitulées «  **/Produits/\{NuméroProduit\} \^ \{Style\} \^ \{Taille\} \^ \{Couleur\} \^\_000_001.png** »
     - Par exemple : 93039 \^ &nbsp;\^ 2 \^ Noir \^\_000_001.png
 - Les images de variante de produit avec dimension de configuration doivent être intitulées «  **/Produits/\{NuméroProduit\} \^ \{Configuration\}\_000_001.png** »
-    - Par exemple : 93039 \^LB8017_000_001.png
+    - Par exemple : 93039 \^ LB8017_000_001.png
 
 > [!NOTE]
 > Pour les images de variantes de produits, si la valeur de dimension est vide, il doit y avoir deux espaces entre les curseurs dans le nom de fichier.

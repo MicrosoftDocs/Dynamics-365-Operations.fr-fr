@@ -2,7 +2,7 @@
 title: Vue d’ensemble du calcul de la taxe
 description: Cette rubrique explique la portée et les fonctionnalités générales de la fonctionnalité de calcul des taxes.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647055"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892422"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -64,6 +64,20 @@ Le calcul des taxes est déployé dans les zones géographiques Azure suivantes.
 
 > [!NOTE]
 > Le calcul des taxes ne prend pas en charge les versions antérieures de Dynamics 365, telles que Dynamics AX 2012, ou les déploiements sur site de Dynamics 365.
+
+## <a name="versions"></a>Versions
+Nous vous recommandons d'importer et de paramétrer votre configuration de calcul des taxes avec la version qui correspond à votre version de Finance ou de Supply Chain Management.
+
+| Version de Finance ou de Supply Chain Management | Version de la configuration de la taxe               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Configuration de taxe - Europe 30.12.82     |
+| 10.0.19         | Configuration du calcul des taxes 36.38.193 |
+| 10.0.20         | Configuration du calcul des taxes 40.43.208 |
+| 10.0.21         | Configuration du calcul des taxes 40.48.215 |
+| 10.0.22         | Configuration du calcul des taxes 40.48.215 |
+| 10.0.23         | Configuration du calcul des taxes 40.50.221 |
+| 10.0.24         | Configuration du calcul des taxes 40.50.225 |
+
 
 ## <a name="data-flow"></a>Flux de données
 
@@ -169,6 +183,10 @@ Les pays/régions suivants pour l'adresse principale d'une entité juridique son
 - Japon
 - Malaisie
 - Singapour
+
+Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.24 :
+
+- Mexique
 
 ## <a name="related-resources"></a>Ressources associées
 

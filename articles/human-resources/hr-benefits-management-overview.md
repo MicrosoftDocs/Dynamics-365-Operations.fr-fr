@@ -2,7 +2,7 @@
 title: Vue d’ensemble de la gestion des avantages
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de gestion des avantages dans Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417390"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892500"
 ---
 # <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages
 
@@ -109,21 +109,29 @@ Vous pouvez utiliser des programmes de crédits flexibles pour inscrire les empl
 
 ## <a name="configure-required-employee-information"></a>Configurer les informations requises sur les employés
 
-Avant de pouvoir inscrire des employés aux avantages sociaux, vous devez fournir les informations requises à leur sujet. Chaque employé doit avoir un poste. Vous devez inscrire les employés sous régime de rémunération fixe à leur date de début, ou ils doivent avoir un montant de salaire annuel. De plus, dans la section **Détails de l'emploi** de la page **Collaborateur**, vous devez sélectionner une valeur dans le champ **Fréquence de versement des avantages**.
+Avant de pouvoir inscrire des employés aux avantages sociaux, vous devez fournir les informations requises à leur sujet. 
 
-Si vous avez un employé qui reçoit une rémunération supplémentaire, comme des commissions, vous pouvez ajouter un montant **Salaire annuel des avantages sociaux** depuis l’enregistrement de l’employé. Human Resources utilise le montant **Salaire annuel des avantages sociaux** lors de la détermination des montants de couverture, au lieu du montant annuel de la rémunération fixe. Le **Salaire annuel avec avantages** doit être valide à la date de début de l’employé ou au début de la période de prestation, selon quelle date est la plus récente. Si une rémunération fixe et un montant de salaire annuel des avantages sociaux sont enregistrés pour un employé, le salaire annuel des avantages sociaux sera utilisé pour déterminer les montants de couverture.
+L’employé doit avoir un **Poste** affecté. Un **Poste** peut être affecté à l'employé sur les pages **Collaborateur** ou **Poste** en mettant à jour l'**Affectation du collaborateur**. 
+
+Les employés doivent ensuite souscrire à un régime de rémunération le jour où ils commencent, ou bénéficier d'un **salaire annuel et d'avantages sociaux**. Avant d'attribuer une **Rémunération fixe** à un employé, un **Poste** doit être attribué. 
+
+> [!NOTE] 
+> La **Date de début de la rémunération fixe** ne peut pas être antérieure à la **Date d'attribution du poste**.
+
+Sinon, si vous avez un employé qui reçoit une rémunération supplémentaire, comme des commissions, vous pouvez ajouter un montant **Salaire annuel avec avantages** depuis l’enregistrement de l’employé. Human Resources utilise le montant **Salaire annuel avec avantages** lors de la détermination des montants de couverture, au lieu du montant **Rémunération fixe annuelle**. Le **Salaire annuel avec avantages** doit être valide à la date de début de l’employé ou au début de la période de prestation, selon quelle date est la plus récente. Cependant, un poste n'est pas tenu d'attribuer le **Salaire annuel avec avantages**. Pour activer la fonctionnalité **Salaire annuel avec avantages**, allez sur la page **Paramètres partagés de Human Resource**, sur l'onglet **Gestion des avantages**. Cette fonctionnalité est désactivée par défaut.
+
+> [!IMPORTANT]
+> Si une **Rémunération fixe** et un **Salaire annuel avec avantages** sont entrés pour un employé, le **Salaire annuel avec avantages** sera utilisé pour déterminer les montants de couverture. Dans la section **Détails de l'emploi** de la page **Collaborateur**, vous devez sélectionner une valeur dans le champ **Fréquence de versement des avantages**.
 
 ## <a name="configure-optional-employee-information"></a>Configurer les informations facultatives sur les employés
-
 Lorsque vous créez un régime d’avantages sociaux qui utilise des taux basés sur le sexe ou l’âge, vous devez saisir une date de naissance et un sexe pour l’employé afin de calculer le coût des avantages sociaux.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Traiter les employés pour déterminer leur admissibilité
+Avant que les employés ne puissent souscrire à des régimes, le traitement de l'admissibilité est exécuté pour déterminer les plans auxquels ils sont éligibles. Vous pouvez afficher les résultats du processus d'admissibilité dans la **Visionneuse des résultats du traitement**. Pour plus d’informations, voir [Traitement de l'admissibilité à l'inscription](hr-benefits-process-enrollment-eligibility.md).
 
-Avant que les employés ne puissent souscrire à des régimes, le traitement de l'admissibilité est exécuté pour déterminer les plans auxquels ils sont éligibles. Vous pouvez afficher les résultats du processus d'admissibilité dans la visionneuse des résultats du traitement. Pour plus d’informations, voir [Traitement de l'admissibilité à l'inscription](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Les employés sélectionnent les régimes via le **Libre service employé** (facultatif)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Les employés sélectionnent les régimes via le libre service employé (facultatif)
-
-Lorsque les inscriptions sont ouvertes, que des employés sont embauchés ou qu'un événement de la vie se produit, les employés peuvent sélectionner ou mettre à jour leurs avantages via le libre service employé. Pour plus d’informations, voir [Configurer le libre service employé](hr-benefits-setup-employee-self-service.md).
+Lors des affiliations, lorsque des employés sont embauchés ou qu'un événement de la vie se produit, les employés peuvent sélectionner ou mettre à jour leurs avantages via le **Libre-service employé**. Pour plus d’informations, voir [Configurer le libre-service employé](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Confirmer les sélections de régime des employés
 

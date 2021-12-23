@@ -1,8 +1,8 @@
 ---
-title: Configurer le libre service employé
+title: Configurer le libre-service employé
 description: Dans Microsoft Dynamics 365 Human Resources, vous pouvez configurer des vignettes pour une navigation de niveau supérieur dans le libre-service employé.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,40 +15,37 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423302"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898438"
 ---
-# <a name="configure-employee-self-service"></a>Configurer le libre service employé
+# <a name="configure-employee-self-service"></a>Configurer le libre-service employé
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dans Microsoft Dynamics 365 Human Resources, vous pouvez configurer des vignettes pour une navigation de niveau supérieur dans le **libre-service employé**. Les vignettes de régime de prestations dirigent les utilisateurs vers les plans d’avantages auxquels ils sont éligibles.
 
-## <a name="set-up-a-benefit-plans-tile"></a>Paramétrage d’une vignette de plans d’avantage
+## <a name="set-up-a-benefit-plans-tile"></a>Paramétrage d’une vignette de régime d’avantage
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres du libre-service employé**.
 
 2. Sélectionnez l’onglet **Paramétrage d’une vignette de plans d’avantage**, puis sélectionnez **Nouveau**.
 
-3. Spécifiez les valeurs les champs suivants :
+3. Spécifiez des valeurs pour les champs suivants.
 
    | Champ | Description |
    | --- | --- |
+   | **Code de type de plan** | Type de régime qui s'affiche lorsque cette vignette est sélectionnée dans **Libre-service des avantages**. |
    | **ID vignette** | Identificateur unique de la vignette. |
-   | **Texte d'étiquette de vignette** | Texte qui sera affiché pour la vignette sur dans le **libre-service employé**. |
+   | **Texte d'étiquette de vignette** | Texte qui sera affiché pour la vignette dans le **Libre-service des avantages**. |
    | **Description** | Description de la vignette. |
-   | **Adresse Internet** | Saisissez l’URL de la page du **libre-service employé**. |
-   | **Taille de la vignette** | Taille de la vignette : petite, moyenne ou grande. |
-   | **Cible** | Spécifie si la page doit s’ouvrir dans une nouvelle fenêtre ou la fenêtre actuelle. |
    | **Image d’arrière-plan de la vignette** | URL de l’image à utiliser pour la vignette (facultatif). |
-   | **Commencement** | Date et heure de début auxquelles la vignette doit être disponible. |
-   | **Terminer** | Date et heure de fin auxquelles la vignette doit être disponible. |
+   | **Suivre la progression des affiliations** | Sélectionnez cette option pour suivre la progression de l'affiliation pour ce type de régime. Par exemple, vous pouvez avoir des régimes créés où **Type de régime = Autre**. Ces régimes peuvent être des régimes facultatifs pour lesquels vous ne souhaitez pas suivre la progression de l'affiliation. Si vous ne sélectionnez pas ce type de régime, il sera ignoré lors du suivi de la progression ou de l'achèvement de l'affiliation dans l'onglet **Affiliation**. Ce paramètre s'applique au type de régime sélectionné pour toutes les périodes et entités juridiques. |
 
-4. Sélectionnez **Enregistrer**.
+4. Cliquez sur **Enregistrer**.
 
 ## <a name="set-up-a-flex-credit-plan-tile"></a>Configuration d’une vignette de plan de crédit flexible
 
@@ -56,21 +53,18 @@ Dans Microsoft Dynamics 365 Human Resources, vous pouvez configurer des vignette
 
 2. Sélectionnez l’onglet **Paramétrage d’une vignette de plan de crédit flexible**, puis sélectionnez **Nouveau**.
 
-3. Spécifiez les valeurs les champs suivants :
+3. Spécifiez des valeurs pour les champs suivants.
 
    | Champ | Description |
    | --- | --- |
+   | **ID de crédit d’avantage** | Régimes du programme de crédit flexible qui s'affichent lorsque cette vignette est sélectionnée dans **Libre-service des avantages**. |
    | **ID vignette** | Identificateur unique de la vignette. |
-   | **Texte d'étiquette de vignette** | Texte qui sera affiché pour la vignette sur dans le **libre-service employé**. |
+   | **Texte d'étiquette de vignette** | Texte qui sera affiché pour la vignette dans le **Libre-service des avantages**. |
    | **Description** | Description de la vignette. |
-   | **Adresse Internet** | Saisissez l’URL de la page du **libre-service employé**. |
-   | **Taille de la vignette** | Taille de la vignette : petite, moyenne ou grande. |
-   | **Cible** | Spécifie si la page doit s’ouvrir dans une nouvelle fenêtre ou la fenêtre actuelle. |
    | **Image d’arrière-plan de la vignette** | URL de l’image à utiliser pour la vignette (facultatif). |
-   | **Commencement** | Date et heure de début auxquelles la vignette doit être disponible. |
-   | **Terminer** | Date et heure de fin auxquelles la vignette doit être disponible. |
+   | **Suivre la progression des affiliations** | Sélectionnez cette option pour suivre la progression de l'affiliation pour ce type de régime. Par exemple, vous pouvez avoir des régimes créés où **Type de régime = Autre**. Ces régimes peuvent être des régimes facultatifs pour lesquels vous ne souhaitez pas suivre la progression de l'affiliation. Si vous ne sélectionnez pas ce type de régime, il sera ignoré lors du suivi de la progression ou de l'achèvement de l'affiliation dans l'onglet **Affiliation**. Ce paramètre s'applique au type de régime sélectionné pour toutes les périodes et entités juridiques. |
 
-4. Sélectionnez **Enregistrer**.
+4. Cliquez sur **Enregistrer**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

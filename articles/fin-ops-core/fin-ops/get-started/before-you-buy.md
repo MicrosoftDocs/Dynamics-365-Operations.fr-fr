@@ -2,7 +2,7 @@
 title: Avant d’acheter
 description: Recommandation pas-à-pas à utiliser lorsque vous envisagez d’acheter Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce.
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757193"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874582"
 ---
 # <a name="before-you-buy"></a>Avant d’acheter
 
@@ -42,7 +42,7 @@ Les points suivants doivent être pris en compte lorsque vous choisissez l’opt
 - [Configuration requise pour les déploiements locaux](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Les déploiements en local ne sont pris en charge dans aucune infrastructure du cloud public, notamment Microsoft Azure.
+> Les déploiements en local ne sont pris en charge dans aucune infrastructure du cloud public, notamment Microsoft Azure. Cependant, ils sont pris en charge pour fonctionner sur [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) et sur [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Pour plus d’informations, voir [Options de déploiement](../../dev-itpro/deployment/choose-deployment-type.md).
 

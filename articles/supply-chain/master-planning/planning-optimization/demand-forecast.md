@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474842"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867245"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planification avec prévisions de la demande
 
@@ -84,11 +84,11 @@ Cette section fournit des informations sur les différentes méthodes utilisées
 
 Lorsque vous incluez une prévision dans un plan général, vous pouvez sélectionner la façon dont les besoins prévisionnels sont réduits lors de l’inclusion de la demande réelle. Notez que la planification principale exclut les besoins de prévision du passé, à savoir tous les besoins de prévision avant la date d’aujourd’hui.
 
-Pour inclure une prévision dans un plan général et sélectionner la méthode utilisée pour réduire les besoins prévisionnels, accédez à **Planification \> Paramétrage \> Plans \> Plans généraux**. Dans le champ **Modèle de prévision**, sélectionnez un modèle de prévision. Dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, sélectionnez une méthode. Les options suivantes sont disponibles :
+Pour inclure une prévision dans un plan général et sélectionner la méthode utilisée pour réduire les besoins prévisionnels, accédez à **Planification \> Paramétrage \> Plans \> Plans généraux**. Dans le champ **Modèle de prévision**, sélectionnez un modèle de prévision. Dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, sélectionnez une méthode. Les options disponibles sont les suivantes :
 
-- None
+- Aucune
 - Pourcentage – clé de réduction
-- Transactions – clé de réduction (pas encore prise en charge avec l’Optimisation de la planification)
+- Transactions – clé de réduction
 - Transactions – période dynamique
 
 Les sections suivantes fournissent des informations supplémentaires sur chaque option.

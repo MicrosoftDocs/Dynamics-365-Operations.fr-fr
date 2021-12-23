@@ -2,7 +2,7 @@
 title: Configurer un site d’e-commerce B2B
 description: Cette rubrique décrit comment configurer un site d’e-commerce interentreprises (B2B) dans Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713746"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891383"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Mettre en place un site e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Les sites de commerce électronique interentreprises (B2B) fournissent des fonctionnalités clés qui optimisent le workflow pour un utilisateur B2B. Cette rubrique décrit comment configurer un site d’e-commerce B2B dans Microsoft Dynamics 365 Commerce. Elle présente les modules et les paramètres de site qui doivent être configurés pour activer des scénarios spécifiques B2B.
 
@@ -306,6 +307,30 @@ Pour ajouter un module d’ajout rapide à une page de panier dans le générate
 
 > [!NOTE] 
 > Le module d’ajout rapide est disponible à partir de la version 10.0.17 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Ajouter un module d'achat en gros à une page de détails sur un produit
+
+Le module d'achat en gros sur une page de détails du produit (PDP) offre une expérience matricielle qui permet à un acheteur d'ajouter rapidement plusieurs variantes d'un produit au panier. Lorsqu'un utilisateur du site doit commander plusieurs variantes du même produit, cette expérience élimine le besoin de sélectionner la combinaison de dimensions de produit, de définir la quantité, d'ajouter la variante au panier, puis de répéter le processus pour d'autres combinaisons de dimensions de produit.
+
+Pour ajouter le module d'achat en gros sur une PDP dans le générateur de site Commerce, procédez comme suit.
+
+1. Accédez à **Modèles**, et sélectionnez le modèle de PDP de votre site.
+1. Sélectionnez **Modifier**.
+1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Achat en gros**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
+1. Accédez à **Pages**, et sélectionnez le PDP de votre site.
+1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans le volet de propriétés du module **Conteneur**, sous **Largeur**, sélectionnez **Remplir le conteneur**.
+1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Achat en gros**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
+
+> [!NOTE] 
+> Le module d'achat en gros est disponible à partir de la version 10.0.24 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

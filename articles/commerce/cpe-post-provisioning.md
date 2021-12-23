@@ -2,7 +2,7 @@
 title: Configurer un environnement d’évaluation Dynamics 365 Commerce
 description: Cette rubrique explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416477"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913725"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurer un environnement d’évaluation Dynamics 365 Commerce
 
@@ -39,6 +39,7 @@ Une fois que votre environnement d’évaluation Commerce a été mis en service
 1. Sélectionnez votre environnement dans la liste.
 1. Dans les informations de l’environnement à droite, cliquez sur **Se connecter à l’environnement**. Vous êtes alors dirigé vers le siège de Commerce.
 1. Assurez-vous que l’entité juridique **USRT** est sélectionnée dans l’angle supérieur droit.
+2. Accédez à **Paramètres Commerce > Paramètres de configuration** et assurez-vous qu'il existe une entrée pour **ProductSearch.UseAzureSearch** définie sur **true**. Si cette entrée est manquante, vous pouvez l'ajouter et exécuter **Base de données du canal > Synchronisation complète** pour l'unité Commerce Scale Unit associée à votre site Web de commerce électronique.
 
 Lors des activités post-mise en service au siège de Commerce, assurez-vous que l’entité juridique **USRT** est toujours sélectionnée.
 
@@ -105,6 +106,12 @@ Pour activer les tâches dans Commerce, procédez comme suit :
     1. Sélectionner l’enregistrement.
     1. Dans le volet Actions, sous **Traitement par lots**, sélectionnez **Modifier le statut**.
     1. Sélectionnez **Annulation**, puis **OK**.
+
+1. Si le statut de la tâche est **Retenu**, procédez comme suit :
+
+    1. Sélectionner l’enregistrement.
+    1. Dans le volet Actions, sous **Traitement par lots**, sélectionnez **Modifier le statut**.
+    1. Sélectionnez **En attente**, puis sélectionnez **OK**.
 
 Si vous le souhaitez, vous pouvez également définir l’intervalle de récurrence sur une (1) minute pour les tâches suivantes :
 

@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700135"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890854"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -79,7 +79,7 @@ Pour prendre en charge ce nouveau comportement, une nouvelle colonne pour le sta
 
 - **Vide** – L’image sans statut indique que la ligne a été correctement enregistrée par le système.
 - **Traitement en attente** – Ce statut indique que les modifications de la ligne n’ont pas encore été enregistrées par le serveur mais se trouvent dans une file d’attente de modifications qui doivent être traitées. Avant de prendre des mesures en dehors de la grille, vous devez attendre que toutes les modifications en attente soient traitées. En outre, le texte de ces lignes est en italique pour indiquer le statut non enregistré des lignes. 
-- **Etat non valide** – Ce statut indique qu’un avertissement ou un message a été déclenché pendant le traitement de la ligne et qu’il a pu empêcher le système d’enregistrer les modifications dans cette ligne. Dans l’ancienne grille, si l’enregistrement avait échoué,vous étiez obligé de retourner dans la ligne pour résoudre le problème immédiatement. Cependant, dans la nouvelle grille, vous êtes averti qu’un problème de validation a été rencontré, mais vous pouvez décider quand vous souhaitez résoudre les problèmes de la ligne. Lorsque vous êtes prêt à résoudre un problème, vous pouvez placer manuellement le focus sur la ligne. Vous pouvez également sélectionner l’action **Résoudre ce problème**. Cette action ramène immédiatement le focus sur la ligne qui pose problème et vous permet d’effectuer des modifications à l’intérieur ou à l’extérieur de la grille. Notez que le traitement des lignes en attente suivantes est arrêté jusqu’à ce que cet avertissement de validation soit résolu. 
+- **Etat non valide** – Ce statut indique qu’un avertissement ou un message a été déclenché pendant le traitement de la ligne et qu’il a pu empêcher le système d’enregistrer les modifications dans cette ligne. Dans l’ancienne grille, si l’enregistrement avait échoué, vous étiez obligé de retourner dans la ligne pour résoudre le problème immédiatement. Cependant, dans la nouvelle grille, vous êtes averti qu’un problème de validation a été rencontré, mais vous pouvez décider quand vous souhaitez résoudre les problèmes de la ligne. Lorsque vous êtes prêt à résoudre un problème, vous pouvez placer manuellement le focus sur la ligne. Vous pouvez également sélectionner l’action **Résoudre ce problème**. Cette action ramène immédiatement le focus sur la ligne qui pose problème et vous permet d’effectuer des modifications à l’intérieur ou à l’extérieur de la grille. Notez que le traitement des lignes en attente suivantes est arrêté jusqu’à ce que cet avertissement de validation soit résolu. 
 - **En pause** – Ce statut indique que le traitement par le serveur est interrompu, car la validation de la ligne a déclenché une boîte de dialogue contextuelle qui nécessite une entrée utilisateur. Étant donné que l’utilisateur peut entrer des données dans une autre ligne, la boîte de dialogue contextuelle n’est pas immédiatement présentée à cet utilisateur. Au lieu de cela, elle sera affichée lorsque l’utilisateur choisira de reprendre le traitement. Ce statut est accompagné d’une notification qui informe l’utilisateur de la situation. La notification comprend une action **Reprendre le traitement** qui déclenchera la boîte de dialogue contextuelle.  
     
 Lorsque les utilisateurs saisissent des données avant l’emplacement où le serveur effectue son traitement, ils peuvent s’attendre à quelques dégradations dans l’expérience de saisie de données, comme un manque de recherches, de validation au niveau du contrôle et de saisie de valeurs par défaut. Les utilisateurs qui ont besoin d’une liste déroulante pour trouver une valeur sont encouragés à attendre que le serveur rattrape la ligne actuelle. La validation au niveau du contrôle et la saisie des valeurs par défaut se produisent également lorsque le serveur traite cette ligne.   
@@ -104,7 +104,7 @@ Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon 
 -  Nombre de lignes de données dans ce groupe
 -  Sous-totaux pour toute colonne configurée pour afficher les totaux
 
-Lorsque [Vues enregistrées ](saved-views.md)est activé, ce regroupement peut être enregistré comme personnalisation dans le cadre d’une vue pour un accès rapide la prochaine fois que vous visiterez la page.  
+Lorsque [Vues enregistrées ](saved-views.md) est activé, ce regroupement peut être enregistré comme personnalisation dans le cadre d’une vue pour un accès rapide la prochaine fois que vous visiterez la page.  
 
 ### <a name="multiple-levels-of-grouping"></a>Plusieurs niveaux de regroupement
 Après avoir regroupé les données dans une seule colonne, vous pouvez regrouper les données dans une colonne différente en sélectionnant **Regrouper selon cette colonne** sur la colonne souhaitée. Ce processus peut être répété jusqu’à ce que vous disposiez de 5 niveaux de regroupement imbriqués, ce qui correspond à la profondeur maximale prise en charge. À ce stade, vous ne pourrez plus regrouper par colonnes supplémentaires.  
@@ -119,6 +119,9 @@ De la même manière que vous pouvez sélectionner (ou désélectionner) toutes 
 
 ### <a name="hiding-column-names"></a>Masquer les noms de colonnes
 Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. Vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Regroupement sur des colonnes de date et d'heure
+À partir de la version 10.0.24, pour les champs Date ou DateHeure, l'option a été ajoutée pour regrouper par Année, Mois ou Jour. Le groupe « valeur » dans la ligne d'en-tête correspondante correspondra au format de ce champ. De plus, pour les champs DateHeure et Heure, vous pourrez regrouper par heure, minute ou seconde.    
 
 ## <a name="freezing-columns"></a>Figer les colonnes
 Certaines colonnes d’une grille peuvent être suffisamment importantes en termes de contexte que vous ne souhaitez pas qu’elles défilent hors de la vue. Au lieu de cela, vous voulez que les valeurs de ces colonnes soient toujours visibles. La fonctionnalité **Figer les colonnes dans la grille** offre cette flexibilité aux utilisateurs. 

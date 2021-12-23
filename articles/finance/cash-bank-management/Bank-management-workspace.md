@@ -1,7 +1,7 @@
 ---
 title: Espace de travail de la gestion des banques
-description: Cette rubrique fournit des informations sur l’espace de travail Gestion des banques. Cet espace de travail affiche les informations concernant les comptes bancaires de la société, et inclut une vue de synthèse et une page Analyses. La vue Synthèse affiche des vignettes de synthèse, des informations sur les comptes bancaires, un graphique du solde et des informations associées. La page Analyses utilise les fonctionnalités de Microsoft Power BI pour afficher les éléments visuels associés aux soldes de comptes bancaires.
-author: saraschi2
+description: Cette rubrique fournit des informations sur l’espace de travail Gestion des banques. Cet espace de travail affiche des informations concernant les comptes bancaires de la société.
+author: roschlom
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 18171dd17165268fe0f7ac0cf7b3b225f679b9b6b7aeafb7789e837059cf5d79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755712"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883335"
 ---
 # <a name="bank-management-workspace"></a>Espace de travail de la gestion des banques
 

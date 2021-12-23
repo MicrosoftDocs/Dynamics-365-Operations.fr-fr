@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: zezhangzhao
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8f0e027761a42871f9fc543319ba47fe457f23b8b7f937b8f847cc16922610e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737257"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883566"
 ---
 # <a name="project-invoicing"></a>Facturation de projet
 
@@ -58,7 +58,7 @@ Vous pouvez créer des propositions de facture pour les transactions suivantes :
 
 Vous pouvez créer des transactions de frais dans une proposition de facture. Vous pouvez également modifier le prix de vente sur les transactions horaires, de dépense, d’article, et de frais. Lorsque vous validez une proposition de facture, les prix et les transactions mis à jour sont ajoutés aux états de projet et à l’historique des transactions. 
 
-Pour créer plusieurs factures client pour un projet, vous devez créer une proposition de facture pour chaque facture. Par exemple, vous pouvez créer des factures en fonction du type de transaction. Pour spécifier des heures sur une facture client et des articles sur une autre facture, vous devez créer des propositions de facture distinctes pour les transactions horaires et pour les transactions de frais. 
+Pour créer plusieurs factures client pour un projet, vous devez créer une proposition de facture pour chaque facture. Par exemple, vous pouvez créer des factures en fonction du type de transaction. Pour spécifier des heures sur une facture client et des articles sur une facture, vous devez créer des propositions de facture distinctes pour les transactions horaires et pour les transactions de frais. 
 
 Si un projet a plusieurs sources de financement, vous pouvez créer une proposition de facture distincte pour chaque source de financement. Sur la page **Répartitions des règles de financement**, vous pouvez définir le pourcentage du montant de la transaction à attribuer à chaque source de financement, et la source permettant de valider les différences d’arrondi.
 

@@ -2,7 +2,7 @@
 title: Vue d’ensemble des contrôles budgétaires
 description: Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d'optimiser la gestion des ressources financières de votre organisation.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772877"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890698"
 ---
 # <a name="budget-control-overview"></a>Vue d’ensemble des contrôles budgétaires
 
@@ -49,7 +49,7 @@ Vous pouvez configurer le contrôle budgétaire en fonction de plusieurs facteur
 - **Calcul des fonds disponibles** – Les documents tels que les demandes d’achat (engagements préalables) et les commandes fournisseur (engagements) doivent-ils être pris en compte dans le calcul des fonds disponibles ? Les documents présentant le statut de Brouillon doivent-ils être pris en compte dans le calcul ?
 - **Autorisation de dépassement** – Qui est autorisé à dépasser le budget disponible ?
 
-Le contrôle budgétaire fait partie intégrante de l’application. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajutsements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l’activité budgétaire et l’activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
+Le contrôle budgétaire fait partie intégrante de l’application. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajustements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l’activité budgétaire et l’activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
 
 ## <a name="configuring-budget-control"></a>Configuration du contrôle budgétaire
 
@@ -78,9 +78,7 @@ Ensuite, sur l’onglet **Autorisations de dépassement de budget**, vous pouvez
 Ensuite, sous l’onglet **Fonds budgétaires disponibles**, vous pouvez définir la formule utilisée pour calculer les fonds budgétaires disponibles. Selon la manière dont une organisation gère ses ressources financières par précaution, ou selon les règlementations ou les exigences du secteur, le calcul peut inclure le brouillon ou des documents non validés. 
 
 > [!NOTE]
-> Si le calcul est modifié lors d’un cycle budgétaire, les modifications n’affecteront pas les documents qui ont pu passer précédemment des examens de contrôle budgétaire et qui ont été validés ou complétés. Dans la version 10.0.17 de l'application, une nouvelle fonctionnalité **Ne suivre que les montants dans le calcul des fonds budgétaires disponibles** est devenue disponible pour les clients avec restrictions. Cette fonctionnalité vous permet de modifier les données suivies dans les tableaux BudgetSourceTracking. Lorsque cette fonctionnalité est activée, les montants ne sont stockés que s'ils sont sélectionnés pour être utilisés dans le calcul des fonds budgétaires disponibles. Pour demander que la fonctionnalité **Ne suivre que les montants dans le calcul des fonds budgétaires disponibles** soit activée, contactez le support. 
-
-### <a name="documents-and-journals"></a>Documents et journaux
+> Si le calcul est modifié lors d’un cycle budgétaire, les modifications n’affecteront pas les documents qui ont pu passer précédemment des examens de contrôle budgétaire et qui ont été validés ou achevés. Une fonctionnalité intitulée **Ne suivre que les montants dans le calcul des fonds budgétaires disponibles** vous permet de modifier les données faisant l'objet d'un suivi dans les tableaux BudgetSourceTracking. Lorsque cette fonctionnalité est activée, les montants ne sont stockés que s'ils sont sélectionnés pour être utilisés dans le calcul des fonds budgétaires disponibles. Pour plus d’informations, voir [Fonds budgétaires disponibles](budget-funds-available.md).
 
 Puis, sur la page **Documents et journaux**, vous pouvez sélectionner les documents source et les journaux qui seront soumis à des examens de contrôle budgétaire et si les examens surviendront au niveau d’entrée de ligne ou pour l’intégralité du document. 
 

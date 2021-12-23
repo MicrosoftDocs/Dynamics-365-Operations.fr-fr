@@ -1,7 +1,7 @@
 ---
 title: Amortissements dégressifs de 200 %
-description: Cet article propose une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
-author: saraschi2
+description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f7d821dbd6603eba7a228e5caa6def6d783e4774c72687839bd198f4e228633
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767002"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883491"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
 [!include [banner](../includes/banner.md)]
 
-Cet article propose une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
+Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 200 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations qui sont affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. Le pourcentage est calculé sur la base de la durée de vie de l’immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 40 pourcent (200 % ÷ 5). 
 

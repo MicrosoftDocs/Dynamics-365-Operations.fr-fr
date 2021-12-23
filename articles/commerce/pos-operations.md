@@ -2,7 +2,7 @@
 title: Opérations du point de vente (PDV), en ligne et hors connexion
 description: Cette rubrique fournit les détails relatifs aux opérations du PDV dans Dynamics 365 Commerce. Elle spécifie où dans l’application les opérations peuvent être invoquées, et si elles sont disponibles dans le mode hors ligne.
 author: jblucher
-ms.date: 02/21/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc4835258c7a1968c51e4d1a3a4d0eb33aaf2cddf31efd965adff0ac80aa4ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88daca466e0e01bf3870b6eeee0628e0c159fea3
+ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745282"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7875475"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
 [!include [banner](includes/banner.md)]
 
-La plupart des actions que l’utilisateur exécute dans le point de vente (PDV) sont considérées comme des opérations. Les opérations sont configurées et gérées dans les services administratifs de Dynamics 365 Commerce. De nombreuses opérations peuvent être ajoutées aux boutons du groupe de boutons du PDV. Les utilisateurs peuvent ensuite sélectionner les boutons pour appeler les opérations et effectuer leur fonction. D’autres opérations font partie de l’application de PDV principale, et sont appelées par les boutons à l’écran ou dans le cadre d’autres workflows ou processus.
+La plupart des actions que les utilisateurs exécutent dans le point de vente (PDV) sont considérées comme des opérations. Les opérations sont configurées et gérées dans les services administratifs de Dynamics 365 Commerce. De nombreuses opérations peuvent être ajoutées aux boutons du groupe de boutons du PDV. Les utilisateurs peuvent ensuite sélectionner les boutons pour appeler les opérations et effectuer leur fonction. D’autres opérations font partie de l’application de PDV principale, et sont appelées par les boutons à l’écran ou dans le cadre d’autres workflows ou processus.
 
-Le tableau suivant fournit des détails su les opérations disponibles dans Modern POS et Cloud POS. Le tableau spécifie où dans l’application les opérations peuvent être invoquées, et si elles sont disponibles lorsque le PDV est dans le mode hors ligne.
+Le tableau suivant fournit des détails sur les opérations disponibles dans Modern POS et Cloud POS. Le tableau spécifie où dans l’application les opérations peuvent être invoquées, et si elles sont disponibles lorsque le PDV est dans le mode hors ligne.
 
 Certains opérations ne sont actuellement pas disponibles dans Modern POS ou Cloud POS. Certaines de ces opérations sont des opérations spécifiques aux paramètres régionaux qui nécessitent des extensions et une configuration supplémentaires. D’autres sont des fonctions de Microsoft Dynamics AX 2012 qui ne sont actuellement pas prises en charge.
 
@@ -71,19 +71,18 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 640 | Effacer le représentant sur la ligne | Permet de supprimer le groupe de ventes de commission (commercial) de la ligne sélectionnée actuellement. | Oui | Oui | Non | Oui | Non |
 | 121 | Effacer le vendeur | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Non |
 | 1 055 | Clôturer l’équipe de travail | Permet de fermer l’équipe actuelle, d’imprimer un Z de caisse, et de déconnecter l’utilisateur du système. | Oui | Oui | Oui | Non | Non |
-| 139 | Conclure la transaction | Invite l’utilisateur à sélectionner un mode de paiement | Oui | Oui | Non | Oui | Non |
-| 620 | Créer la commande client | Permet de convertir la transaction de PDV en commande client. | Oui | Oui | Non | Oui\* | Non |
+| 139 | Conclure la transaction | Invite l’utilisateur à sélectionner un mode de paiement | Oui | Oui | N° | Oui | N° |
 | 925 | Copier le chèque bancaire | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Oui |
 | 620 | Créer la commande client | Permet de convertir la transaction de PDV en commande client. | Oui | Oui | Non | Oui\* | Non |
-| 621 | Créer un devis | Permet de convertir la transaction de PDV en devis de vente. | Oui | Oui | Non | Oui\* | Non |
-| 636 | Créer une transaction de vente au détail | Cette opération permet à l’utilisateur de créer une transaction de vente standard lorsque le comportement par défaut du PDV consiste à créer des commandes client. | Oui | Oui | Non | Oui | Non |
+| 621 | Créer un devis | Permet de convertir la transaction de PDV en devis de vente. | Oui | Oui | N° | Oui\* | N° |
+| 636 | Créer une transaction de vente au détail | Cette opération permet de créer une transaction de vente standard lorsque le comportement par défaut du PDV consiste à créer des commandes client. | Oui | Oui | Non | Oui | Non |
 | 600 | Client | Permet d’ajouter le client spécifié à la transaction. | Non | Non | Non | Oui | Non |
 | 1 100 | Dépôt sur compte client | Permet d’effectuer un paiement sur un compte client. | Oui | Oui | Oui | Oui | Oui |
-| 612 | Ajout d’un client | Cette opération permet à l’utilisateur de créer un enregistrement client. | Oui | Oui | Oui | Oui† | Non |
-| 603 | Effacement du client | Permet de supprimer le client de la transaction actuelle. | Oui | Oui | Non | Oui | Non |
-| 602 | Recherche du client | Cette opération permet à l’utilisateur de rechercher un enregistrement client en accédant à la page de recherche client dans le PDV. | Oui | Oui | Oui | Oui | Non |
-| 609 | Transactions client | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Non |
-| 917 | Statut de connexion de la base de données | Cette opération permet à l’utilisateur d’afficher les paramètres de connexion actuels, et de basculer entre les modes en ligne et hors ligne. | Oui | Oui | Oui | Oui | Non |
+| 612 | Ajout d’un client | Cette opération permet de créer un enregistrement client. | Oui | Oui | Oui | Oui† | N° |
+| 603 | Effacement du client | Permet de supprimer le client de la transaction actuelle. | Oui | Oui | N° | Oui | N° |
+| 602 | Recherche de client | Cette opération permet de rechercher un enregistrement client en accédant à la page de recherche client dans le PDV. | Oui | Oui | Oui | Oui | Non |
+| 609 | Transactions client | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
+| 917 | Statut de connexion de la base de données | Cette opération permet d’afficher les paramètres de connexion actuels, et de basculer entre les modes en ligne et hors ligne. | Oui | Oui | Oui | Oui | Non |
 | 1 200 | Déclarer le montant de départ | Permet de déclarer le montant présent dans le tiroir-caisse en début de journée ou d’équipe de travail. | Oui | Oui | Oui | Oui | Non |
 | 132 | Remplacement de dépôt | Permet de remplacer le dépôt par défaut dans les commandes client. | Oui | Oui | Non | Oui\* | Non |
 | 913 | Désactivation du mode de configuration | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Non |
@@ -95,20 +94,20 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 614 | Modifier la commande client | Permet de rappeler la commande sélectionnée afin qu’elle puisse être modifiée dans le PDV. | Non | Non | Non | Non | Non |
 | 615 | Modifier le devis | Permet de rappeler le devis sélectionné afin qu’il puisse être modifié dans le PDV. | Non | Non | Non | Non | Non |
 | 518 | Comptes de dépenses | Permet d’enregistrer la somme d’argent retirée du tiroir-caisse pour des dépenses occasionnelles. | Oui | Oui | Oui | Oui | Non |
-| 919 | Connexion étendue | Permet d’affecter ou de supprimer l’autorisation de se connecter via la lecture d’un code-barres ou le passage d’une carte. | Oui | Oui | Oui | Oui | Non |
-| 1201 | Entrée de fond de caisse | Cette opération permet à l’utilisateur d’ajouter de l’argent supplémentaire pour le tiroir-caisse ou à l’équipe actuels. | Oui | Oui | Oui | Oui | Non |
+| 919 | Connexion étendue | Permet d’affecter ou de supprimer l’autorisation de se connecter via la lecture d’un code-barres ou le passage d’une carte. | Oui | Oui | Oui | Oui | N° |
+| 1201 | Entrée de fond de caisse | Cette opération permet d’ajouter de l’argent pour l’équipe ou le tiroir-caisse actuel. | Oui | Oui | Oui | Oui | Non |
 | 1 218 | Forcer le déverrouillage du périphérique | Le système utilise cette opération en interne pour déverrouiller les périphériques du PDV. | Non applicable | Non applicable | Non applicable | Non applicable | Non |
 | 520 | Solde de la carte cadeau | Permet d’afficher le solde d’une carte cadeau. | Oui | Oui | Non | Non | Non |
 | 708 | Désactiver le périphérique | Permet de désactiver le périphérique actuel, afin qu’il ne puisse pas être utilisé comme caisse enregistreuse de PDV. | Non | Non | Non | Non | Non |
 | 804 | Opération entrante | Accédez aux fonctionnalités de gestion des stocks entrants. | Oui | Non | Oui | Non| Non |
 | 517 | Comptes de revenus | Permet d’enregistrer la somme d’argent placée dans le tiroir-caisse pour un autre motif qu’une vente. | Oui | Oui | Oui | Oui | Non |
-| 801 | Recherche de stock | Permet de rechercher les quantités disponibles, en commande et disponibles à la vente (DAV) pour le magasin actuel et d’autres lieux disponibles. | Oui | Oui | Oui | Non | Non |
-| 122 | Commentaire sur la facture | Cette opération permet à l’utilisateur d’entrer un commentaire sur la transaction actuelle. | Oui | Oui | Non | Oui | Non |
+| 801 | Recherche de stock | Permet de rechercher les quantités disponibles, en commande et disponibles à la vente (DAV) pour le magasin actuel et d’autres lieux disponibles. | Oui | Oui | Oui | N° | N° |
+| 122 | Commentaire sur la facture | Cette opération permet d'entrer un commentaire sur la transaction actuelle. | Oui | Oui | N° | Oui | Non |
 | 511 | Émettre un avoir | Permet de publier un avoir pour fournir un N° document au lieu d’un remboursement. | Oui | Oui | Non | Non | Non |
 | 512 | Émettre une carte cadeau | Permet d’émettre une nouvelle carte cadeau pour le montant spécifié. | Oui | Oui | Non | Non | Non |
 | 625 | Émettre une carte de fidélité | Permet d’émettre une carte de fidélité à un client afin qu’il puisse participer au programme de fidélité du magasin. | Oui | Oui | Oui | Non | Non |
 | 300 | Montant de la remise ligne | Permet d’entrer un montant de la remise pour une ligne de la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |
-| 301 | Pourcentage de la remise ligne | Permet d’entrer un pourcentage de rermise pour une ligne de la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |
+| 301 | Pourcentage de la remise ligne | Permet d’entrer un pourcentage de remise pour une ligne de la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |
 | 703 | Verrouiller la caisse enregistreuse | Permet de verrouiller le registre actuel, afin qu’il ne puisse pas être utilisé, mais sans déconnecter l’utilisateur actuel. | Non | Non | Non | Oui | Non |
 | 701 | Déconnexion | Permet de déconnecter l’utilisateur actuel du registre. | Oui | Oui | Oui | Oui | Non |
 | 521 | Solde de points de la carte de fidélité | Permet d’afficher le solde de points de la carte de fidélité spécifiée. | Oui | Oui | Non | Non | Non |
@@ -146,43 +145,43 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 926 | Imprimer une étiquette de rayon | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Non |
 | 1 056 | Imprimer X | Permet d’imprimer un X de caisse pour l’équipe actuelle. | Oui | Oui | Oui | Non | Non |
 | 103 | Commentaire produit | Permet d’ajouter un commentaire à la ligne sélectionnée dans la transaction. | Oui | Oui | Non | Oui | Non |
-| 100 | Vente de produits | Permet d’ajouter un produit spécifié à la transaction. | Oui | Oui | Oui | Oui | Non |
-| 108 | Recherche du produit | Cette opération permet à l’utilisateur de rechercher un produit en accédant à la page de recherche de produits dans le PDV. | Oui | Oui | Oui | Oui | Non |
-| 633 | Date d’expiration du devis | Cette opération permet à l’utilisateur d’afficher ou de modifier la date d’expiration sur un devis de vente. | Oui | Oui | Non | Oui\* | Non |
+| 100 | Vente de produits | Permet d’ajouter un produit spécifié à la transaction. | Oui | Oui | Oui | Oui | N° |
+| 108 | Recherche de produits | Cette opération permet de rechercher un produit en accédant à la page de recherche produit dans le PDV. | Oui | Oui | Oui | Oui | N° |
+| 633 | Date d’expiration du devis | Cette opération permet d’afficher ou de modifier la date d’expiration sur un devis. | Oui | Oui | Non | Oui\* | Non |
 | 627 | Recalculer | Permet de recalculer toutes les lignes et taxes de commande client, selon la configuration actuelle. | Oui | Oui | Non | Oui\* | Non |
-| 143 | Recalculer les frais | Recalculez les frais automatiques appliqués à la commande. | Oui | Oui | Non | Non| Non |
-| 515 | Rappeler la commande | Cette opération permet à l’utilisateur de rechercher et de rappeler des commandes client et des devis de vente. | Oui | Oui | Oui | Non | Non |
-| 504 | Rappeler une transaction | Cette opération permet à l’utilisateur de rappeler une transaction préalablement interrompue dans le magasin actuel. | Oui | Oui | Non | Oui‡ | Non |
+| 143 | Recalculer les frais | Recalculez les frais automatiques appliqués à la commande. | Oui | Oui | N° | N°| N° |
+| 515 | Rappeler la commande | Cette opération permet de rechercher et de rappeler des commandes client et des devis. | Oui | Oui | Oui | N° | N° |
+| 504 | Rappeler une transaction | Cette opération permet de rappeler une transaction préalablement interrompue dans le magasin actuel. | Oui | Oui | Non | Oui‡ | Non |
 | 305 | Rembourser les points de fidélité | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Oui |
-| 635 | Rembourser les frais d’expédition | Cette opération permet à l’utilisateur de rembourser les frais d’expédition d’une commande annulée. | Non | Non | Non | Non | Non |
+| 635 | Rembourser les frais d’expédition | Cette opération permet de rembourser les frais d'expédition sur une commande annulée. | N° | N° | N° | N° | N° |
 | 644 | Supprimer le code coupon | Permet d’inviter l’utilisateur à supprimer des coupons en les sélectionnant dans une liste de coupons actuellement associés à la transaction. | Oui | Oui | Non | Oui | Non |
 | 1 057 | Réimprimer Z | Permet de réimprimer le Z de caisse pour l’équipe précédente ou une équipe sélectionnée. | Oui | Oui | Oui | Non | Non |
-| 1 216 | Entrer un nouveau mot de passe | Cette opération permet à un utilisateur ayant une autorisation de réinitialisation de mot de passe de réinitialiser le mot de passe d’un autre employé à l’aide d’un mot de passe temporaire. | Oui | Oui | Oui | Non | Non |
-| 1219 | Ouvrir une URL dans PDV | Cette opération permet à un utilisateur d’ouvrir une URL configurée par un administrateur dans le PDV. | Oui | Oui | Oui | Oui | Non | 
+| 1 216 | Entrer un nouveau mot de passe | Cette opération permet à un utilisateur ayant une autorisation de réinitialisation de mot de passe de réinitialiser le mot de passe d’un autre employé à l’aide d’un mot de passe temporaire. | Oui | Oui | Oui | N° | N° |
+| 1219 | Ouvrir une URL dans le PDV | Cette opération permet d'ouvrir une URL configurée par l'administrateur dans le PDV. | Oui | Oui | Oui | Oui | N° |
 | 109 | Retourner le produit | Permet d’effectuer un retour de produits individuels. Le prochain produit scanné est affiché comme étant un produit retourné avec une quantité et un prix négatifs. | Oui | Oui | Non | Oui | Non |
 | 114 | Transaction de retour | Permet de rappeler une transaction précédente par son numéro de ticket de caisse pour retourner certains ou tous les produits. | Oui | Oui | Oui | Oui§ | Non |
 | 1 211 | Mise en coffre-fort | Permet de déplacer l’argent de la caisse vers un coffre-fort. | Oui | Oui | Oui | Oui | Non |
-| 516 | Facture client | Cette opération permet au client d’effectuer des paiements pour la facture client sélectionnée. | Oui | Oui | Non | Non | Non |
-| 502 | Commercial | Cette opération permet à l’utilisateur de définir la valeur **Acheteur** sur une commande client pour des commandes client dans le PDV. | Oui | Oui | Non | Oui\* | Non |
+| 516 | Facture client | Cette opération permet au client d’effectuer des paiements pour la facture client sélectionnée. | Oui | Oui | N° | N° | N° |
+| 502 | Commercial | Cette opération permet de définir la valeur **Acheteur** sur une commande client pour des commandes client dans le PDV. | Oui | Oui | Non | Oui\* | Non |
 | 2000 | Gestion du programme | Cette opération n’est pas encore prise en charge. | Oui | Oui | Oui | Non | Non |
 | 2001 | Demandes de programme | Cette opération n’est pas encore prise en charge. | Oui | Oui | Oui | Non | Non |
 | 622 | Rechercher des commandes | Cette opération permet aux utilisateurs de préconfigurer des boutons du PDV pour effectuer des recherches par article, client ou catégorie. | Oui | Oui | Oui | Oui | Non |
-| 1 213 | Rechercher l’adresse d’expédition | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Non |
-| 709 | Sélectionner une station matérielle | Cette opération permet à l’utilisateur de sélectionner une station matérielle dans une liste de stations matérielles disponibles. | Oui | Oui | Oui | Oui | Non |
-| 637 | Définir le représentant par défaut sur la transaction | Cette opération permet à l’utilisateur de sélectionner l’un des groupes de ventes de commission admissibles (commerciaux) comme commercial par défaut pour des lignes ajoutées ultérieurement. | Oui | Oui | Non | Oui | Non |
-| 105 | Définir la quantité | Permet de modifier la quantité d’une ligne de la transaction. | Oui | Oui | Non | Oui | Non |
-| 638 | Définir le représentant sur la ligne | Cette opération permet à l’utilisateur de sélectionner l’un des groupes de ventes de commission admissibles (commerciaux) pour la ligne sélectionnée actuellement. | Oui | Oui | Non | Oui | Non |
+| 1 213 | Rechercher l’adresse d’expédition | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
+| 709 | Sélectionner hardware station | Cette opération permet de sélectionner une station matérielle dans une liste de stations matérielles disponibles. | Oui | Oui | Oui | Oui | N° |
+| 637 | Définir le représentant par défaut sur la transaction | Cette opération permet de sélectionner l’un des groupes de ventes de commission admissibles (commerciaux) comme commercial par défaut pour des lignes ajoutées ultérieurement. | Oui | Oui | Non | Oui | Non |
+| 105 | Définir la quantité | Permet de modifier la quantité d’une ligne de la transaction. | Oui | Oui | N° | Oui | N° |
+| 638 | Définir le représentant sur la ligne | Cette opération permet de sélectionner l’un des groupes de ventes de commission admissibles (commerciaux) pour la ligne sélectionnée actuellement. | Oui | Oui | Non | Oui | Non |
 | 630 | Expédier tous les produits | Permet de définir le mode d’exécution **Expédition** pour toutes les lignes. | Oui | Oui | Non | Oui\* | Non |
 | 629 | Expédier les produits sélectionnés | Permet de définir le mode d’exécution sur **Expédition** pour les lignes sélectionnées. | Oui | Oui | Non | Oui\* | Non |
-| 115 | Afficher le journal | Permet d’afficher le journal du magasin. Vous pouvez afficher les transactions, imprimer les reçus et les reçus de cadeaux, et rappeler les retours. | Oui | Oui | Oui | Oui\*\* | Non |
-| 802 | Inventaire | Cette opération permet à l’utilisateur de créer ou de modifier les journaux d’inventaire pour le stock physique ou les inventaires tournants. | Oui | Oui | Oui | Non | Non |
+| 115 | Afficher le journal | Permet d’afficher le journal du magasin. Vous pouvez afficher les transactions, imprimer les reçus et les reçus de cadeaux, et rappeler les retours. | Oui | Oui | Oui | Oui\*\* | N° |
+| 802 | Inventaire | Cette opération permet de créer ou de modifier les journaux d’inventaire pour le stock physique ou les inventaires tournants. | Oui | Oui | Oui | Non | Non |
 | 401 | Sous-menu | Cette opération dirige l’utilisateur vers un autre groupe de boutons lié. | Oui | Oui | Oui | Oui | Non |
 | 1 054 | Suspendre l’équipe de travail | Permet d’interrompre l’équipe actuelle, afin qu’une nouvelle équipe ou une autre équipe puisse être activée dans le registre actuel. | Oui | Oui | Oui | Non | Non |
 | 503 | Interrompre la transaction | Permet d’interrompre la transaction de vente actuelle, afin de pouvoir la rappeler plus tard dans le magasin. | Oui | Oui | Non | Oui‡ | Non |
-| 1004 | Enregistreur de tâches | Permet d’ouvrir l’enregistreur de tâches pour enregistrer les étapes procédurales dans le PDV. | Non | Non | Non | Oui | Non |
-| 1 052 | Comptage de caisse | Cette opération permet à l’utilisateur de spécifier la somme d’argent dans le tiroir-caisse pour chaque mode de paiement compté. | Oui | Oui | Oui | Oui | Non |
-| 1 210 | Vider la caisse | Cette opération permet à l’utilisateur de supprimer de l’argent supplémentaire du tiroir-caisse ou de l’équipe actuelle. | Oui | Oui | Oui | Oui | Non |
-| 920 | Horloge de pointage | Cette opération permet aux utilisateurs de pointer à l’arrivée/la sortie des équipes et des pauses. | Oui | Oui | Oui | Non | Non |
+| 1004 | Enregistreur de tâches | Permet d’ouvrir l’enregistreur de tâches pour enregistrer les étapes procédurales dans le PDV. | N° | N° | N° | Oui | N° |
+| 1 052 | Comptage de caisse | Cette opération permet de spécifier la somme d’argent dans le tiroir-caisse pour chaque mode de paiement compté. | Oui | Oui | Oui | Oui | N° |
+| 1 210 | Vider la caisse | Cette opération permet de retirer de l'argent de l'équipe ou du tiroir actuel. | Oui | Oui | Oui | Oui | N° |
+| 920 | Horloge de pointage | Cette opération permet de pointer à l’arrivée/la sortie des équipes et des pauses. | Oui | Oui | Oui | N° | Non |
 | 302 | Montant de remise totale | Permet d’entrer un montant de remise pour la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |
 | 303 | Pourcentage de remise totale | Permet d’entrer un pourcentage de remise pour la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |
 | 501 | Commentaire de transaction | Permet d’ajouter un commentaire à la transaction actuelle. | Oui | Oui | Non | Oui | Non |
@@ -199,7 +198,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 
 \* L’opération est disponible dans le mode hors connexion uniquement lorsqu’une commande client ou un devis de vente est créé, et uniquement si la création hors connexion des commandes client et des devis de vente est configurée dans le profil de fonctionnalité du PDV. L’opération ne peut pas être effectuée lorsque des commandes sont créées à l’aide du service en temps réel, ou lorsque des commandes sont rappelées ou modifiés.
 
-† L’opération peut être effectué dans le mode hors connexion uniquement lorsque le PDV est configuré pour autoriser la création hors connexion de clients dans le profil de fonctionnalité du PDV.
+† L’opération peut être effectuée dans le mode hors connexion uniquement lorsque le PDV est configuré pour autoriser la création hors connexion de clients dans le profil de fonctionnalité du PDV.
 
 ‡ Lorsque le PDV est hors connexion, les transactions interrompues peuvent être rappelées uniquement dans la base de données hors connexion du registre actuel. Les utilisateurs ne peuvent pas interrompre et rappeler des transactions sur plusieurs caisses enregistreuses.
 

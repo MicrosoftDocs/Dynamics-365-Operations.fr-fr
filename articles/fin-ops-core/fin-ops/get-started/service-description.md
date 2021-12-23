@@ -2,19 +2,19 @@
 title: Description du service pour les applications Finance and Operations
 description: Cette rubrique fournit la description du service pour les applications Finance and Operations.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825398"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898387"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications Finance and Operations
 
@@ -172,7 +172,7 @@ LCS fournit l’[approvisionnement en libre-service](../../dev-itpro/deployment/
 
 **Événement :** [Restauration à un instant donné de la base de données d’instance hors production](../../dev-itpro/database/database-point-in-time-restore.md)
 
-- Acceptez que le processus ne peut pas être annulé.
+- Acceptez que le processus ne puisse pas être annulé.
 - Exécutez l’opération de restauration ponctuelle dans LCS.
 
 **Événement :** copie d’une base de données sandbox de niveau 2 vers un sandbox de développement pour la résolution des problèmes et le [débogage](../../dev-itpro/database/dbmovement-scenario-debugdiag.md)
@@ -314,7 +314,7 @@ Les plans et procédures de récupération d’urgence de Microsoft sont examin�
 | Microsoft fournit un environnement secondaire dans le centre de données associé Azure lorsque l’instance de production principale est déployée. Pour plus d’informations, voir [Continuité d’activité et reprise d’activité (BCDR) : régions jumelées Azure](/azure/best-practices-availability-paired-regions). | None |
 | Microsoft permet la géo-redondance d’Azure SQL et Azure Blob Storage lorsque l’instance de production principale est déployée. | None |
 | Microsoft permet la sauvegarde automatique sur les bases de données Azure SQL. | None |
-| <p>Lorsqu’une panne se produit, Microsoft détermine si un basculement doit être effectué pour le client et s’il y aura une perte de données. La perte de données peut durer jusqu’à cinq secondes. Pour plus d’informations, voir [Géorestauration de la base de données Azure SQL](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>En cas de perte de données, Microsoft demandera l’approbation du client pour un basculement.</p> | En cas de perte de données, le client peut avoir à fournir une approbation écrite pour déclencher le basculement. |
+| <p>Lorsqu’une panne se produit, Microsoft détermine si un basculement doit être effectué pour le client et s’il y aura une perte de données. Les clients peuvent subir une perte de données pouvant aller jusqu'à 15 minutes, selon la nature et le moment de la panne. | En cas de perte de données, le client peut avoir à fournir une approbation écrite pour déclencher le basculement. |
 | En cas de basculement, le service applicable fonctionne en mode limité. La maintenance des mises à jour ne peut pas être déclenchée en mode Basculement. | Le client ne peut pas demander des déploiements de packages ou d’autres demandes de maintenance régulières en mode Basculement. |
 | Lorsque le centre de données devient opérationnel, Microsoft revient à l’instance de production dans la région Azure principale. Les opérations normales reprennent. | Le client peut devoir se déconnecter de la restauration automatique vers l’instance de production dans la région Azure principale. |
 

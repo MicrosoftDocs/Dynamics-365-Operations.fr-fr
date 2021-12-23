@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781199"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890951"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 
@@ -32,6 +32,58 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.24
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Déclaration de taxe pour la Suède (conception basée sur les codes de déclaration)
+
+[Déclaration de taxe pour la Suède](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour la Suède](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Demande |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge la déclaration de taxe pour la Suède (présentation d’état suédois). De nouveaux formats ER de **déclaration de TVA XML (SE**) et de **déclaration de TVA Excel (SE)** sont introduits sous le modèle **Déclaration de taxe**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Déclaration de TVA pour l'Autriche (conception basée sur les codes de déclaration)
+
+[Détails de la déclaration de TVA pour l’Autriche](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l'Autriche](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Demande |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **déclaration de TVA (AT)** sous **Modèle de déclaration de TVA**. De nouveaux formats de **déclaration de TVA XML (AT)** et de **déclaration de TVA Excel (AT)** sont introduits sous le modèle **Déclaration de taxe**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Déclaration ELSTER pour l'Allemagne (conception basée sur les codes de déclaration)
+
+[Déclaration de TVA](../localizations/emea-de-vat-declaration.md)</br>
+[Configurer une déclaration de taxe électronique pour l'Allemagne](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Transmission électronique de la déclaration de TVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l'Allemagne](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Demande |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge les formats ER **Elster (DE)** et **Modèle Elster**. De nouveaux formats de **Déclaration de TVA XML (DE)** et de **Déclaration de TVA Excel (DE)** sont introduits sous le modèle **Déclaration de taxe**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Déclaration OB pour les Pays-Bas (conception basée sur les codes de déclaration)
+
+[Déclaration OB](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour les Pays-Bas](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Demande |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **Déclaration OB (P.-B.)** et **Modèle de déclaration OB**. De nouveaux formats de **Déclaration de TVA XML (NL)** et de **Déclaration de TVA Excel (NL)** sont introduits sous le modèle **Déclaration de taxe**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.20
 
@@ -106,7 +158,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
-| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
+| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
 | **Zones de produit affectées**         | Tous les produits Dynamics 365 |
 | **Option de déploiement**              | Tous|
 | **État**                         | Obsolète. Internet Explorer 11 ne sera plus pris en charge après août 2021.|

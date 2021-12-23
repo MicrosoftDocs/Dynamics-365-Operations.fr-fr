@@ -2,7 +2,7 @@
 title: Raccourcis clavier
 description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance and Operations.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800191"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913516"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finance and Operations.
 
@@ -150,6 +149,7 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Exécuter l’action par défaut dans une grille<blockquote>[!NOTE] Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.</blockquote> | Entrer                           |
 | Basculer la vue entre la ligne sélectionnée et la ligne d’en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d’en-tête)                                                  | Flèche droite/Flèche gauche        |
+| Déplacer la colonne actuelle vers la position suivante/précédente (avec le focus dans la ligne d’en-tête)                                   | Ctrl+Maj+Flèche droite / Ctrl+Maj+Flèche gauche |
 | Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d’en-tête)                                              | Entrer                           |
 | Redimensionner la colonne actuelle pour l’adapter au contenu (avec le focus dans la ligne d’en-tête)                                           | A (ou double-cliquez sur la poignée de dimensionnement de la colonne) |
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778447"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891924"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Intégration avec des systèmes d’exécution de fabrication tiers
 
@@ -191,7 +191,7 @@ Le tableau suivant montre les champs que chaque ligne de la section `RouteCardLi
 
 | Nom du champ | Status | Type |
 |---|---|---|
-| `OperationNumber` | Obligatoire | Obligatoire, Entier |
+| `OperationNumber` | Obligatoire | Entier |
 | `OperationPriority` | Facultatif | Enum (Primaire \| Secondaire1 \| Secondaire2 \| ... \| Secondaire20) |
 | `OperationId` | Facultatif | Chaîne |
 | `OperationsResourceId` | Facultatif | Chaîne |

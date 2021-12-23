@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777765"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900703"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Améliorations des cXML d’achat
 
@@ -141,7 +141,7 @@ Lorsque vous avez terminé de configurer toutes les propriétés et de configure
 
 Comme mentionné dans la section [Définir les propriétés de commande](#set-order-properties), si vous souhaitez que votre cXML livré inclut le texte des notes jointes à la commande fournisseur et / ou aux enregistrements du fournisseur concernés, vous pouvez définir la propriété **POCOMMENTS** et / ou **VENDCOMMENTS** sur _TRUE_ dans la configuration du catalogue externe. Cette section fournit plus de détails sur la manière dont le système sélectionne et traite ces pièces jointes, si vous les utilisez.
 
-Pour définir les types de notes que le système recherchera, accédez à **Approvisionnements \> Paramétrage \> Écrans \> À partir du paramétrage**. Puis, sur l’onglet **Commande fournisseur**, définissez le champ **Inclure les documents de type** sur le type de note que vous souhaitez pouvoir inclure. Seules les notes textuelles seront incluses, pas les pièces jointes.
+Pour définir les types de notes que le système recherchera, accédez à **Approvisionnements \> Paramétrage \> Écrans \> Paramétrage d’écran**. Puis, sur l’onglet **Commande fournisseur**, définissez le champ **Inclure les documents de type** sur le type de note que vous souhaitez pouvoir inclure. Seules les notes textuelles seront incluses, pas les pièces jointes.
 
 ![Page Paramétrage d’écran.](media/cxml-form-setup.png "Page Paramétrage d’écran")
 

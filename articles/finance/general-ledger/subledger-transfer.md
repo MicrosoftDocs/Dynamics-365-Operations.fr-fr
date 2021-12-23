@@ -2,7 +2,7 @@
 title: Transfert de la comptabilité auxiliaire vers la comptabilité
 description: Cette rubrique décrit les fonctionnalités associées au transfert de la comptabilité auxiliaire dans la comptabilité.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716643"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900728"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transfert de la comptabilité auxiliaire vers la comptabilité
 
@@ -39,7 +39,7 @@ Dans la version 10.0.8, des améliorations ont été apportées pour améliorer
 
 La fonctionnalité de transfert asynchrone des traitements par lots de la comptabilité auxiliaire permet d’améliorer le transfert des données de la comptabilité auxiliaire vers la comptabilité. En regroupant des ensembles de transactions plus petites et en transférant les transactions en groupes, la fonctionnalité traite les transactions plus efficacement. Lorsque les transactions sont regroupées, les ressources du serveur de traitement par lots sont utilisées plus efficacement.
 
-Le transfert asynchrone des lots de la comptabilité auxiliaire nécessite que le serveur du traitement par lots soit configuré, en ligne et opérationnel. Sinon, l’option de transfert **Asynchrone** ne fonctionnera pas.
+Le transfert asynchrone de lots auxiliaires nécessite que le serveur de lots soit configuré, en ligne et opérationnel, car les tâches de lots sont créées pour une exécution immédiate sur le serveur de lots. Quand la fonctionnalité **Optimisation des performances du transfert de la comptabilité auxiliaire vers la comptabilité** est activée, le traitement par lots du système **Automatisation des processus** intitulé **Tâche système d’interrogation de l’automatisation des processus** doit également être activé. Pour plus d’informations, voir [Automatisation de processus](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Le changement d’efficacité au niveau du lot utilise un seul traitement par lots récurrent pour toutes les entités juridiques du système. Au moment de l’exécution, une nouvelle tâche de traitement par lots est créée pour traiter les enregistrements requis qui n’ont pas encore été transférés. Il est possible de contrôler davantage de paramètres à partir de la page **Automatisation des processus** dans l’administration système. Sur cette page, vous pouvez modifier le processus d’arrière-plan, changer la fréquence et définir une période de veille.
 

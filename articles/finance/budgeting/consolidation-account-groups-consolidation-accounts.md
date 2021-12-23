@@ -1,7 +1,7 @@
 ---
 title: Groupes de comptes de consolidation et comptes de consolidation supplémentaires
-description: Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 Finance.
-author: aprilolson
+description: Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés.
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
@@ -12,25 +12,25 @@ ms.reviewer: roschlom
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3e6671e5f3ceff671210011913a3a91194613c7c0e4e1d8e8063e4e27e5f3cf5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727418"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883385"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groupes de comptes de consolidation et comptes de consolidation supplémentaires
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés dans Microsoft Dynamics 365 Finance.
+Cette rubrique fournit des informations sur les groupes de comptes de consolidation et les comptes de consolidation supplémentaires, et explique comment ils sont utilisés.
 
 ## <a name="consolidation-account-groups"></a>Groupes de comptes de consolidation
 
-Les groupes de comptes de consolidation permettent de créer des groupes de comptes à utiliser pour consolider les données. Le plus souvent, un groupe de comptes de consolidation représente un plan de comptes imposé par l’administration ou met en correspondance des comptes avec un groupe défini par le siège de la société. Vous pouvez rechercher des groupes de comptes de consolidation dans la zone **Paramétrage** du module **Consolidations**. Lorsque vous ajoutez un nouveau groupe, vous entrez un identificateur unique pour le groupe de comptes et un nom.
+Les groupes de comptes de consolidation permettent de créer des groupes de comptes à utiliser pour consolider les données. En règle générale, un groupe de comptes de consolidation représente un plan comptable mandaté par le gouvernement. Un groupe de comptes de consolidation peut également mapper des comptes à un groupe défini par le siège social de l'entreprise. Vous pouvez rechercher des groupes de comptes de consolidation dans la zone **Paramétrage** du module **Consolidations**. Lorsque vous ajoutez un nouveau groupe, vous devez entrer un identificateur unique pour le groupe de comptes, ainsi qu'un nom.
 
 ## <a name="additional-consolidation-accounts"></a>Comptes de consolidation supplémentaires
 Les comptes de consolidation supplémentaires permettent d’affecter un compte issu d’un plan de comptes existant à un groupe de comptes de consolidation. Vous pouvez ensuite spécifier une valeur et un nom de compte de consolidation. 

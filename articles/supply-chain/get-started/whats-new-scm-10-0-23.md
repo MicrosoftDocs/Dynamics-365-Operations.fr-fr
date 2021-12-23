@@ -1,5 +1,5 @@
 ---
-title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.23
+title: Aperçu de Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777789"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891791"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Aperçu de Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 - **Version préliminaire de la version :** octobre 2021
 - **Disponibilité générale de la version (mise à jour manuelle) :** décembre 2021
+- **Disponibilité générale de la version (mise à jour automatique) :** janvier 2022
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
@@ -53,6 +54,7 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Gestion des entrepôts et des stocks | \[Russie\] Publier les transactions de stock financier Storno en fonction de l’indicateur de correction dans le justificatif financier pour les commandes clients | Cette fonctionnalité a un impact sur la fonctionnalité de correction des notes de crédit pour la Russie. Il permet la comptabilisation des transactions de stock pour les factures de vente conformément à l’option de correction dans le grand livre. Lorsque cette fonctionnalité est activée, il n’y a plus d’écarts entre l’indicateur **Correction** sur le justificatif financier de la transaction de stock et l’indicateur **Storno** sur les transactions de stock. |
 | Gestion des entrepôts et des stocks | (Russie) Exécuter le calcul par lots de l’état de variation des stocks | Pour les emplacements russes de Supply Chain Management, cette fonction offre la possibilité d’exécuter par lots l’état de *variation des stocks*, de le stocker et d’afficher les états générés antérieurement. |
 | Gestion des entrepôts et des stocks | (Russie) Utiliser les traductions dans la langue locale dans les écrans principaux spécifiques au pays ou à la région dans Gestion des stocks | Pour les localisations en russe de Supply Chain Management, cette fonctionnalité permet l’utilisation de traductions en russe pour les noms de produits/articles et les unités de mesure dans les impressions de stock spécifiques au russe suivantes : liste de comptage (INV-3), liste de comptage (INV-5), et Liste de comptage (INV-6). |
+| Planification générale | Azure Machine Learning Service pour les prévisions de demande | Cette fonctionnalité permet à Azure Machine Learning Service de générer les prévisions de la demande basées sur des données historiques. Pour plus d’informations, voir [Paramétrage de la prévision de la demande](../master-planning/demand-forecasting-setup.md). |
 | Approvisionnements | Nettoyer l’historique des mises à jour des commandes fournisseur | Cette fonctionnalité vous permet de nettoyer les enregistrements historiques temporaires liés aux mises à jour des bons de commande. Il ajoute un nouveau bouton appelé **Nettoyer l’historique des mises à jour des achats** au volet Actions sur la page **Tous les bons de commande**. Cette fonctionnalité est activée par défaut. |
 | Contrôle de la production | (Version préliminaire) Prélèvement automatique des matières activées pour les entrepôts pour les prélèvements automatiquement validés | Cette fonction vous permet de sélectionner automatiquement et de résoudre les dimensions de stock pour les journaux des prélèvements automatiquement validés, dérivés. |
 | Contrôle de la production | Valider l’expiration des matières premières par rapport à la date de consommation prévue | Cette fonctionnalité modifie la manière dont les dates d’expiration des lots sont validées lors de la réservation d’un lot de matières premières à utiliser pendant la production. Lorsque cette fonctionnalité est activée, la date d’expiration du lot est validée par rapport à la date de consommation planifiée (la date de la matière première), telle qu’établie sur la ligne de nomenclature de production ou la ligne de formule de commande de lot. Lorsque cette fonctionnalité est désactivée, la date d’expiration du lot est validée par rapport à la date de livraison prévue de la production ou de la commande de lot (comme précédemment). |

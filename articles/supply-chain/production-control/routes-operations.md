@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566693"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891951"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -223,7 +223,7 @@ Lorsque vous utilisez cette approche, la page **Relations d’opération** devie
 Si vous ne spécifiez pas de ressource opérationnelle ou de groupe de ressources dans le cadre des demandes de ressources pour une opération, les ressources applicables peuvent être exécutées à différentes vitesses. Par conséquent, le temps nécessaire pour traiter une opération peut varier. Pour résoudre ce problème, vous pouvez utiliser le champ **Formule** dans la relation d’opération pour spécifier le calcul du temps de traitement. Les options suivantes sont disponibles :
 
 - **Standard** – (option par défaut) Le calcul utilise uniquement les champs de la relation d’opération et multiplie le temps d’exécution spécifié par la quantité de la commande.
-- **Capacité** – Le calcul comprend le champ **Capacité** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources. La valeur spécifiée pour la ressource opérationnelle est la capacité horaire. Le **Temps de traitement** est calculé comme **Quantité de la commande** divisé par la **Capacité**.
+- **Capacité** – Le calcul comprend le champ **Capacité** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources. La valeur spécifiée pour la ressource opérationnelle est la capacité horaire. Le **Temps de traitement** est calculé comme **Quantité de la commande** divisé par la **Capacité**. La valeur de capacité n'est pas spécifique à une unité de mesure particulière et n'est donc pas convertie en fonction du champ **Unité de capacité**, qui est juste un champ descriptif qui n'est pas utilisé dans les calculs.
 - **Lot** – Une capacité de lot est calculée à l’aide des informations issues de la relation d’opération. Le nombre de lots et, par conséquent, le temps d’exécution, peuvent ensuite être calculés en fonction de la quantité de la commande.
 - **Lot de ressource** – Cette option est fondamentalement la même que l’option **Lot**. Toutefois, le calcul comprend le champ **Capacité de lot** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources.
 

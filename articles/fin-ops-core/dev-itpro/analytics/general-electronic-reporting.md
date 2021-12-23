@@ -2,7 +2,7 @@
 title: Vue d’ensemble des états électroniques (ER)
 description: Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques. Elle décrit les concepts clés, les scénarios pris en charge et les formats qui font partie de la solution.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562174"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867278"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562174"
 
 Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques (ER). Il comporte des informations sur les concepts essentiels, les scénarios pris en charge par l’ER et une liste des formats conçus et lancés dans le cadre de la solution.
 
-États électroniques est un outil que vous pouvez utiliser pour configurer les formats de documents électroniques entrants et sortants conformément aux exigences légales des différents pays/régions. Il vous permet de gérer ces formats au cours de leur cycle de vie. Par exemple, vous pouvez adopter de nouvelles exigences réglementaires et générer des documents commerciaux au format requis pour échanger des informations avec les organismes publics, les banques et d’autres parties par voie électronique.
+ER est un outil configurable qui vous aide à créer et à gérer des rapports et des paiements électroniques réglementaires. Il repose sur les trois concepts suivants :
+
+- Configuration au lieu de codage :
+
+    - La configuration peut être effectuée par un utilisateur professionnel et ne nécessite pas de développeur.
+    - Le modèle de données est défini en termes commerciaux.
+    - Des éditeurs visuels sont utilisés pour créer tous les composants de la configuration ER.
+    - Le langage utilisé pour la transformation des données ressemble à celui utilisé dans Microsoft Excel.
+
+- Une configuration pour plusieurs versions de Dynamics 365 Finance :
+
+    - Il est possible de gérer un modèle de données spécifique à un domaine qui est défini en termes commerciaux.
+    - Il est possible d'isoler les détails de la version de l'application dans les mappages de modèle de données dépendant de la version.
+    - Il est possible de conserver une configuration de format pour plusieurs versions de la version actuelle, en fonction du modèle de données.
+
+- Mise à jour facile ou automatique :
+
+    - Le contrôle de version des configurations ER est pris en charge.
+    - La bibliothèque des actifs Microsoft Dynamics Lifecycle Services (LCS) peut être utilisée comme référentiel pour les configurations ER, pour l'échange de versions.
+    - Les localisations basées sur les configurations ER d'origine peuvent être introduites en tant que versions enfants.
+    - Une arborescence de configuration ER est fournie en tant qu'outil permettant de contrôler les dépendances des versions.
+    - Les différences de localisation, ou la configuration delta, sont enregistrées pour permettre la mise à niveau automatique vers une nouvelle version de la configuration ER d'origine.
+    - Il est facile de résoudre manuellement les conflits découverts lors de la mise à niveau automatique des versions de localisation.
+
+ER vous permet de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l'aide des données et des algorithmes. Vous pouvez utiliser un langage de formule qui ressemble au langage Excel pour la transformation des données. Pour rendre le mappage de la base de données au format plus gérable, réutilisable et indépendant des changements de format, un concept de modèle de données intermédiaire est introduit. Ce concept permet de masquer les détails de mise en œuvre du mappage de format et de réutiliser un seul modèle de données pour des mappages de formats multiples.
+
+Vous pouvez utiliser ER pour configurer les formats de documents électroniques entrants et sortants conformément aux exigences légales des différents pays et régions. Il vous permet de gérer ces formats au cours de leur cycle de vie. Par exemple, vous pouvez adopter de nouvelles exigences réglementaires et générer des documents commerciaux au format requis pour échanger des informations avec les organismes publics, les banques et d’autres parties par voie électronique.
 
 Le moteur d’états électroniques est destiné aux utilisateurs professionnels, plutôt qu’aux développeurs. Étant donné que vous configurez des formats, à la place du code, les processus de création et d’ajustement des formats pour les documents électroniques sont plus rapides et plus faciles.
 
-Les états électroniques prennent actuellement en charge les formats de feuille de calcul texte, XML, Microsoft Word et OPENXML. Toutefois, une interface d’extension prend en charge d’autres formats.
+ER prend actuellement en charge les formats de feuille de calcul TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel et OPENXML.
 
 ## <a name="capabilities"></a>Capacités
 
@@ -48,6 +74,10 @@ Le moteur d’états électroniques est doté des fonctionnalités suivantes :
 
 ## <a name="key-concepts"></a>Concepts clés
 
+### <a name="main-data-flow"></a>Flux de données principal
+
+[![Flux de données principal ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Composants
 
 ER prend en charge les types de composants suivants :
@@ -59,74 +89,6 @@ ER prend en charge les types de composants suivants :
 
 Pour plus d’informations, voir [Composants des états électroniques](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Composants de modèle de données et de mappage de modèle
-
-Un composant de modèle de données est une représentation abstraite d’une structure de données. Il décrivait un domaine de l’entreprise spécifique avec suffisamment de détail pour satisfaire aux conditions de génération d’états pour ce domaine. Un composant de modèle de données se compose des éléments suivants :
-
-- <a name="DataModelComponent"></a>un modèle de données, en tant qu’ensemble d’entités commerciales spécifiques au domaine, ainsi qu’une définition hiérarchiquement structurée des relations entre elles.
-- <a name="ModelMappingComponent"></a>une mise en correspondance de modèle en tant qu’ensemble de sources de données de l’application avec des éléments individuels de ce modèle de données qui spécifie au moment de l’exécution le flux de données et les règles de population de données commerciales dans le composant de modèle de données.
-
-Une entité commerciale de modèle de données est représentée comme un conteneur (enregistrement). Les propriétés d’entité commerciale sont représentées comme des articles de données (champs). Chaque article de données est doté d’un nom, d’un libellé, d’une description et d’une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu’il soit reconnu comme une chaîne, entier, réel, date, énumération, booléen, etc. En outre, il peut s’agir d’un autre enregistrement ou d’une liste d’enregistrements.
-
-Un composant de modèle de données unique peut contenir plusieurs hiérarchies des entités commerciales spécifiques à un domaine. Il contient également les mappages de modèles qui prennent en charge le flux de données spécifiques aux états au moment de l’exécution. Les hiérarchies sont différenciées par un enregistrement unique sélectionné comme racine de la mise en correspondance de modèle. Par exemple, le modèle de données du domaine du paiement peut prendre en charge les mises en correspondance suivantes :
-
-- Société \> Fournisseur \> Transactions de paiement du domaine comptabilité fournisseur
-- Client \> Société \> Transactions de paiement du domaine comptabilité client
-
-Notez que les entités commerciales (par exemple, les transactions de paiement et la société) sont conçues en une fois. Différents mappages permettent de les réutiliser.
-
-Un mappage de modèle qui prend en charge les documents électroniques sortants a les fonctionnalités suivantes :
-
-- Il peut utiliser les différents types de données comme sources de données pour un modèle de données. Par exemple, il peut utiliser des enums, des entités de données, des méthodes ou des tables.
-- Il prend en charge les paramètres d’entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l’exécution.
-- Il prend en charge la transformation des données en groupes requis. Il permet également de filtrer, de trier et d’ajouter des données, ainsi que des champs calculés logiques qui sont conçus via les formules qui sont semblables aux formules de Microsoft Excel. Pour plus d’informations, voir [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)).
-
-Un mappage de modèle qui prend en charge les documents électroniques entrants a les fonctionnalités suivantes :
-
-- Il peut utiliser différents éléments de données pouvant être mis à jour comme cibles. Ces éléments de données incluent des tables, des entités de données et des vues. Les données peuvent être mises à jour à l’aide des données issues de documents électroniques entrants. Plusieurs cibles peuvent être utilisées dans un mappage de modèle unique.
-- Il prend en charge les paramètres d’entrée utilisateur qui peuvent être définies comme sources de données pour un modèle de données lorsque certaines données doivent être spécifiées au moment de l’exécution.
-
-Un composant de modèle de données est conçu pour chaque domaine d’activité qui devrait être utilisé comme une source de données unifiée pour les rapports qui isolent les rapports de l’implémentation physique des sources de données Finance and Operations. Il représente des concepts et des fonctionnalités d’entreprise spécifiques au domaine sous une forme qui rend la conception d’origine du format de rapport et toute autre maintenance plus efficaces.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Composants de format pour les documents électroniques sortants
-
-Un composant de format est le modèle utilisé pour la sortie générée au moment de l’exécution. Un modèle se compose des éléments suivants :
-
-- un format qui définit la structure et le contenu d’un document électronique sortant généré au moment de l’exécution ;
-- des sources de données, en tant qu’ensemble de paramètres d’entrée utilisateur et de modèle de données spécifique au domaine avec la mise en correspondance du modèle sélectionnée ;
-- une mise en correspondance de format, en tant qu’ensemble de liaisons des sources de données de format avec des éléments individuels de format qui spécifient au moment de l’exécution le flux de données et les règles de génération de sortie de format ;
-- une validation de format en tant qu’ensemble de règles configurables qui contrôlent la génération d’états au moment de l’exécution en fonction du contexte d’exécution. Par exemple, il peut y avoir une règle qui arrête la génération de sortie des paiements d’un fournisseur et lance une exception lorsque des attributs spécifiques du fournisseur sélectionné sont manquants, comme le numéro de compte bancaire.
-
-Un composant de format prend en charge les fonctions suivantes :
-
-- La création de sortie de rapports en tant que fichiers individuels dans différents formats, tels que texte, XML, document Microsoft Word ou feuille de calcul.
-- Création de plusieurs fichiers séparément et encapsulation de ces fichiers dans des fichiers zip.
-
-Un composant de format vous permet de joindre certains fichiers pouvant être utilisés dans la sortie d’états :
-
-- des classeurs Excel qui contiennent une feuille de calcul qui peut être utilisée comme modèle pour les sorties au format de feuille de calcul OPENXML ;
-- des fichiers Word qui contiennent un document qui peut être utilisé comme modèle pour les sorties au format de document Microsoft Word
-- d’autres fichiers pouvant être incorporés à la sortie du format en tant que fichiers prédéfinis.
-
-L’illustration ci-dessous indique les flux de données pour ces formats.
-
-[![Flux de données des composants de format sortants.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Pour exécuter une configuration de format de génération d’états électroniques unique et générer un document électronique sortant, vous devez identifier le mappage de la configuration de format.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Composants de format pour les documents électroniques entrants
-
-Un composant de format est le modèle de document entrant qui est importé au moment de l’exécution. Un modèle se compose des éléments suivants :
-
-- Un format qui définit la structure et le contenu d’un document électronique entrant contenant des données qui sont importées au moment de l’exécution. Un composant de format est utilisé pour analyser un document entrant dans différents formats : texte et XML.
-- Un mappage des formats qui lie les éléments de format individuels aux éléments d’un modèle de données spécifique au domaine. Au moment de l’exécution, les éléments du modèle de données spécifient le flux de données et les règles pour importer les données d’un document entrant, puis stockent les données dans un modèle de données.
-- Une validation de format en tant qu’ensemble de règles configurables qui contrôlent l’importation de données au moment de l’exécution en fonction du contexte d’exécution. Par exemple, il peut y avoir une règle qui empêche l’importation de données d’un relevé bancaire contenant des paiements d’un fournisseur et lance une exception lorsque les attributs d’un fournisseur spécifique sont manquants, comme le code d’identification du fournisseur.
-
-L’illustration ci-dessous indique les flux de données pour ces formats.
-
-[![Flux de données des composants de format entrants.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Pour exécuter une configuration simple de format de génération d’états électroniques pour importer les données d’un document électronique entrant, vous devez identifier le mappage souhaité d’une configuration de format, ainsi que le point d’intégration d’un mappage de modèle. Vous pouvez utiliser les mêmes mappages et destinations de modèles avec différents formats pour différents types de documents entrants.
 
 #### <a name="component-versioning"></a>Contrôle de versions du composant
 
@@ -144,7 +106,7 @@ Les versions dotées du statut **Terminée** ou **Partagée** sont disponibles p
 
 #### <a name="component-date-effectivity"></a>Validité de date du composant
 
-Les versions du composant d’état électronique est soumis à une date d’effet. Vous pouvez définir la date **Prend effet le** pour un composant d’état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d’états. La date de session de l’application permet de définir si un composant est valide pour l’exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d’états.
+Les versions du composant ER ont une date d’effet. Vous pouvez définir la date **Prend effet le** pour un composant d’état électronique afin de spécifier la date à partir de laquelle ce composant devient valide pour les processus de génération d’états. La date de session de l’application permet de définir si un composant est valide pour l’exécution. Lorsque plusieurs versions sont valides pour une date spécifique, la version la plus récente est utilisée pour le processus de génération d’états.
 
 #### <a name="component-access"></a>Accès au composant
 
@@ -299,7 +261,7 @@ ER vous permet d’adopter automatiquement les modifications de la version la pl
 
 La liste des configurations de gestion des états électroniques pour Finance est constamment mis à jour. Ouvrez le [référentiel global](er-download-configurations-global-repo.md) pour consulter la liste des configurations de gestion des états électroniques actuellement prises en charge. Sur l’organisateur **Détails de l’abandon**, vous pouvez consulter les informations sur les configurations qui ont été abandonnées ou qui ne sont plus gérées. 
 
-![Contendu du référentiel global sur la page Référentiel de configuration.](./media/er-overview-03.gif)
+![Contenu du référentiel global sur la page Référentiel de configuration.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
