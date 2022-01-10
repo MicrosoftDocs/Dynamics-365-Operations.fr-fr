@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576014"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920596"
 ---
 # <a name="wave-allocation"></a>Répartition des vagues
 
@@ -77,7 +77,7 @@ Le traitement en parallèle de la répartition implique de exécuter en traiteme
 
 Si nécessaire, vous pouvez annuler chacun des paramètres définis par défaut lorsque la fonctionnalité *Parallélisation des vagues pour la méthode Allocate Wave* est automatiquement activée pour votre instance. Pour ce faire :
 
-- Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**. Sur l’onglet **Traitement des vagues**, appliquez vos valeurs préférées pour **Traiter les vagues par lots** et **Attendre le verrouillage (ms)**.
+- Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**. Sur l’onglet **Traitement des vagues**, appliquez vos valeurs préférées pour **Traiter les vagues par lots** et **Attendre le verrouillage (ms)**.
 - Accédez à **Gestion des entrepôts \> Paramétrage \> Vagues \> Méthodes de traitement de la vague**. Sélectionnez la méthode `allocateWave`. Dans le volet Actions, sélectionnez **Configuration des tâches** pour ouvrir une page qui répertorie chaque entrepôt où la méthode est définie pour s’exécuter en parallèle. Modifiez ou supprimez le nombre de tâches de traitement par lots et le groupe de vagues affecté pour chaque entrepôt répertorié, selon vos besoins.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes

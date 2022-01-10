@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731029"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944711"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Traitement des remboursements dans les centres d’appels
 
@@ -33,11 +33,14 @@ La logique du centre d’appels détermine le mode de paiement pour la ligne de 
 
 Le centre d’appels utilise le mode de paiement de la commande d’origine pour déterminer le mode de paiement à appliquer à un retour de commande. Voici comment ce processus fonctionne pour les modes de paiement originaux suivants :
 
-- **Normal** (espèces) ou **Chèque** - Lorsqu’un ordre de retour créé fait référence à une commande originale qui a été payée en utilisant le type de paiement normal (espèces) ou par chèque, l’application du centre d’appels référence les configurations sur la page **Modes de remboursement du centre d’appels**. Cette page permet aux organisations de définir, par devise de commande, la manière d’effectuer les remboursements aux clients pour les commandes payées à l’origine à l’aide du type de paiement normal ou par chèque. La page **Modes de remboursement du centre d’appels** permet également aux organisations de choisir si un chèque de remboursement généré par le système est envoyé au client ou si un crédit de compte client est créé par rapport au solde du compte client interne. Dans ces scénarios, la logique du centre d’appels fait référence à la devise de l’ordre de retour, puis utilise la valeur **Mode de paiement au détail** de cette devise pour créer une ligne de paiement de remboursement sur la commande client de retour. Plus tard, un journal de paiement des comptes clients (AR) qui utilise le mode de paiement AR mis en correspondance est lié à la devise.
+- **Normal** (espèces) ou **Chèque** - Lorsqu’un ordre de retour créé fait référence à une commande originale qui a été payée en utilisant le type de paiement normal (espèces) ou par chèque, l’application du centre d’appels référence les configurations sur la page **Modes de remboursement du centre d’appels**. Cette page permet aux organisations de définir, par devise de commande, la manière d’effectuer les remboursements aux clients pour les commandes payées à l’origine à l’aide du type de paiement normal ou par chèque. La page **Méthodes de remboursement du centre d’appels** permet également aux organisations de sélectionner si un chèque de remboursement généré par le système doit être envoyé au client. Dans ces scénarios, la logique du centre d’appels fait référence à la devise de l’ordre de retour, puis utilise la valeur **Mode de paiement au détail** de cette devise pour créer une ligne de paiement de remboursement sur la commande client de retour. Plus tard, un journal de paiement des comptes clients (AR) qui utilise le mode de paiement AR mis en correspondance est lié à la devise.
 
     L’illustration suivante montre la configuration d’un scénario dans lequel un client retourne des produits à partir d’une commande client liée à la devise USD, qui a été initialement payée à l’aide du type de paiement normal ou chèque. Dans ce scénario, un remboursement sera émis au client via un chèque de remboursement généré par le système. La mode de paiement AR **REF-CHK** a été configuré comme type de paiement par chèque de remboursement.
 
     ![Configuration des méthodes de remboursement du centre d’appels pour les paiements par chèque et normaux.](media/callcenterrefundmethods.png)
+
+    > [!NOTE]
+    > Le compte client n’est pas une méthode de remboursement prise en charge pour les paiements en espèces ou par chèque.
 
 - **Carte de crédit** - Lorsqu’une commande de retour fait référence à une commande d’origine payée à l’aide d’une carte de crédit, la logique du centre d’appels pour les remboursements applique la même carte de crédit d’origine à la commande de retour.
 - **Carte de fidélité** - Lorsqu’une commande de retour fait référence à une commande d’origine payée à l’aide d’une carte de fidélité client, la logique du centre d’appels pour les remboursements applique le remboursement à la même carte de fidélité.

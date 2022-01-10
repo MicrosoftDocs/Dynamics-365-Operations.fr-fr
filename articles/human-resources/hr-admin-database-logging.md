@@ -1,8 +1,8 @@
 ---
 title: Configurer et gérer la journalisation de la base de données
 description: Vous pouvez suivre les modifications apportées aux tables et aux champs dans Dynamics 365 Human Resources avec la journalisation de la base de données.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781655"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924818"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurer et gérer la journalisation de la base de données
 
@@ -93,14 +93,14 @@ Vous pouvez supprimer tout ou partie des journaux de la base de données à l’
 Pour paramétrer le nettoyage des journaux de base de données, procédez comme suit : 
 
 1. Accédez à **Administration système> liens> Base de données> Journal de base de données**. Sélectionnez **Nettoyer le journal**.
-
-2. Choisissez une méthode de sélection des journaux à supprimer en entrant l’une des options suivantes :
+2. Sous l’en-tête **Enregistrements à inclure**, sélectionnez **Filtrer**.
+3. Choisissez la méthode qui sera utilisée pour sélectionner les feuilles à supprimer. Entrez l’une des options suivantes :
 
    - ID table
    - Type de journal
    - Date et heure de création
 
-3. Utilisez l’onglet **Nettoyage des journaux de base de données** pour déterminer quand exécuter la tâche de nettoyage des journaux. Par défaut, les journaux de base de données sont disponibles pendant 30 jours.
+4. Utilisez l’onglet **Nettoyage des journaux de base de données** pour déterminer quand exécuter la tâche de nettoyage des journaux. Par défaut, les journaux de base de données sont disponibles pendant 30 jours.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

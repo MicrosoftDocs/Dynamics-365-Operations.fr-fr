@@ -2,7 +2,7 @@
 title: État DAS-2
 description: Cette rubrique décrit le processus de génération du fichier d’audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: sndray
-ms.date: 07/23/2020
+ms.date: 12/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e228816be343817b5c25a6e2605a75afeaa9b507f40011faa685f8a66be6154
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3689f8408e52ec52dc3e16e4d840dbc165c190f6
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779784"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943599"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
@@ -106,7 +106,7 @@ Suivez les étapes pour générer l’état de déclaration fiscale.
 5. Sélectionnez le groupe de fournisseurs.
 
 > [!NOTE]
-> L’état DAS-2 ne prend pas en charge les transactions créées et validées à partir d’une entrée de journal générale et du scénario de schéma de régularisation. 
+> L’état DAS-2 ne prend pas en charge les transactions créées et validées à partir d’une entrée de journal générale, du scénario de schéma de régularisation ou la fonctionnalité N° document. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

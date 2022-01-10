@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778375"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920111"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Planifier la création de travail pendant la vague
 
@@ -54,7 +54,7 @@ Les configurations existantes de traitement des tâches et des vagues seront ég
 Si nécessaire, vous pouvez rétablir manuellement tout ou partie des paramètres définis automatiquement lorsque vous avez activé la fonctionnalité *Méthode de vague « Planifier la création du travail » à l’échelle de l’organisation* en procédant comme suit :
 
 - Pour les modèles de vague, accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**. Remplacez la méthode *Planifier la création du travail* par *Créer un travail*.
-- Pour les paramètres d’entrepôt, accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**. Sur l’onglet **Traitement des vagues**, appliquez vos valeurs préférées pour **Traiter les vagues par lots** et **Attendre le verrouillage (ms)**.
+- Pour les paramètres d’entrepôt, accédez à **Warehouse Management \> Paramétrage \> Paramètres de Warehouse Management**. Sur l’onglet **Traitement des vagues**, appliquez vos valeurs préférées pour **Traiter les vagues par lots** et **Attendre le verrouillage (ms)**.
 - Pour les méthodes de vague, accédez à **Gestion des entrepôts \> Paramétrage \> Vagues \> Méthodes de traitement de la vague**. Sélectionnez `WHSScheduleWorkCreationWaveStepMethod` et, dans le volet Actions, sélectionnez **Configuration de tâche**. Modifiez ou supprimez le nombre de tâches de traitement par lots et le groupe de vagues affecté pour chaque entrepôt répertorié, selon vos besoins.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Configurer manuellement la création de travail planifiée
@@ -65,7 +65,7 @@ Si vous n’avez pas activé la fonctionnalité [*Méthode de vague « Planifie
 
 Pour tirer parti d’une méthode asynchrone parallèle pour créer un travail d’entrepôt, votre processus de vague doit être exécuté par lots. Pour configurer cela :
 
-1. Accédez à  **Gestion des entrepôts\>Configuration \> Paramètres de gestion des entrepôts**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**.
 1. Sur l’onglet **Général**, définissez **Traiter les vagues dans des traitements par lots** sur *Oui*. En option, vous pouvez également sélectionner un **Groupe de traitements par lots pour le traitement de la vague** pour empêcher le traitement de votre file d’attente par lots de s’exécuter en même temps que d’autres processus.
 1. Définissez **Attendre le verrouillage (ms)**, qui s’applique lorsque le système traite plusieurs vagues en même temps. Pour la plupart des processus de traitement par vague plus volumineux, nous recommandons une valeur de *60000*.
 
@@ -73,8 +73,8 @@ Pour tirer parti d’une méthode asynchrone parallèle pour créer un travail d
 
 Commencez par créer la nouvelle méthode d’étape de vague et activez-la pour le traitement de tâche asynchrone parallèle.
 
-1. Accédez à  **Gestion des entrepôts \>Configuration \> Vagues \> Méthodes de traitement de la vague**.
-1. Sélectionnez  **Regenérer des méthodes** et notez que *WHSScheduleWorkCreationWaveStepMethod* a été ajouté à la liste des méthodes de traitement de vague que vous pouvez utiliser dans vos modèles de vague d’expédition.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Vagues \> Méthodes de traitement de la vague**.
+1. Sélectionnez **Regenérer des méthodes** et notez que *WHSScheduleWorkCreationWaveStepMethod* a été ajouté à la liste des méthodes de traitement de vague que vous pouvez utiliser dans vos modèles de vague d’expédition.
 1. Sélectionnez l’enregistrement avec le **Nom de méthode** *WHSScheduleWorkCreationWaveStepMethod* et sélectionnez **Configuration des tâches**.
 1. Pour ajouter une nouvelle ligne à la grille, sélectionnez **Nouveau** sur le volet Actions et utilisez les paramètres suivants :
 
@@ -84,7 +84,7 @@ Commencez par créer la nouvelle méthode d’étape de vague et activez-la pour
 
 Vous êtes maintenant prêt à mettre à jour un modèle de vague existant (ou à en créer un nouveau) pour utiliser la méthode de traitement de vague *Planifier la création de travail*.
 
-1. Accédez à  **Gestion des entrepôts\>Configuration \> Vagues \> Modèles de vague**.
+1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 1. Sélectionnez **Modifier** dans le volet Actions.
 1. Dans le volet de listes, sélectionnez le modèle de vague que vous souhaitez mettre à jour (si vous testez à l’aide de données de démonstration, vous pouvez utiliser la fonctionnalité *Expédition par défaut 24*).
 1. Développez l’organisateur **Méthodes** et sélectionnez la ligne avec le **Nom** *Planifier la création de travail* dans la grille **Méthodes restantes**.

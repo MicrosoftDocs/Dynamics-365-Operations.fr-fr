@@ -2,7 +2,7 @@
 title: Paramétrage de la gestion du crédit
 description: Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
 author: JodiChristiansen
-ms.date: 08/03/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753463"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921213"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
@@ -31,7 +31,7 @@ Dans la section **Crédit**, quatre raccourcis vous permettent de modifier les 
 
 ### <a name="credit-holds"></a>Suspensions de crédit
 
-- Paramétrez l’option **Autoriser la modification de la valeur des commandes client une fois le blocage de la commande levé** sur **Non** pour exiger que les règles de validation soient à nouveau vérifiées si la valeur de la commande client (prix étendu) a été augmentée depuis que la commande client a été libérée de la liste d’attente. .
+- Paramétrez l’option **Autoriser la modification de la valeur des commandes client une fois le blocage de la commande levé** sur **Non** pour exiger que les règles de validation soient à nouveau vérifiées si la valeur de la commande client (prix étendu) a été augmentée depuis que la commande client a été libérée de la liste d’attente.
 - Dans le champ **Motifs des commandes annulées**, sélectionnez le motif de libération qui sera utilisé par défaut lorsqu’une commande client qui était en attente de gestion des crédits est annulée.
 - Paramétrez l’option **Vérifier la limite de crédit des groupes de crédits client** sur **Oui** pour vérifier la limite de crédit d’un groupe de crédits client lorsque le client d’une commande client appartient à un groupe de crédits client. La limite de crédit pour le groupe sera vérifiée, puis, si elle est suffisante, la limite de crédit pour le client sera vérifiée.
 - Paramétrez l’option **Vérifier la limite de crédit lorsque les conditions de paiement sont augmentées** sur **Oui** pour vérifier le classement des modalités de paiement afin de déterminer si les modalités de paiement de la commande client diffèrent des modalités de paiement par défaut du client. Si les nouvelles modalités de paiement ont un rang supérieur aux modalités de paiement d’origine, la commande est mise en attente pour la gestion du crédit.
@@ -72,6 +72,10 @@ Plusieurs statistiques de gestion du crédit sont incluses dans le récapitulati
 
 - Dans la gestion des crédits, la limite de crédit client est affichée dans la devise du client. Vous devez définir le type de taux de change pour la limite de crédit dans la devise du client. Dans le champ **Type de taux de change limite de crédit**, sélectionnez le type de taux de change à utiliser pour convertir la limite de crédit principale en limite de crédit du client.
 - Paramétrez l’option **Autoriser la modification manuelle des limites de crédit** sur **Non** pour empêcher les utilisateurs de modifier les limites de crédit sur la page **Client**. Si cette option est définie sur **Non**, les modifications de la limite de crédit d’un client ne peuvent être effectuées qu’en enregistrant des transactions d’ajustement de limite de crédit.
+- Met l’option **Contourner les réservations de stock** sur **Oui** pour ignorer les réservations de stock à la vérification des règles de blocage de la gestion des crédits. Dans ce cas, le système vérifie les quantités de ligne complètes et active les périodes de grâce des points de contrôle, quelle que soit la quantité de réservation de stock.
+- Lorsque la gestion des crédits est activée, le réglage du champ **Message en cas de dépassement de limite de crédit** est utilisé pour traiter uniquement les factures financières. Bien que des messages soient toujours ajoutés aux commandes client lorsque les clients ont dépassé leur limite de crédit, la présence de ces messages ne bloquera pas la confirmation, l’impression des listes de prélèvement et des bons de livraison, ou l’affichage des factures.
+
+    La gestion des crédits est activée par défaut, mais vous pouvez la désactiver. S’il est activé, vous utilisez les règles de blocage de la gestion du crédit et les points de contrôle pour identifier quand les clients ont dépassé leur limite de crédit. S’il est désactivé, les messages ajoutés aux commandes client en fonction du paramétrage du champ **Message en cas de dépassement de limite de crédit** peut vous aider à identifier quand les clients ont dépassé leur limite de crédit.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Paramètres de séquence de nombres partagés et séquences de nombres
 

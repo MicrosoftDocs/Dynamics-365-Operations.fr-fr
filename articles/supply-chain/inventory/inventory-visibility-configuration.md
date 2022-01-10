@@ -2,7 +2,7 @@
 title: Configurer la visibilité du stock
 description: Cette rubrique décrit comment configurer la visibilité des stocks.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678469"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920296"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer la visibilité du stock
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Cette rubrique décrit comment configurer la visibilité des stocks à l'aide de l'application Visibilité des stocks dans Power Apps.
+Cette rubrique décrit comment configurer la visibilité des stocks à l’aide de l’application Visibilité des stocks dans Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Introduction
 
@@ -50,9 +50,9 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 
 Si vous ne connaissez pas le bon point de terminaison de service de visibilité des stocks, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher le point de terminaison de service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service.
 
-## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l'application Visibilité des stocks
+## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l’application Visibilité des stocks
 
-Dans Power Apps, la page **Configuration** de [l'application Visibilité des stocks](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cette rubrique expliquent comment utiliser chaque partie de la page **Configuration**.
+Dans Power Apps, la page **Configuration** de [l’application Visibilité des stocks](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cette rubrique expliquent comment utiliser chaque partie de la page **Configuration**.
 
 Une fois la configuration terminée, veillez à sélectionner **Mettre à jour la configuration** dans l’application.
 
@@ -61,7 +61,7 @@ Une fois la configuration terminée, veillez à sélectionner **Mettre à jour l
 Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « Dynamics 365 Finance and Operations ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
 
 > [!NOTE]
-> La source de données `fno` est réservée pour Dynamics 365 Supply Chain Management.
+> La source de données `fno` est réservée pour Supply Chain Management. Si votre complément de visibilité d’inventaire est intégré à un environnement Supply Chain Management, nous vous recommandons de ne pas supprimer les configurations liées à `fno` dans la source de données.
 
 Pour ajouter une source de données, procédez comme suit.
 
@@ -273,17 +273,17 @@ Le résultat `MyCustomAvailableforReservation`, basé sur la configuration du ca
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuration de la partition
 
-La configuration de la partition consiste en une combinaison de dimensions de base. Elle définit le modèle de distribution des données. Les opérations de données dans la même partition prennent en charge des performances élevées et ne coûtent pas trop cher. Par conséquent, de bons modèles de partition peuvent apporter des avantages significatifs.
-
-La visibilité des stocks fournit la configuration de partition par défaut suivante.
+Actuellement, la configuration de la partition se compose de deux dimensions de base (`SiteId` et `LocationId`) qui indiquent comment les données sont distribuées. Les opérations sous la même partition peuvent offrir des performances supérieures à moindre coût. Le tableau suivant affiche la configuration de partition par défaut fournie par le complément Visibilité des stocks.
 
 | Dimension de base | Hiérarchie |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> La configuration de partition par défaut est à titre indicatif uniquement. Vous n’avez pas besoin de la définir dans la visibilité des stocks. Actuellement, la mise à niveau de la configuration de partition n’est pas prise en charge.
+La solution inclut cette configuration de partition par défaut. Par conséquent, *vous n’avez pas à la définir vous-même*.
+
+> [!IMPORTANT]
+> Ne personnalisez pas la configuration de partition par défaut. Si vous la supprimez ou la modifiez, vous risquez de provoquer une erreur inattendue.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Configuration de la hiérarchie d’index des produits
 
@@ -391,7 +391,7 @@ Pour définir le mappage de réservation provisoire, procédez comme suit.
     | Soustraction | `pos` | `Outbound` |
     | Soustraction | `iv` | `SoftReservOrdered` |
 
-    Nous vous recommandons de configurer la mesure calculée de sorte qu'elle contienne la mesure physique sur laquelle la mesure de la réservation est basée. De cette manière, la quantité de mesure calculée sera affectée par la quantité de mesure de la réservation. Par conséquent, dans cet exemple, la mesure calculée `AvailableToReserve` de la source de données `iv` doit contenir la mesure physique `SoftReservOrdered` issue de `iv` en tant que composant.
+    Nous vous recommandons de configurer la mesure calculée de sorte qu’elle contienne la mesure physique sur laquelle la mesure de la réservation est basée. De cette manière, la quantité de mesure calculée sera affectée par la quantité de mesure de la réservation. Par conséquent, dans cet exemple, la mesure calculée `AvailableToReserve` de la source de données `iv` doit contenir la mesure physique `SoftReservOrdered` issue de `iv` en tant que composant.
 
 1. Ouvrez la page **Configuration**.
 1. Dans l’onglet **Mappage de réservation provisoire**, configurez le mappage de la mesure physique à la mesure calculée. Pour l’exemple précédent, vous pouvez utiliser les paramètres suivants pour mapper `AvailableToReserve` à la mesure physique `SoftReservOrdered` précédemment définie.
@@ -401,7 +401,7 @@ Pour définir le mappage de réservation provisoire, procédez comme suit.
     | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
-    > Si vous ne pouvez pas modifier l'onglet **Mappage de réservation provisoire**, vous devez peut-être activer la fonctionnalité *OnHandReservation* sur l’onglet **Gestion des fonctionnalités**.
+    > Si vous ne pouvez pas modifier l’onglet **Mappage de réservation provisoire**, vous devez peut-être activer la fonctionnalité *OnHandReservation* sur l’onglet **Gestion des fonctionnalités**.
 
 Maintenant, lorsque vous réserverez sur `SoftReservOrdered`, la visibilité des stocks trouvera automatiquement `AvailableToReserve` et sa formule de calcul associée pour effectuer la validation de la réservation.
 
@@ -439,7 +439,7 @@ Dans ce cas, le calcul suivant s’applique :
 Par conséquent, si vous essayez de faire des réservations sur `iv.SoftReservOrdered` et que la quantité est inférieure ou égale à `AvailableToReserve` (10), vous pouvez faire la réservation.
 
 > [!NOTE]
-> Lorsque vous appelez l'API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu'une valeur `False` signifie que la validation n'est pas requise. La valeur par défaut est `True`.
+> Lorsque vous appelez l’API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu’une valeur `False` signifie que la validation n’est pas requise. La valeur par défaut est `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Hiérarchie de réservation provisoire
 
