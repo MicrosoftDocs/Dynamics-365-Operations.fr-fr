@@ -2,7 +2,7 @@
 title: API publiques de visibilité des stocks
 description: Cette rubrique décrit les API publiques fournies par la visibilité des stocks.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678785"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920098"
 ---
 # <a name="inventory-visibility-public-apis"></a>API publiques de visibilité des stocks
 
@@ -41,13 +41,13 @@ Le tableau suivant répertorie les API actuellement disponibles :
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Valider | [Définir/remplacer les quantités de stock disponible](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Valider | [Créer un événement de réservation](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Valider | [Créer plusieurs événements de réservation](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Obtenir | [Interroger en utilisant la méthode post](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | Valider | [Interroger en utilisant la méthode get](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Valider | [Interroger en utilisant la méthode post](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Obtenir | [Interroger en utilisant la méthode get](#query-with-get-method) |
 
 Microsoft a fourni une collection de requêtes *Postman* prêtes à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
-> La partie {environmentId} du chemin d'accès est l'ID d'environnement dans Microsoft Dynamics Lifecycle Services (LCS).
+> La partie {environmentId} du chemin d’accès est l’ID d’environnement dans Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rechercher le point de terminaison en fonction de votre environnement Lifecycle Services
 
@@ -63,8 +63,8 @@ Le nom abrégé de la région se trouve dans l’environnement Microsoft Dynamic
 | Sud-est de l’Australie | seau              |
 | Centre du Canada      | cca               |
 | Canada Est         | eca               |
-| Nord de l'Europe        | neu               |
-| Ouest de l'Europe         | weu               |
+| Nord de l’Europe        | neu               |
+| Ouest de l’Europe         | weu               |
 | Est des États-Unis             | eus               |
 | Ouest des États-Unis             | wus               |
 | Royaume-Uni Sud            | suk               |
@@ -82,7 +82,7 @@ Microsoft a construit une interface utilisateur (IU) dans Power Apps afin que vo
 
 Le jeton de sécurité de la plateforme est utilisé pour appeler l’API publique de visibilité des stocks. Par conséquent, vous devez générer un jeton _Azure Active Directory (Azure AD)_ en utilisant votre application Azure AD. Vous devez ensuite utiliser le jeton Azure AD pour obtenir le _jeton d’accès_ du service de sécurité.
 
-Microsoft fournit une collection de jetons d'obtention *Postman* prête à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+Microsoft fournit une collection de jetons d’obtention *Postman* prête à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
 Pour obtenir un jeton de service de sécurité, procédez comme suit.
 
@@ -133,7 +133,7 @@ Pour obtenir un jeton de service de sécurité, procédez comme suit.
    - La valeur `context` doit être l’ID d’environnement LCS dans lequel vous souhaitez déployer le complément.
    - Définissez toutes les autres valeurs comme indiqué dans l’exemple.
 
-1. Récupérez un jeton d'accès (`access_token`) en envoyant une requête HTTP avec les propriétés suivantes :
+1. Récupérez un jeton d’accès (`access_token`) en envoyant une requête HTTP avec les propriétés suivantes :
 
    - **URL :** `https://securityservice.operations365.dynamics.com/token`
    - **Méthode :** `POST`
@@ -151,7 +151,7 @@ Pour obtenir un jeton de service de sécurité, procédez comme suit.
    ```
 
 > [!IMPORTANT]
-> Lorsque vous utilisez la demande de collecte *Postman* pour appeler les API publiques Inventory Visibility, vous devez ajouter un jeton de support pour chaque demande. Pour trouver votre jeton au porteur, sélectionnez l'onglet **Autorisation** sous l'URL de la demande, sélectionnez le type **Jeton du porteur**, tapez et copiez le jeton d'accès qui a été récupéré à la dernière étape. Dans les sections suivantes de cette rubrique, `$access_token` sera utilisé pour représenter le jeton qui a été récupéré à la dernière étape.
+> Lorsque vous utilisez la demande de collecte *Postman* pour appeler les API publiques Inventory Visibility, vous devez ajouter un jeton de support pour chaque demande. Pour trouver votre jeton au porteur, sélectionnez l’onglet **Autorisation** sous l’URL de la demande, sélectionnez le type **Jeton du porteur**, tapez et copiez le jeton d’accès qui a été récupéré à la dernière étape. Dans les sections suivantes de cette rubrique, `$access_token` sera utilisé pour représenter le jeton qui a été récupéré à la dernière étape.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Créer des événements de modification de stock disponible
 
@@ -379,9 +379,9 @@ Pour utiliser l’API *Reserve*, vous devez ouvrir la fonctionnalité de réserv
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Créer un événement de réservation
 
-Une réservation peut être effectuée pour différents paramètres de source de données. Pour configurer ce type de réservation, indiquez d'abord la source de données dans le paramètre `dimensionDataSource`. Ensuite, dans le paramètre `dimensions`, spécifiez les dimensions en fonction des paramètres de dimension dans la source de données cible.
+Une réservation peut être effectuée pour différents paramètres de source de données. Pour configurer ce type de réservation, indiquez d’abord la source de données dans le paramètre `dimensionDataSource`. Ensuite, dans le paramètre `dimensions`, spécifiez les dimensions en fonction des paramètres de dimension dans la source de données cible.
 
-Lorsque vous appelez l'API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu’une valeur `False` signifie que la validation n’est pas requise. La valeur par défaut est `True`.
+Lorsque vous appelez l’API de réservation, vous pouvez contrôler la validation de la réservation en spécifiant le paramètre booléen `ifCheckAvailForReserv` dans le corps de la requête. Une valeur `True` signifie que la validation est requise, alors qu’une valeur `False` signifie que la validation n’est pas requise. La valeur par défaut est `True`.
 
 Si vous souhaitez annuler une réservation ou annuler la réservation de quantités de stock spécifiées, définissez la quantité sur une valeur négative et définissez le paramètre `ifCheckAvailForReserv` sur `False` pour ignorer la validation.
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Interroger le stock disponible
 
-L’API _Query on-hand_ est utilisée pour récupérer les données de stock disponible actuelles pour vos produits.
+Utilisez l’API _Query on-hand_ pour récupérer les données de stock disponible actuelles pour vos produits. L’API prend actuellement en charge l’interrogation de jusqu’à 100 éléments individuels par valeur `ProductID`. Plusieurs valeurs `SiteID` et `LocationID` peuvent également être spécifiées dans chaque requête. La limite maximale est définie comme `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Interroger en utilisant la méthode post
 
@@ -505,13 +505,13 @@ Body:
     }
 ```
 
-Dans le corps de cette requête, `dimensionDataSource` est toujours un paramètre facultatif. S'il n'est pas défini, `filters` sera traité comme *dimensions de base*. Il y a quatre champs obligatoires pour `filters` : `organizationId`, `productId`, `siteId` et `locationId`.
+Dans le corps de cette requête, `dimensionDataSource` est toujours un paramètre facultatif. S’il n’est pas défini, `filters` sera traité comme *dimensions de base*. Il y a quatre champs obligatoires pour `filters` : `organizationId`, `productId`, `siteId` et `locationId`.
 
-- `organizationId` ne doit contenir qu'une seule valeur, mais c'est tout de même un tableau.
-- `productId` peut contenir une ou plusieurs valeurs. Si c'est un tableau vide, tous les produits seront renvoyés.
+- `organizationId` ne doit contenir qu’une seule valeur, mais c’est tout de même un tableau.
+- `productId` peut contenir une ou plusieurs valeurs. Si c’est un tableau vide, tous les produits seront renvoyés.
 - `siteId` et `locationId` sont utilisés pour le partitionnement pour la visibilité du stock. Vous pouvez spécifier plusieurs valeurs `siteId` et `locationId` dans une requête *Requête en main*. Dans la version actuelle, vous devez spécifier à la fois les valeurs `siteId` et `locationId`.
 
-Le paramètre `groupByValues` doit suivre votre configuration pour l'indexation. Pour plus d’informations, voir [Configuration de la hiérarchie d’index des produits](./inventory-visibility-configuration.md#index-configuration).
+Le paramètre `groupByValues` doit suivre votre configuration pour l’indexation. Pour plus d’informations, voir [Configuration de la hiérarchie d’index des produits](./inventory-visibility-configuration.md#index-configuration).
 
 Le paramètre `returnNegative` contrôle si les résultats contiennent des entrées négatives.
 
@@ -532,7 +532,7 @@ L’exemple suivant montre un exemple de contenu du corps.
 }
 ```
 
-Les exemples suivants montrent comment interroger tous les produits d'un site et d'un emplacement spécifiques.
+Les exemples suivants montrent comment interroger tous les produits d’un site et d’un emplacement spécifiques.
 
 ```json
 {
@@ -551,7 +551,7 @@ Les exemples suivants montrent comment interroger tous les produits d'un site et
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Voici un exemple d’URL pour get. Cette requête get est exactement la même que l’exemple post fourni précédemment.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

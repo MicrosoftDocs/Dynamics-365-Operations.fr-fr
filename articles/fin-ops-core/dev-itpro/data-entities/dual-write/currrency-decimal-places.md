@@ -2,19 +2,19 @@
 title: Migration de type de données de devise pour la double écriture
 description: Cette rubrique décrit comment modifier le nombre de décimales prises en charge par la double écriture pour la devise.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782805"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917728"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migration de type de données de devise pour la double écriture
 
@@ -83,9 +83,20 @@ Si vous souhaitez que la précision de la devise pour une devise spécifique dif
 
 ![Paramètres de devise pour un environnement local spécifique.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tables : colonne Devise
+### <a name="tables-currency-column"></a>Tables : colonne Devise
 
 Le nombre de décimales pouvant être configuré pour des colonnes de devise spécifiques est limité à quatre.
 
+### <a name="default-currency-decimal-precision"></a>Précision décimale de la devise par défaut
+Pour connaître le comportement attendu de la précision décimale de la devise par défaut dans les scénarios de migration et de non-migration, reportez-vous au tableau suivant. 
+
+| Date de création  | Champ Décimale devise    | Organisation existante (champ Devise non migré) | Organisation existante (champ Devise migré) | Nouvelle organisation créée après la build 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Champ de devise créé avant la build 9.2.21111.00146  |     |  |       |
+|    | Précision maximale visible dans l’interface utilisateur   | 4 chiffres    | 10 chiffres    | S/O    |
+| | Précision maximale visible dans l’interface utilisateur des résultats de la base de données et des requêtes de base de données         | 4 chiffres   | 10 chiffres   | S/O    |
+| Champ de devise créé après la build 9.2.21111.00146 |    |  |     |   |
+|   | Précision décimale maximale visible dans l’interface utilisateur     | 4 chiffres   | 10 chiffres   | 10 chiffres     |
+|          | Précision décimale maximale dans l’interface utilisateur des résultats de la base de données et des requêtes de base de données | 10 chiffres. Cependant, seuls 4 sont significatifs avec tous les zéros au-delà des 4 chiffres décimaux. Cela permet une migration plus simple et plus rapide de l’organisation, si nécessaire. | 10 chiffres      | 10 chiffres     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

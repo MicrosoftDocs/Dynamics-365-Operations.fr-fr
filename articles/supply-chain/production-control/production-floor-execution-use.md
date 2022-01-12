@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e84df8aa4f3e4079cf97d35b0d67a75d68dbb4b2
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860531"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920646"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -111,16 +111,13 @@ Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut dé
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Rapporter les bonnes quantités sur les commandes par lots qui ont des co-produits et des sous-produits
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] 
-<!--KFM: Preview until GA with 10.0.23 -->
+Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits.
 
-Les collaborateurs peuvent utiliser l'interface d'exécution de l'atelier de production pour signaler l'avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits.
+Certains fabricants, en particulier dans les industries de transformation, utilisent des commandes par lots pour gérer leurs processus de production. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des co-produits et des sous-produits en sortie. Lorsque des commentaires sur ces commandes par lots sont signalés, la quantité de sortie doit être enregistrée sur l’élément de formule, ainsi que sur les co-produits et sous-produits.
 
-Certains fabricants, en particulier dans les industries de transformation, utilisent des commandes par lots pour gérer leurs processus de production. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des co-produits et des sous-produits en sortie. Lorsque des commentaires sur ces commandes par lots sont signalés, la quantité de sortie doit être enregistrée sur l'élément de formule, ainsi que sur les co-produits et sous-produits.
+Lorsqu’un collaborateur termine ou termine partiellement une tâche sur une commande par lots, il peut signaler les quantités bonnes ou rebutées pour chaque produit défini comme sortie pour la commande. Les produits définis comme sortie pour une commande par lots peuvent être du type *Formule*, *Co-produit* ou *Sous-produit*.
 
-Lorsqu'un collaborateur termine ou termine partiellement une tâche sur une commande par lots, il peut signaler les quantités bonnes ou rebutées pour chaque produit défini comme sortie pour la commande. Les produits définis comme sortie pour une commande par lots peuvent être du type *Formule*, *Co-produit* ou *Sous-produit*.
-
-Pour déclarer de bonnes quantités sur les produits, un collaborateur sélectionne un travail sur l'onglet **Emplois actifs**, puis sélectionne **Saisie de l’avancement**.
+Pour déclarer de bonnes quantités sur les produits, un collaborateur sélectionne un travail sur l’onglet **Emplois actifs**, puis sélectionne **Saisie de l’avancement**.
 
 Ensuite, dans la boîte de dialogue **Saisie de l’avancement**, le collaborateur peut sélectionner parmi les produits définis comme sortie pour la commande par lots sur laquelle il doit générer un rapport. Le collaborateur peut sélectionner un ou plusieurs produits dans la liste, puis sélectionner **Saisie de l’avancement**. Pour chaque produit, la quantité est vide par défaut et le collaborateur peut utiliser le clavier numérique pour saisir la quantité. Le collaborateur peut utiliser les boutons **Précédent** et **Suivant** pour vous déplacer entre les produits sélectionnés. Une fois la quantité saisie pour chaque produit, le collaborateur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
 
@@ -128,13 +125,13 @@ Ensuite, dans la boîte de dialogue **Saisie de l’avancement**, le collaborate
 
 ### <a name="reporting-on-batch-orders-for-planning-items"></a>Rapports sur les commandes par lots pour les articles de planification
 
-Lorsqu'un collaborateur termine un travail sur une commande par lots pour un article de planification, il rapportera uniquement les quantités sur les co-produits et les sous-produits, car les articles de planification ne contiennent pas d'article du type *Formule*.
+Lorsqu’un collaborateur termine un travail sur une commande par lots pour un article de planification, il rapportera uniquement les quantités sur les co-produits et les sous-produits, car les articles de planification ne contiennent pas d’article du type *Formule*.
 
 ### <a name="reporting-co-product-variation"></a>Signalement de la variation des coproduits
 
-Si une commande par lots est créée à partir d'une version de formule où l'option **Variantes de co-produits** est définie sur *Oui*, le collaborateur peut générer des rapports sur les co-produits qui ne font pas partie de la définition des commandes par lots. Cette fonctionnalité est utilisée dans des scénarios où une sortie de produit inattendue peut se produire dans le processus de production.
+Si une commande par lots est créée à partir d’une version de formule où l’option **Variantes de co-produits** est définie sur *Oui*, le collaborateur peut générer des rapports sur les co-produits qui ne font pas partie de la définition des commandes par lots. Cette fonctionnalité est utilisée dans des scénarios où une sortie de produit inattendue peut se produire dans le processus de production.
 
-Dans ce cas, le collaborateur peut spécifier le co-produit et la quantité à déclarer en sélectionnant **Variantes de co-produits** dans la boîte de dialogue de progression du rapport. L'ouvrier peut alors sélectionner parmi tous les produits lancés qui sont définis comme co-produits.
+Dans ce cas, le collaborateur peut spécifier le co-produit et la quantité à déclarer en sélectionnant **Variantes de co-produits** dans la boîte de dialogue de progression du rapport. L’ouvrier peut alors sélectionner parmi tous les produits lancés qui sont définis comme co-produits.
 
 ## <a name="reporting-scrap"></a>Déclarer le rebut
 

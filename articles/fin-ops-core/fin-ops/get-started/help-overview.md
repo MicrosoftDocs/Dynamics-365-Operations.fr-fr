@@ -1,5 +1,5 @@
 ---
-title: Système d’aide
+title: Système d’aide (contient une vidéo)
 description: Cette rubrique offre une vue d’ensemble du système d’aide pour les applications Finance and Operations.
 author: edupont04
 ms.date: 07/20/2021
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4489cb2ba2f793066a0fdfb5906bd7232ecd970b9b9d0c04e95f4f69711290c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776575"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937527"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -55,14 +55,14 @@ Pour vous abonner à un flux RSS de toutes les mises à jour apportées au conte
 [Flux RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> Le flux RSS renvoie une liste des 100 sujets les plus récemment mis à jour. La liste n'est pas triée par date.  
+> Le flux RSS renvoie une liste des 100 sujets les plus récemment mis à jour. La liste n’est pas triée par date.  
 
 Vous pouvez également vous abonner à un flux RSS par application :
 
 - [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
 - [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
 - [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Chaîne d'approvisionnement](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Chaîne d’approvisionnement](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
 - [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
 
 ### <a name="leave-us-feedback"></a>Laissez-nous des commentaires

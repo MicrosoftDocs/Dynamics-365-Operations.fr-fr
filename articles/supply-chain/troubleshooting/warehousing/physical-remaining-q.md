@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744652"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920222"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>La quantité physique restante dans l’unité ne doit pas être nulle
 
@@ -63,10 +63,10 @@ Procédez comme suit pour examiner vos lignes de chargement et effectuer des aju
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
 1. Sélectionnez le chargement pour lequel le bon de livraison ne peut pas être généré.
-1. Dans le volet Actions, dans l’onglet  **Expédier et recevoir**, dans le groupe  **Annuler**, sélectionnez  **Annuler la confirmation de livraison**.
-1. Sur l’onglet  **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui dépasse la livraison excédentaire.
+1. Dans le volet Actions, dans l’onglet **Expédier et recevoir**, dans le groupe **Annuler**, sélectionnez **Annuler la confirmation de livraison**.
+1. Sur l’onglet **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui dépasse la livraison excédentaire.
 1. Sélectionnez **Réduire la quantité prélevée** pour ajuster la quantité prélevée.
-1. Sur l’onglet  **Détails de ligne**, sélectionnez **Commande**.
+1. Sur l’onglet **Détails de ligne**, sélectionnez **Commande**.
 1. Définissez le champ **Quantité** sur la quantité prélevée (c’est-à-dire sur la valeur du champ **Quantité créée par le travail**), afin que la génération du bon de livraison soit possible.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Examiner vos lignes de chargement et effectuer des ajustements pour vous assurer que l’unité et la quantité sont conformes à la précision décimale de l’unité

@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752940"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927402"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuration de Informations financières pour la version préliminaire publique (version préliminaire) - versions 10.0.20 et ultérieures
 
@@ -39,7 +40,7 @@ Procédez comme suit pour déployer les environnements.
 
 1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Finance. L’environnement nécessite la version 10.0.20 ou ultérieure des applications Finance and Operations.
 2. L’environnement doit être un environnement haute disponibilité (HA) dans Sandbox. (Ce type d’environnement est également appelé environnement de niveau 2.) Pour plus d’informations, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Si vous configurez Informations financières dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner correctement le modèle de prédiction. 
+3. Si vous configurez Informations financières dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner comme il se doit le modèle de prédiction. 
 
 ## <a name="configure-dataverse"></a>Configurer Dataverse
 
@@ -747,7 +748,7 @@ Suivez ces étapes pour installer le complément Informations financières.
 3. Sélectionnez le complément **Informations financières**.
 4. Acceptez les conditions, puis sélectionnez **Installer**.
 
-L'installation du complément peut prendre plusieurs minutes.
+L’installation du complément peut prendre plusieurs minutes.
 
 ## <a name="feedback-and-support"></a>Commentaires et support
 

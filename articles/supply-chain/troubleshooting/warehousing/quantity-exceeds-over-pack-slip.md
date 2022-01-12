@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00e3da7767b80e16f9351f59b109765bffc0128fe149cefafc1edda3a6cbcb96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc74c5748950b1f0f001fd89acb2e023640065ee
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781343"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920048"
 ---
 # <a name="quantity-exceeds-over-delivery-percentage-during-packing-slip-generation"></a>La quantité dépasse le pourcentage de livraison excédentaire lors de la génération du bon de livraison
 
@@ -50,10 +50,10 @@ Suivez la procédure suivante pour ajuster la quantité de la ligne de chargemen
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
 1. Sélectionnez le chargement pour lequel le bon de livraison ne peut pas être généré.
-1. Dans le volet Actions, dans l’onglet  **Expédier et recevoir**, dans le groupe  **Annuler**, sélectionnez  **Annuler la confirmation de livraison**.
-1. Sur l’onglet  **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui dépasse le pourcentage de livraison excédentaire.
+1. Dans le volet Actions, dans l’onglet **Expédier et recevoir**, dans le groupe **Annuler**, sélectionnez **Annuler la confirmation de livraison**.
+1. Sur l’onglet **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui dépasse le pourcentage de livraison excédentaire.
 1. Sélectionnez **Réduire la quantité prélevée** pour ajuster la quantité prélevée.
-1. Sur l’onglet  **Détails de ligne**, sélectionnez **Commande**.
+1. Sur l’onglet **Détails de ligne**, sélectionnez **Commande**.
 1. Définissez le champ **Quantité** sur la quantité prélevée (c’est-à-dire sur la valeur du champ **Quantité créée par le travail**), afin que la génération du bon de livraison soit possible.
 
 ### <a name="adjust-the-over-delivery-percentage"></a>Ajuster le pourcentage de livraison excédentaire
@@ -62,8 +62,8 @@ Suivez la procédure suivante pour ajuster le pourcentage de livraison excédent
 
 1. Accédez à **Comptabilité client \> Commandes \> Toutes les commandes**.
 1. Sélectionnez la commande client pour laquelle vous ne pouvez pas valider un bon de livraison pour le chargement.
-1. Sur l’onglet  **Lignes de commande client**, sélectionnez la ligne de commande client de l’article qui dépasse le pourcentage de livraison excédentaire.
-1. Sur l’onglet  **Détails de ligne**, sélectionnez **Livraison**.
+1. Sur l’onglet **Lignes de commande client**, sélectionnez la ligne de commande client de l’article qui dépasse le pourcentage de livraison excédentaire.
+1. Sur l’onglet **Détails de ligne**, sélectionnez **Livraison**.
 1. Définissez le champ **Livraison excédentaire** sur un pourcentage plus élevé qui tient compte de la quantité prélevée par rapport à la quantité de chargement, afin que la génération du bon de livraison soit possible.
 
 ### <a name="reverse-and-make-adjustments"></a>Annuler et effectuer des ajustements
@@ -73,14 +73,14 @@ Annulez tout ce qui a été validé pour le chargement (par exemple, le bon de l
 Utilisez la procédure suivante pour annuler un bon de livraison.
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Dans le volet Actions, dans l’onglet  **Expédier et recevoir**, dans le groupe  **Annuler**, sélectionnez  **Annuler les bons de livraison**.
+1. Dans le volet Actions, dans l’onglet **Expédier et recevoir**, dans le groupe **Annuler**, sélectionnez **Annuler les bons de livraison**.
 
 Utilisez la procédure suivante pour annuler une confirmation d’expédition.
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Dans le volet Actions, dans l’onglet  **Expédier et recevoir**, dans le groupe  **Annuler**, sélectionnez  **Annuler la confirmation de livraison**.
+1. Dans le volet Actions, dans l’onglet **Expédier et recevoir**, dans le groupe **Annuler**, sélectionnez **Annuler la confirmation de livraison**.
 
 Utilisez la procédure suivante pour annuler le travail.
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Dans le volet Actions, sous l’onglet  **Chargements**, dans le groupe  **Travail**, sélectionnez  **Annuler le travail**.
+1. Dans le volet Actions, sous l’onglet **Chargements**, dans le groupe **Travail**, sélectionnez **Annuler le travail**.

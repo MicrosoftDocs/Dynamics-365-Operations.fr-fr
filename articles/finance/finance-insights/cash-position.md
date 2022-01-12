@@ -2,7 +2,7 @@
 title: Emplacement des disponibilités
 description: Cette rubrique décrit comment la fonction de prévision des flux de trésorerie prédit l’emplacement des disponibilités d’une organisation à des moments spécifiques. Il décrit également les options disponibles pour afficher les prévisions pour différentes périodes.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752878"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945787"
 ---
 # <a name="cash-position"></a>Emplacement des disponibilités
 
@@ -45,5 +45,17 @@ La partie inférieure de l’onglet **Emplacement des disponibilités** affiche 
 - La grille **Compte bancaire** montre l’impact des encaissements et décaissements attendus sur le solde bancaire.
 
 Pour enregistrer et modifier la position de trésorerie, créez une capture instantanée. Pour plus d’informations sur l’utilisation des captures d’écran, voir [Vue d’ensemble des captures d’écran](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Détails de la capacité de l’emplacement des disponibilités 
+
+La fonction d’Emplacement des disponibilités comprend les fonctionnalités suivantes. 
+
+- La fonctionnalité d’Emplacement des disponibilités affiche le flux de trésorerie en fonction des documents existants dans le système et des lignes d’entrée et de sortie de trésorerie importées de systèmes externes.
+- Facilite l’intégration des données de flux de trésorerie provenant de systèmes externes vers Dynamics 365 Finance. L’Emplacement des disponibilités peuvent également utiliser l’infrastructure d’importation-exportation des données. Cette infrastructure facilite l’intégration à Excel OData. Vous pouvez également combiner des données provenant de plusieurs sources pour créer une solution complète d’Emplacement des disponibilités.
+- Introduit un emplacement intelligent des disponibilités. L’Emplacement des disponibilités est créée en fonction du comportement de paiement du client pour prédire quand une entreprise peut s’attendre à ce que de l’argent arrive sur ses comptes.
+- Pour les commandes et les factures client, la fonctionnalité IA de prédiction des paiements client est utilisée pour déterminer le comportement de paiement historique des clients lorsqu’une commande ou une facture sera payée.
+- Pour les commandes et les factures fournisseur, nous utilisons le délai moyen entre l’expédition et la facturation et le paiement d’une facture par fournisseur pour déterminer quand une commande ou une facture fournisseur sera payée, ce qui rend les sorties de fonds plus précises.
+
+Cela crée une vue plus précise des flux de trésorerie basée sur le comportement de paiement historique du trésorier. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

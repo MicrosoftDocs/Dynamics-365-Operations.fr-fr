@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647213"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920571"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management, version 10.0.19 (juin 2021)
 
@@ -50,7 +50,7 @@ Le tableau suivant répertorie les améliorations de fonctionnalités incluses d
 
 | Module | Nom&nbsp;de la fonctionnalité&nbsp;dans Gestion&nbsp;des fonctionnalités | Informations supplémentaires |
 |---|---|---|
-| Ventes et marketing | Améliorations des performances de nettoyage de l’historique des ventes | Le nettoyage de l’historique des ventes peut prendre beaucoup de temps s’il est rarement exécuté dans les environnements avec un volume important de mises à jour des ventes. Pour réduire la durée et améliorer la fiabilité, cette fonctionnalité divise le nettoyage en lots qui s’exécutent sur une durée limitée. Dans la mesure du possible, les capacités de la base de données seront exploitées pour réduire le blocage et éviter de joindre des tables transactionnelles pendant le nettoyage. Pour plus d'informations, consultez [Améliorations des performances de nettoyage de l'historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Ventes et marketing | Améliorations des performances de nettoyage de l’historique des ventes | Le nettoyage de l’historique des ventes peut prendre beaucoup de temps s’il est rarement exécuté dans les environnements avec un volume important de mises à jour des ventes. Pour réduire la durée et améliorer la fiabilité, cette fonctionnalité divise le nettoyage en lots qui s’exécutent sur une durée limitée. Dans la mesure du possible, les capacités de la base de données seront exploitées pour réduire le blocage et éviter de joindre des tables transactionnelles pendant le nettoyage. Pour plus d’informations, consultez [Améliorations des performances de nettoyage de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventes et marketing | Mettre à jour la date de réception demandée avec la date confirmée pour les commandes intersociétés | Cette fonctionnalité vous permet de contrôler ce qu’il adviendra des valeurs du champ de vente et d’achat lors de l’utilisation de la livraison directe intersociétés. Vous pouvez choisir si le système mettra à jour les dates demandées ou ignorera leur mise à jour. Si vous ignorez la mise à jour, les dates demandées représenteront ce que le client a demandé. Si vous activez la mise à jour, les dates demandées (lors de l’utilisation du contrôle de date de livraison) ne représentent que ce que le client a demandé initialement. Le contrôle de date de livraison, s’il est différent de *Aucun*, annulera ce qui a été initialement demandé. Vous pouvez définir cette option à l’aide du nouveau paramètre **Mettre à jour la date de réception demandée avec la date confirmée** dans les paramètres du fournisseur ou du client intersociétés.<br><br>Si la fonctionnalité est désactivée, le système remplacera la date de réception demandée dans les commandes client d’origine en fonction de la règle du contrôle de date de livraison, mais la date d’expédition demandée restera telle quelle. |
 | Gestion des entrepôts | Arrondir les quantités vers le bas pour l’unité de vente la plus proche à la libération dans l’entrepôt | Cette fonctionnalité ajoute une option qui peut restreindre les quantités des commandes lors du lancement dans l’entrepôt. Lorsque cette fonctionnalité est activée, les quantités des commandes seront arrondies à l’unité de vente entière la plus proche et les commandes incluant des quantités pour moins d’une unité de vente seront rejetées pour lancement. |
 | Gestion des entrepôts | Méthode de vague « Création de travail planifié » pour l’ensemble de l’organisation | Lors de l’activation de cette fonctionnalité, la méthode de vague *Planifier la création du travail* sera configurée pour s’exécuter en parallèle dans toutes les entités juridiques. Plusieurs paramètres supplémentaires seront également affectés. Pour obtenir des détails complets, consultez [Planifier la création du travail pendant la vague](../warehousing/configure-wave-schedule-work-creation.md). |

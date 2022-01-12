@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778519"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920721"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -80,6 +80,9 @@ Pour confirmer manuellement les commandes prévisionnelles, recherchez et sélec
     - **Regrouper par contrat d’achat** : définissez cette option sur *Oui* pour regrouper les commandes fournisseur planifiées avec le même fournisseur comme contrats d’achat existants et créer une commande fournisseur par contrat d’achat. Cette option est automatiquement activée lorsque **Regrouper par fournisseur** est activé. Pour utiliser l’option **Regrouper par contrat d’achat**, l’option **Rechercher des contrats d’achat** doit être définie sur *Oui* dans la page **Paramètres de planification générale**.
     - **Regrouper par période** (dans la section **Commandes fournisseur**) – Sélectionnez la période selon laquelle regrouper les commandes fournisseur prévisionnelles. Pour utiliser cette option, vous devez également sélectionner l’option **Regrouper par fournisseur**.
     - **Regrouper par période** (dans la section **Transferts**) – Sélectionnez la période selon laquelle regrouper les ordres de transfert prévisionnels. Les commandes seront regroupées en fonction des valeurs **Entrepôt d’origine** et **Entrepôt de destination**.
+
+    > [!NOTE]
+    > Chacune des options "Grouper par" amène le système à convertir chaque commande planifiée en une ligne dans la commande fournisseur unique qui résulte du regroupement.
 
     ![Raccourci Paramètres dans la boîte de dialogue Confirmation.](./media/manual-firming.png "Raccourci Paramètres dans la boîte de dialogue Confirmation")
 

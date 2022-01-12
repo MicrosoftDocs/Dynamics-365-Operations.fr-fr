@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Fichiers de mémoire de traduction
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Extension d’Azure DevOps (version préliminaire publique)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Intégration de Microsoft Power Platform
           items:
             - name: Vue d’ensemble
@@ -1236,7 +1238,7 @@
           items:
             - name: Ressources de la plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Mise en route
+            - name: Démarrer
               items:
                 - name: Mise en route de la plateforme mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: Copier un traitement par lots
                   href: sysadmin/copy-batch-job.md
+                - name: Ordonnancement par lots basé sur la priorité
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Périodes de traitement par lots actives
                   href: sysadmin/activeperiod.md
                 - name: Prise en charge de l’heure d’été pour les périodes de traitement par lots actives

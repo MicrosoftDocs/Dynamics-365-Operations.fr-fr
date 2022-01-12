@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752902"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945752"
 ---
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
@@ -37,6 +37,7 @@ Une fois ces tâches effectuées, vous pouvez calculer et analyser les prévisio
 La prévision des flux de trésorerie peut être intégrée avec les modules Comptabilité, Comptabilité fournisseur, Comptabilité client, Budget et Gestion des stocks. Le processus de prévisions utilise les informations de transactions entrées dans le système, et le processus de calcul prévoit l’impact de trésorerie prévu de chaque transaction. Les types de transactions sont considérées lorsque le flux de trésorerie est calculé :
 
 - **Commandes client** – Commandes client qui ne sont pas encore facturées et qui aboutissent à des ventes physiques ou financières.
+- **Factures financières** – Les Factures financières qui ne sont pas encore validées et qui se traduisent par des ventes financières. 
 - **Commandes fournisseur** – Commandes fournisseur qui ne sont pas encore facturées et qui aboutissent à des achats physiques ou financiers.
 - **Comptabilité client** – Transactions client en cours (factures qui n’ont pas encore été payées).
 - **Comptabilité fournisseur** – Transactions fournisseur en cours (factures qui n’ont pas encore été payées).
@@ -44,7 +45,9 @@ La prévision des flux de trésorerie peut être intégrée avec les modules Com
 - **Écritures de registre budgétaires** – Écritures de registre budgétaires qui sont sélectionnées pour les prévisions des flux de trésorerie.
 - **Prévisions de la demande** – Lignes de modèle de prévisions de stock sélectionnées pour les prévisions des flux de trésorerie.
 - **Prévisions d’approvisionnement** – Lignes de modèle de prévisions de stock sélectionnées pour les prévisions des flux de trésorerie.
+- **Source de données externe** – Données externes saisies ou importées dans les prévisions de trésorerie à l’aide de modèles de feuilles de calcul.
 - **Prévisions de projet** – Gestion de projet et prévisions comptables à l’aide d’un modèle de prévision.
+- **Paiements à l’administration fiscale des ventes de la trésorerie** – Montants et calendrier de paiement prévus par l’autorité fiscale qui entraînent des paiements financiers. Activez la fonctionnalité Paiements à l’administration fiscale des ventes de trésorerie.
 
 ## <a name="configuration"></a>Configuration
 
@@ -94,7 +97,7 @@ Les écritures du registre budgétaire peuvent être incluses dans les prévisio
 Les approvisionnements et les prévisions de la demande de stock peuvent être inclus dans les prévisions des flux de trésorerie. Dans l’onglet **Gestion des stocks** de la page **Configuration des prévisions de flux de trésorerie**, sélectionnez le modèle de budget à inclure dans la prévision de flux de trésorerie. L’inclusion dans les prévisions des flux de trésorerie peut être remplacée sur chaque ligne d’approvisionnement et de prévision de la demande.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configuration des dimensions pour la prévision des flux de trésorerie
-Un nouvel onglet sur la page **Configuration des prévisions de flux de trésorerie** vous permet de contrôler quelles dimensions financières doivent être utilisées pour le filtrage dans l’espace de travail **Prévision des flux de trésorerie**. Cet onglet apparaîtra uniquement lorsque la fonction de prévision des flux de trésorerie dans Finance Insights est activée. 
+Un nouvel onglet sur la page  **Configuration des prévisions de flux de trésorerie**  vous permet de contrôler quelles dimensions financières doivent être utilisées pour le filtrage dans l’espace de travail  **Prévision des flux de trésorerie** . Cet onglet apparaîtra uniquement lorsque la fonction de prévision des flux de trésorerie est activée.
 
 Sur l’onglet **Dimensions**, choisissez dans la liste des dimensions à utiliser pour le filtrage et utilisez les touches fléchées pour les déplacer vers la colonne de droite. Seules deux dimensions peuvent être sélectionnées pour filtrer les données de prévision des flux de trésorerie. 
 
@@ -108,6 +111,10 @@ Dans la version 10.0.17, une nouvelle fonctionnalité permet l’intégration a
 Une fois la fonctionnalité Prévision des flux de trésorerie de projet activée, la prévision de flux de trésorerie peut être affichée pour chaque projet sur la page **Tous les projets**. Dans le volet Actions, sous l’onglet **Planifier**, dans le groupe **Prévision**, sélectionnez **Prévisions de flux de trésorerie**. Dans les espaces de travail **Vue d’ensemble des disponibilités** (voir la section [Génération d’états](#reporting) plus loin dans cette rubrique), le type de transaction de la Prévision de projet affiche les entrées (recettes de la prévision de projet) et les sorties (coûts de la prévision de projet). Les montants ne peuvent être inclus que si le champ **Stade du projet** dans les espaces de travail **Vue d’ensemble des disponibilités** est défini sur **En cours**.
 
 Les transactions du projet sont toujours incluses dans les prévisions de flux de trésorerie de plusieurs manières, indépendamment du fait que la fonctionnalité **Prévision des flux de trésorerie de projet** est activée. Les factures de projet validées sont incluses dans la prévision dans le cadre des transactions client en cours. Les commandes client et fournisseur créées pour un projet sont incluses dans la prévision comme les commandes en cours après leur saisie dans le système. Vous pouvez également transférer des prévisions de projet vers un modèle de budget comptable. Ce modèle de budget comptable est ensuite inclus dans les prévisions des flux de trésorerie dans les écritures de registre budgétaires. Si vous avez activé la fonctionnalité **Prévision des flux de trésorerie de projet**, ne transférez pas les prévisions de projet vers un modèle de budget comptable, car cette action entraînera le comptage des prévisions de projet deux fois.
+
+### <a name="sales-tax-authority-payments"></a>Paiements à l’administration fiscale 
+
+La fonction Paiements à l’administration fiscale des flux de trésorerie prédit l’impact sur les flux de trésorerie des paiements de la TVA. Il utilise les transactions de taxe de vente impayées, les périodes de règlement des taxes et les conditions de paiement de la période d’imposition pour prédire la date et le montant des paiements de flux de trésorerie. 
 
 ### <a name="calculation"></a>Calcul
 

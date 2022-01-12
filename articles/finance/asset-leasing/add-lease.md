@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893643"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931979"
 ---
 # <a name="add-or-copy-leases-preview"></a>Ajouter ou copier des baux (version préliminaire)
 
@@ -35,7 +35,7 @@ Procédez comme suit pour créer un bail dans Location d’actifs.
 1. Sur la page **Récapitulatif du bail**, dans le volet Actions, sélectionnez **Nouveau**.
 2. Entrez les informations du bail. Les champs obligatoires sont encadrés en rouge.
 
-> La date de début du paiement de location ne peut pas être antérieure à la date de début de la location. Si vous entrez une date de début du paiement de location antérieure à la date de début de la location, vous recevrez un message d'erreur.
+> La date de début du paiement de location ne peut pas être antérieure à la date de début de la location. Si vous entrez une date de début du paiement de location antérieure à la date de début de la location, vous recevrez un message d’erreur.
   
 ## <a name="create-a-lease-schedule"></a>Créer un échéancier de bail
 
@@ -50,6 +50,9 @@ Une fois que vous avez terminé de saisir les informations relatives au bail, pr
     La page **Détails du registre** montre comment le bail est comptabilisé par les registres qui lui ont été attribués. De là, vous pouvez afficher les échéanciers de bail.
 
     L’échéancier de paiement contient les entrées de l’onglet **Lignes d’échéancier de paiement** sur la page **Ajouter un bail**. Vous pouvez toujours modifier chaque montant de paiement et paiement variable. Le passif locatif est calculé en fonction de l’échéancier de paiement modifié.
+    
+> [!NOTE]
+> La date de début du paiement de location doit être la même ou une date postérieure à la date de début du bail. Vous recevrez un message d’erreur si la date de début du paiement de location est antérieure à la date de début de la location. 
 
 4. Après avoir examiné l’échéancier de paiement, sélectionnez **Confirmer l’échéancier**. Une fois l’échéancier confirmé, le bail n’est plus disponible pour modification.
 

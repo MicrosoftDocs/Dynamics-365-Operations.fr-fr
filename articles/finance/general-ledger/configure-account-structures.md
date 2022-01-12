@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719714"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945539"
 ---
 # <a name="configure-account-structures"></a>Configurer les structures de compte
 
@@ -79,7 +79,7 @@ Lorsque vous saisissez dans un journal et que vous sélectionnez un compte dans 
 
 ## <a name="more-than-7-criteria-needed"></a>Plus de 7 critères requis
 
-Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l’utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter nouveau** n’est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
+Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l’utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter** n’est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
  - Largeur de colonne 
  - Mode de stockage des données 
  - Performances du contrôle **Détails des valeurs autorisées**
@@ -101,7 +101,7 @@ Lors du paramétrage de vos structures de compte, certaines pratiques recommand�
 - Il ne suffit d’ajouter un astérisque pour chaque segment de la structure de compte et de se baser uniquement sur les règles avancées. Cela peut s’avérer difficile à gérer et entraîne généralement des erreurs pendant la maintenance, ce qui rend la validation impossible.
 
 ## <a name="account-structure-activation"></a>Activation de la structure de compte
-Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, vous devez les activer. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte.
+Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, activez-les. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte.
 
 Pour plus d’informations, voir, [Planifier votre plan de comptes](plan-chart-of-accounts.md), [Dimensions financières](financial-dimensions.md) et [Entrer des combinaisons de compte et de dimensions (contrôle d’accès segmenté)](enter-account-dimension-combinations-segmented-entry-control.md).
 

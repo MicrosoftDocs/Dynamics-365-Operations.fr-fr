@@ -2,7 +2,7 @@
 title: Application Human Resources de Teams
 description: Cette rubrique vous présente l’application Microsoft Dynamics 365 Human Resources de Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913487"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924720"
 ---
 # <a name="human-resources-app-in-teams"></a>Application Human Resources de Teams
 
@@ -41,6 +41,21 @@ Vous pouvez trouver l’application Dynamics 365 Human Resources dans la boutiqu
 Pour plus d’informations sur la gestion des autorisations d’application dans Teams, consultez [Gérer les stratégies d’autorisation des applications dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 Si vous souhaitez que vos utilisateurs voient le calendrier des congés et absences dans l’application, vous devez activer le **Calendrier des congés et absences dans Teams** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités, consultez [Gérer les fonctionnalités](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Mettre à jour l’application
+>[!NOTE]
+> À compter du 20 décembre 2021, les services de bot de l’application Human Resources hébergés dans l’abonné Microsoft seront mis hors service. Il n’y aura aucun impact pour une extension à jour (version 1.1.5) qui est disponible pour l’installation. L’impact principal sera sur l’extension obsolète (version 1.1.4). Le bot de discussion instantanée dans cette version cessera de fonctionner. L’onglet **Congés** continuera à fonctionner dans les deux extensions.
+
+Pour la version 1.1.4, le bot de conversation instantanée cessera de répondre à tout message. Par example, **Connexion**, **Voir les soldes**, et **Voir congés**. L’application doit être mise à jour manuellement vers la dernière version. Pour plus d’informations, voir la rubrique [Mettre à jour les applications dans Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+
+Pour mettre à jour vers la version 1.1.5, procédez comme suit :
+1. Dans Microsoft Teams, aller à **Applications**.
+2. Recherchez l’application **Human Resources**.
+3. Sélectionnez **Mettre à niveau**.
+
+Vous pouvez vérifier la version de l’application Human Resources soit en allant sur l’onglet **À propos** ou à la section **Application personnelle**. 
+
+![Onglet **À propos** de Human Resources.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Activer les notifications pour l’application Human Resources dans Teams
 
@@ -112,8 +127,8 @@ Les éléments de travail suivants sont prévus pour les prochaines versions :
 
 Si un utilisateur rencontre des problèmes pour se connecter ou utiliser l’application Teams de Human Resources, essayez de suivre ces instructions de dépannage. Si vous rencontrez toujours des problèmes après la résolution des problèmes, contactez l’assistance. Pour plus d’informations, voir [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
-### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>S'assurer que l'application Teams Human Resources est à jour
-Si vous rencontrez des problèmes avec l'application Teams Human Resources, vous devez vérifier que vous exécutez bien la dernière version. La version minimale prise en charge est la 1.1.5. Pour obtenir des instructions sur la mise à jour d'une application Teams, consultez la [documentation Teams](/MicrosoftTeams/apps-update-experience).
+### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>S’assurer que l’application Teams Human Resources est à jour
+Si vous rencontrez des problèmes avec l’application Teams Human Resources, vous devez vérifier que vous exécutez bien la dernière version. La version minimale prise en charge est la 1.1.5. Pour obtenir des instructions sur la mise à jour d’une application Teams, consultez la [documentation Teams](/MicrosoftTeams/apps-update-experience).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Impossible de se connecter à l’application Human Resources dans Teams
 

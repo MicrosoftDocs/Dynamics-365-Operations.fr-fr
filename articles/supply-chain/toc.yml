@@ -4,7 +4,35 @@
       items:
         - name: Page d’accueil de Dynamics 365 Supply Chain Management
           href: index.md
-        - name: Mise en route
+        - name: Nouveautés ou modifications
+          items:
+            - name: Nouveautés ou modifications dans les applications Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Nouveautés ou modifications dans Supply Chain Management
+              items:
+                - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
+                  href: get-started/whats-new-home-page.md
+                - name: "Supply\_Chain\_Management\_10.0.24 (février\_2022)"
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: "Supply\_Chain\_Management\_10.0.23 (janvier\_2022)"
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: "Supply Chain Management\_10.0.22 (novembre\_2021)"
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: "Supply Chain Management\_10.0.21 (octobre\_2021)"
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Fonctionnalités supprimées ou obsolètes
+              items:
+                - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Démarrer
           items:
             - name: Description de service
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer l’entreposage pour les déploiements locaux
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Nouveautés ou modifications
-              items:
-                - name: Nouveautés ou modifications dans les applications Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Nouveautés ou modifications dans Supply Chain Management
-                  items:
-                    - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
-                      href: get-started/whats-new-home-page.md
-                    - name: "Supply\_Chain\_Management\_10.0.24 (février\_2022)"
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: "Supply\_Chain\_Management\_10.0.23 (janvier\_2022)"
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: "Supply Chain Management\_10.0.22 (novembre\_2021)"
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: "Supply Chain Management\_10.0.21 (octobre\_2021)"
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Fonctionnalités supprimées ou obsolètes
-                  items:
-                    - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ressources documentaires
               items:
                 - name: Système d’aide
@@ -256,7 +256,7 @@
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Tableau de bord de gestion de l’utilisation
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Mise en route
+                    - name: Démarrer
                       items:
                         - name: Mise en route de l’administration du service de facturation électronique
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: API publiques de visibilité du stock
                   href: inventory/inventory-visibility-api.md
+                - name: Conseils sur la visibilité des stocks
+                  href: inventory/inventory-visibility-tips.md
         - name: Intelligence IoT
           items:
             - name: Page d’accueil Intelligence IoT
@@ -1633,7 +1635,7 @@
               href: iot/iot-scenario-setup.md
             - name: Surveiller et gérer
               href: iot/iot-management.md
-        - name: Planification
+        - name: Planification générale
           items:
             - name: Page d’accueil Planification
               href: master-planning/master-planning-home-page.md
@@ -3571,8 +3573,10 @@
                   href: troubleshooting/inventory/the-field-last-test.md
                 - name: 'Lorsqu’une quantité en poids variable est fractionnée, la quantité minimale est utilisée au lieu de la quantité nominale'
                   href: troubleshooting/inventory/while-splitting-the.md
-            - name: Planification
+            - name: Planification générale
               items:
+                - name: Le système ne peut pas trouver une commande planifiée lorsqu’il fonctionne sur plusieurs commandes
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: L’éclatement de nomenclature se comporte différemment pour les ordres de fabrication confirmés et estimés
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: La valeur de délai n’est pas mise à jour lorsque vous replanifiez un ordre planifié

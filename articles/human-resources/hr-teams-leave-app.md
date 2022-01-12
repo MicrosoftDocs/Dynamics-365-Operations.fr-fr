@@ -2,7 +2,7 @@
 title: Gérer les demandes de congé dans Teams
 description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771529"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924745"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -35,6 +35,9 @@ Vous pouvez trouver l’application Dynamics 365 Human Resources dans la boutiqu
 1. Dans Microsoft Teams, accédez à la liste des applications.
  
 2. Recherchez Dynamics 365 Human Resources, puis sélectionnez la vignette **Human Resources**.
+
+> [!NOTE]
+> À compter du 20 décembre 2021, les services de bot de l’application Ressources humaines (version 1.1.4) hébergés dans l’abonné Microsoft seront mis hors service. L’extension la plus récente (version 1.1.5) est disponible pour l’installation. Pour plus d’informations, voir [Gérer les demandes de congés dans Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Sélectionnez le bouton **Ajouter** pour installer l’application.
 

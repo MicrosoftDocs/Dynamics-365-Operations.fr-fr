@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726559"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920471"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>L’arrondi décimal de la quantité physique de mise à jour est incorrect
 
@@ -49,10 +49,10 @@ Suivez la procédure suivante pour passer en revue vos lignes de chargement et e
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
 1. Sélectionnez le chargement pour lequel le bon de livraison ne peut pas être généré.
-1. Dans le volet Actions, dans l’onglet  **Expédier et recevoir**, dans le groupe  **Annuler**, sélectionnez  **Annuler la confirmation de livraison**.
-1. Sur l’onglet  **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui cause le problème.
+1. Dans le volet Actions, dans l’onglet **Expédier et recevoir**, dans le groupe **Annuler**, sélectionnez **Annuler la confirmation de livraison**.
+1. Sur l’onglet **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui cause le problème.
 1. Sélectionnez **Réduire la quantité prélevée** pour ajuster la quantité prélevée.
-1. Sur l’onglet  **Détails de ligne**, sélectionnez **Commande**.
+1. Sur l’onglet **Détails de ligne**, sélectionnez **Commande**.
 1. Définissez le champ **Quantité** sur la quantité prélevée (c’est-à-dire sur la valeur du champ **Quantité créée par le travail**), afin que la génération du bon de livraison soit possible.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Examiner vos lignes de chargement et effectuer des ajustements pour vous assurer que l’unité et la quantité sont conformes à la précision décimale de l’unité
