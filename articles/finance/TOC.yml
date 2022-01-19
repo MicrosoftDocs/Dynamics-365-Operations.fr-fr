@@ -4,7 +4,7 @@
       items:
         - name: Page d’accueil de Dynamics 365 Finance
           href: index.md
-        - name: Mise en route
+        - name: Démarrer
           items:
             - name: Description de service
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Activer la prévision des flux de trésorerie
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Données externes dans les prévisions de flux de trésorerie
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Activer les propositions de budget
                   href: finance-insights/enable-budget-proposal.md
                 - name: Créer un projet d’intégrateur de données
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Emplacement des disponibilités
                   href: finance-insights/cash-position.md
-                - name: Prévisions de flux de trésorerie
+                - name: Prévisions de trésorerie
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Utiliser des données externes dans les prévisions de flux de trésorerie
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Prédictions de paiement des clients
                   href: finance-insights/payment-insights-overview.md
                 - name: Utiliser les prédictions de paiement des clients
@@ -1416,7 +1416,7 @@
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Tableau de bord de gestion de l’utilisation
                       href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
-                    - name: Mise en route
+                    - name: Démarrer
                       items:
                         - name: Mise en route de l’administration du service de facturation électronique
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mise en route de la facturation électronique pour l’Arabie saoudite
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Configurer l’intégration directe de FatturaPA italien avec SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Utiliser le service de facturation électronique pour importer des factures fournisseurs
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Paramétrer la facturation électronique
@@ -1512,7 +1514,11 @@
                           items:
                             - name: Déclaration de TVA
                               href: localizations/emea-gbr-vat-declaration.md
-                    - name: Activer le calcul de la taxe pour les ordres de transfert
+                        - name: Génération d’états pour la Norvège
+                          items:
+                            - name: Déclaration de TVA
+                              href: localizations/emea-nor-vat-declaration.md
+                    - name: Activer le calcul de la taxe pour l’ordre de transfert
                       items:
                         - name: Prise en charge de la fonctionnalité de taxe pour les ordres de transfert
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1554,10 +1560,10 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Commissions sur les matières d’emballage
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Déclaration de TVA
+                - name: Relevés de TVA
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: État des services transfrontaliers
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Déclaration d’échanges de biens (Autriche)
                   href: localizations/emea-aut-intrastat.md
                 - name: Droits de douane sur les achats
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Méthodes d’amortissement des immobilisations
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Importation d’entité de données Chinese Golden Tax
+                - name: Importation de fichiers Chinese Golden Tax
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Modèle de coût moyen mensuel
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -1874,7 +1880,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Mettre à jour le mode d’affichage des montants dans les états et documents
                   href: localizations/emea-amount-printing-forms.md
-                - name: Déclaration de TVA
+                - name: Relevés de TVA
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Déclaration de TVA (République tchèque)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
@@ -1930,7 +1936,7 @@
                   href: localizations/estonia.md
                 - name: Demandes d’informations personnelles
                   href: localizations/emea-est-personal-info.md
-                - name: Déclaration de TVA
+                - name: Relevés de TVA
                   href: localizations/emea-est-vat-statement-details.md
             - name: Europe
               items:
@@ -2074,7 +2080,7 @@
                       href: localizations/emea-vat-register-transactions.md
                     - name: Date d’application de la taxe (date du registre de TVA)
                       href: localizations/emea-tax-point-date.md
-                    - name: Déclaration de TVA
+                    - name: Rapports de TVA
                       href: localizations/emea-vat-reporting.md
                     - name: Créer et envoyer un état de TVA
                       href: localizations/tasks/create-submit-vat-report.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: État de paiement de la taxe pour la Finlande
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Déclaration d’échanges de biens finlandaise
+                  href: localizations/emea-fin-intrastat.md
             - name: France
               items:
                 - name: Vue d’ensemble de la France
@@ -2180,7 +2188,7 @@
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Déclaration d’échanges de biens (Allemagne)
                   href: localizations/emea-deu-intrastat.md
-                - name: Déclaration de TVA
+                - name: Relevés de TVA
                   href: localizations/emea-de-vat-declaration.md
                 - name: Rapport Factures électroniques client
                   href: localizations/emea-deu-e-invoices.md
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Déclaration de TVA pour l’Indonésie
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Déclaration de retenue à la source pour l’Indonésie
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Italie
               items:
                 - name: Vue d’ensemble de l’Italie
@@ -2978,7 +2988,7 @@
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
                 - name: Format d’importations nettes
                   href: localizations/emea-nor-nets-import-format.md
-                - name: Déclaration de TVA
+                - name: Relevés de TVA
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Retour de TVA avec envoi direct à Altinn
                   items:

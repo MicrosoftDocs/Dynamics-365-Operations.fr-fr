@@ -2474,15 +2474,13 @@
                       href: e-commerce-extensibility/mock-sign-in.md
                     - name: Configurer les propriétés du module à afficher en fonction du contexte
                       href: e-commerce-extensibility/configure-properties-context.md
-                    - name: Globaliser des modules à l’aide de la classe CultureInfoFormatter
+                    - name: Globaliser les modules à l’aide de la classe CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Configurer Azure Key Vault pour la gestion des clés sécurisées
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Créer un hook pour le complément de pipeline de requêtes
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Composant de l’image
                       href: e-commerce-extensibility/image-component.md
-                - name: Développer des actions de données
+                - name: Développer les actions de données
                   items:
                     - name: Vue d’ensemble des actions de données
                       href: e-commerce-extensibility/data-actions.md

@@ -2,7 +2,7 @@
 title: Mettre en service Human Resources
 description: Cette rubrique explique le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644525"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952700"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -44,7 +44,7 @@ Avant de provisionner votre premier environnement bac à sable ou de production,
 
 Les environnements d’essai offrent la possibilité d’évaluer la fonctionnalité des ressources humaines pour les personnes qui n’ont pas encore accès à un environnement de ressources humaines. Si vous fournissez un environnement d’essai et que l’utilisateur authentifié a déjà accès à un ou plusieurs environnements de ressources humaines existants, l’utilisateur est redirigé vers l’environnement existant ou la liste d’environnements.
 
-Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 60 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
+Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 30 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
 
 Lors de la création d’un environnement d’essai Human Resources, un environnement d’essai Power Apps est également créé sur le locataire et est lié à l’environnement Human Resources. L’environnement Power Apps, nommé « TestDrive », a la même période d’essai que l’environnement Human Resources.
 

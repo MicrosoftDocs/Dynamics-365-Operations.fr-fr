@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890828"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947338"
 ---
 # <a name="impair-right-of-use-assets"></a>Déprécier un droit d’utilisation des actifs
 
@@ -38,12 +38,14 @@ Le solde du droit d’utilisation de l’actif sera amorti selon la méthode lin
 3. Dans la boîte de dialogue qui apparaît, dans le champ **Montant de la dépréciation**, saisissez le montant de la dépréciation de l’actif. Pour diminuer le droit d’utilisation de l’actif, vous devez entrer une valeur positive.
 4. Dans le champ **Date de la transaction**, entrez la date à laquelle l’écriture de dépréciation doit être enregistrée.
 5. Dans le champ **Périodes restantes**, entrez le nombre de mois restant à amortir.
-6. Définissez l'option **Aperçu** pour afficher le solde de l'actif proposé et l'écriture financière avant qu'ils ne soient créés ou enregistrés.
+6. Définissez l’option **Aperçu** pour afficher le solde de l’actif proposé et l’écriture financière avant qu’ils ne soient créés ou enregistrés.
 7. Définissez l’option **Fermer le registre** sur **Oui** pour fermer le registre de location. Vous pouvez annuler cette action en utilisant le statut **Rouvrir le bail**. Les écritures ne peuvent pas être imputées aux baux fermés et les baux fermés ne peuvent pas être ajustés. 
 8. Sélectionnez **Valider** pour créer ou valider l’écriture de dépréciation.
 
     > [!NOTE]
     > Une fois la transaction de dépréciation enregistrée, une nouvelle version comptable est créée.
+
+    > Si le contrat de bail est classé en location simple, l’amortissement mensuel après amortissement sera calculé selon un amortissement linéaire.
 
 9. Pour afficher l’échéancier d’amortissement des actifs dépréciés, ouvrez la page Programmes d’amortissement des actifs pour le registre de location. L’actif sera désormais amorti de manière linéaire sur le nombre de mois que vous avez saisi dans le champ **Périodes restantes**.
 10. Pour afficher l’écriture au journal des dépenses de dépréciation, sélectionnez **Journal de location d’actifs** sur le volet Actions du registre de location avec dépréciation. Le système crée une écriture de journal qui débite le compte général de la dépense de dépréciation et crédite le compte de validation de l’actif de location. 
@@ -100,6 +102,7 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
     | Clôturer le registre             | Non       |
 
 6. Une écriture au journal des charges de dépréciation a été créée et enregistrée. Pour l’afficher, accédez au journal de location de l’actif dans le registre de location. Notez que le montant de la dépréciation a été débité du compte général des charges de dépréciation, et le compte général du droit d’utilisation de l’actif a été crédité.
+
 7. Pour voir l’effet net de la dépréciation, consultez les tableaux des transactions de passif et d’actif. Notez que la dépense de dépréciation a diminué le droit d’utilisation de l’actif, mais que la valeur comptable du passif locatif n’a pas changé.
 
 La dépréciation a un autre effet que vous devriez considérer. Étant donné que le montant du droit d’utilisation de l’actif est maintenant bien inférieur au passif locatif, le montant doit être amorti différemment qu’il ne l’était auparavant. Plus précisément, l’actif est désormais amorti de manière linéaire pendant les 84 mois restants du bail, à compter de la date de transaction.

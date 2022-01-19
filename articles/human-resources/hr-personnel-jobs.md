@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731538"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948473"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Paramétrer les composants d’une tâche
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d’utilisation de ces éléments dans votre organisation. 
+Cette rubrique décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d’utilisation de ces éléments dans votre organisation. 
 
 Avant de créer des tâches, vous devez paramétrer certaines informations de référence. Vous pouvez créer une tâche qui a uniquement un nom. Toutefois, en incluant des informations supplémentaires, telles qu’un titre, vous fournissez des valeurs par défaut pour les postes affectés à la tâche. En outre, certaines informations saisies peuvent être utilisées pour filtrer les régimes de rémunération pour des tâches spécifiques. Si vous souhaitez paramétrer l’admissibilité pour filtrer les régimes de rémunération pour une tâche spécifique, vous devez paramétrer les fonctions et les types de tâche avant de paramétrer les tâches. Lorsque ces valeurs par défaut sont disponibles, vous gagnez du temps lorsque vous ajoutez des postes à la tâche. 
 

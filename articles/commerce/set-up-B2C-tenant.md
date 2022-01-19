@@ -2,7 +2,7 @@
 title: Configurer un locataire B2C dans Commerce
 description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466266"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952442"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -36,7 +36,7 @@ Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux
  > Les environnements d’évaluation de Commerce sont fournis avec un locataire Azure AD B2C à des fins de démonstration. Il n’est pas nécessaire que vous chargiez votre propre locataire Azure AD B2C en suivant les étapes ci-dessous pour les environnements d’évaluation.
 
 > [!TIP]
-> Vous pouvez protéger davantage les utilisateurs de votre site et améliorer la sécurité de vos locataire B2C Azure AD avec la protection d'identité et l'accès conditionnel Azure AD. Pour passer en revue les capacités disponibles pour les locataires Azure AD B2C Premium P1 et Premium P2, voir [Protection de l'identité et accès conditionnel pour Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+> Vous pouvez protéger davantage les utilisateurs de votre site et améliorer la sécurité de vos locataire B2C Azure AD avec la protection d’identité et l’accès conditionnel Azure AD. Pour passer en revue les capacités disponibles pour les locataires Azure AD B2C Premium P1 et Premium P2, voir [Protection de l’identité et accès conditionnel pour Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="dynamics-environment-prerequisites"></a>Prérequis de l’environnement dynamique
 
@@ -58,7 +58,9 @@ Avant de commencer, assurez-vous que votre environnement Dynamics 365 Commerce e
 
 Après le déploiement de votre environnement Dynamics 365 Commerce, il est également recommandé d’[Initialiser les données d’origine](enable-configure-retail-functionality.md) dans l’environnement.
 
-## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Créer ou générer un lien vers un locataire AAD B2C existant dans le portail Azure
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Créer ou générer un lien vers un locataire Azure AD B2C existant dans le portail Azure
+
+Cette section couvre la création ou la liaison d’un client Azure AD B2C à utiliser dans votre site Commerce. Pour plus d’informations, voir [Didacticiel : Créer un client Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-create-tenant).
 
 1. Connectez-vous au [portail Azure](https://portal.azure.com/).
 1. Dans le menu du portail Azure, sélectionnez **Créer une ressource**. Assurez-vous d’utiliser l’abonnement et le répertoire qui seront connectés à votre environnement Commerce.
@@ -68,7 +70,7 @@ Après le déploiement de votre environnement Dynamics 365 Commerce, il est éga
 1. Accédez à **Identité \> Azure Active Directory B2C**.
 1. Une fois sur la page **Créer un locataire B2C ou lier à un locataire existant**, utilisez une des options ci-dessous qui répond le mieux aux besoins de votre entreprise :
 
-    - **Créer un locataire Azure AD B2C** : utilisez cette option pour créer un locataire AAD B2C.
+    - **Créer un locataire Azure AD B2C** : utilisez cette option pour créer un locataire Azure AD B2C.
         1. Sélectionnez **Créer un locataire Azure AD B2C**.
         1. Sous **Nom de l’organisation**, saisissez le nom de l’organisation.
         1. Sous **Nom de domaine initial**, saisissez le nom de domaine initial.
@@ -86,7 +88,7 @@ Après le déploiement de votre environnement Dynamics 365 Commerce, il est éga
 
 1. Une fois le nouveau répertoire Azure AD B2C créé (cela peut prendre quelques instants), un lien vers le nouveau répertoire apparaît sur le tableau de bord. Ce lien vous emmène vers la page « Bienvenue dans Azure Active Directory B2C ».
 
-    ![Lier au nouveau répertoire AAD.](./media/B2CImage_4.png)
+    ![Lier au nouveau répertoire Azure AD](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Si vous avez plusieurs abonnements dans votre compte Azure, ou si vous avez configuré le locataire B2C sans créer de lien vers un abonnement actif, une bannière **Résoudre les problèmes** vous demande d’associer le locataire à un abonnement. Sélectionnez le message de résolution du problème et suivez les instructions pour résoudre le problème d’abonnement.
@@ -104,11 +106,11 @@ Pour créer une application B2C, procédez comme suit.
 1. Dans le portail Azure, sélectionnez **Inscriptions d’application**, puis sélectionnez **Nouvelle inscription**.
 1. Sous **Nom**, entrez le nom à donner à cette application Azure AD B2C.
 1. Sous **Types de comptes pris en charge**, sélectionnez **Comptes dans n’importe quel fournisseur d’identité ou annuaire d’organisation (pour authentifier les utilisateurs avec les flux d’utilisateurs)**.
-1. Pour **URI de redirection**, entrez vos URL de réponse dédiées comme type **Web**. Pour plus d’informations sur les URL de réponse et leur mise en forme, reportez-vous à [URL de réponse](#reply-urls) ci-dessous.
+1. Pour **URI de redirection**, entrez vos URL de réponse dédiées comme type **Web**. Pour plus d’informations sur les URL de réponse et leur mise en forme, reportez-vous à [URL de réponse](#reply-urls) ci-dessous. Un URI de redirection/URL de réponse doit être saisi pour activer les redirections depuis Azure AD B2C vers votre site lorsqu’un utilisateur s’authentifie. L’URL de réponse peut être ajoutée pendant le processus d’inscription, ou peut être ajoutée plus tard en sélectionnant le lien **Ajouter une URI de redirection** du menu **Aperçu** dans la section **Aperçu** de l’application B2C.
 1. Pour **Autorisations**, sélectionnez **Accorder le consentement administrateur aux autorisations openid et offline_access**.
 1. Sélectionnez **Enregistrer**.
-1. Sélectionnez l’application nouvellement créée et accédez au menu **Authentification**. Ici, vous pouvez ajouter des **URI de redirection** si nécessaire (maintenant ou plus tard). Passez à l’étape suivante si vous n’en avez pas besoin actuellement.
-1. Sous **Octroi implicite**, sélectionnez à la fois **Jetons d’accès** et **Jetons d’identité** pour les activer pour l’application. Sélectionnez **Enregistrer**.
+1. Sélectionnez l’application nouvellement créée et accédez au menu **Autorisations d’API**. 
+1. Si une URL de réponse est saisie, sous **Octroi implicite et flux hybrides**, sélectionnez les options **Jetons d’accès** et **Jetons d’identification** pour les activer pour l’application, puis sélectionnez **Enregistrer**. Si une URL de réponse n’a pas été saisie lors de l’inscription, elle peut également être ajoutée sur cette page en sélectionnant **Ajouter une plateforme**, en sélectionnant **Web**, puis en saisissant l’URI de redirection de l’application. La section **Octroi implicite et flux hybrides** sera alors disponible pour sélectionner les options **Jetons d’accès** et **Jetons d’identification**.
 1. Accédez au menu **Présentation** du portail Azure et copiez l’**ID de l’application (client)**. Notez cet ID pour les étapes de configuration ultérieures (référencé plus tard sous le nom de **GUID client**).
 
 Pour plus d’informations sur les inscriptions d’applications dans Azure AD B2C, veuillez consulter [La nouvelle expérience d’inscription d’applications pour Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
@@ -131,7 +133,7 @@ Azure AD B2C propose trois types de flux d’utilisateurs de base :
 - Modification du profil
 - Réinitialisation du mot de passe
 
-Vous pouvez choisir d’utiliser les flux d’utilisateurs fournis par défaut par Azure AD, qui affichera une page hébergée par AAD B2C. Sinon, vous pouvez créer une page HTML pour contrôler l’apparence de ces expériences de flux utilisateur. 
+Vous pouvez choisir d’utiliser les flux d’utilisateurs fournis par défaut par Azure AD, qui affichera une page hébergée par Azure AD B2C. Sinon, vous pouvez créer une page HTML pour contrôler l’apparence de ces expériences de flux utilisateur. 
 
 Pour personnaliser les pages de stratégie utilisateur avec les pages intégrées dans Dynamics 365 Commerce, voir [Configurer des pages personnalisées pour les connexions utilisateur](custom-pages-user-logins.md). Pour en savoir plus, voir [Personnaliser l’interface des expériences utilisateur dans Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
@@ -143,9 +145,9 @@ Pour créer une stratégie de flux d’utilisateur d’inscription et de connexi
 1. Sur la page **Azure AD B2C - Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
 1. Sélectionnez la stratégie **Inscription et connexion**, puis sélectionnez la version **Recommandée**.
 1. Sous **Nom**, entrez un nom de stratégie. Ce nom s’affiche ensuite avec un préfixe attribué par le portail (par exemple, « B2C_1_ »).
-1. Sous **Fournisseurs d’identité**, cochez la case appropriée.
+1. En dessous de **Fournisseurs d’identité**, dans la section **Comptes locaux**, sélectionnez **Inscription par courrier électronique**. L’authentification par e-mail est utilisée dans les scénarios les plus courants pour Commerce. Si vous utilisez également l’authentification du fournisseur d’identité sociale, ceux-ci peuvent également être sélectionnés à ce moment.
 1. Sous **Authentification multifacteur**, sélectionnez le choix approprié pour votre entreprise. 
-1. Sous **Attributs et revendications des utilisateurs**, sélectionnez les options pour collecter les attributs ou renvoyer les réclamations, le cas échéant. Commerce nécessite les options par défaut suivantes :
+1. Sous **Attributs et revendications des utilisateurs**, sélectionnez les options pour collecter les attributs ou renvoyer les réclamations, le cas échéant. Sélectionner **Afficher plus...** pour obtenir la liste complète des attributs et des options de revendications. Commerce nécessite les options par défaut suivantes :
 
     | **Attribut de collecte** | **Réclamation de retour** |
     | ---------------------- | ----------------- |
@@ -161,9 +163,6 @@ L’image suivante est un exemple de flux d’utilisateur d’inscription et de 
 
 ![Paramètres de la stratégie Inscription et connexion.](./media/B2CImage_11.png)
 
-L’image suivante montre l’option **Exécuter le flux d’utilisateur** dans le flux d’utilisateur Inscription et connexion à Azure AD B2C.
-
-![Exécuter l’option Flux d’utilisateur dans le flux de stratégie.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Créer une stratégie de flux d’utilisateur de modification de profil
 
@@ -173,18 +172,22 @@ Pour créer une stratégie de flux d’utilisateur de modification de profil, pr
 1. Sur la page **Azure AD B2C - Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
 1. Sélectionnez **Modification du profil**, puis sélectionnez la version **Recommandée**.
 1. Sous **Nom**, saisissez le flux d’utilisateur de modification de profil. Ce nom s’affiche ensuite avec un préfixe attribué par le portail (par exemple, « B2C_1_ »).
-1. Sous **Fournisseurs d’identité**, sélectionnez **Connexion à la messagerie**.
+1. En dessous de **Fournisseurs d’identité**, dans la section **Comptes locaux**, sélectionnez **Connexion par courrier électronique**.
 1. Sous **Attributs d’utilisateur**, activez l’une des cases à cocher suivantes :
-    - **Adresses e-mail** (**Réclamation de retour** uniquement)
-    - **Prénom** (**Attribut de collecte** et **Réclamation de retour**)
-    - **Fournisseur d’identité** (**Réclamation de retour** uniquement)
-    - **Nom de famille** (**Attribut de collecte** et **Réclamation de retour**)
-    - **ID d’objet de l’utilisateur** (**Réclamation de retour** uniquement)
-1. Sélectionnez **Créer**.
+    
+    | **Attribut de collecte** | **Réclamation de retour** |
+    | ---------------------- | ----------------- |
+    |                        | Adresses e-mail   |
+    | Prénom             | Prénom        |
+    |                        | Fournisseur d’identité |
+    | Nom de famille                | Nom de famille           |
+    |                        | ID d’objet de l’utilisateur  |
+    
+1. Cliquez sur **Créer**.
 
 L’image suivante montre un exemple du flux d’utilisateur de modification de profil Azure AD B2C.
 
-![Créer le flux d’utilisateur de modification de profil.](./media/B2CImage_12.png)
+![Exemple de flux d’utilisateur de modification de profil Azure AD B2C](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Créer une stratégie de flux d’utilisateur de réinitialisation du mot de passe
 
@@ -324,11 +327,11 @@ L’image suivante montre un exemple de stratégies de flux d’utilisateur sur 
 
 ![Collecter les noms de chaque flux de stratégie B2C.](./media/B2CImage_22.png)
 
-### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Saisir les informations de votre application de locataire AAD B2C dans Commerce
+### <a name="enter-your-azure-ad-b2c-tenant-application-information-into-commerce"></a>Saisir les informations de votre application de locataire Azure AD B2C dans Commerce
 
 Vous devez saisir les détails du locataire Azure AD B2C dans le générateur de site Commerce avant d’associer le locataire B2C à vos sites.
 
-Pour ajouter vos informations d’application de locataire AAD B2C à Commerce, procédez comme suit.
+Pour ajouter vos informations d’application de locataire Azure AD B2C à Commerce, procédez comme suit.
 
 1. Connectez-vous en tant qu’administrateur au générateur de site Commerce pour votre environnement.
 1. Dans le volet de navigation de gauche, cliquez sur **Paramètres de locataire** pour les étendre.

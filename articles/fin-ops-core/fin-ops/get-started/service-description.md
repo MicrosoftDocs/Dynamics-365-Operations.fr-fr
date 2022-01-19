@@ -2,19 +2,19 @@
 title: Description du service pour les applications Finance and Operations
 description: Cette rubrique fournit la description du service pour les applications Finance and Operations.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898387"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952364"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications Finance and Operations
 
@@ -117,7 +117,7 @@ Les applications Finance and Operations sont servies à partir de plusieurs rég
 ### <a name="countryregion-specific-considerations"></a>Considérations spécifiques à un pays/une région
 
 - Les clients des secteurs réglementés ou des organisations commerciales qui travaillent avec des entités en France nécessitant la résidence des données locale doivent passer en revue [Finance and Operations en France](../../dev-itpro/deployment/france-local-deployment.md).
-- Les clients qui ont des opérations en Chine devraient examiner [Finance and Operations exploité par 21Vianet en Chine](../../dev-itpro/deployment/china-local-deployment.md).
+- Les clients qui ont des opérations en Chine devraient examiner [Playbook Azure Chine](/azure/china/) et [Finance and Operations exploités par 21Vianet en Chine](../../dev-itpro/deployment/china-local-deployment.md).
 - Les clients qui ont des opérations en Russie doivent passer en revue la [loi russe sur la localisation des données personnelles](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Règlement général sur la protection des données (RGPD)
@@ -207,7 +207,7 @@ Le tableau suivant décrit certains scénarios et activités types pour le servi
 | Déterminez la haute disponibilité et un plan de récupération d’urgence. | O | |
 | Surveillez les performances de la base de données de l’instance de production. | O | |
 | Ajustez la base de données de l’instance de production pour les performances. | O | |
-| Effectuez une actualisation ponctuelle de la base de données de l'instance de production sur une instance de non-production. | | O |
+| Effectuez une actualisation ponctuelle de la base de données de l’instance de production sur une instance de non-production. | | O |
 | **Mise à jour des infrastructures** | | |
 | Planifiez des mises à jour régulières de l’infrastructure. | O | |
 | **Mise à l’échelle vers le haut et vers le bas (utilisateurs, stockage et instances)** | | |
@@ -314,7 +314,7 @@ Les plans et procédures de récupération d’urgence de Microsoft sont examin�
 | Microsoft fournit un environnement secondaire dans le centre de données associé Azure lorsque l’instance de production principale est déployée. Pour plus d’informations, voir [Continuité d’activité et reprise d’activité (BCDR) : régions jumelées Azure](/azure/best-practices-availability-paired-regions). | None |
 | Microsoft permet la géo-redondance d’Azure SQL et Azure Blob Storage lorsque l’instance de production principale est déployée. | None |
 | Microsoft permet la sauvegarde automatique sur les bases de données Azure SQL. | None |
-| <p>Lorsqu’une panne se produit, Microsoft détermine si un basculement doit être effectué pour le client et s’il y aura une perte de données. Les clients peuvent subir une perte de données pouvant aller jusqu'à 15 minutes, selon la nature et le moment de la panne. | En cas de perte de données, le client peut avoir à fournir une approbation écrite pour déclencher le basculement. |
+| <p>Lorsqu’une panne se produit, Microsoft détermine si un basculement doit être effectué pour le client et s’il y aura une perte de données. Les clients peuvent subir une perte de données pouvant aller jusqu’à 15 minutes, selon la nature et le moment de la panne. | En cas de perte de données, le client peut avoir à fournir une approbation écrite pour déclencher le basculement. |
 | En cas de basculement, le service applicable fonctionne en mode limité. La maintenance des mises à jour ne peut pas être déclenchée en mode Basculement. | Le client ne peut pas demander des déploiements de packages ou d’autres demandes de maintenance régulières en mode Basculement. |
 | Lorsque le centre de données devient opérationnel, Microsoft revient à l’instance de production dans la région Azure principale. Les opérations normales reprennent. | Le client peut devoir se déconnecter de la restauration automatique vers l’instance de production dans la région Azure principale. |
 
@@ -356,6 +356,7 @@ Microsoft s’engage à un taux de disponibilité de 99,9 % par mois de service
 - **[Guide de licence](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)**  : utilisez ce guide pour en savoir plus sur l’octroi de licence Dynamics 365.
 - **[Service client](https://dynamics.microsoft.com/support/)**  : bénéficiez d’un support de pointe pour vos applications Dynamics 365.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)**  : gérez le cycle de vie de votre application et évoluez vers des implémentations prévisibles, reproductibles et de haute qualité.
+- **[Guide de mise en œuvre de Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** – Les documents du Guide de mise en œuvre de Dynamics 365 ont fait leurs preuves les principes Success by Design et fournissent des conseils normatifs pour concevoir, créer, tester et déployer des solutions Dynamics 365.
 
 ## <a name="definitions"></a>Définitions
 
@@ -379,9 +380,9 @@ Une entité commerciale qui utilise les applications Finance and Operations et e
 
 Environnement sandbox hors production utilisé pour développer des extensions. Les clients déploient cet environnement sur leur propre abonnement Azure à partir de LCS. Cet environnement peut également être utilisé pour des démonstrations, des formations ou d’autres tâches de test. On le désigne aussi comme [bac à sable de niveau 1](../imp-lifecycle/environment-planning.md#tier-1-vs-tier-2-and-higher).
 
-### <a name="downtime"></a>Temps d'arrêt
+### <a name="downtime"></a>Temps d’arrêt
 
-Toute période pendant laquelle les utilisateurs ne peuvent pas se connecter ou accéder à leur locataire actif en raison d’une défaillance de la plate-forme non expirée ou de l’infrastructure de service, comme le détermine Microsoft à partir de la surveillance automatisée de l’intégrité et des journaux système. Les temps d'arrêt n’incluent pas les temps d’arrêt programmés, l’indisponibilité des fonctionnalités complémentaires du service, l’impossibilité d’accéder au service en raison de vos modifications apportées au service ou les périodes où la capacité de l’unité d’échelle est dépassée.
+Toute période pendant laquelle les utilisateurs ne peuvent pas se connecter ou accéder à leur locataire actif en raison d’une défaillance de la plate-forme non expirée ou de l’infrastructure de service, comme le détermine Microsoft à partir de la surveillance automatisée de l’intégrité et des journaux système. Les temps d’arrêt n’incluent pas les temps d’arrêt programmés, l’indisponibilité des fonctionnalités complémentaires du service, l’impossibilité d’accéder au service en raison de vos modifications apportées au service ou les périodes où la capacité de l’unité d’échelle est dépassée.
 
 ### <a name="implementation-partner"></a>Partenaire d’implémentation
 
@@ -428,6 +429,10 @@ Le SLA s’applique aux services en ligne Microsoft. Pour plus d’informations,
 ### <a name="service-update"></a>Mise à jour de service
 
 Microsoft met en place les environnements Finance and Operations sur une base cohérente grâce à des mises à jour de service. Les clients définissent leur propre calendrier de mise à jour des services, en fonction de leurs besoins commerciaux. Pour plus d’informations, voir [Mises à jour de service One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Le cadre qui guide systématiquement une implémentation à travers une série d’évaluations à des étapes critiques pour garantir une architecture, une sécurité, des performances et une expérience utilisateur optimales pour une solution Dynamics 365.
 
 ### <a name="user"></a>Utilisateur
 
