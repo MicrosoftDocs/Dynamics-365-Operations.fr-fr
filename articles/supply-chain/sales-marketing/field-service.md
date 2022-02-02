@@ -3,25 +3,24 @@ title: Vue d’ensemble de l’intégration à Microsoft Dynamics 365 Field Serv
 description: Cette rubrique offre une vue d’ensemble de l’intégration à Microsoft Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7fba7cc060dbfaecc25c41a8cbda5bc8f169acf4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566453"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985468"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Vue d’ensemble de l’intégration à Microsoft Dynamics 365 Field Service
 
@@ -58,7 +57,7 @@ La fonctionnalité supplémentaire de cette deuxième phase est axée sur la pos
 - Projets Supply Chain Management connectés aux ordres de travail Dynamics 365 Field Service
 - Les ordres de travail Dynamics 365 Field Service avec un lien vers les projets Supply Chain Management appliquent ce numéro de projet à la commande client pour permettre la facturation depuis le projet. 
 
-![Synchronisation des processus commerciaux entre Supply Chain Management et Field Service, y compris les informations d'inventaire et de projet.](./media/FSv2overview.png)
+![Synchronisation des processus commerciaux entre Supply Chain Management et Field Service, y compris les informations d’inventaire et de projet.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>La seconde phase de l’intégration entre Field Service et Supply Chain Management active la synchronisation avec les modèles suivants :
 - Entrepôts (Supply Chain Management vers Field Service) - Entrepôts de Supply Chain Management vers Field Service [requête avancée] 

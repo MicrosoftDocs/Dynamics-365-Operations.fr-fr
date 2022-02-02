@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 37484ce022085dfac66edba31b7adf9af4095df8
+ms.sourcegitcommit: bbe8ab054ad7cc00a63c63e02dc90bfa8ede15bb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890854"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974379"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités utiles et puissantes qui peuvent être utilisées pour améliorer la productivité des utilisateurs, créer des vues plus intéressantes de vos données et obtenir des informations significatives sur vos données. Cet article couvrira les capacités suivantes : 
 
@@ -37,10 +35,10 @@ Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités uti
 -  Colonnes extensibles
 
 ## <a name="calculating-totals"></a>Calcul des totaux
-Dans les applications Finance and Operations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Une section de pied de page au bas de la grille affiche ces totaux. 
+Dans les applications Finances et Opérations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Une section de pied de page au bas de la grille affiche ces totaux. 
 
 ### <a name="showing-the-grid-footer"></a>Affichage du pied de page de la grille
-Une zone de pied de page se trouve au bas de chaque grille tabulaire dans les applications Finance and Operations. Le pied de page peut afficher des informations utiles relatives aux données qui s’affichent dans la grille. Voici quelques exemples de ces informations :
+Une zone de pied de page se trouve au bas de chaque grille tabulaire dans les applications Finances et Opérations. Le pied de page peut afficher des informations utiles relatives aux données qui s’affichent dans la grille. Voici quelques exemples de ces informations :
 
 - Le nombre de lignes sélectionnées dans le tableau (lorsque plusieurs enregistrements sont sélectionnés)
 - Les totaux généraux au bas des colonnes numériques configurées
@@ -85,7 +83,7 @@ Pour prendre en charge ce nouveau comportement, une nouvelle colonne pour le sta
 Lorsque les utilisateurs saisissent des données avant l’emplacement où le serveur effectue son traitement, ils peuvent s’attendre à quelques dégradations dans l’expérience de saisie de données, comme un manque de recherches, de validation au niveau du contrôle et de saisie de valeurs par défaut. Les utilisateurs qui ont besoin d’une liste déroulante pour trouver une valeur sont encouragés à attendre que le serveur rattrape la ligne actuelle. La validation au niveau du contrôle et la saisie des valeurs par défaut se produisent également lorsque le serveur traite cette ligne.   
 
 ### <a name="pasting-from-excel"></a>Collage depuis Excel
-Les utilisateurs ont toujours pu exporter des données à partir de grilles dans les applications Finance and Operations vers Microsoft Excel à l’aide du mécanisme **Exporter vers Excel**. Cependant, la possibilité d’entrer des données avant le système permet à la nouvelle grille de prendre en charge la copie de tableaux à partir d’Excel et de les coller directement dans des grilles dans les applications Finance and Operations. La cellule de grille à partir de laquelle l’opération de collage est lancée détermine où le tableau copié commence à être collé. Le contenu de la grille est écrasé par le contenu de la table copiée, sauf dans deux cas :
+Les utilisateurs ont toujours pu exporter des données à partir de grilles dans les applications Finances et Opérations vers Microsoft Excel à l’aide du mécanisme **Exporter vers Excel**. Cependant, la possibilité d’entrer des données avant le système permet à la nouvelle grille de prendre en charge la copie de tableaux à partir d’Excel et de les coller directement dans des grilles dans les applications Finances et Opérations. La cellule de grille à partir de laquelle l’opération de collage est lancée détermine où le tableau copié commence à être collé. Le contenu de la grille est écrasé par le contenu de la table copiée, sauf dans deux cas :
 
 - Si le nombre de colonnes dans la table copiée dépasse le nombre de colonnes qui restent dans la grille, à partir de l’emplacement de collage, l’utilisateur est informé que les colonnes supplémentaires ont été ignorées. 
 - Si le nombre de lignes dans le tableau copié dépasse le nombre de lignes dans la grille, à partir de l’emplacement de collage, les cellules existantes sont remplacées par le contenu collé et toutes les lignes supplémentaires du tableau copié sont insérées en tant que nouvelles lignes en bas de la grille. 
@@ -96,7 +94,7 @@ Pour booster la productivité, les utilisateurs peuvent entrer des formules math
 Pour que le système reconnaisse une valeur comme une expression, démarrez la valeur avec un signe égal (**=**). Pour en savoir plus sur les opérateurs et la syntaxe pris en charge, consultez [Symboles mathématiques pris en charge](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Regroupement des données tabulaires
-Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **Regroupement en grilles**, dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finance and Operations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
+Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **Regroupement en grilles**, dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finances et Opérations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
 
 Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon laquelle vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle colonne **Grouper par** au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe : 
 -  Valeur des données pour le groupe 
@@ -120,8 +118,8 @@ De la même manière que vous pouvez sélectionner (ou désélectionner) toutes 
 ### <a name="hiding-column-names"></a>Masquer les noms de colonnes
 Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. Vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
 
-### <a name="grouping-on-date-and-time-columns"></a>Regroupement sur des colonnes de date et d'heure
-À partir de la version 10.0.24, pour les champs Date ou DateHeure, l'option a été ajoutée pour regrouper par Année, Mois ou Jour. Le groupe « valeur » dans la ligne d'en-tête correspondante correspondra au format de ce champ. De plus, pour les champs DateHeure et Heure, vous pourrez regrouper par heure, minute ou seconde.    
+### <a name="grouping-on-date-and-time-columns"></a>Regroupement sur des colonnes de date et d’heure
+À partir de la version 10.0.24, pour les champs Date ou DateHeure, l’option a été ajoutée pour regrouper par Année, Mois ou Jour. Le groupe « valeur » dans la ligne d’en-tête correspondante correspondra au format de ce champ. De plus, pour les champs DateHeure et Heure, vous pourrez regrouper par heure, minute ou seconde.    
 
 ## <a name="freezing-columns"></a>Figer les colonnes
 Certaines colonnes d’une grille peuvent être suffisamment importantes en termes de contexte que vous ne souhaitez pas qu’elles défilent hors de la vue. Au lieu de cela, vous voulez que les valeurs de ces colonnes soient toujours visibles. La fonctionnalité **Figer les colonnes dans la grille** offre cette flexibilité aux utilisateurs. 

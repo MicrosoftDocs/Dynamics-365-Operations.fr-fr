@@ -2,7 +2,7 @@
 title: Nouveautés ou modifications dans l’application mobile Warehouse Management
 description: Cette rubrique répertorie les fonctionnalités nouvelles et modifiées pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901886"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007572"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications dans l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20140"></a>Version 2.0.14.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Correction d’un problème qui désactivait le bouton Soumettre par défaut.
+
+## <a name="version-20130"></a>Version 2.0.13.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+ 
+- Défilement amélioré entre les pages avec une animation plus fluide.
+- Correction des réponses contre-intuitives aux mouvements de balayage et aux blocages occasionnels de l’écran.
+- Amélioration des combinaisons de couleur du texte et de l’arrière-plan en mode sombre pour une meilleure lisibilité.
+- Correction d’un problème où certains textes pouvaient devenir très petits lors du redimensionnement de la fenêtre de l’application.
+- Correction d’un problème qui pouvait provoquer le plantage de l’application lors de la numérisation de codes-barres.
+- Ajout de la possibilité de remplacer un curseur par un bouton.
+- Correction d’un problème qui pouvait amener l’application à afficher le message d’erreur « AADSTS7000215 : un secret client non valide est fourni ».
+- Correction de l’animation de l’astuce montrant comment fermer une page à l’aide d’un geste de balayage vers le bas.
+- Ajout de la possibilité de fermer une page à l’aide d’un geste de glissement vers le bas.
+- Correction d’un problème où les titres de la liste déroulante n’étaient pas affichés sur la page **Paramètres utilisateur**.
+- Correction d’un problème de localisation où l’application ne reconnaissait pas une virgule (,) comme séparateur décimal.
+- Accessibilité améliorée.
+- Correction de la navigation sur la page **Nouvelle connexion** pour améliorer l’accessibilité.
+- Correction d’un problème où le clavier logiciel (à l’écran) n’apparaissait pas lors de la sélection d’un champ de saisie.
+- Correction d’un problème qui pouvait provoquer le plantage de l’application si les utilisateurs redimensionnaient rapidement sa fenêtre.
+- Correction d’un problème où une pression rapide sur une touche était parfois interprétée comme une pression longue.
+- Correction d’un problème où la mise en page de l’application pouvait être corrompue en raison des personnalisations de champ effectuées dans Supply Chain Management.
+- Correction d’un problème où les emplacements des objets n’étaient pas affichés correctement.
+- Correction d’un problème lié aux prélèvements partiels pour le workflow de variante de produit.
+- Suppression de la validation inutile des champs contenant des valeurs par défaut prédéfinies.
+- Performances améliorées.
+- Ajout d’un nouveau paramètre qui permet aux utilisateurs de choisir comment les champs sont filtrés et triés sur la page de carte.
 
 ## <a name="version-20110"></a>Version 2.0.11.0
 
@@ -32,8 +65,8 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - Accessibilité améliorée.
 - Cartes détaillées améliorées.
 - Détours améliorés pour les étapes des éléments de menu.
-- Améliorations mineures de l'interface utilisateur.
-- Correction d'un problème qui pouvait provoquer le plantage de l'application lors de la numérisation de codes-barres.
+- Améliorations mineures de l’interface utilisateur.
+- Correction d’un problème qui pouvait provoquer le plantage de l’application lors de la numérisation de codes-barres.
 - Divers problèmes corrigés qui empêcheraient le système de répondre.
 
 ## <a name="version-20100"></a>Version 2.0.10.0

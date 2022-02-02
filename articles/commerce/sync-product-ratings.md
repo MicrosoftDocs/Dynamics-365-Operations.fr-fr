@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473523"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967948"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Synchronisation des évaluations de produit dans Dynamics 365 Commerce
 
@@ -130,6 +130,16 @@ L’illustration suivante montre un exemple de classements de produits dans les 
 [Gestion des évaluations et avis](manage-reviews.md)
 
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
+
+[Synchronisation des évaluations de produit](sync-product-ratings.md)
+
+[Activer la publication manuelle des évaluations et des avis par un modérateur](manual-publish-rating-reviews.md)
+
+[Importation et exportation des évaluations et des avis](import-export-reviews.md)
+
+[Configurer l’authentification service à service](service-to-service-auth.md)
+
+[FAQ sur les évaluations et avis](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

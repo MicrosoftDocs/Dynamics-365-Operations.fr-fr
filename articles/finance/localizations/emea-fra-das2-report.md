@@ -12,18 +12,18 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3689f8408e52ec52dc3e16e4d840dbc165c190f6
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: c7c7b8b01a9d74ed6c9a53ee78cc303e0359c41c
+ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943599"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8018366"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
 [!include [banner](../includes/banner.md)]
 
-Les entités juridiques françaises qui font affaire avec des professionnels indépendants doivent fournir un état de déclaration DAS-2 à l’administration fiscale. L’état DAS-2 représente une déclaration fiscale annuelle qui comprend tous les paiements aux fournisseurs de ce type qui dépassent 1 200 euros. L’état doit être généré au format Microsoft Excel. Une fois l’état généré, vous enregistrez le fichier dans l’environnement **ETAFI (CEGID)**. Le fichier sera ensuite validé, converti dans la structure d’échange électronique de données (EDI) et transmis.
+Les entités juridiques françaises qui font affaire avec des professionnels indépendants doivent fournir un état de déclaration DAS-2 à l’administration fiscale. L’état DAS-2 représente une déclaration fiscale annuelle qui comprend tous les paiements aux fournisseurs de ce type qui dépassent 1 200 euros. L’état doit être généré au format Microsoft Excel. Une fois l’état généré, vous enregistrez le fichier dans votre environnement logiciel tiers. Le fichier sera ensuite validé, converti dans la structure d’échange électronique de données (EDI) et transmis.
 
 L’état DAS-2 sous Excel est généré à l’aide de l’outil de gestion des états électroniques (ER). Il comprend les feuilles de calcul suivantes :
 

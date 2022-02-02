@@ -2,22 +2,22 @@
 title: Mises à jour réglementaires
 description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772743"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016098"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772743"
 
 Cette rubrique répertorie les mises à jour réglementaires prévues et publiées dans les régions prenant en charge Dynamics 365 Finance. Les calendriers de livraison sont susceptibles de changer et les fonctionnalités prévues pourraient être différentes ou ne pas être lancées. Pour plus d’informations, voir [Stratégie Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les autres fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](/business-applications-release-notes/index).
+Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](/business-applications-release-notes/index).
 
 Microsoft s’efforce d’implémenter les nouvelles exigences réglementaires aussi vite que possible. La date de livraison réelle dépend de la date d’annonce de la loi, de la disponibilité des détails de l’exigence auprès des administrations locales, de la disponibilité des outils de validation et de la mesure et de la complexité de la modification.
 
@@ -71,7 +71,7 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-- Recherchez toutes les mises à jour réglementaires prévues et publiées sur [Lifecycle Services – Recherche d’incidents](https://lcs.dynamics.com/Logon/Index) (connexion obligatoire).
+- Pour plus d’informations sur toutes les mises à jour réglementaires spécifiques à chaque pays, prévues et publiées, consultez [Rechercher des mises à jour réglementaires spécifiques à un pays](search-for-regulatory-updates.md). (La connexion est requise.)
 - Pour obtenir la liste des localisations prises en charge, voir [Guide international de disponibilité](https://aka.ms/dynamics_365_international_availability_deck).
 
 

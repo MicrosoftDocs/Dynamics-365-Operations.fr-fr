@@ -3,24 +3,23 @@ title: Vue d’ensemble
 description: Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1aa1299277e4c96d2fe7a4c3bd03b907a5cc0b5
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b0069393518d0dd5655f72d4bd09aa7444fa3cd8
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465099"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984343"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
@@ -97,8 +96,8 @@ Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instru
  - [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)</br>
  - [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)</br>
  - [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
- - [Régulariser les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
- - [Afficher l'analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
+ - [Régulariser les plans de congé et d’absence](hr-leave-and-absence-accrue.md)</br>
+ - [Afficher l’analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
  - [Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)</br>
  - [Demander un congé](hr-employee-self-service-request-time-off.md)</br>
  - [Afficher les calendriers des équipes et de la société](hr-employee-self-service-calendar.md)</br>

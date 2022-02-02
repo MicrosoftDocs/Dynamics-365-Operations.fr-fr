@@ -2,23 +2,22 @@
 title: Vue d’ensemble de la gestion des modifications techniques (contient une vidéo)
 description: Cette rubrique fournit une vue d’ensemble de la gestion des modifications techniques, qui vous aide à planifier et à gérer la gestion des versions des produits et à gérer les cycles de vie des produits et les modifications techniques.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952596"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985210"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -39,9 +38,9 @@ La gestion des modifications techniques, qui vous aide à planifier et à gérer
 - Demandes de modification technique prises en charge par les workflows
 - Ordres de modification technique pris en charge par les workflows
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-La vidéo précédente ([Capacités de gestion du changement dans Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) est incluse dans la [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo précédente [Capacités de gestion du changement dans Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) est incluse dans la [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Activer les fonctions de gestion des modifications techniques pour votre système
 
@@ -71,7 +70,9 @@ Ensuite, activez les clés de configuration en suivant ces étapes.
 
 1. Si vous souhaitez également utiliser la dimension de la version, cochez **Dimension du produit – Version**. (Cette case à cocher se trouve plus bas dans la liste, elle n’est pas imbriquée sous le nœud **Gestion des modifications d’ingénierie**.)
 1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Exécutez une synchronisation de base de données pour vous assurer que les clés de configuration sont correctement activées.
+1. La base de données doit être synchronisée pour vous assurer que les clés de configuration sont correctement activées. Effectuez l’une des étapes suivantes, selon le type d’environnement sur lequel vous travaillez :
+    - **Pour les environnements de niveau 1 (développement)**  : ouvrez votre projet dans Microsoft Visual Studio, puis sélectionnez **Dynamics 365 \> Synchroniser la base de données \> Synchroniser**.
+    - **Pour les environnements de niveau 2 (et supérieur)**  : la base de données se synchronise automatiquement une fois que vous avez mis l’environnement en mode de maintenance ou l’en avez sorti, vous pouvez donc ignorer cette étape.
 
 > [!IMPORTANT]
 > À partir d’avril 2022, les clés de licence pour **Gestion du changement technologique** et **Dimension du produit – Version** seront activées par défaut pour toutes les nouvelles installations, mais vous pourrez toujours les désactiver si nécessaire.

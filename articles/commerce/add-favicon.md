@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 41beef346744dc93be3f2d83e660a96e27562f3da933363a1f99144e34060d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724626"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964730"
 ---
 # <a name="add-a-favicon"></a>Ajouter une icône de favori
 
@@ -85,8 +85,6 @@ Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez aj
 [Sélectionner un thème pour le site](select-site-theme.md)
 
 [Utilisation de fichiers de remplacement CSS](css-override-files.md)
-
-[Ajouter un message de bienvenue](add-welcome-message.md)
 
 [Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 

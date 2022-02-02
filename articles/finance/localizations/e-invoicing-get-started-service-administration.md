@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d039dd7f7384cd4af8705d767afe2cddfb166e93
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463807"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984826"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Mise en route de l’administration du service de Facturation électronique
 
@@ -47,13 +45,13 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installer le module complémentaire pour les microservices dans Lifecycle Services
 
 1. Connectez-vous à votre compte LCS et, sur le tableau de bord du projet LCS, sélectionnez un projet LCS.
-2. Dans le projet, sur le tableau de bord **Environnements**, sélectionnez environnement déployé. L'environnement que vous sélectionnez doit être en cours d'exécution.
-3. Dans l'onglet **Intégration Power Platform**, dans le groupe de champs **Compléments d'environnement**, sélectionnez **Installer un nouveau complément**.
+2. Dans le projet, sur le tableau de bord **Environnements**, sélectionnez environnement déployé. L’environnement que vous sélectionnez doit être en cours d’exécution.
+3. Dans l’onglet **Intégration Power Platform**, dans le groupe de champs **Compléments d’environnement**, sélectionnez **Installer un nouveau complément**.
 4. Sélectionnez **Facturation électronique**.
 5. Dans le champ **ID d’application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
 6. Dans le champ **ID client AAD**, entrez l’ID client de votre compte d’abonnement Azure. Le locataire Azure Active Directory (Azure AD) que vous spécifiez doit être le même que celui utilisé pour RCS.
 7. Passez en revue les conditions générales, puis cochez la case.
-8. Sélectionnez **Installer**. L'installation peut prendre jusqu'à plusieurs minutes.
+8. Sélectionnez **Installer**. L’installation peut prendre jusqu’à plusieurs minutes.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Définir les paramètres pour l’intégration RCS avec la Facturation électronique
@@ -69,7 +67,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
     | Royaume-Uni             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Asie                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-4. Vérifiez que le champ **ID d'application** est bien défini sur **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Cette valeur est une valeur fixe.
+4. Vérifiez que le champ **ID d’application** est bien défini sur **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Cette valeur est une valeur fixe.
 5. Dans le champ **ID environnement LCS**, entrez l’ID de votre environnement LCS.
 6. Sélectionnez **Sauvegarder**, puis fermez la page.
 

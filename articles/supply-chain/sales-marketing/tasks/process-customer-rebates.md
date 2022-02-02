@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573343"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969085"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Générer et traiter les remises client
 
@@ -69,7 +69,7 @@ Cette procédure illustre comment traiter les remises client de la génération 
 2. Cliquez sur **Cumuler**.
 3. Dans le champ **Client**, saisissez ou sélectionnez une valeur.
 4. Dans le champ **Date de début**, sélectionnez la date d’aujourd’hui.
-5. Cliquez sur **OK**. Conséquemment à l’exécution de la fonction **Cumuler**, le montant estimé de réclamation est désormais ajusté pour prendre en compte le fait que le volume total des ventes du client sur la période de référence est plus élevé que lorsque la première remise a été générée. Plus particulièrement et puisque la quantité totale achetée a atteint 100 unités, le client bénéficie à présent d’une remise de 40 EUR par unité (conformément à la deuxième pause de quantité de l’accord), soit 400 EUR de montant total de remise. La différence est enregistrée comme nouvel « ajustement » de réclamation pour les 800 EUR supplémentaires. Le statut des réclamations de remise incluses dans la mise à jour Cumuler est désormais défini sur Calculé. 
+5. Cliquez sur **OK**. Conséquemment à l’exécution de la fonction **Cumuler**, le montant estimé de réclamation est désormais ajusté pour prendre en compte le fait que le volume total des ventes du client sur la période de référence est plus élevé que lorsque la première remise a été générée. Plus particulièrement et puisque la quantité totale achetée a atteint 100 unités, le client bénéficie à présent d’une remise de 40 EUR par unité (conformément à la deuxième pause de quantité de l’accord), soit 4,000 EUR de montant total de remise. La différence est enregistrée comme nouvel « ajustement » de réclamation pour les 800 EUR supplémentaires. Le statut des réclamations de remise incluses dans la mise à jour Cumuler est désormais défini sur Calculé. 
 6. Dans la liste, marquez toutes les lignes.
 7. Cliquez sur **Approuver**.
 8. Cliquez sur **Traiter**.

@@ -3,7 +3,7 @@ title: Vue d’ensemble de la budgétisation disponible pour le secteur public
 description: Cette vue d’ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l’analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 author: panolte
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db94980896f8137f2f6d21e8aafb27a886b230d7
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4577f02fade8a0bc9944c17a7d2b223c2269a9e4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595450"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986123"
 ---
 # <a name="budgeting-in-the-public-sector-overview"></a>Vue d’ensemble de la budgétisation disponible pour le secteur public
 

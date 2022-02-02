@@ -3,7 +3,7 @@ title: Vue d’ensemble de l’impression de document
 description: Vous pouvez imprimer des documents à l’aide d’une imprimante locale ou d’un périphérique réseau connecté. Cet article fournit une vue d’ensemble de la manière dont les documents sont imprimés.
 author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5a0d26836043ea225b9a6d3e62980ada2dc49b0a01a6dacec739b50f28e17bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728236"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984906"
 ---
 # <a name="document-printing-overview"></a>Vue d’ensemble de l’impression de document
 
@@ -51,10 +51,10 @@ Le tableau suivant décrit les trois principaux scénarios d’impression.
 Comme la solution varie, selon le scénario, les applications fournissent des services et des outils intégrés pour aider les utilisateurs à atteindre leurs objectifs :
 
 - Le **Scénario 1** est pris en charge par le rendu du client HTML5 du navigateur.
-- Le **Scénario 2** utilise des applications client et des services Microsoft 365.
+- Le **Scénario 2** utilise des applications client et des services Microsoft 365.
 - Le **Scénario 3** requiert la prise en charge des applications client et des services hébergés dans Microsoft Azure.
 
-Outre la plateforme déployée dans l’abonnement Azure, les applications Finance and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
+Outre la plateforme déployée dans l’abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
 
 ## <a name="service-overview"></a>Vue d’ensemble du service
 Pendant que les documents qui sont produits par les applications hébergées attendent d’être imprimés sur un périphérique réseau connecté, ils sont stockés dans le stockage des objets blobs Azure. L’option [Installer l’agent d’acheminement de document pour activer l’impression réseau](install-document-routing-agent.md) utilise l’authentification Azure pour établir un canal sécurisé vers les services Azure.

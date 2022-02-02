@@ -4,24 +4,23 @@ description: Cette rubrique fournit une vue d’ensemble des capacités d’int�
 author: EvgenyPopovMBS
 manager: annbe
 ms.date: 09/22/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: d63f26afb8f533728a6b7ab0a1f359b210be3e5b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512578"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983742"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Vue d’ensemble de l’intégration fiscale pour les canaux Commerce
 
@@ -118,7 +117,7 @@ Une transaction fiscale stocke les informations suivantes :
 - Le statut de l’enregistrement fiscal : **Terminé** pour un enregistrement réussi, **Ignoré** si l’opérateur a sélectionné l’option **Ignorer** pour un enregistrement échoué, ou **Marquée comme enregistrée** si l’opérateur a sélectionné l’option **Marquer comme enregistrée**.
 - Les transactions de code d’informations associées à une transaction fiscale sélectionnée. Pour afficher les transactions de code d’informations, dans l’organisateur **Transactions fiscales**, sélectionnez une transaction fiscale dont le statut est défini sur **Ignoré** ou **Marquée comme enregistrée**, puis sélectionnez **Transactions de code info**.
 
-En sélectionnant **Données étendues**, vous pouvez également afficher certaines propriétés de la transaction fiscale. La liste des propriétés pouvant être affichées est spécifique à la fonctionnalité d'enregistrement fiscal qui a généré la transaction fiscale. Par exemple, vous pouvez afficher la signature numérique, le numéro séquentiel, l'empreinte numérique du certificat, l'identification de l'algorithme de hachage et d'autres propriétés de transaction fiscale pour la fonctionnalité de signature numérique pour la France.
+En sélectionnant **Données étendues**, vous pouvez également afficher certaines propriétés de la transaction fiscale. La liste des propriétés pouvant être affichées est spécifique à la fonctionnalité d’enregistrement fiscal qui a généré la transaction fiscale. Par exemple, vous pouvez afficher la signature numérique, le numéro séquentiel, l’empreinte numérique du certificat, l’identification de l’algorithme de hachage et d’autres propriétés de transaction fiscale pour la fonctionnalité de signature numérique pour la France.
 
 ## <a name="fiscal-texts-for-discounts"></a>Textes fiscaux pour les remises
 
@@ -143,7 +142,7 @@ Des exemples d’intégration fiscale sont actuellement disponibles dans le SDK 
 - [Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne](./emea-deu-fi-sample.md)
 - [Exemple d’intégration de l’imprimante fiscale pour la Russie](./rus-fpi-sample.md)
 
-La fonctionnalité d'intégration fiscale suivante est également implémentée à l'aide du cadre d'intégration fiscale, mais elle est prête à l'emploi et n'est pas incluse dans le SDK Commerce :
+La fonctionnalité d’intégration fiscale suivante est également implémentée à l’aide du cadre d’intégration fiscale, mais elle est prête à l’emploi et n’est pas incluse dans le SDK Commerce :
 
 - [Enregistrement fiscal pour le Brésil](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [Signature numérique pour la France](./emea-fra-cash-registers.md)

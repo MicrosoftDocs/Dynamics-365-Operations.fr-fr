@@ -1,9 +1,9 @@
 ---
 title: Vue d’ensemble des contrôles budgétaires
-description: Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d'optimiser la gestion des ressources financières de votre organisation.
+description: Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d’optimiser la gestion des ressources financières de votre organisation.
 author: panolte
 ms.date: 11/08/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890698"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986054"
 ---
 # <a name="budget-control-overview"></a>Vue d’ensemble des contrôles budgétaires
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d'optimiser la gestion des ressources financières de votre organisation.
+Cette rubrique présente la fonctionnalité de contrôle budgétaire et fournit des informations pour vous aider à configurer le contrôle budgétaire afin d’optimiser la gestion des ressources financières de votre organisation.
 
 Le contrôle budgétaire prend en charge la gestion des ressources financières d’une organisation via le plan de comptes, les workflows, les groupes d’utilisateurs, les documents source et les journaux, le calcul des fonds disponibles configurable, les cycles budgétaires et les seuils. Lorsque les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
 
-Une fois les budgets approuvés dans le système , vous pouvez utiliser les plans budgétaires pour générer des écritures de registre budgétaires pour enregistrer le budget des dépenses d'une organisation. Sinon, vous pouvez créer ou importer des écritures de registre budgétaires depuis un programme tiers au lieu d’utiliser la fonctionnalité de planification de budget. 
+Une fois les budgets approuvés dans le système , vous pouvez utiliser les plans budgétaires pour générer des écritures de registre budgétaires pour enregistrer le budget des dépenses d’une organisation. Sinon, vous pouvez créer ou importer des écritures de registre budgétaires depuis un programme tiers au lieu d’utiliser la fonctionnalité de planification de budget. 
 
 Les dépenses peuvent être enregistrées à l’aide des comptes principaux et des dimensions financières. Vous pouvez configurer le contrôle de la dépense globale pour répondre aux stratégies et aux exigences de l’organisation en regroupant des combinaisons de dimensions financières et de comptes principaux. 
 
@@ -78,13 +78,13 @@ Ensuite, sur l’onglet **Autorisations de dépassement de budget**, vous pouvez
 Ensuite, sous l’onglet **Fonds budgétaires disponibles**, vous pouvez définir la formule utilisée pour calculer les fonds budgétaires disponibles. Selon la manière dont une organisation gère ses ressources financières par précaution, ou selon les règlementations ou les exigences du secteur, le calcul peut inclure le brouillon ou des documents non validés. 
 
 > [!NOTE]
-> Si le calcul est modifié lors d’un cycle budgétaire, les modifications n’affecteront pas les documents qui ont pu passer précédemment des examens de contrôle budgétaire et qui ont été validés ou achevés. Une fonctionnalité intitulée **Ne suivre que les montants dans le calcul des fonds budgétaires disponibles** vous permet de modifier les données faisant l'objet d'un suivi dans les tableaux BudgetSourceTracking. Lorsque cette fonctionnalité est activée, les montants ne sont stockés que s'ils sont sélectionnés pour être utilisés dans le calcul des fonds budgétaires disponibles. Pour plus d’informations, voir [Fonds budgétaires disponibles](budget-funds-available.md).
+> Si le calcul est modifié lors d’un cycle budgétaire, les modifications n’affecteront pas les documents qui ont pu passer précédemment des examens de contrôle budgétaire et qui ont été validés ou achevés. Une fonctionnalité intitulée **Ne suivre que les montants dans le calcul des fonds budgétaires disponibles** vous permet de modifier les données faisant l’objet d’un suivi dans les tableaux BudgetSourceTracking. Lorsque cette fonctionnalité est activée, les montants ne sont stockés que s’ils sont sélectionnés pour être utilisés dans le calcul des fonds budgétaires disponibles. Pour plus d’informations, voir [Fonds budgétaires disponibles](budget-funds-available.md).
 
 Puis, sur la page **Documents et journaux**, vous pouvez sélectionner les documents source et les journaux qui seront soumis à des examens de contrôle budgétaire et si les examens surviendront au niveau d’entrée de ligne ou pour l’intégralité du document. 
 
 Vous devez mettre en correspondance les documents source qui sont sélectionnés avec les cases à cocher pour les soldes inclus dans le calcul des fonds budgétaires disponibles. Par exemple, si vous avez sélectionné **Réservations budgétaires pour les engagements**, vous devez sélectionner l’option **Commandes fournisseur**. Lors de l’exécution d’une vérification budgétaire pour les montants et les comptes d’une ligne d’achat, la catégorie de contrôle budgétaire affectée à la réservation est **Engagement**. Lors de l’exécution d’une vérification budgétaire pour les montants et les comptes d’une ligne d’achat, la catégorie de contrôle budgétaire affectée à la réservation est **Engagement préalable**. 
 
-Si les options **Réservations budgétaires pour les engagements** et/ou **Réservations budgétaires pour les engagements préalables** sont incluses dans le calcul des fonds budgétaires disponibles et doivent être reflétées dans la comptabilité via les validations, vous devez marquer ces sélections dans le groupe **Comptabilité d'engagements** de la page **Paramètres de la comptabilité**.
+Si les options **Réservations budgétaires pour les engagements** et/ou **Réservations budgétaires pour les engagements préalables** sont incluses dans le calcul des fonds budgétaires disponibles et doivent être reflétées dans la comptabilité via les validations, vous devez marquer ces sélections dans le groupe **Comptabilité d’engagements** de la page **Paramètres de la comptabilité**.
 
 ### <a name="assign-budget-models"></a>Affecter des modèles de budget
 
@@ -95,7 +95,7 @@ Puis, sur la page **Affecter des modèles de budget**, il convient d’affecter 
 Puis, sur l’onglet **Définir les règles de contrôle budgétaire**, vous devez créer des règles spécifiques basées sur les dimensions financières qui sont activées pour le contrôle budgétaire. Par exemple, si une priorité est donnée aux dépenses ou à l’étendue des dépenses d’un département, vous pouvez utiliser les paramètres de cet onglet pour définir et évaluer ces dépenses. Vous pouvez définir différents seuils pour chaque règle de contrôle budgétaire. 
 
 > [!Important]
-> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si l'onglet **Définir des règles de contrôle budgétaire** contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes** les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.
+> Le contrôle budgétaire est activé pour tout compte principal de type **Résultat**, **Dépense**, **Produit, Bilan, Passif, Capitaux propres** ou **Actif**. Si l’onglet **Définir des règles de contrôle budgétaire** contient une règle qui a des critères vides, le contrôle budgétaire est activé pour **toutes** les combinaisons de dimensions financières qui incluent des comptes principaux de ces types. Par conséquent, assurez-vous de créer des règles budgétaires de contrôle définissant uniquement les plages de combinaisons de dimensions financières où il est essentiel que le contrôle budgétaire soit activé.
 
 ### <a name="select-main-accounts"></a>Sélectionner les comptes principaux
 

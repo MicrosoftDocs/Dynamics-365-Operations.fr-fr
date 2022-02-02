@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "10444"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464092ae2fdcdfd8a0ada254e88f4418c825c1f9
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486968"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983975"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mise en route de Financial Reporting 
 
@@ -55,7 +53,7 @@ Les fonctions de génération d’états financiers sont disponibles aux utilisa
 
 ### <a name="duties"></a>Droits
 
-| Nom de la responsabilité                            | Description                                                              | Nom d’AOA                         |
+| Nom de la responsabilité                            | Description                                                             | Nom d’AOA                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
 | Tenir à jour la sécurité des états financiers | Tenir à jour la sécurité de Financial Reporting et exécuter des tâches d’administration. | FinancialReportsSecurityMaintain |
 | Tenir à jour les états financiers            | Créer et tenir à jour les états financiers.                                  | FinancialReportsMaintain         |
@@ -64,7 +62,7 @@ Les fonctions de génération d’états financiers sont disponibles aux utilisa
 
 ### <a name="privileges"></a>Privilèges
 
-| Nom du privilège                       | Description                                                              | Nom d’AOA                         |
+| Nom du privilège                       | Description                                                             | Nom d’AOA                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
 | Tenir à jour la sécurité des états financiers | Tenir à jour la sécurité de Financial Reporting et exécuter des tâches d’administration. | FinancialReportsSecuritySystemMaintain |
 | Tenir à jour les états financiers            | Créer et tenir à jour les états financiers.                                  | FinancialReportsMaintainReports  |
@@ -148,7 +146,7 @@ Vous pouvez créer un nombre illimité d’arborescences de génération d’ét
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Mettre à jour la version de Financial Reporting via l’intégration
 
-Les applications Finance and Operations sont mises à jour tous les mois. Cependant, Financial Reporting n’est pas nécessairement mis à jour à cette cadence. De plus, les clients ont plus de possibilités quant au moment où ils implémentent les mises à jour pour les applications Finance and Operations. Les mises à jour de Financial Reporting sont automatiquement installées. Financial Reporting a une version désignée qui est utilisée dans un environnement client lorsqu’une mise à jour de service est mise en œuvre, lorsqu’un temps d’arrêt est déclenché ou lorsque l’environnement d’un client est en mode Maintenance. Ce processus est connu sous le nom d’*intégration* ou d’*ajustement*, car toutes les implémentations client sont définies sur la même version de Financial Reporting.
+Les applications Finances et Opérations sont mises à jour tous les mois. Cependant, Financial Reporting n’est pas nécessairement mis à jour à cette cadence. De plus, les clients ont plus de possibilités quant au moment où ils implémentent les mises à jour pour les applications Finances et Opérations. Les mises à jour de Financial Reporting sont automatiquement installées. Financial Reporting a une version désignée qui est utilisée dans un environnement client lorsqu’une mise à jour de service est mise en œuvre, lorsqu’un temps d’arrêt est déclenché ou lorsque l’environnement d’un client est en mode Maintenance. Ce processus est connu sous le nom d’*intégration* ou d’*ajustement*, car toutes les implémentations client sont définies sur la même version de Financial Reporting.
 
 Les changements qui sont publiés dans chaque version sont disponibles dans [Nouveautés ou modifications dans Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Les mises à jour de la plate-forme et les corrections de bogues sont disponibles dans la section « Ressources supplémentaires » en bas de la page pour chaque version.
 

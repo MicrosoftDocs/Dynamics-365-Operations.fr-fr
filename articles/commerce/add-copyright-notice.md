@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 89f1716cd71d191f419dfd1fb1db887af62335504724b4f08ead701d7f57efc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a9a7fed4393f9c35b0bdc765fe7d0723c193f89
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715454"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964754"
 ---
 # <a name="add-a-copyright-notice"></a>Ajouter un avis de droits d’auteur
 
@@ -65,8 +65,6 @@ Le pied de page qui contient l’avis de droits d’auteur s’affiche automatiq
 [Utilisation de fichiers de remplacement CSS](css-override-files.md)
 
 [Ajouter une icône de favori](add-favicon.md)
-
-[Ajouter un message de bienvenue](add-welcome-message.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
 

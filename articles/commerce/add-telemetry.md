@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724602"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964527"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie
 
@@ -111,8 +111,6 @@ Pour ajouter un script externe à un modèle dans le générateur de site, proc�
 [Utilisation de fichiers de remplacement CSS](css-override-files.md)
 
 [Ajouter une icône de favori](add-favicon.md)
-
-[Ajouter un message de bienvenue](add-welcome-message.md)
 
 [Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 

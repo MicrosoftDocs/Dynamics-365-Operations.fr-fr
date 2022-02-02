@@ -3,7 +3,7 @@ title: Vue d’ensemble de la configuration du produit
 description: La nécessité de configurer des produits pour répondre aux exigences spéciales devient la règle plutôt que l’exception, dans les relations interentreprises comme dans les relations entreprise-client.
 author: t-benebo
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ceeb90fc85a966183726d8c2f0dd8b0c8bf2719
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570848"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983365"
 ---
 # <a name="product-configuration-overview"></a>Vue d’ensemble de la configuration du produit
 
@@ -47,7 +47,7 @@ En adoptant une philosophie de configuration selon la commande, les fabricants o
 
 La clé du succès ici est d’analyser soigneusement le portefeuille de produits, et de rechercher des motifs à la fois dans les caractéristiques des produits et les processus. L’objectif est d’identifier les composants génériques qui peuvent être fabriqués par le même équipement et utilisés dans toutes les variantes.  
 
-L'ensemble de fonctionnalités de configuration de produit inclut une interface utilisateur (IU) qui fournit une vue d’ensemble visuelle de la structure du modèle de configuration de produit, ainsi qu’une syntaxe déclarative de contrainte qui n’ pas besoin d’être compilée. Par conséquent, les sociétés qui souhaitent prendre en charge une pratique en matière de configuration peuvent démarrer plus facilement. Comme l’expliquent les sections suivantes, un concepteur de produit n’a plus besoin de l’aide d’un développeur pour créer un modèle de configuration de produit, le tester, et le transmettre à l’organisation commerciale.
+L’ensemble de fonctionnalités de configuration de produit inclut une interface utilisateur (IU) qui fournit une vue d’ensemble visuelle de la structure du modèle de configuration de produit, ainsi qu’une syntaxe déclarative de contrainte qui n’ pas besoin d’être compilée. Par conséquent, les sociétés qui souhaitent prendre en charge une pratique en matière de configuration peuvent démarrer plus facilement. Comme l’expliquent les sections suivantes, un concepteur de produit n’a plus besoin de l’aide d’un développeur pour créer un modèle de configuration de produit, le tester, et le transmettre à l’organisation commerciale.
 
 ## <a name="building-a-product-configuration-model"></a>Élaboration d’un modèle de configuration de produit.
 

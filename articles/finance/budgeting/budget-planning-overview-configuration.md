@@ -3,7 +3,7 @@ title: Vue d’ensemble de la planification de budget
 description: Cette rubrique décrit la planification budgétaire. Elle rubrique contient des informations qui vous aident à configurer la planification budgétaire et à paramétrer les processus de planification budgétaire.
 author: panolte
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d12d7ed2054cb50b9fc4c7765b2c9aa40f74d1dbe22081840a7fe75d07cc2d7f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779060"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982063"
 ---
 # <a name="budget-planning-overview"></a>Vue d’ensemble de la planification de budget
 
@@ -165,7 +165,7 @@ Outre les colonnes des montants budgétaires, vous pouvez définir les colonnes 
 
 Pour l’exemple de schéma, vous souhaitez peut-être créer des colonnes pour les scénarios « Ventes PY », « Contrats » et « Prévision ». (L’illustration suivante présente la section pertinente du schéma.) Vous pouvez ensuite éclater l’un de ces scénarios ou tous ces scénarios en différentes colonnes pour chaque trimestre de l’exercice, de sorte que le responsable du département Ventes puisse précisément entrer des montants de prévision pour chaque période.
 
-[![Illustration des sections du schéma pour l'ajout de colonnes.](./media/columns.png)](./media/columns.png)
+[![Illustration des sections du schéma pour l’ajout de colonnes.](./media/columns.png)](./media/columns.png)
 
 Vous indiquez également si chaque élément de mise en page (colonne) est modifiable, et s’il est disponible dans n’importe quel modèle de feuille de calcul créé pour cette mise en page. Pour l’exemple de schéma, dans la mise en page utilisée pour le stade « Estimation », les colonnes « Prévision » sont modifiables, alors que les colonnes « Ventes PY » et « Contrats » sont en lecture seule.
 

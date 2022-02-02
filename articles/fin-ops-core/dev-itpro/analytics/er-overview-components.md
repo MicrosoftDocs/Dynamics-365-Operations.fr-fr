@@ -3,7 +3,7 @@ title: Composants des états électroniques
 description: Cette rubrique décrit les composants Gestion des états électroniques (ER).
 author: nselin
 ms.date: 09/28/2021
-ms.topic: ''
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de8bccf5a8a9bb81be51658010ad4c2ef67aabb2
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 6356fdaee4c6298dd87ef965fcd91937144cd529
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562247"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985732"
 ---
 # <a name="electronic-reporting-components"></a>Composants des états électroniques
 
@@ -37,10 +37,10 @@ La Gestion des états électroniques (ER) prend en charge les types de composant
 
 Un composant de modèle de données est une représentation abstraite d’une structure de données. Il décrit un domaine de l’entreprise spécifique avec suffisamment de détail pour satisfaire aux conditions de génération d’états pour ce domaine. Un composant de modèle de données se compose des éléments suivants :
 
-- **Modèle de données** – Un ensemble d'entités commerciales spécifiques à un domaine et une définition structurée hiérarchiquement des relations entre ces entités.
-- **Mappage de modèles** – Les sources de données d'application sélectionnées sont liées à des éléments individuels d'un modèle de données qui spécifie, au moment de l'exécution, le flux de données et les règles de saisie des données métier dans un composant de modèle de données.
+- **Modèle de données** – Un ensemble d’entités commerciales spécifiques à un domaine et une définition structurée hiérarchiquement des relations entre ces entités.
+- **Mappage de modèles** – Les sources de données d’application sélectionnées sont liées à des éléments individuels d’un modèle de données qui spécifie, au moment de l’exécution, le flux de données et les règles de saisie des données métier dans un composant de modèle de données.
 
-L'entité commerciale d'un modèle de données est représentée sous la forme d'un conteneur ou d'un enregistrement. Les propriétés d’entité commerciale sont représentées comme des articles de données, ou champs. Chaque article de données est doté d’un nom, d’un libellé, d’une description et d’une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu’il soit reconnu comme une chaîne, entier, réel, date, énumération (enum) ou valeur booléenne, etc. De plus, l'élément de données peut être un autre enregistrement ou une liste d'enregistrements.
+L’entité commerciale d’un modèle de données est représentée sous la forme d’un conteneur ou d’un enregistrement. Les propriétés d’entité commerciale sont représentées comme des articles de données, ou champs. Chaque article de données est doté d’un nom, d’un libellé, d’une description et d’une valeur uniques. La valeur de chaque élément de données peut être conçu de sorte qu’il soit reconnu comme une chaîne, entier, réel, date, énumération (enum) ou valeur booléenne, etc. De plus, l’élément de données peut être un autre enregistrement ou une liste d’enregistrements.
 
 Un composant de modèle de données unique peut contenir plusieurs hiérarchies des entités commerciales spécifiques à un domaine. Il contient également les mappages de modèles qui prennent en charge le flux de données spécifiques aux états au moment de l’exécution. Les hiérarchies sont différenciées par un enregistrement unique qui est sélectionné comme racine de la mise en correspondance de modèle. Par exemple, le modèle de données du domaine du paiement peut prendre en charge les mises en correspondance suivantes :
 
@@ -48,11 +48,11 @@ Un composant de modèle de données unique peut contenir plusieurs hiérarchies 
 - Société \> Fournisseur \> Transactions de paiement du domaine comptabilité fournisseur
 - Client \> Société \> Transactions de paiement du domaine comptabilité client
 
-Les entités commerciales (par exemple, les transactions de paiement et la société) ne sont conçues qu'une fois. Différents mappages peuvent les réutiliser selon les besoins.
+Les entités commerciales (par exemple, les transactions de paiement et la société) ne sont conçues qu’une fois. Différents mappages peuvent les réutiliser selon les besoins.
 
 ## <a name="model-mapping-component"></a>Composant de mise en correspondance de modèles
 
-Le mappage de modèles lie les sources de données d'application sélectionnées sont liées à des éléments individuels d'un modèle de données qui spécifient, au moment de l'exécution, le flux de données et les règles de saisie des données métier dans un composant de modèle de données.
+Le mappage de modèles lie les sources de données d’application sélectionnées sont liées à des éléments individuels d’un modèle de données qui spécifient, au moment de l’exécution, le flux de données et les règles de saisie des données métier dans un composant de modèle de données.
 
 Un mappage de modèle qui prend en charge les documents électroniques sortants a les fonctionnalités suivantes :
 
@@ -80,7 +80,7 @@ Un composant de format est le modèle utilisé pour la sortie générée au mome
 
 Un composant de format prend en charge les fonctions suivantes :
 
-- Création d'une sortie de rapports en tant que fichiers individuels dans différents formats, tels que texte, XML, document Microsoft Word ou feuille de calcul
+- Création d’une sortie de rapports en tant que fichiers individuels dans différents formats, tels que texte, XML, document Microsoft Word ou feuille de calcul
 - Création de plusieurs fichiers séparément et encapsulation dans des fichiers zip
 
 Un composant de format vous permet de joindre certains fichiers pouvant être utilisés dans la sortie d’états :
@@ -115,7 +115,7 @@ Les versions du composant d’état électronique est soumis à une date d’eff
 
 ## <a name="component-access"></a>Accès au composant
 
-L'accès aux composants au format ER dépend du réglage du code de pays/région de l'Organisation internationale de normalisation (ISO). Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu’il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l’adresse principale est défini pour l’un des codes pays/régions ISO du composant de format.
+L’accès aux composants au format ER dépend du réglage du code de pays/région de l’Organisation internationale de normalisation (ISO). Lorsque ce paramètre est vide pour une version sélectionnée d’une configuration de format, un composant de format est accessible à partir de n’importe quelle société au moment de l’exécution. Lorsqu’il contient des codes pays/région ISO, un composant de format est disponible uniquement à partir des sociétés dont l’adresse principale est défini pour l’un des codes pays/régions ISO du composant de format.
 
 Différentes versions d’un composant de format de données peuvent avoir différents paramètres de codes pays/région ISO.
 

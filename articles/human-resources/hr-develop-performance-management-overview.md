@@ -3,7 +3,7 @@ title: Gestion des performances
 description: Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1751183e929a906694cb5fd8e5d7960f9f00c6c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431235"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984744"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
@@ -161,7 +161,7 @@ La page **Mesures** vous permet de créer des mesures standard qui seront utilis
 
 Les **Types de source du journal des performances** décrivent l’origine des journaux de performances. Vous pouvez voir si un article de journal sera affiché par défaut par le responsable uniquement, l’employé uniquement, ou le responsable et l’employé. Vous ne pouvez pas désactiver de types de sources à ce stade.
 
-### <a name="review-types"></a>Types d'entretiens professionnels
+### <a name="review-types"></a>Types d’entretiens professionnels
 
 Les **Types de révision** des performances permettent de contrôler le comportement d’une révision. Vous pouvez activer ou désactiver le workflow pour une révision. Si la révision n’utilise pas de workflow, vous pouvez définir le statut par défaut utilisé lorsque la révision est créée. Vous pouvez également décider si l’employé, le responsable, ou les deux sont nécessaires pour valider la révision.
 

@@ -1,6 +1,6 @@
 ---
-title: Configuration de Informations financières pour la version préliminaire publique (version préliminaire) - versions 10.0.20 et ultérieures
-description: Cette rubrique explique comment configurer votre système pour utiliser les fonctionnalités disponibles dans Informations financières pour la version 10.0.20 en version préliminaire publique et les versions ultérieures.
+title: Configuration pour Finance Insights - versions 10.0.20 et ultérieures
+description: Cette rubrique explique comment configurer votre système pour utiliser les fonctionnalités disponibles dans Finance insights pour la version 10.0.20 et les versions ultérieures.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927402"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968960"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuration de Informations financières pour la version préliminaire publique (version préliminaire) - versions 10.0.20 et ultérieures
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuration pour Finance Insights - versions 10.0.20 et ultérieures
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Informations financières combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique comment configurer Dynamics 365 Finance version 10.0.20 pour que votre système puisse utiliser les fonctionnalités disponibles dans la version préliminaire publique de Informations financières.
+Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique comment configurer Dynamics 365 Finance version 10.0.20 pour que votre système puisse utiliser les fonctionnalités disponibles dans Finance Insights.
 
 > [!NOTE]
 > Les étapes de configuration décrites dans cette rubrique s’appliquent uniquement à Finance, version 10.0.20 et versions ultérieures. Pour configurer Informations financières version 10.0.19 et versions ultérieures, voir [Configuration de Informations financières - versions jusqu’à 10.0.19](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Informations financières combine les fonctionnalités de Microsoft Dynamics 365
 
 Procédez comme suit pour déployer les environnements.
 
-1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Finance. L’environnement nécessite la version 10.0.20 ou ultérieure des applications Finance and Operations.
+1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Finance. L’environnement nécessite la version 10.0.20 ou ultérieure des applications Finances et Opérations.
 2. L’environnement doit être un environnement haute disponibilité (HA) dans Sandbox. (Ce type d’environnement est également appelé environnement de niveau 2.) Pour plus d’informations, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Si vous configurez Informations financières dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner comme il se doit le modèle de prédiction. 
 
@@ -94,7 +94,7 @@ Suivez ces étapes pour utiliser le script Windows PowerShell pour configurer A
     |------------------------------------------|--------------------------------------|
     | Microservices ERP Microsoft Dynamics     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | CDS Microservices ERP Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    | Service d’autorisation AI Builder         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
+    | Service d’autorisation AI Builder         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
 
 Si vous ne trouvez aucune des applications précédentes, essayez les étapes suivantes.
 
@@ -126,7 +126,7 @@ Si vous ne trouvez aucune des applications précédentes, essayez les étapes su
         - **Performance** : nous vous recommandons de sélectionner **Standard**.
         - **Type de compte** : vous devez sélectionner **StorageV2**.
 
-    3. Dans la boîte de dialogue **Options avancées**, pour l’option **Stockage Data Lake Gen2**, sélectionnez **Activer** sous la fonctionnalité **Espaces de noms hiérarchiques**. Si vous n’activez pas cette fonctionnalité, vous ne pouvez pas consommer les données que les applications Finance and Operations écrivent à l’aide de services tels que les flux de données Power BI.
+    3. Dans la boîte de dialogue **Options avancées**, pour l’option **Stockage Data Lake Gen2**, sélectionnez **Activer** sous la fonctionnalité **Espaces de noms hiérarchiques**. Si vous n’activez pas cette fonctionnalité, vous ne pouvez pas consommer les données que les applications Finances et Opérations écrivent à l’aide de services tels que les flux de données Power BI.
     4. Sélectionnez **Réviser et créer**. Une fois le déploiement terminé, la nouvelle ressource s’affiche dans le portail Azure.
     5. Accédez au compte de stockage que vous avez créé.
     6. Dans le menu de gauche, sélectionnez **Clés d’accès**.
@@ -214,7 +214,7 @@ Si vous ne trouvez aucune des applications précédentes, essayez les étapes su
         | Le nom d’affichage de la nouvelle application que vous avez créée | Contributeur                 |
         | Le nom d’affichage de la nouvelle application que vous avez créée | Contributeur de compte de stockage |
         | Le nom d’affichage de la nouvelle application que vous avez créée | Propriétaire des données de l’objet blob de stockage     |
-        | **Service d’autorisation AI Builder**                     | Lecteur de données de l’objet blob de stockage    |
+        | **Service d’autorisation AI Builder**                     | Lecteur de données de l’objet blob de stockage    |
 
 # <a name="azure-cli"></a>[Service de contrôle d’accès Azure (CLI)](#tab/azure-azure-cli)
 
@@ -752,6 +752,6 @@ L’installation du complément peut prendre plusieurs minutes.
 
 ## <a name="feedback-and-support"></a>Commentaires et support
 
-Si vous souhaitez fournir des commentaires ou si vous avez besoin d’aide, veuillez envoyer un e-mail à [Informations financières (version préliminaire)](mailto:fiap@microsoft.com).
+Si vous souhaitez fournir des commentaires ou si vous avez besoin d’aide, veuillez envoyer un e-mail à [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

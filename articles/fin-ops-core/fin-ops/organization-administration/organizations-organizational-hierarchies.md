@@ -2,8 +2,8 @@
 title: Vue d’ensemble des organisations et des hiérarchies d’organisation
 description: Les hiérarchies organisationnelles représentent les relations entre les organisations qui composent votre entreprise.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798344"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992079"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Vue d’ensemble des organisations et des hiérarchies d’organisation
 
@@ -54,7 +54,7 @@ Les types d’unités opérationnelles incluent les centres de coût, les unité
 | Unité commerciale       | Section semi-autonome créée pour répondre aux objectifs commerciaux stratégiques. | Utilisé pour les états financiers basés sur les secteurs ou les lignes de produits que l’organisation gère indépendamment des entités juridiques. |
 | Chaîne de valeur        | Section qui contrôle un ou plusieurs flux de production. | Utilisée couramment dans la production au plus juste pour contrôler les activités et les flux requis pour offrir un produit ou un service aux consommateurs. |
 | Département          | Section représentant une catégorie ou une portion fonctionnelle d’une organisation qui exécute une tâche spécifique, par exemple les ventes ou la comptabilité. | Utilisé pour créer des états sur les zones fonctionnelles. Un département peut être responsable des résultats et peut être composé d’un groupe de centres de coût. |
-| Canal de commerce      | Unité opérationnelle représentent un magasin physique, un magasin en ligne ou une place de marché en ligne. | Utilisé pour la gestion et le contrôle opérationnel d’un ou plusieurs magasins au sein d’une entité juridique ou entre plusieurs entités juridiques. |
+| Canal de vente au détail      | Unité opérationnelle représentant un magasin physique, un magasin en ligne ou un centre d’appels. | Utilisé pour la gestion et le contrôle opérationnel d’un ou plusieurs magasins au sein d’une entité juridique ou entre plusieurs entités juridiques. |
 
 ### <a name="teams"></a>Équipes
 

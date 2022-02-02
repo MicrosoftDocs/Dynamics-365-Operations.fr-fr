@@ -2,25 +2,25 @@
 title: Réévaluer les paiements de location liés à un taux d’indexation
 description: Cette rubrique décrit l’ajustement effectué pour louer le passif d’un droit d’utilisation de l’actif lorsque les paiements de location variables changent en raison d’une modification du taux d’indexation.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734584"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968050"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Réévaluer les paiements de location liés à un taux d’indexation
 
@@ -43,7 +43,7 @@ Procédez comme suit pour réévaluer les paiements de location liés à un taux
 4. Sélectionnez les filtres pour sélectionner les baux à inclure dans le traitement en arrière-plan, puis sélectionnez **OK**.
 
     La boîte de dialogue **Version préliminaire de la réévaluation du taux d’indexation** apparaît et affiche les baux qui seront réévalués. Il montre également les ajustements d’actif et de passif ou les ajustements de paiement variable.
-    
+
 5. Pour empêcher la réévaluation des baux, sélectionnez les baux qui **devraient** être réévalués. Si vous ne sélectionnez aucun bail, tous les baux seront réévalués. Lorsque vous avez terminé, sélectionnez **OK** pour réévaluer les paiements de location.
 6. Pour afficher les transactions qui ont été créées pour un processus de réévaluation d’index spécifique, sélectionnez l’ID de processus, puis sélectionnez **Transactions**.
 
@@ -66,5 +66,7 @@ Vous pouvez afficher l’échéancier de paiement nouvellement généré qui com
 
 L’écriture de journal a automatiquement enregistré l’écriture de journal d’ajustement dans le compte pour la modification des paiements de location liée à la réévaluation de l’indice.
 
+> [!NOTE]
+> Si l’option **Répartition du montant du paiement** est activée dans le raccourci **Général** de la page **Détails du bail**, et que le registre associé est IFRS 16, le processus de réévaluation de l’indice ajoutera automatiquement un enregistrement dans la boîte de dialogue **Répartition du montant du paiement**. Le montant reflétera la modification apportée au paiement en raison de la réévaluation de l’indice. L’enregistrement sera marqué comme **Utilisé pour la réévaluation de l’indice IRFS 16**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

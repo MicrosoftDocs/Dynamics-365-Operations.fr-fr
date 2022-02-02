@@ -1,8 +1,8 @@
 ---
-title: Gestion de processus de recrutement
-description: Cet article décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement.
+title: Gestion des processus de recrutement
+description: Cette rubrique décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf873a58900fa86d068d9ebc75f4f389e7d8359cc685d4635e083437c55ae56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752988"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965062"
 ---
 # <a name="manage-recruiting-processes"></a>Gestion des processus de recrutement
 
@@ -42,7 +42,7 @@ Les projets de recrutement permettent aux recruteurs de suivre la progression de
 - La date limite de candidature
 - La date de début estimée
 
-Le projet de recrutement contient l’**Annonce d’emploi** utilisée sur le **Libre-service employé** pour annoncer le poste vacant. Pour afficher le poste vacant aux employés, le projet de recrutement doit avoir une **Annonce d’emploi**, le champ **Afficher dans le libre-service pour employés** doit être défini sur Oui, la **Date limite de candidature** doit être définie à une date ultérieure, et le **Statut du projet** du projet de recrutement doit être défini sur Démarré. Le tableau suivant répertorie les statuts de projet de recrutement possibles et leur description.
+Le projet de recrutement contient la valeur **Annonce d’emploi** utilisée sur la page **Libre service pour employés** pour annoncer le poste vacant. L’ouverture du poste peut être affichée aux employés uniquement si le projet de recrutement comporte une valeur **Annonce d’emploi**, que le champ **Afficher dans le libre service pour employés** est défini sur **Oui**, que le champ **Date limite de candidature** est défini sur une date ultérieure, et que le projet de recrutement a une valeur **Statut du projet** de **Démarré**. Le tableau suivant répertorie les statuts de projet de recrutement possibles et leur description.
 
 | Statut    | Indique que...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Les recruteurs peuvent également enregistrer les **Supports** utilisés pour an
 
 ## <a name="applicants"></a>Candidats
 
-Une personne pose sa candidature pour une tâche au sein de votre entreprise. Les candidats sont partagés entre les entités juridiques de votre organisation, vous donnant un vaste éventail des talents à partir desquels vous effectuez votre recrutement. Vous pouvez tenir à jour les compétences, les références, les demandes de logement et les informations personnelles des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global. Vous pouvez utiliser la page **Candidat** pour mettre à jour les informations suivantes du carnet d’adresses global pour les candidats :
+Une personne pose sa candidature pour une tâche au sein de votre entreprise. Les candidats sont partagés entre toutes les entités juridiques de votre organisation. Par conséquent, vous disposez d’un large bassin de talents dans lesquels prospecter. Vous pouvez tenir à jour les compétences, les références, les demandes de logement et les informations personnelles des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global. Vous pouvez utiliser la page **Candidat** pour mettre à jour les informations suivantes du carnet d’adresses global pour les candidats :
 
 - Informations d’adresse
 - Informations sur le contact
@@ -84,7 +84,7 @@ Le statut de la candidature indique sa progression dans le processus de recrutem
 
 ### <a name="correspondence-actions"></a>Actions de correspondance
 
-L’action de correspondance d’une **candidature** détermine le document ou le modèle d’e-mail que vous utilisez pour communiquer avec le candidat ayant soumis la candidature. Vous pouvez associer les **Signets de candidature** à des actions de correspondance pour vous permettre d’utiliser des valeurs issues des pages Candidature, Candidat, Entretien et Projet d’entretien dans vos communications avec les candidats. Des **modèles d’e-mail de candidature** peuvent être créés pour les actions de correspondance afin d’envoyer rapidement des messages électroniques aux candidats dont la candidature associe un certain statut et une certaine action de correspondance. Par exemple, vous pouvez envoyer un e-mail de confirmation à toutes les candidatures avec un **Statut** Reçue et une **Action de correspondance** Reçue. Après l’envoi du courrier électronique, vous pouvez mettre à jour le statut des candidatures.
+L’action de correspondance d’une candidature détermine le document ou le modèle d’e-mail que vous utilisez pour communiquer avec le candidat ayant soumis la candidature. En associant les **signets de candidature**  à des actions de correspondance, vous pouvez utiliser les valeurs des pages **Candidature**, **Candidat**, **Entretien** et **Projet de recrutement** dans vos communications avec les candidats. En créant des **modèles d’e-mail de candidature** pour les actions de correspondance, vous pouvez envoyer rapidement des messages électroniques aux candidats dont la candidature présente une combinaison particulière de statut et d’action de correspondance. Par exemple, vous pouvez envoyer un e-mail de confirmation à toutes les candidatures avec une valeur de **Statut** **Reçue** et une valeur **Action de correspondance** **Reçue**. Après l’envoi du courrier électronique, vous pouvez mettre à jour le statut des candidatures.
 
 ## <a name="application-routing"></a>Acheminement des candidatures
 
@@ -101,6 +101,5 @@ Les champs **Mise en correspondance des qualifications** et **Profils de mise en
 ## <a name="hiring-applicants"></a>Embauche de candidats
 
 Utilisez la page **Candidatures** pour embaucher un candidat. Lorsque vous engagez un candidat, l’enregistrement de la candidature aura le statut **Employé** et l’enregistrement de personne du carnet d’adresses global du candidat est associé au nouvel enregistrement du collaborateur. Les modifications apportées aux informations du carnet d’adresses global pour le nouvel enregistrement de travailleur sont également affichées dans l’enregistrement de candidat. Cela permet de réduire la saisie de données si le nouveau collaborateur pose un jour une candidature pour un autre poste au sein de votre entreprise. Pour embaucher un collaborateur existant à un nouveau poste, cliquez sur **Modifier le poste** dans le menu déroulant **Statut de la candidature** pour lancer le processus de transfert.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

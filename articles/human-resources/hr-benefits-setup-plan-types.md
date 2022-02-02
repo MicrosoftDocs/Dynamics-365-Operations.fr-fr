@@ -3,7 +3,7 @@ title: Vue d’ensemble du type de régime
 description: Un type de plan dans Microsoft Dynamics 365 Human Resources est un regroupement de haut niveau de types spécifiques d’avantages.
 author: twheeloc
 ms.date: 08/24/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 3496135c22ee135f0e9c1ebdab55360ff248d5d2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431390"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984719"
 ---
 # <a name="plan-type-overview"></a>Vue d’ensemble du type de plan
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Un type de plan est un regroupement de haut niveau de types spécifiques d’avantages. Chaque type de plan possède un code de type de plan qui détermine les règles du type de plan. Par exemple, le type de régime **Assurance-vie de base** aura le code de type de régime **Vie**, car il s'agit d'un type d'assurance-vie qui doit respecter les règles édictées pour le code de type de régime **Vie**. Un autre type de régime pourrait être **Assurance-vie complémentaire**. Ce type de régime aura également le code de type de régime **Vie**.
+Un type de plan est un regroupement de haut niveau de types spécifiques d’avantages. Chaque type de plan possède un code de type de plan qui détermine les règles du type de plan. Par exemple, le type de régime **Assurance-vie de base** aura le code de type de régime **Vie**, car il s’agit d’un type d’assurance-vie qui doit respecter les règles édictées pour le code de type de régime **Vie**. Un autre type de régime pourrait être **Assurance-vie complémentaire**. Ce type de régime aura également le code de type de régime **Vie**.
 
 Chaque type de plan indique si un employé peut souscrire à un plan de son type ou à plusieurs. Par exemple, un employé serait probablement en mesure de souscrire à la fois à **l’assurance vie de base** et à **l’assurance vie supplémentaire** du type de plan Vie. Un employé serait probablement autorisé à souscrire à une seule police de type médical.
 
@@ -38,10 +38,10 @@ Un type de plan peut définir des options de couverture. Les options de couvertu
 > [!IMPORTANT]
 > La page **Types de plan** comprend des données clés qui affectent les options disponibles lorsqu’un nouveau régime d’avantages est créé :
 >
-> - **Code type de régime** : ce champ affecte ce qui est affiché sur l'onglet **Configuration** lors de la configuration de l'avantage réel.  
+> - **Code type de régime** : ce champ affecte ce qui est affiché sur l’onglet **Configuration** lors de la configuration de l’avantage réel.  
 > - **Inscription simultanée** : ce champ détermine si plusieurs inscriptions sont autorisées. (Pour un plan médical, ce champ est généralement défini sur **Une inscription**.)
-> - **Type de contact** : ce champ permet d'ajouter des personnes à charge ou des bénéficiaires à un plan. S'il est défini sur **Aucun**, les employés qui adhèrent aux avantages n'auront pas la possibilité de sélectionner un bénéficiaire ou une personne à charge.
-> - **Options de couverture** : utilisez ce champ pour lier des options de couverture aux types de plan. Il définit soit les personnes qui seront couvertes par ce type de régime, soit les montants de couverture disponibles pour ce type de régime. Par exemple, vous pouvez spécifier que la couverture d'un type de régime médical sera disponible uniquement pour l'employé, l'employé et une autre personne, ou l'employé et sa famille.
+> - **Type de contact** : ce champ permet d’ajouter des personnes à charge ou des bénéficiaires à un plan. S’il est défini sur **Aucun**, les employés qui adhèrent aux avantages n’auront pas la possibilité de sélectionner un bénéficiaire ou une personne à charge.
+> - **Options de couverture** : utilisez ce champ pour lier des options de couverture aux types de plan. Il définit soit les personnes qui seront couvertes par ce type de régime, soit les montants de couverture disponibles pour ce type de régime. Par exemple, vous pouvez spécifier que la couverture d’un type de régime médical sera disponible uniquement pour l’employé, l’employé et une autre personne, ou l’employé et sa famille.
 
 ## <a name="create-plan-types"></a>Créer des types de plan
 

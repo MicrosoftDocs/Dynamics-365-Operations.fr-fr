@@ -1,26 +1,25 @@
 ---
 title: Vue d’ensemble de l’administration
-description: Cette rubrique fournit une liste de ressources et d'autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
+description: Cette rubrique fournit une liste de ressources et d’autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: a62fdf1936f36332a00818a1e1c706256aecafa9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393569"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984769"
 ---
 # <a name="administration-overview"></a>Vue d’ensemble de l’administration
 
@@ -28,7 +27,7 @@ ms.locfileid: "7393569"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cette rubrique fournit une liste de ressources et d'autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
+Cette rubrique fournit une liste de ressources et d’autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
 
 - [Configuration requise](hr-admin-system-requirements.md)
 
@@ -72,7 +71,7 @@ Cette rubrique fournit une liste de ressources et d'autres informations pour con
   - [Intégrer Microsoft Power Apps](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
   - [Rechercher des informations à l’aide des recherches](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
   - [Modification de la date d’une session](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
-  - [Configurer un fuseau horaire préféré de l'utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
+  - [Configurer un fuseau horaire préféré de l’utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Comprendre Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Ressources documentaires
@@ -83,7 +82,7 @@ Cette rubrique fournit une liste de ressources et d'autres informations pour con
   - [Créer une documentation ou une formation à l’aide de l’enregistreur de tâches](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Résoudre les problèmes liés à Human Resources
-  - [Obtenir de l'aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
   - [Les états analytiques ne sont pas mis à jour](hr-admin-troubleshooting-analytic-reports.md)
   - [Impossible de créer un environnement dans le centre d’administration Power Apps](hr-admin-troubleshooting-power-apps.md)

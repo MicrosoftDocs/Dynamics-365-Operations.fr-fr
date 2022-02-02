@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920172"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982148"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planification avec une capacité infinie
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 La fonctionnalité *Planification de capacité infinie pour Planning Optimization* introduit une planification basée sur les informations d’itinéraire. Elle vous permet de planifier des tâches en fonction d’un large éventail de configurations d’itinéraires. La planification de Planning Optimization couvre les paramètres d’itinéraire fréquemment utilisés, y compris la séquence d’opérations d’itinéraire ou les exigences pour les ressources d’opérations d’itinéraire.
 
@@ -51,7 +49,9 @@ Au cours du processus de planification, le système prend également en compte l
 - Capacité (Pour plus d’informations, voir [Planification avec sélection des ressources en fonction des capacités](capability-based-scheduling.md).)
 
 > [!NOTE]
-> Les exigences liées aux ressources humaines, telles que les compétences ou les exigences de certificat, ne sont pas encore prises en charge.
+>
+> - Si la ressource et/ou le groupe de ressources sont définis sur une capacité infinie, la planification générale les considérera comme une capacité infinie.
+> - Les exigences liées aux ressources humaines, telles que les compétences ou les exigences de certificat, ne sont pas encore prises en charge.
 
 La fonctionnalité prend également en charge les propriétés opérationnelles **Temps de configuration** et **Durée**. Lorsque vous définissez ces propriétés sur une opération d’itinéraire, le processus de planification crée les tâches de configuration et de traitement appropriées.
 

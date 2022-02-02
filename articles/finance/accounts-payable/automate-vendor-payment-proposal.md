@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749100"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966713"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatiser les propositions de paiement fournisseur
 
@@ -32,6 +32,9 @@ Les organisations qui paient les fournisseurs selon un programme récurrent peuv
 - Le journal de paiement fournisseur dans lequel les paiements résultants sont enregistrés
 
 Les automatisations de proposition de paiement ne valident pas automatiquement les paiements. Par conséquent, vous pouvez continuer à utiliser tous les processus de validation et de workflow que vous utilisez actuellement pour approuver les paiements créés.
+
+> [!NOTE]
+> La fonction **Automatisation des propositions de paiement fournisseur** doit être activée dans la gestion des fonctionnalités pour être utilisée. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Définir l’occurrence des propositions de paiement fournisseur
 

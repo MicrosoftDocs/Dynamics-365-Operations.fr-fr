@@ -3,7 +3,7 @@ title: Vue d’ensemble des factures fournisseur
 description: Cette rubrique fournit des informations générales sur les factures fournisseur.
 author: abruer
 ms.date: 06/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647138"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985335"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d’ensemble des factures fournisseur
 
@@ -124,7 +124,7 @@ Vous pouvez consulter le total de la facture sur la page **Factures fournisseur 
 
 ## <a name="vendor-open-transactions-report"></a>État des transactions en cours fournisseur
 
-Le rapport **Transactions ouvertes par le fournisseur** fournit des informations détaillées sur les transactions en cours pour chaque fournisseur à la date que vous spécifiez. Ce rapport est souvent utilisé lors de la procédure d'audit pour vérifier les soldes entre les transactions du livre du fournisseur et les transactions du compte du grand livre.
+Le rapport **Transactions ouvertes par le fournisseur** fournit des informations détaillées sur les transactions en cours pour chaque fournisseur à la date que vous spécifiez. Ce rapport est souvent utilisé lors de la procédure d’audit pour vérifier les soldes entre les transactions du livre du fournisseur et les transactions du compte du grand livre.
 
 Pour chaque transaction, l’état comprend les détails suivants :
 
@@ -135,7 +135,7 @@ Pour chaque transaction, l’état comprend les détails suivants :
 - Solde créditeur dans la devise de transaction et la devise comptable
 - Solde débiteur dans la devise de transaction et la devise comptable
 - Montant du sous-total dans la devise comptable
-- Date d'échéance du paiement
+- Date d’échéance du paiement
 
 ### <a name="filter-the-data-on-the-report"></a>Filtrer les données sur l’état
 

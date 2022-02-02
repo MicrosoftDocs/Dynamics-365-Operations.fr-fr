@@ -3,7 +3,7 @@ title: Modèle de données de calcul des taxes
 description: Cette rubrique fournit des informations sur le modèle de données fiscales et sur la manière dont les valeurs de champ de chaque modèle de données sont déterminées par le contexte des transactions de calcul de taxes.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864258"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985964"
 ---
 # <a name="tax-calculation-data-model"></a>Modèle de données de calcul des taxes
 
 Cette rubrique fournit des informations sur les valeurs de champ du modèle de données fiscales sont déterminées dans le cadre des transactions de calcul de taxes.
 
-Le *modèle de données fiscales* est composé de champs requis pour le calcul des taxes. Microsoft fournit le *modèle de données de calcul de taxes*, qui comprend les champs d’en-tête et les champs de ligne des documents de transaction dans les applications Finance and Operations. Les champs définis dans le modèle de données de calcul de taxes sont les colonnes disponibles des tables de règles d’applicabilité dans la configuration de la fonctionnalité de calcul de taxes.
+Le *modèle de données fiscales* est composé de champs requis pour le calcul des taxes. Microsoft fournit le *modèle de données de calcul de taxes*, qui comprend les champs d’en-tête et les champs de ligne des documents de transaction dans les applications Finances et Opérations. Les champs définis dans le modèle de données de calcul de taxes sont les colonnes disponibles des tables de règles d’applicabilité dans la configuration de la fonctionnalité de calcul de taxes.
 
 > [!NOTE] 
 > Certains nœuds définis dans le modèle de données, tels que **ID d’enregistrement** et **ID de table**, existent à des fins techniques. Ce ne sont pas des colonnes disponibles dans la configuration de la fonctionnalité de calcul des taxes.
@@ -55,7 +55,7 @@ Vous pouvez également afficher le modèle de données de calcul des taxes et le
 
     [![Gérer les colonnes.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Le modèle de données de calcul des taxes est intégré aux applications Finance and Operations. Lors de chaque transaction liée au calcul des taxes, les valeurs des champs définis dans les tables des règles d’applicabilité sont collectées et envoyées au service de calcul des taxes pour calcul. Dans la version 40.46, 57 modèles de données prédéfinis sont disponibles pour les types de transactions suivants : commandes d’achat, commandes de vente, ordres de transfert, demandes d’achat, appels d’offre et devis de vente.
+Le modèle de données de calcul des taxes est intégré aux applications Finances et Opérations. Lors de chaque transaction liée au calcul des taxes, les valeurs des champs définis dans les tables des règles d’applicabilité sont collectées et envoyées au service de calcul des taxes pour calcul. Dans la version 40.46, 57 modèles de données prédéfinis sont disponibles pour les types de transactions suivants : commandes d’achat, commandes de vente, ordres de transfert, demandes d’achat, appels d’offre et devis de vente.
 
 Trente et un modèles de données peuvent être inclus en tant que champs sur l’en-tête d’une transaction. Cependant, tous les champs ne sont pas applicables à tous les types de transactions. La table suivante indique les champs d’en-tête disponibles pour des types de transaction spécifiques. Dans certains cas, le mappage de champ doit être déterminé par une logique prédéfinie. Le cas échéant, la logique est fournie.
 

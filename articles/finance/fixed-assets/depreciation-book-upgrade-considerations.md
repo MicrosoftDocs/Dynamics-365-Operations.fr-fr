@@ -3,7 +3,7 @@ title: Vue d’ensemble de la mise à niveau des registres des amortissements
 description: Cette rubrique décrit la fonctionnalité de registre actuelle dans Immobilisations. Cette fonctionnalité est basée sur la fonctionnalité de modèle de valeur qui était disponible dans des versions précédentes, mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements.
 author: moaamer
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675150"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985081"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Vue d’ensemble de la mise à niveau des registres des amortissements
 

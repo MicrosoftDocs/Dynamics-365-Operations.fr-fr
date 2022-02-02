@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "4464"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40e2bb78e6a4db51f61f4197a9cd444226e7f71b012468274b85306bb8f185d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72c362e651787d2ff120944925e3bc35523f0059
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726132"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982007"
 ---
 # <a name="asset-leasing-get-started"></a>Démarrer la location d’actifs
 
@@ -30,7 +28,7 @@ ms.locfileid: "6726132"
 
 Cette rubrique décrit la fonctionnalité de location d’actifs, et décrit les étapes de création d’un bail d’immobilisation et l’affichage des informations relatives à ces baux. La rubrique définit également la terminologie utilisée dans l’interface utilisateur et la documentation. La location d’actifs est une fonctionnalité avancée de gestion, de suivi et d’automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d’actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d’actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu’à la dépréciation et la résiliation du bail. La fonctionnalité de location d’actifs s’intègre parfaitement aux autres composants de Dynamics 365 Finance, notamment les immobilisations, les comptes fournisseurs et la comptabilité.
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et sélectionnez la fonction intitulée **Location d'actifs**, puis sélectionnez le bouton **Activer maintenant**.
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et sélectionnez la fonction intitulée **Location d’actifs**, puis sélectionnez le bouton **Activer maintenant**.
 
 Pour plus d’informations sur les normes comptables, reportez-vous à la documentation standard relative aux normes IFRS 16 et US GAAP ASC 842.
 

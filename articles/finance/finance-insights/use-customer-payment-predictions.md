@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752782"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968910"
 ---
 # <a name="use-customer-payment-predictions"></a>Utiliser les prédictions de paiement des clients
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment utiliser les prédictions de paiement du client. Avant d’utiliser cette fonctionnalité, assurez-vous que vous avez terminé les étapes de configuration correspondantes. Pour plus d’informations, voir [Activer les prédictions de paiement client](enable-cust-paymnt-prediction.md).
 
@@ -89,7 +88,7 @@ Vous pouvez voir l’exactitude des prévisions de paiement en accédant à **Cr
 
 [![Précision des prévisions de paiement.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améliorez la précision du modèle** pour ouvrir l’expérience d’extension AI Builder. Dans l’expérience d’extension AI Builder, vous pouvez sélectionner ou annuler la sélection de champs jusqu’à ce que vous ayez sélectionné les champs qui vous semblent les plus importants pour prédire avec précision les probabilités de paiement. Lorsque vous avez terminé, vous pouvez facilement recycler le modèle de prédiction et publier vos modifications. Le modèle de prédiction nouvellement formé sera automatiquement sélectionné pour les prédictions dans Dynamics 365 Finance.
+Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améliorer la précision du modèle** pour ouvrir l’expérience d’extension AI Builder. Dans l’expérience d’extension AI Builder, vous pouvez sélectionner ou annuler la sélection de champs jusqu’à ce que vous ayez sélectionné les champs qui vous semblent les plus importants pour prédire avec précision les probabilités de paiement. Lorsque vous avez terminé, vous pouvez facilement recycler le modèle de prédiction et publier vos modifications. Le modèle de prédiction nouvellement formé sera automatiquement sélectionné pour les prédictions dans Dynamics 365 Finance.
 
 [![Expérience d’extension AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 

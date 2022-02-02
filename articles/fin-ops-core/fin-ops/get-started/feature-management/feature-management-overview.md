@@ -1,29 +1,28 @@
 ---
-title: Présentation de la gestion des fonctionnalités
-description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
+title: Vue d’ensemble de la gestion des fonctionnalités
+description: Cette rubrique décrit la Gestion des fonctionnalités et son utilisation.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488176"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984457"
 ---
-# <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
+# <a name="feature-management-overview"></a>Vue d’ensemble de la gestion des fonctionnalités
 
 [!include [banner](../../includes/banner.md)]
 
@@ -75,9 +74,9 @@ Les fonctionnalités mises à jour sur **Activé par défaut** sont activées pa
 > [!NOTE]
 > Étant donné que ces fonctionnalités seront activées automatiquement, il est important que vous déterminiez si votre organisation est prête à utiliser ces fonctionnalités ou si plus de temps est nécessaire. Si plus de temps est requis, il peut être nécessaire de désactiver temporairement ces fonctionnalités. Notez que la transition d’une fonctionnalité vers **Activé par défaut** est généralement effectuée dans la version majeure avant que la fonctionnalité ne soit ciblée pour devenir **Obligatoire**. À ce stade, vous n’aurez pas la possibilité de désactiver la fonctionnalité. 
 
-### <a name="released-features-mandatory"></a>Fonctionnalités lancées (obligatoire)
+### <a name="mandatory"></a>Obligatoire
 
-**Lancé** est l’état final des fonctionnalités. Il indique que les fonctionnalités sont activées et que vous ne pouvez pas les désactiver sans contacter Microsoft. Les fonctionnalités facultatives doivent devenir obligatoires après deux versions majeures. Les fonctionnalités critiques peuvent exceptionnellement être introduites comme obligatoires.
+**Obligatoire** est l’état final attendu des fonctionnalités. Il indique que les fonctionnalités sont activées et que vous ne pouvez pas les désactiver sans contacter Microsoft. Les fonctionnalités facultatives doivent devenir obligatoires après deux versions majeures. Les fonctionnalités critiques peuvent exceptionnellement être introduites comme obligatoires.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Exemple de cycles de vie des fonctionnalités attendues
 

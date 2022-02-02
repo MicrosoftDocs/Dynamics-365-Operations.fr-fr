@@ -3,24 +3,23 @@ title: Vue d’ensemble du module Gestion de document commercial
 description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753074"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986249"
 ---
 # <a name="business-document-management-overview"></a>Vue d’ensemble du module Gestion de document commercial
 
@@ -28,7 +27,7 @@ ms.locfileid: "6753074"
 
 Les utilisateurs professionnels utilisent la structure de [Gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays/régions. Ils peuvent également définir le flux de données pour spécifier quelles données d’application placer dans les documents générés. La structure de gestion des états électroniques génère des documents sortants dans des formats Microsoft Office (des classeurs Excel ou des documents Word) à l’aide de modèles prédéfinis. Les modèles sont renseignés avec les données requises conformément au flux de données configuré pendant la génération des documents requis. Chaque format configuré peut être publié dans le cadre d’une solution de gestion des états électroniques pour générer les documents sortants spécifiques. Cela est représenté par une configuration de format ER qui peut contenir des modèles qui vous permettent de générer différents documents sortants. Les utilisateurs professionnels peuvent utiliser cette structure pour gérer les documents commerciaux requis.
 
-Le module **Gestion de document commercial** repose sur la structure ER et permet aux utilisateurs professionnels de modifier des modèles de document commercial à l’aide du service Microsoft 365 ou de l’application de bureau Microsoft Office appropriée. Parmi les modifications apportées aux documents on trouve la modification des conceptions de documents commerciaux et l’ajout des espaces réservés pour les données supplémentaires sans modifier le code source ni faire de nouveaux déploiements. Aucune connaissance de la structure d’ER n’est nécessaire pour la mise à jour de modèles de documents commerciaux.
+Le module **Gestion de document commercial** repose sur la structure d’ER et permet aux utilisateurs d’entreprise de modifier des modèles de documents commerciaux à l’aide du service Microsoft 365 ou de l’application de bureau Microsoft Office appropriée. Parmi les modifications apportées aux documents on trouve la modification des conceptions de documents commerciaux et l’ajout des espaces réservés pour les données supplémentaires sans modifier le code source ni faire de nouveaux déploiements. Aucune connaissance de la structure d’ER n’est nécessaire pour la mise à jour de modèles de documents commerciaux.
 
 > [!NOTE]
 > Notez que le module Gestion de document commercial permet de modifier les modèles utilisés pour produire des documents commerciaux, tels que les commandes, les factures, etc. Même si un modèle a été modifié et qu’une nouvelle version a été émise, cette version est utilisée pour générer les documents commerciaux requis. Le module Gestion de document commercial ne permet pas de modifier les documents commerciaux déjà générés.
@@ -41,7 +40,7 @@ Actuellement, la fonctionnalité Gestion de document commercial est implémenté
 
 Pour utiliser le module Gestion de document commercial pour modifier les modèles dans des formats Excel ou Word à l’aide des applications de bureau Microsoft Office, Microsoft Office 2010 ou une version ultérieure doit être installé. Il n’est pas pris en charge dans le cloud et les déploiements locaux.
 
-Pour utiliser le module Gestion de document commercial pour modifier les modèles dans des formats Excel ou Word à l’aide des applications Microsoft 365, vous devez avoir Microsoft 365 Office pour l’abonnement Internet. Ceci est pris en charge dans le déploiement cloud.
+Pour utiliser le module Gestion de document commercial pour modifier les modèles dans des formats Excel ou Word à l’aide des applications Microsoft 365, vous devez avoir Microsoft 365 Office pour l’abonnement web. Ceci est pris en charge dans le déploiement cloud.
 
 ## <a name="business-document-availability"></a>Disponibilité de la gestion de document commercial
 
@@ -272,9 +271,9 @@ L’option **Modifier le modèle** est disponible pour le modèle sélectionné.
 
 ![Confirmer le début du processus de modification pour créer un modèle.](./media/BDM-Overview-EditingTemplate4.png)
 
-S'il n'y a aucun fournisseur, il vous sera proposé d'en créer un. S'il n'y a pas de fournisseur actif, il vous sera proposé d'en choisir un pour l'activer.
+S’il n’y a aucun fournisseur, il vous sera proposé d’en créer un. S’il n’y a pas de fournisseur actif, il vous sera proposé d’en choisir un pour l’activer.
 
-Pour créer un fournisseur, modifiez le nom du fournisseur dans le champ **Nom**, mettez à jour l'adresse Internet du nouveau fournisseur dans le champ **Adresse Internet** et sélectionnez **OK** pour confirmer.
+Pour créer un fournisseur, modifiez le nom du fournisseur dans le champ **Nom**, mettez à jour l’adresse Internet du nouveau fournisseur dans le champ **Adresse Internet** et sélectionnez **OK** pour confirmer.
 
    ![Créer un nouveau fournisseur dans BDM.](./media/bdm_create_provider.png)
 
@@ -283,7 +282,7 @@ Pour activer le fournisseur existant, choisissez le nom du fournisseur dans le c
    ![Activer un fournisseur dans BDM.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
-> Chaque modèle BDM fait référence au fournisseur en tant que l’auteur de la configuration. c'est pourquoi un fournisseur actif est requis pour le modèle.
+> Chaque modèle BDM fait référence au fournisseur en tant que l’auteur de la configuration. c’est pourquoi un fournisseur actif est requis pour le modèle.
 
 
 L’option **Nouveau document** est toujours disponible pour un modèle dans une configuration au format ER fournie par un fournisseur actuel et un autre fournisseur (Microsoft dans cet exemple) qui n’a aucune révision. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
@@ -404,11 +403,11 @@ Lorsque vous modifiez le modèle provenant d’un format ER qui appartient au fo
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>J’ai sélectionné Modifier document, mais plutôt que d’ouvrir la page Éditeur de modèle BDM dans Finance, je suis arrivé sur la page web Microsoft 365.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>J’ai sélectionné Modifier document, mais plutôt que d’ouvrir la page Éditeur de modèle BDM dans Finance, je suis arrivé sur la page web de Microsoft 365.
 
 Il s’agit d’un problème connu avec la redirection Microsoft 365. Cela se produit lorsque vous vous connectez à Microsoft 365 pour la première fois. Pour contourner ce problème, sélectionnez **Retour** dans votre navigateur pour revenir à la page précédente.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Je sais comment modifier un modèle à l’aide de Microsoft 365 dans la première session d’application et utiliser le modèle dans la deuxième session d’application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je utiliser l’application de bureau Office de la même manière ?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Je sais comment modifier un modèle à l’aide de Microsoft 365 dans la première session d’application et utiliser le modèle dans la deuxième session d’application, puis modifier le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je utiliser l’application de bureau Office de la même manière ?
 
 Oui, vous pouvez. Dans la première session de l’application, sélectionnez **Ouvrir dans l’application de bureau**. Votre modèle sera stocké dans le stockage de fichier temporaire et ouvert dans l’application de bureau Office. Procédez ensuite comme suit pour prévisualiser les modifications apportées au modèle dans le document commercial généré :
 

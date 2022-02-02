@@ -3,7 +3,7 @@ title: Vue d’ensemble de Human Resources
 description: Le module Human Resources rationalise les tâches routinières de tenue des registres, automatise les processus associés à la dotation de personnel de votre organisation et fournit un cadre permettant au personnel des ressources humaines de gérer les zones de supervision.
 author: andreabichsel
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96571e1728f6a5d3b86a161b39424d34dfdbb47bf039b60b69b0a7c908639e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713850"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983127"
 ---
 # <a name="human-resources-overview"></a>Vue d’ensemble de Human Resources
 
@@ -31,9 +31,9 @@ Le module Ressources humaines simplifie de nombreuses tâches d’archivage de r
 Le module Ressources humaines vous permet d’effectuer les tâches suivantes :
 
 + Administrer les structures organisationnelles.
-+ Tenir à jour l'ensemble des informations sur les collaborateurs depuis leur embauche jusqu'à leur retraite.
-+ Définir et administrer les plans d'avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
-+ Établir et surveiller les politiques d'absence.
++ Tenir à jour l’ensemble des informations sur les collaborateurs depuis leur embauche jusqu’à leur retraite.
++ Définir et administrer les plans d’avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
++ Établir et surveiller les politiques d’absence.
 + Implémenter et suivre la gestion des heures basée sur le profil et générer des informations de salaire à exporter vers un système de paie.
 + Gérer les compétences des collaborateurs.
 + Évaluer les performances et implémenter les objectifs des collaborateurs.
@@ -44,7 +44,7 @@ Le module Ressources humaines vous permet d’effectuer les tâches suivantes :
 
 Lorsque vous travaillez avec le module Ressources humaines, vous décidez comment structurer votre organisation, avec des éléments, tels que les départements, les tâches, et les postes. Il s’agit là des éléments fondamentaux que vous allez configurerez dans le module Ressources humaines. Les employés sont affectés à des postes associés à des tâches.
 
-- [Organisation du personnel à l'aide des départements, tâches et postes](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [Organisation du personnel à l’aide des départements, tâches et postes](../../../human-resources/hr-personnel-departments-jobs-positions.md)
 - [Configuration des paramètres des ressources humaines (RH) spécifiques à la société](../../../human-resources/hr-setup-parameters.md)
 - [Configuration des paramètres des ressources humaines (RH) dans les entités juridiques](../../../human-resources/hr-setup-shared-parameters.md)
 
@@ -63,7 +63,7 @@ Une fois que vous avez engagé du personnel, vous pouvez définir des plans pour
 
 ## <a name="develop-and-train-employees"></a>Faire évoluer et former les employés
 
-Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d’évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d'affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
+Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d’évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d’affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
 
 - [Gestion des performances](../../../human-resources/hr-develop-performance-management-overview.md)
 - [Aligner les qualifications du personnel aux besoins de l’entreprise](../../../human-resources/hr-develop-skills.md)
@@ -87,7 +87,7 @@ Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail s
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l’aide de questionnaires
 
-Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
+Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu’il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
 - [Questionnaires](../../../human-resources/hr-learning-questionnaires.md)
 - [Créer des questionnaires](../../../human-resources/hr-learning-design-questionnaires.md)

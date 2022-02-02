@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860665"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013832"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Activer Power BI pour la comptabilité globale des stocks
 
@@ -51,8 +51,9 @@ Pour configurer l’intégration de Power BI, procédez comme suit.
 
     1. Accédez à **Mon espace de travail**, recherchez le jeu de données pour la comptabilité globale des stocks puis, dans le menu **Options**, sélectionnez **Paramètres**.
     1. Dans **Paramètres de la comptabilité globale des stocks**, développez **Paramètres** et mettez à jour tous les paramètres si nécessaire. En particulier, assurez-vous de vérifier les paramètres suivants :
-        1. Remplacez les valeurs par défaut **URL Dataverse** et **ID d'environnement** en utilisant les valeurs trouvées sur la page **Détails de l'environnement** dans LCS (dans la section **Intégration Power Platform**).
-        1. Sélectionnez le lien **Modifier les identifiants** à côté de l'étiquette **CD** dans la section **Identifiants de la source de données**. Connectez-vous ensuite à votre compte Dataverse en utilisant la méthode d'authentification **OAuth2**.
+        1. Remplacez les valeurs par défaut **URL Dataverse** en utilisant les valeurs trouvées sous **Informations sur l’environnement Power Platform** dans LCS (dans la section **Intégration Power Platform**).
+        1. Remplacez les valeurs par défaut URL **ID d’environnement** en utilisant les valeurs trouvées sous **Détails de l’environnement details** dans LCS (dans la section **Gérer l’environnement**).
+        1. Sélectionnez le lien **Modifier les identifiants** à côté de l’étiquette **CDS** dans la section **Identifiants de la source de données**. Connectez-vous ensuite à votre compte Dataverse en utilisant la méthode d’authentification **OAuth2**.
     1. Vérifiez que les rapports Power BI trouvés sur **Mon espace de travail \> Rapports \> Comptabilité globale des stocks** fonctionnent désormais correctement et affichent le contenu de votre système.
 
 1. Enregistrez l’application comme décrit dans [Configurer l’intégration PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).

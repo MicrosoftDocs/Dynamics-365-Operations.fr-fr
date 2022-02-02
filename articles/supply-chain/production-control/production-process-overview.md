@@ -3,7 +3,7 @@ title: Vue d’ensemble du processus de fabrication
 description: Cette rubrique donne une vue d’ensemble des processus de production. Il décrit les différents stades des ordres de fabrication, des lots de commandes et des kanbans, de la création à la clôture de la période financière.
 author: johanhoffmann
 ms.date: 09/13/2019
-ms.topic: article
+ms.topic: overview
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a07733f7e1e830fa1c1c4c8e0cfdc5b41d10750
-ms.sourcegitcommit: efccf0838c74cf65382bb6cd852f9bc30ca69230
+ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7727333"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983211"
 ---
 # <a name="production-process-overview"></a>Vue d’ensemble du processus de fabrication
 

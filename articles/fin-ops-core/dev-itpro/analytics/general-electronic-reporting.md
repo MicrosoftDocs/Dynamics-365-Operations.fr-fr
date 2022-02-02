@@ -3,7 +3,7 @@ title: Vue d’ensemble des états électroniques (ER)
 description: Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques. Elle décrit les concepts clés, les scénarios pris en charge et les formats qui font partie de la solution.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867278"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986145"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -42,19 +42,19 @@ ER est un outil configurable qui vous aide à créer et à gérer des rapports e
 - Une configuration pour plusieurs versions de Dynamics 365 Finance :
 
     - Il est possible de gérer un modèle de données spécifique à un domaine qui est défini en termes commerciaux.
-    - Il est possible d'isoler les détails de la version de l'application dans les mappages de modèle de données dépendant de la version.
+    - Il est possible d’isoler les détails de la version de l’application dans les mappages de modèle de données dépendant de la version.
     - Il est possible de conserver une configuration de format pour plusieurs versions de la version actuelle, en fonction du modèle de données.
 
 - Mise à jour facile ou automatique :
 
     - Le contrôle de version des configurations ER est pris en charge.
-    - La bibliothèque des actifs Microsoft Dynamics Lifecycle Services (LCS) peut être utilisée comme référentiel pour les configurations ER, pour l'échange de versions.
-    - Les localisations basées sur les configurations ER d'origine peuvent être introduites en tant que versions enfants.
-    - Une arborescence de configuration ER est fournie en tant qu'outil permettant de contrôler les dépendances des versions.
-    - Les différences de localisation, ou la configuration delta, sont enregistrées pour permettre la mise à niveau automatique vers une nouvelle version de la configuration ER d'origine.
+    - La bibliothèque des actifs Microsoft Dynamics Lifecycle Services (LCS) peut être utilisée comme référentiel pour les configurations ER, pour l’échange de versions.
+    - Les localisations basées sur les configurations ER d’origine peuvent être introduites en tant que versions enfants.
+    - Une arborescence de configuration ER est fournie en tant qu’outil permettant de contrôler les dépendances des versions.
+    - Les différences de localisation, ou la configuration delta, sont enregistrées pour permettre la mise à niveau automatique vers une nouvelle version de la configuration ER d’origine.
     - Il est facile de résoudre manuellement les conflits découverts lors de la mise à niveau automatique des versions de localisation.
 
-ER vous permet de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l'aide des données et des algorithmes. Vous pouvez utiliser un langage de formule qui ressemble au langage Excel pour la transformation des données. Pour rendre le mappage de la base de données au format plus gérable, réutilisable et indépendant des changements de format, un concept de modèle de données intermédiaire est introduit. Ce concept permet de masquer les détails de mise en œuvre du mappage de format et de réutiliser un seul modèle de données pour des mappages de formats multiples.
+ER vous permet de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l’aide des données et des algorithmes. Vous pouvez utiliser un langage de formule qui ressemble au langage Excel pour la transformation des données. Pour rendre le mappage de la base de données au format plus gérable, réutilisable et indépendant des changements de format, un concept de modèle de données intermédiaire est introduit. Ce concept permet de masquer les détails de mise en œuvre du mappage de format et de réutiliser un seul modèle de données pour des mappages de formats multiples.
 
 Vous pouvez utiliser ER pour configurer les formats de documents électroniques entrants et sortants conformément aux exigences légales des différents pays et régions. Il vous permet de gérer ces formats au cours de leur cycle de vie. Par exemple, vous pouvez adopter de nouvelles exigences réglementaires et générer des documents commerciaux au format requis pour échanger des informations avec les organismes publics, les banques et d’autres parties par voie électronique.
 
@@ -66,7 +66,7 @@ ER prend actuellement en charge les formats de feuille de calcul TEXT, XML, JSON
 
 Le moteur d’états électroniques est doté des fonctionnalités suivantes :
 
-- il représente un outil commun unique partagé pour la génération d’états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d’états électronique Finance and Operations.
+- il représente un outil commun unique partagé pour la génération d’états électronique dans différents domaines et remplace plus de 20 moteurs différents effectuant certains types de génération d’états électronique pour Finance and Operations.
 - Il isole le format d’un état de l’implémentation actuelle. En d’autres termes, le format est applicable aux différentes versions.
 - Il prend en charge la création d’un format personnalisé qui est basé sur un format d’origine. Il inclut également des fonctionnalités permettant de mettre à niveau automatiquement le format personnalisé lorsque le format d’origine est modifié du fait que des spécifications de localisation/personnalisation sont introduites.
 - Il devient l’outil standard principal pour prendre en charge les exigences de localisation dans les états électroniques, pour Microsoft ainsi que pour les partenaires de Microsoft.
@@ -143,7 +143,7 @@ Un référentiel d’états électroniques enregistre les configurations d’ét
 
 Un référentiel **Bibliothèque LCS partagée** permet d’accéder à la liste des configurations dans la bibliothèque des actifs partagés de Lifecycle Services (LCS). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir de la bibliothèque d’actifs LCS partagés, vous pouvez importer les dernières versions des configurations ER dans l’instance actuelle.
 
-Un référentiel **Projet LCS** permet d’accéder à la liste des configurations d’un projet LCS spécifique (bibliothèque d’actifs de projet LCS) sélectionné lors de l’enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l’instance actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers votre instance Finance and Operations actuelle.
+Un référentiel **Projet LCS** permet d’accéder à la liste des configurations d’un projet LCS spécifique (bibliothèque d’actifs de projet LCS) sélectionné lors de l’enregistrement du référentiel. Les états électroniques vous permettent de télécharger des configurations partagées de l’instance actuelle vers un référentiel **Projet LCS** donné. Vous pouvez également importer des configurations depuis un référentiel **Projet LCS** vers l’instance actuelle de vos applications Finances et Opérations.
 
 Un référentiel **Système de fichiers** permet d’accéder à la liste des configurations situées en tant que fichiers xml dans le dossier spécifique du système de fichiers local de l’ordinateur où le service AOS est hébergé. Le dossier requis est sélectionné au stade d’enregistrement du référentiel. Vous pouvez importer des configurations depuis un référentiel **Système de fichiers** vers l’instance actuelle. 
 

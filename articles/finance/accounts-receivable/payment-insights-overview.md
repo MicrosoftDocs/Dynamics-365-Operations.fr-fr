@@ -3,7 +3,7 @@ title: Informations de paiement du client (Aperçu)
 description: Cette rubrique décrit la fonctionnalité d’informations de paiement qui vous aident à mieux comprendre les pratiques de paiement typiques d’un client individuel. La fonctionnalité peut vous aider à identifier les circonstances qui justifient de démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737771"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984000"
 ---
 # <a name="customer-payment-insights-preview"></a>Informations de paiement du client (Aperçu)
 
@@ -69,7 +69,7 @@ Envoyer un e-mail à [Informations de paiement du client (version préliminaire)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
-Les aperçus (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+Les version préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas incluses dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisées pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
 
 
 

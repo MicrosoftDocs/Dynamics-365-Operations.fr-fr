@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 7434c2ed486fe0546a746afdd2c4c4aacdcc3d5c
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
+ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817286"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8015713"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 
@@ -24,7 +24,7 @@ ms.locfileid: "7817286"
 
 Les [modèles Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) vous aide à mettre à niveau les données suivantes en double écriture vers le modèle de partie et de carnet d’adresses globales : données des tables **Compte**, **Contact** et **Fournisseurs** et les adresses postales et électroniques.
 
-Les trois modèles Data Factory suivants sont fournis. Ils aident à rapprocher les données des applications Finance and Operations et des applications Customer Engagement.
+Les trois modèles Data Factory suivants sont fournis. Ils facilitent le rapprochement des données des applications Finances et Opérations et des applications d’engagement client.
 
 - **[Modèle de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Mettre à niveau des données vers un schéma dual-write Party-GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les données de **Partie** et de **Contact** associées aux données de **Compte**, **Contact** et **Fournisseur**.
 - **[Modèle d’adresse postale de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Mettre à niveau les données vers le schéma dual-write Party-GAB/Mettre à niveau vers l’adresse postale de partie - GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les adresses postales associées aux données de **Compte**, **Contact** et **Fournisseur**.
@@ -34,16 +34,16 @@ Les trois modèles Data Factory suivants sont fournis. Ils aident à rapprocher 
 
 | Nom de fichier | Objectif |
 |---|---|
-| FONewParty.csv | Ce fichier permet de créer de nouveaux enregistrements de **Partie** à l’intérieur de l’application Finance and Operations. |
-| ImportFONewPostalAddressLocation.csv | Ce fichier permet de créer de nouveaux enregistrements **Emplacements d’adresse postale** dans l’application Finance and Operations. |
-| ImportFONewPartyPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale de partie** dans l’application Finance and Operations. |
-| ImportFONewPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale** dans l’application Finance and Operations. |
-| ImportFONewElectronicAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse électronique** dans l’application Finance and Operations. |
+| FONewParty.csv | Ce fichier permet de créer de nouveaux enregistrements **Partie** dans l’application Finances et Opérations. |
+| ImportFONewPostalAddressLocation.csv | Ce fichier permet de créer de nouveaux enregistrements **Emplacements d’adresse postale** dans l’application Finances et Opérations. |
+| ImportFONewPartyPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale de partie** dans l’application Finances et Opérations. |
+| ImportFONewPostalAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse postale** dans l’application Finances et Opérations. |
+| ImportFONewElectronicAddress.csv | Ce fichier permet de créer de nouveaux enregistrements **Adresse électronique** dans l’application Finances et Opérations. |
 
 Cette rubrique comment utiliser les modèles Data Factory et mettre à niveau vos données. Si vous n’avez aucune personnalisation, vous pouvez utiliser les modèles tels quels. Toutefois, si vous avez des personnalisations pour les données de **Compte**, **Contact** et **Fournisseur**, vous devez modifier les modèles comme décrit dans cette rubrique.
 
 > [!IMPORTANT]
-> Des instructions spéciales s’appliquent si vous exécutez les modèles d’adresse postale et d’adresse électronique de partie. Vous devez d’abord exécuter le modèle Partie, puis le modèle d’adresse postale Partie, puis le modèle d’adresse électronique Partie.
+> Des instructions spéciales s’appliquent si vous exécutez les modèles d’adresse postale et d’adresse électronique de partie. Vous devez d’abord exécuter le modèle Partie, puis le modèle d’adresse postale Partie, puis le modèle d’adresse électronique Partie. Chaque modèle est conçu pour être importé dans une fabrique de données distincte.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -58,10 +58,10 @@ Les conditions préalables suivantes doivent être satisfaites avant de pouvoir 
 Une mise à niveau nécessite la préparation suivante :
 
 + **Synchronisation complète :** l’environnement Finance and Operations et l’environnement Customer Engagement sont dans un état entièrement synchronisé pour les tables **Compte (Client)**, **Contact**, et **Fournisseur**.
-+ **Clés d’intégration** : les tables **Compte (client)**, **Contact** et **Fournisseur** dans les applications Customer Engagement  utilisent les clés d’intégration prêtes à l’emploi. Si vous avez personnalisé les clés d’intégration, vous devez personnaliser le modèle.
++ **Clés d’intégration** : les tables **Compte (client)**, **Contact** et **Fournisseur** dans les applications Customer Engagement utilisent les clés d’intégration prêtes à l’emploi. Si vous avez personnalisé les clés d’intégration, vous devez personnaliser le modèle.
 + **Numéro de partie :** tous les enregistrements **Compte (Client)**, **Contact** et **Fournisseur** qui seront mis à niveau ont un numéro de partie. Les enregistrements qui n’ont pas de numéro de partie seront ignorés. Si vous souhaitez mettre à niveau ces enregistrements, ajoutez-leur un numéro de partie avant de commencer le processus de mise à niveau.
 + **Panne du système** : pendant le processus de mise à niveau, vous devrez mettre hors connexion les environnements Finance and Operations et Customer Engagement.
-+ **Instantané** : prenez un instantané des applications Finance and Operations et Customer Engagement. Vous pouvez utiliser les instantanés pour restaurer l’état précédent si nécessaire.
++ **Instantané** : prenez un instantané des applications Finances et Opérations et des applications d’engagement client. Vous pouvez utiliser les instantanés pour restaurer l’état précédent si nécessaire.
 
 ## <a name="deployment"></a>Déploiement
 
@@ -120,15 +120,15 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Configuration pour exécuter le modèle d’adresse postale de partie
 
-1. Connectez-vous aux applications Customer Engagement et accédez à **Paramètres** \> **Paramètres de personnalisation**. Puis, sur l’onglet **Général**, configurez le paramètre de fuseau horaire pour le compte d’administrateur système. Le fuseau horaire doit être en temps universel coordonné (UTC) pour mettre à jour les dates « valide à partir de » et « valide jusqu’au » des adresses postales à partir des applications Finance and Operations.
+1. Connectez-vous aux applications Customer Engagement et accédez à **Paramètres** \> **Paramètres de personnalisation**. Puis, sur l’onglet **Général**, configurez le paramètre de fuseau horaire pour le compte d’administrateur système. Le fuseau horaire doit être en temps universel coordonné (UTC) pour mettre à jour les dates « valide à partir de » et « valide jusqu’au » des adresses postales à partir des applications Finances et Opérations.
 
     ![Paramètre de fuseau horaire pour le compte d’administrateur système.](media/ADF-1.png)
 
 2. Dans Data Factory, sur l’onglet **Gérer**, sous **Paramètres globaux**, créez le paramètre global suivant.
 
-    | Nombre | Name | Type | Valeur  |
+    | Nombre | Name | Type | Valeur |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses postales nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses postales dans les applications Finance and Operations et Customer Engagement. Pour cet exemple, utilisez **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses postales nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses postales dans les applications Finances et Opérations et les applications d’engagement client. Pour cet exemple, utilisez **ADF-PAD-**. |
 
     ![Paramètre global PostalAddressIdPrefix créé dans l’onglet Gérer.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
     | Nombre | Name | Type | Valeur |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Ce paramètre détermine quelles adresses système principales sont remplacées en cas de conflit. Si la valeur est **true**, les adresses principales dans les applications Finance and Operations remplaceront les adresses principales dans les applications Customer Engagement. Si la valeur est **false**, les adresses principales dans les applications Customer Engagement remplaceront les adresses principales dans les applications Finance and Operations. |
-    | 2 | ElectronicAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses électroniques nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses électroniques dans les applications Finance and Operations et Customer Engagement. Pour cet exemple, utilisez **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Ce paramètre détermine quelles adresses système principales sont remplacées en cas de conflit. Si la valeur est **true**, les adresses principales dans les applications Finances et Opérations remplaceront les adresses principales dans les applications d’engagement client. Si la valeur est **false**, les adresses principales dans les applications d’engagement client remplaceront les adresses principales dans les applications Finances et Opérations. |
+    | 2 | ElectronicAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses électroniques nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses électroniques dans les applications Finances et Opérations et les applications d’engagement client. Pour cet exemple, utilisez **ADF-EAD-**. |
 
     ![Paramètres globaux IsFOSource et ElectronicAddressIdPrefix créés dans l’onglet Gérer.](media/ADF-4.png)
 
@@ -151,7 +151,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
 ## <a name="run-the-templates"></a>Exécution des modèles
 
-1. Arrêtez les mappages de double écriture de **Compte**, **Contact** et **Fournisseur** qui utilisent l’application Finance and Operations :
+1. Arrêtez les mappages de double écriture de **Compte**, **Contact** et **Fournisseur** qui utilisent l’application Finances et Opérations :
 
     + Clients V3 (accounts)
     + Clients V3 (contacts)
@@ -161,7 +161,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
 2. Assurez-vous que les cartes sont supprimées de la table **msdy_dualwriteruntimeconfig** dans Dataverse.
 3. Installez [Solutions de double écriture pour les Carnets d’adresses global et de partie](https://aka.ms/dual-write-gab) à partir de AppSource.
-4. Dans l’application Finance and Operations, exécutez la **Synchronisation initiale** pour les tables suivantes si elles contiennent des données.
+4. Dans l’application Finances et Opérations, exécutez la **Synchronisation initiale** si les tables suivantes contiennent des données :
 
     + Salutations
     + Type de caractère personnel
@@ -261,10 +261,10 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
     > [!NOTE]
     > Si vous avez des personnalisations pour **Compte**, **Contact** et **Fournisseur**, vous devez modifier le modèle.
 
-8. Importez les nouveaux enregistrements **Partie** dans l’application Finance and Operations.
+8. Importez les nouveaux enregistrements **Partie** dans l’application Finances et Opérations.
 
     1. Téléchargez le fichier **FONewParty.csv** à partir du stockage blob Azure. Le chemin est **partybootstrapping/output/FONewParty.csv**.
-    2. Convertissez le fichier **FONewParty.csv** en fichier Excel et importez le fichier Excel dans l’application Finance and Operations. Si l’importation CSV fonctionne pour vous, vous pouvez importer le fichier .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données. Pour plus d’informations, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../data-import-export-job.md).
+    2. Convertissez le fichier **FONewParty.csv** en fichier Excel et importez le fichier Excel dans l’application Finances et Opérations. Si l’importation CSV fonctionne pour vous, vous pouvez importer le fichier .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données. Pour plus d’informations, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../data-import-export-job.md).
 
     ![Importation des enregistrements de partie Dataverse.](media/data-factory-import-party.png)
 
@@ -275,7 +275,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
     ![Exécution des modèles d’adresse postale et d’adresse électronique de partie.](media/ADF-7.png)
 
-10. Pour mettre à jour l’application Finance and Operations avec ces données, vous devez convertir les fichiers .csv dans un classeur Excel et les [importer dans l’application Finance and Operations](/data-entities/data-import-export-job). Si l’importation CSV fonctionne pour vous, vous pouvez importer les fichiers .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données.
+10. Pour mettre à jour l’application Finances et Opérations avec ces données, vous devez convertir les fichiers .csv en classeur Excel et [les importer dans l’application Finances et Opérations](/data-entities/data-import-export-job). Si l’importation CSV fonctionne pour vous, vous pouvez importer les fichiers .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données.
 
     ![Importation réussie.](media/ADF-8.png)
 
@@ -358,9 +358,9 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 ### <a name="steps-in-the-party-template"></a>Étapes du modèle Partie
 
 1. Les étapes 1 à 6 identifient les entreprises qui sont activées pour la double écriture et créent une clause de filtre pour elles.
-2. Les étapes 7-1 à 7-9 récupèrent les données à la fois de l’application Finance and Operations et de l’application Customer Engagement, et préparent ces données pour la mise à niveau.
-3. Les étapes 8 à 9 comparent le numéro de partie pour les enregistrements de **Compte**, **Contact**, et **Fournisseur** entre l’application Finance and Operations et Customer Engagement. Les enregistrements qui n’ont pas de numéro de partie sont ignorés.
-4. L’étape 10 génère deux fichiers .csv pour les enregistrements de partie qui doivent être créés dans l’application Customer Engagement et l’application Finance and Operations.
+2. Les étapes 7-1 à 7-9 récupèrent les données à la fois de l’application Finances et Opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
+3. Les étapes 8 à 9 comparent le numéro de partie pour les enregistrements **Compte**, **Contact** et **Fournisseur** entre l’application Finances et Opérations et l’application d’engagement client. Les enregistrements qui n’ont pas de numéro de partie sont ignorés.
+4. L’étape 10 génère deux fichiers .csv pour les enregistrements de partie qui doivent être créés dans l’application d’engagement client et l’application Finances et Opérations.
 
     - **FOCDSParty.csv** : Ce fichier contient tous les enregistrements de partie des deux systèmes, que l’entreprise soit ou non activée pour la double écriture.
     - **FONewParty.csv** : ce fichier contient un sous-ensemble des enregistrements de partie connus de Dataverse (par exemple, les comptes de type **Prospect**).
@@ -376,11 +376,11 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Étapes du modèle d’adresse postale de partie.
 
-1. Les étapes 1-1 à 1-10 récupèrent les données à la fois de l’application Finance and Operations et de l’application Customer Engagement, et préparent ces données pour la mise à niveau.
-2. L’étape 2 dénormalise les données d’adresse postale dans l’application Finance and Operations en joignant l’adresse postale et l’adresse postale de partie.
+1. Les étapes 1-1 à 1-10 récupèrent les données à la fois de l’application Finances et Opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
+2. L’étape 2 dénormalise les données d’adresse postale dans l’application Finances et Opérations en joignant l’adresse postale et l’adresse postale de partie.
 3. L’étape 3 déduplique et fusionne les données de compte, de contact et d’adresse du fournisseur à partir de l’application Customer Engagement.
-4. L’étape 4 crée des fichiers .csv pour l’application Finance and Operations pour créer de nouvelles données d’adresse basées sur les adresses de compte, de contact et de fournisseur.
-5. L’étape 5-1 crée des fichiers .csv pour l’application Customer Engagement afin de créer toutes les données d’adresse, en fonction de l’application Finance and Operations et de l’application Customer Engagement.
+4. L’étape 4 crée des fichiers .csv pour l’application Finances et Opérations pour créer de nouvelles données d’adresse basées sur les adresses de compte, de contact et de fournisseur.
+5. L’étape 5-1 crée des fichiers .csv pour l’application Customer Engagement afin de créer toutes les données d’adresse, en fonction de l’application Finances et Opérations et de l’application d’engagement client.
 6. L’étape 5-2 convertit les fichiers .csv dans le format d’importation Finance and Operations pour l’importation manuelle.
 
     - ImportFONewPostalAddressLocation.csv
@@ -395,13 +395,13 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Étapes du modèle d’adresse électronique de partie.
 
-1. Les étapes 1-1 à 1-5 récupèrent les données à la fois de l’application Finance and Operations et de l’application Customer Engagement, et préparent ces données pour la mise à niveau.
+1. Les étapes 1-1 à 1-5 récupèrent les données à la fois de l’application Finances et Opérations et de l’application d’engagement client, et préparent ces données pour la mise à niveau.
 2. L’étape 2 consolide les adresses électroniques dans l’application Customer Engagement à partir des entités de compte, de contact et de fournisseur.
-3. L’étape 3 fusionne les données d’adresse électronique principales de l’application Customer Engagement et de l’application Finance and Operations.
+3. L’étape 3 fusionne les données d’adresse électronique principales de l’application d’engagement client et de l’application Finances et Opérations.
 4. L’étape 4 crée des fichiers .csv.
 
-    - Créez de nouvelles données d’adresse électronique pour l’application Finance and Operations, en fonction des adresses de compte, de contact et de fournisseur.
-    - Créez de nouvelles données d’adresse électronique pour l’application Customer Engagement, en fonction de l’adresse électronique, du compte, des adresses de contact et de fournisseur dans l’application Finance and Operations.
+    - Créez de nouvelles données d’adresse électronique pour l’application Finances et Opérations, en fonction des adresses de compte, de contact et de fournisseur.
+    - Créez de nouvelles données d’adresse électronique pour l’application d’engagement client, en fonction de l’adresse électronique, du compte, des adresses de contact et de fournisseur dans l’application Finances et Opérations.
 
 5. L’étape 5-1 importe les adresses électroniques dans l’application Customer Engagement.
 6. L’étape 5-2 crée des fichiers .csv pour mettre à jour les adresses principales des comptes et des contacts dans l’application Customer Engagement.
