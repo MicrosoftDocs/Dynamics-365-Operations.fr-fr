@@ -96,13 +96,11 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (janvier 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: "Commerce\_10.0.22 (novembre\_2021)"
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Fonctionnalités supprimées ou obsolètes dans Finance and Operations
+                    - name: Fonctions supprimées ou obsolètes dans Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
@@ -194,13 +192,13 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
             - name: Gestion du cycle de vie de l’implémentation
               items:
-                - name: Page d’accueil de gestion du cycle de vie de l’implémentation
+                - name: Page d'accueil de gestion du cycle de vie de l'implémentation
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Architecture des applications Finance and Operations
+                - name: Architecture des applis Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
                   href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
-                - name: Intégrer un projet d’implémentation
+                - name: Intégrer un projet d'implémentation
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Planification de l’environnement
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
@@ -222,7 +220,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Implémenter des projets Finance and Operations Commerce
+                - name: Implémentation de projets Finance and Operations Commerce
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Paramétrer de nouveaux environnements, Azure DevOps et branches pour les projets'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Activation de la publication manuelle des évaluations et des avis par un modérateur
                   href: manual-publish-rating-reviews.md
+                - name: Importation et exportation des évaluations et des avis
+                  href: import-export-reviews.md
+                - name: Configurer l’authentification service à service
+                  href: service-to-service-auth.md
                 - name: FAQ sur les évaluations et avis
                   href: ratings-reviews-faq.md
             - name: Gestion de votre stock
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Ajouter une icône de favori
                       href: add-favicon.md
-                    - name: Ajouter un message de bienvenue
-                      href: add-welcome-message.md
                     - name: Ajouter un avis de droits d’auteur
                       href: add-copyright-notice.md
                     - name: Ajouter des langues
@@ -2180,7 +2180,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Implémenter une source ER personnalisée de documents entrants
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
-        - name: "Application mobile Finance and Operations (Dynamics\_365)"
+        - name: Application mobile Finance and Operations (Dynamics 365)
           items:
             - name: Page d’accueil Application mobile
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
