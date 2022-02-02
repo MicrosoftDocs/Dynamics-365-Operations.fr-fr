@@ -2,7 +2,7 @@
 title: Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
 description: Cette rubrique décrit la création de commandes basée sur un flux en continu pour les transactions en magasin dans Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921243"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964627"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
 
 [!include [banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 Commerce version 10.0.5 et versions ultérieures, nous vous recommandons de faire passer tous les processus de validation des relevés aux processus de validation des relevés basés sur un flux en continu. Des performances et des avantages commerciaux importants sont associés à l’utilisation de la fonctionnalité de flux en continu. Les transactions de vente sont traitées tout au long de la journée. Les opérations d’appel d’offres et de gestion de trésorerie sont traitées sur le tableau d’analyse en fin de journée. La fonctionnalité de flux en continu permet le traitement continu des commandes client, des factures et des paiements. Par conséquent, les stocks, les revenus et les paiements peuvent être mis à jour et reconnus en temps quasi réel.
+Dans Microsoft Dynamics 365 Commerce version 10.0.5 et versions ultérieures, nous vous recommandons de faire passer tous les processus de validation des relevés aux processus de validation des relevés basés sur un flux en continu. Des performances et des avantages commerciaux importants sont associés à l’utilisation de la fonctionnalité de flux en continu. Les transactions de vente sont traitées tout au long de la journée. Les opérations d’appel d’offres et de gestion de trésorerie sont traitées sur le tableau d’analyse en fin de journée. La fonctionnalité de flux en continu permet le traitement continu des commandes client, des factures et des paiements. Par conséquent, les stocks, les revenus et les paiements sont mis à jour et reconnus en temps quasi réel.
 
 ## <a name="use-trickle-feed-based-posting"></a>Utilisation de la validation basée sur un flux en continu
 
@@ -47,6 +47,10 @@ Planifiez les tâches suivantes pour qu’elles s’exécutent à une fréquence
 ### <a name="financial-statements"></a>Tableaux d’analyse
 
 Le traitement du tableau d’analyse est censé être un processus de fin de journée. Ce type de traitement des relevés ne prend en charge que la méthode de clôture **Équipe** et ne prélève que les équipes fermées. Les relevés se limitent au rapprochement financier. Ils créent uniquement les journaux pour les montants de différence entre le montant calculé et le montant de la transaction pour les différents modes de paiement, ainsi que les journaux pour d’autres transactions de gestion des disponibilités.
+
+Les tableaux d’analyse permettent également de vérifier les transactions suivantes : transactions de comptage de caisse, transactions de paiement, transactions de paiement remises en banque et transactions de paiements remises en coffre-fort. La page de détails sur les offres est uniquement visible lorsqu’un tableau d’analyse est sélectionné.
+
+![Image affichant la section des détails sur les offres du formulaire des relevés validés uniquement lorsqu’un tableau d’analyse est sélectionné.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Planifiez les heures de début et de fin des tâches de tableau d’analyse suivantes en fonction de la fin de journée prévue :
 
