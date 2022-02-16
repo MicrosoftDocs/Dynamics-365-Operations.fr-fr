@@ -2,7 +2,7 @@
 title: Valider les transactions du magasin pour le calcul du relevé
 description: Cette rubrique décrit la fonctionnalité de validation des transactions en magasin dans Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924769"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087447"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Valider les transactions du magasin pour le calcul du relevé
 
@@ -51,9 +51,9 @@ Le processus de traitement par lots **Valider les transactions en magasin** vér
 
 Le tableau suivant répertorie les règles de validation des en-têtes de transaction qui sont vérifiées par rapport à l’en-tête des transactions de vente au détail avant que ces transactions ne soient transmises à la validation des relevés.
 
-| Titre | Description |
+| Règle | Description |
 |-------|-------------|
-| Date d’entreprise | Cette règle valide que la date commerciale de la transaction est associée à une période fiscale ouverte dans la comptabilité. |
+| Date commerciale | Cette règle valide que la date commerciale de la transaction est associée à une période fiscale en cours dans la comptabilité. |
 | Arrondi des devises | Cette règle valide que les montants des transactions sont arrondis selon la règle d’arrondi des devises. |
 | Compte client | Cette règle valide que le client utilisé dans la transaction existe dans la base de données. |
 | Montant de la remise | Cette règle valide que le montant de la remise dans l’en-tête est égal à la somme des montants des remises sur les lignes. |
@@ -70,9 +70,9 @@ Le tableau suivant répertorie les règles de validation des en-têtes de transa
 
 ### <a name="transaction-line-validation-rules"></a>Règles de validation des lignes de transaction
 
-Le tableau suivant répertorie les règles de validation des lignes de transaction qui sont vérifiées par rapport aux détails des lignes des transactions de vente au détail avant que ces transactions ne soient transmises à la validation des relevés.
+Le tableau suivant répertorie les règles de validation des lignes de transaction qui sont vérifiées par état aux détails des lignes des transactions de vente au détail avant que ces transactions ne soient transmises à la validation des relevés.
 
-| Titre | Description |
+| Règle | Description |
 |-------|-------------|
 | Code-barres | Cette règle valide que tous les codes-barres d’articles utilisés sur les lignes de transaction existent dans la base de données. |
 | Lignes de frais | Cette règle valide que la somme du montant calculé et du montant de taxe exonérée des lignes de frais est égale au montant calculé d’origine. |
@@ -85,7 +85,7 @@ Le tableau suivant répertorie les règles de validation des lignes de transacti
 | Dimension numéro de série | Cette règle valide qu’aucun numéro de série n’est fourni si la dimension du numéro de série de l’article est inactive. |
 | Contradiction de signe | Cette règle valide que le signe de la quantité et celui du montant net sont identiques sur toutes les lignes de transaction. |
 | Exonération de taxe | Cette règle valide que la somme du prix de l’article de ligne et du montant de taxe exonérée est égale au prix d’origine. |
-| Affectation du groupe de taxe | Cette règle valide que la combinaison du groupe de taxe de vente et du groupe de taxe d’article produit une intersection de taxe valide. |
+| Affectation du groupe de taxe | Cette règle valide que la combinaison du groupe de taxe et du groupe de taxe d’article produit une intersection de taxe valide. |
 | Conversions de l’unité de mesure | Cette règle valide que l’unité de mesure de toutes les lignes a une conversion valide en unité de mesure d’inventaire. |
 
 ## <a name="enable-the-store-transaction-validation-process"></a>Activer le processus de validation des transactions en magasin

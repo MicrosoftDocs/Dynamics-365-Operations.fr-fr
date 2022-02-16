@@ -1,32 +1,34 @@
-- name: Développement et administration des applications Finance and Operations
+- name: Développement et administration des applications de finances et d’opérations
   items:
-    - name: Développement et administration des applications Finance and Operations
+    - name: Développement et administration des applications de finances et d’opérations
       items:
-        - name: Documentation des applications Finance and Operations
+        - name: Documentation des applications de finances et d’opérations
           href: ../fin-ops/index.md
-        - name: Développement et administration des applications Finance and Operations
+        - name: Développement et administration des applications de finances et d’opérations
           href: index.md
         - name: Nouveautés ou modifications
           items:
-            - name: Nouveautés ou modifications dans les applications Finance and Operations
+            - name: Nouveautés ou modifications dans les applications de finances et d’opérations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nouveautés ou modifications dans les mises à jour de la plateforme
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
+                - name: "Mises à jour de la plateforme pour la version\_10.0.25 (avril\_2022)"
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.24 (février\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.23 (janvier\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-23.md
-            - name: Fonctionnalités supprimées ou obsolètes
+            - name: Fonctions supprimées ou déconseillées
               items:
-                - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
+                - name: Page d’accueil des fonctions supprimées ou déconseillées
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-                - name: Fonctionnalités de la plateforme supprimées ou obsolètes
+                - name: Fonctions de la plateforme supprimées ou déconseillées
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
+                - name: Fonctions supprimées ou déconseillées dans les versions précédentes
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
+            - name: "Fonctions d’AX\_2012 ayant été reportées"
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -46,7 +48,7 @@
               href: dev-tools/version-models-build.md
         - name: Intégration de données
           items:
-            - name: Intégration entre les applications Finance and Operations et des services tiers
+            - name: Intégration entre les applications de finances et d’opérations et des services tiers
               href: data-entities/integration-overview.md
             - name: Limitation basée sur la priorité
               hreF: data-entities/priority-based-throttling.md
@@ -188,7 +190,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Importation des justificatifs à l’aide de l’entité du journal des opérations diverses
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Optimisation de la migration des données pour les applications Finance and Operations
+                - name: Optimisation de la migration des données pour les applications de finances et d’opérations
                   href: sysadmin/optimize-data-migration.md
             - name: Développement d’entités de données
               items:
@@ -234,7 +236,7 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Installer le complément Exporter vers Azure Data Lake
               href: data-entities/configure-export-data-lake.md
-            - name: Applications Finance and Operations dans Azure Data Lake
+            - name: applications de finances et d’opérations dans Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Rendre le magasin des entités disponible en tant que Data Lake
               href: data-entities/entity-store-data-lake.md
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Désinstaller un package
                   href: deployment/uninstall-deployable-package.md
+                - name: Exécuter des scripts X++ personnalisés sans aucun temps d’arrêt
+                  href: deployment/run-custom-scripts.md
                 - name: Résoudre les problèmes d’application de package
                   href: deployment/deployable-package-troubleshooting.md
             - name: Déployer l’aide personnalisée
@@ -466,7 +470,7 @@
                   href: deployment/us-gcc-deployment.md
                 - name: Finance et Supply Chain Management exploitées par 21Vianet en Chine
                   href: deployment/china-local-deployment.md
-                - name: Applications Finance and Operations en France
+                - name: Applications de finances et d’opérations en France
                   href: deployment/france-local-deployment.md
         - name: Développer et personnaliser
           items:
@@ -544,7 +548,7 @@
                       href: dev-tools/create-data-model-elements.md
                     - name: Instructions de dénomination pour les extensions
                       href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
-                    - name: Désactiver la personnalisation de modèle et les fonctionnalités obsolètes
+                    - name: Désactiver la personnalisation de modèle et les fonctions déconseillées
                       href: dev-tools/lock-models.md
                 - name: État d’analyse de la personnalisation
                   href: dev-tools/customization-analysis-report.md
@@ -696,7 +700,7 @@
               items:
                 - name: Page d’accueil Extensibilité
                   href: extensibility/extensibility-home-page.md
-                - name: Introduction et mise en route
+                - name: Introduction et démarrage
                   items:
                     - name: Plan d’extensibilité d’applications
                       href: extensibility/extensibility-roadmap.md
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: Filtrage SysTest à l’aide des attributs de classe et de méthode
                   href: perf-test/systest-filtering.md
+                - name: Attribut SysTestRow pour tester plusieurs valeurs
+                  href: perf-test/systest-row.md
                 - name: Bibliothèque de tests d’acceptation
                   items:
                     - name: Ressources de la bibliothèque de tests d’acceptation
@@ -924,7 +930,7 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: RESTful API
                   items:
-                    - name: Démarrer et arrêter les environnements
+                    - name: Démarrage et arrêter les environnements
                       href: lifecycle-services/api/v1/reference-start-stop-environments.md
                     - name: Extraire les métadonnées d’environnement
                       href: lifecycle-services/api/v1/reference-environment-metadata.md
@@ -1042,9 +1048,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: "Configuration en double écriture depuis Lifecycle\_Services"
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Activer la double écriture pour les applications Finance and Operations existantes
+                    - name: Activer la double écriture pour les applications de finances et d’opérations existantes
                       items:
-                        - name: Activer la double écriture pour les applications Finance and Operations existantes
+                        - name: Activer la double écriture pour les applications de finances et d’opérations existantes
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Configuration système et conditions préalables
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1156,15 +1162,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Résoudre les problèmes de synchronisation en direct
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Résoudre les problèmes liés à la double écriture dans les applications Finance and Operations
+                        - name: Résoudre les problèmes liés à la double écriture dans les applications de finances et d’opérations
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Résoudre les problèmes de carnet d’adresses global et de partie
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Résoudre les problèmes liés à la prise en charge de la solution
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
+                        - name: Résoudre les problèmes liés aux mises à niveau des applications de finances et d’opérations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Vérifier la configuration en double écriture dans les applications Finance and Operations et Dataverse
+                        - name: Vérifier la configuration en double écriture dans les applications de finances et d’opérations et Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Codes d’erreur pour le contrôle d’intégrité des mises en correspondance de table
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1194,7 +1200,7 @@
                   href: business-events/managing-business-event-endpoints.md
                 - name: Événements commerciaux d’application
                   href: business-events/app-business-events.md
-                - name: Événements commerciaux de flux de travail
+                - name: Événements commerciaux de workflow
                   href: business-events/business-events-workflow.md
                 - name: Événements commerciaux de traitement par lots
                   href: business-events/system-business-events.md
@@ -1220,7 +1226,7 @@
                       href: business-events/how-to/how-to-servicebus.md
                     - name: File d’attente Événements commerciaux et Azure Service Bus
                       href: business-events/how-to/how-to-servicebus-queue.md
-                    - name: Événements commerciaux et approbations de flux de travail
+                    - name: Événements commerciaux et approbations de workflow
                       href: business-events/how-to/how-to-workflow.md
                     - name: Événements commerciaux et Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
@@ -1240,9 +1246,9 @@
           items:
             - name: Ressources de la plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Démarrer
+            - name: Démarrage
               items:
-                - name: Mise en route de la plateforme mobile
+                - name: Démarrage de la plateforme mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Remarques relatives à l’architecture et à la conception
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1532,9 +1538,9 @@
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: Obtenir de l’aide sur Finance and Operations exploité par 21Vianet en Chine
               href: lifecycle-services/21vianet-support.md
-            - name: Configurer le support technique pour les applications Finance and Operations
+            - name: Configurer le support technique pour les applications de finances et d’opérations
               href: lifecycle-services/support-experience.md
-            - name: Gérer les expériences d’assistance pour les applications Finance and Operations
+            - name: Gérer les expériences d’assistance pour les applications de finances et d’opérations
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Prise en charge et suivi de la production
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1562,7 +1568,7 @@
                   href: sysadmin/role-based-security.md
                 - name: Architecture de sécurité
                   href: sysadmin/security-architecture.md
-                - name: Chiffrement dans les applications Finance and Operations
+                - name: Chiffrement dans les applications de finances et d’opérations
                   href: sysadmin/encryption.md
                 - name: Définir le délai d’inactivité de session
                   href: sysadmin/session-idle-timeout.md
@@ -1684,7 +1690,7 @@
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
                     - name: Modèle de données de planification de ressources projet
                       href: migration-upgrade/data-model-changes-resource-management.md
-                    - name: Modifications d’un sous-système de flux de travail
+                    - name: Modifications d’un sous-système de workflow
                       href: migration-upgrade/workflow-subsystem.md
                     - name: Modèles regroupés utilisés à la place de cubes pour l’analyse
                       href: migration-upgrade/in-memory-real-time-aggregate-models.md
@@ -1762,11 +1768,11 @@
                   href: dev-tools/update-development-tools.md
             - name: Obsolescences
               items:
-                - name: Fonctionnalités supprimées ou obsolètes
+                - name: Fonctions supprimées ou déconseillées
                   href: migration-upgrade/deprecated-features.md
                 - name: Obsolescence des méthodes et des éléments de métadonnées
                   href: migration-upgrade/deprecation-deletion-apis.md
-                - name: API obsolètes
+                - name: API déconseillées
                   href: migration-upgrade/deprecated-apis.md
         - name: Développement de l’interface utilisateur
           items:
