@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568373"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061307"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les ordres d’exécution dans Dynamics 365 Field Service vers la commande client dans Dynamics 365 Supply Chain Management.
 
@@ -53,7 +53,7 @@ Le modèle **ordres de travail sur Commandes client (Field Service à Supply Cha
 Les tâches suivantes de synchronisation sont requises avant que la synchronisation des en-têtes et des lignes de commande client puisse avoir lieu :
 
 - Produits Field Service (Supply Chain Management vers Field Service)
-- Comptes (Sales vers Supply Chain Management) - Direct
+- Comptes (Sales vers Supply Chain Management) – Direct
 
 ## <a name="entity-set"></a>Ensemble d’entités
 
@@ -65,7 +65,7 @@ Les tâches suivantes de synchronisation sont requises avant que la synchronisat
 
 ## <a name="entity-flow"></a>Flux d’entité
 
-Les ordres d’exécution sont créés dans Field Service. Si les ordres de travail incluent uniquement des produits conservés en externe, et si la valeur de **Statut des ordres de travail** est différente de **En cours - Non planifié** et **Clôturé - Annulé**, les ordres de travail peuvent être synchronisés sur Supply Chain Management via un projet d’intégration de données Microsoft Dataverse. Les mises à jour sur les ordres de travail sont synchronisés comme commandes client dans Supply Chain Management. Ces mises à jour incluent les informations sur le type et le statut d’origine.
+Les ordres d’exécution sont créés dans Field Service. Si les ordres de travail incluent uniquement des produits conservés en externe, et si la valeur de **Statut des ordres de travail** est différente de **En cours – Non planifié** et **Clôturé – Annulé**, les ordres de travail peuvent être synchronisés sur Supply Chain Management via un projet d’intégration de données Microsoft Dataverse. Les mises à jour sur les ordres de travail sont synchronisés comme commandes client dans Supply Chain Management. Ces mises à jour incluent les informations sur le type et le statut d’origine.
 
 ## <a name="estimated-versus-used"></a>Estimé versus Utilisé
 
@@ -87,35 +87,35 @@ Le tableau suivant fournit une vue d’ensemble des différentes combinaisons po
 
 | Statut du système <br>(Field Service) | Statut de ligne <br>(Field Service) | Affecté <br>(Field Service) |Valeur synchronisée <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
-| En cours - Planifié   | Estimé   | Oui       | Estimé                       |
-| En cours - Planifié   | Estimé   | Non        | Utilisé(e)                            |
-| En cours - Planifié   | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| En cours - Planifié   | Utilisé(e)        | Non        | Utilisé(e)                            |
-| En cours - En cours | Estimé   | Oui       | Estimé                       |
-| En cours - En cours | Estimé   | Non        | Utilisé(e)                            |
-| En cours - En cours | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| En cours - En cours | Utilisé(e)        | Non        | Utilisé(e)                            |
-| En cours - Terminé   | Estimé   | Oui       | Estimé                       |
-| En cours - Terminé   | Estimé   | Non        | Utilisé(e)                            |
-| En cours - Terminé   | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| En cours - Terminé   | Utilisé(e)        | Non        | Utilisé(e)                            |
-| Clôturé - Validé    | Estimé   | Oui       | Utilisé(e)                            |
-| Clôturé - Validé    | Estimé   | Non        | Utilisé(e)                            |
-| Clôturé - Validé    | Utilisé(e)        | Oui       | Utilisé(e)                            |
-| Clôturé - Validé    | Utilisé(e)        | Non        | Utilisé(e)                            |
+| En cours – Planifié   | Estimé   | Oui       | Estimé                       |
+| En cours – Planifié   | Estimé   | Non        | Utilisé(e)                            |
+| En cours – Planifié   | Utilisé(e)        | Oui       | Utilisé(e)                            |
+| En cours – Planifié   | Utilisé(e)        | Non        | Utilisé(e)                            |
+| En cours – En cours | Estimé   | Oui       | Estimé                       |
+| En cours – En cours | Estimé   | Non        | Utilisé(e)                            |
+| En cours – En cours | Utilisé(e)        | Oui       | Utilisé(e)                            |
+| En cours – En cours | Utilisé(e)        | Non        | Utilisé(e)                            |
+| En cours – Terminé   | Estimé   | Oui       | Estimé                       |
+| En cours – Terminé   | Estimé   | Non        | Utilisé(e)                            |
+| En cours – Terminé   | Utilisé(e)        | Oui       | Utilisé(e)                            |
+| En cours – Terminé   | Utilisé(e)        | Non        | Utilisé(e)                            |
+| Clôturé – Validé    | Estimé   | Oui       | Utilisé(e)                            |
+| Clôturé – Validé    | Estimé   | Non        | Utilisé(e)                            |
+| Clôturé – Validé    | Utilisé(e)        | Oui       | Utilisé(e)                            |
+| Clôturé – Validé    | Utilisé(e)        | Non        | Utilisé(e)                            |
 
 Le tableau suivant fournit une vue d’ensemble des différentes combinaisons pour les lignes de services.
 
 | Statut du système <br>(Field Service) | Statut de ligne <br>(Field Service) | Valeur synchronisée <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|
-| En cours - Planifié   | Estimé   | Estimé |
-| En cours - Planifié   | Utilisé(e)        | Utilisé(e)      |
-| En cours - En cours | Estimé   | Estimé |
-| En cours - En cours | Utilisé(e)        | Utilisé(e)      |
-| En cours - Terminé   | Estimé   | Estimé |
-| En cours - Terminé   | Utilisé(e)        | Utilisé(e)      |
-| Clôturé - Validé    | Estimé   | Utilisé(e)      |
-| Clôturé - Validé    | Utilisé(e)        | Utilisé(e)      |
+| En cours – Planifié   | Estimé   | Estimé |
+| En cours – Planifié   | Utilisé(e)        | Utilisé(e)      |
+| En cours – En cours | Estimé   | Estimé |
+| En cours – En cours | Utilisé(e)        | Utilisé(e)      |
+| En cours – Terminé   | Estimé   | Estimé |
+| En cours – Terminé   | Utilisé(e)        | Utilisé(e)      |
+| Clôturé – Validé    | Estimé   | Utilisé(e)      |
+| Clôturé – Validé    | Utilisé(e)        | Utilisé(e)      |
 
 La synchronisation des valeurs **Estimé** comparées aux valeurs **Utilisé** est gérée via les deux ensembles de tâches pour les lignes de produit et les lignes de service. Les filtres prédéfinis déclenchent la tâche appropriée, et la mise en correspondance sous-jacentes garantit que les valeurs correctes pour **Prévu** et **Utilisé** sont synchronisées.
 
@@ -123,7 +123,7 @@ La synchronisation des valeurs **Estimé** comparées aux valeurs **Utilisé** e
 
 1. Un ordre d’exécution est créé et planifié dans Field Service.
 
-    La valeur **Statut du système** est **En cours - Planifié**.
+    La valeur **Statut du système** est **En cours – Planifié**.
 
     - **Ligne de produit :** Qté estimée = 5ea, Qté utilisée = 0ea, Statut de ligne = Estimé, Affecté = Non
     - **Ligne service :** Qté estimée = 2 h, Qté utilisée = 0 h, Statut de ligne = Estimé
@@ -132,7 +132,7 @@ La synchronisation des valeurs **Estimé** comparées aux valeurs **Utilisé** e
 
 2. Les produits sont affectés dans Field Service.
 
-    La valeur **Statut du système** est **En cours - Planifié**.
+    La valeur **Statut du système** est **En cours – Planifié**.
 
     - **Ligne de produit :** Qté estimée = 5ea, Qté utilisée = 0ea, Statut de ligne = Estimé, Affecté = Oui
     - **Ligne service :** Qté estimée = 2 h, Qté utilisée = 0 h, Statut de ligne = Estimé
@@ -141,7 +141,7 @@ La synchronisation des valeurs **Estimé** comparées aux valeurs **Utilisé** e
 
 3. Les technicien de service commence à utiliser l’ordre d’exécution et enregistre une utilisation des matières de 6.
 
-    La valeur **Statut du système** est **En cours - En cours**.
+    La valeur **Statut du système** est **En cours – En cours**.
 
     - **Ligne de produit :** Qté estimée = 5ea, Qté utilisée = 6ea, Statut de ligne = Utilisé, Affecté = Oui
     - **Ligne service :** Qté estimée = 2 h, Qté utilisée = 0 h, Statut de ligne = Estimé
@@ -150,7 +150,7 @@ La synchronisation des valeurs **Estimé** comparées aux valeurs **Utilisé** e
 
 4. Le technicien de service renseigne l’ordre d’exécution et enregistre la durée utilisée de 1,5 heure.
 
-    La valeur **Statut du système** est **En cours - Terminé**.
+    La valeur **Statut du système** est **En cours – Terminé**.
 
     - **Ligne de produit :** Qté estimée = 5ea, Qté utilisée = 6ea, Statut de ligne = Utilisé, Affecté = Oui
     - **Ligne service :** Qté estimée = 2 h, Qté utilisée = 1,5 h, Statut de ligne = Utilisé
@@ -173,10 +173,10 @@ Lorsque la commande client provient d’un ordre d’exécution, le champ **Stat
 
 Le champ **Statut de l’ordre d’exécution externe** peut avoir les valeurs suivantes :
 
-- En cours - Planifié
-- En cours - En cours
-- En cours - Terminé
-- Clôturé - Validé
+- En cours – Planifié
+- En cours – En cours
+- En cours – Terminé
+- Clôturé – Validé
 
 ## <a name="field-service-crm-solution"></a>Solution Field Service CRM
 
@@ -204,7 +204,7 @@ Le champ **A des produits mis à jour uniquement en externe** a été ajouté à
 - Le champ **Montant unitaire facturé** stocke le montant facturé par unité réelle utilisée. La valeur est calculée comme valeur de **Montant total** divisée par la valeur **Quantité réelle**. Ce champ est utilisé pour l’intégration dans des systèmes qui ne prennent pas en charge différentes valeurs de la quantité utilisée et de la quantité facturée. Le champ ne s’affiche pas dans l’IU.
 - Le champ **Montant de remise facturé** est calculé comme valeur de **Montant de remise** plus l’arrondi du calcul de la valeur du **Montant unitaire facturé**. Ce champ est utilisé pour l’intégration et n’apparaît pas dans l’IU.
 - Le champ **Ligne de commande externe** est un numéro de commande de ligne négatif calculé qui peut être utilisé dans les systèmes externes où les lignes de produit et service d’ordre d’exécution sont combinés. Ce champ permet aux produits d’ordre d’exécution qui sont insérés d’avoir des numéros de ligne positifs et aux services d’ordre d’exécution d’avoir des numéros de ligne négatifs. La valeur de ce champ est calculée comme valeur **Ordre de ligne** multipliée par -1. Ce champ ne s’affiche pas dans l’IU.
-- La valeur dans les champs **Utilisé** est réinitialisée sur **0** (zéro) si la valeur de **Statut de ligne** du service de l’ordre d’exécution est passée de **Utilisé** à **Estimé** pour une raison quelconque. Cette modification permet d’éviter des situations où une quantité utilisée qui est entrée par erreur est utilisée pour la synchronisation lorsque la valeur de **Statut de ligne** est **Estimé** et que la valeur **Statut système de l’en-tête** est **Clôturé - Validé**.
+- La valeur dans les champs **Utilisé** est réinitialisée sur **0** (zéro) si la valeur de **Statut de ligne** du service de l’ordre d’exécution est passée de **Utilisé** à **Estimé** pour une raison quelconque. Cette modification permet d’éviter des situations où une quantité utilisée qui est entrée par erreur est utilisée pour la synchronisation lorsque la valeur de **Statut de ligne** est **Estimé** et que la valeur **Statut système de l’en-tête** est **Clôturé – Validé**.
 
 ## <a name="preconditions-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -245,31 +245,31 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 
 Filtre : (msdyn_systemstatus ne 690970005) et (msdyn_systemstatus ne 690970000) et (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Mappage de modèle dans l'intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Mappage de modèle dans l’intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderServiceLineEstimate
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004)
 
-[![Mappage de modèle dans l'intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Mappage de modèle dans l’intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderServiceLineUsed
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004))
 
-[![Mappage de modèle dans l'intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Mappage de modèle dans l’intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderProductLineEstimate
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) et (msdyn_allocated eq true)
 
-[![Mappage de modèle dans l'intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Mappage de modèle dans l’intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Des ordres de travail vers les ordres Sales (Field Service vers Supply Chain Management) : WorkOrderProductLineUsed
 
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
 
-[![Mappage de modèle dans l'intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Mappage de modèle dans l’intégration de données pour les ordres de travail aux commandes (Field Service à Supply Chain Management) : WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

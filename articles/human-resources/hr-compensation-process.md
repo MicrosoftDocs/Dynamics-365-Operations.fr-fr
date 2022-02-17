@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484094"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071486"
 ---
 # <a name="process-compensation"></a>Traiter la rémunération
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Une fois que les paramètres de l’événement des traitements de données ont 
 
 Cliquez sur le bouton **Ajouter** sous l’onglet **Régimes** pour ajouter un régime de rémunération à l’événement de processus. Les colonnes **Utiliser un autre chiffre**, **Facteur de chiffre** et **Description du chiffre** sont utilisées uniquement pour les régimes de rémunération variable et ne doivent pas être inclus dans cette rubrique.
 
-Sauvegardez l’enregistrement, puis cliquez sur le bouton **Ajouter** sous l’onglet **Actions** pour ajouter des actions de rémunération fixe du régime sélectionné. Utilisez l’option **Activer les recommandations** pour entrer un montant différent de l’augmentation indicative calculée pour l’action. Pour calculer une action basée sur le résultat de l’action précédente pour lier plusieurs actions de compensation, cochez la case **Utiliser le résultat précédent**. Les actions de rémunération fixe sont des types de logique de rémunération auxquels vous pouvez donner des noms descriptifs. Pour les régimes Niveau et Structure, vous ne pouvez ajouter que les actions de rémunération fixe qui sont des types suivants :
+Sauvegardez l’enregistrement, puis cliquez sur le bouton **Ajouter** sous l’onglet **Actions** pour ajouter des actions de rémunération fixe du régime sélectionné. Utilisez l’option **Activer les recommandations** pour entrer un montant différent de l’augmentation indicative calculée pour l’action. Pour calculer une action basée sur le résultat de l’action précédente pour lier plusieurs actions de compensation, cochez la case **Utiliser le résultat précédent**. Les actions de rémunération fixe sont des types de logique de rémunération auxquels vous pouvez donner des noms descriptifs. Pour les régimes **Niveau** et **Structure**, vous ne pouvez ajouter que les actions de rémunération fixe qui sont des types suivants :
 
-| Type Action de rémunération fixe | Fonctionnalité                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Type Action de rémunération fixe | Fonctionnalité                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Capitaux propres                        | Les actions de capitaux propres compareront le taux de salaire de l’employé à partir de la date de fin de cycle avec le plus faible point de référence pour le niveau défini dans la tâche de l’employé. Si le taux du salaire de l’employé est inférieur au point de référence minimale, l’augmentation nécessaire pour que l’employé soit au point minimum de la plage est calculée.                                                                                |
 | Mérite                         | Les actions au mérite calculeront l’augmentation en fonction du taux de salaire de l’employé à partir de la date de fin de cycle et le pourcentage d’augmentation dans le budget d’augmentation fixe pour le département, le syndicat et le site de travail de l’employé.                                                                                                                                                                                         |
 | Général                       | Les actions générales calculeront une augmentation basée sur un pourcentage ou l’octroi aux employés d’un montant fixe. Cela est déterminé sur les paramètres de la **rémunération fixe** sous l’onglet **Général**.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Sauvegardez l’enregistrement, puis cliquez sur le bouton **Ajouter** sous l’
 
 Vous ne pouvez ajouter des actions de **rémunération fixe** avec un type de régime par étapes.
 
-| Type Action de rémunération fixe | Fonctionnalité                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Type Action de rémunération fixe | Fonctionnalité                |
+|--------------------------------|------------------------------|
 | Etape                           | Sous l’onglet **Général**, indiquez si cette action d’étape doit faire passer les employés à l’étape 0, à l’étape 1 ou aux deux étapes.                                                                                  |
 |                                | **Étapes 0** – L’employé reçoit le taux de salaire pour l’étape actuelle à laquelle il se situe.                                                                                                                      |
 |                                | **Étape 1** – Le système vérifie si l’employé est déjà au dernier point de référence pour son niveau.                                                                                             |
-|                                | **2 étapes** – Le système fera avancer l’employé de deux étapes par rapport à son niveau actuel. Le système ne peut que déplacer l’employé d’une ou de zéro étape s’il atteint le dernier point de référence pour son niveau. |
+|                                | **2 étapes** – L’employé avancera de deux étapes par rapport à son niveau actuel. L’employé ne peut que se déplacer d’une ou de zéro étape s’il atteint le dernier point de référence pour son niveau. |
 
 ## <a name="run-the-compensation-process"></a>Exécuter le processus de rémunération
 Une fois l’événement de processus paramétré avec les champs de date, de régimes et d’actions nécessaires, cliquez sur **Exécuter le processus** dans la page **Événement de processus** ; cela ouvre la boîte de dialogue **Exécuter les événements de processus de rémunération**. Cliquez sur l’option **Afficher les résultats du traitement** pour connaître le mode de calcul des montants de rémunération pour chaque employé. Cliquer sur **Ajouter** exécutera le processus de rémunération pour tous les employés affectés à des régimes de rémunération à la date de fin du cycle.

@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 70e42cbf657a28327699d927731edd36de7c4a64
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559507"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069755"
 ---
 # <a name="payroll-worker-address"></a>Adresse du collaborateur avec paie
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,8 +41,8 @@ Cette entité fournit le lieu de résidence de la paie et le lieu de travail de 
 | --- | --- | --- |
 | **Numéro personnel**</br>mshr_personnelnumber</br>*Chaîne* | Lecture seule | Numéro personnel unique du collaborateur. |
 | **ID emplacement**</br>mshr_locationidbr>*Chaîne* | Lecture seule | ID de l’adresse. |
-| **Adresse de résidence**</br>mshr_islivedinaddressbr </br> *[Ensemble d’options mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lecture seule | Une valeur qui indique si l'adresse est celle du lieu de résidence de l'employé. |
-| **Adresse de travail** </br> mshr_isworkedinaddressbr </br>*[Ensemble d’options mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lecture seule | Une valeur qui indique si l'adresse est celle du lieu de travail de l'employé. |
+| **Adresse de résidence**</br>mshr_islivedinaddressbr </br> *[Ensemble d’options mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lecture seule | Une valeur qui indique si l’adresse est celle du lieu de résidence de l’employé. |
+| **Adresse de travail** </br> mshr_isworkedinaddressbr </br>*[Ensemble d’options mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lecture seule | Une valeur qui indique si l’adresse est celle du lieu de travail de l’employé. |
 | **Pays ou région**</br>mshr_countryregionid</br>*Chaîne* | Lecture seule</br>Requis | Pays ou région qui est défini.e pour l’adresse. |
 | **Code postal**</br>mshr_zipcode<br>*Chaîne* | Lecture seule | Le numéro d’identification qui est défini pour le collaborateur. |
 | **Rue**</br>mshr_street</br>*Chaîne* | Lecture seule | Rue qui est définie pour l’adresse. |
@@ -47,9 +50,9 @@ Cette entité fournit le lieu de résidence de la paie et le lieu de travail de 
 | **Région**</br>mshr_state</br>*Chaîne* | Lecture seule | État ou province qui est défini.e pour l’adresse. |
 | **Département**</br>mshr_county</br>*Chaîne* | Lecture seule | Département qui est défini pour l’adresse. |
 | **Valide à partir du**</br>mshr_postaladdressvalidfrom</br>*Décalage de date et heure* | Lecture seule | Date à partir de laquelle l’adresse est valide. |
-| **Valide jusqu’au**</br>mshr_postaladdressvalidto</br>*Décalage de date et heure* | Lecture seule | Date jusqu'à laquelle l’adresse est valide. |
+| **Valide jusqu’au**</br>mshr_postaladdressvalidto</br>*Décalage de date et heure* | Lecture seule | Date jusqu’à laquelle l’adresse est valide. |
 | **Champ principal**</br>mshr_primaryfield</br>*Chaîne* | Lecture seule | Champ principal. |
-| **ID de l’adresse du collaborateur avec paie**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Généré par le système | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique l'adresse. |
+| **ID de l’adresse du collaborateur avec paie**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Généré par le système | Une valeur d’identificateur global unique (GUID) générée par le système pour identifier de manière unique l’adresse. |
 
 ## <a name="relations"></a>Relations
 

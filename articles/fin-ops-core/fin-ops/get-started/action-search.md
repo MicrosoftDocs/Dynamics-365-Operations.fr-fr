@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 190cfc8f4509ad3c61057c66ec0b920408c3c421e19c5147987892a918311537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6277c37ac43b8cc05c8b53da5ca0a1909f58c4f9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734638"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070032"
 ---
 # <a name="action-search"></a>Recherche d’actions
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cet article décrit la fonctionnalité de recherche d’actions. La recherche d’actions vous aide à rechercher et à exécuter des actions sur une page.
 
@@ -51,7 +54,7 @@ Vous pouvez également commencer la recherche d’actions en appuyant sur Ctrl+/
 
 ## <a name="understanding-the-results-list"></a>Présentation de la liste des résultats
 
-Souvent, vous devez connaître l’emplacement et le contexte d’un bouton pour bien comprendre l’objet de ce bouton. Par conséquent, la liste des résultats présente des informations supplémentaires pour vous aider à savoir précisément quels boutons apparaissent dans la liste. En particulier, le « chemin d’accès » du bouton est affiché. Ce chemin d’accès peut inclure les noms des éléments d’interface utilisateur suivants, le cas échéant :
+Souvent, vous devez connaître l’emplacement et le contexte d’un bouton pour bien comprendre l’objet de ce bouton. Par conséquent, la liste des résultats présente des informations supplémentaires pour vous aider à savoir précisément quels boutons apparaissent dans la liste. En particulier, le « chemin d’accès » du bouton est affiché. Ce chemin d’accès peut inclure les noms des éléments d’interface utilisateur suivants, le cas échéant :
 
 - Onglets du volet Actions
 - Groupe de boutons
@@ -63,7 +66,7 @@ Par exemple, vous avez tapé **tot** dans le champ **recherche d’actions** et 
 
 [![action-search-field-with-data.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-Dans l’exemple précédent, la recherche d’action a donné les résultats du volet Actions standard en haut d’une page. Toutefois, la recherche d’actions montre également les résultats des barres d’outils visibles qui sont dans d’autres endroits de la page. Par exemple, vous recherchez le bouton **Stock disponible** dans l’organisateur **Lignes de commande client**. Dans ce cas, le chemin d’accès du bouton dans la liste des résultats (**Lignes de commande client** &gt; **Stock** &gt; **Afficher**) vous informe que ce bouton est sous l’en-tête **Afficher** du bouton de menu **Stock** dans l’organisateur **Lignes de commande client**.
+Dans l’exemple précédent, la recherche d’action a donné les résultats du volet Actions standard en haut d’une page. Toutefois, la recherche d’actions montre également les résultats des barres d’outils visibles qui sont dans d’autres endroits de la page. Par exemple, vous recherchez le bouton **Stock disponible** dans le raccourci **Lignes de commande client**. Dans ce cas, le chemin d’accès du bouton dans la liste des résultats (**Lignes de commande client** &gt; **Stock** &gt; **Afficher**) vous informe que ce bouton est sous l’en-tête **Afficher** du bouton de menu **Stock** dans le raccourci **Lignes de commande client**.
 
 [![on-hand-inventory.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 

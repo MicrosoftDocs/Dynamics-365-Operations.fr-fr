@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729049"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065199"
 ---
 # <a name="create-questionnaires"></a>Créer des questionnaires
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Cette rubrique décrit le processus de création d’un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l’enregistrement et l’organisation des réponses. 
 
-Plus la conception d’un questionnaire est soignée, plus la qualité des données collectées est élevée. Grâce à une conception soignée, vous pouvez mieux sélectionner les options appropriées du questionnaire lorsque vous en avez besoin. Les points suivants peuvent vous aider à planifier un questionnaire efficace :
+Plus la conception d’un questionnaire est soignée, plus la qualité des données collectées est élevée. Grâce à une conception soignée, vous pouvez mieux sélectionner les options appropriées du questionnaire lorsque vous en avez besoin. Les points suivants peuvent vous aider à planifier un questionnaire efficace :
 
 -   Définissez clairement l’objectif du questionnaire afin que les questions soient cohérentes avec l’objectif.
 -   Déterminez le type d’individus ou le groupe de personnes qui répondront au questionnaire.
@@ -38,7 +41,7 @@ Plus la conception d’un questionnaire est soignée, plus la qualité des donn�
 -   Décidez la façon dont les résultats doivent être évalués, le cas échéant.
 -   Décidez si vous avez besoin de fonctions supplémentaires. Par exemple, déterminez si et comment les résultats doivent être classés, si un délai est nécessaire, ou si toutes les questions sont obligatoires.
 
-La phase de conception comprend quatre catégories de tâches que vous devez effectuer dans cet ordre :
+La phase de conception comprend quatre catégories de tâches que vous devez effectuer dans cet ordre :
 
 1.  Paramétrer les conditions préalables, le cas échéant.
 2.  Paramétrer les groupes de réponses et les réponses, le cas échéant.
@@ -63,7 +66,7 @@ Certains prérequis doivent être en place avant de pouvoir créer des questionn
 
 ### <a name="questionnaire-types"></a>Types de questionnaire
 
-Les **types de questionnaires** sont obligatoires et doivent être affectés lorsque vous créez un questionnaire. Les **types de questionnaires** aident à gérer et classer les questionnaires plus facilement. Utilisez les types de questionnaire pour classer les questionnaires et les différencier les uns des autres. Par exemple, si vous devez opérer un choix parmi plusieurs questionnaires, vous pouvez les filtrer par type pour faciliter la recherche d’un questionnaire spécifique. Voici quelques exemples de types de questionnaire :
+Les **types de questionnaires** sont obligatoires et doivent être affectés lorsque vous créez un questionnaire. Les **types de questionnaires** aident à gérer et classer les questionnaires plus facilement. Utilisez les types de questionnaire pour classer les questionnaires et les différencier les uns des autres. Par exemple, si vous devez opérer un choix parmi plusieurs questionnaires, vous pouvez les filtrer par type pour faciliter la recherche d’un questionnaire spécifique. Voici quelques exemples de types de questionnaire :
 
 -   développement des Ressources Humaines ;
 -   études clientèle ;
@@ -73,7 +76,7 @@ Les **types de questionnaires** sont obligatoires et doivent être affectés lor
 
 Les **types de questions** sont obligatoires et doivent être affectés lorsque vous créez une question. 
 
-Les **types de questions** permettent de classer les questions par catégorie pour la génération d’états. Les **types de questions** facilitent également la recherche des questions, car vous pouvez utiliser les types comme filtres dans la page **Questions**. Voici quelques exemples de types de question :
+Les **types de questions** permettent de classer les questions par catégorie pour la génération d’états. Les **types de questions** facilitent également la recherche des questions, car vous pouvez utiliser les types comme filtres dans la page **Questions**. Voici quelques exemples de types de question :
 
 -   Ressources humaines
 -   Gestion de l’activité
@@ -96,7 +99,7 @@ Les questionnaires incluent trois éléments principaux : les groupes de répon
 
 ### <a name="answer-groups-and-answers"></a>Groupes de réponses et réponses
 
-Les personnes interrogées peuvent répondre à une question de deux façons, en fonction de son objet :
+Les personnes interrogées peuvent répondre à une question de deux façons, en fonction de son objet :
 
 -   Les questions ouvertes ne nécessitent pas de réponses dans un format spécifique. Les personnes interrogées peuvent entrer une réponse sous forme de texte, de nombre, de date ou d’heure. Ces questions nécessitent généralement que les personnes interrogées fournissent des informations subjectives dans leurs réponses, telles qu’un avis, une description, une évaluation ou une estimation.
 -   Les questions fermées demandent que la personne interrogée sélectionne une réponse dans la liste des réponses correctes possibles.
@@ -127,7 +130,7 @@ Les questions peuvent être organisées en hiérarchie de questions conditionnel
 > [!NOTE]
 > Avant de pouvoir paramétrer un questionnaire, vous devez paramétrer des questions, des réponses et les conditions préalables. 
 
-Pour chaque questionnaire, vous pouvez spécifier les informations suivantes :
+Pour chaque questionnaire, vous pouvez spécifier les informations suivantes :
 
 -   le temps total ou la limite de temps pour répondre aux questions obligatoires ;
 -   si toutes les questions sont obligatoires ;
@@ -141,10 +144,10 @@ Pour chaque questionnaire, vous pouvez spécifier les informations suivantes :
 
 ### <a name="set-up-a-questionnaire"></a>Paramétrage d’un questionnaire
 
-La principale page que vous utilisez pour paramétrer un questionnaire est la page **Questionnaires**. Pour configurer un questionnaire, effectuez les tâches suivantes dans l’ordre :
+La principale page que vous utilisez pour paramétrer un questionnaire est la page **Questionnaires**. Pour configurer un questionnaire, effectuez les tâches suivantes dans l’ordre :
 
 1.  Créez un questionnaire.
-2.  suivez l’une des étapes suivantes pour associer des questions au questionnaire :
+2.  suivez l’une des étapes suivantes pour associer des questions au questionnaire :
     -   Si vous utilisez des groupes de résultats, vous pouvez joindre des questions à un questionnaire à l’aide des groupes de résultats. Paramétrez d’abord les groupes de résultats du questionnaire, puis ajoutez les questions aux groupes de résultats.
     -   Si vous n’utilisez pas de groupes de résultats, vous pouvez lier les questions directement au questionnaire.
 
@@ -155,7 +158,7 @@ Dans la page **Questionnaires**, cliquez sur **Valider** pour vérifier si le qu
 
 ### <a name="modify-a-questionnaire"></a>Modification d’un questionnaire
 
-Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** :
+Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** :
 
 -   modifier les informations du questionnaire, y compris ses groupes de résultats et questions ;
 -   supprimer et ajouter des questions ;
@@ -164,7 +167,7 @@ Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** 
 > [!CAUTION]
 > Soyez prudent lorsque vous modifiez des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d’évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
 
-Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suivants :
+Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suivants :
 
 -   les questions associées à un questionnaire ;
 -   les questions ayant déjà reçu une réponse et donc disponibles dans la boîte de dialogue **Réponses**.
@@ -173,7 +176,7 @@ Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suiva
 
 Les **Groupes de résultats** sont facultatifs lorsque vous associez des questions à un questionnaire. 
 
-Un groupe de résultats permet de calculer les points et de classer les résultats d’un questionnaire. Si vous utilisez des groupes de résultats, vous pouvez effectuer les tâches suivantes :
+Un groupe de résultats permet de calculer les points et de classer les résultats d’un questionnaire. Si vous utilisez des groupes de résultats, vous pouvez effectuer les tâches suivantes :
 
 -   Évaluer les résultats du questionnaire en fonction des statistiques de points.
 -   Évaluer le score d’une personne interrogée pour chaque groupe de résultats que vous paramétrez.
@@ -181,7 +184,7 @@ Un groupe de résultats permet de calculer les points et de classer les résulta
 -   Imprimer un état qui indique les résultats de chaque groupe de résultats ainsi que les points/textes facultatifs basés sur les points gagnés dans chaque groupe de résultats.
 
 > [!NOTE]
-> Vous devez exécuter certaines tâches préalables avant de paramétrer des groupes de résultats :
+> Vous devez exécuter certaines tâches préalables avant de paramétrer des groupes de résultats :
 
 -   Paramétrez des questions fermées. Pour une question fermée, le type d’entrée dans la page **Questions** doit être **Case à cocher**, **Autre bouton** ou **Zone combinée**.
 -   Définissez des points pour les réponses dans les groupes de réponses affectés à chaque question.
@@ -198,9 +201,9 @@ Pour chaque groupe de résultats, vous pouvez également paramétrer un ou plusi
 
 Étant donné qu’un groupe de résultats fait référence aux points associés à des ensembles spécifiques de questions d’un questionnaire, vous ne pouvez utiliser qu’un groupe de résultats spécifique pour un questionnaire.
 
-#### <a name="example-pointstexts-for-result-group-3"></a>Exemple : points/textes pour un groupe de résultats 3
+#### <a name="example-pointstexts-for-result-group-3"></a>Exemple : points/textes pour un groupe de résultats 3
 
-Vous utilisez un questionnaire pour un test de direction qui comporte 15 questions en trois catégories. Vous créez trois groupes de résultats et ajoutez cinq questions à chaque groupe de résultats. Les points sont ensuite totalisés dans les trois groupes. Les trois groupes de résultats sont les suivants :
+Vous utilisez un questionnaire pour un test de direction qui comporte 15 questions en trois catégories. Vous créez trois groupes de résultats et ajoutez cinq questions à chaque groupe de résultats. Les points sont ensuite totalisés dans les trois groupes. Les trois groupes de résultats sont les suivants :
 
 -   Aptitudes créatives
 -   Aptitudes à diriger

@@ -2,7 +2,7 @@
 title: Page d’accueil de Finance Insights
 description: Informations financières fournit des modèles configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Toutes ces fonctionnalités sont basées sur des modèles Machine Learning intelligents.
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968784"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087291"
 ---
 # <a name="finance-insights-home-page"></a>Page d’accueil de Finance Insights
 
@@ -37,10 +37,6 @@ Finance Insights fournit des solutions configurables et extensibles pour vous ai
 
 Cette section répertorie les conditions requises pour utiliser Informations financières. Dans la mesure du possible, des liens vers des sources d’informations supplémentaires sont fournis.
 
-### <a name="legal-requirements"></a>Configurations requises légales
-
-Pour postuler au programme de version préliminaire, remplissez [l’accord de version préliminaire de Informations financières pour Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
-
 ### <a name="system-requirements"></a>Configuration requise
 
 Un environnement de niveau 2 (multi-box) est requis pour la version préliminaire de Finance Insights. Pour plus d’informations générales sur les environnements, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -48,6 +44,10 @@ Un environnement de niveau 2 (multi-box) est requis pour la version préliminair
 ### <a name="version-requirements"></a>Exigences relatives à la version
 
 Cette rubrique s’applique à Microsoft Dynamics 365 Finance version 10.0.21 et versions ultérieures.
+
+### <a name="license-requirements"></a>Conditions préalables requises pour les licences
+
+Finance Insights utilise les crédits AI Builder pour créer des prévisions financières. Toutes les licences nécessaires pour cela sont incluses avec la licence client. Chaque client Dynamics 365 Finance se voit recevoir 20 000 crédits AI Builder chaque mois. Si des crédits supplémentaires sont nécessaires pour les besoins de l’entreprise, ils peuvent être achetés directement auprès d’AI Builder.
 
 ### <a name="historical-data-requirements"></a>Exigences en matière de données historiques
 

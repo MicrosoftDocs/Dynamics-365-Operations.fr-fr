@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eacf2dc460367ebefb7e9f4d9e301ec719cd2317
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431484"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065250"
 ---
 # <a name="view-team-and-company-calendars"></a>Afficher les calendriers des équipes et de la société
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +46,7 @@ Les responsables peuvent également accéder au calendrier de l’équipe à par
 ## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>Afficher votre calendrier de gestionnaire des absences en tant que gestionnaire des absences
 
 > [!NOTE]
-> Pour afficher le calendrier du gestionnaire des absences, vous devez d'abord activer la fonctionnalité **(Version préliminaire) Gestionnaire des absences pour gérer les congés** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
+> Pour afficher le calendrier du gestionnaire des absences, vous devez d’abord activer la fonctionnalité **(Version préliminaire) Gestionnaire des absences pour gérer les congés** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).
 
 Les utilisateurs ayant le rôle de gestionnaire des absences peuvent afficher les demandes de congés dans leur calendrier. Procédez comme suit pour accéder au calendrier des congés.
 
@@ -51,7 +54,7 @@ Les utilisateurs ayant le rôle de gestionnaire des absences peuvent afficher le
 
 2. Dans le champ **Date**, saisissez les dates souhaitées.
 
-3. Mettez à jour les options d'affichage si nécessaire.
+3. Mettez à jour les options d’affichage si nécessaire.
 
 Le calendrier du gestionnaire des absences affiche tous les enregistrements des employés qui relèvent du gestionnaire des absences dans la hiérarchie des congés.
 
@@ -73,7 +76,7 @@ Les calendriers contiennent désormais des filtres et des options supplémentair
 - Les employés sans demandes de congé
 - Les anniversaires des employés
 - Les demandes de congés 
-- Demandes d'absence
+- Demandes d’absence
 
 La configuration du calendrier dans la page **Paramètres de congé et d’absence** détermine les options d’affichage disponibles.
 

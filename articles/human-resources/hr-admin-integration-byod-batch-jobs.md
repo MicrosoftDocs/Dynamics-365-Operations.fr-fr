@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: ec2847a55dfdf1d3fabc10898f29f73a96749244ef30bf5c31d3769b6d9024de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775793"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067777"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Optimiser les traitements par lots planifié BYOD
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -89,11 +92,11 @@ Cette fonctionnalité BYOD a les restrictions suivantes :
 
 **Solution :** Les tables de suivi des modifications SQL peuvent ne pas être dans l’état attendu. Dans les cas de ce type, nous vous recommandons de désactiver le suivi des modifications pour l’entité, puis de le réactiver. Pour plus d’informations, voir la [Activation du suivi des modifications pour les entités](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
-### <a name="staging-tables-arent-clearing"></a>Les tables intermédiaires ne s'effacent pas
+### <a name="staging-tables-arent-clearing"></a>Les tables intermédiaires ne s’effacent pas
 
-**Problème :** lors de l'utilisation de la mise en lots pour le projet, les tables intermédiaires ne s'effacent pas correctement. Les données des tables continuent alors de croître, ce qui entraîne des problèmes de performances.
+**Problème :** lors de l’utilisation de la mise en lots pour le projet, les tables intermédiaires ne s’effacent pas correctement. Les données des tables continuent alors de croître, ce qui entraîne des problèmes de performances.
 
-**Solution :** sept jours d'historique sont conservés dans les tables intermédiaires. Les données historiques datant de plus de sept jours sont automatiquement effacées des tables intermédiaires par la tâche par lots **Exporter le nettoyage intermédiaire**. Si cette tâche est bloquée, les tables ne s'effaceront pas correctement. Lors du redémarrage de cette tâche par lots , le processus reprendra pour effacer automatiquement les tables intermédiaires.
+**Solution :** sept jours d’historique sont conservés dans les tables intermédiaires. Les données historiques datant de plus de sept jours sont automatiquement effacées des tables intermédiaires par la tâche par lots **Exporter le nettoyage intermédiaire**. Si cette tâche est bloquée, les tables ne s’effaceront pas correctement. Lors du redémarrage de cette tâche par lots , le processus reprendra pour effacer automatiquement les tables intermédiaires.
 
 ## <a name="see-also"></a>Voir également :
 

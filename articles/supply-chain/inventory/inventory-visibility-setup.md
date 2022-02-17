@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952494"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062648"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Installer et configurer la visibilité des stocks
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique décrit comment installer le module complémentaire de visibilité des stocks pour Microsoft Dynamics 365 Supply Chain Management.
 
-Vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour installer le module complémentaire de visibilité des stocks. LCS est un portail de collaboration qui fournit un environnement et un ensemble de services régulièrement mis à jour qui vous aident à gérer le cycle de vie des applications de vos applications Finance and Operations.
+Vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour installer le module complémentaire de visibilité des stocks. LCS est un portail de collaboration qui fournit un environnement et un ensemble de services régulièrement mis à jour qui vous aident à gérer le cycle de vie des applications de vos applications Finances et Opérations.
 
 Pour plus d’informations, voir [Ressources Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
@@ -126,8 +126,8 @@ Une fois que vous avez installé le complément, préparez votre système Supply
 1. Si vous avez activé l’option *Intégration de la visibilité des stocks avec compensation des réservations*, ouvrez l’onglet **Compensation des réservations** et effectuez les réglages suivants :
     - **Activer la compensation des réservations** : définissez-le sur *Oui* pour activer cette fonctionnalité.
     - **Modificateur de la compensation des réservations** : sélectionnez le statut de la transaction de stock qui compensera les réservations effectuées sur la visibilité des stocks. Ce paramètre détermine l’étape de traitement de la commande qui déclenche les compensations. L’étape est tracée par le statut du mouvement de stock de la commande. Choisissez l’une des méthodes suivantes :
-        - *Sur commande* - Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
-        - *Réserve* - Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu’elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu’une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
+        - *Sur commande* – Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
+        - *Réserve* – Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu’elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu’une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
 
 1. Aller à **Gestion de l’inventaire \> Périodique \> Intégration de la visibilité de l’inventaire** et activez le travail. Tous les événements de changement d’inventaire de Supply Chain Management seront désormais publiés dans la visibilité des stocks.
 

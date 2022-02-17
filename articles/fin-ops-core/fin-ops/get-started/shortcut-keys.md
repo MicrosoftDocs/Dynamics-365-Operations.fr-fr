@@ -1,6 +1,6 @@
 ---
 title: Raccourcis clavier
-description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance and Operations.
+description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finances et Opérations.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913516"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070981"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
 
-Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finances et Opérations.
 
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
@@ -114,12 +117,12 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l’onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Accéder au &lt;n&gt;ième onglet                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Accéder à l’organisateur suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
-| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Accéder à le raccourci suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
+| Accéder au &lt;n&gt;ième raccourci                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Effectuer un déplacement vers la lame suivante/précédente (tabulation verticale)      | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Effectuer un déplacement vers la &lt;n&gt;ième lame (tabulation verticale)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Développer un organisateur (avec le focus sur l’en-tête de l’organisateur) | Espace ou Entrée                               |
-| Réduire l’organisateur actif                        | Alt+0                                        |
+| Développer un raccourci (avec le focus sur l’en-tête du raccourci) | Espace ou Entrée                               |
+| Réduire le raccourci actif                        | Alt+0                                        |
 | Basculer sur la vue grille                                 | Ctrl+Maj+G                                 |
 | Basculer sur la vue détails                              | Ctrl+Maj+D                                 |
 | Basculer sur la vue En-tête                               | Ctrl+Maj+H                                 |
@@ -215,7 +218,7 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Utiliser l’outil Modifier (lorsque vous êtes en mode personnalisation)                                                                       | E                                   |
 | Effectuer un basculement si le contrôle actuel est modifiable ou en lecture seule (à l’aide de l’outil Modifier)                                 | Espace ou Entrée                      |
 | Utiliser l’outil Récapitulatif (lorsque vous êtes en mode personnalisation)                                                                    | H                                   |
-| Effectuer un basculement si le contrôle actuel est un champ récapitulatif dans l’organisateur actuel (à l’aide de l’outil Récapitulatif)            | Espace ou Entrée                      |
+| Effectuer un basculement si le contrôle actuel est un champ récapitulatif dans le raccourci actuel (à l’aide de l’outil Récapitulatif)            | Espace ou Entrée                      |
 | Utiliser l’outil Ajouter (lorsque vous êtes en mode personnalisation)                                                                        | A                                   |
 | Sélectionner le contrôle dont le conteneur sera utilisé pour insérer les nouveaux champs (à l’aide de l’outil Ajouter)                     | Espace ou Entrée                      |
 | Importer une personnalisation (lorsque vous êtes en mode personnalisation)                                                                | I                                   |

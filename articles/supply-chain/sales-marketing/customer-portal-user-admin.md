@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937451"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062488"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Créer et gérer des utilisateurs du portail client
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dans l’implémentation prête à l’emploi, les utilisateurs ne peuvent pas s’auto-enregistrer pour les sites web créés à l’aide du portail client. Pour se connecter et utiliser un site Web, les utilisateurs doivent être invités par l’administrateur. Microsoft a intentionnellement bloqué la capacité des utilisateurs à s’auto-enregistrer.
 
@@ -33,7 +33,7 @@ Lorsque les utilisateurs s’auto-enregistrent, des enregistrements de contacts 
 ## <a name="video"></a>Vidéo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-La vidéo [Inviter les clients à s’enregistrer et à utiliser votre portail client](https://youtu.be/drGUYHX9QIQ) (présentée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Inviter les clients à s’enregistrer et à utiliser votre portail client](https://youtu.be/drGUYHX9QIQ) (présentée ci-dessus) est incluse dans la [liste de lecture Finances et Opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="prerequisite-setup"></a>Paramétrage requis au préalable
 

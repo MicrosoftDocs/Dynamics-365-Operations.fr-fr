@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ef51a97c38f446cd267ac8a621ce2a1f66efad18
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579038"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062513"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > Avant d’utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](/powerapps/administrator/data-integrator).
@@ -48,8 +48,8 @@ Les modèles et tâches sous-jacentes suivants sont utilisés pour synchroniser 
 
 - **Noms des modèles dans l’intégration des données**
 
-    - Contacts (Sales vers Supply Chain Management) - Direct
-    - Contacts vers Customer (Sales vers Supply Chain Management) - Direct
+    - Contacts (Sales vers Supply Chain Management) – Direct
+    - Contacts vers Customer (Sales vers Supply Chain Management) – Direct
 
 - **Noms des tâches dans le projet d’intégration de données**
 
@@ -119,11 +119,11 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 ### <a name="contact-to-contact-example"></a>Exemple de contact à contacter
 
-![Mappage du modèle de contact à contacter dans l'intégrateur de données.](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Mappage du modèle de contact à contacter dans l’intégrateur de données.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer-example"></a>Exemple de client à contacter
 
-![Mappage du modèle de client à contacter dans l'intégrateur de données.](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Mappage du modèle de client à contacter dans l’intégrateur de données.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Rubriques connexes

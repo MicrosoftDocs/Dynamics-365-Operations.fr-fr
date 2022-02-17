@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344396"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069982"
 ---
 # <a name="navigation-search"></a>Recherche de navigation
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages.
 
@@ -46,7 +49,7 @@ Lorsque vous recherchez une page, votre entrée est mise en correspondance avec 
 
 ## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>Accéder rapidement à une page en fonction de son nom technique
 
-La fonctionnalité de recherche de navigation inclut également une fonctionnalité très demandée par les utilisateurs avec pouvoirs : la possibilité d’accéder rapidement à une page en fonction de son nom technique. De nombreux utilisateurs sont si familiarisé avec le système qu’ils connaissent les noms exacts des écrans qu’ils utilisent. Si vous êtes l’un de ces utilisateurs, vous pouvez entrer **écran :** suivi du nom de l’écran que vous recherchez. Par exemple, si vous entrez **écran : vendinvoice**, les résultats de la recherche affichent toutes les pages où le nom d’écran commence par **vendinvoice**.
+La fonctionnalité de recherche de navigation inclut également une fonctionnalité très demandée par les utilisateurs avec pouvoirs : la possibilité d’accéder rapidement à une page en fonction de son nom technique. De nombreux utilisateurs sont si familiarisé avec le système qu’ils connaissent les noms exacts des écrans qu’ils utilisent. Si vous êtes l’un de ces utilisateurs, vous pouvez entrer **écran :** suivi du nom de l’écran que vous recherchez. Par exemple, si vous entrez **écran : vendinvoice**, les résultats de la recherche affichent toutes les pages où le nom d’écran commence par **vendinvoice**.
 
 ## <a name="administration-and-security"></a>Administration et sécurité
 

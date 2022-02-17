@@ -1,6 +1,6 @@
 ---
 title: Configurer l’intégration de Dataverse
-description: Cette rubrique décrit l'intégration entre les applications Microsoft Dataverse et Dynamics 365 Human Resources.
+description: Cette rubrique décrit l’intégration entre les applications Microsoft Dataverse et Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3c942358772e8ca92774decc3d4b6914fab65e22
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: c4e68142045b72b139bdda8be707a73e21e568fd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414607"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065449"
 ---
 # <a name="configure-dataverse-integration"></a>Configurer l’intégration de Dataverse
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -74,7 +77,7 @@ Vous souhaiterez peut-être désactiver l’intégration dans ces situations :
 
 ## <a name="view-data-integration-details"></a>Afficher les détails de l’intégration de données
 
-Sur l’organisateur **Administration** de la page **Intégration Microsoft Dataverse**, vous pouvez voir comment les lignes sont liées entre Human Resources et Dataverse.
+Sur le raccourci **Administration** de la page **Intégration Microsoft Dataverse**, vous pouvez voir comment les lignes sont liées entre Human Resources et Dataverse.
 
 - Pour afficher les lignes d’un tableau, sélectionnez le tableau dans le champ **Table Dataverse**. La grille affiche toutes les lignes liées à la table sélectionnée.
 

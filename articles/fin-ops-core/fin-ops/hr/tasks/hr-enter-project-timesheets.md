@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964932"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070473"
 ---
 # <a name="enter-project-timesheets"></a>Saisir des feuilles de temps du projet
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Cette procédure vous permet de créer une feuille de temps à l’aide d’une page Feuille de temps vide. La nouvelle feuille de temps peut être basée sur les informations issues d’une feuille de temps précédente, ou d’affectations d’activité et de projet sur la page **Mes favoris**. Par défaut, la page de liste **Toutes les feuilles de temps** présente toutes vos feuilles de temps pour la période en cours. Vous pouvez utiliser le champ **Afficher** sur la page **Mes feuilles de temps** afin de filtrer la liste des feuilles de temps par période ou par projet, ou pour afficher les feuilles de temps créées au nom d’autres collaborateurs. Les données fictives utilisées pour créer cette procédure correspondent à la société **USSI**.
 

@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465171"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071477"
 ---
 # <a name="create-a-closed-ended-question"></a>Créer une question fermée
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Les questions fermées permettent à la personne interrogée de choisir des opti
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Groupe de réponse**, saisissez une valeur.
 4. Tapez une valeur dans le champ **Description**.
-    * Utilisez la fonctionnalité Aléatoire pour placer de manière aléatoire les réponses dans une commande différente chaque fois que le groupe de réponses est utilisé pour une question.  
+    * Utilisez la fonctionnalité **Aléatoire** pour placer de manière aléatoire les réponses dans une commande différente chaque fois que le groupe de réponses est utilisé pour une question.  
 5. Cliquez sur **Réponse**.
 6. Cliquez sur **Nouveau**.
-    * Le numéro de souche contrôle l’ordre dans lequel les réponses sont affichées, sauf si la fonctionnalité Aléatoire est activée pour le groupe de réponses.  
+    * Le numéro de souche contrôle l’ordre dans lequel les réponses sont affichées, sauf si la fonctionnalité **Aléatoire** est activée pour le **groupe de réponses**.  
     * Les points peuvent être affectés aux réponses pour être utilisées pour marquer les points le questionnaire.  
 7. Entrez un nombre dans le champ **Points**.
     * La réponse correcte peut être marquée pour indiquer que la réponse sélectionnée est correcte. Cette opération peut être utilisée pour marquer les points du questionnaire.  
@@ -61,8 +64,8 @@ Les questions fermées permettent à la personne interrogée de choisir des opti
 ## <a name="create-the-question"></a>Créer la question
 1. Accédez à **Questionnaire** > **Conception** > **Questions**.
 2. Cliquez sur **Nouveau**.
-3. Utilisez le champ Type pour regrouper les questions associées.
-    * Vous pouvez utiliser les types d’entrée Case à cocher, bouton Autre ou Zone de liste modifiable pour des questions fermées.  
+3. Utilisez le champ **Type** pour regrouper les questions associées.
+    * Vous pouvez utiliser les types d’entrée **Case à cocher**, bouton **Autre** ou **Zone de liste modifiable** pour des questions fermées.  
 4. Sélectionnez une option dans le champ **Type de saisie**.
 5. Saisissez ou sélectionnez une valeur dans le champ **Groupe de réponses**.
 6. Tapez une valeur dans le champ **Texte**.

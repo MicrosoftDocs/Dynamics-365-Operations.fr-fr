@@ -1,6 +1,6 @@
 ---
 title: FAQ sur le client
-description: Cet article fournit des réponses aux questions fréquemment posées sur le client Finance and Operations.
+description: Cet article fournit des réponses aux questions fréquemment posées sur le client Finances et Opérations.
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -14,22 +14,25 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05ebc55b55a40b09c825d2c93e10bb7ff38185473204b9bc7d130e81f6c419a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750508"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071031"
 ---
 # <a name="client-faq"></a>FAQ sur le client
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des réponses aux questions fréquemment posées sur le client Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Cet article fournit des réponses aux questions fréquemment posées sur le client Finances et Opérations.
 
 ## <a name="why-arent-symbols-loaded"></a>Pourquoi les symboles ne sont pas chargés ?
 
-Les paramètres de sécurité de votre navigateur peuvent empêcher les symboles d’être chargés correctement. Pour résoudre ce problème, procédez comme suit :
+Les paramètres de sécurité de votre navigateur peuvent empêcher les symboles d’être chargés correctement. Pour résoudre ce problème, procédez comme suit :
 
 - Si vous rencontrez ce problème dans Internet Explorer, cliquez sur **Outils**, puis sur **Options Internet**. Dans la boîte de dialogue Options Internet, sous l’onglet **Confidentialité**, cliquez sur **Niveau personnalisé** et vérifiez que l’option **Chargement des polices** est sélectionnée.
 - Sinon, vous devrez peut-être ajouter le site de l’application à la liste des sites de confiance.
@@ -48,7 +51,7 @@ Pour faciliter l’accès au clavier, nous envisageons d’implémenter un racco
 
 ## <a name="where-is-the-view-details-functionality"></a>Où est la fonctionnalité Afficher les détails ?
 
-L’option **Afficher les détails** est disponible de plusieurs manières :
+L’option **Afficher les détails** est disponible de plusieurs manières :
 
 - Si un contrôle a des fonctionnalités **Afficher les détails**, et si le contrôle a une valeur, cette valeur est affichée comme lien hypertexte. Vous pouvez cliquer sur le lien hypertexte pour ouvrir une page qui contient des informations supplémentaires.
 - **Afficher les détails** est également une option des menus contextuels. Pour plus d’informations sur les affichage des menus contextuels après avoir cliqué sur le bouton droit, consultez la section précédente.

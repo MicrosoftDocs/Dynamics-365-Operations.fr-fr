@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5923da86459e02013b1b05e3d814e963d77925d3
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465147"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066748"
 ---
 # <a name="set-up-training-courses"></a>Paramétrer les cours de formation
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -124,11 +127,11 @@ Le tableau suivant répertorie les statuts de cours possibles et les actions que
 </table>
 
 ## <a name="course-participants"></a>Participants du cours
-Les participants du cours sont des employés qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans l’organisateur **General** de la page **Cours**.
+Les participants du cours sont des employés qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans le raccourci **General** de la page **Cours**.
 
 ## <a name="workflow"></a>Workflow
 
-Les employés qui s’inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation. Vous pouvez affecter un workflow à un cours dans l’organisateur **Général** de la page **Cours**.
+Les employés qui s’inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation. Vous pouvez affecter un workflow à un cours dans le raccourci **Général** de la page **Cours**.
 
 
 

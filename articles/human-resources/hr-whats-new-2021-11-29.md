@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (19 novembre 2021)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources à la date du 19 novembre 2021.
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources autonome à la date du 19 novembre 2021.
 author: marcelbf
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a86c1c24fbc758f4e3d0fd8b052e02078bee41e
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 618d90f95637002f444b334e16d3fef466dda65e
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902601"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087472"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (19 novembre 2021)
 
@@ -46,11 +46,11 @@ Les correctifs de bogues suivants sont compris dans cette version.
 | Numéro du problème | Problème | Description |
 |---|---|---|
 | 626178 | La navigation est manquante dans les vignettes des collaborateurs dans **Responsable en libre-service** | Ce problème est désormais résolu. La navigation est disponible pour voir les détails du rapport dans **Libre-service des responsables**. |
-| 632573 | Il n'y a pas d'erreur de validation lors de l'enregistrement d'un **Cours** | Ce problème est désormais résolu. Lors de la création d'un cours dont le **Nombre minimum de participants** était supérieur à 0, l'enregistrement était toujours possible même avec un **Nombre maximum de participants** de 0. |
-| 615955 | Erreur : « Le champ **Objectif** doit être renseigné » lors de la création d'un nouvel emplacement de demande de recrutement. | Lors de la création d'une adresse pour un emplacement de demande de recrutement, vous obtenez l'erreur : Le champ « Objectif » doit être renseigné. Cependant, le champ **Objectif** n'est pas disponible sur la page. |
-| 620797 | Erreur trompeuse à propos du champ **Genre** vide | Lorsqu'un genre n'est pas saisi pour un contact personnel, le rapport affiche « Cliquez ou appuyez ici pour saisir du texte », ce qui est trompeur car rien ne peut être saisi dans le champ. |
-| 620800 | Le lien du relevé des avantages est masqué | Le relevé des avantages n'est pas visible par défaut dans le **Libre-service des employés**.  Un lien a été ajouté sur le côté droit du **Libre-service des employés** sous la section **Liens** |
-| 629778 | Problème de performances avec l'intégration de CDS. | La demande liée à l'autorisation a causé un problème de performances. |
+| 632573 | Il n’y a pas d’erreur de validation lors de l’enregistrement d’un **Cours** | Ce problème est désormais résolu. Lors de la création d’un cours dont le **Nombre minimum de participants** était supérieur à 0, l’enregistrement était toujours possible même avec un **Nombre maximum de participants** de 0. |
+| 615955 | Erreur : « Le champ **Objectif** doit être renseigné » lors de la création d’un nouvel emplacement de demande de recrutement. | Lors de la création d’une adresse pour un emplacement de demande de recrutement, vous obtenez l’erreur : Le champ « Objectif » doit être renseigné. Cependant, le champ **Objectif** n’est pas disponible sur la page. |
+| 620797 | Erreur trompeuse à propos du champ **Genre** vide | Lorsqu’un genre n’est pas saisi pour un contact personnel, le rapport affiche « Cliquez ou appuyez ici pour saisir du texte », ce qui est trompeur car rien ne peut être saisi dans le champ. |
+| 620800 | Le lien du relevé des avantages est masqué | Le relevé des avantages n’est pas visible par défaut dans le **Libre-service des employés**.  Un lien a été ajouté sur le côté droit du **Libre-service des employés** sous la section **Liens** |
+| 629778 | Problème de performances avec l’intégration de CDS. | La demande liée à l’autorisation a causé un problème de performances. |
 
 ## <a name="in-preview"></a>En mode aperçu
 

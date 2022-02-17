@@ -2,7 +2,7 @@
 title: Concevoir des états multilingues dans les états électroniques
 description: Cette rubrique explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674427"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074940"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Concevoir des états multilingues dans les états électroniques
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674427"
 
 ## <a name="overview"></a>Vue d’ensemble
 
-En tant qu’utilisateur professionnel, vous pouvez utiliser la structure de [Gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays ou régions. Lorsque ces exigences requièrent que les documents sortants soient générés dans différentes langues pour différents pays ou régions, vous pouvez configurer un seul [format](general-electronic-reporting.md#FormatComponentOutbound) ER qui contient des ressources dépendantes de la langue. De cette façon, vous pouvez réutiliser le format pour générer des documents sortants pour différents pays ou régions. Vous pouvez également utiliser un format ER unique pour générer un document sortant dans différentes langues pour les clients, fournisseurs, filiales ou autres parties correspondants.
+En tant qu’utilisateur professionnel, vous pouvez utiliser la structure de [Gestion des états électroniques (ER)](general-electronic-reporting.md) pour configurer des formats pour les documents sortants conformément aux obligations légales de différents pays ou régions. Lorsque ces exigences requièrent que les documents sortants soient générés dans différentes langues pour différents pays ou régions, vous pouvez configurer un seul format ER qui contient des ressources dépendantes de la langue. De cette façon, vous pouvez réutiliser le format pour générer des documents sortants pour différents pays ou régions. Vous pouvez également utiliser un format ER unique pour générer un document sortant dans différentes langues pour les clients, fournisseurs, filiales ou autres parties correspondants.
 
-Vous pouvez configurer des modèles de données ER et des mappages de modèles en tant que sources de données des formats ER configurés pour définir le flux de données qui spécifie les données d’application qui sont placées dans les documents générés. En tant que [fournisseur](general-electronic-reporting.md#Provider) de configuration ER, vous pouvez [publier](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) des [modèles de données](general-electronic-reporting.md#data-model-and-model-mapping-components), [mises en correspondance de modèles](general-electronic-reporting.md#data-model-and-model-mapping-components), et [formats](general-electronic-reporting.md#FormatComponentOutbound) configurés sous la forme de composants d’une solution ER pour générer des documents sortants spécifiques. Vous pouvez également autoriser les clients à [charger](general-electronic-reporting-manage-configuration-lifecycle.md) la solution ER publiée afin qu’elle puisse être utilisée et personnalisée. Si vous vous attendez à ce que les clients parlent d’autres langues, vous pouvez configurer les composants ER afin qu’ils contiennent des ressources dépendantes de la langue. De cette façon, le contenu d’un composant ER modifiable peut être présenté dans la langue préférée par l’utilisateur au moment de la conception.
+Vous pouvez configurer des modèles de données ER et des mappages de modèles en tant que sources de données des formats ER configurés pour définir le flux de données qui spécifie les données d’application qui sont placées dans les documents générés. En tant que [fournisseur](general-electronic-reporting.md#Provider) de configuration de gestion des états électroniques, vous pouvez [publier](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) des [modèles de données](general-electronic-reporting.md#data-model-and-model-mapping-components), [mises en correspondance de modèles](general-electronic-reporting.md#data-model-and-model-mapping-components) et formats configurés sous la forme de composants d’une solution ER pour générer des documents sortants spécifiques. Vous pouvez également autoriser les clients à [charger](general-electronic-reporting-manage-configuration-lifecycle.md) la solution ER publiée afin qu’elle puisse être utilisée et personnalisée. Si vous vous attendez à ce que les clients parlent d’autres langues, vous pouvez configurer les composants ER afin qu’ils contiennent des ressources dépendantes de la langue. De cette façon, le contenu d’un composant ER modifiable peut être présenté dans la langue préférée par l’utilisateur au moment de la conception.
 
 Vous pouvez configurer des ressources dépendantes de la langue comme étiquettes ER. Vous pouvez ensuite utiliser ces étiquettes pour configurer les composants ER aux fins suivantes :
 
@@ -161,19 +161,19 @@ ER prend en charge différentes façons de spécifier une langue pour un état g
 
 ## <a name="culture-specific-formatting"></a>Mise en forme spécifique à la culture
 
-ER prend en charge différentes façons de spécifier une culture pour un état généré. Par conséquent, la mise en forme spécifique à la culture peut être utilisée pour la date, l'heure et les valeurs numériques. Lorsque vous concevez un format ER, sur l'onglet **Format**, dans le champ **Préférences culturelles**, vous pouvez sélectionner l'une des valeurs suivantes pour chaque composant de format de type **Commun\\Fichier**, **Excel\\Fichier**, **PDF\\Fichier**, ou **PDF\\Fusionner** :
+ER prend en charge différentes façons de spécifier une culture pour un état généré. Par conséquent, la mise en forme spécifique à la culture peut être utilisée pour la date, l’heure et les valeurs numériques. Lorsque vous concevez un format ER, sur l’onglet **Format**, dans le champ **Préférences culturelles**, vous pouvez sélectionner l’une des valeurs suivantes pour chaque composant de format de type **Commun\\Fichier**, **Excel\\Fichier**, **PDF\\Fichier**, ou **PDF\\Fusionner** :
 
-- **Préférence de l'utilisateur** – Formatez les valeurs en fonction de la culture de l'utilisateur. Cette culture est définie dans le champ **Format de la date, de l'heure et des chiffres** sur l'onglet **Préférences** de la page **Options utilisateur**.
+- **Préférence de l’utilisateur** – Formatez les valeurs en fonction de la culture de l’utilisateur. Cette culture est définie dans le champ **Format de la date, de l’heure et des chiffres** sur l’onglet **Préférences** de la page **Options utilisateur**.
 
-    ![Définir la culture favorite de l'utilisateur comme culture de l'état généré dans le concepteur d'opérations ER.](./media/er-multilingual-labels-culture-context-user-preferred.png)
+    ![Définir la culture favorite de l’utilisateur comme culture de l’état généré dans le concepteur d’opérations ER.](./media/er-multilingual-labels-culture-context-user-preferred.png)
 
 - **Définition explicite** – Mettez en forme les valeurs en fonction de la culture spécifiée au moment de la conception.
 
-    ![Définir la culture définie au moment de la conception comme culture de l'état généré dans le concepteur d'opérations ER.](./media/er-multilingual-labels-culture-context-fixed.png)
+    ![Définir la culture définie au moment de la conception comme culture de l’état généré dans le concepteur d’opérations ER.](./media/er-multilingual-labels-culture-context-fixed.png)
 
-- **Définition au moment de l'exécution** – Mettez en forme les valeurs en fonction de la culture spécifiée au moment de l'exécution. Si vous sélectionnez cette valeur, sur l'onglet **Mappage**, dans le champ **Format de la date, de l'heure et des chiffre**, configurez une expression ER qui renvoie le code de culture pour la culture, comme la culture du client correspondant.
+- **Définition au moment de l’exécution** – Mettez en forme les valeurs en fonction de la culture spécifiée au moment de l’exécution. Si vous sélectionnez cette valeur, sur l’onglet **Mappage**, dans le champ **Format de la date, de l’heure et des chiffre**, configurez une expression ER qui renvoie le code de culture pour la culture, comme la culture du client correspondant.
 
-    ![Définir la culture définie au moment de l'exécution comme culture de l'état généré dans le concepteur d'opérations ER.](./media/er-multilingual-labels-culture-context-runtime.png)
+    ![Définir la culture définie au moment de l’exécution comme culture de l’état généré dans le concepteur d’opérations ER.](./media/er-multilingual-labels-culture-context-runtime.png)
 
 > [!NOTE]
 > Un composant ER pour lequel vous définissez une culture spécifique peut contenir des composants ER enfants qui ont été configurés pour remplir une valeur de texte. Par défaut, la culture du composant parent est utilisée pour mettre en forme les valeurs de ces composants. Vous pouvez utiliser les fonctions ER intégrées suivantes pour configurer des liaisons pour ces composants et appliquer une culture alternative pour la mise en forme des valeurs :
@@ -182,7 +182,7 @@ ER prend en charge différentes façons de spécifier une culture pour un état 
 > - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
 > - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
 >
-> Dans les versions 10.0.20 et ultérieures, les paramètres régionaux des composants de format de type **Commun\\Fichier** et **Excel\\Fichier** sont utilisés pour formater les valeurs pendant la [Conversion PDF](electronic-reporting-destinations.md#OutputConversionToPDF) d'un document généré.
+> Dans les versions 10.0.20 et ultérieures, les paramètres régionaux des composants de format de type **Commun\\Fichier** et **Excel\\Fichier** sont utilisés pour formater les valeurs pendant la [Conversion PDF](electronic-reporting-destinations.md#OutputConversionToPDF) d’un document généré.
 
 ## <a name="translation"></a>Traduction
 
@@ -231,7 +231,20 @@ Comme décrit précédemment dans cette rubrique, les attributs **Étiquette** e
 
 ## <a name="performance"></a><a name=performance></a>Performance
 
-Lorsque vous configurez un composant dans un format ER pour générer un état dans votre [langue](#language) préférée, ou pour importer un document entrant dont le contenu sera analysé dans votre langue préférée, nous vous recommandons d'activer la fonction **Mettre en cache la langue préférée de l'utilisateur actuel pour les exécutions ER** dans l'espace de travail [Gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md). Cette fonctionnalité permet d'améliorer les performances, en particulier pour les composants au format ER qui contiennent plusieurs références à des étiquettes dans les formules et les liaisons ER et de nombreuses règles de [validation](general-electronic-reporting-formula-designer.md#TestFormula) pour générer les messages utilisateur dans votre langue préférée.
+Lorsque vous configurez un composant dans un format ER pour générer un état dans votre [langue](#language) préférée, ou pour importer un document entrant dont le contenu sera analysé dans votre langue préférée, nous vous recommandons d’activer la fonction **Mettre en cache la langue préférée de l’utilisateur actuel pour les exécutions ER** dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops/get-started/feature-management/feature-management-overview.md). Cette fonctionnalité permet d’améliorer les performances, en particulier pour les composants au format ER qui contiennent plusieurs références à des étiquettes dans les formules et les liaisons ER et de nombreuses règles de [validation](general-electronic-reporting-formula-designer.md#TestFormula) pour générer les messages utilisateur dans votre langue préférée.
+
+Lorsque vous changez le statut d’une version de configuration de la gestion des états électroniques de **Brouillon** sur **Terminé**, si la version de configuration contient des étiquettes de gestion des états électroniques, ces étiquettes sont stockées dans la base de données de l’application. Le schéma de stockage dépend de l’état de la fonctionnalité **Accélérer le stockage des étiquettes de gestion des états électroniques** :
+
+- Si la fonctionnalité n’est pas activée, toutes les étiquettes sont stockées dans le champ **LABELXML** de la table **ERSOLUTIONVERSIONTABLE** sous la forme d’un extrait XML unique.
+- Si la fonctionnalité est activée, un enregistrement distinct est créé pour chaque langue dans la table **ERSOLUTIONVERSIONLABELSTABLE**. Le champ **CONTENU** de cette table stocke les étiquettes par langue sous la forme d’un extrait de code XML compressé.
+
+Nous vous recommandons d’activer la fonctionnalité **Accélérer le stockage des étiquettes de gestion des états électroniques** dans l’espace de travail **Gestion des fonctionnalités**. Cette fonctionnalité permet d’améliorer l’utilisation de la bande passante du réseau et les performances globales du système car, dans la plupart des cas, les étiquettes de gestion des états électroniques d’une seule langue sont utilisées lorsque vous travaillez avec une seule configuration de gestion des états électroniques.
+
+Pour appliquer le schéma de stockage sélectionné afin de conserver les étiquettes de toutes les configurations de gestion des états électroniques dans l’instance Finance actuelle, procédez comme suit.
+
+1. Accédez à **Administration de l’organisation** > **Périodique** > **Appliquer le schéma de stockage des étiquettes sélectionnées pour toutes les configurations de gestion des états électroniques**.
+2. Cliquez sur **OK**.
+
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

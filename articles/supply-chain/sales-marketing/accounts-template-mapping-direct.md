@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f6f5662427be92ad57def2af772dd69abd575b81
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566501"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063083"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Synchroniser directement les comptes provenant du module Sales sur les clients de Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > Avant d’utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](/powerapps/administrator/data-integrator).
@@ -46,8 +46,8 @@ Pour accéder à des modèles disponibles, ouvrez [Centre d’administrateur Pow
 
 L’exemple et la tâche sous-jacente suivants sont utilisés pour synchroniser les comptes de Sales vers Supply Chain Management :
 
-- Comptes **Nom du modèle dans l’intégration des données :** (Sales à Fin and Ops) - Direct
-- **Nom de la tâche dans le projet :** Comptes - Clients
+- Comptes **Nom du modèle dans l’intégration des données :** (Sales à Fin and Ops) – Direct
+- **Nom de la tâche dans le projet :** Comptes – Clients
 
 Aucune tâche de synchronisation n’est nécessaire pour que la synchronisation Compte/Client puisse se produire.
 

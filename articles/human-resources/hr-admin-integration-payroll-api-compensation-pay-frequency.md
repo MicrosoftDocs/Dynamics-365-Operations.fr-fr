@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b864d0db8ff1b380749b6099fa74a40045932b67
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 171b7fb7b361bd1fe2e7e637cd555c88a81a8bcf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559647"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066141"
 ---
 # <a name="compensation-pay-frequency"></a>Fréquence de paiement de la rémunération
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Cette entité fournit des informations sur la conversion du taux de rémunérati
 | **Conversion des taux de rémunération horaires**</br>mshr_hourlyconversionfactor</br>*Décimal* | Lecture seule | Facteur de conversion horaire pour la fréquence de rémunération. |
 | **Conversion des taux de rémunération mensuels**</br>mshr_monthlyconversionfactor</br>*Décimal* | Lecture seule | Facteur de conversion mensuel pour la fréquence de rémunération. |
 | **Fréquence de paiement**</br>mshr_payrateconversion</br>*Chaîne* | Lecture seule | Une chaîne unique pour identifier le taux de conversion. |
-| **Période**</br>mshr_period</br>*ensemble d'options de période* | Lecture seule | La période principale pour la conversion de taux de rémunération donnée. |
+| **Période**</br>mshr_period</br>*ensemble d’options de période* | Lecture seule | La période principale pour la conversion de taux de rémunération donnée. |
 | **Conversion des taux de rémunération hebdomadaires**</br>mshr_weeklyconversionfactor</br>*Décimal* | Lecture seule | Facteur de conversion hebdomadaire pour la fréquence de rémunération. |
 | **ID zone de données**</br>mshr_dataareaid</br>*Chaîne* | Lecture seule | Entité juridique (société). |
-| **ID de l'entité Fréquence de paiement de la rémunération**</br>mshr_dirpersonnamehistoricalentityid</br>*GUID* | Généré par le système | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique l'enregistrement. |
+| **ID de l’entité Fréquence de paiement de la rémunération**</br>mshr_dirpersonnamehistoricalentityid</br>*GUID* | Généré par le système | Une valeur d’identificateur global unique (GUID) générée par le système pour identifier de manière unique l’enregistrement. |
 
 ## <a name="example-query-for-payroll-employee"></a>Exemple de requête pour un Collaborateur avec paie
 

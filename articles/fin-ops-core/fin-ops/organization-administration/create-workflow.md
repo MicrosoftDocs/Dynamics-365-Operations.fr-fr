@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: fc08f17a6b3ea1198202c819ffae7d1bd48d2919
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984401"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067956"
 ---
 # <a name="create-workflows-overview"></a>Vue d’ensemble de création des workflows
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique illustre la création d’un workflow.
 
@@ -57,7 +60,7 @@ Suivez la procédure suivante pour configurer les propriétés du workflow.
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configuration des éléments du workflow
 
-Configurez tous les éléments que vous avez déposés sur le canevas. Pour plus d’informations sur la configuration des éléments de workflow, voir les rubriques suivantes :
+Configurez tous les éléments que vous avez déposés sur le canevas. Pour plus d’informations sur la configuration des éléments de workflow, voir les rubriques suivantes :
 
 - [Configurer des tâches manuelles dans un workflow](configure-manual-task-workflow.md)
 - [Configurer des tâches automatiques dans un workflow](configure-automated-task-workflow.md)
@@ -79,7 +82,7 @@ Lorsque vous êtes prêts à enregistrer et à activer le workflow, procédez co
 
 1. Cliquez sur **Enregistrer et fermer** pour fermer l’éditeur de workflow et pour ouvrir la page **Sauvegarder le workflow**.
 2. Entrez des commentaires sur les modifications apportées au workflow, puis cliquez sur **OK**.
-3. Si toutes les erreurs et les avertissements ont été résolus, la page **Activer le workflow** s’affiche. Permet de sélectionner l’une des options suivantes :
+3. Si toutes les erreurs et les avertissements ont été résolus, la page **Activer le workflow** s’affiche. Permet de sélectionner l’une des options suivantes :
 
     - Pour activer cette version du workflow, cliquez sur **Activer la nouvelle version**. Lorsqu’un workflow est activé, les utilisateurs peuvent y soumettre des documents pour traitement.
     - Si vous ne souhaitez pas activer cette version, cliquez sur **Ne pas activer la nouvelle version**. Vous pouvez activer le workflow ultérieurement.

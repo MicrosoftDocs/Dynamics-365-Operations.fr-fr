@@ -2,7 +2,7 @@
 title: Configuration de Finance Insights
 description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 11/19/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827026"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051368"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuration de Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Informations financières combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières. Pour mener à bien les procédures de cette rubrique, vous devez disposer d’un accès Administrateur système et Personnalisateur de système dans le [Centre d’administration de Power Portal](https://admin.powerplatform.microsoft.com/), un accès administrateur système à Dynamics 365 Finance, et un accès pour créer des environnements dans Microsoft Dynamics Lifecycle Services (LCS).
+Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières. Pour mener à bien les procédures de cette rubrique, vous devez disposer d’un accès Administrateur système et Personnalisateur de système dans le [Centre d’administration de Power Portal](https://admin.powerplatform.microsoft.com/), un accès administrateur système à Dynamics 365 Finance, et un accès pour créer des environnements dans Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
 > Les procédures suivantes de configuration de Finance Insights sont valables pour les versions de Dynamics 365 Finance, version 10.0.21 et versions ultérieures.
@@ -100,6 +100,9 @@ Une fois le complément correctement installé, il peut s’écouler jusqu’à 
 
    Une fois le processus **Vérification du statut d’approvisionnement d’informations** exécuté correctement, vous pouvez activer les fonctionnalités Finance Insights dans l’espace de travail **Gestion des fonctionnalités**.
 
+> [!NOTE]
+> Si le processus **Vérification du statut d’approvisionnement d’informations** ne s’exécute pas, accédez à **Administration du système** > **Demandes** > **Tâches par lots**. Dans le champ **Système d’interrogation de l’automatisation des processus**, remplacez la valeur par **Attente** pour lancer le processus. 
+> 
 ## <a name="feedback-and-support"></a>Commentaires et support
 
 Si vous souhaitez fournir des commentaires ou si vous avez besoin d’aide, envoyez un e-mail à [Finance Insights (version préliminaire)](mailto:fiap@microsoft.com).

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901987"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069377"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Gestion des entrepôts
 
@@ -143,6 +143,10 @@ L’authentification avec Azure AD fournit un moyen sécurisé de connecter un a
 Les certificats peuvent être utilisés comme secrets pour prouver l’identité de l’application lorsqu’un jeton est demandé. La partie publique du certificat est chargée dans l’inscription de l’application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l’application mobile Gestion des entrepôts est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
 
 Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l’application mobile Gestion des entrepôts. Pour plus d’informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l’authentification dans Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Configurer l’application mobile Warehouse Management pour les unités d’échelle cloud et périphériques
+
+Quelques étapes supplémentaires sont nécessaires pour exécuter l’application mobile Warehouse Management afin qu’elle fonctionne avec une unité d’échelle cloud ou périphérique. Pour des instructions, voir [Configurer l’application mobile Warehouse Management pour les unités d’échelle périphériques et cloud](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurer l’application en important des paramètres de connexion
 
@@ -306,5 +310,6 @@ Si un appareil est perdu ou compromis, vous devez supprimer son accès à Supply
 
 - [Paramètres utilisateur d’appareil mobile](mobile-device-user-settings.md)
 - [Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management](step-icons-titles.md)
+- [Configurer l’application mobile Warehouse Management pour les unités d’échelle cloud et périphériques](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

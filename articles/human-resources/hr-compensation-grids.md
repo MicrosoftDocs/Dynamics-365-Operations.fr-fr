@@ -2,7 +2,7 @@
 title: Paramétrer les grilles de rémunération
 description: Les grilles de rémunération permettent de définir et de tenir à jour les structures de paie pour les régimes de rémunération fixe.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483815"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071447"
 ---
 # <a name="set-up-compensation-grids"></a>Paramétrer les grilles de rémunération
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ Les grilles de rémunération permettent de définir et de tenir à jour les str
 7. Dans le champ **Type d’ajustement**, sélectionnez une option.
 8. Entrez un nombre dans le champ **Montant d’ajustement**.
 9. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-10. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-11. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-12. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-13. Cliquez sur **Appliquer à la grille**.
-14. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-15. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-16. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-17. Cliquez sur **Appliquer à la grille**.
-18. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-19. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-20. Cliquez sur **Appliquer à la grille**.
-21. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-22. Cliquez sur Appliquer à la grille.
+10. Cliquez sur **Appliquer à la grille**.
     * Nous emploierons maintenant la fonction de modification en masse pour ajuster les points de référence minimum et maximum pour chaque niveau. Cet exemple utilise un écart de 50 %. Le point de référence minimum sera ajusté de -20 % et le point maximum de +20 %.  
-23. Entrez un nombre dans le champ **Montant d’ajustement**.
-24. Dans le champ **Point de référence**, saisissez ou sélectionnez une valeur.
-25. Dans la liste, cochez ou décochez toutes les lignes.
-26. Cliquez sur **Appliquer à la grille**.
-27. Entrez un nombre dans le champ **Montant d’ajustement**.
-28. Dans le champ **Point de référence**, saisissez ou sélectionnez une valeur.
-29. Dans la liste, cochez ou décochez toutes les lignes.
-30. Cliquez sur **Appliquer à la grille**.
+11. Entrez un nombre dans le champ **Montant d’ajustement**.
+12. Dans le champ **Point de référence**, saisissez ou sélectionnez une valeur.
+13. Dans la liste, cochez ou décochez toutes les lignes.
+14. Cliquez sur **Appliquer à la grille**.
+15. Entrez un nombre dans le champ **Montant d’ajustement**.
+16. Dans le champ **Point de référence**, saisissez ou sélectionnez une valeur.
+17. Dans la liste, cochez ou décochez toutes les lignes.
+18. Cliquez sur **Appliquer à la grille**.
 
 
 

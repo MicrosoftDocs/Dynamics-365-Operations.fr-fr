@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 872b477ae73a374cd62b9e86048bfc27c84064c1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781366"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060918"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Utilisation des portails Microsoft Power Apps avec le modèle de données de partie
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-[!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 La solution d’orchestration de l’application de double écriture, version 2.0.999.0 et versions ultérieures, inclut des modifications du modèle de données pour le carnet d’adresses global et de partie pour les tables Compte et Contact. Les modifications autorisent les relations plusieurs-à-plusieurs qui prennent en charge des scénarios d’entreprise avancés. Ces modifications ne sont pas prises en charge par les rôles web du portail, notamment du portail client, qui sont livrés prêts à l’emploi ou qui existaient dans votre environnement avant l’installation de la double écriture. Pour que les rôles web fonctionnent comme prévu, vous devez créer de nouveaux rôles web à l’aide du nouveau modèle de données. 
 

@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964959"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075371"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Embauche d’un candidat via le recrutement
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients des ressources humaines sur l’infrastructure Finance.  
+
 
 Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l’enregistrement du candidat a le statut **Employé**. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.
 

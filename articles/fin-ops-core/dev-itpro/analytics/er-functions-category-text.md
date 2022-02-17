@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647558"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075498"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Liste des fonctions ER dans la catégorie de texte
 
@@ -35,6 +35,7 @@ Les fonctions de texte des états électroniques (ER) peuvent être utilisées p
 | [Concaténer](er-functions-text-concatenate.md) | Cette fonction renvoie toutes les chaînes de texte spécifiées en tant que valeur de *Chaîne* après avoir été jointes en une seule chaîne. |
 | [Format](er-functions-text-format.md) | Cette fonction renvoie à la chaîne spécifiée une valeur de *Chaîne* une fois qu’elle a été mise en forme en substituant toutes les occurrences de **%N** par le *N* ième argument. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Cette fonction recherche une valeur *Enum* spécifique dans la source de données d’énumération spécifiée à l’aide du nom d’énumération spécifié en tant que valeur de *Chaîne*. Si la valeur *Enum*, la fonction la renvoie. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Cette fonction recherche une étiquette spécifique pour renvoyer une valeur de type *[Chaîne](er-formula-supported-data-types-primitive.md#string)* qui représente la traduction de l’étiquette spécifiée dans la langue spécifiée. |
 | [GuidValue](er-functions-text-guidvalue.md) | Cette fonction convertit l’entrée spécifiée du type *Chaîne* en un élément de données du type *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Cette fonction analyse les données au format JavaScript Object Notation (JSON) qui sont accessibles au chemin d’accès spécifié et extrait une valeur scalaire basée sur l’ID spécifié. Elle renvoie ensuite la valeur scalaire extraite sous forme de valeur de *Chaîne*. |
 | [Gauche](er-functions-text-left.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre de caractères spécifié à partir du début de la chaîne spécifiée. |

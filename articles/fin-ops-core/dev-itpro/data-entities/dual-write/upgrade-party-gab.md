@@ -9,26 +9,26 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
-ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
+ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8015713"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060477"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Les [modèles Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) vous aide à mettre à niveau les données suivantes en double écriture vers le modèle de partie et de carnet d’adresses globales : données des tables **Compte**, **Contact** et **Fournisseurs** et les adresses postales et électroniques.
 
 Les trois modèles Data Factory suivants sont fournis. Ils facilitent le rapprochement des données des applications Finances et Opérations et des applications d’engagement client.
 
 - **[Modèle de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Mettre à niveau des données vers un schéma dual-write Party-GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les données de **Partie** et de **Contact** associées aux données de **Compte**, **Contact** et **Fournisseur**.
-- **[Modèle d’adresse postale de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Mettre à niveau les données vers le schéma dual-write Party-GAB/Mettre à niveau vers l’adresse postale de partie - GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les adresses postales associées aux données de **Compte**, **Contact** et **Fournisseur**.
-- **[Modèle d’adresse électronique de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) (Mettre à niveau les données vers le schéma dual-write Party-GAB/Mettre à niveau vers l’adresse électronique de la partie - GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les adresses électroniques associées aux données de **Compte**, **Contact** et **Fournisseur**.
+- **[Modèle d’adresse postale de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Mettre à niveau les données vers le schéma dual-write Party-GAB/Mettre à niveau vers l’adresse postale de partie – GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les adresses postales associées aux données de **Compte**, **Contact** et **Fournisseur**.
+- **[Modèle d’adresse électronique de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) (Mettre à niveau les données vers le schéma dual-write Party-GAB/Mettre à niveau vers l’adresse électronique de la partie – GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les adresses électroniques associées aux données de **Compte**, **Contact** et **Fournisseur**.
 
 À la fin du processus, les fichiers de valeurs séparées par des virgules (.csv) suivants sont générés.
 
@@ -57,10 +57,10 @@ Les conditions préalables suivantes doivent être satisfaites avant de pouvoir 
 
 Une mise à niveau nécessite la préparation suivante :
 
-+ **Synchronisation complète :** l’environnement Finance and Operations et l’environnement Customer Engagement sont dans un état entièrement synchronisé pour les tables **Compte (Client)**, **Contact**, et **Fournisseur**.
++ **Synchronisation complète :** l’environnement Finances et Opérations et l’environnement Customer Engagement sont dans un état entièrement synchronisé pour les tables **Compte (Client)**, **Contact**, et **Fournisseur**.
 + **Clés d’intégration** : les tables **Compte (client)**, **Contact** et **Fournisseur** dans les applications Customer Engagement utilisent les clés d’intégration prêtes à l’emploi. Si vous avez personnalisé les clés d’intégration, vous devez personnaliser le modèle.
 + **Numéro de partie :** tous les enregistrements **Compte (Client)**, **Contact** et **Fournisseur** qui seront mis à niveau ont un numéro de partie. Les enregistrements qui n’ont pas de numéro de partie seront ignorés. Si vous souhaitez mettre à niveau ces enregistrements, ajoutez-leur un numéro de partie avant de commencer le processus de mise à niveau.
-+ **Panne du système** : pendant le processus de mise à niveau, vous devrez mettre hors connexion les environnements Finance and Operations et Customer Engagement.
++ **Panne du système** : pendant le processus de mise à niveau, vous devrez mettre hors connexion les environnements Finances et Opérations et Customer Engagement.
 + **Instantané** : prenez un instantané des applications Finances et Opérations et des applications d’engagement client. Vous pouvez utiliser les instantanés pour restaurer l’état précédent si nécessaire.
 
 ## <a name="deployment"></a>Déploiement
@@ -381,7 +381,7 @@ Cette section vous guide à travers les étapes de chaque modèle Data Factory.
 3. L’étape 3 déduplique et fusionne les données de compte, de contact et d’adresse du fournisseur à partir de l’application Customer Engagement.
 4. L’étape 4 crée des fichiers .csv pour l’application Finances et Opérations pour créer de nouvelles données d’adresse basées sur les adresses de compte, de contact et de fournisseur.
 5. L’étape 5-1 crée des fichiers .csv pour l’application Customer Engagement afin de créer toutes les données d’adresse, en fonction de l’application Finances et Opérations et de l’application d’engagement client.
-6. L’étape 5-2 convertit les fichiers .csv dans le format d’importation Finance and Operations pour l’importation manuelle.
+6. L’étape 5-2 convertit les fichiers .csv dans le format d’importation Finances et Opérations pour l’importation manuelle.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv

@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487839"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065704"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Introduction
 
@@ -51,7 +54,7 @@ Si vous sélectionnez le nom de la vue, le sélecteur de vue est ouvert et indiq
 
 - **Vue standard** – La vue **Standard** est la vue prédéfinie de la page, où aucune personnalisation explicite n’est appliquée.
 - **Vues personnelles** – Les vues sans verrou représentent vos vues personnelles. Ce sont des vues que vous avez créées ou qu’un administrateur vous a données.
-- **Vues verrouillées** – Certaines vues (par exemple la vue **Standard** et toutes les vues publiées pour votre rôle) ont un symbole du verrou en regard d’elles dans le sélecteur de vue. Ce symbole indique que vous ne pouvez pas modifier ces vues. Toutefois, les modifications qui reflètent l’utilisation de la page sont automatiquement enregistrées. Ces modifications incluent des modifications de la largeur d’une colonne de grille et des modifications de l’état développé ou réduit d’un organisateur. Toutefois, si vous disposez de privilèges de personnalisation, vous pouvez utiliser l’action **Enregistrer une copie** pour créer une vue personnelle basée sur la vue verrouillée.
+- **Vues verrouillées** – Certaines vues (par exemple la vue **Standard** et toutes les vues publiées pour votre rôle) ont un symbole du verrou en regard d’elles dans le sélecteur de vue. Ce symbole indique que vous ne pouvez pas modifier ces vues. Toutefois, les modifications qui reflètent l’utilisation de la page sont automatiquement enregistrées. Ces modifications incluent des modifications de la largeur d’une colonne de grille et des modifications de l’état développé ou réduit d’un raccourci. Toutefois, si vous disposez de privilèges de personnalisation, vous pouvez utiliser l’action **Enregistrer une copie** pour créer une vue personnelle basée sur la vue verrouillée.
 - **Nouvelles vues** – Les vues publiées qui n’ont pas encore été ouvertes sont marquées d’un symbole d’étincelle à gauche du nom de vue.
 
 Pour basculer vers une autre vue, ouvrez d’abord le sélecteur d’affichage et activer l’affichage que vous souhaitez charger. 
@@ -212,7 +215,7 @@ Pour obtenir une liste des problèmes connus liés aux vues enregistrées, voir 
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Comment activer des vues enregistrées dans mon environnement ?
 
 > [!NOTE]
-> La fonctionnalité **Vues enregistrées** nécessite l’activation du système de personnalisation dans Finance and Operations. Si la personnalisation est désactivée pour tout l’environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
+> La fonctionnalité **Vues enregistrées** nécessite l’activation du système de personnalisation dans Finances et Opérations. Si la personnalisation est désactivée pour tout l’environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
 
 Vous pouvez activer et désactiver la fonctionnalité **Vues enregistrées** par le biais de la gestion des fonctionnalités dans n’importe quel environnement. Une fois la fonctionnalité activée, les vues enregistrées seront activées dans toutes les sessions utilisateur suivantes.
 

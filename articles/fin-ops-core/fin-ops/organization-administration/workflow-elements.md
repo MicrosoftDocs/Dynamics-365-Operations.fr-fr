@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2de1f9f3f1785236f9761dd865d9a5500ab044752077cc42a7e0da9df175f2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749336"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070448"
 ---
 # <a name="workflow-elements"></a>Éléments du workflow
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique décrit les divers éléments qui constituent un workflow.
 
@@ -31,25 +34,25 @@ Un workflow est constitué d’éléments. Les sections suivantes décrivent cha
 
 ## <a name="tasks"></a>Tâches
 
-Une *tâche* est une unité de travail qui doit être réalisée. Deux types de tâche peuvent être ajoutés à un workflow : des tâches manuelles et des tâches automatiques.
+Une *tâche* est une unité de travail qui doit être réalisée. Deux types de tâche peuvent être ajoutés à un workflow : des tâches manuelles et des tâches automatiques.
 
 ### <a name="manual-task"></a>Tâche manuelle
 
-Une *tâche manuelle* est une unité de travail qui doit être réalisée par un utilisateur. Par exemple, un workflow d’état de dépenses peut comporter des tâches manuelles qui nécessitent les actions suivantes des utilisateurs affectés :
+Une *tâche manuelle* est une unité de travail qui doit être réalisée par un utilisateur. Par exemple, un workflow d’état de dépenses peut comporter des tâches manuelles qui nécessitent les actions suivantes des utilisateurs affectés :
 
 - révision des reçus soumis avec un état de dépenses ;
 - appel du responsable d’un employé.
 
 ### <a name="automated-task"></a>Tâche automatique
 
-Une *tâche automatique* est une unité de travail qui doit être réalisée par le système. Aucune intervention n’est requise. Par exemple, un workflow de commande client peut comporter des tâches automatiques qui nécessitent les actions suivantes du système :
+Une *tâche automatique* est une unité de travail qui doit être réalisée par le système. Aucune intervention n’est requise. Par exemple, un workflow de commande client peut comporter des tâches automatiques qui nécessitent les actions suivantes du système :
 
 - vérification d’un crédit ;
 - création d’un enregistrement client pour le client, s’il n’en existe pas déjà un.
 
 ## <a name="approval-processes"></a>Processus d’approbation
 
-Un *processus d’approbation* est un processus qui consiste en différentes étapes. À chaque étape d’approbation, l’utilisateur peut effectuer les actions suivantes :
+Un *processus d’approbation* est un processus qui consiste en différentes étapes. À chaque étape d’approbation, l’utilisateur peut effectuer les actions suivantes :
 
 - approuver le document ;
 - rejeter le document ;

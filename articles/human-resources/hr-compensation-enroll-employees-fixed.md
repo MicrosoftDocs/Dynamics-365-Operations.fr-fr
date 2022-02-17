@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431091"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071496"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Inscrire un employé à un régime de rémunération fixe
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,10 +34,10 @@ La gestionnaire de rémunération et avantages peut affecter des employés à de
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Dans le champ **Poste**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Le niveau qui s’affiche provient du niveau de rémunération de la tâche sur le poste. Le niveau doit être défini sur cette tâche pour que la rémunération puisse être affectée à l’employé.  
-6. Dans le champ **Régime**, sélectionnez le régime de rémunération fixe pour l’employé. La recherche est filtrée pour afficher uniquement les régimes auxquels l’employé peut prétendre en fonction des règles d’admissibilité.
+    * Le niveau affiché provient du raccourci **Compensation** > champ **Niveau**  depuis la **Tâche** qui est attribuée à la **Position**. Le niveau doit être défini sur cette tâche pour que la rémunération puisse être affectée à l’employé.  
+6. Dans le champ **Régime**, sélectionnez le régime de rémunération fixe pour l’employé. La recherche du **plan** est filtrée pour afficher uniquement les régimes auxquels l’employé peut prétendre en fonction des **règles d’admissibilité**.
 7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-    * Les dates **d’effet** et **d'expiration** pour la valeur de rémunération sont définies par défaut entre la date de début et de fin de l’affectation de poste du collaborateur. Vous pouvez modifier ces dates si nécessaire.  
+    * Les dates **d’effet** et **d’expiration** pour la valeur de rémunération sont définies par défaut entre la date de début et de fin de l’affectation de poste du collaborateur. Vous pouvez modifier ces dates si nécessaire.  
     * Si le régime de rémunération fixe est un régime à étapes, sélectionnez l’étape contenant le taux de salaire approprié pour l’employé. Si le régime de rémunération fixe est un régime de niveau, entrez le taux de salaire approprié pour l’employé. Le taux de salaire sera validé par rapport aux paramètres de tolérance pour le plan, et les points de référence minimum et maximum pour le niveau de rémunération de la tâche.  
 8. Cliquez sur **OK**.
 

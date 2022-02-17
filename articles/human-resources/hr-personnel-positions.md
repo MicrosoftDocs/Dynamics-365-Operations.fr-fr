@@ -15,14 +15,17 @@ ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c8311df31326faeadd280585115338317b19125d54f3a526b4ccc6ef6684ad2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 95abd7548d23ef1b4f5fc31ebaa818e06e179d60
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754750"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068817"
 ---
 # <a name="positions"></a>Postes
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -44,7 +47,7 @@ Le titre du poste est utilisé pour référencer le titre d’un employé. (Le t
 > [!NOTE]
 > Un employé ne peut pas être affecté à un poste à une date antérieure à la date de disponibilité.
 >
-> Un paramètre de l’onglet **Postes** de la page **Paramètres partagés des ressources humaines** contrôle le comportement d’affectation des employés. Vous devez sélectionner l’une des valeurs suivantes :
+> Un paramètre de l’onglet **Postes** de la page **Paramètres partagés des ressources humaines** contrôle le comportement d’affectation des employés. Vous devez sélectionner l’une des valeurs suivantes :
 >
 > - **Toujours** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Lorsque des postes sont créés, la date et l’heure **Disponible pour affectation** de l’onglet **Général** de la page **Poste** sont automatiquement définis à la date et à l’heure de création.
 > - **Jamais** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Si vous sélectionnez cette option, vous devez ouvrir la page **Poste** pour chaque nouveau poste au fur et à mesure qu’il devient disponible. Ensuite, sur l’onglet **Général**, entrez la date **Disponible pour affectation** afin d’activer l’affectation des employés. Si vous sélectionnez cette option, la date d’affectation de l’employé sera définie sur **Jamais** par défaut lorsque vous tenterez d’affecter l’employé.

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898438"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067577"
 ---
 # <a name="configure-employee-self-service"></a>Configurer le libre-service employé
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,12 +41,12 @@ Dans Microsoft Dynamics 365 Human Resources, vous pouvez configurer des vignette
 
    | Champ | Description |
    | --- | --- |
-   | **Code de type de plan** | Type de régime qui s'affiche lorsque cette vignette est sélectionnée dans **Libre-service des avantages**. |
+   | **Code de type de plan** | Type de régime qui s’affiche lorsque cette vignette est sélectionnée dans **Libre-service des avantages**. |
    | **ID vignette** | Identificateur unique de la vignette. |
-   | **Texte d'étiquette de vignette** | Texte qui sera affiché pour la vignette dans le **Libre-service des avantages**. |
+   | **Texte d’étiquette de vignette** | Texte qui sera affiché pour la vignette dans le **Libre-service des avantages**. |
    | **Description** | Description de la vignette. |
    | **Image d’arrière-plan de la vignette** | URL de l’image à utiliser pour la vignette (facultatif). |
-   | **Suivre la progression des affiliations** | Sélectionnez cette option pour suivre la progression de l'affiliation pour ce type de régime. Par exemple, vous pouvez avoir des régimes créés où **Type de régime = Autre**. Ces régimes peuvent être des régimes facultatifs pour lesquels vous ne souhaitez pas suivre la progression de l'affiliation. Si vous ne sélectionnez pas ce type de régime, il sera ignoré lors du suivi de la progression ou de l'achèvement de l'affiliation dans l'onglet **Affiliation**. Ce paramètre s'applique au type de régime sélectionné pour toutes les périodes et entités juridiques. |
+   | **Suivre la progression des affiliations** | Sélectionnez cette option pour suivre la progression de l’affiliation pour ce type de régime. Par exemple, vous pouvez avoir des régimes créés où **Type de régime = Autre**. Ces régimes peuvent être des régimes facultatifs pour lesquels vous ne souhaitez pas suivre la progression de l’affiliation. Si vous ne sélectionnez pas ce type de régime, il sera ignoré lors du suivi de la progression ou de l’achèvement de l’affiliation dans l’onglet **Affiliation**. Ce paramètre s’applique au type de régime sélectionné pour toutes les périodes et entités juridiques. |
 
 4. Cliquez sur **Enregistrer**.
 
@@ -57,12 +60,12 @@ Dans Microsoft Dynamics 365 Human Resources, vous pouvez configurer des vignette
 
    | Champ | Description |
    | --- | --- |
-   | **ID de crédit d’avantage** | Régimes du programme de crédit flexible qui s'affichent lorsque cette vignette est sélectionnée dans **Libre-service des avantages**. |
+   | **ID de crédit d’avantage** | Régimes du programme de crédit flexible qui s’affichent lorsque cette vignette est sélectionnée dans **Libre-service des avantages**. |
    | **ID vignette** | Identificateur unique de la vignette. |
-   | **Texte d'étiquette de vignette** | Texte qui sera affiché pour la vignette dans le **Libre-service des avantages**. |
+   | **Texte d’étiquette de vignette** | Texte qui sera affiché pour la vignette dans le **Libre-service des avantages**. |
    | **Description** | Description de la vignette. |
    | **Image d’arrière-plan de la vignette** | URL de l’image à utiliser pour la vignette (facultatif). |
-   | **Suivre la progression des affiliations** | Sélectionnez cette option pour suivre la progression de l'affiliation pour ce type de régime. Par exemple, vous pouvez avoir des régimes créés où **Type de régime = Autre**. Ces régimes peuvent être des régimes facultatifs pour lesquels vous ne souhaitez pas suivre la progression de l'affiliation. Si vous ne sélectionnez pas ce type de régime, il sera ignoré lors du suivi de la progression ou de l'achèvement de l'affiliation dans l'onglet **Affiliation**. Ce paramètre s'applique au type de régime sélectionné pour toutes les périodes et entités juridiques. |
+   | **Suivre la progression des affiliations** | Sélectionnez cette option pour suivre la progression de l’affiliation pour ce type de régime. Par exemple, vous pouvez avoir des régimes créés où **Type de régime = Autre**. Ces régimes peuvent être des régimes facultatifs pour lesquels vous ne souhaitez pas suivre la progression de l’affiliation. Si vous ne sélectionnez pas ce type de régime, il sera ignoré lors du suivi de la progression ou de l’achèvement de l’affiliation dans l’onglet **Affiliation**. Ce paramètre s’applique au type de régime sélectionné pour toutes les périodes et entités juridiques. |
 
 4. Cliquez sur **Enregistrer**.
 

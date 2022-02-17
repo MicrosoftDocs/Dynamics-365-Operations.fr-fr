@@ -1,6 +1,6 @@
 ---
 title: Résolution générale des problèmes
-description: Cette rubrique fournit des informations sur la résolution générale des problèmes liés à l’intégration de la double écriture entre les applications Finance and Operations et Dataverse.
+description: Cette rubrique fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781172"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062336"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cette rubrique fournit des informations sur la résolution générale des problèmes liés à l’intégration de la double écriture entre les applications Finance and Operations et Dataverse.
+
+Cette rubrique fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
@@ -44,37 +44,37 @@ Pour afficher le journal de suivi, procédez comme suit.
 2. Recherchez les journaux de suivi où la colonne **Nom du type** est définie sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finance and Operations
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finances et Opérations
 
 **Rôle requis pour afficher les erreurs :** Administrateur système
 
-Des erreurs de double écriture qui proviennent de Dataverse peuvent apparaître dans l’application Finance and Operations. Pour activer la journalisation détaillée des erreurs, procédez comme suit :
+Des erreurs de double écriture qui proviennent de Dataverse peuvent apparaître dans l’application Finances et Opérations. Pour activer la journalisation détaillée des erreurs, procédez comme suit :
 
-1. Pour toutes les configurations de projet dans l’application Finance and Operations, il y a un indicateur **IsDebugMode** sur la table **DualWriteProjectConfiguration**.
-2. Ouvrez la table **DualWriteProjectConfiguration** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finance and Operations et ajoutez **DualWriteProjectConfiguration** à la fiche. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
+1. Pour toutes les configurations de projet dans l’application Finances et Opérations, il y a un indicateur **IsDebugMode** sur la table **DualWriteProjectConfiguration**.
+2. Ouvrez la table **DualWriteProjectConfiguration** à l’aide du module complémentaire Excel. Pour utiliser le complément, activez le mode conception dans le module complémentaire Excel Finances et Opérations et ajoutez **DualWriteProjectConfiguration** à la fiche. Pour plus d’informations, voir [Afficher et mettre à jour les données d’entité avec Excel](../../office-integration/use-excel-add-in.md).
 3. Définissez **IsDebugMode** sur **Oui** sur le projet.
 4. Exécutez le scénario qui génère des erreurs.
 5. Les journaux détaillés sont disponibles dans la table **DualWriteErrorLog**.
 6. Pour rechercher des données sur le navigateur de table, utilisez le lien suivant : `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, remplaçant `999` comme requis.
 7. Mettez à jour à nouveau après [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), qui est disponible pour les mises à jour de plate-forme 37 et versions ultérieures. Si vous avez installé ce correctif, le mode de débogage capturera plus de journaux.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Vérifier les erreurs de synchronisation sur la machine virtuelle pour l’application Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Vérifier les erreurs de synchronisation sur la machine virtuelle pour l’application Finances et Opérations
 
 **Rôle requis pour afficher les erreurs :** Administrateur système
 
 1. Connectez-vous à Microsoft Dynamics Lifecycle Services (LCS).
 2. Ouvrez le projet LCS que vous avez choisi pour effectuer le test de double écriture.
 3. Sélectionnez la vignette **Environnements hébergés dans le cloud**.
-4. Utilisez Remote Desktop pour vous connecter à la machine virtuelle pour l’application Finance and Operations. Utilisez le compte local affiché dans LCS.
+4. Utilisez Remote Desktop pour vous connecter à la machine virtuelle pour l’application Finances et Opérations. Utilisez le compte local affiché dans LCS.
 5. Ouvrez l’observateur d’événements.
 6. Sélectionnez **Journaux des applications et des services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Opérationnel**.
 7. Consultez la liste des erreurs récentes.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Dissocier et lier un autre environnement Dataverse depuis une application Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Supprimer un lien et lier un autre environnement Dataverse avec une application Finances et Opérations
 
-**Rôle requis pour dissocier l’environnement :** Administrateur système pour l’application Finance and Operations ou Dataverse.
+**Rôle requis pour dissocier l’environnement :** Administrateur système pour l’application Finances et Opérations ou Dataverse.
 
-1. Connectez-vous à l’application Finance and Operations.
+1. Connectez-vous à l’application Finances et Opérations.
 2. Accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Double écriture**.
 3. Sélectionnez toutes les mises en correspondance en cours d’exécution et sélectionnez **Arrêter**.
 4. Cliquez sur **Supprimer le lien avec l’environnement**.

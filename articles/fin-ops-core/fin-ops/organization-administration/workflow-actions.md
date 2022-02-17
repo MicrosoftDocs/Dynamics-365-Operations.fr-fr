@@ -14,20 +14,23 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5750ac5814525351e6688b0aa49eee3811f7785775a91f3394c1a481de8adf2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749362"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070931"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Actions dans les processus d’approbation d’un workflow
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Cet article décrit les mesures que peut prendre chaque participant au processus d’approbation de workflow.
 
-Un workflow peut impliquer plusieurs groupes de personnes : l’expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d’état de dépenses suivant, Sam est l’expéditeur, les membres de la file d’attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.
+Un workflow peut impliquer plusieurs groupes de personnes : l’expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d’état de dépenses suivant, Sam est l’expéditeur, les membres de la file d’attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.
 
 [![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
@@ -41,7 +44,7 @@ L’expéditeur commence une instance de workflow en soumettant un document pour
 
 Une tâche peut être affectée à plusieurs personnes ou à une file d’attente des éléments de travail contrôlée par plusieurs personnes. Toutefois, seule une personne peut réaliser une tâche. Supposons que Sam ait soumis un état de dépenses et qu’il ait dirigé ses reçus vers le département des états de dépenses de son organisation pour révision.
 
-Les membres du département États de dépenses d’Adventure Works surveillent la file d’attente. Supposons que Julie, membre de ce département, ait accepté la tâche de révision de l’état de dépenses et des reçus de Sam. Elle peut désormais effectuer l’une des actions suivantes : terminer, rejeter, déléguer, demander une modification, réaffecter ou lancer.
+Les membres du département États de dépenses d’Adventure Works surveillent la file d’attente. Supposons que Julie, membre de ce département, ait accepté la tâche de révision de l’état de dépenses et des reçus de Sam. Elle peut désormais effectuer l’une des actions suivantes : terminer, rejeter, déléguer, demander une modification, réaffecter ou lancer.
 
 > [!NOTE]
 > Les actions disponibles peuvent varier selon la façon dont le développeur du logiciel a conçu la tâche.
@@ -108,7 +111,7 @@ Maria agit alors au nom de John. Si Maria décide qu’il est nécessaire d’ap
 
 ## <a name="actions-that-an-approver-can-perform"></a>Actions qu’un approbateur peut effectuer
 
-Lorsqu’un document est affecté à un approbateur, celui-ci peut effectuer l’une des actions suivantes : approuver, rejeter, déléguer ou demander des modifications.
+Lorsqu’un document est affecté à un approbateur, celui-ci peut effectuer l’une des actions suivantes : approuver, rejeter, déléguer ou demander des modifications.
 
 ### <a name="approve"></a>Approuver
 

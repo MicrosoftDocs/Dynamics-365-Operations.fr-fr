@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781342"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060330"
 ---
-# <a name="party-and-global-address-book"></a>Carnet d’adresses global et de la partie
+# <a name="party-and-global-address-book"></a>Partie et carnet d’adresses global
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Le *carnet d’adresses global* et de la *partie* sont des concepts des applications Finance and Operations. Une partie peut être une personne ou une organisation. Il est pratique de stocker et de gérer globalement les propriétés d’une partie, comme le nom, la langue, les contacts et les adresses. Ensuite, lorsque la valeur d’une propriété change à un endroit, le changement est répercuté à tous les endroits où la partie est impliquée.
+
+Le *carnet d’adresses global* et de la *partie* sont des concepts des applications Finances et Opérations. Une partie peut être une personne ou une organisation. Il est pratique de stocker et de gérer globalement les propriétés d’une partie, comme le nom, la langue, les contacts et les adresses. Ensuite, lorsque la valeur d’une propriété change à un endroit, le changement est répercuté à tous les endroits où la partie est impliquée.
 
 ## <a name="party"></a>Tiers
 
@@ -46,7 +46,7 @@ L’illustration suivante montre le modèle de données pour la partie :
 > [!TIP]
 > Lorsque vous essayez de créer un nouvel enregistrement de compte, utilisez le champ **Partie** pour rechercher l’enregistrement par nom. De cette façon, si vous trouvez l’enregistrement, il vous suffit de le sélectionner. Le système remplit ensuite automatiquement toutes les données à partir de la partie. Vous n’avez pas besoin de saisir manuellement tous les champs obligatoires. Ce même comportement existe sur les pages **Compte**, **Contact** et **Fournisseur** prêtes à l’emploi.
 
-La double écriture ne prend pas en charge tous les rôles de partie des applications Finance and Operations. Pour une liste complète des rôles de partie, voir [Vue d’ensemble du carnet d’adresses global](../../../fin-ops/organization-administration/overview-global-address-book.md).
+La double écriture ne prend pas en charge tous les rôles de partie des applications Finances et Opérations. Pour une liste complète des rôles de partie, voir [Vue d’ensemble du carnet d’adresses global](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Carnet d’adresses global
 
@@ -75,7 +75,7 @@ La table **Contact** peut stocker les types de ligne suivants :
 |----------|-------------|
 | Une personne qui est un client (par exemple un contact commercialisable ou un client B2C). | Un enregistrement de contact agrégé où le champ **Société** n’est pas vide et le champ **Est un client** est défini sur **Oui**. |
 | Une personne qui est un fournisseur (par exemple, un propriétaire unique comme un fournisseur). | Un enregistrement de contact agrégé où le champ **Société** n’est pas vide et le champ **Est un fournisseur** est défini sur **Oui**. |
-| Une personne qui est à la fois un client et un fournisseur | Un enregistrement de contact agrégé où le champ **Société** n’est pas vide et le champ **Est un client** est défini sur **Oui**, et le champ **Est un fournisseur** est défini sur **Oui**. Une personne peut être à la fois un producteur d’un produit et un consommateur d’un autre produit. Les applications Finance and Operations et la double écriture prennent en charge cette relation. |
+| Une personne qui est à la fois un client et un fournisseur | Un enregistrement de contact agrégé où le champ **Société** n’est pas vide et le champ **Est un client** est défini sur **Oui**, et le champ **Est un fournisseur** est défini sur **Oui**. Une personne peut être à la fois un producteur d’un produit et un consommateur d’un autre produit. Les applications Finances et Opérations et la double écriture prennent en charge cette relation. |
 | Une personne qui est une personne de contact pour une organisation, mais qui n’est ni un client ni un fournisseur. | Un enregistrement de contact non agrégé où le champ **Société** n’est pas vide et le champ **Est un client** est défini sur **Non**, et le champ **Est un fournisseur** est défini sur **Non**. |
 
 ## <a name="contact-for-party-table"></a>Contact pour la table Partie
@@ -114,8 +114,8 @@ Un nouvel onglet nommé **Adresses** a été introduit sur les pages **Compte**,
 La grille comprend les colonnes suivantes :
 
 + **Rôles d’adresse postale** – Le but de l’adresse postale.
-+ **Est principal** - Valeur qui indique si l’adresse est l’adresse principale.
-+ **Numéro d’adresse** - L’ordre des adresses.
++ **Est principal** – Valeur qui indique si l’adresse est l’adresse principale.
++ **Numéro d’adresse** – L’ordre des adresses.
 
 Vous pouvez utiliser le bouton **Nouvelle adresse** au-dessus de la grille pour créer autant d’adresses postales que vous le souhaitez.
 
@@ -142,7 +142,7 @@ Vous pouvez utiliser le bouton **Nouvelle adresse électronique** au-dessus de l
 Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets, par exemple des onglets **Résumé** et **Détails**. Les coordonnées affichées sur l’onglet **Détails** sont des copies en lecture seule de l’adresse électronique principale, comme le téléphone principal, l’e-mail principal, le téléphone principal, le télécopieur principal et l’identifiant Twitter principal. Au cours du processus de qualification des prospects, vous pouvez fournir un numéro de téléphone professionnel et un numéro de téléphone mobile. Le numéro de téléphone professionnel est considéré comme téléphone principal si **IsMobile=No** et le numéro de téléphone mobile est considéré comme téléphone secondaire si **IsMobile=Yes**.
 
 > [!TIP]
-> Utilisez les onglets **Adresses** et **Adresses électroniques** sur les formulaires **Compte** et **Contact** pour gérer les adresses postales et électroniques. Cela garantit que les données d’adresse se synchronisent avec les applications Finance and Operations.
+> Utilisez les onglets **Adresses** et **Adresses électroniques** sur les formulaires **Compte** et **Contact** pour gérer les adresses postales et électroniques. Cela garantit que les données d’adresse se synchronisent avec les applications Finances et Opérations.
 
 ## <a name="setup"></a>Paramétrage
 
@@ -152,7 +152,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
 3. Installez la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-gab).
 
-4. Ouvrez l’application Finance and Operations. Accédez au module Gestion des données et sélectionnez l’onglet Double écriture. La page d’administration de la double écriture s’ouvre.
+4. Ouvrez l’application Finances et Opérations. Accédez au module Gestion des données et sélectionnez l’onglet Double écriture. La page d’administration de la double écriture s’ouvre.
 
 5. Appliquez les deux solutions installées aux étapes 2 et 3 à l’aide de la fonction [Appliquer la solution](link-your-environment.md).
 
@@ -230,7 +230,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
 12. Exécutez les mappages dans l’ordre suivant : Si vous obtenez une erreur indiquant « La validation du projet a échoué. Champ de destination manquant ... », ouvrez le mappage et sélectionnez **Actualiser les tables**. Ensuite, exécutez le mappage.
 
-    Application Finance and Operations | Application Customer Engagement  
+    Application de Finances et Opérations | Application Customer Engagement  
     ----------------------------|------------------------
     [Parties CDS](mapping-reference.md#220) | msdyn_parties
     [Emplacements d’adresse postale CDS](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
 Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction avec le carnet d’adresses global et de partie, comme indiqué dans le tableau suivant.
 
-| Application Finance and Operations | Application Customer Engagement | Description |
+| Application de Finances et Opérations | Application Customer Engagement | Description |
 |----------------------------|-------------------------|-------------|
 | [Titres des contacts](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Clients V3](mapping-reference.md#101) | comptes |
@@ -295,10 +295,10 @@ Pour plus d’informations, voir [Référence de mappage en double écriture](ma
 
 ## <a name="known-issues-and-limitations"></a>Problèmes connus et limitations
 
-+ Dans l’application Finance and Operations, lorsque vous créez un client avec l’adresse et que vous l’enregistrez, il est possible que l’adresse ne se synchronise pas avec la table **Adresse**. Cela est dû à un problème de séquençage de plateforme à double écriture. Pour contourner le problème, créez d’abord le client et enregistrez-le. Ajoutez ensuite l’adresse.
-+ Dans les applications Finance and Operations, lorsqu’un enregistrement client a une adresse principale et que vous créez un nouveau contact pour ce client, l’enregistrement hérite d’une adresse principale de l’enregistrement client associé. Cela se produit également pour le contact fournisseur. Dataverse ne prend actuellement pas en charge ce comportement. Si la double écriture est activée, un client contact hérité d’une adresse principale de l’application Finance and Operations est synchronisé avec Dataverse avec son adresse.
++ Dans les applications Finances et Opérations lorsque vous créez un client avec l’adresse et que vous l’enregistrez, il est possible que l’adresse ne se synchronise pas avec la table **Adresse**. Cela est dû à un problème de séquençage de plateforme à double écriture. Pour contourner le problème, créez d’abord le client et enregistrez-le. Ajoutez ensuite l’adresse.
++ Dans les applications Finances et Opérations, lorsqu’un enregistrement client a une adresse principale et que vous créez un nouveau contact pour ce client, l’enregistrement hérite d’une adresse principale de l’enregistrement client associé. Cela se produit également pour le contact fournisseur. Dataverse ne prend actuellement pas en charge ce comportement. Si la double écriture est activée, un client contact hérité d’une adresse principale de l’application Finances et Opérations est synchronisé avec Dataverse avec son adresse.
 + Les adresses électroniques définies sur l’onglet Adresses électroniques des formulaires **Compte**, **Contact** et **Fournisseur** proviennent de la table `msdyn_partyelectronicaddress`. Ces informations ne sont pas transmises aux transactions associées telles que la commande client, le devis et la commande fournisseur. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les enregistrements de compte et de contact continueront à fonctionner sur les transactions telles que la commande client, le devis et le bon de commande.
-+ Dans les applications Finance and Operations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l’action échoue. Il s’agit d’un problème connu.
++ Dans les applications Finances et Opérations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l’action échoue. Il s’agit d’un problème connu.
 
     ![Problème connu avec Ajouter des contacts.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Pour plus d’informations, voir [Référence de mappage en double écriture](ma
 
     ![Problème connu avec Adresse.](media/party-gab-address-issue.png)
 
-+ Vous ne pouvez pas saisir une adresse postale postdatée à l’aide d’une application Finance and Operations avec la double écriture, car Dataverse ne prend pas en charge la validité de la date. Si vous saisissez une adresse postale postdatée à l’aide d’une application Finance and Operations, elle se synchronise complètement avec Dataverse et vous verrez l’adresse sur l’interface utilisateur immédiatement. Toute mise à jour de cet enregistrement entraînera une erreur car il est postdaté et n’est pas présent dans l’application Finance and Operations.
++ Vous ne pouvez pas saisir une adresse postale postdatée à l’aide d’une application Finances et Opérations avec la double écriture, car Dataverse ne prend pas en charge la validité de la date. Si vous saisissez une adresse postale postdatée à l’aide d’une application Finances et Opérations, elle se synchronise complètement avec Dataverse et vous verrez l’adresse sur l’interface utilisateur immédiatement. Toute mise à jour de cet enregistrement entraînera une erreur car il est postdaté et n’est pas présent dans l’application Finances et Opérations.

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d52ff69cfd7a81eb9f19a0ef498c6ceeea77b360
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782354"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062773"
 ---
 # <a name="note-integration"></a>Intégration d’une note
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Au cours des processus métier, les utilisateurs de Microsoft Dynamics 365 recueillent souvent des informations sur leurs clients. Ces informations sont enregistrées sous forme d’activités et de notes. Cette rubrique décrit l’intégration des données d’une note en double écriture.
 
@@ -30,7 +30,7 @@ Les informations client peuvent être classées des manières suivantes :
 + **Informations exploitables pour un utilisateur Dynamics 365** – Par exemple, un client qui achète une unité Surface entre des instructions spéciales indiquant que l’appareil doit être mis dans un emballage cadeau avant la livraison. Ces instructions constituent des informations exploitables qui doivent être gérées par l’employé de Contoso responsable de l’emballage.
 + **Informations non exploitables** – Par exemple, un client visite le magasin Contoso et, au cours de sa conversation avec un collaborateur du magasin, exprime son intérêt pour les jeux et accessoires de jeux *Halo*. Le collaborateur du magasin prend note de ces informations. Le moteur de recommandations de produits l’utilise ensuite pour faire des recommandations au client.
 
-En général, les informations exploitables sont capturées en tant qu’*activités* dans les applications Finance and Operations et les applications Customer Engagement. En général, les informations non exploitables sont capturées en tant que *notes* dans les applications Finance and Operations et en tant qu’*annotations* dans les applications Customer Engagement.
+En général, les informations exploitables sont capturées en tant qu’*activités* dans les applications Finances et Opérations et les applications Customer Engagement. En général, les informations non exploitables sont capturées en tant que *notes* dans les applications Finances et Opérations et en tant qu’*annotations* dans les applications Customer Engagement.
 
 > [!TIP]
 > Bien que les notes soient destinées à des informations non exploitables, les applications ne vous empêcheront pas de les utiliser pour stocker et gérer des informations exploitables si vous souhaitez les utiliser de cette manière.
@@ -39,7 +39,7 @@ Microsoft publie actuellement des fonctionnalités pour l’intégration des not
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Créer une note dans une application Customer Engagement
 
-Pour créer une note dans une application Customer Engagement, puis la synchroniser avec une application Finance and Operations, procédez comme suit.
+Pour créer une note dans une application Customer Engagement, puis la synchroniser avec une application Finances et Opérations, procédez comme suit.
 
 1. Dans l’application Customer Engagement, ouvrez l’enregistrement de compte d’un client.
 2. Dans le volet **Chronologie**, sélectionnez le signe plus (**+**), puis sélectionnez **Note** pour créer une note.
@@ -54,7 +54,7 @@ Pour créer une note dans une application Customer Engagement, puis la synchroni
 
     ![Nouvelle note sur la chronologie du client.](media/notes-ce-3.png)
 
-4. Connectez-vous à l’application Finance and Operations et ouvrez le même enregistrement client. Notez que le bouton **Pièces jointes** (symbole de trombone) dans le coin supérieur droit indique que l’enregistrement a une pièce jointe.
+4. Connectez-vous à l’application Finances et Opérations et ouvrez le même enregistrement client. Notez que le bouton **Pièces jointes** (symbole de trombone) dans le coin supérieur droit indique que l’enregistrement a une pièce jointe.
 
     ![Notification concernant une pièce jointe.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Pour créer une note dans une application Customer Engagement, puis la synchroni
 
     ![Note de l’application Customer Engagement.](media/notes-ce-5.png)
 
-Toutes les mises à jour de la note sont synchronisées entre l’application Finance and Operations et l’application Customer Engagement.
+Toutes les mises à jour de la note sont synchronisées entre l’application Finances et Opérations et l’application Customer Engagement.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Créer une note dans une application Finance and Operations
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Créer une note dans une application Finances et Opérations
 
-Vous pouvez également créer une note dans une application Finance and Operations, puis la synchroniser avec une application Customer Engagement.
+Vous pouvez également créer une note dans une application Finances et Opérations, puis la synchroniser avec une application Customer Engagement.
 
-Pour créer une note dans une application Finance and Operations, puis la synchroniser avec une application Customer Engagement, procédez comme suit.
+Pour créer une note dans une application Finances et Opérations, puis la synchroniser avec une application Customer Engagement, procédez comme suit.
 
-1. Dans l’application Finance and Operations, sur la page **Pièces jointes**, sélectionnez **Nouveau** \> **Note**.
+1. Dans l’application Finances et Opérations, sur la page **Pièces jointes**, sélectionnez **Nouveau** \> **Note**.
 
-    ![Création d’une note dans l’application Finance and Operations.](media/notes-fo-1.png)
+    ![Créez une note dans l’application Finances et Opérations.](media/notes-fo-1.png)
 
 2. Entrez un titre et des instructions brèves, puis sélectionnez **Enregistrer**.
 
@@ -84,19 +84,19 @@ Pour créer une note dans une application Finance and Operations, puis la synchr
 
 Vous pouvez classer une note comme interne ou externe.
 
-- Dans l’application Finance and Operations, sur la page **Pièces jointes**, ouvrez la note, puis, dans le champ **Restriction**, sélectionnez **Interne** ou **Externe**.
+- Dans l’application Finances et Opérations, sur la page **Pièces jointes**, ouvrez la note, puis, dans le champ **Restriction**, sélectionnez **Interne** ou **Externe**.
 
     ![Champ de restriction.](media/notes-fo-4.png)
 
 Vous pouvez également créer une URL.
 
-1. Dans l’application Finance and Operations, sur la page **Pièces jointes**, sélectionnez **Nouveau** \> **URL**.
+1. Dans l’application Finances et Opérations, sur la page **Pièces jointes**, sélectionnez **Nouveau** \> **URL**.
 2. Entrez un titre et l’URL.
 3. Dans le champ **Restriction**, sélectionnez **Interne** ou **Externe**.
 
-    ![Création d’une URL dans l’application Finance and Operations.](media/notes-fo-5.png)
+    ![Créez une URL dans l’application Finances et Opérations.](media/notes-fo-5.png)
 
-4. Sélectionnez **Enregistrer**.
+4. Cliquez sur **Enregistrer**.
 
     Étant donné que les applications Customer Engagement n’ont pas de type d’URL, l’URL est intégrée à la double écriture en tant que note.
 
@@ -109,7 +109,7 @@ Vous pouvez également créer une URL.
 
 L’intégration de notes comprend un ensemble de mappages de tables qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| Application Finance and Operations | Application Customer Engagement | Description |
+| Application de Finances et Opérations | Application Customer Engagement | Description |
 |----------------------------|-------------------------|-------------|
 | [Pièces jointes clients](mapping-reference.md#230) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux clients (pour les organisations et les personnes). |
 | [Pièces jointes de document fournisseur](mapping-reference.md#231) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux fournisseurs (pour les organisations et les personnes). |

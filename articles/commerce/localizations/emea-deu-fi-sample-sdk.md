@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 51107731090b77e75a0e5a8c91b052d494b452e4
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944913"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077063"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Allemagne (héritées)
 
@@ -156,13 +156,13 @@ Dans la procédure précédente, vous avez activé les extensions qui sont des c
 
 ## <a name="design-of-extensions"></a>Conception des extensions
 
-L’échantillon d’intégration du service d’enregistrement fiscal pour l’Allemagne est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+L’échantillon d’intégration du service d’enregistrement fiscal pour l’Allemagne est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Conception d’extension Commerce Runtime
 
 Le but de l’extension qui est un fournisseur de documents fiscaux est de générer des documents spécifiques au service et de gérer les réponses du service d’enregistrement fiscal.
 
-L’extension CRT est **Runtime.Extensions.DocumentProvider.EFRSample**. Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’intégration fiscale pour les canaux de commerce](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+L’extension CRT est **Runtime.Extensions.DocumentProvider.EFRSample**. Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’intégration fiscale pour les canaux de commerce](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Gestionnaire de demandes
 

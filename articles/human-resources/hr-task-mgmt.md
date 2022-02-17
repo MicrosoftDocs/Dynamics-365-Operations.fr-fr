@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 614f37236bbd0239925e37ebf29f59ac006d09cd
-ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
+ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "7948792"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087215"
 ---
 # <a name="task-management"></a>Gestion des tâches
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 La gestion des tâches vous permet de créer des tâches qui doivent être effectuées pour embaucher (intégrer), licencier (départ) et transférer (transition) des employés. La gestion des tâches utilise le concept de listes de contrôle. Une liste de contrôle est une liste de tâches d’intégration, de départ ou de transition. La gestion des tâches utilise des listes de contrôle pour regrouper les tâches et les affecter à des individus ou à des groupes. La fonctionnalité de liste de contrôle pour l’intégration, le départ et les transitions est similaire.
 

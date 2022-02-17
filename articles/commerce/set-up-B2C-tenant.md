@@ -2,7 +2,7 @@
 title: Configurer un locataire B2C dans Commerce
 description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 01/05/2022
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: dcd5c022c00070922e287a6b8750810ff76bc26f
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952442"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092457"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -109,7 +109,7 @@ Pour créer une application B2C, procédez comme suit.
 1. Pour **URI de redirection**, entrez vos URL de réponse dédiées comme type **Web**. Pour plus d’informations sur les URL de réponse et leur mise en forme, reportez-vous à [URL de réponse](#reply-urls) ci-dessous. Un URI de redirection/URL de réponse doit être saisi pour activer les redirections depuis Azure AD B2C vers votre site lorsqu’un utilisateur s’authentifie. L’URL de réponse peut être ajoutée pendant le processus d’inscription, ou peut être ajoutée plus tard en sélectionnant le lien **Ajouter une URI de redirection** du menu **Aperçu** dans la section **Aperçu** de l’application B2C.
 1. Pour **Autorisations**, sélectionnez **Accorder le consentement administrateur aux autorisations openid et offline_access**.
 1. Sélectionnez **Enregistrer**.
-1. Sélectionnez l’application nouvellement créée et accédez au menu **Autorisations d’API**. 
+1. Sélectionnez l’application nouvellement créée et accédez au menu **Authentification**. 
 1. Si une URL de réponse est saisie, sous **Octroi implicite et flux hybrides**, sélectionnez les options **Jetons d’accès** et **Jetons d’identification** pour les activer pour l’application, puis sélectionnez **Enregistrer**. Si une URL de réponse n’a pas été saisie lors de l’inscription, elle peut également être ajoutée sur cette page en sélectionnant **Ajouter une plateforme**, en sélectionnant **Web**, puis en saisissant l’URI de redirection de l’application. La section **Octroi implicite et flux hybrides** sera alors disponible pour sélectionner les options **Jetons d’accès** et **Jetons d’identification**.
 1. Accédez au menu **Présentation** du portail Azure et copiez l’**ID de l’application (client)**. Notez cet ID pour les étapes de configuration ultérieures (référencé plus tard sous le nom de **GUID client**).
 
@@ -142,7 +142,7 @@ Pour personnaliser les pages de stratégie utilisateur avec les pages intégrée
 Pour créer une stratégie de flux d’utilisateur d’inscription et de connexion, procédez comme suit.
 
 1. Dans le portail Azure, sélectionnez **Flux d’utilisateurs (stratégies)** dans le volet de navigation de gauche.
-1. Sur la page **Azure AD B2C - Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
+1. Sur la page **Azure AD B2C – Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
 1. Sélectionnez la stratégie **Inscription et connexion**, puis sélectionnez la version **Recommandée**.
 1. Sous **Nom**, entrez un nom de stratégie. Ce nom s’affiche ensuite avec un préfixe attribué par le portail (par exemple, « B2C_1_ »).
 1. En dessous de **Fournisseurs d’identité**, dans la section **Comptes locaux**, sélectionnez **Inscription par courrier électronique**. L’authentification par e-mail est utilisée dans les scénarios les plus courants pour Commerce. Si vous utilisez également l’authentification du fournisseur d’identité sociale, ceux-ci peuvent également être sélectionnés à ce moment.
@@ -169,11 +169,11 @@ L’image suivante est un exemple de flux d’utilisateur d’inscription et de 
 Pour créer une stratégie de flux d’utilisateur de modification de profil, procédez comme suit.
 
 1. Dans le portail Azure, sélectionnez **Flux d’utilisateurs (stratégies)** dans le volet de navigation de gauche.
-1. Sur la page **Azure AD B2C - Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
+1. Sur la page **Azure AD B2C – Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
 1. Sélectionnez **Modification du profil**, puis sélectionnez la version **Recommandée**.
 1. Sous **Nom**, saisissez le flux d’utilisateur de modification de profil. Ce nom s’affiche ensuite avec un préfixe attribué par le portail (par exemple, « B2C_1_ »).
 1. En dessous de **Fournisseurs d’identité**, dans la section **Comptes locaux**, sélectionnez **Connexion par courrier électronique**.
-1. Sous **Attributs d’utilisateur**, activez l’une des cases à cocher suivantes :
+1. Sous **Attributs d’utilisateur**, activez l’une des cases à cocher suivantes :
     
     | **Attribut de collecte** | **Réclamation de retour** |
     | ---------------------- | ----------------- |
@@ -194,12 +194,12 @@ L’image suivante montre un exemple du flux d’utilisateur de modification de 
 Pour créer une stratégie de flux d’utilisateur de réinitialisation du mot de passe, procédez comme suit.
 
 1. Dans le portail Azure, sélectionnez **Flux d’utilisateurs (stratégies)** dans le volet de navigation de gauche.
-1. Sur la page **Azure AD B2C - Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
+1. Sur la page **Azure AD B2C – Flux d’utilisateurs (stratégies)**, sélectionnez **Nouveau flux d’utilisateur**.
 1. Sélectionnez **Réinitialisation du mot de passe**, puis sélectionnez la version **Recommandée**.
 1. Sous **Nom**, entrez un nom pour le flux d’utilisateur de réinitialisation du mot de passe.
 1. Sous **Fournisseurs d’identité**, sélectionnez **Réinitialiser le mot de passe à l’aide de l’adresse e-mail**.
 1. Sélectionnez **Créer**.
-1. Sous **Revendications de l’application**, sélectionnez l’une des cases à cocher suivantes :
+1. Sous **Revendications de l’application**, sélectionnez l’une des cases à cocher suivantes :
     - **Adresses e-mail**
     - **Nom de famille**
     - **Nom de famille**
@@ -291,15 +291,15 @@ Pour obtenir l’URL de l’émetteur de votre fournisseur d’identité, procé
 1. Sélectionnez **Mises en page** dans le menu de navigation de gauche, sous **Nom de la mise en page** sélectionnez **Page d’inscription ou de connexion unifiée**, puis sélectionnez **Exécuter le flux utilisateur**.
 1. Assurez-vous que votre application est définie sur votre application Azure AD B2C créée ci-dessus, puis sélectionnez le lien sous l’en-tête **Exécuter le flux utilisateur** qui comprend ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``.
 1. Une page de métadonnées s’affiche dans l’onglet de votre navigateur. Copiez l’URL de l’émetteur du fournisseur d’identité (la valeur de **« issuer »**).
-   - Exemple : ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+   - Exemple : ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
  
 **OU** : pour créer manuellement la même URL de métadonnées, procédez comme suit.
 
 1. Créez une URL d’adresse de métadonnées au format suivant à l’aide de votre stratégie et locataire B2C : ``https://<B2CTENANTNAME>.b2clogin.com/<B2CTENANTNAME>.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``
-    - Exemple : ``https://d365plc.b2clogin.com/d365plc.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_signinup``.
+    - Exemple : ``https://d365plc.b2clogin.com/d365plc.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_signinup``.
 1. Saisissez l’URL de l’adresse des métadonnées dans une barre d’adresse du navigateur.
 1. Dans les métadonnées, copiez l’URL de l’émetteur du fournisseur d’identité (la valeur pour **« émetteur »**).
-    - Exemple : ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+    - Exemple : ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
 
 ## <a name="configure-your-b2c-tenant-in-commerce-site-builder"></a>Configurer votre locataire B2C dans le générateur de site Commerce
 
@@ -309,21 +309,17 @@ Une fois la configuration de votre locataire Azure AD B2C terminée, vous devez 
 
 Pour collecter les informations d’application requises, procédez comme suit.
 
-1. Dans le portail Azure, accédez à **Accueil \> Azure AD B2C - Applications**.
-1. Sélectionnez votre application, puis dans le volet de navigation de gauche, sélectionnez **Propriétés** pour obtenir les détails de l’application.
-1. Depuis la zone **ID d’application**, collectez l’ID d’application de l’application B2C créée dans votre locataire B2C. Il sera ultérieurement saisi comme le **GUID client** dans le générateur de site.
-1. Sous **URL de réponse**, collectez l’URL de réponse.
-1. Accédez à **Accueil \> Azure AD B2C - Flux d’utilisateurs (stratégies)**, puis collectez les noms de chaque stratégie de flux d’utilisateur.
+1. Dans le portail Azure, accédez à **Accueil \> Azure AD B2C – Inscriptions d’applications**.
+1. Sélectionnez votre application, puis dans le volet de navigation de gauche, sélectionnez **Présentation** pour obtenir les détails de l’application.
+1. Depuis la référence **ID d’application (client)**, collectez l’ID d’application de l’application B2C créée dans votre locataire B2C. Il sera ultérieurement saisi comme le **GUID client** dans le générateur de site.
+1. Sélectionnez **Rediriger les URI** et collectez l’URL de réponse affichée pour votre site (l’URL de réponse saisie lors de la configuration).
+1. Accédez à **Accueil \> Azure AD B2C – Flux d’utilisateurs**, puis collectez les noms complets de chaque stratégie de flux d’utilisateur.
 
-L’image suivante montre un exemple de la page **Azure AD B2C - Applications**.
+L’image suivante montre un exemple de la page de présentation **Azure AD B2C – Inscriptions d’applications**.
 
-![Accéder à l’application B2C au sein de votre locataire.](./media/B2CImage_19.png)
+![Page de présentation Azure AD B2C – Inscriptions d’applications avec l’ID d’application (client) mis en surbrillance](./media/ClientGUID_Application_AzurePortal.png)
 
-L’image suivante montre un exemple d’une page **Propriétés** de l’application dans Azure AD B2C. 
-
-![Copier l’ID d’application à partir des propriétés de l’application B2C.](./media/B2CImage_21.png)
-
-L’image suivante montre un exemple de stratégies de flux d’utilisateur sur la page **Azure AD B2C - Flux d’utilisateur (stratégies)**.
+L’image suivante montre un exemple de stratégies de flux d’utilisateur sur la page **Azure AD B2C – Flux d’utilisateur (stratégies)**.
 
 ![Collecter les noms de chaque flux de stratégie B2C.](./media/B2CImage_22.png)
 

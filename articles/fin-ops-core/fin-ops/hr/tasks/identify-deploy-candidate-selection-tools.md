@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964829"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067981"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identifier et déployer les outils de sélection de candidats
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvoir les postes vacants, en particulier lorsqu’un poste nécessite un seul ensemble de qualifications. Toutefois, les candidats ayant les qualifications dont vous avez besoin sont peut-être déjà employés sans votre organisation. Vous pouvez rechercher un ensemble de compétences spécifiques parmi les employés existants ou les nouveaux candidats. Cela permet à un recruteur de trouver et de sélectionner rapidement des candidats qui viennent de postuler à un poste vacant ou qui l’ont fait dans le passé, ou de rechercher des candidats potentiels dans un groupe d’employés existant. Suivez cette procédure de tâche pour savoir comment la fonctionnalité de mise en correspondance des qualifications peut vous aider à rechercher la bonne personne pour un poste vacant. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.
 

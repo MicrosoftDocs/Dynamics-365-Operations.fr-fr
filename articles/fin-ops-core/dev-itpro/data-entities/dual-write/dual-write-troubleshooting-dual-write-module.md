@@ -1,6 +1,6 @@
 ---
-title: Résoudre les problèmes de double écriture dans les applications Finance and Operations
-description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations.
+title: Résoudre les problèmes liés à la double écriture dans les applications Finances et Opérations
+description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module Double écriture dans les applications Finances et Opérations.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781196"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061806"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Résoudre les problèmes de double écriture dans les applications Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Résoudre les problèmes liés à la double écriture dans les applications Finances et Opérations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cette rubrique fournit des informations sur la résolution des problèmes de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module **Double écriture** dans les applications Finance and Operations.
+
+Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module **Double écriture** dans les applications Finances et Opérations.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Vous ne pouvez pas charger le module Double écriture dans une application Finance and Operations
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Vous ne pouvez pas charger le module Double écriture dans une application Finances et Opérations
 
 Si vous ne pouvez pas ouvrir la page **Double écriture** en sélectionnant la vignette **Double écriture** dans l’espace de travail **Gestion des données**, le service d’intégration de données est probablement en panne. Créez un ticket de support pour demander un redémarrage du service d’intégration de données.
 
@@ -49,7 +49,7 @@ Pour résoudre le problème, connectez-vous à l’aide d’une fenêtre InPriva
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Erreur lorsque vous liez l’environnement pour la double écriture ou ajoutez un nouveau mappage de table
 
-**Rôle requis pour corriger le problème :** Administrateur système dans les applications Finance and Operations et Dataverse.
+**Rôle requis pour résoudre le problème :** administrateur système dans l’application Finances et Opérations et Dataverse.
 
 Vous pouvez rencontrer l’erreur suivante lors de la liaison ou de la création de cartes :
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Cette erreur peut se produire si vous ne disposez pas des autorisations suffisantes pour lier la double écriture ou créer des cartes. Cette erreur peut également se produire si l’environnement Dataverse a été réinitialisé sans dissocier la double écriture. Tout utilisateur ayant un rôle d’administrateur système dans les applications Finance and Operations et Dataverse peut relier les environnements. Seul l’utilisateur qui a configuré la connexion à double écriture peut ajouter de nouveaux mappages de tables. Après la configuration, tout utilisateur ayant un rôle d’administrateur système peut surveiller le statut et modifier les mappages.
+Cette erreur peut se produire si vous ne disposez pas des autorisations suffisantes pour lier la double écriture ou créer des cartes. Cette erreur peut également se produire si l’environnement Dataverse a été réinitialisé sans dissocier la double écriture. Tout utilisateur ayant un rôle d’administrateur système dans les applications Finances et Opérations et Dataverse peut relier les environnements. Seul l’utilisateur qui a configuré la connexion à double écriture peut ajouter de nouveaux mappages de tables. Après la configuration, tout utilisateur ayant un rôle d’administrateur système peut surveiller le statut et modifier les mappages.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Erreur lorsque vous arrêtez le mappage de tables
 
@@ -82,13 +82,13 @@ Vous pouvez recevoir une erreur telle que la suivante lorsque vous essayez d’e
 Vous pouvez recevoir une erreur comme celle-ci lorsque vous essayez de définir cet état d’un mappage sur **Exécution en cours**. Le correctif dépend de la cause de l’erreur :
 
 + Si le mappage a des mappages dépendants, assurez-vous d’activer les mappages dépendants de ce mappage de table.
-+ Le mappage peut ne pas contenir de colonnes sources ou de destination. Si une colonne de l’application Finance and Operations est manquant, suivez les étapes de la section [Problème de colonnes de table manquantes sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si une colonne dans Dataverse est manquante, cliquez sur **Actualiser les tables** sur le mappage afin que les colonnes soient automatiquement remplies à nouveau dans le mappage.
++ Le mappage peut ne pas contenir de colonnes sources ou de destination. Si une colonne de l’application Finances et Opérations est manquant, suivez les étapes de la section [Problème de colonnes de table manquantes sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si une colonne dans Dataverse est manquante, cliquez sur **Actualiser les tables** sur le mappage afin que les colonnes soient automatiquement remplies à nouveau dans le mappage.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Erreur de non-concordance de version et mise à niveau des solutions à double écriture
 
 Vous pouvez recevoir les messages d’erreur suivants lorsque vous essayez d’exécuter les mappages de tables :
 
-+ *Groupes de clients (msdyn_customergroups) : Échec de la double écriture - La solution Dynamics 365 for Sales ’Dynamics365Company’ a une incompatibilité de version. Version : ’2.0.2.10’ Version requise : ’2.0.133’*
++ *Groupes de clients (msdyn_customergroups) : Échec de la double écriture – La solution Dynamics 365 for Sales ’Dynamics365Company’ a une incompatibilité de version. Version : ’2.0.2.10’ Version requise : ’2.0.133’*
 + La solution *Dynamics 365 for Sales ’Dynamics365FinanceExtended’ a une incompatibilité de version. Version : ’1.0.0.0’ Version requise : ’2.0.227’*
 + La solution *Dynamics 365 for Sales ’Dynamics365FinanceAndOperationsCommon’ a une incompatibilité de version. Version : ’1.0.0.0’ Version requise : ’2.0.133’*
 + La solution *Dynamics 365 for Sales ’CurrencyExchangeRates’ a une incompatibilité de version. Version : ’1.0.0.0’ Version requise : ’2.0.133’*

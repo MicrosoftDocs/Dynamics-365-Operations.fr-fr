@@ -2,7 +2,7 @@
 title: Ajouter une nouvelle page de site
 description: Cette rubrique décrit comment ajouter une nouvelle page du site dans Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725384"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090717"
 ---
 # <a name="add-a-new-site-page"></a>Ajouter une nouvelle page de site
 
@@ -33,11 +33,11 @@ Après avoir créé des modèles et des fragments pour votre site, l’étape su
 
 Vous pouvez utiliser un modèle ou une disposition pour votre nouvelle page. Pour plus d’informations, voir [Vue d’ensemble des modèles et des dispositions](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Nom de la page
+## <a name="specify-the-page-name"></a>Préciser le nom de la page
 
-Le nom de la page doit être unique à la page. Il doit être descriptif, afin que vous puissiez facilement la trouver et que d’autres personnes sachent pour quoi la page est prévue. Choisissez le nom de page avec soin, car il ne peut pas être modifié ultérieurement.
+Le nom de la page doit être propre à votre site et descriptif, afin que vous puissiez facilement la trouver et que d’autres personnes sachent pour quoi la page est prévue. Vous pouvez renommer votre page ultérieurement en la modifiant, puis en sélectionnant le symbole du stylo à côté du nom de la page dans le volet des propriétés.
 
-## <a name="page-url"></a>URL de la page
+## <a name="specify-the-page-url"></a>Préciser l’URL de la page
 
 Vous pouvez avoir l’option d’entrer une URL pour votre nouvelle page. Lorsque vous créez une page, vous pouvez entrer une chaîne à utiliser pour former une URL complète. Cette chaîne s’appelle URL relative ou URL slug. Une URL complète est ensuite générée selon le slug d’URL, et la nouvelle page lui est affectée. Vous pouvez modifier le slug URL ultérieurement, avant la publication de la page. Pour plus d’informations, voir [Création d’une URL de page](create-page-URL.md).
 

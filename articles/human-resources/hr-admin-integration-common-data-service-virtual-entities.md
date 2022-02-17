@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414662"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069144"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurer les tables virtuelles de Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources est une source de données virtuelle dans Microsoft Dataverse. Il fournit des opérations de création, de lecture, de mise à jour et de suppression (CRUD) complètes à partir de Dataverse et Microsoft Power Platform. Les données des tables virtuelles ne sont pas stockées dans Dataverse, mais dans la base de données de l’application.
 
@@ -119,10 +122,10 @@ L’étape suivante consiste à configurer la source de données de table virtue
 
 4. Dans **Hub état solution**, sélectionnez l’icône **Recherche avancée** en haut à droite de la page de l’application.
 
-5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez Configurations de source de données virtuelle **Finance and Operations**.
+5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez **Configurations de source de données virtuelle Finances et Opérations**.
 
    > [!NOTE]
-   > L’installation de l’application de table virtuelle à partir de l’étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle Finance and Operations** n’est pas disponible dans la liste, attendez une minute et actualisez la liste.
+   > L’installation de l’application de table virtuelle à partir de l’étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle Finances et Opérations** n’est pas disponible dans la liste, attendez une minute et actualisez la liste.
 
 6. Sélectionnez **Résultats**.
 
@@ -142,7 +145,7 @@ L’étape suivante consiste à configurer la source de données de table virtue
      >Assurez-vous d’inclure le caractère "**/**" à la fin de l’URL pour éviter de recevoir une erreur.
 
      >[!NOTE]
-     >L'URL cible détermine l'environnement Human Resources vers lequel les tables virtuelles pointent pour les données. Si vous créez un environnement de bac à sable en créant une copie de votre environnement de production, mettez à jour cette valeur avec l'URL de l'espace de noms de votre nouvel environnement de bac à sable. Cela garantit que les tables virtuelles sont connectées aux données de l'environnement de bac à sable plutôt que de continuer à pointer vers l'environnement de production.
+     >L’URL cible détermine l’environnement Human Resources vers lequel les tables virtuelles pointent pour les données. Si vous créez un environnement de bac à sable en créant une copie de votre environnement de production, mettez à jour cette valeur avec l’URL de l’espace de noms de votre nouvel environnement de bac à sable. Cela garantit que les tables virtuelles sont connectées aux données de l’environnement de bac à sable plutôt que de continuer à pointer vers l’environnement de production.
 
    - **ID du locataire** : ID du locataire Azure Active Directory (Azure AD).
 

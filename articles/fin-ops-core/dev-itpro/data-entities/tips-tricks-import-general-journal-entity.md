@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ddf8bbffd9caa0821ade6bf44c72edad48de303ba37b44f0d363340b3bcdb50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739497"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065068"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importation de N° document à l’aide de l’entité de journal des opérations diverses
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l’entité de Journal des opérations diverses.
 
@@ -32,8 +35,8 @@ Vous pouvez utiliser l’entité du journal des opérations diverses pour import
 ## <a name="setup"></a>Paramétrage
 Avant d’importer à l’aide de l’entité de journal des opérations diverses, validez le paramétrage suivant :
 
-- **Paramètres des séquences de numéros pour le numéro de lot du journal** : par défaut, lorsque vous importez à l’aide de l’entité du journal des opérations diverses, le numéro de lot du journal utilise la souche de numéros qui est définie dans les paramètres de comptabilité générale. Si vous définissez la souche de numéros pour le numéro de lot de journal sur **manuel**, aucun numéro par défaut n’est appliqué. Ce paramétrage n’est pas pris en charge.
-- **Configuration de la dimension financière** : chaque entreprise doit définir l’ordre des dimensions financières lorsque les entités sont utilisées pour importer des transactions. L’ordre n’est défini pour le format **Intégration des dimensions comptables**, dans **Comptabilité** &gt; **Plan de comptes** &gt; **Dimensions** &gt; **Configuration de dimension financière pour les applications d’intégration** &gt; **Sélectionner les entités de données**. Les segments du compte général qui est importé doivent avoir le même ordre. Dans le cas contraire, une erreur se produit lors de l’importation.
+- **Paramètres des séquences de numéros pour le numéro de lot du journal** : par défaut, lorsque vous importez à l’aide de l’entité du journal des opérations diverses, le numéro de lot du journal utilise la souche de numéros qui est définie dans les paramètres de comptabilité générale. Si vous définissez la souche de numéros pour le numéro de lot de journal sur **manuel**, aucun numéro par défaut n’est appliqué. Ce paramétrage n’est pas pris en charge.
+- **Configuration de la dimension financière** : chaque entreprise doit définir l’ordre des dimensions financières lorsque les entités sont utilisées pour importer des transactions. L’ordre n’est défini pour le format **Intégration des dimensions comptables**, dans **Comptabilité** &gt; **Plan de comptes** &gt; **Dimensions** &gt; **Configuration de dimension financière pour les applications d’intégration** &gt; **Sélectionner les entités de données**. Les segments du compte général qui est importé doivent avoir le même ordre. Dans le cas contraire, une erreur se produit lors de l’importation.
 
 ## <a name="general-journal-entity-setup"></a>Paramétrage de l’entité du journal des opérations diverses
 Deux paramètres de la gestion des données affectent la façon dont le numéro de lot par défaut ou le numéro de document du journal s’appliquent :
@@ -47,7 +50,7 @@ Les sections suivantes décrivent l’effet de ces paramètres. Elles expliquent
 
 - Le paramétrage **Traitement basé sur les jeux** sur l’entité du journal des opérations diverses n’affecte pas la manière dont les numéros de lot de journal sont générés.
 - Si le champ **Numéro de lot du journal** est défini sur **Généré automatiquement**, un nouveau numéro de lot de journal est créé pour chaque ligne qui est importée. Ce comportement n’est pas recommandé. Le paramètre **Généré automatiquement** se trouve dans le projet d’importation, sous **Afficher le mappage**, sur l’onglet **Détails de la mise en correspondance**.
-- Si le champ **Numéro de lot du journal** n’est pas défini sur **Généré automatiquement**, le numéro de lot de journal est créé comme suit :
+- Si le champ **Numéro de lot du journal** n’est pas défini sur **Généré automatiquement**, le numéro de lot de journal est créé comme suit :
 
     - Si le numéro de lot du journal défini dans le fichier importé correspond à un journal quotidien existant non validé, toutes les lignes ayant un numéro de lot de journal correspondant sont importées dans le journal existant. Les lignes ne sont jamais importées dans un numéro de lot de journal validé. Au lieu de cela, un nouveau numéro est créé.
     - Si le numéro de lot du journal défini dans le fichier importé ne correspond pas à un journal quotidien existant non validé, toutes les lignes ayant le même numéro de lot de journal sont regroupées dans un nouveau journal. Par exemple, toutes les lignes ayant un numéro de lot de journal de 1 sont importées dans un nouveau journal, et toutes les lignes ayant un numéro de lot de journal de 2 sont importés dans un second nouveau journal. Le numéro de lot du journal est créé à l’aide de la souche de numéros qui est définie dans les paramètres de comptabilité.

@@ -2,33 +2,30 @@
 title: Améliorations de la fonctionnalité de validation du relevé
 description: Cette rubrique décrit les améliorations apportées à la fonction de validation des relevés.
 author: analpert
-ms.date: 12/03/2021
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982201"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087601"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique décrit le premier ensemble d’améliorations apportées à la fonction de validation des relevés. Ces améliorations sont disponibles dans Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
 ## <a name="activation"></a>Activation
 
-Par défaut, au cours du déploiement de Finance and Operations 7.3.2, le programme est paramétré pour utiliser la fonction héritée pour la validation des relevés. Pour activer la fonction améliorée de validation des relevés, vous devez activer la clé de configuration associée.
+Par défaut, au cours du déploiement de Finances et Opérations 7.3.2, le programme est paramétré pour utiliser la fonction héritée pour la validation des relevés. Pour activer la fonction améliorée de validation des relevés, vous devez activer la clé de configuration associée.
 
 - Accédez à **Administration du système** \> **Paramétrage** \> **Configuration des licences**, puis, sous le nœud **Commerce et vente au détail**, désactivez la case à cocher **Relevés (hérités)** et activez la case à cocher **Relevés**.
 
@@ -44,21 +41,33 @@ Commerce comprend les validations suivantes qui sont associées à ces clés de 
 
 ## <a name="setup"></a>Configuration
 
-Dans le cadre des améliorations de la fonction de validation des relevés, trois nouveaux paramètres ont été introduits dans l’organisateur **Relevé** sous l’onglet **Validation** de la page **Paramètres Commerce** :
+Dans le cadre des améliorations de la fonction de validation des relevés, trois nouveaux paramètres ont été introduits dans le raccourci **Relevé** sous l’onglet **Validation** de la page **Paramètres Commerce** :
 
 - **Désactiver la fonction d’effacement de relevé** – Cette option s’applique uniquement à la fonction héritée de validation des relevés. Nous vous recommandons de définir cette option sur **Non** pour empêcher les utilisateurs d’effacer des relevés qui sont à l’état semi-validé. Si des relevés à l’état semi-validé sont effacés, les données sont corrompues. Vous devez définir cette option sur **Oui** uniquement dans des cas exceptionnels.
 - **Réserver le stock lors du calcul** – Nous vous recommandons d’utiliser le traitement par lots **Valider le stock** pour la réservation du stock et de définir cette option sur **Non**. Lorsque cette option est définie sur **Non**, la fonction améliorée de validation des relevés n’essaie pas de créer des entrées de réservation de stock au moment du calcul (si les entrées n’ont pas déjà été créées via le traitement par lots **Valider le stock**). À la place, la fonction crée des entrées de réservation de stock uniquement au moment de la validation. Cette implémentation était un choix de conception et reposait sur le fait que l’intervalle de temps entre le processus de calcul et le processus de validation est généralement petit. Toutefois, si vous souhaitez réserver le stock au moment du calcul, vous pouvez définir cette option **Oui**.
 
     La fonction héritée de validation des relevés réserve toujours le stock lors du processus de calcul des relevés (si la réservation n’a pas déjà été effectuée via le traitement par lots **Valider le stock**), quel que soit le paramètre de cette option.
 
-- **Désactivation du comptage obligatoire** – Lorsque cette option est définie sur **Oui**, le processus de validation d’un relevé continue, même si la différence entre le montant calculé et le montant de la transaction sur le relevé dépasse le seuil défini dans l’organisateur **Relevé** pour les magasins.
+- **Désactivation du comptage obligatoire** – Lorsque cette option est définie sur **Oui**, le processus de validation d’un relevé continue, même si la différence entre le montant calculé et le montant de la transaction sur le relevé dépasse le seuil défini dans le raccourci **Relevé** pour les magasins.
 
-En outre, les paramètres suivants ont été introduits dans l’organisateur **Traitement par lots** de l’onglet **Validation** de la page **Paramètres Commerce** : 
+> [!NOTE]
+> À partir de la version 10.0.14 de Commerce, lorsque la fonctionnalité **Relevés de vente au détail – Flux en continu** est activée, le traitement par lots **Publier l’inventaire** n’est plus applicable et ne peut pas être exécuté.
+
+En outre, les paramètres suivants ont été introduits dans le raccourci **Traitement par lots** de l’onglet **Validation** de la page **Paramètres Commerce** : 
 
 - **Nombre maximal de validation de relevés en parallèle** – Ce champ définit le nombre de tâches de traitement par lots qui seront utilisées pour valider plusieurs relevés. 
 - **Thread maximal pour le traitement des commandes par relevé** – Ce champ représente le nombre maximal de threads utilisés par le traitement par lots de validation de relevé pour créer et facturer les commandes client d’un seul relevé. Le nombre total de threads qui seront utilisés par le processus de validation du relevé sera calculé en fonction de la valeur de ce paramètre multipliée par la valeur indiquée dans le paramètre **Nombre maximal de validation de relevés en parallèle**. La définition de la valeur de ce paramètre trop élevée peut avoir un impact négatif sur les performances du processus de validation du relevé.
 - **Nombre maximal de lignes de transaction incluses dans l’agrégation** – Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu’une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d’agrégation, tels que le client, date d’activité ou les dimensions financières. Il est important de noter que les lignes d’une transaction unique ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu’il y a un risque que le nombre de lignes dans une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
-- **Nombre maximal de threads pour valider les transactions en magasin** – Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions. La validation des transactions est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans l’organisateur **Carte cadeau** sous l’onglet **Validation** de la page **Paramètres Commerce**. Cela doit être défini, même si aucune carte cadeau n’est utilisée par l’organisation.
+- **Nombre maximal de threads pour valider les transactions en magasin** – Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions. La validation des transactions est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans le raccourci **Carte cadeau** sous l’onglet **Validation** de la page **Paramètres Commerce**. Cela doit être défini, même si aucune carte cadeau n’est utilisée par l’organisation.
+
+Le tableau suivant répertorie les valeurs recommandées pour les paramètres précédents. Ces valeurs doivent être testées et adaptées à la configuration de déploiement et à l’infrastructure disponible. Toute augmentation des valeurs recommandées peut affecter négativement d’autres traitements par lots et doit être validée.
+
+| Paramètre | Valeur recommandée | Détails |
+|-----------|-------------------|---------|
+| Nombre maximal de validation de relevés en parallèle | <p>Définissez ce paramètre sur le nombre de tâches par lots disponibles pour le groupe de lots qui exécute la tâche **Déclaration**.</p><p>**Règle générale :** multipliez le nombre de serveurs virtuels Application Object Server (AOS) par le nombre de tâches par lots disponibles par serveur virtuel AOS.</p> | Ce paramètre n’est pas applicable lorsque la fonctionnalité **Relevés de vente au détail – Flux continu** est activée. |
+| Nombre maximal de threads pour le traitement des commandes par relevé | Commencez à tester les valeurs à **4**. En règle générale, la valeur ne doit pas dépasser **8**. | Ce paramètre spécifie le nombre de threads utilisés pour créer et publier des commandes client. Il représente le nombre de threads disponibles pour publication par instruction. |
+| Nombre maximal de lignes de transaction incluses dans l’agrégation | Commencez à tester les valeurs à **1000**. Selon la configuration du siège social, des commandes plus petites peuvent être plus avantageuses pour les performances. | Ce paramètre détermine le nombre de lignes qui seront incluses dans chaque commande client lors de la validation du relevé. Une fois ce nombre atteint, les lignes seront divisées en une nouvelle commande. Bien que le nombre de lignes de vente ne soit pas exact, étant donné que le fractionnement se produit au niveau de la commande client, il sera proche du nombre défini. Ce paramètre est utilisé pour générer des bons de commande pour les transactions de vente au détail qui n’ont pas de client nommé. |
+| Nombre maximal de threads pour valider les transactions en magasin | Nous vous recommandons de définir ce paramètre sur **4**, et de ne pas l’augmenter hormis si vous atteignez des performances acceptables. Le nombre de threads utilisés par ce processus ne peut pas dépasser le nombre de processeurs disponibles pour le serveur de traitement par lots. Si vous affectez trop de threads ici, vous risquez d’affecter d’autres traitements par lots. | Ce paramètre contrôle le nombre de transactions pouvant être validées en même temps pour un magasin donné. |
 
 > [!NOTE]
 > Tous les paramètres associés aux validations de relevé et définis dans les magasins et sur la page **Paramètres Commerce** s’appliquent à la fonction améliorée de validation des relevés.
@@ -138,7 +147,7 @@ Le raccourci **Détails de la commande client** d’une transaction regroupée a
 - **Code d’erreur** : ce champ est défini si le regroupement est dans un état d’erreur.
 - **Message d’erreur** : ce champ est défini si le regroupement est dans un état d’erreur. Il affiche des détails sur la cause de l’échec du processus. Vous pouvez utiliser les informations du code d’erreur pour résoudre le problème, puis redémarrer manuellement le processus. Selon le type de résolution, les ventes regroupées peuvent devoir être supprimées et traitées sur un nouveau relevé.
 
-![Champs de l’organisateur Détails de la commande client d’une transaction regroupée.](media/aggregated-transactions-error-message-view.png)
+![Champs de le raccourci Détails de la commande client d’une transaction regroupée.](media/aggregated-transactions-error-message-view.png)
 
 Le raccourci **Détails de la transaction** d’une transaction regroupée affiche toutes les transactions qui ont été extraites dans la transaction regroupée. Les lignes regroupées de la transaction regroupée affiche tous les enregistrements regroupés à partir des transactions. Les lignes regroupées affichent également des détails comme l’article, la variante, la quantité, le prix, le montant net, l’unité et l’entrepôt. En gros, chaque ligne regroupée correspond à une ligne de commande client.
 
@@ -193,8 +202,8 @@ D’autres améliorations importantes visibles par les utilisateurs ont été ap
 - Nous vous recommandons d’activer le stock physique négatif dans le groupe de modèles d’article pour que la validation s’effectue de manière transparente. Dans certains scénarios, il n’est pas possible de valider des relevés négatifs sauf si un stock physique négatif est disponible. Par exemple, en théorie, s’il existe une seule unité d’un article en stock et s’il existe une transaction de vente et une transaction de retour pour l’article, la validation de la transaction doit être possible même si le stock négatif n’est pas activé. Toutefois, comme le processus de validation des relevés extrait la transaction de vente et la transaction de retour dans une commande client unique, il n’y a aucune garantie que la ligne de vente soit validée en premier, suivie de la ligne de retour. Par conséquent, des erreurs peuvent se produire. Si le stock négatif est activé dans ce scénario, la validation de la transaction n’est pas affectée négativement, et le système reflète correctement le stock.
 - Il est recommandé d’utiliser le regroupement lorsque vous calculez et validez des relevés. Par conséquent, les paramètres suivants sont recommandés pour certains paramètres de regroupement :
 
-    - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l’onglet **Validation**, dans l’organisateur **Mise à jour du stock**, dans le champ **Niveau de détail**, sélectionnez **Synthèse**.
-    - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l’onglet **Validation**, dans l’organisateur **Regroupement**, définissez l’option **Pièces comptables** sur **Oui**.
+    - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l’onglet **Validation**, dans le raccourci **Mise à jour du stock**, dans le champ **Niveau de détail**, sélectionnez **Synthèse**.
+    - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l’onglet **Validation**, dans le raccourci **Regroupement**, définissez l’option **Pièces comptables** sur **Oui**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

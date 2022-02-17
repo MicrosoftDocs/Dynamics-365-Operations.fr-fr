@@ -16,16 +16,16 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825373"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063339"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -89,8 +89,8 @@ Sur la page **Descriptions d’article externes**, vous pouvez associer le numé
 
 Si beaucoup de clients ou de fournisseurs utilisent les mêmes numéros d’article (dans le cas d’une association d’achat ou d’un groupe de commerce, par exemple), vous pouvez créer des groupes de clients ou de fournisseurs afin de simplifier la maintenance des informations sur le produit externe.
 
-- Pour les groupes de clients, accédez à **Ventes** &gt; **Paramétrage** &gt; **Articles** &gt; **Description d’article externe** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des clients à un groupe, accédez à **Ventes** &gt; **Clients** &gt; **Tous les clients**, puis dans l’organisateur **Valeurs par défaut de commande client**, spécifiez une valeur dans le champ **Article - Groupe de clients**.
-- Pour les groupes de fournisseurs, accédez à **Approvisionnements** &gt; **Paramétrage** &gt; **Groupe de descriptions d’article externes** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des fournisseurs à un groupe, accédez à **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**, puis dans l’organisateur **Valeurs par défaut des commandes fournisseur**, spécifiez une valeur dans le champ **Article - Groupe de fournisseurs**.
+- Pour les groupes de clients, accédez à **Ventes** &gt; **Paramétrage** &gt; **Articles** &gt; **Description d’article externe** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des clients à un groupe, accédez à **Ventes** &gt; **Clients** &gt; **Tous les clients**, puis dans le raccourci **Valeurs par défaut de commande client**, spécifiez une valeur dans le champ **Article – Groupe de clients**.
+- Pour les groupes de fournisseurs, accédez à **Approvisionnements** &gt; **Paramétrage** &gt; **Groupe de descriptions d’article externes** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des fournisseurs à un groupe, accédez à **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**, puis dans le raccourci **Valeurs par défaut des commandes fournisseur**, spécifiez une valeur dans le champ **Article – Groupe de fournisseurs**.
  
 ## <a name="bar-codes"></a>Codes-barres
 
@@ -106,9 +106,9 @@ Pour gérer les codes-barres, sur la page **Produits lancés**, sous l’onglet 
 
 Dans le commerce électronique, il est primordial que toutes les parties parlent une langue commune et fassent référence aux produits à l’aide d’un ensemble commun d’identificateurs. Par conséquent, certains secteurs s’appuient sur les [GTIN](https://www.gs1.org/id-keys/gtin), qui constituent un système de numéro d’article mondial facilité par GS1.
 
-Il est recommandé de mettre à jour le GTIN comme codes-barres. Toutefois, vous pouvez également le tenir à jour sur la page **Article - GTIN**. Pour ouvrir cette page, sur la page **Produits lancés**, sous l’onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **Codes GTIN**. Le GTIN n’est pas gérer comme un numéro mondial. Au lieu de cela, il est géré par entité juridique.
+Il est recommandé de mettre à jour le GTIN comme codes-barres. Toutefois, vous pouvez également le tenir à jour sur la page **Article – GTIN**. Pour ouvrir cette page, sur la page **Produits lancés**, sous l’onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **Codes GTIN**. Le GTIN n’est pas gérer comme un numéro mondial. Au lieu de cela, il est géré par entité juridique.
 
-Dans Supply Chain Management, vous définissez des variantes de packaging dans les opérations d’entrepôt en définissant des unités de mesure spécifiques. Par exemple, un article peut être stocké sous forme de pièces, par paquets de six, par bacs de 18, ou sur des palettes complètes. Une unité de mesure spécifique est définie pour chacune de ces variantes de packaging. Comme le GTIN est généralement associé à l’unité d’emballage d’un produit, la page **Article - GTIN** permet de gérer plusieurs codes GTIN par produit et unité de mesure. Toutefois, vous ne pouvez pas utiliser le même code GTIN plusieurs fois pour différents articles ou variantes de produit d’une entité juridique.
+Dans Supply Chain Management, vous définissez des variantes de packaging dans les opérations d’entrepôt en définissant des unités de mesure spécifiques. Par exemple, un article peut être stocké sous forme de pièces, par paquets de six, par bacs de 18, ou sur des palettes complètes. Une unité de mesure spécifique est définie pour chacune de ces variantes de packaging. Comme le GTIN est généralement associé à l’unité d’emballage d’un produit, la page **Article – GTIN** permet de gérer plusieurs codes GTIN par produit et unité de mesure. Toutefois, vous ne pouvez pas utiliser le même code GTIN plusieurs fois pour différents articles ou variantes de produit d’une entité juridique.
 
 Pour gérer les **Codes GTIN**, sur la page **Produits lancés**, sous l’onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **GTIN**.
 

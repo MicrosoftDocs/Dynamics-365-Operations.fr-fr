@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 2bbb234d2f51391ea65e3d6153d6cee250f3c6dc
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559360"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069805"
 ---
 # <a name="payroll-position"></a>Poste de paie
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -45,7 +48,7 @@ Nom physique : mshr_payrollpositionentity.
 | **Valide jusqu’au**</br>validto</br>*Décalage de date et heure* | Lecture seule | La date jusqu’à laquelle les détails du poste sont valides. |
 | **Valide à partir du**</br>validfrom</br>*Décalage de date et heure* | Lecture seule | La date à partir de laquelle les détails du poste sont valides. |
 | **Champ principal**</br>mshr_primaryfield</br>*Chaîne* | Généré par le système | Champ principal. |
-| **ID de l’entité Détails du poste de paie**</br>payrollpositiondetailsentityid</br>*Guid* | Requis</br>Généré par le système. | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique le poste. |
+| **ID de l’entité Détails du poste de paie**</br>payrollpositiondetailsentityid</br>*Guid* | Requis</br>Généré par le système. | Une valeur d’identificateur global unique (GUID) générée par le système pour identifier de manière unique le poste. |
 
 ## <a name="relations"></a>Relations
 

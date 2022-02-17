@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781390"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063670"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture depuis Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique explique comment activer la double écriture depuis Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -28,8 +28,8 @@ Cette rubrique explique comment activer la double écriture depuis Microsoft Dyn
 
 Vous devez terminer l’intégration de Power Platform comme décrit dans les rubriques suivantes :
 
-+ [Intégration de Power Platform - Activer pendant le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Intégration de Power Platform - Activer après le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
++ [Intégration de Power Platform – Activer pendant le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Intégration de Power Platform – Activer après le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurer la double écriture pour les nouveaux environnements Dataverse
 
@@ -53,18 +53,18 @@ Suivez ces étapes pour configurer la double écriture depuis la page **Détails
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Lier à l’environnement Power Platform.":::
 
-8. Une fois la liaison terminée, un lien hypertexte s’affiche. Utilisez le lien pour vous connecter à la zone d’administration de la double écriture dans l’environnement Finance and Operations. À partir de là, vous pouvez configurer les mappages d’entités.
+8. Une fois la liaison terminée, un lien hypertexte s’affiche. Utilisez le lien pour vous connecter à la zone d’administration de la double écriture dans l’environnement Finances et Opérations. À partir de là, vous pouvez configurer les mappages d’entités.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Configurer la double écriture pour un environnement Dataverse existant
 
 Pour configurer la double écriture pour un environnement Dataverse existant, vous devez créer un [ticket de support](../../lifecycle-services/lcs-support.md) Microsoft. Le ticket doit inclure :
 
-+ L’ID de votre environnement Finance and Operations.
++ Votre ID d’environnement Finances et Opérations.
 + Le nom de votre environnement dans Lifecycle Services.
 + L’ID de l’organisation Dataverse ou l’ID de l’environnement Power Platform dans le centre d’administration de Power Platform. Dans votre ticket, demandez que l’ID soit l’instance utilisée pour l’intégration de Power Platform.
 
 > [!NOTE]
-> Vous ne pouvez pas dissocier des environnements à l’aide de LCS. Pour dissocier un environnement, ouvrez l’espace de travail **Intégration des données** dans l’environnement Finance and Operations, puis sélectionnez **Dissocier**.
+> Vous ne pouvez pas dissocier des environnements à l’aide de LCS. Pour dissocier un environnement, ouvrez l’espace de travail **Intégration des données** dans l’environnement Finances et Opérations, puis sélectionnez **Dissocier**.
 
 ## <a name="linking-mismatch"></a>Incompatibilité de liaison
 

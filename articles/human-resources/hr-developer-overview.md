@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1d97b8a3bada622d7b87ac682b528b9f31c01aa2
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 78fc1afc596ca5a847d15a0da2db841aa303bad7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984669"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066798"
 ---
 # <a name="development-overview"></a>Vue d’ensemble du développement
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ce guide du développeur fournit une référence à l’API et aux champs personnalisés. Il fournit également des informations sur l’intégration avec d’autres applications.
 

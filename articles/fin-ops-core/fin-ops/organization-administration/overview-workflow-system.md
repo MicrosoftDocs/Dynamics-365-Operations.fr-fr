@@ -16,22 +16,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb88da9f2de76c25a355594a9beba3d29ea2daac
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985106"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067931"
 ---
 # <a name="workflow-system-overview"></a>Vue d’ensemble du système de workflow
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Cette rubrique décrit le système de workflow.
 
 ## <a name="what-is-workflow"></a>Qu’est-ce qu’un workflow ?
 
-Le terme *workflow* revêt deux concepts : workflow en tant que système et workflow en tant que processus entreprise.
+Le terme *workflow* revêt deux concepts : workflow en tant que système et workflow en tant que processus entreprise.
 
 ### <a name="workflow-is-a-system"></a>Un workflow est un système
 
@@ -43,11 +46,11 @@ Un workflow représente un processus entreprise. Il définit la circulation, la 
 
 ![Workflow avec des éléments affectés à des utilisateurs.](./media/workflow_user.gif)
 
-Pour mieux comprendre ce workflow, supposons que Sam soumette un état de dépenses de USD 7 000. Dans ce scénario, Ivan doit passer en revue les reçus envoyés par Sam. Frank et Sue doivent ensuite approuver l’état de dépenses. Supposons maintenant que Sam soumette un état de dépenses de USD 11 000. Dans ce scénario, Ivan doit passer en revue les reçus, et Frank, Sue et Ann doivent approuver l’état de dépenses.
+Pour mieux comprendre ce workflow, supposons que Sam soumette un état de dépenses de 7 000 EUR. Dans ce scénario, Ivan doit passer en revue les reçus envoyés par Sam. Frank et Sue doivent ensuite approuver l’état de dépenses. Supposons maintenant que Sam soumette un état de dépenses de 11 000 EUR. Dans ce scénario, Ivan doit passer en revue les reçus, et Frank, Sue et Ann doivent approuver l’état de dépenses.
 
 ## <a name="benefits-of-using-the-workflow-system"></a>Avantages de l’utilisation du système de workflow
 
-L’utilisation du système de workflow dans votre organisation présente plusieurs avantages :
+L’utilisation du système de workflow dans votre organisation présente plusieurs avantages :
 
 - **Processus cohérents** – Vous pouvez définir le traitement de documents spécifiques, tels que des demandes d’achat ou des états de dépenses. Lorsque vous utilisez le système de workflow, vous pouvez vérifier que les documents sont traités et approuvés de manière cohérente et efficace.
 - **Visibilité du processus** – Vous pouvez suivre le statut, l’historique et les mesures de performance des instances de workflow. Vous pouvez ainsi déterminer si des modifications doivent être apportées au workflow afin d’en optimiser l’efficacité.

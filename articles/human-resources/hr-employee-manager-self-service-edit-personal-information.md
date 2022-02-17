@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431460"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071442"
 ---
 # <a name="edit-personal-information"></a>Modifier les informations personnelles
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ Les paramètres définis dans la page **Paramètres du carnet d’adresses globa
     - Pour ajouter un numéro d’identification, sélectionnez **Nouveau**. Remplissez les champs si nécessaire et sélectionnez **Enregistrer**.
     - Pour modifier un numéro, sélectionnez **Modifier**. Modifiez les champs si nécessaire et sélectionnez **Enregistrer**.
 
-7. Pour modifier les méthodes de paiement, sélectionnez l’onglet **Mes informations de paiement**. Cet onglet n’est disponible que si les modes de paiement sont activés dans le formulaire **Paramètres de Human Resources**. Human Resources peut activer **Traites bancaires**, **Espèces**, **Chèque**, **Paiement électronique** ou **Autre**. Human Resources peut également désactiver la validation de paiement électronique (utilisée pour la paie américaine) et la validation de compte bancaire et de numéro de routage.
+7. Pour modifier les méthodes de paiement, sélectionnez l’onglet **Mes informations de paiement**. Cet onglet n’est disponible que si les modes de paiement sont activés dans la page **Paramètres de Human Resources**. Human Resources peut activer **Traites bancaires**, **Espèces**, **Chèque**, **Paiement électronique** ou **Autre**. Human Resources peut également désactiver la validation de paiement électronique (utilisée pour la paie américaine) et la validation de compte bancaire et de numéro de routage.
 
 8. Pour modifier l’image qui s’affiche dans Human Resources pour votre profil, sélectionnez l’onglet **Image**. Selon les paramètres de votre organisation, les images peuvent être acheminées pour approbation.
 

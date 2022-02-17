@@ -1,6 +1,6 @@
 ---
 title: Modèles de données avec plusieurs feuilles de calcul
-description: Cette rubrique décrit la procédure d’importation de données à l’aide des modèles d’entité de données Excel dans Finance and Operations.
+description: Cette rubrique décrit la procédure d’importation de données à l’aide des modèles d’entité de données Excel dans Finances et Opérations.
 author: peakerbl
 ms.date: 01/01/2018
 ms.topic: article
@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 343767d056eb164a7da70fb983fe37569a12986c
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403998"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070059"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Modèles de données avec plusieurs feuilles de calcul
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 La gestion des données dans l’application prend en charge les modèles basés sur Microsoft Excel pour les entités de données. Ces modèles peuvent contenir une ou plusieurs feuilles de calcul. Les modèles avec plusieurs feuilles de calcul sont souvent utilisés lorsqu’il est pratique de gérer les données d’un fichier unique et de les importer dans plusieurs entités de données. Il peut s’agir par exemple de sites et d’entrepôts.
 

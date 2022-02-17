@@ -2,7 +2,7 @@
 title: Utilisation des dispositions prédéfinies
 description: Cette rubrique décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0f6effd4dda669041a269d568bd39beda607a2bcc05c65e40bb76c6f1d02cd5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775310"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090843"
 ---
 # <a name="work-with-preset-layouts"></a>Utilisation des dispositions prédéfinies
 
@@ -91,12 +91,24 @@ Pour afficher les modifications en aperçu, ouvrez une page existante qui utilis
 
 Après avoir prévisualisé les modifications de votre disposition prédéfinie, suivez l’une de ces étapes pour publier la disposition sur votre site en direct :
 
-* Accédez à **Dispositions**, sélectionnez la disposition, puis sélectionnez **Publier**.
-* Sélectionnez le nom de la disposition pour ouvrir l’éditeur de disposition, puis cliquez sur **Publier**.
-* Publiez une page qui référence la disposition non publiée. La disposition est automatiquement publiée.
+1. Accédez à **Dispositions**, sélectionnez la disposition, puis sélectionnez **Publier**.
+1. Sélectionnez le nom de la disposition pour ouvrir l’éditeur de disposition, puis cliquez sur **Publier**.
+1. Publiez une page qui référence la disposition non publiée. La disposition est automatiquement publiée.
 
 > [!WARNING]
 > Les dispositions prédéfinies peuvent être référencées par plusieurs pages. Lorsque vous publiez une disposition prédéfinie, notez que vous pouvez affecter la disposition de plusieurs pages.
+
+## <a name="rename-a-preset-layout"></a>Renommer une disposition prédéfinie
+
+Pour renommer une disposition prédéfinie dans le générateur de site, procédez comme suit.
+
+1. Dans le volet de navigation de gauche, sélectionnez **Dispositions**.
+1. Sélectionnez le nom de disposition que vous souhaitez renommer.
+1. Sélectionnez **Modifier** pour commencer à modifier la disposition.
+1. Dans le volet des propriétés de la disposition, sélectionnez le symbole du stylo à côté du nom de la disposition.
+1. Modifiez le nom de la disposition, le cas échéant.
+1. Sélectionnez la coche pour confirmer le changement de nom.
+1. Sélectionnez **Terminer la modification**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

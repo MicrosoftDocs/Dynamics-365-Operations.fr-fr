@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d137b5dbde52423d0e040c3012fb4f1eee2368d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781230"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070524"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l’enregistreur de tâches
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique ce que sont l’enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d’aide.
 
@@ -33,7 +36,7 @@ Cette rubrique explique ce que sont l’enregistreur de tâches et les guides de
 
 ## <a name="learn-about-task-recorder"></a>Découverte de l’Enregistreur de tâche
 
-L’enregistreur de tâches est un outil que vous pouvez utiliser pour enregistrer les actions que vous effectuez dans l’interface utilisateur du produit. Lorsque vous utilisez l’enregistreur de tâches, tous les événements que vous effectuez dans l’IU qui sont exécutés par rapport au serveur (notamment l’ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
+L’enregistreur de tâches est un outil que vous pouvez utiliser pour enregistrer les actions que vous effectuez dans l’interface utilisateur du produit. Lorsque vous utilisez l’enregistreur de tâches, tous les événements que vous effectuez dans l’IU qui sont exécutés par rapport au serveur (notamment l’ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
 
 -   **Les enregistrements de tâches peuvent être lus comme guides de tâche.** Les guides de tâches font partie intégrante de l’expérience d’aide. Un guide de tâche est une expérience contrôlée, guidée et interactive qui parcourt les étapes d’un processus d’entreprise. L’utilisateur est invité à compléter chaque étape par une invite contextuelle (ou « bulle »), qui anime l’IU et pointe vers l’élément de l’IU avec lequel l’utilisateur doit interagir. La « bulle » fournit également des informations sur la manière d’interagir avec l’élément, par exemple « Cliquez ici » « ou « Dans ce champ, entrez une valeur ». Un Guide de tâche s’exécute pour l’ensemble de données de l’utilisateur actif et les données entrées sont enregistrées dans l’environnement de l’utilisateur.
 -   **Les enregistrements de tâche peuvent être enregistrés comme documents Word.** Cela permet de créer facilement des manuels de formation imprimables.
@@ -46,7 +49,7 @@ Que vous créiez un enregistrement de tâche à partir de rien ou en le fondant 
 -   Organisez votre enregistrement comme vous le feriez d’une vidéo. Prenez toutes vos décisions par avance.
 -   Parcourez le processus d’entreprise une fois ou deux sans l’enregistrer pour comprendre les étapes.
 -   Lorsque vous parcourez le processus avant de l’enregistrer, notez où vous utilisez les touches de raccourci ou la touche **Entrée**, afin d’éviter de les utiliser lors de l’enregistrement réel.
--   Identifiez les éléments suivants :
+-   Identifiez les éléments suivants :
     -   Souhaitez-vous grouper des étapes en sous-tâches ? Les sous-tâches divisent les sections d’un processus. Par exemple, si vous créez un enregistrement pour « Créer et lancer un produit », vous pouvez souhaiter regrouper ensemble les étapes requises pour créer un produit, puis grouper ensemble les étapes requises pour lancer le produit. Les tâches facilitent également la compréhension des processus longs.
     -   Souhaitez-vous ajouter des annotations, et si oui, où ? Consultez « Comprendre les différents types d’annotations » ci-dessous pour plus d’informations.
     -   Quelles valeurs ajouterez-vous dans les divers champs à mesure que vous effectuez les étapes du processus d’entreprise ? Il est judicieux de savoir ce que vous sélectionnerez ou entrerez au fil de votre parcours, de sorte de ne pas faire d’erreur ou devoir revenir en arrière au cours de l’enregistrement.
@@ -68,7 +71,7 @@ Voilà à quoi ressemble l’annotation de titre dans la « bulle » dans le Gui
 
 [![Apparence d’annotation de titre dans le guide de tâche.](./media/screen2.png)](./media/screen2.png)
 
--   **Remarques :** une annotation de remarque s’affiche après le texte d’étape généré automatiquement par l’enregistreur de tâche. Dans le guide de tâche, elle n’est visible que si l’utilisateur clique sur le lien **Afficher plus** dans la bulle du guide de tâche. Utilisez ce type d’annotation pour décrire tout ce que l’utilisateur a besoin de savoir pour effectuer l’étape.
+-   **Remarques :** une annotation de remarque s’affiche après le texte d’étape généré automatiquement par l’enregistreur de tâche. Dans le guide de tâche, elle n’est visible que si l’utilisateur clique sur le lien **Afficher plus** dans la bulle du guide de tâche. Utilisez ce type d’annotation pour décrire tout ce que l’utilisateur a besoin de savoir pour effectuer l’étape.
 
 Ceci est le volet de modification proposé lorsque vous ajoutez une annotation à mesure que vous créez votre enregistrement. Entrez une annotation de notes dans la zone **Notes**. 
 
@@ -94,7 +97,7 @@ Voilà à quoi ressemble l’annotation de notes dans la « bulle » dans le G
 Pour les étapes détaillées du parcours, consultez [Ressources de l’enregistreur de tâches](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copie et personnalisation des enregistrements de tâche Microsoft
-Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft pour les utiliser pour votre propre documentation d’aide ou vos propres supports de formation. Pour télécharger un enregistrement de tâche Microsoft, procédez comme suit :
+Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft pour les utiliser pour votre propre documentation d’aide ou vos propres supports de formation. Pour télécharger un enregistrement de tâche Microsoft, procédez comme suit :
 
 1.  Ouvrez l’enregistreur de tâches. L’enregistreur de tâche se trouve dans le menu **Paramètres**.
 2.  Dans le volet Enregistreur de tâche, cliquez sur **Tenir à jour un enregistrement.**

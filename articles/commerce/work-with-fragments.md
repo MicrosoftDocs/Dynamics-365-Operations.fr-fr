@@ -2,7 +2,7 @@
 title: Utiliser des fragments
 description: Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776192"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090742"
 ---
 # <a name="work-with-fragments"></a>Utiliser des fragments 
 
@@ -121,6 +121,20 @@ Pour modifier un fragment dans le générateur de site Commerce, procédez comme
 1. Modifiez les propriétés et la structure du module du fragment comme vous le souhaitez. Le processus est semblable au processus de modification des modules sont modifiés dans la vue d’éditeur de page.
 
 Vous pouvez également modifier un fragment en le sélectionnant dans une page, dans un modèle, ou un fragment parent, puis en sélectionnant **Modifier le fragment** dans le volet de propriétés à droite.
+
+### <a name="rename-a-fragment"></a>Renommer un fragment
+
+Pour renommer un fragment existant dans le générateur de site, procédez comme suit :
+
+1. Dans le volet de navigation à gauche, sélectionnez **Fragments**.
+1. Sélectionnez le nom du fragment que vous souhaitez renommer.
+1. Sélectionnez **Modifier** pour commencer à modifier le fragment. Notez que vous ne pouvez pas modifier un fragment si quelqu’un d’autre est déjà en train de modifier le fragment.
+1. Dans le volet des propriétés du fragment, sélectionnez le symbole du stylo à côté du nom du fragment.
+1. Modifiez le nom du fragment, le cas échéant.
+1. Sélectionnez la coche pour confirmer le changement de nom.
+1. Sélectionnez **Terminer la modification**.
+
+Vous pouvez renommer un fragment après sa création en le modifiant, puis en sélectionnant le symbole du stylo à côté du nom du fragment dans le volet des propriétés.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

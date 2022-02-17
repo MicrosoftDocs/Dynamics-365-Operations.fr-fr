@@ -1,6 +1,6 @@
 ---
-title: Nouveautés ou modifications apportées à la page d’accueil des applications Finance and Operations
-description: Cette page indique les rubriques permettant de connaître les nouvelles fonctionnalités présentes dans les dernières applications Finance and Operations.
+title: Nouveautés ou modifications de la page d’accueil des applications Finances et Opérations
+description: Cette page vous indique des rubriques qui vous permettent de connaître les nouvelles fonctions des dernières applications Finances et Opérations.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,30 +17,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759183"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075198"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Nouveautés ou modifications apportées à la page d’accueil des applications Finance and Operations
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Nouveautés ou modifications de la page d’accueil des applications Finances et Opérations
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Versions de l’application
 
-Pour afficher les nouveautés ou les modifications dans chaque version d’une application Finance and Operations, voir les rubriques suivantes :
+Pour afficher les nouveautés ou les modifications dans chaque version d’une application Finances et Opérations, voir les rubriques suivantes :
 
-- **Finance :** [Nouveautés ou modifications dans Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
+- **Finance :** [Nouveautés ou modifications dans Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
+- **Ressources humaines (infrastructure fusionnée) :** [Nouveautés ou modifications dans Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
 - **Supply Chain Management :** [Nouveautés ou modifications dans Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce :** [Nouveautés ou modifications dans Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
+
+
+## <a name="stand-alone-applications"></a>Applications autonomes
+
+Pour afficher les nouveautés ou les modifications dans Dynamics 365 Human Resources autonome, consultez la rubrique suivante :
+
 - **Human Resources** : [Nouveautés ou modifications dans Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Mises à jour de la plateforme
 
-Pour afficher les nouveautés ou les modifications dans les mises de la plateforme pour les applications Finance and Operations, voir la rubrique suivante :
+Pour afficher les nouveautés ou les modifications dans les mises de la plateforme pour les applications Finances et Opérations, voir la rubrique suivante :
 
 - [Nouveautés ou modifications dans Plateform update](../../dev-itpro/get-started/whats-new-home-page.md)
 

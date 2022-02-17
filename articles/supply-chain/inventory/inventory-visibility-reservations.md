@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4a85520c0911bb7eed5842b3fd5bd706009351e5
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500353"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061702"
 ---
 # <a name="inventory-visibility-reservations"></a>Réservations dans la visibilité des stocks
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique explique comment configurer la fonctionnalité de réservation pour créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la visibilité des stocks.
 
@@ -43,8 +43,8 @@ Pour activer la fonctionnalité de réservation, procédez comme suit.
 1. Accédez à **Gestion des stocks \> Paramétrage \> Paramètres d’intégration de la visibilité du stock**, ouvrez l’onglet **Compensation de réservation** et effectuez les réglages suivants :
     - **Activer la compensation des réservations** : définissez-le sur *Oui* pour activer cette fonctionnalité.
     - **Modificateur de la compensation des réservations** : sélectionnez le statut de la transaction de stock qui compensera les réservations effectuées sur la visibilité des stocks. Ce paramètre détermine l’étape de traitement de la commande qui déclenche les compensations. L’étape est tracée par le statut du mouvement de stock de la commande. Choisissez l’une des méthodes suivantes :
-        - *Sur commande* - Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
-        - *Réserve* - Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu’elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu’une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
+        - *Sur commande* – Pour le statut *Sur transaction*, une commande enverra une demande de compensation lors de sa création. La quantité de compensation sera la quantité de la commande créée.
+        - *Réserve* – Pour le statut *Réserver la transaction commandée*, une commande enverra une demande de compensation lorsqu’elle est réservée, prélevée, validée par bon de livraison ou facturée. La demande ne sera déclenchée qu’une seule fois, pour la première étape lorsque le processus mentionné se produit. La quantité de compensation sera la quantité pour laquelle le statut de la transaction de stock sera passé de *En commande* à *Réservé commandé* (ou statut ultérieur) sur la ligne de commande correspondante.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Utiliser la fonction de réservation dans la visibilité des stocks
 

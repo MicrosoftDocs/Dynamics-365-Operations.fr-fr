@@ -15,16 +15,19 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984457"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068007"
 ---
 # <a name="feature-management-overview"></a>Vue d’ensemble de la gestion des fonctionnalités
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Les fonctionnalités sont ajoutées et mises à jour dans chaque version. L’expérience de gestion des fonctionnalités fournit un espace de travail dans lequel vous pouvez afficher une liste des fonctionnalités fournies dans chaque version. Vous pouvez ensuite utiliser l’espace de travail pour afficher la documentation des fonctionnalités et pour activer ou désactiver des fonctionnalités.
 

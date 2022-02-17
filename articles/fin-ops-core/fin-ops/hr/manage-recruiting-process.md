@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965062"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075473"
 ---
 # <a name="manage-recruiting-processes"></a>Gestion des processus de recrutement
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients des ressources humaines sur l’infrastructure Finance.  
+
 
 Cette rubrique décrit un concept que les recruteurs peuvent utiliser pour suivre les étapes d’un processus de recrutement, notamment les moyens pour annoncer les postes vacants et recruter des candidats, en suivant les informations propres aux candidats et aux candidatures, en interviewant les candidats et en sélectionnant un ou plusieurs candidats pour pourvoir les postes vacants au sein de votre organisation.
 
@@ -34,7 +36,7 @@ Les projets de recrutement peuvent vous aider à planifier les étapes que vous 
 
 ## <a name="recruitment-projects"></a>Projets de recrutement
 
-Les projets de recrutement permettent aux recruteurs de suivre la progression des candidatures pour un seul ou pour plusieurs postes. Le projet de recrutement identifie le département et la tâche pour lequel/laquelle un ou plusieurs postes sont ouverts. Les projets de recrutement suivent également les informations suivantes pour les postes vacants :
+Les projets de recrutement permettent aux recruteurs de suivre la progression des candidatures pour un seul ou pour plusieurs postes. Le projet de recrutement identifie le département et la tâche pour lequel/laquelle un ou plusieurs postes sont ouverts. Les projets de recrutement suivent également les informations suivantes pour les postes vacants :
 
 - Le nombre spécifique de postes vacants
 - Le responsable de l’embauche ainsi qu’un autre contact pour le poste
@@ -55,7 +57,7 @@ Les recruteurs peuvent également enregistrer les **Supports** utilisés pour an
 
 ## <a name="applicants"></a>Candidats
 
-Une personne pose sa candidature pour une tâche au sein de votre entreprise. Les candidats sont partagés entre toutes les entités juridiques de votre organisation. Par conséquent, vous disposez d’un large bassin de talents dans lesquels prospecter. Vous pouvez tenir à jour les compétences, les références, les demandes de logement et les informations personnelles des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global. Vous pouvez utiliser la page **Candidat** pour mettre à jour les informations suivantes du carnet d’adresses global pour les candidats :
+Une personne pose sa candidature pour une tâche au sein de votre entreprise. Les candidats sont partagés entre toutes les entités juridiques de votre organisation. Par conséquent, vous disposez d’un large bassin de talents dans lesquels prospecter. Vous pouvez tenir à jour les compétences, les références, les demandes de logement et les informations personnelles des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global. Vous pouvez utiliser la page **Candidat** pour mettre à jour les informations suivantes du carnet d’adresses global pour les candidats :
 
 - Informations d’adresse
 - Informations sur le contact

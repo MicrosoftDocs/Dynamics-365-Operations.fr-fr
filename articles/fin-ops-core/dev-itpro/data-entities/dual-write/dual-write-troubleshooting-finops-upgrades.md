@@ -1,6 +1,6 @@
 ---
-title: Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
-description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés aux mises à niveau des applications Finance and Operations.
+title: Résoudre les problèmes liés aux mises à niveau des applications Finances et Opérations
+description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés aux mises à niveau des applications Finances et Opérations.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: db1602c2edaa2e6b6310cce04639ef7a8e43df15
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782779"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062823"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Résoudre les problèmes liés aux mises à niveau des applications Finances et Opérations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Cette rubrique fournit des informations sur la résolution des problèmes de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés aux mises à niveau des applications Finance and Operations.
+
+Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés aux mises à niveau des applications Finances et Opérations.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.
@@ -33,7 +33,7 @@ Cette rubrique fournit des informations sur la résolution des problèmes de l�
 
 **Rôle requis pour résoudre le problème :** Administrateur système
 
-Vous pouvez recevoir un message d’erreur semblable à l’exemple suivant lorsque vous essayez d’utiliser la table **DualWriteProjectConfiguration** pour mettre à jour une application Finance and Operations vers Platform Update 30.
+Vous pouvez recevoir un message d’erreur semblable à l’exemple suivant lorsque vous essayez d’utiliser la table **DualWriteProjectConfiguration** pour mettre à jour une application Finances et Opérations vers Platform Update 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Pour régler le problème, procédez comme suit.
 
-1. Connectez-vous à la machine virtuelle pour l’application Finance and Operations.
+1. Connectez-vous à la machine virtuelle pour l’application Finances et Opérations.
 2. Ouvrez Visual Studio en tant qu’administrateur et ouvrez l’arbre d’objets d’application (AOA).
 3. Recherchez **DualWriteProjectConfiguration**.
 4. Dans l’AOA, faites un clic droit sur **DualWriteProjectConfiguration** et sélectionnez **Ajouter au nouveau projet**. Sélectionnez **OK** pour créer le nouveau projet qui utilise les options par défaut.
@@ -65,10 +65,10 @@ Sur la page **Double écriture**, vous pouvez recevoir un message d’erreur sem
 
 Pour résoudre le problème, suivez d’abord ces étapes pour vous assurer que les colonnes se trouvent dans la table.
 
-1. Connectez-vous à la machine virtuelle pour l’application Finance and Operations.
+1. Connectez-vous à la machine virtuelle pour l’application Finances et Opérations.
 2. Accédez à **Espaces de travail \> Gestion de données**, sélectionnez la vignette **Paramètres de l’environnement**, puis, sur l’onglet **Paramètres de table**, sélectionnez **Actualiser la liste de tables** pour actualiser les tables.
-3. Accédez à **Espaces de travail \> Gestion des données**, sélectionnez l’onglet **Tables de données** et assurez-vous que la table est répertoriée. Si la table n’est pas répertoriée, connectez-vous à la machine virtuelle pour l’application Finance and Operations et assurez-vous que la table est disponible.
-4. Ouvrez la page **Mappage de tables** depuis la page **Double écriture** dans l’application Finance and Operations.
+3. Accédez à **Espaces de travail \> Gestion des données**, sélectionnez l’onglet **Tables de données** et assurez-vous que la table est répertoriée. Si la table n’est pas répertoriée, connectez-vous à la machine virtuelle pour l’application Finances et Opérations et assurez-vous que la table est disponible.
+4. Ouvrez la page **Mappage de tables** depuis la page **Double écriture** dans l’application Finances et Opérations.
 5. Sélectionnez **Actualiser la liste de tables** pour remplir automatiquement les colonnes dans les mappages de tables.
 
 Si le problème n’est toujours pas résolu, procédez comme suit.
@@ -76,10 +76,10 @@ Si le problème n’est toujours pas résolu, procédez comme suit.
 > [!IMPORTANT]
 > Ces étapes vous guident tout au long du processus de suppression d’une table, puis de son ajout à nouveau. Pour éviter les problèmes, assurez-vous de suivre exactement les étapes.
 
-1. Dans l’application Finance and Operations, accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Tables de données**.
+1. Dans l’application Finances et Opérations, accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Tables de données**.
 2. Recherchez la table qui manque pour l’attribut. Cliquez sur **Modifier le mappage cible** dans la barre d’outils.
 3. Sur le volet **Mapper l’échelonnement à la cible**, cliquez sur **Générer un mappage**.
-4. Ouvrez la page **Mappage de tables** depuis la page **Double écriture** dans l’application Finance and Operations.
+4. Ouvrez la page **Mappage de tables** depuis la page **Double écriture** dans l’application Finances et Opérations.
 5. Si l’attribut n’est pas renseigné automatiquement sur la carte, ajoutez-le manuellement en cliquant sur le bouton **Ajouter un attribut** puis sur **Enregistrer**. 
 6. Sélectionnez le mappage, puis cliquez sur **Exécuter**.
 

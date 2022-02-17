@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eb83ab1839e5610731afc7073c9d94e34f31bc07
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 4e34c885a570da90ffe440c40b05fede6e989f2f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731700"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070600"
 ---
 # <a name="define-new-departments"></a>Définir les nouveaux départements
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,9 +34,9 @@ Les départements sont des unités opérationnelles qui représentent une zone f
 1. Accédez à **Ressources humaines** > **Départements** > **Départements**.
 2. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
 3. Tapez une valeur dans le champ **Nom**.
-    * Exemple : Facturation de projet  
+    * Exemple : Facturation de projet  
 4. Dans le champ **Mémo**, tapez une valeur.
-    * Exemple : Facturation de projet  
+    * Exemple : Facturation de projet  
 5. Dans le champ **Responsable**, saisissez ou sélectionnez une valeur.
     * Exemple : Ana Bowman  
 6. Cliquez sur **Enregistrer**.
@@ -43,7 +46,7 @@ Les départements sont des unités opérationnelles qui représentent une zone f
 10. Cliquez sur **Insérer**
 11. Cliquez sur **Département**.
 12. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-    * Exemple : Facturation de projet  
+    * Exemple : Facturation de projet  
 13. Cliquez sur **OK**.
 14. Cliquez sur **Publier** pour ouvrir l’écran de boîte de dialogue.
 15. Entrez une date et une heure dans le champ **Date d’effet**.

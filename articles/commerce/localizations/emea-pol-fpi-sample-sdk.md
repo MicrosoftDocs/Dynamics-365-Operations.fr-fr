@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944813"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076986"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Directives de déploiement pour l’échantillon d’intégration d’imprimante fiscale pour la Pologne (héritées)
 
@@ -116,7 +116,7 @@ Dans la procédure précédente, vous avez activé les extensions qui sont des c
 
 ## <a name="design-of-extensions"></a>Conception des extensions
 
-L’échantillon d’intégration d’imprimante fiscale pour la Pologne est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+L’échantillon d’intégration d’imprimante fiscale pour la Pologne est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Conception d’extension Commerce Runtime
 
@@ -124,7 +124,7 @@ Le but de l’extension qui est un fournisseur de documents fiscaux est de gén�
 
 L’extension CRT est **Runtime.Extensions.DocumentProvider.PosnetSample**. Cette extension génère un ensemble de commandes spécifiques à l’imprimante au format JavaScript Object Notation (JSON) qui sont définies par la spécification POSNET 19-3678.
 
-Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Processus d’enregistrement fiscal et exemples d’intégration fiscale pour les périphériques fiscaux](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Processus d’enregistrement fiscal et exemples d’intégration fiscale pour les périphériques et les services fiscaux](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Gestionnaire de demandes
 

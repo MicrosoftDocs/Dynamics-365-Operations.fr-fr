@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817442"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062284"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance et Dynamics 365 Supply Chain Management dans le Cloud de la communauté du secteur public américain
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Sélectionnez les produits Microsoft Dynamics 365 United States (US) Government disponibles pour les entités gouvernementales et privées qualifiées. Ces entités sont limitées aux types suivants :
 
@@ -38,9 +38,9 @@ Une fois l’intégration initiale terminée, suivez les instructions de la rubr
 
 ## <a name="environment-deployment"></a>Déploiement de l’environnement
 
-Une fois l’intégration du projet terminée, vous pouvez passer en revue les fonctionnalités supplémentaires de LCS décrites dans [Lifecycle Services (LCS) pour les clients des applications Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Passez ensuite au déploiement de l’environnement.
+Une fois l’intégration du projet terminée, vous pouvez passer en revue les fonctionnalités supplémentaires de LCS décrites dans [Lifecycle Services (LCS) pour les clients des applications Finances et Opérations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Passez ensuite au déploiement de l’environnement.
 
-- Pour déployer des environnements gérés par Microsoft via LCS, suivez les instructions de la rubrique [Lifecycle Services (LCS) pour les clients des applications Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Pour déployer des environnements gérés par Microsoft via LCS, suivez les instructions de la rubrique [Lifecycle Services (LCS) pour les clients des applications Finances et Opérations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Pour les environnements hébergés dans le cloud, consultez [Déployer des environnements de développement et y accéder](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Vous devez également terminer le processus d’intégration de Resource Manager pour vos connecteurs, comme décrit dans [Terminer le processus d’intégration d’Azure Resource Manager pour les projets Lifecycle Services de l’administration américaine](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -80,7 +80,7 @@ Oui. Cependant, si votre partenaire utilise une identité non-GCC, le ticket d�
 
 - [Dynamics 365 US Government](/power-platform/admin/microsoft-dynamics-365-government)
 - [Disponibilité de la fonctionnalité Business Applications US Government](https://aka.ms/BAPFunctionalParity).
-- [Guide de l'utilisateur de Lifecycle Services (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Guide de l’utilisateur de Lifecycle Services (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Vue d’ensemble du déploiement cloud](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

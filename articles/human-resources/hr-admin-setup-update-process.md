@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14bdfa175257023ab68b4cbbda9311bfde77723050355e9d983337c9fa9eb551
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761138"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063108"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Human Resources est un véritable logiciel en tant que service (SaaS) qui fournit des mises à jour de service continues et sans contact. Ces mises à jour contiennent à la fois des changements d’application et de plate-forme qui fournissent souvent des améliorations essentielles au service, y compris des mises à jour réglementaires.
 

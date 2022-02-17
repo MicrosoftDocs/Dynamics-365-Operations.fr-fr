@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431123"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071457"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Définir le processus de rémunération et calculer les résultats
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ Des processus de rémunération permettent de déterminer de nouveaux montants e
     * La date active de transaction est la date à laquelle les nouveaux taux de rémunération doivent entrer en vigueur. De nombreuses sociétés incluent quelques mois entre la fin d’un cycle et la date à laquelle les nouveaux taux de rémunération entrent en vigueur. Le temps supplémentaire est utilisé pour traiter et examiner la nouvelle rémunération.  
 8. Dans le champ **Date de transaction active**, entrez une date.
     * La date de moment donné est utilisée pour les régimes de rémunération variable qui déterminent le montant de la prime des employés en fonction de leur taux de rémunération à ce moment.  
-    * La date d’embauche au pro rata du salaire fixe est utilisée avec les régimes de rémunération fixe, avec une règle d’embauche en pourcentage.  Les employés qui sont embauchés entre le début de cycle et la date d’embauche au pro rata du salaire fixe recevront 100 % de leur augmentation de rémunération calculée, plutôt qu’un pourcentage proportionnel.  
+    * La date d’embauche au pro rata du salaire fixe est utilisée avec les régimes de rémunération fixe, avec une règle d’embauche en **pourcentage**. Les employés qui sont embauchés entre le début de cycle et la date d’embauche au pro rata du salaire fixe recevront 100 % de leur augmentation de rémunération calculée, plutôt qu’un pourcentage proportionnel.  
 9. Dans le champ **Paiement fixe au pro rata de la date d’embauche**, entrez une date.
     * Le date limite de révision est la date à laquelle tous les résultats de processus doivent être examinés afin qu’ils puissent être chargés dans l’enregistrement de rémunération d’un employé avant la date active de transaction. Ce champ est fourni uniquement à titre indicatif.  
 10. Dans le champ **Date limite de révision**, entrez une date.
 11. Cliquez sur **Enregistrer**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurer les régimes et actions de rémunération pour un processus de rémunération
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurer les régimes et actions de rémunération pour un processus de rémunération
 1. Cliquez sur **Paramétrage**.
     * La page **Paramétrage** permet de sélectionner les régimes à traiter dans le cadre de ce processus de rémunération, ainsi que les actions à entreprendre pour chaque régime.  
 2. Dans le champ **Plan**, saisissez ou sélectionnez une valeur.
@@ -56,7 +59,7 @@ Des processus de rémunération permettent de déterminer de nouveaux montants e
 6. Cliquez sur **Ajouter**.
 7. Dans le champ **Action**, sélectionnez une action de type **Mérite**.
     * Les actions de rémunération peuvent être « chaînées » ensemble à l’aide du champ **Utiliser le résultat précédent** afin d’indiquer si l’action sélectionnée doit utiliser le salaire de base de l’employé ou le résultat de l’action précédente comme point de départ pour le calcul de cette action.  
-8. Sélectionnez **Oui** dans le champ Utiliser le résultat précédent.
+8. Sélectionnez **Oui** dans le champ **Utiliser le résultat précédent**.
 9. Cliquez sur **Ajouter**.
 10. Dans le champ **Action**, sélectionnez une action de type **Générale**.
     * Différents types d’action de rémunération activent différents champs. Pour un type d’action de rémunération générale, vous pouvez spécifier un pourcentage d’augmentation ou un montant d’augmentation.  
@@ -85,13 +88,13 @@ Des processus de rémunération permettent de déterminer de nouveaux montants e
 1. Cliquez sur **Résultats du processus**.
 2. Cliquez sur **Résultats des employés**.
 3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-4. Développez la section Rémunération fixe.
-    * Développez les organisateurs pour afficher les résultats du processus. Si l’**activation des recommandations** est marquée pour une action de rémunération, les champs **Recommandation** sont activés pour cette action.  
+4. Développez la section **Rémunération fixe**.
+    * Développez les raccourcis pour afficher les résultats du processus. Si l’**activation des recommandations** est marquée pour une action de rémunération, les champs **Recommandation** sont activés pour cette action.  
 5. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Vous pouvez afficher les résultats pour un seul employé en cliquant sur le bouton **Afficher les résultats**.  
     * Vous pouvez remplacer le montant de rémunération calculé en ajustant le pourcentage ou le montant de l’augmentation dans les champs de **Recommandation**.  
 6. Dans le champ **Pourcentage recommandé**, entrez un nombre.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 8. Dans le champ **Pourcentage recommandé**, entrez un nombre.
     * La fonction Recalculer vous permet d’ignorer toutes modifications apportées à l’enregistrement existant et de générer un nouveau résultat de rémunération pour l’employé sélectionné.  
     * Lorsque toutes les modifications sont terminées pour un employé, modifiez le statut pour le définir sur **Approuvé**.  

@@ -2,27 +2,37 @@
 title: Migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture
 description: Cette rubrique décrit comment migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture.
 author: RamaKrishnamoorthy
-ms.date: 01/04/2021
+ms.date: 02/01/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d119a9e5874f73e024cedc4cdb581f947e5bf1a0
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.search.validFrom: 2020-01-26
+ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782503"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087266"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture
 
 [!include [banner](../../includes/banner.md)]
 
+La solution Prospect en disponibilités disponible pour l’intégrateur de données n’est pas compatible avec la double écriture. La raison n’est autre que l’index msdynce_AccountNumber sur la table de compte fournie dans le cadre de la solution Prospect en disponibilités. Si cet index existe, vous ne pouvez pas créer le même numéro de compte client dans deux entités juridiques différentes. Vous pouvez soit choisir de repartir à neuf avec la double écriture en migrant les données Prospect en disponibilités de l’Intégrateur de données vers la double écriture, soit installer la dernière version « dormante » de la solution Prospect en disponibilités. Cette rubrique couvre les deux approches.
+
+## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Installer la dernière version « dormante » de la solution Prospect en disponibilités de l’intégrateur de données
+
+**P2C Version 15.0.0.2** est considérée comme la dernière version « dormante » de la solution Prospect en disponibilités de l’intégrateur de données. Vous pouvez la télécharger depuis [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C).
+
+Vous devez l’installer manuellement. Après l’installation, tout reste exactement pareil, sauf que l’index msdynce_AccountNumber est supprimé.
+
+## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Procédure pour migrer les données de prospect en disponibilités de l’intégrateur de données vers la double écriture
+
 Pour migrer vos données de prospect en disponibilités de l’intégrateur de données vers la double écriture, procédez comme suit.
 
-1. Exécutez les tâches de l’intégrateur de données de prospect en disponibilités pour effectuer une dernière synchronisation complète. De cette manière, vous vous assurez que les deux systèmes (applications Finance and Operations et applications Customer Engagement) ont toutes les données.
+1. Exécutez les tâches de l’intégrateur de données de prospect en disponibilités pour effectuer une dernière synchronisation complète. De cette manière, vous vous assurez que les deux systèmes (applications Finances et Opérations et applications Customer Engagement) ont toutes les données.
 2. Pour éviter toute perte de données potentielle, exportez les données de prospect en disponibilités de Microsoft Dynamics 365 Sales vers un fichier Excel ou un fichier de valeurs séparées par des virgules (CSV). Exportez les données des entités suivantes :
 
     - [Compte](#account-table)
@@ -37,25 +47,25 @@ Pour migrer vos données de prospect en disponibilités de l’intégrateur de d
 
 3. Désinstallez la solution Prospect en disponibilités de l’environnement Sales. Cette étape supprime les colonnes et les données correspondantes introduites par la solution Prospect en disponibilités.
 4. Installez la solution de double écriture.
-5. Créez une connexion de double écriture entre l’application Finance and Operations et l’application Customer Engagement pour une ou plusieurs entités juridiques.
+5. Créez une connexion de double écriture entre l’application Finances et Opérations et l’application Customer Engagement pour une ou plusieurs entités juridiques.
 6. Activez les mappages de table de double écriture et exécutez la synchronisation initiale pour les données de référence requises. (Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).) Les exemples de données requises comprennent les groupes de clients, les conditions de paiement et les échéanciers de paiement. N’activez pas les mappages de double écriture pour les tables qui nécessitent une initialisation, telles que les tables de compte, devis, ligne de devis, commande et ligne de commande.
 7. Dans l’application Customer Engagement, accédez à **Paramètres avancés \> Paramètres système \> Gestion des données \> Règles de détection des doublons** et désactivez toutes les règles.
 8. Initialisez les tables répertoriées à l’étape 2. Pour obtenir des instructions, consultez les autres sections de cette rubrique.
-9. Ouvrez l’application Finance and Operations et activez les mappages de table, telles que les mappages de table de compte, devis, ligne de devis, commande et ligne de commande. Exécutez ensuite la synchronisation initiale. (Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).) Ce processus synchronisera les informations supplémentaires de l’application Finance and Operations, telles que le statut de traitement, les adresses d’expédition et de facturation, les sites et les entrepôts.
+9. Ouvrez l’application Finances et Opérations et activez les mappages de table, telles que les mappages de table de compte, devis, ligne de devis, commande et ligne de commande. Exécutez ensuite la synchronisation initiale. (Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).) Ce processus synchronisera les informations supplémentaires de l’application Finances et Opérations, telles que le statut de traitement, les adresses d’expédition et de facturation, les sites et les entrepôts.
 
 ## <a name="account-table"></a>Table Compte
 
 1. Dans la colonne **Société**, entrez le nom de la société, par exemple **USMF**.
 2. Dans la colonne **Type de relation**, entrez **Client** comme valeur statique. Vous ne souhaiterez peut-être pas classer chaque enregistrement de compte comme client dans votre logique métier.
-3. Dans la colonne **ID de groupe de clients**, entrez le numéro du groupe de clients de l’application Finance and Operations. La valeur par défaut de la solution Prospect en disponibilités est **10**.
-4. Si vous utilisez la solution Prospect en disponibilités sans aucune personnalisation du **Numéro de compte**, entrez une valeur **Numéro de compte** dans la colonne **Numéro de partie**. S’il existe des personnalisations et que vous ne connaissez pas le numéro de partie, extrayez ces informations de l’application Finance and Operations.
+3. Dans la colonne **ID de groupe de clients**, entrez le numéro du groupe de clients de l’application Finances et Opérations. La valeur par défaut de la solution Prospect en disponibilités est **10**.
+4. Si vous utilisez la solution Prospect en disponibilités sans aucune personnalisation du **Numéro de compte**, entrez une valeur **Numéro de compte** dans la colonne **Numéro de partie**. S’il existe des personnalisations et que vous ne connaissez pas le numéro de partie, extrayez ces informations de l’application Finances et Opérations.
 
 ## <a name="contact-table"></a>Table Contact
 
 1. Dans la colonne **Société**, entrez le nom de la société, par exemple **USMF**.
 2. Définissez les colonnes suivantes, en fonction de la valeur **IsActiveCustomer** du fichier CSV :
 
-    - Si **IsActiveCustomer** est défini sur **Oui** dans le fichier CSV, définissez la colonne **Vendable** sur **Oui**. Dans la colonne **ID de groupe de clients**, entrez le numéro du groupe de clients de l’application Finance and Operations. La valeur par défaut de la solution Prospect en disponibilités est **10**.
+    - Si **IsActiveCustomer** est défini sur **Oui** dans le fichier CSV, définissez la colonne **Vendable** sur **Oui**. Dans la colonne **ID de groupe de clients**, entrez le numéro du groupe de clients de l’application Finances et Opérations. La valeur par défaut de la solution Prospect en disponibilités est **10**.
     - Si **IsActiveCustomer** est défini sur **Non** dans le fichier CSV, définissez la colonne **Vendable** sur **Non** et définissez la colonne **Contact pour** sur **Client**.
 
 3. Si vous utilisez la solution Prospect en disponibilités sans aucune personnalisation du **Numéro de contact**, définissez les colonnes suivantes :
@@ -66,7 +76,7 @@ Pour migrer vos données de prospect en disponibilités de l’intégrateur de d
 
 ## <a name="invoice-table"></a>Table Facture
 
-Comme les données de la table **Facture** sont conçues pour circuler dans un sens, de l’application Finance and Operations vers l’application Customer Engagement, l’initialisation n’est pas nécessaire. Exécutez la synchronisation initiale pour migrer toutes les données requises de l’application Finance and Operations vers l’application Customer Engagement. Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).
+Comme les données de la table **Facture** sont conçues pour circuler dans un sens, de l’application Finances et Opérations vers l’application Customer Engagement, l’initialisation n’est pas nécessaire. Exécutez la synchronisation initiale pour migrer toutes les données requises de l’application Finances et Opérations vers l’application Customer Engagement. Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Table Commande
 
@@ -84,7 +94,7 @@ Comme les données de la table **Facture** sont conçues pour circuler dans un s
 
 ## <a name="products-table"></a>Table Produits
 
-Comme les données de la table **Produits** sont conçues pour circuler dans un sens, de l’application Finance and Operations vers l’application Customer Engagement, l’initialisation n’est pas nécessaire. Exécutez la synchronisation initiale pour migrer toutes les données requises de l’application Finance and Operations vers l’application Customer Engagement. Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).
+Comme les données de la table **Produits** sont conçues pour circuler dans un sens, de l’application Finances et Opérations vers l’application Customer Engagement, l’initialisation n’est pas nécessaire. Exécutez la synchronisation initiale pour migrer toutes les données requises de l’application Finances et Opérations vers l’application Customer Engagement. Pour plus d’informations, voir [Considérations pour la synchronisation initiale](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Table Devis et Produit de devis
 

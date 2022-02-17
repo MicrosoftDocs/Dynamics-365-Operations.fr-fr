@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431312"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071482"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Inscription d’un employé à un régime de rémunération variable
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La gestionnaire de rémunération et avantages peut inscrire des employés dans des régimes de rémunération variable pour calculer des primes en espèces ou non pour les employés. Cette procédure suppose qu’un régime de rémunération variable a été créé avec le champ **Activer l’inscription** défini sur Oui, et que des règles d’admissibilité ont été créées pour ce régime de rémunération variable. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour démarrer cette procédure, accédez à **Ressources humaines** > **Collaborateurs** > **Employés** > **Rémunération** > **Inscription au régime variable**.
+La gestionnaire de rémunération et avantages peut inscrire des employés dans des régimes de rémunération variable pour calculer des primes en espèces ou non pour les employés. Cette procédure suppose qu’un régime de rémunération variable a été créé avec le champ **Activer l’inscription** défini sur **Oui**, et que des règles d’admissibilité ont été créées pour ce régime de rémunération variable. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour démarrer cette procédure, accédez à **Ressources humaines** > **Collaborateurs** > **Employés** > **Rémunération** > **Inscription au régime variable**.
 
 1. Cliquez sur **Nouveau**.
 2. Dans le champ **Régime**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
     * La recherche est filtrée pour afficher uniquement les régimes de rémunération variable auxquels l’employé peut prétendre en fonction des règles d’admissibilité.  
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Activez ou désactivez l’extension de la section Général.
+4. Activez ou désactivez l’extension de la section **Général**.
 5. Entrez une date dans le champ **Date d’effet**.
 6. Cliquez sur **Enregistrer**.
 7. Activez ou désactivez l’extension de la section **Remplacements**.

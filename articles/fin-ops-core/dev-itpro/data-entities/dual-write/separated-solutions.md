@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924868"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063260"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Package d’orchestration d’application à double écriture séparé
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Auparavant, le package d’orchestration d’applications à double écriture était un package unique qui contenait les solutions suivantes :
 
 - Notes Dynamics 365
-- Ancre commune Dynamics 365 Finance and Operations
-- Mappages d’entités à double écriture Dynamics 365 Finance and Operations
+- Ancre Commune Dynamics 365 Finance et Opérations
+- Cartes d’entité à double écriture Dynamics 365 Finance et Opérations
 - Application de gestion des actifs Dynamics 365
 - Gestion des actifs Dynamics 365
 - Éléments communs de HCM
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Éléments communs Dynamics 365 Finance et Opérations
 - Dynamics 365 Company
 - Taux de change des devises
 - Field Service Common
@@ -51,14 +51,14 @@ Le package Base d’application à double écriture permet aux utilisateurs d’
 | Nom unique                           | Nom d’affichage                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 Company                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Éléments communs Dynamics 365 Finance et Opérations |
 | CurrencyExchangeRates                 | Taux de change des devises                    |
 | msdyn_DualWriteAppCoreMaps            | Cartes d’entités principales des applications à double écriture   |
 | msdyn_DualWriteAppCoreAnchor          | Ancre de base des applications à double écriture        |
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications Finance and Operations     | Applications Customer Engagement                    |
+| Applications Finances et Opérations     | Applications Customer Engagement                    |
 |---------------------------------|---------------------------------------------|
 | Unité opérationnelle                  | msdyn_internalorganizations                 |
 | Hiérarchie d’organisation          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ Le package Human Resources à double écriture contient les solutions et les car
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications Finance and Operations | Applications Customer Engagement         |
+| Applications Finances et Opérations | Applications Customer Engagement         |
 |-----------------------------|----------------------------------|
 | Origines ethniques              | cdm_ethnicorigins                |
 | Fonction de tâche de rémunération   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Le package Supply Chain à double écriture contient les solutions et les cartes
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications Finance and Operations                 | Applications Customer Engagement                      |
+| Applications Finances et Opérations                 | Applications Customer Engagement                      |
 |---------------------------------------------|-----------------------------------------------|
 | Unités                                       | UM                                          |
 | En-têtes de commande client CDS                     | salesorders                                   |
@@ -197,7 +197,7 @@ Le package Finance à double écriture contient les solutions et les cartes néc
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications Finance and Operations             | Applications Customer Engagement        |
+| Applications Finances et Opérations             | Applications Customer Engagement        |
 |-----------------------------------------|---------------------------------|
 | Groupes de retenue à la source                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (client)              | contacts                        |
@@ -247,7 +247,7 @@ Le package Notes à double écriture contient les solutions et les cartes néces
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Finance and Operations                     | Customer Engagement |
+| Finances et Opérations                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Pièces jointes des documents d’en-tête de commande client    | annotations         |
 | Pièces jointes clients                       | annotations         |
@@ -274,7 +274,7 @@ Le package Gestion des actifs à double écriture contient les solutions et les 
 
 Les cartes suivantes sont disponibles dans ce package.
 
-| Applications Finance and Operations                           | Applications Customer Engagement                |
+| Applications Finances et Opérations                           | Applications Customer Engagement                |
 |-------------------------------------------------------|-----------------------------------------|
 | Garantie de la gestion des actifs                             | msdyn_warranties                        |
 | Modèles de gestion des actifs                               | msdyn_models                            |

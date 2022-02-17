@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0457190f2fc8cd0ed39e109e6720509b77b83566
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678517"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060970"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Utiliser l'application Visibilité des stocks
+# <a name="use-the-inventory-visibility-app"></a>Utiliser l’application Visibilité des stocks
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique décrit comment utiliser l’application de visibilité des stocks.
 
@@ -36,13 +36,13 @@ La visibilité des stocks fournit une application pilotée par modèle pour la v
 
 Avant de commencer, installez et configurez le complément de visibilité des stocks comme décrit dans [Installer et configurer la visibilité des stocks](inventory-visibility-setup.md).
 
-## <a name="open-the-inventory-visibility-app"></a>Ouvrir l'application Visibilité des stocks
+## <a name="open-the-inventory-visibility-app"></a>Ouvrir l’application Visibilité des stocks
 
-Pour ouvrir l'application Visibilité des stocks, connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
+Pour ouvrir l’application Visibilité des stocks, connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
 
 ## <a name="configuration"></a><a name="configuration"></a>Configuration
 
-La page **Configuration** de l'application Visibilité des stocks vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut un paramétrage par défaut pour Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner le paramètre par défaut. Désormais, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes.
+La page **Configuration** de l’application Visibilité des stocks vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut un paramétrage par défaut pour Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner le paramètre par défaut. Désormais, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes.
 
 Pour plus de détails sur la configuration de la solution, consultez [Configurer la visibilité des stocks](inventory-visibility-configuration.md).
 
@@ -70,7 +70,7 @@ Pour valider une requête de réservation, vous devez saisir une valeur dans le 
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Récapitulatif du stock
 
-**Récapitulatif du stock** est une vue personnalisée de l’entité *Somme de stock disponible*. Elle fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Avant de pouvoir voir les données sur l'onglet **Récapitulatif du stock**, vous devez activer la fonction *OnHandMostSpecificContexteService* sur l'onglet **Gestion des fonctionnalités**.
+**Récapitulatif du stock** est une vue personnalisée de l’entité *Somme de stock disponible*. Elle fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Avant de pouvoir voir les données sur l’onglet **Récapitulatif du stock**, vous devez activer la fonction *OnHandMostSpecificContexteService* sur l’onglet **Gestion des fonctionnalités**.
 
 En utilisant le **Filtre avancé** fourni par Dataverse, vous pouvez créer une vue personnelle qui affiche les lignes qui sont importantes pour vous. Les options de filtrage avancées vous permettent de créer un large éventail de vues, des plus simples aux plus complexes. Elles vous permettent également d’ajouter des conditions groupées et imbriquées aux filtres. Pour en savoir plus sur l’utilisation du **Filtre avancé**, voir [Modifier ou créer des vues personnelles à l’aide de filtres de grille avancés](/powerapps/user/grid-filters-advanced).
 

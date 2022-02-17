@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36c4ff32a4cb6d10e363a1522cb48823c4f491dabe2845d390147b42cdfcec4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712241"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070956"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurer des décisions conditionnelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 La procédure suivante permet de configurer les propriétés d’une décision conditionnelle.
 
@@ -44,7 +47,7 @@ Le système détermine la branche utilisée en évaluant si le document soumis r
 2. Cliquez sur **Ajouter une condition**.
 3. Permet d’entrer une condition.
 4. Entrez des conditions supplémentaires, si nécessaire.
-5. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
+5. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
 
     1. Cliquez sur **Test** pour ouvrir l’écran **Condition de workflow de test**.
     2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l’écran.

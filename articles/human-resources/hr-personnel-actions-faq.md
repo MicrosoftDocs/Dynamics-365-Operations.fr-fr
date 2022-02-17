@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cfaa67e051529dac8f29a5b289d7025aee681178
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: c952bdc95b49c92fea34aef63b57c7e193b2f09a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731677"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065149"
 ---
 # <a name="personnel-actions-faq"></a>FAQ sur les actions du personnel
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +46,7 @@ Voici des exemples de tâches pouvant nécessiter des actions du personnel :
 Les actions de membre du personnel sont requises par votre organisation s’il vous est demandé de sélectionner une action de membre du personnel lors de la création de postes, la modification des postes existants, l’embauche de nouveaux collaborateurs, le transfert de collaborateurs, la modification de la rémunération de collaborateur, la modification des affectations de poste, la fin d’un contrat de collaborateur, ou la saisie d’un congé pour des collaborateurs. 
 
 ## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a>Quelle est différence entre une action de poste et une action de collaborateur ?
-Il existe deux types d’actions de membre du personnel :
+Il existe deux types d’actions de membre du personnel :
 
 - Action liée aux **postes** – Une action de poste est exécutée sur les postes existants ou nouveaux. Par exemple, une action de poste peut être requise si vous modifiez une valeur sur un poste existant ou si vous créez un poste saisonnier. 
 
@@ -67,7 +70,7 @@ Oui, vous pouvez supprimer les actions de membre du personnel dont le statut est
 Ouvrez l’une des pages de liste d’**action de membre du personnel** et sélectionnez une action de membre du personnel.
 
 ## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a>Que dois-je faire si une demande d’action de membre du personnel échoue ?
-Si une demande d’action de membre du personnel échoue, procédez comme suit pour résoudre l’erreur et resoumettre la demande :
+Si une demande d’action de membre du personnel échoue, procédez comme suit pour résoudre l’erreur et resoumettre la demande :
 
 > 1. Dans le **volet Actions**, cliquez sur le bouton **Texte d’erreur** pour afficher le texte du message qui décrit le problème.
 > 
@@ -78,10 +81,10 @@ Si une demande d’action de membre du personnel échoue, procédez comme suit p
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Qu’arrive-t-il à une action de membre du personnel qui utilise le workflow lorsque l’approbation finale est terminée ?
 S’il n’existe aucune erreur, l’action de membre du personnel passe en lecture seule. (Vous pouvez afficher l’historique de la page de liste **Toutes les actions du collaborateur**, mais vous ne pouvez pas modifier l’action d’un membre du personnel.) Lorsque le statut d’une action d’un membre du personnel est **Terminé**, le poste ou l’enregistrement du collaborateur a déjà été mis à jour. Pour afficher les modifications qui ont été effectuées, ouvrez la page de liste **Postes** ou **Collaborateurs**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Pourquoi est-ce que je reçois l’erreur suivante lorsque j’entre une valeur non nulle dans le champ Taux de salaire ? « La valeur n’est pas dans la plage valide : elle doit être comprise entre 0,00 et 0,00 »
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Pourquoi est-ce que je reçois l’erreur suivante lorsque j’entre une valeur non nulle dans le champ Taux de salaire ? « La valeur n’est pas dans la plage valide : elle doit être comprise entre 0,00 et 0,00 »
 Vous recevez ce message car le champ **Niveau** sur la page **Tâche** est vide pour la tâche associée au poste sélectionné.
 
-Pour résoudre cette erreur, procédez comme suit :
+Pour résoudre cette erreur, procédez comme suit :
 
 > 1. Dans la page **Affectations de poste du collaborateur**, cliquez sur le champ **Poste**.  
 > 2. Cliquez sur la valeur du champ **Poste** pour ouvrir la page **Poste**.

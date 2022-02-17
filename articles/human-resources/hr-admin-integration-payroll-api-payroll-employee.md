@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f43476cd044a9cc2e11412aac4af1cff2f9e511
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559531"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068482"
 ---
 # <a name="payroll-employee"></a>Employé avec paie
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,7 +37,7 @@ Cette entité fournit des informations sur l’employé. Vous devez définir les
 
 >[!IMPORTANT] 
 >Les champs **Prénom**, **Deuxième prénom**, **Nom de famille**, **NomValideApartirDe** et **NomValideJusqu** ne sont plus disponibles sur cette entité. Cela garantit qu’il n’y a qu’une seule source de données à date effective qui soutient cette entité.
->Ces champs seront disponibles sur l'entité **DirPersonNameHistoricalEntity**, qui a été publiée dans la mise à jour de plateforme 43. Il existe une relation OData entre **PayrollEmployeeEntity** et **DirPersonNameHistoricalEntity**. 
+>Ces champs seront disponibles sur l’entité **DirPersonNameHistoricalEntity**, qui a été publiée dans la mise à jour de plateforme 43. Il existe une relation OData entre **PayrollEmployeeEntity** et **DirPersonNameHistoricalEntity**. 
 
 ## <a name="properties"></a>Propriétés
 
@@ -43,14 +46,14 @@ Cette entité fournit des informations sur l’employé. Vous devez définir les
 | **ID entité juridique**</br>mshr_legalentityid</br>*Chaîne* | Lecture seule | Spécifie l’entité juridique (société). |
 | **Numéro personnel**</br>mshr_personnelnumber</br>*Chaîne* | Lecture seule | Numéro personnel unique du collaborateur. |
 | **Date de début de l’emploi**</br>mshr_employmentstartdate</br>*Décalage de date et heure* | Lecture seule | Date de début de l’emploi du collaborateur. |
-| **Date de fin de l'emploi**</br>mshr_employmentenddate</br>*Décalage de date et heure* | Lecture seule |Date de fin de l’emploi du collaborateur.  |
+| **Date de fin de l’emploi**</br>mshr_employmentenddate</br>*Décalage de date et heure* | Lecture seule |Date de fin de l’emploi du collaborateur.  |
 | **Date de naissance**</br>mshr_birthdate</br>*Décalage de date et heure* | Lecture seule | La date de naissance du collaborateur. |
 | **Sexe**</br>mshr_gender</br>[Jeu d’options mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Lecture seule | Genre du collaborateur. |
-| **Type d'emploi**</br>mshr_employmenttype</br>[Jeu d'options mshr_hcmemploymenttype](hr-admin-integration-payroll-api-hcmemploymenttype.md) | Lecture seule | Le type d'emploi. |
+| **Type d’emploi**</br>mshr_employmenttype</br>[Jeu d’options mshr_hcmemploymenttype](hr-admin-integration-payroll-api-hcmemploymenttype.md) | Lecture seule | Le type d’emploi. |
 | **ID du type d’identification**</br>mshr_identificationtypeid</br>*Chaîne* |Lecture seule | Le type d’identification défini pour le collaborateur. |
 | **Numéro d’identification**</br>mshr_identificationnumber</br>*Chaîne* | Lecture seule |Le numéro d’identification défini pour le collaborateur. |
-| **Prêt à payer**</br>mshr_readytopay</br>[Jeu d’options mshr_noyes](hr-admin-integration-payroll-api-no-yes.md) | Lecture seule | Indique si l'employé est marqué comme étant prêt à payer. |
-| **ID d’entité Collaborateur avec paie**</br>mshr_payrollemployeeentityid</br>*GUID* | Généré par le système | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique l'employé. |
+| **Prêt à payer**</br>mshr_readytopay</br>[Jeu d’options mshr_noyes](hr-admin-integration-payroll-api-no-yes.md) | Lecture seule | Indique si l’employé est marqué comme étant prêt à payer. |
+| **ID d’entité Collaborateur avec paie**</br>mshr_payrollemployeeentityid</br>*GUID* | Généré par le système | Une valeur d’identificateur global unique (GUID) générée par le système pour identifier de manière unique l’employé. |
 
 ## <a name="relations"></a>Relations
 

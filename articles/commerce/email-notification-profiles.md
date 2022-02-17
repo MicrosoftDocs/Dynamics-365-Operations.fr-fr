@@ -2,7 +2,7 @@
 title: Paramétrer un profil de notification par e-mail
 description: Cette rubrique décrit comment créer un profil de notification par e-mail dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771029"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087865"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurer un profil de notification par e-mail
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771029"
 
 Cette rubrique décrit comment créer un profil de notification par e-mail dans Microsoft Dynamics 365 Commerce.
 
-Lorsque vous créez des canaux, vous pouvez configurer un profil de notification par e-mail. De cette manière, des e-mails peuvent être envoyés aux clients pour divers événements transactionnels, tels que la création d’une commande, le statut d’expédition d’une commande et l’échec de paiement.
+Lorsque vous créez des canaux, vous pouvez configurer un profil de notification par e-mail. Le profil de notification par e-mail définit les événements d’une transaction de vente (tels que les événements de création de commande, de commande emballée et de commande facturée) pour lesquels vous enverrez des notifications à vos clients. 
 
 Pour plus d’informations sur la configuration de l’e-mail, consultez la rubrique [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ Pour créer un profil de notification par e-mail, procédez comme suit.
 
 ### <a name="create-an-email-template"></a>Créer un modèle d’e-mail
 
-Avant qu’un type de notification par e-mail puisse être activé, vous devez créer un modèle d’e-mail d’organisation dans Commerce Headquarters. Ce modèle définit l’objet de l’e-mail, l’expéditeur, la langue par défaut et le corps de l’e-mail pour chaque langue que vous souhaitez prendre en charge.
+Avant qu’un type de notification par e-mail puisse être activé, vous devez créer un modèle d’e-mail d’organisation dans Commerce Headquarters pour chaque type de notification que vous souhaitez prendre en charge. Ce modèle définit l’objet de l’e-mail, l’expéditeur, la langue par défaut et le corps de l’e-mail pour chaque langue prise en charge.
 
 Pour créer un modèle d’e-mail, procédez comme suit.
 
@@ -61,6 +61,8 @@ L’image suivante montre quelques exemples de paramètres de modèle d’e-mail
 
 ![Paramètres du modèle d’e-mail.](media/email-template.png)
 
+Pour plus d’informations sur la création et le chargement de modèles d’e-mail, voir [Créer des modèles d’e-mail pour les événements transactionnels](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Créer un événement d’e-mail
 
 Pour créer un événement d’e-mail, procédez comme suit.
@@ -76,10 +78,12 @@ L’image suivante montre quelques exemples de notification d’événements.
 
 ![Paramètres de notification d’événements.](media/email-notification-profile.png)
 
+> [!NOTE]
+> Le type de notification créé par le client nécessite la mise en œuvre d’une personnalisation avant qu’une notification par e-mail puisse être envoyée.
+
 ### <a name="next-steps"></a>Étapes suivantes
 
 Avant de pouvoir envoyer des e-mails, vous devez configurer votre service de courrier sortant et configurer un traitement par lots. Pour plus d’informations, voir [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
