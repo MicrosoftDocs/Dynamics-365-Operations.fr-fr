@@ -14,24 +14,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f99731d4d0658ed6f06b9e6915237532601a0a1d
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413509"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071133"
 ---
 # <a name="client-disconnects"></a>Déconnexion du client
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Détails de l'environnement** 
+**Détails de l’environnement** 
 
 Ce problème peut se produire dans tous les environnements.
  
 **Symptôme** 
 
-Le client est déconnecté de l'environnement et ne sait pas pourquoi. Le client reçoit un des messages d’erreur suivants :
+Le client est déconnecté de l’environnement et ne sait pas pourquoi. Le client reçoit un des messages d’erreur suivants :
 
 - Votre connexion a été perdue. Cliquez sur Fermer pour continuer de travailler.
 - Il semble que la connectivité réseau soit perdue. Cliquez sur Réessayer pour faire une nouvelle tentative.

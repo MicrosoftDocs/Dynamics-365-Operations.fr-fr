@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 32c2cf31d82d17d3391536e7a9f1722e1462c336
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944764"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077011"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Exemple d’intégration de l’unité de contrôle pour la Suède
 
@@ -39,7 +39,7 @@ L’exemple d’intégration d’unité de contrôle pour la Suède comprend les
 - Le code de contrôle et le numéro de fabrication de l’unité de contrôle pour une transaction enregistrée sont capturés à partir de l’unité de contrôle et enregistrés dans la transaction. Ces données sont également appelées *réponse fiscale*. La réponse fiscale peut être consultée sur la page **Opérations en magasin**.
 - Des champs personnalisés pour le code de contrôle et le numéro de fabrication de l’unité de contrôle peuvent être ajoutés à une disposition de reçu. De cette façon, vous pouvez imprimer la réponse fiscale d’une transaction sur un reçu.
 - La réponse fiscale pour une transaction est indiquée sur l’état de canal **Journal électronique (Suède)**.
-- Plusieurs options de gestion des erreurs sont disponibles. Voici quelques exemples :
+- Plusieurs options de gestion des erreurs sont disponibles. Voici quelques exemples :
 
     - Réessayez l’enregistrement fiscal, si une nouvelle tentative est possible. Vous pouvez réessayer l’enregistrement fiscal si, par exemple, l’unité de contrôle n’est pas connectée, n’est pas prête ou ne répond pas.
     - Reporter l’enregistrement fiscal.
@@ -92,7 +92,7 @@ Pour plus d’informations sur l’utilisation des formats de tickets de caisse,
 
 ### <a name="set-up-fiscal-integration-for-sweden"></a>Paramétrer l’intégration fiscale pour la Suède
 
-L’échantillon d’intégration de l’unité de contrôle pour la Suède est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md) et fait partie du Kit de développement logiciel (SDK) Retail. L’échantillon se trouve dans le dossier **src\\FiscalIntegration\\CleanCash** dossier du référentiel des [Solutions Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (par exemple, [l’échantillon dans la version/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). L’échantillon [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) en un fournisseur de documents fiscaux, qui est une extension de Commerce Runtime (CRT), et un connecteur fiscal, qui est une extension de Commerce Hardware Station. Pour plus d’informations sur l’utilisation du Kit de développement logiciel (SDK) Retail, consultez [Architecture du Kit de développement logiciel (SDK) Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md) et [Configurer un pipeline de build pour le Kit de développement logiciel (SDK) de package indépendant](../dev-itpro/build-pipeline.md).
+L’échantillon d’intégration de l’unité de contrôle pour la Suède est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md) et fait partie du Kit de développement logiciel (SDK) Retail. L’échantillon se trouve dans le dossier **src\\FiscalIntegration\\CleanCash** dossier du référentiel des [Solutions Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (par exemple, [l’échantillon dans la version/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). L’échantillon [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) en un fournisseur de documents fiscaux, qui est une extension de Commerce Runtime (CRT), et un connecteur fiscal, qui est une extension de Commerce Hardware Station. Pour plus d’informations sur l’utilisation du Kit de développement logiciel (SDK) Retail, consultez [Architecture du Kit de développement logiciel (SDK) Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md) et [Configurer un pipeline de build pour le Kit de développement logiciel (SDK) de package indépendant](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > En raison des limites du [nouveau modèle de package et d’extension indépendant](../dev-itpro/build-pipeline.md), il ne peut actuellement pas être utilisé pour cet échantillon d’intégration fiscale. Vous devez utiliser la version précédente du Kit de développement logiciel (SDK) Retail sur une machine virtuelle de développeur (VM) dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir [Directives de déploiement pour l’échantillon d’intégration de l’unité de contrôle pour la Suède (héritées)](emea-swe-fi-sample-sdk.md).
@@ -218,7 +218,7 @@ Suivez les étapes de [Configurer un pipeline de génération pour un exemple d�
 
 ## <a name="design-of-the-extensions"></a>Conception les extensions
 
-L’échantillon d’intégration de l’unité de contrôle pour la Suède est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md) et fait partie du Kit de développement logiciel (SDK) Retail. L’échantillon se trouve dans le dossier **src\\FiscalIntegration\\CleanCash** dossier du référentiel des [Solutions Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (par exemple, [l’échantillon dans la version/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). L’exemple [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) en un fournisseur de documents fiscaux, qui est une extension de Commerce Runtime (CRT), et un connecteur fiscal, qui est une extension de Commerce Hardware Station. Pour plus d’informations sur l’utilisation du Kit de développement logiciel (SDK) Retail, consultez [Architecture du Kit de développement logiciel (SDK) Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md) et [Configurer un pipeline de build pour le Kit de développement logiciel (SDK) de package indépendant](../dev-itpro/build-pipeline.md).
+L’échantillon d’intégration de l’unité de contrôle pour la Suède est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md) et fait partie du Kit de développement logiciel (SDK) Retail. L’échantillon se trouve dans le dossier **src\\FiscalIntegration\\CleanCash** dossier du référentiel des [Solutions Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (par exemple, [l’échantillon dans la version/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). L’exemple [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) en un fournisseur de documents fiscaux, qui est une extension de Commerce Runtime (CRT), et un connecteur fiscal, qui est une extension de Commerce Hardware Station. Pour plus d’informations sur l’utilisation du Kit de développement logiciel (SDK) Retail, consultez [Architecture du Kit de développement logiciel (SDK) Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md) et [Configurer un pipeline de build pour le Kit de développement logiciel (SDK) de package indépendant](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > En raison des limites du [nouveau modèle de package et d’extension indépendant](../dev-itpro/build-pipeline.md), il ne peut actuellement pas être utilisé pour cet échantillon d’intégration fiscale. Vous devez utiliser la version précédente du Kit de développement logiciel (SDK) Retail sur une VM de développeur dans LCS. Pour plus d’informations, voir [Directives de déploiement pour l’échantillon d’intégration de l’unité de contrôle pour la Suède (héritées)](emea-swe-fi-sample-sdk.md). La prise en charge du nouveau modèle d’emballage et d’extension indépendant pour les exemples d’intégration fiscale est prévue pour les versions ultérieures.

@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 498705b86b705c70e7e84e3a03e459d02dfcb88f5cfbd4b7ef27e18173c2a1e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c8f336e31e77391ef7e2bc2dca901e6a78fbb914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774172"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066999"
 ---
 # <a name="generate-aca-reports"></a>Générer des rapports ACA
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -60,7 +63,7 @@ En plus de suivre si une couverture d’assurance maladie était offerte à un e
 
 Vous pouvez indiquer si chaque régime de prestations sociales doit être consigné en activant la case à cocher **Déclarer dans le cadre de la loi sur les soins abordables**.
 
-En outre, si les employés ont choisi d’avoir l’une de leurs personnes à charge couvertes par un avantage, vous pouvez indiquer les dates auxquelles la personne à charge a été couverte pour chaque employé dans la page **Tenir les avantages à jour**. Pour indiquer que la personne à charge est couverte par l’avantage, choisissez le bouton **Modifier** dans le volet Actions de l’organisateur **Personnes à charge**.
+En outre, si les employés ont choisi d’avoir l’une de leurs personnes à charge couvertes par un avantage, vous pouvez indiquer les dates auxquelles la personne à charge a été couverte pour chaque employé dans la page **Tenir les avantages à jour**. Pour indiquer que la personne à charge est couverte par l’avantage, choisissez le bouton **Modifier** dans le volet Actions de le raccourci **Personnes à charge**.
 
 Dans la page **Gestionnaire des dates de la couverture des personnes à charge**, vous pouvez indiquer les dates auxquelles la personne à charge a été couverte par l’avantage. Entrer les dates dans cette page permet d’activer automatiquement la case à cocher **Couvert** sur la page **Tenir les avantages à jour**.
 

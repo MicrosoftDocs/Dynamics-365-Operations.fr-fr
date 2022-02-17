@@ -4,18 +4,19 @@ description: Cette rubrique fournit des informations sur les unités d’échell
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733437"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065762"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d’échelle dans une topologie hybride distribuée
 
@@ -51,8 +52,7 @@ Vous pouvez configurer un environnement de hub et les unités d’échelle cloud
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail de gestion d’unité d’échelle dédiées dans une unité d’échelle
 
-La charge de travail de gestion d’entrepôt vous permet d’exécuter des processus de gestion d’entrepôt sur un déploiement isolé.
-Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-warehousing.md).
+La charge de travail de gestion de l’entrepôt est la première charge de travail distribuée pour les unités d’échelle qui a été publiée en disponibilité générale. Elle permet à vos opérations d’entrepôt d’évoluer et de s’exécuter dans un environnement résilient via les fenêtres de maintenance isolées. La charge de travail de gestion d’entrepôt prend en charge la plupart des processus de gestion d’entrepôt du hub d’entreprise. Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail d’exécution de fabrication dédiées dans une unité d’échelle
 
@@ -116,7 +116,7 @@ Les métriques et mesures susceptibles de vous aider à sélectionner la meilleu
 
 ### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Traitement des données lors de la gestion des unités d’échelle
 
-Lorsque vous activez votre environnement Dynamics 365 pour prendre en charge la topologie hybride distribuée pour les unités d’échelle cloud et de périphérie, certains services de gestion seront hébergés uniquement aux États-Unis, comme pour LCS. Ce comportement affecte le transfert et le stockage de certaines informations administratives et de configuration utilisées par le [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Voici quelques exemples :
+Lorsque vous activez votre environnement Dynamics 365 pour prendre en charge la topologie hybride distribuée pour les unités d’échelle cloud et de périphérie, certains services de gestion seront hébergés uniquement aux États-Unis, comme pour LCS. Ce comportement affecte le transfert et le stockage de certaines informations administratives et de configuration utilisées par le [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Voici quelques exemples :
 
 - Vos noms et ID de locataire
 - Vos ID de projet LCS

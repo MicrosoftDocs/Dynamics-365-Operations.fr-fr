@@ -2,7 +2,7 @@
 title: Utiliser des modèles
 description: Cette rubrique décrit comment utiliser des modèles dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f9487ab7a6ea10c841708e41fb7085d4bafe0d224ec5eb28810ec34b35a0ebc0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762522"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090792"
 ---
 # <a name="work-with-templates"></a>Utiliser des modèles
 
@@ -49,7 +49,7 @@ Comme discuté dans [Vue d’ensemble des modèles et dispositions](templates-la
 
 Les modèles sont modifiés à l’aide de l’éditeur de modèle.
 
-Pour ouvrir l’éditeur de modèle, suivez l’une des étapes suivantes :
+Pour ouvrir l’éditeur de modèles dans le générateur de site Commerce, suivez l’une des étapes suivantes :
 
 - Dans le volet de navigation de votre site, sélectionnez **Modèles**, puis sélectionnez le modèle à modifier.
 - Dans l’éditeur de page pour une page existante, sélectionnez le nœud supérieur dans l’arborescence d’ensemble à gauche. Dans le volet de propriétés de droite, sélectionnez la propriété **Modifier le modèle**.
@@ -66,7 +66,7 @@ L’arborescence de contour à gauche affiche les options et les structures de m
 
 ## <a name="create-a-new-template"></a>Créer un modèle
 
-Pour créer un modèle, procédez comme suit.
+Pour créer un modèle dans le générateur de site, procédez comme suit.
 
 1. Dans le volet de navigation de votre site, sélectionnez **Modèles**, pour ouvrir le modèle de vue d’inspecteur.
 1. Sélectionnez **Nouveau modèle**.
@@ -85,7 +85,7 @@ Le modèle est désormais techniquement valide, et peut être enregistré, archi
 
 ## <a name="add-a-header-and-a-footer"></a>Ajouter un en-tête et un pied de page
 
-Si votre site a déjà un fragment d’en-tête, procédez comme suit pour ajouter un en-tête ou un pied de page à un modèle.
+Si votre site a déjà un fragment d’en-tête, procédez comme suit dans le générateur de site pour ajouter un en-tête ou un pied de page à un modèle.
 
 1. Dans l’arborescence de contour, développez l’emplacement **Corps** et le module enfant de page.
 1. Sélectionnez l’emplacement **En-tête**.
@@ -98,7 +98,7 @@ Si votre site n’est pas encore un fragment d’en-tête, voir [Créer un fragm
 
 ## <a name="change-the-template-theme"></a>Modifier le modèle de thème
 
-Pour définir un thème par défaut pour toutes les pages qui utilisent un modèle, procédez comme suit.
+Pour définir un thème par défaut pour toutes les pages qui utilisent un modèle, procédez comme suit dans le générateur de site.
 
 1. Dans l’arborescence de contour à gauche, développez l’emplacement **Corps**.
 1. À l’emplacement **Corps**, sélectionnez le module de conteneur de page (par exemple, **Page par défaut**).
@@ -110,7 +110,7 @@ Par défaut, toutes les nouvelles pages utiliseront désormais un thème sélect
 
 Vous pouvez ajouter des éléments de **&lt;script&gt;** HTML contenant du Javascript à votre modèle. De cette manière, vous pouvez fournir des comportements par défaut du script pour l’en tête HTML, les sections de début et de fin du corps de vos pages.
 
-Pour ajouter un script à un modèle, procédez comme suit.
+Pour ajouter un script à un modèle dans le générateur de site, procédez comme suit.
 
 1. Dans l’arborescence de contour à gauche, sélectionnez l’emplacement où vous souhaitez ajouter l’élément **&lt;script&gt;** (par exemple, le l’en-tête, le début ou la fin du corps HTML).
 1. Sélectionnez le bouton représentant des points de suspension pour l’emplacement, et sélectionnez **Ajouter un module**.
@@ -123,7 +123,7 @@ Pour ajouter un script à un modèle, procédez comme suit.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Enregistrer, archiver, afficher un aperçu et publier un modèle
 
-Pour enregistrer et archiver dans un modèle, procédez comme suit.
+Pour enregistrer et archiver dans un modèle dans le générateur de site, procédez comme suit.
 
 1. Sélectionnez **Enregistrer** en haut de l’éditeur de modèle. Les modifications enregistrées n’affectent pas les pages en aval tant qu’elles ne sont pas archivées.
 1. Sélectionnez **Terminer la modification**. Vos modifications sont désormais découvrables pour les workflows en aval.
@@ -138,6 +138,18 @@ Après avoir prévisualisé les modifications de votre modèle, suivez l’une d
 
 > [!WARNING]
 > Lorsqu’un modèle, ou tout autre élément du système de gestion de contenu (CMS), est publié, il est découvrable sur Internet. Ne publiez pas des documents ou des actifs tant que vous n’êtes pas prêt à les rendre publics. Les versions de documents enregistrées et archivées, mais qui n’ont pas été publiées, sont découvrables qu’aux utilisateurs système authentifiés.
+
+## <a name="rename-a-template"></a>Renommer un modèle
+
+Pour renommer un modèle existant dans le générateur de site, procédez comme suit :
+
+1. Dans le volet de navigation à gauche, sélectionnez **Modèles**.
+1. Sélectionnez le nom du modèle que vous souhaitez renommer.
+1. Sélectionnez **Modifier** pour commencer à modifier le modèle. Notez que vous ne pouvez pas modifier un modèle si quelqu’un d’autre est déjà en train de modifier le modèle.
+1. Dans le volet des propriétés du modèle, sélectionnez le symbole du stylo à côté du nom du modèle.
+1. Modifiez le nom du modèle, le cas échéant.
+1. Sélectionnez la coche pour confirmer le changement de nom.
+1. Sélectionnez **Terminer la modification**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

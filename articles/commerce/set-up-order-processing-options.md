@@ -2,7 +2,7 @@
 title: Paramétrer des centres d’appels
 description: Cette rubrique offre des informations sur le traitement des commandes pour les centres d’appels avec Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750646"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092430"
 ---
 # <a name="set-up-call-center-channels"></a>Paramétrer des canaux de centre d’appels
 
@@ -56,6 +56,9 @@ Si le paramètre **Activer l’achèvement de la commande** est activé pour le 
 En outre, si le paramètre **Activer l’achèvement de la commande** est activé, lorsque des utilisateurs créent des commandes client et sont en mode de saisie de l’article de ligne, le champ **Source** est accessible dans l’en-tête de la commande client principale. Le champ **Source** permet de capturer un [code source du catalogue](/dynamics365/unified-operations/retail/call-center-catalogs) dans un scénario de vente directe. Ce code peut ensuite piloter des prix et des promotions spéciaux.
 
 Même si le paramètre **Activer l’achèvement de la commande** est désactivé, les utilisateurs peuvent encore appliquer un code source à une commande client. Toutefois, ils doivent d’abord ouvrir les détails de l’en-tête de commande client pour accéder au champ **Source**. En d’autres termes, quelques clics supplémentaires sont requis. Le même comportement s’applique aux fonctionnalités telles que l’expédition terminée et les commandes expédiées. Ces fonctionnalités sont disponibles pour toutes les commandes créées dans le centre d’appels. Toutefois, lorsque le paramètre **Activer l’achèvement de la commande** est activé, les utilisateurs peuvent afficher la configuration de ces fonctionnalités sur l’en-tête des ventes lorsqu’ils sont dans la vue de saisie de ligne. Ils n’ont pas besoin d’explorer les détails de l’en-tête de la commande client pour rechercher les paramètres et les champs appropriés.
+
+> [!NOTE]
+> Quand la fonctionnalité **Paiements de commandes de Commerce omnicanal** est activée, le bouton du centre d’appels **Activer l’achèvement de la commande** sera masqué dans Headquarters sur le raccourci **Général** de votre canal au chemin suivant **Retail et Commerce \> Canaux \> Centres d’appels**.
 
 ### <a name="enable-direct-selling"></a>Activer la vente directe
 

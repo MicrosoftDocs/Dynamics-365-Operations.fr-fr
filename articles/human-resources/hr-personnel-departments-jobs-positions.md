@@ -2,7 +2,7 @@
 title: Organisation du personnel à l’aide des départements, tâches et postes
 description: Cette rubrique décrit des informations conceptuelles sur les services, les tâches et les postes qui sont des éléments d’organisation tenus à jour au sein des Ressources humaines.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731806"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071467"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organisation du personnel à l’aide des départements, tâches et postes
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,32 +51,18 @@ Un département est une unité opérationnelle représentant une catégorie ou u
 
 ## <a name="jobs-and-positions"></a>Les tâches et les postes
 Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche. Un poste est une instance individuelle de tâche. Les domaines de responsabilité, les tâches, les fonctions de tâche, les qualifications, les informations de formation et les certificats requis pour une tâche sont également nécessaires pour les postes associés à la tâche.
+
 ### <a name="job-tasks"></a>Tâches
+
 Vous pouvez créer des descriptifs de tâches qui décrivent les tâches de base devant être accomplies par un travailleur occupant un poste pour cette tâche. Le même descriptif peut être ajouté à plusieurs tâches, et les postes associés à ces tâches hériteront de ces descriptifs. Des exemples de tâches sont répertoriés dans le tableau suivant.
 
-<table>
-<thead>
-<tr class="header">
-<th>Mission</th>
-<th>Tâche</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Responsable des ventes</td>
-<td><ul>
-<li><span class="input">Examen des performances</span> – examen du rendement au travail de chaque commercial.</li>
-<li><span class="input">Examen des absences</span> – approbation ou rejet des demandes ou enregistrement d’absence de chaque commercial.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Comptable</td>
-<td><span class="input">États financiers</span> – présentation d’états financiers hebdomadaires au directeur financier.</td>
-</tr>
-</tbody>
-</table>
+| Mission           | Tâche                                                |
+|---------------|-------------------------------------------------------------|
+| Responsable des ventes | Examen des performances – examen du rendement au travail de chaque commercial.    |
+| Comptable    | Examen des absences – approbation ou rejet des demandes ou enregistrement d’absence de chaque commercial. |
 
-### <a name="job-functions"></a>Fonctions
+
+### <a name="job-functions"></a>Fonctions de la tâche
 
 Les fonctions de tâche sont comme des descriptifs de tâches. Une fonction de tâche décrit une ou plusieurs tâches, devoirs ou responsabilités affectés à une tâche. Les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d’admissibilité pour les régimes de rémunération. Des exemples de fonctions de tâche sont répertoriés dans le tableau suivant.
 
@@ -84,7 +73,7 @@ Les fonctions de tâche sont comme des descriptifs de tâches. Une fonction de t
 
 ### <a name="job-types"></a>Types de tâche
 
-Utilisez les types de tâches pour classer les tâches similaires en catégories. Les types de tâches, tout comme les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d’admissibilité pour les régimes de rémunération. La liste suivante fournit quelques exemples de types de tâches :
+Utilisez les types de tâches pour classer les tâches similaires en catégories. Les types de tâches, tout comme les fonctions de tâche peuvent être affectées aux tâches et servir à paramétrer et mettre en œuvre des règles d’admissibilité pour les régimes de rémunération. La liste suivante fournit quelques exemples de types de tâches :
 -   Temps plein
 -   Temps partiel
 -   Salaire

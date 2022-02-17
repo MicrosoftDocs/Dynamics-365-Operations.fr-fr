@@ -1,6 +1,6 @@
 ---
 title: Données principales fournisseur intégrées
-description: Cette rubrique décrit l’intégration des données fournisseur entre les applications Finance and Operations et Dataverse.
+description: Cette rubrique décrit l’intégration des données fournisseur entre les applications Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782475"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063160"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Le terme *Fournisseur* désigne une organisation de fournisseurs ou un propriétaire unique qui fournit des biens ou des services à une entreprise. Bien que le *fournisseur* soit un concept établi dans les applications Microsoft Dynamics 365 Supply Chain Management, il n’existe aucun concept de fournisseur dans les applications d’engagement client. Cependant, vous pouvez surcharger la table **Compte/Contact** pour stocker les informations fournisseur. Le fournisseur principal intégré introduit un concept de fournisseur explicite dans les applications d’engagement client. Vous pouvez utiliser le nouveau concept de fournisseur ou stocker les données fournisseur dans la table **Compte/Contact**. La double écriture prend en charge les deux approches.
 
@@ -37,13 +37,13 @@ Si vous ne souhaitez pas continuer à stocker les données fournisseur dans la t
 ![Flux de données fournisseur étendues.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Si vous utilisez les portails Power Apps pour les fournisseurs en libre service, les informations sur les fournisseurs peuvent passer directement vers les applications Finance and Operations.
+> Si vous utilisez les portails Power Apps pour les fournisseurs en libre service, les informations sur les fournisseurs peuvent passer directement vers les applications Finances et Opérations.
 
 ## <a name="templates"></a>Modèles
 
 Les données fournisseur incluent toutes les informations sur le fournisseur, telles que le groupe de fournisseurs, les adresses, les informations de contact, le profil de paiement et le profil de facture. Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction des données fournisseur, comme indiqué dans le tableau suivant.
 
-Applications de Finance and Operations | Applications Customer Engagement     | Description
+Applications de Finances et Opérations | Applications Customer Engagement     | Description
 ----------------------------|-----------------------------|------------
 [Contacts CDS V2](mapping-reference.md#115) | contacts | Ce modèle synchronise toutes les informations principales, secondaires et tertiaires de contact, à la fois pour les clients et les fournisseurs.
 [Affixes de nom](mapping-reference.md#155) | msdyn_nameaffixes | Ce modèle synchronise les données de référence des affixes de nom pour les clients et les fournisseurs.
@@ -52,7 +52,7 @@ Applications de Finance and Operations | Applications Customer Engagement     | 
 [Lignes d’échéancier de paiement](mapping-reference.md#159) | msdyn_paymentschedulelines | Synchronise les références de données des lignes du programme de paiement, à la fois pour les clients et les fournisseurs.
 [Echéancier de paiement](mapping-reference.md#160) | msdyn_paymentschedules | Ce modèle synchronise les données de référence du programme de paiement, pour les clients et les fournisseurs.
 [Conditions de paiement](mapping-reference.md#161) | msdyn_paymentterms | Ce modèle synchronise les données de référence des conditions de paiement pour les clients et les fournisseurs.
-[Fournisseurs V2](mapping-reference.md#202) | msdyn_vendors | Les sociétés qui utilisent une solution personnalisée pour les fournisseurs peuvent profiter du concept de fournisseur prêt à l’emploi introduit dans Dataverse du fait de l’intégration des applications Finance and Operations.
+[Fournisseurs V2](mapping-reference.md#202) | msdyn_vendors | Les sociétés qui utilisent une solution personnalisée pour les fournisseurs peuvent profiter du concept de fournisseur prédéfini introduit dans Dataverse en raison de l’intégration des applications Finances et Opérations.
 [Groupes de fournisseurs](mapping-reference.md#200) | msdyn_vendorgroups | Ce modèle synchronise les informations du groupe de fournisseurs.
 [Mode de paiement fournisseur](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Ce modèle synchronise les informations de la méthode de paiement des fournisseurs.
 

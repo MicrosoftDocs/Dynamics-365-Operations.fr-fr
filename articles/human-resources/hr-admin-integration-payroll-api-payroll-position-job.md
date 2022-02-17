@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 349479d9e77861b54d879bcfd93f7af0e38cff95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559581"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069830"
 ---
 # <a name="payroll-position-job"></a>Tâche du poste de paie
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,7 +44,7 @@ Nom physique : mshr_payrollpositionjobentity.
 | **Valide jusqu’au**</br>mshr_validto</br>*Décalage de date et heure* | Lecture seule | Date jusqu’à laquelle la relation entre le poste et la tâche sont valides. |
 | **ID tâche**</br>mshr_jobid</br>*Chaîne* | Lecture seule | ID de la tâche. |
 | **Champ principal**</br>mshr_primaryfield</br>*Chaîne* | Généré par le système | Champ principal. |
-| **ID de l’entité Tâche du poste de paie**</br>mshr_payrollpositionjobentityid</br>*Guid* | Généré par le système. | Une valeur d'identificateur global unique (GUID) générée par le système pour identifier de manière unique la tâche. |
+| **ID de l’entité Tâche du poste de paie**</br>mshr_payrollpositionjobentityid</br>*Guid* | Généré par le système. | Une valeur d’identificateur global unique (GUID) générée par le système pour identifier de manière unique la tâche. |
 
 ## <a name="relations"></a>Relations
 

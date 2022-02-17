@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964704"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075448"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Entrer le candidat et les données de la candidature manuellement
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients des ressources humaines sur l’infrastructure Finance.  
+
 
 Cette procédure permet d’indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature. Vous pouvez entrer et tenir à jour des informations personnelles, les dates et heures d’entretien, les références, les compétences et les demandes de logement des candidats. Vous pouvez également mettre à jour le statut des candidatures d’emploi et créer des lettres ou des messages électroniques pour communiquer avec des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.
 

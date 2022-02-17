@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 090533a4391488f4ec0929dd4866e55a478ee6e639563ad37a6819592e91b23c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739201"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062977"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (6 octobre 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 

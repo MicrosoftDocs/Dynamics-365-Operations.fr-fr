@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: ec5afd92a71c8b12c913de78a513abb0959df88a
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f83a064bfc8896bdf76bcd38f9187ed0e1ea56cf
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782059"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062311"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Résoudre les problèmes liés à la prise en charge des solutions
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Cette rubrique fournit des informations sur la résolution des problèmes de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la prise en charge des solutions.
+
+Cette rubrique fournit des informations sur le dépannage de l’intégration de la double-écriture entre les applications Finances et Opérations et Dataverse. Notamment, elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la prise en charge des solutions.
 
 > [!IMPORTANT]
 > Certains des problèmes abordés dans cette rubrique peuvent exiger le rôle d’administrateur système ou les identifiants d’admin client Microsoft Azure Active Directory (Azure AD). La section pour chaque problème explique si un rôle spécifique ou des informations d’identification sont requis.

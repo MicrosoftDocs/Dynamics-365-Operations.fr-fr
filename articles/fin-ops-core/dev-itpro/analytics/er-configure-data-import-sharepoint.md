@@ -2,7 +2,7 @@
 title: Configurer l’importation des données à partir de SharePoint
 description: Cette rubrique décrit la procédure d’importation des données à partir de Microsoft SharePoint.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675343"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074764"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurer l’importation des données à partir de SharePoint
 
@@ -182,7 +182,7 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 
 10. Dans la page **États de fichier pour les sources**, sélectionnez **Actualiser**, puis, dans la section **Fichiers**, examinez la liste des fichiers.
 
-    [![Page d'états de fichier ER pour les sources sélectionnées.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![Page d’états de fichier ER pour les sources sélectionnées.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    La section **Journaux source pour le format d’importation** indique que le processus d’importation a échoué et que le fichier se trouve toujours dans le dossier Erreur de fichiers SharePoint (la case à cocher **Est supprimé** n’est pas sélectionnée). Si vous corrigez ce fichier dans SharePoint en ajoutant le code fournisseur adéquat, que vous le déplacez vers le dossier SharePoint (principal) source d’importation de fichiers, vous pouvez importer le fichier de nouveau.
 
@@ -192,11 +192,11 @@ Vous pouvez également ouvrir la page **États de fichier pour les sources** en 
 
 ## <a name=""></a><a name="limitations">Limitations</a>
 
-La structure ER n’offre pas la possibilité de lancer un nouveau traitement par lots qui exécutera un mappage de modèle en mode sans assistance pour l’importation de données. Pour ce faire, vous devez développer une nouvelle logique afin que le mappage de modèle ER configuré puisse être appelé à partir de l’interface utilisateur de l’application (IU) pour importer des données à partir de fichiers entrants. Par conséquent, certaines tâches d’ingénierie sont nécessaires. 
+Dans les versions de Dynamics 365 Finance avant la version 10.0.25, l’interface utilisateur de la structure ER n’offre pas la possibilité de lancer un nouveau traitement par lots qui exécutera un mappage de modèle en mode sans assistance pour l’importation de données. Vous devez plutôt développer une nouvelle logique afin que le mappage de modèle ER configuré puisse être appelé à partir de l’interface utilisateur de l’application (IU) pour importer des données à partir de fichiers entrants. Pour développer cette logique, des travaux d’ingénierie sont nécessaires. 
 
-Pour en savoir plus sur l’API ER appropriée, consultez la section [Code pour exécuter un mappage de format pour l’importation de données](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) dans la rubrique [Modifications de API de la structure de gestion des états électroniques pour la mise à jour 7.3 de l’application](er-apis-app73.md).
+Pour en savoir plus sur l’API ER appropriée, consultez la section [Code pour exécuter un mappage de format pour l’importation de données](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) dans la rubrique [Modifications de API de la structure de gestion des états électroniques pour la mise à jour 7.3 de l’application](er-apis-app73.md). Vérifiez le code dans la classe `BankImport_RU` du modèle `Application Suite` pour voir comment votre logique personnalisée peut être implémentée. La classe `BankImport_RU` dépend de la classe `RunBaseBatch`. En particulier, passez en revue la méthode `runER()` où l’objet `ERIModelMappingDestinationRun` est créé en tant que programme d’exécution d’un mappage de modèle ER.
 
-Vérifiez le code dans la classe `BankImport_RU` du modèle `Application Suite` pour voir comment votre logique personnalisée peut être implémentée. Cette classe étend la classe `RunBaseBatch`. En particulier, passez en revue la méthode `runER()` où l’objet `ERIModelMappingDestinationRun` est créé en tant que programme d’exécution d’un mappage de modèle ER.
+Dans Finance version 10.0.25 et version ultérieure, la structure ER n’offre pas la possibilité de lancer un nouveau traitement par lots qui exécutera un mappage de modèle en mode sans assistance pour l’importation de données. Pour plus d’informations sur ce processus, voir [Importer des données en mode batch à partir de fichiers sélectionnés manuellement](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -205,6 +205,8 @@ Vérifiez le code dans la classe `BankImport_RU` du modèle `Application Suite` 
 [Modifications de l’API de la structure de gestion des états électroniques pour Application update 7.3](er-apis-app73.md)
 
 [Modifications de l’API de la structure de gestion des états électroniques pour Application update 10.0.23](er-apis-app10-0-23.md)
+
+[Modifications de l’API de la structure de gestion des états électroniques pour Application update 10.0.25](er-apis-app10-0-25.md)
 
 
 

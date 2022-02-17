@@ -1,33 +1,45 @@
 ---
 title: Configurer l’intégration fiscale pour les canaux de commerce
 description: Cette rubrique donne des instructions pour configurer la fonctionnalité d’intégration fiscale pour les canaux de commerce.
-author: josaw
-ms.date: 08/10/2021
+author: EvgenyPopovMBS
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: epopov
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 38ad2cc3dc7e511ac6e2ac9484d10ebd2d1d425d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343311"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076961"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurer l’intégration fiscale pour les canaux de commerce
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique donne des instructions pour configurer la fonctionnalité d’intégration fiscale pour les canaux de commerce. Pour plus d’informations sur l’intégration fiscale, voir [Vue d’ensemble de l’intégration fiscale pour les canaux de commerce](fiscal-integration-for-retail-channel.md).
 
-Le processus de paramétrage de l’intégration fiscale inclut les tâches générales suivantes :
+## <a name="set-up-commerce-parameters"></a>Configurer les paramètres de commerce
+
+1. Dans la page **Paramètres partagés de commerce**, dans l’onglet **Général**, définissez l’option **Activer l’intégration fiscale** sur **Oui**.
+1. Sous l’onglet **Souches de numéros**, définissez les souches de numéros pour les références suivantes :
+
+    - Numéro du profil technique fiscal
+    - Numéro du groupe de connecteurs fiscaux
+    - Numéro du processus d’enregistrement
+
+1. Dans la page **Paramètres de commerce**, définissez la souche de numéros pour le numéro de profil fonctionnel fiscal.
+
+    > [!NOTE]
+    > Les souches de numéros sont facultatives. Les numéros pour toutes les entités d’intégration fiscale peuvent être générés depuis les souches de numéros ou manuellement.
+
+## <a name="set-up-a-fiscal-registration-process"></a>Configurer un processus d’enregistrement fiscal
+
+Le processus de paramétrage de l’intégration fiscale inclut les tâches générales suivantes :
 
 - configuration des connecteurs fiscaux qui représentent les périphériques ou les services fiscaux utilisés à des fins d’enregistrement fiscal, comme les imprimantes fiscales par exemple ;
 - configuration des fournisseurs de documents fiscaux qui seront enregistrés dans les périphériques ou services fiscaux par les connecteurs fiscaux ;
@@ -35,116 +47,147 @@ Le processus de paramétrage de l’intégration fiscale inclut les tâches gén
 - affectation du processus d’enregistrement fiscal aux profils de fonctionnalité du PDV ;
 - affectation des profils techniques de connecteur aux profils matériels.
 
-## <a name="set-up-a-fiscal-registration-process"></a>Configurer un processus d’enregistrement fiscal
+### <a name="upload-configurations-of-fiscal-document-providers"></a>Télécharger les configurations des fournisseurs de documents fiscaux
 
-Avant d’utiliser la fonctionnalité d’intégration fiscale, vous devez configurer les paramètres suivants :
+Un fournisseur de documents fiscaux est responsable de la génération des documents fiscaux qui représentent les transactions et les événements enregistrés sur le PDV dans un format également compatible avec un périphérique ou un service fiscal. Par exemple, un fournisseur de documents fiscaux peut générer une représentation de reçu fiscal au format XML.
 
-1. Mettez à jour les paramètres de commerce.
+Pour télécharger les configurations des fournisseurs de documents fiscaux, procédez comme suit.
 
-    1. Dans la page **Paramètres partagés de commerce**, dans l’onglet **Général**, définissez l’option **Activer l’intégration fiscale** sur **Oui**. Sous l’onglet **Souches de numéros**, définissez les souches de numéros pour les références suivantes :
+1. Dans Commerce Headquarters, accédez à la page **Fournisseurs de documents fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Fournisseurs de documents fiscaux**).
+1. Importez une configuration XML pour chaque périphérique ou service que vous prévoyez d’utiliser.
 
-        - Numéro du profil technique fiscal
-        - Numéro du groupe de connecteurs fiscaux
-        - Numéro du processus d’enregistrement
+> [!TIP]
+> En sélectionnant **Affichage**, vous pouvez afficher tous les profils fonctionnels et techniques liés au fournisseur de documents fiscaux actuel.
 
-    1. Dans la page **Paramètres de commerce**, définissez la souche de numéros pour le numéro de profil fonctionnel fiscal.
+> [!NOTE]
+> La mise en correspondance des données est considérée comme faisant partie du fournisseur de documents fiscaux. Pour paramétrer différentes mises en correspondance de données pour le même connecteur (par exemple, les réglementations spécifiques à chaque état), vous devez créer différents fournisseurs de documents fiscaux.
 
-    > [!NOTE]
-    > Les souches de numéros sont facultatives. Les numéros pour toutes les entités d’intégration fiscale peuvent être générés depuis les souches de numéros ou manuellement.
+### <a name="upload-configurations-of-fiscal-connectors"></a>Importer les configurations des connecteurs fiscaux
 
-1. Téléchargez les configurations des connecteurs fiscaux et des fournisseurs de documents fiscaux.
+Un connecteur fiscal est responsable de la communication avec un périphérique ou un service fiscal. Par exemple, un connecteur fiscal peut envoyer un reçu fiscal qu’un fournisseur de documents fiscaux a créé au format XML vers une imprimante fiscale. Pour en savoir plus sur les composants de l’intégration fiscale, voir [Processus d’enregistrement fiscal et exemples d’intégration fiscale pour les périphériques et les services fiscaux](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-    Un fournisseur de documents fiscaux est responsable de la génération des documents fiscaux qui représentent les transactions et les événements enregistrés sur le PDV dans un format également compatible avec un périphérique ou un service fiscal. Par exemple, un fournisseur de documents fiscaux peut générer une représentation de reçu fiscal au format XML.
+Pour télécharger les configurations des connecteurs, procédez comme suit.
 
-    Un connecteur fiscal est responsable de la communication avec un périphérique ou un service fiscal. Par exemple, un connecteur fiscal peut envoyer un reçu fiscal qu’un fournisseur de documents fiscaux a créé au format XML vers une imprimante fiscale. Pour en savoir plus sur les composants de l’intégration fiscale, voir [Processus d’enregistrement fiscal et exemples d’intégration fiscale pour les périphériques fiscaux](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+1. Dans Commerce Headquarters, accédez à la page **Connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Connecteurs fiscaux**).
+1. Importez une configuration XML pour chaque périphérique ou service que vous prévoyez d’utiliser à des fins d’intégration fiscale.
 
-    1. Dans la page **Connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Connecteurs fiscaux**), téléchargez une configuration XML pour chaque périphérique ou service que vous prévoyez d’utiliser à des fins d’intégration fiscale.
+> [!TIP]
+> En sélectionnant **Affichage**, vous pouvez afficher tous les profils fonctionnels et techniques liés au connecteur fiscal actuel.
 
-        > [!TIP]
-        > En sélectionnant **Affichage**, vous pouvez afficher tous les profils fonctionnels et techniques liés au connecteur fiscal actuel.
+Pour des exemples de configuration des connecteurs fiscaux et fournisseurs de documents fiscaux, voir [Exemples fiscaux d’intégration dans le SDK de Commerce](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
 
-    1. Dans la page **Fournisseurs de documents fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Fournisseurs de documents fiscaux**), téléchargez une configuration XML pour chaque périphérique ou service que vous prévoyez d’utiliser à des fins d’intégration fiscale.
+### <a name="create-connector-functional-profiles"></a>Créer des profils fonctionnels de connecteur
 
-        > [!TIP]
-        > En sélectionnant **Affichage**, vous pouvez afficher tous les profils fonctionnels et techniques liés au fournisseur de documents fiscaux actuel.
+Pour créer des profils fonctionnels de connecteur, procédez comme suit.
 
-    Pour des exemples de configuration des connecteurs fiscaux et fournisseurs de documents fiscaux, voir [Exemples fiscaux d’intégration dans le SDK de Commerce](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
+1. Dans Commerce Headquarters, accédez à la page **Profils fonctionnels de connecteur** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Profils fonctionnels de connecteur**).
+1. Pour chaque combinaison d’un connecteur fiscal et d’un fournisseur de documents fiscaux associé à ce connecteur fiscal, créez un profil fonctionnel de connecteur en procédant comme suit :
 
-    > [!NOTE]
-    > La mise en correspondance des données est considérée comme faisant partie du fournisseur de documents fiscaux. Pour paramétrer différentes mises en correspondance de données pour le même connecteur (par exemple, les réglementations spécifiques à chaque état), vous devez créer différents fournisseurs de documents fiscaux.
+    1. Sélectionnez un nom de connecteur.
+    1. Sélectionnez un fournisseur de document.
 
-1. Créez des profils fonctionnels de connecteur et des profils techniques de connecteur.
+#### <a name="change-data-mapping-parameters-in-a-connector-functional-profile"></a>Modifier les paramètres de mise en correspondance des données dans un profil fonctionnel de connecteur
 
-    1. Dans la page **Profils fonctionnels du connecteur** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Profils fonctionnels du connecteur**), créez un profil fonctionnel du connecteur pour chaque combinaison de connecteur fiscal et de fournisseur de documents fiscaux associée à ce connecteur fiscal.
+Vous pouvez changer les paramètres de mise en correspondance des données dans un profil fonctionnel de connecteur. Le tableau suivant fournit quelques exemples de paramètres de mappage de données dans un profil fonctionnel de connecteur.
 
-        1. Sélectionnez un nom de connecteur.
-        1. Sélectionnez un fournisseur de document.
+| Paramètre | Format | Exemple |
+|-----------|--------|---------|
+| Paramètres de taux de TVA | valeur : VATrate | 1 : 2 000, 2 : 1 800 |
+| Mise en correspondance des codes de TVA | VATcode : valeur | vat20 : 1, vat18 : 2 |
+| Mise en correspondance des types de modes de paiement | TenderType : Valeur | Disponibilités : 1, Carte : 2 |
 
-        Vous pouvez changer les paramètres de mise en correspondance des données dans un profil fonctionnel de connecteur. Pour rétablir les paramètres par défaut définis dans la configuration du fournisseur de documents fiscaux, sélectionnez **Mettre à jour**.
+Pour rétablir les paramètres par défaut définis dans la configuration du fournisseur de documents fiscaux, sélectionnez **Mettre à jour** sur la page **Profils fonctionnels du connecteur**.
 
-        **Exemples**
+> [!NOTE]
+> Les profils fonctionnels du connecteur sont spécifiques à la société. Si vous prévoyez d’utiliser la même combinaison d’un connecteur fiscal et d’un fournisseur de documents fiscaux dans différentes sociétés, vous devez créer un profil fonctionnel de connecteur pour chaque entreprise.
 
-        | Paramètre  | Format | Exemple |
-        |---|--------|---------|
-        | **Paramètres de taux de TVA** | valeur : VATrate | 1 : 2 000, 2 : 1 800 |
-        | **Mise en correspondance des codes de TVA** | VATcode : valeur | vat20 : 1, vat18 : 2 |
-        | **Mise en correspondance des types de modes de paiement** | TenderType : Valeur | Disponibilités : 1, Carte : 2 |
+### <a name="create-connector-technical-profiles"></a>Créer des profils techniques de connecteur
 
-        > [!NOTE]
-        > Les profils fonctionnels du connecteur sont spécifiques à la société. Si vous prévoyez d’utiliser la même combinaison d’un connecteur fiscal et d’un fournisseur de documents fiscaux dans différentes sociétés, vous devez créer un profil fonctionnel de connecteur pour chaque entreprise.
+Pour créer des profils techniques de connecteur, procédez comme suit.
 
-    1. Dans la page **Profils techniques du connecteur** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Profils techniques du connecteur**), créez un profil technique du connecteur pour chaque connecteur fiscal.
+1. Dans Commerce Headquarters, accédez à la page **Profils techniques de connecteur** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Profils techniques de connecteur**).
+1. Créez un profil technique de connecteur pour chaque connecteur fiscal en suivant ces étapes :
 
-        1. Sélectionnez un nom de connecteur.
-        1. Sélectionnez un type de connecteur. Pour les périphériques associés à une station matérielle, sélectionnez **Local**.
+    1. Sélectionnez un nom de connecteur.
+    1. Sélectionnez un type de connecteur :
 
-            > [!NOTE]
-            > Seuls les connecteurs locaux sont actuellement pris en charge.
+        - Pour les périphériques ou services connectés à une station matérielle ou présents sur le réseau local, sélectionnez **Local**.
+        - Pour les services externes, sélectionnez **Externe**.
+        - Pour les connecteurs internes dans Commerce Runtime (CRT), sélectionnez **Interne**. 
 
-        Les paramètres des onglets **Périphérique** et **Paramètres** dans un profil technique du connecteur peuvent être modifiés. Pour rétablir les paramètres par défaut définis dans la configuration du connecteur fiscal, sélectionnez **Mettre à jour**. Même si une nouvelle version d’une configuration XML est téléchargée, vous recevez un message stipulant que le connecteur fiscal actuel ou le fournisseur de documents fiscaux est déjà utilisé. Cette procédure ne remplace pas les modifications manuelles qui ont déjà été apportées aux profils fonctionnels du connecteur et des profils techniques du connecteur. Pour appliquer l’ensemble des paramètres par défaut depuis une nouvelle configuration, sur la page **Profils fonctionnels du connecteur** ou sur la page **Profils techniques du connecteur**, sélectionnez **Mettre à jour**.
+    1. Sélectionnez un emplacement de connecteur :
 
-1. Créez des groupes de connecteurs fiscaux.
+        - Si le connecteur est situé sur la station matérielle, sélectionnez **Station matérielle**.
+        - Si le connecteur est situé sur le registre du PDV, sélectionnez **Caisse enregistreuse**.
 
-    Un groupe de connecteurs fiscaux associe des profils fonctionnels des connecteurs fiscaux exécutant des fonctions identiques et utilisés à la même étape d’un processus d’enregistrement fiscal. Par exemple, si plusieurs modèles fiscaux d’impression peuvent être utilisés dans un magasin, les connecteurs fiscaux pour ces imprimantes fiscales peuvent être associés en un groupe de connecteurs fiscaux.
+Les paramètres des onglets **Périphérique** et **Paramètres** dans un profil technique du connecteur peuvent être modifiés. Pour rétablir les paramètres par défaut définis dans la configuration du connecteur fiscal, sélectionnez **Mettre à jour**. Même si une nouvelle version d’une configuration XML est téléchargée, vous recevez un message stipulant que le connecteur fiscal actuel ou le fournisseur de documents fiscaux est déjà utilisé. Cette procédure ne remplace pas les modifications manuelles qui ont déjà été apportées aux profils fonctionnels du connecteur et des profils techniques du connecteur. Pour appliquer l’ensemble des paramètres par défaut depuis une nouvelle configuration, sélectionnez **Mettre à jour** sur la page **Profils fonctionnels du connecteur** ou **Profils techniques du connecteur**.
 
-    1. Dans la page **Groupe de connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**), créez un nouveau groupe de connecteurs fiscaux.
-    1. Ajoutez des profils fonctionnels dans le groupe de connecteurs. Sur l’onglet **Profils fonctionnels**, sélectionnez **Ajouter**, puis sélectionnez un numéro de profil. Chaque connecteur fiscal au sein d’un groupe de connecteurs ne peut avoir qu’un profil fonctionnel.
-    1. Pour interrompre l’utilisation du profil fonctionnel, définissez **Désactiver** sur **Oui**. Cette modification affecte uniquement le groupe de connecteurs actuel. Vous pouvez continuer à utiliser le même profil fonctionnel dans d’autres groupes de connecteurs.
+Si vous devez configurer des paramètres spécifiques pour un registre ou un magasin de PDV individuel, suivez ces étapes.
 
-1. Créez un processus d’enregistrement fiscal.
+1. Sélectionnez l’élément du menu **Remplacer**.
+1. Sur la page **Remplacer**, créez un enregistrement.
+1. Sélectionnez un magasin ou un registre de PDV. Vous pouvez remplacer les paramètres du profil technique sélectionné pour un registre de PDV individuel ou tous les registres de PDV d’un magasin individuel.
+1. Sur l’onglet **Périphérique**, entrez les paramètres pour le registre ou le magasin de PDV sélectionné.
 
-    Un processus d’enregistrement fiscal est défini par la séquence des étapes d’enregistrement et du groupe de connecteurs utilisé dans chaque étape.
+### <a name="create-fiscal-connector-groups"></a>Créer des groupes de connecteurs fiscaux
 
-    1. Dans la page **Processus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’intégration fiscale**), créez un enregistrement pour chaque processus unique d’enregistrement fiscal.
-    1. Ajoutez les étapes d’enregistrement au processus :
+Un groupe de connecteurs fiscaux associe des profils fonctionnels des connecteurs fiscaux exécutant des fonctions identiques et utilisés à la même étape d’un processus d’enregistrement fiscal. Par exemple, si plusieurs modèles fiscaux d’impression peuvent être utilisés dans un magasin, les connecteurs fiscaux pour ces imprimantes fiscales peuvent être associés en un groupe de connecteurs fiscaux.
 
-        1. Sélectionnez **Ajouter**.
-        1. Sélectionnez un type de connecteur fiscal.
-        1. Dans le champ **Numéro du groupe**, sélectionnez un groupe de connecteurs fiscaux approprié.
+Pour créer un groupe de connecteurs fiscaux, procédez comme suit.
 
-1. Affectez les entités du processus d’enregistrement fiscal aux profils du PDV.
+1. Accédez à la page **Groupe de connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**).
+1. Créez un groupe de connecteurs fiscaux.
+1. Ajoutez des profils fonctionnels dans le groupe de connecteurs. Sur l’onglet **Profils fonctionnels**, sélectionnez **Ajouter**, puis sélectionnez un numéro de profil. Chaque connecteur fiscal au sein d’un groupe de connecteurs ne peut avoir qu’un profil fonctionnel.
+1. Pour interrompre l’utilisation du profil fonctionnel, définissez **Désactiver** sur **Oui**. Cette modification affecte uniquement le groupe de connecteurs actuel. Vous pouvez continuer à utiliser le même profil fonctionnel dans d’autres groupes de connecteurs.
 
-    1. Dans la page **Profils de fonctionnalité du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Profils du PDV \> Profils de fonctionnalité**), affectez le processus d’enregistrement fiscal à un profil de fonctionnalité du PDV. Sélectionnez **Modifier**, puis, dans l’onglet **Processus d’enregistrement fiscal**, dans le champ **Numéro du processus**, sélectionnez un processus.
-    1. Dans la page **Profil matériel de PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Profils du PDV \> Profils du matériel**), affectez des profils techniques de connecteur à un profil matériel. Sélectionnez **Modifier**, ajoutez une ligne à l’onglet **Périphériques fiscaux**, puis dans le champ **Numéro de profil**, sélectionnez un profil technique de connecteur.
+### <a name="create-a-fiscal-registration-process"></a>Créer un processus d’enregistrement fiscal
 
-    > [!NOTE]
-    > Vous pouvez ajouter plusieurs profils techniques à un profil matériel identique. Toutefois, un profil matériel ou un profil de fonctionnalité de PDV doit avoir une seule intersection avec n’importe quel groupe de connecteurs fiscaux.
+Un processus d’enregistrement fiscal est défini par la séquence des étapes d’enregistrement et du groupe de connecteurs utilisé dans chaque étape.
 
-    Le flux d’enregistrement fiscal est défini par le processus d’enregistrement fiscal ainsi que par certains paramètres de composants d’intégration fiscale : l’extension Commerce runtime (CRT) pour le fournisseur de documents fiscaux et l’extension de la station matérielle pour le connecteur fiscal.
+Pour créer un processus d’enregistrement fiscal, procédez comme suit.
 
-    - L’abonnement des événements et des transactions à l’enregistrement fiscal est prédéfini dans le fournisseur de documents fiscaux.
-    - Le fournisseur de documents fiscaux est également responsable de l’identification du connecteur fiscal utilisé pour l’enregistrement fiscal. Il correspond aux profils fonctionnels du connecteur inclus dans le groupe de connecteurs fiscaux spécifié pour l’étape actuelle du processus d’enregistrement fiscal avec le profil technique du connecteur attribué au profil matériel de la station matérielle à laquelle le PDV est relié.
-    - Le fournisseur de documents fiscaux utilise les paramètres de mise en correspondance des données depuis la configuration du fournisseur de documents fiscaux pour transformer les données d’événement/de transaction, tels que les impôts et les paiements, tandis qu’un document fiscal est généré.
-    - Lorsque le fournisseur de documents fiscaux génère un document fiscal, le connecteur fiscal peut soit l’envoyer au périphérique fiscal en l’état, soit l’analyser et le transformer en une séquence de commandes de l’API du périphérique, selon la manière dont la communication est gérée.
+1. Dans Commerce Headquarters, accédez à la page **Proceessus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**).
+1. Créez un enregistrement pour chaque processus d’enregistrement fiscal unique.
+1. Ajoutez des étapes d’inscription au processus en suivant ces étapes :
 
-1. Dans la page **Processus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’intégration fiscale**), sélectionnez **Valider** pour valider le processus d’enregistrement fiscal.
+    1. Sélectionnez **Ajouter**.
+    1. Sélectionnez un type de connecteur fiscal.
+    1. Dans le champ **Numéro du groupe**, sélectionnez un groupe de connecteurs fiscaux approprié.
 
-    Nous vous recommandons d’exécuter ce type de validation dans les cas suivants :
+### <a name="assign-entities-of-the-fiscal-registration-process-to-pos-profiles"></a>Affecter les entités du processus d’enregistrement fiscal aux profils du PDV
 
-    - Après avoir exécuté tous les paramètres pour un nouveau processus d’enregistrement, y compris l’affectation des processus d’enregistrement aux profils de fonctionnalité du PDV et aux profils matériels.
-    - Après avoir apporté des changements à un processus d’enregistrement fiscal, et une fois que ces changements sont susceptibles d’entraîner la sélection d’un autre connecteur fiscal lors de l’exécution (par exemple, si vous changez le groupe de connecteurs pour une étape de processus d’enregistrement fiscal, activez un profil fonctionnel de connecteur dans un groupe de connecteurs, ou ajoutez un nouveau profil fonctionnel de connecteur à un groupe de connecteurs).
-    - Vous pouvez ensuite apporter des modifications à l’affectation des profils techniques du connecteur aux profils matériels.
+Pour affecter les entités du processus d’enregistrement fiscal aux profils du PDV, procédez comme suit.
 
+1. Dans Commerce Headquarters, accédez à la page **Profils de fonctionnalité du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage Point de vente \> Profils Point de vente \> Profils de fonctionnalité**). 
+1. affectation du processus d’enregistrement fiscal aux profils de fonctionnalité du PDV.
+1. Sélectionnez **Modifier**, puis, dans l’onglet **Processus d’enregistrement fiscal**, dans le champ **Numéro du processus**, sélectionnez un processus.
+1. Accédez à la page **Profil matériel du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Profils PDV \> Profils matériel**).
+1. Affectez des profils techniques de connecteur à un profil matériel. 
+1. Sélectionnez **Modifier**, puis, sur l’onglet **Périphériques fiscaux**, ajoutez une ligne. 
+1. Dans le champ **Numéro de profil**, sélectionnez un profil technique du connecteur.
+
+> [!NOTE]
+> Vous pouvez ajouter plusieurs profils techniques à un profil matériel identique. Toutefois, un profil matériel ou un profil de fonctionnalité de PDV doit avoir une seule intersection avec n’importe quel groupe de connecteurs fiscaux.
+
+Le flux d’enregistrement fiscal est défini par le processus d’enregistrement fiscal ainsi que par certains paramètres de composants d’intégration fiscale : l’extension CRT pour le fournisseur de documents fiscaux et l’extension de la station matérielle pour le connecteur fiscal.
+
+- L’abonnement des événements et des transactions à l’enregistrement fiscal est prédéfini dans le fournisseur de documents fiscaux.
+- Le fournisseur de documents fiscaux est également responsable de l’identification du connecteur fiscal utilisé pour l’enregistrement fiscal. Il correspond aux profils fonctionnels du connecteur inclus dans le groupe de connecteurs fiscaux spécifié pour l’étape actuelle du processus d’enregistrement fiscal avec le profil technique du connecteur attribué au profil matériel de la station matérielle à laquelle le PDV est relié.
+- Le fournisseur de documents fiscaux utilise les paramètres de mise en correspondance des données depuis la configuration du fournisseur de documents fiscaux pour transformer les données d’événement/de transaction, tels que les impôts et les paiements, tandis qu’un document fiscal est généré.
+- Lorsque le fournisseur de documents fiscaux génère un document fiscal, le connecteur fiscal peut soit l’envoyer au périphérique fiscal en l’état, soit l’analyser et le transformer en une séquence de commandes de l’API du périphérique, selon la manière dont la communication est gérée.
+
+### <a name="validate-the-fiscal-registration-process"></a>Valider le processus d’enregistrement fiscal
+
+Il est recommandé de valider le processus d’enregistrement fiscal dans les cas suivants :
+
+- Vous avez terminé tous les paramètres pour un nouveau processus d’inscription. Ces paramètres incluent l’attribution des processus d’enregistrement aux profils de fonctionnalité PDV et aux profils matériels.
+- Vous avez apporté des modifications à un processus d’enregistrement fiscal existant, et ces modifications peuvent entraîner la sélection d’un connecteur fiscal différent lors de l’exécution. (Par exemple, vous avez modifié le groupe de connecteurs pour une étape du processus d’enregistrement fiscal, activé un profil fonctionnel de connecteur dans un groupe de connecteurs ou ajouté un nouveau profil fonctionnel de connecteur à un groupe de connecteurs.)
+- Vous avez apporté des modifications à l’affectation des profils techniques du connecteur aux profils matériels.
+
+Pour valider le processus d’enregistrement fiscal, procédez comme suit.
+
+1. Dans Commerce Headquarters, accédez à la page **Proceessus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**).
+1. Sélectionnez **Valider** pour valider le processus d’enregistrement fiscal.
 1. Sur la page **Programme de distribution**, exécutez les tâches **1070** et **1090** pour transférer des données vers la base de données des canaux.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Configurer les textes fiscaux pour les remises
@@ -176,22 +219,26 @@ Dans certains cas, un texte spécifique doit être imprimé sur un reçu fiscal 
 
 Les options de traitement des erreurs disponibles dans l’intégration fiscale sont définies dans le processus d’enregistrement fiscal. Pour plus d’informations sur le traitement des erreurs de l’intégration fiscale, voir [Gestion des erreurs](fiscal-integration-for-retail-channel.md#error-handling).
 
+Pour définir les paramètres de gestion des erreurs, procédez comme suit.
+
 1. Dans la page **Processus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’intégration fiscale**), vous pouvez définir les paramètres suivants pour chaque étape du processus d’enregistrement fiscal :
 
     - **Autoriser Ignorer** – Ce paramètre active l’option **Ignorer** dans la boîte de dialogue de traitement des erreurs.
     - **Autoriser Marquer comme enregistrée** – Ce paramètre active l’option **Marquer comme enregistrée** dans la boîte de dialogue de traitement des erreurs.
+    - **Autoriser Reporter** : ce paramètre active l’option **Reporter** dans la boîte de dialogue de traitement des erreurs.
     - **Continuer lors d’erreurs** : si ce paramètre est activé, le processus d’enregistrement fiscal peut se poursuivre sur l’appareil de PDV si l’enregistrement fiscal d’une transaction ou d’un événement échoue. Dans le cas contraire, pour exécuter l’enregistrement fiscal de la transaction ou de l’événement suivant, l’opérateur doit renouveler la tentative d’enregistrement fiscal échoué, l’ignorer, ou marquer la transaction ou l’événement comme enregistré. Pour plus d’informations, voir [Enregistrement fiscal facultatif](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
     > [!NOTE]
     > Si le paramètre **Continuer lors d’erreurs** est activé, les paramètres **Autoriser Ignorer** et **Autoriser Marquer comme enregistré** sont automatiquement désactivés.
 
-1. Les options **Ignorer** et **Marquer comme enregistré** dans la boîte de dialogue de traitement des erreurs nécessite l’autorisation **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré**. Par conséquent, dans la page **Groupes d’autorisations** (**Retail et Commerce \> Employés \> Groupes d’autorisations**), activez l’autorisation **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré**.
-1. Les options **Ignorer** et **Marquer comme enregistrée** permettent aux opérateurs de renseigner des informations supplémentaires lorsque l’enregistrement fiscal échoue. Pour rendre cette fonctionnalité disponible, vous devez spécifier les codes info **Ignorer** et **Marquer comme enregistrée** sur un groupe de connecteurs fiscaux. Les informations que les opérateurs saisissent sont ensuite enregistrées comme transaction de code info liée à la transaction fiscale. Pour plus d’informations sur les codes info, voir [Codes info et groupes de codes info](../info-codes-retail.md).
+1. Les options **Ignorer** et **Marquer comme enregistré** dans la boîte de dialogue de traitement des erreurs nécessite l’autorisation **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré**. Pour activer cette autorisation, accédez à la page **Groupes d’autorisations** (**Retail et Commerce \> Employés \> Groupes d’autorisations**) et définissez l’option **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré** sur **Oui**.
+1. L’option **Reporter** dans la boîte de dialogue de traitement des erreurs exige que l’autorisation **Autoriser Reporter** soit activée. Pour activer l’autorisation, accédez à la page **Groupes d’autorisations** (**Retail et Commerce \> Employés \> Groupes d’autorisations**) et définissez l’option **Autoriser Reporter** sur **Oui**.
+1. Les options **Ignorer**, **Marquer comme enregistrée** et **Reporter** permettent aux opérateurs de renseigner des informations supplémentaires lorsque l’enregistrement fiscal échoue. Pour rendre cette fonctionnalité disponible, vous devez spécifier les codes info **Ignorer**, **Marquer comme enregistrée** et **Reporter** sur un groupe de connecteurs fiscaux. Les informations que les opérateurs saisissent sont ensuite enregistrées comme transaction de code info liée à la transaction fiscale. Pour plus d’informations sur les codes info, voir [Codes info et groupes de codes info](../info-codes-retail.md).
 
     > [!NOTE]
     > La fonction de déclenchement **Produit** n’est pas prise en charge pour les codes info utilisés pour **Ignorer** et **Marquer comme enregistrée** dans les groupes de connecteurs fiscaux.
 
-    - Sur la page **Groupe de connecteurs fiscaux**, sous l’onglet **Codes info**, sélectionnez les codes info ou les groupes de codes info dans les champs **Ignorer** et **Marquer comme enregistrée**.
+    - Sur la page **Groupe de connecteurs fiscaux**, sous l’onglet **Codes info**, sélectionnez les codes info ou les groupes de codes info dans les champs **Ignorer**, **Marquer comme enregistrée** et **Reporter**.
 
     > [!NOTE]
     > Un document fiscal et un document non fiscal peuvent être générés à chaque étape d’un processus fiscal d’enregistrement. Une extension de fournisseur de documents fiscaux identifie chaque type de transaction ou d’événement comme associé à des documents fiscaux ou non fiscaux. La fonctionnalité de gestion des erreurs s’applique uniquement aux documents fiscaux.

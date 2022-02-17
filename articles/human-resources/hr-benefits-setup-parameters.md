@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cdda08ad2debe6ffe40f1f3fd2ac84ce9fc1d620
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 822e5b37be7b2d5712d61bf7fb00f40d1692f406
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423421"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066923"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Définir les paramètres de gestion des avantages et de libre service des employés pour toutes les entreprises
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -55,7 +58,7 @@ Avant de pouvoir configurer des plans d’avantages dans Microsoft Dynamics 365 
 
 ## <a name="configure-employee-self-service-parameters"></a>Configurer les paramètres du libre-service employé.
 
-1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
+1. Dans l’espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
 
 2. Dans l’onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants :
 

@@ -1,5 +1,5 @@
 ---
-title: Fusion de l’infrastructure Dynamics 365 Human Resources - Mise à jour de la version 10.0.25
+title: Fusion de l’infrastructure Dynamics 365 Human Resources – Mise à jour de la version 10.0.25
 description: Cette rubrique fournit des informations sur Microsoft Dynamics 365 Human Resources, version 10.0.25, qui apporte la première vague de fonctionnalités dans la fusion de l’infrastructure.
 author: twheeloc
 ms.date: 01/19/2022
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec6d47c44136f7a105a702358370dd676d9339c1
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018346"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024565"
 ---
-# <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Fusion de l’infrastructure Dynamics 365 Human Resources - Mise à jour de la version 10.0.25
+# <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Fusion de l’infrastructure Dynamics 365 Human Resources – Mise à jour de la version 10.0.25
 
-La version 10.0.25 apporte la première vague de fonctionnalités dans la fusion de l’infrastructure. Lors de la fusion de l’infrastructure, Microsoft Dynamics 365 Human Resources sera fusionné avec l’infrastructure Finance and Operations. Cependant, il continuera d’être concédé sous licence en tant qu’application indépendante, comme Dynamics 365 Finance et Dynamics 365 Supply Chain Management. Pour plus d’informations sur la fusion de l’infrastructure, voir [FAQ sur la fusion de l’infrastructure Dynamics 365 Human Resources](../human-resources/hr-infrastructure-merge-faq.md).
+La version 10.0.25 apporte la première vague de fonctionnalités dans la fusion de l’infrastructure. Lors de la fusion de l’infrastructure, Microsoft Dynamics 365 Human Resources sera fusionné avec l’infrastructure Finances et Opérations. Cependant, il continuera d’être concédé sous licence en tant qu’application indépendante, comme Dynamics 365 Finance et Dynamics 365 Supply Chain Management. Pour plus d’informations sur la fusion de l’infrastructure, voir [FAQ sur la fusion de l’infrastructure Dynamics 365 Human Resources](../human-resources/hr-infrastructure-merge-faq.md).
 
 La fusion offrira aux utilisateurs de Human Resources davantage de cohérence, des manières suivantes :
 
-- [La gestion de l’environnement et les intégrations sont cohérentes entre les applications Human Resources et Finance and Operations.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
+- [La gestion de l’environnement et les intégrations sont cohérentes entre les applications Human Resources et Finances et Opérations.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
 
     - Gestion d’environnements dans Microsoft Dynamics Lifecycle Services, recherche de problèmes et Regression Suite Automation Tool.
     - Il existe une base de code unique, où de nouvelles fonctionnalités pour Human Resources sont publiées dans le cadre du processus de mise à jour régulier One Version.
@@ -44,7 +44,7 @@ La fusion offrira aux utilisateurs de Human Resources davantage de cohérence, d
 
 - [Créez un ensemble de fonctionnalités de ressources humaines dans Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
 
-    Dans la version 10.0.25, les capacités fonctionnelles qui n’existaient que dans Human Resources ont été rendues disponibles sur l’infrastructure Finance and Operations. Pour que les clients puissent tirer parti de ces fonctionnalités dans un environnement Finance and Operations, les fonctionnalités Human Resources suivantes doivent être activées dans la Gestion des fonctionnalités.
+    Dans la version 10.0.25, les capacités fonctionnelles qui n’existaient que dans Human Resources ont été rendues disponibles sur l’infrastructure Finances et Opérations. Pour que les clients puissent tirer parti de ces fonctionnalités dans un environnement Finances et Opérations, les fonctionnalités Human Resources suivantes doivent être activées dans la Gestion des fonctionnalités.
 
     | Nom de la fonction | Vue d’ensemble | Statut de lancement | 
     |--------------|----------|----------------| 
@@ -53,7 +53,7 @@ La fusion offrira aux utilisateurs de Human Resources davantage de cohérence, d
     | Imprimer les révisions des performances | Vous pouvez imprimer les évaluations de performance au format PDF. | Disponibilité générale | 
     | Liens personnalisés dans le **Libre-service des responsables** | Vous pouvez créer des liens personnalisés qui apparaissent dans la section **Liens connexes** du **Libre-service des responsables**. | Disponibilité générale | 
     | Vue Rémunération intersociétés | Les utilisateurs peuvent consulter les régimes de rémunération dans le **Libre-service des responsables** sur toutes les entités juridiques, sans avoir à changer de société. | Disponibilité générale | 
-    | Configurer plusieurs niveaux de rémunération par tâche\*&dagger; | Les tâches prennent désormais en charge plusieurs niveaux de rémunération. | Disponibilité générale | 
+    | Configurer plusieurs niveaux de rémunération par tâche\*&dagger; | Les tâches prennent désormais en charge plusieurs niveaux de rémunération. | Version préliminaire | 
     | Gestion des tâches\* | Vous pouvez créer des listes de contrôle et des tâches pour les processus d’intégration, de débarquement et de transition. | Version préliminaire | 
     | Entrée d’employé simplifiée | Cette fonctionnalité offre une expérience utilisateur actualisée sur la page **Collaborateur**. | Version préliminaire | 
     | Améliorations de l’expérience utilisateur des ressources humaines | Voir le tableau dans la section suivante.  | Version préliminaire | 

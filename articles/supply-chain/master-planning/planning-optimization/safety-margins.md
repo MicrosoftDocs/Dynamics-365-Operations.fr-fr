@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774847"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074965"
 ---
 # <a name="safety-margins"></a>Marges de sécurité
 
@@ -61,9 +61,6 @@ Notez qu’une marge de réception n’est pas appliquée lorsque le stock dispo
 
 ### <a name="reorder-margin"></a>Marge de renouvellement
 
-> [!NOTE]
-> **Prochainement :** Cette fonctionnalité n’est pas encore prise en charge pour l’Optimisation de la planification. Jusqu’à ce qu’elle soit pris en charge, toutes les valeurs entrées pour **Marge de renouvellement ajouté au délai de l’article** seront traitées comme *0* (zéro).
-
 L’illustration suivante met en évidence la marge de renouvellement.
 
 ![Marge de renouvellement.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ L’illustration suivante met en évidence la marge de renouvellement.
 La marge de renouvellement ajoutée avant le délai de livraison de l’article pour tous les ordres prévisionnels pendant la planification. Par conséquent, cela garantit un délai supplémentaire pour qu’un ordre d’approvisionnement soit passé. Cette marge est généralement utilisée comme tampon pour garantir le temps nécessaire aux processus d’approbation ou à d’autres processus internes requis lors de la création d’ordres d’approvisionnement. La marge de renouvellement est placée entre la *date de l’ordre* d’approvisionnement et la *date de début*.
 
 ### <a name="issue-margin"></a>Marge de sortie
-
-> [!NOTE]
-> **Prochainement :** Cette fonctionnalité n’est pas encore prise en charge pour l’Optimisation de la planification. Jusqu’à ce qu’elle soit pris en charge, toutes les valeurs entrées pour **Marge de sortie déduite de la date de besoin** seront traitées comme *0* (zéro).
 
 L’illustration suivante met en évidence la marge de sortie.
 

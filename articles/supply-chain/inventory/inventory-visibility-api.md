@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952625"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062109"
 ---
 # <a name="inventory-visibility-public-apis"></a>API publiques de visibilité des stocks
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique décrit les API publiques fournies par la visibilité des stocks.
 
@@ -129,7 +129,7 @@ Pour obtenir un jeton de service de sécurité, procédez comme suit.
    }
    ```
 
-   Notez les points suivants :
+   Notez les points suivants :
 
    - La valeur `client_assertion` doit être le jeton Azure AD (`aadToken`) que vous avez reçu à l’étape précédente.
    - La valeur `context` doit être l’ID d’environnement LCS dans lequel vous souhaitez déployer le complément.

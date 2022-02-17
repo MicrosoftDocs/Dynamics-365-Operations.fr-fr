@@ -15,23 +15,26 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a553fa1aa4bac0d2fb11b87ee05e4e52c019411d
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 01eb0c56578cf6f6b070c4a05768ec5361993555
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423518"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065866"
 ---
 # <a name="create-coverage-options"></a>Créer des options de couverture
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Les options de couverture déterminent qui doit être couvert, ou l'étendue de la couverture disponible dans un régime d'assurance. Par exemple, pour un régime médical, vous pouvez avoir une option **Employé seulement**, une option **Employé + 1** et une option **Famille**. Pour l'assurance-vie, vous pouvez offrir une couverture pour **1 x salaire** ou pour **2 x salaire**.
+Les options de couverture déterminent qui doit être couvert, ou l’étendue de la couverture disponible dans un régime d’assurance. Par exemple, pour un régime médical, vous pouvez avoir une option **Employé seulement**, une option **Employé + 1** et une option **Famille**. Pour l’assurance-vie, vous pouvez offrir une couverture pour **1 x salaire** ou pour **2 x salaire**.
 
 Une fois les options de couverture des avantages définie, vous pouvez les réutiliser. Vous pouvez associer une option avec un ou plusieurs plans.
 
 > [!IMPORTANT]
-> Après avoir défini les options de couverture, associez-les à un type de régime d'avantages. Le type de plan est ensuite associé à un régime de prestations sociales. Les options de couverture associées à un type de régime sont disponibles pour tous les régimes créés avec ce type de régime.
+> Après avoir défini les options de couverture, associez-les à un type de régime d’avantages. Le type de plan est ensuite associé à un régime de prestations sociales. Les options de couverture associées à un type de régime sont disponibles pour tous les régimes créés avec ce type de régime.
 
 ## <a name="create-coverage-options"></a>Créer des options de couverture
 1. Dans l’espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Options de couverture**.
@@ -44,7 +47,7 @@ Une fois les options de couverture des avantages définie, vous pouvez les réut
    | --- | --- |
    | **Option de couverture** | Un nom d’option de couverture unique. |
    | **Description** | La description de l’option de couverture. |
-   | **Code couverture** | Les codes de couverture attribuent des montants minimum et maximum pour chaque type de personne couverte éligible. Un code de couverture indique qui est couvert ou le montant de couverture autorisé pour un type de plan. Vous pouvez exprimer le montant de la couverture sous forme de montant ou de pourcentage. Par exemple :<ul><li>**Emp+1** : pour être qualifié, l'employé doit avoir sélectionné une personne à charge (si plus d’une personne est sélectionnée, il ne sera plus qualifié).</li><li>**Emp+famille** : pour être qualifié, le salarié doit avoir sélectionné au moins deux personnes à charge.</li></ul> |
+   | **Code couverture** | Les codes de couverture attribuent des montants minimum et maximum pour chaque type de personne couverte éligible. Un code de couverture indique qui est couvert ou le montant de couverture autorisé pour un type de plan. Vous pouvez exprimer le montant de la couverture sous forme de montant ou de pourcentage. Par exemple :<ul><li>**Emp+1** : pour être qualifié, l’employé doit avoir sélectionné une personne à charge (si plus d’une personne est sélectionnée, il ne sera plus qualifié).</li><li>**Emp+famille** : pour être qualifié, le salarié doit avoir sélectionné au moins deux personnes à charge.</li></ul> |
    | **Nombre maximal** | Nombre maximal de personnes à charge |
    | **État** | Statut de l’option de couverture. Si l’état de l’option de couverture est défini sur **Inactif**, l’option de couverture ne peut pas être sélectionnée sur les types de régime. |
    | **Pourcentage** | Montant du pourcentage. Ce champ n’est actif que si % x Salaire a été sélectionné dans le champ Code de couverture. |
@@ -59,7 +62,7 @@ Une fois les options de couverture des avantages définie, vous pouvez les réut
    | Champ | Description |
    | --- | --- |
    | **Autoriser le montant de la contribution de l’employé** | Indique s’il faut autoriser les employés à modifier le montant de la contribution dans le libre service des avantages lorsqu’ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime de prestations en fonction du montant de cotisation que l’employé saisit dans le libre service des avantages. |
-   | **Autoriser le montant de la couverture de l'employé** | Indique s’il faut autoriser les employés à modifier le montant de la couverture dans le libre service des avantages lorsqu’ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime de prestations en fonction du montant de couverture que l’employé saisit dans le Libre service employé. |
+   | **Autoriser le montant de la couverture de l’employé** | Indique s’il faut autoriser les employés à modifier le montant de la couverture dans le libre service des avantages lorsqu’ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime de prestations en fonction du montant de couverture que l’employé saisit dans le Libre service employé. |
 
 6. Sélectionnez **Enregistrer**. 
 

@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754135"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063745"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (14 mai 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3244. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.
 
 ## <a name="platform-changes"></a>Modifications de plateforme
 
-Des modifications de plateforme sont incluses dans la version de cette semaine. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.10 des applications Finance and Operations (mai 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Cette version inclut des corrections de bugs et des modifications des vues enregistrées.
+Des modifications de plateforme sont incluses dans la version de cette semaine. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.10 (mai 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Cette version inclut des corrections de bugs et des modifications des vues enregistrées.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Garantir que les listes de sélection Dataverse sont compatibles avec les énumérations relatives aux congés (436343)
 

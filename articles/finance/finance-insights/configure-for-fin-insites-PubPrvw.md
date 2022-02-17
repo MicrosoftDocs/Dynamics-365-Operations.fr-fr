@@ -1,5 +1,5 @@
 ---
-title: Configuration pour Finance Insights - versions 10.0.20 et ultérieures
+title: Configuration pour Finance Insights – versions 10.0.20 et ultérieures
 description: Cette rubrique explique comment configurer votre système pour utiliser les fonctionnalités disponibles dans Finance insights pour la version 10.0.20 et les versions ultérieures.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968960"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061752"
 ---
-# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuration pour Finance Insights - versions 10.0.20 et ultérieures
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuration pour Finance Insights – versions 10.0.20 et ultérieures
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique comment configurer Dynamics 365 Finance version 10.0.20 pour que votre système puisse utiliser les fonctionnalités disponibles dans Finance Insights.
 
 > [!NOTE]
-> Les étapes de configuration décrites dans cette rubrique s’appliquent uniquement à Finance, version 10.0.20 et versions ultérieures. Pour configurer Informations financières version 10.0.19 et versions ultérieures, voir [Configuration de Informations financières - versions jusqu’à 10.0.19](configure-for-fin-insites.md).
+> Les étapes de configuration décrites dans cette rubrique s’appliquent uniquement à Finance, version 10.0.20 et versions ultérieures. Pour configurer Informations financières version 10.0.19 et versions ultérieures, voir [Configuration de Informations financières – versions jusqu’à 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Déploiement de Finance
 

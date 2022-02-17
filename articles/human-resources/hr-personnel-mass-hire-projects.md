@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e0a8bba2227136995542d08f4b3f1e9d6d48ad5
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: fcfc973dc9acea624336f059d68562fa5eb41353
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728654"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070199"
 ---
 # <a name="mass-hire-projects"></a>Projets d’embauche collective
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,7 +35,7 @@ Les projets d’embauche collective autorisent les spécialistes des ressources 
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Utilisez les projets d’embauche collective lorsque vous embauchez plusieurs travailleurs en même temps, par exemple pour répondre à une demande saisonnière. La création d’un projet d’embauche collective est utile car vous pouvez créer des enregistrements de poste, des enregistrements de travailleur, et des affectations de travailleurs pour les postes simultanément. Lorsque vous créez des postes pour un projet d’embauche collective, vous pouvez spécifier les informations suivantes :
+Utilisez les projets d’embauche collective lorsque vous embauchez plusieurs travailleurs en même temps, par exemple pour répondre à une demande saisonnière. La création d’un projet d’embauche collective est utile car vous pouvez créer des enregistrements de poste, des enregistrements de travailleur, et des affectations de travailleurs pour les postes simultanément. Lorsque vous créez des postes pour un projet d’embauche collective, vous pouvez spécifier les informations suivantes :
 
 - Nombre de postes à créer
 - Type de travailleur des personnes que vous engagerez pour les postes
@@ -49,7 +52,7 @@ Une fois que vous avez sélectionné les stagiaires à embaucher pour les postes
 
 ## <a name="mass-hire-project-statuses"></a>Statuts du projet d’embauche collective
 
-Un projet d’embauche collective peut avoir les statuts suivants :
+Un projet d’embauche collective peut avoir les statuts suivants :
 
 - Créé(e)
 - Ouvrir

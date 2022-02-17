@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740837"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060829"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable. Si vous avez un autre environnement de bac à sable, vous pouvez également copier la base de données de cet environnement vers un environnement cible de bac à sable.
 
@@ -75,9 +75,9 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
 5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
 
-   ![[Sélectionner Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Sélectionnez Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Sélectionnez l'environnement Power Apps à copier, puis sélectionnez **Copier**.
+6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
 
 7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Dataverse. Pour plus d’informations et instructions, voir [Configurer l’intégration Dataverse](./hr-admin-integration-common-data-service.md).
 

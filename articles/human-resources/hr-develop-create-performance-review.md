@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431158"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066948"
 ---
 # <a name="create-performance-reviews"></a>Créer des évaluations des performances
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,13 +68,13 @@ Cette rubrique explique comment créer une évaluation des performances et décr
 30. Sélectionnez l’onglet **Classements**.  
 
     - Le raccourci **Détails de classement** permet aux employés de s’auto-classer et au responsable de classer l’employé. Si des poids sont utilisés, la valeur de poids des scores est calculée automatiquement.  
-    - Pour afficher cette section, activez les paramètres d'affichage des révisions des employés sur la page **Paramètres partagés des ressources humaines**.  
+    - Pour afficher cette section, activez les paramètres d’affichage des révisions des employés sur la page **Paramètres partagés des ressources humaines**.  
 
 31. Sélectionnez l’onglet **Validations**. Si la révision utilise un workflow, les validations s’affichent uniquement à la fin du workflow. Si aucun workflow n’est utilisé, le collaborateur et le responsable sont répertoriés ici. La case à cocher **Requis** pour les **Validations** est coché en fonction des paramètres du type de révision.  
 32. Sélectionnez l’onglet **Général**.
 
     - La période de performances crée les dates de début et de fin par défaut. Ces dates sont modifiables.  
-    - Les statuts contrôlent l’accès à la révision. Le statut **Non commencé** permet à tous les utilisateurs de modifier la révision. Le statut **En cours** permet uniquement à l’employé d’afficher et de modifier la révision. **Prêt pour la révision** permet uniquement au responsable d’afficher et de modifier la révision. Le statut **Révision finale** permet à l'employé et au responsable de visualiser et de modifier la révision si l'option **Autoriser la modification lors de la révision finale** est sélectionnée dans le type de révision. Les statuts **Terminé** et **Annulé** permettent d’afficher la révision en lecture seule. Si un avis est **Rejeté** et renvoyé à l’employé, l’employé et le gestionnaire peuvent apporter les modifications nécessaires afin que l’employé puisse soumettre à nouveau.
+    - Les statuts contrôlent l’accès à la révision. Le statut **Non commencé** permet à tous les utilisateurs de modifier la révision. Le statut **En cours** permet uniquement à l’employé d’afficher et de modifier la révision. **Prêt pour la révision** permet uniquement au responsable d’afficher et de modifier la révision. Le statut **Révision finale** permet à l’employé et au responsable de visualiser et de modifier la révision si l’option **Autoriser la modification lors de la révision finale** est sélectionnée dans le type de révision. Les statuts **Terminé** et **Annulé** permettent d’afficher la révision en lecture seule. Si un avis est **Rejeté** et renvoyé à l’employé, l’employé et le gestionnaire peuvent apporter les modifications nécessaires afin que l’employé puisse soumettre à nouveau.
 
 33. Dans le champ **Vue d’ensemble**, tapez une valeur.
 34. Sélectionnez **Révision**. Étant donné que la révision passe par les différents statuts, l’employé et le responsable peuvent ajouter des commentaires pour chaque objectif ou compétence.  

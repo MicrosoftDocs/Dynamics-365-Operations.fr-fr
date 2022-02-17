@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a121df99d996c80fab3a01ce81fcaacf9b94a2425a826c09dff203def2c60c13
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745820"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069271"
 ---
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
@@ -51,11 +54,11 @@ La page **Descriptions de champ** vous permet d’afficher et exporter des descr
 
 ### <a name="view-the-descriptions-for-a-page"></a>Afficher les descriptions pour une page
 
-Pour afficher les descriptions pour une page, procédez comme suit :
+Pour afficher les descriptions pour une page, procédez comme suit :
 
 - Dans le champ **Sélectionner une page**, tapez le nom de la page. Sinon, cliquez sur la flèche pour ouvrir une liste de toutes les pages, puis parcourez ou filtrer la liste.
 
-Vous pouvez utiliser le nom de la page qui s’affiche dans l’interface utilisateur (IU) (par exemple : **Clients**), ou le nom de code (nom AOA) disponible en cliquant avec le bouton droit sur la page (par exemple : **CustTable**).
+Vous pouvez utiliser le nom de la page qui s’affiche dans l’interface utilisateur (IU) (par exemple : **Clients**), ou le nom de code (nom AOA) disponible en cliquant avec le bouton droit sur la page (par exemple : **CustTable**).
 
 Pour plus d’informations sur les différentes façons de filtrer la liste des pages, consultez la section « Recherche d’une page » plus loin dans cet article.
 
@@ -63,7 +66,7 @@ Si vous définissez l’option **Inclure les champs sans description** sur **Oui
 
 ### <a name="export-the-descriptions-for-a-page"></a>Exporter les descriptions pour une page
 
-Pour exporter les descriptions pour une page, procédez comme suit :
+Pour exporter les descriptions pour une page, procédez comme suit :
 
 1. Dans le champ **Sélectionner une page**, sélectionnez une page.
 2. Cliquez sur le bouton **Ouvrir dans Microsoft Office** dans le coin supérieur droit, puis cliquez sur **FieldDescriptionTmp**.

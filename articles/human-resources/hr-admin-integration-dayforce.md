@@ -1,6 +1,6 @@
 ---
 title: Configurer l’intégration avec Dayforce
-description: Cette rubrique décrit les étapes de configuration requises pour l'intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce.
+description: Cette rubrique décrit les étapes de configuration requises pour l’intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559459"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067074"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurer l’intégration avec Dayforce
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L'intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cette rubrique. Vous devez configurer l’intégration dans Human Resources et Dayforce avant de pouvoir traiter un cycle de paie.
+L’intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cette rubrique. Vous devez configurer l’intégration dans Human Resources et Dayforce avant de pouvoir traiter un cycle de paie.
 
 Lorsque vous utilisez un service comme Dayforce pour compléter des cycles de paie, vous devez activer l’intégration dans Human Resources. L’intégration nécessite des données spécifiques de Human Resources. Par conséquent, vous devez vérifier que les données mises en correspondance avec Dayforce sont configurées dans Human Resources d’une manière prenant en charge l’intégration. L’intégration utilise les larges catégories de données suivantes :
 
@@ -35,7 +38,7 @@ Lorsque vous utilisez un service comme Dayforce pour compléter des cycles de pa
 - Données salariales, telles que des cycles de paie, des périodes de rémunération, et des codes de rémunération
 - Données sur les collaborateurs
 
-Cette rubrique décrit les étapes que vous devez suivre pour activer l'intégration et explique les types de données et les détails de configuration requis par l'intégration.
+Cette rubrique décrit les étapes que vous devez suivre pour activer l’intégration et explique les types de données et les détails de configuration requis par l’intégration.
 
 ## <a name="enable-the-integration"></a>Activer l’intégration
 
@@ -50,7 +53,7 @@ Pour l’activer l’intégration dans Human Resources, procédez comme suit.
 
 Lorsque l’intégration est activée, le package et les fichiers d’exportation de données sont créés, et la fréquence est définie. Vous pouvez modifier la fréquence selon vos besoins.
 
-Pour plus d'informations sur les comptes de stockage Azure et les chaînes de connexion de stockage Azure, consultez les rubriques Azure suivantes :
+Pour plus d’informations sur les comptes de stockage Azure et les chaînes de connexion de stockage Azure, consultez les rubriques Azure suivantes :
 
 - [À propos des comptes de stockage Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurer les chaînes de connexion de stockage Azure](/azure/storage/common/storage-configure-connection-string)
@@ -121,9 +124,9 @@ Dayforce crée les déductions suivantes, selon l’impact sur la paie défini d
 | Contribution uniquement          | Une retenue employeur est créée.             |
 | Déduction et contribution | Des retenues employé et employeur sont créées. |
 
-Pour plus d'informations sur la définition et la gestion des programmes d'avantages, consultez les rubriques suivantes :
+Pour plus d’informations sur la définition et la gestion des programmes d’avantages, consultez les rubriques suivantes :
 
-- [Communiquer le programme d'avantages à un employé](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Communiquer le programme d’avantages à un employé](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [Créer un avantage](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Définir les règles d’admissibilité et les stratégies relatives aux avantages](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Inscrire et annuler l’inscription des travailleurs à des avantages](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
@@ -134,7 +137,7 @@ La gestion des rémunérations est utilisée pour contrôler la rémunération d
 
 Dayforce utilise les informations de rémunération pour calculer le taux horaire ou annuel d’un employé. Des plans de rémunération fixe et des conversions de taux de salaire sont requis. Les employés doivent être associés à un plan de rémunération fixe.
 
-Pour plus d'informations sur les plans de rémunération, voir les rubriques suivantes :
+Pour plus d’informations sur les plans de rémunération, voir les rubriques suivantes :
 
 - [Créer des régimes de rémunération fixe](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Créer des régimes de rémunération variable](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -146,9 +149,9 @@ Pour plus d'informations sur les plans de rémunération, voir les rubriques sui
 
 #### <a name="jobs"></a>Postes 
 
-Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche. Pour plus d'informations, voir les rubriques suivantes :
+Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche. Pour plus d’informations, voir les rubriques suivantes :
 
-- [Paramétrage des composants d'une tâche](/dynamics365/unified-operations/talent/create-job)
+- [Paramétrage des composants d’une tâche](/dynamics365/unified-operations/talent/create-job)
 - [Définir les nouvelles tâches](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Postes
@@ -171,18 +174,18 @@ Gardez à l’esprit les données et la configuration suivantes lorsque vous par
 
 Si plusieurs postes dans un même département sont associés à la même tâche, ils sont consolidés un seul poste dans Dayforce.
 
-Pour plus d'informations, voir les rubriques suivantes :
+Pour plus d’informations, voir les rubriques suivantes :
 
-- [Organisation du personnel à l'aide des départements, tâches et postes](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Organisation du personnel à l’aide des départements, tâches et postes](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Paramétrer les postes](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Départements
 
 Un département est une unité opérationnelle qui représente une catégorie ou un domaine fonctionnel d’une organisation. Un département est responsable d’un domaine spécifique de l’organisation, par exemple les ventes, la comptabilité ou les ressources humaines. Les départements vous permettent de générer des états sur les domaines fonctionnels. Les départements peuvent avoir la responsabilité des résultats.
 
-Pour plus d'informations, voir les rubriques suivantes :
+Pour plus d’informations, voir les rubriques suivantes :
 
-- [Créer un département et l'associer à la hiérarchie des départements](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Créer un département et l’associer à la hiérarchie des départements](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Définir les nouveaux départements](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Cycles de paie et périodes de rémunération
@@ -215,7 +218,7 @@ Les informations suivantes sont utilisée dans Dayforce :
 
 Les enregistrements pour les différents types d’employés dont vous disposez sont importants pour vos systèmes de ressources humaines et de paie. Les informations que vous entrez peuvent servir à suivre les informations des collaborateurs et les informations personnelles.
 
-Vous pouvez tenir à jour les informations suivantes pour les travailleurs :
+Vous pouvez tenir à jour les informations suivantes pour les travailleurs :
 
 - **Base** – Permet de tenir à jour les informations de base sur un collaborateur, telles que les informations de contact, les informations démographiques, les informations d’identification, les informations sur la famille, le statut de service militaire, les informations d’expatriation, et les contacts personnels et les personnes à prévenir en cas d’urgence.
 - **Emploi** – Permet de tenir à jour les informations relatives à l’emploi des collaborateurs, telles que l’affiliation de la société ou de l’organisation, l’affectation de poste, les dates de début et de fin, l’éligibilité à un emploi, les conditions d’emploi, la retraite, les congés, et les informations de mutation.

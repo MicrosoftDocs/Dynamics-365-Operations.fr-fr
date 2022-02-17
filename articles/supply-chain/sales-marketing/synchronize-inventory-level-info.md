@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 31674b2be3deb52277cbf79e1e076da13bf94404
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566357"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060943"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Synchroniser les informations sur le niveau de stock depuis Supply Chain Management vers Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
@@ -53,10 +53,10 @@ Les tâches de synchronisation suivantes sont requises avant que la synchronisat
 | msdynce_externalproductinventories | Stock de Dataverse disponible par entrepôt     |
 
 ## <a name="entity-flow"></a>Flux d’entité
-Les informations sur le niveau de stock sont envoyées de Finance and Operations vers Field Service pour certains produits. Les informations de niveau de stock comprennent : 
+Les informations sur le niveau de stock sont envoyées de Finances et Opérations vers Field Service pour certains produits. Les informations de niveau de stock comprennent : 
 - La quantité disponible (quantité physique actuelle enregistrée dans l’entrepôt)
-- Quantité en commande (quantité totale en commande enregistrée - c’est-à-dire commandes client)
-- Quantité commandée (quantité totale commandée enregistrée - c’est-à-dire commandes fournisseur)
+- Quantité en commande (quantité totale en commande enregistrée – c’est-à-dire commandes client)
+- Quantité commandée (quantité totale commandée enregistrée – c’est-à-dire commandes fournisseur)
 
 Ces informations sont capturées par produit lancé pour chaque entrepôt et synchronisées selon le suivi des modifications, lorsque le niveau de stock change.
 

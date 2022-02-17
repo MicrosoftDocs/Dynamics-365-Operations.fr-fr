@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0837d9a153aba554d0a5293d16afb309bd37963c270da5b67e691558cae63b0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1805f7efaf2efc48d5996776f3aa27d75606886f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758710"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068432"
 ---
 # <a name="payroll-worker-benefit-plan"></a>Régime des avantages sociaux pour les collaborateurs de la paie
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -44,13 +47,13 @@ Cette entité fournit des informations sur le régime des avantages sociaux pour
 | **Date de début de la déduction**</br>mshr_deductionstartdatetime</br>*Décalage de date et heure* | Lecture seule | Date de début de la déduction. |
 | **Date de fin de la déduction**</br>mshr_deductionenddatetime</br>*Décalage de date et heure* | Lecture seule | Date de fin de la déduction. |
 | **État**</br>mshr_status</br>*[Groupe d’options Statut du régime des avantages sociaux des employés](hr-admin-integration-payroll-api-benefit-employee-plan-status.md)* | Lecture seule | Statut du régime des avantages sociaux. |
-| **Valide à partir du**</br>mshr_validfrom</br>*Décalage de date et heure* | Lecture seule | Heure de début de validité de l'enregistrement. |
-| **Valide jusqu’au**</br>mshr_validto</br>*Décalage de date et heure* |  Lecture seule | Heure de fin de validité de l'enregistrement. |
+| **Valide à partir du**</br>mshr_validfrom</br>*Décalage de date et heure* | Lecture seule | Heure de début de validité de l’enregistrement. |
+| **Valide jusqu’au**</br>mshr_validto</br>*Décalage de date et heure* |  Lecture seule | Heure de fin de validité de l’enregistrement. |
 | **ID du type de régime**</br>mshr_plantypeid</br>*Chaîne* | Lecture seule | Identificateur du type de régime. |
 | **Code de type de plan**</br>mshr_plantypecode</br>*[Groupe d’options Couverture du type de régime des avantages sociaux](hr-admin-integration-payroll-api-benefit-plan-type-cover.md)* | Lecture seule | Spécification du type de régime. |
 | **Nombre de périodes de paiement :**</br>mshr_payperiod</br>*Entier* | Lecture seule | Nombre de périodes de paiement qui représente la fréquence de paiement du fournisseur ou des employés. Ce montant sera utilisé pour calculer le montant du salaire des avantages annuels de l’employé. |
-| **Montant de l'employé**</br>mshr_amountemployee</br>*Décimal* | Lecture seule | Montant ou pourcentage de l’employé. |
-| **Montant de l'employeur**</br>mshr_amountemployer</br>*Décimal* | Lecture seule | Montant ou pourcentage de l’employeur. |
+| **Montant de l’employé**</br>mshr_amountemployee</br>*Décimal* | Lecture seule | Montant ou pourcentage de l’employé. |
+| **Montant de l’employeur**</br>mshr_amountemployer</br>*Décimal* | Lecture seule | Montant ou pourcentage de l’employeur. |
 | **Champ principal**</br>mshr_primaryfield</br>*Chaîne* | Généré par le système | Champ principal. |
 | **Valeur de l’ID du collaborateur** </br>_mshr_fk_worker_id_value</br>*GUID* | Clé étrangère : mshr_hcmworkerbaseentityid of mshr_hcmworkerbaseentity entity. | Identificateur unique généré par le système pour le collaborateur. |
 | **Valeur de l’ID de période**</br> _mshr_fk_period_id_value</br>*GUID* | Clé étrangère : mshr_benefitperiodentityid of mshr_benefitperiodentity entity. | Identificateur unique généré par le système pour la période. |

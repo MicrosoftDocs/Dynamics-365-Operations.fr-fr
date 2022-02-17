@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 46584f397e83bc68878ff5ef2848a251912811af
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566405"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061982"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Synchroniser les en-têtes et les lignes de devis de vente directement entre le module Sales et Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de devis de vente directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 
@@ -44,7 +44,7 @@ La solution Prospect en disponibilités utilise la fonction d’intégration de 
 
 Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les en-têtes et lignes de devis directement entre Sales et Supply Chain Management :
 
-- Produits **Nom du modèle dans l’intégration des données :** Devis de vente (Sales vers Supply Chain Management) - Direct
+- Produits **Nom du modèle dans l’intégration des données :** Devis de vente (Sales vers Supply Chain Management) – Direct
 - **Noms des tâches dans le projet d’intégration de données :**
 
     - QuoteHeader
@@ -52,9 +52,9 @@ Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchronise
 
 Les tâches suivantes de synchronisation sont requises avant que la synchronisation des en-têtes et des lignes de devis puisse être entreprise :
 
-- Produits (Supply Chain Management vers Sales) - Direct
-- Comptes (Sales vers Supply Chain Management) - Direct (si utilisé)
-- Contacts vers Customers (Sales vers Supply Chain Management) - Direct (si utilisé)
+- Produits (Supply Chain Management vers Sales) – Direct
+- Comptes (Sales vers Supply Chain Management) – Direct (si utilisé)
+- Contacts vers Customers (Sales vers Supply Chain Management) – Direct (si utilisé)
 
 ## <a name="entity-set"></a>Ensemble d’entités
 

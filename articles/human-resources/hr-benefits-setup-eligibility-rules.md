@@ -15,25 +15,28 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423469"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069628"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurer les règles et les options d’éligibilité 
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Après avoir configuré les paramètres requis pour la gestion des avantages dans Microsoft , vous pouvez créer les règles d’admissibilité, les offres groupées, les périodes et les programmes que vous associez à vos régimes d’avantages.
 
-Les règles d'admissibilité servent à déterminer si les employés sont admissibles à un régime. Les employés doivent remplir la condition d'au moins une règle pour être considérés comme admissibles à l'avantage. Par exemple, vous avez un régime comportant deux règles. La première règle (ligne 1) stipule que le type d'employé doit être **Employé**. La deuxième règle (ligne 2) stipule que le type d'employé doit être Employé à temps plein. Par conséquent, les employés qui satisfont à la règle 1 sont admissibles même s'ils ne sont employés qu'à temps partiel.
+Les règles d’admissibilité servent à déterminer si les employés sont admissibles à un régime. Les employés doivent remplir la condition d’au moins une règle pour être considérés comme admissibles à l’avantage. Par exemple, vous avez un régime comportant deux règles. La première règle (ligne 1) stipule que le type d’employé doit être **Employé**. La deuxième règle (ligne 2) stipule que le type d’employé doit être Employé à temps plein. Par conséquent, les employés qui satisfont à la règle 1 sont admissibles même s’ils ne sont employés qu’à temps partiel.
 
-Cependant, vous pouvez configurer une seule règle comportant plusieurs conditions. Dans ce cas, les employés doivent remplir toutes les conditions de la règle pour être considérés comme admissibles à l'avantage. Par exemple, vous avez une règle nommée **Employé à temps plein**. Cette règle stipule que le type d'employé doit être **Employé** *et* que l'employé doit être employé à temps plein. Par conséquent, les employés doivent remplir les deux conditions de la règle pour être admissibles.
+Cependant, vous pouvez configurer une seule règle comportant plusieurs conditions. Dans ce cas, les employés doivent remplir toutes les conditions de la règle pour être considérés comme admissibles à l’avantage. Par exemple, vous avez une règle nommée **Employé à temps plein**. Cette règle stipule que le type d’employé doit être **Employé** *et* que l’employé doit être employé à temps plein. Par conséquent, les employés doivent remplir les deux conditions de la règle pour être admissibles.
 
 > [!IMPORTANT]
-> Au moins une règle d'admissibilité doit être associée à chaque régime d'avantages. Vous pouvez associer plusieurs règles à un avantage.
+> Au moins une règle d’admissibilité doit être associée à chaque régime d’avantages. Vous pouvez associer plusieurs règles à un avantage.
 
 ## <a name="create-an-eligibility-rule"></a>Création d’une règle d’admissibilité
 
@@ -55,13 +58,13 @@ Pendant l’inscription ouverte, les employés peuvent sélectionner des plans d
    | **Valide jusqu’à une date et heure** | Date de fin de la règle d’éligibilité. |
    | **Type d’employé utilisateur** | Spécifie s’il faut utiliser le type d’employé de l’employé pour la règle d’admissibilité aux avantages. |
    | **Type de collaborateur** | Type de collaborateur si le bouton bascule **Utiliser le type d’employé** est réglé sur **Oui**. |
-   | **Utiliser le statut d'employé** | Spécifie s’il faut utiliser le statut d’employé de l’employé pour la règle d’admissibilité aux avantages. |
+   | **Utiliser le statut d’employé** | Spécifie s’il faut utiliser le statut d’employé de l’employé pour la règle d’admissibilité aux avantages. |
    | **État** | Statut de l’employé si le bouton bascule **Utiliser le statut d’employé** est réglé sur **Oui**. Si le bouton bascule **Utiliser le statut d’employé** est défini sur **Non**, le champ n’est pas utilisé. |
-   | **Utiliser la catégorie d'emploi** | Spécifie s’il faut utiliser la valeur **Catégorie d’emploi** pour la règle d’éligibilité aux avantages. | 
-   | **Catégorie d'emploi** | Catégorie d’emploi de l’employé si le bouton bascule **Utiliser la catégorie d’emploi** est défini sur **Oui**. |
-   | **Utiliser la nouvelle règle d'embauche** | Spécifie s’il faut utiliser la nouvelle valeur de la période d’embauche d’un nouvel employé dans le cadre de la règle d’éligibilité aux avantages. |
+   | **Utiliser la catégorie d’emploi** | Spécifie s’il faut utiliser la valeur **Catégorie d’emploi** pour la règle d’éligibilité aux avantages. | 
+   | **Catégorie d’emploi** | Catégorie d’emploi de l’employé si le bouton bascule **Utiliser la catégorie d’emploi** est défini sur **Oui**. |
+   | **Utiliser la nouvelle règle d’embauche** | Spécifie s’il faut utiliser la nouvelle valeur de la période d’embauche d’un nouvel employé dans le cadre de la règle d’éligibilité aux avantages. |
    | **Période d’inscription** | Période pendant laquelle l’inscription du nouvel employé est autorisée. Si vous définissez également cela dans les paramètres, le réglage des paramètres a priorité sur celui-ci. |
-   | **Utiliser le statut d'emploi précédent** | Spécifie s’il faut utiliser un statut d’emploi précédent de l’employé dans le cadre de la règle d’éligibilité des avantages. Par exemple, vous pouvez spécifier une règle d’admissibilité qui renonce à une période d’attente de couverture pour tous les employés qui sont passés d’un statut **Mis en page** à un statut **Employé** dans les 90 jours suivant leur emploi précédent. |
+   | **Utiliser le statut d’emploi précédent** | Spécifie s’il faut utiliser un statut d’emploi précédent de l’employé dans le cadre de la règle d’éligibilité des avantages. Par exemple, vous pouvez spécifier une règle d’admissibilité qui renonce à une période d’attente de couverture pour tous les employés qui sont passés d’un statut **Mis en page** à un statut **Employé** dans les 90 jours suivant leur emploi précédent. |
 
 4. Sous **Critères supplémentaires**, sélectionnez les options suivantes et ajoutez des informations si nécessaire.
 
@@ -178,7 +181,7 @@ Les offres groupées sont un ensemble de plans d’avantages connexes. Vous pouv
    | **Offre groupée** | Identificateur unique d’une offre groupée. |
    | **Description** | Description de l’offre groupée. |
    | **Élément maître** | Indique si l’un des plans de l’offre groupée doit être marqué comme plan général. Le régime général doit être sélectionné lors de l’inscription ouverte dans le cadre de l’offre groupée avant que l’administrateur des avantages puisse confirmer les choix d’avantages de l’employé. |
-   | **Valide à partir d'une date et heure** | Date et heure d’activation de l’offre groupée. |
+   | **Valide à partir d’une date et heure** | Date et heure d’activation de l’offre groupée. |
    | **Fin de validité** | Date d’expiration de l’offre groupée. La valeur par défaut est 12/31/2154, qui représente jamais. |
 
 4. Sélectionnez **Enregistrer**.
@@ -229,7 +232,7 @@ Vous pouvez utiliser des programmes de crédits flexibles pour inscrire les empl
 
 ## <a name="configure-programs"></a>Configuration des programmes
 
-Les programmes sont un ensemble de plans d’avantages qui partagent un ensemble commun de règles d’éligibilité. Vous pouvez définir des règles d’éligibilité pour l’ensemble du programme plutôt que pour chaque plan individuel. Par exemple, un programme FTE de Contoso Canada ou un programme de niveau exécutif de Contoso Europe. 
+Les programmes sont un ensemble de plans d’avantages qui partagent un ensemble commun de règles d’éligibilité. Vous pouvez définir des règles d’éligibilité pour l’ensemble du programme plutôt que pour chaque plan individuel. Par exemple, un programme ETP Contoso Canada ou un programme de niveau exécutif Contoso Europe. 
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Règles et options d’admissibilité**.
 

@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576902"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062950"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fournir des guides de réalité mixte aux collaborateurs de la production
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Les collaborateurs des processus de production bénéficieront d’instructions pertinentes fournies au bon moment dans le cadre de leur travail. Les *Instructions* s’appliquent dans plusieurs domaines de travail, notamment : l’assembly, le service, les opérations, la certification et la sécurité. Dans toutes ces fonctions commerciales de base, des instructions de formation continue peuvent aider les collaborateurs à accomplir plus et à mieux travailler.
 
@@ -127,8 +127,8 @@ Pour configurer l’affichage des guides dans l’atelier, accédez à **Réalit
 Définissez les champs suivants :
 
 - **URL Microsoft Dataverse** – Spécifiez l’URL de l’environnement Microsoft Dataverse dans lequel vous créez vos guides. Le format est "contoso.crm4.dynamics.com", où la première partie de l’URL porte généralement le nom de votre organisation (par exemple, "contoso"), la deuxième partie est spécifique à la région de données de votre environnement (par exemple "crm4")., et la dernière partie est le domaine (comme "dynamics.com"). Une façon de trouver la bonne URL consiste à accéder à [home.dynamics.com](https://home.dynamics.com/) puis ouvrez votre application Guides. Lorsque Guides s’ouvre, vous verrez l’URL dans la barre d’adresse de votre navigateur (ne prenez que l’URL de base, qui devrait ressembler à l’exemple précédent). Cette valeur est utilisée pour composer les adresses de vos guides et sera encodée dans les codes QR."
-- **Taille du code QR** - Définissez la taille du code QR rendu. Nous vous recommandons de choisir une taille qui remplira la majeure partie de votre écran, mais pas plus. *15* est généralement une valeur adaptée.
-- **Niveau de correction d’erreur de code QR** - Définissez la granularité du code QR. Une granularité plus élevée peut aider à augmenter la fiabilité du code, mais votre **Taille de code QR** doit être suffisamment élévée pour prendre en charge le niveau de détail requis par le niveau de correction sélectionné.
+- **Taille du code QR** – Définissez la taille du code QR rendu. Nous vous recommandons de choisir une taille qui remplira la majeure partie de votre écran, mais pas plus. *15* est généralement une valeur adaptée.
+- **Niveau de correction d’erreur de code QR** – Définissez la granularité du code QR. Une granularité plus élevée peut aider à augmenter la fiabilité du code, mais votre **Taille de code QR** doit être suffisamment élévée pour prendre en charge le niveau de détail requis par le niveau de correction sélectionné.
 
 > [!TIP]
 > - Les tailles de codes QR qui sont trop élevées pour votre écran prendront un peu plus de temps à s’afficher, puis seront réduites pour s’adapter à votre écran. Cela ne présente aucun avantage.

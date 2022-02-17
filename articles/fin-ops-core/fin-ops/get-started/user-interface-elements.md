@@ -12,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2c50fadb38f3c6e20c72288b2c1e23278c10119250a0d0fcde643307cbaf7f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745062"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069321"
 ---
 # <a name="user-interface-elements"></a>Éléments de l’interface utilisateur
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique décrit les éléments de l’interface utilisateur utilisée dans l’application. Avant que les utilisateurs puissent accéder à l’interface, il est important de connaître les noms et les fonctionnalités des éléments constituant l’interface.
 
@@ -42,9 +45,9 @@ Cette rubrique décrit les éléments de l’interface utilisateur utilisée dan
 
 Un *onglet* représente une sélection effectuée sur la page qui ouvre un autre aspect d’un enregistrement sur la même page. Souvent, il vous permet de modifier certain *champs*, ou des éléments de l’interface utilisateur qui permettent l’entrée saisie. 
 
-Un *organisateur* est un onglet qui permet de voir plusieurs onglets à la fois. Vous pouvez développer un organisateur en sélectionnant la flèche vers le bas à l’extrémité droite de celui-ci.
+Un *Raccourci* est un onglet qui permet de voir plusieurs onglets à la fois. Vous pouvez développer un raccourci en sélectionnant la flèche vers le bas à l’extrémité droite de celui-ci.
 
-![Le schéma suivant présente un exemple des onglets et des organisateurs.](media/user-interface-02.png)
+![Le schéma suivant présente un exemple des onglets et des raccourcis.](media/user-interface-02.png)
 
 Une *section* est similaire à un onglet. Le mot « section » est souvent utilisé pour décrire toute zone d’une page qui organise une catégorie spécifique d’informations. Sur l’illustration suivante, le résumé, les commandes et les favoris, sans oublier les liens, constituent des exemples de sections.
 

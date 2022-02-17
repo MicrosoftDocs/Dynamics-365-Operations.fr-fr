@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a90daf02862b9c6e5415999a491d54d841d8f5f9a236b9cc472112145c50e6d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1249b29031c3c7b7eb8bcbeee91895d1085b9bd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739272"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066116"
 ---
 # <a name="generate-payroll-entities"></a>Générer les entités de paie
 
-Utilisez cette fonction OData pour générer les entités nécessaires à l'intégration de la paie. Si des modifications sont apportées à ces entités dans Human Resources, telles que l'ajout de champs personnalisés, cette fonction peut être appelée à nouveau pour actualiser les métadonnées de chaque entité. La réponse contient un ID d'opération que vous pouvez surveiller afin de savoir quand le processus de génération est terminé.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+Utilisez cette fonction OData pour générer les entités nécessaires à l’intégration de la paie. Si des modifications sont apportées à ces entités dans Human Resources, telles que l’ajout de champs personnalisés, cette fonction peut être appelée à nouveau pour actualiser les métadonnées de chaque entité. La réponse contient un ID d’opération que vous pouvez surveiller afin de savoir quand le processus de génération est terminé.
 
 **Demande**
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777592"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022972"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
@@ -39,10 +39,10 @@ Les fournisseurs peuvent également surveiller les informations sur le stock de 
 
 L’espace de travail **Confirmation de la commande fournisseur** vous permet de répondre aux commandes fournisseur (CF) qui vous ont été envoyées pour révision. Il permet également d’afficher des informations sur les CF en attente d’une action du client et les CF qui ont été confirmées, mais qui sont toujours en cours.
 
-Il existe trois listes dans l’espace de travail **Confirmation de commande fournisseur** :
+Il existe trois listes dans l’espace de travail **Confirmation de commande fournisseur** :
 
 - **Commandes fournisseur pour examen** – Cette liste affiche les CF qui vous ont été soumises et qui sont en attente d’une réponse de votre part. Lorsque vous répondez, la CF disparaît de la liste. Si le client vous envoie une nouvelle version de la CF avant que vous ayez répondu à la précédente version, seule la dernière version s’affiche.
-- **En attente d’une action du client** - Cette liste affiche toutes les CF auxquelles vous avez répondu, mais qui n’ont pas encore été confirmées par le client. Si vous acceptez une CF, vous pouvez la surveiller dans cette liste jusqu’à ce que son statut passe à **Confirmé**. Si vous refusez une CF ou que vous l’acceptez avec des modifications, vous pouvez la surveiller ici jusqu’à ce que le client envoie une nouvelle version.
+- **En attente d’une action du client** – Cette liste affiche toutes les CF auxquelles vous avez répondu, mais qui n’ont pas encore été confirmées par le client. Si vous acceptez une CF, vous pouvez la surveiller dans cette liste jusqu’à ce que son statut passe à **Confirmé**. Si vous refusez une CF ou que vous l’acceptez avec des modifications, vous pouvez la surveiller ici jusqu’à ce que le client envoie une nouvelle version.
 - **Commandes fournisseur confirmées en cours** – Cette liste affiche toutes les CF de votre compte ayant le statut **Confirmé**. Lorsque des produits ou services sont entièrement reçus par rapport à la CF, la CF disparaît de la liste.
 
 Les pages suivantes permettent d’utiliser les CF :
@@ -72,13 +72,13 @@ Si le client vous envoie une nouvelle version d’une CF, celle-ci a un suffixe 
 
 Si vous utilisez le stock de consignation, vous pouvez utiliser l’interface de collaboration fournisseur pour afficher les informations sur les pages suivantes :
 
-- **Commandes fournisseur consommant le stock de consignation** - Les CF pour le stock de consignation sont générées lorsqu’un client prend la propriété du stock. Ces CF de consignation ne sont affichées que sur cette page. Elles ne sont pas incluses sur la page **Toutes les commandes fournisseur confirmées**.
+- **Commandes fournisseur consommant le stock de consignation** – Les CF pour le stock de consignation sont générées lorsqu’un client prend la propriété du stock. Ces CF de consignation ne sont affichées que sur cette page. Elles ne sont pas incluses sur la page **Toutes les commandes fournisseur confirmées**.
 - **Produits reçus du stock de consignation** – Cette page affiche la liste de toutes les transactions dont la propriété des produits a été transférée à la société qui consomme le stock. Ces informations vous permettent de facturer le client.
 - **Stock de consignation disponible** – Cette page affiche le stock de consignation disponible appartenant à votre société, mais qui est disponible dans l’entrepôt du client.
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Utilisation des appels d’offre dans l’espace de travail Offre du fournisseur
 
-L’espace de travail **Offre du fournisseur** permet d’afficher les appels d’offre auxquels votre société a été invitée à répondre. Vous pouvez également répondre aux appels d’offre. 
+L’espace de travail **Offre du fournisseur** permet d’afficher les appels d’offre auxquels votre société a été invitée à répondre. Vous pouvez également répondre aux appels d’offre.
 
 L’espace de travail affiche également tous les appels d’offre que vous avez perdus ou gagnés. En outre, si le système est configuré pour le secteur public, l’espace de travail affiche les appels d’offre qui sont accessibles au public.
 
@@ -100,9 +100,17 @@ Les personnes qui travaillent dans le secteur public peuvent afficher les appels
 
 - Sélectionnez le lien **Appels d’offre publiés en cours** pour afficher la liste des appels d’offre en cours qui sont accessibles au public. Un appel d’offre en cours est un appel d’offre qui n’a pas encore expiré. Vous pouvez rechercher la date et l’heure d’expiration sur l’en-tête de l’appel d’offre.
 
-    Si vous avez été invité pour faire une offre, vous pouvez rechercher le même appel d’offre sur la page **Nouvelles invitations à une offre**. Vous souhaitez parfois faire une offre pour un appel d’offre en cours, mais vous n’y avez pas été invité. Dans ce cas, vous pouvez vous inviter vous-même, à condition que le client ait activé l’auto-invitation pour le dossier d’appel d’offre.
+    Si vous avez été invité pour faire une offre, vous pouvez rechercher le même appel d’offre sur la page **Nouvelles invitations à une offre**. Vous souhaitez parfois faire une offre pour un appel d’offre en cours, mais vous n’y avez pas été invité. Dans ce cas, vous pouvez vous inviter vous-même, à condition que le client ait activé l’auto-invitation pour le dossier d’appel d’offre. 
 
-    Améliorer l’accessibilité du lien **Ouvrir les appels d’offre publiés** en activant la fonctionnalité **Afficher le lien "Ouvrir les appels d’offre publiés" sous forme de vignette**. Cette fonctionnalité convertit le lien en vignette et le déplace vers un emplacement bien en vue, afin qu’il soit facile à trouver. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+    La page **Nouvelles invitations à un appel d’offres** peut fournir un filtre qui vous permet d’afficher les appels d’offres ouverts et d’identifier ceux qui contiennent des lignes correspondant à vos catégories d’approvisionnement approuvées. Pour rendre ce filtre disponible, vous devez activer la fonctionnalité *Permettre aux fournisseurs de rechercher des appels d’offres par catégorie d’approvisionnement* de votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de cette fonctionnalité et l’activer si nécessaire. À cet emplacement, la fonctionnalité est répertoriée de la manière suivante :
+
+    - **Module :** *Comptabilité fournisseur*
+    - **Nom de la fonctionnalité :** *Permettre aux fournisseurs de rechercher des appels d’offres par catégorie d’approvisionnement* <!-- KFM: I don't see this here, is this right? -->
+
+    Vous pouvez améliorer l’accessibilité du lien **Ouvrir les appels d’offre publiés** en activant la fonctionnalité *Afficher le lien "Ouvrir les appels d’offre publiés" sous forme de vignette*. Cette fonctionnalité convertit le lien en vignette et le déplace vers un emplacement bien en vue, afin qu’il soit facile à trouver. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de cette fonctionnalité et l’activer si nécessaire. (À partir de la version 10.0.21 de Supply Chain Management, la fonctionnalité est activée par défaut.) Là, la fonctionnalité est répertoriée de la manière suivante :
+
+    - **Module :** *Approvisionnements*
+    - **Nom de la fonctionnalité :** *Afficher le lien « Ouvrir les appels d’offres publiés » sous forme de vignette*
 
 - Sélectionnez le lien **Appels d’offre publiés clôturés** pour afficher la liste des appels d’offre clôturés qui sont accessibles au public. Un appel d’offre clôturé est un appel d’offre qui a expiré. Vous pouvez rechercher la date et l’heure d’expiration sur l’en-tête de l’appel d’offre.
 

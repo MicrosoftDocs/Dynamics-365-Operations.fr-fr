@@ -14,24 +14,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413374"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071108"
 ---
 # <a name="integration-with-finance-faq"></a>Intégration avec Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique répond aux questions fréquentes associées aux données synchronisées lorsque Dynamics 365 Human Resources est intégré à Dynamics 365 Finance.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Puis-je modifier l’utilisateur de l’application Dynamics 365 Talent dans Power Apps ?
 
-N° Si vous modifiez l’utilisateur de l’application Human Resources, l’intégration entre Human Resources et Dataverse pourrait échouer. Le tableau suivant présente les paramètres par défaut de l’utilisateur de l’application Talent.
+Non Si vous modifiez l’utilisateur de l’application Human Resources, l’intégration entre Human Resources et Dataverse pourrait échouer. Le tableau suivant présente les paramètres par défaut de l’utilisateur de l’application Talent.
 
 | Nom complet | ID candidature | ID objet Azure AD | URI ID application |
 | --- | --- | --- | --- |
@@ -55,7 +58,7 @@ Les modèles sont le point de départ. Vous pouvez créer votre propre modèle, 
 
 Les dimensions financières ne sont actuellement pas dans Dataverse pour les applications et, par conséquent, ne font pas partie du modèle par défaut. Cette entité est prévue, mais actuellement, aucun calendrier de publication n’est disponible.
 
-Pour les données résidant dans Finance and Operations, mais qui n’existent pas dans Human Resources, associez les deux systèmes en utilisant **Configurer les liens** dans Human Resources.
+Pour les données résidant dans Finances et Opérations, mais qui n’existent pas dans Human Resources, associez les deux systèmes en utilisant **Configurer les liens** dans Human Resources.
 
 ![Mettre en correspondance les dimensions financières.](media/MapFinancialDimensions.png)
 
@@ -86,7 +89,7 @@ Aucune configuration spéciale n’est requise pour le traitement des exceptions
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Puis-je définir une intégration bi-directionnelle ?
 
-Non, l’intégration est actuellement à sens unique (Human Resources vers Finance and Operations). Un modèle par défaut est disponible pour envoyer les données depuis Human Resources vers Finance.
+Non, l’intégration est actuellement unidirectionnelle (Ressources humaines vers Finances et Opérations). Un modèle par défaut est disponible pour envoyer les données depuis Human Resources vers Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Puis-je autoriser la suppression d’enregistrements dans le cadre de mon intégration ?
 
@@ -116,7 +119,7 @@ Parmi les causes de cette erreur peuvent figurer :
 
 - Le transfert des données a généré une extraction des doublons au niveau des enregistrements à la source (Dataverse).
 
-- Le transfert des données a des valeurs nulles pour les champs requis dans Finance and Operations. Vérifiez les données qui se trouvent dans Dataverse et qui répondent aux exigences de Finance and Operations.
+- Le transfert des données a des valeurs nulles pour les champs requis dans Finances et Opérations. Vérifiez les données qui se trouvent dans Dataverse et qui répondent aux exigences de Finances et Opérations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>S’il existe des erreurs d’exécution et si l’ID d’employé ne s’est pas synchronisé, comment trouver la tâche de l’historique qui affiche l’enregistrement d’employé échoué ?
 
@@ -148,9 +151,9 @@ Si l’entité est prise en charge et si les données sont disponibles dans Data
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Les adresses pour mes employés sont incorrectes après leur importation dans Finance. Que dois-je faire ?
 
-La souche de numéros pour **ID emplacement** utilise le même modèle dans Human Resources et Finance. La souche de numéros doit être unique des deux côtés afin qu’il n’y ait pas de conflit d’adresses lors de l’intégration des données de Dataverse vers Finance and Operations.
+La souche de numéros pour **ID emplacement** utilise le même modèle dans Human Resources et Finance. La souche de numéros doit être unique des deux côtés afin qu’il n’y ait pas de conflit d’adresses lors de l’intégration des données de Dataverse vers Finances et Opérations.
 
-Pendant la mise en place de Human Resources, vérifiez que les souches de numéros ne sont pas identiques dans Human Resources et Finance and Operations. Vérifiez que toutes les souches de numéros ne sont pas identiques lorsque les données doivent être conservées dans les deux systèmes.
+Pendant la mise en place de Human Resources, vérifiez que les souches de numéros ne sont pas identiques dans Human Resources et Finances et Opérations. Vérifiez que toutes les souches de numéros ne sont pas identiques lorsque les données doivent être conservées dans les deux systèmes.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Lors de la création de mon ensemble de connexions, la connexion n’apparaît pas dans la liste déroulante Connexion. Que puis-je faire ?
 

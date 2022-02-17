@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738147"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087368"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -138,7 +138,6 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 - Les produits en poids variable, dont la variable est active, ne peuvent pas être utilisés avec la fonctionnalité pour convertir les unités de mesure variables.
 - Les produits en poids variable ne peuvent pas être marqués comme « kit de produits » Commerce.
 - Les produits en poids variable peuvent être utilisés uniquement avec un groupe de séquences d’unités ayant des unités de traitement en poids variable et dont l’unité en poids variable est la séquence la plus basse.
-- Pour les produits en poids variable, l’unité de stock peut être convertie en unité en poids variable uniquement si la conversion produit une quantité nominale supérieure à 1.
 - La configuration des codes-barres pour les produits en poids variable ne prend pas en charge une configuration en poids variable.
 
 ### <a name="order-processing"></a>Traitement des commandes
