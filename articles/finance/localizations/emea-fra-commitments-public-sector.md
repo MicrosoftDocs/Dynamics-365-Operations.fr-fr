@@ -2,25 +2,28 @@
 title: Engagements dans le secteur public en France
 description: Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France. Ils permettent de réserver des montants budgétés afin qu’une organisation puisse explicitement suivre des réservations budgétaires à des fins de gestion et de déclaration tout au long du cycle des dépenses.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration, PurchAgreement, PurchCommitment_PSN, PurchTable
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 19531
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78aee73e2e819f292ce10df575c3eb070d923efc11c1d7e479000712333dd2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c88c75160ab74a5e7a0d91b67ce04121f9313ce5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721712"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407953"
 ---
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
@@ -70,12 +73,10 @@ Les engagements doivent être clôturés manuellement.
 
 **Important** : lorsque vous sélectionnez les engagements que vous souhaitez clôturer, vérifiez de ne pas sélectionner les engagements que vous avez déjà créés pour le nouvel exercice. La clôture d’une ligne d’engagement ne peut pas être contrepassée. Si vous clôturez accidentellement une ligne d’engagement, vous devez créer un autre engagement pour restaurer la réservation budgétaire. Pour en savoir plus sur le processus de fin d’exercice, voir [Traitement de fin d’exercice dans le secteur public](../public-sector/year-end-processing-public-sector.md).
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
 [Comptabilité du secteur public en France](emea-fra-public-sector-accounting.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

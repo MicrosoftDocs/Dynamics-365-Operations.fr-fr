@@ -1,33 +1,36 @@
 ---
 title: Hiérarchies financières dérivées dans le secteur public
-description: Cette rubrique décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public.
-author: v-kiarnd
+description: Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategory, EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyRole, LedgerDerivedFinHierarchies, LedgerDerivedFinHierarchyFilterResults, LedgerDerivedFinHierarchyLegalEntities
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 20911
 ms.assetid: a1b30d2a-a370-402a-b3bd-d562adca55f0
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5c32819f9067a97d9dddbe04a015a3470f9143b
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: c82bc9bd06ebe681a251dbabd367103c93b6d2ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407918"
 ---
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
+Cet article décrit la fonctionnalité des hiérarchies financières dérivées disponible pour le secteur public. 
 
 Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d’analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. 
 
@@ -47,6 +50,3 @@ Une organisation a un programme de bien-être des employés et un programme de f
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Opération de stock entrant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
 author: hhaines
+manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741780"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412295"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -70,7 +73,7 @@ Les traitements par lots que vous créez seront utilisés pour traiter les docum
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Condition préalable : ajouter une opération entrante à la mise en page de l’écran du PDV
 
-Avant que votre organisation puisse utiliser la fonctionnalité Opération entrante, elle doit configurer l’opération PDV **Opération entrante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
+Avant que votre organisation puisse utiliser la fonctionnalité Opération entrante, elle doit configurer l’opération PDV **Opération entrante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -133,15 +136,15 @@ La réception excessive n’est pas autorisée pour les documents d’ordre de t
 
 ### <a name="close-purchase-order-lines"></a>Fermer des lignes de commandes fournisseur
 
-Vous pouvez clôturer la quantité restante sur une commande d’achat entrante pendant le processus de réception si l’expéditeur a confirmé qu’il ne peut pas expédier la quantité totale demandée. Pour ce faire, la société doit être configurée pour autoriser les livraisons incomplètes des commandes fournisseur. De plus, un pourcentage de tolérance de livraison incomplète doit être défini pour la ligne de commande fournisseur.
+Vous pouvez clôturer la quantité restante sur une commande d'achat entrante pendant le processus de réception si l'expéditeur a confirmé qu'il ne peut pas expédier la quantité totale demandée. Pour ce faire, la société doit être configurée pour autoriser les livraisons incomplètes des commandes fournisseur. De plus, un pourcentage de tolérance de livraison incomplète doit être défini pour la ligne de commande fournisseur.
 
-Pour configurer l’entreprise afin qu’elle autorise la livraison incomplète des commandes fournisseur, au siège de Commerce, accédez à **Approvisionnements** > **Configuration** > **Paramètres d’approvisionnement**. Dans l’onglet **Livraison**, activez le paramètre **Accepter les livraisons incomplètes**. Exécutez ensuite la tâche de programme de distribution **1070** (**Configuration de canal**) pour synchroniser les modifications du paramètre entre les canaux.
+Pour configurer l'entreprise afin qu'elle autorise la livraison incomplète des commandes fournisseur, au siège de Commerce, accédez à **Approvisionnements** > **Configuration** > **Paramètres d'approvisionnement**. Dans l'onglet **Livraison**, activez le paramètre **Accepter les livraisons incomplètes**. Exécutez ensuite la tâche de programme de distribution **1070** (**Configuration de canal**) pour synchroniser les modifications du paramètre entre les canaux.
 
 Les pourcentages de tolérance de livraison incomplète pour une ligne de commande fournisseur peuvent être prédéfinis sur les produits dans le cadre des configurations de produit au siège de Commerce. Ils peuvent également être définis ou remplacés sur une ligne de commande fournisseur spécifique au siège de Commerce.
 
-Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l’**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d’erreur s’affiche et l’utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
+Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l'**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d'erreur s'affiche et l'utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
 
-Quand l’option **Clôturer la quantité restante** est activée pour une ligne de commande fournisseur, lorsque l’utilisateur achève la réception à l’aide de l’action **Terminer la réception**, une demande de clôture est également envoyée au siège de Commerce, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
+Quand l'option **Clôturer la quantité restante** est activée pour une ligne de commande fournisseur, lorsque l'utilisateur achève la réception à l'aide de l'action **Terminer la réception**, une demande de clôture est également envoyée au siège de Commerce, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
 
 ### <a name="receiving-location-controlled-items"></a>Articles contrôlés par l’emplacement de réception
 
@@ -159,9 +162,9 @@ Dans Commerce version 10.0.14 et ultérieure, les utilisateurs peuvent recevoir
 
 Cette fonctionnalité ne fonctionne que pour la réception des commandes fournisseur. Il n’est pas possible de recevoir des articles avec des ordres de transfert lorsque les articles n’ont pas été précédemment commandés et expédiés depuis l’entrepôt sortant.
 
-Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande fournisseur lors de la réception au point de vente si le [workflow de gestion de modification](../supply-chain/procurement/purchase-order-approval-confirmation.md) de la commande fournisseur est activé au siège de Commerce. Pour activer la gestion des modifications, toutes les modifications apportées à une la commande fournisseur doivent d’abord être approuvées avant que la réception ne soit autorisée. Étant donné que ce processus permet à un destinataire d’ajouter de nouvelles lignes à la commande fournisseur, la réception échouera si le workflow de gestion des modifications est activé. Si la gestion des modifications est activée pour toutes les la commandes fournisseur ou pour le fournisseur lié à la la commande fournisseur en cours de réception active dans le PDV, l’utilisateur ne peut pas ajouter de nouveaux produits à la la commande fournisseur lors de la réception au PDV.
+Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande fournisseur lors de la réception au point de vente si le [workflow de gestion de modification](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) de la commande fournisseur est activé au siège de Commerce. Pour activer la gestion des modifications, toutes les modifications apportées à une la commande fournisseur doivent d’abord être approuvées avant que la réception ne soit autorisée. Étant donné que ce processus permet à un destinataire d’ajouter de nouvelles lignes à la commande fournisseur, la réception échouera si le workflow de gestion des modifications est activé. Si la gestion des modifications est activée pour toutes les la commandes fournisseur ou pour le fournisseur lié à la la commande fournisseur en cours de réception active dans le PDV, l’utilisateur ne peut pas ajouter de nouveaux produits à la la commande fournisseur lors de la réception au PDV.
 
-La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
+La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
 
 Si **Ajouter des lignes à la commande fournisseur lors de la réception au point de vente** est activé et qu’un utilisateur effectue la réception avec l’**Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui n’est pas reconnu comme un article de la commande fournisseur en cours, mais est reconnu comme un article valide, l’utilisateur reçoit un message concernant l’ajout de l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
 
@@ -218,6 +221,3 @@ Une fois le document à l’état **Demandé(e)**, il est visible dans l’ongle
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Opération de stock sortant dans le PDV](pos-outbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

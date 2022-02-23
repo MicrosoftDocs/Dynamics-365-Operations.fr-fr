@@ -1,40 +1,41 @@
 ---
 title: Nouveautés et modifications dans Dynamics 365 Human Resources (3 avril 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 avril 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f5f52b2e6bf646f6dd53acfd2928682e84e78fb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063566"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526784"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Nouveautés et modifications dans Dynamics 365 Human Resources (3 avril 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3111. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.
 
 ## <a name="features-that-are-generally-available-the-week-of-april-6"></a>Fonctionnalités généralement disponibles la semaine du 6 avril
 
-- **Fonctionnalités Congés et absences** – Pour en savoir plus, voir [Vue d’ensemble des congés et absences](hr-leave-and-absence-overview.md).
+- **Fonctionnalités Congés et absences** - Pour en savoir plus, voir [Vue d’ensemble des congés et absences](hr-leave-and-absence-overview.md).
 
-- **Fonctionnalités de la gestion des avantages** – Pour en savoir plus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonctionnalités de la gestion des avantages** - Pour en savoir plus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="human-resources-environment-limits-are-now-based-on-updated-licensing-394595"></a>Les limites de l’environnement Human Resources sont désormais basées sur la mise à jour des licences (394595)
 
@@ -63,7 +64,7 @@ Les entités suivantes sont maintenant disponibles. Si vous ne voyez pas ces ent
  - Niveau de plan de congé et d’absence V2
  - Plan de congé et d’absence V2
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>La solution Dataverse est désormais disponible avec les modifications suivantes :
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solution Common Data Service est désormais disponible avec les modifications suivantes :
 
 | Description | Monnaie |
 | --- | --- |
@@ -75,18 +76,18 @@ Les entités suivantes sont maintenant disponibles. Si vous ne voyez pas ces ent
 | Nouvelles entités de configuration de la rémunération variable | <ul><li>**Type de régime variable de rémunération**</li><li>**Régime variable de rémunération**</li><li>**Règles d’acquisition**</li><li>**Niveau de régime variable de rémunération**</li></ul> |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | <ul><li>**Entité de calendrier de travail** ajoutée</li></ul> |
 | Nouvelle entité **Détails du poste de paie** | <ul><li>**Détails du poste de paie** ajoutés</li></ul> |
-| Nouvelle entité **Titre** | <ul><li>**Titre** ajouté</li></ul>La nouvelle entité **Titre** est incluse dans Dataverse, mais n’est pas référencée depuis les entités **Poste** ou **Tâche** à ce moment même. |
+| Nouvelle entité **Titre** | <ul><li>**Titre** ajouté</li></ul>La nouvelle entité **Titre** est incluse dans Common Data Service, mais n’est pas référencée depuis les entités **Poste** ou **Tâche** à ce moment même. |
 
 > [!NOTE]
-> Les dimensions financières des postes et de l’emploi offrent une intégration à sens unique pour les mises à jour des ressources humaines vers Dataverse. Les mises à jour des dimensions financières ne sont actuellement pas synchronisées à partir de Dataverse vers les ressources humaines.
+> Les dimensions financières des postes et de l’emploi offrent une intégration à sens unique pour les mises à jour des ressources humaines vers Common Data Service. Les mises à jour des dimensions financières ne sont actuellement pas synchronisées à partir de Common Data Service vers les ressources humaines.
 
-Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Dataverse pour les ressources humaines :
+Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Common Data Service pour les ressources humaines :
 
 1.  Accédez au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Sélectionner **Environnements**.
 
-3.  Recherchez l’environnement que vous souhaitez mettre à niveau. L’environnement doit correspondre à **Nom de l’environnement** dans la section **Informations relatives à Dataverse** dans le formulaire **À propos de** dans Human Resources.
+3.  Recherchez l’environnement que vous souhaitez mettre à niveau. L’environnement doit correspondre à **Nom de l’environnement** dans la section **Informations relatives à Common Data Service** dans le formulaire **À propos de** dans Human Resources.
 
 4.  Sélectionnez l’environnement pour afficher les détails de l’environnement.
 
@@ -133,8 +134,6 @@ Si l’aperçu du document pour les documents stockés dans SharePoint ne foncti
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

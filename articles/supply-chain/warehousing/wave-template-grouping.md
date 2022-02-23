@@ -2,23 +2,26 @@
 title: Regroupement de modèles de vague
 description: Le regroupement de modèles de vagues permet au système d’utiliser des configurations de modèles de vagues afin de déterminer, en fonction des critères que vous définissez, comment il doit fractionner les lignes libérées et les affecter à des vagues nouvelles ou existantes. Cette fonctionnalité peut être utile dans les entrepôts où des vagues sont créées en fonction de critères spécifiques, mais où les gestionnaires préfèrent créer des vagues automatiquement plutôt que manuellement.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579902"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4428298"
 ---
 # <a name="wave-template-grouping"></a>Regroupement de modèles de vague
 
@@ -31,7 +34,7 @@ Le regroupement de modèles de vagues permet au système d’utiliser des config
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Activer la fonctionnalité de regroupement de modèles de vagues
 
-Avant de pouvoir utiliser la fonctionnalité *Regroupement de modèles de vagues*, celle-ci doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Regroupement de modèles de vagues*, celle-ci doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Regroupement de modèles de vagues*
@@ -43,7 +46,7 @@ Pour rendre le regroupement de modèles de vagues disponible, procédez comme su
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 1. Dans le volet gauche, sélectionnez le modèle de vague à configurer. Si vous vous apprêtez à exécuter le scénario plus loin dans cette rubrique à l’aide de données de démonstration, sélectionnez le modèle **62 Expédition par défaut**.
 1. Sélectionnez **Modifier** pour afficher la page en mode d’édition.
-1. Dans l’organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
 
     - **Automatiser la création de vague :** *Oui*
     - **Attribuer aux vagues ouvertes :** *Oui*
@@ -113,7 +116,7 @@ Avant de commencer, préparez votre modèle de vague comme décrit dans la secti
 1. Sélectionnez la nouvelle ligne de commande, puis, sur le menu **Stock** au-dessus de la grille, sélectionnez **Réservation**.
 1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la quantité totale de la ligne sélectionnée dans l’entrepôt.
 1. Fermez la page **Réservation** pour revenir à la commande client.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l'entrepôt**.
 1. Vous recevez un message d’information indiquant l’expédition et la vague de cette commande. Notez le numéro d’identification de la vague et les numéros d’identification d’expédition.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>Afficher la vague créée à partir de la commande client 1
@@ -150,7 +153,7 @@ Avant de commencer, préparez votre modèle de vague comme décrit dans la secti
 1. Sélectionnez la nouvelle ligne de commande, puis, sur le menu **Stock** au-dessus de la grille, sélectionnez **Réservation**.
 1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la quantité totale de la ligne sélectionnée dans l’entrepôt.
 1. Fermez la page **Réservation** pour revenir à la commande client.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l'entrepôt**.
 1. Vous recevez un message d’information indiquant l’expédition et la vague de cette commande. Notez le numéro d’identification de la vague et les numéros d’identification d’expédition. Notez que l’ID de vague diffère de l’ID de vague de la première commande client.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>Afficher la vague créée à partir de la commande client 2
@@ -189,7 +192,7 @@ Une vague a été créée pour cette expédition, car elle utilise un service de
 1. Sélectionnez la nouvelle ligne de commande, puis, sur le menu **Stock** au-dessus de la grille, sélectionnez **Réservation**.
 1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la quantité totale de la ligne sélectionnée dans l’entrepôt.
 1. Fermez la page **Réservation** pour revenir à la commande client.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l'entrepôt**.
 1. Vous recevez un message d’information indiquant l’expédition et la vague de cette commande. Notez le numéro d’identification de la vague et les numéros d’identification d’expédition. L’expédition a été affectée à la vague existante à partir de la première commande client.
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>Afficher la vague des commandes client 1 et 3
@@ -198,6 +201,3 @@ Une vague a été créée pour cette expédition, car elle utilise un service de
 1. Sélectionnez l’ID de vague à partir duquel la troisième commande client a été créée.
 1. Sélectionnez le lien d’ID de vague pour ouvrir la page de détails de la vague.
 1. Notez que l’expédition a été ajoutée à l’organisateur **Lignes de la vague**, ainsi que l’expédition de la première commande client.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

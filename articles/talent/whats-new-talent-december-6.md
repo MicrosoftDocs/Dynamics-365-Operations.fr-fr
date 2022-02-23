@@ -143,6 +143,3 @@ Les mises en correspondance mises à jour doivent ressembler à ce qui suit.
 
 ![Transformation du champ Sexe](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

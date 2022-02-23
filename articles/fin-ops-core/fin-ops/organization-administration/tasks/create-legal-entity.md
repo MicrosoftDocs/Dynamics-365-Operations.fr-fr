@@ -2,9 +2,11 @@
 title: Créer une entité juridique
 description: Une entité juridique est une organisation identifiée par son enregistrement auprès d’une autorité juridique.
 author: sericks007
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d665c5e6f359ad51b2e247ac487c9e4cf23a85e90e91aae2bc9d3bb5cbb9e091
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759039"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796752"
 ---
 # <a name="create-a-legal-entity"></a>Créer une entité juridique
 
@@ -43,6 +45,3 @@ Une entité juridique est une organisation identifiée par son enregistrement au
 15. Développez la section **Immatriculation fiscale**. Dans la section **Immatriculation fiscale**, entrez les numéros d’enregistrement utilisés pour les déclarations aux administrations fiscales.
 16. Développez la section **Taxe sur les honoraires**. Dans la section **Taxe sur les honoraires**, entrez les informations de déclaration des honoraires associées à l’entité juridique.  
 17. Cliquez sur **Enregistrer**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

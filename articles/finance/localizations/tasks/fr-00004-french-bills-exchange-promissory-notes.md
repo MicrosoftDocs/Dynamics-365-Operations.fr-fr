@@ -2,23 +2,26 @@
 title: FR-00004 Effets de commerce et billets à ordre français
 description: L’état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustVendPaymFormat
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 597d90f741828aa80a5cc7340e44d6b4ef7c86e8d8d0f0d966c0626350f4cd18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 613e735808a21bd1b4e75050ea6939b94db33a2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725971"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407963"
 ---
 # <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a>FR-00004 Effets de commerce et billets à ordre français
 
@@ -62,6 +65,3 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
 20. Cliquez sur OK.
     * Vous pouvez être invité à entrer une date de traitement.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

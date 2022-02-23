@@ -1,27 +1,30 @@
 ---
 title: Synchroniser les en-têtes et les lignes de facture client directement entre le module Supply Chain Management et Sales
 description: Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les en-têtes et les lignes de facture directement depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Sales.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571639"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427763"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Synchroniser les en-têtes et les lignes de facture client directement entre Finance and Operations et Sales
 
@@ -31,18 +34,18 @@ Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pou
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
-La solution Prospect en disponibilités utilise la fonction d’intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d’intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L’illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
+La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
-[![Flux de données dans Prospect en disponibilités.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
-Pour accéder à des modèles disponibles, ouvrez [Centre d’administrateur Power Apps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
+Pour accéder à des modèles disponibles, ouvrez [Centre d'administrateur Power Apps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
 
 Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les en-têtes et lignes de facture entre Supply Chain Management et Sales :
 
-- **Nom du modèle dans l’intégration des données :** Factures client (entre Fin and Ops et Sales) - Direct
-- **Noms des tâches dans le projet d’intégration de données :**
+- **Nom du modèle dans l'intégration des données :** Factures client (entre Fin and Ops et Sales) - Direct
+- **Noms des tâches dans le projet d'intégration de données :**
 
     - SalesInvoiceHeader
     - SalesInvoiceLine
@@ -54,23 +57,23 @@ Les tâches suivantes de synchronisation sont requises avant que la synchronisat
 - Contacts (Sales vers Supply Chain Management) - Direct (si utilisé)
 - En-têtes et lignes de commande client (Supply Chain Management vers Sales) - Direct
 
-## <a name="entity-set"></a>Ensemble d’entités
+## <a name="entity-set"></a>Ensemble d'entités
 
-| Gestion de la chaîne d’approvisionnement                              | Ventes          |
+| Gestion de la chaîne d'approvisionnement                              | Ventes          |
 |------------------------------------------------------|----------------|
 | En-têtes de facture de vente client gérée en externe | Factures       |
 | Lignes de facture de vente client gérée en externe   | InvoiceDetails |
 
-## <a name="entity-flow"></a>Flux d’entité
+## <a name="entity-flow"></a>Flux d'entité
 
 Les factures sont créées dans Supply Chain Management et synchronisées vers Sales.
 
 > [!NOTE]
-> Actuellement, la taxe associée aux frais dans l’en-tête de facture client n’est pas incluse dans la synchronisation entre Supply Chain Management et Sales. Sales ne prend pas en charge les informations fiscales au niveau de l’en-tête. Toutefois, la taxe associée aux frais au niveau de la ligne est incluse dans la synchronisation.
+> Actuellement, la taxe associée aux frais dans l'en-tête de facture client n'est pas incluse dans la synchronisation entre Supply Chain Management et Sales. Sales ne prend pas en charge les informations fiscales au niveau de l'en-tête. Toutefois, la taxe associée aux frais au niveau de la ligne est incluse dans la synchronisation.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect pour une solution de disponibilités pour Sales
 
-- Un champ **Numéro de facture** a été ajouté à l’entité **Facture** et apparaît sur la page.
+- Un champ **Numéro de facture** a été ajouté à l'entité **Facture** et apparaît sur la page.
 - Le bouton **Créer une facture** sur la page **Commande client** est masqué car les factures sont créées dans Supply Chain Management et synchronisées avec Sales. La page **Facture** ne peut pas être modifiée car les factures sont synchronisées à partir de Supply Chain Management.
 - La valeur **Statut de la commande client** passe automatiquement à **Facturé** lorsque la facture concernée dans Supply Chain Management a été synchronisée avec Sales. En outre, le propriétaire de la commande client pour laquelle la facture a été créée est désigné propriétaire de la facture. Par conséquent, le propriétaire de la commande client peut afficher la facture.
 
@@ -82,10 +85,10 @@ Avant de synchroniser les factures client, il est important de mettre les systè
 
 Allez dans **Paramètres** > **Administration** > **Paramètres système** > **Sales**, et assurez-vous que les paramètres suivants sont utilisés :
 
-- L’option **Utiliser le système de calcul du prix du système** est définie **Oui**.
+- L'option **Utiliser le système de calcul du prix du système** est définie **Oui**.
 - Le champ **Mode de calcul de remise** est défini sur **Ligne article**.
 
-### <a name="setup-in-the-data-integration-project"></a>Paramétrage du projet d’intégration des données
+### <a name="setup-in-the-data-integration-project"></a>Paramétrage du projet d'intégration des données
 
 #### <a name="salesinvoiceheader-task"></a>Tâche SalesInvoiceHeader
 
@@ -104,23 +107,23 @@ Allez dans **Paramètres** > **Administration** > **Paramètres système** > **S
 
     Une valeur de modèle ayant une mise en correspondance des valeurs est définie pour **SalesUnitSymbol** sur **Quantité\_UOM**.
 
-## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l’intégration de données
+## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
 > [!NOTE]
-> Les champs **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d’expédition** et **Mode de distribution** ne sont pas inclus dans les mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l’entité est synchronisée.
+> Les champs **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d'expédition** et **Mode de distribution** ne sont pas inclus dans les mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l'entité est synchronisée.
 
-Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l’intégration de données. 
+Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégration de données. 
 
 > [!NOTE]
 > La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Supply Chain Management.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Mappage de modèles dans Intégration de données pour SalesInvoiceHeader.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Mise en correspondance de modèles dans l'intégration de données](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Mappage de modèles dans Intégration de données pour SalesInvoiceLine.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Mise en correspondance de modèles dans l'intégration de données](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
@@ -135,6 +138,3 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management](contacts-template-mapping-direct.md)
 
 [Synchronisation des commandes client directement entre Sales et Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

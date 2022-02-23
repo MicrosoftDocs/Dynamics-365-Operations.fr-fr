@@ -1,41 +1,42 @@
 ---
-title: Paramétrer un profil de vue d’ensemble des arrivées
-description: Cette rubrique se concentre sur le paramétrage d’un profil de vue d’ensemble des arrivées.
-author: yufeihuang
+title: Paramétrer un profil de vue d'ensemble des arrivées
+description: Cette rubrique se concentre sur le paramétrage d'un profil de vue d'ensemble des arrivées.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961427"
 ---
-# <a name="set-up-an-item-arrival-overview-profile"></a>Paramétrer un profil de vue d’ensemble des arrivées
+# <a name="set-up-an-item-arrival-overview-profile"></a>Paramétrer un profil de vue d'ensemble des arrivées
 
-[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
-Cette rubrique se concentre sur le paramétrage d’un profil de vue d’ensemble des arrivées. Le profil de vue d’ensemble des arrivées est une collection de règles qui sont appliquées lorsque la page de vue d’ensemble des arrivées est ouverte par un utilisateur. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette procédure est généralement effectuée par la personne qui s’occuper de la réception.
+Cette rubrique se concentre sur le paramétrage d'un profil de vue d'ensemble des arrivées. Le profil de vue d'ensemble des arrivées est une collection de règles qui sont appliquées lorsque la page de vue d'ensemble des arrivées est ouverte par un utilisateur. Vous pouvez utiliser cette procédure dans les données fictives de la société USMF. Cette procédure est généralement effectuée par la personne qui s'occuper de la réception.
 
-1. Dans le volet de navigation, accédez à **Modules > Gestion des stocks > Paramétrage > Distribution > Profils de vue d’ensemble des arrivées**.
-2. Sélectionnez **Nouveau**. Étant donné que vous travaillerez presque toujours dans le même entrepôt lors du déchargement de camions pleins, vous devez créer un profil de vue d’ensemble des arrivées pour simplifier le processus d’enregistrer les articles reçus.  
-3. Dans le champ **Nom du profil de vue d’ensemble des arrivées**, tapez une valeur.
+1. Dans le volet de navigation, accédez à **Modules > Gestion des stocks > Paramétrage > Distribution > Profils de vue d'ensemble des arrivées**.
+2. Sélectionnez **Nouveau**. Étant donné que vous travaillerez presque toujours dans le même entrepôt lors du déchargement de camions pleins, vous devez créer un profil de vue d'ensemble des arrivées pour simplifier le processus d'enregistrer les articles reçus.  
+3. Dans le champ **Nom du profil de vue d'ensemble des arrivées**, tapez une valeur.
 4. Dans le champ **Afficher les lignes**, sélectionnez une option. Permet de sélectionner les lignes à afficher pour les réceptions :  
 
-    - **Tout** - Permet d’afficher toutes les lignes, quel que soit leur statut.   
+    - **Tout** - Permet d'afficher toutes les lignes, quel que soit leur statut.   
     - **En cours** - Affiche les lignes des réceptions dans lesquelles la progression est Complète ou Partielle. Ceci signifie que, pour chaque ligne, la totalité ou une partie de la quantité a été enregistrée dans un journal des arrivées.   
-    - **Incomplète** - Affiche les lignes des réceptions dans lesquelles la progression est Aucune ou Partielle. Ceci signifie que, pour chaque ligne, soit la quantité n’a pas été enregistrée ou seule une partie l’a été dans un journal des arrivées.  
+    - **Incomplète** - Affiche les lignes des réceptions dans lesquelles la progression est Aucune ou Partielle. Ceci signifie que, pour chaque ligne, soit la quantité n'a pas été enregistrée ou seule une partie l'a été dans un journal des arrivées.  
 
 5. Développez ou réduisez la section **Options des arrivées**.
 6. Dans le champ **Jours après**, tapez une valeur. Ceci définit un filtre pour afficher les lignes de réception devant être reçues dans les prochains jours (selon le nombre que vous définissez).  
@@ -43,15 +44,12 @@ Cette rubrique se concentre sur le paramétrage d’un profil de vue d’ensembl
 8. Dans le champ **Entrepôts**, tapez une valeur. Filtrez sur un ou plusieurs entrepôts.  
 9. Sélectionnez une valeur dans le champ **Mode de livraison**. Ceci définit un filtre pour afficher uniquement les lignes de réception avec ce mode de livraison.  
 10. Sélectionnez WHS dans le champ **Nom**.
-11. Dans le champ **Entrepôt**, sélectionnez l’entrepôt 24. Il s’agit de l’entrepôt par défaut utilisé pour les lignes de réception enregistrées qui utilisent ce profil.  
-12. Dans le champ **Emplacement**, sélectionnez **Baydoor**. Il s’agit de l’emplacement par défaut utilisé pour les lignes de réception enregistrées qui utilisent ce profil.  
+11. Dans le champ **Entrepôt**, sélectionnez l'entrepôt 24. Il s'agit de l'entrepôt par défaut utilisé pour les lignes de réception enregistrées qui utilisent ce profil.  
+12. Dans le champ **Emplacement**, sélectionnez **Baydoor**. Il s'agit de l'emplacement par défaut utilisé pour les lignes de réception enregistrées qui utilisent ce profil.  
 13. Développez ou réduisez la section **Détails des requêtes des arrivées**.
 14. Sélectionnez site 2 dans le champ **Limiter au site**. Ceci définit un filtre pour afficher uniquement les lignes de réception avec ce site.  
-15. Définissez l’option **Commandes fournisseur** sur **Oui**. Sélectionnez des lignes de réception à partir de commandes fournisseur.  
-16. Définissez l’option Ordres de **transfert** sur **Oui**. Sélectionnez des lignes de réception à partir d’ordres de transfert.  
+15. Définissez l'option **Commandes fournisseur** sur **Oui**. Sélectionnez des lignes de réception à partir de commandes fournisseur.  
+16. Définissez l'option Ordres de **transfert** sur **Oui**. Sélectionnez des lignes de réception à partir d'ordres de transfert.  
 17. Sélectionnez **Enregistrer**.
 18. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

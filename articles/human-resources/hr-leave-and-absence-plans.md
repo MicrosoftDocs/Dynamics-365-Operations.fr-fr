@@ -1,33 +1,31 @@
 ---
 title: Création d’un plan de congé et d’absence
-description: Cette rubrique décrit comment créer des plans de congé dans Dynamics 365 Human Resources pour différents types de congés.
-author: twheeloc
-ms.date: 10/28/2021
+description: Créez des plans de congé dans Dynamics 365 Human Resources pour différents types de congés.
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070248"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418553"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Création d’un plan de congé et d’absence
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Définissez les plans de congé et d’absence dans Dynamics 365 Human Resources pour chaque type de congé que vous offrez. Les plans de congé et d’absence peuvent se provisionner à différentes fréquences, notamment annuellement, mensuellement ou semestriellement. Vous pouvez également définir un plan comme subvention, où une seule régularisation se produit à une date spécifique. Par exemple, vous pouvez créer un plan qui accorde des congés flottants chaque année.
 
@@ -113,25 +111,25 @@ Les nouvelles entités sont :
    
     1. Sélectionnez une option dans la liste déroulante **Type de régularisation** :
 
-      - **Mois de service** – Basez le calendrier de régularisation sur les mois de service.
+      - **Mois de service** - Basez le calendrier de régularisation sur les mois de service.
 
-      - **Heures travaillées** – Basez le calendrier de régularisation sur les heures travaillées. Pour plus d’informations sur les régularisations des heures travaillées, voir [Accorder des congés sur la base des heures travaillées](hr-leave-and-absence-plans.md?accrue-time-off-based-on-hours-worked).
+      - **Heures travaillées** - Basez le calendrier de régularisation sur les heures travaillées. Pour plus d’informations sur les régularisations des heures travaillées, voir [Accorder des congés sur la base des heures travaillées](hr-leave-and-absence-plans.md?accrue-time-off-based-on-hours-worked).
 
       Pour plus d’informations sur les régularisations des avantages, voir [Accorder des congés sur la base des heures travaillées](hr-leave-and-absence-plans.md?enrollments-and-balances).
 
     2. Entrez des valeurs dans le tableau du programme de régularisation :
 
-      - **Mois de service** – Nombre de mois minimal que les employés doivent travailler pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
+      - **Mois de service** - Nombre de mois minimal que les employés doivent travailler pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
 
-      - **Heures travaillées** – Nombre d’heures minimal que les employés doivent travailler par période de régularisation pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
+      - **Heures travaillées** - Nombre d’heures minimal que les employés doivent travailler par période de régularisation pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
 
-      - **Montant de régularisation** – Nombre d’heures ou de jours que les employés provisionneront par période. La période est basée sur la fréquence de régularisation.
+      - **Montant de régularisation** - Nombre d’heures ou de jours que les employés provisionneront par période. La période est basée sur la fréquence de régularisation.
 
-      - **Solde minimum** – Vous pouvez utiliser une valeur négative pour le solde minimal si les employés peuvent demander davantage de congés que ceux dont ils disposent.
+      - **Solde minimum** - Vous pouvez utiliser une valeur négative pour le solde minimal si les employés peuvent demander davantage de congés que ceux dont ils disposent.
 
-      - **Reports maximaux** – Le processus de régularisation ajuste les soldes d’absence qui dépassent le solde de report maximal sur l’anniversaire de la date de début.
+      - **Reports maximaux** - Le processus de régularisation ajuste les soldes d’absence qui dépassent le solde de report maximal sur l’anniversaire de la date de début.
 
-      - **Montant accordé** – Nombre d’heures ou de jours initial accordé aux employés lorsqu’ils s’inscrivent pour la première fois au plan de congé. Le montant ne provisionne pas pour chaque période de régularisation.
+      - **Montant accordé** - Nombre d’heures ou de jours initial accordé aux employés lorsqu’ils s’inscrivent pour la première fois au plan de congé. Le montant ne provisionne pas pour chaque période de régularisation.
       
 Si la fonction **Configurer plusieurs types de congé pour un seul plan de congé et d’absence** est activée, sélectionnez une option depuis **Type de congé**. 
 
@@ -385,6 +383,3 @@ Solde prévu (30) = Montant de régularisations (10 × 1) + Solde actuel (40) �
 - [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)
 - [Provisionner les plans de congé et d’absence](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

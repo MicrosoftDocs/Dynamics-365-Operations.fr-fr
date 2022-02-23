@@ -2,9 +2,11 @@
 title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.13 (octobre 2020)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.13.
 author: kamaybac
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c5358cbc13c10983cfcbdde95fd573f652cc683
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766120"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963558"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.13 (octobre 2020)
 
@@ -33,23 +35,23 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation supplémentaire actuellement disponible pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
+Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation supplémentaire actuellement disponible pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
-- [Remplacez la terminologie d’« annulation de clôture de stock » par « contrepassation de clôture de stock »](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Pour plus d’informations, voir [Clôture du stock](../cost-management/inventory-close.md).
+- [Remplacez la terminologie d’« annulation de clôture de stock » par « contrepassation de clôture de stock »](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Pour plus d’informations, voir [Clôture du stock](../cost-management/inventory-close.md).
 
-- [Confirmer les expéditions sortantes des traitements par lots](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Pour plus d’informations, voir [Confirmer les expéditions sortantes à partir des traitements par lots](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Confirmer les expéditions sortantes des traitements par lots](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Pour plus d’informations, voir [Confirmer les expéditions sortantes à partir des traitements par lots](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Délégation de plusieurs éléments de travail d’achat](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Pour plus d’informations, voir [Déléguer des éléments de travail dans un workflow](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Délégation de plusieurs éléments de travail d’achat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Pour plus d’informations, voir [Déléguer des éléments de travail dans un workflow](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique des bons de travail](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Pour pls d’informations, voir [Signaler comme terminé à partir du périphérique des bons de travail](../production-control/report-finished-job-device.md).
+- [Entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique des bons de travail](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Pour pls d’informations, voir [Signaler comme terminé à partir du périphérique des bons de travail](../production-control/report-finished-job-device.md).
 
-- [Nouvelles dimensions d’inventaire pour le suivi des versions de produit et une extensibilité améliorée](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Pour plus d’informations, voir [Dimensions de produit](../pim/product-dimensions.md).
+- [Nouvelles dimensions d’inventaire pour le suivi des versions de produit et une extensibilité améliorée](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Pour plus d’informations, voir [Dimensions de produit](../pim/product-dimensions.md).
 
-- [Réservation validée par la commande basée sur les contenants](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Pour plus d’informations, voir [Réservation de contenant flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Réservation validée par la commande basée sur les contenants](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Pour plus d’informations, voir [Réservation de contenant flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Vue d’ensemble de la ligne de prélèvement du travail](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Vue d’ensemble de la ligne de prélèvement du travail](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Améliorations de la stratégie de travail pour le travail entrant](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Pour plus d’informations, voir [Stratégies d’entrepôt](../warehousing/warehouse-work-policies.md).
+- [Améliorations de la stratégie de travail pour le travail entrant](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Pour plus d’informations, voir [Stratégies d’entrepôt](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -65,7 +67,7 @@ Pour plus d’informations sur les correctifs de bogues inclus dans chacune des 
 
 Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d’entreprise ?
 
-Consultez [Dynamics 365 : vague 2 du plan de publication 2020](/dynamics365-release-plan/2020wave2/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
+Consultez [Dynamics 365 : vague 2 du plan de publication 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 
@@ -77,6 +79,3 @@ La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply
 Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

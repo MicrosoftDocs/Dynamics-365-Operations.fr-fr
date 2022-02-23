@@ -1,218 +1,191 @@
 ---
-title: Unités d’échelle dans une topologie hybride distribuée
-description: Cette rubrique fournit des informations sur les unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt.
+title: Gestion des unités d'échelle du Cloud et de Edge avec les charges de travail de fabrication et de gestion de l'entreposage
+description: Cette rubrique fournit des informations sur les unités d'échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d'entrepôt.
 author: cabeln
-ms.date: 04/22/2021
+manager: ''
+ms.date: 10/06/2020
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.region: Global
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: SCM
 ms.author: cabeln
-ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.search.validFrom: 2020-09-23
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065762"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516784"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d’échelle dans une topologie hybride distribuée
+# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Gestion des unités d'échelle du Cloud et de Edge avec les charges de travail de fabrication et de gestion de l'entreposage
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-> [!IMPORTANT]
-> La fonctionnalité d’unité d’échelle pour Microsoft Dynamics 365 Supply Chain Management est mise à votre disposition selon les conditions qui régissent l’utilisation du service. Pour plus d’informations, consultez les [Informations légales de Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
->
-> Lorsque vous activez les unités d’échelle cloud et de périphérie, il vous est demandé de confirmer que vous comprenez que certaines données liées à la configuration et au traitement des unités d’échelle cloud et de périphérie peuvent être stockées dans un centre de données situé aux États-Unis. Pour en savoir plus sur le traitement des données pour les unités d’échelle cloud et de périphérie, consultez la section [Traitement des données lors de la gestion des unités d’échelle](#data-processing-management), plus loin dans cette rubrique.
-
-## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Proposition de valeur de base pour une topologie hybride distribuée
-
-Les entreprises qui travaillent avec la fabrication et la distribution doivent être en mesure d’exécuter des processus commerciaux clés 24 heures sur 24, 7 jours sur 7, sans interruption et à grande échelle. Une topologie hybride distribuée permet aux entreprises d’exécuter sans interruption des processus de fabrication et d’entrepôt critiques, même lorsqu’elles sont confrontées à des problèmes occasionnels de connectivité réseau ou de latence.
-
-Une topologie hybride distribuée introduit le concept d’*unités d’échelle*, qui permettent de répartir les charges de travail de l’exécution en atelier et de l’exécution en entrepôt entre différents environnements. Cette fonctionnalité peut aider à améliorer les performances, à éviter les interruptions de service et à maximiser la disponibilité. Les unités d’échelle sont fournies via les compléments suivants pour votre abonnement Supply Chain Management :
+Les unités d'échelle du Cloud et de Edge permettent la répartition des charges de travail d'exécution de l'atelier et de l'entrepôt entre différents environnements. Cette fonctionnalité peut aider à améliorer les performances, à éviter les interruptions de service et à maximiser la disponibilité. Il est fourni par les compléments suivants :
 
 - Complément Cloud Scale Unit pour Dynamics 365 Supply Chain Management
-- Complément d’unité d’échelle Edge pour Dynamics 365 Supply Chain Management
+- Complément d'unité d'échelle Edge pour Dynamics 365 Supply Chain Management
 
-Les fonctionnalités de charge de travail sont publiées en continu au travers d’améliorations incrémentielles.
+Les entreprises qui travaillent avec la fabrication et la distribution doivent être en mesure d'exécuter des processus commerciaux clés 24 heures sur 24, 7 jours sur 7, sans interruption et à grande échelle. Les unités à l'échelle du Cloud et de Edge permettent aux entreprises d'exécuter sans interruption des processus de fabrication et d'entrepôt critiques, même lorsqu'elles sont confrontées à des problèmes occasionnels de connectivité réseau ou de latence.
 
-## <a name="scale-units-and-dedicated-workloads"></a>Unités d’échelle et charges de travail dédiées
+## <a name="public-preview-information"></a>Informations de version préliminaire publique
 
-Les unités d’échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités d’échelle peuvent s’exécuter dans le cloud. Elle peuvent également fonctionner en périphérie, sur site dans les locaux de votre établissement.
+La version préliminaire fournit un environnement qui fonctionne comme un hub basé sur le cloud de votre environnement Dynamics 365 Supply Chain Management et un environnement qui fonctionne comme une unité à l'échelle du cloud.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités d’échelle.":::
+<!-- You will also be able to use Local Business Data (LBD) to configure an on-premises environment as an edge scale unit for the hub you received as part of the preview program.-->
 
-Les unités d’échelle offrent résilience, fiabilité et évolutivité pour les charges de travail affectées. Les unités d’échelle en périphérie peuvent être temporairement déconnectées de l’environnement du hub cloud, et les employés peuvent continuer à travailler sur les charges de travail affectées en périphérie.
+### <a name="preview-availability"></a>Aperçu de la disponibilité
 
-Une *charge de travail* est un ensemble défini de fonctionnalités d’entreprise qui peut être factorisé et délégué à une unité d’échelle. Bien que la charge de travail pour la gestion de l’entrepôt ait été publiée, la charge de travail pour l’exécution de la fabrication est toujours en version préliminaire.
+L'aperçu des unités à l'échelle du Cloud et de Edge sera disponible pour les clients existants de Supply Chain Management en octobre 2020.
 
-Vous pouvez configurer un environnement de hub et les unités d’échelle cloud pour des charges de travail sélectionnées à l’aide du [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Vous pouvez également affecter plusieurs charges de travail par unité d’échelle. Pour plus d’informations sur les conditions préalables et les limitations des unités d’échelle cloud dans la version actuelle, consultez la section [Conditions préalables et limitations pour les unités d’échelle cloud](#cloud-scale-unit-prerequisites), plus loin dans cette rubrique.
-
-### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail de gestion d’unité d’échelle dédiées dans une unité d’échelle
-
-La charge de travail de gestion de l’entrepôt est la première charge de travail distribuée pour les unités d’échelle qui a été publiée en disponibilité générale. Elle permet à vos opérations d’entrepôt d’évoluer et de s’exécuter dans un environnement résilient via les fenêtres de maintenance isolées. La charge de travail de gestion d’entrepôt prend en charge la plupart des processus de gestion d’entrepôt du hub d’entreprise. Pour plus d’informations, voir [Charges de travail de gestion des entrepôts pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-warehousing.md).
-
-### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail d’exécution de fabrication dédiées dans une unité d’échelle
-
-La charge de travail de fabrication offre les capacités suivantes :
-
-- Les opérateurs de machines et les superviseurs d’atelier peuvent accéder au plan de production opérationnel.
-- Les opérateurs de machine peuvent maintenir le plan à jour en exécutant des tâches de fabrication discrètes et de processus.
-- Le superviseur de l’atelier peut ajuster le plan opérationnel.
-- Les collaborateurs peuvent accéder aux heures et aux présences pour les points d’entrée et de sortie à la périphérie, afin de garantir un calcul correct de leur rémunération.
-
-Pour plus d’informations, voir [Charges de travail d’exécution de la fabrication pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-manufacturing.md).
-
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Éléments à prendre en compte avant d’activer la topologie hybride distribuée pour Supply Chain Management
-
-En activant la topologie hybride distribuée, vous transformez votre environnement cloud Supply Chain Management afin qu’il fonctionne comme un hub. Vous pouvez également associer des environnements supplémentaires configurés en tant qu’unités d’échelle dans le cloud ou en périphérie.
-
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Conditions préalables et limitations pour les unités d’échelle cloud
-
-Dans la version actuelle des unités d’échelle, certaines fonctionnalités ne sont pas encore disponibles, mais peuvent être ajoutées dans les versions incrémentielles au fil du temps.
-
-#### <a name="you-must-be-a-licensed-customer-of-supply-chain-management"></a>Vous devez être un client sous licence de Supply Chain Management
-
-Pour intégrer la topologie distribuée, vous devez disposer d’une licence Supply Chain Management. Votre environnement cloud existant deviendra le hub de votre topologie hybride. Vous pouvez déclarer à la fois les environnements de bac à sable et les environnements de production en tant qu’environnements de hub, et vous pouvez ajouter des unités d’échelle en fonction des compléments que vous acquérez.
-
-#### <a name="your-existing-project-must-be-administered-via-the-global-commercial-version-of-lcs"></a>Votre projet existant doit être administré via la version commerciale globale de LCS
-
-Votre projet Microsoft Dynamics Lifecyle Services (LCS) existant doit répondre aux exigences de version suivantes :
-
-- Le projet doit être administré via la version commerciale globale de LCS à l’adresse [lcs.dynamics.com](https://lcs.dynamics.com).
-- Les versions locales de LCS (telles que [eu.lcs.dynamics.com](https://eu.lcs.dynamics.com) et [fr.lcs.dynamics.com](https://fr.lcs.dynamics.com)) ne sont pas pris en charge.
-- Les versions Governmental Cloud de LCS ne sont pas prises en charge.
-- La version Mooncake de LCS n’est pas prise en charge.
-
-#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>Votre environnement de production actuel doit être de type Libre service dans LCS
-
-Votre environnement de production actuel doit être étiqueté avec le type **Libre service** type in LCS. Ce type indique que le locataire de votre projet LCS a déjà été converti afin de prendre en charge le modèle d’hébergement Azure Service Fabric.
+Pour accéder à la version préliminaire d'octobre 10.0.15/Platform update 39 pour le déploiement dans votre environnement [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2) vous devez faire partie du programme d'accès anticipé en version préliminaire (également appelé PEAP) pour Supply Chain Management. Vous pouvez rejoindre PEAP si vous êtes déjà membre du [Programme Dynamics Insider](https://experience.dynamics.com/insider) plus large. Sélectionnez simplement le programme spécifique nommé "Finance & Operations : programme d'accès anticipé en version préliminaire (PEAP)."
 
 > [!IMPORTANT]
-> Les types d’environnement qui s’exécutent en tant qu’infrastructure en tant que service (IaaS) ne sont pas pris en charge. Ces environnements sont généralement étiquetés avec le type **Géré par Microsoft** dans LCS. Si vous disposez d’environnements de ce type, collaborez avec votre contact Microsoft pour établir la chronologie de votre migration vers le type **Libre service**.
+> La capacité d'unité d'échelle pour Supply Chain Management n'est disponible que si vous acceptez les [conditions de la version préliminaire du Cloud + Edge pour Finance and Operations](https://Aka.ms/SCMCnETerms).
 
-Microsoft est en train de faire passer tous les environnements cloud de Supply Chain Management d’un modèle IaaS à une topologie hébergée dans Service Fabric. Cette transition apporte une meilleure évolutivité et facilite la gestion des services. Par conséquent, les opérations de déploiement et de maintenance sont plus rapides. De même, les composants de service sont en cours de migration vers le concept de microservices, et le modèle d’hébergement de services va [opérer une transition](/virtualization/windowscontainers/about/containers-vs-vm) d’un modèle de machine virtuelle (VM) à une architecture conteneurisée légère.
+### <a name="data-processing-for-the-preview"></a>Traitement des données pour la version préliminaire
 
-Pour finir, la même infrastructure de services en conteneurs basée sur Service Fabric alimentera à la fois les instances cloud et de périphérie du service, que l’instance soit un hub dans le cloud ou une unité d’échelle dans le cloud ou en périphérie.
-
-Avant de pouvoir intégrer la topologie hybride qui prend en charge les unités d’échelle, le locataire de votre projet doit être transféré vers le modèle hébergé par Service Fabric. En outre, tout environnement qui fera office de hub doit être converti.
-
-> [!TIP]
-> Pour vous renseigner sur le statut du locataire de votre projet LCS, recherchez le type de votre environnement dans [LCS](https://lcs.dynamics.com/), ou contactez votre partenaire ou votre contact Microsoft.
-
-#### <a name="local-business-data-on-premises-environments-arent-supported-as-hubs-for-scale-units"></a>Les environnements de données d’entreprise locaux (sur site) ne sont pas pris en charge en tant que hubs pour les unités d’échelle
-
-Les environnements sur site ne peuvent pas fonctionner comme hubs pour les unités d’échelle. Les environnements hub doivent toujours être hébergés dans le cloud.
-
-#### <a name="scale-unit-management-capabilities-are-limited"></a>Les fonctionnalités de gestion des unités d’échelle sont limitées
-
-Les fonctionnalités de gestion utiles pour déplacer les charges de travail sont limitées. Certaines opérations de gestion ne sont pas prises en charge en libre service, et vous devrez peut-être demander une assistance à votre partenaire ou contact Microsoft. Les exemples incluent des déplacements de charge de travail entre unités d’échelle et des déplacements ponctuels provisoires dans le cadre de scénarios catastrophe.
-
-#### <a name="metrics-and-measurements-arent-yet-available"></a>Les métriques et les mesures ne sont pas encore disponibles
-
-Les métriques et mesures susceptibles de vous aider à sélectionner la meilleure application pour vos unités d’échelle ne sont pas encore disponibles. Collaborez avec votre contact Microsoft ou votre partenaire d’implémentation pour sélectionner l’application la plus avantageuse.
-
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Traitement des données lors de la gestion des unités d’échelle
-
-Lorsque vous activez votre environnement Dynamics 365 pour prendre en charge la topologie hybride distribuée pour les unités d’échelle cloud et de périphérie, certains services de gestion seront hébergés uniquement aux États-Unis, comme pour LCS. Ce comportement affecte le transfert et le stockage de certaines informations administratives et de configuration utilisées par le [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Voici quelques exemples :
+Lors de la version préliminaire publique, certains services de gestion ne seront hébergés qu'aux États-Unis. Cependant, lorsque la fonctionnalité sera généralement disponible, ces services de gestion seront disponibles dans toutes les zones géographiques prises en charge par Supply Chain Management. Cela affecte le transfert et le stockage des informations administratives utilisées par le gestionnaire d'unité d'échelle, notamment :
 
 - Vos noms et ID de locataire
 - Vos ID de projet LCS
-- Les adresses e-mail de l’administrateur et du propriétaire du projet utilisées pour la connexion
-- Les ID d’environnement pour le hub et les unités d’échelle
-- Les configurations de charge de travail, y compris les noms et adresses physiques des entités juridiques et des établissements, afin que votre topologie puisse être affichée sur une carte géographique
-- Les mesures collectées (telles que la latence et le débit) qui seront affichées sur la page d’analyse de la carte pour vous aider à sélectionner l’emploi le plus avantageux de vos unités d’échelle
+- E-mails de l'administrateur utilisés pour se connecter
+- ID d'environnement pour le hub et les unités d'échelle
+- Configurations des charges de travail
+- Mesures collectées (telles que la latence et le débit) qui sont affichées sur la page d'analyse de la carte
 
-Les données transférées et stockées dans les centres de données des États-Unis seront supprimées conformément aux politiques de conservation des données de Microsoft. La protection de vos données personnelles est importante pour Microsoft. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839).
+Les données transférées et stockées dans les centres de données américains seront supprimées lorsque vos environnements de version préliminaire seront arrêtés.
 
-## <a name="onboarding-in-two-stages"></a>L’intégration en deux phases
+### <a name="sign-up-for-the-preview"></a>Souscrire un aperçu
 
-Le processus d’intégration à la topologie hybride distribuée comporte deux phases. Au cours de la première phase, vous devez valider les personnalisations pour vous assurer qu’elles fonctionnent dans la topologie distribuée qui comporte les unités d’échelle. Les environnements de bac à sable et de production ne sont déplacés qu’au cours de la deuxième phase.
+Pour vous inscrire à la version préliminaire de Cloud et Edge de Supply Chain Management, votre organisation doit déjà disposer d'un environnement cloud de Supply Chain Management en direct.
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Phase 1 : évaluer les personnalisations dans des environnements de développement monoblocs
+Les capacités de l'unité d'échelle sont actuellement en version préliminaire publique. Lorsque vous vous inscrivez, vous devez utiliser un compte d'utilisateur sur le locataire spécifique. Vous devez également être propriétaire de projet ou administrateur d'environnement dans LCS pour un projet Dynamics 365 LCS actif dans ce client.
 
-Avant de commencer à intégrer vos environnements bac à sable ou de production, nous vous recommandons d’explorer les unités d’échelle dans une configuration de développement, comme un environnement monobloc (également appelé environnement de niveau 1), afin de pouvoir valider les processus, les personnalisations et les solutions. Au cours de cette phase, les données et les personnalisations seront appliquées aux environnements monoblocs. Un environnement prend le rôle de hub, et l’autre prend le rôle d’unité d’échelle. Cette configuration constitue le meilleur moyen d’identifier et de résoudre les problèmes. La dernière version en accès anticipé (PEAP) peut également être utilisée pour accomplir cette phase.
+Lorsque vous vous inscrivez à la version préliminaire, vous sélectionnez un locataire et suivez les étapes d'inscription. Dès que Microsoft pourra allouer une capacité de version préliminaire, nous vous enverrons un e-mail contenant les détails de mise en service et les codes de promotion (promo) pour deux environnements (un hub et une unité de mise à l'échelle) pour le projet LCS approprié. Vous pourrez ensuite déployer les deux environnements en tant qu'environnements sandbox de niveau 2. Ces environnements seront valables 60 jours à compter de la date de création des codes promotionnels. Vous ne devez pas utiliser les deux environnements tant que l'étape décrite dans le paragraphe suivant n'est pas terminée.
 
-Pour la phase 1, vous devez utiliser les [outils de déploiement d’unité d’échelle pour les environnements de développement monoblocs](https://github.com/microsoft/SCMScaleUnitDevTools). Ces outils vous permettent de configurer le hub et les unités d’échelle dans un ou deux environnements monoblocs distincts. Les outils sont fournis sous forme de version binaire et en code source sur GitHub. Consultez le wiki du projet, qui comprend un [Guide d’utilisation pas à pas](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) qui décrit l’utilisation des outils.
+Une fois que vous avez confirmé avec Microsoft que les deux environnements ont été déployés à l'aide des codes promotionnels, l'un des environnements sera configuré pour fonctionner comme un hub et l'autre sera configuré pour fonctionner comme une unité d'échelle. Vous pouvez ensuite configurer les unités d'échelle et déployer les charges de travail de gestion et de fabrication de l'entrepôt sélectionnées à l'aide du [portail de gestionnaire d'unité d'échelle](https://aka.ms/SCMSUM).
 
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Phase 2 : acquérir des compléments et les déployer dans vos environnements bac à sable et de production
+Les environnements de version préliminaire seront automatiquement supprimés après 60 jours. Cependant, ils peuvent être supprimés plus tôt s'il semble qu'ils ne sont pas utilisés. Une fois vos environnements de version préliminaire supprimés, vous pouvez vous inscrire et faire la queue pour un nouveau déploiement de version préliminaire.
 
-Pour intégrer l’un de vos environnements de bac à sable ou de production à la nouvelle topologie, vous devez acquérir des compléments pour une ou plusieurs unités d’échelle cloud (et, à l’avenir, pour les unités d’échelle de périphérie). Les compléments attribueront les emplacements de projet et d’environnement correspondants dans [LCS](https://lcs.dynamics.com/) afin que les environnements d’unité d’échelle puissent être déployés.
+Pour vous inscrire à la version préliminaire, accédez au [portail de gestionnaire d'unité d'échelle](https://aka.ms/SCMSUM).
+
+### <a name="limitations-that-apply-during-the-preview-period"></a>Limitations applicables pendant la période de version préliminaire
+
+> [!IMPORTANT]
+> Pour la phase initiale du programme de version préliminaire de cette fonctionnalité, Microsoft prend en charge uniquement les hubs qui ont des unités à l'échelle du cloud, et non les hubs qui ont des unités à l'échelle Edge. Les unités à l'échelle Edge sont installées sur site et devraient être disponibles au cours d'une phase à venir du programme.
+
+Étant donné que les unités d'échelle cloud et Edge sont une fonctionnalité version préliminaire, les services qui leur sont associés sont actuellement disponibles dans des pays et des régions limités. En activant les unités d'échelle cloud et Edge, vous confirmez que vous comprenez que certaines données liées à la configuration et au traitement des unités d'échelle cloud et Edge peuvent être stockées dans un centre de données situé aux États-Unis. En activant les unités d'échelle cloud et Edge, vous acceptez également les [conditions de version préliminaire Cloud + Edge pour Finance and Operations](https://Aka.ms/SCMCnETerms). Pour en savoir plus sur les unités d'échelle du cloud et Edge, consultez la [Documentation](https://aka.ms/scmcne).
+
+La protection de vos données personnelles est importante pour Microsoft. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://aka.ms/privacy).
+
+> [!IMPORTANT]
+> Certaines fonctionnalités d'entreprise ne sont pas entièrement prises en charge dans la version préliminaire publique lorsque les charges de travail sont utilisées sur des unités d'échelle. Pour plus d'informations sur les charges de travail fonctionnelles, voir les sections plus loin dans cette rubrique.
+
+## <a name="scale-units-and-dedicated-workloads"></a>Unités de mise à l'échelle et charges de travail dédiées
+
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités de mise à l'échelle":::
+
+Les unités de mise à l'échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités de mise à l'échelle peuvent s'exécuter dans le cloud. Ils peuvent également fonctionner sur Edge dans les locaux de votre établissement local. Les unités de mise à l'échelle peuvent être temporairement déconnectées de l'environnement du hub. Lorsqu'elles sont connectées, les unités de mise à l'échelle reçoivent toutes les informations nécessaires pour exécuter le traitement dédié pour les charges de travail affectées.
+
+:::image type="content" source="media/cloud_edge-previewoptions.png" alt-text="Options des unités de mise à l'échelle dans la version préliminaire publique":::
+
+Pour la version préliminaire publique, vous pouvez configurer un environnement de hub avec des charges de travail sélectionnées sur une unité d'échelle cloud à l'aide du portail de gestionnaire d'unité d'échelle. Les participants à la version préliminaire qui ont accès à un environnement local de données commerciales locales (LBD) peuvent également configurer l'environnement LBD en tant qu'unité à l'échelle Edge.
+
+Une charge de travail est un ensemble défini de fonctionnalités d'entreprise qui peut être factorisé et délégué à une unité d'échelle. Actuellement, les fonctionnalité d'évaluation présente deux types de charges de travail :
+
+- Contrôle et suivi de la production
+- Gestion des entrepôts
+
+Vous pouvez affecter un de chaque type de charge de travail par unité d'échelle. 
+
+### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail d'exécution de fabrication dédiées dans une unité d'échelle
+
+Pour l'exécution de la fabrication, les unités à l'échelle du cloud et de Edge offrent les capacités suivantes, même lorsque les unités de Edge ne sont pas connectées au cloud :
+
+- Les opérateurs de machines et les superviseurs d'atelier peuvent accéder au plan de production opérationnel.
+- Les opérateurs de machine peuvent maintenir le plan à jour en exécutant des tâches de fabrication discrètes et de processus.
+- Le superviseur de l'atelier peut ajuster le plan opérationnel.
+- Les collaborateurs peuvent accéder aux heures et aux présences pour les points d'entrée et de sortie à la périphérie, afin de garantir un calcul correct de la rémunération des collaborateurs.
+
+Pour plus d'informations, consultez les [détails de la charge de travail de l'unité d'échelle de fabrication](cloud-edge-workload-manufacturing.md).
+
+### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacités de charge de travail de gestion d'unité d'échelle dédiées dans une unité d'échelle
+
+Pour la gestion d'unité d'échelle, les unités à l'échelle du cloud et de Edge offrent les capacités suivantes, même lorsque les unités de Edge ne sont pas connectées au cloud :
+
+- Le traitement des méthodes de vague sélectionnées est activé pour les commandes client et le réapprovisionnement de la demande.
+- Les employés de l'entrepôt peuvent exécuter les ventes et demander le travail d'entrepôt de réapprovisionnement à l'aide de l'application d'entrepôt.
+- Les employés de l'entrepôt peuvent se renseigner sur les stocks disponibles à l'aide de l'application d'entrepôt.
+- Les employés de l'entrepôt peuvent créer et exécuter des mouvements de stock à l'aide de l'application d'entrepôt.
+- Les employés des entrepôts peuvent enregistrer des commandes fournisseur et faire du rangement en utilisant l'application d'entrepôt.
+
+Pour plus d'informations, voir les [détails de la charge de travail de l'unité d'échelle de l'entrepôt](cloud-edge-workload-warehousing.md).
+
+## <a name="onboard-scale-units-for-your-supply-chain-management-environment"></a>Unités de mise à l'échelle embarquées pour votre environnement de Supply Chain Management
+
+### <a name="deploy-the-preview-for-cloud-and-edge-scale-units"></a>Déployez la version préliminaire pour les unités d'échelle cloud et Edge
+
+L'illustration suivante montre le flux d'inscription et de provisionnement pour la version préliminaire publique pour les unités d'échelle cloud.
+
+:::image type="content" source="media/cloud_edge-previewsignup.png" alt-text="Aperçu des étapes d'inscription":::
+
+### <a name="select-your-lcs-project-tenant-and-the-detailed-preview-process"></a>Sélectionnez le locataire de votre projet LCS et le processus d'aperçu détaillé
+
+Dans la version préliminaire publique, le [portail de gestionnaire d'unité d'échelle](https://aka.ms/SCMSUM) affiche la liste des locataires dont votre compte fait partie et dont vous êtes propriétaire ou administrateur d'environnement pour un projet LCS.
+
+Si le locataire que vous recherchez ne figure pas dans cette liste, accédez à [LCS](https://lcs.dynamics.com/v2) et assurez-vous que vous êtes un administrateur d'environnement ou un propriétaire de projet du projet LCS pour ce locataire. Notez que seuls les comptes Azure Active Directory (Azure AD) du locataire sélectionné sont autorisés à terminer l'expérience d'inscription.
 
 > [!NOTE]
-> Les compléments d’unité d’échelle ne sont pas couplés à un nombre limité d’utilisateurs, mais peuvent être utilisés par n’importe quel utilisateur de l’abonnement existant, en fonction des rôles attribués par l’administrateur.
+> Une fois que vous avez appliqué les modifications à LCS, la liste des locataires peut prendre jusqu'à 30 minutes pour refléter les modifications.
 
-Les unités d’échelle sont proposées dans le cadre de plusieurs unités de gestion des stocks (SKU) et options de tarification. Par conséquent, vous pouvez choisir l’option qui répond le mieux à votre volume de transactions mensuel prévu et à vos exigences de performances.
+Pour chaque locataire, la liste affiche l'état de l'inscription.
 
-La SKU d’entrée de gamme est connue sous le nom de *Basique*, et la SKU la plus performante est connue sous le nom de *Standard*. Chaque SKU est préchargée avec un nombre spécifique de transactions mensuelles. Cependant, vous pouvez augmenter le budget mensuel des transactions en ajoutant des compléments de dépassement pour chaque SKU.
+:::image type="content" source="media/cloud_edge-Signup1.png" alt-text="Option d'inscription d'un locataire":::
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Compléments pour les unités d’échelle cloud.":::
+Sélectionnez le lien **Cliquer ici pour vous inscrire** pour inscrire votre locataire LCS à participer à la version préliminaire. Vous devez accepter les conditions. Vous devez également fournir une adresse e-mail professionnelle à laquelle Microsoft peut envoyer des communications liées au processus d'inscription à la version préliminaire.
 
-> [!TIP]
-> Pour identifier le dimensionnement qui répond le mieux à vos besoins, collaborez avec votre partenaire et Microsoft pour comprendre la taille de transaction mensuelle dont vous avez besoin.
+:::image type="content" source="media/cloud_edge-Signup2.png" alt-text="Soumission d'inscription d'un locataire":::
 
-L’achat de chaque complément d’unité d’échelle vous donne non seulement un volume mensuel de transactions, mais vous donne également droit à un nombre spécifique d’emplacements d’environnement dans LCS. Pour chaque complément d’unité d’échelle cloud, vous avez droit à un nouvel emplacement de production et un nouvel emplacement sandbox. Au cours du processus d’intégration, un nouveau projet LCS sera ajouté avec ces emplacements. Les droits d’utilisation des emplacements sont liés, de sorte que les emplacements doivent être utilisés comme unités d’échelle disposant d’un hub cloud.
+Microsoft examinera votre demande et vous informera des étapes suivantes en envoyant un e-mail à l'adresse que vous avez fournie sur le formulaire d'inscription.
 
-Les compléments excédentaires ne vous donnent pas droit à de nouveaux emplacements d’environnement.
+Après avoir obtenu l'accès au programme de version préliminaire, vous recevrez deux codes promotionnels pour votre projet LCS. Vous pouvez désormais utiliser ces codes promotionnels pour déployer deux environnements dans LCS. Les environnements doivent utiliser PEAP version 10.0.15 ou ultérieure. Lorsque vous avez terminé d'appliquer les codes promotionnels, informez Microsoft (comme indiqué), afin que nous puissions terminer l'activation des environnements pour les fonctionnalités d'évaluation. Microsoft vous avertira lorsque cette étape de configuration sera terminée.
 
-Si vous souhaitez acquérir plus d’environnements bac à sable, vous pouvez acheter des emplacements sandbox standards supplémentaires. Microsoft peut ensuite vous aider à activer ces emplacements en tant qu’unités d’échelle bac à sable pour la topologie hybride.
+Vous pouvez maintenant commencer à configurer les unités d'échelle et les charges de travail dans votre environnement de version préliminaire.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Intégrer la topologie hybride distribuée pour Supply Chain Management
+> [!IMPORTANT]
+> Lorsque vous configurez des unités d'échelle cloud, vous pouvez [effectuer toutes les étapes requises dans le portail de gestionnaire d'unité d'échelle](#scale-unit-manager-portal).
+<!-- >
+> If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Sélectionner le locataire de votre projet LCS et le processus d’intégration détaillé
+### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gérez les unités d'échelle cloud et les charges de travail à l'aide du portail de gestionnaire d'unité d'échelle
 
-Une fois que vous avez terminé de planifier la manière dont vous intégrerez la topologie hybride distribuée pour Supply Chain Management, vous utiliserez le [portail de gestionnaire d’unité d’échelle](https://aka.ms/SCMSUM) pour commencer le processus d’intégration. Dans le portail, sélectionnez l’onglet **Locataires Dynamics 365**. Cet onglet affiche la liste des locataires dont votre compte fait partie et dont vous êtes propriétaire ou administrateur d’environnement pour un projet LCS.
+Aller au [portail de gestionnaire d'unité d'échelle](https://aka.ms/SCMSUM) et connectez-vous à l'aide de votre compte de locataire. Sur la page **Configurer les unités d'échelle**, vous pouvez ajouter un environnement de hub s'il n'est pas déjà répertorié. Vous pouvez ensuite sélectionner le hub que vous souhaitez configurer avec des unités d'échelle et des charges de travail.
 
-Si le locataire que vous recherchez ne figure pas dans la liste, accédez à [LCS](https://lcs.dynamics.com/v2) et assurez-vous que vous êtes un administrateur d’environnement ou un propriétaire de projet du projet LCS pour ce locataire. Seuls les comptes Azure Active Directory (Azure AD) du locataire sélectionné sont autorisés à mener à bien l’inscription.
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Expérience de gestion des unités d'échelle et de la charge de travail":::
 
-> [!NOTE]
-> Une fois que vous avez appliqué les modifications à LCS, la liste des locataires peut prendre jusqu’à 30 minutes pour refléter les modifications.
+Pour ajouter une ou plusieurs unités d'échelle disponibles dans votre topologie, sélectionnez **Ajouter des unités d'échelle**. Dans la version préliminaire, vous devriez voir l'unité d'échelle cloud que vous avez déployée à partir de l'un des codes promotionnels que vous avez reçus dans le cadre du programme de version préliminaire.
 
-Pour chaque locataire, la liste affiche le statut de l’intégration.
+<!-- > [!IMPORTANT]
+> In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Liste des locataires sous l’onglet Locataires Dynamics 365.":::
+Sur l'onglet **Charges de travail définies**, utilisez le bouton **Créer une charge de travail** pour ajouter une charge de travail de gestion d'entrepôt ou d'exécution de fabrication à l'une de vos unités d'échelle. Pour chaque charge de travail, vous devez spécifier le contexte des processus qui appartiendront à la charge de travail. Pour les charges de travail de gestion d'entrepôt, le contexte est un entrepôt spécifique dans un site et une entité juridique spécifiques. Pour les charges de travail d'exécution de fabrication, le contexte est un site spécifique dans une entité juridique.
 
-Sélectionnez **Cliquer ici pour commencer** pour demander l’intégration du locataire LCS. Vous devez accepter les conditions. Vous devez également fournir une adresse e-mail professionnelle à laquelle Microsoft peut envoyer des communications liées au processus d’intégration.
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Création de charge de travail":::
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Soumission d’inscription d’un locataire.":::
+> [!IMPORTANT]
+> Le portail de gestionnaire d'unité d'échelle dans la version préliminaire ne vous permet pas de supprimer des charges de travail des unités d'échelle ou d'annuler l'attribution d'une unité d'échelle d'un hub une fois l'affectation effectuée. Si vous devez supprimer une affectation, contactez votre personne contact pour la gestion du programme de version préliminaire.
 
-Microsoft examinera votre demande et vous informera des étapes suivantes en envoyant un e-mail à l’adresse que vous avez indiquée sur le formulaire d’inscription. Microsoft travaillera en étroite collaboration avec vous pour activer les unités d’échelle dans la topologie hybride pour votre scénario d’entreprise.
+<!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
-Une fois l’intégration terminée, vous pouvez utiliser le port pour configurer les unités d’échelle et les charges de travail.
-
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gérez les unités d’échelle et les charges de travail à l’aide du portail de gestionnaire d’unité d’échelle
-
-Aller au [portail de gestionnaire d’unité d’échelle](https://aka.ms/SCMSUM) et connectez-vous à l’aide de votre compte de locataire. Sur la page **Configurer les unités d’échelle**, vous pouvez ajouter un environnement de hub s’il n’est pas déjà répertorié. Vous pouvez ensuite sélectionner le hub que vous souhaitez configurer avec des unités d’échelle et des charges de travail.
-
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portail de gestionnaire d’unité d’échelle, page Configurer les unités d’échelle.":::
-
-Pour ajouter une ou plusieurs unités d’échelle disponibles dans vos abonnements, sélectionnez **Ajouter des unités d’échelle**.
-
-Sur l’onglet **Charges de travail définies**, utilisez le bouton **Créer une charge de travail** pour ajouter une charge de travail de gestion d’entrepôt à l’une de vos unités d’échelle. Pour chaque charge de travail, vous devez spécifier le contexte des processus qui appartiendront à la charge de travail. Pour les charges de travail de gestion d’entrepôt, le contexte est un entrepôt spécifique dans un site et une entité juridique spécifiques.
-
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Boîte de dialogue Définir les charges de travail.":::
-
-#### <a name="manage-workloads"></a>Gérer les charges de travail
-
-Lorsqu’une ou plusieurs charges de travail sont activées, utilisez l’option **Gérer les charges de travail** pour initier et gérer des processus tels que ceux répertoriés dans le tableau suivant.
-
-| Processus | Description |
-|---|---|
-| Suspendre la communication de l’unité d’échelle | Suspendez les messages du pipeline entre le hub et une unité d’échelle. Ce processus arrêtera la communication et drainera le pipeline de données entre le hub et les unités d’échelle. Vous devez exécuter ce processus avant d’exécuter une opération de maintenance Supply Chain Management sur le hub ou l’unité d’échelle, mais vous pouvez également l’utiliser dans d’autres situations. |
-| Reprendre la communication de l’unité d’échelle | Reprenez les messages du pipeline entre le hub et une unité d’échelle. Vous devrez peut-être utiliser ce processus, par exemple, après avoir exécuté une opération de maintenance Supply Chain Management sur le hub ou l’unité d’échelle. |
-| Mise à niveau des charges de travail | Synchronisez les nouvelles fonctionnalités entre les charges de travail du hub et de l’unité d’échelle. Vous devrez peut-être utiliser ce processus, par exemple, lorsque la maintenance a modifié les requêtes d’échange de données et/ou a ajouté de nouvelles tables ou champs à la charge de travail. |
-| Transférer les charges de travail vers une unité d’échelle | Planifiez une charge de travail en cours d’exécution sur le hub pour qu’elle soit déplacée vers une unité d’échelle. Lorsque ce processus est exécuté, la synchronisation des données circule et le hub et l’unité d’échelle sont configurés pour modifier la propriété de la charge de travail. |
-| Transférer l’unité d’échelle vers le hub | Planifiez une charge de travail en cours d’exécution sur une unité d’échelle pour qu’elle soit déplacée vers le hub. Lorsque ce processus est exécuté, la synchronisation des données circule et le hub et l’unité d’échelle sont configurés pour modifier la propriété de la charge de travail.
-| Transition d’urgence vers le hub | <p>Transférez immédiatement une charge de travail existante vers le hub. *Ce processus modifiera la propriété des seules données actuellement disponibles sur le hub.*</p><p><strong>Avertissement :</strong> ce processus peut entraîner une perte de données pour les données non synchronisées et l’échec du processus métier. Par conséquent, il ne doit être utilisé qu’en cas d’urgence, lorsque les processus métier doivent être traités sur le hub, car l’unité d’échelle subit une panne qui ne peut pas être corrigée dans un délai raisonnable.</p> |
-| Mise hors service de la topologie distribuée | Supprimez un déploiement d’unité d’échelle et exécutez-le uniquement sur le hub, sans traitement de la charge de travail. |
-
-:::image type="content" source="media/sum-manage-workloads.png" alt-text="Expérience de gestion des unités d’échelle et de la charge de travail.":::
-
-> [!TIP]
-> Au fil du temps, des améliorations incrémentielles seront ajoutées à l’expérience de gestionnaire des unités d’échelle pour faciliter les opérations de gestion du cycle de vie. Les fonctionnalités spécifiques de la version actuelle sont documentées dans un manuel d’intégration mis à la disposition des clients qui sont en cours d’intégration à la topologie hybride distribuée pour Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->
-
-[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->

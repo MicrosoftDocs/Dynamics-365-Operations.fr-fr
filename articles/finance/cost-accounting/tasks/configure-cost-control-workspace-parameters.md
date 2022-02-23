@@ -2,9 +2,11 @@
 title: Configurer les paramètres de l’espace de travail de contrôle des coûts
 description: Cette procédure permet de configurer l’espace de travail Contrôle des coûts afin que les gestionnaires à différents niveaux d’une organisation puissent obtenir des informations sur leurs objets de coût, tels que les centres de coût et les groupes de produits.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969351"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurer les paramètres de l’espace de travail de contrôle des coûts
 
@@ -56,6 +58,3 @@ Cette procédure permet de configurer l’espace de travail Contrôle des coûts
 27. Dans le champ Nœud de hiérarchie des dimensions d’objet de coût, entrez ou sélectionnez une valeur.
     * Après avoir sélectionné une hiérarchie Dimension d’objet de coût, développez la hiérarchie Dimension d’élément de coût pour afficher les valeurs de coût souhaitées. Par exemple, vous pouvez développer la hiérarchie des frais généraux de fabrication pour afficher la valeur.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

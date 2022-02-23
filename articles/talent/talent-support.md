@@ -48,6 +48,3 @@ Pour obtenir du support pour l'application autonome Onboard, utilisez les ressou
 | Signaler un problème. | Sélectionnez le bouton **Aide** (**?**) dans le coin supérieur droit de la page, puis sélectionnez **Signaler un problème**. Décrivez le problème et indiquez une adresse électronique si vous souhaitez effectuer le suivi du problème. |
 | Poser des questions sur les licences Talent. | Contactez votre partenaire ou votre représentant commercial Microsoft. |
 | Demander de nouvelles fonctionnalités dans Onboard. | Sélectionnez le bouton **Aide** (**?**), puis sélectionnez **Idées**. Vous pouvez également consulter [Dynamics 365 Talent: Onboard : Idées](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) pour afficher, rechercher ou voter pour des idées existantes, ou ajouter de nouvelles idées. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

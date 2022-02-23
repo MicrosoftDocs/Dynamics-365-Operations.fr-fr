@@ -2,25 +2,28 @@
 title: Mises en attente du paiement d’une facture fournisseur dans le secteur public en France
 description: Les processus standard liés aux mises en attente de paiement d’une facture fournisseur dans Microsoft Dynamics 365 Finance ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d’une facture fournisseur utilisée par le secteur public en France.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 27331
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ff344b43f98da4cc2b05bd4228950d82842846ca2b8e949c8511c8422786a2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e70085a277f1beeed5cd60d0a40e266d44a176eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760650"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407941"
 ---
 # <a name="vendor-invoice-payment-holds-in-the-public-sector-in-france"></a>Mises en attente du paiement d’une facture fournisseur dans le secteur public en France
 
@@ -28,7 +31,8 @@ ms.locfileid: "6760650"
 
 Les processus standard liés aux mises en attente de paiement d’une facture fournisseur dans Dynamics 365 Finance ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d’une facture fournisseur utilisée par le secteur public en France.
 
-## <a name="set-up-rules-for-vendor-invoice-payment-holds"></a>Définition de règles pour les mises en attente de paiement d’une facture fournisseur
+<a name="set-up-rules-for-vendor-invoice-payment-holds"></a>Définition de règles pour les mises en attente de paiement d’une facture fournisseur
+---------------------------------------------
 
 Les règles pour la mise en attente du paiement d’une facture fournisseur sont paramétrées dans l’organisateur **Bloquer** de la page **Conditions de paiement**. Chaque règle est constituée de trois parties :
 
@@ -68,6 +72,3 @@ Si vous assumez le même rôle utilisateur que la personne qui a créé la mise 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

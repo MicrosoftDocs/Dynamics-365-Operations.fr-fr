@@ -1,35 +1,39 @@
 ---
 title: Immobilisations dans le secteur public
-description: Cette rubrique décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public.
-author: v-kiarnd
+description: Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTransfer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 20891
 ms.assetid: 552c7969-f044-4774-82ec-080aeae8cf3f
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e79e2092e6fc7b3ea63406800572946d6c3b3bcd
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 2dd706ca48b718f2737de404c4ae0b25ba7458cf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817717"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407916"
 ---
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public. 
+Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public. 
 
-## <a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
+<a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
+-------------------------------------------------------
 
 Les organisations du secteur public peuvent utiliser les propositions de rebut et de vente pour céder plus d’une immobilisation à la fois.
 
@@ -47,6 +51,3 @@ Pour plus d’informations, voir [Fonds dans le secteur public](funds-public-sec
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

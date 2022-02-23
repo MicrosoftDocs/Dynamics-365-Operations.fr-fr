@@ -1,32 +1,33 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (10 mars 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 10 mars 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6e4d93f89721bd722de523fbba7adfd2ee3f786
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061149"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526910"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (10 mars 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.2985. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support LCS pour référence.
 
@@ -44,7 +45,7 @@ Le formulaire de maintenance des tâches du collaborateur répertorie toutes les
 
 Exemple : Benjamin Martin est administrateur des avantages sociaux. Lors de l’intégration des employés, des tâches sont créées pour que Benjamin examine la sélection des avantages du nouvel employé. Benjamin a des tâches passées qu’il a accomplies et des tâches futures qu’il doit accomplir. Benjamin décide de quitter l’entreprise, ses tâches doivent donc être réaffectées ou supprimées. Le formulaire de maintenance des tâches (dans le volet Actions du formulaire **Collaborateur**) permet à toutes les tâches de Benjamin d’être réaffectées à un autre collaborateur ou supprimées.  
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>La solution Dataverse est désormais disponible avec les modifications suivantes :
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solution Common Data Service est désormais disponible avec les modifications suivantes :
 
 | Description | Monnaie |
 | --- | --- |
@@ -56,18 +57,18 @@ Exemple : Benjamin Martin est administrateur des avantages sociaux. Lors de l�
 | Nouvelles entités de configuration de la rémunération variable | <ul><li>**Type de régime variable de rémunération**</li><li>**Régime variable de rémunération**</li><li>**Règles d’acquisition**</li><li>**Niveau de régime variable de rémunération**</li></ul> |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | <ul><li>**Entité de calendrier de travail** ajoutée</li></ul> |
 | Nouvelle entité **Détails du poste de paie** | <ul><li>**Détails du poste de paie** ajoutés</li></ul> |
-| Nouvelle entité **Titre** | <ul><li>**Titre** ajouté</li></ul> La nouvelle entité **Titre** est incluse dans Dataverse, mais n’est pas référencée depuis les entités **Poste** ou **Tâche** à ce moment même. |
+| Nouvelle entité **Titre** | <ul><li>**Titre** ajouté</li></ul> La nouvelle entité **Titre** est incluse dans Common Data Service, mais n’est pas référencée depuis les entités **Poste** ou **Tâche** à ce moment même. |
 
 > [!NOTE]
-> Les dimensions financières des postes et de l’emploi offrent une intégration à sens unique pour les mises à jour des ressources humaines vers Dataverse. Les mises à jour des dimensions financières ne sont actuellement pas synchronisées à partir de Dataverse vers les ressources humaines.
+> Les dimensions financières des postes et de l’emploi offrent une intégration à sens unique pour les mises à jour des ressources humaines vers Common Data Service. Les mises à jour des dimensions financières ne sont actuellement pas synchronisées à partir de Common Data Service vers les ressources humaines.
 
-Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Dataverse pour les ressources humaines :
+Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Common Data Service pour les ressources humaines :
 
 1.  Accédez au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Sélectionner **Environnements**.
 
-3.  Recherchez l’environnement que vous souhaitez mettre à niveau. L’environnement doit correspondre à **Nom de l’environnement** dans la section **Informations relatives à Dataverse** dans le formulaire **À propos de** dans Human Resources.
+3.  Recherchez l’environnement que vous souhaitez mettre à niveau. L’environnement doit correspondre à **Nom de l’environnement** dans la section **Informations relatives à Common Data Service** dans le formulaire **À propos de** dans Human Resources.
 
 4.  Sélectionnez l’environnement pour afficher les détails de l’environnement.
 
@@ -81,9 +82,9 @@ Au cours des prochaines semaines, ces modifications d’entités seront disponib
 
 Les fonctionnalités d’aperçu suivantes sont disponibles le 3 février 2020 :
 
-- **Fonctionnalités d’aperçu de congé et d’absence** – Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
+- **Fonctionnalités d’aperçu de congé et d’absence** - Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonction d’aperçu de la gestion des avantages** – Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonction d’aperçu de la gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -102,8 +103,6 @@ Les fonctionnalités d’aperçu suivantes sont disponibles le 3 février 2020
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

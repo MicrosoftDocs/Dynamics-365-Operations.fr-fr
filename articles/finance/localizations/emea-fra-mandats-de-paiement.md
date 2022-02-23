@@ -2,24 +2,27 @@
 title: Mandats de paiement dans le secteur public en France
 description: Le mandat de paiement est utilisé par le directeur pour aviser et autoriser le comptable à verser un montant déterminé à une autre entité.
 author: rschloma
+manager: AnnBe
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 27231
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8726531e7784fc3b9478cb9da8dc980f34fbcc930c8a3a0e8fcbd39b2ebf8c42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19bd649a17728faddfed49ce7ae99c4bc2048552
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771592"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665487"
 ---
 # <a name="mandats-de-paiement-in-the-public-sector-in-france"></a>Mandats de paiement dans le secteur public en France
 
@@ -80,6 +83,3 @@ Utilisez les critères suivants dans la page de recherche dans la base de donné
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

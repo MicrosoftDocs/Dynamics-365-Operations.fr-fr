@@ -2,33 +2,36 @@
 title: Traiter les ajustements de points de récompense de fidélité
 description: Cette procédure illustre comment rechercher des informations de carte de fidélité et ajuster les points de récompense de fidélité.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07008234255102e6094e362edcadb116158e9ee770d782fbb654bfc1ce000285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bdbd9fa60fe4d000359e4695a9fb034fae3ca1b0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757343"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412304"
 ---
-# <a name="process-loyalty-reward-point-adjustments"></a>Traiter les ajustements de points de récompense de fidélité
+# <a name="process-loyalty-reward-point-adjustments"></a> Traiter les ajustements de points de récompense de fidélité
 
 [!include [banner](../includes/banner.md)]
 
 Cette procédure illustre comment rechercher des informations de carte de fidélité et ajuster les points de récompense de fidélité. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire des opérations de commerce ou à un rôle de directeur du service clientèle.
 
 1. Accédez à Cartes de fidélité.
-2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Cliquez sur Transactions de carte.
     * Sur cette page, vous pouvez afficher toutes les transactions de fidélité pour la carte de fidélité sélectionnée.  
@@ -37,16 +40,13 @@ Cette procédure illustre comment rechercher des informations de carte de fidél
 7. Cliquez sur Nouveau.
 8. Dans le champ Points de récompense, saisissez ou sélectionnez une valeur.
 9. Dans le champ Montant ou quantité, entrez un nombre.
-    * Vous pouvez ajouter ou supprimer des points de la carte de fidélité par l’intermédiaire de montants positifs ou négatifs.  
+    * Vous pouvez ajouter ou supprimer des points de la carte de fidélité par l'intermédiaire de montants positifs ou négatifs.  
 10. Dans le champ Programme de fidélité, saisissez ou sélectionnez une valeur.
 11. Dans le champ Commentaire, tapez une valeur.
-12. Cliquez sur Valider l’ajustement.
+12. Cliquez sur Valider l'ajustement.
 13. Cliquez sur Oui.
 14. Fermez la page.
-    * Normalement, à ce stade, actualisez la page pour voir le résultat de l’ajustement des points de récompense dans l’onglet Récapitulatif des points de récompense. Mais si vous exécutez cette opération en tant que guide des tâches, ne le rafraîchissez pas maintenant sinon le guide des tâches s’arrêtera.  
+    * Normalement, à ce stade, actualisez la page pour voir le résultat de l'ajustement des points de récompense dans l'onglet Récapitulatif des points de récompense. Mais si vous exécutez cette opération en tant que guide des tâches, ne le rafraîchissez pas maintenant sinon le guide des tâches s'arrêtera.  
 15. Cliquez sur Transactions de carte.
 16. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

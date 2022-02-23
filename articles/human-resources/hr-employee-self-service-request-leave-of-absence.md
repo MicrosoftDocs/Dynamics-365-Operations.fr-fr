@@ -2,12 +2,15 @@
 title: Demander un congé
 description: Soumettre une demande de congé.
 author: andreabichsel
+manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveofAbsenceRequestEntry, EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,25 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d58e84637dac584b080bd0fa30f7ab6214c26db
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1f50e45a9acaf5295b40648ea5701885ae0ea844
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070273"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418575"
 ---
 # <a name="request-a-leave-of-absence"></a>Demander un congé
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Vous pouvez soumettre une demande de congé et voir l’état de vos demandes de congé dans Dynamics 365 Human Resources.
+Vous pouvez soumettre une demande de congé et voir l'état de vos demandes de congé dans Dynamics 365 Human Resources.
 
 ## <a name="request-a-leave-of-absence"></a>Demander un congé
 
-1. Dans l’espace de travail **Libre service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
+1. Dans l'espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
 
 2. Pour soumettre une demande de congé, sélectionnez **Demander un congé**.
 
@@ -48,17 +46,10 @@ Vous pouvez soumettre une demande de congé et voir l’état de vos demandes de
 
 ## <a name="view-leave-of-absence-request-status"></a>Afficher le statut des demandes de congé
 
-1. Dans l’espace de travail **Libre service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
+1. Dans l'espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.
 
 2. Pour visualiser vos demandes de congé, sélectionnez **Afficher les congés**.
-
-## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importation de demandes de congé depuis d’autres systèmes ou des systèmes plus anciens
-
-Pour importer des demandes de congé à partir d’un autre système, vous devez passer par le workflow normal pour créer les transactions de congé appropriées. Autrement, vous pouvez importer les transactions bancaires de congé et les demandes de congé dans un état Terminé. Notez que les transactions bancaires de congés ne sont pas créées automatiquement si vous importez uniquement les demandes de congés.
 
 ## <a name="see-also"></a>Voir également :
 
 [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

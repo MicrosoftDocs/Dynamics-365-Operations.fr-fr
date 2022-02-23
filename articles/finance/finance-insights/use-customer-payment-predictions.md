@@ -1,10 +1,12 @@
 ---
-title: Utiliser les prédictions de paiement des clients
-description: Cette rubrique décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Informations financières.
+title: Utiliser les prédictions de paiement des clients (version préliminaire)
+description: Cette rubrique décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Finance Insights.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,30 +17,36 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: e0445046d8016dfa2c02c1ff1a05bdd148f9409a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968910"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969251"
 ---
-# <a name="use-customer-payment-predictions"></a>Utiliser les prédictions de paiement des clients
+# <a name="use-customer-payment-predictions-preview"></a>Utiliser les prédictions de paiement des clients (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment utiliser les prédictions de paiement du client. Avant d’utiliser cette fonctionnalité, assurez-vous que vous avez terminé les étapes de configuration correspondantes. Pour plus d’informations, voir [Activer les prédictions de paiement client](enable-cust-paymnt-prediction.md).
 
-Vous pouvez afficher les prévisions de paiement des clients dans l’espace de travail **Gérer le crédit client et les recouvrements** et sur deux nouvelles pages de liste : **Prédictions de paiement par transaction** et **Prédictions de paiement par client**.
+Vous pouvez afficher les prévisions de paiement des clients dans l’espace de travail **Gérer le crédit client et les recouvrements** et sur deux nouvelles pages de liste, **Prévisions de paiement par transaction** et **Prédiction de paiement par client**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Gérer l’espace de travail de crédit et recouvrements client
 
-L’espace de travail **Gérer le crédit client et les recouvrements** comprend deux nouvelles vignettes : **Prédictions de paiement par transaction** et **Prédictions de paiement par le client**.
+L’espace de travail **Gérer le crédit client et les recouvrements** comprend deux nouvelles vignettes, **Prédiction de paiement par transaction** et **Clients avec des soldes de retard élevés prévus**.
 
-### <a name="transaction-payment-predictions-list-page"></a>Page de liste Prédictions de paiement par transaction
+- La vignette **Prédiction de paiement par transaction** indique le nombre de transactions client ouvertes dont la probabilité de paiement est inférieure à 50 % dans le compartiment **À temps**. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par transaction**.
+- La vignette **Clients avec des soldes de retard élevés prévus** indique le nombre de clients pour lesquels plus de la moitié (50 %) du solde total devrait être payé en retard et/ou très tard. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par client**.
 
-Sur la liste **Prédictions de paiement par transaction**, vous pouvez afficher la probabilité de paiement pour les transactions ouvertes dans les compartiments **À temps**, **Tard**, et **Très tard**. Pour chaque transaction de la grille, la colonne **Probabilité à l’heure** indique la probabilité que la facture soit payée au plus tard à la date d’échéance. Si la probabilité d’un paiement à temps est inférieure à 50 %%, un cercle rouge apparaît à côté du pourcentage dans la colonne **Probabilité à temps** pour indiquer le risque de retard de paiement.
+[![Gérer l’espace de travail de crédit et recouvrements client](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
-[![Prédiction de paiement par page de transactions.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+### <a name="payment-predictions-per-transaction-list-page"></a>Prédictions de paiement par page de liste de transactions
+
+Sur la liste **Prévisions de paiement par transaction**, vous pouvez afficher la probabilité de paiement pour les transactions ouvertes dans les compartiments **À temps**, **Tard**, et **Très tard**. Pour chaque transaction de la grille, la colonne **Probabilité à l’heure** indique la probabilité que la facture soit payée au plus tard à la date d’échéance. Si la probabilité d’un paiement à temps est inférieure à 50 %, un cercle rouge apparaît à côté du pourcentage dans la colonne **Probabilité à temps** pour indiquer le risque de retard de paiement.
+
+[![Prédiction de paiement par page de transactions](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Le volet **Informations connexes** sur le côté droit de la page affiche plus de détails sur les prédictions :
 
@@ -48,13 +56,13 @@ Le volet **Informations connexes** sur le côté droit de la page affiche plus d
 
 Les données dans la section **Principaux facteurs**, et sur les raccourcis **Customer Insights** et **Historique client**, aide à expliquer les prévisions de paiement. Cela peut vous aider à accroître votre confiance dans l’efficacité des prédictions.
 
-[![Indicateurs graphiques pour les prévisions de paiement dans le volet Informations connexes.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Indicateurs graphiques pour les prévisions de paiement dans le volet Informations connexes](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="customer-payment-predictions-list-page"></a>Page de liste Prédictions de paiements par client
+### <a name="payment-prediction-per-customer-list-page"></a>Page de liste Prédiction de paiement par client
 
-La page de liste **Prédictions de paiement par client** affiche le solde ouvert total et le montant qui devrait être payé dans les compartiments **À temps**, **Tard** et **Très tard**.
+La page de liste **Prédiction de paiement par client** affiche le solde ouvert total et le montant qui devrait être payé dans les compartiments **À temps**, **Tard** et **Très tard**.
 
-[![Page Prédictions de paiements par client.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Page Prédictions de paiements par client](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 Le montant du paiement dans chaque compartiment est calculé comme la somme de la moyenne pondérée du solde de la transaction. Ce montant est calculé en fonction des probabilités de paiement dans chaque compartiment.
 
@@ -76,20 +84,28 @@ Dans ce cas, les paiements sont projetés pour chaque tranche de la manière sui
 
 La section **Informations connexes** sur le côté droit de la page affiche plus de détails sur les prédictions :
 
-- Pour la transaction sélectionnée dans la grille, le raccourci **Prédictions de paiement** affiche les détails des prévisions de paiement dans les compartiments **À temps**, **Tard**, et **Très tard**.
+- Pour la transaction sélectionnée dans la grille, le raccourci **Prédictions de paiement** affiche les détails des prévisions de paiement dans les compartiments **À temps**, **Tard**, et **Très tard**. La section **Principaux facteurs** montre les principaux facteurs qui ont influencé les paiements. Les principaux facteurs sont les attributs de la transaction sélectionnée et/ou du client pour cette transaction.
 - Le raccourci **Customer Insights** affiche les statistiques de facturation, de paiement et de recouvrement en cours pour le client pour la transaction sélectionnée.
 - Le raccourci **Historique client** affiche l’historique de paiement du client dans les compartiments **À temps**, **Tard**, et **Très tard**.
 
-Les données sur les raccourcis **Customer Insights** et **Historique client** aident à expliquer les prédictions de paiement. Cela peut vous aider à accroître votre confiance dans l’efficacité des prédictions.
+Les données dans la section **Principaux facteurs**, et sur les raccourcis **Customer Insights** et **Historique client**, aide à expliquer les prévisions de paiement. Cela peut vous aider à accroître votre confiance dans l’efficacité des prédictions.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Améliorer la précision des prévisions de paiement
 
 Vous pouvez voir l’exactitude des prévisions de paiement en accédant à **Crédits et collections \> Configurer \> Informations financières \> Paramètres des informations financières**. Sur l’onglet **Informations sur les paiements client**, la section **Modèle de prédiction** montre la précision du modèle de prédiction sous forme de pourcentage.
 
-[![Précision des prévisions de paiement.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Précision des prévisions de paiement](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améliorer la précision du modèle** pour ouvrir l’expérience d’extension AI Builder. Dans l’expérience d’extension AI Builder, vous pouvez sélectionner ou annuler la sélection de champs jusqu’à ce que vous ayez sélectionné les champs qui vous semblent les plus importants pour prédire avec précision les probabilités de paiement. Lorsque vous avez terminé, vous pouvez facilement recycler le modèle de prédiction et publier vos modifications. Le modèle de prédiction nouvellement formé sera automatiquement sélectionné pour les prédictions dans Dynamics 365 Finance.
+Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améliorez la précision du modèle** pour ouvrir l’expérience d’extension AI Builder. Dans l’expérience d’extension AI Builder, vous pouvez sélectionner ou annuler la sélection de champs jusqu’à ce que vous ayez sélectionné les champs qui vous semblent les plus importants pour prédire avec précision les probabilités de paiement. Lorsque vous avez terminé, vous pouvez facilement recycler le modèle de prédiction et publier vos modifications. Le modèle de prédiction nouvellement formé sera automatiquement sélectionné pour les prédictions dans Dynamics 365 Finance.
 
-[![Expérience d’extension AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
+[![Expérience d’extension AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="release-details"></a>Détails du lancement
+
+La version préliminaire publique de Finance Insights est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
+
+Les fonctionnalités en version préliminaire publiques peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+
+## <a name="privacy-notice"></a>Avis de confidentialité
+
+Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.

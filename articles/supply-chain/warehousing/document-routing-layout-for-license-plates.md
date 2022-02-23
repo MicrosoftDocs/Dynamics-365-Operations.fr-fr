@@ -2,28 +2,30 @@
 title: Mise en page d’acheminement de document pour les étiquettes de contenant
 description: Cette rubrique décrit comment utiliser les méthodes de mise en forme pour imprimer les valeurs sur des étiquettes.
 author: perlynne
+manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4428225"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d’acheminement de document pour les étiquettes de contenant
 
 [!include [banner](../includes/banner.md)]
-
 
 La mise en page d’acheminement de document définit la mise en page des étiquettes de contenant et les données y sont imprimées. Vous configurez les points de déclenchement d’impression lorsque vous configurez les articles de menu d’appareil mobile et les modèles de travail.
 
@@ -51,10 +53,6 @@ Pour voir les valeurs qui seront imprimées, accédez à **Gestion d’entrepôt
 
 Plusieurs outils de génération d’étiquettes largement disponibles peuvent vous aider à formater le texte pour la mise en page de l’étiquette. Nombre de ces outils prennent en charge le format `$FieldName$`. De plus, Microsoft Dynamics 365 Supply Chain Management utilise une logique de formatage spéciale dans le cadre du mappage de champ pour la mise en page d’acheminement de document.
 
-## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
-
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Mises en page améliorées des étiquettes de contenant*. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
-
 ## <a name="custom-number-formats"></a>Formats de numéro personnalisés
 
 Vous pouvez personnaliser la mise en forme des valeurs du champ numérique qui sont imprimées à l’aide de codes qui ont le format suivant.
@@ -73,7 +71,7 @@ Les exemples suivants montrent comment personnaliser le champ de quantité de tr
 - Pour toujours afficher quatre chiffres (en utilisant des zéros comme espaces réservés), utilisez `$Qty:0000$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 0010 ».
 - Pour toujours afficher deux décimales, utilisez `$Qty:0.00$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 10.00 ».
 
-Pour une liste complète des chaînes de format numérique disponibles, consultez [Chaînes de format numérique personnalisées](/dotnet/standard/base-types/custom-numeric-format-strings).
+Pour une liste complète des chaînes de format numérique disponibles, consultez [Chaînes de format numérique personnalisées](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formats de chaîne personnalisés
 
@@ -95,7 +93,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Dans cet exemple, la date du 30 avril 2020 sera imprimée comme « 30-04-2020 ».
 
-Pour une liste complète des formats date/heure disponibles, consultez [Chaînes de format date/heure personnalisées](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Pour une liste complète des formats date/heure disponibles, consultez [Chaînes de format date/heure personnalisées](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Imprimer des lignes individuelles à partir de données multilignes
 
@@ -138,6 +136,3 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>En savoir plus sur l’impression d’étiquettes
 
 Pour plus d’informations sur la configuration et l’impression d’étiquettes, voir [Activer l’impression d’étiquette de contenant](tasks/license-plate-label-printing.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

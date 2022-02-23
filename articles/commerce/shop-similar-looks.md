@@ -2,13 +2,16 @@
 title: Activer les recommandations « acheter des aspects similaires »
 description: Cette rubrique décrit comment activer les recommandations de produits « Acheter des aspects similaires » dans Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721998"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412341"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Activer les recommandations « acheter des aspects similaires »
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment activer les recommandations de produits « Acheter des aspects similaires » dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 La fonctionnalité de recommandations « Acheter des aspects similaires » dans Dynamics 365 Commerce utilise la puissance de l’intelligence artificielle et du Machine Learning (IA-ML) pour fournir des recommandations pour des produits visuellement similaires aux clients. En mettant à disposition des recommandations de type « acheter des aspects similaires » pour tous les canaux de vente au détail dans Commerce, les détaillants peuvent accroître la satisfaction de leurs clients en aidant les clients à trouver facilement ce qu’ils veulent.
 
@@ -68,7 +73,7 @@ Pour activer la fonctionnalité de recommandations « Acheter des aspects simil
 
 L’illustration suivante montre la fonctionnalité **Acheter des aspects similaires** sur la page **Gestion des fonctionnalités** au siège Commerce.
 
-![La fonctionnalité Acheter des aspects similaires sur la page Gestion des fonctionnalités du siège Commerce.](./media/enableshopsimilarlooks.png)
+![La fonctionnalité Acheter des aspects similaires sur la page Gestion des fonctionnalités du siège Commerce](./media/enableshopsimilarlooks.png)
 
 Une fois les tâches précédentes terminées, les terminaux de PDV sont automatiquement améliorés avec un volet **Acheter des produits similaires**. En sélectionnant **En savoir plus**, les utilisateurs de terminaux de PDV peuvent être redirigés vers une page dédiée à la page « Acheter des aspects similaires » qui peut être filtrée davantage.
 
@@ -88,7 +93,7 @@ Pour ajouter un bouton **Acheter des aspects similaires** à une PDP à l’aide
 
 L’illustration suivante montre la case à cocher **Activer le lien Acheter des aspects similaires** et le bouton **Achetez des aspects similaires** sur un exemple de PDP dans le générateur de site.
 
-![Case à cocher Activer le lien Acheter des aspects similaires et le bouton Achetez des aspects similaires sur une PDP dans le générateur de site.](./media/SSLecomtooling.png)
+![Case à cocher Activer le lien Acheter des aspects similaires et le bouton Achetez des aspects similaires sur une PDP dans le générateur de site](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -111,6 +116,3 @@ L’illustration suivante montre la case à cocher **Activer le lien Acheter des
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

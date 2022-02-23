@@ -1,24 +1,27 @@
 ---
 title: Création en masse de devis de vente
 description: Cette procédure illustre comment créer efficacement des devis offrant un ensemble de produits ou de services à envoyer à plusieurs clients.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acb2b49c7cb2024aec1140d04150bd1ab9d75c14
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573367"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427688"
 ---
 # <a name="mass-create-sales-quotations"></a>Création en masse de devis de vente
 
@@ -39,10 +42,10 @@ Cette procédure illustre comment créer efficacement des devis offrant un ensem
 9. Sélectionnez « Client » dans le champ Type de compte.
 10. Entrez ou sélectionnez une valeur dans le champ Compte client.
 11. Cliquez sur OK.
-    * Pour qu’un devis devienne un modèle, vous devez effectuer des étapes de paramétrage dans l’en-tête du devis. Cela doit être effectué avant d’ajouter des lignes au devis.   
+    * Pour qu'un devis devienne un modèle, vous devez effectuer des étapes de paramétrage dans l'en-tête du devis. Cela doit être effectué avant d'ajouter des lignes au devis.   
 12. Dans le volet Actions, cliquez sur Options.
 13. Cliquez sur Changer de vue.
-14. Cliquez sur Vue de l’en-tête.
+14. Cliquez sur Vue de l'en-tête.
 15. Développez la section Paramétrage.
 16. Saisissez ou sélectionnez une valeur dans le champ ID groupe.
 17. Tapez une valeur dans le champ Nom de modèle.
@@ -96,8 +99,5 @@ Cette procédure illustre comment créer efficacement des devis offrant un ensem
 9. Cliquez sur OK.
 10. Cliquez sur OK.
 11. Accédez à Ventes et marketing > Devis de vente > Tous les devis.
-    * Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l’indique le modèle sélectionné.  
+    * Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l'indique le modèle sélectionné.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

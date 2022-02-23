@@ -91,6 +91,3 @@ L'activité de contenu web (iframe) permet d'inclure une solution web personnali
 
 > [!NOTE]
 > L'activité de contenu web n'est disponible qu'avec le Composant additionnel de recrutement complet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,6 +98,3 @@ Cette version contient plusieurs correctifs de bogue supplémentaires :
 - Lorsqu'un fournisseur est embauché, l'onglet **Rémunération** ne doit pas être disponible dans la page de demande/d'action.
 - Au cours du processus de résiliation de la demande, vous ne pouvez pas continuer tant que tous les champs obligatoires ne contiennent pas des données.
 - Les problèmes d'ordre de tri et d'affichage de la date dans le module Analyse de la gestion du personnel ont été résolus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

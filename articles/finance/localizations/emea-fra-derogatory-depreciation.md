@@ -2,24 +2,27 @@
 title: Amortissement dérogatoire pour la France
 description: Cet article fournit des informations sur l’amortissement dérogatoire et la manière de le paramétrer. Dans l’amortissement dérogatoire, un montant d’amortissement supplémentaire est calculé comme étant la différence entre le montant d’amortissement du modèle de valeur de taxe et le montant d’amortissement du modèle de valeur comptable pendant la durée de vie d’une immobilisation.
 author: Anasyash
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting, AssetBook, AssetBookTable
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 30321
 ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3385613e6ed292c9b763414e35c474ff0808c5c42f70a024b62e47ae85068842
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb23008f7c2cfc90cd67550607fcc1c396e3bd2d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775108"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407950"
 ---
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 
@@ -44,6 +47,3 @@ Dans la page **Profils de validation d’immobilisation**, paramétrez les compt
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

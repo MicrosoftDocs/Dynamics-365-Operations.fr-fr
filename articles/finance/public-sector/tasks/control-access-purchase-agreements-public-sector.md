@@ -2,9 +2,11 @@
 title: Contrôler l’accès aux contrats d’achat dans le secteur public
 description: Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder à un contrat d’achat.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementFinDimensionAccess_PSN
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 638278ebc43d652c6c8c8008887b8e0dbaa0dee00f71fc32c1db4c26b7df2568
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb5223d4c16d577ce1c65b140514f4956d6d7304
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742839"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968234"
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a>Contrôler l’accès aux contrats d’achat dans le secteur public
 
@@ -38,6 +40,3 @@ Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder
     * Ajoutez des départements supplémentaires jusqu’à ce que tous les départements autorisés aient été ajoutés au contrat d’achat.  
 9. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

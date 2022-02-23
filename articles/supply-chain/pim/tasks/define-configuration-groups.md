@@ -1,30 +1,33 @@
 ---
 title: Définir des groupes de configuration
 description: Cette procédure indique comment définir des groupes de configuration de produits en créant deux groupes dans la société fictive USMF.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb95be93bccad431948beea67bb2860f7c68617
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 77b156a4710fd574b939a1e930fbb8ac38acde15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569551"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427876"
 ---
 # <a name="define-configuration-groups"></a>Définir des groupes de configuration
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment définir des groupes de configuration de produits en créant deux groupes dans la société fictive USMF. Il s’agit de la quatrième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
+Cette procédure indique comment définir des groupes de configuration de produits en créant deux groupes dans la société fictive USMF. Il s'agit de la quatrième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
 
 1. Accédez à Gestion des informations sur les produits > Configurer > Nomenclatures et formules > Groupes de configuration.
 2. Cliquez sur Nouveau.
@@ -37,6 +40,3 @@ Cette procédure indique comment définir des groupes de configuration de produi
 7. Tapez une valeur dans le champ Nom.
 8. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

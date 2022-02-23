@@ -1,38 +1,41 @@
 ---
 title: Biens à double usage
 description: Cette rubrique explique comment suivre les produits identifiés comme des biens à double usage, stocker les numéros de certificat pour chaque produit concerné et pays de destination, et imprimer des numéros de certificat valides sur les factures, bons de livraison et/ou commandes client concernés.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570751"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428087"
 ---
 # <a name="dual-use-goods"></a>Biens à double usage
 
 [!include [banner](../includes/banner.md)]
 
-Les biens à double usage sont généralement des articles qui ont des applications à la fois civiles et militaires. Par exemple, un produit chimique peut être utilisé comme engrais ou comme explosif. De nombreux pays ont des réglementations spéciales qui s’appliquent à l’exportation, à l’importation et au transport des biens à double usage. Par conséquent, il est important que les entreprises impliquées dans le commerce international de biens à double usage se tiennent informées des différentes politiques et certifications.
+Les biens à double usage sont généralement des articles qui ont des applications à la fois civiles et militaires. Par exemple, un produit chimique peut être utilisé comme engrais ou comme explosif. De nombreux pays ont des réglementations spéciales qui s'appliquent à l'exportation, à l'importation et au transport des biens à double usage. Par conséquent, il est important que les entreprises impliquées dans le commerce international de biens à double usage se tiennent informées des différentes politiques et certifications.
 
 La fonctionnalité des biens à double usage aide les entreprises à suivre les produits identifiés comme des biens à double usage, stocker les numéros de certificat pour chaque produit concerné et pays de destination, et imprimer des numéros de certificat valides sur les factures, bons de livraison et/ou commandes client concernés. Elle permet de garantir que, lorsque vos produits sont expédiés, ils incluent toujours des certifications à jour.
 
 Prenons le scénario suivant :
 
 1. La page **Configuration du pays pour les biens à double usage** de votre système indique que les expéditions vers la France nécessitent une certification.
-2. La page **Détails du produit lancé** pour le produit X-100 indique qu’il s’agit d’un bien à double usage. Ensemble, le code, la catégorie, le groupe et le régime indiquent la classe de contrôle des exportations à laquelle appartient le produit.
-3. La page **Certificats des biens à double usage** inclut un certificat pour le produit X-100 lorsqu’il est expédié vers la France. Ce certificat expire le 1er janvier 2020.
+2. La page **Détails du produit lancé** pour le produit X-100 indique qu'il s'agit d'un bien à double usage. Ensemble, le code, la catégorie, le groupe et le régime indiquent la classe de contrôle des exportations à laquelle appartient le produit.
+3. La page **Certificats des biens à double usage** inclut un certificat pour le produit X-100 lorsqu'il est expédié vers la France. Ce certificat expire le 1er janvier 2020.
 4. Le 17 juin 2020, vous créez une commande client pour une société cliente basée en France et la commande comprend le produit X-100.
 5. Lorsque vous sauvegardez la commande client, le système détermine les informations suivantes :
 
@@ -40,7 +43,7 @@ Prenons le scénario suivant :
     2. Si la commande comprend des biens à double usage, le pays de destination exige-t-il des certificats de double usage ?
     3. Si le pays exige des certificats de double usage, existe-t-il un certificat valide pour chaque bien à double usage pour le pays de destination ?
 
-6. La commande comprend le produit X-100, le produit est expédié en France et un certificat français existe pour le produit. Cependant, le certificat a expiré. Par conséquent, le message d’avertissement suivant s’affiche : « Les certificats des produits à double usage pour un ou plusieurs articles à double usage de cette commande client ne sont pas valides. Voulez-vous procéder à la confirmation ? »
+6. La commande comprend le produit X-100, le produit est expédié en France et un certificat français existe pour le produit. Cependant, le certificat a expiré. Par conséquent, le message d'avertissement suivant s'affiche : « Les certificats des produits à double usage pour un ou plusieurs articles à double usage de cette commande client ne sont pas valides. Voulez-vous procéder à la confirmation ? »
 
 Cette rubrique explique comment configurer tous les paramètres requis pour configurer les biens à double usage et prendre en charge ce scénario.
 
@@ -57,7 +60,7 @@ Pour configurer les informations sur les exigences de double usage pour différe
     | Champ | Description |
     |---|---|
     | Pays/région | Sélectionnez le pays pour lequel vous suivez les exigences. |
-    | Certificat obligatoire | Cochez cette case pour les pays qui exigent une certification pour les biens à double usage. Décochez-la pour les pays qui n’exigent pas cette certification. |
+    | Certificat obligatoire | Cochez cette case pour les pays qui exigent une certification pour les biens à double usage. Décochez-la pour les pays qui n'exigent pas cette certification. |
 
 ## <a name="create-dual-use-categories"></a>Créer des catégories de double usage
 
@@ -74,7 +77,7 @@ Pour paramétrer des catégories de biens à double usage, procédez comme suit.
     | Code de double usage | Entrez le code ECCN complet (par exemple, *3A001*).|
     | Catégorie de produits à double usage | Entrez la partie Catégorie de la liste de contrôle du commerce (CCL) du code ECCN. Par exemple, pour le code ECCN *3A001*, cette valeur est *3*. |
     | Groupe à double usage | Saisissez la partie Groupe de produits du code ECCN. Par exemple, pour le code ECCN *3A001*, cette valeur est *A*. |
-    | Régime applicable aux biens à double usage | Entrer le code de régime pour l’article. Ce code identifie la raison pour laquelle l’article est classé comme bien à double usage. Par exemple, pour le code ECCN *3A001*, cette valeur est *001*. |
+    | Régime applicable aux biens à double usage | Entrer le code de régime pour l'article. Ce code identifie la raison pour laquelle l'article est classé comme bien à double usage. Par exemple, pour le code ECCN *3A001*, cette valeur est *001*. |
 
 ## <a name="apply-dual-use-categories-to-products"></a>Appliquer des catégories de biens à double usage aux produits
 
@@ -82,8 +85,8 @@ Pour identifier un produit comme un bien à double usage et lui appliquer une ca
 
 1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
 1. Sélectionnez ou créez un produit pour ouvrir sa page **Détails des produits lancés**.
-1. Dans l’organisateur **Commerce extérieur**, définissez l’option **Produits à double usage** sur **Oui** pour identifier le produit actuel comme un bien à double usage.
-1. Définissez le champ **Code de double usage** sur le code qui s’applique au produit actuel. (Vous avez défini ce code sur la page **Catégories de biens à double usage**.)
+1. Dans l'organisateur **Commerce extérieur**, définissez l'option **Produits à double usage** sur **Oui** pour identifier le produit actuel comme un bien à double usage.
+1. Définissez le champ **Code de double usage** sur le code qui s'applique au produit actuel. (Vous avez défini ce code sur la page **Catégories de biens à double usage**.)
 
 Cette configuration est vérifiée lorsque vous créez une commande client.
 
@@ -97,7 +100,7 @@ Vous utilisez la page **Certificats de double usage** pour configurer et gérer 
 
     | Champ | Description |
     |---|---|
-    | numéro d’article | Sélectionnez le numéro d’article du bien à double usage auquel ce certificat s’applique. |
+    | numéro d'article | Sélectionnez le numéro d'article du bien à double usage auquel ce certificat s'applique. |
     | Pays/région | Le pays ou la région de destination où vous devez utiliser ce certificat. |
     | Numéro de certificat | Le numéro qui apparaît sur le certificat délivré au fournisseur ou au client. |
     | Effective | Sélectionnez la date de début de validité du certificat.|
@@ -105,6 +108,3 @@ Vous utilisez la page **Certificats de double usage** pour configurer et gérer 
     | Imprimer sur la facture | Cochez cette case pour imprimer le numéro de certificat sur les factures adressées au pays spécifié pendant la plage de dates spécifiée. |
     | Imprimer sur le bon de livraison | Cochez cette case pour imprimer le numéro de certificat sur les bons de livraison adressés au pays spécifié pendant la plage de dates spécifiée. |
     | Imprimer sur la commande client | Cochez cette case pour imprimer le numéro de certificat sur les commandes client adressées au pays spécifié pendant la plage de dates spécifiée. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

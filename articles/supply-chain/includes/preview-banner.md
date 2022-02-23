@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5f2aa0690279e82f94c37be2306a356b0c72075b57a02097224a3a7b9d06c67a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 589eee5c8577acefba6b7205a5e74dcdfad22e90
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459020"
 ---
 > [!IMPORTANT]
-> Tout ou partie de la fonctionnalité décrite dans cette rubrique est accessible dans le cadre d’une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d’informations sur les préversions, voir [FAQ sur les mises à jour de service à une version](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+> Tout ou partie de la fonctionnalité décrite dans cette rubrique est accessible dans le cadre d’une version préliminaire. Le contenu et la fonctionnalité peuvent faire l'objet de modifications. Pour plus d'informations sur les préversions, voir [FAQ sur les mises à jour de service à une version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

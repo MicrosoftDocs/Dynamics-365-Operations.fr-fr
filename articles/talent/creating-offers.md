@@ -153,6 +153,3 @@ Une offre peut être retirée à un candidat à tout moment pour différents mot
 ## <a name="closing-an-offer"></a>Clôture de l'offre 
 
 Lorsqu'une offre a été acceptée, refusée, ou retirée sans autres actions nécessaires, vous pouvez fermer l'offre afin qu'aucune autre modification ne puisse être effectuée à ce package d'offre.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

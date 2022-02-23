@@ -1,10 +1,12 @@
 ---
 title: Guides de tâches nouveaux ou mis à jour (novembre 2016)
-description: Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+description: Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,20 +16,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c422b0d24c3f7bd4cd9b4b4d00fb26597bfdebb
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728125"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796680"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Guides de tâches nouveaux ou mis à jour (novembre 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (novembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 
-La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platform update 3, Microsoft Dynamics AX Platform update 2, la mise à jour 2 de l’application Dynamics AX mai 2016 et la version de février 2016 de Microsoft Dynamics AX . Pour plus d’informations sur ces versions, voir [page d’accueil Nouveautés ou changements dans Finance and Operations](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d’aide](help-overview.md).
+La bibliothèque unifiée APQC (novembre 2016 - toutes les langues) contient les guides de tâches qui sont destinés à être utilisés pour de l’aide avec Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platform update 3, Microsoft Dynamics AX Platform update 2, la mise à jour 2 de l’application Dynamics AX mai 2016 et la version de février 2016 de Microsoft Dynamics AX . Pour plus d’informations sur ces versions, voir [page d’accueil Nouveautés ou changements dans Finance and Operations](whats-new-changed.md). Les versions localisées aux guides de tâche sont disponibles dans cette bibliothèque. Pour plus d’informations sur la façon de se connecter au système d’aide dans une bibliothèque de guide de tâche, voir [Système d’aide](help-overview.md).
 
 > [!NOTE]
 > Un astérisque (\*) en regard du titre d’une ligne de Concepteur de processus d’entreprise indique que le guide de tâche de ce processus a été créé pour la mise à jour de novembre 2016 de Dynamics 365 for Operations et qu’il n’est pas pris en charge dans les versions antérieures de Microsoft Dynamics AX.
@@ -186,7 +188,7 @@ La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient l
 | ER Configurer le format pour effectuer le comptage et la synthèse (Partie 2 : Configurer les calculs)                                                  | Allemagne                           |
 | ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 : Utiliser les calculs pour générer la sortie)                                     | Allemagne                           |
 | ER Configurer le format pour effectuer le comptage et la synthèse (Partie 4 : Exécuter le format)                                                              | Allemagne                           |
-| Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif                                                                         | Allemagne                           |
+| Génération d’états électroniques - Créer un fournisseur de configuration et le marquer comme actif                                                                         | Allemagne                           |
 | ER Concevoir une configuration pour générer des états au format Microsoft WORD (novembre 2016)                                        | Allemagne                           |
 | ER Concevoir un modèle de données spécifiques au domaine (novembre 2016)                                                                             | Allemagne                           |
 | ER Charger une configuration à partir de Lifecycle Services                                                                                | Allemagne                           |
@@ -245,7 +247,7 @@ La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient l
 | Recherches des transactions liées à l’obligation de suppression des immobilisations                                                                | Japon                             |
 | Recherche des dépenses déductibles                                                                                                   | Japon                             |
 | JP-00005 Journal de saisie dans l’écran de compte T (Japon)                                                                                 | Japon                             |
-| JP-00011 Facture consolidée – Ventes – Créer et confirmer une facture consolidée client                                          | Japon                             |
+| JP-00011 Facture consolidée - Ventes - Créer et confirmer une facture consolidée client                                          | Japon                             |
 | JP-00027 Écran 26 pour la déclaration de taxe amortissable                                                                                 | Japon                             |
 | Tenir à jour les fichiers de données principales d’immobilisation pour les dépenses déductibles                                                                   | Japon                             |
 | Tenir à jour les indicateurs de dégradation sur les immobilisations individuelles                                                                              | Japon                             |
@@ -288,7 +290,7 @@ La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient l
 | MX-00010 Définir les paramètres d’une facture électronique                                                                                | Mexique                            |
 | MX-00020 : Produire l’état de comptabilité générale électronique version 1.1                                                        | Mexique                            |
 | MX-00020 Paramétrer le plan de comptes d’une entité juridique au Mexique                                                               | Mexique                            |
-| MX-00020 – Spécifier l’ID enregistrement RFC des comptes bancaires mexicains                                                             | Mexique                            |
+| MX-00020 - Spécifier l’ID enregistrement RFC des comptes bancaires mexicains                                                             | Mexique                            |
 | NL-00003 Intégration Semansys XBRL                                                                                               | Pays-Bas                       |
 | NL-00010 Déclarations de taxe électronique (EVAT)                                                                                      | Pays-Bas                       |
 | MY-00003 Gérer les notes de débit et d’avoirs client pour la GST                                                                      | Singapour, Malaisie et Thaïlande |
@@ -297,7 +299,7 @@ La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient l
 | MY-00006 01 Définir les clauses d’allègement GST                                                                                            | Singapour, Malaisie et Thaïlande |
 | MY-00006 02 Imprimer les factures client de GST avec une clause d’allègement                                                                     | Singapour, Malaisie et Thaïlande |
 | MY-00007 Autofacturation                                                                                                    | Singapour, Malaisie et Thaïlande |
-| MY-00010 GST – générer des fichiers de GAF au format requis                                                                         | Singapour, Malaisie et Thaïlande |
+| MY-00010 GST - générer des fichiers de GAF au format requis                                                                         | Singapour, Malaisie et Thaïlande |
 | MY-00011 02 Générer la note de débit client pour les ventes de projet                                                                       | Singapour, Malaisie et Thaïlande |
 | MY-00011 03 Générer l’avoir client pour les ventes de projet                                                                      | Singapour, Malaisie et Thaïlande |
 | Création d’une commande fournisseur qui inclut des articles soumis à la TVA au preneur                                                        | Royaume-Uni                    |
@@ -545,6 +547,3 @@ La bibliothèque unifiée APQC (novembre 2016 – toutes les langues) contient l
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

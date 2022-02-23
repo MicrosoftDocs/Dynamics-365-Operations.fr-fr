@@ -1,58 +1,63 @@
 ---
-title: Prise en charge du tableau de transfert kanban pour les lecteurs de codes à barres
-description: La tableau de transfert kanban prend en charge l’entrée de scanneur à partir d’un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
-author: johanhoffmann
+title: Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
+description: La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566809"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428115"
 ---
-# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Prise en charge du tableau de transfert kanban pour les lecteurs de codes à barres
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
 
 [!include [banner](../includes/banner.md)]
 
-La tableau de transfert kanban prend en charge l’entrée de scanneur à partir d’un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
+La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
 
-## <a name="registration-modes"></a>Modes d’enregistrement
+<a name="registration-modes"></a>Modes d'enregistrement
+------------------
 
-Dans l’organisateur **Enregistrement du scanneur**, vous pouvez sélectionner le mode d’enregistrement, qui contrôle l’action lorsque vous numérisez un numéro de carte kanban ou entrez manuellement le numéro dans le champ Numéro de carte kanban.
+Dans l'organisateur **Enregistrement du scanneur**, vous pouvez sélectionner le mode d'enregistrement, qui contrôle l'action lorsque vous numérisez un numéro de carte kanban ou entrez manuellement le numéro dans le champ Numéro de carte kanban.
 
-| Définir le mode d’enregistrement | Description                                                                                     |
+| Définir le mode d'enregistrement | Description                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Commencer                 | Enregistre une opération de transfert de kanban avec le statut « En cours ».                                                 |
 | Terminée              | Enregistre une opération de transfert de kanban avec le statut « Terminé ».                                                   |
-| Vide                 | Enregistre l’unité de manutention du matériel référencée par une carte kanban avec le statut « Vide ».              |
-| Sélectionner                | Enregistre un numéro de carte kanban et sélectionne automatiquement l’opération référencée dans la liste du kanban. |
+| Vide                 | Enregistre l'unité de manutention du matériel référencée par une carte kanban avec le statut « Vide ».              |
+| Sélectionner                | Enregistre un numéro de carte kanban et sélectionne automatiquement l'opération référencée dans la liste du kanban. |
 
- 
-## <a name="registration-mode-select"></a>Sélection du mode d’enregistrement
+ 
+Sélection du mode d'enregistrement
+------------------------
 
-Lorsque vous utilisez un lecteur de codes-barres pour sélectionner une tâche, le mode d’affichage du tableau kanban change. Dans ce mode, les conditions suivantes s’appliquent :
+Lorsque vous utilisez un lecteur de codes-barres pour sélectionner une tâche, le mode d'affichage du tableau kanban change. Dans ce mode, les conditions suivantes s'appliquent :
 
--   Seule la tâche de kanban numérisée s’affiche.
--   Les détails de la tâche sélectionnée s’affichent dans l’organisateur **Détails**.
--   L’organisateur **Messages** affiche les messages uniquement pour la tâche sélectionnée.
--   Vous pouvez modifier le statut de la tâche à l’aide des fonctions disponibles dans le volet Actions. Le tableau de transfert kanban continue à n’afficher qu’une seule tâche pendant ce temps.
--   Vous pouvez mettre à jour les informations de la liste de tâches manuellement en cliquant sur **Actualiser** (Maj+F5) dans le volet Actions. Après avoir actualisé les informations, les résultats complets pour le filtre de tâches s’affichent à nouveau.
+-   Seule la tâche de kanban numérisée s'affiche.
+-   Les détails de la tâche sélectionnée s'affichent dans l'organisateur **Détails**.
+-   L'organisateur **Messages** affiche les messages uniquement pour la tâche sélectionnée.
+-   Vous pouvez modifier le statut de la tâche à l'aide des fonctions disponibles dans le volet Actions. Le tableau de transfert kanban continue à n'afficher qu'une seule tâche pendant ce temps.
+-   Vous pouvez mettre à jour les informations de la liste de tâches manuellement en cliquant sur **Actualiser** (Maj+F5) dans le volet Actions. Après avoir actualisé les informations, les résultats complets pour le filtre de tâches s'affichent à nouveau.
 
 ## <a name="job-status-and-possible-actions"></a>Statut de tâche et actions possibles
-Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kanbans d’événement déterminent si vous pouvez poursuivre le traitement de la tâche. Le tableau suivant affiche des informations sur ces statuts et tâches :
+Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kanbans d'événement déterminent si vous pouvez poursuivre le traitement de la tâche. Le tableau suivant affiche des informations sur ces statuts et tâches :
 -   Statuts disponibles pour les tâches ou pour les unités de manutention référencées par les tâches.
 -   Chaque tâche que vous pouvez exécuter pour la tâche.
 
@@ -70,13 +75,13 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 <thead>
 <tr class="header">
 <th>Type de tâche</th>
-<th>Statut de la tâche ou statut de l’unité de manutention</th>
+<th>Statut de la tâche ou statut de l'unité de manutention</th>
 <th>Mettre à jour les prélèvements</th>
 <th>Commencer</th>
-<th>Mettre à jour l’enregistrement</th>
+<th>Mettre à jour l'enregistrement</th>
 <th>Terminée</th>
 <th>Vide</th>
-<th>Créer des kanbans d’événement</th>
+<th>Créer des kanbans d'événement</th>
 </tr>
 </thead>
 <tbody>
@@ -97,7 +102,7 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 <td>Transfert</td>
 <td><ul>
 <li>Non planifié</li>
-<li>La tâche liée n’est pas terminée</li>
+<li>La tâche liée n'est pas terminée</li>
 </ul></td>
 <td>Oui</td>
 <td>Non</td>
@@ -148,7 +153,7 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 </tr>
 <tr class="odd">
 <td>Transfert ou processus</td>
-<td>Une carte kanban est détectée, mais elle n’est pas affectée à un kanban</td>
+<td>Une carte kanban est détectée, mais elle n'est pas affectée à un kanban</td>
 <td>Non</td>
 <td>Non</td>
 <td>Non</td>
@@ -187,6 +192,3 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

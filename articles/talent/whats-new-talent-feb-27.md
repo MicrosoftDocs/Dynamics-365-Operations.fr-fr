@@ -141,6 +141,3 @@ Pour mettre à jour votre modèle existant, procédez comme suit.
     9. Sur la page **Tâche de mise en correspondance**, sélectionnez la nouvelle colonne comme source pour créer une autre mise en correspondance pour HIERARCHYTYPENAME.
 
         [![Mise en correspondance](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

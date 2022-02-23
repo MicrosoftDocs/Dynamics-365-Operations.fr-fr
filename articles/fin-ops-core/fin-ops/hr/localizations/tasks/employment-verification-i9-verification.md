@@ -2,61 +2,55 @@
 title: Vérification d’emploi i9 vérification
 description: Aux États-Unis, l’IRCA (Immigration Reform and Control Act) requiert que les employeurs vérifient l’admissibilité des employés nouvellement engagés.
 author: ShielaSogge
-ms.date: 01/10/2022
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ab03e28b3e42d02395da01024bc3bcf4dbcd5abf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065679"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798092"
 ---
 # <a name="employment-verification-i9-verification"></a>Vérification d’emploi i9 vérification
 
 [!include [banner](../../../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
-
 Aux États-Unis, l’IRCA (Immigration Reform and Control Act) requiert que les employeurs vérifient l’admissibilité des employés nouvellement engagés. Cette procédure décrit les étapes pour enregistrer les documents nécessaires à la vérification du Formulaire I-9. Utilisez la société fictive USMF pour cette procédure.
 
-1. Accédez à **Ressources humaines \> Collaborateurs \> Employés**.
-2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ **Nom** avec la valeur **Vince**.
-3. Sélectionnez l’employé. Par exemple, sélectionnez **Vince Prado**.
-4. Sélectionnez le raccourci **Informations personnelles**.
-5. Sélectionnez **Numéros d’identification**.
-6. Cliquez sur **Nouveau**.
-7. Sélectionnez le type d’identification que vous enregistrez. Par exemple, sélectionnez **Passeport**.
-8. Dans le champ **Nombre**, entrez une valeur.
-9. Dans le champ **Principal**, sélectionnez **Oui**.
-10. Dans le champ **Description**, entrez une brève description de l’enregistrement d’identification.
-11. Dans le champ **Organisme émetteur**, sélectionnez l’agence ayant délivré le document d’identification du collaborateur. Par exemple, sélectionnez **Gouvernement**.
-12. Entrez la date à laquelle l’agence a délivré le document d’identification du collaborateur. Par exemple, entrez **15/02/2011** (15 février 2011).
-13. Entrez la date d’expiration du document d’identification. Par exemple, entrez **15/02/2021** (15 février 2021).
-14. Cliquez sur **Enregistrer**.
+1. Accédez à Ressources humaines > Collaborateurs > Employés.
+2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Nom avec une valeur de « Vince ».
+3. Sélectionnez l’employé. Exemple : Vince Prado
+4. Développez Organisateur des informations personnelles.
+5. Cliquez sur Numéros d’identification.
+6. Cliquez sur Nouveau.
+7. Sélectionnez le type d’identification que vous enregistrez. Exemple : Passeport
+8. Tapez une valeur dans le champ Nombre.
+9. Sélectionnez Oui dans le champ Principal.
+10. Dans le champ Description, entrez une brève description de l’enregistrement d’identification.
+11. Sélectionnez l’agence ayant délivré le document d’identification du collaborateur. Exemple : Gouvernement
+12. Entrez la date à laquelle l’agence a délivré le document d’identification du collaborateur. Exemple : 15/02/2011
+13. Entrez la date d’expiration du document d’identification. Exemple : 15/02/2021
+14. Cliquez sur Enregistrer.
 15. Fermez la page.
-16. Sélectionnez l’onglet **Emploi**.
-17. Sélectionnez **I-9**.
-18. Cliquez sur **Nouveau**.
-19. Dans le champ **Éligibilité du collaborateur**, sélectionnez une option.
+16. Cliquez sur l’onglet Emploi.
+17. Cliquez sur I-9.
+18. Cliquez sur Nouveau.
+19. Dans le champ Éligibilité du collaborateur, sélectionnez une option.
+    * Si l’employé n’est pas un citoyen ou un ressortissant des États‑Unis, vous devez également entrer la date jusqu’à laquelle l’employé est autorisé à travailler ou son numéro d’admission.  
+20. Sélectionnez l’option GroupListA.
+    * La liste que vous sélectionnez dépend du formulaire d’identification que le travailleur a fourni. Un travailleur doit fournir un document de la liste A ou un document de la liste B et C. Par exemple, si le travailleur a fourni un passeport, alors la liste A doit être sélectionnée. Toutefois, si le travailleur a fourni uniquement son permis de conduire et sa carte de sécurité sociale, alors les listes B et C doivent être sélectionnées.  
+21. Dans le champ Type de document I-9, sélectionnez le type de document que le collaborateur a fourni.
+22. Entrez ou sélectionnez une valeur dans le champ Numéro de référence.
+23. Cliquez sur Enregistrer.
 
-    Si l’employé n’est pas un citoyen ou un ressortissant des États‑Unis, vous devez également entrer la date jusqu’à laquelle l’employé est autorisé à travailler ou son numéro d’admission.
-
-20. Sélectionnez l’option **GroupListA**.
-
-    La liste que vous sélectionnez dépend du formulaire d’identification que le collaborateur a fourni. Un collaborateur doit fournir soit un document de la liste A, soit un document de la liste B et de la liste C. Par exemple, si le collaborateur a fourni un passeport, vous pouvez sélectionner la liste A. Cependant, si le collaborateur n’a fourni qu’un permis de conduire et une carte de sécurité sociale, vous devez sélectionner la liste B et la liste C.
-
-21. Dans le champ **Type de document I-9**, sélectionnez le type de document que le collaborateur a fourni.
-22. Entrez ou sélectionnez une valeur dans le champ **Numéro du document**.
-23. Cliquez sur **Enregistrer**.
-
-[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

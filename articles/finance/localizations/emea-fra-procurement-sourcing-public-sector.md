@@ -2,25 +2,28 @@
 title: Approvisionnements dans le secteur public en France
 description: Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, PurchAgreement, SysPolicy
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 19891
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df14b2a8fc1cccba219877ea2baff6aa1e9b782513d8ca4d212c5204addaa70f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9394d0678f9a88995b53e80337d5832ddcb7a2ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766275"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407945"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 
@@ -28,7 +31,8 @@ ms.locfileid: "6766275"
 
 Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics. 
 
-## <a name="set-spending-thresholds-by-procurement-category"></a>Définition de seuils de dépense par catégorie d’approvisionnement
+<a name="set-spending-thresholds-by-procurement-category"></a>Définition de seuils de dépense par catégorie d’approvisionnement
+-----------------------------------------------
 
 Pour définir des seuils de dépenses pour les achats dans les catégories d’approvisionnement définies par la Clé de Contrôle Marché, vous pouvez utiliser la règle de stratégie d’achat **Seuils de dépense par catégorie**. La mise en œuvre de cette règle de stratégie d’achat afin de contrôler les seuils de dépense par catégorie vous permet d’utiliser les attributs de la date d’effet, les montants des dépenses prévues, ainsi que les montants des seuils afin de prendre en charge vos pratiques d’approvisionnement et d’aider à garantir l’utilisation décisive et efficace des fonds publics.
 
@@ -58,6 +62,3 @@ Vous pouvez créer des classifications de contrat d’achat qui ajoutent des cha
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

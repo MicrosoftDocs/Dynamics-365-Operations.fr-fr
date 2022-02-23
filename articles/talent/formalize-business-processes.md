@@ -73,6 +73,3 @@ Pour créer ou copier un modèle de processus d'entreprise, ou pour démarrer un
 
 Pour afficher les processus actifs et les tâches associées, ouvrez l'espace de travail **Processus d'entreprise**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

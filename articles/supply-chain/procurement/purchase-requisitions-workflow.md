@@ -1,10 +1,12 @@
 ---
 title: workflow de demande d’achat
 description: Le processus de workflow déplace les demandes d’achat via le processus de révision, depuis le statut initial de Brouillon jusqu’au statut final Approuvé. Lorsqu’une demande d’achat est envoyée pour révision, le processus de workflow démarre. Lorsqu’une demande d’achat est approuvée, une commande fournisseur peut être générée pour les lignes de la demande d’achat et soumise au fournisseur pour honorer une commande.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569455"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021978"
 ---
 # <a name="purchase-requisition-workflow"></a>workflow de demande d’achat
 
@@ -51,7 +53,7 @@ L’illustration suivante indique le flux d’une demande d’achat dans le proc
 -   **Acheteur** : utilisateur qui effectue une révision d’approvisionnement et peut approuver le document.
 -   **Responsable du demandeur** : utilisateur qui effectue une révision décisionnelle et peut approuver le document.
 
-![Processus de révision du workflow des demandes d’achat.](./media/purchreqworkflowoverview_submission.gif)  
+![Processus de révision du workflow des demandes d’achat](./media/purchreqworkflowoverview_submission.gif)  
 Dans cet exemple, le processus de workflow de la demande d’achat inclut les étapes suivantes :
 
 1.  Le préparateur envoie une demande d’achat pour révision.
@@ -74,7 +76,7 @@ Les rôles suivants sont inclus dans le processus de workflow pour cet exemple :
 -   **Responsable de département** : utilisateur qui effectue une révision des dépenses et peut approuver le document.
 -   **Responsable de groupe** : utilisateur qui effectue une révision d’autorité de signature et peut approuver le document.
 
-![Processus de révision du workflow de la ligne de demande d’achat.](./media/purchreqlineworkflowoverview.gif)  
+![Processus de révision du workflow de la ligne de demande d’achat](./media/purchreqlineworkflowoverview.gif)  
 Dans cet exemple, le processus de workflow pour les lignes de demande d’achat inclut les étapes suivantes :
 
 1.  Le préparateur envoie une demande d’achat pour révision. Chaque ligne est acheminée vers le réviseur configuré pour la recevoir dans le processus de workflow.
@@ -105,7 +107,8 @@ Vous pouvez paramétrer les réviseurs de dépenses dans la page **Réviseurs de
 
 Pour utiliser l’un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l’option **Type de participant** sur **Participants aux dépenses** dans les propriétés **Affectation** de l’élément de workflow approprié.
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
 [Créer une demande de consommation](tasks/create-requisition-consumption.md)
 
@@ -117,6 +120,3 @@ Pour utiliser l’un des réviseurs de dépenses que vous paramétrez dans un wo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

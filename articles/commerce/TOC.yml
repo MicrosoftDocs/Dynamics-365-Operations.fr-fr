@@ -4,15 +4,13 @@
       items:
         - name: Page d’accueil de Dynamics 365 Commerce
           href: index.md
-        - name: Démarrage
+        - name: Mise en route
           items:
-            - name: Description de service
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Avant d’acheter
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: Mises à jour du service One Version
               items:
-                - name: Vue d’ensemble des mises à jour du service One Version
+                - name: Vue d’ensemble des mises à jour de service à une version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: FAQ sur les mises à jour de service à une version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
@@ -50,7 +48,7 @@
                   href: cpe-post-provisioning.md
                 - name: Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurer des fonctions facultatives pour un environnement d’évaluation Dynamics 365 Commerce
+                - name: Configurer des fonctionnalités facultatives pour un environnement d’évaluation Dynamics 365 Commerce
                   href: cpe-optional-features.md
                 - name: FAQ des environnements d’évaluation Dynamics 365 Commerce
                   href: cpe-faq.md
@@ -58,7 +56,7 @@
               items:
                 - name: Options de déploiement
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/commerce/toc.json
-                - name: Comparaison des fonctions dans le cloud et sur site
+                - name: Comparaison des fonctionnalités dans le cloud et sur site
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
                 - name: Déploiement cloud
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
@@ -68,12 +66,16 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Configuration requise pour les déploiements locaux
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: Étapes d’installation des composants du canal Retail dans un environnement sur site
+                - name: Étapes d’installation des composants du canal de vente au détail dans un environnement sur site
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Conseils de mise en œuvre de Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
+                - name: Applications Finance and Operations exploitées par 21Vianet en Chine
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: Applications Finance and Operations en France
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Obtenir de l’aide
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Mise à niveau et prise en charge N-1
@@ -86,27 +88,25 @@
                   href: dev-itpro/RetailSDK-update.md
             - name: Nouveautés ou modifications
               items:
-                - name: Nouveautés ou modifications dans les applications de finances et d’opérations
+                - name: Nouveautés ou modifications dans les applications Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Nouveautés ou modifications dans Commerce
                   items:
-                    - name: Nouveautés ou modifications dans la page d’accueil de Commerce
+                    - name: Nouveautés ou modifications dans la page d’accueil Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: "Commerce\_10.0.25 (avril\_2022)"
-                      href: get-started/whats-new-commerce-10-0-25.md
-                    - name: "Commerce\_10.0.24 (février\_2022)"
-                      href: get-started/whats-new-commerce-10-0-24.md
-                    - name: "Commerce\_10.0.23 (janvier\_2022)"
-                      href: get-started/whats-new-commerce-10-0-23.md
-                - name: Fonctions supprimées ou déconseillées
+                    - name: "Commerce\_10.0.16 (février\_2021)"
+                      href: get-started/whats-new-commerce-10-0-16.md
+                    - name: Commerce 10.0.15 (janvier 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
+                    - name: "Commerce\_10.0.14 (novembre\_2020)"
+                      href: get-started/whats-new-commerce-10-0-14.md
+                - name: Fonctionnalités supprimées ou obsolètes
                   items:
-                    - name: Page d’accueil des fonctions supprimées ou déconseillées
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Fonctions supprimées ou déconseillées dans Finance and Operations
+                    - name: Fonctionnalités supprimées ou obsolètes dans Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
-                    - name: Fonctions supprimées ou déconseillées dans Dynamics 365 Commerce
+                    - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
-                - name: "Fonctions d’AX\_2012 ayant été reportées"
+                - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
@@ -126,11 +126,13 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Vidéos
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+                - name: Glossaire
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Catalogue d’apprentissage
               items:
                 - name: Page d’accueil du catalogue d’apprentissage
                   href: ./get-started/learning-catalog.md
-                - name: Décisionnaires
+                - name: Décideurs
                   href: ./get-started/learning-catalog-bdm.md?
                 - name: Utilisateurs professionnels
                   href: ./get-started/learning-catalog-business-user.md
@@ -152,7 +154,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/commerce/toc.json
                 - name: Fonctions d’accessibilité
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/commerce/toc.json
-                - name: Vue d’ensemble de la gestion des fonctions
+                - name: Vue d’ensemble de la gestion des fonctionnalités
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: FAQ sur le client
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/commerce/toc.json
@@ -180,8 +182,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Incorporer des applications canevas à partir de Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
-                - name: Incorporer des applications tierces
-                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Trouver des informations à l’aide des recherches
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Modifier la date d’une session
@@ -190,15 +190,73 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Comprendre Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+        - name: Vue d’ensemble architecturale
+          items:
+            - name: Architecture
+              items:
+                - name: Vue d’ensemble architecturale de Dynamics 365 Commerce
+                  href: commerce-architecture.md
+                - name: Flux d’authentification de Dynamics 365 Commerce
+                  href: arch-auth-flow.md
+                - name: Conditions requises pour le contrôle de version du composant Dynamics 365 Commerce
+                  href: arch-component-versioning.md
+                - name: Architecture de Commerce Scale Unit
+                  href: dev-itpro/retail-server-architecture.md
+                - name: Sélectionner une topologie en magasin
+                  href: dev-itpro/retail-in-store-topology.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Recommandations relatives à Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange et communications du canal commercial
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Résolution des problèmes avec Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
+                - name: Architecture de Modern POS
+                  href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Architecture de publication de magasin en ligne
+                  href: dev-itpro/retail-online-store-publishing-architecture.md
+                - name: Contenu Retail Channel Performance Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Certification PA-DSS (Payment Application Data Security Standards)
+                  href: dev-itpro/PA-DSS-Certification.md
+                - name: Fonctionnalités de Commerce disponibles dans les déploiements locaux
+                  href: retail-onprem.md
+            - name: Déploiement et correctifs
+              items:
+                - name: Synchronisation des programmes d’installation en libre-service dans Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
+                - name: Commerce Scale Unit (auto-hébergé)
+                  href: dev-itpro/retail-store-system-begin.md
+                - name: Configurer et installer Commerce Scale Unit (auto-hébergé)
+                  href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+                - name: Configuration et installation de MPOS
+                  href: retail-modern-pos-device-activation.md
+                - name: Gérer les comptes et les périphériques depuis le siège
+                  href: set-up-activation-accounts-validate-devices-hq.md
+                - name: Activation de périphérique POS
+                  href: dev-itpro/retail-device-activation.md
+                - name: Aide à sécuriser CPOS dans les environnements partagés
+                  href: dev-itpro/secure-retail-cloud-pos.md
+                - name: Installation et configuration de Retail Hardware Station
+                  href: retail-hardware-station-configuration-installation.md
+                - name: Déploiement en masse des composants en libre-service
+                  href: dev-itpro/retail-mass-deployment.md
+                - name: Événements des composants Commerce pour les diagnostics et le dépannage
+                  href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+                - name: Appliquer un package déployable
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Initialisation des données d’origine dans de nouveaux environnements Commerce
+                  href: enable-configure-retail-functionality.md
             - name: Gestion du cycle de vie de l’implémentation
               items:
-                - name: Page d'accueil de gestion du cycle de vie de l'implémentation
+                - name: Page d’accueil de gestion du cycle de vie de l’implémentation
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Architecture des applis Finance and Operations
+                - name: Architecture des applications Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
-                - name: Intégrer un projet d'implémentation
+                - name: Microsoft FastTrack for Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Intégrer un projet d’implémentation
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Planification de l’environnement
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
@@ -220,78 +278,14 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Implémentation de projets Finance and Operations Commerce
+                - name: Implémenter des projets Finance and Operations Commerce
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Paramétrer de nouveaux environnements, Azure DevOps et branches pour les projets'
+                - name: 'Paramétrer de nouveaux environnements, Azure DevOps et branches pour les projets Commerce'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
                 - name: Mise à jour du code et des environnements pour les projets Commerce
                   href: dev-itpro/updating-environments.md
                 - name: Problèmes de test et de performances
                   href: dev-itpro/retail-implementation-testing-performance.md
-        - name: Vue d’ensemble architecturale
-          items:
-            - name: Architecture
-              items:
-                - name: Vue d’ensemble architecturale de Dynamics 365 Commerce
-                  href: commerce-architecture.md
-                - name: Flux d’authentification de Dynamics 365 Commerce
-                  href: arch-auth-flow.md
-                - name: Conditions requises pour le contrôle de version du composant Dynamics 365 Commerce
-                  href: arch-component-versioning.md
-                - name: Architecture de commerce sans affichage
-                  href: dev-itpro/retail-server-architecture.md
-                - name: Sélectionner une topologie en magasin
-                  href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange
-                  items:
-                    - name: Recommandations relatives à Commerce Data Exchange
-                      href: dev-itpro/CDX-Best-Practices.md
-                    - name: Commerce Data Exchange et communications du canal commercial
-                      href: dev-itpro/define-retail-channel-communications-cdx.md
-                    - name: Résolution des problèmes avec Commerce Data Exchange
-                      href: dev-itpro/CDX-Troubleshooting.md
-                    - name: Tri des packages Commerce Data Exchange par index principal
-                      href: CDX-package-sort.md
-                - name: Architecture de Modern POS
-                  href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Mise en œuvre et résolution des problèmes hors connexion de Commerce
-                  href: dev-itpro/implementation-considerations-offline.md
-                - name: Publication d’un catalogue de commerce en ligne
-                  href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: Contenu de Power BI Retail Channel Performance
-                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Certification PA-DSS (Payment Application Data Security Standards)
-                  href: dev-itpro/PA-DSS-Certification.md
-                - name: Fonctions de Commerce disponibles dans les déploiements locaux
-                  href: retail-onprem.md
-            - name: Déploiement et correctifs
-              items:
-                - name: Synchronisation des programmes d’installation en libre-service dans Dynamics 365 Commerce
-                  href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit (auto-hébergé)
-                  href: dev-itpro/retail-store-system-begin.md
-                - name: Configurer et installer Commerce Scale Unit (auto-hébergé)
-                  href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: Configuration et installation de Modern POS
-                  href: retail-modern-pos-device-activation.md
-                - name: Gérer les comptes et les périphériques depuis le siège
-                  href: set-up-activation-accounts-validate-devices-hq.md
-                - name: Activation de périphérique de PDV
-                  href: dev-itpro/retail-device-activation.md
-                - name: Aide à sécuriser CPOS dans les environnements partagés
-                  href: dev-itpro/secure-retail-cloud-pos.md
-                - name: Installation et configuration de Retail Hardware Station
-                  href: retail-hardware-station-configuration-installation.md
-                - name: Déploiement en masse de composants en libre-service Commerce hérités
-                  href: dev-itpro/Enhanced-Mass-Deployment.md
-                - name: Déploiement en masse de composants en libre-service hérités
-                  href: dev-itpro/retail-mass-deployment.md
-                - name: Événements de composants Commerce pour le diagnostic et le dépannage
-                  href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
-                - name: Appliquer un package déployable
-                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Initialisation des données d’origine dans de nouveaux environnements Commerce
-                  href: enable-configure-retail-functionality.md
         - name: Configurer vos canaux
           items:
             - name: Vue d’ensemble des canaux
@@ -316,13 +310,13 @@
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
                         - name: Définir les relations entre les unités de l’organisation
                           href: tasks/design-relationships-between-organizational-units.md
-                    - name: Configuration de l’entrepôt
+                    - name: Définition d’entrepôt
                       href: channels-setup-warehouse.md
                     - name: Paramétrage de taxe
                       items:
                         - name: Vue d’ensemble des taxes
                           href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json
-                        - name: Méthodes de calcul de la taxe
+                        - name: Modes de calcul de la taxe
                           href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/commerce/toc.json
                         - name: Affectation et remplacement des taxes
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
@@ -332,7 +326,7 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Configurer la taxe pour les commandes en ligne
                           href: sales-tax-config.md
-                    - name: Configurer un profil de notification par courrier électronique
+                    - name: Configurer un profil de notification par e-mail
                       href: email-notification-profiles.md
                     - name: Souches de numéros
                       items:
@@ -372,7 +366,7 @@
                       href: pos-operations.md
                     - name: Activation de l’appareil d’un Modern POS personnalisé
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Configurer l’authentification Azure Active Directory pour la connexion au PDV
+                    - name: Activer l’authentification Azure Active Directory pour la connexion au PDV
                       href: aad-pos-logon.md
                     - name: Recherche de produits et de clients dans le PDV
                       href: POS-search-improvements.md
@@ -380,6 +374,8 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Améliorations de la gestion des disponibilités
                       href: cash-mgmt.md
+                    - name: Recherche de stock dans le PDV
+                      href: product-variants-POS.md
                     - name: Interrompre et reprendre des transactions dans le PDV
                       href: pos-suspend-recall-transactions.md
                     - name: Fonctionnalité de PDV hors connexion
@@ -412,7 +408,7 @@
                           href: demo-data.md
                         - name: Configurations visuelles de l’interface utilisateur de PDV
                           href: pos-screen-layouts.md
-                        - name: Installer le concepteur de dispositions de PDV
+                        - name: Installer le concepteur de mise en page de PDV
                           href: install-pos-layout-designer.md
                         - name: Choisir les paramètres de notification
                           href: Notifications-POS.md
@@ -446,7 +442,7 @@
                   items:
                     - name: Paramétrer et créer des formats de réception
                       href: receipt-templates-printing.md
-                    - name: Envoyer des accusés de réception par courrier électronique depuis Modern POS (MPOS)
+                    - name: Envoyer des accusés de réception par e-mail depuis MPOS
                       href: email-receipts.md
                     - name: Réinitialiser les numéros d’accusé de réception
                       href: reset_receipt_number_sequence.md
@@ -508,8 +504,6 @@
                       href: payment-methods.md
                     - name: Modes de paiement dans les centres d’appels
                       href: work-with-payments.md
-                    - name: Traitement des remboursements dans les centres d’appels
-                      href: call-center-refund-payments.md
                     - name: 'Paramétrage, autorisation et capture de carte de crédit'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Configurer les dénominations des espèces pour le PDV
@@ -518,17 +512,9 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Ignorer la boîte de dialogue Monnaie due dans le PDV
                       href: dev-itpro/skip-change-due.md
-                    - name: Dynamics 365 Payment Connector pour Adyen
-                      items:
-                        - name: Vue d’ensemble de Dynamics 365 Payment Connector pour Adyen
-                          href: dev-itpro/adyen-connector.md
-                        - name: Configurer Dynamics 365 Payment Connector pour Adyen
-                          href: dev-itpro/adyen-connector-setup.md
-                        - name: FAQ de Dynamics 365 Payment Connector pour Adyen
-                          href: dev-itpro/adyen-connector-faq.md
-                        - name: Résoudre les problèmes avec Dynamics 365 Payment Connector pour Adyen
-                          href: dev-itpro/adyen-connector-troubleshoot.md
-                    - name: Enregistrement des instruments de paiement en ligne avec le Connecteur Adyen
+                    - name: Connecteur de paiement Adyen
+                      href: dev-itpro/adyen-connector.md
+                    - name: Enregistrement des instruments de paiement en ligne avec le connecteur Adyen
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Authentification rigoureuse des clients (SCA) à l’aide du Connecteur Adyen
                       href: adyen_redirect.md
@@ -542,34 +528,20 @@
                       href: duplicate-payment-protection.md
                     - name: Vue d’ensemble des paiements omnicanaux
                       href: omni-channel-payments.md
-                    - name: Plusieurs modes de paiement disponibles pour le retrait en magasin
-                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Paiements de commandes de Commerce omnicanal
                       href: dev-itpro/commerce-payments.md
-                    - name: Archiver les données de transaction de carte de crédit
-                      href: dev-itpro/archive-cc-data.md
                     - name: Traiter les cartes de crédit sans station matérielle
                       href: dev-itpro/cnp-pos.md
                     - name: Dynamics 365 Payment Connector pour PayPal
                       href: paypal.md
                     - name: Support de paiement Wallet
                       href: wallets.md
-                    - name: Paiements améliorés lors du paiement en magasin
-                      href: dev-itpro/enhanced-sca.md
-                    - name: FAQ sur les paiements
+                    - name: FAQ Paiements
                       href: dev-itpro/payments-retail.md
-                - name: Courrier électronique et notifications
-                  items:
-                    - name: Configurer les courriers électroniques de réception pour utiliser les dispositions et les modèles personnalisés
-                      href: configure-emailed-receipt-formats.md
-                    - name: Ajouter un code QR ou un code-barres aux courriers électroniques de transaction et de réception
-                      href: add-qr-code-barcode-email.md
                 - name: Gérer Bing Cartes pour votre organisation
                   href: dev-itpro/manage-bing-maps.md
                 - name: Créer et mettre à jour des créneaux horaires pour le prélèvement client
                   href: dev-itpro/pickup-timeslots.md
-                - name: Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
-                  href: dev-itpro/dimensions-swatch.md
         - name: Promotion de vos produits et services
           items:
             - name: 'Catégories, produits et assortiments'
@@ -650,20 +622,16 @@
                   href: tender_based_discounts.md
                 - name: Vue d’ensemble des remises sur expédition
                   href: retail-shipping-discount.md
-                - name: Configurer le cadeau avec les promotions d’achat
-                  href: gift-with-purchase.md
                 - name: Paramétrer des coupons
                   href: retail-coupons.md
                 - name: Afficher les remises dans le PDV
                   href: discounts-pos.md
-                - name: États sur les prix
+                - name: Rapports sur le prix
                   href: price-report.md
                 - name: Créer des accords commerciaux spécifiques au canal
                   href: tasks/base-price-trade-agreements.md
                 - name: Créer des accords commerciaux à l’aide de règles de tarification de catégorie
                   href: tasks/category-pricing-rules-trade-agreements.md
-                - name: Retarder le calcul du prix exact et de la remise
-                  href: delayed-price-calculation.md
             - name: Recommandations
               items:
                 - name: Vue d’ensemble des recommandations produit
@@ -680,8 +648,6 @@
                       href: personalization-gdpr.md
                 - name: "Activer les recommandations «\_acheter des aspects similaires\_»"
                   href: shop-similar-looks.md
-                - name: "Activer les recommandations «\_acheter des descriptions similaires\_»"
-                  href: shop-similar-description.md
                 - name: Expériences de PDV
                   items:
                     - name: Ajouter des recommandations produit sur PDV
@@ -706,17 +672,9 @@
                   href: manage-reviews.md
                 - name: Configuration des évaluations et avis
                   href: configure-ratings-reviews.md
-                - name: Synchronisation des évaluations de produit
+                - name: Synchroniser les évaluations de produit
                   href: sync-product-ratings.md
-                - name: Activation de la publication manuelle des évaluations et des avis par un modérateur
-                  href: manual-publish-rating-reviews.md
-                - name: Importation et exportation des évaluations et des avis
-                  href: import-export-reviews.md
-                - name: Configurer l’authentification service à service
-                  href: service-to-service-auth.md
-                - name: FAQ sur les évaluations et avis
-                  href: ratings-reviews-faq.md
-            - name: Gestion de votre stock
+            - name: Gérer votre stock
               items:
                 - name: Stock
                   items:
@@ -736,8 +694,6 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Calculer la disponibilité des stocks pour les canaux de vente au détail
                       href: calculated-inventory-retail-channels.md
-                    - name: Opération de recherche de stock dans le PDV
-                      href: pos-inventory-lookup-operation.md
                 - name: Commandes fournisseur
                   items:
                     - name: Vue d’ensemble des commandes fournisseur
@@ -756,7 +712,7 @@
           items:
             - name: Commandes client
               items:
-                - name: Commandes client dans le PDV
+                - name: Commandes client dans le point de vente (PDV)
                   href: customer-orders-overview.md
                 - name: Commandes client hybrides
                   href: hybrid-customer-orders.md
@@ -764,15 +720,11 @@
                   href: enhancedorderrecall.md
                 - name: Activer plusieurs modes de livraison de prélèvement
                   href: multiple-pickup-modes.md
-                - name: Traiter un retrait de commande client dans le PDV
-                  href: process-order-pickup-POS.md
-                - name: Activer la recherche de commande pour les paiements sans inscription
-                  href: order-lookup-guest.md
             - name: Commandes client
               items:
                 - name: Créer des commandes de centre d’appels
                   href: tasks/create-call-center-orders.md
-                - name: Personnaliser les courriers électroniques transactionnels par mode de livraison
+                - name: Personnaliser les e-mails transactionnels par mode de livraison
                   href: customize-email-delivery-mode.md
                 - name: Modifier le mode de livraison dans le PDV
                   href: POS-change-delivery-mode.md
@@ -792,18 +744,10 @@
                   href: notifications-pos.md
                 - name: Vendre des programmes périodiques et traiter les commandes client
                   href: tasks/use-continuity-program.md
-                - name: Activer les notifications d’enregistrement des clients dans le PDV
-                  href: enable-customer-check-in.md
-            - name: Retours et remboursements
+            - name: Retours
               items:
-                - name: Créer des retours dans le PDV
-                  href: POS-returns.md
-                - name: Retourner les produits contrôlés par numéro de série dans le PDV
-                  href: POS-serial-returns.md
                 - name: Remboursements associés
                   href: dev-itpro/linked-refunds.md
-                - name: Traiter les remboursements non liés avec Dynamics 365 Commerce Payment Connector pour Adyen
-                  href: dev-itpro/unlinked-refunds.md
                 - name: Vendre et retourner des produits non inclus dans l’assortiment d’un magasin
                   href: sell-return-outside-assortments.md
                 - name: Configurer et traiter un échange suite à un ordre de retour
@@ -816,13 +760,7 @@
                   href: refund_policy_returns.md
         - name: Gérer vos clients
           items:
-            - name: Gestion des clients dans les magasins
-              href: customer-mgmt-stores.md
-            - name: Mode de création asynchrone de clients
-              href: async-customer-mode.md
-            - name: Convertir des clients asynchrones en clients synchrones
-              href: convert-async-to-sync.md
-            - name: Gestion des clients
+            - name: Gestion de la relation client
               items:
                 - name: Vue d’ensemble de la gestion des clients
                   href: clienteling-overview.md
@@ -842,7 +780,7 @@
           items:
             - name: Vue d’ensemble des relevés
               href: retail-statements.md
-            - name: Valider les transactions du magasin pour le calcul du relevé
+            - name: Vérificateur de cohérence des transactions
               href: valid-checker.md
             - name: Désactiver les règles dans le vérificateur de cohérence des transactions de vente au détail
               href: disable-consistency-check-rule.md
@@ -890,22 +828,6 @@
               href: task-mgmt-assign-lists.md
             - name: Gestion des tâches dans le PDV
               href: task-mgmt-pos.md
-            - name: Intégration de Dynamics 365 Commerce et Microsoft Teams
-              items:
-                - name: Présentation de l’intégration de Commerce et Teams
-                  href: commerce-teams-integration.md
-                - name: Activer l’intégration de Commerce et Teams
-                  href: enable-teams-integration.md
-                - name: Provisionner Teams à partir de Commerce
-                  href: provision-teams-from-commerce.md
-                - name: Synchroniser la gestion des tâches entre Teams et les PDV Commerce
-                  href: synchronize-tasks-teams-pos.md
-                - name: Gérer les rôles des utilisateurs dans Teams
-                  href: manage-user-roles-teams.md
-                - name: Mapper les magasins et les équipes s’il existe des équipes préexistantes dans Teams
-                  href: map-stores-existing-teams.md
-                - name: FAQ sur l’intégration de Commerce et Teams
-                  href: teams-integration-faq.md
         - name: Gérer votre site d’e-commerce
           items:
             - name: Présentation du site d’e-commerce
@@ -928,24 +850,14 @@
                   href: set-up-B2C-tenant.md
                 - name: Paramétrer des pages personnalisées pour les connexions utilisateur
                   href: custom-pages-user-logins.md
-                - name: Activer la liaison automatique des enregistrements d’identité avec les comptes client
-                  href: identity-record-linking.md
-                - name: Configurer plusieurs clients B2C dans un environnement Commerce
+                - name: Configurer plusieurs locataires B2C dans un environnement Commerce
                   href: configure-multi-B2C-tenants.md
                 - name: Domaines dans Dynamics 365 Commerce
                   href: domains-commerce.md
-                - name: Options d’implémentation du réseau de distribution de contenu
-                  href: cdn-options.md
                 - name: Ajouter la prise en charge d’un réseau de distribution de contenu (CDN)
                   href: add-cdn-support.md
                 - name: Activation de la détection du magasin selon l’emplacement
                   href: enable-store-detection.md
-                - name: Cartes-cadeaux numériques e-commerce
-                  href: digital-gift-cards.md
-                - name: Configurer un produit gratuit à l’achat
-                  href: configure-free-product.md
-                - name: Configuration requise du navigateur pour les sites Dynamics 365 Commerce
-                  href: browser-requirements.md
             - name: Vue d’ensemble d’un exemple de site
               items:
                 - name: Vue d’ensemble de la page d’accueil
@@ -964,21 +876,15 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Appliquer les paramètres de stock
                   href: inventory-settings.md
-                - name: Appliquer les paramètres d’ajout de produit au panier
-                  href: add-cart-settings.md
                 - name: Considérations relatives à l’optimisation du référencement d’un site auprès d’un moteur de recherche (SEO) pour le site
                   href: search-engine-optimization-considerations.md
                 - name: Gérer la stratégie de sécurité de contenu (CSP)
                   href: manage-csp.md
                 - name: Refuser les événements liés à l’activité sur le Web
                   href: web-activity-opt-out.md
-                - name: Appliquer les paramètres d’unité de mesure
-                  href: unit-of-measure.md
-                - name: Appliquer les paramètres d’affichage pour les dimensions du produit
-                  href: dimension-settings.md
             - name: Gérer le contenu de votre site
               items:
-                - name: Méthodes d’ajout de contenu
+                - name: Manières d’ajouter du contenu
                   href: add-manage-content.md
                 - name: Glossaire sur le modèle de page
                   href: page-elements-overview.md
@@ -1000,6 +906,8 @@
                       href: style-presets.md
                     - name: Ajouter une icône de favori
                       href: add-favicon.md
+                    - name: Ajouter un message de bienvenue
+                      href: add-welcome-message.md
                     - name: Ajouter un avis de droits d’auteur
                       href: add-copyright-notice.md
                     - name: Ajouter des langues
@@ -1040,20 +948,12 @@
                       href: enrich-category-page.md
                     - name: Vérifier l’accessibilité du contenu de la page
                       href: verify-accessibility.md
-                    - name: Créer des pages e-commerce dynamiques basées sur des paramètres d’URL
-                      href: create-dynamic-pages.md
                 - name: Navigation dans le site
                   items:
                     - name: Personnaliser la navigation dans le site
                       href: customize-site-navigation.md
                     - name: Créer une URL de page
                       href: create-page-URL.md
-                - name: Thème Adventure Works
-                  items:
-                    - name: Vue d’ensemble du thème Adventure Works
-                      href: adventure-works-theme.md
-                    - name: Installer le thème Adventure Works
-                      href: install-adventure-works.md
             - name: Gérer les actifs numériques
               items:
                 - name: Vue d’ensemble de la gestion des actifs numériques
@@ -1074,7 +974,7 @@
               items:
                 - name: Vue d’ensemble de la conformité
                   href: compliance-overview.md
-                - name: Fonctions d’accessibilité
+                - name: Fonctionnalités d’accessibilité
                   href: accessibility.md
                 - name: Conformité des cookies
                   href: cookie-compliance.md
@@ -1106,39 +1006,19 @@
                       href: add-content-rich-block.md
                     - name: Module de bloc de contenu
                       href: add-hero-module.md
-                    - name: Module de lecteur vidéo
+                    - name: Module de lecture vidéo
                       href: add-video-player.md
-                    - name: Module Image actif
-                      href: active-image-module.md
-                    - name: Module de liste d’images
-                      href: image-list-module.md
-                    - name: Module de fonctions interactives
-                      href: interactive-feature-module.md
-                    - name: Module d’abonnement
-                      href: subscribe-module.md
-                    - name: Module de liste de vignettes
-                      href: tile-list-module.md
                 - name: Modules d’en-tête et de pied de page
                   items:
-                    - name: Module d’en-tête
+                    - name: Module En-tête
                       href: author-header-module.md
                     - name: Module Pied de page
                       href: author-footer-module.md
-                - name: 'Modules de page, de métadonnées et de script'
+                - name: Modules Page détaillée du produit
                   items:
-                    - name: Module de page par défaut
-                      href: default-page-module.md
-                    - name: Modules de résumé de page
-                      href: page-summary-module.md
-                    - name: Module de métabalises
-                      href: metatags-module.md
-                    - name: Modules de script externe et en ligne
-                      href: script-module.md
-                - name: Modules de page détaillée du produit
-                  items:
-                    - name: Module de zone d’achat
+                    - name: Module Zone d’achat
                       href: add-buy-box.md
-                    - name: Module de galerie multimédia
+                    - name: Module Galerie multimédia
                       href: media-gallery-module.md
                     - name: Modules Classements et Évaluations
                       href: ratings-reviews-modules.md
@@ -1160,14 +1040,10 @@
                       href: delivery-options-module.md
                     - name: Module Information sur les prélèvements
                       href: pickup-info-module.md
-                    - name: Module Enregistrement pour retrait
-                      href: check-in-pickup-module.md
                     - name: Module Détails de la commande
                       href: order-confirmation-module.md
                     - name: Module Carte cadeau
                       href: add-giftcard.md
-                    - name: Module Recherche de commande
-                      href: order-lookup-module.md
                 - name: Modules Recherche de magasin
                   items:
                     - name: Module Carte
@@ -1178,16 +1054,10 @@
                   items:
                     - name: Pages et modules Gestion des comptes
                       href: account-management.md
-                - name: Modules de gestion des identités
-                  items:
-                    - name: Pages et modules de gestion des identités
-                      href: identity-mgmt-modules.md
                 - name: Modules de collecte de produits
                   items:
                     - name: Modules de collecte de produits
                       href: product-collection-module-overview.md
-                    - name: Module de visualisation rapide
-                      href: quick-view-module.md
                 - name: Modules de navigation
                   items:
                     - name: Module de barre de navigation
@@ -1196,17 +1066,11 @@
                       href: nav-menu-module.md
                     - name: Module de sélection de site
                       href: site-selector.md
-                    - name: Module de sélection de pays/région
-                      href: country-region-picker-module.md
-                - name: Rechercher des modules
-                  items:
-                    - name: Module de résultats de recherche
-                      href: search-result-module.md
                 - name: Modules de conformité
                   items:
                     - name: Module de consentement aux cookies
                       href: cookie-consent-module.md
-            - name: Rechercher
+            - name: Recherche
               items:
                 - name: Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche
                   href: category-search-page-overview.md
@@ -1216,12 +1080,6 @@
               items:
                 - name: Génération d’états de canal en ligne
                   href: generate-reports.md
-            - name: Ciblage
-              items:
-                - name: 'Ciblage par appareil, marché et géolocalisation'
-                  href: targeting-overview.md
-                - name: Configurer la géodétection et la redirection
-                  href: geo-detection-redirection.md
             - name: Expérimentation
               items:
                 - name: Expérimentation dans Dynamics 365 Commerce
@@ -1248,18 +1106,6 @@
           items:
             - name: Intégration de Dynamics 365 Fraud Protection à Dynamics 365 Commerce
               href: dev-itpro/DFP.md
-        - name: E-commerce B2B
-          items:
-            - name: Mettre en place un site e-commerce B2B
-              href: b2b/set-up-b2b-site.md
-            - name: Créer des hiérarchies de modélisation organisationnelle pour les organisations B2B
-              href: b2b/org-model.md
-            - name: Gérer les utilisateurs des partenaires commerciaux sur les sites e-commerce B2B
-              href: b2b/manage-b2b-users.md
-            - name: Configurer le mode de paiement du compte client pour les sites e-commerce B2B
-              href: b2b/payment-method.md
-            - name: Définir des limites de quantité de produits pour les sites e-commerce B2B
-              href: b2b/quantity-limits.md
         - name: Surveillance et analyse
           items:
             - name: Surveiller les performances des ventes et des marges
@@ -1274,79 +1120,25 @@
               href: store-performance-information.md
             - name: 'Paramétrer l’analyse RFM (récence, fréquence et valeur monétaire)'
               href: set-up-rfm-analysis.md
-            - name: "Configurer Microsoft Clarity dans Dynamics 365\_Commerce"
-              href: set-up-clarity.md
-            - name: Analyse de Commerce (version préliminaire)
-              href: commerce-analytics.md
         - name: Globalisation
           items:
             - name: Vue d’ensemble de l’intégration fiscale pour le canal Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Paramétrer l’intégration fiscale pour le canal Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
-            - name: Exemple de configuration du pipeline de génération pour l’intégration fiscale
-              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Profils de certificat définis par l’utilisateur pour les magasins de vente au détail
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service (RCS)
-              items:
-                - name: Vue d’ensemble de Regulatory Configuration Service (RCS)
-                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: (RCS) Regulatory Configuration Service (RCS) – Fonctions de globalisation
-                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des configurations ER dans Regulatory Configuration Service (RCS) et les charger dans le référentiel global
-                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service (RCS) – Abandon du stockage Lifecycle Services
-                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Télécharger des configurations ER vers Commerce
-                  items:
-                    - name: Télécharger des configurations depuis RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Importer les configurations depuis RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Référentiel global (GR)
-                      items:
-                        - name: Importer des configurations depuis le GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Importer des versions mises à jour des configurations ER
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Filtrage amélioré pour trouver des configurations dans le GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Charger des configurations dans le GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Partager des configurations dans le GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Interrompre les configurations dans le référentiel global RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Autriche
               items:
-                - name: Exemple d’intégration du service d’enregistrement fiscal pour l’Autriche
+                - name: Exemple d’intégration du service d’enregistrement fiscal pour l’Australie
                   href: localizations/emea-aut-fi-sample.md
-                - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour l’Autriche (hérité)
-                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brésil
               items:
-                - name: Localisation de Commerce pour le Brésil
+                - name: Localisation de commerce pour le Brésil
                   href: localizations/latam-bra-commerce-localization.md
-                - name: Configurer et déployer la localisation de Commerce pour le Brésil
-                  href: localizations/latam-bra-deployment.md
-                - name: Fonctionnalité de document fiscal NFC-e dans le PDV de Commerce pour le Brésil
-                  href: localizations/latam-bra-nfce.md
-                - name: Gérer les informations client dans le PDV pour le Brésil
-                  href: localizations/latam-bra-customer-information.md
-                - name: Annulation et retour de documents NFC-e dans le PDV de Commerce pour le Brésil
-                  href: localizations/latam-bra-nfce-cancel-return.md
-                - name: Enregistrement différé de documents NFC-e émis en mode de secours hors connexion
-                  href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: Publier des documents fiscaux brésiliens via les relevés de vente au détail dans Commerce Headquarters
-                  href: localizations/latam-bra-retail-statements.md
-                - name: Document fiscal CF-e et intégration à la fonctionnalité SAT dans Commerce POS pour le Brésil
-                  href: localizations/latam-bra-cf-e-sat.md
-                - name: Dynamics 365 Payment Connector pour Adyen dans Commerce POS pour le Brésil
-                  href: localizations/latam-bra-adyen.md
             - name: Europe de l’Est
               items:
-                - name: Commun
+                - name: Commune
                   items:
                     - name: Factures d’acompte pour Commerce pour l’Europe de l’Est
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1360,34 +1152,22 @@
                   items:
                     - name: Exemple d’intégration du service d’enregistrement fiscal pour la République tchèque
                       href: localizations/emea-cze-fi-sample.md
-                    - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour la République tchèque (hérité)
-                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Pologne
                   items:
                     - name: Exemple d’intégration de l’imprimante fiscale pour la Pologne
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Gestion des informations client pour la Pologne
                       href: localizations/emea-pol-customer-information.md
-                    - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour la Pologne (hérité)
-                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: France
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
                   href: localizations/emea-fra-cash-registers.md
                 - name: Instructions de déploiement de caisses enregistreuses
-                  href: localizations/emea-fra-fi-deployment.md
-                - name: Vérification de l’intégrité des données et des archives fiscales
-                  href: localizations/emea-fra-fiscal-archive.md
-                - name: Migration depuis l’ancienne fonctionnalité pour la France
-                  href: localizations/emea-fra-fi-migration.md
-                - name: Instructions de déploiement de caisses enregistreuses (héritées)
                   href: localizations/emea-fra-deployment.md
             - name: Allemagne
               items:
                 - name: Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
                   href: localizations/emea-deu-fi-sample.md
-                - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour l’Allemagne (hérité)
-                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Inde
               items:
                 - name: Intégration de la taxe sur les biens et Services (GST) pour les caisses enregistreuses
@@ -1396,18 +1176,12 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Prise en charge de la mise à niveau et de N-1 pour l’Inde
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Générer des codes QR et les imprimer sur des reçus pour l’Inde
-                  href: localizations/ind-generate-qr-code-print-receipt.md
-                - name: Intégration de la taxe sur les Produits et Services (GST) pour les sites de commerce électronique
-                  href: localizations/apac-ind-e-commerce.md
             - name: Italie
               items:
                 - name: Exemple d’intégration de l’imprimante fiscale pour l’Italie
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Gestion des informations client pour l’Italie
                   href: localizations/emea-ita-customer-information.md
-                - name: Exemples d’instructions de déploiement pour l’intégration fiscale pour l’Italie (hérité)
-                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Mexique
               items:
                 - name: Factures électroniques CFDI générales pour le Mexique
@@ -1417,35 +1191,13 @@
                 - name: Fonctionnalité de la caisse enregistreuse
                   href: localizations/emea-nor-cash-registers.md
                 - name: Instructions de déploiement de caisses enregistreuses
-                  href: localizations/emea-nor-fi-deployment.md
-                - name: Instructions de déploiement de caisses enregistreuses (héritées)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
-            - name: Russie
-              items:
-                - name: Localisation de Commerce pour la Russie
-                  href: localizations/rus-commerce-localization.md
-                - name: Configurer la localisation de Commerce pour la Russie
-                  href: localizations/rus-commerce-setup.md
-                - name: Acomptes dans Commerce pour la Russie
-                  href: localizations/rus-commerce-prepayments.md
-                - name: Format d’adresse client simplifié dans les PDV Commerce pour la Russie
-                  href: localizations/rus-simplified-address.md
-                - name: Exemple d’intégration de l’imprimante fiscale pour la Russie
-                  href: localizations/rus-fpi-sample.md
-                - name: Gestion des informations clients pour la Russie
-                  href: localizations/rus-customer-information.md
-            - name: Arabie Saoudite
-              items:
-                - name: Générer des codes QR et les imprimer sur les reçus pour l’Arabie Saoudite
-                  href: localizations/emea-sau-qr-code.md
             - name: Suède
               items:
                 - name: Fonctionnalité de la caisse enregistreuse
                   href: localizations/emea-swe-cash-registers.md
                 - name: Exemple d’intégration de l’unité de contrôle pour la Suède
                   href: localizations/emea-swe-fi-sample.md
-                - name: Exemples d’instructions de déploiement pour l’unité de contrôle pour l’Allemagne (hérité)
-                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Exemple pour l’intégration de Retail POS avec des unités de contrôle (héritée)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Génération d’états et intégrations Power BI
@@ -1456,7 +1208,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
             - name: Options de personnalisation avec Power BI
               items:
-                - name: Fonctions disponibles via l’intégration de Power BI
+                - name: Fonctionnalités disponibles via l’intégration de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Épingler du contenu Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
@@ -1548,25 +1300,21 @@
           items:
             - name: Vue d’ensemble des états électroniques
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Composants des états électroniques
-              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
             - name: Configurations
               items:
                 - name: Créer des configurations
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
-                - name: Définir la dépendance des configurations ER sur d’autres composants
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
                 - name: Préparer les composants de la solution de gestion des états électroniques
                   items:
                     - name: Concevoir un modèle de données spécifique au domaine
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Préparer les métadonnées spécifiques à l’application
                       items:
-                        - name: Préparer les métadonnées d’application dans la gestion des états électroniques à utiliser dans RCS
+                        - name: (Gestion des états électroniques) Préparer les métadonnées d’application à utiliser dans RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
-                        - name: Accéder aux métadonnées d’application dans RCS à l’aide de la configuration ER
+                        - name: (RCS) Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Accéder aux métadonnées d’application dans RCS à l’aide des applications connectées
+                        - name: (RCS) Accéder aux métadonnées d’application à l’aide des applications connectées
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
                         - name: Définir les mises en correspondance de modèles et sélectionner des sources de données
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1578,7 +1326,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Tester la solution de gestion des états électroniques préparée dans l’application cible
                       items:
-                        - name: Importer les configurations depuis RCS
+                        - name: (Gestion des états électroniques) Importer les configurations depuis RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
                         - name: Générer les documents électroniques pour les paiements à l’aide d’une configuration de format
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
@@ -1590,32 +1338,18 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/commerce/toc.json
                 - name: Concepteur de formule avancé
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/commerce/toc.json
-            - name: Langage et fonctions des formules
+            - name: Langage et fonctionnalités des formules
               items:
                 - name: Langage des formules
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
-                - name: Types de données pris en charge pour les formules ER
-                  items:
-                    - name: Types de données primitifs
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
-                    - name: Types de données composites
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Fonctions
                   items:
-                    - name: Conteneur
-                      items:
-                        - name: Fonctions du conteneur
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/commerce/toc.json
-                        - name: Base64StringToContainer
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/commerce/toc.json
                     - name: Date et heure
                       items:
                         - name: Fonctions de date et d’heure
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
-                        - name: ChangeTimeZone
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
                         - name: DateTimeFormat
@@ -1637,13 +1371,9 @@
                         - name: NullDateTime
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/commerce/toc.json
                         - name: SessionNow
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/fcommerce/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
-                        - name: Today
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Fonctions de liste
@@ -1670,8 +1400,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
-                        - name: ListeDistinct
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/commerce/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
                         - name: ListOfFields
@@ -1700,22 +1428,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/commerce/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
-                        - name: Contains
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/commerce/toc.json
-                        - name: EndsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/commerce/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
-                        - name: StartsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/commerce/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/commerce/toc.json
-                        - name: ValueInLarge
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/commerce/toc.json
                     - name: Mathématique
                       items:
                         - name: Fonctions mathématiques
@@ -1762,8 +1482,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
-                        - name: NewGUID
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: NumeralsToText
@@ -1842,8 +1560,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
                         - name: "Type\_: Value"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
-                        - name: "Conteneur\_: Base64StringToContainer"
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/commerce/toc.json
                         - name: "Date et heure\_: DateTimeValue"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
                         - name: "Date et heure\_: DateToDateTime"
@@ -1864,56 +1580,82 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
                         - name: "Texte\_: NumberFormat"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
-                        - name: "Texte\_: QrCode"
+                        - name: "Texte\_: QRCode"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
                         - name: "Texte\_: Text"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-            - name: Créer des formats de gestion des états électroniques pour générer des documents sortants sous différents formats
+            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: Options de filtrage améliorées pour trouver des configurations dans le référentiel global
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+            - name: Générer des états en ajoutant du contenu en tant que XML brut
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
+            - name: (Gestion des états électroniques) Sources de données de société croisée dans la gestion des états électroniques
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
+            - name: Créer des formats de gestion des états électroniques pour générer des documents électroniques sortants sous différents formats
               items:
-                - name: Concevoir une configuration pour générer des états au format OPENXML
+                - name: (Gestion des états électroniques) Concevoir une configuration pour générer des états au format OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des configurations pour générer des documents sortants au format Excel
-                  items:
-                    - name: Créer une configuration pour générer des documents au format Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
-                    - name: Modifier des formats ER en réappliquant des modèles Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-                    - name: Ajouter dynamiquement des colonnes aux états Excel en tant que plages extensibles horizontalement
-                      items:
-                        - name: Concevoir des formats pour ajouter dynamiquement des colonnes aux états Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
-                        - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux états Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
-                    - name: Concevoir un format ER pour paginer les documents générés dans Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des configurations pour générer des états au format Word
-                  items:
-                    - name: Concevoir une configuration ER pour générer des états au format Word
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/commerce/toc.json
-                    - name: Réutiliser les configurations ER avec des modèles Excel pour générer des états au format Word
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Supprimer les contrôles de contenu Word dans les états générés
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/commerce/toc.json
+                - name: (Gestion des états électroniques) Créer des configurations pour générer des états au format Word
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Concevoir des configurations pour renseigner des modèles PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
-                - name: Inclure des images et des formes
+            - name: Inclure des images et des formes
+              items:
+                - name: (Gestion des états électroniques) Intégrer des images et des formes dans les documents que vous générez
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
+                - name: Exemple d’intégration d’images et de formes
                   items:
-                    - name: Intégrer des images et des formes dans les documents que vous générez
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
-                    - name: Exemple d’intégration d’images et de formes
-                      items:
-                        - name: Concevoir des configurations pour générer des états aux formats Office avec des images intégrées
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
-                        - name: Passer en revue des configurations pour générer des états aux formats Office avec des images intégrées
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Générer des états aux formats Office avec des images intégrées
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                    - name: Concevoir un format ER pour générer un état dans Excel avec des images incorporées aux en-têtes ou pieds de page
-                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Supprimer les caractères de nomenclature dans les fichiers générés
-                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/commerce/toc.json
+                    - name: Concevoir des configurations pour générer des états aux formats Office avec des images intégrées
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
+                    - name: Passer en revue des configurations pour générer des états aux formats Office avec des images intégrées
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Générer des états aux formats Office avec des images intégrées
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+            - name: Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: Définir la dépendance des configurations ER sur d’autres composants
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: Concevoir une solution de gestion des états électroniques pour utiliser les dimensions financières
+              items:
+                - name: Concevoir des modèles de données pour utiliser les dimensions financières comme sources de données
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Mettre en correspondance les modèles pour utiliser les dimensions financières comme sources de données
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Concevoir des états pour utiliser les dimensions financières comme sources de données
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Exécuter des états qui utilisent les dimensions financières comme sources de données
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
+            - name: Créer des formats de gestion des états électroniques pour exécuter le comptage et la synthèse à l’aide d’informations de la sortie générée
+              items:
+                - name: Créer des formats pour effectuer le comptage et la synthèse
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Configurer un format pour effectuer le comptage et la synthèse
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Utiliser les calculs pour générer la sortie permettant d’effectuer le comptage et la synthèse
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Exécuter des formats pour effectuer le comptage et la synthèse
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
+            - name: Ajouter dynamiquement des colonnes aux rapports Excel en tant que plages extensibles horizontalement
+              items:
+                - name: Créer des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Exécuter des formats pour ajouter dynamiquement des colonnes aux rapports Excel tant que plages extensibles horizontalement
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+            - name: Utiliser les fichiers de gestion des documents dans les sorties de format
+              items:
+                - name: Préparer des modèles de données pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Étendre des modèles de données pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Créer des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
+                - name: Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents dans les sorties de gestion des états électroniques
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
             - name: Mettre à jour les données d’application à l’aide de la gestion des états électroniques
               items:
                 - name: Générer des documents électroniques et mettre à jour les données d’application
@@ -1936,9 +1678,7 @@
                   items:
                     - name: Créer des configurations pour importer des données à partir d’un fichier XML externe
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: Importer des données depuis les fichiers sélectionnés en mode traitement par lots
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurer l’importation des données en mode traitement par lots depuis les fichiers basés sur SharePoint
+                - name: Configurer l’importation des données en mode lot depuis les fichiers basés sur SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Importer les fichiers au format XML
                   items:
@@ -1946,150 +1686,52 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
                     - name: Configurer les formats de gestion des états électroniques pour importer les fichiers au format XL avec des attributs facultatifs
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+            - name: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
+            - name: Prendre en charge les appels paramétrés des sources de données des états électroniques de type de champ Calculé
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
             - name: Cycle de vie de configuration
               items:
                 - name: Gérer le cycle de vie des configurations
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Lifecycle Services (LCS)
+                - name: Charger des configurations dans Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Importer des configurations à partir de Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Télécharger des configurations à partir de Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Importer des configurations
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Télécharger les configurations ER depuis le référentiel RCS
                   items:
-                    - name: Charger des configurations dans LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Importer les configurations depuis LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Télécharger des configurations depuis LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Importer des configurations (LBD)
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service (RCS)
-                  items:
-                    - name: Vue d’ensemble de Regulatory Configuration Service (RCS)
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                    - name: Télécharger des configurations ER vers Commerce
-                      items:
-                        - name: Télécharger des configurations depuis RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Importer les configurations depuis RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Référentiel global (GR)
-                      items:
-                        - name: Importer des configurations depuis le GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Importer des versions mises à jour des configurations ER
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Filtrage amélioré pour trouver des configurations dans le GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Charger des configurations dans le GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Partager des configurations dans le GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Interrompre les configurations dans le référentiel global RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
-            - name: Guides de démarrage rapide
-              items:
-                - name: Ajuster un format d’état électronique pour générer un document électronique personnalisé
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/commerce/toc.json
-                - name: Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un état personnalisé
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/commerce/toc.json
-                - name: Ajuster une solution d’état électronique pour générer un document électronique personnalisé
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/commerce/toc.json
+                    - name: Télécharger les configurations depuis le référentiel de gestion des états électroniques pour le type RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Importer les configurations depuis RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Didacticiels
               items:
-                - name: Apprendre à utiliser les sources de données
+                - name: Utiliser des sources de données JOINTURE pour obtenir des données de plusieurs tables d’application
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
+                - name: Définir les paramètres d’un format de gestion des états électroniques par entité juridique
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
+                - name: Différer l’exécution des éléments de format ER
                   items:
-                    - name: Utiliser JOINDRE pour obtenir des données de plusieurs tables
-                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Utiliser XML brut pour ajouter du contenu
-                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
-                    - name: Prendre en charge les appels paramétrés des sources de données CHAMP CALCULÉ
-                      items:
-                        - name: Améliorer l’expérience utilisateur et la maintenance de la convivialité
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
-                        - name: Améliorer les performances de l’accès aux données
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/commerce/toc.json
-                    - name: Sources de données des états électroniques intersociétés
-                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Utiliser les sources de données DÉTAILS DES DIMENSIONS FINANCIÈRES
-                      items:
-                        - name: Concevoir des modèles de données
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
-                        - name: Mapper des modèles pour utiliser les dimensions financières
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
-                        - name: Concevoir des états
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
-                        - name: Exécuter des états
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
-                    - name: Utiliser la sortie générée comme source de données pour effectuer le comptage et la synthèse
-                      items:
-                        - name: Créer des formats
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
-                        - name: Configurer un format pour effectuer le comptage et la synthèse
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
-                        - name: Générer la sortie permettant d’effectuer le comptage et la synthèse
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
-                        - name: Exécuter des formats pour effectuer le comptage et la synthèse
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
-                    - name: Utilisez les relations DOCUMENTS pour accéder aux fichiers de gestion des documents
-                      items:
-                        - name: Préparer des modèles de données
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
-                        - name: Étendre des modèles de données pour utiliser les fichiers de gestion des documents
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
-                        - name: Créer des formats
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commercetoc.json
-                        - name: Exécuter des formats pour utiliser les fichiers de gestion des documents
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
-                        - name: Modifier et exécuter des formats pour utiliser les fichiers de gestion des documents
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
-                    - name: Utiliser BARCODE pour générer des images de codes à barres
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurer les sources de données de RECHERCHE pour utiliser les paramètres spécifiques à l’application d’états électroniques
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Utiliser les sources de données COLLECTE DE DONNÉES aux formats ER
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Déboguer des sources de données
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurer les mises en correspondance de modèles
-                  items:
-                    - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                    - name: Gérer la mise en correspondance de modèle de gestion ER dans des configurations ER distinctes
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
-                    - name: Gérer plusieurs mappages dérivés pour une seule racine de modèle
-                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurer les formats
-                  items:
-                    - name: Sélectionner des définitions de modèle lorsque vous créez des formats
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                    - name: Définir les paramètres d’un format de gestion des états électroniques par entité juridique
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                    - name: Différer l’exécution des éléments de format ER
-                      items:
-                        - name: Différer l’exécution d’un élément de séquence
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/commerce/toc.json
-                        - name: Différer l’exécution d’un élément XML
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/commerce/toc.json
-                    - name: Concevoir des états multilingues
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/commerce/toc.json
-                    - name: Compresser des documents sortants volumineux
-                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Inspecter les composants de la gestion des états électroniques configurés
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/commerce/toc.json
-                - name: Chemin d’accès relatif dans les liaisons de données
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/commerce/toc.json
-            - name: Utiliser des solutions d’états électroniques dans Commerce
+                    - name: Différer l’exécution des éléments de séquence aux formats ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                    - name: Différer l’exécution des éléments XML aux formats ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+            - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations
               items:
                 - name: Configurer la structure
                   items:
                     - name: Configurer la structure de gestion des états électroniques
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/commerce/toc.json
                     - name: Sauvegarder et récupérer les modèles d’états électroniques
-                      items:
-                        - name: Stockage de sauvegarde des modèles de gestion des états électroniques
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
-                        - name: Nettoyage de migration ER
-                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/commerce/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
                     - name: Créer des fournisseurs de configuration et les marquer comme actifs
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Destinations
@@ -2110,80 +1752,42 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/commerce/toc.json
                         - name: Destination d’écran
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurer les destinations
+                    - name: Configurer des destinations
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurer les destinations dépendantes de l’action
-                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurer les destinations pour la gestion des états électroniques spécifiques aux enregistrements de gestion de l’impression
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer une référence à un format ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Valider automatiquement les états générés
                   items:
-                    - name: Suivre les résultats de l’état généré et les comparer aux valeurs de base
-                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Améliorer le suivi des résultats des états électroniques générés pour les comparer aux valeurs de référence
+                    - name: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
+                    - name: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
-                    - name: Automatiser les tests avec les états électroniques
+                    - name: Automatiser les tests avec la gestion des états électroniques
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
-                - name: Automatiser les processus métier avec les configurations d’états électroniques
+                - name: Automatiser les processus métier avec les configurations de gestion des états électroniques
                   items:
-                    - name: Configurer la gestion des états électroniques pour extraire des données vers Power BI
+                    - name: Configurer la gestion des états électroniques pour extraire les données dans Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
-                    - name: Générer des formulaires de facture financière imprimables
+                    - name: Générer des formulaires imprimables de type FTI
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Concevoir des solutions ER efficaces
+                - name: Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Gestion des documents commerciaux
                   items:
-                    - name: Suivre l’exécution des formats ER pour résoudre les problèmes de performances
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
-                    - name: Résoudre les problèmes de performances dans les configurations ER
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Gestion des documents commerciaux (BDM)
-                  items:
-                    - name: Vue d’ensemble d’un processus BDM
+                    - name: Vue d’ensemble de la gestion de document commercial
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
-                    - name: Nouvelle interface utilisateur de document dans la gestion des documents commerciaux (BDM)
+                    - name: Nouvelle interface utilisateur de document dans la gestion des documents commerciaux
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
-                    - name: Modifier les modèles de documents commerciaux dans la gestion des documents commerciaux (BDM)
-                      items:
-                        - name: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
-                        - name: Mettre à jour la structure d’un modèle de document commercial
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
             - name: API de la structure de gestion des états électroniques
               items:
-                - name: Étendre la liste des fonctions intégrées
+                - name: Étendre la liste des fonctions de gestion des états électroniques
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: Modifications de l’API
-                  items:
-                    - name: "Mise à jour d’application\_7.3"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
-                    - name: "Mise à jour d’application\_10.0.11"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: "Mise à jour d’application\_10.0.17"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
-                    - name: "Mise à jour d’application\_10.0.19"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
-                    - name: "Mise à jour d’application\_10.0.21"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
-                    - name: "Mise à jour d’application\_10.0.23"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
-                    - name: "Mise à jour d’application\_10.0.25"
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
+                - name: "Modifications de l’API de la structure de gestion des états électroniques pour Application update\_7.3"
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
                 - name: Spécifier un emplacement de stockage personnalisé pour les documents générés
-                  items:
-                    - name: S’abonner à un événement pour demander une réponse du gestionnaire d’abonnement
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
-                    - name: Déléguer la création de la destination d’un état électronique à une fabrique de destination personnalisée
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                    - name: Implémenter une destination personnalisée pour les documents générés
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
-                - name: Initier les valeurs de source de données du type USER INPUT PARAMETER à partir du code source
-                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
-                - name: Modifier le code pour permettre aux utilisateurs de configurer et d’utiliser des destinations pour la gestion des états électroniques nommées
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
-                - name: Implémenter une source ER personnalisée de documents entrants
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
         - name: Application mobile Finance and Operations (Dynamics 365)
           items:
             - name: Page d’accueil Application mobile
@@ -2228,17 +1832,17 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: "Ouvrir les données d’entité dans Excel et les mettre à jour à l’aide du module complémentaire\_Excel"
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: FAQ sur les expériences Ouvrir dans Excel
+            - name: Créer des expériences Ouvrir dans Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Ajouter des modèles au menu Ouvrir des lignes dans Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Personnaliser le menu Ouvrir dans Microsoft Office
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurer et envoyer un courrier électronique
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Créer des modèles de messages électroniques pour les événements transactionnels
               href: email-templates-transactions.md
-            - name: Développer les expériences de courrier électronique
+            - name: Développer les expériences d’e-mail
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: "Résoudre les problèmes d’intégration\_d’Office"
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/commerce/toc.json
@@ -2274,27 +1878,25 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer le carnet d’adresses global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
-                - name: Configuration de l’adresse
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: FAQ sur les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les carnets d’adresses
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
-            - name: Système de workflow
+            - name: Système de flux de travail
               items:
-                - name: Vue d’ensemble du système de workflow
+                - name: Vue d’ensemble du système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Architecture de système de workflow
+                - name: Architecture de système de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/commerce/toc.json
-                - name: Éléments du workflow
+                - name: Éléments du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/commerce/toc.json
-                - name: Actions de workflow
+                - name: Actions de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/commerce/toc.json
-                - name: Créer des workflows
+                - name: Créer des flux de travail
                   items:
-                    - name: Vue d’ensemble de création des workflows
+                    - name: Vue d’ensemble de création des flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configuration des propriétés de workflow
+                    - name: Configuration des propriétés de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration de tâches manuelles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/commerce/toc.json
@@ -2304,8 +1906,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration d’étapes d’approbation
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configuration des réviseurs de dépenses
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration de décisions manuelles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration de décisions conditionnelles
@@ -2314,37 +1914,37 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Configuration de branches parallèles
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configuration de workflow pour ligne
+                    - name: Configuration de flux de travail pour ligne
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurer le traitement par lots Traitement des messages de workflow comme critique
+                - name: Configurer le traitement par lots Traitement des messages de flux de travail comme critique
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/commerce/toc.json
-                - name: Délégation d’éléments de travail dans un workflow
+                - name: Délégation d’éléments de travail dans un flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/commerce/toc.json
-                - name: Afficher l’historique du workflow
+                - name: Afficher l’historique du flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/commerce/toc.json
-                - name: Configuration du système pour envoyer un courrier électronique de workflow associé aux utilisateurs
+                - name: Configuration du système pour envoyer un e-mail de flux de travail associé aux utilisateurs
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/commerce/toc.json
-                - name: Types de workflow
+                - name: Types de flux de travail
                   items:
-                    - name: Création d’un type de workflow
+                    - name: Création d’un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/commerce/toc.json
-                    - name: Liste de contrôle des types de workflow
+                    - name: Liste de contrôle des types de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer une catégorie de workflow
+                    - name: Créer une catégorie de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer une requête pour un type de workflow
+                    - name: Créer une requête pour un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer un type de workflow
+                    - name: Créer un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/commerce/toc.json
-                    - name: Créer une classe de document de workflow
+                    - name: Créer une classe de document de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
                     - name: Créer une classe SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Associer une classe de document de workflow à un type de workflow
+                    - name: Associer une classe de document de flux de travail à un type de flux de travail
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
-                - name: État sur les types de workflow
+                - name: État sur les types de flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ sur les workflows
+                - name: FAQ sur les flux de travail
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
             - name: Alertes
               items:
@@ -2354,7 +1954,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/commerce/toc.json
                 - name: Traitement par lots des alertes
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/commerce/toc.json
-                - name: Notifications d’alerte du client par courrier électronique
+                - name: Notifications d’alerte du client par e-mail
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/commerce/toc.json
             - name: Signatures électroniques
               items:
@@ -2378,27 +1978,21 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/commerce/toc.json
             - name: Configurer la gestion des documents
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurer et envoyer un courrier électronique
+            - name: Configurer et envoyer un e-mail
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Données de date/d’heure et fuseaux horaires
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Extensibilité
           items:
             - name: Développement et extensibilité du commerce
-              items:
-                - name: Commerce pour les développeurs et les professionnels de l’informatique
-                  href: dev-itpro/dev-retail-home-page.md
-                - name: Modernisation de la pile technologique Commerce en magasin (livre blanc)
-                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Configurer un environnement de développement local
-                  href: dev-itpro/setup-local-dev-env.md
+              href: dev-itpro/dev-retail-home-page.md
             - name: Extensibilité des canaux en ligne
               items:
                 - name: Vue d’ensemble de l’extensibilité des canaux en ligne
                   href: e-commerce-extensibility/overview.md
-                - name: Démarrage
+                - name: Mise en route
                   items:
-                    - name: Démarrage avec le développement d’extensibilité en ligne de l’e-commerce
+                    - name: Démarrer avec le développement d’extensibilité en ligne de l’e-commerce
                       href: e-commerce-extensibility/sdk-getting-started.md
                     - name: Configuration requise
                       href: e-commerce-extensibility/system-requirements.md
@@ -2436,8 +2030,6 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Fichier de module props.autogenerated.ts
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
-                    - name: Préréglages de configuration du module
-                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Développer des modules
                   items:
                     - name: Créer un module
@@ -2464,12 +2056,8 @@
                   items:
                     - name: Objet de propriétés de requête
                       href: e-commerce-extensibility/request-properties-object.md
-                    - name: Paramètres de l’application
+                    - name: Paramètres d’application
                       href: e-commerce-extensibility/app-settings.md
-                    - name: Configurer les paramètres de configuration globaux du générateur de sites en fonction des fonctions activées
-                      href: e-commerce-extensibility/config-settings-for-features.md
-                    - name: Fichier des paramètres de la plateforme
-                      href: e-commerce-extensibility/platform-settings.md
                     - name: Étendre une définition de module
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Vue d’ensemble de l’API du cookie
@@ -2478,15 +2066,11 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: Imiter l’état Connecté pendant le développement local
                       href: e-commerce-extensibility/mock-sign-in.md
-                    - name: Configurer les propriétés du module à afficher en fonction du contexte
-                      href: e-commerce-extensibility/configure-properties-context.md
-                    - name: Globaliser les modules à l’aide de la classe CultureInfoFormatter
+                    - name: Globaliser des modules à l’aide de la classe CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Configurer Azure Key Vault pour la gestion des clés sécurisées
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Composant de l’image
-                      href: e-commerce-extensibility/image-component.md
-                - name: Développer les actions de données
+                - name: Développer des actions de données
                   items:
                     - name: Vue d’ensemble des actions de données
                       href: e-commerce-extensibility/data-actions.md
@@ -2500,7 +2084,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Actions de données de base
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Appeler les API Commerce Scale Unit
+                    - name: Appeler les API Retail Server
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: Appeler les API d’extension Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2520,8 +2104,6 @@
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Crochets d’action de données
                       href: e-commerce-extensibility/data-action-hooks.md
-                    - name: Appeler des actions de données côté serveur avec AJAX
-                      href: e-commerce-extensibility/data-actions-with-ajax.md
                 - name: Développer des thèmes
                   items:
                     - name: Vue d’ensemble de la création de thèmes
@@ -2548,12 +2130,6 @@
                   items:
                     - name: Configurer et activer les connecteurs
                       href: e-commerce-extensibility/connectors.md
-                - name: Performance
-                  items:
-                    - name: Configurer la mise en cache des pages
-                      href: e-commerce-extensibility/page-caching.md
-                    - name: Cache d’instance des actions de données
-                      href: e-commerce-extensibility/instance-cache.md
                 - name: Télémétrie et analyse
                   items:
                     - name: Enregistreur automatique de télémétrie
@@ -2568,23 +2144,21 @@
                   items:
                     - name: Bonnes pratiques pour le développement de Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
-                    - name: FAQ sur le kit de développement logiciel (SDK) Dynamics 365 Commerce Online
+                    - name: FAQ sur les kits de développement logiciel (SDK) Dynamics 365 Commerce Online
                       href: e-commerce-extensibility/sdk-faq.md
-                    - name: Meilleures pratiques relatives au débogage pour le développement de Dynamics 365 Commerce
-                      href: e-commerce-extensibility/debugging-best-practices.md
-                    - name: Tester les pages de sites de commerce électronique pour détecter les fuites de mémoire
-                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Kit de développement logiciel (SDK) Retail
               items:
-                - name: Migrer vers le kit de développement logiciel (SDK) Commerce
-                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Architecture du kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Configurer un pipeline de build pour le kit de développement logiciel (SDK) de conditionnement indépendant
-                  href: dev-itpro/build-pipeline.md
-                - name: "Migrer le kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
+                - name: Prochaines modifications dans le kit de développement logiciel (SDK) Retail
+                  href: dev-itpro/UpcomingSDKChanges.md
+                - name: "Modifications importantes du développement et d’ALM entre la version\_10.0.10 et la version\_10.0.13"
+                  href: dev-itpro/dev-changes-10-13.md
+                - name: Fusionner les systèmes de génération pour Commerce et Finance and Operations
+                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: "Migrer le Kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
                   href: dev-itpro/retail-sdk/migrate-sdk.md
-                - name: Exemples d’extensibilité du kit de développement logiciel (SDK) Retail
+                - name: Exemples d’extensibilité du Kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Créer des packages déployables
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
@@ -2594,21 +2168,17 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Télécharger des exemples et des packages depuis GitHub et NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
-                - name: "Mettre en place un agent de build Visual Studio\_2017 pour créer un Modern POS"
-                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: FAQ sur le kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: Extensibilité du point de vente (PDV)
+            - name: Extensibilité du point de vente
               items:
-                - name: Dispositions de l’écran de PDV
+                - name: Mises en page de l’écran PDV
                   href: pos-screen-layouts.md
-                - name: Application Store Commerce dans Microsoft Dynamics 365 Commerce
-                  href: dev-itpro/store-commerce.md
                 - name: Ouvrir une URL dans le PDV
                   href: Open-URL-in-POS.md
-                - name: Installer le concepteur de dispositions de PDV
+                - name: Installer le concepteur de mise en page de PDV
                   href: install-pos-layout-designer.md
-                - name: Étendre le mode d’affichage de PDV Dual
+                - name: Étendre le mode d’affichage de POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Ajouter des contrôles personnalisés à des vues PDV
                   href: dev-itpro/pos-custom-control.md
@@ -2640,17 +2210,17 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: Étendre les vues PDV pour ajouter des colonnes personnalisées et des boutons à la barre d’application
                   href: dev-itpro/pos-view-extension.md
-                - name: Ajouter des contrôles personnalisés aux pages de transaction de Modern POS
+                - name: Ajouter des contrôles personnalisés aux pages de transaction de MPOS
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Ajouter des colonnes personnalisées à des grilles de transaction PDV
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: Appeler les API ou les opérations PDV à partir des extensions PDV
                   href: dev-itpro/pos-api-extension.md
-                - name: Déclencheurs de PDV
+                - name: Déclencheurs et impression de MPOS
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Ajouter des contrôles personnalisés aux vues PDV basées sur un concepteur hors écran
                   href: dev-itpro/pos-control-non-screen.md
-                - name: Exécuter les exemples de PDV
+                - name: Exécuter les exemples POS
                   href: dev-itpro/pos-run-samples.md
                 - name: Conseils de mise en œuvre pour la gestion des périphériques
                   href: implementation-considerations-devices.md
@@ -2658,52 +2228,20 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Ajouter des boutons personnalisés à la barre d’en-tête du PDV
                   href: dev-itpro/pos-header-bar.md
-                - name: Kit de développement logiciel (SDK) de conditionnement indépendant du PDV
-                  items:
-                    - name: Présentation de l’extension du PDV
-                      href: dev-itpro/pos-extension/pos-extension-overview.md
-                    - name: Démarrage avec les extensions PDV
-                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
-                    - name: Créer un projet de package d’extension PDV
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Créer un fichier .appx pour un package d’extension Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Déboguer des extensions PDV
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
-                    - name: Conditionnement et déploiement d’extension
-                      items:
-                        - name: Créer un package d’extension Modern POS
-                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                        - name: Signature de code d’un package d’extension Modern POS (MSIX)
-                          href: dev-itpro/pos-extension/mpos-extension-signing.md
-                        - name: Créer un package d’extension PDV Cloud
-                          href: dev-itpro/pos-extension/cpos-extension-package.md
-                    - name: Migrer une extension PDV vers le modèle de conditionnement indépendant
-                      href: dev-itpro/pos-extension/migrate-pos-extension.md
-                    - name: Guide de développement de l’extension PDV
-                      items:
-                        - name: Principes de base de l’extension PDV
-                          href: dev-itpro/pos-extension/pos-extension-basics.md
-                        - name: Créer une vue personnalisée dans le PDV
-                          href: dev-itpro/pos-extension/custom-pos-view.md
-                        - name: Utiliser les contrôles de PDV dans les extensions
-                          href: dev-itpro/pos-extension/controls-pos-extension.md
-                        - name: Tâches
-                          items:
-                            - name: Utiliser Knockout.js dans les extensions PDV
-                              href: dev-itpro/pos-extension/knockout-pos-extension.md
-                            - name: Consommer des API Commerce sans affichage personnalisées
-                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Extensibilité de Hardware Station
               items:
+                - name: "Hardware\_Station et extensibilité"
+                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Intégrer un PDV à un nouveau périphérique matériel
                   href: dev-itpro/hardware-device-extension.md
-            - name: "Extensibilité de Retail\_Server"
+            - name: Extensibilité de Retail Server
               items:
                 - name: API client et consommateur de Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: "Créer une API d’extension Retail Server (kit de développement logiciel (SDK) Retail version\_10.0.11 et versions ultérieures)"
+                - name: "Créer une nouvelle API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions ultérieures)"
                   href: dev-itpro/retail-server-icontroller-extension.md
+                - name: "Créer une nouvelle API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions antérieures)"
+                  href: dev-itpro/retail-server-extension.md
                 - name: Proxys Typescript et C# pour Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Utiliser les API Retail Server dans des applications externes
@@ -2728,15 +2266,13 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Extensions de la base de données de canal
                   href: dev-itpro/channel-db-extensions.md
-                - name: Supprimer les extensions Cloud Scale Unit
-                  href: dev-itpro/retail-sdk/remove-csu-package.md
                 - name: Activer la synchronisation CDX personnalisée via une extension
                   href: dev-itpro/cdx-extensibility.md
                 - name: Définir les attributs de commande
                   href: dev-itpro/order-attributes.md
                 - name: Attributs du client
                   href: dev-itpro/customer-attributes.md
-                - name: Extensions de reçu
+                - name: Exemples de SDK CRT
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Consigner les événements d’extension dans Application Insights
                   href: dev-itpro/commerce-application-insights.md
@@ -2764,7 +2300,7 @@
                   href: payment-connector-data-fields.md
                 - name: Activer la protection des paiements en double pour le connecteur de paiement
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Créer un package de paiement Commerce pour le déploiement de Finance and Operations
+                - name: Créer un package de paiement pour l’Explorateur d’application dans les déploiements Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Extensibilité du commerce électronique tiers
               items:
@@ -2776,57 +2312,7 @@
                   href: dev-itpro/ecommerce-platform-sdk.md
             - name: Localiser les ressources d’extension et les fichiers de libellés Commerce
               href: dev-itpro/extension-resource-localization.md
-        - name: Résolution des problèmes
-          items:
-            - name: Traitement des commandes
-              items:
-                - name: Le type de paiement doit être une erreur de carte de crédit
-                  href: troubleshoot/payment-type-credit-card-error.md
-                - name: Les taxes sur les commandes en ligne ne sont pas correctement calculées
-                  href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Erreur de synchronisation de commande associée au service de paiement par défaut
-                  href: troubleshoot/synchronization-error.md
-            - name: Traitement des paiements
-              items:
-                - name: Le remboursement de la commande de retour est refusé
-                  href: troubleshoot/refund-declined.md
-                - name: Dynamics 365 Payment Connector pour Adyen
-                  items:
-                    - name: Résoudre les problèmes avec Dynamics 365 Payment Connector pour Adyen
-                      href: troubleshoot/adyen-support.md
-                    - name: L’option Enregistrer pour mon prochain paiement n’apparaît pas
-                      href: troubleshoot/next-payment-link-not-appearing.md
-                    - name: La page de saisie de la carte de crédit affiche une erreur lors de la validation
-                      href: troubleshoot/credit-card-entry-form-error.md
-                    - name: Les paiements sont automatiquement réglés avant la facturation ou l’expédition des commandes
-                      href: troubleshoot/payments-auto-settled.md
-            - name: Gestion des sites d’e-commerce
-              items:
-                - name: Impossible de configurer le groupe de sécurité pour le générateur de site pendant le déploiement initial
-                  href: troubleshoot/security-group-site-builder.md
-                - name: Les produits et les catégories n’apparaissent pas dans le générateur de site
-                  href: troubleshoot/products-categories-unavailable.md
-                - name: Produits et catégories manquants après la copie de l’environnement
-                  href: troubleshoot/missing-products-categories.md
-                - name: Restreindre l’accès à la vitrine pendant les tests ou le développement
-                  href: troubleshoot/restrict-access-storefront.md
-                - name: Le lien de connexion redirige vers le site d’e-commerce
-                  href: troubleshoot/sign-in-redirects-back.md
-                - name: Les enregistrements client n’apparaissent pas Commerce Headquarters
-                  href: troubleshoot/customer-record-not-appearing.md
-                - name: Choisir cette option n’apparaît pas
-                  href: troubleshoot/pickup-store-link-missing.md
-                - name: Le magasin de vente au détail n’apparaît pas dans la liste des magasins
-                  href: troubleshoot/pickup-store-missing.md
-                - name: Les articles sans stock peuvent être extraits
-                  href: troubleshoot/items-without-inventory-checked-out.md
-                - name: L’affinement des évaluations apparaît sur les résultats de recherche et les pages de catégorie lorsque la solution d’évaluations et d’avis n’est pas activée
-                  href: troubleshoot/hide-ratings-refiner.md
-            - name: Résolution des problèmes avec le kit de développement logiciel (SDK)
-              items:
-                - name: "Configurer un environnement de développement d’e-commerce pour le débogage sur une machine virtuelle Retail Server de niveau\_1"
-                  href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Développement et administration des applications de finances et d’opérations
+    - name: Développement et administration des applications Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

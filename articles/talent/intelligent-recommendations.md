@@ -56,6 +56,3 @@ Les recommandations s'affichent sous forme de fiches dans l'onglet **Prospects**
 > Si vous avez récemment commencé à utiliser Attract, vous devez attendre d'avoir au moins 10 candidats avec des profils complets ou des CV avant de pouvoir utiliser cette fonctionnalité.
 
 Pour éviter un éventuel biais dans les recommandations, Attract n'examine les profils des candidats qu'en fonction des compétences, des qualifications et d'autres mots clés qui correspondent à la description de l'emploi. En outre, Attract supprime les informations personnelles identifiables des profils des candidat avant l'évaluation.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

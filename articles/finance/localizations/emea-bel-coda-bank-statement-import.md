@@ -1,25 +1,28 @@
 ---
 title: Relevé bancaire CODA
 description: Cette rubrique contient des informations sur CODA, qui est un format d’état utilisé par le système d’opérations bancaires électroniques belge.
-author: anasyash
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 262534
 ms.search.region: Belgium
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97e7f8ac575decf2be019435de897e2ee893ebef
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 76f7cbb7c016c27331801de40a89d31707e8bce6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592568"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407930"
 ---
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
@@ -32,7 +35,7 @@ Pour les importations de relevés bancaires belges, vous utiliserez le format de
 ## <a name="import-transactions-from-a-bank-statement"></a>Importer des transactions à partir d’un relevé bancaire
 Pour importer un fichier de relevé bancaire pour un compte bancaire, procédez comme suit. **Remarque** : avant d’importer un fichier de relevé bancaire, vous devez avoir déjà effectué les opérations suivantes :
 
--   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 -   Sélectionner la configuration CODA importée dans la page **Paramètres CODA**.
 
 1.  Accédez à la page **Comptes bancaires**.
@@ -57,6 +60,3 @@ Une fois que le traitement des transactions de relevé bancaire est terminé, un
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

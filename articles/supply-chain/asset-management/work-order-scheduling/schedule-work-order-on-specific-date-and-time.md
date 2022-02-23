@@ -1,10 +1,12 @@
 ---
 title: Planifier un ordre de travail à une date et une heure spécifiques
 description: Cette rubrique explique comment planifier un ordre de travail à une date et une heure spécifiques dans le module Gestion des actifs.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780278"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017365"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Planifier un ordre de travail à une date et une heure spécifiques
 
@@ -32,27 +34,24 @@ Si un ordre de travail doit être programmé à une date *et* à une heure spéc
 
 1. Cliquez sur **Gestion des actifs** > **Commun** > **Ordre de travail** > **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
-2. Dans la liste des ordres de travail, cliquez sur l’ID de l’ordre de travail dans la colonne **Ordre de travail**.
+2. Dans la liste des ordres de travail, cliquez sur l'ID de l'ordre de travail dans la colonne **Ordre de travail**.
 
 3. Cliquez sur **Modifier**.
 
-4. Dans l’organisateur **En-tête de l’ordre de travail**, saisissez les dates et heures de début et de fin dans les champs **Début prévu** et **Fin prévue**.
+4. Dans l'organisateur **En-tête de l'ordre de travail**, saisissez les dates et heures de début et de fin dans les champs **Début prévu** et **Fin prévue**.
 
-    ![Figure 1.](media/05-work-order-scheduling.png)
+    ![Figure 1](media/05-work-order-scheduling.png)
 
-5. Dans l’onglet **Général**, cliquez sur **Planifier** pour utiliser le processus de planification standard, ou cliquez sur **Répartir** si vous souhaitez affecter l’ordre de travail à un agent spécifique.
+5. Dans l'onglet **Général**, cliquez sur **Planifier** pour utiliser le processus de planification standard, ou cliquez sur **Répartir** si vous souhaitez affecter l'ordre de travail à un agent spécifique.
 
-6. Afin de remplacer les réservations de capacité existantes pour vous assurer que l’ordre de travail est planifié dans la période prévue, effectuez vos sélections comme illustré sur la figure ci-dessous dans la boîte de dialogue **Planifier un ordre de travail** > section **Capacité finie**. Cela signifie que le processus de planification ignorera les réservations de capacité existantes, car l’ordre de travail doit démarrer à l’heure de début prévue.
+6. Afin de remplacer les réservations de capacité existantes pour vous assurer que l'ordre de travail est planifié dans la période prévue, effectuez vos sélections comme illustré sur la figure ci-dessous dans la boîte de dialogue **Planifier un ordre de travail** > section **Capacité finie**. Cela signifie que le processus de planification ignorera les réservations de capacité existantes, car l'ordre de travail doit démarrer à l'heure de début prévue.
 
-    ![Figure 2.](media/06-work-order-scheduling.png)
+    ![Figure 2](media/06-work-order-scheduling.png)
 
 7. Cliquez sur **OK** pour démarrer la planification.
 
-8. Si le processus de planification génère un doublon en matière de réservation, un message apparaît à l’écran, et vous pouvez ajuster les ordres de travail associés.
+8. Si le processus de planification génère un doublon en matière de réservation, un message apparaît à l'écran, et vous pouvez ajuster les ordres de travail associés.
 
 >[!NOTE]
->Afin de planifier un agent de maintenance pour l’ordre de travail, cet agent de maintenance doit être disponible aux dates de début et de fin prévues. La disponibilité de l’agent est paramétrée dans [calendrier de l’agent](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
+>Afin de planifier un agent de maintenance pour l'ordre de travail, cet agent de maintenance doit être disponible aux dates de début et de fin prévues. La disponibilité de l'agent est paramétrée dans [calendrier de l'agent](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

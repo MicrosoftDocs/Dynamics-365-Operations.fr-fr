@@ -2,9 +2,11 @@
 title: Espace de travail mobile Répertoire de la société
 description: Cette rubrique fournit des informations sur l’espace de travail mobile Répertoire de la société, qui permet aux utilisateurs d’afficher et de contacter d’autres employés de l’organisation.
 author: jcart1106
+manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720646"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683429"
 ---
 # <a name="company-directory-mobile-workspace"></a>Espace de travail mobile Répertoire de la société
 
@@ -54,7 +56,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 </ul>
 </td>
 <td>Administrateur système</td>
-<td>Si vous n&#39;avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n’avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
+<td>Si vous n’avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n’avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
 </td>
 </tr>
 <tr class="even">
@@ -77,7 +79,7 @@ Télécharger et installer l’application mobile Finance and Operations :
 3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
-[![Extraire pour actualiser.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Afficher le répertoire de la société à l’aide de l’espace de travail mobile
 1.  Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**. La liste des employés s’affiche.
@@ -87,6 +89,3 @@ Télécharger et installer l’application mobile Finance and Operations :
 1.  Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**.
 2.  Dans le champ **Rechercher**, entrez le prénom, le nom, le titre ou le département d’un employé pour démarrer la recherche.
 3.  Sélectionnez un employé. La page **Profil d’employé** s’affiche. Ces informations incluent dans cette page le prénom, le nom, le titre et le département de l’employé.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

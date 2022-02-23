@@ -2,24 +2,27 @@
 title: Amortissement dégressif fiscal
 description: La méthode d’amortissement dégressif fiscal est une méthode d’amortissement utilisée en France. Les montants d’amortissement sont calculés à l’aide de la méthode d’amortissement dégressif et de la méthode d’amortissement linéaire. Le plus grand des deux montants d’amortissement calculés est ensuite utilisé comme montant d’amortissement dégressif fiscal.
 author: Anasyash
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetRBSLFactorTable
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 30271
 ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a0c3f509c3ee44c2a89fdf0b4a6d05d26a94752dd03ffe93277d5f49f75e1e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f041d4c7c25e6b5118da875cf7146c60c865e0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741493"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407942"
 ---
 # <a name="rbsl-depreciation"></a>Amortissement dégressif fiscal
 
@@ -51,6 +54,3 @@ Lorsque vous créez une configuration **Groupe d’immobilisations/modèle de va
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,6 +58,3 @@ Lorsque vous modifiez la tâche sur un poste, l'option **Famille de tâches** es
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Améliorations des performances lors du rendu des espaces de travail
 Les onglets d'analyse des espaces de travail se chargent uniquement lors de l'accès à ces pages. Un indicateur s'affiche pendant le rendu initial de la page dans l'angle supérieur gauche de la page.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

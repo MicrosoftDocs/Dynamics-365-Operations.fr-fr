@@ -2,9 +2,11 @@
 title: Taxe de vente harmonisée canadienne
 description: Cette rubrique donne des informations sur la fonctionnalité de prise en charge de la taxe de vente harmonisée pour le secteur public.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNCanadianHSTTaxFeature
 audience: Application User
@@ -17,12 +19,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7b4be3c9b94115c80331f0311df45e6cc929b5b77745c337cec884ad9cb1e323
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fce946fd997b0f6b3a86ff4e990700e23b54247
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743737"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968239"
 ---
 # <a name="calculating-canadian-harmonized-sales-tax"></a>Calcul de la taxe de vente harmonisée canadienne
 
@@ -72,7 +74,7 @@ Après avoir défini les dimensions de la taxe HST, vous définissez les règles
 
 L’ordre dans lequel les règles sont appliquées est relativement complexe. Le graphique suivant illustre le principe :
 
-> [![Définir les règles HST.](./media/define-hst-rules.png)](./media/define-hst-rules.png)
+> [![Définir les règles HST](./media/define-hst-rules.png)](./media/define-hst-rules.png)
 
 Les codes de taxe sélectionnés pour la ligne de dimension sont les suivants si la transaction utilise un groupe de taxe et un groupe de taxe d’article avec tous les codes de taxe inclus.
 
@@ -83,6 +85,3 @@ Les codes de taxe sélectionnés pour la ligne de dimension sont les suivants si
 |   Fonds 101, Division 121                  | Taxe2, Taxe3      |
 |   Fonds 303, n’importe quelle division à l’exception de la division 141         | Taxe1, Taxe2, Taxe3|
 |   Fonds 303, Division 141                  | Taxe1            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

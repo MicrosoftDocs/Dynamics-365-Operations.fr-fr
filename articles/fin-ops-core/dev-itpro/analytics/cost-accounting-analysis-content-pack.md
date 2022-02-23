@@ -1,10 +1,12 @@
 ---
 title: Contenu Power BI Analyse de contrôle de gestion
-description: Cette rubrique décrit les données incluses dans le contenu Power BI d’analyse du contrôle de gestion.
+description: Cette rubrique décrit les données incluses dans le contenu Power BI d’analyse du contrôle de gestion. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747367"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683869"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenu Power BI Analyse de contrôle de gestion
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les données incluses dans le contenu Microsoft Power BI **Analyse du contrôle de gestion**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit les données incluses dans le contenu Power BI **Analyse du contrôle de gestion**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="overview"></a>Présentation
 
@@ -40,7 +42,7 @@ Pour en savoir plus sur le contrôle de gestion, voir [Page d’accueil du contr
 En définissant la sécurité au niveau de l’accès dans le module Contrôle de gestion et en la combinant à la sécurité au niveau de la ligne dans Power BI, vous pouvez autoriser l’accès au contenu Power BI **Analyse du contrôle de gestion** à tous les propriétaires d’objet de coût. Toutes les données des visualisations seront ensuite filtrées selon le niveau d’accès contrôlé dans le contrôle de gestion. Pour en savoir plus sur la sécurité au niveau de l’accès et la sécurité au niveau de la ligne, voir [Paramétrer la sécurité du contenu Power BI d’analyse du contrôle de gestion](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l’implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Vous trouverez le contenu Power BI **Analyse du contrôle de gestion** dans la bibliothèque Actifs partagés de Microsoft Dynamics Lifecycle Services (LCS). Pour savoir comment télécharger le contenu et l’implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 Veillez à télécharger le contenu **Analyse du contrôle de gestion** qui s’applique à la version de Microsoft Dynamics 365 que vous utilisez.
 
@@ -121,6 +123,3 @@ Les dimensions clés suivantes sont utilisées comme filtres pour diviser les me
 | Calendriers fiscaux                   | Calendrier, description du calendrier                                                                                       |
 | Exercices                       | Année civile                                                                                                        |
 | Périodes fiscales                     | Période de l’année civile                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

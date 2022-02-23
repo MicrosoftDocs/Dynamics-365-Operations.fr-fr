@@ -80,6 +80,3 @@ Nombreuses sont les organisations où les responsables des bénéfices et de la 
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Mise à jour de la plateforme 24 pour Finance and Operations
 Pour en savoir plus sur Platform Update 24 pour Finance and Operations, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Module Options de livraison
 description: Cette rubrique couvre les modules d’options de livraison et explique comment les configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9e8df576efd1e58fde235828823f31e87ed58bf
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760898"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4412434"
 ---
 # <a name="delivery-options-module"></a>Module Options de livraison
 
@@ -27,9 +30,11 @@ ms.locfileid: "6760898"
 
 Cette rubrique couvre les modules d’options de livraison et explique comment les configurer dans Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Vue d’ensemble
+
 Les modules d’options de livraison permettent aux clients de sélectionner un mode de livraison tel que l’expédition ou le retrait pour leur commande en ligne. Une adresse de livraison est nécessaire pour déterminer le mode de livraison. Si l’adresse d’expédition change, les options de livraison doivent être extraites de nouveau. Si une commande inclut uniquement des articles qui sont retirés en magasin, ce module est automatiquement masqué.
 
-Pour plus d’informations sur la configuration des modes de livraison, voir [Configuration des canaux en ligne](channel-setup-online.md) et [Configurer les modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Pour plus d’informations sur la configuration des modes de livraison, voir [Configuration des canaux en ligne](channel-setup-online.md) et [Configurer les modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Chaque mode de livraison peut avoir des frais associés. Pour plus d’informations sur la configuration de frais pour un commerce en ligne, consultez [Frais automatiques avancés omnicanaux](omni-auto-charges.md).
 
@@ -41,16 +46,15 @@ Si des frais d’expédition s’appliquent aux articles de ligne, ils peuvent �
 
 L’illustration suivante montre un exemple de module d’options de livraison dans une page de caisse.
 
-![Exemple de module d’options de livraison sur une page de paiement.](./media/ecommerce-deliveryoptions.PNG)
+![Exemple de module d’options de livraison sur une page de paiement](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Propriétés du module Options de livraison
 
-| Propriété | Valeurs | Description  |
+| Propriété | Valeurs | Description |
 |----------|--------|-------------|
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Rubrique optionnelle pour le module Options de livraison. |
 | Nom de classe CSS personnalisé | Détails | Nom de classe de feuille de style en cascade personnalisée (CSS) qui sera utilisé pour afficher ce module, le cas échéant. |
 | Option Filtrer le mode de livraison | **Ne pas filtrer** ou **Modes hors expédition** | Une valeur qui spécifie si le module Options de livraison doit filtrer tous les modes de livraison hors expédition. |
-| Sélectionner automatiquement une option de livraison | **Ne pas filtrer**, **Sélectionner automatiquement l’option de livraison et afficher le résumé**, ou alors **Sélectionner automatiquement l’option de livraison et ne pas afficher le résumé** | Cette propriété applique automatiquement la première option de livraison disponible au paiement sans que l’utilisateur ne la sélectionne. Elle ne doit être utilisée que s’il existe une option de livraison disponible. Cette propriété est prise en charge à compter de la version 10.0.19 de Commerce. |
 
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Ajouter un module Options de livraison à une page de caisse et définir les propriétés requises
 
@@ -66,7 +70,7 @@ Un module Options de livraison ne peut être ajouté qu’à un module de caisse
 
 [Module Adresse d’expédition](ship-address-module.md)
 
-[Module d’information sur le retrait](pickup-info-module.md)
+[Module d'information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 
@@ -78,7 +82,4 @@ Un module Options de livraison ne peut être ajouté qu’à un module de caisse
 
 [Calcul au prorata des frais d’en-tête correspondent aux lignes de vente](pro-rate-charges-matching-lines.md)
 
-[Paramétrer des modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Paramétrer des modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)

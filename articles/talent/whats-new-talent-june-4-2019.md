@@ -98,6 +98,3 @@ Une nouvelle option permet aux responsables d'afficher les performances des éta
 ### <a name="print-performance-reviews"></a>Imprimer les évaluations des performances
 
 Les employés, les responsables, et le service des RH peuvent imprimer l'examen des performances d'un employé.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

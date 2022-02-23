@@ -2,24 +2,27 @@
 title: Comptabilité de projet avec des réservations budgétaires générales
 description: Cette rubrique fournit des informations sur la comptabilité de projet qui utilise les réservations budgétaires générales pour le secteur public.
 author: AlexRenney
+manager: AnnBe
 ms.date: 04/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dab3e00baefb92e83b8ede46e3ed233467d5609cdd261e6b17132d1fa375568e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f376de75951e9468ce95a24e9393d9bdca66672
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754125"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407936"
 ---
 # <a name="project-accounting-with-general-budget-reservations"></a>Comptabilité de projet avec des réservations budgétaires générales
 
@@ -57,6 +60,3 @@ Lorsque vous validez une réservation budgétaire générale pour un projet, un 
 3. Sélectionnez **Coûts engagés**. La page **Coûts engagés** s’affiche et indique les coûts engagés associés à la ligne sélectionnée.
 
     Les coûts engagés pour les réservations budgétaires générales sont basés sur le montant, peu importe si le coût engagé inclut une quantité et un coût unitaire distincts. La quantité du coût engagé est toujours 1.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

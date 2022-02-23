@@ -2,24 +2,27 @@
 title: Créer un fournisseur occasionnel et une facture dans le secteur public
 description: L’enregistrement fournisseur utilise les valeurs du compte fournisseur occasionnel par défaut.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendOpenInvoicesListPage, VendOneTimeVendInvoice_PSN
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7fda523aa14a2d7dd669bd32bce5c72e5c7f1b6b91d61bebf5480075211b21f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b669001cd9665ccc26613c2af7ef09e2d8177426
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763052"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407994"
 ---
 # <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a>Créer un fournisseur occasionnel et une facture dans le secteur public
 
@@ -35,6 +38,3 @@ L’enregistrement fournisseur utilise les valeurs du compte fournisseur occasio
 5. Cliquez sur Créer.
     * La page Facture fournisseur s’ouvre, affichant les informations relatives au fournisseur.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

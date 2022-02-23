@@ -2,23 +2,26 @@
 title: FR-00004 Valider le journal de renouvellement de lettres de change
 description: Cette procédure vous guide dans l’approbation d’un journal de renouvellement de lettres de change.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustOpenTrans
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2d1ec90fec61db3a47631c9ea3ef737b9d677b1d92b58e4107d02006363fb0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0beab796df2f037d321192835f090bbbb1386319
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740859"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407961"
 ---
 # <a name="fr-00004-post-re-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de renouvellement de lettres de change
 
@@ -50,6 +53,3 @@ Pour effectuer cette procédure, vous devez avoir le rôle de commis à la compt
 14. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
     * Vérifiez que le statut du journal récemment validé est Représenté. Si c’est le cas, le processus est terminé.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

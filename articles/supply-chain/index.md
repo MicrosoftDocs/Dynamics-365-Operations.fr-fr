@@ -2,25 +2,28 @@
 title: Page d’accueil de Supply Chain Management
 description: Cette page fournit une liste de rubriques d’aide et d’autres ressources pour les fonctionnalités de Supply Chain Management.
 author: kamaybac
-ms.date: 09/15/2021
+manager: tfehr
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487861"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459032"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d’accueil de Supply Chain Management
 
@@ -60,10 +63,11 @@ Cette courte vidéo résume les nouvelles fonctionnalités de gestion de la cha�
 
 - [Synchroniser un ordre d’exécution entre Field Service et Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017).
+Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017).
 
+- [Intégration de la solution Prospect en disponibilités](https://youtu.be/AVV9x5x-XCg) 
 - [Conseiller en optimisation](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [Utilisation du modèle d’entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [Utiliser le modèle d’entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017).
 
@@ -79,12 +83,13 @@ Les enregistrements de conférence technique suivants traitent des fonctionnalit
   - [Vue d’ensemble de la gestion des coûts](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **Planification :**
   - [Étendre la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-  - [Planification – conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
-  - [Optimisation des performances MRP](https://youtu.be/RLXybx20B5o)
+  - [Planification - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
+  - [Besoin d’aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
 - **Gestion des informations sur les produits :**
   - [Configurateur de produits dans Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Gestion des entrepôts :**
   - [Optimiser votre système de gestion des entrepôts](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [Libellés de la nouvelle gestion des entrepôts Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3 : Gestion avancée des entrepôts – Un jour dans la vie du processus de fabrication](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Vidéos sur le contrôle de la production :**
   - [Opérations et activités de sous-traitance de la fabrication](https://youtu.be/y1jrd3A_k70)
@@ -93,16 +98,13 @@ Les enregistrements de conférence technique suivants traitent des fonctionnalit
 
 ## <a name="blogs"></a>Blogs
 
-Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisionnement sont consultables sur le [Blog de l’équipe R&D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s’appliquent toujours et les procédures sont similaires dans la version actuelle.
+Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisionnement sont consultables sur le [Blog de l’équipe R&D de Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg/) et sur le [Blog de l’équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s’appliquent toujours et les procédures sont similaires dans la version actuelle.
 
 ## <a name="white-papers"></a>Livres blancs
 
-- [Lean manufacturing : planification de capable to promise et des tâches de kanban](/dynamics/s-e/)
+- [Lean manufacturing : planification de capable to promise et des tâches de kanban](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
 - [Calcul de nomenclature à l’aide d’une feuille d’évaluation des coûts](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Cours eLearning
 
-Pour les cours et formations en ligne, consultez [Dynamics 365 Supply Chain Management sur Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Pour les cours et formations en ligne, consultez [Dynamics 365 Supply Chain Management sur Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).

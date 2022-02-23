@@ -2,22 +2,25 @@
 title: Paramétrer la déclaration de la balance des paiements (Belgique)
 description: Utilisez cette procédure pour paramétrer les informations BLWI (Belgisch Luxemburgs Wissel Instituut) pour la Belgique.
 author: v-oloski
+manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36d59465b358d343a9460474e070778e6d9d6f17aa38ea880c8393c5099f6660
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7268b961cf6c79d491fe5b1a698e42bb39b21795
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728696"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407929"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Paramétrer la déclaration de la balance des paiements (Belgique)
 
@@ -74,6 +77,3 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 10. Activez la case à cocher Inclure le paiement.
     * Notez que les transactions de paiement ne sont pas transférées vers l’étude de la balance des paiements par défaut. L’utilisateur doit activer le champ Inclure le paiement pour les codes objectif.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Configurer le carnet d’adresses global
 description: Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d’adresses global.
 author: msftbrking
+manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34b0ab8b2d3ffa840e20d73716265c445e77189044840fd6850c5bffb3e3365b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759063"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796800"
 ---
 # <a name="configure-the-global-address-book"></a>Configurer le carnet d’adresses global
 
@@ -40,9 +42,6 @@ Les données fictives utilisées pour créer cette tâche correspondent à la so
 10. Dans le champ **Prospect**, sélectionnez une option.
 11. Dans le champ **Concurrent**, sélectionnez une option.
 12. Cliquez sur l’onglet **Sécurité de l’emplacement privé**.
-13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Appuyez sur la touche Shift pour sélectionner plusieurs rôles à ajouter au volet **Rôles sélectionnés**, puis cliquez sur la flèche pour ajouter les rôles sélectionnés.  
+13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Appuyez sur la touche Shift pour sélectionner plusieurs rôles à ajouter au volet **Rôles sélectionnés**, puis cliquez sur la flèche pour ajouter les rôles sélectionnés.   
 14. Cliquez sur **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

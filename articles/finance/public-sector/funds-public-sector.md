@@ -1,27 +1,30 @@
 ---
 title: Fonds dans le secteur public
-description: Cette rubrique explique comment les entités du secteur public peuvent se servir des fonds pour attester de leur responsabilité financière. Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives.
-author: v-kiarnd
+description: Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerFund, LedgerFundType
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 19571
 ms.assetid: c746c09f-dc9e-4381-ae92-e1af484064b6
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83f61fe55134565db18a930fe8cde99b2083143d
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: daa9ccca8a6dd8fd906eb41c8c25f14f141fdf69
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817703"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407914"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 
@@ -29,12 +32,13 @@ ms.locfileid: "7817703"
 
 Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
 
-## <a name="what-general-ledger-parameters-should-be-set-for-funds"></a>Quels paramètres de comptabilité doivent être définis pour les fonds ?
+<a name="what-general-ledger-parameters-should-be-set-for-funds"></a>Quels paramètres de comptabilité doivent être définis pour les fonds ?
+-------------------------------------------------------
 
 Pour en savoir plus sur les paramètres de comptabilité requis pour les fonds, voir [Comptabilité dans le secteur public](general-ledger-public-sector.md).
 
 ## <a name="what-fund-classes-and-fund-types-do-i-need-to-set-up"></a>Quels classes et types de fonds dois-je paramétrer ?
-Le Governmental Accounting Standards Board (GASB) recommande un ensemble de principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale. GAAP identifie huit types de fonds catégorisés en trois classes de fonds :
+Le Governmental Accounting Standards Board (GASB) recommande un ensemble de principes comptables généralement reconnus (GAAP) pour la comptabilité gouvernementale et locale.  GAAP identifie huit types de fonds catégorisés en trois classes de fonds :
 
 -   Fonds gouvernementaux
     -   Fonds général
@@ -72,8 +76,9 @@ Voici une liste de certains fonds qui peuvent être utilisés par une municipali
 
 Le tableau suivant présente affiche ces fonds regroupés par classe et type de fonds.
 
-| Classe de fonds | Type de fonds          | Numéro de fonds | Nom du fonds                    |
+|                |                        |                 |                                  |
 |----------------|------------------------|-----------------|----------------------------------|
+| **Classe de fonds** | **Type de fonds**          | **Numéro de fonds** | **Nom du fonds**                    |
 | Gouvernemental   | Fonds général           | 1103            | Fonds général                     |
 |                | Fonds de financement particulier  | 1343            | École de technologie             |
 |                |                        | 1372            | Technologies de l’information           |
@@ -104,6 +109,3 @@ Pour plus d’informations, voir les rubriques suivantes :
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,48 +1,46 @@
 ---
 title: Créer les propriétés de la planification du temps de travail
 description: Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte.
-author: johanhoffmann
+author: sorenva
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de9bb64c93a686ce8a6ea365267980ec737a9335
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 79ca3d0405cc62b181f8c80df6de3a3cc9e12f99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566597"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427596"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Créer les propriétés de la planification du temps de travail
 
 [!include [banner](../../includes/banner.md)]
 
-Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte. Cette procédure permet d’indiquer comment définir une propriété de planification du temps de travail et les valeurs de propriété associées. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
+Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte. Cette procédure permet d'indiquer comment définir une propriété de planification du temps de travail et les valeurs de propriété associées. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 
-1. Accédez à **Espaces de travail \> Gestion des cycles de vie des ressources**.
-2. Sélectionnez **Propriétés**.
+1. Accédez à Tous les espaces de travail > Gestion des cycles de vie des ressources.
+2. Cliquez sur Propriétés.
 
 ## <a name="create-property"></a>Créez la propriété
-
-1. Sélectionnez **Nouveau**.
-2. Tapez une valeur dans le champ **Propriété**.
-3. Tapez une valeur dans le champ **Nom**.
+1. Cliquez sur Nouveau.
+2. Tapez une valeur dans le champ Propriété.
+3. Tapez une valeur dans le champ Nom.
 
 ## <a name="create-property-values"></a>Créer les valeurs de la propriété
-
 1. Dans la liste, marquez la ligne sélectionnée.
-2. Tapez une valeur dans le champ **Nom**.
-3. Tapez une valeur dans le champ **Valeur**.
-4. Sélectionnez **Enregistrer**.
+2. Tapez une valeur dans le champ Nom.
+3. Tapez une valeur dans le champ Valeur.
+4. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

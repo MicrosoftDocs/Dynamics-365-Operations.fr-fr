@@ -1,25 +1,28 @@
 ---
 title: Configuration d’un scénario pour l’intelligence IoT
 description: Cette rubrique explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management.
-author: tonyafehr
+author: robinarh
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782425"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428138"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuration d’un scénario pour l’intelligence IoT
 
@@ -42,7 +45,7 @@ Le scénario **Temps d’arrêt de l’équipement** a les dépendances suivante
 Procédez comme suit pour configurer le scénario.
 
 1. Connectez-vous à Supply Chain Management.
-2. Activez l’indicateur de fonctionnalité Intelligence IoT. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+2. Activez l’indicateur de fonctionnalité Intelligence IoT. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 3. Configurez les mesures. Pour plus d’informations, voir [Comment configurer les mesures](iot-metrics-setup.md#configure-metrics).
 4. Aller à **Contrôle de production \> Configurer \> Intelligence IoT \> Gestion de scénario**.
 6. Sur la vignette **Temps d’arrêt de l’équipement**, sélectionnez **Configurer** pour ouvrir l’assistant de configuration.
@@ -140,6 +143,3 @@ Pour désactiver un scénario, procédez comme suit.
 2. Sur la vignette du scénario, sélectionnez **Configurer**.
 3. Cliquez sur **Suivant** pour accéder à la dernière page de l’Assistant.
 4. Définissez l’option sur désactiver le scénario.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

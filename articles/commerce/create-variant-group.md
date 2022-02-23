@@ -2,9 +2,11 @@
 title: Créer un groupe de variantes
 description: Cette rubrique décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749929"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965149"
 ---
 # <a name="create-a-variant-group"></a>Créer un groupe de variantes
 
@@ -29,9 +31,9 @@ ms.locfileid: "6749929"
 
 Cette rubrique décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Vue d'ensemble
 
-Dynamics 365 Commerce prend en charge plusieurs variantes pour les produits. Il est idéal de configurer des groupes de variantes pour différentes catégories de produits. Par exemple, un groupe de tailles peut être créé pour les t-shirts de tailles XS, S, M, L et XL, ou un groupe de couleurs peut être créé pour inclure toutes les couleurs disponibles d’un produit. Les groupes de variantes doivent être ajoutés avant l’ajout de produits.
+Dynamics 365 Commerce prend en charge plusieurs variantes pour les produits. Il est idéal de configurer des groupes de variantes pour différentes catégories de produits. Par exemple, un groupe de tailles peut être créé pour les t-shirts de tailles XS, S, M, L et XL, ou un groupe de couleurs peut être créé pour inclure toutes les couleurs disponibles d'un produit. Les groupes de variantes doivent être ajoutés avant l'ajout de produits.
 
 Dans cette rubrique, un groupe de tailles sera créé et configuré. Des procédures similaires peuvent être utilisées pour ajouter et configurer des groupes de styles et des groupes de couleurs.
 
@@ -56,20 +58,17 @@ Pour ajouter des attributs à un groupe de tailles procédez comme suit.
 1. Dans la zone **Nom de la taille**, entrez un nom pour la taille (par exemple, « Extra Large »).
 1. Dans la zone **Poids de réapprovisionnement**, entrez un nombre représentant le poids de réapprovisionnement.
 1. Dans la zone **Numéro dans le code-barres**, entrez un nombre représentant le code-barres.
-1. Dans la zone **Ordre d’affichage**, entrez un nombre représentant l’ordre d’affichage.
-1. Lorsque vous avez terminé d’ajouter des tailles, sélectionnez **Enregister** dans le volet Actions.
+1. Dans la zone **Ordre d'affichage**, entrez un nombre représentant l'ordre d'affichage.
+1. Lorsque vous avez terminé d'ajouter des tailles, sélectionnez **Enregister** dans le volet Actions.
 
-L’image suivante montre un exemple de groupe de tailles pour « Tailles de chemises décontractées ».
+L'image suivante montre un exemple de groupe de tailles pour « Tailles de chemises décontractées ».
 
-![Créer un groupe de tailles.](media/create-variant-group.png)
+![Créer un groupe de tailles](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble des informations sur le produit](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
+[Vue d'ensemble des informations sur le produit](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
 
 [Paramétrer les produits vendus au détail](set-up-retail-products.md)
 
 [Dimensions de produit](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

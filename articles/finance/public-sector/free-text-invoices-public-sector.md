@@ -1,35 +1,39 @@
 ---
 title: Factures financières dans le secteur public
-description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
-author: v-kiarnd
+description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 25821
 ms.assetid: 483e2726-ec48-4d1f-82f5-bffddea301ce
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a044d332ef8208e808d2d7a3230e1f445131423d
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 9f458e52ac77496682018e496dcedce358549ad3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817720"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407915"
 ---
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
+Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 
-## <a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
+<a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
+-------------------------------------------------------------------------
 
 Oui, lorsque les classifications de facturation sont activées, vous devez entrer une classification de facturation pour chaque facture financière. La classification de facturation contrôle quels codes facturation vous pouvez entrer sur la facture. Elle régit également les conditions générales de paiement, les souches de numéros et le traitement de la facture. Pour plus d’informations sur les classifications de facturation, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).
 
@@ -65,6 +69,3 @@ Le code intérêt peut être défini sur le code facturation, la classification 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

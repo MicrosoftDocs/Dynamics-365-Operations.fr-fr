@@ -1,27 +1,27 @@
 ---
 title: Vue d’ensemble de l’impression de document
 description: Vous pouvez imprimer des documents à l’aide d’une imprimante locale ou d’un périphérique réseau connecté. Cet article fournit une vue d’ensemble de la manière dont les documents sont imprimés.
-author: RichdiMSFT
+author: TJVass
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
+ms.custom: 69161
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984906"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680094"
 ---
 # <a name="document-printing-overview"></a>Vue d’ensemble de l’impression de document
 
@@ -51,7 +51,7 @@ Le tableau suivant décrit les trois principaux scénarios d’impression.
 Comme la solution varie, selon le scénario, les applications fournissent des services et des outils intégrés pour aider les utilisateurs à atteindre leurs objectifs :
 
 - Le **Scénario 1** est pris en charge par le rendu du client HTML5 du navigateur.
-- Le **Scénario 2** utilise des applications client et des services Microsoft 365.
+- Le **Scénario 2** utilise des applications client et des services Microsoft 365.
 - Le **Scénario 3** requiert la prise en charge des applications client et des services hébergés dans Microsoft Azure.
 
 Outre la plateforme déployée dans l’abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
@@ -71,9 +71,6 @@ La solution basée sur le client permet aux clients de gérer l’échelle de le
 
 Les diagramme suivant présente les composants de base permettant la prise en charge d’opérations d’impression réseau.
 
-[![service-components-for-network-printing\_2016.](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Notez qu’une seule imprimante peut être enregistrée avec plusieurs agents d’acheminement de document. Pour résoudre les préférences d’imprimante, le service hébergé utilise le chemin réseau identifiant de manière unique chaque imprimante réseau. Par conséquent, même si une imprimante est enregistrée par plusieurs clients, elle apparaît comme sélection unique dans la liste des imprimantes disponibles dans les applications.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

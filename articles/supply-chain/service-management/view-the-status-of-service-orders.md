@@ -1,43 +1,46 @@
 ---
 title: Affichage du statut des commandes de service
-description: Vous pouvez utiliser l’écran Tableau d’affectation pour afficher le statut des activités de service dans les commandes de service.
-author: kamaybac
+description: Vous pouvez utiliser l'écran Tableau d'affectation pour afficher le statut des activités de service dans les commandes de service.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a43e93f2ea64f75a559e1429bbc927c6d23a10ae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d81b33a9f30143891da6c7f21dc728e6e4fe7b8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428045"
 ---
 # <a name="view-the-status-of-service-orders"></a>Affichage du statut des commandes de service 
 
 [!include [banner](../includes/banner.md)]
 
 
-Vous pouvez utiliser l’écran **Tableau d’affectation** pour afficher le statut des activités de service dans les commandes de service.
+Vous pouvez utiliser l'écran **Tableau d'affectation** pour afficher le statut des activités de service dans les commandes de service.
 
-## <a name="more-information-about-service-orders"></a>Plus d’informations sur les commandes de service
+## <a name="more-information-about-service-orders"></a>Plus d'informations sur les commandes de service
 
-L’écran fournit également des outils pour suivre le flux de commandes de service et inclut des informations supplémentaires afin de vous aider à évaluer l’urgence d’une commande de service, tels que l’accord de service et le contrat de niveau de service auxquels il est associé.
+L'écran fournit également des outils pour suivre le flux de commandes de service et inclut des informations supplémentaires afin de vous aider à évaluer l'urgence d'une commande de service, tels que l'accord de service et le contrat de niveau de service auxquels il est associé.
 
-Afin de vous aider à vite évaluer l’urgence d’une commande de service, le diagramme de Gantt prend en charge l’utilisation de couleurs. Les couleurs permettent de distinguer la priorité d’un appel de service. Par défaut, ces couleurs sont les suivantes : rouge pour une priorité haute, jaune pour une priorité normale et vert pour une priorité basse.
+Afin de vous aider à vite évaluer l'urgence d'une commande de service, le diagramme de Gantt prend en charge l'utilisation de couleurs. Les couleurs permettent de distinguer la priorité d'un appel de service. Par défaut, ces couleurs sont les suivantes : rouge pour une priorité haute, jaune pour une priorité normale et vert pour une priorité basse.
 
 
 > [!TIP]
-> <P>Vous pouvez modifier les couleurs sous l’onglet <STRONG>Répartition</STRONG> de l’écran <STRONG>Paramètres de gestion des services</STRONG>.</P>
+> <P>Vous pouvez modifier les couleurs sous l'onglet <STRONG>Répartition</STRONG> de l'écran <STRONG>Paramètres de gestion des services</STRONG>.</P>
 
 
 
@@ -47,11 +50,8 @@ Afin de vous aider à vite évaluer l’urgence d’une commande de service, le 
 
 [Surveillance des activités du service](monitor-service-activities.md)
 
-[Tableau d’affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
+[Tableau d'affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

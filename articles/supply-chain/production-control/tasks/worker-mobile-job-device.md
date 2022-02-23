@@ -1,58 +1,61 @@
 ---
-title: Configurer un collaborateur à l’aide du périphérique mobile
-description: Cette rubrique explique comment affecter des rôles corrects au compte utilisateur d’un collaborateur, puis autoriser ce collaborateur à effectuer des enregistrements d’atelier.
-author: johanhoffmann
+title: Configurer un collaborateur à l'aide du périphérique mobile
+description: Cette rubrique explique comment affecter des rôles corrects au compte utilisateur d'un collaborateur, puis autoriser ce collaborateur à effectuer des enregistrements d'atelier.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d9745995752c06385acc31e529de52eefaa6f96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ada42a98a8a87e377f939d063b17f9904f6b3408
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573559"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428054"
 ---
-# <a name="configure-a-worker-using-the-mobile-job-device"></a>Configurer un collaborateur à l’aide du périphérique mobile
+# <a name="configure-a-worker-using-the-mobile-job-device"></a>Configurer un collaborateur à l'aide du périphérique mobile
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment affecter des rôles corrects au compte utilisateur d’un collaborateur, puis autoriser ce collaborateur à effectuer des enregistrements d’atelier.
+Cette rubrique explique comment affecter des rôles corrects au compte utilisateur d'un collaborateur, puis autoriser ce collaborateur à effectuer des enregistrements d'atelier.
 
-## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a>Vérifier qu’un certain rôle est affecté à un collaborateur
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a>Vérifier qu'un certain rôle est affecté à un collaborateur
 
-Pour cet exemple, vérifiez que le rôle Opérateur est affecté à l’utilisateur « SHANNON » avant de configurer le compte du collaborateur.
+Pour cet exemple, vérifiez que le rôle Opérateur est affecté à l'utilisateur « SHANNON » avant de configurer le compte du collaborateur.
 
 1. Accédez à **Volet de navigation > Modules > Administration système > Utilisateurs > Utilisateurs**.
 2. Recherchez un utilisateur dans le filtre rapide. Pour cet exemple, entrez `shannon`.
-3. Sélectionnez le lien dans la colonne **ID utilisateur** du compte d’utilisateur qui s’affiche.
-4. Dans l’arborescence **Rôles de l’utilisateur**, sélectionnez **Rôles > Opérateur**.
-5. Fermez les pages **détails sur l’utilisateur** et **utilisateurs** pour revenir à la page d’accueil.
+3. Sélectionnez le lien dans la colonne **ID utilisateur** du compte d'utilisateur qui s'affiche.
+4. Dans l'arborescence **Rôles de l'utilisateur**, sélectionnez **Rôles > Opérateur**.
+5. Fermez les pages **détails sur l'utilisateur** et **utilisateurs** pour revenir à la page d'accueil.
 
 ## <a name="configure-worker-account"></a>Paramétrer le compte du collaborateur
 1. Allez dans **Volet de navigation > Modules > Ressources humaines > Collaborateurs > Collaborateurs**.
 2. Recherchez un utilisateur dans le filtre rapide. Pour cet exemple, entrez `shannon`.
-3. Sélectionnez le lien dans la colonne **Nom** du compte d’utilisateur qui s’affiche.
-4. Sélectionnez l’onglet **Enregistrement du temps**.
-5. Sélectionnez **Activer sur les terminaux d’enregistrement**.
+3. Sélectionnez le lien dans la colonne **Nom** du compte d'utilisateur qui s'affiche.
+4. Sélectionnez l'onglet **Enregistrement du temps**.
+5. Sélectionnez **Activer sur les terminaux d'enregistrement**.
 6. Entrez ou sélectionnez des valeurs dans les champs suivants :  
 
     - **Groupe de calcul**  
     - **Groupe de calcul par défaut**  
-    - **Groupe d’approbation**  
+    - **Groupe d'approbation**  
     - **Profil standard**  
     - **Groupe de profils**  
 
 7. Cliquez sur **OK**.
-8. Sélectionnez **Modifier** pour saisir un numéro de badge pour le nouveau collaborateur qualifié pour l’enregistrement des heures. Entrez une valeur dans le champ **ID badge**.
+8. Sélectionnez **Modifier** pour saisir un numéro de badge pour le nouveau collaborateur qualifié pour l'enregistrement des heures. Entrez une valeur dans le champ **ID badge**.
 9. Sélectionnez **Enregistrer**.
 10. Fermez les pages **Détails du collaborateur** et **Collaborateurs**.
 
@@ -62,9 +65,6 @@ Pour cet exemple, vérifiez que le rôle Opérateur est affecté à l’utilisat
 3. Dans la liste, sélectionnez le collaborateur souhaité. Pour cet exemple, sélectionnez **SHANNON**.
 4. Cliquez sur **OK**.
 5. Sélectionnez **Modifier**.
-6. Dans le champ **Unité de production**, vous pouvez définir le filtre par défaut pour le collaborateur. Cela garantit que seules les tâches de production pour l’unité de production sélectionnée sont affichées lorsque le collaborateur se connecte au périphérique. Entrez la valeur souhaitée.
+6. Dans le champ **Unité de production**, vous pouvez définir le filtre par défaut pour le collaborateur. Cela garantit que seules les tâches de production pour l'unité de production sélectionnée sont affichées lorsque le collaborateur se connecte au périphérique. Entrez la valeur souhaitée.
 7. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

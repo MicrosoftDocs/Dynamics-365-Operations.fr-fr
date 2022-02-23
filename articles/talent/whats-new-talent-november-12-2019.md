@@ -60,6 +60,3 @@ Toutes les nouvelles fonctionnalités restent dans la version préliminaire pend
 Parfois, une fonctionnalité intégrale sera activée par défaut et ne pourra pas être désactivée (par exemple, l'espace de travail **Gestion des fonctions**).
  
 Une fois qu’une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s’aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

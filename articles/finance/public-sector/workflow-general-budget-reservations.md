@@ -2,24 +2,27 @@
 title: Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 description: Cette rubrique explique la procédure de paramétrage des réservations budgétaires générales et comment les envoyer à un workflow pour le secteur public.
 author: AlexRenney
+manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationType_PSN
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ea066a437868c4e5c0bdb28323bb7d5300b8c8cde8c3de0fcb0c7866d103c5ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5b4d266c348d7703a44e0da47971e12f1994a7d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766257"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407981"
 ---
 # <a name="set-up-general-budget-reservations-and-submit-them-to-a-workflow"></a>Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 
@@ -29,7 +32,7 @@ Lorsqu’une réservation budgétaire générale est paramétrée pour utiliser 
 
 L’illustration suivante indique comment paramétrer un workflow pour des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cette rubrique.
 
-![Paramétrage d’un workflow de réservation budgétaire générale.](media/gbr-workflow-process.jpg "Paramétrage d’un workflow de réservation budgétaire générale")
+![Paramétrage d’un workflow de réservation budgétaire générale](media/gbr-workflow-process.jpg "Paramétrage d’un workflow de réservation budgétaire générale")
 
 ## <a name="optional-set-up-reviewers-for-general-budget-reservations"></a>Facultatif : paramétrage de réviseurs pour les réservations budgétaires générales
 
@@ -120,6 +123,3 @@ Pour envoyer une réservation budgétaire générale au système de workflow, su
     À mesure que la réservation progresse dans le workflow, le statut de la réservation et du workflow change et cette modification est répercutée dans l’en-tête de la réservation budgétaire générale.
 
 7. Une fois le workflow terminé et la statut de la réservation passé à **Approuvé**, vous pouvez valider le document.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

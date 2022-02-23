@@ -57,6 +57,3 @@ Si votre offre n'apparaît pas dans LinkedIn au bout de 24 heures, procédez co
 [Créer, approuver et publier des postes dans Attract](./creating-jobs-attract.md)
 
 [Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

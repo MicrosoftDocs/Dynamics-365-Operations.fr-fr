@@ -1,55 +1,57 @@
 ---
-title: Vue d’ensemble de la gestion des entrepôts
-description: Utilisez la gestion des entrepôts pour surveiller et automatiser les processus d’entrepôt.
-author: Mirzaab
+title: Vue d'ensemble de la gestion des entrepôts
+description: Utilisez la gestion des entrepôts pour surveiller et automatiser les processus d'entrepôt.
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/20/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982850"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970126"
 ---
-# <a name="warehouse-management-overview"></a>Vue d’ensemble de gestion des entrepôts
+# <a name="warehouse-management-overview"></a>Vue d'ensemble de gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
 
-Le module Gestion des entrepôts vous permet de gérer les processus d’entrepôt dans les sociétés de fabrication, distribution, et vente au détail. Ce module offre un large éventail de fonctions pour prendre en charge les entrepôts à un niveau optimal, à tout moment. Le module Gestion des entrepôts intègre entièrement d’autres processus métier, tels que le transport, la fabrication, le contrôle de la qualité, les achats, le transfert, les ventes et les retours.
+Le module Gestion des entrepôts vous permet de gérer les processus d'entrepôt dans les sociétés de fabrication, distribution, et vente au détail. Ce module offre un large éventail de fonctions pour prendre en charge les entrepôts à un niveau optimal, à tout moment. Le module Gestion des entrepôts intègre entièrement d'autres processus métier, tels que le transport, la fabrication, le contrôle de la qualité, les achats, le transfert, les ventes et les retours.
 
 ## <a name="get-started"></a>Mise en route
-Pour commencer à travailler avec le module Gestion des entrepôts, vous devez effectuer le paramétrage des paramètres généraux d’entrepôt pour prendre en charge les processus métiers de votre société.
+Pour commencer à travailler avec le module Gestion des entrepôts, vous devez effectuer le paramétrage des paramètres généraux d'entrepôt pour prendre en charge les processus métiers de votre société.
 
-- Accédez à la page **Paramètres de gestion des entrepôts** sous **Gestion des entrepôts** > **Paramétrage** pour configurer les paramètres d’entrepôt généraux.
+- Accédez à la page **Paramètres de gestion des entrepôts** sous **Gestion des entrepôts** > **Paramétrage** pour configurer les paramètres d'entrepôt généraux.
 
-Vous devez configurer les composants pour les workflows d’entrée et de sortie des processus d’entrepôt en fonction des besoins de l’entreprise. Les composants les plus importants que vous devez configurer sont les modèles de vague, les modèles de travail, les pools de travail et les directives d’emplacement.
+Vous devez configurer les composants pour les workflows d'entrée et de sortie des processus d'entrepôt en fonction des besoins de l'entreprise. Les composants les plus importants que vous devez configurer sont les modèles de vague, les modèles de travail, les pools de travail et les directives d'emplacement.
 
-- [Vue d’ensemble de configuration de l’entrepôt](warehouse-configuration.md)
-- [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](control-warehouse-location-directives.md)
-- [Configuration des appareils mobiles pour le travail d’entrepôt](configure-mobile-devices-warehouse.md)
-- [Paramétrer une instruction d’emplacement pour le rangement des commandes fournisseur](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
+- [Vue d'ensemble de configuration de l'entrepôt](warehouse-configuration.md)
+- [Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement](control-warehouse-location-directives.md)
+- [Configuration des appareils mobiles pour le travail d'entrepôt](configure-mobile-devices-warehouse.md)
+- [Paramétrer une instruction d'emplacement pour le rangement des commandes fournisseur](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
 - [Définir un modèle de travail pour les commandes fournisseur](./tasks/set-up-work-template-purchase-orders.md)
 
 ## <a name="warehouse-management-processes"></a>Processus de gestion des entrepôts
 - Prise en charge intégrée des documents sources pour les commandes, les retours, les ordres de transfert, les ordres de fabrication et le kanban  
 - Prise en charge flexible des workflows de matières entrants et sortants en fonction des requêtes
 - Intégration complète avec les offres de fabrication et de transport
-- Contrôle total des limites de stockage et du volume de l’emplacement
+- Contrôle total des limites de stockage et du volume de l'emplacement
 - Propriétés de stock contrôlées par statut du stock
 - Prise en charge complète des articles de lot et des articles de série
-- Diverses capacités de réception d’articles
+- Diverses capacités de réception d'articles
 - Plusieurs stratégies de prélèvement
-- Support prêt à l’emploi pour la prochaine génération de scanners de codes à barres
-- Types de palette/conteneur pour les processus d’entrepôt
+- Support prêt à l'emploi pour la prochaine génération de scanners de codes à barres
+- Types de palette/conteneur pour les processus d'entrepôt
 - Fonctions de comptabilité avancées
 - Impression et acheminement des étiquettes grâce à la prise en charge Zebra ZPL
 - Intégration de Business Intelligence dans Power BI
@@ -57,7 +59,7 @@ Vous devez configurer les composants pour les workflows d’entrée et de sortie
 - Contrôle de qualité entièrement intégré (QMS)
 - Traçabilité complète de la manutention de matériel par les collaborateurs
 - Traitement de vagues sortant
-- Prise en charge de l’emballage manuel et de la mise en conteneur automatique
+- Prise en charge de l'emballage manuel et de la mise en conteneur automatique
 - Prélèvement de groupement
 - Cross-docking simple
 
@@ -66,11 +68,8 @@ Vous devez configurer les composants pour les workflows d’entrée et de sortie
 Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.
 
 ### <a name="blogs"></a>Blogs
-Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des entrepôts et d’autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
+Vous trouverez des avis, des actualités et d'autres informations concernant la gestion des entrepôts et d'autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
 
 
  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

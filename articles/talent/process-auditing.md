@@ -61,6 +61,3 @@ Les données suivantes sont disponibles dans l'audit du processus.
 |Historique des candidatures au poste | Candidature au poste (msdyn_JobapplicatonId)<br></br>Statut (msdyn_status) <br></br>Raison du statut (msdyn_statusreason) <br></br>Motif de rejet (msdyn_rejectionreason) |
 | Historique du poste à pourvoir | Poste à pourvoir (msdyn_JobopeningId) <br></br>Statut (msdyn_jobopeningstatus) <br></br>Raison du statut (msdyn_jobopeningstatusreason) |
 | Historique du candidat | Candidat (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

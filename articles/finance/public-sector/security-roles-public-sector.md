@@ -1,29 +1,32 @@
 ---
-title: Rôles de sécurité (Secteur public)
-description: Cette rubrique fournit des informations sur les rôles de sécurité du secteur public, y compris les rôles de chef de projet et d’acheteur.
-author: v-kiarnd
+title: Rôles de sécurité dans le secteur public
+description: Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d’acheteurs dans le secteur public.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UserRequestListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 688090820420bd96865ca73e5752a2e5cedae423
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: b22f48bc4324cec625bd465462ea92e6798ab99c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817756"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407991"
 ---
-# <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité (Secteur public)
+# <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,17 +43,17 @@ Une fois que les utilisateurs sont dans le système, il existe deux rôles que v
 -   Chef de projet
 -   Acheteurs
 
-### <a name="what-is-the-project-manager---public-sector-role"></a>Qu’est-ce que le rôle Gestionnaire de projets – Secteur public ?
+### <a name="what-is-the-project-manager---public-sector-role"></a>Qu’est-ce que le rôle Gestionnaire de projets - Secteur public ?
 
-Le rôle de sécurité **Gestionnaire de projets – Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Chef de projet** pour donner aux gestionnaires de projets l’accès à la fonctionnalité de gestion de projets. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité.
+Le rôle de sécurité **Gestionnaire de projets - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Chef de projet** pour donner aux gestionnaires de projets l’accès à la fonctionnalité de gestion de projets. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité.
 
 | Nom de droits de douane                                                         | Droit de douane (nom AOA)                           | Description du droit                                                                |
 |-------------------------------------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------|
 | Se renseigner sur la progression des commandes fournisseur à facturer pour le secteur public | PurchOrderToInvoiceProgressInquire\_PSN | Répondre aux demandes de renseignements sur le statut du processus « de la commande fournisseur à la facture ». |
 
-### <a name="what-is-the-purchasing-agent---public-sector-role"></a>Qu’est-ce que le rôle Agent des achats – Secteur public ?
+### <a name="what-is-the-purchasing-agent---public-sector-role"></a>Qu’est-ce que le rôle Agent des achats - Secteur public ?
 
-Le rôle de sécurité **Agent des achats – Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Acheteurs** pour donner aux acheteurs l’accès à la fonctionnalité d’achat. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité.
+Le rôle de sécurité **Agent des achats - Secteur public** prend en charge les extensions de secteur public pour la gestion de projets. Affectez ce rôle en sus du rôle **Acheteurs** pour donner aux acheteurs l’accès à la fonctionnalité d’achat. Par défaut, les responsabilités suivantes sont affectées à ce rôle de sécurité.
 
 | Nom de droits de douane                                                       | Droit de douane (nom AOA)                            | Description du droit                                                                                        |
 |-----------------------------------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -93,12 +96,10 @@ Le rôle de sécurité **Agent des achats – Secteur public** prend en charge l
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Une fois les utilisateurs créés, vous les affectez à des rôles sur la page **Affecter des utilisateurs aux rôles**.
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
-[sécurité basée sur les rôles](../../fin-ops-core/dev-itpro/sysadmin/role-based-security.md)
-
-
-
+[sécurité basée sur les rôles](../../dev-itpro/sysadmin/role-based-security.md)
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

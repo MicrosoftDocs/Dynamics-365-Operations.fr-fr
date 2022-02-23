@@ -1,33 +1,36 @@
 ---
-title: Traitement de fin d’exercice (Secteur public)
-description: Cette rubrique fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
-author: v-kiarnd
+title: Traitement de fin d’exercice dans le secteur public
+description: Cet article fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchYearEndClose
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 19601
 ms.assetid: ba9a7abc-bd18-47c2-b745-96cdcec8ac98
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac994392fccf6db475b3bb3811573ac529bbc12
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 9e23aade2af33bc0f62aa11e57de0ad6caacad5d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407980"
 ---
-# <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice (Secteur public)
+# <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
+Cet article fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
 
 Cette rubrique décrit la fonctionnalité de fin d’exercice disponible pour le secteur public. À la fin d’un exercice, vous devez générer des transactions de clôture et préparer vos comptes pour l’exercice suivant.  Les clients du secteur public ont les fonctionnalités suivantes :
 
@@ -50,13 +53,10 @@ Vous devez sélectionner un type de clôture pour chaque compte dans votre plan 
 
 -   **Réel** – Le solde est utilisé pour établir des soldes d’ouverture dans la nouvelle année.
 -   **Nominal** – Le compte est clôturé par le processus de fin d’exercice.
--   **Nominal – pas de clôture** – Le compte est géré par d’autres processus de clôture, comme les comptes d’engagement pour la clôture de commande fournisseur.
+-   **Nominal - pas de clôture** – Le compte est géré par d’autres processus de clôture, comme les comptes d’engagement pour la clôture de commande fournisseur.
 -   **Non applicable** – Le compte n’est pas inclus dans le traitement de fin d’exercice.
 
 Les définitions de validation régissent la comptabilité qui concerne les entrées de clôture, et elles permettent également de créer des transactions d’ouverture pour la nouvelle année. Pour plus d’informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

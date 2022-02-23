@@ -2,23 +2,26 @@
 title: États de poste de prévision pour le secteur public
 description: Vous pouvez utiliser les états de synthèse de poste de prévision et de détail de poste de prévision pour générer des informations sur les postes de prévision lors d’un plan budgétaire et d’un scénario que vous spécifiez.
 author: velofog
+manager: AnnBe
 ms.date: 10/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c213e742b9c89218dabcf3d953512062ee9b7fe198d84e883097f1500f4c5be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10b1804dc0b4ab6ea2074108429297e4ad95deaa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715881"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407917"
 ---
 # <a name="forecast-position-reports-for-the-public-sector"></a>États de poste de prévision pour le secteur public
 
@@ -45,6 +48,3 @@ Lorsque vous générez l’état, les paramètres par défaut suivants sont affi
 | Non exécuté uniquement | Définissez cette option sur Oui pour exclure des postes actuellement remplis. |
 | Supprimer le total | Définissez cette option sur Oui pour exclure les totaux de l’état. |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

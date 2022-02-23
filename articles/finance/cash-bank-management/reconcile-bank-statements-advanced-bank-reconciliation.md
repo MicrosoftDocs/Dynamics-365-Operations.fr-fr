@@ -2,9 +2,11 @@
 title: Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
 description: La fonctionnalité de rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cette rubrique explique le processus de rapprochement.
 author: saraschi2
+manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92c04a47b134584280736f4d3d2fa401d2a2a9b7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714446"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969426"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
 
@@ -28,7 +30,8 @@ ms.locfileid: "6714446"
 
 La fonctionnalité de rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Dynamics 365 Finance. Cette rubrique explique le processus de rapprochement.  
 
-## <a name="import-an-electronic-bank-statement"></a>Importer un relevé bancaire électronique
+<a name="import-an-electronic-bank-statement"></a>Importer un relevé bancaire électronique
+-----------------------------------
 
 Vous importez vos relevés bancaires à l’aide de l’action **Importer un relevé** sur la page **Relevés bancaires**. Sur le relevé bancaire, le compte bancaire est identifié grâce à une combinaison de valeurs qui sont définies sur les détails du compte bancaire. Ces valeurs comprennent le nom de la banque, le numéro du compte bancaire, le numéro de routage, le code SWIFT et le numéro IBAN. 
 
@@ -92,6 +95,3 @@ Les transactions de relevé bancaire qui vous avez marquées comme **Nouveau** s
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Créer des règles d’alerte
-description: Cette rubrique fournit des informations sur les alertes et explique comment créer une règle d’alerte.
-author: RichdiMSFT
+description: Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d’une règle d’alerte pour être informé d’événements, par exemple une date qui arrive ou une modification spécifique qui se produit.
+author: tjvass
+manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736196"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798425"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d’alerte
 
@@ -100,8 +102,3 @@ Vous ne pouvez pas créer d’alerte pour certaines sources de données secondai
     ```
 2. Créez une alerte à partir du formulaire SysTableBrowser.
 
-### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Les alertes basées sur les modifications ne fonctionnent pas pour les modifications d’état par lots
-Les alertes basées sur les modifications ne fonctionnent pas avec les modifications d’état par lots, car elles sont désactivées pour des raisons de performances. Au lieu de cela, vous devez configurer la fonctionnalité **Alertes par lots**. Pour plus d’informations, consultez [Configurer des alertes pour les formulaires améliorés par lots](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

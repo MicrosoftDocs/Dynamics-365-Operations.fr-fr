@@ -2,8 +2,11 @@
 title: Fonction SPLITLIST ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction SPLITLIST États électroniques (ER).
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776120"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680336"
 ---
 # <a name="splitlist-er-function"></a>Fonction SPLITLIST ER
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776120"
 
 La fonction `SPLITLIST` fractionne la liste spécifiée en sous-listes (ou lots), dont chacun contient le nombre d’enregistrements spécifié. Elle renvoie ensuite le résultat en tant que nouvelle valeur de *Liste des enregistrements* constituée des lots.
 
-## <a name="syntax-1"></a>Syntaxe 1
+## <a name="syntax"></a>Syntaxe
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Syntaxe 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Arguments
@@ -48,10 +45,6 @@ Chemin d’accès valide d’une source de données du type de données *Liste d
 `number` : *Entier*
 
 Nombre maximal d’enregistrements par lot.
-
-`on-demand reading flag` : *Booléen*
-
-Une valeur *Booléenne* qui spécifie si les éléments des sous-listes doivent être générés à la demande.
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -71,8 +64,6 @@ La liste des traitements par lots renvoyée contient les éléments suivants :
 
     Numéro du lot actuel dans la liste renvoyée.
 
-Lorsque l’indicateur de lecture à la demande est défini sur **True**, les sous-listes sont générées sur demande, ce qui permet de réduire la consommation de mémoire mais peut entraîner une dégradation des performances si les éléments ne sont pas utilisés séquentiellement.
-
 ## <a name="example"></a>Exemple
 
 Dans l’illustration suivante, une source de données **Lignes** est créée sous la forme d’une liste avec trois enregistrements. Cette liste est divisée en lots, dont chacun contient jusqu’à deux enregistrements.
@@ -90,6 +81,3 @@ L’illustration suivante présente le résultat de l’exécution du format con
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

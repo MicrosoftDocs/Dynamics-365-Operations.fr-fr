@@ -149,6 +149,3 @@ Souvent, plusieurs bons candidats pour un poste ne sont pas sélectionnés, mais
 1. Sur la page de candidature, sélectionnez **Ajouter au vivier de talents**. Une liste des viviers de talents auxquels vous avez accès s'affiche.
 
 1. Sélectionnez ou recherchez le vivier de talents, puis sélectionnez **Ajouter** pour ajouter le candidat à ce vivier de talents.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

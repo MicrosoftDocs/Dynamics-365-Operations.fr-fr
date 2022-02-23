@@ -2,8 +2,11 @@
 title: Fonction FILTER ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction FILTER États électroniques (ER).
 author: NickSelin
-ms.date: 12/14/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 55fa3d4ad4427e2a45f7c5fce679c50a91c40b6d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922421"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679436"
 ---
 # <a name="filter-er-function"></a>Fonction FILTER ER
 
@@ -49,17 +52,11 @@ Expression conditionnelle valide utilisée pour filtrer les enregistrements de l
 
 Liste des enregistrements résultante.
 
-## <a name="usage-notes"></a><a name="usage-notes"></a>Notes d’utilisation
+## <a name="usage-notes"></a>Notes d’utilisation
 
 Cette fonction diffère de la fonction [WHERE](er-functions-list-where.md), car la condition spécifiée est appliquée à toute source de données États électroniques (ER) du type *Enregistrements de table* au niveau de la base de données. La liste et la condition peuvent être définies à l’aide de tables et de relations.
 
 Si l’un ou les deux arguments configurés pour cette fonction (`list` et `condition`) ne permettent pas de traduire cette demande en appel SQL direct, une exception est levée au moment de la conception. Cette exception informe l’utilisateur que `list` ou `condition` ne peut pas être utilisé pour interroger la base de données.
-
-> [!NOTE]
-> La fonction `FILTER` se comporte différemment de la fonction `WHERE` lorsque la fonction [`VALUEIN`](er-functions-logical-valuein.md) est utilisée pour spécifier les critères de sélection.
-> 
-> - Si la fonction `VALUEIN` est utilisée dans le cadre de la fonction `WHERE`, et que le deuxième argument de `VALUEIN` fait référence à une source de données qui ne renvoie aucun enregistrement, la valeur *[False](er-formula-supported-data-types-primitive.md#boolean)* booléenne que `VALUEIN` retourne sont pris en compte. Par conséquent, l’expression `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` ne renvoie aucun enregistrement de fournisseur si la source de données **VendGroups** ne renvoie aucun enregistrement de groupe de fournisseurs.
-> - Si la fonction `VALUEIN` est utilisée dans le cadre de la fonction `FILTER`, et que le deuxième argument de `VALUEIN` fait référence à une source de données qui ne renvoie aucun enregistrement, la valeur *[False](er-formula-supported-data-types-primitive.md#boolean)* booléenne que `VALUEIN` retourne sont ignorés. Par conséquent, l’expression `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` renvoie tous les enregistrement de fournisseur de la source de données **Fournisseurs**, même si la source de données **VendGroups** ne renvoie aucun enregistrement de groupe de fournisseurs.
 
 ## <a name="example-1"></a>Exemple 1
 
@@ -76,6 +73,3 @@ Vous entrez une source de données **DS** du type *Champ calculé* et elle conti
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

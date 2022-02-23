@@ -2,22 +2,25 @@
 title: Mécanisme de Taxe au preneur pour le régime TVA/TPS
 description: Cette rubrique explique comment paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens, l’Arabie saoudite et Singapour.
 author: epodkolz
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594717"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515049"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mécanisme de Taxe au preneur pour le régime TVA/TPS
 
@@ -45,6 +48,7 @@ Pour appliquer la taxe au preneur, vous devez effectuer le paramétrage suivant.
 Il est recommandé d’utiliser des codes de taxe distincts pour les opérations de vente et les opérations d’achat.
 
 <table>
+<body>
 <tr>
 <td><strong>Code taxe pour les ventes</strong></td>
 <td>Créez un code taxe pour les opérations de vente soumises à la taxe au preneur (<strong>Taxe</strong> &gt; <strong>Taxes indirectes</strong> &gt; <strong>Taxe</strong> &gt; <strong>Codes taxe</strong>).
@@ -61,6 +65,7 @@ Vous devrez affecter ce code taxe négatif à un groupe de taxe d’article, pui
 <p>Pour plus d’informations, consultez la section suivante &quot;Paramétrer les groupes de taxe et les groupes de taxe d’article&quot;.</p>
 </td>
 </tr>
+</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Paramétrer des groupes de taxe et groupes de taxe d’article
@@ -90,7 +95,7 @@ Dans la page **Règles pour la taxe au preneur** (**Taxe** &gt; **Paramétrage**
 - **Type de document** – Sélectionnez **Commande fournisseur**, **Journal des factures fournisseur**, **Commande client**, **Facture financière**, **Journal des factures client** et/ou **Facture fournisseur**.
 - **Type de pays/région du partenaire** – Sélectionnez **Local**, **UE**, **GCC** ou **Étranger**. Ou, si la règle peut être appliquée à tous les partenaires commerciaux, indépendamment du pays ou de la région de leur adresse, sélectionnez **Tous**.
 - **Adresse de livraison locale** – Activez cette case à cocher pour appliquer la règle aux livraisons dans le même pays ou la même région. Cette case à cocher ne peut pas être activée pour les types de document **Journal des factures fournisseur** et **Journal des factures client**.
-- **Groupe d’articles soumis à la taxe au preneur** – Sélectionnez le groupe auquel la règle peut être appliquée.
+- **Groupe d’articles soumis à la taxe au preneur** - Sélectionnez le groupe auquel la règle peut être appliquée.
 - **Montant seuil** – Le schéma au preneur est appliqué à une facture uniquement si la valeur des articles et/ou des services inclus dans le groupe d’articles au preneur dépasse la limite que vous spécifiez ici.
 
 Vous pouvez également utiliser les champs **Date d’effet** et **Date d’expiration** pour définir la période à laquelle la règle est effective.
@@ -119,7 +124,7 @@ Lorsqu’une facture d’achat soumise à la taxe au preneur est validée, deux 
 
 Dans le capture d’écran suivant, une transaction a l’ordre **Taxe déductible**, et l’autre transaction a la direction **Taxe collectée**. 
 
-![Taxe validée.](media/apac-sau-posted-sales-tax.png)
+![Taxe validée](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Activer le mécanisme de la taxe au preneur pour la fonctionnalité de modèle TVA/TPS
 Dans l’espace de travail **Rechercher la fonctionnalité**, recherchez la fonctionnalité et sélectionnez **Activer**.
@@ -132,6 +137,3 @@ Les pages et éléments de menu suivants liés à la configuration des fonctionn
  - **Paramètres du commerce extérieur** (**Taxe** > **Configurer** > **Taxe** > **Commerce extérieur** > **Paramètres du commerce extérieur**). Voir [Configurer les propriétés de pays/régions](#Set-up-Country/region-properties).
 
 La case à cocher **Taxe au preneur** sera disponible sur les pages **Groupe de taxes** et **Taxe validée**. Pour plus d’informations, consultez les sections, [Configurer des groupes de taxes et des groupes de taxe d’article](#sales-tax-item-sales-tax-groups), [Taxe au preneur sur une facture de vente](#reverse-charge-sale), et [Taxe au preneur sur une facture d’achat](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données
-description: Cette rubrique décrit comment créer une configuration de mise en correspondance de modèles d’états électroniques et utiliser les fonctions ER intégrées pour effectuer des calculs globaux efficaces.
+description: Cette procédure fournit des informations sur la création d’une configuration de mise en correspondance des modèles d’états électroniques et l’utilisation des fonctions ER intégrées pour effectuer des calculs globaux efficaces.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745862"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684113"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données
 
@@ -114,6 +116,3 @@ Cette procédure est créée pour les utilisateurs auxquels le rôle Administrat
 68. Cliquez sur Enregistrer.
     * Notez que « exécution » dans le champ indique que ce regroupement est exécuté au moment de l’exécution dans la mémoire même s’il n’existe pas de regroupement défini et que la source de données sélectionnée de type « Enregistrements de table » fait référence à la même table « Déclaration d’échanges de biens ». Cela est dû au fait que la source de données contient certains champs calculés qui ne peuvent pas encore être convertis au niveau de base de données SQL.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

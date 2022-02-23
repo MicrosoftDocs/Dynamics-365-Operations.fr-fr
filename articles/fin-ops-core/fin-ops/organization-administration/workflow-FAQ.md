@@ -2,9 +2,11 @@
 title: FAQ Workflow
 description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065578"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797389"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique répond à des questions fréquentes sur le système de workflow.
 
@@ -48,18 +47,15 @@ Voici quelques points clés à noter en ce qui concerne l’ajout d’alertes au
     - Dans une prochaine mise à jour, nous ajouterons un message du Centre d’action quand un élément de travail de workflow est affecté à un utilisateur. 
 - Ajout de notifications à des workflows
     - Les messages du Centre d’actions peuvent être créés pour des utilisateurs spécifiques, tels qu’un message créé à partir d’un workflow dans X++.
-    - [Les workflows comportent des événements commerciaux](../../dev-itpro/business-events/business-events-workflow.md) que le client peut utiliser pour faire en sorte que les flux disposent des notifications dont ils ont besoin.   
+    - [Les workflows comportent des événements commerciaux](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que le client peut utiliser pour faire en sorte que les flux disposent des notifications dont ils ont besoin.   
 
-En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d’actions lorsqu’un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](../../dev-itpro/business-events/business-events-workflow.md) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
+En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d’actions lorsqu’un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Pourquoi l’éditeur de workflow ne peut-il pas démarrer dans AD FS ?
-Lors de l’exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l’éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l’URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises – Workflow – Application native** dans les paramètres ADFS.
+Lors de l’exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l’éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l’URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises - Workflow - Application native** dans les paramètres ADFS.
 
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Pourquoi des blocages SQL se produisent-ils lors du traitement du workflow ? 
 La valeur de champ par défaut pour le **Nombre d’éléments de workflow par traitement par lots** sur la page **Paramètres de workflow** est 0. Une valeur de 0 entraîne la modification de la valeur par défaut à 20 éléments par traitement par lots. Soyez prudent lorsque vous ajustez cette valeur, car un nombre élevé d’éléments par traitement par lots (> 40) peut entraîner des blocages SQL.
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Qu’est-ce que la fonction Erreur de workflow améliorée ?
 La fonction Erreur de workflow améliorée de la version 10.0.13 ajoute des codes d’erreur pour différencier les différentes classes d’erreurs de workflow. Les messages d’erreur signalés seront pour la plupart similaires avec des différences mineures pour les rendre plus clairs.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

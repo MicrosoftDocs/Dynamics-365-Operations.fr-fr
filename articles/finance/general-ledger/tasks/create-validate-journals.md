@@ -2,9 +2,11 @@
 title: Créer et valider des journaux
 description: Cette procédure crée et valide les journaux et les lignes de journal.
 author: panolte
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8775b5f9b3c1cd2bb65c674b00ddbccdda64f28fff8534340ec45ad0080bf528
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c297479bc89ffb2f837f7236939e6eef17b1103b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725048"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021452"
 ---
 # <a name="create-and-validate-journals"></a>Créer et valider des journaux
 
@@ -40,6 +42,3 @@ Cette procédure crée et valide les journaux et les lignes de journal. Vous pou
 12. Cliquez sur **Valider**.
 13. Cliquez **N° document**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

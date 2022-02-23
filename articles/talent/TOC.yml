@@ -1,11 +1,9 @@
-- name: Suppression de Dynamics 365 Talent
-  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
   items:
-    - name: Page d’accueil de Dynamics 365 Talent
-      href: ./index.md
-    - name: Démarrage
+    - name: Mise en route
       items:
-        - name: Démarrage avec Talent
+        - name: Mise en route avec Talent
           href: talent-get-started.md
         - name: Nouveautés ou modifications dans Talent
           href: whats-new.md
@@ -146,21 +144,21 @@
           href: talent-updates.md
         - name: Mettre en service Talent
           href: provisioning-talent.md
-        - name: Gérer les fonctions
+        - name: Gérer les fonctionnalités
           href: access-preview-feature.md
         - name: Mettre en service Onboard
           href: modular-app-tech-faq.md
         - name: Exporter des données depuis Attract et Onboard
           href: attract-onboard-export-data.md
         - name: Incorporer des applications canevas à partir de Power Apps
-          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Obtenir de l’aide sur Talent
           href: talent-support.md
     - name: Dotation en personnel de votre organisation avec Attract
       items:
         - name: Choisir une version d’Attract
           href: attract-comprehensive-hiring.md
-        - name: Fonctions de Attract
+        - name: Fonctionnalités de Attract
           href: attract-overview.md
         - name: Configurer les paramètres du système
           items:
@@ -172,7 +170,7 @@
               href: career-site.md
             - name: Activer l’intégration à Broadbean
               href: attract-admin-job-board-settings.md
-            - name: Configurer les paramètres de courrier électronique
+            - name: Configurer les paramètres d’e-mail
               href: attract-configure-email-settings.md
             - name: Configurer l’intégration à LinkedIn
               href: attract-admin-linkedin.md
@@ -184,7 +182,7 @@
               href: process-templates-attract.md
             - name: Ajouter des activités à un processus de recrutement
               href: activities-attract.md
-            - name: Créer des modèles de courrier électronique
+            - name: Créer des modèles d’e-mail
               href: email-templates.md
             - name: Utiliser les états analytiques
               href: analytic-reports.md
@@ -222,7 +220,7 @@
           href: extensibility-attract.md
     - name: Accueillir les nouvelles recrues avec Onboard
       items:
-        - name: Démarrage de Onboard
+        - name: Mise en route de Onboard
           href: create-onboarding-experience.md
         - name: Obtenir l’application Onboard
           href: onboard-get-app.md

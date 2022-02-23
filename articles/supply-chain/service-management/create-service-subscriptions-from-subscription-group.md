@@ -1,47 +1,47 @@
 ---
-title: Création des services récurrents à partir d’un groupe d’abonnements
-description: Vous pouvez créer des services récurrents à partir d’un groupe d’abonnements.
-author: kamaybac
+title: Création des services récurrents à partir d'un groupe d'abonnements
+description: Vous pouvez créer des services récurrents à partir d'un groupe d'abonnements.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5783a12acdb42ad27b9f9a448741bec6e0bc1d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f37acb8a931e6120ff8269df4dc4fec5c0535ce1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576566"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427981"
 ---
-# <a name="create-service-subscriptions-from-a-subscription-group"></a>Créer des abonnements de service à partir d’un groupe d’abonnements 
+# <a name="create-service-subscriptions-from-a-subscription-group"></a>Création des services récurrents à partir d'un groupe d'abonnements 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Sélectionnez **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d’abonnements**.
+1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d'abonnements**.
 
-2.  Permet de sélectionner un groupe d’abonnements.
+2.  Permet de sélectionner un groupe d'abonnements.
 
 3.  Cliquez sur le bouton **Services récurrents**.
 
-4.  Sélectionnez **Nouveau** pour créer un abonnement. Le champ du groupe d’abonnements affiche les informations du groupe d’abonnements dans l’écran **Abonnement**.
+4.  Appuyez sur Ctrl+N pour créer un abonnement. Le champ du groupe d'abonnements affiche les informations du groupe d'abonnements dans l'écran **Abonnement**.
 
 5.  Entrez les informations dans les champs restants.
 
-6.  Fermez l’écran pour enregistrer vos modifications.
+6.  Fermez l'écran pour enregistrer vos modifications.
 
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

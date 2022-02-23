@@ -2,23 +2,26 @@
 title: Calculer et ajuster la taxe sur une facture fournisseur
 description: Cette rubrique explique comment ajuster la taxe sur une facture fournisseur dans Dynamics 365 Finance.
 author: twheeloc
+manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03313d875d23489b3293376dd94f808c73a4bd15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779810"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442999"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calculer et ajuster la taxe sur une facture fournisseur
 
@@ -41,6 +44,3 @@ Cette rubrique explique comment ajuster la taxe sur une facture fournisseur. Si 
 13. Cliquez sur **OK**.
 14. Sélectionnez **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Module Adresse d’expédition
 description: Cette rubrique couvre le module Adresse d’expédition et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765192"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4412429"
 ---
 # <a name="shipping-address-module"></a>Module Adresse d’expédition
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit le module Adresse d’expédition et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Le module Adresse d’expédition permet aux clients d’ajouter ou de sélectionner l’adresse d’expédition pour une commande pendant le flux de paiement. Si un client est connecté, toutes les adresses précédemment enregistrées pour ce client sont affichées et le client peut sélectionner parmi celles-ci. Le client peut également ajouter une nouvelle adresse. Le module Adresse de livraison est utilisé pour tous les articles sur une commande qui nécessitent l’expédition.
 
@@ -37,16 +42,14 @@ Bien que le module Adresse de livraison ne fournisse pas la validation d’adres
 
 L’illustration suivante montre un exemple d’un nouveau module d’adresse de livraison dans une page de caisse.
 
-![Exemple de module Adresse de livraison sur une page de paiement.](./media/ecommerce-shippingaddress.PNG)
+![Exemple de module Adresse de livraison sur une page de paiement](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Propriétés du module
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Rubrique optionnelle pour le module Adresse de livraison. |
 | Afficher le type d’adresse | **Vrai** ou **Faux** | Si cette propriété facultative est définie sur **True**, un type d’adresse, tel que **Domicile** ou **Professionnelle**, sera affiché. Si aucun type d’adresse n’est spécifié, l’adresse sera automatiquement enregistrée sous **Type**=**Autre**. |
-| Activer la suggestion automatique| **Vrai** ou **Faux** | Si cette propriété facultative est définie sur **Vrai**, des suggestions d’adresses automatiques seront fournies. Ces suggestions sont générées par Bing Maps. Pour plus d’informations sur la configuration de l’intégration de Bing Maps pour votre site, voir [Module de sélection de magasin](store-selector.md). Cette fonctionnalité est disponible à partir de la version 10.0.15 de Commerce.|
-|Options de suggestion automatique| Nombre| Si les suggestions d’adresses automatiques sont activées, vous pouvez spécifier des options supplémentaires, par exemple le nombre maximal de suggestions à fournir.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Ajouter un module Adresse de livraison à une page de caisse et définir les propriétés requises
 
@@ -64,13 +67,8 @@ Un module Adresse de livraison ne peut être ajouté qu’à un module de caisse
 
 [Module Options de livraison](delivery-options-module.md)
 
-[Module Information sur les prélèvements](pickup-info-module.md)
+[Module d'information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 
 [Module Carte cadeau](add-giftcard.md)
-
-[Module Sélection de magasin](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

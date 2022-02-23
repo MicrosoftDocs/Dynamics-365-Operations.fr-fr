@@ -2,9 +2,11 @@
 title: Test agnostique en matière de données à l’aide de Regression Suite Automation Tool
 description: Cette rubrique présente les recommandations pour le test agnostique en matière de données avec Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763408"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798199"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Test agnostique en matière de données à l’aide de Regression Suite Automation Tool
 
@@ -30,9 +32,9 @@ Même si la validation technique d’une application d’ERP ne peut pas être t
 - La structure ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![Pyramide de classification de test.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Pyramide de classification de test](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 -   **Structure SysTest** : la structure SysTest est fiable pour écrire les tests unitaires. Parce que les tests unitaires sont généralement l’occasion de tester une méthode ou une fonction, ils doivent toujours être agnostique en matière de données et dépendre uniquement des données de saisie fournies dans le cadre du test.
 -   **Structure ATL** : Microsoft a une structure ATL qui correspond à une abstraction sur la structure SysTest et qui se charge du test technique en écrivant beaucoup plus simplement et de manière fiable. Cette structure doit être utilisée pour écrire des tests de composant ou des tests d’intégration simples.
 -   **RSAT** : utilisé pour les tests d’intégration et les tests du cycle métier. Les tests du cycle métier, également appelés tests de validation de la régression, dépendent des données existantes. Cependant, ces tests peuvent devenir agnostiques en matière de données si vous tenez compte de facteurs supplémentaires. 
@@ -42,11 +44,8 @@ Même si la validation technique d’une application d’ERP ne peut pas être t
     - o Saisissez les identifiants uniques, comme les numéros de facture, via la série de numéro ou à l’aide des fonctions Microsoft Excel comme =TEXT(NOW(),"yyyymmddhhmm"). Cette fonctionnalité fournira un numéro unique chaque minute, ce qui vous permet de suivre lorsque l’action s’est produite. Elle peut être utilisée pour les variables telles que les numéros de reçu de produit et les numéros de facture fournisseur. Ces tests continuent de fonctionner sur la même base de données, encore et encore, sans exiger de restauration.
     - Définissez toujours le **mode Modifier** de l’environnement sur **Lire** ou **Modifier** comme le premier cas de test, car l’option par défaut est **Auto**. Les options **Auto** utilisent toujours le paramètre précédent et peut générer des tests non fiables. 
  
-    [![Page Options, onglet Performance.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Page Options, onglet Performance](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Validez uniquement après avoir filtré sur une transaction spécifique plutôt qu’une validation générique. Par exemple, pour le nombre d’enregistrements, filtrez le nombre de transactions ou la date de transaction de telle sorte que la validation exclut toutes les autres transactions. 
     - Si vous activez un solde client ou un contrôle budgétaire, enregistrez la valeur tout d’abord, puis ajoutez la valeur de votre transaction pour valider le résultat attendu au lieu de valider une valeur attendue fixe. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

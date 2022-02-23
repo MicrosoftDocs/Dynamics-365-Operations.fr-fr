@@ -1,10 +1,12 @@
 ---
 title: Actifs et postes techniques
 description: Cette rubrique décrit les postes techniques et les actifs dans Gestion des actifs. Gestion des actifs est un module avancé de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750146"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018044"
 ---
 # <a name="functional-locations-and-assets"></a>Actifs et postes techniques
 
@@ -32,29 +34,26 @@ Cette rubrique décrit les postes techniques et les actifs dans Gestion des acti
 
 ## <a name="overview"></a>Présentation
 
-Gestion des actifs est intégré de façon transparente à plusieurs modules avec d’autres applications Finance and Operations. L’illustration suivante présente les interfaces avec d’autres modules.
+Gestion des actifs est intégré de façon transparente à plusieurs modules avec d'autres applications Finance and Operations. L'illustration suivante présente les interfaces avec d'autres modules.
 
-![Diagramme affichant comment le module Gestion d’actifs se connecte par interface aux autres modules.](media/01-overview-image.png)
+![Diagramme affichant comment le module Gestion d'actifs se connecte par interface aux autres modules](media/01-overview-image.png)
 
-Gestion des actifs vous permet de gérer et d’exécuter plus efficacement toutes les tâches relatives à la gestion et à la maintenance de nombreux types d’équipements de votre société. Cet équipement inclut les machines, l’équipement de production et les véhicules. Gestion des actifs prend également en charge les solutions de nombreux secteurs.
+Gestion des actifs vous permet de gérer et d'exécuter plus efficacement toutes les tâches relatives à la gestion et à la maintenance de nombreux types d'équipements de votre société. Cet équipement inclut les machines, l'équipement de production et les véhicules. Gestion des actifs prend également en charge les solutions de nombreux secteurs.
 
-L’illustration suivante présente une vue d’ensemble de la fonctionnalité principale couverte par Gestion des actifs.
+L'illustration suivante présente une vue d'ensemble de la fonctionnalité principale couverte par Gestion des actifs.
 
-![Diagramme affichant la fonctionnalité principale du module Gestion des actifs.](media/02-overview-image.png)
+![Diagramme affichant la fonctionnalité principale du module Gestion des actifs](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Actifs et emplacements fonctionnels
 
-Les postes techniques permettent de gérer des actifs à des postes. Cette gestion inclut le suivi des coûts d’actif à des postes techniques. Les postes techniques sont structurés hiérarchiquement, et les postes peuvent avoir des sous-postes. La structure des postes techniques est statique. Autrement dit, les postes ne peuvent pas changer d’emplacement. Les actifs peuvent être installés à des postes techniques et, au besoin, être installés à d’autres postes techniques ultérieurement.
+Les postes techniques permettent de gérer des actifs à des postes. Cette gestion inclut le suivi des coûts d'actif à des postes techniques. Les postes techniques sont structurés hiérarchiquement, et les postes peuvent avoir des sous-postes. La structure des postes techniques est statique. Autrement dit, les postes ne peuvent pas changer d'emplacement. Les actifs peuvent être installés à des postes techniques et, au besoin, être installés à d'autres postes techniques ultérieurement.
 
-Les coûts d’actifs suivent toujours le poste de l’actif. En d’autres termes, si vous installez un actif à un nouveau poste technique, l’actif utilise automatiquement les dimensions financières associées au nouveau poste technique. Par conséquent, les coûts d’actif sont toujours liés au poste technique sur lequel l’actif est actuellement installé. Ce traitement automatique des dimensions financières garantit le suivi complet des coûts lorsque votre société fait le projet de contrôler et de générer des états sur les postes techniques.
+Les coûts d'actifs suivent toujours le poste de l'actif. En d'autres termes, si vous installez un actif à un nouveau poste technique, l'actif utilise automatiquement les dimensions financières associées au nouveau poste technique. Par conséquent, les coûts d'actif sont toujours liés au poste technique sur lequel l'actif est actuellement installé. Ce traitement automatique des dimensions financières garantit le suivi complet des coûts lorsque votre société fait le projet de contrôler et de générer des états sur les postes techniques.
 
-La façon dont vous établissez votre hiérarchie des postes techniques dépend des exigences de votre société pour la maintenance de l’équipement interne ou l’entretien de l’équipement du client. La figure suivante présente un exemple des postes techniques basés sur des emplacements géographiques.
+La façon dont vous établissez votre hiérarchie des postes techniques dépend des exigences de votre société pour la maintenance de l'équipement interne ou l'entretien de l'équipement du client. La figure suivante présente un exemple des postes techniques basés sur des emplacements géographiques.
 
-![Diagramme affichant des postes techniques basés sur des emplacements géographiques.](media/03-overview-image.png)
+![Diagramme affichant des postes techniques basés sur des emplacements géographiques](media/03-overview-image.png)
 
 La figure suivante présente un exemple des postes techniques basés sur les clients.
 
-![Diagramme affichant des postes techniques basés sur des clients.](media/04-overview-image.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Diagramme affichant des postes techniques basés sur des clients](media/04-overview-image.png)

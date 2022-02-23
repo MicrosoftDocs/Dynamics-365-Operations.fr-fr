@@ -2,9 +2,11 @@
 title: Actions dans les processus d’approbation d’un workflow
 description: Cet article décrit les mesures que peut prendre chaque participant au processus d’approbation de workflow.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,25 +16,22 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070931"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797600"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Actions dans les processus d’approbation d’un workflow
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Cet article décrit les mesures que peut prendre chaque participant au processus d’approbation de workflow.
 
-Un workflow peut impliquer plusieurs groupes de personnes : l’expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d’état de dépenses suivant, Sam est l’expéditeur, les membres de la file d’attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.
+Un workflow peut impliquer plusieurs groupes de personnes : l’expéditeur, les personnes affectées aux tâches, les décideurs, et les approbateurs. Par exemple, dans le workflow d’état de dépenses suivant, Sam est l’expéditeur, les membres de la file d’attente sont les personnes affectées aux tâches, John est décideur et Frank, Sue et Ann sont les approbateurs.
 
-[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Les sections suivantes expliquent les actions de workflow que chaque groupe peut effectuer.
 
@@ -44,7 +43,7 @@ L’expéditeur commence une instance de workflow en soumettant un document pour
 
 Une tâche peut être affectée à plusieurs personnes ou à une file d’attente des éléments de travail contrôlée par plusieurs personnes. Toutefois, seule une personne peut réaliser une tâche. Supposons que Sam ait soumis un état de dépenses et qu’il ait dirigé ses reçus vers le département des états de dépenses de son organisation pour révision.
 
-Les membres du département États de dépenses d’Adventure Works surveillent la file d’attente. Supposons que Julie, membre de ce département, ait accepté la tâche de révision de l’état de dépenses et des reçus de Sam. Elle peut désormais effectuer l’une des actions suivantes : terminer, rejeter, déléguer, demander une modification, réaffecter ou lancer.
+Les membres du département États de dépenses d’Adventure Works surveillent la file d’attente. Supposons que Julie, membre de ce département, ait accepté la tâche de révision de l’état de dépenses et des reçus de Sam. Elle peut désormais effectuer l’une des actions suivantes : terminer, rejeter, déléguer, demander une modification, réaffecter ou lancer.
 
 > [!NOTE]
 > Les actions disponibles peuvent varier selon la façon dont le développeur du logiciel a conçu la tâche.
@@ -111,7 +110,7 @@ Maria agit alors au nom de John. Si Maria décide qu’il est nécessaire d’ap
 
 ## <a name="actions-that-an-approver-can-perform"></a>Actions qu’un approbateur peut effectuer
 
-Lorsqu’un document est affecté à un approbateur, celui-ci peut effectuer l’une des actions suivantes : approuver, rejeter, déléguer ou demander des modifications.
+Lorsqu’un document est affecté à un approbateur, celui-ci peut effectuer l’une des actions suivantes : approuver, rejeter, déléguer ou demander des modifications.
 
 ### <a name="approve"></a>Approuver
 
@@ -142,6 +141,3 @@ Lorsqu’un approbateur demande la modification d’un document, ce dernier est 
 Supposons que Sam ait envoyé un état de dépenses de 12 000 EUR, et que ce document soit affecté à Sue. Si Sue demande une modification, l’état de dépenses est renvoyé à Sam.
 
 Sam peut soumettre de nouveau l’état de dépenses. Il peut effectuer les modifications demandées d’abord, ou soumettre de nouveau la version d’origine de l’état de dépenses. S’il soumet de nouveau l’état de dépenses, celui-ci est renvoyé à Frank pour approbation, car Frank est le premier approbateur dans le processus d’approbation.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

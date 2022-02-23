@@ -1,24 +1,35 @@
 ---
 title: Comptabilité intégrée
-description: Cette rubrique décrit l’intégration des données de comptabilité entre Finances et Opérations et d’autres applications Dynamics 365 avec Dataverse.
-author: tonyafehr
+description: Cette rubrique décrit l’intégration des données de comptabilité entre Finance and Operations et d’autres applications Dynamics 365 à l’aide de Dataverse.
+author: robinarh
+manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.author: tfehr
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.search.industry: ''
+ms.author: rhaertle
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-07-15
+ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063645"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681640"
 ---
 # <a name="integrated-ledger"></a>Comptabilité intégrée
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -28,20 +39,52 @@ Dans une application d’entreprise, les données de comptabilité définissent 
 
 Les données comptables comprennent un ensemble de mappages de tables financières de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications de Finances et Opérations | Applications Customer Engagement     | Description
+Applications Finance and Operations      | Application pilotée par modèle dans Dynamics 365 | Description
 ---------------------------------|----------------------------------|------------
-[Taux de change CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
-[Plan comptable](mapping-reference.md#121) | msdyn_chartofaccountses |
-[Devises](mapping-reference.md#218) | transactioncurrencies |
-[Taux de change entre les deux devises](mapping-reference.md#122) | msdyn_currencyexchangeratepairs |
-[Type de taux de change](mapping-reference.md#129) | msdyn_exchangeratetypes |
-[Format de dimension financière](mapping-reference.md#130) | msdyn_financialdimensionformats |
-[Dimensions financières](mapping-reference.md#128) | msdyn_dimensionattributes |
-[Entité Intégration du calendrier fiscal](mapping-reference.md#132) | msdyn_fiscalcalendars |
-[Période de calendrier fiscal](mapping-reference.md#131) | msdyn_fiscalcalendarperiods |
-[Entité Intégration de l’exercice de calendrier fiscal](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
-[Registre](mapping-reference.md#148) | msdyn_ledgers |
-[Compte principal](mapping-reference.md#152) | msdyn_mainaccounts |
-[Catégories de compte principal](mapping-reference.md#151) | msdyn_mainaccountcategories |
+Devises                       | transactioncurrencies            |
+FiscalCalendar                   | msdyn\_fiscalcalendars        |
+FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
+ExchRateType                     | msdyn\_exchangeratetypes        |
+ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
+FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
+MainAccountCategory              | msdyn\_mainaccountcategory        |
+MainAccount                      | msdyn\_mainaccounts        |
+Comptabilité                           | msdyn\_ledgers        |
+ExchangeRates                    | msdyn\_currencyexchangerates        |
+FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
+DimensionAttributeEntity         | msdyn\_dimensionattributes        |
+DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
+LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [Currency](includes/Currencies-transactioncurrencies.md)]
+
+[!include [Fiscal calendar](includes/FiscalCalendar-msdyn-fiscalcalendars.md)]
+
+[!include [Fiscal calendar year](includes/FiscalCalendarYear-msdyn-fiscalcalendaryears.md)]
+
+[!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
+
+[!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
+
+[!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
+
+[!include [Main account](includes/MainAccount-msdyn-mainaccounts.md)]
+
+[!include [Ledger](includes/Ledger-msdyn-ledgers.md)]
+
+[!include [Exchange rates](includes/ExchangeRates-msdyn-currencyexchangerates.md)]
+
+[!include [Financial Calendar Period](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
+
+[!include [Dimension attribute](includes/DimensionAttributeEntity-msdyn-dimensionattributes.md)]
+
+[!include [Dimension integration format](includes/DimensionIntegrationFormatEntity-msdyn-financialdimensionformats.md)]
+
+[!include [Chart Of Account](includes/LedgerChartOfAccounts-msdyn-chartofaccounts.md)]
+
+
+
+

@@ -1,13 +1,16 @@
 ---
-title: Soumettre une demande d’absence au workflow
-description: Dans Microsoft Dynamics 365 Human Resources, vous pouvez utiliser l’interface de programmation d’application (API) MyLeaveRequests submit() pour soumettre une demande de congé au workflow.
+title: Soumettre une demande d'absence au workflow
+description: Dans Microsoft Dynamics 365 Human Resources, vous pouvez utiliser l'interface de programmation d'application (API) MyLeaveRequests submit() pour soumettre une demande de congé au workflow.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,33 +18,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067502"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418432"
 ---
-# <a name="submit-a-leave-request-to-workflow"></a>Soumettre une demande d’absence au workflow
+# <a name="submit-a-leave-request-to-workflow"></a>Soumettre une demande d'absence au workflow
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Dans Microsoft Dynamics 365 Human Resources, vous pouvez utiliser l’interface de programmation d’application (API) MyLeaveRequests submit() pour soumettre une demande de congé au workflow. Cette API est présentée comme une action sur l’entité OData MyLeaveRequests.
+Dans Microsoft Dynamics 365 Human Resources, vous pouvez utiliser l'interface de programmation d'application (API) MyLeaveRequests submit() pour soumettre une demande de congé au workflow. Cette API est présentée comme une action sur l'entité OData MyLeaveRequests.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-La demande de congé doit être enregistrée dans la base de données et doit pouvoir être récupérée via l’entité MyLeaveRequests.
+La demande de congé doit être enregistrée dans la base de données et doit pouvoir être récupérée via l'entité MyLeaveRequests.
 
 ## <a name="permissions"></a>Autorisations
 
-L’une des autorisations suivantes est requise pour appeler cette API. Pour plus d’informations sur le paramétrage des autorisations et la manière de sélectionner, voir [Authentification](hr-developer-api-authentication.md).
+L'une des autorisations suivantes est requise pour appeler cette API. Pour plus d'informations sur le paramétrage des autorisations et la manière de sélectionner, voir [Authentification](hr-developer-api-authentication.md).
 
-| Type d’autorisation                    | Autorisations (des moins privilégiées au plus privilégiées) |
+| Type d'autorisation                    | Autorisations (des moins privilégiées au plus privilégiées) |
 |------------------------------------|--------------------------------------------------------|
-| Délégué (compte professionnel ou éducatif) | utilisateur\_substitution d’identité                                    |
+| Délégué (compte professionnel ou éducatif) | utilisateur\_substitution d'identité                                    |
 
 ## <a name="https-request"></a>Demande HTTPS
 
@@ -50,10 +48,10 @@ L’une des autorisations suivantes est requise pour appeler cette API. Pour plu
 POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/MyLeaveRequests(RequestId='{requestId}', LeaveType='{leaveType}', LeaveDate={leaveDate}, dataAreaId={dataArea})/Microsoft.Dynamics.DataEntities.submit?cross-company=true
 ```
 
-La demande est conforme aux normes OData. Les paramètres {requestId}, {leaveType}, {leaveDate} et {dataArea} se rapportent aux champs qui constituent la clé naturelle composite de l’entité MyLeaveRequests.
+La demande est conforme aux normes OData. Les paramètres {requestId}, {leaveType}, {leaveDate} et {dataArea} se rapportent aux champs qui constituent la clé naturelle composite de l'entité MyLeaveRequests.
 
 > [!NOTE]
-> Alors que les champs de l’entité MyLeaveRequests font référence à une ligne individuelle dans la demande de congé, l’appel de l’API de soumission soumettra toute la demande de congé (toutes les lignes) au workflow.
+> Alors que les champs de l'entité MyLeaveRequests font référence à une ligne individuelle dans la demande de congé, l'appel de l'API de soumission soumettra toute la demande de congé (toutes les lignes) au workflow.
 
 ### <a name="request-headers"></a>En-tête de la demande
 
@@ -94,21 +92,19 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 }
 ```
 
-## <a name="validation-and-error-messages"></a>Validation et messages et d’erreur
+## <a name="validation-and-error-messages"></a>Validation et messages et d'erreur
 
-Dans le cadre de l’appel à l’API de soumission, Human Resources effectue la validation de la logique métier avant la soumission, ce qui garantit que la demande de congé est dans un état valide pour la soumission. Les messages d’erreur possibles que vous pouvez recevoir dans la réponse si les validations échouent sont :
+Dans le cadre de l'appel à l'API de soumission, Human Resources effectue la validation de la logique métier avant la soumission, ce qui garantit que la demande de congé est dans un état valide pour la soumission. Les messages d'erreur possibles que vous pouvez recevoir dans la réponse si les validations échouent sont :
 
  - La demande doit définir le solde « {LeaveTypeId} » en-dessous du solde minimal autorisé au {date}.
  - La demande de congé en état Terminé ne peut pas être soumise.
- - Impossible de soumettre ou d’enregistrer la demande car aucune modification n’a été apportée. Ajoutez ou mettez à jour le montant ou le type de congé et réessayez.
- - La demande de congé saisie contient un ou plusieurs jours avec la même date et le même type de congé qu’une demande en attente existante. Veuillez rappeler la demande actuelle pour apporter des modification.
- - Le code motif « {ReasonCodeId} » ne s’applique pas aux types de congé de la demande.
- - Le type de congé ’ {LeaveTypeId} ’nécessite un code motif. Sélectionnez le type et le code motif appropriés.
- - Le congé n’a pas été soumis avec succès. Le congé a été enregistré en tant que brouillon de demande.
+ - Impossible de soumettre ou d'enregistrer la demande car aucune modification n'a été apportée. Ajoutez ou mettez à jour le montant ou le type de congé et réessayez.
+ - La demande de congé saisie contient un ou plusieurs jours avec la même date et le même type de congé qu'une demande en attente existante. Veuillez rappeler la demande actuelle pour apporter des modification.
+ - Le code motif « {ReasonCodeId} » ne s'applique pas aux types de congé de la demande.
+ - Le type de congé ' {LeaveTypeId} 'nécessite un code motif. Sélectionnez le type et le code motif appropriés.
+ - Le congé n'a pas été soumis avec succès. Le congé a été enregistré en tant que brouillon de demande.
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d’ensemble de MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
+- [Vue d'ensemble de MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Authentification](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

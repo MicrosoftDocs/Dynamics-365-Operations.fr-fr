@@ -1,52 +1,47 @@
 ---
 title: Saisir les informations du collaborateur
-description: Une fois que le recruteur a créé un projet d’embauche collective et généré les postes, l’étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.
-author: twheeloc
-ms.date: 10/28/2021
+description: Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
+ms.search.form: HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abb45fe6f398de71565732dce6249daa0c39fce2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8d139b079c011b60af6d2b896e9edb5b9d27501a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069452"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418463"
 ---
 # <a name="enter-worker-information"></a>Saisir les informations du collaborateur
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d'embauche collective en cours. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.
 
-
-
-Une fois que le recruteur a créé un projet d’embauche collective et généré les postes, l’étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d’embauche collective en cours. Pour démarrer cette procédure, allez dans **Ressources humaines** > **Recrutement** > **Projets d’embauche collective**.
-
-1. Dans la liste, marquer la ligne sélectionnée.
-2. Cliquez sur **Détails du poste**.
-    * Modifiez la **date de début** pour le collaborateur.  
-    * Modifiez la **date de fin** pour le collaborateur.  
-    * Modifiez le **type du collaborateur**, si nécessaire.  
-3. Tapez une valeur dans le champ **Prénom**.
-4. Tapez une valeur dans le champ **Deuxième prénom**.
-5. Tapez une valeur dans le champ **Nom**.
+1. Dans la liste, marquez la ligne sélectionnée.
+2. Cliquez sur Détails du poste.
+    * Modifiez la date de début pour le collaborateur.  
+    * Modifiez la date de fin pour le collaborateur.  
+    * Modifiez le type du collaborateur, si nécessaire.  
+3. Tapez une valeur dans le champ Prénom.
+4. Tapez une valeur dans le champ Deuxième prénom.
+5. Tapez une valeur dans le champ Nom.
     * Modifiez le type de tâche pour le collaborateur, si nécessaire.  
     * Modifiez le département pour le collaborateur, si nécessaire.  
     * Modifiez le statut équivalent temps plein pour le collaborateur, si nécessaire.  
-6. Cliquez sur **OK**.
-7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+6. Cliquez sur OK.
+7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 8. Dans la liste, désactiver la ligne sélectionnée.
     * Sélectionnez le poste de projet suivant et continuez à entrer les informations pour chaque personne que vous engagez.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

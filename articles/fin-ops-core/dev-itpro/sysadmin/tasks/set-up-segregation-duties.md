@@ -2,9 +2,11 @@
 title: Configurer les règles de répartition des tâches
 description: Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs.
 author: peakerbl
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c06ce9325d7b0894ba53d6b9782f495a48280d45e538b048d883ab86f05dabf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755746"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826392"
 ---
 # <a name="set-up-segregation-of-duties"></a>Configurer les règles de répartition des tâches
 
@@ -39,7 +41,4 @@ Vous pouvez configurer des règles sur des tâches séparées qui doivent être 
 13. Cliquez sur **Enregistrer**.
 
 > [!IMPORTANT] 
-> La conformité avec les règles de séparation des tâches n’est pas vérifié lorsque vous créez une règle. Vous pouvez créer une règle qui crée un conflit pour les rôles existants. Les attributions de rôle utilisateur existantes peuvent également être en conflit avec la nouvelle règle. Vous devez valider la conformité une fois que vous avez créé ou modifié une règle. Pour plus d’informations, voir [Identifier et résoudre les conflits de séparation des tâches](identify-resolve-conflicts-segregation-duties.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> La conformité avec les règles de séparation des tâches n'est pas vérifié lorsque vous créez une règle. Vous pouvez créer une règle qui crée un conflit pour les rôles existants. Les attributions de rôle utilisateur existantes peuvent également être en conflit avec la nouvelle règle. Vous devez valider la conformité une fois que vous avez créé ou modifié une règle. Pour plus d'informations, voir [Identifier et résoudre les conflits de séparation des tâches](identify-resolve-conflicts-segregation-duties.md)

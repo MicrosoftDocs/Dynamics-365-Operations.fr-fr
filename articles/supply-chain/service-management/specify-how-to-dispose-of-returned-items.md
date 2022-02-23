@@ -1,42 +1,46 @@
 ---
 title: Spécification de la procédure de cession des articles retournés
 description: Spécification de la procédure de cession des articles retournés.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571327"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427557"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Spécification de la procédure de cession des articles retournés
+# <a name="specify-how-to-dispose-of-returned-items"></a>Spécification de la procédure de cession des articles retournés 
 
 [!include [banner](../includes/banner.md)]
 
+
 Lorsque vous traitez un ordre de retour, vous devez spécifier un code motif de retour pour identifier la raison pour laquelle le produit est retourné. Vous devez également spécifier un code disposition et une action de disposition pour déterminer les tâches à effectuer avec le produit retourné.
 
-Vous pouvez appliquer un code disposition lorsque vous créez un ordre de retour, enregistrez l’arrivée des articles, mettez à jour le bon de livraison d’une arrivée d’articles ou terminez un ordre de contrôle.
+Vous pouvez appliquer un code disposition lorsque vous créez un ordre de retour, enregistrez l'arrivée des articles, mettez à jour le bon de livraison d'une arrivée d'articles ou terminez un ordre de contrôle.
 
-Vous pouvez définir tout code disposition nécessaire à la prise en charge des processus entreprise. Le tableau suivant présente un ensemble de codes généralement utilisés pour affecter une disposition à l’article retourné.
+Vous pouvez définir tout code disposition nécessaire à la prise en charge des processus entreprise. Le tableau suivant présente un ensemble de codes généralement utilisés pour affecter une disposition à l'article retourné.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,12 +124,12 @@ Vous pouvez définir tout code disposition nécessaire à la prise en charge des
 </table>
 
 
-Pour chaque code disposition défini, vous devez sélectionner une action de disposition. L’action de disposition détermine les conséquences physiques et financières des codes disposition. Par exemple, l’action de disposition détermine la gestion physique de l’article retourné, l’impact financier de l’article retourné et si un article de remplacement doit être envoyé au client. Vous pouvez définir un nombre illimité de codes disposition en fonction de vos besoins, mais vous avez le choix uniquement entre six actions de destination prédéfinies. Le tableau suivant décrit les actions de disposition et leurs définitions.
+Pour chaque code disposition défini, vous devez sélectionner une action de disposition. L'action de disposition détermine les conséquences physiques et financières des codes disposition. Par exemple, l'action de disposition détermine la gestion physique de l'article retourné, l'impact financier de l'article retourné et si un article de remplacement doit être envoyé au client. Vous pouvez définir un nombre illimité de codes disposition en fonction de vos besoins, mais vous avez le choix uniquement entre six actions de destination prédéfinies. Le tableau suivant décrit les actions de disposition et leurs définitions.
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -136,40 +140,46 @@ Pour chaque code disposition défini, vous devez sélectionner une action de dis
 <tbody>
 <tr class="odd">
 <td><p><strong>Crédit</strong></p></td>
-<td><p>Permet de remettre l’article en stock et de créditer le compte client.</p></td>
+<td><p>Permet de remettre l'article en stock et de créditer le compte client.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Créditer uniquement</strong></p></td>
-<td><p>Permet de créditer le client sans demander ni attendre que l’article soit retourné.</p></td>
+<td><p>Permet de créditer le client sans demander ni attendre que l'article soit retourné.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Rebut</strong></p></td>
-<td><p>Permet de mettre l’article au rebut et de créditer le client.</p></td>
+<td><p>Permet de mettre l'article au rebut et de créditer le client.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Remplacer et créditer</strong></p></td>
-<td><p>Permet de remettre l’article en stock, de créer un ordre de remplacement et de créditer le client.</p></td>
+<td><p>Permet de remettre l'article en stock, de créer un ordre de remplacement et de créditer le client.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Remplacer et mettre au rebut</strong></p></td>
-<td><p>Permet de mettre l’article au rebut, de créer un ordre de remplacement et de créditer le client.</p></td>
+<td><p>Permet de mettre l'article au rebut, de créer un ordre de remplacement et de créditer le client.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Retourner au client</strong></p></td>
-<td><p>Permet de rejeter l’article retourné et de le renvoyer au client.</p></td>
+<td><p>Permet de rejeter l'article retourné et de le renvoyer au client.</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Sélection d’un code disposition pour un ordre de contrôle
 
-1. Accédez à **Gestion des stocks** \> **Périodique** \> **Gestion de la qualité** \> **Ordres de contrôle**.
-1. Pour un ordre de contrôle existant, sélectionnez une action dans le champ **Code disposition** de l’onglet **Vue d’ensemble**.
+## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Sélection d'un code disposition pour un ordre de contrôle
+
+1.  Cliquez sur **Gestion des stocks** \> **Périodique** \> **Gestion de la qualité** \> **Ordres de contrôle**.
+
+2.  Pour un ordre de contrôle existant, sélectionnez une action dans le champ **Code disposition** de l'onglet **Vue d'ensemble**.
+
+
 
 ## <a name="see-also"></a>Voir également :
 
-[Ordre de contrôle (écran)](/dynamicsax-2012//quarantine-order-form)
+[Ordre de contrôle (écran)](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
 [Codes disposition (écran)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

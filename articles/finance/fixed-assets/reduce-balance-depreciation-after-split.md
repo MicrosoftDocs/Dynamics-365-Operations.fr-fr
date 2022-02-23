@@ -2,25 +2,28 @@
 title: Réduire l’amortissement après un fractionnement
 description: Cette rubrique décrit la méthode utilisée dans Immobilisations pour calculer l’amortissement après le fractionnement d’une immobilisation à l’aide de la méthode de réduction du solde.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737699"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650661"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Réduire l’amortissement après un fractionnement
 
@@ -37,11 +40,8 @@ Par exemple, les conditions suivantes sont en vigueur :
 - L’amortissement du premier exercice est égal à 18 000 $, l’amortissement mensuel est égal à 150 $, et l’actif est ensuite amorti jusqu’en novembre 2019, à hauteur de 738,75 $.
 - En novembre 2019, 80 % de l’actif est divisé en une autre immobilisation.
 
-[![Réduire l’amortissement après un fractionnement.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Réduire l’amortissement après un fractionnement](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Le montant à amortir pour l’actif d’origine est 1 822,25 $. Ce montant correspond à la VN avant la validation de la transaction de fractionnement (9 111,25 USD), plus l’ajustement d’acquisition généré lors de la validation de la transaction de fractionnement (-8 000 USD), plus l’ajustement de dépréciation généré lors de la transaction de fractionnement (711 USD). Par conséquent, la dépréciation pour la deuxième année est (1 822,25 × 18 pour cent) ÷ 12 = 27,33 $.
 
 Le montant à amortir pour la nouvelle immobilisation la première année est (8 000 × 18 pour cent) ÷ 12 = 120 $.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

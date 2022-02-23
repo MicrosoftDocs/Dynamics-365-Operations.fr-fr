@@ -2,12 +2,15 @@
 title: Module de consentement aux cookies
 description: Cette rubrique couvre les modules de consentement aux cookies et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750736"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412167"
 ---
 # <a name="cookie-consent-module"></a>Module de consentement aux cookies
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de consentement aux cookies et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Le module de consentement des cookies invite les utilisateurs du site à donner explicitement leur consentement pour autoriser les cookies pour toute fonctionnalité ou module qui suit les cookies du navigateur. Le consentement est requis la première fois qu’un utilisateur du site navigue sur un site dans une nouvelle session de navigateur. Lorsque le consentement est reçu, il est suivi et l’utilisateur du site ne sera plus invité à donner son consentement. Pour plus d’informations, voir [Conformité des cookies](cookie-compliance.md).
 
@@ -35,11 +40,11 @@ Si le consentement aux cookies de l’utilisateur du site n’est pas obtenu, le
 Un module de consentement aux cookies peut être configuré sur le fragment d’en-tête d’une page afin qu’il puisse être appliqué lors du chargement de la page. Le module de consentement aux cookies doit comporter un message clair informant l’utilisateur du site de l’utilisation des cookies sur le site et doit fournir un lien vers la page de protection des données personnelles du site.
 
 L’illustration suivante met en évidence un exemple de message de consentement aux cookies avec un lien vers la page de politique de protection des données personnelles du site affiché sur l’en-tête d’une page de site.
-![Exemple de module de consentement aux cookies.](./media/ecommerce-cookieconsent.png)
+![Exemple de module de consentement aux cookies](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Propriétés du module de consentement aux cookies
 
-| Nom de la propriété             | Valeur                  | Description  |
+| Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
 | Texte enrichi                  | Texte enrichi | Spécifie une notification de texte enrichi aux utilisateurs du site indiquant que le site utilise des cookies de navigateur et que les utilisateurs doivent accepter l’utilisation de cookies pour que le site soit pleinement fonctionnel. |
 | Liens | URL | Un ou plusieurs liens peuvent être ajoutés à la page de protection des données personnelles d’un site qui décrit les types de cookies suivis sur le site. |
@@ -57,6 +62,3 @@ Pour plus d’informations sur les fragments d’en-tête et les modules, voir [
 [Module En-tête](author-header-module.md) 
 
 [Conformité des cookies](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

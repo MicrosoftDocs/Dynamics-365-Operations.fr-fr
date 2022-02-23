@@ -1,10 +1,12 @@
 ---
 title: Contenu Power BI Analyse des dépenses et des achats
-description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d’achat.
+description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d’achat. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: FrankDahl
+manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716110"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680612"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenu Power BI Analyse des dépenses et des achats
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit ce qui est inclus dans le contenu Microsoft Power BI **Analyse des dépenses d’achat**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit ce qui est inclus dans le contenu Power BI **Analyse des dépenses d’achat**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="overview"></a>Présentation
 
@@ -152,6 +154,3 @@ Les dimensions clés suivantes dans le contenu sont utilisées comme filtres pou
 | dates ;                  | Dates, Contrepartie de l’année                                    |
 
 Par défaut, le contenu affiche les données pour l’année civile en cours. Toutefois, vous pouvez modifier le filtre date dans la section de filtres d’état. Vous pouvez également modifier le filtre par société.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

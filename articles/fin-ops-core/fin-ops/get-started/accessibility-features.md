@@ -2,9 +2,11 @@
 title: Fonctions d’accessibilité
 description: Cette rubrique décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071056"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798693"
 ---
 # <a name="accessibility-features"></a>Fonctions d’accessibilité
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique décrit les fonctionnalités conçues pour aider les utilisateurs souffrant de divers handicaps à utiliser cette application. Par exemple, il existe des fonctionnalités pour les personnes qui utilisent des technologies d’assistance visuelle telles que Microsoft Windows Narrator.
 
@@ -55,13 +54,13 @@ Chaque action disponible sur une page est accessible à partir d’un clavier, v
 
 Vous souhaitez exécuter l’action **Journal de notification par e-mail** qui s’affiche dans le groupe **Notification par e-mail** de l’onglet **Commande client** du volet Actions.
 
-![Action Journal de notification par e-mail du volet Actions.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action « Journal de notification par e-mail » du volet Actions")
+![Action Journal de notification par e-mail du volet Actions](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Action « Journal de notification par e-mail » du volet Actions")
 
 Une option consiste à utiliser le clavier. Appuyez sur Ctrl+F6 pour activer le volet Actions, puis appuyez sur Tab à plusieurs reprises pour parcourir les onglets et actions, jusqu’à ce que l’action **Journal de notification par e-mail** soit active.
 
 Toutefois, vous pouvez également exécuter l’action plus directement. À partir de n’importe quel emplacement sur la page, appuyez sur Ctrl+Apostrophe (’) pour afficher la zone de recherche d’actions.
 
-![Zone de recherche d’actions.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Recherche pour les actions")
+![Zone de recherche d’actions](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zone Recherche pour les actions")
 
 Dans la zone de recherche, tapez des mots qui décrivent l’action. L’action devient accessible, et vous pouvez l’exécuter directement. Par exemple, en tapant **e-mail**, **notific** (mot partiel) ou **journal**, vous pouvez « accéder » à la fonctionnalité Journal de notification par e-mail.
 
@@ -98,6 +97,3 @@ Sur les smartphones et autres petits écrans, les commandes et la disposition du
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Conseils pour aider les développeurs et les clients à incorporer une réflexion accessible dans leurs personnalisations
 
 Pour en savoir plus sur les pratiques recommandées de Microsoft pour activer l’accessibilité, voir [Accessibilité dans les écrans, les produits et les contrôles](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

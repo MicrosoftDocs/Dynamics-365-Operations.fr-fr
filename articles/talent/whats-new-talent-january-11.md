@@ -67,6 +67,3 @@ Lorsque l'espace de travail **Libre-service employé** est sélectionné comme p
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Le code du motif de résiliation du contrat met à jour l'enregistrement d'attribution de poste
 Le code du motif de résiliation mettra désormais à jour l'attribution de poste lors de la résiliation du contrat d'un employé et la fin du poste. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

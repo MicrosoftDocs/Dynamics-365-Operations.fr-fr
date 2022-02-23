@@ -1,24 +1,27 @@
 ---
 title: Factures QR pour la Suisse
 description: Cette rubrique offre des informations sur la façon de générer des factures QR (bons de livraison QR) et de traiter les factures QR entrantes.
-author: anasyash
+author: neserovleo
+manager: AnnBe
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Switzerland
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7fa109dbdd70fc60742c99cb8045d6a85c0c59cf
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 1c58aa35dacb719eeef3a9b8d5f4904beefc73a0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592644"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407984"
 ---
 # <a name="swiss-qr-bills"></a>Factures QR pour la Suisse
 
@@ -72,7 +75,7 @@ Par défaut, le type d’ID de paiement appliqué sur la facture peut utiliser l
 - Page **Compte client** \> onglet **Valeurs par défaut de paiement**
 - Page **Mode de paiement** \> onglet **Contrôle des paiements**
 
-### <a name="methods-of-payment--customers"></a>Modes de paiement – Clients
+### <a name="methods-of-payment--customers"></a>Modes de paiement - Clients
 
 Le mode de paiement doit être configuré sur les comptes clients qui utilisent des factures QR, pour définir les détails du compte bancaire de l’entreprise vers lequel une facture QR est émise. Pour traiter les paiements entrants au format camt.054, vous devez configurer la configuration Gestion des états électroniques-Importer les configurations.
 
@@ -86,14 +89,14 @@ Dans le groupe de champ **Document de paiement associé**, le nouveau type, **Fa
 
 Les informations sur les paramètres fournies dans les groupes de traitement des états Giro déterminent comment la fonction **Informations de facturation** d’une facture QR est remplie. Au besoin, vous pouvez configurer et utiliser différentes parties de cette section sur la facture QR dans les états électroniques. Voici quelques exemples :
 
-- **Code de compte** – Format spécifique dédié au compte client spécifique.
-- **Relation client** – Valeur du compte client ou du groupe de clients spécifique.
-- **Informations facture QR** – Configuration de format ER chargée de renseigner les informations de facturation.
-- **Imprimer le symbole Ciseaux** – Inclusion du symbole Ciseaux sur le rapport imprimé. L’inclusion de ce symbole peut être importante lorsque vous choisissez d’envoyer une version imprimée de la facture QR ou une version électronique.
+- **Code de compte** - Format spécifique dédié au compte client spécifique.
+- **Relation client** - Valeur du compte client ou du groupe de clients spécifique.
+- **Informations facture QR** - Configuration de format ER chargée de renseigner les informations de facturation.
+- **Imprimer le symbole Ciseaux** - Inclusion du symbole Ciseaux sur le rapport imprimé. L’inclusion de ce symbole peut être importante lorsque vous choisissez d’envoyer une version imprimée de la facture QR ou une version électronique.
 
 ## <a name="accounts-payable-setup"></a>Paramétrage du module Comptabilité fournisseur
 
-### <a name="methods-of-payment--vendors"></a>Modes de paiement – Fournisseurs
+### <a name="methods-of-payment--vendors"></a>Modes de paiement - Fournisseurs
 
 Pour les modes de paiement fournisseur, vous devez spécifier le compte bancaire associé, sélectionner les configurations de gestion des états électroniques (ER) requises pour l’exportation et l’importation en vue du traitement du fichier de paiement et configurer les spécifications de paiement. Une nouvelle valeur de paramètre de spécification de paiement, **Tp3.QR**, est disponible pour les paiements correspondant aux factures QR entrantes. De plus, une option disponible sur le compte bancaire du fournisseur peut être utilisée pour redéfinir le paramètre **Spécification**.
 
@@ -163,6 +166,3 @@ Créez des lignes de journal des paiements fournisseur en utilisant la fonctionn
 Pour les paiements liés aux factures QR, le fichier de virement est généré en fonction de la valeur de l’ID de paiement. Cette valeur est extraite du code QR.
 
 Vous pouvez importer les fichiers pain.002 et camt.054 à partir de la page **Transferts de paiement**. Pour plus d’informations, voir la section [Importation de fichiers ISO20022](emea-iso20022-file-formats.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

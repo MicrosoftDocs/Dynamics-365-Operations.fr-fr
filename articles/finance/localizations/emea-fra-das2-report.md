@@ -2,28 +2,31 @@
 title: État DAS-2
 description: Cette rubrique décrit le processus de génération du fichier d’audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: sndray
-ms.date: 12/20/2021
+manager: AnnBe
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7c7b8b01a9d74ed6c9a53ee78cc303e0359c41c
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: acddf46d23b49f61527227522568ada290ec3c97
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018366"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407951"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
 [!include [banner](../includes/banner.md)]
 
-Les entités juridiques françaises qui font affaire avec des professionnels indépendants doivent fournir un état de déclaration DAS-2 à l’administration fiscale. L’état DAS-2 représente une déclaration fiscale annuelle qui comprend tous les paiements aux fournisseurs de ce type qui dépassent 1 200 euros. L’état doit être généré au format Microsoft Excel. Une fois l’état généré, vous enregistrez le fichier dans votre environnement logiciel tiers. Le fichier sera ensuite validé, converti dans la structure d’échange électronique de données (EDI) et transmis.
+Les entités juridiques françaises qui font affaire avec des professionnels indépendants doivent fournir un état de déclaration DAS-2 à l’administration fiscale. L’état DAS-2 représente une déclaration fiscale annuelle qui comprend tous les paiements aux fournisseurs de ce type qui dépassent 1 200 euros. L’état doit être généré au format Microsoft Excel. Une fois l’état généré, vous enregistrez le fichier dans l’environnement **ETAFI (CEGID)**. Le fichier sera ensuite validé, converti dans la structure d’échange électronique de données (EDI) et transmis.
 
 L’état DAS-2 sous Excel est généré à l’aide de l’outil de gestion des états électroniques (ER). Il comprend les feuilles de calcul suivantes :
 
@@ -40,7 +43,7 @@ Avant de générer l’état pour la première fois, vous devez télécharger le
 - Formulaire DAS-2.version.36.30.15 (FR) ou versions ultérieures.
 
 > [!NOTE]
-> Pour plus d’informations sur la manière de télécharger les formats d’états électroniques, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+> Pour plus d’informations sur la manière de télécharger les formats d’états électroniques, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Après avoir téléchargé les configurations des états électroniques à partir de LCS, procédez comme suit.
 
@@ -57,7 +60,7 @@ Après avoir téléchargé les configurations des états électroniques à parti
 
 ### <a name="example"></a>Exemple
 
-[![Exemple de configuration.](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
+[![Exemple de configuration](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
 
 Sur la ligne 1 de la configuration précédente, le compte principal **622000**, qui est utilisé pour valider les transactions de dépenses de frais, est configuré sur classification **C** (**Commissions**), ce qui est établi par l’autorité fiscale.
 
@@ -106,7 +109,4 @@ Suivez les étapes pour générer l’état de déclaration fiscale.
 5. Sélectionnez le groupe de fournisseurs.
 
 > [!NOTE]
-> L’état DAS-2 ne prend pas en charge les transactions créées et validées à partir d’une entrée de journal générale, du scénario de schéma de régularisation ou la fonctionnalité N° document. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> L’état DAS-2 ne prend pas en charge les transactions créées et validées à partir d’une entrée de journal générale et du scénario de schéma de régularisation. 

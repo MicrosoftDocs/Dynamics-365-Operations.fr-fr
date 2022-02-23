@@ -1,33 +1,37 @@
 ---
 title: Paramétrer les matières dangereuses
 description: Cette rubrique explique comment configurer les données requises pour classer les articles en tant que matières dangereuses. Lorsque vous créez une commande client qui comprend un article classé comme matière dangereuse, le système génère une documentation sur les matières dangereuses pour cette commande client lors de son expédition.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778007"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428073"
 ---
 # <a name="set-up-hazardous-materials"></a>Paramétrer les matières dangereuses
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Pour utiliser la fonctionnalité de matières dangereuses, vous devez d’abord configurer les données requises pour classer les articles comme matières dangereuses. Ensuite, lorsque vous créez une commande client qui comprend un article classé comme matière dangereuse, le système génère une documentation sur les matières dangereuses pour cette commande client lors de son expédition.
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Activer la fonction de matières dangereuses pour votre système
 
-À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des informations sur les produits*
 - **Nom de la fonctionnalité :** *Informations sur les produits dangereux et documentation d’expédition*
@@ -280,6 +284,3 @@ Pour configurer des valeurs pour cette spécification, accédez à **Gestion des
 La spécification *Tunnel de matières dangereuses* limite les types de tunnels dans lesquels une matière dangereuse peut être transportée en identifiant les types de tunnels qui doivent être utilisés. Les catégories de tunnels sont établies par les réglementations applicables pour le transport de matières dangereuses. Cette spécification s’applique généralement uniquement au transport routier.
 
 Pour configurer des valeurs pour cette spécification, accédez à **Gestion des informations sur les produits \> Configurer \> Documentation d’expédition de matières dangereuses \> Tunnel de matière dangereuse**. Sur la page **Tunnel de matière dangereuse**, vous pouvez créer n’importe quel nombre d’identificateurs de tunnels et configurer chacun avec un code d’identification et une brève description.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

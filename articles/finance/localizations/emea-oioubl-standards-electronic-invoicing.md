@@ -2,24 +2,27 @@
 title: Normes prises en charge pour la facturation électronique en Europe
 description: Cette rubrique décrit le niveau de couverture qui existe pour la facturation électronique pour Europe.
 author: mrolecki
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3d41b00a6762c9985cf86b54d92b58a3e4ccdf19
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: 3ed98c268af841b1625f547c79f271f3e3a81b74
+ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941227"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4592465"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Normes prises en charge pour la facturation électronique en Europe
 
@@ -44,7 +47,7 @@ Les formats de factures électroniques spécifiques au pays suivants sont dispon
 -   Format spécifique estonien version 1.2
 -   Finvoice 3.0 pour la Finlande
 
-La facturation électronique est basée sur la [Gestion des états électroniques (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). Un modèle de données **Modèle de facture**, le mappage du modèle de facture et plusieurs configurations de format ER spécifiques au pays/à la région ont été créés pour les pays/régions suivants : 
+La facturation électronique est basée sur la [Gestion des états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Un modèle de données **Modèle de facture**, le mappage du modèle de facture et plusieurs configurations de format ER spécifiques au pays/à la région ont été créés pour les pays/régions suivants : 
 
 - Autriche (AT)
 - Danemark (DK)
@@ -83,10 +86,10 @@ Le modèle de données **Modèle de facture**, le mappage du modèle de facture 
 -   Facture de projet (IT)
 -   Facture client DE
 -   Facture de projet DE
--   Facture client Peppol – pour l’UE
--   Avoir sur vente Peppol – pour l’UE
--   Facture de projet Peppol – pour l’UE
--   Avoir sur le projet Peppol – pour l’UE
+-   Facture client Peppol - pour l’UE
+-   Avoir sur vente Peppol - pour l’UE
+-   Facture de projet Peppol - pour l’UE
+-   Avoir sur le projet Peppol - pour l’UE
 -   Facture client (EE)
 -   Facture de projet (EE)
 -   Facture client (FI)
@@ -99,14 +102,13 @@ La configuration et les spécificités des factures électroniques dépendent du
 
 - [Italie](emea-ita-e-invoices.md)
 - [Norvège](emea-nor-e-invoices.md)
-- [Danemark](emea-dnk-e-invoices.md)
 - [Allemagne](emea-deu-e-invoices.md)
 - [Finlande](https://support.microsoft.com/help/4559937)
 - [Estonie](https://support.microsoft.com/help/4552679)
 - [PEPPOL](https://support.microsoft.com/help/4490320)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-Pour plus de détails sur le paramétrage des factures électroniques, vous pouvez visionner [Guides de tâche](../../fin-ops-core/fin-ops/get-started/help-overview.md#task-guides) dans volet d’aide :
+Pour plus de détails sur le paramétrage des factures électroniques, vous pouvez visionner [Guides de tâche](../../fin-and-ops/get-started/help-overview.md#task-guides) dans volet d’aide :
 
  - Paramétrer la facturation électronique OIOUBL
  - Importer les configurations de facturation électronique OIOUBL
@@ -114,6 +116,3 @@ Pour plus de détails sur le paramétrage des factures électroniques, vous pouv
 
 > [!NOTE] 
 > Bien que ces guides de tâches ont été créés pour le format de facture électronique spécifique au Danemark, *OIOUBL*, ils s’appliquent à d’autres pays/régions avec des variantes mineures.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

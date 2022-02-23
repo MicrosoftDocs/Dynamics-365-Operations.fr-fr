@@ -2,23 +2,26 @@
 title: Renseignements sur l’emplacement des disponibilités
 description: Cette rubrique fournit des informations sur la façon de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
 author: velofog
+manager: AnnBe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: dbdb950ea3a584284b7b5eb55d317f422cb99691f7fada20b9920923102b0540
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 267e2d4c0ed3ad5a60e08200d7be338bfab02c2e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774189"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4408014"
 ---
 # <a name="cash-position-inquiry"></a>Renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
@@ -83,6 +86,3 @@ Ces renseignements sont uniques, car ils permettent aux utilisateurs de personna
 - Définissez l’option **Afficher les segments dans des colonnes distinctes** sur **Oui** pour afficher les noms du compte pour chaque dimension en tant que colonnes distinctes dans la grille.
 - Pour filtrer les valeurs d’une dimension spécifique sélectionnée, sélectionnez les dimensions que vous souhaitez dans les champs sous le champ **Ensemble de dimensions financières**. Les choix parmi lesquels choisir dépendent de l’ensemble de dimensions financières sélectionné.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

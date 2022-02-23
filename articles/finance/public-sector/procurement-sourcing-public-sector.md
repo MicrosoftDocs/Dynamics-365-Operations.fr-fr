@@ -1,27 +1,30 @@
 ---
 title: Approvisionnements dans le secteur public
 description: Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
-author: v-kiarnd
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 19681
 ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b91435dd1d8220f607922872713e5f0f43c4cac9
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 70adc10cfb4ae446be9ea5d69b14f34f497168a4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817789"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407910"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
@@ -86,7 +89,7 @@ Oui. Vous pouvez afficher les montants de ligne d’une commande fournisseur (no
 
 Supposons que vous affichiez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux. Le premier inclut le mobilier de bureau commandé auprès d’un fournisseur. Le second inclut les fournitures de bureau. Le montant commandé est égal à la somme des montants facturés, des montants des factures en attente, et des montants restants à facturer. Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.
 
-<table>
+<table style="width:100%;">
 
 <col width="16%" />
 <col width="16%" />
@@ -117,7 +120,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 <td><p>750,00</p></td>
 <td>150,00</td>
 <td>400,00</td>
-<td>&nbsp;</td>
+<td></td>
 <td><p>350,00</p></td>
 </tr>
 <tr class="even">
@@ -137,6 +140,3 @@ Pour plus d’informations, voir [Vue d’ensemble des approvisionnements](../..
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

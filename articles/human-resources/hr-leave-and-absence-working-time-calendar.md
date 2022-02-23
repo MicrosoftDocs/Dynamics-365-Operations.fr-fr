@@ -1,35 +1,33 @@
 ---
-title: Création d’un calendrier du temps de travail
+title: Création d'un calendrier du temps de travail
 description: Définissez un calendrier du temps de travail, des jours fériés et du temps libre dans Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068917"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418482"
 ---
-# <a name="create-a-working-time-calendar"></a>Création d’un calendrier du temps de travail
+# <a name="create-a-working-time-calendar"></a>Création d'un calendrier du temps de travail
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Un calendrier du temps de travail Dynamics 365 Human Resources affiche les jours et les heures de travail des employés dans votre organisation. Lorsqu’un employé soumet une demande de congé, il n’a pas à se soucier des congés et des fermetures.
+Un calendrier du temps de travail Dynamics 365 Human Resources affiche les jours et les heures de travail des employés dans votre organisation. Lorsqu'un employé soumet une demande de congé, il n'a pas à se soucier des congés et des fermetures.
 
 Pour rationaliser les demandes de congés, configurez ces éléments pour votre organisation :
 
@@ -39,11 +37,11 @@ Pour rationaliser les demandes de congés, configurez ces éléments pour votre 
 
 Vous pouvez ajouter les deux derniers éléments pendant que vous configurez un calendrier du temps de travail. Vous pouvez également les configurer ou les mettre à jour séparément.
 
-## <a name="set-up-a-working-time-calendar"></a>Paramétrage d’un calendrier de temps de travail
+## <a name="set-up-a-working-time-calendar"></a>Paramétrage d'un calendrier de temps de travail
 
-Configurez au moins un calendrier de temps de travail qui affiche vos jours et heures d’ouverture. Si vous avez des emplacements dans plusieurs pays et régions, vous pouvez configurer un calendrier de temps de travail pour chaque zone.
+Configurez au moins un calendrier de temps de travail qui affiche vos jours et heures d'ouverture. Si vous avez des emplacements dans plusieurs pays et régions, vous pouvez configurer un calendrier de temps de travail pour chaque zone.
 
-1. Dans la page **Administration d’organisation**, sélectionnez **Calendriers**.
+1. Dans la page **Administration d'organisation**, sélectionnez **Calendriers**.
 
 2. Sélectionnez **Nouveau** et entrez un nom et une description pour votre calendrier.
 
@@ -57,26 +55,23 @@ Configurez au moins un calendrier de temps de travail qui affiche vos jours et h
 
 ## <a name="configure-holidays-and-closures"></a>Configuration des congés et fermetures
 
-Vous pouvez ajouter ou modifier des congés et des fermetures séparément d’un calendrier de temps de travail.
+Vous pouvez ajouter ou modifier des congés et des fermetures séparément d'un calendrier de temps de travail.
 
-1. Dans la page **Administration d’organisation**, sélectionnez **Congés et fermetures**.
+1. Dans la page **Administration d'organisation**, sélectionnez **Congés et fermetures**.
 
 2. Sélectionnez **Nouveau** et entrez un nom et une date de congés ou de fermeture.
 
 ## <a name="configure-non-work-time"></a>Configuration du temps libre
 
-Vous pouvez ajouter ou modifier du temps libre séparément d’un calendrier de temps de travail.
+Vous pouvez ajouter ou modifier du temps libre séparément d'un calendrier de temps de travail.
 
-1. Dans la page **Administration d’organisation**, sélectionnez **TEMPS LIBRE**.
+1. Dans la page **Administration d'organisation**, sélectionnez **Temps libre**.
 
 2. Sélectionnez **Nouveau** et entrez le nom et la plage de temps pour le temps libre.
 
-Si vous avez activé la fonction d’aperçu des corrections des jours fériés pour les congés et absences, Human Resources utilise les dates de congés et de fermeture pour déterminer le nombre de jours à ajuster pour les employés inscrits au calendrier.
+Si vous avez activé la fonction d'aperçu des corrections des jours fériés pour les congés et absences, Human Resources utilise les dates de congés et de fermeture pour déterminer le nombre de jours à ajuster pour les employés inscrits au calendrier.
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
-- [Configuration des types de congé et d’absence](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Configuration des types de congé et d'absence](hr-leave-and-absence-types.md)

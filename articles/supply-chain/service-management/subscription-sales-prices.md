@@ -1,45 +1,49 @@
 ---
 title: Prix de vente des abonnements
-description: Lors de la création d’un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l’écran Prix de vente (abonnement).
-author: kamaybac
+description: Lors de la création d'un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l'écran Prix de vente (abonnement).
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f03efbbca4fc9da76c6ead7566457beb79c8c249
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569983"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427812"
 ---
-# <a name="subscription-sales-prices"></a>Prix de vente des abonnements
+# <a name="subscription-sales-prices"></a>Prix de vente des abonnements   
 
 [!include [banner](../includes/banner.md)]
 
-Lors de la création d’un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l’écran **Prix de vente (abonnement)**.
 
-L’écran **Prix de vente (abonnement)** permet de créer des prix de vente pour un abonnement spécifique ou pour un champ d’application plus vaste. Pour un prix de vente s’appliquant à un abonnement, le code période et la devise de l’abonnement doivent être identiques à ceux du prix de vente.
+Lors de la création d'un abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente défini dans l'écran **Prix de vente (abonnement)**.
 
-Si le code période et la devise de l’abonnement et du prix de vente sont identiques, les prix de vente d’abonnement sont sélectionnés en fonction des priorités indiquées dans le tableau suivant. Une cellule vide dans le tableau indique un champ sans valeur et un X indique une valeur égale à celle de l’abonnement à partir duquel la transaction est générée.
+L'écran **Prix de vente (abonnement)** permet de créer des prix de vente pour un abonnement spécifique ou pour un champ d'application plus vaste. Pour un prix de vente s'appliquant à un abonnement, le code période et la devise de l'abonnement doivent être identiques à ceux du prix de vente.
 
-<table>
+Si le code période et la devise de l'abonnement et du prix de vente sont identiques, les prix de vente d'abonnement sont sélectionnés en fonction des priorités indiquées dans le tableau suivant. Une cellule vide dans le tableau indique un champ sans valeur et un X indique une valeur égale à celle de l'abonnement à partir duquel la transaction est générée.
+
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -119,29 +123,30 @@ Si le code période et la devise de l’abonnement et du prix de vente sont iden
 </tbody>
 </table>
 
-Lors de la création de frais d’abonnement, le prix de vente le plus détaillé, voir le tableau ci-dessus, est sélectionné comme prix de vente de l’abonnement.
+
+Lors de la création de frais d'abonnement, le prix de vente le plus détaillé, voir le tableau ci-dessus, est sélectionné comme prix de vente de l'abonnement.
 
 ## <a name="update-and-index-subscription-sales-prices"></a>Mise à jour et indexation des prix de vente des abonnements
 
-Vous pouvez mettre à jour le prix de vente des abonnements en mettant à jour le prix de base ou l’indice. Ceux-ci peuvent être mis à jour en entrant un pourcentage ou une nouvelle valeur.
+Vous pouvez mettre à jour le prix de vente des abonnements en mettant à jour le prix de base ou l'indice. Ceux-ci peuvent être mis à jour en entrant un pourcentage ou une nouvelle valeur.
 
-## <a name="subscription-fee-sales-prices"></a>Prix de vente des frais d’abonnement
+## <a name="subscription-fee-sales-prices"></a>Prix de vente des frais d'abonnement
 
-Lors de la création de frais d’abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente de l’abonnement. Vous pouvez soit utiliser le prix de base indiqué dans le paramétrage de prix de l’abonnement, soit créer des prix de vente indexés.
+Lors de la création de frais d'abonnement, le prix de vente est calculé à partir du paramétrage de prix de vente de l'abonnement. Vous pouvez soit utiliser le prix de base indiqué dans le paramétrage de prix de l'abonnement, soit créer des prix de vente indexés.
 
 ## <a name="example"></a>Exemple
 
-Vous souhaitez paramétrer des prix de vente de 500 EUR pour un nouveau projet 9030. Dans l’écran **Prix de vente (abonnement)**, créez une ligne de prix de vente d’abonnement comme indiqué dans le tableau suivant :
+Vous souhaitez paramétrer des prix de vente de 500 EUR pour un nouveau projet 9030. Dans l'écran **Prix de vente (abonnement)**, créez une ligne de prix de vente d'abonnement comme indiqué dans le tableau suivant :
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -172,20 +177,20 @@ Notez que les champs **Catégorie** et **Abonnement** sont vides.
 
 Vous pouvez ensuite créer les abonnements suivants.
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Service récurrent</p></th>
 <th><p>Projet</p></th>
-<th><p>Groupe d’abonnements</p></th>
+<th><p>Groupe d'abonnements</p></th>
 <th><p>Catégorie</p></th>
 <th><p>Devise</p></th>
 <th><p>Code période</p></th>
@@ -212,26 +217,26 @@ Vous pouvez ensuite créer les abonnements suivants.
 </table>
 
 
-Créez maintenant des frais d’abonnement pour les deux abonnements du groupe d’abonnements Sous1 :
+Créez maintenant des frais d'abonnement pour les deux abonnements du groupe d'abonnements Sous1 :
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d’abonnements**.
+1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d'abonnements**.
 
-2.  Dans l’écran **Groupes d’abonnements**, cliquez sur **Fonction** \> **Créer des frais d’abonnement**.
+2.  Dans l'écran **Groupes d'abonnements**, cliquez sur **Fonction** \> **Créer des frais d'abonnement**.
 
-3.  Dans l’écran **Créer des frais d’abonnement**, entrez les informations appropriées. Pour plus d’informations, voir [Créer des transactions de redevance](create-subscription-fee-transactions.md).
+3.  Dans l'écran **Créer des frais d'abonnement**, entrez les informations appropriées. Pour plus d'informations, voir [Créer des transactions de redevance](create-subscription-fee-transactions.md).
 
-Des frais d’abonnement avec un prix de vente de 500 EUR sont créés pour les deux abonnements, comme indiqué dans le tableau suivant.
+Des frais d'abonnement avec un prix de vente de 500 EUR sont créés pour les deux abonnements, comme indiqué dans le tableau suivant.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -270,17 +275,17 @@ Des frais d’abonnement avec un prix de vente de 500 EUR sont créés pour les
 </table>
 
 
-Plus tard, vous souhaitez spécifier des prix de vente pour la catégorie SousCat1 du projet 9030. Vous créez donc une ligne de prix de vente avec un prix de vente de 550 EUR pour la combinaison du projet 9030 et de la sous-catégorie SousCat1. Il existe désormais deux lignes de prix de vente d’abonnement pour le projet 9030, comme indiqué dans le tableau suivant.
+Plus tard, vous souhaitez spécifier des prix de vente pour la catégorie SousCat1 du projet 9030. Vous créez donc une ligne de prix de vente avec un prix de vente de 550 EUR pour la combinaison du projet 9030 et de la sous-catégorie SousCat1. Il existe désormais deux lignes de prix de vente d'abonnement pour le projet 9030, comme indiqué dans le tableau suivant.
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -315,18 +320,19 @@ Plus tard, vous souhaitez spécifier des prix de vente pour la catégorie SousCa
 </tbody>
 </table>
 
-Répétez la procédure ci-dessus pour créer des frais d’abonnement pour les deux abonnements du groupe d’abonnements Sous1. Le tableau suivant indique les transactions qui sont créées pour chaque abonnement lié au groupe d’abonnements.
+
+Répétez la procédure ci-dessus pour créer des frais d'abonnement pour les deux abonnements du groupe d'abonnements Sous1. Le tableau suivant indique les transactions qui sont créées pour chaque abonnement lié au groupe d'abonnements.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -364,10 +370,13 @@ Répétez la procédure ci-dessus pour créer des frais d’abonnement pour les 
 </tbody>
 </table>
 
-Pour la première transaction d’abonnement 00020\_135, le prix de vente de 550 EUR est calculé à partir du paramétrage du prix de vente d’abonnement défini pour la combinaison du projet et de la catégorie spécifiques. Pour la deuxième transaction d’abonnement 00021\_135, le prix de vente de 500 EUR est utilisé comme prix de vente d’abonnement du projet car aucun prix n’est défini pour la combinaison du projet 9030 et de la catégorie SousCat2.
+
+Pour la première transaction d'abonnement 00020\_135, le prix de vente de 550 EUR est calculé à partir du paramétrage du prix de vente d'abonnement défini pour la combinaison du projet et de la catégorie spécifiques. Pour la deuxième transaction d'abonnement 00021\_135, le prix de vente de 500 EUR est utilisé comme prix de vente d'abonnement du projet car aucun prix n'est défini pour la combinaison du projet 9030 et de la catégorie SousCat2.
 
 ## <a name="see-also"></a>Voir également :
 
 [Mise à jour et indexation des prix de vente des abonnements](update-and-index-subscription-sales-prices.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

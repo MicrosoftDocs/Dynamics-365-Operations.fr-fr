@@ -1,80 +1,80 @@
 ---
 title: Événements d’application d’entrepôt
-description: Cette rubrique décrit le traitement des événements d’application d’entreposage utilisé pour traiter les messages d’événement de l’application d’entreposage dans le cadre d’un traitement par lots.
+description: Cette rubrique décrit le traitement des événements d'application d'entreposage utilisé pour traiter les messages d'événement de l'application d'entreposage dans le cadre d'un traitement par lots.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427749"
 ---
-# <a name="warehouse-app-event-processing"></a>Traitement des événements de l’application d’entreposage
+# <a name="warehouse-app-event-processing"></a>Traitement des événements de l'application d'entreposage
 
 [!include [banner](../includes/banner.md)]
 
-Les traitements par lots exécutés dans Supply Chain Management peuvent utiliser les données d’une file d’attente pour traiter les événements émis par l’application mobile Gestion des entrepôts afin de réagir selon les besoins aux événements signalés. Cette fonctionnalité ajoute les événements pertinents à la file d’attente en réponse à certains types d’actions entreprises par les employés utilisant l’application. Un exemple est l’utilisation de la fonction *Créer et traiter des ordres de transfert depuis l’application d’entreposage* ; l’en-tête et les lignes de l’ordre de transfert sont créés et mis à jour dans le back-end lorsque le système exécute le traitement par lots **Traiter les événements de l’application d’entreposage**.
+Les traitements par lots exécutés dans Supply Chain Management peuvent utiliser les données d'une file d'attente pour traiter les événements émis par l'application d'entreposage afin de réagir selon les besoins aux événements signalés. Cette fonctionnalité ajoute les événements pertinents à la file d'attente en réponse à certains types d'actions entreprises par les employés utilisant l'application. Un exemple est l'utilisation de la fonction **Créer et traiter des ordres de transfert depuis l'application d'entreposage** ; l'en-tête et les lignes de l'ordre de transfert sont créés et mis à jour dans le back-end lorsque le système exécute le traitement par lots **Traiter les événements de l'application d'entreposage**.
 
-## <a name="enable-the-process-warehouse-app-events-feature"></a>Activer la fonction Traiter les événements de l’application d’entreposage
+## <a name="enable-the-process-warehouse-app-events-feature"></a>Activer la fonction Traiter les événements de l'application d'entreposage
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de la page de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. La fonction Traiter les événements de l’application d’entreposage comprend les éléments suivants :
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de la page de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. La fonction Traiter les événements de l'application d'entreposage comprend les éléments suivants :
 
 - **Module** - Gestion des entrepôts
-- **Nom de la fonction** - Traiter les événements de l’application d’entreposage
+- **Nom de la fonction** - Traiter les événements de l'application d'entreposage
 
-## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurer un traitement par lots pour traiter les événements de l’application d’entreposage
+## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurer un traitement par lots pour traiter les événements de l'application d'entreposage
 
 ### <a name="process-warehouse-app-events"></a>Traiter les événements d’application d’entrepôt
 
-Configurez un traitement par lots planifié pour traiter les événements de l’application d’entreposage pour la création de l’ordre de transfert et les mises à jour des lignes.
+Configurez un traitement par lots planifié pour traiter les événements de l'application d'entreposage pour la création de l'ordre de transfert et les mises à jour des lignes.
 
-1. Accédez à **Gestion des entrepôts \> Tâches périodiques \> Traiter les événements de l’application d’entreposage**.
-1. La boîte de dialogue Traiter les événements de l’application d’entreposage s’ouvre. Développez l’organisateur **Exécuter en arrière-plan** et définissez **Traitement par lots** sur **Oui**.
+1. Accédez à **Gestion des entrepôts \> Tâches périodiques \> Traiter les événements de l'application d'entreposage**.
+1. La boîte de dialogue Traiter les événements de l'application d'entreposage s'ouvre. Développez l’organisateur **Exécuter en arrière-plan** et définissez **Traitement par lots** sur **Oui**.
 1. Dans l’organisateur **Exécuter en arrière-plan**, sélectionnez **Récurrence**.
 1. La boîte de dialogue **Définir la récurrence** s’ouvre. Définissez le programme d’exécution selon les besoins de votre entreprise.
-1. Sélectionnez **OK** pour revenir à la boîte de dialogue **Traiter les événements de l’application d’entreposage**.
-1. Sélectionnez **OK** dans la boîte de dialogue **Traiter les événements de l’application d’entreposage** pour ajouter le traitement par lots à la file d’attente des traitements par lots.
+1. Sélectionnez **OK** pour revenir à la boîte de dialogue **Traiter les événements de l'application d'entreposage**.
+1. Sélectionnez **OK** dans la boîte de dialogue **Traiter les événements de l'application d'entreposage** pour ajouter le traitement par lots à la file d’attente des traitements par lots.
 
-## <a name="query-warehouse-app-events"></a>Interroger les événements de l’application d’entreposage
+## <a name="query-warehouse-app-events"></a>Interroger les événements de l'application d'entreposage
 
-Vous pouvez afficher la file d’attente et les messages d’événements générés par l’application mobile Gestion des entrepôts en accédant à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l’application d’entreposage**.
+Vous pouvez afficher la file d'attente et les messages d'événements générés par l'application d'entreposage en accédant à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l'application d'entreposage**.
 
-## <a name="the-standard-event-queue-process"></a>Le processus de file d’attente d’événements standard
+## <a name="the-standard-event-queue-process"></a>Le processus de file d'attente d'événements standard
 
-La file d’attente des événements de l’application d’entreposage est généralement utilisée avec le flux décrit ci-dessous :
+La file d'attente des événements de l'application d'entreposage est généralement utilisée avec le flux décrit ci-dessous :
 
-1. Un événement est ajouté à la file d’attente avec un message d’événement. Le nouveau message a initialement un état d’événement de **En attente**, ce qui signifie que le traitement par lots **Traiter les événements de l’application d’entreposage** ne sélectionnera pas ce message et ne le traitera pas.
-1. Dès que l’état du message sera actualisé en **En file d’attente**, le traitement par lots **Traiter les événements de l’application d’entreposage** sélectionnera et traitera l’événement.
-1. Le traitement par lots actualise les états d’événement soit en **Terminé**, soit en **Échoué**, selon que le processus demandé était possible.
-1. Lorsque tous les messages d’événements associés sont **Terminés**, l’événement est supprimé de la file d’attente.
+1. Un événement est ajouté à la file d'attente avec un message d'événement. Le nouveau message a initialement un état d'événement de **En attente**, ce qui signifie que le traitement par lots **Traiter les événements de l'application d'entreposage** ne sélectionnera pas ce message et ne le traitera pas.
+1. Dès que l'état du message sera actualisé en **En file d'attente**, le traitement par lots **Traiter les événements de l'application d'entreposage** sélectionnera et traitera l'événement.
+1. Le traitement par lots actualise les états d'événement soit en **Terminé**, soit en **Échoué**, selon que le processus demandé était possible.
+1. Lorsque tous les messages d'événements associés sont **Terminés**, l'événement est supprimé de la file d'attente.
 
- Pour voir un exemple détaillé, voir [Créer un ordre de transfert à partir du processus de l’application d’entreposage](create-transfer-order-from-warehouse-app.md).
+ Pour voir un exemple détaillé, voir [Créer un ordre de transfert à partir du processus de l'application d'entreposage](create-transfer-order-from-warehouse-app.md).
 
-## <a name="handle-event-errors"></a>Gérer les erreurs d’événement
+## <a name="handle-event-errors"></a>Gérer les erreurs d'événement
 
-Dans le cadre du traitement des événements d’entrepôt, l’activité de message demandée peut ne pas recevoir de processus du traitement par lots. Dans ce cas, le message d’événement sera changé en **Échoué**. Vous pouvez utiliser les informations du **Journal des traitements par lots** pour savoir pourquoi et prendre les mesures nécessaires pour corriger les éventuels problèmes.
+Dans le cadre du traitement des événements d'entrepôt, l'activité de message demandée peut ne pas recevoir de processus du traitement par lots. Dans ce cas, le message d'événement sera changé en **Échoué**. Vous pouvez utiliser les informations du **Journal des traitements par lots** pour savoir pourquoi et prendre les mesures nécessaires pour corriger les éventuels problèmes.
 
-Pour voir un exemple détaillé, voir [Créer un ordre de transfert à partir de l’application d’entreposage](create-transfer-order-from-warehouse-app.md).
+Pour voir un exemple détaillé, voir [Créer un ordre de transfert à partir de l'application d'entreposage](create-transfer-order-from-warehouse-app.md).
 
-Pour réinitialiser un message d’événement d’application d’entreposage ayant échoué :
+Pour réinitialiser un message d'événement d'application d'entreposage ayant échoué :
 
-1. Accédez à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l’application d’entreposage**.
-1. Dans l’organisateur **Messages d’événement de l’application d’entreposage**, recherchez et sélectionnez un événement pertinent qui affiche **Échoué** dans la colonne **État de l’événement**.
-1. Sélectionnez **Réinitialiser** dans la barre d’outils **Messages d’événement de l’application d’entreposage**.
-1. Continuez jusqu’à ce que tous les messages pertinents soient réinitialisés.
+1. Accédez à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l'application d'entreposage**.
+1. Dans l'organisateur **Messages d'événement de l'application d'entreposage**, recherchez et sélectionnez un événement pertinent qui affiche **Échoué** dans la colonne **État de l'événement**.
+1. Sélectionnez **Réinitialiser** dans la barre d'outils **Messages d'événement de l'application d'entreposage**.
+1. Continuez jusqu'à ce que tous les messages pertinents soient réinitialisés.
 
-Vous pouvez également supprimer un message d’événement **Échoué** à l’aide de l’option **Supprimer** de la barre d’outils **Messages d’événement de l’application d’entreposage**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Vous pouvez également supprimer un message d'événement **Échoué** à l'aide de l'option **Supprimer** de la barre d'outils **Messages d'événement de l'application d'entreposage**.

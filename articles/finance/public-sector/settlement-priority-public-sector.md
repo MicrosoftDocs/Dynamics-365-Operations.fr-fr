@@ -1,10 +1,12 @@
 ---
 title: Priorité de règlement (Secteur public)
-description: Cette rubrique fournit des informations sur la manière dont le secteur public peut hiérarchiser automatiquement ou manuellement les règlements à l’aide des classifications de facturation.
-author: v-kiarnd
+description: Cette rubrique fournit des informations sur la manière dont le secteur public peut hiérarchiser automatiquement ou manuellement les règlements à l'aide des classifications de facturation.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustParameters, CustSettlementPrioritySetup, LedgerParameters
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19551
 ms.assetid: b6f96e12-5614-4edf-9f67-47bf011b6ee7
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 854eeb429169a857de4dd0946d80ada229f74e14
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 88cd89f11b0f50b3d990568321c89712863a8562
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817708"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964459"
 ---
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 
@@ -29,7 +31,8 @@ ms.locfileid: "7817708"
 
 Dans Dynamics 365 Finance, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l’aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel.
 
-## <a name="how-to-set-the-general-ledger-parameters-and-accounts-receivable-parameters-for-settlement-priority"></a>Comment définir les paramètres de comptabilité et les paramètres de la comptabilité client pour la priorité de règlement
+<a name="how-to-set-the-general-ledger-parameters-and-accounts-receivable-parameters-for-settlement-priority"></a>Comment définir les paramètres de comptabilité et les paramètres de la comptabilité client pour la priorité de règlement
+---------------------------------------------------------------------------------------------------
 
 Pour utiliser les classifications de facturation afin de contrôler les priorités de règlement, vous devez définir à la fois un paramètre de taxe dans l’application Comptabilité et les paramètres de règlement dans l’application Comptabilité client. 
 
@@ -71,6 +74,3 @@ Lors du processus de règlement, les attributs de règlement sont considérés e
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

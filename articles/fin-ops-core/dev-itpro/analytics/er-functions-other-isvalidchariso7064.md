@@ -2,8 +2,11 @@
 title: Fonction ISVALIDCHARACTERISO7064 ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction ISVALIDCHARACTERISO7064 États électroniques (ER).
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 884fbf7371ea9d9ac931655f8b11ec1e13c83a46aaa831c96f5d558209205e09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c3bceb15bbe1dc65abc88c1229459707a6166482
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763570"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680660"
 ---
 # <a name="isvalidcharacteriso7064-er-function"></a>Fonction ISVALIDCHARACTERISO7064 ER
 
@@ -54,6 +57,3 @@ Valeur de texte résultante.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

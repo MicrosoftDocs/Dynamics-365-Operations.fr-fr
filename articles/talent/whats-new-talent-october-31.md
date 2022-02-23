@@ -97,6 +97,3 @@ L'entité Data Management Framework (DMF) HcmPersonalContactPersonEntity a été
 ## <a name="known-issue"></a>Problème connu
 - **Problème** : Lors de l'ajout d'une pièce jointe à un collaborateur, les boutons **Nouveau** et **Modifier** sont grisés. 
 - **Solution :** Avant d'ouvrir la page de la pièce jointe, assurez-vous que les récapitulatifs sur la page **Collaborateur** sont clôturés. Si les récapitulatifs sont fermés lorsque la page **Collaborateur** est chargée, les boutons de pièces jointes sont activés. (Ce problème sera résolu dans la prochaine mise à jour de la plateforme.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

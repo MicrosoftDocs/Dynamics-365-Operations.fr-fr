@@ -2,9 +2,11 @@
 title: Classement des travaux dirigés par le système
 description: Cette rubrique fournit des informations sur le classement des travaux dirigés par le système. Cette fonctionnalité vous permet de trier et de filtrer les ordres de travail que le système présente aux utilisateurs pour exécution. Elle est utile dans les scénarios où des critères supplémentaires sont nécessaires pour piloter le processus de prélèvement de l’entrepôt.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577814"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970204"
 ---
 # <a name="system-directed-work-sequencing"></a>Classement des travaux dirigés par le système
 
@@ -35,7 +37,7 @@ Par conséquent, cette fonctionnalité permet d’optimiser davantage les proces
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Activer la fonctionnalité de classement des travaux dirigés par le système à l’échelle de l’organisation
 
-Avant de pouvoir utiliser le classement des travaux dirigés par le système, la fonctionnalité doit être activée sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser le classement des travaux dirigés par le système, la fonctionnalité doit être activée sur votre système. Les administrateurs peuvent utiliser l'espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Classement des travaux dirigés par le système à l’échelle de l’organisation*
@@ -53,7 +55,7 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
 
 ### <a name="set-up-a-mobile-device-menu-item"></a>Configurer un élément de menu d’appareil mobile
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
+1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d'appareil mobile**.
 1. Dans la liste des éléments de menu d’appareil mobile, sélectionnez **Prélèvement des ventes - Système**. L’élément de menu requis doit déjà exister. 
 1. Confirmez les paramètres suivants :
 
@@ -302,6 +304,3 @@ Les requêtes de classement des travaux dirigés par le système sont *inclusive
 Par conséquent, dans l’exemple de ce scénario, l’ID de travail *4* a également été capturé par la requête. Lors de sa création, deux lignes ont été ajoutées : une pour 25 unités et une autre pour 10 unités. Le travail était toujours présenté à l’utilisateur, car au moins une ligne de travail a une quantité inférieure à 20 unités.
 
 Selon le scénario, vous pouvez empêcher ce comportement en utilisant des répartitions du travail.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

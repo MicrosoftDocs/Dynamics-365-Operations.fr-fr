@@ -1,10 +1,12 @@
 ---
 title: État Récupération d’immobilisations
 description: Cette rubrique explique comment utiliser l’état Récupération d’immobilisations.
-author: moaamer
+author: saraschi2
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883591"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969151"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>État Récupération d’immobilisations
 
@@ -28,7 +30,7 @@ ms.locfileid: "7883591"
 
 L’état **Récupération d’immobilisations** fournit, dans un format Microsoft Excel facile à lire, des données détaillées sur les immobilisations qui sont nécessaires pour la clôture de période, les tableaux d’analyse et la déclaration de taxe. L’état inclut les soldes de début et de fin des immobilisations, ainsi que les mouvements d’évaluation pour la période et les nouvelles acquisitions et cessions d’immobilisation au cours de la période. Les données sont fournies pour des immobilisations individuelles, et les valeurs sont également résumées pour les groupes d’immobilisations et l’entité juridique.
 
-L’état **Récupération d’immobilisations** utilise la structure de gestion des états électroniques. Avant d’exécuter l’état, les configurations Modèle d’immobilisations et Récupération d’immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+L’état **Récupération d’immobilisations** utilise la structure de gestion des états électroniques. Avant d’exécuter l’état, les configurations Modèle d’immobilisations et Récupération d’immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 Cet état est disponible dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ou comme correctif pour Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
 
@@ -64,6 +66,3 @@ Le tableau suivant décrit les champs disponibles dans l’état.
 |           Cessions : valeur de mise au rebut            |                                                                                               Valeur de mise au rebut pour le registre des immobilisations avec une cession (transaction de mise au rebut).                                                                                               |
 |           Cessions : résultat            |                                                                                 Valeur du résultat qui est calculée dans le cadre de la transaction de cession pour le registre des immobilisations.                                                                                 |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

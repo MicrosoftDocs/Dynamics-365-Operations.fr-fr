@@ -2,27 +2,28 @@
 title: Informations de paiement du client (Aperçu)
 description: Cette rubrique décrit la fonctionnalité d’informations de paiement qui vous aident à mieux comprendre les pratiques de paiement typiques d’un client individuel. La fonctionnalité peut vous aider à identifier les circonstances qui justifient de démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14151"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984000"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644631"
 ---
 # <a name="customer-payment-insights-preview"></a>Informations de paiement du client (Aperçu)
 
@@ -49,11 +50,11 @@ Pour chaque facture en cours, Informations de paiement du client (version préli
 
 Informations de paiement du client (version préliminaire) offre également une vue cumulée des paiements attendus pouvant aider les organisations à comprendre le montant total du paiement auquel elles peuvent s’attendre d’un client selon une des trois options, Dans les temps, En retard, Très en retard.
 
-[![Vue cumulée des prévisions de paiement.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Vue cumulée des prévisions de paiement](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 En outre, chaque facture se voit attribuer une probabilité de paiement dans les temps. Si la probabilité de paiement dans les temps est inférieure à 50 %, les factures sont marquées avec un cercle rouge pour indiquer que ces factures peuvent exiger une attention particulière en termes de recouvrement. 
 
-[![Liste des probabilités de paiement.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Liste des probabilités de paiement](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Informations de paiement du client (version préliminaire) offre également des informations contextuelles pour expliquer les prévisions, comme les facteurs principaux ayant influencé les prévisions, l’état actuel de l’entreprise avec le client et les détails concernant l’historique du comportement de paiement du client. Dans de nombreuses entreprises, le processus de recouvrement est une activité réactive ; le processus de recouvrement ne commence pas tant que les factures ne sont pas échues. 
 
@@ -69,9 +70,6 @@ Envoyer un e-mail à [Informations de paiement du client (version préliminaire)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
-Les version préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas incluses dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisées pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+Les aperçus (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Inventaire tournant de l’emplacement partiel
 description: Les plans d’inventaire tournant guident les opérations tournantes réelles. Vous pouvez demander que seuls des produits et des variantes de produit spécifiques soient comptabilisés au lieu de tout le stock disponible à un emplacement.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778432"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666744"
 ---
 # <a name="partial-location-cycle-counting"></a>Inventaire tournant de l’emplacement partiel
 
@@ -46,7 +49,7 @@ Avant que le travail d’inventaire tournant partiel puisse être traité, vous 
 Pour le processus d’inventaire tournant partiel, la date et l’heure du **Dernier inventaire tournant** ne seront pas mises à jour pour l’emplacement, même si tous les articles disponibles à un emplacement donné sont comptés. L’inventaire tournant partiel ne prend pas en compte le paramètre **Jours entre l’inventaire tournant** sur la page **Plans d’inventaire tournant**. L’inventaire tournant partiel ne prend pas en charge l’inventaire simultané de plusieurs articles au même endroit. La fonctionnalité d’inventaire tournant partiel peut entraîner l’inventaire du même emplacement plusieurs fois pour un article lorsque **Traiter le plan d’inventaire tournant** est exécuté. Pour éviter ce scénario, spécifiez des filtres dans le champ **Sélectionnez des emplacements**.
 
 > [!NOTE]
-> L’application mobile Gestion des entrepôts ne fournit pas le bouton **Ajouter un LP ou un article** lorsque vous utilisez le processus de comptage partiel du cycle.
+> L'application d'entrepôt ne fournit pas le bouton **Ajouter un LP ou un article** lorsque vous utilisez le processus de comptage partiel du cycle.
 
 ## <a name="example"></a>Exemple
 
@@ -59,6 +62,3 @@ Pour cet exemple, seul le numéro d’article A0001 doit être compté dans l’
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Inventaire tournant](cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

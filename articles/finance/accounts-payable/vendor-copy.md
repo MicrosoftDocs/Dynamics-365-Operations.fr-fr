@@ -1,24 +1,27 @@
 ---
 title: Copier des fournisseurs à l’aide de souches de numéros partagées
 description: Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un fournisseur dans une autre entité juridique tout en conservant le même ID fournisseur.
-author: sunfzam
+author: mikefalkner
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e29932ca34576d15b7350ab6c711563682d8ddf8
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 33338c331a53586b325def398267ab10db23f78a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458998"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copier des fournisseurs à l’aide de souches de numéros partagées
 
@@ -62,6 +65,3 @@ Vous pouvez également copier des fournisseurs à l’aide de la fonction de rec
 
 1. L’option **Copier un fournisseur** s’affiche. Par défaut, cette option est définie sur **Non**. Pour copier le fournisseur dans l’entité juridique actuelle, définissez l’option sur **Oui**.
 2. Cliquez sur **Sélectionner**. Le nouveau fournisseur est créé.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

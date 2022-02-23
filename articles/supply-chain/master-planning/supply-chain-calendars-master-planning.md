@@ -1,25 +1,28 @@
 ---
 title: Calendriers et planification
 description: Cette rubrique offre un aperçu des calendriers de chaîne d’approvisionnement et de la manière dont ils ont un impact sur la planification.
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568613"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427911"
 ---
 # <a name="calendars-and-master-planning"></a>Calendriers et planification
 
@@ -90,7 +93,7 @@ Pour indiquer les dates auxquelles un client peut accepter les livraisons, vous 
 
 Notez qu’il est possible de n’inclure qu’un calendrier par client. Si vous devez inclure un calendrier pour chaque adresse différente pour un client, vous pouvez créer un client par adresse, puis affecter son calendrier respectif. 
 
-La date de réception demandée sur les lignes de commande client est affectée par le calendrier client et par la méthode de contrôle de la date de livraison. Découvrez-en davantage sur la manière de calculer la date de livraison la plus proche dans [Promesse de commande.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+La date de réception demandée sur les lignes de commande client est affectée par le calendrier client et par la méthode de contrôle de la date de livraison. Découvrez-en davantage sur la manière de calculer la date de livraison la plus proche dans [Promesse de commande.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendrier d’expédition pour une entité juridique
 Pour indiquer les dates auxquelles une entité juridique peut expédier des marchandises, vous pouvez paramétrer un calendrier d’expédition sous **Administration de l’organisation > Organisations > Entités juridiques**. Sélectionnez l’entité juridique et ajoutez le calendrier dans l’onglet **Commerce extérieur et logistique** dans le champ **Calendrier d’expédition**. Le calendrier d’expédition sera considéré comme la source de valeurs par défaut pour tous les calendriers d’entrepôt dans l’entité juridique. 
@@ -140,6 +143,3 @@ Concernant le calendrier de groupe de couverture, il est important de tenir comp
 
 ### <a name="updating-scm-related-calendars"></a>Mise à jour des calendriers SCM
 Même s’il est important que tous les calendriers associés soient attribués à leur place respective (fournisseur, client, entrepôt, mode de livraison ou groupe de couverture), leur mise à jour l’est tout autant dans la mesure où ils reflètent les modifications. Le système définit les dates de production, de transfert, d’achat et de commande client selon l’association des calendriers assignés. Préciser qui est responsable d’attribuer et de mettre à jour les calendriers dans ses zones respectives reste une bonne pratique. En cas de panne ou de tout autre changement inhabituel les jours ouvrés, il est essentiel de mettre à jour les calendriers en conséquence. Toutes les tâches qui dépendent des calendriers, telles que la planification et la programmation de la production, doivent être relancées lors de la mise à jour des calendriers. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

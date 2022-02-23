@@ -2,13 +2,16 @@
 title: Écran 1099 dans le secteur public
 description: Cet article donne des conseils et des informations sur la manière de configurer la fonctionnalité du formulaire 1099 de déclaration d’honoraires pour la comptabilité fournisseur dans le secteur public.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 26181
 ms.assetid: 10f56dea-ea2d-48ea-9622-4ef715eb1179
 ms.search.region: USA
@@ -16,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0510ab84b2b44dcadfbcaee25a3cd43e29ef44d582e0dc0e8281d993e4808c07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 66b311a02238aae5c08f71c64c751444cb187410
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729533"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407970"
 ---
 # <a name="form-1099-in-the-public-sector"></a>Écran 1099 dans le secteur public
 
@@ -49,12 +52,10 @@ Vous pouvez également utiliser la page **Règlement fournisseur pour les décla
 -   Si le montant d’un formulaire est supérieur au montant minimal, l’administration fiscale peut exiger que tous les montants soient déclarés, même s’ils sont inférieurs au montant minimal.
 
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
 [Vue d’ensemble de la comptabilité fournisseur dans le secteur public](../public-sector/accounts-payable-public-sector.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Poste de groupement complet
 description: Cette rubrique fournit des informations sur la fonctionnalité Poste de groupement complet. Cette fonctionnalité offre une alternative à une application plus rigide des règles de pause de travail lorsque le prélèvement de groupement est utilisé, car elle permet une plus grande marge d’erreur dans les contraintes volumétriques des conteneurs ou des bacs.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4428248"
 ---
 # <a name="cluster-position-full"></a>Poste de groupement complet
 
@@ -211,7 +214,7 @@ Deux ID de travail doivent avoir été créés, chacun ayant deux lignes de pré
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Exécution du flux d’appareil mobile – Configuration de la confirmation de travail pour le produit
 
-1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur de l’entrepôt *61*.
+1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *61*.
 1. Aller à **Sortant \> Création de prélèvement de groupement**.
 
     La page **TÂCHE : Attribuer le travail au groupement** apparaît.
@@ -273,6 +276,3 @@ Dans ce scénario, le prélèvement de groupement est terminé et l’utilisateu
     Vous recevez un message « Groupement terminé ».
 
 Vous pouvez maintenant utiliser l’élément de menu **Prélèvement des ventes** pour prélever la quantité restante. Vous pouvez ensuite utiliser l’élément de menu **Chargement des ventes** pour déplacer les éléments de l’emplacement de préparation vers le quai de chargement.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

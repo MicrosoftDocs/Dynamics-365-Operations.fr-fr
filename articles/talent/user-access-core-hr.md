@@ -46,6 +46,3 @@ Pour plus d'informations, voir la section « Octroi d'accès à l'environnement
 **Solution à long terme**
 
 Microsoft envisage d'affecter automatiquement les droits appropriés vers Onboard et Attract lorsqu'un utilisateur est ajouté à Ressources humaines.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

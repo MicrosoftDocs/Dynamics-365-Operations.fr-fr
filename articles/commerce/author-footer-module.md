@@ -2,24 +2,27 @@
 title: Module Pied de page
 description: Cette rubrique couvre les modules de pied de page et leur création dans Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412248"
 ---
 # <a name="footer-module"></a>Module Pied de page  
 
@@ -27,11 +30,13 @@ ms.locfileid: "6719984"
 
 Cette rubrique couvre les modules de pied de page et décrit leur création dans Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Vue d’ensemble
+
 Le module de pied de page est un conteneur spécial utilisé pour héberger les modules qui figurent dans le pied de page de la page. Par exemple, il peut inclure des liens vers des pages du site, telles que les pages **Nous contacter** et **Stocker des stratégies**.
 
 L’image suivante montre un exemple de module de pied de page sur une page de site.
 
-![Exemple de module de pied de page.](./media/ecommerce-footer.PNG)
+![Exemple de module de pied de page](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Propriétés du module de pied de page 
 
@@ -82,6 +87,3 @@ En ajoutant le fragment aux modèles de page, vous vous assurez que le pied de p
 [Module En-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

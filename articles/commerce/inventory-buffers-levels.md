@@ -2,28 +2,33 @@
 title: Configurer les marges de stock et les niveaux de stock
 description: Cette rubrique explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
 author: boycezhu
+manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727531"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412296"
 ---
-# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurer des marges de stock et des niveaux de stock
+# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurer les marges de stock et les niveaux de stock
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce Headquarters comporte les données de stock et divers canaux tels que les applications de point de vente (PDV), les vitrines de commerce électronique et d’autres applications personnalisées intégrées qui extraient et reçoivent du stock d’une manière asynchrone. Par conséquent, les valeurs de stock disponibles qui sont obtenues via la page de stock disponible dans Commerce Headquarters, via l’interface utilisateur des PDV et via les API de disponibilité des stocks de commerce électronique ne sont pas toujours précises à 100 % en temps réel.
 
@@ -144,6 +149,3 @@ Pour configurer la réponse des API de disponibilité des produits, procédez co
 [Appliquer les paramètres de stock](inventory-settings.md)
 
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

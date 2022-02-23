@@ -1,37 +1,33 @@
 ---
-title: Vue d’ensemble du libre service pour employés et pour responsables
-description: Cet article fournit une vue d’ensemble de l’espace de travail en libre service pour les employés et pour les responsables.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+title: Vue d’ensemble du libre-service pour employés et pour responsables
+description: Cet article fournit une vue d’ensemble de l’espace de travail libre-service pour employés et pour responsables.
+author: andreabichsel
+manager: tfehr
+ms.date: 10/20/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "51941"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068942"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4418582"
 ---
-# <a name="employee-and-manager-self-service-overview"></a>Vue d’ensemble du libre service pour employés et pour responsables
+# <a name="employee-and-manager-self-service-overview"></a>Vue d’ensemble du libre-service pour employés et pour responsables
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Cet article fournit une vue d’ensemble de l’espace de travail en libre service pour les employés et pour les responsables.
+Cet article fournit une vue d’ensemble de l’espace de travail libre-service pour employés et pour responsables.
 
 ## <a name="edit-personal-details"></a>Modifier les détails personnels
 
@@ -43,7 +39,7 @@ Si vous n’avez pas associé votre utilisateur à un enregistrement **Collabora
 
 **Votre ID utilisateur n’est pas associé à votre enregistrement employé dans le système. Vous ne pourrez pas afficher ou mettre à jour vos informations tant qu’il ne le sera pas. Contactez votre responsable ou équipe de support pour obtenir de l’aide.**
 
-Pour associer un utilisateur à un enregistrement **Collaborateur**, accédez à **Utilisateurs** et sélectionnez l’utilisateur. Sélectionnez **Modifier**, ajoutez le collaborateur correspondant dans le champ **Personne** de la page et sélectionnez **Enregistrer**. Vous devriez maintenant avoir accès au **Libre service des employés**.
+Pour associer un utilisateur à un enregistrement **Collaborateur**, accédez à **Utilisateurs** et sélectionnez l’utilisateur. Sélectionnez **Modifier**, ajoutez le collaborateur correspondant dans le champ **Personne** du formulaire et sélectionnez **Enregistrer**. Vous devriez maintenant avoir accès au libre service des employés.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Exigences de sécurité pour le libre service des employés et des gestionnaires
 
@@ -56,9 +52,9 @@ Le libre service des employés et des gestionnaires nécessite deux rôles de s�
 >Vous pouvez également utiliser des rôles personnalisés pour accéder au libre service Employé et Responsable tant qu’ils ont obtenu l’accès aux espaces de travail Employé et Responsable.<br>
 >L’accès du gestionnaire aux informations sur les employés est basé sur la hiérarchie de ligne de poste actuelle définie dans Human Resources.
 
-## <a name="employee-self-service"></a>Libre service employé
+## <a name="employee-self-service"></a>Libre-service employé
 
-L’onglet **Mes informations** affiche les informations suivantes pour le **Libre service des employés**.  
+L’onglet **Mes informations** affiche les informations suivantes pour le libre-service pour employés.  
 
 ### <a name="summary"></a>Synthèse
 
@@ -72,33 +68,33 @@ L’onglet **Mes informations** affiche les informations suivantes pour le **Lib
 
 ### <a name="my-career-information"></a>Mes informations de carrière
 
-La section **Mes informations de carrière** du **Libre service des employés** présente des vignettes relatives aux congés et absences, à la gestion des performances, aux compétences, aux avantages sociaux, aux tâches et aux pièces jointes.
+La section **Mes informations de carrière** du libre-service des employés contient des cartes sur les congés et les absences, la gestion des performances, les compétences, les avantages sociaux, les tâches et les pièces jointes.
 
-La vignette **Soldes des congés** affiche les soldes de tous les plans souscrits. Cette vignette prévoit votre solde en fonction de votre méthode de régularisation. Vous pouvez saisir et soumettre des demandes de congé, qui passeront ensuite par un processus de workflow d’approbation. Pour plus d’informations sur la gestion des congé et des absences, voir [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md).
+La carte **Soldes des congés** affiche les soldes de tous les plans souscrits. Cette carte prévoit votre solde en fonction de votre méthode de régularisation. Vous pouvez saisir et soumettre des demandes de congés, qui passeront ensuite par un processus de workflow d’approbation. Pour plus d’informations sur la gestion des congé et des absences, voir [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md).
 
-La vignette **Tâches** affiche les tâches qui vous sont assignées et vous permet de les visualiser et de les gérer.
+La carte **Tâches** affiche les tâches qui vous sont assignées et vous permet de les visualiser et de les gérer.
 
-La vignette **Prochain cours enregistré** affiche le prochain cours auquel vous êtes inscrit. Vous pouvez voir et vous inscrire aux cours actifs. Tous les cours qui sont ouverts à l’inscription sont définis sur le statut **Commencé** et qui permettent aux employés de s’inscrire automatiquement s’affichent. Selon les paramètres de votre organisation, votre inscription à un cours peut passer par un processus d’approbation.
+La carte **Prochain cours enregistré** affiche le prochain cours auquel vous êtes inscrit. Vous pouvez voir et vous inscrire aux cours actifs. Tous les cours, qui sont ouverts à l’inscription, sont définis sur le statut **Commencé** et qui permettent aux employés de s’inscrire automatique, s’affichent sur cette carte. Selon les paramètres de votre organisation, votre inscription à un cours peut passer par un processus d’approbation.
 
-La vignette **Certificats** affiche le certificat et la date d’expiration du certificat dont la date d’expiration est la plus proche de la date actuelle. Vous pouvez mettre à jour, ajouter ou supprimer des certificats. Selon les paramètres de votre organisation, les mises à jour de certificat peuvent passer par un processus d’approbation.
+La carte **Certificats** affiche le certificat et la date d’expiration du certificat dont la date d’expiration est la plus proche de la date actuelle. Vous pouvez mettre à jour, ajouter ou supprimer des certificats. Selon les paramètres de votre organisation, les mises à jour de certificat peuvent passer par un processus d’approbation.
 
-La vignette **Prochain examen prévu** affiche votre prochaine évaluation des performances. Vous pouvez commencer un nouvel examen à partir de cette vignette. Votre responsable ou votre représentant RH peut également lancer des évaluations. Selon les paramètres de votre organisation, vous pouvez également être en mesure d’afficher, de mettre à jour et de soumettre des avis de sortie.
+La carte **Prochain examen prévu** affiche votre prochaine évaluation des performances. Vous pouvez commencer un nouvel examen à partir de cette carte. Votre responsable ou votre représentant RH peut également lancer des évaluations. Selon les paramètres de votre organisation, vous pouvez également être en mesure d’afficher, de mettre à jour et de soumettre des avis de sortie à partir de cette carte.
 
-Vous pouvez gérer vos objectifs avec la vignette **Objectifs de performance**. Cette vignette affiche le nombre d’objectifs que vous avez dans chaque statut (**Pas commencé**, **En cours**, et **À améliorer**). Vous pouvez créer, mettre à jour et supprimer des objectifs, selon la sécurité basée sur les rôles qui vous est attribuée. Si vous le souhaitez, vous pouvez ajouter de nouveaux objectifs à partir de groupes ou de modèles. Les responsables et les RH peuvent également créer des objectifs au nom des employés et déterminer dans quelle mesure chaque objectif sera détaillé. Les responsables et les employés peuvent collaborer sur les objectifs et mettre à jour les activités, les mesures et le statut. Vous pouvez également inclure des pièces jointes.
+Vous pouvez gérer vos objectifs avec la carte **Objectifs de performance**. Cette carte affiche le nombre d’objectifs que vous avez dans chaque statut (**Pas commencé**, **En cours**, et **À améliorer**). Vous pouvez créer, mettre à jour et supprimer des objectifs, selon la sécurité basée sur les rôles qui vous est attribuée. Si vous le souhaitez, vous pouvez ajouter de nouveaux objectifs à partir de groupes ou de modèles. Les responsables et les RH peuvent également créer des objectifs au nom des employés et déterminer dans quelle mesure chaque objectif sera détaillé. Les responsables et les employés peuvent collaborer sur les objectifs et mettre à jour les activités, les mesures et le statut. Vous pouvez également inclure des pièces jointes.
 
-Vous pouvez consulter vos compétences existantes sur la vignette **Compétences totales**. Vous pouvez mettre à jour des compétences, en ajouter de nouvelles ou supprimer celles qui ne sont plus pertinentes. Selon les paramètres de votre organisation, les modifications de vos compétences pourraient passer par un processus d’approbation.
+Vous pouvez consulter vos compétences existantes sur la carte **Compétences**. Vous pouvez mettre à jour des compétences, en ajouter de nouvelles ou supprimer celles qui ne sont plus pertinentes. Selon les paramètres de votre organisation, les modifications de vos compétences pourraient passer par un processus d’approbation.
 
-Vous pouvez consulter votre rémunération actuelle via la vignette **Rémunération**. Sélectionnez **Afficher** pour voir votre salaire annuel et le montant de votre dernière augmentation. Si vous êtes employé dans plusieurs entreprises, chaque montant annuel s’affiche. Pour afficher votre historique de rémunération détaillé, sélectionnez le montant du **Salaire annuel** pour ouvrir la page **Historique des rémunérations fixes et variables**. La future rémunération ne s’affiche pas dans cette page. Si vous avez plusieurs emplois, vous pouvez basculer entre les entreprises dans cette page pour afficher votre historique de rémunération sans vous connecter à chaque entreprise.
+Vous pouvez consulter votre rémunération actuelle via la carte **Rémunération**. Sélectionnez **Afficher** pour voir votre salaire annuel et le montant de votre dernière augmentation. Si vous êtes employé dans plusieurs entreprises, chaque montant annuel s’affiche sur la carte. Pour afficher votre historique de rémunération détaillé, sélectionnez le montant du salaire annuel pour ouvrir le formulaire **Historique des rémunérations fixes et variables**. La future rémunération ne s’affiche pas dans ce formulaire. Si vous avez plusieurs emplois, vous pouvez basculer entre les entreprises dans ce formulaire pour afficher votre historique de rémunération sans vous connecter à chaque entreprise.
 
-Affichez et gérez des documents avec la vignette **Pièces jointes**. Vous pouvez gérer toutes les pièces jointes **Externes**. Les RH et les employés peuvent ajouter des pièces jointes via le **Libre service des employés** ou la page **Collaborateur**. Les pièces jointes sont définies sur **Externe** par défaut.
+Affichez et gérez des documents avec la carte **Pièces jointes**. Vous pouvez gérer toutes les pièces jointes **Externes**. Les RH et les employés peuvent ajouter des pièces jointes via le libre-service des employés ou le formulaire **Collaborateur**. Les pièces jointes sont définies sur **Externe** par défaut.
 
 ### <a name="additional-information"></a>Informations supplémentaires
 
-Cette section fournit des liens vers d’autres zones du **Libre service des employés**, similaires à la section **Mes informations de carrière**.
+Cette section fournit des liens vers d’autres zones de libre-service pour les employés, similaires à la section **Mes informations de carrière**.
 
 Inscrivez-vous aux avantages via le lien **Avantages**. Pour plus d’informations sur la gestion des avantages, voir [Vue d’ensemble des avantages](hr-benefits-management-overview.md).
 
-Sous **Performance**, vous pouvez sélectionner **Journal de performances** pour créer des entrées de journal de performance à utiliser à la fois sur les objectifs de performance et les évaluations. Vous pouvez sélectionner **Envoyer des commentaires** pour fournir des commentaires aux autres employés de votre organisation. Selon les paramètres de votre organisation, des e-mails peuvent être envoyés au destinataire, à l’expéditeur et aux responsables. Vous pouvez envoyer des commentaires à tous les employés de l’organisation. L’envoi de commentaires n’est pas limité par l’entreprise.
+Sous **Performance**, vous pouvez sélectionner **Journaux de performances** pour créer des entrées de journal de performance à utiliser à la fois sur les objectifs de performance et les évaluations. Vous pouvez sélectionner **Envoyer des commentaires** pour fournir des commentaires aux autres employés de votre organisation. Selon les paramètres de votre organisation, des e-mails peuvent être envoyés au destinataire, à l’expéditeur et aux responsables. Vous pouvez envoyer des commentaires à tous les employés de l’organisation. L’envoi de commentaires n’est pas limité par l’entreprise.
 
 Sous **Compétences**, vous pouvez apporter des modifications à **Cours**, **Éducation**, **Postes de confiance** et **Expérience professionnelle**. Selon les paramètres de votre organisation, les mises à jour de ces compétences peuvent passer par un processus d’approbation.
 
@@ -106,13 +102,13 @@ Vous pouvez voir les détails du travail sous **Organisation**. Les détails de 
 
 Sous **Questionnaire**, vous pouvez voir les questionnaires remplis. Vous pouvez également voir des questionnaires à l’échelle de l’entreprise qui n’ont pas été remplis. Vous pouvez choisir de remplir un questionnaire à tout moment. L’auteur du questionnaire peut déterminer le délai et pour qui le questionnaire est applicable.
 
-Vous pouvez configurer des liens définis par l’utilisateur dans **Paramètres des ressources humaines**. Par exemple, vous pouvez définir des liens vers des relevés de paie, une documentation de fin d’exercice ou des solutions externes. Ces liens s’affichent au bas de cette section, mais vous pouvez les déplacer en utilisant la personnalisation.
+Vous pouvez configurer des liens définis par l’utilisateur dans **Paramètres de Human Resources**. Par exemple, vous pouvez définir des liens vers des relevés de paie, une documentation de fin d’exercice ou des solutions externes. Ces liens s’affichent au bas de cette section, mais vous pouvez les déplacer en utilisant la personnalisation.
 
-Vous pouvez également créer des onglets supplémentaires en intégrant Power Apps dans l’espace de travail **Libre service des employés**. Utilisez le menu **Paramètres** pour personnaliser la page avec Power Apps. Dans le menu **Paramètres**, vous pouvez choisir d’ajouter une Power App, de compléter les détails et d’insérer l’application. Par défaut, Power Apps apparaît comme le premier onglet de la séquence. Vous pouvez changer l’ordre avec la personnalisation standard.
+Vous pouvez également créer des onglets supplémentaires en intégrant Power Apps dans l’espace de travail libre-service des employés. Utilisez le menu **Paramètres** pour personnaliser la page avec Power Apps. Dans le menu **Paramètres**, vous pouvez choisir d’ajouter une Power App, de compléter les détails et d’insérer l’application. Par défaut, Power Apps apparaît comme le premier onglet de la séquence. Vous pouvez changer l’ordre avec la personnalisation standard.
 
 ## <a name="my-team"></a>Mon équipe
 
-L’onglet **Mon équipe** affiche les informations suivantes pour le **Libre service des responsables**. Seuls les responsables peuvent accéder à l’onglet **Mon équipe**.
+L’onglet **Mon équipe** affiche les informations suivantes pour le libre-service des responsables. Seuls les responsables peuvent accéder à l’onglet **Mon équipe**.
 
 ### <a name="personnel-actions"></a>Actions liées au personnel
 
@@ -135,14 +131,14 @@ Vous pouvez également configurer ces options pour passer par un worfklow d’ap
 
 ### <a name="summary"></a>Synthèse
 
-Les informations de la section **Synthèse** dépend des options que les RH ont sélectionnées dans les **Paramètres des ressources humaines**. Sur l’onglet **Libre service des responsables** de la page **Paramètres des ressources humaines**, vous pouvez configurer les options d’affichage des enregistrements arrivant à expiration et des postes ouverts. L’activation de ces options détermine ce que les responsables peuvent voir dans la section **Synthèse**.
+Les informations de la section **Synthèse** dépend des options sélectionnées par Human Resources dans **Paramètres de Human Resources**. Sur l’onglet **Responsable en libre-service** de la page **Paramètres de Human Resources**, vous pouvez configurer les options d’affichage des enregistrements arrivant à expiration et des postes ouverts. L’activation de ces options détermine ce que les responsables peuvent voir dans la section **Synthèse**.
 
 Vous pouvez configurer les vignettes suivantes pour les responsables :
 
 - **Certificats expirant pour mon équipe**
 - **Numéros d’identification arrivant à expiration pour mon équipe**
 - **Essais arrivant à expiration pour mon équipe**
-- **Présélections arrivant à expiration pour mon équipe**
+- **Filtrages arrivant à expiration pour mon équipe**
 - **Tests arrivant à expiration pour mon équipe**
 - **Postes ouverts aux subordonnés directs et/ou étendus**
 - **Demandes de congés en attente pour mon équipe**
@@ -163,11 +159,11 @@ Vous pouvez configurer les options suivantes pour que les responsables apportent
 
 ### <a name="my-team-information"></a>Mes informations d’équipe
 
-**Mon équipe** permet aux responsables de visualiser et de mettre à jour des subordonnés directs et indirects. Pour accéder aux subordonnés indirects, sélectionnez l’employé qui a des subordonnés directs, puis choisissez **Voir l’équipe** sur la vignette. Toutes les mêmes options s’appliquent aux subordonnés étendus comme aux subordonnés directs. 
+Les informations de mon équipe permettent aux responsables de visualiser et de mettre à jour des subordonnés directs et étendus. Pour accéder aux subordonnés étendus, sélectionnez l’employé qui a des subordonnés, puis choisissez **Voir l’équipe** sur la carte. Toutes les mêmes options s’appliquent aux subordonnés étendus comme aux subordonnés directs. 
 
 #### <a name="summary-tab"></a>Onglet Synthèse
 
-L’onglet **Synthèse** offre une vue rapide de vos subordonnés directs. Si un subordonné direct a également des collaborateurs, la carte affiche le nombre de subordonnés directs dans la section supérieure, ainsi qu’un bouton **Voir l’équipe**. Les options au-dessus de chaque vignette s’appliquent à l’employé sélectionné. Par exemple, si vous souhaitez saisir une demande de congé au nom d’un employé, vous sélectionnez l’employé, puis choisissez **Demander un congé**. 
+L’onglet **Synthèse** offre une vue rapide de vos subordonnés directs. Si un subordonné direct a également des collaborateurs, la carte affiche le nombre de subordonnés directs dans la section supérieure, ainsi qu’un bouton **Voir l’équipe**. Les options au-dessus de chaque carte s’appliquent à l’employé sélectionné. Par exemple, si vous souhaitez saisir une demande de congé au nom d’un employé, vous sélectionnez l’employé, puis choisissez **Demander un congé** au-dessus des cartes. 
 
 Si vous sélectionnez **Détails** après avoir sélectionné un employé, les options suivantes s’affichent :
 
@@ -186,26 +182,26 @@ Selon les paramètres de votre organisation, vous pouvez soit apporter des modif
 
 #### <a name="position-tab"></a>Onglet Poste
 
-L’onglet **Poste** fournit une vue récapitulative des employés dans leur poste principal. Le nom, la vignette et le département s’affichent dans la zone d’en-tête de chaque vignette. Cette vignette comprend les informations suivantes :
+L’onglet **Postes** fournit une vue récapitulative des employés dans leur poste principal. Le nom, la vignette et le département s’affichent dans la zone d’en-tête de chaque carte. Cette carte comprend :
 
-- **Date d’ancienneté** : affichée à partir de la section récapitulative du collaborateur de la page **Collaborateur**.
-- **Années de service** : calculées en fonction de la date de début d’emploi de l’employé.
-- **Nombre de postes précédents** : en fonction de l’historique des postes, si vous sélectionnez ce nombre, vous ouvrez la vue détaillée de tous les postes précédemment occupés.
-- **Date de naissance** : le mois et le jour de la date de naissance de l’employé.
+- **Date d’ancienneté** - Affichée à partir de la section récapitulative du collaborateur du formulaire de collaborateur
+- **Années de service** - Calculées en fonction de la date de début d’emploi de l’employé
+- **Nombre de postes précédents** - En fonction de l’historique des postes, si vous sélectionnez ce numéro, vous ouvrez la vue détaillée de tous les postes précédemment occupés
+- **Date de naissance** - Le mois et le jour de la date de naissance de l’employé
 
 Vous pouvez afficher les données de poste pour les subordonnés directs et étendus.
 
 #### <a name="compensation-tab"></a>Onglet Rémunération
 
-L’onglet **Rémunération** affiche le salaire annuel de l’employé. Un identifiant d’entreprise s’affiche sous le montant du salaire. Si un employé a plusieurs emplois et est payé par plusieurs entités juridiques, l’employé aura plusieurs plans de rémunération. Pour voir tous les plans de rémunération des entités juridiques sans changer d’entreprise, vous devez activer la rémunération croisée sous **Ressources humaines > Paramètres partagés > Accès avancé > Activer la rémunération intersociétés**.
+L’onglet **Rémunération** affiche le salaire annuel de l’employé. Un identifiant d’entreprise s’affiche sous le montant du salaire. Si un employé a plusieurs emplois et est payé par plusieurs entités juridiques, l’employé aura plusieurs plans de rémunération. Pour voir tous les plans de rémunération des entités juridiques sans changer d'entreprise, vous devez activer la rémunération croisée sous **Human Resources > Paramètres partagés > Accès avancé > Activer la rémunération intersociétés**.
 
-Pour afficher l’historique des rémunérations, sélectionnez **Montant du salaire** pour ouvrir la page **Détails**. Seuls les enregistrements de rémunération fixes et variables actuels et historiques s’affichent dans la page **Rémunération**. Si un employé a plusieurs emplois, vous pouvez basculer entre les sociétés pour afficher l’historique de rémunération dans chaque société ou activer la rémunération intersociétés dans les **Paramètres partagés de Human Resources** pour afficher tous les plans de rémunération.
+Pour afficher l’historique des rémunérations, sélectionnez le montant du salaire pour ouvrir le formulaire **Détails**. Seuls les enregistrements de rémunération fixes et variables actuels et historiques s’affichent dans le formulaire **Rémunération**. Si un employé a plusieurs emplois, vous pouvez basculer entre les sociétés pour afficher l'historique de rémunération dans chaque société ou activer la rémunération intersociétés dans les paramètres partagés de Human Resources pour afficher tous les plans de rémunération.
 
 Vous pouvez afficher la rémunération pour les subordonnés directs et étendus.
 
 #### <a name="leave-and-absence-tab"></a>Onglet Congé et absence
 
-L’onglet **Congé et absence** affiche les premiers soldes pour les employés qui ont une activité. Pour prendre des mesures ou afficher une liste complète des activités, sélectionnez **Détails**, puis sélectionnez **Congés**. Sur la page **Congés**, vous pouvez afficher les soldes, les demandes, les congés approuvés et les soldes prévisionnels pour aider les employés à mieux gérer leur temps. Selon les paramètres de votre organisation, vous pouvez également demander des congés pour vos subordonnés directs et étendus.
+L’onglet **Congé et absence** affiche les premiers soldes pour les employés qui ont une activité. Pour prendre des mesures ou afficher une liste complète des activités, sélectionnez **Détails**, puis sélectionnez **Congés**. Sur le formulaire **Congés**, vous pouvez afficher les soldes, les demandes, les congés approuvés et les soldes prévisionnels pour aider les employés à mieux gérer leur temps. Selon les paramètres de votre organisation, vous pouvez également demander des congés pour vos subordonnés directs et étendus.
 
 #### <a name="performance-goals-tab"></a>Onglet Objectifs de performance
 
@@ -218,5 +214,3 @@ Les responsables peuvent voir tous les objectifs de leur équipe via la vignette
 L’onglet **Révisions** récapitule les révisions du collaborateur selon chaque état : **En cours**, **Prêt pour la révision** et **Révision finale**. Pour accéder à la révision d’un employé, sélectionnez le bouton **Détails**, puis sélectionnez les révisions sur lesquelles collaborer. En fonction de l’emplacement de la révision dans le processus de workflow, vous pouvez voir si la révision est disponible pour la mise à jour. 
 
 Vous pouvez voir toutes les révisions de votre équipe via la vignette **Révisions des performances de l’équipe** dans la section **Synthèse** de **Mon équipe**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

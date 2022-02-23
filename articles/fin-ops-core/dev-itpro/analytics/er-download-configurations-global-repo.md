@@ -2,9 +2,11 @@
 title: Télécharger les configurations ER depuis le référentiel global du service de configuration
 description: Cette rubrique explique comment télécharger des configurations de gestion des états électroniques (ER) à partir du référentiel global du service de configuration.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605329"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679556"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Télécharger les configurations ER depuis le référentiel global du service de configuration
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment télécharger des [configurations de gestion des états électroniques (ER)](general-electronic-reporting.md#Configuration) à partir du référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations – Regulatory Services, service de configuration](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Cette rubrique explique comment télécharger des [configurations de gestion des états électroniques (ER)](general-electronic-reporting.md#Configuration) à partir du référentiel global du service de configuration. Pour plus d’informations, voir [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, service de configuration](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Ouvrir le référentiel de configurations
 
@@ -40,7 +42,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 3. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
 3. Dans la vignette **Microsoft**, sélectionnez **Référentiels**.
 
-    ![Espace de travail des états électroniques.](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Espace de travail des états électroniques](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **Global**. Si ce référentiel n’apparaît pas dans la grille, procédez comme suit :
 
@@ -52,7 +54,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 
 5. Sélectionnez **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné.
 
-    ![Page des référentiels de configurations.](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Page des référentiels de configurations](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Importer une configuration unique
 
@@ -63,7 +65,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
     > [!NOTE]
     > Le bouton **Importer** n’est pas disponible pour les versions de configuration de gestion des états électroniques qui sont déjà présentes dans l’instance Finance actuelle.
 
-    ![Page du référentiel de configuration, raccourci Configurations.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Page du référentiel de configuration](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importer des configurations filtrées
 
@@ -77,7 +79,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 4. Dans le raccourci **Configurations**, sélectionnez **Importer** pour télécharger les configurations filtrées depuis le référentiel global vers l’instance actuelle.
 5. Dans le raccourci **Configurations**, sélectionnez **Réinitialiser le filtre** pour effacer les conditions de sélection spécifiées.
 
-    ![Page Référentiel de configuration, raccourci Versions, bouton Importer.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Page du référentiel de configuration](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Avant de pouvoir utiliser la version de configuration importée, vous devez résoudre les problèmes. Pour plus d’informations, voir la liste des ressources associées pour cette rubrique.
@@ -88,6 +90,3 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,38 +1,36 @@
 ---
 title: Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
-description: Cette rubrique explique comment résoudre le problème de noms de personnes et de postes tronqués dans la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/19/2021
+description: Cet article explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources. La troncation de texte peut rendre difficile l'exécution d'une capture d'écran ou d'une impression de la hiérarchie.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b11bd0247634290c8dc43c2ae2291a485449627
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068333"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418508"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 **Problème**
 
-Lorsqu’un client affiche la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources, les noms des personnes et les postes sont tronqués. Par conséquent, il peut être difficile d’effectuer une capture d’écran, ou d’imprimer et de distribuer la hiérarchie.
+Lorsqu'un client affiche la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources, les noms des personnes et les postes sont tronqués. Par conséquent, il peut être difficile d'effectuer une capture d'écran, ou d'imprimer et de distribuer la hiérarchie.
 
-![Hiérarchie des postes.](media/position-h.png)
+![Hiérarchie des postes](media/position-h.png)
 
 **Cause**
 
@@ -40,58 +38,58 @@ Ce comportement est fait exprès.
 
 **Résolution**
 
-Malheureusement, les utilisateurs ne peuvent pas facilement modifier la taille du texte. Toutefois, vous pouvez exporter la hiérarchie des postes de Human Resources puis les importer dans Microsoft Visio. Bien que l’article suivant ait été rédigé pour Microsoft Dynamics AX 2012, le processus s’applique toujours à Human Resources : [Exporter une hiérarchie des postes vers Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Malheureusement, les utilisateurs ne peuvent pas facilement modifier la taille du texte. Toutefois, vous pouvez exporter la hiérarchie des postes de Human Resources puis les importer dans Microsoft Visio. Bien que l'article suivant ait été rédigé pour Microsoft Dynamics AX 2012, le processus s'applique toujours à Human Resources : [Exporter une hiérarchie des postes vers Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Procédez comme suit pour exporter dans Visio.
 
 1. Dans Human Resources, ouvrez la page de liste **Postes**.
 
-    Pour inclure des informations supplémentaires dans le diagramme de structure de l’organisation, ajoutez des champs à la liste **Postes**, afin qu’ils soient disponibles lorsque vous utilisez l’**Assistant Diagramme de l’organisation** ultérieurement dans cette procédure.
+    Pour inclure des informations supplémentaires dans le diagramme de structure de l'organisation, ajoutez des champs à la liste **Postes**, afin qu'ils soient disponibles lorsque vous utilisez l'Assistant ultérieurement dans cette procédure.
 
 2. Dans le volet Actions, sélectionnez le bouton **Ouvrir dans Microsoft Office**, puis, sous **Exporter vers Excel**, sélectionnez **Postes**. Sinon, appuyez sur Ctrl+T.
 
-    ![Exporter la page de la liste des postes vers Excel.](media/org-admin.png)
+    ![Exporter la page de la liste des postes vers Excel](media/org-admin.png)
 
 3. Enregistrez le fichier Excel exporté.
 
-    ![Boîte de dialogue Exporter vers Excel.](media/export-excel.png)
+    ![Boîte de dialogue Exporter vers Excel](media/export-excel.png)
 
-4. Dans Visio, sélectionnez **Visio – Créer**, puis sélectionnez la catégorie de modèle **Entreprise**.
+4. Dans Visio, sélectionnez **Visio - Créer**, puis sélectionnez la catégorie de modèle **Entreprise**.
 
-    ![Nouveau diagramme.](media/new.png)
+    ![Nouveau diagramme](media/new.png)
 
-5. Sélectionnez **Assistant de graphique d’organisation**, puis sélectionnez **Créer**.
+5. Sélectionnez **Assistant de graphique d'organisation**, puis sélectionnez **Créer**.
 
-    ![Boîte de dialogue Assistant de graphique d’organisation.](media/orgchart-wizard.png)
+    ![Boîte de dialogue Assistant de graphique d'organisation](media/orgchart-wizard.png)
 
 6. Sélectionnez **Informations déjà stockées dans un fichier ou une base de données**, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 1.](media/orgchart-wizard7.png)
+    ![Assistant Diagramme de l'organisation 1](media/orgchart-wizard7.png)
 
 7. Choisissez **Un texte, Org Plus (\*.txt), ou fichier Excel**, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 2.](media/orgchart-wizard3.png)
+    ![Assistant Diagramme de l'organisation 2](media/orgchart-wizard3.png)
 
 8. Naviguez pour sélectionner le fichier Excel exporté contenant la hiérarchie des postes, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 3.](media/orgchart-wizard2.png)
+    ![Assistant Diagramme de l'organisation 3](media/orgchart-wizard2.png)
 
 9. Définissez le champ **Nom** sur **Poste**, définissez le champ **Référence** sur **Poste de référence**, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 4.](media/orgchart-wizard1.png)
+    ![Assistant Diagramme de l'organisation 4](media/orgchart-wizard1.png)
 
 10. Sélectionnez les champs qui doivent être affichés sur chaque nœud, puis sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 5.](media/orgchart-wizard5.png)
+    ![Assistant Diagramme de l'organisation 5](media/orgchart-wizard5.png)
 
 11. Ajoutez la colonne **Poste** à la liste **Champs de données de forme**, puis la sélectionnez **Suivant**.
 
-    ![Assistant Diagramme de l’organisation 6.](media/orgchart-wizard6.png)
+    ![Assistant Diagramme de l'organisation 6](media/orgchart-wizard6.png)
 
 12. Les images ne sont pas actuellement disponibles. Par conséquent, sur la page suivante, sélectionnez **Suivant**.
-13. Sélectionnez **Je souhaite que l’Assistant répartisse automatiquement mon graphique d’organisation entre les pages**.
+13. Sélectionnez **Je souhaite que l'Assistant répartisse automatiquement mon graphique d'organisation entre les pages**.
 
-    ![Assistant Diagramme de l’organisation 7.](media/orgchart-wizard4.png)
+    ![Assistant Diagramme de l'organisation 7](media/orgchart-wizard4.png)
 
 14. Sélectionnez **Terminer**.
 
@@ -101,11 +99,8 @@ Le diagramme généré dans Visio affiche chaque responsable sur une feuille de 
 
 Selon les champs sélectionnés à inclure dans le diagramme, chaque nœud affiche les informations appropriées lorsque le fichier Visio est généré.
 
-![Diagramme de la hiérarchie.](media/hierarchy.png)
+![Diagramme de la hiérarchie](media/hierarchy.png)
 
 **Option supplémentaire**
 
-Dans Human Resources, vous pouvez également pouvoir utiliser l’espace de travail **Personnes** pour afficher des informations associées à la hiérarchie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Dans Human Resources, vous pouvez également pouvoir utiliser l'espace de travail **Personnes** pour afficher des informations associées à la hiérarchie.

@@ -1,24 +1,27 @@
 ---
 title: Créer un plan de matériaux pour des coproduits
 description: Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules.
-author: ChristianRytt
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: deae0d7e0295aa02f5ad512f67e9e3d2148c2e33
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14de9a1085ac1cae88ad93c35385dd43c60ed4d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578294"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427908"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Créer un plan de matériaux pour des coproduits
 
@@ -26,88 +29,85 @@ ms.locfileid: "7578294"
 
 Le responsable de production organise les besoins en matières pour les articles qui sont des coproduits de formules. La société fictive de démonstration utilisée pour créer cette procédure est USP2.
 
-## <a name="create-requirement-for-a-co-product"></a>Créer une demande pour un coproduit
 
-1. Accédez à **Ventes et marketing \> Espaces de travail \> Traitement et recherche de commande client**.
-1. Sélectionnez **Nouveau**.
-1. Sélectionnez **Commandes client**.
-1. Dans le champ **Compte client**, saisissez une valeur.
+## <a name="create-requirement-for-a-co-product"></a>Créer une demande pour un coproduit
+1. Allez dans le Tableau de bord par défaut.
+2. Cliquez sur Traitement et recherche de commande client.
+3. Cliquez sur Nouveau.
+4. Cliquez sur Commande client.
+5. Tapez une valeur dans le champ Compte client.
     * Exemple : US-001  
-1. Cliquez sur **OK**.
-1. Dans le champ **Numéro d’article**, tapez une valeur.
+6. Cliquez sur OK.
+7. Tapez une valeur dans le champ Numéro d'article.
     * Exemple : P6003  
-1. Entrez un nombre dans le champ **Quantité**.
+8. Dans le champ Quantité, entrer un numéro.
     * Exemple : 50000  
-1. Sélectionnez **Enregistrer**.
+9. Cliquez sur Enregistrer.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Créer un plan matières pour des coproduits
-
 1. Fermez la page.
-1. Fermez la page.
-1. Sélectionnez **Planification**.
-1. Dans le champ **Régime**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
-1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+2. Fermez la page.
+3. Cliquez sur Planification.
+4. Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Exemple : Programme  
-1. Sélectionnez **Exécuter**.
-1. Développez ou réduisez la section **Enregistrements à inclure**.
-1. Sélectionnez **Filtrer**.
-1. Dans la liste, sélectionnez la ligne pour **Champ** = *Numéro d’article*.
-1. Tapez une valeur dans le champ **Critères**.
+6. Cliquez sur Exécuter.
+7. Développez ou réduisez la section Enregistrements à inclure.
+8. Cliquez sur Filtre.
+9. Dans la liste, sélectionnez la ligne pour Champ = Numéro d'article.
+10. Tapez une valeur dans le champ Critères.
     * Exemple : P6003  
-1. Cliquez sur **OK**.
-1. Cliquez sur **OK**.
-1. Sélectionnez **Ordres prévisionnels**.
-1. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez su le champ **Numéro d’article** avec une valeur de « P6000 ».
-    * Filtrez par élément de formule ayant comme coproduit de l’article pour lequel vous avez créé une commande client.  
-1. Dans la liste, marquer la ligne sélectionnée.
-    * Sélectionnez n’importe quelle ligne renvoyée par le filtre.  
-1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
-1. Développez la section **Origine des besoins**.
-1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
-    * L’ordre prévisionnel est chevillé à la commande client du coproduit.  
-1. Fermez la page.
+11. Cliquez sur OK.
+12. Cliquez sur OK.
+13. Cliquez sur Ordres prévisionnels.
+14. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez su le champ Numéro d'article avec une valeur de « P6000 ».
+    * Filtrez par élément de formule ayant comme coproduit de l'article pour lequel vous avez créé une commande client.  
+15. Dans la liste, marquez la ligne sélectionnée.
+    * Sélectionnez n'importe quelle ligne renvoyée par le filtre.  
+16. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+17. Développez ou réduisez la section Origine des besoins.
+18. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+    * L'ordre prévisionnel est chevillé à la commande client du coproduit.  
+19. Fermez la page.
 
-## <a name="create-a-second-requirement-for-a-co-product"></a>Créer une deuxième demande pour un coproduit
-
-1. Accédez à **Ventes et marketing \> Espaces de travail \> Traitement et recherche de commande client**.
-1. Sélectionnez **Nouveau**.
-1. Sélectionnez **Commandes client**.
-1. Dans le champ **Compte client**, saisissez une valeur.
+## <a name="create-requirement-for-a-co-product"></a>Créer une demande pour un coproduit
+1. Allez dans le Tableau de bord par défaut.
+2. Cliquez sur Traitement et recherche de commande client.
+3. Cliquez sur Nouveau.
+4. Cliquez sur Commande client.
+5. Tapez une valeur dans le champ Compte client.
     * Exemple : US-001  
-1. Cliquez sur **OK**.
-1. Dans le champ **Numéro d’article**, tapez une valeur.
+6. Cliquez sur OK.
+7. Tapez une valeur dans le champ Numéro d'article.
     * Exemple : P6003  
-1. Entrez un nombre dans le champ **Quantité**.
+8. Dans le champ Quantité, entrer un numéro.
     * Exemple : 50000  
-1. Sélectionnez **Enregistrer**.
+9. Cliquez sur Enregistrer.
 
-## <a name="create-a-second-material-plan-for-co-products"></a>Créer un deuxième plan matières pour des co-produits
-
-1. Dans le champ **Régime**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
-2. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+## <a name="create-a-material-plan-for-co-products"></a>Créer un plan matières pour des coproduits
+1. Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Exemple : Programme  
-3. Sélectionnez **Exécuter**.
-4. Développez ou réduisez la section **Enregistrements à inclure**.
-5. Sélectionnez **Filtrer**.
-6. Dans la liste, sélectionnez la ligne pour **Champ** = *Numéro d’article*.
-7. Tapez une valeur dans le champ *Critères*.
+3. Cliquez sur Exécuter.
+4. Développez ou réduisez la section Enregistrements à inclure.
+5. Cliquez sur Filtre.
+6. Dans la liste, sélectionnez la ligne pour Champ = Numéro d'article.
+7. Tapez une valeur dans le champ Critères.
     * Exemple : P6003  
-8. Cliquez sur **OK**.
-9. Cliquez sur **OK**.
-10. Sélectionnez **Ordres prévisionnels**.
-11. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez su le champ **Numéro d’article** avec une valeur de « P6000 ».
-    * Filtrez par élément de formule ayant comme coproduit de l’article pour lequel vous avez créé une commande client.  
-12. Dans la liste, marquer la ligne sélectionnée.
-    * Sélectionnez n’importe quelle ligne renvoyée par le filtre.  
-13. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
-14. Développez ou réduisez la section **Origine des besoins**.
-15. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
-    * L’ordre prévisionnel est chevillé à la commande client du coproduit.  
+8. Cliquez sur OK.
+9. Cliquez sur OK.
+10. Cliquez sur Ordres prévisionnels.
+11. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez su le champ Numéro d'article avec une valeur de « P6000 ».
+    * Filtrez par élément de formule ayant comme coproduit de l'article pour lequel vous avez créé une commande client.  
+12. Dans la liste, marquez la ligne sélectionnée.
+    * Sélectionnez n'importe quelle ligne renvoyée par le filtre.  
+13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+14. Développez ou réduisez la section Origine des besoins.
+15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+    * L'ordre prévisionnel est chevillé à la commande client du coproduit.  
 16. Fermez la page.
-17. Sélectionnez **Planification**.
-18. Accédez à **Planification \> Paramétrage \> Paramètres de planification**.
-19. Sélectionnez *Non* dans le champ **Désactiver tous les processus de planification**.
+17. Cliquez sur Planification.
+18. Accédez à Planification > Paramétrage > Paramètres de planification.
+19. Sélectionnez Non dans le champ Désactiver tous les processus de planification.
 20. Fermez la page.
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

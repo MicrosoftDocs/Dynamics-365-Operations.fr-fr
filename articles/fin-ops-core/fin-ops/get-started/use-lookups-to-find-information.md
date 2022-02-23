@@ -1,10 +1,12 @@
 ---
-title: Trouver des informations à l’aide des recherches
-description: Dans cette rubrique, vous découvrirez les fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.
+title: Rechercher des informations à l’aide des recherches
+description: De nombreux champs ont des recherches susceptibles de vous aider à trouver facilement la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069296"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798141"
 ---
 # <a name="find-information-by-using-lookups"></a>Rechercher des informations à l’aide des recherches
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 De nombreux champs ont des recherches susceptibles de vous aider à trouver facilement la valeur correcte ou souhaitée. Plusieurs améliorations ont été ajoutées aux recherches qui rendent ces commandes plus faciles à utiliser et augmentent la productivité des utilisateurs. Dans cette rubrique, vous découvrirez les nouvelles fonctionnalités de recherche et recevrez des conseils utiles pour exploiter les recherches de manière optimale dans le système.
 
@@ -47,15 +46,15 @@ Par exemple, considérez un champ de recherche appelé **Ville**.
 
 Lorsque le focus se trouve dans le champ **Ville**, vous pouvez commencer à rechercher la ville que vous souhaitez en tapant quelques lettres, telles que « col ». Quand la saisie s’arrête, la recherche s’ouvre automatiquement ; son filtre sélectionne les villes dont le nom commence par « col ».
 
-[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 À ce stade, le curseur est toujours dans le champ de recherche. Si vous poursuivez la saisie de sorte que la valeur soit « colum », le contenu de la recherche s’adapte automatiquement pour refléter la dernière valeur du contrôle.
 
-![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample](./media/updatefilterlookupexample.png)
 
 Bien que le focus soit toujours dans le contrôle de recherche, vous pouvez également utiliser les touches **Flèche haut** ou **Flèche bas** pour mettre en surbrillance la ligne que vous souhaitez. Si vous appuyez sur la touche **Entrée**, la ligne en surbrillance est sélectionnée à partir de la recherche, et la valeur du contrôle est actualisée.
 
-![changingSelectionLookup.](./media/changingselectionlookup.png)
+![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Saisie d’éléments autres que des ID
 
@@ -65,25 +64,22 @@ Par exemple, pensez au champ **Compte client** lorsque vous créez une commande 
 
 Si l’utilisateur a commencé à entrer l’**ID compte** dans le contrôle de recherche, le menu déroulant s’ouvre automatiquement, comme décrit dans la section précédente, et l’utilisateur voit la recherche telle qu’elle est illustrée ci-dessous.
 
-[![Recherche contextuelle lors de la saisie d’un ID compte client.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Recherche contextuelle lors de la saisie d’un ID compte client](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 Toutefois, l’utilisateur peut désormais entrer le début d’un **ID compte** également. S’il est détecté, l’utilisateur voit la recherche suivante. Notez comment la colonne **Nom** se déplace pour devenir la première colonne de la recherche, et comment la recherche est triée et filtrée d’après la colonne **Nom**.
 
-[![Recherche contextuelle lors de la saisie d’un nom de client.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Recherche contextuelle lors de la saisie d’un nom de client](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Utilisation des en-têtes de colonne de la grille pour un filtrage et un tri plus avancés
 
 Les perfectionnements de la recherche abordés dans les deux sections précédentes améliorent considérablement la capacité de l’utilisateur d’accéder aux lignes d’une recherche à partir d’une recherche « commence par » sur le champ **ID** ou **Nom**. Toutefois, il existe des situations dans lesquelles un filtrage (ou un tri) plus avancé est nécessaire pour trouver la ligne appropriée. Dans ces situations, l’utilisateur doit utiliser les options de filtrage et de tri dans les en-têtes de colonne de la grille dans la recherche. Par exemple, considérez un employé qui entre une ligne de commande client qui doit localiser le bon « câble » comme produit. Il n’est pas très utile de taper « câble » dans le contrôle **Numéro d’article**, car il n’existe aucun nom de produit commençant par « câble ».
 
-![emptyitemlookup.](./media/emptyitemlookup.png)
+![emptyitemlookup](./media/emptyitemlookup.png)
 
 Au lieu de cela, l’utilisateur doit effacer la valeur du contrôle de recherche, ouvrir le menu déroulant de recherche, puis filtrer le menu déroulant à l’aide de l’en-tête de colonne de la grille, comme illustré ci-dessous. Un utilisateur avec souris (ou tactile) peut uniquement cliquer sur (ou toucher) n’importe quel en-tête de colonne pour accéder aux options de filtrage et de tri pour cette colonne. Pour un utilisateur au clavier, il suffit d’appuyer sur **Alt**+**Flèche** **bas** une deuxième fois pour déplacer le focus dans le menu déroulant; après quoi l’utilisateur peut utiliser les tabulations jusqu’à la colonne souhaitée puis appuyer sur **Ctrl**+**G** pour ouvrir le menu déroulant de l’en-tête de colonne de grille.
 
-[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Une fois le filtre appliqué (voir l’image ci-dessous), l’utilisateur peut rechercher et sélectionner la ligne comme normalement.
 
-![filtereditemlookup.](./media/filtereditemlookup.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![filtereditemlookup](./media/filtereditemlookup.png)

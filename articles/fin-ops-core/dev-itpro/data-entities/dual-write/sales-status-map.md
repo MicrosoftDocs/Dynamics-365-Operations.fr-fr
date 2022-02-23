@@ -2,19 +2,28 @@
 title: Configurer le mappage des colonnes de statut des commandes client
 description: Cette rubrique explique comment configurer les colonnes de statut de la commande client pour la double écriture.
 author: dasani-madipalli
+manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: damadipa
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782282"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744297"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurer le mappage des colonnes de statut des commandes client
 
@@ -93,7 +102,7 @@ Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
 1. Dans un navigateur, accédez à `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Remplacez **\<test-name\>** avec le lien de votre entreprise vers Sales.
 2. Sur la page qui s’ouvre, recherchez **organisationid**, et notez la valeur.
 
-    ![Recherche de Organizationid.](media/sales-map-orgid.png)
+    ![Recherche de Organizationid](media/sales-map-orgid.png)
 
 3. Dans Sales, ouvrez la console du navigateur et exécutez le script suivant. Utilisez la valeur **organisationid** de l’étape 2.
 
@@ -112,35 +121,32 @@ Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
     );
     ```
 
-    ![Code JavaScript dans la console du navigateur.](media/sales-map-script.png)
+    ![Code JavaScript dans la console du navigateur](media/sales-map-script.png)
 
 4. Vérifiez que **IsSOPIntegrationEnabled** est défini sur **true**. Utilisez l’URL de l’étape 1 pour vérifier la valeur.
 
-    ![IsSOPIntegrationEnabled défini sur true.](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled défini sur true](media/sales-map-integration-enabled.png)
 
 Pour activer l’attribut **isIntegrationUser**, procédez comme suit.
 
 1. Dans Sales, accédez à **Paramètre \> Personnalisation \> Personnaliser le système**, sélectionnez **Table utilisateur**, puis ouvrez **Écran \> Utilisateur**.
 
-    ![Ouverture de l’écran utilisateur.](media/sales-map-user.png)
+    ![Ouverture de l’écran utilisateur](media/sales-map-user.png)
 
 2. Dans Field Explorer, recherchez **Mode utilisateur de l’intégration** et double-cliquez dessus pour l’ajouter à l’écran. Enregistrez votre modification.
 
-    ![Ajout de la colonne Mode utilisateur de l’intégration à l’écran.](media/sales-map-field-explorer.png)
+    ![Ajout de la colonne Mode utilisateur de l’intégration à l’écran](media/sales-map-field-explorer.png)
 
 3. Dans Sales, accédez à **Paramètre \> Sécurité \> Utilisateurs** et changez les vues de **Utilisateurs activés** à **Utilisateurs de l’application**.
 
-    ![Modification de la vue de Utilisateurs activés à Utilisateurs de l’application.](media/sales-map-enabled-users.png)
+    ![Modification de la vue de Utilisateurs activés à Utilisateurs de l’application](media/sales-map-enabled-users.png)
 
 4. Sélectionnez les deux entrées pour **DualWrite IntegrationUser**.
 
-    ![Liste des utilisateurs d’application.](media/sales-map-user-mode.png)
+    ![Liste des utilisateurs d’application](media/sales-map-user-mode.png)
 
 5. Changez la valeur de la colonne **Mode utilisateur de l’intégration** sur **Oui**.
 
-    ![Changement de la valeur de la colonne Mode utilisateur de l’intégration.](media/sales-map-user-mode-yes.png)
+    ![Changement de la valeur de la colonne Mode utilisateur de l’intégration](media/sales-map-user-mode-yes.png)
 
 Vos commandes client sont maintenant mappées.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

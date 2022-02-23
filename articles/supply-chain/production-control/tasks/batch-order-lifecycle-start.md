@@ -1,33 +1,36 @@
 ---
-title: Cycle de vie d’un lot de commandes de la création au démarrage
-description: Cette procédure vous guide dans la première partie du cycle de vie d’un lot de commandes.
-author: johanhoffmann
+title: Cycle de vie d'un lot de commandes de la création au démarrage
+description: Cette procédure vous guide dans la première partie du cycle de vie d'un lot de commandes.
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdBOM, PmfProdCoBy, ProdParmCostEstimation, ProdCalcTrans, ProdParmRelease, ProdSchedule, ProdRouteJob, ProdParmStartUp, ProdJournalTransBOM, ProdJournalTransRoute
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ca259ca8f176cd5bc76081836adcb7d272972b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e57cd9254185b73f544e8ff4f7658cf743b672f2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579254"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427619"
 ---
-# <a name="batch-order-lifecycle-from-create-to-start"></a>Cycle de vie d’un lot de commandes de la création au démarrage
+# <a name="batch-order-lifecycle-from-create-to-start"></a>Cycle de vie d'un lot de commandes de la création au démarrage
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure vous guide dans la première partie du cycle de vie d’un lot de commandes.
+Cette procédure vous guide dans la première partie du cycle de vie d'un lot de commandes.
 
-De la création, à l’estimation de coût, en passant par la planification des tâches de production, jusqu’au lancement réel d’un lot de commandes.
+De la création, à l'estimation de coût, en passant par la planification des tâches de production, jusqu'au lancement réel d'un lot de commandes.
 
 
 
@@ -35,13 +38,13 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 
 
 
-Les conditions préalables à l’exécution de la procédure avec un autre ensemble de données sont un produit lancé avec une formule active et une version de gamme.
+Les conditions préalables à l'exécution de la procédure avec un autre ensemble de données sont un produit lancé avec une formule active et une version de gamme.
 
 
-## <a name="create-a-batch-order"></a>Création d’un lot de commandes
+## <a name="create-a-batch-order"></a>Création d'un lot de commandes
 1. Accédez à Tous les ordres de fabrication.
 2. Cliquez sur Nouveau lot de commandes.
-3. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
+3. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
 4. Cliquez sur Créer.
 5. Utilisez le filtre rapide pour filtrer sur le champ Production avec une valeur de « b ».
 
@@ -76,7 +79,7 @@ Les conditions préalables à l’exécution de la procédure avec un autre ense
 
 ## <a name="start-the-batch-order"></a>Démarrer le lot de commandes
 1. Cliquez sur Démarrer.
-2. Cliquez sur l’onglet Général.
+2. Cliquez sur l'onglet Général.
 3. Sélectionnez Non dans le champ Valider immédiatement les prélèvements.
 4. Cliquez sur OK.
 5. Cliquez sur Afficher dans le volet Actions.
@@ -89,6 +92,3 @@ Les conditions préalables à l’exécution de la procédure avec un autre ense
 12. Fermez la page.
 13. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

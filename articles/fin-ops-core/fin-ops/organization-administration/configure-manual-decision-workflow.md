@@ -2,9 +2,11 @@
 title: Configurer des décisions manuelles dans un workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d’une décision manuelle.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065653"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798850"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurer des décisions manuelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment configurer les différentes propriétés d’une décision manuelle.
 
@@ -45,7 +44,7 @@ Vous devez fournir une ligne d’objet et des instructions aux utilisateurs affe
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
 2. Entrez la ligne d’objet dans l’onglet **Instructions**, dans le champ **Objet de l’article de travail**.
-3. Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d’objet s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+3. Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d’objet s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -62,7 +61,7 @@ Vous devez fournir une ligne d’objet et des instructions aux utilisateurs affe
     6. Cliquez sur **Fermer**.
 
 5. Entrez les instructions dans le champ **Instructions de l’élément de travail**.
-6. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+6. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -115,7 +114,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu’une décision doit 
 
 3. Sélectionnez la ligne pour un événement sélectionné à l’étape 2.
 4. Entrez le texte de la notification dans la zone de texte de l’onglet **Texte de notification**.
-5. Pour personnaliser la notification, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la notification s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+5. Pour personnaliser la notification, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la notification s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -208,7 +207,7 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l’onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter la décision.</li>
-    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être affectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
+    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être affectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l’extraction de noms dans la hiérarchie.</li>
     </ol>
@@ -244,7 +243,7 @@ Procédez comme suit pour indiquer à qui affecter une décision manuelle.
     </tbody>
     </table>
 
-3. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour prendre la décision. Permet de sélectionner l’une des options suivantes :
+3. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour prendre la décision. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures accordées à l’utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours accordés à l’utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -263,8 +262,8 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
 
     | Séquence | Chemin de réaffectation            |
     |----------|----------------------------|
-    | 1        | Affecter à : Donna           |
-    | 2        | Affecter à : Erin            |
+    | 1        | Affecter à : Donna           |
+    | 2        | Affecter à : Erin            |
     | 3        | Action finale : \[Choix 1\] |
 
     Dans cet exemple, le système affecte la décision en retard à Donna. Si celle-ci ne prend pas la décision dans le délai imparti, le système affecte la décision à Erin. Si celle-ci ne prend pas la décision dans le délai imparti, le système sélectionne le **\[Choix 1\]** comme décision.
@@ -286,7 +285,7 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l’onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie à laquelle réaffecter la décision.</li>
-    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être réaffectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
+    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la décision peut être réaffectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l’extraction de noms dans la hiérarchie.</li>
     </ol>
@@ -322,7 +321,7 @@ Si un utilisateur ne prend pas la décision dans le délai imparti, la décision
     </tbody>
     </table>
 
-4. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour prendre la décision. Permet de sélectionner l’une des options suivantes :
+4. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour prendre la décision. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures accordées à l’utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours accordés à l’utilisateur pour prendre la décision. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -342,7 +341,7 @@ Si la décision doit être prise dans un certain délai, procédez comme suit.
 
 1. Dans le volet gauche, cliquez sur **Paramètres avancés**.
 2. Activez la case à cocher **Définir une limite de temps pour l’élément de workflow**.
-3. Dans le champ **Durée**, spécifiez quand la décision doit être prise. Permet de sélectionner l’une des options suivantes :
+3. Dans le champ **Durée**, spécifiez quand la décision doit être prise. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -351,6 +350,3 @@ Si la décision doit être prise dans un certain délai, procédez comme suit.
     - **Années** – Permet de sélectionner le jour, la semaine et le mois limites pour prendre la décision. Par exemple, vous pouvez décider que la décision soit prise d’ici le vendredi de la troisième semaine de décembre.
 
 4. Si le délai est dépassé, le système prend la décision. Dans la liste **Action**, sélectionnez l’option que le système doit sélectionner.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,36 @@
 ---
-title: Vue d’ensemble de la gestion des stocks
-description: Cette rubrique fournit une vue d’ensemble de la gestion des stocks.
-author: yufeihuang
+title: Vue d'ensemble de la gestion des stocks
+description: Cette rubrique fournit une vue d'ensemble de la gestion des stocks.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2094"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dee04677858228b66d64bb0a217206b5557cc30
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982662"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427648"
 ---
-# <a name="inventory-management-overview"></a>Vue d’ensemble de la gestion des stocks
+# <a name="inventory-management-overview"></a>Vue d'ensemble de la gestion des stocks
 
 [!include [banner](../includes/banner.md)]
 
-La gestion des stocks vous permet d’effectuer les tâches suivantes :
+La gestion des stocks vous permet d'effectuer les tâches suivantes :
 
 -  [Opérations entrantes](arrival-overview.md)
 -  [Assurance qualité](quality-management-processes.md)
@@ -42,7 +43,7 @@ La gestion des stocks vous permet d’effectuer les tâches suivantes :
 Le programme de formation suivant montre les principaux concepts et tâches qui constituent la structure du module Gestion des stocks. Cliquez sur le programme de formation ci-dessous pour le développer. Ce programme de formation vous permet de commencer.
 
 
-[![Programme de formation sur les stocks.](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
+[![Programme de formation sur les stocks](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -53,10 +54,7 @@ Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.
 Pour en savoir plus, voir [Clôture du stock](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs sur la fabrication et Supply Chain Management
-Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des stocks et d’autres solutions sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Vous trouverez des avis, des actualités et d'autres informations concernant la gestion des stocks et d'autres solutions sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guides de tâches
-Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n’importe quelle page.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n'importe quelle page.

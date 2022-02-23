@@ -2,9 +2,11 @@
 title: Paramétrer un fonds dans le secteur public
 description: Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerFund
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2c93cf09e8080a1d125ef7365d5fecfbddd0fbe80066c9dab4185a08faf88c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a2a226568d8b0adc0f64ded9595949dc214647a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962461"
 ---
 # <a name="set-up-a-fund-in-the-public-sector"></a>Paramétrer un fonds dans le secteur public
 
@@ -40,6 +42,3 @@ Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds. Cha
 11. Si vous définissez l’option Ignorer l’option de fin d’exercice sélectionnée à Oui, sélectionnez une option de fin d’exercice.
 12. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

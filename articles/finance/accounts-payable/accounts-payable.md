@@ -1,28 +1,29 @@
 ---
 title: Page d’accueil de la comptabilité fournisseur
 description: Cette rubrique fournit une vue d’ensemble de la comptabilité fournisseur.
-author: sunfzam
+author: ShylaThompson
+manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21901"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 6a6f53007f8bd04724c43c518c5a9b10856b68d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595285"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459012"
 ---
 # <a name="accounts-payable-home-page"></a>Page d’accueil de la comptabilité fournisseur
 
@@ -30,11 +31,11 @@ ms.locfileid: "7595285"
 
 Cette rubrique fournit une vue d’ensemble de la comptabilité fournisseur. 
 
-Vous pouvez entrer des factures fournisseur manuellement ou les recevoir par voie électronique via une entité de données. Une fois les factures entrées ou reçues, vous pouvez les réviser et les approuver en utilisant un journal d’approbation des factures ou l’écran **Facture fournisseur**. Vous pouvez utiliser le rapprochement des factures, les stratégies relatives aux factures fournisseur et le flux de travail pour automatiser le processus de révision afin que les factures qui répondent à certains critères soient automatiquement approuvées et que les autres soient marquées pour révision par un utilisateur autorisé.
+Vous pouvez entrer des factures fournisseur manuellement ou les recevoir par voie électronique via une entité de données. Une fois les factures entrées ou reçues, vous pouvez les réviser et les approuver en utilisant un journal d’approbation des factures ou l’écran **Facture fournisseur**. Vous pouvez utiliser le rapprochement des factures, les stratégies relatives aux factures fournisseur et le workflow pour automatiser le processus de révision afin que les factures qui répondent à certains critères soient automatiquement approuvées et que les autres soient marquées pour révision par un utilisateur autorisé.
 
 **Processus d’entreprise**
 
-[![Diagramme des processus d’entreprise.](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![Diagramme des processus d’entreprise](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>Paramétrer la comptabilité fournisseur
 
@@ -114,7 +115,7 @@ Les rubriques suivantes fournissent des informations sur les règlements. Le rè
 
 [Règlement d’un paiement fournisseur partiel et règlement total du paiement final avant la date de remise](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[Justificatif unique avec plusieurs enregistrements client ou fournisseur](single-voucher-multiple-customer-vendor-records.md)
+[N° de document unique avec plusieurs enregistrements client ou fournisseur](single-voucher-multiple-customer-vendor-records.md)
 
 
 
@@ -122,7 +123,7 @@ Les rubriques suivantes fournissent des informations sur les règlements. Le rè
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez au [Programmes de publication de Microsoft Dynamics 365](/dynamics365/release-plans/) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
+Accédez au [Programmes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
 
 #### <a name="blogs"></a>Blogs
 
@@ -144,6 +145,3 @@ Consultez les vidéos de procédure qui sont désormais disponibles sur la [cha�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

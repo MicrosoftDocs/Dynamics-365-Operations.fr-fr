@@ -1,36 +1,39 @@
 ---
 title: Paramétrer un index de carburant du transporteur
-description: Ce guide indique comment créer une région de l’index de carburant, un index de carburant et un index de carburant du transporteur.
-author: Henrikan
+description: Ce guide indique comment créer une région de l'index de carburant, un index de carburant et un index de carburant du transporteur.
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFuelIndexRegion,TMSCarrierFuelIndexTable,TMSFuelIndex
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b67219a6cb19b393dce25f77febc194c5ea2a16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 12ade30b63454dfd997aa47a62cde21b066140fa
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576254"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4428354"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Paramétrer un index de carburant du transporteur
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide indique comment créer une région de l’index de carburant, un index de carburant et un index de carburant du transporteur. La région d’index de carburant spécifie à quelle région l’index doit s’appliquer, et l’index de carburant spécifie un prix du carburant pour une période spécifique. Pour refléter la modification des prix du carburant au fil du temps, vous pouvez associer une région à plusieurs index de carburant à un transporteur.  Ces tâches sont normalement effectuées par un coordinateur de transport. Vous pouvez utiliser cette procédure dans les données de démonstration de la société fictive USMF ou utiliser vos propres données.
+Ce guide indique comment créer une région de l'index de carburant, un index de carburant et un index de carburant du transporteur. La région d'index de carburant spécifie à quelle région l'index doit s'appliquer, et l'index de carburant spécifie un prix du carburant pour une période spécifique. Pour refléter la modification des prix du carburant au fil du temps, vous pouvez associer une région à plusieurs index de carburant à un transporteur.  Ces tâches sont normalement effectuées par un coordinateur de transport. Vous pouvez utiliser cette procédure dans les données de démonstration de la société fictive USMF ou utiliser vos propres données.
 
 
-## <a name="create-a-fuel-index-region"></a>Créer la région de l’index de carburant
-1. Allez dans Gestion du transport > Configuration > Index de carburant > Régions de l’index de carburant.
-    * Vous devez tout d’abord créer différentes régions, dans lesquelles vous allez traiter et calculer différents suppléments de carburant.  
+## <a name="create-a-fuel-index-region"></a>Créer la région de l'index de carburant
+1. Allez dans Gestion du transport > Configuration > Index de carburant > Régions de l'index de carburant.
+    * Vous devez tout d'abord créer différentes régions, dans lesquelles vous allez traiter et calculer différents suppléments de carburant.  
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Région.
 4. Tapez une valeur dans le champ Nom.
@@ -60,10 +63,7 @@ Ce guide indique comment créer une région de l’index de carburant, un index 
 9. Entrez un nombre dans le champ Pourcentage.
     * Dans cet exemple, vous pouvez définir le pourcentage sur 3.  
 10. Dans le champ Devise, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-11. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 12. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 13. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

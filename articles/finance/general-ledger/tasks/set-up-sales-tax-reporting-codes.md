@@ -2,23 +2,26 @@
 title: Paramétrer des codes déclaration de taxe
 description: Les codes déclaration de taxe font référence à un numéro de champ répertorié dans la déclaration de taxe.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728743"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646179"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
@@ -36,6 +39,3 @@ La société fictive DEMF sert d’exemple dans cet enregistrement.
 6. Dans le champ **Brève description**, entrez une description à des fins internes.
 7. Cliquez sur **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

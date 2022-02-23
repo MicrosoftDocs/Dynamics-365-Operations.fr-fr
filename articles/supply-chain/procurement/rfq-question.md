@@ -1,25 +1,28 @@
 ---
 title: Réponse aux questions des fournisseurs sur les appels d’offre
 description: Les fournisseurs qui ont des questions sur un appel d’offre peuvent les soumettre et lire les réponses dans la page **Collaboration du fournisseur**.
-author: Henrikan
+author: velofog
+manager: tfehr
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQVendQuestionAnswer
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 80ec7ae9e345f20344b48de39111532a9896b38d
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: d0c53a626cb2a727c6578b306ba0d7ab2f612dba
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777756"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654328"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d’offre
 
@@ -31,7 +34,7 @@ Les utilisateurs peuvent publier plusieurs fois les réponses aux questions des 
 
 ## <a name="turn-on-the-feature"></a>Activer la fonctionnalité
 
-À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Approvisionnements*
 - **Nom de la fonction :** *Questions et réponses à l’appel d’offres*
@@ -102,6 +105,3 @@ Pour les appels d’offres publiés, vous devez modifier un appel d’offre pour
 
 > [!IMPORTANT]
 > Si vous modifiez un appel d’offre existant dans le but d’autoriser les questions du fournisseur, le système effacera toutes les réponses existantes lorsque vous renvoyez l’appel d’offre.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

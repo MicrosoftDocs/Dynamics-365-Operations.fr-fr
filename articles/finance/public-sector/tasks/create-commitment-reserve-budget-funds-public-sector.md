@@ -2,9 +2,11 @@
 title: Créer un engagement de réserver des fonds budgétaires pour le secteur public
 description: Les engagements sont des documents source de contrôle budgétaire utilisés par les entités du secteur public en France.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchCommitment_PSN
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c4355d44b64b958000bb1b47e9a819ddb287d0fe3edb61fc55f86b0e9b9fecb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32ebea1092ef6d4b700f1c59c394f588e534b127
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719131"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964454"
 ---
 # <a name="create-a-commitment-to-reserve-budget-funds-for-the-public-sector"></a>Créer un engagement de réserver des fonds budgétaires pour le secteur public
 
@@ -44,6 +46,3 @@ Les engagements sont des documents source de contrôle budgétaire utilisés par
 14. Cliquez sur Affichage des lignes.
 15. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -142,6 +142,3 @@ Une fois que les candidats postulent à une ou plusieurs offres d'emploi, ils pe
 ## <a name="internal-jobs"></a>Postes internes
 
 Actuellement, les postes marqués comme internes et publiés sur le site de carrière Attract n'apparaissent pas sur le site de carrière. Ils sont accessibles uniquement via l'URL **Postuler** directe qui peut être copiée sur l'application Attract.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

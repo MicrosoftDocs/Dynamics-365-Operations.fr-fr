@@ -54,6 +54,3 @@ La mise à jour de la plateforme 18 pour Finance and Operations fait dorénavan
 ## <a name="bug-fixes"></a>Correctifs de bogue
 
 Cette version contient plusieurs correctifs de bogue supplémentaires, notamment des références à ACA, ADA et I9, qui ne seront activés que dans les sociétés américaines.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: FR-00004 Mettre à jour un mode de paiement pour le client
 description: Cette procédure vous guide dans l’ajout d’un compte bancaire pour un enregistrement client en France et dans la mise à jour d’un mode de paiement pour le même client.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, LogisticsPostalAddress, LogisticsPostalAddressGrid, SysLookupMultiSelectGrid
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 37590478baeb1598a0370ecfa04fada7a209da5ea9a55632bf5a5f4daf095878
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d687265345e8c851c4d86c555cb28fdacacbc488
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762038"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407960"
 ---
 # <a name="fr-00004-update-method-of-payment-on-customer"></a>FR-00004 Mettre à jour un mode de paiement pour le client
 
@@ -67,6 +70,3 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
     * Modifier le compte bancaire = 1  
 29. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

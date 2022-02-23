@@ -2,9 +2,11 @@
 title: Contenu Power BI de gestion des dépenses
 description: Cette rubrique décrit les données incluses dans le pack de contenu Power BI Gestion des dépenses.
 author: panolte
+manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769896"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016450"
 ---
 # <a name="expense-management-power-bi-content"></a>Contenu Power BI de gestion des dépenses
 
@@ -41,7 +43,7 @@ Deux packs de contenu Power BI sont disponibles pour être utilisés avec la Ges
 Tous les montants sont indiqués dans la devise de la société. Les données de toutes les sociétés sont affichées, mais si nécessaire vous pouvez ajouter un filtre de société. 
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Vous pouvez trouver le contenu Power BI Expense Admin Dashboard.pbix et Expense Personal Dashboard.pbix dans la bibliothèque des actifs partagés dans Microsoft Dynamics LCS (Lifecycle Services). Pour savoir comment télécharger le contenu et l’implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Vous pouvez trouver le contenu Power BI Expense Admin Dashboard.pbix et Expense Personal Dashboard.pbix dans la bibliothèque des actifs partagés dans Microsoft Dynamics LCS (Lifecycle Services). Pour savoir comment télécharger le contenu et l’implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 Le contenu est disponible dans l’espace de travail Gestion des dépenses comme contenu intégré de Power BI. Tout propriétaire de dépenses peut accéder à ses propres dépenses personnelles, tandis que seuls les employé et les responsables de la comptabilité fournisseur ont accès au contenu Administrateur pour afficher les données de dépenses de tous les utilisateurs.
 
 ## <a name="refreshing-the-power-bi-content"></a>Actualisation du contenu Power BI
@@ -73,9 +75,9 @@ Le contenu comprend un ensemble de pages d’état. Chaque page contient un ense
 
 | Page d’état         | Visualisation                           |           
 |---------------------|-----------------------------------------|
-| Vue d’ensemble des dépenses    | Montant de dépense – brouillon                   |
-|                     | Nombre de lignes de dépense – brouillon           |
-|                     | Lignes de dépense – brouillon                     |
+| Vue d’ensemble des dépenses    | Montant de dépense - brouillon                   |
+|                     | Nombre de lignes de dépense - brouillon           |
+|                     | Lignes de dépense - brouillon                     |
 |                     | Violations de stratégie pour l’état des dépenses        |
 |                     | Montant restant                      |
 |                     | Dépenses soumises mais non approuvées       |
@@ -91,6 +93,3 @@ Le contenu comprend un ensemble de pages d’état. Chaque page contient un ense
 | Statistiques d’employé | États des dépenses par type de coût            |
 |                     | Dépenses personnelles                       |
 |                     | États des dépenses de groupe de statistiques     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Utiliser des fragments
 description: Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4412396"
 ---
 # <a name="work-with-fragments"></a>Utiliser des fragments 
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Les fragments permettent une expérience de création centralisée pour les configurations du module qui doivent être réutilisées dans tout votre site. Par exemple, les en-têtes, les pieds de page, et les bannières sont souvent configurés comme fragments, car ils sont partagés entre la plupart des pages. Vous pouvez imaginer les fragments comme des pages web miniatures pouvant être insérées dans d’autres pages sur votre site. Les fragments ont leur propre cycle de vie. En d’autres termes, ils sont créés, référencés, mis à jour et supprimés comme des entités indépendantes dans les outils de création.
 
@@ -45,7 +50,7 @@ Tous les emplacements où le fragment est ajouté sont des références au fragm
 
 L’illustration ci-dessous indique comment des fragments peuvent être utilisés pour centraliser la création de configurations de module partagées dans un site de commerce électronique.
 
-![Une illustration affichant comment des fragments peuvent être utilisés pour centraliser la création de configurations de module partagées dans un site de commerce électronique.](./media/fragment-figure1.png)
+![Une illustration affichant comment des fragments peuvent être utilisés pour centraliser la création de configurations de module partagées dans un site de commerce électronique](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>Créer un fragment
 
@@ -62,7 +67,7 @@ Pour convertir un module précédemment configuré en un fragment réutilisable 
 1. Dans la boîte de dialogue **Enregistrer en tant que fragment**, entrez un nom pour le fragment.
 1. Sélectionnez **OK** pour enregistrer la configuration du module comme fragment qui peut être ajouté à d’autres pages.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Créer un fragment
 
@@ -73,7 +78,7 @@ Pour créer un fragment dans le générateur de site Commerce, procédez comme s
 1. Sélectionnez un type de module pour votre fragment.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > En sélectionnant un type de module de conteneur générique, vous obtenez la plus grande flexibilité lorsque vous devrez mettre à jour et configurer votre fragment ultérieurement.
 
@@ -88,21 +93,21 @@ Pour ajouter un fragment à une page dans le générateur de site Commerce, proc
 1. Dans le volet de plan à gauche, ou directement dans le générateur de page visuel, sélectionnez un conteneur ou un emplacement auquel des modules enfants peuvent êtres ajoutés.
 1. Sélectionnez les points de suspension (**...**) à côté du nom du conteneur ou de l’emplacement.  Sinon, si vous utilisez le générateur de page visuel, sélectionnez le symbole plus (**+**).  
 1. Sélectionnez **Ajouter un fragment**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Si le conteneur ou l’emplacement ne prend pas en charge de nouveaux modules enfants, l’option **Ajouter un fragment** n’est pas disponible.
     
 1. Dans la boîte de dialogue **Sélectionner un fragment**, recherchez et sélectionnez un fragment à ajouter. Si aucun fragment disponible n’est répertorié, vous pouvez d’abord peut-être créer un fragment d’un type de module que le conteneur ou l’emplacement sélectionné prend en charge.
 1. Sélectionnez le fragment que vous voulez ajouter au conteneur ou à l’emplacement sélectionné sur la page.
-<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Les modules autorisés dans un conteneur ou un emplacement sont définis par le modèle de la page ou les propres définitions des modules.
 
 ### <a name="remove-a-fragment"></a>Suppression d’un fragment
 
-Pour supprimer un fragment d’un emplacement ou d’un conteneur sur une page dans le générateur de site Commerce, procédez comme suit.
+Pour supprimer un fragment d'un emplacement ou d'un conteneur sur une page dans le générateur de site Commerce, procédez comme suit.
 
 1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) en regard du nom du fragment à supprimer, puis sélectionnez le symbole de corbeille.  Vous pouvez également sélectionner le fragment dans le générateur de page visuel et sélectionner le symbole de la corbeille dans la barre d’outils du fragment.
 1. Lorsque vous êtes invité à confirmer la suppression du fragment, sélectionnez **OK**.
@@ -122,20 +127,6 @@ Pour modifier un fragment dans le générateur de site Commerce, procédez comme
 
 Vous pouvez également modifier un fragment en le sélectionnant dans une page, dans un modèle, ou un fragment parent, puis en sélectionnant **Modifier le fragment** dans le volet de propriétés à droite.
 
-### <a name="rename-a-fragment"></a>Renommer un fragment
-
-Pour renommer un fragment existant dans le générateur de site, procédez comme suit :
-
-1. Dans le volet de navigation à gauche, sélectionnez **Fragments**.
-1. Sélectionnez le nom du fragment que vous souhaitez renommer.
-1. Sélectionnez **Modifier** pour commencer à modifier le fragment. Notez que vous ne pouvez pas modifier un fragment si quelqu’un d’autre est déjà en train de modifier le fragment.
-1. Dans le volet des propriétés du fragment, sélectionnez le symbole du stylo à côté du nom du fragment.
-1. Modifiez le nom du fragment, le cas échéant.
-1. Sélectionnez la coche pour confirmer le changement de nom.
-1. Sélectionnez **Terminer la modification**.
-
-Vous pouvez renommer un fragment après sa création en le modifiant, puis en sélectionnant le symbole du stylo à côté du nom du fragment dans le volet des propriétés.
-
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
@@ -145,6 +136,3 @@ Vous pouvez renommer un fragment après sa création en le modifiant, puis en s�
 [Utilisation des mises en page prédéfinies](work-with-layouts.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

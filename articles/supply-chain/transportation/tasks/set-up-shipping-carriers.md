@@ -1,31 +1,34 @@
 ---
 title: Paramétrer des transporteurs
-description: Cette rubrique décrit comment paramétrer un transporteur et définir des détails tels que le service, le mode d’expédition, l’offre de transport, les contraintes de transport, et les frais de livraison.
-author: Henrikan
+description: Cette rubrique décrit comment paramétrer un transporteur et définir des détails tels que le service, le mode d'expédition, l'offre de transport, les contraintes de transport, et les frais de livraison.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567654"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4428258"
 ---
 # <a name="set-up-shipping-carriers"></a>Paramétrer des transporteurs
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer un transporteur et définir des détails tels que le service, le mode d’expédition, l’offre de transport, les contraintes de transport, et les frais de livraison. Un coordinateur de transport pourra ensuite affecter un transporteur à une charge entrante ou sortante.
+Cette rubrique décrit comment paramétrer un transporteur et définir des détails tels que le service, le mode d'expédition, l'offre de transport, les contraintes de transport, et les frais de livraison. Un coordinateur de transport pourra ensuite affecter un transporteur à une charge entrante ou sortante.
 
 
 ## <a name="create-a-new-shipping-carrier"></a>Créer un transporteur
@@ -36,21 +39,21 @@ Cette rubrique décrit comment paramétrer un transporteur et définir des déta
 5. Dans le champ **Mode**, sélectionnez une option dans le menu déroulant.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Renseigner les informations générales du transporteur
-1. Activez ou désactivez l’extension de la section **Vue d’ensemble**.
+1. Activez ou désactivez l'extension de la section **Vue d'ensemble**.
 2. Activez ou désactivez la case à cocher **Activation du transporteur**.
 3. Dans le champ **Compte fournisseur**, sélectionnez une option dans le menu déroulant. Sélectionnez le compte fournisseur à affecter au transporteur.  
-4. Dans le champ **Type d’offre de transport**, sélectionnez une option. Sélectionnez **Manuel** pour utiliser la page Offre de transport ou sélectionnez **EDI** pour mettre à jour l’offre à l’aide de l’échange de données informatisé (EDI).  
+4. Dans le champ **Type d'offre de transport**, sélectionnez une option. Sélectionnez **Manuel** pour utiliser la page Offre de transport ou sélectionnez **EDI** pour mettre à jour l'offre à l'aide de l'échange de données informatisé (EDI).  
 5. Activez ou désactivez la case à cocher **Activer le classement du transporteur**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Créer les services nécessaires pour le transporteur
-1. Activez ou désactivez l’extension de la section **Services**.
+1. Activez ou désactivez l'extension de la section **Services**.
 2. Sélectionnez **Nouveau**.
 3. Dans le champ **Service de transporteur**, tapez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
 5. Dans le champ **Mode de transport**, sélectionnez une option dans le menu déroulant.
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a>Paramétrer l’adresse du transporteur (facultatif)
-1. Activez ou désactivez l’extension de la section **Adresses**.
+## <a name="set-up-the-address-for-the-carrier-optional"></a>Paramétrer l'adresse du transporteur (facultatif)
+1. Activez ou désactivez l'extension de la section **Adresses**.
 2. Sélectionnez **Nouveau**.
 3. Dans le champ **Nom ou description**, saisissez une valeur.
 4. Dans le champ **Pays/Région**, sélectionnez une option dans le menu déroulant.
@@ -59,7 +62,7 @@ Cette rubrique décrit comment paramétrer un transporteur et définir des déta
 7. Cliquez sur **OK**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Paramétrer le profil de classement du transporteur
-1. Activez ou désactivez l’extension de la section **Profils de classement**.
+1. Activez ou désactivez l'extension de la section **Profils de classement**.
 2. Sélectionnez **Nouveau**.
 3. Dans le champ **Profil de classement**, tapez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
@@ -70,6 +73,3 @@ Cette rubrique décrit comment paramétrer un transporteur et définir des déta
 9. Dans le champ **Moteur de temps de transit**, sélectionnez une option dans le menu déroulant.
 10. Sélectionnez **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

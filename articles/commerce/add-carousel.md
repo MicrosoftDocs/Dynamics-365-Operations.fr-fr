@@ -1,13 +1,16 @@
 ---
 title: Module Carrousel
-description: Cette rubrique couvre les modules de carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique couvre les modules Carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721053"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412195"
 ---
 # <a name="carousel-module"></a>Module Carrousel
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+Cette rubrique couvre les modules Carrousel et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Un module Carrousel sert à mettre des plusieurs articles publicitaires (dont des images enrichies) dans une bannière de carrousel tournante à laquelle les clients peuvent accéder. Par exemple, un détaillant peut utiliser un module Carrousel sur une page d’accueil pour présenter plusieurs nouveaux produits ou promotions.
 
@@ -40,11 +45,11 @@ Vous pouvez ajouter des modules de bloc de contenu dans un module carrousel. Les
 
 L’image suivante montre un exemple de module de carrousel utilisé sur une page d’accueil. Ce module de carrousel contient plusieurs éléments de bloc de contenu.
 
-![Exemple d’un module de carrousel.](./media/Hero.PNG)
+![Exemple d’un module de carrousel](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Propriétés du module Carrousel
 
-| Nom de la propriété             | Valeur                  | Description  |
+| Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
 | Lire automatiquement                  | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, la transition entre les articles à l’intérieur du carrousel survient automatiquement. Si la valeur est définie **Faux**, aucune transition ne se produit si le client utilise le clavier ou une souris pour passer d’un article à l’autre. |
 | Intervalle de transition entre les diapositives | Valeur en secondes    | Intervalle des transitions entre les articles. |
@@ -81,6 +86,3 @@ Pour ajouter un module de carrousel à une nouvelle page et définir les propri�
 [Module de bloc de contenu](add-hero-module.md)
 
 [Module de lecture vidéo](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

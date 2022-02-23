@@ -2,24 +2,27 @@
 title: Déclaration de taxe INTERVAT
 description: Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 author: anasyash
-ms.date: 01/04/2021
+manager: AnnBe
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 273023
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: ecd35a1629091b3e699ca443f0380d95b312bff6
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 7c95a3f84ac95b51bc329d92150d6a7bf3796256
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408006"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -77,7 +80,7 @@ Les conditions préalables suivantes doivent être configurées avant de commenc
 ### <a name="posting-journal"></a>Journal de validation
 
 1.  Allez dans **Comptabilité** \> **Paramétrage du journal** \> **Journaux de validation**.
-2.  Sur la page **Paramétrage du journal**, sélectionnez **Créer**. La souche de N° de justificatif est créée automatiquement.
+2.  Sur la page **Paramétrage du journal**, sélectionnez **Créer**. La souche de N° documents est créée automatiquement.
 
 ### <a name="sales-tax-authorities"></a>Administrations fiscales
 
@@ -101,7 +104,7 @@ Des exemples de code déclaration de taxe sont fournis dans la section [Paramét
 ### <a name="tax-exempt-number"></a>Numéro identifiant TVA
 
 1.  Allez dans **Taxe** \> **Paramétrage** \> **Taxe** \> **Numéros identifiant TVA**.
-2.  Pour chaque numéro d’identifiant TVA, créez un enregistrement comprenant les informations suivantes :
+2.  Pour chaque numéro identifiant TVA, créez un enregistrement comprenant les informations suivantes :
 
     -   Dans le champ **Pays/région**, sélectionnez l’enregistrement de taxe de la contrepartie.
     -   Dans le champ **Numéro identifiant TVA**, entrez le numéro identifiant TVA de la contrepartie.
@@ -113,9 +116,9 @@ Pour plus d’informations sur le paramétrage des déclarations de fin, voir [D
 
 ### <a name="set-up-intervat"></a>Paramétrer INTERVAT
 
-Créez des lignes sur la page **Paramétrage INTERVAT** (**Taxe \> Paramétrage \> Taxe \> Paramétrage INTERVAT**). Les informations que vous entrez dans cette page sont utilisées lorsque vous sélectionnez **Ouvrir le site web** sur la page **Déclaration de taxe INTERVAT**. Créez un élément pour chaque langue. Définissez les champs suivants : **Langue**, **Description** et **URL**.
+Créez des lignes sur la page **Paramétrage INTERVAT** (**Taxe \> Paramétrage \> Taxe \> Paramétrage INTERVAT**). Les informations que vous entrez dans cette page sont utilisées lorsque vous sélectionnez **Ouvrir le site web** sur la page **Déclaration de taxe INTERVAT**. Vous devez créer un élément pour chaque langue. Définissez les champs suivants : **Langue**, **Description** et **URL**.
 
-![Page Paramétrage INTERVAT.](media/1_Intervat_setup.png)
+![Page Paramétrage INTERVAT](media/1_Intervat_setup.png)
 
 ### <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
@@ -140,7 +143,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <tbody>
 <tr>
 <td colspan="3" width="100%">
-<p><strong>Section II. Sorties</strong></p>
+<p style="text-align: center;"><strong>Section II. Sorties</strong></p>
 </td>
 </tr>
 <tr>
@@ -159,8 +162,8 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>01</p>
 </td>
 <td width="71%">
-<p>Fournitures et services soumis au taux de taxe de 6 %%.</p>
-<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 6 %%.</p>
+<p>Fournitures et services soumis au taux de taxe de 6 %.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 6 %.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -171,8 +174,8 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>02</p>
 </td>
 <td width="71%">
-<p>Fournitures et services soumis au taux de taxe de 12 %%.</p>
-<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 12 %%.</p>
+<p>Fournitures et services soumis au taux de taxe de 12 %.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 12 %.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -183,8 +186,8 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>03</p>
 </td>
 <td width="71%">
-<p>Fournitures et services soumis au taux de taxe de 21 %%.</p>
-<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 21 %%.</p>
+<p>Fournitures et services soumis au taux de taxe de 21 %.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 21 %.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -258,7 +261,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p><strong>Section III. Entrées</strong></p>
+<p style="text-align: center;"><strong>Section III. Entrées</strong></p>
 </td>
 </tr>
 <tr>
@@ -266,7 +269,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>81</p>
 </td>
 <td width="71%">
-<p>Montant de tous les achats de biens, matières premières, et consommables, et coûts d’acquisition associés, à l’exclusion de la TVA déductible.</p>
+<p>Montant de tous les achats de biens, matières premières et consommables, et coûts d’acquisition associés.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -277,7 +280,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>82</p>
 </td>
 <td width="71%">
-<p>Montant de marchandises diverses et de services, peu importe s’ils sont soumis à la TVA, à l’exclusion de la TVA déductible.</p>
+<p>Montant de marchandises diverses et de services, peu importe s’ils sont soumis à la TVA.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -288,7 +291,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>83</p>
 </td>
 <td width="71%">
-<p>Montant des achats de biens d’équipement, peu importe s’ils sont soumis à la TVA, à l’exclusion de la TVA déductible.</p>
+<p>Montant des achats de biens d’équipement, peu importe s’ils sont soumis à la TVA.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -332,7 +335,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>85</p>
 </td>
 <td width="71%">
-<p>Montant des crédits reçus et ajustements négatifs liés aux autres zones de la section III, « Entrées », à l’exclusion du montant de la TVA (déductible et non déductible).</p>
+<p>Montant des crédits reçus et ajustements négatifs liés aux autres zones de la section III, « Entrées ».</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -417,7 +420,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p><strong>Section IV. Taxes à payer</strong></p>
+<p style="text-align: center;"><strong>Section IV. Taxes à payer</strong></p>
 </td>
 </tr>
 <tr>
@@ -488,7 +491,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p><strong>Section V. Taxes déductibles</strong></p>
+<p style="text-align: center;"><strong>Section V. Taxes déductibles</strong></p>
 </td>
 </tr>
 <tr>
@@ -526,7 +529,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p><strong>Section VI. Solde</strong></p>
+<p style="text-align: center;"><strong>Section VI. Solde</strong></p>
 </td>
 </tr>
 <tr>
@@ -553,7 +556,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p><strong>Section VII. Dépôt</strong></p>
+<p style="text-align: center;"><strong>Section VII. Dépôt</strong></p>
 </td>
 </tr>
 <tr>
@@ -573,7 +576,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 > [!NOTE]
 > Il n’est pas nécessaire d’entrer les codes **71**, **72** et **91**, car ils sont générés automatiquement.
 
-Pour paramétrer l’affectation de codes déclaration de taxe aux codes taxe, allez dans **Codes taxe \> Paramétrage d’état/Paramétrage d’état – Avoir**. Tenez compte des relations suivantes entre les codes déclaration de taxe :
+Pour paramétrer l’affectation de codes déclaration de taxe aux codes taxe, allez dans **Codes taxe \> Paramétrage d’état/Paramétrage d’état - Avoir**. Tenez compte des relations suivantes entre les codes déclaration de taxe :
 
 -   S’il y a un montant dans le code **01**, **02** ou **03**, il devrait également y avoir un montant dans le code **54**.
 -   S’il y a un montant dans le code **54**, il devrait également y avoir un montant dans le code **01**, **02** ou **03**.
@@ -593,7 +596,7 @@ Dans [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2),
 
 -   Format INTERVAT (BE)
 
-Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 ## <a name="additional-sales-tax-report-boxes"></a>Zones d’état de taxes supplémentaires
 
@@ -642,7 +645,7 @@ Suivez ces étapes pour entrer les montants de correction manuelle.
 > [!NOTE]
 > Les codes de déclaration composés qui sont utilisés pour les avoirs, comme le code **8185**, ne sont pas disponibles à la sélection. Il en va de même pour les codes **71**, **72** et **91**. Les codes **71** et **72** sont calculés automatiquement lorsque la déclaration de taxe belge est exécutée. Le code **91** est entré d’une autre manière (voir la description du champ **Décaissement** ci-dessus).
 >
-> Si une période fiscale est mise à jour, un N° de justificatif et une date s’affichent. (Pour plus d’informations, consultez la description de la case à cocher **Mettre à jour** dans la section [Générer une déclaration de taxe INTERVAT](#generate-an-intervat-tax-declaration) plus loin dans cette rubrique.) La période comportant un justificatif et une date est une période de TVA clôturée pour la Belgique. Par conséquent, toutes les valeurs de l’onglet **Général** de la page **Corrections de taxe** sont en lecture seule. Lorsque de nouvelles transactions avec taxes sont entrées pour la période de TVA clôturée, les taxes sont transférées vers la prochaine période fiscale ouverte disponible.
+> Si une période fiscale est mise à jour, un N° document et une date s’affichent. (Pour plus d’informations, consultez la description de la case à cocher **Mettre à jour** dans la section [Générer une déclaration de taxe INTERVAT](#generate-an-intervat-tax-declaration) plus loin dans cette rubrique.) La période comportant un N° document et une date est une période de TVA clôturée pour la Belgique. Par conséquent, toutes les valeurs de l’onglet **Général** de la page **Corrections de taxe** sont en lecture seule. Lorsque de nouvelles transactions avec taxes sont entrées pour la période de TVA clôturée, les taxes sont transférées vers la prochaine période fiscale ouverte disponible.
 
 
 ## <a name="generate-an-intervat-tax-declaration"></a>Générer une déclaration de taxe INTERVAT
@@ -665,7 +668,7 @@ Vous pouvez également clôturer la période fiscale en générant un paiement d
 4.  Cliquez sur **OK**. Le système génère la ligne de déclaration de taxe INTERVAT et un fichier XML INTERVAT.
 5.  Passez en revue les informations de la déclaration.
 
-![Page Déclaration de taxe INTERVAT.](media/2_Intervat_tax%20declaration.png)
+![Page Déclaration de taxe INTERVAT](media/2_Intervat_tax%20declaration.png)
 
 6.  Dans l’onglet **Général**, vérifiez les champs suivants : **ID INTERVAT**, **Date**, **Période**, **Date de début**, **Date de fin**, **Fréquence**, **Statut** et **Nom du fichier**.
 7.  Dans l’onglet **Cadre I : Informations générales**, vérifiez les champs suivants. Vous pouvez modifier ces champs, même si la période a été clôturée. Les exceptions sont les champs de la section **Pourcentages au prorata**. Ces champs sont en lecture seule.
@@ -699,7 +702,7 @@ Pour imprimer une déclaration de taxe INTERVAT pour plusieurs périodes fiscale
 1.  Allez dans **Taxe** \> **Recherches et états** \> **États de taxe** \> **Déclaration de taxe de synthèse INTERVAT**.
 2.  Utilisez les filtres pour spécifier les critères de sélection des données, puis passez en revue les informations de l’état.
 
-![État des déclarations de taxe de synthèse INTERVAT généré.](media/3_Intervat_summary_tax_declarations.png)
+![État des déclarations de taxe de synthèse INTERVAT généré](media/3_Intervat_summary_tax_declarations.png)
 
 ## <a name="example"></a>Exemple
 L’exemple suivant montre comment paramétrer des codes taxe et des codes déclaration de taxe, valider des transactions et générer la déclaration de taxe INTERVAT.
@@ -715,12 +718,12 @@ L’exemple suivant montre comment paramétrer des codes taxe et des codes décl
 
 | **Code taxe** | **Pourcentage** | **Description**                                                                      |
 |--------------------|----------------|--------------------------------------------------------------------------------------|
-| BE21               | 21             | Ventes et achats nationaux à un taux de 21 %%.                                |
-| BE12               | 12             | Ventes et achats nationaux à un taux de 12 %%.                                |
-| BE6                | 6              | Ventes et achats nationaux à un taux de 6 %%.                                 |
-| BEEU21             | 21             | Achats dans l’UE à un taux de 21 %% lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
-| BEEU12             | 12             | Achats dans l’UE à un taux de 12 %% lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
-| BEEU6              | 6              | Achats dans l’UE à un taux de 6 %% lorsque l’option **Taxe d’utilisation** est définie sur **Oui**.  |
+| BE21               | 21             | Ventes et achats nationaux à un taux de 21 %.                                |
+| BE12               | 12             | Ventes et achats nationaux à un taux de 12 %.                                |
+| BE6                | 6              | Ventes et achats nationaux à un taux de 6 %.                                 |
+| BEEU21             | 21             | Achats dans l’UE à un taux de 21 % lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
+| BEEU12             | 12             | Achats dans l’UE à un taux de 12 % lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
+| BEEU6              | 6              | Achats dans l’UE à un taux de 6 % lorsque l’option **Taxe d’utilisation** est définie sur **Oui**.  |
 | BEEUS              | 21             | Ventes dans l’UE où l’option **Exonéré** est définie sur **Oui**.                              |
 
 5.  Sur la page **Codes taxe**, dans l’organisateur **Paramétrage d’état**, affectez des codes déclaration aux codes taxe.
@@ -757,15 +760,15 @@ Au lieu des codes **55** et **59**, vous pouvez utiliser les codes correctifs **
 | **Date**         | **Type de transaction**  | **Montant net** | **Montant de la TVA** | **Code taxe** | **Base de taxe prévue – code de déclaration**                 | **Montant de taxe prévu – code de déclaration** |
 |------------------|-----------------------|----------------|----------------|--------------------|--------------------------------------------------------|------------------------------------------|
 | 1 février 2020 | Facture client      | 1,100          | 132            | BE12               | 02                                                     | 54                                       |
-| 1 février 2020 | Facture fournisseur (UE)   | 1 000          | 210            | BEEU21             | 86 – Base à payer 81 – Déduction de base                  | 55 – Taxe à payer 59 – Déduction de taxe      |
-| 2 février 2020 | Facture fournisseur (UE)   | \-200          | \-42           | BEEU21             | 86 – Base à payer 81 – Déduction de base 84 – Base de crédit | 55 – Taxe à payer 59 – Déduction de taxe      |
+| 1 février 2020 | Facture fournisseur (UE)   | 1 000          | 210            | BEEU21             | 86 - Base à payer 81 - Déduction de base                  | 55 - Taxe à payer 59 - Déduction de taxe      |
+| 2 février 2020 | Facture fournisseur (UE)   | \-200          | \-42           | BEEU21             | 86 - Base à payer 81 - Déduction de base 84 - Base de crédit | 55 - Taxe à payer 59 - Déduction de taxe      |
 | 1 février 2020 | Facture client (UE) | 100            | 0              | BEEUS              | 46                                                     | Non applicable                           |
 
 8.  Allez dans **Taxe \> Déclarations \> Taxe \> État de la taxe pour la période de règlement**.
 9.  Dans la boite de dialogue **État de la taxe pour la période de règlement**, dans le champ **Version de paiement de la taxe**, sélectionnez **Original**.
 10.  Cliquez sur **OK** et passez en revue les données.
 
-![Page Déclaration de taxe INTERVAT générée.](media/4_Intervat_tax_declaration.png)
+![Page Déclaration de taxe INTERVAT générée](media/4_Intervat_tax_declaration.png)
 
 Notez que le montant de l’avoir est indiqué dans le code **84**.
 
@@ -773,7 +776,7 @@ Notez que le montant de l’avoir est indiqué dans le code **84**.
 12.  Cliquez sur **Nouveau** pour créer une ligne pour février 2020.
 13.  Sélectionnez **Corrections de taxe \> Ajustements** et créez une ligne.
 
-![Page Ajustements.](media/5_Adjustments.png)
+![Page Ajustements](media/5_Adjustments.png)
 
 14.  Allez dans **Taxe** \> **Déclarations** \> **Taxe** \> **Régler et valider la taxe**.
 15.  Dans la boite de dialogue **Régler et valider la taxe**, dans le champ **Version de paiement de la taxe**, sélectionnez **Original**.
@@ -786,15 +789,15 @@ Notez que le montant de l’avoir est indiqué dans le code **84**.
    -   **Mettre à jour :** Non
    -   **Mise en correspondance des formats :** Format INTERVAT (BE)
 
-![Nouvelle page Déclaration de taxe INTERVAT.](media/6_Intervat.png)
+![Page Déclaration de taxe INTERVAT](media/6_Intervat.png)
 
 18.  Cliquez sur **OK**, ouvrez le fichier et examinez le rapport.
 
-![État de déclaration de taxe INTERVAT au format xml.](media/7_Intervat_XML.png)
+![État de déclaration de taxe INTERVAT au format xml](media/7_Intervat_XML.png)
 
 19.  Sélectionnez **Détails** et examinez les données.
 
-![Page Détails INTERVAT.](media/8_Intervat_details.png)
+![Page Détails INTERVAT](media/8_Intervat_details.png)
 
 Notez que le montant du code **62** est égal à **200**.
     
@@ -805,6 +808,3 @@ Pour plus d’informations sur les états de rapprochement pour la Belgique, voi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

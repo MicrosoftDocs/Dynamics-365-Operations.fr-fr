@@ -2,9 +2,11 @@
 title: Affecter des utilisateurs à des rôles de sécurité
 description: Pour accéder aux applications Finance and Operations, les utilisateurs doivent être affectés à des rôles de sécurité.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d65c4dafda63b7a54dd343652b0f4b498e064f4aee0fba43c34d40d73ac5062
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748334"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679862"
 ---
 # <a name="assign-users-to-security-roles"></a>Affecter des utilisateurs à des rôles de sécurité
 
@@ -55,6 +57,3 @@ Les utilisateurs qui reçoivent des rôles de sécurité manuellement doivent é
 2. Dans l’arborescence, sélectionnez un rôle et dans le menu **Utilisateurs attribués au rôle**, sélectionnez **Affecter/exclure manuellement des utilisateurs**.
 4. Dans **Attribuer ou exclure des utilisateurs du rôle**, les utilisateurs auxquels le rôle n’a pas été attribué sont répertoriés avec le **Mode d’affectation** défini sur **Aucun**. Sélectionnez un ou plusieurs utilisateurs auxquels le rôle doit être attribué.
 5. Sous le **volet Actions**, sélectionnez **Affecter au rôle**. Le **Mode d’affectation** est mis à jour en **Manuel** et les utilisateurs se voient désormais attribuer un nouveau rôle.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

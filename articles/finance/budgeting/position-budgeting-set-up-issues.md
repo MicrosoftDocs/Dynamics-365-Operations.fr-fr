@@ -2,9 +2,11 @@
 title: Dépannage de la budgétisation de poste
 description: Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération.
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726060"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017615"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 
@@ -28,7 +30,8 @@ ms.locfileid: "6726060"
 
 Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération. 
 
-## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
+<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
+---------------------------------------------------------------
 
 Les postes de prévision ont été déplacées vers le département Budget.
 
@@ -60,6 +63,3 @@ Les dates de la ligne d’élément de coût du poste de prévision doivent se t
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

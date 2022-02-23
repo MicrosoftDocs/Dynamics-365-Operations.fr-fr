@@ -2,9 +2,11 @@
 title: Configuration des propriétés de workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d’un workflow.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069246"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693280"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment configurer les différentes propriétés d’un workflow.
 
@@ -59,7 +58,7 @@ Vous pouvez fournir des instructions pour les utilisateurs qui soumettent des do
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
 2. Entrez les instructions dans le champ **Instructions de soumission**.
-3. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+3. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Cliquez sur le champ **Instructions de soumission** pour spécifier l’endroit où l’espace réservé doit apparaître.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -75,17 +74,14 @@ Vous pouvez fournir des instructions pour les utilisateurs qui soumettent des do
     5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Pour obtenir des instructions sur l’ajout d’un espace réservé, voir l’étape 3.
     6. Cliquez sur **Fermer**.
 
-> [!NOTE]
-> Les espaces réservés ne peuvent pas être ajoutés par copier-coller, car les informations cibles ne sont pas collées correctement. Utilisez l’interface pour ajouter des espaces réservés.
-
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Spécifier quand ce flux de travail est utilisé via les conditions d’activation
 
 Vous pouvez créer plusieurs workflows basés sur le même type de workflow. Si plusieurs workflows sont basés sur le même type, vous devez spécifier le moment où chaque workflow est utilisé avec les conditions d’activation. Si les conditions d’activation ne sont pas remplies, le workflow par défaut est utilisé. De même, si une seule configuration de workflow est définie pour un type de workflow, cette configuration de workflow est utilisée quelles que soient les conditions d’activation.
 
 Par exemple, vous pouvez créer un workflow de demande d’achat pour chaque pays ou région dans lequel vous travaillez, comme Demandes d’achat Danemark et Demandes d’achat Espagne avec les conditions suivantes :
 
-- Demandes d’achat Danemark doit être utilisé lorsque : le pays/région = DK
-- Demandes d’achat Espagne doit être utilisé lorsque : le pays/région = ES
+- Demandes d’achat Danemark doit être utilisé lorsque : le pays/région = DK
+- Demandes d’achat Espagne doit être utilisé lorsque : le pays/région = ES
 
 Procédez comme suite pour spécifier quand le workflow que vous configurez est utilisé.
 
@@ -101,17 +97,17 @@ Procédez comme suite pour spécifier quand le workflow que vous configurez est 
 Lorsqu’un document est soumis pour traitement, une instance de workflow est créée. Vous pouvez envoyer des notifications aux utilisateurs lorsque les instances de workflow qui sont basées sur ce workflow sont initiées, terminées, interrompues ou bloquées en raison d’une erreur. Procédez comme suit pour spécifier quand les notifications sont envoyées.
 
 1. Dans le volet gauche, cliquez sur **Notifications**.
-2. Activez la case à cocher correspondant à chaque événement qui doit déclencher des notifications :
+2. Activez la case à cocher correspondant à chaque événement qui doit déclencher des notifications :
 
-    - **Commencé** – Permet d’envoyer des notifications lorsqu’une instance de workflow démarre.
-    - **Bloqué** – Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur.
-    - **Terminée** – Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
-    - **Irrécupérable** – Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur irrécupérable.
-    - **Terminé** – Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
+    - **Commencé** - Permet d’envoyer des notifications lorsqu’une instance de workflow démarre.
+    - **Bloqué** - Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur.
+    - **Terminée** - Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
+    - **Irrécupérable** - Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur irrécupérable.
+    - **Terminé** - Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
 
 3. Sélectionnez la ligne pour un événement sélectionné à l’étape 2.
 4. Entrez le texte de la notification dans l’onglet **Texte de notification**.
-5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque le texte apparait aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque le texte apparait aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Cliquez dans le champ pour spécifier l’endroit où l’espace réservé doit apparaître.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -183,6 +179,3 @@ Pour entrer des commentaires sur les modifications que vous avez apportées à c
 2. Entrez vos commentaires dans le champ **Entrer des commentaires sur le workflow**.
 3. Relisez vos commentaires. Une fois les commentaires entrés, il n’est plus possible de les modifier.
 4. Cliquez sur **Ajouter** pour ajouter vos commentaires dans la zone **Historique des commentaires**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

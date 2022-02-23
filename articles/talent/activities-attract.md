@@ -91,6 +91,3 @@ Le modèle de processus de recrutement requiert l'activité Offre. Pour utiliser
 > L'application intégrée Gestion des offres n'est disponible qu'avec le Composant additionnel de recrutement complet. Pour plus d'informations, voir [Quelle version de Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

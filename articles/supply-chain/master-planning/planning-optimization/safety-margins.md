@@ -2,13 +2,16 @@
 title: Marges de sécurité
 description: Cette rubrique décrit comment les marges de sécurité peuvent être utilisées avec le complément d’Optimisation de la planification pour Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
+manager: tfehr
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074965"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427761"
 ---
 # <a name="safety-margins"></a>Marges de sécurité
 
@@ -41,7 +44,7 @@ Il existe trois types de marges de sécurité :
 
 L’illustration suivante montre comment ces marges de sécurité s’appliquent au fil du temps.
 
-![Marges de sécurité.](media/safety-margins-1.png)
+![Marges de sécurité](media/safety-margins-1.png)
 
 Toutes les marges sont définies en jours. La valeur par défaut, *0* (zéro), indique qu’aucune marge n’est appliquée. Si vous définissez plusieurs marges, elles s’ajoutent toutes au temps total de la *date d’ordre* d’approvisionnement à la *date de demande*. Par exemple, une configuration n’a pas de délai et les trois types de marge sont définis sur un jour. Dans ce cas, il y aura trois jours entre la date de l’ordre d’approvisionnement et la date de demande, donc si la date de l’ordre est le 1er juillet, la date de la demande sera le 4 juillet.
 
@@ -51,7 +54,7 @@ La marge de réception est probablement la plus utilisée des trois marges de s�
 
 L’illustration suivante met en évidence la marge de réception.
 
-![Marge de réception.](media/safety-margins-2.png)
+![Marge de réception](media/safety-margins-2.png)
 
 La marge de réception est généralement utilisée comme tampon pour garantir le temps d’enregistrement de l’entrepôt ou d’autres processus chronophages qui ne sont pas capturés dans le cadre du délai général dans le système. Pour les achats, un avantage est que la *date de livraison* de la commande fournisseur est avancée en conséquence. Si vous augmentez le délai au lieu d’utiliser une marge de sécurité, le fournisseur sera toujours invité à livrer à la dernière minute.
 
@@ -61,17 +64,23 @@ Notez qu’une marge de réception n’est pas appliquée lorsque le stock dispo
 
 ### <a name="reorder-margin"></a>Marge de renouvellement
 
+> [!NOTE]
+> **Prochainement :** Cette fonctionnalité n’est pas encore prise en charge pour l’Optimisation de la planification. Jusqu’à ce qu’elle soit pris en charge, toutes les valeurs entrées pour **Marge de renouvellement ajouté au délai de l’article** seront traitées comme *0* (zéro).
+
 L’illustration suivante met en évidence la marge de renouvellement.
 
-![Marge de renouvellement.](media/safety-margins-3.png)
+![Marge de renouvellement](media/safety-margins-3.png)
 
 La marge de renouvellement ajoutée avant le délai de livraison de l’article pour tous les ordres prévisionnels pendant la planification. Par conséquent, cela garantit un délai supplémentaire pour qu’un ordre d’approvisionnement soit passé. Cette marge est généralement utilisée comme tampon pour garantir le temps nécessaire aux processus d’approbation ou à d’autres processus internes requis lors de la création d’ordres d’approvisionnement. La marge de renouvellement est placée entre la *date de l’ordre* d’approvisionnement et la *date de début*.
 
 ### <a name="issue-margin"></a>Marge de sortie
 
+> [!NOTE]
+> **Prochainement :** Cette fonctionnalité n’est pas encore prise en charge pour l’Optimisation de la planification. Jusqu’à ce qu’elle soit pris en charge, toutes les valeurs entrées pour **Marge de sortie déduite de la date de besoin** seront traitées comme *0* (zéro).
+
 L’illustration suivante met en évidence la marge de sortie.
 
-![Marge de sortie.](media/safety-margins-4.png)
+![Marge de sortie](media/safety-margins-4.png)
 
 La marge de sortie est déduite de la date de demande lors de la planification. Elle permet de vous assurer que vous avez le temps de réagir et d’expédier les ordres de demande entrantes. Cette marge est généralement utilisée comme tampon pour garantir le temps d’expédition et les processus d’entrepôt sortants associés.
 
@@ -81,7 +90,7 @@ Notez que lorsqu’une marge de sortie est appliquée, les dates des besoins li�
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Activer les marges de sécurité dans la gestion des fonctionnalités
 
-Avant de pouvoir utiliser cette fonctionnalité avec l’Optimisation de planification, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser cette fonctionnalité avec l’Optimisation de planification, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** _Planification_
 - **Nom de la fonctionnalité :** _Marges pour l’Optimisation de la planification_
@@ -153,13 +162,13 @@ Les règles suivantes sont appliquées pour déterminer si le moteur de planific
 
 #### <a name="calendar-setup-overview-matrix"></a>Matrice de présentation de la configuration du calendrier
 
-L’illustration suivante présente une matrice qui résume les calendriers qui s’appliquent lorsque les marges de sécurité sont calculées. (Sélectionnez l’image pour en ouvrir une version haute résolution.) Les abréviations et couleurs suivantes sont utilisées pour indiquer où chaque type de calendrier est spécifié :
+L’illustration suivante présente une matrice qui résume les calendriers qui s’appliquent lorsque les marges de sécurité sont calculées. (Sélectionnez l'image pour en ouvrir une version haute résolution.) Les abréviations et couleurs suivantes sont utilisées pour indiquer où chaque type de calendrier est spécifié :
 
 - **Groupe de couverture (GC) :** Vert
 - **Entrepôt (WH) :** Jaune
 - **Fournisseur (F) :** Bleu
 
-[![Matrice de présentation de la configuration du calendrier.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matrice de présentation de la configuration du calendrier](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calcul des retards
 
@@ -167,13 +176,10 @@ Les trois types de marges de sécurité sont inclus lorsque le système détermi
 
 Par exemple, un article a un délai d’un jour et une marge de réception de trois jours. Une commande client pour cet article est définie comme requise aujourd’hui. Dans ce cas, le retard est calculé comme suit *délai* + *marge de réception* = quatre jours. Par conséquent, si aujourd’hui est le 14 août, les quatre jours de retard produisent une livraison le 18 août. L’illustration suivante présente cet exemple.
 
-![Exemple de calcul de retard.](media/safety-margins-delays.png)
+![Exemple de calcul de retard](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Mise en route de l’optimisation de la planification](get-started.md)
+[Prise en main de l’optimisation de la planification](get-started.md)
 
 [Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

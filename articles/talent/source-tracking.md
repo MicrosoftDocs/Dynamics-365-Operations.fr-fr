@@ -102,6 +102,3 @@ Pour éviter d'affecter négativement l'interface utilisateur (IU), ne modifiez 
 - **Autre/s**
 
 Au lieu de cela, vous pouvez étendre l'énumération **TalentSource** pour ajouter d'autres types de sources.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

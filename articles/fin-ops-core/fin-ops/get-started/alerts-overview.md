@@ -1,24 +1,26 @@
 ---
-title: Aperçu des alertes (contient une vidéo)
+title: Vue d’ensemble des alertes
 description: Cette rubrique fournit des informations générales sur les alertes. Vous pouvez utiliser les alertes pour rester informé des événements que vous voulez suivre durant votre journée de travail.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984966"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798578"
 ---
 # <a name="alerts-overview"></a>Vue d’ensemble des alertes
 
@@ -77,15 +79,12 @@ Une règle d’alerte a cinq composants :
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-La vidéo [Comment utiliser les alertes pour surveiller les données filtrées](https://youtu.be/ZYKMcv6kl9s) (présentée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Comment utiliser les alertes pour surveiller les données filtrées](https://youtu.be/ZYKMcv6kl9s) (présentée ci-dessus) est incluse dans la liste de lecture [Finance and Operations ](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)disponible sur YouTube.
 
 ### <a name="alert-rule-options"></a>Options de règle d’alerte
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-La vidéo [Options de règle d’alerte](https://youtu.be/cpzimwOjicM) (présentée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Options de règle d’alerte](https://youtu.be/cpzimwOjicM) (présentée ci-dessus) est incluse dans la liste de lecture [Finance and Operations ](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

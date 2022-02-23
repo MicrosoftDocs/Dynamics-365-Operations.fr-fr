@@ -1,10 +1,12 @@
 ---
-title: ER Utiliser les dimensions financières comme source de données (Partie 2 – Mise en correspondance des modèles)
-description: Cette rubrique décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 2)
+title: ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un modèle de génération d’états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -13,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605403"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681683"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utiliser les dimensions financières comme source de données (Partie 2 – Mise en correspondance des modèles)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -56,14 +58,14 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 21. Sélectionnez Oui dans le champ Demander le compte principal.
     * Définissez « Demander le compte principal » sur Oui pour autoriser les utilisateurs à sélectionner le compte principal dans le cadre de la liste de dimensions.   Si cette option est définie sur Non, le compte principal n’est pas inclus dans la liste des dimensions et l’option « Compte principal obligatoire » est activée. Si « Compte principal obligatoire » est défini sur Oui, incluez le compte principal dans la liste des dimensions quelle que soit la sélection de l’utilisateur.  
 22. Cliquez sur OK.
-![Les propriétés de la source de données des détails des dimensions financières glissent.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Page du concepteur de mise en correspondance des modèles ER](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Dans l’arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 24. Cliquez sur Ajouter racine.
 25. Dans le champ Nom, tapez « LedgerJournal ».
 26. Sélectionnez Oui dans le champ Demander une requête.
 27. Dans le champ Table, tapez « LedgerJournalTable ».
 28. Cliquez sur OK.
-![<page du concepteur de mappage modèle, la table enregistre le type de source de données.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Page du concepteur de mise en correspondance des modèles ER](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Mettre en correspondance les éléments de modèle de données avec les sources de données ajoutées
 1. Dans l’arborescence, développez « Journal »
@@ -94,7 +96,7 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 25. Dans l’arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Compte principal et dimensions ».
 26. Dans l’arborescence, sélectionnez « Journal\Transaction\Données de dimensions ».
 27. Cliquez sur Lier.
-!Page du concepteur de mappage de modèle, onglet Mappage, arborescence des sources de données.](../media/er-financial-dimensions-guides-model-mapping3.png)
+![Page du concepteur de mise en correspondance des modèles ER](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Dans l’arborescence, sélectionnez « LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit) ».
 29. Dans l’arborescence, sélectionnez « Journal\Transaction\Débit ».
 30. Cliquez sur Lier.
@@ -133,7 +135,7 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 63. Dans le champ expressionAsStringText, entrez « Company.’find()’.’name() ».
     * Company.’find()’.’name()’  
 64. Cliquez sur Enregistrer.
-![Page du concepteur de mise en correspondance des modèles ER.](../media/er-financial-dimensions-guides-model-mapping4.png)
+![Page du concepteur de mise en correspondance des modèles ER](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Fermez la page.
 66. Cliquez sur Enregistrer.
 67. Fermez la page.
@@ -144,7 +146,4 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 3. Cliquez sur Modifier le statut.
 4. Cliquez sur Terminé.
 5. Cliquez sur OK.
-![Page Configurations d’ER](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![Page du concepteur de mise en correspondance des modèles ER](../media/er-financial-dimensions-guides-model-mapping5.png)

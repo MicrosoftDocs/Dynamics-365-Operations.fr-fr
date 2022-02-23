@@ -1,23 +1,25 @@
 ---
 title: Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
 description: Cette rubrique explique comment inclure un état Power BI sous l’onglet Analyses d’un espace de travail.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760150"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680934"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
 
@@ -54,11 +56,11 @@ Procédez comme suit pour ajouter un fichier .pbix comme artefact de projet Visu
 3. Dans la boîte de dialogue **Ajouter le nouvel article**, sous **Artefacts d’opérations**, sélectionnez le modèle **Ressource**.
 4. Entrez un nom qui sera utilisé pour référencer l’état dans des métadonnées X++, puis cliquez sur **Ajouter**.
 
-    ![Ajoutez la boîte de dialogue Nouvel article.](media/analytical-workspace-add.png)
+    ![Ajoutez la boîte de dialogue Nouvel article](media/analytical-workspace-add.png)
 
 5. Cherchez le fichier .pbix contenant la définition de l’état analytique, puis cliquez sur **Ouvrir**.
 
-    ![Sélectionnez une boîte de dialogue Fichier de ressource.](media/analytical-workspace-select-resource.png)
+    ![Sélectionnez une boîte de dialogue Fichier de ressource](media/analytical-workspace-select-resource.png)
 
 Maintenant que vous avez ajouté le fichier .pbix comme ressource Dynamics 365, vous pouvez inclure les états dans des espaces de travail et ajouter des liens directs à l’aide des options de menu.
 
@@ -67,7 +69,7 @@ Dans cet exemple, nous étendrons l’espace de travail **Gestion des réservati
 
 L’illustration suivante indique à quoi ressemble l’écran **FMClerkWorkspace** dans le concepteur de Microsoft Visual Studio.
 
-![Écran FMClerkWorkspace avant les modifications.](media/analytical-workspace-definition-before.png)
+![Écran FMClerkWorkspace avant les modifications](media/analytical-workspace-definition-before.png)
 
 Procédez comme suit pour prolonger la définition d’écran pour l’espace de travail **Gestion des réservations**.
 
@@ -92,7 +94,7 @@ Procédez comme suit pour prolonger la définition d’écran pour l’espace de
 
 L’illustration suivante présente ce à quoi la conception ressemble une fois ces modifications appliquées.
 
-![FMClerkWorkspace après des modifications.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace après des modifications](media/analytical-workspace-definition-after.png)
 
 Maintenant que vous avez ajouté des contrôles d’écrans qui seront utilisés pour inclure l’état de l’espace de travail, vous devez définir la taille du contrôle parent de sorte qu’il s’adapte à la mise en page. Par défaut, la page **Volet de filtres** et la page **Onglet** sont visibles sur l’état. Toutefois, vous pouvez modifier la visibilité de ces contrôles en fonction du client cible de l’état.
 
@@ -142,7 +144,7 @@ Procédez comme suit pour ajouter une logique métier qui initialise le contrôl
 
 Vous avez terminé la tâche d’ajouter une logique métier pour initialiser le contrôle de la visionneuse de rapports intégrée. L’illustration suivante présente ce à quoi l’espace de travail ressemble une fois ces modifications appliquées.
 
-![État intégré à l’espace de travail.](media/analytical-workspace-final.png)
+![État intégré à l’espace de travail](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Vous pouvez accéder à la vue opérationnelle existante à l’aide des onglets de l’espace de travail sous le titre de la page.
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | Valeur booléenne qui indique si le volet de filtre doit être affiché (**vrai**) ou masqué (**faux**).     |
 | showNavPane      | Valeur booléenne qui indique si le volet de navigation doit être affiché (**vrai**) ou masqué (**faux**). |
 | defaultFilters   | Filtres par défaut pour l’état Power BI.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

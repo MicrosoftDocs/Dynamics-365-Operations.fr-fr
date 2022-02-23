@@ -1,25 +1,28 @@
 ---
 title: Importation des paiements client ESR
 description: Cette rubrique fournit des informations sur l’importation de paiements client au format ESR.
-author: anasyash
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 264584
 ms.search.region: Switzerland
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29bac54445ee78d4753b7b77004e21c67ae7d1ba
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: dfcfb13391bccde43a5bd50965967fde1a8a432b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592564"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407985"
 ---
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
@@ -51,6 +54,3 @@ Après avoir importé le fichier de paiement, les lignes du journal des paiement
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

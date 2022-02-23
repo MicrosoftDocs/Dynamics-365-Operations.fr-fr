@@ -1,30 +1,30 @@
 ---
 title: États financiers
-description: La génération d’états financiers permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d’analyse.
+description: La génération d’états financiers permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d’analyse. Elle dépasse les contraintes traditionnelles liées à la génération d’états pour vous aider à concevoir efficacement différents types d’états.
 author: aprilolson
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "68813"
-- intro-internal
+ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20e2b4cb2b68500eeee06f1be5d95fc2cbab246f43b5e4a0e83eca7a8be53005
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769872"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682694"
 ---
-# <a name="financial-reporting"></a>Financial Reporting
+# <a name="financial-reporting"></a>États financiers
 
 [!include [banner](../includes/banner.md)]
 
@@ -37,8 +37,8 @@ La page **Configuration des états financiers** contient une liste de toutes les
 
 La page **Configuration des états financiers** comporte deux sections qui déterminent les données pour lesquelles vous générez un état dans les états financiers :
 
-- **Onglet Dimensions** – Comme chaque société utilise des dimensions et des structures de compte différentes, il n’existe aucun moyen de déterminer l’ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l’ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
-- **Onglet Attributs** – Permet d’indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d’états. La génération d’un état sur le fournisseur et le client n’est utile que si vous n’entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l’intégration.
+- **Onglet Dimensions** - Comme chaque société utilise des dimensions et des structures de compte différentes, il n’existe aucun moyen de déterminer l’ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l’ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
+- **Onglet Attributs** - Permet d’indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d’états. La génération d’un état sur le fournisseur et le client n’est utile que si vous n’entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l’intégration.
 
 ## <a name="financial-reporting-components"></a>Composants de la génération d’états financiers
 Les composants suivants la génération d’états financiers sont simples à utiliser pour créer, afficher et planifier les rapports.
@@ -96,6 +96,3 @@ Les composants suivants la génération d’états financiers sont simples à ut
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Générer les états financiers](generate-financial-report.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

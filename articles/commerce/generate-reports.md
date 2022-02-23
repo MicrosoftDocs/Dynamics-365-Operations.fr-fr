@@ -1,10 +1,12 @@
 ---
-title: Génération d’états de canal en ligne
-description: Cette rubrique décrit la procédure de génération d’états pour votre canal en ligne dans Microsoft Dynamics 365 Commerce.
+title: Génération d'états de canal en ligne
+description: Cette rubrique décrit la procédure de génération d'états pour votre canal en ligne dans Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58342f07233e3c6a6e6a1af87ab23513ad63caf5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760846"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970040"
 ---
-# <a name="generate-online-channel-reports"></a>Génération d’états de canal en ligne
+# <a name="generate-online-channel-reports"></a>Génération d'états de canal en ligne
+
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure de génération d’états pour votre canal en ligne dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit la procédure de génération d'états pour votre canal en ligne dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d'ensemble
 
 Vous pouvez générer et afficher plusieurs états dans Commerce pour voir comment votre canal en ligne fonctionnement.
 
@@ -48,13 +53,13 @@ Pour générer un rapport de **Synthèse de canal**, procédez comme suit.
  
 ## <a name="channel-sales-by-year-report"></a>État des ventes de canal par année 
 
-Le rapport **Ventes du canal par an** affiche une comparaison des ventes année après année pour un magasin spécifique. Vous sélectionnez l’année par rapport à laquelle comparer les ventes, et l’état compare les ventes de l’année sélectionnée avec celle de l’année précédente.
+Le rapport **Ventes du canal par an** affiche une comparaison des ventes année après année pour un magasin spécifique. Vous sélectionnez l'année par rapport à laquelle comparer les ventes, et l'état compare les ventes de l'année sélectionnée avec celle de l'année précédente.
 
 Pour générer un rapport de **Ventes du canal par an**, procédez comme suit.
 
 1. Aller à **Retail et Commerce \> Recherches et états \> États des ventes \> État des ventes de canal par année**.
-1. Dans le champ **De l’année civile**, entrez une année.
-1. Dans le champ **À l’année civile**, entrez une année.
+1. Dans le champ **De l'année civile**, entrez une année.
+1. Dans le champ **À l'année civile**, entrez une année.
 1. Dans le champ **Canal**, sélectionnez le canal en ligne.
 1. Cliquez sur **OK**.
 
@@ -72,7 +77,7 @@ Pour générer un rapport de **Ventes du canal par heure**, procédez comme suit
 
 ## <a name="top-customers-report"></a>État des principaux clients
 
-Le rapport **Principaux clients** afficher des mesures des ventes des *N* clients principaux pour un canal ou une unité opérationnelle sélectionnée. La valeur *N* est un nombre de 10 à 100 basé sur une mesure agrégée sélectionnée par l’utilisateur.
+Le rapport **Principaux clients** afficher des mesures des ventes des *N* clients principaux pour un canal ou une unité opérationnelle sélectionnée. La valeur *N* est un nombre de 10 à 100 basé sur une mesure agrégée sélectionnée par l'utilisateur.
 
 Pour générer un rapport de **Principaux clients**, procédez comme suit.
 
@@ -84,7 +89,7 @@ Pour générer un rapport de **Principaux clients**, procédez comme suit.
 
 ## <a name="top-discounts-report"></a>État Principales remises
 
-Le rapport **Principales remises** afficher des mesures des ventes des *N* remises principales pour un canal ou une unité opérationnelle sélectionnée. La valeur *N* est un nombre de 10 à 100 basé sur une mesure agrégée sélectionnée par l’utilisateur.
+Le rapport **Principales remises** afficher des mesures des ventes des *N* remises principales pour un canal ou une unité opérationnelle sélectionnée. La valeur *N* est un nombre de 10 à 100 basé sur une mesure agrégée sélectionnée par l'utilisateur.
 
 Pour générer un rapport de **Principales remises**, procédez comme suit.
 
@@ -96,7 +101,7 @@ Pour générer un rapport de **Principales remises**, procédez comme suit.
 
 ## <a name="top-products-report"></a>État Principaux produits
 
-Le rapport **Principaux produits** afficher des mesures des ventes des *N* produits principaux pour un canal ou une unité opérationnelle sélectionnée. La valeur *N* est un nombre de 10 à 100 basé sur une mesure agrégée sélectionnée par l’utilisateur.
+Le rapport **Principaux produits** afficher des mesures des ventes des *N* produits principaux pour un canal ou une unité opérationnelle sélectionnée. La valeur *N* est un nombre de 10 à 100 basé sur une mesure agrégée sélectionnée par l'utilisateur.
 
 Pour générer un rapport de **Principaux produits**, procédez comme suit.
 
@@ -108,7 +113,7 @@ Pour générer un rapport de **Principaux produits**, procédez comme suit.
 
 ## <a name="category-sales-report"></a>État des ventes par catégorie
 
-Le rapport **Ventes par catégorie** affiche les mesures des ventes au cours d’une période sélectionnée pour chaque nœud d’une hiérarchie de catégories pour un canal ou une unité opérationnelle sélectionnée.
+Le rapport **Ventes par catégorie** affiche les mesures des ventes au cours d'une période sélectionnée pour chaque nœud d'une hiérarchie de catégories pour un canal ou une unité opérationnelle sélectionnée.
 
 Pour générer un rapport de **Ventes par catégorie**, procédez comme suit.
 
@@ -118,20 +123,17 @@ Pour générer un rapport de **Ventes par catégorie**, procédez comme suit.
 1. Dans le champ **Canal**, sélectionnez le canal en ligne.
 1. Cliquez sur **OK**.
 
-## <a name="organization-sales-report"></a>État des ventes d’organisation
+## <a name="organization-sales-report"></a>État des ventes d'organisation
 
-Le rapport **Ventes de l’organisation** affiche les performances de vos magasins de vente par unité d’organisation. Cet état inclut la quantité et le montant vendus par magasin, et la marge bénéficiaire de chaque magasin. L’unité d’organisation est basée sur la hiérarchie par défaut de génération d’états.
+Le rapport **Ventes de l'organisation** affiche les performances de vos magasins de vente par unité d'organisation. Cet état inclut la quantité et le montant vendus par magasin, et la marge bénéficiaire de chaque magasin. L'unité d'organisation est basée sur la hiérarchie par défaut de génération d'états.
 
 Pour générer un rapport **Ventes par catégorie**, procédez comme suit.
 
-1. Accédez à **Retail et Commerce \> Recherches et états \> États des ventes \> État des ventes d’organisation**.
+1. Accédez à **Retail et Commerce \> Recherches et états \> États des ventes \> État des ventes d'organisation**.
 1. Entrez une date dans le champ **Date de début**.
 1. Entrez une date dans le champ **Date de fin**.
 1. Cliquez sur **OK**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Page d’accueil de Commerce](./index.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Page d'accueil de Commerce](../retail/index.md)

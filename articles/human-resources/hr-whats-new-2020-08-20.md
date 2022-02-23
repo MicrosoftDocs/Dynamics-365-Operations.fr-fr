@@ -1,32 +1,33 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (20 août 2020)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 20 août 2020.
-author: andreabichsel
-ms.date: 08/20/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 8/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a97997212a090f141c7280f7e48fd116a1f31481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062159"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527479"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (20 août 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3478. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.
 
@@ -64,15 +65,15 @@ Une entité DMF est désormais disponible pour les suspensions de régularisatio
 
 Vous pouvez rendre les champs obligatoires en utilisant les fonctionnalités de personnalisation de Human Resources. Cette fonctionnalité nécessite des **Vues enregistrées**. Pour plus d’informations sur les vues enregistrées, voir :
 
-- [Vues enregistrées – disponibilité générale](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) dans la 2e partie du lancement 2020 de Dynamics 365
-- [Écrans de version utilisant entièrement des vues enregistrées](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [Vues enregistrées – disponibilité générale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) dans la 2e partie du lancement 2020 de Dynamics 365
+- [Écrans de version utilisant entièrement des vues enregistrées](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>Application Human Resources de Teams
 
 Les collaborateurs peuvent consulter et demander des absences dans Microsoft Teams. Ils peuvent interagir avec un bot pour créer des demandes de congé. Pour plus d’informations, voir :
 
-- [Expérience des employés en congé et absence Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) dans la 1ère partie du lancement 2020 de Dynamics 365
-- [Application Human Resources de Teams](./hr-admin-teams-leave-app.md)
+- [Expérience des employés en congé et absence Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) dans la 1ère partie du lancement 2020 de Dynamics 365
+- [Application Human Resources de Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -82,9 +83,9 @@ Les collaborateurs peuvent consulter et demander des absences dans Microsoft Tea
  
 - **Calendrier des congés du responsable** : Les responsables pourront afficher les congés approuvés et en attente pour leurs subordonnés directs dans une vue du calendrier. Cette vue permet de comprendre facilement quand les membres de leur équipe sont absents du travail.
 
-### <a name="checklist-entities-included-in-dataverse"></a>Entités de liste de contrôle incluses dans Dataverse
+### <a name="checklist-entities-included-in-common-data-service"></a>Entités de liste de contrôle incluses dans Common Data Service
 
-Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Dataverse.
+Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Common Data Service.
 
 ## <a name="known-issues"></a>Problèmes connus
 
@@ -109,16 +110,13 @@ L’espace de travail **Gestion des fonctionnalités** peut afficher des fonctio
 - Imprimer les évaluations des performances
 - Corrections des jours fériés pour la régularisation des congés
 
-### <a name="benefit-plan-employee-entity"></a>Entité régime de prestations sociales employés 
+### <a name="benefit-plan-employee-entity"></a>Entité Régime d’avantages sociaux employés 
 
 Nous avons récemment découvert deux problèmes concernant l’entité **BenefitsPlanEmployee**. Lors de l’importation des inscriptions de collaborateurs, le **Code de couverture** et le **Code de type de régime** sont mal définis. Ce problème entraîne l’affichage incorrect des régimes d’avantages sociaux des employés dans le formulaire **Régime d’avantages sociaux des collaborateurs** et dans le formulaire **Ouvrir l’inscription** dans le libre service des employés. Ce problème peut également avoir un impact sur la capacité de l’employé à sélectionner des régimes dans le libre service des employés. Actuellement, il n’y a pas de solution. Nous traitons cela comme un correctif hautement prioritaire et déploierons celui-ci avec notre prochaine version.
 
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

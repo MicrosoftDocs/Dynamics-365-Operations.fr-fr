@@ -2,9 +2,11 @@
 title: Créer et affecter un code de partenaire commercial dans le secteur public
 description: Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustGroup, CustTradingPartnerCode, CustTable
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22d9a4cee133483778f0dcc7aaa08a882adb6e1aeb200008c19a6e582d0f8de1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0aea4ac41774ec0568a3c9e0a141dd07066a4e7d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754863"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962466"
 ---
 # <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a>Créer et affecter un code de partenaire commercial dans le secteur public
 
@@ -45,6 +47,3 @@ Créez un code partenaire commercial et affectez le à une agence gouvernemental
 6. Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.
 7. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

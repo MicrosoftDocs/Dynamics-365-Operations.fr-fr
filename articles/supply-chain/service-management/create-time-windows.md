@@ -1,34 +1,37 @@
 ---
-title: Créer des fenêtres Délai
-description: Cette rubrique fournit une procédure qui montre comment créer des fenêtres délais.
-author: kamaybac
+title: Création de fenêtres Délai
+description: Vous pouvez utiliser les fenêtres Délai pour optimiser la planification des lignes de commande de service.
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 37a16eed6c5a73eb8166ac5ea2469860424aaafd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571424"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428008"
 ---
-# <a name="create-time-windows"></a>Créer des fenêtres Délai
+# <a name="create-time-windows"></a>Création de fenêtres Délai   
 
 [!include [banner](../includes/banner.md)]
 
 Vous pouvez utiliser les fenêtres Délai pour optimiser la planification des lignes de commande de service.
 
-1. Accédez à **Gestion des services** \> **Paramétrage** \> **Accords de service** \> **Fenêtre Délai**.
+1. Cliquez sur **Gestion des services** \> **Paramétrage** \> **Accords de service** \> **Fenêtre Délai**.
 2. Appuyez sur **Alt+N** pour créer une nouvelle fenêtre Délai.
 3. Dans le champ **Fenêtre Délai**, entrez un nom pour la fenêtre Délai.
 4. Dans le champ **Description**, entrez une description pour la fenêtre Délai.
@@ -37,6 +40,3 @@ Vous pouvez utiliser les fenêtres Délai pour optimiser la planification des li
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Fenêtres Délai](time-windows.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

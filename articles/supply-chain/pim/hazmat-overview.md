@@ -1,33 +1,37 @@
 ---
 title: Vue d’ensemble des matières dangereuses
 description: Cette rubrique fournit une vue d’ensemble des fonctionnalités liées à la manipulation et à la documentation sur les matières dangereuses lors de la gestion des informations sur les produits et de la gestion des entrepôts.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986274"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427641"
 ---
 # <a name="hazardous-materials-overview"></a>Vue d’ensemble des matières dangereuses
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Pour rester conformes aux réglementations sur l’expédition et le transport, les organisations qui expédient des matières classées comme marchandises dangereuses doivent inclure des documents supplémentaires dans leurs expéditions. La fonction relatives aux matières dangereuses permet aux clients de stocker des informations sur les articles lancés. Ces informations peuvent ensuite être utilisées pour préparer la documentation d’expédition. Une organisation qui expédie des marchandises dangereuses doit avoir ses propres processus et procédures pour gérer le processus d’expédition. Microsoft Dynamics 365 Supply Chain Management est simplement un outil qui peut aider à générer les documents requis.
 
 Le diagramme suivant illustre les étapes nécessaires pour configurer et utiliser la fonction sur les matières dangereuses.
 
-![Configuration et utilisation de la fonction sur les matières dangereuses.](media/hazmat-overview.png "Configuration et utilisation de la fonction sur les matières dangereuses")
+![Configuration et utilisation de la fonction sur les matières dangereuses](media/hazmat-overview.png "Configuration et utilisation de la fonction sur les matières dangereuses")
 
 La fonctionnalité sur les matières dangereuses est configurée dans la gestion des informations sur les produits et fournit des documents qui peuvent être imprimés via la gestion des entrepôts. Par conséquent, de manière générale, ces domaines sont les deux principaux domaines dans lesquels vous allez examiner, configurer et utiliser les fonctionnalités de cette fonctionnalité :
 
@@ -58,6 +62,3 @@ Pour plus d’informations sur la configuration des réglementations et des vale
 ## <a name="warehouse-management"></a>Gestion des entrepôts
 
 Lorsque vous préparez une expédition dans la Gestion des entrepôts, vous pourrez imprimer plusieurs nouveaux états qui utilisent les informations que vous avez configurées dans la Gestion des informations sur les produits. Pour plus d’informations sur les états disponibles et comment les utiliser, consultez [Demandes de renseignements et déclarations sur les matières dangereuses](hazmat-reports.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,6 +52,3 @@ Une modification a été apportée pour définir par défaut le code « Motif d
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Nouvelle entité créée pour les niveaux de rémunération des postes
 Une nouvelle entité de l'infrastructure de gestion des données a été créée. L'entité propose la création et les mises à jour des niveaux de rémunération, des valeurs marchandes et des informations d'enquête pour chaque tâche définie dans le système.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

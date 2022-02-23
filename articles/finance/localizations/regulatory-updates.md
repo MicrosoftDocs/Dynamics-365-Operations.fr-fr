@@ -1,23 +1,26 @@
 ---
 title: Mises à jour réglementaires
 description: Cette rubrique fournit une liste des mises à jour réglementaires prévues et publiées pour Microsoft Dynamics 365 Finance.
-author: VStamberg
-ms.date: 01/20/2022
+author: ShylaThompson
+manager: AnnBe
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: vastrup
+ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016098"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517498"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -25,7 +28,7 @@ ms.locfileid: "8016098"
 
 Cette rubrique répertorie les mises à jour réglementaires prévues et publiées dans les régions prenant en charge Dynamics 365 Finance. Les calendriers de livraison sont susceptibles de changer et les fonctionnalités prévues pourraient être différentes ou ne pas être lancées. Pour plus d’informations, voir [Stratégie Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](/business-applications-release-notes/index).
+Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les autres fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
 
 Microsoft s’efforce d’implémenter les nouvelles exigences réglementaires aussi vite que possible. La date de livraison réelle dépend de la date d’annonce de la loi, de la disponibilité des détails de l’exigence auprès des administrations locales, de la disponibilité des outils de validation et de la mesure et de la complexité de la modification.
 
@@ -38,42 +41,49 @@ Les mises à jour de réglementation qui sont lancées dans le cadre de la mise 
 Pour connaître les derniers plans de mise à jour réglementaire, consultez le tableau suivant.   
 
 |Pays|Date de sortie|Version|Mise à jour réglementaire|
-|--------------------|---------------|-------|-------| 
-|      Australie         |   2021 juin      | 10.0.21      |   AU - État de déclaration des délais de paiement 2020 pour Microsoft Dynamics 365 Finance   |
-|      Brésil         |   Mai 2021, février 2021      | 10.0.20, 10.0.19      |   NF-e NT2020.006 – Identification de la plateforme numérique intermédiaire (mise à jour des règles de mise en page et de validation)   |
-|      Brésil         |   2021 mars         | 10.0.19         |    Disposition SPED REINF 1.5.1  |
-|      Brésil         |   2021 avril         | 10.0.20        |    SPED ECD Disposition 9  |
-|      Brésil         |   mai 2021         | 10.0.20         |    Cotisations SPED - Guide des versions 1.34  |
-|      Brésil         |   2021 juin         | 10.0.21         |    SPED ECF - Disposition 7  |
-|      Brésil         |   mai 2021         | 10.0.20         |    NF-e NT2020.005 v1.10 - Règles de validation et mises à jour PED ECF - Disposition 7  |
-|      Brésil         |   mai 2021         | 10.0.21         |    SPED Reinf 1.5.1 - Modifications de la méthode de service web de EVENT 5011  |
-|      France        |   2021 avril       | 10.0.20      |   Amélioration de l’export de l’archivage des données françaises (FEC)  |
-|      Allemagne        |   2021 mars       | 10.0.19      |   Extensions GDPDU pour la table et les transactions des immobilisations  |
-|      Allemagne        |   2021 avril       | 10.0.20HF      |   Modifications du format de facturation électronique (xRechnung) en Allemagne depuis 2021  |
-|      Inde         |   2021 mars      | 10.0.19      |   Factures électroniques GST : commandes d’exportation, exportation présumée, SEZ  |
-|      Inde         |   2021 mars      | 10.0.19      |   Code QR Dynamics sur la facture B2C  |
-|      Inde         |   2021 juin      | 10.0.21      |   Nouvelle version de l’API pour la facture électronique (v.1.04)  |
-|      Italie         |   2021 mars      | 10.0.19      |   Modifications du format de communication des factures (Esterometro) v.2.1.1  |
-|      Italie        |   mai 2021      | 10.0.19      |   Retail - Mise à jour de l’exemple d’intégration d’imprimante fiscale pour prendre en charge le XML RT 2.0  |
-|      Italie         |   2021 mars      | 10.0.19      |   Retail - Activer les factures spécifiques à la vente au détail enfreignant la validation chronologique  |
-|      Italie         |   2021 février      | 10.0.19      |   Certification unique - 2021  |
-|      Oman         |   2021 juin      | 10.0.21      |   Déclaration de TVA  |
-|      Pologne          |   2021 juin     | 10.0.21     |   JPK_V7M (VDEK) - Amélioration des marquages procéduraux |
-|      Pologne          |   Juillet 2021     | 10.0.21     |   JPK-V7M - nouvelles règles de réalisation à partir de juillet 2021 |
-|      Russie          |   2021 mars     | 10.0.19    |   La déclaration de taxe foncière 2020 devra indiquer la valeur moyenne annuelle des immobilisations mobilières|
-|      Russie          |   2021 mars     | 10.0.19HF    |   Déclaration d’impôt sur les bénéfices version 5.09 pour la génération d’états 2020|
-|      Russie          |   2021 mars     | 10.0.19    |   Application du décret gouvernemental N 2200 21.12.2020 4 - nouveau format requis pour les factures de transport|
-|      Russie          |   2021 juin     | 10.0.21HF, 10.0.20HF, 10.0.19 HF    |   Modifications des mises en page imprimables des factures et des factures correctives|
-|      Espagne          |   Juillet 2021     | 10.0.21    |    Scénario OSS/IOSS - ClaveRegimenEspecialOTrascendencia = 17- KB4623605|
-|      Suède          |   Juillet 2021     | 10.0.21    |    Format de déclaration de TVA, y compris les montants de taxe au preneur|
-|      Émirats arabes unis   |   mai 2021     | 10.0.20    |   Validation du journal des paiements avec chèques postdatés sur le compte bancaire |
+|--------------------|---------------|-------|-------|
+|      Autriche         |   2020 septembre      | 10.0.15      |   Le format de déclaration de TVA U30 a été mis à jour pour la déclaration 2020   |
+|      Bahreïn         |   2020 juin      | 10.0.13      |   Délai d’émission de facture (GCC)   |
+|      Bahreïn         |   2020 septembre      | 10.0.13      |   Facture de projet pour le Bahreïn   |
+|      Bahreïn         |   2020 juin      | 10.0.13      |   Déclaration de TVA pour le Bahreïn – Activer la description de la transaction   |   
+|      Brésil         |   Août 2020      | 10.0.14, 10.0.13      |   Déclaration PR ADRCST   |
+|      Brésil         |   mai 2020      | 10.0.13      |   SPED ECF disposition 6   |
+|      Brésil         |   Juillet 2020      | 10.0.13      |   SPED Fiscal - Record C176 - RS State   |
+|      Brésil         |   2020 octobre      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 – Adoption des règles de validation sur code de prestation par Distrito Federal   |
+|      Brésil         |   2020 octobre      | 10.0.16      |   SPED fiscal – Disposition 015   |
+|      Brésil         |   novembre 2020      | 10.0.15HF      |   SPED Fiscal ICMS / IPI record C176 mise à jour pour l’état RS   |
+|      Brésil         |   2020 octobre      | 10.0.16      |   Déclaration SC DRCST – SEF 262/2020   |
+|      Brésil         |   2020 octobre      | 10.0.16      |   SPED Fiscal ICMS / IPI record C176   |
+|      République tchèque      |   Juillet 2020      | 10.0.13      |   Modifications du relevé de contrôle de la TVA dans le schéma XML (liste des factures)   |
+|      République tchèque         |   Juillet 2020      | 10.0.13      |   Déclaration de TVA au format XML, aperçu de la déclaration de TVA dans Excel et formats XML de déclaration de contrôle de TVA basés sur le modèle de déclaration de TVA   |
+|      Europe        |   Août 2020       | 10.0.14      |   Transférer l’ID TVA du partenaire vers la Déclaration d’échanges de biens  |
+|      Finlande         |   Juillet 2020       | 10.0.13      |   Prise en charge des factures électroniques pour la Finlande  |
+|      Inde         |   Juillet 2020      | 10.0.13      |   TCS sur les ventes de marchandises conformément à l’article 206C (1H) – Seuil selon l’accumulation de transactions basée sur le PAN.  |
+|      Inde         |   Août 2020, juin 2020      | 10.0.13      |   Note de crédit/débit contre facture d’exportation  |
+|      Inde         |   Août 2020      | 10.0.13      |   Factures électroniques sous GST  |
+|      Inde         |   Juillet 2020      | 10.0.13      |   Nouvel outil hors ligne GSTR (ANX-1 et ANX-2) (version bêta)  |
+|      Inde         |   2020 octobre      | 10.0.14HF, 10.0.13HF      |   Facture électronique sous TPS dans l’ordre de transfert de stock pour l’Inde|
+|      Inde         |   2020 octobre      | 10.0.14HF, 10.0.13HF      |   Facture électronique sous GST pour l’Inde avec plusieurs enregistrements GSTIN|
+|      Inde         |   2020 septembre      | 10.0.13HF      |   Taux de retenue à la source en 3/5 décimales|
+|      Inde         |   2020 septembre      | 10.0.14HF      |   Groupe de souches de N+ : "GSTNSG", type de transaction : "Facture de TPS" à configurer pour le groupe de souches de N° de référence de TPS d’informations fiscales "0073"|
+|      Italie         |   Juillet 2020      | 10.0.13      |   Modifications du format des factures électroniques italiennes - FatturaPA |
+|      Malaisie         |   Juillet 2020      | 10.0.13      |   État SST |
+|      Mexique         |   2020 septembre      | 10.0.13HF      |   Emplacement du schéma d’URL CFDI basé sur le document Anexo 20 |
+|      Pays-Bas         |   2020 octobre      | 10.0.16     |   Le format Intrastat est mis à jour à partir de 2021 |
+|      Norvège         |   Août 2020      | 10.0.14     |   SAF-T – le niveau de regroupement des transactions par "N° document" doit être déclaré au niveau de l’élément "Transaction" au lieu de "Journal" |
+|      Pologne          |   2020 septembre     | 10.0.14     |   Pologne : Format Excel JPK-V7M (VDEK) – pour remplacer la déclaration SSRS  |
+|      Pologne          |   Juillet 2020     | 10.0.15, 10.0.14HF, 10.0.13     |   Améliorations du paiement fractionné volontaire |
+|      Pologne          |   2020 octobre     | 10.0.13HF     |   Améliorations du paiement fractionné obligatoire |
+|      Pologne          |   novembre 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) – Type de document de vente PF et RO pour les transactions de détail |
+|      Pologne          |   2020 septembre     | 10.0.15     |   Pologne : JPK-V7M (VDEK) – débloquer la possibilité d’exécuter la génération de rapport par pièces |
+|      Pologne          |   2020 octobre     | 10.0.16     |   Rapport JPK-V7M (VDEK) – Adoption du paramètre ’Paiement fractionné volontairement’ |
+|      Russie          |   Août 2020     | 10.0.14    |   Le format des états comptables change à partir de l’année 2020  |
+|      Russie          |   Juillet 2020     | 10.0.13    |   Calcul de l’amortissement sur la base du coût d’acquisition et des grosses réparations avec application de la prime d’amortissement en comptabilité fiscale  |
+|      Russie          |   novembre 2020     | 10.0.16    |   Le format de déclaration de TVA est mis à jour vers la version 5.07 à partir du reporting pour le T4 2020|
 
 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-- Pour plus d’informations sur toutes les mises à jour réglementaires spécifiques à chaque pays, prévues et publiées, consultez [Rechercher des mises à jour réglementaires spécifiques à un pays](search-for-regulatory-updates.md). (La connexion est requise.)
+- Recherchez toutes les mises à jour réglementaires prévues et publiées sur [Lifecycle Services - Recherche d’incidents](https://lcs.dynamics.com/Logon/Index) (connexion obligatoire).
 - Pour obtenir la liste des localisations prises en charge, voir [Guide international de disponibilité](https://aka.ms/dynamics_365_international_availability_deck).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,51 +1,47 @@
 ---
 title: Embauche d’un candidat via le recrutement
 description: Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique.
-author: twheeloc
-ms.date: 01/10/2022
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: anbichse
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 120fc00de7b66490c491d70b38aae79190de708f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075371"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797281"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Embauche d’un candidat via le recrutement
 
 [!include [banner](../../includes/banner.md)]
 
-> [!IMPORTANT]
-> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients des ressources humaines sur l’infrastructure Finance.  
+Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l’enregistrement du candidat aura le statut Employé. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour terminer cette procédure, allez dans : Ressources humaines > Recrutement > Candidatures > Candidatures 
 
+1. Sélectionner une candidature pour un candidat externe
+2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+3. Cliquez sur Statut de la candidature.
+4. Cliquez sur Engager un nouveau collaborateur.
+5. Entrez une date et une heure dans le champ Date de début de l’emploi.
+6. Dans le champ Poste, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
+8. Entrez une date et une heure dans le champ Début d’affectation.
+9. Cliquez sur Engager un nouveau collaborateur.
+10. Développez le récapitulatif Historique des emplois.
+11. Développez le récapitulatif Postes actuels.
+12. Développez le récapitulatif Historique des emplois.
+13. Développez le récapitulatif Postes actuels.
+14. Développez ou réduisez la section Adresses.
+15. Développez ou réduisez la section la section Informations sur le contact.
+16. Développez ou réduisez la section la section Informations personnelles.
 
-Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l’enregistrement du candidat a le statut **Employé**. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.
-
-1. Accédez à **Human resources \> Recrutement \> Candidatures \> Candidatures**. 
-2. Sélectionnez une candidature pour un candidat externe.
-3. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
-4. Sélectionnez **Statut de la candidature**.
-5. Sélectionnez **Embaucher un nouveau collaborateur**.
-6. Dans le champ **Date de début de l’emploi**, entrez une date et une heure.
-7. Dans le champ **Poste**, cliquez sur la flèche de liste déroulante pour ouvrir la recherche.
-8. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
-9. Entrez une date et une heure dans le champ **Début d’affectation**.
-10. Sélectionnez **Embaucher un nouveau collaborateur**.
-11. Développez le récapitulatif **Historique des emplois**.
-12. Développez le récapitulatif **Postes actuels**.
-13. Développez le récapitulatif **Historique des emplois**.
-14. Développez le récapitulatif **Postes actuels**.
-15. Développez ou réduisez la section **Adresses**.
-16. Développez ou réduisez la section la section **Informations sur le contact**.
-17. Développez ou réduisez la section la section **Informations personnelles**.
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

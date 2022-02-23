@@ -1,44 +1,47 @@
 ---
 title: Nomenclature de numéros et de noms de variante de produit
-description: Cette rubrique décrit la procédure de paramétrage d’une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe.
-author: t-benebo
+description: Cette rubrique décrit la procédure de paramétrage d'une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe.
+author: roxanadiaconu
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569695"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427658"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclature de numéros et de noms de variante de produit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la procédure de paramétrage d’une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d’identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix.
+Cette rubrique décrit la procédure de paramétrage d'une nomenclature de numéros de produit pour remplacer le format [Numéro du produit générique - Configuration - Taille - Couleur - Style] fixe. La nouvelle nomenclature a un format ciblé qui inclut le numéro du produit générique, les dimensions du produit actif et les séparateurs de texte de votre choix. Vous pouvez également créer une nomenclature pour les noms de produit. Enfin, vous pouvez créer une nomenclature afin d'identifier les configurations créées par le configurateur de produit basé sur les contraintes. Ces nomenclatures peuvent contenir des attributs de votre choix.
 
-Les nouvelles nomenclatures des numéros et des noms de variante de produit vous permettent d’inclure des segments dans les identificateurs des variantes de produit. Ces segments peuvent inclure le numéro et le nom du produit générique, les ID et noms de dimension de produit, les souches de numéros, les constantes de texte et les attributs. Cette fonctionnalité vous permet de rechercher rapidement une variante de produit spécifique lorsque vous créez une commande client ou fournisseur. Vous créez des nomenclatures pour les numéros et les noms de variante de produit à l’aide de la page **Nomenclature de produit**. Pour ouvrir cette page, cliquez sur **Gestion des informations sur les produits** &gt; **Paramétrage**.
+Les nouvelles nomenclatures des numéros et des noms de variante de produit vous permettent d'inclure des segments dans les identificateurs des variantes de produit. Ces segments peuvent inclure le numéro et le nom du produit générique, les ID et noms de dimension de produit, les souches de numéros, les constantes de texte et les attributs. Cette fonctionnalité vous permet de rechercher rapidement une variante de produit spécifique lorsque vous créez une commande client ou fournisseur. Vous créez des nomenclatures pour les numéros et les noms de variante de produit à l'aide de la page **Nomenclature de produit**. Pour ouvrir cette page, cliquez sur **Gestion des informations sur les produits** &gt; **Paramétrage**.
 
 ## <a name="nomenclature-of-predefined-product-variants"></a>Nomenclature de variantes de produit prédéfinies
-Les variantes de produit sont générées pour les produits génériques selon l’une des trois technologies de configuration suivantes :
+Les variantes de produit sont générées pour les produits génériques selon l'une des trois technologies de configuration suivantes :
 
 -   Variantes prédéfinies
 -   Basé sur les contraintes
 -   Basé sur les dimensions
 
-Chaque variante de produit dispose d’un numéro et d’un nom, et les nomenclatures d’identification de la variante de produit vous permet de sélectionner les segments qui seront inclus dans chaque numéro ou nom de variante de produit. Vous pouvez sélectionner les segments suivants sur la page **Nomenclature de produit** :
+Chaque variante de produit dispose d'un numéro et d'un nom, et les nomenclatures d'identification de la variante de produit vous permet de sélectionner les segments qui seront inclus dans chaque numéro ou nom de variante de produit. Vous pouvez sélectionner les segments suivants sur la page **Nomenclature de produit** :
 
 -   Numéro du produit générique
 -   Nom du produit générique
@@ -50,7 +53,7 @@ Chaque variante de produit dispose d’un numéro et d’un nom, et les nomencla
     -   Nom ou ID taille
     -   Nom ou ID style
 
-Une fois que vous définissez une nomenclature de numéros d’identification de variante de produit, vous pouvez l’associer à un groupe de dimensions de produit. Des numéros de variante de produit sont affectés à tous les produits génériques qui font référence à ce groupe de dimensions de produit en fonction de la nomenclature. Toutefois, les nomenclatures de noms de variante de produit ne peuvent pas être associées à des groupes de dimensions de produit. Vous pouvez également affecter une nomenclature d’identification de variante de produit directement à un produit générique. Dans ce cas, des numéros et des noms de variante de produit sont affectés aux variantes de produit qui appartiennent au produit générique en fonction des nomenclatures.
+Une fois que vous définissez une nomenclature de numéros d'identification de variante de produit, vous pouvez l'associer à un groupe de dimensions de produit. Des numéros de variante de produit sont affectés à tous les produits génériques qui font référence à ce groupe de dimensions de produit en fonction de la nomenclature. Toutefois, les nomenclatures de noms de variante de produit ne peuvent pas être associées à des groupes de dimensions de produit. Vous pouvez également affecter une nomenclature d'identification de variante de produit directement à un produit générique. Dans ce cas, des numéros et des noms de variante de produit sont affectés aux variantes de produit qui appartiennent au produit générique en fonction des nomenclatures.
 
 ### <a name="example"></a>Exemple
 
@@ -71,24 +74,24 @@ Pour les configurations basées sur les contraintes, vous pouvez créer une nome
 
 -   Valeur de souche de numéros
 -   Texte constant
--   Valeur d’attribut
+-   Valeur d'attribut
 
-Chaque composant d’un modèle de configuration de produit peut avoir sa propre nomenclature de configuration. Seuls les attributs appartenant au composant peuvent être utilisés. Les attributs des sous-composants ou des exigences client ne peuvent pas être utilisés.
+Chaque composant d'un modèle de configuration de produit peut avoir sa propre nomenclature de configuration. Seuls les attributs appartenant au composant peuvent être utilisés. Les attributs des sous-composants ou des exigences client ne peuvent pas être utilisés.
 
 ### <a name="example"></a>Exemple
 
-Un modèle de configuration de produit dispose d’un composant racine avec deux attributs :
+Un modèle de configuration de produit dispose d'un composant racine avec deux attributs :
 
 -   Matières (plastique, bois, acier)
 -   Longueur (10... 100)
 
 Vous créez une nomenclature de configuration qui comporte les segments suivants :
 
-1.  Valeur d’attribut : Matières
+1.  Valeur d'attribut : Matières
 2.  Constante de texte : "AAA"
-3.  Valeur d’attribut : Longueur
+3.  Valeur d'attribut : Longueur
 
-Dans ce cas, l’ID de configuration des matières en bois avec une longueur de 78 est WoodAAA78.
+Dans ce cas, l'ID de configuration des matières en bois avec une longueur de 78 est WoodAAA78.
 
 ## <a name="nomenclature-of-dimension-based-configurations"></a>Nomenclature des configurations basées sur les dimensions
 Pour les configurations basées sur les dimensions, vous pouvez créer une nomenclature dédiée pour la dimension de produit de configuration. Vous pouvez sélectionner les segments suivants sur la page **Nomenclature de produit** :
@@ -118,16 +121,16 @@ Vous créez une nomenclature de configuration qui comporte les segments suivants
 2.  Constante de texte : "&"
 3.  Groupe de configurations : Grille avant
 
-Dans ce cas, l’ID de configuration d’un meuble standard avec grille avant en tissu est M0007&M0021.
+Dans ce cas, l'ID de configuration d'un meuble standard avec grille avant en tissu est M0007&M0021.
 
-## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclature d’une combinaison de variantes de produit et de configurations
+## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclature d'une combinaison de variantes de produit et de configurations
 Lorsque vous utilisez la technologie de configuration basée sur les contraintes ou basée sur les dimensions pour configurer des variantes de produit pour un produit générique, les numéros des variantes de produit peuvent inclure la nomenclature de la dimension de configuration. Pour configurer les variantes, procédez comme suit :
 
 1.  Sur la page **Nomenclature de produit**, définissez une nomenclature de numéros de variante de produit qui contient la dimension de configuration.
 2.  Affectez la nomenclature à un groupe de dimensions de produit qui inclut la dimension de configuration.
 3.  Définissez une nomenclature de configuration pour les composants ou les nomenclatures qui seront utilisées pour configurer les variantes de produit.
 
-Vous pouvez également créer des nomenclatures pour les noms de variante de produit. Les noms de variante de produit peuvent être configurés pour inclure l’ID ou le nom de configuration.
+Vous pouvez également créer des nomenclatures pour les noms de variante de produit. Les noms de variante de produit peuvent être configurés pour inclure l'ID ou le nom de configuration.
 
 ### <a name="example-for-constraint-based-configurations"></a>Exemple de configurations basées sur des contraintes
 
@@ -139,9 +142,9 @@ Pour cet exemple, vous pouvez utiliser une nomenclature de numéros de variante 
 
 La nomenclature de configuration comporte les segments suivants :
 
-1.  Valeur d’attribut : Matières
+1.  Valeur d'attribut : Matières
 2.  Constante de texte : "AAA"
-3.  Valeur d’attribut : Longueur
+3.  Valeur d'attribut : Longueur
 
 Entrez les valeurs suivantes pour les segments :
 
@@ -174,7 +177,7 @@ Entrez les valeurs suivantes pour les segments :
 Dans ce cas, le numéro de variante de produit est D0123//M0008&M0022.
 
 ## <a name="numbering-conflicts"></a>Conflits de numérotation
-Dans certains cas, une nomenclature de numéros de variante de produit que vous paramétrez peut ne pas produire des numéros de variante de produit uniques. Par exemple, les numéros de variante de produit ne sont pas uniques si une dimension de produit active n’est pas incluse dans la nomenclature d’un produit générique qui utilise la technologie de configuration de variante prédéfinie. La façon dont vous gérez les conflits varie selon la technologie de configuration.
+Dans certains cas, une nomenclature de numéros de variante de produit que vous paramétrez peut ne pas produire des numéros de variante de produit uniques. Par exemple, les numéros de variante de produit ne sont pas uniques si une dimension de produit active n'est pas incluse dans la nomenclature d'un produit générique qui utilise la technologie de configuration de variante prédéfinie. La façon dont vous gérez les conflits varie selon la technologie de configuration.
 
 ### <a name="predefined-variants"></a>Variantes prédéfinies
 
@@ -182,18 +185,16 @@ Une erreur se produit si vous essayez de créer manuellement ou de générer aut
 
 ### <a name="constraint-based-configurations"></a>Configurations basées sur les contraintes
 
-Selon la nomenclature, le système peut tenter d’affecter un numéro de variante de produit non unique à une configuration. Dans ce cas, le système utilise la souche de numéros de la dimension de configuration comme numéro de variante de produit à la place. Vous recevrez alors un avertissement. Pour éviter ce scénario, vous devez inclure assez d’attributs dans la nomenclature pour garantir que les numéros de variable de produit sont uniques. Vous devez également vous assurer que l’option **Réutilisation** est activée pour le composant.
+Selon la nomenclature, le système peut tenter d'affecter un numéro de variante de produit non unique à une configuration. Dans ce cas, le système utilise la souche de numéros de la dimension de configuration comme numéro de variante de produit à la place. Vous recevrez alors un avertissement. Pour éviter ce scénario, vous devez inclure assez d'attributs dans la nomenclature pour garantir que les numéros de variable de produit sont uniques. Vous devez également vous assurer que l'option **Réutilisation** est activée pour le composant.
 
 ### <a name="dimension-based-configurations"></a>Configurations basées sur les dimensions
 
-Au cours d’une étape du processus de configuration, le système suggère une valeur de configuration selon la nomenclature. À cette étape, vous pouvez modifier manuellement la valeur de la configuration. Lorsque vous enregistrez la configuration, le système vérifie que la valeur de configuration est unique. Si la valeur entrée n’est pas unique, vous recevez un message d’erreur. Pour enregistrer la configuration, vous devez entrer une valeur de configuration unique.
+Au cours d'une étape du processus de configuration, le système suggère une valeur de configuration selon la nomenclature. À cette étape, vous pouvez modifier manuellement la valeur de la configuration. Lorsque vous enregistrez la configuration, le système vérifie que la valeur de configuration est unique. Si la valeur entrée n'est pas unique, vous recevez un message d'erreur. Pour enregistrer la configuration, vous devez entrer une valeur de configuration unique.
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
 [Créer une nomenclature de numéro de produit pour les variantes de produit prédéfinies](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Créer une nomenclature de numéros de produit pour des variantes de produit configurées](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

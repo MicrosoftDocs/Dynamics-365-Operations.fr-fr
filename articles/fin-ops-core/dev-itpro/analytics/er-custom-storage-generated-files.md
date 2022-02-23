@@ -2,9 +2,11 @@
 title: Spécifier des emplacements de stockage personnalisé pour les documents générés
 description: Cette rubrique explique comment étendre la liste des emplacements de stockage pour les documents qui sont générés aux formats des états électroniques.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594907"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680756"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Spécifier des emplacements de stockage personnalisé pour les documents générés
 
@@ -27,7 +29,7 @@ L’API de la structure des états électroniques permet d’étendre la liste d
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Déployez une topologie prenant en charge l’élaboration continue. Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Vous devez également avoir accès à cette topologie pour l’un des rôles suivants :
+Déployez une topologie prenant en charge l’élaboration continue. Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Vous devez également avoir accès à cette topologie pour l’un des rôles suivants :
 
 - Développeur d’états électroniques
 - Consultant fonctionnel des états électroniques
@@ -41,7 +43,7 @@ Toutes les tâches de cette rubrique peuvent être effectuées dans l’entrepri
 
 Pour générer les documents pour lesquels vous prévoyez d’ajouter un emplacement de stockage personnalisé, [importez](er-download-configurations-global-repo.md) la configuration du format ER **Reprise des immobilisations** dans la topologie actuelle.
 
-![Page du référentiel de configuration.](./media/er-custom-storage-generated-files-import-format.png)
+![Page du référentiel de configuration](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Exécuter l’état de récupération d’immobilisation
 
@@ -52,7 +54,7 @@ Pour générer les documents pour lesquels vous prévoyez d’ajouter un emplace
 5. Dans le champ **Mappage de format**, sélectionnez **Reprise des immobilisations**.
 6. Cliquez sur **OK**.
 
-![Boîte de dialogue de runtime pour l’état de reprise des immobilisations.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Boîte de dialogue de runtime pour le rapport de reprise des immobilisations](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Dans Microsoft Excel, examinez le document sortant généré et disponible pour téléchargement. Ce comportement est le [comportement par défaut](electronic-reporting-destinations.md#default-behavior) pour un format ER pour lequel aucune [destination](electronic-reporting-destinations.md) n’est configurée, et qui s’exécute en mode interactif.
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifier la classe `AssetRollForwardService` existante et écrivez du code pour configurer une fabrique de destination personnalisée pour le générateur de rapports. Notez que lorsqu’une fabrique de destination personnalisée est construite, le paramètre piloté par l’application qui spécifie un dossier cible est transmis. De cette manière, ce dossier cible est utilisé pour stocker les fichiers générés.
 
     > [!NOTE] 
-    > Assurez-vous que le dossier spécifié (**c:\\0** dans cet exemple) est présent dans le système de fichiers local du serveur qui exécute le service AOS. Sinon, une exception [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) sera levée lors de l’exécution.
+    > Assurez-vous que le dossier spécifié (**c:\\0** dans cet exemple) est présent dans le système de fichiers local du serveur qui exécute le service AOS. Sinon, une exception [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) sera levée lors de l’exécution.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Page d’accueil Extensibilité](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

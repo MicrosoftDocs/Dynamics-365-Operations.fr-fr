@@ -2,24 +2,27 @@
 title: Pénalités pour les paiements client en retard en France
 description: En France, vous pouvez appliquer une pénalité lorsqu’un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d’échéance du paiement.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 31221
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0eb9d756deb80e12c3a7302bebd95860fb5930ba03b42e28e1c93cb20a6fe012
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb81250a7c9ae106292dc9efb5faf050c23650ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407955"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 
@@ -27,7 +30,8 @@ ms.locfileid: "6747062"
 
 En France, vous pouvez appliquer une pénalité lorsqu’un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d’échéance du paiement. 
 
-## <a name="what-is-lump-sum-recovery-text"></a>Qu’est-ce que le texte récupéré du montant forfaitaire ?
+<a name="what-is-lump-sum-recovery-text"></a>Qu’est-ce que le texte récupéré du montant forfaitaire ?
+-------------------------------
 
 Le texte récupéré du montant forfaitaire affiche le montant de pénalité et la date d’échéance du paiement. Le montant de pénalité est appliqué si le paiement a lieu après la date d’échéance. Le texte récupéré du montant forfaitaire est imprimé sur la facture client. Vous pouvez spécifier le montant de pénalité et la devise avec toute instruction dans le champ Texte récupéré du montant forfaitaire de la zone Facture de l’écran Paramétrage d’écran.
 
@@ -48,6 +52,3 @@ Lorsque vous avez paramétré l’impression du texte récupéré du montant for
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

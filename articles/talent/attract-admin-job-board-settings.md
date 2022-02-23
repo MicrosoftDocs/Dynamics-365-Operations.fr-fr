@@ -51,6 +51,3 @@ Vous souhaitez présenter vos postes vacants à autant de candidats qualifiés q
 
 > [!NOTE]
 > Microsoft et Attract ne sont pas impliqués dans la création et la conservation de ces valeurs. Il est de votre responsabilité de les garder à jour dans Attract et de faire appel à Broadbean pour résoudre éventuels les problèmes impliquant vos informations d'identification.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

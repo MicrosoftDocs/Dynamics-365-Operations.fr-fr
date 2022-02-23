@@ -1,26 +1,29 @@
 ---
 title: Déplacer des lignes de commande de service
 description: Déplacer des lignes de commande de service.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cb1467284223ba12c777db808980fd3eb592cf3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5aef889641a677838dcebe97451e057f2bfbeada
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576470"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427801"
 ---
 # <a name="move-service-order-lines"></a>Déplacer des lignes de commande de service 
 
@@ -31,9 +34,9 @@ ms.locfileid: "7576470"
 
 2.  Double-cliquez sur la commande de service qui contient les lignes à déplacer vers une autre commande de service.
 
-3.  Dans l’écran **Commandes de service**, dans le volet Actions, cliquez sur le bouton **Déplacer des lignes**.
+3.  Dans l'écran **Commandes de service**, dans le volet Actions, cliquez sur le bouton **Déplacer des lignes**.
 
-4.  Dans l’écran **Déplacer des lignes de commande de service**, dans le champ **Commande de service**, sélectionnez la commande de service vers laquelle déplacer les lignes.
+4.  Dans l'écran **Déplacer des lignes de commande de service**, dans le champ **Commande de service**, sélectionnez la commande de service vers laquelle déplacer les lignes.
 
 5.  Activez la case à cocher **Supprimer la commande de service vide** pour supprimer la commande de service à partir de laquelle vous avez déplacé les lignes de commande de service.
 
@@ -52,6 +55,3 @@ ms.locfileid: "7576470"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

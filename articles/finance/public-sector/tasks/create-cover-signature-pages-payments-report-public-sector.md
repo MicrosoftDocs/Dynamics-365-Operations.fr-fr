@@ -2,24 +2,27 @@
 title: Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
 description: Lorsque vous créez les pages de couverture et de signature pour un état de paiement, vous pouvez spécifier les informations qui doivent y figurer.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendCoverPageLayout
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 73775be827ad685c9d29577e88151a0885a1b57289b8f95b24dc34bb33dacd37
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: be5aab4984edd1ee930d1d0e6203c2b75c6bea26
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766910"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407971"
 ---
 # <a name="create-cover-and-signature-pages-for-a-payments-report-for-the-public-sector"></a>Créer une couverture et des pages de signature pour un état de paiement pour le secteur public
 
@@ -37,6 +40,3 @@ Lorsque vous créez les pages de couverture et de signature pour un état de pai
     * Si nécessaire, ajoutez des noms supplémentaires, puis sélectionnez les options que vous souhaitez.  
 8. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

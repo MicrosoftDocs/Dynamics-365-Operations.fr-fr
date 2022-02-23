@@ -2,9 +2,11 @@
 title: FAQ relatif aux carnets d’adresses
 description: Cette rubrique donne des réponses aux questions fréquentes relatives aux carnets d’adresses.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463618"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796896"
 ---
 # <a name="address-books-faq"></a>FAQ sur les carnets d’adresses
 
@@ -65,13 +67,3 @@ Vous pouvez entrer des enregistrements de parties soit dans le carnet d’adress
 ## <a name="can-i-translate-address-information-for-party-records"></a>Puis-je traduire les informations d’adresse pour les enregistrements de partie ?
 
 Vous pouvez paramétrer des traductions des informations d’adresse afin que les informations s’affichent dans votre langue d’utilisateur (langue du système) dans votre programme, mais dans une autre langue sur les documents tels que les commandes client. Vous pouvez entrer des traductions pour les noms de pays/régions, les objets d’adresse et les séquences de nom. Par exemple, la langue du système est le Danois et vous créez une commande client pour un client en France. Dans ce cas, vous pouvez afficher l’enregistrement client en danois dans le programme mais afficher les informations d’adresse en français sur la commande client imprimée. Lorsque vous paramétrez des traductions, vous devez entrer une traduction pour chaque article de la liste. Tout article pour lequel vous n’entrez pas de traduction s’affichera dans la langue du système. Par exemple, la langue du système est le Danois et vous envoyez un document à un client en Espagne. Si vous n’avez pas entré de traductions en espagnol (ESP) pour les informations d’adresse, ces informations s’affichent en danois dans le programme et sur le document imprimé.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Après avoir importé des adresses, pourquoi ne puis-je pas modifier les enregistrements ?
-
-Lorsque vous importez des adresses, il existe un champ nommé **IsLocationOwner**. Ce champ indique si la partie associée à l'emplacement (adresse) est le propriétaire de l'adresse. Si la partie est le propriétaire de l’adresse, l’adresse peut être modifiée lorsque vous y utilisez la partie dans le carnet d’adresses global ou à partir de la page d’enregistrement principal (tel que client, fournisseur ou collaborateur). Si la partie n'est pas le propriétaire de l'adresse, l'enregistrement ne peut pas être modifié. 
-
-Lors de l’importation d’adresses, le champ **IsLocationOwner** doit être défini sur **Oui** si vous souhaitez que l’adresse soit modifiable à l’aide de la partie associée. Si ce champ est importé de manière incorrecte, le propriétaire de l'emplacement peut être mis à jour dans le carnet d'adresses global.
-
-Pour plus d'informations sur la façon de modifier le propriétaire de l'emplacement d'une adresse importée, consultez [Gérer les propriétaires des emplacements](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

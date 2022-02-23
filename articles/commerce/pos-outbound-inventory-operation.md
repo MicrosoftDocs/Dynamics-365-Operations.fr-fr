@@ -2,13 +2,16 @@
 title: Opération de stock sortant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l’opération de stock sortant dans le point de vente (PDV).
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412154"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
@@ -71,7 +74,7 @@ Les traitements par lots que vous créez seront utilisés pour traiter les docum
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Condition préalable : ajouter une opération sortante à la mise en page de l’écran du PDV
 
-Avant que votre organisation puisse utiliser la fonctionnalité Opération sortante, elle doit configurer l’opération PDV **Opération sortante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
+Avant que votre organisation puisse utiliser la fonctionnalité Opération sortante, elle doit configurer l’opération PDV **Opération sortante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -116,7 +119,7 @@ Dans la vue **Liste complète des commandes**, vous pouvez sélectionner manuell
 
 ### <a name="over-delivery-shipping-validations"></a>Validations d’expédition pour livraison excessive
 
-Les validations se produisent pendant le processus d'exécution pour les lignes de document. Elles comprennent les validations pour livraison excessive. Si un utilisateur tente d'expédier plus de stock que à ce qui a été commandé sur un ordre de transfert, mais la livraison excessive n’est pas configurée ou la quantité expédiée dépasse la tolérance de livraison excessive configurée pour la ligne de commande à transférer, l’utilisateur reçoit une erreur et n’est pas autorisé à expédier la quantité excédentaire.
+Les validations se produisent pendant le processus de réception pour les lignes de document. Elles comprennent les validations pour livraison excessive. Si un utilisateur tente de recevoir plus de stock que à ce qui a été commandé sur une commande fournisseur, mais la livraison excessive n’est pas configurée ou la quantité reçue dépasse la tolérance de livraison excessive configurée pour la ligne de commande fournisseur, l’utilisateur reçoit une erreur et n’est pas autorisé à recevoir la quantité excédentaire.
 
 ### <a name="underdelivery-close-lines"></a>Lignes de clôture de livraison incomplète
 
@@ -190,6 +193,3 @@ Les ordres de transfert entièrement expédiés sont déplacés vers l’onglet 
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Opération de stock entrant dans le PDV](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

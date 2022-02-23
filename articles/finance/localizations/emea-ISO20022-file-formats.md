@@ -1,24 +1,27 @@
 ---
 title: Importer des fichiers ISO20022
 description: Cette rubrique explique comment importer des fichiers de paiement au format camt.054 et pain.002 de la norme ISO 20022 dans Microsoft Dynamics 365 Finance.
-author: anasyash
+author: neserovleo
+manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 19b9e90ac42c496931c2fc936a25ee3b1b16ce58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592603"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407932"
 ---
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
@@ -85,7 +88,7 @@ Vous devez effectuer les tâches préalables suivantes avant d’importer les me
 
 ## <a name="import-the-pain002-status-return-or-camt054-debit-advice-files-into-the-vendor-payment-journal"></a>Importez les fichiers de retour de statut pain.002 ou d’avis de débit camt.054 dans le journal des paiements fournisseur
 1. Ouvrez la page **Transferts de paiement** dans le menu Comptabilité fournisseur.
-2. Dans la page **Transferts de paiement**, cliquez sur **Fichier retourné – fournisseur**.
+2. Dans la page **Transferts de paiement**, cliquez sur **Fichier retourné - fournisseur**.
 3. Sélectionnez le mode de paiement incluant les paramètres requis pour les fichiers ISO20022, puis cliquez sur **OK**.
 4. Sélectionnez le format de fichier que vous envisagez d’importer, puis cliquez sur **OK**.
 5. Indiquez les paramètres requis et le chemin d’accès du fichier, puis cliquez sur **OK**.
@@ -114,7 +117,7 @@ Lorsque vous importez une configuration de format à partir de LCS, vous importe
  - **Pain.002** – Ce format est utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour importer le fichier pain.002 dans le journal des transferts de paiements fournisseur
  - **Camt.054** – Ce format est utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour importer le fichier camt.054 dans le journal des transferts de paiements fournisseur. La même configuration de format sera utilisée dans la fonctionnalité d’importation de paiements client, mais une mise en correspondance différente sera utilisée dans la configuration de la mise en correspondance du modèle de paiement avec la destination ISO20022.
 
-Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble des états électroniques](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
+Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
@@ -126,6 +129,3 @@ Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble
 - [Paramétrer le mode de paiement pour les virements ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Configurer le mode de paiement pour le débit direct ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

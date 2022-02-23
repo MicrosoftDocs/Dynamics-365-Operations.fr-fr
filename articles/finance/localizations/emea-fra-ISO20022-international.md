@@ -1,24 +1,27 @@
 ---
 title: Conditions préalables au format de virement ISO 20022
 description: Cette rubrique fournit des informations sur l’importation des exigences nécessaires pour définir le format de paiement ISO20022 (FR) (pain.001).
-author: anasyash
+author: neserovleo
+manager: AnnBe
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: France
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 395ef6bdbb7f4604a8f8f50374286c2d8cfeac4d
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: fb943cc245a16f8325ac5f3ff6b0a8508f7e2c2f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592651"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407954"
 ---
 # <a name="prerequisites-for-iso-20022-credit-transfer-format"></a>Conditions préalables au format de virement ISO 20022
 
@@ -37,6 +40,3 @@ Pour plus d’informations sur le processus d’importation, voir [Importer la c
 - [Paramétrer le mode de paiement pour les virements ISO20022](tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](tasks/set-up-vendor-iso20022-credit-transfers.md)
 - [Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

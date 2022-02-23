@@ -1,13 +1,16 @@
 ---
 title: Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
 description: Cette rubrique décrit la création de commandes basée sur un flux en continu pour les transactions en magasin dans Microsoft Dynamics 365 Commerce.
-author: analpert
-ms.date: 01/11/2021
+author: josaw1
+manager: AnnBe
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,53 +18,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964627"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459024"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Création de commandes basée sur un flux en continu pour les transactions du magasin de vente au détail
 
 [!include [banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 Commerce version 10.0.5 et versions ultérieures, nous vous recommandons de faire passer tous les processus de validation des relevés aux processus de validation des relevés basés sur un flux en continu. Des performances et des avantages commerciaux importants sont associés à l’utilisation de la fonctionnalité de flux en continu. Les transactions de vente sont traitées tout au long de la journée. Les opérations d’appel d’offres et de gestion de trésorerie sont traitées sur le tableau d’analyse en fin de journée. La fonctionnalité de flux en continu permet le traitement continu des commandes client, des factures et des paiements. Par conséquent, les stocks, les revenus et les paiements sont mis à jour et reconnus en temps quasi réel.
+Dans Dynamics 365 Retail versions 10.0.4 et antérieures, la validation des relevés est une opération effectuée en fin de journée et toutes les transactions sont validées dans les registres en fin de journée. Les transactions volumineuses doivent ensuite être traitées dans un intervalle de temps limité, ce qui crée parfois une charge, des verrous et des échecs de validation des relevés. Les détaillants ne peuvent pas non plus constater le produit et les paiements dans leurs registres tout au long de la journée.
 
-## <a name="use-trickle-feed-based-posting"></a>Utilisation de la validation basée sur un flux en continu
+Avec la création de commandes basée sur un flux en continu introduite dans Retail version 10.0.5, les transactions sont traitées tout au long de la journée, et seul le rapprochement financier des modes de paiement et d’autres transactions de gestion des disponibilités sont traités en fin de journée. Cette fonctionnalité fractionne la charge de création des commandes client, des factures et des paiements tout au long de la journée, ce qui offre de meilleures performances perçues ainsi que la possibilité de constater le produit et les paiements dans les registres en temps quasi réel. 
 
-> [!IMPORTANT]
-> Avant d’activer la validation basée sur un flux en continu, vous devez vous assurer qu’il n’y a pas de relevés calculés et non validés. Validez tous les relevés avant d’activer la fonctionnalité. Vous pouvez vérifier les relevés ouverts dans l’espace de travail **Finances du magasin**.
 
-Pour activer la validation basée sur un flux en continu des transactions de vente au détail, activez la fonctionnalité **Relevés de vente au détail – Flux en continu** dans l’espace de travail **Gestion des fonctionnalités**. Les relevés sont fractionnés en deux types : relevés transactionnels et tableaux d’analyse.
+## <a name="how-to-use-trickle-feed-based-posting"></a>Utilisation de la validation basée sur un flux en continu
+  
+1. Pour activer la validation basée sur un flux en continu des transactions de vente au détail, activez la fonctionnalité nommée **Relevés de vente au détail – Flux en continu** à l’aide de la gestion des fonctionnalités.
 
-### <a name="transactional-statements"></a>Relevés transactionnels
+    > [!IMPORTANT]
+    > Avant d’activer cette fonctionnalité, assurez-vous qu’aucun relevé n’est en attente de validation.
 
-Le traitement des relevés transactionnels est conçu pour une exécution à une fréquence élevée au cours de la journée afin que les documents soient créés lorsque les transactions sont chargées dans Commerce Headquarters. Les transactions sont chargées des magasins vers Commerce Headquarters lorsque vous exécutez la **Tâche P**. Vous devez également exécuter la tâche **Valider les transactions en magasin** pour valider les transactions afin que le relevé transactionnel les récupère.
+2. Le document actuel du relevé est fractionné en deux types : relevé transactionnel et tableau d’analyse.
 
-Planifiez les tâches suivantes pour qu’elles s’exécutent à une fréquence élevée :
+      - Le relevé transactionnel prélève toutes les transactions non validées et validées et crée des commandes client, des factures client, des journaux de paiement et de remise, ainsi que des transactions de revenus/dépenses à la fréquence que vous configurez. Vous devez configurer ce processus pour qu’il s’exécute à une fréquence élevée afin que les documents soient créés lorsque les transactions sont chargées dans Headquarters via la tâche P. Avec le relevé transactionnel qui crée déjà des commandes client et des factures client, il n’est pas vraiment nécessaire de configurer le traitement par lots **Valider le stock**. Toutefois, vous pouvez toujours l’utiliser pour répondre aux besoins spécifiques de votre entreprise.  
+      
+     - Le tableau d’analyse est conçu pour être créé en fin de journée et prend uniquement en charge la méthode de clôture **Équipe**. Ce relevé est limité au rapprochement financier et crée uniquement les journaux pour les montants de différence entre le montant calculé et le montant de la transaction pour les différents modes de paiement, ainsi que les journaux pour d’autres transactions de gestion des disponibilités.   
 
-- Pour calculer un relevé transactionnel, exécutez la tâche **Calculer les relevés transactionnels par lots** (**Retail et Commerce \> IT Retail et Commerce \> Validation du PDV \> Calculer les relevés transactionnels par lots**). Ce travail récupérera toutes les transactions non validées et validées, puis les ajoutera à un nouveau relevé transactionnel.
-- Pour valider les relevés transactionnels dans un lot, exécutez la tâche **Valider les relevés transactionnels par lots** (**Retail et Commerce \> IT Retail et Commerce \> Validation du PDV \> Valider les relevés transactionnels par lots**). Cette tâche exécute le processus de validation et crée des commandes client, des factures de vente, des journaux de paiement, des journaux d’escompte et des transactions revenus-dépenses pour les relevés non validés qui ne contiennent aucune erreur. 
+3. Pour calculer le relevé transactionnel, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Calculer les relevés transactionnels par lots**. Pour valider les relevés transactionnels par lots, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Valider les relevés transactionnels par lots**.
 
-### <a name="financial-statements"></a>Tableaux d’analyse
+4. Pour calculer le tableau d’analyse, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Calculer les tableaux d’analyse par lots**. Pour valider les tableaux d’analyse par lots, accédez à **Retail et Commerce > IT Retail et Commerce > Validation du PDV > Valider les tableaux d’analyse par lots**.
 
-Le traitement du tableau d’analyse est censé être un processus de fin de journée. Ce type de traitement des relevés ne prend en charge que la méthode de clôture **Équipe** et ne prélève que les équipes fermées. Les relevés se limitent au rapprochement financier. Ils créent uniquement les journaux pour les montants de différence entre le montant calculé et le montant de la transaction pour les différents modes de paiement, ainsi que les journaux pour d’autres transactions de gestion des disponibilités.
+> [!NOTE]
+> Les options de menu **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Calculer les relevés par lots** et **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Valider les relevés par lots** sont supprimées avec cette nouvelle fonctionnalité.
 
-Les tableaux d’analyse permettent également de vérifier les transactions suivantes : transactions de comptage de caisse, transactions de paiement, transactions de paiement remises en banque et transactions de paiements remises en coffre-fort. La page de détails sur les offres est uniquement visible lorsqu’un tableau d’analyse est sélectionné.
-
-![Image affichant la section des détails sur les offres du formulaire des relevés validés uniquement lorsqu’un tableau d’analyse est sélectionné.](./media/Trickle-feed-posted-statements-transaction-view.png)
-
-Planifiez les heures de début et de fin des tâches de tableau d’analyse suivantes en fonction de la fin de journée prévue :
-
-- Pour calculer un tableau d’analyse, exécutez la tâche **Calculer les tableaux d’analyse par lots** (**Retail et Commerce \> IT Retail et Commerce \> Validation du PDV \> Calculer les tableaux d’analyse par lots**). Cette tâche collecte toutes les transactions financières non validées et les ajouter à un nouveau tableau d’analyse.
-- Pour valider des tableaux d’analyse par lots, exécutez la tâche **Valider les tableaux d’analyse par lots** (**Retail et Commerce \> IT Retail et Commerce \> Validation du PDV \> Valider les tableaux d’analyse par lots**).
-
-### <a name="manually-create-statements"></a>Créer manuellement des relevés
-
-Les types Relevé transactionnel et Tableau d’analyse peuvent également être créés manuellement. 
-
-1. Accédez à **Retail et Commerce \> Canaux \> Magasins**, puis sélectionnez **Relevés**. 
-2. Sélectionnez **Nouveau**, puis sélectionnez le type de relevé à créer. Les champs de la page **Relevés** affichent les données pertinentes pour le type de relevé sélectionné et les actions sous le champ **Groupe de relevés** de la page affichent les actions pertinentes.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Sinon, les types Relevé transactionnel et Tableau d’analyse peuvent être créés manuellement. Accédez à **Retail et Commerce > Canaux > Magasins** et cliquez sur **Relevés**. Cliquez sur **Nouveau**, puis choisissez le type de relevé à créer. Les champs de la page **Relevés** et les actions sous le champ **Groupe de relevés** de la page affichent des données et actions pertinentes selon le type de relevé sélectionné.

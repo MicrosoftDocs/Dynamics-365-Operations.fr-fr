@@ -1,28 +1,30 @@
 ---
-title: Créer et gérer des utilisateurs du portail client (contient une vidéo)
+title: Créer et gérer des utilisateurs du portail client
 description: Cette rubrique explique comment créer des comptes d’utilisateur du portail client et définir des autorisations pour eux.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062488"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528291"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Créer et gérer des utilisateurs du portail client
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dans l’implémentation prête à l’emploi, les utilisateurs ne peuvent pas s’auto-enregistrer pour les sites web créés à l’aide du portail client. Pour se connecter et utiliser un site Web, les utilisateurs doivent être invités par l’administrateur. Microsoft a intentionnellement bloqué la capacité des utilisateurs à s’auto-enregistrer.
 
@@ -33,38 +35,38 @@ Lorsque les utilisateurs s’auto-enregistrent, des enregistrements de contacts 
 ## <a name="video"></a>Vidéo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-La vidéo [Inviter les clients à s’enregistrer et à utiliser votre portail client](https://youtu.be/drGUYHX9QIQ) (présentée ci-dessus) est incluse dans la [liste de lecture Finances et Opérations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Inviter les clients à s’enregistrer et à utiliser votre portail client](https://youtu.be/drGUYHX9QIQ) (présentée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="prerequisite-setup"></a>Paramétrage requis au préalable
 
-Les contacts dans les portails Power Apps sont stockés sous forme d’enregistrements dans la table **Contacts** dans Microsoft Dataverse. La double écriture synchronise ensuite ces enregistrements avec Microsoft Dynamics 365 Supply Chain Management, selon les besoins.
+Les contacts dans les portails Power Apps sont stockés sous forme d’enregistrements dans l’entité **Contacts** dans Common Data Service. La double écriture synchronise ensuite ces enregistrements avec Microsoft Dynamics 365 Supply Chain Management, selon les besoins.
 
-![Schéma du système pour les contacts du portail client.](media/customer-portal-contacts.png "Schéma du système pour les contacts du portail client")
+![Schéma du système pour les contacts du portail client](media/customer-portal-contacts.png "Schéma du système pour les contacts du portail client")
 
-Avant de commencer à inviter de nouveaux clients, assurez-vous que vous avez activé le mappage de la table **Contact** en double écriture.
+Avant de commencer à inviter de nouveaux clients, assurez-vous que vous avez activé le mappage de l’entité **Contact** en double écriture.
 
 ## <a name="the-invitation-process"></a>Le processus d’invitation
 
-Pour inviter un contact existant sur le portail client, suivez les étapes de la section [Inviter des contacts sur vos portails](/powerapps/maker/portals/configure/invite-contacts) dans la documentation des portails Power Apps.
+Pour inviter un contact existant sur le portail client, suivez les étapes de la section [Inviter des contacts sur vos portails](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) dans la documentation des portails Power Apps.
 
-Avant d’inviter un client à rejoindre le portail client, assurez-vous que son [enregistrement de contact](/powerapps/maker/portals/configure/configure-contacts) est disponible et configuré de la manière suivante :
+Avant d’inviter un client à rejoindre le portail client, assurez-vous que son [enregistrement de contact](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) est disponible et configuré de la manière suivante :
 
 1. Définissez le champ **Société** sur l’entité juridique à laquelle vous souhaitez que le client appartienne dans Supply Chain Management.
 2. Définissez le champ **Numéro de compte** sur le numéro de compte client que vous souhaitez qu’ait le client dans Supply Chain Management.
 
 Une fois le contact créé, vous devriez pouvoir le voir dans Supply Chain Management.
 
-Pour plus d’informations, voir [Configurer un contact à utiliser dans un portail](/powerapps/maker/portals/configure/configure-contacts) dans la documentation des portails Power Apps.
+Pour plus d’informations, voir [Configurer un contact à utiliser dans un portail](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) dans la documentation des portails Power Apps.
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>Rôles web et autorisations de table prêts à l’emploi
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>Rôles web et autorisations d’entité prêts à l’emploi
 
-Les rôles utilisateur dans les portails Power Apps sont définis par les [rôles web](/powerapps/maker/portals/configure/create-web-roles) et les [autorisations de table](/powerapps/maker/portals/configure/assign-entity-permissions). Quelques rôles sont définis et prêts à l’emploi pour le portail client. Vous pouvez créer de nouveaux rôles et modifier ou supprimer des rôles existants.
+Les rôles utilisateur dans les portails Power Apps sont définis par les [rôles web](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) et les [autorisations d’entité](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Quelques rôles sont définis et prêts à l’emploi pour le portail client. Vous pouvez créer de nouveaux rôles et modifier ou supprimer des rôles existants.
 
 ### <a name="out-of-box-web-roles"></a>Rôles web prêts à l’emploi
 
 Cette section décrit les rôles web fournis avec le portail client.
 
-Pour plus d’informations sur la modification des rôles d’utilisateur prêts à l’emploi, consultez [Créer des rôles web pour les portails](/powerapps/maker/portals/configure/create-web-roles) et [Ajouter une sécurité basée sur les enregistrements en utilisant des autorisations de table pour les portails](/powerapps/maker/portals/configure/assign-entity-permissions) dans la documentation des portails Power Apps.
+Pour plus d’informations sur la modification des rôles d’utilisateur prêts à l’emploi, consultez [Créer des rôles web pour les portails](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) et [Ajouter une sécurité basée sur les enregistrements en utilisant des autorisations d’entité pour les portails](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) dans la documentation des portails Power Apps.
 
 #### <a name="administrator"></a>Administrator
 
@@ -88,12 +90,9 @@ Le tableau suivant montre quelles commandes client les utilisateurs de chaque r�
 
 | Commandes client | Administrator | Représentant client pour le client&nbsp;X | Utilisateur autorisé : Jane | Utilisateur autorisé : Sam | Utilisateur non autorisé : May |
 |---|---|---|---|---|---|
-| Client&nbsp;X Auteur de la commande :&nbsp;Jane | Oui | Oui | Oui | Non | Non |
-| Client&nbsp;X Auteur de la commande :&nbsp;Sam | Oui | Oui | Non | Oui | Non |
-| Client&nbsp;Y Auteur de la commande :&nbsp;May | Oui | Non | Non | Non | Non |
+| Client&nbsp;X Auteur de la commande :&nbsp;Jane | Oui | Oui | Oui | N° | N° |
+| Client&nbsp;X Auteur de la commande :&nbsp;Sam | Oui | Oui | N° | Oui | N° |
+| Client&nbsp;Y Auteur de la commande :&nbsp;May | Oui | N° | N° | N° | N° |
 
 > [!NOTE]
 > Même si Sam et Jane sont des contacts qui travaillent pour le client X, ils ne peuvent voir que les commandes qu’ils ont eux-mêmes passées et rien d’autre. Bien que May ait une commande dans le système, elle ne peut pas voir cette commande dans le portail client, car elle est un utilisateur non autorisé. (De plus, elle doit avoir passé la commande par un autre canal que le portail client.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

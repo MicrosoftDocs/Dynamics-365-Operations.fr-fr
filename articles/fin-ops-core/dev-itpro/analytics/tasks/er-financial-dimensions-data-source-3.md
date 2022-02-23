@@ -1,10 +1,12 @@
 ---
-title: ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
-description: Cette rubrique décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 3)
+title: ER Utiliser les dimensions financières comme source de données (Partie 3 - Créer l’état)
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un modèle de génération d’états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605183"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684785"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 - Créer l’état)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -92,11 +94,11 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 59. Cliquez sur Ajouter un attribut.
 60. Dans le champ Nom, tapez « Desc ».
 61. Cliquez sur OK.
-![Arborescence de la page Concepteur de formats.](../media/er-financial-dimensions-guides-format1.png)
+![Page Concepteur d’opérations de gestion des états électroniques](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mettre en correspondance les éléments d’état avec les sources de données
 1. Cliquez sur l’onglet Mise en relation.
-2. Dans l'arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données ».
+2. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données ».
 3. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements ».
 4. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements\Transaction : Liste d’enregistrements ».
 5. Dans l’arborescence, développez « Modèle : Exemple de modèle de dimensions financières pour le modèle de données\Journal : Liste d’enregistrements\Transaction : Liste d’enregistrements\Données de dimensions : Liste d’enregistrements ».
@@ -141,8 +143,5 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 44. Cliquez sur Lier.
 45. Cliquez sur Enregistrer.
 46. Fermez la page.
-![Page de concepteur de format, éléments de rapport mappés sur des sources de données.](../media/er-financial-dimensions-guides-format2.png)
+![Page Concepteur d’opérations de gestion des états électroniques](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

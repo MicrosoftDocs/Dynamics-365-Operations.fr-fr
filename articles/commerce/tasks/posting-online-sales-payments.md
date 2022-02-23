@@ -1,38 +1,41 @@
 ---
 title: Validation des ventes et des paiements en ligne
-description: Cette procédure décrit la configuration et l’exécution d’un traitement par lots récurrent pour créer des commandes client et des paiements pour les transactions de magasin en ligne.
+description: Cette procédure décrit la configuration et l'exécution d'un traitement par lots récurrent pour créer des commandes client et des paiements pour les transactions de magasin en ligne.
 author: psimolin
+manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58af31464768e988bfa8727bcd836032d06b3a9dcfb416c3b9ed274af3285c79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3bac0cab764436a618fa570901c84ab720dbc86
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720902"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412310"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Validation des ventes et des paiements en ligne
 
 [!include [banner](../includes/banner.md)]
 
-Cette procédure décrit la configuration et l’exécution d’un traitement par lots récurrent pour créer des commandes client et des paiements pour les transactions de magasin en ligne.
+Cette procédure décrit la configuration et l'exécution d'un traitement par lots récurrent pour créer des commandes client et des paiements pour les transactions de magasin en ligne.
 
 La validation des ventes et des paiements en ligne est un processus en deux étapes.
 
 - Extraction des données de transaction du commerce en ligne au siège social.
 - Synchronisation des commandes pour créer des commandes client au siège social.
 
-L’extraction des données de transaction en ligne peut se faire soit manuellement en exécutant la tâche P, soit en créant un traitement par lots récurrent.
+L'extraction des données de transaction en ligne peut se faire soit manuellement en exécutant la tâche P, soit en créant un traitement par lots récurrent.
 
 ### <a name="manually-running-the-p-job"></a>Exécution manuelle de la tâche P
 
@@ -43,53 +46,53 @@ L’extraction des données de transaction en ligne peut se faire soit manuellem
 5. Cliquez sur Exécuter maintenant.
 6. Cliquez sur Oui.
 
-### <a name="scheduling-a-recurring-p-job"></a>Planification d’une tâche P récurrente
+### <a name="scheduling-a-recurring-p-job"></a>Planification d'une tâche P récurrente
 
 1. Accédez à Tous les espaces de travail > Informatique Retail et Commerce.
 2. Cliquez sur Programme de distribution.
 3. Sélectionnez P-0001.
 4. Cliquez sur Créer un traitement par lots.
-5. Cliquez sur Exécuter à l’arrière-plan.
+5. Cliquez sur Exécuter à l'arrière-plan.
 5. Activez le traitement par lots.
 6. Cliquez sur Répétition.
-7. Sélectionnez l’option Pas de date de fin.
-8. Dans le champ Nombre, saisissez l’intervalle entre les exécutions en minutes. Généralement ce serait 5-10.
+7. Sélectionnez l'option Pas de date de fin.
+8. Dans le champ Nombre, saisissez l'intervalle entre les exécutions en minutes. Généralement ce serait 5-10.
 9. Cliquez sur OK.
 10. Cliquez sur OK.
 
 Les commandes peuvent être synchronisées soit en exécutant manuellement la tâche « Synchroniser des commandes », soit en créant un traitement par lots récurrent.
 
-### <a name="manually-running-order-synchronization"></a>Exécution d’une synchronisation manuelle d’une commande 
+### <a name="manually-running-order-synchronization"></a>Exécution d'une synchronisation manuelle d'une commande 
 
 Suivez ces étapes pour exécuter manuellement la tâche « Synchroniser les commandes » une seule fois.
 
 1. Accédez à Tous les espaces de travail > Finances du magasin.
 2. Cliquez sur Synchroniser les commandes.
-3. Dans le champ Hiérarchie d’organisation, sélectionnez Magasins par région.
+3. Dans le champ Hiérarchie d'organisation, sélectionnez Magasins par région.
     * Sélectionnez un magasin en ligne spécifique ou un nœud si vous souhaitez créer le traitement par lots pour un groupe de magasins.  
     * Cliquez sur la flèche pour ajouter votre sélection.  
-4. Cliquez sur l’onglet Exécuter à l’arrière-plan.
+4. Cliquez sur l'onglet Exécuter à l'arrière-plan.
 5. Désactiver le traitement par lots
 6. Cliquez sur Répétition.
-7. Sélectionner l’option Fin après le
+7. Sélectionner l'option Fin après le
 8. Dans le champ Fin après le, saisissez 1.
 9. Cliquez sur OK.
 10. Cliquez sur OK.
 
 ### <a name="scheduling-recurring-order-synchronization"></a>Planification de la synchronisation des commandes récurrentes
 
-Cette procédure décrit la configuration et l’exécution d’un traitement par lots récurrent pour créer des commandes client et des paiements pour les transactions de magasin en ligne. Cette procédure utilise la société USRT dans les données de démonstration.
+Cette procédure décrit la configuration et l'exécution d'un traitement par lots récurrent pour créer des commandes client et des paiements pour les transactions de magasin en ligne. Cette procédure utilise la société USRT dans les données de démonstration.
 
 1. Accédez à Tous les espaces de travail > Finances du magasin.
 2. Cliquez sur Synchroniser les commandes.
-3. Dans le champ Hiérarchie d’organisation, sélectionnez Magasins par région.
+3. Dans le champ Hiérarchie d'organisation, sélectionnez Magasins par région.
     * Sélectionnez un magasin en ligne spécifique ou un nœud si vous souhaitez créer le traitement par lots pour un groupe de magasins.  
     * Cliquez sur la flèche pour ajouter votre sélection.  
-4. Cliquez sur l’onglet Exécuter à l’arrière-plan.
+4. Cliquez sur l'onglet Exécuter à l'arrière-plan.
 5. Activer le traitement par lots
 6. Cliquez sur Répétition.
-7. Sélectionnez l’option Pas de date de fin.
-8. Dans le champ Nombre, saisissez l’intervalle entre les exécutions en minutes. Généralement ce serait 2-20
+7. Sélectionnez l'option Pas de date de fin.
+8. Dans le champ Nombre, saisissez l'intervalle entre les exécutions en minutes. Généralement ce serait 2-20
 9. Cliquez sur OK.
 10. Cliquez sur OK.
 
@@ -106,6 +109,3 @@ Cette procédure décrit la configuration et l’exécution d’un traitement pa
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

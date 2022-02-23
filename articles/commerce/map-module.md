@@ -2,12 +2,15 @@
 title: Module Carte
 description: Cette rubrique couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747391"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665418"
 ---
 # <a name="map-module"></a>Module Carte
 
@@ -29,7 +32,9 @@ ms.locfileid: "6747391"
 
 Cette rubrique couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
 
-Un module Carte affiche les emplacements des magasins sur une carte interactive affichée à l’aide du [Contrôle web Bing Maps V8](/bingmaps/v8-web-control/). Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. Les modules Carte fournissent différentes vues, telles que Route, Aérien et Rue, que les utilisateurs peuvent sélectionner pour afficher des emplacements sur la carte. Ils permettent également des interactions telles que le zoom et l’utilisation de l’emplacement de l’utilisateur.
+## <a name="overview"></a>Vue d’ensemble
+
+Un module Carte affiche les emplacements des magasins sur une carte interactive affichée à l’aide du [Contrôle web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/). Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. Les modules Carte fournissent différentes vues, telles que Route, Aérien et Rue, que les utilisateurs peuvent sélectionner pour afficher des emplacements sur la carte. Ils permettent également des interactions telles que le zoom et l’utilisation de l’emplacement de l’utilisateur.
 
 Un module Carte fonctionne conjointement avec le module Sélection de magasin pour déterminer les emplacements géographiques des magasins qui doivent être affichés sur une carte. Les modules Sélection de magasin et Carte interagissent lorsqu’un utilisateur sélectionne un magasin dans l’un de ces modules sur une page de site. Les modules Carte peuvent être étendus pour d’autres scénarios, au-delà de l’interaction avec les modules Sélection de magasin. Cependant, la personnalisation du module est nécessaire.
 
@@ -38,11 +43,11 @@ Un module Carte fonctionne conjointement avec le module Sélection de magasin po
 
 L’image suivante montre un exemple de module Carte utilisé sur une page d’emplacements de magasin.
 
-![Exemple d’un module du sélecteur de magasins.](./media/ecommerce-Storelocator.PNG)
+![Exemple d’un module du sélecteur de magasins](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Propriétés du module
 
-| Nom de la propriété             | Valeur                  | Description  |
+| Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
 | Titre | Détails | En-tête du module. |
 | Options de punaise : icône par défaut | Image | Image du symbole de punaise à utiliser pour les magasins affichés sur une carte. |
@@ -76,7 +81,4 @@ Pour des informations détaillées sur la configuration d’un module Carte sur 
 
 [Gérer Bing Cartes pour votre organisation](./dev-itpro/manage-bing-maps.md)
 
-[Contrôle web Bing Maps V8](/bingmaps/v8-web-control/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Contrôle web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)

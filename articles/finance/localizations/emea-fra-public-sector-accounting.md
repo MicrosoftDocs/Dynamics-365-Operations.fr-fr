@@ -2,12 +2,15 @@
 title: Comptabilité du secteur public en France
 description: Cet article décrit la comptabilité du secteur public en France.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 19621
 ms.assetid: f6bfb9dd-c3a7-48d3-b31d-23e6f27c1323
 ms.search.region: France
@@ -15,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c5ca1f87807b8877eb64d1303e4c14fd0ad3303bedb605e713d6e9f761e67a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1775c6a6895ed129bd6d03a91b4e809299c9a2d
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748936"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665484"
 ---
 # <a name="public-sector-accounting-in-france"></a>Comptabilité du secteur public en France
 
@@ -50,6 +53,3 @@ Les étapes de paramétrage supplémentaires pour les fonctionnalités spécifiq
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

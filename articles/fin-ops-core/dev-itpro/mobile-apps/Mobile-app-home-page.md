@@ -2,24 +2,26 @@
 title: Page d’accueil Application mobile
 description: Cette rubrique décrit l’application mobile Finance and Operations (Dynamics 365) et fournit des liens vers des ressources qui favorisent la mise en œuvre dans votre organisation.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
+ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729706"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683456"
 ---
 # <a name="mobile-app-home-page"></a>Page d’accueil Application mobile
 
@@ -27,7 +29,8 @@ ms.locfileid: "6729706"
 
 Cette rubrique décrit l’application mobile **Finance and Operations (Dynamics 365)** et fournit des liens vers des ressources qui favorisent la mise en œuvre dans votre organisation.
 
-## <a name="overview"></a>Présentation
+<a name="overview"></a>Présentation
+--------
 
 L’application mobile permet à votre organisation de rendre ses processus métiers disponibles sur des appareils mobiles. Lorsque votre administrateur informatique active des espaces de travail mobiles pour votre organisation, les utilisateurs peuvent se connecter à l’application et commencer à exécuter les processus métiers depuis leurs mobiles. L’application mobile inclut les fonctions suivantes qui permettent d’augmenter la productivité :
 
@@ -39,7 +42,7 @@ L’application mobile permet à votre organisation de rendre ses processus mét
 ## <a name="elements-of-the-mobile-app"></a>Éléments de l’application mobile
 La navigation dans l’application mobile utilise quatre éléments de base : le tableau de bord, les espaces de travail, les pages, et les actions. 
 
-[![Concepts de navigation dans l’application mobile.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Concepts de navigation dans l’application mobile](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Lorsque vous démarrez l’application, vous accédez au **Tableaux de bord**.
 2. Dans le tableau de bord, vous pouvez afficher la liste des **espaces de travail** qui ont été publiés.
@@ -53,7 +56,7 @@ La navigation dans l’application mobile utilise quatre éléments de base : l
 ## <a name="implementation-process"></a>Processus d’implémentation
 L’illustration suivante présente le processus pour implémenter les deux espaces de travail mobiles qui sont fournis par Microsoft et les espaces de travail mobiles personnalisés. 
 
-[![Processus d’implémentation d’applications mobiles.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Processus d’implémentation d’applications mobiles](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Le tableau suivant contient des liens vers des ressources qui vous aident à implémenter les deux espaces de travail mobiles qui sont fournis par Microsoft et les espaces de travail mobiles personnalisés. Les numéros dans la première colonne correspondent aux étapes numérotées dans l’illustration précédente.
 
@@ -90,8 +93,8 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Stock disponible dans l’espace de travail mobile</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Espaces de travail mobiles Commandes client</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Espace de travail de collaboration fournisseur sur téléphone mobile</a></li>
-<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Espace de travail mobile de saisie de l’heure du projet</a></li>
-<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Espace de travail mobile pour la gestion des dépenses</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Espace de travail mobile de saisie de l’heure du projet</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Espace de travail mobile pour la gestion des dépenses</a></li>
 
 </ul></td>
 </tr>
@@ -148,6 +151,3 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 
 ## <a name="troubleshooting"></a>Dépannage
 [Ressources de plateforme mobile](platform/mobile-platform-home-page.md#troubleshooting-the-app)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

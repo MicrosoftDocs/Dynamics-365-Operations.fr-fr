@@ -2,30 +2,35 @@
 title: Module Zone d’achat
 description: Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717793"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517086"
 ---
 # <a name="buy-box-module"></a>Module Zone d’achat
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Le terme *zone d’achat* désigne généralement la zone d’une page de détails de produit « au-dessus du volet », et qui héberge toutes les principales informations requises pour effectuer un achat de produit. (Une zone qui est « au-dessus du volet » n’est visible que si la page est d’abord chargée, afin que les utilisateurs n’aient pas à faire défiler l’écran pour la voir.)
 
@@ -35,7 +40,7 @@ L’URL d’une page de détails de produit inclut l’ID produit. Toutes les in
 
 L’image suivante montre un exemple de module de zone d’achat dans une page de détails d’un produit.
 
-![Exemple d’un module de zone d’achat.](./media/ecommerce-pdp-buybox.PNG)
+![Exemple d’un module de zone d’achat](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Propriétés et emplacements des modules de zone d’achat 
 
@@ -67,18 +72,16 @@ Les paramètres de module de zone d’achat suivants peuvent être configurés s
 
 - **Limite de quantité de lignes du panier** – Cette propriété est utilisée pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
 - **Stock** – Pour plus d’informations sur l’application des paramètres de stock, voir [Appliquer les paramètres de stock](inventory-settings.md).
-- **Ajouter le produit au panier** – Pour savoir comment postuler **Ajouter le produit au panier** paramètres, voir [Paramètres Ajouter un produit aux paramètres](add-cart-settings.md).
-
-## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Extensions de définition de module de zone d'achat dans le thème Adventure Works
-
-Le module de zone d'achat fourni par le thème Adventure Works possède une extension de définition de module qui prend en charge l'implémentation d'un module de spécifications de produit dans un module d'accordéon dans une zone d'achat PDP. Pour présenter les attributs de spécification de produit dans une zone d'achat PDP, ajoutez un module de spécification de produit à l'emplacement du module d'accordéon à l'emplacement de la zone d'achat.
-
+- **Ajouter le produit au panier** – Cette propriété est utilisée pour spécifier le comportement après l’ajout d’un article au panier. Les valeurs possibles sont **Page Accéder au panier**, **Page Ne pas accéder au panier** et **Afficher la notification**. Lorsque la valeur est définie sur **Page Accéder au panier**, les utilisateurs sont envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Page Ne pas accéder au panier**, les utilisateurs ne sont pas envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Afficher la notification**, les utilisateurs reçoivent une notification de confirmation et peuvent continuer à naviguer sur la page des détails du produit. 
 
 > [!IMPORTANT]
-> Le thème Adventure Works est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.
+> Les paramètres de site **Ajouter un article au panier** sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d'une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
+L’image suivante montre un exemple de notification de confirmation « ajouté au panier » sur le site Fabrikam.
 
-## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
+![Exemple de module de notification](./media/ecommerce-addtocart-notifications.PNG)
+
+## <a name="commerce-scale-unit-interaction"></a>Interaction avec l’unité d’échelle commerciale
 
 Le module de zone d’achat extrait les informations sur le produit à l’aide des API (Application Programming Interfaces) de Commerce Scale Unit. L’ID produit de la page de détails de produit est utilisée pour récupérer toutes les informations.
 
@@ -124,17 +127,12 @@ Pour ajouter un module de zone d’achat à une nouvelle page et définir les pr
 
 [Module de confirmation de commande](order-confirmation-module.md)
 
-[Module d’en-tête](author-header-module.md)
+[Module En-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
 
 [Module Partage social](social-share-module.md)
 
-[Paramètres Ajouter un produit dans le panier](add-cart-settings.md)
-
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
 
-[Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)

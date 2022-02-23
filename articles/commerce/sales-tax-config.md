@@ -1,13 +1,16 @@
 ---
 title: Configurer la taxe pour les commandes en ligne
-description: Cette rubrique fournit une vue d’ensemble de la sélection du groupe de taxes pour différents types de commande en ligne dans Dynamics 365 Commerce.
+description: Cette rubrique fournit une vue d'ensemble de la sélection du groupe de taxes pour différents types de commande en ligne dans Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/02/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,73 +18,68 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 40c20bf13779f73289e43df21b763e1b864686a7
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772959"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4530195"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurer la taxe pour les commandes en ligne
 
-[!include [banner](includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Cette rubrique fournit une vue d’ensemble de la sélection du groupe de taxes pour différents types de commande en ligne à l’aide des paramètres de taxe basés sur la destination ou sur le compte client. 
+Cette rubrique fournit une vue d'ensemble de la sélection du groupe de taxes pour différents types de commande en ligne. 
 
-Vous pouvez souhaiter que votre canal de commerce électronique puisse prendre en charge des options telles que la livraison ou le retrait des commandes en ligne. L’applicabilité de la taxe est basée sur l’option sélectionnée par vos clients en ligne. 
+Votre canal d'e-commerce peut souhaiter prendre en charge des options telles que la livraison ou le retrait des commandes en ligne. L'applicabilité de la taxe est basée sur l'option sélectionnée par vos utilisateurs en ligne. Lorsqu'un client du site choisit d'acheter un article en ligne et le fait expédier à une adresse, la taxe est déterminée en fonction du paramètre de groupe de taxes de l'adresse de livraison du client. Lorsqu'un client choisit de récupérer un article acheté dans un magasin, la taxe est déterminée en fonction du paramètre de groupe de taxes du magasin de retrait. 
 
-## <a name="destination-based-taxes-for-online-orders"></a>Taxes basées sur la destination pour les commandes en ligne
+## <a name="orders-shipped-to-a-customer-address"></a>Commandes expédiées à une adresse client 
 
-En général, les taxes pour les commandes en ligne expédiées aux adresses des clients sont définies par la destination. Chaque groupe de taxes a une configuration de taxe basée sur la destination de vente au détail dans laquelle votre entreprise peut définir des détails de destination, tels que le pays ou la région, l’état, le département et la ville, sous une forme hiérarchique.
+En général, les taxes pour les commandes en ligne expédiées aux adresses des clients sont définies par la destination. Chaque groupe de taxes a une configuration de taxe basée sur la destination de vente au détail dans laquelle votre entreprise peut définir des détails de destination tels que le département/la région, l'état, le pays et la ville sous une forme hiérarchique. Lorsqu'une commande en ligne est passée, le moteur de taxe Commerce utilise l'adresse de livraison de chaque élément de ligne de la commande et recherche les groupes de taxes avec les critères de taxe correspondant à la destination. Par exemple, pour une commande en ligne avec une adresse de livraison d'élément de campagne à San Francisco, Californie, le moteur de taxe trouvera le groupe de taxes et le code de taxe pour la Californie, puis calculera la taxe pour chaque élément de ligne en conséquence.  
 
-### <a name="orders-delivered-to-customer-address"></a>Commandes livrées à une adresse client
+## <a name="customer-based-tax-groups"></a>Groupes de taxes basés sur le client
 
-Lorsqu’une commande en ligne est passée, le moteur de taxe de Commerce utilise l’adresse de livraison de chaque élément de ligne de la commande et recherche les groupes de taxes avec les critères de taxe correspondant à la destination. Par exemple, pour une commande en ligne avec une adresse de livraison d’élément de campagne à San Francisco, Californie, le moteur de taxe trouvera le groupe de taxes et le code de taxe pour la Californie, puis calculera la taxe pour chaque élément de ligne en conséquence.
+Au siège de Commerce, il existe deux emplacements où les groupes de taxes clients sont configurés :
 
-### <a name="order-pick-up-in-store"></a>Retrait de commande en magasin
+- **Profil du client**
+- **Adresse d'expédition du client**
 
-Pour les lignes de commande avec retrait en magasin ou retrait à un point-relais spécifié, le groupe de taxes du magasin de retrait sélectionné sera appliqué. Pour plus d’informations sur la configuration des taxes pour un magasin donné, voir [Définir d’autres options fiscales pour les magasins](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+### <a name="if-a-customers-profile-has-a-tax-group-configured"></a>Si le profil d'un client a un groupe de taxes configuré
 
-## <a name="customer-account-based-taxes-for-online-orders"></a>Taxes basées sur le compte client pour les commandes en ligne
+Un enregistrement de profil d'un client au siège peut avoir un groupe de taxes configuré, mais pour les commandes en ligne, le groupe de taxes configuré dans le profil d'un client ne sera pas utilisé par le moteur de taxe. 
 
-Il peut se trouver un scénario d’entreprise dans lequel vous souhaitez configurer un groupe de taxes sur un compte client spécifique dans Commerce Headquarters. Il y a deux endroits dans Commerce Headquarters où vous pouvez configurer la taxe sur un compte client. Pour y accéder, vous devez d’abord accéder à une page de détails du client en accédant à **Retail et Commerce \> Clients \> Tous les clients**, puis en sélectionnant un client.
+### <a name="if-a-customers-shipping-address-has-a-tax-group-configured"></a>Si l'adresse de livraison d'un client a un groupe de taxes configuré
 
-Les deux endroits où vous pouvez configurer la taxe pour un compte client sont les suivants :
+Si l'enregistrement d'adresse de livraison d'un client a un groupe de taxes configuré et qu'une commande en ligne (ou un article) est expédiée à l'adresse de livraison du client, le groupe de taxes configuré dans l'enregistrement d'adresse du client sera utilisé par le moteur de taxes pour les calculs de taxe.
 
-- **Groupe de taxes** dans le raccourci **Facture et livraison** de la page des détails du client. 
-- **Taxes** dans le raccourci **Général** de la page **Gérer les adresses**. Pour y accéder à partir de la page des détails du client, sélectionnez une adresse spécifique sous le raccourci **Adresses**, puis sélectionnez **Avancé**.
+#### <a name="configure-a-tax-group-for-a-customers-shipping-address-record"></a>Configurer un groupe de taxes pour un enregistrement d'adresse de livraison d'un client
 
-> [!TIP]
-> Pour les commandes clients en ligne, si vous souhaitez uniquement appliquer les taxes basées sur la destination et éviter les taxes basées sur le compte client, assurez-vous que le champ **Groupe de taxes** est vide dans le raccourci **Facture et livraison** de la page des détails du client. Pour vous assurer que les nouveaux clients qui s’inscrivent via le canal en ligne n’héritent pas des paramètres du groupe de taxes des paramètres de client ou de groupe de clients par défaut, assurez-vous que le champ **Groupe de taxes** est également vide pour les paramètres client et les paramètres de groupe de clients par défaut du canal en ligne (**Retail et Commerce \> Clients \> Groupes de clients**).
+Pour configurer un groupe de taxes pour l'enregistrement d'adresse de livraison d'un client au siège de Commerce, procédez comme suit.
 
-## <a name="determine-destination-based-tax-or-customer-account-based-tax-applicability"></a>Déterminer l’applicabilité de la taxe basée sur la destination ou de la taxe basée sur le compte client 
+1. Aller à **Tous les clients**, puis sélectionnez le client souhaité. 
+1. Sur le raccourci **Adresses**, sélectionnez l'adresse souhaitée, puis sélectionnez **Plus d'options \> Avancée**. 
+1. Sous l'onglet **Général** sur la page **Gérer les adresses**, définissez la valeur de la taxe selon vos besoins.
 
-Le tableau suivant explique si les taxes basées sur la destination ou les taxes basées sur le compte client sont appliquées aux commandes en ligne. 
+> [!NOTE]
+> Le groupe de taxes est défini à l'aide de l'adresse de livraison de la ligne de commande et les taxes basées sur la destination sont configurées au niveau du groupe de taxes lui-même. Pour plus d'informations, voir [Configurer les taxes pour les magasins en ligne en fonction de la destination](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
-| Type de client | Adresse d’expédition                   | Client > Facture et livraison> Groupe de taxes ? | Adresse sur le compte client dans Commerce Headquarters ? | Adresse client > Avancé > Général> Groupe de taxes ?                                              | Groupe de taxes appliqué      |
-|---------------|------------------------------------|-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------|
-| Invité         | Manhattan, NY                      | Non (vide)                                                | Non (vide)                              | Non (vide)                                                                                                   | NY (taxes basées sur la destination) |
-| Connecté     | Austin, Texas                          | Non (vide)                                             | Oui                               | None<br/><br/>Nouvelle adresse ajoutée via le canal en ligne.                                                            | Texas (taxes basées sur la destination) |
-| Connecté     | San Francisco, CA (Retrait en magasin) | Oui (NY)                                            | Non applicable                              | Non applicable                                                                                                    | Californie (taxes basées sur la destination) |
-| Connecté     | Houston, Texas                         | Oui (NY)                                            | Oui                               | Oui (NY)<br/><br/>Nouvelle adresse ajoutée via le canal en ligne et groupe de taxes hérité du compte client. | NY (taxes basées sur le compte client)  |
-| Connecté     | Austin, Texas                          | Oui (NY)                                            | Oui                               | Oui (NY)<br/><br/>Nouvelle adresse ajoutée via le canal en ligne et groupe de taxes hérité du compte client. | NY (taxes basées sur le compte client)  |
-| Connecté     | Sarasota, Floride                       | Oui (NY)                                            | Oui                               | Oui (WA)<br/><br/>Défini manuellement sur WA.                                                                          | WA (taxes basées sur le compte client)  |
-| Connecté     | Sarasota, Floride                       | Non (vide)                                                | Oui                               | Oui (WA)<br/><br/>Défini manuellement sur WA.                                                                          | WA (taxes basées sur le compte client)  |
+## <a name="order-pickup-in-store"></a>Retrait de commande en magasin
+
+Pour les lignes de commande avec retrait en magasin ou retrait à un point-relais spécifié, le groupe de taxes du magasin de retrait sélectionné sera appliqué. Pour plus d'informations sur la configuration du groupe de taxes pour un magasin donné, voir [Définir d'autres options fiscales pour les magasins](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+
+> [!NOTE]
+> Lorsqu'une ligne de commande est retirée dans un magasin, les paramètres de taxe d'adresse d'un client (s'ils sont configurés) seront ignorés par le moteur de taxe et la configuration de taxe du magasin de retrait sera appliquée. 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Paramétrer des taxes pour les magasins en ligne en fonction de la destination](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[Vue d’ensemble des taxes](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
 
-[Vue d’ensemble des taxes](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Modes de calcul des taxes dans le champ Origine](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
 
-[Modes de calcul des taxes dans le champ Origine](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Affectation et remplacement des taxes](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
 
-[Affectation et remplacement des taxes](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
-
-[Options de calcul montant entier et intervalle pour les codes taxe](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
+[Options de calcul montant entier et intervalle pour les codes taxe](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
 
 [Calcul de l’exonération fiscale](tax-exempt-price-inclusive.md) 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

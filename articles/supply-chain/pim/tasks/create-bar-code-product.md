@@ -1,44 +1,45 @@
 ---
 title: Créer un code-barres pour un produit
-description: Cette rubrique indique comment créer manuellement un code-barres en utilisant le numéro d’article M0001 comme exemple.
-author: t-benebo
+description: Cette rubrique indique comment créer manuellement un code-barres en utilisant le numéro d'article M0001 comme exemple.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdf062ed14cc4cf395de006d55aba3dc2a94bae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b178701ca745a4317bf271bba726741e104f0804
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577358"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427896"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Créer un code-barres pour un produit
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique indique comment créer manuellement un code-barres en utilisant le numéro d’article M0001 comme exemple. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Cette rubrique indique comment créer manuellement un code-barres en utilisant le numéro d'article M0001 comme exemple. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
-1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
-1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Pour cet exemple, sélectionnez le numéro d’article **M0001**.
-1. Dans le volet Actions, sélectionnez **Gérer le stock**.
-1. Sélectionnez le **code-barres**.
-1. Sélectionnez **Nouveau**.
-1. Marquez la ligne sélectionnée qui est créée dans la liste ci-dessous.
-1. Dans le champ **Paramétrage des codes-barres**, saisissez ou sélectionnez une valeur.
-1. Dans le champ **Code-barres**, entrez ou sélectionnez une valeur.
-1. Dans le champ **Code-barres**, tapez une valeur.  
-1. Entrez un nombre dans le champ **Quantité**.
-1. Sélectionnez **Enregistrer**.
-1. Fermez la page. 
+1. Sélectionnez **Gestion des produits lancés** sur la page d'accueil.
+2. Accédez à **Produits > Produits lancés** dans la section **Liens**.
+3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Pour cet exemple, sélectionnez le numéro d'article **M0001**.
+4. Dans le volet Actions, sélectionnez **Gérer le stock**.
+5. Sélectionnez le **code-barres**.
+6. Sélectionnez **Nouveau**.
+7. Marquez la ligne sélectionnée qui est créée dans la liste ci-dessous.
+8. Dans le champ **Paramétrage des codes-barres**, saisissez ou sélectionnez une valeur.
+9. Dans le champ **Code-barres**, entrez ou sélectionnez une valeur.
+10. Dans le champ **Code-barres**, tapez une valeur.  
+11. Entrez un nombre dans le champ **Quantité**.
+12. Sélectionnez **Enregistrer**.
+13. Fermez la page. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

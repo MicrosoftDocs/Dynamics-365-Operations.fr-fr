@@ -2,25 +2,28 @@
 title: Rapport financier du relevé des revenus
 description: Cet article décrit l’état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état.
 author: jcart1106
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 118c7207f6efc252c0265d6c8f7b949c0e178203bf8523585aa2bfc53a69a6a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 429283865c66ca5f03608e4a02c3aba5bb5ea7e3
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746390"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645575"
 ---
 # <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
 
@@ -28,7 +31,8 @@ ms.locfileid: "6746390"
 
 Cet article décrit l’état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
 
-## <a name="default-income-statement-report"></a>Rapport par défaut du relevé des revenus
+<a name="default-income-statement-report"></a>Rapport par défaut du relevé des revenus
+-------------------------------
 
 | État par défaut             | Fonction                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -39,11 +43,11 @@ Le rapport financier du relevé des revenus utilise les blocs élémentaires sui
 
 | Rapport par défaut             | Définition de ligne                     | Définition de colonne          |
 |----------------------------|------------------------------------|----------------------------|
-| Relevé des revenus – Par défaut | Récapitulatif du relevé des revenus – Par défaut | Périodique et Année en cours – Par défaut |
+| Relevé des revenus - Par défaut | Récapitulatif du relevé des revenus - Par défaut | Périodique et Année en cours - Par défaut |
 
 ### <a name="row-definition"></a>Définition de ligne
 
-La définition de ligne, Récapitulatif du relevé des revenus – Par défaut, contient une section pour chaque partie d’un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d’établir cette définition de ligne. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications.
+La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d’un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d’établir cette définition de ligne. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications.
 
 ### <a name="column-definition"></a>Définition de colonne
 
@@ -56,7 +60,8 @@ Les définitions de colonne contiennent différents types de colonnes afin d’o
 
 
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
 [Vue d’ensemble des états financiers](financial-reporting-getting-started.md)
 
@@ -66,6 +71,3 @@ Les définitions de colonne contiennent différents types de colonnes afin d’o
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

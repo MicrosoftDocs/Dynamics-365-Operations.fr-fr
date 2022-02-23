@@ -1,26 +1,29 @@
 ---
 title: Modifier le stade de la commande de service
 description: Vous pouvez modifier le stade de la commande de service.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee93978cce1936e2df38f58a5eaa73847d74fdba
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 52a4082f6e201bcd2820f3d11a61929d8f906840
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569189"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428066"
 ---
 # <a name="change-the-service-order-stage"></a>Modifier le stade de la commande de service 
 
@@ -31,13 +34,10 @@ Procédez comme suit pour déplacer une commande de service au stade suivant dan
 
 1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
 
-2.  Sélectionnez la commande de service, puis cliquez sur l’onglet **Répartir**.
+2.  Sélectionnez la commande de service, puis cliquez sur l'onglet **Répartir**.
 
 3.  Dans le volet **Actions**, cliquez sur **Stade suivant** ou **Stade précédent**.
 
-4.  Dans l’écran **Modifier le stade du service**, sélectionnez le stade approprié.
+4.  Dans l'écran **Modifier le stade du service**, sélectionnez le stade approprié.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

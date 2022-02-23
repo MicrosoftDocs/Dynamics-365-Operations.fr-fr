@@ -2,24 +2,27 @@
 title: Déclaration de la liste des ventes intracommunautaires
 description: Cet article fournit des informations sur la génération d’un état relatif à la liste des ventes intracommunautaires.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33a17461038d3e81d3f3a827e52c9cfd781a5874d45c262ee9006564fb3d489d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780342"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407956"
 ---
 # <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
@@ -27,7 +30,8 @@ ms.locfileid: "6780342"
 
 Cet article fournit des informations sur la génération d’un état relatif à la liste des ventes intracommunautaires.
 
-## <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
+<a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
+-----------------------
 
 Un fournisseur qui effectue des approvisionnements intracommunautaires en marchandises ou en services aux sociétés établies dans l’Union européenne (EU) doit soumettre une déclaration des livraisons intracommunautaires (liste des ventes intracommunautaires ou EEL). En général l’EEL doit être envoyée à l’administration fiscale pas plus tard que le dernier jour du mois suivant la période de calendrier couverte par l’EEL. Le fournisseur doit indiquer son numéro d’identification de taxe sur la valeur ajoutée (TVA) dans l’EEL et doit également indiquer, par client, les informations suivantes :
 
@@ -156,6 +160,3 @@ Lorsque vous avez terminé le processus de génération d’états pour une pér
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

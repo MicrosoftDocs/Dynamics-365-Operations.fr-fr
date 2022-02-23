@@ -2,9 +2,11 @@
 title: Diagnostics de sécurité pour l’enregistrement des tâches
 description: Cette rubrique fournit des informations sur la façon d’analyser et de gérer les exigences d’autorisation de sécurité en fonction d’un enregistrement de tâche.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745118"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679788"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnostics de sécurité pour l’enregistrement des tâches
 
@@ -39,7 +41,7 @@ Cette rubrique fournit des informations sur la façon d’analyser et de gérer 
 
 4. Dans le champ **ID utilisateur**, sélectionnez un utilisateur. Si l’utilisateur ne dispose pas d’autorisations pour certains éléments de menu, le champ **Autorisations manquantes** sera mis à jour sur **Oui**.
   
-  ![Page Détails des éléments du menu Sécurité.](../media/Security-Menu-Item-Details.png)
+  ![Page Détails des éléments du menu Sécurité](../media/Security-Menu-Item-Details.png)
 
 5. Sélectionnez **Ajouter une référence** pour afficher la liste des objets de sécurité, y compris les rôles, les fonctions et les privilèges qui accordent l’autorisation manquante.
 6. Sélectionnez un objet de sécurité dans la liste :
@@ -47,6 +49,3 @@ Cette rubrique fournit des informations sur la façon d’analyser et de gérer 
     - Si **Rôle** est sélectionné, sélectionnez **Ajouter un rôle à l’utilisateur**. Cela ouvrira la page **Attribuer des utilisateurs aux rôles**. Pour plus d’informations, voir la page [Affecter des utilisateurs à des rôles de sécurité](assign-users-security-roles.md).
     - Si **Devoir** est sélectionné, sélectionnez **Ajouter le devoir au rôle**, sélectionnez les rôles auxquels le devoir doit être ajouté, puis sélectionnez **OK**.
     - Si **Privilège** est sélectionné, sélectionnez **Ajouter le privilège aux devoirs**, sélectionnez les rôles auxquels le devoir doit être ajouté, puis sélectionnez **OK**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

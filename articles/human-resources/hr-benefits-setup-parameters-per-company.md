@@ -1,48 +1,44 @@
 ---
 title: Configurer les paramètres de gestion des avantages par entreprise
-description: Cette rubrique décrit comment configurer les paramètres de gestion des avantages par entreprise dans Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 8/24/2021
+description: Configurez les paramètres de gestion des avantages par entreprise dans Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: tfehr
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f6b3f068c9d3198afa8cd10aaa14bbc7ec9ef3c4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065816"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692743"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Configurer les paramètres de gestion des avantages par entreprise
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Pour chaque organisation qui offre des avantages, vous devez configurer les paramètres des e-mails de confirmation des avantages.
 
 ## <a name="configure-confirmation-email-settings"></a>Configurer la confirmation des paramètres d’e-mail
 
-1. Dans l’espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
+1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
 
-2. Dans l’onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants : 
+2. Dans l'onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants : 
 
    | Champ | Description |
    | --- | --- |
-   | **Envoyer un e-mail de confirmation** | Lorsque cette fonction est activée, un e-mail de confirmation est envoyé aux employés lorsqu’ils quittent l’expérience d’inscription aux avantages dans le **libre-service employé**. |
-   | **Modèle d’e-mail de confirmation** | Sélectionnez le modèle d’e-mail de l’organisation à utiliser lors de l’envoi de la confirmation d’inscription. Si vous ne sélectionnez pas de modèle, l’e-mail générique suivant sera envoyé :<br><br>%EmployeeFirstName%,<br><br>Félicitations ! Vous avez terminé votre inscription aux avantages.<br><br>Merci,<br><Nom de l’entreprise/organisation> Avantages. |
-   | **Adresse e-mail de l’expéditeur par défaut** | L’adresse e-mail à utiliser lors de l’envoi de l’e-mail de confirmation. |
+   | **Envoyer un e-mail de confirmation** | Lorsque cette fonction est activée, un e-mail de confirmation est envoyé aux employés lorsqu'ils quittent l'expérience d'inscription aux avantages dans le libre-service des employés. |
+   | **Modèle d’e-mail de confirmation** | Sélectionnez le modèle d'e-mail de l'organisation à utiliser lors de l'envoi de la confirmation d'inscription. Si vous ne sélectionnez pas de modèle, l'e-mail générique suivant sera envoyé :<br><br>%EmployeeFirstName%,<br><br>Félicitations ! Vous avez terminé votre inscription aux avantages.<br><br>Merci,<br><Nom de l'entreprise/organisation> Avantages. |
+   | **Adresse e-mail de l’expéditeur par défaut** | L'adresse e-mail à utiliser lors de l'envoi de l'e-mail de confirmation. |
 
 3. Sélectionnez **Enregistrer**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

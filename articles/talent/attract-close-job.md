@@ -62,6 +62,3 @@ Vous pouvez clôturer un poste et le marquer comme étant un **Poste pourvu** ap
    > Vous pouvez uniquement clôturer un poste et le marquer comme étant un **Poste pourvu** après qu'au moins un prospect a terminé le stade Offre. Si **Offre acceptée** n'est pas sélectionnée pour l'offre d'emploi ou si la candidature n'a pas le statut **Accepté** dans Offre, l'option **Poste pourvu** ne s'affiche pas dans le menu déroulant **Motif**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

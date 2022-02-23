@@ -1,50 +1,54 @@
 ---
 title: Exemple de jours de réduction
 description: Exemple de jours de réduction.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87c46cd7ee7410e1c7cb88868cd19f5075482f8c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567941"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427632"
 ---
-# <a name="reduction-days-example"></a>Exemple de jours de réduction
+# <a name="reduction-days-example"></a>Exemple de jours de réduction 
 
 [!include [banner](../includes/banner.md)]
 
-Vous avez créé une transaction d’abonnement pour un abonnement de maintenance d’un client, comme décrit dans le tableau suivant.
+
+Vous avez créé une transaction d'abonnement pour un abonnement de maintenance d'un client, comme décrit dans le tableau suivant.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Du</p></th>
 <th><p>Au</p></th>
 <th><p>Abonnement</p></th>
-<th><p>Type d’abonnement</p></th>
+<th><p>Type d'abonnement</p></th>
 <th><p>Projet</p></th>
 <th><p>Catégorie</p></th>
 <th><p>Devise de vente</p></th>
@@ -65,27 +69,28 @@ Vous avez créé une transaction d’abonnement pour un abonnement de maintenanc
 </tbody>
 </table>
 
-Le client signale qu’il n’a pas besoin d’une couverture de service pendant deux jours (10 et 11 mars). Vous acceptez de réduire l’abonnement pour ces deux jours.
+
+Le client signale qu'il n'a pas besoin d'une couverture de service pendant deux jours (10 et 11 mars). Vous acceptez de réduire l'abonnement pour ces deux jours.
 
 Vous créez une nouvelle transaction de type **Jours de réduction**, telle que décrite dans le tableau suivant.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Date de début</p></th>
 <th><p>Au</p></th>
 <th><p>Abonnement</p></th>
-<th><p>Type d’abonnement</p></th>
+<th><p>Type d'abonnement</p></th>
 <th><p>Projet</p></th>
 <th><p>Catégorie</p></th>
 <th><p>Devise de vente</p></th>
@@ -106,10 +111,13 @@ Vous créez une nouvelle transaction de type **Jours de réduction**, telle que 
 </tbody>
 </table>
 
-Lorsque les transactions pour mars 2011 sont facturées, le prix de vente de 200 EUR est réduit de 12,90 EUR. Le montant facturable pour la transaction d’abonnement est donc de 187,10 EUR et deux transactions sont facturées pour un total de 187,10 EUR.
+
+Lorsque les transactions pour mars 2011 sont facturées, le prix de vente de 200 EUR est réduit de 12,90 EUR. Le montant facturable pour la transaction d'abonnement est donc de 187,10 EUR et deux transactions sont facturées pour un total de 187,10 EUR.
 
 ## <a name="see-also"></a>Voir également :
 
-[Réduction des jours sur les frais d’abonnement](reduce-the-days-on-subscription-fees.md)
+[Réduction des jours sur les frais d'abonnement](reduce-the-days-on-subscription-fees.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

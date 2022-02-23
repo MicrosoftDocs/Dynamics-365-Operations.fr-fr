@@ -1,10 +1,12 @@
 ---
 title: Type de destination pour l’écran d’états électroniques (ER)
-description: Cette rubrique fournit des informations sur la configuration d’une destination de l’écran pour chaque composant dossier ou fichier d’un format de gestion des états électroniques.
+description: Cette rubrique fournit des informations sur la configuration d’une destination d’écran pour chaque composant « dossier » ou « fichier » d’un format de rapport électronique (ER) configuré pour générer des documents sortants.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2855ac9eb0248a65973898b107d33fc86ac9c1324dafaaf1606b76d8e82f3a8f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721950"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679532"
 ---
 # <a name="screen-destination"></a>Destination d’écran
 
@@ -30,12 +32,9 @@ Vous pouvez configurer une destination d’écran pour chaque composant « doss
 
 Si vous définissez **Activé** sur **Oui**, un aperçu de la sortie est créé. Vous pouvez afficher certains types de fichiers, tels que XML, TXT ou PDF, directement dans une fenêtre du navigateur. Pour les autres types de fichiers, tels que Microsoft Excel ou Word, le service Microsoft Office Online est utilisé.
 
-[![Page Paramètres de destination.](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![Page Paramètres de destination](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+- [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

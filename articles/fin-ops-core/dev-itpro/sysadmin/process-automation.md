@@ -2,9 +2,11 @@
 title: Automatisation des processus
 description: Cette rubrique fournit des détails sur la façon dont l’automatisation des processus permet une planification simple des processus qui seront exécutés par le serveur de traitement par lots.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+manager: tonyafehr
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcessScheduleSeries
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: b69fa378539e39053b6f7066ba4b6ae9984157c9bdc4f38b78de4c062c04ad09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 479f621ef05519f4f2c97112a0115dccdbf24c52
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746535"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682507"
 ---
 # <a name="process-automation"></a>Automatisation des processus
 
@@ -30,13 +32,13 @@ L’automatisation des processus permet une planification simple des processus q
 
 La page d’administration centrale de toutes les automatisations de processus se trouve dans le module Administration système sous le menu **Paramétrage**. Cette page répertoriera tous les processus automatisés (séries) configurés dans le système. Elle vous permettra également d’ajouter de nouvelles automatisations de processus directement à partir de cette page. Une fois une série configurée, vous pouvez gérer chaque série à partir de cette liste. Vous pouvez choisir de modifier toute la série, de la supprimer, d’afficher toutes les occurrences dans une vue liste ou de désactiver la série si vous souhaitez interrompre le travail planifié pendant un certain temps. 
 
-Les processus désactivés dans la gestion des fonctionnalités ne s’afficheront pas lorsque la fonctionnalité est désactivée. De plus, le moteur de planification de l’automatisation des processus ne planifiera aucune occurrence ou processus d’arrière-plan pour une fonction désactivée. La réactivation de la fonction entraînera l’exécution immédiate de toutes les occurrences planifiées ou processus d’arrière-plan du passé. Le moteur de planification de l’automatisation des processus repose sur le traitement par lots du système, **Tâche système d’interrogation de l’automatisation des processus** pour s’exécuter. La tâche ne doit être ni modifiée ni falsifiée à aucun moment. 
+Les processus désactivés dans la gestion des fonctionnalités ne s’afficheront pas lorsque la fonctionnalité est désactivée. De plus, le moteur de planification de l’automatisation des processus ne planifiera aucune occurrence ou processus d’arrière-plan pour une fonction désactivée. La réactivation de la fonction entraînera l’exécution immédiate de toutes les occurrences planifiées ou processus d’arrière-plan du passé.
 
 ## <a name="calendar-view"></a>Vue calendrier
 
 L’un des principaux avantages de l’automatisation des processus est la possibilité d’afficher le travail planifié dans une simple vue de calendrier.  Cette vue vous permet d’afficher le travail pour une semaine à la fois. Cette vue est disponible sur le côté droit de la page **Automatisation des processus**. Elle sera remplie avec le travail planifié pour la série sélectionnée. 
 
-[![Calendrier d’automatisation des processus.](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![Calendrier d’automatisation des processus](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Modifications d’occurrence
 
@@ -45,6 +47,3 @@ Chaque occurrence peut être modifiée sans avoir d’incidence sur les autres o
 ## <a name="developer-documentation"></a>Documentation du développeur
 
 Le cadre d’automatisation des processus permet aux développeurs d’étendre le cadre d’automatisation des processus. La documentation sur le [Cadre d’automatisation des processus](../process-automation/process-automation-framework.md) fournira des informations sur la façon dont vous pouvez créer des processus personnalisés qui doivent être exécutés par le serveur de traitement par lots planifié avec l’assistant d’automatisation des processus et qui apparaissent automatiquement dans la vue calendrier.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

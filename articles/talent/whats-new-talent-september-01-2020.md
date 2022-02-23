@@ -44,5 +44,3 @@ Cette version inclut les modifications suivantes pour l'intégration de LinkedIn
 - Mises à jour de la prise en charge du navigateur (LinkedIn ne prend plus en charge Internet Explorer 11 depuis le 1er juillet 2020)
 
 Pour plus d'informations, voir [Identifier des candidats avec LinkedIn Recruiter dans Attract](attract-linkedin-recruiter.md).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Workflows d’approbation du journal de stock
 description: Cette rubrique décrit comment paramétrer et utiliser des workflows d’approbation du journal de stock pour différents types de transactions de stock physique. Les workflows du journal de stock aident à garantir que seuls les journaux de stock approuvés peuvent être validés sur les transactions.
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778303"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427646"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Workflows d’approbation du journal de stock
 
@@ -28,13 +31,6 @@ Cette rubrique décrit comment paramétrer et utiliser des workflows d’approba
 
 > [!NOTE]
 > Les workflows d’approbation du journal de stock s’appliquent uniquement aux transactions enregistrées à l’aide du module Gestion des stocks. Ils ne fonctionnent pas avec les journaux de stock déclenchés à partir du module Gestion des entrepôts.
-
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Activer la fonctionnalité de workflows d’approbation du journal de stock
-
-À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Gestion des stocks et des entrepôts*
-- **Nom de la fonctionnalité :** *Workflow d’approbation du journal de stock*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Créer vos workflows d’approbation du journal de stock
 
@@ -55,7 +51,7 @@ Pour créer vos workflows d’approbation du journal de stock :
     - **Journal de nomenclature de stock**
     - **Journal d’ajustement du stock**
 
-    ![Boîte de dialogue Créer un workflow.](media/journal-workflow-create-workflow.png "Boîte de dialogue Créer un workflow")
+    ![Boîte de dialogue Créer un workflow](media/journal-workflow-create-workflow.png "Boîte de dialogue Créer un workflow")
 
 1. L’application Éditeur de workflow se lance sur votre ordinateur. (Vous pouvez être invité à approuver cette action.) Utilisez-la pour concevoir votre workflow selon vos besoins. Pour plus d’informations sur l’utilisation de l’éditeur de workflow, voir [Vue d’ensemble du système de workflow](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Après avoir enregistré et fermé l’application Éditeur de workflow, vous devez choisir d’activer cette version de workflow ou de la conserver comme inactive.
@@ -73,7 +69,7 @@ Pour associer un workflow du journal de stock à un nom de journal de stock :
 1. Sélectionnez un nom de journal dans la colonne de liste pour ouvrir sa page de paramètres.
 1. Dans l’organisateur **Général**, définissez l’option **Workflow d’approbation** sur **Oui**. Si vous êtes invité à approuver l’action, cliquez sur **Oui**.
 
-    ![Affecter un workflow à un nom de journal.](media/journal-workflow-journal-name.png "Affecter un workflow à un nom de journal")
+    ![Affecter un workflow à un nom de journal](media/journal-workflow-journal-name.png "Affecter un workflow à un nom de journal")
 
 1. Ouvrez la liste déroulante **Workflow** et sélectionnez le workflow approprié. La liste affiche chaque workflow actif que vous avez créé à l’aide de l’application Éditeur de workflow.
 
@@ -87,7 +83,7 @@ Après avoir associé un nom de journal de stock à son workflow d’approbation
 1. Complétez le journal selon les besoins.
 1. Lorsque vous créez ou ouvrez un journal de stock auquel est associé un workflow d’approbation, le bouton **Workflow** est actif dans le volet Actions. Lorsque vous êtes prêt à soumettre le journal pour approbation, cliquez sur le bouton **Workflow** pour ouvrir une boîte de dialogue déroulante, puis sélectionnez **Soumettre**. La demande d’approbation est ensuite envoyée à l’approbateur approprié, qui en est informé à l’aide de la méthode de notification configurée pour le workflow.
 
-    ![Soumettre un journal pour approbation.](media/journal-workflow-inventory-journal.png "Soumettre un journal pour approbation")
+    ![Soumettre un journal pour approbation](media/journal-workflow-inventory-journal.png "Soumettre un journal pour approbation")
 
 Pour rappeler une demande d’approbation, ouvrez le journal approprié, cliquez sur le bouton **Workflow**, puis sélectionnez **Rappeler**. Le workflow est alors réinitialisé.
 
@@ -116,6 +112,3 @@ Pour consulter l’historique du workflow d’un journal :
 1. Dans le volet de navigation, développez **Gestion des stocks \> Entrées de journal \> Articles**, puis sélectionnez un type de journal de stock.
 1. Ouvrez le journal approprié.
 1. Cliquez sur le bouton **Workflow** dans le volet Actions pour ouvrir une boîte de dialogue déroulante. Sélectionnez **Historique du workflow**. Pour plus d’informations, voir [Afficher l’historique du worklow](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

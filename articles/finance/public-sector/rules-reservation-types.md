@@ -2,24 +2,27 @@
 title: Paramétrer des règles de réservation budgétaire générale et des types de réservation
 description: Cette rubrique explique la procédure de paramétrage et de modification des règles de réservation budgétaire générale et des types de réservations pour le secteur public.
 author: AlexRenney
+manager: AnnBe
 ms.date: 04/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationType_PSN
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0aee308826c3e0069d0c9c52f70eedf4fe0d59ed5ba70100869755eb747685ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 454d79d56801b1bff228e957b34807acc4fad684
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727203"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407911"
 ---
 # <a name="set-up-general-budget-reservation-rules-and-reservation-types"></a>Paramétrer des règles de réservation budgétaire générale et des types de réservation
 
@@ -32,7 +35,7 @@ Les entités du secteur public utilisent souvent des réservations budgétaires 
 
 L’illustration suivante indique comment paramétrer le système pour utiliser des réservations budgétaires générales. Chaque étape numérotée correspond à une section de cette rubrique.
 
-![Paramétrage de la réservation budgétaire générale.](media/gbr-rules-reservations-process.jpg "Paramétrage de la réservation budgétaire générale")
+![Paramétrage de la réservation budgétaire générale](media/gbr-rules-reservations-process.jpg "Paramétrage de la réservation budgétaire générale")
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -159,6 +162,3 @@ Si vous n’avez pas accès aux pages qui vous permettent d’effectuer cette t�
 |---------------------------|---------------------------------------------------------------|
 | Clé de configuration des licences | Secteur public \> Réservation budgétaire générale                   |
 | Rôles de sécurité            | Vous devez être membre du rôle de sécurité **Responsable du budget**. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

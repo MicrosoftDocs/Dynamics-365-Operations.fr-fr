@@ -52,6 +52,3 @@ Onboard enverra automatiquement à la nouvelle recrue un e-mail indiquant les mo
     ![[Envoi des modifications d'un modèle d'intégration à tous les guides qui ont été créés à partir de celui-ci](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Les modifications seront visibles par les nouvelles recrues qui ouvriront les guides d'intégration. Toutefois, Onboard n'enverra pas d'alertes par e-mail aux nouvelles recrues pour les informer de la modification de leur guide d'intégration. Pour faciliter l'identification, une balise rouge **Nouveau** apparaît en regard de chaque modification. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Savoir utiliser les limites de contrôle de disponibilités
 description: Cette rubrique explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu’il n’y a aucun solde de disponibilités ou qu’une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
 author: v-kiarnd
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b94c3b53c992eb2a4ca99a8010d8fb129ee19b48f4a3c421a3845bd188555b41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3344ff472f1a844fe96953ff854e958316498339
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774191"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407921"
 ---
 # <a name="use-cash-control-limits"></a>Savoir utiliser les limites de contrôle de disponibilités
 
@@ -91,6 +94,3 @@ Si la facture dépasse la limite de contrôle de disponibilités et que l’util
 - Un utilisateur disposant de droits de contournement renvoie la facture
 - La facture est modifiée afin qu’un autre compte de disponibilités soit utilisé
 - Le solde de contrôle de disponibilités est modifié
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

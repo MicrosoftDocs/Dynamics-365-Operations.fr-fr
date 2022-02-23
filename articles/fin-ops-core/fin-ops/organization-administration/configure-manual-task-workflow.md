@@ -2,9 +2,11 @@
 title: Configurer des tâches manuelles dans un workflow
 description: Cette rubrique explique comment configurer les propriétés d’une tâche manuelle.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066466"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798803"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurer des tâches manuelles dans un workflow
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment configurer les propriétés d’une tâche manuelle.
 
@@ -45,7 +44,7 @@ Vous devez fournir une ligne d’objet et des instructions aux utilisateurs affe
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
 2. Entrez la ligne d’objet dans le champ **Objet de l’article de travail**.
-3. Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d’objet s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+3. Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d’objet s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -62,7 +61,7 @@ Vous devez fournir une ligne d’objet et des instructions aux utilisateurs affe
     6. Cliquez sur **Fermer**.
 
 5. Entrez les instructions dans le champ **Instructions de l’élément de travail**.
-6. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+6. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -110,7 +109,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l’onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter la tâche.</li>
-    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la tâche peut être affectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
+    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la tâche peut être affectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l’extraction de noms dans la hiérarchie.</li>
     </ol>
@@ -149,12 +148,12 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>File d’attente</strong>, cliquez sur l’onglet <strong>Basé sur la file d’attente</strong>.</li>
-    <li>Pour affecter la tâche à une file d’attente donnée, procédez comme suit : <ol>
+    <li>Pour affecter la tâche à une file d’attente donnée, procédez comme suit : <ol>
     <li>Dans la liste <strong>Type de file d’attente</strong>, sélectionnez <strong>Files d’attente des éléments de travail</strong>.</li>
     <li>Sélectionnez la file d’attente dans la liste <strong>Nom de file d’attente</strong>.</li>
     </ol>
     </li>
-    <li>Si une condition détermine la file d’attente à laquelle la tâche est affectée, procédez comme suit : <ol>
+    <li>Si une condition détermine la file d’attente à laquelle la tâche est affectée, procédez comme suit : <ol>
     <li>Dans la liste <strong>Type de file d’attente</strong>, sélectionnez <strong>Files d’attente conditionnelles des éléments de travail</strong>.</li>
     <li>Dans la liste <strong>Nom de file d’attente</strong>, sélectionnez <strong>File d’attente conditionnelle</strong>.</li>
     </ol>
@@ -166,7 +165,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche manuelle.
     </tbody>
     </table>
 
-3. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour réaliser la tâche. Permet de sélectionner l’une des options suivantes :
+3. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour réaliser la tâche. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures accordées à l’utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours accordés à l’utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -185,9 +184,9 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
 
     | Séquence | Chemin de réaffectation      |
     |----------|----------------------|
-    | 1        | Affecter à : Donna     |
-    | 2        | Affecter à : Erin      |
-    | 3        | Action finale : Rejeter |
+    | 1        | Affecter à : Donna     |
+    | 2        | Affecter à : Erin      |
+    | 3        | Action finale : Rejeter |
 
     Dans cet exemple, le système affecte la tâche en retard à Donna. Si celle-ci ne termine pas la tâche dans le délai imparti, le système affecte la tâche à Erin. Si celle-ci ne termine pas la tâche dans le délai imparti, le système rejette le document qui était soumis pour traitement.
 
@@ -208,7 +207,7 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l’onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel réaffecter la tâche.</li>
-    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la tâche peut être réaffectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
+    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui la tâche peut être réaffectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l’extraction de noms dans la hiérarchie.</li>
     </ol>
@@ -244,7 +243,7 @@ Si un utilisateur ne termine pas la tâche manuelle dans le délai imparti, la t
     </tbody>
     </table>
 
-4. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour réaliser la tâche. Permet de sélectionner l’une des options suivantes :
+4. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour réaliser la tâche. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures accordées à l’utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours accordés à l’utilisateur pour terminer la tâche. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -264,7 +263,7 @@ Vous pouvez configurer le système pour qu’il agisse sur la tâche manuelle si
 3. Cliquez sur **Ajouter**.
 4. Permet d’entrer une condition.
 5. Entrez des conditions supplémentaires, si nécessaire.
-6. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
+6. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
 
     1. Cliquez sur **Tester**.
     2. Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**.
@@ -288,7 +287,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu’une tâche manuelle
 
 3. Sélectionnez la ligne pour un événement sélectionné à l’étape 2.
 4. Entrez le texte de la notification dans la zone de texte de l’onglet **Texte de notification**.
-5. Pour personnaliser la notification, vous pouvez insérer des espaces réservés. Ils sont remplacés par les informations appropriées lorsque la notification s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+5. Pour personnaliser la notification, vous pouvez insérer des espaces réservés. Ils sont remplacés par les informations appropriées lorsque la notification s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -358,7 +357,7 @@ Si la tâche manuelle doit être exécutée dans un certain délai, procédez co
 
 1. Dans le volet gauche, cliquez sur **Paramètres avancés**.
 2. Activez la case à cocher **Définir une limite de temps pour l’élément de workflow**.
-3. Dans le champ **Durée**, spécifiez quand la tâche doit être exécutée. Permet de sélectionner l’une des options suivantes :
+3. Dans le champ **Durée**, spécifiez quand la tâche doit être exécutée. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures pendant lesquelles cette tâche doit être exécutée. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours pendant lesquels cette tâche doit être exécutée. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -382,6 +381,3 @@ Lorsque la tâche manuelle est affectée à un utilisateur, l’utilisateur doit
 5. Activez la case à cocher **Déléguer** si vous voulez que l’utilisateur puisse affecter la tâche à un autre utilisateur.
 6. Activez la case à cocher **Réaffecter** si vous voulez que l’utilisateur puisse réaffecter la tâche à un autre utilisateur de la file d’attente des éléments de travail.
 7. Activez la case à cocher **Lancer** si vous voulez que l’utilisateur puisse réaffecter la tâche à la file d’attente des éléments de travail. Un autre utilisateur peut effectuer la tâche.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

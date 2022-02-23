@@ -2,149 +2,151 @@
 title: LIFO avec valeur physique et marquage
 description: Dernier entré, premier sorti (Last In, First Out ou LIFO) est un modèle de stock dans lequel les dernières réceptions sont sorties en premier. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock.
 author: AndersGirke
-ms.date: 02/02/2022
+manager: tfehr
+ms.date: 06/20/2017
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
+ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
-ms.author: aevengir
+ms.search.industry: Retail
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 35650dc02ec923994026a3ab7f66dea5a81ed20d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092162"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967606"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO avec valeur physique et marquage
 
 [!include [banner](../includes/banner.md)]
 
-Le dernier entré, le premier sorti (LIFO) désigne une méthode de gestion et d’évaluation des stocks dans laquelle les stocks qui sont produits ou acquis en dernier sont vendus, utilisés ou éliminés en premier. Pendant le processus de clôture de l’inventaire dans Microsoft Dynamics 365 Supply Chain Management, le système crée des règlements où la dernière réception correspond à la première sortie, et ainsi de suite. Le principe de règlement et de mise en correspondance est basé sur la date comptable des transactions d’inventaire. Une évaluation préliminaire des règlements et des ajustements peut être effectuée en exécutant le processus de recalcul de l’inventaire.
+Dernier entré, premier sorti (Last In, First Out ou LIFO) est un modèle de stock dans lequel les dernières réceptions sont sorties en premier. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. 
 
-Vous pouvez ignorer le principe LIFO en marquant les mouvements de stock de manière ce qu’une réception d’article spécifique soit réglée avec une sortie spécifique. Une clôture d’inventaire périodique est requise lorsque vous utilisez le modèle d’inventaire LIFO pour créer des règlements et ajuster la valeur des sorties selon le principe LIFO. Jusqu’à ce que vous exécutiez le processus de clôture de stock, les transactions de sortie sont évaluées à la moyenne en vigueur lorsque les mises à jour physiques et financières ont eu lieu. À moins que vous n’utilisiez le marquage, la moyenne en vigueur est calculée lors de la mise à jour physique ou financière.
+Dans le modèle de stock Dernier entré, premier sorti (Last In, Last Out, ou LIFO), les dernières réceptions (les plus récentes) sortent du stock en premier. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. Lorsque vous utilisez la méthode LIFO, il n'est pas nécessaire d'utiliser la règle LIFO. Vous pouvez marquer des mouvements de stock de manière ce qu'une sortie d'article spécifique soit réglée avec une réception spécifique. Si vous utilisez le modèle de stock LIFO, nous vous recommandons une clôture de stock périodique. 
 
-Les exemples suivants illustrent l’impact du modèle LIFO dans trois configurations différentes :
+Les exemples suivants illustrent l'impact du modèle LIFO dans trois configurations différentes :
 
-- LIFO sans l’option **Inclure la valeur physique**
-- LIFO avec l’option **Inclure la valeur physique**
-- LIFO avec marquage
+-   LIFO sans l'option **Inclure la valeur physique**
+-   LIFO avec l'option **Inclure la valeur physique**
+-   LIFO avec marquage
 
-## <a name="lifo-without-the-include-physical-value-option"></a>LIFO sans l’option Inclure la valeur physique.
+## <a name="lifo-without-the-include-physical-value-option"></a>LIFO sans l'option Inclure la valeur physique.
+Dans cet exemple, le groupe de modèles d'article n'est pas marqué pour inclure la valeur physique. La figure suivante illustre ces transactions :
 
-Dans cet exemple, la case à cocher **Inclure la valeur physique** est décochée sur le groupe de modèles d’élément pour le produit lancé. La figure suivante illustre ces transactions :
+-   1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
+-   1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
+-   2a. Réception physique en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
+-   2b. Réception financière en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
+-   3a. Réception physique en stock pour une quantité de 1 à un coût de 25,00 EUR chacune.
+-   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
+-   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
+-   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
+-   5b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
+-   6. La clôture du stock est effectuée. Selon la méthode LIFO, la dernière sortie mise à jour financièrement sera réglée par rapport à la dernière réception mise à jour financièrement. Un ajustement de 10,00 EUR sera effectué sur la transaction de sortie.
 
-- 1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
-- 1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
-- 2a. Réception physique en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
-- 2b. Réception financière en stock pour une quantité de 1 à un coût de 22,00 EUR chacune.
-- 3a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 16,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement).
-- 3b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 16,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
-- 4a. Réception physique en stock pour une quantité 1 au coût unitaire de 25,00 EUR.
-- 5a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
-- 5b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
-- 6a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 23,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement)
-- 7\. La clôture du stock est effectuée. Selon la méthode LIFO, la première sortie mise à jour financièrement est réglée par rapport à la dernière réception mise à jour financièrement, etc. Dans cet exemple, un règlement est créé entre 5b et 3b. Un ajustement de 14,00 EUR sera effectué en 3b et le coût final résultant s’élèvera à 30,00 EUR.
+Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement, 15,00 EUR. L'illustration suivante indique l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
 
-L’illustration suivante indique l’impact du modèle de stock FIFO sur cette série de transactions lorsque l’option **Inclure la valeur physique** n’est pas utilisée.
-
-![LIFO sans l’option Inclure la valeur physique.](./media/lifo-without-including-physical-value.png)
+![LIFO Sans Inclure la valeur physique](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
 - Les mouvements de stock sont représentés par les flèches verticales.
-- Les transactions physiques sont représentées par des flèches gris clair plus courtes.
-- Les transactions financières sont représentées par des flèches noires plus longues.
-- Les réceptions en stock sont représentées par les flèches verticales au-dessus de l’axe.
-- Les sorties de stock sont représentées par les flèches verticales en dessous de l’axe.
+- Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
+- Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
+- La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
+- La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
-- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l’ordre des validations des mouvements de stock sur la ligne temporelle.
-- Chaque date du diagramme est séparée par une fine ligne verticale noire. La date est notée en bas du schéma.
-- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge.
-- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d’une réception vers une sortie.
+- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
+- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
+- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
-## <a name="lifo-with-the-include-physical-value-option"></a>LIFO avec l’option Inclure la valeur physique
+## <a name="lifo-with-the-include-physical-value-option"></a>LIFO avec l'option Inclure la valeur physique
+Si la case à cocher **Inclure la valeur physique** est activée pour un article dans la page **Groupes de modèles d'article**, le système utilise à la fois les transactions de réception physique et financière pour calculer le prix de revient moyen en cours. Au besoin, le système ajuste la transaction de sortie mise à jour physiquement. Si la case à cocher **Inclure la valeur physique** est désactivée, la clôture de stock avec le modèle de stock LIFO ne règle que les transactions financièrement mises à jour. 
 
-Si la case à cocher **Inclure la valeur physique** est activée pour un article dans la page **Groupes de modèles d’article**, le système utilise à la fois les transactions de réception physique et financière pour calculer le prix de revient moyen en cours. Au besoin, le système ajuste la transaction de sortie mise à jour physiquement. Si la case à cocher **Inclure la valeur physique** est désactivée, la clôture de stock qui utilise le modèle de stock LIFO ne règle que les transactions financièrement mises à jour.
+La figure suivante illustre ces transactions :
 
-La figure suivante illustre ces transactions :
+-   1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
+-   1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
+-   2a. Réception physique en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
+-   2b. Réception financière en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
+-   3a. Réception physique en stock pour une quantité de 1 à un coût de 25,00 EUR chacune.
+-   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
+-   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
+-   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
+-   5b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 21,25 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
+-   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
+-   7. La clôture du stock est effectuée. Selon la méthode LIFO, la dernière transaction de sortie sera ajustée ou réglée par rapport à la dernière réception mise à jour.
 
-- 1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
-- 1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
-- 2a. Réception physique en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
-- 2b. Réception financière en stock pour une quantité de 1 à un coût de 22,00 EUR chacune.
-- 3a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 16,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement et physiquement).
-- 3b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 16,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement et physiquement).
-- 4a. Réception physique en stock pour une quantité 1 au coût unitaire de 25,00 EUR.
-- 5a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
-- 5b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
-- 6a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 23,67 EUR (prix de revient moyen en vigueur des transactions validées financièrement et physiquement).
-- 7\. La clôture du stock est effectuée. Selon la méthode LIFO, la première sortie mise à jour financièrement est réglée par rapport à la dernière réception mise à jour financièrement, etc. Dans cet exemple, un règlement est créé entre 3b et 5b. Un ajustement de 14,00 EUR sera effectué en 3b et le coût final résultant s’élèvera à 30,00 EUR. En outre, la transaction 6a sera ajustée sur le coût de la transaction de réception en 4a. Le système ne règlera pas ces transactions car la mise à jour de la réception s’effectue au niveau physique mais pas au niveau financier. Au lieu de cela, seul un ajustement de 1,33 EUR sera comptabilisé sur la transaction d’émission physique, et le coût ajusté résultant sera de 25,00 EUR.
+La transaction 6a sera ajustée sur la transaction de réception 4b. Le système ne règlera pas ces transactions car la mise à jour de la réception s'effectue au niveau physique mais pas au niveau financier. La transaction de sortie physique fera l'objet d'un ajustement de 8,75 EUR. La transaction 5b sera ajustée sur la transaction de réception physique 3a. Le système ne règlera pas ces transactions parce qu'elles ne sont pas mises à jour financièrement. À la place, cette transaction de sortie fera l'objet d'un ajustement de –3,75 EUR. Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 20,00 EUR. 
 
-Les illustrations suivantes indiquent l’impact du modèle de stock LIFO sur cette série de transactions lorsque l’option **Inclure la valeur physique** n’est pas utilisée.
+Les illustrations suivantes indiquent l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
 
-![LIFO avec l’option Inclure la valeur physique.](./media/lifo-with-included-physical-value.png)
+![LIFO avec Inclure la valeur physique](./media/lifowithincludephysicalvalue.gif) 
 
 **Clés du diagramme**
 
 - Les mouvements de stock sont représentés par les flèches verticales.
-- Les transactions physiques sont représentées par des flèches gris clair plus courtes.
-- Les transactions financières sont représentées par des flèches noires plus longues.
-- Les réceptions en stock sont représentées par les flèches verticales au-dessus de l’axe.
-- Les sorties de stock sont représentées par les flèches verticales en dessous de l’axe.
+- Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
+- Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
+- La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
+- La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
-- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l’ordre des validations des mouvements de stock sur la ligne temporelle.
-- Chaque date du diagramme est séparée par une fine ligne verticale noire. La date est notée en bas du schéma.
-- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge.
-- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d’une réception vers une sortie.
+- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
+- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
+- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
 ## <a name="lifo-with-marking"></a>LIFO avec marquage
+Le marquage est un processus qui vous permet de lier, ou de marquer, une transaction de sortie à une transaction de réception. Cette opération peut être effectuée avant ou après la validation d'une transaction. Vous pouvez utiliser le marquage si vous voulez être sûr du coût exact du stock lors de la validation de la transaction ou de l'exécution de la clôture de stock. Par exemple, le service à la clientèle a accepté une commande urgente d'un client important. Comme il s'agit d'une commande urgente, vous devez payer plus cher pour cet article afin de satisfaire la demande de votre client. 
 
-Le marquage est un processus qui vous permet de lier, ou de marquer, une transaction de sortie à une transaction de réception. Cette opération peut être effectuée avant ou après la validation d’une transaction. Vous pouvez utiliser le marquage si vous voulez être sûr du coût exact du stock lors de la validation de la transaction ou de l’exécution de la clôture de stock. Par exemple, le service à la clientèle a accepté une commande urgente d’un client important. Comme il s’agit d’une commande urgente, vous devez payer plus cher pour cet article afin de satisfaire la demande du client.
+Vous devez vous assurer que le coût de cet article en stock se reflètera dans la marge, ou le coût des marchandises vendues (COGS), pour la facture de cette commande client. Lorsque la commande fournisseur est validée, le stock est reçu à un coût de 120,00 EUR. Si ce document de commande client est marqué par rapport à la commande fournisseur avant la validation du bon de livraison ou de la facture, le coût des marchandises vendues sera de 120,00 EUR, et non le coût moyen en vigueur de l'article. Si le bon de livraison ou la facture de la commande client est validée avant le marquage, le coût des marchandises vendues sera validé au prix de revient moyen en vigueur. 
 
-Vous devez vous assurer que le coût de cet article en stock se reflètera dans la marge, ou le coût des marchandises vendues (COGS), pour la facture de cette commande client. Lorsque la commande fournisseur est validée, le stock est reçu à un coût de 120,00 EUR. Si ce document de commande client est marqué par rapport à la commande fournisseur avant la validation du bon de livraison ou de la facture, le coût des marchandises vendues sera de 120,00 EUR, et non le coût moyen en vigueur de l’article. Si le bon de livraison ou la facture de la commande client est validée avant le marquage, le coût des marchandises vendues sera validé au prix de revient moyen en vigueur.
+Avant d'exécuter la clôture de stock, ces deux transactions peuvent encore être marquées l'une par rapport à l'autre. 
 
-Avant d’exécuter la clôture de stock, ces deux transactions peuvent encore être marquées l’une par rapport à l’autre.
+Vous pouvez marquer une transaction de sortie par rapport à une réception avant la validation de la transaction. Vous pouvez le faire à partir d'une ligne de commande client dans la page **Détails de la commande client**. Les transactions de réception en cours sont affichées sur la page **Marquage**. 
 
-Vous pouvez marquer une transaction de sortie par rapport à une réception avant la validation de la transaction. Vous pouvez marquer une transaction par rapport à une ligne de commande client sur la page **Détails de la commande client** en sélectionnant **Inventaire \> Marquage** sur le raccourci **Lignes de commande client**. Les transactions de réception en cours sont affichées sur la page **Marquage**.
+Vous pouvez également marquer une transaction de sortie par rapport à une réception après la validation de la transaction. Vous pouvez faire correspondre ou marquer une transaction de sortie par rapport à une transaction de réception en cours pour un article inventorié dans un journal d'ajustement de stock validé. 
 
-Vous pouvez également marquer une transaction de sortie par rapport à une réception après la validation de la transaction. Vous pouvez faire correspondre ou marquer une transaction de sortie par rapport à une transaction de réception en cours pour un article inventorié dans un journal d’ajustement de stock validé.
+La figure suivante illustre ces transactions :
 
-La figure suivante illustre ces transactions :
+-   1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
+-   1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
+-   2a. Réception physique en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
+-   2b. Réception financière en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
+-   3a. Réception physique en stock pour une quantité de 1 à un coût de 25,00 EUR chacune.
+-   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
+-   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
+-   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
+-   5b. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée avec un prix de revient de 20,00 EUR chacune.
+-   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
+-   7. La clôture du stock est effectuée. Étant donné que la transaction FIFO mise à jour financièrement est marquée par rapport à une réception existante, ces transactions sont réglées les unes avec les autres et aucun ajustement n'est effectué.
 
-- 1a. Réception physique en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
-- 1b. Réception financière en stock pour une quantité de 1 à un coût de 10,00 EUR chacune.
-- 2a. Réception physique en stock pour une quantité de 1 à un coût de 20,00 EUR chacune.
-- 2b. Réception financière en stock pour une quantité de 1 à un coût de 22,00 EUR chacune.
-- 3a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 16,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement).
-- 3b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 16,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
-- 3c. La sortie financière de stock pour 3b est marquée comme sortie financière de stock pour 2b.
-- 4a. Réception physique en stock pour une quantité 1 au coût unitaire de 25,00 EUR.
-- 5a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
-- 5b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
-- 6a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 23,00 EUR (prix de revient moyen en vigueur des transactions validées financièrement)
-- 7\. La clôture du stock est effectuée. Selon le principe de marquage qui utilise la méthode LIFO, les transactions marquées sont réglées les unes par rapport aux autres. Dans cet exemple, 3b est réglé sur 2b, et un ajustement pour 6,00 EUR est posté sur 3b pour ramener la valeur à 22,00 EUR. Dans cet exemple, aucun règlement supplémentaire n’est effectué, car la clôture crée des règlements uniquement pour les transactions financièrement mises à jour.
+Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR. 
 
-Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement et physiquement, soit 27,50 EUR.
+Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé. 
 
-Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cette série de transactions quand le marquage entre les sorties et les réceptions est utilisé.
-
-![LIFO avec marquage.](./media/lifo-with-marking.png)
+![LIFO avec marquage](./media/lifowithmarking.gif) 
 
 **Clés du diagramme**
 
 - Les mouvements de stock sont représentés par les flèches verticales.
-- Les transactions physiques sont représentées par des flèches gris clair plus courtes.
-- Les transactions financières sont représentées par des flèches noires plus longues.
-- Les réceptions en stock sont représentées par les flèches verticales au-dessus de l’axe.
-- Les sorties de stock sont représentées par les flèches verticales en dessous de l’axe.
+- Les réceptions en stock sont représentées par les flèches verticales au-dessus de la ligne temporelle.
+- Les sorties de stock sont représentées par les flèches verticales en dessous de la ligne temporelle.
+- Au-dessus (ou en dessous) de chaque flèche verticale, la valeur du mouvement de stock est spécifiée au format Quantité@Prix unitaire.
+- La valeur d'un mouvement de stock entre parenthèses indique que le mouvement de stock est physiquement validé dans le stock.
+- La valeur d'un mouvement de stock qui n'est pas entre parenthèses indique que le mouvement de stock est financièrement validé dans le stock.
 - Chaque nouvelle transaction de réception ou de sortie est désignée par un nouveau libellé.
-- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l’ordre des validations des mouvements de stock sur la ligne temporelle.
-- Chaque date du diagramme est séparée par une fine ligne verticale noire. La date est notée en bas du schéma.
-- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge.
-- Les règlements et marquages effectués par clôture de stock sont représentés par des flèches rouges en diagonale d’une réception vers une sortie.
+- Chaque flèche verticale est marquée par un identificateur séquentiel, comme *1a*. Les identificateurs indiquent l'ordre des validations des mouvements de stock sur la ligne temporelle.
+- Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
+- Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

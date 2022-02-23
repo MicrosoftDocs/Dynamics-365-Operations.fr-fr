@@ -2,12 +2,15 @@
 title: Ajouter des champs à un classeur Excel pour modifier les transactions de vente au détail
 description: Cette rubrique décrit la procédure d’ajout de champs à un classeur Microsoft Excel afin que vous puissiez modifier les transactions de vente au détail dans Microsoft Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 359d4c360238db746402321a82f825f0d2c9a88a012800c5455d453e3a8bda73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dce5afdd440a3f953dea632183717d9d7273b032
+ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725456"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "4459041"
 ---
 # <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>Ajouter des champs à un classeur Excel pour modifier les transactions de vente au détail
 
@@ -53,6 +56,3 @@ Le nouveau champ et les données doivent maintenant être disponibles afin d’�
 [Modifier les dimensions financières des transactions de vente au détail](edit-financial-dim.md)
 
 [Créer un classeur Excel pour modifier les transactions de vente au détail](create-excel-edit.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

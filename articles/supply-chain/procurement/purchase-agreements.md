@@ -1,10 +1,12 @@
 ---
 title: Contrats d’achat
 description: Cet article fournit des informations sur les contrats d’achat. Un contrat d’achat est un contrat par lequel une organisation s’engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l’acheteur a droit à des prix spéciaux et des remises.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4911bd891c081892e52bda4bcc87984b3fb189b2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570485"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017185"
 ---
 # <a name="purchase-agreements"></a>Contrats d’achat
 
@@ -102,13 +104,12 @@ Si vous créez une commande fournisseur intersociétés qui utilise le contrat d
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensions financières sur les contrats d’achat
 Vous pouvez copier les dimensions financières vers des en-têtes de document ou des lignes individuelles d’un contrat d’achat. Si vous modifiez les dimensions dans l’en-tête ou la ligne de l’accord, la modification n’affecte aucune commande lancée, mais elle sera reflétée sur toutes les nouvelles commandes.
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
-- [Créer un contrat d’achat](tasks/create-purchase-agreement.md)
-- [Appliquer un contrat d’achat lors de la création d’une commande fournisseur](tasks/create-purchase-release-order-purchase-agreement.md)
+[Créer un contrat d’achat](tasks/create-purchase-agreement.md)
+
+[Créer un ordre de lancement d’achat à partir d’un contrat d’achat](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

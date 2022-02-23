@@ -2,9 +2,11 @@
 title: Sélectionner des définitions de modèle de données lorsque vous créez des formats
 description: Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Créer un fournisseur de configuration et le marquer comme actif.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e6c8df735976ca0f7805fe3e06f141d38abf12faf02ff66195339147aa5405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720830"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684209"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Sélectionner des définitions de modèle de données lorsque vous créez des formats
 
@@ -96,6 +98,3 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
     * Notez qu’un seul élément racine est désormais disponible pour la mise en correspondance avec les sources de données d’application. Si au moins une mise en correspondance de modèle est introduite, seuls les éléments racine du modèle qui sont mis en correspondance avec les sources de données d’application peuvent être sélectionnés comme définition de modèle lorsque le format ER est ajouté.   
 5. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

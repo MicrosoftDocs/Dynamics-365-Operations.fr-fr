@@ -2,13 +2,16 @@
 title: Activer les recommandations de produit personnalisées
 description: Cette rubrique explique comment proposer des recommandations de produit personnalisées aux clients dans Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770955"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412239"
 ---
 # <a name="enable-personalized-recommendations"></a>Activer les recommandations personnalisées
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment proposer des recommandations de produit personnalisées aux clients dans Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Vue d’ensemble
 
 Dans Dynamics 365 Commerce, les détaillants peuvent proposer des recommandations de produit personnalisées (également appelées personnalisation). Ainsi, des recommandations personnalisées peuvent être intégrées dans l’expérience client en ligne et au point de vente (PDV). Si la fonctionnalité de personnalisation est activée, le système peut associer les informations d’achat et de produit d’un utilisateur pour générer des recommandations de produit individualisées.
 
@@ -50,7 +55,7 @@ Pour activer la personnalisation, procédez comme suit.
 1. Sélectionnez la fonctionnalité **Recommandations de produit personnalisées**.
 1. Dans le volet des propriétés **Recommandations de produit personnalisées**, sélectionnez **Activer maintenant**.
 
-![Activation de la personnalisation.](./media/FeatureManagement_Personalized.PNG)
+![Activation de la personnalisation](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Lorsque vous activez la personnalisation, la génération des listes de recommandations de produit personnalisées démarre. Un jour peut être nécessaire avant que ces listes soient disponibles et visibles en ligne et au point de vente.
@@ -73,7 +78,7 @@ Pour pouvoir afficher la liste « Nos choix pour vous » sur une page de comme
 
 L’illustration suivante donne l’exemple d’une liste « Nos choix pour vous » sur la page d’une boutique en ligne.
 
-![Listes Nos choix pour vous en ligne.](./media/picksforyou.png)
+![Listes Nos choix pour vous en ligne](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Listes « Recommandé pour le client » au point de vente
 
@@ -81,7 +86,7 @@ Pour améliorer leur expérience de clientèle, les détaillants peuvent personn
 
 L’illustration suivante donne l’exemple d’une liste « Recommandé pour le client » sur un terminal de PDV.
 
-![Listes Recommandé pour le client au point de vente.](./media/picksonpos.png)
+![Listes Recommandé pour le client au point de vente](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Appliquer la personnalisation aux listes de recommandations existantes
 
@@ -89,7 +94,7 @@ Les détaillants peuvent appliquer la personnalisation aux listes de recommandat
 
 Par exemple, un utilisateur connecté a déjà acheté la montre noire et les bottes de travail marron qui apparaissent dans la liste « Tendance - Par défaut » dans l’illustration suivante. Par conséquent, l’utilisateur affiche de nouveaux produits en remplacement de ces produits, comme indiqué dans la liste « Tendance - Personnalisée ».
 
-![Application de la personnalisation.](./media/applypersonalization.png)
+![Application de la personnalisation](./media/applypersonalization.png)
 
 Pour appliquer la personnalisation à une liste de recommandations existante dans le générateur de site Commerce, procédez comme suit.
 
@@ -99,7 +104,7 @@ Pour appliquer la personnalisation à une liste de recommandations existante dan
 1. Dans la boîte de dialogue **Sélectionner la configuration de liste de produit**, sous **Type**, sélectionnez le type de liste.
 1. Cochez la case **Appliquer la personnalisation**, puis sélectionnez **OK**.
 
-    ![Application de la personnalisation à une liste de tendances.](./media/ApplyPersonalizationToTrending.PNG)
+    ![Application de la personnalisation à une liste de tendances](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Enregistrez la page, terminez de la modifier, puis publiez-la. Après la publication de la page, les utilisateurs connectés affichent les listes de tendances personnalisées.
 
@@ -126,6 +131,3 @@ Pour appliquer la personnalisation à une liste de recommandations existante dan
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

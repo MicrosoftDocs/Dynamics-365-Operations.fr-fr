@@ -2,23 +2,26 @@
 title: Contrôle qualité
 description: Cette rubrique fournit des informations sur la fonctionnalité de Contrôle qualité. Cette fonctionnalité permet aux magasiniers d’effectuer des contrôles ponctuels rapides de la qualité lorsqu’ils reçoivent des articles dans la zone du quai d’arrivée.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a3a565ea566dd2bf4d8c793b3340c78c9f4ed0a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4428286"
 ---
 # <a name="quality-check"></a>Contrôle qualité
 
@@ -299,7 +302,7 @@ Une fois la commande fournisseur créée, elle peut être reçue en utilisant l�
 
 #### <a name="receive-pallet-1"></a>Recevoir la palette 1
 
-1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur de l’entrepôt *51*. (Entrez *51* comme ID utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *51*. (Entrez *51* comme ID utilisateur et *1* comme mot de passe.)
 1. Allez à **Entrant \> Réception de la ligne de CF**.
 1. Dans le champ **PONUM**, entrez le numéro de commande fournisseur.
 1. Confirmez le numéro de la commande fournisseur.
@@ -310,7 +313,7 @@ Une fois la commande fournisseur créée, elle peut être reçue en utilisant l�
 
     La page **Contrôle qualité** qui apparaît n’a pas de champs de saisie. Il n’a que le bouton de confirmation (coche) en bas et le bouton Menu (**≡**) au sommet. (Le bouton Menu est parfois appelé le menu hamburger ou bouton hamburger.) Pour accélérer le processus de contrôle qualité, lorsque la palette passe le contrôle qualité, l’utilisateur confirme simplement la page **Contrôle qualité**.
 
-    ![Page Contrôle qualité.](media/quality-check.png "Page Contrôle qualité")
+    ![Page Contrôle qualité](media/quality-check.png "Page Contrôle qualité")
 
 1. Sélectionnez le bouton de confirmation pour réussir le contrôle qualité de la palette 1 de la ligne 1.
 
@@ -394,6 +397,3 @@ Pour ce scénario, la palette 3 sera acceptée.
 1. Sélectionnez le bouton Menu (**≡**) en haut de la page, puis, dans le menu, sélectionnez **Annuler** pour revenir au menu.
 
 Vous pouvez maintenant fermer l’application mobile.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

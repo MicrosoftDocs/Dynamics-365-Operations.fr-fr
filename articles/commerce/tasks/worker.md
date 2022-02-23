@@ -1,36 +1,39 @@
 ---
 title: Configurer un collaborateur
-description: Cette procédure illustre comment configurer un collaborateur en tant que commercial qui peut bénéficier d’une commission sur les ventes dans POS.
+description: Cette procédure illustre comment configurer un collaborateur en tant que commercial qui peut bénéficier d'une commission sur les ventes dans POS.
 author: jblucher
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a21d5f2d5963db2a92b653e8e520f96f11ba1bf6acbb238812211154d5b39fc0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd437f549ffc1f8879ce3814ace1193040b280e1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726381"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412357"
 ---
-# <a name="configure-a-worker"></a>Configurer un collaborateur
+# <a name="configure-a-worker"></a> Configurer un collaborateur
 
 [!include [banner](../includes/banner.md)]
 
-Cette procédure illustre comment configurer un collaborateur en tant que commercial qui peut bénéficier d’une commission sur les ventes dans POS. La société fictive USRT sert d’exemple dans cette procédure.
+Cette procédure illustre comment configurer un collaborateur en tant que commercial qui peut bénéficier d'une commission sur les ventes dans POS. La société fictive USRT sert d'exemple dans cette procédure.
 
 
 ## <a name="create-a-commission-sales-group-for-the-worker"></a>Créer un groupe de vente avec commission pour le collaborateur
 1. Accédez à Ventes et marketing > Commissions > Groupes de ventes.
-    * Les collaborateurs peuvent être affectés à un ou plusieurs groupes de vente. Dans POS, vous pouvez choisir n’importe quel groupe de vente contenant des collaborateurs issus du carnet d’adresses du magasin.  
+    * Les collaborateurs peuvent être affectés à un ou plusieurs groupes de vente. Dans POS, vous pouvez choisir n'importe quel groupe de vente contenant des collaborateurs issus du carnet d'adresses du magasin.  
 2. Cliquez sur Nouveau.
 3. Dans le champ Groupe, tapez une valeur.
 4. Tapez une valeur dans le champ Nom.
@@ -46,14 +49,11 @@ Cette procédure illustre comment configurer un collaborateur en tant que commer
 
 ## <a name="assign-the-workers-default-sales-group"></a>Affecter le groupe de vente par défaut des collaborateurs
 1. Accédez à Retail et Commerce > Employés > Collaborateurs.
-2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Cliquez sur l’onglet Commerce.
-    * Un collaborateur peut être affecté à un groupe de vente par défaut. Le groupe de vente par défaut est automatiquement ajouté aux lignes de vente dans POS si l’option est activée dans le profil de la fonctionnalité pour le magasin.  
+4. Cliquez sur l'onglet Commerce.
+    * Un collaborateur peut être affecté à un groupe de vente par défaut. Le groupe de vente par défaut est automatiquement ajouté aux lignes de vente dans POS si l'option est activée dans le profil de la fonctionnalité pour le magasin.  
 5. Cliquez sur Modifier.
 6. Dans le champ Groupe par défaut, entrez ou sélectionnez une valeur.
 7. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,35 +1,39 @@
 ---
 title: Classifications de facturation et codes facturation dans le secteur public
-description: Cette rubrique explique comment les organisations du secteur public peuvent utiliser les classifications de facturation et les codes de facturation pour gérer les factures financières.
-author: v-kiarnd
+description: Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustCustomField
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 19491
 ms.assetid: 47624566-0b4c-41dc-9cd4-801e213b5da3
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9343079ad9dc98b3a411d8a49f2c49a95b6ca76c
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 4e3c58c677953b422b0c9e23282a9472d1722839
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817691"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407923"
 ---
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment les organisations du secteur public peuvent utiliser les classifications de facturation et les codes de facturation pour gérer les factures financières. 
+Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières. 
 
-## <a name="billing-classifications"></a>Classifications de facturation
+<a name="billing-classifications"></a>Classifications de facturation
+-----------------------
 
 Les classifications de facturation permettent de regrouper les factures financières similaires pour le traitement et l’affichage. Par exemple, une agence de transit peut louer de l’espace dans chaque station de transit à des cafés et d’autres fournisseurs. En créant une classification de facturation pour des baux, l’agence peut automatiquement appliquer les mêmes conditions de paiement et utiliser la même série de lettres de relance pour tous les baux. L’agence peut également afficher les factures pour tous les baux ensemble, même si ces baux ne partagent pas les mêmes dimensions financières. Les classifications de facturation incluent les informations suivantes :
 
@@ -86,6 +90,3 @@ Non, mais il existe tout de même une manière d’obtenir les résultats dont v
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
