@@ -1,30 +1,33 @@
 ---
 title: Paramétrage de profils de validation d’immobilisation
-description: Cette procédure montre comment configurer les profils de comptabilisation des immobilisations.
-author: moaamer
+description: Ce guide de tâche va paramétrer les profils de validation d’immobilisation.
+author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883766"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443235"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Paramétrage de profils de validation d’immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure montre comment configurer les profils de comptabilisation des immobilisations. Les exemples donnés dans la rubrique concernent un profil de validation de base, même s’il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
+Ce guide de tâche va paramétrer les profils de validation d’immobilisation.  Il utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.  Les exemples donnés dans le guide de tâches concernent un profil de validation de base, même s’il faut créer des profils de validation pour les besoins spécifiques de vos plans de comptes et de vos états financiers.
 
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Paramétrage > Profils de validation d’immobilisation**.
 2. Cliquez sur **Nouveau**.
@@ -47,11 +50,11 @@ Cette procédure montre comment configurer les profils de comptabilisation des i
 19. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 20. Spécifiez les valeurs souhaitées dans le champ **Compte principal**.
 21. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
-22. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession – Vente ».
+22. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession - Vente ».
 23. Cliquez sur **Ajouter**.
 24. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 25. Spécifiez les valeurs souhaitées dans le champ **Compte principal**. Pour les cessions, vous pouvez entrer un compte de contrepartie ou le laisser vide et le renseigner pour la transaction spécifique.  
-26. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession – Mise au rebut ». Utilisez les mêmes comptes pour « Cession – Vente » et « Cession – Mise au rebut ».  
+26. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession - Mise au rebut ». Utilisez les mêmes comptes pour « Cession - Vente » et « Cession - Mise au rebut ».  
 27. Cliquez sur **Ajouter**.
 28. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 29. Spécifiez les valeurs souhaitées dans le champ **Compte principal**. Pour les cessions, vous pouvez entrer un compte de contrepartie ou le laisser vide et le renseigner pour la transaction spécifique.  
@@ -120,6 +123,3 @@ Cette procédure montre comment configurer les profils de comptabilisation des i
 88. Spécifiez les valeurs souhaitées dans le champ **Compte principal**.
 89. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

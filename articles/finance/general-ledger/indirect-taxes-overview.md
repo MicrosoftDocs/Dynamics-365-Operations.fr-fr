@@ -1,28 +1,29 @@
 ---
 title: Vue d’ensemble des taxes
 description: Cette rubrique offre une vue d’ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/28/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "13111"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983926"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443224"
 ---
 # <a name="sales-tax-overview"></a>Vue d’ensemble des taxes
 
@@ -30,13 +31,14 @@ ms.locfileid: "7983926"
 
 Cette rubrique offre une vue d’ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
 
-## <a name="overview"></a>Vue d’ensemble
+<a name="overview"></a>Vue d’ensemble
+--------
 
 L’infrastructure de taxe prend en charge de nombreux types de taxes indirectes, tels que la taxe, la taxe sur la valeur ajoutée (VAT), la Taxe sur les Produits et Services (GST), les frais basés sur l’unité et la retenue à la source. Ces taxes sont calculées et documentées lors des transactions d’achat et de vente. Régulièrement, elles doivent être déclarées et payées à l’administration fiscale. 
 
 Le diagramme suivant indique les entités du paramétrage fiscal et comment elles sont liées.
 
-[![Diagramme présentant la vue d’ensemble des entités du paramétrage fiscal.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagramme présentant la vue d’ensemble des entités du paramétrage fiscal](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Pour chaque taxe qu’une société doit justifier, un code taxe doit être défini. Un code taxe enregistre les taux et les règles de calcul de la taxe. 
 
@@ -95,6 +97,3 @@ Toutefois, si vous utilisez une taxe sur les encaissements, vous payez l’admin
 Si vous utilisez un chèque postdaté comme mode de paiement, lorsque le paiement est créé, le compte bancaire n’est pas effacé. Dans certains pays, la TVA devient un passif « réalisé » lorsque le paiement compense la banque, ce qui signifie que le chèque postdaté est réglé. Vous pouvez l’activer en sélectionnant **Réaliser la taxe conditionnelle lorsque les chèques postdatés sont débités** dans **Gestion de la trésorerie et de la banque > Paramétrage > Paramètres de gestion de la trésorerie et de la banque > Chèques postdatés**.
 
 Pour plus d’informations, voir [Paramétrer la retenue à la source](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

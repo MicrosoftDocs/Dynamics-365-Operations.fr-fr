@@ -1,26 +1,29 @@
 ---
 title: Acquérir les actifs via l’approvisionnement
 description: Cette rubrique décrit comment paramétrer l’intégration entre Immobilisations et Comptabilité fournisseur pour créer automatiquement des immobilisations à partir de commandes fournisseur ou de factures fournisseur ou pour valider automatiquement des transactions d’acquisition et d’ajustement d’acquisition pour des immobilisations.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c51abd3ce380f0cb1ad688ffab16b239460bc45
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: b07fdf6e5f4afa4f6df84138c809e402b7944dfb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674745"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443146"
 ---
 # <a name="acquire-assets-through-procurement"></a>Acquérir les actifs via l’approvisionnement
 
@@ -106,6 +109,3 @@ Pour plus d’informations, voir [Intégration des immobilisations](fixed-asset-
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,33 @@
 ---
-title: Créer un compte principal
-description: Cette procédure explique comment ajouter un compte principal à un plan comptable existant.
+title: Création d’un compte principal
+description: Ce guide accompagne l’utilisateur lors de l’ajout d’un compte principal à un plan de comptes existant.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394633"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443075"
 ---
-# <a name="create-a-main-account"></a>Créer un compte principal
+# <a name="create-a-main-account"></a>Création d’un compte principal
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure explique comment ajouter un compte principal à un plan comptable existant. La société fictive USMF sert d’exemple dans cet enregistrement.  
+Ce guide accompagne l’utilisateur lors de l’ajout d’un compte principal à un plan de comptes existant. La société fictive USMF sert d’exemple dans cet enregistrement.  
 
 1. Accédez à **Volet de navigation > Modules > Comptabilité > Plan de comptes > Comptes > Comptes principaux**.
 2. Cliquez sur **Nouveau**.
@@ -49,6 +52,3 @@ Cette procédure explique comment ajouter un compte principal à un plan comptab
 21. Dans le champ **Type de la conversion de devises**, sélectionnez le mode de calcul des de taux de change du compte.
 22. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

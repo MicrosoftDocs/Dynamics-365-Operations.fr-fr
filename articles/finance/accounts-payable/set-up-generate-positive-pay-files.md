@@ -2,25 +2,28 @@
 title: Paramétrer et générer des fichiers de paiement positif
 description: Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif.
 author: panolte
+manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 992c73b1ba1f461542873a7df97f1539b99fc015c3e6ef090993e90212993851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737183"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443120"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Paramétrer et générer des fichiers de paiement positif
 
@@ -139,9 +142,6 @@ Les fichiers de paiement positifs sont créés à l’aide d’entités de donn�
 </xsl:stylesheet>
 ```
 
-> [!NOTE]
-> Les noms XML dans le XSLT doivent correspondre à la casse des nœuds dans le XML. Les fichiers XSLT et XML sont sensibles à la casse. 
-
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Affecter le format de paiement positif à un compte bancaire
 Pour chaque compte bancaire pour lequel vous souhaitez générer des informations de paiement positif, vous devez affecter le format de paiement positif que vous avez spécifié dans la section précédente. Dans la page **Comptes bancaires**, sélectionnez le format de paiement positif correspondant au compte bancaire. Dans le champ **Date de début du paiement positif** , entrez la première date pour générer des fichiers de paiement positif. Il est important que vous entriez une date dans ce champ. Sinon, le premier fichier de paiement positif que vous générerez inclura tous les chèques jamais créés pour ce compte bancaire.
 
@@ -165,6 +165,3 @@ Si vous devez modifier un fichier de paiement positif, vous pouvez le rappeler. 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Approbations de factures par téléphone portable
 description: Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737353"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443125"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
@@ -27,11 +30,12 @@ ms.locfileid: "6737353"
 
 Les fonctionnalités mobiles permettent aux entreprises de créer des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d’étendre les capacités comme ils le désirent. Le moyen le plus efficace d’apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation. Cette rubrique doit vous aider à créer d’autres variations de scénarios et peut également être appliquée à d’autres scénarios non liés aux factures fournisseur.
 
-## <a name="prerequisites"></a>Conditions préalables
+<a name="prerequisites"></a>Conditions préalables
+-------------
 
 | Logiciel requis                                                                                            | Description                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un environnement avec version 1611 et Platform update 3 (novembre 2016)                   |
 | Installez le correctif KB 3204341.                                                                              | L’enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Platform Update 3 (mise à jour novembre 2016). |
 | Installez le correctif KB 3207800.                                                                              | Ce correctif permet d’afficher les pièces jointes sur le client mobile, ce qui est inclus dans Platform Update 3 (mise à jour de novembre 2016).           |
@@ -45,7 +49,7 @@ Chaque organisation orchestre et définit son processus métier pour les facture
 
 -   Quels champs de l’en-tête de la facture l’utilisateur souhaitera voir dans l’expérience mobile et dans quel ordre ?
 -   Quels champs des lignes de la facture l’utilisateur souhaitera voir dans l’expérience mobile et dans quel ordre ?
--   Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %%.
+-   Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %.
 -   Les utilisateurs souhaiteront-ils voir les répartitions comptables (codage de facture) sur l’appareil mobile pendant les révisions ? Si la réponse à la question est Oui, tenez compte des questions suivantes :
     -   Combien de répartitions comptables (prix global, taxes, frais, fractionnements, etc.) y-a-t-il pour une ligne de facture ? Là aussi, appliquez la règle 80-20.
     -   Les factures ont-elles également les répartitions comptables dans l’en-tête de facture ? Dans ce cas, ces répartitions comptables doivent-elles être disponibles dans le périphérique ?
@@ -96,7 +100,7 @@ En général, lorsque vous travaillez avec le Concepteur mobile, veillez à « 
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %%.</td>
+<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %.</td>
 <td>1</td>
 </tr>
 <tr class="even">
@@ -136,7 +140,7 @@ La première page mobile que vous devez configurer est la liste des factures aff
 
 1.  Dans l’URL, remplacez le nom de l’option de menu par **VendMobileInvoiceAssignedToMeListPage** pour ouvrir la version mobile de la page de liste **Factures fournisseur en attente qui me sont affectées** dans le module **Comptabilité fournisseur**. Selon le nombre de factures que vous avez dans votre système qui vous est affecté, cette page affiche les factures. Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n’avons pas besoin d’une facture spécifique pour cet exemple. Nous demandons simplement une facture qui vous est attribuée, ce qui vous permettra de concevoir la page mobile. Les nouvelles pages disponibles doivent être désignées spécifiquement pour développer les scénarios mobiles pour la facture fournisseur. Par conséquent, vous devez utiliser ces pages. L’URL doit ressembler à l’adresse suivante, et une fois que vous l’avez entrée, la page affichée dans l’illustration doit apparaître : https://&lt;votreURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    [![Page Factures fournisseur en attente qui me sont affectées.](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![Page Factures fournisseur en attente qui me sont affectées](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  Cliquez sur le bouton **Paramètres** (engrenage) dans la partie supérieure droite de la page, puis cliquez sur **Application mobile**
 3.  Sélectionnez l’espace de travail et cliquez sur **Modifier**
@@ -145,7 +149,7 @@ La première page mobile que vous devez configurer est la liste des factures aff
 6.  Cliquez sur **Terminé**.
 7.  Dans le Concepteur mobile, sous l’onglet **Champs**, cliquez sur **Sélectionner des champs**. Les colonnes de la page de liste doivent ressembler à l’illustration suivante. 
 
-    [![Colonnes figurant dans les factures fournisseur en attente qui me sont affectées.](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![Colonnes figurant dans les factures fournisseur en attente qui me sont affectées](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  Ajoutez les colonnes voulues de la page de liste à afficher aux utilisateurs de la page mobile. L’ordre dans lequel vous ajoutez est l’ordre dans lequel les champs seront affichés à l’utilisateur final. La seule façon de modifier l’ordre des champs consiste à sélectionner tous les champs. Selon la configuration requise pour ce scénario, les huit champs suivants sont nécessaires. Cependant, certains utilisateurs pourraient considérer que huit champs constituent trop d’informations sur un périphérique mobile. Par conséquent, nous afficherons uniquement les champs principaux dans la vue de liste mobile. Les champs restants apparaîtront dans l’affichage détaillé que nous concevrons ultérieurement. Dans l’immédiat, nous ajouterons les champs suivants. Cliquez sur le signe plus (**+**) dans les colonnes à ajouter à la page mobile.
     - Nom du fournisseur
@@ -156,7 +160,7 @@ La première page mobile que vous devez configurer est la liste des factures aff
 
     Une fois que les champs sont ajoutés, la page mobile doit ressembler à l’illustration suivante. 
     
-    [![Page après l’ajout des champs.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Page après l’ajout des champs](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Vous devez également ajouter les colonnes suivantes maintenant, de manière à ce que nous puissions activer les actions de workflow ultérieurement.
     - Afficher la tâche de fin
@@ -175,7 +179,7 @@ La première page mobile que vous devez configurer est la liste des factures aff
 
 Pour déterminer la page Détails de facture pour la fonction mobile, utilisez la page **VendMobileInvoiceHeaderDetails**. Notez qu’en fonction du nombre de factures que vous avez dans votre système, cette page affiche l’ancienne facture (la facture qui a été créée préalablement). Pour trouver une facture spécifique, vous pouvez utiliser le filtre à gauche. Toutefois, nous n’avons pas besoin d’une facture spécifique pour cet exemple. Nous avons juste besoin de certaines données de factures afin que nous puissions concevoir la page mobile. 
 
-[![Page Workflow.](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![Page Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Dans l’URL, remplacez le nom de l’option de menu par **VendMobileInvoiceHeaderDetails** pour ouvrir l’écran
 
@@ -212,7 +216,7 @@ Pour déterminer la page Détails de facture pour la fonction mobile, utilisez l
 
 11. Une fois que l’ensemble des champs des deux étapes précédentes ont été ajoutés, cliquez sur **Terminé**. La page doit ressembler à l’illustration suivante.
     
-    [![Illustration montrant des champs supplémentaires ajoutés.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Page après l’ajout des champs](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Cliquez sur **Terminé** pour quitter le mode d’édition.
 
@@ -322,7 +326,7 @@ Pour ajouter des actions de workflow, utilisez la page **VendMobileInvoiceHeader
 
 4. Définissez l’option **Gestion des documents** sur **Oui** comme suit. **Remarque :** s’il n’existe aucune exigence d’afficher les pièces jointes sur le périphérique mobile, vous pouvez laisser cette option définie sur **Non**, qui est le paramètre par défaut.
    
-   ![Gestion des documents.](./media/docmanagement-216x300.png)
+   ![Gestion des documents](./media/docmanagement-216x300.png)
 
 5. Cliquez sur **Terminé** pour quitter le mode d’édition.
 
@@ -339,7 +343,7 @@ Les exigences pour ce scénario confirment qu’il n’y aura que des distributi
 
 1.  Dans l’URL, remplacez le nom de l’option de menu, comme effectué précédemment. La page qui apparaît doit ressembler à l’illustration suivante.
 
-    [![Page Toutes les répartitions.](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Page Toutes les répartitions](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Ouvrez le Concepteur mobile à partir du bouton **Paramètres** (engrenage)
 
@@ -495,7 +499,7 @@ Dans votre périphérique mobile, ouvrez l’application, puis connectez-vous à
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %%.</td>
+<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %.</td>
 <td>5</td>
 </tr>
 <tr class="even">
@@ -531,6 +535,3 @@ Les modifications suivantes peuvent être effectuées pour le scénario 1, selon
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

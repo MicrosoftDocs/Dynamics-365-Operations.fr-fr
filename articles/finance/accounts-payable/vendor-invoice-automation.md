@@ -2,29 +2,32 @@
 title: Automatisation des factures pour les documents numérisés
 description: Cette rubrique explique les fonctionnalités disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 author: abruer
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443114"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatisation des factures pour les documents numérisés
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique les entités de données disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
+Cette rubrique explique les fonctionnalités disponibles pour l’automatisation de bout en bout des factures fournisseur, y compris les factures contenant des pièces jointes.
 
 Les organisations qui souhaitent simplifier leurs processus de compatibilité fournisseur identifient souvent le traitement des factures comme l’un des principaux domaines de processus dont l’efficacité doit être améliorée. Dans de nombreux cas, ces organisations confient le traitement des factures papier à un fournisseur de services de reconnaissance optique des caractères (OCR) tiers. Elles reçoivent ensuite les métadonnées de facture dans un format lisible par une machine avec une image numérisée de chaque facture. Pour faciliter l’automatisation, une solution de « dernier kilomètre » est créée pour activer la consommation de ces artefacts dans le système de facturation. L’automatisation de ce « dernier kilomètre » est maintenant activée, via une solution d’automatisation des factures.
 
@@ -34,7 +37,7 @@ La solution d’automatisation des factures active une interface standard qui pe
 
 L’illustration suivante présente un exemple de scénario d’intégration dans lequel Contoso a fait appel à un fournisseur de services OCR pour le traitement des factures fournisseur. Les fournisseurs de Contoso envoient les factures au fournisseur de services par courrier électronique. Par le biais du traitement OCR, le fournisseur de services génère des métadonnées de facture (en-tête et/ou lignes) et une image numérisée de la facture. Une couche d’intégration transforme ensuite ces artefacts afin qu’ils puissent être consommés.
 
-![Exemple de scénario d’intégration.](media/vendor_invoice_automation_01.png)
+![Exemple de scénario d’intégration](media/vendor_invoice_automation_01.png)
 
 Plusieurs variations du scénario précédent sont possibles si l’intégration des factures est requise. La migration des données est un autre cas d’utilisation où cette interface peut être utilisée pour créer des factures et des pièces jointes.
 
@@ -88,11 +91,11 @@ Les factures importées via des packages de données peuvent être associées à
 
 Dans les scénarios où les factures fournisseur sont envoyées dans Finance and Operations par le biais de l’intégration, un membre de l’équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie de Finance and Operations.
 
-### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Factures fournisseur qui n’ont pas réussi à importer la page de liste
+### <a name="exceptions-list-page"></a>Page de liste des exceptions
 
-La nouvelle page de liste pour les exceptions de facture est disponible sous **Comptabilité fournisseur** > **Factures** > **Échecs d’importation** > **Factures fournisseur qui n’ont pas été importées**. Cette page affiche tous les enregistrements d’en-tête de facture fournisseur à partir de la table intermédiaire de l’entité de données En-tête de facture fournisseur. Notez que vous pouvez afficher les mêmes enregistrements à partir de l’espace de travail **Gestion des données**. Vous pouvez également exécuter les mêmes actions que celles fournies dans la fonction de gestion des exceptions à partir de l’espace de travail **Gestion des données**. La fonction de gestion des exceptions a été optimisée pour un utilisateur fonctionnel, ce qui la rend plus facile à utiliser.
+La nouvelle page de liste pour les exceptions de facture est disponible sous **Comptabilité fournisseur** > **Factures** > **Échecs d’importation** > **Factures fournisseur qui n’ont pas été importées**. Cette page affiche tous les enregistrements d’en-tête de facture fournisseur à partir de la table intermédiaire de l’entité de données En-tête de facture fournisseur. Notez que vous pouvez afficher les mêmes enregistrements à partir de l’espace de travail **Gestion des données**, où vous pouvez également exécuter les mêmes actions que celles fournies dans la fonction de gestion des exceptions. Toutefois, l’interface utilisateur fournie par la fonction de gestion des exceptions est optimisée pour un utilisateur fonctionnel.
 
-![Page de liste des exceptions.](media/vendor_invoice_automation_02.png)
+![Page de liste des exceptions](media/vendor_invoice_automation_02.png)
 
 Cette page de liste contient les champs suivants qui sont disponibles via le flux :
 
@@ -116,17 +119,24 @@ Cette page de liste contient les champs suivants qui sont disponibles via le flu
 Cette page de liste a également un volet d’aperçu que vous pouvez utiliser de plusieurs manières :
 
 + Affichez l’ensemble du message d’erreur, afin qu’il ne soit pas nécessaire de développer la colonne **Message d’erreur** de la grille.
++ Affichez l’ensemble de la liste des pièces jointes pour la facture, si des documents sont joints à la facture.
 
 La page de liste prend en charge les actions suivantes :
 
 + **Modifier** – Ouvrez l’enregistrement d’exception en mode Édition, afin de résoudre les problèmes.
 + **Options** – Accédez aux options standard disponibles dans les pages de liste. Vous pouvez utiliser l’option **Ajouter à l’espace de travail** pour épingler la page de liste des exceptions à votre espace de travail en tant que liste ou vignette.
 
-### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Factures fournisseur qui n’ont pas réussi à importer la page des détails
+### <a name="exception-details-page"></a>Page des détails de l’exception
 
-Lorsque vous démarrez le mode d’édition, la page **Factures fournisseur qui n’ont pas réussi à importer les détails** pour la facture qui présente des problèmes s’ouvre. Si une facture comportant une pièce jointe présente des problèmes, la pièce jointe ne sera pas affichée. La pièce jointe doit être de nouveau jointe à la facture.
+Lorsque vous activez le mode Édition, la page des détails de l’exception pour la facture posant problème s’affiche. Si des documents sont joints, la facture et les pièces jointes par défaut s’affichent côte à côte sur la page des détails de l’exception.
 
-La page **Factures fournisseur qui n’ont pas réussi à importer les détails** vous permet de créer une facture en attente. Après avoir résolu les problèmes de la facture dans le cadre du traitement d’une exception, sélectionnez le bouton **Créer une facture en attente** pour créer la facture en attente. La facture en attente sera créée en arrière-plan. 
+![Page des détails de l’exception](media/vendor_invoice_automation_03.png)
+
+Dans l’illustration précédente, aucune ligne n’était disponible pour l’en-tête de facture fournisseur fourni. Par conséquent, la section Lignes est vide.
+
+La page des détails de l’exception prend en charge l’opération suivante :
+
++ **Créer une facture en attente** – Après avoir résolu les problèmes sur la facture dans le cadre du traitement des exceptions, vous pouvez cliquer sur ce bouton pour créer la facture en attente. Les factures en attente sont créées en arrière-plan (comme une opération asynchrone).
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Traitement des exceptions basées sur les services partagés et les organisations
 
@@ -136,7 +146,7 @@ La page de liste des exceptions prend en charge les constructions de sécurité 
 + Par utilisateur
 + Par entité juridique
 
-![Importer une tâche sécurisée par rôle d’utilisateur et entité juridique.](media/vendor_invoice_automation_04.png)
+![Importer une tâche sécurisée par rôle d’utilisateur et entité juridique](media/vendor_invoice_automation_04.png)
 
 Si la sécurité est configurée pour la tâche d’importation de facture, la page de liste des exceptions honore ces paramètres. Les utilisateurs pourront visualiser uniquement les enregistrements d’exception de facture que ce paramétrage les autorise à voir.
 
@@ -178,7 +188,7 @@ Un seul document peut être défini comme pièce jointe par défaut. Après avoi
 
 Un nouveau bouton disponible sur les pages de recherche **Traitement des exceptions**, **Facture en attente** et **Journal des factures** permet d’afficher ou de masquer la visionneuse de pièce jointe.
 
-## <a name="security"></a>Sécurité
+### <a name="security"></a>Sécurité
 
 Les actions suivantes dans la visionneuse de pièce jointe sont contrôlées via la sécurité basée sur les rôles :
 
@@ -203,7 +213,7 @@ Les rôles suivants donnent un accès en lecture seule ou un accès en lecture/�
 + **Commis à la comptabilité fournisseur** et **Responsable Comptabilité fournisseur** – Le droit Tenir à jour les factures fournisseur est affecté à ces rôles.
 + **Commis à la comptabilité fournisseur**, **Responsable Comptabilité fournisseur**, **Commis au paiement centralisé de la comptabilité fournisseur** et **Commis au paiement de la comptabilité fournisseur** – Le privilège Recherche dans le statut des factures fournisseur est affecté à ces rôles.
 
-### <a name="vendor-invoice-attachment"></a>Pièce jointe à la facture fournisseur
+### <a name="invoice-exception-details-page"></a>Page des détails d’exception de facture
 
 Les privilèges suivants donnent un accès en lecture seule ou un accès en lecture/écriture à la visionneuse de pièce jointe pour les actions de mise en surbrillance, de blocage et d’ajout d’annotations.
 
@@ -222,6 +232,3 @@ Les rôles suivants donnent un accès en lecture seule à la visionneuse de piè
 + **Commis à la comptabilité fournisseur** et **Responsable Comptabilité fournisseur** – Le droit Tenir à jour les factures fournisseur est affecté à ces rôles.
 
 Par défaut, si le rôle d’utilisateur donne des droits de modification sur n’importe quelle page, l’utilisateur aura également des droits de modification sur la visionneuse de pièce jointe pour les actions de mise en surbrillance, de blocage et d’ajout d’annotations. Toutefois, s’il existe des scénarios où un rôle spécifique doit avoir des droits de modification sur la page mais pas sur la visionneuse de pièce jointe, les privilèges appropriés de la liste précédente peuvent être utilisés pour respecter le cas d’utilisation.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

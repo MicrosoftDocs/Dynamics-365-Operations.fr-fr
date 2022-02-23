@@ -1,28 +1,31 @@
 ---
-title: Régler un paiement partiel fournisseur ayant des remises sur les avoirs
+title: Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur
 description: Cet article vous fait parcourir les étapes d’un scénario dans lequel un avoir est réglé grâce à une facture.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14222
 ms.assetid: 2b19f7fd-9ff9-4ee4-bddf-f582946d008e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 553150a59d132bb1d8b563e03456995cbc8d2be5f36bab0c1fe6b8bbbf77dce1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737111"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443016"
 ---
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel fournisseur ayant des remises sur les avoirs
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Régler un paiement partiel fournisseur ayant des remises sur les avoirs fournisseur
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,10 +43,10 @@ Le 29 juin, April crée une facture de 1 000,00 pour le fournisseur 3050. Le 
 
 Les informations de remise pour l’avoir s’affichent au bas de la page **Régler les transactions en cours**.
 
-| Champ                        | Valeur     |
+|                              |           |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 13/7/2015 |
-| Montant de l’escompte de règlement         | 2.00      |
+| Montant de l’escompte de règlement         | 2,00      |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l’escompte de règlement à accepter | 2,00      |
@@ -68,6 +71,3 @@ Elle peut revoir les transactions fournisseur dans la page **Transactions fourni
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

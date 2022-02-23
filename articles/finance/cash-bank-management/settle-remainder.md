@@ -1,24 +1,27 @@
 ---
 title: Solde de règlement
 description: Vous pouvez régler le montant restant de l’activité de règlement en appliquant ce montant à un compte général.
-author: roschlom
+author: mikefalkner
+manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754094"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443162"
 ---
 # <a name="settle-remainder"></a>Solde de règlement
 
@@ -67,6 +70,3 @@ Pour régler le solde, procédez comme suit :
 7)  Vous pouvez également choisir de créer un journal des paiements avec le solde de règlement ou seulement le valider sans journal. Sélectionnez **Oui** pour **Modifier dans le journal** pour créer un journal des paiements. Vous pourrez modifier le journal des paiements que vous créez.
 8)  Cliquez sur **Solde de règlement**. Si vous choisissez de créer un journal, le bouton devient **Créer un journal**. Cliquez sur **Créer un journal** à la place.
 9)  Si vous avez créé un journal des paiements, la page du journal s’ouvre lorsque vous cliquez sur **Solde de règlement**. Une ligne de journal sera ajoutée au journal avec le montant du solde de règlement comme montant et le compte de montant de règlement comme compte de contrepartie. Si vous avez ajouté un client ou fournisseur afin de pouvoir déplacer le montant du règlement vers un autre client ou fournisseur, une ligne supplémentaire sera ajoutée au journal pour déplacer le montant du règlement vers ce client ou fournisseur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Contenu Power BI Vue d’ensemble des disponibilités
 description: Cette rubrique décrit le contenu Power BI Vue d’ensemble des disponibilités. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: saraschi2
+manager: AnnBe
 ms.date: 07/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986406"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443210"
 ---
-# <a name="cash-overview-power-bi-content"></a>Contenu de Power BI Vue d’ensemble des disponibilités
+# <a name="cash-overview-power-bi-content"></a>Contenu Power BI Vue d’ensemble des disponibilités
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +41,7 @@ Le paramétrage suivant doit être réalisé pour que les données s’affichent
 2. Accédez à **Comptabilité > Calendriers > Calendriers fiscaux** pour valider les dates du calendrier fiscal affecté à la période active.
 3. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**.
 4. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système, et entre la devise comptable et les devises bancaires. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-5. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d’informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](./cash-flow-forecasting.md). 
+5. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d’informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
 6. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
@@ -55,10 +58,10 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 
 | Etat                                | Sommaire |
 |---------------------------------------|----------|
-| Vue d’ensemble des disponibilités – toutes les sociétés         | <ul><li>Encaissements et décaissements dans la devise système</li><li>Soldes de devise prévus</li><li>Solde bancaire total dans la devise du système</li><li>Solde par entité juridique</li><li>Le solde actuel par rapport au solde prévisionnel dans la devise du compte bancaire</li></ul> |
-| Vue d’ensemble des disponibilités – société actuelle       | <ul><li>Encaissements et décaissements dans la devise comptable</li><li>Soldes de devise prévus</li><li>Solde bancaire total dans la devise comptable</li><li>Le solde actuel par rapport au solde prévisionnel dans la devise du compte bancaire</li></ul> |
+| Vue d’ensemble des disponibilités - toutes les sociétés         | <ul><li>Encaissements et décaissements dans la devise système</li><li>Soldes de devise prévus</li><li>Solde bancaire total dans la devise du système</li><li>Solde par entité juridique</li><li>Le solde actuel par rapport au solde prévisionnel dans la devise du compte bancaire</li></ul> |
+| Vue d’ensemble des disponibilités - société actuelle       | <ul><li>Encaissements et décaissements dans la devise comptable</li><li>Soldes de devise prévus</li><li>Solde bancaire total dans la devise comptable</li><li>Le solde actuel par rapport au solde prévisionnel dans la devise du compte bancaire</li></ul> |
 | Prévisions du flux de trésorerie – Toutes les sociétés    | <ul><li>Encaissements et décaissements dans la devise système</li><li>Synthèse des prévisions quotidiennes</li><li>Détails des prévisions</li></ul> |
-| Prévisions de flux de trésorerie – devise de la société | <ul><li>Encaissements et décaissements dans la devise comptable</li><li>Synthèse des prévisions quotidiennes</li><li>Détails des prévisions</li></ul> |
+| Prévisions de flux de trésorerie - devise de la société | <ul><li>Encaissements et décaissements dans la devise comptable</li><li>Synthèse des prévisions quotidiennes</li><li>Détails des prévisions</li></ul> |
 | Prévisions des devises                     | <ul><li>Soldes de devise prévus</li><li>Synthèse quotidienne des devises</li><li>Détails des prévisions</li></ul> |
 | Soldes bancaires                         | <ul><li>Solde bancaire total dans la devise du système</li><li>Solde par entité juridique</li><li>Le solde actuel par rapport au solde prévisionnel dans la devise du compte bancaire</li><li>Solde par compte bancaire</li><li>Solde par devise</li></ul> |
 
@@ -76,6 +79,3 @@ Le tableau suivant indique les entités sur lesquelles le contenu Power BI **Vue
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Synthèse des encaissements, décaissements et soldes en utilisant la devise comptable de chaque société |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Synthèse des encaissements, décaissements et soldes en utilisant la devise système de toutes les sociétés |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Synthèse des montants de transactions nets et solde des devises en utilisant la devise de transaction |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

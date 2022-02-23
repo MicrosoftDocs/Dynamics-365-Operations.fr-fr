@@ -2,27 +2,28 @@
 title: Vue d’ensemble des règlements des paiements centralisés
 description: Cette rubrique décrit le règlement pour les paiements centralisés pour Microsoft Dynamics 365 Finance.
 author: abruer
+manager: AnnBe
 ms.date: 08/02/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "222414"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d00455d36b4350deffdd0bccb5529ce9e69a7cc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ea661441c6c810d144d423b054c1bef058cdd9d6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982225"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443160"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Vue d’ensemble des règlements des paiements centralisés
 
@@ -36,7 +37,7 @@ Si d’autres enregistrements de règlement sont générés pour les escomptes d
 
 ## <a name="posting-types-transaction-types-and-default-descriptions"></a>Types de validation, types de transaction et description par défaut
 
-Les pièces comptables de règlement intersociétés utilisent les types de validation de règlement intersociétés, de règlement client intersociétés, et de transaction de règlement fournisseur intersociétés. Vous pouvez paramétrer les informations pour le type de transaction sur la page **Descriptions par défaut**. 
+Les transactions N° de document de règlement intersociétés utilisent les types de validation de règlement intersociétés, de règlement client intersociétés, et de transaction de règlement fournisseur intersociétés. Vous pouvez paramétrer les informations pour le type de transaction sur la page **Descriptions par défaut**. 
 
 Les types de transaction suivants sont disponibles pour les règlements de société unique et de société croisée :
 
@@ -84,7 +85,7 @@ Les escomptes de règlement générés pendant le processus de règlement de soc
 
 Les tolérances concernant les trop-perçus, les moins-perçus et les différences minimes sont déterminées en fonction de l’entité juridique de paiement des trop-perçus et de celle des moins-perçus. Le compte de validation utilisé est déterminé par le paramètre du champ **Administration d’escompte de règlement** de la page **Paramètres de la Comptabilité client** pour les clients, et le champ **Administration d’escompte de règlement** de la page **Paramètres de la Comptabilité fournisseur** pour les fournisseurs.
 
--   Si le paramètre d’administration d’escompte de règlement est Spécifique ou Non spécifique et que l’escompte de règlement applicable est validé dans une autre entité juridique que celle du trop-perçu, le compte automatique pour Client – Escompte de règlement, Fournisseur – Escompte de règlement ou Différence minime dans la devise comptable est utilisé. Vous pouvez spécifier ces comptes sur la page **Comptes pour transactions automatiques**.
+-   Si le paramètre d’administration d’escompte de règlement est Spécifique ou Non spécifique et que l’escompte de règlement applicable est validé dans une autre entité juridique que celle du trop-perçu, le compte automatique pour Client - Escompte de règlement, Fournisseur - Escompte de règlement ou Différence minime dans la devise comptable est utilisé. Vous pouvez spécifier ces comptes sur la page **Comptes pour transactions automatiques**.
 -   Si le paramètre d’administration d’escompte de règlement est Non spécifique et que l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu (l’entité juridique de paiement et l’entité juridique de la facture sont identiques), le compte d’escompte de règlement est ajusté. Par exemple, si une facture de 100,00 avec un escompte de règlement disponible de 3,00 est réglée avec un paiement pour 98,00, le compte d’escompte de règlement est ajusté pour 1,00. Le montant net de l’escompte est 2,00.
 -   Si le paramètre d’administration d’escompte de règlement est Non spécifique, l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu, le trop-perçu ou le moins-perçu est réglé avec plusieurs factures comportant des escomptes de règlement et le compte d’escompte de règlement de la dernière facture est ajusté.
 
@@ -93,7 +94,7 @@ Si la sélection d’administration d’escompte de règlement est Non spécifiq
 -   trop-perçu réglé avec une ou plusieurs factures comportant un escompte de règlement ;
 -   escompte de règlement validé dans la même entité juridique que celle du trop-perçu.
 
-Dans tous les autres cas, les trop-perçus ou les moins-perçus sont validés dans le compte automatique pour Client – Escompte de règlement, Fournisseur – Escompte de règlement ou Différence minime dans la devise comptable.
+Dans tous les autres cas, les trop-perçus ou les moins-perçus sont validés dans le compte automatique pour Client - Escompte de règlement, Fournisseur - Escompte de règlement ou Différence minime dans la devise comptable.
 
 ## <a name="sales-tax"></a>Taxe
 Les transactions de taxe restent dans l’entité juridique dans laquelle elles ont été validées à l’origine. 
@@ -107,6 +108,3 @@ Pour les paiements fournisseur, les transactions d’échéance dans l’entité
 
 ## <a name="withholding-tax"></a>Retenue à la source
 Le compte fournisseur associé à la facture est utilisé pour déterminer si la retenue à la source doit être calculée. Si la retenue à la source s’applique, elle est calculée dans l’entité juridique associée à la facture. Si les entités juridiques utilisent différentes monnaies, c’est le taux de change de l’entité juridique associée à la facture qui est utilisé.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

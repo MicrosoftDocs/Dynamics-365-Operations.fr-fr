@@ -2,23 +2,26 @@
 title: Créer une entrée de journal à l’aide d’un modèle
 description: Les N° document du journal validés peuvent être enregistrés comme Modèles de n° document et être appliqués dans un nouveau N° document de journal.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c015bbba6784f511ac51802ea005d2114e703861370e33350cff62b6005d630c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730528"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443246"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Créer une entrée de journal à l’aide d’un modèle
 
@@ -27,7 +30,7 @@ ms.locfileid: "6730528"
 Les N° document du journal validés peuvent être enregistrés comme Modèles de n° document et être appliqués dans un nouveau N° document de journal. La société fictive USMF sert d’exemple dans cette procédure.
 
 1. Allez dans le **Volet de navigation > Modules > Comptabilité > Entrées de journal > Journaux des opérations diverses**.
-2. Dans le **volet Actions**, cliquez sur **Nouveau**. Cette procédure commence par la création et la validation d’un justificatif de journal, mais n’importe quel justificatif de journal validé précédemment peut être enregistré comme modèle.  
+2. Dans le **volet Actions**, cliquez sur **Nouveau**. Cette procédure commence par la création et la validation d’un N° document de journal, mais n’importe quel N° document de journal validé précédemment peut être enregistré comme modèle.  
 3. Dans le champ **Nom**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
@@ -55,11 +58,8 @@ Les N° document du journal validés peuvent être enregistrés comme Modèles d
 24. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 25. Cliquez sur **Lignes**.
 26. Cliquez sur **Fonctions**.
-27. Cliquez sur **Sélectionner le modèle de justificatif**.
+27. Cliquez sur **Sélectionner le modèle de n° document**.
 28. Recherchez le modèle créé précédemment. Cliquez sur **OK**. Vous devrez peut-être cliquer sur **Étape précédente**, puis sélectionner le modèle correct si d’autres modèles existent.  
-29. Dans le champ **Montant**, entrez le montant à appliquer au document. Le champ **Montant** est affiché uniquement si le type du modèle de justificatif est Pourcentage.  
+29. Dans le champ **Montant**, entrez le montant à appliquer au document. Le champ **Montant** est affiché uniquement si le type du modèle de n° document est Pourcentage.  
 30. Cliquez sur **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

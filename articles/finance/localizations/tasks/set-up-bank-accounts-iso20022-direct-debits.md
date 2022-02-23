@@ -2,23 +2,26 @@
 title: Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022
 description: Cette tâche vous guide dans le paramétrage d’un compte bancaire client et d’un mandat de débit direct client qui sont requis pour générer le fichier de paiement client, par exemple le débit direct ISO20022.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, CustDirectDebitMandate, BankAccountTableLookUp,  LogisticsAddressCityLookup
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 595e89faa1e24ca937d399994e15ce53e3f5308b1c6fd7f43e4e831e70c15ad8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b09d7d203f1bb58fad26a109962005affa6d307
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736865"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443095"
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022
 
@@ -66,6 +69,3 @@ Il s’agit de la quatrième des cinq procédures illustrant le processus de pai
 8. Cliquez sur OK.
 9. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

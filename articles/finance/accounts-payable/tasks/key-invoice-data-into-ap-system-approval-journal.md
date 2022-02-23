@@ -2,23 +2,26 @@
 title: Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation
 description: Cette rubrique explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
 author: abruer
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72b2d7a5a554f46813fb31991ffb3df30742d01bf168b4180a1096970f60998f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 788397b5c9a3f42e373f7cdad256c1ee3d058e57
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722933"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443008"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation
 
@@ -51,6 +54,3 @@ Cette rubrique explique comment utiliser le registre des factures pour créer de
 10. Sélectionnez **Valider**.
 11. Sélectionnez **N° document** pour afficher les entrées qui ont été validées. Le compte Factures en attente d’approbation est contrepassé et remplacé par le compte de dépenses actif.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

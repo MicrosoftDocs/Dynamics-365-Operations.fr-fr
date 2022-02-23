@@ -2,23 +2,26 @@
 title: Création de transactions de régularisation des comptes
 description: Ce guide accompagne l’utilisateur dans la génération de transactions de régularisation des comptes fondées sur des plans de régularisation.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6500da88424ea71aa8f8836dfdb7d42ef444637b50efe4401a6f76a876e3e0cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2112336045086d0eb3b2fb0018f33631528a05ec
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750386"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443076"
 ---
 # <a name="create-ledger-accrual-transactions"></a>Création de transactions de régularisation des comptes
 
@@ -46,6 +49,3 @@ Ce guide accompagne l’utilisateur dans la génération de transactions de rég
 17. Cliquez sur OK.
 18. Cliquez sur Valider.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

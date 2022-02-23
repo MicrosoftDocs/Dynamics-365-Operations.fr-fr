@@ -1,26 +1,29 @@
 ---
 title: Création d’une facture client
-description: Une facture client pour une commande client est une facture associée à une vente, remise par une organisation à un client.
+description: Une **facture client pour une commande client** est une facture associée à une vente, remise par une organisation à un client.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+manager: AnnBe
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087421"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443041"
 ---
 # <a name="create-a-customer-invoice"></a>Création d’une facture client
 
@@ -42,23 +45,6 @@ Pour plus d’informations, voir :
 
 
 Une **facture pro forma** est une facture préparée comme une estimation des montants de facture réels avant la validation de la facture. Vous pouvez imprimer une facture pro forma pour une facture client associée à une commande client ou pour une facture financière.
-
-## <a name="using-sales-order-customer-invoice-data-entities"></a>Utilisation d’entités de données de facture client de commande client
-Vous pouvez utiliser des entités de données pour importer et exporter des informations sur une facture client pour une commande client. Il existe différentes entités pour les informations sur l’en-tête de facture client et les lignes de facture client.
-
-Les entités suivantes sont disponibles pour les informations sur l’en-tête de la facture client :
-
-- Entité **En-tête du journal des factures client** (SalesInvoiceJournalHeaderEntity)
-- Entité **En-têtes de facture client V2** (SalesInvoiceHeaderV2Entity)
-
-Nous vous recommandons d’utiliser l’entité **En-tête du journal des factures de vente**, car elle offre une expérience plus performante pour l’importation et l’exportation d’en-têtes de vente. Cette entité ne contient pas la colonne **Montant de la taxe de vente** (INVOICEHEADERTAXAMOUNT), qui représente la valeur de la taxe de vente sur l’en-tête de la facture client. Si votre scénario d’entreprise nécessite ces informations, utilisez l’entité **En-têtes de facture client V2** pour importer et exporter les informations d’en-tête de la facture client.
-
-Les entités suivantes sont disponibles pour les informations sur les lignes de la facture client :
-
-- Entité **Lignes de facture client** (BusinessDocumentSalesInvoiceLineItemEntity)
-- Entité **Lignes de facture client V3** (SalesInvoiceLineV3Entity)
-
-Lorsque vous déterminez l’entité de ligne à utiliser pour les exportations, déterminez si une transmission de type push complète ou de type push incrémentielle sera utilisée. De plus, tenez compte de la composition des données. L’entité **Lignes de facture client V3** prend en charge des scénarios plus complexes (par exemple, le mappage vers les champs d’inventaire). Elle prend également en charge les scénarios d’exportation complète. Pour les transmissions de type incrémentielle, nous vous recommandons d’utiliser l’entité **Lignes de facture client**. Cette entité contient une composition de données beaucoup plus simple que l’entité **Lignes de facture client V3** et est préférable, en particulier si l’intégration du champ d’inventaire n’est pas requise. En raison des différences dans la prise en charge du mappage entre les entités de ligne, l’entité **Lignes de facture client** a généralement des performances plus rapides que l’entité **Lignes de facture client V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Validation et impression de factures client individuelles basée sur des commandes client
 Ce processus permet de créer une facture sur la base d’une commande client. Vous pouvez procéder ainsi si vous décider de facturer le client avant de livrer des biens ou services. 
@@ -113,7 +99,7 @@ Les champs suivants modifient le comportement du processus de validation.
 <td>Validation</td>
 <td><ul>
 <li>Sélectionnez cette option pour journaliser la commande client.</li>
-<li>Désactivez cette option pour imprimer une commande client pro forma. <strong>Remarque :</strong> si vous avez créé un accord pour un échéancier de paiement, ce dernier ne s’affiche pas sur la facture client pro forma. Les échéanciers de paiement ne seront visibles que sur les commandes client réelles.</li>
+<li>Désactivez cette option pour imprimer une commande client pro forma. <strong>Remarque :</strong> si vous avez créé un accord pour un échéancier de paiement, ce dernier ne s’affiche pas sur la facture client pro forma. Les échéanciers de paiement ne seront visibles que sur les commandes client réelles.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -126,12 +112,12 @@ Les champs suivants modifient le comportement du processus de validation.
 </tr>
 <tr class="odd">
 <td>Imprimer</td>
-<td>Sélectionnez le moment de l’impression des documents :
+<td>Sélectionnez le moment de l’impression des documents :
 <ul>
 <li><strong>Actuel</strong> – Permet d’imprimer les documents après la mise à jour de chaque facture.</li>
 <li><strong>Après</strong> – Permet d’imprimer les documents après la mise à jour de toutes les factures.</li>
 </ul>
-<strong>Remarque :</strong> le champ <strong>Imprimer</strong> est uniquement disponible si vous sélectionnez l’option <strong>Imprimer la facture</strong>, <strong>Impression de la confirmation</strong>, <strong>Imprimer la liste des prélèvements</strong> ou <strong>Imprimer le bon de livraison</strong>. Par exemple, sur la page <strong>Tri des écrans</strong>, vous avez paramétré le système pour trier les informations par compte de facturation. Vous pouvez alors sélectionner <strong>Après</strong> pour imprimer les documents dans un traitement par lots trié par compte de facturation. Sinon, les documents sont imprimés avant que le traitement soit terminés et ils ne sont pas triés dans l’ordre spécifié sur la page <strong>Tri des écrans</strong>.</td>
+<strong>Remarque :</strong> le champ <strong>Imprimer</strong> est uniquement disponible si vous sélectionnez l’option <strong>Imprimer la facture</strong>, <strong>Impression de la confirmation</strong>, <strong>Imprimer la liste des prélèvements</strong> ou <strong>Imprimer le bon de livraison</strong>. Par exemple, sur la page <strong>Tri des écrans</strong>, vous avez paramétré le système pour trier les informations par compte de facturation. Vous pouvez alors sélectionner <strong>Après</strong> pour imprimer les documents dans un traitement par lots trié par compte de facturation. Sinon, les documents sont imprimés avant que le traitement soit terminés et ils ne sont pas triés dans l’ordre spécifié sur la page <strong>Tri des écrans</strong>.</td>
 </tr>
 <tr class="even">
 <td>Imprimer la facture</td>
@@ -157,7 +143,7 @@ Les champs suivants modifient le comportement du processus de validation.
 </tr>
 <tr class="even">
 <td>Correction de crédit</td>
-<td>Sélectionnez cette option pour afficher l’avoir comme débit dans les pièces comptables.</td>
+<td>Sélectionnez cette option pour afficher l’avoir comme débit dans les transactions de N° document.</td>
 </tr>
 <tr class="odd">
 <td>Quantité restante créditrice</td>
@@ -181,6 +167,3 @@ Les champs suivants modifient le comportement du processus de validation.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

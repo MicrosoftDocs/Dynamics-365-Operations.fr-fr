@@ -1,26 +1,29 @@
 ---
 title: Taux de taxe en fonction de la Base marginale et du Mode de calcul
 description: Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d’achat.
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55fc5416bafe63d8c32bc19359b4e8ba75b372de
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 8617785ea969f9f4facaccdf81cfaf5344c30839
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727038"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443083"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Taux de taxe en fonction de la Base marginale et du Mode de calcul
 
@@ -46,7 +49,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 |--------------------|----------|
 | 0 à 50             | 30 %      |
 | 50 à 100           | 20 %      |
-| 100 – 0 (&gt; 100) | 10 %      |
+| 100 - 0 (&gt; 100) | 10 %      |
 
 > [!NOTE]                                                                                                             
 > La limite supérieure 0 (zéro) dans le dernier intervalle signifie que tous les montants supérieurs à 100 sont inclus dans l’intervalle.
@@ -88,7 +91,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 |--------------------|----------|
 | 0 à 50             | 30 %      |
 | 50 à 100           | 20 %      |
-| 100 – 0 (&gt; 100) | 10 %      |
+| 100 - 0 (&gt; 100) | 10 %      |
 
 Base marginale : **Montant HT par unité** 
 
@@ -112,7 +115,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 |-------------------|----------|
 | 0 à 50            | 30 %      |
 | 50 à 100          | 20 %      |
-| 100 – 0 (&gt; 100) | 10 %      |
+| 100 - 0 (&gt; 100) | 10 %      |
 
 Base marginale : **Montant HT du solde de la facture** 
 
@@ -133,7 +136,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 |--------------------|----------|
 | 0 à 50             | 30 %      |
 | 50 à 100           | 20 %      |
-| 100 – 0 (&gt; 100) | 10 %      |
+| 100 - 0 (&gt; 100) | 10 %      |
 
 Base marginale : **Montant brut par ligne** Mode de calcul : **Intervalle** En outre, il existe un autre code taxe calculé pour un droit de douane spécial de 5,00 sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant HT de la ligne de facture est de 200 euros. Le montant brut de la ligne de facture est 8 x 25,00 + 8 x 5,00 = 240,00. La taxe est calculée comme suit : Taxe totale = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 39,00 + 40,00 = 279,00
 
@@ -156,7 +159,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 |--------------------|----------|
 | 0 à 50             | 30 %      |
 | 50 à 100           | 20 %      |
-| 100 – 0 (&gt; 100) | 10 %      |
+| 100 - 0 (&gt; 100) | 10 %      |
 
 Base marginale : **Montant brut par unité** Il existe un droit de douane spécial de 5,00 sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant brut par unité est 30,00. La taxe est calculée comme suit : Taxe par unité = 30 x 30 % = 9,00 Taxe totale = 9,00 x 8 = 72,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 72,00 + 40,00 = 312,00
 
@@ -174,7 +177,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 |--------------------|----------|
 | 0 à 50             | 30 %      |
 | 50 à 100           | 20 %      |
-| 100 – 0 (&gt; 100) | 10 %      |
+| 100 - 0 (&gt; 100) | 10 %      |
 
 Base marginale : **Facture totale, autres taxe incluses** Mode de calcul : **Intervalle**   
 Il y a un droit de douane spécial de 5,00 euros sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant HT de la facture est 200,00. Le montant TTC de la facture est 200,00 + (8 x 5,00) = 240,00. La taxe est calculée comme suit : Taxe totale = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 39,00 + 40,00 = 279,00
@@ -183,6 +186,3 @@ Pour plus d’informations, voir [Options de calcul de montant total et d’inte
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

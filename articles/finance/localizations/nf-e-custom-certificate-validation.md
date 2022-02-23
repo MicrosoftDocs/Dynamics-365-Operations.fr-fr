@@ -2,32 +2,37 @@
 title: Validation du certificat personnalisé NF-e
 description: Cette rubrique fournit des informations sur l’activation et l’utilisation du certificat personnalisé NF-e.
 author: gionoder
-ms.date: 07/29/2021
+manager: AnnBe
+ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8144e16b127bdbe954ef44f52c5ac71689a2036e6085e9a4ccc8bb17f91ae9b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 26ffed1f49d9087ca767aab1b8cac41b099f73cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755589"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443106"
 ---
-# <a name="nf-e-custom-certificate-validation"></a>Validation de certificat personnalisé NF-e
+# <a name="nf-e-custom-certificate-validation"></a>Validation du certificat personnalisé NF-e
 
 [!include [banner](../includes/banner.md)]
 
-La propriété **Objectif de l’authentification du serveur** des certificats émis par l’autorité de certification racine brésilienne est désactivée par défaut et doit être activée manuellement. Dans certaines circonstances, la mise à jour automatique du certificat peut faire en sorte que cette propriété ne soit plus activée. Si cela se produit, la connexion TLS est affectée et n’est plus fiable. La capacité d’émettre le modèle 55 de document fiscal électronique brésilien (NF-e) sur les environnements de production pour les États du Minas Gerais (MG) et du Paraná (PR) est affectée.
+Lorsque vous activez la fonction de vérification du certificat personnalisé NF-e, la validation personnalisée autorise une connexion aux services Web. Cette connexion est nécessaire pour transmettre le certificat NF-e et recevoir l’autorisation de SEFAZ.
 
-Pour activer le correctif pour **Validation de certificat personnalisé NF-e**, accédez à **Gestion des fonctionnalités**. Cette fonctionnalité fournit une solution alternative pour les validations de certificats V5 et V10 et permet une connexion sécurisée avec les services web, ce qui est nécessaire pour la transmission sécurisée du certificat NF-e et la réception de l’autorisation de SEFAZ.
+La propriété **Objectif de l’authentification du serveur** du certificat V5 est émise par l’autorité de certification racine brésilienne. Cette propriété est désactivée par défaut et doit être activée manuellement. Dans certaines circonstances, la mise à jour automatique du certificat peut faire en sorte que cette propriété ne soit plus activée. Si cela se produit, la connexion TLS est affectée et n’est plus fiable. La capacité d’émettre NF-e sur les environnements de production pour les États du Minas Gerais (MG) et du Paraná (PR) est également affectée.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Cette mise à jour permet une solution alternative pour la validation des certificats, ce qui signifie qu’il est possible d’établir une communication sécurisée.
+
+

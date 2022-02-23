@@ -2,27 +2,28 @@
 title: Configuration des modules Comptabilité client et crédit et relances
 description: Configurez la Comptabilité client et les Crédit et relances pour assurer le suivi des factures et des paiements entrants des clients.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "24631"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 744170988351bf2c0ecb04e419045056965398c0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1ec8ee7f8ba7493e5334c1a4106351c3661aa00a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443145"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>Configuration des modules Comptabilité client et crédit et relances
 
@@ -43,7 +44,7 @@ Le tableau suivant répertorie les pages qui prennent en charge la configuration
 |                                                      | Groupes de clients                      | Permet de créer et de tenir à jour des groupes de clients partageant des paramètres clés, notamment les conditions de paiement, les retards de règlement, les comptes de validation de stock, le groupe de taxe et le paramétrage du compte par défaut.                                                                                  |
 |                                                      | Profil de validation client             | Permet de paramétrer les profils qui contrôlent la validation des transactions client dans la comptabilité.                                                                                                                                                                              |
 |                                                      | Paramétrage d’écran                           | Permet de définir le format des informations sur différents documents liés aux clients, tels que les commandes client, listes de prélèvement, bons de livraison et factures.                                                                                                                            |
-|                                                      | Modes de paiement – client        | Permet de créer et de mettre à jour des informations sur les modes de paiement pour les clients.                                                                                                                                                                                                           |
+|                                                      | Modes de paiement - client        | Permet de créer et de mettre à jour des informations sur les modes de paiement pour les clients.                                                                                                                                                                                                           |
 |                                                      | Conditions de paiement                     | Permet de définir les conditions de paiement que vous attribuez aux commandes client, commandes fournisseur, clients et fournisseurs dans Ventes ou Achats.                                                                                                                           |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Configuration de journaux de Ventes             | Noms de journal                        | Permet de créer et de gérer des modèles pour les journaux, notamment la gestion des restrictions de validation applicables à des utilisateurs et groupes d’utilisateurs sélectionnés.                                                                                                                                                 |
@@ -61,7 +62,7 @@ Le tableau suivant répertorie les pages qui prennent en charge la configuration
 |                                                      | Devises                           | Permet de créer et d’afficher les devises utilisées par votre organisation.                                                                                                                                                                                                                       |
 |                                                      | Taux de change de la devise              | Permet de créer et de mettre à jour les taux de change adéquats entre la monnaie de compte et les autres devises.                                                                                                                                                                              |
 |                                                      | Comptabilité intersociétés              | Permet de créer la liste des comptes que l’entité juridique utilise à des fins de validation. Vous devez paramétrer des comptes débiteurs et créditeurs, ainsi que le journal qui reçoit les transactions dans l’autre entité juridique.                                                                             |
-|                                                      | Modes de paiement – client        | Permet de créer et de mettre à jour des informations sur les modes de paiement pour les clients. Pour plus d’informations, voir [Établir le mode de paiement client](tasks/establish-customer-method-payment.md).                                                                                             |
+|                                                      | Modes de paiement - client        | Permet de créer et de mettre à jour des informations sur les modes de paiement pour les clients. Pour plus d’informations, voir [Établir le mode de paiement client](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Hiérarchies de l’organisation             | Permet de paramétrer une hiérarchie d’organisation pour les paiements centralisés.                                                                                                                                                                                                                        |
 |                                                      | Objets de la hiérarchie d’organisation      | Permet de spécifier un objectif pour les paiements centralisés.                                                                                                                                                                                                                                       |
 |                                                      | Jours de paiement                         | Permet de définir les jours de paiement utilisés pour calculer les dates d’échéance des paiements que vous recevrez des clients ou réglerez aux fournisseurs.                                                                                                                                                |
@@ -75,7 +76,7 @@ Le tableau suivant répertorie les pages qui prennent en charge la configuration
 | Configuration de formats de paiement client                 | Mise en page de la lettre de change              | Permet de paramétrer la mise en page des lettres de change pour le compte bancaire sélectionné sur la page Comptes bancaires.                                                                                                                                                                          |
 |                                                      | Mise en page des chèques                         | Permet de paramétrer la mise en page des chèques pour le compte bancaire sélectionné sur la page Comptes bancaires.                                                                                                                                                                                     |
 |                                                      | Formats de fichier des modes de paiement  | Permet de sélectionner les formats de fichiers d’importation, d’exportation, de retour et de remise à utiliser pour les paiements client.                                                                                                                                                                                          |
-|                                                      | Modes de paiement – client        | Permet de créer et de mettre à jour des informations sur les modes de paiement pour les clients.                                                                                                                                                                                                           |
+|                                                      | Modes de paiement - client        | Permet de créer et de mettre à jour des informations sur les modes de paiement pour les clients.                                                                                                                                                                                                           |
 |                                                      | Signature                            | Permet d’ajouter, de modifier ou de supprimer des fichiers d’image de signature, tels que des fichiers .bmp, .jpg ou .gif. Les fichiers d’image de signature sont imprimés sur les chèques comme des signatures officielles d’entité juridique.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Configuration des statistiques du module Ventes           | Définitions des périodes de balances âgées             | Permet de paramétrer et de gérer les définitions de plages âgées configurées par les utilisateurs, et qui permettent d’analyser l’échéance des comptes client et fournisseur, sur la base d’une date que vous entrez. Pour plus d’informations, voir [Paramétrer et générer des informations sur la plage âgée de la comptabilité client](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
@@ -109,6 +110,3 @@ Pour plus d’informations, voir [Crédit et recouvrements dans la Comptabilité
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

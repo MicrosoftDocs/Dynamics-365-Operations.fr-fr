@@ -1,30 +1,32 @@
 ---
 title: Vue d’ensemble des paiements fournisseurs
-description: Cette procédure décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique.
+description: Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique.
 author: kweekley
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443207"
 ---
 # <a name="vendor-payment-overview"></a>Vue d’ensemble des paiements fournisseurs
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique. La société fictive USMF sert d’exemple dans cette procédure.
+Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique. La société fictive USMF sert d’exemple dans cette procédure.
 
 1. Accédez à **Volet de navigation > Modules > Comptabilité fournisseur > Paiements > Journal des paiements**.
 2. Cliquez sur **Nouveau**.
@@ -61,6 +63,3 @@ Cette procédure décrit diverses méthodes permettent de créer des paiements f
 33. Cliquez sur **OK** pour générer les paiements.
 34. Cliquez sur **Valider** si tous les paiements sont approuvés et générés. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Dépannage d’importation de fichier de relevé bancaire
 description: Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 Finance. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
 author: panolte
-ms.date: 03/29/2021
+manager: AnnBe
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09b24b88ee5f8104aabd11397d5bd2745e846cb0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757119"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443052"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Dépannage d’importation de fichier de relevé bancaire
 
@@ -28,18 +31,16 @@ ms.locfileid: "6757119"
 
 Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 Finance. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
 
-## <a name="what-is-the-error"></a>Quelle est l’erreur ?
+<a name="what-is-the-error"></a>Quelle est l’erreur ?
+------------------
 
 Une fois que vous avez essayé d’importer un fichier de relevé bancaire, allez dans l’historique des tâches de gestion des données et ses détails d’exécution pour trouver l’erreur. L’erreur peut aider en pointant vers le relevé, le solde ou la ligne de relevé. Toutefois, il est peu probable qu’elle fournisse assez d’informations pour vous aider à identifier le champ ou l’élément qui provoque le problème.
-
-> [!NOTE]
-> Les relevés bancaires importés ne peuvent se chevaucher que pour un seul instant.  Par exemple, si un relevé se termine à minuit le 1er janvier 2021, la date de début du relevé suivant peut être minuit le 1er janvier, 2021.
 
 ## <a name="what-are-the-differences"></a>Quelles sont les différences ?
 Comparez la définition bancaire de la mise en page de fichier à la définition d’importation de Finance, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à l’exemple de fichier Finance associé. Dans les fichiers ISO20022, il est facile d’afficher toutes les différences.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Différences de fuseau horaire dans les relevés bancaires importés
-Les valeurs d’heure et de date dans le fichier d’importation peuvent différer des valeurs d’heure et de date affichées dans Finance and Operations. Pour éviter cet écart, saisissez la préférence de fuseau horaire sur la page **Configurer les sources de données**. Pour plus d’informations sur la saisie d’une préférence de fuseau horaire, voir [Paramétrage du processus d’importation du rapprochement bancaire](set-up-advanced-bank-reconciliation-import-process.md).
+Les valeurs d’heure et de date dans le fichier d’importation peuvent différer des valeurs d’heure et de date affichées dans Finance and Operations. Pour éviter cet écart, saisissez la préférence de fuseau horaire sur la page **Configurer les sources de données**. Voir [Paramétrage du processus d’importation du rapprochement bancaire](set-up-advanced-bank-reconciliation-import-process.md) pour en savoir plus sur la saisie d’une préférence de fuseau horaire.
 
 ## <a name="transformations"></a>Transformations
 Généralement, la modification doit être effectuée dans l’une des trois transformations. Chaque transformation concerne une norme spécifique.
@@ -94,18 +95,16 @@ Parfois, les débits peuvent être importés en tant que crédits, et des crédi
 -   Modèle MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Exemples de formats de relevé bancaire et de mises en page techniques
-Le tableau suivant répertorie des exemples de définitions de mise en page techniques de fichier d’importation de rapprochement bancaire avancé et trois fichiers d’exemples de relevé bancaire associés : Vous pouvez télécharger les fichiers d’exemple et les dispositions techniques ici : [Importer des fichiers d’exemple](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+Le tableau suivant répertorie des exemples de définitions de mise en page techniques de fichier d’importation de rapprochement bancaire avancé et trois fichiers d’exemples de relevé bancaire associés : Vous pouvez télécharger les fichiers d’exemple et les dispositions techniques ici : https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+
 
 | Définition de mise en page technique                             | Fichier d’exemple de relevé bancaire          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)                |
-| DynamicsAXISO20022Layout                                | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
-| DynamicsAXBAI2Layout                                    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)                 |
+| DynamicsAXMT940Layout                                   | MT940StatementExample                |
+| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
+| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

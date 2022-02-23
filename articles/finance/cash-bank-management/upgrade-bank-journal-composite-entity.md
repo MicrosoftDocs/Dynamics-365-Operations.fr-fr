@@ -1,31 +1,34 @@
 ---
-title: Mise à jour d’entité composite de journal des banques
-description: Cette rubrique répertorie les étapes requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
-author: panolte
+title: Mise à jour de l’entité composite du journal des banques
+description: Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
+author: ShylaThompson
+manager: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0d4334e9aa333aad116f0a0291d9175268661f11
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443036"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a>Mise à jour d’entité composite de journal des banques
+# <a name="update-the-bank-journal-composite-entity"></a>Mise à jour de l’entité composite du journal des banques
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les étapes requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
+Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 
 Les étapes suivantes permettent d’ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 
@@ -52,6 +55,3 @@ Les étapes suivantes permettent d’ajouter le champ BankTransactionType suppl�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

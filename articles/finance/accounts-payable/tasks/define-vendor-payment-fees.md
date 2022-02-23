@@ -2,23 +2,26 @@
 title: Définir les commissions de paiement fournisseur
 description: Paramétrez les frais de paiement fournisseur.
 author: abruer
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a53124d021e35b05ce720c75924e136acdfadde8ddbad0d544d36662f45cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 404bd1e22caa8098f114a2dcc67dd420509cce2b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777312"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443011"
 ---
 # <a name="define-vendor-payment-fees"></a>Définir les commissions de paiement fournisseur
 
@@ -38,7 +41,7 @@ Paramétrez les frais de paiement fournisseur. La société fictive USMF est cit
 7. Entrez un compte principal pour lequel les frais seront imputés.
     * Cette option n’est disponible que si Comptabilité est sélectionné comme option de frais.  
 8. Sélectionnez le journal dans lequel ces frais peuvent être utilisés. 
-    * Pour les frais de paiement fournisseur, vous devez sélectionner le journal « Fournisseur – Paiements ».  
+    * Pour les frais de paiement fournisseur, vous devez sélectionner le journal « Fournisseur - Paiements ».  
 9. Cliquez sur Enregistrer.
 10. Cliquez sur Paramétrage des frais de paiement.
     * Passez au paramétrage des frais de paiement pour définir à quel moment les frais doivent être définis par défaut dans le journal sélectionné.  
@@ -56,6 +59,3 @@ Paramétrez les frais de paiement fournisseur. La société fictive USMF est cit
     * Cette devise est pour les frais. La devise de paiement est utilisée pour définir à quel moment la règle en matière de frais doit être évaluée selon la devise du paiement. Par exemple, votre banque peut facturer des frais lorsqu’un paiement est effectué en EUR, mais des frais ne sont pas imputés à tous les autres paiements.  
 18. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

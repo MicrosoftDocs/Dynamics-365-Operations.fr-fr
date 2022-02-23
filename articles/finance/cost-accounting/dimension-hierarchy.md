@@ -2,13 +2,16 @@
 title: Hiérarchie des dimensions
 description: Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d’entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766972"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443089"
 ---
 # <a name="dimension-hierarchy"></a>Hiérarchie des dimensions
 
@@ -39,7 +42,7 @@ Les hiérarchies de dimensions sont utilisées dans divers endroits dans le cont
 
 Voici un exemple d’une hiérarchie de dimensions.
 
-![Exemple d’une hiérarchie de dimensions.](./media/dimension-hierarchy.png)
+![Exemple d’une hiérarchie de dimensions](./media/dimension-hierarchy.png)
 
 Une hiérarchie de dimensions peut être créée pour les types de dimensions suivants :
 
@@ -80,7 +83,7 @@ Une hiérarchie de dimensions est créée comme structure arborescente qui inclu
 
 Une petite société a la structure d’organisation suivante, où les services Finances et Ressources humaines sont des départements dépendants de l’administrateur, et les services Assemblage et Emballage sont des départements relevant de la production.
 
-![Exemple d’une structure d’organisation.](./media/dimension-hierarchy-org.png)
+![Exemple d’une structure d’organisation](./media/dimension-hierarchy-org.png)
 
 Une dimension d’objet de coût représente tous les centres de coût dans l’organisation.
 
@@ -118,17 +121,16 @@ Une hiérarchie de dimensions qui répond aux conditions de génération d’ét
 
 | Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d’accès |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisation             | Centres de coût | Hiérarchie de classification de dimension | Non                    |
+| Organisation             | Centres de coût | Hiérarchie de classification de dimension | N°                    |
 
 La hiérarchie de dimensions pour générer un état peut être paramétrée comme indiqué ici.
 
-**Plages de membres de la dimension**
-
-|   Nœuds           |   Membre de la dimension de départ   |   Membre de la dimension de fin   |
+|                   | Plages de membres de la dimension   |                         |
 |-------------------|---------------------------|-------------------------|
+| **Nœuds**         | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Organisation      |                           |                         |
 | &nbsp;&nbsp;Admin         |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finances   | CC002                     | CC003                   |
+|&nbsp;&nbsp;&nbsp;&nbsp;Finances   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;RH        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Production    |                           |                         |
@@ -145,13 +147,12 @@ Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être
 
 La hiérarchie de dimensions pour générer la stratégie peut être paramétrée comme indiqué ici.
 
-**Plages de membres de la dimension**
-
-|   Nœuds           |   Membre de la dimension de départ   |   Membre de la dimension de fin   |
+|                   | Plages de membres de la dimension   |                         |
 |-------------------|---------------------------|-------------------------|
+| **Nœuds**         | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Comportement de coûts     |                           |                         |
 | &nbsp;&nbsp;Coût fixe    | 10001                     | 10011                   |
-| &nbsp;&nbsp;Coût variable | 40001                     | 40010                   |
+|&nbsp;&nbsp;Coût variable | 40001                     | 40010                   |
 
 > [!NOTE]
 > Sous **Plages de membres de la dimension**, un nœud peut contenir des plages membres de dimension de 1:_n_. Vous pouvez insérer des ID membre de dimension qui n’existent pas encore comme membres de la dimension. Cette approche rend la hiérarchie résiliente pour l’avenir.  
@@ -202,7 +203,7 @@ Si vous créez des états à l’aide d’Excel ou de Power BI, seuls les 15 pr
 
 L’exemple suivant montre la structure d’une hiérarchie de dimensions dans la structure hiérarchique.
 
-| Hiérarchie de dimensions d’objet de coût – Niveau 1 | Hiérarchie de dimensions d’objet de coût – Niveau 2 | Hiérarchie de dimensions d’objet de coût – Niveau 3 | Hiérarchie de dimensions d’objet de coût – Niveau 4 | Hiérarchie de dimensions d’objet de coût – Niveau 15 |
+| Hiérarchie de dimensions d’objet de coût - Niveau 1 | Hiérarchie de dimensions d’objet de coût - Niveau 2 | Hiérarchie de dimensions d’objet de coût - Niveau 3 | Hiérarchie de dimensions d’objet de coût - Niveau 4 | Hiérarchie de dimensions d’objet de coût - Niveau 15 |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
 | Organisation                              | Admin                                     | Finances                                   | CC002                                     |                                            |
 | Organisation                              | Admin                                     | Finances                                   | CC003                                     |                                            |
@@ -297,10 +298,9 @@ Potentiellement, tous les responsables pourront accéder aux données commercial
 
 Un nouvel organisateur **Utilisateurs** est disponible dans le concepteur de hiérarchies. Ici, vous pouvez ajouter un ou plusieurs ID utilisateur à chaque nœud dans la hiérarchie.
 
-**Plages d’utilisateurs et de membres de dimension**
-
-|   Nœuds         |   ID d’utilisateur        |   Membre de la dimension de départ   |   Membre de la dimension de fin   |
+|                 | Utilisateurs            | Plages de membres de la dimension   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
+| **Nœuds**       | **ID utilisateur**      | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Organisation    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Admin         | Avril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finances   | Alicia           | CC002                     | CC003                   |
@@ -331,8 +331,5 @@ Les paramètres de la hiérarchie de la liste d’accès sont utilisés pour con
     - Visualisations des données Power BI intégrées dans le client Dynamics 365 Finance
 
 > [!NOTE] 
-> - Avant que la hiérarchie de la liste d’accès puisse affecter des données Power BI, la hiérarchie de la liste d’accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d’informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Avant que la hiérarchie de la liste d’accès puisse affecter des données Power BI, la hiérarchie de la liste d’accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d’informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La hiérarchie de la liste d’accès ne permet pas de sécuriser l’exportation des données dans Excel. Par conséquent, cet outil de génération d’états doit uniquement être utilisé par les comptables et les responsables de coût qui doivent avoir un accès complet pour afficher les données.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

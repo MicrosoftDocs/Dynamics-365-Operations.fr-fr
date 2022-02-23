@@ -2,23 +2,26 @@
 title: Définir les conditions de paiement fournisseur
 description: Cette rubrique explique comment paramétrer des conditions de paiement pour les factures fournisseur.
 author: abruer
+manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e70a68ab5e14e8dadfd8d61f696f5971c8e60262d0fd55c5de1589e572ff8085
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722981"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443010"
 ---
 # <a name="define-vendor-payment-terms"></a>Définir les conditions de paiement fournisseur
 
@@ -44,6 +47,3 @@ Cette rubrique explique comment paramétrer des conditions de paiement pour les 
 16. Saisissez le compte principal sur lequel l’escompte de règlement sera imputé pour les factures clients, puis le compte principal sur lequel l’escompte de règlement sera imputé pour les factures fournisseurs. Si **Comptes de contrepartie pour les remises** est défini pour **utiliser le compte principal pour la remise fournisseur**, le compte principal est utilisé. Si l’option est définie sur **Comptes sur les lignes de facture**, l’escompte de règlement sera validé sur les comptes de dépense/d’actif sur les lignes de la facture.  
 17. Sélectionnez **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

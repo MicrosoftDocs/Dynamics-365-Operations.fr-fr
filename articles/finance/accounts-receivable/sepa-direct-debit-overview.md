@@ -2,27 +2,28 @@
 title: Vue d’ensemble du débit direct SEPA
 description: L’Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l’entreprise ou l’organisation et la banque sont localisées. Il n’existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l’Union européenne (EU), ainsi que l’Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l’Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "11144"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984376"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443073"
 ---
 # <a name="sepa-direct-debit-overview"></a>Vue d’ensemble du débit direct SEPA
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984376"
 
 L’Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l’entreprise ou l’organisation et la banque sont localisées. Il n’existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l’Union européenne (EU), ainsi que l’Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l’Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes.   
 
-## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Quel est l’objectif des débits directs SEPA ?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Quel est l’objectif des débits directs SEPA ?
+---------------------------------------
 
 Un débit direct SEPA permet à un créditeur d’encaisser des fonds à partir du compte bancaire d’un client, à condition que le client ait signé un mandat au créditeur. Le client signe un mandat qui autorise le créditeur à encaisser un paiement et demande à la banque du client de payer la créance. 
 
@@ -82,6 +84,3 @@ Dans les deux modèles de débit direct SEPA, les clients ont certains droits de
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Paiements client pour un montant partiel
 description: Il se peut que des clients effectuent un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation. Leur disponibilité dépend de vos exigences métier et de votre configuration.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769033"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443035"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Paiements client pour un montant partiel
 
@@ -28,7 +31,8 @@ ms.locfileid: "6769033"
 
 Il se peut que des clients effectuent un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation. Leur disponibilité dépend de vos exigences métier et de votre configuration.
 
-## <a name="partial-payment-with-no-discount"></a>Paiement partiel sans remise
+<a name="partial-payment-with-no-discount"></a>Paiement partiel sans remise
+--------------------------------
 
 Les clients peuvent effectuer un paiement partiel, parce qu’ils n’ont pas assez d’espèces à disposition pour payer la facture entièrement ou en raison d’un litige à propos d’un article figurant sur la facture. Dans ce cas, la facture peut être partiellement réglée avec le paiement. La facture demeurera ouverte et affichera un solde.
 
@@ -56,6 +60,3 @@ Les clients peuvent effectuer un paiement partiel lorsque le montant restant n�
 
 
 Pour plus d’informations, voir [Déposer les paiements client](tasks/deposit-customer-payments.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

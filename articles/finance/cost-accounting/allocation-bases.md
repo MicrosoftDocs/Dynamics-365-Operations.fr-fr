@@ -2,13 +2,16 @@
 title: Bases de répartition
 description: Cette rubrique fournit des informations sur les bases de répartition. Les bases de répartition sont des composants clé dans le contrôle de gestion et permettent généralement d’affecter des frais généraux.
 author: AndersGirke
+manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc6f655d17a83db54aa99c834980bf7666e8100d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743047"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443062"
 ---
 # <a name="allocation-bases"></a>Bases de répartition 
 
@@ -210,9 +213,9 @@ Vous pouvez utiliser l’entité de données Mesures statistiques importées pou
 
 Une fois que la source de données pour la mesure statistique est traitée, les entrées statistiques suivantes sont créées dans le module Contrôle de gestion.
 
-**Écritures statistiques**
+**Entrées statistiques**
 
-| Objet de coût | Nom   | Date comptable | Membre de la dimension statistique |    Description          | Ampleur |
+| Objet de coût |    | Date comptable | Membre de la dimension statistique |    Description          | Ampleur |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | RH | 31-01-2017      | Électricité                  | Consommation électrique | 2,450.00  |
 | CC002       | FI | 31-01-2017      | Électricité                  | Consommation électrique | 4,100.00  |
@@ -404,9 +407,9 @@ Une fonctionnalité d’aperçu vous permet de valider la base de répartition d
 
 **Détails de la base de répartition**
 
-| Objet de coût |  Nom  | Formule                                                                                                                             | Ampleur |
+| Objet de coût |    | Formule                                                                                                                             | Ampleur |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | HR | ((2 450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 1,837.50  |
+| CC001       | RH | ((2 450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 1,837.50  |
 | CC002       | FI | ((2 450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 3,075.00  |
 | CC003       | TS | ((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10 000,00) × 15 000,00 × 0,75) | 1,3250.00 |
 
@@ -427,6 +430,3 @@ Voici l’exemple d’une règle de répartition des coûts si la base de répar
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Montant  |
 |    CC003    |     TS      | 13,250.00 | (13,250.00 ÷ 18,162.50) × Montant |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Recouvrements dans Comptabilité client
 description: Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique à l’aide de la page Recouvrements de Microsoft Dynamics 365 Finance. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l’aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723917"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443045"
 ---
 # <a name="collections-in-accounts-receivable"></a>Recouvrements dans Comptabilité client
 
@@ -99,7 +102,8 @@ La transaction d’annulation est créée dans la devise de la transaction.
 
 Pour plus d’informations, voir [Créer un journal d’annulation pour un client](tasks/create-write-off-journal-customer.md).
 
-## <a name="process-not-sufficient-funds-nsf-payments"></a>Traitement des paiements des impayés 
+<a name="process-not-sufficient-funds-nsf-payments"></a>Traitement des paiements des impayés 
+--------------------------------------------
 
 Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impayés sur la page Recouvrements. Lorsque vous cliquez sur ce bouton, le paiement est annulé. Si des frais d’impayés s’appliquent au client, une transaction de frais est créée dans le journal des paiements. Le montant des frais est basé sur les paramètres relatifs aux frais automatiques. Les frais automatiques qui s’appliquent aux paiements des impayés sont spécifiés par le groupe de frais sélectionné sur la page Comptes bancaires pour le compte bancaire concerné.
 
@@ -107,6 +111,3 @@ Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impa
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

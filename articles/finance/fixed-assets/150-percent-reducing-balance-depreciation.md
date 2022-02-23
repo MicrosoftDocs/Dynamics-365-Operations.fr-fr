@@ -1,32 +1,35 @@
 ---
 title: Amortissement dégressif de 150 %
-description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
-author: moaamer
+description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883310"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443148"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 150 %
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
+Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 150 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations qui sont affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. Ce pourcentage est calculé sur la base de la durée de vie de l’immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 30 pourcent (150 % ÷ 5). 
 
@@ -64,7 +67,7 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Exemple d’amortissement dégressif de 150 %
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Prix d’acquisition               | 11 000 |
 | Valeur résiduelle                  | 1 000  |
@@ -85,6 +88,3 @@ La méthode d’amortissement dégressif de 150 % divise 150 % par le nombre d
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

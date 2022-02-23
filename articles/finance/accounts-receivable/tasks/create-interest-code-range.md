@@ -2,23 +2,26 @@
 title: Créer un code intérêt avec une plage
 description: Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d’intérêt en fonction d’une plage de valeurs.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b20870ade99dd48e72c8aa63f563bc51dc93bd9601d309c474af93cee6eddedb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443064"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Créer un code intérêt avec une plage
 
@@ -48,6 +51,3 @@ Vous pouvez paramétrer les codes intérêt de sorte à calculer différents mon
 21. Spécifiez le pourcentage d’intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
 22. Cliquez sur Fermer pour terminer le paramétrage.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

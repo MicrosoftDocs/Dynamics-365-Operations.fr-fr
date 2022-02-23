@@ -1,31 +1,34 @@
 ---
-title: Nouveau calcul des coûts de remplacement et des valeurs assurées pour des groupes d’immobilisations
-description: Cette rubrique décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
-author: moaamer
+title: Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d’immobilisations
+description: Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443230"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Nouveau calcul des coûts de remplacement et des valeurs assurées pour des groupes d’immobilisations
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalculer les coûts de remplacement et les valeurs assurées pour des groupes d’immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
+Cet article décrit le processus pour mettre à jour les coûts de remplacement et les valeurs assurées pour des immobilisations.
 
 Il est possible que vous soyez régulièrement averti que le coût de remplacement ou d’assurance des immobilisations spécifiques a été modifié. Par exemple, votre gestionnaire peut vous indiquer que l’inflation a été de 3 pour cent l’année passée et que vous devez augmenter le coût de remplacement de toutes les immobilisations de 3 pour cent. 
 
@@ -75,6 +78,3 @@ Le jour suivant, votre gestionnaire vous signale que les ordinateurs ont diminu�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

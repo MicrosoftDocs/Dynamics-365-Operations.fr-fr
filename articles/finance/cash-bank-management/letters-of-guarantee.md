@@ -2,25 +2,28 @@
 title: Lettres de garantie
 description: Cet article fournit des informations sur les lettres de garantie. Dans une lettre de garantie, une banque s’engage à payer une somme d’argent spécifique à une personne si l’un des clients de la banque ne règle pas un paiement ou une obligation au bénéficiaire.
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 18291
 ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09e62560bda6c8167e9aab6cd8690246f94f5b3f028d67c9e41a1fbba17dc499
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3dbf08679c165258a4a4027bf1cf73484d9efd3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757095"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443219"
 ---
 # <a name="letters-of-guarantee"></a>Lettres de garantie
 
@@ -62,6 +65,3 @@ Pour plus d’informations, voir les rubriques suivantes :
 [Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

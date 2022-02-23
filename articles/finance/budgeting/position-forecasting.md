@@ -1,26 +1,29 @@
 ---
 title: Prévision des postes
 description: Les dépenses liées aux collaborateurs représentent souvent une grande proportion des coûts d’une organisation. La prévision de poste permet de planifier ces dépenses et de les inclure dans la planification des budgets.
-author: panolte
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d43d0f92e666dd512fc6f2681aa8c7b6446edd5c
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443211"
 ---
 # <a name="position-forecasting"></a>Prévision des postes
 
@@ -30,7 +33,7 @@ Les dépenses liées aux collaborateurs représentent souvent une grande proport
 
 ## <a name="position-forecasting-in-budget-planning"></a>Prévision de poste dans la planification budgétaire
 
-[![Composants de la prévision des postes.](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Composants de la prévision des postes](./media/graphic-top.png)](./media/graphic-top.png) 
 
 La prévision de poste utilise trois composants principaux pour fournir des montants budgétés précis pour les dépenses de poste. Ces montants peuvent ensuite être introduits dans un plan budgétaire pour les calculs de budget. 
 
@@ -42,14 +45,14 @@ Un **groupe de rémunération** est un composant facultatif de paramétrage util
 
 ### <a name="position-forecasting-processes"></a>Processus de prévision de poste
 
-[![Illusration des processus de prévision des postes.](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Illusration des processus de prévision des postes](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Dans un processus type de prévision de poste, vous commencez par créer les composants de paramétrage (éléments de coût budgétaire et groupes de rémunération). Les postes de prévision sont alors générés, en fonction des postes existants. Vous pouvez alors effectuer des ajustements. Par exemple, vous pouvez ajouter ou mettre fin à des postes, modifier des taux de salaire et les coûts d’avantages, et ajouter des augmentations de salaire. Vous pouvez créer plusieurs versions d’un poste de prévision pour faciliter les comparaisons entre différents scénarios de budgétisation. Ensuite, vous pouvez inclure les postes de prévision dans les plans budgétaires et importer les coûts afférents aux postes de prévision en tant que lignes de plan budgétaire.
 
 Vous pouvez créer des versions supplémentaires de poste de prévision lors de la révision des plans budgétaires. Ces nouvelles versions constituent une base pour les révisions.
 
 ## <a name="position-forecasting-setup"></a>Paramétrage de prévision de poste
-[![Illustration mettant en avant la configuration.](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Illustration mettant en avant la configuration](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Éléments de coût budgétaire
 
@@ -67,9 +70,9 @@ L’organisation du Jodi fournit une indemnité de formation de 5 % du salaire
 
 Jodi ne souhaite pas que les responsables modifient le montant de l’avantage. Par conséquent, elle sélectionne **Ne pas autoriser les modifications de coût** dans le champ **Remplacement du poste de prévision**. L’organisation veut que ce coût soit réparti de manière égale sur chaque mois. Par conséquent, Jodi sélectionne **Trimestriel** dans le champ **Mode de répartition**. 
 
-Ensuite, Jodi ajoute une ligne de calcul du coût, définit les dates et un compte principal, et saisit **5,00** comme pourcentage. L’organisation a un plafond de 5 000 euros par an pour cet avantage. Par conséquent, Jodi entre ce montant comme limite annuelle. 
+Ensuite, Jodi ajoute une ligne de calcul du coût, définit les dates et un compte principal, et saisit **5,00** comme pourcentage. Son organisation a un plafond de 5 000 euros par an pour cet avantage. Par conséquent, Jodi entre ce montant comme limite annuelle. 
 
-Enfin, Jodi ajoute tous les éléments de coût de bénéfice utilisés pour le salaire de base comme base de calcul. L’élément de coût budgétaire est maintenant prêt à être utilisé.
+Enfin, Jodi ajoute tous les éléments de coût de bénéfice utilisés pour le salaire de base comme base de calcul. Son élément de coût budgétaire est maintenant prêt à être utilisé.
 
 ### <a name="compensation-groups"></a>Groupes de rémunération
 
@@ -86,7 +89,7 @@ Les champs **Programme d’augmentation** et **Date d’augmentation** sous le g
 L’élément de coût de bénéfice sélectionné sous le groupe de rémunération est utilisé lorsque vous créez des bénéfices pour les postes de prévision dans le groupe, notamment leur salaire de base et toute augmentation d’échelon. Le champ **Régime de rémunération fixe** lie le groupe de rémunération à un régime de rémunération fixe dans les Ressources humaines. Ce lien peut affecter les informations de rémunération fixe d’un collaborateur à un poste de prévision, et donc peut rendre la planification budgétaire plus précise. N’oubliez pas que la structure de la grille de rémunération (niveaux et échelons) du groupe de rémunération doit correspondre à la structure du régime de rémunération fixe. Sinon, le système ne peut pas correctement lier le groupe de rémunération au régime de rémunération fixe.
 
 ## <a name="creating-forecast-positions"></a>Création de postes de prévision
-[![Illustration mettant en avant « Créer des postes de prévision ».](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Illustration mettant en avant « Créer des postes de prévision »](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Création de postes de prévision pour les postes existants
 
@@ -115,7 +118,7 @@ Lorsqu’un poste de prévision est sélectionné, choisissez **Copier le poste 
 Vous pouvez également créer un poste de prévision entièrement nouveau. Sélectionnez une tâche existante, ainsi que le processus de planification budgétaire et le scénario de plan budgétaire. Vous pouvez ensuite ajouter tous les autres détails nécessaires. De nouveau, un nouveau poste est créé simultanément dans les Ressources humaines.
 
 ## <a name="working-with-forecast-positions"></a>Utilisation des postes de prévision
-[![Illustration mettant en avant « Modifier des postes de prévision ».](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Illustration mettant en avant « Modifier des postes de prévision »](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Multiples versions d’un poste de prévision
 
@@ -137,7 +140,7 @@ Les lignes d’élément de coût budgétaire doivent être recalculées lorsque
 
 **Exemple** 
 
-L’organisation envisage deux options pour réduire le coût d’un poste de comptable. Une option consiste à mettre fin au poste en milieu d’année. L’autre option consiste à modifier le poste en travail à mi-temps pour l’année entière. Brad a créé un poste de prévision pour le poste de comptable existant dans un scénario de référence. Brad copie ce poste de prévision de référence dans le scénario A, fixe la date de suppression au 31 mai et recalcule. Brad copie ensuite le poste de prévision de référence dans le scénario B, modifie la valeur ETP à **0,50**, et recalcule. Brad a désormais trois versions, chacune avec des totaux de coût correspondant aux options.
+L’organisation envisage deux options pour réduire le coût d’un poste de comptable. Une option consiste à mettre fin au poste en milieu d’année. L’autre option consiste à modifier le poste en travail à mi-temps pour l’année entière. Brad a créé un poste de prévision pour le poste de comptable existant dans un scénario de référence. Il copie ce poste de prévision de référence dans le scénario A, fixe la date de suppression au 31 mai et recalcule. Brad copie ensuite le poste de prévision de référence dans le scénario B, modifie la valeur ETP à **0,50**, et recalcule. Brad a désormais trois versions, chacune avec des totaux de coût correspondant à ses options.
 
 #### <a name="assigning-a-compensation-group"></a>Affectation d’un groupe de rémunération
 
@@ -171,7 +174,7 @@ Le processus de nouveau calcul est automatiquement utilisé sur tous les postes 
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Importer les postes de prévision dans les plans budgétaires
 
-[![Illustration mettant en avant « Ajouter au plan budgétaire ».](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Illustration mettant en avant « Ajouter au plan budgétaire »](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 L’objet de la création et de la modification des postes de prévision est de les ajouter à des plans budgétaire, de sorte que les plans budgétaires incluent des montants budgétaires plus exacts. Il existe deux méthodes pour ajouter des postes de prévision aux plans budgétaires. Vous pouvez utiliser un processus de génération ou un processus de sélection dans le plan budgétaire.
 
@@ -215,6 +218,3 @@ Pour afficher les plans budgétaires dans lesquels un poste de prévision a ét�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

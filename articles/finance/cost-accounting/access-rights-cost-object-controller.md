@@ -2,13 +2,16 @@
 title: Droits d’accès pour les contrôleurs d’objet de coût
 description: Cette rubrique fournit des informations sur les droits d’accès pour les contrôleurs d’objet de coût.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733027"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443205"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Droits d’accès pour les contrôleurs d’objet de coût
 
@@ -62,8 +65,9 @@ L’exemple suivant montre ce à quoi une hiérarchie de dimensions peut ressemb
 
 Vous pouvez utiliser l’organisateur **Utilisateurs** dans le concepteur de hiérarchie pour ajouter un ou plusieurs ID utilisateur dans chaque nœud.
 
-|             Nœuds                 | Utilisateurs            | Membre de la dimension de départ     |   Membre de la dimension de fin   |
+|                                   | Utilisateurs            | Plages de membres de la dimension   |                         |
 |-----------------------------------|------------------|---------------------------|-------------------------|
+| **Nœuds**                         | **ID utilisateur**      | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Organisation                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Admin                 | Avril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finances   | Alicia           | CC002                     | CC003                   |
@@ -94,14 +98,11 @@ Les paramètres de la hiérarchie de la liste d’accès sont utilisés pour con
     - Visualisations des données Power BI intégrées dans le client Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - Avant que la hiérarchie de la liste d’accès puisse affecter des données Power BI, la hiérarchie de la liste d’accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d’informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Avant que la hiérarchie de la liste d’accès puisse affecter des données Power BI, la hiérarchie de la liste d’accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d’informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Cette rubrique affiche les paramétrages qui doivent être effectués pour utiliser l’espace de travail **Contrôle des coûts**.
 
 Ressources supplémentaires
 
 - [Espace de travail de contrôle des coûts](cost-control-workspace.md)
 - [Hiérarchie des dimensions](dimension-hierarchy.md)
-- [Paramétrer la sécurité du pack de contenu Contrôle de gestion](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Paramétrer la sécurité du pack de contenu Contrôle de gestion](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)

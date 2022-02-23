@@ -2,25 +2,28 @@
 title: Afficher les états financiers
 description: Cette rubrique décrit comment afficher et explorer des états financiers dans Microsoft Dynamics 365 Finance. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 author: kweekley
+manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 485d8f0aee791aa577432947d74b08caf484da0a3056d8119579e9d659ca3d57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730504"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443173"
 ---
 # <a name="view-financial-reports"></a>Afficher les états financiers
 
@@ -28,16 +31,17 @@ ms.locfileid: "6730504"
 
 Cette rubrique décrit comment afficher et explorer des états financiers. Il inclut des informations sur les différentes options que vous pouvez appliquer à des états financiers pour modifier leur apparence et les données qu’ils incluent.
 
-## <a name="financial-reporting-overview"></a>Présentation des états financiers
+<a name="financial-reporting-overview"></a>Présentation des états financiers
+----------------------------
 
 ## <a name="open-a-financial-report"></a>Ouvrir un état financier
 Pour ouvrir un état, sélectionnez le nom de l’état. La première fois que l’état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2015, l’état est généré pour le 31 juillet 2015. Après l’ouverture d’un état, vous pouvez démarrer l’exploration en accédant à des ensembles de données spécifiques et en modifiant les options d’état.
 
 ## <a name="drill-down-on-a-financial-report"></a>Exploration d’un état financier
-Les états financiers peuvent inclure plusieurs niveaux de détail. Le niveau financier est le premier niveau proposé lorsque vous ouvrez un état financier. Pour accéder au niveau des comptes, sélectionnez les données à explorer. Par exemple, pour afficher les détails de compte pour les ventes, sélectionnez les données de vente que vous souhaitez explorer. à partir du niveau du compte, vous pouvez faire un zoom avant pour afficher les transactions qui constituent le solde de compte. Il existe deux manières d’afficher les transactions : transactions d’état et pièces comptables.
+Les états financiers peuvent inclure plusieurs niveaux de détail. Le niveau financier est le premier niveau proposé lorsque vous ouvrez un état financier. Pour accéder au niveau des comptes, sélectionnez les données à explorer. Par exemple, pour afficher les détails de compte pour les ventes, sélectionnez les données de vente que vous souhaitez explorer. à partir du niveau du compte, vous pouvez faire un zoom avant pour afficher les transactions qui constituent le solde de compte. Il existe deux manières d’afficher les transactions : transactions d’état et transactions de N° document.
 
 -   **Transactions d’état** – Les transactions apparaissent dans un affichage formaté inclus dans l’état financier. Pour afficher les transactions dans l’affichage formaté, sélectionnez les données à explorer, puis cliquez sur **Accéder au niveau de la transaction d’état**.
--   **Pièces comptables** – Une recherche de pièces comptables s’ouvre, dans laquelle vous pouvez afficher les transactions. Pour afficher les transactions dans la recherche transactions de N° document, sélectionnez les données à explorer, puis cliquez sur **Ouvrir des transactions en compte**.
+-   **Transactions de N° document** – Une recherche de transactions de N° document s’ouvre, dans laquelle vous pouvez afficher les transactions. Pour afficher les transactions dans la recherche transactions de N° document, sélectionnez les données à explorer, puis cliquez sur **Ouvrir des transactions en compte**.
 
 Si les données sont des données de budget, vous pouvez choisir d’ouvrir les écritures de compte budgétaires. Pour fermer l’un des niveaux de l’état et revenir au point de départ, vous pouvez appuyer sur la touche échap ou sur le bouton **Fermer**(**X**) en haut à droite.
 
@@ -75,13 +79,11 @@ Après avoir défini les options d’impression, cliquez sur **Imprimer** pour c
 ## <a name="export-a-financial-report"></a>Exporter un état financier
 Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**. L’état est exporté vers Microsoft Excel, et votre navigateur vous invite à ouvrir ou enregistrer le fichier exporté. Les paramètres d’exportation définis dans la création de l’état sont appliqués à l’état exporté.    
 
-## <a name="additional-resources"></a>Ressources supplémentaires
+<a name="additional-resources"></a>Ressources supplémentaires
+--------
 
-[États financiers](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
-
-
-
+[États financiers](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

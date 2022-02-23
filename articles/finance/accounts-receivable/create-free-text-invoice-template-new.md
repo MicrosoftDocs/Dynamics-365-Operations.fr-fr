@@ -1,23 +1,26 @@
 ---
 title: Créer un modèle de facture financière
 description: Cette procédure décrit comment créer un modèle de facture financière.
-author: abruer
+author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1477227228ae9f79314d1e3b6da73446d660d108
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 8281de3cb336d9392a6a97f98e51a2a139a384c5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753690"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443038"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Créer un modèle de facture financière
 
@@ -65,6 +68,3 @@ Pour cette procédure, utilisez la société fictive USMF. Cette procédure est 
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Enregistrer une facture financière comme modèle
 Vous pouvez également enregistrer une facture financière existante comme modèle. Lorsque vous sélectionnez Enregistrer dans le modèle sous l’onglet Facture, entrez un nom et une description pour le modèle. Si un modèle portant le nom existe déjà, une notification s’affiche pour indiquer qu’un modèle portant ce nom existe déjà. Vous pouvez toujours cliquer sur OK pour le remplacer. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

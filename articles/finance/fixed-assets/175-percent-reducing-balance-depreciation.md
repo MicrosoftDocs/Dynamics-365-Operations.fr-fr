@@ -1,32 +1,35 @@
 ---
 title: Amortissement dégressif de 175 %
-description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
-author: moaamer
+description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
+author: saraschi2
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883261"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443209"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 175 %
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
+Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 175 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations qui sont affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. 
 
@@ -64,10 +67,10 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Exemple d’amortissement dégressif de 175 %
 
-| Champ                          | Valeur  |
+|                                |        |
 |--------------------------------|--------|
-| Prix d’acquisition               | 11,000 |
-| Valeur résiduelle                  | 1 000  |
+| Prix d’acquisition               | 11 000 |
+| Valeur résiduelle                  | 1 000  |
 | Base d’amortissement              | 10 000 |
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 35 %.    |
@@ -76,15 +79,12 @@ La méthode d’amortissement régressif de 175 % divise 175 % par le nombre d
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable                  | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Année 1 | (11 000 – 1 000) × 35 % = 3 500                | 11 000 – 3 500 = 7 500      | 11 000 – 1 000 – 3 500 = 6 500        |
-| Année 2 | 6 500 × 35 % = 2 275                           | 7 500 – 2 275 = 5 225       | 6 500 – 2 275 = 4 225                 |
-| Année 3 | 4 225 × 35 % = 1 478,75                        | 5 225 – 1 478,75 = 3 746,25 | 4 225 – 1 478,75 = 2 746,25           |
+| Année 1 | (11 000 – 1 000) × 35 % = 3 500                | 11 000 – 3 500 = 7 500      | 11 000 – 1 000 – 3 500 = 6 500        |
+| Année 2 | 6 500 × 35 % = 2 275                           | 7 500 – 2 275 = 5 225       | 6 500 – 2 275 = 4 225                 |
+| Année 3 | 4 225 × 35 % = 1 478,75                        | 5 225 – 1 478,75 = 3 746,25 | 4 225 – 1 478,75 = 2 746,25           |
 
 > [!NOTE] 
 > Généralement, si le montant calculé via la méthode d’amortissement dégressif de 175 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

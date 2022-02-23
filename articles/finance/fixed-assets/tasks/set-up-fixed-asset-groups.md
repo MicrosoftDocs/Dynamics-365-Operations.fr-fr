@@ -1,24 +1,27 @@
 ---
 title: Paramétrer les groupes d’immobilisations
 description: Cette rubrique explique comment créer un groupe d’immobilisations.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a39d709d739ac4fea4bf79e3174d2fbe39d4ded
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 9bcb78158afbf7bb0e9b83b35e37b1532a7c6283
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883791"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443024"
 ---
 # <a name="set-up-fixed-asset-groups"></a>Paramétrer les groupes d’immobilisations
 
@@ -36,6 +39,3 @@ Cette rubrique explique comment créer un groupe d’immobilisations. Il utilise
 8. Sélectionnez une option dans le champ **Convention d’amortissement**.
 9. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

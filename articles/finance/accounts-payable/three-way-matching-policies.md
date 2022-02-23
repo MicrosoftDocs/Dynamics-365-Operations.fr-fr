@@ -2,25 +2,28 @@
 title: Stratégies de rapprochement à trois facteurs
 description: Cette rubrique fournit des exemples de rapprochement à trois facteurs.
 author: abruer
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722837"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443117"
 ---
 # <a name="three-way-matching-policies"></a>Stratégies de rapprochement à trois facteurs
 
@@ -28,7 +31,8 @@ ms.locfileid: "6722837"
 
 Cette rubrique fournit des exemples de rapprochement à trois facteurs.
 
-## <a name="example-three-way-matching-for-items"></a>Exemple : Rapprochement à trois facteurs pour les articles
+<a name="example-three-way-matching-for-items"></a>Exemple : Rapprochement à trois facteurs pour les articles
+-------------------------------------
 
 **Synthèse :** Ken est contrôleur au siège de l’entité juridique Fabrikam. Il décide que toutes les factures fournisseur basées sur des commandes fournisseur doivent être mises en correspondance avec les lignes de commande fournisseur (rapprochement à deux facteurs). Pour les achats des articles qui seront utilisés comme immobilisations, les factures doivent être mises en correspondance avec les lignes de commande fournisseur et les lignes d’accusé de réception de marchandises (rapprochement à trois facteurs).
 
@@ -36,9 +40,9 @@ Fabrikam est constitué de plusieurs entités juridiques et emploie des milliers
 
 Les stratégies de rapprochement de factures de cet exemple aident les personnes ayant les rôles suivants à atteindre ces objectifs :
 
--   Ken est contrôleur pour l’entreprise Fabrikam. Ken peut aider les personnes de l’organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
+-   Ken est contrôleur pour l’entreprise Fabrikam. Il peut aider les personnes de son organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
 -   Phyllis et April sont les chefs comptables du département des Achats pour la division États-Unis de Fabrikam. Elles peuvent appliquer la stratégie d’entreprise et s’assurer que les factures ne sont payées qu’après avoir été mises en correspondance avec la commande fournisseur et les accusés de réception des biens et services, le cas échéant.
--   Tony est le responsable de production de la division États-Unis de Fabrikam. Tony et d’autres employés du département Production peuvent s’assurer que les articles reçus sont conformes à la commande passée auprès des fournisseurs et sont pris en compte afin que le personnel ait ce dont il a besoin pour travailler.
+-   Tony est le responsable de production de la division États-Unis de Fabrikam. Avec l’aide des autres employés du département Production, il doit s’assurer que les articles reçus sont conformes à la commande passée auprès des fournisseurs et sont pris en compte afin que le personnel ait ce dont il a besoin pour travailler.
 
 ### <a name="prerequisites"></a>Conditions préalables
 
@@ -48,15 +52,15 @@ Les stratégies de rapprochement de factures de cet exemple aident les personnes
 -   Ken définit la stratégie de rapprochement au niveau de l’article 1500 – CNC Milicron Machine sur Rapprochement à trois facteurs. Cet article est un élément d’immobilisation utilisé pour la production chez Fabrikam. Les factures correspondant à cet article sont mises en correspondance avec les lignes de commande fournisseur pour ce qui concerne les prix et avec les accusés de réception de marchandises pour ce qui concerne les quantités.
 -   Tony entre un bon de commande pour cinq machines CNC Milicron Machine. Alicia, employée chargée des commandes fournisseur chez Fabrikam, émet une commande fournisseur vers une entité juridique nommée Contoso pour la fourniture des articles.
 
-    | Numéro d’article                 | Quantité | Prix unitaire | Montant HT | Code frais        | Valeur des frais |
+    | Numéro d’article                 | Quantité | Prix unitaire | Montant net | Code frais        | Valeur des frais |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicron Machine | 5        | 8 000,00   | 40 000,00  | Expédition et gestion | 3,000.00      |
+    | 1500 – CNC Milicron Machine | 5        | 8 000,00   | 40 000,00  | Expédition et gestion | 3 000,00      |
 
 -   Arnie, employé chargé des ventes chez Contoso, vérifie les expéditions pour la semaine. Il sélectionne les transactions d’expédition de manière à facturer Fabrikam pour la livraison des machines CNC Milicron Machine. Il inclut des frais d’expédition et de gestion. Fabrikam considère les frais comme faisant partie du coût de l’immobilisation.
 
 ### <a name="scenario"></a>Scénario
 
-1.  Sammy, travailleur dans le département Réception de Fabrikam, reçoit la quantité totale de machines qui sont expédiées par Contoso. Sammy entre la quantité 5 sur un accusé de réception de marchandises. Étant donné que la commande fournisseur a été entièrement reçue, le statut de la commande fournisseur passe à Reçu.
+1.  Sammy, travailleur dans le département Réception de Fabrikam, reçoit la quantité totale de machines qui sont expédiées par Contoso. Il entre la quantité 5 sur un accusé de réception de marchandises. Étant donné que la commande fournisseur a été entièrement reçue, le statut de la commande fournisseur passe à Reçu.
 2.  April, coordinatrice des Achats chez Fabrikam, entre et vérifie la facture envoyée par Contoso. Elle vérifie les informations suivantes :
     -   Pour les articles nécessitant un rapprochement à trois facteurs, la quantité de la ligne de facture correspond à la quantité reçue. La quantité reçue est indiquée sur l’accusé de réception de marchandises mis en correspondance avec la facture.
     -   Pour les articles nécessitant un rapprochement à deux ou trois facteurs, les prix figurant sur la ligne de facture sont compris dans les tolérances définies dans Microsoft Dynamics 365 Finance. Cela inclut les types de rapprochement de prix suivants :
@@ -65,7 +69,7 @@ Les stratégies de rapprochement de factures de cet exemple aident les personnes
 
 La facture papier de Contoso contient les informations suivantes.
 
-| Article                        | Quantité | Prix unitaire | Montant net |
+| article ;                        | la quantité ; | Prix unitaire | Montant net |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron Machine | 5        | 8 100,00   | 40,500.00  |
 | Expédition et traitement       |          |            | 4,000.00   |
@@ -86,7 +90,7 @@ Synthèse : Ken est contrôleur au siège de l’entité juridique Fabrikam. Ken
 Le volume et les montants sont faibles et il y a eu des problèmes de livraison avec certains fournisseurs en Malaisie. Pour ces motifs, Cassie définit le niveau de contrôle pour certaines combinaisons article/fournisseur en Malaisie sur un rapprochement à trois facteurs. 
 
 Les stratégies de rapprochement de factures de cet exemple aident les personnes ayant les rôles suivants à atteindre ces objectifs :
--   Ken est contrôleur pour l’entreprise Fabrikam. Ken peut aider les personnes de l’organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
+-   Ken est contrôleur pour l’entreprise Fabrikam. Il peut aider les personnes de son organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
 -   Cassie est comptable dans la division Malaisie de Fabrikam. Elle peut appliquer la stratégie d’entreprise et s’assurer que les factures ne sont payées qu’après avoir été mises en correspondance avec les lignes de commande fournisseur et les accusés de réception des biens et services. Elle peut également augmenter le niveau de contrôle en choisissant un rapprochement à trois facteurs pour des articles spécifiques afin de contrôler les coûts d’exploitation.
 
 ### <a name="prerequisites"></a>Conditions préalables
@@ -114,7 +118,7 @@ Les stratégies de rapprochement de factures de cet exemple aident les personnes
 
 La facture papier de Contoso contient les informations suivantes.
 
-| Article                  | Quantité | Prix unitaire | Montant net |
+| article ;                  | la quantité ; | Prix unitaire | Montant net |
 |-----------------------|----------|------------|------------|
 | PH2500 – Ordinateur     | 2        | 2 500,00   | 5 000,00   |
 | MM01 – Souris sans fil | 2        | 41.00      | 82.00      |
@@ -141,6 +145,3 @@ Pour plus d’informations, voir [Vue d’ensemble du rapprochement de factures 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

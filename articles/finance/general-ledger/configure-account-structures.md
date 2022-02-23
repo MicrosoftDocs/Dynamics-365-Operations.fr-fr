@@ -2,25 +2,28 @@
 title: Configurer les structures de compte
 description: Cette rubrique fournit des informations sur les structures de compte et les dimensions financières.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
-ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945539"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443242"
 ---
 # <a name="configure-account-structures"></a>Configurer les structures de compte
 
@@ -46,9 +49,9 @@ Pour illustrer une pratique recommandée de paramétrage d’une structure de co
 
 **Structure du compte de résultat**
 
-|Compte principal          | Unité commerciale    |Département          | Centre de coût    | &nbsp; |
-|----------------------|------------------|--------------------|-----------|---|
-|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
+|Compte principal          | Unité commerciale    |Département          | Centre de coût    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | *;” “|*;” “|*;” “|*;” “|
 
 **Règle avancée pour ajouter un client**
 
@@ -65,7 +68,7 @@ La section **Segments** et **Détails des valeurs autorisées** fournit une exp�
 
 La section **Détails des valeurs autorisées** vous aide à créer des critères à l’aide d’**Opérateurs** tels que commence par, compris entre, comprend, etc.
 
-[![Autoriser des valeurs.](./media/account.png)](./media/account.png) 
+[![Autoriser des valeurs](./media/account.png)](./media/account.png) 
 
 Les valeurs autorisées seront par défaut celles d’un journal ou d’une page d’entrée de répartition comptable s’il n’y a pas de autres valeurs possibles à sélectionner en fonction du paramétrage de la structure de compte.
 
@@ -79,7 +82,7 @@ Lorsque vous saisissez dans un journal et que vous sélectionnez un compte dans 
 
 ## <a name="more-than-7-criteria-needed"></a>Plus de 7 critères requis
 
-Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l’utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter** n’est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
+Si plus de 7 critères sont requis, vous pouvez continuer à les ajouter sur la ligne suivante. Vous remarquerez lors de l’utilisation de la section **Détails des valeurs autorisées** que le critère **+Ajouter nouveau** n’est plus actif après la saisie du septième critère. Cela est dû à de nombreux facteurs tels que : 
  - Largeur de colonne 
  - Mode de stockage des données 
  - Performances du contrôle **Détails des valeurs autorisées**
@@ -101,9 +104,6 @@ Lors du paramétrage de vos structures de compte, certaines pratiques recommand�
 - Il ne suffit d’ajouter un astérisque pour chaque segment de la structure de compte et de se baser uniquement sur les règles avancées. Cela peut s’avérer difficile à gérer et entraîne généralement des erreurs pendant la maintenance, ce qui rend la validation impossible.
 
 ## <a name="account-structure-activation"></a>Activation de la structure de compte
-Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, activez-les. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte.
+Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, vous devez les activer. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte.
 
 Pour plus d’informations, voir, [Planifier votre plan de comptes](plan-chart-of-accounts.md), [Dimensions financières](financial-dimensions.md) et [Entrer des combinaisons de compte et de dimensions (contrôle d’accès segmenté)](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

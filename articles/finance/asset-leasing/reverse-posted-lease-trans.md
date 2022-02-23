@@ -2,11 +2,13 @@
 title: Contrepasser les transactions de bail validées
 description: Cette rubrique explique comment Contrepasser une transaction de location validée. Toute transaction créée via la location d’actifs peut être annulée.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeaseTransactions
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969526"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Contrepasser les transactions de bail validées
 
@@ -53,6 +55,3 @@ Pour révoquer une transaction Contrepassée, procédez comme suit.
 Lorsque vous sélectionnez **Suivi de la Contrepassation**, une boîte de dialogue apparaît et affiche à la fois les transactions d’origine et les transactions annulées, ainsi qu’un numéro de trace.
 
 Vous pouvez également suivre les révocations en utilisant la page **Échéanciers**. Le champ **Contrepasser** est effacé, alors que le champ **Journal validé** est sélectionné. De plus, le champ **Dernier numéro de journal** est mis à jour avec le numéro de journal de la transaction de révocation et le champ **Numéro de journal** est mis à jour avec le numéro de journal de contrepassation.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Règlement automatique et attribution de priorités
 description: Cette rubrique décrit la manière dont les transactions sont réglées si vous sélectionnez le Règlement automatique dans la page de paramètres de la Comptabilité client. Il décrit également comment le règlement automatique peut être utilisé en combinaison avec la priorité de paiement.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/30/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ba8a2f3b6a731e3371ca5245d5a9177b4cd0c226768c39c0cf7f6cb27526058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b596557e80035e8d62d01f156a6678c75e4ae573
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724181"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443144"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Règlement automatique et attribution de priorités
 
@@ -80,6 +83,3 @@ En l’absence de priorité de règlement définie par l’utilisateur, les tran
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Importer la configuration du virement ISO20022
 description: Cette procédure indique comment importer une configuration de génération d’états électroniques pour un paiement fournisseur.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffc86ba9dade0ae494ca4ace8d9f562da9c9527a4731493d892b60112293af3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01f44c49b6623cbcc2f08cfd6e4978c9a1676b83
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781134"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443217"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Importer la configuration du virement ISO20022
 
@@ -42,6 +45,3 @@ Il s’agit de la première des cinq tâches illustrant le processus de paiement
     * Si le bouton Importer n’est pas disponible, cela signifie que la configuration a déjà été importée.  
 9. Cliquez sur Oui.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

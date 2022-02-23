@@ -2,23 +2,26 @@
 title: Paramétrage de chèques postdatés
 description: Cette rubrique explique comment indiquer s’il faut valider les écritures de journal pour les chèques postdatés et quels journaux de validation utiliser pour les écritures de compensation et les paiements fournisseur.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc1798836d9b905d991adb4c87d55ddce41d260bdbfdad6bf0c4b4feb846ee57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743071"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443237"
 ---
 # <a name="set-up-postdated-checks"></a>Paramétrage de chèques postdatés
 
@@ -53,12 +56,4 @@ Le rôle de cette procédure Trésorier. La société fictive USMF sert d’exem
     * Sélectionnez le compte bancaire utilisé pour déduire le montant de la facture.  
 18. Cliquez sur Enregistrer.
 19. Fermez la page.
-> [!NOTE]
-> Pour pouvoir valider un chèque postdaté sur un compte bancaire lorsque la date de session est supérieure ou égale à la date d’échéance, vous devez activer la fonction **Validation de la date d’échéance de l’enregistrement du journal des paiements avec chèques postdatés sur le compte bancaire**. Cette fonction vous permet de valider les journaux de paiement pour les fournisseurs ou les clients avec des chèques postdatés, lorsque la date de session est supérieure ou égale à la date d’échéance.
-> 
-> Lors de la configuration du **Mode de paiement** (**Comptabilité fournisseur > Configuration des paiements > Modes de paiement**), ne remplissez pas **Compte de transition**. Dans ce cas, le compte de contrepartie est renseigné avec le compte bancaire, qui est configuré dans le **Mode de paiement**.
->  
-> Lorsque la fonctionnalité est activée et que la date de session est inférieure à la date d’échéance, le message d’erreur suivant s’affiche lors de la validation d’un journal des paiements, "La date d’échéance doit être inférieure ou égale à la date de session si le type de compte de contrepartie est Banque". Si la fonction n’est pas activée, vous pouvez valider un journal des paiements avec un chèque postdaté lorsque la date de session est inférieure à la date d’échéance.
-> Cette fonctionnalité est disponible dans la version 10.0.21 et les versions ultérieures.    
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

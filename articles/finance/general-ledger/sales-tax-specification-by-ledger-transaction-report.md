@@ -2,25 +2,28 @@
 title: Spécification de taxe par écriture comptable
 description: Cette rubrique explique comment utiliser la spécification de taxe par écriture comptable afin d’afficher et d’imprimer des informations sur les écritures comptables pour laquelle la taxe est calculée.
 author: ericwang
+manager: Ann Beebe
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: f835f06c190f1d174fbde6b68f189b0484a7b39610bc2edc0676a3e2fa320268
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721753"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443023"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Spécification de taxe par écriture comptable
 [!include [banner](../includes/banner.md)]
@@ -54,7 +57,4 @@ Lorsque vous générez l’état, les champs par défaut suivants sont disponibl
 
 Pour afficher uniquement les comptes hors taxe sur l’état, paramétrez une condition de filtre, comme un astérisque (\*), comme le montre l’illustration suivante.
 
-![État affichant des comptes hors taxe.](media/taxspecperledgertrans.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![État affichant des comptes hors taxe](media/taxspecperledgertrans.png)

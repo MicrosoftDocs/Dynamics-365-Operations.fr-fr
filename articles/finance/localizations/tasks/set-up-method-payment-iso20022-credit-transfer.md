@@ -2,23 +2,26 @@
 title: Paramétrer le mode de paiement pour les virements ISO20022
 description: Cette procédure indique comment paramétrer le mode de paiement fournisseur pour le virement ISO20022 ou un autre type de paiement en utilisant les états électroniques pour générer un fichier.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f87cc0dfa47295f047ef97732f60733c362ca4066d9070418322b34934e3ce3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d6d60502cd7f749b71cf39cc38d8a39dcbb7b108
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773658"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443018"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Paramétrer le mode de paiement pour les virements ISO20022
 
@@ -45,6 +48,3 @@ Il s’agit de la troisième des cinq procédures illustrant le processus de pai
 10. Dans le champ Compte de paiement, indiquez les valeurs DEMF OPER.
 11. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Configurer le mode de paiement pour le débit direct ISO20022
 description: Cette procédure indique comment paramétrer le mode de paiement client pour le débit direct ISO20022 ou un autre type de paiement en utilisant les états électroniques.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 127d5402abfedcce124b39b76a6c1036a6c818a7c1318aaeabdb0688b50f738e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38afbc3a49d9020540a56e58ce51196b53d6a9e1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779759"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443056"
 ---
 # <a name="setup-method-of-payment-for-iso20022-direct-debit"></a>Configurer le mode de paiement pour le débit direct ISO20022
 
@@ -50,6 +53,3 @@ Il s’agit de la troisième des cinq procédures illustrant le processus de pai
     * Sélectionnez le paramètre Demander un mandat pour les formats de paiement client, qui nécessitent d’inclure les informations de mandat dans le message de paiement, par exemple le débit direct SEPA.  
 9. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

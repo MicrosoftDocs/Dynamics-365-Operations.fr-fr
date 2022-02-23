@@ -2,25 +2,28 @@
 title: Paiements fournisseur pour un montant partiel
 description: Il se peut que vous deviez effectuer auprès d’un fournisseur un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd7b7092e0d0baf48a805bbb0cefb0eb77e49946c6dbc44c9f954781ca1259e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 89e025977a0dcd40e35f17448a7b0ebde08cb6c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777238"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443006"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Paiements fournisseur pour un montant partiel
 
@@ -28,7 +31,8 @@ ms.locfileid: "6777238"
 
 Il se peut que vous deviez effectuer auprès d’un fournisseur un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation. Leur disponibilité dépend de vos exigences métier et de votre configuration. 
 
-## <a name="cash-discount-amounts"></a>Montants de l’escompte de règlement
+<a name="cash-discount-amounts"></a>Montants de l’escompte de règlement
+---------------------
 
 Un fournisseur peut vous accorder un escompte de règlement si vous payez une facture avant sa date d’échéance. Par exemple, vous saisissez une facture d’une valeur de 100,00 qui indique un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant sa date d’émission. Les conditions de date d’échéance sont de 30 jours. Si une proposition de paiement utilise l’escompte de règlement comme critère pour sélectionner une facture, et si la proposition est effectuée à la date ou avant la date d’escompte de règlement, la facture est activée pour le paiement, et le paiement est créé pour 98,00. Un escompte de règlement peut être également appliqué à un paiement unique créé manuellement.
 
@@ -50,6 +54,3 @@ Vous pouvez effectuer un paiement partiel lorsqu’il y a encore un très petit 
 
 
 Pour plus d’informations, voir [Vue d’ensemble des paiements fournisseurs](../cash-bank-management/tasks/vendor-payment-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

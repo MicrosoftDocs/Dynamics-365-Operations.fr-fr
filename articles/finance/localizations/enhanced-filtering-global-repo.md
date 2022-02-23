@@ -2,25 +2,28 @@
 title: Filtrage amélioré par RCS dans le référentiel RCS/Global
 description: Cette rubrique décrit les capacités de filtrage améliorées pour le référentiel RCS Global, qui ont été améliorées pour inclure les filtres supplémentaires.
 author: JaneA07
+manager: AnnBe
 ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2def3b653ac7c90318feb696c0dd197217ac29f64f0f08d26a7069918c67922b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443047"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>Options de filtrage améliorées RCS pour trouver des configurations dans le référentiel global/RCS
 
@@ -36,13 +39,10 @@ Cette rubrique décrit les capacités de filtrage améliorées pour le référen
 
 Pour faciliter la recherche des configurations spécifiques ou connexes, vous pouvez appliquer des filtres, individuellement ou en groupe. Par exemple, pour rechercher un seul type de documents commerciaux configurables liés aux factures fournisseur, vous pouvez appliquer un filtre **Type de document commercial** pour rechercher ce type de document. 
 
-[![Section Filtre pour le référentiel Global.](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
+[![Section Filtre pour le référentiel Global](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
 
 Vous pouvez affiner la recherche en sélectionnant le type de document, par exemple « facture fournisseur » et en cliquant sur **Appliquer le filtre**. L’exemple suivant montre les résultats lors du filtrage sur **Type de document commercial** avec le type de document ajouté. 
 
-[![Filtre appliqué et Importer pour le type de document commercial.](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
+[![Filtre appliqué et Importer pour le type de document commercial](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Les résultats filtrés peuvent être importés dans un référentiel RCS d’utilisateurs ou un environnement Dynamics 365 Finance, individuellement ou en tant qu’ensemble. Pour ce faire, sélectionnez le groupe de configurations et cliquez sur **Importer**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

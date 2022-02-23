@@ -1,30 +1,33 @@
 ---
 title: Créer et acquérir des actifs à partir de la comptabilité fournisseur
-description: Cette procédure décrit la création et l’acquisition d’une immobilisation avec le processus d’achat.
+description: Ce guide de tâche décrit la création et l’acquisition d’une immobilisation avec le processus d’achat.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 7cb9a37c65fb8eab4db6084b91a71c13a45ba42c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394656"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443203"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Créer et acquérir des actifs à partir de la comptabilité fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la création et l’acquisition d’une immobilisation avec le processus d’achat.  Il utilise les données de démonstration de la société fictive USMF et les fonctions de comptable et de commis à la comptabilité fournisseur.
+Ce guide de tâche décrit la création et l’acquisition d’une immobilisation avec le processus d’achat.  Il utilise les données de démonstration de la société fictive USMF et les fonctions de comptable et de commis à la comptabilité fournisseur.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Définir les paramètres des immobilisations
@@ -53,6 +56,3 @@ Cette procédure décrit la création et l’acquisition d’une immobilisation 
 17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 18. Cliquez sur **Valider**. L’immobilisation est créée et acquise lors de la validation de la facture.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

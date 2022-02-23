@@ -2,23 +2,26 @@
 title: Réviser les informations de recouvrement
 description: Cette rubrique explique comment réviser les informations de recouvrement et utiliser diverses options relatives au paramétrage et aux transactions de recouvrement.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443192"
 ---
 # <a name="review-collections-information"></a>Réviser les informations de recouvrement
 
@@ -140,6 +143,3 @@ Cette rubrique explique comment réviser les informations de recouvrement et uti
 5. Sélectionnez **Afficher la liste**.
 - Sélectionnez un compte client ou utilisez le compte par défaut. Par défaut, il s’agit du compte client sélectionné dans la page de liste ou l’écran à partir duquel vous avez ouvert cet écran. Si vous avez ouvert l’écran à partir d’une page de liste, les clients de la liste sont les clients inclus dans le regroupement de recouvrements utilisé dans la page de liste.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
