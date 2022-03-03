@@ -1,46 +1,46 @@
 ---
-title: Utiliser des données externes dans les prévisions de flux de trésorerie (version préliminaire)
-description: Cette rubrique décrit les étapes de configuration que vous devez effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
+title: Données externes dans les prévisions de flux de trésorerie
+description: Cette rubrique décrit les étapes de configuration à effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
 author: rcarlson
-manager: AnnBe
-ms.date: 05/01/2020
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 801327dc54f6d4cfef7a9f062395e29846783e8f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 23342114c25cd1b59d47aa7ce63f09de029fa690
+ms.sourcegitcommit: 465c84eb5cdc211692e2ae09b45d1400f9a315ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644943"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8314697"
 ---
-# <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Utiliser des données externes dans les prévisions de flux de trésorerie (version préliminaire)
+# <a name="external-data-in-cash-flow-forecasts"></a>Données externes dans les prévisions de flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Cette rubrique décrit les étapes de configuration spécifiques à l’utilisation de données externes et permettant d’inclure les données externes dans une prévision de flux de trésorerie.
 
 ## <a name="external-data-setup"></a>Configuration des données externes
 
-Utilisez l’onglet **Source externe** sur la page **Configuration des prévisions de trésorerie** (**Gestion de la trésorerie et de la banque \> Prévisions de trésorerie**) pour saisir des paramètres prenant en charge l’utilisation de données externes dans les prévisions de flux de trésorerie.
+Utilisez l’onglet **Source externe** sur la page **Configuration des prévisions de trésorerie** (**Gestion de la trésorerie et de la banque \> Prévisions de trésorerie \> Configuration des prévisions de flux de trésorerie**) pour saisir des paramètres prenant en charge l’utilisation de données externes dans les prévisions de flux de trésorerie.
 
-Pour plus d’informations sur la configuration des compteurs, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
+Les données externes peuvent être saisies ou importées dans les prévisions de trésorerie. Avant de saisir ou d’importer des données externes, des sources externes doivent être configurées. Sur l’onglet **Source externe**, configurez les catégories de flux de trésorerie externes. Une catégorie peut être **Sortant** ou **Entrant**. **Liquidité** doit être sélectionné comme type de validation. Dans la grille **Paramètres de l’entité juridique**, sélectionnez les entités juridiques et les comptes principaux correspondants auxquels s’appliquent les catégories de flux de trésorerie externes.
 
-Pour saisir des données externes pour les prévisions de flux de trésorerie, vous pouvez utiliser l’expérience Ouvrir dans Excel pour saisir et modifier des données externes. Sélectionnez le bouton **Données externes** puis soit **Ajouter des données externes** soit **Modifier les données externes existantes**. Quand le fichier Microsoft Excel est ouvert, vous pouvez saisir des informations dans les champs suivants :
+Pour plus d’informations sur la configuration des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](../cash-bank-management/cash-flow-forecasting.md).
 
-- **ID entrée**
+## <a name="enter-external-data"></a>Saisir des données externes
+
+Pour saisir et modifier des données externes pour les prévisions de flux de trésorerie, vous pouvez utiliser l’expérience **Ouvrir dans Excel**. Sélectionnez le bouton **Données externes** sur la page de l’espace de travail **Configuration des prévisions de flux de trésorerie**, puis **Ajouter des données externes** ou **Modifier les données externes existantes**. Quand le fichier Microsoft Excel est ouvert, vous pouvez saisir des informations dans les champs suivants :
+
+- **ID entrée** (unique)
 - **Description** (facultative)
 - **Nom de la source externe** – Sélectionnez l’une des valeurs de la liste que vous avez définie lors de la configuration de Finance Insights.
 - **Entité juridique**
@@ -61,5 +61,4 @@ En outre, si vous devez déplacer des données de configuration d’un environne
 - Paramétrage de la source externe des prévisions de flux de trésorerie
 - Paramétrage de l’entité juridique de la source externe des prévisions de flux de trésorerie
 
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

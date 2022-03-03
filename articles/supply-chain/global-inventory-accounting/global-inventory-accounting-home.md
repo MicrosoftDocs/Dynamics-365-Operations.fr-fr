@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860481"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103561"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Page d’accueil de la comptabilité globale des stocks
 
@@ -47,7 +47,6 @@ La comptabilité globale des stocks est actuellement disponible dans les région
 - Royaume-Uni
 - Australie
 - Canada
-- Amérique du Sud
 
 Si vous essayez d’installer le complément à partir d’une autre région géographique, Microsoft Dynamics Lifecycle Services (LCS) affichera un message indiquant que votre région géographique n’est pas prise en charge. La comptabilité globale des stocks ne prend pas en charge les déploiements sur site de Supply Chain Management.
 

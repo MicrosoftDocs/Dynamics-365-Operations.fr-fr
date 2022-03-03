@@ -13,21 +13,21 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 686600e857c7b5aab74d80b7bc31c6bbaaf8d2336d57ff5839752d0ff33def84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741678"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313565"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER
 
 [!include[banner](../includes/banner.md)]
 
-L’outil de génération d’états électroniques (ER) permet aux utilisateurs de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l’aide des données et ses algorithmes existants dans l’application. Pour plus d’informations, voir [Créer des configurations de génération d’états électroniques (ER)](electronic-reporting-configuration.md). Pour spécifier le flux de données pour extraire les données Finance and Operations et l’utiliser pour générer un document électronique, vous devez effectuer les opérations suivantes :
+L’outil de génération d’états électroniques (ER) permet aux utilisateurs de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l’aide des données et ses algorithmes existants dans l’application. Pour plus d'informations, voir [Créer des configurations de génération d'états électroniques (ER)](electronic-reporting-configuration.md). Pour spécifier le flux de données pour extraire les données Finance and Operations et l'utiliser pour générer un document électronique, vous devez effectuer les opérations suivantes :
 
-- Lier les sources de données configurées aux éléments du [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) conçu pour le domaine. La structure du modèle et les sources de données sélectionnées peuvent faire partie d’une structure hiérarchique complexe. Pour cette raison, les liaisons finales peuvent être assez étendues et contenir de nombreux éléments de différents types (par exemple, des relations, des tables et des méthodes). Les liaisons peuvent devenir moins lisibles et très complexes à examiner et comprendre, en particulier pour les non propriétaires. 
-- Liez les éléments de modèle de données avec des composants de [format](general-electronic-reporting.md#FormatComponentOutbound) pour définir les données qui seront renseignées à partir du modèle de données dans la sortie du format généré.
+- Lier les sources de données configurées aux éléments du modèle de données conçu pour le domaine. La structure du modèle et les sources de données sélectionnées peuvent faire partie d’une structure hiérarchique complexe. Pour cette raison, les liaisons finales peuvent être assez étendues et contenir de nombreux éléments de différents types (par exemple, des relations, des tables et des méthodes). Les liaisons peuvent devenir moins lisibles et très complexes à examiner et comprendre, en particulier pour les non propriétaires. 
+- Liez les éléments de modèle de données avec des composants de format pour définir les données qui seront renseignées à partir du modèle de données dans la sortie du format généré.
 
 Pour faciliter l’utilisation des concepteurs de mise en correspondance ER, la fonction de [chemin d’accès relatif](er-formula-language.md#relative-path) a été introduite. Par défaut, l’option de représentation du chemin d’accès relatif est activée pour toute nouvelle instance de l’application où l’expérience de conception ER est activée (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Nous avons implémenté le paramètre de chemin relatif afin que les utilisateurs puissent continuer à utiliser le chemin d’accès complet avec cette présentation des liaisons ER.
 

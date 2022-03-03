@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571711"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103093"
 ---
 # <a name="category-requests-from-vendors"></a>Demandes de catégorie des fournisseurs
 
@@ -26,11 +26,11 @@ Le processus de demande de catégorie permet aux fournisseurs de demander que de
 
 Les demandes de catégorie sont initiées par les fournisseurs dans l'espace de travail **Informations fournisseur**. Elles sont ensuite soumises à votre agence pour examen et approbation. Les catégories approuvées sont ajoutées à la liste des catégories d'approvisionnement pour le compte du fournisseur.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Activer ou désactiver la fonction de demandes de catégorie des fournisseurs
 
-Si votre système n'inclut pas déjà la fonctionnalité décrite dans cette rubrique, accédez à la [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Permettre aux fournisseurs de demander des catégories d'approvisionnement via la la fonctionnalité de collaboration fournisseur*.
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Autoriser les fournisseurs à postuler pour les catégories d’approvisionnement grâce à la collaboration des fournisseurs* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Une fois la fonction activée, vous pouvez toujours ajouter manuellement des catégories d'approvisionnement aux comptes fournisseurs. Pour plus d'informations, consultez [Approuver les fournisseurs pour des catégories d’approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
+Si cette fonctionnalité est activée, vous pouvez toujours ajouter manuellement des catégories d’approvisionnement aux comptes fournisseurs. Pour plus d'informations, consultez [Approuver les fournisseurs pour des catégories d’approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Configuration requise pour la fonctionnalité de collaboration fournisseur
 

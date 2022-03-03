@@ -2,7 +2,7 @@
 title: Activer l’intégration de Dynamics 365 Commerce et Microsoft Teams
 description: Cette rubrique décrit comment activer l’intégration de Microsoft Dynamics 365 Commerce et Microsoft Teams.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775336"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323428"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Activer l’intégration de Dynamics 365 Commerce et Microsoft Teams
 
@@ -38,15 +38,23 @@ Avant de pouvoir activer l’intégration de Microsoft Teams avec Commerce, vous
 Pour inscrire l’application Teams auprès de votre locataire dans le portail Azure, procédez comme suit.
 
 1. Suivez les étapes de [Démarrage rapide : inscrire une application sur la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app) pour inscrire l’application Teams auprès de votre locataire dans le portail Azure.
-1. Copiez la valeur de l’**ID d’application (client)** de la page **Présentation** pour l’application inscrite. Vous utiliserez cette valeur pour activer l’intégration de Teams dans Commerce Headquarters.
-1. Copiez la valeur du certificat qui a été entrée lorsque vous avez [ajouté un certificat](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) à l’étape 1. Le certificat est également appelé clé publique ou clé d’application. Vous utiliserez cette valeur pour activer l’intégration de Teams dans Commerce Headquarters.
+1. Dans l’onglet **Inscription à l’application**, sélectionnez l’application que vous avez créée à l’étape précédente. Ensuite, dans l’onglet **Authentification**, sélectionnez **Ajouter une plateforme**.
+1. Dans la boîte de dialogue, sélectionnez **Web**. Puis, dans le champ **URL de redirection**, saisissez une URL au format **\<HQUrl\>/oauth**. Remplacez **\<HQUrl\>** avec votre URL de Commerce Headquarters (par exemple, `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. Sur la page **Présentation** de l’application inscrite, copiez la valeur de l’**ID d’application (client)**. Vous devrez fournir cette valeur pour activer l’intégration de Teams dans Commerce Headquarters dans la section suivante.
+1. Suivez les instructions dans [Ajouter un secret client](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) pour ajouter un secret client. Copiez ensuite la **Valeur secrète** pour le client. Vous devrez fournir cette valeur pour activer l’intégration de Teams dans Commerce Headquarters dans la section suivante.
+1. Sélectionnez **Autorisations API**, puis sélectionnez **Ajouter une autorisation**.
+1. Dans la boîte de dialogue **Demander des autorisations d’API**, sélectionnez **Microsoft Graph**, sélectionnez **Autorisations déléguées**, développez **Groupe**, sélectionnez **Group.ReadWrite.All**, puis sélectionnez **Ajouter des autorisations**.
+1. Dans la boîte de dialogue **Demander des autorisations d’API**, sélectionnez **Ajouter une autorisation**, sélectionnez **Microsoft Graph**, sélectionnez **Autorisations d’application**, développez **Groupe**, sélectionnez **Group.ReadWrite.All**, puis sélectionnez **Ajouter des autorisations**.
+1. Dans la boîte de dialogue **Demander des autorisations d’API**, sélectionnez **Ajouter une autorisation**. Dans l’onglet **API utilisées par mon organisation**, recherchez **Service de vente au détail Microsoft Teams** et sélectionnez-le.
+1. Sélectionnez **Autorisations déléguées**, développez **TaskPublishing**, sélectionnez **TaskPublising.ReadWrite.All**, puis sélectionnez **Ajouter des autorisations**. Pour plus d’informations, voir [Configurer une application cliente pour accéder à une API Web](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Pour activer l’intégration de Teams dans Commerce Headquarters, procédez comme suit.
 
 1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Configuration de l’intégration de Microsoft Teams**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
 1. Définissez l’option **Activer l’intégration de Microsoft Teams** sur **Oui**.
-1. Dans les champs **ID d’application** et **Clé d’application**, entrez les valeurs que vous avez obtenues lors de l’inscription de l’application Teams dans le portail Azure.
+1. Dans le champ **ID d’application**, entrez la valeur **ID d’application (client)** que vous avez obtenue lors de l’inscription de l’application Teams dans le portail Azure.
+1. Dans le champ **Clé d’application**, entrez la valeur **Valeur secrète** que vous avez obtenue lors de l’ajout d’une clé secrète client dans le portail Azure.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 L’illustration suivante montre un exemple de la configuration de l’intégration Teams dans Commerce Headquarters.

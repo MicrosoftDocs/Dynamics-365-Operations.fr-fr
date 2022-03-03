@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867292"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323873"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Créer une configuration de gestion des états électroniques pour générer des états au format Word
 
@@ -28,7 +28,7 @@ Pour générer des états comme documents Microsoft Word, vous devez concevoir u
 
 ![Exemple de modèle pour le rapport de contrôle dans l’application de bureau Word.](./media/er-design-configuration-word-image1.png)
 
-Pour utiliser un document Word comme modèle d’états au format Word, vous pouvez configurer une nouvelle [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md). Cette solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de gestion des états électroniques qui contient un composant de [format](general-electronic-reporting.md#FormatComponentOutbound) de gestion des états électroniques.
+Pour utiliser un document Word comme modèle d’états au format Word, vous pouvez configurer une nouvelle [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md). Cette solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de gestion des états électroniques qui contient un composant de format de gestion des états électroniques.
 
 > [!NOTE]
 > Lorsque vous créez une configuration de format de gestion des états électroniques pour générer des états au format Word, vous devez soit sélectionner **Word** comme le type de format dans la boîte de dialogue déroulante **Créer une configuration**, soit laisser le champ **Type de format** vide.

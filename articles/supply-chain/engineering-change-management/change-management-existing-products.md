@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571975"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103611"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Activer la gestion des changements sur les produits existants
 
@@ -27,12 +27,9 @@ Cette rubrique explique comment activer la gestion des modifications pour les pr
 
 Lorsque vous activez la gestion des modifications pour un produit existant, vous pouvez créer des versions de ce produit et suivre les modifications qui lui sont apportées tout au long de sa vie. Par conséquent, vous pouvez suivre ces modifications à l’aide des demandes de modification. Pour activer la gestion des modifications, vous devez convertir les produits concernés en *articles d’ingénierie* (également appelés produits d’ingénierie). Les produits d’ingénierie sont des produits versionnés et gérés via la gestion des changements. Un assistant est fourni pour vous guider tout au long du processus de conversion.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
+## <a name="turn-this-feature-on-or-off"></a>Activer ou désactiver cette fonctionnalité
 
-Pour utiliser cette capacité, procédez comme suit :
-
-1. Activez la fonctionnalité Gestion des modifications d’ingénierie et sa clé de configuration comme décrit dans [Gestion du changement d’ingénierie](product-engineering-overview.md).
-1. Activez la fonctionnalité *Activer la gestion des modifications sur les produits existants* dans la gestion des fonctionnalités. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La fonctionnalité décrite dans cette rubrique nécessite que les deux fonctionnalités *Gestion des modifications techniques* et *Activer la gestion des changements sur les produits existants* soient activées pour votre système. Pour plus d’informations sur l’activation ou la désactivation de ces fonctionnalités, reportez-vous à [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restrictions et limitations
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758262"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323663"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Types de données composites pris en charge pour les formules des États électroniques
 
@@ -27,7 +27,7 @@ Cette rubrique fournit des informations sur les types de données composites pri
 
 Le type de données *classe* fait référence à une classe d’application publique. Dans la génération d’états électroniques, il est représenté comme un [*enregistrement*](#record) contenant un champ séparé pour chaque méthode publique de la classe référencée. Lorsque l’appel de la méthode est paramétré, vous devez également spécifier les arguments requis des types appropriés dans une expression ER configurée pour appeler la méthode.
 
-Dans les composants ER [mappage](general-electronic-reporting.md#data-model-and-model-mapping-components) et [format](general-electronic-reporting.md#FormatComponentOutbound), vous pouvez ajouter la source de données **Classe** qui est présentée comme une source de données et qui renvoie une valeur du type *classe*. Cette source de données expose les méthodes publiques de la classe qui peuvent être appelées au moment de l’exécution.
+Dans les composants ER mappage et format, vous pouvez ajouter la source de données **Classe** qui est présentée comme une source de données et qui renvoie une valeur du type *classe*. Cette source de données expose les méthodes publiques de la classe qui peuvent être appelées au moment de l’exécution.
 
 > [!NOTE]
 > Seules les méthodes qui renvoient une valeur peuvent être appelées à partir d’expressions ER.

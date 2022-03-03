@@ -2,25 +2,25 @@
 title: Dates de facture fournisseur
 description: Cette rubrique décrit les dates qui apparaissent sur les factures des fournisseurs. Il explique également comment configurer le système pour qu'il ajuste automatiquement la date comptable.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647888"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105461"
 ---
 # <a name="vendor-invoice-dates"></a>Dates de facture fournisseur
 
@@ -50,6 +50,9 @@ Suivez ces étapes pour permettre au système d'ajuster automatiquement la date 
     - **Toujours remplacer la date comptable par la date système** – Le système remplace automatiquement la date comptable par la date système lors de la comptabilisation.
     - **Changer la date comptable en date système lorsque la période de date comptable est fermée ou en attente** – Le système remplace la date comptable par la date système lors de la comptabilisation, mais uniquement si la période correspondante de la date comptable a le statut **Fermé** ou **En attente**.
     - **Remplacer la date comptable par le premier jour de la nouvelle période lorsque la période comptable est clôturée ou en attente** – Le système modifie la date comptable au premier jour de la nouvelle période ouverte, mais uniquement si la période correspondante de la date comptable a le statut **Fermé** ou **En attente**.
+
+> [!NOTE]
+> Si la nouvelle date comptable qui a été ajustée automatiquement se situe dans un nouvel exercice comptable, la date comptable de la facture ne sera pas mise à jour. L’utilisateur recevra une erreur "L’année fiscale a changé. Veuillez vérifier et ressaisir la date de publication. » La date de comptabilisation de la facture doit être mise à jour avec la nouvelle date de l’exercice comptable pour pouvoir la comptabiliser.
 
 ## <a name="impact-of-posting-date-changes"></a>Impact des changements de date comptable
 

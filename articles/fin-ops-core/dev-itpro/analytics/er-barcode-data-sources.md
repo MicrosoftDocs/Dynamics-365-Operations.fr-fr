@@ -2,11 +2,9 @@
 title: Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 description: Cette rubrique explique comment utiliser des sources de données de codes-barres pour générer des images de codes-barres.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681422"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323950"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 
 [!include[banner](../includes/banner.md)]
 
-Vous pouvez utiliser la structure [États électroniques (ER)](general-electronic-reporting.md) pour concevoir des [composants au format ER](general-electronic-reporting.md#FormatComponentOutbound) que vous pouvez exécuter pour générer les documents sortants électroniques et imprimables dont vous avez besoin. Pour générer un document sortant au format Microsoft Office, vous devez spécifier la présentation de l’état en utilisant soit un document Microsoft Excel ou un document Microsoft Word en tant que modèle d’état. Le [Concepteur d’opérations de gestion des états électroniques](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) vous permet de joindre un document Excel ou Word en tant que modèle pour un format ER. Les éléments nommés suivants dans le modèle joint sont associés aux éléments du composant de format configuré :
+Vous pouvez utiliser la structure [États électroniques (ER)](general-electronic-reporting.md) pour concevoir des composants au format ER que vous pouvez exécuter pour générer les documents sortants électroniques et imprimables dont vous avez besoin. Pour générer un document sortant au format Microsoft Office, vous devez spécifier la présentation de l’état en utilisant soit un document Microsoft Excel ou un document Microsoft Word en tant que modèle d’état. Le [Concepteur d’opérations de gestion des états électroniques](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) vous permet de joindre un document Excel ou Word en tant que modèle pour un format ER. Les éléments nommés suivants dans le modèle joint sont associés aux éléments du composant de format configuré :
 
 - Contrôles de contenu dans Word
 - Feuilles, plages, cellules, formes et images nommées dans Excel
@@ -39,7 +37,7 @@ ER prend désormais en charge le type de source de données **Code-barres**. Par
 
 Les espaces réservés suivants peuvent être utilisés dans les modèles d’état pour entrer des images de code-barres :
 
-- [Image](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) contrôle de contenu pour Word
+- [Image](/office/client-developer/word/content-controls-in-word) contrôle de contenu pour Word
 - [Image](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) objet dans Excel
 
 En utilisant une source de données du type **Code-barres**, vous pouvez générer des codes-barres dans les formats suivants :
@@ -68,11 +66,11 @@ En utilisant une source de données du type **Code-barres**, vous pouvez génér
 
 Lorsque vous configurez une source de données **Code-barres**, vous pouvez définir des paramètres de rendu spécifiques qui sont utilisés pour générer une image :
 
-- **Largeur** - Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
-- **Hauteur** - Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
-- **Marge** - Spécifiez la taille de la marge du code-barres en pixels. La marge est la zone de chaque côté d’un code-barres qui doit être dégagée (zone silencieuse). Une valeur de **0** (zéro) indique que la marge par défaut est utilisée. La signification peut varier pour différents formats.
-- **Contenu de sortie** - Paramétrez la valeur sur **Oui** pour générer une image de code-barres qui contient les informations codées sous forme de texte. La valeur par défaut est **Non**.
-- **Codage** - Spécifiez le type de caractères qui sont encodés dans l’image de code-barres générée. Par défaut, l’encodage **UTF-8** est utilisé.
+- **Largeur** – Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
+- **Hauteur** – Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
+- **Marge** – Spécifiez la taille de la marge du code-barres en pixels. La marge est la zone de chaque côté d’un code-barres qui doit être dégagée (zone silencieuse). Une valeur de **0** (zéro) indique que la marge par défaut est utilisée. La signification peut varier pour différents formats.
+- **Contenu de sortie** – Paramétrez la valeur sur **Oui** pour générer une image de code-barres qui contient les informations codées sous forme de texte. La valeur par défaut est **Non**.
+- **Codage** – Spécifiez le type de caractères qui sont encodés dans l’image de code-barres générée. Par défaut, l’encodage **UTF-8** est utilisé.
 
 > [!IMPORTANT]
 > Lorsque vous ajoutez une nouvelle source de données **Code-barres**, vous devez la placer sous un autre élément (conteneur) en tant qu’élément imbriqué.
@@ -118,21 +116,21 @@ Si vous n’avez pas encore terminé l’exemple dans la rubrique [Intégrer des
 
 | Description du contenu         | Nom de fichier                   |
 |-----------------------------|-----------------------------|
-| Configuration de modèle de données ER | Modèle pour les chèques.xml       |
-| Configuration de format ER     | Format d’impression des chèques.xml |
+| Configuration de modèle de données ER | [Modèle pour les chèques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Configuration de format ER     | [Format d’impression des chèques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 En outre, téléchargez le fichier Excel suivant qui contient le modèle modifié pour la solution ER fournie.
 
 | Description du contenu | Nom de fichier                 |
 |---------------------|---------------------------|
-| Modèle d’état     | Modèle de chèque Excel.xlsx |
+| Modèle d’état     | [Modèle de chèque Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Activer un fournisseur de configuration
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l’exemple de société **Litware, Inc.** est répertorié, et qu’il est marqué comme actif. S’il n’est pas répertorié ou s’il n’est pas marqué comme actif, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Rendre l’exemple de société actif sur la page Configurations de localisation](./media/er-barcode-data-source-active-provider.png)
+![Rendre l’exemple de société actif sur la page Configurations de localisation.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importer la solution ER fournie
 
@@ -162,14 +160,14 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 7. Dans le volet Actions, sélectionnez **Test d’impression**.
 8. Dans la boîte de dialogue, définissez l’option **Format de chèque négociable** sur **Oui**, puis sélectionnez **OK**.
 
-    ![Boîte de dialogue Mise en page des chèques - Test d’impression](./media/er-barcode-data-source-check-layout.png)
+    ![Boîte de dialogue Mise en page des chèques – Test d’impression.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Examiner le chèque de paiement généré.
 
 - Ouvrez le chèque généré dans Excel.
 2. Examinez le chèque généré.
 
-    ![Chèque de paiement généré dans Excel](./media/er-barcode-data-source-cheque1.png)
+    ![Chèque de paiement généré dans Excel.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Modifier le format de la solution ER fournie
 
@@ -177,7 +175,7 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 
 Vous pouvez utiliser l’application de bureau Excel pour ouvrir le fichier **Modèle de chèque Excel.xlsx** que vous avez importé précédemment. Notez que ce modèle diffère du modèle que vous avez utilisé pour générer un chèque de paiement dans la solution ER fournie. En outre, il comprend un élément **AmountBarcode** pour l’image de code-barres.
 
-![Élément AmountBarcode dans le modèle Excel](./media/er-barcode-data-source-cheque2.png)
+![Élément AmountBarcode dans le modèle Excel.](./media/er-barcode-data-source-cheque2.png)
 
 Vous devez maintenant modifier la solution ER puis [réappliquer](modify-electronic-reporting-format-reapply-excel-template.md) le modèle modifié.
 
@@ -188,7 +186,7 @@ Vous devez maintenant modifier la solution ER puis [réappliquer](modify-electro
 5. Dans le Concepteur d’opérations de gestion des états électroniques, sélectionnez l’onglet **Mise en correspondance** sur le côté droit de la page, puis, dans le volet d’arborescence des formats à gauche, sélectionnez **Développer/Réduire**.
 6. Notez que tous les éléments de format de cellule sont liés aux sources de données appropriées.
 
-    ![Liaison d’éléments de format de cellule à des sources de données dans le Concepteur d’opérations de gestion des états électroniques](./media/er-barcode-data-source-cells-bound.png)
+    ![Liaison d’éléments de format de cellule à des sources de données dans le Concepteur d’opérations de gestion des états électroniques.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Sélectionnez l’onglet **Format** sur le côté droit de la page.
 8. Dans le volet Actions, sélectionnez les points de suspension (**...**), puis sélectionnez **Importer**.
@@ -197,7 +195,7 @@ Vous devez maintenant modifier la solution ER puis [réappliquer](modify-electro
 11. Sélectionnez l’onglet **Mise en correspondance** sur le côté droit de la page, puis, dans le volet d’arborescence des formats à gauche, sélectionnez **Développer/Réduire**.
 12. Notez que l’élément de cellule **AmountBarcode** a été ajouté au format. Cet élément est associé à l’élément **AmountBarcode** qui a été ajouté au modèle Excel modifié en tant qu’espace réservé pour une image de code-barres.
 
-    ![Élément de cellule AmountBarcode ajouté au format dans le Concepteur d’opérations de gestion des états électroniques](./media/er-barcode-data-source-cell-added.png)
+    ![Élément de cellule AmountBarcode ajouté au format dans le Concepteur d’opérations de gestion des états électroniques.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Ajouter une nouvelle source de données de code-barres.
 
@@ -206,14 +204,14 @@ Ensuite, vous devez ajouter une nouvelle source de données du type **Code-barre
 1. Dans le Concepteur d’opérations de gestion des états électroniques, dans l’onglet **Mise en correspondance** sur le côté droit de la page, sélectionnez la source de données **Imprimer**.
 2. Sélectionnez **Ajouter**, puis dans le groupe **Fonctions**, sélectionnez le type de source de données **Code-barres**.
 
-    ![Sélection du type de source de données Code-barres](./media/er-barcode-data-source-add.png)
+    ![Sélection du type de source de données Code-barres.](./media/er-barcode-data-source-add.png)
 
 3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, entrez **Code-barres**.
 4. Dans le champ **Format de code-barres**, sélectionnez **Code 128**.
 5. Dans le champ **Largeur**, entrez **500**.
 6. Cliquez sur **OK**.
 
-    ![Boîte de dialogue Propriétés de la source de données](./media/er-barcode-data-source-add2.png)
+    ![Boîte de dialogue Propriétés de la source de données.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Lier un nouvel élément de format
 
@@ -224,7 +222,7 @@ Ensuite, vous devez lier le nouvel élément de format à la source de données 
 3. Dans le volet Actions, sélectionnez **Afficher les détails**.
 4. Notez que, parce que la source de données **Code-barres** est représentée dans la liaison comme une fonction qui contient un seul paramètre, le nom de l’élément de format lié a été automatiquement pris comme argument de ce paramètre.
 
-    ![Détails de la source de données Code-barres dans le Concepteur d’opérations de gestion des états électroniques](./media/er-barcode-data-source-bind1.png)
+    ![Détails de la source de données Code-barres dans le Concepteur d’opérations de gestion des états électroniques.](./media/er-barcode-data-source-bind1.png)
 
 5. Sélectionnez **Modifier la formule** pour ajuster la liaison.
 
@@ -234,7 +232,7 @@ Ensuite, vous devez lier le nouvel élément de format à la source de données 
 7. Sélectionnez **Enregistrer**, puis fermez le [Concepteur de formule ER](general-electronic-reporting-formula-designer.md).
 8. Notez que la liaison a été ajustée.
 
-    ![Ajustement de liaison dans le Concepteur d’opérations de gestion des états électroniques](./media/er-barcode-data-source-bind2.png)
+    ![Ajustement de liaison dans le Concepteur d’opérations de gestion des états électroniques.](./media/er-barcode-data-source-bind2.png)
 
 9. Sélectionnez **Enregistrer**, puis fermez le Concepteur d’opérations de gestion des états électroniques.
 
@@ -279,7 +277,7 @@ La version provisoire du format sélectionné est marquée comme disponible pour
 6. Cliquez sur **OK**.
 7. Examinez le chèque généré. Notez qu’un code-barres a été généré pour coder le montant payable du chèque.
 
-    ![Chèque de paiement généré avec code-barres dans Excel](./media/er-barcode-data-source-cheque3.png)
+    ![Chèque de paiement généré avec code-barres dans Excel.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Une exception est levée si l’argument d’une source de données **Code-barres** n’est pas conforme aux exigences appropriées spécifiques au format de code-barres. Par exemple, lorsque la source de données **Code-barres** est appelée pour générer un code-barres [EAN-8](https://wikipedia.org/wiki/EAN-8) pour le texte fourni, une exception est levée si la longueur du texte dépasse sept caractères.
@@ -290,7 +288,7 @@ Comme décrit dans la rubrique [Générer des formulaires FTI imprimables](er-ge
 
 Cependant, lorsque vous utilisez la source de données **Code-barres** pour produire des codes-barres, le rendu de ces codes-barres ne dépend d’aucune police. Par conséquent, vous pouvez facilement convertir les documents contenant les codes-barres au format PDF. L’illustration suivante montre l’aperçu d’un chèque de paiement généré qui a été [converti](electronic-reporting-destinations.md#OutputConversionToPDF) en PDF, basé sur le paramètre de l’ER configuré [destination](electronic-reporting-destinations.md).
 
-![Aperçu du PDF d’un chèque de paiement](./media/er-barcode-data-source-cheque4.png)
+![Aperçu du PDF d’un chèque de paiement.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Limitations
 
@@ -303,3 +301,6 @@ Cependant, lorsque vous utilisez la source de données **Code-barres** pour prod
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Langage de formule dans la gestion des états électroniques](er-formula-language.md)
 - [Fonction NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

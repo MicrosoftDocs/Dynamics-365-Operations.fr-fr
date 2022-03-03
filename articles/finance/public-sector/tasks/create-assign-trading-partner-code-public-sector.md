@@ -2,26 +2,24 @@
 title: Créer et affecter un code de partenaire commercial dans le secteur public
 description: Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.
 author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustGroup, CustTradingPartnerCode, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0aea4ac41774ec0568a3c9e0a141dd07066a4e7d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bb306c7f3dd1392bf33134dc04e3501d100279a7
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962466"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119452"
 ---
 # <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a>Créer et affecter un code de partenaire commercial dans le secteur public
 
@@ -31,19 +29,22 @@ Créez un code partenaire commercial et affectez le à une agence gouvernemental
 
 
 ## <a name="create-a-trading-partner-code"></a>Créer un code partenaire commercial
-1. Accédez à Comptabilité client > Paramétrage > Codes partenaire commercial.
-2. Cliquez sur Nouveau.
-3. Dans le champ Code partenaire commercial, tapez une valeur.
+1. Accédez à **Comptabilité client > Paramétrage > Codes partenaire commercial**.
+2. Cliquez sur **Nouveau**.
+3. Dans le champ **Code partenaire commercial**, tapez une valeur.
     * Les codes partenaire commercial pour les agences gouvernementales sont définis par le Département du Trésor des États-Unis.  
-4. Dans le champ Description, entrez le nom de l’agence utilisant ce code.
+4. Dans le champ **Description**, entrez le nom de l’agence utilisant ce code.
 5. Cliquez sur Enregistrer.
 
 ## <a name="assign-a-trading-partner-code"></a>Affecter un code partenaire commercial
-1. Accédez à Comptabilité client > Clients > Tous les clients.
+1. Allez dans **Comptabilité client > Clients > Tous les clients**.
 2. Dans la liste, recherchez et sélectionnez l’agence à laquelle affecter un code partenaire commercial.
-3. Cliquez pour suivre le lien dans le champ Nom.
-4. Cliquez sur Modifier.
-5. Développez la section Détails divers.
-6. Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.
-7. Cliquez sur Enregistrer.
+3. Cliquez pour suivre le lien dans le champ **Nom**.
+4. Cliquez sur **Modifier**.
+5. Développez la section **Détails divers**.
+6. Dans le champ **Code partenaire commercial**, sélectionnez le code partenaire commercial pour cette agence.
+7. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

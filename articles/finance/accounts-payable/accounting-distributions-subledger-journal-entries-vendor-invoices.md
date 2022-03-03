@@ -2,25 +2,25 @@
 title: Répartitions comptables et écritures de journal pour les factures fournisseur
 description: Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l’immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables.
 author: sunfzam
-ms.date: 08/20/2017
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: fecdafe8765121d6d54389a70e6c2e497a03611a
+ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594689"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "8325966"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal pour les factures fournisseur
 
@@ -62,7 +62,7 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 <td>Produit stocké</td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur</li>
-<li>Le champ Compte principal lorsque Dépenses d’achat pour le produit est sélectionné dans la page Validation.</li>
+<li>Le champ **Compte principal** lorsque Dépenses d’achat pour le produit est sélectionné dans la page **Validation**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
@@ -73,35 +73,35 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 <td>Catégorie d’approvisionnement, ou produit non stocké.</td>
 <td><ol>
 <li>La répartition comptable pour a ligne de commande fournisseur, si la ligne de facture fournisseur fait référence à une ligne de commande fournisseur.</li>
-<li>Le champ Compte principal lorsque Dépenses d’achat pour dépense est sélectionné dans la page Validation.</li>
+<li>Le champ **Compte principal** lorsque Dépenses d’achat pour dépense est sélectionné dans la page **Validation**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Si le compte principal est un compte de répartition, utilisez la valeur par défaut de la définition du compte de répartition.</li>
 <li>Utilisez les valeurs de dimension financière par défaut de la facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan comptable**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Immobilisations</td>
+<td>Immobilisation</td>
 <td><ol>
 <li>La répartition comptable pour a ligne de commande fournisseur, si la ligne de facture fournisseur fait référence à une ligne de commande fournisseur.</li>
-<li>Si Acquisition est sélectionné dans le champ Type de transaction de l’écran Facture fournisseur, le champ Compte principal lorsque Acquisition est sélectionné dans la page Profils de validation d’immobilisation.</li>
-<li>Si Ajustement d’acquisition est sélectionné dans le champ Type de transaction, le champ Compte principal lorsque Ajustement d’acquisition est sélectionné dans la page Profils de validation d’immobilisation.</li>
+<li>Si **Acquisition** est sélectionné dans le champ **Type de transaction** de l’écran **Facture fournisseur**, le champ **Compte principal** lorsque **Acquisition** est sélectionné dans la page **Profils de validation d’immobilisation**.</li>
+<li>Si **Ajustement d’acquisition** est sélectionné dans le champ **Type de transaction**, le champ **Compte principal** lorsque **Ajustement d’acquisition** est sélectionné dans la page **Profils de validation d’immobilisation**.</li>
 </ol></td>
 <td><ol>
 <li>Utilisez la répartition comptable pour la ligne de commande fournisseur si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan comptable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Projet défini sur la ligne de facture fournisseur.</td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur, si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
-<li>Si Solde est sélectionné dans le champ Valider les coûts – Article de la page Groupes de projets, le champ Compte principal lorsque Coût est sélectionné dans la page Paramétrage de la validation dans la comptabilité.</li>
-<li>Si Résultats est sélectionné dans le champ Valider les coûts – Article de la page Groupes de projets, le champ Compte principal lorsque Coût – Article est sélectionné dans la page Paramétrage de la validation dans la comptabilité.</li>
+<li>Si **Solde** est sélectionné dans le champ **Valider les coûts – Article** de la page **Groupes de projets**, le champ **Compte principal** lorsque **Coût** est sélectionné dans la page **Paramétrage de la validation dans la comptabilité**.</li>
+<li>Si **Résultats** est sélectionné dans le champ **Valider les coûts – Article** de la page **Groupes de projets**, le champ **Compte principal** lorsque **Coût – Article** est sélectionné dans la page **Paramétrage de la validation dans la comptabilité**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
@@ -111,18 +111,18 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 <td>Remise ligne</td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur, si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
-<li>Le champ Compte principal lorsque Remise est sélectionné dans la page Validation.</li>
+<li>Le champ **Compte principal** lorsque **Remise** est sélectionné dans la page **Validation**.</li>
 <li>Si aucun compte principal de remise n’est défini dans le profil de validation, la répartition comptable du prix global de la ligne de commande fournisseur.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Utilisez les dimensions financières des répartitions comptables pour le prix global de la ligne de facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières pour la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan de comptes**.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Frais en relation avec les achats, entrés sous l’onglet Prix et remise de la ligne de commande fournisseur</td>
+<td>Frais en relation avec les achats, entrés sous l’onglet **Prix et remise** de la ligne de commande fournisseur</td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur, si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
 <li>Répartition comptable du prix global sur la ligne de commande fournisseur.</li>
@@ -136,21 +136,21 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 <td>Frais de ligne</td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur, si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
-<li>Si Compte général est sélectionné dans le champ Type de débit de l’écran Code frais, le champ Compte à débiter de la page Code frais.</li>
-<li>Si Article est sélectionné dans le champ Type de débit de l’écran Code frais, la répartition comptable pour le prix global sur la ligne de commande fournisseur.</li>
-<li>Si Client/Fournisseur est sélectionné dans le champ Type de débit de l’écran Code frais, le champ Compte à créditer de la page Code frais.</li>
+<li>Si **Compte général** est sélectionné dans le champ **Type de débit** de la page **Code frais**, le champ **Compte à débiter** de la page **Code frais**.</li>
+<li>Si **Article** est sélectionné dans le champ **Type de débit** de l’écran **Code frais**, la répartition comptable pour le prix global sur la ligne de commande fournisseur.</li>
+<li>Si **Client/Fournisseur** est sélectionné dans le champ **Type de débit** de l’écran **Code frais**, le champ **Compte à créditer** de la page **Code frais**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Utilisez les dimensions financières des répartitions comptables pour le prix global de la ligne de facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan de comptes**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Taxe, qui remplit la condition suivante :
 <ul>
-<li>L’option Appliquer les règles de la taxe américaine est sélectionnée dans la page Paramètres de comptabilité.</li>
+<li>L’option Appliquer les règles de la taxe américaine est sélectionnée dans la page **Paramètres de comptabilité**.</li>
 </ul></td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur, si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
@@ -165,61 +165,61 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 <tr class="odd">
 <td>Taxe, qui remplit les conditions suivantes :
 <ul>
-<li>L’option Appliquer les règles de la taxe américaine est désactivée dans la page Paramètres de comptabilité.</li>
-<li>Le champ Taxe d’utilisation pour le groupe de taxe est désactivé dans la page Groupes de taxe.</li>
+<li>L’option Appliquer les règles de la taxe américaine est désactivée dans la page **Paramètres de comptabilité**.</li>
+<li>Le champ **Taxe d’utilisation** pour le groupe de taxe est désactivé dans la page **Groupes de taxe**.</li>
 </ul></td>
 <td><ol>
-<li>Si le montant de la taxe est récupérable, le champ Taxe déductible de la page Groupes de validation dans la comptabilité.</li>
+<li>Si le montant de la taxe est récupérable, le champ **Taxe déductible** de la page **Groupes de validation dans la comptabilité**.</li>
 <li>Si le montant de la taxe n’est pas récupérable, le prix global ou la répartition comptable pour les frais.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Utilisez les dimensions financières du prix global ou des répartitions comptables pour les frais de la ligne de facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan comptable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Taxe, qui remplit les conditions suivantes :
 <ul>
-<li>L’option Appliquer les règles de la taxe américaine est désactivée dans la page Paramètres de comptabilité.</li>
-<li>Le champ Taxe d’utilisation pour le groupe de taxe est sélectionné dans la page Groupes de taxe.</li>
+<li>L’option Appliquer les règles de la taxe américaine est désactivée dans la page **Paramètres de comptabilité**.</li>
+<li>Le champ **Taxe d’utilisation** pour le groupe de taxe est sélectionné dans la page **Groupes de taxe**.</li>
 </ul></td>
 <td><ol>
-<li>Si le montant de la taxe est récupérable, le champ Taxe déductible de la page Groupes de validation dans la comptabilité.</li>
-<li>Si le montant de la taxe n’est pas récupérable, le champ Dépenses de taxe d’utilisation de la page Groupes de validation dans la comptabilité.</li>
+<li>Si le montant de la taxe est récupérable, le champ **Taxe déductible** de la page **Groupes de validation dans la comptabilité**.</li>
+<li>Si le montant de la taxe n’est pas récupérable, le champ **Dépenses de taxe d’utilisation** de la page **Groupes de validation dans la comptabilité**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Utilisez les dimensions financières du prix global ou des répartitions comptables pour les frais de la ligne de facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan comptable**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Frais d’en-tête</td>
 <td><ol>
-<li>Si Compte général est sélectionné dans le champ Type de débit de l’écran Code frais, le champ Compte à débiter de la page Code frais.</li>
-<li>Si Client/Fournisseur est sélectionné dans le champ Type de débit de l’écran Code frais, le champ Compte à créditer de la page Code frais.</li>
+<li>Si **Compte général** est sélectionné dans le champ **Type de débit** de la page **Code frais**, le champ **Compte à débiter** de la page **Code frais**.</li>
+<li>Si **Client/Fournisseur** est sélectionné dans le champ **Type de débit** de l’écran **Code frais**, le champ **Compte à créditer** de la page **Code frais**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Si le compte principal est un compte de répartition, utilisez la valeur par défaut de la définition du compte de répartition.</li>
 <li>Utilisez les valeurs du modèle par défaut de dimension financière de l’en-tête de facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan comptable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Remise d’en-tête</td>
 <td><ol>
-<li>Le champ Compte principal pour le type de validation de remise sur la facture fournisseur dans la page Comptes pour transactions automatiques.</li>
+<li>Le champ **Compte principal** pour le **type de validation de remise sur la facture fournisseur** dans la page **Comptes pour transactions automatiques**.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>
 <li>Utilisez les dimensions financières des répartitions comptables pour le prix global de la ligne de facture fournisseur.</li>
 <li>Utilisez les valeurs de dimensions financières de la ligne de facture fournisseur.</li>
-<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page Plan de comptes.</li>
+<li>Utilisez les valeurs de dimension financière par défaut du compte principal dans la page **Plan comptable**.</li>
 </ol></td>
 </tr>
 </tbody>

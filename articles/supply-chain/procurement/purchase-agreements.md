@@ -1,12 +1,10 @@
 ---
 title: Contrats d’achat
 description: Cet article fournit des informations sur les contrats d’achat. Un contrat d’achat est un contrat par lequel une organisation s’engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l’acheteur a droit à des prix spéciaux et des remises.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017185"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103736"
 ---
 # <a name="purchase-agreements"></a>Contrats d’achat
 
@@ -43,10 +41,7 @@ Pour éviter que votre contrat d’achat ne soit utilisé et confirmé, marquez 
 Vous pouvez identifier un collaborateur responsable principal et un collaborateur responsable secondaire dans la classification du contrat d’achat. Ces valeurs seront héritées par le contrat d’achat résultant. Vous n’êtes pas obligé d’ajouter des collaborateurs responsables au contrat d’achat, et ils peuvent être modifiés directement au cas par cas sur le contrat d’achat lui-même. Vous ne pouvez pas spécifier de collaborateur responsable secondaire sans collaborateur responsable principal, bien que vous n’ayez pas besoin d’avoir un collaborateur responsable secondaire. Vous ne pouvez pas spécifier le même collaborateur comme collaborateur responsable principal et secondaire.
 
 > [!IMPORTANT]
-> Avant de pouvoir utiliser la fonctionnalité de la partie responsable, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-> 
-> - **Module :** *Approvisionnements*
-> - **Nom de la fonctionnalité :** *Partie responsable du contrat d’achat*
+> Pour utiliser la fonctionnalité de la partie responsable, vous devez l’activer sur votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Partie responsable du contrat d’achat* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Types d’engagements
 Chaque ligne d’un accord d’achat exprime un engagement à acheter quelque chose. Vous pouvez utiliser les lignes de plusieurs commandes fournisseur pour honorer l’engagement. Il existe quatre types d’engagements :
@@ -104,12 +99,13 @@ Si vous créez une commande fournisseur intersociétés qui utilise le contrat d
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensions financières sur les contrats d’achat
 Vous pouvez copier les dimensions financières vers des en-têtes de document ou des lignes individuelles d’un contrat d’achat. Si vous modifiez les dimensions dans l’en-tête ou la ligne de l’accord, la modification n’affecte aucune commande lancée, mais elle sera reflétée sur toutes les nouvelles commandes.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Créer un contrat d’achat](tasks/create-purchase-agreement.md)
-
-[Créer un ordre de lancement d’achat à partir d’un contrat d’achat](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Créer un contrat d’achat](tasks/create-purchase-agreement.md)
+- [Appliquer un contrat d’achat lors de la création d’une commande fournisseur](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

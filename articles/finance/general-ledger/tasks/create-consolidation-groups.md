@@ -2,26 +2,23 @@
 title: Créer des groupes de consolidation et comptes de consolidation supplémentaires
 description: Cette procédure montre comment créer un groupe de comptes de consolidation puis ajouter des comptes au groupe.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 826a65af563207fbfbc7391b176aa0e65b3363f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eaf48306607b27c70359e0d0faee4c92f4b82cac
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443247"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182602"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Créer des groupes de consolidation et comptes de consolidation supplémentaires
 
@@ -31,19 +28,21 @@ Cette procédure montre comment créer un groupe de comptes de consolidation pui
 
 
 ## <a name="create-a-consolidation-account-group"></a>Création d’un groupe de comptes de consolidation
-1. Accédez à Comptabilité > Plan de comptes > Comptes > Groupes de compte de consolidation.
-2. Cliquez sur Nouveau.
-3. Dans le champ Groupe de comptes de consolidation, entrez un identificateur unique pour le groupe de comptes de consolidation.
-4. Tapez une valeur dans le champ Nom.
+1. Accédez à **Comptabilité > Plan de comptes > Comptes > Groupes de compte de consolidation**.
+2. Cliquez sur **Nouveau**.
+3. Dans le champ **Groupe de comptes de consolidation**, entrez un identificateur unique pour le groupe de comptes de consolidation.
+4. Tapez une valeur dans le champ **Nom**.
 
 ## <a name="add-accounts-to-consolidation-account-group"></a>Ajouter des comptes au groupe de comptes de consolidation
-1. Fermez la page.
-2. Accédez à Comptabilité > Plan de comptes > Comptes > Comptes de consolidation supplémentaires.
-3. Cliquez sur Nouveau.
-4. Dans le champ Compte principal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, cliquez sur le compte principal que vous souhaitez mapper.
-6. Dans le champ Groupe de comptes de consolidation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-7. Dans la liste, cliquez sur le groupe des comptes de consolidation.
-8. Tapez une valeur dans le champ Compte de consolidation.
-9. Tapez une valeur dans le champ Nom du compte de consolidation.
+1. Accédez à Comptabilité > Plan de comptes > Comptes > Comptes de consolidation supplémentaires.
+2. Cliquez sur Nouveau.
+3. Dans le champ Compte principal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+4. Dans la liste, cliquez sur le compte principal que vous souhaitez mapper.
+5. Dans le champ Groupe de comptes de consolidation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+6. Dans la liste, cliquez sur le groupe des comptes de consolidation.
+7. Tapez une valeur dans le champ Compte de consolidation.
+8. Tapez une valeur dans le champ Nom du compte de consolidation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

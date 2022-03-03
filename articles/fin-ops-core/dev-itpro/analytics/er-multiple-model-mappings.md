@@ -2,11 +2,9 @@
 title: Gérer plusieurs mises en correspondance dérivées pour une seule racine de modèle
 description: Cette rubrique explique comment gérer plusieurs mises en correspondance dérivées configurées pour une seule racine de modèle.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
+ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826107"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324110"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gérer plusieurs mises en correspondance dérivées pour une seule racine de modèle
 
 [!include [banner](../includes/banner.md)]
 
-Un composant [modèle](general-electronic-reporting.md#data-model-and-model-mapping-components) de données de [gestion des états électroniques](general-electronic-reporting.md) est utilisé dans chaque composant au [format](general-electronic-reporting.md#FormatComponentOutbound) de gestion des états électroniques en tant que source de données pour générer les documents sortants. Pour décrire un domaine métier unique, configurez un composant de modèle de données qui a de nombreuses définitions de racine. 
+Un composant modèle de données de [gestion des états électroniques](general-electronic-reporting.md) (ER) est utilisé dans chaque composant au format de gestion des états électroniques en tant que source de données pour générer les documents sortants. Pour décrire un domaine métier unique, configurez un composant de modèle de données qui a de nombreuses définitions de racine. 
 
-Chaque définition de racine vous permet de représenter les données de ce domaine de la manière la mieux adaptée à des objectifs de gestion des états spécifiques. Pour chaque définition racine, vous pouvez configurer un composant [de mise en correspondance de modèle](general-electronic-reporting.md#data-model-and-model-mapping-components) de gestion des états électroniques comme la mise en œuvre spécifique à Microsoft Dynamics 365 Finance de votre modèle de données. De cette manière, vous décrivez comment votre modèle de données est rempli lors de l’exécution.
+Chaque définition de racine vous permet de représenter les données de ce domaine de la manière la mieux adaptée à des objectifs de gestion des états spécifiques. Pour chaque définition racine, vous pouvez configurer un composant de mise en correspondance de modèle de gestion des états électroniques comme la mise en œuvre spécifique à Microsoft Dynamics 365 Finance de votre modèle de données. De cette manière, vous décrivez comment votre modèle de données est rempli lors de l’exécution.
 
 Les composants de mise en correspondance de modèle de gestion des états électroniques peuvent résider dans les [configurations](general-electronic-reporting.md#Configuration) de modèle de données de gestion des états électroniques et configurations de mise en correspondance du modèle de gestion des états électroniques. Une seule configuration de gestion des états électroniques peut contenir de nombreux composants de mise en correspondance, chacun d’eux étant configuré pour une seule définition racine. Sinon, une seule configuration de gestion des états électroniques peut contenir un seul composant de mise en correspondance, chacun d’eux étant configuré pour une seule définition racine.
 
@@ -57,7 +55,7 @@ Pour ajouter les configurations ER standard à votre instance actuelle de Financ
 2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez la vignette **Configurations des états**.
 3. Sur la page **Configurations**, dans l’arborescence de configuration du volet gauche, développez **Modèle de facture**.
 
-    ![Passer en revue les configurations importées sur la page Configurations](./media/er-multiple-model-mappings-image1.png)
+    ![Passer en revue les configurations importées sur la page Configurations.](./media/er-multiple-model-mappings-image1.png)
 
 4. Passez en revue le format **Facture financière (Excel)**  :
 
@@ -68,7 +66,7 @@ Pour ajouter les configurations ER standard à votre instance actuelle de Financ
     
        Le format de gestion des états électroniques actuel est configuré pour utiliser la définition racine **InvoiceCustomer** de **Modèle de facture**. Lorsque ce format est exécuté et que la source de données **Modèle** est appelée, le mappage de modèle configuré pour la définition racine **InvoiceCustomer** est utilisée pour accéder aux données d’application et remplir le modèle de données.
 
-        ![Passer en revue la source de données de modèle sur la page Concepteur de format](./media/er-multiple-model-mappings-image2.png)
+        ![Passer en revue la source de données de modèle sur la page Concepteur de format.](./media/er-multiple-model-mappings-image2.png)
 
     6. Fermez la page **Concepteur de format**.
 
@@ -81,7 +79,7 @@ Pour ajouter les configurations ER standard à votre instance actuelle de Financ
         + La mise en correspondance de modèle **Facture client** est configurée pour la définition racine **InvoiceCustomer** de **Modèle de facture**. Par conséquent, lorsque le format de gestion des états électroniques **Facture financière (Excel)** est exécuté, le mappage de modèle **Facture client** de cette configuration ER peut être choisi pour accéder aux données d’application et remplir le modèle de données.
         + Le mappage de modèle **Facture projet** est configuré pour la définition racine **InvoiceProject** de **Modèle de facture**. Par conséquent, lorsque le format de gestion des états électroniques de **Facture financière (Excel)** est exécuté, la mise en correspondance du modèle **Facture projet** de cette configuration de gestion des états électroniques peut être choisie pour accéder aux données d’application et remplir le modèle de données.
 
-        ![Mappage de modèle de facture sur la page Mappage de modèle à la source de données](./media/er-multiple-model-mappings-image3.png)
+        ![Mappage de modèle de facture sur la page Mappage de modèle à la source de données.](./media/er-multiple-model-mappings-image3.png)
 
     4. Fermez la page **Mise en correspondance de modèle avec une source de données**.
     5. Sur l’organisateur **Versions**, sélectionnez **Supprimer** pour supprimer toutes les versions de cette configuration de gestion des états électroniques postérieures à la version 240.175.
@@ -92,7 +90,7 @@ Pour ajouter les configurations ER standard à votre instance actuelle de Financ
     2. Dans le volet Actions, sélectionnez **Concepteur**.
     3. Sur la page **Mise en correspondance de modèle avec une source de données**, observez que la configuration de mappage de modèle de gestion des états électroniques actuelle contient le mappage de modèle **InvoiceProject** et que ce mappage de modèle est configuré pour la définition de racine **InvoiceProject** de **Modèle de facture**. Lorsque le format de gestion des états électroniques de **Facture projet (Excel)** est exécuté, sélectionnez le mappage de modèle **InvoiceProject** de cette configuration de gestion des états électroniques pour accéder aux données d’application et remplir le modèle de données.
 
-        ![Mappage de modèle de facture projet sur la page Mappage de modèle à la source de données](./media/er-multiple-model-mappings-image4.png)
+        ![Mappage de modèle de facture de projet sur la page Mappage de modèle à la source de données.](./media/er-multiple-model-mappings-image4.png)
 
     4. Fermez la page **Mise en correspondance de modèle avec une source de données**.
     5. Sur l’organisateur **Versions**, sélectionnez **Supprimer** pour supprimer toutes les versions de cette configuration de gestion des états électroniques postérieures à la version 226.35.
@@ -117,7 +115,7 @@ Cette section explique comment [Personnaliser](er-quick-start3-customize-report.
 
 7. Dans le volet Actions, sélectionnez **Concepteur** pour examiner les mappages de modèles de cette configuration.
 
-    ![Passer en revue les mappages de modèle de facture sur la page Mappage de modèle à la source de données](./media/er-multiple-model-mappings-image5.png)
+    ![Passer en revue les mappages de modèle de facture sur la page Mappage de modèle à la source de données.](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Vous pouvez maintenant ouvrir l’un des composants de mappage de modèle pour la gestion des états électroniques de cette configuration de gestion des états électroniques dans le concepteur pour configurer votre logique personnalisée. Pour plus d’informations, consultez [Personnaliser la configuration du mappage de modèle](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -128,7 +126,7 @@ Vous avez maintenant les configurations **Mappage de modèle de facture** et **M
  
 > Il existe plus d’un mappage de modèle pour le modèle de données ’\<model name\> (\<root descriptor\>) ’ dans les configurations \<configuration names separated by commas\>. Définissez l’une des configurations par défaut.
 
-![Ouvrir le format pour modification sur la page Configurations](./media/er-multiple-model-mappings-image6.gif)
+![Ouvrir le format pour modification sur la page Configurations.](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Personnaliser la configuration de mappage de modèle de facture projet (RDP)
 
@@ -140,7 +138,7 @@ Vous avez maintenant les configurations **Mappage de modèle de facture** et **M
 6. Pour la configuration **Mappage de modèle de facture projet Litware** actuellement sélectionnée dans l’arborescence de configuration, définissez l’option **Exécuter le brouillon** sur **Oui**.
 7. Dans le volet Actions, sélectionnez **Concepteur** pour examiner les mappages de modèles de cette configuration.
 
-    ![Passer en revue les mappages de modèle de facture projet personnalisés sur la page Mappage de modèle à la source de données](./media/er-multiple-model-mappings-image7.png)
+    ![Passer en revue les mappages de modèle de facture de projet personnalisés sur la page Mappage de modèle à la source de données.](./media/er-multiple-model-mappings-image7.png)
 
 8. Fermez la page **Mise en correspondance de modèle avec une source de données**.
 
@@ -151,7 +149,7 @@ Vous avez maintenant les configurations **Mappage de modèle de facture**, **Map
 1. Sur la page **Configurations**, dans l’arborescence de configuration du volet gauche, sélectionnez **Mappage de modèle de facture Litware**.
 2. Définissez l’option **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**.
 
-    ![Définition de la mise en correspondance des modèles comme mise en correspondance des modèles par défaut sur la page Configurations](./media/er-multiple-model-mappings-image8.png)
+    ![Définition de la mise en correspondance des modèles comme mise en correspondance des modèles par défaut sur la page Configurations.](./media/er-multiple-model-mappings-image8.png)
 
     En raison de ce paramètre, la mise en correspondance des modèles **Copie facture client** est utilisée lorsque vous exécutez la **Facture financière (Excel)**, ou lorsque vous la modifiez ou la validez. La mise en correspondance des modèles **Facture client** de la configuration **Mappage de modèle de facture** est ignorée.
 
@@ -169,7 +167,7 @@ Vous avez maintenant les configurations **Mappage de modèle de facture**, **Map
 5. Sur la page **Mise en correspondance de modèle avec une source de données**, sélectionnez **Modifier** pour rendre la page modifiable, si nécessaire.
 6. Sélectionnez la mise en correspondance des modèles **Copie facture projet**, puis cochez la case **Est supprimé** correspondante.
 
-    ![Définir la mise en correspondance des modèles comme virtuellement supprimée sur la page Mise en correspondance de modèle avec une source de données](./media/er-multiple-model-mappings-image9.png)
+    ![Définir la mise en correspondance des modèles comme virtuellement supprimée sur la page Mise en correspondance de modèle avec une source de données.](./media/er-multiple-model-mappings-image9.png)
 
     En raison de ce paramètre, la configuration **Mappage de modèle de facture Litware** est traitée comme si elle n’a pas de mappage de modèles pour la définition racine **InvoiceProject**. La mise en correspondance des modèles **Copie InvoiceProject** émise par défaut. La configuration, **Mappage de modèle de facture projet Litware**, qui contient ce mappage de modèle, est marquée comme configuration par défaut. Puisqu’elle est marquée par défaut, elle a une priorité supérieure au mappage de modèle **InvoiceProject** depuis la configuration **Mappage de modèle de facture projet (RDP)**.
 
@@ -182,3 +180,6 @@ Le mappage de modèle **Copie InvoiceProject** de la configuration **Mappage de 
 - [Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays](er-country-dependent-model-mapping.md)
 - [Modifications de l’API du cadre des états électroniques](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

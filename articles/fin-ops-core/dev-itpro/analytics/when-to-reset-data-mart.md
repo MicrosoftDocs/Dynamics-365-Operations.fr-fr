@@ -2,7 +2,7 @@
 title: FAQ sur les réinitialisations du mini-data warehouse
 description: Cette rubrique fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767753"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119510"
 ---
 # <a name="data-mart-resets-faq"></a>FAQ sur les réinitialisations du mini-data warehouse
 
@@ -35,8 +35,9 @@ Pour garantir que de anciennes données ne sont pas insérées, une réinitialis
 
 Si une ou plusieurs des affirmations suivantes s’appliquent à votre situation, votre organisation peut bénéficier d’une réinitialisation du mini-data warehouse :
 
-- La base de données de l’application a été restaurée.
-- Vous avez ouvert un ticket de support et un ingénieur du support vous a demandé de réinitialiser le mini-data warehouse dans le cadre d’une étape de résolution des problèmes.
+- **La base de données de l’application a été restaurée**
+- **Vous avez ouvert un ticket de support** - Un ingénieur du support vous a demandé de réinitialiser le mini-data warehouse dans le cadre d’une étape de résolution des problèmes.
+- **Grand pourcentage d’enregistrements périmés** - Lréinitialiseres enregistrements périmés ne justifient pas nécessairement une réinitialisation du mini-data warehouse. Des pourcentages élevés de données obsolètes peuvent dégrader les performances globales de génération et d’intégration de rapports et entraîner une utilisation supplémentaire de l’espace de la base de données. Nous vous recommandons d’effectuer une réinitialisation du magasin de données pour supprimer les données périmées lorsqu’il y a plus de 80 % de données périmées dans le magasin de données.
  
 > [!NOTE]
 > Le processus de réinitialisation d’un mini-data warehouse est affecté par le nombre de transactions de comptabilité et de budget dans votre base de données. Selon le nombre de transactions dans votre système, une réinitialisation du mini-data warehouse peut être effectuée en à peine 15 minutes, ou elle peut prendre jusqu’à quatre heures. Cependant, si votre réinitialisation prend plus de quatre heures, nous vous recommandons de contacter le support.
@@ -45,13 +46,12 @@ Si une ou plusieurs des affirmations suivantes s’appliquent à votre situation
 
 Voici certaines des circonstances dans lesquelles il est déconseillé de réinitialiser un mini-data warehouse :
 
-- Vous rencontrez des problèmes de performances associés à une synchronisation des données.
+- Vous rencontrez des problèmes de performances d’intégration de données.
 - Vous rencontrez un schéma de réinitialisation récurrent pour l’une des raisons suivantes :
 
-    - **Données manquantes** : si vous remarquez que des données sont manquantes, ouvrez un ticket de support auprès de Microsoft pour examiner le format de l’état et les éventuels problèmes de synchronisation des données.
+    - **Données manquantes ou inattendues dans le rapport** - Si vous remarquez que des données sont manquantes, ouvrez un ticket de support auprès de Microsoft pour examiner le format de l’état et les éventuels problèmes de synchronisation des données.
     - **État d’intégration bloqué**
-    - **Enregistrements périmés** : les enregistrements périmés ne justifient pas nécessairement une réinitialisation du mini-data warehouse. Si vous disposez d’un ensemble de données volumineux, le processus de réinitialisation mettra du temps à s’exécuter, mais il est peu probable qu’il conduise à une amélioration.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Si je réinitialise le mini-data warehouse, vais-je perdre les états que j’ai déjà conçus ?
 
 Non. Vos états sont stockés dans des tables SQL qui ne sont pas affectées par une réinitialisation du mini-data warehouse. Si vous craignez de perdre des états que vous avez conçus, vous pouvez sauvegarder les conceptions que vous ne voulez pas perdre. Pour sauvegarder les conceptions, ouvrez Report Designer et accédez à **Entreprise \> Entreprises \> Blocs élémentaires \> Exporter**.

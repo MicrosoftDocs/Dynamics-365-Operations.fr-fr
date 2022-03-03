@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413594"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323899"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Utiliser les sources de données COLLECTION DE DONNÉES dans des formats de gestion d’états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser le concepteur des opérations du cadre [États électroniques (ER)](general-electronic-reporting.md) pour configurer le composant de [format](general-electronic-reporting.md#FormatComponentOutbound) d’une solution ER utilisée pour générer des documents sortants dans différents formats. La structure hiérarchique du composant de format configuré se compose d’éléments de format de différents types. Ces éléments de format sont utilisés pour remplir les documents générés avec les informations requises lors de l’exécution. Par défaut, lorsque vous exécutez un format ER, les éléments de format sont exécutés dans le même ordre qu’ils sont présentés dans la hiérarchie des formats : un par un, de haut en bas.
+Vous pouvez utiliser le concepteur des opérations du cadre [États électroniques (ER)](general-electronic-reporting.md) pour configurer le composant de format d’une solution ER utilisée pour générer des documents sortants dans différents formats. La structure hiérarchique du composant de format configuré se compose d’éléments de format de différents types. Ces éléments de format sont utilisés pour remplir les documents générés avec les informations requises lors de l’exécution. Par défaut, lorsque vous exécutez un format ER, les éléments de format sont exécutés dans le même ordre qu’ils sont présentés dans la hiérarchie des formats : un par un, de haut en bas.
 
-Lorsque la gestion des états électroniques exécute un élément de format qui contient une liaison, la formule de cette liaison est exécutée et l’élément de format ajoute la valeur à un document généré. Par exemple, la liaison peut passer la valeur d’un champ [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) à un élément de format. Vous pouvez configurer une source de données COLLECTION DE DONNÉES pour collecter les valeurs des champs du modèle de données au moment de l’exécution, effectuer l’addition des valeurs et remplir un document généré avec les valeurs collectées. Pour utiliser cette approche, modifiez la liaison initiale afin que la source de données COLLECTION DE DONNÉES configurée soit utilisée pour transmettre la valeur d’un champ de modèle de données à un élément de format. En transmettant des valeurs via la source de données COLLECTION DE DONNÉES, vous pouvez recueillir les détails requis pour une utilisation ultérieure.
+Lorsque la gestion des états électroniques exécute un élément de format qui contient une liaison, la formule de cette liaison est exécutée et l’élément de format ajoute la valeur à un document généré. Par exemple, la liaison peut passer la valeur d’un champ modèle de données à un élément de format. Vous pouvez configurer une source de données COLLECTION DE DONNÉES pour collecter les valeurs des champs du modèle de données au moment de l’exécution, effectuer l’addition des valeurs et remplir un document généré avec les valeurs collectées. Pour utiliser cette approche, modifiez la liaison initiale afin que la source de données COLLECTION DE DONNÉES configurée soit utilisée pour transmettre la valeur d’un champ de modèle de données à un élément de format. En transmettant des valeurs via la source de données COLLECTION DE DONNÉES, vous pouvez recueillir les détails requis pour une utilisation ultérieure.
 
 Lorsque vous configurez une source de données COLLECTION DE DONNÉES, spécifiez un type de valeur qui sera géré dans la source de données. Les [types de données](er-formula-supported-data-types-primitive.md) sont actuellement pris en charge pour la collecte de valeurs :
 

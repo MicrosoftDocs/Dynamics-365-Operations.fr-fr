@@ -1,26 +1,23 @@
 ---
 title: Paramétrage de la gestion du crédit
 description: Cette rubrique décrit les options que vous pouvez utiliser pour configurer la gestion des crédits pour répondre aux besoins de votre entreprise.
-author: mikefalkner
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443137"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323408"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
@@ -34,7 +31,7 @@ Dans la section **Crédit**, quatre raccourcis vous permettent de modifier les 
 
 ### <a name="credit-holds"></a>Suspensions de crédit
 
-- Paramétrez l’option **Autoriser la modification de la valeur des commandes client une fois le blocage de la commande levé** sur **Non** pour exiger que les règles de validation soient à nouveau vérifiées si la valeur de la commande client (prix étendu) a été augmentée depuis que la commande client a été libérée de la liste d’attente. .
+- Paramétrez l’option **Autoriser la modification de la valeur des commandes client une fois le blocage de la commande levé** sur **Non** pour exiger que les règles de validation soient à nouveau vérifiées si la valeur de la commande client (prix étendu) a été augmentée depuis que la commande client a été libérée de la liste d’attente.
 - Dans le champ **Motifs des commandes annulées**, sélectionnez le motif de libération qui sera utilisé par défaut lorsqu’une commande client qui était en attente de gestion des crédits est annulée.
 - Paramétrez l’option **Vérifier la limite de crédit des groupes de crédits client** sur **Oui** pour vérifier la limite de crédit d’un groupe de crédits client lorsque le client d’une commande client appartient à un groupe de crédits client. La limite de crédit pour le groupe sera vérifiée, puis, si elle est suffisante, la limite de crédit pour le client sera vérifiée.
 - Paramétrez l’option **Vérifier la limite de crédit lorsque les conditions de paiement sont augmentées** sur **Oui** pour vérifier le classement des modalités de paiement afin de déterminer si les modalités de paiement de la commande client diffèrent des modalités de paiement par défaut du client. Si les nouvelles modalités de paiement ont un rang supérieur aux modalités de paiement d’origine, la commande est mise en attente pour la gestion du crédit.
@@ -53,7 +50,8 @@ Vous pouvez également définir le nombre de jours de grâce avant de vérifier 
 
 Si vous ne spécifiez pas le nombre de jours de grâce, les règles de crédit seront vérifiées à chaque étape de validation configurée pour exécuter les règles de gestion des crédits. Si vous validez la commande client sans validation, puis exécutez à nouveau la même étape de traitement des commandes, les règles de crédit seront à nouveau vérifiées. Par exemple, une commande est mise en attente après une confirmation et vous la validez avec ou sans validation. Dans ce cas, la commande sera à nouveau suspendue si vous la confirmez à nouveau. Utilisez les jours de grâce si la commande doit passer à l’étape de traitement suivante sans être à nouveau suspendue.
 
-Vous ne pouvez pas spécifier de jours de grâce pour certains points de contrôle de validation, mais pas pour d’autres. Vous devez configurer tous les points de contrôle de validation afin qu’ils aient des jours de grâce, ou vous devez les configurer tous afin qu’ils n’aient pas de jours de grâce.
+> [!Note]
+> Si un point de contrôle de publication a un jour de grâce entré, tous les points de contrôle qui sont marqués pour publication doivent avoir des jours de grâce.
 
 - Cochez la case **Validation** pour exécuter les règles de gestion du crédit lorsque le point de contrôle de validation affiché sur la ligne est exécuté. Si vous ne cochez pas la case, les règles ne seront vérifiées qu’une seule fois pendant tout le processus de validation.
 - Si vous cochez la case **Validation**, spécifiez le nombre de jours de grâce qui doivent s’écouler avant que les règles de blocage soient à nouveau vérifiées. Vous ne pouvez pas ajouter de jours de grâce si la case **Validation** n’est pas cochée.
@@ -75,7 +73,14 @@ Plusieurs statistiques de gestion du crédit sont incluses dans le récapitulati
 
 - Dans la gestion des crédits, la limite de crédit client est affichée dans la devise du client. Vous devez définir le type de taux de change pour la limite de crédit dans la devise du client. Dans le champ **Type de taux de change limite de crédit**, sélectionnez le type de taux de change à utiliser pour convertir la limite de crédit principale en limite de crédit du client.
 - Paramétrez l’option **Autoriser la modification manuelle des limites de crédit** sur **Non** pour empêcher les utilisateurs de modifier les limites de crédit sur la page **Client**. Si cette option est définie sur **Non**, les modifications de la limite de crédit d’un client ne peuvent être effectuées qu’en enregistrant des transactions d’ajustement de limite de crédit.
+- Met l’option **Contourner les réservations de stock** sur **Oui** pour ignorer les réservations de stock à la vérification des règles de blocage de la gestion des crédits. Dans ce cas, le système vérifie les quantités de ligne complètes et active les périodes de grâce des points de contrôle, quelle que soit la quantité de réservation de stock.
+- Lorsque la gestion des crédits est activée, le réglage du champ **Message en cas de dépassement de limite de crédit** est utilisé pour traiter uniquement les factures financières. Bien que des messages soient toujours ajoutés aux commandes client lorsque les clients ont dépassé leur limite de crédit, la présence de ces messages ne bloquera pas la confirmation, l’impression des listes de prélèvement et des bons de livraison, ou l’affichage des factures.
+
+    La gestion des crédits est activée par défaut, mais vous pouvez la désactiver. S’il est activé, vous utilisez les règles de blocage de la gestion du crédit et les points de contrôle pour identifier quand les clients ont dépassé leur limite de crédit. S’il est désactivé, les messages ajoutés aux commandes client en fonction du paramétrage du champ **Message en cas de dépassement de limite de crédit** peut vous aider à identifier quand les clients ont dépassé leur limite de crédit.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Paramètres de séquence de nombres partagés et séquences de nombres
 
 Un ID de journal est nécessaire pour traiter les ajustements de limite de crédit. Vous devez ajouter le numéro d’ajustement de limite de crédit qui doit être utilisé pour générer l’ID de journal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Poste de groupement complet
 description: Cette rubrique fournit des informations sur la fonctionnalité Poste de groupement complet. Cette fonctionnalité offre une alternative à une application plus rigide des règles de pause de travail lorsque le prélèvement de groupement est utilisé, car elle permet une plus grande marge d’erreur dans les contraintes volumétriques des conteneurs ou des bacs.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428248"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102825"
 ---
 # <a name="cluster-position-full"></a>Poste de groupement complet
 
@@ -31,12 +28,9 @@ La fonctionnalité *Poste de groupement complet* offre une alternative à une ap
 
 Cette fonctionnalité introduit la possibilité d’exécuter le bouton **Plein** sur l’une des unités de travail d’un groupement. Dans les anciennes versions, cette option n’était disponible que pour la préparation de commandes standard, pas pour le prélèvement de groupement. Cependant, cette fonctionnalité diffère du bouton **Plein** standard en ce qu’il annule le travail restant. Cela ne suggère pas que l’utilisateur ajoute un autre bac au même groupement et ne crée pas automatiquement de travail.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Activer la fonctionnalité Poste de groupement complet
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Poste de groupement complet
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Poste de groupement complet*
+Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Poste de groupement complet* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Poste de groupement complet* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Paramétrage
 
@@ -214,7 +208,7 @@ Deux ID de travail doivent avoir été créés, chacun ayant deux lignes de pré
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Exécution du flux d’appareil mobile – Configuration de la confirmation de travail pour le produit
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *61*.
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur de l’entrepôt *61*.
 1. Aller à **Sortant \> Création de prélèvement de groupement**.
 
     La page **TÂCHE : Attribuer le travail au groupement** apparaît.
@@ -276,3 +270,6 @@ Dans ce scénario, le prélèvement de groupement est terminé et l’utilisateu
     Vous recevez un message « Groupement terminé ».
 
 Vous pouvez maintenant utiliser l’élément de menu **Prélèvement des ventes** pour prélever la quantité restante. Vous pouvez ensuite utiliser l’élément de menu **Chargement des ventes** pour déplacer les éléments de l’emplacement de préparation vers le quai de chargement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5f9379877e77f2824cd2dec9a1e68390b4eee8ba502e4011f0a8838b1974e3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769946"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323738"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Concevoir des configurations pour la gestion des états électroniques pour supprimer les caractères de nomenclature dans les fichiers générés
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez créer une [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md) pour générer des documents sortants. Pour générer les documents sous forme de fichiers texte ou XML, la solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de la gestion des états électroniques qui contient un composant de [format](general-electronic-reporting.md#FormatComponentOutbound) de gestion des états électroniques. Pour spécifier l’[encodage de caractère](/windows/win32/intl/character-sets) qui représente le jeu de caractères dans les fichiers générés, le format de gestion des états électroniques doit contenir l’élément de format **Common\\File**. Pour configurer le composant de format de gestion des états électroniques, vous devez ouvrir la version [Brouillon](general-electronic-reporting.md#component-versioning) de la configuration de gestion des états électroniques créée dans le concepteur de format de gestion des états électroniques et ajouter l’élément **Common\\File**. Dans le fichier **Codage**, spécifiez le codage des fichiers sortants générés lors de l’exécution à l’aide de ce composant.
+Vous pouvez créer une [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md) pour générer des documents sortants. Pour générer les documents sous forme de fichiers texte ou XML, la solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de la gestion des états électroniques qui contient un composant de format de gestion des états électroniques. Pour spécifier l’[encodage de caractère](/windows/win32/intl/character-sets) qui représente le jeu de caractères dans les fichiers générés, le format de gestion des états électroniques doit contenir l’élément de format **Common\\File**. Pour configurer le composant de format de gestion des états électroniques, vous devez ouvrir la version [Brouillon](general-electronic-reporting.md#component-versioning) de la configuration de gestion des états électroniques créée dans le concepteur de format de gestion des états électroniques et ajouter l’élément **Common\\File**. Dans le fichier **Codage**, spécifiez le codage des fichiers sortants générés lors de l’exécution à l’aide de ce composant.
 
 > [!NOTE]
 > Si le format contient un nom de codage incorrect, une erreur est générée lorsque vous enregistrez vos modifications des paramètres du format.

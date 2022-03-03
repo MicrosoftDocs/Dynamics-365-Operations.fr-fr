@@ -2,26 +2,23 @@
 title: Générer et valider les factures financières récurrentes
 description: Les factures récurrentes permettent de facturer les clients régulièrement pour le même compte.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443161"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182477"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Générer et valider les factures financières récurrentes
 
@@ -33,16 +30,19 @@ Les factures récurrentes permettent de facturer les clients régulièrement pou
 ## <a name="generate-recurring-invoices"></a>Générer des factures récurrentes
 
 ## <a name="post-recurring-invoices"></a>Valider les factures récurrentes
-1. Accédez à Comptabilité client > Factures > Factures récurrentes > Valider les factures récurrentes.
+1. Accédez à **Comptabilité client > Factures > Factures récurrentes > Valider les factures récurrentes**.
     * Cet écran permet d’afficher et d’imprimer une facture récurrente déjà générée.  
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Sélectionnez le groupe de factures récurrentes.  
-3. Cliquez sur Totaux.
+3. Cliquez sur **Totaux**.
     * Vérifiez les totaux pour le groupe de factures récurrentes.  
-4. Cliquez sur Fermer.
-    * Chaque ligne ci-dessous est une facture financière récurrente. Vous pouvez sélectionner une ligne et cliquer sur le bouton « Détails » pour afficher les détails de la facture financière.  
-5. Cliquez sur Valider.
+4. Cliquez sur **Fermer**.
+    * Chaque ligne ci-dessous est une facture financière récurrente. Vous pouvez sélectionner une ligne et cliquer sur le bouton **Détails** pour afficher les détails de la facture financière.  
+5. Cliquez sur **Valider**.
     * Vérifiez que les factures sélectionnées n’incluent aucune erreur, mais sans les valider.  
-6. Cliquez sur Valider.
+6. Cliquez sur **Valider**.
     * Permet de valider les factures sélectionnées.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

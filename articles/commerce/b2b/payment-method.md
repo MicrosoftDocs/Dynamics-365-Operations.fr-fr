@@ -1,8 +1,8 @@
 ---
 title: Configurer le mode de paiement du compte client pour les sites de commerce électronique B2B
-description: Cette rubrique décrit comment configurer le mode de paiement du compte client pour les sites de commerce électronique interentreprises (B2B).
+description: Cette rubrique décrit comment configurer le mode de paiement du compte client dans Microsoft Dynamics 365 Commerce. Il décrit également comment les limites de crédit affectent la capture des paiements sur compte sur les sites e-commerce interentreprises (B2B).
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,26 +14,29 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 628f3b3b2d86154190dfdcc82b8b391c2facce103f607519514c65b5fba26653
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738051"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323353"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurer le mode de paiement du compte client pour les sites de commerce électronique B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment configurer le mode de paiement du compte client pour les sites de commerce électronique interentreprises (B2B).
+Cette rubrique décrit comment configurer le mode de paiement du compte client dans Microsoft Dynamics 365 Commerce. Il décrit également comment les limites de crédit affectent la capture des paiements sur compte sur les sites e-commerce interentreprises (B2B).
 
-Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu’ils vendent dans un canal d’e-commerce. Chaque type de paiement accepté par un détaillant doit être configurée dans Microsoft Dynamics 365 Commerce lors du paramétrage du système. Le mode de paiement du compte client (ou « en compte ») doit être pris en charge sur les sites de commerce électronique B2B. 
+Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu’ils vendent dans un canal d’e-commerce. Chaque type de paiement accepté par un détaillant doit être configurée dans Dynamics 365 Commerce lors du paramétrage du système. Le mode de paiement du compte client (ou « en compte ») doit être pris en charge sur les sites e-commerce B2B. 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 1. Ajoutez le mode de paiement du compte client dans Commerce Headquarters.
 2. Associez le mode de paiement du compte client au canal e-commerce.
-3. Vérifiez que **Autoriser en compte** est activé pour le client dans **Retail et Commerce \> Clients \> Tous les clients \> Valeurs par défaut du paiement** dans Commerce Headquarters. Assurez-vous également que les paramètres **Limite de crédit** sont définis de manière appropriée pour le client dans **Retail et Commerce \> Clients \> Tous les clients \> Crédit et relances** dans Commerce Headquarters. 
+3. Vérifiez que la propriété **Autoriser en compte** est activée pour le client dans **Retail et Commerce \> Clients \> Tous les clients \> Valeurs par défaut du paiement** dans Commerce Headquarters.
+
+    > [!NOTE]
+    > Si tous les clients doivent être autorisés à activer le mode de paiement sur compte, vous pouvez définir la propriété **Autoriser sur compte** sur **Oui** pour le client par défaut du canal associé au site B2B. 
 
 ## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a>Activer le mode de paiement du compte client dans le générateur de site Commerce 
 
@@ -63,13 +66,44 @@ Pour confirmer que le mode de paiement du compte client a été activé et publi
 1. Ajoutez un produit dans le panier.
 1. Allez sur la page de caisse. Vous devriez voir le nouveau mode de paiement **Compte client**.
 
+## <a name="work-with-credit-limits"></a>Utiliser des limites de crédit
+
+Lorsque les fonctionnalités de paiement du compte client sont activées sur le site B2B, les organisations souhaitent généralement afficher des informations sur les limites de crédit et les soldes de limite de crédit pendant le processus de capture de commande. La limite de crédit d’un client est définie par la propriété **Limite de crédit** via le raccourci **Crédit et recouvrement** dans le dossier client dans Commerce headquarters. Cependant, dans les scénarios B2B, une commande passée par un client doit souvent être facturée sur le compte de l’organisation à laquelle appartient le client. Par conséquent, vous devez définir la propriété **Compte de facturation** via le raccourci **Facture et livraison** de l’enregistrement client vers l’ID de compte client de l’organisation. Ensuite, lorsque le client passera une commande sur le site B2B, la commande sera facturée à l’organisme. Le site B2B utilisera également la limite de crédit de l’organisation au lieu de la limite de crédit définie sur la fiche client.
+
+Le calcul et le solde de la limite de crédit affichés sur le site Web B2B dépendent du paramétrage de la propriété **Type de limite de crédit** dans Commerce Headquarters. L’emplacement de cette propriété varie selon que la fonctionnalité **Gestion de crédit** est activée dans l’espace de travail **Gestion des fonctionnalités** :
+
+- Si la fonctionnalité **Gestion de crédit** est activée, la propriété est située au niveau du raccourci **Limites de crédit** sur **Crédit et recouvrement \> Configuration \> Paramètres de crédit et de recouvrement \> Crédit**. 
+- Si la fonctionnalité **Gestion de crédit** est désactivée, la propriété est située sous **Cote de crédit** sous **Comptes débiteurs \> Configuration \> Paramètres des comptes clients \> Cote de crédit**.
+
+Les valeurs que la propriété **Type de limite de crédit** prend en charge sont **Aucun**, **Équilibre**, **Solde + bon de livraison ou ticket de caisse** et **Solde + Tout**. Pour plus d’informations sur ces valeurs, voir [Valeurs de type limite de crédit](/dynamics365/supply-chain/sales-marketing/credit-limits-customers).
+
+> [!NOTE]
+> Nous vous recommandons de définir la propriété **Type de limite de crédit** sur **Solde + bordereau d’emballage ou bordereau produit**, afin que les commandes client en cours ne contribuent pas au calcul du solde. Ensuite, si vos clients passent de futures commandes, ils n’ont pas à s’inquiéter que ces commandes affectent leur solde actuel.
+
+Une autre propriété qui affecte les commandes sur compte est la propriété **Limite de crédit obligatoire** qui est située via le raccourci **Crédit et recouvrement** de la fiche client. En définissant cette propriété sur **Oui** pour des clients spécifiques, vous pouvez forcer le système à vérifier leur limite de crédit, même si la propriété **Type de limite de crédit** a été définie sur **Aucun** pour préciser que la limite de crédit ne doit être vérifiée pour aucun client.
+
+Actuellement, les sites B2B où la propriété **Limite de crédit obligatoire** est activée ont des fonctionnalités supplémentaires. Si la propriété est activée sur une fiche client, lorsque le client passe une commande, le site B2B l’empêche d’utiliser le mode de paiement sur facture pour payer plus que le solde créditeur restant. Par exemple, si le solde créditeur restant du client est de $1 000, mais que la commande vaut $1 200, le client ne peut payer que $1 000 en utilisant la méthode sur compte. Ils doivent utiliser un autre mode de paiement pour payer le solde. Si la propriété **Limite de crédit obligatoire** est désactivée sur un enregistrement client, le client peut payer n’importe quel montant en utilisant le mode de paiement sur compte. Cependant, même si un client peut passer des commandes, le système ne permettra pas que ces commandes soient exécutées si elles dépassent la limite de crédit. Si vous devez vérifier la limite de crédit pour tous les clients éligibles aux paiements sur compte, nous vous recommandons de définir la propriété **Type de limite de crédit** sur **Solde + bordereau d’emballage ou bordereau produit** et la propriété **Limite de crédit obligatoire** sur **Non**.
+
+Le module **Crédit et recouvrement** a de nouvelles capacités de gestion de crédit. Pour activer ces fonctionnalités, activez la fonctionnalité **Gestion de crédit** dans l’espace de travail **Gestion des fonctionnalités**. L’une des nouvelles fonctionnalités permet de mettre en attente les commandes clients en fonction de règles de blocage. Le responsable du crédit peut ensuite libérer ou rejeter les commandes après une analyse plus approfondie. Toutefois, la possibilité de mettre les commandes client en attente ne s’applique pas aux commandes Commerce, car les commandes client comportent souvent un acompte et la fonctionnalité **Gestion de crédit** ne prend pas complètement en charge les scénarios de prépaiement. 
+
+Indépendamment du fait que la fonctionnalité **Gestion de crédit** est activée, si le solde d’un client dépasse la limite de crédit pendant l’exécution de la commande, les commandes clients ne seront pas mises en attente. Au lieu de cela, Commerce générera soit un message d’avertissement, soit un message d’erreur, selon la valeur du champ **Message lors du dépassement de la limite de crédit** via le raccourci **Limites de crédit**.
+
+La propriété **Exclure de la gestion du crédit** qui empêche le blocage des commandes client Commerce se trouve dans l’en-tête de la commande client (**Commerce et vente au détail \> Clients \> Tous les bons de commande**). Si cette propriété est définie sur **Oui** (la valeur par défaut) pour les commandes client Commerce, les commandes seront exclues du workflow en attente de la gestion des crédits. Notez que, bien que la propriété s’appelle **Exclure de la gestion du crédit**, la limite de crédit définie sera toujours utilisée lors de l’exécution de la commande. Les commandes ne seront tout simplement pas en attente.
+
+La possibilité de suspendre les commandes client Commerce en fonction des règles de blocage est prévue pour les futures versions de Commerce. Jusqu’à ce qu’il soit pris en charge, si vous devez forcer les commandes client Commerce à passer par les nouveaux flux de gestion des crédits, vous pouvez personnaliser les fichiers XML suivants dans votre solution Visual Studio. Dans les fichiers, modifiez la logique pour que l’indicateur **CredManExcludeSalesOrder** soit défini sur **Non**. De cette façon, la propriété **Exclure de la gestion du crédit** sera définie sur **Non** par défaut pour les commandes client Commerce.
+
+- RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
+- RetailCallCenterOrderExtensions_CredMan_Extension.xml
+
+Notez que, si l’indicateur **CredManExcludeSalesOrder** est défini sur **Non**, et qu’un client B2B peut acheter dans des magasins à l’aide de l’application de point de vente (PDV), la publication des transactions en espèces et à emporter peut échouer. Par exemple, il existe une règle de blocage sur le type de paiement en espèces et le client B2B a acheté certains articles dans le magasin en utilisant des espèces. Dans ce cas, la commande client résultante ne sera pas facturée avec succès car elle sera mise en attente. Par conséquent, la publication échouera. Pour cette raison, nous vous recommandons d’effectuer des tests de bout en bout après avoir implémenté cette personnalisation.
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Configurer un site d’e-commerce B2B](set-up-b2b-site.md)
 
-[Créer des hiérarchies de modélisation organisationnelle pour les organisations B2B](org-model.md)
+[Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients](partners-customer-hierarchies.md)
 
-[Gérer les partenaires commerciaux sur les sites de commerce électronique B2B](manage-b2b-users.md)
+[Gérer les utilisateurs des partenaires commerciaux sur les sites e-commerce B2B](manage-b2b-users.md)
 
 [Définir des limites de quantité de produits pour les sites de commerce électronique B2B](quantity-limits.md)
 

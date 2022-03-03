@@ -2,27 +2,27 @@
 title: Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 description: Cette rubrique explique comment concevoir une solution de gestion des états électroniques (ER) pour imprimer un rapport personnalisé.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680240"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323840"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 
@@ -121,19 +121,19 @@ Les étapes suivantes expliquent comment un utilisateur avec le rôle d’admini
 
 - [Ressources supplémentaires](#References)
 
-Dans cet exemple, vous allez créer une solution de gestion des états électroniques pour le module [Questionnaire](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Cette nouvelle solution de gestion des états électroniques vous permet de concevoir un rapport en utilisant une feuille de calcul Microsoft Excel comme modèle. Vous pouvez ensuite générer le rapport **Questionnaire** au format Excel ou PDF, en plus de générer le rapport SQL Server Reporting Services (SSRS) existant. Vous pouvez également modifier le nouveau rapport ultérieurement, sur demande. Aucun codage n’est requis.
+Dans cet exemple, vous allez créer une solution de gestion des états électroniques pour le module [Questionnaire](../../../human-resources/hr-learning-questionnaires.md). Cette nouvelle solution de gestion des états électroniques vous permet de concevoir un rapport en utilisant une feuille de calcul Microsoft Excel comme modèle. Vous pouvez ensuite générer le rapport **Questionnaire** au format Excel ou PDF, en plus de générer le rapport SQL Server Reporting Services (SSRS) existant. Vous pouvez également modifier le nouveau rapport ultérieurement, sur demande. Aucun codage n’est requis.
 
 1. Pour exécuter le rapport existant, accédez à **Questionnaire** \> **Conception** \> **État sur les questionnaires**.
 
-    ![Sélection de l’élément de menu État sur les questionnaires dans le module Questionnaire pour exécuter le rapport SSRS existant](./media/er-quick-start1-application-menu-origin.png)
+    ![Sélection de l’élément de menu État sur les questionnaires dans le module Questionnaire pour exécuter le rapport SSRS existant.](./media/er-quick-start1-application-menu-origin.png)
 
 2. Dans la boîte de dialogue **État sur les questionnaires**, spécifiez les critères de sélection. Appliquez un filtre afin que le rapport n’inclue que le questionnaire **SBCCrsExam**.
 
-    ![Spécification des critères de sélection dans la boîte de dialogue État sur les questionnaires](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Spécification des critères de sélection dans la boîte de dialogue État sur les questionnaires.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 L’illustration suivante montre la version générée du rapport SSRS pour le questionnaire **SBCCrsExam**.
 
-![Générer un rapport SSRS](./media/er-quick-start1-ssrs-report.png)
+![Rapport SSRS généré.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Configurer la structure de gestion des états électroniques
 
@@ -181,13 +181,13 @@ Pour plus d’informations sur les fournisseurs de configuration de gestion des 
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Concevoir un modèle de données spécifique à un domaine
 
-Vous devez créer une configuration de la gestion des états électroniques contenant un composant de [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) pour le domaine d’affaires **Questionnaire**. Ce modèle de données sera ultérieurement utilisé comme source de données lorsque vous concevez un format ER pour générer le rapport **Questionnaire**.
+Vous devez créer une configuration de la gestion des états électroniques contenant un composant de modèle de données pour le domaine d’affaires **Questionnaire**. Ce modèle de données sera ultérieurement utilisé comme source de données lorsque vous concevez un format ER pour générer le rapport **Questionnaire**.
 
 En suivant les étapes de la section [Importer une nouvelle configuration de modèle de données](#ImportDataModel), vous pouvez importer le modèle de données requis à partir du fichier XML fourni. Vous pouvez également suivre les étapes de la section [Créer un configuration de modèle de données](#DesignDataModel) pour concevoir ce modèle de données à partir de zéro.
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importer une nouvelle configuration de modèle de données
 
-1. Téléchargez le fichier [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) et enregistrez-le sur votre ordinateur local.
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez **Configurations des états**.
 4. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
@@ -273,7 +273,7 @@ Pour continuer, ignorez la procédure suivante, [Créer une configuration de mod
 
     L’illustration suivante montre le modèle de données modifiable terminé sur la page **Concepteur de modèles de données**.
 
-    ![Modèle de données configuré dans le concepteur de modèle de données ER](./media/er-quick-start1-model2.png)
+    ![Modèle de données configuré dans le concepteur de modèle de données ER.](./media/er-quick-start1-model2.png)
 
 7. Enregistrez vos modifications.
 8. Fermez la page **Concepteur de modèle de données**.
@@ -287,7 +287,7 @@ Pour continuer, ignorez la procédure suivante, [Créer une configuration de mod
 
 Le statut de la version 1 de cette configuration est modifié de **Brouillon** à **Terminé**. La version 1 ne peut plus être modifiée. Cette version contient le modèle de données configuré et peut être utilisée comme base pour d’autres configurations ER. La version 2 de cette configuration est créée et a un statut de **Brouillon**. Vous pouvez modifier cette version pour ajuster le modèle de données **Questionnaire**.
 
-![Versions de la configuration ER modifiable sur la page Configurations](./media/er-quick-start1-model-configuration.png)
+![Versions de la configuration modifiable sur la page Configurations.](./media/er-quick-start1-model-configuration.png)
 
 Pour plus d’informations sur la gestion des versions pour les configurations ER, voir [Présentation des rapports électroniques (ER)](general-electronic-reporting.md#component-versioning).
 
@@ -296,13 +296,13 @@ Pour plus d’informations sur la gestion des versions pour les configurations E
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Concevoir une mise en correspondance de modèles pour le modèle de données configuré
 
-En tant qu’utilisateur avec le rôle de développeur d’états électroniques, vous devez créer une configuration de la gestion des états électroniques contenant un composant [mise en correspondance des modèles](general-electronic-reporting.md#data-model-and-model-mapping-components) pour le modèle de données **Questionnaire**. Étant donné que ce composant implémente le modèle de données configuré pour Finance, il est spécifique à Finance. Vous devez configurer le composant de mise en correspondance des modèles pour spécifier les objets d’application qui doivent être utilisés pour remplir le modèle de données configuré avec les données d’application au moment de l’exécution. Pour effectuer cette tâche, vous devez connaître les détails de mise en œuvre de la structure de données du domaine d’affaires **Questionnaire** dans Finance.
+En tant qu’utilisateur avec le rôle de développeur d’états électroniques, vous devez créer une configuration de la gestion des états électroniques contenant un composant mise en correspondance des modèles pour le modèle de données **Questionnaire**. Étant donné que ce composant implémente le modèle de données configuré pour Finance, il est spécifique à Finance. Vous devez configurer le composant de mise en correspondance des modèles pour spécifier les objets d’application qui doivent être utilisés pour remplir le modèle de données configuré avec les données d’application au moment de l’exécution. Pour effectuer cette tâche, vous devez connaître les détails de mise en œuvre de la structure de données du domaine d’affaires **Questionnaire** dans Finance.
 
 En suivant les étapes de la section [Importer une nouvelle configuration de mise en correspondance des modèles](#ImportModelMapping) qui suit, vous pouvez importer la configuration de la mise en correspondance des modèles requis à partir du fichier XML fourni. Vous pouvez également suivre les étapes de la section [Créer un configuration de la mise en correspondance des modèles](#CreateModelMapping) pour concevoir cette mise en correspondance des modèles à partir de zéro.
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importer une nouvelle configuration de mise en correspondance de modèles
 
-1. Téléchargez le fichier [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) et enregistrez-le sur votre ordinateur local.
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez **Configurations des états**.
 4. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
@@ -368,7 +368,7 @@ Vous devez configurer les sources de données pour accéder aux tables d’appli
     2. Sélectionnez **Ajouter**.
     3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, entrez **\$ResultGroup**.
     4. Sélectionnez **Modifier la formule**.
-    5. Dans l’[Éditeur de formule ER](general-electronic-reporting-formula-designer.md), dans le champ **Formule**, entrez **FIRSTORNULL(\@’.\<Relations’.KMQuestionResultGroup)** pour utiliser le [chemin d’accès](er-formula-language.md#paths) de la relation un-à-plusieurs entre les tables KMCollection et KMQuestionResultGroup.
+    5. Dans l’[Éditeur de formule ER](general-electronic-reporting-formula-designer.md), dans le champ **Formule**, entrez **FIRSTORNULL(\@’.\<Relations’.KMQuestionResultGroup)** pour utiliser le [chemin d’accès](er-formula-language.md#Paths) de la relation un-à-plusieurs entre les tables KMCollection et KMQuestionResultGroup.
     6. Sélectionnez **Enregistrer**, puis fermez l’éditeur de formule.
     7. Sélectionnez **OK** pour ajouter le nouveau champ calculé.
 
@@ -441,7 +441,7 @@ Vous pouvez ajouter des étiquettes ER pour configurer certaines de vos sources 
 5. Fermez la boite de dialogue **Traduction de texte**.
 6. Sélectionnez **Annuler**.
 
-![Ajout d’étiquettes ER pour la mise en correspondance des modèles modifiable](./media/er-quick-start1-adding-labels.png)
+![Ajout d’étiquettes ER pour la mise en correspondance de modèles modifiable.](./media/er-quick-start1-adding-labels.png)
 
 Vous avez entré des étiquettes ER uniquement pour la langue par défaut. Pour plus d’informations sur la traduction des étiquettes ER dans d’autres langues, voir [Concevoir des rapports multilingues](er-design-multilingual-reports.md).
 
@@ -475,7 +475,7 @@ Vous avez entré des étiquettes ER uniquement pour la langue par défaut. Pour 
     8. Sélectionnez **Enregistrer**, puis fermez l’éditeur de formule.
     9. Sélectionner **OK** pour ajouter la nouvelle source de données.
 
-![Mise en correspondance des modèles configurée dans le concepteur de mise en correspondance des modèles de gestion des états électroniques](./media/er-quick-start1-added-data-sources.png)
+![Mise en correspondance des modèles configurée dans le concepteur de mise en correspondance des modèles de gestion des états électroniques.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Lier des sources de données aux champs d’un modèle de données
 
@@ -526,7 +526,7 @@ Vous devez lier les sources de données configurées aux champs du modèle de do
 
     L’illustration suivante montre l’état final de la mise en correspondance des modèles configurée sur la page **Concepteur de mise en correspondance des modèles**.
 
-    ![Mise en correspondance des modèles configurée entièrement dans le concepteur de mise en correspondance des modèles de gestion des états électroniques](./media/er-quick-start1-mapping2.png)
+    ![Mise en correspondance des modèles entièrement configurée dans le concepteur de mise en correspondance des modèles de gestion des états électroniques.](./media/er-quick-start1-mapping2.png)
 
 7. Enregistrez vos modifications.
 8. Fermez la page **Concepteur de mise en correspondance des modèles**.
@@ -540,7 +540,7 @@ Vous devez lier les sources de données configurées aux champs du modèle de do
 
 Le statut de la version 1.1 de cette configuration est modifié de **Brouillon** à **Terminé**. La version 1.1 ne peut plus être modifiée. Cette version contient la mise en correspondance de données configurée et peut être utilisée comme base pour d’autres configurations ER. La version 1.2 de cette configuration est créée et a un statut de **Brouillon**. Vous pouvez modifier cette version pour ajuster la configuration **Mise en correspondance de questionnaires**.
 
-![Versions de la configuration ER modifiable sur la page Configurations](./media/er-quick-start1-mapping-configuration.png)
+![Versions de la configuration ER modifiable sur la page Configurations.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > La mise en correspondance des modèles configurée est votre implémentation spécifique à Finance du modèle de données abstrait qui représente le domaine d’affaires **Questionnaire**.
@@ -549,32 +549,32 @@ Le statut de la version 1.1 de cette configuration est modifié de **Brouillon*
 
 La structure de gestion des états électroniques utilise des modèles prédéfinis pour générer des états dans des formats Microsoft Office (des classeurs Excel ou des documents Word). Tandis que la génération d’état est en cours de génération, un modèle est rempli avec les données requises en fonction du dataflow configuré. Par conséquent, vous devez d’abord concevoir un modèle pour votre rapport personnalisé. Ce modèle doit être conçu comme un classeur Excel, dont la structure représente la disposition d’un rapport personnalisé. Vous devez nommer chaque élément Excel que vous prévoyez de remplir avec les données requises.
 
-1. Téléchargez le fichier [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) et enregistrez-le sur votre ordinateur local.
 2. Ouvrez le fichier dans Excel et examinez la structure du classeur.
 
 Comme le montre l’illustration suivante, le modèle téléchargé a été conçu pour imprimer des questionnaires spécifiques qui présentent les questions d’un questionnaire avec les réponses appropriées.
 
-![Modèle Excel pour imprimer les questionnaires spécifiés](./media/er-quick-start1-template-layout.png)
+![Modèle Excel pour imprimer les questionnaires spécifiés.](./media/er-quick-start1-template-layout.png)
 
 Des noms Excel ont été ajoutés à ce modèle pour remplir les détails du questionnaire. Vous pouvez utiliser le Gestionnaire de noms pour examiner les noms Excel.
 
-![Utilisation du gestionnaire de noms pour examiner les noms Excel dans le modèle Excel fourni](./media/er-quick-start1-template-names.png)
+![Utilisation du gestionnaire de noms pour examiner les noms Excel dans le modèle Excel fourni.](./media/er-quick-start1-template-names.png)
 
 Les étiquettes de rapport ont été ajoutées sous forme de texte fixe en anglais. Vous pouvez remplacer les étiquettes de rapport par de nouveaux noms Excel qui remplissent les étiquettes avec du texte dépendant de la langue en utilisant des [étiquettes](#AddMmLabels) au format ER, comme vous l’avez fait pour les expressions dépendantes de la langue dans la mise en correspondance des modèles configurée. Dans ce cas, les étiquettes ER doivent être ajoutées au format ER modifiable.
 
 Comme le montre l’illustration suivante, l’en-tête de rapport personnalisé a été spécifié pour permettre à Excel d’effectuer la pagination.
 
-![En-tête de rapport personnalisé dans le modèle Excel fourni](./media/er-quick-start1-template-header.png)
+![En-tête de rapport personnalisé dans le modèle Excel fourni.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Concevoir un format
 
-En tant qu’utilisateur avec un rôle de Consultant fonctionnel de gestion des états électroniques, vous devez créer une configuration ER contenant un composant de [format](general-electronic-reporting.md#FormatComponentOutbound). Vous devez configurer le composant de format pour spécifier comment un modèle de rapport sera rempli avec les données requises au moment de l’exécution.
+En tant qu’utilisateur avec un rôle de Consultant fonctionnel de gestion des états électroniques, vous devez créer une configuration ER contenant un composant de format. Vous devez configurer le composant de format pour spécifier comment un modèle de rapport sera rempli avec les données requises au moment de l’exécution.
 
 En suivant les étapes de la section [Importer un configuration de format conçue](#FormatImport), vous pouvez importer le format requis à partir du fichier XML fourni. Vous pouvez également suivre les étapes de la section [Créer une configuration de format](#FormatCreate) pour concevoir ce format à partir de zéro.
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importer une configuration de format conçu
 
-1. Téléchargez le fichier [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) et enregistrez-le sur votre ordinateur local.
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez **Configurations des états**.
 4. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
@@ -611,14 +611,14 @@ Pour continuer, ignorez la procédure suivante, [Créer une configuration de for
 4. Dans la boîte de dialogue, procédez comme suit :
 
     1. Sélectionnez **Ajouter un modèle**.
-    2. Recherchez et sélectionnez le fichier enregistré localement **Questionnaires report template.xslx**, puis **Ouvrir**.
+    2. Recherchez et sélectionnez le fichier enregistré localement **Questionnaires report template.xlsx**, puis **Ouvrir**.
     3. Sélectionnez **OK** pour importer le modèle.
 
-    ![Importation d’un modèle d’état](./media/er-quick-start1-template-import.png)
+    ![Importation d’un modèle d’état.](./media/er-quick-start1-template-import.png)
 
 L’élément de format **Excel\\File** est automatiquement ajouté au format modifiable en tant qu’élément racine. De plus, l’élément de format **Excel\\Plage** ou l’élément de format **Excel\\Cellule** est automatiquement ajouté pour chaque nom Excel reconnu du modèle importé. Le format **Excel\\En-tête** qui a l’élément **Chaîne** imbriqué est automatiquement ajouté pour refléter les paramètres d’en-tête du modèle importé.
 
-![Structure de format qui inclut des éléments ajoutés automatiquement dans le concepteur d’opérations ER](./media/er-quick-start1-template-import2.png)
+![Structure de format qui inclut des éléments ajoutés automatiquement dans le concepteur d’opérations ER.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Configurer un format
 
@@ -629,12 +629,12 @@ L’élément de format **Excel\\File** est automatiquement ajouté au format mo
 
     Pour plus d’informations sur la manière de spécifier les contextes de langue et de culture pour un processus ER, voir [Concevoir des rapports multilingues](er-design-multilingual-reports.md).
 
-    ![Configuration des paramètres de langue et de culture pour le rapport conçu dans le concepteur d’opérations ER](./media/er-quick-start1-template-format-structure1.png)
+    ![Configuration des paramètres de langue et de culture pour le rapport conçu dans le concepteur d’opérations ER.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Dans l’arborescence des formats, développez le nœud racine, puis sélectionnez **ResultsGroup**.
 6. Sur l’onglet **Format**, dans le champ **Direction de réplication**, sélectionnez **Pas de réplication**, car vous ne vous attendez pas à avoir plusieurs groupes de résultats pour un même questionnaire.
 
-    ![Définition de la direction de réplication pour les éléments de format Plage dans le concepteur d’opérations ER](./media/er-quick-start1-template-format-structure2.png)
+    ![Définition de la direction de réplication pour les éléments de format Plage dans le concepteur d’opérations ER.](./media/er-quick-start1-template-format-structure2.png)
 
 7. Sélectionnez **Enregistrer**.
 
@@ -654,7 +654,7 @@ Vous devez spécifier une liaison de données pour un élément de format utilis
 
 5. Fermez l’éditeur de formule.
 
-    ![Configuration de la liaison pour remplir le titre d’un rapport généré](./media/er-quick-start1-add-report-title-label.png)
+    ![Configuration de la liaison pour remplir le titre d’un rapport généré.](./media/er-quick-start1-add-report-title-label.png)
 
 Vous pouvez utiliser cette technique pour rendre toutes les autres étiquettes du modèle actuel dépendantes de la langue. Pour plus d’informations sur la façon dont les étiquettes ajoutées d’une seule configuration ER peuvent être traduites dans toutes les langues prises en charge, voir [Concevoir des rapports multilingues](er-design-multilingual-reports.md).
 
@@ -664,7 +664,7 @@ Vous pouvez utiliser cette technique pour rendre toutes les autres étiquettes d
 2. Sélectionnez **Modifier**.
 3. Passez en revue les informations dans la boite de dialogue **Propriétés de la source de données**. Cette source de données représente la version 1 du composant de modèle de données **Questionnaires** qui réside dans la configuration ER **Modèle de questionnaires**.
 
-![Propriétés de la source de données du modèle dans le concepteur d’opérations de gestion des états électroniques](./media/er-quick-start1-model-data-source.png)
+![Propriétés de la source de données du modèle dans le concepteur d’opérations de gestion des états électroniques.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Associer les éléments de format aux champs d’une source de données
 
@@ -680,11 +680,11 @@ Pour spécifier la façon dont un modèle est rempli lors de l’exécution, vou
 
     L’élément de format de plage **Questionnaire** est configuré comme répliqué verticalement. Lorsqu’il est lié à une source de données du type **Liste des enregistrements**, la plage **Questionnaire** appropriée du modèle Excel est répétée pour chaque enregistrement de la source de données liée.
  
-    ![Liaison de l’élément de format de plage de questionnaire aux sources de données de liste d’enregistrements appropriées dans le concepteur d’opérations ER](./media/er-quick-start1-bindings1.png)
+    ![Liaison de l’élément de format de plage de questionnaire aux sources de données de liste d’enregistrements appropriées dans le concepteur d’opérations ER.](./media/er-quick-start1-bindings1.png)
 
     Du fait que la plage du **Questionnaire** du modèle Excel est définie entre les lignes 5 à 14, ces lignes sont répétées pour chaque questionnaire signalé.
 
-    ![Lignes dans le modèle Excel qui seront répétées dans un rapport généré pour chaque enregistrement des sources de données de la liste d’enregistrement](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Lignes dans le modèle Excel qui seront répétées dans un rapport généré pour chaque enregistrement des sources de données de la liste d’enregistrements.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Configurez des liaisons similaires pour les éléments de format restants, comme décrit dans le tableau suivant.
 
@@ -720,7 +720,7 @@ Pour spécifier la façon dont un modèle est rempli lors de l’exécution, vou
 
 L’illustration suivante montre l’état final des liaisons de données configurées sur la page **Concepteur de format**.
 
-![Liaisons de données configurées dans le concepteur d’opérations ER](./media/er-quick-start1-bindings2.png)
+![Liaisons de données configurées dans le concepteur d’opérations ER.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > L’ensemble des sources de données et des liaisons spécifiées représente un composant de mise en correspondance de formats du format configuré. Cette mise en correspondance de formats est appelée lorsque vous exécutez le format configuré pour la génération d’états.
@@ -740,9 +740,9 @@ Vous pouvez maintenant exécuter un format conçu à des fins de test à partir 
 
 Par [défaut](electronic-reporting-destinations.md#default-behavior), un rapport généré est livré sous forme de fichier Excel que vous pouvez télécharger. Les illustrations suivantes montrent deux pages du rapport généré au format Excel.
 
-![Exemple de rapport généré au format Excel, page 1](./media/er-quick-start1-report1a.png)
+![Exemple d’état généré au format Excel, page 1.](./media/er-quick-start1-report1a.png)
 
-![Exemple de rapport généré au format Excel, page 2](./media/er-quick-start1-report1b.png)
+![Exemple d"’état généré au format Excel, page 2.](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Ajuster un format conçu
 
@@ -752,7 +752,7 @@ Par défaut, un document généré est nommé en utilisant l’alias de l’util
 
 1. Dans la page **Concepteur de formats**, sélectionnez l’élément racine **Rapport**.
 2. Sur l’onglet **Mise en correspondance**, sélectionnez **Modifier le nom du fichier**.
-3. Dans le champ **Formule**, entrez **CONCATENATE (\@"GER\_LABEL:ReportTitle", " - ", DATETIMEFORMAT(SESSIONNOW(), "yyyy-MM-dd hh-mm-ss"))**.
+3. Dans le champ **Formule**, entrez **CONCATENATE (\@"GER\_LABEL:ReportTitle", " – ", DATETIMEFORMAT(SESSIONNOW(), "yyyy-MM-dd hh-mm-ss"))**.
 4. Sélectionnez **Enregistrer**, puis fermez l’éditeur de formule.
 5. Sélectionnez **Enregistrer**.
 
@@ -763,7 +763,7 @@ Les questions ne sont pas correctement classées dans un rapport généré. Vous
 1. Dans la page **Concepteur de formats**, sélectionnez l’élément racine **Rapport**.
 2. Sur l’onglet **Mise en correspondance**, dans l’arborescence des formats, développez **Report\\Questionnaire\\Question**.
 
-    ![Élément de format de question du type Plage dans le concepteur d’opérations ER](./media/er-quick-start1-bindings3.png)
+    ![Élément de format de question du type Plage dans le concepteur d’opérations ER.](./media/er-quick-start1-bindings3.png)
 
 3. Sur l’onglet **Mise en correspondance**, sélectionnez **model.Questionnaire**.
 4. Sélectionnez **Ajouter** \> **Fonctions\\Champ calculé**, puis, dans le champ **Nom**, entrez **OrderedQuestions**.
@@ -776,7 +776,7 @@ Les questions ne sont pas correctement classées dans un rapport généré. Vous
 11. Sélectionnez **Lier**, puis confirmez que le chemin d’accès **model.Questionnaire.Questions** courant est remplacé par le nouveau chemin d’accès **model.Questionnaire.OrderedQuestions** dans toutes les liaisons d’éléments imbriqués.
 12. Sélectionnez **Enregistrer**.
 
-![Liaison de l’élément de format Question avec la source de données OrderedQuestions configurée dans le concepteur d’opérations ER](./media/er-quick-start1-bindings4.png)
+![Liaison de l’élément de format Question avec la source de données OrderedQuestions configurée dans le concepteur d’opérations ER.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Exécuter un format modifié à partir d’ER
 
@@ -790,7 +790,7 @@ Vous pouvez maintenant exécuter un format modifié à des fins de test à parti
 
 L’illustration suivante montre un rapport généré au format Excel dans lequel les questions sont correctement ordonnées.
 
-![Rapport généré au format Excel avec des questions correctement ordonnées](./media/er-quick-start1-report2.png)
+![État généré au format Excel avec des questions correctement ordonnées.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Terminer la conception du format
 
@@ -801,7 +801,7 @@ L’illustration suivante montre un rapport généré au format Excel dans leque
 
 Le statut de la version 1.1 de cette configuration est modifié de **Brouillon** à **Terminé**. La version 1.1 ne peut plus être modifiée. Cette version contient le format configuré et peut être utilisée pour imprimer votre rapport personnalisé. La version 1.2 de cette configuration est créée et a un statut de **Brouillon**. Vous pouvez modifier cette version pour ajuster le format de votre état **Questionnaire**.
 
-![Versions de la configuration ER modifiable sur la page Configurations](./media/er-quick-start1-format-configuration.png)
+![Configuration ER modifiable sur la page Configurations.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Le format configuré est votre conception de l’état **Questionnaire** et ne contient aucune relation avec les artefacts spécifiques à Finance.
@@ -1051,7 +1051,7 @@ Créez votre projet pour rendre un nouvel élément de menu accessible aux utili
 
 1. Allez à **Questionnaire** \> **Conception** \> **Rapport questionnaires (généré par ER)**.
 
-    ![Sélection de l’élément de menu État sur les questionnaires (généré par ER) dans le module Questionnaire pour exécuter le format ER configuré](./media/er-quick-start1-application-menu-modified.png)
+    ![Sélection de l’élément de menu État sur les questionnaires (généré par ER) dans le module Questionnaire pour exécuter le format ER configuré.](./media/er-quick-start1-application-menu-modified.png)
 
 2. Dans la boîte de dialogue, dans le champ **Mise en correspondance de formats**, sélectionnez **Rapport de questionnaires**.
 3. Cliquez sur **OK**.
@@ -1059,7 +1059,7 @@ Créez votre projet pour rendre un nouvel élément de menu accessible aux utili
 5. Sélectionnez **OK** pour confirmer l’option de filtrage.
 6. Sélectionnez **OK** pour exécuter l’état.
 
-    ![Spécification des critères de sélection dans la boîte de dialogue État électronique](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Spécification des critères de sélection dans la boîte de dialogue État électronique.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Examinez l’état généré.
 
@@ -1084,7 +1084,7 @@ Vous pouvez modifier la solution ER configurée afin qu’elle utilise la classe
 
 La source de données ajoutée fournit des informations sur l’ID d’enregistrement de la mise en correspondance de formats ER en cours d’exécution.
 
-![Source de données ajoutée dans le concepteur de mise en correspondance de modèles ER](./media/er-quick-start1-mapping3.png)
+![Source de données ajoutée dans le concepteur de mise en correspondance de modèles ER.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Ajouter une source de données pour accéder aux enregistrements de mise en correspondance des formats ER
 
@@ -1119,7 +1119,7 @@ Continuez à modifier la mise en correspondance de modèles sélectionnée afin 
 
 Du fait que vous avez utilisé le champ **FormatName**, la mise en correspondance de modèles configurée expose maintenant le nom d’un format ER qui appelle cette mise en correspondance de modèles lors de l’exécution.
 
-![Liaison du champ de modèle de données à la méthode de la source de données ajoutée dans le concepteur de mise en correspondance de modèles ER](./media/er-quick-start1-mapping4.png)
+![Liaison du champ de modèle de données à la méthode de la source de données ajoutée dans le concepteur de mise en correspondance de modèles ER.](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Terminer la conception de la mise en correspondance de modèles
 
@@ -1156,7 +1156,7 @@ Vous pouvez modifier le format ER configuré pour que son nom apparaisse dans le
 
 Le format configuré a maintenant été modifié pour que son nom soit inscrit dans le pied de page d’un rapport généré en utilisant le élément **Pied de page\\Chaîne**.
 
-![Ajout de l’élément de format de pied de page au format configuré dans le concepteur d’opérations ER](./media/er-quick-start1-template-format-structure3.png)
+![Ajout de l’élément de format Pied de page au format configuré dans le concepteur d’opérations ER.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Terminer la conception du format
 
@@ -1178,7 +1178,7 @@ Le statut de la version 1.2 de cette configuration est modifié de **Brouillon*
 
 Notez que le pied de page du rapport généré contient le nom du format ER qui a été utilisé pour le générer.
 
-![Fichier généré dans le format Excel](./media/er-quick-start1-report4.png)
+![État généré au format Excel.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Exécuter un format à partir d’ER
 
@@ -1199,7 +1199,7 @@ Notez que le pied de page du rapport généré ne contient pas le nom du format 
 3. Sur le raccourci **Destination du fichier**, configurez la [destination](er-destination-type-screen.md) **Écran** pour le composant de format **Rapport** qui a été [ajouté](#AddFormatRootElement) comme élément racine de format ER **Rapport questionnaire** de la configuration.
 4. Sur le raccourci **Paramètres de conversion PDF**, configurez la destination pour convertir un rapport au [format PDF](electronic-reporting-destinations.md#OutputConversionToPDF) qui utilise l’orientation de page **Paysage**.
 
-![Configuration de la destination d’écran personnalisée pour le format ER sur la page de destination des rapports électroniques](./media/er-quick-start1-destination.png)
+![Configuration de la destination d’écran personnalisée pour le format ER sur la page de destination des états électroniques.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Exécuter un format à partir de l’application pour le prévisualiser sous forme de document PDF
 
@@ -1211,12 +1211,12 @@ Notez que le pied de page du rapport généré ne contient pas le nom du format 
 
     Sur le raccourci **Destinations**, notez que le champ **Production** est défini sur **Écran**. Si vous souhaitez modifier la destination configurée, sélectionnez **Modifier**.
 
-    ![Boîte de dialogue d’exécution du rapport ER dans laquelle vous pouvez modifier la destination configurée](./media/er-quick-start1-run-settings.png)
+    ![Boîte de dialogue d’exécution de l’état ER dans laquelle vous pouvez modifier la destination configurée.](./media/er-quick-start1-run-settings.png)
 
 6. Sélectionnez **OK** pour exécuter l’état.
 7. Examinez le fichier généré dans le format PDF.
 
-    ![Aperçu à l’écran du rapport généré dans le format PDF](./media/er-quick-start1-preview-PDF.png)
+    ![Aperçu à l’écran de l’état généré au format PDF.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Ressources supplémentaires
 
@@ -1233,3 +1233,6 @@ Notez que le pied de page du rapport généré ne contient pas le nom du format 
 - [Fonction IF](er-functions-logical-if.md)
 - [Fonction ORDERBY](er-functions-list-orderby.md)
 - [Fonction SESSIONNOW](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

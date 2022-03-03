@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721317"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103361"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Remplacer le principe de réservation par défaut pour les articles en production
 
@@ -31,12 +31,9 @@ Lorsque vous créez un ordre de fabrication ou une commande par lots, vous êtes
 
 Par exemple, si des matières premières ou des ingrédients nécessitent un travail de prélèvement, les lignes de nomenclature ou de formule créées pour ces produits nécessitent une réservation physique, car la réservation physique est une condition préalable à la génération du travail en entrepôt. Généralement, si vous souhaitez que la réservation se produise automatiquement, vous sélectionnez l’un des principes de réservation suivants : *estimation*, *planification*, *lancement* ou *démarrage*. En revanche, si des matières premières ou des ingrédients ne nécessitent pas de travail de prélèvement, car ils sont consommés directement à partir d’un emplacement, vous sélectionnez généralement le principe de réservation *manuel*, qui ne crée aucune réservation physique ni génère aucun travail de prélèvement.
 
-## <a name="turn-on-the-feature"></a>Activer la fonctionnalité
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Remplacer la réservation de production par défaut
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Contrôle de la production*
-- **Nom de la fonctionnalité :** *Remplacer la réservation de production par défaut*
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Remplacer la réservation de production par défaut* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Attribuer une stratégie de réservation de production à un groupe de modèles d’article
 

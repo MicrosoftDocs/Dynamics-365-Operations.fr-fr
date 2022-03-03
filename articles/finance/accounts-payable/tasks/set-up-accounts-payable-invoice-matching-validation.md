@@ -2,26 +2,23 @@
 title: Configurer la validation du rapprochement de factures de la comptabilité fournisseur
 description: Cette rubrique fournit des informations sur le paramétrage de la validation du rapprochement de factures de la comptabilité fournisseur.
 author: abruer
-manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443113"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182553"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurer la validation du rapprochement de factures de la comptabilité fournisseur
 
@@ -35,7 +32,7 @@ Il existe quatre types de validation du rapprochement.
 - **Rapprochement au niveau ligne** – Le type le plus courant de rapprochement est le rapprochement au niveau ligne. Le rapprochement au niveau ligne peut être à deux ou trois facteurs. Le rapprochement au niveau ligne par défaut peut être spécifié pour une entité juridique sur la page **Paramètres de la comptabilité fournisseur**. Le rapprochement à deux facteurs compare le prix unitaire de la facture avec celui de la commande fournisseur. Le rapprochement à trois facteurs compare la quantité de la facture à la quantité de l’accusé de réception correspondant.
 - **Rapprochement des totaux des factures** – Rapproche les montants totaux de la facture avec ceux de la commande fournisseur Ce type de rapprochement de factures inclut un minimum d’informations afin que vous puissiez utiliser cette option pour paramétrer des contrôles qui réduisent le temps de travail requis pour réviser les informations de rapprochement de factures. Six totaux sont comparés, notamment le sous-total, la remise totale, les frais, les taxes, l’arrondi et le montant de la facture. Le système valide si l’une de ces valeurs sur la facture s’écarte du montant prévu de plus que l’écart acceptable.
 - **Rapprochement des frais** – Rapproche les informations de frais (montants) de la facture avec celles de la commande fournisseur.
-- **Rapprochement des prix totaux par ligne article** – Ce type de rapprochement est utile pour les sociétés qui reçoivent généralement plusieurs factures pour une seule ligne de commande fournisseur. Si vous recevez généralement une seule facture par ligne de commande fournisseur, ce type de rapprochement n’est pas nécessaire. Ce rapprochement nécessite que le rapprochement à deux ou trois facteurs soit activé et sert de validation du montant net à ne pas dépasser, selon les pourcentages et les montants de tolérance.  Ce type de rapprochement compare les informations de prix relatives au montant net de chaque ligne de la facture et de toutes les lignes de facture en attente et précédemment validées avec le montant net de la ligne de commande fournisseur correspondante. Le montant net est déterminé par la formule suivante : (Prix unitaire * Quantité de la ligne) + Frais de la ligne - Remises de la ligne. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l’aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l’aide de la devise comptable.
+- **Rapprochement des prix totaux par ligne article** – Ce type de rapprochement est utile pour les sociétés qui reçoivent généralement plusieurs factures pour une seule ligne de commande fournisseur. Si vous recevez généralement une seule facture par ligne de commande fournisseur, ce type de rapprochement n’est pas nécessaire. Ce rapprochement nécessite que le rapprochement à deux ou trois facteurs soit activé et sert de validation du montant net à ne pas dépasser, selon les pourcentages et les montants de tolérance.  Ce type de rapprochement compare les informations de prix relatives au montant net de chaque ligne de la facture et de toutes les lignes de facture en attente et précédemment validées avec le montant net de la ligne de commande fournisseur correspondante. Le montant net est déterminé par la formule suivante : (Prix unitaire * Quantité de la ligne) + Frais de la ligne – Remises de la ligne. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l’aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l’aide de la devise comptable.
 
 ## <a name="set-up-parameters-to-enable-invoice-matching-validation"></a>Configurer les paramètres pour activer la validation du rapprochement de factures
 1. Accédez à **Comptabilité fournisseur > Configuration > Paramètres de la comptabilité fournisseur**.
@@ -57,7 +54,7 @@ Il existe quatre types de validation du rapprochement.
 12. Dans le champ **Tolérance du prix d’achat total**, entrez un montant dans la devise comptable. Ce champ est disponible quand **Mettre en correspondance les prix totaux** est défini sur **Montant** ou **Pourcentage et montant**.
 13. Le champ **Afficher l’icône de correspondance de prix total** permet de choisir si une icône s’affiche quand un écart dans le rapprochement de factures dépasse la tolérance. L’icône peut être affichée quand un écart positif dépasse la tolérance ou quand un écart positif OU négatif dépasse la tolérance.
 Par exemple, la tolérance est de 5 % et la ligne du total des prix sur la commande fournisseur est 10,00. Par conséquent, une icône de correspondance des prix s’affiche si la ligne du total des prix de la facture dépasse 10,50. Si vous sélectionnez **Si supérieur ou inférieur à la tolérance**, l’icône s’affiche également si le total des lignes de prix de la facture est inférieur à 9,50.
-13. Définissez la mise en correspondance des frais.
+13. Définissez la **mise en correspondance des frais**.
 14. Pour faire correspondre les frais réels avec les frais prévus, selon les informations sur la commande fournisseur, activez la case à cocher **Mettre en correspondance les frais**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Paramétrage des pourcentages de tolérance de prix unitaire
@@ -78,7 +75,7 @@ Les différences de prix négatives sont autorisées par défaut. Toutefois, vou
 
 ## <a name="set-up-matching-policy-override"></a>Configurer le remplacement de la stratégie de rapprochement
 
-Accédez à **Comptabilité fournisseur > Paramétrage >Paramétrage du rapprochement de factures > Stratégie de rapprochement** pour définir l’entrée par défaut du champ Stratégie de rapprochement pour les lignes de la commande fournisseur. Cette configuration est facultative. Cet écran permet de paramétrer le rapprochement à deux ou trois facteurs pour les articles, les fournisseurs ou les combinaisons article/fournisseur. Ces entrées permettent de définir des stratégies de rapprochement plus granulaires que la stratégie de rapprochement de l’entité juridique que vous avez définie dans la page **Paramètres de la comptabilité fournisseur**. La stratégie de rapprochement des lignes par défaut de l’entité juridique s’applique à tous les articles et les fournisseurs hormis ceux pour lesquels une autre stratégie de rapprochement des lignes est spécifiée dans cette page.
+Accédez à **Comptabilité fournisseur > Paramétrage >Paramétrage du rapprochement de factures > Stratégie de rapprochement** pour définir l’entrée par défaut du champ **Stratégie de rapprochement** pour les lignes de la **commande fournisseur**. Cette configuration est facultative. Cette page permet de paramétrer le rapprochement à deux ou trois facteurs pour les articles, les fournisseurs ou les combinaisons article/fournisseur. Ces entrées permettent de définir des stratégies de rapprochement plus granulaires que la stratégie de rapprochement de l’entité juridique que vous avez définie dans la page **Paramètres de la comptabilité fournisseur**. La stratégie de rapprochement des lignes par défaut de l’entité juridique s’applique à tous les articles et les fournisseurs hormis ceux pour lesquels une autre stratégie de rapprochement des lignes est spécifiée dans cette page.
 
 Dans cette page, sélectionnez **Niveau de la stratégie de rapprochement**. Sélectionnez le niveau dans la hiérarchie des stratégies de rapprochement pour lequel des stratégies de rapprochement des lignes doivent être définies.
 
@@ -98,3 +95,6 @@ Accédez à **Comptabilité fournisseur > Paramétrage > Paramétrage du rapproc
 
 1. Pour spécifier des tolérances pour des fournisseurs individuels qui remplacent la tolérance par défaut, sélectionnez un **Compte fournisseur**.
 2. Entrez le pourcentage d’écart que vous accepterez pour ce fournisseur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

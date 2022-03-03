@@ -2,11 +2,9 @@
 title: Différer l’exécution des éléments de séquence aux formats ER
 description: Cette rubrique explique comment reporter l’exécution d’un élément de séquence au format d’état électronique (ER).
 author: NickSelin
-manager: kfend
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680732"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323688"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Différer l’exécution des éléments de séquence aux formats ER
 
@@ -30,7 +28,7 @@ ms.locfileid: "4680732"
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Vous pouvez utiliser le concepteur des opérations du cadre [États électroniques (ER)](general-electronic-reporting.md) pour [configurer ](tasks/er-format-configuration-2016-11.md)le [composant de format ](general-electronic-reporting.md#FormatComponentOutbound)d’une solution ER utilisée pour générer des documents sortants au format texte. La structure hiérarchique du composant de format configuré se compose d’éléments de format de différents types. Ces éléments de format sont utilisés pour remplir les documents générés avec les informations requises lors de l’exécution. Par défaut, lorsque vous exécutez un format ER, les éléments de format sont exécutés dans le même ordre qu’ils sont présentés dans la hiérarchie des formats : un par un, de haut en bas. Cependant, au moment de la conception, vous pouvez modifier l’ordre d’exécution pour tous les éléments de séquence du composant de format configuré.
+Vous pouvez utiliser le concepteur des opérations du cadre [États électroniques (ER)](general-electronic-reporting.md) pour [configurer](tasks/er-format-configuration-2016-11.md) le composant de format d’une solution ER utilisée pour générer des documents sortants au format texte. La structure hiérarchique du composant de format configuré se compose d’éléments de format de différents types. Ces éléments de format sont utilisés pour remplir les documents générés avec les informations requises lors de l’exécution. Par défaut, lorsque vous exécutez un format ER, les éléments de format sont exécutés dans le même ordre qu’ils sont présentés dans la hiérarchie des formats : un par un, de haut en bas. Cependant, au moment de la conception, vous pouvez modifier l’ordre d’exécution pour tous les éléments de séquence du composant de format configuré.
 
 En activant l’option <a name="DeferredSequenceExecution"></a>**Exécution différée** pour un élément de format de séquence au format configuré, vous pouvez différer (reporter) l’exécution de cet élément. Dans ce cas, l’élément n’est pas exécuté tant que tous les autres éléments de son parent n’ont pas été exécutés.
 
@@ -44,7 +42,7 @@ L’option **Exécution différée** ne s’applique pas aux séquences qui ont 
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Exemple : différer l’exécution d’un élément de séquence au format ER
 
-Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l’administrateur système ou des états électroniques [rôle ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)peut configurer un format ER qui contient un élément de séquence où l’ordre d’exécution diffère de l’ordre dans la hiérarchie des formats.
+Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l’administrateur système ou des états électroniques [rôle ](../sysadmin/tasks/assign-users-security-roles.md)peut configurer un format ER qui contient un élément de séquence où l’ordre d’exécution diffère de l’ordre dans la hiérarchie des formats.
 
 Ces étapes peuvent être effectuées dans la société fictive **USMF** dans Microsoft Dynamics 365 Finance.
 
@@ -59,14 +57,14 @@ Si vous n’avez pas encore terminé l’exemple dans la rubrique [Différer l�
 
 | Description du contenu            | Nom de fichier |
 |--------------------------------|-----------|
-| Configuration de modèle de données ER    | [Modèle d’apprentissage des éléments différés.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuration de mise en correspondance de modèle ER | [Modèle d’apprentissage des éléments différés.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuration de modèle de données ER    | [Modèle d’apprentissage des éléments différés.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuration de mise en correspondance de modèle ER | [Modèle d’apprentissage des éléments différés.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Avant de commencer, vous devez également télécharger et enregistrer la configuration suivante de l’exemple de solution ER.
 
 | Description du contenu     |Nom de fichier |
 |-------------------------|----------|
-| Configuration de format ER | [Format d’apprentissage des séquences différées.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuration de format ER | [Format d’apprentissage des séquences différées.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importer l’exemple de configurations ER
 
@@ -90,14 +88,14 @@ Avant de commencer, vous devez également télécharger et enregistrer la config
 6. Dans l’arborescence de configuration, développez **Modèle d’apprentissage des éléments différés**.
 7. Consultez la liste des configurations ER importées dans l’arborescence de configuration.
 
-    ![Configurations ER importées sur la page Configurations](./media/ER-DeferredSequence-Configurations.png)
+    ![Configurations ER importées sur la page Configurations.](./media/ER-DeferredSequence-Configurations.png)
 
 ### <a name="activate-a-configurations-provider"></a>Activer un fournisseur de configurations
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l’exemple de société Litware, Inc. (`http://www.litware.com`) est répertorié, et qu’il est marqué comme actif. Si ce fournisseur de configuration n’est pas répertorié ou s’il n’est pas marqué comme actif, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![Exemple de société Litware, Inc. sur la page Configurations de localisation](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+    ![Exemple de société Litware, Inc. sur la page Configurations de localisation.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Examiner la mise en correspondance des modèles importés
 
@@ -119,7 +117,7 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
     - La source de données **Groupé** du type *Grouper par* est configurée pour regrouper les transactions fiscales filtrées de la source de données **Filtré**.
     - Le champ d’agrégation **TotalSum** de la source de données **Groupé** est configuré pour résumer les valeurs du domaine **\$TaxAmount** de la source de données **Filtré** pour toutes les transactions fiscales filtrées de cette source de données.
 
-        ![Champ d’agrégation TotalSum sur la page Modifier les paramètres « GroupBy »](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![Champ d’agrégation TotalSum sur la page Modifier les paramètres « GroupBy ».](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. Vérifiez comment les sources de données configurées sont liées au modèle de données et comment elles exposent les données accédées pour les rendre disponibles au format ER :
 
@@ -127,7 +125,7 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
     - Le champ **\$TaxAmount** de la source de données **Filtré** est liée au champ **Data.List.Value** du modèle de données.
     - Le champ **TotalSum** de la source de données **Groupé** est liée au champ **Data.Summary.Total** du modèle de données.
 
-    ![Page Concepteur de mise en correspondance de modèle](./media/ER-DeferredSequence-ModelMapping.png)
+    ![Page Concepteur de mise en correspondance de modèle.](./media/ER-DeferredSequence-ModelMapping.png)
 
 10. Fermez les pages **Concepteur de mise en correspondance de modèle** et **Mappages de modèles**.
 
@@ -140,12 +138,12 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
 
     - L’élément de format de séquence **Rapport \\Lignes** est configuré pour remplir le document sortant avec une seule ligne générée à partir des éléments de séquence imbriqués (**Entête**, **Enregistrement**, et **Récapitulatif**).
 
-        ![Élément de format de séquence de lignes et éléments imbriqués sur la page Concepteur de format](./media/ER-DeferredSequence-Format.png)
+        ![Élément de format de séquence de lignes et éléments imbriqués sur la page Concepteur de format.](./media/ER-DeferredSequence-Format.png)
 
     - L’élément de format de séquence **Rapport \\Lignes \\Entête** est configuré pour remplir le document sortant avec une seule ligne d’en-tête qui indique la date et l’heure de début du traitement.
     - L’élément de format de séquence **Rapport \\Lignes \\Enregistrement** est configuré pour remplir le document sortant avec une seule ligne qui affiche les détails des transactions fiscales individuelles. Ces transactions fiscales sont séparées par un point-virgule.
 
-        ![Élément de format de séquence d’enregistrement qui utilise un point-virgule comme délimiteur](./media/ER-DeferredSequence-Format1.png)
+        ![Élément de format de séquence d’enregistrement qui utilise un point-virgule comme délimiteur.](./media/ER-DeferredSequence-Format1.png)
 
     - L’élément de format de séquence **Rapport \\Lignes \\Récapitulatif** est configuré pour remplir le document sortant avec une seule ligne récapitulative qui inclut la somme des valeurs de taxe des transactions fiscales traitées.
 
@@ -164,14 +162,14 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
     - L’élément **TotalTaxAmount** est lié à **model.Data.Summary.Total** pour générer la somme des valeurs fiscales des transactions fiscales traitées.
     - L’élément **ExecutionDateTime** génère la date et l’heure (y compris les millisecondes) lorsque la ligne récapitulative est ajoutée.
 
-    ![Onglet Mise en correspondance de la page Concepteur de format](./media/ER-DeferredSequence-Format2.png)
+    ![Onglet Mise en correspondance de la page Concepteur de format.](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Exécuter le format ER importé
 
 1. Dans la page **Concepteur de format**, sélectionnez **Exécuter**.
 2. Téléchargez le fichier proposé par le navigateur Web et ouvrez-le pour examen.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run.png)
+    ![Exemple de fichier d’état téléchargé.](./media/ER-DeferredSequence-Run.png)
 
 Notez que la ligne récapitulative 22 présente la somme des valeurs fiscales pour les transactions traitées. Parce que le format est configuré pour utiliser le **model.Data.Summary.Total** utilisé pour retourner cette somme, la somme est calculée en appelant l’aggrégation **TotalSum** de la source de données **Groupé** du type *GroupBy* qui utilise la mise en correspondance de modèle. Pour calculer cette agrégation, le mappage de modèle itère sur toutes les transactions qui ont été sélectionnées dans la source de données **Filtré**. En comparant les temps d’exécution des lignes 21 et 22, vous pouvez déterminer que le calcul de la somme a pris 10 millisecondes (ms). En comparant les temps d’exécution des lignes 2 et 21, vous pouvez déterminer que la génération de toutes les lignes de transaction a pris 7 millisecondes (ms). Par conséquent, un total de 17 ms était nécessaire.
 
@@ -185,12 +183,12 @@ Si le volume des transactions est beaucoup plus important que le volume dans l�
 4. Configurez l’expression **Nom de clé de données collectées** comme `WsColumn`.
 5. Configurez l’expression **Valeur de clé de données collectées** comme `WsRow`.
 
-    ![Élément de séquence de lignes sur la page Concepteur de format](./media/ER-DeferredSequence-Format3.png)
+    ![Élément de séquence de lignes sur la page Concepteur de format.](./media/ER-DeferredSequence-Format3.png)
 
 6. Sélectionnez l’élément numérique **Rapport \\Lignes \\Enregistrement \\TaxAmount**.
 7. Configurez l’expression **Nom de clé de données collectées** comme `SummingAmountKey`.
 
-    ![Élément numérique TaxAmount sur la page Concepteur de format](./media/ER-DeferredSequence-Format4.png)
+    ![Élément numérique TaxAmount sur la page Concepteur de format.](./media/ER-DeferredSequence-Format4.png)
 
     Vous pouvez considérer ce paramètre comme la création d’une feuille de calcul virtuelle, où la valeur de la cellule A1 est ajoutée à la valeur du montant de la taxe de chaque transaction fiscale traitée.
 
@@ -198,13 +196,13 @@ Si le volume des transactions est beaucoup plus important que le volume dans l�
 9. Configurez l’expression `SUMIF(SummingAmountKey, WsColumn, WsRow)` en utilisant la fonction intégrée [SUMIF](er-functions-datacollection-sumif.md).
 10. Sélectionnez **Enregistrer**.
 
-    ![Expression SUMIF](./media/ER-DeferredSequence-FormulaDesigner.png)
+    ![Expression SUMIF.](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. Fermez la page **Concepteur de formule**.
 12. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 13. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run1.png)
+    ![Fichier téléchargé - Valeurs fiscales totales.](./media/ER-DeferredSequence-Run1.png)
 
     La ligne 21 contient le total cumulé des valeurs de taxe qui est calculé pour toutes les transactions traitées en utilisant la sortie générée comme source de données. Cette source de données commence au début du rapport et se poursuit jusqu’à la dernière transaction fiscale. La ligne 22 contient la somme des valeurs de taxe pour toutes les transactions traitées qui sont calculées dans le mappage de modèle en utilisant la source de données du type *GroupBy*. Notez que ces valeurs sont égales. Par conséquent, la somme basée sur la sortie peut être utilisée au lieu de **GroupBy**. En comparant les temps d’exécution des lignes 2 et 21, vous pouvez déterminer que la génération de toutes les lignes de transaction et de la somme a pris 9 millisecondes (ms). Par conséquent, en ce qui concerne la génération de lignes détaillées et la somme des valeurs fiscales, le format modifié est environ deux fois plus rapide que le format d’origine.
 
@@ -213,7 +211,7 @@ Si le volume des transactions est beaucoup plus important que le volume dans l�
 16. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 17. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run2.png)
+    ![Fichier téléchargé avec formule modifiée.](./media/ER-DeferredSequence-Run2.png)
 
     Notez que le total cumulé des valeurs de taxe sur la dernière ligne de détails de transaction est désormais égal à la somme sur la ligne de résumé.
 
@@ -226,7 +224,7 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run3.png)
+    ![Fichier téléchargé pour la somme dans l'en-tête de l’état.](./media/ER-DeferredSequence-Run3.png)
 
     Notez que la somme des valeurs de taxe sur la ligne récapitulative 2 est désormais égale à 0 (zéro), car cette somme est désormais calculée en fonction de la sortie générée. Lorsque la ligne 2 est générée, la sortie générée ne contient pas encore de lignes contenant les détails de transaction. Vous pouvez configurer ce format pour différer l’exécution de l’élément de séquence **Rapport \\Lignes \\Récapitulatif** jusqu’à ce que l’élément de séquence **Rapport \\Lignes \\Enregistrement** ait été exécuté pour toutes les transactions fiscales.
 
@@ -235,12 +233,12 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 1. Sur la page **Concepteur de format**, dans l’onglet **Format**, sélectionnez l’élément de séquence **Rapport\\Lignes\\Récapitulatif**.
 2. Définissez l’option **Exécution différée** sur **Oui**.
 
-    ![Option d’exécution différée de l’élément de séquence récapitulatif sur la page Concepteur de format](./media/ER-DeferredSequence-Format5.png)
+    ![Option d’exécution différée de l’élément de séquence récapitulatif sur la page Concepteur de format.](./media/ER-DeferredSequence-Format5.png)
 
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run4.png)
+    ![Fichier téléchargé - exécution différée.](./media/ER-DeferredSequence-Run4.png)
 
     L’élément de séquence **Rapport \\Lignes \\Récapitulatif** n’est désormais exécuté qu’après que tous les autres éléments imbriqués sous son élément parent, **Rapport \\Lignes**, ont été exécutés. Par conséquent, il est exécuté après que l’élément de séquence **Rapport \\Lignes \\Enregistrement** a été exécuté pour toutes les transactions fiscales de la source de données **model.Data.List**. Les temps d’exécution des lignes 1, 2 et 3 et de la dernière ligne 22 indiquent cela.
 
@@ -249,3 +247,6 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 - [Configurer le format pour effectuer le comptage et la synthèse](./tasks/er-format-counting-summing-1.md)
 - [Suivez l’exécution du format d’ER pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 - [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

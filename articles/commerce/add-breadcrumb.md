@@ -2,15 +2,12 @@
 title: Module de piste de navigation
 description: Cette rubrique couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517158"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109730"
 ---
-# <a name="breadcrumb-module"></a>Module de piste de navigation
+# <a name="breadcrumb-module"></a>Module de barre de navigation
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules de piste de navigation sont utilisés pour offrir une navigation secondaire sur les pages du site. Ils sont généralement affichés en haut d’une page, sous l’en-tête. Bien que des modules de piste de navigation puissent être ajoutés à n’importe quelle page, ils sont le plus souvent utilisés sur les pages de détails du produit (PDP), pour afficher la hiérarchie de catégories de produits et fournir un moyen rapide de se déplacer sur un site. Un module de piste de navigation peut également être utilisé pour afficher un lien « Retour aux résultats » lorsque les utilisateurs ouvrent une page PDP à partir d’une page de recherche ou de liste. De cette façon, les utilisateurs peuvent retourner rapidement à leur page de liste filtrée pour continuer leurs achats.
 
@@ -42,7 +37,7 @@ Sur les pages qui présentent un contexte de catégorie de produit, telles que l
 
 L’image suivante montre un exemple de module de piste de navigation qui montre la hiérarchie des catégories sur une page PDP.
 
-![Exemple de module de piste de navigation](./media/ecommerce-breadcrumb.PNG)
+![Exemple de module de piste de navigation.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Paramètres du module de piste de navigation
 
@@ -53,7 +48,7 @@ Le module de piste de navigation repose sur le **Type d’affichage de la piste 
 - **Afficher la hiérarchie de catégories et retour aux résultats** – Cette valeur est une combinaison des deux précédentes. Lorsque cette valeur est sélectionnée, le module de piste de navigation affiche à la fois la hiérarchie complète des catégories et un lien « Retour aux résultats » (s’il est configuré) sur une PDP.
 
 > [!IMPORTANT]
-> Ces paramètres sont disponibles dans la version 10.0.12 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d'une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+> Ces paramètres sont disponibles dans la version 10.0.12 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="breadcrumb-module-properties"></a>Propriétés du module de piste de navigation
 
@@ -86,12 +81,15 @@ Pour ajouter un module de piste de navigation à une page PDP et définir les pr
 
 [Module du menu de navigation](nav-menu-module.md)
 
-[Module Sélecteur de site](site-selector.md)
+[Module de sélection de site](site-selector.md)
 
-[Vue d'ensemble de la page d'arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
+[Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
 
 [Modules de collecte de produits](product-collection-module-overview.md)
 
 [Module Zone d’achat](add-buy-box.md)
 
 [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

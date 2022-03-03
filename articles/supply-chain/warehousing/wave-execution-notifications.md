@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 26810f6e21f9c8ba6e92621a8e1ddee17837b6048107b961afb0e428059051af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752582"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103237"
 ---
 # <a name="wave-execution-notifications"></a>Notifications d’exécution de vague
 
@@ -28,14 +28,11 @@ La fonctionnalité *Notifications d’exécution de vague* utilise des événeme
 
 Le bouton **Afficher les messages** (symbole de la cloche) sur le côté droit de la barre de navigation indique quand un message du centre d’action est disponible pour l’utilisateur actuel. L’utilisateur peut sélectionner le bouton **Afficher les messages** pour ouvrir le centre de notifications et consulter les messages.
 
-Les événements commerciaux se produisent lors de l’exécution des processus métier. Les processus métier sont constitués de tâches. Au cours d’un processus métier, les utilisateurs qui y participent exécutent des actions métier pour effectuer ces tâches. Les événements commerciaux fournissent un mécanisme permettant aux systèmes externes de recevoir des notifications de la part des applications Finance and Operations. De cette manière, les systèmes peuvent effectuer des actions métier en réponse aux événements commerciaux. Pour plus d’informations, consultez [Présentation des événements commerciaux](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Les événements commerciaux se produisent lors de l’exécution des processus métier. Les processus métier sont constitués de tâches. Au cours d’un processus métier, les utilisateurs qui y participent exécutent des actions métier pour effectuer ces tâches. Les événements commerciaux fournissent un mécanisme permettant aux systèmes externes de recevoir des notifications de la part des applications Finances et Opérations. De cette manière, les systèmes peuvent effectuer des actions métier en réponse aux événements commerciaux. Pour plus d’informations, consultez [Présentation des événements commerciaux](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>Activer la fonctionnalité de notifications d’exécution de vague
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de notifications d’exécution de vague
 
-Avant de pouvoir utiliser la fonctionnalité *Notifications d’exécution de vague*, celle-ci doit être activée sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
-
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Notifications d’exécution de vague*
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Notifications d’exécution de vague* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Scénario : envoyer des notifications d’exécution du traitement par lots d’une vague au centre de notifications
 

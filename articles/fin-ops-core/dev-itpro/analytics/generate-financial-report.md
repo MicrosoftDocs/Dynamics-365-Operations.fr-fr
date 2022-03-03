@@ -2,7 +2,7 @@
 title: Générer les états financiers
 description: Cette rubrique fournit des informations sur la génération d’un état financier.
 author: jinniew
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 101cf2b29bb6f91cec5a3dac0be30b53388905c96ecf481f5b7b3e90cda3f804
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740261"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119501"
 ---
 # <a name="generate-financial-reports"></a>Générer les états financiers
 
@@ -28,9 +28,22 @@ ms.locfileid: "6740261"
 
 Cette rubrique fournit des informations sur la génération d’un état financier.
 
-Pour générer un état, ouvrez la définition d’état, puis sélectionnez le bouton **Générer** dans la barre d’outils. La page **État de la file d’attente d’états** s’ouvre et affiche l’emplacement de votre état dans la file d’attente. Par défaut, l’état généré s’affiche dans la visionneuse Web.
+Pour générer un état, ouvrez la définition d’état, puis dans la barre d’outils, sélectionnez **Générer**. La page **État de la file d’attente d’états** s’ouvre et indique l’emplacement de votre état dans la file d’attente.
 
-Les options suivantes sont disponibles pour la génération d’états :
+Au fur et à mesure que la génération du rapport progresse, les indicateurs d’état de la file d’attente de rapports suivants peuvent être visibles sur la page **Signaler l’état de la file d’attente**.
+
+| Statut          | Région | Description|
+|-----------------|--------|--------------------|
+| Mise en file d'attente        | Provisoire |La définition du rapport est validée avant que le rapport ne soit placé dans la file d’attente de génération.                    |
+| Mis en file d'attente          | Provisoire | Le rapport entre dans la file d’attente de génération de rapports et attend d’être traité.                      |
+| Traitement en cours      | Provisoire | Ce statut suit généralement le statut **En file d’attente** et passe généralement à un état **Final** lorsque le traitement est terminé.       |
+| Post-traitement | Provisoire | Ce statut fait suite à le statut **Traitement** et indique que toutes les données du rapport sont collectées, mais que des actions dérivées, telles que le calcul et le cumul, sont en cours d’exécution.            |
+| Annulation en cours      | Provisoire | Le signalement est annulé à la demande de l’utilisateur. Cet état résulte d’une annulation demandée par l’utilisateur pour un rapport à l’état **En file d’attente** ou **Traitement**. Le système tente de placer le rapport à l’état **Annulé**, sauf si le système est trop avancé et doit le finaliser dans un autre état. |
+| Annulé        | Final | Le traitement du rapport est terminé, mais n’a pas abouti en raison d’un arrêt demandé par l’utilisateur.            |
+| Terminé       | Final | Le rapport est prêt à être utilisé.                      |
+| Échec          | Final | Le rapport a terminé le traitement mais a échoué et ne doit pas être utilisé. |
+
+Par défaut, l’état généré s’affiche dans la visionneuse Web. Les options suivantes sont disponibles pour la génération d’états :
 
 - Paramétrer un calendrier pour générer un état ou un groupe d’états automatiquement
 - Vérifier les comptes manquants ou les données manquants dans un état, et validez la précision d’un état

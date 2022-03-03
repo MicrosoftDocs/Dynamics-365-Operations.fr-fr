@@ -1,33 +1,30 @@
 ---
-title: Réception du contenant via l’application d’entrepôt
-description: Cette rubrique explique comment configurer l’application d’entrepôt pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
+title: Réception du contenant via l’application mobile Gestion des entrepôts
+description: Cette rubrique explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428271"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103061"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Réception du contenant via l’application d’entrepôt
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Réception du contenant via l’application mobile Gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer l’application d’entrepôt pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
+Cette rubrique explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
 
 Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement la réception du stock entrant lié à un avis préalable d’expédition (APE). Le système crée automatiquement un APE lorsque des processus de gestion d’entrepôt sont utilisés pour expédier un ordre de transfert. Pour le processus de commande fournisseur, un APE peut être enregistré manuellement ou il peut être automatiquement importé à l’aide d’un processus d’entité de données APE entrant.
 
@@ -73,22 +70,20 @@ Pour rendre cette fonctionnalité disponible sur votre système, vous devez acti
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Afficher ou ignorer la page récapitulative de réception
 
-Vous pouvez utiliser la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* pour bénéficier d’un flux d’application Entrepôt détaillé supplémentaire dans le cadre du processus de réception des contenants.
+Vous pouvez utiliser la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* pour bénéficier d’un flux de l’application mobile Gestion des entrepôts détaillé supplémentaire dans le cadre du processus de réception des contenants.
 
 Lorsque cette fonction est activée, les options de menu d’appareil mobile pour la réception des contenants ou la réception et le rangement des contenants fourniront un paramètre **Afficher la page récapitulative de réception**. Ce paramètre a les options suivantes :
 
 - **Afficher un résumé détaillé** - Pendant la réception des contenants, les collaborateurs verront une page supplémentaire qui affiche les informations complètes de l’APE.
 - **Ignorer le récapitulatif** - Les collaborateurs ne verront pas les informations complètes de l’APE. Les collaborateurs de l’entrepôt ne sont également pas en mesure de définir un code de disposition ou d’ajouter des exceptions pendant le processus de réception.
 
-Pour rendre cette fonctionnalité disponible sur votre système, vous devez activer la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour utiliser cette fonctionnalité disponible sur votre système, la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* doit être activée pour votre système. À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Contrôler l’affichage ou non d’une page de résumé de réception sur les appareils mobiles* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Empêcher les contenants expédiés par ordre de transfert d’être utilisés dans des entrepôts autres que l’entrepôt de destination
 
 Un processus de réception des contenant ne peut pas être utilisé si un APE contient un ID de contenant qui existe déjà et possède des données de disponibilité physique à un emplacement d’entrepôt autre que l’emplacement de l’entrepôt où l’enregistrement de contenant a lieu.
 
-Pour les scénarios d’ordre de transfert dans lesquels l’entrepôt de transit ne suit pas les contenants (et ne suit donc pas non plus l’inventaire physique en stock par contenant), vous pouvez utiliser la fonctionnalité *Empêcher l’utilisation des contenants expédiés par ordre de transfert dans d’autres entrepôts que l’entrepôt de destination* pour empêcher les mises à jour physiques des contenants en transit.
-
-Pour rendre cette fonctionnalité disponible sur votre système, vous devez activer la fonctionnalité *Empêcher l’utilisation des contenants expédiés par ordre de transfert dans d’autres entrepôts que l’entrepôt de destination* dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pour les scénarios d’ordre de transfert dans lesquels l’entrepôt de transit ne suit pas les contenants (et ne suit donc pas non plus l’inventaire physique en stock par contenant), vous pouvez utiliser la fonctionnalité *Empêcher l’utilisation des contenants expédiés par ordre de transfert dans d’autres entrepôts que l’entrepôt de destination* pour empêcher les mises à jour physiques des contenants en transit. Pour rendre cette fonctionnalité disponible, la fonctionnalité *Empêcher l’utilisation des contenants expédiés par ordre de transfert dans d’autres entrepôts que l’entrepôt de destination* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en la recherchant dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Pour gérer la fonctionnalité lorsque cette fonctionnalité est disponible, procédez comme suit.
 
@@ -105,3 +100,6 @@ Pour plus d’informations sur les éléments de menu des appareils mobiles, voi
 Pour plus d’informations sur le scénario de production *Déclarer comme terminé*, voir la [Vue d’ensemble des stratégies de travail d’entrepôt](warehouse-work-policies.md).
 
 Pour plus d’informations sur la gestion des chargements entrants, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

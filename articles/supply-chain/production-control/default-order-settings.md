@@ -1,30 +1,27 @@
 ---
 title: Paramètres de commande par défaut pour les dimensions et les variantes de produit
 description: Les paramètres de commande par défaut définissent le site et l’entrepôt d’où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l’indicateur de fin, et la méthode de promesse de commande.
-author: t-benebo
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428181"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102761"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et les variantes de produits
 
@@ -50,12 +47,12 @@ Il existe trois types de paramètres de commande par défaut pour les achats, le
 - Lignes de commande fournisseur
 - Lignes de contrat d’achat
 - Lignes d’appel d’offre
-- Lignes de demande d'achat
+- Lignes de demande d’achat
 - Lignes de réapprovisionnement avec consignation (partiellement prises en charge, voir la note)
 - Commandes fournisseur prévisionnelles
 
 > [!NOTE]
-> Pour les lignes de commande de réapprovisionnement avec consignation, les seuls paramètres du raccourci **Commande fournisseur** de la page **Paramètres de commande par défaut** qui s'appliquent sont le champ **Site par défaut**, le champ **Entrepôt par défaut** et la case à cocher **Arrêté**.
+> Pour les lignes de commande de réapprovisionnement avec consignation, les seuls paramètres du raccourci **Commande fournisseur** de la page **Paramètres de commande par défaut** qui s’appliquent sont le champ **Site par défaut**, le champ **Entrepôt par défaut** et la case à cocher **Arrêté**.
 
 Les paramètres de commande par défaut pour les ventes sont utilisés lors de la création de :
 
@@ -118,10 +115,10 @@ Vous pouvez définir des règles de paramètrage de commande pour une dimension 
 
 Considérez l’exemple de produit suivant.
 
-|                                                     |                                         |
+| Article                                                | Valeur                                   |
 |-----------------------------------------------------|-----------------------------------------|
 | **Nom du produit**                                    | Capteur photoélectrique                    |
-| **Numéro d’article**                                     | XW56                                    |
+| **numéro d’article**                                     | XW56                                    |
 | **Configuration** (utilisée pour modéliser le type de lumière) | Lumière rouge C1-Visible, lumière infrarouge C2-Infrared |
 | **Version** | V1, V2, V3                              |
 
@@ -189,12 +186,9 @@ Vous pouvez choisir dans quelle mesure le système doit être strict lors de la 
 
 La validation stricte s’applique aux valeurs **Quantité de commande standard** spécifiées dans les organisateurs **Commande fournisseur**, **Stock** et **Commande client** de la page **Paramètres de commande par défaut**. Chaque organisateur a son propre paramètre **Multiple**, qui permet de valider la valeur **Quantité de commande standard** spécifiée pour cet organisateur.
 
-### <a name="enable-the-strict-validation-option"></a>Activer l’option de validation stricte
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Activer ou désactiver l’option de validation stricte
 
-Avant de pouvoir utiliser l’option de validation stricte, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. La fonctionnalité est répertoriée comme suit :
-
-- **Module** - *Gestion des informations sur les produits*
-- **Nom de la fonctionnalité** - *Validation stricte des quantités de commande par défaut*
+Pour utiliser une validation stricte, la fonctionnalité *Validation stricte des quantités de commande par défaut* doit être activée pour votre système. À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, vous pouvez ensuite activer ou désactiver cette fonctionnalité en accédant à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et en recherchant la fonction *Contrôle stricte des quantités de commande par défaut*.
 
 ### <a name="set-the-validation-option"></a>Définir l’option de validation
 
@@ -204,3 +198,6 @@ Pour définir l’option de validation :
 1. Dans l’onglet **Général**, définissez **Validation des quantités de commande par défaut** sur l’une des valeurs suivantes :
     - **Strict** : sélectionnez cette option pour que toutes les valeurs **Quantité de commande standard** soient un multiple de la valeur **Multiple** pour chaque organisateur (**Commande fournisseur**, **Stock** et **Commande client**).
     - **Standard** : sélectionnez cette option pour utiliser la validation standard (qui fonctionne de la même manière que lorsque cette fonctionnalité n’est pas activée).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

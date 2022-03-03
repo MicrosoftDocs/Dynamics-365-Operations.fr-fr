@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920721"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102711"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -35,17 +35,15 @@ Cette rubrique décrit chaque méthode en détail.
 
 La plupart des fonctionnalités de commandes prévisionnelles sont disponibles dans toutes les installations standard de Microsoft Dynamics 365 Supply Chain Management qui utilisent l’optimisation de la planification. Cependant, certaines des fonctionnalités décrites dans cette rubrique doivent être activées dans la gestion des fonctionnalités avant de pouvoir être utilisées.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Activer la confirmation de la mise en parallèle des commandes prévisionnelles
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activer ou désactiver la confirmation de la mise en parallèle des commandes prévisionnelles
 
-La confirmation de la mise en parallèle permet d’accélérer le processus de confirmation en le mettant en parallèle sur plusieurs threads. Cette approche peut être utile lorsque de nombreuses commandes prévisionnelles sont confirmées.
-
-Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation de la mise en parallèle des commandes prévisionnelles*. (Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+La confirmation de la mise en parallèle permet d’accélérer le processus de confirmation en le mettant en parallèle sur plusieurs threads. Cette approche peut être utile lorsque de nombreuses commandes prévisionnelles sont confirmées. Pour utiliser cette fonctionnalité, la fonctionnalité *Consolidation parallèle des commandes planifiées* doit être activée pour votre système. À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, vous pouvez ensuite activer ou désactiver cette fonctionnalité en accédant à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et en recherchant la fonction *Confirmation de la mise en parallèle des ordres prévisionnels*.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Activer la confirmation des commandes prévisionnelles avec filtrage
 
 La confirmation des commandes prévisionnelles avec filtrage vous permet de définir des critères logiques pour sélectionner les commandes prévisionnelles à confirmer. Vous pouvez également prévisualiser les commandes prévisionnelles sélectionnées, exécuter le processus en arrière-plan et/ou le planifier en tant que traitement par lots.
 
-Pour rendre cette fonctionnalité disponible dans votre système, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et activez la fonctionnalité *Confirmation des commandes prévisionnelles avec filtrage*.
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmation de l’ordre planifié avec filtrage* dans l’espace de travail [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Activer la confirmation automatique pour l’Optimisation de la planification
 

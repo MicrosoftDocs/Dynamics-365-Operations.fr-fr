@@ -1,26 +1,23 @@
 ---
 title: Paramétrage de la gestion du crédit
 description: Cette rubrique décrit la configuration requise pour la gestion des crédits.
-author: mikefalkner
-manager: AnnBe
-ms.date: 09/04/2019
+author: JodiChristiansen
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443043"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182441"
 ---
 # <a name="credit-management-setup"></a>Paramétrage de la gestion du crédit 
 
@@ -42,7 +39,7 @@ Vous pouvez mettre une commande client en attente si les modalités de paiement 
 
 Si le classement des modalités de paiement est actif et si les modalités de paiement sur la commande ont un rang supérieur à celles par défaut du client, la commande client sera mise en attente.
 
-Pour configurer le classement des modalités de paiement, accédez à **Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \>Classer les modalités de paiement.**  
+Pour configurer le classement des modalités de paiement, accédez à **Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \>Classer les modalités de paiement**.  
 
 ### <a name="ranking-settlement-discounts"></a>Classement des remises de règlement
 
@@ -89,7 +86,7 @@ Vous pouvez créer des statuts de compte sur la page **Statuts du compte** (**Cr
 
 ## <a name="scoring-groups"></a>Groupes de scores
 
-Vous pouvez configurer des groupes de notation pour définir les facteurs de risque et les critères utilisés pour les mesurer. Lorsque des informations sur un client sont appliquées à un groupe de notation, un score est calculé pour chaque facteur de risque et utilisé pour placer le client dans un groupe de risques. Le groupe de risques peut être utilisé pour identifier la solvabilité et calculer les limites de crédit automatiques.
+Vous pouvez configurer des **groupes de notation** pour définir les facteurs de risque et les critères utilisés pour les mesurer. Lorsque des informations sur un client sont appliquées à un groupe de notation, un score est calculé pour chaque facteur de risque et utilisé pour placer le client dans un groupe de risques. Le groupe de risques peut être utilisé pour identifier la solvabilité et calculer les limites de crédit automatiques.
 
 Vous pouvez créer des groupes de notation sur la page **Groupes de notation** (**Crédits et recouvrements \> Paramétrer \> Paramétrage de la gestion de crédits \> Risque \> Groupes de notation**).
 
@@ -98,8 +95,8 @@ Vous pouvez créer des groupes de notation sur la page **Groupes de notation** (
 3. Sélectionnez un type de groupe. Il existe huit types prédéfinis. Vous pouvez également sélectionner **Défini par l’utilisateur** pour définir un type de groupe mieux adapté à votre organisation.
 4. Sélectionnez un type de score pour définir comment le groupe de notation calcule le score de risque. Les options suivantes sont disponibles :
 
-    - **Plage** - Utilisez cette option pour définir une plage de valeurs à utiliser pour calculer un score.
-    - **Défini par l’utilisateur** - Utilisez cette option pour définir manuellement une liste de valeurs à utiliser pour le score.
+    - **Plage** – Utilisez cette option pour définir une plage de valeurs à utiliser pour calculer un score.
+    - **Défini par l’utilisateur** – Utilisez cette option pour définir manuellement une liste de valeurs à utiliser pour le score.
 
 5. Si vous avez sélectionné **Plage** comme type de score, ajoutez des lignes pour définir la plage de valeurs et les scores correspondants.
 
@@ -153,3 +150,6 @@ Suivez ces étapes pour ajouter des lignes qui représentent la limite de crédi
 2. Sélectionnez l’opérateur de comparaison qui définit la manière dont les informations du groupe de notation doivent être évaluées.
 3. Entrez la valeur qui doit être comparée à la valeur spécifiée pour le groupe de notation.
 4. Saisissez la limite de crédit à attribuer si les informations client correspondent à la valeur spécifiée pour le groupe de notation. Par exemple, vous créez une limite de crédit automatique pour le groupe de notation **Faible**. Si les années d’activité font partie des groupes de notation, vous pouvez définir une ligne qui affecte une limite de 100 000 crédits si le client est en activité depuis cinq ans et une autre ligne qui affecte une limite de 200 000 crédits si le client est en activité depuis 10 ans.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

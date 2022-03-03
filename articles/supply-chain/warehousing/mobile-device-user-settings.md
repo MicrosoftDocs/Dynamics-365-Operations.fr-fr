@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901870"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103711"
 ---
 # <a name="mobile-device-user-settings"></a>Paramètres utilisateur d’appareil mobile
 
@@ -39,12 +39,9 @@ Cette fonctionnalité peut aider les employés à démarrer plus rapidement chaq
 > [!IMPORTANT]
 > La fonctionnalité *paramètres utilisateur de l’appareil mobile* s’applique uniquement à la nouvelle application mobile Gestion des entrepôts. Cela ne fonctionne pas avec l’ancienne application d’entrepôt.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Activer la fonctionnalité des paramètres utilisateur de l’appareil mobile
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité des paramètres utilisateur de l’appareil mobile
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Paramètres utilisateur, icônes et titres des étapes de la nouvelle application d’entrepôt*
+Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Paramètres utilisateur, icônes et titres d’étape pour la nouvelle application d’entrepôt* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Créer et gérer les paramètres utilisateur
 
