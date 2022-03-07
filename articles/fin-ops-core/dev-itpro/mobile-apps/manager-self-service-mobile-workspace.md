@@ -1,12 +1,10 @@
 ---
 title: Mon espace de travail mobile Équipe
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Mon équipe, qui permet aux responsables d’afficher leurs rapports directs et leur personnel étendu. Les utilisateurs peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique.
+description: Cette rubrique fournit des informations sur l’espace de travail mobile Mon équipe, qui permet aux responsables d’afficher leurs rapports directs et leur personnel étendu.
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767110"
 ---
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
@@ -80,7 +78,7 @@ Télécharger et installer l’application mobile Finance and Operations :
 3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
-[![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Extraire pour actualiser.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Afficher les membres de l’équipe à l’aide de l’espace de travail Mon équipe
 1.  Dans l’application mobile, sélectionnez l’espace de travail **Mon équipe**. La liste des employés de l’équipe s’affiche. La liste affiche également le titre de chaque membre de l’équipe et les rapports directs entretenus.
@@ -97,3 +95,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 1.  Sélectionnez **Envoyer une récompense**. 
 1. Permet d’entrer le texte de la récompense à envoyer. 
 1. Sélectionnez **Terminé**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

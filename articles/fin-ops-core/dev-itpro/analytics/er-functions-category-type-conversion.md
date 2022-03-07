@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
-ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4740806"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686073"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Liste des fonctions ER dans la catégorie de conversion de type
 
@@ -38,14 +38,6 @@ Les fonctions de conversion de type d’état électronique (ER) peuvent être u
 | [IntValue](er-functions-conversion-intvalue.md)       | Cette fonction renvoie une valeur *Int* qui représente la chaîne spécifiée. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Cette fonction renvoie une valeur de *Réel* convertie à partir de la valeur de *Chaîne* spécifiée. Lors de la conversion, les séparateurs de regroupements décimaux et numériques spécifiés sont pris en compte. |
 | [Valeur](er-functions-conversion-value.md)             | Cette fonction renvoie une valeur de *Réel* convertie à partir de la valeur de *Chaîne* spécifiée. |
-
-## <a name="type-conversion-functions-in-the-container-category"></a>Fonctions de conversion de type dans la catégorie Conteneur
-
-Le tableau suivant décrit les fonctions de conversion de type dans la catégorie [Conteneur](er-functions-category-container.md).
-
-| Fonction | Description  |
-|----------|-------------|
-| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Cette fonction convertit l’entrée spécifiée du type *Chaîne* en un élément de données du type *Conteneur*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Fonctions de conversion de type dans la catégorie de date/heure
 

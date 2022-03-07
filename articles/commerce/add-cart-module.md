@@ -2,35 +2,30 @@
 title: Module Panier
 description: Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4412425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716882"
 ---
 # <a name="cart-module"></a>Module Panier
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Un module de panier affiche les articles qui ont été ajoutés au panier avant que le client ne passe à la caisse. Le module montre également un résumé de la commande et permet au client d’appliquer ou de supprimer des codes promotionnels.
 
@@ -40,19 +35,20 @@ Le module de panier affiche les données selon l’ID du panier, qui est un cook
 
 L’image suivante montre un exemple de page de panier sur le site Fabrikam.
 
-![Exemple de module de panier sur le site Fabrikam](./media/cart2.PNG)
+![Exemple de module de panier sur le site Fabrikam.](./media/cart2.PNG)
 
 L’image suivante montre un exemple de page de panier sur le site Fabrikam. Dans cet exemple, des frais de traitement s’appliquent à un élément de ligne.
 
-![Exemple de module de panier avec frais de traitement pour un élément de ligne](./media/ecommerce-handling-fee.png)
+![Exemple de module de panier avec frais de traitement pour un élément de ligne.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Propriétés et emplacements du module de panier
 
-| Propriété | Valeurs | Description |
+| Propriété | Valeurs | Description  |
 |----------------|--------|-------------|
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête pour le panier, tel que « Panier d’achat » ou « Articles dans votre panier ». |
 | Afficher les erreurs de rupture de stock | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, la page du panier affichera les erreurs liées au stock. Nous vous recommandons de définir cette propriété sur **True** si des contrôles de stock sont appliqués sur le site. |
 | Afficher les frais d’expédition pour les lignes | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les articles de ligne de panier afficheront les frais d’expédition, si ces informations sont disponibles. Cette fonctionnalité n’est pas prise en charge dans le thème Fabrikam, car les utilisateurs sélectionnent la livraison uniquement dans le processus de paiement. Cependant, cette fonctionnalité peut être activée dans d’autres workflows si elle est applicable. |
+| Afficher les promotions disponibles| **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, le panier affiche les promotions disponibles, en fonction des articles du panier. Cette fonctionnalité est disponible dans Dynamics 365 Commerce version 10.0.16. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Modules qui peuvent être utilisés dans un module de panier
 
@@ -68,7 +64,7 @@ Les paramètres de module de panier suivants peuvent être configurés sur **Par
 - **Revenir aux achats** - Cette propriété est utilisée pour spécifier l’itinéraire pour le lien **Revenir aux achats**. L’itinéraire peut être configuré au niveau du site, permettant aux détaillants de ramener le client à la page d’accueil ou vers toute autre page du site.
 
 > [!IMPORTANT]
-> Dans Dynamics 365 Commerce version 10.0.14 et versions ultérieures, les articles du panier sont agrégés en fonction des paramètres définis dans le profil de fonctionnalité en ligne de la boutique en ligne dans Commerce Headquarters. Pour plus d'informations sur la création d'un profil de fonctionnalité en ligne et la définition des propriétés requises pour l'agrégation, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
+> Dans Dynamics 365 Commerce version 10.0.14 et versions ultérieures, les articles du panier sont agrégés en fonction des paramètres définis dans le profil de fonctionnalité en ligne de la boutique en ligne dans Commerce Headquarters. Pour plus d’informations sur la création d’un profil de fonctionnalité en ligne et la définition des propriétés requises pour l’agrégation, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
 
@@ -108,7 +104,7 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 
 [Module Options de livraison](delivery-options-module.md)
 
-[Module d'information sur le retrait](pickup-info-module.md)
+[Module d’information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 
@@ -117,3 +113,6 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
 
 [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

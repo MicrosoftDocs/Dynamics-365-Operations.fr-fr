@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92456c8e538d0202a842ae4d306016c7418deb3c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443211"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260229"
 ---
 # <a name="position-forecasting"></a>Prévision des postes
 
@@ -218,3 +217,6 @@ Pour afficher les plans budgétaires dans lesquels un poste de prévision a ét�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

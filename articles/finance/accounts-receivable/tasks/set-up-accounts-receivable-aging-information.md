@@ -1,27 +1,24 @@
 ---
 title: Paramétrer et générer des informations sur la plage âgée de la comptabilité client
 description: Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes client échus et à afficher des soldes dans la liste Solde échu et sur la page Recouvrement.
-author: mikefalkner
-manager: AnnBe
+author: abruer
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443191"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753558"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Paramétrer et générer des informations sur la plage âgée de la comptabilité client
 
@@ -59,3 +56,6 @@ Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes 
 2. Sélectionnez un client avec un solde.
 3. Développez la zone de récapitulatif **Âgé** pour afficher les balances âgées. La définition de plage âgée pour le récapitulatif provient de celle par défaut spécifiée dans les paramètres. Vous pouvez la modifier à l’aide du menu Collecter.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

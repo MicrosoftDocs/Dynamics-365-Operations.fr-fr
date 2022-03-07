@@ -1,35 +1,26 @@
 ---
 title: Permuter entre les configurations de fournisseur
-description: Cette rubrique décrit comment basculer l’intégration des données fournisseur entre les applications Finance and Operations et Dataverse.
+description: Cette rubrique décrit comment basculer entre l’intégration des données fournisseur entre les applications Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744463"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062748"
 ---
 # <a name="switch-between-vendor-designs"></a>Permuter entre les configurations de fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 
@@ -50,14 +41,14 @@ Pour créer de nouveaux processus de workflow à l’aide des modèles de proces
 
 1. Créez un processus de workflow pour la table **Fournisseur** et sélectionnez le modèle de processus de workflow **Créer des fournisseurs dans la table Comptes**. Puis sélectionnez **OK**. Ce workflow traite le scénario de création du fournisseur pour la table **Compte**.
 
-    ![Processus de workflow Créer des fournisseurs dans la table Comptes](media/create_process.png)
+    ![Processus de workflow Créer des fournisseurs dans la table Comptes.](media/create_process.png)
 
 2. Créez un processus de workflow pour la table **Fournisseur** et sélectionnez le modèle de processus de workflow **Mettre à jour les fournisseurs dans la table Comptes**. Puis sélectionnez **OK**. Ce workflow traite le scénario de mise à jour du fournisseur pour la table **Compte**.
 3. Créez un processus de workflow pour la table **Compte** et sélectionnez le modèle de processus de workflow **Créer des fournisseurs dans la table Fournisseurs**.
 4. Créez un processus de workflow pour la table **Compte** et sélectionnez le modèle de processus de workflow **Mettre à jour les fournisseurs dans la table Fournisseurs**.
 5. Vous pouvez configurer les workflows comme workflows en temps réel ou workflows d’arrière plan selon vos besoins. Pour configurer un workflow en tant que workflow d’arrière-plan, sélectionnez **Convertir en workflow d’arrière-plan**.
 
-    ![Bouton Convertir en workflow d’arrière-plan](media/background_workflow.png)
+    ![Bouton Convertir en workflow d’arrière-plan.](media/background_workflow.png)
 
 6. Activez les workflows que vous avez créés pour les tables **Compte** et **Fournisseur** pour commencer à utiliser la table **Compte** pour enregistrer les informations fournisseur de type **Organisation**.
 
@@ -78,3 +69,6 @@ Pour créer de nouveaux processus de workflow à l’aide des modèles de proces
 4. Créez un processus de workflow pour la table **Contact** et sélectionnez le modèle **Mettre à jour les fournisseurs de type Personne dans la table Fournisseurs**.
 5. Vous pouvez configurer les workflows comme workflows en temps réel ou workflows d’arrière plan selon vos besoins. Pour configurer un workflow en tant que workflow d’arrière-plan, sélectionnez **Convertir en workflow d’arrière-plan**.
 6. Activez les workflows que vous avez créés pour les tables **Contact** et **Fournisseur** pour commencer à utiliser la table **Contact** pour enregistrer les informations fournisseur de type **Personne**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

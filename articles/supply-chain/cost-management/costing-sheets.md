@@ -2,16 +2,13 @@
 title: Feuilles de coûts
 description: Le paramétrage de la feuille d’évaluation des coûts a deux objectifs. Premièrement, vous définissez le format d’affichage des informations des prix des marchandises vendues sur un article fabriqué ou un ordre de fabrication. L’affichage formaté est appelé feuille de coûts. Deuxièmement, vous définissez la base de calcul des coûts indirects. Le paramétrage de la feuille d’évaluation des coûts se base sur la fonctionnalité de groupe de coûts pour l’affichage d’informations et pour les formules de calcul des coûts indirects. Les deux objectifs du paramétrage de la feuille d’évaluation des coûts sont décrits dans cet article.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53201
 ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f83c18bb8700e274bcf8cb369a7436a17450bf7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1453357649c2617c5daaa1a38af772ae5eeea80adf9f0ab8316e9f46f1a78fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721413"
 ---
 # <a name="costing-sheets"></a>Feuilles de coûts
 
@@ -50,3 +47,6 @@ La feuille de coûts s’affiche dans la page **Calculer le coût de l’article
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

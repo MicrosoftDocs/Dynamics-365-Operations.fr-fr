@@ -2,30 +2,26 @@
 title: Demandes de renseignements et déclarations de matières dangereuses
 description: Cette rubrique explique comment utiliser les différents états relatifs aux matières dangereuses. Bon nombre de ces états sont nécessaires pour que vous restiez en conformité avec diverses réglementations sur les matières dangereuses pendant le transport et le stockage.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c48dc05f33ba93abbbe9152c322030bbc1920f5adaf6fc51268075ac49c3e921
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743576"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Demandes de renseignements et déclarations de matières dangereuses
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management fournit divers états relatifs aux matières dangereuses. Bon nombre de ces états sont nécessaires pour que vous restiez en conformité avec diverses réglementations sur les matières dangereuses pendant le transport et le stockage.
 
@@ -33,7 +29,7 @@ Tous ces états, sauf **Marchandises dangereuses multimodales**, utilisent le mo
 
 L’illustration suivante montre la séquence des activités qui se produisent lorsque le système génère des états sur les matières dangereuses.
 
-![Séquence des activités pour les états sur les matières dangereuses](media/hazmat-report-sequence.png "Séquence des activités pour les états sur les matières dangereuses")
+![Séquence des activités pour les états sur les matières dangereuses.](media/hazmat-report-sequence.png "Séquence des activités pour les états sur les matières dangereuses")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Paramétrer les états sur les matières dangereuses
 
@@ -110,3 +106,6 @@ Lorsque la fonctionnalité sur les matières dangereuses est activée dans votre
 ## <a name="packing-list-report"></a>État sur la liste d’emballage
 
 Lorsque la fonctionnalité de matières dangereuses est activée sur votre système, les listes d’emballage incluent des informations supplémentaires liées au texte d’impression d’expédition d’un article. Cet état est disponible sur la page **Toutes les charges**, comme d’habitude.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Destinations pour la gestion des états électroniques
 description: Cette rubrique fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743309"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -164,12 +164,12 @@ Pour rendre l’option de conversion PDF disponible dans l’instance Finance ac
 
 ### <a name="applicability"></a>Conditions d'application
 
-Dans les versions de Finance **antérieures à la version 10.0.18**, l’option de conversion PDF ne peut être activée que pour les composants **Excel\\File** utilisés pour générer une sortie au format Office (Excel ou Word). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF. Cependant, dans **la version 10.0.18 et les versions ultérieures**, vous pouvez également activer cette option pour les composants du type **Common\\File**.
+L’option de conversion PDF ne peut être activée que pour les composants de fichier utilisés pour générer une sortie au format Office (Excel ou Word) (**fichier Excel**). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF. Dans les versions de Finance **antérieures à la version 10.0.18**, vous ne pouvez activer cette option que pour les composants du type **Excel\\File** utilisés pour générer une sortie au format [Excel](er-fillable-excel.md) ou [Word](er-design-configuration-word.md). Cependant, dans **la version 10.0.18 et les versions ultérieures**, vous pouvez également activer cette option pour les composants du type **Common\\File**.
 
 > [!NOTE]
 > Soyez attentif au message d’avertissement que vous recevez lorsque vous activez l’option de conversion PDF pour un composant ER du type **Common\\File**. Ce message vous informe qu’il n’y a aucun moyen de garantir, au moment de la conception, que le composant de fichier sélectionné exposera le contenu au format PDF ou le contenu convertible en PDF au moment de l’exécution. Par conséquent, vous ne devez activer l’option que si vous êtes sûr que le composant de fichier sélectionné a été configuré pour exposer le contenu au format PDF ou le contenu convertible en PDF au moment de l’exécution.
 > 
-> Si vous activez l’option de conversion PDF pour un composant de format, si ce composant expose le contenu dans un format autre que PDF, et si le contenu exposé ne peut pas être converti au format PDF, une exception se produira lors de l’exécution. Le message que vous recevez vous informe que le contenu généré ne peut pas être converti au format PDF.
+> Si vous activez l’option de conversion PDF pour un composant du type **Excel\\File**, si ce composant expose le contenu dans un format autre que PDF, et si le contenu exposé ne peut pas être converti au format PDF, une exception se produira lors de l’exécution. Le message que vous recevez vous informe que le contenu généré ne peut pas être converti au format PDF.
 
 ### <a name="limitations"></a>Limitations
 
@@ -189,26 +189,16 @@ Pour activer la conversion PDF pour une destination de fichier, cochez la case *
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Sélectionner une orientation de page pour la conversion PDF</a>
 
-Si vous générez une configuration des états électroniques au format Excel et si vous souhaitez la convertir au format PDF, vous pouvez explicitement spécifier l’orientation de page du document PDF. Lorsque vous cochez la case **Convertir en PDF** pour activer la conversion PDF pour une destination de fichier qui produit un fichier de sortie au format Excel, le champ **Orientation de la page** devient disponible sur le raccourci **Paramètres de conversion PDF**. Dans le champ **Orientation de la page**, sélectionnez l’orientation préférée.
+Si vous générez une configuration des états électroniques au format Excel et si vous souhaitez la convertir au format PDF, vous pouvez spécifier l’orientation de page du document PDF. Lorsque vous cochez la case **Convertir en PDF** pour activer la conversion PDF pour une destination de fichier qui produit un fichier de sortie au format Excel, le champ **Orientation de la page** devient disponible sur le raccourci **Paramètres de conversion PDF**. Dans le champ **Orientation de la page**, sélectionnez l’orientation préférée.
 
 [![Sélection d’une orientation de page pour la conversion PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-Pour avoir la possibilité de sélectionner l’orientation de la page PDF, installez Finance version 10.0.10 ou ultérieure. Dans les versions de Finance **antérieures à la version 10.0.23**, cette option propose les options d’orientation de page suivantes :
-
-- Portrait
-- Paysage
-
-L’orientation de page sélectionnée est appliquée à toutes les pages d’un document sortant généré au format Excel, puis converti au format PDF.
-
-Cependant, dans les **versions 10.0.23 et ultérieures**, la liste des options d’orientation de page a été étendue comme suit :
-
-- Portrait
-- Paysage
-- Spécifique à la feuille de calcul
-
-Lorsque vous sélectionnez l’option **Spécifique à la feuille de calcul**, chaque feuille de calcul d’un classeur Excel généré est convertie au format PDF en utilisant l’orientation de page qui a été configurée pour cette feuille de calcul dans le modèle Excel utilisé. Ainsi, vous pouvez avoir un document PDF final contenant des pages portrait et paysage. 
-
-Si une configuration des états électroniques au format Word est convertie au format PDF, l’orientation de page du document PDF provient toujours du document Word.
+> [!NOTE]
+> Pour avoir la possibilité de sélectionner l’orientation de la page PDF, vous devez installer Finance version 10.0.10 ou ultérieure.
+>
+> L’orientation de la page sélectionnée est appliquée à toutes les configurations des états électroniques générées au format Excel, puis converties au format PDF.
+>
+> Si une configuration des états électroniques au format Word est convertie au format PDF, l’orientation de page du document PDF provient du document Word.
 
 ## <a name="output-unfolding"></a>Déploiement de la sortie
 

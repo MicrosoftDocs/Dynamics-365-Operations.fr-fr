@@ -2,7 +2,7 @@
 title: Déclaration de TVA (France)
 description: Cette rubrique explique comment configurer et générer un état pour la France, qui peut être utilisé pour effectuer une déclaration de taxe sur la valeur ajoutée (TVA).
 author: anasyash
-ms.date: 09/20/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: fc21a418f39d847997d7dbdf06cf47d37ed5b7d8
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0608f087c07a9b6edbce21580fe2f92b8c155649
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647076"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487972"
 ---
 # <a name="vat-declaration-france"></a>Déclaration de TVA (France)
 
@@ -1080,9 +1080,6 @@ Pour plus d’informations sur la configuration de la taxe au preneur, consultez
 ### <a name=""></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields">Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA</a>
 
 Pour générer automatiquement un état d’aperçu de la déclaration de TVA dans Microsoft Excel, associez les codes de taxe dans l’application aux résultats de recherche dans la configuration ER.
-
-> [!NOTE]
-> Nous vous recommandons d’activer la fonctionnalité, **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, les paramètres configurés pour la version antérieure d’un format ER deviennent automatiquement applicables pour la version ultérieure du même format. Si cette fonctionnalité n’est pas activée, vous devez configurer explicitement les paramètres spécifiques à l’application pour chaque version de format. La fonctionnalité, **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** est disponible dans l’espace de travail **Gestion des fonctionnalités** à partir de la version Finance 10.0.23. Pour plus d’informations sur la configuration des paramètres d’un format ER pour chaque entité juridique, voir [Définir les paramètres d’un format de gestion des états électroniques par entité juridique](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 #### <a name="set-up-operations"></a>Paramétrer des opérations
 

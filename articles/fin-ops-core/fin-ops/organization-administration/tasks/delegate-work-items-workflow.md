@@ -2,11 +2,9 @@
 title: Délégation d’éléments de travail dans un workflow
 description: Si vous pensez vous absenter du bureau ou être dans l’incapacité d’agir sur des éléments de travail, vous pouvez déléguer ou réaffecter vos éléments de travail à d’autres utilisateurs.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 128dce6a1b852d908e01c348cb767088031b11a5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796704"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070095"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Délégation d’éléments de travail dans un workflow
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 ## <a name="manually-delegate-a-work-item"></a>Délégation manuelle d’un élément de travail
 
@@ -60,3 +61,6 @@ Si vous prévoyez de vous absenter du bureau ou être indisponible d’une mani�
 8. Dans le champ **Date/heure de fin**, entrez une date et une heure.
 9. Activez la case à cocher **Activé** pour activer la règle de délégation. 
 10. Dans le champ **Commentaire**, entrez un commentaire expliquant le motif de la délégation des éléments de travail.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

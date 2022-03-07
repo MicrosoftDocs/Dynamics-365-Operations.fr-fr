@@ -1,27 +1,24 @@
 ---
 title: Générer un plan avec contrainte
 description: Cette rubrique indique comment créer un plan qui prend en compte des contraintes en termes de matière et de capacité.
-author: ShylaThompson
-manager: tfehr
+author: ChristianRytt
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8b9d5712dd1b4f9958de775e1a2224b64485d05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5fea315d41d01cb578d7d60c9eb7006e4b6c3362
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427909"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578342"
 ---
 # <a name="generate-a-constrained-plan"></a>Générer un plan avec contrainte
 
@@ -33,9 +30,9 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 
 
 ## <a name="set-up-a-constrained-plan"></a>Paramétrer un plan avec contrainte
-1. Dans la page d'accueil, sélectionnez l'espace de travail **Planification**.
-2. Sélectionnez **Plans généraux** dans la liste des liens dans la partie droite de l'espace de travail.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Exemple : **StaticPlan**  
+1. Dans la page d’accueil, sélectionnez l’espace de travail **Planification**.
+2. Sélectionnez **Plans généraux** dans la liste des liens dans la partie droite de l’espace de travail.
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Exemple : **StaticPlan**  
 4. Sélectionnez **Oui** dans le champ **Capacité finie**.
 5. Entrez `30` dans le champ **Plage de gestion de la capacité finie**.
 6. Développez la section **Plages de gestion en jours**.
@@ -53,3 +50,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 3. Cliquez sur **OK**.
 4. Sélectionnez **Ordres prévisionnels**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Journaliser les entrées de journal validées
 description: Cette procédure indique comment journaliser les entrées de journal validées.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad18063e0a66a4aac0ebef7f0ce45c73137abcc7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5028db1db2359a54d565fc299c9a3353a4cf8297
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826152"
 ---
 # <a name="journalize-posted-journal-entries"></a>Journaliser les entrées de journal validées
 
@@ -39,3 +37,6 @@ Cette procédure indique comment journaliser les entrées de journal validées. 
 9. Cliquez sur **OK** pour fermer la page de filtre.
 10. Cliquez sur **OK** pour démarrer le processus de journalisation. Un état est généré à la fin du processus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

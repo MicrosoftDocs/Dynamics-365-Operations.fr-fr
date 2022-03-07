@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: b2e0145c28b40f4fbfb54ad7e7ed32fbc130c569
+ms.sourcegitcommit: 8afd0cdb39ec443fb7631c39401967cce0fac34e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087164"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7727430"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -33,8 +33,6 @@ Les environnements qui utilisent l’optimisation de la planification reçoivent
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|
-| <p>Ajout de la prise en charge de la priorité de planification pour les ordres de fabrication. | Disponible avec la version 10.0.25 dans le cadre de la fonctionnalité *Support MRP piloté par la priorité pour l’optimisation de la planification*. | 12-18 novembre 2021 |
-| <p>Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 12-18 novembre 2021 |
 | <p>Ajout de la prise en charge des formules de calcul du temps de traitement, de l’itinéraire de production avec chevauchement et du numéro d’opération de production sur les transactions de besoins.</p><p>Messages d’erreur améliorés pour la planification de la production liés au délai d’attente, à la capacité introuvable et à l’itinéraire cyclique.</p><p>Amélioration de la cohérence lors du calcul des dates de réception et de sortie des commandes planifiées et des commandes confirmées.</p><p>Améliorations générales des performances, de la qualité et de la stabilité. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 22 au 27 octobre 2021 |
 | <p>Ajout de la prise en charge de la prise en compte du pourcentage de rebut dans le calcul du temps de traitement.</p><p>Ajout de la prise en charge du numéro d’opération et de l’utilisation des matériaux lors de la planification. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 5 au 7 octobre 2021 |
 | <p>Ajout de la prise en charge des types de tâches de routage de production : **File d’attente avant**, **File d’attente après**, et **Temps de transport**.</p><p>Améliorations générales des performances, de la qualité et de la stabilité. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 25 au 30 septembre 2021 |

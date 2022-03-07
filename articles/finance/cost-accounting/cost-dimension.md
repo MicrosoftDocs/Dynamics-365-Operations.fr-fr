@@ -2,28 +2,25 @@
 title: Créer des dimensions et importer des membres de la dimension
 description: Le Contrôle de gestion est un module indépendant qui nécessite les données principales d’autres modules.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d61358be79adc943572bb4a5d624cb7c80b52e6e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09dd9e2d648bec32d1504175dbb1470751e5c915
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443199"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355177"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Créer des dimensions et importer des membres de la dimension
 
@@ -39,7 +36,7 @@ Un **élément de coût** correspond à un article dont le coût est pertinent d
 
 Le diagramme suivant illustre les dimensions utilisées dans le Contrôle de gestion.
 
-[![Dimensions de Contrôle de gestion](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Dimensions de Contrôle de gestion.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Une fois que les données sont importées dans le Contrôle de gestion, vous pouvez l’utiliser pour créer les différentes perspectives qui fournissent des analyses aux responsables à tous les niveaux de l’organisation. Les rubriques suivantes fournissent des informations sur la création des dimensions et l’importation des membres de la dimension. 
 
@@ -55,3 +52,6 @@ Une fois que les données sont importées dans le Contrôle de gestion, vous pou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

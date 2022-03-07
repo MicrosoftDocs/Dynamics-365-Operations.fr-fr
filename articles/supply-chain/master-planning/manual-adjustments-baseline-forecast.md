@@ -1,7 +1,7 @@
 ---
 title: Effectuer des ajustements manuels sur la prévision de base
 description: Cette rubrique explique comment effectuer des ajustements manuels sur une prévision de base et afficher les détails de la prévision.
-author: ChristianRytt
+author: roxanadiaconu
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d00061efa551c9fe2ad9d0e441bba44e70b071c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: dbcdc852bf42038761b4ea19fd7fe7cbfc45f713
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103761"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187432"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Effectuer des ajustements manuels sur la prévision de base
 
@@ -67,9 +67,9 @@ La page **Détails de prévision de la demande** affiche les informations suivan
 
 **Remarques :**
 
-- La fonctionnalité *Sélection du modèle de prévision sur les détails de prévision de la demande* ajoute des paramètres à la page **Détails des prévisions de la demande** qui vous permet de sélectionner les modèles de prévision à inclure. À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Sélection du modèle de prévision sur les détails de prévision de la demande* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- L’intervalle de confiance qui apparaît dans la section **Prévision** de la page représente la différence entre la limite supérieure de l’intervalle de confiance et la limite inférieure de l’intervalle de confiance. Pour afficher des valeurs pour les limites supérieures et inférieures, pointez sur le graphique dans la section **Prévisions et demandes historiques représentées graphiquement**.
-- Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu’il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l’intervalle de confiance.
+-   Si vous activez **Sélection du modèle de prévision sur les détails de prévision de la demande** à partir de Gestion des fonctionnalités, vous pourrez sélectionner les modèles de prévision à inclure, pour la prévision historique, sur la page **Détails des prévisions de la demande**.
+-   L’intervalle de confiance qui apparaît dans la section **Prévision** de la page représente la différence entre la limite supérieure de l’intervalle de confiance et la limite inférieure de l’intervalle de confiance. Pour afficher des valeurs pour les limites supérieures et inférieures, pointez sur le graphique dans la section **Prévisions et demandes historiques représentées graphiquement**.
+-   Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, vous pouvez spécifier le pourcentage de niveau de confiance que la prévision générée doit avoir. Un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu’il existe un risque de 5 % que les prévisions de la demande se trouvent en dehors de l’intervalle de confiance.
 
 Vous pouvez également effectuer des ajustements manuels de la prévision dans la page **Détails de prévision de la demande**, en modifiant les valeurs dans la ligne **Prévision** dans la section **Prévision**.
 

@@ -2,16 +2,13 @@
 title: Activer les recommandations produit
 description: Cette rubrique explique comment faire des recommandations de produit basées sur le Machine Learning et l’Intelligence artificielle disponible pour les clients Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
-ms.date: 08/18/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412151"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466314"
 ---
 # <a name="enable-product-recommendations"></a>Activer les recommandations produit
 
@@ -34,55 +31,56 @@ Cette rubrique explique comment faire des recommandations de produit basées sur
 
 ## <a name="recommendations-pre-check"></a>Recommandations avant contrôle
 
-Avant l’activation, notez que les recommandations de produit sont uniquement prises en charge pour les clients Commerce qui ont migré leur stockage pour utiliser Azure Data Lake Storage. 
+1. Assurez-vous de disposer d'une licence Recommandations Dynamics 365 Commerce valide.
+1. Assurez-vous que le magasin d'entités est connecté à un compte Azure Data Lake Storage Gen2 appartenant à un client. Pour en savoir plus, voir [S’assurer qu’Azure Data Lake Storage a été acheté et validé avec succès dans l’environnement](enable-ADLS-environment.md).
+1. Confirmez que la configuration d’identité Azure AD contient une entrée pour les recommandations. Vous trouverez ci-dessous plus d’informations sur la façon d’effectuer cette action.
+1. Assurez-vous que le magasin d'entités s'actualise quotidiennement sur Azure Data Lake Storage Gen2. Pour plus d’informations, voir [S’assurer que l’actualisation du magasin d’entités a été automatisée](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+1. Activez les mesures RetailSale pour le magasin d'entités. Pour plus d'informations sur la configuration de ce processus, consultez [Utiliser les mesures](/dynamics365/ai/customer-insights/pm-measures).
 
-Les configurations suivantes doivent être activées dans le back-office avant d’activer les recommandations :
-
-1. Assurez-vous qu’Azure Data Lake Storage a été acheté et validé avec succès dans l’environnement. Pour en savoir plus, voir [S’assurer qu’Azure Data Lake Storage a été acheté et validé avec succès dans l’environnement](enable-ADLS-environment.md).
-2. Assurez-vous que l’actualisation du magasin d’entités a été automatisée. Pour plus d’informations, voir [S’assurer que l’actualisation du magasin d’entités a été automatisée](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
-3. Confirmez que la configuration d’identité Azure AD contient une entrée pour les recommandations. Vous trouverez ci-dessous plus d’informations sur la façon d’effectuer cette action.
-
-En outre, assurez-vous que les mesures RetailSale ont été activées. Pour en savoir plus sur ce processus de configuration, consultez [Utiliser les mesures](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Une fois les étapes ci-dessus réalisées, vous serez prêt à activer les recommandations.
 
 ## <a name="azure-ad-identity-configuration"></a>Configuration de l’identité Azure AD
 
-Cette étape est requise pour tous les clients exécutant une configuration d’infrastructure en tant que service (IaaS). Pour les clients exécutant la structure de service (SF), cette étape doit être automatique et nous vous recommandons de vérifier que le paramètre est configuré comme prévu.
+Cette étape n'est requise que pour les clients exécutant une configuration d’infrastructure en tant que service (IaaS). Le configuration des identités Azure AD est automatique pour les clients exécutant Azure Service Fabric, mais il est recommandé de vérifier que les paramètres sont configurés comme prévu.
 
 ### <a name="setup"></a>Paramétrage
 
-1. Depuis le back office, recherchez la page **Applications Azure Active Directory**.
-2. Vérifiez s’il existe une entrée pour « RecommendationSystemApplication-1 ».
+1. Dans Commerce Headquarters, recherchez la page **Applications Azure Active Directory**.
+1. Vérifiez s’il existe une entrée pour **RecommendationSystemApplication-1**. S'il n'existe pas d'entrée, créez-en une en utilisant les informations suivantes :
 
-Si l’entrée n’existe pas, ajoutez-en une nouvelle avec les informations suivantes :
+    - **ID client** : d37b07e8-dd1c-4514-835d-8b918e6f9727
+    - **Nom** : RecommendationSystemApplication-1
+    - **Identifiant d’utilisateur** : RetailServiceAccount
 
-- **ID client** - d37b07e8-dd1c-4514-835d-8b918e6f9727
-- **Nom** - RecommendationSystemApplication-1
-- **Identifiant d’utilisateur** - RetailServiceAccount
-
-Sauvegardez et fermez la page. 
+1. Sauvegardez et fermez la page. 
 
 ## <a name="turn-on-recommendations"></a>Activer les recommandations
 
 Pour activer les recommandations de produit, procédez comme suit.
 
-1. Au siège de Commerce, recherchez **Gestion des fonctionnalités**.
+1. Dans Commerce Headquarters, recherchez **Gestion des fonctionnalités**.
 1. Sélectionnez **Tout** pour voir une liste des fonctionnalités disponibles. 
 1. Dans la zone de recherche, saisissez **Recommandations**.
 1. Sélectionnez la fonctionnalité **Recommandations de produits**.
 1. Dans le volet des propriétés **Recommandations de produits**, sélectionnez **Activer maintenant**.
 
-![Activer les recommandations](./media/FeatureManagement_Recommendations.PNG)
+![Activer les recommandations.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
-> Cette procédure démarre le processus de génération de listes de recommandations de produit. Cette opération peut nécessiter jusqu’à plusieurs heures avant que les listes soient disponibles et puissent s’affichent sur point de vente (PDV) ou dans Dynamics 365 Commerce.
+> - La procédure ci-dessus démarre le processus de génération de listes de recommandations de produit. Cette opération peut nécessiter jusqu’à plusieurs heures avant que les listes soient disponibles et puissent s’affichent sur point de vente (PDV) ou dans Dynamics 365 Commerce.
+> - Cette configuration n'active pas toutes les fonctionnalités de recommandations. Les fonctionnalités avancées telles que les recommandations personnalisées, « Acheter des aspects similaires » et « Acheter une description similaire » sont contrôlées par des entrées dédiées de la gestion des fonctionnalités. Pour plus d'informations sur l'activation de ces fonctionnalités dans Commerce Headquarters, consultez [Activer les recommandations personnalisées](personalized-recommendations.md), [Activer les recommandations « Acheter des aspects similaires »](shop-similar-looks.md) et [Activer les recommandations « Acheter une description similaire »](shop-similar-description.md).
 
 ## <a name="configure-recommendation-list-parameters"></a>Configuration des paramètres de la liste des recommandations
 
 Par défaut, la liste des recommandations de produit basée sur Machine Learning - Intelligence artificielle fournit des valeurs suggérées. Vous pouvez modifier les valeurs suggérées par défaut pour les adapter au flux de votre entreprise. Pour en savoir plus sur la manière de modifier les paramètres par défaut, accédez à [Gérer les résultats de recommandation produit fondées sur l’IA et le ML](modify-product-recommendation-results.md).
 
+## <a name="include-recommendations-in-e-commerce-experiences"></a>Inclure des recommandations dans les expériences de commerce électronique
+
+Après avoir activé les recommandations dans Commerce Headquarters, les modules Commerce utilisés pour afficher les résultats des recommandations pour les expériences de commerce électronique sont prêts à être configurés. Pour plus d’informations, voir [Modules de collecte de produits](product-collection-module-overview.md).
+
 ## <a name="show-recommendations-on-pos-devices"></a>Afficher les recommandations sur les appareils PDV
 
-Après avoir activé les recommandations dans le back-office Commerce, le volet de recommandations doit être ajouté à l’écran du PDV de contrôle à l’aide de l’outil de disposition. Pour en savoir plus sur ce processus, voir [Ajouter un contrôle de recommandations à l’écran de transaction sur les périphériques de PDV](add-recommendations-control-pos-screen.md). 
+Après avoir activé les recommandations dans Commerce Headquarters, le volet de recommandations doit être ajouté à l’écran du PDV de contrôle à l’aide de l’outil de disposition. Pour en savoir plus sur ce processus, voir [Ajouter un contrôle de recommandations à l’écran de transaction sur les périphériques de PDV](add-recommendations-control-pos-screen.md). 
 
 ## <a name="enable-personalized-recommendations"></a>Activer les recommandations personnalisées
 
@@ -114,3 +112,6 @@ Pour plus d’informations sur les recommandations personnalisées, voir [Active
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

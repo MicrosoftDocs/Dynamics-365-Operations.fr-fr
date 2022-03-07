@@ -1,39 +1,36 @@
 ---
 title: Créer un nouveau produit
-description: Cette rubrique décrit la procédure de création d'un nouveau produit partagé.
-author: ShylaThompson
-manager: tfehr
+description: Cette rubrique décrit la procédure de création d’un nouveau produit partagé.
+author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427889"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575582"
 ---
 # <a name="create-a-new-product"></a>Créer un nouveau produit
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit la procédure de création d'un nouveau produit partagé. Elle est généralement effectuée par un concepteur de produit. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
+Cette rubrique décrit la procédure de création d’un nouveau produit partagé. Elle est généralement effectuée par un concepteur de produit. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 
 
 ## <a name="create-a-product"></a>Créer un produit
-1. Dans le volet de navigation, allez dans **Modules > Gestion d'informations sur les produits > Produits > Produits**.
+1. Dans le volet de navigation, allez dans **Modules > Gestion d’informations sur les produits > Produits > Produits**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Numéro du produit**, saisissez une valeur. Si une souche de numéros n'a pas été paramétrée pour le numéro de produit, elle doit être entrée manuellement.  
+3. Dans le champ **Numéro du produit**, saisissez une valeur. Si une souche de numéros n’a pas été paramétrée pour le numéro de produit, elle doit être entrée manuellement.  
 4. Dans le champ **Nom du produit**, saisissez une valeur. Le nom de produit est par défaut le nom de recherche. Vous pouvez la modifier si nécessaire.  
 5. Cliquez sur **OK**.
 
@@ -43,3 +40,6 @@ Cette rubrique décrit la procédure de création d'un nouveau produit partagé.
 3. Saisissez ou sélectionnez une valeur dans le champ **Groupe de dimension de suivi**. Le groupe de dimension de suivi détermine les dimensions de suivi que vous devez entrer pour chaque transaction pour le produit et la manière dont il sera géré dans le stock.  
 4. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Conseils sur la configuration de la double écriture
 description: Cette rubrique décrit les scénarios pris en charge pour la configuration en double écriture.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 999b37970be1c10fd5e78c3d8ac6c1fb25cad367
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744851"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751384"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Conseils sur la configuration de la double écriture
 
@@ -138,3 +136,6 @@ Pour obtenir des liens vers un exemple et une autre approche, consultez la secti
 Pour un exemple, voir [Activation de la carte des tables Clients V3 – Contacts](enable-entity-map.md#enable-table-map)
 
 Pour une approche alternative basée sur les volumes de données dans chaque entité qui doivent exécuter une synchronisation initiale, voir [Considérations relatives à la synchronisation initiale](initial-sync-guidance.md).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

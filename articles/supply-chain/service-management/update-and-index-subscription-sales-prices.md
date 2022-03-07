@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01acbfd57fdfcbc951fab738bfb062ab7b344be
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b365717cf49e8ae9503955883240c706731ddc7d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242227"
 ---
 # <a name="update-and-index-subscription-sales-prices"></a>Mise à jour et indexation des prix de vente des abonnements 
 
@@ -31,9 +31,9 @@ ms.locfileid: "4965753"
 
 1.  Cliquez sur **Gestion des services** \> **Commun** \> **Services récurrents** \> **Tous les abonnements aux services**.
 
-2.  Sélectionnez l'abonnement pour lequel vous voulez mettre à jour l'index ou le prix de base.
+2.  Sélectionnez l’abonnement pour lequel vous voulez mettre à jour l’index ou le prix de base.
 
-3.  Cliquez sur **Index**. Dans le champ **Modifier**, indiquez comment mettre à jour le prix de base ou l'index, et si la mise à jour doit utiliser un pourcentage ou une nouvelle valeur. Choisissez parmi les options suivantes :
+3.  Cliquez sur **Index**. Dans le champ **Modifier**, indiquez comment mettre à jour le prix de base ou l’index, et si la mise à jour doit utiliser un pourcentage ou une nouvelle valeur. Choisissez parmi les options suivantes :
     
       - **Indexer par pourcentage**
     
@@ -45,12 +45,15 @@ ms.locfileid: "4965753"
 
 4.  Cliquez sur **OK**.
 
-Le prix de base ou l'index de l'abonnement est mis à jour avec la valeur spécifiée.
+Le prix de base ou l’index de l’abonnement est mis à jour avec la valeur spécifiée.
 
 ## <a name="see-also"></a>Voir également :
 
-[Indexer l'abonnement (écran classe)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))
+[Indexer l’abonnement (écran classe)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

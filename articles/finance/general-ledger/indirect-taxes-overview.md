@@ -2,28 +2,25 @@
 title: Vue d’ensemble des taxes
 description: Cette rubrique offre une vue d’ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443224"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826616"
 ---
 # <a name="sales-tax-overview"></a>Vue d’ensemble des taxes
 
@@ -97,3 +94,6 @@ Toutefois, si vous utilisez une taxe sur les encaissements, vous payez l’admin
 Si vous utilisez un chèque postdaté comme mode de paiement, lorsque le paiement est créé, le compte bancaire n’est pas effacé. Dans certains pays, la TVA devient un passif « réalisé » lorsque le paiement compense la banque, ce qui signifie que le chèque postdaté est réglé. Vous pouvez l’activer en sélectionnant **Réaliser la taxe conditionnelle lorsque les chèques postdatés sont débités** dans **Gestion de la trésorerie et de la banque > Paramétrage > Paramètres de gestion de la trésorerie et de la banque > Chèques postdatés**.
 
 Pour plus d’informations, voir [Paramétrer la retenue à la source](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

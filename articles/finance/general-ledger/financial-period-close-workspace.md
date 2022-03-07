@@ -1,7 +1,7 @@
 ---
 title: Espace de travail de clôture de période comptable
 description: Cet article fournit une vue d’ensemble de l’espace de travail de clôture de période comptable et la configuration associée.
-author: kweekley
+author: ShylaThompson
 ms.date: 11/29/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
-ms.author: kweekley
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ab203a18229cd426f8483ed6d0483c98614af9c
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 157d7e7503a3153f74e705c20b4afac76a81229e807ae6f39b52fc05c733487b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739952"
 ---
 # <a name="financial-period-close-workspace"></a>Espace de travail de clôture de période comptable
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique offre une vue d’ensemble de l’espace de travail **Clôture de période comptable** et la configuration associée.
+Cet article fournit une vue d’ensemble de l’espace de travail de clôture de période comptable et la configuration associée.
 
 Espace de travail de clôture de période comptable
 

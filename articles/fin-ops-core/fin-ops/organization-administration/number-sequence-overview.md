@@ -1,28 +1,28 @@
 ---
 title: Vue d’ensemble des séquences de nombres
 description: Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transactions qui en exigent.
-author: MargoC
-manager: AnnBe
+author: SunilGarg
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 15461
+ms.custom:
+- "15461"
+- intro-internal
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: margoc
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 48e395cc3e3ccd0f93ab9523add455ef16f612ba
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797068"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985679"
 ---
 # <a name="number-sequences-overview"></a>Vue d’ensemble des séquences de nombres
 
@@ -115,3 +115,6 @@ Sauf si des règlementations exigent l’utilisation de souches de numéros cont
 En cas de panne de courant, d’erreur de l’application ou de panne imprévue, le système ne peut pas recycler les numéros automatiquement pour les souches de numéros continues. Vous pouvez exécuter le processus de nettoyage manuellement ou automatiquement pour récupérer les numéros perdus.
 
 Veillez à tenir compte de l’utilisation du serveur lorsque vous planifiez le processus de nettoyage. Nous vous recommandons d’effectuer le nettoyage en tant que traitement par lots pendant les heures creuses.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

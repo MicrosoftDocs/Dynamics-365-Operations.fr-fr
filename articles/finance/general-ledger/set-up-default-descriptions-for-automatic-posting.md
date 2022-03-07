@@ -2,27 +2,24 @@
 title: Paramétrage des descriptions par défaut pour la validation automatique
 description: Cette rubrique explique comment vous pouvez paramétrer le texte par défaut utilisé pour décrire les écritures comptables validées automatiquement dans la comptabilité. Vous pouvez paramétrer le texte de description par défaut à l’aide de texte libre ou de variables fixes.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722693"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Paramétrage des descriptions par défaut pour la validation automatique
 
@@ -87,3 +84,6 @@ Après avoir suivi les étapes de la section [Paramétrage des descriptions par 
 2. Dans le champ **Table de référence**, sélectionnez la table de base de données à partir de laquelle ajouter des données de paramétrage à la description.
 3. Dans le champ **Champ de référence**, sélectionnez le champ à partir duquel ajouter des données de paramétrage à la description.
 4. Répétez les étapes 1 à 3 pour ajouter d’autres paramètres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

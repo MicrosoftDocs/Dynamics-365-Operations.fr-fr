@@ -2,25 +2,22 @@
 title: Créer une facture financière
 description: Cette rubrique explique comment créer des factures financières.
 author: mikefalkner
-manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763284"
 ---
 # <a name="create-a-free-text-invoice"></a>Créer une facture financière
 
@@ -30,7 +27,7 @@ Cette rubrique explique comment créer des factures financières. Pour la procé
 
 ## <a name="create-a-free-text-invoice"></a>Créer une facture financière
 
-1. Allez dans **Comptabilité client \> Factures \> Toutes factures financières**.
+1. Allez dans **Comptabilité client (ou Registre des ventes) \> Factures \> Toutes factures financières**.
 2. Sélectionnez **Nouveau**.
 3. Dans le champ **Compte client**, sélectionnez une valeur.
 
@@ -85,3 +82,6 @@ Après avoir copié des lignes, vous pouvez modifier les informations si nécess
 Vous pouvez créer une facture financière à partir d’un modèle. Lorsque vous sélectionnez **Nouveau à partir d’un modèle** sous l’onglet **Facture**, vous pouvez sélectionner un nom de modèle et le compte client pour la nouvelle facture financière. Les valeurs par défaut telles que les conditions de paiement et le mode de paiement peuvent être automatiquement renseignées à partir du client, ou vous pouvez utiliser les valeurs enregistrées dans le modèle.
 
 Une facture financière est créée et vous pouvez modifier les valeurs si nécessaire.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

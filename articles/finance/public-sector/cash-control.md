@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3344ff472f1a844fe96953ff854e958316498339
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbf19d1f9282c1e2a22eded852035d5a3f0f96ef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407921"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971187"
 ---
 # <a name="use-cash-control-limits"></a>Savoir utiliser les limites de contrôle de disponibilités
 

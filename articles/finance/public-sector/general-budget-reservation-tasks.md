@@ -2,11 +2,9 @@
 title: Tenir à jour les réservations budgétaires générales
 description: Cette rubrique fournit la procédure pour utiliser des réservations budgétaires générales pour le secteur public dans Microsoft Dynamics 365 Finance.
 author: AlexRenney
-manager: AnnBe
 ms.date: 04/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationYearEndClose_PSN
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cbd9d5098196bce18e4625814533fad1eb14654b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9053279e94b98eb852ffe379c561e54a112113451562445bdf45109b31b8316
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721646"
 ---
 # <a name="maintain-general-budget-reservations"></a>Tenir à jour les réservations budgétaires générales
 
@@ -171,3 +169,6 @@ Pour toute réservation budgétaire générale qui n’a pas expiré et qui comp
 Si vous avez activé le contrôle budgétaire, vous pouvez réduire le report de budget pour les réservations budgétaires générales reportées qui sont finalisées en ayant un solde restant. De cette manière, vous pouvez vérifier que les fonds de l’exercice précédent ne sont pas dépensés pour les achats au cours du nouvel exercice.
 
 Si l’option **Réduire le report de budget** est définie sur **Oui** sur le type de fonds ou de réservation associé, lorsque vous finalisez le document dans le nouvel exercice, le solde du document restant et le report de budget restant sont réduits à 0 (zéro).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

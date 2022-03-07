@@ -2,11 +2,9 @@
 title: Règles de stratégie d’audit
 description: Les stratégies d’audit permettent d’évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d’audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d’un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois.
 author: panolte
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744304"
 ---
 # <a name="audit-policy-rules"></a>Règles de stratégie d’audit
 
@@ -30,8 +28,7 @@ ms.locfileid: "5021239"
 
 Les stratégies d’audit permettent d’évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d’audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d’un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois. 
 
-<a name="queries-and-query-types"></a>Requêtes et types de requêtes
------------------------
+## <a name="queries-and-query-types"></a>Requêtes et types de requêtes
 
 Lorsque vous créez une règle de stratégie d’audit, vous commencez par sélectionner un type de règle de stratégie. Celui-ci spécifie la requête AOA (arbre d’objets d’application) à utiliser comme point de départ pour créer la règle de stratégie. Il spécifie également le type de requête à utiliser pour la règle de stratégie. La requête détermine le document source évalué par la règle de stratégie. Elle spécifie également les champs dans le document source qui identifient l’entité juridique et la date à utiliser lors de la sélection de documents pour audit. Le type de requête contrôle les champs par défaut dans la page de requête et dans la page Règle de stratégie d’audit. Le tableau suivant indique les types de requêtes disponibles pour les règles de stratégie d’audit.
 
@@ -93,10 +90,12 @@ L’ensemble des règles de stratégie pour une stratégie d’audit spécifique
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Violations et incidents de stratégie d’audit](audit-policy-violations-cases.md)
 [Définir des stratégies d’audit pour les documents source](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

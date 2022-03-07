@@ -2,16 +2,13 @@
 title: Analyse budgétaire dans le secteur public
 description: Cette rubrique décrit l’utilisation de la page d’analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d’analyse de budget et la page de statistiques de contrôle budgétaire.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19641
 ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a51347cc4b7a80d9de1b71a20792422d05bada
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f0819bd974d6d02063dc0642c2a3d3e5fe15d5282f71a987facd804ecb3b3773
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747026"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
@@ -68,9 +65,8 @@ La page **Statistiques de contrôle budgétaire** est l’outil à utiliser lors
 
 Le tableau suivant décrit les différences entre ces pages.
 
-|                                                                                                                         |                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| **Page Statistiques de contrôle budgétaire**                                                                                      | **Page Analyse budgétaire**                                                                    |
+| Page Statistiques de contrôle budgétaire | Analyse budgétaire                        |
+|---|---|
 | Affiche les soldes budgétaires pour un cycle budgétaire et un modèle de budget pour une seule valeur de dimension financière ou un groupe budgétaire. | Affiche les montants budgétaires combinés pour plusieurs valeurs de dimension financière simultanément. |
 | Inclut les données des engagements confirmés et non confirmés.                                                         | Inclut les données des engagements confirmés uniquement.                                             |
 | Inclut les données des comptes de dépenses uniquement.                                                                               | Inclut les données des comptes de produit et de dépenses.                                       |
@@ -108,3 +104,6 @@ Après avoir modifié les paramètres en haut de la page, cliquez sur **Mettre �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

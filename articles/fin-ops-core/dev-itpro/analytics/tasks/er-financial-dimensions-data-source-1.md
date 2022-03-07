@@ -1,12 +1,10 @@
 ---
-title: ER Utiliser les dimensions financières comme source de données (Partie 1 - Créer un modèle de données)
-description: Les étapes suivantes expliquent comment un administrateur système ou un développeur d’états électroniques peut configurer un modèle de génération d’états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.
+title: ER Utiliser les dimensions financières comme source de données (Partie 1 – Créer un modèle de données)
+description: Cette rubrique décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 1)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35c4a05fb15a7e3166c6d075569debcf9cbc3cc3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ce7b1ad5472a6e276d356ff4e814defcc5af1f9d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681707"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359385"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Utiliser les dimensions financières comme source de données (Partie 1 - Créer un modèle de données)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Utiliser les dimensions financières comme source de données (Partie 1 – Créer un modèle de données)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -106,5 +104,8 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 69. Cliquez sur Enregistrer.
 70. Fermez la page.
 
-![Page du concepteur des modèles de gestion des états électroniques](../media/er-financial-dimensions-guides-data-model.png)
+![Page du concepteur des modèles de gestion des états électroniques.](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

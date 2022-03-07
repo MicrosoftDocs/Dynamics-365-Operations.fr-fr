@@ -1,8 +1,8 @@
 ---
-title: Configurer les types d'emploi
-description: Les types d'emploi peuvent être configurés dans Dynamics 365 Human Resources pour qu'ils correspondent à vos collaborateurs.
+title: Configurer les types d’emploi
+description: Les types d’emploi peuvent être configurés dans Dynamics 365 Human Resources pour qu’ils correspondent à vos collaborateurs.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,18 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d332f7f355c138cc058185f1b9578a67737fb1d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 833494fffda917d389252a35abdcd23a69b46511
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418461"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466060"
 ---
-# <a name="set-up-employment-types"></a>Configurer les types d'emploi
+# <a name="set-up-employment-types"></a>Configurer les types d’emploi
 
-Configurez les types d'emploi dans Dynamics 365 Human Resources pour qu'ils correspondent à vos collaborateurs.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. Dans l'espace de travail **Gestion du personnel**, sous **Configuration**, sélectionnez **Types d'emploi**.
+Configurez les types d’emploi dans Dynamics 365 Human Resources pour qu’ils correspondent à vos collaborateurs.
+
+1. Dans l’espace de travail **Gestion du personnel**, sous **Configuration**, sélectionnez **Types d’emploi**.
 
 2. Sélectionnez **Nouveau**.
 
@@ -37,7 +39,10 @@ Configurez les types d'emploi dans Dynamics 365 Human Resources pour qu'ils corr
 
    | Champ | Description |
    | --- | --- |
-   | **Type d'emploi** | Identification unique du type d'emploi. |
-   | **Description** | Description du type d'emploi. |
+   | **Type d’emploi** | Identification unique du type d’emploi. |
+   | **Description** | Description du type d’emploi. |
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

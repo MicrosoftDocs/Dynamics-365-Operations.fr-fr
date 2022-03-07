@@ -1,6 +1,6 @@
 ---
-title: Gérer la mise en correspondance de modèle de gestion d’états électroniques dans des configurations de gestion d’états électroniques distinctes
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut gérer des mises en correspondance de modèle d’états électroniques dans des configurations ER distinctes.
+title: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
+description: Cette rubrique décrit comment gérer la mise en correspondance des modèles de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684425"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093796"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gérer la mise en correspondance de modèle de gestion d’états électroniques dans des configurations de gestion d’états électroniques distinctes
 

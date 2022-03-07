@@ -1,7 +1,7 @@
 ---
 title: Dépannage de la budgétisation de poste
 description: Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération.
-author: panolte
+author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,18 +11,19 @@ ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 88253
 ms.assetid: c44df01b-8700-4022-b4c6-c4b1cb84d31d
 ms.search.region: Global
-ms.author: panolte
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: afddc9815ee3864236f93c8400bcf116d5b6cc89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017615"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443261"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 

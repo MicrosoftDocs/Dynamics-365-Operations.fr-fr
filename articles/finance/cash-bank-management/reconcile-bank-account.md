@@ -2,27 +2,24 @@
 title: Rapprocher un compte bancaire
 description: Cette rubrique décrit la procédure de rapprochement d’un compte bancaire.
 author: panolte
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739357"
 ---
 # <a name="reconcile-a-bank-account"></a>Rapprocher un compte bancaire
 
@@ -71,3 +68,6 @@ La fonctionnalité Annuler le rapprochement de relevé de bancaire vous permet d
 Les rapprochements de relevé bancaire ne peuvent être annulés que dans l’ordre chronologique dans lequel ils ont été entrés. Lorsqu’un rapprochement de relevé bancaire est annulé, de nouvelles transactions et corrections seront contrepassées et toutes les autres transactions seront marquées comme non rapprochées.
  
 Pour annuler le rapprochement de relevé bancaire, sélectionnez le relevé bancaire et sélectionnez **Relevé bancaire > Annuler le rapprochement bancaire**. Dans la page **Annuler le rapprochement bancaire**, renseignez les champs **Code motif**, **Commentaire du motif** et **Date d’annulation**. Sélectionnez **OK** pour démarrer l’annulation. Notez que la date d’annulation du relevé bancaire doit être égale ou postérieure à la date du relevé bancaire. Une fois le rapprochement de relevé de bancaire annulé, le champ **Date d’annulation** du relevé bancaire sera mis à jour avec la **Date d’annulation** fournie. Sélectionnez le bouton **Transactions** pour afficher les transactions pour lesquelles le rapprochement a été annulé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

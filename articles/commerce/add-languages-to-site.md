@@ -2,50 +2,44 @@
 title: Ajouter des langues à votre site
 description: Cette rubrique explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412207"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964552"
 ---
 # <a name="add-languages-to-your-site"></a>Ajouter des langues à votre site
-
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment ajouter la prise en charge de langues supplémentaires à un site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
-
-Vous pouvez situer votre site web dans n'importe quelle langue que Commerce prend en charge. (La liste des langues prises en charge apparaît plus loin dans cette rubrique.) Pour ajouter une langue à votre site web, vous devez l'ajouter à un magasin en ligne lié à votre site.
+Vous pouvez situer votre site web dans n’importe quelle langue que Commerce prend en charge. (La liste des langues prises en charge apparaît plus loin dans cette rubrique.) Pour ajouter une langue à votre site web, vous devez l’ajouter à un magasin en ligne lié à votre site.
 
 ## <a name="add-a-language-to-an-online-store"></a>Ajouter une langue à un magasin en ligne
 
 Pour ajouter une langue à un magasin en ligne, procédez comme suit.
 
-1. Ouvrez l'environnement Dynamics 365 Commerce pour votre site.
+1. Ouvrez l’environnement Dynamics 365 Commerce pour votre site.
 1. Accédez à **Commerce et vente au détail \> Canaux \> Magasins en ligne** pour accéder à la liste des magasins en ligne configurés pour votre environnement. Sinon, entrez **magasins en ligne** comme condition de recherche.
 1. Sélectionnez le magasin en ligne pour lequel ajouter une langue.
-1. Dans l'organisateur **Langues**, sélectionnez **Ajouter**.
+1. Dans l’organisateur **Langues**, sélectionnez **Ajouter**.
 1. Dans le champ **Langue**, sélectionnez la langue à ajouter.
 
-La langue que vous avez ajoutée est ensuite disponible afin de pouvoir configurer votre site pour l'utiliser sur le site de création de l'environnement.
+La langue que vous avez ajoutée est ensuite disponible afin de pouvoir configurer votre site pour l’utiliser sur le site de création de l’environnement.
 
 ### <a name="languages-that-are-supported-by-dynamics-365-commerce"></a>Langues prises en charge par Dynamics 365 Commerce
 
@@ -171,8 +165,9 @@ La langue que vous avez ajoutée est ensuite disponible afin de pouvoir configur
 
 [Ajouter une icône de favori](add-favicon.md)
 
-[Ajouter un message de bienvenue](add-welcome-message.md)
+[Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 
-[Ajouter un avis de droits d'auteur](add-copyright-notice.md)
+[Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
 
-[Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

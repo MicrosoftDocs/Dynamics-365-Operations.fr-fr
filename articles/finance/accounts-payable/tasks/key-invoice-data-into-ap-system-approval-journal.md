@@ -2,23 +2,25 @@
 title: Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation
 description: Cette rubrique explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
 author: abruer
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: f19c31a3ca20ad4b11e2529bdcb9db351c37f6c2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109654"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971876"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation
 
@@ -27,7 +29,7 @@ ms.locfileid: "8109654"
 Cette rubrique explique comment utiliser le registre des factures pour créer des factures et utiliser le journal d’approbation pour mettre à jour les comptes de dépenses.
 
 ## <a name="create-and-post-and-invoice"></a>Créer et valider une facture
-1. Dans le volet de navigation, accédez à **Modules > Comptabilité fournisseur > Factures > Registre des factures**.
+1. Dans le volet de navigation, accédez **Modules > Comptabilité fournisseur > Factures > Registre des factures**.
 2. Sélectionnez **Nouveau**.
 3. Sélectionnez le nom du registre des factures à utiliser.
 4. Sélectionnez **Lignes** pour ouvrir le registre, puis entrez des lignes de dépense.
@@ -51,6 +53,3 @@ Cette rubrique explique comment utiliser le registre des factures pour créer de
 10. Sélectionnez **Valider**.
 11. Sélectionnez **N° document** pour afficher les entrées qui ont été validées. Le compte Factures en attente d’approbation est contrepassé et remplacé par le compte de dépenses actif.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

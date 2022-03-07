@@ -2,9 +2,11 @@
 title: Configuration de Microsoft Teams à partir de Dynamics 365 Commerce
 description: Cette rubrique décrit comment provisionner Microsoft Teams en utilisant les données organisationnelles de Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -13,16 +15,17 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 715b18acb10edebafe60805393cbc16c5be513ef3605cf7a575ff98362443bb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96382c072e03506294d72899072a358091bda8ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766431"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842666"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Configuration de Microsoft Teams à partir de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique décrit comment provisionner Microsoft Teams en utilisant les données organisationnelles de Dynamics 365 Commerce.
 
@@ -49,7 +52,7 @@ Pour configurer Teams dans Commerce Headquarters, procédez comme suit.
 > [!TIP]
 > Si aucun de vos directeurs régionaux, directeurs de magasin et employés de magasin n’a été associé à une licence Teams, le message d’erreur suivant peut s’afficher : « Impossible de récupérer les catégories de SKU applicables pour l’utilisateur ». Pour corriger le problème, sélectionnez **Synchroniser les équipes et les membres** dans le volet Actions.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>Valider la configuration de Teams dans le centre d’administration de Teams
 
@@ -63,7 +66,7 @@ Pour valider la configuration de Microsoft Teams dans le centre d’administrati
 
 L’illustration suivante montre un exemple de la page **Gérer les équipes** dans le centre d’administration de Teams.
 
-![Exemple de la page Gérer les équipes dans le centre d’administration de Teams.](media/Teams-FLW-Admin-Teams.png)
+![Exemple de la page Gérer les équipes dans le centre d’administration de Teams](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Charger une hiérarchie organisationnelle de Commerce vers Teams
     
@@ -73,9 +76,9 @@ Pour charger une hiérarchie organisationnelle Commerce vers Teams, procédez co
     
 1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Configuration de canal \> Configuration de l’intégration Microsoft Teams**.
 1. Sélectionnez **Télécharger la hiérarchie de ciblage**, puis sélectionnez **Magasins de vente au détail par région** pour télécharger un fichier de valeurs séparées par des virgules (CSV) de la hiérarchie organisationnelle.
-1. Installez le module Microsoft Teams Powershell en suivant les étapes de [Installer Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install).
+1. Installez le module Microsoft Teams Powershell en suivant les étapes de [Installer Microsoft Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
 1. Lorsque vous êtes invité dans la fenêtre Teams PowerShell, connectez-vous à l’aide du compte administrateur de votre locataire Azure AD.
-1. Suivez les étapes de [Configurer la hiérarchie de ciblage de votre équipe](/microsoftteams/set-up-your-team-hierarchy) pour charger le fichier CSV pour la hiérarchie de ciblage.
+1. Suivez les étapes de [Configurer la hiérarchie de ciblage de votre équipe](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) pour charger le fichier CSV pour la hiérarchie de ciblage.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Vérifiez que la hiérarchie organisationnelle a été chargée vers Teams
 
@@ -86,7 +89,7 @@ Pour vérifier que la hiérarchie organisationnelle a été chargée vers Micros
 1. Sur l’onglet **Listes publiées**, créez une nouvelle liste contenant une tâche factice.
 1. Sélectionnez **Publier**. La hiérarchie organisationnelle doit apparaître dans la boîte de dialogue **Sélectionner les destinataires de la publication**, comme indiqué dans l’exemple de l’illustration suivante.
 
-![Exemple de hiérarchie organisationnelle dans la boîte de dialogue Sélectionner les destinataires de la publication.](media/Microsoft-teams-verify-org-hierarchy.png)
+![Exemple de hiérarchie organisationnelle dans la boîte de dialogue Sélectionner les destinataires de la publication](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

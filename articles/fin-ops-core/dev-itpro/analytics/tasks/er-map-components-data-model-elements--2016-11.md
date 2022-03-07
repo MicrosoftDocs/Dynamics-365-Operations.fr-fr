@@ -1,12 +1,10 @@
 ---
 title: ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)
-description: La procédure suivante explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut mettre en correspondance des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques, qui définit un format de document électronique pour le domaine de paiements de l’entreprise.
+description: Cette rubrique décrit comment mapper des éléments de modèle de données aux composants de la configuration de la gestion des états électroniques créée.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775998"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapper des composants au format créé à des éléments de modèle de données (novembre 2016)
 
@@ -113,3 +111,6 @@ Chaque version de format peut être configurée comme disponible pour l’utilis
 1. Développez la section Codes pays/région ISO.
     * Chaque accès au format peut être limité en identifiant les pays/régions particuliers dans lesquels un format s’applique. Lorsque la liste de pays/régions pour le format spécifique est vide, ce format peut être utilisé dans n’importe quelle société. Lorsque certains codes pays/région ISO sont insérés dans la liste de pays/régions, le format ne peut être utilisé que pour des sociétés pour lesquelles l’adresse principale se trouve dans le pays/la région.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

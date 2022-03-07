@@ -2,11 +2,9 @@
 title: Moyenne mobile
 description: La moyenne de déplacement est une méthode d’évaluation des coûts définitive basée sur le principe de moyenne, où les coûts des sorties de stock ne changent pas lorsque le coût d’achat est modifié. La différence est capitalisée et est basée sur un calcul proportionnel. Le montant restant est mis en dépenses.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0957fee111ec1fd5bb66951126869cf46d88b36e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6721c01fd0ad3eec30de99dee3b5e98de6bd3b52
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967481"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567533"
 ---
 # <a name="moving-average"></a>Moyenne mobile
 
@@ -140,7 +138,7 @@ Si la nouvelle quantité en stock est positive après la transaction, la transac
 
 ## <a name="inventory-value-report"></a>État de valeur de stock
 
-Dans cet exemple de moyenne de déplacement, l’état Valeur en stock est imprimé pour prendre en charge le calcul actuel de la moyenne de déplacement pour un produit. La valeur du stock peut imprimer les transactions dans l’ordre chronologique, ainsi que le coût, pour prendre en charge le calcul du coût de la moyenne de déplacement d’un produit. L’état affiche le coût de la moyenne de déplacement du produit. Dans la boîte de dialogue **États de valeur de stock**, un intervalle de dates vous permet de sélectionner **Heure de la transaction** ou **Date de validation** pour le tri de l'état. L’option **Date de validation** permet de voir comment l’état est généralement imprimé. L’option **Heure de transaction** est la date réelle à laquelle la transaction est déclarée et le coût de la moyenne de déplacement du produit est mis à jour. Vous pouvez imprimer la valeur du stock à l’aide de l’option **Tri par heure de transaction** si vous souhaitez voir le calcul du coût de la moyenne de déplacement au fil du temps. Le tableau suivant affiche les transactions pour le produit pour lequel l’état est imprimé lorsque l’option de tri **Tri par heure de transaction** est utilisée.
+Dans cet exemple de moyenne de déplacement, l’état Valeur en stock est imprimé pour prendre en charge le calcul actuel de la moyenne de déplacement pour un produit. La valeur du stock peut imprimer les transactions dans l’ordre chronologique, ainsi que le coût, pour prendre en charge le calcul du coût de la moyenne de déplacement d’un produit. L’état affiche le coût de la moyenne de déplacement du produit. Dans la boîte de dialogue **États de valeur de stock**, un intervalle de dates vous permet de sélectionner **Heure de la transaction** ou **Date de validation** pour le tri de l’état. L’option **Date de validation** permet de voir comment l’état est généralement imprimé. L’option **Heure de transaction** est la date réelle à laquelle la transaction est déclarée et le coût de la moyenne de déplacement du produit est mis à jour. Vous pouvez imprimer la valeur du stock à l’aide de l’option **Tri par heure de transaction** si vous souhaitez voir le calcul du coût de la moyenne de déplacement au fil du temps. Le tableau suivant affiche les transactions pour le produit pour lequel l’état est imprimé lorsque l’option de tri **Tri par heure de transaction** est utilisée.
 
 | Heure de transaction | Date         | Type de transaction           | la quantité ; | Montant | Coût unitaire moyen |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -154,3 +152,6 @@ Dans cet exemple de moyenne de déplacement, l’état Valeur en stock est impri
 
 > [!NOTE]
 > Vous ne pouvez pas rapprocher la comptabilité avec le stock à l’aide de l’option de tri **Tri par heure de transaction**. L’état doit être imprimé à l’aide de l’option **Date de validation**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

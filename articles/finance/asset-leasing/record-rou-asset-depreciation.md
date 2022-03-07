@@ -2,11 +2,13 @@
 title: Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
 description: Cette rubrique explique comment créer l’écriture de journal pour l’amortissement requis pour les contrats de location comptabilisés dans le bilan d’une organisation.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseAssetSchedule
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +17,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
-ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.openlocfilehash: 1c42eba0c4bc18e643202020a5bbb7335a73af86
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "7947313"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978987"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Pour les contrats de location comptabilisés au bilan d’une organisation, le droit d’utilisation de l’actif est amorti sur une base mensuelle. Cette rubrique explique comment créer l’écriture de journal pour l’amortissement. L’amortissement débite le compte général des dépenses et crédite le compte général des amortissements cumulés, en fonction de la configuration de votre profil comptable et du type de bail. Ces entrées peuvent être créées pour chaque bail ou pour plusieurs baux à l’aide de la fonctionnalité de journal par lots.
 
@@ -35,12 +35,9 @@ Pour les contrats de location comptabilisés au bilan d’une organisation, le d
 1. Sur la page **Résumé du bail**, sélectionnez un bail. Puis sélectionnez **Registres \> Plan d’amortissement des actifs** pour ouvrir la page **Plan d’amortissement des actifs**.
 
     L’écriture de journal des dépenses d’amortissement du droit d’utilisation de l’actif est basée sur le montant de la colonne **Frais d’amortissement**. Pour un exemple des directives relatives à la conformité aux normes comptables, consultez la section [Calcul des dépenses d’amortissement du droit d’utilisation de l’actif pour les contrats de location-financement](#calculation-of-rou-asset-amortization-expense-for-finance-leases) plus loin dans cette rubrique.
-    
+
 2. Sélectionnez la période d’amortissement, puis sélectionnez **Créer un journal**. Vous recevez un message indiquant que le journal qui sera utilisé pour enregistrer l’amortissement a été créé.
 3. Sélectionnez **Journaux \> Journaux de location d’actifs** pour ouvrir la page **Journal de location d’actifs**, où vous pouvez afficher l’écriture de journal des dépenses d’amortissement qui a été créée.
-
-   Le système verrouille l’édition de certains champs financiers pour éviter tout écart entre les transactions et les échéanciers. Les champs verrouillés incluent : **Compte**, **Montants**, **Dimensions financières**, **Devise** et **Type de transaction**. De plus, vous ne pourrez pas ajouter ou supprimer des lignes d’entrée de journal dans les entrées de journal de location d’actifs, car cela pourrait entraîner des écarts entre les échéanciers et les transactions.
-
 4. Sélectionnez l’entrée de journal, puis sélectionnez **Publier** pour enregistrer l’écriture d’amortissement dans la comptabilité.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Calcul des frais d’amortissement du droit d’utilisation de l’actif pour les locations simples
@@ -64,14 +61,12 @@ Comme mentionné précédemment, les frais de location linéaires correspondent 
 
 | Mois | Coût de location linéaire | Dépenses d’intérêts                        | Calcul de la charge d’amortissement du droit d’utilisation de l’actif |
 |-------|--------------------------|-----------------------------------------|-----------------------------------------------|
-| 1     | (24 000 ÷ 24) = 1 000,00 | (22 888,87 – 1 000) × (5 %% ÷ 12) = 91,20 | 1 000 – 91,20 = 908,80                        |
-| 2     | (24 000 ÷ 24) = 1 000,00 | (21 980,08 – 1 000) × (5 %% ÷ 12) = 87,42 | 1 000 – 87,42 = 912,58                        |
-| 3     | (24 000 ÷ 24) = 1 000,00 | (21 067,49 – 1 000) × (5 %% ÷ 12) = 83,62 | 1 000 – 83,62 = 916,39                        |
+| 1     | (24 000 ÷ 24) = 1 000,00 | (22 888,87 – 1 000) × (5 % ÷ 12) = 91,20 | 1 000 – 91,20 = 908,80                        |
+| 2     | (24 000 ÷ 24) = 1 000,00 | (21 980,08 – 1 000) × (5 % ÷ 12) = 87,42 | 1 000 – 87,42 = 912,58                        |
+| 3     | (24 000 ÷ 24) = 1 000,00 | (21 067,49 – 1 000) × (5 % ÷ 12) = 83,62 | 1 000 – 83,62 = 916,39                        |
 
 > [!NOTE]
 > Selon l’ASC 842, l’amortissement du droit d’utilisation de l’actif pour une location simple est classé comme une charge de location dans le compte de résultat. Pour la visibilité, la location d’actifs décrit l’écriture comme l’amortissement du droit d’utilisation de l’actif. Cependant, l’écriture de débit doit être affectée à un compte de charges de location simple et l’écriture de crédit doit être affectée directement au droit d’utilisation de l’actif pour la location simple. Néanmoins, dans les paramètres de location, vous pouvez spécifier que les écritures de crédit doivent être effectuées sur un compte d’amortissement cumulé pour les droits d’utilisation de l’actif opérationnels.
-
-Si le contrat de bail est classé en location simple, l’amortissement mensuel après amortissement sera calculé selon un amortissement linéaire.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Calcul des frais d’amortissement du droit d’utilisation de l’actif pour les contrats de location-financement
 
@@ -90,6 +85,3 @@ Conformément aux normes internationales d’information financière 16 (IFRS 
 | 1                                    | 22 889,87 ÷ 24 = 953,74                 |
 | 2                                    | 22 889,87 ÷ 24 = 953,74                 |
 | 3                                    | 22 889,87 ÷ 24 = 953,74                 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,16 +11,14 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d0e2a730743a7921578278f23d0d2272b8e052174620c8a6c86c3e1809cdae7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739009"
 ---
 # <a name="production-planning"></a>Planification de la production
-
-[!include [banner](../../includes/banner.md)]
 
 L’optimisation de la planification prend en charge plusieurs scénarios de production. Si vous effectuez une migration depuis le moteur de planification générale intégré existant, il est important de connaître certains changements de comportement.
 

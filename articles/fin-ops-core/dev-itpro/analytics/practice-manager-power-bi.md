@@ -1,12 +1,11 @@
 ---
 title: Contenu Power BI Gestionnaire de pratique
-description: Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+description: Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 757c9bea86d0cba9b67c40ed5afd19804e01778c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685703"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564433"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenu Power BI Gestionnaire de pratique
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les données incluses dans le contenu Power BI **Gestionnaire de pratique**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit les données incluses dans le contenu Microsoft Power BI du **gestionnaire de pratique**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="overview"></a>Présentation
 
@@ -117,3 +116,6 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Mesure globale clé       | Champ               | Description |
 |---------------------------------|---------------------|-------------|
 | Coût prévisionnel de l’activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

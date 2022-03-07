@@ -2,11 +2,9 @@
 title: Achat et vente de congés
 description: Dans Dynamics 365 Human Resources, vous pouvez soumettre des demandes d’achat et de vente de congés en fonction des stratégies d’achat et de vente de congés mises en place par votre entreprise.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dde4ee703b9e76fdfd258cf8611259e3eea28f70
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418576"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790786"
 ---
 # <a name="buy-and-sell-leave"></a>Achat et vente de congés
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dans Dynamics 365 Human Resources, vous pouvez soumettre des demandes d’achat et de vente de congés en fonction des stratégies d’achat et de vente de congés mises en place par votre entreprise.  
 
@@ -53,3 +53,6 @@ Vos soldes seront automatiquement mis à jour ou passer par un processus d’app
 
 [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
 [Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

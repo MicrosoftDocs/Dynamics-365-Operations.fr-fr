@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 539a6f2df46450c5e0fd18ba69501432d6f3fbdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 36b2d8f96f8545f9fa792e42c639b03e1e14e8ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412278"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213744"
 ---
 # <a name="define-channel-specific-discounts"></a>Définir les remises spécifiques à un canal
 
@@ -62,3 +61,6 @@ L'exemple suivant illustre les tâches impliquées dans le paramétrage d'une re
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Ajustements de prix et remises](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

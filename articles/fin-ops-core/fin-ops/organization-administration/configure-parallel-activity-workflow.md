@@ -2,11 +2,9 @@
 title: Configurer des activités parallèles dans un workflow
 description: Pour configurer une activité parallèle, exécutez les procédures suivantes dans l’éditeur de workflow.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dfbe78f31082ad0b1272f02e3ae9d7adbd993b1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 054d62e2ff094aee987f8c6e04e2f2e173da633d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797724"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068761"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>Configurer des activités parallèles dans un workflow
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Pour configurer une activité parallèle, exécutez les procédures suivantes dans l’éditeur de workflow.
 
@@ -47,9 +48,12 @@ Pour ajouter et configurer les branches de cette activité parallèle, procédez
 1. Double-cliquez sur l’activité parallèle pour afficher les branches de l’activité parallèle.
 2. Pour ajouter une branche, faites glisser l’élément **Branche** de la zone **Élément de workflow** vers un point d’insertion sur le canevas. La figure suivante présente un point d’insertion.
 
-    ![Point d’insertion](./media/workflow_insertionpoint.gif)
+    ![Point d’insertion.](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
     > L’ordre des branches est sans importance, car toutes les branches d’une activité parallèle s’exécutent simultanément.
 
 3. Pour configurer chaque branche, voir [Configuration de branches parallèles dans un workflow](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

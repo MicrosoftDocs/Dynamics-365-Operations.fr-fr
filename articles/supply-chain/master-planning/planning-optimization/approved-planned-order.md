@@ -1,17 +1,14 @@
 ---
-title: Approuver les ordres prévisionnels
-description: Cette rubrique décrit l’approbation des ordres prévisionnels pris en charge dans l’Optimisation de la planification.
+title: Afficher, gérer et approuver les ordres prévisionnels
+description: Cette rubrique fournit des informations sur l’affichage, la gestion et l’approbation des ordres prévisionnels dans l’Optimisation de la planification.
 author: ChristianRytt
-manager: tfehr
-ms.date: 08/21/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,27 +16,62 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d7daac5a33c77e1b49f689061a8dbcf17c3a1d3501461cf3abc0e9cac5121ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427861"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713660"
 ---
-# <a name="approve-planned-orders"></a>Approuver les ordres prévisionnels
+# <a name="view-manage-and-approve-planned-orders"></a>Afficher, gérer et approuver les ordres prévisionnels
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la mise à jour du statut des ordres prévisionnels dans l’Optimisation de la planification.
+Cette rubrique fournit des informations sur l’affichage, la gestion et l’approbation des ordres prévisionnels dans l’Optimisation de la planification.
 
-Notez que l’approbation des ordres prévisionnels est une étape facultative, sur la façon de créer un ordre confirmé à partir d’un ordre prévisionnel. Il est recommandé d’approuver les ordres prévisionnels modifiés, sinon les modifications seront ignorées et écrasées lors du prochain cycle de planification.
+## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Afficher et gérer les ordres prévisionnels
 
-![Flux d’ordre prévisionnel](media/approved-planned-orders-1.png)
+Vous pouvez afficher et gérer les ordres prévisionnels sur n’importe quelle page de liste d’ordres prévisionnels. Accédez à l’un des emplacements suivants, en fonction du type d’ordres prévisionnels avec lesquels vous souhaitez travailler :
 
-Le champ **Statut** vous aide à suivre votre progression en utilisant les valeurs suivantes :
+- Planification \> Espaces de travail \> Planification
+- Planification \> Planification \> Ordres prévisionnels
+- Contrôle de la production \> Ordres de fabrication \> Ordres de fabrication prévisionnels
+- Approvisionnements \> Commandes fournisseur \> Commandes fournisseurs prévisionnelles
+- Gestion des stocks \> Commandes entrantes \> Ordres de transfert prévisionnels
+- Gestion des stocks \> Commandes sortantes \> Ordres de transfert prévisionnels
 
-- **Non traité :** Lorsque la planification génère des ordres prévisionnels, leur statut est *Non traité*. Les ordres prévisionnels avec ce statut seront supprimés lors du prochain cycle de planification.
-- **Terminé :** Si vous décidez de ne pas confirmer un ordre prévisionnel, vous pouvez modifier le statut sur *Terminé* pour indiquer que vous avez terminé l’évaluation de cet ordre prévisionnel. Notez qu’un statut de *Non traité* et *Terminé* sont traités de la même manière par le système.
-- **Approuvé :** Si vous souhaitez conserver les modifications ou prévoyez de confirmer un ordre prévisionnel, changez le statut sur *Approuvé*. Les ordres prévisionnels avec le statut *Approuvé* sont considérés comme un approvisionnement fixe et prévu par la planification, de sorte qu’ils ne sont pas modifiés ou supprimés pendant une exécution ultérieure de la planification. Pour ce faire, la logique de planification copie les ordres prévisionnels *Approuvés* de l’ancienne version de plan vers la nouvelle version de plan lors de la planification. Notez que les ordres prévisionnels *Approuvés* ne sont considérés comme des approvisionnements que dans le cadre du plan spécifique.
+## <a name="view-and-edit-the-status-of-planned-orders"></a>Afficher et modifier le statut des ordres prévisionnels
 
-Vous pouvez gérer les ordres prévisionnels à partir de l’espace de travail **Planification**, de la liste **Ordre prévisionnel** ou des listes **Ordres de fabrication prévisionnels**, **Commandes fournisseur prévisionnelles** et **Transfert prévisionnel**.
+Vous pouvez utiliser le **Statut** de chaque ordre prévisionnel pour suivre votre progression ou modifier le traitement d’un ordre prévisionnel. Les valeurs de **Statut** suivantes sont disponibles :
+
+- **Non traité** – Lorsque la planification génère des ordres prévisionnels, ils reçoivent ce statut. Les ordres prévisionnels qui ont ce statut seront supprimés lors du prochain cycle de planification.
+- **Terminé** – Ce statut indique que l’ordre prévisionnel est terminé. Si vous décidez de ne pas confirmer un ordre prévisionnel, vous pouvez modifier manuellement son statut sur *Terminé*. Notez traite les statuts *Non traité* et *Terminé* de la même manière.
+- **Approuvé** – Ce statut indique que l’ordre prévisionnel est approuvé pour confirmation. Si vous souhaitez confirmer un ordre prévisionnel, vous pouvez modifier son statut sur *Approuvé*. Si vous souhaitez conserver les modifications apportées à un ordre prévisionnel ou si vous prévoyez de confirmer un ordre prévisionnel, changez son statut en *Approuvé*. Les ordres prévisionnels dont le statut est *Approuvé* sont considérés comme des approvisionnements fixes et attendus par la planification. Par conséquent, ils ne sont ni modifiés ni supprimés lors des exécutions ultérieures de la planification. Pour ce faire, la logique de planification copie les ordres prévisionnels qui ont un statut *Approuvé* de l’ancienne version du plan vers la nouvelle version du plan lors de la planification. Notez que les ordres prévisionnels qui ont le statut *Approuvé* ne sont considérés comme des approvisionnements que dans le cadre du plan directeur spécifique.
+
+Pour modifier le statut d’un seul ordre prévisionnel, [ouvrez une page de liste d’ordres prévisionnels](#view-planned-orders), ouvrez l’ordre, puis effectuez l’une de ces étapes :
+
+- Sur le raccourci **Général**, modifiez la valeur du champ **Statut**.
+- Dans le volet Actions, sous l’onglet **Ordre prévisionnel**, dans le groupe **Processus**, sélectionnez **Modifier le statut**.
+- Pour marquer l’ordre comme approuvé, dans le volet Actions, sélectionnez **Approuver**.
+
+Pour modifier le statut de plusieurs ordres prévisionnels en même temps, [ouvrez une page de liste d’ordres prévisionnels](#view-planned-orders), activez la case à cocher pour chaque ordre que vous souhaitez modifier, puis effectuez l’une des étapes suivantes :
+
+- Dans le volet Actions, sous l’onglet **Ordre prévisionnel**, dans le groupe **Processus**, sélectionnez **Modifier le statut**.
+- Pour marquer les ordres comme approuvés, dans le volet Actions, sélectionnez **Approuver**.
+
+## <a name="approve-planned-orders"></a>Approuver les ordres prévisionnels
+
+L’approbation des ordres prévisionnels est une étape facultative dans le processus de création d’un ordre confirmé à partir d’un ordre prévisionnel.
+
+L’illustration suivante montre comment utiliser la valeur **Statut** affectée à chaque ordre prévisionnel pour implémenter un workflow d’approbation. Pour mettre en œuvre un processus d’approbation, ajustez manuellement la valeur **Statut** pour chaque ordre prévisionnel comme décrit dans la section précédente.
+
+![Flux d’ordre prévisionnel.](media/approved-planned-orders-1.png)
+
+> [!TIP]
+> Nous vous recommandons d’approuver tous les ordres prévisionnels modifiés. Sinon, les modifications seront ignorées et écrasées lors du prochain cycle de planification.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Ordres prévisionnels confirmés](planned-order-firming.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

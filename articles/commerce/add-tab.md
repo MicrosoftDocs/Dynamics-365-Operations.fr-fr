@@ -2,15 +2,12 @@
 title: Module d’onglet
 description: Cette rubrique couvre les modules d’onglet et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723285"
 ---
-# <a name="tab-module"></a>Module d’onglet
+# <a name="tab-module"></a>Module Onglet
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules d’onglet et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules d’onglets sont des modules de type conteneur utilisés pour organiser les informations d’une page de site dans des onglets. Ils peuvent être utilisés sur n’importe quelle page où les informations doivent être présentées dans des onglets.
 
@@ -39,13 +34,13 @@ Dans chaque module d’onglet, un ou plusieurs modules d’élément d’onglet 
 
 L’image suivante montre un exemple de module d’onglet sur une page de site. Dans cet exemple, l’onglet **Livraison** est sélectionné.
 
-![Exemple d’un module d’onglet](./media/ecommerce-tab.PNG)
+![Exemple d’un module d’onglet.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Propriétés du module d’onglet
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
-| En-tête | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’onglet. |
+| Titre | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’onglet. |
 | Index des onglets actifs | Nombre | Cette propriété spécifie l’onglet qui doit être actif par défaut au chargement d’une page. Si aucune valeur n’est fournie, le premier élément d’onglet est activé par défaut. |
 
 ## <a name="tab-item-module-properties"></a>Propriétés du module d’élément d’onglet
@@ -84,3 +79,6 @@ Pour ajouter un module d’onglet à une page et définir les propriétés requi
 [Module Accordéon](add-accordion.md)
 
 [Module de bloc de texte](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

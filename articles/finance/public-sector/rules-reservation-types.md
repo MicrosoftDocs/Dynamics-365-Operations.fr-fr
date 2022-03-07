@@ -2,27 +2,24 @@
 title: Paramétrer des règles de réservation budgétaire générale et des types de réservation
 description: Cette rubrique explique la procédure de paramétrage et de modification des règles de réservation budgétaire générale et des types de réservations pour le secteur public.
 author: AlexRenney
-manager: AnnBe
 ms.date: 04/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationType_PSN
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 454d79d56801b1bff228e957b34807acc4fad684
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9508ef6bffdbd92ffcdd494ebb7e0264f954892
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407911"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821744"
 ---
 # <a name="set-up-general-budget-reservation-rules-and-reservation-types"></a>Paramétrer des règles de réservation budgétaire générale et des types de réservation
 
@@ -162,3 +159,6 @@ Si vous n’avez pas accès aux pages qui vous permettent d’effectuer cette t�
 |---------------------------|---------------------------------------------------------------|
 | Clé de configuration des licences | Secteur public \> Réservation budgétaire générale                   |
 | Rôles de sécurité            | Vous devez être membre du rôle de sécurité **Responsable du budget**. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

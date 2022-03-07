@@ -2,15 +2,12 @@
 title: Synchronisation des évaluations de produit dans Dynamics 365 Commerce
 description: Cette rubrique décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412335"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967948"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Synchronisation des évaluations de produit dans Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment synchroniser les classements de produit dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Pour consommer des classements de produit dans les omnicanaux, par exemple au point de vente (PDV) et dans les centres d’appels, les classements de produit du service de classements et d’évaluations doivent être importés dans la base de données du canal de commerce. Lorsque les classements de produit sont disponibles dans les omnicanaux, ils peuvent aider les clients indirectement lors de leurs interactions avec des vendeurs.
 
@@ -62,7 +57,7 @@ Pour vérifier que la sous-tâche **RetailProductRating** existe, procédez comm
 
 L’illustration suivante présente un exemple de détails de sous-tâche dans Commerce.
 
-![Détails la sous-tâche RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Détails la sous-tâche RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Si vous ne trouvez pas la sous-tâche **RetailProductRating**, il est possible que vous ayez déjà exécuté la tâche **Synchroniser les classements de produits** et la tâche **1040 CDX** avant d’initialiser le planificateur de commerce. Dans ce cas, procédez comme suit pour exécuter la tâche **Synchronisation de données complète**.
@@ -86,7 +81,7 @@ Pour importer les classements de produits dans Commerce à partir du service de 
 
 L’illustration suivante présente un exemple de configuration de traitement par lots dans Commerce.
 
-![Configuration du traitement par lots de synchronisation des évaluations de produits](media/rnr-hq-batchjob-recurrence.png)
+![Configuration du traitement par lots de synchronisation des évaluations de produits.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Vérifiez que le traitement par lots de la synchronisation de classement de produit a abouti
 
@@ -98,7 +93,7 @@ Pour vérifier que le traitement par lots **Synchroniser les classements de prod
 
 L’illustration suivante donne un exemple de détails de traitement par lots dans Commerce lorsque le traitement par lots est programmé pour une exécution à des intervalles de deux heures.
 
-![Détails du traitement par lots de synchronisation des évaluations de produits](media/rnr-hq-batchjob-status-checking.png)
+![Détails du traitement par lots de synchronisation des évaluations de produits.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Rendez les classements de produit disponibles dans le PDV
 
@@ -116,15 +111,15 @@ Pour activer les classements de produits dans le PDV, procédez comme suit.
 
 L’illustration suivante donne un exemple de la configuration des paramètres de commerce pour activer les classements de produits au PDV.
 
-![Configuration des paramètres de commerce pour les évaluations de produit au PDV](media/rnr-hq-enable-ratings-in-pos.png)
+![Configuration des paramètres de commerce pour les évaluations de produit au PDV.](media/rnr-hq-enable-ratings-in-pos.png)
 
 L’illustration suivante montre un exemple de classements de produits dans PDV.
 
-![Classements de produits dans le PDV](media/rnr-pos-catalog-ratings.png)
+![Classements de produits dans le PDV.](media/rnr-pos-catalog-ratings.png)
 
 L’illustration suivante montre un exemple de classements de produits dans les canaux de centres d’appels.
 
-![Classements de produits dans un canal de centre d’appels](media/rnr-call-center-ratings.png)
+![Classements de produits dans un canal de centre d’appels.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -135,3 +130,16 @@ L’illustration suivante montre un exemple de classements de produits dans les 
 [Gestion des évaluations et avis](manage-reviews.md)
 
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
+
+[Synchronisation des évaluations de produit](sync-product-ratings.md)
+
+[Activer la publication manuelle des évaluations et des avis par un modérateur](manual-publish-rating-reviews.md)
+
+[Importation et exportation des évaluations et des avis](import-export-reviews.md)
+
+[Configurer l’authentification service à service](service-to-service-auth.md)
+
+[FAQ sur les évaluations et avis](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,28 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13072c8d6839fef1ab0dd55d626c23a2a1084d4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209177"
 ---
-# <a name="video-player-module"></a>Module Lecteur vidéo
-
+# <a name="video-player-module"></a>Module de lecture vidéo
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de lecteur vidéo et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
 
 Le module de lecteur vidéo permet de prendre en charge la lecture de vidéos. Il peut être ajouté à n'importe quelle page, à condition que le contenu vidéo soit téléchargé et disponible dans le système de gestion de contenu (CMS). Le module lecteur vidéo prend en charge le type de média .mp4.
 
@@ -106,3 +102,6 @@ Pour ajouter un module de lecteur vidéo à une nouvelle page et définir les pr
 [Module de bloc de texte](add-content-rich-block.md)
 
 [Module de bloc de contenu](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

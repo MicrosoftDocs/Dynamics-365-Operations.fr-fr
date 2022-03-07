@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225787"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -173,3 +172,6 @@ L’instance d’Azure Front Door fournie par Commerce ne prend pas en charge le
   [Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
   [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

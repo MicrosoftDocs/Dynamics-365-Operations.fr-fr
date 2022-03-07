@@ -2,28 +2,25 @@
 title: Effectuer un amortissement dégressif
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd4a8726ca194de2e5d95128659f3b212eaace5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 30e7d135e927867272176b492a536819cafafd23fdc3da234ed1aac265a4d0c5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758871"
 ---
 # <a name="reduce-balance-depreciation"></a>Effectuer un amortissement dégressif
 
@@ -74,9 +71,9 @@ En utilisant la méthode d’amortissement dégressif, les 30 % de la base d’a
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable nette à la fin de l’exercice |
 |--------|-------------------------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) \* 30 % = 3 000           | (11 000 - 1 000) - 3 000 = 7 000      |
-| Année 2 | (7 000 - 1 000) \* 30 % = 1 800            | (7 000 -1 800) = 5 200                |
-| Année 3 | (5 200 - 1 000) \* 30 % = 1 260            | (5 200 - 1 260) = 3 940               |
+| Année 1 | (11 000 – 1 000) \* 30 % = 3 000           | (11 000 – 1 000) – 3 000 = 7 000      |
+| Année 2 | (7 000 – 1 000) \* 30 % = 1 800            | (7 000 -1 800) = 5 200                |
+| Année 3 | (5 200 – 1 000) \* 30 % = 1 260            | (5 200 – 1 260) = 3 940               |
 
 
 -
@@ -85,3 +82,6 @@ En utilisant la méthode d’amortissement dégressif, les 30 % de la base d’a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

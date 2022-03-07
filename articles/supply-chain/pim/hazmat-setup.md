@@ -1,31 +1,27 @@
 ---
 title: Paramétrer les matières dangereuses
 description: Cette rubrique explique comment configurer les données requises pour classer les articles en tant que matières dangereuses. Lorsque vous créez une commande client qui comprend un article classé comme matière dangereuse, le système génère une documentation sur les matières dangereuses pour cette commande client lors de son expédition.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428073"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577430"
 ---
 # <a name="set-up-hazardous-materials"></a>Paramétrer les matières dangereuses
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Pour utiliser la fonctionnalité de matières dangereuses, vous devez d’abord configurer les données requises pour classer les articles comme matières dangereuses. Ensuite, lorsque vous créez une commande client qui comprend un article classé comme matière dangereuse, le système génère une documentation sur les matières dangereuses pour cette commande client lors de son expédition.
 
@@ -284,3 +280,6 @@ Pour configurer des valeurs pour cette spécification, accédez à **Gestion des
 La spécification *Tunnel de matières dangereuses* limite les types de tunnels dans lesquels une matière dangereuse peut être transportée en identifiant les types de tunnels qui doivent être utilisés. Les catégories de tunnels sont établies par les réglementations applicables pour le transport de matières dangereuses. Cette spécification s’applique généralement uniquement au transport routier.
 
 Pour configurer des valeurs pour cette spécification, accédez à **Gestion des informations sur les produits \> Configurer \> Documentation d’expédition de matières dangereuses \> Tunnel de matière dangereuse**. Sur la page **Tunnel de matière dangereuse**, vous pouvez créer n’importe quel nombre d’identificateurs de tunnels et configurer chacun avec un code d’identification et une brève description.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

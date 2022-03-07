@@ -2,26 +2,23 @@
 title: Distribution de poste de prévision
 description: Cette rubrique fournit des informations sur la fonctionnalité de budgétisation de poste disponible pour le secteur public.
 author: velofog
-manager: AnnBe
 ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 109f0ac35fb0bea26eeec1052c165bf13653e8e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bae09f472e281642923edd65f97ff142b0b6bff7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407913"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820469"
 ---
 # <a name="forecast-position-distribution"></a>Distribution de poste de prévision 
 
@@ -35,3 +32,6 @@ Vous pouvez vérifier si les dimensions pour un poste de prévision sont correct
 Vous pouvez voir quand un poste de prévision a été validé pour la dernière fois dans la section **Contrôle de poste de prévision** sur le raccourci **Planification budgétaire** de la page **Poste de prévision**. Les champs de contrôle sont également inclus dans la page de liste **Postes prévisionnels**.
 
 Pour plus d’informations, voir [Prévision des postes](../budgeting/position-forecasting.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,25 @@
 title: Ajouter ou copier des baux (version préliminaire)
 description: Cette rubrique décrit comment créer un bail en saisissant des informations pour celui-ci dans Location d’actifs ou en copiant les informations depuis un bail existant.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969601"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967924"
 ---
 # <a name="add-or-copy-leases-preview"></a>Ajouter ou copier des baux (version préliminaire)
 
@@ -37,6 +35,19 @@ Procédez comme suit pour créer un bail dans Location d’actifs.
 1. Sur la page **Récapitulatif du bail**, dans le volet Actions, sélectionnez **Nouveau**.
 2. Entrez les informations du bail. Les champs obligatoires sont encadrés en rouge.
 
+La date de début du paiement de location ne peut pas être antérieure à la date de début de la location. Si vous entrez une date de début du paiement de location antérieure à la date de début de la location, vous recevrez un message d’erreur.
+
+Par défaut, l’option **Répartir le montant du paiement** du raccourci **Général** de la page **Détails du bail** est définie sur **Non** si l’option **Autoriser la répartition du paiement** de la page **Paramètres de location d’actifs** est définie sur **Oui**. 
+
+Si l’option **Répartir le montant du paiement** est définie sur **Oui**, le champ **Montant du paiement** du raccourci **Lignes d’échéancier de paiement** est verrouillé. Il sera fixé comme le total des montants de paiement saisis ultérieurement dans le catalogue **Répartition du montant du paiement**.
+
+Sélectionnez **Répartition du montant du paiement** pour ouvrir une page où vous pouvez ajouter les types de paiement détaillés. Le bouton **Ajouter des totaux au montant du paiement** déplacera les totaux vers le champ **Montant du paiement**.
+
+> [!NOTE]
+> Si vous ajoutez un montant de paiement détaillé, puis sélectionnez la touche **Échap**, les montants saisis ne seront pas ajoutés au champ **Montant du paiement** du raccourci **Lignes d’échéancier de paiement**. Au lieu de cela, ils seront stockés dans la boîte de dialogue **Répartition du montant du paiement**. Si vous voulez que la boîte de dialogue affiche le montant total, sélectionnez la colonne **Montant**, sélectionnez et maintenez (ou cliquez avec le bouton droit), puis sélectionnez **Totaliser cette colonne**. 
+
+Le bouton **Copier la ligne** copiera la ventilation détaillée du paiement.
+
 ## <a name="create-a-lease-schedule"></a>Créer un échéancier de bail
 
 Une fois que vous avez terminé de saisir les informations relatives au bail, procédez comme suit pour créer un échéancier de bail.
@@ -50,6 +61,9 @@ Une fois que vous avez terminé de saisir les informations relatives au bail, pr
     La page **Détails du registre** montre comment le bail est comptabilisé par les registres qui lui ont été attribués. De là, vous pouvez afficher les échéanciers de bail.
 
     L’échéancier de paiement contient les entrées de l’onglet **Lignes d’échéancier de paiement** sur la page **Ajouter un bail**. Vous pouvez toujours modifier chaque montant de paiement et paiement variable. Le passif locatif est calculé en fonction de l’échéancier de paiement modifié.
+
+    > [!NOTE]
+    > La date de début du paiement de location doit être la même ou une date postérieure à la date de début du bail. Vous recevrez un message d’erreur si la date de début du paiement de location est antérieure à la date de début de la location. 
 
 4. Après avoir examiné l’échéancier de paiement, sélectionnez **Confirmer l’échéancier**. Une fois l’échéancier confirmé, le bail n’est plus disponible pour modification.
 
@@ -88,3 +102,6 @@ Toutes les écritures de journal créées dans Leasing d’actifs sont contenues
 
 > [!NOTE]
 > Le journal de location d’actifs ne peut pas être créé manuellement. Il est automatiquement créé lors de la création des échéanciers de location.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

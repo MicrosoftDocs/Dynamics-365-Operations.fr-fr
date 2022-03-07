@@ -1,29 +1,20 @@
 ---
 title: Disponibilité du stock en double écriture
 description: Cette rubrique fournit des informations sur la consultation de la disponibilité du stock en double écriture.
-author: yijialuan
-manager: AnnBe
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: riluan
-ms.dyn365.ops.version: ''
+ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
-ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839547"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782527"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilité du stock en double écriture
 
@@ -60,61 +51,18 @@ La boîte de dialogue renvoie les informations ATP de Supply Chain Management. C
 
 ## <a name="how-it-works"></a>Comment ça fonctionne
 
-Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**, **Commandes** ou **Factures**, un appel de double écriture en direct est effectué vers l'API **Stock disponible**. L'API calcule le stock disponible pour le produit donné. Le résultat est stocké dans les tables **InventCDSInventoryOnHandRequestEntity** et **InventCDSInventoryOnHandEntryEntity** , puis est écrit dans Dataverse par la double écriture. Pour utiliser cette fonctionnalité, vous devez exécuter les mappages de double écriture suivants. Ignorez la synchronisation initiale lorsque vous exécutez les mappages.
+Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**, **Commandes** ou **Factures**, un appel de double écriture en direct est effectué vers l’API **Stock disponible**. L’API calcule le stock disponible pour le produit donné. Le résultat est stocké dans les tables **InventCDSInventoryOnHandRequestEntity** et **InventCDSInventoryOnHandEntryEntity** , puis est écrit dans Dataverse par la double écriture. Pour utiliser cette fonctionnalité, vous devez exécuter les mappages de double écriture suivants. Ignorez la synchronisation initiale lorsque vous exécutez les mappages.
 
 - Entrées de stock CDS disponibles (msdyn_inventoryonhandentries)
 - Demandes de stock CDS disponibles (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Modèles
+
 Les modèles suivants sont disponibles pour exposer les données de stock disponibles.
 
-Applications Finance and Operations | Application Customer Engagement | Description  
+Applications de Finance and Operations | Applications Customer Engagement     | Description
 ---|---|---
-[Entrées disponibles dans le stock CDS](#145) | msdyn_inventoryonhandentries |
-[Demandes disponibles dans le stock CDS](#147) | msdyn_inventoryonhandrequests |
+[Entrées disponibles dans le stock CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[Demandes disponibles dans le stock CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Entrées de stock CDS disponibles (msdyn_inventoryonhandentries)
-
-Ce modèle synchronise les données entre les applications Finance and Operations et Dataverse.
-
-Champ Finance and Operations | Type de mise en correspondance | Champ Customer Engagement | Valeur par défaut
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Demandes de stock CDS disponibles(msdyn_inventoryonhandrequests)
-
-Ce modèle synchronise les données entre les applications Finance and Operations et Dataverse.
-
-Champ Finance and Operations | Type de mise en correspondance | Champ Customer Engagement | Valeur par défaut
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

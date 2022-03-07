@@ -1,12 +1,10 @@
 ---
-title: ER Utiliser les dimensions financières comme source de données (Partie 3 - Créer l’état)
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un modèle de génération d’états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.
+title: ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
+description: Cette rubrique décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 3)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2a3b9a8b5775d2001f3384480e2f9593f2dfa8b1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684785"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752410"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 - Créer l’état)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utiliser les dimensions financières comme source de données (Partie 3 – Créer l’état)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -145,3 +143,6 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 46. Fermez la page.
 ![Page Concepteur d’opérations de gestion des états électroniques](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

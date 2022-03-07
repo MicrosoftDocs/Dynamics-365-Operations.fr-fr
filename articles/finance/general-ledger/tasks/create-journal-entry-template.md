@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 234cfb98cc07f6c8c81821584e4e1d509d033477
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443246"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988572"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Créer une entrée de journal à l’aide d’un modèle
 
@@ -30,7 +29,7 @@ ms.locfileid: "4443246"
 Les N° document du journal validés peuvent être enregistrés comme Modèles de n° document et être appliqués dans un nouveau N° document de journal. La société fictive USMF sert d’exemple dans cette procédure.
 
 1. Allez dans le **Volet de navigation > Modules > Comptabilité > Entrées de journal > Journaux des opérations diverses**.
-2. Dans le **volet Actions**, cliquez sur **Nouveau**. Cette procédure commence par la création et la validation d’un N° document de journal, mais n’importe quel N° document de journal validé précédemment peut être enregistré comme modèle.  
+2. Dans le **volet Actions**, cliquez sur **Nouveau**. Cette procédure commence par la création et la validation d’un justificatif de journal, mais n’importe quel justificatif de journal validé précédemment peut être enregistré comme modèle.  
 3. Dans le champ **Nom**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
@@ -58,8 +57,8 @@ Les N° document du journal validés peuvent être enregistrés comme Modèles d
 24. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 25. Cliquez sur **Lignes**.
 26. Cliquez sur **Fonctions**.
-27. Cliquez sur **Sélectionner le modèle de n° document**.
+27. Cliquez sur **Sélectionner le modèle de justificatif**.
 28. Recherchez le modèle créé précédemment. Cliquez sur **OK**. Vous devrez peut-être cliquer sur **Étape précédente**, puis sélectionner le modèle correct si d’autres modèles existent.  
-29. Dans le champ **Montant**, entrez le montant à appliquer au document. Le champ **Montant** est affiché uniquement si le type du modèle de n° document est Pourcentage.  
+29. Dans le champ **Montant**, entrez le montant à appliquer au document. Le champ **Montant** est affiché uniquement si le type du modèle de justificatif est Pourcentage.  
 30. Cliquez sur **OK**.
 

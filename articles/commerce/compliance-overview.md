@@ -1,48 +1,47 @@
 ---
-title: Vue d'ensemble de la conformité
+title: Vue d’ensemble de la conformité
 description: Cette rubrique est une présentation des conseils de conformité fournis avec Microsoft Dynamics 365 Commerce pour vous aider à rendre les sites de votre entreprise conformes.
 author: BrianShook
-manager: annbe
 ms.date: 01/08/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412267"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983290"
 ---
-# <a name="compliance-overview"></a>Vue d'ensemble de la conformité
+# <a name="compliance-overview"></a>Vue d’ensemble de la conformité
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique est une présentation des conseils de conformité fournis avec Microsoft Dynamics 365 Commerce pour vous aider à rendre les sites de votre entreprise conformes. La conformité est un facteur important pour toutes les entreprises, car elle aide leur base d'utilisateurs à se connecter au contenu de leur site. En restant conforme, vous pouvez également aider à protéger votre entreprise contre des poursuites judiciaires coûteuses ou de lourdes amendes.
+Cette rubrique est une présentation des conseils de conformité fournis avec Microsoft Dynamics 365 Commerce pour vous aider à rendre les sites de votre entreprise conformes. La conformité est un facteur important pour toutes les entreprises, car elle aide leur base d’utilisateurs à se connecter au contenu de leur site. En restant conforme, vous pouvez également aider à protéger votre entreprise contre des poursuites judiciaires coûteuses ou de lourdes amendes.
 
 La documentation de conformité comprend un examen des domaines que vous devez prendre en compte lorsque vous utilisez Dynamics 365 Commerce, pour vous aider à répondre aux exigences de conformité de votre entreprise.
 
-Vous êtes responsable de l'examen des exigences de conformité de votre entreprise et de la création et de la construction de sites qui répondent aux normes de ces exigences. Les rubriques suivantes fournissent des exemples qui montrent comment vous pouvez prendre en compte la conformité lorsque vous utilisez les outils de création de Commerce.
+Vous êtes responsable de l’examen des exigences de conformité de votre entreprise et de la création et de la construction de sites qui répondent aux normes de ces exigences. Les rubriques suivantes fournissent des exemples qui montrent comment vous pouvez prendre en compte la conformité lorsque vous utilisez les outils de création de Commerce.
 
-Pour en savoir plus sur les principes de base utilisés par Microsoft, visitez le [Centre de gestion de la confidentialité Microsoft](https://www.microsoft.com/trust-center). Sur ce site, vous pouvez également obtenir plus d'informations sur les domaines de conformité.
+Pour en savoir plus sur les principes de base utilisés par Microsoft, visitez le [Centre de gestion de la confidentialité Microsoft](https://www.microsoft.com/trust-center). Sur ce site, vous pouvez également obtenir plus d’informations sur les domaines de conformité.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctionnalités d'accessibilité](accessibility.md)
+[Fonctionnalités d’accessibilité](accessibility.md)
 
 [Conformité des cookies](cookie-compliance.md)
 
 [Ajouter une page de stratégie de confidentialité](add-privacy-page.md)
 
 [Remplacer les ID utilisateur associés aux modifications de contenu suivies](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

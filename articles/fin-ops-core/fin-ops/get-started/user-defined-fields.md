@@ -2,11 +2,9 @@
 title: Créer et utiliser des champs personnalisés
 description: Cette rubrique vous indique comment autoriser certains utilisateurs à créer des champs via l’interface utilisateur pour personnaliser l’application afin qu’elle réponde à votre activité.
 author: jasongre
-manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -15,20 +13,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798116"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071183"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Créer et utiliser des champs personnalisés
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Tandis qu’il y a un ensemble étendu de champs prédéfinis pour gérer une large éventail de processus d’entreprise, une société doit parfois suivre des informations supplémentaires dans le système. Alors que les programmeurs peuvent être utilisés pour ajouter ces champs en tant qu’extensions dans les outils de développement, la fonctionnalité des champs personnalisés permet d’ajouter des champs directement à partir de l’interface utilisateur, vous permettant ainsi d’adapter l’application à votre entreprise à l’aide de votre navigateur Web.
 
-La capacité d’ajouter des champs personnalisés est disponible dans la mise à jour de la plateforme 13 et versons ultérieures. Seuls les utilisateurs avec des autorisations spéciales ont accès à cette fonctionnalité.
+*Seuls les utilisateurs avec des autorisations spéciales ont accès à cette fonctionnalité.*
 
 Cette vidéo montre comment il est facile d’ajouter un champ personnalisé à une page : [Ajouter des champs personnalisés](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -48,8 +49,9 @@ Les étapes suivantes décrivent comment créer un champ personnalisé et l’in
     Si le bouton **Créer un champ** ne s’affiche pas, vous ne disposez pas des autorisations nécessaires pour utiliser cette fonction.
 
 7. Dans la boîte de dialogue **Créer un champ**, entrez les informations suivantes.
-
+   
     1. Sélectionnez la table de base de données où ce champ doit être ajouté. Notez que seules les tables qui prennent en charge les champs personnalisés s’affichent dans la liste déroulante. Consultez la section ci-après pour obtenir des informations techniques sur les tables prises en charge.
+
     2. Sélectionnez le type de données pour le nouveau champ. Les types de données disponibles sont case à cocher, date, date et heure, décimal, nombre, liste de sélection et texte.
 
         - Si vous choisissez le type de données Texte, vous pouvez également spécifier la longueur maximale du texte qui peut être saisi dans ce champ.
@@ -62,11 +64,15 @@ Les étapes suivantes décrivent comment créer un champ personnalisé et l’in
 10. Cliquez sur **Insérer** pour insérer les champs marqués dans la zone sélectionnée de l’écran.
 11. **Facultatif :** activez le mode **Déplacer** dans la barre d’outils de personnalisation pour déplacer les nouveaux champs vers l’emplacement souhaité dans la zone sélectionnée. Consultez [Personnaliser l’expérience utilisateur](personalize-user-experience.md) pour plus d’informations sur l’utilisation des différentes fonctions de personnalisation pour optimiser un écran pour votre utilisation personnelle.
 
+> [!WARNING]
+> La possibilité de saisir des valeurs dans un champ personnalisé ajouté à une page dépend du fait que la table associée au champ personnalisé est modifiable ou en lecture seule. Lorsque la table associée est en lecture seule, tous les champs liés à cette table, y compris les champs personnalisés, seront également en lecture seule.
+
+
 ## <a name="sharing-custom-fields-with-other-users"></a>Partage de champs personnalisés avec d’autres utilisateurs
 
-Une fois que vous avez créé un champ personnalisé et l’avez affiché dans un écran, vous pouvez partager cette vue de page mise à jour contenant le nouveau champ avec d’autres utilisateurs du système. Cette opération peut être effectuée de deux manières à l’aide des fonctions de personnalisation du produit :
+Une fois que vous avez créé un champ personnalisé et l’avez affiché sur une page, vous pouvez partager cette vue de page mise à jour contenant le nouveau champ avec d’autres utilisateurs du système. Cette opération peut être effectuée de deux manières à l’aide des fonctions de personnalisation du produit :
 
-- La méthode recommandée est par le biais de l’administrateur système, qui peut envoyer une personnalisation à tous les utilisateurs ou à un sous-ensemble d’utilisateurs. Consultez [Personnaliser l’expérience utilisateur](personalize-user-experience.md) pour plus d’informations.
+- La méthode recommandée est de **publier une [vue enregistrée](saved-views.md)** avec le champ personnalisé ajouté à la page sur l’ensemble d’utilisateurs approprié. Si la fonction de vues enregistrées n’est pas activée, l’administrateur système peut appliquer la personnalisation aux utilisateurs souhaités à partir du formulaire de personnalisation. Pour plus d’informations, consultez [Personnaliser l’expérience utilisateur](personalize-user-experience.md).
 - Vous pouvez également exporter vos modifications (appelées *personnalisations*), les envoyer à un ou plusieurs utilisateurs qui peuvent ensuite les importer. L’option **Gérer** dans la barre d’outils de personnalisation vous permet d’exporter et d’importer des personnalisations.
 
 ## <a name="managing-custom-fields"></a>Gestion des champs personnalisés
@@ -137,6 +143,10 @@ Dans de rares cas, vous pouvez décider qu’un champ personnalisé n’est plus
 
 ## <a name="appendix"></a>Annexe
 
+### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Pourquoi ne puis-je pas saisir de valeur dans mon champ personnalisé ? 
+
+Si vous ne pouvez pas saisir de valeur dans le champ personnalisé lorsque la page est en mode Édition, cela peut être dû au fait que la table à laquelle le champ a été ajouté est actuellement en lecture seule. Tous les champs d’une table passent en lecture seule si la table de sauvegarde est actuellement configurée en lecture seule sur la page.   
+
 ### <a name="who-can-create-custom-fields"></a>Qui peut créer des champs personnalisés ?
 
 Par mesure de protection du système, seuls les administrateurs système peuvent créer des champs personnalisés par défaut. Toutefois, un administrateur système peut octroyer des droits de création de champs personnalisés aux utilisateurs avec pouvoir à l’aide du rôle de sécurité **Utilisateur avec pouvoir de personnalisation de l’exécution**, si l’organisation le juge nécessaire. Les utilisateurs qui ne disposent pas de ce rôle de sécurité ne pourront pas créer de champs personnalisés, mais pourront quand même visualiser les champs personnalisés ajoutés par d’autres utilisateurs du système et interagir avec eux.
@@ -162,3 +172,6 @@ Pour des raisons de performances et techniques, seules les tables qui répondent
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Puis-je référencer des champs personnalisés à partir des outils de développement ?  
 
 Les champs personnalisés ne peuvent être gérés que via l’interface utilisateur et ne peuvent pas être référencés par du code. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Créer et affecter une stratégie de distribution des coûts à une unité de contrôle des coûts
 description: Les règles de distribution des coûts sont utilisées pour distribuer les coûts qui ont été financièrement comptabilisés sur un centre de coût collectif.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostDistributionRule
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b269c731776e26df24658feedfa301181c309a14
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 736b537958f65fb54d0829cfbcc819fd315b530c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969276"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810124"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Créer et affecter une stratégie de distribution des coûts à une unité de contrôle des coûts
 
@@ -72,3 +70,6 @@ Les règles de distribution des coûts sont utilisées pour distribuer les coût
 5. Dans le champ Unité de contrôle des coûts, entrez ou sélectionnez une valeur.
 6. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

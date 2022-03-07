@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 for Operations version 1611.
 author: sericks007
-manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752806"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
 
@@ -382,7 +380,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 <td>Pour répondre aux exigences spécifiques à la France pour la numérotation des factures client, vous pouvez paramétrer des souches de numéros pour les factures client par période fiscale.</td>
 </tr>
 <tr>
-<td>Localisation autrichienne - Configurations d’états électroniques</td>
+<td>Localisation autrichienne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format XML de la liste des ventes intracommunautaires pour l’Autriche</li>
@@ -395,7 +393,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation belge - Configurations d’états électroniques</td>
+<td>Localisation belge – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format BLWI pour la Belgique</li>
@@ -413,7 +411,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation brésilienne - Configurations d’états électroniques</td>
+<td>Localisation brésilienne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>GIA SP pour le Brésil</li>
@@ -432,7 +430,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation chinoise - Configurations d’états électroniques</td>
+<td>Localisation chinoise – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format de balance âgée des clients pour la Chine</li>
@@ -450,7 +448,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation estonienne - Configurations d’états électroniques</td>
+<td>Localisation estonienne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format XML de la liste des ventes intracommunautaires pour l’Estonie</li>
@@ -463,7 +461,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation finlandaise - Configurations d’états électroniques</td>
+<td>Localisation finlandaise – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format TXT de liste des ventes intracommunautaires pour la Finlande</li>
@@ -473,7 +471,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation hongroise - Configurations d’états électroniques</td>
+<td>Localisation hongroise – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format XML de la liste des ventes intracommunautaires pour la Hongrie</li>
@@ -488,7 +486,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation italienne - Configurations d’états électroniques</td>
+<td>Localisation italienne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format de déclaration d’échanges de biens pour l’Italie</li>
@@ -498,14 +496,14 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 <li>Format de paiement de débit direct ISO20022 pour l’Italie</li>
 <li>Format de remise de collection RIBA pour l’Italie</li>
 <li>Générer un état des transactions de taxe domestique pour l’Italie</li>
-<li>État de la liste rouge pour l’Italie</li>
+<li>Rapport de liste rouge pour l’Italie</li>
 <li>État Modello770 pour l’Italie</li>
 <li>État de communication annuelle de la taxe pour l’Italie</li>
 </ul>
 </td>
 </tr>
 <tr>
-<td>Localisation lettonne - Configurations d’états électroniques</td>
+<td>Localisation lettonne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Générer un état d’utilisation des rentrées de fonds (Lettonie)</li>
@@ -524,7 +522,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation lituanienne - Configurations d’états électroniques</td>
+<td>Localisation lituanienne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format XML de la liste des ventes intracommunautaires pour la Lituanie</li>
@@ -537,7 +535,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation norvégienne - Configurations d’états électroniques</td>
+<td>Localisation norvégienne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format de lettre de relance pour la Norvège</li>
@@ -550,7 +548,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation polonaise - Configurations d’états électroniques</td>
+<td>Localisation polonaise – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format de déclaration d’échanges de biens pour la Pologne</li>
@@ -567,7 +565,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 <td>Format de répartition des frais divers de lettre de crédit bancaire pour l’Arabie saoudite</td>
 </tr>
 <tr>
-<td>Localisation espagnole - Configurations d’états électroniques</td>
+<td>Localisation pour l’Espagne – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format TXT de liste des ventes intracommunautaires pour l’Espagne</li>
@@ -584,7 +582,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation suédoise - Configurations d’états électroniques</td>
+<td>Localisation suédoise – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format de déclaration d’échanges de biens pour la Suède</li>
@@ -597,7 +595,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 </td>
 </tr>
 <tr>
-<td>Localisation suisse - Configurations d’états électroniques</td>
+<td>Localisation suisse – Configurations d’états électroniques</td>
 <td>
 <ul>
 <li>Format de paiement DebitDirect pour la Suisse</li>
@@ -945,3 +943,6 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu’applicati
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

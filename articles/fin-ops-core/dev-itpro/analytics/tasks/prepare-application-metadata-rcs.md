@@ -1,12 +1,10 @@
 ---
 title: Préparer les métadonnées d’application à utiliser dans RCS
-description: Les étapes de cette rubrique expliquent comment un utilisateur peut créer une nouvelle configuration de génération d’états électroniques (ER) contenant les métadonnées de l’application pour concevoir les configurations de mise en correspondance de modèle ER dans le service RCS (Regulatory Configuration Service).
+description: Cette rubrique décrit comment créer une nouvelle configuration de rapports contenant les métadonnées de l’application.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750572"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Préparer les métadonnées d’application à utiliser dans RCS
 [!include [banner](../../includes/banner.md)]
@@ -80,3 +78,6 @@ Nous avons ajouté des informations de métadonnées sur la table d’enregistre
 3.    Cliquez sur **OK**. 
     
 La configuration de métadonnées ER créée a été enregistrée comme fichier XML qui peut être importé dans RCS et utilisé comme source d’informations sur les métadonnées du domaine du commerce extérieur. Sur la base de ces informations, nous pouvons spécifier la mise en correspondance entre les métadonnées d’application et le modèle de données ER.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

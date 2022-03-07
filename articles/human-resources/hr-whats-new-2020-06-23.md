@@ -1,31 +1,30 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (25 juin 2020)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 23 juin 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6670957795293995e1f9d6abd9524582d93afea09489fba9789f0eed5c1d55c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761925"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (23 juin 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -75,7 +74,7 @@ Vous pouvez maintenant rendre les champs obligatoires en utilisant les fonctionn
 
 ## <a name="human-resources-application-in-teams"></a>Application Human Resources de Teams
 
-Les collaborateurs peuvent consulter et demander des absences dans Microsoft Teams. Ils peuvent interagir avec un bot pour créer des demandes de congé. Pour plus d’informations, voir [Application Human Resources dans Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Les collaborateurs peuvent consulter et demander des absences dans Microsoft Teams. Ils peuvent interagir avec un bot pour créer des demandes de congé. Pour plus d’informations, voir [Application Human Resources dans Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entités DMF (Data Management Framework) pour la gestion des avantages
  
@@ -118,13 +117,15 @@ Une entité DMF est désormais disponible pour les suspensions de régularisatio
 
 Une nouvelle option sera disponible dans les **paramètres des Ressources humaines** pour mettre à jour le nom de l’espace de travail Libre-service Employé en Libre-service.
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Entités de liste de contrôle incluses dans Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Entités de liste de contrôle incluses dans Dataverse
 
-Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Common Data Service.
+Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Dataverse.
 
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

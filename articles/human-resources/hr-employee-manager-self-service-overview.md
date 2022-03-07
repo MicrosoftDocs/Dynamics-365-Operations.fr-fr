@@ -2,30 +2,31 @@
 title: Vue d’ensemble du libre-service pour employés et pour responsables
 description: Cet article fournit une vue d’ensemble de l’espace de travail libre-service pour employés et pour responsables.
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 51941
+ms.search.scope: Human Resources
+ms.custom:
+- "51941"
+- intro-internal
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.openlocfilehash: adb0fc344963b33fe1704a22a35415d9c07b9a08
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4418582"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338095"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Vue d’ensemble du libre-service pour employés et pour responsables
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Cet article fournit une vue d’ensemble de l’espace de travail libre-service pour employés et pour responsables.
 
@@ -138,7 +139,7 @@ Vous pouvez configurer les vignettes suivantes pour les responsables :
 - **Certificats expirant pour mon équipe**
 - **Numéros d’identification arrivant à expiration pour mon équipe**
 - **Essais arrivant à expiration pour mon équipe**
-- **Filtrages arrivant à expiration pour mon équipe**
+- **Présélections arrivant à expiration pour mon équipe**
 - **Tests arrivant à expiration pour mon équipe**
 - **Postes ouverts aux subordonnés directs et/ou étendus**
 - **Demandes de congés en attente pour mon équipe**
@@ -184,18 +185,18 @@ Selon les paramètres de votre organisation, vous pouvez soit apporter des modif
 
 L’onglet **Postes** fournit une vue récapitulative des employés dans leur poste principal. Le nom, la vignette et le département s’affichent dans la zone d’en-tête de chaque carte. Cette carte comprend :
 
-- **Date d’ancienneté** - Affichée à partir de la section récapitulative du collaborateur du formulaire de collaborateur
-- **Années de service** - Calculées en fonction de la date de début d’emploi de l’employé
-- **Nombre de postes précédents** - En fonction de l’historique des postes, si vous sélectionnez ce numéro, vous ouvrez la vue détaillée de tous les postes précédemment occupés
-- **Date de naissance** - Le mois et le jour de la date de naissance de l’employé
+- **Date d’ancienneté** – Affichée à partir de la section récapitulative du collaborateur du formulaire de collaborateur
+- **Années de service** – Calculées en fonction de la date de début d’emploi de l’employé
+- **Nombre de postes précédents** – En fonction de l’historique des postes, si vous sélectionnez ce numéro, vous ouvrez la vue détaillée de tous les postes précédemment occupés
+- **Date de naissance** – Le mois et le jour de la date de naissance de l’employé
 
 Vous pouvez afficher les données de poste pour les subordonnés directs et étendus.
 
 #### <a name="compensation-tab"></a>Onglet Rémunération
 
-L’onglet **Rémunération** affiche le salaire annuel de l’employé. Un identifiant d’entreprise s’affiche sous le montant du salaire. Si un employé a plusieurs emplois et est payé par plusieurs entités juridiques, l’employé aura plusieurs plans de rémunération. Pour voir tous les plans de rémunération des entités juridiques sans changer d'entreprise, vous devez activer la rémunération croisée sous **Human Resources > Paramètres partagés > Accès avancé > Activer la rémunération intersociétés**.
+L’onglet **Rémunération** affiche le salaire annuel de l’employé. Un identifiant d’entreprise s’affiche sous le montant du salaire. Si un employé a plusieurs emplois et est payé par plusieurs entités juridiques, l’employé aura plusieurs plans de rémunération. Pour voir tous les plans de rémunération des entités juridiques sans changer d’entreprise, vous devez activer la rémunération croisée sous **Human Resources > Paramètres partagés > Accès avancé > Activer la rémunération intersociétés**.
 
-Pour afficher l’historique des rémunérations, sélectionnez le montant du salaire pour ouvrir le formulaire **Détails**. Seuls les enregistrements de rémunération fixes et variables actuels et historiques s’affichent dans le formulaire **Rémunération**. Si un employé a plusieurs emplois, vous pouvez basculer entre les sociétés pour afficher l'historique de rémunération dans chaque société ou activer la rémunération intersociétés dans les paramètres partagés de Human Resources pour afficher tous les plans de rémunération.
+Pour afficher l’historique des rémunérations, sélectionnez le montant du salaire pour ouvrir le formulaire **Détails**. Seuls les enregistrements de rémunération fixes et variables actuels et historiques s’affichent dans le formulaire **Rémunération**. Si un employé a plusieurs emplois, vous pouvez basculer entre les sociétés pour afficher l’historique de rémunération dans chaque société ou activer la rémunération intersociétés dans les paramètres partagés de Human Resources pour afficher tous les plans de rémunération.
 
 Vous pouvez afficher la rémunération pour les subordonnés directs et étendus.
 
@@ -214,3 +215,5 @@ Les responsables peuvent voir tous les objectifs de leur équipe via la vignette
 L’onglet **Révisions** récapitule les révisions du collaborateur selon chaque état : **En cours**, **Prêt pour la révision** et **Révision finale**. Pour accéder à la révision d’un employé, sélectionnez le bouton **Détails**, puis sélectionnez les révisions sur lesquelles collaborer. En fonction de l’emplacement de la révision dans le processus de workflow, vous pouvez voir si la révision est disponible pour la mise à jour. 
 
 Vous pouvez voir toutes les révisions de votre équipe via la vignette **Révisions des performances de l’équipe** dans la section **Synthèse** de **Mon équipe**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

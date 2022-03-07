@@ -2,11 +2,9 @@
 title: Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022
 description: Cette procédure montre comment créer des lignes de paiement dans le journal des paiements fournisseur et générer un fichier de paiement fournisseur à l’aide de l’exemple de virement ISO2022.
 author: mrolecki
-manager: AnnBe
 ms.date: 01/17/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18c7d0b6c5c6a7f598f4b94f4dcf02df498d74cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964539"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822703"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022
 
@@ -49,3 +47,6 @@ Il s’agit de la cinquième des cinq procédures illustrant le processus de pai
     3.    Dans le champ **Nom du fichier**, saisissez une valeur. Pour cet exemple, en raison du paiement en EUR, le fichier généré sera conforme à la norme SEPA. Le transfert de crédit ISO20022 ainsi que tout autre format de paiement fournisseurs peut être également utilisé pour générer les paiements dans d’autres devises.
     4.    Dans le champ **Compte en banque**, saisissez ou sélectionnez une valeur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

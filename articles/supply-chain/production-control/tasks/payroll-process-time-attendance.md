@@ -2,27 +2,24 @@
 title: Activer le processus de paie pour le pointage
 description: Cette procédure décrit comment activer le processus de paie pour le pointage.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgPayTable, JmgPayRate, JmgPayAgreementTable, JmgPayAgreementLine, HcmWorker
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5805cc31bf9c7c2231defab63dc9a1e67f82622a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3b196e25699c43dbac06e950aae0ad8a9457a8d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427854"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566549"
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Activer le processus de paie pour le pointage
 
@@ -38,13 +35,13 @@ Cette procédure décrit comment activer le processus de paie pour le pointage. 
 4. Dans le champ Description, entrez une valeur.
 5. Cliquez sur Enregistrer.
 6. Cliquez sur Taux.
-    * Les taux pour les types de paie sont paramétrés pour des intervalles de temps spécifiques, et il est possible de créer des taux individuels pour les travailleurs. Il n'est pas toujours nécessaire de créer des taux pour les types de paie dans le module Pointage. Ces informations sont peut-être déjà présentes dans le système de paie utilisé pour générer les salaires.  
+    * Les taux pour les types de paie sont paramétrés pour des intervalles de temps spécifiques, et il est possible de créer des taux individuels pour les travailleurs. Il n’est pas toujours nécessaire de créer des taux pour les types de paie dans le module Pointage. Ces informations sont peut-être déjà présentes dans le système de paie utilisé pour générer les salaires.  
 7. Cliquez sur Nouveau.
 8. Dans la liste, marquez la ligne sélectionnée.
 9. Entrez un nombre dans le champ Taux.
 10. Cliquez sur Enregistrer.
 
-## <a name="create-a-pay-agreement"></a>Création d'un accord salarial
+## <a name="create-a-pay-agreement"></a>Création d’un accord salarial
 1. Fermez la page.
 2. Fermez la page.
 3. Allez dans Accords salariaux.
@@ -53,20 +50,23 @@ Cette procédure décrit comment activer le processus de paie pour le pointage. 
 5. Tapez une valeur dans le champ Accord salarial.
 6. Dans le champ Description, entrez une valeur.
 7. Cliquez sur Enregistrer.
-8. Cliquez sur Lignes d'accord.
+8. Cliquez sur Lignes d’accord.
 9. Cliquez sur Nouveau.
 10. Dans la liste, marquez la ligne sélectionnée.
 11. Saisissez ou sélectionnez une valeur dans le champ Type de profil.
 12. Saisissez ou sélectionnez une valeur dans le champ Type de paie.
 
-## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a>Paramétrer un accord salarial pour le collaborateur qualifié pour l'enregistrement des heures
+## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a>Paramétrer un accord salarial pour le collaborateur qualifié pour l’enregistrement des heures
 1. Fermez la page.
 2. Fermez la page.
 3. Allez dans Enregistrement du temps des collaborateurs.
     * Pointage > Paramétrage > Enregistrement du temps des collaborateurs  
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-5. Cliquez sur l'onglet Emploi.
+5. Cliquez sur l’onglet Emploi.
 6. Développez la section Enregistrement du temps.
 7. Cliquez sur Modifier.
 8. Saisissez ou sélectionnez une valeur dans le champ Accord salarial.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

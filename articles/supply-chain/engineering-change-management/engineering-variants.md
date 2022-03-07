@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103636"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7471834"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Générer des variantes pour les produits d’ingénierie
 
@@ -23,9 +23,15 @@ ms.locfileid: "8103636"
 
 Cette rubrique décrit comment générer des variantes pour les produits d’ingénierie.
 
-## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Activer ou désactiver la génération de variantes pour les produits d’ingénierie
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Activer la génération de variantes pour les produits d'ingénierie
 
-La fonctionnalité décrite dans cette rubrique nécessite que les deux fonctionnalités *Gestion des modifications techniques* et *Génération des variantes pour les produits d’ingénierie* soient activées pour votre système. Pour plus d’informations sur l’activation ou la désactivation de ces fonctionnalités, reportez-vous à [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Gestion des modifications d’ingénierie*
+- **Nom de la fonction :** *Génération de variantes pour les produits d'ingénierie*
+
+> [!IMPORTANT]
+> La fonction *Génération de variantes pour les produits d'ingénierie* ne sera visible dans votre système qu'une fois que vous aurez activé la clé de configuration *Gestion des changements techniques*. Pour plus d’instructions, consultez [Vue d’ensemble de la gestion des modifications techniques](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Générer une ou plusieurs nouvelles variantes d’un produit d’ingénierie
 

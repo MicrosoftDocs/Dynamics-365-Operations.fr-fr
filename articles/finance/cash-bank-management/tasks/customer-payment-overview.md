@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e93703815d899baa7045f2c5f1e0323944e91c6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225415"
 ---
 # <a name="customer-payment-overview"></a>Vue d’ensemble des paiements client
 
@@ -52,3 +51,6 @@ Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiem
 21. Dans le champ **Référence de paiement**, entrez une référence de paiement. La référence de paiement n’est requise que si vous choisissez d’inclure le paiement sur un bordereau de remise.  
 22. Sur le **volet Actions**, cliquez sur **Publier** pour publier les paiements client. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

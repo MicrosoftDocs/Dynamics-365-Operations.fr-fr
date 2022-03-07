@@ -1,33 +1,35 @@
 ---
 title: Saisir les informations du collaborateur
-description: Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.
+description: Une fois que le recruteur a créé un projet d’embauche collective et généré les postes, l’étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
+ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d139b079c011b60af6d2b896e9edb5b9d27501a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418463"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464884"
 ---
 # <a name="enter-worker-information"></a>Saisir les informations du collaborateur
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Une fois que le recruteur a créé un projet d'embauche collective et généré les postes, l'étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d'embauche collective en cours. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d'embauche collective.
+
+Une fois que le recruteur a créé un projet d’embauche collective et généré les postes, l’étape suivante consiste à entrer les informations sur les collaborateurs pour les personnes embauchées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Les données de démonstration contiennent un projet d’embauche collective en cours. Pour démarrer cette procédure, allez dans Ressources humaines > Recrutement > Projets d’embauche collective.
 
 1. Dans la liste, marquez la ligne sélectionnée.
 2. Cliquez sur Détails du poste.
@@ -41,7 +43,10 @@ Une fois que le recruteur a créé un projet d'embauche collective et généré 
     * Modifiez le département pour le collaborateur, si nécessaire.  
     * Modifiez le statut équivalent temps plein pour le collaborateur, si nécessaire.  
 6. Cliquez sur OK.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 8. Dans la liste, désactiver la ligne sélectionnée.
     * Sélectionnez le poste de projet suivant et continuez à entrer les informations pour chaque personne que vous engagez.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

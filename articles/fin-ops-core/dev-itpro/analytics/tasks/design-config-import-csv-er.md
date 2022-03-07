@@ -2,11 +2,9 @@
 title: Créer des configurations d’états électroniques pour importer des données à partir de fichiers CSV externes
 description: Cette procédure permet de créer des configurations d’états électroniques pour importer des données dans l’application Finance and Operations, à partir d’un fichier externe au format CSV.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,25 +12,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747269"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Créer des configurations d’états électroniques pour importer des données à partir de fichiers CSV externes
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure permet de créer des configurations d’états électroniques pour importer des données dans l’application, à partir d’un fichier externe au format CSV. Dans cette procédure, vous allez créer les configurations ER requises pour l’exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la procédure « Génération d’états électroniques - Créer un fournisseur de configuration et le marquer comme actif. »
+Cette procédure permet de créer des configurations d’états électroniques pour importer des données dans l’application, à partir d’un fichier externe au format CSV. Dans cette procédure, vous allez créer les configurations ER requises pour l’exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la procédure « Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif. »
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté. Ces étapes peuvent être effectuées à l’aide de l’ensemble de données USMF.
 
 Vous devez également télécharger et enregistrer localement les fichiers suivants : [exemples de générations d’états électroniques (ER) Dynamics 365 Finance](https://go.microsoft.com/fwlink/?linkid=862266) 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
-    * Vous pouvez configurer un processus pour importer des fichiers externes au format XML, TXT ou CSV dans des tables de l’application. Tout d’abord, vous devez créer un modèle de données abstrait pour représenter les données importées, d’un point de vue commercial - une configuration de modèle de données ER est créée pour cela. Ensuite, définissez une structure du fichier importé qui correspond au modèle de données conçu comme moyen de transférer les données du fichier vers le modèle de données abstrait - une configuration de format ER est créée pour cela. Enfin, la configuration du modèle de données ER doit être étendue avec une nouvelle mise en correspondance de modèle décrivant comment les données du fichier importé restent des données de modèle de données abstrait, et comment elles sont utilisées pour la mise à jour des tables d’application ou des entités de données.
+    * Vous pouvez configurer un processus pour importer des fichiers externes au format XML, TXT ou CSV dans des tables de l’application. Tout d’abord, vous devez créer un modèle de données abstrait pour représenter les données importées, d’un point de vue commercial – une configuration de modèle de données ER est créée pour cela. Ensuite, définissez une structure du fichier importé qui correspond au modèle de données conçu comme moyen de transférer les données du fichier vers le modèle de données abstrait – une configuration de format ER est créée pour cela. Enfin, la configuration du modèle de données ER doit être étendue avec une nouvelle mise en correspondance de modèle décrivant comment les données du fichier importé restent des données de modèle de données abstrait, et comment elles sont utilisées pour la mise à jour des tables d’application ou des entités de données.
     * Les étapes suivantes décrivent comment les transactions fournisseur suivies en externe sont importées depuis le fichier CSV externe pour une utilisation ultérieure dans le règlement fournisseur pour les déclarations d’honoraires.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d’abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».
 2. Cliquez sur Configurations des états.
@@ -68,7 +66,7 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
 3. Activez « Afficher les détails ».
     * Le format conçu représente la structure attendue du fichier externe au format CSV.
 4. Dans l’arborescence, sélectionnez « Entrant : Fichier\Racine : Séquence ».
-    * Pour l’élément Racine de type SEQUENCE, l’option « Nouvelle ligne - Windows (CR LF) » a été sélectionnée dans le champ « Caractères spéciaux ». Selon ce paramètre, chaque ligne du fichier d’analyse doit être considérée comme un enregistrement distinct.
+    * Pour l’élément Racine de type SEQUENCE, l’option « Nouvelle ligne – Windows (CR LF) » a été sélectionnée dans le champ « Caractères spéciaux ». Selon ce paramètre, chaque ligne du fichier d’analyse doit être considérée comme un enregistrement distinct.
 5. Dans l’arborescence, sélectionnez `Incoming: File\Root: Sequence\Line: Sequence 1..*`.
     * Pour l’élément Racine\Ligne de type SEQUENCE, l’option « Un plusieurs » a été sélectionnée dans le champ « Multiplicité ». En fonction de ce paramètre, au moins une ligne sera présentée dans le fichier d’analyse.
 6. Dans l’arborescence, sélectionnez `Incoming: File\Root: Sequence\Line: Sequence 1..* \Types: Case`.
@@ -124,3 +122,6 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
     * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que toutes les 7 lignes du fichier CSV importé ont été traitées. Les titres des champs sur la ligne 1 ont été ignorés, 4 transactions ont été correctement analysées et 2 transactions ont été reconnues comme non valides.
 3. Fermez la page.
 4. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: État DAS-2
 description: Cette rubrique décrit le processus de génération du fichier d’audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: sndray
-manager: AnnBe
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acddf46d23b49f61527227522568ada290ec3c97
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e228816be343817b5c25a6e2605a75afeaa9b507f40011faa685f8a66be6154
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779784"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
@@ -43,7 +40,7 @@ Avant de générer l’état pour la première fois, vous devez télécharger le
 - Formulaire DAS-2.version.36.30.15 (FR) ou versions ultérieures.
 
 > [!NOTE]
-> Pour plus d’informations sur la manière de télécharger les formats d’états électroniques, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+> Pour plus d’informations sur la manière de télécharger les formats d’états électroniques, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Après avoir téléchargé les configurations des états électroniques à partir de LCS, procédez comme suit.
 
@@ -60,7 +57,7 @@ Après avoir téléchargé les configurations des états électroniques à parti
 
 ### <a name="example"></a>Exemple
 
-[![Exemple de configuration](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
+[![Exemple de configuration.](./media/emea-fra-das2-report-configuration.png)](./media/emea-fra-das2-report-configuration.png)
 
 Sur la ligne 1 de la configuration précédente, le compte principal **622000**, qui est utilisé pour valider les transactions de dépenses de frais, est configuré sur classification **C** (**Commissions**), ce qui est établi par l’autorité fiscale.
 
@@ -110,3 +107,6 @@ Suivez les étapes pour générer l’état de déclaration fiscale.
 
 > [!NOTE]
 > L’état DAS-2 ne prend pas en charge les transactions créées et validées à partir d’une entrée de journal générale et du scénario de schéma de régularisation. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

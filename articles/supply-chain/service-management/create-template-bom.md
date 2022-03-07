@@ -1,46 +1,43 @@
 ---
-title: Création d'une nomenclature des modèles
-description: Vous pouvez créer une nomenclature des modèles à l'aide de différentes méthodes.
-author: ShylaThompson
-manager: tfehr
+title: Création d’une nomenclature des modèles
+description: Vous pouvez créer une nomenclature des modèles à l’aide de différentes méthodes.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e06283f3b95c5ff6b4376bba63cf5a42d5feeb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c10bf5e758a1752e1c50c602db85e0c53ee3e662
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428009"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571495"
 ---
-# <a name="create-a-template-bom"></a>Création d'une nomenclature des modèles   
+# <a name="create-a-template-bom"></a>Création d’une nomenclature des modèles   
 
 [!include [banner](../includes/banner.md)]
 
 
-Vous pouvez créer une nomenclature des modèles à l'aide des méthodes suivantes. Pour toutes les méthodes, les champs **Date de début** et **Date de fin** sont facultatifs et à but informatif uniquement.
+Vous pouvez créer une nomenclature des modèles à l’aide des méthodes suivantes. Pour toutes les méthodes, les champs **Date de début** et **Date de fin** sont facultatifs et à but informatif uniquement.
 
-## <a name="create-a-template-bom-manually"></a>Création manuelle d'une nomenclature des modèles
+## <a name="create-a-template-bom-manually"></a>Création manuelle d’une nomenclature des modèles
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
+1.  Accédez à **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
 
-2.  Appuyez sur Ctrl+N pour ouvrir l'écran **Créer une nomenclature des modèles**.
+2.  Cliquez sur **Nouveau** pour ouvrir l’écran **Créer une nomenclature des modèles**.
 
-3.  Sous **Copier les lignes de nomenclature de la référence**, sélectionnez l'option **Manuel**.
+3.  Sous **Copier les lignes de nomenclature de la référence**, sélectionnez l’option **Manuel**.
 
-4.  Dans le champ **Numéro d'article**, entrez un article du type **Nomenclature**.
+4.  Dans le champ **Numéro d’article**, entrez un article du type **Nomenclature**.
 
 5.  Dans le champ **Nom**, entrez un nom pour le modèle.
 
@@ -50,13 +47,13 @@ Vous pouvez créer une nomenclature des modèles à l'aide des méthodes suivant
 
 Un nouveau modèle de nomenclature vide est créé.
 
-## <a name="create-a-template-bom-based-on-another-template-bom"></a>Création d'une nomenclature des modèles basée sur une autre nomenclature des modèles
+## <a name="create-a-template-bom-based-on-another-template-bom"></a>Création d’une nomenclature des modèles basée sur une autre nomenclature des modèles
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
+1.  Sélectionnez **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
 
-2.  Appuyez sur Ctrl+N pour ouvrir l'écran **Créer une nomenclature des modèles**.
+2.  Cliquez sur **Nouveau** pour ouvrir l’écran **Créer une nomenclature des modèles**.
 
-3.  Sous **Copier les lignes de nomenclature de la référence**, sélectionnez l'option **Nomenclature des modèles**.
+3.  Sous **Copier les lignes de nomenclature de la référence**, sélectionnez l’option **Nomenclature des modèles**.
 
 4.  Dans le champ **Numéro de référence**, sélectionnez une nomenclature des modèles existante à copier vers votre nouvelle nomenclature des modèles.
 
@@ -66,17 +63,17 @@ Un nouveau modèle de nomenclature vide est créé.
 
 7.  Cliquez sur **OK**.
 
-Un nouveau modèle de nomenclature contenant des lignes correspondant aux lignes du modèle de nomenclature d'origine est créé.
+Un nouveau modèle de nomenclature contenant des lignes correspondant aux lignes du modèle de nomenclature d’origine est créé.
 
-## <a name="create-a-template-bom-based-on-an-item-bom"></a>Création d'une nomenclature des modèles basée sur un article de nomenclature
+## <a name="create-a-template-bom-based-on-an-item-bom"></a>Création d’une nomenclature des modèles basée sur un article de nomenclature
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
+1.  Sélectionnez **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
 
-2.  Appuyez sur Ctrl+N pour ouvrir l'écran **Créer une nomenclature des modèles**.
+2.  Cliquez sur **Nouveau** pour ouvrir l’écran **Créer une nomenclature des modèles**.
 
 3.  Sous **Copier les lignes de nomenclature de la référence**, sélectionnez **Nomenclature**.
 
-4.  Dans le champ **Numéro de référence**, sélectionnez une version de nomenclature. Un article du type Nomenclature est copié vers le **Numéro d'article**.
+4.  Dans le champ **Numéro de référence**, sélectionnez une version de nomenclature. Un article du type Nomenclature est copié vers le **Numéro d’article**.
 
 5.  Dans le champ **Nom**, entrez un nom pour le modèle.
 
@@ -84,13 +81,13 @@ Un nouveau modèle de nomenclature contenant des lignes correspondant aux lignes
 
 7.  Cliquez sur **OK**.
 
-Un nouvelle nomenclature des modèles est créée à l'aide de lignes correspondant à celles de la nomenclature indiquée dans **Nomenclatures**.
+Un nouvelle nomenclature des modèles est créée à l’aide de lignes correspondant à celles de la nomenclature indiquée dans **Nomenclatures**.
 
-## <a name="create-a-template-bom-based-on-a-production-bom"></a>Création d'une nomenclature des modèles basée sur une nomenclature de production
+## <a name="create-a-template-bom-based-on-a-production-bom"></a>Création d’une nomenclature des modèles basée sur une nomenclature de production
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
+1.  Sélectionnez **Gestion des services** \> **Paramétrage** \> **Objets du service** \> **Nomenclatures des modèles**.
 
-2.  Appuyez sur Ctrl+N pour ouvrir l'écran **Créer une nomenclature des modèles**.
+2.  Cliquez sur **Nouveau** pour ouvrir l’écran **Créer une nomenclature des modèles**.
 
 3.  Sous **Copier les lignes de nomenclature de la référence**, sélectionnez **Production**.
 
@@ -102,7 +99,7 @@ Un nouvelle nomenclature des modèles est créée à l'aide de lignes correspond
 
 7.  Cliquez sur **OK**.
 
-Une nouvelle nomenclature des modèles est créée à l'aide de lignes correspondant à celles de la nomenclature indiquée dans **Nomenclature**.
+Une nouvelle nomenclature des modèles est créée à l’aide de lignes correspondant à celles de la nomenclature indiquée dans **Nomenclature**.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -111,3 +108,6 @@ Une nouvelle nomenclature des modèles est créée à l'aide de lignes correspon
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
 title: Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management
 description: Cette rubrique décrit comment affecter des icônes et des titres d’étape pour les flux de tâches nouveaux ou personnalisés pour l’application mobile Warehouse Management.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d1d595e7f8ae3cf344c891844845738a4592328eecc326f11e9a2aa0e303785a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733346"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management
 
@@ -27,9 +27,12 @@ Les illustrations suivantes montrent comment les icônes et les titres d’étap
 
 ![Exemple d’une icône d’étape et d’un titre d’étape dans l’application mobile Warehouse Management.](media/step-icon-example.png "Exemple d’une icône d’étape et d’un titre d’étape dans l’application mobile Warehouse Management")
 
-## <a name="turn-this-feature-on-or-off"></a>Activer ou désactiver cette fonctionnalité
+## <a name="turn-on-this-feature-in-your-system"></a>Activer cette fonctionnalité dans votre système
 
-Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Paramètres utilisateur, icônes et titres d’étape pour la nouvelle application d’entrepôt* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Confirmer les expéditions sortantes à partir des tâches par lots* dans l’espace de travail [Paramètres utilisateur, icônes et titres des étapes pour la nouvelle application d’entrepôt](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Gestion des entrepôts*
+- **Nom de la fonctionnalité :** *Paramètres utilisateur, icônes et titres des étapes de la nouvelle application d’entrepôt*
 
 ## <a name="standard-step-ids-classes-and-icons"></a>ID, classes et icônes d’étape standard
 

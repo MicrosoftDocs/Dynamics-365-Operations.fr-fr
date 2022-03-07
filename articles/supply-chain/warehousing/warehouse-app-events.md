@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729984"
 ---
 # <a name="warehouse-app-event-processing"></a>Traitement des événements de l’application d’entreposage
 
@@ -26,9 +26,12 @@ ms.locfileid: "8103261"
 
 Les traitements par lots exécutés dans Supply Chain Management peuvent utiliser les données d’une file d’attente pour traiter les événements émis par l’application mobile Gestion des entrepôts afin de réagir selon les besoins aux événements signalés. Cette fonctionnalité ajoute les événements pertinents à la file d’attente en réponse à certains types d’actions entreprises par les employés utilisant l’application. Un exemple est l’utilisation de la fonction *Créer et traiter des ordres de transfert depuis l’application d’entreposage* ; l’en-tête et les lignes de l’ordre de transfert sont créés et mis à jour dans le back-end lorsque le système exécute le traitement par lots **Traiter les événements de l’application d’entreposage**.
 
-## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Activer ou désactiver la fonction Traiter les événements de l’application d’entreposage
+## <a name="enable-the-process-warehouse-app-events-feature"></a>Activer la fonction Traiter les événements de l’application d’entreposage
 
-À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Remplacer la réservation de production par défaut* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de la page de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. La fonction Traiter les événements de l’application d’entreposage comprend les éléments suivants :
+
+- **Module** - Gestion des entrepôts
+- **Nom de la fonction** - Traiter les événements de l’application d’entreposage
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurer un traitement par lots pour traiter les événements de l’application d’entreposage
 

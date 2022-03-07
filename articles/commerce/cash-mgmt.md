@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce75a191726fc430347f057ac511188acfbbf76e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412233"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213160"
 ---
 # <a name="cash-management-improvements"></a>Améliorations de la gestion des disponibilités
 
@@ -33,7 +32,7 @@ ms.locfileid: "4412233"
 La gestion des disponibilités est une fonction clé pour les détaillants dans les magasins physiques. Les détaillants souhaitent que leurs magasins aient des systèmes qui les aident à fournir la traçabilité et la responsabilité complètes des disponibilités et de leurs mouvements entre les différents caisses enregistreuses et les caissiers d'un magasin. Ils doivent pouvoir rapprocher les différences et déterminer la responsabilité.
 
 
-Microsoft Dynamics 365 Commerce a des fonctionnalités de gestion des disponibilités dans application de point de vente PDV. Toutefois, dans les versions de Retail antérieures à la version 10.0.3, la fonctionnalité de gestion des disponibilités n'est pas assez robuste pour fournir une traçabilité complète des mouvements des disponibilités dans les magasins. Bien que les détaillants puissent rapprocher les disponibilités pour un magasin, ils ne peuvent pas avec précision déterminer la responsabilité en cas d'écart de disponibilités.
+Microsoft Dynamics 365 Commerce a des fonctionnalités de gestion des disponibilités dans application de point de vente POS. Toutefois, dans les versions de Retail antérieures à la version 10.0.3, la fonctionnalité de gestion des disponibilités n'est pas assez robuste pour fournir une traçabilité complète des mouvements des disponibilités dans les magasins. Bien que les détaillants puissent rapprocher les disponibilités pour un magasin, ils ne peuvent pas avec précision déterminer la responsabilité en cas d'écart de disponibilités.
 
 
 Dans la version 10.0.3 de Vente au détail et ultérieurement, les détaillants obtiennent la traçabilité de la gestion des disponibilités. Dans le cadre de cette traçabilité, les détaillants peuvent définir des coffres-forts, créer des transactions bilatérales de disponibilités, et rapprocher les transactions de la gestion des disponibilités.
@@ -62,3 +61,6 @@ Dans Retail version 10.0.3 et ultérieurement, les fonctionnalités suivantes r
 - Lors du rapprochement, si la transaction sélectionnée n'est pas équilibrée, l'utilisateur doit entrer une description du motif pour le rapprochement non équilibré. Les utilisateurs peuvent sélectionner une seule transaction et la rapprocher de la description du motif approprié au besoin.
 - Les utilisateurs peuvent continuer à rapprocher et annuler des rapprochements de transactions jusqu'à ce que l'équipe est clôturée. Une fois une équipe clôturée, le rapprochement des transactions ne peut pas être annulé.
 - Lorsqu'un utilisateur choisit de clôturer une équipe, Commerce valide qu'il n'y a aucune transaction non rapprochée dans les transactions de la gestion des disponibilités de l'équipe. Les utilisateurs ne peuvent pas clôturer une fois une équipe s'il reste des transactions non rapprochées.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

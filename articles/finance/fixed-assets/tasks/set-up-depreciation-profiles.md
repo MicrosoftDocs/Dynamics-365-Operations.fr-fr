@@ -1,33 +1,30 @@
 ---
 title: Paramétrer et créer des profils d’amortissement
-description: Les profils d’amortissement déterminent le type et la fréquence d’amortissement d’une immobilisation.
-author: saraschi2
-manager: AnnBe
+description: Cette procédure indique comment les profils d’amortissement déterminent le type et la fréquence d’amortissement d’une immobilisation.
+author: moaamer
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68aa220896e3d6f598f32cad201cde1aa89f1670
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92089e366d1772b0a74add95d10f8440586c62bd
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443243"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883462"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Paramétrer et créer des profils d’amortissement
 
 [!include [banner](../../includes/banner.md)]
 
-Les profils d’amortissement déterminent le type et la fréquence d’amortissement d’une immobilisation.   La société fictive USMF et le rôle de comptable sont cités en exemple dans cet enregistrement.
+Les profils d’amortissement déterminent le type et la fréquence d’amortissement d’une immobilisation.
 
 
 ## <a name="create-a-depreciation-profile"></a>Créer un profil d’amortissement
@@ -40,3 +37,6 @@ Les profils d’amortissement déterminent le type et la fréquence d’amortiss
 7. Sélectionnez une option dans le champ **Fréquence de période**.
 8. Permet de fermer l’écran.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

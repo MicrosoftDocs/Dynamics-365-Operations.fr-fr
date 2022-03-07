@@ -2,11 +2,9 @@
 title: Stockage de sauvegarde des modèles de gestion des états électroniques
 description: Cette rubrique décrit l’utilisation du stockage de sauvegarde de gestion des états électroniques pour la récupération des modèles.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767875"
 ---
 # <a name="backup-storage-of-er-templates"></a>Stockage de sauvegarde des modèles de gestion des états électroniques
 
@@ -67,19 +65,19 @@ Pour configurer le paramètre **Exécuter automatiquement la procédure de resta
 > [!NOTE]
 > Ce paramètre est défini comme spécifique à la société connectée et à l’utilisateur de l’application.
 
-![Page Configurations d’ER](./media/GER-BackupTemplates-1.png)
+![Page Configurations ER.](./media/GER-BackupTemplates-1.png)
 
 L’illustration suivante présente un exemple du message qui s’affiche lorsque le paramètre **Exécuter automatiquement la procédure de restauration des modèles endommagés dans le traitement par lots** est défini sur **Activé**.
 
-![Page du journal des paiements fournisseur](./media/GER-BackupTemplates-2.png)
+![Page du journal des paiements fournisseur.](./media/GER-BackupTemplates-2.png)
 
 L’illustration ci-dessous indique le processus de traitement par lots **Restaurer les modèles endommagés depuis la sauvegarde de la base de données interne** sur la page **Processus de traitement par lots**.
 
-![Page Traitement par lots](./media/GER-BackupTemplates-3.png)
+![Page Traitement par lots.](./media/GER-BackupTemplates-3.png)
 
 Le journal d’exécution du processus de traitement par lots terminé **Restaurer les modèles endommagés depuis la sauvegarde de la base de données interne** contient des informations sur les modèles qui ont été restaurés depuis l’emplacement de stockage de sauvegarde vers l’emplacement de stockage principal.
 
-![Page Historique du traitement par lots](./media/GER-BackupTemplates-4.png)
+![Page Historique du traitement par lots.](./media/GER-BackupTemplates-4.png)
 
 Par défaut, le processus de création automatique des copies de sauvegarde des modèles qui résident dans les configurations du format de gestion des états électroniques est activé. Pour arrêter de réaliser des copies de sauvegarde des modèles, définissez l’option **Arrêter de créer des copies de sauvegarde des modèles** sur **Activé** sous l’onglet **Pièces jointes** de la page **Paramètres des états électroniques**. Vous pouvez ouvrir cette page depuis l’espace de travail **Gestion des états électroniques**.
 
@@ -87,7 +85,7 @@ Si vous définissez l’option **Arrêter de créer des copies de sauvegarde des
 
 Si vous avez mis votre environnement à niveau avec Finance and Operations version 10.0.5 (Octobre 2019) et si vous souhaitez migrer vers un nouvel environnement comprenant des configurations de format de gestion des états électroniques pouvant être exécutées, sélectionnez **Compléter le stockage de sauvegarde** sur la page **Paramètres des états électroniques avant la migration**. Ce bouton lance le processus de création de copies de sauvegarde de tous les modèles disponibles afin qu’ils puissent être stockés dans l’emplacement de stockage de sauvegarde de gestion des états électroniques pour les modèles.
 
-![Page Paramètres de la gestion des états électroniques](./media/GER-BackupTemplates-5.png)
+![Page Paramètres de la gestion des états électroniques.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Récupération manuelle
 
@@ -102,3 +100,6 @@ Dans Finance and Operations version 10.0.5, le stockage de sauvegarde de la fonc
 [Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
 
 [Configurer la structure de gestion des états électroniques](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

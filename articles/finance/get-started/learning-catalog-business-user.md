@@ -6,20 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5c6ac311a50270e0f1e172bfd4c2c6604c474b55
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443212"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5633818"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catalogue d’apprentissage pour les utilisateurs de Dynamics 365 Finance
 
@@ -45,7 +43,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="financial-management"></a>Gestion financière<a name="financial-management"></a>
 
-| Contenu | Description   | Format  | Longueur |
+| Contenu | Description  | Format  | Longueur |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Configuration et utilisation de la comptabilité dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-general-ledger-dyn365-finance/) | Dynamics 365 Finance permet aux utilisateurs professionnels de contrôler les finances et de gérer les fonds avec des informations précises à tout moment pour la planification et les prévisions financières, et de rester à jour avec les analyses. Puisque la finance est au cœur des affaires, et puisque le module Comptabilité est au cœur de la gestion financière, ce parcours d’apprentissage vous indique comment configurer la fonctionnalité dans le module Comptabilité. Il couvre également comment exécuter les procédures de clôture pour une période ou année.    | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 13.5 heures  |
 | [Configuration et utilisation de la gestion de la trésorerie et de la banque, et de la taxe dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/ )    | Vous pouvez utiliser le module Gestion de la trésorerie et de la banque dans Dynamics 365 Finance pour mettre à jour les comptes bancaires d’une organisation et les instruments financiers qui y sont associés. Toutes les entreprises doivent recueillir et payer les taxes auprès des différentes autorités fiscales. Ce parcours d’apprentissage vous permettra d’apprendre à configurer et à utiliser ces domaines de Dynamics 365 Finance | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7.5 heures |
@@ -54,9 +52,13 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | [Configuration et utilisation de la budgétisation dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Chaque organisation, privée ou publique, définit des objectifs financiers et opérationnels en créant des budgets. Avec la nature de processus et collaborative de la planification budgétaire, vous pouvez rendre votre processus budgétaire plus efficace. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 3.5 heures |
 | [Configuration et gestion des immobilisations dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Vous pouvez définir et entrer des informations d’acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4.5 heures |
 | [Commencez avec le contrôle de gestion des chaînes d’approvisionnement dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Le contrôle de gestion vous permet de collecter des données de différentes sources, telles que la comptabilité, les comptabilités auxiliaires, les budgets, et les informations statistiques. Vous pouvez ensuite analyser, résumer, et évaluer les données de coût, de sorte que la gestion puisse prendre les meilleures décisions possibles concernant les mises à jour de prix, les budgets, le contrôle des coûts, et ainsi de suite.  | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 1 heure  |
+| [Utiliser le module Gestion des dépenses dans Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Maximisez la rentabilité et minimisez les coûts grâce à des capacités de gestion des dépenses précises dans Dynamics 365 Project Operations. Découvrez comment configurer le système, créer et approuver des notes de frais. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures  |
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
-| Contenu | Description   | Format  |
+| Contenu | Description  | Format  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Attestez que vous comprenez Microsoft Dynamics 365 ; Power Platform ; les concepts de cloud ; les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

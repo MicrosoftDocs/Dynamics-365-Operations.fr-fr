@@ -1,35 +1,32 @@
 ---
 title: Montant arrondi pour les calculs d’amortissement
-description: Cet article présente le champ Arrondir l’amortissement qui est indiqué dans les pages de paramétrage du registre.
-author: ShylaThompson
-manager: AnnBe
+description: Cette rubrique présente le champ Arrondir l’amortissement qui est indiqué dans les pages de paramétrage du registre.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d3df48fc7bb092b0257c4652a8c67d1d740dbcfe
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443228"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674331"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>Montant arrondi pour les calculs d’amortissement
 
 [!include [banner](../includes/banner.md)]
 
-Cet article présente le champ Arrondir l’amortissement qui est indiqué dans les pages de paramétrage du registre.
+Cette rubrique présente le champ **Arrondir l’amortissement** qui est indiqué dans les pages de  **Paramétrage du registre**.
 
 Les montants d’amortissement arrondis sont définis pour chaque registre. Les montants d’amortissement arrondis sont utilisés dans le profil d’amortissement des immobilisations qui indique le prochain amortissement et la valeur de l’immobilisation, ainsi que dans les propositions d’amortissement. Entrez le montant minimal de l’amortissement autorisé pour le registre. 
 
@@ -50,3 +47,6 @@ Un amortissement sans arrondi est calculé comme égal à 2 444,44. Selon la man
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

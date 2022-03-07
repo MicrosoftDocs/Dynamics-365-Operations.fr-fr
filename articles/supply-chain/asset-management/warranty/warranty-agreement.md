@@ -1,12 +1,10 @@
 ---
 title: Contrats de garantie
 description: Cette rubrique explique les contrats de garantie dans le module Gestion des actifs.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5644b5076aeda30d5535c0128497e267359583a2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021502"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808206"
 ---
 # <a name="warranty-agreements"></a>Contrats de garantie
 
@@ -54,3 +52,6 @@ Un contrat de garantie peut inclure plusieurs lignes de contrat pour couvrir la 
     4. Dans le champ **Pourcentage**, entrez le pourcentage de couverture pour la ligne de garantie. Le pourcentage indique l’étendue de la couverture par votre entreprise.
 
 ![Page Garantie](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

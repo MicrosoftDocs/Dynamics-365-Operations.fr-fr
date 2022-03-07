@@ -1,12 +1,10 @@
 ---
 title: Options de mise en forme avancées dans les états financiers
-description: Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs.
-author: ryansandness
-manager: AnnBe
+description: Cette rubrique décrit les fonctions de mise en forme avancées, notamment les filtres, les restrictions, les lignes non imprimables et les instructions conditionnelles dans les calculs.
+author: panolte
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760124"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
@@ -35,7 +33,7 @@ Le tableau suivant décrit les fonctions de mise en forme avancées disponibles 
 | Fonction                   | Description |
 |----------------------------|-------------|
 | Filtre de dimension           | Pour accéder aux ensembles de données spécifiques, vous pouvez utiliser des dimensions dans la définition de ligne et la définition de colonne. De nombreux états utilisent uniquement le segment naturel au format de ligne. Toutefois, des lignes peuvent être modifiées afin d’inclure des valeurs de dimension. Des filtres de dimension sont utilisés dans la définition de colonne pour accéder aux valeurs de dimension spécifiques. |
-| Restriction d’unité de déclaration | Vous pouvez paramétrer une ligne d’état afin qu’elle indique uniquement les informations liées à une unité d’enregistrement spécifique. |
+| Restriction d’unité organisationnelle | Vous pouvez paramétrer une ligne d’état afin qu’elle indique uniquement les informations liées à une unité organisationnelle spécifique. |
 | Lignes NP (non imprimées)     | Les lignes non imprimées sont utiles dans de nombreux états. Si plusieurs calculs sont requis afin d’obtenir une valeur, ces calculs peuvent être masqués dans l’état imprimé. Les lignes non imprimées sont également utiles pour résoudre des créations d’état et pour le positionnement avancé de cellules. |
 | Restriction de colonne         | La restriction de colonne dans la définition de ligne est utile pour masquer des valeurs pertinentes uniquement dans certaines lignes de l’état. Lorsque des calculs de pourcentage sont effectués sur une ligne, la restriction de colonne empêche les colonnes de totaux ou d’autres colonnes d’être imprimées lorsque ces numéros ne s’appliquent pas. |
 | Saut de colonne               | Vous pouvez ajouter des sauts de colonne dans une définition de ligne pour afficher les informations d’état côte à côte. Vous pouvez ajouter plusieurs sauts de colonne dans une seule définition de ligne, les en-têtes de colonne sont alors répétés en haut de chaque colonne après le saut de colonne. Les commentaires sur un état sont indiqués entre les sauts de colonne. |
@@ -105,8 +103,8 @@ Le tableau suivant présente un exemple d’une définition de ligne qui utilise
 | Code de ligne | Description               | Code de format | Formules/Lignes/Unités connexes     | Substitution de format      | Solde normal | Lien vers les dimensions financières               |
 |----------|---------------------------|-------------|---------------------------------|----------------------|----------------|--------------------------------------------|
 | 50       | Informations statistiques   | REM         |                                 |                      |                |                                            |
-| 100      | Effectifs - US            | CAL         | 4                               | \#\#\#0.;($\#\#\#0.) |                |                                            |
-| 115      | Effectifs - International | CAL         | 11                              | \#\#\#0.;($\#\#\#0.) |                |                                            |
+| 100      | Effectifs – US            | CAL         | 4                               | \#\#\#0.;($\#\#\#0.) |                |                                            |
+| 115      | Effectifs – International | CAL         | 11                              | \#\#\#0.;($\#\#\#0.) |                |                                            |
 | 130      |                           |             |                                 |                      |                |                                            |
 | 190      | Ventes aux USA                  |             |                                 |                      | C              | +Segment2 = \[41\*\], Segment3 = \[00\]    |
 | 220      | Ventes à l’international       |             |                                 |                      | C              | +Segment2 = \[41\*\], Segment3 = \[01:99\] |
@@ -133,19 +131,19 @@ Le tableau suivant présente un exemple d’une définition de colonne qui utili
 | Formule                      |     |      |        |              |       | E-D          |
 | Largeur de colonne                 | 5   | 30   | 14     | 14           | 14    | 14           |
 
-## <a name="restricting-a-row-to-a-specific-reporting-unit"></a>Restriction d’une ligne à une unité de déclaration spécifique
+## <a name="restricting-a-row-to-a-specific-reporting-unit"></a>Restriction d’une ligne à une unité organisationnelle spécifique
 
-Lorsqu’une ligne d’état est limitée à une unité de déclaration spécifique, cette ligne indique les données liées uniquement pour l’unité de déclaration nommée et ignore les données des autres unités de déclaration dans l’arborescence de génération d’états. Par exemple, vous pouvez créer une ligne qui fournit des détails sur toutes les dépenses opérationnelles pour un département spécifique. Votre état peut contenir des données en double s’il contient une arborescence de génération d’états et une définition de ligne ayant plus que le compte normal. Par exemple, vous avez une arborescence de génération d’états qui répertorie les six départements de votre organisation, et vous avez également une définition de ligne qui répertorie une combinaison spécifique d’un compte et d’un département dans la ligne. Lorsque vous générez l’état, la combinaison spécifique d’un compte et d’un département est imprimée à chaque niveau de l’arborescence de génération d’états, même si ce département ne correspond pas forcément au contenu de l’arborescence. Ce comportement se produit car la ligne remplace ce qui est généralement filtré par la définition d’état. Pour éviter la duplication des données, vous pouvez limiter une ligne à une unité d’enregistrement spécifique.
+Lorsqu’une ligne d’état est limitée à une unité organisationnelle spécifique, cette ligne indique les données liées uniquement pour l’unité organisationnelle nommée et ignore les données des autres unités organisationnelles dans l’arborescence de génération d’états. Par exemple, vous pouvez créer une ligne qui fournit des détails sur toutes les dépenses opérationnelles pour un département spécifique. Votre état peut contenir des données en double s’il contient une arborescence de génération d’états et une définition de ligne ayant plus que le compte normal. Par exemple, vous avez une arborescence de génération d’états qui répertorie les six départements de votre organisation, et vous avez également une définition de ligne qui répertorie une combinaison spécifique d’un compte et d’un département dans la ligne. Lorsque vous générez l’état, la combinaison spécifique d’un compte et d’un département est imprimée à chaque niveau de l’arborescence de génération d’états, même si ce département ne correspond pas forcément au contenu de l’arborescence. Ce comportement se produit car la ligne remplace ce qui est généralement filtré par la définition d’état. Pour éviter la duplication des données, vous pouvez limiter une ligne à une unité organisationnelle spécifique.
 
 > [!NOTE]
-> Si une ligne inclut des dimensions, et si vous limitez cette ligne à une unité de déclaration enfant, le montant de la ligne est inclus pour cette unité enfant et pour ses unités parents, mais aucune duplication ne se produit.
+> Si une ligne inclut des dimensions, et si vous limitez cette ligne à une unité organisationnelle enfant, le montant de la ligne est inclus pour cette unité enfant et pour ses unités parents, mais aucune duplication ne se produit.
 
-### <a name="restrict-a-row-to-a-reporting-unit"></a>Limiter une ligne à une unité de déclaration
+### <a name="restrict-a-row-to-a-reporting-unit"></a>Limiter une ligne à une unité organisationnelle
 
 1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis sélectionnez une définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Formules/Lignes/Unités connexes** appropriée.
 3. Dans la boîte de dialogue **Sélection d’unité organisationnelle**, dans le champ **Organigramme d’entreprise**, sélectionnez l’organigramme affecté à la définition du rapport.
-4. Sélectionnez une unité de déclaration, puis cliquez sur **OK**. La restriction apparaît dans la cellule de la définition de ligne.
+4. Sélectionnez une unité organisationnelle, puis cliquez sur **OK**. La restriction apparaît dans la cellule de la définition de ligne.
 5. Double-cliquez sur la cellule de la colonne **Liens vers les dimensions financières** de la ligne limitée, puis entrez un lien vers le système de données financières.
 
 ## <a name="selecting-print-control-in-a-row-definition"></a>Sélection du contrôle d’impression dans une définition de ligne
@@ -276,17 +274,17 @@ Les formules **THEN** et **ELSE** peuvent être n’importe quel calcul valide e
 - **IF A.200 &gt;>0 THEN @200** : Si la valeur de la cellule A.200 est positive, la valeur de chaque colonne de la ligne 200 est placée dans la colonne correspondante de la ligne actuelle.
 - **IF @200 &gt;>0 THEN @200** : Si la valeur de la ligne 200 de la colonne actuelle est positive, la valeur de la ligne 200 est placée dans la même colonne de la ligne actuelle.
 
-### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restriction d’un calcul dans une unité de déclaration dans une définition de ligne
+### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restriction d’un calcul dans une unité organisationnelle dans une définition de ligne
 
-Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d’états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **\@Unit dans la cellule** **Formules/lignes/unités associées** dans la définition de ligne. Le code **\@Unit** est répertorié dans la colonne B de l’arborescence de génération d’états **Nom d’unité**. Lorsque vous utilisez le code **\@Unit**, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l’arborescence de génération d’états.
+Pour limiter un calcul à une seule unité organisationnelle dans une arborescence de génération d’états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **\@Unit dans la cellule** **Formules/lignes/unités associées** dans la définition de ligne. Le code **\@Unit** est répertorié dans la colonne B de l’arborescence de génération d’états **Nom d’unité**. Lorsque vous utilisez le code **\@Unit**, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l’arborescence de génération d’états.
 
 > [!NOTE]
 > Pour utiliser cette fonction, une arborescence de génération d’états doit être associée à la définition de ligne.
 
-La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule **Formules/lignes/unités associées** de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction **IF @Unit**. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l’état, mais uniquement pour l’unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d’entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n’apparaît pas dans les unités de l’arborescence. Vous pouvez également limiter le montant à une seule colonne de l’état, comme la colonne H par exemple, à l’aide d’une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l’état. Vous pouvez inclure des combinaisons **OR** dans une instruction **IF**. Voici un exemple : IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Vous pouvez spécifier une unité dans une restriction de type de calcul de l’une des manières suivantes :
+La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule **Formules/lignes/unités associées** de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction **IF \@Unit**. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l’état, mais uniquement pour l’unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d’entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n’apparaît pas dans les unités de l’arborescence. Vous pouvez également limiter le montant à une seule colonne de l’état, comme la colonne H par exemple, à l’aide d’une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l’état. Vous pouvez inclure des combinaisons **OR** dans une instruction **IF**. Voici un exemple : **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. Vous pouvez spécifier une unité dans une restriction de type de calcul de l’une des manières suivantes :
 
-- Entrez un nom d’unité pour inclure les unités qui correspondent. Par exemple, **IF @Unit(SALES)** active le calcul pour toute unité nommée SALES, même s’il existe plusieurs unités de vente dans l’arborescence de génération d’états.
-- Entrez le nom d’unité et la société pour limiter le calcul aux unités spécifiques d’une société spécifique. Par exemple, entrez **IF @Unit(ACME:SALES**) pour limiter le calcul aux unités de vente de la société ACME.
+- Entrez un nom d’unité pour inclure les unités qui correspondent. Par exemple, **IF \@Unit(SALES) active** le calcul pour toute unité nommée SALES, même s’il existe plusieurs unités de vente dans l’arborescence de génération d’états.
+- Entrez le nom d’unité et la société pour limiter le calcul aux unités spécifiques d’une société spécifique. Par exemple, entrez **IF @Unit (ACME:SALES)** pour limiter le calcul aux unités de vente de la société ACME.
 - Entrez le code hiérarchique complet à partir de l’arborescence de génération d’états pour limiter le calcul à une unité spécifique. Par exemple, entrez **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +294,7 @@ La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne
 
 1. Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez **CAL**.
-3. Cliquez sur la cellule **Formules/lignes/unités associées**, puis entrez un calcul conditionnel commençant par une construction **IF @Unit**.
+3. Cliquez sur la cellule **Formules/lignes/unités associées**, puis entrez un calcul conditionnel commençant par une construction **IF \@Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instructions IF/THEN/ELSE dans une définition de colonne
 
@@ -310,3 +308,5 @@ Une instruction **IF/THEN/ELSE** permet à n’importe quel calcul de dépendre 
 Vous pouvez concevoir des états à l’aide de valeurs de dimension contenant une esperluette (&).
 
 Dans tout champ **Lier aux dimensions financières**, vous pouvez entrer une valeur comme **’Compte&Résultat’**. L’insertion d’apostrophes (’ ’) de part et d’autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l’esperluette (&).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

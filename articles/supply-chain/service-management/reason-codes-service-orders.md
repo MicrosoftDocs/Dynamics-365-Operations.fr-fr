@@ -1,12 +1,10 @@
 ---
 title: Codes motif pour les commandes de service
-description: Vous pouvez utiliser des codes motif pour expliquer le statut d'une commande de service lorsque le stade d'une commande de service est mis à jour.
-author: ShylaThompson
-manager: tfehr
+description: Vous pouvez utiliser des codes motif pour expliquer le statut d’une commande de service lorsque le stade d’une commande de service est mis à jour.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAStageTable
 audience: Application User
@@ -17,31 +15,31 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9093cd36ecf667d3ebf6970f7e4b2deb580e3723
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ac21174cc0e6319494f2db0530e68229325b07f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965853"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566189"
 ---
 # <a name="reason-codes-for-service-orders"></a>Codes motif pour les commandes de service   
 
 [!include [banner](../includes/banner.md)]
 
 
-Vous pouvez utiliser des codes motif pour expliquer le statut d'une commande de service lorsque le stade d'une commande de service est mis à jour. Par exemple, si vous annulez une commande de service, vous pouvez sélectionner un code motif d'annulation.
+Vous pouvez utiliser des codes motif pour expliquer le statut d’une commande de service lorsque le stade d’une commande de service est mis à jour. Par exemple, si vous annulez une commande de service, vous pouvez sélectionner un code motif d’annulation.
 
-Pour afficher des informations sur les codes motif utilisés pour suivre l'avancement des commandes de service, exécutez l'état Avancement de la commande de service. Cet état répertorie toutes les commandes de service, indépendamment de leur stade, ainsi que les codes motif spécifiés lorsqu'un stade de commande de service est mis à jour.
+Pour afficher des informations sur les codes motif utilisés pour suivre l’avancement des commandes de service, exécutez l’état Avancement de la commande de service. Cet état répertorie toutes les commandes de service, indépendamment de leur stade, ainsi que les codes motif spécifiés lorsqu’un stade de commande de service est mis à jour.
 
 ## <a name="turn-reason-codes-on-or-off"></a>Activation ou désactivation des codes motif
 
-Les codes motif sont facultatifs. Vous pouvez décider s'il est nécessaire d'indiquer un code motif lorsque vous mettez à jour une commande de service vers un stade de service spécifique.
+Les codes motif sont facultatifs. Vous pouvez décider s’il est nécessaire d’indiquer un code motif lorsque vous mettez à jour une commande de service vers un stade de service spécifique.
 
 1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Commandes de service** \> **Stades du service**.
 
-2.  Dans l'écran **Stades du service**, sélectionnez un stade de service, puis activez la case à cocher **Motif** du stade de service.
+2.  Dans l’écran **Stades du service**, sélectionnez un stade de service, puis activez la case à cocher **Motif** du stade de service.
 
-3.  Fermez l'écran pour enregistrer vos modifications.
+3.  Fermez l’écran pour enregistrer vos modifications.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -49,3 +47,6 @@ Les codes motif sont facultatifs. Vous pouvez décider s'il est nécessaire d'in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

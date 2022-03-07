@@ -2,28 +2,25 @@
 title: Conditions de répartition
 description: Cette rubrique fournit des informations sur l’utilisation des conditions de répartition sur un compte principal.
 author: rachel-profitt
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount, AllocationTerms
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 637e12f0deaa53811093a8745bc74dbc19e34f6b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 957baba1364fbbd4a51c6f51b0fad5bf8db46680fa97b9d3d0474dc015064609
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776526"
 ---
 # <a name="allocation-terms"></a>Conditions de répartition
 
@@ -55,7 +52,7 @@ Dans l’organisateur **Compte général de destination**, le compte principal e
 5. Activez la case à cocher **Répartition**.
 6. Sélectionnez **Conditions de répartition**.
 7. Sélectionnez **Modifier** pour modifier l’enregistrement par défaut, ou sélectionnez **Nouveau** pour ajouter un enregistrement.
-8. Dans le champ **Pourcentage**, entrez le pourcentage de transactions de N° document que vous souhaitez répartir.
+8. Dans le champ **Pourcentage**, entrez le pourcentage de pièces comptables que vous souhaitez répartir.
 9. Dans l’organisateur **Dimension financière source**, dans le champ **Critères de sélection** de chaque dimension financière, sélectionnez une option.
     - Si vous sélectionnez **Spécifique**, sélectionnez la valeur de la dimension financière dans la liste déroulante à droite.
     - Si vous sélectionnez **Non spécifique**, aucune information supplémentaire n’est nécessaire pour la dimension financière.
@@ -70,3 +67,6 @@ Dans l’organisateur **Compte général de destination**, le compte principal e
 > Vous pouvez éventuellement utiliser le bouton **Copier** pour dupliquer la répartition sélectionnée.
 
 Lorsqu’une condition de répartition est créée pour un compte principal, le système va automatiquement valider un nouveau N° document lors de la validation d’un N° document, qui correspond aux dimensions financières source dans les conditions de répartition.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

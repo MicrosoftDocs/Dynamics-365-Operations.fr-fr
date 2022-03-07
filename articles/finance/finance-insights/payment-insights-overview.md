@@ -2,28 +2,27 @@
 title: Prévisions de paiement client (version préliminaire)
 description: Cette rubrique décrit la fonctionnalité de prédiction de paiement qui peut vous aider à mieux comprendre les pratiques de paiement typiques d’un client. Cette fonctionnalité peut également vous aider à identifier les circonstances qui devraient vous amener à démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b321fdc185e175d9fe2673c9f1e16486efd8e798
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645671"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355650"
 ---
 # <a name="customer-payment-predictions-preview"></a>Prévisions de paiement client (version préliminaire)
 
@@ -56,11 +55,11 @@ Pour chaque facture ouverte, la fonctionnalité attribue trois probabilités de 
 
 La fonction fournit également une vue agrégée des paiements attendus.
 
-[![Vue cumulée des prévisions de paiement](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Vue cumulée des prévisions de paiement.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Chaque facture se voit attribuer une probabilité de paiement dans les temps. Les factures dont la probabilité de paiement dans les temps est inférieure à 50 pourcent sont marquées avec un cercle rouge pour indiquer qu’elles peuvent nécessiter de l’attention de la part de l’agent de recouvrement.
 
-[![Liste des probabilités de paiement](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Liste des probabilités de paiement.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 La fonction de prédiction de paiement client fournit également des informations contextuelles pour expliquer la prédiction. Ces informations comprennent les principaux facteurs qui ont influencé la prévision, l’état actuel des affaires avec le client et des détails sur le comportement de paiement historique du client.
 
@@ -72,10 +71,8 @@ Dans le passé, il était généralement difficile de développer et de déploye
 
 ## <a name="release-details"></a>Détails du lancement
 
-La version préliminaire publique de Finance Insights est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de régions supplémentaires.
+La version préliminaire publique de Informations financières est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de régions supplémentaires.
 
-Les fonctionnalités en version préliminaire publiques doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox peuvent ne pas être migrés vers l’environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Les fonctionnalités en version préliminaire publiques doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox peuvent ne pas être migrés vers l’environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
-## <a name="privacy-notice"></a>Avis de confidentialité
-
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

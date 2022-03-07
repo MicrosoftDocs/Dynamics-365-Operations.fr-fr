@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19701
 ms.assetid: 8885478d-67f5-4db8-b97b-c0734216f8dd
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f992df9927b09b039c232794f6190496af793527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89edf658c1270740cea16bd81111ba0cf93f6b2e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255676"
 ---
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 
@@ -127,3 +126,6 @@ Vous pouvez afficher les écritures de registre budgétaires pour le budget d’
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

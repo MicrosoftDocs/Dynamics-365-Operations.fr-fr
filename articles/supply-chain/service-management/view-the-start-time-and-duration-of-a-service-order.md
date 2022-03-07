@@ -1,56 +1,53 @@
 ---
-title: Afficher l'heure de début et la durée d'une commande de service
+title: Afficher l’heure de début et la durée d’une commande de service
 description: Vous pouvez afficher la date de début du travail sur la commande de service et sa date de fin.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ec7cbfea709c74b73a189c24da8978a501794d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dd3fe5847d795dafed453294ccc1058955127450
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428046"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567749"
 ---
-# <a name="view-the-start-time-and-duration-of-a-service-order"></a>Affichage de l'heure de début et de la durée d'une commande de service 
+# <a name="view-the-start-time-and-duration-of-a-service-order"></a>Affichage de l’heure de début et de la durée d’une commande de service 
 
 [!include [banner](../includes/banner.md)]
 
 
 Vous pouvez afficher la date de début du travail sur la commande de service et sa date de fin.
 
-Vous pouvez également afficher la date de début et de fin de l'enregistrement de l'heure pour une commande de service. À l'arrêt d'une commande de service, l'heure à laquelle la commande de service doit être terminée est reportée.
+Vous pouvez également afficher la date de début et de fin de l’enregistrement de l’heure pour une commande de service. À l’arrêt d’une commande de service, l’heure à laquelle la commande de service doit être terminée est reportée.
 
-## <a name="view-the-start-time-for-a-service-order"></a>Affichage de l'heure de début d'une commande de service
+## <a name="view-the-start-time-for-a-service-order"></a>Affichage de l’heure de début d’une commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l'écran Détails.
+1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l’écran Détails.
 
-2.  Sous l'onglet **Général**, affichez l'heure à laquelle la commande de service a démarré dans le champ **Heure de début**.
+2.  Sous l’onglet **Général**, affichez l’heure à laquelle la commande de service a démarré dans le champ **Heure de début**.
 
-## <a name="view-the-time-remaining-to-complete-a-service-order"></a>Affichage du temps restant avant la fin d'une commande de service
+## <a name="view-the-time-remaining-to-complete-a-service-order"></a>Affichage du temps restant avant la fin d’une commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l'écran Détails.
+1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l’écran Détails.
 
-2.  Sous l'onglet **Général**, affichez l'heure restante avant la fin de la commande de service dans le champ **Heure de fin**.
+2.  Sous l’onglet **Général**, affichez l’heure restante avant la fin de la commande de service dans le champ **Heure de fin**.
 
-## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a>Affichage des entrées d'enregistrement d'heure de début et de fin pour une commande de service
+## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a>Affichage des entrées d’enregistrement d’heure de début et de fin pour une commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l'écran Détails.
+1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l’écran Détails.
 
-2.  Dans le volet **Actions**, cliquez sur l'onglet **Répartir** \> **Enregistrement de l'heure** pour ouvrir l'écran **Enregistrement de l'heure du contrat SLA** et afficher les entrées d'enregistrement de l'heure pour la commande de service.
+2.  Dans le volet **Actions**, cliquez sur l’onglet **Répartir** \> **Enregistrement de l’heure** pour ouvrir l’écran **Enregistrement de l’heure du contrat SLA** et afficher les entrées d’enregistrement de l’heure pour la commande de service.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -59,3 +56,6 @@ Vous pouvez également afficher la date de début et de fin de l'enregistrement 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

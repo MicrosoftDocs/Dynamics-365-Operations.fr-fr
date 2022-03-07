@@ -1,30 +1,29 @@
 ---
 title: Vue d’ensemble de la comptabilité client (Secteur public)
 description: Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
-author: ShylaThompson
-manager: AnnBe
+author: v-kiarnd
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustParameters, CustTradingPartnerCode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 26281
+ms.custom:
+- "26281"
+- intro-internal
 ms.assetid: a411ec87-a209-471c-a141-5f5a92f2e45e
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 954cb02e42871faac2f0bd7269af2531d5e5591b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca8ae917ab436ea54f30a6a4367e30bc1bc8f4a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407926"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985951"
 ---
 # <a name="accounts-receivable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité client (Secteur public)
 
@@ -32,8 +31,7 @@ ms.locfileid: "4407926"
 
 Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 
-<a name="how-do-i-set-accounts-receivable-parameters-for-the-public-sector"></a>Comment définir les paramètres de comptabilité client pour le secteur public ?
-------------------------------------------------------------------
+## <a name="how-do-i-set-accounts-receivable-parameters-for-the-public-sector"></a>Comment définir les paramètres de comptabilité client pour le secteur public ?
 
 La plupart des paramètres de comptabilité client sont définis de la même manière si vous êtes dans le secteur public ou le secteur privé. Toutefois, les paramètres requis pour les classifications de facturation et les codes facturation sont utilisés uniquement par le secteur public. Pour plus d’informations, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).
 
@@ -59,8 +57,7 @@ Vous pouvez conserver les dimensions financières par défaut pour le groupe de 
 ## <a name="what-can-i-use-accounts-receivable-posting-definitions-for"></a>À quelles fins puis-je utiliser les définitions de validation de la comptabilité client ?
 Vous pouvez utiliser les définitions de validation pour créer des lignes de journal de comptabilité auxiliaire pour les transactions d’origine qui répondent aux critères sélectionnés, par exemple, pour générer plusieurs écritures comptables équilibrées basées sur des attributs tels que des types de transactions et des comptes. Pour plus d’informations sur les définitions de validation, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Module Comptabilité client](../accounts-receivable/accounts-receivable.md)
 
@@ -71,3 +68,6 @@ Vous pouvez utiliser les définitions de validation pour créer des lignes de jo
 [Créer et affecter un code partenaire commercial](tasks/create-assign-trading-partner-code-public-sector.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

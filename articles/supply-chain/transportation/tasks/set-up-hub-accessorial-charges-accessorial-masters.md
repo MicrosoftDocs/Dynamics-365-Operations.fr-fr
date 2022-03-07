@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des frais annexes de terminal et des données principales annexes
-description: Cette procédure décrit la création de données principales annexes pour un terminal et l'utilisation de ces données principales pour créer des frais annexes de terminal.
+description: Cette procédure décrit la création de données principales annexes pour un terminal et l’utilisation de ces données principales pour créer des frais annexes de terminal.
 author: ShylaThompson
 manager: tfehr
 ms.date: 11/11/2016
@@ -11,32 +11,31 @@ ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad89afe0a21261c57311c439153b969d837748e4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: cb2e9125c7a38d1dc5e6866a056fb71f25e40928
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233677"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Paramétrer des frais annexes de terminal et des données principales annexes
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la création de données principales annexes pour un terminal et l'utilisation de ces données principales pour créer des frais annexes de terminal. La procédure utilise le dataset USMF. Cette configuration est généralement réalisée par un coordinateur transport.
+Cette procédure décrit la création de données principales annexes pour un terminal et l’utilisation de ces données principales pour créer des frais annexes de terminal. La procédure utilise le dataset USMF. Cette configuration est généralement réalisée par un coordinateur transport.
 
 
 ## <a name="set-up-a-hub-master"></a>Paramétrer une table maître de transbordement
-1. Accédez à Gestion du transport > Configurer > Taux > Données principales de l'élément accessoire.
+1. Accédez à Gestion du transport > Configurer > Taux > Données principales de l’élément accessoire.
 2. Cliquez sur Nouveau.
 3. Dans le champ Données principales annexes, saisissez une valeur.
 4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Type d'annexe, sélectionnez « Terminal ».
+5. Dans le champ Type d’annexe, sélectionnez « Terminal ».
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
 
@@ -45,12 +44,15 @@ Cette procédure décrit la création de données principales annexes pour un te
 2. Cliquez sur Nouveau.
 3. Dans le champ ID annexe du terminal, saisissez une valeur.
 4. Dans le champ Point de transbordement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+5. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 6. Dans le champ Position du terminal, sélectionnez une option.
-    * Vous pouvez créer les frais pour le lieu d'enlèvement ou le lieu de livraison. En fonction de votre choix, les frais seront appliqués au segment de transport correspondant sur votre route.  
+    * Vous pouvez créer les frais pour le lieu d’enlèvement ou le lieu de livraison. En fonction de votre choix, les frais seront appliqués au segment de transport correspondant sur votre route.  
 7. Dans le champ Données principales annexes, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Sélectionnez les données principales que vous venez de créer.  
 9. Cliquez sur Enregistrer.
 10. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

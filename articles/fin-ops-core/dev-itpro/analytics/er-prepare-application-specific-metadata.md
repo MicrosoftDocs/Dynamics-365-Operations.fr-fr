@@ -2,11 +2,9 @@
 title: Préparer les métadonnées spécifiques à l’application pour RCS et ER
 description: Cette rubrique explique comment préparer des métadonnées spécifiques à l’application pour le service RCS (Regulatory Configuration Service) et la génération d’états électroniques (ER)
 author: NickSelin
-manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735596"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Préparer les métadonnées spécifiques à l’application pour RCS et ER
 
@@ -280,3 +278,6 @@ Lorsque vous devez évaluer cette mise en correspondance de modèle à l’aide 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 Sinon, vous pouvez lire le guide de tâche **Préparer les métadonnées d’application à utiliser dans RCS** dans l’application, ainsi que les guides de tâche **Accéder aux métadonnées d’application à l’aide d’une configuration de gestion des états électroniques** et **Accéder aux métadonnées d’application à l’aide des guides de tâche des applications connectées** dans RCS. Ces guides de tâche peuvent être téléchargés à partir de la page [Guides de tâches de la génération d’états électroniques pour Dynamics 365 for Finance and Operations 8,1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

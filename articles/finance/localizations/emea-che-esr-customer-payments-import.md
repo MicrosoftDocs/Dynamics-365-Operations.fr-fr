@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264584
 ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dfcfb13391bccde43a5bd50965967fde1a8a432b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f42ed4d93ab68127a534eb8aa98dd8010ba14ca9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407985"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236316"
 ---
 # <a name="esr-customer-payments-import"></a>Importation des paiements client ESR
 
@@ -54,3 +53,6 @@ Après avoir importé le fichier de paiement, les lignes du journal des paiement
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Méthodes de réapprovisionnement et modification des quantités
 description: Cette rubrique fournit des informations sur les méthodes de réapprovisionnement dans l’optimisation de la planification. Elle explique également comment la quantité de commandes multiples pour un produit affecte le résultat.
-author: ChristianRytt
+author: crytt
 ms.date: 6/1/2021
 ms.topic: article
 ms.search.form: ReqGroup, ReqItemTable, InventItemOrderSetup
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 017dabb46265769bf727056a9bf1a8c0cfdc99f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567293"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261694"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Méthodes de réapprovisionnement et modification des quantités
 
@@ -34,11 +34,11 @@ Les codes de couverture suivants peuvent être utilisés dans l’optimisation d
 
 - **Période** : méthode de réapprovisionnement qui associe toutes les demandes pour une période en une commande du produit. La commande sera planifiée pour le premier jour de la période et sa quantité répondra aux besoins nets pendant la période définie. La période commence avec la première demande du produit et couvre la plage de temps définie. La période suivante commencera avec les prochains besoins du produit. Le code de couverture *Période* est souvent utilisé pour les épuisements de stock non prévisibles, les produits influencés par la saison ou les produits à coût élevé. L’illustration suivante présente un exemple.
 
-    ![Exemple d’utilisation du code de couverture Période.](./media/coverage-code-period.png "Exemple d’utilisation du code de couverture Période")
+    ![Exemple d’utilisation du code de couverture Période](./media/coverage-code-period.png "Exemple d’utilisation du code de couverture Période")
 
 - **Besoin** : méthode de réapprovisionnement dans laquelle le système crée un ordre de fabrication, de transfert ou d’achat planifié selon les besoins du produit. Cette méthode est utilisée pour les produits coûteux qui ont une demande intermittente. Le code de couverture *Besoin* est souvent utilisé pour les produits configurables ou les scénarios de fabrication sur commande. L’illustration suivante présente un exemple.
 
-    ![Exemple d’utilisation du code de couverture Besoin.](./media/coverage-code-requirement.png "Exemple d’utilisation du code de couverture Besoin")
+    ![Exemple d’utilisation du code de couverture Besoin](./media/coverage-code-requirement.png "Exemple d’utilisation du code de couverture Besoin")
 
 - **Min./max.**  : La méthode de réapprovisionnement est basée sur le niveau des stocks. Elle définit le réapprovisionnement du stock jusqu’à un niveau spécifique lorsque le niveau de stock disponible prévu est inférieur à un seuil spécifique. La quantité de réapprovisionnement sera la différence entre le niveau maximum et le niveau disponible prévisionnel. Le code de couverture *Min./Max.* est souvent utilisé pour les épuisements de stock prévisibles, les produits les plus demandés ou les produits moins coûteux. L’illustration suivante présente un exemple.
 
@@ -72,7 +72,7 @@ En d’autres termes, l’optimisation de la planification réapprovisionnera to
 
 Si la quantité de réapprovisionnement (la différence entre le niveau maximum et le niveau de stock prévu) n’est pas un multiple de la quantité multiple définie, l’optimisation de la planification utilisera la première valeur possible qui, avec le niveau de stock prévu, sera inférieure au niveau maximal. Si la somme est inférieure au niveau minimum, l’optimisation de la planification utilisera la première valeur qui, avec le stock prévu, sera supérieure au niveau maximum.
 
-Les sous-sections suivantes fournissent quelques exemples qui montrent comment la quantité de commande multiple d’un produit affecte le résultat *Min./Max.* .
+Les sous-sections suivantes fournissent quelques exemples qui montrent comment la quantité de commande multiple d’un produit affecte le résultat de la méthode de réapprovisionnement *Min./Max.*.
 
 ### <a name="example-1"></a>Exemple 1
 

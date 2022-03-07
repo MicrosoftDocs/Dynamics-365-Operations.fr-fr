@@ -1,27 +1,24 @@
 ---
 title: Paramétrer les registres d’amortissement
 description: Cette procédure parcourt le processus de création d’un nouveau registre d’amortissement et l’associe à un groupe d’immobilisations.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443244"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883618"
 ---
 # <a name="set-up-depreciation-books"></a>Paramétrer les registres d’amortissement 
 
@@ -55,3 +52,6 @@ Cette procédure parcourt le processus de création d’un nouveau registre d’
 6. Entrez un nombre dans le champ Durée de vie.
     * Notez que la valeur du champ Périodes d’amortissement est calculée après la définition de la durée de vie.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

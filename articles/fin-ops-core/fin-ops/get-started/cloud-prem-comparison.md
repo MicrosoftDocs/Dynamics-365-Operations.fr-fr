@@ -2,11 +2,9 @@
 title: Comparaison des fonctionnalités dans le cloud et sur site
 description: La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
-ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959892"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910447"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -44,9 +42,9 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformité et certifications        |                                                                                           | Oui       | Oui             |
 |                                      | Type de certification SOC 1 Type 1                                                                | Oui       | Non              |
-| Intégration et gestion des données      |                                                                                           | Oui       | Oui             
+| Intégration et gestion des données      |                                                                                           | Oui       | Oui             |
 |                                      | Exportation des données vers votre propre entrepôt de données                                                    | Oui       | Oui             |
-|                                      | Activation de l’exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui              |
+|                                      | Activation de l’exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui             |
 |                                      | Intégration de données                                                                         | Oui       | Oui             |
 | Gestion des documents                  |                                                                                           | Oui       | Oui             |
 | Gestion financière                 |                                                                                           | Oui       | Oui             |
@@ -63,8 +61,8 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |                                      | Espaces de travail analytiques                                                                     | Oui       | N°              |
 |                                      | Processus métier intelligent : Recommandations                                             | Oui       | N°              |
 |                                      | Création d’états Power BI avec OData à l’aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | N°              |
-|                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l’échelle                                 | Oui       | Non              |
-|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | Non              |
+|                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l’échelle                                 | Oui       | Oui             |
+|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | N°              |
 | Lifecycle Services                   |                                                                                           | Oui       | Oui             |
 |                                      | Processus métier configurables                                                           | Oui       | Non              |
 | Localisations                        |                                                                                           | Oui       | Oui             |
@@ -77,7 +75,7 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 | Sécurité                             |                                                                                           | Oui       | Oui             |
 | Gestion des services                   |                                                                                           | Oui       | Oui             |
 | Client Web                           |                                                                                           | Oui       | Oui             |
-|                                      | Enregistreur de tâches - Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
+|                                      | Enregistreur de tâches – Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
 | Support                              |                                                                                           | Oui       | Oui             |
 |                                      | Accès au support via le menu Aide et support                                             | Oui       | Non              |
 |                                      | Événements commerciaux                                                                           | Oui       | Oui (soit une connectivité Internet est requise, soit des points de terminaison personnalisés doivent être implémentés pour envoyer/recevoir des événements commerciaux dans l’intranet)              |
@@ -86,7 +84,7 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 
 | **Secteur**                | **Fonction**             | **Cloud** | **Sur site** |
 |-------------------------|-------------------|-----------|-----------------|
-| Gestion des actifs                     |                                                                                           | Oui       | N° |
+| Gestion des actifs                     |                                                                                           | Oui       | Oui             |
 | Conformité et certifications        |                                                                                           | Oui       | Oui             |
 |                                      | Type de certification SOC 1 Type 1                                                                | Oui       | N°              |
 | Contrôle de gestion                      |                                                                                           | Oui       | Oui             |
@@ -97,7 +95,7 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 | Intégration et gestion des données      |                                                                                           | Oui       | Oui             |
 |                                      | Extension pilotée par la configuration                                                            | Oui       | N°              |
 |                                      | Exportation des données vers votre propre entrepôt de données                                                    | Oui       | Oui             |
-|                                      | Activation de l’exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui              |
+|                                      | Activation de l’exportation des mises à jour incrémentielles vers une entité de données                                 | Oui       | Oui             |
 |                                      | Intégration de données                                                                         | Oui       | Oui             |
 | Gestion des documents                  |                                                                                           | Oui       | Oui             |
 | Affiche l’aide                                 |                                                                                           | Oui       | Non              |
@@ -112,8 +110,8 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |                                      | Espaces de travail analytiques                                                                     | Oui       | N°              |
 |                                      | Processus métier intelligent : Recommandations                                             | Oui       | N°              |
 |                                      | Création d’états Power BI avec OData à l’aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | N°              |
-|                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l’échelle                                 | Oui       | Non              |
-|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | Non              |
+|                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l’échelle                                 | Oui       | Oui             |
+|                                      | La télémétrie est transférée dans le cloud                                                   | Oui       | N°              |
 | Gestion des stocks                 |                                                                                           | Oui       | Oui             |
 | Lifecycle Services                   |                                                                                           | Oui       | Oui             |
 |                                      | Processus métier configurables                                                           | Oui       | Non              |
@@ -143,13 +141,13 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 |                                      | Application d’entrepôt mobile                                                                      | Oui       | Oui             |
 |                                      | États Power BI d’entrepôt                                                              | Oui       | N°              |
 | Client Web                           |                                                                                           | Oui       | Oui             |
-|                                      | Enregistreur de tâches - Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
+|                                      | Enregistreur de tâches – Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
 | Support                              |                                                                                           | Oui       | Oui             |
 |                                      | Accès au support via le menu Aide et support                                             | Oui       | Non              |
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Pour afficher une liste des fonctionnalités disponibles dans les déploiements sur site, voir [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
+Pour afficher une liste des fonctionnalités disponibles dans les déploiements sur site, voir [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
@@ -176,3 +174,6 @@ Pour afficher une liste des fonctionnalités disponibles dans les déploiements 
 
 \* Dans les environnements sur site, PerfTimer affiche uniquement les résultats pour le client.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

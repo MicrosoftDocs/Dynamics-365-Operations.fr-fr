@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 85132ee72a72c712f726bec9e3450dbd4e1d8f0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968852"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224715"
 ---
 # <a name="reclassify-fixed-assets"></a>Reclassifier des immobilisations
 
@@ -45,3 +45,6 @@ Procédez comme suit pour reclassifier une immobilisation :
 5. Dans le champ **Date de reclassification**, entrez une date.
 6. Dans le champ **Souche de N° documents**, entrez ou sélectionnez une valeur.
 7. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

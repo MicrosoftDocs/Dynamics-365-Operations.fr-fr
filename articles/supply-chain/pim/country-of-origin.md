@@ -1,38 +1,34 @@
 ---
 title: Pays d’origine
 description: De nombreuses organisations délivrent des certificats à leurs fournisseurs pour garantir que les produits répondent à des normes de certification spécifiques. Ces certificats dépendent souvent du pays d’origine. Cette rubrique fournit des informations sur la fonction du pays d’origine, qui vous permet de lier un produit à son pays d’origine et de suivre ses certifications de produit.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427552"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777619"
 ---
 # <a name="country-of-origin"></a>Pays d’origine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 De nombreuses organisations délivrent des certificats à leurs fournisseurs pour garantir que les produits répondent à des normes de certification spécifiques. Ces certificats dépendent souvent du pays d’origine. La fonction du pays d’origine vous permet de lier un produit à son pays d’origine et de suivre ses certifications de produit.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Activer la fonction du pays d’origine
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des informations sur les produits*
 - **Nom de la fonctionnalité :** *Fonctionnalité de gestion du pays d’origine*
@@ -90,4 +86,7 @@ Lorsque vous générez un rapport de nomenclature, vous pouvez inclure le pays d
 
 Un rapport contenant des informations sur le pays d’origine de chaque pièce est généré et affiché. Voici un exemple de rapport.
 
-![Rapport de pays d’origine](media/country-of-origin-report.png "Rapport de pays d’origine")
+![Rapport de pays d’origine.](media/country-of-origin-report.png "Rapport de pays d’origine")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

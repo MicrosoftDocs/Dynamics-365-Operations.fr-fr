@@ -1,66 +1,63 @@
 ---
-title: Paramétrage d'un technicien préféré
+title: Paramétrage d’un technicien préféré
 description: Vous pouvez sélectionner tout travailleur comme technicien préféré pour un accord ou une commande de service.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable, SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 850d91372fb1a918840ebc316a4479f4a70bdc24
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dac9af5b0b83875d362f1a9db60c99436d1bb699
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427566"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575001"
 ---
-# <a name="set-up-a-preferred-technician"></a>Paramétrage d'un technicien préféré 
+# <a name="set-up-a-preferred-technician"></a>Paramétrage d’un technicien préféré 
 
 [!include [banner](../includes/banner.md)]
 
 
-Vous pouvez sélectionner tout travailleur comme technicien préféré pour un accord ou une commande de service. Toutefois, il est conseillé d'ajouter le travailleur à l'équipe de répartition appropriée, de façon à ce qu'il soit inclus dans le **Tableau d'affectation**.
+Vous pouvez sélectionner tout travailleur comme technicien préféré pour un accord ou une commande de service. Toutefois, il est conseillé d’ajouter le travailleur à l’équipe de répartition appropriée, de façon à ce qu’il soit inclus dans le **Tableau d’affectation**.
 
-## <a name="assign-employee-to-a-dispatch-team"></a>Affectation d'un employé à une équipe de répartition
+## <a name="assign-employee-to-a-dispatch-team"></a>Affectation d’un employé à une équipe de répartition
 
-1.  Cliquez sur **Ressources humaines** \> **Commun** \> **Travailleurs** \> **Travailleurs**. Double-cliquez sur un travailleur pour ouvrir sa page de détails. Dans le volet **Actions**, cliquez sur **Paramétrage** \>**Équipe de répartition** pour ouvrir l'écran **Répartir les collaborateurs**.
+1.  Cliquez sur **Ressources humaines** \> **Commun** \> **Travailleurs** \> **Travailleurs**. Double-cliquez sur un travailleur pour ouvrir sa page de détails. Dans le volet **Actions**, cliquez sur **Paramétrage** \>**Équipe de répartition** pour ouvrir l’écran **Répartir les collaborateurs**.
 
-2.  Dans le champ **Équipe de répartition**, sélectionnez l'équipe à laquelle affecter le travailleur.
+2.  Dans le champ **Équipe de répartition**, sélectionnez l’équipe à laquelle affecter le travailleur.
 
-## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Affectation d'un technicien préféré à un accord de service
+## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Affectation d’un technicien préféré à un accord de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**. Double-cliquez sur un accord de service pour ouvrir l'écran Détails.
+1.  Cliquez sur **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**. Double-cliquez sur un accord de service pour ouvrir l’écran Détails.
 
-2.  Sous l'onglet **Général**, sélectionnez le champ **Technicien préféré**, puis un membre de l'équipe de répartition appropriée comme technicien préféré pour l'accord de service.
+2.  Sous l’onglet **Général**, sélectionnez le champ **Technicien préféré**, puis un membre de l’équipe de répartition appropriée comme technicien préféré pour l’accord de service.
 
-## <a name="assign-a-preferred-technician-to-a-service-order"></a>Affectation d'un technicien préféré à une commande de service
+## <a name="assign-a-preferred-technician-to-a-service-order"></a>Affectation d’un technicien préféré à une commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d'affectation**.
+1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d’affectation**.
     
 
     > [!NOTE]
-    > <P>Dans l'écran <STRONG>Tableau d'affectation</STRONG>, spécifiez une plage de dates pour les activités de répartition que vous souhaitez consulter. De même, indiquez si vous souhaitez afficher les activités fermées et si vous souhaitez restreindre l'accès à la liste des activités de répartition aux équipes auxquelles vous appartenez ou que vous êtes autorisés à surveiller. Cliquez sur <STRONG>OK</STRONG> pour ouvrir l'écran <STRONG>Tableau d'affectation</STRONG>.</P>
+    > <P>Dans l’écran <STRONG>Tableau d’affectation</STRONG>, spécifiez une plage de dates pour les activités de répartition que vous souhaitez consulter. De même, indiquez si vous souhaitez afficher les activités fermées et si vous souhaitez restreindre l’accès à la liste des activités de répartition aux équipes auxquelles vous appartenez ou que vous êtes autorisés à surveiller. Cliquez sur <STRONG>OK</STRONG> pour ouvrir l’écran <STRONG>Tableau d’affectation</STRONG>.</P>
 
 
 
-2.  Sélectionnez la ligne d'activité de service à modifier.
+2.  Sélectionnez la ligne d’activité de service à modifier.
 
-3.  Sous l'onglet **Associé**, la liste **Travailleur** permet de désigner un membre de l'équipe de répartition appropriée comme technicien préféré pour l'appel de service.
+3.  Sous l’onglet **Associé**, la liste **Travailleur** permet de désigner un membre de l’équipe de répartition appropriée comme technicien préféré pour l’appel de service.
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d'ensemble de développement et d'établissement d'accords de service](service-agreements.md)
+[Vue d’ensemble de développement et d’établissement d’accords de service](service-agreements.md)
 
 [Créer manuellement des commandes de service](create-service-orders-manually.md)
 
@@ -68,3 +65,6 @@ Vous pouvez sélectionner tout travailleur comme technicien préféré pour un a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

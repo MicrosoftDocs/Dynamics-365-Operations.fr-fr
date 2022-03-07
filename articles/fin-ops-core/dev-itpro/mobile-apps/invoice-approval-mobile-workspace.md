@@ -1,12 +1,10 @@
 ---
 title: Espace de travail mobile Approbations de factures
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Approbations de factures. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d’en-tête de facture fournisseur.
+description: Cette rubrique fournit des informations sur l’espace de travail mobile Approbations de factures.
 author: abruer
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759978"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Espace de travail mobile Approbations de factures
 
@@ -74,7 +72,7 @@ Télécharger et installer l’application mobile Finance and Operations :
 3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
-    [![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Extraire pour actualiser.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Approuver des factures à l’aide de l’espace de travail mobile Approbations de facture
 1.  Sur votre appareil mobile, sélectionnez l’espace de travail **Approbations de facture**.
@@ -86,3 +84,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 7.  Sélectionnez **Documents joints** pour afficher les notes ou les fichiers associés à la facture.
 8.  Dans la page **Détails de la facture**, sélectionnez l’action de workflow appropriée pour compléter votre processus de révision.
 9.  Sélectionnez **Terminé**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

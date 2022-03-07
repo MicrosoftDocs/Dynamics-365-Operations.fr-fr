@@ -2,28 +2,25 @@
 title: Créer des configurations ER dans RCS et les télécharger dans le référentiel global
 description: Cette rubrique explique comment créer une configuration d’état électronique (ER) dans Microsoft Regulatory Configuration Services (RCS) et comment la télécharger dans le référentiel global.
 author: JaneA07
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443231"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838717"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Créer des configurations ER dans Regulatory Configuration Services (RCS) et les télécharger dans le référentiel global
 
@@ -98,3 +95,6 @@ La version de la configuration est supprimée et un message de confirmation s’
 > [!NOTE]
 > Les configurations ne peuvent être supprimées que par le fournisseur de configuration qui les a créées. Si la configuration a été partagée avec une autre organisation, le partage de la configuration devra être annulé avant que vous ne la supprimiez.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

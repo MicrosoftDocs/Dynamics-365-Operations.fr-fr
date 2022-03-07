@@ -2,26 +2,23 @@
 title: Paramétrage des administrations fiscales
 description: Les administrations fiscales sont des entités auprès desquelles les taxes doivent être déclarées et payées.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63b1b023181e1ead16571102c524a61edfdabdca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbfc2e1afc7109e70851cbb8b4cb17ce44b2fc4d1946f95f382185b6ae1bb3e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752149"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Paramétrage des administrations fiscales
 
@@ -41,3 +38,6 @@ Les administrations fiscales sont des entités auprès desquelles les taxes doiv
 10. Entrez un nombre dans le champ Arrondi.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,24 @@
 ---
 title: Taxe intégrée
-description: Cette rubrique décrit l’intégration des données de taxe entre les applications Finance and Operations et Dataverse.
-author: robinarh
-manager: AnnBe
+description: Cette rubrique décrit l’intégration des données de taxe entre Finances et Opérations et Dataverse.
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: rhaertle
-ms.dyn365.ops.version: ''
+ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679294"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063185"
 ---
 # <a name="integrated-tax"></a>Taxe intégrée
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -39,30 +28,14 @@ Les données de paramétrage de la taxe définissent le paramétrage pour les ta
 
 Les données de taxe comprennent un ensemble de mappages de tables qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description |
--------------------------|---------------------------------|----|
-Groupe de taxe d’article | msdyn_taxitemgroups |
-Administrations fiscales | msdyn_taxauthorities |
-Entité Code d’exonération fiscale pour CDS | msdyn_taxexemptcodes |
-Groupes de taxe | msdyn_taxgroups |
-Groupes de validation dans la comptabilité des taxes V2 | msdyn_taxpostinggroups |
-Codes de retenue à la source | msdyn_withholdingtaxcodes |
-Groupes de retenue à la source | msdyn_withholdingtaxgroups | 
+| Applications Finances et Opérations | Applications Customer Engagement | Description |
+|-----------------------------|-----------------------------------|-------------|
+[Groupe de taxe d’article](mapping-reference.md#196) | msdyn_taxitemgroups | |
+[Administrations fiscales](mapping-reference.md#193) | msdyn_taxauthorities | |
+[Entité Code d’exonération fiscale pour CDS](mapping-reference.md#194) | msdyn_taxexemptcodes | |
+[Groupes de taxe](mapping-reference.md#195) | msdyn_taxgroups | |
+[Groupes de validation dans la comptabilité des taxes V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
+[Codes de retenue à la source](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
+[Groupes de retenue à la source](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
-
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
-
-[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
-
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
-
-[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
-
-[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
