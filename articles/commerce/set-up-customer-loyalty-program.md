@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 1697c377c8291190f27b2057463ddb98aac1f9b9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4412393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264550"
 ---
 # <a name="loyalty-overview"></a>Vue d’ensemble de la fidélité
 
@@ -151,3 +150,6 @@ En outre, les détaillants peuvent définir la limite de points de récompense d
 
     > [!NOTE]
     > Contrairement aux autres remises périodiques, telles que quantité, simple, mix and match et remises seuil, la remise d’expédition ne crée pas de lignes de remise, plutôt des mises à jour des frais d’expédition directement et ajoute le nom de la remise à la description des frais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

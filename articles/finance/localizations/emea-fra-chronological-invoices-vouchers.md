@@ -1,30 +1,27 @@
 ---
-title: Facture et n° document chronologiques
+title: Facture et n° de justificatif chronologiques
 description: Cette rubrique explique comment paramétrer et utiliser des numéros chronologiques pour les factures et les documents dans la comptabilité client.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 07/07/2020
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, NumberSequenceGroup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264514
 ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4d538964fc9bb3d60034e926d10885cdd2341683
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b408d9b6810c71fcddf25cba4513e2dfc81e63b621684f8397d58255a579935c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768731"
 ---
-# <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° document chronologiques
+# <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° de justificatif chronologiques
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,8 +42,8 @@ Dans certains pays, il est obligatoire que toutes les factures et les documents 
 
 | Catégorie            | Logiciel requis                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Activation des fonctionnalités  | Dans l’espace de travail Gestion des fonctionnalités, activez la fonctionnalité **Numérotation chronologique**. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).                                                                                                                                                              |
-| Pays/région      | Si l’adresse principale de l’entité juridique est en France, définissez l’option **Numérotation chronologique** sur **Oui** dans la page **Paramètres de la comptabilité client**, dans l’onglet **Mises à jour**.                                                                                                                                                                                                |
+| Pays/région  | L’adresse principale de l’entité juridique doit être en France.|
+| Paramètres      | Définissez **Numérotation chronologique** sur **Oui** sur la page **Paramètres de la comptabilité client**, de l’onglet **Mises à jour**.                                                                                                                                                                                                |
 | Tâches associées de paramétrage | Dans la page **Souches de numéros**, définissez autant de souches de numéros qu’il est nécessaire pour couvrir les périodes fiscales affectées. Vous devez spécifier une société pour chaque souche de numéros. Les segments des souches de numéros doivent être définis de manière à fournir l’ordre chronologique des périodes. Par exemple, les noms de segment peuvent contenir un préfixe spécial qui identifie une période spécifique.  |
 
 ## <a name="set-up-chronological-numbering"></a>Paramétrer la numérotation chronologique
@@ -54,7 +51,7 @@ Dans certains pays, il est obligatoire que toutes les factures et les documents 
 
 Dans la page **Paramètres de la comptabilité client**, sous l’onglet **Souches de numéros**, sélectionnez l’une des références prises en charge, par exemple **Facture financière**. Cliquez ensuite sur le bouton **Paramétrage de la numérotation chronologique** qui sera disponible pour les références prises en charge. Dans la page **Paramétrage de la numérotation chronologique**, définissez les souches de numéros ayant des périodes valides.
 
-![Paramétrage des numéros chronologiques](media/emea-chronological-numbering.jpg)
+![Paramétrage des numéros chronologiques.](media/emea-chronological-numbering.jpg)
 
 ### <a name="number-sequence-groups"></a>Groupes de souches de numéros
 
@@ -69,3 +66,6 @@ Le système effectue un contrôle supplémentaire des dates de factures pour les
 
 - La validation de nouvelles factures avec des dates antérieures à la date de la dernière facture validée est interdite si aucun code motif n’est défini. Pour activer la validation, un code motif doit être saisi soit dans un en-tête de facture/commande, soit dans l’une des lignes.
 - Un avertissement est émis si la nouvelle date de facturation est postérieure à la date système.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Workflows d’approvisionnement
 description: Certaines organisations demandent que les demandes d’achat et les commandes fournisseur soient approuvées par un utilisateur autre que celui qui a saisi la transaction. Pour paramétrer un processus d’approbation, vous pouvez créer un workflow.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a3542dda667a7ec6d8c7e74d8caafd1a8fc5cee322d85981f635a1add56152d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775577"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflows d’approvisionnements
 
@@ -32,7 +30,7 @@ Certaines organisations demandent que les demandes d’achat et les commandes fo
 
 Un workflow représente un processus entreprise. Il définit le transfert d’un document dans le système et indique qui doit traiter une tâche ou approuver un document. L’utilisation du système de workflow dans votre organisation présente plusieurs avantages :
 
-- **Processus cohérents** — Vous pouvez définir le processus d'approbation pour des documents spécifiques, tels que des demandes d'achat ou des états de dépenses. Le système de workflow permet de s’assurer que les documents sont traités et approuvés de manière cohérente et efficace.
+- **Processus cohérents** — Vous pouvez définir le processus d’approbation pour des documents spécifiques, tels que des demandes d’achat ou des états de dépenses. Le système de workflow permet de s’assurer que les documents sont traités et approuvés de manière cohérente et efficace.
 - **Visibilité de processus** — Vous pouvez suivre le statut, l’historique et les mesures de performance d’une instance de workflow spécifique. Vous pouvez ainsi déterminer si des modifications doivent être apportées au workflow afin d’en optimiser l’efficacité.
 - **Liste de travail centralisée** — Les utilisateurs peuvent afficher une liste de travail centralisée pour consulter les tâches et les approbations de workflow qui leur sont affectées dans l’ensemble des workflows auxquels ils participent. Cette option est disponible dans la page Éléments de travail.
 
@@ -49,12 +47,12 @@ Les types de workflows suivants sont disponibles pour le module Approvisionnemen
 | Workflow d’application d’ajout de fournisseur | Permet de créer des workflows de révision et d’approbation pour ajouter de nouveaux fournisseurs via les demandes fournisseur. |
 
 > [!IMPORTANT]
-> Lorsque vous ajoutez un nouveau workflow, vous pouvez également voir les workflows obsolètes suivants répertoriés dans la boite de dialogue **Créer un workflow**. Ceux-ci sont liés à la fonctionnalité *confirmation de réception* disponible dans [Dynamique AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mais qui est désormais obsolète. Ces workflows ne sont actuellement pas pris en charge.
+> Lorsque vous ajoutez un nouveau workflow, vous pouvez également voir les workflows obsolètes suivants répertoriés dans la boite de dialogue **Créer un workflow**. Ceux-ci sont liés à la fonctionnalité *confirmation de réception* disponible dans [Dynamique AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mais qui est désormais obsolète. Ces workflows ne sont actuellement pas pris en charge.
 > 
-> - Flux de travail de notification de date d'échéance de livraison
+> - Flux de travail de notification de date d’échéance de livraison
 > - Flux de travail de notification de réception de facture
-> - Accusé de réception de marchandises - Flux de travail de notification d'échec
-> - Flux de travail de notification de rejet de l'accusé de réception de marchandises non confirmé
+> - Accusé de réception de marchandises - Flux de travail de notification d’échec
+> - Flux de travail de notification de rejet de l’accusé de réception de marchandises non confirmé
 
 ## <a name="creating-a-workflow"></a>Création d’un workflow
 
@@ -79,3 +77,6 @@ Vous pouvez affecter une étape d’approbation aux groupes suivants de particip
 - [Définition des flux de travail de processus entreprise pour les demandes d’achat (livre blanc)](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Workflow de demande d’achat](purchase-requisitions-workflow.md)
 - [Intégrer des fournisseurs](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

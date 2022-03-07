@@ -2,11 +2,9 @@
 title: Résolution générale des problèmes
 description: Cette rubrique fournit des informations sur la résolution générale des problèmes liés à l’intégration de la double écriture entre les applications Finance and Operations et Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744539"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748823"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -122,3 +120,6 @@ Pour réactiver l’option de formulaire **Informations**, procédez comme suit�
 2. Recherchez le formulaire **Informations** sous le nœud de formulaires. 
 3. Sélectionnez le formulaire **Informations** et cliquez sur **Activer les rôles de sécurité**. 
 4. Modifiez le paramètre de sécurité sur **Afficher pour tout le monde**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

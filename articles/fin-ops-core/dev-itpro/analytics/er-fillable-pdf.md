@@ -2,7 +2,8 @@
 title: Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 description: Cette rubrique fournit des informations sur la procédure pour concevoir un format d’états électroniques (ER) pour renseigner un modèle PDF.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac7f1c3fc0b03a42012ea14369eef554c6ea30f3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758286"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561780"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 
@@ -45,15 +46,15 @@ Avant de commencer, vous devez avoir l’un des types d’accès suivants, selon
 
 Vous devez également exécuter la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Enfin, téléchargez les fichiers suivants.
+Enfin, vous devez télécharger les fichiers suivants depuis [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
 | Description du contenu                       | Nom de fichier                                     |
 |-------------------------------------------|-----------------------------------------------|
-| Modèle de la première page de l’état | [IntrastatReportTemplate1.pdf](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
-| Modèle des autres pages de l’état    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
-| Exemple de format d’ER – PDF                          | [État de déclaration d’échanges de biens (PDF).version.1.1.xml](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
-| Exemple de format d’ER – Excel                          | [Déclaration d’échanges de biens (importation depuis Excel).version.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
-| Exemple de jeu de données                            | [Exemple de données de déclaration d’échanges de biens.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
+| Modèle de la première page de l’état | [IntrastatReportTemplate1.pdf](https://mbs.microsoft.com/Files/public/CS)                  |
+| Modèle des autres pages de l’état    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
+| Exemple de format d’ER - PDF                          | [État de déclaration d’échanges de biens (PDF).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
+| Exemple de format d’ER - Excel                          | [Déclaration d’échanges de biens (importation depuis Excel).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
+| Exemple de jeu de données                            | [Exemple de données de déclaration d’échanges de biens.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>Concevoir la configuration du format
 
@@ -115,11 +116,11 @@ Dans une visionneuse de PDF, ouvrez les modèles de documents PDF que vous avez 
 
 L’illustration suivante présente le modèle PDF de la première page de l’état.
 
-![Modèle 1.](media/rcs-ger-filloutpdf-template1.png)
+![Modèle 1](media/rcs-ger-filloutpdf-template1.png)
 
 L’illustration suivante présente le modèle PDF des autres pages de l’état.
 
-![Modèle 2.](media/rcs-ger-filloutpdf-template2.png)
+![Modèle 2](media/rcs-ger-filloutpdf-template2.png)
 
 1. Dans la page **Configurations**, sélectionnez **Concepteur**.
 2. Sélectionnez **Ajoutez racine**.
@@ -146,7 +147,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 
 12. Cliquez sur **OK**.
 
-    ![Boîte de dialogue Importer à partir du PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Importer à partir de la boîte de dialogue PDF](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Dans l’arborescence, développer **Production**.
 
@@ -176,7 +177,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 
     Notez que le document PDF importé est associé au format ER modifié.
 
-    ![Aperçu de la pièce jointe PDF.](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![Aperçu de la pièce jointe PDF](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Continuez à concevoir ce format en important le deuxième modèle PDF, en ajoutant les liaisons nécessaires aux sources de données, et ainsi de suite.
 20. Sélectionnez **Enregistrer**.
@@ -215,7 +216,7 @@ Ensuite, vous importerez l’exemple de format ER que vous avez précédemment t
 1. Dans la page **Concepteur de formats**, sélectionnez l’onglet **Mise en correspondance**.
 2. Dans l’arborescence, développez **Pagination \> Pages**.
 
-    ![Page de concepteur de formule où l’arborescence du modèle est développée.](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Page de concepteur de formule où le modèle d’arborescence est développé](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Notez les informations suivantes :
 
@@ -238,7 +239,7 @@ Ensuite, vous importerez l’exemple de format ER que vous avez précédemment t
 
     Notez que l’attribut **Nom** de cet élément de format est défini sur **Correction 1**. Notez également que l’expression **Nom** de l’élément de format est définie comme **Paging.FldName("Correction",\@.Number)**.
 
-![Concepteur de formats dans lequel un mappage est sélectionné.](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Concepteur de formats dans lequel une mise en correspondance est sélectionnée](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Notez que l’élément de format **Champ** permet de remplir un champ individuel d’un document PDF pouvant être renseigné défini comme modèle de l’élément de format parent **Fichier PDF**. La liaison de l’élément de format **Fichier PDF** ou de ses éléments imbriqués, s’il comporte des éléments imbriqués, spécifie la valeur entrée dans les champs PDF correspondants. Différentes propriétés de l’élément de format **Champ** permettent de spécifier quel champ PDF est renseigné par un élément de format individuel :
 
@@ -275,7 +276,7 @@ Ensuite, vous chargerez l’exemple de format ER **Déclaration d’échanges de
 
     Lorsque l’option **Valeur par défaut de la mise en correspondance des modèles** est définie sur **Oui**, le format ER **Déclaration d’échanges de biens (importation depuis Excel)** importé est attribué comme source de données par défaut de la configuration du format **État de déclaration d’échanges de biens (PDF)**. Puis, lorsque la configuration de format **État de déclaration d’échanges de biens (PDF)** est exécutée, le contenu du classeur Excel analysé par le format ER **Déclaration d’échanges de biens (importation depuis Excel)** simulera les transactions de commerce extérieur devant être déclarées. L’illustration suivante présente un exemple de classeur Excel.
 
-    ![Classeur Excel contenant des exemples de données.](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Classeur Excel contenant des exemples de données](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Exécuter la configuration du format
 
@@ -289,11 +290,11 @@ Ensuite, vous chargerez l’exemple de format ER **Déclaration d’échanges de
 
 L’illustration suivante présente un exemple de la première page de l’état généré.
 
-![Première page de l’état généré.](media/rcs-ger-filloutpdf-generatedreport.png)
+![Première page de l’état généré](media/rcs-ger-filloutpdf-generatedreport.png)
 
 L’illustration suivante présente un exemple d’une autre page de l’état généré.
 
-![Autre page de l’état généré.](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Autre page de l’état généré](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

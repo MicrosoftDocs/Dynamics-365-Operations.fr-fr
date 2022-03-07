@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14011
 ms.assetid: 9cc37003-adf1-413d-b2b2-2badcf512e3b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9b1d36262c35210e183e92c10f69e8511280443b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443070"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228074"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Paramétrer et traiter des factures récurrentes
 
@@ -67,3 +66,6 @@ Une fois les factures récurrentes validées, vous pouvez imprimer les factures 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

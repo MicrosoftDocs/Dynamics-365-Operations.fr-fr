@@ -2,28 +2,25 @@
 title: Page d’accueil de la comptabilité client
 description: Le module Comptabilité client permet d’assurer le suivi des paiements entrants et des factures client.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69d2d320434baab21fb7e7c57ce1f043e4946d69
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458969"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827720"
 ---
 # <a name="accounts-receivable-home-page"></a>Page d’accueil de la comptabilité client
 
@@ -117,3 +114,6 @@ Consultez les vidéos de procédure qui sont désormais disponibles sur la [cha�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

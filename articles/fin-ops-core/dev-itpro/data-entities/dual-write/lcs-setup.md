@@ -1,92 +1,82 @@
 ---
-title: Configuration en double écriture à partir de Lifecycle Services
-description: Cette rubrique explique comment configurer une connexion en double écriture entre un nouvel environnement Finance and Operations et un nouvel environnement Dataverse de Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-manager: AnnBe
-ms.date: 01/06/2020
+title: Configuration en double écriture depuis Lifecycle Services
+description: Cette rubrique explique comment configurer une connexion de double écriture à partir de Microsoft Dynamics Lifecycle Services (LCS).
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683522"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063670"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture à partir de Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture depuis Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cette rubrique explique comment configurer une connexion en double écriture entre un nouvel environnement Finance and Operations et un nouvel environnement Dataverse de Microsoft Dynamics Lifecycle Services (LCS).
+Cette rubrique explique comment activer la double écriture depuis Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Vous devez être administrateur pour configurer une connexion en double écriture.
+Vous devez terminer l’intégration de Power Platform comme décrit dans les rubriques suivantes :
 
-+ Vous devez avoir accès au client.
-+ Vous devez être administrateur dans les deux environnements Finance and Operations et Dataverse.
++ [Intégration de Power Platform – Activer pendant le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Intégration de Power Platform – Activer après le déploiement de l’environnement](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
-## <a name="set-up-a-dual-write-connection"></a>Configurer une connexion en double écriture
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurer la double écriture pour les nouveaux environnements Dataverse
 
-Procédez comme suit pour configurer la connexion en double écriture.
+Suivez ces étapes pour configurer la double écriture depuis la page **Détails de l’environnement** de LCS :
 
-1. Dans LCS, accédez à votre projet.
-2. Sélectionnez **Configurer** pour déployer un nouvel environnement.
-3. Sélectionnez la version. 
-4. Sélectionnez la topologie. Si une seule topologie est disponible, elle est automatiquement sélectionnée.
-5. Suivez les premières étapes de l’assistant **Paramètres de déploiement**.
-6. Sur l’onglet **Dataverse**, suivez une des étapes suivantes :
+1. Dans la page **Détails de l’environnement**, développez la section **Intégration de Power Platform**.
 
-    - Si un environnement Dataverse est déjà configuré pour votre client, vous pouvez le sélectionner.
+2. Sélectionnez le bouton **Application de double écriture**.
 
-        1. Définissez l’option **Configurer Dataverse** sur **Oui**.
-        2. Dans le champ **Environnements disponibles**, sélectionnez l’environnement à intégrer avec vos données Finance and Operations. La liste comprend tous les environnements dans lesquels vous disposez de privilèges d’administrateur.
-        3. Sélectionnez la case à cocher **Accepter** pour indiquer que vous acceptez les termes et conditions.
+    ![Intégration à Power Platform.](media/powerplat_integration_step2.png)
 
-        ![Onglet Dataverse lorsqu’un environnement Dataverse est déjà configuré pour votre client.](../dual-write/media/lcs_setup_1.png)
+3. Passez en revue les conditions générales, puis sélectionnez **Configurer**.
 
-    - Si votre client n’a pas encore d’environnement Dataverse, un nouvel environnement sera mis à disposition.
+4. Cliquez sur **OK** pour continuer.
 
-        1. Définissez l’option **Configurer Dataverse** sur **Oui**.
-        2. Entrez un nom pour l’environnement Dataverse.
-        3. Sélectionnez la région dans laquelle déployer l’environnement.
-        4. Sélectionnez la langue et la devise par défaut pour l’environnement.
+5. Vous pouvez surveiller la progression en actualisant régulièrement la page des détails de l’environnement. La configuration prend généralement 30 minutes au maximum.  
 
-            > [!NOTE]
-            > Vous ne pouvez pas modifier la langue et la devise ultérieurement.
+6. Une fois la configuration terminée, un message vous informera si le processus a réussi ou échoué. Si la configuration a échoué, un message d’erreur associé s’affiche. Vous devez corriger les erreurs avant de passer à l’étape suivante.
 
-        5. Sélectionnez la case à cocher **Accepter** pour indiquer que vous acceptez les termes et conditions.
+7. Sélectionnez **Lier à l’environnement Power Platform** pour créer un lien entre Dataverse et les bases de données de l’environnement actuel. Cette opération prend généralement moins de 5 minutes.
 
-        ![Onglet Dataverse lorsque votre client n’a pas déjà un environnement Dataverse](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Lier à l’environnement Power Platform.":::
 
-7. Suivez les étapes restantes de l’assistant **Paramètres de déploiement**.
-8. Une fois que l’environnement a le statut **Déployé**, ouvrez la page des détails de l’environnement. La section **Informations de l’environnement Dataverse** montre les noms de l’environnement Finance and Operations et de l’environnement Dataverse associés.
+8. Une fois la liaison terminée, un lien hypertexte s’affiche. Utilisez le lien pour vous connecter à la zone d’administration de la double écriture dans l’environnement Finances et Opérations. À partir de là, vous pouvez configurer les mappages d’entités.
 
-    ![Section Information d’environnement Dataverse](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Configurer la double écriture pour un environnement Dataverse existant
 
-9. Un administrateur de l’environnement Finance and Operations doit se connecter à LCS et sélectionner **Lien vers CDS pour les applications** pour compléter le lien. La page des détails de l’environnement affiche les informations de contact de l’administrateur.
+Pour configurer la double écriture pour un environnement Dataverse existant, vous devez créer un [ticket de support](../../lifecycle-services/lcs-support.md) Microsoft. Le ticket doit inclure :
 
-    Une fois le lien terminé, le statut est mis à jour vers **Association à l’environnement terminée avec succès**.
-
-10. Pour ouvrir l’espace de travail **Intégration de données** dans l’environnement Finance and Operations et contrôler les modèles disponibles, sélectionnez **Lien vers CDS pour les applications**.
-
-    ![Lien vers le bouton CDS pour les applications dans la section Informations d’environnement Dataverse](../dual-write/media/lcs_setup_4.png)
++ Votre ID d’environnement Finances et Opérations.
++ Le nom de votre environnement dans Lifecycle Services.
++ L’ID de l’organisation Dataverse ou l’ID de l’environnement Power Platform dans le centre d’administration de Power Platform. Dans votre ticket, demandez que l’ID soit l’instance utilisée pour l’intégration de Power Platform.
 
 > [!NOTE]
-> Vous ne pouvez pas dissocier des environnements à l’aide de LCS. Pour dissocier un environnement, ouvrez l’espace de travail **Intégration des données** dans l’environnement Finance and Operations, puis sélectionnez **Dissocier**.
+> Vous ne pouvez pas dissocier des environnements à l’aide de LCS. Pour dissocier un environnement, ouvrez l’espace de travail **Intégration des données** dans l’environnement Finances et Opérations, puis sélectionnez **Dissocier**.
+
+## <a name="linking-mismatch"></a>Incompatibilité de liaison
+
+Il est possible que votre environnement LCS soit lié à une instance Dataverse, tandis que votre environnement à double écriture est lié à une autre instance Dataverse. Cette incompatibilité de liaison peut provoquer un comportement inattendu et entraîner l’envoi de données au mauvais environnement. L’environnement qu’il est recommandé d’utiliser pour la double écriture est celui qui est créé dans le cadre de l’intégration Power Platform et, à long terme, ce sera le seul moyen d’établir un lien entre les environnements.
+
+Si votre environnement présente une incompatibilité de liaison, LCS affiche un avertissement sur la page des détails de votre environnement semblable à « Microsoft a détecté que votre environnement est lié par la double écriture à une destination différente de celle spécifiée dans l’intégration Power Platform, ce qui n’est pas recommandé » :
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform lien d’intégration incompatible.":::
+
+Si vous rencontrez cette erreur, deux options s’offrent à vous, en fonction de vos besoins :
+
++ [Dissocier et relier les environnements à double écriture (réinitialiser ou modifier la liaison)](relink-environments.md#scenario-reset-or-change-linking) comme spécifié sur la page des détails de votre environnement LCS. Il s’agit de l’option idéale, car vous pouvez l’exécuter sans le Support Microsoft.  
++ Si vous souhaitez conserver votre lien en double écriture, vous pouvez demander l’aide du Support Microsoft pour modifier l’intégration Power Platform afin d’utiliser votre environnement Dataverse tel que documenté dans la section précédente.  
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13ea8c2600e93379c9e3c71b97b919cbbca3b5eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443141"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257702"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Ajout d’informations sur la gestion du crédit pour des clients
 
@@ -102,3 +101,6 @@ Vous pouvez créer des polices d’assurance et des garanties sur la page **Tou
     Dans ce cas, la limite de crédit effective est de 125 000 (= A + \[B × C\]).
     
     Cependant, si vous cochez la case **Inclus dans l’exposition**, la valeur **Mettre à jour la limite de crédit** de 50 000 (= 50,00 % de 100 000) est supprimée et la valeur d’exposition est de 75 000 (= A + \[B × C\] - B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

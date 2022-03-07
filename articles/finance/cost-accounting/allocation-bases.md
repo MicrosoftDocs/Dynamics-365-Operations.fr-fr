@@ -2,16 +2,13 @@
 title: Bases de répartition
 description: Cette rubrique fournit des informations sur les bases de répartition. Les bases de répartition sont des composants clé dans le contrôle de gestion et permettent généralement d’affecter des frais généraux.
 author: AndersGirke
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc6f655d17a83db54aa99c834980bf7666e8100d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15155a987094da6047dea9245f543b5ed38e3680
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443062"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814054"
 ---
 # <a name="allocation-bases"></a>Bases de répartition 
 
@@ -430,3 +427,6 @@ Voici l’exemple d’une règle de répartition des coûts si la base de répar
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Montant  |
 |    CC003    |     TS      | 13,250.00 | (13,250.00 ÷ 18,162.50) × Montant |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

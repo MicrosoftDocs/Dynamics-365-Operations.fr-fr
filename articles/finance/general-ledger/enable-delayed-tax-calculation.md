@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4ea79747e8e7c078baa6e270ecebf88c4832e079
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d842b60b3cca8c29b281ab4a6a1b6c3b0bad3684
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968802"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236720"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Activer un calcul de taxe différé sur les journaux
 [!include [banner](../includes/banner.md)]
@@ -64,3 +64,6 @@ Le système octroie la priorité au paramètre de l’en-tête du journal. Par d
 4. Dans l’onglet **Paramétrage**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
 ![Image de la page du journal des opérations diverses](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

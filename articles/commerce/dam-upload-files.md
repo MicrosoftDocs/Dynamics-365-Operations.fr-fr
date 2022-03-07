@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c065aa961cf5c2d6770ae47c63a75953e6d38e00
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594210"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222535"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Télécharger des fichiers autres que des images et des vidéos
 
@@ -31,7 +30,7 @@ ms.locfileid: "4594210"
 
 Cette rubrique décrit comment télécharger des fichiers autres que des images et des vidéos dans le générateur de site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 La bibliothèque multimédia du générateur de site Commerce prend en charge le téléchargement d'actifs binaires autres que des images ou des vidéos. Par exemple, vous souhaiterez peut-être télécharger des fichiers Microsoft Excel, Microsoft Word, Microsoft PowerPoint ou PDF.
 
@@ -98,3 +97,6 @@ Pour télécharger un fichier dans le générateur de site Commerce, procédez c
 [Personnaliser les points focaux de l’image](dam-custom-focal-point.md)
 
 [Charger et diffuser des fichiers statiques](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

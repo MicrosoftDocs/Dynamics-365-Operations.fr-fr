@@ -1,34 +1,32 @@
 ---
-title: Prévision de flux de trésorerie (version préliminaire)
+title: Prévisions de flux de trésorerie
 description: Cette rubrique décrit la fonctionnalité de prévision des flux de trésorerie.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: ad568fcd126ad3dc9e5ff269cc3bc99b218e822a
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645246"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386611"
 ---
-# <a name="cash-flow-forecast-preview"></a>Prévision de flux de trésorerie (version préliminaire)
+# <a name="cash-flow-forecast"></a>Prévisions de flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Le flux de trésorerie est essentiel à toute entreprise. Même les entreprises rentables peuvent être confrontées à l’insolvabilité si elles ne maintiennent pas les flux de trésorerie nécessaires pour répondre aux besoins immédiats. La capacité de prévision des flux de trésorerie dans les informations financières peut aider les entreprises à surveiller et à gérer efficacement leurs soldes de trésorerie. Cette fonctionnalité utilise l’apprentissage automatique pour aider les entreprises à prévoir les flux de trésorerie avec plus de précision qu’auparavant. Elle peut également aider les responsables à prendre des décisions qui optimisent les opportunités selon l’emplacement actuel de leurs disponibilités. 
 
@@ -66,5 +64,4 @@ Un nouvel onglet sur la page **Configuration des prévisions de flux de trésore
 
 Sur l’onglet **Dimensions**, choisissez dans la liste des dimensions à utiliser pour le filtrage et utilisez les touches fléchées pour les déplacer vers la colonne de droite. Seules deux dimensions peuvent être sélectionnées pour filtrer les données de prévision des flux de trésorerie. 
 
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

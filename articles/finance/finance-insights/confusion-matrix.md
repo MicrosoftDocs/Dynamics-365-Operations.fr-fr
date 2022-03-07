@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6a1620c33ee1e23a79ef5413afebdee332aa82b6
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 5223bdfbc0f5828b5dccac30362783075ce8157f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645015"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044370"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Résultats des modèles Machine Learning (version préliminaire)
 
@@ -37,7 +36,7 @@ Une fois qu’un problème de ML supervisé est formé sur un jeu de données hi
 
 Par exemple, votre objectif est de prédire si un animal de compagnie est un chien ou un chat, sur la base de certains attributs physiques et comportementaux. Si vous disposez d’un jeu de données de test contenant 30 chiens et 20 chats, la matrice de confusion peut ressembler à l’illustration suivante.
 
-[![Exemple de prédiction d’espèce](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+![Exemple de prédiction d’espèce](media/species-prediction-matrix.png)
 
 Les nombres dans les cellules vertes représentent des prédictions correctes. Comme vous pouvez le voir, le modèle a prédit correctement un pourcentage plus élevé de chats réels. La précision globale du modèle est facile à calculer. Dans ce cas, c’est 42 ÷ 50, soit 0,84.
 
@@ -47,7 +46,7 @@ La plupart des discussions sur la matrice de confusion se concentrent sur les cl
 
 Ensuite, nous examinerons un problème de classification pour un scénario financier à trois états. Le modèle prédit si une facture client sera payée à temps, en retard ou très tard. Par exemple, sur 100 factures tests, 50 sont payées à temps, 35 sont payées en retard et 15 sont payées très tard. Dans ce cas, un modèle peut produire une matrice de confusion semblable à l’illustration suivante.
 
-[![Modèle 1](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png) Modèle 1
+![Modèle 1](media/payment-prediction-matrix.png)]
 
 Une matrice de confusion fournit beaucoup plus d’informations qu’une simple métrique de précision. Cependant, c’est encore relativement facile à comprendre. Une matrice de confusion vous indique si vous avez un ensemble de données équilibré où les classes de résultats ont des nombres similaires. Pour le scénario multi-classes, il vous indique à quelle distance une prédiction peut être lorsque les classes de sortie sont ordinales, comme dans l’exemple précédent sur les paiements des clients.
 
@@ -58,7 +57,7 @@ La précision étant une métrique facile à comprendre, c’est un bon point de
 
 Cependant, pour une compréhension plus approfondie, il convient de noter plusieurs contraintes associés à la précision. L’utilité de la métrique dépend du contexte du problème. Une question qui se pose souvent en relation avec les performances du modèle est : "Quelle est la qualité du modèle ? » Cependant, la réponse à cette question n’est pas nécessairement simple. Considérez la matrice de confusion suivante (modèle 2).
 
-[![Exemple de prévision de paiement avec un échantillon plus large](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
+![Exemple de prévision de paiement avec un échantillon plus large](media/payment-prediction-matrix-2.png)
 
 Un calcul rapide montre que la précision de ce modèle est de (70 + 10 + 3) ÷ 100, ou 0,83. En apparence, ce résultat semble meilleur que celui du modèle multi-classes précédent (modèle 1), qui a une précision de 0,73. Mais est-ce mieux ?
 
@@ -103,7 +102,7 @@ La mesure F1 combine précision et rappel. Le résultat est la moyenne harmoniqu
 
 Regardons un exemple concret. Plus tôt dans ce sujet, il y avait un exemple de modèle qui prédisait si un animal était un chien ou un chat. L’illustration est répétée ici.
 
-[![Exemple de prédiction d’espèce](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Exemple de prédiction d’espèce (périodique)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Voici les résultats si "Chien" est utilisé comme réponse positive.
 
@@ -115,11 +114,11 @@ Comme vous pouvez le voir, la valeur F1 se situe entre les valeurs de précision
 
 Bien que la précision F1 ne soit pas aussi facile à comprendre, elle ajoute de la nuance au nombre de précision de base. Cela peut également aider avec des jeux de données déséquilibrés, comme le montre la discussion suivante.
 
-La section [Précision du modèle](#classify-machine-learning-accuracy) de cette rubrique a comparé les deux matrices de confusion suivantes. Même si le premier modèle était moins précis, il a été considéré comme un modèle plus utile car il montrait plus d’amélioration que l’estimation par défaut d’un paiement à temps.
+La section [Précision du modèle](#model-accuracy) de cette rubrique a comparé les deux matrices de confusion suivantes. Même si le premier modèle était moins précis, il a été considéré comme un modèle plus utile car il montrait plus d’amélioration que l’estimation par défaut d’un paiement à temps.
 
-[![Exemple de prédiction de paiement contre réel](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png)
+![Exemple de prédiction de paiement contre réel](media/payment-prediction-matrix.png)
 
-[![Exemple de prévision de paiement avec un échantillon plus large](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
+![Exemple de prévision de paiement avec un échantillon plus large (périodique)](media/payment-prediction-matrix-2.png)
 
 Voyons comment ces deux modèles se comparent lorsque le score F1 est utilisé. Le score F1 prend en compte la précision et le rappel pour chaque état, et le calcul de la macro F1 fait ensuite la moyenne du score F1 à travers les états pour déterminer un score F1 global. Il existe d’autres variantes de F1, mais il est plus intéressant de considérer la version macro, étant donné la considération égale qui est accordée aux trois états.
 

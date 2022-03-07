@@ -2,7 +2,7 @@
 title: Ciblage par appareil, marché et géolocalisation
 description: Cette rubrique explique comment créer, modifier et gérer des audiences et des cibles dans le générateur de site Microsoft Dynamics 365 Commerce à l’aide d’informations d’appareil, de marché et de géolocalisation.
 author: sushma-rao
-ms.date: 02/03/2022
+ms.date: 07/30/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: b17c394105d4bb878c8375989924d3c3da079c78
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090692"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985135"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Ciblage par appareil, marché et géolocalisation
 
@@ -96,18 +96,6 @@ Pour modifier une audience, cliquez sur le lien hypertexte correspondant dans l�
 
 > [!NOTE]
 > Les audiences sont un concept au niveau du site dans le générateur de site Commerce. Vous pouvez partager la même audience sur plusieurs cibles.
-
-### <a name="rename-an-audience-in-site-builder"></a>Renommer une audience dans le générateur de site
-
-Pour renommer une audience existante dans le générateur de site Commerce, procédez comme suit :
-
-1. Dans le volet de navigation à gauche, sélectionnez **Audiences**.
-1. Sélectionnez le nom du segment de l’audience que vous souhaitez renommer.
-1. Sélectionnez **Modifier** pour commencer à modifier l’audience.
-1. Dans le volet des propriétés de l’audience, sélectionnez le symbole du stylo à côté du nom de l’audience.
-1. Modifiez le nom de l’audience, le cas échéant.
-1. Sélectionnez la coche pour confirmer le changement de nom.
-1. Sélectionnez **Terminer la modification**.
 
 ## <a name="targets"></a>Cibles
 

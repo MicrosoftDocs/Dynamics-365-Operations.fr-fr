@@ -1,21 +1,25 @@
 ---
 title: Intégrer l’approvisionnement entre Supply Chain Management et Field Service
 description: Cette rubrique décrit comment l’intégration de la double écriture prend en charge la création de commandes fournisseur et les mises à jour à partir de Supply Chain Management et Field Service.
-author: RamaKrishnamoorthy
+author: RichardLuan
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: tfehr
+ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
+ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783281"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141902"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Intégrer l’approvisionnement entre Supply Chain Management et Field Service
 
@@ -29,7 +33,7 @@ Cette intégration prend en charge la création de commandes fournisseur et, dan
 
 L’illustration suivante montre les tables des deux systèmes et la manière dont elles sont mappées entre elles. Les commandes fournisseur dans Field Service font référence à une ligne de *compte*, tandis que les commandes fournisseur dans Supply Chain Management font référence à une ligne de *fournisseur*. Pour résoudre l’intégration, la double écriture utilise une référence pour lier les lignes de *fournisseur* aux lignes de *compte*. Pour plus d’informations, voir [Données principales fournisseur intégrées](vendor-mapping.md).
 
-![Mappages de l’approvisionnement.](media/scm-field-service-tables.png)
+![Mappages de l’approvisionnement](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -43,22 +47,22 @@ Pour intégrer Supply Chain Management à Field Service, vous devez installer le
 
 ### <a name="prerequisites"></a>Conditions préalables
 
-- **Double écriture** : pour plus d’informations, consultez la [Page d’accueil de la double écriture](dual-write-home-page.md#dual-write-setup).
-- **Dynamics 365 Field Service** : pour plus d’informations, voir [Procédure d’installation de Dynamics 365 Field Service](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
++ **Double écriture** : pour plus d’informations, consultez la [Page d’accueil de la double écriture](dual-write-home-page.md#dual-write-setup).
++ **Dynamics 365 Field Service** : pour plus d’informations, voir [Procédure d’installation de Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Lorsqu’ils sont activés dans Microsoft Dataverse, la double écriture et Field Service introduisent plusieurs couches de solution qui étendent l’environnement avec de nouvelles métadonnées, formulaires, vues et logique. Ces solutions peuvent être activées dans n’importe quel ordre, mais vous les installez généralement dans l’ordre indiqué ici :
 
 1. **Field Service Common** : Field Service Common est installé lorsque Field Service est installé dans l’environnement.
 2. **Field Service (Anchor)**  : Field Service (Anchor) est installé lorsque Field Service est installé dans l’environnement. 
-3. **Supply Chain Management Extended** – Supply Chain Management Extended est automatiquement installé lorsque la double écriture est activée dans un environnement. 
+3. **Supply Chain Management Extended** - Supply Chain Management Extended est automatiquement installé lorsque la double écriture est activée dans un environnement. 
 4. **Solution OneFSSCM** : OneFSSCM est automatiquement installé par la solution (Field Service ou Supply Chain Management) installée en dernier.
 
-    - Si Field Service est déjà installé dans l’environnement et que vous activez la double écriture, qui installe Supply Chain Management Extended, OneFSSCM est installé.
-    - Si Supply Chain Management Extended est déjà installé dans l’environnement et que vous installez Field Service, OneFSSCM est installé.
+    + Si Field Service est déjà installé dans l’environnement et que vous activez la double écriture, qui installe Supply Chain Management Extended, OneFSSCM est installé.
+    + Si Supply Chain Management Extended est déjà installé dans l’environnement et que vous installez Field Service, OneFSSCM est installé.
 
 ## <a name="initial-synchronization"></a>Synchronisation initiale
 
-Pour créer de nouvelles commandes fournisseur et utiliser des commandes fournisseur existantes, vous devez synchroniser les données de référence entre Supply Chain Management et Dataverse. La fonctionnalité d’écriture initiale permet de détecter les relations de table et de rechercher les tables que vous devez activer pour une mappage donné.
+Pour créer de nouvelles commandes fournisseur et utiliser des commandes fournisseur existantes, vous devez synchroniser les données de référence entre Supply Chain Management et Dataverse. Vous utilisez la fonctionnalité d’écriture initiale pour détecter les relations de table et rechercher les tables que vous devez activer pour une mappage donné.
 
 Vous devez synchroniser les tables suivantes :
 
@@ -76,7 +80,7 @@ Vous devez synchroniser les tables suivantes :
 
     Voici quelques exemples de ces modèles :
 
-    - Catégories d’approvisionnement
+    - Catégories d'approvisionnement
     - Pro
     - Hiérarchie de catégories de produit
     - Affectations de catégorie de produit
@@ -120,22 +124,22 @@ En outre, Dataverse inclut une logique qui mappe les fournisseurs avec leurs com
 
 ## <a name="supported-scenarios"></a>Scénarios pris en charge
 
-- Les commandes fournisseur peuvent être créées et mises à jour par les utilisateurs de Dataverse. Cependant, le processus et les données sont contrôlés par Supply Chain Management. Les contraintes des mises à jour des colonnes de la commande fournisseur dans Supply Chain Management s’appliquent lorsque les mises à jour proviennent de Field Service. Par exemple, vous ne pouvez pas mettre à jour une commande fournisseur si elle a été finalisée. 
-- Si la commande fournisseur est contrôlée par la gestion des modifications dans Supply Chain Management, un utilisateur de Field Service ne peut mettre à jour la commande fournisseur que lorsque le statut d’approbation de Supply Chain Management est *Brouillon*.
-- Plusieurs colonnes ne sont gérées que par Supply Chain Management et ne peuvent pas être mises à jour dans Field Service. Pour savoir quelles colonnes ne peuvent pas être mises à jour, consultez les tables de mappage du produit. Par souci de simplicité, la plupart de ces colonnes sont définies en lecture seule sur les pages de Dataverse. 
++ Les commandes fournisseur peuvent être créées et mises à jour par les utilisateurs de Dataverse. Cependant, le processus et les données sont contrôlés par Supply Chain Management. Les contraintes des mises à jour des colonnes de la commande fournisseur dans Supply Chain Management s’appliquent lorsque les mises à jour proviennent de Field Service. Par exemple, vous ne pouvez pas mettre à jour une commande fournisseur si elle a été finalisée. 
++ Si la commande fournisseur est contrôlée par la gestion des modifications dans Supply Chain Management, un utilisateur de Field Service ne peut mettre à jour la commande fournisseur que lorsque le statut d’approbation de Supply Chain Management est *Brouillon*.
++ Plusieurs colonnes ne sont gérées que par Supply Chain Management et ne peuvent pas être mises à jour dans Field Service. Pour savoir quelles colonnes ne peuvent pas être mises à jour, consultez les tables de mappage du produit. Par souci de simplicité, la plupart de ces colonnes sont définies en lecture seule sur les pages de Dataverse. 
 
     Par exemple, les colonnes d’informations tarifaires sont gérées par Supply Chain Management. Supply Chain Management a des accords commerciaux dont Field Service peut bénéficier. Les colonnes telles que **Prix unitaire**, **Remise** et **Montant net** ne proviennent que de Supply Chain Management. Pour vous assurer que le prix est synchronisé avec Field Service, vous devez utiliser la fonctionnalité **Synchroniser** sur les pages **Commande fournisseur** et **Produit de la commande fournisseur** de Dataverse lorsque les données de la commande fournisseur ont été entrées. Pour plus d’informations, voir [Synchronisation à la demande avec les données d’approvisionnement de Dynamics 365 Supply Chain Management](#sync-procurement).
 
-- La colonne **Totaux** n’est disponible que dans Field Service, car il n’y a pas de totaux à jour de la commande fournisseur dans Supply Chain Management. Les totaux dans Supply Chain Management sont calculés en fonction de plusieurs paramètres qui ne sont pas disponibles dans Field Service.
-- Les lignes de commande fournisseur dans lesquelles une seule catégorie d’approvisionnement est spécifiée, ou dans lesquelles le produit spécifié est un article du type de produit *Service* ou du type de produit Field Service, ne peuvent être lancées que dans Supply Chain Management. Les lignes sont ensuite synchronisées avec Dataverse et sont visibles dans Field Service.
-- Si seul Field Service est installé, et non Supply Chain Management, la colonne **Entrepôt** est obligatoire sur la commande fournisseur. Cependant, si Supply Chain Management est installé, cette obligation est assouplie, car Supply Chain Management autorise les lignes de commande fournisseur dans lesquelles aucun entrepôt n’est spécifié dans certaines situations.
-- Les accusés de réception de marchandises (accusés de réception de commande fournisseur dans Dataverse) sont gérés par Supply Chain Management et ne peuvent pas être créés à partir de Dataverse si Supply Chain Management est installé. Les accusés de réception de marchandises de Supply Chain Management sont synchronisés de Supply Chain Management vers Dataverse.
-- Les sous-livraisons sont autorisées dans Supply Chain Management. La solution OneFSSCM ajoute une logique de sorte que, lorsque la ligne d’accusé de réception de marchandises (ou le produit de l’accusé de réception de la commande fournisseur dans Dataverse) est créée ou mise à jour, une ligne de journal de stock est créée dans Dataverse pour ajuster la quantité restante en commande pour les scénarios de sous-livraison.
++ La colonne **Totaux** n’est disponible que dans Field Service, car il n’y a pas de totaux à jour de la commande fournisseur dans Supply Chain Management. Les totaux dans Supply Chain Management sont calculés en fonction de plusieurs paramètres qui ne sont pas disponibles dans Field Service.
++ Les lignes de commande fournisseur dans lesquelles une seule catégorie d’approvisionnement est spécifiée, ou dans lesquelles le produit spécifié est un article du type de produit *Service* ou du type de produit Field Service, ne peuvent être lancées que dans Supply Chain Management. Les lignes sont ensuite synchronisées avec Dataverse et sont visibles dans Field Service.
++ Si seul Field Service est installé, et non Supply Chain Management, la colonne **Entrepôt** est obligatoire sur la commande fournisseur. Cependant, si Supply Chain Management est installé, cette obligation est assouplie, car Supply Chain Management autorise les lignes de commande fournisseur dans lesquelles aucun entrepôt n’est spécifié dans certaines situations.
++ Les accusés de réception de marchandises (accusés de réception de commande fournisseur dans Dataverse) sont gérés par Supply Chain Management et ne peuvent pas être créés à partir de Dataverse si Supply Chain Management est installé. Les accusés de réception de marchandises de Supply Chain Management sont synchronisés de Supply Chain Management vers Dataverse.
++ Les sous-livraisons sont autorisées dans Supply Chain Management. La solution OneFSSCM ajoute une logique de sorte que, lorsque la ligne d’accusé de réception de marchandises (ou le produit de l’accusé de réception de la commande fournisseur dans Dataverse) est créée ou mise à jour, une ligne de journal de stock est créée dans Dataverse pour ajuster la quantité restante en commande pour les scénarios de sous-livraison.
 
 ## <a name="unsupported-scenarios"></a>Scénarios non pris en charge
 
-- Field Service empêche l’ajout de lignes à une commande fournisseur annulée dans Supply Chain Management. Pour contourner ce problème, vous pouvez modifier le statut système de la commande fournisseur dans Field Service, puis ajouter la nouvelle ligne dans Field Service ou Supply Chain Management.
-- Bien que les lignes d’approvisionnement affectent les niveaux de stock dans les deux systèmes, cette intégration ne garantit pas l’alignement du stock dans Supply Chain Management et Field Service. Field Service et Supply Chain Management ont d’autres processus qui mettent à jour les niveaux de stock. Ces processus n’entrent pas dans le cadre de l’approvisionnement.
++ Field Service empêche l’ajout de lignes à une commande fournisseur annulée dans Supply Chain Management. Pour contourner ce problème, vous pouvez modifier le statut système de la commande fournisseur dans Field Service, puis ajouter la nouvelle ligne dans Field Service ou Supply Chain Management.
++ Bien que les lignes d’approvisionnement affectent les niveaux de stock dans les deux systèmes, cette intégration ne garantit pas l’alignement du stock dans Supply Chain Management et Field Service. Field Service et Supply Chain Management ont d’autres processus qui mettent à jour les niveaux de stock. Ces processus n’entrent pas dans le cadre de l’approvisionnement.
 
 ## <a name="status-management"></a>Gestion des statuts
 
@@ -143,7 +147,7 @@ Les statuts des commandes fournisseur dans Field Service diffèrent des statuts 
 
 ### <a name="field-service-purchase-order-and-purchase-order-product-statuses"></a>Statuts de commande fournisseur et de produit de commande fournisseur dans Field Service
 
-| En-tête : statut du système | En-tête : statut d’approbation | Statut de l’article |
+| En-tête : statut du système | En-tête : statut d’approbation | Statut de l'article |
 |---|---|---|
 | <ul><li>Brouillon</li><li>Soumis</li><li>Annulé(e)</li><li>Produit reçu</li><li>Facturé</li></ul> | <ul><li>Null</li><li>Approuvé/e</li><li>Rejeté</li></ul> | <ul><li>Facture en attente</li><li>Reçue(s)</li><li>Annulé(e)</li></ul> |
 
@@ -157,13 +161,13 @@ Les statuts d’approbation de ligne ne sont actifs que lorsqu’il existe un wo
 
 Les règles suivantes sont appliquées aux colonnes de statut :
 
-- Le statut dans Supply Chain Management ne peut pas être mis à jour à partir de Field Service. Cependant, dans certains cas, le statut dans Field Service est mis à jour lorsque le statut de la commande fournisseur dans Supply Chain Management est modifié.
-- Si une commande fournisseur dans Supply Chain Management est en cours de gestion des modifications et qu’une modification est en cours de traitement, le statut d’approbation est *Brouillon* ou *En cours de révision*. Dans ce cas, le statut d’approbation de Field Service est défini sur *Nul*.
-- Si le statut d’approbation de la commande fournisseur dans Supply Chain Management est défini sur *Approuvé*, *En cours de révision externe*, *Confirmé* ou *Finalisé*, le statut d’approbation de la commande fournisseur dans Field Service est défini sur *Approuvé*.
-- Si le statut d’approbation de la commande fournisseur dans Supply Chain Management est défini sur *Rejeté*, le statut d’approbation de la commande fournisseur dans Field Service est défini sur *Rejeté*.
-- Si le statut de l’en-tête de document dans Supply Chain Management est modifié en *Commande en cours (reliquat)* et le statut de la commande fournisseur dans Field Service est *Brouillon* ou *Annulé*, le statut de la commande fournisseur dans Field Service est modifié en *Envoyé*.
-- Si le statut de l’en-tête de document dans Supply Chain Management est modifié en *Annulé* et aucun produit de l’accusé de réception de la commande fournisseur dans Field Service n’est associé à la commande fournisseur (via les produits de la commande fournisseur), le statut du système dans Field Service est défini sur *Annulé*.
-- Si le statut de la ligne de commande fournisseur dans Supply Chain Management est *Annulé*, le statut du produit de la commande fournisseur dans Field Service est défini sur *Annulé*. En outre, si le statut de la ligne de commande fournisseur dans Supply Chain Management est modifié de *Annulé* en *Reliquat*, le statut de l’article de la commande fournisseur dans Field Service est défini sur *En attente*.
++ Le statut dans Supply Chain Management ne peut pas être mis à jour à partir de Field Service. Cependant, dans certains cas, le statut dans Field Service est mis à jour lorsque le statut de la commande fournisseur dans Supply Chain Management est modifié.
++ Si une commande fournisseur dans Supply Chain Management est en cours de gestion des modifications et qu’une modification est en cours de traitement, le statut d’approbation est *Brouillon* ou *En cours de révision*. Dans ce cas, le statut d’approbation de Field Service est défini sur *Nul*.
++ Si le statut d’approbation de la commande fournisseur dans Supply Chain Management est défini sur *Approuvé*, *En cours de révision externe*, *Confirmé* ou *Finalisé*, le statut d’approbation de la commande fournisseur dans Field Service est défini sur *Approuvé*.
++ Si le statut d’approbation de la commande fournisseur dans Supply Chain Management est défini sur *Rejeté*, le statut d’approbation de la commande fournisseur dans Field Service est défini sur *Rejeté*.
++ Si le statut de l’en-tête de document dans Supply Chain Management est modifié en *Commande en cours (reliquat)* et le statut de la commande fournisseur dans Field Service est *Brouillon* ou *Annulé*, le statut de la commande fournisseur dans Field Service est modifié en *Envoyé*.
++ Si le statut de l’en-tête de document dans Supply Chain Management est modifié en *Annulé* et aucun produit de l’accusé de réception de la commande fournisseur dans Field Service n’est associé à la commande fournisseur (via les produits de la commande fournisseur), le statut du système dans Field Service est défini sur *Annulé*.
++ Si le statut de la ligne de commande fournisseur dans Supply Chain Management est *Annulé*, le statut du produit de la commande fournisseur dans Field Service est défini sur *Annulé*. En outre, si le statut de la ligne de commande fournisseur dans Supply Chain Management est modifié de *Annulé* en *Reliquat*, le statut de l’article de la commande fournisseur dans Field Service est défini sur *En attente*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Synchronisation à la demande avec les données d’approvionnement de Supply Chain Management
 
@@ -192,12 +196,22 @@ Si le processus de validation de l’accusé de réception de marchandises est a
 
 Les modèles suivants sont disponibles pour l’intégration des documents liés à l’approvisionnement.
 
-| Gestion de la chaîne d’approvisionnement | Field Service | Description |
+| Gestion de la chaîne d'approvisionnement | Field Service | Description  |
 |---|---|---|
-| [En-tête de commande fournisseur V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Cette table contient les colonnes qui représentent l’en-tête de commande fournisseur. |
-| [Entité de ligne de commande fournisseur](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Cette table contient les lignes qui représentent les lignes d’une commande fournisseur. Le numéro de produit est utilisé pour la synchronisation. Cela identifie le produit comme une unité de gestion de stock (SKU), y compris les dimensions du produit. Pour plus d’informations sur l’intégration de produit avec Dataverse, voir [Expérience produit uniformisée](product-mapping.md). |
-| [En-tête d’accusé de réception des marchandises](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Cette table contient les en-têtes d’accusé de réception de marchandises créés lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
-| [Lignes d’accusé de réception des marchandises](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Cette table contient les lignes d’accusé de réception de marchandises créées lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
-| [Entité de suppression temporaire de ligne de commande fournisseur](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Ce tableau contient des informations sur les lignes de commande fournisseur qui sont supprimées de manière temporaire. Une ligne de commande fournisseur dans Supply Chain Management ne peut être supprimée de manière temporaire que lorsque la commande fournisseur a été confirmée ou approuvée, si la gestion des modifications est activée. La ligne existe dans la base de données de Supply Chain Management et est marquée comme **IsDeleted**. Comme Dataverse n’a pas de concept de suppression temporaire, il est important que ces informations soient synchronisées avec Dataverse. De cette manière, les lignes supprimées de manière temporaire dans Supply Chain Management peuvent être automatiquement supprimées de Dataverse. Dans ce cas, la logique de suppression d’une ligne dans Dataverse se trouve dans Supply Chain Management Extended. |
+| En-tête de commande fournisseur V2 | msdyn\_Purchaseorders | Cette table contient les colonnes qui représentent l’en-tête de commande fournisseur. |
+| Entité de ligne de commande fournisseur | msdyn\_PurchaseOrderProducts | Cette table contient les lignes qui représentent les lignes d’une commande fournisseur. Le numéro de produit est utilisé pour la synchronisation. Cela identifie le produit comme une unité de gestion de stock (SKU), y compris les dimensions du produit. Pour plus d’informations sur l’intégration de produit avec Dataverse, voir [Expérience produit uniformisée](product-mapping.md). |
+| En-tête d'accusé de réception des marchandises | msdyn\_purchaseorderreceipts | Cette table contient les en-têtes d’accusé de réception de marchandises créés lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
+| Lignes d'accusé de réception des marchandises | msdyn\_purchaseorderreceiptproducts | Cette table contient les lignes d’accusé de réception de marchandises créées lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
+| Entité de suppression temporaire de ligne de commande fournisseur | msdyn\_purchaseorderproducts | Ce tableau contient des informations sur les lignes de commande fournisseur qui sont supprimées de manière temporaire. Une ligne de commande fournisseur dans Supply Chain Management ne peut être supprimée de manière temporaire que lorsque la commande fournisseur a été confirmée ou approuvée, si la gestion des modifications est activée. La ligne existe dans la base de données de Supply Chain Management et est marquée comme **IsDeleted**. Comme Dataverse n’a pas de concept de suppression temporaire, il est important que ces informations soient synchronisées avec Dataverse. De cette manière, les lignes supprimées de manière temporaire dans Supply Chain Management peuvent être automatiquement supprimées de Dataverse. Dans ce cas, la logique de suppression d’une ligne dans Dataverse se trouve dans Supply Chain Management Extended. |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
+
+[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
+
+[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
+
+[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
+
+[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]

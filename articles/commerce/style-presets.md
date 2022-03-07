@@ -2,35 +2,30 @@
 title: Utiliser des réglages de style prédéfinis
 description: Cette rubrique décrit l’utilisation des styles prédéfinie dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412336"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964851"
 ---
 # <a name="work-with-style-presets"></a>Utiliser des réglages de style prédéfinis
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit l’utilisation des styles prédéfinie dans le générateur de site Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Un style prédéfini est un ensemble stocké de toutes les valeurs de style utilisables dans le thème d’un site. Il peut être utilisé pour changer immédiatement l’apparence d’un site à partir du générateur de site. Les styles prédéfinis permettent aux créateurs du générateur de site de Commerce de modifier, prévisualiser et activer rapidement un ensemble de valeurs de style sur tout leur site, sans avoir à utiliser des feuilles de style en cascade (CSS) ou à déployer des thèmes. Les styles de police et de bouton et les couleurs de site sont des exemples typiques de variables de style qui peuvent être gérées via les styles prédéfinis.
 
@@ -121,10 +116,11 @@ Les valeurs de style du réglage prédéfini sont activées sur votre site web p
 
 [Ajouter une icône de favori](add-favicon.md)
 
-[Ajouter un message de bienvenue](add-welcome-message.md)
-
 [Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
 [Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6085a69132a4687455282a908d613aa98d2e7a8d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412152"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209249"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a>Ajouter des recommandations à l'écran de transaction
+# <a name="add-recommendations-to-the-transaction-screen"></a>Ajouter des recommandations à l’écran de transaction
 
 [!include [banner](includes/banner.md)]
 
@@ -119,3 +118,6 @@ Deux options de configuration sont disponibles. Choisissez l'option qui convient
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

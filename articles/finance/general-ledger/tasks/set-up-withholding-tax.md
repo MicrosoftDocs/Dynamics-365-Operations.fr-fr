@@ -2,26 +2,23 @@
 title: Paramétrer la retenue à la source
 description: Cette rubrique explique comment paramétrer la retenue à la source.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfa1b9e43a5745eb5b5c442998597319f196f23f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 592afb7542fa44dcb1bf3f7354937d3c21fb1a87
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443081"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813466"
 ---
 # <a name="set-up-withholding-tax"></a>Paramétrer la retenue à la source
 
@@ -49,3 +46,6 @@ Cette rubrique explique comment paramétrer la retenue à la source. La *retenue
 18. Sélectionnez **Enregistrer**.
 19. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

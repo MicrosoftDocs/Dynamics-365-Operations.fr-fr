@@ -2,26 +2,23 @@
 title: Configurer des séquences de numéros pour les flux d’entrepôt
 description: Cette rubrique présente la fonctionnalité qui fournit des extensions de séquence numérique pour les ID de contenant, les ID d’étiquette de vague, les ID de conteneur et les ID de feuille de chargement.
 author: GarmMSFT
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: e9ba06908b9e82763557e98715e495cfaf649753
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4428330"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574711"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurer des séquences de numéros pour les flux d’entrepôt
 
@@ -92,3 +89,6 @@ Pour créer et modifier des séquences numériques, procédez comme suit.
     | Chiffre de contrôle | Ce type de segment ajoute un chiffre de contrôle, qui est un calcul modulo 10. (Ce comportement correspond à la logique existante pour les ID de contenant.) Pour ce type de segment, le champ **Valeur** est toujours défini sur un symbole caret (*^*), et le champ **Longueur** est toujours défini sur *1*. |
 
 1. Pour voir un exemple de votre format de nombre final, inspectez le champ **Format** au bas de l’organisateur **Segments**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

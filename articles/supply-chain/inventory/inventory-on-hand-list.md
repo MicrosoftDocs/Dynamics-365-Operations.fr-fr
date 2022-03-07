@@ -1,27 +1,24 @@
 ---
 title: Liste du stock disponible
 description: Cette rubrique décrit comment utiliser la page Liste disponible pour inspecter les détails du stock disponible. Elle présente quelques-unes des façons dont les différentes options de filtrage et de tri fonctionnent ensemble, et comment ces options peuvent parfois produire des résultats inattendus lorsqu’elles sont combinées.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428304"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573919"
 ---
 # <a name="inventory-on-hand-list"></a>Liste du stock disponible
 
@@ -146,3 +143,6 @@ Voici la sortie qui en résulte.
 | IA0001 | 1 | 2 | 2 |
 
 Notez que les paramètres du volet **Filtres** s’appliquent à la table de stock détaillée (non regroupée) affichée au début de cette section. Par conséquent, le critère **Physique disponible** \| **inférieur ou égal à** \| _1_ trouve deux lignes dans cette table (les première et troisième lignes, chacune indiquant une valeur **Physique disponible** de _1_). Cependant, dans ce scénario, la page **Liste disponible** n’est pas configurée pour afficher la dimension **Entrepôt**. Par conséquent, elle regroupe les deux lignes d’origine en une seule ligne résultante, car les deux lignes ont des valeurs identiques dans toutes les dimensions affichées. Cette ligne semble enfreindre le critère de filtrage, car la valeur **Physique disponible** indique _2_. Cependant, le résultat est correct, car les paramètres du volet **Filtres** s’appliquent à la table source, et non à la table regroupée affichée sur la page **Liste disponible**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

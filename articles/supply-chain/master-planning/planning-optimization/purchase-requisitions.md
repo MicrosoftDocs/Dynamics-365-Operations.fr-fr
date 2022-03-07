@@ -16,16 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 564f87fe78e79107feb103f953ed4769e4734aa1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570862"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808038"
 ---
 # <a name="purchase-requisitions"></a>Demandes d’achat
-
-[!include [banner](../../includes/banner.md)]
 
 La planification générale peut réapprovisionner les demandes d’achat approuvées. Par conséquent, pour couvrir les demandes d’achat, les utilisateurs n’ont pas besoin d’utiliser un workflow pour créer des commandes fournisseur À la place, les demandes d’achat peuvent être couvertes par la planification générale. En raison de cette fonctionnalité, une demande d’achat peut produire une commande fournisseur, un ordre de transfert ou un ordre de fabrication, selon la valeur de **Type d’ordre prévisionnel** définie pour le produit associé.
 

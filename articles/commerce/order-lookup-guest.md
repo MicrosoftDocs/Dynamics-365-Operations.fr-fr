@@ -2,7 +2,7 @@
 title: Activer la recherche de commande pour les caisses d'invité
 description: Cette rubrique explique comment activer la recherche de commande pour les caisses d'invité dans Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 12/03/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891496"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674974"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Activer la recherche de commande pour les caisses d'invité
 
@@ -63,16 +63,6 @@ Après avoir modifié la valeur du champ **Inclure les données personnelles dan
 ## <a name="configure-the-order-lookup-module"></a>Configurer le module de recherche de commande
 
 Le module de recherche de commandes dans la bibliothèque de modules Commerce sert à afficher le formulaire que les utilisateurs invités utilisent pour rechercher des commandes. Le module de recherche de commande peut être inclus dans l'emplacement du corps de n'importe quelle page qui ne nécessite pas de connexion client. Pour plus d'informations sur la configuration du module, voir [Module de recherche de commande](order-lookup-module.md).
-
-## <a name="configure-the-order-details-page"></a>Configurer la page des détails de la commande
-
-Avant que les utilisateurs invités puissent voir les détails de leur commande, la page des détails de la commande sur votre site de commerce électronique doit être configurée afin de ne pas nécessiter de connexion. Pour désactiver les exigences relatives à la connexion pour la page des détails de votre commande, ouvrez la page dans le générateur de site Commerce, sélectionnez l'emplacement **Page par défaut (obligatoire)** dans l'arborescence et désactivez la case à cocher **Connexion requise ?** en bas du volet des propriétés sur la droite.
-
-## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Ajouter un lien vers les détails de la commande dans les e-mails transactionnels
-
-Dans les e-mails liés aux commandes, vous pouvez fournir un lien ou un bouton qui redirige les clients vers la page des détails pour leur commande. Pour ajouter ce lien ou ce bouton, créez un lien hypertexte HTML qui pointe vers la page des détails de la commande sur votre site de commerce électronique et transmettez l'ID de confirmation de commande et l'adresse e-mail du client en tant que paramètres d'URL, comme illustré dans l'exemple suivant.
-
-`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

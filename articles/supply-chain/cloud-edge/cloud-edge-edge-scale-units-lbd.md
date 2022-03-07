@@ -2,7 +2,7 @@
 title: Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD
 description: Cette rubrique explique comment provisionner des unités d’échelle périphériques locales à l’aide d’un matériel personnalisé et d’un déploiement basé sur les données métier locales (LBD).
 author: cabeln
-ms.date: 01/24/2022
+ms.date: 11/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024540"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920671"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD
 
@@ -26,13 +26,6 @@ Les unités d’échelle périphériques jouent un rôle important dans la topol
 Les unités d’échelle périphériques peuvent être déployées en créant un [environnement local](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) de données métier locales (LBD), puis en le configurant pour qu’il fonctionne comme une unité d’échelle dans votre topologie hybride distribuée pour la gestion de la chaîne d’approvisionnement. Pour cela, il convient d’associer l’environnement LBD local à un environnement Supply Chain Management dans le cloud, qui a été configuré pour fonctionner comme un hub.  
 
 Cette rubrique décrit comment configurer un environnement LBD sur site en tant qu’unité d’échelle périphérique, puis l’associer à un hub.
-
-## <a name="infrastructure-considerations"></a>Considérations de l’infrastructure
-
-Les unités d’échelle périphériques s’exécutent sur des environnements sur site, de sorte que les exigences en matière d’infrastructure sont assez similaires. Cependant, certaines différences sont à noter :
-
-- Les unités d’échelle périphériques n’utilisent pas Financial Reporting, elles ne nécessitent donc pas de nœuds Financial Reporting.
-- Les charges de travail de fabrication et d’entreposage ne sont pas intensives en calcul, pensez donc à dimensionner votre puissance de calcul pour les nœuds AOS en conséquence.
 
 ## <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 

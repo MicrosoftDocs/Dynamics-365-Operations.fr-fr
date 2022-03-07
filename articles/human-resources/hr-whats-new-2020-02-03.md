@@ -1,33 +1,32 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (03 février 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 février 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 277242f2894aeacb6bcd1bbd53ab7bee195ff82c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527000"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062234"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (3 février 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.2809. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support dans Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -39,13 +38,13 @@ Vous pouvez maintenant supprimer les activités sélectionnées à l’aide du b
 
 Les fonctionnalités d’aperçu suivantes sont disponibles le 3 février 2020 :
 
-- **Fonctionnalités d’aperçu de congé et d’absence** - Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
+- **Fonctionnalités d’aperçu de congé et d’absence** – Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonctionnalités en version préliminaire de gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonctionnalités en version préliminaire de gestion des avantages** – Pour plus d’informations, y compris les problèmes connus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="coming-soon"></a>Prochainement
 
-Une nouvelle solution Common Data Service sera bientôt disponible avec les modifications suivantes :
+Une nouvelle solution Dataverse sera bientôt disponible avec les modifications suivantes :
 
 | Description | Monnaie |
 | ----------------------------------------- | --- |
@@ -56,12 +55,15 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 | Nouvelles entités de configuration de la rémunération variable | **Type de régime variable de rémunération**</br>**Régime variable de rémunération**</br>**Règles d’acquisition**</br>**Niveau de régime variable de rémunération** |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | **Entité de calendrier de travail** ajoutée |
 | Nouvelle entité **Détails du poste de paie** | **Détails du poste de paie** ajoutés |
-| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Common Data Service. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
+| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Dataverse. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
 
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

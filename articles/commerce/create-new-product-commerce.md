@@ -1,12 +1,10 @@
 ---
 title: Créer un produit dans Commerce
-description: Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,31 +14,31 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753720"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Créer un produit dans Commerce
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
-Un produit est principalement défini par un numéro, un nom, ainsi qu'une description du produit. Toutefois, d'autres données sont également nécessaires afin de décrire un produit ou un service :
+Un produit est principalement défini par un numéro, un nom, ainsi qu’une description du produit. Toutefois, d’autres données sont également nécessaires afin de décrire un produit ou un service :
 
 ## <a name="create-a-new-product"></a>Créer un nouveau produit
 
 1. Dans le Volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Produits et catégories \> Produits lancés par catégorie**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans la liste déroulante **Type de produit**, sélectionnez **Article** ou **Service**.
-1. Dans la liste déroulante **Sous-type de produit**, sélectionnez **Produit** (si le produit n'aura pas de variantes) ou **Produit générique** (si le produit aura des variantes).
-1. Dans la zone **Numéro de produit**, entrez un numéro de produit s'il n'est pas déjà prérempli.
+1. Dans la liste déroulante **Sous-type de produit**, sélectionnez **Produit** (si le produit n’aura pas de variantes) ou **Produit générique** (si le produit aura des variantes).
+1. Dans la zone **Numéro de produit**, entrez un numéro de produit s’il n’est pas déjà prérempli.
 1. Dans la zone **Nom de produit**, entrez un nom de produit.
 1. Dans la zone **Nom de recherche**, entrez un nom de recherche.
 1. Dans la liste déroulante **Catégorie de vente au détail**, sélectionnez une catégorie appropriée.
@@ -49,15 +47,15 @@ Un produit est principalement défini par un numéro, un nom, ainsi qu'une descr
 1. Dans la liste déroulante **Technologie de configuration**, sélectionnez une option appropriée.
 1. Cliquez sur **OK**.
 
-L'image suivant présente un exemple de produit ajouté.
+L’image suivant présente un exemple de produit ajouté.
 
-![Créer un produit](media/create-new-product.png)
+![Créer un produit.](media/create-new-product.png)
 
-Une fois qu'un produit est ajouté, des données supplémentaires peuvent être paramétrées pour lui, telles que **Description du produit**, **Groupes de variantes**, **Groupes de dimensions**, **Attributs du produit** et **Produits connexes**.
+Une fois qu’un produit est ajouté, des données supplémentaires peuvent être paramétrées pour lui, telles que **Description du produit**, **Groupes de variantes**, **Groupes de dimensions**, **Attributs du produit** et **Produits connexes**.
 
-L'image suivante montre les détails supplémentaires d'un produit.
+L’image suivante montre les détails supplémentaires d’un produit.
 
-![Détails de produit](media/create-new-product-2.png)
+![Détails de produit.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Créer des variantes de produits
 
@@ -70,47 +68,50 @@ Pour créer des variantes de produits, procédez comme suit.
 1. Sélectionnez les variantes que vous souhaitez prendre en charge pour le produit.
 1. Sélectionnez **Créer**.
 
-## <a name="release-a-product"></a>Lancement d'un produit
+## <a name="release-a-product"></a>Lancement d’un produit
 
-Pour vendre un produit, il doit d'abord être remis à une entité juridique.
+Pour vendre un produit, il doit d’abord être remis à une entité juridique.
 
 1. Sur la page du produit, sélectionnez **Lancer des produits**.
 
-    ![Lancer des produits](media/create-new-product-3.png)
+    ![Lancer le produit.](media/create-new-product-3.png)
 
 1. Sélectionnez le produit à lancer, puis sélectionnez **Suivant**.
 
-    ![Choisissez le produit à lancer](media/create-new-product-4.png)
+    ![Choisir le produit à lancer.](media/create-new-product-4.png)
 
 1. Sélectionnez le jeu de variantes de produit à lancer, puis sélectionnez **Suivant**.
 
-    ![Choisissez des variantes à lancer](media/create-new-product-5.png)
+    ![Choisir des variantes à lancer.](media/create-new-product-5.png)
 
-1. Sélectionnez l'entité juridique, puis sélectionnez **Suivant**.
+1. Sélectionnez l’entité juridique, puis sélectionnez **Suivant**.
 
-    ![Choisir une entité juridique](media/create-new-product-6.png)
+    ![Choisir une entité juridique.](media/create-new-product-6.png)
 
 1. Sélectionnez **Terminer**.
 
-    ![Terminer le lancement de produit](media/create-new-product-7.png)
+    ![Terminer le lancement de produit.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Configurer un produit lancé
 
-Une fois qu'un produit est lancé, il nécessitera alors une configuration supplémentaire qui comprend l'ajout d'un prix au produit.
+Une fois qu’un produit est lancé, il nécessitera alors une configuration supplémentaire qui comprend l’ajout d’un prix au produit.
 
 1. Dans le Volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Produits et catégories \> Produits lancés par catégorie**.
 1. Sélectionnez le nœud de catégorie de produit pour le produit qui a été lancé, puis sélectionnez le produit dans la liste des produits.
 1. Dans le volet Actions, sélectionnez **Modifier**.
 1. Dans la section **Achat**, configurez toutes les propriétés requises, y compris **Unité**, **Prix**  et **Quantité**.
-1. Dans le volet Actions, sélectionnez **Valider** pour garantir qu'aucune erreur n'est signalée pour les champs manquants.
+1. Dans le volet Actions, sélectionnez **Valider** pour garantir qu’aucune erreur n’est signalée pour les champs manquants.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
-L'image suivante présente un exemple de configuration pour un produit lancé.
+L’image suivante présente un exemple de configuration pour un produit lancé.
 
-![Configurer un produit lancé](media/create-new-product-8.png)
+![Configurer un produit lancé.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Créer des entités juridiques](channels-legal-entities.md)
 
 [Créer un groupe de variantes](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

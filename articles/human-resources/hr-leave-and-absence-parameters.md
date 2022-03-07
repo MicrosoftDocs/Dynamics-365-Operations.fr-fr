@@ -1,33 +1,35 @@
 ---
 title: Configuration des paramètres de congé et d’absence
-description: Définissez les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: Cette rubrique décrit comment définir les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4418591"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067350"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d’absence
 
-Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les paramètres des ressources humaines associés, notamment :
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les **paramètres des ressources humaines** associés, notamment :
 
 - Souche de numéros pour les demandes de congé
 - Paramètres relatifs au Family Medical and Leave Act (FMLA)
@@ -49,15 +51,15 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 7. Sélectionnez **Enregistrer**.
 
 >[!IMPORTANT]
->L'affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l'activer dans votre environnement de **bac à sable** pour afficher l'option de congé et d'absence. Pour plus d’informations sur l'activation des fonctionnalités d'évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
+>L’affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l’activer dans votre environnement de **bac à sable** pour afficher l’option de congé et d’absence. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
 
 ## <a name="view-and-change-human-resources-shared-parameters"></a>Afficher et modifier les paramètres partagés des ressources humaines
 
-1. Sur la page **Gestion du personnel**, sélectionnez l'onglet **Liens**.
+1. Sur la page **Gestion du personnel**, sélectionnez l’onglet **Liens**.
 
 2. Sous **Configuration**, sélectionnez **Paramètres partagés des ressources humaines**.
 
-3. Sur l'onglet **Accès anticipé**, sélectionnez **Oui** pour **Activer l'affichage des congés intersociétés** pour permettre la visualisation des congés dans toute l'entreprise.
+3. Sur l’onglet **Accès anticipé**, sélectionnez **Oui** pour **Activer l’affichage des congés intersociétés** pour permettre la visualisation des congés dans toute l’entreprise.
 
 4. Sélectionnez **Enregistrer**.
 
@@ -75,7 +77,7 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 
     - Sélectionnez **Calcul du solde** pour afficher les soldes à partir d’aujourd’hui ou de la période de régularisation. Si vous sélectionnez **Solde à ce jour**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à ce jour. Si vous sélectionnez **Solde à compter de la période de régularisation**, le solde affiche le total de toutes les régularisations, des ajustements et des demandes à partir de la période de régularisation définie par la fréquence dans le plan de congés. 
 
-    - Définissez l’heure de début du report de la tâche par lots d’expiration.  
+    - Définissez **l’heure de début** du traitement par lots du **report de l’expiration**.  
     
     - Sélectionnez **Oui** pour **Autoriser les employés à acheter des congés** et **Autoriser les employés à vendre des congés**. Si vous sélectionnez **Oui** pour ces options, vous pouvez créer des stratégies d’achat et de vente de congés et permettre aux employés de soumettre des demandes d’achat et de vente de congés.
 
@@ -92,3 +94,6 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

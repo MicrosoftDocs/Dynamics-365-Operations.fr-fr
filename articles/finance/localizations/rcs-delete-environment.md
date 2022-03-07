@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759817"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295816"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) – Supprimer un environnement RCS
 
@@ -38,11 +38,11 @@ Avant de pouvoir effectuer la procédure de cette rubrique, les conditions préa
 1. Ouvrez RCS et sélectionnez la vignette de l’espace de travail **Gestion des états électroniques**.
 2. Dans la section **Liens connexes**, sélectionnez **Supprimer l’environnement RCS**.
 
-    ![Lien Supprimer l’environnement RCS dans la section Liens connexes.](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![Lien Supprimer l’environnement RCS dans la section Liens connexes](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Dans la boîte de dialogue qui s’affiche, passez en revue les messages concernant l’étendue de la suppression de l’environnement.
 
-    ![Messages dans la boîte de dialogue Supprimer l’environnement RCS.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![Messages dans la boîte de dialogue Supprimer l’environnement RCS](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > La suppression d’un environnement RCS est irréversible.

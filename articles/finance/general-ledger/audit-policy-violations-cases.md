@@ -2,11 +2,9 @@
 title: Violations et incidents de stratégie d’audit
 description: Cet article décrit la manière dont les incident d’audit sont générés à la suite de violations des règles de stratégie d’audit. Il inclut également des informations sur les différentes manières dont les stratégies d’audit utilisent la plage de dates de sélection de document.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ddd403bfe82b1a7d3c0c5999f89bde19f1bba5e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 057cb8afe0da5e0810a2d1c87f7cdbe73bc88b9819ca81631d889bfa1cc55e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758099"
 ---
 # <a name="audit-policy-violations-and-cases"></a>Violations et incidents de stratégie d’audit
 
@@ -30,8 +28,7 @@ ms.locfileid: "5022103"
 
 Cet article décrit la manière dont les incident d’audit sont générés à la suite de violations des règles de stratégie d’audit. Il inclut également des informations sur les différentes manières dont les stratégies d’audit utilisent la plage de dates de sélection de document.
 
-<a name="how-audit-cases-are-generated"></a>Génération des incidents d’audit
------------------------------
+## <a name="how-audit-cases-are-generated"></a>Génération des incidents d’audit
 
 Les stratégies d’audit permettent d’identifier les états de dépenses, commandes fournisseur et factures fournisseur non conformes aux règles métier définies et configurées en tant que règles de stratégie d’audit. 
 
@@ -60,3 +57,6 @@ Pour plus d’informations, voir [Règles de stratégie d’audit](audit-policy-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

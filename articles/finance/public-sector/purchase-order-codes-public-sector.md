@@ -1,6 +1,6 @@
 ---
 title: Codes de commande fournisseur dans le secteur public
-description: Cet article fournit des informations sur les codes et les messages spéciaux pouvant être utilisés lors de la confirmation des commandes fournisseur. Une commande fournisseur de confirmation contourne le processus d’achat habituel.
+description: Cette rubrique fournit des informations sur les codes et les messages spéciaux pouvant être utilisés lors de la confirmation des commandes fournisseur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ConfirmingPOCodes, PurchTableListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 27291
 ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1da7937219c3ba8bfa8c94ca0cfcdb3790cc386b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b57139ca9a1a3779a3c417293d1efb55e64bb9d4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407908"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218720"
 ---
 # <a name="purchase-order-codes-in-the-public-sector"></a>Codes de commande fournisseur dans le secteur public
 
@@ -46,3 +45,6 @@ Si vous affectez un code commande fournisseur de confirmation à une commande fo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

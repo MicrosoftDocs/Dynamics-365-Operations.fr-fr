@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailChannelReport, RetailChannelManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8d95bb0927de5a1906efe180cb9e725c380a724f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aced862e279135e25ca7380b746ae19b97227d10
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234243"
 ---
 # <a name="analyze-store-performance"></a>Analyse des performances de magasin
 
@@ -45,3 +44,6 @@ Cet état fournit un instantané des synthèses suivantes dans le cadre des perf
 - Récapitulatif de la taxe
 - Synthèse du remplacement des prix
 - Synthèse des remises
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

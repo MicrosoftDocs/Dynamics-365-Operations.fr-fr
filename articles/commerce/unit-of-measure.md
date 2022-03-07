@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761512"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271399"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Appliquer les paramètres d’unité de mesure
 
@@ -32,7 +32,7 @@ Un produit peut être vendu en différentes unités, par exemple en « unité 
 
 Dans l’exemple de l’illustration suivante, une unité de mesure de vente par **unité** a été configuré pour un produit au siège de Commerce.
 
-![Exemple de produit configuré avec une unité de mesure au siège de Commerce.](./media/Productunit-headquarters.PNG)
+![Exemple de produit configuré avec une unité de mesure au siège de Commerce](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > La prise en charge de l’application et de l’affichage de l’unité de mesure est disponible à partir de la version 10.0.19 de Commerce.
@@ -54,11 +54,11 @@ Les modules qui utilisent les paramètres d’unité de mesure incluent la zone 
 
 Dans l’exemple de l’illustration suivante, une page de détails du produit (PDP) montre l’unité de mesure (**unité**) pour un produit.
 
-![Exemple de PDP qui montre l’unité de mesure.](./media/Productunit-PDP.png)
+![Exemple de PDP qui montre l’unité de mesure](./media/Productunit-PDP.png)
 
 Dans l’exemple de l’illustration suivante, un module de collecte de produits montre l’unité de mesure (**unité**) pour un produit.
 
-![Exemple de module de collecte de produits affichant l’unité de mesure.](./media/Productunit-productcollection.png)
+![Exemple de module de collecte de produits affichant l’unité de mesure](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

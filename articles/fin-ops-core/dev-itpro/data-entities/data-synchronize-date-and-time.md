@@ -1,25 +1,23 @@
 ---
 title: Synchroniser la date et l’heure dans les tâches d’importation
 description: Utilisez les fuseaux horaires UTC dans les tâches d’importation pour éviter les problèmes de conversion de fuseau horaire.
-author: Sunil-Garg
-manager: tfehr
+author: peakerbl
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae04b09a68e64d6d70c0329e689ab08c3903fca0
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798717"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403839"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Synchroniser la date et l’heure dans les tâches d’importation
 
@@ -35,8 +33,11 @@ Cette double conversion fait changer les dates entre les applications. Par exemp
 
 3. Sous **Format de date source**, sélectionnez **CSV-Unicode**.
 
-   [![Changer le format de date source en UTC](./media/data-source-date-format.png)](./media/data-source-date-format.png)
+   [![Changer le format de date source en UTC.](./media/data-source-date-format.png)](./media/data-source-date-format.png)
 
 4. Changez le champ **Fuseau horaire** sur **Fuseau horaire universel coordonné** et changez le champ **Langue** sur **Fr-FR**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

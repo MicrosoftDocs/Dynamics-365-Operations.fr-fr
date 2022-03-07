@@ -3,26 +3,24 @@ title: Vue d’ensemble de la Facturation électronique
 description: Cette rubrique donne des informations sur la Facturation électronique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6983abeb4d0fdd1a595a53ea0fd9cd840b24030b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983848"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839978"
 ---
 # <a name="electronic-invoicing-overview"></a>Vue d’ensemble de la Facturation électronique
 
@@ -52,8 +50,6 @@ La Facturation électronique est déployée dans les zones géographiques Azure 
 
 - Etats-Unis
 - Europe
-- Royaume-Uni
-- Asie
 
 > [!NOTE]
 > La Facturation électronique ne prend pas en charge les déploiements sur site.
@@ -102,7 +98,7 @@ Lorsque la Facturation électronique est installée à partir de LCS et que le p
 
 L’illustration suivante montre comment les données sont envoyées vers et depuis la Facturation électronique.
 
-![Flux de données pour la Facturation électronique.](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Flux de données pour la Facturation électronique](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 L’activation et l’utilisation de la facturation électronique peuvent nécessiter l’envoi de données limitées, notamment l’ID d’enregistrement fiscal de l’organisation. Ces données seront transmises à des organismes tiers autorisés par les administrations fiscales aux fins d’envoi de factures électroniques dans les formats prédéfinis requis pour l’intégration avec les services web de ces gouvernements. Les données importées depuis ces systèmes externes vers ce service en ligne Dynamics 365 sont soumises à notre [déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=512132). Pour plus d’informations, consultez les sections Déclaration de confidentialité dans la documentation de la fonctionnalité spécifique au pays.

@@ -1,12 +1,10 @@
 ---
 title: ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
-description: Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML.
+description: Cette rubrique décrit comment créer une nouvelle configuration de gestion des états électroniques contenant un modèle de génération de documents électroniques au format OPENXML.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753026"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
@@ -30,7 +28,7 @@ Cette rubrique explique comment un utilisateur dont le rôle est Administrateur 
 
 Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans la société GBSI.
 
-Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d’état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
+Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d’état de paiement](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Téléchargez la configuration du modèle de données des paiements
@@ -150,3 +148,6 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 17. Dans le champ **Compte bancaire**, saisissez `GBSI OPER`.
 18. Sélectionnez **OK**, puis à nouveau **OK**. Examinez la feuille de calcul créée, notamment les détails des lignes de paiement ainsi que les totaux pour chaque code devise utilisé dans ce message de paiement.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

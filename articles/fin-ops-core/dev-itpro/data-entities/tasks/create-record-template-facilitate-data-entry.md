@@ -2,11 +2,9 @@
 title: Créer un modèle d’enregistrement pour faciliter la saisie des données
 description: Cette rubrique montre comment créer un modèle d’enregistrement pour ne pas avoir à saisir explicitement les valeurs de champ utilisées régulièrement pour chaque nouvel enregistrement.
 author: margoc
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68d3c7dd2f042617a7e2fcc8bee05fae6a82bde9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767723"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Créer un modèle d’enregistrement pour faciliter la saisie des données
 
@@ -43,3 +41,6 @@ Cette rubrique montre comment créer un modèle d’enregistrement pour ne pas a
 13. Cliquez sur **OK**.
 14. Sélectionnez **Fermer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

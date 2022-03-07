@@ -2,28 +2,25 @@
 title: Règlement d’un paiement client partiel avec plusieurs périodes de remise
 description: Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu’il existe plusieurs périodes de remise.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5d0d517524add5e18b1f0795b2ee2fd7f5b7686b26919a7e8f2e20ac1d243fe9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740120"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d’un paiement client partiel avec plusieurs périodes de remise
 
@@ -34,7 +31,7 @@ Cet article décrit la manière dont les paiements client partiels sont réglés
 Fabrikam propose à son client 4031 deux périodes d’escompte de règlement. Le client bénéficie d’un escompte de règlement de 2 % si la facture est payée dans les cinq jours et d’un escompte de règlement de 1 % si la facture est payée dans les 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
 ## <a name="invoice"></a>Facture
-Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4031. Lorsqu’il vérifie les escomptes de règlement pour la facture, il constate que le client 4031 reçoit une remise de 20,00 % si la facture est payée avant le 30 juin. Si la facture est payée avant le 9 juillet, le client reçoit une remise de 10,00 %.
+Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4031. Lorsque Arnie vérifie les escomptes de règlement pour la facture, il constate que le client 4031 reçoit une remise de 20,00 % si la facture est payée avant le 30 juin. Si la facture est payée avant le 9 juillet, le client reçoit une remise de 10,00 %.
 
 | Date d’escompte de règlement | Montant de l’escompte de règlement | Montant dans la devise de transaction |
 |--------------------|----------------------|--------------------------------|
@@ -57,7 +54,7 @@ Le 28 juin, le client 4031 fait un paiement partiel à hauteur de 294,00. Comme 
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. Si vous ne modifiez pas la valeur du **Montant à régler** par **294,00**, les valeurs du **Montant de l’escompte de règlement** qui s’affichent seront différentes. Toutefois, 6,00 seront prélevés comme escompte de règlement une fois le paiement validé, car le règlement ajuste automatiquement pour vous la valeur du **Montant à régler**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 6/30/2015 |
 | Montant de l’escompte de règlement         | 20,00     |
@@ -76,7 +73,7 @@ Le 8 juillet, le client paie le reste du montant de la facture. Une remise de 7,
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
 | Montant de l’escompte de règlement         | 30,00     |
@@ -98,3 +95,6 @@ Le solde de la facture est désormais de 0,00. Arnie visualise les informations 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,23 @@
 ---
 title: Traitement par lots des alertes
 description: Cette rubrique fournit des informations sur le traitement par lots des alertes.
-author: tjvass
-manager: AnnBe
-ms.date: 09/10/2010
+author: RichdiMSFT
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0ec2a9bd925ccd7dc7c6a8251629bf565ece2268
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798585"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416427"
 ---
 # <a name="batch-processing-of-alerts"></a>Traitement par lots des alertes
 
@@ -82,3 +80,6 @@ Si vous paramétrez une fenêtre de traitement par lots, une alerte est envoyée
 
 1. Accédez à **Administration du système** &gt; **Tâches périodiques** &gt; **Alertes** &gt; **Alertes de date d’échéance**.
 2. Dans la boîte de dialogue **Alertes de date d’échéance**, entrez les informations appropriées.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Créer des configurations de mise en correspondance de modèles d’états électroniques
 description: Cette procédure permet de créer une configuration de mise en correspondance des modèles d’états électroniques et d’utiliser les fonctions ER intégrées pour effectuer des calculs globaux efficaces.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23bc3a525be9f65b7e5100114d02f6b79a286fb5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9a614ce0f055691e36c1aab5d84d4fc3355026f1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682067"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752554"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Créer des configurations de mise en correspondance de modèles d’états électroniques
 
@@ -65,3 +63,6 @@ Ces étapes peuvent être effectuées à l’aide d’un ensemble de données qu
     * Exemple de mise en correspondance de déclaration d’échanges de biens  
 5. Cliquez sur Créer une configuration.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

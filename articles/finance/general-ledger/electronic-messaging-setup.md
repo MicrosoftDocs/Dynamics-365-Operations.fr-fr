@@ -2,7 +2,7 @@
 title: Paramétrer un message électronique
 description: Cette rubrique fournit des informations générales sur la configuration de la fonctionnalité Messages électroniques (ME).
 author: liza-golub
-ms.date: 11/18/2021
+ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 947170d1db132ca5a6b7caed0e47ee814b9148cc
+ms.sourcegitcommit: 73d320d2103f2b0c6ecbb2b9df746469bc544ea2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860556"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433782"
 ---
 # <a name="set-up-electronic-messages"></a>Paramétrer un message électronique
 
@@ -34,7 +34,6 @@ Si vous n’importez pas un packages d’entité de données, vous pouvez param�
 - [Champs supplémentaires](#additional)
 - [Paramètres de la classe exécutable](#executable)
 - [Actions Renseignement des enregistrements](#populate)
-- [Remplir les enregistrements de plusieurs sociétés](#multiple-companies-populate)
 - [Applications Web](#applications)
 - [Paramètres du service Web](#settings)
 - [Actions de traitement des messages](#actions)
@@ -52,13 +51,13 @@ Les types d’éléments du message identifient les types d’enregistrements ut
 
 ## <a name="message-item-statuses"></a><a id="item"></a>Statuts de l'élément de message
 
-Les statuts d’élément de message identifient les statuts qui s’appliquent aux éléments du message dans le traitement que vous paramétrez. Vous pouvez paramétrer les statuts d’éléments en accédant à **Taxe** \> **Paramétrage** \> **Messageries électroniques** \> **Statuts d’élément de message**.
+Les statuts d’élément de message identifient les statuts qui s’appliquent aux éléments du message dans le traitement que vous paramétrez. Vous pouvez paramétrer les status d’éléments en accédant à **Taxe** \> **Paramétrage** \> **Messageries électroniques** \> **Statuts d’élément de message**.
 
 Le paramètre **Autoriser la suppression** d’un statut d’élément de message définit si vous pouvez supprimer des éléments de message ayant ce statut dans la page **Messages électroniques** ou **Éléments du message électronique**.
 
 ## <a name="message-statuses"></a><a id="statuses"></a>Statuts du message
 
-Paramétrez les statuts du message qui doivent être disponibles dans le traitement des messages. Vous pouvez paramétrer les statuts de message en accédant à **Taxe** \> **Paramétrage** \> **Messageries électroniques** \> **Statuts d’élément de message**.
+Paramétrez les statuts du message qui doivent être disponibles dans le traitement des messages. Vous pouvez paramétrer les status de message en accédant à **Taxe** \> **Paramétrage** \> **Messageries électroniques** \> **Statuts d’élément de message**.
 
 Le tableau suivant décrit les champs de la page **Statuts du message**.
 
@@ -68,7 +67,7 @@ Le tableau suivant décrit les champs de la page **Statuts du message**.
 | Description         | Entrez une description du statut de message. |
 | Type de réponse       | Sélectionnez le type de réponse pour le statut de message. Certaines actions d’un traitement peuvent produire plusieurs types de réponse. Par exemple, une action du type **Service Web** peuvent entraîner une réponse de type **Exécution réussie** ou **Erreur technique** selon le résultat de leur exécution. Dans ce cas, définissez des statuts de message pour les deux types de réponses. Pour en savoir plus sur les types d’action et les types de réponse qui y sont associés, consultez la section [Types d’actions de traitement des messages](#action-types) plus loin dans cette rubrique. |
 | Statut de l'élément de message | Parfois, le statut d’un message électronique doit influencer le statut des éléments de message associés. Sélectionnez un statut d’élément de message dans ce champ pour l’associer au statut du message. |
-| Autoriser la suppression        | Activez cette case à cocher si les utilisateurs doivent pouvoir supprimer les messages électroniques ayant ce statut sur la page **Messages électroniques**. |
+| Autoriser la suppression        | Activez cette case à cocher si les utilisateurs doivent pouvoir supprimer les message électroniques ayant ce statut sur la page **Messages électroniques**. |
 
 ## <a name="additional-fields"></a><a id="additional"></a>Champs supplémentaires
 
@@ -76,7 +75,7 @@ La fonctionnalité EM vous permet de collecter des enregistrements à partir de 
 
 Le tableau suivant décrit les champs généraux de la page **Champs supplémentaires**.
 
-| Champ       | Description |
+| Champ       | Description  |
 |-------------|-------------|
 | Nom du champ  | Entrez le nom d’un champ supplémentaire pour des messages électroniques ou des éléments de message qui sont liés au processus. Ce nom est affiché dans l’interface utilisateur (IU) lorsque vous utilisez le processus. Le nom peut également être utilisé dans les configurations États électroniques (ER) liées au processus. |
 | Description  | Entrez une description des champs supplémentaires. |
@@ -86,7 +85,7 @@ Le tableau suivant décrit les champs généraux de la page **Champs supplément
 
 Sous le raccourci **Valeurs**, vous pouvez prédéfinir les valeurs qu'un champ supplémentaire peut avoir. Ces valeurs sont ensuite disponibles pour les utilisateurs à sélectionner. Par conséquent, ils n'ont pas besoin d'être remplis manuellement pendant le traitement. Le tableau suivant décrit ces champs.
 
-| Champ                | Description |
+| Champ                | Description  |
 |----------------------|-------------|
 | Valeur de champ          | Entrez la valeur du champ à utiliser pour un message ou un élément de message lors de la génération d’états. |
 | Description          | Entrez une description de la valeur du champ. |
@@ -96,7 +95,7 @@ Sous le raccourci **Valeurs**, vous pouvez prédéfinir les valeurs qu'un champ 
 | Date d’effet            | Spécifiez la date à laquelle la valeur doit commencer à être prise en compte. |
 | Expiration           | Spécifiez la date à laquelle la valeur doit arrêter d’être prise en compte. |
 
-Par défaut, les combinaisons des critères définis par les champs **Numéro de compte/groupe**, **Code compte**, **Date d’effet** et **Date d’expiration** n’influencent pas la sélection des valeurs pour les champs supplémentaires. Toutefois, ces combinaisons peuvent être utilisées dans une classe exécutable pour implémenter une logique spécifique de calcul des valeurs pour les champs supplémentaires.
+Par défaut, les combinaisons des critères définis par les champs **Numéro de compte/groupe**, **Code compte**, **Date d’effet** et **Date d’expiration** n’influencent pas la sélection des valeurs pour les champs supplémentaires. Toutefois, ces combinaisons peuvent être utilisées dans une classe exécutable pour implémenter un logique spécifique de calcul des valeurs pour les champs supplémentaires.
 
 ## <a name="executable-class-settings"></a><a id="executable"></a>Paramètres de la classe exécutable
 
@@ -104,7 +103,7 @@ Une classe exécutable est une méthode ou une classe X++ que le traitement de m
 
 Vous pouvez configurer manuellement une classe exécutable qui doit être appelée pendant le traitement en allant dans **Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Paramètres de la classe exécutable**. Sur la page **Paramètres de la classe exécutable**, créez une ligne et définissez les champs suivants.
 
-| Champ                 | Description |
+| Champ                 | Description  |
 |-----------------------|-------------|
 | Classe exécutable      | Entrez le nom qui sera utilisé lors du paramétrage d’une action de traitement de message en lien avec la classe appelée. |
 | Description           | Entrez une description de la classe exécutable. |
@@ -134,43 +133,11 @@ Dans l’organisateur **Paramétrage des sources de données**, ajoutez une lign
 | Type d'élément de message      | Sélectionnez le type d’élément de message à utiliser lorsque des enregistrements sont créés pour la source de données. |
 | Type de compte           | Sélectionnez le type de compte à associer à des enregistrements de la source de données. |
 | Nom de la table principale      | Sélectionnez la table à utiliser comme source de données. |
-| Champ Numéro du document  | Sélectionnez le champ dans lequel le numéro de document doit être extraite dans la table maître. La valeur de ce champ est utilisée comme valeur du champ **Numéro de document** pour l'élément de message. |
+| Champ Numéro du document  | Sélectionnez le champ dans lequel le numéro de document doit être extrait dans la table maître. La valeur de ce champ est utilisée comme valeur du champ **Numéro de document** pour l'élément de message. |
 | Champ Date du document    | Sélectionnez le champ dans lequel la date du document doit être extrait dans la table maître. La valeur de ce champ est utilisée comme valeur du champ **Date de l’élément de message** pour l'élément de message. |
 | Champ Compte du document | Sélectionnez le champ dans lequel le compte du document doit être extrait dans la table maître. La valeur de ce champ est utilisée comme valeur du champ **Numéro de compte** pour l'élément de message. |
 | Société                | Ce champ est disponible lorsque la fonctionnalité **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** est activée dans l'espace de travail **Gestion des fonctionnalités**. Utilisez cette fonctionnalité pour configurer des sources de données intersociétés pour les actions de remplissage des enregistrements. Les données peuvent être récupérées auprès de plusieurs entreprises. |
-| Requête utilisateur             | <p>Si vous configurez une requête en sélectionnant **Modifier la requête** au-dessus de la grille et que vous spécifiez les critères qui doivent être appliqués à la table principale sélectionnée à partir de laquelle les données sont renseignées, cette case à cocher est automatiquement sélectionnée. Sinon, tous les enregistrements seront renseignés à partir de la source de la table maître.</p><p>Quand la fonctionnalité **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** est activée dans l'espace de travail **Gestion des fonctionnalités**, et les enregistrements doivent être collectés auprès de plusieurs sociétés, ajoutez une ligne pour chaque entité juridique supplémentaire qui doit être incluse dans la déclaration. Pour chaque nouvelle ligne, sélectionnez **Modifier la requête** et spécifiez un critère associé qui est spécifique à l'entité juridique qui est spécifiée dans le champ **Société** sur la ligne. Lorsque vous avez terminé, la grille **Configuration des sources de données** contient des lignes pour toutes les entités juridiques qui doivent être incluses dans le reporting.</p> |
-
-## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Remplir les enregistrements de plusieurs sociétés
-
-Si votre entreprise doit déclarer plusieurs entités juridiques dans la même base de données Finance, configurez les [actions de remplissage des enregistrements](#populate) pour toutes les entités juridiques dont les données doivent être incluses dans la déclaration.
-
-Pour activer cette capacité dans votre environnement Finance, procédez comme suit : 
-
-1. Accédez à **Espaces de travail** \> **Gestion des fonctionnalités**.
-2. Recherchez et sélectionnez la fonctionnalité **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** dans la liste.
-3. Sélectionnez **Activer maintenant**. 
-
-Pour mettre en place les [actions de remplissage des enregistrements](#populate) pour plusieurs entreprises dont les données doivent être incluses dans les déclarations, procédez comme suit :
-
-1. Accédez à **Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Actions Renseignement des enregistrements**.
-
-    Quand la fonction **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** est activée, la grille **Configuration des sources de données** de la page **Action Renseigner des enregistrements** comprend un champ **Société**. Pour les enregistrements existants, créés lors de la configuration générale des [Actions de renseignement d’enregistrements](#populate), ce champ indique l’identificateur de l’entité juridique actuelle.
-
-2. Dans la grille **Configuration des sources de données**, ajoutez une ligne pour chaque entité juridique de filiale qui doit être incluse dans la génération des états et définissez les champs suivants.
-
-    | Nom du champ             | Valeur |
-    |------------------------|-------|
-    | Name                   | Entrez une valeur de texte qui vous aidera à comprendre d’où vient cet enregistrement. Par exemple, entrez **Nom de la source de données - Filiale 1**. |
-    | Type d’élément de message      | Sélectionnez le type d’élément de message requis pour votre traitement EM. |
-    | Type de compte           | Spécifiez le type de compte requis pour votre traitement EM. Si votre traitement EM n’a pas de types de comptes spécifiques, sélectionnez **Tous**. |
-    | Nom de la table principale      | Spécifiez le nom de la table maître requise pour votre traitement EM. |
-    | Champ Numéro du document  | Spécifiez le champ qui contient le numéro du document dans les enregistrements de votre traitement EM. |
-    | Champ Date du document    | Spécifiez le champ qui contient le date du document dans les enregistrements de votre traitement EM. |
-    | Champ Compte du document | Spécifiez le champ qui contient le compte du document dans les enregistrements de votre traitement EM. |
-    | Société                | Sélectionnez l’ID de l’entité juridique de la filiale. |
-    | Requête utilisateur             | Cette case est automatiquement cochée lorsque vous définissez des critères en sélectionnant **Modifier la requête**. |
-
-3. Pour chaque nouvelle ligne, sélectionnez **Modifier la requête** et spécifiez un critère associé pour l’entité juridique qui est spécifiée dans le champ **Société** sur la ligne.
+| Requête utilisateur             | <p>Si vous configurez une requête en sélectionnant **Modifier la requête** au-dessus de la grille et que vous spécifiez les critères qui doivent être appliqués à la table principale sélectionnée à partir de laquelle les données sont renseignées, cette case à cocher est automatiquement sélectionnée. Sinon, tous les enregistrements seront renseignés à partir de la source de la table maître.</p><p>Quand la fonctionnalité **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** est activée dans l'espace de travail **Gestion des fonctionnalités**, et les enregistrements doivent être collectés auprès de plusieurs sociétés, ajoutez une ligne pour chaque entité juridique supplémentaire qui doit être incluse dans le reporting. Pour chaque nouvelle ligne, sélectionnez **Modifier la requête** et spécifiez un critère associé qui est spécifique à l'entité juridique qui est spécifiée dans le champ **Société** sur la ligne. Lorsque vous avez terminé, la grille **Configuration des sources de données** contient des lignes pour toutes les entités juridiques qui doivent être incluses dans le reporting.</p> |
 
 ## <a name="web-applications"></a><a id="applications"></a>Applications Web
 
@@ -202,7 +169,7 @@ En outre, les boutons suivants sont disponibles dans le volet Actions de la page
 - **Obtenir un jeton d’accès** – initialise le processus d’obtention d’un jeton d’accès.
 - **Actualiser le jeton d’accès** – Actualise un jeton d’accès. Cette fonction utilise le format ER spécifié dans le champ **Importer le mappage du modèle de jeton** pour importer des informations sur le jeton d'accès reçu.
 
-Lorsqu’un jeton d’accès à une application Web est enregistré dans la base de données du système dans un format chiffré, il peut être utilisé pour les requêtes vers un service Web. À des fins de sécurité, l’accès au jeton doit être limité aux rôles de sécurité qui sont autorisés à traiter ces requêtes. Si quelqu'un d'extérieur au groupe de sécurité essaie d’envoyer une requête, il reçoit une erreur indiquant qu’il n'est pas autorisé à interagir à l’aide de l’application Web sélectionnée. Pour paramétrer les rôles de sécurité qui ont accès au jeton d’accès, utilisez l’organisateur **Rôles de sécurité** de la page **Applications Web**. Si les rôles de sécurité ne sont pas définis pour une application Web, seul un administrateur système est en mesure d’interagir via cette application Web.
+Lorsqu’un jeton d’accès à une application Web est enregistré dans la base de données du système dans un format chiffré, il peut être utilisé pour les requêtes vers un service Web. À des fins de sécurité, l’accès au jeton doit être limité aux rôles de sécurité qui sont autorisés à traiter ces requêtes. Si quelqu'un d'extérieur au groupe de sécurité essaie d’envoyer une requête, il reçoivent une erreur indiquant qu’ils ne sont pas autorisés à interagir à l’aide de l’application Web sélectionnée. Pour paramétrer les rôles de sécurité qui ont accès au jeton d’accès, utilisez l’organisateur **Rôles de sécurité** de la page **Applications Web**. Si les rôles de sécurité ne sont pas définis pour une application Web, seul un administrateur système est en mesure d’interagir via cette application Web.
 
 Pour chaque action avec l'application web sélectionnée, le raccourci **Journal des actions** enregistre des informations sur l'utilisateur, ainsi que la date et l'heure.
 
@@ -218,7 +185,7 @@ Le tableau suivant décrit les champs de la page **Paramètres de service Web**.
 |--------------------------------|-------------|
 | Service Web                    | Entrez un nom pour le service Web. |
 | Description                    | Permet d’entrer une description du service Web. |
-| Adresse Internet               | <p>Entrez l’adresse Internet du service Web. Si une application Web est spécifiée pour un service Web et que l’adresse Internet du service Web doit être identique à celle définie pour l’application Web sélectionnée, sélectionnez **Copier l’URL de base**. L'URL de base de l'application web est ensuite copiée dans ce champ.</p><p>**Avertissement :** les services tiers ou d'autres services que vous configurez ici ne nécessitent pas de certification et peuvent ne pas répondre aux normes de confidentialité de Microsoft. Vous devez examiner la documentation de confidentialité de chaque service et travailler avec chaque fournisseur de services pour en savoir plus sur le niveau de conformité fourni par son service. Vous devez vous assurer que ces services répondent à vos normes de sécurité, de confidentialité et juridiques. Vous êtes responsable de l'utilisation des services. Microsoft n’accorde aucune garantie ni condition expresse. Nous vous recommandons fortement d'utiliser uniquement des services qui fournissent des connexions sécurisées et autorisées, telles que HTTPS.</p> |
+| Adresse Internet               | <p>Entrez l’adresse Internet du service Web. Si une application Web est spécifiée pour un service Web et que l’adresse Internet du service Web doit être identique à celle définie pour l’application Web sélectionnée, sélectionnez **Copier l’URL de base**. L'URL de base de l'application web est ensuite copiée dans ce champ.</p><p>**Avertissement :** les services tiers ou d'autres services que vous configurez ici ne nécessitent pas de certification et peuvent ne pas répondre aux normes de confidentialité de Microsoft. Vous devez examiner la documentation de confidentialité de chaque service et travailler avec chaque fournisseur de services pour en savoir plus sur le niveau de conformité fourni par son service. Vous devez vous assurer que ces services répondent à vos normes de sécurité, de confidentialité et juridiques. Vous êtes responsable de l'utilisation des services. Microsoft n'accorde aucune garantie ni condition expresse. Nous vous recommandons fortement d'utiliser uniquement des services qui fournissent des connexions sécurisées et autorisées, telles que HTTPS.</p> |
 | Certificat                    | Sélectionnez un certificat de coffre de clés Azure précédemment paramétré. |
 | Application Web                | Sélectionnez une application web précédemment paramétrée. |
 | Type de réponse – XML        | Définissez cette option sur **Oui** si le type de réponse est XML. |
@@ -247,7 +214,6 @@ Les tableaux suivants décrivent les champs de la page **Actions de traitement d
 | Classe exécutable                          | Sélectionnez un paramètre de classe exécutable existant. Ce champ n’est disponible que pour les actions **Niveau d’exécution de l’élément de message** et **Niveau d’exécution de l’élément de message**. |
 | Action Renseigner des enregistrements                   | Sélectionnez une action de remplissage des enregistrements existante. Ce champ n’est disponible que pour les actions du type **Renseigner les enregistrements**. |
 | Service Web                               | Sélectionnez un service web existant. Ce champ n’est disponible que pour les actions de type **Service Web**. |
-| Nom de fichier à envoyer                         | Entrez le nom de la pièce jointe à un message électronique qui doit être envoyée par cette action. Si plusieurs pièces jointes ont le même nom de fichier d’origine, la plus récente sera envoyée. Si aucune pièce jointe portant le nom de fichier d’origine spécifié n’est trouvée, la demande sera envoyée sans contenu. Ce champ n’est disponible que pour les actions de type **Service Web**. |
 | Nom de fichier                                 | Permet de spécifier le nom du fichier qui est le résultat de l’action. Ce fichier peut être la réponse du serveur Web ou l’état généré. Ce champ n’est disponible que pour les actions de type **Service Web** et **Message d’exportation pour la gestion des états électroniques**. |
 | Joindre des fichiers aux documents source          | Cochez cette case pour joindre les fichiers générés aux enregistrements dans une table principale référencée pour les éléments EM. Ce champ n’est disponible que pour les actions de type **exportation pour la gestion des états électroniques** et **Service web**. |
 | Joindre les fichiers de l'archive de sortie aux éléments | Cochez cette case pour extraire des fichiers XML distincts du fichier d'archive de sortie et les joindre aux éléments de message électronique correspondants. Ce champ n’est disponible que pour les actions de type **Exportation pour la gestion des états électroniques**. |

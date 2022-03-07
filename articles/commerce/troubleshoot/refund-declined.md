@@ -2,9 +2,11 @@
 title: Le remboursement d’un ordre de retour est refusé
 description: Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsque le remboursement d’un ordre de retour est refusé car la carte de crédit utilisée pour la facturation diffère de la carte utilisée lors de l’autorisation de paiement d’origine.
 author: Reza-Assadi
+manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e202c6b4b9e025d5af1cd5eb6235884aab6444e6
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738622"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585327"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Le remboursement d’un ordre de retour est refusé
 
@@ -28,13 +30,13 @@ ms.locfileid: "6738622"
 
 Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsque le remboursement d’un ordre de retour est refusé car la carte de crédit utilisée pour la facturation diffère de la carte utilisée lors de l’autorisation de paiement d’origine.
 
-## <a name="description"></a>Description
+## <a name="description"></a>Description 
 
 Un remboursement est refusé lorsque la carte de crédit utilisée pour facturer un ordre de retour diffère de la carte utilisée lors de l’autorisation de paiement d’origine. Le message d’erreur suivant s’affiche : « L’état de certains paiements n’est pas correct pour la validation. Veuillez valider à nouveau l’état de tous les paiements avant la facturation. »
 
 Les détails de l’autorisation de paiement comprendront le message d’erreur suivant : « SendRequest() de la passerelle Adyen a échoué avec le statut ’InternalServerError’.22144 ; réponse vide renvoyée par Adyen. (22001); »
 
-![Erreur de remboursement refusé pour un ordre de retour.](media/refund-order-decline.jpg)
+![Erreur de remboursement refusé pour un ordre de retour](media/refund-order-decline.jpg)
 
 ## <a name="resolution"></a>Résolution
 

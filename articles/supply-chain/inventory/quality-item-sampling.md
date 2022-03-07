@@ -1,29 +1,29 @@
 ---
 title: Échantillonnage des éléments de gestion de la qualité
 description: Cette rubrique décrit comment configurer l’échantillonnage d’article.
-author: yufeihuang
+author: rachel-profitt
+manager: tfehr
 ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemSampling
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea749c470ab1d80f1f3974596a2cd4a1f5b7b32d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 495bef32d63738e367167ee69f2028bc77945cc4
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578486"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956647"
 ---
 # <a name="quality-management-item-sampling"></a>Échantillonnage des éléments de gestion de la qualité
-
-[!include [banner](../includes/banner.md)]
 
 L'échantillonnage d’article est utilisé dans le cadre d'une association de qualité. Il définit le montant de l'inventaire physique actuel qui doit être inspecté. L’échantillonnage peut être basé sur des quantités fixes, un pourcentage ou un contenant complet.
 

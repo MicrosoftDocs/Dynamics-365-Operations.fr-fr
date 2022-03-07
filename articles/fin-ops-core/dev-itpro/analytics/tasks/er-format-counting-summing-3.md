@@ -1,12 +1,10 @@
 ---
-title: ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 - Utiliser les calculs pour générer la sortie)
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un format de génération d’états électroniques (ER) pour effectuer le comptage et la synthèse en fonction des données de la sortie de texte déjà générée.
+title: ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 – Utiliser les calculs pour générer la sortie)
+description: Cette rubrique décrit comment configurer un format de gestion des états électroniques pour effectuer le comptage et la somme en fonction des données de la sortie de texte déjà générée. (Partie 3)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b26a7f50a2237e0d3d756f8eebf2e4cd81f24683
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4a59dc2ff4e4e2092911e0aec092ae8182f7601413fc220fda47766a3a0bc061
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718283"
 ---
-# <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a>ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 - Utiliser les calculs pour générer la sortie)
+# <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a>ER Configurer le format pour effectuer le comptage et la synthèse (Partie 3 – Utiliser les calculs pour générer la sortie)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -64,7 +62,7 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 23. Dans l’arborescence, sélectionnez « Texte\Souche ».
 24. Dans le champ Nom, tapez « Totaux par bloc ».
     * Totaux par bloc  
-25. Dans le champ Caractères spéciaux, sélectionnez « Nouvelle ligne - Windows (CR LF) ».
+25. Dans le champ Caractères spéciaux, sélectionnez « Nouvelle ligne – Windows (CR LF) ».
 26. Cliquez sur OK.
 27. Dans l’arborescence, sélectionnez « Déclaration d’échanges de biens\Données\Totaux par bloc ».
 28. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
@@ -132,3 +130,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 77. Cliquez sur Enregistrer.
 78. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

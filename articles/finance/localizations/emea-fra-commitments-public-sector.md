@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration, PurchAgreement, PurchCommitment_PSN, PurchTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 19531
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c88c75160ab74a5e7a0d91b67ce04121f9313ce5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9974079254e978fa240870f1122a5f77c54721b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407953"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237498"
 ---
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
@@ -80,3 +79,6 @@ Les engagements doivent être clôturés manuellement.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Contrepasser la validation du journal
 description: Cette rubrique décrit les fonctionnalités qui vous permettent de contrepasser les documents provenant de la liste de transaction de documents ou provenant des journaux financiers.
-author: MikeFalkner
-manager: AnnBe
+author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3244d857a9135249130672501f8b766ff9a0680
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443181"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753776"
 ---
 # <a name="reverse-journal-posting"></a>Contrepasser la validation du journal
 
@@ -31,11 +28,15 @@ ms.locfileid: "4443181"
 
 Cette rubrique décrit les fonctionnalités Microsoft Dynamics 365 Finance qui vous permettent de contrepasser un journal entier, ou de contrepasser un ou plusieurs documents provenant de la liste de transactions de documents, peu importe leur origine. 
 
+Avant de pouvoir utiliser une des fonctionnalités décrites dans cette rubrique, vous devez l’activer dans votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+ - Module : Comptabilité
+ - Nom de la fonctionnalité : **Contrepassation en masse pour plusieurs documents**
+
 ## <a name="reversing-journals"></a>Contrepassation des journaux
 
 Vous pouvez contrepasser des lignes de journal individuellement. Avec la contrepassation de la validation du journal, vous pouvez également contrepasser tout un journal financier. Pour contrepasser un journal : 
 
-- Ouvrez le journal financier et filtrez selon les journaux validés.
+- Filtrez sur les journaux publiés et ouvrez la vue **Lignes** sur le journal.
 - Sélectionnez le menu **Contrepasser** en haut de la page.
 - Vous verrez le nombre total de documents et les lignes de documents ainsi que le volume total des lignes contrepassées.
 - Sélectionnez **Oui** pour utiliser les dates de transaction existantes ou **Non** pour en saisir de nouvelles. Dans certains cas, la période de la transaction d’origine peut être clôturée et vous devez saisir une nouvelle date de transaction pour la contrepassation.
@@ -55,8 +56,8 @@ Vous pouvez également contrepasser les documents provenant de la **Liste des tr
 
 Pour ce faire, procédez comme suit : 
 
-- Sélectionnez le menu **Contrepasser** en haut de la page
-- Vous verrez le nombre total de documents et les lignes de documents ainsi que le volume total des lignes contrepassées.
+- Sélectionnez le menu déroulant **Contrepasser l’intégralité du journal** en haut de la page.
+- Le nombre total de documents et les lignes de documents sont affichés, ainsi que le volume total des lignes contrepassées.
 - Sélectionnez **Oui** pour utiliser les dates de transaction existantes ou **Non** pour en saisir de nouvelles. Dans certains cas, la période de la transaction d’origine peut être clôturée et vous devez saisir une nouvelle date de transaction pour la contrepasser.
 - Si vous sélectionnez **Non**, entrez une date de transaction pour la contrepassation. 
 - Entrez un commentaire décrivant la transaction de contrepassation.
@@ -68,5 +69,8 @@ Si le document contient plus de 100 lignes document, le processus de contrepass
 
 Si le nombre de lignes de documents est inférieur ou égal à cent, le processus de contrepassation s’exécute immédiatement. Les résultats seront affichés dans une boîte de dialogue qui indique tout document qui n’a pas pu être contrepassé et la raison de cet échec. Sélectionnez **OK** pour fermer la boîte de dialogue.
 
-Les transactions peuvent être contrepassées que si elles sont conformes aux règles métier pour les contrepasser. Les paiements fournisseur ne peuvent pas être contrepassés en utilisant une capacité décrite dans cette rubrique. Les paiements fournisseur doivent être contrepassés en suivant les étapes indiquées dans [Contrepasser un paiement fournisseur](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
+Les transactions peuvent être contrepassées que si elles sont conformes aux règles métier pour les contrepasser. Les paiements fournisseur ne peuvent pas être contrepassés en utilisant une capacité décrite dans cette rubrique. Les paiements fournisseur doivent être contrepassés en suivant les étapes indiquées dans [Contrepasser un paiement fournisseur](../accounts-payable/reverse-vendor-payment.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

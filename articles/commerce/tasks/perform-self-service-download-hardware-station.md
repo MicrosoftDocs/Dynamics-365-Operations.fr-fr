@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4ad389a18d2b6d79ef9fb25da810323927e5f04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26e425973653240870a53c469385543549feb347
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223131"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Assurer le libre service pour télécharger une station matérielle
 
@@ -37,3 +36,6 @@ Cette procédure décrit comment télécharger une station matérielle prédéfi
 5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 6. Cliquez sur Télécharger.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

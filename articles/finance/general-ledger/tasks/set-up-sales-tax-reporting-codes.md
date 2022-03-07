@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: be24e18da63d1a613c3c6e72f7c767c7af9b6656
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646179"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222141"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
@@ -39,3 +38,6 @@ La société fictive DEMF sert d’exemple dans cet enregistrement.
 6. Dans le champ **Brève description**, entrez une description à des fins internes.
 7. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,40 +1,35 @@
 ---
-title: Configurer un environnement d'évaluation Dynamics 365 Commerce
-description: Cette rubrique explique comment configurer un environnement d'évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
+title: Configurer un environnement d’évaluation Dynamics 365 Commerce
+description: Cette rubrique explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
 author: psimolin
-manager: annbe
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412161"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913725"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurer un environnement d'évaluation Dynamics 365 Commerce
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurer un environnement d’évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer un environnement d'évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
+Cette rubrique explique comment configurer un environnement d’évaluation Microsoft Dynamics 365 Commerce après sa mise en service.
 
-## <a name="overview"></a>Vue d’ensemble
+Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d’évaluation Commerce a été mis en service. Pour plus d’informations sur la mise en service de votre environnement d’évaluation Commerce, consultez [Mise en service d’un environnement d’évaluation Commerce](provisioning-guide.md).
 
-Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d'évaluation Commerce a été mis en service. Pour plus d'informations sur la mise en service de votre environnement d'évaluation Commerce, consultez [Mise en service d'un environnement d'évaluation Commerce](provisioning-guide.md).
-
-Une fois que votre environnement d'évaluation Commerce a été mis en service de bout en bout, des étapes de configuration post-mise en service supplémentaires doivent être effectuées avant que vous puissiez commencer à évaluer l'environnement. Pour effectuer ces étapes, vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) et Dynamics 365 Commerce.
+Une fois que votre environnement d’évaluation Commerce a été mis en service de bout en bout, des étapes de configuration post-mise en service supplémentaires doivent être effectuées avant que vous puissiez commencer à évaluer l’environnement. Pour effectuer ces étapes, vous devez utiliser Microsoft Dynamics Lifecycle Services (LCS) et Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Avant de commencer
 
@@ -42,10 +37,11 @@ Une fois que votre environnement d'évaluation Commerce a été mis en service d
 1. Accédez à votre projet.
 1. Sur le menu principal, sélectionnez **Environnements hébergés dans le cloud**.
 1. Sélectionnez votre environnement dans la liste.
-1. Dans les informations de l'environnement à droite, cliquez sur **Se connecter à l'environnement**. Vous êtes alors dirigé vers le siège de Commerce.
-1. Assurez-vous que l'entité juridique **USRT** est sélectionnée dans l'angle supérieur droit.
+1. Dans les informations de l’environnement à droite, cliquez sur **Se connecter à l’environnement**. Vous êtes alors dirigé vers le siège de Commerce.
+1. Assurez-vous que l’entité juridique **USRT** est sélectionnée dans l’angle supérieur droit.
+2. Accédez à **Paramètres Commerce > Paramètres de configuration** et assurez-vous qu'il existe une entrée pour **ProductSearch.UseAzureSearch** définie sur **true**. Si cette entrée est manquante, vous pouvez l'ajouter et exécuter **Base de données du canal > Synchronisation complète** pour l'unité Commerce Scale Unit associée à votre site Web de commerce électronique.
 
-Lors des activités post-mise en service au siège de Commerce, assurez-vous que l'entité juridique **USRT** est toujours sélectionnée.
+Lors des activités post-mise en service au siège de Commerce, assurez-vous que l’entité juridique **USRT** est toujours sélectionnée.
 
 ## <a name="configure-the-point-of-sale"></a>Configurer le point de vente
 
@@ -54,12 +50,12 @@ Lors des activités post-mise en service au siège de Commerce, assurez-vous que
 Pour associer un collaborateur à votre identité, procédez comme suit dans le siège de Commerce.
 
 1. Utilisez le menu à gauche pour accéder à **Modules \> Commerce et vente au détail \> Employés \> Collaborateurs**.
-1. Dans la liste, recherchez et sélectionnez l'enregistrement suivant : **000713 - Andrew Collette**.
+1. Dans la liste, recherchez et sélectionnez l’enregistrement suivant : **000713 - Andrew Collette**.
 1. Dans le volet Action, sélectionnez **Commerce**.
 1. Sélectionnez **Associer une identité existante**.
-1. Dans le champ **E-mail** (à droite de **Rechercher à l'aide de l'e-mail**), entrez votre adresse e-mail.
+1. Dans le champ **E-mail** (à droite de **Rechercher à l’aide de l’e-mail**), entrez votre adresse e-mail.
 1. Sélectionnez **Rechercher**.
-1. Sélectionnez l'enregistrement à votre nom.
+1. Sélectionnez l’enregistrement à votre nom.
 1. Cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**.
 
@@ -69,32 +65,32 @@ Pour activer Cloud POS, procédez comme suit dans LCS.
 
 1. Sur le menu principal, sélectionnez **Environnements hébergés dans le cloud**.
 1. Sélectionnez votre environnement dans la liste.
-1. Dans les informations de l'environnement à droite, cliquez sur **Connexion au point de vente du cloud**.
+1. Dans les informations de l’environnement à droite, cliquez sur **Connexion au point de vente du cloud**.
 1. Sélectionnez **Suivant** pour ouvrir la boîte de dialogue **Avant de commencer**.
-1. Laissez le champ **URL Serveur** tel qu'il est. Sélectionnez **Suivant**.
+1. Laissez le champ **URL Serveur** tel qu’il est. Sélectionnez **Suivant**.
 1. Connectez-vous en utilisant votre compte Microsoft Azure Active Directory (Azure AD).
 1. Sous **Nom du magasin**, sélectionnez **San Francisco**, puis sélectionnez **Suivant**.
 1. Sous **Registre et périphérique**, sélectionnez **SAiNNAZ-1**.
 1. Sélectionnez **Activer**. Vous êtes déconnecté et dirigé vers la page de connexion au PDV.
-1. Vous pouvez désormais vous connecter à l'expérience du PDV de cloud à l'aide de l'ID opérateur **000713** et le mot de passe **123**.
+1. Vous pouvez désormais vous connecter à l’expérience du PDV de cloud à l’aide de l’ID opérateur **000713** et le mot de passe **123**.
 
 ## <a name="set-up-your-site-in-commerce"></a>Configurer votre site dans Commerce
 
-Pour commencer à configurer votre site d'évaluation dans Commerce, procédez comme suit.
+Pour commencer à configurer votre site d’évaluation dans Commerce, procédez comme suit.
 
-1. Connectez-vous au générateur de site en utilisant l'URL que vous avez notée lorsque vous avez initialisé le commerce électronique lors de la mise en service (voir [Initialiser le commerce électronique](provisioning-guide.md#initialize-e-commerce)).
+1. Connectez-vous au générateur de site en utilisant l’URL que vous avez notée lorsque vous avez initialisé le commerce électronique lors de la mise en service (voir [Initialiser le commerce électronique](provisioning-guide.md#initialize-e-commerce)).
 1. Sélectionnez le site **Fabrikam** pour ouvrir la boîte de dialogue de paramétrage de site.
-1. Sélectionnez le domaine que vous avez entré lors de l'initialisation du commerce électronique.
+1. Sélectionnez le domaine que vous avez entré lors de l’initialisation du commerce électronique.
 1. Sélectionnez **Fabrikam a étendu le magasin en ligne** comme canal par défaut. (Vérifiez que vous sélectionnez le magasin en ligne **étendu**.)
 1. Sélectionnez **fr-fr** comme langue par défaut.
-1. Laissez la valeur du champ **Chemin d'accès** telle quelle.
+1. Laissez la valeur du champ **Chemin d’accès** telle quelle.
 1. Cliquez sur **OK**. La liste des pages du site apparaît.
 
 ## <a name="enable-jobs"></a>Activer les tâches
 
 Pour activer les tâches dans Commerce, procédez comme suit :
 
-1. Connectez-vous à l'environnement (Siège social).
+1. Connectez-vous à l’environnement (Siège social).
 1. Utilisez le menu à gauche pour accéder à **Retail et Commerce \> Recherches et états \> Traitements par lots**.
 
     Les étapes restantes de cette procédure doivent être exécutées pour chacun des travaux suivants :
@@ -105,13 +101,19 @@ Pour activer les tâches dans Commerce, procédez comme suit :
     * Synchroniser la tâche des commandes
 
 1. Utilisez le filtre rapide pour rechercher la tâche selon son nom.
-1. Si le statut de la tâche est **En cours d'exécution**, procédez comme suit :
+1. Si le statut de la tâche est **En cours d’exécution**, procédez comme suit :
 
-    1. Sélectionner l'enregistrement.
+    1. Sélectionner l’enregistrement.
     1. Dans le volet Actions, sous **Traitement par lots**, sélectionnez **Modifier le statut**.
     1. Sélectionnez **Annulation**, puis **OK**.
 
-Si vous le souhaitez, vous pouvez également définir l'intervalle de récurrence sur une (1) minute pour les tâches suivantes :
+1. Si le statut de la tâche est **Retenu**, procédez comme suit :
+
+    1. Sélectionner l’enregistrement.
+    1. Dans le volet Actions, sous **Traitement par lots**, sélectionnez **Modifier le statut**.
+    1. Sélectionnez **En attente**, puis sélectionnez **OK**.
+
+Si vous le souhaitez, vous pouvez également définir l’intervalle de récurrence sur une (1) minute pour les tâches suivantes :
 
 * Traiter la tâche de notification par e-mail des commandes de vente au détail
 * Tâche P-0001
@@ -128,39 +130,47 @@ Pour exécuter la synchronisation complète des données dans Commerce, procéde
 1. Cliquez sur **OK**.
 1. Cliquez sur **OK**.
 
-### <a name="test-credit-card-information-to-do-test-purchases"></a>Tester les informations de carte de crédit pour effectuer des tests d'achats
+### <a name="test-credit-card-information-to-do-test-purchases"></a>Tester les informations de carte de crédit pour effectuer des tests d’achats
 
 Pour effectuer des tests de transactions sur le site, vous pouvez utiliser les informations de carte de crédit de test suivantes :
 
 - **Numéro de carte :** 4111-1111-1111-1111
-- **Date d'expiration :** 10/20
+- **Date d’expiration :** 10/30
 - **Code de valeur de la vérification de la carte (CVV) :** 737
 
 > [!IMPORTANT]
-> En aucun cas vous ne devez tenter d'utiliser des informations de carte de crédit réelle sur le site de test.
+> En aucun cas vous ne devez tenter d’utiliser des informations de carte de crédit réelle sur le site de test.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Une fois les étapes de mise en service et de configuration terminées, vous pouvez commencer à évaluer votre environnement d'évaluation. Utilisez l'URL du générateur de site Commerce pour accéder à l'expérience de création. Utilisez l'URL du site Commerce pour accéder à l'expérience du site du client de vente au détail.
+Une fois les étapes de mise en service et de configuration terminées, vous pouvez commencer à évaluer votre environnement d’évaluation. Utilisez l’URL du générateur de site Commerce pour accéder à l’expérience de création. Utilisez l’URL du site Commerce pour accéder à l’expérience du site du client de vente au détail.
 
-Pour configurer des fonctionnalités facultatives de votre environnement d'évaluation Commerce, consultez [Configurer les fonctionnalités facultatives d'un environnement d'évaluation Commerce](cpe-optional-features.md).
+Pour configurer des fonctionnalités facultatives de votre environnement d’évaluation Commerce, consultez [Configurer les fonctionnalités facultatives d’un environnement d’évaluation Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> Les environnements d’évaluation de Commerce sont fournis avec un locataire Azure Active Directory (Azure AD) B2C à des fins de démonstration. Il n’est pas nécessaire que vous configuriez votre propre locataire Azure AD B2C pour les environnements d’évaluation. Cependant, si vous configurez l’environnement d’évaluation pour utiliser votre propre client Azure AD B2C, veuillez vous assurer d’ajouter ``https://login.commerce.dynamics.com/_msdyn365/authresp`` comme URL de réponse dans l’application Azure AD B2C via le portail Azure.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce](cpe-overview.md)
+[Vue d’ensemble d’un environnement d’évaluation Dynamics 365 Commerce](cpe-overview.md)
 
-[Mettre en service un environnement d'évaluation Dynamics 365 Commerce](provisioning-guide.md)
+[Mettre en service un environnement d’évaluation Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurer des fonctionnalités facultatives pour un environnement d’évaluation Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Configurer le BOPIS dans un environnement d'évaluation Dynamics 365 Commerce](cpe-bopis.md)
+[Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](cpe-bopis.md)
 
-[FAQ des environnements d'évaluation Dynamics 365 Commerce](cpe-faq.md)
+[FAQ des environnements d’évaluation Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site web Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

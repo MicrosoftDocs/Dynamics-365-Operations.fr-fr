@@ -2,28 +2,25 @@
 title: Rembourser les clients
 description: Cet article explique la création des transactions de remboursement pour un groupe de clients. Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: bd8b32e04743fdde3cc339e1535f8ae58c518aed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644535"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816290"
 ---
 # <a name="reimburse-customers"></a>Rembourser les clients
 
@@ -49,3 +46,6 @@ Lorsque vous créez des transactions de remboursement, une facture fournisseur e
 
 5. Pour afficher les opérations de remboursement qui ont été créées, utilisez l’état **Remboursement** (**Comptabilité client \> Demandes de renseignements et rapports \> Rapport de remboursement**).
 6. Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement. Pour plus d’informations sur la façon de payer les fournisseurs, voir [Aperçu du paiement du fournisseur](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

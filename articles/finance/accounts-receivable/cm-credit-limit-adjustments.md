@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31d83e2083806a518928dc2079c31fab6f95872c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443139"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254518"
 ---
 # <a name="credit-limit-adjustments"></a>Ajustements de limite de crédit 
 
@@ -124,3 +123,6 @@ Les workflow d’**Ajustements de limite de crédit** peuvent être utilisés po
 
 > [!NOTE]
 > Lorsque vous créez le workflow **Ajustements de limite de crédit**, vous pouvez le paramétrer pour que les ajustements soient automatiquement validés une fois les lignes approuvées. Incluez simplement la tâche **Valider le journal automatiquement** dans le workflow.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

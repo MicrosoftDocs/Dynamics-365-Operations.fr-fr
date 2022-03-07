@@ -1,58 +1,45 @@
 ---
-title: Envoyer et approuver le budget du projet
-description: Cette procédure décrit comment créer et envoyer le budget d'un projet.
-author: RichardLuan
-manager: tfehr
-ms.date: 08/13/2019
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
+title: Créer et envoyer un flux de travail de budget de projet
+description: Cette procédure décrit comment créer et envoyer le budget d’un projet.
+author: Henrikan
+ms.date: 11/22/2021
+ms.topic: article
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018726"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860407"
 ---
-# <a name="submit-and-approve-project-budget"></a>Envoyer et approuver le budget du projet
+# <a name="create-and-submit-a-project-budget-workflow"></a>Créer et envoyer un flux de travail de budget de projet
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment créer et envoyer le budget d'un projet. 
+Lors de la création d’un budget de projet, vous pouvez entrer les revenus et les coûts estimés pour le projet, puis utiliser les valeurs pour contrôler les transactions de projet réelles. La budgétisation de projet nécessite que tous les budgets d’origine et les révisions soient transmis à un flux de travail de projet pour approbation. Le flux de travail renforce le contrôle sur la budgétisation et crée un enregistrement d’historique des modifications. Après avoir [créé un projet](/dynamicsax-2012/appuser-itpro/create-a-project), utilisez cette procédure pour créer et soumettre le budget.
 
-Lors de la création d'un budget de projet, vous pouvez entrer les produits et coûts estimés pour un projet, puis les utiliser pour contrôler les transactions de projet réelles. Dans la budgétisation de projet, tous les budgets d'origine et révisions doivent être transmis au workflow de projet pour approbation. Le workflow renforce le contrôle sur le processus et crée un enregistrement d'historique des modifications.
-
-Cette tâche a été créé à l'aide de l'ensemble de données USSI.
-
-1. Dans le **volet de navigation**, accédez à **Modules > Gestion et comptabilité du projet > Projets > Tous les projets**.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-4. Dans le **volet Action**, cliquez sur **Plan**.
-5. Cliquez sur **Budget de projet**.
-6. Tapez une valeur dans le champ **Description**.
-7. Développez l'organisateur **Coût**.
-8. Cliquez sur **Nouveau**.
-9. Dans le champ **Type de transaction**, sélectionnez une option.
-10. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
-11. Dans le champ **Budget d'origine**, entrez un nombre.
-12. Développez l'organisateur **Produits**.
-13. Cliquez sur **Nouveau**.
-14. Dans la liste, marquer la ligne sélectionnée.
-15. Dans le champ **Type de transaction**, sélectionnez une option.
-16. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
-17. Dans le champ **Budget d'origine**, entrez un nombre.
-18. Cliquez sur **Enregistrer**.
-19. Cliquez sur **Workflow**.
-20. Cliquez sur **Soumettre**.
-21. Dans le champ **Commentaire**, tapez une valeur.
-22. Cliquez sur **Soumettre**.
-
+1. Accédez à **Modules** > **Gestion et comptabilité des projets** > **Projets** > **Tous les projets**.
+1. Sélectionnez le projet dans la liste des projets.
+1. Sélectionnez l’onglet **Plan** dans la page des détails du projet.
+1. Sous le groupe **Budget**, sélectionnez **Budget de projet**.
+1. Dans le raccourci **Général**, entrez les informations suivantes :
+   - Tapez une valeur dans la zone **Description**.
+   - Sélectionnez l’option pour **Budget d’origine**.
+   - Sélectionnez l’option pour **Budget restant**.
+1. Développez le raccourci **Coûts** et sélectionnez **Nouveau**. Ensuite, définissez les paramètres suivants :
+   - Sélectionnez une option pour **Type de transaction**.
+   - Sélectionnez une **Catégorie** appropriée.
+   - Entrez une valeur dans **Budget d’origine**.
+1. Développez le raccourci **Produits** et sélectionnez **Nouveau**. Ensuite, définissez les paramètres suivants :
+   - Sélectionnez une option pour **Type de transaction**.
+   - Sélectionnez une **Catégorie**.
+   - Entrez une valeur pour **Budget d’origine**.
+1. Cliquez sur **Enregistrer**.
+1. Sélectionnez **Flux de travail \>Soumettre**.
+1. Sur la page **Flux de travail Passer en revue le budget d’origine - Soumettre**, entrez un **Commentaire**, puis sélectionnez **Soumettre**.

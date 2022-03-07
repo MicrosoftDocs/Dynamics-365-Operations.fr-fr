@@ -2,35 +2,30 @@
 title: Utiliser des modules
 description: Cette rubrique décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412285"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728262"
 ---
 # <a name="work-with-modules"></a>Utiliser des modules
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit quand et comment utiliser des modules dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules sont des blocs élémentaires logiques qui constituent la structure de la page, et ils ont différentes fins et étendues. Certains modules sont des conteneurs de haut niveau, et leur seul objectif est de garder à jour et d’organiser les autres modules (modules enfants). D’autres modules, tels qu’un module de placement d’une image simple, à un objet très spécifique. D’autres modules, tels qu’un module de carrousel, se situe entre ces deux catégories.
 
@@ -58,7 +53,7 @@ La plupart des activités de création de page et de contenu standard et quotidi
 
 L’illustration ci-dessous indique comment les modules sont imbriqués dans des emplacements parents des modules de conteneur.
 
-![Imbrication de modules](../commerce/media/basic-module-nesting.png)
+![Imbrication de modules.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Ajouter ou supprimer des modules
 
@@ -173,3 +168,6 @@ Pour configurer un module de conteneur sur une page, procédez comme suit.
 
 [Utilisation de groupes de publication](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

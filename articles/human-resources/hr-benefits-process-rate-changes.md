@@ -1,33 +1,35 @@
 ---
-title: Traitez les modifications de taux
-description: Traitez les modifications de taux de prestations dans Microsoft Dynamics 365 Human Resources lorsqu’un régime d’avantages sociaux nouveau ou existant a changé et que les paramètres des règles d’admissibilité doivent être actualisés.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Traiter les modifications de taux
+description: Cette rubrique explique comment traiter les modifications de taux d’avantages dans Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitRate, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e0dfbdde8ee950a0341fffb1e268fff05434953
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418476"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070373"
 ---
-# <a name="process-rate-changes"></a>Traitez les modifications de taux
+# <a name="process-rate-changes"></a>Traiter les modifications de taux
 
-Traitez les modifications de taux de prestations dans Microsoft Dynamics 365 Human Resources lorsqu’un régime d’avantages sociaux nouveau ou existant a changé et que les paramètres des règles d’admissibilité doivent être actualisés. Si une nouvelle règle d’éligibilité est créée et affectée au plan, le système réexécute l’admissibilité des collaborateurs pour vérifier s’ils sont toujours éligibles au plan en fonction des nouvelles options d’éligibilité. 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette rubrique explique comment traiter les modifications de taux d’avantages dans Microsoft Dynamics 365 Human Resources lorsque des paramètres de règles d’éligibilité ont changé dans un plan d’avantages nouveau ou existant. Si une nouvelle règle d’éligibilité est créée et affectée au plan, le système réexécute l’admissibilité des collaborateurs pour vérifier s’ils sont toujours éligibles au plan en fonction des nouvelles options d’éligibilité. 
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Traitement**, sélectionnez **Traitement d’un changement de taux**.
 
@@ -48,3 +50,6 @@ Traitez les modifications de taux de prestations dans Microsoft Dynamics 365 Hum
    4. Cliquez sur **OK**. Le processus s’exécutera avec les paramètres que vous définissez.
 
 4. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Modifier des formats en réappliquant des modèles Excel
-description: Pour réaliser les étapes de cette procédure, vous devez d’abord effectuer la procédure, ER - Concevoir une configuration pour générer des états au format OPENXML ».
+description: Pour réaliser les étapes de cette procédure, vous devez d’abord effectuer la procédure, ER – Concevoir une configuration pour générer des états au format OPENXML ».
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b1bc5f227a0944c513dee2c12a5042decde872
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 24eb64679b458d14e30dc5b4365c7305d71cfc4c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684233"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754888"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modifier des formats en réappliquant des modèles Excel
 
 [!include [banner](../../includes/banner.md)]
 
-Pour réaliser les étapes de cette procédure, vous devez d’abord effectuer la procédure, ER - Concevoir une configuration pour générer des états au format OPENXML ».
+Pour réaliser les étapes de cette procédure, vous devez d’abord effectuer la procédure, ER – Concevoir une configuration pour générer des états au format OPENXML ».
 
 Cette procédure explique comment modifier une configuration du format ER en réappliquant un modèle Microsoft Excel modifié. Dans cette procédure, vous importerez un modèle Excel modifié dans les configurations du format ER qui ont été créées pour la société fictive, Litware, Inc., puis générerez des documents électroniques. Cette procédure est destinée aux utilisateurs disposant du rôle Administrateur système ou Développeur d’états électroniques. Ces étapes peuvent être effectuées à l’aide de l’ensemble de données GBSI. Avant de commencer, téléchargez et enregistrez le fichier, SampleVendPaymWsReport2.xlsx, répertorié dans la rubrique d’aide, Modifier un format de gestion d’états électroniques en réappliquant un modèle Excel (modify-electronic-reporting-format-reapply-excel-template/).
 
@@ -83,3 +81,6 @@ Cette procédure explique comment modifier une configuration du format ER en ré
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Utiliser la version brouillon modifiée du format ER pour le traitement du journal des paiements
 
 Examinez la feuille de calcul créée, notamment les nouveaux détails des lignes de paiement – date de paiement.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Nouveaux guides des tâches (février 2016)
-description: Cette rubrique répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.  Les bibliothèques qui ont été publiées incluent la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics 365 for Operations et Mise en route (février 2016).
+description: Cette rubrique répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39e6d6bf4161641ae22de56dac69bc6217649878
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: a1947ec2ef0ef061323f904c739d49a5a2594b9d0e730f19e4d4da322148e473
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725098"
 ---
 # <a name="new-task-guides-february-2016"></a>Nouveaux guides des tâches (février 2016)
 
@@ -222,7 +220,7 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | MX-00010 Rechercher et imprimer une facture électronique                                                       | Mexique                          |
 | MX-00010 Valider une facture financière                                                                      | Mexique                          |
 | MX-00010 Définir les paramètres d’une facture électronique                                                      | Mexique                          |
-| MX-00020 - Spécifier l’ID enregistrement RFC des comptes bancaires mexicains                                   | Mexique                          |
+| MX-00020 – Spécifier l’ID enregistrement RFC des comptes bancaires mexicains                                   | Mexique                          |
 | MX-00020 Produire l’état de comptabilité générale électronique version 1.1                               | Mexique                          |
 | MX-00020 Paramétrer le plan de comptes d’une entité juridique au Mexique                                     | Mexique                          |
 | NL-00003 Intégration Semansys XBRL                                                                     | Pays-Bas                     |
@@ -232,7 +230,7 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | MY-00006 01 Définir les clauses d’allègement GST                                                                  | Singapour Malaisie et Thaïlande |
 | MY-00006 02 Imprimer les factures client de GST avec une clause d’allègement                                           | Singapour Malaisie et Thaïlande |
 | MY-00007 Autofacturation                                                                          | Singapour Malaisie et Thaïlande |
-| MY-00010 GST - générer des fichiers de GAF au format requis                                               | Singapour Malaisie et Thaïlande |
+| MY-00010 GST – générer des fichiers de GAF au format requis                                               | Singapour Malaisie et Thaïlande |
 | MY-00011 02 Générer la note de débit client pour les ventes de projet                                             | Singapour Malaisie et Thaïlande |
 | MY-00011 03 Générer l’avoir client pour les ventes de projet                                            | Singapour Malaisie et Thaïlande |
 | GB-00002 Création d’une commande fournisseur qui inclut des articles soumis à la TVA au preneur                     | Royaume-Uni                  |
@@ -645,3 +643,6 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 [Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

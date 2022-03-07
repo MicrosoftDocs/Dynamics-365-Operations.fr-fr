@@ -2,27 +2,24 @@
 title: Mise à jour de l’entité composite du journal des banques
 description: Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.
 author: ShylaThompson
-manager: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd6a1f9d7ba36e591d7e558956297781c346635c30c10d588c0dbe6d73301030
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733051"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Mise à jour de l’entité composite du journal des banques
 
@@ -55,3 +52,6 @@ Les étapes suivantes permettent d’ajouter le champ BankTransactionType suppl�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

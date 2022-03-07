@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 76b0560499532eb3e97b03a9e797a9168ebcbcdc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f179619aa8d725854525f5edb4c9d30b90208ca3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407934"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989922"
 ---
 # <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
 

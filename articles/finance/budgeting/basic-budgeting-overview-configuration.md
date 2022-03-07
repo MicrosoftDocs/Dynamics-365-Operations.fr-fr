@@ -1,38 +1,36 @@
 ---
 title: Vue d’ensemble du budget
 description: Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 01/11/2018
-ms.topic: article
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 60113
+ms.custom:
+- "60113"
+- intro-internal
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443183"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986508"
 ---
-# <a name="budgeting-overview"></a>Vue d’ensemble de budgétisation
+# <a name="budgeting-overview"></a>Vue d’ensemble du budget
 
 [!include [banner](../includes/banner.md)]
 
 Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
 
-<a name="overview"></a>Vue d’ensemble
---------
+## <a name="overview"></a>Vue d’ensemble
 
 Le budget approuvé pour une entité juridique est tenu à jour dans un document appelé une *écriture de registre budgétaire*. Les lignes d’un document d’écriture de registre budgétaire sont appelées écritures de *compte budgétaire*, et contiennent des informations relatives aux dimensions financières, des dates et les montants du budget approuvé. Le document d’écriture de registre budgétaire est intégré aux états financiers de base et aux pages de recherche où les montants réels comptables sont comparés aux montants du budget. 
 
@@ -74,7 +72,7 @@ La fonctionnalité qui a été introduite dans la version 10.0.7 de Microsoft D
 
 La fonctionnalité **Écritures de registre budgétaires pour la quantité** uniquement vous permet de valider une écriture de registre budgétaire avec des montants réservés à la quantité. Par exemple, vous pouvez valider une écriture budgétaire avec une quantité de 32 et un prix de zéro, qui induit un montant à zéro. Vous pouvez ensuite utiliser cette quantité dans le contexte d’un rapport financier pour déterminer un prix par quantité. Notez qu’aucune recherche ou état n’a été mis à jour dans le cadre de cette fonctionnalité ; celle-ci permet simplement de valider un montant de zéro.
 
-La fonctionnalité **Défaillance d’écritures de registre budgétaires de type de montant** autorise que le type de montant par défaut dans une écriture de registre budgétaire soit un type de montant autre qu’une dépense. La ligne d’écriture de registre budgétaire prend désormais comme valeurs par défaut les dépenses lorsque le type de compte principal est celui des dépenses ; elle prend comme valeur par défaut le produit lorsque le type de compte principal est celui des dépenses ; et prend comme valeur par défaut la dépense pour tous les autres types de comptes.
+La fonctionnalité **Défaillance d’écritures de registre budgétaires de type de montant** autorise que le type de montant par défaut dans une écriture de registre budgétaire soit un type de montant autre qu’une dépense. La ligne d’écriture de registre budgétaire prend désormais comme valeurs par défaut les dépenses lorsque le type de compte principal est celui des dépenses ; elle prend comme valeur par défaut le produit lorsque le type de compte principal est celui du revenu ; et prend comme valeur par défaut la dépense pour tous les autres types de comptes.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Utilisation des espaces de travail et des pages de recherche effectuer le suivi du budget et des chiffres réels
 Le responsable du budget peut consulter l’état actuel d’un budget dans l’espace de travail **Budgets comptables et prévisions**. Les onglets **Dépense supérieure au budget** et **Produit inférieur au budget** fournissent un aperçu rapide des combinaisons de dimensions financières dans lesquelles les cibles de budget ne sont pas atteintes ou approchent du seuil. Vous pouvez personnaliser le pourcentage de seuil budgétaire et les ensembles de dimensions financières utilisés sous ces onglets en cliquant sur **Configurer mon espace de travail**. Vous pouvez cliquer sur **Responsable de l’unité** pour afficher les collaborateurs responsables des combinaisons de dimensions financières spécifiques sélectionnées sous ces onglets. Par exemple, si vous constatez que le budget de dépenses du département des opérations va dépasser le seuil budgétaire, vous pouvez facilement rechercher et contacter le responsable du département pour discuter du problème. 
@@ -88,3 +86,6 @@ Une société qui utilise la fonctionnalité de planification budgétaire peut c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

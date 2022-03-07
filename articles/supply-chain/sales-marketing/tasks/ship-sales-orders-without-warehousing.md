@@ -2,32 +2,29 @@
 title: Expédier des commandes client sans entreposage
 description: Cette rubrique explique comment mettre une commande client à jour lorsque les produits sont expédiés au client.
 author: omulvad
-manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b1dbb4d53785c226f7c9d40339d9dd19f47152
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0760ff5810bb832e25d6a2d473b3cda703872a05de4936191f91664406fe18c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767314"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Expédier des commandes client sans entreposage
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment mettre une commande client à jour lorsque les produits sont expédiés au client. Ce guide s'applique au flux d'exécution non paramétré pour la gestion des entrepôts (ni entreposage de base ou avancé), et donc ne nécessite pas que le prélèvement des produits soit enregistré avant l'expédition. Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF. Dans les deux cas, avant de commencer cette tâche, créez une commande client pour un produit inventorié avec une quantité supérieure à 1. Pour éviter une erreur de validation, vous devez vérifier que la quantité disponible du produit dans le site et l'entrepôt sélectionnés dans la commande couvre la quantité de la commande.
+Cette rubrique explique comment mettre une commande client à jour lorsque les produits sont expédiés au client. Ce guide s’applique au flux d’exécution non paramétré pour la gestion des entrepôts (ni entreposage de base ou avancé), et donc ne nécessite pas que le prélèvement des produits soit enregistré avant l’expédition. Vous pouvez exécuter cette procédure avec vos propres données ou avec la société fictive de démonstration USMF. Dans les deux cas, avant de commencer cette tâche, créez une commande client pour un produit inventorié avec une quantité supérieure à 1. Pour éviter une erreur de validation, vous devez vérifier que la quantité disponible du produit dans le site et l’entrepôt sélectionnés dans la commande couvre la quantité de la commande.
 
 ## <a name="post-packing-slip-for-an-order"></a>Valider le bon de livraison pour une commande
 1. Dans le volet de navigation, accédez à **Volet de navigation > Modules > Ventes et marketing > Commandes client > Toutes les commandes client**.
@@ -36,23 +33,26 @@ Cette rubrique explique comment mettre une commande client à jour lorsque les p
 4. Sélectionnez **Valider le bon de livraison**.
 5. Développez ou réduisez la section **Paramètres**.
 6. Sélectionnez **Tout** dans le champ **Quantité**.
-    - D'autres options sont notamment **Livrer maintenant** et **Prélevé**. Si la ligne de commande doit être expédiée partiellement et que le champ **Livrer maintenant** de la ligne de commande contient une quantité, vous devez sélectionner **Livrer maintenant**. Si le flux d'exécution de votre organisation comprend le prélèvement comme un processus distinct qui est géré et enregistré avec une liste de prélèvements, vous devez sélectionner **Prélevé**.  
-    - Vérifiez que l'option **Validation** est définie sur **Oui**.  
-7. Définissez l'option **Imprimer le bon de livraison** sur **Oui**. L'onglet **Vue d'ensemble** contient une liste des bons de livraison à générer dans cette validation. Si vous expédiez une commande individuelle, il y aura généralement un bon de livraison. Toutefois, si les lignes de cette commande doivent être expédiées à partir de différents sites, la validation sera automatiquement fractionnée en le nombre approprié de documents. C'est une condition obligatoire qui ne peut pas être modifiée. De même, la validation sera également fractionnée en plusieurs documents si les lignes de la commande doivent être expédiées à des adresses de livraison différentes, et que la stratégie de transport est paramétrée pour demander un fractionnement.  
-8. Dans l'onglet **Lignes**, sélectionnez la rangée de la ligne de commande à expédier.
+    - D’autres options sont notamment **Livrer maintenant** et **Prélevé**. Si la ligne de commande doit être expédiée partiellement et que le champ **Livrer maintenant** de la ligne de commande contient une quantité, vous devez sélectionner **Livrer maintenant**. Si le flux d’exécution de votre organisation comprend le prélèvement comme un processus distinct qui est géré et enregistré avec une liste de prélèvements, vous devez sélectionner **Prélevé**.  
+    - Vérifiez que l’option **Validation** est définie sur **Oui**.  
+7. Définissez l’option **Imprimer le bon de livraison** sur **Oui**. L’onglet **Vue d’ensemble** contient une liste des bons de livraison à générer dans cette validation. Si vous expédiez une commande individuelle, il y aura généralement un bon de livraison. Toutefois, si les lignes de cette commande doivent être expédiées à partir de différents sites, la validation sera automatiquement fractionnée en le nombre approprié de documents. C’est une condition obligatoire qui ne peut pas être modifiée. De même, la validation sera également fractionnée en plusieurs documents si les lignes de la commande doivent être expédiées à des adresses de livraison différentes, et que la stratégie de transport est paramétrée pour demander un fractionnement.  
+8. Dans l’onglet **Lignes**, sélectionnez la rangée de la ligne de commande à expédier.
 9. Dans le champ **Mettre à jour**, entrez un nombre plus faible que la quantité originale.
 10. Cliquez sur **OK**.
 11. Cliquez sur **Oui**.
 12. Fermez la page.
 13. Dans le volet Actions, sélectionnez **Options**.
 14. Sélectionnez **Modifier la vue**.
-15. Sélectionnez **Vue de l'en-tête**.
+15. Sélectionnez **Vue de l’en-tête**.
     - Si toutes les lignes de la commande ont été entièrement expédiées, le statut de la commande passe de En cours à Livrée.  
-    - Dans cet exemple, la ligne de commande a été partiellement expédiée. C'est pourquoi le statut de la commande demeure En cours.     
-    - Le champ **Statut de document** est défini sur Bon de livraison parce qu'au moins une des lignes de commande a été expédiée.  
+    - Dans cet exemple, la ligne de commande a été partiellement expédiée. C’est pourquoi le statut de la commande demeure En cours.     
+    - Le champ **Statut de document** est défini sur Bon de livraison parce qu’au moins une des lignes de commande a été expédiée.  
 16. Dans le volet Actions, sélectionnez **Général**.
 17. Sélectionnez **Quantité de ligne**.
 18. Fermez la page.
 19. Dans le volet Actions, cliquez sur **Prélever et emballer**.
 20. Sélectionnez **Bon de livraison**. La page **Journal des bons de livraison** contient tous les documents de bon de livraison générés pour votre commande. Vous pouvez réviser les détails de chaque document et les imprimer, si vous le souhaitez.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

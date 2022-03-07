@@ -2,28 +2,26 @@
 title: Vue d’ensemble du conseiller en optimisation
 description: Cette rubrique décrit comment utiliser le conseiller en optimisation pour garantir une configuration optimale de Finance and Operations.
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb076882e20e7c94bf0a95f3a5365b5fe8c25cedd431fb07d6e0dc5950ebb688
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728989"
 ---
 # <a name="optimization-advisor-overview"></a>Vue d’ensemble du conseiller en optimisation
 
@@ -94,3 +92,6 @@ Pour désactiver l’évaluation de règles spécifiques, sélectionnez l’oppo
 [Créer des règles pour le conseiller en optimisation](./create-rules-optimization-advisor.md)
 
 [Conseiller en optimisation dans Dynamics 365 for Finance and Operations (vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

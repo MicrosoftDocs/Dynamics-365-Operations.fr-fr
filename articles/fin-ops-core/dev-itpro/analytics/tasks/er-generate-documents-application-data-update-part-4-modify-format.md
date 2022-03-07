@@ -1,6 +1,6 @@
 ---
 title: Modifier des formats pour générer des documents avec des données d’application
-description: 'Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « ER Générer des documents avec la mise à jour des données d’application (Partie 3 : Modifier le modèle et la mise en correspondance) ».'
+description: Cette rubrique décrit comment créer des configurations d’états électroniques pour générer un document électronique entrant et mettre à jour les données d’application.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684545"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129395"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modifier des formats pour générer des documents avec des données d’application
 

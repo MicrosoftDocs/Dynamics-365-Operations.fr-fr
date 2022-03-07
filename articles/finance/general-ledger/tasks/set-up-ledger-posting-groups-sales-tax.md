@@ -2,11 +2,9 @@
 title: Paramétrage des groupes de validation dans la comptabilité de la taxe
 description: La taxe est calculée et validée dans les comptes principaux spécifiés dans les groupes de validation dans la comptabilité.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754168"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Paramétrage des groupes de validation dans la comptabilité de la taxe
 
@@ -37,7 +35,10 @@ La taxe est calculée et validée dans les comptes principaux spécifiés dans l
 7. Dans le champ **Dépenses de taxe d’utilisation**, sélectionnez le compte principal pour valider les taxes d’utilisation déductibles qui ne sont pas réclamées ou signalées à l’administration fiscale par les fournisseurs dans le cadre de la taxe GST/HST au preneur de l’UE. L’option **Taxe d’utilisation** doit être activée pour le **code Taxe** dans le **groupe de taxe** utilisé dans la transaction. Ce champ n’est pas disponible si l’option **Appliquer les règles de taxe** est sélectionnée dans la page **Paramètres de comptabilité**.   
 8. Dans le champ **Taxe d’utilisation due**, sélectionnez le compte principal pour valider les taxes d’utilisation sortantes collectées par l’administration fiscale. L’option **Taxe d’utilisation** doit être activée dans le **code Taxe** dans le **groupe de taxe** pour valider la **taxe d’utilisation**. Si l’option **Appliquer les règles de taxe** est sélectionnée sur la page **Paramètres de comptabilité**, la contrepartie est validée dans le compte de dépenses de la transaction.   
 9. Dans le champ **Compte de règlement**, sélectionnez le compte principal qui contient le solde net des comptes généraux spécifiés dans les champs **Taxe d’utilisation due** et **Taxe déductible**. Le solde est créé lorsque la tâche Régler et valider la taxe est exécutée.  Si l’administration fiscale pour la période de règlement est associée à un compte fournisseur, le solde est validé sur le compte fournisseur à la place.
-10. Dans le champ **Fournisseur - Escompte de règlement**, sélectionnez le compte principal pour valider l’escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité. Ceci est facultatif et si aucun compte n’est entré, le compte principal des **codes escompte de règlement** est alors utilisé. Il peut être utile d’utiliser différents comptes par **groupe de validation dans la comptabilité** si vous utilisez l’option Contrepasser la taxe sur l’escompte de règlement dans les groupes de taxe.  
-11. Dans le champ **Client - Escompte de règlement**, sélectionnez le compte principal pour valider l’escompte de règlement pour les **codes taxe** associés à ce **groupe de validation dans la comptabilité**. Ceci est facultatif et si aucun compte n’est entré, le compte principal des **codes escompte de règlement** est alors utilisé. Il peut être utile d’utiliser différents comptes par **groupe de validation dans la comptabilité** si vous utilisez l’option Contrepasser la taxe sur l’escompte de règlement dans les **groupes de taxe**.  
+10. Dans le champ **Fournisseur – Escompte de règlement**, sélectionnez le compte principal pour valider l’escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité. Ceci est facultatif et si aucun compte n’est entré, le compte principal des **codes escompte de règlement** est alors utilisé. Il peut être utile d’utiliser différents comptes par **groupe de validation dans la comptabilité** si vous utilisez l’option Contrepasser la taxe sur l’escompte de règlement dans les groupes de taxe.  
+11. Dans le champ **Client – Escompte de règlement**, sélectionnez le compte principal pour valider l’escompte de règlement pour les **codes taxe** associés à ce **groupe de validation dans la comptabilité**. Ceci est facultatif et si aucun compte n’est entré, le compte principal des **codes escompte de règlement** est alors utilisé. Il peut être utile d’utiliser différents comptes par **groupe de validation dans la comptabilité** si vous utilisez l’option Contrepasser la taxe sur l’escompte de règlement dans les **groupes de taxe**.  
 12. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

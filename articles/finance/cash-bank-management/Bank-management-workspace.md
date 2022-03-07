@@ -1,24 +1,26 @@
 ---
 title: Espace de travail de la gestion des banques
-description: Cette rubrique fournit des informations sur l’espace de travail Gestion des banques. Cet espace de travail affiche des informations concernant les comptes bancaires de la société.
-author: roschlom
+description: Cette rubrique fournit des informations sur l’espace de travail Gestion des banques. Cet espace de travail affiche les informations concernant les comptes bancaires de la société, et inclut une vue de synthèse et une page Analyses. La vue Synthèse affiche des vignettes de synthèse, des informations sur les comptes bancaires, un graphique du solde et des informations associées. La page Analyses utilise les fonctionnalités de Microsoft Power BI pour afficher les éléments visuels associés aux soldes de comptes bancaires.
+author: saraschi2
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: roschlom
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3c5d248c5431b7a54835c699618a0a27ab760754
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883335"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260205"
 ---
 # <a name="bank-management-workspace"></a>Espace de travail de la gestion des banques
 
@@ -60,7 +62,7 @@ La page **Analyses** fournit des mesures importantes sur les comptes bancaires d
 -   Solde par compte bancaire
 -   Solde par devise
 
-Vous pouvez afficher les analyses bancaires de toutes les sociétés à partir de l’espace de travail **Aperçu de la trésorerie – toutes les sociétés**. Pour plus d’informations, voir [Contenu Power BI – Vue d’ensemble des disponibilités](Cash-Overview-Power-BI-content.md).
+Vous pouvez afficher les analyses bancaires de toutes les sociétés à partir de l’espace de travail **Aperçu de la trésorerie - toutes les sociétés**. Pour plus d’informations, voir [Contenu Power BI - Vue d’ensemble des disponibilités](Cash-Overview-Power-BI-content.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

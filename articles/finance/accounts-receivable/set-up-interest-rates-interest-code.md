@@ -2,28 +2,25 @@
 title: Paramétrage des taux d’intérêt pour un code intérêt
 description: Les codes intérêt contiennent des paramètres qui déterminent quand les intérêts sont facturés et comment ils sont calculés sur les comptes qui présentent des retards.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59402
 ms.assetid: 3b945333-1eaf-4658-ab5a-1a7791a7eb40
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09808433140f71bf2d7bfaaca87b6c27adb56d86c4c14ad44b37592d416fa2b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716715"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Paramétrage des taux d’intérêt pour un code intérêt
 
@@ -47,10 +44,19 @@ Vous pouvez paramétrer des taux d’intérêt qui calculent un pourcentage spé
 
 - Le montant des intérêts s’applique à toutes les devises.
 - Vous pouvez spécifier des limites du montant des intérêts facultatives.
-- L’option <strong>Pourcentage</strong> est sélectionnée** <strong>dans le champ **Calculer les intérêts sur base de</strong> de la page <strong>Paramétrer les codes intérêt</strong>.
+- L’option **Pourcentage** est sélectionnée dans le champ **Calculer les intérêts sur base de** de la page **Paramétrer les codes intérêt**.
 
 Par exemple, pour paramétrer un code intérêt qui évalue 5 % d’intérêts pour chaque période de deux mois après la date d’échéance de la transaction pour le paiement de la facture, entrez 2 dans le champ **Calculer les intérêts tous les** et sélectionnez **Mois**.
 
+> [!NOTE] 
+> Le nouvel algorithme de calcul des notes d’intérêt est ajouté à l’aide de la gestion des fonctionnalités. Pour utiliser cet algorithme, activez la fonctionnalité **(GBL) Permet de calculer les intérêts par jour en pourcentage annuel divisé par 365**. Pour obtenir des informations sur l’activation de la fonctionnalité, voir [Présentation de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> La formule de calcul du montant de la note d’intérêt est la suivante : 
+>  
+> Montant de la note d’intérêt = Montant dû * % Intérêt annuel / 365 * Nombre de jours de retard
+>  
+> Cette fonctionnalité est disponible dans la version 10.0.18 et les versions ultérieures.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Taux d’intérêt basés sur des montants
 Vous pouvez paramétrer des taux d’intérêt qui calculent un montant spécifié par devise.
 - Un montant des intérêts est spécifié pour chaque devise dans le code intérêt.
@@ -84,7 +90,6 @@ Vous devez paramétrer les informations de tranches comme suit.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Exemple 2 : Intérêts par tranche = jours
---------------------------------------------------
 
 Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque période de 15 jours après la date d’échéance de la transaction pour le paiement de la facture. Vous souhaitez baser le calcul sur une valeur d’intérêts par montant, selon des intervalles de jours par paliers. La valeur des intérêts est 10,00 par période de 15 jours pendant les 60 premiers jours, 15,00 par période de 15 jours pendant les jours 61 à 90 et 20,00 par période de 15 jours après le 91e jour. Vous paramétrez les valeurs du champ Code intérêt comme suit.
 
@@ -105,7 +110,6 @@ Vous devez paramétrer les informations de tranches comme suit.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Exemple 3 : Intérêts par tranche = mois
-----------------------------------------------------
 
 Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque mois après la date d’échéance de la transaction pour le paiement de la facture. Vous souhaitez baser le calcul sur une valeur d’intérêts par pourcentage, selon des intervalles de mois par paliers. La valeur des intérêts sera de 1,5 % par mois pendant les trois premiers mois de retard, 2,0 % par mois pour les trois mois suivants, et 2,5 % par mois au delà des six premiers mois. Vous paramétrez les valeurs du champ Code intérêt comme suit.
 
@@ -131,3 +135,6 @@ Pour afficher des versions différentes, vous pouvez utiliser la sélection de m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

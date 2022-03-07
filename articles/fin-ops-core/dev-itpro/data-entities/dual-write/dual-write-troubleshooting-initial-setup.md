@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes lors de la configuration initiale
-description: Cette rubrique fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse.
+description: Cette rubrique fournit des informations pour la résolution des problèmes pouvant survenir lors de la configuration initiale de l’intégration de la double écriture.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685584"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129979"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Résoudre les problèmes lors de la configuration initiale
 
@@ -71,13 +71,13 @@ Pour fournir le consentement de l’application, procédez comme suit.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Vérifier que les données d’entreprise et les équipes en double écriture sont correctement configurées lors de la liaison
 
-Pour garantir le bon fonctionnement de la double écriture, les sociétés que vous sélectionnez lors de la configuration sont créées dans l’environnement Dataverse. Par défaut, ces sociétés sont en lecture seule et la propriété **IsDualWriteEnable** est définie sur la valeur **True**. De plus, le propriétaire et l’équipe de l’unité commerciale propriétaire par défaut et l’équipe sont créés et comprennent le nom de l’entreprise. Avant d’activer les cartes, vérifiez que le propriétaire de l’équipe par défaut est spécifié. Pour trouver l’entité **Sociétés (CDM\_Company)**, procédez comme suit.
+Pour garantir le bon fonctionnement de la double écriture, les sociétés que vous sélectionnez lors de la configuration sont créées dans l’environnement Dataverse. Par défaut, ces sociétés sont en lecture seule et la propriété **IsDualWriteEnable** est définie sur la valeur **True**. De plus, le propriétaire et l’équipe de l’unité commerciale propriétaire par défaut et l’équipe sont créés et comprennent le nom de l’entreprise. Avant d’activer les cartes, vérifiez que le propriétaire de l’équipe par défaut est spécifié. Pour trouver la table **Sociétés (CDM\_Company)**, procédez comme suit.
 
 1. Dans l’application pilotée par modèle dans Dynamics 365, sélectionnez le filtre dans le coin supérieur droit.
 2. Dans la liste déroulante sélectionnez **Société**.
 3. Sélectionnez **Exécuter** pour voir les résultats.
 4. Sélectionnez la société qui était liée lorsque vous avez configuré la double écriture.
-5. Vérifiez que le champ **Équipe propriétaire par défaut** a une valeur. Dans l’illustration suivante, le champ **Équipe propriétaire par défaut** est défini sur **Double écriture USMF**.
+5. Vérifiez que la colonne **Équipe propriétaire par défaut** a une valeur. Dans l’illustration suivante, la colonne **Équipe propriétaire par défaut** est définie sur **Double écriture USMF**.
 
     ![Vérification de l’équipe propriétaire par défaut](media/default_owning_team.png)
 

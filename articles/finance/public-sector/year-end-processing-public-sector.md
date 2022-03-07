@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchYearEndClose
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19601
 ms.assetid: ba9a7abc-bd18-47c2-b745-96cdcec8ac98
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e23aade2af33bc0f62aa11e57de0ad6caacad5d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 88dcb76c825ff9f0487d8cebbd01458d42271606
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407980"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245530"
 ---
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice dans le secteur public
 
@@ -60,3 +59,6 @@ Les définitions de validation régissent la comptabilité qui concerne les entr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

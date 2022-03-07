@@ -2,11 +2,9 @@
 title: Fonction NUMSEQVALUE ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction NUMSEQVALUE États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b513d04bfeb3a37aa0b1703d0fdde040885a5159
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3351360d0c1afca9f828ba4fc935096ddfd67f2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680588"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744001"
 ---
 # <a name="numseqvalue-er-function"></a>Fonction NUMSEQVALUE ER
 
@@ -105,3 +103,6 @@ Lorsque la source de données **NumSeq** est appelée, elle renvoie la nouvelle 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

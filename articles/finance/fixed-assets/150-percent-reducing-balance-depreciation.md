@@ -2,28 +2,25 @@
 title: Amortissement dégressif de 150 %
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f1c6b7e92ea8b20123c0b1c1747c49847b0e2420
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443148"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827168"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 150 %
 
@@ -67,7 +64,7 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Exemple d’amortissement dégressif de 150 %
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Prix d’acquisition               | 11 000 |
 | Valeur résiduelle                  | 1 000  |
@@ -88,3 +85,6 @@ La méthode d’amortissement dégressif de 150 % divise 150 % par le nombre d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

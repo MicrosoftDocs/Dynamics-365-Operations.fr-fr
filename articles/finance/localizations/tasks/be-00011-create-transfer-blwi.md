@@ -2,25 +2,22 @@
 title: Création et transfert de transactions vers l’état BLWI (Belgique)
 description: Cette procédure vous guide dans la création d’un état BLWI pour la Belgique.
 author: v-oloski
-manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d09feb3d78f4ad4ff8de8fbf564ec7225672e1e9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16dd6c5b786396fea9a284d323deea7426609593
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407901"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832520"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l’état BLWI (Belgique)
 
@@ -51,3 +48,6 @@ Les transactions client/fournisseur marquées avec l’un des codes objectif de 
 17. Cliquez sur OK.
 18. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

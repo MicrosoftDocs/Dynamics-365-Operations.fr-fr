@@ -2,16 +2,13 @@
 title: Relevés de la vente au détail
 description: Cette rubrique décrit la procédure de création et de validation des relevés.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738694"
 ---
 # <a name="retail-statements"></a>Relevés de vente au détail
 
@@ -32,17 +29,17 @@ ms.locfileid: "4412387"
 
 Dans Dynamics 365 Commerce, le processus de validation des relevés est utilisé pour comptabiliser les transactions qui ont lieu dans le point de vente (PDV) du cloud ou le Modern POS (MPOS). Le processus de validation des relevés utilise le programme de distribution pour extraire un ensemble de transactions de PDV au siège du client. Les paramètres définis dans les pages **Paramètres de commerce** et **Magasins** permettent de sélectionner les transactions extraites dans des relevés individuels.
 
-L'illustration suivante présente le processus de validation du relevé. Dans ce processus, les transactions enregistrées dans le PDV sont transmises au client à l'aide du planificateur Commerce. Une fois que le client a reçu les transactions, vous pouvez créer, calculer et valider les relevés de transaction du magasin.
+L’illustration suivante présente le processus de validation du relevé. Dans ce processus, les transactions enregistrées dans le PDV sont transmises au client à l’aide du planificateur Commerce. Une fois que le client a reçu les transactions, vous pouvez créer, calculer et valider les relevés de transaction du magasin.
 
-[![Processus de validation des relevés](./media/retail-statements.png)](./media/retail-statements.png)
+[![Processus de validation des relevés.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Création et validation des relevés
 
-Vous pouvez créer un relevé manuellement ou à l'aide de processus de traitement par lots que vous définissez afin qu'ils s'exécutent régulièrement tout au long de la journée. Dans les deux cas, les étapes suivantes permettent de créer et de valider des relevés.
+Vous pouvez créer un relevé manuellement ou à l’aide de processus de traitement par lots que vous définissez afin qu’ils s’exécutent régulièrement tout au long de la journée. Dans les deux cas, les étapes suivantes permettent de créer et de valider des relevés.
 
 ### <a name="create-the-statement"></a>Création du relevé
 
-Cette étape identifie le magasin pour lequel le relevé est créé manuellement. Si vous configurez un processus de traitement par lots, vous pouvez créer automatiquement des relevés pour tous les magasins, en fonction d'un programme que vous définissez.
+Cette étape identifie le magasin pour lequel le relevé est créé manuellement. Si vous configurez un processus de traitement par lots, vous pouvez créer automatiquement des relevés pour tous les magasins, en fonction d’un programme que vous définissez.
 
 ### <a name="calculate-the-statement"></a>Calcul du relevé
 
@@ -55,21 +52,21 @@ Le calcul du relevé utilise des comptages de caisse des caisses enregistreuses 
 
 Lorsque vous calculez un relevé, le calcul inclut les tâches suivantes :
 
-- Pour la plage de dates sélectionnée, marquez les transactions qui n'étaient pas incluses dans un calcul du relevé précédent.
+- Pour la plage de dates sélectionnée, marquez les transactions qui n’étaient pas incluses dans un calcul du relevé précédent.
 - Calculez les montants totaux qui ont été proposés dans les transactions sélectionnées. Les résultats sont présentés sur les lignes de relevé, en fonction de la méthode de relevé :
 
     - Si la méthode de relevé est **Total**, une ligne est créée pour chaque mode de paiement dans les transactions sélectionnées.
     - Si la méthode de relevé est **Personnel**, une ligne est créée pour chaque mode de paiement dans les transactions réalisées par les membres du personnel sélectionnés.
     - Si la méthode de relevé est **Terminal de PDV**, une ligne est créée pour chaque mode de paiement dans les transactions effectuées sur la caisse enregistreuse sélectionnée.
-    - Si la méthode de relevé est **Équipe de travail**, une ligne est créée pour chaque mode de paiement dans les transactions effectuées sur la caisse enregistreuse sélectionnée pendant un changement d'équipe.
+    - Si la méthode de relevé est **Équipe de travail**, une ligne est créée pour chaque mode de paiement dans les transactions effectuées sur la caisse enregistreuse sélectionnée pendant un changement d’équipe.
 
 Si la case à cocher **Fractionné par mode de relevé** est activée sur la page **Magasins**, un relevé distinct est créé selon la valeur sélectionnée dans le champ **Méthode de relevé**.
 
-Si les heures de fonctionnement de votre magasin s'étendent après minuit, vous pouvez configurer la validation du relevé en fonction de la fin du jour ouvrable au lieu de la fin du jour civil.
+Si les heures de fonctionnement de votre magasin s’étendent après minuit, vous pouvez configurer la validation du relevé en fonction de la fin du jour ouvrable au lieu de la fin du jour civil.
 
-Sur la page **Magasins**, dans l'organisateur **Relevé/clôture**, dans le champ **Fin du jour ouvrable**, entrez l'heure à laquelle la dernière transaction doit être enregistrée pour être incluse dans le relevé du jour ouvrable. Activez la case à cocher **Valider comme jour ouvrable** pour valider les transactions le même jour ouvrable. Lorsque le relevé est validé, les transactions qui sont enregistrées au cours du même jour ouvrable peuvent être incluses sur la même commande client, même si certaines transactions ont lieu avant minuit et d'autres, après minuit.
+Sur la page **Magasins**, dans l’organisateur **Relevé/clôture**, dans le champ **Fin du jour ouvrable**, entrez l’heure à laquelle la dernière transaction doit être enregistrée pour être incluse dans le relevé du jour ouvrable. Activez la case à cocher **Valider comme jour ouvrable** pour valider les transactions le même jour ouvrable. Lorsque le relevé est validé, les transactions qui sont enregistrées au cours du même jour ouvrable peuvent être incluses sur la même commande client, même si certaines transactions ont lieu avant minuit et d’autres, après minuit.
 
-#### <a name="example-post-a-statement-for-a-business-day-that-extends-over-two-calendar-days"></a>Exemple : Validation d'un relevé pour un jour ouvrable qui s'étend sur deux jours civils
+#### <a name="example-post-a-statement-for-a-business-day-that-extends-over-two-calendar-days"></a>Exemple : Validation d’un relevé pour un jour ouvrable qui s’étend sur deux jours civils
 
 Un magasin est ouvert entre 8 h 00 du matin et 3 h 00 du matin, et la case à cocher **Valider comme jour ouvrable** est activée dans la configuration du magasin. Le 31 mai, le magasin enregistre des transactions entre 8 h 00 du matin et minuit. Le magasin enregistre également des transactions entre 0 h 01 du matin et 3 h 00 du matin le 1er juin.
 
@@ -88,3 +85,6 @@ Lorsque vous validez un relevé, les commandes client et les factures sont cré�
 - Les ventes pour lesquelles un client a été ajouté à la transaction dans le PDV génèrent des commandes client et des factures séparées, une pour chaque client unique.
 
 Les journaux de paiements sont automatiquement créés pour les paiements dans le relevé, et le stock est mis à jour pour le magasin du PDV.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Stockage des états de balance âgée
 description: Cette rubrique décrit les fonctionnalités qui vous permettent d’exécuter un état de la balance âgée et de mettre le résultat à disposition sous la forme d’un formulaire et d’un graphique.
 author: AndersGirke
-manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ddddb0b1e377ed525b7c17fec5a4b3305573d0eba551bc03f075109a2ed769b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781108"
 ---
 # <a name="inventory-aging-report-storage"></a>Stockage des états de balance âgée
 
@@ -57,3 +54,6 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votr
     > Le formulaire n’inclut pas les sous-totaux définis dans la disposition de l’état.
 
 L’entité de données **État de la balance âgée** vous permet d’exporter le résultat d’un état **Stockage des états de balance âgée** en appliquant un filtre pour le champ **Identificateur de processus – Nom** à n’importe quel format pris en charge par la gestion des données.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

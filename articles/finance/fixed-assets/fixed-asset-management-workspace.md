@@ -2,33 +2,30 @@
 title: Espace de travail Gestion des immobilisations
 description: Cette rubrique fournit des informations sur l’espace de travail Gestion des immobilisations. Cet espace de travail affiche les informations liées aux immobilisations entrées dans le système. Il inclut une vue Synthèse et une vue Analyses.
 author: saraschi2
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea6f04b1dad162749edc1ad7662f7d9cf077221d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 597a9a32995d44282c89725e053f6da4643dbb691b1b36ae7c237acbfa2afb70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721801"
 ---
 # <a name="fixed-asset-management-workspace"></a>Espace de travail Gestion des immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-L’espace de travail **Gestion des immobilisations** affiche les informations liées aux immobilisations entrées dans le système. Cet espace de travail contient une vue Synthèse et une vue Analyses. L’onglet **Mon travail** affiche les vignettes de synthèse, les détails des immobilisations et les informations associées sur les immobilisations de la société actuelle. Vous pouvez également ajouter des analyses à la section Analyses Power BI directement dans l’espace de travail. L’onglet **Analyses - toutes les sociétés** utilise les fonctionnalités de Microsoft Power BI pour afficher les visuels associés aux immobilisations de toutes les sociétés.
+L’espace de travail **Gestion des immobilisations** affiche les informations liées aux immobilisations entrées dans le système. Cet espace de travail contient une vue Synthèse et une vue Analyses. L’onglet **Mon travail** affiche les vignettes de synthèse, les détails des immobilisations et les informations associées sur les immobilisations de la société actuelle. Vous pouvez également ajouter des analyses à la section Analyses Power BI directement dans l’espace de travail. L’onglet **Analyses – toutes les sociétés** utilise les fonctionnalités de Microsoft Power BI pour afficher les visuels associés aux immobilisations de toutes les sociétés.
 
 ## <a name="my-work"></a>Mon travail
 
@@ -56,7 +53,7 @@ Vous pouvez accéder à la page **Évaluations d’immobilisation** de l’espac
 
 Vous pouvez accéder directement à la page **Paramétrage des registres**, à la page **Recherche de transactions d’immobilisation** et à plusieurs états à l’aide des liens de la section **Informations associées** de l’espace de travail.
 
-### <a name="analytics--all-companies"></a>Analyses - toutes les sociétés
+### <a name="analytics--all-companies"></a>Analyses – toutes les sociétés
 
 La page **Analyses** fournit des mesures importantes sur les immobilisations dans toutes les entités juridiques du système. L’accès à cet onglet est contrôlé par tous les privilèges de sécurité Afficher l’analyse de l’immobilisation de la société.
 
@@ -74,3 +71,6 @@ Le tableau suivant indique les visualisations qui sont disponibles sur chaque pa
 | Cartes d’évaluations        | Détails de l’immobilisation |
 
 Pour afficher les analyses avec des données, vous devez actualiser la mesure de regroupement AssetTransactionMeasure sur la page **Magasin des entités**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

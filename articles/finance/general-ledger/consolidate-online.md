@@ -2,26 +2,23 @@
 title: Consolidations financières en ligne
 description: Cette rubrique décrit les consolidations financières en ligne dans le module Comptabilité.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c8a36447670458b2a8fe423f35fafd5f8cff773461f4dff47577e52573abc3a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443166"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758847"
 ---
 # <a name="online-financial-consolidations"></a>Consolidations financières en ligne
 
@@ -34,7 +31,7 @@ Après avoir terminé votre paramétrage, entrez les détails de la consolidatio
 ## <a name="criteria"></a>Critères
 Sous l’onglet **Critères** de la page **Consolidation [En ligne]**, définissez les comptes, les périodes et le type de données consolidées.
 
-![Onglet Critère](./media/criteria-consolidate-online.png "Onglet Critère")
+![Onglet Critère.](./media/criteria-consolidate-online.png "Onglet Critère")
 
 Voici une explication des différents champs de cet onglet :
 
@@ -60,16 +57,16 @@ Voici une explication des différents champs de cet onglet :
 ## <a name="financial-dimensions"></a>Dimensions financières
 Sous l’onglet **Dimensions financières**, définissez les dimensions qui doivent être incluses dans la société de consolidation. Pour sélectionner une dimension, définissez le champ **Spécification** sur **Dimension**, puis définissez l’ordre de la dimension dans la société de consolidation.
 
-![Onglet Dimensions financières](./media/financial-dimensions-cons.png "Onglet Dimensions financières")
+![Onglet Dimensions financières.](./media/financial-dimensions-cons.png "Onglet Dimensions financières")
 
 Quel que soit l’ordre que vous définissez, le champ **Compte principal** sera toujours le premier segment.
 
 ## <a name="legal-entities"></a>Entités juridiques
 Sous l’onglet **Entités juridiques**, définissez les sociétés qui doivent être incluses dans la société de consolidation. Définissez également le pourcentage de participation de ces sociétés. Si vous spécifiez moins de 100 % de participation, le pourcentage spécifié sera cumulé dans la société de consolidation. Pour les différences de conversion, le champ **Type de compte des différences de conversion** permet de sélectionner le compte principal à partir des paramètres de la page **Comptes pour transactions automatiques**.
 
-![Onglet Entités juridiques](./media/legal-entities-cons.png "Onglet Entités juridiques")
+![Onglet Entités juridiques.](./media/legal-entities-cons.png "Onglet Entités juridiques")
 
-![Page Comptes pour transactions automatiques](./media/accounts-for-automatic-cons.png "Page Comptes pour transactions automatiques")
+![Page Comptes pour transactions automatiques.](./media/accounts-for-automatic-cons.png "Page Comptes pour transactions automatiques")
 
 ## <a name="elimination"></a>Élimination
 Sous l’onglet **Élimination**, trois options de traitement des éliminations sont disponibles :
@@ -78,7 +75,7 @@ Sous l’onglet **Élimination**, trois options de traitement des éliminations 
 - Sélectionnez la règle d’élimination, puis, dans le champ **Options de proposition**, sélectionnez **Valider uniquement**. Cette option traitera l’élimination pendant le processus de consolidation et effectuera une validation globale en une seule étape.
 - Exécutez une proposition d’élimination séparément du processus de consolidation à l’aide du journal d’élimination.
 
-![Onglet Élimination](./media/elimination-cons-onl.png "Onglet Élimination")
+![Onglet Élimination.](./media/elimination-cons-onl.png "Onglet Élimination")
 
 Pour plus d’informations sur les éliminations, voir [Règles d’élimination](./elimination-rules.md).
 
@@ -89,10 +86,13 @@ Sous l’onglet **Conversion de devises**, définissez l’entité juridique, le
 - **Date de transaction** – La date de chaque transaction sera utilisée pour sélectionner un taux de change. Cette option est le plus souvent utilisée pour les immobilisations et est souvent appelée un taux historique. Il est impossible d’afficher un aperçu du taux, car plusieurs taux seront disponibles pour les différentes transactions dans la plage de comptes.
 - **Taux défini par l’utilisateur** – Une fois cette option sélectionnée, vous pouvez entrer le taux de change souhaité. Cette option peut être utile pour les taux de change moyens ou si un taux de change fixe est utilisé pour la consolidation.
 
-![Onglet Conversion de devises](./media/currency-translation-cons-online.png "Onglet Conversion de devises")
+![Onglet Conversion de devises.](./media/currency-translation-cons-online.png "Onglet Conversion de devises")
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 Pour plus d’informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d’ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d’informations sur les scénarios où vous pouvez générer des tableaux d’analyse consolidés, voir [Générer des tableaux d’analyse consolidés](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

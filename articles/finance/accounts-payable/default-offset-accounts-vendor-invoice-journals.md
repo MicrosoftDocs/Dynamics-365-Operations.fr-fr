@@ -2,30 +2,27 @@
 title: Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d’approbation de facture
 description: Cette rubrique vous aide à décider où affecter les comptes par défaut pour les journaux des factures.
 author: abruer
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 62093
 ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6ff4e209f1d1c41d7c05cad735aacc320bdeb83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1b0184850602191da5448df25779437f70e5c3182e1b7b70d92d4c406e08599
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749026"
 ---
-# <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d’approbation de facture
+# <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Comptes de contrepartie par défaut pour les journaux de facture fournisseur et les journaux d’approbation de facture
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,13 +79,13 @@ Utilisez le tableau suivant pour vous aider à décider où affecter les comptes
 <li>En-tête de journal</li>
 <li>Entrées de journal dans les journaux qui utilisent le nom de journal</li>
 </ul></td>
-<td>Ces entrées par défaut sont utilisées dans des écrans d’en-tête de journal, et le compte de contrepartie dans l’écran d’en-tête de journal est utilisé comme entrée par défaut sur la pages de N° document de journal. Les comptes par défaut de la page <strong>Noms de journal </strong>sont utilisés uniquement si les comptes par défaut ne sont pas paramétrés pour le compte fournisseur.</td>
+<td>Ces entrées par défaut sont utilisées dans des écrans d’en-tête de journal, et le compte de contrepartie dans l’écran d’en-tête de journal est utilisé comme entrée par défaut sur la pages de justificatif de journal. Les comptes par défaut de la page <strong>Noms de journal </strong>sont utilisés uniquement si les comptes par défaut ne sont pas paramétrés pour le compte fournisseur.</td>
 <td>Utilisez cette option pour paramétrer des comptes par défaut à utiliser lorsqu’un compte de contrepartie par défaut du fournisseur n’est pas affecté.</td>
 </tr>
 <tr class="odd">
-<td><strong>En-tête de journal</strong> – Paramétrez un compte de contrepartie par défaut pour un journal à utiliser comme entrée par défaut dans les pages de N° document de journal. Notez que vous ne pouvez pas spécifier de comptes de contrepartie par défaut sur l’en-tête de journal si le type de journal des noms de journal est <strong>Registre des factures</strong> ou <strong>Approbation</strong>.</td>
+<td><strong>En-tête de journal</strong> – Paramétrez un compte de contrepartie par défaut pour un journal à utiliser comme entrée par défaut dans les pages de justificatif de journal. Notez que vous ne pouvez pas spécifier de comptes de contrepartie par défaut sur l’en-tête de journal si le type de journal des noms de journal est <strong>Registre des factures</strong> ou <strong>Approbation</strong>.</td>
 <td>Entrées de journal dans le journal</td>
-<td>Le compte de contrepartie par défaut pour un journal est utilisé comme entrée par défaut sur les pages de N° document de journal.</td>
+<td>Le compte de contrepartie par défaut pour un journal est utilisé comme entrée par défaut sur les pages de N° de justificatif de journal.</td>
 <td>Utilisez cette option pour accélérer la saisie des données si la plupart des entrées d’un journal ont le même compte de contrepartie.</td>
 </tr>
 </tbody>
@@ -98,3 +95,6 @@ Utilisez le tableau suivant pour vous aider à décider où affecter les comptes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

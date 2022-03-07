@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2254453201817d906de9805e2cfd3c9e74c9497c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412295"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234483"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -221,3 +220,6 @@ Une fois le document à l’état **Demandé(e)**, il est visible dans l’ongle
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Opération de stock sortant dans le PDV](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

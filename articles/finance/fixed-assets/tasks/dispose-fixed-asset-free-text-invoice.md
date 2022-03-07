@@ -2,26 +2,23 @@
 title: Céder des immobilisations à l’aide d’une facture financière
 description: Cette rubrique explique comment acquérir une immobilisation à l’aide de la proposition d’acquisition du journal des immobilisations.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7014e3a4384e08b0c218585a3c2110243360ec08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0466ef3e3077b194cb2855153192567b0f1b94a930d7744d966f633d66c5bb09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742975"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Céder des immobilisations à l’aide d’une facture financière
 
@@ -41,3 +38,6 @@ Cette rubrique explique comment céder une immobilisation à l’aide de la fact
 10. Entrez ou sélectionnez une valeur dans le champ **Immobilisation**.
 11. Sélectionnez **Valider**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

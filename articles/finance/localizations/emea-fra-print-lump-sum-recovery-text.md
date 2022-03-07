@@ -2,27 +2,24 @@
 title: Impression du texte récupéré du montant forfaitaire sur une facture client
 description: Cet article fournit des informations sur la procédure pour imprimer un texte récupéré du montant forfaitaire qui affiche le montant de la pénalité sur les factures client.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFormletterParameters, CustInvoiceJournal
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 53161
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abd9c77a4680b705bbfe5b8694e0594b54ca9bed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 223c429055741d6348cfd309cd3b38da022e63f4a5604e874397e3e66bf44c99
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407946"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751236"
 ---
 # <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 
@@ -39,3 +36,6 @@ Utilisez la page **Validation de la facture** pour imprimer le texte récupéré
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

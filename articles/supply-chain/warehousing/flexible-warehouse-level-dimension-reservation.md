@@ -2,47 +2,44 @@
 title: Politique de réservation de dimension flexible au niveau de l’entrepôt
 description: Cette rubrique décrit la politique de réservation de stock qui permet aux entreprises qui vendent des produits suivis par lots et exécutent leur logistique en tant qu’opérations activées par WMS de réserver des lots spécifiques pour les commandes client, même si la hiérarchie de réservation associée aux produits interdit la réservation de lots spécifiques.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428216"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474938"
 ---
-# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l’entrepôt
+# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Stratégie flexible de réservation de dimension au niveau de l’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Lorsqu’une hiérarchie de réservation de stock de type « Batch-below\[location\] » est associée aux produits, les entreprises qui vendent des produits suivis par lots et gèrent leur logistique en tant qu’opérations activées pour Microsoft Dynamics 365 Warehouse Management System (WMS) ne peuvent pas réserver des lots spécifiques de ces produits pour les commandes client.
+Lorsqu’une hiérarchie de réservation de stock de type *Batch-below\[location\]* est associée aux produits, les entreprises qui vendent des produits suivis par lots et gèrent leur logistique en tant qu’opérations activées pour Microsoft Dynamics 365 Warehouse Management System (WMS) ne peuvent pas réserver des lots spécifiques de ces produits pour les commandes client.
 
 De la même manière, des contenants spécifiques ne peuvent pas être réservés pour des produits sur des commandes client lorsque ces produits sont associés à la hiérarchie de réservation par défaut.
 
-Cette rubrique décrit la politique de réservation de stock qui permet à ces entreprises de réserver des lots ou des contenants spécifiques, même lorsque les produits sont associés à une hiérarchie de réservation « Batch-below\[location\] ».
+Cette rubrique décrit la politique de réservation de stock qui permet à ces entreprises de réserver des lots ou des contenants spécifiques, même lorsque les produits sont associés à une hiérarchie de réservation *Batch-below\[location\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Hiérarchie de réservation du stock
 
 Cette section résume la hiérarchie de réservation de stock existante.
 
-La hiérarchie de réservation de stock impose que, en ce qui concerne les dimensions de stockage, l’ordre à la demande porte les dimensions obligatoires du site, de l’entrepôt et du statut du stock, tandis que la logique d’entrepôt est responsable d’affecter un emplacement aux quantités demandées et de réserver l’emplacement. En d’autres termes, lors des interactions entre la commande à la demande et les opérations de l’entrepôt, la commande à la demande devrait indiquer d’où la commande doit être expédiée (c’est-à-dire quel site et quel entrepôt). L’entrepôt s’appuie ensuite sur sa logique pour trouver la quantité requise dans les locaux de l’entrepôt.
+La hiérarchie de réservation de stock dicte que, en ce qui concerne les dimensions de stockage, l’ordre de demande implique les dimensions obligatoires du site, de l’entrepôt et du statut de l’inventaire. En d’autres termes, les dimensions obligatoires sont toutes les dimensions au-dessus de la dimension d’emplacement dans la hiérarchie de réservation, tandis que la logique de l’entrepôt est responsable de l’affectation d’un emplacement aux quantités demandées et de la réservation de l’emplacement. Lors des interactions entre l’ordre de demande et les opérations de l’entrepôt, l’ordre de demande devrait indiquer d’où la commande doit être expédiée (c’est-à-dire quel site et quel entrepôt). L’entrepôt s’appuie ensuite sur sa logique pour trouver la quantité requise dans les locaux de l’entrepôt.
 
 Cependant, pour refléter le modèle opérationnel de l’entreprise, les dimensions de suivi (numéros de lot et de série) sont soumises à plus de flexibilité. Une hiérarchie de réservation de stock peut prendre en charge des scénarios dans lesquels les conditions suivantes s’appliquent :
 
-- L’entreprise s’appuie sur ses opérations d’entrepôt pour gérer le prélèvement des quantités qui ont des numéros de lot ou de série, après que les quantités ont été trouvées dans l’espace de stockage de l’entrepôt. Ce modèle est souvent appelé *Batch-below\[location\]*. Il est généralement utilisé lorsque l’identification du lot ou du numéro de série d’un produit n’est pas importante pour les clients qui adressent la demande à l’entreprise vendeuse.
-- Si les numéros de lot ou de série font partie de la spécification de commande d’un client et qu’ils sont enregistrés sur la commande à la demande, les opérations d’entrepôt qui trouvent les quantités dans l’entrepôt sont limitées par les numéros spécifiques demandés et ne sont pas autorisées à les modifier. Ce modèle est souvent appelé *Batch-above\[location\]*.
+- L’entreprise s’appuie sur ses opérations d’entrepôt pour gérer le prélèvement des quantités qui ont des numéros de lot ou de série, *après* que les quantités ont été trouvées dans l’espace de stockage de l’entrepôt. Ce modèle est souvent appelé *Batch-below\[location\]* ou *Serial-below\[location\]*. Il est généralement utilisé lorsque l’identification du lot ou du numéro de série d’un produit n’est pas importante pour les clients qui adressent la demande à l’entreprise vendeuse.
+- L’entreprise s’appuie sur ses opérations d’entrepôt pour gérer le prélèvement des quantités qui ont des numéros de lot ou de série, *avant* que les quantités aient été trouvées dans l’espace de stockage de l’entrepôt. Si les numéros de lot ou de série font obligatoirement partie de la spécification de commande d’un client, ils sont enregistrés sur l’ordre de demande, et les opérations d’entrepôt qui trouvent les quantités dans l’entrepôt ne sont pas autorisées à les modifier. Ce modèle est souvent appelé *Batch-above\[location\]* ou *Serial-above\[location\]*. Étant donné que les dimensions au-dessus de l’emplacement sont les exigences spécifiques pour les demandes qui doivent être satisfaites, la logique de l’entrepôt ne les allouera pas. Ces dimensions **doivent** toujours être spécifiées sur l’ordre de demande ou dans les réservations associées.
 
 Dans ces scénarios, la difficulté est qu’une seule hiérarchie de réservation de stock peut être affectée à chaque produit lancé. Par conséquent, pour que le WMS gère les articles suivis, une fois que l’affectation de la hiérarchie a déterminé le moment où le numéro de lot ou de série doit être réservé (soit lors de la prise de la commande à la demande, soit pendant le travail de prélèvement en entrepôt), ce délai ne peut pas être modifié sur une base ad hoc.
 
@@ -50,18 +47,18 @@ Dans ces scénarios, la difficulté est qu’une seule hiérarchie de réservati
 
 ### <a name="business-scenario"></a>Scénario d’entreprise
 
-Dans ce scénario, une entreprise utilise une stratégie de stock où les produits finis sont suivis par numéros de lot. Cette entreprise utilise également la charge de travail WMS. Étant donné que cette charge de travail possède une logique bien établie pour la planification et l’exécution des opérations de prélèvement et d’expédition en entrepôt des articles activés par lots, la plupart des articles finis sont associés à une hiérarchie de réservation de stock « Batch-below\[location\] ». L’avantage de ce type de configuration opérationnelle est que les décisions (qui sont en fait des décisions de réservation) concernant les lots à prélever et où les placer dans l’entrepôt sont reportées jusqu’au début des opérations de prélèvement de l’entrepôt. Elles ne sont pas prises lors de la commande du client.
+Dans ce scénario, une entreprise utilise une stratégie de stock où les produits finis sont suivis par numéros de lot. Cette entreprise utilise également la charge de travail WMS. Étant donné que cette charge de travail possède une logique bien établie pour la planification et l’exécution des opérations de prélèvement et d’expédition en entrepôt des articles activés par lots, la plupart des articles finis sont associés à une hiérarchie de réservation de stock *Batch-below\[location\]*. L’avantage de ce type de configuration opérationnelle est que les décisions (qui sont en fait des décisions de réservation) concernant les lots à prélever et où les placer dans l’entrepôt sont reportées jusqu’au début des opérations de prélèvement de l’entrepôt. Elles ne sont pas prises lors de la commande du client.
 
-Si la hiérarchie de réservation « Batch-below\[location\] » sert bien les objectifs commerciaux de la société, de nombreux clients établis ont souvent besoin du même lot qu’ils ont précédemment acheté lorsqu’ils commandent des produits. Par conséquent, l’entreprise doit viser la flexibilité dans la façon dont les règles de réservation par lots sont traitées, de sorte que, selon la demande des clients pour le même article, les comportements suivants puissent se produire :
+Si la hiérarchie de réservation *Batch-below\[location\]* sert bien les objectifs commerciaux de la société, de nombreux clients établis ont souvent besoin du même lot qu’ils ont précédemment acheté lorsqu’ils commandent des produits. Par conséquent, l’entreprise doit viser la flexibilité dans la façon dont les règles de réservation par lots sont traitées, de sorte que, selon la demande des clients pour le même article, les comportements suivants puissent se produire :
 
 - Un numéro de lot peut être enregistré et réservé lorsque la commande est prise par le processeur de vente, et ne peut pas être modifié pendant les opérations de l’entrepôt et / ou pris par d’autres demandes. Ce comportement garantit que le numéro de lot qui a été commandé est expédié au client.
 - Si le numéro de lot n’est pas important pour le client, les opérations de l’entrepôt peuvent déterminer un numéro de lot pendant le travail de prélèvement, après l’enregistrement et la réservation de la commande client.
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Permettre la réservation d’un lot spécifique à la commande client
 
-Pour permettre la flexibilité souhaitée dans le comportement de réservation de lots pour les articles associés à une hiérarchie de réservation de stock « Batch-below\[location\] », les gestionnaires de stock doivent sélectionner la case à cocher **Autoriser la réservation à la commande** pour le niveau **Numéro du lot** sur la page **Hiérarchies de réservation du stock**.
+Pour permettre la flexibilité souhaitée dans le comportement de réservation de lots pour les articles associés à une hiérarchie de réservation de stock *Batch-below\[location\]*, les gestionnaires de stock doivent sélectionner la case à cocher **Autoriser la réservation à la commande** pour le niveau **Numéro du lot** sur la page **Hiérarchies de réservation du stock**.
 
-![Rendre flexible la hiérarchie de réservation du stock](media/Flexible-inventory-reservation-hierarchy.png)
+![Rendre flexible la hiérarchie de réservation du stock.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Quand le niveau **Numéro du lot** dans la hiérarchie est sélectionné, toutes les dimensions au-dessus de ce niveau et jusqu’à l’**Emplacement** seront automatiquement sélectionnées. (Par défaut, toutes les dimensions au-dessus de l’**Emplacement** sont présélectionnés.) Ce comportement reflète la logique selon laquelle toutes les dimensions dans la plage entre le numéro de lot et l’emplacement sont également automatiquement réservées après avoir réservé un numéro de lot spécifique sur la ligne de commande.
 
@@ -70,25 +67,25 @@ Quand le niveau **Numéro du lot** dans la hiérarchie est sélectionné, toutes
 >
 > **Numéro du lot** et **Contenant** sont les seuls niveaux de la hiérarchie qui sont ouverts à la politique de réservation flexible. En d’autres termes, vous ne pouvez pas activer la case à cocher **Autoriser la réservation sur ordre de la demande** pour le niveau **Emplacement** ou **Numéro de série**.
 >
-> Si votre hiérarchie de réservation comprend la dimension du numéro de série (qui doit toujours être inférieure au niveau **Numéro du lot** et si vous avez activé la réservation spécifique au lot pour le numéro de lot), le système continuera à gérer les opérations de réservation et de prélèvement de numéro de série, en fonction des règles qui s’appliquent à la politique de réservation « Serial-below\[location\] ».
+> Si votre hiérarchie de réservation comprend la dimension du numéro de série (qui doit toujours être inférieure au niveau **Numéro du lot** et si vous avez activé la réservation spécifique au lot pour le numéro de lot), le système continuera à gérer les opérations de réservation et de prélèvement de numéro de série, en fonction des règles qui s’appliquent à la politique de réservation *Serial-below\[location\]*.
 
-À tout moment, vous pouvez autoriser une réservation spécifique au lot pour une hiérarchie de réservation « Batch-below\[location\] » existante dans votre déploiement. Cette modification n’affectera pas les réservations et les travaux d’entrepôt ouverts créés avant la modification. Cependant, la case à cocher **Autoriser la réservation à la commande** ne peut pas être désactivée si des transactions de stock problématiques de type **Commandé réservé**, **Physique réservé**, ou **Commandé** existent pour un ou plusieurs éléments associés à cette hiérarchie de réservation.
+À tout moment, vous pouvez autoriser une réservation spécifique au lot pour une hiérarchie de réservation *Batch-below\[location\]* existante dans votre déploiement. Cette modification n’affectera pas les réservations et les travaux d’entrepôt ouverts créés avant la modification. Cependant, la case à cocher **Autoriser la réservation à la commande** ne peut pas être désactivée si des transactions de stock problématiques de type **Commandé réservé**, **Physique réservé**, ou **Commandé** existent pour un ou plusieurs éléments associés à cette hiérarchie de réservation.
 
 > [!NOTE]
-> Si la hiérarchie de réservation existante d’un article n’autorise pas la spécification du lot sur la commande, vous pouvez le réaffecter à une hiérarchie de réservation qui autorise la spécification du lot, à condition que la structure de niveau de hiérarchie soit la même dans les deux hiérarchies. Utilisez la foction **Modifier la hiérarchie de réservation pour les articles** pour effectuer la réaffectation. Cette modification peut être pertinente lorsque vous souhaitez empêcher la réservation de lots flexible pour un sous-ensemble d’articles suivis par lots, mais l’autorisez pour le reste du portefeuille de produits.
+> Si la hiérarchie de réservation existante d’un article n’autorise pas la spécification du lot sur la commande, vous pouvez le réaffecter à une hiérarchie de réservation qui autorise la spécification du lot, à condition que la structure de niveau de hiérarchie soit la même dans les deux hiérarchies. Utilisez la fonction **Modifier la hiérarchie de réservation pour les articles** pour effectuer la réaffectation. Cette modification peut être pertinente lorsque vous souhaitez empêcher la réservation de lots flexible pour un sous-ensemble d’articles suivis par lots, mais l’autorisez pour le reste du portefeuille de produits.
 
-Que vous ayez sélectionné ou non la case à cocher **Autoriser la réservation à la commande**, si vous ne souhaitez pas réserver un numéro de lot spécifique pour l’article sur une ligne de commande, la logique des opérations d’entrepôt par défaut qui est valide pour une hiérarchie de réservation « Batch-below\[location\] » s’applique toujours.
+Que vous ayez sélectionné ou non la case à cocher **Autoriser la réservation à la commande**, si vous ne souhaitez pas réserver un numéro de lot spécifique pour l’article sur une ligne de commande, la logique des opérations d’entrepôt par défaut qui est valide pour une hiérarchie de réservation *Batch-below\[location\]* s’applique toujours.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Réserver un numéro de lot spécifique pour une commande client
 
-Après qu’une hiérarchie de réservation du stock « Batch-below\[location\] » pour un article suivi par lot est configurée pour permettre la réservation de numéros de lot spécifiques sur les commandes client, les processeurs de commande client peuvent prendre des commandes client pour le même article de l’une des manières suivantes, selon la demande du client :
+Après qu’une hiérarchie de réservation du stock *Batch-below\[location\]* pour un article suivi par lot est configurée pour permettre la réservation de numéros de lot spécifiques sur les commandes client, les processeurs de commande client peuvent prendre des commandes client pour le même article de l’une des manières suivantes, selon la demande du client :
 
 - **Entrez les détails de la commande sans spécifier de numéro de lot** - Cette approche doit être utilisée lorsque la spécification du lot du produit n’est pas importante pour le client. Tous les processus existants associés à la gestion d’une commande de ce type dans le système restent inchangés. Aucune mesure supplémentaire n’est requise de la part des utilisateurs.
 - **Entrer les détails de la commande et réserver un numéro de lot spécifique** - Cette approche doit être utilisée lorsque le client demande un lot spécifique. En règle générale, les clients demandent un lot spécifique lorsqu’ils réorganisent un produit qu’ils ont précédemment acheté. Ce type de réservation spécifique au lot est appelé *réservation confirmée par la commande*.
 
 L’ensemble de règles suivant est valide lorsque des quantités sont traitées et qu’un numéro de lot est validé pour une commande spécifique :
 
-- Pour autoriser la réservation d’un numéro de lot spécifique pour un article selon la politique de réservation « Batch-below\[location\] », le système doit réserver toutes les dimensions jusqu’à l’emplacement. Cette plage inclut généralement la dimension du contenant.
+- Pour autoriser la réservation d’un numéro de lot spécifique pour un article selon la politique de réservation *Batch-below\[location\]*, le système doit réserver toutes les dimensions jusqu’à l’emplacement. Cette plage inclut généralement la dimension du contenant.
 - Les directives d’emplacement ne sont pas utilisées lorsque le travail de prélèvement est créé pour une ligne de vente qui utilise la réservation par lots validée par la commande.
 - Pendant le traitement en magasin des travaux pour les lots validés par la commande, ni l’utilisateur ni le système ne sont autorisés à modifier le numéro de lot. (Ce traitement inclut la gestion des exceptions.)
 
@@ -132,50 +129,50 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
 2. Sélectionnez **Nouveau**.
 3. Dans l’en-tête de la commande client, dans le champ **Compte client**, entrez **US-003**.
 4. Ajoutez une ligne pour le nouvel article, puis entrez **10** comme quantité. Veillez à ce que le champ **Entrepôt** soit défini sur **24**.
-5. Dans l’organisateur **Lignes de commande client**, sélectionnez **Stock**, puis, dans le groupe **Mettre à jour**, sélectionnez **Réservation de lot**. La page **Réservation de lot** affiche la liste des lots disponibles à la réservation pour la ligne de commande. Pour cet exemple, elle montre une quantité de **20** pour le numéro de lot **B11** et une quantité de **10** pour le numéro de lot **B22**. Notez que la page **Réservation de lot** n’est pas accessible à partir d’une ligne si l’élément de cette ligne est associé à la hiérarchie de réservation « Batch-below\[location\] », sauf s’il est configuré pour autoriser une réservation spécifique au lot.
+5. Dans l’organisateur **Lignes de commande client**, sélectionnez **Stock**, puis, dans le groupe **Mettre à jour**, sélectionnez **Réservation de lot**. La page **Réservation de lot** affiche la liste des lots disponibles à la réservation pour la ligne de commande. Pour cet exemple, elle montre une quantité de **20** pour le numéro de lot **B11** et une quantité de **10** pour le numéro de lot **B22**. Notez que la page **Réservation de lot** n’est pas accessible à partir d’une ligne si l’élément de cette ligne est associé à la hiérarchie de réservation *Batch-below\[location\]*, sauf s’il est configuré pour autoriser une réservation spécifique au lot.
 
     > [!NOTE]
     > Pour réserver un lot spécifique pour une commande client, vous devez utiliser la page **Réservation de lot**.
     >
-    > Si vous saisissez le numéro de lot directement sur la ligne de commande client, le système se comportera comme si vous aviez entré une valeur de lot spécifique pour un article soumis à la politique de réservation « Batch-below\[location\] ». Lorsque vous enregistrez la ligne, vous recevrez un message d’avertissement. Si vous confirmez que le numéro de lot doit être spécifié directement sur la ligne de commande, la ligne ne sera pas gérée par la logique de gestion d’entrepôt standard.
+    > Si vous saisissez le numéro de lot directement sur la ligne de commande client, le système se comportera comme si vous aviez entré une valeur de lot spécifique pour un article soumis à la politique de réservation *Batch-below\[location\]*. Lorsque vous enregistrez la ligne, vous recevrez un message d’avertissement. Si vous confirmez que le numéro de lot doit être spécifié directement sur la ligne de commande, la ligne ne sera pas gérée par la logique de gestion d’entrepôt standard.
     >
-    > Si vous réservez la quantité à partir de la page **Réservation**, aucun lot spécifique ne sera réservé et l’exécution des opérations d’entrepôt pour la ligne suivra les règles applicables dans le cadre de la politique de réservation « Batch-below\[location\] ».
+    > Si vous réservez la quantité à partir de la page **Réservation**, aucun lot spécifique ne sera réservé et l’exécution des opérations d’entrepôt pour la ligne suivra les règles applicables dans le cadre de la politique de réservation *Batch-below\[location\]*.
 
-    En général, cette page fonctionne et interagit de la même manière qu’elle fonctionne et interagit pour les articles qui ont une hiérarchie de réservation associée de type « Batch-below\[location\] ». Cependant, les exceptions suivantes s’appliquent :
+    En général, cette page fonctionne et interagit de la même manière pour les articles qui ont une hiérarchie de réservation associée de type *Batch-above\[location\]*. Cependant, les exceptions suivantes s’appliquent :
 
     - L’organisateur **Numéros de lot validés sur la ligne source** affiche les numéros de lot réservés pour la ligne de commande. Les valeurs des lots dans la grille seront affichées tout au long du cycle d’exécution de la ligne de commande, y compris les étapes de traitement de l’entrepôt. En revanche, sur l’organisateur **Vue d’ensemble**, la réservation de ligne de commande normale (c’est-à-dire la réservation effectuée pour les dimensions au-dessus du niveau **Emplacement**) est affichée dans la grille jusqu’au moment où le travail d’entrepôt est créé. L’entité de travail prend alors en charge la réservation de ligne, et la réservation de ligne n’apparaît plus sur la page. L’organisateur **Numéros de lot validés sur la ligne source** permet de garantir que le processeur de commande client peut afficher les numéros de lot qui ont été validés pour la commande du client à tout moment au cours de son cycle de vie, jusqu’à la facturation.
-    - En plus de réserver un lot spécifique, un utilisateur peut sélectionner manuellement l’emplacement spécifique et le contenant du lot au lieu de laisser le système les sélectionner automatiquement. Cette capacité est liée à la conception du mécanisme de réservation de lots validé par la commande. Comme mentionné plus haut, lorsqu’un numéro de lot est réservé pour un article selon la politique de réservation « Batch-below\[location\] », le système doit réserver toutes les dimensions jusqu’à l’emplacement. Par conséquent, le travail d’entrepôt comportera les mêmes dimensions de stockage qui ont été réservées par les utilisateurs qui ont travaillé sur les commandes, et parfois cela ne correspond pas à l’emplacement de stockage de l’article le plus pratique, voire ce choix est impossible pour les opérations de prélèvement. Si les processeurs de la commande sont conscients des contraintes de l’entrepôt, ils peuvent sélectionner manuellement les emplacements spécifiques et les contenants lorsqu’ils réservent un lot. Dans ce cas, l’utilisateur doit utiliser la fonction **Afficher les dimensions** sur l’en-tête de la page et doit ajouter l’emplacement et le contenant dans la grille de l’organisateur **Vue d’ensemble**.
+    - En plus de réserver un lot spécifique, un utilisateur peut sélectionner manuellement l’emplacement spécifique et le contenant du lot au lieu de laisser le système les sélectionner automatiquement. Cette capacité est liée à la conception du mécanisme de réservation de lots validé par la commande. Comme mentionné plus haut, lorsqu’un numéro de lot est réservé pour un article selon la politique de réservation *Batch-above\[location\]*, le système doit réserver toutes les dimensions jusqu’à l’emplacement. Par conséquent, le travail d’entrepôt comportera les mêmes dimensions de stockage qui ont été réservées par les utilisateurs qui ont travaillé sur les commandes, et parfois cela ne correspond pas à l’emplacement de stockage de l’article le plus pratique, voire ce choix est impossible pour les opérations de prélèvement. Si les processeurs de la commande sont conscients des contraintes de l’entrepôt, ils peuvent sélectionner manuellement les emplacements spécifiques et les contenants lorsqu’ils réservent un lot. Dans ce cas, l’utilisateur doit utiliser la fonction **Afficher les dimensions** sur l’en-tête de la page et doit ajouter l’emplacement et le contenant dans la grille de l’organisateur **Vue d’ensemble**.
 
 6. Sur la page **Réservation de lot**, sélectionnez la ligne pour le lot **B11**, puis sélectionnez **Réserver une ligne**. Il n’y a pas de logique désignée pour attribuer des emplacements et des contenants lors de la réservation automatique. Vous pouvez saisir manuellement la quantité dans le champ **Réservation**. Notez que, sur l’organisateur **Numéros de lot validés sur la ligne source**, le lot **B11** est affiché comme **Validé**.
 
-    ![Validation d’un numéro de lot spécifique sur une ligne de commande client sur la page de réservation de lot](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Validation d’un numéro de lot spécifique sur une ligne de commande client sur la page de réservation de lot.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > La réservation de la quantité sur une ligne de commande client peut être effectuée sur plusieurs lots. De même, la réservation du même lot peut être effectuée sur plusieurs emplacements et contenants (si les contenants sont activés pour les emplacements).
     >
     > La réservation d’un lot spécifique pour la quantité sur une ligne de commande client peut également être partielle. Par exemple, la quantité totale de 100 unités peut être réservée pour qu’un lot spécifique soit validé à 20 unités, tandis que 80 unités sont réservées au niveau du site et de l’entrepôt pour tout lot disponible. Dans ce cas, le WMS gérera les opérations de prélèvement en utilisant deux lignes de travail distinctes.
 
-7. Allez à **Gestion des informations sur les produits** \> **Produits** \> **Produits lancés**. Sélectionnez votre article, puis sélectionnez **Gérer le stock**\>**Vue** \>**Transactions**.
+7. Allez à **Gestion des informations sur les produits** \> **Produits** \> **Produits lancés**. Sélectionnez votre article, puis sélectionnez **Gérer le stock** \> **Vue** \>**Transactions**.
 
-    ![Réservation validée en tant que type de transaction de stock](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Réservation validée en tant que type de transaction de stock.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Vérifiez les transactions de stock de l’article qui sont liées à la réservation de la ligne de commande client.
 
     - Une transaction où la **Référence** est définie sur **Commande client** et le **Problème** est défini sur **Physique réservé** représente la réservation de la ligne de commande pour les dimensions de stock au-dessus du niveau **Emplacement**. Selon la hiérarchie de réservation de stock de l’article, ces dimensions sont le site, l’entrepôt et l’état du stock.
     - Une transaction où le champ **Référence** est défini sur **Réservation confirmée par la commande** et le champ **Problème** est défini sur **Physique réservé** représente la réservation de la ligne de commande pour le lot spécifique et toutes les dimensions de stock au-dessus. Selon la hiérarchie de réservation de stock de l’article, ces dimensions sont le numéro du lot et l’emplacement. Dans cet exemple, l’emplacement est **Bulk-001**.
 
-9. Dans l’en-tête de la commande client, sélectionnez **Entrepôt** \>**Actions** \>**Libérer dans l’entrepôt**. La ligne de commande est maintenant traité par vagues et une charge et un travail sont créés.
+9. Dans l’en-tête de la commande client, sélectionnez **Entrepôt** \> **Actions** \> **Lancement vers l'entrepôt**. La ligne de commande est maintenant traité par vagues et une charge et un travail sont créés.
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Examiner et traiter le travail en entrepôt dont les numéros de lot sont validés par la commande
 
-1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Entrepôt** \>**Détails du travail**.
+1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Entrepôt** \> **Détails du travail**.
 
     Le travail qui gère l’opération de prélèvement pour les quantités de lots validées sur la ligne de commande client présente les caractéristiques suivantes :
 
     - Pour créer un travail, le système utilise des modèles de travail mais pas des directives d’emplacement. Tous les paramètres standard définis pour les modèles de travail, tels que le nombre maximal de lignes de sélection ou une unité de mesure spécifique, seront appliqués pour déterminer le moment où un nouveau travail doit être créé. Cependant, les règles associées aux directives d’emplacement pour identifier les emplacements de prélèvement ne sont pas prises en compte, car la réservation validée par la commande spécifie déjà toutes les dimensions du stock. Ces dimensions de stock incluent les dimensions au niveau du stockage en entrepôt. Par conséquent, le travail hérite de ces dimensions sans avoir à consulter les directives d’emplacement.
-    - Le numéro de lot n’apparaît pas sur la ligne de prélèvement (comme c’est le cas pour la ligne de travail créée pour un article auquel est associé une hiérarchie de réservation « Batch-above\[location\] ».) Au lieu de cela, le numéro de lot « origine » et toutes les autres dimensions de stockage sont affichés sur la transaction de stock de la ligne de travail qui est référencée à partir des transactions de stock associées.
+    - Le numéro de lot n’apparaît pas sur la ligne de prélèvement (comme c’est le cas pour la ligne de travail créée pour un article auquel est associé une hiérarchie de réservation *Batch-above\[location\]*.) Au lieu de cela, le numéro de lot « origine » et toutes les autres dimensions de stockage sont affichés sur la transaction de stock de la ligne de travail qui est référencée à partir des transactions de stock associées.
 
-        ![Transaction de stock d’entrepôt pour les travaux provenant de la réservation validée par la commande](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Transaction de stock d’entrepôt pour les travaux provenant de la réservation validée par la commande.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Une fois le travail créé, la transaction de stock de l’article où le champ **Référence** est défini sur **Réservation confirmée par la commande** est retirée. La transaction de stock où le champ **Référence** est défini sur **Travail** détient désormais la réservation physique sur toutes les dimensions de stock de la quantité.
 
@@ -210,13 +207,13 @@ Avant de pouvoir utiliser la réservation de contenant flexible, deux fonctionna
 
 Pour activer la réservation de contenant sur une commande, vous devez activer la case à cocher **Autoriser la réservation sur ordre de la demande** pour le niveau **Contenant** sur la page **Hiérarchies de réservation de stock** de la hiérarchie associée à l’article concerné.
 
-![Page Hiérarchies de réservation de stock pour une hiérarchie de réservation de contenant flexible](media/Flexible-LP-reservation-hierarchy.png)
+![Page Hiérarchies de réservation de stock pour une hiérarchie de réservation de contenant flexible.](media/Flexible-LP-reservation-hierarchy.png)
 
 Vous pouvez activer la réservation de contenant sur la commande à n’importe quel moment de votre déploiement. Cette modification n’affectera pas les réservations ou les travaux d’entrepôt en cours créés avant la modification. Cependant, vous ne pouvez pas désactiver la case à cocher **Autoriser la réservation sur ordre de la commande** s’il existe des mouvements de stock sortants en cours présentant le statut de sortie *En commande*, *Commandé réservé* ou *Physique réservé* pour un ou plusieurs articles associés à cette hiérarchie de réservation.
 
 Même si la case à cocher **Autoriser la réservation sur ordre de la demande** est activée pour le niveau **Contenant**, il est toujours possible de *ne pas* réserver un contenant spécifique sur la commande. Dans ce cas, la logique des opérations en entrepôt par défaut valide pour la hiérarchie de réservation s’applique.
 
-Pour réserver un contenant spécifique, vous devez utiliser un processus [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Dans l’application, vous pouvez effectuer cette réservation directement à partir d’une commande client en utilisant l’option **Réservations validées par commande par contenant** de la commande **Ouvrir dans Excel**. Dans les données d’entité ouvertes dans le complément Excel, vous devez entrer les données de réservation suivantes, puis sélectionner **Publier** pour renvoyer les données à Supply Chain Management :
+Pour réserver un contenant d’emplacement spécifique, vous devez utiliser un processus [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Dans l’application, vous pouvez effectuer cette réservation directement à partir d’une commande client en utilisant l’option **Réservations validées par commande par contenant** de la commande **Ouvrir dans Excel**. Dans les données d’entité ouvertes dans le complément Excel, vous devez entrer les données de réservation suivantes, puis sélectionner **Publier** pour renvoyer les données à Supply Chain Management :
 
 - Référence (Seule la valeur *Commande client* est prise en charge.)
 - Numéro de commande (La valeur peut être dérivée du lot.)
@@ -230,12 +227,12 @@ Lorsque la ligne de commande client qui utilise une réservation de contenant va
 
 Si un élément de travail d’entrepôt se compose de lignes correspondant à une palette complète et dont les quantités sont validées par contenant, vous pouvez optimiser le processus de prélèvement en utilisant un élément de menu de l’appareil mobile où l’option **Traiter par contenant** est définie sur *Oui*. Un magasinier peut ensuite numériser un contenant pour terminer un prélèvement au lieu de numériser les articles du travail individuellement.
 
-![Élément de menu de l’appareil mobile où l’option Traiter par contenant est définie sur Oui](media/Handle-by-LP-menu-item.png)
+![Élément de menu de l’appareil mobile où l’option Traiter par contenant est définie sur Oui.](media/Handle-by-LP-menu-item.png)
 
 Comme la fonctionnalité **Traiter par contenant** ne prend pas en charge les travaux couvrant plusieurs palettes, il est préférable d’avoir un élément de travail distinct pour les différents contenants. Pour utiliser cette approche, ajoutez le champ **ID contenant validé par commande** en tant que décomposition de l’en-tête de travail sur la page **Modèle de travail**.
 
 > [!NOTE]
-> Pour le processus de création de travaux validés par commande, une valeur « order-committed inventory dimension » sera attribuée aux lignes de travail de prélèvement et il ne sera pas possible d'afficher directement la valeur de la plaque d'immatriculation. Seul le processus *Dirigé par l'utilisateur* est pris en charge lors de la configuration d'un élément de menu d'appareil mobile.
+> Pour le processus de création de travaux validés par commande, une valeur « order-committed inventory dimension » sera attribuée aux lignes de travail de prélèvement et il ne sera pas possible d’afficher directement la valeur de la plaque d’immatriculation. Seul le processus *Dirigé par l’utilisateur* est pris en charge lors de la configuration d’un élément de menu d’appareil mobile.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Exemple de scénario : configurer et traiter une réservation de contenant validée par commande
 
@@ -252,7 +249,7 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
 1. Dans le champ **Nom**, entrez une valeur (par exemple *FlexibleLP*).
 1. Dans le champ **Description**, entrez une valeur (par exemple *Réservation de contenant flexible*).
 1. Dans la liste **Sélectionné**, sélectionnez **Numéro de lot**, **Numéro de série** et **Propriétaire**.
-1. Cliquez sur le bouton **Supprimer** ![flèche vers l’arrière](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
+1. Sélectionnez le bouton **Supprimer** ![flèche vers l’arrière.](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
 1. Cliquez sur **OK**.
 1. Dans la ligne du niveau de dimension **Contenant**, activez la case à cocher **Autoriser la réservation sur ordre de la commande**. Le niveau **Emplacement** est automatiquement sélectionné et vous ne pouvez pas le désactiver.
 1. Sélectionnez **Enregistrer**.
@@ -343,7 +340,7 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
     > [!NOTE]
     > Une transaction où le champ **Référence** est défini sur *Commande client* représente la réservation de la ligne de commande pour les dimensions de stock situées au-dessus du niveau **Emplacement** (site, entrepôt et statut du stock). Une transaction où le champ **Référence** est défini sur *Réservation validée par commande* représente la réservation de la ligne de commande pour le contenant et l’emplacement spécifiques.
 
-1. Pour libérer la commande client, dans le volet Actions, dans l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
+1. Pour libérer la commande client, dans le volet Actions, dans l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Lancement vers l'entrepôt**.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Examiner et traiter le travail en entrepôt avec des contenants validés par commande attribués
 
@@ -410,7 +407,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application d’entrepôt lorsque vous commencez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Warehouse Management lorsque vous commencez le travail de prélèvement.</li>
 <li>Sélectionnez <strong>Suggérer</strong>.</li>
 <li>Confirmez le nouvel emplacement suggéré en fonction de la disponibilité de la quantité de lots.</li>
 </ol>
@@ -424,10 +421,10 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Non applicable</td>
 </tr>
 <tr>
-<td>N°</td>
+<td>Non</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application d’entrepôt lorsque vous commencez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Emplacement de remplacement</strong> sur l’application mobile Warehouse Management lorsque vous commencez le travail de prélèvement.</li>
 <li>Entrez manuellement un emplacement.</li>
 </ol>
 </td>
@@ -451,11 +448,11 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </thead>
 <tbody>
 <tr>
-<td>L’option <strong>Autoriser le fractionnement du travail </strong> est activée sur l’élément de menu de l’appareil mobile.</td>
+<td>L’option <strong>Autoriser le fractionnement du travail</strong> est activée sur l’élément de menu de l’appareil mobile.</td>
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Complet</strong> sur l’application d’entrepôt lorsque vous traitez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Complet</strong> sur l’application mobile Warehouse Management lorsque vous traitez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Qté prélevée</strong>, entrez la quantité partielle de prélèvement requise pour indiquer la pleine capacité.</li>
 </ol>
 </td>
@@ -530,7 +527,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Démarrez un mouvement sur l’application d’entrepôt.</li>
+<li>Initiez un déplacement sur l’application mobile Warehouse Management.</li>
 <li>Entrez les emplacements d’origine et de destination.</li>
 </ol></td>
 <td>
@@ -642,11 +639,11 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </thead>
 <tbody>
 <tr>
-<td rowspan='2'>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Aucun</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Non</strong>.</td>
+<td rowspan='2'>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles</strong> = <strong>Aucun</strong>, <strong>Ajuster le stock</strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations</strong> = <strong>Non</strong>.</td>
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application d’entrepôt lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -675,7 +672,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application d’entrepôt lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Nom</strong>, entrez <strong>Aucune imposition</strong>.</li>
 </ol>
@@ -699,7 +696,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Oui</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application d’entrepôt lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l’emplacement / le contenant dans la liste.</li>
@@ -722,10 +719,10 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </tr>
 <tr>
 <td>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Manuel</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Non</strong>. De plus, l’option <strong>Autoriser la réaffectation manuelle des articles </strong>est activée pour le collaborateur.</td>
-<td>N°</td>
+<td>Non</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application d’entrepôt lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 </ol>
@@ -735,10 +732,10 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 </tr>
 <tr>
 <td>Une exception du travail de type <strong>Prélèvement partiel</strong> est configurée, où <strong>Réaffectation des articles </strong> = <strong>Manuel</strong>, <strong>Ajuster le stock </strong> = <strong>Oui</strong>, et <strong>Supprimer des réservations </strong> = <strong>Oui</strong>. De plus, l’option <strong>Autoriser la réaffectation manuelle des articles </strong>est activée pour le collaborateur.</td>
-<td>N°</td>
+<td>Non</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application d’entrepôt lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation manuelle</strong>.</li>
 <li>Sélectionnez l’emplacement / le contenant dans la liste.</li>
@@ -762,7 +759,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 <td>Non applicable</td>
 <td>
 <ol>
-<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application d’entrepôt lorsque vous exécutez le travail de prélèvement.</li>
+<li>Sélectionnez l’élément de menu <strong>Prélèvement partiel</strong> sur l’application mobile Warehouse Management lorsque vous exécutez le travail de prélèvement.</li>
 <li>Dans le champ <strong>Prélever partiellemment une quantité</strong>, entrez <strong>0</strong> (zéro).</li>
 <li>Dans le champ <strong>Motif</strong>, sélectionnez <strong>Prélèvement partiel avec réallocation automatique</strong>.</li>
 </ol>
@@ -853,4 +850,13 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
     - Réservation contre fourniture commandée
     - Ordres de transfert et prélèvement des matières premières
 
-- La règle de consolidation des conteneurs pour l’emballage par unité de directive présente des limites. Pour les réservations validées par la commande, nous vous recommandons de ne pas utiliser de modèles de construction de conteneur où le cham **Pack par unité de directive** est activé. Dans la conception actuelle, les directives d’emplacement ne sont pas utilisées lors de la création d’un travail d’entrepôt. Par conséquent, seule l’unité la plus basse du groupe de séquences d’unités (l’unité d’inventaire) est appliquée pendant l’étape de vague de conteneurisation.
+- La règle de regroupement des conteneurs pour l’emballage par unité de directive présente des limites. Pour les réservations validées par la commande, nous vous recommandons de ne pas utiliser de modèles de construction de conteneur où le cham **Pack par unité de directive** est activé. Dans la conception actuelle, les directives d’emplacement ne sont pas utilisées lors de la création d’un travail d’entrepôt. Par conséquent, seule l’unité la plus basse du groupe de séquences d’unités (l’unité d’inventaire) est appliquée pendant l’étape de vague de conteneurisation.
+
+## <a name="see-also"></a>Voir également :
+
+- [Numéros de lot dans le module de gestion des entrepôts](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [Réservation du même lot pour une commande client](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Prélever le lot le plus ancien sur un appareil mobile](pick-oldest-batch.md)
+- [Confirmation du contenant et du lot](batch-and-license-plate-confirmation.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

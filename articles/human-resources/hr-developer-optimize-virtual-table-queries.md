@@ -15,21 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732007"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Optimiser les requêtes de table virtuelle de Dataverse
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>Sortie
 
@@ -50,12 +47,12 @@ Une des causes de la lenteur des performances avec les tables virtuelles Dataver
 Vous pouvez constater cet impact, par exemple, dans les requêtes sur l’entité Worker (Collaborateur) (**mshr_hcmworkerentity**) ou Base worker (Collaborateur de base) (**mshr_hcmworkerbaseentity**). Vous pouvez voir le problème de performances se manifester de différentes manières :
 
 - **Exécution lente des requêtes** : la requête sur la table virtuelle peut renvoyer les résultats attendus, mais prendre plus de temps que prévu pour être menée à bien.
-- **Délai d’expiration de la requête** : la requête peut parvenir à expiration et renvoyer l’erreur suivante : « Un jeton a été obtenu pour appeler Finances et Opérations, mais Finances et Opérations a renvoyé une erreur de type InternalServerError. »
+- **Délai d’expiration de la requête** : la requête peut parvenir à expiration et renvoyer l’erreur suivante : « Un jeton a été obtenu pour appeler Finance and Operations, mais Finance and Operations a renvoyé une erreur de type InternalServerError. »
 - **Erreur inattendue** : la requête peut renvoyer une erreur de type 400 avec le message suivant : « Une erreur inattendue s’est produite ».
 
   ![Type d’erreur 400 sur HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Limitation de requêtes** : la requête peut surutiliser les ressources du serveur et devenir sujette à une limitation. Dans ce cas, la requête renvoie l’erreur suivante : « Un jeton a été obtenu pour appeler Finances et Opérations, mais Finances et Opérations a renvoyé une erreur de type 429. » Pour plus d’informations sur la limitation des requêtes dans Human Resources, voir la [FAQ sur la limitation des requêtes](./hr-admin-integration-throttling-faq.md).
+- **Limitation de requêtes** : la requête peut surutiliser les ressources du serveur et devenir sujette à une limitation. Dans ce cas, la requête renvoie l’erreur suivante : « Un jeton a été obtenu pour appeler Finance and Operations, maisFinance and Operations a renvoyé une erreur de type 429. » Pour plus d’informations sur la limitation des requêtes dans Human Resources, voir la [FAQ sur la limitation des requêtes](./hr-admin-integration-throttling-faq.md).
 
   ![Type d’erreur 429 sur HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 

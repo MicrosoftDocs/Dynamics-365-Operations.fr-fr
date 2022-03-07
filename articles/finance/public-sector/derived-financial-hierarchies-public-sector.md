@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResCategory, EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyRole, LedgerDerivedFinHierarchies, LedgerDerivedFinHierarchyFilterResults, LedgerDerivedFinHierarchyLegalEntities
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20911
 ms.assetid: a1b30d2a-a370-402a-b3bd-d562adca55f0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c82bc9bd06ebe681a251dbabd367103c93b6d2ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc676bf3752cbe23de9d9e3add45345714eda203
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407918"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258161"
 ---
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 
@@ -50,3 +49,6 @@ Une organisation a un programme de bien-être des employés et un programme de f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

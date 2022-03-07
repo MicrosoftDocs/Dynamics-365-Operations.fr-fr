@@ -2,11 +2,8 @@
 title: Fonction LISTJOIN ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction LISTJOIN États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d9346afc88adb89c08098f39a5fd1c2cb82f664af2244b8cafbbe8a4d2f516c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755800"
 ---
 # <a name="listjoin-er-function"></a>Fonction LISTJOIN ER
 
@@ -33,7 +30,7 @@ La fonction `LISTJOIN` renvoie une valeur *Liste des enregistrements* qui repré
 ## <a name="syntax"></a>Syntaxe
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Arguments
@@ -68,18 +65,21 @@ Vous entrez ensuite une source de données **Enregistrement 2** du type `Contai
 - **Montant** : Ce champ contient une expression qui renvoie une valeur de type `Real`.
 - **IsValid** : Ce champ contient une expression qui renvoie une valeur de type `Boolean`.
 
-![Page du concepteur de mise en correspondance des modèles ER](./media/er-functions-list-listjoin-image1.gif)
+![Page du concepteur de mise en correspondance des modèles ER.](./media/er-functions-list-listjoin-image1.gif)
 
 Dans ce cas, l’expression `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` renvoie une nouvelle liste qui contient deux enregistrements.
 
-![Page de concepteur de mappage de modèle ER avec deux enregistrements](./media/er-functions-list-listjoin-image2.gif)
+![Page de concepteur de mappage de modèle ER avec deux enregistrements.](./media/er-functions-list-listjoin-image2.gif)
 
 La structure de cette liste se compose d’un seul champ **Montant** de type `Real`, car ce champ est le seul champ présenté dans chaque argument de la fonction appelée.
 
-![Champ Montant de la page du concepteur de mise en correspondance des modèles ER](./media/er-functions-list-listjoin-image3.gif)
+![Champ Montant de la page du concepteur de mise en correspondance des modèles ER.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
 
 [Déboguer les sources de données d’un format ER exécuté pour analyser le flux de données et la transformation](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

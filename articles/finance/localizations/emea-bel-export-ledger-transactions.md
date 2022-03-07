@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 4820e343604f314291146a12aa5903a85d3fe533
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: cd67cc87fa9b22d030f7d1ff63685c898597f2e0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236334"
 ---
 # <a name="export-ledger-transactions"></a>Exporter les écritures comptables
 
@@ -101,3 +100,6 @@ Voici une explication des colonnes de ce fichier :
 
 > [!NOTE]
 > Pour valider les écritures comptables pour les factures client, allez dans **Comptabilité client** \> **Factures** \> **Toutes factures financières**. Pour les factures fournisseur, allez dans **Comptabilité fournisseur** \> **Factures** \> **Journal des factures**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

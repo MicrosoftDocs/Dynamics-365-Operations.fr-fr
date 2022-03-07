@@ -1,41 +1,54 @@
 ---
-title: Gérer les demandes de congé et d'absence
-description: Affichez et approuvez les demandes de congé et d'absence dans Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+title: Gérer les demandes de congé et d’absence
+description: Affichez et approuvez les demandes de congé et d’absence dans Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 365d933a2d33b7e1929f9f68e02050b624e30839
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f19b99693f82d40b8951e23f766b1cd4a0d6293e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418574"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065274"
 ---
-# <a name="manage-leave-and-absence-requests"></a>Gérer les demandes de congé et d'absence
+# <a name="manage-leave-and-absence-requests"></a>Gérer les demandes de congé et d’absence
 
-Les gestionnaires peuvent gérer les demandes de congés dans l'espace de travail **Libre-service employé** dans Dynamics 365 Human Resources. Les demandes peuvent être des demandes simples d'un jour ou des demandes de plusieurs jours qui comprennent plusieurs types de congés et d'absences. Si un workflow n'est pas activé, les demandes sont automatiquement approuvées. Si un workflow est activé, l'approbation peut être automatique, ou elle peut exiger une approbation, en fonction de la configuration du workflow.
 
-1. Dans l'espace de travail **Libre-service employé**, sélectionnez **Mon équipe**.
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
-2. Sous **Informations sur mon équipe**, sélectionnez l'onglet **Congé et absence**. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Gérer les demandes de congés dans l’espace de travail **Libre service des employés** dans Dynamics 365 Human Resources. Les demandes peuvent être des demandes simples d’un jour ou des demandes de plusieurs jours qui comprennent plusieurs types de congés et d’absences. Si un workflow n’est pas activé, les demandes sont automatiquement approuvées. Quand un workflow est activé, l’approbation peut être automatique ou elle peut exiger une validation, en fonction de la configuration du workflow.
+
+1. Dans l’espace de travail **Libre service employé**, sélectionnez **Mon équipe**.
+
+2. Sous **Informations sur mon équipe**, sélectionnez l’onglet **Congé et absence**.
 
 3. Affichez et approuvez les demandes de congés des membres de votre équipe si nécessaire.
 
+## <a name="leave-request-workflow-experience-enhancements"></a>Améliorations de l’expérience de flux de travail de demande de congés
+
+Cette fonctionnalité fournit les améliorations suivantes :
+
+- Vous pouvez sélectionner plusieurs demandes de congé et effectuer la même action sur toutes.
+- Le ruban en haut et un nouveau bouton de flux de travail sur la page indiquent les actions que vous pouvez effectuer lors des demandes de congé.
+
+![Expérience de gestionnaire.](media/hr-leave-and-absence-manager-experience.png)
+
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
-- [Création d'un plan de congé et d'absence](hr-leave-and-absence-plans.md)
+- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

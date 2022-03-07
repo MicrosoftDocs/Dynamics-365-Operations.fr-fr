@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 0e7f30686894f9cf92257e99d95cc8b00f76f899
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4412398"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234315"
 ---
 # <a name="social-share-module"></a>Module Partage social
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de partage social et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules de partage social permettent aux utilisateurs de partager des URL de page de site d’e-commerce sur les médias sociaux, tels que Facebook, Twitter, Pinterest et LinkedIn. Les URL des pages du site peuvent également être partagées par e-mail. Les modules de partage social sont couramment utilisés sur les pages de détails sur les produits (PDP) pour aider les utilisateurs à partager des informations sur les produits.
 
@@ -82,3 +79,6 @@ Pour ajouter un module de partage social à un module de zone d’achat, procéd
 [Module Zone d’achat](add-buy-box.md)
 
 [Conformité des cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

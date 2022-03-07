@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6febc340f140d0b3a3f08ea32a59d9eb4e6e5204
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: fa6054dc26e4306ec16e37b0e6c320342ed40fe0
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920446"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6249102"
 ---
 # <a name="picked-quantity-isnt-sufficient-during-packing-slip-generation"></a>La quantité prélevée n’est pas suffisante lors de la génération du bon de livraison
 
@@ -66,8 +66,8 @@ Suivez la procédure suivante pour ajuster la quantité de la ligne de chargemen
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
 1. Sélectionnez le chargement pour lequel le bon de livraison ne peut pas être généré.
-1. Dans le volet Actions, dans l’onglet **Expédier et recevoir**, dans le groupe **Annuler**, sélectionnez **Annuler la confirmation de livraison**.
-1. Sur l’onglet **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui cause le problème.
+1. Dans le volet Actions, dans l’onglet  **Expédier et recevoir**, dans le groupe  **Annuler**, sélectionnez  **Annuler la confirmation de livraison**.
+1. Sur l’onglet  **Lignes de chargement**, sélectionnez la ligne de chargement de l’article qui cause le problème.
 1. Sélectionnez **Réduire la quantité prélevée** pour ajuster la quantité prélevée.
 1. Définissez le champ **Réduire la ligne de chargement** de manière à refléter les ajustements sur la ligne de chargement.
 
@@ -79,5 +79,5 @@ Utilisez la procédure suivante pour annuler l’enregistrement du prélèvement
 
 1. Accédez à **Comptabilité client \> Commandes \> Toutes les commandes**.
 1. Sélectionnez la commande client pour laquelle vous ne pouvez pas valider un bon de livraison pour le chargement.
-1. Sur l’onglet **Lignes de commande client**, sélectionnez la ligne de commande client pour laquelle l’enregistrement du prélèvement a été effectué.
+1. Sur l’onglet  **Lignes de commande client**, sélectionnez la ligne de commande client pour laquelle l’enregistrement du prélèvement a été effectué.
 1. Sélectionnez **Mettre à jour la ligne \> Prélever** pour annuler le prélèvement des articles.

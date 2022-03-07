@@ -1,37 +1,34 @@
 ---
-title: Options de calcul Montant entier et Intervalle pour les codes taxe
-description: Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
-author: ShylaThompson
-manager: AnnBe
+title: Options de calcul montant entier et intervalle pour les codes taxe
+description: Cette rubrique décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443175"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726821"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul Montant entier et Intervalle pour les codes taxe
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul montant entier et intervalle pour les codes taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
+Cette rubrique décrit les options du champ **Mode de calcul** sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
 
-Vous pouvez paramétrer un code taxe à calculer en fonction d’un montant entier ou d’un intervalle. Dans la page Codes taxe, utilisez le champ Mode de calcul de l’organisateur Calcul pour sélectionner le mode de calcul du code taxe.
+Vous pouvez paramétrer un code taxe à calculer en fonction d’un montant entier ou d’un intervalle. Dans la page **Codes taxe**, utilisez le champ **Mode de calcul** du raccourci **Calcul** pour sélectionner le mode de calcul du code taxe.
 - Montant entier – Le taux de taxe est appliqué au montant imposable entier.
 - Intervalle – Le montant imposable est divisé en plusieurs parts s’inscrivant chacune dans une plage associée à un taux de taxe spécifique. La part du montant s’inscrivant dans un intervalle donné est taxée au taux correspondant. La taxe est égale à la somme des montants de taxe calculés pour chaque intervalle.
   > [!NOTE]                                                                                                                              
@@ -47,9 +44,8 @@ Si un montant est égal à la limite maximale de l’intervalle précédent et �
 ## <a name="example-whole-amount-method-of-calculation"></a>Exemple : mode de calcul Montant entier
 Dans la page Valeurs de code taxe, les taux de taxe sont paramétrés dans les intervalles suivants :
 
-|                   |                   |              |
+| Limite inférieure     | Limite maximale     | Taux de taxe     |
 |-------------------|-------------------|--------------|
-| **Limite inférieure** | **Limite maximale** | **Taux de taxe** |
 | 0,00              | 50,00             | 30 %          |
 | 50,00             | 100,00            | 20 %          |
 | 100,00            | 0,00              | 10 %          |
@@ -66,9 +62,8 @@ La taxe est calculée sur le montant imposable entier.
 ## <a name="example-interval-method-of-calculation"></a>Exemple de méthode de calcul Intervalle
 Dans la page Valeurs, les taux de taxe sont paramétrés dans les intervalles suivants :
 
-|                   |                   |              |
+| Limite inférieure     | Limite maximale     | Taux de taxe     |
 |-------------------|-------------------|--------------|
-| **Limite inférieure** | **Limite maximale** | **Taux de taxe** |
 | 0,00              | 50,00             | 30 %          |
 | 50,00             | 100,00            | 20 %          |
 | 100,00            | 0,00              | 10 %          |
@@ -90,3 +85,6 @@ Pour plus d’informations, voir [Taux de taxe en fonction des champs Base margi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

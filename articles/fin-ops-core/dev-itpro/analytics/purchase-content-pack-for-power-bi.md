@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Analyse des dépenses et des achats
-description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d’achat. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI Analyse des dépenses d’achat.
 author: FrankDahl
 manager: AnnBe
 ms.date: 04/24/2019
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5914abaafab509e278d7a85441928feddb0b5164
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680612"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093440"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenu Power BI Analyse des dépenses et des achats
 

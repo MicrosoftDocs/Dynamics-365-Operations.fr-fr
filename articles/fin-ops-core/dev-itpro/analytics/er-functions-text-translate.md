@@ -2,11 +2,9 @@
 title: Fonction TRANSLATE ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction TRANSLATE États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5d192b8679d6df2c44a0038fe4ffc181a6a54df
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7e4d6417757e27190ab7cabf2bf01243bb87b55c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685301"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746071"
 ---
 # <a name="translate-er-function"></a>Fonction TRANSLATE ER
 
@@ -77,3 +75,6 @@ La fonction `TRANSLATE` remplace un caractère à la fois. La fonction remplace 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

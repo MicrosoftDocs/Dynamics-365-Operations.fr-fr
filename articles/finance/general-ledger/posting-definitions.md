@@ -1,35 +1,32 @@
 ---
 title: Définitions de validation
-description: Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables.
-author: ShylaThompson
-manager: AnnBe
+description: Cette rubrique fournit des informations sur les définitions de validation, et comment les définir et les lier. Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables.
+author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d409f154823a74e032adb71253ce97f8e3b2f101
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443195"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726964"
 ---
 # <a name="posting-definitions"></a>Définitions de validation
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur les définitions de validation, et comment les définir et les lier.
+Cette rubrique fournit des informations sur les définitions de validation, et comment les définir et les lier.
 Pour les types et les documents de validation pris en charge, vous pouvez utiliser des définitions de validation au lieu de profils de validation pour classer les comptes principaux et les dimensions financières dans les écritures comptables. Vous pouvez afficher les documents et les types de validation pris en charge dans la page **Définitions de validation de transaction**. 
 
 Pour commencer à utiliser les définitions de validation, sélectionnez l’option **Utiliser les définitions de validation** dans la page **Paramètres de comptabilité**. Même si vous utilisez les définitions de validation, vous devez toujours définir les profils de validation des entrées d’origine et des types et documents de validation non pris en charge. 
@@ -62,3 +59,6 @@ Les restrictions suivantes s’appliquent lorsque vous créez des liens dans les
 Pour plus d’informations, voir [Exemples de définition de validation](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

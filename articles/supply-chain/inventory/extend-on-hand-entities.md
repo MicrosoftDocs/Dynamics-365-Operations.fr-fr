@@ -1,32 +1,29 @@
 ---
 title: Étendre le stock des entités de données disponibles
 description: Cette rubrique fournit un exemple qui montre comment ajouter des champs étendus aux vues INVENTORSITEONHANDENTITY et INVENTWAREHOUSEONHANDENTITY, afin que les fonctionnalités des entités de données de stock disponible puissent fonctionner avec les extensions.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427959"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577694"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Étendre le stock des entités de données disponibles
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management fournit des fonctionnalités [d’extensibilité](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) qui vous permettent [d’ajouter des champs aux tables via l’extension](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). Cette rubrique fournit un exemple qui montre comment ajouter des champs étendus aux vues `INVENTORSITEONHANDENTITY` et `INVENTWAREHOUSEONHANDENTITY`, afin que les fonctionnalités des entités de données de stock disponible puissent fonctionner avec les extensions. Pour plus d’informations sur les entités de données, consultez [Vue d’ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management fournit des fonctionnalités [d’extensibilité](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) qui vous permettent [d’ajouter des champs aux tables via l’extension](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Cette rubrique fournit un exemple qui montre comment ajouter des champs étendus aux vues `INVENTORSITEONHANDENTITY` et `INVENTWAREHOUSEONHANDENTITY`, afin que les fonctionnalités des entités de données de stock disponible puissent fonctionner avec les extensions. Pour plus d’informations sur les entités de données, consultez [Vue d’ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Voici une liste de certaines des entités de données de stock disponible :
@@ -69,3 +66,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Une fois ces étapes terminées, vous pouvez étendre le stock disponible par site et le stock disponible par entités de données d’entrepôt en ajoutant les nouveaux champs. De cette manière, vous vous assurez que les champs étendus sont reconnus et inclus lors de la migration de données qui utilise ces entités de données.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

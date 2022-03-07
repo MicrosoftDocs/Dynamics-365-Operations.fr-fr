@@ -1,16 +1,13 @@
 ---
-title: Vue d'ensemble
-description: Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
+title: Vue d’ensemble
+description: Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,56 +15,57 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42c3735b14d506ce6a8cd3318ed32eb93bce87ae
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418569"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057332"
 ---
-# <a name="overview"></a>Vue d'ensemble
+# <a name="overview"></a>Vue d’ensemble
 
-Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
 
 ## <a name="set-up-human-resources"></a>Paramétrer Human Resources
 
 [Configuration des paramètres des Ressources humaines](hr-setup-parameters.md)</br>
 [Configurer les paramètres partagés de Human Resources](hr-setup-shared-parameters.md)</br>
-[Configurer les workflows de Human Resources](hr-setup-workflows.md)</br>
+[Configurer les workflows de Human Resources](./hr-workflow-manage-employee-information.md)</br>
 [Comprendre les champs de date et d’heure](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Configurer les paramètres de votre organisation
 
-[Page d'accueil Administration d'organisation](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble des séquences de nombres](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble des organisations et des hiérarchies d'organisation](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble du carnet d'adresses global](../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble du système de workflow](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble des alertes](../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble des signatures électroniques](../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Vue d'ensemble de la gestion des dossiers](../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Page d’accueil Administration d’organisation](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble des séquences de nombres](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble des organisations et des hiérarchies d’organisation](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble du carnet d’adresses global](../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble du système de workflow](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble des alertes](../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble des signatures électroniques](../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Vue d’ensemble de la gestion des dossiers](../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json)</br>
 [Configurer la gestion des documents](../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json)</br>
 [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Données de date/d'heure et fuseaux horaires](../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json)</br>
+[Données de date/d’heure et fuseaux horaires](../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json)</br>
 
 ## <a name="manage-personnel"></a>Gérer le personnel
 
 [Organisation du personnel](hr-personnel-departments-jobs-positions.md)</br>
-[Paramétrer les composants d'une tâche](hr-personnel-jobs.md)</br>
+[Paramétrer les composants d’une tâche](hr-personnel-jobs.md)</br>
 [Définir les départements](hr-personnel-define-departments.md)</br>
 [Définir les tâches](hr-personnel-define-jobs.md)</br>
 [Utiliser des workflows pour gérer les informations relatives aux employés](hr-workflow-manage-employee-information.md)</br>
-[Modifier les relations hiérarchiques d'un poste](hr-personnel-modify-reporting-relationships-position.md)</br>
+[Modifier les relations hiérarchiques d’un poste](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Saisir les informations du collaborateur](hr-personnel-enter-worker-information.md)</br>
 [Prêter des articles aux collaborateurs](hr-personnel-loan-item-worker.md)</br>
-[Saisir des feuilles de temps du projet](hr-personnel-enter-project-timesheets.md)</br>
-[Projets d'embauche collective](hr-personnel-mass-hire-projects.md)</br>
+[Projets d’embauche collective](hr-personnel-mass-hire-projects.md)</br>
 [Paramétrer les postes](hr-personnel-set-up-positions.md)</br>
 [Paramétrer les informations sur les blessures et les maladies](hr-personnel-set-up-injury-illness-information.md)</br>
 
 ## <a name="set-up-compensation-plans"></a>Définir les régimes de rémunération
 
-[Vue d'ensemble des régimes de rémunération](hr-compensation-overview.md)</br>
+[Vue d’ensemble des régimes de rémunération](hr-compensation-overview.md)</br>
 [Paramétrer les grilles de rémunération](hr-compensation-grids.md)</br>
 [Développer un régime et une structure de rémunération](hr-compensation-structure.md)</br>
 [Créer des régimes de rémunération fixe](hr-compensation-fixed-plans.md)</br>
@@ -95,7 +93,7 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 [Vue d’ensemble](hr-leave-and-absence-overview.md)</br>
 [Configurer les paramètres de congé et d’absence](hr-leave-and-absence-parameters.md)</br>
 [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)</br>
-[Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md)</br>
+[Créer un flux de travail de demande de congé](hr-leave-and-absence-workflow.md)</br>
 [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)</br>
 [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)</br>
 [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
@@ -128,3 +126,6 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

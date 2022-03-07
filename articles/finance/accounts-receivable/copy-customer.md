@@ -2,26 +2,23 @@
 title: Copier des clients à l’aide de souches de numéros partagées
 description: Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un client dans une autre entité juridique tout en conservant le même ID client.
 author: mikefalkner
-manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 91f7568ea8364f97de7e514fb207191ee00041a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f7d3648514bcdb3ad249c657f34ecc5e1d817d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458970"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827600"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copier des clients à l’aide de souches de numéros partagées
 
@@ -65,3 +62,6 @@ Vous pouvez également copier des clients à l’aide de la fonction de recherch
 
 1. L’option **Copier un client** s’affiche. Par défaut, cette option est définie sur **Non**. Pour copier le client dans l’entité juridique actuelle, définissez l’option sur **Oui**. 
 2. Cliquez sur **Sélectionner**. Le nouveau client est créé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

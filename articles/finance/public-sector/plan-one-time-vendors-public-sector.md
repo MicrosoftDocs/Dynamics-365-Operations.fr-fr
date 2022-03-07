@@ -2,16 +2,13 @@
 title: Planifier pour les fournisseurs occasionnels dans le secteur public
 description: Cet article fournit des informations sur l’importation et la création de fournisseurs occasionnels et de factures.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 27251
 ms.assetid: 936570cb-932f-4027-b3c7-2235ad79bc1c
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7622293340139c7f18354ecdc4b733edb602a2ce
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8b0c480d4578b1f62259e4d4d45780a80401386463e85a8107ffc85f5fa308a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727933"
 ---
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
@@ -99,8 +96,7 @@ Le tableau suivant répertorie les champs que le fichier d’importation doit co
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Après avoir paramétré les conditions préalables nécessaires, consultez [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md).
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fournisseurs occasionnels (Secteur public)](one-time-vendors-public-sector.md)
 
@@ -108,3 +104,6 @@ Après avoir paramétré les conditions préalables nécessaires, consultez [Fou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

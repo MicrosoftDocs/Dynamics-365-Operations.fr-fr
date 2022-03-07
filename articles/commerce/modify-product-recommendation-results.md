@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b9e370faed7feb0640959a9fcc4b608f18f9ffc1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263944"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajuster les résultats de recommandation produit fondées sur l'IA et le ML
 
@@ -121,3 +120,6 @@ Procédez comme suit pour ajouter ou supprimer manuellement des résultats pour 
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

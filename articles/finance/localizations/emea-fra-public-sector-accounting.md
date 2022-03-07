@@ -10,7 +10,6 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 19621
 ms.assetid: f6bfb9dd-c3a7-48d3-b31d-23e6f27c1323
 ms.search.region: France
@@ -18,12 +17,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1775c6a6895ed129bd6d03a91b4e809299c9a2d
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: 0a9fb05a0c088c0303364d5d9e9055e47710e089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002917"
 ---
 # <a name="public-sector-accounting-in-france"></a>Comptabilité du secteur public en France
 

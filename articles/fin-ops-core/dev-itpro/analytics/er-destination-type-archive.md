@@ -1,12 +1,10 @@
 ---
 title: Type de destination pour l’archivage d’états électronique
-description: Cette rubrique fournit des informations sur la configuration d’une destination d’archive pour chaque composant DOSSIER ou FICHIER d’un format de rapport électronique (ER) configuré pour générer des documents sortants.
+description: Cette rubrique fournit des informations sur la configuration d’une destination d’archive pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e2566fc5115df8b47277fc6b6d7f4698cea0a00bea83bcb17e9d7a9e9b765b65
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718331"
 ---
 # <a name="archive-er-destination-type"></a>Type de destination pour l’archivage d’états électronique
 
@@ -30,9 +28,9 @@ ms.locfileid: "4679676"
 
 Vous pouvez configurer une destination d’archive pour chaque composant **Dossier** ou **Fichier** d’un format de rapport électronique (ER) configuré pour générer des documents sortants. En fonction du paramètre de destination, un document généré est stocké en tant que pièce jointe d’un enregistrement de la liste de tâches d’état électronique. Pour afficher les résultats, accédez à **Administration d’organisation** \> **Gestion des états électroniques** \> **Tâches de gestion des états électroniques**.
 
-Vous pouvez utiliser cette option pour envoyer le document généré vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les [types](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) de documents dans **Administration d’organisation** \> **Gestion de documents** \> **Types de documents**. La configuration des destinations d’états électroniques est identique à la configuration du système de gestion des documents.
+Vous pouvez utiliser cette option pour envoyer le document généré vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les [types](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documents dans **Administration d’organisation** \> **Gestion de documents** \> **Types de documents**. La configuration des destinations d’états électroniques est identique à la configuration du système de gestion des documents.
 
-[![Page Types de documents](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Page Types de documents.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 L’emplacement détermine où le fichier est enregistré. Une fois la destination **Archive** activée, les résultats peuvent être enregistrés dans l’archive Tâche. Vous pouvez afficher les résultats sous **Administration d’organisation** \> **Gestion des états électroniques** \> **Tâches de gestion des états électroniques archivées**.
 
@@ -43,7 +41,7 @@ L’emplacement détermine où le fichier est enregistré. Une fois la destinati
 
 Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Pour définir le serveur SharePoint par défaut, accédez à **Administration d’organisation** \> **Gestion des documents** \> **Paramètres de gestion des documents**. Sur l’onglet **SharePoint**, configurez le dossier SharePoint. Ensuite, vous pouvez le sélectionner comme dossier où la sortie ER sera enregistrée. L’emplacement **SharePoint** doit être sélectionné dans ce type de document.
 
-[![Sélection d’un dossier SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Sélection d’un dossier SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Stockage Azure
 
@@ -57,3 +55,6 @@ Lorsque l’emplacement du type de document est défini sur **Stockage Azure**, 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées
-description: 'Pour réaliser ces étapes, vous devez d’abord effectuer les étapes du guide de tâche « ER Créer des états aux formats MS Office avec des images intégrées (Partie 1 : Définir les paramètres) ».'
+description: Cette rubrique décrit comment créer des configurations de gestion des états électroniques pour générer des documents électroniques contenant des images intégrées. (Partie 1 - Définir les paramètres).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717568"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Vérifier des configurations pour générer des états dans des formats Office avec des images intégrées
 
@@ -91,3 +89,6 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
     * Certains libellés présentés dans le formulaire de chèque pré-imprimé sont inclus dans l’état lorsqu’il est créé à des fins de test. Toutefois, ces libellés ne sont pas imprimés pendant l’impression réelle, car ils sont déjà présents dans le formulaire pré-imprimé.  
 15. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77b156a4710fd574b939a1e930fbb8ac38acde15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b92448ee9bd0eb337fc5860f7694b16ade19710
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235039"
 ---
 # <a name="define-configuration-groups"></a>Définir des groupes de configuration
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment définir des groupes de configuration de produits en créant deux groupes dans la société fictive USMF. Il s'agit de la quatrième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
+Cette procédure indique comment définir des groupes de configuration de produits en créant deux groupes dans la société fictive USMF. Il s’agit de la quatrième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
 
 1. Accédez à Gestion des informations sur les produits > Configurer > Nomenclatures et formules > Groupes de configuration.
 2. Cliquez sur Nouveau.
@@ -40,3 +39,6 @@ Cette procédure indique comment définir des groupes de configuration de produi
 7. Tapez une valeur dans le champ Nom.
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

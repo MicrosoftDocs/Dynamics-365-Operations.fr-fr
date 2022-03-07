@@ -2,11 +2,9 @@
 title: Configurer un fuseau horaire préféré de l’utilisateur
 description: Cette rubrique explique comment un utilisateur ayant un rôle d’administrateur système peut définir un fuseau horaire pour un utilisateur.
 author: pvillads
-manager: AnnBe
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd336a59481c77d4e0a22f14f8bb2ce6dbd8f028
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 97f73ef51e3ff3bfdc3a130128cf98e09edd1425f77646bf4e539568cf2c8b05
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749434"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Configurer un fuseau horaire préféré de l’utilisateur
 
@@ -35,3 +33,6 @@ La rubrique suivante explique comment un utilisateur ayant un rôle d’administ
 5. Dans le champ **Fuseau horaire**, sélectionnez une option dans la liste déroulante.
 6. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

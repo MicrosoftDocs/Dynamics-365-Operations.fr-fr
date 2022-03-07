@@ -1,31 +1,30 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (25 février 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 25 février 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8ae5a834c89ac648f7b74080a2cba51e5a7fb1a68fa81a0269c581daee56b5f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770382"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (25 février 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -55,15 +54,15 @@ Avec cette modification, un avertissement s’affiche lorsque vous tentez de sup
 
 Cette modification corrige un problème dans lequel des participants d’approbation supplémentaires sont ajoutés à l’évaluation des performances.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Affectation de poste de travail non créée dans Common Data Service lorsque sélectionné dans la boîte de dialogue Nouveau collaborateur (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Affectation de poste de travail non créée dans Dataverse lorsque sélectionné dans la boîte de dialogue Nouveau collaborateur (413479)
 
-Cette modification corrige un problème lors du recrutement d’un nouveau collaborateur et de l’affectation de la nouvelle recrue à un poste via la boîte de dialogue **Nouveau collaborateur**. Maintenant, l’affectation de poste se reflète dans Common Data Service.
+Cette modification corrige un problème lors du recrutement d’un nouveau collaborateur et de l’affectation de la nouvelle recrue à un poste via la boîte de dialogue **Nouveau collaborateur**. Maintenant, l’affectation de poste se reflète dans Dataverse.
 
 ## <a name="coming-soon"></a>Prochainement
 
-### <a name="updated-common-data-service-solution"></a>Solution Common Data Service mise à jour
+### <a name="updated-dataverse-solution"></a>Solution Dataverse mise à jour
 
-Une nouvelle solution Common Data Service sera bientôt disponible avec les modifications suivantes :
+Une nouvelle solution Dataverse sera bientôt disponible avec les modifications suivantes :
 
 | Description | Monnaie |
 | ----------------------------------------- | --- |
@@ -74,9 +73,9 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 | Nouvelles entités de configuration de la rémunération variable | **Type de régime variable de rémunération**</br>**Régime variable de rémunération**</br>**Règles d’acquisition**</br>**Niveau de régime variable de rémunération** |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | **Entité de calendrier de travail** ajoutée |
 | Nouvelle entité **Détails du poste de paie** | **Détails du poste de paie** ajoutés |
-| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Common Data Service. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
+| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Dataverse. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
 
-Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Common Data Service pour les ressources humaines :
+Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Dataverse pour les ressources humaines :
 
 1.  Accédez au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -96,13 +95,15 @@ Au cours des prochaines semaines, ces modifications d’entités seront disponib
 
 Les fonctionnalités d’aperçu suivantes sont disponibles depuis le 3 février 2020 :
 
-- **Fonctionnalités d’aperçu de congé et d’absence** - Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
+- **Fonctionnalités d’aperçu de congé et d’absence** – Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonction d’aperçu de la gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonction d’aperçu de la gestion des avantages** – Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

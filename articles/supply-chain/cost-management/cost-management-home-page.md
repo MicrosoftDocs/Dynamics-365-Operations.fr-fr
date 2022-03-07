@@ -2,28 +2,26 @@
 title: Page d’accueil Gestion des coûts
 description: La gestion des coûts vous permet de gérer l’évaluation et la comptabilité des matières premières, des produits semi-finis, des produits finis et des immobilisations en cours.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739105"
 ---
 # <a name="cost-management-home-page"></a>Page d’accueil Gestion des coûts
 
@@ -45,7 +43,7 @@ Vous pouvez accéder à la comptabilité de stock et la comptabilité de fabrica
 
 La comptabilité de fabrication vous permet de gérer le [Coût de revient par commande](production-order-cost-analysis.md) dans les ordres de fabrication et les lots de commandes, ainsi que la [Comptabilité à rebours](backflush-costing.md) en matière de lean manufacturing.
 
-Le [contenu Power BI Gestion des coûts](../../dev-itpro/analytics/cost-management-content-pack.md) donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d’analyse.
+Le [contenu Power BI Gestion des coûts](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d’analyse.
 
 ### <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -59,8 +57,10 @@ Le [Calcul de nomenclature à l’aide d’une feuille de coûts](https://www.mi
 
 #### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des coûts sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s’appliquent toujours et les procédures sont également similaires dans la version actuelle.
+Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des coûts sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s’appliquent toujours et les procédures sont également similaires dans la version actuelle.
 
 #### <a name="task-guides"></a>Guides de tâches
 
 Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n’importe quelle page.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

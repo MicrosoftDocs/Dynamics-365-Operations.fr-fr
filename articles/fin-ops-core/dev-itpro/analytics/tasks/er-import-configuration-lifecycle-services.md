@@ -1,12 +1,10 @@
 ---
 title: Importer une configuration à partir de Lifecycle Services
-description: Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut importer une nouvelle version d’une configuration pour la génération d’états électroniques (ER) à partir de Microsoft Dynamics Lifecycle Services (LCS).
+description: Cette rubrique décrit comment importer une nouvelle version d’une configuration pour la gestion des états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684449"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752362"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importer une configuration à partir de Lifecycle Services
 
@@ -103,3 +101,6 @@ Dans cet exemple, vous allez sélectionner la version souhaitée de la configura
     Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Partagé**.
 
     Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est également disponible.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: FR-00004 Approuver et valider la création des lettres de change client
 description: Cette procédure vous guide dans l’approbation et la validation des lettres de change.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9905fa25114107b927cd6c7919018acc0012c68a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8d3f337d20d91d555461f67ee6ccb695473c45dcbbab44507685173b7eeb8e23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753458"
 ---
 # <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a>FR-00004 Approuver et valider la création des lettres de change client
 
@@ -46,3 +43,6 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 8. Cliquez sur Valider.
 9. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,28 +1,27 @@
 ---
 title: Page d’accueil Approvisionnements
 description: Cette rubrique fournit une liste des rubriques d’aide et d’autres ressources disponibles pour les approvisionnements.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 50651
+ms.custom:
+- "50651"
+- intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428170"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565493"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Page d’accueil Approvisionnements
 
@@ -78,20 +77,19 @@ Le module Approvisionnements couvre toutes les étapes : identification d’un b
 -   [Création d’une commande fournisseur à partir d’une commande client](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Créer une commande fournisseur pour un fournisseur occasionnel](tasks/create-purchase-order-one-time-supplier.md)
 -   [Créer une commande fournisseur avec un plan de livraison](tasks/create-purchase-order-delivery-schedule.md)
--   [Créer une commande fournisseur retournée](tasks/create-purchase-return-order.md)
--   [Créer un ordre de lancement d’achat à partir d’un contrat d’achat](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Créer un ordre de lancement d’achat à la création de la commande fournisseur](tasks/create-purchase-release-order-creating-purchase-order.md)
+-   [Créer un ordre de retour d’achat](tasks/create-purchase-return-order.md)
+-   [Appliquer un contrat d’achat lors de la création d’une commande fournisseur](tasks/create-purchase-release-order-purchase-agreement.md)
 -   [Créer une commande de réapprovisionnement avec consignation](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Prix et remises
 -   [Contrats d’achat](purchase-agreements.md)
 -   [Créer un contrat d’achat](tasks/create-purchase-agreement.md)
--   [Remises fournisseur](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (livre blanc)
+-   [Remises fournisseur](/dynamics/s-e/) (livre blanc)
 
 ## <a name="product-receipt-and-invoicing"></a>Accusé de réception de marchandises et facture
 -   [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
--   [Vue d’ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Profils de validation fournisseur](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Vue d’ensemble des factures fournisseur](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Profils de validation fournisseur](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Workflows d’approvisionnements
 -   [Vue d’ensemble des approvisionnements](procurement-sourcing-overview.md)
@@ -104,3 +102,6 @@ Le module Approvisionnements couvre toutes les étapes : identification d’un b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

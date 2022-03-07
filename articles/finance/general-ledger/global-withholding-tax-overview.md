@@ -3,10 +3,10 @@ title: Retenue à la source globale
 description: Cette rubrique fournit des informations sur la fonctionnalité de retenue à la source globale et sur la manière de la configurer. La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l’article.
 author: roschlom
 ms.date: 01/12/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: LedgerParameters
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 7a3bb3c8766c7dd591f66a663d8be17769bb7d53
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 99e9571aed1679717eb776beb54ff3151a22cc14
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986174"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338469"
 ---
 # <a name="global-withholding-tax"></a>Retenue à la source globale
 

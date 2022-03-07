@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de l’application Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748262"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
 
@@ -39,7 +37,7 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Configurez un état électronique pour entrer des données dans les colonnes générées de manière dynamique d’un document électronique qui est créé au format de feuille de calcul OPENXML. | Un état électronique peut entrer des données dans une feuille de calcul OPENXML qui est générée, par la réplication des colonnes horizontalement. Par conséquent, la même configuration d’états électroniques peut être réutilisée pour générer des documents électroniques ayant un nombre différent de colonnes générées de façon dynamique. |
 | Configurez les destinations d’états électroniques afin que le résultat d’un format de sortie soit dirigé vers une destination spécifique : fichier, courrier électronique ou archive (dossier Microsoft SharePoint ou stockage Microsoft Azure). | Auparavant, lorsque vous exécutiez une configuration d’état électronique, une zone de message apparaissait nécessitant une de l’utilisateur pour enregistrer ou ouvrir un fichier. Vous pouvez maintenant configurer une destination pour chaque configuration de format et pour chaque composant de sortie (un dossier ou un fichier) séparément. Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV - Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV – Microsoft Dynamics AX Retail
 
 | Que pouvez-vous faire ? | Pourquoi est-ce important ? |
 |------------------|------------------------|
@@ -78,7 +76,7 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 </tr>
 <tr>
 <td>Prenez en charge les nomenclatures qui incluent des articles dotés de dimensions de produit différentes d’un même article.</td>
-<td>Lorsque vous utilisez une ou plusieurs des dimensions de produit dans la production, vous pouvez avoir des situations où vous souhaitez produire un article, basé sur une autre variante du même article. Pour plus d’informations, voir <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">ce blog</a>.</td>
+<td>Lorsque vous utilisez une ou plusieurs des dimensions de produit dans la production, vous pouvez avoir des situations où vous souhaitez produire un article, basé sur une autre variante du même article. Pour plus d’informations, voir <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">ce blog</a>.</td>
 </tr>
 <tr>
 <td>Les ordres de fabrication avec des structures circulaires au premier niveau de leurs nomenclatures sont exclus du calcul de nomenclature pour la planification de la ressource matérielle.</td>
@@ -106,3 +104,6 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 [Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

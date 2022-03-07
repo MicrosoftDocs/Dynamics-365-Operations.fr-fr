@@ -2,11 +2,9 @@
 title: Réapprovisionnement du seuil de zone
 description: Le réapprovisionnement basé sur une zone utilise une stratégie de réapprovisionnement minimum/maximum (min/max), mais il évalue des zones d’entrepôt entières au lieu de seulement des emplacements individuels. Par conséquent, les gestionnaires d’entrepôt peuvent apprendre plus rapidement lorsqu’un inventaire supplémentaire est requis dans une zone de prélèvement.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965500"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568989"
 ---
 # <a name="zone-threshold-replenishment"></a>Réapprovisionnement du seuil de zone
 
@@ -40,7 +38,7 @@ Contrairement au réapprovisionnement min/max basé sur l’emplacement, le réa
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Activer la fonctionnalité de réapprovisionnement du seuil de zone
 
-Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de zone* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de zone* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Réapprovisionnement du seuil de zone*
@@ -151,7 +149,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
 ##### <a name="create-a-replenishment-pick-directive"></a>Créer une directive de prélèvement de réapprovisionnement
 
 1. Sélectionnez l’entité juridique **USMF** pour travailler avec les données de démonstration.
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
+1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
 1. Dans le volet gauche, définissez le champ **Type d’ordre de travail** sur _Réapprovisionnement_.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer une directive.
 1. Définissez les valeurs suivantes :
@@ -165,7 +163,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **SKU multiple :** Définissez cette option sur _Non_.
 
 1. Sélectionnez **Enregistrer** pour créer une directive contenant les paramètres que vous avez configurés jusqu’à présent.
-1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l’organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -217,7 +215,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **SKU multiple :** Définissez cette option sur _Non_.
 
 1. Sélectionnez **Enregistrer** pour créer une directive contenant les paramètres que vous avez configurés jusqu’à présent.
-1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l’organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -343,3 +341,6 @@ Voici quelques remarques et conseils pour utiliser la fonctionnalité :
 
 - Si vous utilisez des emplacements dynamiques, le travail de réapprovisionnement sera créé soit pour le premier emplacement disponible, soit pour un emplacement qui contient déjà du stock, si l’action de directive d’emplacement est configurée pour utiliser la stratégie **Consolider**.
 - Si vous utilisez des emplacements fixes au lieu de zones, vous devez utiliser le [réapprovisionnement min/max standard](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

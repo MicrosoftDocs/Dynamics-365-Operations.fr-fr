@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: d6a131f53d6e44692bcdc5f3a196bb27e37fe73914a0adba1dcd7822f552d1f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771105"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisation de la charge de travail sortante
 
@@ -27,9 +27,12 @@ Les capacités de configuration avancées accessibles depuis la page **Visualisa
 
 Cette fonctionnalité peut être utilisée pour suivre la progression du travail de prélèvement. La fonctionnalité est intégrée à la gestion de la main-d’œuvre et, si la gestion de la main-d’œuvre est configurée, les visualisations de la charge de travail sortante peuvent afficher un calcul du nombre d’heures restantes pour le travail de prélèvement affiché (filtré).
 
-## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de visualisation de la charge de travail sortante
+## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Activer la fonctionnalité de visualisation de la charge de travail sortante
 
-À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Visualisation de la charge de travail sortante* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Gestion des entrepôts*
+- **Nom de la fonctionnalité :** *Visualisation de la charge de travail sortante*
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configuration des visualisations de la charge de travail sortante
 

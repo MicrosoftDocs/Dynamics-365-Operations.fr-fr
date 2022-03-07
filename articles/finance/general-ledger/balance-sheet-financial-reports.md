@@ -2,28 +2,25 @@
 title: États financiers du bilan
 description: Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734512"
 ---
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
@@ -31,8 +28,7 @@ ms.locfileid: "4443241"
 
 Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états. 
 
-<a name="default-balance-sheet-reports"></a>États du bilan par défaut
------------------------------
+## <a name="default-balance-sheet-reports"></a>États du bilan par défaut
 
 Par défaut, le bilan se distingue par deux états. Dans un état, les sections sont empilées. Dans l’autre état, les sections sont côte à côte.
 
@@ -46,8 +42,8 @@ Les rapports financiers du relevé des revenus utilisent les blocs élémentaire
 
 | État par défaut                       | Définition de ligne                       | Définition de colonne             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| Bilan - Par défaut              | Bilan - Par défaut              | Année en cours et écart - Par défaut    |
-| Bilan côte à côte bilan – Par défaut | Bilan côte à côte bilan – Par défaut | Colonne Année en cours - Par défaut |
+| Bilan – Par défaut              | Bilan – Par défaut              | Année en cours et écart – Par défaut    |
+| Bilan côte à côte bilan – Par défaut | Bilan côte à côte bilan – Par défaut | Colonne Année en cours – Par défaut |
 
 ### <a name="row-definition"></a>Définition de ligne
 
@@ -71,8 +67,7 @@ Les définitions de colonne contiennent différents types de colonnes afin d’o
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états financiers](financial-reporting-getting-started.md)
 
@@ -82,3 +77,6 @@ Les définitions de colonne contiennent différents types de colonnes afin d’o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

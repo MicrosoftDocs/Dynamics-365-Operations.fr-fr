@@ -1,22 +1,22 @@
 ---
 title: Programmer l’impression d’étiquettes pendant la vague
 description: Cette rubrique décrit comment configurer et utiliser la fonctionnalité d’impression d’étiquettes de vague basée sur les tâches.
-author: perlynne
+author: MSFTGarm
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920147"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777863"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programmer l’impression d’étiquettes pendant la vague
 
@@ -40,7 +40,7 @@ Pour utiliser les fonctionnalités décrites dans cette rubrique, elles doivent 
 
 Vous devez d’abord créer la nouvelle méthode d’étape de vague et l’activer pour le traitement de tâche asynchrone parallèle.
 
-1. Accédez à **Gestion des entrepôts \> Paramétrage \> Vagues \> Méthodes de traitement de la vague**.
+1. Accédez à  **Gestion des entrepôts \> Configuration \> Vagues \> Méthodes de traitement de la vague**.
 1. Dans le volet Actions, sélectionnez **Régénérer la méthode**. Notez que *waveLabelImpression* est ajouté à la liste des méthodes de traitement de vague utilisables dans vos modèles de vague d’expédition.
 1. Sélectionnez l’enregistrement où le champ **Nom de la méthode** est défini sur *waveLabelImpression* puis, dans le volet Actions, sélectionnez **Configuration des tâches**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
@@ -51,7 +51,7 @@ Vous devez d’abord créer la nouvelle méthode d’étape de vague et l’acti
 
 Vous pouvez maintenant mettre à jour un modèle de vague existant afin qu’il utilise la méthode de traitement de vague *Impression d’étiquettes de vague*. Vous pouvez également créer un nouveau modèle de vague qui l’utilise.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
+1. Accédez à  **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
 1. Dans le volet de liste, sélectionnez le modèle de vague à mettre à jour. (Si vous utilisez les données de démonstration à des fins de test, vous pouvez sélectionner l’entrepôt *Expédition par défaut 24*.)
 1. Dans le raccourci **Méthodes**, dans la colonne **Méthodes restantes**, sélectionnez la ligne où le champ **Nom** est défini sur *waveLabelPrinting*.

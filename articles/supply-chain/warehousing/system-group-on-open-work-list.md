@@ -2,43 +2,43 @@
 title: Regroupement système sur une liste des travaux en cours
 description: Cette rubrique décrit comment filtrer la liste des travaux en cours sur un appareil mobile.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733298"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Regroupement système sur une liste des travaux en cours
 
 [!include [banner](../includes/banner.md)]
 
-En utilisant un champ de regroupement système, vous pouvez filtrer la liste des travaux en cours sans avoir à modifier l'option de menu de l'appareil mobile.
-Dans ce cas, le regroupement système permet de filtrer la liste des travaux dans un champ d'en-tête de travail unique. Vous ne pouvez pas utiliser le regroupement système pour filtrer les champs au niveau de la ligne.
+En utilisant un champ de regroupement système, vous pouvez filtrer la liste des travaux en cours sans avoir à modifier l’option de menu de l’appareil mobile.
+Dans ce cas, le regroupement système permet de filtrer la liste des travaux dans un champ d’en-tête de travail unique. Vous ne pouvez pas utiliser le regroupement système pour filtrer les champs au niveau de la ligne.
 
 ## <a name="set-up-system-grouping-on-an-open-work-list"></a>Paramétrer le regroupement système sur une liste des travaux en cours
 Procédez comme suit pour paramétrer le regroupement système sur une liste des travaux en cours.
 
--   À partir d'une option de menu de l'appareil mobile, sélectionnez **Mode : Indirect** et **Code d'activité : Afficher la liste des travaux en cours**. Les options suivantes deviennent disponibles. Ces options sont requises pour le regroupement système sur une liste des travaux en cours. 
+-   À partir d’une option de menu de l’appareil mobile, sélectionnez **Mode : Indirect** et **Code d’activité : Afficher la liste des travaux en cours**. Les options suivantes deviennent disponibles. Ces options sont requises pour le regroupement système sur une liste des travaux en cours. 
 
 |        Option         |                                                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Autoriser le regroupement système |                                                                                                                                                                                                                                                 Active le regroupement système pour une option de menu de la liste des travaux en cours.                                                                                                                                                                                                                                                  |
-| Champ de regroupement système | Disponible uniquement si <strong>Autoriser le travail système</strong> est défini sur <strong>Activé</strong>. Sélectionnez le champ qui détermine comment le travail de prélèvement sera regroupé pour les collaborateurs. Par exemple, si vous sélectionnez le champ <strong>ShipmentId</strong>, le collaborateur numérisera l'ID d'expédition pour regrouper les travaux de prélèvement. Tout le travail d'expédition est alors affecté au collaborateur. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Utilisez le champ <strong>Étiquette de regroupement système</strong> pour indiquer au collaborateur quoi numériser. |
-| Étiquette de regroupement système |                       Disponible uniquement si <strong>Autoriser le travail système</strong> est défini sur <strong>Activé</strong>. Entrez les informations qui indiqueront au collaborateur quoi numériser lorsque le travail de prélèvement est regroupé. Par exemple, si vous utilisez le champ <strong>ShipmentId</strong> pour grouper le travail de prélèvement par expédition, vous pouvez entrer l'ID d'expédition dans le champ. Ce champ nécessite la création d'une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également sélectionner le champ de regroupement dans le champ <strong>Regroupement système</strong>.                       |
+| Champ de regroupement système | Disponible uniquement si <strong>Autoriser le travail système</strong> est défini sur <strong>Activé</strong>. Sélectionnez le champ qui détermine comment le travail de prélèvement sera regroupé pour les collaborateurs. Par exemple, si vous sélectionnez le champ <strong>ShipmentId</strong>, le collaborateur numérisera l’ID d’expédition pour regrouper les travaux de prélèvement. Tout le travail d’expédition est alors affecté au collaborateur. Ce champ nécessite la création d’une option de menu pour utiliser le travail existant qui est groupé par le système. Utilisez le champ <strong>Étiquette de regroupement système</strong> pour indiquer au collaborateur quoi numériser. |
+| Étiquette de regroupement système |                       Disponible uniquement si <strong>Autoriser le travail système</strong> est défini sur <strong>Activé</strong>. Entrez les informations qui indiqueront au collaborateur quoi numériser lorsque le travail de prélèvement est regroupé. Par exemple, si vous utilisez le champ <strong>ShipmentId</strong> pour grouper le travail de prélèvement par expédition, vous pouvez entrer l’ID d’expédition dans le champ. Ce champ nécessite la création d’une option de menu pour utiliser le travail existant qui est groupé par le système. Vous devez également sélectionner le champ de regroupement dans le champ <strong>Regroupement système</strong>.                       |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

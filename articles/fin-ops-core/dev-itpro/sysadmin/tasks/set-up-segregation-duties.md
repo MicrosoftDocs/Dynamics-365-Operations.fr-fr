@@ -3,7 +3,7 @@ title: Configurer les règles de répartition des tâches
 description: Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs.
 author: peakerbl
 manager: AnnBe
-ms.date: 01/04/2021
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
-ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
+ms.openlocfilehash: 57c7c436c91ab11404cac3ea056b028023a0617a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4826392"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688171"
 ---
 # <a name="set-up-segregation-of-duties"></a>Configurer les règles de répartition des tâches
 
 [!include [banner](../../includes/banner.md)]
 
-Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs. Ce concept est appelé répartition des tâches. Par exemple, vous ne souhaitez peut-être pas que cela soit la même personne qui accuse réception des marchandises et qui traite le paiement au fournisseur. La répartition des tâches vous aide à réduire le risque de fraude et également à détecter des erreurs ou des irrégularités. Vous pouvez également utiliser la répartition des tâches pour appliquer des stratégies de contrôle internes. Appliquez la procédure suivante pour créer une règle. Vous devez être administrateur système pour exécuter la procédure.
+Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs. Ce concept est appelé répartition des tâches. Par exemple, vous ne souhaitez peut-être pas que cela soit la même personne qui accuse réception des marchandises et qui traite le paiement au fournisseur. La répartition des tâches vous aide à réduire le risque de fraude et également à détecter des erreurs ou des irrégularités. Vous pouvez également utiliser la répartition des tâches pour appliquer des stratégies de contrôle internes. Appliquez la procédure suivante pour créer une règle. Vous devez être administrateur système pour exécuter la procédure. La société fictive de démonstration utilisée pour créer cette procédure est DAT. 
 
-1. Accédez à **Administration système** > **Sécurité** > **Répartition des tâches** > **Règles de répartition des tâches**.
+1. Accédez à **Volet de navigation > Modules > Administration système > Sécurité > Répartition des tâches > Règles de répartition des tâches**.
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Nom**, saisissez une valeur pour la règle.
 4. Dans le champ **Première responsabilité**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
@@ -40,5 +40,3 @@ Vous pouvez configurer des règles sur des tâches séparées qui doivent être 
 12. Dans le champ **Atténuation de sécurité**, tapez une valeur. Entrez une description des actions que vous prenez pour atténuer le risque de sécurité. Par exemple, vous pouvez atténuer le risque en conduisant des examens plus détaillés du processus, en conduisant une révision décisionnelle mensuelle, ou en partageant des ressources avec d’autres départements.     
 13. Cliquez sur **Enregistrer**.
 
-> [!IMPORTANT] 
-> La conformité avec les règles de séparation des tâches n'est pas vérifié lorsque vous créez une règle. Vous pouvez créer une règle qui crée un conflit pour les rôles existants. Les attributions de rôle utilisateur existantes peuvent également être en conflit avec la nouvelle règle. Vous devez valider la conformité une fois que vous avez créé ou modifié une règle. Pour plus d'informations, voir [Identifier et résoudre les conflits de séparation des tâches](identify-resolve-conflicts-segregation-duties.md)

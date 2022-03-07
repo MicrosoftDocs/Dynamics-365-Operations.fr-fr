@@ -2,11 +2,9 @@
 title: Configurer des étapes d’approbation dans un workflow
 description: Cette rubrique explique comment configurer les propriétés d’une étape d’approbation.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797094"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070775"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurer des étapes d’approbation dans un workflow
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment configurer les propriétés d’une étape d’approbation.
 
@@ -43,7 +44,7 @@ Vous devez fournir une ligne d’objet et des instructions aux utilisateurs affe
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
 2. Entrez la ligne d’objet dans le champ **Objet de l’article de travail**.
-3. Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d’objet s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+3. Si vous souhaitez personnaliser la ligne, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque la ligne d’objet s’affiche pour les utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -60,7 +61,7 @@ Vous devez fournir une ligne d’objet et des instructions aux utilisateurs affe
     6. Cliquez sur **Fermer**.
 
 5. Entrez les instructions dans le champ **Instructions de l’élément de travail**.
-6. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+6. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Dans la zone de texte, cliquez pour spécifier l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -108,7 +109,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche d’approbation.
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l’onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie auquel affecter l’étape.</li>
-    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui l’étape peut être affectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
+    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui l’étape peut être affectée. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l’extraction de noms dans la hiérarchie.</li>
     </ol>
@@ -144,7 +145,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche d’approbation.
     </tbody>
     </table>
 
-3. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour traiter les documents qui atteignent cette étape d’approbation ou pour y répondre. Permet de sélectionner l’une des options suivantes :
+3. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour traiter les documents qui atteignent cette étape d’approbation ou pour y répondre. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Entrez le nombre d’heures accordé à l’utilisateur pour répondre. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Entrez le nombre de jours accordé à l’utilisateur pour répondre. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -154,18 +155,18 @@ Procédez comme suit pour indiquer à qui affecter la tâche d’approbation.
 
     Si l’utilisateur ne traite pas le document dans le délai imparti, le document est en retard. Un document en retard est réaffecté, conformément aux options que vous sélectionnez dans la zone **Escalade** de cette page.
 
-4. Si vous avez affecté l’étape d’approbation à plusieurs utilisateurs ou à un groupe d’utilisateurs, cliquez sur l’onglet **Stratégie d’achèvement**, puis sélectionnez l’une des options suivantes :
+4. Si vous avez affecté l’étape d’approbation à plusieurs utilisateurs ou à un groupe d’utilisateurs, cliquez sur l’onglet **Stratégie d’achèvement**, puis sélectionnez l’une des options suivantes :
 
-    - **Un seul approbateur** – L’action appliquée au document est déterminée par la première personne qui répond. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L’état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue est la première à répondre au document, l’action qu’elle effectue est appliquée au document. Si Sue rejette le document, il est rejeté et renvoyé à Sam. Si Sue approuve le document, il est envoyé à Ann pour approbation.
+    - **Un seul approbateur** – L’action appliquée au document est déterminée par la première personne qui répond. Par exemple, Sam a soumis un état de dépenses de 15 000 EUR. L’état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue est la première à répondre au document, l’action qu’elle effectue est appliquée au document. Si Sue rejette le document, il est rejeté et renvoyé à Sam. Si Sue approuve le document, il est envoyé à Ann pour approbation.
 
-        ![Workflow avec un processus d’approbation](./media/workflow_multipleusersinstep.gif)
+        ![Workflow avec un processus d’approbation.](./media/workflow_multipleusersinstep.gif)
 
-    - **La majorité des approbateurs** – L’action appliquée au document est déterminée lorsque la majorité des approbateurs ont répondu. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L’état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue et Jo sont les deux premiers approbateurs à répondre, l’action qu’ils effectuent est appliquée au document.
+    - **La majorité des approbateurs** – L’action appliquée au document est déterminée lorsque la majorité des approbateurs ont répondu. Par exemple, Sam a soumis un état de dépenses de 15 000 EUR. L’état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue et Jo sont les deux premiers approbateurs à répondre, l’action qu’ils effectuent est appliquée au document.
 
         - Si Sue approuve le document, mais que Jo le rejette, le document est rejeté et renvoyé à Sam.
         - Si Sue et Jo approuvent le document, il est envoyé à Ann pour approbation.
 
-    - **Pourcentage d’approbateurs** – L’action appliquée au document est déterminée lorsqu’un pourcentage spécifique d’approbateurs a répondu. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L’état de dépenses est actuellement affecté à Sue, Jo et Bill, et vous avez entré le pourcentage **50**. Si Sue et Jo sont les deux premiers approbateurs à répondre, l’action qu’ils effectuent est appliquée au document, car ils répondent à la condition qui stipule 50 % d’approbateurs.
+    - **Pourcentage d’approbateurs** – L’action appliquée au document est déterminée lorsqu’un pourcentage spécifique d’approbateurs a répondu. Par exemple, Sam a soumis un état de dépenses de EUR 15 000. L’état de dépenses est actuellement affecté à Sue, Jo et Bill, et vous avez entré le pourcentage **50**. Si Sue et Jo sont les deux premiers approbateurs à répondre, l’action qu’ils effectuent est appliquée au document, car ils répondent à la condition qui stipule 50 % d’approbateurs.
 
         - Si Sue approuve le document, mais que Jo le rejette, le document est rejeté et renvoyé à Sam.
         - Si Sue et Jo approuvent le document, il est envoyé à Ann pour approbation.
@@ -191,7 +192,7 @@ L’étape d’approbation que vous configurez peut être requise uniquement sou
 2. Sélectionnez l’option **Exécuter cette étape uniquement si la condition suivante est remplie**.
 3. Permet d’entrer une condition.
 4. Entrez des conditions supplémentaires, si nécessaire.
-5. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
+5. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
 
     1. Cliquez sur **Tester**.
     2. Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**.
@@ -207,9 +208,9 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
 
     | Séquence | Chemin de réaffectation      |
     |----------|----------------------|
-    | 1        | Affecter à : Donna     |
-    | 2        | Affecter à : Erin      |
-    | 3        | Action finale : Rejeter |
+    | 1        | Affecter à : Donna     |
+    | 2        | Affecter à : Erin      |
+    | 3        | Action finale : Rejeter |
 
     Dans cet exemple, le système affecte le document en retard à Donna. Si celle-ci ne répond pas dans le délai imparti, le système affecte le document à Erin. Si celle-ci ne répond pas dans le délai imparti, le système rejette le document.
 
@@ -230,7 +231,7 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
     <td>
     <ol>
     <li>Après avoir sélectionné <strong>Hiérarchie</strong>, sous l’onglet <strong>Sélection de hiérarchie</strong>, dans la liste <strong>Type de hiérarchie</strong>, sélectionnez le type de hiérarchie à laquelle réaffecter le document.</li>
-    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui le document peut être réaffecté. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
+    <li>Le système doit extraire un ensemble de noms d’utilisateurs de la hiérarchie. Ces noms représentent les utilisateurs à qui le document peut être réaffecté. Pour indiquer le point de départ et le point final de l’ensemble de noms d’utilisateurs extraits par le système, procédez comme suit : <ol>
     <li>Pour spécifier le point de départ, sélectionnez une personne dans la liste <strong>Commencer à</strong>.</li>
     <li>pour indiquer le point final, cliquez sur <strong>Ajouter une condition</strong>. Entrez ensuite une condition pour indiquer où le système arrête l’extraction de noms dans la hiérarchie.</li>
     </ol>
@@ -266,7 +267,7 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
     </tbody>
     </table>
 
-4. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour traiter les documents qui atteignent cette étape d’approbation ou pour y répondre. Permet de sélectionner l’une des options suivantes :
+4. Sous l’onglet **Limite de temps**, dans le champ **Durée**, indiquez le délai accordé à l’utilisateur pour traiter les documents qui atteignent cette étape d’approbation ou pour y répondre. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Entrez le nombre d’heures accordé à l’utilisateur pour répondre. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Entrez le nombre de jours accordé à l’utilisateur pour répondre. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
@@ -276,3 +277,6 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
 
 5. Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l’ordre des utilisateurs.
 6. Si les utilisateurs du chemin de réaffectation ne répondent pas dans le délai imparti, le système traite automatiquement le document. Pour indiquer l’action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l’onglet **Terminer l’action**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,30 +1,29 @@
 ---
 title: Vue d’ensemble de la budgétisation disponible pour le secteur public
 description: Cette vue d’ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l’analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
-author: ShylaThompson
-manager: AnnBe
+author: panolte
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 19471
+ms.custom:
+- "19471"
+- intro-internal
 ms.assetid: 8cecf3cc-8916-44d7-8c73-d6254a61f62b
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0864e6e174e9c6ffc1ce193c9e7edbd4d285c14
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4577f02fade8a0bc9944c17a7d2b223c2269a9e4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407920"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986123"
 ---
 # <a name="budgeting-in-the-public-sector-overview"></a>Vue d’ensemble de la budgétisation disponible pour le secteur public
 
@@ -32,8 +31,7 @@ ms.locfileid: "4407920"
 
 Cette vue d’ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l’analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 
-<a name="what-are-the-prerequisites-to-setting-up-budgeting-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la budgétisation dans le secteur public ?
-------------------------------------------------------------------------
+## <a name="what-are-the-prerequisites-to-setting-up-budgeting-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la budgétisation dans le secteur public ?
 
 Pour utiliser le contrôle budgétaire, vous devez paramétrer la budgétisation de base. Dans la configuration de secteur public, vous la paramétrez au moment où vous configurez la budgétisation de base. Vous devez également effectuer les tâches suivantes :
 
@@ -52,8 +50,7 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 **Remarque :** cela s’applique également à la comptabilité, à la comptabilité fournisseur, et à la comptabilité client.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Budget](../budgeting/budgeting-overview.md)
 
@@ -69,3 +66,6 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

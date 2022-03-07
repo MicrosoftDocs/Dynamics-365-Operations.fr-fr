@@ -2,11 +2,9 @@
 title: Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées
 description: Cette rubrique explique comment vous pouvez contribuer à améliorer les performances des solutions de génération d’états électroniques (ER) en ajoutant des sources de données CHAMP CALCULÉ paramétrées.
 author: NickSelin
-manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681278"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944833"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées
 
@@ -246,9 +244,9 @@ Vous devez télécharger les fichiers suivants et les stocker localement.
 
 | Fichier                                        | Contenu |
 |---------------------------------------------|---------|
-| Modèle d’amélioration des performances.version.1     | [Exemple de configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Mise en correspondance de l’amélioration des performances.version.1.1 | [Exemple de configuration de mappage de modèles ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Format de l’amélioration des performances.version.1.1  | [Exemple de configuration de format ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Modèle d’amélioration des performances.version.1     | [Exemple de configuration de modèle de données ER](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Mise en correspondance de l’amélioration des performances.version.1.1 | [Exemple de configuration de mappage de modèles ER](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Format de l’amélioration des performances.version.1.1  | [Exemple de configuration de format ER](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Annexe 2 : Configurer la structure ER
 
@@ -300,3 +298,6 @@ Pour plus d’informations sur les fournisseurs de configuration de gestion des 
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 - [Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

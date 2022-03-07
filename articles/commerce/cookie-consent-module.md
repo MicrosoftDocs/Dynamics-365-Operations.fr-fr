@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 57c8876f1faf08ce965ccd796551996a8651e2eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213936"
 ---
 # <a name="cookie-consent-module"></a>Module de consentement aux cookies
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de consentement aux cookies et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Le module de consentement des cookies invite les utilisateurs du site à donner explicitement leur consentement pour autoriser les cookies pour toute fonctionnalité ou module qui suit les cookies du navigateur. Le consentement est requis la première fois qu’un utilisateur du site navigue sur un site dans une nouvelle session de navigateur. Lorsque le consentement est reçu, il est suivi et l’utilisateur du site ne sera plus invité à donner son consentement. Pour plus d’informations, voir [Conformité des cookies](cookie-compliance.md).
 
@@ -62,3 +59,6 @@ Pour plus d’informations sur les fragments d’en-tête et les modules, voir [
 [Module En-tête](author-header-module.md) 
 
 [Conformité des cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

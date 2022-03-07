@@ -11,26 +11,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517119"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477754"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurer plusieurs locataires B2C dans un environnement Commerce
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit quand et comment configurer plusieurs clients Microsoft Azure Active Directory (Azure AD) B2C par canal pour l'authentification de l'utilisateur dans un environnement Dynamics 365 Commerce dédié.
-
-## <a name="overview"></a>Vue d'ensemble
 
 Dynamics 365 Commerce utilise le service d'identité du cloud Azure AD B2C pour prendre en charge les identifiants utilisateur et les flux d'authentification. Les utilisateurs peuvent utiliser les flux d'authentification pour s'inscrire, se connecter et réinitialiser leur mot de passe. Azure AD B2C stocke les informations d'authentification sensibles d'un utilisateur, telles que son nom d'utilisateur et son mot de passe. L'enregistrement d'utilisateur est propre à chaque client B2C et utilise soit les identifiants du nom d'utilisateur (adresse électronique) ou les identifiants du fournisseur d'identité sociale.
 
@@ -131,3 +128,6 @@ Votre nouveau client Azure AD B2C devrait maintenant apparaître dans la liste s
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,26 @@
 title: Gestion de la qualité pour les processus d’entrepôt
 description: Cette rubrique fournit des informations sur la gestion de la qualité pour les processus d’entrepôt. Cette fonctionnalité étend les capacités de gestion de la qualité et permet aux utilisateurs d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée.
 author: Henrikan
-manager: tfehr
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: d81441fcc8cb86927923e76bd1a4d16a141ddc75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428164"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571879"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestion de la qualité pour les processus d’entrepôt
+
+[!include [banner](../includes/banner.md)]
 
 La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ vous permet d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée. Le travail en entrepôt peut être généré automatiquement pour déplacer le stock vers le lieu de contrôle de la qualité, en fonction d’un pourcentage ou d’une quantité fixe, ou en fonction de chaque *n* e contenant. Une fois un ordre de qualité terminé, le travail peut être généré automatiquement pour déplacer le stock vers le prochain emplacement du processus, en fonction des résultats de qualité.
 
@@ -46,14 +45,14 @@ La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ gé
 
 Quand la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée, elle modifie la configuration des principales entités de gestion des entrepôts et de gestion de la qualité. L’illustration suivante donne un aperçu des entités qui activent les ordres de qualité pour les processus d’entrepôt. Le texte entre parenthèses indique les actions suggérées lorsque la gestion de la qualité a été appliquée avant que la fonctionnalité _Gestion de la qualité pour les processus de gestion d’entrepôt_ n’ait été activée.
 
-![Entités de gestion de la qualité](media/quality-management-entity-diagram.png "Entités de gestion de la qualité")
+![Entités de gestion de la qualité.](media/quality-management-entity-diagram.png "Entités de gestion de la qualité")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Éléments permettant le changement : Types d’échantillonnage d’articles de qualité et d’ordres de travail d’ordre de qualité
 
 La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ présente deux types d’ordres de travail qui permettent le processus de création de travail :
 
-- **Échantillonnage d’articles de qualité** - Ce type d’ordre de travail est utilisé pour créer un travail qui déplace l’inventaire enregistré vers le contrôle qualité.
-- **Ordre de qualité** - Ce type d’ordre de travail est utilisé pour créer un travail qui déplace l’inventaire du contrôle qualité vers un nouvel emplacement, en fonction de la configuration de la directive d’emplacement.
+- **Échantillonnage d’articles de qualité** – Ce type d’ordre de travail est utilisé pour créer un travail qui déplace l’inventaire enregistré vers le contrôle qualité.
+- **Ordre de qualité** – Ce type d’ordre de travail est utilisé pour créer un travail qui déplace l’inventaire du contrôle qualité vers un nouvel emplacement, en fonction de la configuration de la directive d’emplacement.
 
 ### <a name="work-classes-location-directives-and-work-templates"></a>Classes de travail, instructions d’emplacement et modèles de travail
 
@@ -61,7 +60,7 @@ Les types d’ordre de travail _Échantillonnage d’articles de qualité_ et _C
 
 Avant que le travail en entrepôt puisse être généré automatiquement pour déplacer le stock vers le contrôle qualité, vous devez suivre ces étapes pour configurer votre système.
 
-1. Créez des classes de travail distinctes pour les types d’ordre de travail _Échantillonnage d’articles de qualité_ et _Ordre de travail_. De cette façon, vous vous assurez que le travail approprié peut être généré automatiquement en fonction des deux types d’ordres de travail, et que ce travail peut ensuite être exécuté à l’aide de l’application d’entrepôt.
+1. Créez des classes de travail distinctes pour les types d’ordre de travail _Échantillonnage d’articles de qualité_ et _Ordre de travail_. De cette façon, vous vous assurez que le travail approprié peut être généré automatiquement en fonction des deux types d’ordres de travail, et que ce travail peut ensuite être exécuté à l’aide de l’application mobile Gestion des entrepôts.
 1. Paramétrez un modèle de travail pour chaque type d’ordre de travail :
 
     - Configurez un modèle de travail qui utilise le type d’ordre de travail _Échantillonnage d’articles de qualité_ pour déplacer automatiquement le stock enregistré vers un emplacement de contrôle qualité.
@@ -76,7 +75,7 @@ Pour un exemple étape par étape qui montre comment terminer cette configuratio
 
 Avant que la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ puisse être appliquée à un entrepôt spécifique, vous devez suivre ces étapes pour rendre la fonctionnalité disponible pour cet entrepôt.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements fixes**.
 1. Sélectionnez l’entrepôt pour activer la Gestion de la qualité.
 1. Sur l’organisateur **Entrepôt**, définissez l’option **Activer l’ordre de qualité pour les processus d’entrepôt** sur _Oui_. (Notez que cette option peut être définie sur _Oui_ uniquement pour les entrepôts qui utilisent des processus de gestion d’entrepôt.)
 
@@ -88,14 +87,14 @@ La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ con
 
 ### <a name="quality-associations"></a>Associations de qualité
 
-Chaque [enregistrement d’association de qualité](enable-quality-management.md) définit l’ensemble de tests, le niveau de qualité acceptable et le programme d’échantillonnage qui s’applique aux ordres de qualité générés. Pour paramétrer un enregistrement d’association de qualité, procédez comme suit.
+Chaque [enregistrement d’association de qualité](enable-quality-management.md) définit l’ensemble de tests, le niveau de qualité acceptable et le programme d’échantillonnage qui s’applique aux ordres de qualité générés. Pour paramétrer un enregistrement d’association de qualité, procédez comme suit :
 
-1. Allez dans **Gestion des stocks \> Configuration \> Contrôle de la qualité \> Associations de qualité**.
+1. Allez dans **Gestion des stocks \> Paramétrage \> Contrôle de la qualité \> Associations de qualité**.
 1. Créez ou sélectionnez l’entrée d’association de qualité pour l’élément ou le groupe avec lequel vous travaillez, ou pour tous les éléments.
 1. Sur l’organisateur **Conditions**, définissez le champ **Type d’entrepôt applicable** sur l’une des valeurs suivantes :
 
-    - **Gestion de la qualité pour les processus d’entrepôt uniquement** - Activez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_. Vous ne pouvez sélectionner cette valeur que si le type de référence est *Achat* ou *Production*.
-    - **Tous** - Désactivez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_. Sélectionnez cette valeur pour tous les types de référence sauf *Achat* et *Production*.
+    - **Gestion de la qualité pour les processus d’entrepôt uniquement** – Activez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_. Vous ne pouvez sélectionner cette valeur que si le type de référence est *Achat* ou *Production*.
+    - **Tous** – Désactivez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_. Sélectionnez cette valeur pour tous les types de référence sauf *Achat* et *Production*.
 
 > [!NOTE]
 > La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ne prend effet que si l’élément sur la ligne de document source utilise des processus avancés de gestion d’entrepôt et si l’option **Activer l’ordre de qualité pour les processus d’entrepôt** est définie sur _Oui_ pour l’entrepôt sur la ligne du document source.
@@ -146,11 +145,11 @@ Si vous définissez un échantillonnage d’article qui utilise le type d’entr
 
 L’échantillonnage d’article contrôle la fréquence d’envoi des articles pour le contrôle de la qualité. La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ présente le concept de _portée d’échantillonnage d’article_. Le système utilise la portée d’échantillonnage d’article lorsqu’il évalue si et comment les ordres de qualité et/ou le travail d’échantillonnage d’article de qualité et le travail d’ordre de qualité doivent être créés.
 
-Pour configurer l’échantillonnage d’article, accédez à **Gestion des stocks \> Configuration \> Contrôle de qualité \> Échantillonnage d’articles** et définissez le champ **Portée d’échantillonnage** sur l’une des valeurs suivantes :
+Pour configurer l’échantillonnage d’article, accédez à **Gestion des stocks \> Paramétrage \> Contrôle de qualité \> Échantillonnage d’articles** et définissez le champ **Portée d’échantillonnage** sur l’une des valeurs suivantes :
 
-- **Ordre** - La ligne du document source sert de base à l’évaluation de si et comment les ordres de qualité et/ou le travail d’échantillonnage d’article de qualité et le travail d’ordre de qualité sont créés. Cette valeur est la valeur par défaut et lorsqu’elle est sélectionnée, le système fonctionne de la même manière que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ n’est pas activée.
-- **Chargement** - Les chargements sont utilisés comme base pour évaluer si et comment un ordre de qualité et/ou un travail est créé. Cette valeur n’est disponible que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée.
-- **Expédition** - Les expéditions sont utilisées comme base pour évaluer si et comment un ordre de qualité et/ou un travail est créé. Cette valeur n’est disponible que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée.
+- **Ordre** – La ligne du document source sert de base à l’évaluation de si et comment les ordres de qualité et/ou le travail d’échantillonnage d’article de qualité et le travail d’ordre de qualité sont créés. Cette valeur est la valeur par défaut et lorsqu’elle est sélectionnée, le système fonctionne de la même manière que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ n’est pas activée.
+- **Chargement** – Les chargements sont utilisés comme base pour évaluer si et comment un ordre de qualité et/ou un travail est créé. Cette valeur n’est disponible que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée.
+- **Expédition** – Les expéditions sont utilisées comme base pour évaluer si et comment un ordre de qualité et/ou un travail est créé. Cette valeur n’est disponible que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée.
 
 > [!NOTE]
 > Quand le champ **Portée d’échantillonnage** est défini sur *Chargement* ou *Expédition*, l’entité de chargement et les entités d’expédition sont utilisées, si elles sont disponibles. Si elles ne sont pas disponibles, l’entité d’ordre sera utilisée.
@@ -165,7 +164,7 @@ L’option **Répartition par article** contrôle si le nombre de contenants est
 
 La valeur du champ **Par Nième contenant** contrôle la fréquence de création des ordres de qualité par rapport au nombre d’articles enregistrés. Par exemple, une valeur de *3* enverra un article sur trois au contrôle de qualité, en commençant par le premier article. La valeur doit être supérieure à 0 (zéro).
 
-Pendant que les employés reçoivent des articles à l’aide de l’application d’entrepôt, le système valide si une association de qualité est configurée pour chaque article entrant. Si une association de qualité est configurée, le système utilise l’enregistrement d’échantillonnage d’article configuré pour cette association de qualité pour déterminer comment il va créer des ordres de qualité, un travail d’échantillonnage d’articles de qualité et un travail de commande fournisseur.
+Pendant que les employés reçoivent des articles à l’aide de l’application mobile Gestion des entrepôts, le système valide si une association de qualité est configurée pour chaque article entrant. Si une association de qualité est configurée, le système utilise l’enregistrement d’échantillonnage d’article configuré pour cette association de qualité pour déterminer comment il va créer des ordres de qualité, un travail d’échantillonnage d’articles de qualité et un travail de commande fournisseur.
 
 > [!NOTE]
 > Lorsque l’enregistrement de réception est effectué dans le client web (en utilisant la petite page d’enregistrement ou le journal d’arrivée des articles pour les lignes de commande fournisseur), aucun travail d’échantillonnage d’article ou de commande fournisseur ne sera créé, quelle que soit la configuration. Au lieu de cela, pour les articles qui correspondent à une association de qualité, l’échantillonnage d’article référencé sera utilisé pour contrôler la création d’ordres de qualité uniquement.
@@ -180,14 +179,14 @@ La valeur **Type de référence** des exemples suivants est _Achat_, et l valeur
 
 | Portée de l’échantillonnage | Spécification de la quantité | Par quantité mise à jour | Par dimension de stockage | Répartition par article | Par nième contenant | Résultat |
 |---|---|---|---|---|---|---|
-| Commande | Contenant complet | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Oui</p><p>Contenant : Oui _(verrouillé/non modifiable)_</p> | N° | 3 | <p>**Quantité de ligne de commande : 100 EA**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 20 EA</p><p>Ordre de qualité 1 pour 20 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP2<p>Travail de commande fournisseur pour 20 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP3<p>Travail de commande fournisseur pour 20 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 20 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP5<p>Travail de commande fournisseur pour 20 EA (rangé)</p></li></ol> |
-| Commande | Quantité fixe = 1 | Oui | <p>Emplacement : Oui</p><p>Contenant : Oui</p> | N° | Non applicable | <p>**Quantité de ligne de commande : 100**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP2<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP3<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 20 EA, LP5<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li></ol> |
-| Commande | Pourcentage = 10 | N° | <p>Emplacement : Non</p><p>Contenant : Non</p> | N° | Non applicable | <p>**Quantité de ligne de commande : 100 EA**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour 50 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 10 EA</p><p>Ordre de qualité 1 pour 10 EA</p><p>Travail de commande fournisseur pour 40 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 50 EA, LP2<p>Travail de commande fournisseur pour 50 EA (rangé)</p></li></ol> |
-| Charger | Pourcentage = 5 | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Non</p><p>Contenant : Non</p> | N° | Non applicable | <p>**Quantité de ligne de commande : 500 EA**</p><p>**Deux chargements : premier chargement 200 EA, deuxième chargement 300 EA**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour le premier chargement de 100 EA<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 95 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour le premier chargement de 100 EA<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 95 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour le second chargement de 300 EA<p>Travail d’échantillonnage d’articles de qualité pour 15 EA</p><p>Ordre de qualité 1 pour 15 EA</p><p>Travail de commande fournisseur pour 285 EA (rangé)</p></li></ol> |
-| Commande | Pourcentage = 10 | N° | <p>Emplacement : Oui</p><p>Contenant : Oui</p> | N° | Non applicable | <p>**Quantité de ligne de commande : 100**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour 50 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 50 EA, LP2<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 (rangé)</p></li></ol> |
-| Charger | Contenant complet | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Oui</p><p>Contenant : Oui _(verrouillé/non modifiable)_</p> | N° | 3 | <p>**Deux articles :**</p><ul><li>**Quantité de ligne de commande pour l’article A : 120 EA (4 palettes)**</li><li>**Quantité de ligne de commande pour l’article B : 90 EA (3 palettes)**</li></ul><p>**Un chargement, deux lignes de chargement avec chaque ligne de commande**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP2<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP3<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article B, 30 EA, LP5<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article B, 30 EA, LP6<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP7<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li></ol> |
-| Charger | Contenant complet | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Oui</p><p>Contenant : Oui _(verrouillé/non modifiable)_</p> | Oui | 3 | <p>**Deux articles :**</p><ul><li>**Quantité de ligne de commande pour l’article A : 120 EA (4 palettes)**</li><li>**Quantité de ligne de commande pour l’article B : 90 EA (3 palettes)**</li></ul><p>**Un chargement, deux lignes de chargement avec chaque ligne de commande**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP2<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP3<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article B, 30 EA, LP5<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article B, 30 EA, LP6<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour l’article A, 30 EA, LP7<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li></ol> |
-| Charger | Pourcentage = 10 | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Non</p><p>Contenant : Non</p> | N° | Non applicable | <p>**Quantité de ligne de commande : 100 EA**</p><p>**Aucun chargement n’est créé. La portée de l’ordre est appliquée.**</p><ol><li>Enregistrer la réception dans l’application d’entrepôt pour 50 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 EA (rangé)</p></li><li>Enregistrer la réception dans l’application d’entrepôt pour 50 EA, LP2<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 EA (rangé)</p></li></ol> |
+| Commande | Contenant complet | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Oui</p><p>Contenant : Oui _(verrouillé/non modifiable)_</p> | Non | 3 | <p>**Quantité de ligne de commande : 100 EA**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 20 EA</p><p>Ordre de qualité 1 pour 20 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP2<p>Travail de commande fournisseur pour 20 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP3<p>Travail de commande fournisseur pour 20 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 20 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP5<p>Travail de commande fournisseur pour 20 EA (rangé)</p></li></ol> |
+| Commande | Quantité fixe = 1 | Oui | <p>Emplacement : Oui</p><p>Contenant : Oui</p> | Non | Non applicable | <p>**Quantité de ligne de commande : 100**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP2<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP3<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 20 EA, LP5<p>Travail d’échantillonnage d’articles de qualité pour 1 EA</p><p>Ordre de qualité 1 pour 1 EA</p><p>Travail de commande fournisseur pour 19 EA (rangé)</p></li></ol> |
+| Commande | Pourcentage = 10 | Non | <p>Emplacement : Non</p><p>Contenant : Non</p> | Non | Non applicable | <p>**Quantité de ligne de commande : 100 EA**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 50 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 10 EA</p><p>Ordre de qualité 1 pour 10 EA</p><p>Travail de commande fournisseur pour 40 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 50 EA, LP2<p>Travail de commande fournisseur pour 50 EA (rangé)</p></li></ol> |
+| Charge | Pourcentage = 5 | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Non</p><p>Contenant : Non</p> | Non | Non applicable | <p>**Quantité de ligne de commande : 500 EA**</p><p>**Deux chargements : premier chargement 200 EA, deuxième chargement 300 EA**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour le premier chargement de 100 EA<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 95 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour le premier chargement de 100 EA<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 95 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour le deuxième chargement de 300 EA<p>Travail d’échantillonnage d’articles de qualité pour 15 EA</p><p>Ordre de qualité 1 pour 15 EA</p><p>Travail de commande fournisseur pour 285 EA (rangé)</p></li></ol> |
+| Ordre | Pourcentage = 10 | Oui | <p>Emplacement : Oui</p><p>Contenant : Oui</p> | Non | Non applicable | <p>**Quantité de ligne de commande : 100**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 50 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 50 EA, LP2<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 (rangé)</p></li></ol> |
+| Charger | Contenant complet | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Oui</p><p>Contenant : Oui _(verrouillé/non modifiable)_</p> | Non | 3 | <p>**Deux articles :**</p><ul><li>**Quantité de ligne de commande pour l’article A : 120 EA (4 palettes)**</li><li>**Quantité de ligne de commande pour l’article B : 90 EA (3 palettes)**</li></ul><p>**Un chargement, deux lignes de chargement avec chaque ligne de commande**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP2<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP3<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article B, 30 EA, LP5<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article B, 30 EA, LP6<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP7<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li></ol> |
+| Charger | Contenant complet | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Oui</p><p>Contenant : Oui _(verrouillé/non modifiable)_</p> | Oui | 3 | <p>**Deux articles :**</p><ul><li>**Quantité de ligne de commande pour l’article A : 120 EA (4 palettes)**</li><li>**Quantité de ligne de commande pour l’article B : 90 EA (3 palettes)**</li></ul><p>**Un chargement, deux lignes de chargement avec chaque ligne de commande**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP2<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP3<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP4<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article B, 30 EA, LP5<p>Travail d’échantillonnage d’articles de qualité pour 30 EA</p><p>Ordre de qualité 1 pour 30 EA</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article B, 30 EA, LP6<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 30 EA, LP7<p>Travail de commande fournisseur pour 30 EA (rangé)</p></li></ol> |
+| Charger | Pourcentage = 10 | Oui _(verrouillé/non modifiable)_ | <p>Emplacement : Non</p><p>Contenant : Non</p> | Non | Non applicable | <p>**Quantité de ligne de commande : 100 EA**</p><p>**Aucun chargement n’est créé. La portée de l’ordre est appliquée.**</p><ol><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 50 EA, LP1<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 EA (rangé)</p></li><li>Enregistrer la réception dans l’application mobile Gestion des entrepôts pour l’article A, 50 EA, LP2<p>Travail d’échantillonnage d’articles de qualité pour 5 EA</p><p>Ordre de qualité 1 pour 5 EA</p><p>Travail de commande fournisseur pour 45 EA (rangé)</p></li></ol> |
 
 Lorsqu’un collaborateur valide l’un des ordres de qualité indiqués dans le tableau précédent, le système génère automatiquement un travail d’ordre de qualité pour déplacer le stock de l’emplacement de contrôle qualité vers l’emplacement défini dans la directive d’emplacement pour le type d’ordre de travail _Ordre de qualité_. Vous pouvez configurer n’importe quel emplacement à cet effet, comme un lieu de retour ou de stockage, en fonction du résultat du test pour l’ordre de qualité. Pour un exemple de cette configuration, consultez l’[exemple de scénario](#example-scenario) à la fin de ce sujet.
 
@@ -239,7 +238,7 @@ Dans l’exemple suivant, la valeur de **Type de référence** est _Achat_.
     - **Groupe de test :** *Cône*
     - **Échantillonnage d’article :** *10 %*
 
-Une commande fournisseur pour une quantité de 10 articles A0001 est maintenant créée pour le fournisseur 104. Ensuite, une ligne de commande fournisseur d’une quantité de 10 est enregistrée comme reçue dans un contenant à l’aide de l’application d’entrepôt. Voici le résultat :
+Une commande fournisseur pour une quantité de 10 articles A0001 est maintenant créée pour le fournisseur 104. Ensuite, une ligne de commande fournisseur d’une quantité de 10 est enregistrée comme reçue dans un contenant à l’aide de l’application mobile Gestion des entrepôts. Voici le résultat :
 
 - Il y a un seul ordre de qualité de la première association de qualité pour le groupe de test *Pièce jointe*. La quantité est de 5. Il n’y a pas d’ordre de qualité de la deuxième association de qualité, car les critères de la première association de qualité sont plus spécifiques par rapport au groupe de test *Pièce jointe*.
 - Il y a un seul ordre de qualité de la troisième association de qualité pour le groupe de test *Impédance*. La quantité est de 10. Il n’y a pas d’ordre de qualité de la quatrième association de qualité, car les critères de la première association de qualité sont plus spécifiques par rapport au groupe de test *Impédance*.
@@ -272,13 +271,13 @@ Lorsque les ordres de qualité sont validés, le système essaie de créer un tr
 
 ## <a name="canceling-quality-item-sampling-work"></a>Annulation d’un travail d’échantillonnage d’articles de qualité
 
-Vous pouvez annuler le travail créé pour l’échantillonnage d’article de qualité. Pour contrôler ce qui se produit lorsque ce travail est annulé, procédez comme suit.
+Vous pouvez annuler le travail créé pour l’échantillonnage d’article de qualité. Pour contrôler ce qui se produit lorsque ce travail est annulé, procédez comme suit :
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**.
 1. Sur l’onglet **Général**, sur l’organisateur **Travail**, définissez l’option **Annuler l’enregistrement de la réception lors de l’annulation d’un travail** sur l’une des valeurs suivantes :
 
-    - **Oui** - Lorsque le travail d’échantillonnage d’articles de qualité est annulé, l’ordre de qualité associé est supprimé et le stock n’est pas enregistré.
-    - **Non** - Lorsque le travail d’échantillonnage d’articles de qualité est annulé, l’ordre de qualité associé n’est pas supprimé et le stock n’est pas non enregistré.
+    - **Oui** – Lorsque le travail d’échantillonnage d’articles de qualité est annulé, l’ordre de qualité associé est supprimé et le stock n’est pas enregistré.
+    - **Non** – Lorsque le travail d’échantillonnage d’articles de qualité est annulé, l’ordre de qualité associé n’est pas supprimé et le stock n’est pas non enregistré.
 
 ## <a name="cross-docking"></a>Cross-docking
 
@@ -298,11 +297,11 @@ Pour exécuter ce scénario, vous devez préparer votre système de la manière 
 - Activez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Configurez l’entrepôt 51 pour utiliser la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ comme suit :
 
-    1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
+    1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements fixes**.
     1. Sélectionner l’entrepôt 51.
     1. Sur l’organisateur **Entrepôt**, définissez l’option **Activer l’ordre de qualité pour les processus d’entrepôt** sur *Oui*.
 
-### <a name="quality-in-setup--move-to-the-quality-control-location"></a>Configuration de la qualité d’entrée - Déplacer vers l’emplacement de contrôle de la qualité
+### <a name="quality-in-setup--move-to-the-quality-control-location"></a>Configuration de la qualité d’entrée – Déplacer vers l’emplacement de contrôle de la qualité
 
 Vous devez maintenant préparer une configuration de base qui permettra à votre système de prendre en charge la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ pour l’entrepôt 51. (Les données de démonstration définissent un emplacement de gestion de la qualité nommé *QMS*. Cet emplacement est référencé plusieurs fois dans ce scénario.) Vous préparerez les éléments suivants, comme décrit dans les paragraphes de cette section :
 
@@ -315,7 +314,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 #### <a name="work-class-for-quality-in"></a>Classe de travail pour la qualité entrante
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Travail \> Classes de travail**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Travail \> Classes de travail**.
 1. Créez une classe de travail et définissez les valeurs suivantes :
 
     - **ID classe de travail :** _QualityIn_
@@ -324,7 +323,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 #### <a name="work-template"></a>Modèle de travail
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Modèles de travail**.
 1. Définissez le champ **Type d’ordre de travail** sur _Échantillonnage d’articles de qualité_.
 1. Créez un modèle de travail et définissez les valeurs suivantes :
 
@@ -343,7 +342,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 #### <a name="location-directive"></a>Instruction d’emplacement
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Instructions d’emplacements**.
 1. Définissez le champ **Type d’ordre de travail** sur _Échantillonnage d’articles de qualité_.
 1. Créez une instruction d’emplacement et définissez les valeurs suivantes :
 
@@ -371,7 +370,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 Ensuite, vous devez modifier la séquence des instructions d’emplacement de commande fournisseur existantes pour l’entrepôt 51. Les données de démonstration incluent deux instructions d’emplacement avec une valeur de **Type d’ordre de travail** de _Achat_ : l’une est nommée _51 QMS_ et l’autre, _51 PO Direct_. Pour garantir que la fonctionnalité *Gestion de la qualité pour les processus d’entrepôt* est appliquée pour l’entrepôt 51, vous devez vous assurer que l’instruction d’emplacement _51 QMS_ n’est pas appliquée. Cependant, au lieu de supprimer cette instruction d’emplacement (car vous voudrez peut-être l’utiliser à l’avenir), vous pouvez simplement changer la séquence.
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Instructions d’emplacements**.
 1. Définissez le champ **Type d’ordre de travail** sur _Commande fournisseur_.
 1. Dans la liste des séquences, sélectionnez le numéro de séquence 5, pour l’instruction d’emplacement _51 PO Direct_.
 1. Déplacez la séquence sélectionnée jusqu’au numéro de séquence 4.
@@ -381,7 +380,7 @@ Ensuite, vous devez modifier la séquence des instructions d’emplacement de co
 
 La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ajoute de nouvelles capacités d’échantillonnage d’articles. La valeur de **Portée d’échantillonnage** peut maintenant être _Ordre_, _Expédition_ ou _Chargement_, et la valeur de **Quantité d’échantillonnage** peut maintenant être _Contenant complet_.
 
-1. Allez dans **Gestion des stocks \> Configuration \> Contrôle de la qualité \> Échantillonnage d’article**.
+1. Allez dans **Gestion des stocks \> Paramétrage \> Contrôle de la qualité \> Échantillonnage d’article**.
 1. Créez un enregistrement d’échantillonnage d’article et définissez les valeurs suivantes :
 
     - **Échantillonnage d’articles :** _3rd LP_
@@ -396,7 +395,7 @@ La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ajo
 
 Créez une association de qualité qui utilisera le nouvel échantillonnage d’article.
 
-1. Allez dans **Gestion des stocks \> Configuration \> Contrôle de la qualité \> Associations de qualité**.
+1. Allez dans **Gestion des stocks \> Paramétrage \> Contrôle de la qualité \> Associations de qualité**.
 1. Créez un enregistrement d’association de qualité et définissez les valeurs suivantes :
 
     - **Type de référence :** _Achat_
@@ -433,7 +432,7 @@ Créez une association de qualité qui utilisera le nouvel échantillonnage d’
 
 Pour terminer la configuration afin de pouvoir déplacer les marchandises vers l’emplacement de contrôle qualité, vous devez rendre le travail d’échantillonnage d’articles de qualité disponible à partir d’un élément de menu de l’appareil mobile.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Sélectionnez le élément de menu de l’appareil mobile **Rangement d’achat**.
 1. Sur l’organisateur **Classes de travail**, ajoutez l’ID de la classe de travail *QualityIn*.
 
@@ -457,7 +456,7 @@ Vous avez maintenant défini une association de qualité qui utilise la fonction
     - **Entrepôt :** *51*
 
 1. Notez le numéro de la commande fournisseur afin de pouvoir l’utiliser ultérieurement.
-1. Accédez à un appareil mobile ou à un émulateur qui exécute l’application d’entrepôt et connectez-vous à l’entrepôt 51 avec l’ID utilisateur *51* et le mot de passe *1*.
+1. Accédez à un appareil mobile ou à un émulateur qui exécute l’application mobile Gestion des entrepôts et connectez-vous à l’entrepôt 51 avec l’ID utilisateur *51* et le mot de passe *1*.
 1. Aller à **Entrant \> Réception d’achat** et entrez les valeurs suivantes :
 
     - **PONum :** Numéro de la commande fournisseur récemment créée
@@ -465,7 +464,7 @@ Vous avez maintenant défini une association de qualité qui utilise la fonction
     - **Unité :** *ea*
 
 1. Continuez à recevoir par rapport à la ligne, *5 ch* à la fois, jusqu’à ce que la ligne soit entièrement reçue. (Un total de quatre contenants sera créé.)
-1. Déconnectez-vous de l’application d’entrepôt.
+1. Déconnectez-vous de l’application mobile Gestion des entrepôts.
 1. De retour sur le client web, accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Recherchez et ouvrez votre commande fournisseur.
 1. Dans la section **Lignes de commande fournisseur**, sélectionnez la ligne du numéro d’article *M9201*, puis cliquez sur **Lignes de commande fournisseur \> Détails du travail**.
@@ -475,7 +474,7 @@ Vous avez maintenant défini une association de qualité qui utilise la fonction
 
 Vous allez maintenant déplacer les contenants vers leurs emplacements désignés. Les premier et quatrième contenants iront à l’emplacement de contrôle qualité, tandis que les deuxième et troisième contenants iront directement au stockage.
 
-1. Accédez à un appareil mobile ou à un émulateur qui exécute l’application d’entrepôt et connectez-vous à l’entrepôt 51 avec l’ID utilisateur *51* et le mot de passe *1*.
+1. Accédez à un appareil mobile ou à un émulateur qui exécute l’application mobile Gestion des entrepôts et connectez-vous à l’entrepôt 51 avec l’ID utilisateur *51* et le mot de passe *1*.
 1. Aller à **Entrant \> Rangement d’achat** et rangez chaque contenant de la procédure précédente jusqu’à ce que vous ayez fermé tout le travail.
 
 #### <a name="summary-process-quality-management-work"></a>Résumé : Travail de gestion de la qualité des processus
@@ -490,7 +489,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="work-class-for-quality-out"></a>Classe de travail pour la qualité sortante
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Travail \> Classes de travail**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Travail \> Classes de travail**.
 1. Créez une classe de travail et définissez les valeurs suivantes :
 
     - **ID classe de travail :** *QualityOut*
@@ -499,7 +498,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="work-templates"></a>Modèles de travail
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Modèles de travail**.
 1. Changez la valeur **Type d’ordre de travail** sur *Ordre de qualité*.
 1. Créez un modèle de travail et définissez les valeurs suivantes :
 
@@ -518,7 +517,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="location-directives"></a>Instructions d’emplacement
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Instructions d’emplacements**.
 1. Changez la valeur **Type d’ordre de travail** sur *Ordre de qualité*.
 1. Créez une instruction d’emplacement et définissez les valeurs suivantes :
 
@@ -589,7 +588,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="mobile-device-menu-items-for-quality-out"></a>Éléments de menu des appareils mobiles pour une sortie de qualité
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Sélectionnez le élément de menu de l’appareil mobile **Rangement QMS**.
 1. Sur l’organisateur **Classes de travail**, ajoutez l’ID de la classe de travail *QualityPut*.
 
@@ -617,8 +616,14 @@ Vous avez configuré les données de travail et d’emplacement pour l’entrep�
 
 1. Allez dans **Gestion des entrepôts \> Tout le travail**.
 1. Sélectionnez le travail qui vient d’être créé et notez qu’un deuxième en-tête de travail d’ordre de qualité a été créé, où l’emplacement de rangement est *BULK-001*.
-1. Accédez à un appareil mobile ou à un émulateur qui exécute l’application d’entrepôt et connectez-vous à l’entrepôt 51 avec l’ID utilisateur *51* et le mot de passe *1*.
+1. Accédez à un appareil mobile ou à un émulateur qui exécute l’application mobile Gestion des entrepôts et connectez-vous à l’entrepôt 51 avec l’ID utilisateur *51* et le mot de passe *1*.
 1. Aller à **Qualité \> Ranger à partir de QMS** et traitez chacun des contenants liés aux deux éléments de travail, de sorte que tout le travail soit fermé.
 
 > [!NOTE]
 > Envisagez d’ajouter l’entrée de sortie de qualité à un élément de menu de l’appareil mobile où le code d’activité est *Afficher la liste de travail ouverte*. Pour obtenir un exemple, voir l’élément de menu d’appareil mobile nommé **Liste de travail** dans les données de démonstration. Ajoutez d’abord la classe de travail *Ordre de qualité* à un élément de menu dirigé par l’utilisateur, car cette classe de travail est nécessaire pour que le travail soit affiché dans la liste de travail. Ajoutez ensuite la classe de travail *Ordre de qualité* à l’élément du menu **Liste de travail**. Les utilisateurs qui ont accès à la liste des travaux pourront ensuite sélectionner et traiter le travail généré automatiquement par la validation de l’ordre de qualité.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Vue d’ensemble de la gestion de la qualité et de la non-conformité](quality-management-processes.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

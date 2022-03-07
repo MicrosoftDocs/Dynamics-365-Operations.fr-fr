@@ -2,11 +2,9 @@
 title: Résoudre les problèmes de synchronisation en direct
 description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744611"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542513"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Résoudre les problèmes de synchronisation en direct
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Cette rubrique fournit des informations sur la résolution des problèmes de l’intégration de la double écriture entre les applications Finance and Operations et Dataverse. Notamment elle fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 
@@ -75,21 +71,21 @@ Si des données existent des deux côtés et si vous avez confirmé que le probl
 
 Vous pouvez recevoir un message d’erreur de type « Bad Request » qui ressemble à l’exemple suivant lorsque vous créez des données dans une application Finance and Operations.
 
-![Exemple de message d’erreur « Bad Request »](media/error_record_id_source.png)
+![Exemple de message d’erreur « Bad Request ».](media/error_record_id_source.png)
 
 Pour résoudre le problème, vous devez attribuer le rôle de sécurité correct à l’équipe de l’unité commerciale Dynamics 365 Sales ou Dynamics 365 Customer Service mappée pour activer le privilège manquant.
 
 1. Dans l’application Finance and Operations, recherchez l’unité commerciale mappée dans le jeu de connexions d’intégration de données.
 
-    ![Cartographie de l’organisation](media/mapped_business_unit.png)
+    ![Cartographie de l’organisation.](media/mapped_business_unit.png)
 
-2. Connectez-vous à l’environnement dans l’application pilotée par le modèle dans Dynamics 365, accédez à **Paramètre \> Sécurité** et recherchez l’équipe de l’unité commerciale mappée.
+2. Connectez-vous à l’environnement dans l’application d'engagement client, accédez à **Paramètre \> Sécurité** et recherchez l’équipe de l’unité commerciale mappée.
 
-    ![Équipe de l’unité commerciale cartographiée](media/setting_security_page.png)
+    ![Équipe de l’unité commerciale cartographiée.](media/setting_security_page.png)
 
 3. Ouvrez la page de l’équipe à modifier, puis sélectionnez **Gérer les rôles** pour ouvrir la boîte de dialogue **Gérer les rôles d’équipe**.
 
-    ![Bouton Gérer les rôles](media/manage_team_roles.png)
+    ![Bouton Gérer les rôles.](media/manage_team_roles.png)
 
 4. Attribuez le rôle disposant du privilège de lecture/écriture aux tables concernées, puis sélectionnez **OK**.
 
@@ -101,9 +97,9 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous créez des donn�
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Impossible de générer la charge utile pour vérifier CustCustomerV3Entity** », « logDateTime » : « 2019-08-27T18:51:52.5843124Z », « verboseError » : « Échec de la création de la charge utile avec l’erreur URI non valide : l’URI est vide. »}\], « isErrorCountUpdated » : true}*
 
-Voici à quoi ressemble l’erreur dans l’application pilotée par modèle dans Dynamics 365 :
+Voici à quoi ressemble l'erreur dans l'application d'engagement client :
 
-*Une erreur inattendue s’est produite depuis le code ISV. (ErrorType = ClientError) Exception inattendue depuis le plug-in (Execute) : Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: échec du triatement du compte d’entité - (Échec de la tentative de connexion, car la partie connectée n’a pas répondu correctement après un temps donné, ou la connexion établie a échoué en raison de l’absence de réponse de l’hôte connecté*
+*Une erreur inattendue s’est produite depuis le code ISV. (ErrorType = ClientError) Exception inattendue depuis le plug-in (Execute) : Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: échec du triatement du compte d’entité – (Échec de la tentative de connexion, car la partie connectée n’a pas répondu correctement après un temps donné, ou la connexion établie a échoué en raison de l’absence de réponse de l’hôte connecté*
 
 Cette erreur se produit lorsque l’environnement Dataverse est mal réinitialisé lorsque vous essayez de créer des données dans l’application Finance and Operations.
 
@@ -127,3 +123,5 @@ Pour régler le problème, procédez comme suit.
 
 3. Assurez-vous que la colonne **externalenvironmentURL** a l’URL Dataverse ou d’application appropriée. Supprimez toutes les lignes en double qui pointent vers la mauvaise URL Dataverse. Supprimez les lignes correspondantes dans les tables DUALWRITEPROJECTFIELDCONFIGURATION et DUALWRITEPROJECTCONFIGURATION.
 4. Arrêter le mappage de tables et le redémarrer
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

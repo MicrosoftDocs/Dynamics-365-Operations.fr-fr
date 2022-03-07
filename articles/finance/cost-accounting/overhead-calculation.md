@@ -2,9 +2,11 @@
 title: Calcul des frais généraux
 description: Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 882804141a6b520e2420343958c7a6b02a7e09ae
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551802"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208845"
 ---
 # <a name="overhead-calculation"></a>Calcul des frais généraux
 
@@ -29,7 +31,8 @@ ms.locfileid: "7551802"
 
 Cette rubrique décrit les processus habituels pour calculer et affecter des frais généraux.
 
-## <a name="term-definition"></a>Définition des termes
+<a name="term-definition"></a>Définition des termes
+---------------
 
 Les frais généraux sont les coûts qui sont imputés afin de gérer une entreprise, mais qui ne peuvent pas être attribués directement à aucun produit, activité, ou service spécifique. Les frais généraux permettent essentiellement l’identification des activités rémunératrices. Voici quelques exemples de frais généraux :
 
@@ -48,7 +51,7 @@ Le calcul des frais généraux exécute les stratégies de contrôle de gestion 
 
 Le calcul des frais généraux est effectué indépendamment de la version. Par conséquent, vous pouvez calculer la version de budget avant la version actuelle. Le calcul des frais généraux comporte quatre étapes, comme le montre l’illustration suivante. Dans chaque étape, un en-tête de journal avec des entrées de journal est créé. Cet en-tête de journal conserve les données de saisie pour chaque étape de calcul. Les stratégies et les règles s’appliquent à chaque ligne de journal, et les entrées de coût sont générées comme une sortie. Par conséquent, vous disposez toujours d’une traçabilité complète. 
 
-[![Calcul des frais généraux.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Calcul des frais généraux](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calculer et affecter les frais généraux Électricité
 Dans la comptabilité financière, certaines coûts, tels que l’électricité, sont enregistrés comme montant forfaitaire. Par conséquent, l’analyse détaillée n’est pas fournie pour le contrôle de gestion. Dans le Contrôle de gestion, pour fournir une analyse correcte entre toutes les unités et tous les niveaux de l’organisation, les coûts doivent suivre les unités organisationnelles. Ce flux doit reposer sur un enregistrement précis de la consommation ou sur une évaluation juste. Dans la comptabilité, le coût de l’électricité peut être validé comme indiqué dans le tableau suivant.
@@ -618,7 +621,7 @@ Pour plus d’informations, voir [Exécuter le calcul des frais généraux](cost
 
 La répartition est utilisée pour affecter le solde d’un objet de coût à d’autres objets de coût en appliquant une base de répartition. Finance prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l’ordre correct selon lequel exécuter les répartitions. Le solde d’un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d’objets de coût et leurs membres respectifs sont prises en charge. L’ordre de répartition est contrôlé par l’unité de contrôle des coûts. 
 
-[![Méthode réciproque.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Méthode réciproque](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Définir la répartition de coût
 
@@ -1328,12 +1331,83 @@ Le tableau suivant présente le résultat lorsque les services Emballage sont ut
 ## <a name="conclusion"></a>Conclusion
 Dans la comptabilité financière, un coût de 10 000,00 pour l’électricité est imputé sur un ID de centre de coût fictif. Par conséquent, les comptables sauront que ce coût doit être affecté. Dans le Contrôle de gestion, les coûts transitent entre les unités et les niveaux de l’organisation, selon les stratégies et les règles qui sont appliquées. Chacun coût est associé à une base de répartition qui fournit les meilleures évaluation de répartition des coûts.
 
-Élément de coût | Objet de coût<br>CC099 | Objet de coût<br>CC001 | Objet de coût<br>CC002 | Objet de coût<br>CC003 | Objet de coût<br>CC004 | Objet de coût<br>Proj 1 | Objet de coût<br>Proj 2 | Objet de coût<br>Prod 1 | Objet de coût<br>Prod 2 | Total
----|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
-10001 Électricité | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
-Non classifié | 0,00 |  |  |  |  |  |  |  |  |  |
-Coût fixe | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Coût variable | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2">Élément de coût</th>
+<th colspan="9">Objet de coût</th>
+<th rowspan="2">Total</th>
+</tr>
+<tr>
+<th>CC099</th>
+<th>CC001</th>
+<th>CC002</th>
+<th>CC003</th>
+<th>CC004</th>
+<th>Proj 1</th>
+<th>Proj 2</th>
+<th>Prod 1</th>
+<th>Prod 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">10001 Électricité</td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>30.00</strong></td>
+<td style="text-align: right;"><strong>10.00</strong></td>
+<td style="text-align: right;"><strong>7,770.57</strong></td>
+<td style="text-align: right;"><strong>2,189.43</strong></td>
+<td style="text-align: right;"><strong>10,000.00</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;">Non classifié</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Coût fixe</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">776.36</td>
+<td style="text-align: right;">223.64</td>
+<td style="text-align: right;"><strong>1 000,00</strong></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Coût variable</td>
+<td style="text-align: right;">000</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">30,00</td>
+<td style="text-align: right;">10,00</td>
+<td style="text-align: right;">6,994.21</td>
+<td style="text-align: right;">1,965.79</td>
+<td style="text-align: right;"><strong>9,000.00</strong></td>
+</tr>
+</tbody>
+</table>
 
 > [!NOTE]
 > Cette rubrique explique comment un élément de coût principal, 10001 Électricité, alimente les objets de coût. Par conséquent, ce coût de frais généraux est affecté au plus bas niveau dans l’organisation. Autrement dit, les objets de coût de plus bas niveau supportent le coût. Pour obtenir un flux visuel du coût entre les objets de coût, vous pouvez utiliser les règles de stratégie de repositionnement des coûts de visualiser le flux de coûts. Pour plus d’informations, voir [Stratégie de repositionnement des coûts et calcul des frais généraux](cost-rollup.md)..

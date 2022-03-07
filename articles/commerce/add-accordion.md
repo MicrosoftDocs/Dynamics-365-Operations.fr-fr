@@ -2,15 +2,12 @@
 title: Module d’accordéon
 description: Cette rubrique couvre les modules accordéon et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719525"
 ---
-# <a name="accordion-module"></a>Module d’accordéon
+# <a name="accordion-module"></a>Module Accordéon
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules accordéon et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules accordéon sont des modules de type conteneur qui sont utilisés pour organiser les informations ou les modules d’une page en fournissant une fonctionnalité de réduction de type tiroir. Un module d’accordéon peut être utilisé sur n’importe quelle page.
 
@@ -39,11 +34,11 @@ Les modules accordéon sont des modules de type conteneur qui sont utilisés pou
 
 L’image suivante montre un exemple de module d’accordéon utilisé pour organiser les informations sur la page des questions fréquemment posées (FAQ) d’un magasin.
 
-![Exemple d’un module d’accordéon](./media/ecommerce-accordion.PNG)
+![Exemple d’un module d’accordéon.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Propriétés du module d’accordéon
 
-| Nom de la propriété | Valeurs | Description |
+| Nom de la propriété | Valeurs | Description  |
 |---------------|--------|-------------|
 | En-tête | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’accordéon. |
 | Développer tout | **Vrai** ou **Faux** | Si la valeur est définie sur **Vrai**, la fonctionnalité de développement/réduction est activée, de sorte que tous les éléments du module d’accordéon peuvent être développés et réduits. |
@@ -87,3 +82,6 @@ Pour ajouter un module d’accordéon à une page de FAQ et définir ses propri�
 [Module Onglet](add-tab.md)
 
 [Module de bloc de texte](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

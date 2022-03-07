@@ -1,26 +1,23 @@
 ---
 title: Groupes de créditer du client
 description: Cette rubrique fournit des informations sur les groupes de crédits client.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1ddf41d88d085b102a7d69eeeff0ec463d8b4137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8a007dcaaa9e10ab36dd3a7d0f80dd49b8e4d63
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443136"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753848"
 ---
 # <a name="customer-credit-groups"></a>Groupes de créditer du client
 
@@ -39,3 +36,6 @@ Vous pouvez configurer des groupes de crédits client sur la page **Groupes de c
 Une fois la configuration d’un groupe de crédits client terminée, vous pouvez y ajouter des clients en spécifiant leur entité juridique et leur ID de compte client. Lorsque vous ajoutez un nouveau client à un groupe de crédits client, le système recherche le même compte client dans toutes les entités juridiques et vous invite à l’ajouter au groupe de crédits client.
 
 Utilisez le menu **Soldes échus** pour afficher les détails de balance âgée pour tous les clients facturés dans un groupe de crédits client. La page **Balance âgée** affiche un récapitulatif des soldes échus pour les comptes clients de facturation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

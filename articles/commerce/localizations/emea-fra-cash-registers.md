@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 17f31258b0890c9e79cbc2d8073d056772277287
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c112a16fd1d0e3d9f92c0f9a044e1909ab97c7b2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225699"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -356,3 +356,6 @@ Il existe une option pour configurer séparément le planificateur. Cliquez sur 
 
 Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal. Pour plus d’informations, voir les [instructions de déploiement](./emea-fra-deployment.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

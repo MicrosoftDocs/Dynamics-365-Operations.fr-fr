@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102808"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350520"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Déclarer comme terminé à partir du périphérique de bon de travail
 
@@ -218,9 +218,9 @@ Les processus d’entrepôt avancés peuvent utiliser la dimension de contenant 
 
 Pour utiliser les fonctionnalités décrites dans cette section, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes (dans cet ordre) :
 
-1. *Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail*<br>Depuis la version 10.0.21 de Supply Chain Management, cette fonctionnalité est activée par défaut. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.
-1. *Activer la génération automatique du numéro de contenant lors de la déclaration de fin dans le périphérique de bon de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
-1. *Imprimer une étiquette à partir d’un périphérique de bons de travail*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire.)
+1. Contenant pour la déclaration ajouté comme finalisé au périphérique pour bons de travail
+1. Activer la génération automatique du numéro de contenant lors de la déclaration de fin dans le périphérique de bon de travail
+1. Imprimer une étiquette à partir d’un périphérique de bons de travail
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Configurer la déclaration de fin à un contenant
 

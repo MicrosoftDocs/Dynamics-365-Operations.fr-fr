@@ -2,11 +2,9 @@
 title: Modifier les cellules de définition de ligne
 description: Cette rubrique décrit les informations nécessaires pour chaque cellule dans une définition de ligne sur un état financier et explique comment entrer ces informations.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e0bab0c9ecff1161612a6654209735b23a40aa6d085c6e83cdd44d3bf41e8b5e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734718"
 ---
 # <a name="modify-row-definition-cells"></a>Modifier les cellules de définition de ligne
 
@@ -69,7 +67,7 @@ Les exemples suivants sont des codes de ligne valides :
 La cellule de description fournit la description des données financières contenues dans la ligne de l’état, par exemple « Produit »ou « Revenu net ». Le texte dans la cellule **Description** apparaît dans l’état exactement comme il a été entré dans la définition de ligne.
 
 > [!NOTE]
-> La largeur de la colonne de description dans l’état est définie dans la définition de colonne. Si le texte dans la colonne **Description** dans la définition de ligne est long, vérifiez la largeur de la colonne **DESC**. Lorsque vous utilisez la boîte de dialogue **Insérer des lignes à partir de**, les valeurs dans la colonne **Description** sont les valeurs de segment ou les valeurs de dimension issues des données financières. Vous pouvez insérer des lignes pour ajouter un texte descriptif (par exemple, le titre ou le total d’une section) et ajouter une mise en forme (par exemple, une ligne avant une ligne de total). Si l’état inclut une arborescence de génération d’états, vous pouvez inclure le texte supplémentaire défini pour les unités de déclaration dans l’arborescence de génération d’états. Vous pouvez également limiter le texte supplémentaire à une unité de déclaration spécifique.
+> La largeur de la colonne de description dans l’état est définie dans la définition de colonne. Si le texte dans la colonne **Description** dans la définition de ligne est long, vérifiez la largeur de la colonne **DESC**. Lorsque vous utilisez la boîte de dialogue **Insérer des lignes à partir de**, les valeurs dans la colonne **Description** sont les valeurs de segment ou les valeurs de dimension issues des données financières. Vous pouvez insérer des lignes pour ajouter un texte descriptif (par exemple, le titre ou le total d’une section) et ajouter une mise en forme (par exemple, une ligne avant une ligne de total). Si l’état inclut une arborescence de génération d’états, vous pouvez inclure le texte supplémentaire défini pour les unités organisationnelles dans l’arborescence de génération d’états. Vous pouvez également limiter le texte supplémentaire à une unité organisationnelle spécifique.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Ajouter la description pour une ligne d’un état
 
@@ -83,12 +81,12 @@ La cellule de description fournit la description des données financières conte
 2. Entrez le code de texte supplémentaire et tout autre texte dans la cellule **Description** appropriée.
 3. Appliquez la mise en forme.
 
-### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Limiter le texte supplémentaire à une unité de déclaration spécifique
+### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Limiter le texte supplémentaire à une unité organisationnelle spécifique
 
 1. Dans le générateur d’état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
 2. Déterminez la ligne à laquelle le texte supplémentaire doit être créé, puis double-cliquez sur la cellule dans la colonne **Formules/lignes/unités associées**.
-3. Dans la boîte de dialogue **Sélectionner une unité de déclaration**, dans le champ **Arborescence de génération d’états**, sélectionnez une arborescence de génération d’états.
-4. Dans le champ **Sélectionner une unité de déclaration pour la restriction**, développez ou réduisez l’arborescence de génération d’états, puis sélectionnez une unité de déclaration.
+3. Dans la boîte de dialogue **Sélectionner une unité organisationnelle**, dans le champ **Arborescence de génération d’états**, sélectionnez une arborescence de génération d’états.
+4. Dans le champ **Sélectionner une unité organisationnelle pour la restriction**, développez ou réduisez l’arborescence de génération d’états, puis sélectionnez une unité organisationnelle.
 
 ## <a name="add-a-format-code"></a>Ajouter un code de format
 La cellule **Code de format** offre une sélection de mises en forme prédéfinies pour le contenu de cette ligne. Si la cellule **Code de format** est vide, la ligne est interprétée comme une ligne de détail de données financières.
@@ -128,13 +126,13 @@ La cellule **Formules/lignes/unités associées** a plusieurs fonctionnalités. 
 
 - Définir les lignes à inclure dans un calcul lorsque vous utilisez un code de format **TOT** ou **CAL**.
 - Lier une ligne de mise en forme à une ligne de montant, de sorte que la mise en forme soit imprimée uniquement lorsque le montant associé est imprimé.
-- Limiter une ligne à une unité de déclaration spécifique.
+- Limiter une ligne à une unité organisationnelle spécifique.
 - Définir la ligne de base des calculs lorsque vous utilisez le code de format **BASEROW**.
 - Définir les lignes à trier lorsque vous utilisez l’un des codes de format de tri.
 
 ### <a name="use-a-row-total-in-a-row-definition"></a>Utiliser un total de ligne dans une définition de ligne
 
-Utilisez une formule de total de ligne pour ajouter ou soustraire des montants dans d’autres lignes. Une formule de création d’un total de ligne peut inclure les opérateurs + et - pour combiner différents codes de lignes et plages. Les plages sont indiquées par un deux-points (:). La formule peut comporter jusqu’à 1 024 caractères. Voici un exemple d’une formule standard de totalisation : 400+420+430+450+460PASSIF+CAPITAUX PROPRES520 : 546520:546-PASSIF
+Utilisez une formule de total de ligne pour ajouter ou soustraire des montants dans d’autres lignes. Une formule de création d’un total de ligne peut inclure les opérateurs + et – pour combiner différents codes de lignes et plages. Les plages sont indiquées par un deux-points (:). La formule peut comporter jusqu’à 1 024 caractères. Voici un exemple d’une formule standard de totalisation : 400+420+430+450+460PASSIF+CAPITAUX PROPRES520 : 546520:546-PASSIF
 
 ### <a name="components-of-a-row-total-formula"></a>Composants d’une formule de total de ligne
 
@@ -176,7 +174,7 @@ Dans la colonne **Code de format** dans une définition de ligne, les codes de f
 
 Dans l’exemple suivant, un utilisateur souhaite empêcher que le titre et les traits de soulignement dans la ligne **Disponibilités totales** de son état soient imprimés, car il n’y a eu aucune activité dans aucun des comptes de disponibilités. Par conséquent, dans la ligne 220 (qui est une ligne de format comme l’indique le code de format **---**), dans la cellule **Formules/Lignes/Unités associées**, l’utilisateur entre **250**, qui est le code de ligne de la ligne de montant qu’il souhaite supprimer.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Sélectionner la ligne de base pour un calcul de colonne
 Dans la déclaration relationnelle, vous affectez une ou plusieurs lignes de base dans la définition de ligne à l’aide du code de format **CBR** (ligne de changement de base). Une ligne de base est alors référencée par un calcul dans la définition de colonne. Voici quelques exemples de typiques de calculs CBR :
@@ -401,7 +399,7 @@ La cellule **Lier aux dimensions financières** contient des liens vers des donn
 2. Double-cliquez sur une cellule dans la colonne **Lien vers les dimensions financières**.
 3. Dans la boîte de dialogue **Dimensions**, double-cliquez sur une cellule sous le nom de dimension.
 4. Dans la boîte de dialogue pour la dimension, sélectionnez **Individuelle ou plage**.
-5. Dans le champ **À partir de**, entrez la dimension de départ, ou cliquez sur ![Parcourir](media/browse.gif "Parcourir") pour rechercher des dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu’à**.
+5. Dans le champ **À partir de**, entrez la dimension de départ ou cliquez sur ![Parcourir.](media/browse.gif "Parcourir") pour rechercher les dimensions disponibles. Pour entrer une plage de dimensions, entrez la dimension de fin dans le champ **Jusqu’à**.
 6. Cliquez sur **OK** pour fermer la boîte de dialogue pour la dimension. La boîte de dialogue **Dimensions** affiche la dimension ou la plage mise à jour.
 7. Cliquez sur **OK** pour fermer la boîte de dialogue **Dimensions**.
 
@@ -478,7 +476,7 @@ Le tableau suivant décrit les champs de la boîte de dialogue **Dimensions**.
 
 | Article                | Description |
 |---------------------|-------------|
-| Individuelle ou plage | Dans le champ **À partir de**, entrez le nom d’un compte, ou cliquez sur le bouton **Parcourir** ![Parcourir](media/browse.gif "Parcourir") pour chercher le compte. Pour sélectionner une plage, entrez ou cherchez une valeur dans le champ **Jusqu’à**. |
+| Individuelle ou plage | Dans le champ **À partir de**, entrez le nom d’un compte, ou cliquez sur le bouton **Parcourir** ![Parcourir](media/browse.gif "Parcourir"). pour rechercher le compte. Pour sélectionner une plage, entrez ou cherchez une valeur dans le champ **Jusqu’à**. |
 | Ensemble de valeurs de dimension | Dans le champ **Nom**, entrez le nom d’un ensemble de valeurs de dimensions. Pour créer, modifier, copier ou supprimer un ensemble, cliquez sur **Gérer les ensembles de valeurs de dimension**. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour cette valeur de dimension définie dans la définition de ligne. |
 | Compte de totalisation   | Dans le champ **Nom**, entrez ou recherchez une dimension des comptes de totalisation. Le champ **Formule** est rempli avec la formule issue de la cellule **Lier aux dimensions financières** pour ce compte de totalisation dans la définition d’état. |
 
@@ -529,3 +527,6 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

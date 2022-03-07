@@ -1,24 +1,26 @@
 ---
 title: Solde de règlement
 description: Vous pouvez régler le montant restant de l’activité de règlement en appliquant ce montant à un compte général.
-author: twheeloc
-ms.date: 02/16/2022
+author: mikefalkner
+manager: aolson
+ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: db7f296a99da0eb106e8a10158340eef5642ef39
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208869"
 ---
 # <a name="settle-remainder"></a>Solde de règlement
 
@@ -27,10 +29,10 @@ ms.locfileid: "8182402"
 Vous pouvez régler le montant restant de l’activité de règlement en appliquant ce montant à un compte général ou à un autre client. Vous pouvez régler le solde lorsque vous réglez des montants entrés dans un journal ou lorsque vous réglez uniquement les transactions en cours.
 
 ## <a name="setting-up-defaults"></a>Paramétrage des valeurs par défaut 
-Vous devez activer la fonctionnalité **Solde de règlement** et définir les paramètres par défaut avant d’utiliser **Solde de règlement**.
+Vous devez activer la fonctionnalité Solde de règlement et définir les paramètres par défaut avant d’utiliser Solde de règlement
 
 1)  Cliquez sur **Comptabilité client > Paramètres > Règlements** ou **Comptabilité fournisseur > Paramètres > Règlements**
-2)  Sélectionnez l’onglet **Règlement** et cliquez sur **Activer le solde de règlement**.
+2)  Sélectionnez l’onglet **Règlement** et cliquez sur **Activer le solde de règlement**
 3)  Dans **Code motif par défaut**, sélectionnez un code motif par défaut. Les codes motif doivent avoir déjà été paramétrés dans **Comptabilité client > Paramétrage > Codes de motif d’annulation client** ou **Comptabilité fournisseur > Paramétrage > Codes de motif d’annulation client**. Le **Compte de solde de règlement par défaut** prendra comme valeur par défaut le compte affecté au code motif d’annulation.
 3)  Mettez à jour le **Compte de solde de règlement par défaut** si nécessaire.
 4)  Dans **Nom du journal par défaut**, sélectionnez un journal des paiements qui sera utilisé si vous souhaitez créer un journal des paiements lorsque vous réglez uniquement des transactions en cours. Si vous activez la fonctionnalité de solde de règlement, vous devez ajouter un nom de journal par défaut.
@@ -58,8 +60,8 @@ Vous pouvez également régler le solde lorsque vous réglez des transactions en
 
 Pour régler le solde, procédez comme suit :
 
-1)  Sur la page **Règlement**, sélectionnez les factures ou les transactions à régler.
-2)  Cliquez sur **Solde de règlement**.
+1)  Sur la page **Règlement**, sélectionnez les factures ou les transactions à régler
+2)  Cliquez sur **Solde de règlement**
 3)  Une boîte de dialogue s’affiche, affichant le montant qui sera réglé sur un compte général, la date qui sera utilisée pour régler le solde, le code motif par défaut des paramètres, et le compte par défaut des paramètres. 
 4)  Sélectionnez un nouveau motif de règlement si vous souhaitez modifier le motif par défaut. Le compte de règlement sera modifié avec le compte associé au code motif.
 5)  Modifiez le **compte de règlement** si vous le souhaitez.

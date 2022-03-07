@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 10b1804dc0b4ab6ea2074108429297e4ad95deaa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 012f5db5e524cd43ab1971d0eb72fddd13512104
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258149"
 ---
 # <a name="forecast-position-reports-for-the-public-sector"></a>États de poste de prévision pour le secteur public
 
@@ -48,3 +47,6 @@ Lorsque vous générez l’état, les paramètres par défaut suivants sont affi
 | Non exécuté uniquement | Définissez cette option sur Oui pour exclure des postes actuellement remplis. |
 | Supprimer le total | Définissez cette option sur Oui pour exclure les totaux de l’état. |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

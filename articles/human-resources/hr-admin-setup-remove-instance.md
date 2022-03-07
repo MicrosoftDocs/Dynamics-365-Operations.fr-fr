@@ -2,11 +2,9 @@
 title: Supprimer une instance
 description: Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418537"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889906"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 
@@ -35,7 +35,7 @@ Les tests Human Resources sont provisionnés avec une stratégie d’expiration 
 
 1. Accédez au [centre d’administration Power Apps](https://admin.businessplatform.microsoft.com/).
 2. Sélectionner **Environnements**.
-3. Sélectionnez l’environnement de test, avec un modèle de dénomination similaire à ceci : TestDrive - alias@domain
+3. Sélectionnez l’environnement de test, avec un modèle de dénomination similaire à ceci : TestDrive – alias@domain
 4. Sélectionnez **Supprimer** et confirmez la décision. 
 
 L’environnement de test existant est supprimé. Une fois supprimé, vous pouvez vous inscrire à un nouvel environnement de test. 
@@ -81,7 +81,10 @@ Pour restaurer l’environnement :
 
 1. Suivez les instructions dans [Récupérer l’environnement Power Apps](/power-platform/admin/recover-environment.md).
 
-2. Contactez le support pour restaurer l’environnement Human Resources. Pour plus d’informations, voir [Obtenir de l’aide](hr-admin-troubleshooting-support.md).
+2. Contactez le support pour restaurer l’environnement Human Resources. Pour plus d’informations, voir [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
 > Les environnements Power Apps ne sont enregistrés que pendant sept jours après la suppression. Vous devez récupérer l’environnement dans le délai de sept jours.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

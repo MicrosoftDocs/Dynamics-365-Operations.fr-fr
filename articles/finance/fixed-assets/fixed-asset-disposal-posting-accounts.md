@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3461
 ms.assetid: dfdc0730-e030-48cc-8d93-15bdc7b23776
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9a46125dbe5262ba388e3958ea452975a98243f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92b653d50744884d56c19601cff74c420eb1b397
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443153"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240968"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Comptes de validation de cession d’immobilisations
 
@@ -43,3 +42,6 @@ La transaction de cession d’une immobilisation dans un regroupement de faible 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

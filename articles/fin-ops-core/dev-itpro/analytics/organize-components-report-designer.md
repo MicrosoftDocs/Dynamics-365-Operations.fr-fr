@@ -1,12 +1,10 @@
 ---
 title: Organiser les composants d’état dans le concepteur d’état
-description: Après la création des blocs élémentaires et des états générés, il est utile d’organiser ces objets afin qu’ils soient plus faciles à localiser. Cet article explique comment organiser les états, les blocs élémentaires et les objets existants dans le générateur d’états.
+description: Cette rubrique explique comment organiser les états, les blocs élémentaires et les objets existants dans le générateur d’états.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763522"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organiser les composants d’état dans le concepteur d’état
 
@@ -148,3 +146,6 @@ Seuls les paramètres de période de base par défaut sont enregistrés avec la 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

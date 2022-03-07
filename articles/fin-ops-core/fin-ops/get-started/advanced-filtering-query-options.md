@@ -1,12 +1,10 @@
 ---
 title: Syntaxe de requête et de filtrage avancée
-description: Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
+description: Cette rubrique décrit les options de filtrage et de requête pour la boîte de dialogue Filtre/tri avancé et l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -17,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798668"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070007"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de **correspondances** dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 
@@ -37,7 +38,7 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <tr>
 <th>Syntaxe</th>
 <th>Description du caractère</th>
-<th>Description </th>
+<th>Description</th>
 <th>Exemple</th>
 </tr>
 </thead>
@@ -121,9 +122,9 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <td>Deux guillemets consécutifs (<strong>""</strong>) permettent de rechercher des lignes sans valeur pour la colonne actuelle.</td>
 </tr>
 <tr>
-<td>(<span class="code">Requête Finance and Operations</span>) (Requête Finance and Operations entre parenthèses)</td>
+<td>(<span class="code">Requête Finances et Opérations</span>) (Requête Finances et Opérations entre parenthèses)</td>
 <td>Correspond à une requête définie.</td>
-<td>Tapez une requête en tant qu’instruction SQL entre parenthèses à l’aide du langage de requête Finance and Operations.</td>
+<td>Tapez une requête en tant qu’instruction SQL entre parenthèses à l’aide du langage de requête Finances et Opérations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        en tant que syntaxe pour une condition de filtre sur un champ à partir de la source de données racine ainsi qu’un champ d’une autre source de données (pour la page Tous les clients)</td>
 </tr>
@@ -242,3 +243,6 @@ Consultez le tableau de la section suivante pour obtenir des informations suppl�
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

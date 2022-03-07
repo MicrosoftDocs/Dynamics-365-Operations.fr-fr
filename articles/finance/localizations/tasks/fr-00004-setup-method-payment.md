@@ -2,11 +2,9 @@
 title: FR-00004 Paramétrer le mode de paiement
 description: La procédure vous guide dans la configuration des modes de paiement d’établissement afin de vous aider à créer et valider la lettre de change après l’avoir approuvée dans le journal de création de lettres de change.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustVendPaymFormat
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e584142e1a5031e465817923872a0f353dfdea9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5ecaa429d8e02c5b41dacaf733d34bff5829900785b5c76d5ab79a9ad2143540
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781152"
 ---
 # <a name="fr-00004-setup-method-of-payment"></a>FR-00004 Paramétrer le mode de paiement
 
@@ -64,3 +62,6 @@ Pour effectuer cette procédure, vous devez avoir le rôle de responsable de la 
 20. Cochez ou décochez la case à cocher Exécuter le script d’exportation.
 21. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,66 +1,64 @@
 ---
 title: Gestion des tâches dans le PDV
-description: Cette rubrique décrit la gestion des tâches dans l'application PDV de Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412330"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772104"
 ---
 # <a name="task-management-in-pos"></a>Gestion des tâches dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la gestion des tâches dans l'application PDV de Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
-
-L'application PDV de Dynamics 365 Commerce dispose de fonctionnalités de gestion des tâches qui permettent aux responsables de magasin et aux employés de gérer les tâches et de mettre à jour leur statut. Les employés du magasin peuvent accéder aux tâches en sélectionnant la vignette **Tâches** sur la page d'accueil PDV ou en sélectionnant les notifications de tâche. Par défaut, les employés du magasin sont redirigés vers l'onglet **Mes tâches**, où ils peuvent afficher les tâches qui leur sont affectées. Cependant, ils peuvent facilement basculer vers les onglets **Tâches en retard**, **Tâches en cours** et **Listes de tâches**.
+L’application PDV de Dynamics 365 Commerce dispose de fonctionnalités de gestion des tâches qui permettent aux responsables de magasin et aux employés de gérer les tâches et de mettre à jour leur statut. Les employés du magasin peuvent accéder aux tâches en sélectionnant la vignette **Tâches** sur la page d’accueil PDV ou en sélectionnant les notifications de tâche. Par défaut, les employés du magasin sont redirigés vers l’onglet **Mes tâches**, où ils peuvent afficher les tâches qui leur sont affectées. Cependant, ils peuvent facilement basculer vers les onglets **Tâches en retard**, **Tâches en cours** et **Listes de tâches**.
 
 ## <a name="task-operations-for-store-managers"></a>Opérations de tâche pour les responsables de magasin
 
-Les responsables de magasin peuvent effectuer les opérations de tâche suivantes dans l'application PDV à l'aide des boutons de la barre de commandes :
+Les responsables de magasin peuvent effectuer les opérations de tâche suivantes dans l’application PDV à l’aide des boutons de la barre de commandes :
 
-- **Affecter** : permet d'affecter les tâches sélectionnées à un employé du magasin.
+- **Affecter** : permet d’affecter les tâches sélectionnées à un employé du magasin.
 - **Statut de la tâche** : permet de modifier le staut des tâches sélectionnées.
 - **Filtrer** : par défaut, seules les tâches actives sont affichées. Cependant, en appliquant des filtres, les responsables peuvent afficher toutes les tâches, même les tâches terminées ou annulées.
 - **Nouvelle tâche** : permet de créer une tâche dans une liste de tâches existante ou de créer une tâche à but unique.
 
-Les employés du magasin peuvent effectuer les opérations de tâche suivantes dans l'application PDV à l'aide des boutons de la barre de commandes :
+Les employés du magasin peuvent effectuer les opérations de tâche suivantes dans l’application PDV à l’aide des boutons de la barre de commandes :
 
 - **Statut de la tâche** : permet de modifier le staut des tâches sélectionnées.
 - **Filtrer** : par défaut, seules les tâches actives sont affichées. Cependant, en appliquant des filtres, les employés peuvent afficher toutes les tâches, même les tâches terminées ou annulées.
 
-L'illustration suivante présente l'onglet **Mes tâches** dans l'application PDV de Commerce.
+L’illustration suivante présente l’onglet **Mes tâches** dans l’application PDV de Commerce.
 
-![Onglet Mes tâches dans l'application PDV de Commerce](media/POS-task-management.png)
+![Onglet Mes tâches dans l’application PDV de Commerce.](media/POS-task-management.png)
 
-L'illustration suivante présente l'onglet **Liste de tâches**.
+L’illustration suivante présente l’onglet **Liste de tâches**.
 
-![Onglet Listes de tâches dans l'application PDV de Commerce](media/POS-task-lists-management.png)
+![Onglet Listes de tâches dans l’application PDV de Commerce.](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble de la gestion des tâches](task-mgmt-overview.md)
+[Vue d’ensemble de la gestion des tâches](task-mgmt-overview.md)
 
 [Configurer la gestion des tâches](task-mgmt-configure.md)
 
 [Créer des listes de tâches et ajouter des tâches](task-mgmt-create-lists.md)
 
 [Affecter des listes de tâches à des magasins ou des employés](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,30 +1,29 @@
 ---
 title: Page d’accueil Secteur public
-description: Microsoft Dynamics 365 Finance active les processus entreprise communs aux secteurs public et privé, comme les tâches de budgétisation, d’achat, de comptabilité fournisseur et de comptabilité client.
-author: ShylaThompson
-manager: AnnBe
+description: Dynamics 365 Finance prend en charge les processus métier courants du secteur public. Ces processus comprennent les tâches de budgétisation, d’achat, de comptabilité fournisseur et de comptabilité client.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 20691
+ms.custom:
+- "20691"
+- intro-internal
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458982"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817739"
 ---
 # <a name="public-sector-home-page"></a>Page d’accueil Secteur public
 
@@ -32,7 +31,7 @@ ms.locfileid: "4458982"
 
 Vous pouvez activer les processus métier communs aux secteurs public et privé, comme les tâches de budgétisation, d’achat, de comptabilité fournisseur et de comptabilité client. 
 
-La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d’états pour les organisations du domaine public. Les processus entreprise affectés sont : 
+La fonctionnalité Secteur public permet de se conformer aux règles, aux réglementations et aux conditions de génération d’états pour les organisations du domaine public. Les processus opérationnels affectés sont : 
 
 - Comptabilité de fonds, hiérarchies financières dérivées et définitions de validation pour les modules Comptabilité client et Comptabilité.
 - Budgets préliminaires, répartitions et engagements.
@@ -48,7 +47,7 @@ La fonctionnalité Secteur public permet de se conformer aux règles, aux régle
 - [Vue d’ensemble de budgétisation dans le secteur public](budgeting-public-sector.md)
 - [Immobilisations dans le secteur public](fixed-asset-public-sector.md)
 - [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md)
-- [Vue d’ensemble de comptabilité dans le secteur public](general-ledger-public-sector.md)
+- [Vue d’ensemble de Comptabilité dans le secteur public](general-ledger-public-sector.md)
 - [Approvisionnements (Secteur public)](procurement-sourcing-public-sector.md)
 - [Rôles de sécurité (Secteur public)](security-roles-public-sector.md)
 
@@ -60,17 +59,18 @@ La clé de configuration du **Secteur public** active les pages et les contrôle
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Comment la clé de configuration du Secteur public est-elle liée à d’autres clés de configuration ?
 Le tableau suivant fournit des informations sur le lien entre cette clé de configuration et les autres clés de configuration.
 
-|            |                                                                                                                                                                                                                     |
+|   **Détail**         |              **Description**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Détail** | **Description**                                                                                                                                                                                                     |
 | Clé parente | Aucune                                                                                                                                                                                                                |
 | Clés enfants | **Clé de configuration Écriture comptable avancée** (AdvancedLedgerEntry) **Clé de configuration Secteur public 1099G** (Tax1099G) **Clé de configuration Secteur public 1099S** (Tax1099S) **Clé de configuration Réglementation française** |
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Planifier la fonctionnalité Secteur public](plan-public-sector-functionality.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

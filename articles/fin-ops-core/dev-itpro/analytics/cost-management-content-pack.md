@@ -2,11 +2,9 @@
 title: Contenu Power BI Gestion des coûts
 description: Cette rubrique décrit les données incluses dans le contenu Power BI Gestion des coûts.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,25 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683893"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752638"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenu Power BI Gestion des coûts
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Le contenu Microsoft Power BI **Gestion des coûts** est prévu pour des comptables de stock ou des personnes de l’organisation responsables ou intéressés par le statut du stock ou des travaux en cours, ou responsables ou intéressés par l’analyse des écarts de coûts standard.
-
-> [!NOTE]
-> Le contenu Power BI **Gestion des coûts** décrit dans cette rubrique s’applique à Dynamics 365 Finance and Operations 8.0.
-> 
-> Le pack de contenu Power BI de **Gestion des coûts**, disponible sur le site AppSource, est devenu obsolète. Pour plus d’informations sur cette obsolescence, voir [Fonctionnalités supprimées ou abandonnées pour Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Ce contenu Power BI fournit un format catégorisé qui vous aide à surveiller les performances des stocks et à visualiser la manière dont le coût circulent. Vous pouvez obtenir des analyses managériales telles que le taux de rotation, le nombre de jours pendant lequel le stock est disponible, la précision, et la « classification ABC » à votre niveau agrégé préféré (société, article, groupe d’articles, ou site). Les informations rendues disponibles peuvent également être utilisées comme complément détaillé au tableau d’analyse.
 
@@ -195,7 +188,7 @@ Le tableau suivant montre les mesures clés calculées dans le contenu Power BI.
 | Taux de rotation du stock par montant | Taux de rotation du stock par montant = if(OR(\[Solde moyen de stock\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Problèmes de stock vendu ou utilisé\])/\[Solde moyen de stock\]) |
 | Solde moyen de stock          | Solde moyen de stock = ((\[Solde de fin\] + \[Solde de début\]) / 2) |
 | Nombre de jours de stock disponible             | Nombre de jours de stock disponible = 365/CostObjectStatementEntries\[Taux de rotation du stock par montant\] |
-| Précision du stock                 | Précision de l’inventaire par montant = IF(\[Solde de clôture\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Solde de clôture\] \< 0), 0, 1), MAX(0, (\[Solde de clôture\] - ABS(\[Montant compté en stock\]))/\[Solde de clôture\])) |
+| Précision du stock                 | Précision de l’inventaire par montant = IF(\[Solde de clôture\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Solde de clôture\] \< 0), 0, 1), MAX(0, (\[Solde de clôture\] – ABS(\[Montant compté en stock\]))/\[Solde de clôture\])) |
 
 Les dimensions clés suivantes sont utilisées comme filtres pour diviser les mesures globales afin d’atteindre une meilleure granularité et d’obtenir une analyse plus approfondie.
 
@@ -207,3 +200,6 @@ Les dimensions clés suivantes sont utilisées comme filtres pour diviser les me
 | Entités juridiques                                          | Noms d’entité juridique                              |
 | Calendriers fiscaux                                        | Calendrier fiscal, Année, Trimestre, Période, Mois   |
 | Site                                                    | ID, Nom, Adresse, Région, Pays               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

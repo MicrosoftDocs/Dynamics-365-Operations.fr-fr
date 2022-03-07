@@ -1,6 +1,6 @@
 ---
 title: Personnalisez les e-mails transactionnels par mode de livraison
-description: Cette rubrique décrit comment configurer des modèles d'e-mail personnalisés pour des types de notification et des modes de livraison spécifiques dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment configurer des modèles d’e-mail personnalisés pour des types de notification et des modes de livraison spécifiques dans Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
 ms.date: 11/16/2020
@@ -10,26 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: d0d96ddb20b2b09751d8c0c0bf8af713de35279a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594963"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222631"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personnalisez les e-mails transactionnels par mode de livraison
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personnaliser les e-mails transactionnels par mode de livraison
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
-Cette rubrique décrit comment configurer des modèles d'e-mail personnalisés pour des types de notification et des modes de livraison spécifiques dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit comment configurer des modèles d’e-mail personnalisés pour des types de notification et des modes de livraison spécifiques dans Microsoft Dynamics 365 Commerce.
 
 Les e-mails transactionnels peuvent désormais être personnalisés pour une combinaison d'un type de notification (par exemple, **Commande créée**, **Commande conditionnée**, ou **Commande facturée**) et un mode de livraison (par exemple, la nuit, le retrait en magasin ou le retrait à un point-relais). Les e-mails transactionnels personnalisés permettent aux détaillants de proposer à leurs clients des expériences de traitement adaptées au mode de livraison de la commande. Par exemple, l'événement "commande conditionnée" peut être personnalisé de manière à fournir des instructions de retrait en point-relais pour les clients qui choisissent ce mode de retrait. Il peut également fournir des informations sur le transporteur et la livraison aux clients qui choisissent de faire expédier leur commande.
 
@@ -73,3 +71,6 @@ Pour configurer des modèles d'e-mail pour des modes de livraison spécifiques a
 [Créer des commandes de centre d'appels](tasks/create-call-center-orders.md)
 
 [Modifier le mode de livraison dans le PDV](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Module des résultats de recherche
 description: Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919472"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117131"
 ---
 # <a name="search-results-module"></a>Module de résultats de recherche
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur les pages de catégorie et de résultats de reche
 
 L’illustration suivante montre un exemple de page des résultats de la recherche pour une catégorie sur le site Fabrikam.
 
-![Exemple de page des résultats de la recherche sur le site Fabrikam.](./media/SimpleCategoryLandingDressCategory.png)
+![Exemple de page des résultats de la recherche sur le site Fabrikam](./media/SimpleCategoryLandingDressCategory.png)
 
 ## <a name="search-results-module-properties"></a>Propriétés du module des résultats de recherche
 
@@ -83,58 +83,6 @@ Pour ajouter un module de résultats de recherche à une page de catégorie, pro
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
 1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Résultats de la recherche** que vous avez créé, entrez **Page des catégories** pour **Nom de la page**, puis cliquez sur **OK**. Étant donné que toutes les valeurs sont définies dans le modèle, la page est prête à être publiée.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
-
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Activer la connaissance du stock pour le module des résultats de recherche
-
-Les clients s’attendent généralement à ce qu’un site de commerce électronique tienne compte du stock tout au long de l’expérience de navigation, afin qu’ils puissent décider quoi faire s’il n’y a pas de stock pour un produit. Le module de résultats de recherche peut être amélioré afin d’intégrer les données de stock et de fournir les expériences suivantes :
-
-- Afficher une étiquette de disponibilité de stock avec les produits.
-- Cachez les produits en rupture de stock.
-- Afficher les produits en rupture de stock à la fin de la liste des résultats de recherche.
-    
-Pour activer ces expériences, vous devez configurer les paramètres prérequis suivants dans Commerce Headquarters.
-
-### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Activez la fonctionnalité Découverte de produits d’e-Commerce améliorée pour prendre en compte le stock
-
-> [!NOTE]
-> La fonctionnalité **Découverte améliorée des produits de commerce électronique pour tenir compte des stocks** est disponible à partir de Commerce version 10.0.20.
-
-Pour activer la fonctionnalité **Découverte améliorée des produits de commerce électronique pour tenir compte des stocks** dans Commerce Headquarters, procédez comme suit.
-
-1. Accédez à **Espaces de travail \> Gestion des fonctionnalités**.
-1. Recherchez la fonctionnalité **Découverte de produits d’e-Commerce améliorée pour prendre en compte le stock**, puis activez-la.
-
-### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Configurer la tâche Remplir les attributs de produit avec le niveau de stock
-
-La tâche **Remplir les attributs de produit avec le niveau de stock** crée un nouvel attribut de produit pour capturer la disponibilité du stock, puis définit cet attribut sur la dernière valeur de niveau de stock pour chaque produit principal. Étant donné que la disponibilité des stocks d’un produit ou d’un assortiment vendu change constamment, nous vous recommandons fortement de planifier le travail en tant que traitement par lots.
-
-Pour configurer la tâche **Remplir les attributs de produit avec le niveau de stock** dans Commerce Headquarters, suivez ces étapes.
-
-1. Accédez à **Retail et Commerce \> IT Retail et Commerce \> Produits et stock**.
-1. Sélectionnez **Remplir les attributs de produit avec le niveau de stock**.
-1. Dans la boîte de dialogue **Remplir les attributs de produit avec le niveau de stock**, procédez comme suit :
-
-    1. Sous **Paramètres**, dans le champ **Attribut de produit et nom du type**, spécifiez un nom pour l’attribut de produit dédié qui sera créé pour capturer la disponibilité du stock.
-    1. Sous **Paramètres**, dans le champ **Disponibilité des stocks en fonction de**, sélectionnez la quantité sur laquelle le calcul du niveau de stock doit être basé (par exemple, **Physique disponible**).
-    1. Sous **Exécuter en arrière-plan**, configurez le travail pour qu’il s’exécute en arrière-plan et activez éventuellement l’option **Traitement par lots**. 
-
-> [!NOTE]
-> Pour un calcul cohérent du niveau de stock sur les PDP et les pages de liste de produits sur votre site de commerce électronique, assurez-vous de sélectionner la même option de quantité pour **Disponibilité des stocks en fonction de** dans Commerce Headquarters et le paramètre **Niveau de stock basé sur** dans le générateur de site Commerce. Pour plus d’informations sur les paramètres du stock dans le générateur de site, voir [Appliquer les paramètres de stock](inventory-settings.md).
-
-### <a name="configure-the-new-product-attribute"></a>Configurer le nouvel attribut de produit
-
-Après l’exécution de la tâche **Remplir les attributs de produit avec le niveau de stock**, vous devez configurer l’attribut de produit nouvellement créé sur le site de commerce électronique sur lequel vous souhaitez activer la prise en compte du stock pour le module de résultats de recherche.
-
-Pour configurer le nouvel attribut de produit dans Commerce Headquarters, procédez comme suit.
-
-1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Catégories de canal et attributs de produit** et sélectionnez le site e-commerce.
-1. Sélectionnez et ouvrez un groupe d’attributs associé, ajoutez-y l’attribut de produit nouvellement créé, puis fermez la page.
-1. Sélectionnez **Définir les métadonnées d’attribut**, sélectionnez l’attribut de produit nouvellement ajouté, puis activez les options **Afficher l’attribut sur le canal**, **Récupérable**, **Peut être affiné** et **Peut être interrogé**.
-
-> [!NOTE]
-> Pour les produits qui sont affichés dans le module de résultats de recherche, le niveau de stock est saisi au niveau du produit principal au lieu du niveau de la variante individuelle. Il n’a que deux valeurs possibles : "disponible" et "en rupture de stock". Le texte réel des valeurs est extrait de la définition [Profil de niveau de stock](inventory-buffers-levels.md). Un produit principal est considéré comme en rupture de stock uniquement lorsque toutes ses variantes sont en rupture de stock. Le niveau de stock d’une variante est déterminé en fonction de la définition du profil de niveau de stock du produit. 
-
-Une fois toutes les étapes de configuration précédentes terminées, les affineurs sur les pages de résultats de recherche affichent un filtre basé sur le stock et le module de résultats de recherche récupère les données de stock en arrière-plan. Vous pouvez ensuite configurer le paramètre **Paramètres de stock pour les pages de liste de produits** dans le générateur de site Commerce pour contrôler la façon dont le module de résultats de recherche affiche les produits en rupture de stock. Pour plus d’informations, voir [Appliquer les paramètres de stock](inventory-settings.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

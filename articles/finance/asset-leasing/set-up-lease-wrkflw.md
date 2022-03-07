@@ -2,11 +2,11 @@
 title: Configurer les workflows d’approbation de bail
 description: La rubrique explique comment configurer un workflow d’approbation qui s’exécutera lors de la création d’un bail.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f99bb480e6ee2314852965ab9559bae2ad348fb92514d791fca127d91558348
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d5416b3b24d5fbb3ac46afb3c672212d41d42d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733633"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827552"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Configurer les workflows d’approbation de bail
 

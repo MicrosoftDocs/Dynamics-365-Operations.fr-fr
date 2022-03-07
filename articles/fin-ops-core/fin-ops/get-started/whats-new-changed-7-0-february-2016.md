@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics AX 7.0. Cette version contient des fonctions de plateforme et d’application et a été publiée en février 2016.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757217"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -182,10 +180,10 @@ Cette fonctionnalité fonctionne indépendamment des méthodes d’évaluation d
 <td>La plupart des clients ajoutent des couches de validation supplémentaires.</td>
 </tr>
 <tr>
-<td>Utilisez l’option N° document lié.</td>
+<td>Utilisez l’option Justificatif lié.</td>
 <td>Non disponible</td>
-<td>L’option N° document lié est disponible pour que les utilisateurs affichent le document dans la société de contrepartie lors de la validation des transactions intersociétés. Depuis les n° documents associés, les utilisateurs peuvent cliquer sur les détails et accéder rapidement au document de la société de contrepartie.</td>
-<td>Lors de la validation des transactions intersociétés, les utilisateurs n’avaient aucune visibilité ou ni aucun suivi du document qui était validé dans la société de contrepartie.</td>
+<td>L’option Justificatif lié est disponible pour que les utilisateurs affichent le document dans la société de contrepartie lors de la validation des transactions intersociétés. Depuis les justificatifs associés, les utilisateurs peuvent cliquer sur les détails et accéder rapidement au justificatif de la société de contrepartie.</td>
+<td>Lors de la validation des transactions intersociétés, les utilisateurs n’avaient aucune visibilité ou ni aucun suivi du justificatif qui était validé dans la société de contrepartie.</td>
 </tr>
 <tr>
 <td>Clôture de période comptable en masse</td>
@@ -485,7 +483,7 @@ Aucune nouvelle fonctionnalité n’a été ajoutée :
 <td>Cette modification unifie la configuration des règles d’application de la taxe au preneur et prend en charge l’adoption des règlements nationaux sur la taxe au preneur par pays/régions d’Europe.</td>
 </tr>
 <tr>
-<td>(DE) Générer le fichier d’audit allemand - GDPdUGoBD</td>
+<td>(DE) Générer le fichier d’audit allemand – GDPdUGoBD</td>
 <td>Les utilisateurs peuvent configurer la définition de tables contenant des données financières à exporter dans un format accepté par les autorités et les auditeurs allemands.</td>
 <td>La fonctionnalité a été implémentée comme configuration de génération d’états électroniques. Cette fonctionnalité est disponible pour l’Allemagne et l’Autriche.</td>
 <td>Cette modification offre à l’utilisateur beaucoup plus de possibilités de formatage des données, de transformations, ainsi que tous les avantages provenant de la gestion du cycle de vie de la configuration des états électroniques, comme l’échange de configuration, le contrôle des versions, etc..</td>
@@ -547,7 +545,7 @@ u<td>Les codes de marchandise de la déclaration d’échanges de biens est une 
 | Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
 | Prévenez l’utilisateur si une commande client ou un ordre de fabrication n’est pas prêt pour la livraison à la date prévue. | Les avertissements créés par la planification sont appelés *messages de perspectives*. Un contrat de type *Perspectives* est un contrat entre deux parties pour acheter ou vendre une immobilisation à un prix convenu le jour même (le *prix des perspectives*), bien que la livraison et le paiement se produisent à une date ultérieure (la *date de livraison*). | Les *messages de perspectives* et les *dates à venir* ont été renommés *retards calculés* et *dates retardées*, respectivement. | La terminologie utilisée dans AX 2012 était inexacte et provoquait des traductions incorrectes. |
-| Possibilité d’obtenir une analyse rapide du statut d’exécution d’une planification, des ordres prévisionnels urgents, et des ordres prévisionnels qui provoquent des retards. | Les informations sont disponibles, mais elles ont dispersées entre plusieurs écrans. | L’espace de travail **Planification** offre un aperçu de la date de la dernière exécution de la planification, si des erreurs ont eu lieu, quels sont les ordres prévisionnels urgents et quels ordres prévisionnels ont provoqué des retards. | Vous tirez profit de la vue d’ensemble fournie par l’espace de travail. Les informations pertinentes sont rassemblées pour guider la planification et aider à améliorer la productivité. |
+| Possibilité d’obtenir une analyse rapide du statut d’exécution d’une planification, des commandes prévisionnelles urgentes, et des commandes prévisionnelles qui provoquent des retards. | Les informations sont disponibles, mais elles ont dispersées entre plusieurs écrans. | L’espace de travail **Planification** offre un aperçu de la date de la dernière exécution de la planification, si des erreurs ont eu lieu, quelles sont les commandes prévisionnelles urgentes et quelles commandes prévisionnelles ont provoqué des retards. | Vous tirez profit de la vue d’ensemble fournie par l’espace de travail. Les informations pertinentes sont rassemblées pour guider la planification et aider à améliorer la productivité. |
 | Utilisation d’Excel pour mettre à jour les prévisions de la demande. | Non disponible | Vous pouvez tirer profit de l’intégration transparente dans Excel lorsque vous entrez des prévisions de la demande, que vous effectuez les mises à jour, et que vous supprimez des prévisions de la demande. | Cela permet d’augmenter le rendement et la productivité. |
 | Estimez la demande future et de créer des prévisions de la demande en fonction des données de transaction historiques. | Dans Microsoft Dynamics AX 2012 R3, les modèles prévus dans le service d’analyse Microsoft SQL Server sont utilisés pour créer des prévisions de la demande. | Estimation des demande futures à l’aide de la puissance et de l’extensibilité d’un service cloud Microsoft Azure Machine Learning. Il est facile d’utiliser et d’étendre les modèles de prévision dans Machine Learning pour répondre aux exigences des clients. Le service sélectionne le modèle qui concorde le mieux et offre des indicateurs de performance clés (KPI) pouvant servir à calculer l’exactitude de la prévision. | Génération de prévisions plus exactes à l’aide de techniques d’apprentissage automatique. |
 | Optimisation de la date et de la quantité de commande, selon une vue d’ensemble des actions associées à partir de l’exécution d’une planification générale. | La vue d’ensemble du graphique des actions est disponible mais affiche toutes les actions associées. Lorsque des actions sont appliquées, elles disparaissent immédiatement de la vue. | Le graphique des actions fournit une meilleure vue d’ensemble. Il inclut les options qui permettent d’afficher uniquement les actions appliquées et des actions directement associées. Lorsque des actions sont appliquées, elles semblent estompées mais sont toujours affichées. Par conséquent, la vue d’ensemble est conservée. Les informations supplémentaires sont ajoutées au plan d’actions pour afficher les données dans une page. | Vous tirez bénéfice de l’amélioration de la productivité, car vous pouvez vous concentrer uniquement sur les actions appropriées. |
@@ -734,7 +732,7 @@ Le serveur de vente au détail et la gestion des données permettent aux utilisa
 </tr>
 <tr>
 <td>Déplacez les données entre les services administratifs et les canaux Microsoft Dynamics AX via Commerce Data Exchange.</td>
-<td>Commerce Data Exchange est un système qui transfère des données entre Microsoft Dynamics AX et canaux de vente au détail, tels que des magasins en ligne et les magasins traditionnels. Pour plus d’informations, voir <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange est un système qui transfère des données entre Microsoft Dynamics AX et canaux de vente au détail, tels que des magasins en ligne et les magasins traditionnels. Pour plus d’informations, voir <a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Il y a une parité fonctionnelle avec Microsoft Dynamics AX 2012 CU8. Notez toutefois les informations suivantes :
 <ul>
 <li>Commerce Data Exchange a été repensé pour le cloud.</li>
@@ -1033,3 +1031,6 @@ Aucune nouvelle fonctionnalité n’a été ajoutée :
 [Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
 
 [Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944711"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799587"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Traitement des remboursements dans les centres d’appels
 
@@ -33,14 +33,11 @@ La logique du centre d’appels détermine le mode de paiement pour la ligne de 
 
 Le centre d’appels utilise le mode de paiement de la commande d’origine pour déterminer le mode de paiement à appliquer à un retour de commande. Voici comment ce processus fonctionne pour les modes de paiement originaux suivants :
 
-- **Normal** (espèces) ou **Chèque** - Lorsqu’un ordre de retour créé fait référence à une commande originale qui a été payée en utilisant le type de paiement normal (espèces) ou par chèque, l’application du centre d’appels référence les configurations sur la page **Modes de remboursement du centre d’appels**. Cette page permet aux organisations de définir, par devise de commande, la manière d’effectuer les remboursements aux clients pour les commandes payées à l’origine à l’aide du type de paiement normal ou par chèque. La page **Méthodes de remboursement du centre d’appels** permet également aux organisations de sélectionner si un chèque de remboursement généré par le système doit être envoyé au client. Dans ces scénarios, la logique du centre d’appels fait référence à la devise de l’ordre de retour, puis utilise la valeur **Mode de paiement au détail** de cette devise pour créer une ligne de paiement de remboursement sur la commande client de retour. Plus tard, un journal de paiement des comptes clients (AR) qui utilise le mode de paiement AR mis en correspondance est lié à la devise.
+- **Normal** (espèces) ou **Chèque** - Lorsqu’un ordre de retour créé fait référence à une commande originale qui a été payée en utilisant le type de paiement normal (espèces) ou par chèque, l’application du centre d’appels référence les configurations sur la page **Modes de remboursement du centre d’appels**. Cette page permet aux organisations de définir, par devise de commande, la manière d’effectuer les remboursements aux clients pour les commandes payées à l’origine à l’aide du type de paiement normal ou par chèque. La page **Modes de remboursement du centre d’appels** permet également aux organisations de choisir si un chèque de remboursement généré par le système est envoyé au client ou si un crédit de compte client est créé par rapport au solde du compte client interne. Dans ces scénarios, la logique du centre d’appels fait référence à la devise de l’ordre de retour, puis utilise la valeur **Mode de paiement au détail** de cette devise pour créer une ligne de paiement de remboursement sur la commande client de retour. Plus tard, un journal de paiement des comptes clients (AR) qui utilise le mode de paiement AR mis en correspondance est lié à la devise.
 
     L’illustration suivante montre la configuration d’un scénario dans lequel un client retourne des produits à partir d’une commande client liée à la devise USD, qui a été initialement payée à l’aide du type de paiement normal ou chèque. Dans ce scénario, un remboursement sera émis au client via un chèque de remboursement généré par le système. La mode de paiement AR **REF-CHK** a été configuré comme type de paiement par chèque de remboursement.
 
-    ![Configuration des méthodes de remboursement du centre d’appels pour les paiements par chèque et normaux.](media/callcenterrefundmethods.png)
-
-    > [!NOTE]
-    > Le compte client n’est pas une méthode de remboursement prise en charge pour les paiements en espèces ou par chèque.
+    ![Configuration des méthodes de remboursement du centre d’appels pour les paiements par chèque et normaux](media/callcenterrefundmethods.png)
 
 - **Carte de crédit** - Lorsqu’une commande de retour fait référence à une commande d’origine payée à l’aide d’une carte de crédit, la logique du centre d’appels pour les remboursements applique la même carte de crédit d’origine à la commande de retour.
 - **Carte de fidélité** - Lorsqu’une commande de retour fait référence à une commande d’origine payée à l’aide d’une carte de fidélité client, la logique du centre d’appels pour les remboursements applique le remboursement à la même carte de fidélité.
@@ -51,7 +48,7 @@ Si le type de paiement de la commande d’origine est inconnu pour une raison qu
 
 L’illustration suivante montre le champ **Mode de paiement** sur l’onglet **Retour marchandises/Retour** de la page **Paramètres du centre d’appels**.
 
-![Champ Mode de paiement sur l’onglet Retour marchandises/Retour de la page Paramètres du centre d’appels.](media/callcenterrefundparameters.png)
+![Champ Mode de paiement sur l’onglet Retour marchandises/Retour de la page Paramètres du centre d’appels](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > Les règles de traitement des remboursements décrites précédemment s’appliquent également aux commandes ou aux lignes de commande annulées par un utilisateur du centre d’appels dans Commerce Headquarters. Si l’annulation d’une commande ou de lignes de commande spécifiques entraîne des trop-perçus, les mêmes règles seront utilisées pour générer des lignes de paiement de remboursement.
@@ -85,7 +82,7 @@ L’option **Appliquer le crédit** ne peut être définie sur **Oui** que lorsq
 > [!NOTE]
 > Pour un ordre de retour qui n’a pas de commande de remplacement liée, si **Oui** est défini pour l’option **Appliquer le crédit**, cela n’aura aucun effet sur la logique de paiement des ordres de retour, car ce paramètre ne s’applique qu’aux commandes de remplacement.
 
-![Champ Appliquer le mode de paiement des crédits sur l’onglet Retour marchandises/Retour de la page Paramètres du centre d’appels.](media/callcenterrefundparameters1.png)
+![Champ Appliquer le mode de paiement des crédits sur l’onglet Retour marchandises/Retour de la page Paramètres du centre d’appels](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Si les utilisateurs qui créent des commandes de remplacement prévoient d’utiliser l’option **Appliquer le crédit**, ils ne doivent pas exécuter la fonction **Compléter** sur l’ordre de retour avant de définir l’option **Appliquer le crédit** sur **Oui**. Une fois la fonction **Compléter** exécutée, le paiement du remboursement est calculé et appliqué à la commande client de retour. Toute tentative de définir l’option **Appliquer le crédit** sur **Oui** après qu’un paiement de remboursement a déjà été calculé et appliqué ne déclenchera pas un recalcul du paiement de remboursement, et le mode de paiement sélectionné dans le champ **Appliquer le mode de paiement des crédits** ne sera pas appliqué. Si l’option **Appliquer le crédit** doit être utilisée dans ce contexte, l’utilisateur doit supprimer la commande de remplacement et le retour de marchandises, puis recommencer et créer un nouveau retour de marchandises. Cette fois, l’utilisateur doit s’assurer que l’option **Appliquer le crédit** est définie sur **Oui** avant que la fonction **Compléter** soit exécutée.
@@ -94,14 +91,14 @@ L’option **Appliquer le crédit** ne peut être définie sur **Oui** que lorsq
 
 Bien que la logique du centre d’appels détermine systématiquement le mode de paiement du remboursement de la manière décrite plus haut dans cette rubrique, les utilisateurs peuvent parfois souhaiter annuler ces paiements. Par exemple, un utilisateur peut modifier ou supprimer des lignes de paiement de remboursement existantes et appliquer de nouvelles lignes de paiement. Les remboursements calculés par le système ne peuvent être modifiés que par les utilisateurs disposant des autorisations de remplacement appropriées. Ces autorisations peuvent être configurées sur la page **Remplacer les autorisations** dans Retail et Commerce. Pour effectuer un remplacement de paiement de remboursement, l’utilisateur doit être lié à un rôle de sécurité où l’option **Autoriser un autre paiement** est définie sur **Oui** sur la page **Remplacer les autorisations**.
 
-![Autoriser une autre option de paiement sur la page Remplacer les autorisations.](media/overridepermissions.png)
+![Autoriser une autre option de paiement sur la page Remplacer les autorisations](media/overridepermissions.png)
 
 Une organisation peut également définir l’option **Autoriser le remplacement du paiement** sur **Oui** sur l’onglet **Retour marchandises/Retour** de la page **Paramètres du centre d’appels**. Dans ce cas, un code de dérogation de sécurité doit être sélectionné dans le champ **Code de remplacement de sécurité**. Le code de remplacement de sécurité est un code alphanumérique qui doit être géré en externe, car les utilisateurs ne peuvent pas l’afficher dans Commerce Headquarters après sa définition. Seules quelques personnes de confiance clés dans une organisation doivent connaître le code de remplacement de sécurité. Quand l’option **Autoriser le remplacement du paiement** est définie sur **Oui**, si des utilisateurs qui ne disposent pas des autorisations de rôle appropriées tentent de modifier le mode de paiement sur une commande de retour, ils auront la possibilité de saisir le code de remplacement de sécurité. S’ils ne le connaissent pas, ou si un responsable ou un superviseur ne peut pas le saisir sur la page pour eux, ils ne pourront pas remplacer le mode de paiement de retour.
 
 > [!NOTE]
 > Si le code de remplacement de sécurité est perdu ou oublié, l’organisation devra le réinitialiser en définissant un nouveau code de remplacement de sécurité dans le champ **Code de remplacement de sécurité** sur l’onglet **Retour marchandises/Retour** de la page **Paramètres du centre d’appels**.
 
-![Paramètres de remplacement de paiement dans l’onglet Retour marchandises/Retour de la page Paramètres du centre d’appels.](media/overridepaymentparameter.png)
+![Paramètres de remplacement de paiement dans l’onglet Retour marchandises/Retour de la page Paramètres du centre d’appels](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Avant que les organisations n’essaient d’annuler les remboursements qui utilisent des types de paiement par carte de crédit, elles doivent vérifier que leur processeur de carte de crédit autorise les retours non liés. De nombreux processeurs exigent que les remboursements soient reportés sur la carte d’origine. Toute tentative d’émettre un remboursement sur une carte qui n’a pas de capture précédente peut entraîner des échecs de publication avec le processeur.

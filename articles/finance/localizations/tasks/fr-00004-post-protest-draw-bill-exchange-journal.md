@@ -2,11 +2,9 @@
 title: FR-00004 Valider le journal de création et de contestation des lettres de change
 description: Cette procédure vous guide au cours des étapes des contestation d’une lettre de change impayée.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustOpenTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 43df1a7afb9ce076e67a863b5a02a711e5eaa201
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 36a2f917603f1af6de57f7ed9c0aa5cbb21c20750f72b1e4c365a9fbe51d1654
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780784"
 ---
 # <a name="fr-00004-post-protest-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de création et de contestation des lettres de change
 
@@ -54,3 +52,6 @@ Pour effectuer cette procédure, vous devez avoir le rôle de commis à la compt
 14. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
     * Vérifiez que le statut du journal récemment validé est Impayés. Si c’est le cas, le processus est terminé.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

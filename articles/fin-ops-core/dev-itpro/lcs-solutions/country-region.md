@@ -1,27 +1,25 @@
 ---
 title: Ressources de globalisation
 description: Cette rubrique liste des ressources utiles pour en savoir plus sur les fonctionnalisés et offres spécifiques aux pays/régions.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685051"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748463"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
@@ -55,7 +53,6 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 
 #### <a name="regulatory-updates"></a>Mises à jour réglementaires
 -   [Mises à jour réglementaires](../../../finance/localizations/regulatory-updates.md)
--   [Portail de localisation](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (mis à jour toutes les semaines)
 -   [Recherche d’incidents dans Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (mise à jour quotidiennement)
 
 #### <a name="communication-and-alerts"></a>Communication et alertes
@@ -133,3 +130,6 @@ Pour en savoir plus, consultez [Système d’aide](../../fin-ops/get-started/hel
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

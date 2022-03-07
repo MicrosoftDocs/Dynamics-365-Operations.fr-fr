@@ -2,11 +2,9 @@
 title: Vues enregistrées
 description: Cette rubrique décrit l’utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693699"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065704"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Introduction
 
@@ -49,9 +50,11 @@ Il existe deux variantes de taille pour le sélecteur de vue :
  
 Si vous sélectionnez le nom de la vue, le sélecteur de vue est ouvert et indique la liste des vues disponibles pour la page.
 
+**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue affiche les vues disponibles dans deux sections. La première section affiche toutes les vues spécifiques à l’entité juridique actuelle, tandis que la seconde affiche les vues disponibles pour toutes les entités juridiques. La première section n’est visible que s’il existe des vues spécifiques à l’entité juridique pour la page.
+
 - **Vue standard** – La vue **Standard** est la vue prédéfinie de la page, où aucune personnalisation explicite n’est appliquée.
 - **Vues personnelles** – Les vues sans verrou représentent vos vues personnelles. Ce sont des vues que vous avez créées ou qu’un administrateur vous a données.
-- **Vues verrouillées** – Certaines vues (par exemple la vue **Standard** et toutes les vues publiées pour votre rôle) ont un symbole du verrou en regard d’elles dans le sélecteur de vue. Ce symbole indique que vous ne pouvez pas modifier ces vues. Toutefois, les modifications qui reflètent l’utilisation de la page sont automatiquement enregistrées. Ces modifications incluent des modifications de la largeur d’une colonne de grille et des modifications de l’état développé ou réduit d’un organisateur. Toutefois, si vous disposez de privilèges de personnalisation, vous pouvez utiliser l’action **Enregistrer une copie** pour créer une vue personnelle basée sur la vue verrouillée.
+- **Vues verrouillées** – Certaines vues (par exemple la vue **Standard** et toutes les vues publiées pour votre rôle) ont un symbole du verrou en regard d’elles dans le sélecteur de vue. Ce symbole indique que vous ne pouvez pas modifier ces vues. Toutefois, les modifications qui reflètent l’utilisation de la page sont automatiquement enregistrées. Ces modifications incluent des modifications de la largeur d’une colonne de grille et des modifications de l’état développé ou réduit d’un raccourci. Toutefois, si vous disposez de privilèges de personnalisation, vous pouvez utiliser l’action **Enregistrer une copie** pour créer une vue personnelle basée sur la vue verrouillée.
 - **Nouvelles vues** – Les vues publiées qui n’ont pas encore été ouvertes sont marquées d’un symbole d’étincelle à gauche du nom de vue.
 
 Pour basculer vers une autre vue, ouvrez d’abord le sélecteur d’affichage et activer l’affichage que vous souhaitez charger. 
@@ -69,15 +72,18 @@ Si vous souhaitez enregistrer ces modifications, procédez comme suit.
 3. Pour créer une nouvelle vue :
 
     1. Sélectionnez **Enregistrer sous**. 
-    2. Entrez un nom de vue et (facultatif) une description.
-    3. Sélectionnez **Enregistrer**.
+    2. Dans le volet **Enregistrer la vue sous**, entrez un nom et, éventuellement, une description pour la vue.
+    3. Si vous souhaitez que cette vue soit votre vue par défaut, sélectionnez **Épingler par défaut**. Pour plus d’informations sur les vues par défaut, consultez la section suivante [Modification de la vue par défaut](#changing-the-default-view). 
+    4. **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, vous pouvez choisir si vous souhaitez que cette vue soit disponible pour toutes les entités juridiques ou uniquement pour un sous-ensemble d’entre elles.
+    5. Sélectionnez **Enregistrer**.
 
 ## <a name="changing-the-default-view"></a>Modification de la vue par défaut
 
 La vue par défaut est la vue que le système essaie d’ouvrir lorsque vous ouvrez pour la première fois la page. Vous devez définir la vue par défaut sur la vue que vous comptez utiliser le plus souvent. 
 
 > [!NOTE]
-> Il existe une vue globale par défaut unique pour toutes les entreprises. Si vous modifiez la vue par défaut, cette vue sera ouverte par défaut, quelle que soit l’entité juridique dans laquelle vous vous trouvez actuellement. 
+> - Dans la fonctionnalité de base **Vues enregistrées**, il existe une vue par défaut unique et globale pour toutes les entités juridiques. Si vous modifiez la vue par défaut, cette vue sera ouverte par défaut, quelle que soit l’entité juridique dans laquelle vous vous trouvez actuellement.
+> - **Version 10.0.21 ou ultérieure :** quand la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, chaque entité juridique peut avoir sa propre vue par défaut par page.
 
 Pour modifier la vue par défaut d’une page, procédez comme suit :
 
@@ -87,20 +93,23 @@ Pour modifier la vue par défaut d’une page, procédez comme suit :
 
 Sinon, lorsque vous créez une vue (à l’aide l’action **Enregistrer sous**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l’option **Épingler par défaut** avant d’enregistrer la vue.
 
-Notez que dans certains cas, la requête associée à la vue par défaut n’est pas exécutée pas lorsque vous ouvrez pour la première fois une page. Par exemple, si vous ouvrez la page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous ouvrez une page avec une vue **Standard** ayant déjà une requête définie, la requête initiale sera exécutée à la place de la requête par défaut de la vue. Dans ce cas, vous recevrez un message d’information lorsque la vue sera chargée. Si vous changez de vue après le chargement de la page, la requête de vue doit pouvoir être exécutée comme prévu. Dans la version 10.0.10 et les versions ultérieures, le message d’information que vous recevez aura une action intégrée vous permettant de charger directement la requête de la vue par défaut.
+> [!WARNING]
+> Dans certains cas, la requête associée à la vue par défaut n’est pas exécutée lorsque vous ouvrez pour la première fois une page. Par exemple, si vous ouvrez la page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous ouvrez une page avec une vue **standard** ayant déjà une requête définie, la requête initiale sera exécutée à la place de la requête de la vue par défaut. Dans ce cas, vous recevrez un message d’information lorsque la vue sera chargée. Si vous changez de vue après le chargement de la page, la requête de vue doit pouvoir être exécutée comme prévu. Dans la version 10.0.10 et les versions ultérieures, le message d’information que vous recevez aura une action intégrée vous permettant de charger directement la requête de la vue par défaut.
 
 ## <a name="managing-personal-views"></a>Gestion des vues personnelles
 
 La boîte de dialogue **Gérer mes vues** vous donne des fonctionnalités de gestion de base sur vos vues personnelles et l’ordre des vues dans le sélecteur de vue. Pour ouvrir cette page, sélectionnez le nom de vue pour ouvrir le menu déroulant du sélecteur de vue, sélectionnez **Plus**, puis sélectionnez **Gérer mes vues**.
 
+**Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, la section **Mes vues** de la boîte de dialogue **Gérer mes vues** affiche les vues disponibles pour la page dans des sections. Toutes les vues spécifiques à l’entité juridique actuelle sont affichées dans leur propre section. La section **Vues globales** est toujours affichée, afin que vous puissiez gérer les vues disponibles pour la page dans toutes les entités juridiques. 
+
 Pour obtenir une liste des vues disponibles pour cette page, l’ensemble d’actions suivant est disponibles.
 
-- **Modifier la vue par défaut** – Utilisez l’action **Épingler par défaut** pour faire de la vue actuelle sélectionnée la vue par défaut de cette page.
+- **Modifier la vue par défaut** – Utilisez l’action **Épingler par défaut** pour faire de la vue actuelle sélectionnée la vue par défaut de cette page. Si la fonctionnalité **Importer la prise en charge des entités juridiques pour les vues enregistrées** est activée, la section **Vues globales** vous permet de faire d’une vue la vue par défaut de l’entité juridique actuelle ou de toutes les entités juridiques.
 - **Réorganiser vos vues** – Utilisez les actions **Déplacer vers le haut** et **Déplacer vers le bas** pour réorganiser les vues dans un ordre spécifique.
 - **Renommer une vue** – Utilisez l’action **Renommer** pour modifier le nom de la vue personnelle actuelle sélectionnée. Cette action est désactivée pour les vues verrouillées. 
 - **Supprimer une vue** – Utilisez l’action **Supprimer** pour supprimer définitivement la vue actuelle sélectionnée de la page. Il n’existe aucune façon de récupérer une vue après l’avoir supprimer.
 
-Tous les modifications effectuées dans cette boîte de dialogue prennent effet après avoir sélectionné le bouton **Enregistrer**.
+Tous les modifications effectuées dans cette boîte de dialogue prennent effet après avoir sélectionné le bouton **Mettre à jour**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Gérer les personnalisations au niveau organisationnel avec des vues
 
@@ -123,19 +132,34 @@ Pour publier une vue, procédez comme suit :
 1. Créez et enregistrez une copie personnelle de la vue à publier. 
 2. Avec cette vue actuellement chargée, sélectionnez le nom de vue pour ouvrir le menu déroulant du sélecteur de vue. 
 3. Sélectionnez le bouton **Plus**, puis sélectionnez **Publier**. La boîte de dialogue Publier s’affiche.
-4. Entrez un nom et (facultatif) une description pour la vue. Le nom que vous entrez est celui que les utilisateurs qui reçoivent cette vue verront dans leurs sélecteurs de vue. Les noms des vues publiées pour une page doivent être uniques. Aucun doublon de nom n’est autorisé, même si la liste des rôles ou des entités juridiques auxquelles les vues sont appliquées diffèrent.
-5. **Version 10.0.9 et versions ultérieures :** Déterminez si la vue doit être publiée comme vue par défaut pour les utilisateurs sélectionnés. Lorsqu’une vue est définie comme vue par défaut, les utilisateurs la voient la prochaine fois qu’ils ouvriront la page cible. La vue par défaut unique et globale de chaque utilisateur ciblé sera modifiée. Cependant, les utilisateurs peuvent toujours modifier leur vue par défaut après la publication.
-6. Ajoutez les rôles de sécurité qui correspondent aux utilisateurs ciblés par cette vue. 
-7. **Version 10.0.13 et versions ultérieures :** Déterminez si vous souhaitez publier la vue dans les rôles enfants de chaque rôle de sécurité sélectionné. Si vous le faites, cochez la case **Inclure les rôles enfants** de la ligne des rôles de sécurité appropriés. Notez que cette case à cocher n’est pas disponible pour les rôles qui n’ont pas de rôle enfant.
-7. Ajoutez les entités juridiques pour lesquelles cette vue doit être disponible. 
-8. Sélectionnez **Publier**.
+4. Entrez un nom pour la vue. Le nom que vous entrez est celui que les utilisateurs qui reçoivent cette vue verront dans leurs sélecteurs de vue. Les noms des vues publiées pour une page doivent être uniques. Aucun doublon de nom n’est autorisé, même si la liste des rôles ou des entités juridiques auxquelles les vues sont appliquées diffèrent.
+5. **Mise à jour 10.0.17 ou ultérieure :** si la fonctionnalité **(Version préliminaire) Prise en charge de la traduction pour les vues d’organisation** est activée, vous pouvez ajouter des traductions pour le nom de votre vue dans autant de langues requises par votre organisation en sélectionnant le bouton **Traductions** en regard du champ **Nom**. Le nom de la vue sera alors affiché aux utilisateurs dans leur langue actuelle. Vous pouvez également définir la langue par défaut pour spécifier la traduction qui sera affichée aux utilisateurs qui exécutent des langues pour lesquelles aucune traduction n’est définie.
+5. Facultatif : entrez une description pour la vue afin que les utilisateurs qui la reçoivent puissent mieux comprendre son objectif. 
+6. Déterminez si la vue doit être publiée comme vue par défaut pour les utilisateurs sélectionnés. Lorsqu’une vue est définie comme vue par défaut, les utilisateurs la voient la prochaine fois qu’ils ouvriront la page cible. La vue par défaut unique et globale de chaque utilisateur ciblé sera modifiée. Cependant, les utilisateurs peuvent toujours modifier leur vue par défaut après la publication.
+
+    > [!NOTE]
+    > Tenez compte du comportement suivant lorsque vous publiez une vue comme vue par défaut :
+    >
+    > - Si vous publiez une vue en tant que vue par défaut pour certaines ou toutes les entités juridiques, le comportement suivant se produit :
+    >
+    >    - Si seule la fonctionnalité de base **Vues enregistrées** est activée, la vue unique et globale par défaut sera modifiée pour chaque utilisateur ciblé. 
+    >    - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée et que vous publiez la vue sur un sous-ensemble d’entités juridiques, la vue par défaut de ces entités juridiques sera modifiée pour chaque utilisateur ciblé.
+    >
+    > - Si un utilisateur a des rôles dans lesquels plusieurs vues sont publiées comme vue par défaut, la dernière vue publiée sera utilisée comme vue par défaut de l’utilisateur. 
+
+8. Ajoutez les rôles de sécurité qui correspondent aux utilisateurs ciblés par cette vue. 
+9. Déterminez si vous souhaitez publier la vue dans les rôles enfants de chaque rôle de sécurité sélectionné. Si vous le faites, cochez la case **Inclure les rôles enfants** de la ligne des rôles de sécurité appropriés. Notez que cette case à cocher n’est pas disponible pour les rôles qui n’ont pas de rôle enfant.
+10. Ajoutez les entités juridiques pour lesquelles cette vue doit être disponible. 
+
+    > [!NOTE]
+    > Tenez compte du comportement suivant si vous publiez une vue sur une entité juridique spécifique, mais que vous ne publiez pas cette vue comme vue par défaut :
+    >
+    > - Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique.
+    > - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées.
+
+11. Cliquez sur **Publier**.
 
 Notez que dans certains environnements, il peut prendre un certain temps (jusqu’à une heure) avant que les utilisateurs voient la vue publiée.
-
-> [!NOTE]
-> Tenez compte des attentes suivantes lorsque vous publiez une vue dans une entité juridique ou lorsque vous publiez une vue comme vue par défaut.
-> - Si vous publiez une vue comme vue par défaut pour toutes ou certaines entités juridiques, vous modifiez la vue par défaut unique et globale de chaque utilisateur ciblé. Si un utilisateur a des rôles dans lesquels plusieurs vues sont publiées comme vue par défaut, la dernière vue publiée sera utilisée comme vue par défaut de l’utilisateur. 
-> - Si vous publiez une vue dans une entité juridique, mais que vous ne la publiez pas comme vue par défaut, les utilisateurs ne verront initialement la vue dans le sélecteur de vue que pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, elle sera toujours dans le sélecteur de vue de l’utilisateur pour cette page, quelle que soit l’entité juridique. 
 
 ## <a name="modifying-a-published-view"></a>Modifier une vue émise
 
@@ -146,27 +170,15 @@ Si les modifications que vous souhaitez appliquer à une vue publiée impliquent
 1. Passez à la vue publiée pour les paramètres que vous souhaitez mettre à jour. 
 2. Dans le menu déroulant du sélecteur de vue, sélectionnez **Republier** . Si vous utilisez la version 10.0.12 ou une version antérieure, vous devez sélectionner **Publier**, puis **Oui** pour mettre à jour la vue existante.
 3. Mettez à jour le nom, la description, les rôles de sécurité et les entités légales pour la vue. 
-4. Sélectionnez **Publier**. 
-5. **Version 10.0.8 et versions antérieures :** Si vous avez mis à jour le nom de la vue publiée, vous devez également supprimer la vue publiée qui porte l’ancien nom. (Pour plus d’informations, voir la section [Gestion des vues publiées](saved-views.md#managing-published-views).)
+4. Sélectionnez **Publier**. Si vous avez sélectionné à l’origine cette vue publiée comme vue par défaut, elle sera à nouveau la vue par défaut pour les utilisateurs une fois que vous l’aurez republiée. 
 
-**Version 10.0.9 et versions ultérieures :** Si vous avez sélectionné à l’origine cette vue publiée comme vue par défaut, elle sera à nouveau la vue par défaut pour les utilisateurs une fois que vous l’aurez republiée.
-
-Si les modifications de la vue publiée impliquent de modifier les personnalisations ou les filtres associés à la vue, procédez comme suit : 
-
-**Version 10.0.13 et versions ultérieures :** Apportez les modifications requises directement à la vue. Un astérisque (\*) doit apparaître à côté du nom de la vue.
+Si les modifications de la vue publiée impliquent des modifications des personnalisations ou des filtres associés à la vue, procédez comme suit.
 
 1. Chargez la vue publiée que vous souhaitez modifier. 
 2. Apportez les modifications requises au brouillon local.
 3. Dans le menu déroulant du sélecteur de vue, sélectionnez **Republier** .
 4. Sélectionnez **Oui** pour indiquer que vous souhaitez publier la vue avec ses modifications non enregistrées. 
 5. Ajustez tous les paramètres de publication qui nécessitent un ajustement, puis sélectionnez **Publier**. 
-
-**Version 10.0.12 et versions antérieures**
-
-1. Chargez la vue publiée que vous souhaitez modifier. 
-2. Enregistrez une copie de la vue publiée pour créer un brouillon local de la vue publiée. 
-3. Modifiez le brouillon local avec les modifications nécessaires.
-4. Publiez la vue avec le nom d’origine. 
 
 ## <a name="managing-published-views"></a>Gestion des vues publiées
 
@@ -179,22 +191,23 @@ Pour obtenir la liste de toutes les vues publiées pour la page, l’ensemble d�
 - **Republier** – Utilisez l’action **Republier** pour republier une vue après que les paramètres de publication (nom, description, rôles de sécurité ou entités juridiques) ont été modifiés.
 - **Publier** – Utilisez l’action **Publier** pour publier une vue actuellement non publiée. 
 - **Annuler la publication** – Utilisez l’action **Annuler la publication** pour rendre une vue inactive. La vue sera toujours disponible dans le système, mais les utilisateurs ne la verront pas dans le sélecteur de vue tant que la vue ne sera pas publiée à nouveau.
-- **Enregistrer comme personnel** – Utilisez l’action **Enregistrer comme personnel** pour créer un brouillon personnel de la vue publiée. Cette fonctionnalité peut vous aider à comprendre le contenu d’une vue qui n’a pas été publiée pour vous ou qui n’a pas encore été publiée. Vous pouvez également l’utiliser pour modifier puis republier une vue. Cette fonctionnalité est introduite dans la version 10.0.12.
+- **Enregistrer comme personnel** – Utilisez l’action **Enregistrer comme personnel** pour créer un brouillon personnel de la vue publiée. Cette fonctionnalité peut vous aider à comprendre le contenu d’une vue qui n’a pas été publiée pour vous ou qui n’a pas encore été publiée. Vous pouvez également l’utiliser pour modifier puis republier une vue.
 - **Supprimer** – Utilisez l’action **Supprimer** pour supprimer définitivement une vue publiée ou non publiée. Cette action permet également de supprimer la vue pour tous les utilisateurs du système. La suppression des vues publiées prend effet après la sélection du bouton **Enregistrer**. Une fois qu’une vue est supprimée, elle ne peut pas être récupérée. 
 
 ## <a name="managing-views-globally"></a>Gestion globale des vues
 
 Bien que certaines fonctionnalités de gestion soient présentées sur chaque page, comme indiqué dans cette rubrique, les **administrateurs système** et les **administrateurs de vues enregistrées** peuvent gérer les vues de manière plus globale pour le système via la page **Personnalisation**. En particulier, cette page comporte les sections et fonctionnalités suivantes : 
 
-- **Vues publiées** – Cette section répertorie toutes les vues qui ont été publiées pour votre organisation. À partir de là, vous pouvez republier une vue après avoir ajusté les rôles de sécurité ou les entités juridiques ciblées par la vue. Vous pouvez également publier, supprimer ou annuler la publication des vues. Dans la version 10.0.12 et les versions ultérieures, vous pouvez utiliser l’action **Enregistrer comme personnel** pour créer une copie personnelle d’une vue, afin de pouvoir la mettre à jour ou mieux comprendre son contenu. 
-- **Vues non publiées** – Cette section répertorie toutes les vues d’organisation de votre système qui ne sont pas actuellement publiées. Ces vues entrent le plus souvent dans le système via la fonction d’importation. Vous pouvez publier, exporter ou supprimer ces vues. L’action **Publication rapide** ajoutée dans la version 10.0.12 permet de publier plusieurs vues de cette section en une seule action, en utilisant le rôle de sécurité et les configurations d’entité juridique existants. Dans la version 10.0.12 et les versions ultérieures, vous pouvez utiliser l’action **Enregistrer comme personnel** pour créer des copies personnelles de ces vues, afin de pouvoir mieux comprendre leur contenu.
+- **Vues publiées** – Cette section répertorie toutes les vues qui ont été publiées pour votre organisation. À partir de là, vous pouvez republier une vue après avoir ajusté les rôles de sécurité ou les entités juridiques ciblées par la vue. Vous pouvez également publier, supprimer ou annuler la publication des vues. Vous pouvez utiliser l’action **Enregistrer comme personnel** pour créer une copie personnelle d’une vue, afin de pouvoir la mettre à jour ou mieux comprendre son contenu. 
+- **Vues non publiées** – Cette section répertorie toutes les vues d’organisation de votre système qui ne sont pas actuellement publiées. Ces vues entrent le plus souvent dans le système via la fonction d’importation. Vous pouvez publier, exporter ou supprimer ces vues. L’action **Publication rapide** ajoutée dans la version 10.0.12 permet de publier plusieurs vues de cette section en une seule action, en utilisant le rôle de sécurité et les configurations d’entité juridique existants. Vous pouvez utiliser l’action **Enregistrer comme personnel** pour créer des copies personnelles de ces vues, afin de pouvoir mieux comprendre leur contenu.
 - **Vues personnelles** :– Cette section répertorie toutes les vues créées par les utilisateurs dans le système. De là, vous pouvez publier une vue personnelle dans l’organisation, ou copier une ou plusieurs de ces vues pour d’autres utilisateurs. Vous pouvez également exporter ou supprimer ces vues au besoin.
 - **Paramètres utilisateur** – Sélectionnez un utilisateur à afficher ou ajustez la capacité de l’utilisateur à utiliser la personnalisation pour l’ensemble du système ou pour des pages spécifiques que l’utilisateur a visitées. Vous pouvez afficher et interagir avec les personnalisations de l’utilisateur dans le système. Vous pouvez également supprimer toutes les personnalisations pour cet utilisateur ou réinitialiser les légendes de fonctionnalités pour l’utilisateur. Si les légendes des fonctionnalités sont réinitialisées, les fenêtres contextuelles qui introduisaient de nouvelles fonctionnalités et ignorées précédemment par l’utilisateur s’afficheront de nouveau la prochaine fois que l’utilisateur rencontre ces fonctionnalités.
 - **Paramètres système** – Vous pouvez désactiver temporairement la personnalisation de l’ensemble des utilisateurs du système. Dans ce cas, aucune personnalisation n’est appliquée pour les utilisateurs, et toutes les pages sont rétablies à leur état par défaut. Si vous réactivez la personnalisation ultérieurement, toutes les personnalisations sont réappliquées. Vous pouvez également supprimer définitivement toutes les personnalisations pour l’ensemble des utilisateurs du système. Les personnalisations qui ont été supprimées ne peuvent être restaurées. Par conséquent, avant d’effectuer cette tâche, veillez à exporter les personnalisations que vous souhaitez utiliser ultérieurement.
 
-Les utilisateurs qui ont accès à la page **Personnalisation** peuvent également importer des vues personnelles ou d’organisation à l’aide du bouton **Importer les vues** du volet Actions. Dans la version 10.0.12 et les versions ultérieures, un mécanisme a été ajouté pour publier immédiatement les vues lors de leur importation.
+Les utilisateurs qui ont accès à la page **Personnalisation** peuvent également importer des vues personnelles ou d’organisation à l’aide du bouton **Importer les vues** du volet Actions. Pour les vues d’organisation, vous pouvez sélectionner **Publier immédiatement** pour rendre les vues disponibles aux utilisateurs sans publication explicite supplémentaire.
 
 ## <a name="known-issues"></a>Problèmes connus
+
 Pour obtenir une liste des problèmes connus liés aux vues enregistrées, voir [Créer des formulaires qui utilisent pleinement les vues enregistrées](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
@@ -202,29 +215,9 @@ Pour obtenir une liste des problèmes connus liés aux vues enregistrées, voir 
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Comment activer des vues enregistrées dans mon environnement ?
 
 > [!NOTE]
-> La fonctionnalité **Vues enregistrées** nécessite l’activation du système de personnalisation dans Finance and Operations. Si la personnalisation est désactivée pour tout l’environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
+> La fonctionnalité **Vues enregistrées** nécessite l’activation du système de personnalisation dans Finances et Opérations. Si la personnalisation est désactivée pour tout l’environnement, les vues sont désactivées même si vous suivez la procédure ci-dessous. 
 
-**Version 10.0.13 et versions ultérieures**
-
-La fonctionnalité **Vues enregistrées** n’est plus en aperçu. Elle est désormais disponible directement via la Gestion des fonctionnalités dans n’importe quel environnement.
-
-**Versions 10.0.9 à 10.0.12**
-
-La fonctionnalité **Vues enregistrées** est disponible directement dans la gestion des fonctionnalités de tout environnement. Comme pour les autres fonctionnalités d’aperçu, l’activation de cette fonctionnalité en production est soumise à l’[accord supplémentaire Conditions d’utilisation](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8 / Platform Update 32 et versions précédentes**
-
-La fonctionnalité **Vues enregistrées** peut être activée dans les environnements de niveau 1 (développement/test) et de niveau 2 (bac à sable) afin de fournir des tests et des modifications de conception supplémentaires en suivant les étapes ci-dessous.
-
-1. **Activer la version d’évaluation** : Exécutez l’instruction SQL suivante : 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **Réinitialiser IIS** pour vider le cache de la version d’évaluation statique. 
-3. **Rechercher la fonctionnalité** : accédez à l’espace de travail **Gestion des fonctions**. Si l’option **Vues enregistrées** n’apparaît pas dans la liste, sélectionnez **Rechercher des mises à jour**.
-4. **Activer la fonctionnalité** : Recherchez la fonctionnalité **Vues enregistrées** dans la liste des fonctionnalités, puis sélectionnez **Activer maintenant** dans le volet des détails.
-
-Toutes les sessions utilisateur suivantes démarreront avec les vues enregistrées activées.
+Vous pouvez activer et désactiver la fonctionnalité **Vues enregistrées** par le biais de la gestion des fonctionnalités dans n’importe quel environnement. Une fois la fonctionnalité activée, les vues enregistrées seront activées dans toutes les sessions utilisateur suivantes.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Qu’arrive-t-il aux personnalisations existantes lorsque les vues sont activées ? 
 
@@ -253,3 +246,12 @@ Pour les pages ayant de grands sélecteurs de vue (les personnalisations et les 
 
 - Si vous accédez à une page depuis une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. Si vous avez créé cette vignette après avoir activé les vues, la sélection d’une vignette ouvre la page avec la vue associée à cette vignette.
 - Si vous accédez à une page et que le point d’entrée inclut une requête, la requête initiale s’exécutera initialement à la place de la requête par défaut de la vue. Dans ce cas, vous êtes averti par un message d’information lorsque la vue se charge. Vous pouvez confirmer également en basculant vers cette vue après le chargement de la page, car cela devrait permettre à la requête de vue de s’exécuter quand même.
+
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Pourquoi une vue publiée pour une entité juridique spécifique est-elle visible dans toutes les entités juridiques ?
+
+Si vous publiez une vue sur une entité juridique spécifique, mais que vous ne publiez pas cette vue comme vue par défaut, le comportement suivant se produit :
+
+- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée lorsqu’elle est chargée, et les vues personnelles sont globales.
+- **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées. Ce comportement se produit car la fonctionnalité permet aux vues (y compris les vues personnelles) d’être liées à des entités juridiques spécifiques.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

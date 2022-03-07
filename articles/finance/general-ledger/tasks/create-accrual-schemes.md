@@ -2,26 +2,23 @@
 title: Créer des plans de régularisation
 description: Cette rubrique explique comment créer un plan de régularisation.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ab36250365fefe37329f87769f16f546ca7326654db42aa7acb61fb37604ce2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779501"
 ---
 # <a name="create-accrual-schemes"></a>Créer des plans de régularisation
 
@@ -33,11 +30,14 @@ Cette rubrique explique comment créer un plan de régularisation. La société 
 2. Sélectionnez **Nouveau**.
 3. Entrez une valeur dans le champ **Identification de la régularisation**.
 4. Entrez une valeur dans le champ **Description du plan de régularisation**.
-5. Dans le champ **Débit**, spécifiez les valeurs souhaitées. Le compte principal défini remplacera le compte principal de débit dans la ligne de N° document de journal et il sera également utilisé pour la contrepassation des différés en fonction des transactions de régularisation des comptes.  
+5. Dans le champ **Débit**, spécifiez les valeurs souhaitées. Le compte principal défini remplacera le compte principal de débit dans la ligne de justificatif de journal et il sera également utilisé pour la contrepassation des différés en fonction des transactions de régularisation des comptes.  
 6. Dans le champ **Crédit**, spécifiez les valeurs souhaitées. Le compte principal défini remplacera le compte principal de crédit dans la ligne de N° document de journal et il sera également utilisé pour la contrepassation des différés en fonction des transactions de régularisation des comptes.  
-7. Dans le champ **N° document**, sélectionnez la manière dont vous souhaitez que le N° document soit déterminé lorsque les transactions sont validées.
+7. Dans le champ **Justificatif**, sélectionnez la manière dont vous souhaitez que le justificatif soit déterminé lorsque les transactions sont validées.
 8. Dans le champ **Description**, entrez une valeur pour décrire les transactions qui seront validées.
 9. Dans le champ **Fréquence**, sélectionnez la fréquence à laquelle les transactions doivent se produire.
 10. Entrez un nombre dans le champ **Occurrences par période**.
 11. Dans le champ **Valider les transactions**, sélectionnez à quel moment les transactions doivent être validées, comme **Mensuel**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: adafde2123afdc793a6ef4edf8fa16b857c55bf8
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 18126f53dc314eca3e874e914346b860d7138109
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076934"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7945012"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour la République tchèque (héritées)
 
@@ -155,7 +155,7 @@ La procédure précédente active les extensions qui sont des composants de l’
 
 ## <a name="design-of-extensions"></a>Conception des extensions
 
-L’échantillon d’intégration du service d’enregistrement fiscal pour la République tchèque est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+L’échantillon d’intégration du service d’enregistrement fiscal pour la République tchèque est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
 ### <a name="commerce-runtime-extension-design"></a>Conception d’extension Commerce Runtime
 

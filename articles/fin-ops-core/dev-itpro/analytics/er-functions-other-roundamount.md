@@ -2,11 +2,8 @@
 title: Fonction ROUNDAMOUNT ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction ROUNDAMOUNT États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1b05c6024d9eeecfe74022df10d793055a026d5a159e9c011f37708f6a4e6e0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770859"
 ---
 # <a name="roundamount-er-function"></a>Fonction ROUNDAMOUNT ER
 
@@ -72,7 +69,7 @@ Quand le paramètre `round rule` est défini sur **RoundOffType.RoundDown**, cet
 
 Quand le paramètre `round rule` est défini sur **RoundOffType.RoundUp**, cette fonction arrondit en s’éloignant de zéro au montant d’arrondi le plus proche.
 
-Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, cette fonction se comporte comme la fonction Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) et la fonction X++ [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round).
+Quand le paramètre `round rule` est défini sur **RoundOffType.Ordinary**, cette fonction se comporte comme la fonction Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) et la fonction X++ [ROUND](../dev-ref/xpp-math-run-time-functions.md#round).
 
 ## <a name="remarks"></a>Remarques
 
@@ -91,3 +88,6 @@ Si le paramètre **model.RoundOff** est défini sur **RoundOffType.RoundUp**, `R
 [Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)
 
 [Fonctions mathématiques](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

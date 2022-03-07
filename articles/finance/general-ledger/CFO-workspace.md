@@ -2,28 +2,25 @@
 title: Ajouter des dimensions financières à l’espace de travail CFO
 description: Cette rubrique explique comment ajouter des dimensions financières à l’espace de travail CFO, afin qu’elles puissent être utilisées pour les états comptables et budgétaires.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3817c6688339735c7478e85786efe15bd2372c91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3acff8a0cf36ee6958effd9c5384895df20c180499437c43feddce31c884dbbf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729580"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Ajouter des dimensions financières à l’espace de travail CFO
 
@@ -48,11 +45,14 @@ Cette rubrique explique comment ajouter des dimensions financières à l’espac
 11. Définissez la valeur **Direction de filtre croisé** sur **Unique**.
 12. Sélectionnez **Rendre cette relation active** et **Supposer l’intégrité référentielle**, sélectionnez **OK**, puis sélectionnez **Fermer**.
 
-    [![Créer une relation](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Créer une relation.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Dans la liste **Champs**, la table et les dimensions financières disponibles doivent s’afficher. Faites glisser les dimensions financières souhaitées vers les filtres au niveau de l’état.
 14. Enregistrez vos modifications.
 15. Dans l’arbre d’objets d’application (AOT), cliquez avec le bouton droit sur votre projet, puis sélectionnez **Synchroniser**.
 16. Générez votre projet, puis ouvrez l’application pour afficher les résultats.
 
-    [![Espace de travail terminé](./media/workspace.png)](./media/workspace.png)
+    [![Espace de travail terminé.](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

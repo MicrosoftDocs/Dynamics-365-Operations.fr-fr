@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428082"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974983"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Synchronisation des commandes client directement entre Sales et Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 La rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les commandes client directement depuis Dynamics 365 Sales et Dynamics 365 Supply Chain Management.
 
@@ -62,10 +63,10 @@ Les tâches suivantes de synchronisation sont requises avant que la synchronisat
 
 ## <a name="entity-set"></a>Ensemble d'entités
 
-| Gestion de la chaîne d'approvisionnement  | Ventes             |
+| Gestion de la chaîne d'approvisionnement  | Vente             |
 |-------------------------|-------------------|
-| En-têtes de commande client CDS | SalesOrders       |
-| Lignes de commande client CDS   | SalesOrderDetails |
+| En-têtes de commande client de Dataverse | SalesOrders       |
+| Lignes de commande client de Dataverse   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Flux d'entité
 
@@ -75,7 +76,7 @@ Vous n'avez pas à créer de commandes dans Sales. Vous pouvez les créer dans S
 
 Dans Supply Chain Management, les filtres du modèle permettent de garantir que seules les commandes client appropriées sont incluses dans la synchronisation :
 
-- Sur la commande client, la commande et la facturation client doivent provenir de Sales pour être incluses dans la synchronisation. Dans Supply Chain Management, les champs **OrderingCustomerIsExternallyMaintained** et **InvoiceCustomerIsExternallyMaintained** sont utilisés pour filtrer les commandes client à partir des entités de données.
+- Sur la commande client, la commande et la facturation client doivent provenir de Sales pour être incluses dans la synchronisation. Dans Supply Chain Management, les colonnes **OrderingCustomerIsExternallyMaintained** et **InvoiceCustomerIsExternallyMaintained** sont utilisées pour filtrer les commandes client des tables de données.
 - La commande client dans Supply Chain Management doit être confirmée. Seules les commandes client confirmées ou les commandes client dont le statut de traitement le plus élevé, par exemple, **Livré** ou **Facturé**, sont synchronisées avec Sales.
 - Après avoir créé ou modifié une commande client, le traitement par lots **Calcule les totaux de vente** dans Supply Chain Management doit être exécuté. Seules les commandes client où les totaux de vente sont calculés seront synchronisées avec Sales.
 
@@ -103,10 +104,10 @@ Lorsqu'une ligne de commande client est synchronisée entre Sales et Supply Chai
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect pour une solution de disponibilités pour Sales
 
-De nouveaux champs sont ajoutés à l'entité **Commande** et s'affichent sur la page :
+De nouvelles colonnes sont ajoutées à la table **Commande** et s'affichent sur la page :
 
 - **Est conservé en externe** - Définissez cette option sur **Oui** lorsque la commande provient de Supply Chain Management.
-- **Statut de traitement** - Ce champ affiche le statut de traitement de la commande dans Supply Chain Management. Les valeurs disponibles sont les suivantes :
+- **Statut de traitement** - Cette colonne affiche le statut de traitement de la commande dans Supply Chain Management. Les valeurs disponibles sont les suivantes :
 
     - **Brouillon** – Statut initial lorsqu'une commande est créée dans Sales. Dans Sales, seules les commandes ayant ce statut de traitement peuvent être modifiées.
     - **Actif** – Statut une fois que la commande est activée dans Sales à l'aide du bouton **Activer**.
@@ -141,7 +142,7 @@ Avant de synchroniser les commandes client, il est important de mettre les syst�
 - Allez dans **Paramètres** &gt; **Administration** &gt; **Paramètres système** &gt; **Sales**, et assurez-vous que les paramètres suivants sont utilisés :
 
     - L'option **Utiliser le système de calcul du prix du système** est définie **Oui**.
-    - Le champ **Mode de calcul de remise** est défini sur **Ligne article**.
+    - La colonne **Mode de calcul de remise** est définie sur **Ligne article**.
 
 ### <a name="setup-in-supply-chain-management"></a>Paramétrage dans Supply Chain Management
 
@@ -151,10 +152,10 @@ Si vous utilisez également l'intégration de l'ordre d'exécution, vous devez p
 
 1. Allez à **Ventes et marketing** \> **Paramétrage** \> **Commandes client** \> **Origine des ventes**.
 2. Sélectionnez **Nouveau** pour créer une origine des ventes.
-3. Dans le champ **Origine des ventes**, entrez un nom pour l'origine des ventes, par exemple **SalesOrder**.
-4. Dans le champ **Description**, entrez une description, comme **Commande client des ventes**.
+3. Dans la colonne **Origine des ventes**, entrez un nom pour l'origine des ventes, par exemple **SalesOrder**.
+4. Dans la colonne **Description**, entrez une description, comme **Commande client de Sales**.
 5. Activez la case à cocher **Affectation du type d'origine**.
-6. Définissez le champ **Type d'origine des ventes** sur **Intégration de la commande client**.
+6. Définissez la colonne **Type d'origine des ventes** sur **Intégration de la commande client**.
 7. Sélectionnez **Enregistrer**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Configuration dans les commandes client (de Sales vers Supply Chain Management) - projet d'intégration Direct Data
@@ -181,12 +182,12 @@ Si vous utilisez également l'intégration de l'ordre d'exécution, vous devez p
 ## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
 > [!NOTE]
-> Les champs **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d'expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l'entité est synchronisée.
+> Les colonnes **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d'expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces colonnes, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles la table est synchronisée.
 
 Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégration de données.
 
 > [!NOTE]
-> La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Supply Chain Management, ou entre Supply Chain Management et Sales.
+> La mise en correspondance indique quelles informations de la colonne sont synchronisées entre Sales et Supply Chain Management, ou entre Supply Chain Management et Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Commandes client (Supply Chain Management vers Sales) - Direct : OrderHeader
 

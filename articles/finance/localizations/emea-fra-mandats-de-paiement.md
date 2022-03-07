@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 27231
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19bd649a17728faddfed49ce7ae99c4bc2048552
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: 929a40258e8ff9a64bec1b00b21cccd4d19c19ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206078"
 ---
 # <a name="mandats-de-paiement-in-the-public-sector-in-france"></a>Mandats de paiement dans le secteur public en France
 
@@ -83,3 +82,6 @@ Utilisez les critères suivants dans la page de recherche dans la base de donné
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

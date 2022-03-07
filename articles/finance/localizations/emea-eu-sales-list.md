@@ -2,7 +2,7 @@
 title: Déclaration de la liste des ventes intracommunautaires
 description: Cet article fournit des informations sur la génération d’un état relatif à la liste des ventes intracommunautaires.
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 5d1df15462a39c17710c9300425561bba8b69fc7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323474"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188382"
 ---
 # <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
@@ -68,19 +68,13 @@ Le tableau suivant indique la configuration requise qui doit être en place avan
 <td>Définissez les paramètres d’identification d’exonération fiscale dans la page <strong>Paramètres de pays/région</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>Paramètres de pays/région</strong>). Pour chaque pays/région où vous avez des contreparties, créez un enregistrement dans la page, puis spécifiez les informations suivantes :
 <ul>
 <li><strong>Pays/Région</strong> : Sélectionnez un pays/une région à associer à un identifiant TVA.</li>
-<li><strong>Taxe</strong> : Entrez le numéro d’identification d’exonération fiscale (autrement dit, le numéro d’identifiant TVA ou le préfixe du numéro d’exonération fiscale) pour le pays/la région sélectionné(e).</li>
+<li><strong>Taxe</strong> : Entrez le numéro d’identification d’exonération fiscale (autrement dit, le préfixe du numéro identifiant TVA) pour le pays/la région sélectionné(e).</li>
 <li><strong>Vérifier le numéro identifiant TVA</strong> : Activez cette case à cocher pour contrôler l’identifiant TVA pour le pays/la région sélectionné.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Paramétrer :</strong> les numéros d’enregistrement de TVA</td>
-<td>Créez des numéros d’enregistrement de TVA pour les contreparties dans la page <strong>Tous les clients</strong> (accédez à <strong>Ventes et marketing</strong> &gt; <strong>Clients</strong> &gt; <strong>Tous les clients</strong>, sélectionnez un enregistrement client, puis sélectionnez <strong>Clients</strong> &gt; <strong>ID d’enregistrement</strong>) ou la page <strong>Fournisseurs</strong> (accédez à <strong>Approvisionnements</strong> &gt; <strong>Fournisseurs</strong> &gt; <strong>Fournsiseurs</strong>, sélectionnez un enregistrement de fournisseur, puis sélectionnez <strong>Fournisseurs</strong> &gt; <strong>ID d’enregistrement</strong>). Depuis le raccourci <strong>ID d’enregistrement</strong>, sous l’onglet <strong>Général</strong>, créez un enregistrement et spécifiez les informations suivantes :
-<ul>
-<li><strong>Type d’inscription</strong> – Sélectionnez le type d’enregistrement attribué à la catégorie d’enregistrement <strong>Numéro de TVA</strong> pour le pays/la région de la contrepartie.</li>
-<li><strong>Numéro d’enregistrement</strong> - Saisissez le numéro d’immatriculation à la TVA de la contrepartie.</li>
-<li><strong>Effectif</strong> – Sélectionnez le début de la période d’utilisation du numéro d’immatriculation à la TVA.</li>
-</ul>  
-Autrement, vous pouvez créer un numéro identifiant TVA pour les contreparties dans la page <strong>Numéros identifiant TVA</strong> (accédez à <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>Numéros identifiant TVA</strong>). Pour chaque numéro identifiant TVA, créez un enregistrement dans la page, puis spécifiez les informations suivantes :
+<td><strong>Paramétrage : </strong>Numéros identifiant TVA</td>
+<td>Créez des numéros identifiant TVA pour les contreparties dans la page <strong>Numéros identifiant TVA</strong> (cliquez sur <strong>Taxe</strong> &gt; <strong>Paramétrage</strong> &gt; <strong>Taxe</strong> &gt; <strong>Numéros identifiant TVA</strong>). Pour chaque numéro identifiant TVA, créez un enregistrement dans la page, puis spécifiez les informations suivantes :
 <ul>
 <li><strong>Pays/Région </strong> : Sélectionnez le pays ou la région de l’enregistrement de taxe du compte de contrepartie.</li>
 <li><strong>Numéro identifiant TVA</strong> : Entrez le numéro identifiant TVA du compte de contrepartie.</li>

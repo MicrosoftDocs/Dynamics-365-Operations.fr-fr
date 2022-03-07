@@ -1,31 +1,30 @@
 ---
-title: Ajouter à votre journal de performances et envoyer l'éloge à une personne
+title: Ajouter à votre journal de performances et envoyer l’éloge à une personne
 description: Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2a90a5f746e49e1a5df9910867e8cd35feb1147
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b147ee6cd2b674d6d251230420929dff948c6203ec015833396ab1ec468c0573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732271"
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l'éloge à une personne
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l’éloge à une personne
 
-Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période. Vous pouvez également récompenser les actions d'un collaborateur à partir du journal. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période. Vous pouvez également récompenser les actions d’un collaborateur à partir du journal. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure s’applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Tous les espaces de travail > Libre-service employé.
 2. Cliquez sur Journal des performances.
@@ -42,9 +41,9 @@ Le journal des performance contient des informations relatives à la réalisatio
 10. Cliquez sur Ajouter un lien externe.
 11. Dans le champ Description, tapez « Envision ».
 12. Dans le champ Adresse Internet, tapez « https://www.microsoft.com/en/envision/default ».
-13. Cliquez sur la légende sous le bouton d'enregistrement intitulée « Journal des performances » pour revenir à la grille.
-    * Vous pouvez ajouter le ou les journaux sélectionnés à un objectif pour qu'ils s'affichent lorsque vous ouvrez l'objectif. Un lien est ajouté dans l'organisateur Liens.    Si vous ajoutez un journal à un objectif et ajoutez l'objectif à une révision, le journal apparaît automatiquement dans la révision.  
-    * Vous pouvez ajouter le ou les journaux sélectionnés à une révision pour qu'ils s'affichent lorsque vous ouvrez la révision.    Un lien est ajouté dans l'organisateur Liens.  
+13. Cliquez sur la légende sous le bouton d’enregistrement intitulée « Journal des performances » pour revenir à la grille.
+    * Vous pouvez ajouter le ou les journaux sélectionnés à un objectif pour qu’ils s’affichent lorsque vous ouvrez l’objectif. Un lien est ajouté dans l’organisateur Liens.    Si vous ajoutez un journal à un objectif et ajoutez l’objectif à une révision, le journal apparaît automatiquement dans la révision.  
+    * Vous pouvez ajouter le ou les journaux sélectionnés à une révision pour qu’ils s’affichent lorsque vous ouvrez la révision.    Un lien est ajouté dans l’organisateur Liens.  
 14. Cliquez sur Ajout rapide.
 15. Tapez une valeur dans le champ Titre.
 16. Dans le champ Description, entrez une valeur.
@@ -54,3 +53,6 @@ Le journal des performance contient des informations relatives à la réalisatio
 20. Dans le champ Description, entrez « Merci pour votre aide à la conférence ! ».
 21. Cliquez sur Envoyer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

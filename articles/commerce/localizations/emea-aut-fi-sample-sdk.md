@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077113"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944661"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Directives de déploiement pour l’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche (héritées)
 
@@ -206,7 +206,7 @@ La procédure précédente active les extensions qui sont des composants de l’
 
 ## <a name="design-of-extensions"></a>Conception des extensions
 
-L’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+L’échantillon d’intégration du service d’enregistrement fiscal pour l’Autriche est basé sur la [fonctionnalité d’intégration fiscale](fiscal-integration-for-retail-channel.md). Pour plus d’informations sur la conception de la solution d’intégration fiscale, voir [Vue d’ensemble de l’exemple de conception d’intégration fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
 ### <a name="commerce-runtime-extension-design"></a>Conception d’extension Commerce Runtime
 

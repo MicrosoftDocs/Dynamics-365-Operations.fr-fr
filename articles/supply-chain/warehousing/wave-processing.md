@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103511"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579926"
 ---
 # <a name="wave-creation-and-processing"></a>Création et traitement des vagues
 
@@ -190,9 +190,9 @@ Si nécessaire, vous pouvez annuler une vague qui a été traitée. Pour annuler
 
 Utilisez la page **Détails du traitement par lots de la vague** pour inspecter les traitements par lots et les tâches associées à n’importe quelle vague. Ceci est particulièrement utile pour résoudre les problèmes d’une vague qui a échoué. Sans cette fonctionnalité, seuls les administrateurs auront généralement accès aux détails des traitements par lots. La page **Détails du traitement par lots de la vague** peut être mise à la disposition des utilisateurs non administrateurs et fournit une vue en lecture seule des traitements par lots et des tâches associées.
 
-### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Activer ou désactiver la page Détails du traitement par lots de la vague
+### <a name="enable-the-wave-batch-job-details-page"></a>Activer la page Détails du traitement par lots de la vague
 
-Depuis la version 10.0.25 de Supply Chain Management, la page **Détails du traitement par lots de la vague** est activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Détails du traitement par lots de la vague* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Si votre système n’inclut pas déjà la page **Détails du traitement par lots de la vague**, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Détails du traitement par lots de la vague*.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Utiliser la page Détails du traitement par lots de la vague
 

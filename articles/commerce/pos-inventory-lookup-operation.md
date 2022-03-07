@@ -2,7 +2,7 @@
 title: Opération de recherche de stock du PDV
 description: Cette rubrique décrit comment utiliser l’opération de recherche de stocks dans le point de vente (PDV) Dynamics 365 Commerce pour afficher la disponibilité des stocks de produits dans les magasins et entrepôts.
 author: boycezhu
-ms.date: 08/12/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b697583f2ebf9950ad805d4f415dafb2c891de8052d4a47563b048059475030f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745330"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Opération de recherche de stock du PDV
 
@@ -52,26 +52,25 @@ La vue de liste des emplacements inclut tous les magasins et entrepôts qui sont
 
 Les actions suivantes sont disponibles dans la barre d’applications du PDV :
 
-- **Trier** - Cette action permet à l’utilisateur du PDV de trier les données dans la vue de liste en fonction de divers critères. Le tri basé sur l’emplacement est l’option de tri par défaut.
-
-    - **Géolocalisation** (de l’emplacement le plus proche à l’emplacement le plus éloigné, par rapport à la distance du magasin actuel)
-    - **Nom** (par ordre croissant ou décroissant)
-    - **Numéro de stock** (par ordre croissant ou décroissant)
-    - **Inventaire** (par ordre décroissant)
-    - **Réservé** (par ordre décroissant)
-    - **Commandé** (par ordre décroissant)
-
+- **Trier** - Cette action permet à l’utilisateur du PDV de trier les données dans la vue de liste en fonction de divers critères. Le tri basé sur l’emplacement est l’option de tri par défaut. 
+  - **Géolocalisation** (de l’emplacement le plus proche à l’emplacement le plus éloigné, par rapport au magasin actuel)
+  - **Nom** (par ordre croissant ou décroissant)
+  - **Numéro de stock** (par ordre croissant ou décroissant)
+  - **Inventaire** (par ordre décroissant)
+  - **Réservé** (par ordre décroissant)
+  - **Commandé** (par ordre décroissant)
 - **Filtrer** - Cette action permet à l’utilisateur du PDV de visualiser les données filtrées pour un emplacement spécifique.
-- **Afficher la disponibilité en magasin** - Cette action permet à l’utilisateur du PDV d’afficher les quantités disponibles à la vente (DAV) pour un produit dans le magasin sélectionné.
+- **Afficher la disponibilité en magasin** - Cette action permet à l’utilisateur du PDV d’afficher les quantités disponibles à la vente (ADV) pour un produit dans le magasin sélectionné.
 - **Afficher l’emplacement du magasin** - Cette action ouvre une page distincte pour afficher la vue de la carte, l’adresse et les heures d’ouverture du magasin sélectionné.
 - **Prélever dans un magasin** - Cette action crée une commande client pour le produit qui sera récupéré dans le magasin sélectionné et redirige l’utilisateur vers l’écran de transaction.
-- **Expédier le produit** - Cette action crée une commande client pour le produit qui sera expédié depuis le magasin sélectionné et redirige l’utilisateur vers l’écran de transaction.
+- **Expédier le produit** - Cette action crée une commande client pour le produit qui sera expédié dans le magasin sélectionné et redirige l’utilisateur vers l’écran de transaction.
 - **Voir toutes les variantes** - Pour un produit avec des variantes, cette action passe d’une vue de liste à une vue matricielle qui affiche les informations de stock pour toutes les variantes du produit.
 - **Ajouter à la transaction** - Cette action ajoute le produit au panier et redirige l’utilisateur vers l’écran de transaction.
 
 > [!NOTE]
-> Le tri basé sur l'emplacement qui a été introduit dans Commerce version 10.0.17 affiche le magasin actuel en haut. Pour les autres emplacements, la distance entre l'emplacement et le magasin actuel est déterminée par les coordonnées (latitude et longitude) définies dans Commerce Headquarters. Pour un magasin, les informations de localisation sont définies dans l’adresse principale de l’unité opérationnelle qui est associée au magasin. Pour un entrepôt hors magasin, les informations d’emplacement sont définies dans l’adresse de l’entrepôt. Avant la version 10.0.17, la vue de liste affiche toujours le magasin actuel en haut et trie les autres emplacements par ordre alphabétique.
->
+> Pour un tri basé sur l’emplacement, la distance entre un emplacement et le magasin actuel est déterminée par les coordonnées (latitude et longitude) définies au siège de Commerce. Pour un magasin, les informations de localisation sont définies dans l’adresse principale de l’unité opérationnelle associée au magasin. Pour un entrepôt hors magasin, les informations d’emplacement sont définies dans l’adresse de l’entrepôt. Si le magasin actuel n’a pas de coordonnées définies, l’option de tri basé sur l’emplacement affichera le magasin actuel en haut de la liste, puis triera les autres emplacements par nom.
+
+> [!NOTE]
 > Les actions **Afficher la disponibilité en magasin**, **Afficher l’emplacement du magasin**, **Prélever dans un magasin** et **Expédier le produit** ne sont pas disponibles pour les emplacements hors magasin.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Vue matricielle de recherche de stock pour les variantes
@@ -96,7 +95,7 @@ Les actions suivantes sont disponibles dans la cellule de vue matricielle :
 
 - **Vendre maintenant** - Cette action ajoute la variante sélectionnée dans le panier et redirige l’utilisateur vers l’écran de transaction.
 - **Prélever dans un magasin** - Cette action crée une commande client pour la variante sélectionnée qui sera récupérée dans le magasin sélectionné et redirige l’utilisateur vers l’écran de transaction.
-- **Expédier le produit** - Cette action crée une commande client pour la variante sélectionnée qui sera expédiée depuis le magasin sélectionné et redirige l’utilisateur vers l’écran de transaction.
+- **Expédier le produit** - Cette action crée une commande client pour la variante sélectionnée qui sera expédiée dans le magasin sélectionné et redirige l’utilisateur vers l’écran de transaction.
 - **Disponibilité** - Cette action amène l’utilisateur à une page distincte affichant les quantités DAV pour la variante sélectionnée dans le magasin sélectionné.
 - **Afficher tous les emplacements** - Cette action bascule vers la vue de liste de disponibilité de stock standard affichant les informations de stock pour la variante sélectionnée.
 - **Afficher les détails du produit** - Cette action redirige l’utilisateur vers la page de détails du produit (PDP) de la variante sélectionnée.
@@ -125,5 +124,7 @@ Dans Commerce version 10.0.9 et versions antérieures, la valeur **physique disp
 [Configurations visuelles de l’interface utilisateur de PDV](pos-screen-layouts.md)
 
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

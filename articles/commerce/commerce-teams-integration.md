@@ -3,7 +3,7 @@ title: Présentation de l’intégration de Dynamics 365 Commerce et Microsoft T
 description: Cette rubrique présente une vue d’ensemble de l’intégration de Microsoft Dynamics 365 Commerce et Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 39de59d182fd6f4cb1616a47a09b44cd249f2187
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984193"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021987"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Présentation de l’intégration de Dynamics 365 Commerce et Microsoft Teams
 
@@ -50,7 +50,7 @@ Les conditions préalables suivantes doivent être en place avant de pouvoir com
 
 L’illustration suivante montre l’architecture conceptuelle de l’intégration de Dynamics 365 Commerce et Microsoft Teams, en prenant un magasin de San Francisco comme exemple. Teams et l’application de PDV Commerce utilisent Microsoft Planner comme référentiel afin que les tâches publiées à partir de Teams apparaissent dans l’application de PDV et que les tâches ponctuelles créées par les directeurs de magasin dans l’application de PDV apparaissent dans Teams, ce qui se traduit par une expérience de gestion des tâches cohérente entre les applications.    
 
-![Architecture de l’intégration de Commerce et Teams.](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![Architecture de l’intégration de Commerce et Teams](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

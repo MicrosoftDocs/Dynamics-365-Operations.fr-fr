@@ -2,16 +2,13 @@
 title: Rapport Comparer le stockage du prix des articles
 description: Découvrez comment générer un rapport Comparer le stockage du prix des articles, puis parcourir et/ou exporter le résultat.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9e05dd582ed1bd2c242d3eeb77ca61203706e11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428088"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813217"
 ---
 # <a name="compare-item-prices-storage-report"></a>Rapport Comparer le stockage du prix des articles
 
@@ -121,3 +118,6 @@ L’exemple suivant montre comment exporter un rapport **Comparer le stockage du
 1. La page **Résumé de l’exécution** s’ouvre pour vous permettre d’afficher le statut de votre tâche d’exportation et la liste des entités exportées. Sélectionnez l’entité **Comparer le prix des articles** répertoriée dans la zone **Statut de traitement de l’entité**, puis sélectionnez **Télécharger le fichier** pour télécharger les données exportées depuis cette entité.
 
 Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

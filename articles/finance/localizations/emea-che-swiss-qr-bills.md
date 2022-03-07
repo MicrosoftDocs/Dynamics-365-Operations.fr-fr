@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1c58aa35dacb719eeef3a9b8d5f4904beefc73a0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f1caac85729fdbf02789553645ae59b917a7f1bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407984"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975387"
 ---
 # <a name="swiss-qr-bills"></a>Factures QR pour la Suisse
 

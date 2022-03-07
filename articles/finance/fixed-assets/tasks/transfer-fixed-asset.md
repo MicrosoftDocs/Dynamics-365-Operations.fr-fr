@@ -1,33 +1,30 @@
 ---
 title: Transférer une immobilisation
 description: Ce Guide de tâche transfèrera les informations financières pour un registre d’immobilisation provenant d’un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443184"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883360"
 ---
 # <a name="transfer-a-fixed-asset"></a>Transférer une immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Ce Guide de tâche transfèrera les informations financières pour un registre d’immobilisation provenant d’un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.  Il utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.
+Ce Guide de tâche transfèrera les informations financières pour un registre d’immobilisation provenant d’un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.  
 
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Immobilisations > Immobilisations**.
 2. Dans la liste, recherchez et sélectionnez l’immobilisation à transférer.
@@ -48,3 +45,6 @@ Ce Guide de tâche transfèrera les informations financières pour un registre d
     * Réexaminez les résultats avant de transférer les registres d’immobilisation.  
 10. Cliquez sur **Transférer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

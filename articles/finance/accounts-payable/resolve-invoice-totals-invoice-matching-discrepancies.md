@@ -2,28 +2,25 @@
 title: Vue d’ensemble de résolution des écarts lors du rapprochement des totaux de factures
 description: Vous pouvez utiliser le rapprochement des totaux de facture pour vous assurer que l’écart entre les montants totaux de la facture et les montants attendus n’est pas supérieur à l’écart acceptable.
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 63413
 ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf5a48a0f6beafad3c9a657c44079b290a7ebd5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 804800cccdfd0473c9e3514f6c17405eb2ec8335
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443123"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827912"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Vue d’ensemble de résolution des écarts lors du rapprochement des totaux de factures
 
@@ -44,3 +41,6 @@ Après avoir identifié un écart, vous devrez peut-être prendre contact avec v
 Pour plus d’informations, voir [Rechercher/Résoudre les exceptions](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

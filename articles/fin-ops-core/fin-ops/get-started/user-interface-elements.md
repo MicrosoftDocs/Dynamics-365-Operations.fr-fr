@@ -2,11 +2,9 @@
 title: Éléments de l’interface utilisateur
 description: Cette rubrique décrit les éléments de l’interface utilisateur utilisés dans l’application.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,29 +12,32 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797934"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069321"
 ---
 # <a name="user-interface-elements"></a>Éléments de l’interface utilisateur
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique décrit les éléments de l’interface utilisateur utilisée dans l’application. Avant que les utilisateurs puissent accéder à l’interface, il est important de connaître les noms et les fonctionnalités des éléments constituant l’interface.
 
 ## <a name="overview"></a>Présentation
 
-- **Volet Actions** - La barre sous la barre de navigation. Ici, vous pouvez sélectionner des onglets pour modifier les enregistrements affichés sur la page. Vous pouvez modifier et enregistrer les enregistrements ici.  
-- **Récapitulatif** - Vous pouvez voir les informations et suivre les activités de certains enregistrements dans ce volet.  
+- **Volet Actions** – La barre sous la barre de navigation. Ici, vous pouvez sélectionner des onglets pour modifier les enregistrements affichés sur la page. Vous pouvez modifier et enregistrer les enregistrements ici.  
+- **Récapitulatif** – Vous pouvez voir les informations et suivre les activités de certains enregistrements dans ce volet.  
 - **Volet Récapitulatif** Ici, vous pouvez parcourir différents aspects d’un enregistrement à afficher dans le récapitulatif.  
-- **Volet de filtre** - Sur certaines pages, vous pouvez sélectionner **Afficher les filtres** pour ouvrir ce volet. Il vous permet d’affiner les résultats visibles pour vous sur la page.  
-- **Barre de navigation** - La barre en haut de l’interface. Elle contient **Portail Dynamics 365**, **Recherche**, **Sélecteur de société**, **Centre d’action**, **Paramètres**, **Aide et support**, et le profil utilisateur.  
-- **Liste de navigation** - Sur certaines pages, vous pouvez parcourir ce volet pour rechercher un enregistrement spécifique. Lorsque cette option est sélectionnée, les détails de l’enregistrement apparaissent sur la page.  
-- **Volet de navigation** - Le volet le plus à gauche. Ici, vous pouvez rechercher toute page du produit.  
-- **Page** - La vue centrale de l’interface. Les sélections apportées aux autres composants de l’interface utilisateur affecteront quels enregistrements sont affichés ici.  
-- **Volet** - Le volet le plus à droite. Il s’ouvre dans certains cas lorsque des aspects d’un enregistrement doivent être modifiés et enregistrés.  
-- **Onglet** - Pour faire référence au volet Actions, il s’agit d’un menu des options qui apparaît lorsque vous sélectionnez une option indiquée dans le volet Actions.  
+- **Volet de filtre** – Sur certaines pages, vous pouvez sélectionner **Afficher les filtres** pour ouvrir ce volet. Il vous permet d’affiner les résultats visibles pour vous sur la page.  
+- **Barre de navigation** – La barre en haut de l’interface. Elle contient **Portail Dynamics 365**, **Recherche**, **Sélecteur de société**, **Centre d’action**, **Paramètres**, **Aide et support**, et le profil utilisateur.  
+- **Liste de navigation** – Sur certaines pages, vous pouvez parcourir ce volet pour rechercher un enregistrement spécifique. Lorsque cette option est sélectionnée, les détails de l’enregistrement apparaissent sur la page.  
+- **Volet de navigation** – Le volet le plus à gauche. Ici, vous pouvez rechercher toute page du produit.  
+- **Page** – La vue centrale de l’interface. Les sélections apportées aux autres composants de l’interface utilisateur affecteront quels enregistrements sont affichés ici.  
+- **Volet** – Le volet le plus à droite. Il s’ouvre dans certains cas lorsque des aspects d’un enregistrement doivent être modifiés et enregistrés.  
+- **Onglet** – Pour faire référence au volet Actions, il s’agit d’un menu des options qui apparaît lorsque vous sélectionnez une option indiquée dans le volet Actions.  
 
 ![L’image suivante présente l’emplacement de ces éléments sur l’interface.](media/user-interface-01.png)
 
@@ -44,9 +45,9 @@ Cette rubrique décrit les éléments de l’interface utilisateur utilisée dan
 
 Un *onglet* représente une sélection effectuée sur la page qui ouvre un autre aspect d’un enregistrement sur la même page. Souvent, il vous permet de modifier certain *champs*, ou des éléments de l’interface utilisateur qui permettent l’entrée saisie. 
 
-Un *organisateur* est un onglet qui permet de voir plusieurs onglets à la fois. Vous pouvez développer un organisateur en sélectionnant la flèche vers le bas à l’extrémité droite de celui-ci.
+Un *Raccourci* est un onglet qui permet de voir plusieurs onglets à la fois. Vous pouvez développer un raccourci en sélectionnant la flèche vers le bas à l’extrémité droite de celui-ci.
 
-![Le schéma suivant présente un exemple des onglets et des organisateurs.](media/user-interface-02.png)
+![Le schéma suivant présente un exemple des onglets et des raccourcis.](media/user-interface-02.png)
 
 Une *section* est similaire à un onglet. Le mot « section » est souvent utilisé pour décrire toute zone d’une page qui organise une catégorie spécifique d’informations. Sur l’illustration suivante, le résumé, les commandes et les favoris, sans oublier les liens, constituent des exemples de sections.
 
@@ -68,14 +69,14 @@ Certaines modifications apportées aux objets que vous observez s’affichent co
 
 Les notifications apparaissent de plusieurs façons.
 - **Légende de fonction** Elle s’affiche en regard d’un champ, d’un onglet, ou tout autre bouton pour offrir une explication de l’utilisation de la fonctionnalité. 
-- **Centre d’action** - Une zone contenant la notification s’affiche en regard du bouton du centre d’action dans la barre de navigation. Vous pouvez voir les détails de la notification en sélectionnant **Centre d’action**.  
-- **Barre de message** - Elle s’affiche sous le volet Actions.  
+- **Centre d’action** – Une zone contenant la notification s’affiche en regard du bouton du centre d’action dans la barre de navigation. Vous pouvez voir les détails de la notification en sélectionnant **Centre d’action**.  
+- **Barre de message** – Elle s’affiche sous le volet Actions.  
 
 L’image suivante présente des exemples de ces types de notifications.
 
 ![L’image suivante présente des exemples de notifications.](media/user-interface-06.png)
 
-- **Zone du message** - Elle s’affiche sur l’interface pour une interaction avec l’utilisateur avant de poursuivre l’utilisation du produit.  
+- **Zone du message** – Elle s’affiche sur l’interface pour une interaction avec l’utilisateur avant de poursuivre l’utilisation du produit.  
 
 ![Le schéma suivant présente un exemple de zone de message.](media/user-interface-07.png)
 
@@ -86,3 +87,6 @@ Une *barre d’outils* contient des outils, tels que la possibilité d’ajouter
 Une *liste* est le nom donné à un ensemble d’enregistrements que vous pouvez faire défiler. Vous pouvez ajouter ces enregistrements à la page en les sélectionnant. Souvent, une grille s’ouvre.
 
 ![L’image suivante présente des exemples de barres d’outils, de grilles et de listes.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

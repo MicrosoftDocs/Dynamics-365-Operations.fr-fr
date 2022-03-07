@@ -1,12 +1,10 @@
 ---
 title: Journaux équilibrés pour la comptabilité interunités
 description: Cet article décrit la manière dont un journal est automatiquement équilibré lorsqu’une dimension financière d’équilibrage est activée dans la page de comptabilité.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7f6ffccb2ee504f182250dbf6d316823efafddf5
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968752"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726892"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>Journaux équilibrés pour la comptabilité interunités
 
@@ -30,9 +28,9 @@ ms.locfileid: "4968752"
 
 Cet article décrit la manière dont un journal est automatiquement équilibré lorsqu’une dimension financière d’équilibrage est activée dans la page de comptabilité. 
 
-Si les écritures de compte ne sont pas équilibrées au niveau des valeurs de dimension financière, des écritures de compte supplémentaires sont créées automatiquement pour équilibrer le journal. Ces écritures de compte utilisent les types de validation **Interunités - débit** et **Interunités - crédit** dans la page **Comptes pour transactions automatiques** pour déterminer le compte principal. Par exemple, Unité commerciale, qui est le deuxième segment du compte général, est sélectionné comme dimension financière d’équilibrage, et les écritures comptables suivantes sont sur le point d’être créées.
+Si les écritures de compte ne sont pas équilibrées au niveau des valeurs de dimension financière, des écritures de compte supplémentaires sont créées automatiquement pour équilibrer le journal. Ces écritures de compte utilisent les types de validation **Interunités – débit** et **Interunités – crédit** dans la page **Comptes pour transactions automatiques** pour déterminer le compte principal. Par exemple, Unité commerciale, qui est le deuxième segment du compte général, est sélectionné comme dimension financière d’équilibrage, et les écritures comptables suivantes sont sur le point d’être créées.
 
-|                      |           |
+| &nbsp;               | &nbsp;    |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100.00 DR |
 | 6100 – NY – OU\_249  | 100.00 DR |
@@ -45,7 +43,7 @@ Dans ce cas, les soldes suivants sont déterminés :
 
 Par conséquent, les écritures comptables suivantes sont créées automatiquement pour équilibrer le journal au niveau des valeurs de dimension financière.
 
-|                                   |           |
+| &nbsp;                            | &nbsp;    |
 |-----------------------------------|-----------|
 | (Débit interunités) – MSP – OU\_256 | 100.00 DR |
 | (Crédit interunités) – NY – OU\_249 | 100.00 CR |
@@ -54,3 +52,6 @@ Par conséquent, les écritures comptables suivantes sont créées automatiqueme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Afficher côte à côte des pages à l’aide de la fonction Ouvrir dans une nouvelle fenêtre
 description: Cet article explique comment afficher des pages côte à côte.
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798401"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068057"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Afficher côte à côte des pages à l’aide de la fonction Ouvrir dans une nouvelle fenêtre
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cet article explique comment afficher des pages côte à côte.
 
@@ -48,3 +49,6 @@ Avant d’utiliser la fonctionnalité **Ouvrir dans une nouvelle fenêtre**, vou
 La fonction **Ouvrir dans une nouvelle fenêtre** n’est disponible que lorsqu’il existe plusieurs page ouvertes dans la fenêtre. En outre, la fenêtre contextuelle se ferme automatiquement lorsqu’il n’y a plus de page ouverte (autrement dit, lorsque la dernière page dans cette fenêtre est fermée.) Le système ferme également les pages ouvertes lorsque vous accédez à une autre zone de l’application. Par conséquent, si vous avez des fenêtres contextuelles ouvertes et que vous accédez à une autre zone de l’application, les fenêtres contextuelles sont automatiquement fermées car les pages de ces fenêtres ont été fermées par le système.
 
 La barre supérieure dans les fenêtres contextuelles affiche des informations sur la société dans laquelle la page a été ouverte et est en lecture seule. Les fenêtres contextuelles s’appuient également sur les fenêtres du navigateur principal. Si la fenêtre principale est fermée ou actualisée, toutes les fenêtres contextuelles ouvertes passent en lecture seule. Si cette situation se produit, vous pouvez toujours voir les informations dans ces fenêtres, mais vous ne pourrez pas interagir avec.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

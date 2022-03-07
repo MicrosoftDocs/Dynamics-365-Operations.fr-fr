@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0078d536e55da0bfd3d8b808eb05c8273aba792d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249141"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d’analyse consolidés
 
@@ -67,14 +66,14 @@ L’illustration suivante présente une définition de colonne dans un format c�
 ![Définition de colonne dans un format côte à côte](./media/column-definition-side-by-side-format.png "Définition de colonne dans un format côte à côte")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidations qui utilisent des structures d’organisation créées à partir des entités juridiques
-Les hiérarchies d’organisation contenant des dimensions ou des entités juridiques créent dynamiquement des définitions d’organigramme d’entreprise dans l’outil États financiers. Il est facile de simplifier les consolidations en ajoutant une hiérarchie d’organisation à votre état dans l’outil États financiers. Selon la date de l’état, l’outil États financiers sélectionne la hiérarchie d’organisation avant ou à la date d’effet, comme indiqué dans l’illustration suivante.
+Les hiérarchies d’organisation contenant des dimensions ou des entités juridiques créent dynamiquement des définitions d’organigramme d’entreprise dans l’outil États financiers. Il est facile de simplifier les consolidations en ajoutant une hiérarchie d’organisation à votre état dans l’outil États financiers. Selon la date de l’état, l’outil Financial reporting sélectionne la hiérarchie d’organisation avant ou à la date d’effet, comme indiqué dans l’illustration suivante.
 
 ![Créer dynamiquement une définition d’arborescence de génération d’états](./media/dynamically-create-reporting-tree-definitions.png "Créer dynamiquement une définition d’arborescence de génération d’états")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidations impliquant des éliminations
 Les transactions d’élimination font communément partie du processus de consolidation. Dans cet exemple, cinq comptes sont éliminés pendant la consolidation : 142600, 211400, 401420, 401180 et 510820. Les sociétés peuvent paramétrer leurs comptes intersociétés différemment. Par exemple, certaines sociétés définissent le dernier chiffre sur 9 si le compte est utilisé dans les transactions intersociétés. Quelle que soit la méthode, si vous connaissez les comptes intersociétés, vous pouvez afficher les éliminations dans vos tableaux d’analyse consolidés.
 
-L’illustration suivante présente une définition de colonne pour un compte de résultat consolidé. Trois comptes intersociétés de résultat sont définis pour chaque société à l’aide du filtre de dimension. La colonne D contient les comptes d’élimination uniquement pour la société USMF, et la colonne E contient les éliminations uniquement pour la société DEMF. La colonne D et la colonne E sont paramétrées de manière à ce qu’elles **ne soient pas** imprimées sur le tableau d’analyse.
+L’illustration suivante présente une définition de colonne pour un compte de résultat consolidé. Trois comptes intersociétés de résultat sont définis pour chaque société à l’aide du filtre de dimension. Les colonnes F, G et H incluent les comptes d'élimination uniquement pour les sociétés USMF, USRT et DEMF. Ces colonne sont paramétrées de manière à **ne pas** être imprimées sur le tableau d’analyse.
 
 ![Définition de colonne pour un compte de résultat consolidé](./media/column-definition-consolidated-income-statement.png "Définition de colonne pour un compte de résultat consolidé")
 
@@ -140,7 +139,7 @@ Chaque entité juridique peut avoir son propre calendrier fiscal mais doit gén�
 - Créez une définition de colonne, puis utilisez la période et l’année pour mettre en correspondance les périodes appropriées pour chaque société.
 - Sous **Paramètres** \> **Autre** \> **Options supplémentaires**, indiquez si la date de fin de la période ou le numéro de la période est utilisé pour la consolidation.
 
-Lorsque vous créez une définition de colonne pour plusieurs sociétés qui ont différentes périodes fiscales, il est important de définir quelle société sera affectée au champ **Nom de la société** dans la définition d’état. Le calendrier fiscal de cette société sera utilisé comme calendrier fiscal de base pour la définition d’état. Par exemple, le tableau suivant présente la configuration de la période fiscale pour les sociétés USMF et INMF. Pour les états consolidés, vous souhaitez utiliser le calendrier fiscal de la société USMF. La colonne « Mise en correspondance » indique la période et l’année équivalentes pour chaque société si un état est généré pour le 30 juin 2018.
+Lorsque vous créez une définition de colonne pour plusieurs sociétés qui ont différentes périodes fiscales, il est important de définir quelle société sera affectée au champ **Nom de la société** dans la définition d’état. Le calendrier fiscal de cette société sera utilisé comme calendrier fiscal de base pour la définition d’état. Par exemple, le tableau suivant présente la période fiscale qui était configurée pour les sociétés USMF et INMF. Pour les états consolidés, vous souhaitez utiliser le calendrier fiscal de la société USMF. La colonne « Mise en correspondance » indique la période et l’année équivalentes pour chaque société si un état est généré pour le 30 juin 2018.
 
 | Société   | Exercice                                  | Mise en correspondance                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -224,3 +223,6 @@ Pour obtenir des montants correctement convertis lorsque des devises sont utilis
 Pour plus d’informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d’ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d’informations sur la saisie des détails des consolidations en ligne, voir [Consolidations financières en ligne](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

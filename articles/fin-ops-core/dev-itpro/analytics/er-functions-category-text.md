@@ -2,11 +2,8 @@
 title: Liste des fonctions ER dans la catégorie de texte
 description: Cette rubrique fournit des informations sur les fonction de texte prises en charge dans les États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 04/02/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741012"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Liste des fonctions ER dans la catégorie de texte
 
@@ -62,3 +59,6 @@ Les fonctions de texte des états électroniques (ER) peuvent être utilisées p
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Langage de formule dans la gestion des états électroniques](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

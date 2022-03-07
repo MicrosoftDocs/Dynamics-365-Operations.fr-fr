@@ -2,11 +2,9 @@
 title: Créer et affecter une stratégie d’affectation des coûts à une unité de contrôle des coûts
 description: Cette procédure permet de créer et d’affecter une stratégie de répartition des coûts et les règles correspondantes à une unité de contrôle des coûts.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerPolicyAssignment
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006310d07dfa5b75941ca248736800bbb9e8e7b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1cff10132e8007be885e9c69d97cf96c30d69f50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969326"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822853"
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Créer et affecter une stratégie d’affectation des coûts à une unité de contrôle des coûts
 
@@ -66,3 +64,6 @@ Cette procédure permet de créer et d’affecter une stratégie de répartition
 5. Dans le champ Unité de contrôle des coûts, entrez ou sélectionnez une valeur.
 6. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: d836f0e431c444c07186da123579f5cce9895be5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4412407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238604"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Expérimentation dans Dynamics 365 Commerce
 Utiliser l'expérimentation dans Dynamics 365 Commerce pour valider des hypothèses sur l'efficacité de vos pages e-commerce et prendre des décisions en vous basant sur les données. Commerce prend en charge les tests A/B sur les pages, les modules et les fragments, et vous permet de mesurer l'impact des modifications proposées sur votre site web.
@@ -57,3 +56,6 @@ Pour en savoir plus sur chaque étape du processus d'expérimentation, reportez-
 
 ## <a name="next-step"></a>Étape suivante
 [Identifier une hypothèse et déterminer les métriques de réussite pour une expérience](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

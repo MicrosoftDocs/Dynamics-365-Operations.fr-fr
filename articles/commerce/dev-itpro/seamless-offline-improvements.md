@@ -1,7 +1,7 @@
 ---
 title: Basculement transparent en mode hors connexion pour les opérations par carte cadeau et avoir
 description: Cette rubrique fournit une vue d’ensemble des améliorations permettant un basculement transparent en mode hors connexion pour des types de paiement spécifiques.
-author: BrianShook
+author: rubendel
 ms.date: 02/11/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: a8eda003e4cd4cf0d43bb07c93bd8d68a2fb9e57
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779490"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792955"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Basculement transparent en mode hors connexion pour les opérations par carte cadeau et avoir
 
@@ -36,7 +36,7 @@ Cependant, si le PDV perd la connectivité après l’ajout d’une carte cadeau
 
 Pour activer la fonctionnalité permettant de conclure des transactions par carte cadeau après le basculement en mode hors connexion, accédez à l’onglet **Validation** dans la page **Paramètres Commerce**. Dans cet onglet, recherchez le raccourci **Carte cadeau** et définisez **Autoriser la conclusion des transactions par carte cadeau en mode hors connexion** sur **Oui**.
 
-![Configuration d’une carte cadeau en mode hors connexion.](../media/gift.png)
+![Configuration d’une carte cadeau en mode hors connexion](../media/gift.png)
 
 Les paramètres Commerce sont généralement mis en cache. Par conséquent, une fois que la configuration de ce paramètre a été mise à jour et que le programme de distribution est lancé pour synchroniser les modifications avec le canal, les modifications peuvent prendre jusqu’à 24 heures pour prendre effet. Pour que les modifications prennent effet immédiatement, réinitialisez Microsoft Internet Information Services (IIS).
 
@@ -46,14 +46,14 @@ Comme les cartes cadeaux internes, les avoirs sont centralisés dans Commerce He
 
 Pour activer la fonctionnalité permettant de conclure des transactions par avoir après le basculement en mode hors connexion, accédez à l’onglet **Validation** dans la page **Paramètres commerciaux**. Dans cet onglet, recherchez le raccourci **Avoir** et définisez **Autoriser la conclusion des transactions par avoir en mode hors connexion** sur **Oui**.
 
-![Configuration d’un avoir en mode hors connexion.](../media/creditmemo.png)
+![Configuration d’un avoir en mode hors connexion](../media/creditmemo.png)
 
 Les paramètres Commerce sont généralement mis en cache. Par conséquent, une fois que la configuration de ce paramètre a été mise à jour et que le programme de distribution est lancé pour synchroniser les modifications avec le canal, les modifications peuvent prendre jusqu’à 24 heures pour prendre effet. Pour que les modifications prennent effet immédiatement, réinitialisez IIS.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Fonctionnalité de point de vente (PDV) en mode hors connexion](../pos-offline-functionality.md)
-- [Opérations du point de vente (PDV), en ligne et hors connexion](../pos-operations.md)
+- [Fonctionnalité de point de vente (PDV) en mode hors connexion](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
+- [Opérations du point de vente (PDV), en ligne et hors connexion](https://docs.microsoft.com/dynamics365/retail/pos-operations)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

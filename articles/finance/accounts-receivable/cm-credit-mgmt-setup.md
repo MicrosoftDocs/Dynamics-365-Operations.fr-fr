@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323408"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921213"
 ---
 # <a name="credit-management-parameters-setup"></a>Paramétrage de la gestion du crédit
 
@@ -50,8 +50,7 @@ Vous pouvez également définir le nombre de jours de grâce avant de vérifier 
 
 Si vous ne spécifiez pas le nombre de jours de grâce, les règles de crédit seront vérifiées à chaque étape de validation configurée pour exécuter les règles de gestion des crédits. Si vous validez la commande client sans validation, puis exécutez à nouveau la même étape de traitement des commandes, les règles de crédit seront à nouveau vérifiées. Par exemple, une commande est mise en attente après une confirmation et vous la validez avec ou sans validation. Dans ce cas, la commande sera à nouveau suspendue si vous la confirmez à nouveau. Utilisez les jours de grâce si la commande doit passer à l’étape de traitement suivante sans être à nouveau suspendue.
 
-> [!Note]
-> Si un point de contrôle de publication a un jour de grâce entré, tous les points de contrôle qui sont marqués pour publication doivent avoir des jours de grâce.
+Vous ne pouvez pas spécifier de jours de grâce pour certains points de contrôle de validation, mais pas pour d’autres. Vous devez configurer tous les points de contrôle de validation afin qu’ils aient des jours de grâce, ou vous devez les configurer tous afin qu’ils n’aient pas de jours de grâce.
 
 - Cochez la case **Validation** pour exécuter les règles de gestion du crédit lorsque le point de contrôle de validation affiché sur la ligne est exécuté. Si vous ne cochez pas la case, les règles ne seront vérifiées qu’une seule fois pendant tout le processus de validation.
 - Si vous cochez la case **Validation**, spécifiez le nombre de jours de grâce qui doivent s’écouler avant que les règles de blocage soient à nouveau vérifiées. Vous ne pouvez pas ajouter de jours de grâce si la case **Validation** n’est pas cochée.

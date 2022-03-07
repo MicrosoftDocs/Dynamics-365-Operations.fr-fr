@@ -1,27 +1,25 @@
 ---
-title: Dimensions financières et comptes principaux dans des langues s’écrivant de droite à gauche
-description: Cette rubrique décrit certaines des décisions d’implémentation que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
-author: aprilolson
-manager: AnnBe
+title: Dimensions financières et comptes principaux dans des langues qui se lisent de droite à gauche
+description: Cette rubrique décrit certaines des décisions que vous devez prendre en compte lorsque vous utilisez une langue qui se lit de droite à gauche, et vous devez paramétrer des dimensions financières et des comptes principaux.
+author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
 ms.search.region: global
-ms.author: aolson
+ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0c88b95ba7c596f4e8c1677c475ca92deba1cb71
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680480"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781743"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensions financières et comptes principaux dans des langues s’écrivant de droite à gauche
 
@@ -38,3 +36,6 @@ Les dimensions financières et les comptes principaux sont des composants clés 
 - Évitez d’utiliser le séparateur de plan de comptes sélectionné dans les valeurs de dimension financière et de compte principal.
 
 Si vous suivez ces recommandations, vous vous assurez d’une représentation cohérente de l’ordre défini par l’utilisateur dans tout le système.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

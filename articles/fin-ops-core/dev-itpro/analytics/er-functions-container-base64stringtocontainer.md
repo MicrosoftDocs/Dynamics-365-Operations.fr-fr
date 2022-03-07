@@ -2,11 +2,9 @@
 title: Fonction Base64StringToContainer pour la gestion des états électroniques
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction Base64StringToContainer pour la gestion des états électroniques.
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
-ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4739077"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355368"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Fonction Base64StringToContainer pour la gestion des états électroniques
 
@@ -75,8 +73,11 @@ Vous définissez les sources de données suivantes dans la mise en correspondanc
 
 Dans cet exemple, la source de données **\#MediaAsBase64String** code le contenu binaire de la pièce jointe multimédia actuelle sous forme de texte qui représente un groupe Base64 de schémas de codage binaire-texte. La source de données **\#BlobFomBase64** décode la chaîne Base64 et renvoie une valeur binaire au format BLOB.
 
-![Exemple de sources de données sur la page Concepteur de mise en correspondance de modèles pour la gestion des états électroniques](./media/er-functions-container-base64stringtocontainer-1.png)
+![Exemple de sources de données sur la page Concepteur de mise en correspondance de modèles pour la gestion des états électroniques.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Fonctions Conteneur](er-functions-category-container.md)
+[Fonctions du conteneur](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

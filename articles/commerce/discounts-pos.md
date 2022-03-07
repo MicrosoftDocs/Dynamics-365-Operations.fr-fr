@@ -2,16 +2,13 @@
 title: Afficher les remises dans le PDV
 description: Cette rubrique explique comment Microsoft Dynamics 365 Commerce aide les vendeurs à se renseigner sur les promotions et comment les utiliser dans le cadre des mouvements de vente croisée et de vente incitative.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731665"
 ---
 # <a name="show-discounts-in-pos"></a>Afficher les remises dans le PDV
 
@@ -36,7 +33,7 @@ Les promotions jouent un rôle important dans la motivation des clients qui doiv
 
 Commerce comprend une opération intitulée « Afficher toutes les remises ». Cette opération affiche toutes les remises actuellement en cours dans un magasin. L’opération « Afficher toutes les remises » peut être associée à un bouton du point de vente (PDV), et ce bouton peut être ajouté à la page **Bienvenue** ou **Transaction**. L’illustration suivante présente un exemple de la page **Toutes les remises** qui est ouverte.
 
-![Page Toutes les remises](./media/View_all_discounts.png "Page Toutes les remises")
+![Page Toutes les remises.](./media/View_all_discounts.png "Page Toutes les remises")
 
 Pour afficher les remises, le système recherche toutes les remises correspondant à une ou plusieurs des conditions suivantes :
 
@@ -64,8 +61,11 @@ Les illustrations suivantes montrent la logique qui détermine les remises à af
 
 L’illustration suivante montre la logique utilisée lorsque le contrôle de simultanéité de la remise est défini sur **Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités**.
 
-![Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités](./media/Model_1.png "Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités.").
+![Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités.](./media/Model_1.png "Logique pour Meilleur prix et composé dans la priorité, ne jamais composer dans plusieurs priorités.").
 
 L’illustration suivante montre la logique utilisée lorsque le contrôle de simultanéité de la remise est défini sur **Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités**.
 
-![Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités](./media/Model_2.png "Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités").
+![Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités.](./media/Model_2.png "Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
