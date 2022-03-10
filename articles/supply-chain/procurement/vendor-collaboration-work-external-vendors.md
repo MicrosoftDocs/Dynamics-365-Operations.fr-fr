@@ -1,12 +1,10 @@
 ---
 title: Collaboration fournisseur avec des fournisseurs externes
 description: Cette rubrique explique comment les agents des achats peuvent collaborer avec des fournisseurs externes pour échanger des informations sur les commandes fournisseur et le stock de consignation.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b375e1916344d94c2eaf2d951cd72744917d9edf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246643"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576974"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
@@ -35,7 +33,7 @@ Pour plus d’informations sur ce que les fournisseurs externes peuvent effectue
 > [!NOTE]
 > Les informations sur la collaboration fournisseur contenues dans cette rubrique s’appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d’informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
-Pour plus d’informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d’informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
+Pour plus d’informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d’informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Définition des informations visibles par les fournisseurs lorsqu’ils répondent à des commandes fournisseur
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763188"
 ---
 # <a name="cost-control-workspace"></a>Espace de travail de contrôle des coûts 
 
@@ -116,7 +116,7 @@ L’espace de travail **Contrôle des coûts** est conçue comme un état Web. P
 
 La liste des états disponibles pour les utilisateurs, tels que les responsables, est contrôlée par le paramètre de l’option **Publié** sur la page **Configurations de l’espace de travail de contrôle des coûts**.
 
-![État que les utilisateurs peuvent voir dans l’espace de travail Contrôle des coûts](./media/report-cost-control.png)
+![État que les utilisateurs peuvent voir dans l’espace de travail Contrôle des coûts.](./media/report-cost-control.png)
 
 Un responsable peut sélectionner la période de calendrier fiscal à afficher. La date de la session permet de déterminer la période actuelle par défaut.
 
@@ -136,11 +136,11 @@ Une grille montre chaque élément de coût associé au nœud de hiérarchie de 
 
 Deux graphiques affichent une synthèse du comparatif entre le budget et l’écart du budget par période.
 
-![Graphiques qui affichent une synthèse du comparatif entre le budget et l’écart du budget par période](./media/cost-element-details-operations.png)
+![Graphiques qui affichent une synthèse du comparatif entre le budget et l’écart du budget par période.](./media/cost-element-details-operations.png)
 
 Les utilisateurs peuvent cliquer sur **Écritures de coût** pour explorer les détails d’écritures au besoin.
 
-![Écritures de coût](./media/cost-entries.png)
+![Écritures de coût.](./media/cost-entries.png)
 
 Par exemple, le loyer est une dépense qui est répartie entre les centres de coût. Un utilisateur qui veut comprendre le coût du loyer que son centre de coûts doit supporter peut voir de manière détaillée comment le loyer a été calculé.
 
@@ -148,7 +148,7 @@ Si les utilisateurs cliquent sur **Base de répartition** sur la page **Écritur
 
 Dans l’exemple suivant, la base de répartition est du type **Base de répartition de la formule**, et la formule s’affiche. Les facteurs qui définissent la formule sont répertoriés. En outre, une grille affiche le calcul qui est effectué par objet de coût.
 
-![Calculs par objet de coût](./media/cost-entries-allocation-base.png)
+![Calculs par objet de coût.](./media/cost-entries-allocation-base.png)
 
 Ressources supplémentaires 
 

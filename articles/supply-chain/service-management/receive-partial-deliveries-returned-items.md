@@ -1,12 +1,10 @@
 ---
 title: Recevoir des livraisons partielles d’articles retournés
 description: Des livraisons partielles sont définies en termes de lignes d’ordre de retour, pas d’expéditions de retour.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da4020afc8832ed9bef88f5387533ee6cd09645b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: db02356afe06244f062f4e7c67a5db0a36900469
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234799"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566165"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>Recevoir des livraisons partielles d’articles retournés    
 

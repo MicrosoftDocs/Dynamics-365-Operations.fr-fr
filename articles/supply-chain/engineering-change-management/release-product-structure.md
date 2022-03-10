@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115095"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567485"
 ---
 # <a name="release-product-structures"></a>Lancer les structures de produit
 

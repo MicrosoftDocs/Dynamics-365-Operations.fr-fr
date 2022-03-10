@@ -2,35 +2,37 @@
 title: Optimiser les traitements par lots planifié BYOD
 description: Cette rubrique explique comment optimiser les performances lorsque vous utilisez la fonctionnalité Apporter votre propre base de données (BYOD) avec Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418483"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067777"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Optimiser les traitements par lots planifié BYOD
 
-Cette rubrique explique comment optimiser les performances lorsque vous utilisez la fonctionnalité Apporter votre propre base de données (BYOD). Pour plus d’informations sur BYOD, consultez [Apporter votre propre base de données (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette rubrique explique comment optimiser les performances lorsque vous utilisez la fonctionnalité Apporter votre propre base de données (BYOD). Pour plus d’informations sur BYOD, consultez [Apporter votre propre base de données (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Considérations relatives aux performances pour l’exportation de données
 
-Une fois les entités publiées dans la base de données de destination, vous pouvez utiliser la fonction Exporter dans l’espace de travail **Gestion des données** pour déplacer des données. La fonction Exporter vous permet de définir une tâche de mouvement de données contenant une ou plusieurs entités. Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+Une fois les entités publiées dans la base de données de destination, vous pouvez utiliser la fonction Exporter dans l’espace de travail **Gestion des données** pour déplacer des données. La fonction Exporter vous permet de définir une tâche de mouvement de données contenant une ou plusieurs entités. Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Vous pouvez utiliser la page **Exportation** pour exporter des données dans différents formats de données cibles, comme un fichier de valeurs séparées par des virgules (CSV). Cette page prend également en charge les bases de données SQL comme autre destination.
 
@@ -61,7 +63,7 @@ Pour des performances optimales, utilisez toujours l’option **Exporter par lot
 
 Lorsque vous ajoutez une entité pour l’exportation de données, vous pouvez effectuer une transmission incrémentielle (exportation) ou une transmission complète. Une transmission de type push complète supprime tous les enregistrements existants d’une entité dans la base de données BYOD. Elle insère ensuite l’ensemble d’enregistrements actuel provenant de l’entité Human Resources.
 
-Pour effectuer une transmission de type push incrémentielle, vous devez activer le suivi des modifications pour chaque entité sur la page **Entités**. Pour plus d’informations, voir la [Activation du suivi des modifications pour les entités](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Pour effectuer une transmission de type push incrémentielle, vous devez activer le suivi des modifications pour chaque entité sur la page **Entités**. Pour plus d’informations, voir la [Activation du suivi des modifications pour les entités](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Si vous sélectionnez une transmission de type push incrémentielle, la première est toujours complète. SQL suit les modifications depuis cette première transmission de type push complète. Lorsqu’un nouvel enregistrement est inséré, ou lorsqu’un enregistrement est mis à jour ou supprimé, la modification est reflétée dans l’entité de destination.
 
@@ -88,11 +90,20 @@ Cette fonctionnalité BYOD a les restrictions suivantes :
 
 **Problème :** Lorsqu’une transmission de type push complète se produit pour une entité, un grand ensemble d’enregistrements s’affiche dans BYOD lorsque vous utilisez une instruction **select**. Cependant, lorsque vous effectuez une transmission de type push incrémentielle, vous ne voyez que quelques enregistrements dans BYOD. Il semble que la transmission de type push incrémentielle ait supprimé tous les enregistrements et ajouté uniquement les enregistrements modifiés dans BYOD.
 
-**Solution :** Les tables de suivi des modifications SQL peuvent ne pas être dans l’état attendu. Dans les cas de ce type, nous vous recommandons de désactiver le suivi des modifications pour l’entité, puis de le réactiver. Pour plus d’informations, voir la [Activation du suivi des modifications pour les entités](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Solution :** Les tables de suivi des modifications SQL peuvent ne pas être dans l’état attendu. Dans les cas de ce type, nous vous recommandons de désactiver le suivi des modifications pour l’entité, puis de le réactiver. Pour plus d’informations, voir la [Activation du suivi des modifications pour les entités](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Les tables intermédiaires ne s’effacent pas
+
+**Problème :** lors de l’utilisation de la mise en lots pour le projet, les tables intermédiaires ne s’effacent pas correctement. Les données des tables continuent alors de croître, ce qui entraîne des problèmes de performances.
+
+**Solution :** sept jours d’historique sont conservés dans les tables intermédiaires. Les données historiques datant de plus de sept jours sont automatiquement effacées des tables intermédiaires par la tâche par lots **Exporter le nettoyage intermédiaire**. Si cette tâche est bloquée, les tables ne s’effaceront pas correctement. Lors du redémarrage de cette tâche par lots , le processus reprendra pour effacer automatiquement les tables intermédiaires.
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d’ensemble de la gestion des données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Apporter votre propre base de données (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Vue d’ensemble de tâches d’importation et d’exportation de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Activer le suivi des modifications pour les entités](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Vue d’ensemble de la gestion des données](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Apporter votre propre base de données (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Vue d’ensemble de tâches d’importation et d’exportation de données](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Activer le suivi des modifications pour les entités](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

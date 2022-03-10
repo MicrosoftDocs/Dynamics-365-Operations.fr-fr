@@ -1,12 +1,10 @@
 ---
 title: Immobilisations dans le secteur public
-description: Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public.
-author: ShylaThompson
-manager: AnnBe
+description: Cette rubrique décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTransfer
 audience: Application User
@@ -15,24 +13,23 @@ ms.custom: 20891
 ms.assetid: 552c7969-f044-4774-82ec-080aeae8cf3f
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c1d227689fd96a296ee1b0f06a94153647ab87d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e79e2092e6fc7b3ea63406800572946d6c3b3bcd
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971167"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817717"
 ---
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public. 
+Cette rubrique décrit la fonctionnalité des immobilisations disponible pour les entités du secteur public. 
 
-<a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
--------------------------------------------------------
+## <a name="what-do-i-need-to-know-about-disposing-of-fixed-assets"></a>Que dois-je savoir à propos de la cession des immobilisations ?
 
 Les organisations du secteur public peuvent utiliser les propositions de rebut et de vente pour céder plus d’une immobilisation à la fois.
 
@@ -50,3 +47,6 @@ Pour plus d’informations, voir [Fonds dans le secteur public](funds-public-sec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

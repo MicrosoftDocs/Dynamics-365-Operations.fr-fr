@@ -1,29 +1,31 @@
 ---
 title: Créer un workflow de demande d’absence
 description: Créez un workflow de demande de congé et d’absence pour gérer les demandes de congé de manière cohérente dans Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 05/08/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb726f37d25e782a90938b7794be6dea2c30a7d5
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 707b986c41cde2d4e26bdb4c5218b87b27702cee
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890721"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065174"
 ---
 # <a name="create-a-leave-request-workflow"></a>Créer un workflow de demande d’absence
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

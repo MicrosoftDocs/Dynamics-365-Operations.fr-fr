@@ -4,24 +4,17 @@ description: Cette rubrique décrit les scénarios pris en charge pour la config
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 999b37970be1c10fd5e78c3d8ac6c1fb25cad367
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751384"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061602"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Conseils sur la configuration de la double écriture
 
@@ -29,11 +22,11 @@ ms.locfileid: "5751384"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Vous pouvez configurer une connexion en double écriture entre un environnement Finance and Operations et un environnement Dataverse.
 
-+ Un environnement **Finance and Operations** offre la plateforme sous-jacente pour les applications **Finance and Operations** (par exemple, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce et Dynamics 365 Human Resources).
+Vous pouvez configurer une connexion en double écriture entre un environnement Finances et Opérations et un environnement Dataverse.
+
++ Un **environnement Finances et Opérations** offre la plateforme sous-jacente pour les **applications Finances et Opérations** (par exemple, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce et Dynamics 365 Human Resources).
 + Un **environnement Dataverse** offre à la plateforme sous-jacente les **applications Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing et Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
@@ -41,92 +34,92 @@ Vous pouvez configurer une connexion en double écriture entre un environnement 
 
 Le mécanisme de configuration varie en fonction de votre abonnement et de l’environnement :
 
-+ Pour les nouvelles instances des applications Finance and Operations, la configuration d’une connexion en double écriture commence dans Microsoft Dynamics Lifecycle Services (LCS). Si vous avez une licence pour Microsoft Power Platform, vous obtiendrez un nouvel environnement Dataverse si votre client n’en a pas.
-+ Pour les applications Finance and Operations des instances existantes, la configuration d’une connexion en double écriture commence dans l’environnement Finance and Operations.
++ Pour les nouvelles instances des applications Finances et Opérations, la configuration d’une connexion en double écriture commence dans Microsoft Dynamics Lifecycle Services (LCS). Si vous avez une licence pour Microsoft Power Platform, vous obtiendrez un nouvel environnement Dataverse si votre client n’en a pas.
++ Pour les instances existantes des applications Finances et Opérations, la configuration d’une connexion en double écriture commence dans l’environnement Finances et Opérations.
 
-Avant de commencer la double écriture sur une entité, vous pouvez exécuter une synchronisation initiale pour gérer les données existantes des deux côtés : des applications Finance and Operations et des applications d’engagement client. Vous pouvez ignorer la synchronisation initiale si vous ne devez pas synchroniser les données entre les deux environnements.
+Avant de commencer la double écriture sur une entité, vous pouvez exécuter une synchronisation initiale pour gérer les données existantes des deux côtés : des applications Finances et Opérations et des applications d’engagement client. Vous pouvez ignorer la synchronisation initiale si vous ne devez pas synchroniser les données entre les deux environnements.
 
 Une synchronisation initiale vous permet de copier les données existantes d’une application vers une autre de manière bidirectionnelle. Il existe plusieurs scénarios de configuration en fonction des environnements dont vous disposez déjà et du type de données qu’ils contiennent.
 
 Les scénarios de configuration suivants sont pris en charge :
 
-+ [Une nouvelle instance d’application Finance and Operations et une nouvelle instance d’application Customer Engagement](#new-new)
-+ [Une nouvelle instance d’application Finance and Operations et une instance d’application Customer Engagement existante](#new-existing)
-+ [Une nouvelle instance d’application Finance and Operations qui a des données et une nouvelle instance d’application Customer Engagement](#new-data-new)
-+ [Une nouvelle instance d’application Finance and Operations qui a des données et une instance d’application Customer Engagement existante](#new-data-existing)
-+ [Une instance d’application Finance and Operations existante et une nouvelle instance d’application Customer Engagement](#existing-new)
-+ [Une instance d’application Finance and Operations existante et une instance d’application Customer Engagement existante](#existing-existing)
++ [Une nouvelle instance d’application Finances et Opérations et une nouvelle instance d’application Customer Engagement](#new-new)
++ [Une nouvelle instance d’application Finances et Opérations et une instance existante d’application Customer Engagement](#new-existing)
++ [Une nouvelle instance d’application Finances et Opérations qui a des données et une nouvelle instance d’application Customer Engagement](#new-data-new)
++ [Une nouvelle instance d’application Finances et Opérations qui a des données et une instance existante d’application Customer Engagement](#new-data-existing)
++ [Une instance existante d’application Finances et Opérations et une nouvelle instance d’application Customer Engagement](#existing-new)
++ [Une instance existante d’application Finances et Opérations et une instance existante d’application Customer Engagement](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Une nouvelle instance d’application Finance and Operations et une nouvelle instance d’application Customer Engagement
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Une nouvelle instance d’application Finances et Opérations et une nouvelle instance d’application Customer Engagement
 
-Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finance and Operations qui n’a pas de données et une nouvelle instance d’une application Customer Engagement, suivez les étapes de [Configuration en double écriture depuis Lifecycle Services](lcs-setup.md). Une fois la configuration de la connexion terminée, les actions suivantes se produisent automatiquement :
+Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finances et Opérations qui n’a pas de données et une nouvelle instance d’une application Customer Engagement, suivez les étapes de [Configuration en double écriture depuis Lifecycle Services](lcs-setup.md). Une fois la configuration de la connexion terminée, les actions suivantes se produisent automatiquement :
 
-- Un nouvel environnement Finance and Operations vide est provisionné.
+- Un nouvel environnement Finances et Opérations vide est mis en service.
 - Une nouvelle instance vide d’une application Customer Engagement est provisionnée lorsque la solution CRM principale est installée.
 - Une connexion en double écriture est établie pour les données de la société DAT.
 - Les mappages de tables sont activés pour la synchronisation en direct.
 
 Les deux environnements sont alors prêts pour la synchronisation des données en direct.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Une nouvelle instance d’application Finance and Operations et une instance d’application Customer Engagement existante
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Une nouvelle instance d’application Finances et Opérations et une instance existante d’application Customer Engagement
 
-Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finance and Operations qui n’a pas de données et une instance existante d’une application Customer Engagement, suivez les étapes de [Configuration en double écriture depuis Lifecycle Services](lcs-setup.md). Une fois la configuration de la connexion terminée, les actions suivantes se produisent automatiquement :
+Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finances et Opérations qui n’a pas de données et une instance existante d’une application Customer Engagement, suivez les étapes de [Configuration en double écriture depuis Lifecycle Services](lcs-setup.md). Une fois la configuration de la connexion terminée, les actions suivantes se produisent automatiquement :
 
-- Un nouvel environnement Finance and Operations vide est provisionné.
+- Un nouvel environnement Finances et Opérations vide est mis en service.
 - Une connexion en double écriture est établie pour les données de la société DAT.
 - Les mappages de tables sont activés pour la synchronisation en direct.
 
 Les deux environnements sont alors prêts pour la synchronisation des données en direct.
 
-Pour synchroniser les données Dataverse existantes à l’application Finance and Operations, procédez comme suit.
+Pour synchroniser les données Dataverse existantes à l’application Finances et Opérations, procédez comme suit.
 
-1. Créez une entreprise dans l’application Finance and Operations.
+1. Créez une société dans l’application Finances et Opérations.
 2. Ajoutez l’entreprise à la configuration de la connexion en double écriture.
 3. [Amorcez](bootstrap-company-data.md) les données Dataverse à l’aide d’un code d’entreprise à trois lettres de l’Organisation internationale de normalisation (ISO).
 4. Exécutez la fonctionnalité **Synchronisation initiale** pour les tables pour lesquelles vous souhaitez synchroniser les données.
 
 Pour obtenir des liens vers un exemple et une autre approche, consultez la section [Exemple](#example) plus loin dans cette rubrique.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Une nouvelle instance d’application Finance and Operations qui a des données et une nouvelle instance d’application Customer Engagement
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Une nouvelle instance d’application Finances et Opérations qui a des données et une nouvelle instance d’application Customer Engagement
 
-Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finance and Operations contenant des données et une nouvelle instance d’une application Customer Engagement, suivez les étapes dans la section [Une nouvelle instance d’application Finance and Operations et une nouvelle instance d’application Customer Engagement](#new-new) plus haut dans cette rubrique. Une fois la configuration de la connexion terminée, si vous souhaitez synchroniser les données avec l’application Customer Engagement, procédez comme suit.
+Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finances et Opérations contenant des données et une nouvelle instance d’une application Customer Engagement, suivez les étapes dans la section [Une nouvelle instance d’application Finances et Opérations et une nouvelle instance d’application Customer Engagement](#new-new) plus haut dans cette rubrique. Une fois la configuration de la connexion terminée, si vous souhaitez synchroniser les données avec l’application Customer Engagement, procédez comme suit.
 
-1. Ouvrez l’application Finance and Operations à partir de la page LCS, connectez-vous, puis accédez à **Gestion des données \> Double écriture**.
+1. Ouvrez l’application Finances et Opérations à partir de la page LCS, connectez-vous, puis accédez à **Gestion des données \> Double écriture**.
 2. Exécutez la fonctionnalité **Synchronisation initiale** pour les tables pour lesquelles vous souhaitez synchroniser les données.
 
 Pour obtenir des liens vers un exemple et une autre approche, consultez la section [Exemple](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Une nouvelle instance d’application Finance and Operations qui a des données et une instance d’application Customer Engagement existante
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Une nouvelle instance d’application Finances et Opérations qui a des données et une instance existante d’application Customer Engagement
 
-Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finance and Operations contenant des données et une instance existante d’une application Customer Engagement, suivez les étapes dans la section [Une nouvelle instance d’application Finance and Operations et une instance d’application Customer Engagement existante](#new-existing) plus haut dans cette rubrique. Une fois la configuration de la connexion terminée, si vous souhaitez synchroniser les données avec l’application Customer Engagement, procédez comme suit.
+Pour configurer une connexion en double écriture entre une nouvelle instance d’une application Finances et Opérations contenant des données et une instance existante d’une application Customer Engagement, suivez les étapes dans la section [Une nouvelle instance d’application Finances et Opérations et une instance existante d’application Customer Engagement](#new-existing) plus haut dans cette rubrique. Une fois la configuration de la connexion terminée, si vous souhaitez synchroniser les données avec l’application Customer Engagement, procédez comme suit.
 
-1. Ouvrez l’application Finance and Operations à partir de la page LCS, connectez-vous, puis accédez à **Gestion des données \> Double écriture**.
+1. Ouvrez l’application Finances et Opérations à partir de la page LCS, connectez-vous, puis accédez à **Gestion des données \> Double écriture**.
 2. Exécutez la fonctionnalité **Synchronisation initiale** pour les tables pour lesquelles vous souhaitez synchroniser les données.
 
-Pour synchroniser les données Dataverse existantes à l’application Finance and Operations, procédez comme suit.
+Pour synchroniser les données Dataverse existantes à l’application Finances et Opérations, procédez comme suit.
 
-1. Créez une entreprise dans l’application Finance and Operations.
+1. Créez une société dans l’application Finances et Opérations.
 2. Ajoutez l’entreprise à la configuration de la connexion en double écriture.
 3. [Amorcez](bootstrap-company-data.md) les données Dataverse à l’aide du code d’entreprise à trois lettres de l’Organisation internationale de normalisation (ISO).
 4. Exécutez la fonctionnalité **Synchronisation initiale** pour les tables pour lesquelles vous souhaitez synchroniser les données.
 
 Pour obtenir des liens vers un exemple et une autre approche, consultez la section [Exemple](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Une instance d’application Finance and Operations existante et une nouvelle instance d’application Customer Engagement
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Une instance existante d’application Finances et Opérations et une nouvelle instance d’application Customer Engagement
 
-La configuration d’une connexion en double écriture entre une instance existante d’une application Finance and Operations et une nouvelle instance d’une application Customer Engagement se produit dans l’environnement Finance and Operation.
+La configuration d’une connexion en double écriture entre une instance existante d’une application Finances et Opérations et une nouvelle instance d’une application Customer Engagement se produit dans l’environnement Finance and Operation.
 
-1. [Configurez la connexion à partir de l’application Finance and Operations](enable-dual-write.md).
+1. [Configurer la connexion depuis l’application Finances et Opérations](enable-dual-write.md).
 2. Exécutez la fonctionnalité **Synchronisation initiale** pour les tables pour lesquelles vous souhaitez synchroniser les données.
 
 Pour obtenir des liens vers un exemple et une autre approche, consultez la section [Exemple](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Une instance d’application Finance and Operations existante et une instance d’application Customer Engagement existante
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Une instance existante d’application Finances et Opérations et une instance existante d’application Customer Engagement
 
-La configuration d’une connexion en double écriture entre une instance existante d’une application Finance and Operations et une instance existante d’une application d’engagement client se produit dans l’environnement Finance and Operation.
+La configuration d’une connexion en double écriture entre une instance existante d’une application Finances et Opérations et une instance existante d’une application Customer Engagement se produit dans l’environnement Finance and Operation.
 
-1. [Configurez la connexion à partir de l’application Finance and Operations](enable-dual-write.md).
-2. Pour synchroniser les données Dataverse existantes avec l’application Finance and Operations, [amorcez](bootstrap-company-data.md) les données Dataverse à l’aide d’un code d’entreprise ISO à trois lettres.
+1. [Configurer la connexion depuis l’application Finances et Opérations](enable-dual-write.md).
+2. Pour synchroniser les données Dataverse existantes avec l’application , [amorcez](bootstrap-company-data.md) les données Dataverse à l’aide d’un code d’entreprise ISO à trois lettres.
 3. Exécutez la fonctionnalité **Synchronisation initiale** pour les tables pour lesquelles vous souhaitez synchroniser les données.
 
 Pour obtenir des liens vers un exemple et une autre approche, consultez la section [Exemple](#example).

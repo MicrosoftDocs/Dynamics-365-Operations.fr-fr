@@ -2,11 +2,9 @@
 title: Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 description: Cette rubrique fournit des informations sur les renseignements sur l’emplacement des disponibilités. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
 author: velofog
-manager: AnnBe
 ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a3986e6a1aa5d4af9b829b07a0b3a2486b28ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 60e0f721c9bcf6e966a91a66fcd0e05e85b4830015a0e26f9c3b558957c2d3d3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733579"
 ---
 # <a name="set-up-and-run-the-cash-position-inquiry"></a>Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
@@ -61,7 +59,7 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
 
 5. Dans le groupe **Colonne Cinq**, entrez un libellé pour l’en-tête de la cinquième colonne (par exemple, **Solde de clôture**).
 
-    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les quatre premières colonnes. Pour cet exemple, le calcul est Solde de départ + Encaissements - Décaissements - Transferts interfonds.
+    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les quatre premières colonnes. Pour cet exemple, le calcul est Solde de départ + Encaissements – Décaissements – Transferts interfonds.
 
 6. Dans les groupes **Colonne Six** et **Colonne Sept**, procédez comme suit :
 
@@ -70,7 +68,7 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
 
 7. Dans le groupe **Colonne Huit**, entrez un libellé pour l’en-tête de la huitième colonne (par exemple, **Solde non engagé**).
 
-    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les colonnes cinq à sept. Pour cet exemple, le calcul est Solde final - Engagements - Pré-engagements.
+    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les colonnes cinq à sept. Pour cet exemple, le calcul est Solde final – Engagements – Pré-engagements.
 
 8. Sélectionnez **Enregistrer**.
 
@@ -86,3 +84,6 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
     - Facultatif : Pour filtrer les valeurs d’une dimension spécifique sélectionnée, dans les champs sous le champ **Ensemble de dimensions financières**, sélectionnez les dimensions que vous souhaitez. Les options disponibles varient en fonction de l’ensemble de dimensions financières que vous avez sélectionné.
 
 3. Sélectionnez **Calculer les soldes** pour exécuter la recherche.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

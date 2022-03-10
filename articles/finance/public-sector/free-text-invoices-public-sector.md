@@ -1,7 +1,7 @@
 ---
 title: Factures financières dans le secteur public
-description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
-author: ShylaThompson
+description: Cette rubrique décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: 25821
 ms.assetid: 483e2726-ec48-4d1f-82f5-bffddea301ce
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45ba301b83e16abd73e26540e04ef0643ea40935
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a044d332ef8208e808d2d7a3230e1f445131423d
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187981"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817720"
 ---
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
+Cette rubrique décrit la fonctionnalité de facture financière disponible pour les entités du secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 
 ## <a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
 

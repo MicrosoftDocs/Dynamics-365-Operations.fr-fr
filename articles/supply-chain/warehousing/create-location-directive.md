@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911294"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103136"
 ---
 # <a name="work-with-location-directives"></a>Utiliser des instructions d’emplacement
 
@@ -51,7 +51,7 @@ Avant de pouvoir créer une instructions d’emplacement, vous devez suivre ces 
 
 La plupart des champs qui peuvent être définis pour les instructions d’emplacement sont communs à tous les types d’ordres de travail. Cependant, d’autres champs sont spécifiques à des types d’ordre de travail particuliers.
 
-![Types d’ordre de travail des instruction d’emplacement](media/Location_Directives_Work_Order_Types.png "Types d’ordre de travail des directives d’emplacement")
+![Types d’ordre de travail des instruction d’emplacement.](media/Location_Directives_Work_Order_Types.png "Types d’ordre de travail des directives d’emplacement")
 
 > [!NOTE]
 > Deux types d’ordres de travail, *Travail annulé* et *Inventaire tournant*, ne sont utilisés que par le système. les instructions d’emplacement ne peuvent pas être créées pour ces types d’ordres de travail.
@@ -164,7 +164,7 @@ Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au
     > [!NOTE]
     > Ce champ est disponible uniquement pour les types d’ordres de travail sélectionnés où le réapprovisionnement est autorisé. Pour une liste complète, consultez la section [Champs spécifiques aux types d’ordres de travail](#fields-specific-types) précédente dans cette rubrique.
 
-- **Localiser par** – Indiquez si la quantité en stock doit être la quantité totale indiquée sur le contenant ou si elle doit être article par article. Utilisez ce champ pour vous assurer que tout le contenu d’un contenant est placé dans un seul emplacement et que le système ne suggère pas de diviser le contenu en plusieurs emplacements pour **APE** (réception de contenant), le **contenant mixte** de réception, et les processus de réception de **groupement**. (Le processus de réception en **Groupement** exige que la *Fonctionnalité de rangement par groupement* soit activée.) Le comportement de la requête de directive de rangement, des lignes et des actions d’instruction d’emplacement variera en fonction de la valeur que vous sélectionnez. Le raccourci **Lignes** n’est utilisé que lorsque **Localiser par** est défini sur *Article*.
+- **Localiser par** – Indiquez si la quantité en stock doit être la quantité totale indiquée sur le contenant ou si elle doit être article par article. Utilisez ce champ pour vous assurer que tout le contenu d’un contenant est placé dans un seul emplacement et que le système ne suggère pas de diviser le contenu en plusieurs emplacements pour **APE** (réception de contenant), le **contenant mixte** de réception, et les processus de réception de **groupement**. (Le processus de réception en **Groupement** exige que la [Fonctionnalité de rangement par groupement](putaway-clusters.md) soit activée.) Le comportement de la requête de directive de rangement, des lignes et des actions d’instruction d’emplacement variera en fonction de la valeur que vous sélectionnez. Le raccourci **Lignes** n’est utilisé que lorsque **Localiser par** est défini sur *Article*.
 
     > [!NOTE]
     > Ce champ est disponible uniquement pour les types d’ordres de travail sélectionnés où le réapprovisionnement est autorisé. Pour une liste complète, consultez la section [Champs spécifiques aux types d’ordres de travail](#fields-specific-types).

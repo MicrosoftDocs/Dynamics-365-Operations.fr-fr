@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 57a7d5920de610cd6d38a8184b96f75a7563911b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ece9abcbaed0a1881f6b6a0d1b2357bc87ef181636a37564709f62c6aa38475
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760560"
 ---
 # <a name="maintenance-checklists"></a>Listes de contrôle de maintenance
 
@@ -75,7 +75,7 @@ Les listes de contrôle de maintenance sont créées depuis la définition sur l
 
 L’illustration ci-dessous présente un exemple de liste de contrôle de maintenance.
 
-![Figure 1](media/14-work-orders.png)
+![Figure 1.](media/14-work-orders.png)
 
 
 

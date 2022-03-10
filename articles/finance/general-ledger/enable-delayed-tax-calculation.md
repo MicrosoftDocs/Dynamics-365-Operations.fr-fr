@@ -2,11 +2,9 @@
 title: Activer un calcul de taxe différé sur les journaux
 description: Cette rubrique explique comment activer la fonctionnalité Différer un calcul de taxe pour améliorer les performances du calcul de taxe lorsque le volume de lignes de journal est très important.
 author: ericwang
-manager: Ann Beebe
 ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d842b60b3cca8c29b281ab4a6a1b6c3b0bad3684
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8394c83245865fd7fa02ddf80ada0532d1d4368e10e0a3248d0f8163f8e2224d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742903"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Activer un calcul de taxe différé sur les journaux
 [!include [banner](../includes/banner.md)]
@@ -47,14 +45,14 @@ Le système octroie la priorité au paramètre de l’en-tête du journal. Par d
 1. Accédez à **Comptabilité \> Paramétrage de la comptabilité \> Paramètres de comptabilité**.
 2. Sous l’onglet **Taxe**, sous l’organisateur **Général**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
-![Image des paramètres de comptabilité](media/delayed-tax-calculation-gl.png)
+![Image des paramètres de comptabilité.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Activez le calcul de taxe différé au niveau du nom du journal
 
 1. Accédez à **Comptabilité \> Paramétrage du journal \> Noms des journaux**.
 2. Sous l’organisateur **Général**, dans la section **Taxe**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
-![Images des noms des journaux](media/delayed-tax-calculation-journal-name.png)
+![Images des noms des journaux.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Activez le calcul de taxe différé au niveau de l’en-tête du journal
 
@@ -63,7 +61,7 @@ Le système octroie la priorité au paramètre de l’en-tête du journal. Par d
 3. Sélectionner un nom de journal.
 4. Dans l’onglet **Paramétrage**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
-![Image de la page du journal des opérations diverses](media/delayed-tax-calculation-journal-header.png)
+![Image de la page du journal des opérations diverses.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

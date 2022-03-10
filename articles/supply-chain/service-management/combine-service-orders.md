@@ -1,36 +1,33 @@
 ---
 title: Combiner les commandes de service
 description: Vous pouvez combiner les commandes de service.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427676"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580454"
 ---
 # <a name="combine-service-orders"></a>Combiner les commandes de service   
 
 [!include [banner](../includes/banner.md)]
 
 
-Lorsque vous créez des lignes de commande automatiquement dans l'écran **Accords de service**, vous avez le choix entre les options suivantes pour spécifier la manière selon laquelle vous souhaitez les regrouper.
+Lorsque vous créez des lignes de commande automatiquement dans l’écran **Accords de service**, vous avez le choix entre les options suivantes pour spécifier la manière selon laquelle vous souhaitez les regrouper.
 
   - **Par accord de service**
 
@@ -42,20 +39,20 @@ Lorsque vous créez des lignes de commande automatiquement dans l'écran **Accor
 
 ## <a name="example"></a>Exemple
 
-Créez un accord de service pour lequel la date de début est le 31-03-2007. Dans le champ **Combiner les commandes de service**, spécifiez **Par objet de service**. Créez ensuite les lignes d'accord de service suivantes :
+Créez un accord de service pour lequel la date de début est le 31-03-2007. Dans le champ **Combiner les commandes de service**, spécifiez **Par objet de service**. Créez ensuite les lignes d’accord de service suivantes :
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Numéro de ligne d'accord</p></th>
+<th><p>Numéro de ligne d’accord</p></th>
 <th><p>Type de transaction</p></th>
 <th><p>Description</p></th>
 <th><p>Intervalle</p></th>
@@ -92,19 +89,19 @@ Créez un accord de service pour lequel la date de début est le 31-03-2007. Dan
 </table>
 
 
-Vous ne devez pas spécifier de fenêtre Délai pour les lignes d'accord de service. Par conséquent, les lignes de commande de service ne bougent plus à partir du jour d'échéance calculé.
+Vous ne devez pas spécifier de fenêtre Délai pour les lignes d’accord de service. Par conséquent, les lignes de commande de service ne bougent plus à partir du jour d’échéance calculé.
 
-Ensuite, vous devez générer des lignes de commande de service à partir de l'écran **Créer des commandes de service** du 01-04-2007 au 30-04-2007.
+Ensuite, vous devez générer des lignes de commande de service à partir de l’écran **Créer des commandes de service** du 01-04-2007 au 30-04-2007.
 
-En tout, dix commandes de service sont créées. Étant donné que le paramétrage combiné que vous avez sélectionné était **Par objet de service**, toutes les commandes de service créées ne possèdent que des lignes de commande de service avec un objet de service spécifique. Les lignes de commande de service générées à partir de l'accord de service et présentant la même date de service et le même objet sont combinées dans la même commande de service.
+En tout, dix commandes de service sont créées. Étant donné que le paramétrage combiné que vous avez sélectionné était **Par objet de service**, toutes les commandes de service créées ne possèdent que des lignes de commande de service avec un objet de service spécifique. Les lignes de commande de service générées à partir de l’accord de service et présentant la même date de service et le même objet sont combinées dans la même commande de service.
 
 
 > [!NOTE]
-> <P>Dans cet exemple, le calendrier spécifié dans l'écran <STRONG>Paramètres de gestion des services</STRONG> ne contient pas de jours clôturés.</P>
+> <P>Dans cet exemple, le calendrier spécifié dans l’écran <STRONG>Paramètres de gestion des services</STRONG> ne contient pas de jours clôturés.</P>
 
 
 
-Un regroupement supplémentaire de lignes de commande de service en commandes de service a lieu avec toutes les fenêtres Délai spécifiées dans les lignes de l'accord de service.
+Un regroupement supplémentaire de lignes de commande de service en commandes de service a lieu avec toutes les fenêtres Délai spécifiées dans les lignes de l’accord de service.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -113,3 +110,6 @@ Un regroupement supplémentaire de lignes de commande de service en commandes de
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
 title: Gestion des performances
-description: Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.
-author: andreabichsel
-ms.date: 07/28/2020
-ms.topic: article
+description: Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable.
+author: twheeloc
+ms.date: 08/26/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -13,23 +13,23 @@ ms.custom:
 - intro-internal
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc0821a2e3974bee93fc40241fd141374906c456e73730d82d902924b56c0a04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732175"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984744"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent ensuite à leur tour faire des commentaires et fournir des instructions aux employés.  
+Le processus de gestion des performances permet aux employés de documenter et de discuter de leurs performances avec leur responsable. Les responsables peuvent à leur tour faire des commentaires et fournir des instructions aux employés.  
 
-Comme le montre le diagramme suivant, il existe trois pages qui vous permettent de gérer le processus :
+Comme le montre le diagramme suivant, il existe trois pages qui vous permettent de gérer le processus :
 
 -   Journal des performances
 -   Objectifs
@@ -41,9 +41,9 @@ Le diagramme suivant présente la manière dont les principaux composants de la 
 
 En tant qu’employé, avant de terminer votre révision, vous devez souvent recueillir des informations sur les activités ou les événements qui ont contribué à votre réussite au cours d’une période de révision. Le journal des performances est le document où vous pouvez documenter les activités et les événements. Vous pouvez en outre créer de futures activités à accomplir pour vous aider à atteindre un objectif, à répondre aux exigences d’un programme de perfectionnement, ou à respecter un engagement en termes de performances. Les journaux de performances ne sont pas nécessaires pour créer des objectifs ou des entretiens d’évaluation des performances. 
 
-Il existe deux versions du journal des performances : la version de l’employé, qui est accessible via l’espace de travail **Libre-service employé** (**ESS**), et la version du responsable, qui est accessible via l’espace de travail **Libre-service responsable** (**MSS**). Les employés peuvent créer des journaux pour eux-mêmes et choisir de les partager avec le responsable. Les responsables peuvent créer des journaux pour leur équipe et choisir de les partager avec leurs employés. 
+Il existe deux versions du journal des performances : la version de l’employé, qui est accessible via l’espace de travail **Libre service des employés** (**ESS**), et la version du responsable, qui est accessible via l’espace de travail **Libre service des responsables** (**MSS**). Les employés peuvent créer des journaux pour eux-mêmes et choisir de les partager avec le responsable. Les responsables peuvent créer des journaux pour leur équipe et choisir de les partager avec leurs employés. 
 
-Lorsqu’elle est appelée depuis l’espace de travail **ESS**, la page du **journal des performances** vous permet d’entrer les informations suivantes :
+Lorsque le **Journal des performances** est appelé depuis l’espace de travail **ESS**, vous pouvez saisir les informations suivantes :
 
 -   Un titre pour l’activité
 -   Une description de l’activité, notamment des informations détaillées sur celle-ci
@@ -55,9 +55,9 @@ Lorsqu’elle est appelée depuis l’espace de travail **ESS**, la page du **jo
 
 Vous pouvez également associer le journal des performances à un site Web externe en enregistrant l’URL de ce site. Si le journal est associé aux objectifs ou aux entretiens d’évaluation des performances, vous pouvez également le lier à un ou plusieurs d’entre eux. Lorsque le journal des performances est appelé depuis la page **MSS**, vous pouvez entrer les mêmes informations que celles du journal de l’employé. En outre, vous pouvez spécifier l’employé pour lequel le journal est créé. Vous pouvez choisir de partager le journal du responsable avec votre employé.
 
-### <a name="send-feedback"></a>Envoyer vos commentaires
+### <a name="send-feedback"></a>Envoyer des commentaires
 
-Le journal des performances contient une fonctionnalité supplémentaire appelée Commentaires. Lorsque vous cliquez sur **Envoyer des commentaires**, vous pouvez sélectionner un employé et lui transmettre des commentaires par courrier électronique. Le message est envoyé à l’employé qui reçoit les commentaires, à son responsable, à l’employé qui envoie les commentaires, et au responsable de ce dernier. Une entrée est créée dans le journal des performances pour chaque personne qui reçoit le message de commentaires.
+Le journal des performances contient une fonctionnalité supplémentaire appelée **Envoyer des commentaires**. Lorsque vous cliquez sur **Envoyer des commentaires**, vous pouvez sélectionner un employé et lui transmettre des commentaires par courrier électronique. Le message est envoyé à l’employé qui reçoit les commentaires, à son responsable, à l’employé qui envoie les commentaires, et au responsable de ce dernier. Une entrée est créée dans le journal des performances pour chaque personne qui reçoit le message de commentaires.
 
 ## <a name="goals"></a>Objectifs
 
@@ -86,7 +86,7 @@ Vous pouvez créer un modèle à partir d’un objectif, puis l’utiliser pour 
 
 Les entretiens d’évaluation des performances étaient auparavant appelées discussions. Ils sont désormais assez flexibles pour prendre en charge la rétroaction continue et les révisions plus formelles. Vous pouvez créer rapidement de petites réunions pour deux personnes, telles que des réunions individuelles, ou vous pouvez créer une révision plus complexe qui correspond au processus de révision de votre société. 
 
-Une réunion de type individuel est une simple révision qui nécessite un nom court, une description détaillée du contenu de la réunion, et la date de celle-ci. Une révision simple inclut les mêmes informations, plus la période dont il est question. Les responsables voient également le nom de la personne pour qui la révision est créée. 
+Une réunion de type individuel est une simple révision qui nécessite un nom court, une description détaillée du contenu de la réunion, la date de celle-ci ainsi que la période à évaluer. Les responsables voient également le nom de la personne pour qui la révision est créée. 
 
 Pour des révisions plus détaillées, vous pouvez extraire des objectifs en cours et terminés, puis entrez des commentaires sur ceux-ci. Toutes les activités et les mesures du journal des performances liées à un objectif apparaissent sur la révision. Une fois la révision finalisée, un instantané des mesures est enregistré pour conserver l’historique de ces informations au moment de la révision. 
 
@@ -121,7 +121,7 @@ Vous pouvez appliquer un classement à n’importe quel objectif ou compétence 
 
 ### <a name="sign-offs"></a>Validations
 
-L’employé et/ou le responsable seront répertoriés dans la révision en fonction des paramètres que vous définissez. Les révisions peuvent être obligatoires ou facultatives. Une fois que toutes les validations obligatoires sont effectuées, la révision est marquée par le statut Terminé.
+L’employé et/ou le responsable seront répertoriés dans la révision en fonction des paramètres que vous définissez. Les révisions peuvent être obligatoires ou facultatives. Une fois que toutes les validations obligatoires sont effectuées, la révision est marquée par le statut **Terminé**.
 
 ### <a name="attachments"></a>Documents joints
 
@@ -149,20 +149,20 @@ Le workflow de révision des collaborateurs contient deux éléments :
 
 2.  Révision finale. Ajoutez cet élément pour contrôler la modification du statut de **Prêt pour la révision** à **Révision finale**. Modifiez l’affectation pour utiliser la hiérarchie managériale où le niveau de directeur de ligne.Employé = 1. si vous souhaitez que le responsable approuve la révision finale. Remplacez l’affectation par Utilisateur du workflow si vous souhaitez que l’employé l’approuve. Si vous souhaitez que le responsable et l’employé l’approuvent, ajoutez deux étapes dans le workflow et effectuez l’affectation appropriée pour chaque étape dans l’ordre à suivre par les approbations.
 
-## <a name="setup"></a>Configuration
+## <a name="setup"></a>Paramétrage
 
-Il existe trois pages qui vous permettent de paramétrer les informations requises pour l’exécution du processus de performances : la page **mesures**, la page **types de source du journal des performances** et la page **types de révision**.
+Il existe trois pages qui vous permettent de paramétrer les informations requises pour l’exécution du processus de performances : **Mesures**, **Types de source du journal des performances** et **Types de révision**.
 
 ### <a name="measurements"></a>Mesures
 
-La page de mesures vous permet de créer des mesures standard qui seront utilisées sur les pages **Objectifs de performances** et **Révisions**. Vous pouvez créer des mesures qui sont des dates, des montants, des quantités, ou des pourcentages, ou des mesures basées sur un modèle de classement.
+La page **Mesures** vous permet de créer des mesures standard qui seront utilisées sur les pages **Objectifs de performances** et **Révisions**. Vous pouvez créer des mesures qui sont des dates, des montants, des quantités, ou des pourcentages, ou des mesures basées sur un modèle de classement.
 
 ### <a name="performance-journal-source-types"></a>Types de source du journal des performances
 
-Les types de source du journal des performances décrivent l’origine des journaux de performances. Vous pouvez voir si un article de journal sera affiché par défaut par le responsable uniquement, l’employé uniquement, ou le responsable et l’employé. Vous ne pouvez pas désactiver de types de sources à ce stade.
+Les **Types de source du journal des performances** décrivent l’origine des journaux de performances. Vous pouvez voir si un article de journal sera affiché par défaut par le responsable uniquement, l’employé uniquement, ou le responsable et l’employé. Vous ne pouvez pas désactiver de types de sources à ce stade.
 
-### <a name="review-types"></a>Types de révision
+### <a name="review-types"></a>Types d’entretiens professionnels
 
-Les types de révision des performances permettent de contrôler le comportement d’une révision. Vous pouvez activer ou désactiver le workflow pour une révision. Si la révision n’utilise pas de workflow, vous pouvez définir le statut par défaut utilisé lorsque la révision est créée. Vous pouvez également décider si l’employé, le responsable, ou les deux sont nécessaires pour valider la révision.
+Les **Types de révision** des performances permettent de contrôler le comportement d’une révision. Vous pouvez activer ou désactiver le workflow pour une révision. Si la révision n’utilise pas de workflow, vous pouvez définir le statut par défaut utilisé lorsque la révision est créée. Vous pouvez également décider si l’employé, le responsable, ou les deux sont nécessaires pour valider la révision.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

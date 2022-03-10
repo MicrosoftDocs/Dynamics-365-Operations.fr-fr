@@ -2,11 +2,9 @@
 title: Modifier des formats pour générer des documents avec des données d’application
 description: Cette rubrique décrit comment créer des configurations d’états électroniques pour générer un document électronique entrant et mettre à jour les données d’application.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752409"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modifier des formats pour générer des documents avec des données d’application
 
@@ -149,3 +147,6 @@ Les étapes de cette procédure expliquent comment créer des configurations ER 
 46. Fermez la page.
 47. Fermez la page.
 48. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

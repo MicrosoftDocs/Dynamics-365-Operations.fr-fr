@@ -1,8 +1,8 @@
 ---
 title: Human Resources n’apparaît pas dans les applications Microsoft Dynamics 365
-description: Cet article explique comment procéder si le client ne voit pas l’application Microsoft Dynamics 365 Human Resources parmi les applications Microsoft Dynamics 365.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette rubrique explique comment procéder si Microsoft Dynamics 365 Human Resources ne figure pas parmi les applications Microsoft Dynamics 365.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,24 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17a454cd32a08db105a13577c32368ad819bed1c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053374"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069678"
 ---
-# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources n’apparaît pas dans les applications Microsoft Dynamics 365
+# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>L’application Human Resources ne s’affiche pas dans les applications Microsoft Dynamics 365
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Sortie**
+**Problème**
 
 Le client ne voit pas Dynamics 365 Human Resources parmi les applications Microsoft Dynamics 365.
 
@@ -39,11 +42,11 @@ L’utilisateur doit être ajouté au rôle Créateur d’environnement pour l�
 
 3. Sous l’onglet **Sécurité**, sous l’onglet **Rôles d’environnement**, sélectionnez **Créateur d’environnement**.
 
-    ![Onglet Rôles d’environnement](media/environment-roles.png)
+    ![Onglet Rôles d’environnement.](media/environment-roles.png)
 
 4. Sous l’onglet **Utilisateurs**, ajoutez l’utilisateur ou votre organisation.
 
-    ![Onglet Utilisateurs](media/environment-maker.png)
+    ![Onglet Utilisateurs.](media/environment-maker.png)
 
 5. Sélectionnez **Enregistrer**.
 
@@ -51,7 +54,7 @@ L’utilisateur doit être ajouté au rôle Créateur d’environnement pour l�
 
 7. Sélectionnez **synchroniser** pour mettre à jour les applications de l’utilisateur.
 
-    ![Bouton Synchroniser](media/get-more.png)
+    ![Bouton Synchroniser.](media/get-more.png)
 
     Une fois la synchronisation terminée, Human Resources apparaît sur la page d’accueil.
 

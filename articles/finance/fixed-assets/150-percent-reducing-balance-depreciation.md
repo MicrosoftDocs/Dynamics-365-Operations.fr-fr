@@ -1,7 +1,7 @@
 ---
 title: Amortissement dégressif de 150 %
-description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
-author: saraschi2
+description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1c6b7e92ea8b20123c0b1c1747c49847b0e2420
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827168"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883310"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 150 %
 
 [!include [banner](../includes/banner.md)]
 
-Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
+Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 150 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations qui sont affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. Ce pourcentage est calculé sur la base de la durée de vie de l’immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 30 pourcent (150 % ÷ 5). 
 

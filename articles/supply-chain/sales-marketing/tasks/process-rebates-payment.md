@@ -1,7 +1,7 @@
 ---
 title: Traiter les remises pour le paiement
 description: Cette procédure illustre comment convertir des remises client approuvées et traitées en avoirs.
-author: omulvad
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c617abd6ad715fff658451a7af3e775cf5e83292
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ce813f0f5d9aa750828b524dd9fdf9b4a9f0854
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816458"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572455"
 ---
 # <a name="process-rebates-for-payment"></a>Traiter les remises pour le paiement
 

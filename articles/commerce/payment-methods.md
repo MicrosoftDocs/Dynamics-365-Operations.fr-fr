@@ -1,8 +1,8 @@
 ---
 title: Modes de paiement
 description: Chaque type de paiement accepté par un détaillant doit être configurée lors du paramétrage du système. Cet article décrit les types de paiement que vous pouvez paramétrer, ainsi que leur procédure de paramétrage.
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713964"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779568"
 ---
 # <a name="payment-methods"></a>Modes de paiement
 
@@ -47,5 +47,10 @@ Pour paramétrer les modes de paiement dans , vous devez effectuer les tâches s
 3. Paramétrer le mode de paiement du magasin. Associez les modes de paiement à chaque magasin, puis entrez les paramètres propres au magasin pour chaque mode de paiement de ce dernier.
 4. Paramétrer les modes de paiement par carte pour les magasins. Vous devez paramétrer la carte pour tous les modes de paiement par carte acceptés par le magasin.
 
+## <a name="handle-change-tendering-for-payment-methods"></a>Gérer les appels d’offres pour les modes de paiement
+
+Certains modes de paiement ne prennent pas en charge les appels d’offres directs si les fonds sont dus aux clients lors des transactions au point de vente. Seuls les modes de paiement **Espèces** et **Devise** peuvent être utilisés pour changer l’offre. 
+
+Pour gérer les cas où l’appel d’offres est requis lors d’une transaction, mais que le mode de paiement ne le prend pas en charge, vous pouvez définir un mode de paiement **Changer l’offre**. Lorsque vous configurez des modes de paiement en magasin pour le magasin, sélectionnez le mode de paiement à utiliser. Ensuite, dans la section **Changer**, dans le champ **Changer l’offre**, entrez une option de paiement de l’offre de changement. Par exemple, vous pouvez saisir **1** pour indiquer que les espèces peuvent être utilisées comme option de paiement de l’offre de changement.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

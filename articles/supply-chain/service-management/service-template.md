@@ -1,29 +1,26 @@
 ---
 title: Modèles de service
 description: Vous pouvez définir un accord de service comme modèle et, ultérieurement, copier les lignes du modèle dans un autre accord de service ou dans une commande de service.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8a92d67afe5fd427d1bc272c59e459cb1547d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 82a19dbee91f13eb3ef56dfd67a775930170b8e7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427569"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576302"
 ---
 # <a name="service-templates"></a>Modèles de service
 
@@ -38,18 +35,18 @@ Un client pour lequel vous fournissez un service possède des ascenseurs de serv
 Vous souhaitez paramétrer cinq accords de service pour le client, un pour chaque site.
 Pour un travail répétitif de paramétrage et pour vous assurer que les informations de paramétrage sont identiques dans les accords de services, vous créez un accord de service et le spécifiez comme modèle pour la tâche de service sur les ascenseurs.
 
-À présent, vous pouvez copier les lignes de modèle dans les cinq nouveaux accords de service pour que chacun d'entre eux contienne les lignes du modèle.
+À présent, vous pouvez copier les lignes de modèle dans les cinq nouveaux accords de service pour que chacun d’entre eux contienne les lignes du modèle.
 
 ## <a name="create-a-template"></a>Créer un modèle
 
-Lorsque vous créez un modèle de service, créez un accord de service, ainsi que les lignes requises dans celui-ci, puis associez l'accord de service à un groupe de modèles de service.
+Lorsque vous créez un modèle de service, créez un accord de service, ainsi que les lignes requises dans celui-ci, puis associez l’accord de service à un groupe de modèles de service.
 
 > [!NOTE]
-> Un accord de service peut uniquement être défini comme un modèle si aucune commande de service ne lui est associée. De la même manière, aucune commande de service ne peut être générée à partir d'un accord de service qui est défini comme un modèle.
+> Un accord de service peut uniquement être défini comme un modèle si aucune commande de service ne lui est associée. De la même manière, aucune commande de service ne peut être générée à partir d’un accord de service qui est défini comme un modèle.
 
 ## <a name="copy-template-lines"></a>Copier les lignes de modèle
 
-Vous pouvez copier des lignes d'un modèle de service dans un autre accord de service ou dans une commande de service.
+Vous pouvez copier des lignes d’un modèle de service dans un autre accord de service ou dans une commande de service.
 
 Lorsque vous copiez des lignes de modèle dans vos commandes de service ou accords de service, vos groupes de modèles sont affichés dans une arborescence où chaque groupe peut être développé. Cet affichage vous permet de visualiser chaque modèle et ligne de modèle.
 
@@ -58,3 +55,6 @@ Il est plus facile de déterminer les lignes de modèle de service à copier si 
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Copie de lignes de modèles de service](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

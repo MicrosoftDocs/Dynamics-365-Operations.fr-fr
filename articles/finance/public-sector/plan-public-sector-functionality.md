@@ -2,26 +2,26 @@
 title: Planifier la fonctionnalité Secteur public
 description: Cette rubrique suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
 author: v-kiarnd
-ms.date: 06/20/2017
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19851
 ms.assetid: 877eabf3-19c7-4897-b33e-c5a8a319cb35
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e90a9c3ae020e8e55323a5e78da1a97e7860c1f
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 1b770cbd02c3ad73b6d5f9a5133848f46a06b635
+ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817762"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "8325955"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 
@@ -60,7 +60,6 @@ page de garde de l’état de paiement générer Montants des lignes de commande
 - La clé de configuration **Secteur public** est sélectionnée.
 - La sous-clé de configuration **Réglementation française** est sélectionnée.
 - L’option **Utiliser les règles comptables du secteur public français** est sélectionnée sur la page **Paramètres du budget**.
-
 - Synthèse de solde
 - Clôture de l'engagement
 - Tenir à jour les mandats de paiement

@@ -2,11 +2,9 @@
 title: Délai d’émission de facture
 description: Cet article explique comment définir les paramètres pour calculer les dates d’échéance d’émission des factures client et des factures fournisseur dans l’Union européenne (UE).
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 261b831806a7912b270fd3ae098e1b758ef4f521
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a99f5dcd6296a0e001a5ab2a283501c93f8751a471594f0248fe61e09378bb23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744275"
 ---
 # <a name="invoice-issue-deadline"></a>Délai d’émission de facture
 
@@ -121,3 +119,6 @@ Si vous n’avez pas accès aux pages qui vous permettent d’effectuer les tâc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

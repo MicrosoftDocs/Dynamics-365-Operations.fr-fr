@@ -2,7 +2,7 @@
 title: Page d’accueil de Supply Chain Management
 description: Cette page fournit une liste de rubriques d’aide et d’autres ressources pour les fonctionnalités de Supply Chain Management.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06babeb7784c4bb9f67dd5d4fda1647926f20461
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337646"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487861"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d’accueil de Supply Chain Management
 
@@ -60,11 +60,10 @@ Cette courte vidéo résume les nouvelles fonctionnalités de gestion de la cha�
 
 - [Synchroniser un ordre d’exécution entre Field Service et Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017).
+Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017).
 
-- [Intégration de la solution Prospect en disponibilités](https://youtu.be/AVV9x5x-XCg) 
 - [Conseiller en optimisation](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [Utiliser le modèle d’entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [Utilisation du modèle d’entrepôt pour copier une configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017).
 
@@ -80,8 +79,8 @@ Les enregistrements de conférence technique suivants traitent des fonctionnalit
   - [Vue d’ensemble de la gestion des coûts](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **Planification :**
   - [Étendre la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-  - [Planification - conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
-  - [Besoin d’aide ! La production est lente !](https://youtu.be/RLXybx20B5o)
+  - [Planification – conseils et astuces pour résoudre les problèmes de performances](https://youtu.be/7v8BPmEs9Dg)
+  - [Optimisation des performances MRP](https://youtu.be/RLXybx20B5o)
 - **Gestion des informations sur les produits :**
   - [Configurateur de produits dans Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Gestion des entrepôts :**

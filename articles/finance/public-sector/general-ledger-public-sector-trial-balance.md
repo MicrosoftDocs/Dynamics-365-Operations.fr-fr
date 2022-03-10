@@ -2,11 +2,9 @@
 title: État Balance comptable avec le détail des transactions
 description: Cette rubrique décrit l’état par défaut des balances comptables. Elle décrit également les blocs élémentaires associés à cet état et comment il est possible de modifier l’état pour l’adapter à vos exigences métier.
 author: v-kiarnd
-manager: AnnBe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f179619aa8d725854525f5edb4c9d30b90208ca3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b15667e0b5ade3601d385eeb87b9d80ea64620a0d56b55121cb5d0c2c758e884
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779749"
 ---
 # <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
 
@@ -202,3 +200,6 @@ Selon le type de transaction, comme une écriture comptable avancée (ALE) ou un
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

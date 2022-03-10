@@ -1,29 +1,26 @@
 ---
 title: Modèles de planification budgétaire pour Excel
 description: Cette rubrique décrit la procédure de création de modèles Microsoft Excel qui peuvent être utilisés avec les plans budgétaires.
-author: ryansandness
-manager: AnnBe
+author: panolte
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775168"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modèles de planification budgétaire pour Excel
 
@@ -40,17 +37,17 @@ Les documents du plan budgétaire peuvent être affichés et modifiés à l’ai
 1. Ouvrez la liste **Plans budgétaires** (**Budgétisation** &gt; **Plans budgétaires**). 
 2. Cliquez sur **Nouveau** pour créer un document de plan budgétaire. 
 
-   [![Liste des plans budgétaires](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Liste des plans budgétaires.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Utilisez l’option de ligne **Ajouter** pour ajouter des lignes. Cliquez sur **Mises en page** pour afficher la configuration de la mise en page du document de plan budgétaire. 
 
-   [![Ajout de plans budgétaires](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Ajout de plans budgétaires.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Vous pouvez examiner la configuration de la mise en page et l’ajuster si nécessaire. 
 1. Accédez à **Modèle** &gt; **Générer** pour créer un fichier Excel pour cette mise en page. 
 2. Une fois le modèle généré, accédez à **Modèle** &gt; **Afficher** pour ouvrir et examiner le modèle de document de plan budgétaire. Vous pouvez enregistrer le fichier Excel sur votre disque local. 
 
-[![Enregistrer sous](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![Enregistrer sous.](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > La mise en page du document de plan budgétaire ne peut pas être modifiée une fois qu’un modèle Excel lui est associée. Pour modifier la mise en page, supprimez le fichier de modèle Excel associé et régénérez-le. Cette opération est nécessaire pour assurer la synchronisation des champs de la mise en page et de la feuille de calcul. 
@@ -67,20 +64,19 @@ Dans l’onglet **Créer**, cliquez sur le champ **Ajouter**, puis sélectionnez
 
 Pointez le curseur sur l’emplacement souhaité dans le fichier Excel. Cliquez sur **Ajouter une étiquette** pour ajouter l’étiquette de champ à l’emplacement sélectionné. Sélectionnez **Ajouter une valeur** pour ajouter le champ de valeur à l’emplacement sélectionné. Cliquez sur **Terminé** pour fermer le concepteur.
 
-## <a name="select-add-valuemediabpt7png"></a>[![Sélectionner Ajouter une valeur](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Sélectionner Ajouter une valeur.](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Ajouter une colonne calculée à la table du modèle de document de plan budgétaire
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Ajouter une colonne calculée à la table du modèle de document de plan budgétaire
 
 Ensuite, les colonnes calculées seront ajoutées au modèle de document de plan budgétaire généré. Une colonne **Demande totale** qui récapitule les colonnes Demande T1 : Demande T4, et une colonne **Ajustement** qui recalcule la colonne **Demande totale** selon un facteur prédéfini.
 
 Cliquez sur **Créer** dans le **Connecteur de données** pour ajouter des colonnes à la table. Cliquez sur **Modifier** en regard de la source de données **BudgetPlanWorksheet** pour commencer à ajouter des colonnes.
 
-[![Démarrer l’ajout de colonnes](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Démarrer l’ajout de colonnes.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 Le groupe de champs sélectionné affiche les colonnes disponibles dans le modèle. Cliquez sur **Formule** pour ajouter une nouvelle colonne. Attribuez un nom à la nouvelle colonne, puis collez la formule dans le champ **Formule**. Cliquez sur **Mettre à jour** pour insérer la colonne.
 
-[![Ajouter et insérer une colonne](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Ajouter et insérer une colonne.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Pour définir la formule, créez la formule dans la feuille de calcul, puis copiez-la dans la fenêtre **Créer**. Une table liée Finance and Operations sera généralement nommée « AXTable1 ». Par exemple, pour récapituler les colonnes Demande T1 : Demande T4 dans la feuille de calcul, utilisez la formule = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
@@ -89,11 +85,11 @@ Répétez ces étapes pour insérer la colonne **Ajustement**. Utilisez la formu
 
 Enregistrez et fermez le fichier Excel. Dans **Mises en page**, cliquez sur **Modèle &gt; Télécharger** pour télécharger le modèle Excel enregistré qui sera utilisé pour le plan budgétaire. 
 
-[![Télécharger un modèle Excel](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Télécharger un modèle Excel.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 Fermez le curseur **Mises en page**. Dans le document **Plan budgétaire**, cliquez sur **Feuille de calcul** pour afficher et modifier le document dans Excel. Notez que le modèle Excel modifié a été utilisé pour créer cette feuille de calcul de plan budgétaire et les colonnes calculées sont mises à jour à l’aide des formules définies dans les étapes précédentes. 
 
-[![Afficher et modifier le document dans Excel](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Afficher et modifier le document dans Excel.](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Conseils et astuces pour la création de modèles de plan budgétaire
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Puis-je ajouter des sources de données supplémentaires à un modèle de plan budgétaire et les utiliser ?
@@ -106,21 +102,21 @@ Vous pouvez utiliser l’option **Filtrer** du **Connecteur de données** pour a
 
 Oui, ouvrez les options du **Connecteur de données** pour masquer l’option **Créer** aux autres utilisateurs.
 
-[![Ouvrir les options du connecteur de données](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Ouvrir les options du connecteur de données.](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 Développez les **Options du connecteur de données** et désactivez la case à cocher **Activer la configuration**. L’option **Créer** sera masquée au **Connecteur de données**.
 
-[![Masquer l’option Créer du connecteur de données](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Masquer l’option Créer du connecteur de données.](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Puis-je empêcher les utilisateurs de fermer accidentellement le connecteur de données lorsqu’ils utilisent les données ?
 
 Il est recommandé de verrouiller le modèle pour empêcher les utilisateurs de le fermer. Pour activer le verrouillage, cliquez sur **Connecteur de données** dans le coin supérieur droit où une flèche apparaît. 
 
-[![Activer le verrouillage](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Activer le verrouillage.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Cliquez sur la flèche pour accéder à un menu supplémentaire. Sélectionnez **Verrouiller**.
 
-### <a name="select-lockmediabpt16png"></a>[![Sélectionner Verrouiller](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Sélectionner Verrouiller.](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Puis-je utiliser d’autres fonctionnalités Excel, telles que la mise en forme des cellules, les couleurs, la mise en forme conditionnelle et les graphiques avec mes modèles de plan budgétaire ?
 
@@ -130,3 +126,6 @@ Vous pouvez également créer et utiliser des tableaux croisés dynamiques et de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

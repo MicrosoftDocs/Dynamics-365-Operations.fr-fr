@@ -2,11 +2,9 @@
 title: Paramétrage des recouvrements
 description: Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 732b9ba95e6a3fdbb8bdd3e6aa745c26cd3904b1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f2e06da265271e2148804c51abc7cd9ffc29a3e20e73dda3a1a23966f0e6586e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769816"
 ---
 # <a name="set-up-collections"></a>Paramétrage des recouvrements
 
@@ -42,8 +40,7 @@ Cet article décrit la procédure de paramétrage de la fonctionnalité de recou
 
 Ces points sont davantage abordés dans la suite de cette rubrique. 
 
-<a name="set-up-aging-period-definitions"></a>Paramétrer les définitions de périodes de balances âgées
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Paramétrer les définitions de périodes de balances âgées
 
 Paramétrez une définition de plage âgée. Une définition de plage âgée définit les colonnes qui s’affichent sur les pages de liste **Soldes chronologiques**, **Activités de recouvrement** et **Dossiers de recouvrement**. Elle définit également les périodes qui s’affichent sur la page **Recouvrement**. Si vous paramétrez un regroupement de clients, la définition de plage âgée extraite de celui-ci est utilisée. Si aucun regroupement n’est paramétré, la définition de plage âgée par défaut spécifiée sur la page **Paramètres des ventes** est utilisée. Si aucune définition de plage âgée par défaut n’est spécifiée, la première définition de plage âgée figurant sur la page **Définitions des plages âgées** est utilisée.
 
@@ -64,9 +61,9 @@ Paramétrez les noms des journaux utilisés lorsque les transactions sont trait�
 
 | Description | Type de journal     |
 |-------------|------------------|
-| Lettrage  | Client - Paiements |
+| Lettrage  | Client – Paiements |
 | Annulation   | Quotidienne            |
-| Impayés         | Client - Paiements |
+| Impayés         | Client – Paiements |
 
 ## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Paramétrage d’un code motif pour les transactions d’annulation
 Paramétrez le code motif par défaut utilisé lorsque les transactions sont annulées sur la page **Recouvrements**. Vous pouvez modifier le code lors du processus d’annulation.
@@ -114,3 +111,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 
  - [Réviser les informations de recouvrement](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

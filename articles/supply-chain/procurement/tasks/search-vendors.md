@@ -1,26 +1,24 @@
 ---
 title: Rechercher des fournisseurs
 description: Découvrez comment rechercher des fournisseurs en fonction de critères spécifiques.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf93307600aac6fa6e45524092ec4811742010e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9fd2b300586e5a4880a21fa2251342f37726ad0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244037"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577142"
 ---
 # <a name="search-for-vendors"></a>Rechercher des fournisseurs
 

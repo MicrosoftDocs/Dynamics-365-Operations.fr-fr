@@ -2,26 +2,22 @@
 title: Vue d’ensemble de la France
 description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 Finance pour la France.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
-ms.custom: ''
 ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c15a5cf8896c752369abd15d3fc7985ef8b6999
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b8bd2537d4e39915795f6d5d3991b2bef416263a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407903"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982949"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -42,7 +38,8 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance](tasks/fr-00018-daily-interest.md)
 - [Amortissement dérogatoire](emea-fra-derogatory-depreciation.md)
 - [Lettres de change et billets à ordre français](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
-- [Génération du fichier d’audit standard pour la France (FEC)](emea-fra-fec-audit-file.md)
+- [Présentation du fichier d’audit pour la France (FEC)](emea-fra-fec-audit-file.md)
+- [Déclaration d’échanges de biens française](emea-fra-intrastat.md)
 - [Codes NAF et numéros Siret](emea-fra-naf-codes-siret-numbers.md)
 - [Paramétrer des codes NAF et numéros SIRET](tasks/fr-00003-naf-codes-siret-numbers.md)
 - [Pénalités pour les paiements client en retard](emea-fra-apply-penalty-customer-payment-past-due.md)
@@ -52,12 +49,17 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Amortissement dégressif fiscal](emea-fra-rbsl-depreciation.md)
 - [Paramétrer des modes de paiement](tasks/fr-00004-setup-method-payment.md)
 - [Mettre à jour un mode de paiement pour le client](tasks/fr-00004-update-method-payment-customer.md)
+- [Déclaration de TVA](emea-fra-VAT-declaration-preview-France.md)
+- [État DAS2](emea-fra-das2-report.md)
 - Commerce
-  - [Fonctionnalité de la caisse enregistreuse](../../retail/localizations/emea-fra-cash-registers.md)
-  - [Instructions de déploiement de caisses enregistreuses](../../retail/localizations/emea-fra-deployment.md)
+  - [Fonctionnalité de la caisse enregistreuse](../../commerce/localizations/emea-fra-cash-registers.md)
+  - [Instructions de déploiement de caisses enregistreuses](../../commerce/localizations/emea-fra-deployment.md)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Vue d’ensemble des états électroniques](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

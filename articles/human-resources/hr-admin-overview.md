@@ -1,38 +1,40 @@
 ---
 title: Vue d’ensemble de l’administration
-description: Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
-ms.topic: article
+description: Cette rubrique fournit une liste de ressources et d’autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2009b3965f032ae54b83835ae481c47b0234a231
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053729"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068407"
 ---
 # <a name="administration-overview"></a>Vue d’ensemble de l’administration
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
+
+Cette rubrique fournit une liste de ressources et d’autres informations pour configurer, gérer et dépanner Dynamics 365 Human Resources.
 
 - [Configuration requise](hr-admin-system-requirements.md)
 
-- Paramétrer et gérer des instances
+- Configurer et gérer des instances
   - [Provision de Human Resources](hr-admin-setup-provision.md)
   - [Copier une instance](hr-admin-setup-copy-instance.md)
   - [Supprimer une instance](hr-admin-setup-remove-instance.md)
@@ -72,7 +74,7 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Intégrer Microsoft Power Apps](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
   - [Rechercher des informations à l’aide des recherches](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
   - [Modification de la date d’une session](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
-  - [Configurer un fuseau horaire préféré de l'utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
+  - [Configurer un fuseau horaire préféré de l’utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Comprendre Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Ressources documentaires
@@ -83,7 +85,7 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Créer une documentation ou une formation à l’aide de l’enregistreur de tâches](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Résoudre les problèmes liés à Human Resources
-  - [Obtenir de l'aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
   - [Les états analytiques ne sont pas mis à jour](hr-admin-troubleshooting-analytic-reports.md)
   - [Impossible de créer un environnement dans le centre d’administration Power Apps](hr-admin-troubleshooting-power-apps.md)
@@ -92,13 +94,22 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Exécuter le processus de rémunération](hr-admin-troubleshooting-compensation.md)
   - [Enregistrer un guide de tâches dans LCS](hr-admin-troubleshooting-task-guide.md)
   - [Accéder aux adresses privées selon les rôles de sécurité](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources n’apparaissent pas dans les applications Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources ne s’affiche pas dans les applications Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [Options de génération d’états](hr-admin-troubleshooting-reporting.md)
   - [FAQ sur l’intégration](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+### <a name="elearning-courses"></a>Cours eLearning
+Pour les cours et formations en ligne, consultez [Dynamics 365 Human Resources sur Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Vidéos
+
+Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
 ## <a name="see-also"></a>Voir également :
 
-- [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
+- [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
 - [Guide du développeur](hr-developer-overview.md)
 - [Guide de l’utilisateur](hr-hrpro-overview.md)
 

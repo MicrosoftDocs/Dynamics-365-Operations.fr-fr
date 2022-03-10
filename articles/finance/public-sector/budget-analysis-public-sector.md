@@ -1,8 +1,8 @@
 ---
 title: Analyse budgétaire dans le secteur public
 description: Cette rubrique décrit l’utilisation de la page d’analyse de budget pour afficher les produits et les dépenses par dimension financière, puis elle répond aux questions posées fréquemment, notamment les différences entre la page d’analyse de budget et la page de statistiques de contrôle budgétaire.
-author: ShylaThompson
-ms.date: 02/07/2018
+author: v-kiarnd
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 19641
 ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0819bd974d6d02063dc0642c2a3d3e5fe15d5282f71a987facd804ecb3b3773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4153bc136c22e707d32ff4b25a6178fe3d9fae2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747026"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075437"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
@@ -33,11 +33,11 @@ Cette rubrique décrit la fonctionnalité d’analyse budgétaire pour le secteu
 
 Avant de lire cette rubrique, vous devez également lire [Vue d’ensemble de budgétisation dans le secteur public](budgeting-public-sector.md). 
 
-Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d’afficher les produits et les dépenses publiés par dimension financière, à l’aide d’une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
+Il est possible que vous deviez paramétrer les fonctionnalités de budgétisation suivantes pour le secteur public : La page **Analyse budgétaire** permet d’afficher les produits et les dépenses publiés par dimension financière, à l’aide d’une combinaison de données comptables et de contrôle budgétaire. Vous pouvez afficher les montants et les détails de transaction récapitulés pour les budgets révisés, les dépenses réelles, les engagements et les engagements préalables. 
 
 Les produits et les dépenses peuvent être récapitulés par les différents niveaux des dimensions financières. Par exemple, si les dimensions de budget sont les fonds, l’organisation et le compte principal, vous pouvez sélectionner **Fonds**, **Organisation** ou **Compte principal** pour voir l’activité financière récapitulative à ce niveau. 
 
-La page **Analyse budgétaire** permet également de sélectionner un ensemble de dimensions financières et un ensemble de colonnes. Sélectionnez ou spécifiez les éléments suivants, puis cliquez sur **Mettre à jour les totaux :**
+La page **Analyse budgétaire** permet également de sélectionner un ensemble de dimensions financières et un ensemble de colonnes. Sélectionnez ou spécifiez les éléments suivants, puis cliquez sur **Mettre à jour les totaux :**
 
 -   Paramètres
 -   Informations sur la date
@@ -47,7 +47,7 @@ La page **Analyse budgétaire** permet également de sélectionner un ensemble d
 > Vous créez des dimensions financières sur la page **Dimensions financières**. Vous spécifiez l’intervalle de dates pour les transactions incluses sur la page **Intervalles de dates** de la comptabilité.
 
 ## <a name="what-transaction-details-are-available-on-the-budget-analysis-page"></a>Quels détails de la transaction sont-ils disponibles sur la page Analyse budgétaire ?
-Vous pouvez sélectionner un article dans la grille et effectuer un zoom avant pour afficher les détails de transaction suivants :
+Vous pouvez sélectionner un article dans la grille et effectuer un zoom avant pour afficher les détails de transaction suivants :
 
 -   **Budget révisé** montants (somme des montants du budget d’origine, de la révision, du transfert, et des montants reportés)
 -   **Dépenses réelles** (la somme des débits et des crédits validés pour les valeurs de dimension financière)
@@ -90,7 +90,7 @@ Tous les ensembles de dimensions financières existants sont affichés sur la pa
 Utilisez l’ensemble de colonnes **Budget de dépenses avec report** si vous reportez le budget pour des commandes fournisseur en cours en fin d’exercice. Cet ensemble de colonnes affiche des totaux distincts pour les transactions qui utilisent le budget actif de l’exercice précédent et pour les transactions qui utilisent le budget du nouvel exercice. Cela facilite la surveillance des montants budgétés, engagés et dépensés relatifs à des transactions de l’année précédente.
 
 ## <a name="what-should-i-do-if-the-grids-are-empty-even-when-ive-selected-all-the-values"></a>Que dois-je faire si les grilles sont vides alors que j’ai sélectionné toutes les valeurs ?
-Si les grilles sont vides sur la page **Analyse budgétaire**, tentez les actions suivantes pour résoudre le problème :
+Si les grilles sont vides sur la page **Analyse budgétaire**, tentez les actions suivantes pour résoudre le problème :
 
 -   Cliquez sur **Mettre à jour les totaux** après avoir défini les valeurs en haut de la page.
 -   Vérifiez que l’ensemble de dimensions sélectionné comprend la valeur de dimension que vous recherchez.
@@ -100,9 +100,8 @@ Si les grilles sont vides sur la page **Analyse budgétaire**, tentez les action
 ## <a name="how-do-i-see-updated-numbers-in-the-columns-when-i-change-the-dimension-set-dates-posting-layers-and-other-settings"></a>Comment afficher les numéros mis à jour dans les colonnes lorsque je modifie l’ensemble de dimensions, les dates, les couches de validation, et d’autres paramètres ?
 Après avoir modifié les paramètres en haut de la page, cliquez sur **Mettre à jour les totaux** pour afficher les résultats de votre requête.
 
-
-
-
+## <a name="feature-budget-control-statistics-date-range-enhancements"></a>Fonctionnalité : Améliorations de la plage de dates des statistiques de contrôle budgétaire
+Cette fonctionnalité offre une nouvelle vue où afficher uniquement les montants réels à l’intérieur de la plage de dates indiquée sur l’enquête **Statistiques de contrôle budgétaire**. Cette fonctionnalité est activée par défaut dans la 2ème vague de lancement 2022. 
 
 
 

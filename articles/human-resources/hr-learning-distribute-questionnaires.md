@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729001"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069527"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuer et planifier des questionnaires
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Cette rubrique décrit comment distribuer les questionnaires que vous créez pour qu’ils soient à la disposition de la personne ou du groupe de personnes qui les complèteront. 
 
-Il existe plusieurs méthodes pour distribuer un questionnaire :
+Il existe plusieurs méthodes pour distribuer un questionnaire :
 
 -   Marquer le questionnaire comme **Actif**. Le questionnaire est alors mis à la disposition de tous les employés, sauf si son accès est restreint par un groupe de questionnaire.
 -   Affecter des droits à un groupe de questionnaires. Le questionnaire est alors à la disposition de tous les membres du groupe sélectionné.
@@ -43,7 +46,7 @@ En définissant le champ **Actif** sur **Oui** dans la page **Questionnaires**, 
 
 Vous pouvez paramétrer des groupes de questionnaires puis y inclure les personnes interrogées auxquelles un questionnaire doit être distribué. 
 
-Vous pouvez créer des groupes de questionnaires dans les pages suivantes :
+Vous pouvez créer des groupes de questionnaires dans les pages suivantes :
 
 -   **Groupes de questionnaire**– Seules les personnes d’un groupe de questionnaires peuvent remplir un questionnaire sélectionné. Par exemple, si le public visé est constitué de fournisseurs, vous pouvez créer un groupe de questionnaires spécifiques à ces personnes interrogées.
 -   **Membres du groupe de questionnaire** – Vous pouvez ajouter des personnes aux groupes de questionnaire.
@@ -59,7 +62,7 @@ Les sessions de réponse prévues sont des questionnaires que vous avez créés 
 
 Dans la page **Session de réponse prévue**, vous pouvez créer une session de réponse prévue pour un employé individuel. La liste de la page affiche tous les questionnaires planifiés. 
 
-Les sessions de réponse planifiées sont également utilisées dans la page **Programmes de questionnaire**, où vous pouvez planifier des questionnaires pour plusieurs personnes :
+Les sessions de réponse planifiées sont également utilisées dans la page **Programmes de questionnaire**, où vous pouvez planifier des questionnaires pour plusieurs personnes :
 
 -   Employés
 -   Participants du cours
@@ -73,7 +76,7 @@ De manière facultative, vous pouvez planifier un questionnaire pour plusieurs p
 
 ### <a name="planning-types"></a>Types de planification
 
-Les types de planification sont nécessaires si vous souhaitez programmer des sessions de réponse prévues pour plusieurs personnes interrogées. Les types de planification permettent de classer les programmes de questionnaires. Par exemple, vous pouvez planifier des questionnaires aux fins suivantes :
+Les types de planification sont nécessaires si vous souhaitez programmer des sessions de réponse prévues pour plusieurs personnes interrogées. Les types de planification permettent de classer les programmes de questionnaires. Par exemple, vous pouvez planifier des questionnaires aux fins suivantes :
 
 -   Évaluation
 -   Étude

@@ -2,11 +2,9 @@
 title: Mettre à jour la structure d’un modèle de document commercial
 description: Cette rubrique explique comment mettre à jour la structure d’un modèle de document commercial à l’aide de la fonctionnalité de gestion des documents commerciaux.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
-ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
+ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "4728087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775284"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Mettre à jour la structure d’un modèle de document commercial 
 
@@ -60,7 +58,7 @@ Suivez les procédures suivantes dans [Vue d’ensemble de la gestion des docume
 
     Le nouveau modèle est ouvert pour modification dans le contrôle intégré Excel Online sur la page de l’éditeur de modèle.
 
-[![Utilisation de l’espace de travail Gestion des documents commerciaux pour commencer à modifier un modèle de document commercial](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Utilisation de l’espace de travail Gestion des documents commerciaux pour commencer à modifier un modèle de document commercial.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Examiner la structure actuelle du modèle modifiable
 
@@ -70,7 +68,7 @@ Suivez les procédures suivantes dans [Vue d’ensemble de la gestion des docume
 4. Dans le volet **Structure du modèle**, développer **Rapport \> Facture d’achat \> rptHeader \> rptHeaderPart1**.
 5. Notez que, dans la structure du modèle dans Finance, l’élément **rptHeaderCompLogo** est présenté comme un élément enfant de **Rapport \> Facture d’achat \> rptHeader \> rptHeaderPart1**.
 
-[![Utilisation de l’espace de travail Gestion des documents commerciaux pour examiner la structure actuelle d’un modèle modifiable](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Utilisation de l’espace de travail Gestion des documents commerciaux pour examiner la structure actuelle d’un modèle modifiable.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Mettre à jour la structure d’un modèle de document commercial en supprimant une image
 
@@ -87,7 +85,7 @@ Suivez les procédures suivantes dans [Vue d’ensemble de la gestion des docume
 4. Dans le volet **Structure du modèle**, développer **Rapport \> Facture d’achat \> rptHeader \> rptHeaderPart1**.
 5. Notez que l’élément **rptHeaderCompLogo** n’est plus inclus dans la structure du modèle dans Finance.
 
-[![Utilisation de l’espace de travail Gestion des documents commerciaux pour supprimer une image d’un modèle de document commercial](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Utilisation de l’espace de travail Gestion des documents commerciaux pour supprimer une image d’un modèle de document commercial.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Mettre à jour la structure d’un modèle de document commercial en ajoutant une image
 
@@ -99,10 +97,13 @@ Suivez les procédures suivantes dans [Vue d’ensemble de la gestion des docume
 6. Dans le volet **Structure du modèle**, développer **Rapport \> Facture d’achat \> rptHeader \> rptHeaderPart1**.
 7. Notez que la nouvelle image est à présent incluse en tant qu’élément dans la structure du modèle dans Finance.
 
-[![Utilisation de l’espace de travail Gestion des documents commerciaux pour ajouter une image à un modèle de document commercial](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Utilisation de l’espace de travail Gestion des documents commerciaux pour ajouter une image à un modèle de document commercial.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Liens connexes
 
-[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

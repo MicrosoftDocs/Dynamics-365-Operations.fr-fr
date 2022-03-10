@@ -1,28 +1,26 @@
 ---
-title: Consolider les expéditions à l’aide du champ Lancement dans l’entrepôt depuis l’atelier de planification des chargements
+title: Consolider les expéditions en les lançant dans l’entrepôt à partir de l’atelier de planification des chargements
 description: Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 2fd13c2ceb8843b79b9dbc87acf77f219f0244f5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242251"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577886"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolider les expéditions à l’aide du champ Lancement dans l’entrepôt depuis l’atelier de planification des chargements
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolider les expéditions en les lançant dans l’entrepôt à partir de l’atelier de planification des chargements
 
 [!include [banner](../includes/banner.md)]
 

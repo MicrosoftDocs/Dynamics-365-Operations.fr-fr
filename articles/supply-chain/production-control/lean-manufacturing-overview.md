@@ -1,9 +1,9 @@
 ---
 title: Présentation de lean manufacturing
 description: Cet article fournit une vue d’ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: e0c8b5ec4d4a391773e32a61a321c28868678baa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343916"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985934"
 ---
 # <a name="lean-manufacturing-overview"></a>Vue d’ensemble du Lean manufacturing
 

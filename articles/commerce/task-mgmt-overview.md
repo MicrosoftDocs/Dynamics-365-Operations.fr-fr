@@ -1,12 +1,10 @@
 ---
-title: Vue d'ensemble de la gestion des tâches
-description: Cette rubrique donne une vue d'ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
+title: Vue d’ensemble de la gestion des tâches
+description: Cette rubrique donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,32 +14,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6fbd0ead6d73f4b032bdc3805fce87ec9c802535
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006158"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985391"
 ---
-# <a name="task-management-overview"></a>Vue d'ensemble de la gestion des tâches
+# <a name="task-management-overview"></a>Vue d’ensemble de la gestion des tâches
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique donne une vue d'ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
+Cette rubrique donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+Dans un environnement de vente au détail, il est toujours difficile de s’assurer que les tâches sont effectuées par la bonne personne au bon moment. Les détaillants doivent être en mesure d’informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.
 
-Dans un environnement de vente au détail, il est toujours difficile de s'assurer que les tâches sont effectuées par la bonne personne au bon moment. Les détaillants doivent être en mesure d'informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.
-
-La gestion des tâches est une fonctionnalité de productivité dans Dynamics 365 Commerce qui permet aux responsables et aux employés de créer des listes de tâches, de gérer les critères d'affectation, de suivre le statut des tâches et d'intégrer ces opérations entre le back-office Commerce et les applications PDV.
+La gestion des tâches est une fonctionnalité de productivité dans Dynamics 365 Commerce qui permet aux responsables et aux employés de créer des listes de tâches, de gérer les critères d’affectation, de suivre le statut des tâches et d’intégrer ces opérations entre le back-office Commerce et les applications PDV.
 
 Les personnes au siège peuvent utiliser la gestion des tâches pour créer des listes de tâches pour les magasins de vente au détail et pour suivre le statut par magasin ou par employé. Ils peuvent également créer des tâches récurrentes (par exemple, « Liste de contrôle pour la fermeture du jeudi soir »).
 
-Les responsables de magasin peuvent utiliser la gestion des tâches pour affecter des tâches à des employés individuels, envoyer des notifications sur les tâches à venir ou en retard, mettre à jour le statut des tâches et créer des tâches à but unique dans l'application PDV. Les employés peuvent ensuite voir les notifications, afficher les détails des tâches et mettre à jour le statut des tâches dans le PDV.
+Les responsables de magasin peuvent utiliser la gestion des tâches pour affecter des tâches à des employés individuels, envoyer des notifications sur les tâches à venir ou en retard, mettre à jour le statut des tâches et créer des tâches à but unique dans l’application PDV. Les employés peuvent ensuite voir les notifications, afficher les détails des tâches et mettre à jour le statut des tâches dans le PDV.
 
-L'illustration suivante présente l'architecture conceptuelle de la gestion des tâches dans Commerce.
+L’illustration suivante présente l’architecture conceptuelle de la gestion des tâches dans Commerce.
 
-![Architecture conceptuelle de la gestion des tâches](media/Tasks-management-conceptual-architecture.png)
+![Architecture conceptuelle de la gestion des tâches.](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -52,3 +48,6 @@ L'illustration suivante présente l'architecture conceptuelle de la gestion des 
 [Affecter des listes de tâches à des magasins ou des employés](task-mgmt-assign-lists.md)
 
 [Gestion des tâches dans le PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,32 +1,30 @@
 ---
 title: Générer et traiter les remises client
 description: Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l’étape pendant laquelle elles passent en régularisations à la comptabilité client.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abd48482d567a427389c1feeb1142eba85ee8ab1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260333"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969085"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Générer et traiter les remises client
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l’étape pendant laquelle elles passent en régularisations à la comptabilité client. Elle présente un exemple spécifique pour expliquer la manière dont les différentes conditions sur les lignes de remise affectent les montants finaux qui sont crédités sur le client. Vous devez utiliser la société de données de démonstration USMF, puis effectuer les tâches suivantes avant de commencer le guide : (1) Accédez à la page Paramètres comptabilité et développez l’onglet Prix, puis l’onglet Détails de prix, et vérifier que l’option Activer les détails de prix est définie sur Oui. (2) Accédez à la page Accords de remise et sélectionnez l’accord de remise du client : USMF-000001. Si le champ Statut de l’approbation du workflow n’est pas défini sur Approuvé, vous devez cliquez sur Validation sur le volet Actions pour l’approuver.
+Cette procédure illustre comment traiter les remises client de la génération de la réclamation à l’étape pendant laquelle elles passent en régularisations à la comptabilité client. Elle présente un exemple spécifique pour expliquer la manière dont les différentes conditions sur les lignes de remise affectent les montants finaux qui sont crédités sur le client. Vous devez utiliser la société de données de démonstration USMF, puis effectuer les tâches suivantes avant de commencer le guide : (1) Accédez à la page Paramètres comptabilité et développez l’onglet Prix, puis l’onglet Détails de prix, et vérifier que l’option Activer les détails de prix est définie sur Oui. (2) Accédez à la page Accords de remise et sélectionnez l’accord de remise du client : USMF-000001. Si le champ Statut de l’approbation du workflow n’est pas défini sur Approuvé, vous devez cliquer sur Validation sur le volet Actions pour l’approuver.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Consulter un accord de remise client
@@ -71,7 +69,7 @@ Cette procédure illustre comment traiter les remises client de la génération 
 2. Cliquez sur **Cumuler**.
 3. Dans le champ **Client**, saisissez ou sélectionnez une valeur.
 4. Dans le champ **Date de début**, sélectionnez la date d’aujourd’hui.
-5. Cliquez sur **OK**. Conséquemment à l’exécution de la fonction **Cumuler**, le montant estimé de réclamation est désormais ajusté pour prendre en compte le fait que le volume total des ventes du client sur la période de référence est plus élevé que lorsque la première remise a été générée. Plus particulièrement et puisque la quantité totale achetée a atteint 100 unités, le client bénéficie à présent d’une remise de 40 EUR par unité (conformément à la deuxième pause de quantité de l’accord), soit 400 EUR de montant total de remise. La différence est enregistrée comme nouvel « ajustement » de réclamation pour les 800 EUR supplémentaires. Le statut des réclamations de remise incluses dans la mise à jour Cumuler est désormais défini sur Calculé. 
+5. Cliquez sur **OK**. Conséquemment à l’exécution de la fonction **Cumuler**, le montant estimé de réclamation est désormais ajusté pour prendre en compte le fait que le volume total des ventes du client sur la période de référence est plus élevé que lorsque la première remise a été générée. Plus particulièrement et puisque la quantité totale achetée a atteint 100 unités, le client bénéficie à présent d’une remise de 40 EUR par unité (conformément à la deuxième pause de quantité de l’accord), soit 4,000 EUR de montant total de remise. La différence est enregistrée comme nouvel « ajustement » de réclamation pour les 800 EUR supplémentaires. Le statut des réclamations de remise incluses dans la mise à jour Cumuler est désormais défini sur Calculé. 
 6. Dans la liste, marquez toutes les lignes.
 7. Cliquez sur **Approuver**.
 8. Cliquez sur **Traiter**.

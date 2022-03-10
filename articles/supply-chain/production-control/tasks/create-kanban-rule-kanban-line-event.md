@@ -1,27 +1,25 @@
 ---
 title: Créer une règle de kanban à l’aide d’un événement de ligne de kanban
 description: Cette procédure crée une règle de kanban à l’aide du paramètre d’événement de ligne kanban pour déclencher l’extraction d’une activité de processus.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc838a64e74b561dd17fd2b568fa8c190a1dfcfe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b7aaf959db0f0a136fc615f9a57ec787ef6cf2ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255203"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579158"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Créer une règle de kanban à l’aide d’un événement de ligne de kanban
 

@@ -2,11 +2,9 @@
 title: Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 description: Cette rubrique explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/04/2020
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797339"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074789"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 
 [!include[banner](../includes/banner.md)]
 
-Chaque composant de [format](general-electronic-reporting.md#FormatComponentOutbound) et [modèle de mappage](general-electronic-reporting.md#data-model-and-model-mapping-components) de [rapport électronique (ER)](general-electronic-reporting.md) configuré peut être [validé](er-fillable-excel.md#validate-an-er-format) au moment de la conception. Au cours de cette validation, une vérification de la cohérence est exécutée pour éviter les problèmes d’exécution susceptibles de se produire, tels que les erreurs d’exécution et la dégradation des performances. Pour chaque problème détecté, la vérification donne le chemin d’un élément problématique. Pour certains problèmes, un correctif automatique est disponible.
+Chaque composant de [format](er-overview-components.md#format-components-for-outgoing-electronic-documents) et [modèle de mappage](er-overview-components.md#model-mapping-component) de [rapport électronique (ER)](general-electronic-reporting.md) configuré peut être [validé](er-fillable-excel.md#validate-an-er-format) au moment de la conception. Au cours de cette validation, une vérification de la cohérence est exécutée pour éviter les problèmes d’exécution susceptibles de se produire, tels que les erreurs d’exécution et la dégradation des performances. Pour chaque problème détecté, la vérification donne le chemin d’un élément problématique. Pour certains problèmes, un correctif automatique est disponible.
 
 Par défaut, la validation est automatiquement appliquée dans les cas suivants pour une configuration ER contenant les composants ER mentionnés précédemment :
 
@@ -42,14 +40,14 @@ Vous pouvez exécuter explicitement cette validation. Sélectionnez l’une des 
 
     1. Accédez à **Administration d’organisation \> États électroniques \> Configurations**.
     2. Dans l’arborescence des configurations du volet gauche, sélectionnez la configuration d’ER souhaitée qui contient le format d’ER ou le composant de mappage de modèle d’ER.
-    3. Dans l’organisateur **Versions**, sélectionnez la version souhaitée de la configuration ER sélectionnée.
+    3. Dans le raccourci **Versions**, sélectionnez la version souhaitée de la configuration ER sélectionnée.
     4. Dans le volet Action, sélectionnez **Valider**.
 
 - Option 2, pour un format ER :
 
     1. Accédez à **Administration d’organisation \> États électroniques \> Configurations**.
     2. Dans l’arborescence des configurations du volet gauche, sélectionnez la configuration d’ER souhaitée qui contient le format d’ER ou le composant de format d’ER.
-    3. Dans l’organisateur **Versions**, sélectionnez la version souhaitée de la configuration ER sélectionnée.
+    3. Dans le raccourci **Versions**, sélectionnez la version souhaitée de la configuration ER sélectionnée.
     4. Dans le volet Actions, sélectionnez **Concepteur**.
     5. Sur la page **Concepteur de formats**, sur le volet Actions, sélectionnez **Valider**.
 
@@ -57,7 +55,7 @@ Vous pouvez exécuter explicitement cette validation. Sélectionnez l’une des 
 
     1. Accédez à **Administration d’organisation \> États électroniques \> Configurations**.
     2. Dans l’arborescence des configurations du volet gauche, sélectionnez la configuration d’ER souhaitée qui contient le composant de modèle de mappage d’ER.
-    3. Dans l’organisateur **Versions**, sélectionnez la version souhaitée de la configuration ER sélectionnée.
+    3. Dans le raccourci **Versions**, sélectionnez la version souhaitée de la configuration ER sélectionnée.
     4. Dans le volet Actions, sélectionnez **Concepteur**.
     5. Sur la page **Mise en correspondance de modèles à la source de données**, sur le volet Action, sélectionnez **Concepteur**.
     6. Sur la page **Concepteur de mappage de modèles**, sur le volet Action, sélectionnez **Valider**.
@@ -205,37 +203,79 @@ Le tableau suivant offre une vue d’ensemble des inspections fournies par ER. P
 <td>Avertissement</td>
 <td>Le nom défini &lt;nom du composant&gt; n’existe pas dans la feuille Excel &lt;nom de la feuille&gt;</td>
 </tr>
+<tr>
+<td><a href='#i14'>Format non synchronisé</a></td>
+<td>Intégrité des données</td>
+<td>Avertissement</td>
+<td>
+<p>La balise de &lt;contrôle de contenu Word balisé&gt; n’existe pas dans le fichier de modèle Word</p>
+<p><b>Erreur de runtime :</b> La balise de &lt;contrôle de contenu Word balisé&gt; n’existe pas dans le fichier de modèle Word.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i15'>Pas de mappage par défaut</a></td>
+<td>Intégrité des données</td>
+<td>Erreur</td>
+<td>
+<p>Il existe plusieurs mappages de modèles pour le modèle de données &lt;nom du modèle (descripteur racine)&gt; dans les configurations &lt;noms de configuration séparés par une virgule&gt;. Définir l’une des configurations par défaut</p>
+<p><b>Erreur de runtime :</b> Il existe plusieurs mappages de modèles pour le modèle de données &lt;nom du modèle (descripteur racine)&gt; dans les configurations &lt;noms de configuration séparés par une virgule&gt;. Définissez l’une des configurations par défaut.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i16'>Paramétrage incohérent des composants d’en-tête ou de pied de page</a></td>
+<td>Intégrité des données</td>
+<td>Erreur</td>
+<td>
+<p>Les en-têtes/pieds de page (&lt;type de composant : en-tête ou pied de page&gt;) sont incohérents</p>
+<p><b>Runtime :</b> Le dernier composant configuré est utilisé lors du runtime si la version provisoire du format ER configuré est exécutée.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i17'>Paramètre incohérent du composant Page</a></td>
+<td>Intégrité des données</td>
+<td>Erreur</td>
+<td>Il existe plus de deux composants de plage sans réplication. Veuillez supprimer les composants inutiles.</td>
+</tr>
+<tr>
+<td><a href='#i18'>Capacité d’exécution d’une expression avec la fonction ORDERBY</a></td>
+<td>Capacité d’exécution</td>
+<td>Erreur</td>
+<td>
+<p>L’expression de liste de la fonction ORDERBY n’est pas utilisable dans une requête.</p>
+<p><b>Erreur de runtime :</b> Le tri n’est pas pris en charge. Validez la configuration pour obtenir plus de détails à ce sujet.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
 ## <a name="type-conversion"></a><a id="i1"></a>Conversion de type
 
-ER vérifie si le type de données d’un champ de modèle de données est compatible avec le type de données d’une expression qui est configurée comme liaison de ce champ. Si les types de données sont incompatibles, une erreur de validation se produit dans le concepteur de mappage de modèle de gestion des états électroniques. Le message que vous recevez indique que ER ne peut pas convertir une expression de type A en un champ de type B.
+ER vérifie si le type de données d’un champ de modèle de données est compatible avec le type de données d’une expression qui est configurée comme liaison de ce champ. Si les types de données sont incompatibles, une erreur de validation se produit dans le concepteur de mappage de modèle ER. Le message que vous recevez indique que ER ne peut pas convertir une expression de type A en un champ de type B.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer simultanément le modèle de données de gestion des états électroniques et les composants de mappage du modèle de gestion des états électroniques.
+1. Commencez à configurer simultanément le modèle de données ER et les composants de mappage du modèle ER.
 2. Dans l’arborescence du modèle de données, ajoutez un champ nommé **X** et sélectionnez **Entier** comme type de données.
 
-    ![Champ X et le type de données Entier ajoutés à l’arborescence du mode de données sur la page Modèle de données](./media/er-components-inspections-01.png)
+    ![Champ X et le type de données Entier ajoutés à l’arborescence du mode de données sur la page Modèle de données.](./media/er-components-inspections-01.png)
 
-3. Dans le volet des sources de données du modèle de mappage, ajoutez une source de données de type **Champ calculé**.
+3. Dans le concepteur de la mise en correspondance des modèles, dans le volet **Sources de données**, ajoutez une source de données de type **Champ calculé**.
 4. Nommez la nouvelle source de données **Y** et configurez-la pour qu’elle contienne l’expression `INTVALUE(100)`.
 5. Liez **X** à **Y**.
 6. Dans le concepteur de modèle de données, modifiez le type de données du champ **X** du camp **Entier** à **Int64**.
 7. Sélectionnez **Valider** pour inspecter le composant de mappage de modèle modifiable sur le **Concepteur de modèle de mappage**.
 
-    ![validation du composant de mappage de modèle modifiable sur le Concepteur de modèle de mappage](./media/er-components-inspections-01.gif)
+    ![Validation du composant de mappage de modèle modifiable sur le Concepteur de modèle de mappage.](./media/er-components-inspections-01.gif)
 
-8. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage de la configuration de gestion des états électroniques sélectionnée sur la page **Configurations**.
+8. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage de la configuration ER sélectionnée sur la page **Configurations**.
 
-    ![Validez pour inspecter le composant de modèle de mappage sur la page Configurations](./media/er-components-inspections-01a.png)
+    ![Inspection du composant de la mise en correspondance des modèles sur la page Configurations.](./media/er-components-inspections-01a.png)
 
 9. Notez qu’une erreur de validation se produit. Le message indique que la valeur du type **Entier** que l’expression `INTVALUE(100)` des résultats de la source de données **Y** ne peuvent pas être stockés dans le champ de modèle de données **X** du type **Int64**.
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter un format configuré pour utiliser le modèle de mappage.
 
-![Erreurs de runtime sur la page Concepteur de format](./media/er-components-inspections-01b.png)
+![Erreurs de runtime sur la page Concepteur de format.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -265,7 +305,7 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 6. Dans l’arborescence de la structure des formats, modifiez le type de données de l’élément de format **Y** de **Entier** à **Int64**.
 7. Sélectionnez **Valider** pour inspecter le composant de format modifiable sur la page **Concepteur de format**.
 
-    ![Validation de la compatibilité de type sur la page Concepteur de format](./media/er-components-inspections-02.gif)
+    ![Validation de la compatibilité de type sur la page Concepteur de format.](./media/er-components-inspections-02.gif)
 
 8. Notez qu’une erreur de validation se produit. Le message indique que l’expression configurée ne peut accepter que des valeurs **Int64**. Par conséquent, la valeur du champ de modèle de données **X** de type **Entier** ne peut pas être entré dans l’élément de format **Y**.
 
@@ -285,22 +325,22 @@ Mettez à jour le mappage de format de l’élément de format **X** en modifian
 
 ## <a name="missing-configuration-element"></a><a id="i3"></a>Élément de configuration manquant
 
-ER vérifie si les expressions de liaison contiennent uniquement des sources de données configurées dans le composant ER modifiable. Pour chaque liaison qui contient une source de données manquante dans le composant de gestion des états électroniques modifiable, une erreur de validation se produit dans le concepteur d’opérations de gestion des états électroniques ou le concepteur de mappage de modèle de gestion des états électroniques.
+ER vérifie si les expressions de liaison contiennent uniquement des sources de données configurées dans le composant ER modifiable. Pour chaque liaison qui contient une source de données manquante dans le composant ER modifiable, une erreur de validation se produit dans le concepteur d’opérations ER ou le concepteur de mappage de modèle ER.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer simultanément le modèle de données de gestion des états électroniques et les composants de mappage du modèle de gestion des états électroniques.
+1. Commencez à configurer simultanément le modèle de données ER et les composants de mappage du modèle ER.
 2. Dans l’arborescence du modèle de données, ajoutez un champ nommé **X** et sélectionnez **Entier** comme type de données.
 
-    ![Arborescence du modèle de données avec le champ X et le type de données Entier sur la page Modèle de données](./media/er-components-inspections-01.png)
+    ![Arborescence du modèle de données avec le champ X et le type de données Entier sur la page Modèle de données.](./media/er-components-inspections-01.png)
 
-3. Dans le volet des sources de données du modèle de mappage, ajoutez une source de données de type **Champ calculé**.
+3. Dans le concepteur de la mise en correspondance des modèles, dans le volet **Sources de données**, ajoutez une source de données de type **Champ calculé**.
 4. Nommez la nouvelle source de données **Y** et configurez-la pour qu’elle contienne l’expression `INTVALUE(100)`.
 5. Liez **X** à **Y**.
-6. Dans le concepteur de mappage de modèles, dans le volet des sources de données, supprimez la source de données **Y**.
+6. Dans le concepteur de la mise en correspondance des modèles, dans le volet **Sources de données**, supprimez la source de données **Y**.
 7. Sélectionnez **Valider** pour inspecter le composant de mappage de modèle modifiable sur le **Concepteur de modèle de mappage**.
 
-    ![Inspection du composant de mappage de modèle de gestion des états électroniques modifiable sur la page Concepteur de modèle de mappage](./media/er-components-inspections-03.gif)
+    ![Inspection du composant de la mise en correspondance des modèles ER modifiable sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-03.gif)
 
 8. Notez qu’une erreur de validation se produit. Le message indique que la liaison du champ du modèle de données **X** contient le chemin d’accès qui fait référence à la source de données **Y**, mais cette source de données est introuvable.
 
@@ -316,15 +356,15 @@ Déliez le champ de modèle de données **X** pour arrêter de faire référence
 
 #### <a name="option-2"></a>Option 2
 
-Dans le volet des sources de données du concepteur de mappage de modèles de gestion des états électroniques, supprimez la source de données **Y** à nouveau.
+Dans le concepteur de la mise en correspondance des modèles, dans le volet **Sources de données**, supprimez la source de données **Y** à nouveau.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Capacité d’exécution d’une expression avec la fonction FILTER
 
-La fonction ER [FILTER](er-functions-list-filter.md) intégrée est utilisée pour accéder aux tables et aux vues d’application, ou aux entités de données en effectuant un seul appel SQL pour obtenir les données requises sous forme de liste d’enregistrements. Une source de données de type **Liste des enregistrements** est utilisée comme argument de cette fonction et spécifie la source de l’application pour l’appel. ER vérifie si une requête SQL directe peut être établie vers une source de données référencée dans la fonction `FILTER`. Si une requête directe ne peut pas être établie, une erreur de validation se produit dans le concepteur de modèle de mappage de gestion des états électroniques. Le message que vous recevez indique que l’expression ER qui inclut la fonction `FILTER` ne peut pas être exécutée au moment de l’exécution. 
+La fonction ER [FILTER](er-functions-list-filter.md) intégrée est utilisée pour accéder aux tables et aux vues d’application, ou aux entités de données en effectuant un seul appel SQL pour obtenir les données requises sous forme de liste d’enregistrements. Une source de données de type **Liste des enregistrements** est utilisée comme argument de cette fonction et spécifie la source de l’application pour l’appel. ER vérifie si une requête SQL directe peut être établie vers une source de données référencée dans la fonction `FILTER`. Si une requête directe ne peut pas être établie, une erreur de validation se produit dans le concepteur de modèle de mappage ER. Le message que vous recevez indique que l’expression ER qui inclut la fonction `FILTER` ne peut pas être exécutée au moment de l’exécution.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer le composant de modèle de mappage de gestion des états électroniques.
+1. Commencez à configurer le composant de modèle de mappage ER.
 2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 3. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table VendTable.
 4. Ajoutez une source de données du type **Champ calculé**.
@@ -334,13 +374,13 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 8. Nommez le nouveau champ imbriqué **$AccNumber** et configurez-le pour qu’il contienne l’expression `TRIM(Vendor.AccountNum)`.
 9. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que l’expression `FILTER(Vendor, Vendor.AccountNum="US-101")` dans la source de données **Vendor** peut être interrogée.
 
-    ![La vérification de l’expression peut être interrogée sur la page Concepteur de modèle de mappage](./media/er-components-inspections-04.gif)
+    ![Vérification de la possibilité d’interroger l’expression avec la fonction FILTER sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-04.gif)
 
 10. Notez qu’une erreur de validation se produit, car la source de données **Vendor** contient un champ imbriqué du type **Champ calculé** qui n’autorise pas l’expression de la source de données **FilteredVendor** à convertir dans l’instruction SQL directe.
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter un format configuré pour utiliser le modèle de mappage.
 
-![Erreurs d’exécution qui se produisent lorsque vous exécutez le format modifiable sur la page Concepteur de format](./media/er-components-inspections-04a.png)
+![Erreurs d’exécution qui se produisent lorsque vous exécutez le format modifiable sur la page Concepteur de format.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -358,11 +398,11 @@ Changez l’expression de la source de données **FilteredVendor** de `FILTER(Ve
 
 ## <a name="executability-of-a-groupby-data-source"></a><a id="i5"></a>Capacité d’exécution d’une source de données GROUPBY
 
-La source de données **GROUPBY** divise le résultat de la requête en groupes d’enregistrements, généralement dans le but d’effectuer une ou plusieurs agrégations sur chaque groupe. Chaque source de données **GROUPBY** peut être configurée pour être exécutée au niveau de la base de données ou en mémoire. Lorsqu’une source de données **GROUPBY** est configurée de manière à être exécutée au niveau de la base de données, ER vérifie si une requête SQL directe peut être établie vers une source de données référencée dans cette source de données. Si une requête directe ne peut pas être établie, une erreur de validation se produit dans le concepteur de modèle de mappage de gestion des états électroniques. Le message que vous recevez indique que la source de données **GROUPBY** ne peut pas être exécutée au moment du runtime.
+La source de données **GROUPBY** divise le résultat de la requête en groupes d’enregistrements, généralement dans le but d’effectuer une ou plusieurs agrégations sur chaque groupe. Chaque source de données **GROUPBY** peut être configurée pour être exécutée au niveau de la base de données ou en mémoire. Lorsqu’une source de données **GROUPBY** est configurée de manière à être exécutée au niveau de la base de données, ER vérifie si une requête SQL directe peut être établie vers une source de données référencée dans cette source de données. Si une requête directe ne peut pas être établie, une erreur de validation se produit dans le concepteur de modèle de mappage ER. Le message que vous recevez indique que la source de données **GROUPBY** ne peut pas être exécutée au moment du runtime.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer le composant de modèle de mappage de gestion des états électroniques.
+1. Commencez à configurer le composant de modèle de mappage ER.
 2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 3. Nommez la nouvelle source de données **Trans**. Dans le champ **Table**, sélectionnez **VendTrans** pour spécifier que cette source de données demandera la table VendTrans.
 4. Ajoutez une source de données du type **Grouper par**.
@@ -371,23 +411,23 @@ Les étapes suivantes montrent comment ce problème peut se produire.
     - Sélectionnez la source de données **Trans** comme source des enregistrements à regrouper.
     - Dans le champ **Lieu d’exécution**, sélectionnez **Requête** pour indiquer que vous souhaitez exécuter cette source de données au niveau de la base de données.
 
-    ![Configuration de la source de données sur la page de paramètres "Grouper par"](./media/er-components-inspections-05a.gif)
+    ![Configuration de la source de données sur la page de paramètres « Grouper par ».](./media/er-components-inspections-05a.gif)
 
 6. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que la source de données **GroupedTrans** configurée peut être interrogée.
 7. Modifiez la source de données **Trans** en ajoutant un champ imbriqué de type **Champ calculé** pour obtenir le numéro de compte du fournisseur tronqué.
 8. Nommez la nouvelle source de données **$AccNumber** et configurez-la pour qu’elle contienne l’expression `TRIM(Trans.AccountNum)`.
 
-    ![Configuration de la source de données Trans sur le concepteur de modèle de mappage](./media/er-components-inspections-05a.png)
+    ![Configuration de la source de données sur le concepteur de modèle de mappage.](./media/er-components-inspections-05a.png)
 
 9. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que la source de données **GroupedTrans** configurée peut être interrogée.
 
-    ![Valider le composant de modèle de mappage de gestion des états électroniques et vérifiez que la source de données configurée, GroupedTrans, peut être interrogée sur la page du concepteur de modèles de mappage](./media/er-components-inspections-05b.png)
+    ![Validation du composant de mise en correspondance des modèles ER et vérification que la source de données GroupedTrans peut être interrogée sur la page du concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-05b.png)
 
 10. Notez qu’une erreur de validation se produit, car la source de données **Trans** contient un champ imbriqué du type **Champ calculé** qui n’autorise pas l’appel de la source de données **GroupedTrans** à convertir dans l’instruction SQL directe.
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter un format configuré pour utiliser le modèle de mappage.
 
-![Erreurs de runtime qui se produisent lorsque l’avertissement est ignoré sur la page Concepteur de format](./media/er-components-inspections-05c.png)
+![Erreurs de runtime qui se produisent lorsque l’avertissement est ignoré sur la page Concepteur de format.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -405,11 +445,11 @@ Changer la valeur du champ **Emplacement d’exécution** pour la source de donn
 
 ## <a name="executability-of-a-join-data-source"></a><a id="i6"></a>Capacité d’exécution d’une source de données JOIN
 
-La source de données [JOINDRE](er-join-data-sources.md) combine les enregistrements de deux ou plusieurs tables de base de données, en fonction des champs associés. Chaque source de données **JOIN** peut être configurée pour être exécutée au niveau de la base de données ou en mémoire. Lorsqu’une source de données **JOIN** est configurée de manière à être exécutée au niveau de la base de données, ER vérifie si une requête SQL directe peut être établie vers des sources de données référencées dans cette source de données. Si une requête SQL directe ne peut pas être établie avec au moins une source de données référencée, une erreur de validation se produit dans le concepteur de modèle de mappage de gestion des états électroniques. Le message que vous recevez indique que la source de données **JOIN** ne peut pas être exécutée au moment du runtime.
+La source de données [JOINDRE](er-join-data-sources.md) combine les enregistrements de deux ou plusieurs tables de base de données, en fonction des champs associés. Chaque source de données **JOIN** peut être configurée pour être exécutée au niveau de la base de données ou en mémoire. Lorsqu’une source de données **JOIN** est configurée de manière à être exécutée au niveau de la base de données, ER vérifie si une requête SQL directe peut être établie vers des sources de données référencées dans cette source de données. Si une requête SQL directe ne peut pas être établie avec au moins une source de données référencée, une erreur de validation se produit dans le concepteur de modèle de mappage ER. Le message que vous recevez indique que la source de données **JOIN** ne peut pas être exécutée au moment du runtime.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer le composant de modèle de mappage de gestion des états électroniques.
+1. Commencez à configurer le composant de modèle de mappage ER.
 2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 3. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table VendTable.
 4. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
@@ -423,21 +463,21 @@ Les étapes suivantes montrent comment ce problème peut se produire.
     2. Ajouter la source de données **Vendor.FilteredTrans** comme second ensemble d’enregistrements à joindre. Sélectionnez **INNER** comme type.
     3. Dans le champ **Exécuter**, sélectionnez **Requête** pour indiquer que vous souhaitez exécuter cette source de données au niveau de la base de données.
 
-    ![Configuration de la source de données sur le concepteur de jonction](./media/er-components-inspections-06a.gif)
+    ![Configuration de la source de données sur le concepteur de jonction.](./media/er-components-inspections-06a.gif)
 
 10. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que la source de données **JoinedList** configurée peut être interrogée.
 11. Changez l’expression de la source de données **Vendor.FilteredTrans** de `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` en `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que la source de données **JoinedList** configurée peut être interrogée.
 
-    ![Validez le composant de modèle de mappage modifiable et vérifiez que la source de données JoinedList configurée peut être interrogée sur la page du Concepteur de modèle de mappage](./media/er-components-inspections-06b.png)
+    ![Validation du composant de mise en correspondance des modèles modifiable et vérification que la source de données JoinedList configurée peut être interrogée sur la page du Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-06b.png)
 
 13. Notez qu’une erreur de validation se produit, car l’expression de la source de données **Vendor.FilteredTrans** ne peut pas être convertie en appel SQL direct. De plus, l’appel SQL direct n’autorise pas l’appel de la source de données **JoinedList** à convertir en instruction SQL directe.
 
-    ![Erreurs d’exécution suite à l’échec de la validation de la source de données JoinedList sur la page Concepteur de modèle de mappage](./media/er-components-inspections-06c.png)
+    ![Erreurs d’exécution suite à l’échec de la validation de la source de données JoinedList sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-06c.png)
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter un format configuré pour utiliser le modèle de mappage.
 
-![Exécution du format modifiable sur la page Concepteur de format](./media/er-components-inspections-06e.png)
+![Exécution du format modifiable sur la page Concepteur de format.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -449,7 +489,7 @@ Aucune option pour résoudre automatiquement ce problème n’est disponible.
 
 Changez de nouveau l’expression de la source de données **Vendor.FilteredTrans** de `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` en `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, comme le conseille l’avertissement.
 
-![Expression mise à jour de la source de données sur le concepteur de modèle de mappage](./media/er-components-inspections-06d.png)
+![Expression mise à jour de la source de données sur le concepteur de modèle de mappage.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Option 2
 
@@ -457,11 +497,11 @@ Changez la valeur du champ **Exécuter** pour la source de données **JoinedList
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>Préférence de la fonction FILTER comparée à WHERE
 
-La fonction ER [FILTER](er-functions-list-filter.md) intégrée est utilisée pour accéder aux tables et aux vues d’application, ou aux entités de données en effectuant un seul appel SQL pour obtenir les données requises sous forme de liste d’enregistrements. La fonction [WHERE](er-functions-list-where.md) récupère tous les enregistrements de la source donnée et enregistre la sélection en mémoire. Une source de données de type **Liste des enregistrements** est utilisée comme argument des deux fonctions et spécifie une source pour obtenir des enregistrements. ER vérifie si un appel SQL direct peut être établie vers une source de données référencée dans la fonction **WHERE**. Si un appel direct ne peut pas être établie, un avertissement de validation se produit dans le concepteur de modèle de mappage de gestion des états électroniques. Le message que vous recevez vous recommande d’utiliser la fonction **FILTER** au lieu de la fonction **WHERE** pour aider à améliorer l’efficacité.
+La fonction ER [FILTER](er-functions-list-filter.md) intégrée est utilisée pour accéder aux tables et aux vues d’application, ou aux entités de données en effectuant un seul appel SQL pour obtenir les données requises sous forme de liste d’enregistrements. La fonction [WHERE](er-functions-list-where.md) récupère tous les enregistrements de la source donnée et enregistre la sélection en mémoire. Une source de données de type **Liste des enregistrements** est utilisée comme argument des deux fonctions et spécifie une source pour obtenir des enregistrements. ER vérifie si un appel SQL direct peut être établie vers une source de données référencée dans la fonction **WHERE**. Si un appel direct ne peut pas être établie, un avertissement de validation se produit dans le concepteur de modèle de mappage ER. Le message que vous recevez vous recommande d’utiliser la fonction **FILTER** au lieu de la fonction **WHERE** pour aider à améliorer l’efficacité.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer le composant de modèle de mappage de gestion des états électroniques.
+1. Commencez à configurer le composant de modèle de mappage ER.
 2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 3. Nommez la nouvelle source de données **Trans**. Dans le champ **Table**, sélectionnez **VendTrans** pour spécifier que cette source de données demandera la table VendTrans.
 4. Ajoutez une source de données du type **Champ calculé** comme champ imbriqué de la source de données **Vendor**.
@@ -472,11 +512,11 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 9. Nommez la nouvelle source de données **FilteredVendor** (fournisseur filtré) et configurez-la pour qu’elle contienne l’expression `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Sélectionnez **Valider** pour inspecter le composant de mappage de modèle modifiable sur le **Concepteur de modèle de mappage**.
 
-    ![Validez pour inspecter le composant de mappage de modèle modifiable sur le Concepteur de modèle de mappage](./media/er-components-inspections-07a.png)
+    ![Inspection du composant de mise en correspondance des modèles modifiable sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-07a.png)
 
 11. Notez que les avertissements de validation vous recommandent d’utiliser la fonction **FILTER** au lieu de la fonction **WHERE** pour les sources de données **FilteredVendor** et **FilteredTrans**.
 
-    ![Avertissements de validation recommandant la fonction filter au lieu de la fonction where sur la page du concepteur de mappage de modèle](./media/er-components-inspections-07b.png)
+    ![Recommandation d’utilisation de la fonction FILTER au lieu de la fonction WHERE sur la page du concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -484,7 +524,7 @@ Sélectionnez **Corriger** pour remplacer automatiquement la fonction **WHERE** 
 
 Sinon, vous pouvez sélectionner la ligne pour un seul avertissement dans la grille, puis sélectionner **Corriger la sélection**. Dans ce cas, l’expression est automatiquement modifiée uniquement dans la source de données mentionnée dans l’avertissement sélectionné.
 
-![Sélectionnez Corriger pour remplacer automatiquement la fonction where par la fonction filter sur la page du Concepteur de modèle de mappage](./media/er-components-inspections-07c.png)
+![Sélection de Corriger pour remplacer automatiquement la fonction WHERE par la fonction FILTER sur la page du Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Résolution manuelle
 
@@ -492,24 +532,24 @@ Vous pouvez ajuster manuellement les expressions de toutes les sources de donné
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Préférence de la fonction ALLITEMSQUERY comparée à ALLITEMS
 
-Les fonctions d’ER [ALLITEMS](er-functions-list-allitems.md) et [ALLITEMSQUERY](er-functions-list-allitemsquery.md) intégrées sont utilisées pour obtenir une valeur **Liste des enregistrements** aplatie qui consiste en une liste d’enregistrements représentant tous les éléments qui correspondent au chemin d’accès spécifié. ER vérifie si un appel SQL direct peut être établie vers une source de données référencée dans la fonction **ALLITEMS**. Si un appel direct ne peut pas être établie, un avertissement de validation se produit dans le concepteur de modèle de mappage de gestion des états électroniques. Le message que vous recevez vous recommande d’utiliser la fonction **ALLITEMSQUERY** au lieu de la fonction **ALLITEMS** pour aider à améliorer l’efficacité.
+Les fonctions d’ER [ALLITEMS](er-functions-list-allitems.md) et [ALLITEMSQUERY](er-functions-list-allitemsquery.md) intégrées sont utilisées pour obtenir une valeur **Liste des enregistrements** aplatie qui consiste en une liste d’enregistrements représentant tous les éléments qui correspondent au chemin d’accès spécifié. ER vérifie si un appel SQL direct peut être établie vers une source de données référencée dans la fonction **ALLITEMS**. Si un appel direct ne peut pas être établie, un avertissement de validation se produit dans le concepteur de modèle de mappage ER. Le message que vous recevez vous recommande d’utiliser la fonction **ALLITEMSQUERY** au lieu de la fonction **ALLITEMS** pour aider à améliorer l’efficacité.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer le composant de modèle de mappage de gestion des états électroniques.
+1. Commencez à configurer le composant de modèle de mappage ER.
 2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 3. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table VendTable.
 4. Ajoutez une source de données paramétrée du type **Champ calculé** pour obtenir les enregistrements de plusieurs fournisseurs.
 5. Nommez la nouvelle source de données **FilteredVendor** (fournisseur filtré) et configurez-la pour qu’elle contienne l’expression `FILTER(Vendor, OR(Vendor.AccountNum="US-101",Vendor.AccountNum="US-102"))`.
-6. Ajoutez une source de données paramétrée du type **Champ calculé** pour obtenir les transactions de tous les fournisseurs filtrés.
+6. Ajoutez une source de données du type **Champ calculé** pour obtenir les transactions de tous les fournisseurs filtrés.
 7. Nommez la nouvelle source de données **FilteredVendorTrans** (conversion du fournisseur filtré) et configurez-la pour qu’elle contienne l’expression `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Sélectionnez **Valider** pour inspecter le composant de mappage de modèle modifiable sur le **Concepteur de modèle de mappage**.
 
-    ![Page du concepteur de modèle de mappage, bouton Valider](./media/er-components-inspections-08a.png)
+    ![Inspection du composant de la mise en correspondance des modèles modifiable sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-08a.png)
 
 9. Notez qu’un avertissement de validation se produit. Le message vous recommande d’utiliser la fonction **ALLITEMSQUERY** au lieu de la fonction **ALLITEMS** pour la source de données **FilteredVendorTrans**.
 
-    ![Avertissement de validation pour utiliser la fonction ALLITEMSQUERY au lieu de la fonction ALLITEMS sur le composant de modèle ER sur la page Concepteur de modèle de mappage](./media/er-components-inspections-08b.png)
+    ![Recommandation d’utilisation de la fonction ALLITEMSQUERY au lieu de la fonction ALLITEMS sur la page du concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -517,7 +557,7 @@ Sélectionnez **Corriger** pour remplacer automatiquement la fonction **ALLITEMS
 
 Sinon, vous pouvez sélectionner la ligne pour un seul avertissement dans la grille, puis sélectionner **Corriger la sélection**. Dans ce cas, l’expression est automatiquement modifiée uniquement dans la source de données mentionnée dans l’avertissement sélectionné.
 
-![Page du concepteur de modèle de mappage, sélectionnez Corriger la sélection](./media/er-components-inspections-08c.png)
+![Sélection de Corriger sur la page du concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Résolution manuelle
 
@@ -525,11 +565,11 @@ Vous pouvez ajuster manuellement les expressions de toutes les sources de donné
 
 ## <a name="consideration-of-empty-list-cases"></a><a id="i9"></a>Prise en compte des cas de liste vide
 
-Vous pouvez configurer votre format de gestion des états électroniques ou votre composant de modèle de mappage pour obtenir la valeur de champ d’une source de données de type **Liste des enregistrements**. ER vérifie si votre conception prend en compte le cas où une source de données appelée ne contient aucun enregistrement (c’est-à-dire qu’elle est vide), pour éviter les erreurs de runtime lorsqu’une valeur est extraite d’un champ d’un enregistrement inexistant.
+Vous pouvez configurer votre format ER ou votre composant de modèle de mappage pour obtenir la valeur de champ d’une source de données de type **Liste des enregistrements**. ER vérifie si votre conception prend en compte le cas où une source de données appelée ne contient aucun enregistrement (c’est-à-dire qu’elle est vide), pour éviter les erreurs de runtime lorsqu’une valeur est extraite d’un champ d’un enregistrement inexistant.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer simultanément le modèle de données de gestion des états électroniques, le modèle de mappage de gestion des états électroniques et les composants de format de gestion des états électroniques.
+1. Commencez à configurer simultanément le modèle de données ER, le modèle de mappage d’ER et les composants de format ER.
 2. Dans l’arborescence du modèle de données, ajoutez un élément racine nommé **Root3**.
 3. Modifiez l’élément **Root3** en ajoutant un élément imbriqué de type **Liste des enregistrements**.
 4. Nommez le nouvel élément imbriqué **Vendor**.
@@ -538,9 +578,9 @@ Les étapes suivantes montrent comment ce problème peut se produire.
     - Ajoutez un champ imbriqué du type **Chaîne** et nommez-le **Nom**.
     - Ajoutez un champ imbriqué du type **Chaîne** et nommez-le **AccountNumber**.
 
-    ![Ajout de champs imbriqués sur la page Modèle de données](./media/er-components-inspections-09a.png)
+    ![Ajout de champs imbriqués sur la page Modèle de données.](./media/er-components-inspections-09a.png)
 
-6. Dans le volet des sources de données du modèle de mappage, ajoutez une source de données de type **Dynamics 365 for Operations \\ Enregistrements de table**.
+6. Dans le concepteur de la mise en correspondance des modèles, dans le volet **Sources de données**, ajoutez une source de données de type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 7. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table VendTable.
 8. Ajoutez une source de données du type **Général \\ Paramètre d’entrée utilisateur** pour rechercher un compte fournisseur dans la boîte de dialogue de runtime.
 9. Nommez la nouvelle source de données **RequestedAccountNum**. Dans le champ **Étiquette**, entrez le **numéro de compte fournisseur**. Dans le champ **Nom du type de données des opérations**, laissez la valeur par défaut, **Description**.
@@ -552,7 +592,7 @@ Les étapes suivantes montrent comment ce problème peut se produire.
     - Lierz **FilteredVendor.AccountNum** à **Vendor.AccountNumber**.
     - Liez **FilteredVendor.’name()’** à **Vendor.Name**.
 
-    ![Liaison des éléments de source de données sur le concepteur de modèle de mappage](./media/er-components-inspections-09b.png)
+    ![Liaison des éléments de modèle de données sur le concepteur de modèle de mappage.](./media/er-components-inspections-09b.png)
 
 13. Dans l’arborescence de la structure du format, ajoutez les éléments suivants pour générer un document sortant au format XML contenant les détails du fournisseur :
 
@@ -570,15 +610,15 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 
 15. Sélectionnez **Valider** pour inspecter le composant de format modifiable sur la page **Concepteur de format**.
 
-    ![Validez les éléments de format que vous avez liés aux sources de données sur la page Concepteur de format](./media/er-components-inspections-09c.png)
+    ![Validation des éléments de format que vous avez liés aux sources de données sur la page Concepteur de format.](./media/er-components-inspections-09c.png)
 
 16. Notez qu’une erreur de validation se produit. Le message indique qu’une erreur peut être générée pour les composants de format **Instruction\\Tiers\\Nom** et **Instruction\\Tiers\\AccountNum** lors du runtime si la liste `model.Vendor` est vide.
 
-    ![Erreur de validation qui notifie une erreur potentielle pour les composants de format configuré](./media/er-components-inspections-09d.png)
+    ![Erreur de validation concernant une erreur potentielle pour les composants de format configuré.](./media/er-components-inspections-09d.png)
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter le format et sélectionnez le numéro de compte d’un fournisseur non existant. Comme le fournisseur demandé n’existe pas, la liste `model.Vendor` sera vide (c’est-à-dire qu’elle ne contiendra aucun enregistrement).
 
-![Erreurs de runtime, car cela s’est produit lors de l’exécution du mappage de format](./media/er-components-inspections-09e.png)
+![Erreurs de runtime qui se produisent lors de l’exécution du mappage de format.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -590,7 +630,7 @@ Pour la ligne sélectionnée dans la grille sur l’onglet **Avertissements**, v
 
 Vous pouvez lier l’élément de format **Instruction\\Tiers\\Nom** à l’élément de source de données `model.Vendor`. Au moment du runtime, cette liaison appelle la source de données `model.Vendor` en premier. Quand `model.Vendor` renvoie une liste d’enregistrements vide, les éléments de format imbriqués ne sont pas exécutés. Par conséquent, aucun avertissement de validation ne se produit pour cette configuration de format.
 
-![Liez l’élément de format à l’élément de source de données sur la page Concepteur de format](./media/er-components-inspections-09e.gif)
+![Liaison de l’élément de format à l’élément de source de données sur la page Concepteur de format.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Option 2
 
@@ -601,7 +641,7 @@ Changez la liaison de l’élément de format **Instruction\\Tiers\\Nom** entre 
 
 Par conséquent, aucun avertissement de validation n’apparaît pour l’élément de format **Instruction\\Tiers\\Nom** lorsqu’il est lié à l’expression `FIRSTORNULL(model.Vendor).Name`.
 
-![La liaison modifiée résout les avertissements de validation sur la page Concepteur de format](./media/er-components-inspections-09f.gif)
+![La liaison modifiée résout les avertissements de validation sur la page Concepteur de format.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Option 3
 
@@ -619,7 +659,7 @@ Plusieurs fonctions ER intégrées, notamment [FILTER](er-functions-list-filter.
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer le composant de modèle de mappage de gestion des états électroniques.
+1. Commencez à configurer le composant de modèle de mappage ER.
 2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 3. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table VendTable.
 4. Ajoutez une source de données du type **Général \\ Paramètre d’entrée utilisateur** pour rechercher un compte fournisseur dans la boîte de dialogue de runtime.
@@ -628,17 +668,17 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 7. Nommez la nouvelle source de données **FilteredVendor** (fournisseur filtré) et configurez-la pour qu’elle contienne l’expression `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Marquez la source de données **Vendor** configurée comme mise en cache.
 
-    ![Configurez le composant de mappage de modèle sur le Concepteur de modèle de mappage](./media/er-components-inspections-10a.gif)
+    ![Configuration du composant de mise en correspondance des modèles sur le Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-10a.gif)
 
 9. Sélectionnez **Valider** pour inspecter le composant de mappage de modèle modifiable sur le **Concepteur de modèle de mappage**.
 
-    ![Validez la fonction de filtre appliquée à la source de données du fournisseur de cache sur la page Concepteur de modèle de mappage](./media/er-components-inspections-10a.png)
+    ![Validation de la fonction FILTER appliquée à la source de données du fournisseur mis en cache sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-10a.png)
 
 10. Notez qu’une erreur de validation se produit. Le message indique que la fonction **FILTER** ne peut pas être appliquée à la source de données **Vendor** mise en cache.
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter le format.
 
-![Erreur d’exécution qui se produit lors de l’exécution du mappage de format sur la page Concepteur de format](./media/er-components-inspections-10b.png)
+![Erreur d’exécution qui se produit lors de l’exécution de la mise en correspondance des formats sur la page Concepteur de format.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -660,7 +700,7 @@ Lorsque vous configurez un composant de format ER, le modèle de données ER de 
 
 Les étapes suivantes montrent comment ce problème peut se produire.
 
-1. Commencez à configurer simultanément le modèle de données de gestion des états électroniques, le modèle de mappage de gestion des états électroniques et les composants de format de gestion des états électroniques.
+1. Commencez à configurer simultanément le modèle de données ER, le modèle de mappage d’ER et les composants de format ER.
 2. Dans l’arborescence du modèle de données, ajoutez un élément racine nommé **Root3**.
 3. Modifiez l’élément **Root3** en ajoutant un nouvel élément imbriqué de type **Liste des enregistrements**.
 4. Nommez le nouvel élément imbriqué **Vendor**.
@@ -669,12 +709,12 @@ Les étapes suivantes montrent comment ce problème peut se produire.
     - Ajoutez un champ imbriqué du type **Chaîne** et nommez-le **Nom**.
     - Ajoutez un champ imbriqué du type **Chaîne** et nommez-le **AccountNumber**.
 
-    ![Ajouter des champs imbriqués à l’article fournisseur sur la page Modèle de données](./media/er-components-inspections-11a.png)
+    ![Ajout de champs imbriqués à l’article Fournisseur sur la page Modèle de données.](./media/er-components-inspections-11a.png)
 
-6. Dans le volet des sources de données du modèle de mappage, ajoutez une source de données de type **Dynamics 365 for Operations \\ Enregistrements de table**.
+6. Dans le concepteur de la mise en correspondance des modèles, dans le volet **Sources de données**, ajoutez une source de données de type **Dynamics 365 for Operations \\ Enregistrements de la table**.
 7. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table VendTable.
 8. Ajoutez une source de données du type **Général \\ Paramètre d’entrée utilisateur** pour interroger sur un compte fournisseur dans la boîte de dialogue de runtime.
-9 Nommez la nouvelle source de données **RequestedAccountNum**. Dans le champ **Étiquette**, entrez le **numéro de compte fournisseur**. Dans le champ **Nom du type de données des opérations**, laissez la valeur par défaut, **Description**.
+9. Nommez la nouvelle source de données **RequestedAccountNum**. Dans le champ **Étiquette**, entrez le **numéro de compte fournisseur**. Dans le champ **Nom du type de données des opérations**, laissez la valeur par défaut, **Description**.
 10. Ajoutez une source de données paramétrée du type **Champ calculé** pour le fournisseur filtré qui fait l’objet de l’interrogation.
 11. Nommez la nouvelle source de données **FilteredVendor** (fournisseur filtré) et configurez-la pour qu’elle contienne l’expression `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 12. Liez les éléments de modèle de données aux sources de données configurées de la manière suivante :
@@ -685,7 +725,7 @@ Les étapes suivantes montrent comment ce problème peut se produire.
     > [!NOTE]
     > Le champ du modèle de données **Vendor.Name** reste non lié.
 
-    ![Éléments de modèle de données liés à des sources de données configurées et à un élément de mode de données qui rem sur la page Concepteur de mappage de modèle](./media/er-components-inspections-11b.png)
+    ![Éléments de modèle de données liés à des sources de données configurées et à un élément de mode de données qui reste non lié sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-11b.png)
 
 13. Dans l’arborescence de la structure du format, ajoutez les éléments suivants pour générer un document sortant au format XML contenant les détails du fournisseur interrogés :
 
@@ -704,15 +744,15 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 
 15. Sélectionnez **Valider** pour inspecter le composant de format modifiable sur la page **Concepteur de format**.
 
-    ![Validation du composant de format ER sur la page Concepteur de format](./media/er-components-inspections-11c.png)
+    ![Valider le composant de format ER sur la page Concepteur de format.](./media/er-components-inspections-11c.png)
 
 16. Notez qu’un avertissement de validation se produit. Le message indique que le champ de source de données **model.Vendor.Name** n’est lié à aucune source de données dans le mappage de modèle configuré pour être utilisé par le format. Par conséquent, l’élément de format **Déclaration\\Tiers\\Nom** peut ne pas être rempli lors du runtime et une exception de runtime peut se produire.
 
-    ![Validation du composant de format ER sur la page Concepteur de format](./media/er-components-inspections-11d.png)
+    ![Validation du composant de format ER sur la page Concepteur de format.](./media/er-components-inspections-11d.png)
 
 L’illustration suivante montre l’erreur de runtime qui se produit si vous ignorez l’avertissement et sélectionnez **Exécuter** pour exécuter le format.
 
-![Exécution du format modifiable sur la page Concepteur de format](./media/er-components-inspections-11e.png)
+![Exécution du format modifiable sur la page Concepteur de format.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -726,7 +766,7 @@ Modifiez le mappage de modèle configuré en ajoutant une liaison pour le champ 
 
 #### <a name="option-2"></a>Option 2
 
-Modifiez le format configuré en supprimant une liaison pour l’élément de format **Déclaration\\Tiers\\Nom**.
+Modifiez le format configuré en supprimant la liaison pour l’élément de format **Déclaration\\Tiers\\Nom**.
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Modèle non lié
 
@@ -741,9 +781,9 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 5. Dans l’élément **Excel\\Fichier**, sélectionnez le fichier de classeur A.
 6. Sélectionnez **Valider** pour inspecter le composant de format modifiable sur la page **Concepteur de format**.
 
-    ![Validation du composant de format modifiable du fichier de classeur sur la page Concepteur de format](./media/er-components-inspections-12a.gif)
+    ![Validation du composant de format modifiable du fichier de classeur sur la page Concepteur de format.](./media/er-components-inspections-12a.gif)
 
-7. Notez qu’un avertissement de validation se produit. Le message indique que le fichier de classeur **B.xlsx** n’est lié à aucun composant, et qu’il sera supprimé une fois le statut de la version de configuration modifié.
+7. Notez qu’un avertissement de validation se produit. Le message indique que le fichier de classeur B.xlsx n’est lié à aucun composant, et qu’il sera supprimé une fois le statut de la version de configuration modifié.
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -769,11 +809,11 @@ Les étapes suivantes montrent comment ce problème peut se produire.
 4. Ajoutez l’élément **Excel\\Cellule** **Titre** en tant qu’élément imbriqué de l’élément **Rapport**. Dans le champ **Plage Excel**, entrez **ReportTitle**.
 5. Sélectionnez **Valider** pour inspecter le composant de format modifiable sur la page **Concepteur de format**.
 
-    ![Validez les éléments et champs imbriqués sur la page Concepteur de format](./media/er-components-inspections-13a.png)
+    ![Validation des éléments et champs imbriqués sur la page Concepteur de format.](./media/er-components-inspections-13a.png)
 
 6. Notez qu’un avertissement de validation se produit. Le message indique que le nom **ReportTitle** n’existe pas sur la feuille **Feuille1** du modèle Excel que vous utilisez.
 
-    ![Avertissement de validation que le nom ReportTitle n’existe pas sur la feuille Sheet1 du modèle Excel](./media/er-components-inspections-13b.png)
+    ![Avertissement de validation que le nom ReportTitle n’existe pas sur la feuille Sheet1 du modèle Excel.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Résolution automatique
 
@@ -792,6 +832,116 @@ Modifiez le format configuré en supprimant tous les éléments qui font référ
 ### <a name="additional-consideration"></a>Considération supplémentaire
 
 Pour savoir comment la structure de format peut être synchronisée avec un modèle ER dans l’éditeur de modèle de [Gestion des documents commerciaux](er-business-document-management.md), voir [Mettre à jour la structure d’un modèle de document commercial](er-bdm-update-structure.md).
+
+## <a name="not-synced-with-a-word-template-format"></a><a id="i14"></a>Non synchronisé avec un format de modèle Word
+
+Lorsque vous [configurez](er-fillable-excel.md) un composant de format ER pour utiliser un modèle Word pour générer un document sortant, vous devez ajouter manuellement l’élément **Excel\\Fichier**, ajouter le modèle Word requis en tant que pièce jointe du composant modifiable et sélectionner cette pièce jointe dans l’élément **Excel\\Fichier** ajouté.
+
+> [!NOTE]
+> Lorsque le document Word est joint, le concepteur de format ER présente l’élément modifiable comme **Word\\Fichier**.
+
+De cette manière, vous indiquez que l’élément ajouté remplira le modèle sélectionné au runtime. Étant donné que le modèle Word ajouté a été conçu en externe, le format ER modifiable peut contenir des références à des contrôles de contenu Word qui manquent dans le modèle ajouté. Le concepteur de format ER vous avertit de toute incohérence entre les propriétés des éléments de format ER qui font référence à des contrôles de contenu qui ne sont pas inclus dans le modèle Word ajouté.
+
+Pour consulter un exemple qui montre comment ce problème peut se produire, voir [Configurer le format modifiable pour supprimer la section récapitulative](er-design-configuration-word-suppress-controls.md#configure-to-suppress-control).
+
+### <a name="automatic-resolution"></a>Résolution automatique
+
+Aucune option pour résoudre automatiquement ce problème n’est disponible.
+
+### <a name="manual-resolution"></a>Résolution manuelle
+
+#### <a name="option-1"></a>Option 1
+
+Modifiez le format configuré en supprimant la formule **Supprimé** de l’élément de format mentionné dans l’avertissement de validation.
+
+#### <a name="option-2"></a>Option 2
+
+Modifiez le modèle Word en [ajoutant](er-design-configuration-word-suppress-controls.md#tag-control) la balise requise au contrôle de contenu Word concerné.
+
+## <a name="no-default-mapping"></a><a id="i15"></a>Pas de mise en correspondance par défaut
+
+Quand l’inspection [Liaison manquante](#i11) est effectuée, les liaisons de format inspectées sont évaluées par rapport aux liaisons du composant de mise en correspondance des modèles concerné. Étant donné que vous pouvez importer [plusieurs](./tasks/er-manage-model-mapping-configurations-july-2017.md) configurations de mise en correspondance des modèles ER dans votre instance Finance et que chaque configuration peut contenir le composant de mise en correspondance des modèles applicable, une configuration doit être sélectionnée comme configuration par défaut. Sinon, lorsque vous essayez d’exécuter, de modifier ou de valider le format ER inspecté, une exception se produit et vous recevez le message suivant : « Il existe plusieurs mises en correspondance des modèles pour le modèle de données \<model name (root descriptor)\> dans les configurations \<configuration names separated by comma\>. Définir l’une des configurations par défaut. »
+
+Pour obtenir un exemple qui montre comment ce problème peut se produire et comment il peut être résolu, voir [Gérer plusieurs mappages dérivés pour une seule racine de modèle](er-multiple-model-mappings.md).
+
+## <a name="inconsistent-setting-of-header-or-footer-components"></a><a id="i16"></a>Paramétrage incohérent des composants d’en-tête ou de pied de page
+
+Lorsque vous [configurez](er-fillable-excel.md) un composant de format ER pour utiliser un modèle Excel pour générer un document sortant, vous pouvez ajouter le composant **Excel\\En-tête** pour remplir les en-têtes en haut d’une feuille de calcul dans un classeur Excel. Vous pouvez également ajouter le composant **Excel\\Pied de page** pour remplir les pieds de page au bas d’une feuille de calcul. Pour chaque composant **Excel\\En-tête** ou **Excel\\Pied de page** que vous ajoutez, vous devez définir la propriété **Apparence en-tête/pied de page** pour spécifier les pages pour lesquelles le composant est exécuté. Comme vous pouvez configurer plusieurs composants **Excel\\En-tête** ou **Excel\\Pied de page** pour un seul composant **Feuille** et comme vous pouvez générer différents en-têtes ou pieds de page pour différents types de pages dans une feuille de calcul Excel, vous devez configurer un seul composant **Excel\\En-tête** ou **Excel\\Pied de page** pour une valeur spécifique de la propriété **Apparence en-tête/pied de page**. Si plusieurs composants **Excel\\En-tête** ou **Excel\\Pied de page** sont configurés pour une valeur spécifique de la propriété **Apparence en-tête/pied de page**, une erreur de validation se produit et le message d’erreur suivant s’affiche : « Les en-têtes/pieds de page (&lt;type de composant : en-tête ou pied de page&gt;) sont incohérents. »
+
+### <a name="automatic-resolution"></a>Résolution automatique
+
+Aucune option pour résoudre automatiquement ce problème n’est disponible.
+
+### <a name="manual-resolution"></a>Résolution manuelle
+
+#### <a name="option-1"></a>Option 1
+
+Modifiez le format configuré en supprimant l’un des composants **Excel\\En-tête** ou **Excel\\Pied de page** incohérent.
+
+#### <a name="option-2"></a>Option 2
+
+Modifiez la valeur de la propriété **Apparence en-tête/pied de page** pour l’un des composants **Excel\\En-tête** ou **Excel\\Pied de page** incohérents.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Paramètre incohérent du composant Page
+
+Lorsque vous [configurez](er-fillable-excel.md) un composant au format ER pour utiliser un modèle Excel pour générer un document sortant, vous pouvez ajouter le composant **Excel\\Page** pour paginer un document généré à l’aide de formules ER. Pour chaque composant **Excel\\Page** que vous ajoutez, vous pouvez ajouter de nombreux composants [Plage](er-fillable-excel.md#range-component) tout en restant conforme à la [structure](er-fillable-excel.md#page-component-structure) suivante :
+
+- Le premier composant **Plage** imbriqué peut être configuré de sorte que la propriété **Direction de réplication** est définie sur **Pas de réplication**. Cette plage est utilisée pour créer des en-têtes de page dans les documents générés.
+- Vous pouvez ajouter de nombreux autres composants **Plage** imbriqués où la propriété **Direction de réplication** est définie sur **Verticale**. Ces plages sont utilisées pour remplir les documents générés.
+- Le dernier composant **Plage** imbriqué peut être configuré de sorte que la propriété **Direction de réplication** est définie sur **Pas de réplication**. Cette plage permet de créer des pieds de page dans les documents générés et d’ajouter les sauts de page requis.
+
+Si vous ne suivez pas cette structure pour un format ER dans le concepteur de format ER au moment du design, une erreur de validation se produit et vous recevez le message d’erreur suivant : « Il existe plus de deux composants de plage sans réplication. Veuillez supprimer les composants inutiles. »
+
+### <a name="automatic-resolution"></a>Résolution automatique
+
+Aucune option pour résoudre automatiquement ce problème n’est disponible.
+
+### <a name="manual-resolution"></a>Résolution manuelle
+
+#### <a name="option-1"></a>Option 1
+
+Modifiez le format configuré en changeant la propriété **Direction de réplication** pour tous les composants **Excel\\Plage** incompatibles.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Capacité d’exécution d’une expression avec la fonction ORDERBY
+
+La fonction d’ER [ORDERBY](er-functions-list-orderby.md) intégrée est utilisée pour trier les enregistrements d’une source de données ER du type **[Liste des enregistrements](er-formula-supported-data-types-composite.md#record-list)** spécifié comme argument de la fonction.
+
+Les arguments de la fonction `ORDERBY` peuvent être [spécifiés](er-functions-list-orderby.md#syntax-2) pour trier les enregistrements des entités de tables, vues ou données en effectuant un seul appel de base de données pour obtenir les données triées sous forme de liste d’enregistrements. Une source de données de type **Liste des enregistrements** est utilisée comme argument de cette fonction et spécifie la source de l’application pour l’appel.
+
+ER vérifie si une requête de base de données directe peut être établie vers une source de données référencée dans la fonction `ORDERBY`. Si une requête directe ne peut pas être établie, une erreur de validation se produit dans le concepteur de modèle de mappage ER. Le message que vous recevez indique que l’expression ER qui inclut la fonction `ORDERBY` ne peut pas être exécutée au moment de l’exécution.
+
+Les étapes suivantes montrent comment ce problème peut se produire.
+
+1. Commencez à configurer le composant de modèle de mappage ER.
+2. Ajoutez une source de données du type **Dynamics 365 for Operations \\ Enregistrements de la table**.
+3. Nommez la nouvelle source de données **Vendor** (fournisseur). Dans le champ **Table**, sélectionnez **VendTable** (table fournisseur) pour spécifier que cette source de données demandera la table **VendTable**.
+4. Ajoutez une source de données du type **Champ calculé**.
+5. Nommez la nouvelle source de données **OrderedVendors** (fournisseur filtré) et configurez-la pour qu’elle contienne l’expression `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Configuration des sources de données sur le concepteur de modèle de mappage.](./media/er-components-inspections-18-1.png)
+
+6. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que l’expression dans la source de données **OrderedVendors** peut être interrogée.
+7. Modifiez la source de données **Vendor** en ajoutant un champ imbriqué de type **Champ calculé** pour obtenir le numéro de compte du fournisseur tronqué.
+8. Nommez le nouveau champ imbriqué **$AccNumber** et configurez-le pour qu’il contienne l’expression `TRIM(Vendor.AccountNum)`.
+9. Sélectionnez **Valider** pour inspecter le composant de modèle de mappage modifiable sur la page **Concepteur de modèle de mappage** et vérifiez que l’expression dans la source de données **Vendor** peut être interrogée.
+
+    ![Vérification de la possibilité d’interroger l’expression dans la source de données Vendor (Fournisseur) sur la page Concepteur de la mise en correspondance des modèles.](./media/er-components-inspections-18-2.png)
+
+10. Notez qu’une erreur de validation se produit, car la source de données **Vendor** contient un champ imbriqué du type **Champ calculé** qui n’autorise pas l’expression de la source de données **OrderedVendors** à convertir dans l’instruction de base de données directe. La même erreur se produit lors de l’exécution si vous ignorez l’erreur de validation et sélectionnez **Exécuter** pour exécuter ce mappage de modèle.
+
+### <a name="automatic-resolution"></a>Résolution automatique
+
+Aucune option pour résoudre automatiquement ce problème n’est disponible.
+
+### <a name="manual-resolution"></a>Résolution manuelle
+
+#### <a name="option-1"></a>Option 1
+
+Au lieu d’ajouter un champ imbriqué du type **Champ calculé** à la source de données **Fournisseur**, ajoutez le champ imbriqué **$AccNumber** à la source de données **FilteredVendors** et configurez le champ pour qu’il contienne l’expression `TRIM(FilteredVendor.AccountNum)`. De cette façon, l’expression `ORDERBY("Query", Vendor, Vendor.AccountNum)` peut être exécutée au niveau de la base de données et calculer le champ imbriqué **$AccNumber** par la suite.
+
+#### <a name="option-2"></a>Option 2
+
+Changez l’expression de la source de données **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` en `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Nous vous déconseillons de modifier l’expression d’une table contenant un grand volume de données (table transactionnelle), car tous les enregistrements seront récupérés et l’organisation des enregistrements requis sera effectuée en mémoire. Par conséquent, cette approche peut entraîner de mauvaises performances.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -812,3 +962,10 @@ Pour savoir comment la structure de format peut être synchronisée avec un mod�
 [Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
+
+[Supprimer les contrôles de contenu Word dans les rapports générés](er-design-configuration-word-suppress-controls.md)
+
+[Gérer plusieurs mappages dérivés pour une seule racine de modèle](er-multiple-model-mappings.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

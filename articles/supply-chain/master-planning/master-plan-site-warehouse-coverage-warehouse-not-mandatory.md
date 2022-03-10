@@ -1,7 +1,7 @@
 ---
 title: Planification pour la couverture du site et de l’entrepôt, entrepôt non obligatoire
 description: Cette rubrique décrit comment un article disposant d’un site et d’un entrepôt comme dimensions de couverture est planifié. La dimension d’entrepôt n’est pas obligatoire.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2514
 ms.assetid: 92d47bdd-df68-4f60-ac9a-96aa08236c26
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6b9814a0a5a069d945c7888da17348ecfe4d4a7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e6d163a0a9fc98442f8717972445a1de6d35ca1c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187528"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573703"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Planification pour la couverture du site et de l’entrepôt, entrepôt non obligatoire
 
@@ -41,7 +41,7 @@ Le graphique suivant illustre l’exécution du calcul de planification. Les par
 -   Des relations de rechargement sont définies pour l’entrepôt. Cliquez sur **Gestion des stocks &gt; Paramétrage &gt; Décomposition du stock &gt; Entrepôts**. Dans l’organisateur **Planification**, voir le groupe de champs **Entrepôt principal**.
 -   Le type de commande par défaut est défini à Production, Commande fournisseur, ou Kanban. Cliquez sur **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez l’article, puis dans le volet Actions, sous l’onglet **Planifier**, cliquez sur **Paramètres de commande par défaut**. Dans l’écran **Paramètres de commande par défaut**, voir le **Type de commande par défaut**.
 
-![Demande pour le site et l’entrepôt, pas l’entrepôt](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
+![Demande pour le site et l’entrepôt, pas l’entrepôt.](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
 
 

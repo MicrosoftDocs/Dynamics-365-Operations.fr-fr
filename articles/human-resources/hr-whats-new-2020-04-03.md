@@ -2,15 +2,12 @@
 title: Nouveautés et modifications dans Dynamics 365 Human Resources (3 avril 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 avril 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,26 +15,26 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 715de76e9920bcb6cca7cabf053f649d27094149
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 0f5f52b2e6bf646f6dd53acfd2928682e84e78fb
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465364"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063566"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Nouveautés et modifications dans Dynamics 365 Human Resources (3 avril 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources. Les modifications s’appliquent au numéro de version 8.1.3111. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.
 
 ## <a name="features-that-are-generally-available-the-week-of-april-6"></a>Fonctionnalités généralement disponibles la semaine du 6 avril
 
-- **Fonctionnalités Congés et absences** - Pour en savoir plus, voir [Vue d’ensemble des congés et absences](hr-leave-and-absence-overview.md).
+- **Fonctionnalités Congés et absences** – Pour en savoir plus, voir [Vue d’ensemble des congés et absences](hr-leave-and-absence-overview.md).
 
-- **Fonctionnalités de la gestion des avantages** - Pour en savoir plus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonctionnalités de la gestion des avantages** – Pour en savoir plus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="human-resources-environment-limits-are-now-based-on-updated-licensing-394595"></a>Les limites de l’environnement Human Resources sont désormais basées sur la mise à jour des licences (394595)
 
@@ -136,7 +133,7 @@ Si l’aperçu du document pour les documents stockés dans SharePoint ne foncti
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 

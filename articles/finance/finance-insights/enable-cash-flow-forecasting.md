@@ -1,8 +1,8 @@
 ---
-title: Activer la prévision des flux de trésorerie (version préliminaire)
+title: Activer la prévision des flux de trésorerie
 description: Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,49 +15,42 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 763818f70095964d77ff82cf02178367d05eaf23
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222556"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109577"
 ---
-# <a name="enable-cash-flow-forecasting-preview"></a>Activer la prévision des flux de trésorerie (version préliminaire)
+# <a name="enable-cash-flow-forecasting"></a>Activer la prévision des flux de trésorerie
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Informations financières.
+Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Finance Insights.
 
 > [!NOTE]
 > Pour utiliser les prévisions de paiement dans le flux de trésorerie, vous devez configurer la fonction de prévision de paiement client comme décrit dans [Activer les prédictions de paiement des clients](enable-cust-paymnt-prediction.md).
-
-1. Utilisez les informations de la page d’environnement dans Microsoft Dynamics Lifecycle Services (LCS) pour se connecter à l’instance principale d’Azure SQL pour cet environnement. Exécutez la commande Transact-SQL (T-SQL) suivante pour activer les déploiements en mode Flighting pour l’environnement sandbox. (Vous devrez peut-être activer l’accès pour votre adresse IP dans LCS avant de pouvoir vous connecter à distance à Application Object Server \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Ignorez cette étape si vous utilisez la version 10.0.20 ou ultérieure, ou si vous utilisez un déploiement Service Fabric. L’équipe Informations financières devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de l’activer, contactez <fiap@microsoft.com>.
   
-2. Ouvrez l’espace de travail **Gestion des fonctionnalités** et procédez comme suit :
+1. Ouvrez l’espace de travail **Gestion des fonctionnalités** et procédez comme suit :
 
     1. Sélectionnez **Rechercher des mises à jour**.
-    2. Activer les fonctionnalités suivantes :
+    2. Sur l’onglet **Tous**, recherchez **Prévisions de flux de trésorerie**. Si vous ne trouvez pas cette fonctionnalité, recherchez **(Version préliminaire) Prévisions de flux de trésorerie**. 
+    3. Activer la fonctionnalité.
 
-        - Nouveau contrôle de grille
-        - Regroupement en grilles (version préliminaire) 
-        - Prévisions de paiement client (version préliminaire)
-        - Prévisions de flux de trésorerie (version préliminaire)
-
-3. Aller à **Gestion de la trésorerie et de la banque \> Configuration des prévisions de trésorerie**, et ajoutez les comptes de liquidité à inclure dans les prévisions.
+2. Aller à **Gestion de la trésorerie et de la banque \> Configuration des prévisions de trésorerie**, et ajoutez les comptes de liquidité à inclure dans les prévisions. Configurez également le compte de liquidité pour les paiements sur les onglets **Comptabilité client** et **Comptabilité fournisseur**. Assurez-vous de recalculer les prévisions de flux de trésorerie.
 
     > [!NOTE]
     > Si les comptes de liquidité ne sont pas configurés, le flux de trésorerie ne peut pas être généré.
+    >
+    > Pour plus d’informations sur la configuration des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](../cash-bank-management/cash-flow-forecasting.md).
 
-4. Aller à **Gestion de la trésorerie et de la banque \> Configurer \> Informations financières (version préliminaire) \> Prévisions de flux de trésorerie (version préliminaire)** et suivez ces étapes :
+3. Aller à **Gestion de la trésorerie et de la banque \> Configurer \> Informations financières (version préliminaire) \> Prévisions de flux de trésorerie (version préliminaire)** et suivez ces étapes :
 
     1. Sur l’onglet **Prévisions de trésorerie**, sélectionnez **Activer la fonctionnalité**.
     2. Sélectionner **Créer un modèle de prédiction**.
+
+> [!NOTE]
+> La formation du modèle **Prévisions de flux de trésorerie** nécessite des données avec 100 transactions ou plus qui s’étendent sur plus d’un an. Nous vous recommandons d’avoir au moins deux ans de données avec plus de 1 000 transactions.
 
 Pour plus d’informations sur la fonctionnalité des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](cash-flow-forecast-intro.md).
 

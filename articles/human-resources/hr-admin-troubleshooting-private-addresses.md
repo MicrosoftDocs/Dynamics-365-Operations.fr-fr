@@ -1,8 +1,8 @@
 ---
 title: Accéder aux adresses privées selon les rôles de sécurité
-description: Cet article explique comment résoudre le problème où un client ne peut pas accéder aux adresses privées.
-author: andreabichsel
-ms.date: 11/02/2018
+description: Cette rubrique explique comment résoudre le problème lorsqu’un client ne peut pas accéder aux adresses privées.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,20 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21919e0bf75a5a47fc64b87410ccd75ff34259fb1c8c2bc1aa82318dcd0572b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05895d58cfd108c45c3c75921cb6930b904a6482
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719114"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068382"
 ---
-# <a name="access-to-private-addresses-by-security-role"></a>Accès aux adresses privées selon les rôles de sécurité
+# <a name="access-to-private-addresses-by-security-role"></a>Accéder aux adresses privées selon les rôles de sécurité
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

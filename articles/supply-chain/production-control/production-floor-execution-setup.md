@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574543"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752830"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production
 
@@ -28,9 +28,9 @@ L’interface d’exécution de l’atelier de production est configurée pour c
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Définir la configuration et les filtres pour un appareil spécifique
 
-Pour définir la configuration et les filtres de tâches d’un périphérique, connectez-vous à la page **Exécution de l’atelier de production** en utilisant un compte qui a un rôle de sécurité qui inclut le droit *Superviseur de mise à jour du temps*. (Parmi les rôles de sécurité prêts à l’emploi, seuls *Superviseur de l’atelier* a ce droit.) Suivez ensuite ces étapes.
+Pour définir la configuration et les filtres de tâches d’un périphérique, connectez-vous à la page **Exécution de l’atelier de production** en utilisant un compte qui a un rôle de sécurité qui inclut le droit *Supervision de mise à jour du temps*. (Parmi les rôles de sécurité prêts à l’emploi, seuls *Superviseur de l’atelier* a ce droit.) Suivez ensuite ces étapes.
 
-1. Accédez à l’appareil que vous souhaitez configurer et connectez-vous à Microsoft Dynamics 365 Supply Chain Management en tant que superviseur d’atelier. (Utilisez un compte qui inclut le droit *Superviseur de mise à jour du temps*.)
+1. Accédez à l’appareil que vous souhaitez configurer et connectez-vous à Microsoft Dynamics 365 Supply Chain Management en tant que superviseur d’atelier. (Utilisez un compte qui inclut le droit *Supervision de mise à jour du temps*.)
 1. Assurez-vous qu’une configuration est disponible pour l’appareil que vous configurez. Si aucune configuration n’existe déjà, une configuration par défaut est fournie. Pour plus d’informations sur le paramétrage d’une configuration, consultez [Configurer l’interface d’exécution de l’atelier de production](production-floor-execution-configure.md).
 1. Accédez à **Contrôle de la production \> Contrôle et suivi de la production \> Exécution de l’atelier de production**.
 

@@ -1,9 +1,9 @@
 ---
-title: Prévisions de paiement client (version préliminaire)
+title: Prédictions de paiement des clients
 description: Cette rubrique décrit la fonctionnalité de prédiction de paiement qui peut vous aider à mieux comprendre les pratiques de paiement typiques d’un client. Cette fonctionnalité peut également vous aider à identifier les circonstances qui devraient vous amener à démarrer les processus de collecte plus tôt que vous ne pourriez les démarrer autrement.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
-ms.topic: article
+ms.date: 11/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355650"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982035"
 ---
-# <a name="customer-payment-predictions-preview"></a>Prévisions de paiement client (version préliminaire)
+# <a name="customer-payment-predictions"></a>Prédictions de paiement des clients
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit la fonctionnalité de prédiction de paiement qui peut vous aider à mieux comprendre les pratiques de paiement typiques d’un client. Cette fonctionnalité peut également vous aider à identifier les circonstances qui devraient vous amener à démarrer les processus de collectes plus tôt que vous ne pourriez les démarrer autrement.
 
@@ -39,7 +38,7 @@ Les organisations trouvent souvent difficiles de prévoir quand les clients paie
 - Processus de collectes qui commencent trop tard
 - Commandes qui sont validées pour les clients qui pourraient manquer à leur paiement
 
-Les prédictions de paiement client (version préliminaire) aident les organisations à prédire quand une facture client sera payée. Par conséquent, ils peuvent créer des stratégies de recouvrement qui contribuent à augmenter la probabilité qu’ils soient payés à temps.
+Les prédictions de paiement client aident les organisations à prédire quand une facture client sera payée. Par conséquent, ils peuvent créer des stratégies de recouvrement qui contribuent à augmenter la probabilité qu’ils soient payés à temps.
 
 ## <a name="predictions"></a>Prédictions
 
@@ -67,12 +66,6 @@ Dans de nombreuses entreprises, le processus de recouvrement a été une activit
 
 ## <a name="methodology"></a>Méthodologie
 
-Dans le passé, il était généralement difficile de développer et de déployer une solution d’intelligence artificielle (IA). Le processus nécessitait une équipe incluant des scientifiques des données, des experts en la matière et des ingénieurs, collaborant pendant un temps donné pour formuler, développer, déployer et mettre à jour une solution IA utilisable. Les prédictions de paiement client facilitent le déploiement et l’utilisation d’une solution d’IA dans Microsoft Dynamics 365 Finance. Microsoft pré-emballe des solutions IA dans Finance qui sont intégrées dans Microsoft AI Builder. Par conséquent, les utilisateurs peuvent déployer la solution d’IA en un seul clic pour profiter des avantages des prédictions intelligentes. Si vous n’êtes pas satisfait de la précision des prévisions, un utilisateur autorisé (à nouveau d’un simple clic) peut saisir l’expérience d’extension AI builder et sélectionner ou effacer les champs utilisés pour générer les prévisions. Lorsque vous êtes prêt, vous pouvez "entraîner" le modèle et publier les modifications. Le modèle nouvellement formé sera automatiquement sélectionné pour générer les prédictions dans Dynamics 365 Finance.
-
-## <a name="release-details"></a>Détails du lancement
-
-La version préliminaire publique de Informations financières est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de régions supplémentaires.
-
-Les fonctionnalités en version préliminaire publiques doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox peuvent ne pas être migrés vers l’environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
+Dans le passé, il était généralement difficile de développer et de déployer une solution d’intelligence artificielle (IA). Le processus nécessitait une équipe incluant des scientifiques des données, des experts en la matière et des ingénieurs, collaborant pendant un temps donné pour formuler, développer, déployer et mettre à jour une solution IA utilisable. Les prédictions de paiement client facilitent le déploiement et l’utilisation d’une solution d’IA dans Microsoft Dynamics 365 Finance. Microsoft pré-emballe des solutions IA dans Finance qui sont intégrées dans Microsoft AI Builder. Par conséquent, les utilisateurs peuvent déployer la solution d’IA en un seul clic pour profiter des avantages des prédictions intelligentes. Si vous n’êtes pas satisfait de la précision des prévisions, un utilisateur autorisé (à nouveau d’un simple clic) peut saisir l’expérience d’extension AI Builder et sélectionner ou effacer les champs utilisés pour générer les prévisions. Lorsque vous êtes prêt, vous pouvez "entraîner" le modèle et publier les modifications. Le modèle nouvellement formé sera automatiquement sélectionné pour générer les prédictions dans Dynamics 365 Finance.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

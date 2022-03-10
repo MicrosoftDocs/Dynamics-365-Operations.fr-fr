@@ -2,26 +2,23 @@
 title: Valider des journaux périodiques
 description: Les journaux périodiques sont parfois appelés journaux récurrents car le montant, le texte, ainsi que d’autres informations sont répétés à chaque extraction du journal périodique.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f721a05c8b74f1cfcf43177b73129751483650e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 214a7618bbec1d30212f7c53b7086ee0d5da4e6b5de40d11d3bf16399b812597
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763116"
 ---
 # <a name="post-periodic-journals"></a>Valider des journaux périodiques
 
@@ -58,3 +55,6 @@ Les journaux périodiques sont parfois appelés journaux récurrents car le mont
 27. Saisissez ou sélectionnez une valeur dans le champ **Numéro de journal périodique**.
 28. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 29. Cliquez sur **OK**. Le journal périodique peut désormais être révisé, approuvé ou validé selon les besoins et le paramétrage.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345296"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068842"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> La charge de travail d’exécution de la fabrication est disponible en version préliminaire pour le moment.
+> [!IMPORTANT]
+> La charge de travail d’exécution de la fabrication est actuellement disponible uniquement en version préliminaire.
+>
 > Certaines fonctionnalités d’entreprise ne sont pas entièrement prises en charge dans la version préliminaire publique lorsque les des unités d’échelle de charge de travail sont utilisées.
+>
+> Vous ne pouvez pas exécuter la charge de travail d’exécution de la fabrication (version préliminaire) sur une unité d’échelle lorsque la charge de travail d’exécution de l’entrepôt est également installée.
 
 Lors de l’exécution de la fabrication, les unités d’échelle offrent les capacités suivantes :
 
@@ -128,6 +131,22 @@ Dans la version actuelle, les opérations Déclarer comme terminé et rangé (po
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Activer et utiliser l’opération de démarrage sur une unité d’échelle
+
+Dans la version actuelle, l’opération de démarrage de la production et des lots de production est prise en charge par la [charge de travail d’exécution de l’entrepôt](cloud-edge-workload-warehousing.md) (pas par la charge de travail d’exécution de la fabrication). Par conséquent, pour utiliser cette fonctionnalité lorsque vous êtes connecté à une unité d’échelle, vous devez procéder comme suit :
+
+- Installez à la fois la charge de travail d’exécution de l’entrepôt et la charge de travail d’exécution de la fabrication sur votre unité d’échelle.
+- Activez la fonctionnalité *Démarrer l’ordre de fabrication sur la charge de travail de gestion d’entrepôt pour l’unité d’échelle cloud ou périphérique* dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Utilisez l’application mobile Warehouse Management pour démarrer la production ou la commande par lots.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Activer et utiliser la consommation de matières sur une unité d’échelle
+
+Dans la version actuelle, le flux de l’application mobile Warehouse Management pour l’enregistrement de la consommation de matières est pris en charge par la[charge de travail d’exécution de l’entrepôt](cloud-edge-workload-warehousing.md) (pas la charge de travail d’exécution de la fabrication). Par conséquent, pour utiliser cette fonctionnalité lorsque vous êtes connecté à une unité d’échelle, vous devez procéder comme suit :
+
+- Installez à la fois la charge de travail d’exécution de l’entrepôt et la charge de travail d’exécution de la fabrication sur votre unité d’échelle.
+- Activez la fonctionnalité *Enregistrer la consommation de matières sur l’application mobile sur une unité d’échelle* dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Utilisez l’application mobile Warehouse Management pour enregistrer la consommation de matières.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

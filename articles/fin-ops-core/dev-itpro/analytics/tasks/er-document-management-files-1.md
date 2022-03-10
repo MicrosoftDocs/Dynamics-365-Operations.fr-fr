@@ -1,12 +1,10 @@
 ---
-title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 - Préparer le modèle de données)
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un format de génération d’états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER.
+title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 – Préparer le modèle de données)
+description: Cette rubrique décrit comment configurer un format de gestion des états électroniques pour utiliser les fichiers de gestion des documents dans la sortie de gestion des états électroniques (pièces jointes). (Partie 1)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b82c63c572cc946737ba54deb10a03dc437c01b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: aa4996100a839a8440bad8724680c5799e032064d4a5ec0fbbc0f2af2641b8fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768413"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 - Préparer le modèle de données)
+# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 1 – Préparer le modèle de données)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -74,3 +72,6 @@ Vous créerez votre propre configuration du modèle de facture client en la dér
 3. Dans le champ Nom, tapez « Modèle de facture client (personnalisé) ».
 4. Cliquez sur Créer une configuration.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

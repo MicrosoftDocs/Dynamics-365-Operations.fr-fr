@@ -2,11 +2,9 @@
 title: EUR-00011 Générer l’état Liste des ventes intracommunautaires
 description: Cette procédure vous guide dans la génération de l’état de la liste des ventes intracommunautaires.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d2f2b0232666694788abb08b05408f725a1f8e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1247f8268387b9084350883a3f56ff6e61bdb4d1b05aedfe4e886ccf97c166b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758770"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Générer l’état Liste des ventes intracommunautaires
 
@@ -100,3 +98,6 @@ Cette procédure est destinée aux comptables.
 7. Cliquez sur OK.
 8. Dans le champ Sélection, sélectionnez « Clôturé ».
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

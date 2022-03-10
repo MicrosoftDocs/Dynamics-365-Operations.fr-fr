@@ -1,12 +1,10 @@
 ---
 title: Ajustements de limite de crédit
 description: Cette rubrique explique comment paramétrer et ajouter des ajustements de limite de crédit.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 31d83e2083806a518928dc2079c31fab6f95872c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254518"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753896"
 ---
 # <a name="credit-limit-adjustments"></a>Ajustements de limite de crédit 
 
@@ -118,8 +116,8 @@ Après avoir créé des lignes d’ajustement de limite de crédit, vous pouvez 
 
 Les workflow d’**Ajustements de limite de crédit** peuvent être utilisés pour envoyer des ajustements de limite de crédit via un processus d’approbation de workflow. Vous pouvez créer deux workflows sur la page **Gestion de crédit worfklow** (**Gestion de crédit \> Paramétrer \> Gestion de crédit worfklow**) :
 
-- **Ajustements de limite de crédit** - Ce workflow peut être utilisé pour approuver des entrées au niveau de l’en-tête.
-- **Ligne d’ajustement de limite de crédit** - Ce workflow peut être utilisé pour approuver les entrées d’ajustement afin que les entrées puissent être approuvées par différentes personnes, en fonction des critères du workflow.
+- **Ajustements de limite de crédit** – Ce workflow peut être utilisé pour approuver des entrées au niveau de l’en-tête.
+- **Ligne d’ajustement de limite de crédit** – Ce workflow peut être utilisé pour approuver les entrées d’ajustement afin que les entrées puissent être approuvées par différentes personnes, en fonction des critères du workflow.
 
 > [!NOTE]
 > Lorsque vous créez le workflow **Ajustements de limite de crédit**, vous pouvez le paramétrer pour que les ajustements soient automatiquement validés une fois les lignes approuvées. Incluez simplement la tâche **Valider le journal automatiquement** dans le workflow.

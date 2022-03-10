@@ -1,12 +1,10 @@
 ---
 title: Accusé de réception de marchandises et commandes fournisseur
 description: Cette rubrique décrit les différentes options d’enregistrement des marchandises comme étant reçues.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3680aedad6429cd0d473f1e3d9b5f8e09dd32082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c22b4f914dc7eba34f2f9a2657d21d66f38c019
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247812"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570416"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
@@ -55,8 +53,7 @@ Une fois l’accusé de réception de marchandises traitée sur la CF, le statut
 
 Vous pouvez accéder à cette page à partir du groupe d’actions **Réception** sur la page **Commande fournisseur**. Les informations contenues dans les journaux incluent des détails sur les quantités, les dates et les dimensions.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des commandes fournisseur](purchase-order-overview.md)
 
@@ -64,7 +61,7 @@ Vous pouvez accéder à cette page à partir du groupe d’actions **Réception*
 
 [Approuver et confirmer des commandes fournisseur](purchase-order-approval-confirmation.md)
 
-[Vue d’ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Vue d’ensemble des factures fournisseur](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

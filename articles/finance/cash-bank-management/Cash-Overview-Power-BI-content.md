@@ -3,7 +3,7 @@ title: Contenu Power BI Vue d’ensemble des disponibilités
 description: Cette rubrique décrit le contenu Power BI Vue d’ensemble des disponibilités. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 author: saraschi2
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897450"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986406"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenu de Power BI Vue d’ensemble des disponibilités
 

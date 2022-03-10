@@ -3,24 +3,26 @@ title: Vue d’ensemble de configuration de l’entrepôt
 description: Cet article explique comment configurer un entrepôt. Elle contient des informations sur l’activation d’une présentation d’entrepôt et sur les processus d’entrepôt.
 author: perlynne
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11554
+ms.custom:
+- "11554"
+- intro-internal
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189549"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983000"
 ---
 # <a name="warehouse-configuration-overview"></a>Vue d’ensemble de configuration de l’entrepôt
 

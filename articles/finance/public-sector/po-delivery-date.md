@@ -2,26 +2,23 @@
 title: Calculer la date de livraison pour une ligne, en fonction du délai
 description: Cette rubrique décrit comment calculer une date de livraison pour une ligne, en fonction du délai du fournisseur et du calendrier des jours ouvrables de votre organisation.
 author: velofog
-manager: AnnBe
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 22c62969a56f42b78a509b5477cfa595706ae23a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f78909f926b8b7f2996a1cd137c3039bca14d579e829df9646fd1150b076f328
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754122"
 ---
 # <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison pour une ligne, en fonction du délai
 
@@ -102,3 +99,6 @@ Les détails du délai saisis pour une ligne dans les pages **Contrat d’achat*
 
 > [!NOTE]
 > Pour les articles lancés, vous pouvez sélectionner un délai d’achat. Le délai d’achat calculera automatiquement la date de livraison lors de la création d’une commande fournisseur. La date de livraison ne sera pas recalculée si le délai sur la ligne de commande fournisseur est 0 (zéro).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Module Paiement
 description: Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4412426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715504"
 ---
 # <a name="checkout-module"></a>Module Paiement
 
@@ -30,15 +27,13 @@ ms.locfileid: "4412426"
 
 Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 
-## <a name="overview"></a>Vue d’ensemble
-
 Module de validation est un conteneur spécial qui héberge tous les modules requis pour créer une commande. Il présente un flux pas-à-pas qu’un client utilise pour entrer toutes les informations appropriées pour faire un achat. Il capture l’adresse d’expédition, la méthode d’expédition et les informations de facturation. Il fournit également un résumé de commande et d’autres informations liées à une commande client.
 
 Un module de caisse affiche des données sur l’ID panier. Cet ID panier est enregistré comme cookie du navigateur. Un ID panier est requis pour afficher les informations dans le module de caisse, tels que les articles dans la commande, le montant total, et des remises. 
 
 L’image suivante montre un exemple de module de caisse Fabrikam dans une page de caisse.
 
-![Exemple d’un module de caisse](./media/Checkout.PNG)
+![Exemple d’un module de caisse.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Propriétés du module de paiement
 
@@ -57,13 +52,13 @@ Un module de paiement affiche un résumé de la commande et fournit la fonctionn
 
     L’image suivante montre un exemple de module d’adresse de livraison dans une page de caisse.
 
-    ![Exemple de module d’adresse de livraison](./media/ecommerce-shippingaddress.PNG)
+    ![Exemple de module d’adresse de livraison.](./media/ecommerce-shippingaddress.PNG)
 
 - **Options de livraison** – Ce module permet à un client sélectionner un mode de livraison pour une commande. Pour plus d’informations sur ce module, voir [Module Options de livraison](delivery-options-module.md).
 
     L’image suivante montre un exemple de module d’options de livraison dans une page de caisse.
  
-    ![Exemple d’un module d’options de livraison](./media/ecommerce-deliveryoptions.PNG)
+    ![Exemple d’un module d’options de livraison.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Conteneur de section de caisse** – Ce module est un conteneur dans lequel vous pouvez mettre plusieurs modules pour créer une section dans le flux de caisse. Par exemple, vous pouvez mettre tous les modules liés au paiement à l’intérieur de ce conteneur pour les faire apparaître comme une section. Ce module n’affecte que la disposition du flux.
 
@@ -75,7 +70,7 @@ Un module de paiement affiche un résumé de la commande et fournit la fonctionn
 
     L’image suivante montre un exemple de modules de carte cadeau, de points de fidélité et de paiement sur une page de caisse.
 
-    ![Exemple de modules de carte cadeau, de points de fidélité et de paiement sur une page de caisse](./media/ecommerce-payments.PNG)
+    ![Exemple de modules de carte cadeau, de points de fidélité et de paiement sur une page de paiement.](./media/ecommerce-payments.PNG)
 
 - **Informations de contact** – Ce module permet à un client d’ajouter ou de modifier des informations de contact (adresse e-mail) pour une commande.
 
@@ -85,7 +80,7 @@ Un module de paiement affiche un résumé de la commande et fournit la fonctionn
 
     L’image suivante montre un exemple de module de conditions générales sur une page de caisse.
 
-    ![Exemple de conditions générales sur une page de paiement](./media/ecommerce-checkout-terms.PNG)
+    ![Exemple de conditions générales sur une page de paiement.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
 
@@ -122,8 +117,11 @@ Pour ajouter un module de caisse à une nouvelle page et définir les propriét�
 
 [Module Options de livraison](delivery-options-module.md)
 
-[Module d'information sur le retrait](pickup-info-module.md)
+[Module d’information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 
 [Module Carte cadeau](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

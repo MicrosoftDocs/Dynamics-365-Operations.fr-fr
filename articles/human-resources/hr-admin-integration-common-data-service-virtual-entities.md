@@ -1,8 +1,8 @@
 ---
-title: Configurer des tables virtuelles Dataverse
-description: Cette rubrique montre comment configurer des tables virtuelles pour Dynamics 365 Human Resources. Générez et mettez à jour des tables virtuelles existantes et analysez les tables générées et disponibles.
-author: andreabichsel
-ms.date: 01/25/2021
+title: Configurer les tables virtuelles de Dataverse
+description: Cette rubrique montre comment configurer, générer, mettre à jour les tables virtuelles existantes et analyser les tables générées et disponibles pour Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058582"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069144"
 ---
-# <a name="configure-dataverse-virtual-tables"></a>Configurer des tables virtuelles Dataverse
+# <a name="configure-dataverse-virtual-tables"></a>Configurer les tables virtuelles de Dataverse
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources est une source de données virtuelle dans Microsoft Dataverse. Il fournit des opérations de création, de lecture, de mise à jour et de suppression (CRUD) complètes à partir de Dataverse et Microsoft Power Platform. Les données des tables virtuelles ne sont pas stockées dans Dataverse, mais dans la base de données de l’application.
 
@@ -41,7 +44,7 @@ Toutes les entités Open Data Protocol (OData) dans Human Resources sont disponi
 
 Vous pouvez afficher la liste des tables virtuelles activées dans l’environnement et commencer à travailler avec les tables dans [Power Apps](https://make.powerapps.com), dans la solution **Tables virtuelles Dynamics 365 HR**.
 
-![Tables virtuelles Dynamics 365 HR dans Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Tables virtuelles Dynamics 365 HR dans Power Apps.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>Tables virtuelles et tables natives
 
@@ -105,7 +108,7 @@ Installez l’application Tables virtuelles Dynamics 365 HR dans votre environne
 
 2. Sélectionnez l’onglet **Tables virtuelles**.
 
-3. Sélectionnez **Installer l'application de table virtuelle**.
+3. Sélectionnez **Installer l’application de table virtuelle**.
 
 ### <a name="configure-the-virtual-table-data-source"></a>Configurer la source de données de table virtuelle
 
@@ -119,10 +122,10 @@ L’étape suivante consiste à configurer la source de données de table virtue
 
 4. Dans **Hub état solution**, sélectionnez l’icône **Recherche avancée** en haut à droite de la page de l’application.
 
-5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez Configurations de source de données virtuelle **Finance and Operations**.
+5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez **Configurations de source de données virtuelle Finances et Opérations**.
 
    > [!NOTE]
-   > L'installation de l'application de table virtuelle à partir de l'étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle Finance and Operations** n'est pas disponible dans la liste, attendez une minute et actualisez la liste.
+   > L’installation de l’application de table virtuelle à partir de l’étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle Finances et Opérations** n’est pas disponible dans la liste, attendez une minute et actualisez la liste.
 
 6. Sélectionnez **Résultats**.
 
@@ -141,13 +144,16 @@ L’étape suivante consiste à configurer la source de données de table virtue
      >[!NOTE]
      >Assurez-vous d’inclure le caractère "**/**" à la fin de l’URL pour éviter de recevoir une erreur.
 
+     >[!NOTE]
+     >L’URL cible détermine l’environnement Human Resources vers lequel les tables virtuelles pointent pour les données. Si vous créez un environnement de bac à sable en créant une copie de votre environnement de production, mettez à jour cette valeur avec l’URL de l’espace de noms de votre nouvel environnement de bac à sable. Cela garantit que les tables virtuelles sont connectées aux données de l’environnement de bac à sable plutôt que de continuer à pointer vers l’environnement de production.
+
    - **ID du locataire** : ID du locataire Azure Active Directory (Azure AD).
 
    - **ID d’application AAD** : ID d’application (client) créé pour l’application enregistrée dans le portail Microsoft Azure. Vous avez reçu ces informations plus tôt au cours de l’étape [Enregistrer l’application dans Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    - **Secret d’application AAD** : clé secrète client créée pour l’application enregistrée dans le portail Microsoft Azure. Vous avez reçu ces informations plus tôt au cours de l’étape [Enregistrer l’application dans Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![Source de données Microsoft HR](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Source de données Microsoft HR.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. Sélectionnez **Enregistrer et Fermer**.
 
@@ -187,7 +193,7 @@ Une fois la configuration terminée, vous pouvez sélectionner les tables virtue
 
 4. Sélectionnez **Générer/actualiser**.
 
-![Intégration de Dataverse](./media/hr-admin-integration-dataverse-integration.png)
+![Intégration de Dataverse.](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Vérifier le statut de la génération de la table
 

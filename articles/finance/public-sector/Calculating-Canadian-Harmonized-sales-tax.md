@@ -2,29 +2,27 @@
 title: Taxe de vente harmonisée canadienne
 description: Cette rubrique donne des informations sur la fonctionnalité de prise en charge de la taxe de vente harmonisée pour le secteur public.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNCanadianHSTTaxFeature
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 519cae6aafd707676962de456b532fe40dcb0fdf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6b3937641d8794de15073763911337c3f18b9b6
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224610"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119413"
 ---
 # <a name="calculating-canadian-harmonized-sales-tax"></a>Calcul de la taxe de vente harmonisée canadienne
 
@@ -46,7 +44,8 @@ Remarque : cette fonctionnalité ne s’applique pas au journal des factures de
 
 
 
-### <a name="note-only-the-financial-dimensions-that-are-used-in-the-current-legal-entity-will-be-available"></a>Remarque : seules les dimensions financières utilisées dans l’entité juridique actuelle sont disponibles.
+> [!Note] 
+> Seules les dimensions financières utilisées dans l’entité juridique actuelle sont disponibles.
 
 ## <a name="set-up-hst-rules"></a>Configurer les règles HST
 
@@ -74,7 +73,7 @@ Après avoir défini les dimensions de la taxe HST, vous définissez les règles
 
 L’ordre dans lequel les règles sont appliquées est relativement complexe. Le graphique suivant illustre le principe :
 
-> [![Définir les règles HST](./media/define-hst-rules.png)](./media/define-hst-rules.png)
+> [![Définir les règles HST.](./media/define-hst-rules.png)](./media/define-hst-rules.png)
 
 Les codes de taxe sélectionnés pour la ligne de dimension sont les suivants si la transaction utilise un groupe de taxe et un groupe de taxe d’article avec tous les codes de taxe inclus.
 

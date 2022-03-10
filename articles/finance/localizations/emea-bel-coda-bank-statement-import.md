@@ -1,7 +1,7 @@
 ---
 title: Relevé bancaire CODA
 description: Cette rubrique contient des informations sur CODA, qui est un format d’état utilisé par le système d’opérations bancaires électroniques belge.
-author: ShylaThompson
+author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 262534
 ms.search.region: Belgium
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04e14f4afe3ad4505b140699956832d9b12ae48b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97e7f8ac575decf2be019435de897e2ee893ebef
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839909"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592568"
 ---
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
@@ -32,7 +32,7 @@ Pour les importations de relevés bancaires belges, vous utiliserez le format de
 ## <a name="import-transactions-from-a-bank-statement"></a>Importer des transactions à partir d’un relevé bancaire
 Pour importer un fichier de relevé bancaire pour un compte bancaire, procédez comme suit. **Remarque** : avant d’importer un fichier de relevé bancaire, vous devez avoir déjà effectué les opérations suivantes :
 
--   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 -   Sélectionner la configuration CODA importée dans la page **Paramètres CODA**.
 
 1.  Accédez à la page **Comptes bancaires**.

@@ -2,11 +2,9 @@
 title: Module de consentement aux cookies
 description: Cette rubrique couvre les modules de consentement aux cookies et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 57c8876f1faf08ce965ccd796551996a8651e2eb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213936"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750736"
 ---
 # <a name="cookie-consent-module"></a>Module de consentement aux cookies
 
@@ -37,11 +35,11 @@ Si le consentement aux cookies de l’utilisateur du site n’est pas obtenu, le
 Un module de consentement aux cookies peut être configuré sur le fragment d’en-tête d’une page afin qu’il puisse être appliqué lors du chargement de la page. Le module de consentement aux cookies doit comporter un message clair informant l’utilisateur du site de l’utilisation des cookies sur le site et doit fournir un lien vers la page de protection des données personnelles du site.
 
 L’illustration suivante met en évidence un exemple de message de consentement aux cookies avec un lien vers la page de politique de protection des données personnelles du site affiché sur l’en-tête d’une page de site.
-![Exemple de module de consentement aux cookies](./media/ecommerce-cookieconsent.png)
+![Exemple de module de consentement aux cookies.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Propriétés du module de consentement aux cookies
 
-| Nom de la propriété             | Valeur                 | Description |
+| Nom de la propriété             | Valeur                  | Description  |
 |---------------------------|-----------------------|-------------|
 | Texte enrichi                  | Texte enrichi | Spécifie une notification de texte enrichi aux utilisateurs du site indiquant que le site utilise des cookies de navigateur et que les utilisateurs doivent accepter l’utilisation de cookies pour que le site soit pleinement fonctionnel. |
 | Liens | URL | Un ou plusieurs liens peuvent être ajoutés à la page de protection des données personnelles d’un site qui décrit les types de cookies suivis sur le site. |

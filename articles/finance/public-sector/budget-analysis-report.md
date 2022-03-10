@@ -1,7 +1,7 @@
 ---
 title: État d’analyse budgétaire
-description: Cette rubrique fournit des informations sur l’état d’analyse budgétaire, utilisé pour générer un état récapitulatif qui effectue une comparaison entre les montants budgétés et les dépenses réelles et l’activité de produit pendant une période spécifiée.
-author: velofog
+description: Cette rubrique décrit l’état d’analyse budgétaire, qui est utilisé pour générer un état récapitulatif qui effectue une comparaison entre les montants budgétés et les dépenses réelles et l’activité de produit pendant une période spécifiée.
+author: v-kiarnd
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e42accc64cb6243d2e3f206a75c9f71eeb5262b534a9b6baa19a104af2072e05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a268eb0f7b0f321a37314386a57d7ea341b50335
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738406"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817685"
 ---
 # <a name="budget-analysis-report"></a>État d’analyse budgétaire
 

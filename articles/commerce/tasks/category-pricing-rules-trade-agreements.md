@@ -1,12 +1,10 @@
 ---
 title: Règles de tarification de catégorie en vue de créer des accords commerciaux
-description: Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l'aide d'une règle de tarification de catégorie.
+description: Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l’aide d’une règle de tarification de catégorie.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a945a0f49df92731175c1624da98831bbc5bb741
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730705"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Règles de tarification de catégorie en vue de créer des accords commerciaux
 
 [!include [banner](../includes/banner.md)]
 
-Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l'aide d'une règle de tarification de catégorie. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire du commerce de Commerce.
+Cette procédure illustre comment créer des accords commerciaux sur les prix de vente à l’aide d’une règle de tarification de catégorie. La société fictive utilisée pour créer cette tâche est USRT. Cette tâche est destinée au rôle Gestionnaire du commerce de Commerce.
 
 1. Cliquez sur Gestion de la tarification et des remises.
 2. Cliquez sur Nouveau.
@@ -38,7 +36,7 @@ Cette procédure illustre comment créer des accords commerciaux sur les prix de
 6. Dans le champ Sélection de compte, entrez ou sélectionnez une valeur.
 7. Dans le champ Catégorie, saisissez ou sélectionnez une valeur.
 8. Dans le champ Montant/Pourcentage, entrez un nombre.
-9. Dans le champ Version d'arrondi, saisissez ou sélectionnez une valeur.
+9. Dans le champ Version d’arrondi, saisissez ou sélectionnez une valeur.
 10. Cliquez sur Générer des accords commerciaux.
 11. Cliquez sur Suivant.
 12. Entrez une date dans le champ Date de début.
@@ -46,15 +44,18 @@ Cette procédure illustre comment créer des accords commerciaux sur les prix de
 14. Dans le champ Suivant, sélectionnez Oui.
 15. Cliquez sur Suivant.
 16. Cliquez sur Terminer.
-    * Cette opération crée un journal d'accords commerciaux et l'ouvre pour que vous l'examiniez.  
-17. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Les journaux d'accords commerciaux créés à partir des règles de tarification de catégorie ne sont pas validés. Vous pouvez examiner et modifier les prix générés avant de les valider.  
+    * Cette opération crée un journal d’accords commerciaux et l’ouvre pour que vous l’examiniez.  
+17. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+    * Les journaux d’accords commerciaux créés à partir des règles de tarification de catégorie ne sont pas validés. Vous pouvez examiner et modifier les prix générés avant de les valider.  
 18. Cliquez sur Modifier.
 19. Dans le champ Montant en devise, entrez un nombre.
 20. Cliquez sur Valider.
 21. Cliquez sur OK.
 22. Fermez la page.
 23. Fermez la page.
-24. Cliquez sur l'onglet Règles de prix de catégorie.
-    * Les règles de tarification de catégorie spécifiques aux canaux s'affichent dans cette liste.  
+24. Cliquez sur l’onglet Règles de prix de catégorie.
+    * Les règles de tarification de catégorie spécifiques aux canaux s’affichent dans cette liste.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

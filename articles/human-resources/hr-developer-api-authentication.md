@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054378"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070866"
 ---
 # <a name="authentication"></a>Authentification
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -87,7 +90,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 6. Sélectionnez **Enregistrer**.
 
-   [![Enregistrement d’une nouvelle application dans le portail Azure](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Enregistrement d’une nouvelle application dans le portail Azure.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD attribue un ID d’application unique (ID client) à votre application et vous amène à la page **Aperçu** pour votre application. Pour ajouter plus de fonctionnalités à votre application, vous pouvez sélectionner d’autres options de configuration, telles que des options de personnalisation et de certificats et secrets.
 

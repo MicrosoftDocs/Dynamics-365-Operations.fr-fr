@@ -1,36 +1,37 @@
 ---
 title: Paramétrer les cours de formation
 description: Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
-author: andreabichsel
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 0718987583d02a76acc2420e5a371c418757e384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793535"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066748"
 ---
 # <a name="set-up-training-courses"></a>Paramétrer les cours de formation
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
 
- <a name="set-up-prerequisites"></a>Paramétrage des conditions préalables
----------------------
+##  <a name="set-up-prerequisites"></a>Paramétrage des conditions préalables
 
 Les informations suivantes sont requises et doivent être définies avant de créer des cours.
 -   **Types de cours**
@@ -82,7 +83,7 @@ Pour chaque cours, vous pouvez effectuer les tâches suivantes.
 - Définir le nombre minimal et le nombre maximal de participants
 - Affecter un lieu de cours et une classe
 - Recommander des hôtels aux participants
-- Créer une description du cours, que vous pouvez ensuite annoncer sur le libre-service pour employés
+- Créer une description du cours, que vous pouvez ensuite annoncer sur le **Libre service pour employés**
 
   >**Remarque** : vous pouvez supprimer un cours uniquement si personne n’y est inscrit. 
 
@@ -126,12 +127,11 @@ Le tableau suivant répertorie les statuts de cours possibles et les actions que
 </table>
 
 ## <a name="course-participants"></a>Participants du cours
-Les participants du cours sont des employés qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans l’organisateur **General** de la page **Cours**.
+Les participants du cours sont des employés qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans le raccourci **General** de la page **Cours**.
 
-<a name="workflow"></a>Workflow
---------
+## <a name="workflow"></a>Workflow
 
-Les employés qui s’inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation. Vous pouvez affecter un workflow à un cours dans l’organisateur **Général** de la page **Cours**.
+Les employés qui s’inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation. Vous pouvez affecter un workflow à un cours dans le raccourci **Général** de la page **Cours**.
 
 
 

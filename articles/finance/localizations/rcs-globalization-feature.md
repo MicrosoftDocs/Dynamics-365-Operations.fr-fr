@@ -1,12 +1,10 @@
 ---
-title: Regulatory Configuration Services (RCS) - Fonctions de globalisation
+title: Regulatory Configuration Services (RCS) – Fonctions de globalisation
 description: Cette rubrique explique comment utiliser Microsoft Regulatory Configuration Services (RCS) et le référentiel global pour créer et utiliser des fonctions de globalisation.
 author: JaneA07
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCS, RCSWorkspace, e-Invoicing service
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: b701e6bfa14ac30e02bfe79666963db4ee657302
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760629"
 ---
-# <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) - Fonctions de globalisation
+# <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) – Fonctions de globalisation
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +53,7 @@ Dans votre instance d’applications Finance and Operations, procédez comme sui
 1. Dans votre instance RCS, sélectionnez la vignette **Gestion des fonctionnalités**.
 2. Dans l’espace de travail **Gestion des fonctionnalités**, sélectionnez **Fonctionnalités de globalisation** dans la liste, puis sélectionnez **Activer maintenant**.
 
-    ![Fonctionnalités de globalisation dans la gestion des fonctionnalités](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Fonctionnalités de globalisation dans la gestion des fonctionnalités.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>Fonctionnalités de globalisation
 
@@ -69,11 +67,11 @@ Pour utiliser une fonctionnalité de globalisation, vous devez d’abord l’imp
 1. Assurez-vous que la fonctionnalité **Fonctionnalités de globalisation** est activée dans la gestion des fonctionnalités, comme décrit précédemment dans cette rubrique.
 2. Ouvrez le nouvel espace de travail **Fonctionnalités de globalisation**, puis, sous **Fonctionnalités**, sélectionnez la vignette **Facturation électronique**.
 
-    ![Espace de travail Fonctionnalités globales](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Espace de travail Fonctionnalités globales.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     La page **Fonctionnalités de facturation électronique** est ouverte.
 
-    ![Page Fonctionnalités de facturation électronique](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![Page Fonctionnalités de facturation électronique.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Ajouter une fonctionnalité de globalisation dérivée
 
@@ -81,27 +79,27 @@ Vous pouvez ajouter une nouvelle fonctionnalité de globalisation en la dérivan
 
 1. Sélectionnez **Importation** pour ouvrir la page **Importer une fonctionnalité depuis le référentiel global**.
 
-    ![Importer une fonctionnalité depuis le référentiel global](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![Importer une fonctionnalité depuis le référentiel global.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. Sélectionnez **Synchroniser** pour obtenir les fonctionnalités les plus récentes.
 
     La liste synchronisée comprend les fonctionnalités qui vous sont disponibles, soit parce qu’elles ont été publiées par Microsoft, soit parce qu’elles ont été partagées avec vous par un autre fournisseur de configuration.
 
-    ![Liste synchronisée des fonctionnalités](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Liste synchronisée des fonctionnalités.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Dans la liste, sélectionnez les fonctionnalités à importer, puis sélectionnez **Importation**. Vous recevez un message lorsque les fonctionnalités sélectionnées ont été importées avec succès.
 
-    ![Message d’importation réussie](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![Message d’importation réussie.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. Sélectionnez **Ajouter** puis, dans la boîte de dialogue déroulante, sélectionnez l’option **Basé sur une version existante**.
 5. Entrez un nom et une description de la fonctionnalité.
 6. Dans la liste des fonctionnalités disponibles, sélectionnez la version de base de la fonctionnalité, puis sélectionnez **Créer la fonctionnalité**.
 
-    ![Ajout d’une fonctionnalité dérivée](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Ajout d’une fonctionnalité dérivée.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     La fonctionnalité que vous avez ajoutée est créée et a le statut **Brouillon**.
 
-    ![Fonctionnalité dérivée ayant le statut Brouillon](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Fonctionnalité dérivée ayant le statut Brouillon.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Passez en revue les composants de la fonctionnalité pour déterminer si des mises à jour sont requises :
 
@@ -122,7 +120,7 @@ Vous pouvez ajouter une nouvelle fonctionnalité de globalisation en la créant 
 2. Entrez un nom et une description de la fonctionnalité.
 3. Sélectionnez **Créer une fonctionnalité**.
 
-    ![Ajout d’une nouvelle fonctionnalité](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Ajout d’une nouvelle fonctionnalité.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. Dans l’onglet **Versions**, sélectionnez une **Date d’effet**, puis sélectionnez **Modifier le statut** pour terminer la fonctionnalité. Les fonctionnalités terminées peuvent être mises à disposition pour un environnement spécifique afin de pouvoir être utilisées dans les services de globalisation ou être publiées dans le référentiel global.
 
@@ -178,7 +176,7 @@ Les actions suivantes sont disponibles pour les paramétrages de fonctionnalité
     - Règles d’applicabilité
     - Variables
 
-![Page de paramétrage d’une version de fonctionnalité](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![Page de paramétrage d’une version de fonctionnalité.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Environnements
 
@@ -195,7 +193,7 @@ Suivez ces étapes pour partager une fonctionnalité de globalisation avec une o
 2. Dans l’onglet **Organisations**, sélectionnez **Partager avec** puis, dans la boîte de dialogue déroulante, entrez le nom de domaine de l’organisation.
 3. Sélectionnez **Partager**.
 
-    ![Partage d’une fonctionnalité avec une organisation](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Partage d’une fonctionnalité avec une organisation.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 La fonctionnalité est partagée avec l’organisation sélectionnée et lui est disponible dans le référentiel global. De là, la fonctionnalité peut être importée dans l’instance RCS de l’organisation ou dans Dynamics 365 Finance afin de pouvoir être utilisée.
 
@@ -203,7 +201,7 @@ La fonctionnalité est partagée avec l’organisation sélectionnée et lui est
 
 Vous pouvez redéfinir une fonction de globalisation dérivée vers une nouvelle version ou la version de base mise à jour de la fonctionnalité. De cette façon, les modifications survenues dans la version de base peuvent être automatiquement mises à jour. La version de base mise à jour de la fonctionnalité est créée par le fournisseur de configuration d’origine, puis est publiée ou partagée.
 
-![Version de base mise à jour de la fonctionnalité](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Version de base mise à jour de la fonctionnalité.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Par exemple, si vous souhaitez redéfinir la version dérivée d’une fonctionnalité que vous avez créée, vous devez d’abord obtenir la dernière version de la fonctionnalité en l’important à partir du référentiel global.
 
@@ -211,23 +209,23 @@ Par exemple, si vous souhaitez redéfinir la version dérivée d’une fonctionn
 2. Sélectionnez **Synchroniser** pour obtenir les fonctionnalités les plus récentes.
 3. Dans la liste des fonctionnalités, sélectionnez les fonctionnalités à importer, puis sélectionnez **Importation**.
 
-    ![Importation de la dernière version d’une fonctionnalité](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![Importation de la dernière version d’une fonctionnalité.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Dans la liste des fonctionnalités, sélectionnez la fonctionnalité à redéfinir.
 5. Dans l’onglet **Version**, sélectionnez **Nouveau** pour créer une version de brouillon.
 
-    ![Nouvelle version de brouillon créée](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Nouvelle version de brouillon créée.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. Sélectionnez **Redéfinir**.
 7. Dans la boîte de dialogue **Redéfinir**, sélectionnez la dernière version de la fonctionnalité à redéfinir.
 
-    ![Boîte de dialogue Redéfinir](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Boîte de dialogue Redéfinir.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. Cliquez sur **OK**.
 9. Passez en revue les composants de la fonctionnalité et apportez les modifications nécessaires.
 10. Sélectionnez **Modifier le statut** pour terminer la fonctionnalité redéfinie. Une fois la redéfinition terminée, vous pouvez effectuer des actions supplémentaires. Par exemple, vous pouvez publier la fonctionnalité et la rendre disponible pour être utilisée dans les services de globalisation.
 
-    ![Statut de la fonctionnalité mis à jour sur Terminé](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Statut de la fonctionnalité mis à jour sur Terminé.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Configurer les environnements pour les fonctionnalités de globalisation
 
@@ -235,13 +233,13 @@ Les utilisateurs des services de globalisation peuvent gérer l’environnement 
 
 1. Dans l’espace de travail **Fonctionnalités de globalisation**, sous **Environnements**, sélectionnez la vignette **Facturation électronique**.
 
-    ![Espace de travail Fonctionnalités de globalisation](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Espace de travail Fonctionnalités de globalisation.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. Sélectionnez **Paramètres du coffre de clés**, puis sélectionnez **Nouveau** pour créer un secret Azure Key Vault.
 3. Entrez un nom et une description pour le coffre de clés puis, dans le champ **URI Key Vault**, entrez l’URL qui identifie la ressource Key Vault dans Azure.
 4. Dans le raccourci **Certificats**, sélectionnez **Ajouter** pour ajouter le certificat et entrez un nom et une description pour chaque certificat.
 
-    ![Certificat ajouté](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Certificat ajouté.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Sélectionnez **Nouveau** pour créer un environnement.
 6. Entrez un nom, une description et le secret du jeton de signature de l’accès partagé requis pour le stockage.
@@ -250,4 +248,7 @@ Les utilisateurs des services de globalisation peuvent gérer l’environnement 
 9. Répétez les étapes 7 et 8 pour ajouter d’autres utilisateurs.
 10. Sélectionnez **Publier** pour publier l’environnement.
 
-    ![Environnement publié](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Environnement publié.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

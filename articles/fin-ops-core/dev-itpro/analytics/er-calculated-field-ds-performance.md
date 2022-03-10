@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753668"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées
 
@@ -56,7 +56,7 @@ La première étape consiste à importer l’exemple de solution ER pour génér
     2. Sélectionnez **Parcourir** et le fichier approprié pour la configuration ER au format XML.
     3. Cliquez sur **OK**.
 
-![Configurations importées sur la page Configurations](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Configurations importées sur la page Configurations.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Vérifier l’exemple de solution ER
 
@@ -76,7 +76,7 @@ La première étape consiste à importer l’exemple de solution ER pour génér
 
     La mise en correspondance des modèles dans cette configuration met en œuvre le modèle des données de base pour tous les formats ER créés pour ce modèle et exécutés dans Finance. Par conséquent, le contenu de la source de données **Trans** est exposé pour les formats ER, tels que des sources de données **modèles** abstraites.
 
-    ![Page Source de données Trans sur le concepteur de mise en correspondance de modèles](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Page Source de données Trans sur le concepteur de mise en correspondance de modèles.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Fermez la page **Concepteur de mise en correspondance des modèles**.
 5. Fermez la page **Mise en correspondance de modèle avec une source de données**.
@@ -90,7 +90,7 @@ La première étape consiste à importer l’exemple de solution ER pour génér
 
     Ce format ER est conçu pour générer un état des transactions fournisseur au format XML.
 
-    ![Mettre en forme les sources de données et les liaisons configurées des éléments de format sur la page Concepteur de format](media/er-calculated-field-ds-performance-format.png)
+    ![Mettre en forme les sources de données et les liaisons configurées des éléments de format sur la page Concepteur de format.](media/er-calculated-field-ds-performance-format.png)
 
 5. Fermez la page **Concepteur de format**.
 
@@ -103,7 +103,7 @@ Imaginons que vous avez terminé de configurer la première version de la soluti
 1. Sélectionnez la société **DEMF**.
 2. Suivez les étapes de [Activer le suivi des performances ER](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) pour générer un suivi des performances lors de l’exécution d’un format ER.
 
-    ![Boîte de dialogue Paramètres utilisateur](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Boîte de dialogue Paramètres utilisateur.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>Exécuter le format ER
 
@@ -124,7 +124,7 @@ De nouvelles informations sont désormais disponibles pour certains éléments d
 - Le temps réel consacré à obtenir des données à l’aide de la source de données
 - Le même temps exprimé en pourcentage du temps total consacré à l’exécution de l’ensemble de la mise en correspondance de modèles
 
-![Détails de l’heure d’exécution sur la page du concepteur de mappage de modèle](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Détails de l’heure d’exécution sur la page du concepteur de mappage de modèle.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 La grille **Statistiques de performances** montre que la source de données **Trans** appelle la table VendTrans une fois. La valeur **\[265\]\[Q:265\]** de la source de données **Trans** indique que 265 transactions de fournisseur ont été extraites de la table d’application et renvoyées au modèle de données.
 
@@ -137,7 +137,7 @@ La grille **Statistiques de performances** montre également que le mappage de m
 
 - La table des fournisseurs est appelée pour chaque transaction fournisseur itérée, même si les transactions extraites n’ont été validées que pour cinq fournisseurs. Sur les 530 appels, 525 sont des doublons. L’illustration suivante montre le message que vous recevez concernant les appels en double (demandes de base de données).
 
-![Message sur les demandes de base de données en double dans la page Concepteur de mise en correspondance de modèles](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Message sur les demandes de base de données en double dans la page Concepteur de mise en correspondance de modèles.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Sur le temps total d’exécution du mappage de modèle (environ huit secondes), notez que plus de 80 % (environ six secondes) ont été consacrés à l’extraction des valeurs de la table d’application VendTable. Ce pourcentage est trop élevé pour deux attributs de cinq fournisseurs, par rapport au volume d’informations de la table d’application VendTrans.
 
@@ -172,7 +172,7 @@ Suivez ces étapes pour utiliser la mise en cache et une source de données du t
     3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, entrez **Zone**.
     3. Cliquez sur **OK**.
 
-    ![Source de données Zone sur le concepteur de mise en correspondance de modèles](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Source de données Zone sur le concepteur de mise en correspondance de modèles.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Suivez ces étapes pour ajouter une source de données paramétrée du type **Champ calculé** :
 
@@ -208,7 +208,7 @@ Suivez ces étapes pour utiliser la mise en cache et une source de données du t
 
 9. Sélectionnez **Enregistrer**.
 
-    ![Source de données Vend sur la page Concepteur de mise en correspondance de modèles](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Source de données Vend sur la page Concepteur de mise en correspondance de modèles.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Fermez la page **Concepteur de mise en correspondance des modèles**.
 11. Fermez la page **Mises en correspondance des modèles**.
@@ -232,11 +232,11 @@ Répétez les étapes de la section [Exécuter le format ER](#run-format) plus h
 
 Notez que les ajustements effectués à la mise en correspondance de modèles ont éliminé les requêtes en double de la base de données. Le nombre d’appels aux tables de base de données et aux sources de données pour cette mise en correspondance de modèles a également été réduit.
 
-![Informations de suivi sur la page Concepteur de mise en correspondance de modèles 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Informations de suivi sur la page Concepteur de mise en correspondance de modèles 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Le temps d’exécution total a été réduit environ 20 fois (d’environ 8 secondes à environ 400 millisecondes). Par conséquent, les performances de l’ensemble de la solution ER ont été améliorées.
 
-![Informations de suivi sur la page Concepteur de mise en correspondance de modèles 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Informations de suivi sur la page Concepteur de mise en correspondance de modèles 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Annexe 1 : Télécharger les composants de l’exemple de solution Microsoft ER
 

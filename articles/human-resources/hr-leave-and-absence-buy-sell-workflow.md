@@ -2,15 +2,12 @@
 title: Créer un workflow de demande d’achat et de vente de congés
 description: Créez un workflow de demande d’achat et de vente de congés pour gérer les demandes d’achat et de vente de congés de manière cohérente dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4732b5dafc8074c5c59f10f02bbee7e22f51960a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b9e56c130cd831e6a1ad258c679562cb6de57d9b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116042"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070663"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Créer un workflow de demande d’achat et de vente de congés
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Vous créez un workflow dans Dynamics 365 Human Resources pour gérer de manière cohérente les demandes d’achat et de vente de congés. Un workflow **Achat et vente de congés** vous permet de :
 
@@ -43,7 +45,7 @@ Vous créez un workflow dans Dynamics 365 Human Resources pour gérer de manièr
 
 4. Quand la boîte de dialogue **Ouvrir ce fichier ?** apparaît, sélectionnez **Ouvrir** et connectez-vous avec les informations d’identification de votre entreprise.
 
-5. Utilisez l’éditeur de workflow pour créer un workflow pour vos demandes de congé. Pour plus d’informations sur l’utilisation des workflows, consultez [Créer une vue d’ensemble des workflows](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)
+5. Utilisez l’éditeur de workflow pour créer un workflow pour vos demandes de congé. Pour plus d’informations sur l’utilisation des workflows, consultez [Créer une vue d’ensemble des workflows](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)
 
 ## <a name="leave-and-absence-request-workflow-data-elements"></a>Éléments de données liés au workflow de demande de congé ou d’absence
 
@@ -72,12 +74,16 @@ Vous pouvez utiliser les éléments de données suivants pour créer des approba
 
 Ces exemples montrent comment créer différents types de conditions de workflow à l’aide de ces éléments de données :
 
-- Utilisez **Soumis par les Ressources humaines** et **Soumis par le Responsable** dans une action automatique pour approuver automatiquement les demandes d’achat et de vente de congés que ces rôles soumettent au nom des employés. Pour plus d’informations sur les actions automatiques, consultez [Configurer des processus d’approbation dans un workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).
+- Utilisez **Soumis par les Ressources humaines** et **Soumis par le Responsable** dans une action automatique pour approuver automatiquement les demandes d’achat et de vente de congés que ces rôles soumettent au nom des employés. Pour plus d’informations sur les actions automatiques, consultez [Configurer des processus d’approbation dans un workflow](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md).
 
 - Utilisez **Type de congé** dans une instruction conditionnelle ou une action automatique pour contrôler la façon dont le workflow achemine les demandes avec certains types de congés.
 
 ## <a name="see-also"></a>Voir également :
 
 [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)<br>
-[Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)<br>
+[Achat et vente de congés](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Workflow de fournisseur
 description: Modifiez les informations du fournisseur et utilisez un workflow pour les approuver.
-author: mikefalkner
-manager: annbe
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: fb89b54b2f9377c216c447590a9434e3ff2d9bac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48d81c727de29a285e5e33672e8f6d2eccef6249
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248133"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753920"
 ---
 # <a name="vendor-workflow"></a>Workflow de fournisseur
 

@@ -2,7 +2,7 @@
 title: Créer une configuration pour générer des documents au format Excel
 description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731636"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952650"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
 [!include[banner](../includes/banner.md)]
 
-Vous pouvez concevoir une configuration de format [états électroniques (ER)](general-electronic-reporting.md) ayant un [composant de format](general-electronic-reporting.md#FormatComponentOutbound) ER que vous pouvez configurer pour générer un document sortant dans un format de classeur Microsoft Excel. Des composants spécifiques au format ER doivent être utilisés à cet effet.
+Vous pouvez concevoir une configuration de format [états électroniques (ER)](general-electronic-reporting.md) ayant un composant de format ER que vous pouvez configurer pour générer un document sortant dans un format de classeur Microsoft Excel. Des composants spécifiques au format ER doivent être utilisés à cet effet.
 
 Pour en savoir plus sur cette fonctionnalité, suivez les étapes de la rubrique : [Concevoir une configuration pour générer des états au format OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -330,6 +330,56 @@ Lorsqu’un document sortant dans un format du classeur Microsoft Excel est gén
 6. Générez un document FTI imprimable et consultez le pied de page du document généré.
 
     ![Vérification du pied de page d’un document généré au format Excel.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Exemple 2 : résolution du problème EPPlus des cellules fusionnées
+
+Vous pouvez exécuter un format ER pour générer un document sortant dans un format de classeur Excel. Quand la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques** est activée dans l’espace de travail **Gestion des fonctionnalités**, la [Bibliothèque EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) est utilisée pour créer la sortie Excel. Cependant, en raison d’un [comportement d’Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) connu et d’une limitation de la bibliothèque EPPlus, vous pourriez rencontrer l’exception suivante : « Impossible de supprimer/écraser les cellules fusionnées. Une plage est en partie fusionnée avec une autre plage fusionnée. » Pour savoir quel type de modèles Excel peut provoquer cette exception et comment vous pouvez résoudre le problème, suivez l’exemple suivant.
+
+1. Dans l’application de bureau Excel, créez un nouveau classeur Excel.
+2. Sur feuille de calcul **Feuille1**, ajoutez le nom **ReportTitle** pour la cellule **A2**.
+3. Fusionnez les cellules **A1** et **A2**.
+
+    ![Examinez les résultats de la fusion des cellules A1 et A2 dans le classeur Excel conçu dans l’application de bureau Excel.](./media/er-fillable-excel-example2-1.png)
+
+3. Sur la page **Configurations**, [ajoutez un nouveau format ER](er-fillable-excel.md#add-a-new-er-format) pour générer un document sortant dans un format de classeur Excel.
+4. Sur la page **Concepteur de formats**, [importez](er-fillable-excel.md#template-import) le classeur Excel conçu dans le format ER ajouté en tant que nouveau modèle pour les documents sortants.
+5. Sur l’onglet **Mise en correspondance**, configurez la liaison pour le composant **ReportTitle** du type [Cellule](er-fillable-excel.md#cell-component).
+6. Exécutez le format ER configuré. Notez que l’exception suivante est levée : « Impossible de supprimer/écraser les cellules fusionnées. Une plage est en partie fusionnée avec une autre plage fusionnée. »
+
+    ![Examinez les résultats de l’exécution du format ER configuré sur la page Concepteur de formats.](./media/er-fillable-excel-example2-2.png)
+
+Vous pouvez résoudre le problème de l’une des manières suivantes :
+
+- **Plus facile mais déconseillé :** Dans l’espace de travail **Gestion des fonctionnalités**, désactivez la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques**. Bien que cette approche soit plus simple, vous pouvez rencontrer d’autres problèmes si vous l’utilisez, car certaines fonctionnalités ER ne sont prises en charge que lorsque la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques** est activée.
+- **Recommandé :** Procédez comme suit :
+
+    1. Dans l’application de bureau Excel, modifiez le classeur Excel de l’une des manières suivantes :
+
+        - Sur feuille de calcul **Feuille1**, annulez la fusion des cellules **A1** et **A2**.
+        - Remplacez la référence du nom **ReportTitle** **=Sheet1!$A$2** par **=Sheet1!$A$1**.
+
+        ![Examen des résultats de la modification des références dans le classeur Excel conçu dans l’application de bureau Excel.](./media/er-fillable-excel-example2-3.png)
+
+    2. Sur la page **Concepteur de formats**, [importez](er-fillable-excel.md#template-import) le classeur Excel modifié au format ER modifiable pour mettre à jour le modèle existant.
+    3. Exécutez le format ER modifié.
+
+        ![Vérifiez le document généré dans l’application de bureau Excel.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Limitations
+
+### <a name="known-epplus-library-limitations"></a>Limitations connues de la bibliothèque EPPlus
+
+#### <a name="external-data-sources"></a>Sources de données externes
+
+Si l’un de vos modèles contient un tableau croisé dynamique basé sur un modèle PowerPivot qui fait référence à une [source de données externe](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b), et que la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre de rapport électronique** est activée, vous recevez le message d’erreur suivant lorsque vous exécutez un format ER qui utilise ce modèle pour générer un document sortant au format Excel : "La source de cache n’est pas une feuille de calcul." Pour résoudre ce problème, vous avez les options suivantes :
+
+- **Conseillé :** Repensez la solution Excel que vous utilisez :
+
+    1. Isolez la partie qui contient les pivots dans un classeur Excel séparé (classeur A). 
+    2. Utilisez ER pour générer un deuxième classeur Excel (classeur B) de Finance qui contient les détails requis. 
+    3. Référez-vous au classeur B dans le classeur A dès que le classeur B est généré.
+
+- Désactivez la fonctionnalité, **Activer l’utilisation de la bibliothèque EPPlus dans le cadre de rapport électronique** pour utiliser une option autre qu’EPPlus. 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

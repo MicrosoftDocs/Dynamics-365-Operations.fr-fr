@@ -2,11 +2,9 @@
 title: États de poste de prévision pour le secteur public
 description: Vous pouvez utiliser les états de synthèse de poste de prévision et de détail de poste de prévision pour générer des informations sur les postes de prévision lors d’un plan budgétaire et d’un scénario que vous spécifiez.
 author: velofog
-manager: AnnBe
 ms.date: 10/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 012f5db5e524cd43ab1971d0eb72fddd13512104
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c213e742b9c89218dabcf3d953512062ee9b7fe198d84e883097f1500f4c5be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715881"
 ---
 # <a name="forecast-position-reports-for-the-public-sector"></a>États de poste de prévision pour le secteur public
 

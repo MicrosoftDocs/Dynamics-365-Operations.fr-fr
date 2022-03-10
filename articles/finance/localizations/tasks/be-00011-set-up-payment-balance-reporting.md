@@ -2,11 +2,9 @@
 title: Paramétrer la déclaration de la balance des paiements (Belgique)
 description: Utilisez cette procédure pour paramétrer les informations BLWI (Belgisch Luxemburgs Wissel Instituut) pour la Belgique.
 author: v-oloski
-manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 674842442e749d90fecca5d9ba6aed9258149a4d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 36d59465b358d343a9460474e070778e6d9d6f17aa38ea880c8393c5099f6660
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5265439"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728696"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Paramétrer la déclaration de la balance des paiements (Belgique)
 

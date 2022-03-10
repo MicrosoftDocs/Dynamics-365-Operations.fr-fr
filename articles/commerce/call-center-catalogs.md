@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742510"
 ---
 # <a name="call-center-catalogs"></a>Catalogues de centre d’appels
 
@@ -39,7 +39,7 @@ Les sociétés marketing qui traitent directement avec les consommateurs sont tr
 
 Accédez à **Commerce et vente au détail** \> **Catalogues et assortiments** \> **Tous les catalogues** pour configurer votre catalogue.
 
-Lorsque vous créez un catalogue, vous devez d’abord associer le catalogue à un ou plusieurs canaux. Pour ce faire, accédez au FastTab **Canaux Commerce** dans l’écran **Paramétrage du catalogue**. Cliquez sur **Ajouter** et sélectionnez un ou plusieurs canaux. Seuls les articles associés aux [assortiments](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) du canal sélectionné peuvent être utilisés lors de la création du catalogue.
+Lorsque vous créez un catalogue, vous devez d’abord associer le catalogue à un ou plusieurs canaux. Pour ce faire, accédez au FastTab **Canaux Commerce** dans l’écran **Paramétrage du catalogue**. Cliquez sur **Ajouter** et sélectionnez un ou plusieurs canaux. Seuls les articles associés aux [assortiments](/dynamics365/unified-operations/retail/assortments) du canal sélectionné peuvent être utilisés lors de la création du catalogue.
 
 Pour ajouter des produits à un catalogue, une hiérarchie de navigation doit être choisie. La hiérarchie de navigation prend en charge la structure de catégories pour le catalogue. Vous devez sélectionner l’une des hiérarchies de navigation associées aux canaux sélectionnés dans le raccourci **Canaux Commerce** de la page **Catalogue**. Si un canal de navigation n’a pas été associé précédemment à un canal, accédez à **Commerce et vente au détail** \> **Paramétrage du canal** \> **Catégories de canal et attributs de produit** pour associer une valeur par défaut de hiérarchie de navigation à chacun de vos canaux.
 

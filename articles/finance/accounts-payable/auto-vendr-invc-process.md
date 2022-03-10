@@ -3,24 +3,23 @@ title: Vue d’ensemble des processus de facturation automatisés des fournisseu
 description: Cette rubrique décrit la capacité d’automatisation du traitement de vos factures fournisseur et les avantages de l’utilisation d’un processus automatisé.
 author: abruer
 ms.date: 02/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 778d00d777c44aa5cd19eced6d2d30e9b85500fd
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 4fef5011ead69028a7f667835fd5e5ba2401408d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339058"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985654"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Vue d’ensemble des processus de facturation automatisés des fournisseurs
 
@@ -34,6 +33,7 @@ Vous pouvez automatiser certains processus de facturation des fournisseurs de la
 
 Les processus d’automatisation peuvent être utilisés pour effectuer les tâches suivantes :
 
+- Appliquer automatiquement les acomptes aux factures fournisseur
 - Envoyer automatiquement les factures importées au système de workflow.
 - Mettre en correspondance les accusés de réception de marchandises et les lignes de facture fournisseur en attente.
 - Simuler la validation avant la validation d’une facture fournisseur.

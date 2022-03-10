@@ -1,7 +1,7 @@
 ---
 title: Créer une version de flux de production
 description: Cette procédure est orientée vers la création d’une nouvelle version de flux de production.
-author: cvocph
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a4b4847046af541644338157d95e6fcba315f9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b72d6162edd0ae6ccbfdcfe3e63ecff30528454
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828992"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569258"
 ---
 # <a name="create-a-production-flow-version"></a>Créer une version de flux de production
 

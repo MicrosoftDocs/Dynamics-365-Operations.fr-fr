@@ -2,11 +2,9 @@
 title: Mises à jour physiques et financières
 description: Cette rubrique fournit une vue d’ensemble des types de transactions qui augmentent les quantités en stock ou de celles qui les diminuent.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee65fa43b43bc8b6cbf9763ac4fa8774f30afb98
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c7b354a7524a6e96da8e2a9eeca0d4f21b9fb0a6d515620ab3fe446425af17c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734377"
 ---
 # <a name="physical-and-financial-updates"></a>Mises à jour physiques et financières
 

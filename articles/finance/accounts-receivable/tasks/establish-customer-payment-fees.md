@@ -2,11 +2,9 @@
 title: Établir les commissions de paiement client
 description: Créez des frais de paiement pour les paiements client.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99201039c30cd9d8e900662cd9e33b0a5db8e55a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 15151987bb398de404994cdd416916c00a8dd1773bbf6d654f6a40160a2f4a49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768361"
 ---
 # <a name="establish-customer-payment-fees"></a>Établir les commissions de paiement client
 
@@ -36,7 +34,7 @@ La société fictive USMF est citée en exemple dans cette tâche.
 4. Entrez un nom de frais dans le champ **Nom**.
 5. Entrez une description des frais dans le champ **Description des frais**.
 6. Sélectionnez si les frais seront facturés au client ou un compte général dans le champ **Frais**. Si les frais sont imputés au client, sélectionnez Client. Si les frais seront imputés à votre organisation en tant que dépense, sélectionnez Comptabilité. Pour cette tâche, sélectionnez Client.  
-7. Dans le champ **Type de journal**, sélectionnez le type de journal qui peut utiliser ces frais de paiement. Si ces frais sont utilisés pour les paiements client, le type de journal sera certainement Client - Paiements.  
+7. Dans le champ **Type de journal**, sélectionnez le type de journal qui peut utiliser ces frais de paiement. Si ces frais sont utilisés pour les paiements client, le type de journal sera certainement Client – Paiements.  
 8. Cliquez sur **Enregistrer**.
 9. Cliquez sur **Paramétrage des frais de paiement**. Le paramétrage des frais de paiement permet de définir les critères pour l’évaluation des frais de paiement.  Par exemple, vous pouvez indiquer que les frais seront calculés si le compte bancaire est USMF OPER, et le mode de paiement est le chèque.  
 10. Sélectionnez Tableau, Groupe ou Tout pour définir sur quels comptes bancaires ces frais seront imputés dans le champ **Regroupements**. Si vous sélectionnez Tous, ces frais pourraient être imputés sur tous les comptes bancaires.  Si vous sélectionnez Tableau, ces frais seront imputés sur le compte bancaire sélectionné uniquement. Si vous sélectionnez Groupe, ces frais peuvent uniquement être imputés aux comptes bancaires du groupe de banques sélectionné.  
@@ -50,3 +48,6 @@ La société fictive USMF est citée en exemple dans cette tâche.
 18. Sélectionnez la devise des frais dans le champ **Devise des frais**. Il s’agit de la devise dans laquelle les frais seront créés.  
 19. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

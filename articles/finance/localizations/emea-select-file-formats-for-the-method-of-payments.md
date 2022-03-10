@@ -1,7 +1,7 @@
 ---
 title: Formats de fichier des modes de paiement
 description: Cette rubrique décrit les deux méthodes d’obtention des formats de fichier que vous pouvez utiliser pour les modes de paiement.
-author: ShylaThompson
+author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 262514
 ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 895fbe2a46d99aed175676c22ba13c30d6d8b98e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: ca396424256660f251d6889afffb3e90bb76fd54
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894675"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592557"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formats de fichier des modes de paiement
 

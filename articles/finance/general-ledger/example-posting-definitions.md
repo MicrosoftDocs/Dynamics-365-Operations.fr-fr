@@ -1,29 +1,26 @@
 ---
 title: Exemples de définition de validation
 description: Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15772
 ms.assetid: 3864e4da-853f-403d-b906-79631d80b363
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1ae45058a55570a62baf43dc785453dad5aa7050
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443058"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726916"
 ---
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
@@ -47,13 +44,13 @@ Lorsque vous activez le processus d’engagement en sélectionnant **Activer le 
 
 Les définitions de validation des engagements sont paramétrées pour le module **Achat en cours** dans la page **Définitions de validation**. Puis, dans la zone **Achat en cours** de la page **Définitions de validation de transaction**, vous pouvez sélectionner le type de transaction **Commande fournisseur** pour associer la définition de validation aux commandes fournisseur. 
 
-Toutes les transactions de N° document pour les engagements de commandes fournisseur doivent être équilibrées (c’est-à-dire, le débit doit être égal au crédit) dans chaque dimension unique d’un N° document.
+Toutes les pièces comptables pour les engagements de commandes fournisseur doivent être équilibrées (c’est-à-dire, le débit doit être égal au crédit) dans chaque dimension unique d’un N° document.
 
 ### <a name="posting-definition--match-criteria"></a>Définition de validation – Critères de rapprochement
 
 | Structure de compte       | Numéro de compte de rapprochement | Priorité |
 |-------------------------|----------------------|----------|
-| Structure de compte - Résultat | \*                   | 1        |
+| Structure de compte – Résultat | \*                   | 1        |
 
 <em>Une valeur vide dans le champ **Numéro de compte de rapprochement</em>* signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -61,8 +58,8 @@ Toutes les transactions de N° document pour les engagements de commandes fourni
 
 | Structure de compte | Numéro de compte généré                    | Débit/crédit généré |
 |-------------------|---------------------------------------------|------------------------|
-| Solde           | 300143 - -(Compte d’engagement)             | Idem                   |
-| Solde           | 300144 - -(Réserver pour le compte d’engagement) | Balancement              |
+| Solde           | 300143 – -(Compte d’engagement)             | Idem                   |
+| Solde           | 300144 – -(Réserver pour le compte d’engagement) | Balancement              |
 
 ### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transactions avec les comptes, valeurs de dimension et montants
 
@@ -81,7 +78,7 @@ Les écritures comptables générées sont créées pour enregistrer les engagem
 | 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Toutefois, lors de l’évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.
+Dans cet exemple, toutes les parties de compte de la structure de compte – Résultat correspondent aux critères de définition de validation. Toutefois, lors de l’évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.
 
 ## <a name="example-budget-appropriations"></a>Exemple : affectations du budget
 Lorsque vous activez l’affectation budgétaire en sélectionnant **Activer l’affectation budgétaire** dans la page **Paramètres de comptabilité**, vous devez utiliser les définitions de validation pour enregistrer les écritures de registre budgétaires dans la comptabilité. Lorsqu’une configuration de contrôle budgétaire est active, vous pouvez utiliser les définitions de validation et les définitions de validation de transaction pour prendre en charge l’enregistrement des écritures d’affectations, de révisions, de transferts, de projets, d’immobilisations, d’approvisionnements et de prévisions de la demande dans la comptabilité. 
@@ -94,7 +91,7 @@ Lorsque les définitions de validation et les affectations budgétaires sont act
 
 | Structure de compte       | Numéro de compte de rapprochement | Priorité |
 |-------------------------|----------------------|----------|
-| Structure de compte - Résultat | \*                   | 1        |
+| Structure de compte – Résultat | \*                   | 1        |
 
 <em>Une valeur vide dans le champ **Numéro de compte de rapprochement</em>* signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -102,8 +99,8 @@ Lorsque les définitions de validation et les affectations budgétaires sont act
 
 | Structure de compte | Numéro de compte généré              | Débit/crédit généré |
 |-------------------|---------------------------------------|------------------------|
-| Structure de compte | 300145 - -(Compte Produit estimé) | Idem                   |
-| Structure de compte | 300146 - -(Compte Affectations)     | Balancement              |
+| Structure de compte | 300145 – -(Compte Produit estimé) | Idem                   |
+| Structure de compte | 300146 – -(Compte Affectations)     | Balancement              |
 
 ### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transactions avec les comptes, valeurs de dimension et montants
 
@@ -122,9 +119,12 @@ Les écritures comptables générées sont créées pour enregistrer le budget d
 | 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
 | 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.
+Dans cet exemple, toutes les parties de compte de la structure de compte – Résultat correspondent aux critères de définition de validation. Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.
 
 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

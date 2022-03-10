@@ -1,9 +1,9 @@
 ---
 title: Vue d’ensemble des appels d’offre
 description: Cette rubrique fournit une vue d’ensemble des appels d’offre. Les organisations émettent des appels d’offre lorsqu’elles souhaitent comparer les offres de plusieurs fournisseurs pour les articles ou les services qu’elles doivent acheter.
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f6aaec76beb6dcc48a6f4457c876ceb9fa18643
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359907"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983390"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Vue d’ensemble des appels d’offre
 

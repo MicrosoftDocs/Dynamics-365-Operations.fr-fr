@@ -2,11 +2,9 @@
 title: Paramétrer des périodes de règlement fiscal
 description: Cette rubrique explique comment paramétrer les périodes de règlement fiscal dans Dynamics 365 Finance.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8683f3b6e10efe6e975ae6bc3d7863f884bb9a0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732955"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Paramétrer des périodes de règlement fiscal
 
@@ -39,9 +37,7 @@ La société fictive USMF est citée en exemple dans cette tâche.
 7. Dans le champ **Conditions de paiement**, sélectionnez l’enregistrement souhaité dans le menu déroulant. L’administration fiscale associée peut être paramétrée comme fournisseur et le règlement fiscal va créer une facture fournisseur en cours. Les conditions de paiement définissent la date d’échéance pour la facture fournisseur en cours.  
 8. Sélectionnez un type pour les intervalles des périodes de règlement.
 9. Entrez le nombre d’unités de l’intervalle par période. Un trimestre a 3 mois, par exemple.
-10. Activez ou désactivez la case à cocher **Utiliser le traitement par lots pour le règlement de la taxe**. Le processus de règlement pour la période de règlement peut être traité en tant que traitement par lots en arrière-plan. Cette opération est recommandée pour un grand nombre de transactions de taxe dans un intervalle de périodes.  
-    > [!NOTE]
-    > Pour le moment, elle n’est pas prise en charge en Espagne, au Japon et aux Pays-Bas.
+10. Activez ou désactivez la case à cocher **Utiliser le traitement par lots pour le règlement de la taxe**. Le processus de règlement pour la période de règlement peut être traité en tant que traitement par lots en arrière-plan. Cette opération est recommandée pour un grand nombre de transactions de taxe dans un intervalle de périodes.
 11. Activez ou désactivez la case à cocher **Empêcher la génération des transactions de taxe de contrepartie**. Par défaut, le système génère des transactions de taxe de contrepartie au cours de le processus de règlement, ce qui peut entraîner des problèmes de performances s’il existe un grand nombre de transactions de taxe au sein d’un intervalle de périodes. Activez cette case à cocher pour empêcher la génération des transactions de taxe de contrepartie.
 12. Développez l’onglet **Intervalles de périodes**.
 13. Sélectionnez **Ajouter**.
@@ -50,3 +46,6 @@ La société fictive USMF est citée en exemple dans cette tâche.
 16. Sélectionnez **Nouvel intervalle de périodes**. Une fois que le premier intervalle de périodes a été entré, de nouvelles périodes peuvent être créées automatiquement. Si nécessaire, vous pouvez revenir et ajouter de nouveaux intervalles de périodes.  
 17. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

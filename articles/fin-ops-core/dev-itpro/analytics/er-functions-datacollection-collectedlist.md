@@ -2,9 +2,7 @@
 title: Fonction COLLECTEDLIST ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction COLLECTEDLIST États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff48170247130a03b10dc8fe2973f8d774046944
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1b744a2bad1f463bcc8d278b48739208689f3529da91090e76d34871c534f873
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744456"
 ---
 # <a name="collectedlist-er-function"></a>Fonction COLLECTEDLIST ER
 

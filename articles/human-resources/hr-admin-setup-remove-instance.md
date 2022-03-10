@@ -1,33 +1,32 @@
 ---
 title: Supprimer une instance
-description: Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 08/07/2020
+description: Cette rubrique décrit le processus de suppression d'un pilote test ou d'un environnement de production pour Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889906"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393495"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
+Cette rubrique explique le processus de suppression d’une version d’évaluation ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Suppression d’un environnement de test
 
@@ -42,7 +41,7 @@ L’environnement de test existant est supprimé. Une fois supprimé, vous pouve
 
 ## <a name="remove-a-production-environment"></a>Suppression d’un environnement de production
 
-Cet article suppose que vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). 
+Cette rubrique suppose que vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). 
 
 Comme un seul environnement Human Resources est « contenu » dans un seul environnement Power Apps, il existe deux options à prendre en compte. La première option implique de supprimer l’ensemble de l’environnement Power Apps ; puis supprimer uniquement Human Resources. La première option est recommandée lorsque vous avez créé un environnement Power Apps expressément pour le provisionnement de Human Resources, et que vous venez de commencer l’implémentation, ou que vous n’avez pas établi d’intégration. La deuxième option est utile lorsque vous avez établi un environnement Power Apps rempli avec des données enrichies qui sont exploitées dans Power Apps et Power Automate.
 

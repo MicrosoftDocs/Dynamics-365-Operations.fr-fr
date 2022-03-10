@@ -2,11 +2,8 @@
 title: Fonction WHERE ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction WHERE États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cc47c5001cf456b1fc600b326f826ea3b8b43ee
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd021381e04e8794a5668041dbd71e5c981577a19141581fdde078a9d5801f49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756451"
 ---
 # <a name="where-er-function"></a>Fonction WHERE ER
 
@@ -69,3 +66,6 @@ Si vous entrez la source de données **DS** de type *Champ calculé*, et qu’el
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

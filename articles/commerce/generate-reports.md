@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f70f42f2650a439c7131f228588c11124d326aec
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760846"
 ---
 # <a name="generate-online-channel-reports"></a>Génération d’états de canal en ligne
 
@@ -131,7 +131,7 @@ Pour générer un rapport **Ventes par catégorie**, procédez comme suit.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Page d’accueil de Commerce](../retail/index.md)
+- [Page d’accueil de Commerce](./index.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

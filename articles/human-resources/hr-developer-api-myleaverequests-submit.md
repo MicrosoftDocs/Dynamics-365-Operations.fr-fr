@@ -2,15 +2,12 @@
 title: Soumettre une demande d’absence au workflow
 description: Dans Microsoft Dynamics 365 Human Resources, vous pouvez utiliser l’interface de programmation d’application (API) MyLeaveRequests submit() pour soumettre une demande de congé au workflow.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aeb3d66ad24f96efea1b0ea9828a537f8853c94b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465484"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067502"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Soumettre une demande d’absence au workflow
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

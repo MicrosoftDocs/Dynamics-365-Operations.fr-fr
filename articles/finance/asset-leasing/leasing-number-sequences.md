@@ -2,7 +2,7 @@
 title: Affecter des souches de N°
 description: Cette rubrique explique comment créer des souches de N° pour les ID de bail. Il explique également comment créer des ID uniques qui sont utilisés dans le processus de réévaluation de l’indice.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 331542811b2ba9399185478b6d25d1a57fce3a05
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 5235979532524a55ddc586b2872ebb28ebd486a280edfcc214e0c3ee0da80bad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733659"
 ---
 # <a name="assign-number-sequences"></a>Affecter des souches de N°
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment créer des souches de N° pour les ID de bail. Il explique également comment créer des ID uniques qui sont utilisés dans le processus de réévaluation de l’indice.
 

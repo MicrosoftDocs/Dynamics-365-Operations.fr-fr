@@ -1,7 +1,7 @@
 ---
 title: Copier des clients à l’aide de souches de numéros partagées
 description: Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un client dans une autre entité juridique tout en conservant le même ID client.
-author: mikefalkner
+author: abruer
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9f7d3648514bcdb3ad249c657f34ecc5e1d817d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a93f0519b292c12ea31a8faf3bff051fc111216
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827600"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753487"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copier des clients à l’aide de souches de numéros partagées
 

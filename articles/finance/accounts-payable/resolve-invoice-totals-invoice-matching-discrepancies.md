@@ -3,24 +3,26 @@ title: Vue d’ensemble de résolution des écarts lors du rapprochement des tot
 description: Vous pouvez utiliser le rapprochement des totaux de facture pour vous assurer que l’écart entre les montants totaux de la facture et les montants attendus n’est pas supérieur à l’écart acceptable.
 author: abruer
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 63413
+ms.custom:
+- "63413"
+- intro-internal
 ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 804800cccdfd0473c9e3514f6c17405eb2ec8335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f15edb0423bba2a6fe01f4b3ef1ba1be4e463d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827912"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985311"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Vue d’ensemble de résolution des écarts lors du rapprochement des totaux de factures
 

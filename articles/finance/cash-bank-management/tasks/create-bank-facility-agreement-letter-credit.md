@@ -1,12 +1,10 @@
 ---
 title: Créer un accord d’établissement bancaire pour une lettre de crédit
-description: Cette tâche illustre la création d’un accord d’établissement bancaire pour traiter une lettre de crédit.
-author: ShylaThompson
-manager: AnnBe
+description: Cette tâche illustre les étapes de création d’un accord d’établissement bancaire pour traiter une lettre de crédit.
+author: panolte
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocumentFacilityAgreementExtension, DefaultDashboard
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40d13e996b08efecb19be961c592230567656a4d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 607d9688aebb6288735cc04f6b4d8e7b8f7362b9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225487"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595011"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Créer un accord d’établissement bancaire pour une lettre de crédit
 
 [!include [banner](../../includes/banner.md)]
 
-Cette tâche illustre la création d’un accord d’établissement bancaire pour traiter une lettre de crédit. Vous devrez paramétrer des établissements bancaires et des profils de validation avant cette tâche.  Cette tâche utilise la société fictive USMF.  
+Cette tâche illustre les étapes de création d’un accord d’établissement bancaire pour traiter une lettre de crédit. Vous devrez paramétrer des établissements bancaires et des profils de validation avant cette tâche.  Cette tâche utilise la société fictive USMF.  
 
 
 ## <a name="create-bank-facility-agreement"></a>Créer un accord d’établissement bancaire

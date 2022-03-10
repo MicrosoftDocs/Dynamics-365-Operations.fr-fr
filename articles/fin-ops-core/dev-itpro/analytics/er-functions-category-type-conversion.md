@@ -2,11 +2,8 @@
 title: Liste des fonctions ER dans la catégorie de conversion de type
 description: Cette rubrique fournit des informations sur les fonctions de conversion prises en charge dans les États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766407"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Liste des fonctions ER dans la catégorie de conversion de type
 
@@ -38,6 +35,14 @@ Les fonctions de conversion de type d’état électronique (ER) peuvent être u
 | [IntValue](er-functions-conversion-intvalue.md)       | Cette fonction renvoie une valeur *Int* qui représente la chaîne spécifiée. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Cette fonction renvoie une valeur de *Réel* convertie à partir de la valeur de *Chaîne* spécifiée. Lors de la conversion, les séparateurs de regroupements décimaux et numériques spécifiés sont pris en compte. |
 | [Valeur](er-functions-conversion-value.md)             | Cette fonction renvoie une valeur de *Réel* convertie à partir de la valeur de *Chaîne* spécifiée. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Fonctions de conversion de type dans la catégorie Conteneur
+
+Le tableau suivant décrit les fonctions de conversion de type dans la catégorie [Conteneur](er-functions-category-container.md).
+
+| Fonction | Description |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Cette fonction convertit l’entrée spécifiée du type *Chaîne* en un élément de données du type *Conteneur*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Fonctions de conversion de type dans la catégorie de date/heure
 
@@ -79,3 +84,6 @@ Le tableau suivant décrit les fonctions de conversion de type dans la [catégor
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Langage de formule dans la gestion des états électroniques](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

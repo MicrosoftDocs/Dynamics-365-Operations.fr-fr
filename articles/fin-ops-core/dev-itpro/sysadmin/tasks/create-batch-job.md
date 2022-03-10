@@ -2,7 +2,7 @@
 title: Création d’un traitement par lots
 description: Un traitement par lots est un groupe de tâches soumis à une instance Serveur d’objets d’application (AOS) pour un traitement automatique.
 author: maertenm
-ms.date: 06/21/2019
+ms.date: 11/22/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f498014555e0beccbc8965dd43e5162944867978
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 76c6c68f7effad0c40282b22ea2a6bf991862cf5
+ms.sourcegitcommit: d7d997ad84623ad952672411c0eb6740972ae0b1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745859"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "7864171"
 ---
 # <a name="create-a-batch-job"></a>Création d’un traitement par lots
 
@@ -30,19 +30,43 @@ Un traitement par lots est un groupe de tâches soumis à une instance Serveur d
 ## <a name="create-the-batch-job"></a>Créer le traitement par lots
 1. Accédez à **Volet de navigation pane > Modules > Administration système> Recherches > Traitements par lots**.
 2. Cliquez sur **Nouveau**.
-3. Tapez une valeur dans le champ **Description de la tâche**.
-4. Dans le champ **Date/heure de début réel**, entrez une date et une heure.
+3. Entrez une description de la tâche de traitement par lots dans le champ **Description de la tâche**.
+4. Dans le champ **Date/heure de début réel**, entrez la date et l’heure auxquelles la tâche de traitement par lots doit s’exécuter.
 5. Cliquez sur **Enregistrer**.
 
 ## <a name="create-a-recurrence"></a>Créer une répétition
-1. Dans le volet Actions, cliquez sur **Traitement par lots**.
-2. Cliquez sur **Répétition**. Utilisez ces options pour entrer une gamme et un modèle pour la répétition.  
+1. Dans le volet Actions, cliquez sur **Tâche de traitement par lots**.
+2. Sélectionnez **Récurrence**. Utilisez ces options pour entrer une gamme et un modèle pour la répétition.  
 3. Cliquez sur **OK**.
 
 ## <a name="add-alerts"></a>Ajouter des alertes
-1. Dans le volet Actions, cliquez sur **Traitement par lots**.
-2. Cliquez sur **Alertes**. Indiquez si vous voulez que des messages d’alerte soient envoyés à la fin du traitement par lots ou lorsque celui-ci rencontre une erreur ou est annulé. Spécifiez ensuite si vous souhaitez que les alertes soient affichées sous la forme de messages contextuels.   
+1. Dans le volet Actions, cliquez sur **Tâche de traitement par lots**.
+2. Sélectionnez **Alertes**. Indiquez si vous voulez que des messages d’alerte soient envoyés à la fin du traitement par lots ou lorsque celui-ci rencontre une erreur ou est annulé. Spécifiez ensuite si vous souhaitez que les alertes soient affichées sous la forme de messages contextuels.   
 3. Cliquez sur **OK**.
+
+## <a name="add-a-task-to-a-batch-job"></a>Ajouter une tâche à un traitement par lots
+1.  Sur la page **Tâches de traitement par lots**, sélectionnez **Afficher les tâches**.
+2.  Cliquez sur **Ctrl+N** pour créer une tâche.
+3.  Entrez une description de la tâche de traitement par lots.
+4.  Dans le champ **Comptes société**, sélectionnez la base de données de la société dans laquelle la tâche doit s’exécuter.
+5.  Dans le champ **Nom de classe**, sélectionnez le processus que la tâche doit exécuter. 
+6.  Si nécessaire, sélectionnez un groupe de traitements par lots pour la tâche.
+
+    Les tâches client doivent être attribuées à un tel groupe. Elles sont automatiquement affectées au groupe de traitements par lots par défaut (également appelé groupe de traitements par lots vides).
+
+7.  Cliquez sur **Ctrl+S** pour enregistrer la tâche.
+8.  Pour rendre la tâche sélectionnée dépendante d’une autre tâche du travail, sélectionnez la grille **A des conditions**, puis suivez ces étapes pour chaque condition que vous souhaitez définir :
+
+    1. Cliquez sur **Ctrl+N** pour créer une condition.
+    2. Sélectionnez l’ID tâche de la tâche parent.
+    3. Sélectionnez le statut que la tâche parent doit atteindre pour qu’une tâche dépendante puisse s’exécuter.
+    4. Cliquez sur **Ctrl+S** pour enregistrer la condition.
+
+    Si vous définissez plusieurs conditions et que *toutes* les conditions doivent être remplies pour que la tâche dépendante puisse s’exécuter, sélectionnez le type de condition **toutes**. Si la tâche dépendante peut s’exécuter si l’*une* des conditions est remplie, sélectionnez le type de condition **N’importe laquelle**.
+
+9.  Sélectionnez la manière dont les échecs de tâche doivent être traités. Pour ne pas tenir compte de l’échec d’une tâche spécifique, sur l’onglet **Général**, sélectionnez l’option **Ignorer l’échec de la tâche** de cette tâche. Si cette option est sélectionnée, l’échec de la tâche n’entraînera pas celui du traitement. Par ailleurs, le champ **Nombre maximal de nouvelles tentatives** permet d’indiquer le nombre maximal de tentatives d’exécution au-delà duquel la tâche est considérée en échec. Il est recommandé de ne pas définir le champ **Nombre maximal de nouvelles tentatives** sur une valeur supérieure à **5**.
+
+    Pour plus d’informations sur les nouvelles tentatives sur les tâches de traitement par lots, consultez [Activer les nouvelles tentatives sur les tâches de traitement par lots](../retryable-batch.md).
 
 ## <a name="adjust-batch-job-status"></a>Ajuster le statut du traitement par lots
 1. Accédez à **Administration du système > Recherches > Traitements par lots**.

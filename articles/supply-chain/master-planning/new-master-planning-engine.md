@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728577"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migration vers l’Optimisation de la planification pour la planification
 
@@ -63,8 +63,12 @@ Actuellement, les exceptions pour la migration vers l’optimisation de la plani
 
 Une fois que les fonctionnalités requises seront disponibles, Microsoft fournira une période de grâce jusqu’à l’expiration de l’exception. L’administrateur de l’environnement sera informé lorsque les fonctionnalités requises seront disponibles et que la période de grâce aura commencé.
 
+L’organigramme suivant résume les informations fournies dans cette rubrique afin que vous puissiez savoir rapidement si vous devez demander une exception. Si vous devez demander une exception, veuillez remplir et soumettre le [Questionnaire pour la migration vers l’optimisation de la planification et les exceptions](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Organigramme des exceptions.](media/exception-diagram.png "Organigramme des exceptions")
+
 > [!NOTE]
-> Vous ne pouvez demander une exception que pour les environnements de production, pas pour les environnements sandbox. Si vous devez désactiver l’erreur d’exception de l’optimisation de la planification sur un environnement sandbox d’infrastructure en tant que service (IaaS), exécutez la requête SQL fournie dans [l’environnements sandbox](#faq-sandbox).
+> Vous ne pouvez demander d’exception que pour les locataires qui incluent actuellement, ou incluront, un environnement de production, pas pour les locataires ne comportant que des environnements bac à sable. Si vous devez désactiver l’erreur d’exception de l’optimisation de la planification sur un environnement sandbox d’infrastructure en tant que service (IaaS), exécutez la requête SQL fournie dans [l’environnements sandbox](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734257"
 ---
 # <a name="production-order-cost-analysis"></a>Analyse du coût de l’ordre de fabrication
 
@@ -41,7 +41,7 @@ Les écarts reflètent une comparaison des activités de production déclarées 
 
 Le diagramme suivant présente les quatre écarts pris en compte pour la différence entre les coûts réels d’un ordre de fabrication et les coûts calculés dans l’enregistrement des coûts de l’article lorsque l’ordre de fabrication est terminé. 
 
-![Écarts qui expliquent les différences dans un ordre de fabrication terminé](./media/control.jpg) 
+![Écarts qui expliquent les différences dans un ordre de fabrication terminé.](./media/control.jpg) 
 
 Vous pouvez analyser les écarts de production à l’aide de la page **Écart** ou de l’état **Écart de production**. Les options d’affichage permettent de visualiser les écarts détaillés par article et ressource opérationnelle, ou par groupe de coûts. La stratégie d’analyse des coûts figurant dans les paramètres de stock détermine si les écarts sont suivis par groupe de coûts. Vous pouvez également utiliser les options d’affichage **simple**, **multi** et **total** pour voir les écarts résumés. Les informations d’écart détaillées vous permettent de comprendre la source de chaque écart. Afin d’anticiper les écarts avant la fin d’un ordre de fabrication, analysez les informations détaillées fournies dans l’état **Estimations et évaluations des coûts**.
 

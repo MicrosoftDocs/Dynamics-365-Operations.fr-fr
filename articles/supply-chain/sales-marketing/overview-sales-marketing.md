@@ -3,7 +3,7 @@ title: Vue d’ensemble de Ventes et marketing
 description: Vous pouvez faire appel à ce module pour obtenir, stocker et utiliser différents types de données dans le cadre du flux commercial. Ces données vont de l’initiative commerciale de départ aux futures ventes réalisées, en passant par les actions de suivi.
 author: kfend
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359859"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982532"
 ---
 # <a name="sales-and-marketing-overview"></a>Vue d’ensemble de Ventes et marketing
 

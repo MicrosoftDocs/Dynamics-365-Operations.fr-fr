@@ -1,8 +1,8 @@
 ---
 title: Créer une application d’exportation de données récurrentes
-description: Cet article montre comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Cette rubrique décrit comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 368eee6bb182f363f47467a5c5ad8208a57db7ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361221"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069780"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Créer une application d’exportation de données récurrentes
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cet article montre comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent. Le didacticiel tire parti de l’interface de programmation d’application (API) du package DMF Human Resources pour exporter les données. Une fois les données exportées, l’application logique enregistre le package de données exporté dans un dossier Microsoft OneDrive for Business.
+Cette rubrique décrit comment créer une application logique Microsoft Azure qui exporte des données de Microsoft Dynamics 365 Human Resources sur un calendrier récurrent. Le didacticiel tire parti de l’interface de programmation d’application (API) du package DMF Human Resources pour exporter les données. Une fois les données exportées, l’application logique enregistre le package de données exporté dans un dossier Microsoft OneDrive for Business.
 
 ## <a name="business-scenario"></a>Scénario d’entreprise
 

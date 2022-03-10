@@ -2,15 +2,12 @@
 title: Modifier les dimensions financières des transactions de vente au détail
 description: Cette rubrique décrit la procédure de modification des dimensions financières des transactions de détail dans Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e26bd4eb53fa44330f15c7cda004cb3d19dfec6d
-ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.openlocfilehash: d5fee5f5dfee73ddb9fbcf8a33df66c29f9438b49136181633b989d1a02ef4f5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4459040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765312"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Modifier les dimensions financières des transactions de vente au détail
 
@@ -37,7 +34,7 @@ Pour modifier les dimensions financières des transactions de vente au détail d
 
 1. Ouvrez la page **Configuration de dimension financière pour les applications d’intégration**.
 1. Sélectionnez l’enregistrement **Intégration des dimensions par défaut** actif.
-1. Dans le raccourci **Dimensions financières**, assurez-vous que toutes les dimensions que vous souhaitez modifier dans la feuille de calcul Excel sont présentes dans la liste **Sélectionné**. Pour plus d’informations, consultez [Entités de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities).
+1. Dans le raccourci **Dimensions financières**, assurez-vous que toutes les dimensions que vous souhaitez modifier dans la feuille de calcul Excel sont présentes dans la liste **Sélectionné**. Pour plus d’informations, consultez [Entités de données](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities).
 1. Téléchargez et ouvrez le fichier Excel à partir de la page **Relevés**, de la page **Transactions de vente au détail** ou de la vignette **Échecs de validation de transaction** dans l’espace de travail **Finances du magasin**.
 1. Pour modifier la dimension financière de la transaction, sélectionnez **Design**, puis sélectionnez le symbole du crayon en regard de la ligne **Transaction (vérifiable)**.
 1. Trouvez et sélectionnez le champ **FinancialDimensionDisplayValue**, sélectionnez une cellule dans l’en-tête de la feuille de calcul Excel, puis sélectionnez **Ajouter une étiquette**.
@@ -54,3 +51,6 @@ Pour modifier les dimensions financières des transactions de vente au détail d
 [Créer un classeur Excel pour modifier les transactions de vente au détail](create-excel-edit.md)
 
 [Ajouter des champs à un classeur Excel pour modifier les transactions de vente au détail](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

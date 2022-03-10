@@ -1,7 +1,7 @@
 ---
 title: Identificateurs du produit
 description: Cette rubrique fournit des informations sur les différents types d’identificateurs de produit et explique comment vous pouvez ajouter des identificateurs de produit à vos données de produit.
-author: cvocph
+author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
@@ -13,19 +13,19 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3f82834fa7fc5eec6411d92729439dfd49a1fcc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820248"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063339"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Dans Dynamics 365 Supply Chain Management, l’identificateur principal d’un p
 
 Dans de nombreux cas, le numéro de produit n’est pas créé initialement dans Dynamics 365 Supply Chain Management. Au lieu de cela, il est associé à un produit dans un système de gestion des cycles de vie des produits ou un système de gestion d’informations sur les produits. Dans ce cas, vous utilisez des entités de données pour importer les produits et les variantes de produit. Supply Chain Management utilise ensuite les numéros de toutes les opérations.
 
-Lorsque vous implémentez Supply Chain Management, vous devez accorder un soin particulier à votre stratégie relative aux numéros de produit. Un bon système de numérotation améliore les flux de logistique et permet d’éviter les erreurs. Un bon identificateur de produit comporte au maximum 15 caractères. Idéalement, il comporte moins de 10 caractères et n’inclut pas plus de cinq caractères de classification. Vous pouvez également utiliser des noms de recherche pour activer les recherches rapides. Un nom de recherche est un nom supplémentaire qui représente les classifications d’un produit.
+Lorsque vous implémentez Supply Chain Management, vous devez accorder un soin particulier à votre stratégie relative aux numéros de produit. Un bon système de numérotation améliore les flux de logistique et permet d’éviter les erreurs. Un bon identifiant de produit doit généralement comporter 20 caractères ou moins, mais nous recommandons généralement d’utiliser moins de 10 caractères et de ne pas inclure plus de 5 caractères de classification. Vous pouvez également utiliser des noms de recherche pour activer les recherches rapides. Un nom de recherche est un nom supplémentaire qui représente les classifications d’un produit.
 
 Lorsque vous utilisez Microsoft Dataverse, le numéro de produit dans Supply Chain Management est également le numéro de produit dans Microsoft Dataverse. Les variantes de produit sont synchronisées avec Dataverse en tant que produits distincts.
 
@@ -47,7 +47,7 @@ Lorsque vous utilisez Microsoft Dataverse, le numéro de produit dans Supply Cha
 
 Le numéro d’article est l’identificateur de produit utilisé par une entité juridique spécifique. Idéalement, le numéro d’article doit être identique au numéro de produit. Si la nomenclature diffère selon l’entité juridique, il devient difficile de suivre un produit tout au long de la chaîne d’approvisionnement, et des processus fastidieux de réétiquetage et référencement doivent être mis en place. Pour des raisons de compatibilité avec des versions précédentes (c’est-à-dire, avec Microsoft Dynamics AX 2009 et versions antérieures), nous avons retenu ce modèle. Toutefois, il est recommandé d’éliminer les identificateurs spécifiques aux entités juridiques chaque fois que possible, et d’utiliser le numéro de produit unique comme identificateur principal à la place.
 
-En outre, une variante de produit ne peut pas être identifié de façon unique par un numéro d’article. Elle nécessite toujours la combinaison d’un numéro d’article et de toutes les dimensions de produit qui sont définies sur le produit générique. Cette condition requise peut devenir encombrante et ralentir les processus d’identification. C’est pourquoi il est recommandé d’utiliser le numéro de produit unique à la place du numéro d’article chaque fois que possible.
+En outre, une variante de produit ne peut pas être identifiée de façon unique par un numéro d’article. Elle nécessite toujours la combinaison d’un numéro d’article et de toutes les dimensions de produit qui sont définies sur le produit générique. Cette condition requise peut devenir encombrante et ralentir les processus d’identification. C’est pourquoi il est recommandé d’utiliser le numéro de produit unique à la place du numéro d’article chaque fois que possible.
 
 De nombreuses pages comportent toujours le numéro d’article et les dimensions de produit comme identificateurs principaux. Toutefois, les numéros de produit peuvent être utilisés pour les recherches. Dans **Ventes et marketing** &gt; **Paramétrage** &gt; **Recherche** &gt; **Paramètres de recherche**, vous pouvez modifier la recherche afin qu’elle utilise des numéros de produit au lieu de numéros d’article comme principale stratégie de recherche. Si vous définissez l’option **Activer la recherche pour la recherche de produit** sur **Oui**, la recherche affiche non seulement les produits génériques, mais aussi les variantes de produit. Pour plus d’informations, consultez [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md).
 
@@ -79,7 +79,7 @@ Dans la page **Produits lancés**, suivez l’une des étapes suivantes.
 - Pour les clients, sous l’onglet **Vendre**, dans le groupe **Informations associées**, sélectionnez **Description d’article externe**.
 - Pour les fournisseurs, sous l’onglet **Acheter**, dans le groupe **Informations associées**, sélectionnez **Description d’article externe**.
 
-Sur la page **Descriptions d’article externes**, vous pouvez associer le numéro d’article client ou fournisseur à un produit lancé. Cette association doit être effectuée pour chaque entité juridique. Les informations suivantes peuvent être capturées. Malheureusement, les libellés sont légèrement erronées dans la version actuelle de Supply Chain Management. Toutefois, ces libellés peuvent être modifiés dans la prochaine version.
+Sur la page **Descriptions d’article externes**, vous pouvez associer le numéro d’article client ou fournisseur à un produit lancé. Cette association doit être effectuée pour chaque entité juridique. Les informations suivantes peuvent être capturées. Malheureusement, les libellés sont légèrement erronés dans la version actuelle de Supply Chain Management. Toutefois, ces libellés peuvent être modifiés dans la prochaine version.
 
 | Champ | Informations client correspondantes | Informations fournisseur correspondantes |
 |-------|------------------------------------|----------------------------------|
@@ -89,8 +89,8 @@ Sur la page **Descriptions d’article externes**, vous pouvez associer le numé
 
 Si beaucoup de clients ou de fournisseurs utilisent les mêmes numéros d’article (dans le cas d’une association d’achat ou d’un groupe de commerce, par exemple), vous pouvez créer des groupes de clients ou de fournisseurs afin de simplifier la maintenance des informations sur le produit externe.
 
-- Pour les groupes de clients, accédez à **Ventes** &gt; **Paramétrage** &gt; **Articles** &gt; **Description d’article externe** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des clients à un groupe, accédez à **Ventes** &gt; **Clients** &gt; **Tous les clients**, puis dans l’organisateur **Valeurs par défaut de commande client**, spécifiez une valeur dans le champ **Article - Groupe de clients**.
-- Pour les groupes de fournisseurs, accédez à **Approvisionnements** &gt; **Paramétrage** &gt; **Groupe de descriptions d’article externes** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des fournisseurs à un groupe, accédez à **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**, puis dans l’organisateur **Valeurs par défaut des commandes fournisseur**, spécifiez une valeur dans le champ **Article - Groupe de fournisseurs**.
+- Pour les groupes de clients, accédez à **Ventes** &gt; **Paramétrage** &gt; **Articles** &gt; **Description d’article externe** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des clients à un groupe, accédez à **Ventes** &gt; **Clients** &gt; **Tous les clients**, puis dans le raccourci **Valeurs par défaut de commande client**, spécifiez une valeur dans le champ **Article – Groupe de clients**.
+- Pour les groupes de fournisseurs, accédez à **Approvisionnements** &gt; **Paramétrage** &gt; **Groupe de descriptions d’article externes** pour créer et tenir à jour les groupes et les numéros d’article associés. Pour associer des fournisseurs à un groupe, accédez à **Comptabilité fournisseur** &gt; **Fournisseurs** &gt; **Tous les fournisseurs**, puis dans le raccourci **Valeurs par défaut des commandes fournisseur**, spécifiez une valeur dans le champ **Article – Groupe de fournisseurs**.
  
 ## <a name="bar-codes"></a>Codes-barres
 
@@ -106,9 +106,9 @@ Pour gérer les codes-barres, sur la page **Produits lancés**, sous l’onglet 
 
 Dans le commerce électronique, il est primordial que toutes les parties parlent une langue commune et fassent référence aux produits à l’aide d’un ensemble commun d’identificateurs. Par conséquent, certains secteurs s’appuient sur les [GTIN](https://www.gs1.org/id-keys/gtin), qui constituent un système de numéro d’article mondial facilité par GS1.
 
-Il est recommandé de mettre à jour le GTIN comme codes-barres. Toutefois, vous pouvez également le tenir à jour sur la page **Article - GTIN**. Pour ouvrir cette page, sur la page **Produits lancés**, sous l’onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **Codes GTIN**. Le GTIN n’est pas gérer comme un numéro mondial. Au lieu de cela, il est géré par entité juridique.
+Il est recommandé de mettre à jour le GTIN comme codes-barres. Toutefois, vous pouvez également le tenir à jour sur la page **Article – GTIN**. Pour ouvrir cette page, sur la page **Produits lancés**, sous l’onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **Codes GTIN**. Le GTIN n’est pas gérer comme un numéro mondial. Au lieu de cela, il est géré par entité juridique.
 
-Dans Supply Chain Management, vous définissez des variantes de packaging dans les opérations d’entrepôt en définissant des unités de mesure spécifiques. Par exemple, un article peut être stocké sous forme de pièces, par paquets de six, par bacs de 18, ou sur des palettes complètes. Une unité de mesure spécifique est définie pour chacune de ces variantes de packaging. Comme le GTIN est généralement associé à l’unité d’emballage d’un produit, la page **Article - GTIN** permet de gérer plusieurs codes GTIN par produit et unité de mesure. Toutefois, vous ne pouvez pas utiliser le même code GTIN plusieurs fois pour différents articles ou variantes de produit d’une entité juridique.
+Dans Supply Chain Management, vous définissez des variantes de packaging dans les opérations d’entrepôt en définissant des unités de mesure spécifiques. Par exemple, un article peut être stocké sous forme de pièces, par paquets de six, par bacs de 18, ou sur des palettes complètes. Une unité de mesure spécifique est définie pour chacune de ces variantes de packaging. Comme le GTIN est généralement associé à l’unité d’emballage d’un produit, la page **Article – GTIN** permet de gérer plusieurs codes GTIN par produit et unité de mesure. Toutefois, vous ne pouvez pas utiliser le même code GTIN plusieurs fois pour différents articles ou variantes de produit d’une entité juridique.
 
 Pour gérer les **Codes GTIN**, sur la page **Produits lancés**, sous l’onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **GTIN**.
 
@@ -134,7 +134,7 @@ Malheureusement, il n’existe aucune fonctionnalité standard qui vous permet d
 | Codes externes pour les variantes de produits lancés | Code externe | Code externe, classes de code externe, numéro d’article, dimensions de produit | Les codes externes sont par entité juridique. Pour l’importation, vous devez faire référence à une classe de code définie. Importez les classes de code à l’aide l’entité **Classes de code externe pour les produits lancés**. Cette entité fait référence à des variantes de produit par numéro d’article et dimensions de produit. |
 | Exporter les codes des variantes de produit lancé par identificateur du numéro de produit | Code externe | Code externe, classes de code externe, numéro de produit | Les codes externes sont par entité juridique. Pour l’importation, vous devez faire référence à une classe de code définie. Importez les classes de code à l’aide l’entité **Classes de code externe pour les produits lancés**. Cette entité fait référence à des variantes de produit par numéro de produit de la variante. (Dans la prochaine version majeure) |
 | GTIN | Non applicable | Non applicable | Actuellement, il n’existe aucune entité spécifique utilisée pour importer et exporter des codes GTIN. Nous vous recommandons d’utiliser l’entité **Codes-barres d’article** à la place. |
-| Entité d’identificateur du service de données communes d’entité de produit | Non applicable | Numéro d’article, nom de recherche d’article, nom de recherche de produit, numéro d’article fournisseur, le numéro d’article client, codes externes, codes GTIN, codes-barres | Cette entité consolide tous les identificateurs dans un seul modèle de données, de sorte qu’une seule interface puisse être utilisée pour exporter facilement tous les identificateurs et leurs types associés. Utilisez l’entité **Code d’identification d’entité de produit** pour exporter les codes et descriptions d’identificateur. Utlisez l’entité **Portée des identificateurs d’entité de produit** pour exporter des informations de portée supplémentaires vers un identificateur, telles que la partie, l’entité juridique, la quantité, ou l’unité. |
+| Entité d’identificateur du service de données communes d’entité de produit | Non applicable | Numéro d’article, nom de recherche d’article, nom de recherche de produit, numéro d’article fournisseur, le numéro d’article client, codes externes, codes GTIN, codes-barres | Cette entité consolide tous les identificateurs dans un seul modèle de données, de sorte qu’une seule interface puisse être utilisée pour exporter facilement tous les identificateurs et leurs types associés. Utilisez l’entité **Code d’identification d’entité de produit** pour exporter les codes et descriptions d’identificateur. Utilisez l’entité **Portée des identificateurs d’entité de produit** pour exporter des informations de portée supplémentaires vers un identificateur, telles que la partie, l’entité juridique, la quantité, ou l’unité. |
 
 ### <a name="product-and-item-number-sequences"></a>Souches de numéros de produit et d’article
 

@@ -1,12 +1,10 @@
 ---
 title: Approvisionnements dans le secteur public
 description: Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
-author: ShylaThompson
-manager: AnnBe
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19681
 ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: brpotter
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be0b3287eabcea8d7bd5877665d2c5b95451d577
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b91435dd1d8220f607922872713e5f0f43c4cac9
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219836"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817789"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
@@ -88,7 +86,7 @@ Oui. Vous pouvez afficher les montants de ligne d’une commande fournisseur (no
 
 Supposons que vous affichiez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux. Le premier inclut le mobilier de bureau commandé auprès d’un fournisseur. Le second inclut les fournitures de bureau. Le montant commandé est égal à la somme des montants facturés, des montants des factures en attente, et des montants restants à facturer. Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.
 
-<table style="width:100%;">
+<table>
 
 <col width="16%" />
 <col width="16%" />
@@ -119,7 +117,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 <td><p>750,00</p></td>
 <td>150,00</td>
 <td>400,00</td>
-<td></td>
+<td>&nbsp;</td>
 <td><p>350,00</p></td>
 </tr>
 <tr class="even">

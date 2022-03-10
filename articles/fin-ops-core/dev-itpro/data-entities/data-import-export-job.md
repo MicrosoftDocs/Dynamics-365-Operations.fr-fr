@@ -2,27 +2,29 @@
 title: Vue d’ensemble des tâches d’importation et d’exportation de données
 description: L’espace de travail Gestion des données vous permet de créer et de gérer des tâches d’importation et d’exportation de données.
 author: peakerbl
-ms.date: 10/07/2021
-ms.topic: article
+ms.date: 10/21/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612362"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071083"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Pour créer et gérer des tâches d’importation et d’exportation de données, vous utilisez l’espace de travail **Gestion des données**. Par défaut, le processus d’importation et d’exportation de données crée une table intermédiaire pour chaque entité dans la base de données cible. Les tables intermédiaires permettent de vérifier, nettoyer ou convertir des données avant de les déplacer.
 
@@ -68,6 +70,9 @@ Lorsque vous sélectionnez une entité, vous devez sélectionner le format des d
 | Excel                  | Excel                                      | \-S/O-                     |
 | XML                    | \-S/O-                                      | Élément XML Attribut XML |
 | Délimité, largeur fixe | Virgule, point-virgule, onglet, barre verticale, deux points | \-S/O-                     |
+
+> [!NOTE]
+> Il est important de sélectionner la valeur appropriée pour **Séparateur de ligne**, **Séparateur de colonne**, et **Qualificatif de texte**, si l’option **Format de fichier** est définie sur **Délimité**. Assurez-vous que vos données ne contiennent pas le caractère utilisé comme délimiteur ou qualificateur, car cela peut entraîner des erreurs lors de l’importation et de l’exportation.
 
 ### <a name="sequence-the-entities"></a>Séquencer les entités
 Les entités peuvent être séquencées dans un modèle de données, ou dans des tâches d’importation et d’exportation. Lorsque vous exécutez une tâche qui contient plusieurs entités de données, vous devez vous assurer que les entités de données sont correctement séquencées. Séquencez principalement les entités afin de pouvoir traiter les dépendances fonctionnelles entre les entités. Si les entités n’ont aucune dépendance fonctionnelle, elles peuvent être planifiées pour l’importation ou l’exportation parallèle.
@@ -137,13 +142,13 @@ L’historique des tâches est disponible pour dépanner et rechercher des tâch
 
 Chaque exécution de tâche fournit les informations suivantes :
 
-- Détails de l'exécution
+- Détails de l’exécution
 - Journal des exécutions
 
 Les détails de l’exécution indiquent l’état de chaque entité de données que la tâche a traitée. Par conséquent, vous pouvez rapidement rechercher les informations suivantes :
 
 - Quelles entités ont été traitées.
-- Pour une entité, le nombre d'enregistrements ayant été correctement traités et le nombre ayant échoué.
+- Pour une entité, le nombre d’enregistrements ayant été correctement traités et le nombre ayant échoué.
 - Les enregistrements intermédiaires pour chaque entité.
 
 Vous pouvez télécharger les données intermédiaires dans un fichier pour les tâches d’exportation, ou vous pouvez les télécharger sous la forme d’un module pour les tâches d’importation et d’exportation.
@@ -198,10 +203,10 @@ Lors de la planification du processus de nettoyage, les paramètres suivants doi
 > [!NOTE]
 > Si les enregistrements des tables intermédiaires ne sont pas complètement nettoyés, assurez-vous que la tâche de nettoyage est planifiée pour s’exécuter périodiquement. Comme expliqué ci-dessus, lors de l’exécution du nettoyage, la tâche va nettoyer autant d’ID d’exécution que possible dans le nombre maximal d’heures indiqué. Pour continuer le nettoyage des enregistrements intermédiaires restants, la tâche doit être planifiée pour s’exécuter périodiquement.
 
-## <a name="job-history-clean-up-and-archival"></a>Nettoyage et archivage de l'historique des tâches 
+## <a name="job-history-clean-up-and-archival"></a>Nettoyage et archivage de l’historique des tâches 
 La fonctionnalité de nettoyage et d’archivage de l’historique des tâches remplace les versions précédentes de la fonctionnalité de nettoyage. Cette section explique ces nouvelles fonctionnalités.
 
-L’un des principaux changements apportés à la fonctionnalité de nettoyage est l’utilisation du traitement par lots du système pour nettoyer l’historique. L’utilisation du traitement par lots système permet aux applications Finance and Operations d’obtenir que e traitement par lots de nettoyage soit automatiquement planifié et exécuté dès que le système est prêt. Il n’est plus nécessaire de planifier manuellement le traitement par lots. Dans ce mode d’exécution par défaut, le traitement par lots s’exécutera toutes les heures à partir de minuit et conservera l’historique d’exécution des 7 jours les plus récents. L’historique purgé est archivé pour une récupération ultérieure. À partir de la version 10.0.20, cette fonctionnalité est toujours activée.
+L’un des principaux changements apportés à la fonctionnalité de nettoyage est l’utilisation du traitement par lots du système pour nettoyer l’historique. L’utilisation du traitement par lots système permet aux applications Finances et Opérations d’obtenir que le traitement par lots de nettoyage soit automatiquement planifié et exécuté dès que le système est prêt. Il n’est plus nécessaire de planifier manuellement le traitement par lots. Dans ce mode d’exécution par défaut, le traitement par lots s’exécutera toutes les heures à partir de minuit et conservera l’historique d’exécution des 7 jours les plus récents. L’historique purgé est archivé pour une récupération ultérieure. À partir de la version 10.0.20, cette fonctionnalité est toujours activée.
 
 Le deuxième changement dans le processus de nettoyage est l’archivage de l’historique d’exécution purgé. La tâche de nettoyage archivera les enregistrements supprimés dans le stockage d’objets blob que DIXF utilise pour les intégrations régulières. Le fichier archivé sera au format de package DIXF et sera disponible pendant 7 jours dans le blob pendant lequel il pourra être téléchargé. La longévité par défaut de 7 jours pour le fichier archivé peut être modifiée à un maximum de 90 jours dans les paramètres.
 

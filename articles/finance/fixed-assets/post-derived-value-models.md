@@ -1,12 +1,10 @@
 ---
 title: Valider avec des registres dérivés
 description: Cet article décrit l’utilisation des registres déduits.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4704dde64305bd285d9796cc161205709bd6e7ed
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988925"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675417"
 ---
 # <a name="post-with-derived-books"></a>Valider avec des registres dérivés
 
@@ -58,3 +56,6 @@ Pour plus d’informations, voir [Registres dérivés](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

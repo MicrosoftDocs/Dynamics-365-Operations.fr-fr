@@ -2,11 +2,9 @@
 title: Préparation de la mise à jour des coûts standard pour les articles fabriqués
 description: Cette rubrique décrit les étapes de préparation de la mise à jour des coûts pour les articles fabriqués.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f428f2e3966155b4fc95fd94b6a55d059eb3533d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ec68e1efc261920dc8f08ed602836b1939511dfce01008c093af7916ecd71618
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734329"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Préparation de la mise à jour des coûts standard pour les articles fabriqués
 
@@ -65,8 +63,7 @@ Les stratégies appliquées aux articles fabriqués peuvent affecter les calculs
 
 Si vous souhaitez utiliser les informations de gamme à des fins d’évaluation des coûts, des étapes de préparation supplémentaires sont nécessaires. Par exemple, les catégories de coûts qui sont affectées aux opérations de gamme doivent être correctes et complétées.
 
-<a name="related-topics"></a>Rubriques connexes
---------
+## <a name="related-topics"></a>Rubriques connexes
 
 [Amortissement des coûts constants pour un article fabriqué](amortize-constant-costs-manufactured-item.md)
 

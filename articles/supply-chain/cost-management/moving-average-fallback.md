@@ -2,26 +2,26 @@
 title: Moyenne mobile, séquence de coût de secours
 description: Cette rubrique fournit des informations sur les séquences de coût de secours pour déplacer les calculs de moyenne dans Microsoft Dynamics 365 Supply Chain Management.
 author: AndersGirke
-manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1f5b1307f039bb9e921d50aed411b3dc603ada65
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263612"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568205"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Moyenne mobile, séquence de coût de secours
+
+[!include [banner](../includes/banner.md)]
 
 Vous pouvez calculer le coût de votre stock en utilisant une _moyenne mobile_. Jusqu’à trois valeurs de coût peuvent être associées à chaque article en stock :
 
@@ -44,7 +44,7 @@ Pour sélectionner la séquence de coût de secours pour les calculs de moyenne 
     - **Coût actif - Dernière sortie**
     - **Coût actif - Prix de l’article** - Les organisations peuvent rencontrer des problèmes de performances si elles utilisent des processus métier où le stock devient régulièrement négatif et si, en même temps, le volume de transactions est élevé. Ce paramètre peut aider à atténuer ces problèmes de performances.
 
-![Paramètres de comptabilité de stock](media/inventory-accounting-parameters.png "Paramètres de comptabilité de stock")
+![Paramètres de comptabilité de stock.](media/inventory-accounting-parameters.png "Paramètres de comptabilité de stock")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

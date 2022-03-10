@@ -2,11 +2,9 @@
 title: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
 description: Cette rubrique décrit comment gérer la mise en correspondance des modèles de gestion des états électroniques dans des configurations de gestion des états électroniques distinctes.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: cf4896bec7aa68cc6616756ef07c4db95e20a5cf7ebde3102f482cd5abad1420
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776046"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gérer la mise en correspondance de modèle de gestion d’états électroniques dans des configurations de gestion d’états électroniques distinctes
 
@@ -161,3 +159,6 @@ Comme les configurations ER sont partagées entre les sociétés, vous pouvez r�
 7. Cliquez sur OK.
     * La configuration de mise en correspondance de modèle par défaut est utilisée par cette configuration de format pour générer le document électronique (la sortie créée contient le code de la société).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures
 description: Cette rubrique décrit comment utiliser le registre des factures pour créer des factures.
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777262"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures
 
@@ -68,3 +65,6 @@ Cette rubrique décrit comment utiliser le registre des factures pour créer des
 13. Sélectionnez les **transactions**.
 14. Sélectionnez la facture que vous avez créée. La régularisation du registre des factures a été contrepassée et validée dans le compte de dépenses approprié.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794257"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968225"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestion des évaluations et avis
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment gérer les classements et les évaluations dans le générateur de site Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce utilise le service cognitif de Microsoft Azure pour modérer automatiquement du texte d’évaluation en effaçant les mots grossiers. De plus, les modérateurs peuvent utiliser le générateur de site Dynamics 365 Commerce pour implémenter les tâches manuelles suivantes :
 
@@ -45,7 +43,7 @@ Pour consulter une évaluation dans le générateur de site Commerce, procédez 
 
 Des filtres supplémentaires vous permettent de limiter les évaluations par période, classement, canal ou statut des problèmes (retirée, répondue ou signalée).
 
-![Page d’accueil Modération](media/rnr-moderation-home.png) 
+![Page d’accueil Modération.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Réponse à une évaluation 
 
@@ -59,7 +57,7 @@ Pour répondre à une évaluation dans le générateur de site Commerce, procéd
 1. Entrez le texte de réponse et le nom qui doivent être affichés pour le répondeur. Le nom par défaut du répondeur est **Modérateur**.
 1. Lorsque vous avez terminé, sélectionnez **Publier la réponse**.
 
-![Répondre à une évaluation](media/rnr-moderation-response.png) 
+![Répondre à une évaluation.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Retirer une révision 
 
@@ -82,7 +80,7 @@ Pour rechercher et supprimer des données client dans le générateur de site Co
 1. Si le client a une activité d’évaluation (par exemple, des soumissions d’évaluation, des votes sur l’utilité des évaluations d’un autre client, ou des commentaires sur l’évaluation d’un autre client), les résultats s’affichent. Pour chaque article, il existe un bouton **Supprimer**.
 1. Pour chaque article qui doit être supprimé, sélectionnez **Supprimer**. Lorsque vous êtes invité à confirmer, sélectionnez **Oui**. 
     
-![Suppression de données client](media/rnr-moderation-delete-reviews.png) 
+![Suppression de données client.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - La suppression totale des données du système peut prendre jusqu’à sept jours. Les modérateurs doivent informer les clients de ce délai.
@@ -106,19 +104,19 @@ Pour afficher les tendances des classements et des évaluations dans le généra
 1. Accédez à **Accueil \> Évaluations \> Génération d’états**.
 1. Sélectionnez **Modèle PowerBI** pour télécharger le modèle.
 
-    ![Télécharger le modèle Power BI](media/rnr-moderation-reports.png) 
+    ![Télécharger le modèle Power BI.](media/rnr-moderation-reports.png) 
 
 1. Ouvrez le modèle téléchargé à l’aide de l’application Power BI. Fermez la boîte de dialogue **Accès au contenu web** qui apparaît, puis fermez le message d’erreur « Actualisation » qui s’affiche.
 1. Accédez à **Accueil**, sélectionnez **Modifier les requêtes**, puis sélectionnez **Paramètres de la source de données**.
 1. Dans la boîte de dialogue **Paramètres de la source de données**, sélectionnez **Modifier la source**.
 1. Dans le champ **URL**, entrez le chemin des données d’évaluations que vous avez téléchargées dans la procédure précédente (par exemple, **c :\\évaluations\\ReviewsData.csv**).
 
-    ![Champ de l’URL dans la boîte de dialogue Valeurs séparées par une virgule](media/rnr-powerbi-datasource-settings.png) 
+    ![Champ de l’URL dans la boîte de dialogue Valeurs séparées par une virgule.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Sélectionnez **OK**, puis **Appliquer les modifications**. Une à deux minutes sont nécessaires pour appliquer les modifications à la source de données.
 1. Sélectionnez **Feuille de tendances** pour afficher les tendances des classements et des évaluations.
 
-    ![Tendances des classements et des évaluations](media/rnr-powerbi-dashboard-template.png) 
+    ![Tendances des classements et des évaluations.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -129,6 +127,14 @@ Pour afficher les tendances des classements et des évaluations dans le généra
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
 
 [Synchronisation des évaluations de produit dans Dynamics 365 Retail](sync-product-ratings.md)
+
+[Activer la publication manuelle des évaluations et des avis par un modérateur](manual-publish-rating-reviews.md)
+
+[Importation et exportation des évaluations et des avis](import-export-reviews.md)
+
+[Configurer l’authentification service à service](service-to-service-auth.md)
+
+[FAQ sur les évaluations et avis](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

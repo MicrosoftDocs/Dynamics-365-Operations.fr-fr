@@ -1,33 +1,35 @@
 ---
-title: Configuration de l’intégration avec Dayforce
-description: L’intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cet article. Vous devez configurer l’intégration dans Human Resources et Dayforce avant de pouvoir traiter un cycle de paie.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Configurer l’intégration avec Dayforce
+description: Cette rubrique décrit les étapes de configuration requises pour l’intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890002"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067074"
 ---
-# <a name="configure-integration-with-dayforce"></a>Configuration de l’intégration avec Dayforce
+# <a name="configure-integration-with-dayforce"></a>Configurer l’intégration avec Dayforce
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L’intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cet article. Vous devez configurer l’intégration dans Human Resources et Dayforce avant de pouvoir traiter un cycle de paie.
+L’intégration entre Microsoft Dynamics 365 Human Resources et Ceridian Dayforce repose sur plusieurs étapes de configuration décrites dans cette rubrique. Vous devez configurer l’intégration dans Human Resources et Dayforce avant de pouvoir traiter un cycle de paie.
 
 Lorsque vous utilisez un service comme Dayforce pour compléter des cycles de paie, vous devez activer l’intégration dans Human Resources. L’intégration nécessite des données spécifiques de Human Resources. Par conséquent, vous devez vérifier que les données mises en correspondance avec Dayforce sont configurées dans Human Resources d’une manière prenant en charge l’intégration. L’intégration utilise les larges catégories de données suivantes :
 
@@ -36,7 +38,7 @@ Lorsque vous utilisez un service comme Dayforce pour compléter des cycles de pa
 - Données salariales, telles que des cycles de paie, des périodes de rémunération, et des codes de rémunération
 - Données sur les collaborateurs
 
-Cet article décrit la procédure à suivre pour activer l’intégration. Elle décrit également les types de données et les détails de configuration que l’intégration nécessite.
+Cette rubrique décrit les étapes que vous devez suivre pour activer l’intégration et explique les types de données et les détails de configuration requis par l’intégration.
 
 ## <a name="enable-the-integration"></a>Activer l’intégration
 
@@ -51,7 +53,7 @@ Pour l’activer l’intégration dans Human Resources, procédez comme suit.
 
 Lorsque l’intégration est activée, le package et les fichiers d’exportation de données sont créés, et la fréquence est définie. Vous pouvez modifier la fréquence selon vos besoins.
 
-Pour plus d’informations sur les comptes de stockage Azure et les chaînes de connexion de stockage Azure, consultez les articles Azure suivants :
+Pour plus d’informations sur les comptes de stockage Azure et les chaînes de connexion de stockage Azure, consultez les rubriques Azure suivantes :
 
 - [À propos des comptes de stockage Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurer les chaînes de connexion de stockage Azure](/azure/storage/common/storage-configure-connection-string)
@@ -65,7 +67,6 @@ Activer l’intégration de la paie a deux principaux effets :
 
 > [!NOTE]
 > Le package de données transféré au point de terminaison SFTP est chiffré à l’aide d’une clé unique dans le module. Cette clé est dans un coffre Azure Key Vault qui n’est accessible que par Ceridian. Il est impossible de déchiffrer et examiner le contenu du package de données. Si vous devez examiner le contenu du package de données, vous devez exporter le projet de données « Exportation de l’intégration de la paie » manuellement, le télécharger, puis l’ouvrir. L’exportation manuelle n’appliquera pas de chiffrement ou de transfert au package.
-> Pour les instances où les fichiers d'intégration sont envoyés à partir d'un test d'acceptation utilisateur ou d'un environnement de bac à sable Dynamics 365 Human Resources vers un environnement de test Ceridian Dayforce, vous pouvez utiliser l'URL de coffre de clés suivante : https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Configurer vos données 
 
@@ -123,7 +124,7 @@ Dayforce crée les déductions suivantes, selon l’impact sur la paie défini d
 | Contribution uniquement          | Une retenue employeur est créée.             |
 | Déduction et contribution | Des retenues employé et employeur sont créées. |
 
-Pour plus d’informations sur la définition et la gestion des programmes d’avantages, consultez les articles suivants :
+Pour plus d’informations sur la définition et la gestion des programmes d’avantages, consultez les rubriques suivantes :
 
 - [Communiquer le programme d’avantages à un employé](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [Créer un avantage](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
@@ -136,7 +137,7 @@ La gestion des rémunérations est utilisée pour contrôler la rémunération d
 
 Dayforce utilise les informations de rémunération pour calculer le taux horaire ou annuel d’un employé. Des plans de rémunération fixe et des conversions de taux de salaire sont requis. Les employés doivent être associés à un plan de rémunération fixe.
 
-Pour plus d’informations sur les plans de rémunération, voir les articles suivants :
+Pour plus d’informations sur les plans de rémunération, voir les rubriques suivantes :
 
 - [Créer des régimes de rémunération fixe](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Créer des régimes de rémunération variable](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -148,7 +149,7 @@ Pour plus d’informations sur les plans de rémunération, voir les articles su
 
 #### <a name="jobs"></a>Postes 
 
-Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche. Pour plus d’informations, voir l’article suivant :
+Une tâche est un ensemble de tâches et de responsabilités attribuées à la personne affectée à la tâche. Pour plus d’informations, voir les rubriques suivantes :
 
 - [Paramétrage des composants d’une tâche](/dynamics365/unified-operations/talent/create-job)
 - [Définir les nouvelles tâches](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -173,7 +174,7 @@ Gardez à l’esprit les données et la configuration suivantes lorsque vous par
 
 Si plusieurs postes dans un même département sont associés à la même tâche, ils sont consolidés un seul poste dans Dayforce.
 
-Pour plus d’informations, voir l’article suivant :
+Pour plus d’informations, voir les rubriques suivantes :
 
 - [Organisation du personnel à l’aide des départements, tâches et postes](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Paramétrer les postes](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -182,7 +183,7 @@ Pour plus d’informations, voir l’article suivant :
 
 Un département est une unité opérationnelle qui représente une catégorie ou un domaine fonctionnel d’une organisation. Un département est responsable d’un domaine spécifique de l’organisation, par exemple les ventes, la comptabilité ou les ressources humaines. Les départements vous permettent de générer des états sur les domaines fonctionnels. Les départements peuvent avoir la responsabilité des résultats.
 
-Pour plus d’informations, voir l’article suivant :
+Pour plus d’informations, voir les rubriques suivantes :
 
 - [Créer un département et l’associer à la hiérarchie des départements](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Définir les nouveaux départements](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
@@ -217,7 +218,7 @@ Les informations suivantes sont utilisée dans Dayforce :
 
 Les enregistrements pour les différents types d’employés dont vous disposez sont importants pour vos systèmes de ressources humaines et de paie. Les informations que vous entrez peuvent servir à suivre les informations des collaborateurs et les informations personnelles.
 
-Vous pouvez tenir à jour les informations suivantes pour les travailleurs :
+Vous pouvez tenir à jour les informations suivantes pour les travailleurs :
 
 - **Base** – Permet de tenir à jour les informations de base sur un collaborateur, telles que les informations de contact, les informations démographiques, les informations d’identification, les informations sur la famille, le statut de service militaire, les informations d’expatriation, et les contacts personnels et les personnes à prévenir en cas d’urgence.
 - **Emploi** – Permet de tenir à jour les informations relatives à l’emploi des collaborateurs, telles que l’affiliation de la société ou de l’organisation, l’affectation de poste, les dates de début et de fin, l’éligibilité à un emploi, les conditions d’emploi, la retraite, les congés, et les informations de mutation.

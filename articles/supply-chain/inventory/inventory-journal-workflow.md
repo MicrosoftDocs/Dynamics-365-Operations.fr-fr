@@ -1,7 +1,7 @@
 ---
 title: Workflows d’approbation du journal de stock
 description: Cette rubrique décrit comment paramétrer et utiliser des workflows d’approbation du journal de stock pour différents types de transactions de stock physique. Les workflows du journal de stock aident à garantir que seuls les journaux de stock approuvés peuvent être validés sur les transactions.
-author: sherry-zheng
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7906ac95a2421c9a974bb7f3c46ee5ee157a0b28d6e0327a139fc980cf6e9f19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766096"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778303"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Workflows d’approbation du journal de stock
 
@@ -31,7 +31,7 @@ Cette rubrique décrit comment paramétrer et utiliser des workflows d’approba
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Activer la fonctionnalité de workflows d’approbation du journal de stock
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+À compter de la version 10.0.21 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer ou la désactiver au besoin. La fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des stocks et des entrepôts*
 - **Nom de la fonctionnalité :** *Workflow d’approbation du journal de stock*

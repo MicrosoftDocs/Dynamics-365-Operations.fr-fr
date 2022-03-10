@@ -1,7 +1,7 @@
 ---
 title: Modifier la propriété du stock de consignation en fonction de la demande de production
 description: Cette procédure indique comment faire passer le propriétaire du stock de consignation du fournisseur à votre entité juridique lorsqu’il existe une demande de stock en production.
-author: perlynne
+author: yufeihuang
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6385fba0b6288416a85f1b7de73d3bb4972a852a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e735a9003f2859ed173f399525297506ec458e8d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834119"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565829"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Modifier la propriété du stock de consignation en fonction de la demande de production
 

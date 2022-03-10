@@ -2,11 +2,9 @@
 title: Type de destination pour l’impression d’états électroniques
 description: Cette rubrique explique comment configurer une destination d’imprimante pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
-manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712710"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destination d’imprimante
 
@@ -32,7 +30,7 @@ Vous pouvez envoyer un document généré directement à une imprimante réseau 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de commencer, vous devez installer et configurer l’agent de routage de documents, puis enregistrer les imprimantes réseau. Pour plus d’informations, voir [Installer l’agent d’acheminement de document pour activer l’impression réseau](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Avant de commencer, vous devez installer et configurer l’agent de routage de documents, puis enregistrer les imprimantes réseau. Pour plus d’informations, voir [Installer l’agent d’acheminement de document pour activer l’impression réseau](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Rendre la destination de l’imprimante disponible
 
@@ -41,15 +39,13 @@ Pour rendre la destination de l’**Imprimante** disponible dans l’instance ac
 1. Convertir les documents sortants des rapports électroniques aux formats Microsoft Office vers le format PDF
 2. Agent d’acheminement de document en tant que destination des rapports électroniques pour les documents sortants
 
-[![Activation de la fonction de destination de l’imprimante ER dans la gestion des fonctionnalités](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Activation de la fonction de destination de l’imprimante ER dans la gestion des fonctionnalités.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
-### <a name="applicability"></a>Conditions d’application
+### <a name="applicability"></a>Conditions d'application
 
 La destination de l’**Imprimante** ne peut être configurée que pour les composants de fichier utilisés pour générer une sortie au format PDF imprimable (fusion PDF ou éléments de format de fichier PDF) ou Microsoft Office Excel / Format Word (fichier Excel). Lorsque la sortie est générée au format PDF, elle est envoyée à une imprimante. Lorsque la sortie est générée au format Microsoft Office, elle est automatiquement convertie au format PDF, puis envoyée à une imprimante.
 
-### <a name="limitations"></a>Limites
-
-Cette fonctionnalité est une fonctionnalité d’aperçu et est soumise aux conditions d’utilisation décrites dans les [Conditions d’utilisation supplémentaires pour Microsoft Dynamics 365 (préversion)](https://go.microsoft.com/fwlink/?linkid=2105274).
+### <a name="limitations"></a>Limitations
 
 La destination de l’**Imprimante** est implémentée uniquement pour les déploiements cloud.
 
@@ -59,7 +55,7 @@ La destination de l’**Imprimante** est implémentée uniquement pour les dépl
 2. Dans le champ **Nom d’imprimante**, sélectionnez l’imprimante réseau requise.
 3. Définissez l’option **Enregistrer dans les archives d’impression ?** sur **Oui** pour stocker la sortie générée dans l’archive d’impression, afin qu’elle soit disponible pour une impression ultérieure. Pour accéder ultérieurement à la sortie archivée, accédez à **Administration de l’organisation** \>**Recherches et états** \>**Archive d’état**.
 
-[![Utilisation de la destination de l’imprimante](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Utilisation de la destination de l’imprimante.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > L’option **Convertir en PDF** ne doit pas être activée lorsque vous configurez la destination de l’**Imprimante**. La conversion PDF à des fins d’impression se produira même si l’option est désactivée.
@@ -70,3 +66,6 @@ Pour utiliser une [orientation de la page](electronic-reporting-destinations.md#
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

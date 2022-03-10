@@ -1,7 +1,7 @@
 ---
 title: Provisionnement d’abonnements
 description: Les services récurrents permettent de provisionner manuellement le produit dans les périodes suivant la date à laquelle vous avez facturé une transaction de frais.
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a2b581c8ae52f4c379e8e511dc898a8d106d149
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908058"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580478"
 ---
 # <a name="accruing-subscriptions"></a>Provisionnement d’abonnements 
 
@@ -65,7 +65,7 @@ La case à cocher **Provisionner le produit** doit être activée pour provision
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Activation du provisionnement du produit dans un groupe d’abonnements
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d’abonnements**.
+Cliquez sur **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d’abonnements**.
 
 ## <a name="periods"></a>Périodes
 
@@ -75,8 +75,8 @@ Le tableau suivant offre un aperçu des types de périodes de régularisation qu
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

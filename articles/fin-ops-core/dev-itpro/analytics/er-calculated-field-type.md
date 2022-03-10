@@ -2,11 +2,9 @@
 title: Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 description: Cette rubrique offre des informations concernant l’utilisation du type Champ calculé pour les sources de données de gestion des états électroniques.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681254"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349158"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 
@@ -88,7 +86,7 @@ Dans cet exemple, vous allez créer une configuration pour l’exemple de socié
 
     La mise en correspondance des modèles dans cette configuration met en œuvre le modèle des données de base pour tous les formats de gestion des états électroniques créés pour ce modèle et exécutés dans Finance and Operations. Par conséquent, le contenu **Taxe** et source de données **Gr** est exposé pour les formats de gestion des états électroniques tels que des sources de données abstraites.
 
-    ![Page du concepteur de mise en correspondance des modèles affichant les sources des données Taxe et Gr](media/er-calculated-field-type-01.png)
+    ![Page du concepteur de mise en correspondance des modèles affichant les sources des données Taxe et Gr.](media/er-calculated-field-type-01.png)
 
 5.  Fermez la page **Concepteur de mise en correspondance des modèles**.
 6.  Fermez la page **Mise en correspondance des modèles**.
@@ -103,21 +101,21 @@ Dans cet exemple, vous allez créer une configuration pour l’exemple de socié
     - Présentez les niveaux suivants de taxation dans le relevé de taxe : normal, réduit et aucun.
     - Présentez plusieurs détails à chaque niveau de taxation, avec un nombre différents de détails à chaque niveau.
 
-    ![Page Concepteur de formats](media/er-calculated-field-type-02.png)
+    ![Page Concepteur de formats.](media/er-calculated-field-type-02.png)
 
 4. Sélectionnez **Mappage**.
 5. Développez les articles **Modèle**, **Données** et **Synthèse**. 
 
     Le champ calculé **Model.Data.Summary.Level** contient l’expression qui renvoie le code du niveau de taxation (**Normal**, **Réduit**, **Aucun,** ou **Autre**) comme valeur de texte pour un code taxe pouvant être récupéré de la source de données **Model.Data.Summary** au moment de l’exécution.
 
-    ![Page du concepteur de format affichant les détails du modèle Modèle de données pour l’apprentissage des appels paramétrés](media/er-calculated-field-type-03.png)
+    ![Page du concepteur de format affichant les détails du modèle Modèle de données pour l’apprentissage des appels paramétrés.](media/er-calculated-field-type-03.png)
 
 6. Développez l’article **Modèle**. **Data2**.
 7. Développez l’article **Modèle**. **Data2.Summary2**.
    
     La source de données **Model**.**Data2.Summary2** est configurée pour regrouper les détails de transaction de la source de données **Model.Data.Summary** par niveau de taxation (renvoyé par le champ calculé **Model.Data.Summary.Level**) et calcul les agrégations.
 
-    ![Page du concepteur de format présentant les détails de la source de données Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Page du concepteur de format présentant les détails de la source de données Model.Data2.Summary2.](media/er-calculated-field-type-04.png)
 
 8. Examinez les champs calculés **Modèle**.**Data2.Level1**, **Modèle**.**Data2.Level2** et **Modèle**.**Data2.Level3.** Ces champs calculés sont utilisés pour filtrer la liste des enregistrements **Modèle**.**Data2.Summary2** et renvoyer uniquement les enregistrements qui représentent un niveau de taxation spécifique.
 9. Fermez la page **Concepteur de format**.
@@ -157,7 +155,7 @@ Vous pouvez améliorer le format de livraison en ajoutant un champ calculé pour
 
     Le nombre maximum de paramètres pouvant être spécifiés pour un unique champ calculé est 8.
 
-    ![Liste de source de données des paramètres](media/er-calculated-field-type-05.png)
+    ![Liste de source de données des paramètres.](media/er-calculated-field-type-05.png)
 
 5. Cliquez sur **OK**.
 
@@ -167,7 +165,7 @@ En ajoutant ce paramètre, vous précisez la condition qui doit être en place p
 
    Le paramètre configuré est disponible dans la liste des sources de données de ce champ calculé. Vous pouvez ajouter le paramétrage à l’expression configurée en sélectionnant **Ajouter la source de données**.
 
-   ![Champs de source de données](media/er-calculated-field-type-06.png)
+   ![Champs de source de données.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Définir une expression pour ajouter un champ calculé
 
@@ -183,7 +181,7 @@ En ajoutant ce paramètre, vous précisez la condition qui doit être en place p
 
 5. Sélectionnez **Enregistrer**.
 
-    ![Informations sur le champ de source de données](media/er-calculated-field-type-07.png)
+    ![Informations sur le champ de source de données.](media/er-calculated-field-type-07.png)
 
 6. Fermez la page **Concepteur de formule**.
 
@@ -193,7 +191,7 @@ En ajoutant ce paramètre, vous précisez la condition qui doit être en place p
 
 Sur la page **Concepteur de format**, le champ calculé paramétré configuré **Niveaux** exige un argument **Chaîne**.
 
-![Liste développée des niveaux de champ calculé](media/er-calculated-field-type-08.png)
+![Liste développée des niveaux de champ calculé.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Utiliser le champ calculé configuré pour lier les éléments de format
 
@@ -222,7 +220,7 @@ Les appels récurrents de tout champ calculé paramétré ne sont pas pris en ch
 
 Vous pouvez sélectionner **Modifier la formule**, et changer l’argument appliqué par défaut du champ calculé paramétré dans la liaison sélectionnée. Si cet argument manque, cela peut générer des erreurs à l’exécution. Les utilisateurs sont informés d’une telle situation lorsque le format actuel est validé.
 
-![Notification d’avertissement de validation](media/er-calculated-field-type-10.png)
+![Notification d’avertissement de validation.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Configuration d’un champ calculé paramétré qui renvoie un enregistrement
 Lorsqu’un champ calculé paramétré renvoie un enregistrement, vous devez prendre en charge la liaison des champs individuels de cet enregistrement avec les éléments de format. En pareille situation, il n’y aura pas de liaison parente qui contient la valeur d’un argument pour appeler un champ calculé paramétré. Cette valeur doit être définie dans la liaison d’un seul champ d’enregistrement.
@@ -274,7 +272,7 @@ Lorsqu’un champ calculé paramétré renvoie un enregistrement, vous devez pre
 8. Sélectionnez **Modifier la formule**.
 9. Changez l’expression pour **Model.Data2.LevelRecord("None").aggregated.Base**.
 
-![Expression mise à jour](media/er-calculated-field-type-11.png)
+![Expression mise à jour.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Supprimer les champs calculés qui ne sont pas utilisés
 
@@ -342,3 +340,6 @@ Vous pouvez importer des configurations révisées depuis RCS à l’aide du ré
 - [Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)
 - [Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

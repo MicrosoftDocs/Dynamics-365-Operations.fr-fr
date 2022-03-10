@@ -2,7 +2,6 @@
 title: Compresser des documents volumineux générés dans les états électroniques
 description: Cette rubrique explique comment compresser des documents volumineux générés par un format d’état électronique (ER).
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718597"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compresser des documents volumineux générés dans les états électroniques 
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser la [Structure des états électroniques (ER)](general-electronic-reporting.md) pour configurer une solution qui extrait des données transactionnelles pour générer un document sortant. Ce document généré peut être assez volumineux. Lorsque ce type de document est généré, la mémoire du [Serveur d’objets d’application (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) est utilisée pour le contenir. À un moment donné, le document doit ensuite être téléchargé à partir de votre application Microsoft Dynamics 365 Finance. Actuellement, la taille maximale d’un seul document généré dans ER est limitée à 2 gigaoctets (Go). En outre, Finance [limite](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) actuellement la taille d’un fichier téléchargé à 1 Go. Par conséquent, vous devez configurer une solution ER qui réduit la probabilité de dépasser ces limitations et de recevoir une exception **Le flux était trop long** ou **Il y a eu un dépassement de capacité positif ou négatif dans l’opération arithmétique**.
+Vous pouvez utiliser la [Structure des états électroniques (ER)](general-electronic-reporting.md) pour configurer une solution qui extrait des données transactionnelles pour générer un document sortant. Ce document généré peut être assez volumineux. Lorsque ce type de document est généré, la mémoire du [Serveur d’objets d’application (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) est utilisée pour le contenir. À un moment donné, le document doit ensuite être téléchargé à partir de votre application Microsoft Dynamics 365 Finance. Actuellement, la taille maximale d’un seul document généré dans ER est limitée à 2 gigaoctets (Go). En outre, Finance [limite](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) actuellement la taille d’un fichier téléchargé à 1 Go. Par conséquent, vous devez configurer une solution ER qui réduit la probabilité de dépasser ces limitations et de recevoir une exception **Le flux était trop long** ou **Il y a eu un dépassement de capacité positif ou négatif dans l’opération arithmétique**.
 
 Lorsque vous configurez une solution, vous pouvez ajuster votre format ER dans le concepteur d’opérations en ajoutant un élément racine du type **Dossier** pour compresser le contenu généré par l’un de ses éléments imbriqués. La compression fonctionne « juste à temps », afin que l’utilisation maximale de la mémoire et la taille du fichier téléchargé puissent être réduites.
 
@@ -56,7 +55,7 @@ Avant d’effectuer les procédures décrites dans cette rubrique, les étapes s
 1. [Exécuter le format importé](er-defer-xml-element.md#run-the-imported-format).
 2. Notez que la taille du document généré au format XML est de 3 kilo-octets (Ko).
 
-    ![Aperçu du document sortant non compressé](./media/er-compress-outbound-files1.png)
+    ![Aperçu du document sortant non compressé.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Modifier le format pour compresser la sortie générée
 
@@ -79,9 +78,9 @@ Avant d’effectuer les procédures décrites dans cette rubrique, les étapes s
 3. Notez que la taille du document généré au format ZIP est de 1 Ko.
 
     > [!NOTE] 
-    > Le taux de compression du fichier XML contenu dans ce fichier zip est de 87 %. Le taux de compression dépend des données compressées.
+    > Le taux de compression du fichier XML contenu dans ce fichier zip est de 87 %%. Le taux de compression dépend des données compressées.
 
-    ![Aperçu du document sortant compressé](./media/er-compress-outbound-files2.png)
+    ![Aperçu du document sortant compressé.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Si la [destination](electronic-reporting-destinations.md) ER est configurée pour l’élément de format qui génère la sortie (l’élément **État** dans cet exemple), la compression de la sortie sera ignorée.

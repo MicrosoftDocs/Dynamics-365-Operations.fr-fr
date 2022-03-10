@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774531"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Paramètres de langue et d’utilisateur de l’application Point of sale (POS)
 
@@ -57,7 +57,7 @@ Le paramètre de langue de l’utilisateur du PDV détermine les traductions uti
 
 Le paramètre de langue de l’utilisateur du PDV est défini à partir de **Tous les collaborateurs** dans la page **Collaborateur** sous **Retail et Commerce &gt; Langue**. Il n’est pas défini dans l’onglet principal Profil. Ce paramètre n’est pas utilisé par le PDV. Si la langue de l’utilisateur n’est pas définie ou si elle est définie sur une langue dans laquelle les traductions ne sont pas disponibles, le PDV reviendra à la langue du magasin.
 
-|             | Langue de l’interface utilisateur                | Langue des données (produits, formats d’accusé de réception, vue de ligne, etc.). |
+| &nbsp;      | Langue de l’interface utilisateur                | Langue des données (produits, formats d’accusé de réception, vue de ligne, etc.). |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Société** | Valeur par défaut                    | Valeur par défaut                                                       |
 | **Magasin**   | Remplace la société          | Remplace la société                                             |

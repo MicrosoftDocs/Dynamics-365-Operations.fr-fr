@@ -1,5 +1,5 @@
 ---
-title: Améliorer le modèle de prévision (version préliminaire)
+title: Améliorer le modèle de prévision
 description: Cette rubrique décrit les fonctionnalités que vous pouvez utiliser pour améliorer les performances des modèles de prédiction.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 0bf4dd0f7edc528393af628eb3776c32957c459d3eaa166b0bc54d9318b54916
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768793"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595035"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Améliorer le modèle de prévision (version préliminaire)
+# <a name="improve-the-prediction-model"></a>Améliorer le modèle de prévision
 
 [!include [banner](../includes/banner.md)]
 
@@ -75,6 +75,6 @@ Le champ suivant ne doit pas être sélectionné pour la formation :
 
 Vous pouvez filtrer les factures utilisées pour la formation en définissant des critères de filtrage pour les champs de la facture ou dans les tables client. Par exemple, vous pouvez définir un seuil pour inclure uniquement les factures dont le total est égal ou supérieur à un montant spécifique. Vous pouvez également exclure les factures associées aux clients d’un groupe de clients spécifique.
 
-Pour plus d’informations sur le filtrage de vos données, consultez [Créer un modèle de prédiction](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
+Pour plus d’informations sur le filtrage de vos données, consultez [Créer un modèle de prédiction](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

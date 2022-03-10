@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913750"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919499"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Créer des modèles de messages électroniques pour les événements transactionnels
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
 
@@ -72,7 +72,7 @@ Le type de notification Emballage terminé prend en charge les espaces réservé
 
 Pour plus d’informations sur les fonctionnalités d’enregistrement des clients et de recherche de commandes, voir [Configurer la géodétection et la redirection](geo-detection-redirection.md) et [Activer la recherche de commande pour les paiements sans inscription](order-lookup-guest.md).
 
-### <a name="order-ready-for-pickup"></a>Commande prête pour l'enlèvement
+### <a name="order-ready-for-pickup"></a>Commande prête pour l’enlèvement
 
 Le type de notification *Commande prête pour l’enlèvement* est déclenché lorsqu’une commande est marquée comme emballée et que le mode de livraison est défini sur **Prélèvement client** sur une ou plusieurs lignes de commande.
 
@@ -148,7 +148,7 @@ Le type de notification Prospect B2B rejeté prend en charge les espaces réserv
 | `lastname`         | Nom du prospect B2B tel qu’il est saisi dans l’application. |
 | `company`          | Nom de la société du candidat tel qu’il est saisi dans l’application. |
 
-## <a name="create-an-email-template"></a>Créer un modèle d'e-mail
+## <a name="create-an-email-template"></a>Créer un modèle d’e-mail
 
 Avant de pouvoir mapper un événement transactionnel spécifique à un modèle d’e-mail, vous devez créer le modèle.
 

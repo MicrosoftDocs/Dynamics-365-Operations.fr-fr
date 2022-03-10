@@ -1,6 +1,6 @@
 ---
 title: Hiérarchie d’organisation dans Dataverse
-description: Cette rubrique décrit l’intégration des données organisationnelles entre les applications Finance and Operations et Dataverse.
+description: Cette rubrique décrit l’intégration des données organisationnelles entre les applications Finances et Opérations et Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c7ef3a11817d60343503c80d89493262711524b1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782306"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062084"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hiérarchie d’organisation dans Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Comme Dynamics 365 Finance est un système financier, l’*organisation* est un concept de base, et le système commence par la configuration d’une hiérarchie d’organisation. Les opérations financières et commerciales peuvent ensuite être suivies au niveau de l’organisation et également à tous les niveaux de la hiérarchie d’organisation.
 
@@ -28,17 +28,17 @@ Bien que Dataverse ne dispose pas du concept de hiérarchie d’organisation, il
 
 ## <a name="data-flow"></a>Flux de données
 
-Un écosystème commercial composé des applications Finance and Operations et de Dataverse continue d’avoir une hiérarchie d’organisation. Cette hiérarchie d’organisation repose sur les applications Finance and Operations, mais elle est exposée dans Dataverse à des fins d’informations et d’extensibilité. L’illustration suivante présente les informations de la hiérarchie d’organisation exposées dans Dataverse comme un flux unidirectionnel entre les applications Finance and Operations et Dataverse.
+Écosystème commercial composé des applications Finances et Opérations et Dataverse continue d’avoir une hiérarchie d’organisation. Cette hiérarchie d’organisation repose sur les applications Finances et Opérations, mais elle est exposée dans Dataverse à des fins d’informations et d’extensibilité. L’illustration suivante présente les informations de la hiérarchie d’organisation exposées dans Dataverse comme un flux unidirectionnel entre les applications Finances et Opérations et Dataverse.
 
 ![Image de l’architecture.](media/dual-write-data-flow.png)
 
-Des mises en correspondance de la table Hiérarchie d’organisation sont disponibles pour la synchronisation unidirectionnelle des données entre les applications Finance and Operations et Dataverse.
+Des mises en correspondance de la table Hiérarchie d’organisation sont disponibles pour la synchronisation unidirectionnelle des données entre les applications Finances et Opérations et Dataverse.
 
 ## <a name="templates"></a>Modèles
 
 Les informations de produit contiennent toutes les informations associées au produit et à sa définition, comme les dimensions du produit ou les dimensions de suivi et de stockage. Lorsque le tableau suivant s’affiche, un ensemble de cartes de tables est créé pour synchroniser les produits et les informations associées.
 
-Applications de Finance and Operations | Applications Customer Engagement     | Description
+Applications de Finances et Opérations | Applications Customer Engagement     | Description
 -----------------------|--------------------------------|---
 [Entités juridiques](mapping-reference.md#102) | cdm_companies | Fournit la synchronisation bidirectionnelle d’informations sur l’entité juridique (société).
 [Entités juridiques](mapping-reference.md#142) | msdyn_internalorganizations |

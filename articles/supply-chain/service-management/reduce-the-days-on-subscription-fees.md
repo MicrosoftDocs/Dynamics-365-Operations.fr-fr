@@ -1,12 +1,10 @@
 ---
 title: Réduction des jours sur les frais d’abonnement
 description: Pour réduire le nombre de jours de frais d’abonnement existants, vous pouvez créer une transaction dans laquelle vous supprimez la période qui ne doit plus faire partie de l’intervalle des frais d’abonnement.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65cd852ca3ce0446550f9ac148a14bbc6bcae500
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df1a27576b93c4ace4a5f17271595d259e96a51a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234775"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573223"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>Réduction des jours sur les frais d’abonnement 
 

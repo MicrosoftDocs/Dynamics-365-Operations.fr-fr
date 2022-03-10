@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574255"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102825"
 ---
 # <a name="cluster-position-full"></a>Poste de groupement complet
 
@@ -28,12 +28,9 @@ La fonctionnalité *Poste de groupement complet* offre une alternative à une ap
 
 Cette fonctionnalité introduit la possibilité d’exécuter le bouton **Plein** sur l’une des unités de travail d’un groupement. Dans les anciennes versions, cette option n’était disponible que pour la préparation de commandes standard, pas pour le prélèvement de groupement. Cependant, cette fonctionnalité diffère du bouton **Plein** standard en ce qu’il annule le travail restant. Cela ne suggère pas que l’utilisateur ajoute un autre bac au même groupement et ne crée pas automatiquement de travail.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Activer la fonctionnalité Poste de groupement complet
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité Poste de groupement complet
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
-
-- **Module :** *Gestion des entrepôts*
-- **Nom de la fonctionnalité :** *Poste de groupement complet*
+Pour utiliser la fonctionnalité décrite dans cette rubrique, la fonctionnalité *Poste de groupement complet* doit être activée pour votre système. Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est obligatoire et peut être désactivée. Si vous exécutez une version antérieure à 10.0.25, les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Poste de groupement complet* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Paramétrage
 

@@ -1,33 +1,30 @@
 ---
 title: Créer un plan pour un site
-description: Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d'un article spécifique.
-author: ShylaThompson
-manager: tfehr
+description: Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d’un article spécifique.
+author: ChristianRytt
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqTransPOUrgentFormPart, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52721d948554d4853f9e1d4dec45e45e619a4829
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3f7da319d4c28af311d79dc01bb93a9fe2f76480
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427906"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568589"
 ---
 # <a name="create-a-plan-for-a-site"></a>Créer un plan pour un site
 
 [!include [banner](../../includes/banner.md)]
 
-Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d'un article spécifique. Une fois les suggestions d'approvisionnement créées, il recherche les commandes sur le site pour lequel il effectue la planification et confirme les commandes, en commençant par celles qui sont urgentes. Les commandes les plus urgentes sont celles qui doivent être confirmées à la date actuelle. Utilisez les données fictives de société USMF pour effectuer ces tâches.
+Le gestionnaire de production calcule les besoins en matériaux et en capacité pour la production d’un article spécifique. Une fois les suggestions d’approvisionnement créées, il recherche les commandes sur le site pour lequel il planifie et confirme les commandes, en commençant par celles qui sont urgentes. Les commandes les plus urgentes sont celles qui doivent être confirmées à la date actuelle. Utilisez les données fictives de société USMF pour effectuer ces tâches.
 
 
 ## <a name="create-a-materials-and-capacity-plan-for-an-item"></a>Créer un plan pour les matériaux et la capacité pour un article
@@ -44,14 +41,17 @@ Le gestionnaire de production calcule les besoins en matériaux et en capacité 
     * Ce processus peut prendre quelques minutes.  
 9. Actualisez la page.
 
-## <a name="identify-the-urgent-planned-orders-for-the-item"></a>Identifier les ordres prévisionnels urgents pour l'article
-1. Ouvrez le filtre de la colonne Numéro d'article.
-2. Appliquez un filtre sur le champ Numéro d'article, avec la valeur D0001, à l'aide de l'opérateur de filtre commence par.
+## <a name="identify-the-urgent-planned-orders-for-the-item"></a>Identifier les ordres prévisionnels urgents pour l’article
+1. Ouvrez le filtre de la colonne Numéro d’article.
+2. Appliquez un filtre sur le champ Numéro d’article, avec la valeur D0001, à l’aide de l’opérateur de filtre commence par.
 3. Ouvrez le filtre de la colonne Date de commande.
-4. Appliquez un filtre sur le champ « Date de commande » avec une valeur de date du jour, à l'aide de l'opérateur de filtre « est exactement ».
+4. Appliquez un filtre sur le champ « Date de commande » avec une valeur de date du jour, à l’aide de l’opérateur de filtre « est exactement ».
 
-## <a name="firm-all-the-urgent-orders-for-the-item"></a>Confirmer les ordres urgents pour l'article
+## <a name="firm-all-the-urgent-orders-for-the-item"></a>Confirmer les ordres urgents pour l’article
 1. Dans la liste, cochez ou décochez toutes les lignes.
 2. Cliquez sur Confirmer.
 3. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

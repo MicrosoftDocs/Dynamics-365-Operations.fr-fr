@@ -1,39 +1,41 @@
 ---
 title: Configurer les fréquences de paiement
-description: Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d'avantages qu'un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d’avantages qu’un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee21f24b2da8501888ac3c0a8b9a35c24785aa4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418527"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069578"
 ---
 # <a name="set-up-payment-frequencies"></a>Configurer les fréquences de paiement
 
-Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d'avantages qu'un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
 
-Les fréquences de paiement des avantages utilisent des facteurs de conversion pour convertir les périodes de paiement des avantages entre les fréquences de paiement mensuelles, bimensuelles, bihebdomadaires, hebdomadaires et quotidiennes. Cela permet aux entreprises de définir l'interdépendance entre les fréquences de paiement au sein d'un plan d'avantages.
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
-Les champs des facteurs de conversion identifient le facteur de conversion de la fréquence de paiement aux périodes de paiement standard et permettent au système d'effectuer des calculs entre les fréquences de paiement. Le montant du facteur de conversion détermine également le montant de la prime d'avantages qu'un employé doit payer à chaque fréquence de rémunération.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Fréquences de paiement**.
+Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d’avantages qu’un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
+
+Les fréquences de paiement des avantages utilisent des facteurs de conversion pour convertir les périodes de paiement des avantages entre les fréquences de paiement mensuelles, bimensuelles, bihebdomadaires, hebdomadaires et quotidiennes. Cela permet aux entreprises de définir l’interdépendance entre les fréquences de paiement au sein d’un plan d’avantages.
+
+Les champs des facteurs de conversion identifient le facteur de conversion de la fréquence de paiement aux périodes de paiement standard et permettent au système d’effectuer des calculs entre les fréquences de paiement. Le montant du facteur de conversion détermine également le montant de la prime d’avantages qu’un employé doit payer à chaque fréquence de rémunération.
+
+1. Dans l’espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Fréquences de paiement**.
 
 2. Sélectionnez **Nouveau**.
 
@@ -43,8 +45,8 @@ Les champs des facteurs de conversion identifient le facteur de conversion de la
    | --- | --- |
    | **Fréquence de paiement** | Nom de fréquence de paiement unique. |
    | **Description** | Description de la fréquence de paiement. |
-   | **Période** | Période appropriée qui correspond le mieux à la fréquence de paiement du fournisseur et de l'employé. La liste des périodes est composée des périodes de paiement standard. |
-   | **Nombre de périodes de paiement :** | Nombre de périodes de paiement qui représente la fréquence de paiement du fournisseur ou des employés. Ce montant sera utilisé pour calculer le salaire des avantages annuels de l'employé. |
+   | **Période** | Période appropriée qui correspond le mieux à la fréquence de paiement du fournisseur et de l’employé. La liste des périodes est composée des périodes de paiement standard. |
+   | **Nombre de périodes de paiement :** | Nombre de périodes de paiement qui représente la fréquence de paiement du fournisseur ou des employés. Ce montant sera utilisé pour calculer le salaire des avantages annuels de l’employé. |
    | **Facteur de conversion annuel** | Facteur de conversion annuel pour la fréquence de rémunération. Par exemple, le facteur de conversion annuel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 1 an) = 12 |
    | **Facteur de conversion semi-annuel** | Facteur de conversion semestriel pour la fréquence de rémunération. Par exemple, le facteur de conversion semestriel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 2 fois par an) = 6 |
    | **Facteur de conversion trimestriel** | Facteur de conversion trimestriel pour la fréquence de rémunération. Par exemple, le facteur de conversion trimestriel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 4 trimestres) = 3 |
@@ -56,3 +58,6 @@ Les champs des facteurs de conversion identifient le facteur de conversion de la
    | **Facteur de conversion horaire** | Facteur de conversion annuel pour la fréquence de rémunération. Par exemple, le facteur de conversion annuel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 2 080 heures) = 0,005769
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

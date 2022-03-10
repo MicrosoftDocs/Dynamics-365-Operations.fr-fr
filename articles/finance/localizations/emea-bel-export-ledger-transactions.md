@@ -2,11 +2,9 @@
 title: Exporter les écritures comptables
 description: Cette rubrique donne des informations sur l’exportation des soldes de compte général dans un fichier texte brut (ASCII) au format CED pour la Belgique.
 author: anasyash
-manager: AnnBe
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: cd67cc87fa9b22d030f7d1ff63685c898597f2e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 93c4dcb0288423d6787a07db3cf41a2670c88458f06eba5bf39b03a26c1bd1af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781693"
 ---
 # <a name="export-ledger-transactions"></a>Exporter les écritures comptables
 
@@ -49,7 +47,7 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
     | Avant 10.0.16                            | **Format d’exportation des écritures comptables** sous **États comptables** >  **modèle Exportation des écritures comptables**. |
     | À partir de 10.0.16                     | **Exportation des données de comptabilité générale** sous le modèle **Fichier d’audit standard (SAF-T)**.                                  |
 
-    > ![Configurations ER](media/be-audit-er-configs.png)
+    > ![Configurations ER.](media/be-audit-er-configs.png)
 
 2. Après l’importation, vous devez disposer des versions suivantes, ou les versions ultérieures, des configurations ER :
 
@@ -62,13 +60,13 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
     > [!NOTE]
     > Une fois toutes les configurations ER du tableau précédent importées, définissez l’option **Valeur par défaut pour le mappage de modèle** sur **Oui** pour la configuration **Mappage du modèle de données de comptabilité** sur la page **Configurations**.
 
-    > ![Valeur par défaut de l’option de modèle de mappage](media/be-audit-default-mm.png)
+    > ![Valeur par défaut de l’option de modèle de mappage.](media/be-audit-default-mm.png)
 
 3. À partir de la version 10.0.16, pour utiliser le format **Exportation des données du grand livre (BE)**, définissez le nom de la configuration ER dans un nouveau paramètre de comptabilité. Accédez à **Comptabilité** > **Paramétrage de la comptabilité** > **Paramètres de comptabilité**. 
 4. Développer le raccourci **Rapports électroniques**, puis sélectionnez l’onglet **Comptabilité**. 
 5. Dans le groupe **Exportation des écritures comptables**, dans le champ **Exportation des écritures comptables**, sélectionnez le format **Exportation des données de comptabilité**, puis enregistrez le nouveau paramètre.
 
-    ![Paramètre de comptabilité](media/be-audit-gl-parameter.png)
+    ![Paramètre de comptabilité.](media/be-audit-gl-parameter.png)
 
 ### <a name="generate-the-export-ledger-transactions-report"></a>Générer le rapport Exportation des écritures comptables
 
@@ -89,7 +87,7 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 
 Dans ce cas, le fichier généré contient les données suivantes.
 
-![Données des écritures comptables](media/1_Export_ledger_transactions.png)
+![Données des écritures comptables.](media/1_Export_ledger_transactions.png)
 
 Voici une explication des colonnes de ce fichier :
 

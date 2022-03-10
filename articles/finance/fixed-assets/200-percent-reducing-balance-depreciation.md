@@ -1,12 +1,10 @@
 ---
 title: Amortissements dégressifs de 200 %
-description: Cet article propose une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
-author: saraschi2
-manager: AnnBe
+description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b761a14f44be292e9dd21eb580473bd0981d9044
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230320"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883491"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
 [!include [banner](../includes/banner.md)]
 
-Cet article propose une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
+Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 200 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations qui sont affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. Le pourcentage est calculé sur la base de la durée de vie de l’immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 40 pourcent (200 % ÷ 5). 
 
@@ -68,7 +66,7 @@ Si vous sélectionnez **Fiscal** comme année d’amortissement, les options sui
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Exemple d’amortissement dégressif de 200 %
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Prix d’acquisition               | 11 000 |
 | Valeur résiduelle                  | 1 000 |
@@ -76,12 +74,12 @@ Si vous sélectionnez **Fiscal** comme année d’amortissement, les options sui
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 40 %    |
 
-La méthode d'amortissement dégressif de 200 % divise 200 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
+La méthode d’amortissement dégressif de 200 % divise 200 % par le nombre d’années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable             | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) × 40 % = 4 000                | 11 000 - 4 000 = 7 000 | 11 000 - 1 000 - 4 000 = 6 000        |
-| Année 2 | 6 000 × 40 % = 2 400                           | 7 000 - 2 400 = 4 600  | 6 000 - 2 400 = 3 600                 |
+| Année 1 | (11 000 – 1 000) × 40 % = 4 000                | 11 000 – 4 000 = 7 000 | 11 000 – 1 000 – 4 000 = 6 000        |
+| Année 2 | 6 000 × 40 % = 2 400                           | 7 000 – 2 400 = 4 600  | 6 000 – 2 400 = 3 600                 |
 | Année 3 | 3 600 × 40 % = 1 440                           | 4 600 – 1 440 = 3 160  | 3 600 – 1 440 = 2 160                 |
 
 > [!NOTE] 

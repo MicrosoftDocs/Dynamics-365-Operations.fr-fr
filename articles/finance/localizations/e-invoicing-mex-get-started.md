@@ -2,7 +2,7 @@
 title: Mise en route de la Facturation électronique pour le Mexique
 description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour le Mexique.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344780"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881589"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Mise en route de la Facturation électronique pour le Mexique
 
@@ -35,7 +35,15 @@ Cette rubrique donne des informations qui vous aideront à démarrer la Facturat
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant d’effectuer les étapes de cette rubrique, vous devez effectuer les étapes de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+Avant d’effectuer les étapes de cette rubrique, vous devez effectuer les étapes de la rubrique [Mise en route de l’administration du service de Facturation électronique](e-invoicing-get-started-service-administration.md) et [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Paramétrage du Cadena XSLT
+
+Pour ajouter le schéma Cadena XSLT à la fonction de globalisation pour le traitement CFDI, procédez comme suit.
+
+1. Téléchargez le schéma à partir du [site web de la SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Compressez le schéma dans un fichier ZIP.
+3. Enregistrez le fichier xslt sur votre compte de stockage Azure configuré dans votre environnement de service pour le nouveau conteneur.
 
 ## <a name="rcs-setup"></a>Paramétrage RCS
 
@@ -122,11 +130,22 @@ Pour envoyer une annulation de facture CFDI, le paramétrage des fonctionnalité
 
 ### <a name="set-up-the-url-for-mexican-pac-web-services"></a>Paramétrer l’URL des services web PAC mexicains 
 
-1. Sur la page **Paramétrage de version de fonctionnalité**, dans l’onglet **Actions**, dans le raccourci **Actions**, sélectionnez **Appeler le service PAC méxicain**.
+1. Sur la page **Paramétrage de version de fonctionnalité**, dans l’onglet **Actions**, dans le raccourci **Actions**, sélectionnez **Appeler le service PAC mexicain**.
 2. Dans le raccourci **Paramètres**, dans le champ **Adresse URL**, entrez l’URL du service web pour l’envoi de facture CFDI.
 
 > [!NOTE]
 > Suivez les mêmes étapes pour mettre à jour l’URL de l’action **Appeler le service PAC mexicain** pour le paramétrage des fonctionnalités **Annuler** et **Demande d’annulation**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Configurer le chemin pour le schéma Cadena XLST
+
+1. Sur la page **Paramétrage de version de fonctionnalité**, dans l'onglet **Variables**, sélectionnez le nom de la variable, **DigitalSignatureXSLT**.
+2. Dans le champ **Valeurs**, entrez : {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    où: <RelativePath> = folder\\folder\\filename avec doubles barres obliques inverses, ContainerName doit désigner le conteneur utilisé pour le service.
+   
+    Exemple de variable :
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Attribuer la version brouillon à un environnement de facturation électronique
 
@@ -195,7 +214,7 @@ Pour paramétrer la Facturation électronique dans Finance, vous effectuerez les
     - Pour **Facture de projet**, entrez **Contexte de la facture de projet**.
 
 4. Sélectionnez **Types de réponse** pour configurer les types de réponse pouvant être renvoyés à partir de la Facturation électronique et inclus dans un journal des factures client ou une facture de projet.
-5. Sélectionnez **Nouveau**, puis, dans dans le champ **Type de réponse**, sélectionnez **Réponse**.
+5. Sélectionnez **Nouveau**, puis, dans le champ **Type de réponse**, sélectionnez **Réponse**.
 6. Dans le champ **Statut d’envoi**, sélectionnez **En attente**.
 7. Dans le champ **Mappage de modèle**, sélectionnez **Format d’importation du message de réponse – Mappage de modèle à partir du message de réponse**.
 8. Sélectionnez **Enregistrer**.

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675391"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927452"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -227,7 +225,8 @@ Si vous configurez des paramètres spécifiques à l’application pour une vers
 
 Lorsque vous sélectionnez un fichier pour importation, la structure des paramètres spécifiques à l’application de ce fichier est comparée à la structure des sources de données correspondantes du type **Recherche** dans le format de gestion des états électroniques sélectionné pour importation. Par défaut, l’importation est terminée uniquement si la structure de chaque paramètre spécifique à l’application correspond à la structure de la source de données correspondante dans le format de gestion des états électroniques sélectionné pour importation. Si les structures ne correspondent pas, un message d’avertissement vous informe que l’importation ne peut pas être finalisée. Si vous forcez l’importation, les paramètres spécifiques à l’application existants pour le format de gestion des états électroniques sélectionné seront effacés et vous devrez les configurer à partir de zéro.
 
-À partir de Dynamics 365 Finance version 10.0.23, vous pouvez modifier le comportement par défaut et éviter de recevoir un message d’avertissement en activant la fonctionnalité **Aligner les paramètres spécifiques à l’application de rapports électroniques lors de l’importation** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, si la structure des paramètres spécifiques à l’application que vous importez est différente de celle des sources de données correspondantes dans le format de gestion des états électroniques sélectionné pour importation, l’importation sera effective dans les cas suivants.
+
+À partir de Dynamics 365 Finance version 10.0.24, vous pouvez modifier le comportement par défaut et éviter de recevoir un message d’avertissement en activant la fonctionnalité **Aligner les paramètres spécifiques à l’application de rapports électroniques lors de l’importation** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, si la structure des paramètres spécifiques à l’application que vous importez est différente de celle des sources de données correspondantes dans le format de gestion des états électroniques sélectionné pour importation, l’importation sera effective dans les cas suivants.
 
 - La structure du format de gestion des états électroniques cible a été modifiée par l’ajout de nouvelles colonnes de condition à toutes les sources de données existantes du type **Recherche**. Une fois l’importation terminée, les paramètres spécifiques à l’application sont mis à jour. Dans tous les enregistrements importés de paramètres spécifiques à l’application, les valeurs de chaque colonne de condition ajoutée sont initialisées avec la valeur par défaut pour le [type de données](er-formula-supported-data-types-primitive.md) de cette colonne.
 - La structure du format de gestion des états électroniques cible a été modifiée par la suppression de colonnes de condition de toutes les sources de données existantes du type **Recherche**. Une fois l’importation terminée, les paramètres spécifiques à l’application sont mis à jour. Dans tous les enregistrements importés de paramètres spécifiques à l’application, les valeurs de chaque colonne de condition supprimée sont supprimées.

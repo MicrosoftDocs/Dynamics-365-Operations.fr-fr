@@ -1,7 +1,7 @@
 ---
 title: Stades de commande de service
 description: En définissant les stades d’une commande de service et en les affectant aux collaborateurs, vous contrôlez le flux d’une commande de service via les tâches attribuées aux différents personnes dans l’organisation du service.
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46d4bb43c8f59a0ef55963ac9b453491a6112b0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a43cbe0cf5993a305ff500f34f0da5d3763084c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817507"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576326"
 ---
 # <a name="service-order-stages"></a>Stades de commande de service   
 

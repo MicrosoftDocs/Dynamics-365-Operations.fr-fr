@@ -14,18 +14,16 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fad1bb06063ac8fa04b93fb36e2f157f0d1d30a7
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: 40050d069d167eb82b4a1050a5b83dca0082af02
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473393"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890817"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Une *réservation budgétaire générale* est un document qui est parfois également appelé un *engagement*. Les entités du secteur public utilisent souvent ce document pour répartir ou réserver des fonds budgétés afin qu’ils soient disponibles pour d’autres fins. Généralement, ces réservations sont effectuées avant que des fournisseurs aient été sélectionnés pour l’achat. En utilisant les réservations budgétaires générales, une organisation peut explicitement suivre les dépenses prévues à des fins de gestion et de génération d’états. Chaque demande d’achat, commande fournisseur ou facture fournisseur générée peut être associée à au moins une réservation budgétaire générale.
 

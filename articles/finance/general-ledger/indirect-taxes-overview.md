@@ -1,26 +1,28 @@
 ---
 title: Vue d’ensemble des taxes
 description: Cette rubrique offre une vue d’ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826616"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983926"
 ---
 # <a name="sales-tax-overview"></a>Vue d’ensemble des taxes
 
@@ -28,14 +30,13 @@ ms.locfileid: "5826616"
 
 Cette rubrique offre une vue d’ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
 
-<a name="overview"></a>Vue d’ensemble
---------
+## <a name="overview"></a>Vue d’ensemble
 
 L’infrastructure de taxe prend en charge de nombreux types de taxes indirectes, tels que la taxe, la taxe sur la valeur ajoutée (VAT), la Taxe sur les Produits et Services (GST), les frais basés sur l’unité et la retenue à la source. Ces taxes sont calculées et documentées lors des transactions d’achat et de vente. Régulièrement, elles doivent être déclarées et payées à l’administration fiscale. 
 
 Le diagramme suivant indique les entités du paramétrage fiscal et comment elles sont liées.
 
-[![Diagramme présentant la vue d’ensemble des entités du paramétrage fiscal](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagramme présentant la vue d’ensemble des entités du paramétrage fiscal.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Pour chaque taxe qu’une société doit justifier, un code taxe doit être défini. Un code taxe enregistre les taux et les règles de calcul de la taxe. 
 

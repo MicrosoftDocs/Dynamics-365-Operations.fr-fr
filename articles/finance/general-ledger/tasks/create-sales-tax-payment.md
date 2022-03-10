@@ -2,26 +2,23 @@
 title: Créer un paiement de taxe
 description: La procédure de la tâche Régler et valider la taxe permet de régler les soldes de taxe dans les comptes de taxe et de les compenser dans le compte de règlement de la taxe pour une période donnée.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7aec00c2fb657f0b4074063ef7acad5f4372ebca
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 8c0b6c67a547e42ab4d7b7ba9f456a29c6b3d22e491e3a8ad0481a0144491087
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763164"
 ---
 # <a name="create-a-sales-tax-payment"></a>Créer un paiement de taxe
 
@@ -37,3 +34,6 @@ La procédure de la tâche Régler et valider la taxe permet de régler les sold
 5. Entrez une date dans le champ **Date de transaction**.
 6. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

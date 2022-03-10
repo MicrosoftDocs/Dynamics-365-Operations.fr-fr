@@ -1,31 +1,28 @@
 ---
-title: Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise
+title: Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 description: Cet article détaille l’effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10ba8d59855b60b3d05b4c6b44c98905e10487ecdcf7bc459acca73c12bc72d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740168"
 ---
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise
+# <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,10 +46,10 @@ Le 2 juillet, le client 4027 effectue un paiement partiel de 297,00 pour la fact
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. Si vous ne remplacez pas la valeur du **Montant à régler** par 297,00, les valeurs du **Montant de l’escompte de règlement** qui s’affichent sont différentes. Toutefois, 3,00 sont prélevés comme escompte de règlement une fois le paiement validé, car le règlement ajuste automatiquement pour vous la valeur du **Montant à régler**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
-| Montant de l’escompte de règlement         | 10,00     |
+| Montant de l’escompte de règlement         | 10.00     |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l’escompte de règlement à accepter | 3,00      |
@@ -74,7 +71,7 @@ Le 11 juillet, soit après la période de remise, le client 4027 paie le reste d
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
 | Montant de l’escompte de règlement         | 0,00      |
@@ -90,15 +87,15 @@ Si Arnie remplace la valeur du champ **Utiliser un escompte de règlement** par 
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
-| Montant de l’escompte de règlement         | 7h00      |
+| Montant de l’escompte de règlement         | 7.00      |
 | Utiliser un escompte de règlement            | Toujours    |
 | Escompte de règlement appliqué          | 3,00      |
 | Montant de l’escompte de règlement à accepter | 7h00      |
 
-Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **Normal**, car il n’autorise pas ce client à bénéficier de l’escompte de règlement restant de 7,00. Arnie valide ensuite le paiement. Lorsqu’Arnie ouvre la page **Transactions client**, il peut voir que le solde de la facture est de 0,00. Il constate également qu’il existe deux paiements. Un paiement de 297,00 avec un escompte de règlement de 3,00, et un autre paiement de 700,00.
+Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **Normal**, car Arnie n’autorise pas ce client à bénéficier de l’escompte de règlement restant de 7,00. Arnie valide ensuite le paiement. Lorsqu’Arnie ouvre la page **Transactions client**, le solde de la facture est de 0,00. Deux paiements sont disponibles. Un paiement de 297,00 avec un escompte de règlement de 3,00, et un autre paiement de 700,00.
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -111,3 +108,6 @@ Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

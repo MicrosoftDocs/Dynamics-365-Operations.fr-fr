@@ -1,7 +1,7 @@
 ---
 title: Sécurité de l’utilisateur du portail fournisseur
 description: Cet article détaille la procédure de paramétrage de la sécurité pour les fournisseurs externes qui utilisent le portail Fournisseur. Ces informations ne s’appliquent qu’aux versions de février 2016 &amp; de mai 2016 de Dynamics AX.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e73e9e874fbb8df029e4eccce922a660513c1bf
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807846"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568085"
 ---
 # <a name="vendor-portal-user-security"></a>Sécurité utilisateur du portail fournisseur
 
@@ -40,8 +40,7 @@ Avant de créer un compte utilisateur pour une personne qui utilise le portail F
 
 Si la même personne a besoin d’accéder au portail Fournisseur pour plusieurs comptes fournisseur (pour différentes entités juridiques, peut-être), chacun des comptes d’utilisateurs de cette personne doit être associé à la même personne à contacter enregistrée. Le rôle **Fournisseur (externe)** inclut toutes les fonctionnalités de base requises afin d’utiliser la fonctionnalité disponible dans le portail Fournisseur. Ce paramétrage permet de garantir que l’interface utilisateur vue par l’utilisateur externe est concentrée uniquement sur le scénario prévu.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md)
 

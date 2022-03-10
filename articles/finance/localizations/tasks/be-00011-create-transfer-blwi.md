@@ -12,12 +12,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16dd6c5b786396fea9a284d323deea7426609593
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d4ee9dea635614729b4b6cf4e5ae935193861111
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832520"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403906"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l’état BLWI (Belgique)
 

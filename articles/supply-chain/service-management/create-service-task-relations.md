@@ -1,12 +1,10 @@
 ---
 title: Création de relations de tâches de service
-description: Vous pouvez associer des tâches de service à des accords de service ou des commandes de service afin de décrire la tâche de service à exécuter pour l'accord ou la commande.
-author: ShylaThompson
-manager: tfehr
+description: Vous pouvez associer des tâches de service à des accords de service ou des commandes de service afin de décrire la tâche de service à exécuter pour l’accord ou la commande.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
@@ -17,60 +15,63 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b13309816af6984e77f828e827ecffe6266b3ede
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974658"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576542"
 ---
 # <a name="create-service-task-relations"></a>Création de relations de tâches de service    
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez associer des tâches de service à des accords de service ou des commandes de service afin de décrire la tâche de service à exécuter pour l'accord ou la commande. Les techniciens de service et les clients ont accès à ces informations.
+Vous pouvez associer des tâches de service à des accords de service ou des commandes de service afin de décrire la tâche de service à exécuter pour l’accord ou la commande. Les techniciens de service et les clients ont accès à ces informations.
 
-## <a name="create-a-relation-with-a-service-agreement"></a>Création d'une relation avec un accord de service
+## <a name="create-a-relation-with-a-service-agreement"></a>Création d’une relation avec un accord de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**.
+1.  Accédez à **Gestion des services** \> **Commun** \> **Accords de service** \> **Accords de service**.
 
 2.  Sélectionnez un accord de service ou créez-en un.
 
 3.  Dans le volet Actions, cliquez sur le bouton **Tâches de service**.
 
-4.  Dans l'écran **Tâches de service**, appuyez sur Ctrl+N pour créer une ligne, puis sélectionnez une tâche de service dans la liste **Tâche de service** pour lier la tâche de service à l'accord de service.
+4.  Dans l’écran **Tâches de service**, cliquez sur **Nouveau** pour créer une ligne, puis sélectionnez une tâche de service dans la liste **Tâche de service** pour lier la tâche de service à l’accord de service.
 
-5.  Sous l'onglet **Description**, entrez les descriptions de note internes ou externes dans les champs à texte libre.
+5.  Sous l’onglet **Description**, entrez les descriptions de note internes ou externes dans les champs à texte libre.
 
-6.  Fermez l'écran pour sauvegarder l'enregistrement.
+6.  Fermez l’écran pour sauvegarder l’enregistrement.
 
-Répétez cette procédure jusqu'à ce que vous ayez créé toutes les relations de tâches de service nécessaires pour l'accord de service. Vous pouvez désormais spécifier ces tâches de service pour toutes les lignes d'accord associées.
+Répétez cette procédure jusqu’à ce que vous ayez créé toutes les relations de tâches de service nécessaires pour l’accord de service. Vous pouvez désormais spécifier ces tâches de service pour toutes les lignes d’accord associées.
 
-Une relation de tâches de service créée dans une commande de service est disponible à partir de toutes les commandes de service associées à l'accord de service.
+Une relation de tâches de service créée dans une commande de service est disponible à partir de toutes les commandes de service associées à l’accord de service.
 
-## <a name="create-a-relation-with-a-service-order"></a>Création d'une relation avec une commande de service
+## <a name="create-a-relation-with-a-service-order"></a>Création d’une relation avec une commande de service
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
+1.  Accédez à **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
 
 2.  Sélectionnez une commande de service ou créez-en une.
 
 3.  Dans le volet Actions, cliquez sur le bouton **Tâches de service**.
 
-4.  Dans l'écran **Tâches de service**, appuyez sur Ctrl+N pour créer une ligne, puis sélectionnez une tâche de service dans la liste **Tâche de service** pour lier les tâches de service à la commande de service.
+4.  Dans le formulaire **Tâches de service**, cliquez sur **Nouveau** pour créer une ligne, puis sélectionnez une tâche de service dans la liste **Tâche de service** pour lier les tâches de service à l’ordre de service.
 
-5.  Sous l'onglet **Description**, entrez les descriptions de note internes ou externes dans les champs à texte libre.
+5.  Sous l’onglet **Description**, entrez les descriptions de note internes ou externes dans les champs à texte libre.
 
-6.  Fermez l'écran pour sauvegarder l'enregistrement.
+6.  Fermez l’écran pour sauvegarder l’enregistrement.
 
-Répétez cette procédure jusqu'à ce que vous ayez créé toutes les relations de tâches de service nécessaires pour la commande de service. Vous pouvez désormais sélectionner la tâche de service pour laquelle vous avez créé une relation lors de la création des lignes de commande de service.
+Répétez cette procédure jusqu’à ce que vous ayez créé toutes les relations de tâches de service nécessaires pour la commande de service. Vous pouvez désormais sélectionner la tâche de service pour laquelle vous avez créé une relation lors de la création des lignes de commande de service.
 
 Les relations de tâches de service créées dans une commande de service sont disponibles dans la commande de service spécifique.
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d'ensemble des tâches de service](service-tasks.md)
+[Vue d’ensemble des tâches de service](service-tasks.md)
 
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

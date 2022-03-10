@@ -1,29 +1,26 @@
 ---
 title: Dépannage de la budgétisation de poste
 description: Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération.
-author: ryansandness
-manager: AnnBe
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 88253
 ms.assetid: c44df01b-8700-4022-b4c6-c4b1cb84d31d
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afddc9815ee3864236f93c8400bcf116d5b6cc89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726060"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 
@@ -31,8 +28,7 @@ ms.locfileid: "4443261"
 
 Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
 
 Les postes de prévision ont été déplacées vers le département Budget.
 
@@ -64,3 +60,6 @@ Les dates de la ligne d’élément de coût du poste de prévision doivent se t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

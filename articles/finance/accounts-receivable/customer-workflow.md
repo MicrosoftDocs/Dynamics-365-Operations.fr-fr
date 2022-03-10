@@ -1,7 +1,7 @@
 ---
 title: Flux de travail de client
 description: Cette rubrique fournit des informations sur le flux de travail de client. Vous pouvez modifier des champs spécifiques à un client puis envoyer les modifications pour approbation à l’aide du flux de travail avant de les ajouter au client.
-author: mikefalkner
+author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c769d225ee0f7b35719c37d9b9bc690a20060911
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817267"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753824"
 ---
 # <a name="customer-workflow"></a>Flux de travail de client
 

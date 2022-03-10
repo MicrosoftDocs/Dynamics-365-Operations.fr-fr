@@ -2,28 +2,25 @@
 title: Configurer un règlement
 description: La manière et le moment où les transactions sont réglées peuvent être des sujets complexes. Il est donc essentiel que vous compreniez et définissiez correctement les paramètres afin de répondre à vos exigences métier. Cette rubrique décrit les paramètres utilisés pour le règlement de la Comptabilité fournisseur et de la Comptabilité client.
 author: kweekley
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720572"
 ---
 # <a name="configure-settlement"></a>Configurer un règlement
 
@@ -40,7 +37,7 @@ Les paramètres suivants affectent la manière dont les règlements sont traité
 - **Différence minime maximale** – Permet d’entrer la différence minime maximale autorisée pour les transactions réglées. Si la différence est égale ou inférieure à la différence minime spécifiée dans ce champ, la différence sera validée sur le compte général de différence minime spécifié dans la page **Comptes pour transactions automatiques**.
 - **Trop-perçu ou moins-perçu maximal** – Permet d’entrer le montant accepté pour le trop-perçu et le moins-perçu. Pour calculer la taxe sur le trop-perçu ou le moins-perçu, dans la page **Paramètres de comptabilité**, cliquez sur **Taxe**, puis sélectionnez l’option **Taxe sur trop-perçu ou moins-perçu**.
   -   Si le trop-perçu ou le moins-perçu entraîne une différence inférieure à celle définie dans le champ **Différence minime maximale**, le montant de la différence minime est validé sur le compte de différence minime.
-  -   Si le trop-perçu ou le moins-perçu entraîne une différence supérieure à celle définie dans le champ **Différence minime maximale**, le montant de la différence est validé sur le compte de différence sélectionné pour le type de validation **Client - Escompte de règlement** ou **Fournisseur - Escompte de règlement** sur le **Comptes pour transactions automatiques**.
+  -   Si le trop-perçu ou le moins-perçu entraîne une différence supérieure à celle définie dans le champ **Différence minime maximale**, le montant de la différence est validé sur le compte de différence sélectionné pour le type de validation **Client – Escompte de règlement** ou **Fournisseur – Escompte de règlement** sur le **Comptes pour transactions automatiques**.
 - **Calculez les escomptes de règlement pour les paiements partiels** – Définissez cette option sur **Oui** pour activer les escomptes de règlement à calculer automatiquement pour les paiements partiels.
   -   L’effet de cette option dépend de la valeur du champ **Utiliser un escompte de règlement** dans la page **Régler les transactions**. Si cette option est définie sur **Oui**, la remise est acceptée lorsque le champ **Utiliser un escompte de règlement** est défini sur **Normal**. Lorsque le champ **Utiliser un escompte de règlement** est défini sur **Toujours**, l’escompte de règlement est toujours accepté, quel que soit le paramètre de ce champ. Lorsque le champ **Utiliser un escompte de règlement** est défini sur **Jamais**, l’escompte de règlement n’est jamais accepté, quel que soit le paramètre de ce champ.
   -   Si cette option est définie sur **Oui** et qu’un utilisateur modifie la valeur dans le champ **Montant à régler** de la page **Régler les transactions**, la remise est calculée automatiquement et affichée comme entrée par défaut dans le champ **Montant de l’escompte de règlement à accepter**.
@@ -67,3 +64,6 @@ Pour éviter les écritures comptables supplémentaires, le débit et le crédit
 
 -   Les organisations utilisent souvent des dimensions fixes pour renseigner avec des zéros une dimension financière qui n’est pas requise. Cela est généralement le cas pour les comptes de bilan, tels que la comptabilité client/comptabilité fournisseur. Les structures de compte peuvent être utilisées pour ne pas suivre les dimensions financières qui sont généralement renseignées avec des zéros.  Vous pouvez supprimer la dimension financière pour les comptes de bilan, ce qui évite d’utiliser des dimensions fixes.
 -   Si votre organisation nécessite des dimensions fixes sur le compte principal de la comptabilité client/comptabilité fournisseur, trouvez un moyen de définir par défaut la dimension fixe sur le paiement, afin que la valeur de la dimension fixe soit enregistrée dans la transaction fournisseur pour le paiement. Cela permet au système de reconstruire le compte principal de la comptabilité client/comptabilité fournisseur pour inclure les valeurs de la dimension fixe. La valeur de la dimension fixe peut être définie comme valeur par défaut sur les fournisseurs ou le nom de journal pour le journal des paiements.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

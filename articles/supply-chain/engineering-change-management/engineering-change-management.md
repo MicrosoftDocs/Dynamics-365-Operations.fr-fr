@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
-ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7467420"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102908"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gérer les modifications apportées aux produits d’ingénierie
 
@@ -123,7 +123,7 @@ Pour examiner les transactions affectées, bloquer les transactions sélectionn�
     - **Afficher toutes les transactions** : ouvrez la liste complète de toutes les transactions, et pas seulement les transactions ouvertes.
 
 > [!IMPORTANT]
-> Le bouton **Notifier la production** n'est disponible que si la fonction *Notifications d'ingénierie pour la production* est activée dans votre système. Pour plus d’instructions, consultez [Vue d’ensemble de la gestion des modifications techniques](product-engineering-overview.md).
+> Le bouton **Notifier la production** n’est disponible que si la fonction *Notifications d’ingénierie pour la production* est activée pour votre système. Pour savoir comment activer ou désactiver cette fonctionnalité et ses prérequis, consultez [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Examiner et traiter les notifications de modification pour les transactions
 
@@ -136,7 +136,7 @@ Vous pouvez lire et traiter les notifications de modification que vous recevez d
 Lorsque vous consultez les notifications d’ordre de fabrication dans la page **Notifications d’ingénierie**, vous pouvez suivre les liens vers les ordres de modification ou les ordres de fabrication associés en sélectionnant les valeurs de colonne ou en utilisant les commandes associées dans le volet Actions. Une fois que vous avez terminé d’évaluer une modification et une fois que vous avez annulé ou modifié les ordres de fabrication selon vos besoins, vous pouvez marquer une notification comme résolue. Sélectionnez la notification, puis, dans le volet Actions, sélectionnez **Résoudre**. La notification est supprimée des vues de tous les utilisateurs.
 
 > [!IMPORTANT]
-> La possibilité d'envoyer des notifications pour les ordres de fabrication nécessite que la fonction *Notifications d'ingénierie pour la production* soit activée dans votre système. Pour plus d’instructions, consultez [Vue d’ensemble de la gestion des modifications techniques](product-engineering-overview.md).
+> La possibilité d’envoyer des notifications pour les ordres de fabrication nécessite que la fonction *Notifications d’ingénierie pour la production* soit activée pour votre système. Pour savoir comment activer ou désactiver cette fonctionnalité et ses prérequis, consultez [Présentation de la gestion des modifications techniques](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Créer un ordre de modification à partir d’une demande de modification
 

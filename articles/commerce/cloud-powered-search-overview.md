@@ -3,23 +3,22 @@ title: Vue d’ensemble de la recherche dans le cloud
 description: Cette rubrique fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800419"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983667"
 ---
 # <a name="cloud-powered-search-overview"></a>Vue d’ensemble de la recherche dans le cloud
 
@@ -41,7 +40,7 @@ La pertinence et les performances de la recherche sont des facteurs clés dans l
 
 L’illustration suivante affiche un exemple de fonctionnalité navigation et de recherche classique.
 
-![Rechercher la page de destination](./media/SearchLanding.png)
+![Rechercher la page de destination.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Navigation à facettes et synthèse des choix 
 
@@ -51,7 +50,7 @@ Grâce à la navigation à facettes, vous pouvez configurer des raffineurs pour 
 
 L’illustration suivante présente un exemple dans lequel la navigation à facettes est utilisé dans une recherche.
 
-![Synthèse des choix](./media/ChoiceSummary.png)
+![Synthèse des choix.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Suggestion automatique immersive
 
@@ -61,7 +60,7 @@ Dynamics 365 Commerce prend également en charge la fonctionnalité des correspo
 
 L’illustration suivante présente un exemple dans lequel la suggestion automatique immersive est utilisée.
 
-![suggestion automatique immersive](./media/ImmersiveAutoSuggestUX.png)
+![suggestion automatique immersive.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Trier
 
@@ -69,11 +68,11 @@ Le tri amélioré dans Dynamics 365 Commerce permet aux clients de trier, recher
 
 >[!NOTE]
 >Ces fonctionnalités de recherche dans le cloud sont disponibles à partir de la version 10.0.8. Assurez-vous que sous **Paramètres Commerce > Paramètres de configuration**, il existe une entrée pour « ProductSearch.UseAzureSearch » définie sur « true ». 
-![Paramètres de configuration pour la recherche dans le cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Paramètres de configuration pour la recherche dans le cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble de la page d’arrivée de catégories et de la page des résultats de la recherche par défaut](category-search-page-overview.md)
+[Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md)
 
 [Gestion des métadonnées SEO](manage-seo-metadata.md)
 

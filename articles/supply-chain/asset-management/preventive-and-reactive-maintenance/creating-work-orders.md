@@ -1,14 +1,12 @@
 ---
-title: Création d'ordres de travail
+title: Création d’ordres de travail
 description: Cette rubrique explique comment créer des ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743696"
 ---
-# <a name="creating-work-orders"></a>Création d'ordres de travail
+# <a name="creating-work-orders"></a>Création d’ordres de travail
 
 [!include [banner](../../includes/banner.md)]
 
 Lorsque vous avez planifié des tâches de maintenance préventive, l’étape suivante consiste à créer des ordres de travail pour ces tâches. Vous pouvez effectuer cette étape en utilisant l’un des programmes de maintenance. Les tâches prévues dans un programme de maintenance peuvent avoir des types de références différents, comme décrit dans la table suivante :
 
-| Type de référence | Description  |
+| Type de référence | Description |
 |---|---|
 | Plans de maintenance | Des tâches de maintenance préventive basées sur des types de plan de maintenance *Heure* ou *Compteur*. |
 | Visites de maintenance | Des tâches de maintenance préventive contenant plusieurs actifs nécessitant un type de maintenance similaire. |
@@ -50,7 +48,7 @@ Pour créer des ordres de travail basés sur votre programme de maintenance, pro
 
     La boîte de dialogue **Créer des ordres de travail** apparaît. Le champ **Heures de prévision en matière de maintenance** affiche le nombre total d’heures prévues pour les lignes sélectionnées.
 
-    ![Boîte de dialogue Créer des ordres de travail](media/18-preventive-maintenance.png)
+    ![Boîte de dialogue Créer des ordres de travail.](media/18-preventive-maintenance.png)
 
 1. Dans la section **Paramètres**, spécifiez le nombre d’ordres de travail à créer. Permet de sélectionner l’une des options suivantes :
 
@@ -62,9 +60,6 @@ Pour créer des ordres de travail basés sur votre programme de maintenance, pro
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Regrouper les lignes d’ordre de travail qui sont automatiquement créées lors de l’exécution d’un plan de maintenance
 
-> [!IMPORTANT]
-> La fonctionnalité décrite dans cette section est disponible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d'informations sur les préversions, voir [FAQ sur les mises à jour de service à une version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
-
 Cette fonction vous permet de définir des règles de regroupement des lignes d’ordre de travail sous un seul ordre de travail lorsque le système est configuré pour générer automatiquement des ordres de travail, en fonction d’un plan de maintenance. Auparavant, les ordres de travail générés automatiquement ne pouvaient contenir qu’une seule ligne. Cependant, vous pouvez désormais regrouper les ordres de travail par exemple, par actif, par type d’actif ou par emplacement fonctionnel. (Les ordres de travail générés manuellement peuvent déjà être regroupés de cette manière, comme décrit dans la section précédente de cette rubrique.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Activer le regroupement pour les ordres de travail générés automatiquement
@@ -72,7 +67,7 @@ Cette fonction vous permet de définir des règles de regroupement des lignes d�
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des actifs*
-- **Nom de fonctionnalité :** *(aperçu) Appliquer les règles de regroupement d’ordres de travail lors de l’exécution d’un plan de maintenance*
+- **Nom de fonctionnalité :** *Appliquer les règles de regroupement d’ordres de travail lors de l’exécution d’un plan de maintenance*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Configurer le regroupement pour les ordres de travail générés automatiquement
 
@@ -95,3 +90,6 @@ Pour configurer le regroupement pour les ordres de travail générés automatiqu
 1. Si vous souhaitez que les options s’appliquent lorsque vous n’exécutez que certains de vos plans de maintenance, sur l’organisateur **Enregistrements à inclure**, ajoutez des filtres selon vos besoins, comme vous pourriez le faire pour d’autres tâches de traitement par lots dans Microsoft Dynamics 365 Supply Chain Management.
 1. Sur l’organisateur **Exécuter à l’arrière-plan**, configurez les options de traitement par lots et de planification selon vos besoins, comme vous le feriez pour d’autres tâches de traitement par lots dans Supply Chain Management.
 1. Sélectionnez **OK** pour exécuter et/ou planifier les plans de maintenance sélectionnés.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

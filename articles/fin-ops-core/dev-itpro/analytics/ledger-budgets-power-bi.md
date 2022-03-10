@@ -2,7 +2,6 @@
 title: Contenu Power BI Comparatif Réel/Budget
 description: Cette rubrique décrit le contenu Power BI Comparatif Réel/Budget. Elle explique comment accéder aux rapports et fournit des informations sur le modèle de données.
 author: panolte
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f3e2f62b666559ba9a356e4948c2033da9cc95d5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737901"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenu Power BI Comparatif Réel/Budget
 
@@ -39,8 +38,8 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 
 | Etat                      | Métriques                                                                             |
 |-----------------------------|-------------------------------------------------------------------------------------|
-| Dépenses - comparatif Réel/Budget | <ul><li>Dépenses totales de cette année</li><li>Dépenses totales de cette année</li></ul>  |
-| Produit - Comparatif Réel/Budget  | <ul><li>Produit total de cette année</li><li>Produit total basé sur le budget de cette année</li><ul>     |
+| Dépenses – comparatif Réel/Budget | <ul><li>Dépenses totales de cette année</li><li>Dépenses totales de cette année</li></ul>  |
+| Produit – Comparatif Réel/Budget  | <ul><li>Produit total de cette année</li><li>Produit total basé sur le budget de cette année</li><ul>     |
 | Dépense                     | <ul><li>Dépenses totales de cette année</li><li>Objectif des dépenses basées sur le budget</li><ul> |
 | Produit                     | <ul><li>Produit total de cette année</li><li>Objectif des produits basés sur le budget</li><ul>   |
 | Revenu net                  | <ul><li>Revenu net de cette année</li><li>Objectif du revenu net basé sur le budget</li><ul>   |

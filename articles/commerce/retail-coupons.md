@@ -1,8 +1,8 @@
 ---
 title: Paramétrer des coupons pour les ventes au détail
-description: Cette rubrique fournit une vue d’ensemble des coupons et décrit leur paramétrage.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Cette rubrique fournit une vue d’ensemble des coupons et décrit leur paramétrage dans Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
-ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5906647"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603121"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Paramétrer des coupons pour les ventes au détail
 
@@ -39,7 +39,9 @@ Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vo
 > [!NOTE]
 > Après avoir lié un coupon à une remise, plusieurs champs de la page de la remise dans Commerce passent en lecture seule car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.
 > 
-> Lorsque vous utilisez le coupon dans le canal du centre d'appels, vous devez sélectionner le bouton **Recalculer** **(Onglet Vendre > Calculer > Recalculer)** pour que la réduction associée au coupon soit appliquée. Cette étape supplémentaire sera supprimée dans une prochaine version.
+> Lorsque vous utilisez le coupon dans le canal du centre d’appels, vous devez sélectionner le bouton **Recalculer** **(Onglet Vendre > Calculer > Recalculer)** pour que la réduction associée au coupon soit appliquée. Cette étape supplémentaire sera supprimée dans une prochaine version.
+
+Pour appliquer un coupon à une transaction de vente en point de vente (PDV), vous pouvez utiliser le **Code promo** ou le **Code à barres du coupon**. Pour utiliser le **Code coupon**, l'opération **Ajouter un code coupon** doit être configuré dans le PDV **Transaction** [écran mise en page](pos-screen-layouts.md). Sélectionnez **Ajouter un code coupon** et entrez le code coupon. Autrement, pour utiliser le **Code à barres du coupon**, scannez le code-barres ou saisissez le code-barres à l'aide du clavier numérique sur l'écran **Transaction**.
 
 ### <a name="limited-use-coupons"></a>Coupons à utilisation limitée
 

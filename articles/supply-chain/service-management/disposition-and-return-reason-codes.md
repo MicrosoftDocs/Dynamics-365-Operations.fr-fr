@@ -1,28 +1,25 @@
 ---
 title: Vue d’ensemble des retours client
 description: Créez et utilisez des codes motif de retour et des codes disposition pour prendre en charge le processus de retour de produits.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c352c91ee9a6ae97d8cab12abb8a91e77a3d2b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0f0231cf33c9b422adc08e7244915ab8235b18ca
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247380"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983767"
 ---
 # <a name="customer-returns-overview"></a>Vue d’ensemble des retours client
 

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1dba179e47f586d7fe689b4a021eb9003eb0d9fc
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 8f28e3fb603fde2c19669e9936ea0bdcfc866d0e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051855"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065916"
 ---
 # <a name="set-up-flex-credit-programs"></a>Configuration de programmes de crédits flexibles
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

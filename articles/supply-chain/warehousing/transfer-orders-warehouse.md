@@ -2,11 +2,9 @@
 title: Paramétrage des entrepôts pour les ordres de transfert
 description: Cette rubrique décrit la procédure de paramétrage des entrepôts pour les ordres de transfert.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: e01629982bb383078e90ff3dad0592371f44bd1b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6de9df2749836c68bc4e9f92a6934516ff9c1d469374f0d63173a209c841ba38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756725"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Paramétrage des entrepôts pour les ordres de transfert 
 

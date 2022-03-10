@@ -2,13 +2,11 @@
 title: Enregistrer les baux dans des devises étrangères
 description: Cette rubrique explique comment enregistrer les contrats de location dans des devises autres que la devise comptable ou de reporting.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd4d04ae7e89b8ce41ed745c643b8e736484789d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 91bf3f91614f0dd4835c253456128c9ced046749c0e13383590e01dfd436c921
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766335"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Enregistrer les baux dans des devises étrangères
 

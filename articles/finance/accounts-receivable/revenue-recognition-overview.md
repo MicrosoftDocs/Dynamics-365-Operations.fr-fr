@@ -1,25 +1,24 @@
 ---
-title: Vue d’ensemble de la fonctionnalité de prise en compte de revenu
+title: Présentation de la prise en compte de revenu (contient une vidéo)
 description: Cette rubrique fournit des informations sur la fonctionnalité de prise en compte de revenu. Elle offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit pour les commandes comportant plusieurs éléments.
 author: kweekley
 ms.date: 11/11/2019
-ms.topic: index-page
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42d126c598ee1811b686a9066e15e9f82264e4ce
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339261"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982585"
 ---
 # <a name="revenue-recognition-overview"></a>Vue d’ensemble de la fonctionnalité de prise en compte de revenu
 
@@ -39,9 +38,9 @@ En général le processus de prise en compte de revenu peut être utilisé pour 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-La vidéo [Utilisation de la prise en compte de revenu dans Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (affichée ci-dessus) est incluse dans la liste de lecture [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Utilisation de la constatation du produit dans Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (affichée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
-La fonctionnalité de prise en compte de revenu offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit.
+La fonctionnalité de constatation du produit offre un cadre flexible qui vous permet de définir des règles spécifiques pour identifier le prix et l’échéancier de produit.
 
 Les produits lancés permettent de prendre en charge la prise en compte de revenu dans les documents de commande client. Les produits lancés contiennent le paramétrage requis pour déterminer le prix et l’échéancier de produit. La commande client peut provenir d’un projet en régie.
 

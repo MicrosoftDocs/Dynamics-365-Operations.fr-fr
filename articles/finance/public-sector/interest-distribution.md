@@ -1,32 +1,30 @@
 ---
 title: Paramétrer la distribution d’intérêts pour les comptes de disponibilités
 description: Cette rubrique explique comment configurer vos comptes de disponibilités participants dans la page de règles de distribution d’intérêts. Vous devez effectuer ce paramétrage avant de distribuer les intérêts.
-author: velofog
-manager: AnnBe
-ms.date: 06/14/2019
+author: v-kiarnd
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNLedgerInterestDistributionRules, PSNLedgerInterestDistributionResults
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: roschlom
+ms.author: v-kiarnd
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: dd02e521c74888b81ae0d0b5f1a2fe3abdfce2dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2c85fff681be70f505e47a9e783284a5b1619fb
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407987"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890688"
 ---
 # <a name="set-up-interest-distribution-for-cash-accounts"></a>Paramétrer la distribution d’intérêts pour les comptes de disponibilités
 
 [!include[banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Votre agence peut affecter (distribuer) les intérêts sur un compte bancaire à des comptes généraux spécifiques, selon le solde quotidien moyen dans les comptes de disponibilités. Cette procédure vous permet de générer une écriture comptable avancée pour les montants d’intérêts. Sinon, vous pouvez générer les montants d’intérêts pour révision, sans les valider.
 
@@ -71,6 +69,17 @@ Avant distribuiez les intérêts, vous devez paramétrer vos comptes de disponib
 
 6. Cliquez sur **OK**. Un message affiche le numéro de l’écriture comptable avancée qui est automatiquement créée.
 
+## <a name="pre-processing-for-increased-performance"></a>Pré-traitement pour des performances accrues
+
+Si votre organisation modifie fréquemment le plan comptable ou les comptes liés aux comptes de trésorerie, le processus de distribution des intérêts peut prendre beaucoup de temps. Vous pouvez cependant réduire cette durée en utilisant la fonctionnalité **Utiliser le traitement par lots pour mettre à jour les comptes pour la répartition des intérêts** pour configurer le prétraitement pour ces comptes. 
+ 
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+ 
+- **Module :** Comptabilité
+- **Nom de la fonctionnalité :** utilisez le traitement par lots pour mettre à jour les comptes pour la répartition des intérêts
+ 
+Lorsque vous activez la fonctionnalité, le système configure deux traitements par lots. Un premier traitement par lots sera exécuté une fois pour pré-traiter les données et les règles utilisées dans le processus de distribution des intérêts. Un travail par lots récurrent nommé **Exécuter le prétraitement planifié des comptes du grand livre utilisés pour la répartition des intérêts** sera également créé. Par défaut, le processus sera réexécuté tous les soirs. Cependant, vous pouvez modifier la fréquence dans la zone des traitements par lots.
+
 ## <a name="calculated-amounts"></a>Montants calculés
 
 Le processus de répartition de la distribution d’intérêts inclut des montants calculés.
@@ -81,3 +90,6 @@ Le processus de répartition de la distribution d’intérêts inclut des montan
 | Moyenne journalière totale   | Somme de tous les soldes quotidiens moyens, sauf les montants négatifs des comptes de disponibilités qui ne permettent pas des comptes d’intérêts et de disponibilités négatifs qui ne participent pas à la distribution d’intérêts. |
 | Pourcentage du total      | Montant du solde quotidien moyen divisé par le montant moyen quotidien total pour chaque combinaison de compte de disponibilité et de subvention. |
 | Intérêts affectés    | Montant total des intérêts de la page **Paramètres de distribution d’intérêts**, multiplié par le pourcentage du montant total du compte de disponibilités. Les intérêts ne sont pas répartis sur les comptes de disponibilités ayant des montants négatifs et qui ne permettent pas d’intérêts négatifs. Les intérêts ne sont également pas répartis sur les comptes de disponibilités qui ne participent pas à la distribution d’intérêts. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

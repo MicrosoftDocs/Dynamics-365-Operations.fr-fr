@@ -1,28 +1,28 @@
 ---
 title: Page d’accueil de la fonctionnalité de budgétisation
 description: Cette rubrique fournit une vue d’ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d’états dans Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5222df8ffd3e0cb8759f7c094e5efde97d2ede0c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210263"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983950"
 ---
 # <a name="budgeting-home-page"></a>Page d’accueil de la fonctionnalité de budgétisation
 
@@ -30,12 +30,11 @@ ms.locfileid: "5210263"
 
 Cette rubrique fournit une vue d’ensemble des composants de la fonctionnalité de budget, des outils de budgétisation et des fonctionnalités de génération d’états. 
 
-<a name="components-of-budgeting-functionality"></a>Composants de la fonctionnalité de budgétisation
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Composants de la fonctionnalité de budgétisation
 
 Le cycle de planification des ressources pour une société comporte généralement des activités de planification, de budgétisation et de prévision.
 
-[![Composants de la fonctionnalité de budgétisation](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Composants de la fonctionnalité de budgétisation.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Les processus de planification stratégique à long terme et de planification budgétaire annuelle sont pris en charge par un document de plan budgétaire. Les documents de plan budgétaire sont étroitement intégrés avec Microsoft Excel. Les utilisateurs peuvent configurer des scénarios monétaires et quantitatifs illimités, et définir une hiérarchie organisationnelle de budgétisation pour prendre en charge les méthodes de budgétisation du haut-en-bas et de bas-en-haut. Une fois que le budget est établi et approuvé dans l’application, vous devez convertir le plan budgétaire en écriture du registre budgétaire. Les écritures du registre budgétaires fournissent des outils pour tenir à jour le budget et pour conserver la trace des montants grâce à des codes budgétaires. Les écritures du registre budgétaires permettent de réviser les budgets d’origine, effectuer des transferts et reporter des montants budgétaires de l’année précédente. Selon le budget établi, une société peut activer le contrôle budgétaire. Le niveau de contrôle dépend du niveau de la culture organisationnelle et du niveau de maturité de l’organisation. Les organisations qui ont un faible niveau de maturité peuvent laisser le budget « tel quel » et être plus réactives que proactives si un budget ne respecte pas leurs attentes. D’autres organisations peuvent activer les stratégies de contrôle budgétaire qui empêchent les utilisateurs d’acheter si les fonds budgétaires ne sont pas disponibles.
 
@@ -49,7 +48,7 @@ Enfin, les organisations très mûres peuvent créer une culture organisationnel
 -   [Modèles de planification budgétaire pour Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Outils de budgétisation
-[![Outils de budgétisation](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Outils de budgétisation.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 D’autres fonctionnalités de planification et de budgétisation sont disponibles et sont intégrées aux budgets comptables.
 

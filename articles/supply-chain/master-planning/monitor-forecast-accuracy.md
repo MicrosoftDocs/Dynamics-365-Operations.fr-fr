@@ -1,7 +1,7 @@
 ---
 title: Contrôler la précision de la prévision
 description: Cette rubrique décrit les types de précision de prévision que Dynamics 365 Supply Chain Management calcule, et explique comment vous pouvez afficher les valeurs de précision.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db8b9fdaf05f58d1386513348c11fcc54887d9c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4246a277aa5d88193c18336cb1de69916ec2a3c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826465"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565781"
 ---
 # <a name="monitor-forecast-accuracy"></a>Contrôler la précision de la prévision
 
@@ -38,8 +38,7 @@ Supply Chain Management calcule les types de précision de prévision suivants :
 > Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, le calcul de la précision du modèle interne est basé sur l’ensemble de données de test. Pour spécifier la taille de l’ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Autoriser un ajustement de la prévision de demande](authorize-adjusted-forecast.md)
 

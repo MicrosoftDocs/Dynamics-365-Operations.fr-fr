@@ -1,7 +1,7 @@
 ---
 title: Règles d’affectation comptable
 description: Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
-author: ShylaThompson
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61b332470a42d23ec039c7a32529f84e8e5c9d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826568"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726869"
 ---
-# <a name="ledger-allocation-rules"></a>Règles d’affectation comptable
+# <a name="ledger-allocation-rules"></a>Règles d'affectation comptable
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
+Cette rubrique fournit des informations générales sur les règles de répartition comptable. Il décrit les différents composants de ces règles de répartition et les méthodes de répartition utilisables pour elles.
 
 Les règles de répartition comptable permettent de calculer et de générer automatiquement les journaux de répartition et les écritures de compte pour la répartition des soldes comptables ou des montants fixes. Les modes de répartition peuvent être variables ou fixes. Les modes de répartition suivants peuvent être utilisés pour les règles de répartition comptable :
 
