@@ -1,24 +1,24 @@
 ---
 title: Copier des fournisseurs à l’aide de souches de numéros partagées
 description: Cette rubrique explique comment utiliser des souches de numéros partagées pour copier un fournisseur dans une autre entité juridique tout en conservant le même ID fournisseur.
-author: mikefalkner
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3a70b268e7fd02a12c85082c651edb6fa0ac3072
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814270"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358463"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copier des fournisseurs à l’aide de souches de numéros partagées
 
@@ -36,9 +36,9 @@ Vous pouvez également copier des fournisseurs entre entités juridiques si vous
 
 ## <a name="copy-a-vendor"></a>Copier un fournisseur
 
-Pour copier un fournisseur, sélectionnez **Nouveau** dans la page de liste **Tous les fournisseurs** pour ouvrir la page **Tous les fournisseurs, nouvel enregistrement**. Notez que le nouvel ID fournisseur n’est pas affecté immédiatement. Ce comportement diffère de celui des versions précédentes. Comme vous n’avez pas encore sélectionné le groupe de fournisseurs, le système ne peut pas déterminer la souche de numéros appropriée à utiliser. En outre, il ne peut pas déterminer si vous essayez de créer un fournisseur ou de copier un fournisseur. Par conséquent, l’ID fournisseur n’est pas affecté tant que vous ne cliquez pas sur **Enregistrer** en bas de la page.
+Pour copier un fournisseur, sélectionnez **Nouveau** dans la page de liste **Tous les fournisseurs** pour ouvrir la page **Tous les fournisseurs, nouvel enregistrement**. Le nouvel ID fournisseur n’est pas affecté immédiatement. Ce comportement diffère de celui des versions précédentes. Comme vous n’avez pas encore sélectionné de groupe de fournisseurs, le système ne peut pas déterminer la souche de numéros à utiliser. En outre, il ne peut pas déterminer si vous essayez de créer un fournisseur ou de copier un fournisseur. Par conséquent, l’ID fournisseur n’est pas affecté tant que vous ne cliquez pas sur **Enregistrer** en bas de la page.
 
-Si vous créez un nouveau fournisseur, vous pouvez continuer à renseigner tous les champs comme vous le faites habituellement. Lorsque vous avez terminé et que vous cliquez sur **Enregistrer**, vous verrez que l’ID fournisseur a été affecté automatiquement. Sinon, pour les souches de numéros manuelles, vous verrez que votre ID fournisseur manuel a été utilisé.
+Si vous créez un nouveau fournisseur, vous pouvez continuer à renseigner tous les champs comme vous le faites habituellement. Lorsque vous avez terminé et que vous cliquez sur **Enregistrer**, l’ID fournisseur est affecté automatiquement. Sinon, pour les souches de numéros manuelles, vous verrez que votre ID fournisseur manuel a été utilisé.
 
 Pour copier un fournisseur, dans le champ **Nom**, entrez un ou plusieurs caractères qui représentent le fournisseur que vous recherchez. Une boîte de dialogue de recherche affiche une liste de parties qui peuvent représenter le fournisseur que vous recherchez. Lorsque vous sélectionnez une des parties, des informations supplémentaires s’affichent à droite de la boîte de dialogue :
 
@@ -58,7 +58,7 @@ Lorsque vous copiez un fournisseur, le système essaie d’enregistrer les nouve
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Copie d’un fournisseur à l’aide de la fonction de recherche du numéro identifiant TVA
 
-Vous pouvez également copier des fournisseurs à l’aide de la fonction de recherche du numéro identifiant TVA qui est disponible dans le groupe **Enregistrement** sous l’onglet **Fournisseurs** du volet Actions de la page **Tous les fournisseurs**. La boîte de dialogue **Recherche du numéro identifiant TVA** qui s’affiche répertorie les numéros identifiant TVA, l’ID fournisseur, le nom du fournisseur et l’entité juridique où l’ID identifiant TVA est utilisé. Vous pouvez copier un fournisseur uniquement s’il se trouve dans une entité juridique qui n’est pas l’entité juridique actuelle. Après avoir sélectionné un fournisseur qui répond à ce critère, procédez comme suit.
+Vous pouvez également copier des fournisseurs à l’aide de la fonction de recherche du **numéro identifiant TVA** qui est disponible dans le groupe **Enregistrement** sous l’onglet **Fournisseurs** du volet Actions de la page **Tous les fournisseurs**. La boîte de dialogue **Recherche du numéro identifiant TVA** qui s’affiche répertorie les numéros identifiant TVA, l’ID fournisseur, le nom du fournisseur et l’entité juridique où l’ID identifiant TVA est utilisé. Vous pouvez copier un fournisseur uniquement s’il se trouve dans une entité juridique qui n’est pas l’entité juridique actuelle. Après avoir sélectionné un fournisseur qui répond à ce critère, procédez comme suit.
 
 1. L’option **Copier un fournisseur** s’affiche. Par défaut, cette option est définie sur **Non**. Pour copier le fournisseur dans l’entité juridique actuelle, définissez l’option sur **Oui**.
 2. Cliquez sur **Sélectionner**. Le nouveau fournisseur est créé.
