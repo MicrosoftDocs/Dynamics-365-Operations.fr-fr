@@ -2,7 +2,7 @@
 title: Proposition de résiliation de bail
 description: Cette rubrique explique comment proposer la résiliation d’un bail.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 657bd2aa32179941e4103fea31f813688ad478ac6e9902212c976a92620b2e67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717495"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proposer la résiliation d’un bail
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Si un bail est résilié prématurément, le leasing d’actifs peut enregistrer une écriture de journal de résiliation pour radier le passif de location, l’actif de droit d’utilisation (ROU) et l’amortissement cumulé, et comptabiliser un gain ou une perte. Le processus de résiliation anticipée met fin à un bail et aux registres associés. Il ne met pas fin aux registres des baux individuels. Cette rubrique décrit la fonctionnalité qui vous permet de proposer un bail pour résiliation et de traiter l’écriture de journal de résiliation de bail.
 

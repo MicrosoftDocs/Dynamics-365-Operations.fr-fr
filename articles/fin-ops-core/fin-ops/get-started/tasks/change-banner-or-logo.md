@@ -2,7 +2,6 @@
 title: Modifier la bannière ou le logo
 description: La procédure suivante répertorie les étapes que les administrateurs système peuvent utiliser pour mettre à jour l’image de bannière ou de logo affichée pour une entité juridique.
 author: aneesmsft
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,16 +13,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6004bafc721a1ceb3ec531d4f222d0ac93e89728
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ee62376da24adbbe09cb039c095197067f2db59c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566318"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069346"
 ---
 # <a name="change-the-banner-or-logo"></a>Modifier la bannière ou le logo
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 La procédure suivante répertorie les étapes que les administrateurs système peuvent utiliser pour mettre à jour l’image de bannière ou de logo affichée pour une entité juridique. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 

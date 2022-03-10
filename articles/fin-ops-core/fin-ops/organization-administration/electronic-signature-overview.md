@@ -2,27 +2,27 @@
 title: Vue d’ensemble des signatures électroniques
 description: Cet article fournit une vue d’ensemble des signatures électroniques et décrit la manière de les utiliser.
 author: maertenm
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 13611
+ms.custom:
+- "13611"
+- intro-internal
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df7f842477ddfb88662f37ae311215f08c6b0173
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e9f80ecef043a697d288fed99e3118e268d4f993
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693182"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983640"
 ---
 # <a name="electronic-signatures-overview"></a>Vue d’ensemble des signatures électroniques
 
@@ -109,3 +109,6 @@ Pour désigner des approbateurs, procédez comme suit :
 1. Sur la page **Options**, sur l’onglet **Comptes**, cliquez sur **Désigner l’approbateur**.
 2. Dans le champ **ID utilisateur approbateur**, sélectionnez l’ID de l’utilisateur qui doit signer les modifications d’un autre utilisateur.
 3. Dans le champ **Signer pour l’ID utilisateur**, sélectionnez l’ID de l’utilisateur dont les modifications doivent être signées.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

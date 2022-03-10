@@ -1,8 +1,8 @@
 ---
-title: Gérer l’unité de mesure
-description: Cette procédure décrit comment définir une unité de mesure, fournir des traductions pour l’unité et sa description, et définir des règles de conversion pour les unités associées.
-author: sorenva
-ms.date: 07/08/2018
+title: Gérer les unités de mesure
+description: Cette rubrique décrit comment définir une unité de mesure, fournir des traductions pour l’unité et sa description, et définir des règles de conversion pour les unités associées.
+author: t-benebo
+ms.date: 04/09/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,56 +10,118 @@ ms.search.form: EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, 
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: sorenand
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966e189e7395bec15d2c62735c6df3df2ab34b8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817963"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565517"
 ---
-# <a name="manage-unit-of-measure"></a>Gérer l’unité de mesure
+# <a name="manage-units-of-measure"></a>Gérer les unités de mesure
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment définir une unité de mesure, fournir des traductions pour l’unité et sa description, et définir des règles de conversion pour les unités associées. Vous pouvez découvrir cette procédure à l’aide de la société fictive de démonstration USMF ou de vos propres données.
+Cette rubrique décrit comment définir une unité de mesure, fournir des traductions pour l’unité et sa description, et définir des règles de conversion pour les unités associées.
 
-1. Accédez à **Volet de navigation > Modules > Gestion d’informations sur les produits > Gestion des produits lancés**.
-2. Cliquez sur **Unités**.
+## <a name="open-the-units-page"></a>Ouvrir la page Unités
 
-## <a name="create-a-unit-of-measure"></a>Créer une unité de mesure
-1. Cliquez sur **Nouveau**.
-2. Dans le champ **Unité**, tapez une valeur. Entrez l’ID ou le symbole à utiliser en se rapportant à l’unité de mesure.  
-3. Tapez une valeur dans le champ **Description**. Entrez un nom descriptif pour l’unité de mesure dans la langue du système.  
-4. Dans le champ **Classe d’unités**, sélectionnez une option. Une classe d’unités définit le regroupement logique, tel que la superficie, la masse ou la quantité, dont l’unité de mesure fait partie.  
-5. Dans le champ **Précision décimale**, entrez un nombre. Indiquez le nombre de décimales auxquelles l’unité de mesure convertie doit être arrondie lorsqu’un calcul est réalisé pour l’unité de mesure.  
-6. Cliquez sur **Enregistrer**.
+Pour créer et utiliser les unités de mesure disponibles dans votre système, accédez à **Administration d’organisation \> Paramétrage \> Unités \> Unités**.
+
+Les sections restantes de cette rubrique décrivent ce que vous pouvez faire sur la page **Unités**.
+
+## <a name="create-standard-units-and-conversions"></a>Créer des unités standard et des conversions
+
+Si votre système n'inclut pas déjà les unités de mesure les plus couramment utilisées pour le système métrique et/ou le système coutumier américain (USCS), l'assistant de configuration des unités peut vous aider à démarrer rapidement avec les définitions et les conversions d'unités de base. Pour exécuter l'assistant, sélectionnez **Assistant Création d'unités** dans le volet Actions, puis suivez les instructions à l'écran.
+
+## <a name="create-or-edit-a-unit-of-measure"></a>Créer ou modifier une unité de mesure
+
+Pour créer ou modifier une unité de mesure, procédez comme suit :
+
+1. Utilisez l’une des procédures suivantes :
+
+    - Pour modifier une unité existante, sélectionnez-la dans le volet de liste.
+    - Pour créer une unité, sélectionnez **Nouveau** dans le volet Action.
+
+1. Dans l’en-tête de l'enregistrement, définissez les champs suivants :
+
+    - **Unité** - Entrez l'ID ou le symbole à utiliser pour faire référence à l'unité dans la langue du système. Cet identifiant ou symbole est généralement une abréviation courante pour l'unité, telle que *ch* pour chaque ou *cm* pour centimètre.
+    - **Description** – Entrez un nom descriptif pour l’unité dans la langue du système. Ce nom est généralement le nom complet de l'unité, tel que *Chaque* ou *Centimètre*.
+
+1. Dans l’organisateur **Général**, définissez les champs suivants :<!-- KFM: confirm this:    - **Fixed unit assignment** and **Fixed unit** – These fields have an effect only if you're using the Microsoft Retail Essentials product. If the current unit can be mapped to one of the fixed units that are used by Retail Essentials, set the **Fixed unit assignment** option to *Yes*. Then select the fixed unit in the **Fixed unit** field. -->
+
+    - **Classe d'unité** - Sélectionnez la propriété que l'unité mesure (telle que la longueur, la surface, la masse ou la quantité).
+    - **Système d'unités** - Sélectionnez le système de mesure auquel appartient l'unité (*Unités métriques* ou *Unités de mesure américaines*).
+    - **Unité de base** - Définissez cette option sur *Oui* pour utiliser l'unité actuelle comme unité de base pour sa classe d'unité. Dans ce cas, il vous suffit de spécifier le facteur de conversion entre l'unité de base et chaque unité supplémentaire de la classe d'unités. Le système peut alors effectuer la conversion entre toutes les unités de cette classe d'unités. Par conséquent, il est plus facile de configurer des conversions.
+
+        Par exemple, si le litre est l'unité de base de la classe d'unité *Volume*, il vous suffit de configurer des facteurs de conversion de gallon en litre et de litre en gallon. Le système peut alors également convertir de litre en pinte.
+
+        Vous ne pouvez avoir qu'une seule unité de base par classe d'unités.
+
+    - **Unité système** - Définissez cette option sur *Oui* pour utiliser l'unité actuelle comme unité supposée pour toutes les mesures non spécifiées dans une classe d'unités. Par exemple, si un champ utilisé pour saisir une quantité ne permet pas de spécifier une unité (ou si l'utilisateur n'en sélectionne pas), le système utilise l'unité définie comme unité système pour la classe d'unités *Quantité*. Vous ne pouvez avoir qu'une seule unité système par classe d'unités.
+    - **Précision décimale** - Spécifiez le nombre de décimales auxquelles les valeurs spécifiées pour l'unité actuelle ou les conversions doivent être arrondies.
+
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 ## <a name="define-unit-translations"></a>Définir des traductions d’unité
-1. Dans le volet **Actions**, cliquez sur **Textes d’unité**.
-2. Cliquez sur **Nouveau**. Utilisez le texte d’unité pour créer une traduction de l’ID ou d’un symbole représentant l’unité de mesure à utiliser sur des documents externes dans les langues du client ou spécifiques au fournisseur.  
-3. Dans le champ **Langue**, saisissez ou sélectionnez une valeur.
-4. Tapez une valeur dans le champ **Texte**.
-5. Cliquez sur **Enregistrer**.
-6. Fermez la page.
-7. Dans le volet **Actions**, cliquez sur **Descriptions de l’unité traduite**.
-8. Cliquez sur **Nouveau**. Définissez des descriptions spécifiques à une langue pour l’unité de mesure.  
-9. Dans le champ **Langue**, saisissez ou sélectionnez une valeur.
-10. Tapez une valeur dans le champ **Description**.
-11. Cliquez sur **Enregistrer**.
-12. Fermez la page.
+
+Pour définir les traductions de l'ID ou du symbole et la description d'une unité de mesure, procédez comme suit :
+
+1. Créez ou sélectionnez l'unité pour laquelle créer des traductions.
+1. Dans le volet Actions, cliquez sur **Textes d’unité**.
+
+    La page **Textes d’unité** apparaît. Cette page permet de définir les traductions de l'ID ou du symbole de l'unité sélectionnée. Ces traductions peuvent ensuite être utilisées sur des documents externes dans des langues spécifiques au client ou au fournisseur.
+
+1. Dans le volet Actions, sélectionnez **Nouveau**.
+1. Dans le champ **Langue**, sélectionnez la langue dans laquelle traduire l'ID unité ou le symbole.
+1. Dans le champ **Texte**, saisissez la traduction de l'ID unité ou du symbole dans la langue sélectionnée.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Fermez la page.
+1. Dans le volet **Actions**, sélectionnez **Descriptions de l’unité traduite**.
+
+    La page **Descriptions de l'unité traduite** apparaît. Cette page permet de définir des descriptions spécifiques à la langue de l'unité sélectionnée.
+
+1. Dans le volet Actions, sélectionnez **Nouveau**.
+1. Dans le champ **Langue**, sélectionnez la langue dans laquelle traduire la description de l’unité.
+1. Dans le champ **Description**, saisissez la traduction de la description de l’unité dans la langue sélectionnée.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Fermez la page.
 
 ## <a name="define-unit-conversion-rules"></a>Définir des règles de conversion d’unités
-1. Dans le volet **Actions**, cliquez sur **Conversion d’unités**. Définissez les règles pour convertir l’unité de mesure vers et depuis d’autres unités de mesure appartenant à la classe d’unités sélectionnée.  
-2. Cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
-3. Dans le champ **Facteur**, entrez un nombre. Facteur de conversion entre l’Unité d’origine et l’Unité de destination. Par exemple, le facteur de conversion du centimètre vers le mètre est 100, car il y a 100 centimètres dans 1 mètre.  
-4. Dans le champ **Unité de destination**, saisissez ou sélectionnez une valeur.
-5. Dans le champ **Arrondi**, sélectionnez une option. Définissez l’arrondi de la valeur convertie.  
-6. Cliquez sur **OK**.
-7. Fermez la page.
 
+Pour définir des règles de conversion entre unités de mesure, procédez comme suit :
 
+1. Créez ou sélectionnez l'unité pour laquelle définir des règles de conversion.
+1. Dans le volet Actions, cliquez sur **Conversions d'unités**.
+
+    La page **Conversions d’unités** s’ouvre. Cette page permet de définir des règles pour convertir l’unité sélectionnée vers et depuis d’autres unités appartenant à la classe d’unités.
+
+1. Sélectionnez l’un des onglets suivants, selon le type de conversion que vous souhaitez paramétrer :
+
+    - **Conversions standard** – Pour paramétrer des règles de conversion standard qui s'appliquent à tous les produits.
+    - **Conversions intra-classe** – Pour paramétrer des règles de conversion spécifiques à un produit pour les unités de mesure appartenant à la même classe d'unités.
+    - **Conversions inter-classe** – Pour paramétrer des règles de conversion spécifiques à un produit pour les unités de mesure appartenant à plusieurs classes d'unités.
+
+1. Utilisez l’une des procédures suivantes :
+
+    - Pour créer une conversion, sélectionnez **Nouveau** dans la barre d'outils.
+    - Pour modifier une conversion existante, sélectionnez la conversion dans la grille, puis sélectionnez **Modifier** dans la barre d'outils.
+
+1. Dans la boîte de dialogue déroulante qui s’affiche, sélectionnez les champs suivants :
+
+    - **Produit** - Sélectionnez le produit spécifique auquel s'applique la conversion. Ce champ n'est disponible que pour les conversions intra-classes et inter-classes.
+    - **Disposition de la formule** - Laissez ce champ défini sur *Simple* pour spécifier une conversion simple qui a un seul facteur. Définissez ce champ sur *Avancé* pour mettre en place une équation plus complexe. Le format des équations avancées varie en fonction de la classe d'unité.
+    - **Unité d’origine** - Ce champ affiche l'unité sélectionnée. En règle générale, vous ne devez pas modifier la valeur. (Si vous modifiez la valeur, vous devez ouvrir la page **Conversions d'unités** de l'unité sélectionnée pour afficher votre nouvelle conversion après l'avoir enregistrée.)
+    - **Unité de destination** - Sélectionnez l'unité vers laquelle effectuer la conversion.
+    - **Arrondi** - Sélectionnez la manière dont les fractions doivent être arrondies, en fonction de la valeur du champ **Précision décimale** de l'unité sélectionnée (*Au plus proche*, *Haut* ou *Bas*).
+    - **Formule de conversion** - Utilisez les champs restants en haut de la boîte de dialogue déroulante pour spécifier la formule de conversion entre les deux unités. Les champs disponibles varient en fonction de la classe d'unité et de la disposition de formule que vous avez sélectionnées.
+
+1. Cliquez sur **OK**.
+1. Fermez la page.
+
+> [!TIP]
+> Vous pouvez également configurer des conversions d'unités par variante de produit. Pour plus d’informations, consultez [Conversion d’unité de mesure selon la variante de produit](../uom-conversion-per-product-variant.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

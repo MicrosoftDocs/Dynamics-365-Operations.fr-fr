@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: feee33a7d4ea3f0d9c4d671210293a28aac14f61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823165"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103786"
 ---
 # <a name="wave-allocation"></a>Répartition des vagues
 
@@ -78,7 +77,7 @@ Le traitement en parallèle de la répartition implique de exécuter en traiteme
 
 Si nécessaire, vous pouvez annuler chacun des paramètres définis par défaut lorsque la fonctionnalité *Parallélisation des vagues pour la méthode Allocate Wave* est automatiquement activée pour votre instance. Pour ce faire :
 
-- Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**. Sur l’onglet **Traitement des vagues**, appliquez vos valeurs préférées pour **Traiter les vagues par lots** et **Attendre le verrouillage (ms)**.
+- Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**. Sur l’onglet **Traitement des vagues**, appliquez vos valeurs préférées pour **Traiter les vagues par lots** et **Attendre le verrouillage (ms)**.
 - Accédez à **Gestion des entrepôts \> Paramétrage \> Vagues \> Méthodes de traitement de la vague**. Sélectionnez la méthode `allocateWave`. Dans le volet Actions, sélectionnez **Configuration des tâches** pour ouvrir une page qui répertorie chaque entrepôt où la méthode est définie pour s’exécuter en parallèle. Modifiez ou supprimez le nombre de tâches de traitement par lots et le groupe de vagues affecté pour chaque entrepôt répertorié, selon vos besoins.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes

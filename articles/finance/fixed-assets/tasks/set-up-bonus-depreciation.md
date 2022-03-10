@@ -1,27 +1,24 @@
 ---
 title: Paramétrage de l’amortissement de la prime
 description: Cette procédure indique comment créer une provision spéciale pour amortissement et l’associer à un registre d’immobilisations.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91243a4cee44410a221902990d31a10f1805eb08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6bfa433c07a2acb37c8e73dfa5db7d1e1715cd1d
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443092"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883668"
 ---
 # <a name="set-up-bonus-depreciation"></a>Paramétrage de l’amortissement de la prime
 
@@ -49,3 +46,6 @@ Cette procédure indique comment créer une provision spéciale pour amortisseme
     * La valeur par défaut du pourcentage ou du montant provient du paramétrage de la provision spéciale pour amortissement.  
 8. Dans le champ Priorité, entrer un numéro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

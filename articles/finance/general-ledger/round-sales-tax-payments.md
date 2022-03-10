@@ -1,8 +1,8 @@
 ---
 title: Règles d’arrondissement et de paiements de taxe
-description: Cet article explique le fonctionnement du paramétrage de la règle d’arrondi sur les administrations fiscales et de l’arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
-author: ShylaThompson
-ms.date: 04/20/2020
+description: Cette rubrique explique le fonctionnement du paramétrage de la règle d’arrondi sur les administrations fiscales et de l’arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
+author: kailiang
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: riluan
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edbe92d009c77702a21d32afb5aebe93bc5e2ee0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815378"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726798"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Règles d’arrondissement et de paiements de taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cet article explique le fonctionnement du paramétrage de la règle d’arrondi sur les administrations fiscales et de l’arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
+Cette rubrique explique le fonctionnement du paramétrage de la règle d’arrondi sur les administrations fiscales et de l’arrondi du solde de taxe au cours de la tâche Régler et valider la taxe.
 
-Régulièrement, la taxe doit être déclarée et payée à l’administration fiscale. Pour ce faire, exécutez le processus de règlement et de validation de la taxe sur la page Taxe. La taxe pour une période sera réglée pour des comptes de taxe et le solde de taxe sera validé dans le compte de règlement de la taxe. Le solde de la taxe, qui est validé sur le compte de règlement de la taxe, peut être arrondi comme requis par l’administration fiscale en définissant une règle d’arrondissement sur la page Taxe. 
+Régulièrement, la taxe doit être déclarée et payée à l’administration fiscale. Cette action peut être effectuée en exécutant le processus de règlement et de comptabilisation de la taxe de vente sur la page **Taxe de vente**. La taxe pour une période sera réglée pour des comptes de taxe et le solde de taxe sera validé dans le compte de règlement de la taxe. Le solde de la taxe, qui est validé sur le compte de règlement de la taxe, peut être arrondi comme requis par l’administration fiscale en définissant une règle d’arrondissement sur la page **Taxe de vente**. 
 
 La différence d’arrondissement est validée sur le compte d’arrondissement de la taxe qui est sélectionné dans le champ Comptes pour transactions automatiques dans la comptabilité.
 
@@ -63,59 +63,60 @@ Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l’aid
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Arrondi normal, et précision d’arrondi 0,01
 
-<table>
+```<table>
   <tr>
-    <td>Arrondi
+    <td>Rounding
     </td>
-    <td>Processus de calcul
+    <td>Calculation process
     </td>
   </tr>
     <tr>
-    <td>round(1,015, 0,01) = 1,02
+    <td>round(1.015, 0.01) = 1.02
     </td>
     <td>
       <ol>
-        <li>round(1,015 / 0,01, 0) = round(101,5, 0) = 102
+        <li>round(1.015 / 0.01, 0) = round(101.5, 0) = 102
         </li>
-        <li>102 * 0,01 = 1,02
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td>round(1,014, 0,01) = 1,01
-    </td>
-    <td> <ol>
-        <li>round(1,014 / 0,01, 0) = round(101,4, 0) = 101
-        </li>
-        <li>101 * 0,01 = 1,01
+        <li>102 * 0.01 = 1.02
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>round(1,011, 0,02) = 1,02
+    <td>round(1.014, 0.01) = 1.01
     </td>
     <td> <ol>
-        <li>round(1,011 / 0,02, 0) = round(50,55, 0) = 51
+        <li>round(1.014 / 0.01, 0) = round(101.4, 0) = 101
         </li>
-        <li>51 * 0,02 = 1,02
+        <li>101 * 0.01 = 1.01
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>round(1,009, 0,02) = 1,00
+    <td>round(1.011, 0.02) = 1.02
     </td>
     <td> <ol>
-        <li>round(1,009 / 0,02, 0) = round(50,45, 0) = 50
+        <li>round(1.011 / 0.02, 0) = round(50.55, 0) = 51
         </li>
-        <li>50 * 0,02 = 1,00
+        <li>51 * 0.02 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.009, 0.02) = 1.00
+    </td>
+    <td> <ol>
+        <li>round(1.009 / 0.02, 0) = round(50.45, 0) = 50
+        </li>
+        <li>50 * 0.02 = 1.00
         </li>
       </ol>
     </td>
   </tr>
 </table>
+```
 
 > [!NOTE]                                                                                  
 > Si vous sélectionnez Avantage, l’arrondi est toujours à l’avantage de l’entité juridique. 
@@ -125,7 +126,7 @@ Pour plus d’informations, voir les rubriques suivantes :
 - [Créer un paiement de taxe](tasks/create-sales-tax-payment.md)
 - [Créer des transactions de taxe sur les documents](tasks/create-sales-tax-transactions-documents.md)
 - [Afficher les transactions de taxe validées](tasks/view-posted-sales-tax-transactions.md)
-- [Fonction round](https://msdn.microsoft.com/library/aa850656.aspx)
+- [Fonction round](/previous-versions/dynamics/ax-2012/reference/aa850656(v=ax.60))
 
 
 

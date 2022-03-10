@@ -2,11 +2,9 @@
 title: Configurer et traiter un échange suite à un ordre de retour
 description: Cette rubrique explique comment configurer un échange suite à un retour dans Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
-ms.date: 11/12/2018
+ms.date: 07/28/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5419c18a510b0d35dabe5329a9557780cb7637b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758334"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurer et traiter un échange suite à un ordre de retour
 
@@ -34,7 +32,10 @@ Toutefois, une fonctionnalité a été ajoutée pour prendre en charge les scén
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>Configurer Commerce pour prendre en charge les échanges suite aux ordres de retour
 
-Procédez comme suit pour configurer le système pour prendre en charge les échanges suite aux ordres de retour.
+> [!NOTE]
+> Dans la version 10.0.20 et les versions ultérieures de Commerce, une nouvelle fonctionnalité appelée « Expérience unifiée du traitement des retours dans PDV » est disponible. Si vous activez cette fonctionnalité, les étapes de configuration ci-dessous ne sont pas nécessaires. **Traiter les retours en tant que commandes client** devient un paramètre configuré de manière permanente et vous ne pourrez plus le modifier.
+
+Suivez ces étapes pour configurer le système de façon à prendre en charge les échanges sur les ordres de retour (si vous n’avez pas activé la fonctionnalité **Expérience unifiée du traitement des retours dans PDV**).
 
 1. Accédez à **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres commerciaux**. Dans le raccourci **Commandes client**, définissez l’option **Traiter les ordres de retour en tant que commandes client** sur **Activé**.
 2. Exécutez la tâche **Programme de distribution de la configuration globale** (**1110**).

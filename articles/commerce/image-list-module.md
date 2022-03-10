@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 485d0714927cef5a292fd1beee826a90e9233e35
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: 7df62fe426799905f9d6d412c4c510b8ce021b7ddd768a98b8180ca7e9b467a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742386"
 ---
 # <a name="image-list-module"></a>Module de liste d’images
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de liste d’images et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -44,7 +43,7 @@ L’illustration suivante montre un exemple dans lequel un module de liste d’i
 
 ## <a name="image-list-module-properties"></a>Propriétés du module de liste d’images
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête de texte pour le module de liste d’images. |
 | Liste d’images    | Images, texte et URL | Chaque élément du tableau est une image accompagnée d’un texte de paragraphe et d’une URL. |

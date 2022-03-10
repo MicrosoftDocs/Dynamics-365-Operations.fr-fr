@@ -1,7 +1,7 @@
 ---
 title: Copie de lignes de modèles de service
 description: Les informations relatives aux modèles peuvent être copiées vers un accord de service ou une commande de service.
-author: ShylaThompson
+author: kamaybac
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73bcfb2018822cebf0d602cdf014f06073d98009
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b72af2b22d7194ef567f5703134525c27c32d18b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840531"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575313"
 ---
 # <a name="copy-service-templates-lines"></a>Copie de lignes de modèles de service 
 

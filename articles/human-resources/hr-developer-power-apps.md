@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,18 +15,21 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad55de4b660de89d323f32a1ce2911d880c24ec5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793559"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070298"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Extension avec Power Apps et Power Automate
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cet article décrit quelques exemples de scénarios d’extensibilité pour Microsoft Dynamics 365 Human Resources utilisant Microsoft Power Apps et Microsoft Power Automate. Vous pouvez importer le module de solution associé à chaque exemple dans l’environnement de Power Apps. Vous pouvez ensuite utiliser les modules comme orientation ou comme point de départ pour implémenter les scénarios qui s’appliquent à votre organisation.
 
@@ -59,6 +61,6 @@ Pour télécharger le modèle **Power Automate – Connexion et exécution SQL**
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+[Microsoft Power Platform](/power-platform/admin/admin-documentation)</br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778447"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952675"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Intégration avec des systèmes d’exécution de fabrication tiers
 
@@ -37,10 +37,17 @@ L’illustration suivante montre une collection typique d’événements, de pro
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Activer la fonction d’intégration de système d’exécution de la production
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser cette fonctionnalité, un administrateur doit l’activer dans votre système comme décrit dans la procédure suivante.
 
-- **Module :** *Contrôle de la production*
-- **Nom de la fonctionnalité :** *Intégration du système d’exécution de la production*
+1. Accédez à **Administration système \> Paramétrage \> Configuration des licences**.
+1. Assurez-vous que la clé de licence **Pointage** est activée (affiche une coche). Cette clé de licence est requise car elle contrôle les fonctionnalités et les données du système d’exécution de fabrication. S’il n’est pas activé, procédez comme suit :
+    1. Mettez votre système en mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. Sur la page **Configuration de la licence**, cochez la case **Pointage**.
+    1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Accédez au **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
+1. Activez la fonctionnalité répertoriée comme suit (voir également [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)) :
+    - **Module :** *Contrôle de la production*
+    - **Nom de la fonctionnalité :** *Intégration du système d’exécution de la production*
 
 ## <a name="processes-available-for-mes-integration"></a>Processus disponibles pour l’intégration de système d’exécution de la production
 
@@ -191,7 +198,7 @@ Le tableau suivant montre les champs que chaque ligne de la section `RouteCardLi
 
 | Nom du champ | Status | Type |
 |---|---|---|
-| `OperationNumber` | Obligatoire | Obligatoire, Entier |
+| `OperationNumber` | Obligatoire | Entier |
 | `OperationPriority` | Facultatif | Enum (Primaire \| Secondaire1 \| Secondaire2 \| ... \| Secondaire20) |
 | `OperationId` | Facultatif | Chaîne |
 | `OperationsResourceId` | Facultatif | Chaîne |

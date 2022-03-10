@@ -2,7 +2,7 @@
 title: Liste des fonctions ER dans la catégorie de texte
 description: Cette rubrique fournit des informations sur les fonction de texte prises en charge dans les États électroniques (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741012"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075498"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Liste des fonctions ER dans la catégorie de texte
 
@@ -35,12 +35,14 @@ Les fonctions de texte des états électroniques (ER) peuvent être utilisées p
 | [Concaténer](er-functions-text-concatenate.md) | Cette fonction renvoie toutes les chaînes de texte spécifiées en tant que valeur de *Chaîne* après avoir été jointes en une seule chaîne. |
 | [Format](er-functions-text-format.md) | Cette fonction renvoie à la chaîne spécifiée une valeur de *Chaîne* une fois qu’elle a été mise en forme en substituant toutes les occurrences de **%N** par le *N* ième argument. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Cette fonction recherche une valeur *Enum* spécifique dans la source de données d’énumération spécifiée à l’aide du nom d’énumération spécifié en tant que valeur de *Chaîne*. Si la valeur *Enum*, la fonction la renvoie. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Cette fonction recherche une étiquette spécifique pour renvoyer une valeur de type *[Chaîne](er-formula-supported-data-types-primitive.md#string)* qui représente la traduction de l’étiquette spécifiée dans la langue spécifiée. |
 | [GuidValue](er-functions-text-guidvalue.md) | Cette fonction convertit l’entrée spécifiée du type *Chaîne* en un élément de données du type *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Cette fonction analyse les données au format JavaScript Object Notation (JSON) qui sont accessibles au chemin d’accès spécifié et extrait une valeur scalaire basée sur l’ID spécifié. Elle renvoie ensuite la valeur scalaire extraite sous forme de valeur de *Chaîne*. |
 | [Gauche](er-functions-text-left.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre de caractères spécifié à partir du début de la chaîne spécifiée. |
 | [Len](er-functions-text-len.md) | Cette fonction renvoie une valeur *Entier* qui représente le nombre de caractères de la chaîne spécifiée. |
 | [Lower](er-functions-text-lower.md) | Cette fonction renvoie la chaîne de texte spécifiée sous la forme *Chaîne* après avoir été convertie en lettres minuscules. |
-| [Mid](er-functions-text-mid.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre de caractères spécifié à partir de la chaîne spécifiée, à partir de la position donnée. |
+| [Mid](er-functions-text-mid.md) | Cette fonction renvoie une valeur de *[Chaîne](er-formula-supported-data-types-primitive.md#string)* qui présente le nombre de caractères spécifié à partir de la chaîne spécifiée, à partir de la position donnée. |
+| [NewGUID](er-functions-text-newguid.md) | Cette fonction renvoie une valeur *[GUID](er-formula-supported-data-types-primitive.md#guid)* nouvellement générée. |
 | [NumberFormat](er-functions-text-numberformat.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre spécifié dans le format spécifié et dans une culture éventuellement spécifiée. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Cette fonction renvoie le nombre spécifié sous la forme *Chaîne* après avoir été épelée (c’est-à-dire convertie en chaînes de texte) dans la langue spécifiée. |
 | [PadLeft](er-functions-text-padleft.md) | Cette fonction renvoie une valeur de *Chaîne* de longueur spécifique, où le début de la chaîne spécifiée est entouré par une ou plusieurs instances des caractères spécifiés. |

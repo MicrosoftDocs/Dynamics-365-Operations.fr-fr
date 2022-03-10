@@ -3,23 +3,25 @@ title: Vue d’ensemble des modèles d’enregistrement
 description: Cet article présente le concept des modèles d’enregistrement et explique comment ils permettent de créer des enregistrements partageant des informations.
 author: pvillads
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 16101
+ms.custom:
+- "16101"
+- intro-internal
 ms.assetid: 61ada2d8-84c3-44bc-b4c5-516b1aeac3d1
 ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d802d8bb86313dba512f52ec977b4dd18aa25c61
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: aa13e47a48b98a59766790c9a24bb04ed67007cd
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747535"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983615"
 ---
 # <a name="record-templates-overview"></a>Vue d’ensemble des modèles d’enregistrement
 

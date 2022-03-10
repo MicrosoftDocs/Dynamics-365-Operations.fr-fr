@@ -3,24 +3,19 @@ title: Types de données primitifs pris en charge pour les formules des États �
 description: Cette rubrique fournit des informations sur les types de données primitifs pris en charge dans les formules des États électroniques (ER).
 author: NickSelin
 ms.date: 06/02/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355320"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323638"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Types de données primitifs pris en charge pour les formules des États électroniques
 
@@ -106,7 +101,7 @@ Les [opérateurs](er-formula-language.md#Operators) de comparaison sont le seul 
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Énumération
 
-Le type de données primitif *énumération* est une liste de littéraux. Vous pouvez utiliser des énumérations définies dans le [code source](../dev-ref/xpp-data-primitive.md#enum) de l’application. Vous pouvez également introduire vos propres énumérations dans le [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) ER et dans les composants de [format](general-electronic-reporting.md#FormatComponentOutbound) ER.
+Le type de données primitif *énumération* est une liste de littéraux. Vous pouvez utiliser des énumérations définies dans le [code source](../dev-ref/xpp-data-primitive.md#enum) de l’application. Vous pouvez également introduire vos propres énumérations dans le modèle de données ER et dans les composants de format ER.
 
 Une *énumération* d’application peut être utilisé dans les expressions de tout mappage de modèle ER et de format ER.
 

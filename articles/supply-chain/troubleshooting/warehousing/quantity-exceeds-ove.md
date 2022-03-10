@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c9b5ba8dedb927ee049d7e53e9a666902f563f49
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: b25050572662afebbeaa39fa5a96e70cef618ac671dceba189fab1315480ede2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755153"
 ---
 # <a name="you-cant-confirm-a-shipment-because-the-quantity-exceeds-the-overdelivery-percentage"></a>Vous ne pouvez pas confirmer une expédition car la quantité dépasse le pourcentage de livraison excédentaire
 
@@ -46,7 +46,7 @@ Pour résoudre ce problème, effectuez une ou plusieurs des tâches suivantes :
 Pour définir la quantité de ligne de chargement, procédez comme suit :
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Sélectionnez le chargement pour lequel l'expédition ne peut pas être confirmée.
+1. Sélectionnez le chargement pour lequel l’expédition ne peut pas être confirmée.
 1. Sur l'organisateur **Lignes de chargement**, sélectionnez la ligne de chargement de l'article qui dépasse le pourcentage de livraison excédentaire.
 1. Dans l’organisateur **Détails de ligne**, sélectionnez **Ordre**.
 1. Dans le champ **Quantité**, définissez la valeur sur la quantité prélevée (c'est-à-dire sur la valeur **Quantité créée par le travail**), afin que la confirmation d'expédition puisse avoir lieu.
@@ -56,7 +56,7 @@ Pour définir la quantité de ligne de chargement, procédez comme suit :
 Pour définir le pourcentage de livraison incomplète, procédez comme suit :
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Sélectionnez le chargement pour lequel l'expédition ne peut pas être confirmée.
+1. Sélectionnez le chargement pour lequel l’expédition ne peut pas être confirmée.
 1. Sur l'organisateur **Lignes de chargement**, sélectionnez la ligne de chargement de l'article qui dépasse le pourcentage de livraison excédentaire.
 1. Dans l’organisateur **Détails de ligne**, sélectionnez **Général**.
 1. Dans le champ **Livraison excédentaire**, définissez la valeur sur un pourcentage plus élevé qui tient compte de la quantité prélevée par rapport à la quantité de chargement, afin que la confirmation d'expédition puisse avoir lieu.

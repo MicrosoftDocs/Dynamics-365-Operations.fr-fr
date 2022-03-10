@@ -1,9 +1,8 @@
 ---
 title: Raccourcis clavier
-description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance and Operations.
+description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finances et Opérations.
 author: jasongre
-manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a08e01c17ec3c1e47e9e58f2fbccf2159d34559d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566350"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119550"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
 
-Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Les raccourcis clavier peuvent vous aider rapidement et efficacement à la saisie des données dans les applications Finances et Opérations. 
 
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
@@ -35,11 +37,11 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 
 ## <a name="finding-a-shortcut"></a>Recherche d’un raccourci
 
-À partir de la mise à jour 11 de la plateforme, les utilisateurs peuvent découvrir les raccourcis actuellement disponibles directement à partir de l’interface utilisateur. Cliquez simplement avec le bouton droit sur un contrôle et sélectionnez **Afficher les raccourcis**. Une boîte de dialogue s’ouvre pour afficher les raccourcis que vous pouvez utiliser en fonction de là où vous êtes sur la page.
+Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles directement à partir de l’interface utilisateur. Cliquez simplement avec le bouton droit sur un contrôle et sélectionnez **Afficher les raccourcis**. Une boîte de dialogue s’ouvre pour afficher les raccourcis que vous pouvez utiliser en fonction de là où vous êtes sur la page. Vous pouvez également appuyer sur Alt+Maj+K pour ouvrir cette boîte de dialogue (et appuyer sur Alt+Maj+K une deuxième fois pour voir tous les raccourcis actuellement disponibles pour la page).    
 
 ## <a name="action-shortcuts"></a>Raccourcis d’action
 
-| Opération                                      | Raccourci                            |
+| Opération                                      | Appuyer sur                             |
 |-------------------------------------------------|----------------------------------|
 | Ouvrir la recherche d’action                              | Ctrl+’ ou Alt+Q                  |
 | Effectuer un déplacement vers le volet Actions standard                | Alt+M, A ou Ctrl+F6               |
@@ -115,12 +117,12 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Accéder au champ suivant/précédent                     | Tab/Maj+Tab                              |
 | Accéder à l’onglet suivant/précédent                       | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Accéder au &lt;n&gt;ième onglet                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Accéder à l’organisateur suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
-| Accéder au &lt;n&gt;ième organisateur                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Accéder à le raccourci suivant/précédent                   | Alt+Maj+Flèche Bas/Alt+Maj+Flèche Haut    |
+| Accéder au &lt;n&gt;ième raccourci                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Effectuer un déplacement vers la lame suivante/précédente (tabulation verticale)      | Alt+Maj+Flèche Droite/Alt+Maj+Flèche Gauche |
 | Effectuer un déplacement vers la &lt;n&gt;ième lame (tabulation verticale)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Développer un organisateur (avec le focus sur l’en-tête de l’organisateur) | Espace ou Entrée                               |
-| Réduire l’organisateur actif                        | Alt+0                                        |
+| Développer un raccourci (avec le focus sur l’en-tête du raccourci) | Espace ou Entrée                               |
+| Réduire le raccourci actif                        | Alt+0                                        |
 | Basculer sur la vue grille                                 | Ctrl+Maj+G                                 |
 | Basculer sur la vue détails                              | Ctrl+Maj+D                                 |
 | Basculer sur la vue En-tête                               | Ctrl+Maj+H                                 |
@@ -128,8 +130,10 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 
 ## <a name="grid-shortcuts"></a>Raccourcis de grille
 
-| Opération                                                                                                             | Raccourci                           |
+| Opération                                                                                                             | Appuyer sur                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Défilement vertical                                                                                                     | Molette de la souris                     |
+| Défilement horizontal                                                                                                   | Maj + Molette de la souris             |
 | Accéder à la colonne suivante/précédente                                                                                       | Tab/Maj+Tab                 |
 | Accéder à la ligne suivante/précédente                                                                                          | Flèche Haut/Flèche Bas           |
 | Se déplacer jusqu’à la ligne suivante/précédente sans la sélectionner<blockquote>[!NOTE] Ce raccourci s’applique uniquement aux scénarios de sélection multiple.</blockquote> | Ctrl+Flèche Haut/Ctrl+Flèche Bas |
@@ -141,22 +145,24 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Accéder au premier enregistrement                                                                                               | Ctrl + Début                       |
 | Accéder au dernier enregistrement                                                                                                | Ctrl + Fin                        |
 | Sélectionner ou désélectionner toutes les lignes                                                                                               | Ctrl+Maj+M                    |
-| Accéder à la première ligne marquée                                                                                           | Alt+Maj+M, F                    |
-| Accéder à la ligne marquée suivante                                                                                            | Alt+Maj+M, L                    |
-| Accéder à la ligne marquée précédente                                                                                        | Alt+Maj+M, P                    |
-| Accéder à la dernière ligne marquée                                                                                           | Alt+Maj+M, N                    |
+| Accéder à la première ligne marquée                                                                                           | Alt+Maj+M, F                  |
+| Accéder à la ligne marquée suivante                                                                                            | Alt+Maj+M, L                  |
+| Accéder à la ligne marquée précédente                                                                                        | Alt+Maj+M, P                  |
+| Accéder à la dernière ligne marquée                                                                                           | Alt+Maj+M, N                  |
 | Exécuter l’action par défaut dans une grille<blockquote>[!NOTE] Ce raccourci est activé lorsque le focus est sur une cellule contenant un lien hypertexte et que toutes les cellules de cette colonne ont des liens hypertexte.</blockquote> | Entrer                           |
 | Basculer la vue entre la ligne sélectionnée et la ligne d’en-tête                                                               | Alt+Maj+H                     |
 | Agrandir/réduire la colonne active (avec le focus sur la ligne d’en-tête)                                                  | Flèche droite/Flèche gauche        |
+| Déplacer la colonne actuelle vers la position suivante/précédente (avec le focus dans la ligne d’en-tête)                                   | Ctrl+Maj+Flèche droite / Ctrl+Maj+Flèche gauche |
 | Ouvrir le filtrage de grille pour la colonne active (avec le focus sur la ligne d’en-tête)                                              | Entrer                           |
+| Redimensionner la colonne actuelle pour l’adapter au contenu (avec le focus dans la ligne d’en-tête)                                           | A (ou double-cliquez sur la poignée de dimensionnement de la colonne) |
 
 ## <a name="input-control-shortcuts"></a>Raccourcis de contrôle d’entrée
 
-| Opération                                                                   | Raccourci                         |
+| Opération                                                                   | Appuyer sur                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Ouvrir le lien hypertexte                                                           | Ctrl+Entrée                    |
-| Entrer la date de session dans un champ de date                                       | D                         |
-| Entrer la date actuelle dans un champ de date                                       | T                         |
+| Entrer la date de session dans un champ de date                                       | D                             |
+| Entrer la date actuelle dans un champ de date                                       | T                             |
 | Ouvrir la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                         | Alt + Flèche Bas                |
 | Fermer la recherche, la zone de liste, le sélecteur de date, la boîte de dialogue                        | Échap                           |
 | Déplacer le focus sur une recherche (lorsque la recherche est déjà ouverte)                   | Alt + Flèche Bas                |
@@ -203,8 +209,8 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Utiliser l’outil Déplacer (lorsque vous êtes en mode personnalisation)                                                                       | L                                   |
 | Sélectionner le contrôle actuel comme celui à déplacer (lorsque vous utilisez l’outil Déplacer et qu’aucun contrôle n’a encore été sélectionné)  | Espace ou Entrée                      |
 | Désactiver le contrôle pour le déplacement (à l’aide de l’outil Déplacer)                                                                   | Échap                                 |
-| Effectuer un déplacement vers la position suivante pour le contrôle sélectionné (à l’aide de l’outil Déplacer)                                          | Tabulation ou flèche vers la droite ou flèche vers le bas    |
-| Effectuer un déplacement vers la position précédente pour le contrôle sélectionné (à l’aide de l’outil Déplacer)                                      | Maj+Tab ou flèche vers la gauche ou flèche vers le haut |
+| Déplacer le contrôle sélectionné vers la position suivante (à l’aide de l’outil Déplacer)                                              | Tabulation ou flèche vers la droite ou flèche vers le bas    |
+| Déplacer le contrôle sélectionné vers la position précédente (à l’aide de l’outil Déplacer)                                          | Maj+Tab ou flèche vers la gauche ou flèche vers le haut |
 | Utiliser l’outil Masquer (lorsque vous êtes en mode personnalisation)                                                                       | H                                   |
 | Effectuer un basculement si le contrôle actuel est visible ou masqué (à l’aide de l’outil Masquer)                                     | Espace ou Entrée                      |
 | Utiliser l’outil Ignorer (lorsque vous êtes en mode personnalisation)                                                                       | k                                   |
@@ -212,7 +218,7 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Utiliser l’outil Modifier (lorsque vous êtes en mode personnalisation)                                                                       | E                                   |
 | Effectuer un basculement si le contrôle actuel est modifiable ou en lecture seule (à l’aide de l’outil Modifier)                                 | Espace ou Entrée                      |
 | Utiliser l’outil Récapitulatif (lorsque vous êtes en mode personnalisation)                                                                    | H                                   |
-| Effectuer un basculement si le contrôle actuel est un champ récapitulatif dans l’organisateur actuel (à l’aide de l’outil Récapitulatif)            | Espace ou Entrée                      |
+| Effectuer un basculement si le contrôle actuel est un champ récapitulatif dans le raccourci actuel (à l’aide de l’outil Récapitulatif)            | Espace ou Entrée                      |
 | Utiliser l’outil Ajouter (lorsque vous êtes en mode personnalisation)                                                                        | A                                   |
 | Sélectionner le contrôle dont le conteneur sera utilisé pour insérer les nouveaux champs (à l’aide de l’outil Ajouter)                     | Espace ou Entrée                      |
 | Importer une personnalisation (lorsque vous êtes en mode personnalisation)                                                                | I                                   |
@@ -250,10 +256,14 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Développer/réduire l’invite contextuelle animée (lors de la lecture d’un guide de tâche)              | Alt + R, C                    |
 | Afficher plus/moins d’informations dans l’invite contextuelle animée (lors de la lecture d’un guide de tâche) | Alt + R, M                    |
 
+## <a name="focus-management"></a>Gestion des focus 
+La gestion du focus décrit comment le focus utilisateur est géré dans une application. Les applications Finance et Opérations ont des comportements de focus spécialisés destinés à optimiser la productivité des utilisateurs, en particulier pour les scénarios de saisie de données. Les comportements de mise au point incluent les éléments suivants :  
+
+-  Lorsqu’une page est chargée, le premier contrôle d’entrée modifiable de la page aura le focus et pourra accepter immédiatement l’entrée de l’utilisateur. S’il n’y a pas de contrôle d’entrée modifiable sur la page, l’option de secours pour le focus initial est le premier contrôle d’entrée sur la page suivi du premier contrôle focusable sur la page.   
+-  Généralement, lorsqu’un bouton est sélectionné, l’action est traitée et le focus peut revenir à la page. Lorsque cela se produit, le focus a tendance à revenir au bouton de contrôle qui a été sélectionné. Cela est vrai dans les applications Finances et Opérations **sauf** lorsque le bouton se trouve dans le volet Actions ou sur une barre d’outils. Dans ces cas, lorsque l’action se termine, le focus revient au dernier contrôle *à l’extérieur* du volet Actions (ou de la barre d’outils) qui avait le focus avant que le bouton ne soit sélectionné.
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Raccourcis clavier pour l’analyse de compte manquante](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

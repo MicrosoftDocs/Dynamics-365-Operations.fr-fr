@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0d203301737c03cb5db238f05c51f6df953d59bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816362"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574735"
 ---
 # <a name="advanced-load-building-during-wave"></a>Création de chargement avancée pendant une vague
 

@@ -2,11 +2,9 @@
 title: Les enregistrements client ne s’affichent pas dans Commerce Headquarters
 description: Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsque les enregistrements client ne s’affichent pas immédiatement dans Commerce Headquarters.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 790468ac244f1647c07024604886c65d22feca24
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: f551f94cec71ba7d740756c383b55741e9f8d42e20e63846ea6242383dc3ba32
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733891"
 ---
 # <a name="customer-records-dont-appear-in-commerce-headquarters"></a>Les enregistrements client ne s’affichent pas dans Commerce Headquarters
 
@@ -30,7 +28,7 @@ ms.locfileid: "5585320"
 
 Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsque les enregistrements client ne s’affichent pas immédiatement dans Commerce Headquarters.
 
-## <a name="description"></a>Description 
+## <a name="description"></a>Description
 
 Lorsque vous créez un enregistrement client à l’aide du flux d’inscription dans la vitrine d’e-commerce, l’enregistrement client correspondant ne s’affiche pas immédiatement dans Commerce Headquarters.
 

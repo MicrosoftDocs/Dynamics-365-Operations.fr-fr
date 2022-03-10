@@ -2,7 +2,7 @@
 title: Module Menu de navigation
 description: Cette rubrique couvre les modules de menu de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1af1fc03ead21150415295d83d292afe0110e5bd
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353106"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109680"
 ---
 # <a name="navigation-menu-module"></a>Module du menu de navigation
 
@@ -41,8 +41,8 @@ L’illustration suivante montre un exemple de menu de navigation pour le site F
 |---------------------------|-----------------------|-------------|
 | Source                  | **Vente au détail**, **Création manuelle**, **Vente au détail et création manuelle** | La valeur **Vente au détail** permet d’afficher la hiérarchie de navigation des canaux depuis le siège Commerce dans le menu de navigation. La valeur **Création manuelle** permet aux éléments de menu statiques d’être organisés. La valeur **Vente au détail et création manuelle** permet un mélange des deux. |
 | Afficher les images des catégories | **Vrai** ou **Faux**    | Lorsqu’elle est activée, cette propriété affiche les images de catégorie dans le menu de navigation, telles que définies dans le siège Commerce pour chaque catégorie. Ajouté dans la version 10.0.14 de Commerce. |
-| Afficher les promotions | **Vrai** ou **Faux** | Lorsque cette propriété est activée, les promotions peuvent être configurées à l’aide d’images, de liens et de texte. Cette propriété a été ajoutée dans la version 10.0.17 de Commerce. |
-| Ajouter des promotions | Texte, image ou lien | Quand la propriété **Afficher les promotions** est activée, vous pouvez ajouter du texte, une image ou un lien comme contenu promotionnel dans le menu de navigation. |
+| Afficher les images promotionnelles | **Vrai** ou **Faux** | Lorsque cette propriété est activée, les promotions peuvent être configurées à l’aide d’images, de liens et de texte. Cette propriété a été ajoutée dans la version 10.0.17 de Commerce. |
+|Ajouter le contenu promotionnel de la catégorie | Texte, image ou lien | Quand la propriété **Afficher les images promotionnelles** est activée, vous pouvez ajouter du texte, une image ou un lien comme contenu promotionnel dans le menu de navigation. |
 | Activer le menu de navigation à plusieurs niveaux | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut afficher plusieurs niveaux de la hiérarchie de navigation. Cette fonctionnalité est disponible dans la version 10.0.15 et ultérieure de Commerce. |
 | Nombre de niveaux | entier | Cette propriété définit le nombre de niveaux à afficher si la propriété **Activer le menu de navigation à plusieurs niveaux** est définie sur **True**. |
 | Élément de menu statique| Tableau de valeurs| Éléments de menu statiques qui associent un nom d’élément de menu à un lien vers une page de site statique. Vous pouvez créer des éléments de menu sous d’autres éléments de menu. Par défaut, les menus statiques apparaissent au niveau racine et seront ajoutés à la hiérarchie de navigation des canaux si elle existe. |
@@ -62,13 +62,13 @@ Pour plus d’informations sur l’ajout d’un module de menu de navigation à 
 
 [Module de barre de navigation](add-breadcrumb.md)
 
-[Module Sélecteur de site](site-selector.md)
+[Module de sélection de site](site-selector.md)
 
 [Module Zone d’achat](add-buy-box.md)
 
 [Conformité des cookies](cookie-compliance.md)
 
-[Module En-tête](author-header-module.md)
+[Module d’en-tête](author-header-module.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

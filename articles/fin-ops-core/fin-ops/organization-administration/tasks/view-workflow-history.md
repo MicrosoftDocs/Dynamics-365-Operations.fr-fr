@@ -2,11 +2,9 @@
 title: Afficher l’historique du flux de travail
 description: Cette rubrique décrit les étapes pour afficher le statut d’un document qui a été envoyé au système de workflow pour traitement et approbation.
 author: jasongre
-manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798978"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069957"
 ---
 # <a name="view-workflow-history"></a>Afficher l’historique du flux de travail
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Cette rubrique décrit les étapes pour afficher le statut d’un document qui a été envoyé au système de workflow pour traitement et approbation. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
@@ -46,3 +47,6 @@ Cette rubrique décrit les étapes pour afficher le statut d’un document qui a
     - Le bouton **Réaffecter** ouvre une boîte de dialogue dans laquelle vous pouvez réaffecter un élément de travail à un autre utilisateur.  
     - Assurez-vous que la section **Détails du suivi** est développée. Dans cette section, vous pouvez afficher l’historique du workflow du document sélectionné.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

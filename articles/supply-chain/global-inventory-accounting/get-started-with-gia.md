@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773294"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860506"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Premiers pas avec la comptabilité globale des stocks
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 La comptabilité globale des stocks vous permet d’effectuer plusieurs comptabilités de stock dans les différents registres de comptabilité globale des stocks que vous avez configurés. Vous devez associer chaque registre de comptabilité globale des stocks à une *convention*. Une convention est un ensemble des types de stratégies comptables suivants :
 
@@ -60,9 +61,9 @@ Avant de pouvoir activer la fonctionnalité de complément, vous devez l’inté
 1. Dans la boîte de dialogue **Configuration de l’environnement Power Platform**, cochez la case, puis sélectionnez **Installer**. En règle générale, la configuration prend entre 60 et 90 minutes.
 1. Une fois la configuration de l’environnement Microsoft Power Platform terminée, la page affiche le nom de votre environnement. De plus, la section **Intégration de Power Platform** affiche la déclaration suivante : « La configuration de l’environnement Power Platform est terminée. » La comptabilité globale des stocks ne nécessite pas d’application à double écriture.
 
-Pour plus d’informations, voir [Configurer après le déploiement de l’environnement](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Pour plus d’informations, voir [Activer après le déploiement de l’environnement](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Configuration de Dataverse
+### <a name="set-up-dataverse"></a>Configurer Dataverse
 
 Avant de configurer Dataverse, ajoutez les principaux de service Comptabilité globale des stocks à votre locataire en suivant les étapes ci-après.
 

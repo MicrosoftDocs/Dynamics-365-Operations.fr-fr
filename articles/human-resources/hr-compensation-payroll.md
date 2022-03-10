@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 825aa327cc1530675fad57be6fc1b4313f0cf998
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559605"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068968"
 ---
 # <a name="ready-to-pay"></a>Prêt à payer
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -72,7 +75,7 @@ Si le champ **Prêt pour le paiement** est sur **Non**, cela indique que vous de
 
 ## <a name="process-automation"></a>Automatisation des processus
 
-Vous pouvez automatiser la validation de tous les employés en utilisant [Automatisation des processus](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Dans l'espace de travail **Gestion de la rémunération**, accédez à **Liens** \> **Paramètres** \> **Automatisations de processus**.
+Vous pouvez automatiser la validation de tous les employés en utilisant [Automatisation des processus](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Dans l’espace de travail **Gestion de la rémunération**, accédez à **Liens** \> **Paramètres** \> **Automatisations de processus**.
 
 ## <a name="see-also"></a>Voir également :
 

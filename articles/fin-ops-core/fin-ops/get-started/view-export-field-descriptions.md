@@ -2,7 +2,6 @@
 title: Afficher et exporter les descriptions de champ
 description: Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,16 +15,19 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265b540ba36b7526a8d6cb64f29157b6126e4dae
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566196"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069271"
 ---
 # <a name="view-and-export-field-descriptions"></a>Afficher et exporter les descriptions de champ
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cet article décrit comment afficher les descriptions des champs et comment utiliser la page Descriptions de champ pour exporter des descriptions.
 
@@ -44,7 +46,7 @@ Vous pouvez afficher les descriptions de champ en plaçant le curseur sur un cha
 
 L’illustration suivante montre la description de champ qui s’affiche lorsque vous survolez le champ **Verrouiller les articles lors du comptage**.
 
-[![Exemple de description de champ](./media/field-description.png)](./media/field-description.png)
+[![Exemple de description de champ.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilisez la page Descriptions de champs pour afficher et exporter l’aide du champ
 
@@ -52,11 +54,11 @@ La page **Descriptions de champ** vous permet d’afficher et exporter des descr
 
 ### <a name="view-the-descriptions-for-a-page"></a>Afficher les descriptions pour une page
 
-Pour afficher les descriptions pour une page, procédez comme suit :
+Pour afficher les descriptions pour une page, procédez comme suit :
 
 - Dans le champ **Sélectionner une page**, tapez le nom de la page. Sinon, cliquez sur la flèche pour ouvrir une liste de toutes les pages, puis parcourez ou filtrer la liste.
 
-Vous pouvez utiliser le nom de la page qui s’affiche dans l’interface utilisateur (IU) (par exemple : **Clients**), ou le nom de code (nom AOA) disponible en cliquant avec le bouton droit sur la page (par exemple : **CustTable**).
+Vous pouvez utiliser le nom de la page qui s’affiche dans l’interface utilisateur (IU) (par exemple : **Clients**), ou le nom de code (nom AOA) disponible en cliquant avec le bouton droit sur la page (par exemple : **CustTable**).
 
 Pour plus d’informations sur les différentes façons de filtrer la liste des pages, consultez la section « Recherche d’une page » plus loin dans cet article.
 
@@ -64,7 +66,7 @@ Si vous définissez l’option **Inclure les champs sans description** sur **Oui
 
 ### <a name="export-the-descriptions-for-a-page"></a>Exporter les descriptions pour une page
 
-Pour exporter les descriptions pour une page, procédez comme suit :
+Pour exporter les descriptions pour une page, procédez comme suit :
 
 1. Dans le champ **Sélectionner une page**, sélectionnez une page.
 2. Cliquez sur le bouton **Ouvrir dans Microsoft Office** dans le coin supérieur droit, puis cliquez sur **FieldDescriptionTmp**.

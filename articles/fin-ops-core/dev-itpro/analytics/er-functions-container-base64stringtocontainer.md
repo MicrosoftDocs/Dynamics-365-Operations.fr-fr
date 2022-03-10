@@ -3,7 +3,6 @@ title: Fonction Base64StringToContainer pour la gestion des états électronique
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction Base64StringToContainer pour la gestion des états électroniques.
 author: NickSelin
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772030"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Fonction Base64StringToContainer pour la gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
-La [fonction](er-formula-language.md#functions) `BASE64STRINGTOCONTAINER` convertit l’entrée spécifique de type *Chaîne* en un élément de données de type *[Conteneur](er-functions-category-container.md)*.
+La [fonction](er-formula-language.md#Functions) `BASE64STRINGTOCONTAINER` convertit l’entrée spécifique de type *Chaîne* en un élément de données de type *[Conteneur](er-functions-category-container.md)*.
 
 ## <a name="syntax"></a>Syntaxe
 

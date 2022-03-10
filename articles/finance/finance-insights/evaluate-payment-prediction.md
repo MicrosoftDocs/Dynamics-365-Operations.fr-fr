@@ -1,8 +1,8 @@
 ---
-title: Évaluer le modèle de prédiction de paiement client initial (version préliminaire)
+title: Évaluer le modèle de prédiction de paiement client initial
 description: Cette rubrique décrit les étapes que vous pouvez suivre pour comprendre le modèle de prédiction de paiement client et évaluer son efficacité.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349008"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969110"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Évaluer le modèle de prédiction de paiement client initial (version préliminaire)
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Évaluer le modèle de prédiction de paiement client initial
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment évaluer un modèle de prédiction après avoir activé Informations financières, puis généré et formé votre premier modèle. Cette rubrique traite des modèles de prévision des paiements des clients. Elle décrit les étapes que vous pouvez suivre pour comprendre le modèle de prédiction de paiement client et évaluer son efficacité.
 

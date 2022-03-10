@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020384"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576662"
 ---
 # <a name="rebate-management-deal-workflows"></a>Workflows d’accord de gestion des remises
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020384"
 
 Pour approuver les accords de remise, la gestion des remises utilise la même plateforme de workflow que les autres applications Finance and Operations. Deux processus de travail sont associés à chaque workflow :
 
-- Un élément du workflow active l’accord afin que l’utilisateur ou le processus de workflow puisse approuver les transactions.
 - Un élément du workflow approuve l’accord.
+- Un élément du workflow active l’accord afin que l’utilisateur ou le processus de workflow puisse approuver les transactions.
 
 Avant de pouvoir utiliser un accord de remise, celui-ci doit être activé dans le module **Gestion des remises**. Pour activer un accord, vous devez d’abord créer et configurer un *Workflow d’accord de gestion des remises*.
 
-Une fois qu’un workflow a été activé pour la gestion des remises, les utilisateurs ne peuvent pas approuver manuellement les accords. Le workflow doit toujours être utilisé.
+Les utilisateurs ne peuvent pas approuver manuellement les accords. Le workflow doit toujours être utilisé.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Créer et gérer des workflows d’accord de gestion des remises
 
@@ -42,4 +42,17 @@ Pour utiliser vos workflows d’accord de gestion des remises, accédez à **Ges
 
 Pour activer un accord via un workflow, ouvrez l’accord (par exemple, sur la page **Tous les accords de gestion des remises**). Ensuite, dans le volet Actions, sélectionnez **Workflow \> Envoyer**. Une fois le nouvel accord traité et approuvé via le workflow, il sera actif et prêt à être utilisé.
 
-Une fois qu’un accord a été activé, vous ne pouvez pas modifier sa configuration. Si vous devez modifier un accord actif, désactivez-le, puis créez-en un nouveau. Si le nouvel accord ressemble à l’ancien, vous pouvez le créer en copiant l’ancien.
+Une fois qu’un accord a été activé, vous ne pouvez pas modifier la majeure partie de sa configuration. Si vous devez modifier un accord actif, désactivez-le d’abord, puis créez-en un nouveau. Si le nouvel accord ressemble à l’ancien, vous pouvez le créer en copiant l’ancien.
+
+Vous pouvez modifier les paramètres suivants d’un accord après son activation :
+
+- Rapprochement par
+- Garantie cumulative
+- Profil de validation
+- Profil de validation pour garantie
+- Notes de document
+- Devise
+- Date de début
+- Au
+
+De plus, les lignes de remise peuvent être supprimées.

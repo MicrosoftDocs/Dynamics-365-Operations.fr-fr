@@ -2,11 +2,9 @@
 title: Tenir à jour les informations bancaires pour un compte fournisseur
 description: Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cette rubrique explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
 author: v-kiarnd
-manager: AnnBe
-ms.date: 01/14/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,42 +16,48 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2011-01-14
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ddb87b809bdbf34b7226a1c7a34a818dd67dd9d7
-ms.sourcegitcommit: 7f9bc375b14fb380b5e152f37810e5a33faffb0f
+ms.openlocfilehash: 3fbcba98ecc4cf2f177c39bdca0c47cd7d86540d9e7c117a891448816f8b1f83
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737370"
 ---
 # <a name="maintain-vendor-bank-account-information"></a>Tenir à jour les informations bancaires pour un compte fournisseur
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cette rubrique explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
 
 Une fois que vous avez donné accès aux fournisseurs, ils peuvent ajouter des informations pour les nouveaux comptes bancaires. Vous pouvez ensuite consulter ces informations et terminer le processus de pré-note afin que les nouveaux comptes soient utilisés pour les paiements à ces fournisseurs.
 
-Vous pouvez gérer votre compte fournisseur dans l'espace de travail **Informations fournisseur**. Les fournisseurs pourront ensuite sélectionner **Plus de détails** et **Comptes bancaires** dans la liste déroulante. Pour ajouter un nouveau compte bancaire, sélectionnez **Ajouter** au-dessus de la grille des comptes bancaires. Dans la boîte de dialogue **Nouveau** qui s'affiche, vous pouvez entrer les informations suivantes :
+Vous pouvez gérer votre compte fournisseur dans l’espace de travail **Informations fournisseur**. Les fournisseurs pourront ensuite sélectionner **Plus de détails** et **Comptes bancaires** dans la liste déroulante. Pour ajouter un nouveau compte bancaire, sélectionnez **Ajouter** au-dessus de la grille des comptes bancaires. Dans la boîte de dialogue **Nouveau** qui s’affiche, vous pouvez entrer les informations suivantes :
 
 - Compte bancaire
 - Nom de la banque
 - Numéro de compte bancaire
 - Numéro d’acheminement bancaire
-- Date d'effet
-- Date d'expiration
+- Date d’effet
+- Date d’expiration
 - Commentaires (facultatifs)
 
-Si l'entité juridique est en dehors des États-Unis, la boîte de dialogue comprend également des champs pour le code SWIFT et le numéro de compte bancaire international (IBAN).
+Si l’entité juridique est en dehors des États-Unis, la boîte de dialogue comprend également des champs pour le code SWIFT et le numéro de compte bancaire international (IBAN).
 
-S'il existe des documents liés à la certification spécifique, vous pouvez les joindre en sélectionnant **Document**.
+S’il existe des documents liés à la certification spécifique, vous pouvez les joindre en sélectionnant **Document**.
 
-Les informations bancaires que les fournisseurs saisissent sur la page afficheront **Fournisseur** comme source. Vous pouvez également saisir des informations de compte bancaire à la place d'un fournisseur. Ces informations apparaîtront ici, et **Client** sera affiché comme source. Pour plus d’informations, voir [Créer un compte bancaire fournisseur](../../supply-chain/procurement/tasks/create-vendor-bank-account.md).
+Les informations bancaires que les fournisseurs saisissent sur la page afficheront **Fournisseur** comme source. Vous pouvez également saisir des informations de compte bancaire à la place d’un fournisseur. Ces informations apparaîtront ici, et **Client** sera affiché comme source. Pour plus d’informations, voir [Créer un compte bancaire fournisseur](../../supply-chain/procurement/tasks/create-vendor-bank-account.md).
 
-Une fois qu'un compte a été ajouté, les fournisseurs peuvent modifier les dates d'effet et d'expiration de leur banque au besoin.
+Une fois qu’un compte a été ajouté, les fournisseurs peuvent modifier les dates d’effet et d’expiration de leur banque au besoin.
+
+## <a name="turn-on-the-vendor-bank-account-information-feature"></a>Activer la fonctionnalité d’informations de compte bancaire fournisseur
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser la page [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module** - *Comptabilité fournisseur*
+- **Nom de la fonctionnalité** - *Tenir à jour les informations bancaires des fournisseurs à l’aide de l’espace de travail de collaboration avec les fournisseurs*
 
 ## <a name="vendor-collaboration-generated-bank-changes-page"></a>Page des modifications bancaires générées par la collaboration avec les fournisseurs
 
-Une fois que les fournisseurs ont mis à jour leurs informations bancaires, ces informations seront visibles sur la nouvelle page **Modifications bancaires générées par la collaboration avec les fournisseurs** disponible sous **Comptabilité fournisseur \> Recherches \> États fournisseur**. Par défaut, tous les enregistrements bancaires nouvellement saisis ou modifiés sont affichés. L'adjoint chargé de la comptabilité fournisseur peut visualiser les modifications et exécuter les informations de compte via le processus de pré-note pour les valider. Lorsque ce processus est terminé et que le mode de paiement principal a été mis à jour manuellement, le compte bancaire indiqué sur la page **Modifications bancaires générées par la collaboration avec les fournisseurs** peut être sélectionnée et marquée comme révisée. Cette action supprime le compte de la liste par défaut.
+Une fois que les fournisseurs ont mis à jour leurs informations bancaires, ces informations seront visibles sur la nouvelle page **Modifications bancaires générées par la collaboration avec les fournisseurs** disponible sous **Comptabilité fournisseur \> Recherches \> États fournisseur**. Par défaut, tous les enregistrements bancaires nouvellement saisis ou modifiés sont affichés. L’adjoint chargé de la comptabilité fournisseur peut visualiser les modifications et exécuter les informations de compte via le processus de pré-note pour les valider. Lorsque ce processus est terminé et que le mode de paiement principal a été mis à jour manuellement, le compte bancaire indiqué sur la page **Modifications bancaires générées par la collaboration avec les fournisseurs** peut être sélectionnée et marquée comme révisée. Cette action supprime le compte de la liste par défaut.
 
-Pour afficher toutes les modifications apportées aux informations bancaires d'un fournisseur, vous pouvez modifier les filtres pour afficher la page par compte fournisseur, par plage de dates de validité et si les modifications ont été vérifiées.
+Pour afficher toutes les modifications apportées aux informations bancaires d’un fournisseur, vous pouvez modifier les filtres pour afficher la page par compte fournisseur, par plage de dates de validité et si les modifications ont été vérifiées.

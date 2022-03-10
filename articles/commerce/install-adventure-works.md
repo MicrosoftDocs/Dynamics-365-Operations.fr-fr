@@ -2,7 +2,7 @@
 title: Installer le thème Adventure Works
 description: Cette rubrique décrit comment installer le thème Adventure Works dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9c94dd8ead32f58a25a396376840101d9c2c9b08
-ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6655846"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913700"
 ---
 # <a name="install-the-adventure-works-theme"></a>Installer le thème Adventure Works
 
@@ -32,7 +32,7 @@ Cette rubrique décrit comment installer le thème Adventure Works dans Microsof
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant d'installer le thème Adventure Works, vous devez disposer d'un environnement Dynamics 365 Commerce(Commerce version 10.0.20 ou ultérieure) qui inclut Retail Cloud Scale Unit (RCSU), le kit de développement logiciel (SDK) en ligne Commerce et la bibliothèque de modules Commerce. Pour plus d'informations sur l'installation du SDK et de la bibliothèque de modules Commerce, consultez [Mises à jour du SDK et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md). 
+Avant d'installer le thème Adventure Works, vous devez disposer d'un environnement Dynamics 365 Commerce (Commerce version 10.0.20 ou ultérieure) qui inclut Retail Cloud Scale Unit (RCSU), le kit de développement logiciel (SDK) en ligne Commerce et la bibliothèque de modules Commerce. Pour plus d'informations sur l'installation du kit de développement logiciel (SDK) Commerce et de la bibliothèque de modules, consultez [Configurer un environnement de développement](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>Étapes d'installation
 
@@ -48,11 +48,19 @@ Le package du thème Adventure Works est disponible dans le flux **dynamics365-c
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Pour installer le package dans votre environnement local, exécutez la commande suivante à partir de l'invite de commande. Cette commande met automatiquement à jour le fichier package.json afin qu'il inclue la dépendance.
+Pour installer le package dans votre environnement local, exécutez la commande `yarn add THEME_PACKAGE@VERSION` à partir de l'invite de commande, où **THEME_PACKAGE** représente le package du thème (@msdyn365-commerce-theme/adventureworks-theme-kit) et **VERSION** représente le numéro de version de la bibliothèque de modules utilisée. Il est important que les versions du package de thème et de la bibliothèque de modules correspondent. Pour trouver le bon numéro de version de la bibliothèque de modules à utiliser, ouvrez le fichier package.json et localisez la valeur **starter-pack** sous la section **dépendances**. Dans l'exemple suivant, le fichier package.json utilise la version 9.32 de la bibliothèque de modules qui correspond à la version 10.0.22 de Dynamics 365 Commerce.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-Dans le fichier **package.json**, vous devez mettre à jour la version du thème vers une version spécifique.
+L'exemple suivant montre comment exécuter la commande `yarn add` pour ajouter la version 9.32 du thème Adventure Works. La commande met automatiquement à jour le fichier package.json afin qu'il inclue la dépendance.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Pour plus d'informations sur la mise à jour de la version de la bibliothèque de modules, consultez [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - La version du thème doit correspondre à la version de la bibliothèque de modules pour garantir que toutes les fonctionnalités fonctionnent comme prévu. 

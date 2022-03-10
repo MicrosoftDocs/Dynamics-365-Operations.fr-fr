@@ -1,8 +1,7 @@
 ---
 title: Créer des règles d’alerte
-description: Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d’une règle d’alerte pour être informé d’événements, par exemple une date qui arrive ou une modification spécifique qui se produit.
-author: tjvass
-manager: AnnBe
+description: Cette rubrique fournit des informations sur les alertes et explique comment créer une règle d’alerte.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
@@ -11,15 +10,15 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736196"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d’alerte
 
@@ -102,7 +101,7 @@ Vous ne pouvez pas créer d’alerte pour certaines sources de données secondai
 2. Créez une alerte à partir du formulaire SysTableBrowser.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Les alertes basées sur les modifications ne fonctionnent pas pour les modifications d’état par lots
-Les alertes basées sur les modifications ne fonctionnent pas avec les modifications d’état par lots, car elles sont désactivées pour des raisons de performances. Au lieu de cela, vous devez configurer la fonctionnalité **Alertes par lots**. Pour plus d’informations, consultez [Configurer des alertes pour les formulaires améliorés par lots](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
+Les alertes basées sur les modifications ne fonctionnent pas avec les modifications d’état par lots, car elles sont désactivées pour des raisons de performances. Au lieu de cela, vous devez configurer la fonctionnalité **Alertes par lots**. Pour plus d’informations, consultez [Configurer des alertes pour les formulaires améliorés par lots](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

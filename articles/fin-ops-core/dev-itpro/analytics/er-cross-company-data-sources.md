@@ -2,8 +2,7 @@
 title: Sources de données de société croisée dans la gestion des états électroniques (ER)
 description: Cette rubrique explique comment utiliser les sources de données de société croisée dans la gestion des états électroniques.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9eee9ba70e800c78622b774d8140b104fa0ad911
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cfa6e61879618aede466bde3eafe582be36301e8a1609511b7e3bc3fe65ccfce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718525"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Sources de données de société croisée dans la gestion des états électroniques (ER)
 
@@ -73,8 +72,8 @@ Pour plus d’informations sur cette fonction, lisez le guide de tâches, **ER A
 
 Téléchargez les fichiers suivants pour exécuter le guide de tâches :
 
-- [Configuration du modèle ER - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [Configuration du format ER - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Configuration du modèle ER – CrossCompanyDataAccessModel.xml](https://download.microsoft.com/download/4/2/5/4258f891-7054-4821-aedd-3721ba25fdd5/CrossCompanyDataAccessModel.xml)
+- [Configuration du format ER – CrossCompanyDataAccessFormat.xml](https://download.microsoft.com/download/3/2/1/321deb75-3ba9-4323-99bf-207a52c60b5c/CrossCompanyDataAccessFormat.xml)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1c17a00a9c62627e37533b43c38d94d57b00d1eb6c6b55de197dcd6d00d02db6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712193"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Paramétrer des frais de paiement pour les paiements à l'administration TDS
 
@@ -31,7 +31,7 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 
 1. Accédez à **Comptabilité fournisseur \> Paramétrage des paiements \> Frais de paiement**.
 
-    [![Page Frais de paiement](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Page Frais de paiement.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Sélectionnez **Nouveau** pour créer des frais de paiement, puis entrez les informations requises.
 3. Dans le champ **Type de frais**, sélectionnez le type de frais de paiement :
@@ -46,7 +46,7 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 5. Renseignez les informations demandées.
 6. Dans le volet Actions, sélectionnez **Configuration des frais de paiement** pour ouvrir la page **Configuration des frais de paiement**, où vous pouvez configurer les frais de paiement pour diverses combinaisons de banques, modes de paiement, spécifications de paiement, devises et intervalles de dates.
 
-    [![Page Paramétrage des frais de paiement](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Page Paramétrage des frais de paiement.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Dans l'onglet **Aperçu**, dans le champ **Groupements**, spécifiez les banques pour lesquelles vous configurez les frais de paiement :
 
@@ -64,7 +64,7 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 15. Dans le champ **Devise des frais**, spécifiez le code devise pour les frais.
 16. Sélectionnez l'onglet **Général** pour afficher ou modifier les détails du compte bancaire sélectionné.
 
-    [![Onglet Général](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Onglet Général.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. Dans le champ **Minimum**, saisissez le montant minimum de la transaction qui active les frais.
 17. Dans le champ **Maximum**, saisissez le montant maximum de la transaction qui active les frais.
@@ -74,7 +74,7 @@ Cette rubrique explique comment configurer les frais de paiement qui sont factur
 21. Dans le champ **Groupe de taxe de vente**, sélectionnez le groupe de taxe d'article à utiliser pour calculer la taxe de vente des articles pour le montant des frais.
 22. Sélectionnez l’onglet **Intervalle**. 
 
-    [![Onglet Intervalle](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Onglet Intervalle.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. Dans le champ **Jours**, entrez le nombre de jours qui séparent la date de validation (date d'escompte) du paiement et la date d'échéance du billet à ordre.
 24. Dans le champ **Pourcentage/Montant**, indiquez si la spécification est un pourcentage ou un montant défini.

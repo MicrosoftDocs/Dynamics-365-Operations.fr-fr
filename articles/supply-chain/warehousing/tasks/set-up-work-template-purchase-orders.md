@@ -1,7 +1,7 @@
 ---
 title: Paramétrer un modèle de travail pour les commandes fournisseur
 description: Cette rubrique décrit comment paramétrer un modèle de travail simple à utiliser pour le rangement des articles reçus.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e79c4e1810cf095a342a370018190fd0d587c15
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817291"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572287"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Paramétrer un modèle de travail pour les commandes fournisseur
 

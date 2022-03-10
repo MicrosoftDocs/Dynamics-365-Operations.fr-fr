@@ -2,28 +2,28 @@
 title: Vue d’ensemble des versions d’évaluation des coûts
 description: Cet article fournit des informations sur les versions d’évaluation des coûts, comment les tenir à jour, et les types de données que vous pouvez y inclure. L’objectif principal d’une version d’évaluation de coûts est de contenir des enregistrements de coûts relatifs aux articles, des catégories de coûts et des formules de calcul pour les coûts indirects.
 author: AndersGirke
-manager: tfehr
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 54532
+ms.custom:
+- "54532"
+- intro-internal
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4375c088e0872f6f75ee83b288c41e80ea4dcb34
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 27ad1f1d8ae60eef5607bafb9aaf9604784099e4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232348"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983095"
 ---
 # <a name="costing-versions-overview"></a>Vue d’ensemble des versions d’évaluation des coûts
 

@@ -1,8 +1,8 @@
 ---
 title: Créer des régimes de rémunération fixe
-description: La rémunération fixe fait référence au salaire brut normal des employés. Cet article décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Cette rubrique décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,28 +12,31 @@ ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ae6f31db40c792c9b65a6f21395e05528a053acbc4b9dc8b56978675c635e0f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46dbc167a76782cfa8a72da8ce8bed2ce29e4dc6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732487"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070323"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Création des régimes de rémunération fixe
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La rémunération fixe fait référence au salaire brut normal des employés. Cet article décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
+La rémunération fixe fait référence au salaire brut normal des employés. Cette rubrique décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
 
 Les montants de rémunération fixe peuvent être calculés pour vos employés en fonction de facteurs tels que les performances, la zone et les augmentations de budget. Dynamics 365 Human Resources prend en charge les types de rémunération par échelon, niveau et structure.
 
 ## <a name="fixed-compensation-components"></a>Composants de rémunération fixe
 ### <a name="compensation-levels"></a>Niveaux de rémunération
 
-Vous pouvez utiliser des **niveaux de rémunération** pour définir la rémunération pour diverses tâches, pour garantir que les employés qui exécutent ces tâches sont payés suffisamment. Sur la page **Niveaux de rémunération**, vous pouvez paramétrer les niveaux de rémunération requis pour chaque régime par échelon, niveau et structure. Utilisez les boutons **Haut** et **Bas** pour mettre les niveaux dans l’ordre correct, en fonction de leur type. En définissant des niveaux de rémunération sur une tâche, vous garantissez que tous les employés occupant un poste pour cette tâche sont payés au même niveau.
+Vous pouvez utiliser des **Niveaux de rémunération** pour définir la rémunération pour diverses tâches, pour garantir que les employés qui exécutent ces tâches sont payés suffisamment. Sur la page **Niveaux de rémunération**, vous pouvez paramétrer les niveaux de rémunération requis pour chaque régime par échelon, niveau et structure. Utilisez les boutons **Haut** et **Bas** pour mettre les niveaux dans l’ordre correct, en fonction de leur type. En définissant des niveaux de rémunération sur une tâche, vous garantissez que tous les employés occupant un poste pour cette tâche sont payés au même niveau.
 
 ### <a name="reference-points"></a>Points de référence
 
@@ -41,9 +44,9 @@ Les **Points de référence** sont les colonnes dans la grille qui définissent 
 
 ### <a name="compensation-grids"></a>Grilles de rémunération
 
-Après avoir paramétré les niveaux et les points de référence, vous pouvez les combiner pour créer une **grille de rémunération** Dans la page **Grilles de rémunération**, définissez les informations concernant la grille. Par exemple, spécifiez à quoi la grille est destinée à être utilisée, avec quel type de régime elle sera utilisée et quels points ou colonnes de référence sont requis dans la grille. Après avoir terminé d’entrer ces informations, cliquez sur **Structure de rémunération** pour ajouter des niveaux et des montants à votre grille. 
+Après avoir paramétré les niveaux et les points de référence, vous pouvez les combiner pour créer une **Grille de rémunération**. Dans la page **Grilles de rémunération**, définissez les informations concernant la grille. Par exemple, spécifiez à quoi la grille est destinée à être utilisée, avec quel type de régime elle sera utilisée et quels points ou colonnes de référence sont requis dans la grille. Après avoir terminé d’entrer ces informations, cliquez sur **Structure de rémunération** pour ajouter des niveaux et des montants à votre grille. 
 
-**Conseil :** utilisez la fonction **Modifications en masse** dans la structure de rémunération pour définir des montants initiaux, puis incrémentez par des pourcentages ou des montants dans tous vos niveaux ou points de référence.
+**Conseil :** utilisez la fonction **Modifications en masse** dans la structure de rémunération pour définir des montants initiaux, puis incrémentez par des pourcentages ou des montants dans tous vos niveaux ou points de référence.
 
 ### <a name="pay-frequencies"></a>Fréquences de paiement
 
@@ -56,13 +59,13 @@ Le paramètre **Tolérance des valeurs hors limite** permet de spécifier avec q
 
 Le paramètre **Règle d’embauche** permet de spécifier si tous les employés doivent recevoir la même augmentation, indépendamment de la date à laquelle ils ont été engagés (**Règle d’embauche** = **Aucune**), ou si les employés doivent recevoir un pourcentage de la prime, selon la durée pendant laquelle ils ont été employés au cours du cycle (**Règle d’embauche** = **Pourcentage**). 
 
-Une **matrice de l’utilisation de tranche** est utile si vous souhaitez réduire le temps requis pour que les employés atteignent la valeur médiane de leur tranche, ou augmenter le temps requis pour que les employés atteignent le point de référence maximal de la tranche. Par exemple, vous souhaitez donner aux employés qui sont dans les derniers 25 % de leur tranche 110 % de leur prime cible, mais vous souhaitez donner aux employés qui sont dans les premiers 25 % de leur tranche seulement 80 % de leur prime cible, pour les empêcher d’atteindre le maximum aussi rapidement. 
+Une **Matrice de l’utilisation de tranche** est utile si vous souhaitez réduire le temps requis pour que les employés atteignent la valeur médiane de leur tranche, ou augmenter le temps requis pour que les employés atteignent le point de référence maximal de la tranche. Par exemple, vous souhaitez donner aux employés qui sont dans les derniers 25 % de leur tranche 110 % de leur prime cible, mais vous souhaitez donner aux employés qui sont dans les premiers 25 % de leur tranche seulement 80 % de leur prime cible, pour les empêcher d’atteindre le maximum aussi rapidement. 
 
 Après avoir défini les bases du régime de rémunération fixe, vous pouvez paramétrer la structure de rémunération du régime. Cliquez sur **Paramétrer la rémunération**. Une boîte de dialogue curseur s’ouvre et affiche les trois options suivantes :
 
--   Créer une grille de rémunération en sélectionnant un paramétrage de point de référence et en donnant à la grille un nom.
--   Créer une grille de rémunération en faisant une copie d’une grille existante que vous pouvez utiliser comme point de départ.
--   Utiliser une grille de rémunération existante déjà définie. Tous les régimes de rémunération qui utilisent la même grille reçoivent des mises à jour si cette grille est modifiée.
+-   **Créer une matrice de rémunération** en sélectionnant un paramétrage de point de référence et en donnant à la grille un nom.
+-   **Créer une matrice de rémunération** en faisant une copie d’une grille existante que vous pouvez utiliser comme point de départ.
+-   **Utiliser une matrice de rémunération existante** déjà définie. Tous les régimes de rémunération qui utilisent la même grille reçoivent des mises à jour si cette grille est modifiée.
 
 Après avoir sélectionné une option, la page **Structure de rémunération** s’ouvre et vous pouvez modifier la nouvelle grille de rémunération ou la grille de rémunération existante.
 
@@ -71,11 +74,11 @@ Après avoir sélectionné une option, la page **Structure de rémunération** s
 
 La première étape en inscrivant des employés dans un régime de rémunération fixe est de déterminer qui peut prétendre à la rémunération définie dans le régime. Tant que vous n’avez pas déterminé l’admissibilité, vous ne pouvez affecter le régime à aucun employé. Pour paramétrer l’admissibilité, ouvrez la page **Règles d’admissibilité**. Ici, vous créez une règle d’admissibilité pour votre régime de rémunération et définissez les critères qu’un employé doit remplir pour pouvoir prétendre à un régime. Vous pouvez limiter l’admissibilité selon un département, un syndicat, une région de rémunération (emplacement), une tâche, une fonction, un type de tâche ou un niveau de rémunération. Les employés peuvent être inscrits dans un régime de rémunération uniquement s’ils répondent à toutes les conditions définies sur la règle d’admissibilité. 
 
-**Remarque :** les règles d’admissibilité s’appliquent pour déterminer l’admissibilité aux régimes de rémunération fixe et variable. 
+**Remarque :** les règles d’admissibilité s’appliquent pour déterminer l’admissibilité aux régimes de rémunération fixe et variable. 
 
-La règle d’admissibilité prend en compte la valeur des champs spécifiques dans les enregistrements de la tâche, du poste, et de l’employé pour déterminer si un employé peut prétendre à un régime de rémunération.
+La règle d’admissibilité prend en compte la valeur des champs spécifiques dans les enregistrements de la **tâche**, du **poste**, et de l’**employé** pour déterminer si un employé peut prétendre à un régime de rémunération.
 
--   Dans la page **Tâche**, la règle d’admissibilité prend en compte les champs suivants :
+-   Dans la page **Tâche**, la règle d’admissibilité prend en compte les champs suivants :
     -   le champ **Tâche**
     -   Sous l’onglet **Classification des tâches**, les champs **Fonction** et **Tâche**
     -   Sous l’onglet **Rémunération**, le champ **Niveau**
@@ -93,7 +96,7 @@ Par exemple, lorsque la rémunération fixe est paramétrée pour un employé, s
 
 Vous pouvez désormais affecter un employé à un régime de rémunération fixe. Ouvrez la page **Employés**, puis sélectionnez l’employé à inscrire dans le régime de rémunération. Dans le volet Actions, cliquez sur **Rémunération** &gt; **Régime fixe**. Vous pouvez désormais créer une action de rémunération fixe pour cet employé. 
 
-**Remarque :** le champ régime de rémunération affiche seulement les régimes auxquels un employé peut prétendre selon les règles d’admissibilité paramétrées pour chaque régime. Si aucune règle d’admissibilité n’est définie pour un régime, aucun employé ne pourra y prétendre. 
+**Remarque :** le champ **Régime de rémunération** affiche seulement les régimes auxquels un employé peut prétendre selon les règles d’admissibilité paramétrées pour chaque régime. Si aucune règle d’admissibilité n’est définie pour un régime, aucun employé ne pourra y prétendre. 
 
 Le système vérifie que le montant de rémunération spécifié pour un régime de rémunération du type niveau ou structure est compris dans les points de référence minimum et maximum pour le niveau de rémunération donné dans la tâche de l’employé. Si le montant de rémunération est en dehors de la plage autorisée, un avertissement ou un message d’erreur s’affiche, selon le niveau de tolérance défini dans le régime de rémunération fixe.
 

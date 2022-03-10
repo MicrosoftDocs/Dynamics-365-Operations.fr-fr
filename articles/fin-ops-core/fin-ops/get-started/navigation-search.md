@@ -2,11 +2,9 @@
 title: Recherche de navigation
 description: Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b68182ff7da07f350e2eacaf569089e0fdf44a8d
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695059"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069982"
 ---
 # <a name="navigation-search"></a>Recherche de navigation
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages.
 
@@ -36,7 +37,7 @@ Pour utiliser cette fonction, cliquez sur l’icône **Rechercher** pour affiche
 > [!NOTE]
 > La zone **Rechercher** vous aide rechercher et accéder aux pages. Elle ne vous aidera pas à rechercher des données spécifiques ou des actions.
 
-[![search-box](media/navigation-search.png "zone Recherche")
+![search-box.](media/navigation-search.png "zone Recherche")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Accéder rapidement à une page spécifique
 
@@ -44,11 +45,11 @@ La fonctionnalité de recherche de navigation est également très utile pour ac
 
 Les résultats de la recherche affichent le titre de la page et son chemin de navigation. Indique l’emplacement de la page dans l’application. Cela vous aide également à différencier deux ou plusieurs pages similaires dans les résultats.
 
-Lorsque vous recherchez une page, votre entrée est mise en correspondance avec le titre de la page, ainsi qu’avec son chemin de navigation. Par exemple, si vous entrez « client » dans la zone **Recherche**, vous verrez les résultats des pages disponibles dans la section Comptabilité client - même si les titres de la page ne comprennent pas le mot « client ».
+Lorsque vous recherchez une page, votre entrée est mise en correspondance avec le titre de la page, ainsi qu’avec son chemin de navigation. Par exemple, si vous entrez « client » dans la zone **Recherche**, vous verrez les résultats des pages disponibles dans la section Comptabilité client – même si les titres de la page ne comprennent pas le mot « client ».
 
 ## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>Accéder rapidement à une page en fonction de son nom technique
 
-La fonctionnalité de recherche de navigation inclut également une fonctionnalité très demandée par les utilisateurs avec pouvoirs : la possibilité d’accéder rapidement à une page en fonction de son nom technique. De nombreux utilisateurs sont si familiarisé avec le système qu’ils connaissent les noms exacts des écrans qu’ils utilisent. Si vous êtes l’un de ces utilisateurs, vous pouvez entrer **écran :** suivi du nom de l’écran que vous recherchez. Par exemple, si vous entrez **écran : vendinvoice**, les résultats de la recherche affichent toutes les pages où le nom d’écran commence par **vendinvoice**.
+La fonctionnalité de recherche de navigation inclut également une fonctionnalité très demandée par les utilisateurs avec pouvoirs : la possibilité d’accéder rapidement à une page en fonction de son nom technique. De nombreux utilisateurs sont si familiarisé avec le système qu’ils connaissent les noms exacts des écrans qu’ils utilisent. Si vous êtes l’un de ces utilisateurs, vous pouvez entrer **écran :** suivi du nom de l’écran que vous recherchez. Par exemple, si vous entrez **écran : vendinvoice**, les résultats de la recherche affichent toutes les pages où le nom d’écran commence par **vendinvoice**.
 
 ## <a name="administration-and-security"></a>Administration et sécurité
 
@@ -62,3 +63,6 @@ La liste des résultats de la recherche est limitée à 10 articles. Si vous ne 
 ## <a name="development"></a>Développement
 
 D’un point de vue du développement, la fonctionnalité de recherche de navigation est très accessible car il n’existe pratiquement aucun délai entre le déploiement des options de menu et leur capacité à s’afficher dans les résultats de la recherche. Tant que les options de menu sont liées au volet de navigation ou au tableau de bord, elles peuvent automatiquement faire l’objet d’une recherche.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

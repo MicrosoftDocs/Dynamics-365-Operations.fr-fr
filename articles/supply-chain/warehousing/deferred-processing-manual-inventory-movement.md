@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777664"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102737"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Traitement différé du mouvement manuel des stocks
 
@@ -32,10 +32,10 @@ Le traitement en arrière-plan est réalisé en utilisant la [Fonctionnalité Tr
 
 Pour rendre cette fonctionnalité disponible, activez les fonctionnalités suivantes dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Vous devez les activer dans cet ordre :
 
-1. Blocage des tâches à l’échelle de l’organisation (À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
-1. Traiter les événements d’application d’entrepôt
-1. Opérations put différées
-1. Traitement différé de l’opération manuelle de mouvement de stock
+1. *Blocage des tâches à l’échelle de l’organisation*<br>(À partir de la version 10.0.21, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
+1. *Traiter les événements d’application d’entrepôt*<br>(Depuis la version 10.0.25 de Supply Chain Management, cette fonctionnalité est activée par défaut.)
+1. *Opérations put différées*
+1. *Traitement différé de l’opération manuelle de mouvement de stock*<br>(À partir de la version 10.0.25, de Supply Chain Management, cette fonctionnalité est obligatoire, elle est donc activée par défaut et ne peut plus être désactivée.)
 
 ## <a name="configure-the-work-processing-policies"></a>Configurer les stratégies de traitement du travail
 

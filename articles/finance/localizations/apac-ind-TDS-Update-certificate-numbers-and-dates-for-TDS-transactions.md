@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: da835306e523129fb667153ff6a5fbe574f2769649639595c90af603f1258e4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757997"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Mettre à jour les numéros et les dates de certificat pour les transactions TDS
 
@@ -33,7 +33,7 @@ Suivez ces étapes pour mettre à jour les numéros et les dates des transaction
 
 1. Accédez à **Taxe \> Déclarations \> Retenue à la source \> Mettre à jour le certificat**.
 
-    [![Mettre à jour la page du certificat](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Mettre à jour la page du certificat.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Sur la page **Mettre à jour le certificat**, dans la section **Sélectionner**, dans le champ **Type de taxe**, sélectionnez **TDS**.
 3. Dans le champ **Numéro de certificat**, sélectionnez le numéro de certificat TDS du client ou du fournisseur.
@@ -60,4 +60,4 @@ Suivez ces étapes pour mettre à jour les numéros et les dates des transaction
 8. Sélectionnez **Mettre à jour** pour mettre à jour les champs **Numéro de certificat** et **Date du certificat** pour les transactions TDS dans la grille inférieure.
 10. Accédez à **Impôt \> Impôts indirects \> Retenue à la source \> Certificat récupérable** et sélectionnez **Enquête** pour afficher les lignes de transaction mises à jour qui ont les nouveaux numéros de certificat sur la page **Transactions de certificat**.
 
-    [![Page Transactions de certificat](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Page Transactions de certificat.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

@@ -3,25 +3,27 @@ title: Vue d’ensemble de la gestion des clients
 description: Cette rubrique fournit une vue d’ensemble des nouvelles fonctionnalités de gestion des clients qui sont disponibles dans l’application.
 author: bebeale
 ms.date: 02/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937010"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984594"
 ---
 # <a name="clienteling-overview"></a>Vue d’ensemble de la gestion des clients
 
@@ -68,7 +70,7 @@ Pour activer la fonctionnalité de gestion des clients dans votre environnement,
 
 1. Dans l’espace de travail **Gestion de fonctions**, filtrez les entités selon le module **Commerce et vente au détail**.
 
-    ![Gestion des clients dans la liste des entités pour le module Commerce](./media/Enable_clienteling.png "Gestion des clients dans la liste des entités pour le module Commerce et vente au détail")
+    ![Gestion des clients dans la liste des entités pour le module Commerce.](./media/Enable_clienteling.png "Gestion des clients dans la liste des entités pour le module Commerce et vente au détail")
 
 2. Activez la fonctionnalité **Gestion des clients** en sélectionnant **Activer maintenant**.
 3. Sur la page **Paramètres Commerce**, sous l’onglet **Souche de numéros**, sélectionnez la ligne **Identificateur du registre des clients**. Puis, dans le champ **Code souche de N°**, sélectionnez une séquence de numéros. Le système utilise cette souche de numéros pour attribuer un ID aux registres de clients.
@@ -83,7 +85,7 @@ Pour activer la fonctionnalité de gestion des clients dans votre environnement,
 
 6. Sur la page **Paramètres Commerce**, sous l’onglet **Gestion des clients**, dans le champ **Groupe d’attributs du registre de clients**, sélectionnez le groupe d’attributs que vous venez de créer.
 
-    ![Groupe d’attributs du registre de clients sélectionné](./media/Client%20book%20attributes.png "Groupe d’attributs du registre de clients sélectionné")
+    ![Groupe d’attributs du registre de clients sélectionné.](./media/Client%20book%20attributes.png "Groupe d’attributs du registre de clients sélectionné")
 
 7. Pour effectuer les activités qui se produisent au PDV, définissez les types d’activités sur la page **Types d’activité** (**Commerce et vente au détail \> Clients \> Types d’activité**).
 
@@ -95,7 +97,7 @@ Pour activer la fonctionnalité de gestion des clients dans votre environnement,
 
 Une fois cette procédure terminée, les associés de vente peuvent ouvrir la page des détails du client au PDV, et ajouter les clients à leur registre de clients, afficher et capturer les activités et les notes pour les clients, et cibler les clients en utilisant les attributs du registre des clients pour filtrer le registre des clients. L’illustration suivante présente un exemple de registre de clients.
 
-![Exemple d’un registre de clients](./media/client_book.png "Exemple d’un registre de clients")
+![Exemple d’un registre de clients.](./media/client_book.png "Exemple d’un registre de clients")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Activer l’intégration de Customer Insights avec Commerce
 
@@ -123,7 +125,7 @@ Procédez comme suit pour configurer l’intégration.
 - Sous la section **Secrets** :
     - **Nom** : N’importe quel nom, par exemple « CISecret ».
     - **Description** : N’importe quelle valeur.
-    - **Secret** : **vault**://<Name of key vault>/<name of secret>> Dans cet exemple, il s’agit de « vault://KeyVaultName/SecretName ».
+    - **Secret** : **coffre** :`//<Name of key vault>/<name of secret>>` Dans cet exemple, ce sera `vault://KeyVaultName/SecretName`.
 
 Après avoir mis à jour les champs, sélectionnez **Valider** pour vous assurer que le secret est accessible par l’application Commerce.
 

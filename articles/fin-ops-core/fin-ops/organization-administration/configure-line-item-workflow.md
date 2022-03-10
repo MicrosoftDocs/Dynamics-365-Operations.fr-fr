@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84da7080542b4cc2ecc487b0a1331482fb69b998
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2d6d9dcb99e00d4ce3f99e525a72421cb12af178
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747903"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070119"
 ---
 # <a name="configure-line-item-workflows"></a>Configuration des workflows pour ligne
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment configurer un élément de workflow pour ligne.
 
@@ -42,7 +45,7 @@ Procédez comme suit pour indiquer si le même workflow est utilisé pour traite
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
 2. Si le même workflow traite tous les articles de lignes d’un document, cliquez sur **Invoquer un seul workflow pour tous les articles de ligne**. Sélectionnez ensuite le workflow à utiliser pour traiter les lignes.
-3. Si un workflow donné doit traiter les articles de lignes qui remplissent un ensemble spécifique de conditions, cliquez sur **Invoquer un workflow pour chaque article de ligne**. Puis procédez comme suit pour définir les conditions :
+3. Si un workflow donné doit traiter les articles de lignes qui remplissent un ensemble spécifique de conditions, cliquez sur **Invoquer un workflow pour chaque article de ligne**. Puis procédez comme suit pour définir les conditions :
 
     1. Cliquez sur **Ajouter**.
     2. Sélectionnez la condition dans le tableau.

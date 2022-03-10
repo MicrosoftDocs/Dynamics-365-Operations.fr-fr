@@ -1,8 +1,7 @@
 ---
 title: Modèles de données avec plusieurs feuilles de calcul
-description: Cette rubrique décrit la procédure d’importation de données à l’aide des modèles d’entité de données Excel dans Finance and Operations.
-author: Sunil-Garg
-manager: AnnBe
+description: Cette rubrique décrit la procédure d’importation de données à l’aide des modèles d’entité de données Excel dans Finances et Opérations.
+author: peakerbl
 ms.date: 01/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,19 +11,22 @@ ms.reviewer: sericks
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 64515ff74c0ca2b01bb9dac06331ba0424811411
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565569"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070059"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Modèles de données avec plusieurs feuilles de calcul
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 La gestion des données dans l’application prend en charge les modèles basés sur Microsoft Excel pour les entités de données. Ces modèles peuvent contenir une ou plusieurs feuilles de calcul. Les modèles avec plusieurs feuilles de calcul sont souvent utilisés lorsqu’il est pratique de gérer les données d’un fichier unique et de les importer dans plusieurs entités de données. Il peut s’agir par exemple de sites et d’entrepôts.
 
@@ -33,13 +35,13 @@ Prenons l’exemple d’un fichier Excel avec des feuilles de calcul intitulées
 
 Si vous ajoutez la deuxième entité **Entrepôts** sans quitter l’écran **Ajouter un fichier**, la recherche de feuille de calcul vous permet de sélectionner la feuille de calcul **Entrepôts** sans avoir à télécharger à nouveau le fichier. Vous ne devez télécharger un nouveau fichier que si les données **Entrepôts** se trouvent dans un autre fichier.
 
-![Feuilles de calcul multiples](./media/AddFileMultipleWorkSheets.png)
+![Feuilles de calcul multiples.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Corriger la mise en correspondance de la feuille de calcul avec une entité
 
 La mise en correspondance de la feuille de calcul avec une entité de données dans la tâche d’importation peut être corrigée à partir de la grille. La colonne **Feuille de calcul** de la grille affiche les feuilles de calcul du fichier qui a été mis en correspondance. Vous pouvez choisir une autre feuille de calcul dans le menu déroulant. Si la feuille de calcul choisie est déjà mise en correspondance avec une entité dans le projet de données, le système vous demande de confirmer la modification. Il est recommandé de corriger toutes les mises en correspondance dans la grille.
 
-![Mettre à jour la mise en correspondance de la feuille de calcul](./media/UpdateMappings.png)
+![Mettre à jour la mise en correspondance de la feuille de calcul.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Remettre en correspondance la feuille de calcul avec un nouveau fichier
 

@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fabd5a18879b54ce99a71513812fdcdba10a05c6dc91dcc95d34336c8327f4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715164"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069246"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Cette rubrique explique comment configurer les différentes propriétés d’un workflow.
 
@@ -56,7 +59,7 @@ Vous pouvez fournir des instructions pour les utilisateurs qui soumettent des do
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
 2. Entrez les instructions dans le champ **Instructions de soumission**.
-3. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+3. Pour personnaliser les instructions, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque les instructions apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Cliquez sur le champ **Instructions de soumission** pour spécifier l’endroit où l’espace réservé doit apparaître.
     2. Cliquez sur **Insérer un espace réservé**.
@@ -81,8 +84,8 @@ Vous pouvez créer plusieurs workflows basés sur le même type de workflow. Si 
 
 Par exemple, vous pouvez créer un workflow de demande d’achat pour chaque pays ou région dans lequel vous travaillez, comme Demandes d’achat Danemark et Demandes d’achat Espagne avec les conditions suivantes :
 
-- Demandes d’achat Danemark doit être utilisé lorsque : le pays/région = DK
-- Demandes d’achat Espagne doit être utilisé lorsque : le pays/région = ES
+- Demandes d’achat Danemark doit être utilisé lorsque : le pays/région = DK
+- Demandes d’achat Espagne doit être utilisé lorsque : le pays/région = ES
 
 Procédez comme suite pour spécifier quand le workflow que vous configurez est utilisé.
 
@@ -98,7 +101,7 @@ Procédez comme suite pour spécifier quand le workflow que vous configurez est 
 Lorsqu’un document est soumis pour traitement, une instance de workflow est créée. Vous pouvez envoyer des notifications aux utilisateurs lorsque les instances de workflow qui sont basées sur ce workflow sont initiées, terminées, interrompues ou bloquées en raison d’une erreur. Procédez comme suit pour spécifier quand les notifications sont envoyées.
 
 1. Dans le volet gauche, cliquez sur **Notifications**.
-2. Activez la case à cocher correspondant à chaque événement qui doit déclencher des notifications :
+2. Activez la case à cocher correspondant à chaque événement qui doit déclencher des notifications :
 
     - **Commencé** – Permet d’envoyer des notifications lorsqu’une instance de workflow démarre.
     - **Bloqué** – Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur.
@@ -108,7 +111,7 @@ Lorsqu’un document est soumis pour traitement, une instance de workflow est cr
 
 3. Sélectionnez la ligne pour un événement sélectionné à l’étape 2.
 4. Entrez le texte de la notification dans l’onglet **Texte de notification**.
-5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque le texte apparait aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Ils sont remplacés par les données appropriées lorsque le texte apparait aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
     1. Cliquez dans le champ pour spécifier l’endroit où l’espace réservé doit apparaître.
     2. Cliquez sur **Insérer un espace réservé**.

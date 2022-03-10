@@ -2,11 +2,9 @@
 title: Contenu Power BI Rémunération
 description: Cette rubrique décrit le contenu Power BI Rémunération. Elle explique comment accéder aux rapports et fournit des informations sur le modèle de données utilisé.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763594"
 ---
 # <a name="compensation-power-bi-content"></a>Contenu Power BI Rémunération
 
@@ -71,3 +69,6 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l’employé            | Prénom, nom et nom complet                                                                       | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Titre de l’employé           | Titre et date d’ancienneté                                                                                   | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Tendance de l’employé           | Collaborateurs dans le temps, effectif, société et poste                                                        | Société, Rémunération, Emplacement géographique, Nom de l’employé, Génère un état pour, Décalage de calendrier, Date, Titre de l’employé, Démographie, Emploi, Tâche, Avantages |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

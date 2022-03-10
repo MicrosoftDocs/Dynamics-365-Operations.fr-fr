@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750098"
 ---
 # <a name="manually-created-work-orders"></a>Ordres de travail créés manuellement
 
@@ -111,7 +111,7 @@ Vous pouvez créer un ordre de travail associé à un ordre de travail existant.
 
 L’illustration suivante présente un exemple de la boîte de dialogue **Créer un ordre de travail associé**.
 
-![Figure 1](media/03-work-orders.png)
+![Figure 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Si vous avez configuré un masque d’ordre de travail associé dans **Paramètres de gestion des actifs** > **onglet Ordres de travail** > **Masque de l’ordre de travail associé**, les ID des ordres de travail sont créés selon la configuration du masque. Si aucun masque de l’ordre de travail associé n’est configuré, l’ID de l’ordre de travail suivant disponible est utilisé pour les ordres de travail associés.
@@ -137,7 +137,7 @@ Vous pouvez créer rapidement un ordre de travail depuis un ordre de travail exi
 
 L’illustration suivante présente un exemple de la boîte de dialogue **Copier un ordre de travail**.
 
-![Figure 2](media/04-work-orders.png)
+![Figure 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Créer un ordre de travail à partir d’une demande de maintenance
@@ -157,7 +157,7 @@ L’illustration suivante présente un exemple de la boîte de dialogue **Copier
 
 L’illustration suivante présente un exemple de la boîte de dialogue **Créer un ordre de travail**.
 
-![Figure 3](media/05-work-orders.png)
+![Figure 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

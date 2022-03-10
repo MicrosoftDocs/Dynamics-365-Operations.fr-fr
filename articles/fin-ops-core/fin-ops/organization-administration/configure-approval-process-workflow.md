@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 998ee15d828feefb0a9691138ae8001331283d5b866386500f5cf5de48291b43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756319"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070800"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurer des processus d’approbation dans un workflow
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 La procédure suivante permet de configurer les propriétés du processus d’approbation.
 
@@ -38,14 +41,14 @@ Procédez comme suit pour entrer un nom pour le processus d’approbation.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-document"></a>Indication du moment où le système agit automatiquement sur le document
 
-Vous pouvez configurer le système pour qu’il agisse automatiquement sur le document s’il répond à certaines conditions. Par exemple, le système peut approuver les états de dépenses dont le montant total est inférieur à USD 100. Procédez comme suit pour indiquer quand le système agit sur le document.
+Vous pouvez configurer le système pour qu’il agisse automatiquement sur le document s’il répond à certaines conditions. Par exemple, le système peut approuver les états de dépenses dont le montant total est inférieur à 100 EUR. Procédez comme suit pour indiquer quand le système agit sur le document.
 
 1. Dans le volet gauche, cliquez sur **Actions automatiques**.
 2. Activez la case à cocher **Activer les actions automatiques**.
 3. Cliquez sur **Ajouter une condition**.
 4. Permet d’entrer une condition.
 5. Entrez d’autres conditions, le cas échéant.
-6. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
+6. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
 
     1. Cliquez sur **Test** pour ouvrir l’écran **Condition de workflow de test**.
     2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l’écran.
@@ -59,7 +62,7 @@ Vous pouvez configurer le système pour qu’il agisse automatiquement sur le do
 Vous pouvez envoyer des notifications aux personnes lorsqu’un document a été approuvé, rejeté, délégué ou réaffecté, ou encore lorsqu’une modification a été demandée. Procédez comme suit pour indiquer quand les notifications sont envoyées, et à qui.
 
 1. Dans le volet gauche, cliquez sur **Notifications**.
-2. Activez la case à cocher en regard des événements pour lesquels envoyer des notifications :
+2. Activez la case à cocher en regard des événements pour lesquels envoyer des notifications :
 
     - **Déléguer** – Lorsqu’un document a été affecté à un autre utilisateur pour approbation.
     - **Réaffecter** – Lorsque l’utilisateur affecté n’a pas agi sur un document dans le délai imparti.
@@ -151,7 +154,7 @@ Si le processus d’approbation doit être exécuté dans un certain délai, pro
 
 1. Dans le volet gauche, cliquez sur **Paramètres avancés**.
 2. Activez la case à cocher **Définir une limite de temps pour l’élément** **de workflow**.
-3. Dans le champ **Durée**, spécifiez quand le processus d’approbation doit être exécuté. Permet de sélectionner l’une des options suivantes :
+3. Dans le champ **Durée**, spécifiez quand le processus d’approbation doit être exécuté. Permet de sélectionner l’une des options suivantes :
 
     - **Heures** – Permet d’entrer le nombre d’heures accordé pour l’exécution du processus d’approbation. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
     - **Jours** – Permet d’entrer le nombre de jours accordé pour l’exécution du processus d’approbation. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.

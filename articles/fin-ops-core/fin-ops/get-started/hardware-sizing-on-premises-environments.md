@@ -2,11 +2,9 @@
 title: Configuration requise pour le calibrage de matériel pour les environnements sur site
 description: Cette rubrique répertorie la configuration requise pour le calibrage de matériel pour les environnements sur site.
 author: sericks007
-manager: AnnBe
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763432"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Configuration requise pour le calibrage de matériel pour les environnements sur site
 
@@ -38,7 +36,7 @@ Après avoir vérifié la documentation, vous pouvez commencer le processus d’
 
 Tous les facteurs affichés dans l’illustration suivante contribuent au calibrage. Plus les informations collectées sont détaillées, plus vous pouvez déterminer précisément le calibrage. Le calibrage du matériel, sans données de prise en charge, est susceptible d’être inexact. La configuration requise minimale pour les données nécessaires est la ligne de transaction de chargement de pointe horaire.
 
-[![Calibrage du matériel pour les environnements sur site](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Calibrage du matériel pour les environnements sur site.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 De gauche à droite, le premier facteur, et le plus important, nécessaire pour estimer précisément le calibrage est un profil de transaction ou une caractérisation de transaction. Il est important de toujours rechercher le volume transactionnel de pointe horaire. S’il existe des plusieurs périodes de pointe, ces périodes doivent être précisément définies.
 
@@ -134,10 +132,15 @@ Dans la plupart des cas, à moins qu’utilisés intensivement, la configuration
 
 Pour le lancement général de disponibilité, seul un nœud SSRS peut être déployé. Surveillez votre nœud SSRS lors de test et augmentez le nombre de noyaux disponibles pour SSRS au besoin. Veillez à ce que vous ayez un nœud secondaire préconfiguré disponible sur un hôte virtuel qui est différent de celui indiqué dans la VM SSRS. Cela est important s’il y a un problème avec la machine virtuelle qui héberge SSRS ou le serveur virtuel. Si tel est le cas, elle doit être remplacée.
 
+À partir de la version 10.0.17, il est possible de configurer des nœuds SSRS supplémentaires pour obtenir une haute disponibilité. Pour plus d’informations, consultez [Configurer la haute disponibilité pour les nœuds SQL Server Reporting Services (SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md).
+
 ## <a name="environment-orchestrator"></a>Orchestrateur d’environnement
 
-Le service Orchestrator est le service qui assure le déploiement et les communications liées à LCS. Ce service est déployé comme Service Fabric principal et nécessite au moins trois VM. Ce service est coïmplanté avec les services d’orchestration Service Fabric. Ils doivent être calibrés en fonction de la charge de pointe du cluster. Pour plus d’informations, voir [Planifier et préparer votre déploiement de groupement autonome Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Le service Orchestrator est le service qui assure le déploiement et les communications liées à LCS. Ce service est déployé comme Service Fabric principal et nécessite au moins trois VM. Ce service est coïmplanté avec les services d’orchestration Service Fabric. Ils doivent être calibrés en fonction de la charge de pointe du cluster. Pour plus d’informations, voir [Planifier et préparer votre déploiement de groupement autonome Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisation et sursouscription
 
 Les services critiques pour la mission comme AOS doivent être hébergés sur des hôtes virtuels qui ont des ressources dédiées : des noyaux, de la mémoire et un disque.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

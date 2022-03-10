@@ -1,12 +1,10 @@
 ---
 title: Modélisation d’une organisation au plus juste
 description: L’article fournit des informations sur les concepts clés de la modélisation d’une organisation au plus juste.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c5eb4fb0ea69217b45967c5af8b5b6b0117c0fa
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3958d21188163fe95e36ba4b8117ae8314b0fd1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246043"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570199"
 ---
 # <a name="modeling-a-lean-organization"></a>Modélisation d’une organisation au plus juste
 
@@ -53,7 +51,7 @@ La chaîne de valeur de l’état futur peut être modélisée en tant que versi
 
 La chaîne de valeur elle-même est modélisée en tant qu’unité opérationnelle. Par conséquent, la chaîne de valeur peut être utilisée comme dimension financière.
 
-Pour plus d’informations sur les unités opérationnelles, voir [Créer une unité opérationnelle](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Pour plus d’informations sur les unités opérationnelles, voir [Créer une unité opérationnelle](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Évaluation des coûts du lean manufacturing basée sur le flux de production
 La consolidation périodique du coût pour un flux de production corrige le compte des travaux en cours associé et permet la détermination des écarts pour les produits fournis par le flux de production.

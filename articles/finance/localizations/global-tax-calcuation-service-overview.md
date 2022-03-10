@@ -3,24 +3,23 @@ title: Vue d’ensemble du calcul de la taxe
 description: Cette rubrique explique la portée et les fonctionnalités générales de la fonctionnalité de calcul des taxes.
 author: wangchen
 ms.date: 11/17/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892422"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105435"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -35,12 +34,12 @@ Le calcul des taxes s’intègre à Dynamics 365 Finance et Dynamics 365 Supply 
 
 Le calcul des taxes est un moteur fiscal basé sur des microservices qui offre une évolutivité exponentielle et peut vous aider à effectuer les tâches suivantes :
 
-- Déterminez automatiquement le groupe de taxe de vente, le groupe de taxe d'article et les codes de taxe corrects grâce à un mécanisme de détermination amélioré.
+- Déterminez automatiquement le groupe de taxe de vente, le groupe de taxe d’article et les codes de taxe corrects grâce à un mécanisme de détermination amélioré.
 - Prenez en charge plusieurs numéros d’immatriculation fiscale dans une entité juridique et déterminez automatiquement le numéro d’immatriculation fiscale correct sur les transactions imposables.
 - Prenez en charge la détermination, le calcul, la comptabilisation et le règlement des taxes pour les ordres de transfert.
 - Définissez des formules et des conditions de calcul des taxes configurables pour les besoins spécifiques de votre entreprise.
 - Partagez la solution de détermination et de calcul des taxes entre les entités juridiques pour réduire les efforts de maintenance et éviter les erreurs.
-- Prenez en charge la détermination du numéro d'enregistrement fiscal du client et du fournisseur.
+- Prenez en charge la détermination du numéro d’enregistrement fiscal du client et du fournisseur.
 - Prenez en charge la détermination du code liste.
 - Prenez en charge les paramètres de calcul des taxes au niveau de la juridiction fiscale.
 
@@ -50,7 +49,7 @@ Pour utiliser le calcul des taxes, installez le module complémentaire de calcul
 
 Le calcul des taxes est en disponibilité générale dans les environnements de production pour tous les clients à partir de la version 10.0.21.
 
-De nouvelles fonctionnalités continueront d'être livrées. Consultez régulièrement le plan de version le plus à jour pour en savoir plus sur la couverture et l’étendue des fonctionnalités prises en charge.
+De nouvelles fonctionnalités continueront d’être livrées. Consultez régulièrement le plan de version le plus à jour pour en savoir plus sur la couverture et l’étendue des fonctionnalités prises en charge.
 
 Le calcul des taxes est déployé dans les zones géographiques Azure suivantes. Davantage de zones géographiques Azure seront ajoutées, en fonction des besoins des clients.
 
@@ -66,7 +65,7 @@ Le calcul des taxes est déployé dans les zones géographiques Azure suivantes.
 > Le calcul des taxes ne prend pas en charge les versions antérieures de Dynamics 365, telles que Dynamics AX 2012, ou les déploiements sur site de Dynamics 365.
 
 ## <a name="versions"></a>Versions
-Nous vous recommandons d'importer et de paramétrer votre configuration de calcul des taxes avec la version qui correspond à votre version de Finance ou de Supply Chain Management.
+Nous vous recommandons d’importer et de paramétrer votre configuration de calcul des taxes avec la version qui correspond à votre version de Finance ou de Supply Chain Management.
 
 | Version de Finance ou de Supply Chain Management | Version de la configuration de la taxe               |
 | --------------- | --------------------------------------- |
@@ -77,6 +76,7 @@ Nous vous recommandons d'importer et de paramétrer votre configuration de calcu
 | 10.0.22         | Configuration du calcul des taxes 40.48.215 |
 | 10.0.23         | Configuration du calcul des taxes 40.50.221 |
 | 10.0.24         | Configuration du calcul des taxes 40.50.225 |
+| 10.0.25         | Configuration du calcul des taxes 40.50.225 |
 
 
 ## <a name="data-flow"></a>Flux de données
@@ -84,10 +84,10 @@ Nous vous recommandons d'importer et de paramétrer votre configuration de calcu
 Voici un aperçu du processus de flux de données pour le calcul des taxes. 
 
 1. Dans RCS, affichez et importez les configurations de modèle de document fiscal et les configurations de mappage de modèles. Si vous devez étendre les configurations pour un scénario avancé, consultez [Ajouter des champs de données dans les configurations de taxe](tax-service-add-data-fields-tax-configurations.md).
-2. Dans RCS, créez ou gérez des fonctionnalités de taxe. Vous pouvez utiliser des fonctionnalités de taxe pour gérer les taux de taxe et les règles d'applicabilité des taxes.
+2. Dans RCS, créez ou gérez des fonctionnalités de taxe. Vous pouvez utiliser des fonctionnalités de taxe pour gérer les taux de taxe et les règles d’applicabilité des taxes.
 3. Une fois la configuration des fonctionnalités de taxe terminée, publiez les configurations de taxe et les fonctionnalités de taxe de RCS dans le référentiel global.
 4. Dans Finance, sélectionnez la version de configuration des fonctionnalités de taxe à utiliser pour une entité juridique spécifique.
-5. Dans Finance et Supply Chain Management, effectuez les transactions comme d'habitude. Lorsque le calcul des taxes est nécessaire, le client collectera les informations de la transaction, telles que la commande client ou la commande fournisseur, et conditionnera les informations en tant que charge utile. Une demande sera alors envoyée pour calculer la taxe.
+5. Dans Finance et Supply Chain Management, effectuez les transactions comme d’habitude. Lorsque le calcul des taxes est nécessaire, le client collectera les informations de la transaction, telles que la commande client ou la commande fournisseur, et conditionnera les informations en tant que charge utile. Une demande sera alors envoyée pour calculer la taxe.
 6. La demande de calcul des taxes est reçue du client et le calcul est effectué. Le résultat de taxe est ensuite retourné au client.
 7. Le client Dynamics 365 reçoit le résultat de taxe et présente le résultat du calcul des taxes sur une page de taxe.
 
@@ -140,7 +140,7 @@ Les transactions suivantes sont prises en charge dans la version 10.0.23 :
 
 Le calcul des taxes peut être activé par entité juridique. 
 
-Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.21 :
+Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.21 :
 
 - Autriche
 - Belgique
@@ -162,7 +162,7 @@ Les pays/régions suivants pour l'adresse principale d'une entité juridique son
 - Royaume-Uni
 - Etats-Unis
 
-Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.22 :
+Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.22 :
 
 - Australie
 - Royaume de Bahreïn
@@ -177,14 +177,14 @@ Les pays/régions suivants pour l'adresse principale d'une entité juridique son
 - Afrique du Sud
 - Émirats arabes unis
 
-Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.23 :
+Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.23 :
 
 - Thaïlande
 - Japon
 - Malaisie
 - Singapour
 
-Les pays/régions suivants pour l'adresse principale d'une entité juridique sont pris en charge dans la version 10.0.24 :
+Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.24 :
 
 - Mexique
 

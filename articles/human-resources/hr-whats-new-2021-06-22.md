@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735349"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (22 juin 2021)
 
@@ -44,7 +44,7 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 | --- | --- | --- |
 | Fonctionnalité Informer les utilisateurs des collaborateurs sans emploi : lorsque l’accès avancé est activé et que la fonction **Voir tous les collaborateurs sans emploi** est désactivée dans la gestion des fonctionnalités, une bannière s’affiche dans le formulaire Collaborateurs sans emploi. La bannière indique à l’utilisateur d’activer la fonctionnalité **Voir tous les collaborateurs sans emploi**. | Non applicable| [Collaborateurs sans emploi](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Prise en charge des champs personnalisés pour les règles d’admissibilité de gestion des avantages | [Prise en charge des champs personnalisés pour le traitement de l’admissibilité](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Configuration des règles d’éligibilité](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Audit des transactions de régularisation de congés | Non applicable | [Audit des transactions de régularisation de congés](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Audit des transactions de régularisation de congés | Non applicable | [Audit des transactions de régularisation de congés](hr-leave-and-absence-accrue.md)|
 | Améliorations de l’expérience du flux de travail sur les congés et les absences | [Améliorations de l’expérience du flux de travail sur les congés et les absences](https://go.microsoft.com/fwlink/?linkid=2147528) | [Demander un congé](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Correctifs de bogue

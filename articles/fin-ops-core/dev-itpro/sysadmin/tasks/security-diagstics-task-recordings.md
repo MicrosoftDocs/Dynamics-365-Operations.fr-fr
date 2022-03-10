@@ -2,7 +2,6 @@
 title: Diagnostics de sécurité pour l’enregistrement des tâches
 description: Cette rubrique fournit des informations sur la façon d’analyser et de gérer les exigences d’autorisation de sécurité en fonction d’un enregistrement de tâche.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 99f9da527e818892eb3f46aceca3cc4588b99e81
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745118"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnostics de sécurité pour l’enregistrement des tâches
 
@@ -40,7 +39,7 @@ Cette rubrique fournit des informations sur la façon d’analyser et de gérer 
 
 4. Dans le champ **ID utilisateur**, sélectionnez un utilisateur. Si l’utilisateur ne dispose pas d’autorisations pour certains éléments de menu, le champ **Autorisations manquantes** sera mis à jour sur **Oui**.
   
-  ![Page Détails des éléments du menu Sécurité](../media/Security-Menu-Item-Details.png)
+  ![Page Détails des éléments du menu Sécurité.](../media/Security-Menu-Item-Details.png)
 
 5. Sélectionnez **Ajouter une référence** pour afficher la liste des objets de sécurité, y compris les rôles, les fonctions et les privilèges qui accordent l’autorisation manquante.
 6. Sélectionnez un objet de sécurité dans la liste :

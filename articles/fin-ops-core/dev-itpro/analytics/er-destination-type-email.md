@@ -2,7 +2,7 @@
 title: Type de destination pour l’envoi d’états électroniques par e-mail
 description: Cette rubrique explique comment configurer une destination d’e-mail pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769317"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324006"
 ---
 # <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
@@ -53,16 +53,29 @@ Pour envoyer un ou plusieurs fichiers de sortie par e-mail, procédez comme suit
 
 ## <a name="configure-an-email-destination"></a>Configurer une destination d’e-mail
 
-Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail, et modifier l’objet et le corps du courrier électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement les textes de courrier électronique.
+### <a name="email-content"></a>Contenu de l'e-mail
 
-Par défaut, un e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
+Vous pouvez modifier l'objet et le corps du message électronique.
+
+Dans le champ **Objet**, saisissez le texte de l'objet de l'e-mail qui doit apparaître dans le champ objet d'un message électronique généré lors de l'exécution. Dans le champ **Corps**, saisissez le texte du corps de l'e-mail qui doit apparaître dans le champ corps d'un message électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de gestion des états électroniques pour créer dynamiquement le texte du courrier électronique lors de l'exécution. La formule configurée doit renvoyer une valeur de type [Chaîne](er-formula-supported-data-types-primitive.md#string).
+
+Le corps de votre email est composé au format TEXTE ou HTML, selon le client de messagerie. Vous pouvez utiliser n’importe quelle mise en page, style et image de marque pris en charge par le format HTML et les feuilles de style en cascade en ligne (CSS).
+
+> [!NOTE]
+> Les clients de messagerie imposent des restrictions de mise en page et de style qui pourraient nécessiter des ajustements du HTML et du CSS que vous utilisez pour le corps du message. Nous vous recommandons de vous familiariser avec les meilleures pratiques de création de code HTML que les clients de messagerie les plus populaires prendront en charge.
+>
+> Utilisez le codage correct pour implémenter un retour chariot, en fonction de la mise en forme du corps. Pour plus d'informations, voir la définition du type de données [Chaîne](er-formula-supported-data-types-primitive.md#string).
+
+### <a name="email-addresses"></a>Adresses e-mail
+
+Vous pouvez spécifier l’expéditeur et les destinataires de l’e-mail. Par défaut, l'e-mail est envoyé au nom de l’utilisateur actuel. Pour spécifier un autre expéditeur d’e-mail, vous devez configurer le champ **De**.
 
 > [!NOTE]
 > Lorsqu’une destination de courrier électronique est configurée, le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailConfigure` **Configurer l’adresse e-mail de l’expéditeur pour les destinations au format ER**.
 >
 > Lorsqu’une destination de courrier électronique est proposée pour modification au moment de l’[exécution](electronic-reporting-destinations.md#security-considerations), le champ **De** n’est visible que pour les utilisateurs qui ont le privilège de sécurité `ERFormatDestinationSenderEmailMaintain` **Gérer l’adresse e-mail de l’expéditeur pour la destination au format ER**.
 >
-> Lorsque le champ **De** est configuré pour utiliser une adresse e-mail autre que celle de l’utilisateur actuel, l’autorisation **Envoyer en tant que** ou **Envoyer pour le compte de** doit être correctement [définie](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) à l’avance. Sinon, l’exception suivante est générée au moment de l’exécution : « Impossible d’envoyer l’e-mail en tant que \<from email account\> depuis le compte \<current user account\>, veuillez vérifier les autorisations « Envoyer en tant que » sur le \<from email account\>. »
+> Lorsque le champ **De** est configuré pour utiliser une adresse e-mail autre que celle de l’utilisateur actuel, l’autorisation **Envoyer en tant que** ou **Envoyer pour le compte de** doit être correctement [définie](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) à l’avance. Sinon, l’exception suivante est générée au moment de l’exécution : « Impossible d’envoyer l’e-mail en tant que \<from email account\> depuis le compte \<current user account\>, veuillez vérifier les autorisations « Envoyer en tant que » sur le \<from email account\>. »
 
 Vous pouvez configurer le champ **De** pour renvoyer plusieurs adresses e-mail. Dans ce cas, la première adresse de la liste est utilisée comme adresse d’expéditeur de courrier électronique.
 
@@ -127,7 +140,7 @@ Pour spécifier le type d’adresses e-mail à utiliser lors du runtime, dans la
 
 ### <a name="configuration-email"></a>E-mail de configuration
 
-Sélectionnez **E-mail de configuration** comme type d’adresse e-mail si la configuration que vous utilisez a un nœud dans les sources de données qui renvoie une seule adresse e-mail ou plusieurs adresses e-mail séparées par des points-virgules (;). Vous pouvez utiliser les [sources de données](general-electronic-reporting.md#FormatComponentOutbound) et les [fonctions](er-formula-language.md#Functions) dans le concepteur de formule pour obtenir une adresse e-mail correctement mise en forme ou des adresses e-mail correctement mises en forme séparées par des points-virgules. Par exemple, si vous utilisez la configuration **Transfert de crédit ISO 20022**, le nœud qui représente l’adresse e-mail principale d’un fournisseur à partir des coordonnées du fournisseur auquel la lettre explicative doit être envoyée est `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Sélectionnez **E-mail de configuration** comme type d’adresse e-mail si la configuration que vous utilisez a un nœud dans les sources de données qui renvoie une seule adresse e-mail ou plusieurs adresses e-mail séparées par des points-virgules (;). Vous pouvez utiliser les sources de données et les [fonctions](er-formula-language.md#Functions) dans le concepteur de formule pour obtenir une adresse e-mail correctement mise en forme ou des adresses e-mail correctement mises en forme séparées par des points-virgules. Par exemple, si vous utilisez la configuration **Transfert de crédit ISO 20022**, le nœud qui représente l’adresse e-mail principale d’un fournisseur à partir des coordonnées du fournisseur auquel la lettre explicative doit être envoyée est `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Configuration d’une source d’adresse e-mail.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
