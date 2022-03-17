@@ -2,7 +2,7 @@
 title: Journaux d’opérations diverses
 description: Cette rubrique décrit les fonctionnalités de Microsoft Dynamics 365 Finance qui vous permettent d’effectuer le traitement du journal des opérations diverses, ainsi que de garantir que les données correctes sont capturées et que le contrôle interne n’est pas compromis.
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726775"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367878"
 ---
 # <a name="general-journal-processing"></a>Journaux d’opérations diverses
 
@@ -101,7 +101,7 @@ Un bouton est disponible sur la page du journal pour déverrouiller un journal d
 La capacité de rappeler un journal dans workflow dont le statut « Irrécupérable » est activé à l’aide du bouton **Workflow** dans un journal, puis sur la page **Historique du workflow**. Cela est activé par la fonction nommée **Réinitialiser le statut de workflow pour les journaux** sur la page **Gestion des fonctions**.
 
 ## <a name="delete-journal-lines"></a>Supprimer des lignes du journal
-La possibilité de supprimer rapidement toutes les lignes du journal est activée dans un journal sous **Fonctions** > **Supprimer des lignes du journal**. Pour activer cette fonction, dans **Gestion des fonctions**, sélectionnez **Supprimer les optimisations des performances du journal**.
+La possibilité de supprimer rapidement toutes les lignes du journal est activée dans un journal sous **Fonctions** > **Supprimer des lignes du journal**. Pour activer cette fonction, dans **Gestion des fonctions**, sélectionnez **Supprimer les optimisations des performances du journal**. Cette fonctionnalité a un impact sur les extensions de la table **LedgerJournalTrans** et sa méthode **Supprimer**, car l’ensemble des lignes est supprimé sans appeler la méthode **Supprimer** de chaque ligne. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

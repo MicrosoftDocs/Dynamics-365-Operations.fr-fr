@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103938"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384693"
 ---
 # <a name="inventory-value-reports"></a>États de valeur de stock
 
@@ -102,7 +102,7 @@ Utilisez la page **Rapports de valeur de stock** pour configurer le contenu qui 
         - Articles reçus et pas encore facturés lorsque l’option **Enregistrer le stock physique** est désactivée pour le groupe de modèles d’articles concerné.
         - Articles reçus et pas encore facturés lorsque l’option **Enregistrer le reçu de produit dans la comptabilité** est désactivée sur le raccourci **Réception du produit** sur l’onglet **Général** de la page **Paramètres de la comptabilité fournisseur** (**Comptabilité fournisseur \> Configurer \> Paramètres de la comptabilité fournisseur**).
 
-    - **Calculer le coût unitaire moyen** – Définissez cette option sur *Oui* pour afficher une colonne indiquant le coût unitaire moyen. Le coût unitaire moyen est la quantité totale divisée par le montant total.
+    - **Calculer le coût unitaire moyen** – Définissez cette option sur *Oui* pour afficher une colonne indiquant le coût unitaire moyen. Le coût unitaire moyen est le montant total divisé par la quantité totale.
     - **Quantité et valeur totales** – Définissez cette option sur *Oui* pour afficher les colonnes qui indiquent la quantité totale du stock physique (et les quantités financières) et le montant total du stock physique (et des montants financiers). Vous pouvez définir cette option sur *Oui* uniquement si l’option **Résumer les valeurs physiques et financières** est définie sur *Non*.
     - **Dimensions du stock** – Dans cette grille, cochez la case **Afficher** pour chaque dimension à afficher sur le rapport. Seules les dimensions où l’option **Stock financier** est activée affichera les valeurs sur le rapport. Les autres dimensions n’afficheront que des colonnes vides. Pour les dimensions que vous choisissez d’afficher, vous pouvez cocher la case **Total** pour inclure les totaux aussi.
     - **ID de la ressource** – Définissez l’option **Afficher** sur *Oui* pour afficher une colonne qui identifie l’article pour chaque ligne. Définissez l’option **Total** sur *Oui* pour inclure les totaux aussi. Selon le type d’article répertorié dans chaque ligne, la colonne affiche l’un des types d’informations suivants :

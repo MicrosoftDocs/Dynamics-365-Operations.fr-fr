@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075017"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384417"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -71,6 +71,18 @@ La liste des tâches actives comprend les colonnes suivantes :
 - **Terminé** – Cette colonne indique la quantité déjà terminée pour une tâche.
 - **Mis au rebut** – Cette colonne indique la quantité déjà mise au rebut pour une tâche.
 - **Restant** – Cette colonne indique la quantité qui reste à terminer pour une tâche.
+
+## <a name="my-jobs-tab"></a>Onglet Mes tâches
+
+L’onglet **Mes tâches** permettent aux collaborateurs de visualiser facilement toutes les tâches non démarrées et inachevées qui leur sont spécifiquement affectées. C’est utile dans les entreprises où les tâches sont parfois ou toujours attribuées à des collaborateurs spécifiques (ressources humaines) au lieu d’autres types de ressources (comme les machines). 
+
+Le système de planification affecte automatiquement chaque travail de production à un enregistrement de ressource spécifique, et chaque enregistrement de ressource a un type (tel que machine ou humain). Lorsque vous configurez un employé en tant qu’employé de production, vous pouvez associer le compte d’employé à un enregistrement de ressource humaine unique. 
+
+L’onglet **Mes tâches** répertorie toutes les tâches non démarrées et non terminées qui ont été affectées à l’enregistrement des ressources humaines de l’employé connecté, si un employé est connecté. Il ne répertorie jamais les tâches qui ont été affectées à une machine ou à un autre type de ressource, même si le collaborateur connecté a commencé à travailler sur ces tâches.
+
+Pour afficher toutes les tâches démarrées par le collaborateur connecté, quel que soit le type de ressource auquel chaque tâche est affectée, utilisez l’onglet **Tâches actives**. Pour afficher toutes les tâches inachevées qui correspondent à la configuration du filtre de travail local, quel que soit l’employé ou le statut de démarrage, utilisez l’onglet **Toutes les tâches**.
+
+![Onglet Mes tâches.](media/pfei-my-jobs-tab.png "Onglet Mes tâches")
 
 ## <a name="my-machine-tab"></a>Onglet Ma machine
 
@@ -133,6 +145,13 @@ Si une commande par lots est créée à partir d’une version de formule où l�
 
 Dans ce cas, le collaborateur peut spécifier le co-produit et la quantité à déclarer en sélectionnant **Variantes de co-produits** dans la boîte de dialogue de progression du rapport. L’ouvrier peut alors sélectionner parmi tous les produits lancés qui sont définis comme co-produits.
 
+### <a name="reporting-catch-weight-items"></a>Déclaration des éléments à poids variable
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots pour les éléments de poids variable. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des éléments à poids variable en tant qu’éléments de formule, co-produits et sous-produits en sortie. Une formule peut également être définie pour avoir des lignes de formule pour les ingrédients qui sont définis pour le poids variable. Les éléments à poids variable utilisent deux unités de mesure pour suivre l’inventaire : la quantité de poids variable et la quantité de stock. Par exemple, dans l’industrie alimentaire, la viande en boîte peut être définie comme un élément à poids variable, où la quantité de poids variable est utilisée pour suivre le nombre de boîtes et la quantité d’inventaire est utilisée pour suivre le poids des boîtes.
+
 ## <a name="reporting-scrap"></a>Déclarer le rebut
 
 Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut déclarer le rebut en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie du rebut**. Puis, dans la boîte de dialogue **Saisie du rebut**, le travailleur entre la quantité mise au rebut à l’aide du clavier numérique. Le travailleur sélectionne également une raison (*Aucune*, *Machine*, *Opérateur* ou *Matériel*).
@@ -187,6 +206,13 @@ Les actions suivantes peuvent être exécutées :
 
 Le bouton **Ajuster la matière** peut être configuré pour qu’il apparaisse sur la barre d’outils à droite. (Pour plus d’informations, voir [oncevoir l’interface d’exécution de l’atelier de production](production-floor-execution-tabs.md).) Un employé peut sélectionner **Ajuster la matière** pour une tâche de production en cours. Dans ce cas, la boîte de dialogue **Ajuster la matière** apparaît, où l’employé peut effectuer les ajustements souhaités. Lorsque la boîte de dialogue est ouverte, une liste de prélèvement de production contenant des lignes pour les quantités ajustées est créée pour l’ordre de fabrication. Si l’employé choisit **Publier maintenant**, l’ajustement est confirmé et la liste de prélèvement est affichée. Si l’employé choisit **Annuler**, le prélèvement est supprimé et aucun ajustement n’est fait.
 
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Ajuster la consommation de matériaux pour les éléments à poids variable
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Les employés peuvent ajuster la consommation de matériaux pour les éléments à poids variable. Cette fonctionnalité est utilisée dans les scénarios où la quantité réelle de matières à poids variable qui a été consommée par une tâche de production était supérieure ou inférieure à la quantité planifiée. Par conséquent, elle doit être ajustée pour garantir que les niveaux d’inventaire sont à jour. Lorsqu’un employé ajuste la consommation d’un élément à poids variable, il peut ajuster à la fois la quantité de poids variable et la quantité de stock. Par exemple, si un travail de production est prévu pour consommer cinq boîtes dont le poids est estimé à 2 kilogrammes par boîte, l’employé peut ajuster à la fois le nombre de boîtes à consommer et le poids des boîtes. Le système validera que le poids spécifié des boîtes se situe dans les seuils minimum et maximum définis sur le produit lancé.
+
 ### <a name="reserve-materials"></a>Réserver des matières
 
 Dans la boîte de dialogue **Ajuster la matière**, un collaborateur peut effectuer et ajuster des réservations de matière en sélectionnant **Réserver des matières**. La boîte de dialogue **Réserver des matières** qui s’affiche indique le stock physiquement disponible pour l’article pour chaque dimension de stockage et de suivi.
@@ -197,6 +223,8 @@ Pour plus d’informations sur la configuration de l’emplacement d’entrée d
 
 > [!NOTE]
 > Les réservations d’un employé dans la boîte de dialogue **Réserver des matières** resteront lorsque l’employé sélectionne **Annuler** dans la boîte de dialogue **Saisie de l’avancement** ou **Saisie du rebut**.
+>
+> Il n’est pas possible d’ajuster les réservations pour les éléments à poids variable.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Terminer une tâche et commencer une nouvelle tâche
 

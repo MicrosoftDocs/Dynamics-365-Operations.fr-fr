@@ -2,7 +2,7 @@
 title: Type de destination pour l’impression d’états électroniques
 description: Cette rubrique explique comment configurer une destination d’imprimante pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
-ms.date: 02/24/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712710"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388286"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destination d’imprimante
 
@@ -41,9 +41,26 @@ Pour rendre la destination de l’**Imprimante** disponible dans l’instance ac
 
 [![Activation de la fonction de destination de l’imprimante ER dans la gestion des fonctionnalités.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
-### <a name="applicability"></a>Conditions d'application
+### <a name="applicability"></a>Conditions d’application
 
-La destination de l’**Imprimante** ne peut être configurée que pour les composants de fichier utilisés pour générer une sortie au format PDF imprimable (fusion PDF ou éléments de format de fichier PDF) ou Microsoft Office Excel / Format Word (fichier Excel). Lorsque la sortie est générée au format PDF, elle est envoyée à une imprimante. Lorsque la sortie est générée au format Microsoft Office, elle est automatiquement convertie au format PDF, puis envoyée à une imprimante.
+#### <a name="pdf-printing"></a>Impression PDF
+
+Dans les versions de Finance avant la version 10.0.18, la destination de l’**Imprimante** ne peut être configurée que pour les composants de fichier utilisés pour générer une sortie au format PDF imprimable (**fusion PDF** ou éléments de format de **fichier PDF**) ou Microsoft Office Excel et Format Word (**fichier Excel**). Lorsque la sortie est générée au format PDF, elle est envoyée à une imprimante. Lorsque la sortie est générée au format Office à l’aide de l’élément de format **Fichier Excel**, elle est automatiquement convertie au format PDF, puis envoyée à une imprimante.
+
+Cependant, à partir de la version 10.0.18, vous pouvez configurer la destination **Imprimante** pour l’élément de format **Common File**. Cet élément de format est principalement utilisé pour générer une sortie au format TXT ou XML. Vous pouvez configurer un format ER qui contient l’élément de format **Common File** comme élément de format racine et l’élément de format **Contenu binaire** comme le seul élément imbriqué sous celui-ci. Dans ce cas, l’élément de format **Common File** produira une sortie dans le format spécifié par la liaison que vous configurez pour l’élément de format **Contenu binaire**. Par exemple, vous pouvez configurer cette liaison pour [remplir](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) cet élément avec le contenu d’une pièce jointe [Gestion de documents](../../fin-ops/organization-administration/configure-document-management.md) au format PDF ou Office (Excel ou Word). Vous pouvez imprimer la sortie en utilisant la destination **Imprimante** configurée. 
+
+> [!NOTE]
+> Lorsque vous sélectionnez l’élément de format **Common\\File** pour configurer la destination **Imprimante**, il n’existe aucun moyen de garantir, au moment de la conception, que l’élément sélectionné produira une sortie au format PDF ou une sortie pouvant être convertie au format PDF. Par conséquent, vous recevez le message d’avertissement suivant : « Veuillez veiller à ce que la sortie qui st générée par le composant de format sélectionné puisse être convertie au format PDF. Sinon, décochez l’option « Convertir en PDF ». Vous devez prendre des mesures pour éviter les problèmes d’exécution lorsqu’une sortie non PDF ou non convertible en PDF est fournie pour l’impression au moment de l’exécution. Si vous prévoyez de recevoir une sortie au format Office (Excel ou Word), l’option **Convertir en PDF** doit être sélectionnée.
+>
+> Dans la version 10.0.26 et ultérieures, pour utiliser l’option **Convertir en PDF**, vous devez sélectionner **PDF** pour le paramètre **Type d’acheminement de document** de la destination **Imprimante** configurée.
+
+#### <a name="zpl-printing"></a>Impression ZPL
+
+Dans la version 10.0.26 et ultérieures, vous pouvez configurer la destination **Imprimante** pour l’élément de format **Common\\File** sélectionnant **ZPL** pour le paramètre **Type d’acheminement de document**. Dans ce cas, l’option **Convertir en PDF** est ignorée lors de l’exécution et la sortie TXT ou XML est envoyée directement à une imprimante sélectionnée à l’aide du contrat Zebra Programming Language (ZPL) de l’[Agent d’acheminement de document (DRA)](install-document-routing-agent.md). Utilisez cette fonction pour un format ER qui représente une mise en page d’étiquette ZPL II pour imprimer diverses étiquettes.
+
+[![Définition du paramètre Type d’acheminement du document dans la boîte de dialogue Paramètres de destination.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+
+Pour plus d’informations sur cette fonctionnalité, voir [Concevoir une nouvelle solution ER pour imprimer des étiquettes ZPL](er-design-zpl-labels.md).
 
 ### <a name="limitations"></a>Limitations
 

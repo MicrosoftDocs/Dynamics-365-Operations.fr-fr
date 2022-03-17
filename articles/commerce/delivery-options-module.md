@@ -2,7 +2,7 @@
 title: Module Options de livraison
 description: Cette rubrique couvre les modules d’options de livraison et explique comment les configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760898"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349792"
 ---
 # <a name="delivery-options-module"></a>Module Options de livraison
 
@@ -56,9 +56,12 @@ L’illustration suivante montre un exemple de module d’options de livraison d
 
 Un module Options de livraison ne peut être ajouté qu’à un module de caisse. Pour plus d’informations sur la configuration d’un module Options de livraison et son ajout à une page de caisse, voir [Module de caisse](add-checkout-module.md).
 
+> [!NOTE]
+> Il se peut que vous rencontriez un traitement de livraison incohérent ou que vous ne voyiez pas de frais au niveau de l’en-tête non calculés au prorata dans votre canal de commerce électronique. Pour savoir comment résoudre ces problèmes, consultez [Activer la gestion cohérente du mode de livraison dans les canaux de commerce électronique](consistent-delivery-mode-handling.md).
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Module Panier](add-cart-module.md)
+[Module de panier](add-cart-module.md)
 
 [Module Validation](add-checkout-module.md)
 

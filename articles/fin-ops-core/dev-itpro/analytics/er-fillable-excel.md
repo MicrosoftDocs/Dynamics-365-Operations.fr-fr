@@ -2,7 +2,7 @@
 title: Créer une configuration pour générer des documents au format Excel
 description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952650"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388261"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -83,31 +83,48 @@ Sur l’onglet **Mise en correspondance** du concepteur d’opération ER, vous 
 
 ## <a name="range-component"></a>Composant de gamme
 
-Le composant **Plage** indique une plage Excel qui doit être contrôlée par ce composant ER. Le nom de la plage est défini dans la propriété **Plage Excel** de ce composant.
-
-### <a name="replication"></a>Réplication
-
-La propriété **Direction de la réplication** spécifie si et comment la plage sera répétée dans un document généré :
-
-- Si la propriété **Direction de la réplication** est définie sur **Pas de réplication**, la plage Excel appropriée ne sera pas répétée dans le document généré.
-- Si la propriété **Direction de la réplication** est définie sur **Vertical**, la plage Excel appropriée sera répétée dans le document généré. Chaque plage répliquée est placée sous la plage d’origine dans un modèle Excel. Le nombre de répétitions est défini par le nombre d’enregistrements dans une source de données du type **Liste d’enregistrements** lié à ce composant ER.
-- Si la propriété **Direction de la réplication** est définie sur **Horizontal**, la plage Excel appropriée sera répétée dans le document généré. Chaque plage répliquée est placée à droite de la plage d’origine dans un modèle Excel. Le nombre de répétitions est défini par le nombre d’enregistrements dans une source de données du type **Liste d’enregistrements** lié à ce composant ER.
-
-Pour en savoir plus sur la réplication horizontale, suivez les étapes de la rubrique [Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel](tasks/er-horizontal-1.md).
-
 ### <a name="nested-components"></a>Composants imbriqués
 
-Le composant **Plage** peut avoir d’autres composants ER imbriqués qui sont utilisés pour entrer des valeurs dans les plages nommées Excel appropriées.
+#### <a name="data-typing"></a>Saisie des données
+
+Le composant **Plage** peut avoir d’autres composants ER imbriqués qui sont utilisés pour entrer des valeurs dans les plages appropriées.
 
 - Si l’un des composants du groupe **Texte** est utilisé pour entrer des valeurs, la valeur est entrée dans une plage Excel en tant que valeur de texte.
 
     > [!NOTE]
     > Utilisez ce modèle pour formater les valeurs entrées en fonction des paramètres régionaux définis dans l’application.
 
-- Si le composant **Cellule** du groupe **Excel** est utilisé pour entrer des valeurs, la valeur est entrée dans une plage Excel en tant que valeur du type de données défini par la liaison de ce composant **Cellule**(par exemple, **Chaîne**, **Réel**, ou **Entier**).
+- Si le composant **Cellule** du groupe **Excel** est utilisé pour entrer des valeurs, la valeur est entrée dans une plage Excel en tant que valeur du type de données défini par la liaison de ce composant **Cellule** (par exemple, Chaîne, Réel, ou Entier). Par exemple, le type de données peut être **Chaîne**, **Réel** ou **Entier**.
 
     > [!NOTE]
     > Utilisez ce modèle pour permettre à l’application Excel de formater les valeurs entrées en fonction des paramètres régionaux de l’ordinateur local qui ouvre le document sortant.
+
+#### <a name="row-handling"></a>Traitement des lignes
+
+Le composant **Plage** peut être configuré comme répliqué verticalement, de sorte que plusieurs lignes soient générées dans une feuille de calcul Excel. Les lignes peuvent être générées par le composant parent **Plage** ou par ses composants **Plage** imbriqués.
+
+Dans la version 10.0.26 et les versions ultérieures, vous pouvez forcer une feuille de calcul générée à conserver les lignes générées sur la même page. Dans le concepteur de format ER, définissez l’option **Conserver les lignes ensemble** sur **Oui** pour le composant parent **Plage** dans le format ER modifiable. ER essaiera alors de conserver tout le contenu généré par cette plage sur la même page. Si la hauteur du contenu dépasse l’espace restant sur la page actuelle, un saut de page sera ajouté et le contenu commencera en haut de la nouvelle page suivante.
+
+> [!NOTE]
+> Nous vous recommandons de configurer l’option **Conserver les lignes ensemble** uniquement pour les plages qui s’étendent sur toute la largeur d’un document généré.
+>
+> L’option **Conserver les lignes ensemble** ne s’applique qu’aux composants **Excel \> Fichier** configurés pour utiliser un modèle de classeur Excel.
+>
+> L’option **Conserver les lignes ensemble** ne peut être utilisée que lorsque la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques** est activée.
+>
+> Cette fonction peut être utilisée pour les composants **Plage** qui résident sous le composant **Page**. Cependant, il n’y a aucune garantie que les [totaux de pied de page](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) seront correctement calculés en utilisant les sources de données [Collecte de données](er-data-collection-data-sources.md).
+
+Pour savoir comment utiliser cette option, suivez les étapes de l’exemple dans [Concevoir un format ER pour conserver les lignes ensemble sur la même page Excel](er-keep-excel-rows-together.md).
+
+### <a name="replication"></a>Réplication
+
+La propriété **Direction de la réplication** spécifie si et comment la plage sera répétée dans un document généré :
+
+- **Pas de réplication** –  La plage Excel appropriée ne sera pas répétée dans le document généré.
+- **Vertical** –  La plage Excel appropriée sera répétée verticalement dans le document généré. Chaque plage répliquée sera placée sous la plage d’origine dans un modèle Excel. Le nombre de répétitions est défini par le nombre d’enregistrements dans une source de données du type **Liste d’enregistrements** lié à ce composant ER.
+- **Horizontal** –  La plage Excel appropriée sera répétée horizontalement dans le document généré. Chaque plage répliquée sera placée à droite de la plage d’origine dans un modèle Excel. Le nombre de répétitions est défini par le nombre d’enregistrements dans une source de données du type **Liste d’enregistrements** lié à ce composant ER.
+
+    Pour en savoir plus sur la réplication horizontale, suivez les étapes de la rubrique [Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel](tasks/er-horizontal-1.md).
 
 ### <a name="enabling"></a>Activation
 
@@ -280,12 +297,12 @@ Lorsqu’un document sortant dans un format du classeur Microsoft Excel est gén
 
 - Sélectionnez **Automatique** pour recalculer toutes les formules dépendantes chaque fois qu’un document généré est ajouté par de nouvelles plages, cellules, etc.
 
-    >[!NOTE]
+    > [!NOTE]
     > Cela peut entraîner un problème de performances pour les modèles Excel contenant plusieurs formules associées.
 
 - Sélectionnez **Manuel** pour éviter le recalcul de formule lors de la génération d’un document.
 
-    >[!NOTE]
+    > [!NOTE]
     > Le recalcul de la formule est forcé manuellement lorsqu’un document généré est ouvert pour un aperçu à l’aide d’Excel.
     > N’utilisez pas cette option si vous configurez une destination ER qui suppose l’utilisation d’un document généré sans son aperçu dans Excel (conversion PDF, envoi par e-mail, etc.) car le document généré peut ne pas contenir de valeurs dans des cellules contenant des formules.
 

@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "27361"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2959df58dbde71ba516c1a230e64d38b885c23f5
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984075"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358262"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Vue d’ensemble du rapprochement des factures dans le module Comptabilité fournisseur
 
@@ -36,24 +36,24 @@ Par exemple, vous entrez une commande fournisseur avec une ligne pour 1 000 pile
 
 Une facture arrive pour 1 000 piles au prix unitaire de 1,10. La politique de votre entité juridique autorise une tolérance de prix unitaire net de 5 % pour cette catégorie d’article. 1,05 serait un prix acceptable, pas 1,10. Lorsque vous entrez ces informations de facturation, un écart de rapprochement de prix est identifié et vous pouvez enregistrer la facture en attendant que l’écart soit résolu.
 
-Vous pouvez utiliser les types suivants de rapprochements de factures du module Achats :
+Vous pouvez utiliser les types suivants de **rapprochements de factures du module Achats** :
 
--   Rapprochement des totaux des factures – Rapprochez les montants totaux de la facture avec ceux de la commande fournisseur. Ce type de rapprochement de factures inclut un minimum d’informations afin que vous puissiez utiliser cette option pour paramétrer des contrôles qui réduisent le temps de travail requis pour réviser les informations de rapprochement de factures.
--   Rapprochement à deux facteurs – Rapprochez les informations de prix de la facture avec celles de la commande fournisseur.
--   Rapprochement à trois facteurs – Rapprochez les informations de prix de la facture avec celles de la commande fournisseur. Rapprochez également les informations de quantité de la facture avec celles des accusés de réception de marchandises sélectionnés pour la facture.
--   Rapprochement des frais – Rapprochez les informations de frais (montants) de la facture avec celles de la commande fournisseur.
+-   **Rapprochement des totaux des factures** – Rapproche les montants totaux de la facture avec ceux de la commande fournisseur Ce type de rapprochement de factures inclut un minimum d’informations afin que vous puissiez utiliser cette option pour paramétrer des contrôles qui réduisent le temps de travail requis pour réviser les informations de rapprochement de factures.
+-   **Rapprochement à deux facteurs** –  Rapprochez les informations de prix de la facture avec celles de la commande fournisseur.
+-   **Rapprochement à trois facteurs** –  Rapprochez les informations de prix de la facture avec celles de la commande fournisseur. Rapprochez également les informations de quantité de la facture avec celles des accusés de réception de marchandises sélectionnés pour la facture.
+-   **Rapprochement des frais** –  Rapproche les informations de frais (montants) de la facture avec celles de la commande fournisseur.
 
 > [!NOTE]
 > D’autres méthodes de contrôle des factures peuvent être utilisées à l’aide des stratégies de facture fournisseur. 
 
 Les rapprochements à deux et à trois facteurs rapprochent toujours les informations relatives au prix unitaire. Vous pouvez également configurer ces stratégies de rapprochement de sorte qu’elles rapprochent les informations relatives au prix total.
--   Rapprochement des prix unitaires nets – Lors d’un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le prix unitaire net de chaque ligne de la facture avec le prix unitaire net correspondant de la commande fournisseur. Le prix unitaire net est déterminé par la formule suivante : Montant net de la ligne/Quantité de la ligne
--   Rapprochement des totaux des prix – Lors d’un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le montant net (total des prix) de chaque ligne de la facture avec le montant net correspondant de la commande fournisseur. Le montant net est déterminé par la formule suivante : *(Prix unitaire \* Quantité de la ligne) + Frais de la ligne – Remises de la ligne*. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l’aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l’aide de la devise comptable. Lorsque vous facturez partiellement une ligne de commande fournisseur, la validation du rapprochement prix-total se produit sur la dernière facture pour cette ligne. 
+-   **Rapprochement des prix unitaires nets** –  Lors d’un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le prix unitaire net de chaque ligne de la facture avec le prix unitaire net correspondant de la commande fournisseur. Le prix unitaire net est déterminé par la formule suivante : Montant net de la ligne/Quantité de la ligne
+-   **Rapprochement des totaux des prix** –  Lors d’un rapprochement à deux ou à trois facteurs, rapprochez les informations de prix en comparant le montant net (total des prix) de chaque ligne de la facture avec le montant net correspondant de la commande fournisseur. Le montant net est déterminé par la formule suivante : *(Prix unitaire \* Quantité de la ligne) + Frais de la ligne – Remises de la ligne*. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l’aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l’aide de la devise comptable. Lorsque vous facturez partiellement une ligne de commande fournisseur, la validation du rapprochement prix-total se produit sur la dernière facture pour cette ligne. 
 
-Les calculs de rapprochement de factures sont généralement effectués automatiquement lorsque vous modifiez les factures fournisseur dans la page Facture fournisseur. Sinon, le rapprochement de factures peut être effectué à la demande, le cas échéant. Le rapprochement de factures à la demande est contrôlé pour l’entité juridique par l’option Mettre à jour automatiquement le statut d’en-tête des factures de la page Paramètres de la comptabilité fournisseur sur l’onglet Contrôle de la facture. Le rapprochement de factures peut également être exécuté dans le cadre du processus de vérification des factures. Vous pouvez afficher les résultats du rapprochement de factures sur la page Facture fournisseur et les pages de rapprochement de factures associés.
+Les calculs de rapprochement de factures sont généralement effectués automatiquement lorsque vous modifiez les factures fournisseur dans la page **Facture fournisseur**. Sinon, le rapprochement de factures peut être effectué à la demande, le cas échéant. Le rapprochement de factures à la demande est contrôlé pour l’entité juridique par l’option **Mettre à jour automatiquement** le statut d’en-tête des factures de la page **Paramètres de la comptabilité fournisseur** sur l’onglet **Contrôle de la facture**. Le rapprochement de factures peut également être exécuté dans le cadre du processus de vérification des factures. Vous pouvez afficher les résultats du rapprochement de factures sur la page **Facture fournisseur** et les pages de rapprochement de factures associés.
 
 ## <a name="invoice-totals-matching"></a>Rapprochement des totaux de facture
-Vous pouvez utiliser le rapprochement des totaux de facture pour vous assurer que l’écart entre les montants totaux de la facture et les montants attendus n’est pas supérieur à l’écart acceptable. Six totaux sont comparés dans la page Détails de rapprochement de factures totales, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour le rapprochement des totaux de facture est de 20 %, un pourcentage d’écart de 100 % pour le montant total de la remise est considéré comme un écart de rapprochement.
+Vous pouvez utiliser le rapprochement des totaux de facture pour vous assurer que l’écart entre les montants totaux de la facture et les montants attendus n’est pas supérieur à l’écart acceptable. Six totaux sont comparés dans la page **Détails de rapprochement de factures totales**, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour le rapprochement des totaux de facture est de 20 %, un pourcentage d’écart de 100 % pour le montant total de la remise est considéré comme un écart de rapprochement.
 
 | Champ Total    | Total réel de la facture | Total attendu de la facture | Pourcentage d’écart | Statut de rapprochement |
 |----------------|----------------------|------------------------|---------------------|--------------|
@@ -64,7 +64,7 @@ Vous pouvez utiliser le rapprochement des totaux de facture pour vous assurer qu
 | Arrondi      | 0,00                 | 0,00                   | 0 %                  | Transmis(e)       |
 | Montant de la facture | 699,88               | 687,50                 | 2 %                  | Transmis(e)       |
 
-Le rapprochement des totaux de facture est contrôlé pour l’entité juridique par le basculeur Mettre en correspondance les totaux de la facture de la page Paramètres de la comptabilité fournisseur. Le rapprochement est effectué en comparant les totaux réels et attendus de la facture. Les totaux attendus de la facture sont calculés en fonction des prix, des frais et des informations de taxe de la commande fournisseur et des quantités de la facture.
+Le rapprochement des totaux de facture est contrôlé pour l’entité juridique par le basculeur **Mettre en correspondance les totaux** de la facture de la page **Paramètres de la comptabilité fournisseur**. Le rapprochement est effectué en comparant les totaux réels et attendus de la facture. Les totaux attendus de la facture sont calculés en fonction des prix, des frais et des informations de taxe de la commande fournisseur et des quantités de la facture.
 
 ## <a name="two-way-price-totals-matching"></a>Rapprochement à deux facteurs des totaux des prix
 Le rapprochement à deux facteurs permet de s’assurer que l’écart entre les informations de prix de la commande fournisseur et de la facture est compris dans les tolérances acceptables. Vous pouvez comparer les informations de prix relatives au montant net de chaque ligne de la facture et de toutes les lignes de facture en attente et précédemment validées avec le montant net de la ligne de commande fournisseur correspondante. On parle alors de rapprochement des totaux des prix. 
@@ -74,33 +74,33 @@ Le rapprochement des totaux des prix peut être basé sur un pourcentage et/ou u
 Si un pourcentage de tolérance des totaux des prix d’achat est spécifié, cinq champs sont comparés, comme indiqué dans le tableau suivant. Comme le pourcentage de tolérance des totaux des prix d’achat est de 10 %, un pourcentage d’écart des prix totaux de 50 % représente un écart de rapprochement.
 
 | Statut de rapprochement | Montant net de la facture | Montant net attendu | Total de prix d’achat qui ne correspond pas (montant d’écart) | Pourcentage total de prix d’achat qui ne correspond pas (pourcentage d’écart) | Pourcentage de tolérance du prix d’achat total |
-|--------------|--------------------|---------------------|--------------------------------------------------|-----------------------------------------------------------------|----------------------------------------|
-| Transmis(e)       | 105,00             | 100,00              | 5,00                                             | 5 %                                                              | 10 %                                    |
-| Échec       | 150,00             | 100,00              | 50,00                                            | 50 %                                                             | 10 %                                    |
+|--------------|--------------------|---------------------|--------------------------------------------------|--------------------------------|---------------------------|
+| Transmis(e)       | 105,00             | 100,00              | 5,00                                             | 5 %                             | 10 %                 |
+| Échec       | 150,00             | 100,00              | 50,00                                            | 50 %                            | 10 %                     |
 
 Si un montant de tolérance des totaux des prix d’achat est spécifié, cinq champs sont comparés, comme indiqué dans le tableau suivant. Comme le montant de tolérance des totaux des prix d’achat est de 100,00, le montant d’écart des prix totaux de 105,00 représente un écart de rapprochement.
 
 | Statut de rapprochement | Montant net de la facture | Montant net attendu | Total de prix d’achat qui ne correspond pas (montant d’écart) | Total de prix d’achat qui ne correspond pas en devise comptable (montant d’écart) | Tolérance du prix d’achat total |
-|--------------|--------------------|---------------------|--------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Transmis(e)       | 150,00             | 100,00              | 50,00                                            | 50,00                                                                   | 100,00                         |
-| Échec       | 205,00             | 100,00              | 105,00                                           | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------------------------|-------------------------------|--------------------------------|
+| Transmis(e)       | 150,00             | 100,00              | 50,00                                            | 50,00                    | 100,00                         |
+| Échec       | 205,00             | 100,00              | 105,00                                           | 105,00                  | 100,00                         |
 
 Si le rapprochement des totaux des prix est paramétré avec une tolérance de pourcentage et un montant de tolérance (parfois appelé montant à ne pas dépasser), les deux tolérances sont prises en compte lorsque vous évaluez si une ligne inclut un écart de rapprochement. Si le pourcentage ou le montant dépasse la tolérance, comme indiqué dans les lignes 150,00 et 205,00 du tableau suivant, la ligne inclut un écart de rapprochement.
 
 | Statut de rapprochement | Montant net de la facture | Montant net attendu | Pourcentage total de prix d’achat qui ne correspond pas (pourcentage d’écart) | Pourcentage de tolérance du prix d’achat total | Total de prix d’achat qui ne correspond pas en devise comptable (montant d’écart) | Tolérance du prix d’achat total |
-|--------------|--------------------|---------------------|-----------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Transmis(e)       | 105,00             | 100,00              | 5 %                                                              | 10 %                                    | 5,00                                                                    | 100,00                         |
-| Échec       | 150,00             | 100,00              | 50 %                                                             | 10 %                                    | 50,00                                                                   | 100,00                         |
-| Échec       | 205,00             | 100,00              | 105 %                                                            | 10 %                                    | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------|------------------|----------------------------------|--------------------------------|
+| Transmis(e)       | 105,00             | 100,00              | 5 %                     | 10 %                         | 5,00           | 100,00                         |
+| Échec       | 150,00             | 100,00              | 50 %                   | 10 %                     | 50,00            | 100,00                         |
+| Échec       | 205,00             | 100,00              | 105 %                 | 10 %                      | 105,00                                  | 100,00                         |
 
-Le rapprochement à deux facteurs est contrôlé pour l’entité juridique par le champ Stratégie de rapprochement des lignes de la page Paramètres de la comptabilité fournisseur. En fonction des choix opérés dans le champ Autoriser le remplacement de la stratégie de rapprochement, vous pouvez sélectionner un rapprochement à deux facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page Stratégie de rapprochement et pour une commande fournisseur spécifique dans la page Commande fournisseur.
+Le rapprochement à deux facteurs est contrôlé pour l’entité juridique par le champ **Stratégie de rapprochement des lignes** de la page **Paramètres de la comptabilité fournisseur**. En fonction des choix opérés dans le champ **Autoriser le remplacement de la stratégie de rapprochement**, vous pouvez sélectionner un rapprochement à deux facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page **Stratégie de rapprochement** et pour une commande fournisseur spécifique dans la page **Commande fournisseur**.
 
-Le rapprochement des totaux des prix est contrôlé pour l’entité juridique par le champ Mettre en correspondance les prix totaux de la page Paramètres de la comptabilité fournisseur. Le pourcentage de tolérance des totaux des prix d’achat et le montant de tolérance (montant à ne pas dépasser) sont également spécifiés dans cette page.
+Le rapprochement des totaux des prix est contrôlé pour l’entité juridique par le champ **Mettre en correspondance les prix totaux** de la page **Paramètres de la comptabilité fournisseur**. Le pourcentage de tolérance des totaux des prix d’achat et le montant de tolérance (montant à ne pas dépasser) sont également spécifiés dans cette page.
 
 ## <a name="two-way-net-unit-price-matching"></a>Rapprochement à deux facteurs des prix unitaires nets
 Le rapprochement à deux facteurs permet de s’assurer que l’écart entre les informations de prix de la commande fournisseur et de la facture est compris dans les tolérances acceptables. Vous pouvez comparer les informations de prix relatives au prix unitaire net de chaque article de la facture. On parle alors de rapprochement des prix unitaires nets. 
 
-Neuf montants de ligne sont comparés dans la page Détails de rapprochement de factures totales, comme indiqué dans le tableau suivant. Si la tolérance de prix autorisée pour le rapprochement des prix unitaires nets est de 10 %, un écart de 22,61 % entre les prix unitaires nets est considéré comme un écart de rapprochement.
+Neuf montants de ligne sont comparés dans la page **Détails de rapprochement de factures totales**, comme indiqué dans le tableau suivant. Si la tolérance de prix autorisée pour le rapprochement des prix unitaires nets est de 10 %, un écart de 22,61 % entre les prix unitaires nets est considéré comme un écart de rapprochement.
 
 | Champ Ligne                    | Valeur de la facture | Valeur de la commande fournisseur | Pourcentage d’écart | Statut de rapprochement |
 |-------------------------------|---------------|----------------------|---------------------|--------------|
@@ -114,9 +114,9 @@ Neuf montants de ligne sont comparés dans la page Détails de rapprochement de 
 | Montant net                    | 271,60        | 221,52               | 22,61 %              | Échec       |
 | Prix unitaire net                | 67,9000       | 55,3800              | 22,61 %              | Échec       |
 
-Le rapprochement à deux facteurs est contrôlé pour l’entité juridique par le champ Stratégie de rapprochement des lignes de la page Paramètres de la comptabilité fournisseur. En fonction des choix opérés dans le champ Autoriser le remplacement de la stratégie de rapprochement, vous pouvez sélectionner un rapprochement à deux facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page Stratégie de rapprochement et pour une commande fournisseur spécifique dans la page Commande fournisseur. 
+Le rapprochement à deux facteurs est contrôlé pour l’entité juridique par le champ **Stratégie de rapprochement des lignes** de la page **Paramètres de la comptabilité fournisseur**. En fonction des choix opérés dans le champ **Autoriser le remplacement de la stratégie de rapprochement**, vous pouvez sélectionner un rapprochement à deux facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page **Stratégie de rapprochement** et pour une commande fournisseur spécifique dans la page **Commande fournisseur**. 
 
-Le rapprochement des prix unitaires nets est contrôlé pour l’entité juridique par le champ Activer le contrôle de rapprochement de factures de la page Paramètres de la comptabilité fournisseur. Les pourcentages de tolérance de prix unitaire peuvent être configurés pour des articles, des groupes d’articles, des fournisseurs, des groupes de fournisseurs, des combinaisons article/fournisseur ou une entité juridique à l’aide de la page Tolérances de prix.
+Le rapprochement des prix unitaires nets est contrôlé pour l’entité juridique par le champ **Activer le contrôle de rapprochement de factures** de la page **Paramètres de la comptabilité fournisseur**. Les pourcentages de tolérance de prix unitaire peuvent être configurés pour des articles, des groupes d’articles, des fournisseurs, des groupes de fournisseurs, des combinaisons article/fournisseur ou une entité juridique à l’aide de la page **Tolérances de prix**.
 
 ## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a>Rapprochement à deux facteurs des totaux des prix et des prix unitaires nets
 Vous pouvez utiliser le rapprochement des totaux des prix et des prix unitaires nets simultanément. L’exemple ci-dessous est basé sur la configuration suivante :
@@ -162,10 +162,10 @@ Les mêmes montants de ligne sont comparés dans la page Détails de rapprocheme
 | Quantité de la facture               | 4,00          |              |
 | Total des accusés de réception de marchandises correspondants | 0,00          | Échec       |
 
-Le rapprochement à trois facteurs est contrôlé pour l’entité juridique par le champ Stratégie de rapprochement des lignes de la page Paramètres de la comptabilité fournisseur. En fonction des choix opérés dans le champ Autoriser le remplacement de la stratégie de rapprochement, vous pouvez sélectionner un rapprochement à trois facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page Stratégie de rapprochement et pour une commande fournisseur spécifique dans la page Commande fournisseur.
+Le rapprochement à trois facteurs est contrôlé pour l’entité juridique par le champ **Stratégie de rapprochement des lignes** de la page **Paramètres de la comptabilité fournisseur**. En fonction des choix opérés dans le champ **Autoriser le remplacement de la stratégie de rapprochement**, vous pouvez sélectionner un rapprochement à trois facteurs pour un fournisseur, un article ou une combinaison article/fournisseur spécifique dans la page **Stratégie de rapprochement** et pour une commande fournisseur spécifique dans la page **Commande fournisseur**.
 
 ## <a name="charges-matching"></a>Mise en correspondance des frais
-Le rapprochement des frais permet de s’assurer que l’écart entre les montants des frais et les montants attendus n’est pas supérieur au pourcentage d’écart acceptable. Les montants totaux de chaque code frais qui s’applique à la facture et à la commande fournisseur sont comparés dans la page Comparer les valeurs de frais – Facture, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour un code frais est de 25 %, l’écart de pourcentage 99 999 999 999,99 % pour le code frais Licence est considéré comme un écart de rapprochement.
+Le rapprochement des frais permet de s’assurer que l’écart entre les montants des frais et les montants attendus n’est pas supérieur au pourcentage d’écart acceptable. Les montants totaux de chaque code frais qui s’applique à la facture et à la commande fournisseur sont comparés dans la page **Comparer les valeurs de frais –  Facture**, comme indiqué dans le tableau suivant. Si la tolérance autorisée pour un code frais est de 25 %, l’écart de pourcentage 99 999 999 999,99 % pour le **code frais Licence** est considéré comme un écart de rapprochement.
 
 > [!NOTE] 
 > Un pourcentage d’écart de 99 999 999 999,99 % signifie que le montant attendu basé sur la commande fournisseur est nul alors que le montant réel de la facture est une valeur positive. 
@@ -176,10 +176,10 @@ Le rapprochement des frais permet de s’assurer que l’écart entre les montan
 | Transmis(e)               | Transport              | 200                           | 200                             | 0               | 0 %                  | 25 %                  |
 | Échec               | Expédition             | 4                             | 2                               | 2               | 100 %                | 25 %                  |
 
-Le rapprochement des frais est contrôlé pour l’entité juridique par le basculeur Mettre en correspondance les frais de la page Paramètres de la comptabilité fournisseur. Vous pouvez paramétrer des pourcentages de tolérance d’écart pour les frais dans la page Tolérances en termes de frais.
+Le rapprochement des frais est contrôlé pour l’entité juridique par le basculeur **Mettre en correspondance les frais** de la page **Paramètres de la comptabilité fournisseur**. Vous pouvez paramétrer des pourcentages de tolérance d’écart pour les frais dans la page **Tolérances en termes de frais**.
 
 > [!NOTE]
-> Le rapprochement des frais est effectué uniquement sur les codes de frais pour lesquels le basculeur Comparer les valeurs de la commande fournisseur et de la facture est sélectionné sur la page Code frais.
+> Le rapprochement des frais est effectué uniquement sur les codes de frais pour lesquels le basculeur **Comparer les valeurs de la commande fournisseur et de la facture** est sélectionné sur la page **Code frais**.
 
 ## <a name="related-functionality"></a>Fonctionnalités associées
 Les factures fournisseur sont généralement basées sur des accusés de réception de marchandises qui représentent les expéditions réelles, et non sur les commandes fournisseur. Il arrive que les montants facturés ne correspondent pas aux montants de la commande fournisseur et que les quantités expédiées diffèrent des quantités facturées. Vous pouvez gérer ces informations comme suit :

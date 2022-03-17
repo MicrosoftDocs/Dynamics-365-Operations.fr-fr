@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982092"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367846"
 ---
 # <a name="europe-overview"></a>Vue d’ensemble de l’Europe
 
@@ -36,13 +36,13 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Modifications des ID de facture sur les commandes client pour l’Europe de l’Est](emea-edit-invoice-id-sales-orders.md)
 - [Certificat d’entrée de l’UE](emea-entry-certificates.md)
 - [Déclaration de la liste des ventes intracommunautaires](emea-eu-sales-list.md)
+  - [Exemple de liste des ventes générique pour l’Union européenne (UE)](emea-eu-sales-list-example.md)
 - [Ajustements du taux de change](emea-exchange-rate-adjustments.md)
 - [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md)
 - [Conseils financiers (mondialisation) relatifs à l’impact du Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Intégration du service fiscal (ESR)](emea-fiscal-service-integration.md)
 - [Cession d’immobilisations pour l’Estonie et la Lituanie](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Générer un document de transfert pour un transfert de stock interne](tasks/transfer-document-internal-inventory-transfer.md)
-- [Générer l’état Liste des ventes intracommunautaires](tasks/eur-00011-eu-sales-list-report.md)
 - Fichiers ISO20022
   - [Importer des fichiers ISO20022](emea-ISO20022-file-formats.md)
   - [Importer la configuration du débit direct ISO20022](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Vue d’ensemble des virements SEPA](../accounts-payable/sepa-credit-transfer.md)
 - [Vue d’ensemble du débit direct SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Paramétrage de la rémunération des clients et des fournisseurs](emea-compensation-customer-vendor-transactions.md)
-- [Paramétrer une déclaration de la liste des ventes intracommunautaires](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Paramétrer un format de bordereau de paiement pour les factures de projet](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Paramétrage de signataires pour l’impression d’écrans](emea-set-up-signers-for-printing-forms.md)
 - [Contre-passation](emea-storno.md)

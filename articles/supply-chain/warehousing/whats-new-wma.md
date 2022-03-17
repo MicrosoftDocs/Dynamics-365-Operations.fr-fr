@@ -2,7 +2,7 @@
 title: Nouveautés ou modifications dans l’application mobile Warehouse Management
 description: Cette rubrique répertorie les fonctionnalités nouvelles et modifiées pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067249"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384367"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications dans l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20170"></a>Version 2.0.17.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Correction d’un problème où les codes-barres étaient scannés de manière incorrecte.
+- Correction du problème de numérisation GS1 pour le scanner de la caméra.
+- Correction du problème de numérisation GS1 pour le lecteur de code-barres sur les appareils Zebra.
+- Amélioration du flux de demande de détour, de sorte que la sélection d’une carte dans un détour revient désormais au flux principal.
+- Ajout de la prise en charge d’un flux de requête de données générique.
+- Ajout d’un message pour informer les utilisateurs des modifications apportées au statut de la connectivité réseau.
+- Autorisations de stockage alignées sur la politique de confidentialité du stockage dans Android 10.
+- Pour les flux qui en ont besoin, la toupie de quantité inclut désormais une position qui permet aux utilisateurs de soumettre une valeur numérique vide.
+- Correction de problèmes avec l’orientation de la toupie de quantité.
+- Correction d’un problème où la toupie de quantité afficherait la mauvaise valeur.
+- Correction d’un problème où l’entrée à la page principale était perdue lorsqu’elle était complétée depuis la page des détails.
+- Correction d’un problème où le texte de l’espace réservé était traité comme la valeur initialement sélectionnée dans les listes de sélection.
+- Le bouton « Envoyer » sur les étapes de confirmation est maintenant automatiquement activé s’il y a des valeurs présélectionnées.
+- Correction de la carte de détails pour afficher autant de lignes que possible pour les champs de texte comportant plusieurs lignes.
+- Correction de la hauteur des boutons « Envoyer » et « Autres actions », ils occupent donc désormais moins d’espace à l’écran.
+- Ajout des titres de liste de sélection manquants.
+- Correction d’un problème où le bouton de retour ne fonctionnait pas.
+- Ajout de plusieurs correctifs et améliorations de la navigation au clavier, notamment sur les pages suivantes :
+  - Connexion d’utilisateur
+  - Sélectionner une connexion
+  - Modifier la connexion
+- Défilement fixe lors de l’utilisation de la navigation au clavier.
+- Accessibilité améliorée, y compris les améliorations suivantes :
+  - Visibilité et contraste des couleurs fixes.
+  - Prévention de la perte de focus du clavier lorsque les pages contextuelles sont fermées.
+  - Ajout de messages d’erreur à la narration.
+  - Augmentation de la taille des valeurs d’espace réservé dans la bannière d’étape.
+- Correction de l’exemple de la page héritée personnalisée en mode démo.
 
 ## <a name="version-20150"></a>Version 2.0.15.0
 
@@ -39,7 +72,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 ## <a name="version-20130"></a>Version 2.0.13.0
 
 Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
- 
+
 - Défilement amélioré entre les pages avec une animation plus fluide.
 - Correction des réponses contre-intuitives aux mouvements de balayage et aux blocages occasionnels de l’écran.
 - Amélioration des combinaisons de couleur du texte et de l’arrière-plan en mode sombre pour une meilleure lisibilité.

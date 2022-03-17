@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182516"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8331740"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Paiements centralisés pour la comptabilité fournisseur
 
 [!include [banner](../includes/banner.md)]
 
 Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l’aide d’une entité juridique unique qui assure la gestion de tous les paiements. Par conséquent, il n’est pas nécessaire d’entrer les mêmes paiements dans plusieurs entités juridiques. Cette rubrique fournit des exemples décrivant la manière dont la validation des paiements centralisés est gérée dans divers scénarios.
-
-Les organisations qui comprennent plusieurs entités juridiques peuvent créer et gérer des paiements à l’aide d’une entité juridique qui assure la gestion de tous les paiements. Par conséquent, il n’est pas nécessaire d’entrer les mêmes paiements dans plusieurs entités juridiques. En outre, l’organisation gagne du temps, car le processus de paiement est simplifié.
 
 Dans une organisation de paiements centralisés, il existe de nombreuses entités juridiques pour les opérations, et chaque entité juridique gère ses propres factures fournisseur. Les paiements pour toutes les entités juridiques en opération sont générés à partir d’une seule entité juridique appelée entité juridique du paiement. Au cours du processus de règlement, les transactions vostro et nostro applicables sont générées. Vous pouvez spécifier l’entité juridique de l’organisation qui reçoit les transactions de profits réalisés ou de pertes réalisées et la façon dont les transactions d’escompte de règlement associées à un paiement intersociétés sont gérées. Sur la ligne du journal des paiements centralisés, l’option **Type de compte** doit être définie sur Fournisseur. L’option **Type de compte de contrepartie** doit être définie sur Compte bancaire ou Compte général. Le compte bancaire doit être dans la société actuelle. 
 

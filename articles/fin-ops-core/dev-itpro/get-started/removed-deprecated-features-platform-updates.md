@@ -1,8 +1,8 @@
 ---
 title: Fonctions de plateforme supprimées ou obsolètes
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
+description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927477"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384718"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
+# <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
+Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
 
 - Une fonction *supprimée* n’est plus disponible dans le produit.
 - Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
 
 ## <a name="feature-removal-effective-october-2021"></a>Suppression de la fonctionnalité à compter d’octobre 2021
 
@@ -65,9 +65,9 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Non. Tout autre projet concernant cette fonctionnalité sera communiqué par le biais de notre processus de divulgation de vague de publication standard. |
 | **Zones de produit affectées**         | Client Web - Expérience de pièce jointe de document |
 | **Option de déploiement**              | Tout |
-| **Statut**                         | Désapprouvé  |
+| **Status**                         | Désapprouvé  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.23 des applications Finance and Operations
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.23
 
 ### <a name="ondbsynchronize-event"></a>Événement OnDBSynchronize
 
@@ -90,7 +90,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Option de déploiement**              | Tout |
 | **Statut**                         | Obsolète. La date de retrait prévue est Avril 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.21 des applications Finance and Operations
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.21
 
 ### <a name="skype-for-business-online-support"></a>Assistance Skype Entreprise en ligne
 
@@ -145,12 +145,12 @@ Des informations détaillées sur les objets dans les applications Finance and O
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Afin de réduire les frais généraux d’exploitation, de surveillance et de maintenance de la gestion des index par les clients, cette fonctionnalité a été supprimée. |
 | **Remplacé par une autre fonctionnalité ?**   | À l’avenir, la maintenance de l’index sera effectuée par les services Microsoft. Elle se produira de manière continue sans affecter les charges de travail des utilisateurs. |
-| **Zones de produit affectées**         | Applications Finance and Operations|
+| **Zones de produit affectées**         | Applications Finances et Opérations|
 | **Option de déploiement**              | Déploiement dans le cloud : affecte les environnements de production gérés par Microsoft et les environnements de bac à sable de niveau 2 à 5. |
 | **Statut**                         | Cette fonctionnalité est supprimée. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.17 des applications Finance and Operations
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.17
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -177,24 +177,25 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Les artefacts de métadonnées associés à Dynamics AX 2012 Enterprise Portal (EP) ne sont plus utilisés, car EP n’a jamais été pris en charge dans les applications Finance and Operations. |
-| **Remplacé par une autre fonctionnalité ?**   | Non |
+| **Motif de l’abandon/de la suppression** | Les artefacts de métadonnées associés à Dynamics AX 2012 Enterprise Portal (EP) ne sont plus utilisés, car EP n’a jamais été pris en charge dans les applications de finances et d’opérations. |
+| **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
 | **Statut**                         | Obsolète : tout le code EP devrait être supprimé dans la version d’octobre 2021. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.15 des applications Finance and Operations
+## <a name="deprecation-effective-december-2020"></a>Abandon à compter de décembre 2020
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La prise en charge d’Internet Explorer 11 pour Dynamics 365 est obsolète
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
+| **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 et Dynamics Lifecycle Services (LCS) dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 et LCS conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365 et LCS. |
 | **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
-| **Zones de produit affectées**         | Tous les produits Dynamics 365 |
-| **Option de déploiement**              | Tous|
-| **Statut**                         | Obsolète : Internet Explorer 11 ne sera plus pris en charge après août 2021.|
+| **Zones de produit affectées**         | Tous les produits Dynamics 365 et LCS |
+| **Option de déploiement**              | Tout|
+| **Status**                         | Obsolète : Internet Explorer 11 ne sera plus pris en charge après août 2021.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.15
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Module complémentaire Visual Studio pour appliquer des correctifs de métadonnées
 
@@ -207,7 +208,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Statut**                         | Avec la version 10.0.15, le complément n’est plus inclus dans les outils Visual Studio. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.14 des applications Finance and Operations
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.14
 
 ### <a name="online-users-page"></a>Page Utilisateurs en ligne 
 
@@ -220,7 +221,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Statut**                         | D’ici octobre 2021, cet écran sera supprimé.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.13 des applications Finance and Operations
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.13
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Code personnalisé défini dans les propriétés du rapport SSRS 
@@ -264,19 +265,19 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Statut**                         | Dans la version 10.0.13/Platform Update 37, la fonctionnalité des vues enregistrées est généralement disponible et les clients peuvent éventuellement activer cette fonctionnalité. La fonctionnalité Vues enregistrées deviendra obligatoire dans la version d’octobre 2021. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.12 des applications Finance and Operations
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.12
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensions de formulaire de contrôle de grille ou de groupe contenant des références de champ non valides
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | La propriété de groupe de données sur les contrôles de grille ou de groupe est utilisée pour afficher automatiquement tous les champs d’un groupe de champs. Un contrôle de grille ou de groupe ajouté par une extension peut contenir des champs qui ne sont plus définis sur le groupe de champs, ou il peut y avoir des champs manquants qui sont définis sur le groupe de champs. Cela peut entraîner un comportement incohérent lors de l’exécution. Les mises à jour de la plateforme pour la version 10.0.12 des applications Finance and Operations classent désormais ce problème en tant qu’*avertissement* de compilateur. Pour résoudre ce problème, ouvrez l’extension de formulaire et enregistrez-la.
+| **Motif de l’abandon/de la suppression** | La propriété de groupe de données sur les contrôles de grille ou de groupe est utilisée pour afficher automatiquement tous les champs d’un groupe de champs. Un contrôle de grille ou de groupe ajouté par une extension peut contenir des champs qui ne sont plus définis sur le groupe de champs, ou il peut y avoir des champs manquants qui sont définis sur le groupe de champs. Cela peut entraîner un comportement incohérent lors de l’exécution. Les mises à jour de la plateforme pour la version 10.0.12 des applications de finances et d’opérations classent désormais ce problème en tant qu’*avertissement* de compilateur. Pour résoudre ce problème, ouvrez l’extension de formulaire et enregistrez-la.
 | **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur du compilateur dans une future mise à jour. |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tout |
-| **Statut**                         | Un avertissement de compilateur est introduit dans les mises à jour de la plateforme pour la version 10.0.12 des applications Finance and Operations. |
+| **Statut**                         | Un avertissement de compilateur est introduit dans les mises à jour de la plateforme pour la version 10.0.12 des applications de finances et d’opérations. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.11
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Liste sécurisée explicite pour les environnements en libre service
 
@@ -302,11 +303,11 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Les groupes de champs dans les définitions de métadonnées de table peuvent contenir des références de champ qui ne sont pas valides. Si ces groupes de champ sont déployés, ils peuvent provoquer des erreurs d’exécution dans Financial Reporting et Microsoft SQL Server Reporting Services (SSRS). Platform Update 23 a introduit un *avertissement* de compilateur qui a permis de résoudre ce problème de métadonnées. Les mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations classent ce problème en tant qu’*erreur* de compilateur.<p>Pour régler ce problème, procédez comme suit :</p><ol><li>Supprimez la référence de champ non valide de la définition du groupe de champs de table.</li><li>Recompilez.</li><li>Veillez à ce que toutes les erreurs soient corrigées.</li></ol> |
+| **Motif de l’abandon/de la suppression** | Les groupes de champs dans les définitions de métadonnées de table peuvent contenir des références de champ qui ne sont pas valides. Si ces groupes de champ sont déployés, ils peuvent provoquer des erreurs d’exécution dans Financial Reporting et Microsoft SQL Server Reporting Services (SSRS). Platform Update 23 a introduit un *avertissement* de compilateur qui a permis de résoudre ce problème de métadonnées. Les mises à jour de la plateforme pour la version 10.0.11 des applications de finances et d’opérations classent désormais ce problème en tant qu’*erreur* de compilateur.<p>Pour régler ce problème, procédez comme suit :</p><ol><li>Supprimez la référence de champ non valide de la définition du groupe de champs de table.</li><li>Recompilez.</li><li>Veillez à ce que toutes les erreurs soient corrigées.</li></ol> |
 | **Remplacé par une autre fonctionnalité ?**   | Cette erreur du compilateur remplace définitivement l’avertissement du compilateur.  |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tout |
-| **Statut**                         | Obsolète : l’avertissement du compilateur est une erreur du compilateur dans les mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations. |
+| **Statut**                         | Obsolète : L’avertissement de compilation est une erreur de compilation avec les mises à jour de la plateforme pour la version 10.0.11 des applications de finances et d’opérations. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licences ISV créées à l’aide de l’algorithme de hachage SHA1
 

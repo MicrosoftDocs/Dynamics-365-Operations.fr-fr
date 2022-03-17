@@ -2,23 +2,24 @@
 title: Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
 description: Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076860"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388157"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
 
@@ -396,14 +397,28 @@ Pour configurer un environnement de développement pour tester et étendre l’e
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Installez les extensions de station matérielle :
+1. Installer les extensions de connecteur fiscal :
 
-    - Dans le dossier **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, recherchez le programme d’installation **HardwareStation.EFR.Installer**.
-    - Démarrez le programme d’installation de l’extension à partir de la ligne de commande :
+    Vous pouvez installer les extensions de connecteur fiscal sur la [station matérielle](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) ou le [registre PDV](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Installez les extensions de station matérielle :
+
+        1. Dans le dossier **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, recherchez le programme d’installation **HardwareStation.EFR.Installer**.
+        1. Démarrez le programme d’installation de l’extension à partir de la ligne de commande en exécutant la commande suivante.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Installer les extensions PDV :
+
+        1. Ouvrez l’exemple de solution de connecteur fiscal PDV à l’adresse **Dynamics365Commerce.Solutions\\FiscalIntegration\\ PosFiscalConnectorSample\\ Contoso.PosFiscalConnectorSample.sln**, et générez-le.
+        1. Dans le dossier **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461**, recherchez le programme d’installation **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Démarrez le programme d’installation de l’extension à partir de la ligne de commande en exécutant la commande suivante.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Environnement de production
 
@@ -452,5 +467,28 @@ Le connecteur prend en charge les demandes suivantes :
 #### <a name="configuration"></a>Configuration
 
 Le fichier de configuration du connecteur fiscal se trouve dans **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** dans le référentiel [Solutions Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Ce fichier a pour but de permettre le paramétrage du connecteur fiscal depuis le siège de Commerce. Le format de fichier est aligné sur les exigences de configuration de l’intégration fiscale.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Design des extensions de connecteur fiscal PDV
+
+L’extension qui est un connecteur fiscal PDV a pour but de communiquer avec le service d’enregistrement fiscal depuis le PDV. Il utilise le protocole HTTPS pour la communication.
+
+#### <a name="fiscal-connector-factory"></a>Paramètres d’usine du connecteur fiscal
+
+La fabrique de connecteurs fiscaux mappe le nom du connecteur à l’implémentation du connecteur fiscal et se trouve dans le fichier **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. Le nom du connecteur doit correspondre au nom du connecteur fiscal spécifié dans le siège de Commerce.
+
+#### <a name="efr-fiscal-connector"></a>Connecteur fiscal EFR
+
+Le connecteur fiscal EFR est situé dans le fichier **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Il met en œuvre l’interface **IFiscalConnector** qui prend en charge les requêtes suivantes :
+
+- **FiscalRegisterSubmitDocumentClientRequest** –  Cette demande envoie des documents au service d’enregistrement fiscal et renvoie une réponse de celui-ci.
+- **FiscalRegisterIsReadyClientRequest** –  Cette demande est utilisée pour un contrôle de santé du service d’enregistrement fiscal.
+- **FiscalRegisterInitializeClientRequest** –  Cette demande est utilisée pour initialiser le service d’enregistrement fiscal.
+
+#### <a name="configuration"></a>Configuration
+
+Le fichier de configuration se trouve dans le dossier **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** du référentiel des [Solutions Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Ce fichier a pour but de permettre le paramétrage pour le connecteur fiscal depuis le siège de Commerce. Le format de fichier est aligné sur les exigences de configuration de l’intégration fiscale. Les paramètres suivants sont ajoutés :
+
+- **Adresse du point de terminaison** – L’URL du service d’enregistrement fiscal.
+- **Délai d’expiration** –  La durée, en millisecondes, pendant laquelle le connecteur attendra une réponse du service d’enregistrement fiscal.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

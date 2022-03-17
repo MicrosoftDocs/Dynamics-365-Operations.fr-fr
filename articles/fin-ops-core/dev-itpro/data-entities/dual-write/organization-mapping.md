@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062084"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358362"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hiérarchie d’organisation dans Dataverse
 
@@ -36,11 +36,11 @@ Des mises en correspondance de la table Hiérarchie d’organisation sont dispon
 
 ## <a name="templates"></a>Modèles
 
-Les informations de produit contiennent toutes les informations associées au produit et à sa définition, comme les dimensions du produit ou les dimensions de suivi et de stockage. Lorsque le tableau suivant s’affiche, un ensemble de cartes de tables est créé pour synchroniser les produits et les informations associées.
+Une organisation est un groupe de personnes qui travaillent ensemble pour réaliser un processus entreprise ou atteindre un objectif. Les hiérarchies organisationnelles représentent les relations entre les organisations qui composent votre entreprise. Vous pouvez définir les types suivants d’organisations internes : entités juridiques, sections et équipes. Comme le montre le tableau suivant, une collection de mises en correspondance de table est créée pour synchroniser les entités juridiques, les unités opérationnelles et les informations de hiérarchie d’organisation associées.
 
 Applications de Finances et Opérations | Applications Customer Engagement     | Description
 -----------------------|--------------------------------|---
-[Entités juridiques](mapping-reference.md#102) | cdm_companies | Fournit la synchronisation bidirectionnelle d’informations sur l’entité juridique (société).
+[Entités juridiques](mapping-reference.md#102) | cdm_companies | 
 [Entités juridiques](mapping-reference.md#142) | msdyn_internalorganizations |
 [Unité opérationnelle](mapping-reference.md#143) | msdyn_internalorganizations |
 [Hiérarchie d’organisation – publiée](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de la table Hiérarchie d’organisation publiée.

@@ -2,7 +2,7 @@
 title: FAQ Workflow
 description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065578"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370878"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -34,7 +34,7 @@ Lors du rejet d’un élément de travail, ce dernier est défini comme rejeté.
 Chaque notification correspond à un élément de travail différent, mais la similarité peut générer une confusion. Nous étudions des façons d’améliorer cela dans une prochaine version.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Pourquoi mes exportations de workflows échouent-elles ?
-Il existe actuellement une limitation de la fonctionnalité d’exportation de workflows qui empêche les noms des workflows de dépasser 48 caractères. L’utilisation d’un nom de plus de 48 caractères peut entraîner une erreur « Échec du serveur à authentifier la demande » et/ou pour empêcher qu’un fichier soit exporté sans type de fichier. La publication de blog fournit davantage de détails, [Dépannage de l’exportation de workflows](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Il existe actuellement une limitation de la fonctionnalité d’exportation de workflows qui empêche les noms des workflows de dépasser 48 caractères. L’utilisation d’un nom de plus de 48 caractères peut entraîner une erreur « Échec du serveur à authentifier la demande » et/ou pour empêcher qu’un fichier soit exporté sans type de fichier. La publication de blog fournit davantage de détails, [Dépannage de l’exportation de workflows](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>L’auteur d’un workflow peut-il également approuver le workflow ?
 Oui, l’auteur d’un workflow peut également approuver le workflow si il est configuré ainsi. Pour éviter ce comportement, définissez **Administration du système > Workflow > Paramètres de workflow > Général > Approbateur > Ne pas autoriser l’approbation par l’auteur** sur **Oui**.

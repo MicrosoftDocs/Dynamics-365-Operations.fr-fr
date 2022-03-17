@@ -15,12 +15,12 @@ ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a24aa52c805722c20045b6227ceac0103cfbe6b
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324033"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367822"
 ---
 # <a name="electronic-reporting-components"></a>Composants des états électroniques
 
@@ -91,9 +91,23 @@ Un composant de format vous permet de joindre certains fichiers pouvant être ut
 
 L’illustration ci-dessous indique les flux de données pour ces formats.
 
-[![Flux de données des composants de format entrants.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Flux de données des composants de format sortants](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+
+Pour exécuter une configuration de format de génération d’états électroniques unique et générer un document électronique sortant, vous devez identifier le mappage de la configuration de format.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Composants de format pour les documents électroniques entrants
+Un composant de format est le modèle de document entrant qui est importé au moment de l’exécution. Un modèle se compose des éléments suivants :
+
+- Un format qui définit la structure et le contenu d’un document électronique entrant contenant des données qui sont importées au moment de l’exécution. Un composant de format est utilisé pour analyser un document entrant dans différents formats : texte et XML.
+- Un mappage des formats qui lie les éléments de format individuels aux éléments d’un modèle de données spécifique au domaine. Au moment de l’exécution, les éléments du modèle de données spécifient le flux de données et les règles pour importer les données d’un document entrant, puis stockent les données dans un modèle de données.
+- Une validation de format en tant qu’ensemble de règles configurables qui contrôlent l’importation de données au moment de l’exécution en fonction du contexte d’exécution. Par exemple, il peut y avoir une règle qui empêche l’importation de données d’un relevé bancaire contenant des paiements d’un fournisseur et lance une exception lorsque les attributs d’un fournisseur spécifique sont manquants, comme le code d’identification du fournisseur.
+
+L’illustration ci-dessous indique les flux de données pour ces formats.
+
+[![Flux de données des composants de format entrants](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Pour exécuter une configuration simple de format de génération d’états électroniques pour importer les données d’un document électronique entrant, vous devez identifier le mappage souhaité d’une configuration de format, ainsi que le point d’intégration d’un mappage de modèle. Vous pouvez utiliser les mêmes mappages et destinations de modèles avec différents formats pour différents types de documents entrants.
+
 
 ## <a name="component-versioning"></a>Contrôle de versions du composant
 

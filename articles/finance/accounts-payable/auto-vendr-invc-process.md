@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4fef5011ead69028a7f667835fd5e5ba2401408d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985654"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358428"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Vue d’ensemble des processus de facturation automatisés des fournisseurs
 
@@ -43,7 +43,7 @@ Les processus d’automatisation peuvent être utilisés pour effectuer les tâc
 
 ## <a name="submit-imported-vendor-invoices-to-the-workflow-system"></a>Envoyer les factures fournisseur importées dans le système de workflow
 
-Dans le cadre d’un processus de facturation des comptes fournisseurs sans contact, vous pouvez demander au système d’envoyer automatiquement une facture importée au système de workflow. Le processus s’exécutera en arrière-plan, à la fréquence que vous spécifiez (toutes les heures ou tous les jours). La capacité d’envoyer automatiquement des factures importées au système de flux de travail nécessite que votre processus commence par une facture importée. Pour garantir que la facture peut être traitée du début à la fin sans intervention manuelle, une tâche de validation automatisée doit être incluse dans la configuration du workflow.
+Dans le cadre d’un processus de facturation des comptes fournisseurs sans contact, une facture importée peut être automatiquement soumise au système de workflow. Le processus s’exécutera en arrière-plan, à la fréquence que vous spécifiez (toutes les heures ou tous les jours). La capacité d’envoyer automatiquement des factures importées au système de flux de travail nécessite que votre processus commence par une facture importée. Pour garantir que la facture peut être traitée du début à la fin sans intervention manuelle, une tâche de validation automatisée doit être incluse dans la configuration du workflow.
 
 
 Les factures liées aux bons de commande, et les factures qui contiennent une catégorie d’approvisionnement sans bon de commande et des lignes non stockées peuvent être automatiquement envoyées au système de workflow. Les factures saisies manuellement et les factures créées à l’aide de l’espace de travail **Facturation de collaboration fournisseur** doivent être envoyées manuellement au système de workflow. Le traitement de l’application d’acomptes doit être effectué manuellement pour les factures importées. Vous pouvez appliquer manuellement des acomptes avant ou après la validation de la facture importée. Vous pouvez appliquer manuellement des acomptes à des factures standard non imputées à l’aide de la page **Factures fournisseur**. Après validation, l’acompte réglé pourra être appliqué manuellement à d’autres factures de ce fournisseur sur la page **Fournisseurs** (**Comptabilité fournisseur \> Commun \> Fournisseurs \> Tous les fournisseurs \> Onglet Facture \> Appliquer**).
@@ -52,7 +52,7 @@ La fonction d’automatisation fournit un cadre flexible qui vous permet de déf
 
 ## <a name="match-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Faire correspondre les réceptions de marchandises aux lignes de facture qui ont une stratégie de rapprochement à trois facteurs
 
-Le système peut automatiquement faire correspondre les reçus de produits validés avec les lignes de facture pour lesquelles une stratégie de rapprochement à trois facteurs est définie. Le processus s’exécutera jusqu’à ce que la quantité des marchandises reçues soit égale à la quantité de la facture. Dans le cadre de ce processus, vous pouvez spécifier le nombre maximal de fois que le système doit essayer de faire correspondre les réceptions de marchandises avec une ligne de facture avant de conclure que le processus a échoué. Le processus s’exécutera en arrière-plan, toutes les heures ou tous les jours. Vous pouvez exécuter le processus de mise en correspondance automatique dans le cadre du processus d’envoi des factures au système de workflow. Vous pouvez également l’exécuter en tant que processus autonome.
+Les reçus de produits validés peuvent être automatiquement mis en correspondance avec les lignes de facture pour lesquelles une stratégie de rapprochement à trois facteurs est définie. Le processus s’exécutera jusqu’à ce que la quantité des marchandises reçues soit égale à la quantité de la facture. Dans le cadre de ce processus, vous pouvez spécifier le nombre maximal de fois que le système doit essayer de faire correspondre les réceptions de marchandises avec une ligne de facture avant de conclure que le processus a échoué. Le processus s’exécutera en arrière-plan, toutes les heures ou tous les jours. Vous pouvez exécuter le processus de mise en correspondance automatique dans le cadre du processus d’envoi des factures au système de workflow. Vous pouvez également l’exécuter en tant que processus autonome.
 
 ## <a name="pre-validate-vendor-invoice-posting"></a>Pré-valider la validation des factures fournisseur
 
@@ -60,7 +60,7 @@ La simulation de comptabilisation termine les étapes de validation qui sont eff
 
 ## <a name="enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Expérience améliorée pour afficher les informations historiques des workflows et de l’automatisation pour les factures fournisseur
 
-Une vue facile à lire de l’historique du workflow des factures fournisseur est fournie. L’historique du workflow des factures fournisseur est accessible directement à partir de la facture fournisseur. Par conséquent, moins de clics sont nécessaires pour trouver ces informations. Si votre organisation a activé la possibilité de soumettre automatiquement les factures fournisseur importées au workflow, l’historique des automatisations est fourni pour les factures importées. L’historique des automatisations vous aide à identifier l’étape actuelle du processus, ainsi que les étapes qui ont déjà été effectuées. Lorsqu’une étape échoue, le système fournit des informations détaillées pour vous aider à comprendre la raison de l’échec.
+Une vue facile à lire de l’historique du workflow des factures fournisseur est fournie. L’historique du workflow des factures fournisseur est accessible directement à partir de la facture fournisseur. Par conséquent, moins de clics sont nécessaires pour trouver ces informations. Si votre organisation a activé la possibilité de soumettre automatiquement les factures fournisseur importées au workflow, l’historique des automatisations est fourni pour les factures importées. L’historique des automatisations vous aide à identifier l’étape actuelle du processus, ainsi que les étapes qui ont déjà été effectuées. Lorsqu’une étape échoue, des informations détaillées seront fournies pour vous aider à comprendre la raison de l’échec.
 
 ## <a name="analytics-and-metrics"></a>Analyses et indicateurs de performance
 
@@ -78,7 +78,7 @@ La valeur **Date de réception de la facture** indique la date à laquelle l’e
 
 ## <a name="tracking-the-imported-invoice-amount-and-imported-sales-tax-amount-values"></a>Suivi du montant de la facture importée et des valeurs du montant de la taxe de vente importée
 
-Les valeurs **Montant de la facture importée** et **Montant de la taxe de vente importée** des factures fournisseur peuvent être fournies dans le fichier d’importation des factures fournisseur. En règle générale, ces valeurs proviennent d’une facture qui a été scannée par un fournisseur externe et incluse dans le fichier d’importation. Lorsque la facture est traitée dans la comptabilité fournisseurs, le système calcule les valeurs en fonction des données de la facture. La facture ne peut être validée que si les valeurs importées correspondent aux valeurs calculées. Les valeurs correspondantes garantissent que la facture reflète fidèlement le montant dû au fournisseur. Si votre organisation autorise l’envoi automatique de factures importées au système de workflow, vous pouvez éventuellement exiger que les totaux importés correspondent aux totaux calculés avant que la facture puisse être soumise au système de workflow.
+Les valeurs **Montant de la facture importée** et **Montant de la taxe de vente importée** des factures fournisseur peuvent être fournies dans le fichier d’importation des factures fournisseur. En règle générale, ces valeurs proviennent d’une facture qui a été scannée par un fournisseur externe et incluse dans le fichier d’importation. Lorsque la facture est traitée dans la comptabilité fournisseurs, les valeurs seront calculées en fonction des données de la facture. La facture ne peut être validée que si les valeurs importées correspondent aux valeurs calculées. Les valeurs correspondantes garantissent que la facture reflète fidèlement le montant dû au fournisseur. Si votre organisation autorise l’envoi automatique de factures importées au système de workflow, vous pouvez éventuellement exiger que les totaux importés correspondent aux totaux calculés avant que la facture puisse être soumise au système de workflow.
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatisation des factures fournisseur : reprendre le traitement de l’automatisation pour plusieurs factures
 Lorsqu’une facture importée n’est pas soumise avec succès au workflow via le processus automatisé, le système la supprimera du traitement automatisé ultérieur. Un commis au paiement de la comptabilité fournisseur peut passer en revue et modifier la facture avant que le processus automatisé ne la soumette à nouveau au workflow. Lorsqu’un motif d’échec peut être résolu par le même correctif pour plusieurs factures, vous pouvez redémarrer le processus automatisé sur la page **Reprendre le traitement automatisé des factures**. 

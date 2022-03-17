@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119185"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376180"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unités d’échelle dans une topologie hybride distribuée
 
@@ -40,7 +40,7 @@ Les fonctionnalités de charge de travail sont publiées en continu au travers d
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Unités d’échelle et charges de travail dédiées
 
-Les unités d’échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités d’échelle peuvent s’exécuter dans le cloud. Elle peuvent également fonctionner en périphérie, sur site dans les locaux de votre établissement.
+Les unités d’échelle étendent votre environnement de hub Supply Chain Management central en ajoutant une capacité de traitement dédiée. Les unités d’échelle peuvent s’exécuter dans le cloud. Elle peuvent également fonctionner sur [Edge](cloud-edge-edge-scale-units-lbd.md), sur site dans les locaux de votre établissement.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 avec unités d’échelle.":::
 
@@ -65,9 +65,9 @@ La charge de travail de fabrication offre les capacités suivantes :
 
 Pour plus d’informations, voir [Charges de travail d’exécution de la fabrication pour les unités d’échelle cloud et de périphérie](cloud-edge-workload-manufacturing.md).
 
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Éléments à prendre en compte avant d’activer la topologie hybride distribuée pour Supply Chain Management
+## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Éléments à prendre en compte avant d’activer la topologie hybride distribuée pour Supply Chain Management
 
-En activant la topologie hybride distribuée, vous transformez votre environnement cloud Supply Chain Management afin qu’il fonctionne comme un hub. Vous pouvez également associer des environnements supplémentaires configurés en tant qu’unités d’échelle dans le cloud ou en périphérie.
+En activant la topologie hybride distribuée, vous transformez votre environnement cloud Supply Chain Management afin qu’il fonctionne comme un hub. Vous pouvez également associer des environnements supplémentaires configurés en tant qu’unités d’échelle dans le cloud ou en périphérie.
 
 ### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Conditions préalables et limitations pour les unités d’échelle cloud
 
@@ -116,7 +116,7 @@ Les métriques et mesures susceptibles de vous aider à sélectionner la meilleu
 
 ### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Traitement des données lors de la gestion des unités d’échelle
 
-Lorsque vous activez votre environnement Dynamics 365 pour prendre en charge la topologie hybride distribuée pour les unités d’échelle cloud et de périphérie, certains services de gestion seront hébergés uniquement aux États-Unis, comme pour LCS. Ce comportement affecte le transfert et le stockage de certaines informations administratives et de configuration utilisées par le [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Voici quelques exemples :
+Lorsque vous activez votre environnement Dynamics 365 pour prendre en charge la topologie hybride distribuée pour les unités d’échelle cloud et Edge, certains services de gestion seront hébergés uniquement aux États-Unis, comme pour LCS. Ce comportement affecte le transfert et le stockage de certaines informations administratives et de configuration utilisées par le [portail de gestionnaire d’unité d’échelle](https://sum.dynamics.com). Voici quelques exemples :
 
 - Vos noms et ID de locataire
 - Vos ID de projet LCS
@@ -127,31 +127,25 @@ Lorsque vous activez votre environnement Dynamics 365 pour prendre en charge la 
 
 Les données transférées et stockées dans les centres de données des États-Unis seront supprimées conformément aux politiques de conservation des données de Microsoft. La protection de vos données personnelles est importante pour Microsoft. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-## <a name="onboarding-in-two-stages"></a>L’intégration en deux phases
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Intégrer la topologie hybride distribuée pour Supply Chain Management
 
-Le processus d’intégration à la topologie hybride distribuée comporte deux phases. Au cours de la première phase, vous devez valider les personnalisations pour vous assurer qu’elles fonctionnent dans la topologie distribuée qui comporte les unités d’échelle. Les environnements de bac à sable et de production ne sont déplacés qu’au cours de la deuxième phase.
+### <a name="try-out-the-distributed-hybrid-topology"></a>Essayer la topologie hybride distribuée
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Phase 1 : évaluer les personnalisations dans des environnements de développement monoblocs
+Le processus d’intégration à la topologie hybride distribuée comporte deux phases. Au cours de la première phase, vous devez [essayer](cloud-edge-try-out.md) la solution et valider vos personnalisations pour vous assurer qu’elles fonctionnent dans la topologie distribuée qui comporte les unités d’échelle. (Vous pouvez utiliser des environnements de développement existants pour effectuer la validation.) Vous pouvez ensuite passer à la deuxième étape, où vous acquérez des environnements de production.
 
-Avant de commencer à intégrer vos environnements bac à sable ou de production, nous vous recommandons d’explorer les unités d’échelle dans une configuration de développement, comme un environnement monobloc (également appelé environnement de niveau 1), afin de pouvoir valider les processus, les personnalisations et les solutions. Au cours de cette phase, les données et les personnalisations seront appliquées aux environnements monoblocs. Un environnement prend le rôle de hub, et l’autre prend le rôle d’unité d’échelle. Cette configuration constitue le meilleur moyen d’identifier et de résoudre les problèmes. La dernière version en accès anticipé (PEAP) peut également être utilisée pour accomplir cette phase.
-
-Pour la phase 1, vous devez utiliser les [outils de déploiement d’unité d’échelle pour les environnements de développement monoblocs](https://github.com/microsoft/SCMScaleUnitDevTools). Ces outils vous permettent de configurer le hub et les unités d’échelle dans un ou deux environnements monoblocs distincts. Les outils sont fournis sous forme de version binaire et en code source sur GitHub. Consultez le wiki du projet, qui comprend un [Guide d’utilisation pas à pas](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) qui décrit l’utilisation des outils.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Phase 2 : acquérir des compléments et les déployer dans vos environnements bac à sable et de production
-
-Pour intégrer l’un de vos environnements de bac à sable ou de production à la nouvelle topologie, vous devez acquérir des compléments pour une ou plusieurs unités d’échelle cloud (et, à l’avenir, pour les unités d’échelle de périphérie). Les compléments attribueront les emplacements de projet et d’environnement correspondants dans [LCS](https://lcs.dynamics.com/) afin que les environnements d’unité d’échelle puissent être déployés.
-
-> [!NOTE]
-> Les compléments d’unité d’échelle ne sont pas couplés à un nombre limité d’utilisateurs, mais peuvent être utilisés par n’importe quel utilisateur de l’abonnement existant, en fonction des rôles attribués par l’administrateur.
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Sélectionner le locataire de votre projet LCS et le processus d’intégration détaillé
 
 Les unités d’échelle sont proposées dans le cadre de plusieurs unités de gestion des stocks (SKU) et options de tarification. Par conséquent, vous pouvez choisir l’option qui répond le mieux à votre volume de transactions mensuel prévu et à vos exigences de performances.
+
+> [!TIP]
+> Pour identifier le dimensionnement qui répond le mieux à vos besoins, collaborez avec votre partenaire d’implémentation et Microsoft pour comprendre la taille de transaction mensuelle dont vous avez besoin.
 
 La SKU d’entrée de gamme est connue sous le nom de *Basique*, et la SKU la plus performante est connue sous le nom de *Standard*. Chaque SKU est préchargée avec un nombre spécifique de transactions mensuelles. Cependant, vous pouvez augmenter le budget mensuel des transactions en ajoutant des compléments de dépassement pour chaque SKU.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Compléments pour les unités d’échelle cloud.":::
 
-> [!TIP]
-> Pour identifier le dimensionnement qui répond le mieux à vos besoins, collaborez avec votre partenaire et Microsoft pour comprendre la taille de transaction mensuelle dont vous avez besoin.
+> [!NOTE]
+> Les compléments d’unité d’échelle ne sont pas couplés à un nombre limité d’utilisateurs. Ils sont disponibles pour tous les utilisateurs de votre abonnement existant (à condition que votre administrateur leur ait attribué les rôles d’utilisateur requis).
 
 L’achat de chaque complément d’unité d’échelle vous donne non seulement un volume mensuel de transactions, mais vous donne également droit à un nombre spécifique d’emplacements d’environnement dans LCS. Pour chaque complément d’unité d’échelle cloud, vous avez droit à un nouvel emplacement de production et un nouvel emplacement sandbox. Au cours du processus d’intégration, un nouveau projet LCS sera ajouté avec ces emplacements. Les droits d’utilisation des emplacements sont liés, de sorte que les emplacements doivent être utilisés comme unités d’échelle disposant d’un hub cloud.
 
@@ -159,11 +153,8 @@ Les compléments excédentaires ne vous donnent pas droit à de nouveaux emplace
 
 Si vous souhaitez acquérir plus d’environnements bac à sable, vous pouvez acheter des emplacements sandbox standards supplémentaires. Microsoft peut ensuite vous aider à activer ces emplacements en tant qu’unités d’échelle bac à sable pour la topologie hybride.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Intégrer la topologie hybride distribuée pour Supply Chain Management
 
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Sélectionner le locataire de votre projet LCS et le processus d’intégration détaillé
-
-Une fois que vous avez terminé de planifier la manière dont vous intégrerez la topologie hybride distribuée pour Supply Chain Management, vous utiliserez le [portail de gestionnaire d’unité d’échelle](https://aka.ms/SCMSUM) pour commencer le processus d’intégration. Dans le portail, sélectionnez l’onglet **Locataires Dynamics 365**. Cet onglet affiche la liste des locataires dont votre compte fait partie et dont vous êtes propriétaire ou administrateur d’environnement pour un projet LCS.
+Une fois que vous avez terminé de planifier la manière dont vous intégrerez la topologie hybride distribuée pour Supply Chain Management, vous utiliserez le [portail de gestionnaire d’unité d’échelle](https://aka.ms/SCMSUM) pour commencer le processus d’intégration. Dans le portail, sélectionnez l’onglet **Locataires Dynamics 365**. Cet onglet affiche la liste des locataires dont votre compte fait partie et dont vous êtes propriétaire ou administrateur d’environnement pour un projet LCS.
 
 Si le locataire que vous recherchez ne figure pas dans la liste, accédez à [LCS](https://lcs.dynamics.com/v2) et assurez-vous que vous êtes un administrateur d’environnement ou un propriétaire de projet du projet LCS pour ce locataire. Seuls les comptes Azure Active Directory (Azure AD) du locataire sélectionné sont autorisés à mener à bien l’inscription.
 

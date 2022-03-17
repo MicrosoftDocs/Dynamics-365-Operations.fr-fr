@@ -18,11 +18,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "7881589"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7986356"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Mise en route de la Facturation électronique pour le Mexique
 
@@ -121,7 +121,7 @@ Pour envoyer une annulation de facture CFDI, le paramétrage des fonctionnalité
 
     ![Onglet Actions.](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
-    | ID action | Action                   | Nom de l’action                                  | Description de l'action                                          |
+    | ID action | Action                   | Nom de l’action                                  | Description de l’action                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
     | 1         | Transformer le document       | Générer la facture électronique CFDI sans signature numérique | Générez la facture électronique CFDI.                                |
     | 2         | Signer le document            | Signature numérique                                 | Signez numériquement la facture électronique pour envoi.                |
@@ -138,7 +138,7 @@ Pour envoyer une annulation de facture CFDI, le paramétrage des fonctionnalité
 
 ### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Configurer le chemin pour le schéma Cadena XLST
 
-1. Sur la page **Paramétrage de version de fonctionnalité**, dans l'onglet **Variables**, sélectionnez le nom de la variable, **DigitalSignatureXSLT**.
+1. Sur la page **Paramétrage de version de fonctionnalité**, dans l’onglet **Variables**, sélectionnez le nom de la variable, **DigitalSignatureXSLT**.
 2. Dans le champ **Valeurs**, entrez : {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
     où: <RelativePath> = folder\\folder\\filename avec doubles barres obliques inverses, ContainerName doit désigner le conteneur utilisé pour le service.

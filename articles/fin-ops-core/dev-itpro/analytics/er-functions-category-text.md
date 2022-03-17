@@ -2,7 +2,7 @@
 title: Liste des fonctions ER dans la catégorie de texte
 description: Cette rubrique fournit des informations sur les fonction de texte prises en charge dans les États électroniques (ER).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075498"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367765"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Liste des fonctions ER dans la catégorie de texte
 
@@ -51,7 +51,7 @@ Les fonctions de texte des états électroniques (ER) peuvent être utilisées p
 | [Droite](er-functions-text-right.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente le nombre de caractères spécifié à partir de la fin de la chaîne spécifiée. |
 | [Détails](er-functions-text-text.md) | Cette fonction renvoie le nombre spécifié comme valeur de *Chaîne* une fois qu’elle a été convertie en une chaîne de texte qui est mise en forme en fonction des paramètres régionaux du serveur de l’instance d’application actuelle. |
 | [Traduire](er-functions-text-translate.md) | Cette fonction renvoie une valeur *Chaîne* qui contient le résultat du remplacement du texte spécifié en caractères pour un autre jeu de caractères fourni. |
-| [Trim](er-functions-text-trim.md) | Cette fonction renvoie la chaîne de texte spécifiée en tant que valeur de *Chaîne* une fois que les espaces de début et de fin ont été tronqués, et une fois que plusieurs espaces entre les mots ont été supprimés. |
+| [Trim](er-functions-text-trim.md) | Cette fonction renvoie la chaîne de texte spécifiée sous forme de *Chaîne* après la tabulation, le retour chariot, le saut de ligne et le saut de page ont été remplacés par un seul caractère d’espacement, après que les espaces de début et de fin ont été tronqués et après que plusieurs espaces entre les mots ont été supprimés. |
 | [Upper](er-functions-text-upper.md) | Cette fonction renvoie la chaîne de texte spécifiée sous la forme *Chaîne* après avoir été convertie en lettres majuscules. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

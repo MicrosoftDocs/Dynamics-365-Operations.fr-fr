@@ -2,7 +2,7 @@
 title: Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 description: Cette rubrique fournit des informations sur la procédure pour concevoir un format d’états électroniques (ER) pour renseigner un modèle PDF.
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758286"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367854"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 
@@ -294,6 +294,20 @@ L’illustration suivante présente un exemple de la première page de l’état
 L’illustration suivante présente un exemple d’une autre page de l’état généré.
 
 ![Autre page de l’état généré.](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>Limitations
+
+Les noms des champs à remplir doivent être uniques dans le formulaire PDF que vous prévoyez d’utiliser comme modèle de rapport. Pour chacun de ces champs, un élément de format individuel portant le nom correspondant est créé au format ER modifiable lors de l’importation d’un formulaire PDF. Si un formulaire PDF contient plusieurs champs portant le même nom, un seul élément de format est créé pour les champs qui ne permet pas de les renseigner individuellement à l’exécution.
+
+## <a name="frequently-asked-questions"></a>Forum aux questions
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Lorsque j’exécute le format ER pour générer un rapport au format PDF, pourquoi ai-je les erreurs suivantes : **Ne peut pas gérer les flux IREF. L’implémentation actuelle de PDFSharp ne peut pas gérer cette fonctionnalité PDF introduite avec Acrobat 6.** et **Un nom PDF doit commencer par une barre oblique (/).**
+
+Le framework ER utilise la version 1.5 de la bibliothèque PDFSharp pour générer ces rapports PDF. Certaines fonctionnalités de PDF 1.5 (Adobe Reader 6.0) ne sont pas encore implémentés dans cette bibliothèque. Par conséquent, PDFSharp ne peut pas encore ouvrir certains fichiers marqués comme **pour PDF 1.5 ou supérieur** et peut entraîner les erreurs reçues. Utilisez l’une des solutions suivantes pour résoudre le problème :
+
+-   Lorsque vous utilisez votre propre modèle PDF : rétrogradez le modèle vers une version antérieure d’Adobe et commencez à utiliser un nouveau modèle dans votre format ER.
+-   Lorsque vous utilisez un modèle de format ER qui a été partagé avec vous par un autre fournisseur de configuration dans le cadre d’une solution ER : Contactez le propriétaire de cette solution ER et fournissez une description du problème.
+-   Lorsque vous utilisez la solution ISV qui contient une version antérieure de la bibliothèque PDFSharp : contactez le propriétaire de la solution et suggérez une mise à niveau vers la version plus récente de PDFSharp.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

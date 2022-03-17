@@ -2,19 +2,19 @@
 title: Configurer l’intégration fiscale pour les canaux de commerce
 description: Cette rubrique donne des instructions pour configurer la fonctionnalité d’intégration fiscale pour les canaux de commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076961"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388388"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurer l’intégration fiscale pour les canaux de commerce
 
@@ -46,6 +46,7 @@ Le processus de paramétrage de l’intégration fiscale inclut les tâches gén
 - configuration du processus d’enregistrement fiscal qui définit une séquence des étapes d’enregistrement fiscal ainsi que les connecteurs fiscaux et les fournisseurs de documents fiscaux utilisés pour chaque étape ;
 - affectation du processus d’enregistrement fiscal aux profils de fonctionnalité du PDV ;
 - affectation des profils techniques de connecteur aux profils matériels.
+- Affectez les profils techniques de connecteur aux profils matériels ou fonctionnalités PDV.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Télécharger les configurations des fournisseurs de documents fiscaux
 
@@ -161,10 +162,12 @@ Pour affecter les entités du processus d’enregistrement fiscal aux profils du
 1. Dans Commerce Headquarters, accédez à la page **Profils de fonctionnalité du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage Point de vente \> Profils Point de vente \> Profils de fonctionnalité**). 
 1. affectation du processus d’enregistrement fiscal aux profils de fonctionnalité du PDV.
 1. Sélectionnez **Modifier**, puis, dans l’onglet **Processus d’enregistrement fiscal**, dans le champ **Numéro du processus**, sélectionnez un processus.
+1. Sur l’onglet **Services fiscaux**, sélectionnez les profils techniques du connecteur avec l’emplacement du connecteur **S’inscrire**.
 1. Accédez à la page **Profil matériel du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Profils PDV \> Profils matériel**).
 1. Affectez des profils techniques de connecteur à un profil matériel. 
 1. Sélectionnez **Modifier**, puis, sur l’onglet **Périphériques fiscaux**, ajoutez une ligne. 
 1. Dans le champ **Numéro de profil**, sélectionnez un profil technique du connecteur.
+1. Sur l’onglet **Périphériques fiscaux**, sélectionnez les profils techniques du connecteur avec l’emplacement du connecteur **Station matérielle**.
 
 > [!NOTE]
 > Vous pouvez ajouter plusieurs profils techniques à un profil matériel identique. Toutefois, un profil matériel ou un profil de fonctionnalité de PDV doit avoir une seule intersection avec n’importe quel groupe de connecteurs fiscaux.
@@ -175,6 +178,17 @@ Le flux d’enregistrement fiscal est défini par le processus d’enregistremen
 - Le fournisseur de documents fiscaux est également responsable de l’identification du connecteur fiscal utilisé pour l’enregistrement fiscal. Il correspond aux profils fonctionnels du connecteur inclus dans le groupe de connecteurs fiscaux spécifié pour l’étape actuelle du processus d’enregistrement fiscal avec le profil technique du connecteur attribué au profil matériel de la station matérielle à laquelle le PDV est relié.
 - Le fournisseur de documents fiscaux utilise les paramètres de mise en correspondance des données depuis la configuration du fournisseur de documents fiscaux pour transformer les données d’événement/de transaction, tels que les impôts et les paiements, tandis qu’un document fiscal est généré.
 - Lorsque le fournisseur de documents fiscaux génère un document fiscal, le connecteur fiscal peut soit l’envoyer au périphérique fiscal en l’état, soit l’analyser et le transformer en une séquence de commandes de l’API du périphérique, selon la manière dont la communication est gérée.
+
+### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Configurer des registres avec des restrictions d’enregistrement fiscal
+
+Vous pouvez sélectionner des registres où l’enregistrement fiscal est interdit, par exxemple si vous devez fournir uniquement des opérations non fiscales, telles que la recherche de catalogue de produits, la recherche de clients ou la création de brouillon de transaction sur ces appareils.
+
+Pour configurer des registres avec des restrictions d’enregistrement fiscal, procédez comme suit.
+
+1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**.
+1. Sélectionnez le processus requis.
+1. Sélectionnez l’onglet **Registres de point de vente avec restrictions de processus fiscaux**.
+1. Ajouter des registres avec restrictions de processus fiscaux, le cas échéant.
 
 ### <a name="validate-the-fiscal-registration-process"></a>Valider le processus d’enregistrement fiscal
 

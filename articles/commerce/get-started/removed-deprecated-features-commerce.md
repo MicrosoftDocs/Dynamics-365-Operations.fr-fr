@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
-ms.date: 09/27/2021
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559557"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384605"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est p
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+> Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.21
 
@@ -39,36 +39,36 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Configuration de la gestion des remises qui se chevauchent dans les paramètres Commerce
 
-Le paramètre **Gestion des remises qui se chevauchent** sur la page **Paramètres commerciaux** est obsolète dans la version Commerce version 10.0.21. À l'avenir, le moteur de tarification Commerce utilisera un seul algorithme pour déterminer la combinaison optimale de remises qui se chevauchent.
+Le paramètre **Gestion des remises qui se chevauchent** sur la page **Paramètres commerciaux** est obsolète dans la version Commerce version 10.0.21. À l’avenir, le moteur de tarification Commerce utilisera un seul algorithme pour déterminer la combinaison optimale de remises qui se chevauchent.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l'option **Meilleure performance**. Par conséquent, il s'agit essentiellement d'une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles lors du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l'ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettre à jour la logique interne du moteur de tarification Commerce afin qu'il utilise désormais uniquement l'algorithme avancé (c'est-à-dire l'algorithme à l'origine de l'option **Meilleure performance**).</p> |
-| **Remplacé par une autre fonctionnalité ?**   | Non. Nous recommandons aux organisations qui utilisent le commutateur d'option **Calcul équilibré** ou **Calcul exhaustif** à l'option **Meilleure performance** avant que cette fonctionnalité ne soit supprimée. |
+| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l’option **Meilleure performance**. Par conséquent, il s’agit essentiellement d’une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles lors du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l’ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettre à jour la logique interne du moteur de tarification Commerce afin qu’il utilise désormais uniquement l’algorithme avancé (c’est-à-dire l’algorithme à l’origine de l’option **Meilleure performance**).</p> |
+| **Remplacé par une autre fonctionnalité ?**   | Non. Nous recommandons aux organisations qui utilisent le commutateur d’option **Calcul équilibré** ou **Calcul exhaustif** à l’option **Meilleure performance** avant que cette fonctionnalité ne soit supprimée. |
 | **Zones de produit affectées**         | Tarification et remises |
 | **Option de déploiement**              | Tout |
 | **État**                         | Depuis la version 10.0.21, le paramètre **Gestion des remises qui se chevauchent** sera supprimé des paramètres Commerce en octobre 2022. |
 
-### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK Retail distribué à l'aide de Lifecycle Services
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK Retail distribué à l’aide de Lifecycle Services
 
-Le SDK Retail est livré dans Lifecycle Services (LCS). Ce mode de distribution est déconseillé dans la version 10.0.21. À l'avenir, les packages de référence, bibliothèques et exemples du SDK Retail seront publiés dans des référentiels publics sur GitHub.
+Le SDK Retail est livré dans Lifecycle Services (LCS). Ce mode de distribution est déconseillé dans la version 10.0.21. À l’avenir, les packages de référence, bibliothèques et exemples du SDK Retail seront publiés dans des référentiels publics sur GitHub.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Le SDK Retail est livré dans LCS. Le processus LCS prend quelques heures et doit être répété pour chaque mise à jour. À l'avenir, les packages de référence, bibliothèques et exemples du SDK Retail seront publiés dans des référentiels publics sur GitHub. Les échantillons d'extension et les packages de référence peuvent être consommés facilement et les mises à jour se terminent en quelques minutes. |
+| **Motif de l’abandon/de la suppression** | Le SDK Retail est livré dans LCS. Le processus LCS prend quelques heures et doit être répété pour chaque mise à jour. À l’avenir, les packages de référence, bibliothèques et exemples du SDK Retail seront publiés dans des référentiels publics sur GitHub. Les échantillons d’extension et les packages de référence peuvent être consommés facilement et les mises à jour se terminent en quelques minutes. |
 | **Remplacé par une autre fonctionnalité ?**   |  [Télécharger les exemples et les packages de référence du SDK Retail depuis GitHub et NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Zones de produit affectées**         | Kit de développement logiciel (SDK) Retail |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : à partir de la version 10.0.21, le SDK fourni via les machines virtuelles LCS sera supprimé en octobre 2022. |
+| **État**                         | Obsolète : à partir de la version 10.0.21, le SDK fourni via les machines virtuelles LCS sera supprimé en avril 2023. |
 
-### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Package déployable Retail et programmes d'installation combinés de points de vente, de stations matérielles et d'unité d'échelle Cloud
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Package déployable Retail et programmes d’installation combinés de points de vente, de stations matérielles et d’unité d’échelle Cloud
 
-Les packages déployables pour la vente au détail générés à l'aide du SDK Retail MSBuild sont obsolètes dans la version 10.0.21. À l'avenir, utilisez le package Cloud Scale Unit (CSU) pour les extensions d'unité Cloud Scale (Commerce Runtime, base de données de canaux, API Commerce sans affichage, paiements et point de vente (PDV) Cloud). Utilisez des programmes d'installation d'extension uniquement pour le point de vente, la station matérielle et l'unité d'échelle Cloud auto-hébergée.
+Les packages déployables pour la vente au détail générés à l’aide du SDK Retail MSBuild sont obsolètes dans la version 10.0.21. À l’avenir, utilisez le package Cloud Scale Unit (CSU) pour les extensions d’unité Cloud Scale (Commerce Runtime, base de données de canaux, API Commerce sans affichage, paiements et point de vente (PDV) Cloud). Utilisez des programmes d’installation d’extension uniquement pour le point de vente, la station matérielle et l’unité d’échelle Cloud auto-hébergée.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Un package déployable Retail est un package combiné qui contient un ensemble complet de packages d'extension et de programmes d'installation. Ce package combiné rend le déploiement complexe, car les extensions CSU vont à l'unité d'échelle Cloud et les programmes d'installation sont déployés dans les magasins. Les programmes d'installation incluent l'extension et le produit de base, ce qui rend les mises à jour difficiles. À chaque mise à niveau, une fusion de code et une génération de package sont nécessaires. Pour simplifier ce processus, les packages d'extension sont désormais séparés en composants pour un déploiement et une gestion faciles. Avec la nouvelle approche, les programme d'installation d'extensions et de produits de base sont séparés et peuvent être gérés et mis à niveau indépendamment sans fusion de code ni reconditionnement.|
-| **Remplacé par une autre fonctionnalité ?**   | Extensions CSU, programmes d'installation d'extension PDV, programmes d'installation d'extension de station matérielle |
+| **Motif de l’abandon/de la suppression** | Un package déployable Retail est un package combiné qui contient un ensemble complet de packages d’extension et de programmes d’installation. Ce package combiné rend le déploiement complexe, car les extensions CSU vont à l’unité d’échelle Cloud et les programmes d’installation sont déployés dans les magasins. Les programmes d’installation incluent l’extension et le produit de base, ce qui rend les mises à jour difficiles. À chaque mise à niveau, une fusion de code et une génération de package sont nécessaires. Pour simplifier ce processus, les packages d’extension sont désormais séparés en composants pour un déploiement et une gestion faciles. Avec la nouvelle approche, les programme d’installation d’extensions et de produits de base sont séparés et peuvent être gérés et mis à niveau indépendamment sans fusion de code ni reconditionnement.|
+| **Remplacé par une autre fonctionnalité ?**   | Extensions CSU, programmes d’installation d’extension PDV, programmes d’installation d’extension de station matérielle |
 | **Zones de produit affectées**         | Déploiement et extension Dynamics 365 Commerce |
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : à partir de la version 10.0.21, la prise en charge du déploiement de RetailDeployablePackage dans LCS sera supprimée en octobre 2022. |
@@ -82,17 +82,17 @@ Pour plus d’informations, voir :
     + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [PDV, CSU et station matérielle](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln et CloudPOs.sln dans le SDK Retail
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln et CloudPos.sln dans le SDK Retail
 
-Le développement d'extensions PDV à l'aide de ModernPos.sln, CloudPOs.sln, POS.Extension.csproj et du dossier POS est obsolète dans la version 10.0.21. À l'avenir, utilisez le SDK de conditionnement indépendant du PDV pour les extensions PDV.
+Le développement d’extensions PDV à l’aide de ModernPos.sln, CloudPos.sln, POS.Extension.csproj et du dossier POS est obsolète dans la version 10.0.21. À l’avenir, utilisez le SDK de conditionnement indépendant du PDV pour les extensions PDV.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Dans les versions antérieures du SDK Retail, s'il existe des extensions PDV, une fusion de code et un reconditionnement sont nécessaires pour mettre à jour vers la dernière version du PDV. La fusion de code était un processus de mise à niveau fastidieux et vous deviez tenir à jour le SDK Retail complet dans le référentiel. Vous deviez également compiler le projet de base POS.App. En utilisant le modèle de conditionnement indépendant, vous ne devez tenir à jour que votre extension. Le processus de mise à jour vers la dernière version des extensions PDV est aussi simple que la mise à jour de la version du package NuGet que votre projet consomme. Les extensions peuvent être déployées indépendamment et les services utilisent les programmes d'installation d'extensions. Le point de vente de base peut être déployé et tenu à jour séparément, et aucune fusion de code ou reconditionnement avec le programme d'installation ou le code de base n'est requis. |
+| **Motif de l’abandon/de la suppression** | Dans les versions antérieures du SDK Retail, s’il existe des extensions PDV, une fusion de code et un reconditionnement sont nécessaires pour mettre à jour vers la dernière version du PDV. La fusion de code était un processus de mise à niveau fastidieux et vous deviez tenir à jour le SDK Retail complet dans le référentiel. Vous deviez également compiler le projet de base POS.App. En utilisant le modèle de conditionnement indépendant, vous ne devez tenir à jour que votre extension. Le processus de mise à jour vers la dernière version des extensions PDV est aussi simple que la mise à jour de la version du package NuGet que votre projet consomme. Les extensions peuvent être déployées indépendamment et les services utilisent les programmes d’installation d’extensions. Le point de vente de base peut être déployé et tenu à jour séparément, et aucune fusion de code ou reconditionnement avec le programme d’installation ou le code de base n’est requis. |
 | **Remplacé par une autre fonctionnalité ?**   | [Kit de développement logiciel (SDK) de conditionnement indépendant du PDV](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Zones de produit affectées**         | Déploiement et extension PDV Dynamics 365 Commerce |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : à partir de la version 10.0.21, la prise en charge des packages de point de vente combinés et du modèle d'extension utilisant ModernPos.Sln, CloudPOs.sln et POS.Extensons.csproj dans le SDK Retail sera supprimée en octobre 2022. |
+| **État**                         | Obsolète : à partir de la version 10.0.21, la prise en charge des packages de point de vente combinés et du modèle d’extension utilisant ModernPos.Sln, CloudPOs.sln et POS.Extensons.csproj dans le SDK Retail sera supprimée en avril 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.17
 

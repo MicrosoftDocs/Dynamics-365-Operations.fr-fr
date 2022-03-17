@@ -2,7 +2,7 @@
 title: Module Pied de page
 description: Cette rubrique couvre les modules de pied de page et leur création dans Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719984"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374829"
 ---
 # <a name="footer-module"></a>Module Pied de page  
 
@@ -39,7 +39,7 @@ Comme la plupart des conteneurs, un module de pied de page prend en charge les p
 
 ## <a name="modules-available-in-a-footer-module"></a>Modules disponibles dans un module de pied de page
 
-**Articles de pied de page** – Un module d’articles de pied de page peut contenir un en-tête, une image, et un lien. L’en-tête peut être utilisé seul ou en combinaison avec une image et un lien. Chaque lien dans le pied de page peut être configuré de sorte qu’il s’agisse juste de texte (par exemple, « Contactez-nous » et « Confidentialité »), ou afin qu’il comporte à la fois du texte et une image (par exemple, des liens vers des réseaux sociaux).
+**Article de pied de page** –  Un module d’article de pied de page peut contenir un en-tête ou un lien. L’en-tête est généralement utilisé comme titre de section de pied de page.  Chaque lien dans le pied de page peut être configuré de sorte qu’il s’agisse juste de texte (par exemple, « Contactez-nous » et « Confidentialité »), ou afin qu’il comporte à la fois du texte et une image (par exemple, des liens vers des réseaux sociaux). Si un en-tête et un lien sont fournis, la propriété d’en-tête prévaudra sur le lien. 
 
 **Retour vers le haut** – A module Retour vers le haut fournit un lien de navigation rapide vers le haut de la page. Une destination est requise. La valeur par défaut de destination est \#, qui dirige l’utilisateur vers le haut de la page.
 

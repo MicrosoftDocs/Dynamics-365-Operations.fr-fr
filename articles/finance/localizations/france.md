@@ -1,23 +1,23 @@
 ---
 title: Vue d’ensemble de la France
 description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 Finance pour la France.
-author: ShylaThompson
-ms.date: 07/25/2019
+author: kfend
+ms.date: 03/04/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: France
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bd2537d4e39915795f6d5d3991b2bef416263a
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 455fa8e5ba44f4fc477db7c98340d01f04ae884d
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982949"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388468"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -37,6 +37,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Relevés de compte client et fournisseur](tasks/fr-00002-customer-vendor-account-statements.md)
 - [Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance](tasks/fr-00018-daily-interest.md)
 - [Amortissement dérogatoire](emea-fra-derogatory-depreciation.md)
+- [Format DES de liste des ventes intracommunautaires pour la France](emea-fra-eu-sales-list.md)
 - [Lettres de change et billets à ordre français](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
 - [Présentation du fichier d’audit pour la France (FEC)](emea-fra-fec-audit-file.md)
 - [Déclaration d’échanges de biens française](emea-fra-intrastat.md)

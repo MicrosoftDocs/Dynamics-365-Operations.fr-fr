@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068107"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384482"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -210,9 +210,9 @@ La fonctionnalité de gestion d’entrepôt suivante n’est actuellement pas pr
 - Traitement avec articles activés uniquement pour la gestion du transport (TMS).
 - Traitement avec stock disponible négatif.
 - Partage de données entre sociétés pour les produits. <!-- Planned -->
-- Traitement du travail en entrepôt avec notes d’expédition.
-- Traitement du travail en entrepôt avec manutention des matières/Warehouse Automation.
+- Traitement du travail d’entrepôt avec des notes d’expédition (par exemple, des notes d’emballage à la station d’emballage).
 - Images des données principales du produit (par exemple, sur l’application mobile Warehouse Management).
+- Traitement du travail en entrepôt avec manutention des matières/Warehouse Automation.
 
 > [!WARNING]
 > Certaines fonctionnalités d’entrepôt ne seront pas disponibles pour les entrepôts exécutant les charges de travail de gestion d’entrepôt sur une unité d’échelle et ne sont pas non plus prises en charge sur le hub ou sur la charge de travail de l’unité d’échelle.
@@ -235,10 +235,9 @@ Le tableau suivant indique quelles fonctionnalités sortantes sont prises en cha
 | Traitement de vague d’expédition                                     | Non  |Oui, sauf **Création et tri de chargement** |
 | Gérer les expéditions pour la vague                                  | Non  | Oui|
 | Traitement du travail en entrepôt (y compris impression de contenant)        | Non  | Oui, mais uniquement pour les fonctionnalités prises en charge mentionnées précédemment |
-| Prélèvement de groupement                                              | Non  | Oui|
-| Traitement d’emballage manuel, y compris le traitement des travaux de type « Prélèvement du conteneur compressé » | N° <P>Un certain traitement peut être effectué après un processus de prélèvement initial géré par une unité d’échelle, mais n’est pas recommandé en raison des opérations bloquées suivantes.</p>  | Non |
-| Supprimer un conteneur du groupe                                  | Non  | Non |
-| Traitement du tri sortant                                  | Non  | Non |
+| Prélèvement de groupement                                              | N°  | Oui|
+| Traitement manuel de la station d’emballage  | N°  | N° |
+| Traitement du tri sortant                                  | N°  | N° |
 | Impression de documents relatifs à la charge                           | Oui | Oui|
 | Connaissement et génération d’APE                            | Non  | Oui|
 | Confirmation d’envoi                                             | N°  | Oui|
@@ -258,6 +257,7 @@ Le tableau suivant indique quelles fonctionnalités sortantes sont prises en cha
 | Inverse la confirmation d’expédition                                | N°  | Oui|
 | Demande d’annulation des lignes de commande d’entrepôt                      | Oui | Non, mais la demande sera approuvée ou rejetée |
 | <p>Lancer les ordres de transfert pour réception</p><p>Ce processus se produira automatiquement dans le cadre du processus d’expédition de l’ordre de transfert. Cependant, il peut être utilisé manuellement pour activer la réception des contenants à une unité d’échelle si les lignes de commande entrantes de l’entrepôt ont été annulées ou dans le cadre d’un nouveau processus de déploiement de charge de travail.</p> | Oui | N°|
+<!--| Traitement de la station d’emballage manuel, y compris les travaux de type « Prélèvement du conteneur compressé »  | N°  | Oui, mais sans manifeste d’expédition TMS ni envoi de bordereau d’emballage de vente et sans notes d’emballage et images de produits |-->
 
 ### <a name="inbound"></a>Entrant(e)
 
@@ -359,6 +359,7 @@ Sur le déploiement du hub, vous pouvez gérer manuellement les tâches de trait
     - Unité d’échelle du processeur de messages du hub
     - Enregistrer les réceptions de commande source
     - Terminer les commandes d’entrepôt
+    - Générer les commandes d’entrepôt sortantes manquantes
 
 - Gérer les tâches de traitement par lots suivantes sur **Gestion des entrepôts \> Tâches périodiques \> Gestion de la charge de travail** :
 

@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 02/01/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83d0b6243efd802ffc959f8de14f6232736fc88c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087572"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384427"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -67,7 +67,10 @@ Si vous faites une erreur et que vous ne voulez plus voir un total dans une colo
 ### <a name="calculating-totals"></a>Calcul des totaux
 Lorsque vous accédez à une page avec le pied de page visible et des colonnes déjà configurées pour les totaux, les totaux peuvent ou non être affichés dans le pied de page. Le comportement dépend de la taille de l’ensemble de données sur la page. Si l’ensemble de données est suffisamment petit, les totaux seront affichés automatiquement, ainsi que le nombre de lignes dans l’ensemble de données. S’il y a des tirets dans le pied de page sous les colonnes que vous avez configurées pour les totaux, le jeu de données est trop volumineux pour que le système affiche immédiatement les totaux et une action explicite est nécessaire pour calculer les totaux. Pour ce faire, cliquez sur le bouton **Calculer** dans le pied de page, ou faites un clic droit sur une colonne pour laquelle vous souhaitez afficher un total et sélectionnez **Total de cette colonne**.
 
-Si le calcul prend trop de temps, vous pouvez annuler l’opération en sélectionnant le bouton **Annuler**. Parfois, cependant, l’ensemble de données sera trop volumineux pour calculer les totaux (une limite imposée par votre organisation), et vous serez invité à filtrer davantage vos données.
+Si le calcul prend trop de temps, vous pouvez annuler l’opération en sélectionnant le bouton **Annuler**. Parfois, cependant, l’ensemble de données sera trop volumineux pour calculer les totaux (une limite imposée par votre organisation), et vous serez invité à filtrer davantage vos données. 
+
+> [!NOTE]
+> Les administrations système peuvent modifier la limite du nombre d’enregistrements disponibles pour le calcul des totaux en ajustant le paramètre **Nombre maximal d’enregistrements locaux pour chaque grille** sur la page **Options de performances des clients**. La valeur par défaut est 25 000 enregistrements. Les administrateurs doivent être prudents lors du réglage de cette valeur, car une valeur trop élevée peut épuiser la mémoire disponible sur la machine de l’utilisateur. La recommandation est de ne pas dépasser 50 000 enregistrements.   
 
 Les totaux seront mis à jour automatiquement lorsque vous mettez à jour, supprimez ou créez des lignes dans l’ensemble de données.
 

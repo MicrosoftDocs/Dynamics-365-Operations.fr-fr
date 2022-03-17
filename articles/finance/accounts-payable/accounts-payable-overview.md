@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cbc800d7ae4d566fddb111b7ee9d67234e3cf8c
-ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
+ms.openlocfilehash: 4ed5664b5be11f013900d6411d4307692d5e8334
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "8325992"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358166"
 ---
 # <a name="configure-accounts-payable-overview"></a>Vue d’ensemble de la configuration du module Comptabilité fournisseur
 
@@ -34,7 +34,7 @@ Cet article décrit les pages que vous utilisez pour paramétrer les fonctionnal
 
 Avant d’être en mesure de configurer le module Comptabilité fournisseur, vous devez effectuer les procédures de paramétrage suivantes :
 
--   Dans le module Comptabilité :
+-   En comptabilité :
     -   Pour utiliser des journaux des paiements, vous devez d’abord les paramétrer.
     -   Si vous prévoyez d’effectuer des ajustements du taux de change, paramétrez les codes devise sur la page **Devises**, paramétrez les **types de taux de change** sur la page Types de taux de change, et paramétrez les taux de change des devises sur la page **Taux de change des devises**.
 -   Dans le module Gestion de la trésorerie et de la banque, paramétrez les comptes bancaires à utiliser avec des modes de paiement.

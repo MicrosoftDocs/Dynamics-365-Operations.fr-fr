@@ -2,27 +2,22 @@
 title: Périphériques
 description: Cette rubrique explique les concepts relatifs aux périphériques de Commerce.
 author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+ms.date: 03/01/2022
+ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "268444"
 - intro-internal
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092482"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370974"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -45,7 +40,7 @@ Les appareils peuvent être associés aux types d’application suivants : Reta
 
 ### <a name="modern-pos"></a>Modern POS
 
-Modern POS est le programme de PDV pour Microsoft Windows. Il peut être déployé sur les systèmes d’exploitation (OS) Windows 10.
+Modern POS est le programme de PDV pour Microsoft Windows. Il peut être déployé sur les systèmes d’exploitation Windows 10 et Windows 11.
 
 ### <a name="cloud-pos"></a>PDV Cloud
 
@@ -108,7 +103,7 @@ Les plaquettes PIN (Personal identification number) sont prises en charge via OP
 
 ### <a name="secondary-display"></a>Affichage secondaire
 
-Lorsqu’un affichage secondaire est configuré, l’affichage de Windows numéro 2 est utilisé pour afficher les informations de base. L’objectif de l’affichage secondaire est de prendre en charge une extension logicielle d’éditeur indépendant car, en étant prêt à l’emploi, l’affichage vue secondaire n’est pas configurable et affiche un contenu limité.
+Lorsqu’un affichage secondaire est configuré, l’affichage de Windows numéro 2 est utilisé pour afficher les informations de base. Par défaut, l’affichage secondaire n’est pas configurable et affiche un contenu limité. L’objectif de l’affichage secondaire est de prendre en charge une extension de fournisseur de logiciel indépendant (ISV). 
 
 ### <a name="payment-device"></a>Appareil de paiement
 
@@ -132,7 +127,7 @@ Pour permettre d’utiliser la plus large gamme possible de périphériques avec
 L’impression de tickets au PDV est optimisée pour OPOS. L’impression via OPOS tend à être beaucoup plus rapide que l’impression via Windows. Par conséquent, il est conseillé d’utiliser OPOS, en particulier dans les environnements où l’on imprime des tickets à 40 colonnes et où les délais de transaction doivent être rapides. Pour la plupart des périphériques, vous utiliserez des contrôles OPOS. Toutefois, certaines imprimantes de tickets OPOS prennent également en charge les pilotes Windows. En utilisant un pilote Windows, vous pouvez accéder aux polices les plus récentes et mettre en réseau une seule imprimante pour plusieurs registres. Toutefois, il y a des inconvénients à utiliser les pilotes Windows. Voici quelques exemples de ces inconvénients :
 
 -   lors de l’utilisation des pilotes Windows, les images sont rendues avant l’impression. Par conséquent, l’impression tend à être plus lente que sur les imprimantes qui utilisent les contrôles OPOS.
--   les périphériques qui sont connectés via l’imprimante (« en guirlande ») peuvent ne pas fonctionner correctement lors de l’utilisation des pilotes Windows. Par exemple, la caisse enregistreuse peut ne pas s’ouvrir, ou l’imprimante de bordereau peut ne pas fonctionner comme prévu.
+-   les périphériques qui sont connectés via l’imprimante (« en guirlande ») peuvent ne pas fonctionner correctement lors de l’utilisation des pilotes Windows. Par exemple, la caisse enregistreuse peut ne pas s’ouvrir, ou l’imprimante de reçu peut ne pas fonctionner comme prévu.
 -   OPOS prend également en charge un ensemble plus étendu de variables spécifiques aux imprimantes de tickets, telles que l’impression de bordereau ou la coupe du papier.
 -   Les imprimantes Windows ne sont pas prises en charge par la station matérielle IIS. 
 
@@ -176,7 +171,7 @@ Pour utiliser la station matérielle dédiée, procédez comme suit.
 1. Ouvrez Modern POS en mode sans tiroir et utilisez l’opération **Gérer les stations matérielles** pour activer les capacités de la station matérielle. La station matérielle dédiée sera active par défaut. 
 1. Déconnectez-vous de Modern POS. Puis connectez-vous à nouveau et ouvrez une équipe. Les périphériques configurés dans le profil matériel seront désormais utilisables. 
 
-### <a name="shared"></a>Partage effectué 
+### <a name="shared"></a>Partage effectué
 
 Également parfois appelée station matérielle IIS, « IIS » impliquant que l’application POS se connecte à la station matérielle via Microsoft Internet Information Services. L’application de PDV se connecte à la station matérielle IIS via les services Web qui s’exécutent sur un ordinateur où les périphériques sont connectés. Si la station matérielle partagée est utilisée, les périphériques associés à une station matérielle peuvent être utilisés par n’importe quelle caisse enregistreuse de PDV située sur le même réseau que la station matérielle IIS. Étant donné que seul Modern POS pour Windows et Android inclut la prise en charge intégrée des périphériques, toutes les autres applications Modern POS doivent utiliser la station matérielle IIS pour communiquer avec les périphériques de PDV configurés dans le profil matériel. Par conséquent, chaque instance de la station matérielle IIS nécessite un ordinateur qui exécute le service Web et l’application qui communique avec les périphériques. 
 
@@ -184,7 +179,7 @@ La station matérielle partagée peut être utilisée pour autoriser plusieurs c
 
 Lorsqu’une station matérielle est utilisée pour prendre en charge le partage des périphériques entre plusieurs clients POS, seuls les tiroirs-caisses, les imprimantes de tickets de caisse et les terminaux de paiement doivent être utilisés. Vous ne pouvez pas connecter directement les lecteurs de code-barres, les LBM, les afficheurs de lignes, les balances ou d’autres périphériques. Dans le cas contraire, des conflits apparaîtront quand plusieurs appareils de PDV essaieront de revendiquer ces périphériques simultanément. Voici comment les conflits sont gérés pour les périphériques pris en charge :
 
--   **Tiroir-caisse** – le tiroir-caisse est ouvert via un événement envoyé au périphérique. Le seul problème qui peut se produire lors de l’appel d’un tiroir-caisse apparaît lorsque le tiroir est déjà ouvert. Dans le cas des stations matérielles partagées, le tiroir-caisse doit être défini comme **Partagé** dans le profil matériel. Ce paramètre empêche le PDV de vérifier si le tiroir-caisse est déjà ouvert lorsqu’il envoie des commandes d’ouverture.
+-   **Tiroir-caisse** – le tiroir-caisse est ouvert via un événement envoyé au périphérique. Des problèmes peuvent se produire si un tiroir-caisse est appelé lorsque le tiroir est déjà ouvert. Un tiroir-caisse qui est utilisé dans une configuration de stations matérielles partagées doit être défini comme **Partagé** dans le profil matériel. Ce paramètre empêche le PDV de vérifier si le tiroir-caisse est déjà ouvert lorsqu’il envoie des commandes d’ouverture.
 -   **Imprimante de tickets** – Si deux commandes d’impression de ticket sont envoyées à la station matérielle au même moment, une des commandes peut être perdue, selon le périphérique. Certains périphériques ont une mémoire interne ou une mise en commun qui peut éviter ce problème. Si une commande d’impression échoue, le caissier reçoit un message d’erreur et peut réessayer la commande d’impression à partir du PDV.
 -   **Terminal de paiement** – Si un caissier essaie de soumettre une transaction à un terminal de paiement qui est déjà utilisé, un message l’informe que le terminal est utilisé et lui demande de réessayer ultérieurement. Généralement, les caissiers peuvent voir qu’un terminal est déjà utilisé et attendre que l’autre transaction soit terminée avant d’essayer à nouveau.
 
@@ -205,7 +200,7 @@ La logique qui gère les périphériques connectés physiquement ceux qui sont a
 ## <a name="setup-and-configuration"></a>Paramétrage et configuration
 ### <a name="hardware-station-installation"></a>Installation de la station matérielle
 
-Pour plus d’informations, voir [Configurer et installer la station matérielle](retail-hardware-station-configuration-installation.md).
+Pour plus d’informations sur l’installation de la station matérielle IIS, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows
 
@@ -431,7 +426,7 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Tous les clients Modern POS ont partagé une station matérielle IIS
+### <a name="all-modern-pos-clients-that-share-an-iis-hardware-station"></a>Tous les clients Modern POS ont partagé une station matérielle IIS
 
 > [!NOTE]
 > Lorsque la station matérielle IIS « est partagée », plusieurs périphériques peuvent utiliser la station matérielle simultanément. Pour ce scénario, vous devez utiliser uniquement les périphériques répertoriés dans le tableau suivant. Si vous tentez de partager des périphériques qui ne sont pas répertoriés, comme des lecteurs de codes-barres et des LBM, des erreurs se produiront lorsque plusieurs appareils essaieront de revendiquer le même périphérique. Une telle configuration sera explicitement impossible à l’avenir.
@@ -487,7 +482,7 @@ Les périphériques réseau peuvent être pris en charge directement par la stat
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuration pour les scénarios pris en charge
-Pour plus d’informations sur la création de profils matériels, voir [Définir et tenir à jour des clients de canal, y compris des registres et des stations matérielles](define-maintain-channel-clients-registers-hw-stations.md). 
+Pour plus d’informations sur la création de profils matériels, voir [Connecter des périphériques au point de vente (POS)](define-maintain-channel-clients-registers-hw-stations.md). 
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Windows avec une station matérielle IPC (intégrée)
 
@@ -623,9 +618,8 @@ Les périphériques suivants ont été testés à l’aide de la station matéri
 | Fabricant | Modèle    | Interface | Commentaires                |
 | ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88VI | OPOS      |                         |
-| Epson        | TM-T88   | Personnalisée    | Connecté via le réseau   |
-| HP           | F7M67AA  | OPOS      | Alimenté par USB             |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | Alimenté par USB             |
 | Star         | TSP650II | Personnalisée    | Connecté via le réseau   |
 | Star         | mPOP     | OPOS      | Connecté via Bluetooth |
 | Toshiba      | HSP100   | OPOS      |                         |
@@ -637,26 +631,17 @@ Les périphériques suivants ont été testés à l’aide de la station matéri
 #### <a name="bar-code-scanner"></a>Lecteur de codes-barres
 
 | Fabricant  | Modèle         | Interface | Commentaires |
-|---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Symbole        | LS2208        | OPOS      |          |
-| HP intégré | E1L07AA       | OPOS      |          |
+| ------------- | ------------- | --------- | -------- |
 | Datalogic     | Magellan 8400 | OPOS      |          |
+| Honeywell     | 1900          | UWP       |          |
+| HP intégré | E1L07AA       | OPOS      |          |
+| Symbole        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>Clavier d’identification personnelle
+#### <a name="payment-terminals-and-pin-pads"></a>Terminaux de paiement et claviers d’identification personnelle
 
-| Fabricant | Modèle  | Interface | Commentaires                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Nécessite la personnalisation du connecteur de paiement |
+Dynamics 365 Commerce fournit une solution prête à l’emploi pour l’intégration avec Adyen pour les services de paiement. Le [connecteur de paiement Dynamics 365 pour Adyen](dev-itpro/adyen-connector.md) utilise le périphérique indépendant [Interface de programmation d’application (API) du terminal de paiement Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) et peut interagir avec tous les terminaux de paiement supportés par cette API. Pour une liste complète des terminaux de paiement pris en charge, voir [Terminaux de point de vente Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Terminal de paiement
-
-| Fabricant | Modèle | Interface | Commentaires                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement                                |
-| VeriFone     | MX925 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
-| VeriFone     | MX915 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
+Vous pouvez également utiliser d’autres fournisseurs de paiement avec Dynamics 365 Commerce en créant un connecteur personnalisé. Tout terminal de paiement pris en charge par le fournisseur de paiement peut être utilisé avec Dynamics 365 Commerce. De même, Dynamics 365 Commerce permet tout modèle d’intégration de dispositif de paiement pris en charge par le fournisseur de paiement, tel qu’une adresse IP locale, une API cloud ou une connexion directe (par exemple, via USB) au point de vente. Pour en savoir plus, voir [Créer une intégration du paiement de bout en bout pour un terminal de paiement](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Tiroir-caisse
 
@@ -670,10 +655,10 @@ Les périphériques suivants ont été testés à l’aide de la station matéri
 
 #### <a name="line-display"></a>Affichage de ligne
 
-| Fabricant  | Modèle   | Interface | Commentaires |
-|---------------|---------|-----------|----------|
-| HP intégré | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| Fabricant | Modèle    | Interface | Commentaires |
+| ------------ | -------- | --------- | -------- |
+| Epson        | DM-D110  | OPOS      |          |
+| HP           | Série T | OPOS      |          |
 
 #### <a name="signature-capture"></a>Capture de signature
 
@@ -701,41 +686,31 @@ Les périphériques suivants ont été testés à l’aide d’une station maté
 
 #### <a name="printer"></a>Imprimante
 
-| Fabricant | Modèle    | Interface | Commentaires              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88V  | Personnalisée    | Connecté via le réseau |
-| HP           | F7M67AA  | OPOS      | Alimenté par USB           |
-| Star         | TSP650II | Personnalisée    | Connecté via le réseau |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
-
-
+| Fabricant | Modèle    | Interface | Commentaires                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | Alimenté par USB             |
+| Star         | TSP650II | Personnalisée    | Connecté via le réseau   |
+| Star         | mPOP     | OPOS      | Connecté via Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="bar-code-scanner"></a>Lecteur de codes-barres
 
-| Fabricant  | Modèle   | Interface | Commentaires |
-|---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Symbole        | LS2208  | OPOS      |          |
-| HP intégré | E1L07AA | OPOS      |          |
+| Fabricant  | Modèle         | Interface | Commentaires |
+| ------------- | ------------- | --------- | -------- |
+| Datalogic     | Magellan 8400 | OPOS      |          |
+| HP intégré | E1L07AA       | OPOS      |          |
+| Symbole        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>Clavier d’identification personnelle
+#### <a name="payment-terminals-and-pin-pads"></a>Terminaux de paiement et claviers d’identification personnelle
 
-| Fabricant | Modèle  | Interface | Commentaires                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Nécessite la personnalisation du connecteur de paiement |
+Dynamics 365 Commerce fournit une solution prête à l’emploi pour l’intégration avec Adyen pour les services de paiement. Le [connecteur de paiement Dynamics 365 pour Adyen](dev-itpro/adyen-connector.md) utilise le périphérique indépendant [Interface de programmation d’application (API) du terminal de paiement Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) et peut interagir avec tous les terminaux de paiement supportés par cette API. Pour une liste complète des terminaux de paiement pris en charge, voir [Terminaux de point de vente Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Terminal de paiement
+Vous pouvez également utiliser d’autres fournisseurs de paiement avec Dynamics 365 Commerce en créant un connecteur personnalisé. Tout terminal de paiement pris en charge par le fournisseur de paiement peut être utilisé avec Dynamics 365 Commerce. De même, Dynamics 365 Commerce permet tout modèle d’intégration de dispositif de paiement pris en charge par le fournisseur de paiement, tel qu’une adresse IP locale, une API cloud ou une connexion directe (par exemple, via USB) au point de vente. Pour en savoir plus, voir [Créer une intégration du paiement de bout en bout pour un terminal de paiement](dev-itpro/end-to-end-payment-extension.md).
 
-| Fabricant | Modèle | Interface | Commentaires                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement                                |
-| VeriFone     | MX925 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
-| VeriFone     | MX915 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
-
-#### <a name="cash-drawer"></a>Caisse enregistreuse
+#### <a name="cash-drawer"></a>Tiroir-caisse
 
 | Fabricant | Modèle     | Interface | Commentaires              |
 |--------------|-----------|-----------|-----------------------|
@@ -780,24 +755,22 @@ Les périphériques suivants ont été testés à l’aide d’une station maté
 
 #### <a name="printer"></a>Imprimante
 
-| Fabricant | Modèle    | Interface | Commentaires              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88   | Personnalisée    | Connecté via le réseau |
-| HP           | F7M67AA  | OPOS      | Alimenté par USB           |
-| Star         | TSP650II | Personnalisée    | Connecté via le réseau |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
+| Fabricant | Modèle    | Interface | Commentaires                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | Alimenté par USB             |
+| Star         | mPOP     | OPOS      | Connecté via Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="payment-terminal"></a>Terminal de paiement
 
-| Fabricant | Modèle | Interface | Commentaires                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
-| VeriFone     | MX915 | Personnalisée    | Nécessite la personnalisation du connecteur de paiement ; connecté via le réseau et USB |
+Dynamics 365 Commerce fournit une solution prête à l’emploi pour l’intégration avec Adyen pour les services de paiement. Le [connecteur de paiement Dynamics 365 pour Adyen](dev-itpro/adyen-connector.md) utilise le périphérique indépendant [Interface de programmation d’application (API) du terminal de paiement Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) et peut interagir avec tous les terminaux de paiement supportés par cette API. Pour une liste complète des terminaux de paiement pris en charge, voir [Terminaux de point de vente Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="cash-drawer"></a>Caisse enregistreuse
+Vous pouvez également utiliser d’autres fournisseurs de paiement avec Dynamics 365 Commerce en créant un connecteur personnalisé. Tout terminal de paiement pris en charge par le fournisseur de paiement peut être utilisé avec Dynamics 365 Commerce. De même, Dynamics 365 Commerce permet tout modèle d’intégration de dispositif de paiement pris en charge par le fournisseur de paiement, tel qu’une adresse IP locale, une API cloud ou une connexion directe (par exemple, via USB) au point de vente. Pour en savoir plus, voir [Créer une intégration du paiement de bout en bout pour un terminal de paiement](dev-itpro/end-to-end-payment-extension.md).
+
+#### <a name="cash-drawer"></a>Tiroir-caisse
 
 | Fabricant | Modèle     | Interface | Commentaires              |
 |--------------|-----------|-----------|-----------------------|
@@ -822,7 +795,7 @@ Les périphériques suivants ont été testés à l’aide d’une station maté
 
 **Solution:** L’un des facteurs suivants peut être à l’origine de ce problème :
 
--   La station matérielle n’a pas été correctement paramétrée au siège. Reprenez les étapes qui précèdent dans cette rubrique pour vérifier que le profil de station matérielle et la station matérielle sont correctement entrés.
+-   La station matérielle n’a pas été correctement paramétrée dans Headquarters. Pour plus d’informations, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md#troubleshooting). 
 -   Les tâches de mise à jour de la configuration des canaux n’ont pas été effectuées. Dans ce cas, exécutez la tâche 1070 pour la configuration des canaux.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS ne prend pas en compte les nouveaux paramètres de tiroir-caisse

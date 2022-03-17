@@ -2,7 +2,7 @@
 title: Raccourcis clavier
 description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finances et Opérations.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119550"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384561"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -199,9 +199,12 @@ Les utilisateurs peuvent découvrir les raccourcis actuellement disponibles dire
 | Effectuer un déplacement vers le contenu de la page principale (avec la vue dans un autre volet)                    | Alt+M,M                    |
 | Effectuer un déplacement vers le volet Récapitulatif (qui peut permettre de l’ouvrir)                       | Alt+M, B ou Ctrl+F2         |
 
+> [!NOTE]
+> La fonctionnalité **Simplifier le comportement de tabulation dans les formulaires pleine page**, introduite dans la version 10.0.26, permet aux utilisateurs de parcourir toutes les régions d’une page sans avoir besoin de la souris ou d’un raccourci clavier dédié pour se déplacer entre les régions. Vous pouvez toujours utiliser les raccourcis clavier existants (tels que les raccourcis d’accord de touche Alt + M) pour vous déplacer rapidement entre les régions d’une page.
+
 ## <a name="personalization-shortcuts"></a>Raccourcis de [personnalisation](personalize-user-experience.md) 
 
-| Opération                                                                                                             | Raccourci                               |
+| Opération                                                                                                             | Appuyer sur                                |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | Effectuer un basculement de la page en mode personnalisation                                                                          | (Ctrl+Maj+P)                        |
 | Utiliser l’outil Sélectionner (lorsque vous êtes en mode personnalisation)                                                                     | S                                   |

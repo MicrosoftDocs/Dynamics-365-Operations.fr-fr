@@ -2,7 +2,7 @@
 title: Vue d’ensemble du calcul de la taxe
 description: Cette rubrique explique la portée et les fonctionnalités générales de la fonctionnalité de calcul des taxes.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105435"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388493"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -58,6 +58,7 @@ Le calcul des taxes est déployé dans les zones géographiques Azure suivantes.
 - Canada
 - Europe
 - Japon
+- Suisse
 - Royaume-Uni
 - Etats-Unis
 
@@ -77,6 +78,7 @@ Nous vous recommandons d’importer et de paramétrer votre configuration de cal
 | 10.0.23         | Configuration du calcul des taxes 40.50.221 |
 | 10.0.24         | Configuration du calcul des taxes 40.50.225 |
 | 10.0.25         | Configuration du calcul des taxes 40.50.225 |
+| 10.0.26         | Configuration du calcul des taxes 40.54.234 |
 
 
 ## <a name="data-flow"></a>Flux de données
@@ -136,6 +138,11 @@ Les transactions suivantes sont prises en charge dans la version 10.0.23 :
 
 - Facture financière
 
+Les transactions suivantes sont prises en charge dans la version 10.0.26 : 
+
+- Journaux des opérations diverses
+- Journal des factures fournisseur
+
 ## <a name="supported-countriesregions"></a>Pays/régions pris en charge
 
 Le calcul des taxes peut être activé par entité juridique. 
@@ -187,6 +194,12 @@ Les pays/régions suivants pour l’adresse principale d’une entité juridique
 Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.24 :
 
 - Mexique
+
+Les pays/régions suivants pour l’adresse principale d’une entité juridique sont pris en charge dans la version 10.0.26 :
+
+- Chine
+- République tchèque
+- Espagne
 
 ## <a name="related-resources"></a>Ressources associées
 

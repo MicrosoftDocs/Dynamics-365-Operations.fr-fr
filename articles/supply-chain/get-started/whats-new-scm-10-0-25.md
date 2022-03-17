@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102994"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384536"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
@@ -34,10 +34,10 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 
 | Fonctionnalités | Fonctionnalité | Plus d’informations | Activé par |
 |---|---|---|---|
-| Inventaire&nbsp;et&nbsp;logistique | Améliorations des matières dangereuses | Ces améliorations s’appuient sur les fonctionnalités existantes des matières dangereuses pour mieux aider les entreprises à rester en conformité avec les réglementations locales lors du transport de matières dangereuses dans différentes zones géographiques. <!-- KFM: Update to 2022w1 link when published -->| Gestion des fonctions :<br>*Améliorations des matières dangereuses* |
-| Inventaire&nbsp;et&nbsp;logistique | Travail de conditionnement pour les stations de conditionnement | Cette fonctionnalité améliore considérablement la flexibilité et l’agilité de vos opérations d’emballage et d’expédition. Pendant le processus d’emballage, les magasiniers peuvent désormais emballer et expédier des colis individuels liés à la même expédition et au même chargement. Les lignes de commande qui font partie de la même expédition ne doivent pas nécessairement être expédiées ensemble si certains articles sont prêts à être expédiés immédiatement. Une seule commande peut être emballée et expédiée en plusieurs colis à différents moments d’expédition, réduisant ainsi les temps d’attente et ajoutant de l’agilité.<!-- KFM: Update to 2022w1 link when published --> | Gestion des fonctions :<br>*Travail de conditionnement pour les stations de conditionnement* |
-| Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) | Gestion des fonctions :<br>*Scanner les codes-barres de GS1* |
-| Fabrication | [Consommation et réservation des matières sur l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)* |
+| Inventaire&nbsp;et&nbsp;logistique | [Améliorations des matières dangereuses](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Bientôt disponible | Gestion des fonctions :<br>*Améliorations des matières dangereuses* |
+| Inventaire&nbsp;et&nbsp;logistique | [Travail de conditionnement pour les stations de conditionnement](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Bientôt disponible | Gestion des fonctions :<br>*Travail de conditionnement pour les stations de conditionnement* |
+| Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) | Gestion des fonctions :<br>*Scanner les codes-barres de GS1* |
+| Fabrication | [Consommation et réservation des matières sur l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*(Version préliminaire) Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*<br><br>Et/ou :<br><br>Gestion des fonctions :<br>*(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)* |
 | Fabrication | [Enregistrer la consommation des matières sur les unités d’échelle](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-manufacturing.md) | Gestion des fonctions :<br>*Enregistrer la consommation de matières sur l’application mobile sur une unité d’échelle* |
 | Planification | [Suggestions d’optimisation de la planification pour optimiser l’offre existante](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Messages d’action](../master-planning/action-messages.md) | Activé par défaut |
 | Planification | Ordres planifiés simplifiés | [Ordres planifiés simplifiés](../master-planning/planning-optimization/planned-orders-simplified.md ) | Gestion des fonctions :<br>*Ordres planifiés simplifiés* |

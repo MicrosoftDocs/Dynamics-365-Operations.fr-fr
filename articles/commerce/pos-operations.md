@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311977"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349715"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -106,7 +106,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 801 | Recherche de stock | Permet de rechercher les quantités disponibles, en commande et disponibles à la vente (DAV) pour le magasin actuel et d’autres lieux disponibles. | Oui | Oui | Oui | N° | N° |
 | 806 | Ajustement de stock | Ajustez l’inventaire dans ou hors de l’entrepôt du magasin à l’aide du journal des ajustements ou des mouvements. | Oui | Oui | Oui | N° | N° |
 | 807 | Mouvement de stock | Déplacez des articles d’un emplacement d’inventaire à un autre dans un entrepôt de magasin. | Oui | Oui | Oui | N° | N° |
-| 122 | Commentaire sur la facture | Cette opération permet d'entrer un commentaire sur la transaction actuelle. | Oui | Oui | N° | Oui | Non |
+| 122 | Commentaire sur la facture | Cette opération permet d’entrer un commentaire sur la transaction actuelle. | Oui | Oui | N° | Oui | Non |
 | 511 | Émettre un avoir | Permet de publier un avoir pour fournir un N° document au lieu d’un remboursement. | Oui | Oui | Non | Non | Non |
 | 512 | Émettre une carte cadeau | Permet d’émettre une nouvelle carte cadeau pour le montant spécifié. | Oui | Oui | Non | Non | Non |
 | 625 | Émettre une carte de fidélité | Permet d’émettre une carte de fidélité à un client afin qu’il puisse participer au programme de fidélité du magasin. | Oui | Oui | Oui | Non | Non |
@@ -157,11 +157,11 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 515 | Rappeler la commande | Cette opération permet de rechercher et de rappeler des commandes client et des devis. | Oui | Oui | Oui | N° | N° |
 | 504 | Rappeler une transaction | Cette opération permet de rappeler une transaction préalablement interrompue dans le magasin actuel. | Oui | Oui | Non | Oui‡ | Non |
 | 305 | Rembourser les points de fidélité | Cette opération n’est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Oui |
-| 635 | Rembourser les frais d’expédition | Cette opération permet de rembourser les frais d'expédition sur une commande annulée. | N° | N° | N° | N° | N° |
-| 644 | Supprimer le code coupon | Permet d’inviter l’utilisateur à supprimer des coupons en les sélectionnant dans une liste de coupons actuellement associés à la transaction. | Oui | Oui | Non | Oui | Non |
-| 1 057 | Réimprimer Z | Permet de réimprimer le Z de caisse pour l’équipe précédente ou une équipe sélectionnée. | Oui | Oui | Oui | Non | Non |
+| 635 | Rembourser les frais d’expédition | Cette opération permet de rembourser les frais d’expédition sur une commande annulée. | N° | N° | N° | N° | N° |
+| 644 | Supprimer le code coupon | Permet d’inviter l’utilisateur à supprimer des coupons en les sélectionnant dans une liste de coupons actuellement associés à la transaction. | Oui | Oui | Non | Oui | N° |
+| 1 057 | Réimprimer Z | Réimprimez le rapport Z pour l’équipe précédente. | Oui | Oui | Oui | N° | N° |
 | 1 216 | Entrer un nouveau mot de passe | Cette opération permet à un utilisateur ayant une autorisation de réinitialisation de mot de passe de réinitialiser le mot de passe d’un autre employé à l’aide d’un mot de passe temporaire. | Oui | Oui | Oui | N° | N° |
-| 1219 | Ouvrir une URL dans le PDV | Cette opération permet d'ouvrir une URL configurée par l'administrateur dans le PDV. | Oui | Oui | Oui | Oui | N° |
+| 1219 | Ouvrir une URL dans le PDV | Cette opération permet d’ouvrir une URL configurée par l’administrateur dans le PDV. | Oui | Oui | Oui | Oui | N° |
 | 109 | Retourner le produit | Permet d’effectuer un retour de produits individuels. Le prochain produit scanné est affiché comme étant un produit retourné avec une quantité et un prix négatifs. | Oui | Oui | Non | Oui | Non |
 | 114 | Transaction de retour | Permet de rappeler une transaction précédente par son numéro de ticket de caisse pour retourner certains ou tous les produits. | Oui | Oui | Oui | Oui§ | Non |
 | 1 211 | Mise en coffre-fort | Permet de déplacer l’argent de la caisse vers un coffre-fort. | Oui | Oui | Oui | Oui | Non |
@@ -184,7 +184,7 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 503 | Interrompre la transaction | Permet d’interrompre la transaction de vente actuelle, afin de pouvoir la rappeler plus tard dans le magasin. | Oui | Oui | Non | Oui‡ | Non |
 | 1004 | Enregistreur de tâches | Permet d’ouvrir l’enregistreur de tâches pour enregistrer les étapes procédurales dans le PDV. | N° | N° | N° | Oui | N° |
 | 1 052 | Comptage de caisse | Cette opération permet de spécifier la somme d’argent dans le tiroir-caisse pour chaque mode de paiement compté. | Oui | Oui | Oui | Oui | N° |
-| 1 210 | Vider la caisse | Cette opération permet de retirer de l'argent de l'équipe ou du tiroir actuel. | Oui | Oui | Oui | Oui | N° |
+| 1 210 | Vider la caisse | Cette opération permet de retirer de l’argent de l’équipe ou du tiroir actuel. | Oui | Oui | Oui | Oui | N° |
 | 920 | Horloge de pointage | Cette opération permet de pointer à l’arrivée/la sortie des équipes et des pauses. | Oui | Oui | Oui | N° | Non |
 | 302 | Montant de remise totale | Permet d’entrer un montant de remise pour la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |
 | 303 | Pourcentage de remise totale | Permet d’entrer un pourcentage de remise pour la transaction. Cette opération s’applique uniquement aux articles qui peuvent bénéficier d’une remise, dans le respect des limites spécifiées. | Oui | Oui | Non | Oui | Non |

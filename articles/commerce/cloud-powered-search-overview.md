@@ -2,7 +2,7 @@
 title: Vue d’ensemble de la recherche dans le cloud
 description: Cette rubrique fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 06/29/2020
+ms.date: 02/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983667"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371427"
 ---
 # <a name="cloud-powered-search-overview"></a>Vue d’ensemble de la recherche dans le cloud
 
@@ -26,13 +26,13 @@ ms.locfileid: "7983667"
 
 Cette rubrique fournit une vue d’ensemble de recherche optimisée par le cloud dans Microsoft Dynamics 365 Commerce.
 
-La détectabilité du produit garantit que les clients peuvent rapidement et facilement trouver des produits en parcourant les catégories, en les recherchant, et en les filtrant. Les détaillants considèrent que la découverte d’un produit est l’outil principal pour l’interaction de clients entre les canaux.
+La détectabilité du produit garantit que les clients peuvent rapidement et facilement trouver des produits en parcourant les catégories, en les recherchant, et en les filtrant. Les détaillants considèrent la découverte de produits comme un outil principal pour l’interaction client sur tous les canaux optimisés par Cloud Scale Unit (CSU), tels que le commerce électronique et les points de vente (PDV).
 
-Les clients sont accoutumés aux temps de réponse presque instantanés des moteurs de recherche web, sites web sophistiqués de commerce électronique, applications des réseaux sociaux, des suggestions automatiques qui apparaissent lorsqu’ils entrent des termes de recherche, la navigation à facettes, et la mise en surbrillance. Si les clients ne peuvent pas trouver le produit qu’ils recherchent assez rapidement dans un magasin de commerce électronique, ils n’hésiteront pas à aller voir un autre magasin de commerce électronique.
+Les clients sont accoutumés aux temps de réponse presque instantanés des moteurs de recherche web, sites web sophistiqués de commerce électronique, applications des réseaux sociaux, des suggestions automatiques qui apparaissent lorsqu’ils entrent des termes de recherche, la navigation à facettes, et la mise en surbrillance. Si les clients ne peuvent pas trouver rapidement le produit qu’ils recherchent assez rapidement dans un magasin de commerce électronique, ils n’hésiteront pas à aller voir un autre magasin de commerce électronique.
 
-Le détectabilité du produit optimisée par le cloud dans Dynamics 365 Commerce permet aux détaillants de continuer à augmenter la rétention de consommateur et les taux de conversion entre les canaux, à la fois les canaux de commerce électronique et les canaux du point de vente (PDV).
+Le détectabilité du produit optimisée par le cloud dans Commerce permet aux détaillants de continuer à augmenter la rétention de consommateur et les taux de conversion entre les canaux, à la fois les canaux de commerce électronique et les canaux du point de vente (CSU).
 
-L’expérience de recherche Dynamics 365 Commerce a des fonctionnalités améliorées pour aider les détaillants à atteindre une meilleur détectabilité de produit. En même temps, ces fonctionnalités fournissent une évolutivité et des performances requises pour le trafic de commerce électronique.
+L’expérience de recherche Commerce a des fonctionnalités améliorées pour aider les détaillants à atteindre une meilleur détectabilité de produit. En même temps, ces fonctionnalités fournissent une évolutivité et des performances requises pour le trafic de commerce électronique.
 
 ## <a name="browse-and-search"></a>Parcourir et rechercher
 
@@ -54,9 +54,9 @@ L’illustration suivante présente un exemple dans lequel la navigation à face
 
 ## <a name="immersive-autosuggest"></a>Suggestion automatique immersive
 
-La fonctionnalité de suggestion automatique affiche simplement des mots clés qui déclenchent une recherche du mot clé correspondant. En raison de nouvelles améliorations dans Dynamics 365 Commerce, les clients peuvent souvent découvrir des liens vers des produits avant qu’ils aient terminé leur saisie.
+La fonctionnalité de suggestion automatique affiche des mots clés qui déclenchent une recherche du mot clé correspondant. En raison de nouvelles améliorations dans Commerce, les clients peuvent souvent découvrir des liens vers des produits avant qu’ils aient terminé leur saisie.
 
-Dynamics 365 Commerce prend également en charge la fonctionnalité des correspondances de mot clé dans différentes catégories. Cette fonctionnalité permet aux clients d’afficher le nombre de rapprochements de mots clés dans les catégories et déclencher une recherche d’un mot clé dans d’autres catégories.
+Commerce prend également en charge la fonctionnalité des correspondances de mot clé dans différentes catégories. Cette fonctionnalité permet aux clients d’afficher le nombre de rapprochements de mots clés dans les catégories et déclencher une recherche d’un mot clé dans d’autres catégories.
 
 L’illustration suivante présente un exemple dans lequel la suggestion automatique immersive est utilisée.
 
@@ -64,10 +64,10 @@ L’illustration suivante présente un exemple dans lequel la suggestion automat
 
 ## <a name="sort"></a>Trier
 
-Le tri amélioré dans Dynamics 365 Commerce permet aux clients de trier, rechercher et accéder aux résultats de la recherche, et de les raffiner par critères de prix, de nom du produit, et de numéro de produit. Les clients peuvent également trier les résultats selon si un produit est nouveau, parmi les meilleurs ventes ou récemment ajouté.
+Le tri amélioré dans Commerce permet aux clients de trier, rechercher et accéder aux résultats de la recherche, et de les raffiner par critères de prix, de nom du produit, et de numéro de produit. Les clients peuvent également trier les résultats selon si un produit est nouveau, parmi les meilleurs ventes ou récemment ajouté.
 
->[!NOTE]
->Ces fonctionnalités de recherche dans le cloud sont disponibles à partir de la version 10.0.8. Assurez-vous que sous **Paramètres Commerce > Paramètres de configuration**, il existe une entrée pour « ProductSearch.UseAzureSearch » définie sur « true ». 
+> [!NOTE]
+> Ces fonctionnalités de recherche dans le cloud sont disponibles à partir de la version 10.0.8. Assurez-vous que sous **Paramètres Commerce > Paramètres de configuration**, il existe une entrée pour « ProductSearch.UseAzureSearch » définie sur « true ». 
 ![Paramètres de configuration pour la recherche dans le cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -77,4 +77,4 @@ Le tri amélioré dans Dynamics 365 Commerce permet aux clients de trier, recher
 [Gestion des métadonnées SEO](manage-seo-metadata.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

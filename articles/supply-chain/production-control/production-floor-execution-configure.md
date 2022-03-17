@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 30f36ccf967c47d6a034c00544d45cdfdc3d1907
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103386"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384745"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -78,6 +78,38 @@ Cette fonctionnalité permet d’ajouter un champ de recherche à la liste des t
 Cette fonctionnalité permet aux collaborateurs d’utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits. Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 
 - *État sur les co-produits et sous-produits de l’interface d’exécution de l’atelier de production*
+
+### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Activer l’affichage des numéros de série, de lot et de plaque d’immatriculation complets
+
+Cette fonctionnalité offre une expérience améliorée pour l’affichage des listes de n° de série, n° lot et numéros de contenant dans l’interface d’exécution de l’atelier de production. L’affichage passe d’une vue de carte avec un nombre limité de caractères à une vue de liste qui offre suffisamment d’espace pour afficher les valeurs complètes. La liste offre également la possibilité de rechercher des numéros spécifiques.
+
+À compter de la version 10.0.25 de Supply Chain Management, cette fonctionnalité sera activée par défaut. Les administrateurs peuvent activer ou désactiver cette fonctionnalité en recherchant la fonctionnalité *Afficher les numéros de série, de traitements par lots et de contenants complets dans l’interface d’exécution de l’atelier de production* dans l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+### <a name="enable-registering-of-material-consumption"></a>Activer l’enregistrement de la consommation de matières
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Cette fonctionnalité permet aux travailleurs d’utiliser l’interface d’exécution de l’atelier de production pour enregistrer la consommation de matériaux, les numéros de lot et les numéros de série. Certains fabricants, en particulier ceux des industries de transformation, doivent enregistrer explicitement la quantité de matière consommée pour chaque lot ou ordre de fabrication. Par exemple, les travailleurs peuvent utiliser une balance pour peser la quantité de matière consommée pendant qu’ils travaillent. Pour assurer une traçabilité totale des matériaux, ces organisations doivent également enregistrer les numéros de lots consommés lors de la fabrication de chaque produit.
+
+Il existe deux versions de cette fonctionnalité. L’une prend en charge les articles qui ne *sont pas* activés pour utiliser les processus d’entrepôt avancés (WMS). L’autre prend en charge les éléments qui *sont* activés pour utiliser WMS. Pour utiliser cette fonctionnalité, activez une ou les deux fonctionnalités suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (dans cet ordre), selon que vous avez ou non des éléments activés pour WMS :
+
+- *(Version préliminaire) Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*
+- *(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)*
+
+> [!IMPORTANT]
+> Vous pouvez utiliser la fonctionnalité non-WMS seule. Cependant, si vous utilisez WMS, vous devez activer les deux fonctionnalités.
+
+### <a name="enable-reporting-on-catch-weight-items"></a>Activer les rapports sur les éléments de poids variable
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots pour les éléments de poids variable. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des éléments à poids variable en tant qu’éléments de formule, co-produits et sous-produits en sortie. Une formule peut également être définie pour avoir des lignes de formule pour les ingrédients qui sont définis pour le poids variable. Les éléments à poids variable utilisent deux unités de mesure pour suivre l’inventaire : la quantité de poids variable et la quantité de stock. Par exemple, dans l’industrie alimentaire, la viande en boîte peut être définie comme un élément à poids variable, où la quantité de poids variable est utilisée pour suivre le nombre de boîtes et la quantité d’inventaire est utilisée pour suivre le poids des boîtes.
+
+Pour utiliser cette fonctionnalité, activez la fonctionnalité suivantes dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+
+- *(Aperçu) État sur les articles en poids variable à partir de l’interface d’exécution de l’atelier de production*
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Utiliser les configurations de l’exécution de l’atelier de production
 

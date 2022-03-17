@@ -2,7 +2,7 @@
 title: Personnaliser l’expérience de l’utilisateur
 description: Cette rubrique explique comment vous pouvez personnaliser l’application.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075420"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384641"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -158,6 +158,7 @@ Pour certaines pages qui incluent des listes, la fonctionnalité de personnalisa
 
 - Pour ajouter une liste à un espace de travail, triez ou filtrez d’abord la liste sur la page pour afficher les informations comme vous souhaitez les voir apparaître dans l’espace de travail. (Si la fonctionnalité **Vues enregistrées** est activée, vous ne pouvez pas continuer tant que vous n’enregistrez pas de vue ayant ces conditions.) Sélectionnez **Ajouter à l’espace de travail** ensuite. Sélectionnez un espace de travail, puis, dans le champ **Présentation**, sélectionnez **Liste**. Après avoir sélectionné **Configurer**, une boîte de dialogue s’affiche pour vous permettre de sélectionner les colonnes qui doivent apparaître dans la liste de l’espace de travail. Vous pouvez également spécifier l’étiquette utilisée pour la liste de l’espace de travail.
 - Pour ajouter une vignette à un espace de travail, filtrez d’abord la liste sur la page pour afficher les données qui doivent être récapitulées ou auxquelles vous souhaitez avoir un accès rapide. (Si la fonctionnalité **Vues enregistrées** est activée, vous ne pouvez pas continuer tant que vous n’enregistrez pas de vue ayant ces conditions.) Sélectionnez **Ajouter à l’espace de travail** ensuite. Sélectionnez un espace de travail, puis, dans le champ **Présentation**, sélectionnez **Vignette**. Après avoir sélectionné **Configurer**, une boîte de dialogue s’affiche pour vous permettre de spécifier l’étiquette qui doit être utilisée pour la vignette dans l’espace de travail. Vous pouvez également spécifier si la vignette doit afficher un nombre. Après la vignette ajoutée à l’espace de travail, vous pouvez la sélectionner pour ouvrir la page actuelle dans l’espace de travail. Vous pouvez ensuite afficher la liste filtrée associée à la vignette.
+    - À partir de la version 10.0.26, si la fonctionnalité **Autoriser les utilisateurs à sélectionner et à modifier la taille des vignettes** est activée, vous pouvez sélectionner l’une des quatre **Tailles de vignettes** pour votre nouvelle vignette dans la boîte de dialogue **Configurer la vignette**. Cette fonctionnalité vous permet également d’ajuster la taille de la vignette après sa création directement à partir de l’espace de travail.   
 - Pour ajouter un lien à un espace de travail, filtrez d’abord la liste sur la page pour afficher les données qui vous intéressent. (Si la fonctionnalité **Vues enregistrées** est activée, vous ne pouvez pas continuer tant que vous n’enregistrez pas de vue ayant ces conditions.) Sélectionnez **Ajouter à l’espace de travail** ensuite. Sélectionnez un espace de travail, puis, dans le champ **Présentation**, sélectionnez **Lien**. Après avoir sélectionné **Configurer**, une boîte de dialogue s’affiche pour vous permettre de spécifier l’étiquette qui doit être utilisée pour le lien. Vous pouvez éventuellement spécifier une étiquette pour la section où ce lien peut être placé. Si cette section n’existe pas, une nouvelle section sera créée.
 
 > [!NOTE]
@@ -168,6 +169,9 @@ Après avoir ajouté une liste, une vignette ou un lien à un espace de travail,
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Ajout d’un résumé d’un espace de travail à un tableau de bord
 
 Certains espaces de travail contiennent des vignettes de comptage (c’est-à-dire des vignettes numérotées) que vous pouvez également afficher sur votre tableau de bord. Dans un espace de travail, cliquez avec le bouton droit sur une vignette de comptage, sélectionnez **Personnaliser**, puis, dans la fenêtre des propriétés de la vignette, sélectionnez **Épingler au tableau de bord**. La prochaine fois que vous ouvrirez et actualiserez le tableau de bord sélectionné, le nombre s’affichera en dessous de la vignette de navigation pour cet espace de travail. Vous pouvez sélectionner ce nombre pour accéder directement aux données qu’il représente.
+
+### <a name="changing-the-size-of-a-tile"></a>Modification de la taille d’une vignette
+Depuis la version 10.0.26, la fonctionnalité **Autoriser les utilisateurs à sélectionner et à modifier la taille des vignettes** permet aux utilisateurs de modifier la taille de n’importe quelle vignette non KPI via la personnalisation. Dans un espace de travail, cliquez avec le bouton droit sur une vignette, puis sélectionnez **Personnaliser**. Dans la fenêtre des propriétés de la vignette, sélectionnez la taille souhaitée dans les options **Taille de vignette**. La taille des vignettes s’ajustera immédiatement. Si la fonctionnalité **(Version préliminaire) Prise en charge des vues enregistrées pour les espaces de travail** est activée, vous pouvez enregistrer cette personnalisation dans une vue de l’espace de travail.  
 
 ### <a name="personalizing-your-dashboard"></a>Personnalisation de votre tableau de bord
 
