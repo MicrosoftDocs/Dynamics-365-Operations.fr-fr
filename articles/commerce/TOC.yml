@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Appliquer les paramètres d’affichage pour les dimensions du produit
                   href: dimension-settings.md
+                - name: Activer le mode Maintenance de commerce électronique
+                  href: enable-maintenance-mode.md
             - name: Gérer le contenu de votre site
               items:
                 - name: Méthodes d’ajout de contenu
@@ -2100,6 +2102,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Déboguer des sources de données
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Configurer les modèles de données
+                  items:
+                    - name: Prendre en charge les appels paramétrés des modèles de données ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les mises en correspondance de modèles
                   items:
                     - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Étendre une définition de module
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Modifier les chaînes statiques de la bibliothèque de modules
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Actions de données
                       items:
                         - name: Remplacement des actions de données
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Étendre un thème à partir d’un thème de base
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Modifier les chaînes du module de thème
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Conditionnement et déploiement
                   items:
                     - name: Empaqueter les configurations et les déployer dans un environnement en ligne
@@ -2798,11 +2808,13 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Cache d’instance des actions de données
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Optimisation CSS du module
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Télémétrie et analyse
                       items:
                         - name: Enregistreur automatique de télémétrie
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: "Commerce\_HQ"
               items:
                 - name: Conditionnement et déploiement
                   items:

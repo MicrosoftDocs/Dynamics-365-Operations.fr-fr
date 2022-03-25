@@ -4,106 +4,58 @@
       items:
         - name: Page d’accueil de Dynamics 365 Human Resources
           href: index.md
-        - name: "Version d’infrastructure\_10.0.25"
-          href: hr-infrastructure.md
-        - name: Nouveautés ou modifications dans l’infrastructure fusionnée Dynamics 365 Human Resources
-          href: ./get-started/hr-whats-new-changed-10-0-25.md
+        - name: Nouveautés ou modifications
+          items:
+            - name: Nouveautés ou modifications dans les applications de finances et d’opérations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: "Nouveautés ou modifications dans Human\_Resources"
+              items:
+                - name: "Human\_Resources\_10.0.26 (infrastructure fusionnée)"
+                  href: ./get-started/hr-whats-new-changed-10-0-26.md
+                - name: "Human\_Resources\_10.0.25 (infrastructure fusionnée)"
+                  href: ./get-started/hr-whats-new-changed-10-0-25.md
+                - name: Nouveautés dans Dynamics 365 Human Resources (autonome)
+                  items:
+                    - name: "Nouveautés dans les archives\_2021 Dynamics 365 Human Resources (autonome)"
+                      href: hr-admin-whats-new.md
+                    - name: "29\_novembre\_2021"
+                      href: hr-whats-new-2021-11-29.md
+                    - name: "5\_octobre\_2021"
+                      href: hr-whats-new-2021-10-04.md
+                    - name: "20\_septembre\_2021"
+                      href: hr-whats-new-2021-09-20.md
+                    - name: "6\_septembre\_2021"
+                      href: hr-whats-new-2021-09-06.md
+                    - name: "23\_août\_2021"
+                      href: hr-whats-new-2021-08-23.md
+                    - name: "9\_août\_2021"
+                      href: hr-whats-new-2021-08-09.md
+                    - name: "26\_juillet\_2021"
+                      href: hr-whats-new-2021-07-26.md
+                    - name: "12\_juillet\_2021"
+                      href: hr-whats-new-2021-07-12.md
+                    - name: "22\_juin\_2021"
+                      href: hr-whats-new-2021-06-22.md
+                    - name: "20\_mai\_2021"
+                      href: hr-whats-new-2021-05-20.md
+                    - name: "3\_mai\_2021"
+                      href: hr-whats-new-2021-05-03.md
+                    - name: "19\_avril\_2021"
+                      href: hr-whats-new-2021-04-19.md
+                    - name: "5\_avril\_2021"
+                      href: hr-whats-new-2021-04-05.md
+                    - name: "22\_mars\_2021"
+                      href: hr-whats-new-2021-03-22.md
+                    - name: "8\_mars\_2021"
+                      href: hr-whats-new-2021-03-08.md
+                    - name: "22\_février\_2021"
+                      href: hr-whats-new-2021-02-22.md
+                    - name: "28\_janvier\_2021"
+                      href: hr-whats-new-2021-01-28.md
+                    - name: "21\_janvier\_2021"
+                      href: hr-whats-new-2021-01-21.md
         - name: Démarrage
           items:
-            - name: Nouveautés
-              href: hr-admin-whats-new.md
-            - name: "Nouveautés ou modifications dans les archives\_2021"
-              items:
-                - name: "29\_novembre\_2021"
-                  href: hr-whats-new-2021-11-29.md
-                - name: "5\_octobre\_2021"
-                  href: hr-whats-new-2021-10-04.md
-                - name: "20\_septembre\_2021"
-                  href: hr-whats-new-2021-09-20.md
-                - name: "6\_septembre\_2021"
-                  href: hr-whats-new-2021-09-06.md
-                - name: "23\_août\_2021"
-                  href: hr-whats-new-2021-08-23.md
-                - name: "9\_août\_2021"
-                  href: hr-whats-new-2021-08-09.md
-                - name: "26\_juillet\_2021"
-                  href: hr-whats-new-2021-07-26.md
-                - name: "12\_juillet\_2021"
-                  href: hr-whats-new-2021-07-12.md
-                - name: "22\_juin\_2021"
-                  href: hr-whats-new-2021-06-22.md
-                - name: "20\_mai\_2021"
-                  href: hr-whats-new-2021-05-20.md
-                - name: "3\_mai\_2021"
-                  href: hr-whats-new-2021-05-03.md
-                - name: "19\_avril\_2021"
-                  href: hr-whats-new-2021-04-19.md
-                - name: "5\_avril\_2021"
-                  href: hr-whats-new-2021-04-05.md
-                - name: "22\_mars\_2021"
-                  href: hr-whats-new-2021-03-22.md
-                - name: "8\_mars\_2021"
-                  href: hr-whats-new-2021-03-08.md
-                - name: "22\_février\_2021"
-                  href: hr-whats-new-2021-02-22.md
-                - name: "28\_janvier\_2021"
-                  href: hr-whats-new-2021-01-28.md
-                - name: "21\_janvier\_2021"
-                  href: hr-whats-new-2021-01-21.md
-            - name: "Nouvelles archives\_2020"
-              items:
-                - name: "2\_décembre\_2020"
-                  href: hr-whats-new-2020-12-02.md
-                - name: "22\_octobre\_2020"
-                  href: hr-whats-new-2020-10-22.md
-                - name: "6\_octobre\_2020"
-                  href: hr-whats-new-2020-10-06.md
-                - name: "26\_septembre\_2020"
-                  href: hr-whats-new-2020-09-26.md
-                - name: "16\_septembre\_2020"
-                  href: hr-whats-new-2020-09-16.md
-                - name: "3\_septembre\_2020"
-                  href: hr-whats-new-2020-09-03.md
-                - name: "20\_août\_2020"
-                  href: hr-whats-new-2020-08-20.md
-                - name: "6\_août\_2020"
-                  href: hr-whats-new-2020-08-06.md
-                - name: "23\_juillet\_2020"
-                  href: hr-whats-new-2020-07-23.md
-                - name: "8\_juillet\_2020"
-                  href: hr-whats-new-2020-07-08.md
-                - name: "25\_juin\_2020"
-                  href: hr-whats-new-2020-06-23.md
-                - name: "11\_juin\_2020"
-                  href: hr-whats-new-2020-06-11.md
-                - name: "28\_mai\_2020"
-                  href: hr-whats-new-2020-05-28.md
-                - name: "14\_mai\_2020"
-                  href: hr-whats-new-2020-05-14.md
-                - name: "1er\_mai\_2020"
-                  href: hr-whats-new-2020-05-01.md
-                - name: "13\_avril\_2020"
-                  href: hr-whats-new-2020-04-13.md
-                - name: "3\_avril\_2020"
-                  href: hr-whats-new-2020-04-03.md
-                - name: "24\_mars\_2020"
-                  href: hr-whats-new-2020-03-24.md
-                - name: 19 mars 2020
-                  href: hr-whats-new-2020-03-19.md
-                - name: "10\_mars\_2020"
-                  href: hr-whats-new-2020-03-10.md
-                - name: "3\_mars\_2020"
-                  href: hr-whats-new-2020-03-03.md
-                - name: "25\_février\_2020"
-                  href: hr-whats-new-2020-02-25.md
-                - name: "18\_février\_2020"
-                  href: hr-whats-new-2020-02-18.md
-                - name: "12\_février\_2020"
-                  href: hr-whats-new-2020-02-12.md
-                - name: "7\_février\_2020"
-                  href: hr-whats-new-2020-02-07.md
-                - name: "3\_février\_2020"
-                  href: hr-whats-new-2020-02-03.md
             - name: Vue d’ensemble
               href: hr-admin-overview.md
             - name: Configuration requise

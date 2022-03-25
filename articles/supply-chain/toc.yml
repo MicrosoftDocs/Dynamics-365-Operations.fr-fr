@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Comparer l’état de stockage des prix des articles
                   href: cost-management/compare-item-price.md
+            - name: Méthodologies d’évaluation des coûts
+              items:
+                - name: Prix de revient moyen en cours
+                  href: cost-management/running-average-cost-price.md
+                - name: Suivi du coût moyen en vigueur par dimension de stock
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO avec valeur physique et marquage
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: Date LIFO avec valeur physique et marquage
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO avec valeur physique et marquage
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Moyenne pondérée avec valeur physique et marquage
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Date de moyenne pondérée avec valeur physique et marquage
+                  href: cost-management/weighted-average-date.md
+                - name: Moyenne mobile
+                  href: cost-management/moving-average.md
+                - name: 'Moyenne mobile, séquence de coût de secours'
+                  href: cost-management/moving-average-fallback.md
             - name: Comptabilité de stock
               items:
+                - name: Mises à jour physiques et financières
+                  href: cost-management/physical-financial-updates.md
+                - name: Inclure la valeur physique
+                  href: cost-management/include-physical-value.md
                 - name: Objets de coût
                   href: cost-management/cost-object.md
                 - name: Afficher le solde des objets de coût
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Groupes de coûts
                   href: cost-management/cost-groups.md
-                - name: FIFO avec valeur physique et marquage
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Inclure la valeur physique
-                  href: cost-management/include-physical-value.md
                 - name: Valeurs d’objet de stock
                   href: cost-management/physical-quantity.md
-                - name: Date LIFO avec valeur physique et marquage
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO avec valeur physique et marquage
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Moyenne mobile
-                  href: cost-management/moving-average.md
-                - name: 'Moyenne mobile, séquence de coût de secours'
-                  href: cost-management/moving-average-fallback.md
-                - name: Mises à jour physiques et financières
-                  href: cost-management/physical-financial-updates.md
-                - name: Prix de revient moyen en cours
-                  href: cost-management/running-average-cost-price.md
-                - name: Suivi du coût moyen en vigueur par dimension de stock
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Date moyenne pondérée
-                  href: cost-management/weighted-average-date.md
-                - name: Moyenne pondérée avec valeur physique et marquage
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Clôture du stock
                   href: cost-management/inventory-close.md
                 - name: Ajuster les valeurs de coût du stock disponible
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Déboguer des sources de données
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configurer les modèles de données
+                  items:
+                    - name: Prendre en charge les appels paramétrés des modèles de données ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les mises en correspondance de modèles
                   items:
                     - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Différence inattendue entre les données de requête et de session lors des tests
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Ancre validé pour le chemin de certification introuvable au moment de la configuration de la connexion à l’application
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Ancre d’approbation pour le chemin d’accès de certification introuvable au moment de la mise à jour et de la migration vers WMS

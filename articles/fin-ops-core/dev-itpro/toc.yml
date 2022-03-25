@@ -238,11 +238,13 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Installer le complément Exporter vers Azure Data Lake
               href: data-entities/configure-export-data-lake.md
-            - name: applications de finances et d’opérations dans Azure Data Lake
+            - name: "Applications de finances et d’opérations dans Azure\_Data\_Lake"
               href: data-entities/finance-data-azure-data-lake.md
-            - name: Rendre le magasin des entités disponible en tant que Data Lake
+            - name: "Rendre le magasin des entités disponible en tant que Data\_Lake"
               href: data-entities/entity-store-data-lake.md
-            - name: Modifier les données dans Azure Data Lake
+            - name: "Événements commerciaux générés par le service Exporter vers Azure\_Data\_Lake (version préliminaire)"
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
+            - name: "Modifier les données dans Azure\_Data\_Lake"
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Opérations de mouvement de base de données
           items:
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Filtrer les commandes intersociétés pour éviter de synchroniser les commandes et les lignes de commande
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Désinstaller les solutions d’orchestration de l’application en double écriture
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Gestion de la double écriture
                   items:
                     - name: Personnaliser les mises en correspondance d’entités et de champs
