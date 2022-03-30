@@ -6,7 +6,6 @@ manager: annbe
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailGrandTotalJournalTable
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-2-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f41c3f0f544e5948685e3ef26810d2a177467e88
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: fc9b3cbc4aef22e3e683f7cebf15c7beb7f1d3a1
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343301"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407963"
 ---
 # <a name="fiscal-archive-for-france"></a>Archives fiscales pour la France
 

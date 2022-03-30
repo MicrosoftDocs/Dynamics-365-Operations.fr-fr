@@ -2,7 +2,7 @@
 title: Création d’une facture client
 description: Une facture client pour une commande client est une facture associée à une vente, remise par une organisation à un client.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087421"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392909"
 ---
 # <a name="create-a-customer-invoice"></a>Création d’une facture client
 
@@ -82,6 +82,9 @@ Affichez le statut des commandes client sur la page de liste **Toutes les comman
 Utilisez ce processus lorsqu’une ou plusieurs commandes client sont prêtes à être facturées, et que vous souhaitez les consolider dans une seule facture. 
 
 Vous pouvez sélectionner plusieurs factures dans la page de liste **Commande client**, puis utiliser **Générer des factures** pour les consolider. Sur la page **Validation de la facture**, vous pouvez modifier le paramètre **Commande de synthèse** pour récapituler par numéro de commande (lorsqu’il existe plusieurs bons de livraison pour une commande client unique) ou par compte de facturation (lorsqu’il existe plusieurs commandes client pour un compte de facturation unique). Utilisez le bouton **Réorganiser** pour consolider des commandes client dans des factures uniques, en fonction des paramètres **Commande de synthèse**.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Valider sur le compte Produit pour les lignes de commande client sans prix
+Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix. Pour configurer ou afficher ces informations, accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix** sur l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix. Un compte de produit est défini sur la page du paramètre **Validation de l’inventaire**, sur l’onglet de définition du compte **Commande client**. Si cette option n’est pas sélectionnée, les lignes qui n’ont pas d’informations sur les prix ne seront pas validées vers le compte **Revenu**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Paramètres supplémentaires qui modifient le comportement de validation
 Les champs suivants modifient le comportement du processus de validation.

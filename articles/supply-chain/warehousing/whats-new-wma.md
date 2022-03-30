@@ -2,7 +2,7 @@
 title: Nouveautés ou modifications dans l’application mobile Warehouse Management
 description: Cette rubrique répertorie les fonctionnalités nouvelles et modifiées pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384367"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418638"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications dans l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>Version 2.0.19.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Amélioration du flux de requête de données génériques.
+- Amélioration du problème d’instabilité sur les pages **Liste de travail** et **Demande d’article**.
+- Consommation de batterie réduite.
+- Suppression de la limite du nombre de champs pour les cartes de travail.
+- Ajustement de la hauteur des fiches de travail afin qu’elles aient toutes la même taille, quel que soit le nombre de champs dans chacune.
+- Correction d’un problème où les caractères d’espacement dans les codes barres étaient supprimés.
+- Ajout du paramètre **Style de bouton**, qui vous permet de basculer entre l’affichage du curseur et l’affichage des boutons sur tous les types d’appareils.
+- Divers problèmes corrigés qui empêcheraient le plantage de l’appareil.
+- Définissez automatiquement le focus sur la première zone de texte des pages personnalisées.
+- Améliorations de l’accessibilité liées à la luminosité, au contraste, à la narration et aux textes d’espace réservé manquants.
 
 ## <a name="version-20170"></a>Version 2.0.17.0
 

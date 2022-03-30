@@ -2,7 +2,7 @@
 title: Déclaration de TVA (France)
 description: Cette rubrique explique comment configurer et générer un état pour la France, qui peut être utilisé pour effectuer une déclaration de taxe sur la valeur ajoutée (TVA).
 author: anasyash
-ms.date: 09/20/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,19 +12,16 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: fc21a418f39d847997d7dbdf06cf47d37ed5b7d8
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 29c1e74a45d7a57d4b599c5791fa7c155d74137f
+ms.sourcegitcommit: 9771d77f0c4f6968df2194731dd1b118f676e515
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647076"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418017"
 ---
 # <a name="vat-declaration-france"></a>Déclaration de TVA (France)
 
 [!include [banner](../includes/banner.md)]
-
-
-## <a name="overview"></a>Vue d’ensemble
 
 Cette rubrique décrit comment configurer et générer un état pour la France, qui peut être utilisé pour effectuer une déclaration de taxe sur la valeur ajoutée (TVA) dans le portail en ligne [www.impots.gouv.fr](http://www.impots.gouv.fr) en utilisant le canal d’échange de formulaires informatisés (EFI).
 
@@ -32,1017 +29,137 @@ Pour générer automatiquement l’état, vous devez d’abord créer suffisamme
 
 Pour la France, vous devez configurer trois recherches :
 
-   - Recherche d’opérations
-   - Recherche de champ d’état
-   - Recherche pour Monaco
+- Recherche d’opérations
+- Recherche de champ d’état
+- Recherche pour Monaco
 
 Pour plus d’informations sur la configuration des paramètres spécifiques à l’application, consultez la section [Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA](#set-up-application-specific-parameters-for-vat-declaration-fields) plus loin dans cette rubrique.
 
 Dans les tableaux suivants, la colonne **Résultat de la recherche** affiche le résultat de la recherche préconfiguré pour une ligne de déclaration de TVA spécifique dans le format de déclaration de TVA. Utilisez ces informations pour associer correctement les codes de taxe avec le résultat de la recherche, puis avec la ligne de déclaration de TVA.
 
-### <a name=""></a><a name="vat-declaration-preview-overview"> Vue d’ensemble de l’aperçu de la déclaration de TVA </a>
+### <a name="vat-declaration-preview-overview"></a><a name="vat-declaration-preview-overview"></a>Vue d’ensemble de l’aperçu de la déclaration de TVA
 
 L’aperçu de la déclaration de TVA en France contient les informations suivantes.
 
 **SECTION A - MONTANT DES OPÉRATIONS RÉALISÉES**
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="41">
-<p><strong>Ligne</strong></p>
-</td>
-<td width="49">
-<p><strong>Boîte</strong></p>
-</td>
-<td width="265">
-<p><strong>Description</strong></p>
-</td>
-<td width="80">
-<p><strong>Recherche</strong></p>
-</td>
-<td width="188">
-<p><strong>Résultat de la recherche</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="3" width="356">
-<p><strong>OPÉRATIONS IMPOSABLES</strong></p>
-</td>
-<td width="80">
-<p><strong>&nbsp;</strong></p>
-</td>
-<td width="188">
-<p><strong>&nbsp;</strong></p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>01</p>
-</td>
-<td width="49">
-<p>0979</p>
-</td>
-<td width="265">
-<p>Ventes et services</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>TaxableSalesServices</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>02</p>
-</td>
-<td width="49">
-<p>0981</p>
-</td>
-<td width="265">
-<p>Autres transactions imposables</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>OtherTaxableTransactions</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>2A</p>
-</td>
-<td width="49">
-<p>0044</p>
-</td>
-<td width="265">
-<p>Achats de services intracommunautaires</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>EUPurchaseServices</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>2B</p>
-</td>
-<td width="49">
-<p>0045</p>
-</td>
-<td width="265">
-<p>Importations (entreprises ayant choisi le mécanisme de taxe au preneur pour la TVA à l’importation)</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>Importations (La ligne 7C est également affectée.)</p>
-<p>ImportsUseTax (Les lignes 7C et 24 sont également affectées.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>03</p>
-</td>
-<td width="49">
-<p>0031</p>
-</td>
-<td width="265">
-<p>Acquisitions intracommunautaires</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>EUPurchase (La ligne 17 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>3A</p>
-</td>
-<td width="49">
-<p>0030</p>
-</td>
-<td width="265">
-<p>Fournitures d’électricité, de gaz naturel, de chaleur ou de froid soumises à taxes en France (taxe au preneur)</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>TaxableElectricityGasHeatCold</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>3B</p>
-</td>
-<td width="49">
-<p>0040</p>
-</td>
-<td width="265">
-<p>Achats de biens ou de services auprès d’une personne soumise à taxe et non établie en France</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>PurchasesFromPersonNotEstablished</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>3C</p>
-</td>
-<td width="49">
-<p>0036</p>
-</td>
-<td width="265">
-<p>Régularisations</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>TaxableRegularizations</p>
-</td>
-</tr>
-<tr>
-<td colspan="3" width="356">
-<p><strong>OPÉRATIONS NON IMPOSABLES</strong></p>
-</td>
-<td width="80">
-<p>&nbsp;</p>
-</td>
-<td width="188">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>04</p>
-</td>
-<td width="49">
-<p>0032</p>
-</td>
-<td width="265">
-<p>Exportations hors Union Européenne (UE)</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>ExportsOutsideEU</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>05</p>
-</td>
-<td width="49">
-<p>0033</p>
-</td>
-<td width="265">
-<p>Autres transactions non imposables</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>OtherNonTaxableTransactions</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>5A</p>
-</td>
-<td width="49">
-<p>0047</p>
-</td>
-<td width="265">
-<p>Ventes à distance imposables dans un autre État membre au profit de personnes non soumises à taxe (ventes entreprise-client [B2C])</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>EUDistanceB2CSales</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>06</p>
-</td>
-<td width="49">
-<p>0034</p>
-</td>
-<td width="265">
-<p>Livraisons intracommunautaires à une personne soumise à taxe (ventes interentreprises [B2B])</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>EUSales</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>6A</p>
-</td>
-<td width="49">
-<p>0029</p>
-</td>
-<td width="265">
-<p>Fournitures d’électricité, de gaz naturel, de chaleur ou de froid non soumises à taxe en France</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>ElectricityGasHeatColdNotTaxable</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>07</p>
-</td>
-<td width="49">
-<p>0037</p>
-</td>
-<td width="265">
-<p>Achats détaxés</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>TaxFreePurchases</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>7A</p>
-</td>
-<td width="49">
-<p>0043</p>
-</td>
-<td width="265">
-<p>Achats de biens ou de services auprès d’une personne soumise à taxe et non établie en France</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>SalesByPersonNotEstablished</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>7B</p>
-</td>
-<td width="49">
-<p>0039</p>
-</td>
-<td width="265">
-<p>Régularisations</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>NotTaxableRegularizations</p>
-</td>
-</tr>
-</tbody>
-</table>                                                              |
+**OPÉRATIONS IMPOSABLES**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| A1   | 0979 | Ventes et services | Recherche d’opérations | TaxableSalesServices |
+| A2   | 0981 | Autres transactions imposables | Recherche d’opérations | OtherTaxableTransactions |
+| A3   | 0044 | Achats de services intracommunautaires | Recherche d’opérations | EUPurchaseServices |
+| A4   | 0056 | Importations (autres que de produits pétroliers) | Recherche d’opérations | TaxableImports |
+| A5   | 0051 | Prélèvements du régime fiscal suspensif (produits autres que pétroliers) | Recherche d’opérations | TaxableWithdrawalsSuspensiveTaxRegime |
+| B1   | 0048 | Libérations pour la consommation des produits pétroliers | Recherche d’opérations | TaxablePetroleumProductsReleasesForConsumption |
+| B2   | 0031 | Acquisitions intracommunautaires | Recherche d’opérations | EUPurchase (La ligne 17 est également affectée.) |
+| B3   | 0030 | Fournitures d’électricité, de gaz naturel, de chaleur ou de froid soumises à taxes en France (taxe au preneur) | Recherche d’opérations | TaxableElectricityGasHeatCold |
+| B4   | 0040 | Achats de biens ou de services auprès d’une personne soumise à taxe et non établie en France | Recherche d’opérations | PurchasesFromPersonNotEstablished |
+| B5   | 0036 | Régularisations | Recherche d’opérations | TaxableRegularizations |
+
+**OPÉRATIONS NON IMPOSABLES**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| E1   | 0032 | Exportations hors Union Européenne (UE) | Recherche d’opérations | ExportsOutsideEU |
+| E2   | 0033 | Autres transactions non imposables | Recherche d’opérations | OtherNonTaxableTransactions |
+| E3   | 0047 | Ventes à distance imposables dans un autre État membre au profit de personnes non soumises à taxe (ventes entreprise-client \[B2C\]) | Recherche d’opérations | EUDistanceB2CSales |
+| E4   | 0052 | Importations (autres que de produits pétroliers) | Recherche d’opérations | NonTaxableImports |
+| E5   | 0053 | Prélèvements du régime fiscal suspensif (produits autres que pétroliers) | Recherche d’opérations | WithdrawalsFromSuspensiveTaxRegime |
+| E6   | 0054 | Importations placées sous un régime de taxe suspensif (autres que de produits pétroliers) | Recherche d’opérations | ImportsSuspensiveTaxRegime |
+| F1   | 0055 | Acquisitions intracommunautaires | Recherche d’opérations | NonTaxableEUPurchase |
+| F2   | 0034 | Livraisons intracommunautaires à une personne soumise à taxe (ventes interentreprises \[B2B\]) | Recherche d’opérations | EUSales |
+| F3   | 0029 | Fournitures d’électricité, de gaz naturel, de chaleur ou de froid non soumises à taxe en France | Recherche d’opérations | ElectricityGasHeatColdNotTaxable |
+| F4   | 0049 | Libérations pour la consommation des produits pétroliers | Recherche d’opérations | NonTaxablePetroleumProductsReleasesForConsumption |
+| F5   | 0050 | Importations de produits pétroliers placés sous un régime de taxe suspensif | Recherche d’opérations | ImportsPetroleumProductsSuspensiveTaxRegime |
+| F6   | 0037 | Achats détaxés | Recherche d’opérations | TaxFreePurchases |
+| F7   | 0043 | Achats de biens ou de services auprès d’une personne soumise à taxe et non établie en France | Recherche d’opérations | SalesByPersonNotEstablished |
+| F8   | 0039 | Régularisations | Recherche d’opérations | NotTaxableRegularizations |
 
 **SECTION B - CALCUL DE LA TVA À PAYER**
 
 **TVA BRUTE**
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="41">
-<p><strong>Ligne</strong></p>
-</td>
-<td width="49">
-<p><strong>Boîte</strong></p>
-</td>
-<td width="265">
-<p><strong>Description</strong></p>
-</td>
-<td width="80">
-<p><strong>Recherche</strong></p>
-</td>
-<td width="188">
-<p><strong>Résultat de la recherche</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="3" width="356">
-<p><strong>Opérations réalisées en France</strong></p>
-</td>
-<td width="80">
-<p>&nbsp;</p>
-</td>
-<td width="188">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>08</p>
-</td>
-<td width="49">
-<p>0207</p>
-</td>
-<td width="265">
-<p>Taux standard de 20 %</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>TVADueFranceStandard</p>
-<p>UseTaxFranceStandard (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>8A</p>
-</td>
-<td width="49">
-<p>0208</p>
-</td>
-<td width="265">
-<p>Taux standard de 20 % sur les produits pétroliers</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueFrancePetroleumStandard</p>
-<p>UseTaxFrancePetroleumStandard (Les lignes 20 et 2E sont également affectées.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>09</p>
-</td>
-<td width="49">
-<p>0105</p>
-</td>
-<td width="265">
-<p>Taux réduit de 5,5 %</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueFranceReduced</p>
-<p>UseTaxFranceReduced (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>9B</p>
-</td>
-<td width="49">
-<p>0151</p>
-</td>
-<td width="265">
-<p>Taux réduit de 10 %</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueFranceReduced2</p>
-<p>UseTaxFranceReduced2 (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>9C</p>
-</td>
-<td width="49">
-<p>0152</p>
-</td>
-<td width="265">
-<p>Taux réduit de 13 % sur les produits pétroliers</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueFrancePetroleumReduced</p>
-<p>UseTaxFrancePetroleumReduced (Les lignes 20 et 2E sont également affectées.)</p>
-</td>
-</tr>
-<tr>
-<td colspan="3" width="356">
-<p><strong>Opérations réalisées dans les DOM</strong></p>
-</td>
-<td width="80">
-<p>&nbsp;</p>
-</td>
-<td width="188">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>10</p>
-</td>
-<td width="49">
-<p>0201</p>
-</td>
-<td width="265">
-<p>Taux standard de 8,5 %</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueOverseasStandard</p>
-<p>UseTaxOverseasStandard (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>11</p>
-</td>
-<td width="49">
-<p>0100</p>
-</td>
-<td width="265">
-<p>Taux réduit de 2,1 %</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueOverseasReduced</p>
-<p>UseTaxOverseasReduced (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td colspan="3" width="356">
-<p><strong>Transactions soumises à un autre taux de taxe (France ou départements d’outre-mer)</strong></p>
-</td>
-<td width="80">
-<p>&nbsp;</p>
-</td>
-<td width="188">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>13</p>
-</td>
-<td width="49">
-<p>0900</p>
-</td>
-<td width="265">
-<p>Anciens taux</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueOldRates</p>
-<p>UseTaxOldRates (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>14</p>
-</td>
-<td width="49">
-<p>0950</p>
-</td>
-<td width="265">
-<p>Transactions soumises à un taux de taxe spécifique (La déclaration est faite au niveau de la note 3310 A.)</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDueSpecificRate</p>
-<p>UseTaxSpecificRate (La ligne 20 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>15</p>
-</td>
-<td width="49">
-<p>0600</p>
-</td>
-<td width="265">
-<p>TVA précédemment déduite qui doit être restituée</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATDeductedToBeReturned</p>
-<p>VATDeductedToBeReturnedRegularizations</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>5B</p>
-</td>
-<td width="49">
-<p>0602</p>
-</td>
-<td width="265">
-<p>Montants à ajouter, y compris les acomptes de vacances (exprimés en euros)</p>
-</td>
-<td width="80">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="188">
-<p>VATCorrectionAmountToBeAdded</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>16</p>
-</td>
-<td width="49">
-<p>&nbsp;</p>
-</td>
-<td width="265">
-<p>Total TVA brute due (lignes 08 à 5B)</p>
-</td>
-<td width="80">
-<p>&nbsp;</p>
-</td>
-<td width="188">
-<p>08 + 8A + 09 + 9B + 9C + 10 + 11 + 13 + 14 + 15 + 5B</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>7C</p>
-</td>
-<td width="49">
-<p>0046</p>
-</td>
-<td width="265">
-<p>TVA comprise sur les importations bénéficiant du régime de taxe au preneur</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>Importations (La ligne 2B est également affectée.)</p>
-<p>ImportsUseTax (Les lignes 2B et 24 sont également affectées.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>17</p>
-</td>
-<td width="49">
-<p>0035</p>
-</td>
-<td width="265">
-<p>Dont TVA sur les acquisitions intracommunautaires</p>
-</td>
-<td width="80">
-<p>Recherche d’opérations</p>
-</td>
-<td width="188">
-<p>EUPurchase (La ligne 03 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="41">
-<p>18</p>
-</td>
-<td width="49">
-<p>0038</p>
-</td>
-<td width="265">
-<p>Dont TVA sur transactions à destination de Monaco</p>
-</td>
-<td width="80">
-<p>Recherche pour Monaco</p>
-</td>
-<td width="188">
-<p>Monaco</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Opérations réalisées en France hors produits pétroliers et importations**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| 08   | 0207 | Taux standard de 20 % | Recherche de champ de rapport | <p>TVADueFranceStandard</p><p>UseTaxFranceStandard (La ligne 20 est également affectée.)</p> |
+| 09   | 0105 | Taux réduit de 5,5 % | Recherche de champ de rapport | <p>VATDueFranceReduced</p><p>UseTaxFranceReduced (La ligne 20 est également affectée.)</p> |
+| 9B   | 0151 | Taux réduit de 10 % | Recherche de champ d’état | <p>VATDueFranceReduced2</p><p>UseTaxFranceReduced2 (La ligne 20 est également affectée.)</p> |
+
+**Opérations réalisées dans les départements d’Outre-Mer hors produits pétroliers et importations**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| 10   | 0201 | Taux standard de 8,5 % | Recherche de champ de rapport | <p>VATDueOverseasStandard</p><p>UseTaxOverseasStandard (La ligne 20 est également affectée.)</p> |
+| 11   | 0100 | Taux réduit de 2,1 % | Recherche de champ d’état | <p>VATDueOverseasReduced</p><p>UseTaxOverseasReduced (La ligne 20 est également affectée.</p> |
+
+**Transactions soumises à un autre taux de taxe (France ou départements d’outre-mer) hormis les produits pétroliers et les importations**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| 13   | 0900 | Anciens taux | Recherche de champ de rapport | <p>VATDueOldRates</p><p>UseTaxOldRates (La ligne 20 est également affectée.)</p> |
+| 14   | 0950 | Transactions soumises à un taux de taxe spécifique (La déclaration est faite au niveau de la note 3310 A.) | Recherche de champ d’état | <p>VATDueSpecificRate</p><p>UseTaxSpecificRate (La ligne 20 est également affectée.)</p> |
+
+**Produits pétroliers**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| P1   | 0208 | Taux standard de 20 % sur les produits pétroliers | Recherche de champ de rapport | <p>VATDuePetroleumStandard</p><p>UseTaxPetroleumStandard (Les lignes 20 et 2E sont également affectées.)</p> |
+| P2   | 0152 | Taux réduit de 13 % sur les produits pétroliers | Recherche de champ de rapport | <p>VATDuePetroleumReduced</p><p>UseTaxPetroleumReduced (Les lignes 20 et 2E sont également affectées.)</p> |
+
+**Importations**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|----- |-------------|--------|---------------|
+| I1   | 0210 | Taux normal 20 % | Recherche de champ de rapport | <p>VATDueImportsFranceStandard</p><p>UseTaxImportsFranceStandard (Les lignes 20 et 24 sont également affectées.)</p> |
+| I2   | 0211 | Taux réduit 10 % | Recherche de champ de rapport | <p>VATDueImportsFranceReduced2</p><p>UseTaxImportsFranceReduced2 (Les lignes 20 et 24 sont également affectées.)</p> |
+| I3   | 0212 | Taux réduit 8,5 % | Recherche de champ de rapport | <p>VATDueImportsOverseasStandard</p><p>UseTaxImportsOverseasStandard (Les lignes 20 et 24 sont également affectées.)</p> |
+| I4   | 0213 | Taux réduit 5,5 % | Recherche de champ de rapport | <p>VATDueImportsFranceReduced</p><p>UseTaxImportsFranceReduced (Les lignes 20 et 24 sont également affectées.)</p> |
+| I5   | 0214 | Taux réduit 2,1 % | Recherche de champ de rapport | <p>VATDueImportsOverseasReduced</p><p>UseTaxImportsOverseasReduced (Les lignes 20 et 24 sont également affectées.)</p> |
+| I6   | 0215 | Taux réduit 1,05 % | Recherche de champ de rapport | <p>VATDueImportsSpecificRate</p><p>UseTaxImportsSpecificRate (Les lignes 20 et 24 sont également affectées.)</p> |
+
+**Calcul TVA**
+
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|----- |-------------|--------|---------------|
+| 15   | 0600 | TVA précédemment déduite qui doit être restituée | Recherche de champ de rapport | <p>VATDeductedToBeReturned</p><p>VATDeductedToBeReturnedRegularizations</p><p>VATDeductedToBeReturnedPetroleum</p><p>VATDeductedToBeReturnedImports</p> |
+| 15   | 0600 | (Y compris la TVA sur les produits pétroliers) | Recherche de champ de rapport | VATDeductedToBeReturnedPetroleum |
+| 15   | 0600 | (y compris la TVA sur les produits importés, à l’exception des produits pétroliers) | Recherche de champ de rapport | VATDeductedToBeReturnedImports |
+| 5B   | 0602 | Montants à ajouter, y compris les acomptes de vacances (exprimés en euros) | Recherche de champ de rapport | VATCorrectionAmountToBeAdded |
+| 16   | Non applicable | Total TVA brute due (lignes 08 à 5B) | Total | Total du montant de la taxe des lignes 08 + 09 + 9B + 10 + 11 + 13 + 14 + P1 + P2 + I1 + I2 + I3 + I4 + I5 + I6 + 15 + 5B |
+| 7C   | 0046 | TVA comprise sur les importations bénéficiant du régime de taxe au preneur | Total | Total du montant de la taxe des lignes I1 + I2 + I3 + I4 + I5 + I6 |
+| 17   | 0035 | Dont TVA sur les acquisitions intracommunautaires | Recherche d’opérations | EUPurchase (La ligne B2 est également affectée.) |
+| 18   | 0038 | Dont TVA sur transactions à destination de Monaco | Recherche pour Monaco | Monaco |
 
 **TVA DÉDUCTIBLE**
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="6%">
-<p><strong>Ligne</strong></p>
-</td>
-<td width="7%">
-<p><strong>Boîte</strong></p>
-</td>
-<td width="27%">
-<p><strong>Description</strong></p>
-</td>
-<td width="12%">
-<p><strong>Recherche</strong></p>
-</td>
-<td width="45%">
-<p><strong>Résultat de la recherche</strong></p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>19</p>
-</td>
-<td width="7%">
-<p>0703</p>
-</td>
-<td width="27%">
-<p>Propriété constituant des immobilisations</p>
-</td>
-<td width="12%">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="45%">
-<p>VATDeductionPropertyCapitalAssets</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>20</p>
-</td>
-<td width="7%">
-<p>0702</p>
-</td>
-<td width="27%">
-<p>Autres biens et services</p>
-</td>
-<td width="12%">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="45%">
-<p>VATDeductionOtherGoodsServices</p>
-<p>VATDeductionOtherGoodsServicesImports (La ligne 24 est également affectée.)</p>
-<p>VATDeductionOtherGoodsServicesPetroleum (La ligne 2E est également affectée.)</p>
-<p>VATDeductionOtherGoodsServicesImportPetroleum (Les lignes 24 et 2E sont également affectées.)</p>
-<p>UseTaxFranceStandard (La ligne 08 est également affectée.)</p>
-<p>UseTaxFrancePetroleumStandard (Les lignes 8A et 2E sont également affectées.)</p>
-<p>UseTaxFranceReduced (La ligne 09 est également affectée.)</p>
-<p>UseTaxFranceReduced2 (La ligne 9B est également affectée.)</p>
-<p>UseTaxFrancePetroleumReduced (Les lignes 9C et 2E sont également affectées.)</p>
-<p>UseTaxOverseasStandard (La ligne 10 est également affectée.)</p>
-<p>UseTaxOverseasReduced (La ligne 11 est également affectée.)</p>
-<p>UseTaxOldRates (La ligne 13 est également affectée.)</p>
-<p>UseTaxSpecificRate (La ligne 14 est également affectée.)</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>21</p>
-</td>
-<td width="7%">
-<p>0059</p>
-</td>
-<td width="27%">
-<p>Autre TVA à déduire</p>
-</td>
-<td width="12%">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="45%">
-<p>VATDeductionTaxableRegularizations</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>22</p>
-</td>
-<td width="7%">
-<p>8001</p>
-</td>
-<td width="27%">
-<p>Crédit qui a été reporté et qui figurait en ligne 27 de la déclaration précédente</p>
-</td>
-<td width="12%">
-<p><em>&nbsp;</em></p>
-</td>
-<td width="45%">
-<p>L’utilisateur définit la valeur dans une boîte de dialogue.</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>2C</p>
-</td>
-<td width="7%">
-<p>0603</p>
-</td>
-<td width="27%">
-<p>Montants à imputer, y compris les acomptes de vacances (exprimés en euros)</p>
-</td>
-<td width="12%">
-<p>Recherche de champ d’état</p>
-</td>
-<td width="45%">
-<p>VATDeductionAmountsToBeCharged</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>22A</p>
-</td>
-<td width="7%">
-<p>&nbsp;</p>
-</td>
-<td width="27%">
-<p>Coefficient de taxe unique applicable pour la période, si différent</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>L’utilisateur définit la valeur dans une boîte de dialogue.</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>23</p>
-</td>
-<td width="7%">
-<p>&nbsp;</p>
-</td>
-<td width="27%">
-<p>Total TVA déductible (lignes 19 à 2C)</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>Total 19 + 20 + 21 + 22 + 2C</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>24</p>
-</td>
-<td width="7%">
-<p>0710</p>
-</td>
-<td width="27%">
-<p>Dont TVA déductible sur importations</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>VATDeductionOtherGoodsServicesImports (La ligne 20 est également affectée.)</p>
-<p>VATDeductionOtherGoodsServicesImportPetroleum (Les lignes 20 et 2E sont également affectées.)</p>
-<p>ImportsUseTax (Les lignes 2B et 7C sont également affectées.)</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>2E</p>
-</td>
-<td width="7%">
-<p>0711</p>
-</td>
-<td width="27%">
-<p>Dont TVA déductible sur les produits pétroliers</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>VATDeductionOtherGoodsServicesImportPetroleum (Les lignes 20 et 24 sont également affectées.)</p>
-<p>UseTaxFrancePetroleumReduced (Les lignes 9C et 20 sont également affectées.)</p>
-<p>VATDeductionOtherGoodsServicesPetroleum (La ligne 20 est également affectée.)</p>
-<p>UseTaxFrancePetroleumReduced (Les lignes 9C et 20 sont également affectées.)</p>
-<p>UseTaxFrancePetroleumStandard (Les lignes 8A et 20 sont également affectées.)</p>
-</td>
-</tr>
-</tbody>
-</table>                                                                                                                                                                        
+| Ligne | Boîte  | Description | Recherche | Résultat de la recherche |
+|------|------|-------------|--------|---------------|
+| 19   | 0703 | Propriété constituant des immobilisations | Recherche de champ d’état | VATDeductionPropertyCapitalAssets |
+| 20   | 0702 | Autres biens et services | Recherche de champ d’état | <p>VATDeductionOtherGoodsServices</p><p>VATDeductionOtherGoodsServicesImports (La ligne 24 est également affectée.)</p><p>VATDeductionOtherGoodsServicesPetroleum (La ligne 2E est également affectée.)</p><p>VATDeductionOtherGoodsServicesImportPetroleum (Les lignes 24 et 2E sont également affectées.)</p><p>UseTaxFranceStandard (La ligne 08 est également affectée.)</p><p>UseTaxFrancePetroleumStandard (Les lignes P1 et 2E sont également affectées.)</p><p>UseTaxFranceReduced (La ligne 09 est également affectée.)</p><p>UseTaxFranceReduced2 (La ligne P2 est également affectée.)</p><p>UseTaxFrancePetroleumReduced (Les lignes 9C et 2E sont également affectées.)</p><p>UseTaxOverseasStandard (La ligne 10 est également affectée.)</p><p>UseTaxOverseasReduced (La ligne 11 est également affectée.)</p><p>UseTaxOldRates (La ligne 13 est également affectée.)</p><p>UseTaxSpecificRate (La ligne 14 est également affectée.)</p><p>UseTaxPetroleumStandard (Les lignes P1 et 2E sont également affectées.)</p><p>UseTaxPetroleumReduced (Les lignes P2 et 2E sont également affectées.)</p><p>UseTaxImportsOverseasStandard (Les lignes I3 et 24 sont également affectées.)</p><p>UseTaxImportsFranceReduced (Les lignes I4 et 24 sont également affectées.)</p><p>UseTaxImportsOverseasReduced (Les lignes I5 et 24 sont également affectées.)</p><p>UseTaxImportsSpecificRate (Les lignes I6 et 24 sont également affectées.)</p> |
+| 21   | 0059 | Autre TVA à déduire | Recherche de champ de rapport | VATDeductionTaxableRegularizations |
+| 22   | 8001 | Crédit qui a été reporté et qui figurait en ligne 27 de la déclaration précédente | Non applicable | L’utilisateur définit la valeur dans une boîte de dialogue. |
+| 2C   | 0603 | Montants à imputer, y compris les acomptes de vacances (exprimés en euros) | Recherche de champ de rapport | VATDeductionAmountsToBeCharged |
+| 22A  | Non applicable | Coefficient de taxe unique applicable pour la période, si différent | Non applicable | L’utilisateur définit la valeur dans une boîte de dialogue. |
+| 23   | Non applicable | Total TVA déductible (lignes 19 à 2C) | Non applicable | Total des lignes 19 + 20 + 21 + 22 + 2C |
+| 24   | 0710 | Dont TVA déductible sur importations | Non applicable | <p>VATDeductionOtherGoodsServicesImports (La ligne 20 est également affectée.)</p><p>VATDeductionOtherGoodsServicesImportPetroleum (Les lignes 20 et 2E sont également affectées.)</p><p>UseTaxImportsOverseasStandard (Les lignes I3 et 20 sont également affectées.)</p><p>UseTaxImportsFranceReduced (Les lignes I4 et 20 sont également affectées.)</p><p>UseTaxImportsOverseasReduced (Les lignes I5 et 20 sont également affectées.)</p><p>UseTaxImportsSpecificRate (Les lignes I6 et 20 sont également affectées.)</p> |
+| 2E   | 0711 | Dont TVA déductible sur les produits pétroliers | Non applicable | <p>VATDeductionOtherGoodsServicesImportPetroleum (Les lignes 20 et 24 sont également affectées.)</p><p>UseTaxFrancePetroleumReduced (Les lignes 9C et 20 sont également affectées.)</p><p>VATDeductionOtherGoodsServicesPetroleum (La ligne 20 est également affectée.)</p><p>UseTaxFrancePetroleumReduced (Les lignes 9C et 20 sont également affectées.)</p><p>UseTaxFrancePetroleumStandard (Les lignes 8A et 20 sont également affectées.)</p><p>UseTaxPetroleumStandard (Les lignes P1 et 20 sont également affectées.)</p><p>UseTaxPetroleumReduced (Les lignes P2 et 20 sont également affectées.)</p> |
 
 **CRÉDIT/TAXE EXIGIBLE**
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="6%">
-<p><strong>Ligne</strong></p>
-</td>
-<td width="7%">
-<p><strong>Boîte</strong></p>
-</td>
-<td width="27%">
-<p><strong>Description</strong></p>
-</td>
-<td width="12%">
-<p><strong>Recherche</strong></p>
-</td>
-<td width="45%">
-<p><strong>Résultat de la recherche</strong></p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>25</p>
-</td>
-<td width="7%">
-<p>0705</p>
-</td>
-<td width="27%">
-<p>Crédit de TVA (ligne 23 &ndash; ligne 16)</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>Total 23 &ndash; 16</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>26</p>
-</td>
-<td width="7%">
-<p>8002</p>
-</td>
-<td width="27%">
-<p>Remboursement de crédit demandé</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>L’utilisateur définit la valeur dans une boîte de dialogue.</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>AA</p>
-</td>
-<td width="7%">
-<p>8005</p>
-</td>
-<td width="27%">
-<p>Crédit de TVA qui est transféré à la société mère du groupe</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>L’utilisateur définit la valeur dans une boîte de dialogue.</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>27</p>
-</td>
-<td width="7%">
-<p>8003</p>
-</td>
-<td width="27%">
-<p>Credit à reporter (ligne 25 &ndash; ligne 26 &ndash; ligne AA)</p>
-<p>Ce montant est à reporter ligne 22 du prochain retour.</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>Total 25 &ndash; 26 &ndash; AA</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>28</p>
-</td>
-<td width="7%">
-<p>&nbsp;</p>
-</td>
-<td width="27%">
-<p>Total TVA nette exigible (ligne 16 &ndash; ligne 23)</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>Total 16 &ndash; 23</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>29</p>
-</td>
-<td width="7%">
-<p>9979</p>
-</td>
-<td width="27%">
-<p>Taxes assimilées</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>L’utilisateur définit une valeur dans une boîte de dialogue.</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>AB</p>
-</td>
-<td width="7%">
-<p>9991</p>
-</td>
-<td width="27%">
-<p>Total exigible payé par la société mère du groupe sur la déclaration de synthèse</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>L’utilisateur définit une valeur dans une boîte de dialogue.</p>
-</td>
-</tr>
-<tr>
-<td width="6%">
-<p>32</p>
-</td>
-<td width="7%">
-<p>&nbsp;</p>
-</td>
-<td width="27%">
-<p>Total exigible (ligne 28 + ligne 29 &ndash; ligne AB)</p>
-</td>
-<td width="12%">
-<p>&nbsp;</p>
-</td>
-<td width="45%">
-<p>Total 28 + 29 &ndash; AB</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Ligne | Boîte  | Description | Résultat de la recherche |
+|------|------|-------------|---------------|
+| 25   | 0705 | Crédit de TVA (ligne 23 - ligne 16) | Total : lignes 23 – 16 |
+| 26   | 8002 | Remboursement de crédit demandé | L’utilisateur définit la valeur dans une boîte de dialogue. |
+| AA   | 8005 | Crédit de TVA qui est transféré à la société mère du groupe | L’utilisateur définit la valeur dans une boîte de dialogue. |
+| 27   | 8003 | Crédit à reporter (ligne 25 - ligne 26 - ligne AA). Ce montant est à reporter ligne 22 du prochain retour. | Total : lignes 25 – 26 – AA |
+| 28   | Non applicable | TVA nette due (ligne 16 - ligne 23) | Total : lignes 16 – 23 |
+| 29   | 9979 | Taxes assimilées | L’utilisateur définit une valeur dans une boîte de dialogue. |
+| AB   | 9991 | Total exigible payé par la société mère du groupe sur la déclaration de synthèse | L’utilisateur définit une valeur dans une boîte de dialogue. |
+| 32   | Non applicable | Total exigible (ligne 28 + ligne 29 – ligne AB) | Total : lignes 28 + 29 – AA |
 
 ### <a name="note-about-purchase-reverse-charge-vat"></a>Remarque concernant la taxe au preneur sur les achats
 
@@ -1052,19 +169,19 @@ Vous pouvez également configurer deux codes de taxe distincts : un pour la TVA
 
 **Exemple**
 
-Pour un achat soumis à taxe d’électricité, de gaz, de chaud ou de froid avec une taxe au preneur, configurez le code de taxe **UT_S_RC** avec la taxe d’utilisation. Associez ensuite le code avec le résultat de recherche **UseTaxTaxableElectricityGasHeatCold** de la recherche **Opération** et le résultat de recherche **UseTaxFranceStandard** de la recherche **Champ d’état**. Dans ce cas, les montants qui utilisent le code de taxe **UT_S_RC** sera reflété sur la ligne 3A (par le biais de la recherche **Opération**), et sur les lignes 08 et 20 (en utilisant la recherche **Champ d’état**).
+Pour un achat soumis à taxe d’électricité, de gaz, de chaud ou de froid avec une taxe au preneur, configurez le code de taxe **UT\_S\_RC** avec la taxe d’utilisation. Associez ensuite le code avec le résultat de recherche **UseTaxTaxableElectricityGasHeatCold** de la recherche **Opération** et le résultat de recherche **UseTaxFranceStandard** de la recherche **Champ d’état**. Dans ce cas, les montants qui utilisent le code de taxe **UT\_S\_RC** sera reflété sur la ligne 3A (par le biais de la recherche **Opération**), et sur les lignes 08 et 20 (en utilisant la recherche **Champ d’état**).
 
 Vous pouvez également configurer deux codes de taxe :
 
-   - **VAT_S_RC**, qui a une valeur de taux de taxe de -20 %
-   - **InVAT_S_RC**, qui a une valeur de taux de taxe de 20 %
+- **VAT\_S\_RC**, qui a une valeur de taux de taxe de -20 %
+- **InVAT\_S\_RC**, qui a une valeur de taux de taxe de 20 %
 
 Associez ensuite les codes avec les résultats de recherche de la manière suivante :
 
-   - Associez **VAT_S_RC** au résultat de recherche **TaxableElectricityGasHeatCold** de la recherche **Opération** et au résultat de recherche **VATDueFranceStandard** de la recherche **Champ d’état**.
-   - Associez **InVAT_S_RC** au résultat de recherche **VATDeductionOtherGoodsServices** de la recherche **Champ d’état**.
+- Associez **VAT\_S\_RC** au résultat de recherche **TaxableElectricityGasHeatCold** de la recherche **Opération** et au résultat de recherche **VATDueFranceStandard** de la recherche **Champ d’état**.
+- Associez **InVAT\_S\_RC** au résultat de recherche **VATDeductionOtherGoodsServices** de la recherche **Champ d’état**.
 
-Dans ce cas, les montants qui utilisent le code de taxe **VAT_S_RC** seront reflétés sur les lignes 3A (par le biais de la recherche **Opération**), et 08 (par le biais de la recherche **Champ d’état**). Les montants qui utilisent le code de taxe **InVAT_S_RC** seront reflétés sur la ligne 20 (par le biais de la recherche **Champ d’état**).
+Dans ce cas, les montants qui utilisent le code de taxe **VAT\_S\_RC** seront reflétés sur les lignes 3A (par le biais de la recherche **Opération**), et 08 (par le biais de la recherche **Champ d’état**). Les montants qui utilisent le code de taxe **InVAT\_S\_RC** seront reflétés sur la ligne 20 (par le biais de la recherche **Champ d’état**).
 
 Pour plus d’informations sur la configuration de la taxe au preneur, consultez [Taxes au preneur](emea-reverse-charge.md).
 
@@ -1077,7 +194,7 @@ Pour plus d’informations sur la configuration de la taxe au preneur, consultez
 
     - Déclaration de TVA Excel (FR) version 85.15
 
-### <a name=""></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields">Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA</a>
+### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA
 
 Pour générer automatiquement un état d’aperçu de la déclaration de TVA dans Microsoft Excel, associez les codes de taxe dans l’application aux résultats de recherche dans la configuration ER.
 
@@ -1088,21 +205,21 @@ Pour générer automatiquement un état d’aperçu de la déclaration de TVA da
 
 Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases dans la section A « MONTANT DES OPÉRATIONS EFFECTUÉES ».
 
-1. Accédez à **Espaces de travail** > **Gestion des états électroniques** et sélectionnez **Configurations des états**.
-2. Sélectionnez la configuration **Déclaration de TVA Excel (FR)**, puis sélectionnez **Configurations** > **Configuration des paramètres spécifiques à l’application** pour ouvrir la page **Paramètres spécifiques à l’application**.
+1. Accédez à **Espaces de travail** \> **Gestion des états électroniques** et sélectionnez **Configurations des états**.
+2. Sélectionnez la configuration **Déclaration de TVA Excel (FR)**, puis sélectionnez **Configurations** \> **Configuration des paramètres spécifiques à l’application** pour ouvrir la page **Paramètres spécifiques à l’application**.
 3. Sur la page **Paramètres spécifiques à l’application**, dans le raccourci **Recherches**, sélectionnez **Recherche d’opération**.
 4. Dans le raccourci **Conditions**, définissez les champs suivants pour associer les codes de taxe et les opérations.
 
-   | Champ                  | Description                                                                                                                                                                                                                                                                                                        |
-   |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | Résultat de la recherche          | Sélectionnez l’opération à paramétrer. Pour plus d’informations sur les opérations et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de l’aperçu de la déclaration de TVA](#vat-declaration-preview-overview) plus haut dans cette rubrique.                                                                              |
-   | Code taxe               | Permet de sélectionner le code de taxe à associer à l’opération. Les transactions de taxe validées qui utilisent le code de taxe sélectionné seront collectées dans la case de déclaration appropriée. Nous vous recommandons de séparer les codes de taxe de telle sorte qu’un code de taxe ne génère des montants que dans une seule case de déclaration. |
-   | Classifieur de transactions | Si vous avez créé suffisamment de codes de taxe pour déterminer une case de déclaration, sélectionnez **\*Non vide\***. Si vous n’avez pas créé suffisamment de codes de taxe pour qu’un code de taxe ne génère des montants que dans une seule case de déclaration, configurez un classifieur de transaction. Les classifieurs de transactions suivants sont disponibles : <br>- **Achats** <br>- **PurchaseExempt** (achat exonéré de taxe)<br> - **PurchaseReverseCharge** (taxe déductible provenant d’une taxe au preneur sur achat)<br> - **Vente**<br> - **SalesExempt** (vente exonérée de taxe)<br> - **SalesReverseCharge** (taxe exigible provenant d’une taxe au preneur sur achat ou vente)<br> - **Taxe d’utilisation**<br> Pour chaque classifieur de transaction, un classifieur pour l’avoir est également disponible. Par exemple, l’un de ces classifieurs est **PurchaseCreditNote** (avoir sur achat).      |
+    | Champ | Description  |
+    |-------|-------------|
+    | Résultat de la recherche | Sélectionnez l’opération à paramétrer. Pour plus d’informations sur les opérations et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de l’aperçu de la déclaration de TVA](#vat-declaration-preview-overview) plus haut dans cette rubrique. |
+    | Code taxe | Permet de sélectionner le code de taxe à associer à l’opération. Les transactions de taxe validées qui utilisent le code de taxe sélectionné seront collectées dans la case de déclaration appropriée. Nous vous recommandons de séparer les codes de taxe de telle sorte qu’un code de taxe ne génère des montants que dans une seule case de déclaration. |
+    | Classifieur de transactions | <p>Si vous avez créé suffisamment de codes de taxe pour déterminer une case de déclaration, sélectionnez **\*Non vide\***. Si vous n’avez pas créé suffisamment de codes de taxe pour qu’un code de taxe ne génère des montants que dans une seule case de déclaration, configurez un classifieur de transaction. Les classifieurs de transactions suivants sont disponibles :</p><ul><li>**Achats**</li><li>**PurchaseExempt** (achat exonéré de taxe)</li><li>**PurchaseReverseCharge** (taxe déductible provenant d’une taxe au preneur sur achat)</li><li>**Ventes**</li><li>**SalesExempt** (vente exonérée de taxe)</li><li>**SalesReverseCharge** (taxe exigible provenant d’une taxe au preneur sur achat ou vente)</li><li>**Taxe d’utilisation**</li></ul><p>Pour chaque classifieur de transaction, un classifieur pour l’avoir est également disponible. Par exemple, l’un de ces classifieurs est **PurchaseCreditNote** (avoir sur achat).</p> |
 
-   > [!NOTE]
-   > Assurez-vous d’associer tous les codes de taxe aux résultats de recherche. Si des codes de taxe ne doivent pas générer de valeurs dans la section A, associez-les au résultat de recherche **Autre**.
-   > 
-   > ![Opérations des paramètres de l’application](media/5121ad123182da7ffea8892f687fef34.png)
+    > [!NOTE]
+    > Assurez-vous d’associer tous les codes de taxe aux résultats de recherche. Si des codes de taxe ne doivent pas générer de valeurs dans la section A, associez-les au résultat de recherche **Autre**.
+
+    ![Opérations des paramètres de l’application.](media/5121ad123182da7ffea8892f687fef34.png)
 
 #### <a name="set-up-report-fields"></a>Paramétrer des champs d’état
 
@@ -1114,7 +231,7 @@ Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases da
     > [!NOTE] 
     > Assurez-vous d’associer tous les codes de taxe aux résultats de recherche. Si des codes de taxe ne doivent pas générer de valeurs dans la section B, associez-les au résultat de recherche **Autre**.
 
-    ![Application_parameters_report_fields](media/54cd612e95ccd127c4de57c9281661e0.png)
+    ![Champs de l’état des paramètres d’application.](media/54cd612e95ccd127c4de57c9281661e0.png)
 
 #### <a name="set-up-sales-tax-codes-for-monaco"></a>Paramétrer des codes de taxe pour Monaco
 
@@ -1124,36 +241,33 @@ Suivez ces étapes pour définir quels codes de taxe génèrent le montant dans 
 2. Dans le raccourci **Conditions**, associez les codes de taxe au résultat de recherche **Monaco**.
 
     > [!NOTE]
-    >  Comme dernière ligne de la configuration, créez une ligne où vous associez la valeur **Non vide** du champ **Code de taxe** au résultat de recherche **France**. Cette ligne indique que tous les autres codes de taxe sont liés à des opérations en France et ne doivent pas générer le montant de la case 18.
+    > Comme dernière ligne de la configuration, créez une ligne où vous associez la valeur **\*Non vide\*** du champ **Code de taxe** au résultat de recherche **France**. Cette ligne indique que tous les autres codes de taxe sont liés à des opérations en France et ne doivent pas générer le montant de la case 18.
 
-    ![Paramètre d’application Monaco](media/19d301e4a786455234417faca00fe0ea.png)
+    ![Paramètre d’application Monaco.](media/19d301e4a786455234417faca00fe0ea.png)
 
 ### <a name="set-up-the-vat-reporting-format"></a>Paramétrer le format de déclaration de TVA
 
 1. Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonctionnalité **États de format de déclaration de TVA**.
-2. Accédez à **Comptabilité** > **Paramétrage** > **Paramètres de comptabilité**.
+2. Accédez à **Comptabilité** \> **Paramétrage** \> **Paramètres de comptabilité**.
 3. Sur l’onglet **Taxe de vente**, dans le raccourci **Options de taxe**, dans le champ **Mise en correspondance des formats de déclaration de TVA**, sélectionnez le format ER **Déclaration de TVA Excel (FR)**.
 
     Ce format sera imprimé lorsque vous exécuterez l’état **État de la taxe pour la période de règlement**. Il sera également imprimé lorsque vous sélectionnerez **Imprimer** sur la page **Paiements de la taxe**.
 
-4. Accédez à **Taxe** > **Taxe de vente** > **Administrations fiscales**. Sur la page **Administration fiscales**, sélectionnez l’administration fiscale, puis, dans la champ **Présentation d’état**, sélectionnez **Par défaut**. Si vous avez configuré une déclaration de TVA dans une entité juridique qui possède des [enregistrements de TVA multiples](emea-reporting-for-multiple-vat-registrations.md), accédez à **Comptabilité** > **Paramétrage** > **Paramètres de comptabilité**. Dans l’onglet **Taxe de vente**, dans le raccourci **Gestion des états électroniques pour les pays/régions**, sur la ligne **Pays/région FRA**, sélectionnez le format ER **Déclaration de TVA Excel (FR)**.
+4. Accédez à **Taxe** \> **Taxe de vente** \> **Administrations fiscales**. Sur la page **Autorités fiscales**, sélectionnez l’administration fiscale, puis, dans le champ **Présentation d’état**, sélectionnez **Par défaut**. Si vous avez configuré une déclaration de TVA dans une entité juridique qui a [plusieurs immatriculations à la TVA](emea-reporting-for-multiple-vat-registrations.md), accédez à **Comptabilité** \> **Paramétrage** \> **Paramètres de comptabilité**. Dans l’onglet **Taxe de vente**, dans le raccourci **Gestion des états électroniques pour les pays/régions**, sur la ligne **Pays/région FRA**, sélectionnez le format ER **Déclaration de TVA Excel (FR)**.
 
 ## <a name="preview-the-vat-declaration-in-excel"></a>Aperçu de la déclaration de TVA dans Excel
 
-### <a name=""></a><a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"> Prévisualisez la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement</a>
+### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a><a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a> Prévisualisez la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement
 
-1. Accédez à **Taxe** > **Tâches périodiques** > **Déclarations** > **Taxe de vente** > **État de la taxe pour la période de règlement**.
+1. Accédez à **Taxe** \> **Tâches périodiques** \> **Déclarations** \> **Taxe de vente** \> **État de la taxe pour la période de règlement**.
 2. Définisse les champs suivants.
 
-    | Champ                     | Description                                     |
-    |---------------------------|------------------------------------------------|
-    | Période de règlement         | Sélectionnez la période de règlement.                  |
-    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes :            |
+    | Champ                     | Description  |
+    |---------------------------|-------------|
+    | Période de règlement         | Sélectionnez la période de règlement. |
+    | Version de paiement de la taxe | <p>Vous devez sélectionner l’une des valeurs suivantes :</p><ul><li>**Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré.</li><li>**Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période</li><li>**Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris l’original et toutes les corrections.</li></ul> |
     | Date de début                 | Permet de sélectionner la date de début de la période de reporting. |
 
-    - **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré.
-    - **Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période.
-    - **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris Original et Toutes les corrections.
 3. Cliquez sur **OK**.
 4. Dans la boîte de dialogue **Paramètres des états électroniques**, définissez les champs suivants :
 
@@ -1168,25 +282,22 @@ Suivez ces étapes pour définir quels codes de taxe génèrent le montant dans 
 
 5. Cliquez sur **OK** et passez en revue l’état Excel.
 
-### <a name=""></a><a name="settle-and-post-sales-tax">Régler et valider la taxe</a>
+### <a name="settle-and-post-sales-tax"></a><a name="settle-and-post-sales-tax"></a>Régler et valider la taxe
 
-1. Accédez à **Taxe** > **Tâches périodiques** > **Déclarations** > **Taxe de vente** > **Régler et valider la taxe**.
+1. Accédez à **Taxe** \> **Tâches périodiques** \> **Déclarations** \> **Taxe de vente** \> **Régler et valider la taxe**.
 2. Définisse les champs suivants.
 
-    | Champ                     | Description                                     |
-    |---------------------------|------------------------------------------------|
-    | Période de règlement         | Sélectionnez la période de règlement.                  |
-    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes :            |
+    | Champ                     | Description  |
+    |---------------------------|-------------|
+    | Période de règlement         | Sélectionnez la période de règlement. |
+    | Version de paiement de la taxe | <p>Vous devez sélectionner l’une des valeurs suivantes :</p><ul><li>**Original** : permet de générer le paiement de la taxe d’origine pour la période de règlement.</li><li>**Dernières corrections** : permet de générer un paiement de taxe rectificatif après la création du paiement de taxe d’origine pour la période de règlement.</li></ul> |
     | Date de début                 | Permet de sélectionner la date de début de la période de reporting. |
-
-    - **Original** : permet de générer le paiement de la taxe d’origine pour la période de règlement.
-    - **Dernières corrections** : permet de générer un paiement de taxe rectificatif après la création du paiement de taxe d’origine pour la période de règlement.
 
 3. Cliquez sur **OK**.
 
 ### <a name="preview-the-vat-declaration-in-excel-from-the-sales-tax-payments-inquiry"></a>Aperçu de la déclaration de TVA dans Excel à partir de la recherche Paiements de la taxe
 
-1. Accédez à **Taxe** > **Recherches et états** > **Taxe (recherches)** > **Paiements de la taxe**, puis sélectionnez une ligne de paiement de taxe.
+1. Accédez à **Taxe** \> **Recherches et états** \> **Taxe (recherches)** \> **Paiements de la taxe**, puis sélectionnez une ligne de paiement de taxe.
 2. Sélectionnez **Imprimer un état**.
 3. Dans la boîte de dialogue **Paramètres des états électroniques**, définissez les champs comme expliqué dans la section [Aperçu de la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) plus haut dans cette rubrique. Vérifiez ensuite le fichier Excel généré pour la ligne de paiement de taxe sélectionnée.
 
@@ -1209,11 +320,11 @@ Le package de données incluant des exemples de paramètres contient des paramè
 4. Dans le raccourci **Entités sélectionnées**, sélectionnez **Ajouter un fichier**.
 5. Dans la boîte de dialogue **Ajouter un fichier**, assurez-vous que le champ **Format des données source** est défini sur **Package**, sélectionnez **Charger et ajouter**, puis sélectionnez le fichier .zip que vous avez précédemment téléchargé. Sélectionnez **Fermer**.
 6. Une fois les entités de données chargées, dans le volet Actions, sélectionnez **Importer**.
-7. Accédez à **Taxe** > **Recherches et états** > **Messages électroniques** > **Messages électroniques**, puis examinez le traitement des messages électroniques que vous avez importé (**Déclaration de TVA FR**).
+7. Accédez à **Taxe** \> **Recherches et états** \> **Messages électroniques** \> **Messages électroniques**, puis examinez le traitement des messages électroniques que vous avez importé (**Déclaration de TVA FR**).
 
 #### <a name="configure-electronic-messages"></a>Configurer les messages électroniques
 
-1. Accédez à **Taxe** > **Paramétrage** > **Messages électroniques** > **Actions Renseignement des enregistrements**.
+1. Accédez à **Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Actions Renseignement des enregistrements**.
 2. Sélectionnez la ligne **Remplir les enregistrement de retour TVA FR**, puis sélectionnez **Modifier la requête**.
 3. Utilisez le filtre pour spécifier les périodes de règlement à inclure dans l’état.
 4. Si vous devez déclarer les transactions fiscales d’autres périodes de règlement dans une déclaration différente, créez une action **Remplir les enregistrements** et sélectionnez les périodes de règlement appropriées.
@@ -1222,7 +333,7 @@ Le package de données incluant des exemples de paramètres contient des paramè
 
 La procédure suivante s’applique à l’exemple de traitement de message électronique que vous avez importé précédemment à partir de la bibliothèque d’actifs partagés LCS.
 
-1. Accédez à **Taxe** > **Recherches et états** > **Messages électroniques** > **Messages électroniques**.
+1. Accédez à **Taxe** \> **Recherches et états** \> **Messages électroniques** \> **Messages électroniques**.
 2. Dans le volet de gauche, sélectionnez le format d’état à générer. Par exemple, sélectionnez **Déclaration de TVA FR**.
 3. Dans le raccourci **Messages**, sélectionnez **Nouveau**, puis, dans la boîte de dialogue **Exécuter le traitement**, cliquez sur **OK**.
 4. Sélectionnez la ligne de message créée, saisissez une description, puis spécifiez les dates de début et de fin de la déclaration.
@@ -1237,21 +348,17 @@ La procédure suivante s’applique à l’exemple de traitement de message éle
 9. Sélectionnez **Générer l’état**. Pour prévisualiser les montants de la déclaration de TVA, dans la boîte de dialogue **Exécuter le traitement**, sélectionnez **Aperçu de l’état**, puis cliquez sur **OK**.
 10. Dans la boîte de dialogue **Paramètres de gestion des états électroniques**, définissez les champs suivants, puis cliquez sur **OK**.
 
-    | **Champ**                                                                                                                                                                                                                                                                         | **Description**                                                                                                                                                                                                            |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Période de règlement                                                                                                                                                                                                                                                                 | Sélectionnez la période de règlement. Si vous avez sélectionné **Collecter des données** à l’étape 5, vous pouvez ignorer ce champ. L’état sera généré pour les transactions de taxe qui sont incluses dans les paiements de taxe collectés. |
-    | Version de la déclaration de taxe                                                                                                                                                                                                                                                           | Vous devez sélectionner l’une des valeurs suivantes :                                                                                                                                                                                        |
-    | Crédit reporté de la déclaration précédente Coefficient d’impôt unique Remboursement de crédit demandé Crédit de TVA transféré à la société mère du groupe sur la déclaration récapitulative Taxes assimilées Total exigible payé par la société mère du groupe sur la déclaration récapitulative | Définissez ces champs comme expliqué dans la section [Aperçu de la déclaration de TVA dans Excel](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) plus haut dans cette rubrique.            |
-
-    - **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré.
-    - **Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période.
-    - **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris l’original et toutes les corrections.
+    | Champ | Description |
+    |-------|-------------|
+    | Période de règlement | Sélectionnez la période de règlement. Si vous avez sélectionné **Collecter des données** à l’étape 5, vous pouvez ignorer ce champ. L’état sera généré pour les transactions de taxe qui sont incluses dans les paiements de taxe collectés. |
+    | Version de la déclaration de taxe | <p>Vous devez sélectionner l’une des valeurs suivantes :</p><ul><li>**Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré.</li><li>**Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période.</li><li>**Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris l’original et toutes les corrections.</li></ul> |
+    | <p>Report du crédit de la précédente déclaration</p><p>Coefficient de taxation unique</p><p>Remboursement de crédit demandé Crédit de TVA transféré à la société mère du groupe sur la déclaration récapitulative</p><p>Taxes assimilées</p><p>Total à payer acquitté par la société tête de groupe sur la déclaration récapitulative</p> | Définissez ces champs comme expliqué dans la section [Aperçu de la déclaration de TVA dans Excel](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) plus haut dans cette rubrique. |
 
     Si vous avez sélectionné **Collecter des données** à l’étape 5, vous pouvez ignorer ce champ. L’état sera généré pour les transactions de taxe qui sont incluses dans les paiements de taxe collectés.
 
 11. Cliquez sur le bouton **Pièces jointes** (le symbole du trombone) dans l’angle supérieur droit de la page, puis sélectionnez **Ouvrir** pour ouvrir le fichier. Vérifiez les montants dans le document Excel.
 
-## <a name=""></a><a name="run-a-vat-declaration-for-multiple-legal-entities">Exécuter une déclaration de TVA pour plusieurs entités juridiques</a>
+## <a name="run-a-vat-declaration-for-multiple-legal-entities"></a><a name="run-a-vat-declaration-for-multiple-legal-entities"></a>Exécuter une déclaration de TVA pour plusieurs entités juridiques
 
 Pour utiliser les formats pour générer un état sur la déclaration de TVA pour un groupe d’entités juridiques, vous devez d’abord configurer les paramètres spécifiques à l’application des formats ER pour les codes de taxe de toutes les entités juridiques requises.
 
@@ -1259,9 +366,9 @@ Pour utiliser les formats pour générer un état sur la déclaration de TVA pou
 
 Suivez les étapes suivantes pour configurer des messages électroniques pour collecter des données fiscales auprès de plusieurs entités juridiques.
 
-1. Accédez à **Espaces de travail** > **Gestion des fonctionnalités**.
+1. Accédez à **Espaces de travail** \> **Gestion des fonctionnalités**.
 2. Recherchez et sélectionnez la fonctionnalité **Requêtes inter-sociétés pour les actions de remplissage des enregistrements** dans la liste, puis sélectionnez **Activer maintenant**.
-3. Accédez à **Taxe** > **Paramétrage** > **Messages électroniques** > **Actions Renseignement des enregistrements**.
+3. Accédez à **Taxe** \> **Paramétrage** \> **Messages électroniques** \> **Actions Renseignement des enregistrements**.
 4. Sur la page **Action Renseigner des enregistrements**, sélectionnez la ligne **Remplir les enregistrement de retour TVA FR**.
 
     Dans la grille **Configuration des sources de données**, un nouveau champ **Société** est disponible. Pour les enregistrements existants, ce champ affiche l’identificateur de l’entité juridique actuelle.

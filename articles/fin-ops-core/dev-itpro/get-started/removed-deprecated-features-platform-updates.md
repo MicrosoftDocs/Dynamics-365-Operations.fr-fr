@@ -2,7 +2,7 @@
 title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384718"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396547"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
@@ -31,6 +31,18 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est p
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
+
+## <a name="feature-removal-effective-march-14-2022"></a>Suppression de la fonctionnalité à compter du 14 mars 2022
+
+### <a name="xslt-scripting-in-data-management"></a>Script XSLT dans Gestion des données
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | La prise en charge des scripts XSLT dans Gestion des données est obsolète pour améliorer la sécurité et la protection des données dans les applications de finances et d’opérations.  |
+| **Remplacé par une autre fonctionnalité ?**   | Non Les clients et les éditeurs de logiciels indépendants doivent envisager de réimplémenter leurs solutions selon le langage X++, à la place des scripts XSLT. |
+| **Zones de produit affectées**         | Applications de finances et d’opérations. |
+| **Option de déploiement**              | Tout. |
+| **Status**                         | Obsolète : date de suppression prévue est le 14 mars 2022.<br><br>Exception : les clients qui utilisent actuellement les scripts XLST. Ils peuvent continuer à l’utiliser jusqu’à la mise à jour vers la version 10.0.30 ou ultérieure. Les clients avec cette exception ont reçu une notification dans le centre de messages disponible dans le centre d’administration Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Suppression de la fonctionnalité à compter d’octobre 2021
 

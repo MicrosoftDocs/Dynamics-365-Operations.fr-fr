@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720418"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396522"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Cette rubrique sera mise à jour à mesure que de nouvelles fonctionnalités sup
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification.
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+> Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.19
@@ -65,7 +65,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
-| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
+| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
 | **Zones de produit affectées**         | Tous les produits Dynamics 365 |
 | **Option de déploiement**              | Tous|
 | **État**                         | Obsolète. Internet Explorer 11 ne sera plus pris en charge après août 2021.|
@@ -78,7 +78,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
 | **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er avril 2022, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de fabrication, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](../master-planning/planning-optimization/planning-optimization-overview.md). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de fabrication après avril 2022. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **État**                         | Obsolète. À partir du 1er avril 2022, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Supply Chain Management intégré. À partir de cette date, Microsoft arrêtera tout développement actif sur les scénarios de fabrication pour le moteur de planification intégré, ne publiera aucune nouvelle fonctionnalité et ne publiera que des correctifs de bogues critiques. Après cette date, toutes les entreprises nécessitant une prise en charge des scénarios de fabrication doivent utiliser l’optimisation de la planification pour leurs calculs de planification générale. L’optimisation de la planification devrait prendre pleinement en charge les scénarios de fabrication d’ici octobre 2022. Pour plus d’informations, voir la [Documentation relative à Optimisation de la planification](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Les entreprises avec des déploiements locaux de Supply Chain Management peuvent continuer à utiliser le moteur de planification intégré pour les scénarios de fabrication après avril 2022. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.11
 

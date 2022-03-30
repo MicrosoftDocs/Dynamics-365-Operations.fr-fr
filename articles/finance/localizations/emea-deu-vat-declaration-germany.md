@@ -2,19 +2,19 @@
 title: Déclaration de TVA (Allemagne)
 description: Cette rubrique décrit comment configurer et générer une déclaration de taxe sur la valeur ajoutée (TVA) pour l’Allemagne au format XML officiel.
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860880"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402801"
 ---
 # <a name="vat-declaration-germany"></a>Déclaration de TVA (Allemagne)
 
@@ -163,6 +163,9 @@ Ouvrez l’espace de travail **Déclaration électronique** et importez les vers
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>Configurer les paramètres spécifiques à l’application pour les champs de déclaration de TVA
 
 Pour générer automatiquement une déclaration de TVA, associez les codes de taxe dans l’application aux résultats de recherche dans la configuration ER.
+
+> [!NOTE]
+> Nous vous recommandons d’activer la fonctionnalité, **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, les paramètres configurés pour la version antérieure d’un format ER deviennent automatiquement applicables pour la version ultérieure du même format. Si cette fonctionnalité n’est pas activée, vous devez configurer explicitement les paramètres spécifiques à l’application pour chaque version de format. La fonctionnalité, **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** est disponible dans l’espace de travail **Gestion des fonctionnalités** à partir de la version Finance 10.0.23. Pour plus d’informations sur la configuration des paramètres d’un format ER pour chaque entité juridique, voir [Définir les paramètres d’un format de gestion des états électroniques par entité juridique](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases sur la déclaration de TVA.
 

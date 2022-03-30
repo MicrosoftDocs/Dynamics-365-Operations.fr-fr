@@ -2,19 +2,19 @@
 title: Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 description: Cette rubrique décrit comment mettre à niveau les données à double écriture en modèle de carnet d’adresses global et de partie.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060477"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407792"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 
@@ -151,13 +151,19 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
 ## <a name="run-the-templates"></a>Exécution des modèles
 
-1. Arrêtez les mappages de double écriture de **Compte**, **Contact** et **Fournisseur** qui utilisent l’application Finances et Opérations :
+1. Arrêtez les mappages de double écriture de **Partie**, **Compte**, **Contact** et **Fournisseur** qui utilisent les applications de finances et d’opérations :
 
+    + Parties CDS (msdyn_parties) 
     + Clients V3 (accounts)
     + Clients V3 (contacts)
     + CDS Contacts V2 (contacts)
     + CDS Contacts V2 (contacts)
     + Fournisseurs V2 (msdyn_vendor)
+    + Contacts V2 (msdyn_contactforparties)
+    + CDS Localisation des adresses postales de la partie (msdyn_partypostaladdresses)
+    + CDS Historique des adresses postales V2 (msdyn_postaladdresses)
+    + CDS Localisation des adresses postales (msdyn_postaladdresscollections)
+    + Contacts de la partie V3 (msdyn_partyelectronicaddresses)
 
 2. Assurez-vous que les cartes sont supprimées de la table **msdy_dualwriteruntimeconfig** dans Dataverse.
 3. Installez [Solutions de double écriture pour les Carnets d’adresses global et de partie](https://aka.ms/dual-write-gab) à partir de AppSource.

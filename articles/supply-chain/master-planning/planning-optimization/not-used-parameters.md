@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087497"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408228"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Paramètres non utilisés par Planning Optimization
 
@@ -194,12 +194,6 @@ Planning Optimization n’utilise pas l’option de paramètre suivante sur la p
   - **Contrôle de la date de livraison** – Planning Optimization ne prend pas en charge l’option *CTP*, support *CTP* en attente.
   - **Délai de stock** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
   - **Jours ouvrés** : dans les versions du service Optimisation de la planification antérieures à la version du 6 août 2021, l’Optimisation de la planification utilise ce paramètre pour calculer les dates de commande et de livraison correctes, mais il n’enregistre pas le délai calculé lui-même dans la commande planifiée. Dans les versions ultérieures, le service utilise également le délai calculé pour définir le champ **Délai** et l’option **Jours ouvrés** requis pour la commande planifiée concernée.
-
-## <a name="working-time-calendars-page"></a>Page Calendriers de temps de travail
-
-Planning Optimization n’utilise pas le paramètre suivant sur la page **Calendriers de temps de travail** :
-
-- Support **Calendrier de base** – En attente *Calendriers de base*.
 
 ## <a name="batch-disposition-master-page"></a>Page Données principales de disposition de lot
 

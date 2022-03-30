@@ -1,23 +1,23 @@
 ---
 title: Créer une facture financière
 description: Cette rubrique explique comment créer des factures financières.
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763284"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392883"
 ---
 # <a name="create-a-free-text-invoice"></a>Créer une facture financière
 
@@ -68,6 +68,7 @@ Cette rubrique explique comment créer des factures financières. Pour la procé
 
     * Vous pouvez modifier l’échéance d’impression de la facture. Sélectionnez **Actuel** pour imprimer chaque facture dès qu’elle est mise à jour. Sélectionnez **Après** pour imprimer toutes les factures une fois qu’elles ont été mises à jour.
     * Pour modifier la façon dont la limite de crédit du client est vérifiée avant la validation de la facture, modifiez la valeur dans le champ **Type de limite de crédit**.
+    * Vous pouvez choisir d’arrêter la validation de la facture financière lorsqu’une erreur se produit sur l’onglet **Mises à jour** sur la page **Paramètres de la comptabilité client** (**Comptabilité client > Paramétrage > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour le paramètre **Arrêter la validation des factures financière dès la première erreur** pour arrêter la validation des factures financières lorsqu’une erreur survient. Si vous validez dans un lot, une erreur arrêtera le processus de validation et le statut du lot sera défini sur **Erreur**. Si cette option n’est pas sélectionnée, le processus de validation ignorera une facture avec une erreur de validation et continuera à valider des factures supplémentaires. Si vous validez dans un lot, une erreur de validation n’empêchera pas la validation d’autres factures. L’état du lot sera **Terminé**. Un rapport détaillé du processus de validation sera disponible pour examen dans l’historique des tâches par lots.
     * Pour imprimer la facture, définissez l’option sur **Oui**.
     * Pour valider la facture, définissez l’option sur **Oui**. Vous pouvez imprimer la facture sans la valider.
 
@@ -82,6 +83,12 @@ Après avoir copié des lignes, vous pouvez modifier les informations si nécess
 Vous pouvez créer une facture financière à partir d’un modèle. Lorsque vous sélectionnez **Nouveau à partir d’un modèle** sous l’onglet **Facture**, vous pouvez sélectionner un nom de modèle et le compte client pour la nouvelle facture financière. Les valeurs par défaut telles que les conditions de paiement et le mode de paiement peuvent être automatiquement renseignées à partir du client, ou vous pouvez utiliser les valeurs enregistrées dans le modèle.
 
 Une facture financière est créée et vous pouvez modifier les valeurs si nécessaire.
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Réinitialisation du statut de flux de travail pour les factures financières de Irrécupérable à Brouillon
+Une instance de workflow arrêtée en raison d’une erreur irrécupérable aura le statut de workflow de **Irrécupérable**. Lorsque le statut d’un workflow de facture financière client est **Irrécupérable**, vous pouvez le réinitialiser sur **Brouillon** en sélectionnant **Rappeler** depuis les actions du workflow. Vous pouvez ensuite modifier la facture financière client. Cette fonctionnalité est disponible que si le paramètre **Réinitialiser le statut de workflow pour les factures financières d’Irrécupérable à Brouillon** sur la page **Gestion des fonctionnalités** est activé.
+
+Vous pouvez utiliser la page **Historique du workflow** pour réinitialiser le statut du workflow sur **Brouillon**. Vous pouvez ouvrir cette page à partir de **Facture financière** ou de **Commun > Recherches > Workflow**. Pour réinitialiser le statut du workflow sur **Brouillon**, sélectionnez **Rappeler**. Vous pouvez également réinitialiser le statut du workflow sur **Brouillon** en sélectionnant l’action **Rappeler** dans la page **Facture financière** ou **Toutes les factures financières**. Une fois le statut du workflow réinitialisé sur **Brouillon**, il devient disponible pour modifier sur la page **Facture financière**.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

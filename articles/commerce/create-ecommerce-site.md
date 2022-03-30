@@ -2,7 +2,7 @@
 title: Création d’un site d’e-commerce
 description: Cette rubrique décrit les étapes et les informations requises pour créer un site d’e-commerce dans le générateur de site de Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388209"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402773"
 ---
 # <a name="create-an-e-commerce-site"></a>Création d’un site d’e-commerce
 
@@ -70,6 +70,14 @@ Pour renommer votre site dans le concepteur de sites, procédez comme suit.
 1. Pour ouvrir l’affichage de la liste des sites, sélectionnez **Commutateur de site** dans l’angle supérieur droit, puis sélectionnez **Gérer les sites**. 
 1. Cochez la case en regard du site que vous souhaitez renommer, puis sélectionnez **Renommer** sur la barre de commandes.
 1. Dans la boîte de dialogue **Nouveau nom de site**, saisissez le nom du nouveau site, puis sélectionnez **OK**. La liste des sites se met à jour pour afficher le nouveau nom du site.
+
+## <a name="delete-a-site"></a>Supprimer un site
+
+Pour supprimer un site dans le générateur de site, procédez comme suit.
+
+1. Pour ouvrir l’affichage de la liste des sites, sélectionnez **Commutateur de site** dans l’angle supérieur droit, puis sélectionnez **Gérer les sites**.
+1. Sélectionnez le site que vous souhaitez supprimer, puis sélectionnez **Supprimer** sur la barre de commandes.
+1. Dans la boîte de dialogue **Supprimer \<site name\>**, saisissez le nom du nouveau site, puis sélectionnez **Supprimer**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

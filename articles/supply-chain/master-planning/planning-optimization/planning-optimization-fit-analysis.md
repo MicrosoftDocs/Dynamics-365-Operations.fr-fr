@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344976"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408013"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -58,7 +58,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Fonctionnalité | Problème répertorié | Explication | Disponibilité attendue |
 | --- | --- | --- | --- |
 | Actions | Groupes de couverture avec le calcul des actions activé : _\#_ | Cette fonctionnalité est en attente. Actuellement, les actions ne sont pas générées lors de la planification principale lorsque l’Optimisation de la planification est activée, quel que soit ce paramètre. L’objectif principal des actions est de suggérer des modifications aux commandes existants. Évaluez si les actions sont activement appliquées dans le cadre de vos processus métier ou si les informations de délai liées aux commandes sont suffisantes. | Avril 2022 |
-| Calendriers de base | Calendriers utilisant le calendrier de base : _\#_ | Cette fonctionnalité est en attente. Actuellement, le calendrier de base est ignoré lorsque l’Optimisation de la planification est activée. Évaluez si le calendrier de base est nécessaire pour vos processus métier ou si la configuration directe dans les calendriers est suffisante. | Avril 2022 | 
+| Calendriers de base | Calendriers utilisant le calendrier de base : _\#_ | Cette fonctionnalité est désormais prise en charge. | 2022 mars | 
 | Codes disposition de lot | Données principales de disposition de lot qui ne sont pas disponibles à la vente : _\#_ | Cette fonctionnalité est en attente. Actuellement, la fonctionnalité Codes disposition de lot est ignorée lorsque l’Optimisation de la planification est activée. | Octobre 2022 ou ultérieure |
 | Capable to promise (CTP) | Paramètres de commande par défaut avec le contrôle de date de livraison défini sur CTP : _\#_ | Cette fonctionnalité est en attente. Actuellement, la fonctionnalité CTP est ignorée lorsque l’Optimisation de la planification est activée, quel que soit ce paramètre. | Octobre 2022 |
 | Copie du plan statique vers le plan dynamique | La fonctionnalité Copie du plan statique vers le plan dynamique est activée dans les paramètres de planification. | L’Optimisation de la planification ne copie pas le plan statique dans le plan dynamique, quel que soit ce paramètre. En général, ce concept est moins pertinent en raison de la vitesse et de la régénération complète fournies par l’Optimisation de la planification. Si deux plans ou plus sont utilisés, la planification principale doit être déclenchée pour chaque plan. | Octobre 2022 |

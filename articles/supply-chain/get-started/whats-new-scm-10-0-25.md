@@ -2,7 +2,7 @@
 title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384536"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414118"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.25 (avril 2022)
 
@@ -39,6 +39,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 | Inventaire&nbsp;et&nbsp;logistique | [Scannez les codes-barres dans l’entrepôt en utilisant les normes de format GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codes à barres GS1 et codes QR](../warehousing/gs1-barcodes.md) | Gestion des fonctions :<br>*Scanner les codes-barres de GS1* |
 | Fabrication | [Consommation et réservation des matières sur l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*(Version préliminaire) Enregistrer la consommation des matériaux sur l’interface d’exécution de l’atelier de production (autre que WMS)*<br><br>Et/ou :<br><br>Gestion des fonctions :<br>*(Aperçu) Enregistrer la consommation de matières sur l’interface d’exécution de l’atelier de production (compatible WMS)* |
 | Fabrication | [Enregistrer la consommation des matières sur les unités d’échelle](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-manufacturing.md) | Gestion des fonctions :<br>*Enregistrer la consommation de matières sur l’application mobile sur une unité d’échelle* |
+| Planification | [Maintenance du calendrier centralisé de l’optimisation de la planification](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Calendriers et planification](../master-planning/supply-chain-calendars-master-planning.md) | Activé par défaut |
 | Planification | [Suggestions d’optimisation de la planification pour optimiser l’offre existante](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Messages d’action](../master-planning/action-messages.md) | Activé par défaut |
 | Planification | Ordres planifiés simplifiés | [Ordres planifiés simplifiés](../master-planning/planning-optimization/planned-orders-simplified.md ) | Gestion des fonctions :<br>*Ordres planifiés simplifiés* |
 
