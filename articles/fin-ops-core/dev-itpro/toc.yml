@@ -20,9 +20,7 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.24 (février\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.23 (janvier\_2022)"
-                  href: get-started/whats-new-platform-updates-10-0-23.md
-            - name: Fonctionnalités supprimées ou déconseillées
+            - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: "Applications de finances et d’opérations dans Azure\_Data\_Lake"
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Données et métadonnées stockées dans Azure Data Lake
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: "Rendre le magasin des entités disponible en tant que Data\_Lake"
               href: data-entities/entity-store-data-lake.md
             - name: "Événements commerciaux générés par le service Exporter vers Azure\_Data\_Lake (version préliminaire)"
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: "Réutiliser la même instance AD\_FS pour plusieurs environnements"
                       href: deployment/onprem-reuseadfs.md
+                    - name: Mettre à niveau Windows Server dans vos environnements Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-os.md
                     - name: Mettre à niveau l’instance SQL Server des environnements Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Agent local
@@ -932,9 +934,11 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS pour les partenaires
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Navigateurs Web pris en charge
+                  href: lifecycle-services/web-browsers.md
                 - name: RESTful API
                   items:
-                    - name: Démarrage et arrêter les environnements
+                    - name: Démarrer et arrêter les environnements
                       href: lifecycle-services/api/v1/reference-start-stop-environments.md
                     - name: Extraire les métadonnées d’environnement
                       href: lifecycle-services/api/v1/reference-environment-metadata.md
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Mettre à niveau les fichiers de paramètres
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Mode d’essai sans Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Didacticiel Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Configurer les utilisateurs non administrateurs

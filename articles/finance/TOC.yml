@@ -12,14 +12,12 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Finance
                   href: get-started/whats-new-home-page.md
-                - name: Finance 10.0.26 (mai)
+                - name: "Finance\_10.0.26 (mai)"
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: "Finance\_10.0.25 (avril)"
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: "Finance\_10.0.24 (février)"
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: "Finance\_10.0.23 (janvier)"
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
@@ -414,8 +412,20 @@
               items:
                 - name: Présentation de la facturation de l’abonnement
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Établir des calendriers de facturation
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Facturation des contrats récurrents
+                  items:
+                    - name: Créer des échéanciers de facturation
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Copier un échéancier de facturation
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Facturation jalonnée
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Terminer les échéanciers de facturation
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Reports de revenus et de dépenses
+                  items: null
+                - name: Répartition des revenus à plusieurs éléments
+                  items: null
             - name: Paiements et règlements
               items:
                 - name: Vue d’ensemble des paiements client
@@ -1443,11 +1453,11 @@
                             - name: Configurer un canal SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Configurer et utiliser la facturation électronique avec Finance et Supply Chain Management
-                          items: null
-                        - name: Activer et configurer l’intégration avec la facturation électronique
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Configurer les paramètres de facturation électronique
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Activer et configurer l’intégration avec la facturation électronique
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Configurer les paramètres de facturation électronique
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Utiliser la facturation électronique
                           items:
                             - name: Soumettre des documents électroniques à la facturation électronique
@@ -1532,6 +1542,10 @@
                           items:
                             - name: Déclaration de TVA
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Génération d’états pour la Finlande
+                          items:
+                            - name: Déclaration de TVA
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Génération d’états pour la France
                           items:
                             - name: Déclaration de TVA
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Liste des ventes intracommunautaires
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Génération d’états pour la Norvège
+                          items:
+                            - name: Déclaration de TVA
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: Génération d’états pour l’Espagne
                           items:
                             - name: 'Fourniture immédiate d’informations sur la TVA (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,11 +1582,7 @@
                           items:
                             - name: Déclaration de TVA
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Génération d’états pour la Norvège
-                          items:
-                            - name: Déclaration de TVA
-                              href: localizations/emea-nor-vat-declaration.md
-                    - name: Activer le calcul de la taxe pour l’ordre de transfert
+                    - name: Activer le calcul de la taxe pour les ordres de transfert
                       items:
                         - name: Prise en charge de la fonction de taxe pour les ordres de transfert
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Commissions sur les matières d’emballage
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Relevés de TVA
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: État des services transfrontaliers
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Déclaration d’échanges de biens (Autriche)
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Mettre à jour le mode d’affichage des montants dans les états et documents
                   href: localizations/emea-amount-printing-forms.md
-                - name: Relevés de TVA
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: Déclaration de TVA (République tchèque)
+                - name: Déclaration de TVA
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Déclaration d’échanges de biens (République tchèque)
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Déclaration d’échanges de biens (Danemark)
                   href: localizations/emea-dnk-intrastat.md
+                - name: Déclaration de TVA
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Égypte
               items:
                 - name: Vue d’ensemble de l’Égypte
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Déclaration d’échanges de biens finlandaise
                   href: localizations/emea-fin-intrastat.md
+                - name: Déclaration de TVA
+                  href: localizations/emea-fin-vat-declaration.md
             - name: France
               items:
                 - name: Vue d’ensemble de la France
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Déclaration de TVA
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Transmission électronique de la déclaration de TVA (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Déclaration d’échanges de biens (Allemagne)
                   href: localizations/emea-deu-intrastat.md
-                - name: Relevés de TVA
-                  href: localizations/emea-de-vat-declaration.md
                 - name: État Factures électroniques client
                   href: localizations/emea-deu-e-invoices.md
                 - name: État Liste de journaux
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Liste des ventes intracommunautaires
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: Déclaration de TVA
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Hongrie
               items:
                 - name: Vue d’ensemble de la Hongrie
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: Importer des services avec GST
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Répartition des frais sur la page Déclaration d’entrée en douane pour les commandes d’importation
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: Exporter des marchandises avec taxe à taux zéro
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: Exporter des services avec taxe à taux zéro
@@ -3116,17 +3126,13 @@
               items:
                 - name: Vue d’ensemble des Pays-Bas
                   href: localizations/netherlands.md
-                - name: Déclaration de TVA
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Déclarations fiscales électroniques (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: "Intégration Semansys\_XBRL"
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Fichier d’audit (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: Déclaration de TVA (Pays-Bas)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Déclaration d’échanges de biens (Pays-Bas)
+                - name: Déclaration d’échanges de biens
                   href: localizations/emea-nl-intrastat.md
                 - name: Liste des ventes intracommunautaires
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: État de paiement de la taxe pour la Suède
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Déclaration de TVA pour la Suède
+                - name: Déclaration de TVA
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Déclaration d’échanges de biens (Suède)
                   href: localizations/emea-swe-intrastat.md
