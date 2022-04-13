@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902095"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462668"
 ---
 # <a name="mobile-device-user-accounts"></a>Comptes d’utilisateur d’appareil mobile
 
@@ -90,8 +90,8 @@ Lorsqu’un collaborateur se connecte à l’application mobile Warehouse Manage
 1. Dans le volet Actions, sélectionnez **Options utilisateur**.
 1. Dans l’onglet **Préférences**, définissez les champs suivants :
 
-    - **Langue** – Sélectionnez la langue préférée du collaborateur. Ce champ contrôle également le format de date affiché dans l’application d’entrepôt.
-    - **Format de date, d’heure et de numéro** – Sélectionnez la langue qui déterminera les formats de numéro affichés dans l’application d’entrepôt. Notez que les formats de date et d’heure affichés dans l’application d’entrepôt sont en fait déterminés par le champ **Langue**, et non par ce champ.
+    - **Langue** – Sélectionnez la langue préférée du collaborateur. Ce champ contrôle également le format de nombre affiché dans l’application d’entrepôt.
+    - **Format de date, d’heure et de nombre** – Sélectionnez le format de date et d’heure que l’opérateur préfère. L’application d’entrepôt utilise le format numérique associé à la langue choisie pour le champ **Langue** au lieu de ce paramètre.
     - **Fuseau horaire** – Sélectionnez le fuseau horaire dans lequel travaille le collaborateur. Ce champ affecte l’horodatage de toutes les inscriptions effectuées par le collaborateur à l’aide de l’application.
 
 > [!NOTE]

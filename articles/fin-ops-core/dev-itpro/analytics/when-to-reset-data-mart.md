@@ -2,7 +2,7 @@
 title: FAQ sur les réinitialisations du mini-data warehouse
 description: Cette rubrique fournit des réponses à quelques-unes des questions fréquemment posées sur les réinitialisations du mini-data warehouse.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119510"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466409"
 ---
 # <a name="data-mart-resets-faq"></a>FAQ sur les réinitialisations du mini-data warehouse
 
@@ -47,10 +47,14 @@ Si une ou plusieurs des affirmations suivantes s’appliquent à votre situation
 Voici certaines des circonstances dans lesquelles il est déconseillé de réinitialiser un mini-data warehouse :
 
 - Vous rencontrez des problèmes de performances d’intégration de données.
+- Votre intégration Financial Reporter n’est pas activée. 
+
+    - Cela signifie que les données du grand livre ne sont plus synchronisées avec votre magasin de données Financial Reporting. Votre instance Financial Reporter n’obtient peut-être pas des chiffres à jour pour vos états financiers. Cela se produit généralement si vous n’avez pas utilisé Financial Reporter pendant une longue période.
+    - Vous serez invité à activer l’intégration en réinitialisant le magasin de données. Vous pouvez continuer en sélectionnant **Oui**. Vous pouvez également choisir de réinitialiser le magasin de données ultérieurement. Une fois l’intégration activée, vos données de comptabilité sont à nouveau synchronisées dans Financial Reporter. 
 - Vous rencontrez un schéma de réinitialisation récurrent pour l’une des raisons suivantes :
 
     - **Données manquantes ou inattendues dans le rapport** - Si vous remarquez que des données sont manquantes, ouvrez un ticket de support auprès de Microsoft pour examiner le format de l’état et les éventuels problèmes de synchronisation des données.
-    - **État d’intégration bloqué**
+    - **État d’intégration bloqué** - Si vous remarquez que l’état de l’intégration est bloqué en cours d’exécution, cela peut être dû à un grand volume de transactions dans le système. Cet état se résoudra de lui-même. Cependant, si vous remarquez que le statut d’intégration est bloqué pendant plus de quatre heures, ouvrez un ticket de support auprès de Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Si je réinitialise le mini-data warehouse, vais-je perdre les états que j’ai déjà conçus ?
 

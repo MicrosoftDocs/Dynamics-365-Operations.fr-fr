@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386996"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524435"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 
@@ -35,7 +35,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 | Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
 | Inventaire et logistique | [Requête de disponibilité de la visibilité de l’inventaire pour prendre en charge les éléments de gestion des entrepôts avancés](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Bientôt disponible | Gestion des fonctions :<br>*Activer les articles d’entrepôt dans Visibilité des stocks* |
-| Inventaire et logistique | [Disponible à la promesse pour le complément Visibilité des stocks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Bientôt disponible | Activé par la configuration du service |
+| Inventaire et logistique | [Disponible à la promesse pour le complément Visibilité des stocks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](../inventory/inventory-visibility-available-to-promise.md) | Activé par la configuration du service |
 | Fabrication | [Éléments à poids variable pour l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*(Aperçu) État sur les articles en poids variable à partir de l’interface d’exécution de l’atelier de production* |
 | Fabrication | Onglet Mes tâches sur l’interface d’exécution de l’atelier de production <!-- KFM: Add link to release plan when available --> | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*Onglet Mes tâches sur l’interface d’exécution de l’atelier de production* |
 

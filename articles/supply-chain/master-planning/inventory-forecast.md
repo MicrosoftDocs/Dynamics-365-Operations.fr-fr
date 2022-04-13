@@ -1,22 +1,22 @@
 ---
 title: Prévisions du stock
 description: Cette rubrique décrit la fonctionnalité de prévision de l’offre et de la demande utilisable pour créer des prévisions de stock dans Microsoft Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577550"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469392"
 ---
 # <a name="inventory-forecasts"></a>Prévisions du stock
 
@@ -334,7 +334,7 @@ Le tableau suivant décrit les champs de la grille sur la page **Prévision de s
 La procédure suivante permet de traiter les lignes de transaction de prévision sélectionnées. Lorsque vous affectez une prévision, la quantité est ensuite répartie comme indiqué par les lignes de la grille **Répartition**.
 
 1. Selon le type d’entité pour lequel vous créez une prévision et le type de prévision que vous souhaitez créer, ouvrez une page de prévision d’offre ou de demande, comme décrit dans [Afficher et saisir manuellement des lignes de prévision](#manual-entry).
-1. Sur la page des lignes de prévision de l'offre ou de la demande, sélectionnez une ligne de prévision, puis, sur l'onglet **Vue d'ensemble**, sélectionnez **Répartir la prévision** sur la barre d'outils.
+1. Sur la page des lignes de prévision de l’offre ou de la demande, sélectionnez une ligne de prévision, puis, sur l’onglet **Vue d’ensemble**, sélectionnez **Répartir la prévision** sur la barre d’outils.
 1. Dans la boîte de dialogue **Répartir la prévision**, définissez les champs décrits dans le tableau suivant. (La valeur que vous sélectionnez dans le champ **Méthode** détermine les autres champs disponibles.)
 
     | Champ | Description |
@@ -343,10 +343,10 @@ La procédure suivante permet de traiter les lignes de transaction de prévision
     | Par | <p>Permet d’entrer le nombre d’intervalles de temps dans le futur couverts par la prévision. Ce champ n’est disponible que si vous avez sélectionné *Période* dans le champ **Méthode**.</p><p>Par exemple, sélectionnez *Période* dans le champ **Méthode**, entrez *1* dans le champ **Par**, et sélectionnez *Mois* dans le champ **Unité**. Ensuite, dans le champ **Fin**, spécifiez une date de fin pouvant aller jusqu’à 1 an dans le futur. Dans ce cas, une ligne de prévision sera créée pour chaque mois de l’année à venir, en fonction de l’article et de la quantité spécifiés sur la ligne d’en-tête. |
     | Unité | Sélectionnez l’unité de l’intervalle de temps : *Jours*, *Mois* ou *Années*. La répartition correspond alors au nombre de jours, mois ou années que vous avez spécifié dans le champ **Par**.|
     | Clé de période | Spécifiez la clé de répartition par période utilisée pour répartir la prévision. Pour plus d’informations, voir [Répartition de données de planification budgétaire](../../finance/budgeting/budget-planning-data-allocation.md). |
-    | Terminer | Spécifiez la date de fin qui s'applique à vos paramètres dans les champs **Par** et **Unité**. |
+    | Terminer | Spécifiez la date de fin qui s’applique à vos paramètres dans les champs **Par** et **Unité**. |
 
 1. Sélectionnez **OK** pour confirmer vos paramètres.
-1. Vous pouvez consulter les résultats sur l'onglet **Répartition** pour la même ligne.
+1. Vous pouvez consulter les résultats sur l’onglet **Répartition** pour la même ligne.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Mise à jour en bloc des transactions de prévision
 

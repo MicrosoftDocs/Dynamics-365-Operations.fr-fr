@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984567"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487766"
 ---
 # <a name="e-commerce-site-overview"></a>Présentation du site d’e-commerce
 
@@ -86,7 +86,7 @@ Les sites **Par défaut** et **fabrikam** incluent des modèles, des fragments e
 Pour plus d’informations sur la gestion des paramètres de votre site, voir les rubriques suivantes :
 
 - [Gestion des utilisateurs et des rôles d’e-commerce](manage-ecommerce-users-roles.md)
-- [Considérations relatives à l’optimisation du référencement d’un site auprès d’un moteur de recherche (SEO) pour le site](/search-engine-optimization-considerations.md)
+- [Considérations relatives à l’optimisation du référencement d’un site auprès d’un moteur de recherche (SEO) pour le site](search-engine-optimization-considerations.md)
 - [Gérer la stratégie de sécurité de contenu (CSP)](manage-csp.md)
 - [Sélectionner un thème pour le site](select-site-theme.md)
 

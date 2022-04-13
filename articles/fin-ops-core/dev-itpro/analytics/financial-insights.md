@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416303"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464907"
 ---
 # <a name="financial-analysis"></a>Analyse financière
 
@@ -36,9 +36,9 @@ L’**analyse financière** combine les données de la comptabilité et des comp
 > - **Page** – Onglet dans un fichier .pbix unique. Chaque page peut contenir un ou plusieurs éléments visuels.
 > - **Élément visuel** – Source de données unique, telle qu’une carte, un indicateur de performance clé, un graphique, une matrice ou un tableau d’analyse. Une page contenant un tableau d’analyse comme élément visuel ne peut pas avoir d’autres éléments visuels, en raison de la taille des données générées.
 
-L'espace de travail **Analyse financière** vous permet essentiellement d’afficher et de filtrer les données des états existants. Vous pouvez ajouter de nouveaux éléments visuels à l’espace de travail **Analyse financière**. L'espace de travail **Analyse financière** est disponible pour la société actuelle ainsi que pour toutes les sociétés afin d'afficher les données de toutes les entités juridiques, quelles que soient les entités juridiques auxquelles le rôle a accès.
+L’espace de travail **Analyse financière** vous permet essentiellement d’afficher et de filtrer les données des états existants. Vous pouvez ajouter de nouveaux éléments visuels à l’espace de travail **Analyse financière**. L’espace de travail **Analyse financière** est disponible pour la société actuelle ainsi que pour toutes les sociétés afin d’afficher les données de toutes les entités juridiques, quelles que soient les entités juridiques auxquelles le rôle a accès.
 
-- [Ajouter ou modifier les visualisations Power BI sur votre tableau de bord](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [Ajouter ou modifier les visualisations Power BI sur votre tableau de bord](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Configuration Dynamics 365 Finance
 **Comptabilité**

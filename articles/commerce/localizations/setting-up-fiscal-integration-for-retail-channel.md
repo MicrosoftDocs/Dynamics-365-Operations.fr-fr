@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388388"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462155"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurer l’intégration fiscale pour les canaux de commerce
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique donne des instructions pour configurer la fonctionnalité d’intégration fiscale pour les canaux de commerce. Pour plus d’informations sur l’intégration fiscale, voir [Vue d’ensemble de l’intégration fiscale pour les canaux de commerce](fiscal-integration-for-retail-channel.md).
 
@@ -54,7 +53,7 @@ Un fournisseur de documents fiscaux est responsable de la génération des docum
 
 Pour télécharger les configurations des fournisseurs de documents fiscaux, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Fournisseurs de documents fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Fournisseurs de documents fiscaux**).
+1. Dans Commerce Headquarters, accédez à la page **Fournisseurs de documents fiscaux** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Fournisseurs de documents fiscaux**).
 1. Importez une configuration XML pour chaque périphérique ou service que vous prévoyez d’utiliser.
 
 > [!TIP]
@@ -69,7 +68,7 @@ Un connecteur fiscal est responsable de la communication avec un périphérique 
 
 Pour télécharger les configurations des connecteurs, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Connecteurs fiscaux**).
+1. Dans Commerce Headquarters, accédez à la page **Connecteurs fiscaux** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Connecteurs fiscaux**).
 1. Importez une configuration XML pour chaque périphérique ou service que vous prévoyez d’utiliser à des fins d’intégration fiscale.
 
 > [!TIP]
@@ -81,7 +80,7 @@ Pour des exemples de configuration des connecteurs fiscaux et fournisseurs de do
 
 Pour créer des profils fonctionnels de connecteur, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Profils fonctionnels de connecteur** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Profils fonctionnels de connecteur**).
+1. Dans Commerce Headquarters, accédez à la page **Profils fonctionnels de connecteur** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Profils fonctionnels de connecteur**).
 1. Pour chaque combinaison d’un connecteur fiscal et d’un fournisseur de documents fiscaux associé à ce connecteur fiscal, créez un profil fonctionnel de connecteur en procédant comme suit :
 
     1. Sélectionnez un nom de connecteur.
@@ -106,7 +105,7 @@ Pour rétablir les paramètres par défaut définis dans la configuration du fou
 
 Pour créer des profils techniques de connecteur, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Profils techniques de connecteur** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Profils techniques de connecteur**).
+1. Dans Commerce Headquarters, accédez à la page **Profils techniques de connecteur** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Profils techniques de connecteur**).
 1. Créez un profil technique de connecteur pour chaque connecteur fiscal en suivant ces étapes :
 
     1. Sélectionnez un nom de connecteur.
@@ -136,7 +135,7 @@ Un groupe de connecteurs fiscaux associe des profils fonctionnels des connecteur
 
 Pour créer un groupe de connecteurs fiscaux, procédez comme suit.
 
-1. Accédez à la page **Groupe de connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**).
+1. Accédez à la page **Groupe de connecteurs fiscaux** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**).
 1. Créez un groupe de connecteurs fiscaux.
 1. Ajoutez des profils fonctionnels dans le groupe de connecteurs. Sur l’onglet **Profils fonctionnels**, sélectionnez **Ajouter**, puis sélectionnez un numéro de profil. Chaque connecteur fiscal au sein d’un groupe de connecteurs ne peut avoir qu’un profil fonctionnel.
 1. Pour interrompre l’utilisation du profil fonctionnel, définissez **Désactiver** sur **Oui**. Cette modification affecte uniquement le groupe de connecteurs actuel. Vous pouvez continuer à utiliser le même profil fonctionnel dans d’autres groupes de connecteurs.
@@ -147,7 +146,7 @@ Un processus d’enregistrement fiscal est défini par la séquence des étapes 
 
 Pour créer un processus d’enregistrement fiscal, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Proceessus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**).
+1. Dans Commerce Headquarters, accédez à la page **Processus d’enregistrement fiscal** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**).
 1. Créez un enregistrement pour chaque processus d’enregistrement fiscal unique.
 1. Ajoutez des étapes d’inscription au processus en suivant ces étapes :
 
@@ -159,11 +158,11 @@ Pour créer un processus d’enregistrement fiscal, procédez comme suit.
 
 Pour affecter les entités du processus d’enregistrement fiscal aux profils du PDV, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Profils de fonctionnalité du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage Point de vente \> Profils Point de vente \> Profils de fonctionnalité**). 
+1. Dans Commerce Headquarters, accédez à la page **Profils de fonctionnalité du PDV** (**Commerce et vente au détail \> Paramétrage du canal \> Paramétrage Point de vente \> Profils Point de vente \> Profils de fonctionnalité**). 
 1. affectation du processus d’enregistrement fiscal aux profils de fonctionnalité du PDV.
 1. Sélectionnez **Modifier**, puis, dans l’onglet **Processus d’enregistrement fiscal**, dans le champ **Numéro du processus**, sélectionnez un processus.
 1. Sur l’onglet **Services fiscaux**, sélectionnez les profils techniques du connecteur avec l’emplacement du connecteur **S’inscrire**.
-1. Accédez à la page **Profil matériel du PDV** (**Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Profils PDV \> Profils matériel**).
+1. Accédez à la page **Profil matériel du PDV** (**Commerce et vente au détail \> Paramétrage du canal \> Paramétrage du PDV \> Profils PDV \> Profils matériel**).
 1. Affectez des profils techniques de connecteur à un profil matériel. 
 1. Sélectionnez **Modifier**, puis, sur l’onglet **Périphériques fiscaux**, ajoutez une ligne. 
 1. Dans le champ **Numéro de profil**, sélectionnez un profil technique du connecteur.
@@ -185,7 +184,7 @@ Vous pouvez sélectionner des registres où l’enregistrement fiscal est interd
 
 Pour configurer des registres avec des restrictions d’enregistrement fiscal, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**.
+1. Dans Commerce Headquarters, accédez à **Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**.
 1. Sélectionnez le processus requis.
 1. Sélectionnez l’onglet **Registres de point de vente avec restrictions de processus fiscaux**.
 1. Ajouter des registres avec restrictions de processus fiscaux, le cas échéant.
@@ -200,13 +199,13 @@ Il est recommandé de valider le processus d’enregistrement fiscal dans les ca
 
 Pour valider le processus d’enregistrement fiscal, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à la page **Proceessus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**).
+1. Dans Commerce Headquarters, accédez à la page **Proceessus d’enregistrement fiscal** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Processus d’enregistrement fiscal**).
 1. Sélectionnez **Valider** pour valider le processus d’enregistrement fiscal.
 1. Sur la page **Programme de distribution**, exécutez les tâches **1070** et **1090** pour transférer des données vers la base de données des canaux.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Configurer les textes fiscaux pour les remises
 
-Dans certains cas, un texte spécifique doit être imprimé sur un reçu fiscal si une remise est appliquée. Vous pouvez définir les textes fiscaux pour les remises dans la page **Groupe de connecteurs fiscaux** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**).
+Dans certains cas, un texte spécifique doit être imprimé sur un reçu fiscal si une remise est appliquée. Vous pouvez définir les textes fiscaux pour les remises dans la page **Groupe de connecteurs fiscaux** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Groupes de connecteurs fiscaux**).
 
 - Pour les remises manuelles appliquées au PDV, vous devez configurer un texte fiscal pour le code d’informations ou le groupe de codes d’informations spécifié comme code d’informations **Remise de produit** dans le profil de fonctionnalité du PDV.
 
@@ -235,7 +234,7 @@ Les options de traitement des erreurs disponibles dans l’intégration fiscale 
 
 Pour définir les paramètres de gestion des erreurs, procédez comme suit.
 
-1. Dans la page **Processus d’enregistrement fiscal** (**Retail et Commerce \> Paramétrage du canal \> Intégration fiscale \> Processus d’intégration fiscale**), vous pouvez définir les paramètres suivants pour chaque étape du processus d’enregistrement fiscal :
+1. Dans la page **Processus d’enregistrement fiscal** (**Commerce et vente au détail \> Paramétrage du canal \> Intégration fiscale \> Processus d’intégration fiscale**), vous pouvez définir les paramètres suivants pour chaque étape du processus d’enregistrement fiscal :
 
     - **Autoriser Ignorer** – Ce paramètre active l’option **Ignorer** dans la boîte de dialogue de traitement des erreurs.
     - **Autoriser Marquer comme enregistrée** – Ce paramètre active l’option **Marquer comme enregistrée** dans la boîte de dialogue de traitement des erreurs.
@@ -245,8 +244,8 @@ Pour définir les paramètres de gestion des erreurs, procédez comme suit.
     > [!NOTE]
     > Si le paramètre **Continuer lors d’erreurs** est activé, les paramètres **Autoriser Ignorer** et **Autoriser Marquer comme enregistré** sont automatiquement désactivés.
 
-1. Les options **Ignorer** et **Marquer comme enregistré** dans la boîte de dialogue de traitement des erreurs nécessite l’autorisation **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré**. Pour activer cette autorisation, accédez à la page **Groupes d’autorisations** (**Retail et Commerce \> Employés \> Groupes d’autorisations**) et définissez l’option **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré** sur **Oui**.
-1. L’option **Reporter** dans la boîte de dialogue de traitement des erreurs exige que l’autorisation **Autoriser Reporter** soit activée. Pour activer l’autorisation, accédez à la page **Groupes d’autorisations** (**Retail et Commerce \> Employés \> Groupes d’autorisations**) et définissez l’option **Autoriser Reporter** sur **Oui**.
+1. Les options **Ignorer** et **Marquer comme enregistré** dans la boîte de dialogue de traitement des erreurs nécessite l’autorisation **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré**. Pour activer cette autorisation, accédez à la page **Groupes d’autorisations** (**Commerce et vente au détail \> Employés \> Groupes d’autorisations**) et définissez l’option **Autoriser Ignorer l’enregistrement ou Marquer comme enregistré** sur **Oui**.
+1. L’option **Reporter** dans la boîte de dialogue de traitement des erreurs exige que l’autorisation **Autoriser Reporter** soit activée. Pour activer l’autorisation, accédez à la page **Groupes d’autorisations** (**Commerce et vente au détail \> Employés \> Groupes d’autorisations**) et définissez l’option **Autoriser Reporter** sur **Oui**.
 1. Les options **Ignorer**, **Marquer comme enregistrée** et **Reporter** permettent aux opérateurs de renseigner des informations supplémentaires lorsque l’enregistrement fiscal échoue. Pour rendre cette fonctionnalité disponible, vous devez spécifier les codes info **Ignorer**, **Marquer comme enregistrée** et **Reporter** sur un groupe de connecteurs fiscaux. Les informations que les opérateurs saisissent sont ensuite enregistrées comme transaction de code info liée à la transaction fiscale. Pour plus d’informations sur les codes info, voir [Codes info et groupes de codes info](../info-codes-retail.md).
 
     > [!NOTE]
@@ -260,7 +259,7 @@ Pour définir les paramètres de gestion des erreurs, procédez comme suit.
     > - **Document fiscal** – Désigne un document obligatoire qui doit être enregistré avec succès (par exemple, un reçu fiscal).
     > - **Document non fiscal** – Désigne un document supplémentaire pour la transaction ou l’événement (par exemple, un bordereau de carte cadeau).
 
-1. Si l’opérateur doit pouvoir continuer le traitement de l’opération en cours (par exemple, la création ou la finalisation d’une transaction) après la survenue d’une erreur de contrôle d’intégrité, vous devez activer l’autorisation **Autoriser d’ignorer l’erreur du contrôle d’intégrité** dans la page **Groupes d’autorisations** (**Retail et Commerce \> Employés \> Groupes d’autorisations**). Pour plus d’informations sur la procédure de contrôle d’intégrité, voir [Contrôle d’intégrité d’enregistrement fiscal](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+1. Si l’opérateur doit pouvoir continuer le traitement de l’opération en cours (par exemple, la création ou la finalisation d’une transaction) après la survenue d’une erreur de contrôle d’intégrité, vous devez activer l’autorisation **Autoriser d’ignorer l’erreur du contrôle d’intégrité** dans la page **Groupes d’autorisations** (**Commerce et vente au détail \> Employés \> Groupes d’autorisations**). Pour plus d’informations sur la procédure de contrôle d’intégrité, voir [Contrôle d’intégrité d’enregistrement fiscal](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Configurer les états X/Z fiscaux depuis le PDV
 

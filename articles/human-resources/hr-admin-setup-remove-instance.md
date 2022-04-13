@@ -1,6 +1,6 @@
 ---
 title: Supprimer une instance
-description: Cette rubrique décrit le processus de suppression d'un pilote test ou d'un environnement de production pour Microsoft Dynamics 365 Human Resources.
+description: Cette rubrique décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: ba5d69ca33ac84743b178ded80b482eee6edab1e
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393495"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487728"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
 
@@ -78,7 +78,7 @@ Si vous supprimez l’environnement Power Apps auquel votre environnement Human 
 
 Pour restaurer l’environnement :
 
-1. Suivez les instructions dans [Récupérer l’environnement Power Apps](/power-platform/admin/recover-environment.md).
+1. Suivez les instructions dans [Récupérer l’environnement Power Apps](/power-platform/admin/recover-environment).
 
 2. Contactez le support pour restaurer l’environnement Human Resources. Pour plus d’informations, voir [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 

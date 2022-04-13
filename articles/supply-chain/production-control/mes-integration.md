@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330699"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487579"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Intégration avec des systèmes d’exécution de fabrication tiers
 
@@ -65,6 +65,8 @@ Vous pouvez activer tout ou partie des processus suivants pour l’intégration.
 ## <a name="monitor-incoming-messages"></a>Surveiller les messages entrants
 
 Pour surveiller les messages entrants dans le système, ouvrez la page **Intégration des systèmes d’exécution de la production**. Là, vous pouvez afficher, traiter et résoudre les problèmes.
+
+Tous les messages pour un ordre de fabrication spécifique sont traités dans l’ordre dans lequel ils sont reçus. Cependant, les messages pour différents ordres de fabrication peuvent ne pas être traités dans l’ordre reçu car les travaux par lots sont traités en parallèle. En cas d’échec, le traitement par lots tentera de traiter chaque message trois fois avant de le définir au statut *Échoué*.
 
 ## <a name="call-the-api"></a>Appeler l’API
 
@@ -119,13 +121,13 @@ Le tableau suivant montre les champs que chaque ligne de la section `ReportFinis
 | `ReportedGoodQuantity` | Facultatif | Réel|
 | `ReportedErrorCatchWeightQuantity` | Facultatif | Réel |
 | `ReportedGoodCatchWeightQuantity` | Facultatif | Réel |
-| `AcceptError` | Facultatif |Booléen |
+| `AcceptError` | Facultatif | Enum (Oui \| Non) |
 | `ErrorCause` | Facultatif | Enum (Aucun \| Matériel \| Machine \| PersonnelExploitation), extensible |
 | `ExecutedDateTime` | Facultatif | Date et heure |
 | `ReportAsFinishedDate` | Facultatif | Date |
 | `AutomaticBOMConsumptionRule` | Facultatif | Enum (PrincipeEffacement \| Toujours \| Jamais) |
 | `AutomaticRouteConsumptionRule` | Facultatif |Enum (DépendantGamme \| Toujours \| Jamais) |
-| `RespectFlushingPrincipleDuringOverproduction` | Facultatif | Booléen |
+| `RespectFlushingPrincipleDuringOverproduction` | Facultatif | Enum (Oui \| Non) |
 | `ProductionJournalNameId` | Facultatif | Chaîne |
 | `PickingListProductionJournalNameId` | Facultatif | Chaîne|
 | `RouteCardProductionJournalNameId` | Facultatif | Chaîne |
@@ -133,11 +135,11 @@ Le tableau suivant montre les champs que chaque ligne de la section `ReportFinis
 | `ToOperationNumber` | Facultatif | Entier|
 | `InventoryLotId` | Facultatif | Chaîne |
 | `BaseValue` | Facultatif | Chaîne |
-| `EndJob` | Facultatif | Booléen |
-| `EndPickingList` | Facultatif | Booléen |
-| `EndRouteCard` | Facultatif | Booléen |
-| `PostNow` | Facultatif | Booléen |
-| `AutoUpdate` | Facultatif | Booléen |
+| `EndJob` | Facultatif | Enum (Oui \| Non) |
+| `EndPickingList` | Facultatif | Enum (Oui \| Non) |
+| `EndRouteCard` | Facultatif | Enum (Oui \| Non) |
+| `PostNow` | Facultatif | Enum (Oui \| Non) |
+| `AutoUpdate` | Facultatif | Enum (Oui \| Non) |
 | `ProductColorId` | Facultatif | Chaîne|
 | `ProductConfigurationId` | Facultatif | Chaîne |
 | `ProductSizeId` | Facultatif | Chaîne |
@@ -181,7 +183,7 @@ Le tableau suivant montre les champs que chaque ligne de la section `PickingList
 | `OperationNumber` | Facultatif | Entier |
 | `LineNumber` | Facultatif | Réel |
 | `PositionNumber` | Facultatif | Chaîne |
-| `IsConsumptionEnded` | Facultatif | Booléen |
+| `IsConsumptionEnded` | Facultatif | Enum (Oui \| Non) |
 | `ErrorCause` | Facultatif | Enum (Aucun \| Matériel \| Machine \| PersonnelExploitation), extensible |
 | `InventoryLotId` | Facultatif | Chaîne |
 
@@ -217,9 +219,9 @@ Le tableau suivant montre les champs que chaque ligne de la section `RouteCardLi
 | `ConsumptionDate` | Facultatif | Date |
 | `TaskType` | Facultatif | Enum (FileAttenteAvant \| Configuration \| Processus \| Chevauchement \| Transport \| FileAttenteAprès \| Charge) |
 | `ErrorCause` | Facultatif | Enum (Aucun \| Matériel \| Machine \| PersonnelExploitation), extensible |
-| `OperationCompleted` | Facultatif | Booléen |
-| `BOMConsumption` | Facultatif | Booléen |
-| `ReportAsFinished` | Facultatif | Booléen |
+| `OperationCompleted` | Facultatif | Enum (Oui \| Non) |
+| `BOMConsumption` | Facultatif | Enum (Oui \| Non) |
+| `ReportAsFinished` | Facultatif | Enum (Oui \| Non) |
 
 ### <a name="end-production-order-message"></a>Message Terminer un ordre de fabrication
 
@@ -230,9 +232,13 @@ Pour le message *terminer l’ordre de fabrication*, la valeur `_messageType` es
 | `ProductionOrderNumber` | Obligatoire | Chaîne |
 | `ExecutedDateTime` | Facultatif | Date et heure |
 | `EndedDate` | Facultatif | Date |
-| `UseTimeAndAttendanceCost` | Facultatif | Booléen |
-| `AutoReportAsFinished` | Facultatif | Booléen |
-| `AutoUpdate` | Facultatif | Booléen |
+| `UseTimeAndAttendanceCost` | Facultatif | Enum (Oui \| Non) |
+| `AutoReportAsFinished` | Facultatif | Enum (Oui \| Non) |
+| `AutoUpdate` | Facultatif | Enum (Oui \| Non) |
+
+## <a name="other-production-information"></a>Autres informations sur la fabrication
+
+Les messages prennent en charge des actions ou des événements qui se produisent dans l’atelier. Ils sont traités à l’aide de l’infrastructure d’intégration MES décrite dans cette rubrique. La conception suppose que d’autres informations de référence à partager avec le MES (telles que les informations relatives au produit, ou la nomenclature ou la gamme (avec ses temps d’installation et de configuration spécifiques) utilisées dans un ordre de fabrication spécifique) seront extraites du système en utilisant des [entités de données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) via transfert de fichier ou OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Recevoir des commentaires sur l’état d’un message
 

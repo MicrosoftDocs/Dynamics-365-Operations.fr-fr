@@ -1,7 +1,7 @@
 ---
 title: Gérer les congés des employés
 description: Gérer les congés des employés dans Dynamics 365 Human Resources.
-author: andreabichsel
+author: twheeloc
 ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e3c2ad8b25b337327823665dfbd551bbb5dbd959
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067375"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509526"
 ---
 # <a name="manage-employee-leave"></a>Gérer les congés des employés
 
+>[!Important]
+>La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

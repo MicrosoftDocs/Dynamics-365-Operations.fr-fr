@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble de la prévision de la demande
 description: La prévision de la demande est utilisée pour prévoir une demande indépendante des commandes client et une demande dépendante à n’importe quel point de découplage pour les commandes client. Les règles améliorées de réduction de prévision de la demande fournissent une solution idéale pour la personnalisation collective.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2020
 ms.topic: overview
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a8cd4b17a5a75a5e817e6a1f982d75eefbb717
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983068"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469252"
 ---
 # <a name="demand-forecasting-overview"></a>Vue d’ensemble de la prévision de la demande
 

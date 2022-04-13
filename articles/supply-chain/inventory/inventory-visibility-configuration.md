@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060999"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524519"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer la visibilité du stock
 
@@ -39,22 +39,25 @@ Avant de commencer à travailler avec la visibilité des stocks, vous devez effe
 
 Avant de commencer, installez et configurez le complément de visibilité des stocks comme décrit dans [Installer et configurer la visibilité des stocks](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Activer les fonctionnalités de visibilité des stocks dans la gestion des fonctionnalités de Power Apps
-
-Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnalités à votre installation Power Apps. Par défaut, ces fonctionnalités sont désactivées. Pour les utiliser, ouvrez la page **Configuration** dans Power Apps, puis, dans l’onglet **Gestion des fonctionnalités**, activez les fonctionnalités suivantes.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
-
-Si vous ne connaissez pas le bon point de terminaison de service de visibilité des stocks, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher le point de terminaison de service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La page Configuration de l’application Visibilité des stocks
 
 Dans Power Apps, la page **Configuration** de [l’application Visibilité des stocks](inventory-visibility-power-platform.md) vous permet de définir la configuration du stock disponible et la configuration des réservations provisoires. Une fois le complément installé, la configuration par défaut inclut la valeur de Microsoft Dynamics 365 Supply Chain Management (la source de données `fno`). Vous pouvez examiner les paramètres par défaut. De plus, en fonction des besoins de votre entreprise et des exigences de validation de stock de votre système externe, vous pouvez modifier la configuration pour standardiser la manière dont les modifications de stock peuvent être validées, organisées et interrogées sur les multiples systèmes. Les sections restantes de cette rubrique expliquent comment utiliser chaque partie de la page **Configuration**.
 
 Une fois la configuration terminée, veillez à sélectionner **Mettre à jour la configuration** dans l’application.
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Activer les fonctionnalités de visibilité des stocks dans la gestion des fonctionnalités de Power Apps
+
+Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnalités à votre installation Power Apps. Par défaut, ces fonctionnalités sont désactivées. Pour les utiliser, ouvrez la page **Configuration** et, sur l’onglet **Gestion des fonctionnalités**, activez les fonctionnalités suivantes selon vos besoins.
+
+| Nom dans la Gestion des fonctionnalités | Description |
+|---|---|
+| OnHandReservation | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Cette fonctionnalité fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | La fonctionnalité active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV) (facultatif). Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
+
+Si vous ne connaissez pas le bon point de terminaison de service de visibilité des stocks, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher le point de terminaison de service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service.
 
 ## <a name="data-source-configuration"></a>Configuration de la source de données
 
@@ -178,15 +181,21 @@ Pour configurer une mesure calculée personnalisée, procédez comme suit.
 
 1. Connectez-vous à votre environnement Power Apps et ouvrez **Visibilité des stocks**.
 1. Ouvrez la page **Configuration**.
-1. Dans l’onglet **Mesure calculée**, sélectionnez **Nouvelle mesure de calcul** pour ajouter une mesure calculée. Ensuite, définissez les champs comme décrit dans le tableau suivant.
+1. Dans l’onglet **Mesure calculée**, sélectionnez **Nouvelle mesure de calcul** pour ajouter une mesure calculée.
+1. Définissez les champs suivants pour la nouvelle mesure calculée :
 
-    | Champ | Valeur |
-    |---|---|
-    | Nouveau nom de la mesure calculée | Entrez le nom de la mesure calculée. |
-    | Source de données | Le système d’interrogation est une source de données. |
-    | Source de données du modificateur | Entrez la source de données du modificateur. |
-    | Modificateur | Entrez le nom du modificateur. |
-    | Type de modificateur | Sélectionnez le type de modificateur (*Addition* ou *Soustraction*). |
+    - **Nom de la nouvelle mesure calculée** – Entrez le nom de la mesure calculée.
+    - **Source de données** – Sélectionnez la source de données associée au nouveau modificateur. Le système d’interrogation est une source de données.
+
+1. Sélectionnez **Ajouter** pour ajouter un modificateur à la nouvelle mesure calculée.
+1. Définissez les champs suivants pour le nouveau modificateur :
+
+    - **Modificateur** – Sélectionnez le type de modificateur (*Addition* ou *Soustraction*).
+    - **Source de données** – Sélectionnez la source de données dans laquelle la mesure qui fournit la valeur du modificateur doit être trouvée.
+    - **Mesure** – Sélectionnez le nom de la mesure (à partir de la source de données sélectionnée) qui fournit la valeur du modificateur.
+
+1. Répétez les étapes 5 à 6 jusqu’à ce que vous ayez ajouté tous les modificateurs requis.
+1. Cliquez sur **Enregistrer**.
 
 Par exemple, vous pouvez obtenir le résultat de requête suivant.
 
@@ -465,6 +474,10 @@ Dans cet exemple, vous pouvez effectuer une réservation dans les séquences de 
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Une séquence de dimensions valide doit suivre strictement la hiérarchie de réservation, dimension par dimension. Par exemple, la séquence hiérarchique `(SiteId, LocationId, SizeId)` n’est pas valide, car `ColorId` est manquant.
+
+## <a name="available-to-promise-configuration-optional"></a>Configuration de la quantité disponible à la vente (facultatif)
+
+Vous pouvez configurer la Visibilité des stocks pour vous permettre de planifier les futurs changements de stock et de calculer les quantités disponibles à la vente (DAV). Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation de ce calcul peut augmenter considérablement votre capacité de traitement des commandes. Pour utiliser cette fonction, vous devez l’activer sur l’onglet **Gestion des fonctionnalités**, puis la configurer sur l’onglet **Paramètres DAV**. Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Terminer et mettre à jour la configuration
 

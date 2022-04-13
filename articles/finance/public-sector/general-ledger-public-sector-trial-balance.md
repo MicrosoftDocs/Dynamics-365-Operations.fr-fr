@@ -13,193 +13,108 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b15667e0b5ade3601d385eeb87b9d80ea64620a0d56b55121cb5d0c2c758e884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11ed9929b329c910ca0b20d728edeeb6fcdcd73f
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779749"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462748"
 ---
 # <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l’état par défaut des balances comptables. Elle décrit également les blocs élémentaires associés à cet état et comment il est possible de modifier l’état pour l’adapter à vos exigences métier.
+Cette rubrique décrit l’état par défaut des balances comptables. L’état **Balance comptable avec détail des transactions** génère une balance comptable et inclut les transactions détaillées qui ont été validées dans chaque compte du grand livre. En choisissant d’inclure des transactions spécifiques non comptabilisées, vous pouvez utiliser l’état pour générer une balance comptable provisoire ainsi que des transactions détaillées.
 
-Vous pouvez utiliser l’état **Balance comptable avec le détail des transactions** pour afficher les détails de chaque transaction pour les comptes généraux. L’état couvre les informations suivantes : 
+La Gestion des états électroniques (ER) a été utilisée pour créer l’état **Balance comptable avec détail des transactions**. Par conséquent, une organisation peut soit utiliser la version de l’état incluse dans le référentiel global, soit créer sa propre version de l’état.
 
-- Soldes d’ouverture
-- Débits et crédits 
-- Soldes qui en résultent pour une plage de dates de 31 jours ou moins
+## <a name="er-setup"></a>Configuration de la Gestion des états électroniques (ER)
 
-Pour les transactions, l’état comprend les informations suivantes : 
+Si vous n’avez pas configuré le référentiel global, vous devez le configurer pour la version mise à jour de l’état **Balance comptable avec détail des transactions**. Pour plus d’informations, voir [Configure le référentiel global](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-- Date de transaction
-- N° document
-- Numéro de compte
-- Numéro de référence
-- Dimension comptable
-- Nom de dimension comptable
-- Description de la transaction
-- Débits ou crédits
-- Solde courant pour l’année en cours, basé sur l’exercice fiscal en cours
+1. Accédez à **États électroniques**.
+2. Sélectionnez **Référentiels** pour le fournisseur **Microsoft**.
+3. Cliquez sur **Ouvrir**.
+4. Faites défiler vers le bas ou ajoutez un filtre pour le nom de la configuration qui commence par **Balance**.
+5. Sélectionnez **Balance comptable avec détail des transactions (excel)**, puis sélectionnez **Importer**. 
 
-Vous pouvez utiliser la balance comptable pour identifier les erreurs des soldes de compte. Tous les comptes avec des soldes débiteurs doivent être égaux à tous les comptes avec des soldes créditeurs. L’état comprend les informations des écritures comptables du journal des opérations diverses.
+Vous pouvez maintenant exécuter l’état mis à jour et les résultats seront disponibles dans Microsoft Excel.
 
-Vous pouvez filtrer les données selon l’un des éléments suivants :
+## <a name="feature-management"></a>Gestion des fonctions
+
+L’état **Balance comptable avec détail des transactions** est automatiquement activé lorsque la fonctionnalité de génération d’état **Générer la balance comptable avec détail des transactions** est activée dans la **Gestion des fonctionnalités**. Pour inclure les transactions non comptabilisées dans l’état, activez la fonction **Générer une balance comptable avec des transactions en attente**. Pour afficher les données de synthèse des écritures de compte du journal des opérations diverses, activez la fonction **Les détails de montant des écritures de compte du journal des opérations diverses sont affichées dans l’état Balance comptable avec détail des transactions**.
+
+## <a name="report-options"></a>Options du rapport
+
+Lorsque vous générez l’état, vous pouvez y inclure les transactions détaillées suivantes du grand livre :
 
 - Transactions validées
-- Transactions en attente (Ces transactions comprennent toutes les transactions qui ne sont pas validées.) 
-- Toutes les transactions 
+- Transactions en attente
+- Toutes les transactions
 
-Si les transactions comprennent des dimensions financières, l’état affiche ces informations dans un compte général. Sinon, les informations des dimensions financières sont regroupées en haut de la page. 
+L’inclusion de transactions comptabilisées dans l’état peut générer un grand ensemble de données.
 
-Actuellement, l’état est exporté directement vers Microsoft Excel. 
+Toutes les transactions détaillées du grand livre dans la plage de dates de l’état seront imprimées dans l’état. Par conséquent, l’état ne peut être généré que pour 31 jours ou moins.
+
+Si vous incluez des transactions en attente dans l’état, vous devez sélectionner le type de types de transactions non validées à inclure. Seuls les types de transaction non comptabilisés répertoriés dans les paramètres de l’état peuvent être inclus dans l’état provisoire. Voici quelques-uns des types de transactions non comptabilisées :
+
+- Écritures comptables avancées
+- Journaux de répartition
+- Journaux des budgets
+- Écritures de registre budgétaires
+- Journaux des paiements client
+- Journaux quotidiens
+- Factures financières
+- Factures de projet
+- Commandes fournisseur
+- Demandes d’achat
+- Factures fournisseur
+- Journaux des factures fournisseur
+- Journaux du registre des factures fournisseur
+
+Les transactions intersociétés non validées qui sont saisies dans le journal des opérations diverses (journal quotidien) ou les journaux des factures fournisseur ne sont pas affichées dans l’état. Les écritures « dues jusqu’à » et « dues à partir de » appropriées ne peuvent pas être générées avant la validation. Si ces écritures comptables ne sont pas générées, l’état affichera une écriture comptable déséquilibrée, car l’état inclut les écritures de compte uniquement pour l’entité juridique active.
+
+L’option **Ensemble de dimensions financières principal** définit comment les transactions sont regroupées en combinaisons de comptes principaux et de dimensions financières. Par exemple, si vous sélectionnez un ensemble de dimensions qui inclut les dimensions **Compte principal** et **Département**, l’état affichera le solde d’ouverture, les transactions détaillées et le solde de clôture pour chaque combinaison d’une valeur de compte principal et d’une valeur de département. Quel que soit l’ensemble de dimensions financières sélectionné, le compte général complet s’affiche dans la colonne de compte **Dimension comptable**.
+
+Utilisez les champs **Date de début** et **Date de fin** pour définir une plage de dates. Cette plage de dates doit être inférieure ou égale à 31 jours. Cette restriction est en place en raison du grand nombre de transactions incluses dans un état de transaction détaillé.
+
+Dans le champ **Couche de validation**, sélectionnez la couche de validation dont vous souhaitez afficher les transactions détaillées. Vous ne pouvez sélectionner qu’une seule couche de validation.
+
+Utilisez l’option **Inclure le montant de la transaction d’ouverture en détail** pour ajouter les détails du solde d’ouverture à l’état.
+
+Utilisez l’option **Transaction de clôture** pour inclure les opérations de clôture dans l’état. Si le paramètre de la comptabilité **Créer des transactions de clôture pendant le transfert** est défini sur **Oui**, les transactions de clôture sont créées lors de l’exécution d’une clôture de fin d’exercice. Les transactions de clôture sont validées le dernier jour de l’exercice et ne sont affichées que lorsque le dernier jour de l’exercice est inclus dans la plage de dates.
+
+## <a name="report-details"></a>Détails de l’état
+
+L’état  **Balance comptable avec détail des transactions**  inclut les informations suivantes dans les lignes :
+
+- Solde d’ouverture
+- Montant de débit ou de crédit
+- Solde de fin
+
+Pour les détails de transaction, l’état comprend les informations suivantes dans les colonnes :
+
+- Date
+- N° document
+- Document
+- Numéro de compte
+- Description
+- Compte de dimension comptable
+- Nom de dimension comptable
+- Débit
+- Crédit
+- Solde
 
 ## <a name="transaction-information-on-the-report"></a>Informations de transaction de l’état
 
-Selon le type de transaction, comme une écriture comptable avancée (ALE) ou une commande fournisseur, les informations supplémentaires suivantes s’affichent sur l’état.
+Les informations affichées dans les colonnes **Document** et **Description** varient selon le type de transaction. Le tableau suivant fournit des exemples d’informations affichées dans ces colonnes.
 
-<table> 
-<thead>
-<tr>
-<th>Type de transaction</th>
-<th>Informations supplémentaires sur le document</th>
-<th>Informations supplémentaires sur la description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<ul>
-<li>N° document ALE</li>
-<li>Règle de répartition</li>
-<li>Transfert d’un journal des opérations diverses</li>
-<li>Journal</li>
-</ul>
-</td>
-<td>Numéro ALE ou numéro du journal des opérations diverses</td>
-<td>Description de la ligne</td>
-</tr>
-<tr>
-<td></td>
-<td>Pas de données</td>
-<td>Description de l’en-tête du journal ALE ou des opérations diverses</td>
-</tr>
-<tr>
-<td>
-<ul>
-<li>N° document de facture</li>
-<li>N° document d’avoir</li>
-</ul>
-</td>
-<td>Numéro de facture</td>
-<td>Numéro de fournisseur et nom du fournisseur</td>
-</tr>
-<tr>
-<td></td>
-<td>Date de la facture</td>
-<td>Description de la ligne</td>
-</tr>
-<tr>
-<td></td>
-<td>Pas de données</td>
-<td>Numéro de commande fournisseur et/ou numéro PA</td>
-</tr>
-<tr>
-<td>N° document de paiement de la comptabilité fournisseur</td>
-<td>Numéro de chèque ou numéro de transfert électronique de fonds (TEF)</td>
-<td>Numéro de fournisseur – Nom du fournisseur pour le compte de paiement ou de facturation</td>
-</tr>
-<tr>
-<td></td>
-<td>Date du chèque, date du TEF ou date du règlement</td>
-<td>Numéro de fournisseur et nom du fournisseur pour le compte commande d’origine</td>
-</tr>
-<tr>
-<td>
-<ul>
-<li>Avoir financier</li>
-<li>N° document de facture financière</li>
-</ul>
-</td>
-<td>Numéro de facture financière</td>
-<td>Numéro de client et nom du client</td>
-</tr>
-<tr>
-<td></td>
-<td>Code facturation</td>
-<td>Description de la ligne de facture financière<br>
-(Champ <strong>Description</strong> de l’organisateur <strong>Lignes de facture</strong> de la page <strong>Factures financières</strong>)</td>
-</tr>
-<tr>
-<td>N° document de paiement de la comptabilité client</td>
-<td>Numéro de lot du journal<br>
-(Champ <strong>Numéro de lot du journal</strong> de l’onglet <strong>Vue d’ensemble</strong> de la page <strong>Journal des paiements</strong>)</td>
-<td>Numéro de client – Nom du client<br>
-(Champs <strong>Compte</strong> et <strong>Nom du compte</strong> de l’onglet <strong>Vue d’ensemble</strong> de la page <strong>N° document de journal</strong>)</td>
-</tr>
-<tr>
-<td></td>
-<td>Référence de paiement</td>
-<td>Description de la ligne<br>
-(Champ <strong>Description</strong> de l’onglet <strong>Vue d’ensemble</strong> de la page <strong>N° document de journal</strong>)</td>
-</tr>
-<tr>
-<td>Écritures de registre budgétaires</td>
-<td>Numéro d’écriture de registre budgétaire</td>
-<td>Description de l’écriture de registre budgétaire</td>
-</tr>
-<tr>
-<td></td>
-<td>Code budgétaire</td>
-<td>Code motif – Description de l’en-tête de l’écriture de registre budgétaire<br>
-(Champ <strong>Commentaire</strong> de l’organisateur <strong>Détails sur l’écriture de compte budgétaire</strong> de la page <strong>Écriture budgétaire</strong> ou de la page <strong>Écriture de registre budgétaire</strong>)</td>
-</tr>
-<tr>
-<td>
-<ul>
-<li>Confirmation de la commande fournisseur</li>
-<li>N° document de la confirmation de commande fournisseur</li>
-</ul>
-</td>
-<td>Numéro de commande fournisseur</td>
-<td>Description de la ligne<br>
-(Champ <strong>Texte</strong> de l’organisateur <strong>Détails de la ligne</strong> de la page <strong>Commande fournisseur</strong>).</td>
-</tr>
-<tr>
-<td></td>
-<td>Numéro de ligne de commande fournisseur</td>
-<td>Catégorie d’approvisionnement</td>
-</tr>
-<tr>
-<td>N° document de la demande d’achat</td>
-<td>Numéro de demande d’achat</td>
-<td>Nom de demande d’achat</td>
-</tr>
-<tr>
-<td></td>
-<td>Numéro de ligne de la demande d’achat</td>
-<td>Description de la ligne de demande d’achat<br>
-(Champ <strong>Nom du produit</strong> de l’organisateur <strong>Lignes de demande d’achat</strong> de la page <strong>Demande d’achat</strong>).</td>
-</tr>
-<tr>
-<td>
-<ul>
-<li>N° document de facture de projet</li>
-<li>Facture de projet</li>
-</ul>
-</td>
-<td>Numéro de facture du projet</td>
-<td>Compte de facturation et nom du compte</td>
-</tr>
-<tr>
-<td></td>
-<td>Source de financement</td>
-<td>ID projet et nom du projet</td>
-</tr>
-</tbody>
-</table>
-
+| Type de transaction | Document | Description |
+|------------------|----------|-------------|
+| Journal des opérations diverses – Comptes généraux uniquement | Numéro de lot du journal | Compte général ou compte général de contrepartie |
+| Journal des opérations diverses – Compte fournisseur/général | **Numéro de paiement** : XXX **Date de paiement** : xx/xx/xxxx | Nom du compte principal |
+| Facture financière ou avoir financier | **Type de validation** : Solde client ou **Type de validation** : Produit client | Numéro de journal : XXXXXX Description de la ligne |
+| Facture fournisseur | **Type de validation :** Solde fournisseur ou **Numéro de paiement** : XXX **Date de paiement** : xx/xx/xxxx | Nom du fournisseur |
+| Journal des paiements fournisseur ou Journal des paiements client | **Numéro de paiement** : XXX **Date de paiement** : xx/xx/xxxx | Nom du fournisseur ou nom du client |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890951"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466832"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est p
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+> Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.26
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Déclaration de taxe pour la Finlande (conception basée sur les codes de déclaration)
+
+[Déclaration de taxe pour la Finlande](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour la Finlande](../localizations/emea-fin-vat-declaration.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui |
+| **Zones de produit affectées**         | Application |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : d’ici le 1er mars 2023, nous prévoyons de ne plus prendre en charge la déclaration de taxe pour la Finlande (présentation d’état finlandaise). De nouveaux formats ER de **déclaration de TVA XML (FI**) et de **déclaration de TVA Excel (FI)** sont introduits sous le modèle **Déclaration de taxe**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.24
 
@@ -45,33 +59,33 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge la déclaration de taxe pour la Suède (présentation d’état suédois). De nouveaux formats ER de **déclaration de TVA XML (SE**) et de **déclaration de TVA Excel (SE)** sont introduits sous le modèle **Déclaration de taxe**. |
+| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge la déclaration de taxe pour la Suède (présentation d’état suédois). De nouveaux formats ER de **déclaration de TVA XML (SE**) et de **déclaration de TVA Excel (SE)** sont introduits sous le modèle **Déclaration de taxe**. |
 
-### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Déclaration de TVA pour l'Autriche (conception basée sur les codes de déclaration)
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Déclaration de TVA pour l’Autriche (conception basée sur les codes de déclaration)
 
 [Détails de la déclaration de TVA pour l’Autriche](../localizations/emea-aut-vat-statement-details.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l'Autriche](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l’Autriche](../localizations/emea-aut-vat-declaration-austria.md) |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **déclaration de TVA (AT)** sous **Modèle de déclaration de TVA**. De nouveaux formats de **déclaration de TVA XML (AT)** et de **déclaration de TVA Excel (AT)** sont introduits sous le modèle **Déclaration de taxe**. |
+| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **déclaration de TVA (AT)** sous **Modèle de déclaration de TVA**. De nouveaux formats de **déclaration de TVA XML (AT)** et de **déclaration de TVA Excel (AT)** sont introduits sous le modèle **Déclaration de taxe**. |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Déclaration ELSTER pour l'Allemagne (conception basée sur les codes de déclaration)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Déclaration ELSTER pour l’Allemagne (conception basée sur les codes de déclaration)
 
 [Déclaration de TVA](../localizations/emea-de-vat-declaration.md)</br>
-[Configurer une déclaration de taxe électronique pour l'Allemagne](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Configurer une déclaration de taxe électronique pour l’Allemagne](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
 [Transmission électronique de la déclaration de TVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l'Allemagne](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Motif de l’abandon/de la suppression** | Remplacé par une nouvelle conception de déclaration de TVA, [Déclaration de TVA pour l’Allemagne](../localizations/emea-deu-vat-declaration-germany.md) |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge les formats ER **Elster (DE)** et **Modèle Elster**. De nouveaux formats de **Déclaration de TVA XML (DE)** et de **Déclaration de TVA Excel (DE)** sont introduits sous le modèle **Déclaration de taxe**. |
+| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge les formats ER **Elster (DE)** et **Modèle Elster**. De nouveaux formats de **Déclaration de TVA XML (DE)** et de **Déclaration de TVA Excel (DE)** sont introduits sous le modèle **Déclaration de taxe**. |
 
 ### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Déclaration OB pour les Pays-Bas (conception basée sur les codes de déclaration)
 
@@ -83,7 +97,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tout |
-| **Status**                         | Obsolète : d'ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **Déclaration OB (P.-B.)** et **Modèle de déclaration OB**. De nouveaux formats de **Déclaration de TVA XML (NL)** et de **Déclaration de TVA Excel (NL)** sont introduits sous le modèle **Déclaration de taxe**. |
+| **Status**                         | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge le format ER de **Déclaration OB (P.-B.)** et **Modèle de déclaration OB**. De nouveaux formats de **Déclaration de TVA XML (NL)** et de **Déclaration de TVA Excel (NL)** sont introduits sous le modèle **Déclaration de taxe**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.20
 

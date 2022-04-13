@@ -1,7 +1,7 @@
 ---
 title: Définir des règles de couverture pour les articles
 description: Cet procédure indique comment créer des règles de couverture et remplacer des paramètres de couverture pour un article spécifique. Il indique également comment spécifier les paramètres de stock par défaut.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: bca0e1786adb08a7cd4795b49c974ab95183b1dd
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860611"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469320"
 ---
 # <a name="define-coverage-rules-for-items"></a>Définir des règles de couverture pour les articles
 
@@ -54,16 +54,16 @@ Créez un nouveau produit en procédant comme suit :
 1. Dans le champ **Numéro du produit**, saisissez une valeur.
 1. Dans le champ **Nom du produit**, saisissez une valeur.
 1. Dans le champ **Groupe de modèles d’articles**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
-1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
 1. Dans le champ **Groupe d’articles**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
-1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
 1. Dans le champ **Groupe de dimensions de stockage**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
-1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
 1. Dans le champ **Groupe de dimensions de suivi**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
-1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 1. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
 1. Cliquez sur **OK**.
 
@@ -98,7 +98,7 @@ Ajoutez un article à un groupe de couverture en procédant comme suit :
 
 ## <a name="create-item-coverage-rules"></a>Créer des règles de couverture d’article
 
-Créez des règles de couverture d'article en procédant comme suit :
+Créez des règles de couverture d’article en procédant comme suit :
 
 1. Dans le **volet Actions**, sélectionnez **Planifier**.
 1. Sous **Couverture**, sélectionnez **Couverture de l’article**.

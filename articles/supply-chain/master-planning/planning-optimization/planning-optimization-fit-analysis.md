@@ -1,7 +1,7 @@
 ---
 title: Analyse de concordance d’optimisation de la planification
 description: Cette rubrique explique comment vérifier votre configuration et vos données par rapport aux fonctionnalités de la fonction d’optimisation de la planification.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408013"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487640"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -53,7 +53,7 @@ Pour voir le résultat de l’analyse d’ajustement de l’optimisation de la p
 Le tableau suivant présente les différents résultats qui peuvent être affichés après une analyse de concordance. Les symboles de numéro (_\#_) seront remplacés par un nombre qui indique le nombre d’enregistrements présentant le problème répertorié. Les fonctionnalités prises en charge ou en version préliminaire sont disponibles avec la version 10.0.9 ou les versions ultérieures (sauf si un numéro de version supérieur est indiqué dans la colonne « Disponibilité attendue »).
 
 > [!NOTE]
-> Certaines incohérences ne peuvent pas être identifiées par l'analyse de concordance pour l’optimisation de la planification. Pour plus d'informations, consultez [Différences entre la planification générale classique et l'optimisation de la planification](planning-optimization-differences-with-built-in.md).
+> Certaines incohérences ne peuvent pas être identifiées par l’analyse de concordance pour l’optimisation de la planification. Pour plus d’informations, consultez [Différences entre la planification générale classique et l’optimisation de la planification](planning-optimization-differences-with-built-in.md).
 
 | Fonctionnalité | Problème répertorié | Explication | Disponibilité attendue |
 | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Production | Lignes de nomenclature/formule à consommation de ressources : _\#_ | Cette fonctionnalité est en attente. Actuellement, les lignes de nomenclature et de formule qui ont une consommation de ressources sont ignorées lorsque l’Optimisation de la planification est activée. Lorsque cette fonction est prise en charge, les besoins en matières sont définis sur la date de début de production. Tant que cette fonctionnalité n’est pas prise en charge, les besoins ne seront pas générés pour les matières marqués d’un indicateur de consommation de ressources. | Octobre 2022 |
 | Production | Lignes de nomenclature/formule à consommation par étape : _\#_ | Cette fonctionnalité est en attente. Actuellement, la consommation d’étapes est ignorée sur les lignes de nomenclature et de formule lorsque l’Optimisation de la planification est activée. | Octobre 2022 |
 | Production | Nomenclatures présentant un rebut constant ou un rebut variable défini : _\#_ | Cette fonctionnalité est en attente. Actuellement, un rebut constant et un rebut variable définis sur les nomenclatures sont ignorés lorsque l’Optimisation de la planification est activée. | Octobre 2022 |
-| Production | Nomenclatures avec sous-traitance : _\#_ | Cette fonctionnalité est en attente. Actuellement, la configuration de la sous-traitance sur les nomenclatures est ignorée lorsque l’Optimisation de la planification est activée, quel que soit ce paramètre. | Avril 2022 |
+| Production | Nomenclatures avec sous-traitance : _\#_ | Cette fonctionnalité est désormais prise en charge. | Prise en charge |
 | Production | Nomenclatures sans site : _\#_ | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, consultez [Planification de production](production-planning.md) | Prise en charge |
 | Production | Demande avec des exigences de nomenclature ou de gamme spécifiques définies : _\#_ | Cette fonctionnalité est en attente. Actuellement, les exigences de nomenclature ou de gamme spécifiques définies sur la demande (telles qu’une sous-nomenclature ou une sous-gamme sur une commande client) sont ignorées lorsque l’Optimisation de la planification est activée. La nomenclature ou la gamme standard sera utilisée, quel que soit ce paramètre. | Octobre 2022 |
 | Production | Versions de formule avec des co-produits ou des sous-produits : _\#_ | Cette fonctionnalité est en attente. Actuellement, les co-produits et sous-produits associés à la version de formule sont ignorés lorsque l’Optimisation de la planification est activée. | Octobre 2022 |
@@ -109,7 +109,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 
 [Mise en route de l’optimisation de la planification](get-started.md)
 
-[Différences entre la planification générale classique et l'optimisation de la planification](planning-optimization-differences-with-built-in.md)
+[Différences entre la planification générale classique et l’optimisation de la planification](planning-optimization-differences-with-built-in.md)
 
 [Paramètres non utilisés par l’optimisation de la planification](not-used-parameters.md)
 

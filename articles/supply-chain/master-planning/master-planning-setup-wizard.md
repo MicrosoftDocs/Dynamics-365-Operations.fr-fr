@@ -1,7 +1,7 @@
 ---
 title: Assistant Paramétrage de planification (contient une vidéo)
 description: Cette rubrique décrit comment exécuter l’assistant de configuration de la planification principale pour configurer la planification principale.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937631"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470203"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistant Paramétrage de planification
 
@@ -31,7 +31,7 @@ Cette rubrique fournit des instructions pour l’**Assistant Paramétrage de pla
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-La vidéo [Assistant Paramétrage de planification dans Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (présentée ci-dessus) est incluse dans la [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+La vidéo [Assistant Paramétrage de planification dans Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (présentée ci-dessus) est incluse dans [liste de lecture Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Besoins spécifiques de votre société

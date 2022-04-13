@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062109"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524463"
 ---
 # <a name="inventory-visibility-public-apis"></a>API publiques de visibilité des stocks
 
@@ -41,15 +41,17 @@ Le tableau suivant répertorie les API actuellement disponibles :
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Valider | [Définir/remplacer les quantités de stock disponible](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Valider | [Créer un événement de réservation](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Valider | [Créer plusieurs événements de réservation](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/on-hand/changeschedule | Valider | [Créer un changement planifié du stock disponible](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Valider | [Créer plusieurs changements planifiés du stock disponible](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Valider | [Interroger en utilisant la méthode post](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Obtenir | [Interroger en utilisant la méthode get](#query-with-get-method) |
-
-Microsoft a fourni une collection de requêtes *Postman* prêtes à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > La partie {environmentId} du chemin d’accès est l’ID d’environnement dans Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > L’API en masse peut renvoyer un maximum de 512 enregistrements pour chaque requête.
+
+Microsoft a fourni une collection de requêtes *Postman* prêtes à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rechercher le point de terminaison en fonction de votre environnement Lifecycle Services
 
@@ -517,6 +519,9 @@ Le paramètre `groupByValues` doit suivre votre configuration pour l’indexatio
 
 Le paramètre `returnNegative` contrôle si les résultats contiennent des entrées négatives.
 
+> [!NOTE]
+> Si vous avez activé les fonctionnalités de planification des changements de stock disponible et de disponibilité à la vente (DAV), votre requête peut également inclure le paramètre booléen `QueryATP`, qui contrôle si les résultats de la requête incluent des informations DAV. Pour plus d’informations et des exemples, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md).
+
 L’exemple suivant montre un exemple de contenu du corps.
 
 ```json
@@ -572,5 +577,9 @@ Voici un exemple d’URL pour get. Cette requête get est exactement la même qu
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Disponible à la vente
+
+Vous pouvez configurer la Visibilité des stocks pour vous permettre de planifier les futurs changements de stock et de calculer les quantités DAV. Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation du calcul de la DAV peut augmenter considérablement votre capacité de traitement des commandes. Pour plus d’informations sur l’activation de cette fonctionnalité et sur l’interaction avec la Visibilité des stocks via son API une fois la fonctionnalité activée, consultez [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

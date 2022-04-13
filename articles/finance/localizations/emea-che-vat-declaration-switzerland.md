@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 917438395785e12695867666ec36246ea113d0c0
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e0734ee6f20949c788cc33761bf45e7effb412ff
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647448"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489605"
 ---
 # <a name="vat-declaration-switzerland"></a>Déclaration TVA (Suisse)
 
@@ -41,7 +41,7 @@ La déclaration de TVA en Suisse contient les informations suivantes.
 
 **SECTION I - CHIFFRE D’AFFAIRES**
 
-| Ligne           | Élément XML                   | Description                                                                                                                                                                                                                                                                | Recherche          | Résultat de la recherche                                                                                                                                    |
+| Ligne           | Élément XML                   | Description                                                                                                                                                                                                                                                               | Recherche          | Résultat de la recherche                                                                                                                                    |
 |----------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | 200            | totalConsidération            | Montant total de la contrepartie convenue ou perçue, y compris la contrepartie des livraisons pour lesquelles l’option de taxation a été exercée, les transferts de livraisons selon la procédure de notification et les livraisons effectuées à l’étranger (chiffre d’affaires mondial). | Recherche de chiffre d’affaires | TaxableSupplies TaxableSupplies22 SuppliesToForeignCountries SuppliesAbroad TransferNotificationProcedure SuppliesExemptFromTax VariousDeduction |
 | 205            | opted                         | Contrepartie déclarée à la ligne 200 des fournitures exonérées de la taxe sans crédit (article 21), et pour lesquelles l’option de taxation selon l’article 22 a été exercée.                                                                          | Recherche de chiffre d’affaires | TaxableSupplies22                                                                                                                                |
@@ -59,12 +59,12 @@ La déclaration de TVA en Suisse contient les informations suivantes.
 
 **Taxe due**
 
-| Ligne | Élément XML                           | Description                                                  | Recherche              | Résultat de la recherche                                                                                                                                             |
+| Ligne | Élément XML                           | Description                                                 | Recherche              | Résultat de la recherche                                                                                                                                             |
 |------|---------------------------------------|-------------------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 302  | supplierTaxRate / tax rate tax amount | Fournitures à partir du 1er janvier 2018, à un taux standard.          | Recherche de champ d’état | SuppliesStandardRate                                                                                                                                      |
 | 312  | supplierTaxRate / tax rate tax amount | Fournitures à partir du 1er janvier 2018, à un taux réduit.           | Recherche de champ d’état | SuppliesReducedRate                                                                                                                                       |
 | 342  | supplierTaxRate / tax rate tax amount | Fournitures à partir du 1er janvier 2018, à un taux pour l’hébergement.    | Recherche de champ d’état | SuppliesAccomodationRate                                                                                                                                  |
-| 382  | acquisitionTax / tax rate tax amount  | Taxe d’acquisition pour les fournitures à compter du 1er janvier 2018           | Recherche de champ d’état | SuppliesAcquisitionTax UseTaxAcquisitionTax (Ce résultat est également déclaré intégralement en ligne 400.) Montant de la taxe non déductible, le cas échéant est déclaré en ligne 415 |
+| 382  | acquisitionTax / tax rate tax amount  | Taxe d’acquisition pour les fournitures à compter du 1er janvier 2018           | Recherche de champ d’état | SuppliesAcquisitionTax</br> UseTaxAcquisitionTax (Ce résultat est également déclaré intégralement en ligne 400.)</br> Montant d’impôt non déductible, le cas échéant, déclaré en ligne 415 |
 | 301  | supplierTaxRate / tax rate tax amount | Fournitures jusqu’au 31 décembre 2017, au tarif standard.       | Recherche de champ d’état | SuppliesOldStandardRate                                                                                                                                   |
 | 311  | supplierTaxRate / tax rate tax amount | Fournitures jusqu’au 31 décembre 2017, à un taux réduit.        | Recherche de champ d’état | SuppliesOldReducedRate                                                                                                                                    |
 | 341  | supplierTaxRate / tax rate tax amount | Fournitures jusqu’au 31 décembre 2017, à un taux pour l’hébergement. | Recherche de champ d’état | SuppliesAccomodationOldRate                                                                                                                               |
@@ -73,12 +73,12 @@ La déclaration de TVA en Suisse contient les informations suivantes.
 
 **Taxe d’entrée**
 
-| Ligne | Élément XML                 | Description                                                                                                                                                          | Recherche              | Résultat de la recherche                                                                                                                                    |
+| Ligne | Élément XML                 | Description                                                                                                                                                         | Recherche              | Résultat de la recherche                                                                                                                                    |
 |------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| 400  | inputTaxMaterialAndServices | Taxe en amont sur le coût des matériaux et des prestations de services.                                                                                                        | Recherche de champ d’état | InputTaxMaterialAndServices (déclaré en entier) UseTaxAcquisitionTax (déclaré en entier) Montant de la taxe non déductible, le cas échéant, déclaré en ligne 415 |
-| 405  | inputTaxInvestments         | Taxe déductible sur les investissements et les autres coûts d’exploitation.                                                                                                                 | Recherche de champ d’état | InputTaxInvestments (déclaré en totalité) Montant d’impôt non déductible, le cas échéant, déclaré en ligne 415                                                 |
+| 400  | inputTaxMaterialAndServices | Taxe en amont sur le coût des matériaux et des prestations de services.                                                                                                        | Recherche de champ d’état | InputTaxMaterialAndServices (déclaré intégralement)</br> UseTaxAcquisitionTax (déclaré intégralement)</br> Montant d’impôt non déductible, le cas échéant, déclaré en ligne 415 |
+| 405  | inputTaxInvestments         | Taxe déductible sur les investissements et les autres coûts d’exploitation.                                                                                                                 | Recherche de champ d’état | InputTaxInvestments (déclaré intégralement)</br> Montant d’impôt non déductible, le cas échéant, déclaré en ligne 415                                                 |
 | 410  | subsequentInputTaxDeduction | Détaxation (article 32). Vous devez joindre une liste détaillée.                                                                                                       | Recherche de champ d’état | SubsequentInputTaxDeduction                                                                                                                      |
-| 415  | inputTaxCorrections         | Correction de la déduction de la taxe en amont, tant à usage mixte (article 30) qu’à usage propre (article 31).                                                                        | Recherche de champ d’état | InputTaxCorrections (rapporté en entier, mais avec le signe inversé)                                                                                |
+| 415  | inputTaxCorrections         | Correction de la déduction de la taxe en amont, tant à usage mixte (article 30) qu’à usage propre (article 31).                                                                        | Recherche de champ d’état | InputTaxCorrections (rapporté en entier, mais avec le signe inversé)</br>Le montant d’impôt non déductible des transactions des lignes 400, 405 est également déclaré ici                                                                                 |
 | 420  | inputTaxReductions          | Réduction de la déduction de la taxe en amont : les flux de fonds qui ne sont pas réputés être pris en considération, tels que les subventions et les taxes de séjour (article 33, alinéa 2). | Recherche de champ d’état | InputTaxReductions (rapporté en entier, mais avec le signe inversé)                                                                                     |
 | 479  | Non applicable              | Total des lignes 400 à 420.                                                                                                                                        | Total               | 400 + 405 + 410 – 415 – 420                                                                                                                      |
 | 500  | Non applicable              | Montant dû.                                                                                                                                         | Total               | 399 – 479, si 399-479 est positif                                                                                                                |
@@ -86,7 +86,7 @@ La déclaration de TVA en Suisse contient les informations suivantes.
 
 **SECTION III - AUTRES FLUX DE TRÉSORERIE**
 
-| Ligne | Élément XML | Description                                                                                                                                                                | Recherche                 | Résultat de la recherche |
+| Ligne | Élément XML | Description                                                                                                                                                               | Recherche                 | Résultat de la recherche |
 |------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
 | 900  | subsidies   | Subventions, fonds touristiques collectés par les offices de tourisme, contributions des eaux cantonales et fonds d’assainissement ou de déchets (article 18, al. 2, lit. a à c). | Autre recherche de flux de trésorerie | Subventions     |
 | 910  | donations   | Dons, dividendes, versements de dommages-intérêts, etc. (article 18, paragraphe 2, lit. d à l).                                                                         | Autre recherche de flux de trésorerie | Subventions     |
@@ -152,7 +152,7 @@ Suivez ces étapes pour définir quels codes de taxe génèrent quelles cases da
 3. Sur la page **Paramètres spécifiques à l’application**, dans le raccourci **Recherches**, sélectionnez **Recherche de chiffre d’affaires**.
 4. Dans le raccourci **Conditions**, définissez les champs suivants pour associer les codes de taxe et les opérations.
 
-   | Champ                  | Description                                                                                                                                                                                                                                                                                                          |
+   | Champ                  | Description                                                                                                                                                                                                                                                                                                         |
    |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | Résultat de la recherche          | Sélectionnez la valeur du chiffre d’affaires. Pour plus d’informations sur les valeurs de chiffre d’affaires et leur affectation aux lignes de déclaration de TVA, consultez la section [Vue d’ensemble de la déclaration de TVA](#vat-declaration-overview) plus haut dans cette rubrique.                                                                                         |
    | Code taxe               | Permet de sélectionner le code de taxe à associer à l’opération. Les transactions de taxe validées qui utilisent le code de taxe sélectionné seront collectées dans la case de déclaration appropriée. Nous vous recommandons de séparer les codes de taxe de telle sorte qu’un code de taxe ne génère des montants que dans une seule case de déclaration.   |
@@ -233,12 +233,12 @@ Le package de données contient des paramètres de message électronique utilis�
 
 ## <a name="preview-the-vat-declaration-in-excel"></a>Aperçu de la déclaration de TVA dans Excel
 
-### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a> Prévisualisez la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement
+### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a>Prévisualisez la déclaration de TVA dans Excel à partir de la tâche périodique État de la taxe pour la période de règlement
 
 1. Accédez à **Taxe** > **Tâches périodiques** > **Déclarations** > **Taxe de vente** > **État de la taxe pour la période de règlement**.
 2. Définisse les champs suivants.
 
-   | Champ                     | Description                                     |
+   | Champ                     | Description                                    |
    |---------------------------|------------------------------------------------|
    | Période de règlement         | Sélectionnez la période de règlement.                  |
    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes : <br>- **Original** : permet de générer un état pour les transactions de taxe du paiement de taxe d’origine ou avant que le paiement de taxe ne soit généré. <br>- **Corrections** : permet de générer un état pour les transactions de taxe de tous les paiements de taxe ultérieurs pour la période. <br> - **Liste totale** : permet de générer un état pour toutes les transactions de taxe pour la période, y compris l’original et toutes les corrections.            |
@@ -251,7 +251,7 @@ Le package de données contient des paramètres de message électronique utilis�
 1. Accédez à **Taxe** > **Tâches périodiques** > **Déclarations** > **Taxe de vente** > **Régler et valider la taxe**.
 2. Définisse les champs suivants.
 
-   | Champ                     | Description                                     |
+   | Champ                     | Description                                    |
    |---------------------------|------------------------------------------------|
    | Période de règlement         | Sélectionnez la période de règlement.                  |
    | Version de paiement de la taxe | Vous devez sélectionner l’une des valeurs suivantes : <br> - **Original** : permet de générer le paiement de la taxe d’origine pour la période de règlement. <br> - **Dernières corrections** : permet de générer un paiement de taxe rectificatif après la création du paiement de taxe d’origine pour la période de règlement.          |
@@ -318,7 +318,7 @@ Suivez les étapes suivantes pour configurer des messages électroniques pour co
 
 5. Dans la grille **Configuration des sources de données**, ajoutez une ligne pour chaque entité juridique supplémentaire qui doit être incluse dans la génération des états. Pour chaque nouvelle ligne, définissez les champs suivants.
 
-   | Champ                  | Description                                                                                                                    |
+   | Champ                  | Description                                                                                                                   |
    |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
    | Nom                   | Entrez une valeur qui vous aidera à comprendre d’où vient cet enregistrement. Par exemple, entrez **Paiement TVA de la Filiale 1**. |
    | Type d’élément de message      | Sélectionnez **Retour TVA**. Cette valeur est la seule valeur disponible pour tous les enregistrements.                                    |

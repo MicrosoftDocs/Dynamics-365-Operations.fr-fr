@@ -12,17 +12,16 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370974"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462239"
 ---
 # <a name="peripherals"></a>Périphériques
 
 [!include[banner](includes/banner.md)]
-[!include[banner](includes/preview-banner.md)]
 
 Cette rubrique explique les concepts relatifs aux périphériques de magasin. Elle décrit les différentes méthodes de connexion des périphériques au point de vente (PDV) ainsi que les composants en charge de gérer la connexion avec le PDV.
 
@@ -30,11 +29,11 @@ Cette rubrique explique les concepts relatifs aux périphériques de magasin. El
 
 ### <a name="pos-registers"></a>Caisses enregistreuses de PDV
 
-Navigation : accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d’une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques utilisés dans le registre, le magasin sur lequel est mappé le registre ainsi que l’expérience visuelle de l’utilisateur qui se connecte à ce registre.
+Navigation : accédez à **Commerce et vente au détail \> Paramétrage du canal \> Paramétrage du PDV \> Caisses enregistreuses**. Le registre du point de vente (PDV) est une entité utilisée pour définir les caractéristiques d’une instance spécifique du PDV. Ces caractéristiques comprennent le profil matériel ou la configuration des périphériques utilisés dans le registre, le magasin sur lequel est mappé le registre ainsi que l’expérience visuelle de l’utilisateur qui se connecte à ce registre.
 
 ### <a name="devices"></a>Périphériques
 
-Navigation : accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage du PDV \> Appareils**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. 
+Navigation : accédez à **Commerce et vente au détail \> Paramétrage du canal \> Paramétrage du PDV \> Appareils**. Un périphérique est une entité qui représente une instance physique d’un périphérique qui est mappé à une caisse enregistreuse de PDV. Lorsqu’un périphérique est créé, il est mappé à une caisse enregistreuse de PDV. L’entité de périphérique assure le suivi des informations lorsqu’une caisse enregistreuse est activée, le type de client qui est utilisé et le package d’applications qui a été déployé sur un périphérique spécifique. 
 
 Les appareils peuvent être associés aux types d’application suivants : Retail Modern POS, Retail Cloud POS, Retail Modern POS – Android et Retail Modern POS – iOS.
 
@@ -60,11 +59,11 @@ Les périphériques de PDV sont des périphériques qui sont explicitement pris 
 
 ### <a name="hardware-station"></a>Station matérielle
 
-Navigation : accédez à **Retail et Commerce \> Canaux \> Magasins \> Tous les magasins**. Sélectionnez un magasin, puis sélectionnez le raccourci **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans les programmes Modern POS pour Windows et Android. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible par le réseau.
+Navigation : accédez à **Commerce et vente au détail \> Canaux \> Magasins \> Tous les magasins**. Sélectionnez un magasin, puis sélectionnez le raccourci **Stations matérielles**. Le paramètre **Station matérielle** est un paramètre de niveau canal utilisé pour définir des instances où la logique de périphérique doit être déployée. Ce paramètre au niveau du canal sert à déterminer les spécifications de la station matérielle. Il permet également de répertorier les stations matérielles disponibles pour une instance de Modern POS dans un magasin donné. La station matérielle est intégrée dans les programmes Modern POS pour Windows et Android. La station matérielle peut également être déployée indépendamment en tant que programme Microsoft IIS autonome. Dans ce cas, elle est accessible par le réseau.
 
 ### <a name="hardware-profile"></a>Profil matériel
 
-Navigation : accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils du matériel**. Le profil du matériel est une liste de périphériques configurés pour un registre de PDV ou une station matérielle. Le profil du matériel peut être mappé directement sur un registre de PDV ou une station matérielle.
+Navigation : accédez à **Commerce et vente au détail \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils du matériel**. Le profil du matériel est une liste de périphériques configurés pour un registre de PDV ou une station matérielle. Le profil du matériel peut être mappé directement sur un registre de PDV ou une station matérielle.
 
 ## <a name="devices-classes"></a>Classes de périphériques
 Les périphériques de PDV sont généralement divisés en classes. Cette section décrit et offre une vue d’ensemble des périphériques pris en charge par Modern POS.
@@ -545,7 +544,7 @@ Cette configuration peut être utilisée pour tous les clients Modern POS qui pa
     -   **Nom d’hôte** – Le nom de l’ordinateur hôte où la station matérielle est exécutée.
     -   **Description** – Texte qui permet d’identifier la station matérielle, comme **Retours** ou **Avant du magasin**.
     -   **Port** – Le port à utiliser pour la station matérielle, pour qu’elle communique avec le client Modern POS.
-    -   **Profil matériel** – Pour les stations matérielles partagées, chaque station matérielle doit avoir un profil matériel. Les profils matériels peuvent être partagés entre les stations matérielles, mais ils doivent être mis en correspondance avec chacune. En outre, il est recommandé d’utiliser les équipes partagées lorsque plusieurs périphériques utilisent le même station matérielle partagée. Pour configurer une équipe de travail partagée, accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils du matériel**. Pour chaque profil matériel partagé, sélectionnez le tiroir-caisse, puis définissez l’option **Tiroir-caisse partagé par l’équipe de travail** sur **Oui**.
+    -   **Profil matériel** – Pour les stations matérielles partagées, chaque station matérielle doit avoir un profil matériel. Les profils matériels peuvent être partagés entre les stations matérielles, mais ils doivent être mis en correspondance avec chacune. En outre, il est recommandé d’utiliser les équipes partagées lorsque plusieurs périphériques utilisent le même station matérielle partagée. Pour configurer une équipe de travail partagée, accédez à **Commerce et vente au détail \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils du matériel**. Pour chaque profil matériel partagé, sélectionnez le tiroir-caisse, puis définissez l’option **Tiroir-caisse partagé par l’équipe de travail** sur **Oui**.
     -   **Numéro TEF du PDV**– L’ID du terminal TEF à utiliser lorsque les autorisations TEF sont envoyées. Cet ID est fourni par l’organisme qui traite les cartes de crédit.
     -   **Nom du package** – Le package de station matérielle à utiliser lorsque la station matérielle est déployée.
 

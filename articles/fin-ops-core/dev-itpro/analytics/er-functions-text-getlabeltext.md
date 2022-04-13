@@ -2,7 +2,7 @@
 title: Fonction GETLABELTEXT ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction GETLABELTEXT États électroniques (ER).
 author: NickSelin
-ms.date: 01/04/2022
+ms.date: 03/18/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 911567a94b80c2b762a37e83d37fc500132edb18
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2ce66c9410abeee16bbd074204262edf79bf6d68
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075615"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462409"
 ---
 # <a name="getlabeltext-er-function"></a>Fonction GETLABELTEXT ER
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 La fonction `GETLABELTEXT` recherche une étiquette spécifique pour renvoyer une valeur de type *[Chaîne](er-formula-supported-data-types-primitive.md#string)* qui représente la traduction de l’étiquette spécifiée dans la langue spécifiée.
 

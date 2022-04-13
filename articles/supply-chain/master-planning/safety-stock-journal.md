@@ -1,22 +1,22 @@
 ---
 title: Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles
 description: Cette rubrique explique comment utiliser le journal du stock de sécurité pour mettre à jour la quantité de stock de sécurité pour les articles en calculant les propositions de couverture minimale en fonction des transactions historiques.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, ReqItemTableSetup, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 59e4959898cd961582e1ac1d2285c0c0867ee7af
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790971"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468536"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles
 

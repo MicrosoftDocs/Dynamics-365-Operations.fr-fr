@@ -1,5 +1,5 @@
 ---
-title: Aperçu du calendrier de facturation
+title: Créer des échéanciers de facturation
 description: Cette rubrique explique comment créer, supprimer et modifier des calendriers de facturation.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182699"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462585"
 ---
-# <a name="billing-schedule-overview"></a>Aperçu du calendrier de facturation
+# <a name="create-billing-schedules"></a>Créer des échéanciers de facturation
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sur la page **Calendrier de facturation**, vous pouvez créer, supprimer ou modifier des calendriers de facturation. Vous pouvez également consulter la liste des calendriers de facturation. Lorsque vous créez un calendrier de facturation, ses valeurs par défaut sont déterminées par le groupe de facturation qui lui est associé. Des informations complémentaires sont mises en place sur la page **Paramètres de facturation des contrats récurrents**.
 

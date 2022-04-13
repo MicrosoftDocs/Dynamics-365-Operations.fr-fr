@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182684"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462467"
 ---
 # <a name="subscription-billing-overview"></a>Présentation de la facturation de l’abonnement
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La facturation des abonnements permet aux organisations de gérer les opportunités de revenus d’abonnement et la facturation récurrente via des calendriers de facturation. Les modèles de tarification et de facturation complexes et la répartition des revenus sont facilement gérés et sont facturés et reconnus au niveau de la ligne. L’allocation des revenus multi-éléments permet d’allouer les revenus conformément aux normes comptables internationales (norme internationale d’information financière 15 \[IFRS 15\]) et les principes comptables généralement reconnus (US GAAP) (Accounting Standards Codification Topic 606 \[ASC 606\]).
 

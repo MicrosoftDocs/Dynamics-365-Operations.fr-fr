@@ -1,7 +1,7 @@
 ---
 title: Planification avec prévisions de la demande
 description: Cette rubrique explique comment inclure des prévisions de demande lors de la planification avec l’Optimisation de la planification.
-author: ChristianRytt
+author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867245"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468439"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planification avec prévisions de la demande
 
@@ -139,13 +139,13 @@ Dans ce cas, si vous lancez le calendrier des prévisions le 1er janvier, les be
 
 Si vous définissez le champ **Méthode utilisée pour réduire les besoins prévisionnels** sur *Transactions - clé de réduction*, les besoins prévisionnels sont réduits par les transactions de demande qualifiées qui se produisent pendant les périodes définies par la clé de réduction.
 
-La demande qualifiée est définie par le champ **Réduire les prévisions de** sur la page **Groupes de couverture**. Si vous définissez le champ **Réduire les prévisions de** sur *Commandes*, seules les transactions de commande client sont considérées comme des demandes qualifiées. Si vous la définissez sur *Toutes les transactions*, toutes les transactions de sortie de stock autres qu'intersociétés sont considérées comme une demande qualifiée. Si les commandes client intersociétés doivent également être considérées comme une demande qualifiée, définissez l'option **Inclure les commandes intersociétés** sur *Oui*.
+La demande qualifiée est définie par le champ **Réduire les prévisions de** sur la page **Groupes de couverture**. Si vous définissez le champ **Réduire les prévisions de** sur *Commandes*, seules les transactions de commande client sont considérées comme des demandes qualifiées. Si vous la définissez sur *Toutes les transactions*, toutes les transactions de sortie de stock autres qu’intersociétés sont considérées comme une demande qualifiée. Si les commandes client intersociétés doivent également être considérées comme une demande qualifiée, définissez l’option **Inclure les commandes intersociétés** sur *Oui*.
 
-La réduction des prévisions commence avec le premier (le plus ancien) enregistrement de prévision de la demande dans la période de la clé de réduction. Si la quantité des transactions de stock qualifiées est supérieure à la quantité des lignes de prévision de la demande dans la même période de clé de réduction, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité de prévision de la demande dans la période précédente (s'il y a une prévision non consommée).
+La réduction des prévisions commence avec le premier (le plus ancien) enregistrement de prévision de la demande dans la période de la clé de réduction. Si la quantité des transactions de stock qualifiées est supérieure à la quantité des lignes de prévision de la demande dans la même période de clé de réduction, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité de prévision de la demande dans la période précédente (s’il y a une prévision non consommée).
 
-S'il ne reste aucune prévision non consommée dans la période de la clé de réduction précédente, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité prévue le mois suivant (s'il existe une prévision non consommée).
+S’il ne reste aucune prévision non consommée dans la période de la clé de réduction précédente, le solde de la quantité des transactions de stock sera utilisé pour réduire la quantité prévue le mois suivant (s’il existe une prévision non consommée).
 
-La valeur du champ **Pour cent** sur les lignes clés de réduction n'est pas utilisée lorsque le champ **Méthode utilisée pour réduire les besoins prévisionnels** est défini sur *Transactions - clé de réduction*. Seules les dates sont utilisées pour définir la période de clé de réduction.
+La valeur du champ **Pour cent** sur les lignes clés de réduction n’est pas utilisée lorsque le champ **Méthode utilisée pour réduire les besoins prévisionnels** est défini sur *Transactions - clé de réduction*. Seules les dates sont utilisées pour définir la période de clé de réduction.
 
 > [!NOTE]
 > Toute prévision publiée à la date du jour ou avant sera ignorée et ne sera pas utilisée pour créer des commandes planifiées. Par exemple, si votre prévision de la demande pour le mois est générée le 1er janvier et que vous exécutez une planification générale qui inclut la prévision de la demande du 2 janvier, le calcul ignorera la ligne de prévision de la demande datée du 1er janvier.
@@ -154,7 +154,7 @@ La valeur du champ **Pour cent** sur les lignes clés de réduction n'est pas ut
 
 Cet exemple décrit la manière dont les commandes réelles, qui se produisent durant les périodes définies par la clé de réduction, réduisent les besoins de prévision de la demande.
 
-[![Commandes réelles et prévisions avant l'exécution de la planification générale.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
+[![Commandes réelles et prévisions avant l’exécution de la planification générale.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
 Pour cet exemple, sélectionnez *Transactions - clé de réduction* dans le champ **Méthode utilisée pour réduire les besoins prévisionnels**, de la page **Plans généraux**.
 
@@ -176,9 +176,9 @@ Les lignes de commande client suivantes existent en avril.
 |----------|----------------------------|
 | 27 avril | 240                        |
 
-[![Approvisionnement prévu généré sur la base des commandes d'avril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+[![Approvisionnement prévu généré sur la base des commandes d’avril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
 
-Les quantités de besoin suivantes sont transférées au plan général lors de l'exécution de la planification générale le 1er avril. Comme vous le voyez, les transactions prévues d'avril ont été réduites de la quantité demandée de 240 dans une séquence, à partir de la première de ces transactions.
+Les quantités de besoin suivantes sont transférées au plan général lors de l’exécution de la planification générale le 1er avril. Comme vous le voyez, les transactions prévues d’avril ont été réduites de la quantité demandée de 240 dans une séquence, à partir de la première de ces transactions.
 
 | Date     | Nombre de pièces requises |
 |----------|---------------------------|
@@ -200,9 +200,9 @@ Les lignes de commande client suivantes existent en mai.
 | mai 4  | 80                         |
 | mai 11 | 130                        |
 
-[![Approvisionnement prévu généré sur la base des commandes d'avril et de mai.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+[![Approvisionnement prévu généré sur la base des commandes d’avril et de mai.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
 
-Les quantités de besoin suivantes sont transférées au plan général lors de l'exécution de la planification générale le 1er avril. Comme vous le voyez, les transactions prévues d'avril ont été réduites de la quantité demandée de 240 dans une séquence, à partir de la première de ces transactions. Cependant, les transactions de prévision de mai ont été réduites de 210 au total, à partir de la première transaction de prévision de la demande en mai. Cependant, les totaux par période sont conservés (400 en avril et 300 en mai).
+Les quantités de besoin suivantes sont transférées au plan général lors de l’exécution de la planification générale le 1er avril. Comme vous le voyez, les transactions prévues d’avril ont été réduites de la quantité demandée de 240 dans une séquence, à partir de la première de ces transactions. Cependant, les transactions de prévision de mai ont été réduites de 210 au total, à partir de la première transaction de prévision de la demande en mai. Cependant, les totaux par période sont conservés (400 en avril et 300 en mai).
 
 | Date     | Nombre de pièces requises |
 |----------|---------------------------|

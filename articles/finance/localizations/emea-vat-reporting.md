@@ -2,7 +2,7 @@
 title: Déclaration de TVA pour l’Europe
 description: Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 author: ShylaThompson
-ms.date: 06/20/2017
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b028c5a185b4e7626dd9258630cc469c4439fc37d1c9d1cd7d42007b0ec85736
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741487"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487751"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l’Europe
 
@@ -39,6 +39,25 @@ Cette rubrique fournit une approche générique du paramétrage et de la génér
 -   Lituanie
 -   Pays-Bas
 -   Suède
+
+> [!IMPORTANT]
+> Les fonctionnalités décrites dans cette rubrique pour l’Autriche, la République tchèque, l’Allemagne, les Pays-Bas et la Suède sont obsolètes. Pour plus d’informations, voir [Fonctions supprimées et obsolètes](../get-started/removed-deprecated-features-finance.md).
+> Utilisez les liens du tableau suivant pour en savoir plus sur le nouveau design des déclarations de TVA dans les pays correspondants.
+> 
+>
+> | Pays        | Informations supplémentaires                                                          |
+> |----------------|---------------------------------------------------------------------------------|
+> | Autriche        | [Déclaration de TVA (Autriche)](emea-aut-vat-declaration-austria.md)       |                                                                           
+> | République tchèque | [Déclaration de TVA (République tchèque)](emea-cze-vat-declaration-tax-declaration-model.md) |
+> | Danemark        | [Déclaration de TVA (Danemark)](emea-dnk-vat-declaration-denmark.md)         |
+> | France         | [Déclaration de TVA (France)](emea-fra-vat-declaration-preview-france.md)       |
+> | Allemagne        | [Déclaration de TVA (Allemagne)](emea-deu-vat-declaration-germany.md)           |
+> | Pays-Bas    | [Déclaration de TVA (Pays-Bas)](emea-nl-vat-declaration-netherlands.md)    |
+> | Norvège         | [Retour de TVA avec envoi direct à Altinn](emea-nor-vat-return.md) |
+> | Espagne          | [Déclaration de TVA (Espagne)](emea-esp-vat-declaration-spain.md)              |
+> | Suède         | [Déclaration de TVA (Suède)](emea-swe-vat-declaration-sweden.md)          |
+> | Suisse    | [Déclaration TVA (Suisse)](emea-che-vat-declaration-switzerland.md) |
+> | Royaume-Uni             | [Préparer l’intégration avec MRD pour la TVA](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>Vue d’ensemble de la déclaration de TVA
 La déclaration de TVA est basée sur les montants des transactions de taxe. Le processus de génération d’une déclaration de TVA fait partie du processus de paiement de la taxe, qui est implémenté via la fonction Régler et valider la taxe. Cette fonction calcule la taxe due pour une période donnée. Le calcul du règlement inclut la taxe validée pour la période de règlement sélectionnée pour les transactions de taxe. Le processus de calcul des données d’une déclaration de TVA est basé sur la relation entre les codes taxe et les codes déclaration de taxe, où les codes déclaration de taxe correspondent aux zones de déclaration de TVA (ou balises en XML). Pour chaque code taxe, des codes déclaration de taxe doivent être définis pour chaque type de transaction, par exemple les ventes imposables, les achats imposables, les importations imposables. Ces types de transactions sont décrits dans la section Codes taxe pour la déclaration de TVA plus loin dans cette rubrique.
@@ -258,10 +277,10 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 
 | Pays        | Informations supplémentaires                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Autriche        |  [Détails de la déclaration de TVA pour l’Autriche](emea-aut-vat-statement-details.md)         |
+| Autriche        | [Détails de la déclaration de TVA pour l’Autriche](emea-aut-vat-statement-details.md)         |
 | Belgique        |                                                                                 |
-| République tchèque |  [Relevé de TVA – République tchèque](emea-cze-vat-statement-details.md)   |
-| Estonie        |  [Détails de la déclaration de TVA pour l’Estonie](emea-est-vat-statement-details.md) |
+| République tchèque | [Relevé de TVA – République tchèque](emea-cze-vat-statement-details.md)   |
+| Estonie        | [Détails de la déclaration de TVA pour l’Estonie](emea-est-vat-statement-details.md) |
 | Finlande        | [Déclaration de taxe pour la Finlande](emea-fin-sales-tax-payment-report-finland.md)          |
 | Allemagne        | [Déclaration de TVA pour l’Allemagne](emea-de-vat-declaration.md)                       |
 | Italie          | [Détails de la déclaration de TVA pour l’Italie](emea-ita-vat-statements-details.md)            |

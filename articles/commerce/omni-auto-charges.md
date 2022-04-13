@@ -2,7 +2,7 @@
 title: Frais automatiques avancés omnicanaux
 description: Cette rubrique décrit les capacités de gestion d’autres frais de commande pour les commandes du canal Commerce en utilisant les fonctions de frais automatiques avancés.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743429"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489616"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Frais automatiques avancés omnicanaux
 
@@ -41,7 +41,7 @@ Avec la fonctionnalité des frais automatiques avancés, les utilisateurs de PDV
 
 ## <a name="enable-advanced-auto-charges"></a>Activer des frais automatiques avancés
 
-Dans la page **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres de Commerce**, accédez à l’onglet **Commandes client**. Dans l’organisateur **Frais**, définissez **Utiliser les frais automatiques avancés** sur **Oui**.
+Dans la page **Commerce et vente au détail \> Configuration du siège \> Paramètres \> Paramètres de Commerce**, accédez à l’onglet **Commandes client**. Dans l’organisateur **Frais**, définissez **Utiliser les frais automatiques avancés** sur **Oui**.
 
 ![Paramètre de frais automatiques avancés.](media/advancedchargesparameter.png)
 
@@ -182,11 +182,14 @@ Sur la page **Gérer les frais** dans le PDV, l’utilisateur peut afficher les 
 
 Si le **Code du motif de remplacement des frais** a été configuré dans la page de configuration **Paramètres de Commerce**, l’utilisateur est invité à fournir un code motif lorsque les frais sont modifiés dans l’application du PDV.
 
-Si les codes de motif ont été capturés pour remplacer les frais, un nouveau rapport est également disponible pour passer en revue et auditer ces remplacements. L’état se trouve sous **Retail et Commerce \> Recherches et états \> Historique de remplacement des frais**.
+Si les codes de motif ont été capturés pour remplacer les frais, un nouveau rapport est également disponible pour passer en revue et auditer ces remplacements. L’état se trouve sous **Commerce et vente au détail \> Recherches et états \> Historique de remplacement des frais**.
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Remboursement des frais dans le cadre d’une transaction de retour au PDV
 
 Si le paramètre **Utiliser les frais automatiques avancés** est défini sur **Oui**, le paramètre de commerce existant pour **Rembourser les frais d’expédition** ne s’applique plus. Pour indiquer quels frais doivent être systématiquement remboursés à un client lors de l’utilisation de frais automatiques avancés, assurez-vous que le code de frais associé a été configuré comme **Remboursable** sur la page de configuration **Code de frais**. Veillez à ce que les paramètres soient synchronisés vers les bases de données du canal de commerce par le traitement du programme de distribution.
+
+> [!TIP]
+> Pour obtenir des conseils qui vous aideront à vous assurer que les frais remboursables au niveau de la ligne sont calculés en fonction de la quantité retournée, consultez [Les frais remboursables sont calculés de manière incorrecte en fonction de la quantité retournée](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Remboursement des frais dans le cadre d’une transaction d’ordre de retour
 
@@ -211,7 +214,7 @@ Certaines organisations préfèreront attendre jusqu’à ce que l’utilisateur
 
 ### <a name="charges-override-reports"></a>États de remplacement des frais
 
-Si les utilisateurs remplacent manuellement les frais calculés ou ajoutent des frais manuels à la transaction, ces données sont disponibles pour audit dans l’état **Historique de remplacement des frais**. L’état est accessible depuis **Retail et Commerce \> Recherches et états \> Historique de remplacement des frais**. Il est important d’observer que les données requises pour cet état sont importées depuis la base de données des canaux dans le siège social via les tâches de programme de distribution « P ». Par conséquent, les informations concernant les remplacements effectués dans le PDV peuvent ne pas être immédiatement disponibles sur cet état tant que cette tâche n’a pas chargé les données de transaction du magasin au siège.
+Si les utilisateurs remplacent manuellement les frais calculés ou ajoutent des frais manuels à la transaction, ces données sont disponibles pour audit dans l’état **Historique de remplacement des frais**. L’état est accessible depuis **Commerce et vente au détail \> Recherches et états \> Historique de remplacement des frais**. Il est important d’observer que les données requises pour cet état sont importées depuis la base de données des canaux dans le siège social via les tâches de programme de distribution « P ». Par conséquent, les informations concernant les remplacements effectués dans le PDV peuvent ne pas être immédiatement disponibles sur cet état tant que cette tâche n’a pas chargé les données de transaction du magasin au siège.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

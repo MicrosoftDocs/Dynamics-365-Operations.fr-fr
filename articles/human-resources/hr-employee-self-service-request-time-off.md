@@ -1,5 +1,5 @@
 ---
-title: Demande de congés
+title: Demander un congé
 description: Demandez des congés dans Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 11/03/2021
@@ -12,20 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ca3fd03cda720187cb9c21b7f3ef3545c8901e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 92e9f6cc04a2dae49267cf92bdd309e82ee6561a
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066773"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509638"
 ---
-# <a name="request-time-off"></a>Demande de congés
+# <a name="request-time-off"></a>Demander un congé
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

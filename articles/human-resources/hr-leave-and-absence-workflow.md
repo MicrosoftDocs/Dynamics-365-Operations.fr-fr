@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 707b986c41cde2d4e26bdb4c5218b87b27702cee
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b23dbf6a1923030abfadc6d82d57d5ea226b1e42
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065174"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509245"
 ---
-# <a name="create-a-leave-request-workflow"></a>Créer un workflow de demande d’absence
+# <a name="create-a-leave-request-workflow"></a>Créer un workflow de demande de congé
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+> [!Important]
+> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients sur Dynamics 365 Human Resources autonome. Certaines ou toutes les fonctionnalités seront disponibles dans le cadre d’une future version de l’infrastructure Finance après la version 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

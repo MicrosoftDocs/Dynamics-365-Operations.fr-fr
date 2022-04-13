@@ -1,8 +1,8 @@
 ---
-title: Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
-description: Cette rubrique couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS).
-author: boycezhu
-ms.date: 09/07/2021
+title: Configurer et utiliser la fonctionnalité de connexion étendue
+description: Cette rubrique décrit comment configurer et utiliser la fonctionnalité de connexion étendue de l’application PDV (Point de vente) de Microsoft Dynamics 365 Commerce.
+author: boycez
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,56 +16,52 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
+ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478669"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491437"
 ---
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Paramétrer une fonctionnalité de connexion étendue pour MPOS et Cloud POS
+# <a name="set-up-and-use-the-extended-logon-capability"></a>Configurer et utiliser la fonctionnalité de connexion étendue
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les options de configuration de la connexion étendue pour Cloud POS et Retail Modern POS (MPOS).
+Cette rubrique décrit comment configurer et utiliser la fonctionnalité de connexion étendue de l’application PDV (Point de vente) de Microsoft Dynamics 365 Commerce.
 
-## <a name="setting-up-extended-logon"></a>Paramétrage d’une connexion étendue
+Cloud POS (CPOS) et Modern POS (MPOS) offrent une capacité de connexion étendue qui permet aux employés des magasins de détail de se connecter à l’application de PDV en scannant un code-barres ou en glissant une carte à l’aide d’un lecteur de bande magnétique (MSR).
 
-Vous trouverez le paramétrage des masques de code-barres dans **Retail et Commerce** &gt; **Paramétrage du canal** &gt; **Paramétrage du PDV** &gt; **Profils PDV** &gt; **Profils de fonctionnalités**. L’organisateur **Fonctions** inclut les options suivantes relatives à la connexion étendue.
+## <a name="set-up-extended-logon"></a>Configurer la connexion étendue
 
-### <a name="staff-bar-code-logon"></a>Connexion du personnel par code-barres
+Pour configurer une connexion étendue pour les caisses enregistreuses de PDV dans un magasin de détail, procédez comme suit.
 
-Lorsque l’option **Connexion du personnel par code-barres** est activée, les collaborateurs qui ont une connexion étendue affectée à leurs informations d’identification de point de vente (PDV) peuvent se connecter à l’aide d’un code-barres.
+1. Dans Commerce Headquarters, accédez à **Commerce et vente au détail \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils de fonctionnalité**. 
+2. Dans le volet de navigation de gauche, sélectionnez le profil de fonctionnalité associé au magasin de vente au détail.
+3. Dans le raccourci **Fonctions**, sous **Options d’authentification de connexion supplémentaires**, définissez les options suivantes sur **Oui** ou **Non** selon le cas :
 
-### <a name="staff-bar-code-logon-requires-password"></a>La connexion du personnel par code-barres nécessite un mot de passe
+    - **Connexion par code-barres du personnel** : définissez cette option sur **Oui** si vous souhaitez que vos employés se connectent au PDV en scannant un code-barres. 
+    - **La connexion par code-barres du personnel nécessite un mot de passe** : définissez cette option sur **Oui** si vous souhaitez que vos employés saisissent un mot de passe quand ils se connectent au PDV en scannant un code-barres.
+    - **Connexion par carte du personnel** : définissez cette option sur **Oui** si vous souhaitez que vos employés se connectent au PDV en glissant une carte.
+    - **La connexion par carte du personnel nécessite un mot de passe** : définissez cette option sur **Oui** si vous souhaitez que vos employés saisissent un mot de passe quand ils se connectent au PDV en glissant une carte.
 
-Lorsque l’option **La connexion du personnel par code-barres nécessite un mot de passe** est activée, la connexion du personnel par code-barres sélectionne uniquement le collaborateur qui est affecté à la connexion étendue présentée. Les collaborateurs doivent toujours entrer leur mot de passe lorsque cette option est activée.
+Le code-barres ou la carte est associé à des informations d’identification qui peuvent être attribuées à un employé. Les informations d’identification doivent comporter au moins six caractères. La chaîne qui contient les cinq premiers caractères doit être unique et est considérée comme un *ID d’identification* qui est utilisé pour rechercher un employé. Les caractères restants sont utilisés pour la vérification de sécurité. Par exemple, vous avez deux cartes, dont l’une a les informations d’identification 12345DGYDEYTDW et l’autre a les informations d’identification 12345EWUTBDAJH. Étant donné que ces deux cartes ont le même ID d’identification, 12345, elles ne peuvent pas être toutes les deux attribuées avec succès à des employés.
 
-### <a name="staff-card-logon"></a>Connexion du personnel par carte
-
-Lorsque l’option **Connexion du personnel par carte** est activée, les collaborateurs qui ont une connexion étendue affectée à leurs informations d’identification de PDV peuvent se connecter à l’aide d’une bande magnétique.
-
-### <a name="staff-card-logon-requires-password"></a>La connexion du personnel par carte nécessite un mot de passe
-
-Lorsque l’option **La connexion du personnel par carte nécessite un mot de passe** est activée, la connexion du personnel par carte sélectionne uniquement le collaborateur qui est affecté à la connexion étendue présentée. Les collaborateurs doivent toujours entrer leur mot de passe lorsque cette option est activée.
-
-## <a name="assigning-an-extended-logon"></a>Affectation d’une connexion étendue
+## <a name="assign-extended-logon"></a>Affecter une connexion étendue
 
 Par défaut, seuls les responsables peuvent affecter une connexion étendue aux collaborateurs. Pour affecter une connexion étendue, accédez à **Connexion étendue** dans le PDV. Recherchez ensuite un collaborateur en entrant son ID de collaborateur dans le champ de recherche. Sélectionnez le collaborateur, puis cliquez sur **Affecter**. Sur la page suivante, faites glisser ou scannez la connexion étendue à affecter au collaborateur. Si cette opération permet une lecture correcte, le bouton **OK** devient disponible. Cliquez sur **OK** pour enregistrer la connexion étendue pour ce collaborateur.
 
-## <a name="deleting-an-extended-logon"></a>Suppression d’une connexion étendue
+## <a name="delete-extended-logon"></a>Supprimer une connexion étendue
 
 Pour supprimer la connexion étendue affectée à un collaborateur, recherchez le collaborateur à l’aide de l’opération **Connexion étendue**. Sélectionnez le collaborateur, puis cliquez sur **Annuler l’affectation**. Toutes les informations d’identification de la connexion étendue associées à ce collaborateur sont supprimées.
 
-## <a name="extending-extended-logon"></a>Extension de connexion étendue
+## <a name="use-extended-logon"></a>Utiliser une connexion étendue
 
-L'ouverture de session étendue n'autorise que cinq caractères significatifs comme identifiant unique prêt à l'emploi. Par exemple, si vous configurez deux cartes avec les ID « 1234567 » et « 1234578 », elles seront toutes les deux considérées comme « 12345 ». Vous pouvez créer une extension pour prendre en charge plus de caractères. Pour des instructions détaillées, consultez [Extension de la fonctionnalité d'ouverture de session étendue pour MPOS et Cloud POS ](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+Une fois la connexion étendue configurée, et qu’un code-barres ou une carte magnétique a été affectée à un collaborateur, celui-ci doit juste faire glisser ou scanner sa carte lorsque la page de connexion de PDV s’affiche. Si un mot de passe est également requis pour pouvoir continuer, le collaborateur est invité à entrer son mot de passe.
 
-Le service de connexion peut être étendu pour prendre en charge les périphériques de connexion étendue supplémentaires, tels que des scanneurs de paume. Pour plus d’informations, voir la documentation sur l’extensibilité de PDV.
+## <a name="extend-extended-logon"></a>Étendre la connexion étendue
 
-## <a name="using-extended-logon"></a>Utilisation d’une connexion étendue
+L’implémentation prête à l’emploi de la fonctionnalité de connexion étendue nécessite que les informations d’identification aient une longueur minimale de six caractères et que les cinq premiers caractères (l’ID d’identification) soient uniques. Cela était à l’origine conçu comme un exemple personnalisable par les développeurs pour répondre aux exigences d’une implémentation spécifique. (Par exemple, il pouvait être personnalisé pour prendre en charge plus de caractères ou utiliser différentes règles de vérification de sécurité.) Pour des informations détaillées sur la façon de créer des extensions pour la connexion étendue, voir [Extension de la fonctionnalité de connexion étendue pour MPOS et Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
-Lorsque la connexion étendue est configurée, et qu’un collaborateur a été affecté à un code-barres ou une bande magnétique, celui-ci doit juste faire glisser ou scanner la carte du collaborateur lorsque la page de connexion de PDV s’affiche. Si un mot de passe est également requis pour pouvoir continuer la connexion, le collaborateur est invité à entrer son mot de passe.
-
+Le service de connexion peut également être étendu pour prendre en charge les périphériques de connexion étendue supplémentaires, tels que des scanneurs de paume. Pour plus d’informations, voir la [documentation sur l’extensibilité de PDV](dev-itpro/pos-extension/pos-extension-overview.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

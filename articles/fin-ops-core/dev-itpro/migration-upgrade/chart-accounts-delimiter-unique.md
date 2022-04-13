@@ -2,7 +2,7 @@
 title: Rendre unique le délimiteur du plan de comptes
 description: Cette rubrique explique comment vous ne pouvez pas avoir le même séparateur pour le plan de comptes et les valeurs de dimension. Vous devez modifier les valeurs de délimiteur après la mise à niveau.
 author: panolte
-ms.date: 09/17/2021
+ms.date: 03/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 433e9f8a7b0a9f476c74096a4bd7fef03c87dee1
+ms.sourcegitcommit: 0d5ee97670bdeb1986aaea880f32962b5e374751
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500501"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468046"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Rendre unique le délimiteur du plan de comptes
 
@@ -32,8 +32,10 @@ En cas de conflit avec le plan de comptes, le délimiteur de plan de comptes et 
 - Vous pouvez modifier le séparateur de plan de comptes après la mise à niveau dans **Paramètres de comptabilité** > **Plan de comptes et dimensions** > **Modifier le délimiteur**. 
 - Si le seul conflit est avec le format d’ID de projet/sous-projet, vous pouvez modifier cette valeur dans **Paramètres de gestion et comptabilité des projets** > **Général** > **Modifier le format du sous-projet**. 
 
+### <a name="other-considerations"></a>Autres considérations
+Comme pour l’ID de projet/sous-projet, tous les autres enregistrements de données de base utilisés comme dimensions financières, tels que les fournisseurs ou les clients, ne doivent pas avoir de valeurs d’ID de compte qui utilisent le même caractère que le délimiteur du plan comptable. 
+
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Procédure pour déterminer si votre environnement nécessite des délimiteurs mis à jour 
 Si les délimiteurs de votre environnement mis à niveau sont en conflit, vous pouvez rencontrer de l’instabilité en entrant des valeurs dans un contrôle d’accès segmenté et un contrôle d’entrée de dimension. Cela signifie que vous devez toujours utiliser les recherches ou un menu volant pour la saisie des combinaisons de compte et de dimensions.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

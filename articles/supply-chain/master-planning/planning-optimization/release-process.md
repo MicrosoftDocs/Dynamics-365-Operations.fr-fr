@@ -1,21 +1,21 @@
 ---
 title: Processus de publication de l’optimisation de la planification et historique des versions
 description: Cette rubrique fournit des informations sur le processus de publication et l’historique des versions de l’optimisation de la planification.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407842"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469699"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processus de publication de l’optimisation de la planification et historique des versions
 
@@ -33,7 +33,7 @@ Les environnements qui utilisent l’optimisation de la planification reçoivent
 
 | Modifications | Détails de la gestion des fonctionnalités | Dates de parution |
 |---|---|---|
-| <p>Améliorations générales des performances, de la qualité et de la stabilité.<p>Maintenance du calendrier centralisé de l’optimisation de la planification<p>Suggestions d’optimisation de la planification pour optimiser l’offre existante | Aucune gestion des fonctionnalités n’est requise. | 7-11 mars 2022 |
+| <p>Améliorations générales des performances, de la qualité et de la stabilité.<p>[Maintenance du calendrier centralisé de l’optimisation de la planification](../supply-chain-calendars-master-planning.md)<p>[Suggestions d’optimisation de la planification pour optimiser l’offre existante](../action-messages.md)<p>[Prise en charge de l’optimisation de la planification pour la sous-traitance](../../production-control/manage-subcontract-work-production.md) | Aucune gestion des fonctionnalités n’est requise. | 7-11 mars 2022 |
 | <p>Ajout de la prise en charge de la priorité de planification pour les ordres de fabrication. | Disponible avec la version 10.0.25 dans le cadre de la fonctionnalité *Support MRP piloté par la priorité pour l’optimisation de la planification*. | 12-18 novembre 2021 |
 | <p>Améliorations générales des performances, de la qualité et de la stabilité. | Aucune gestion des fonctionnalités n’est requise. | 12-18 novembre 2021 |
 | <p>Ajout de la prise en charge des formules de calcul du temps de traitement, de l’itinéraire de production avec chevauchement et du numéro d’opération de production sur les transactions de besoins.</p><p>Messages d’erreur améliorés pour la planification de la production liés au délai d’attente, à la capacité introuvable et à l’itinéraire cyclique.</p><p>Amélioration de la cohérence lors du calcul des dates de réception et de sortie des commandes planifiées et des commandes confirmées.</p><p>Améliorations générales des performances, de la qualité et de la stabilité. | Nom de la fonctionnalité : *Planification des capacités infinies pour l’optimisation de la planification* | 22 au 27 octobre 2021 |

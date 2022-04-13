@@ -1,21 +1,21 @@
 ---
 title: Différences entre la planification générale intégrée et l’optimisation de la planification
 description: Cette rubrique répertorie les fonctionnalités que l’optimisation de la planification ne prend pas encore en charge et qui ne sont pas répertoriées sur la page d’analyse de concordance pour l’optimisation de la planification.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 575aef709a0ac3b0cf8150f1e816dac04c069814
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396497"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468326"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Différences entre la planification générale intégrée et l’optimisation de la planification
 
@@ -40,7 +40,7 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Analyse de concordance pour l'optimisation de la planification](planning-optimization-fit-analysis.md)
+- [Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
 - [Paramètres non utilisés par l’optimisation de la planification](not-used-parameters.md)
 - [Paramètres de date et d’heure utilisés par l’optimisation de la planification](date-time-used.md)
 

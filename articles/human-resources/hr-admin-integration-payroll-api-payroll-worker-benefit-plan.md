@@ -1,7 +1,7 @@
 ---
 title: Régime des avantages sociaux pour les collaborateurs de la paie
 description: Cette rubrique fournit des détails et un exemple de requête pour l’entité Régime des avantages sociaux pour les collaborateurs de la paie dans Dynamics 365 Human Resources.
-author: marcelbf
+author: twheeloc
 ms.date: 07/28/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: marcelbf
+ms.author: twheeloc
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1805f7efaf2efc48d5996776f3aa27d75606886f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ade1c789716ea5f559a73c8551b7c1adf030b806
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068432"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533794"
 ---
 # <a name="payroll-worker-benefit-plan"></a>Régime des avantages sociaux pour les collaborateurs de la paie
 
@@ -31,13 +31,13 @@ Cette rubrique décrit l’entité Régime des avantages sociaux pour les collab
 
 Nom physique : mshr_payrollworkerbenefitplanentities.
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Cette entité fournit des informations sur le régime des avantages sociaux pour un collaborateur donné.
 
 ## <a name="properties"></a>Propriétés
 
-| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description  |
+| Propriété</br>**Nom physique**</br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
 | **Numéro personnel**</br>mshr_personnelnumber</br>*Chaîne* | Lecture seule</br>Requis | Numéro personnel unique du collaborateur. |
 | **ID entité juridique**</br>mshr_legalentityID</br>*Chaîne* | Lecture seule | Spécifie l’entité juridique (société). |

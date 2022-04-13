@@ -1,22 +1,22 @@
 ---
 title: Paramètres non utilisés par Planning Optimization
 description: Cette rubrique répertorie les paramètres que Planning Optimization ne prend pas en compte actuellement lors de son fonctionnement.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408228"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469112"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Paramètres non utilisés par Planning Optimization
 
@@ -65,18 +65,6 @@ Planning Optimization n’utilise pas les paramètres ou options suivants sur la
   - **Utiliser la nomenclature ou la version de formule spécifiée** – Support *Versions de formule avec co/sous-produit* en attente.
   - **Utiliser la version de routage spécifiée** – Support *Demande avec des exigences de nomenclature ou de routage spécifiques définies* en attente.
 
-- Raccourci **Action** :
-
-  - **Message d’action** – Support *Actions* en attente.
-  - **Plage de gestion d’action** – Support *Actions* en attente.
-  - **Reporter la marge** – Support *Actions* en attente.
-  - **Avancer la marge** – Support *Actions* en attente.
-  - **Date de base** – Support *Actions* en attente.
-  - **Avancer** – Support *Actions* en attente.
-  - **Reporter** – Support *Actions* en attente.
-  - **Diminuer** – Support *Actions* en attente.
-  - **Augmenter** – Support *Actions* en attente.
-  - **Actions dérivées** – Support *Actions* en attente.
 
 - Raccourci **Autre** :
 
@@ -149,7 +137,6 @@ Planning Optimization n’utilise pas les paramètres ou options suivants sur la
   - **Plan prévisionnel** – Support *Prévision* supplémentaire en attente.
   - **Capacité** – Support *Planification* en attente.
   - **Plan de continuité** – Support *Planification de la continuité* en attente.
-  - **Message d’action** – Support *Actions* en attente.
   - **Retards calculés** – Support *Retards calculés* supplémentaire en attente.
   - **Classement** – Support *Production* en attente.
 

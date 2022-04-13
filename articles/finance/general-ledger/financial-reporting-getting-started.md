@@ -2,25 +2,27 @@
 title: Présentation de Financial Reporting
 description: Cette rubrique explique où accéder à Financial Reporting dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de Financial Reporting.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983975"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527311"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mise en route de Financial Reporting 
 
@@ -174,7 +176,7 @@ Problème 1 : le Concepteur de rapports ne démarre pas lorsque vous sélectio
 * Dans Internet Explorer, sélectionnez **Paramètres**, puis sélectionnez **Options Internet**. Sélectionnez l’onglet **Sécurité**. Sélectionnez Sites de confiance, puis sélectionnez **Sites**. Dans la section **Ajouter ce site Web à la zone**, entrez « \*\.dynamics.com » (sans guillemets), puis sélectionnez **Ajouter**. 
 * Dans Internet Explorer, sélectionnez **Paramètres**, puis sélectionnez **Options Internet**. Sélectionnez l’onglet **Sécurité**. Sélectionnez Sites de confiance. Dans la zone intitulée Niveau de sécurité pour cette zone, modifiez l’option en **Moyen-faible**.
 * Désactivez le bloqueur de fenêtres publicitaires dans votre navigateur.
-* Les postes de travail doivent installer Microsoft .NET Framework 4.6.2 ou version supérieure. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Les postes de travail doivent installer Microsoft .NET Framework 4.7.2 ou version supérieure. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Si vous utilisez le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez Chrome en mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. Pour plus d’informations sur l’extension ClickOnce de Chrome, voir [Configuration requise pour les déploiements Cloud](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Si vous utilisez Microsoft Edge avec un navigateur Chrome, vous n’avez pas besoin d’installer une extension ClickOnce pour Edge Chromium. Cependant, vous devez activer l’option ClickOnce pour télécharger le client Report Designer. Si vous utilisez le mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito.
 

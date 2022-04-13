@@ -1,7 +1,7 @@
 ---
 title: Planification avec accords commerciaux d’achat
 description: Cette rubrique décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour une commande prévisionnelle, en fonction du meilleur prix ou du meilleur délai de livraison trouvé dans les accords commerciaux d’achat.
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757756"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468411"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planification avec accords commerciaux d’achat
 
@@ -53,7 +53,7 @@ Procédez comme suit pour configurer votre système en vue d’appliquer l’opt
 Une fois votre système préparé comme décrit dans la section précédente, vous devez procéder comme suit pour vous assurer que chaque produit que vous souhaitez utiliser avec cette fonctionnalité est correctement configuré.
 
 1. Accédez à **Gestion d’informations sur les produits \> Produits \> Produits lancés** et ouvrez un produit cible.
-1. Dans l'organisateur **Achat**, assurez-vous qu’aucun fournisseur n’est affecté dans le champ **Fournisseur**.
+1. Dans l’organisateur **Achat**, assurez-vous qu’aucun fournisseur n’est affecté dans le champ **Fournisseur**.
 1. Dans le volet Actions, sous l’onglet **Plan**, dans le groupe **Couverture**, cliquez sur **Couverture de l’article** pour ouvrir la page **Couverture de l’article** pour le produit sélectionné. Vérifiez les paramètres suivants :
 
     - Dans l’onglet **Général**, vous pouvez configurer des remplacements de fournisseurs. Si vous souhaitez que l’optimisation de la planification utilise les accords commerciaux d’achat pour sélectionner un fournisseur, vous devez empêcher les remplacements de fournisseur en désactivant la case à cocher **Utiliser des paramètres spécifiques**.
@@ -67,7 +67,7 @@ Une fois votre système préparé comme décrit dans la section précédente, vo
 1. Répétez cette procédure pour chaque produit concerné.
 
 > [!NOTE]
-> L’optimisation de la planification prend en charge les accords commerciaux d’achat dans plusieurs devises. Lors de la recherche d'un accord commercial à l'aide de l'option **Prix unitaire minimal**, le système tiendra compte des lignes de l’accord commercial d’achat avec des devises différentes à condition qu'un taux de change ait été défini entre la devise de la ligne d'accord commercial et la devise comptable de l'entité juridique. Sinon, la ligne de l'accord commercial sera ignorée et vous verrez une erreur lors de la planification générale. Par conséquent, la planification générale comprendra les informations de toutes les lignes de l'accord commercial d'achat pertinentes où les prix peuvent être convertis dans la devise comptable. Il est important de noter que les règles d'arrondi ne seront pas prises en compte lors de la conversion des prix de ligne de l'accord commercial.
+> L’optimisation de la planification prend en charge les accords commerciaux d’achat dans plusieurs devises. Lors de la recherche d’un accord commercial à l’aide de l’option **Prix unitaire minimal**, le système tiendra compte des lignes de l’accord commercial d’achat avec des devises différentes à condition qu’un taux de change ait été défini entre la devise de la ligne d’accord commercial et la devise comptable de l’entité juridique. Sinon, la ligne de l’accord commercial sera ignorée et vous verrez une erreur lors de la planification générale. Par conséquent, la planification générale comprendra les informations de toutes les lignes de l’accord commercial d’achat pertinentes où les prix peuvent être convertis dans la devise comptable. Il est important de noter que les règles d’arrondi ne seront pas prises en compte lors de la conversion des prix de ligne de l’accord commercial.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Exemples de la façon dont l’optimisation de la planification trouve le fournisseur et les délais
 

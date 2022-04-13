@@ -1,26 +1,26 @@
 ---
 title: Postes
 description: Cette rubrique décrit les éléments conceptuels qu’un poste peut inclure. Elle fournit également des exemples qui montrent comment vous pouvez utiliser ces éléments dans votre organisation.
-author: andreabichsel
+author: twheeloc
 ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 95abd7548d23ef1b4f5fc31ebaa818e06e179d60
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b0b11458ac5d41d08a245a1f5aa48fb4633ae075
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068817"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534299"
 ---
 # <a name="positions"></a>Postes
 
@@ -37,7 +37,7 @@ Avant de pouvoir créer un poste, une tâche doit être configurée. Certains d�
 
 Lorsque vous créez un poste, vous devez sélectionner une tâche. Les informations suivantes seront automatiquement renseignées à partir du poste que vous sélectionnez :
 
-- Description 
+- Description
 - Titre
 - Équivalent temps plein
 - Famille de tâches

@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353360"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489028"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Détecter les paniers abandonnés et envoyer des notifications aux clients
 
@@ -127,7 +127,7 @@ Pour configurer l’exemple d’application de connecteur de panier abandonné, 
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions
 
-Le statut de la tâche de récupération du panier abandonné, les ID de panier et les horodatages modifiés sont stockés dans Azure Cosmos DB. Par défaut, les paramètres du fichier de configuration pointent vers l’instance d’émulateur local d’Azure Cosmos DB. Lorsque vous déployez le connecteur en production, vous devez mettre à jour ces paramètres afin qu’ils pointent vers l’instance Azure Cosmos DB dans votre abonnement Azure. Pour les tests locaux ou en bac à sable, vous pouvez utiliser l’[émulateur Azure Cosmos](/azure/cosmos-db/local-emulator).
+Le statut de la tâche de récupération du panier abandonné, les ID de panier et les horodatages modifiés sont stockés dans Azure Cosmos DB. Par défaut, les paramètres du fichier de configuration pointent vers l’instance d’émulateur local d’Azure Cosmos DB. Lorsque vous déployez le connecteur en production, vous devez mettre à jour ces paramètres afin qu’ils pointent vers l’instance Azure Cosmos DB dans votre abonnement Azure. Pour les tests locaux ou en bac à sable, vous pouvez utiliser [l’émulateur Cosmos DB](/azure/cosmos-db/local-emulator).
 
 | Propriété    | Description |
 | ----------- | ----------- |
@@ -155,7 +155,7 @@ Si vous utilisez les fonctionnalités de commerce électronique dans Commerce, v
 
 | Propriété                             | Description |
 | ------------------------------------ | ----------- |
-| ImageServerUrl                       | URL racine du gestionnaire de ressources numériques de votre site. Vous pouvez trouver la valeur dans la clé de propriété **URL de base du serveur multimédia** à l’emplacement **Retail et Commerce \> Configuration du canal \> Profils de canal** dans Commerce Headquarters. |
+| ImageServerUrl                       | URL racine du gestionnaire de ressources numériques de votre site. Vous pouvez trouver la valeur dans la clé de propriété **URL de base du serveur multimédia** à l’emplacement **Commerce et vente au détail \> Configuration du canal \> Profils de canal** dans Commerce Headquarters. |
 | ImageViewPorts                       | Nœud de conteneur pour les configurations de fenêtres d’affichage individuelles. |
 | ImageViewPorts/viewport              | Définition de la fenêtre d’affichage. Utilisez cette propriété pour spécifier les plages de largeur de la fenêtre d’affichage, en pixels. Pour un exemple de la façon dont cette propriété est utilisée, voir le fichier de configuration **appSettings.json**. |
 | ImageViewPorts/imageWidth            | Largeur de l’image de la fenêtre d’affichage, en pixels. |

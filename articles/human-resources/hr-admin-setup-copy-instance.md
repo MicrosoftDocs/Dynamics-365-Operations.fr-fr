@@ -1,7 +1,7 @@
 ---
 title: Copier une instance
 description: Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable.
-author: andreabichsel
+author: twheeloc
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,19 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 04987f18542ff331124f5224e4b1240672874e83
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060829"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533962"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 
 
 Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable. Si vous avez un autre environnement de bac à sable, vous pouvez également copier la base de données de cet environnement vers un environnement cible de bac à sable.
@@ -73,9 +72,9 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
    ![[Sélectionner l’instance à remplacer.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
-5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
+5. Sélectionnez **Power Platform**, et connectez-vous au Centre d’administration Microsoft Power Platform.
 
-   ![[Sélectionnez Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Sélectionner Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
 

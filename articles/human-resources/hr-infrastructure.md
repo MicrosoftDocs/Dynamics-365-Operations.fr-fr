@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024565"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487792"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Fusion de l’infrastructure Dynamics 365 Human Resources – Mise à jour de la version 10.0.25
 
@@ -34,7 +34,7 @@ La fusion offrira aux utilisateurs de Human Resources davantage de cohérence, d
     - Il existe une base de code unique, où de nouvelles fonctionnalités pour Human Resources sont publiées dans le cadre du processus de mise à jour régulier One Version.
     - La façon dont les mises à niveau, les mises à jour et les correctifs sont appliqués aux environnements est cohérente.
 
-- [Les options d’extensibilité sont améliorées.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Les options d’extensibilité sont améliorées.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - Vous pouvez continuer à utiliser les outils Microsoft Power Platform pour réaliser les extensions souhaitées.
     - Vous pouvez étendre les fonctionnalités via des formulaires, des tables, des méthodes et des interfaces de programmation d’application (API).
@@ -42,7 +42,7 @@ La fusion offrira aux utilisateurs de Human Resources davantage de cohérence, d
 
     Pour plus d’informations sur les options d’extension disponibles, voir [Présentation de l’extensibilité dans Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [Créez un ensemble de fonctionnalités de ressources humaines dans Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Créez un ensemble de fonctionnalités de ressources humaines dans Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     Dans la version 10.0.25, les capacités fonctionnelles qui n’existaient que dans Human Resources ont été rendues disponibles sur l’infrastructure Finances et Opérations. Pour que les clients puissent tirer parti de ces fonctionnalités dans un environnement Finances et Opérations, les fonctionnalités Human Resources suivantes doivent être activées dans la Gestion des fonctionnalités.
 
