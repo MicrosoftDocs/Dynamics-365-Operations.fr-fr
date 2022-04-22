@@ -1697,23 +1697,25 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Archiver les mouvements de stock
               href: inventory/archive-inventory-transactions.md
-            - name: Complément de visibilité du stock
+            - name: Complément Inventory Visibility
               items:
-                - name: Vue d’ensemble du complément de visibilité du stock
+                - name: Vue d’ensemble du complément Inventory Visibility
                   href: inventory/inventory-visibility.md
-                - name: Installer et configurer la visibilité du stock
+                - name: Installer et configurer Inventory Visibility
                   href: inventory/inventory-visibility-setup.md
-                - name: Configurer la visibilité du stock
+                - name: Configurer Inventory Visibility
                   href: inventory/inventory-visibility-configuration.md
-                - name: Utiliser l’application de visibilité du stock
+                - name: Prise en charge d’Inventory Visibility pour les articles WHS
+                  href: inventory/inventory-visibility-whs-support.md
+                - name: Utiliser l’application Inventory Visibility
                   href: inventory/inventory-visibility-power-platform.md
-                - name: Réservations de la visibilité du stock
+                - name: Réservations Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
-                - name: Planification des modifications de la visibilité des stocks et quantité disponible à la vente
+                - name: Planification des modifications Inventory Visibility et quantité disponible à la vente
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: API publiques de visibilité des stocks
+                - name: API publiques Inventory Visibility
                   href: inventory/inventory-visibility-api.md
-                - name: Conseils sur la visibilité des stocks
+                - name: Conseils Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
         - name: Intelligence IoT
           items:
@@ -2927,11 +2929,11 @@
               href: sales-marketing/trade-allowance.md
             - name: Créer un accord commercial
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Améliorations des performances du nettoyage de l’historique des ventes
+            - name: Planifier le nettoyage des données de l’historique des ventes
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Gestion des services
           items:
-            - name: Vue d’ensemble de gestion des services
+            - name: Vue d’ensemble de la gestion des services
               href: service-management/service-management-home-page.md
             - name: Paramétrer le service client
               items:

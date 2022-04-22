@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: "Finance\_10.0.25 (avril)"
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: "Finance\_10.0.24 (février)"
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copier un échéancier de facturation
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Fonctionnalités de l’échéancier de facturation
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturation jalonnée
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Processus de support et de renouvellement
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Planifications de l’indice des prix à la consommation
+                      href: accounts-receivable/cpischedules.md
                     - name: Terminer les échéanciers de facturation
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Reports de revenus et de dépenses
-                  items: null
+                  items:
+                    - name: Configurer les reports de revenus et de dépenses
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Échéanciers de reports
+                      items:
+                        - name: Créer des échéanciers de reports
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Transactions de report par défaut
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Répartition des revenus à plusieurs éléments
-                  items: null
+                  items:
+                    - name: Configurer la répartition des revenus à plusieurs éléments
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Paiements et règlements
               items:
                 - name: Vue d’ensemble des paiements client
@@ -922,6 +936,8 @@
               items:
                 - name: Planifier votre plan comptable
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Planifier votre plan comptable local
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Comptes principaux
                   items:
                     - name: Types de compte principal
@@ -3086,12 +3102,14 @@
                   href: localizations/mexico.md
                 - name: Portée de la localisation
                   href: localizations/latam-mex-scope.md
-                - name: État de déclaration d’ajustement pour inflation
+                - name: État de déclaration d’ajustement de l’inflation
                   href: localizations/latam-mex-adjustment-inflation-declaration-report.md
                 - name: Annuler une facture électronique
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: "Version\_3.3 de CFDI"
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: "Version\_4.0 de CFDI"
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: ID d’enregistrement de clients et autres informations
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: Relevé de déclaration DIOT

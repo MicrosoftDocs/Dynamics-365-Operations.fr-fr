@@ -18,15 +18,13 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.25 (avril\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.24 (février\_2022)"
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Fonctionnalités de la plateforme supprimées ou déconseillées
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Fonctionnalités supprimées ou déconseillées dans les versions précédentes
+                - name: Fonctions supprimées ou déconseillées dans les versions précédentes
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -394,8 +392,10 @@
                       href: deployment/onprem-batchonly.md
                     - name: Configurer la haute disponibilité pour les nœuds SQL Server Reporting Services (SSRS)
                       href: deployment/onprem-SSRSHA.md
-                    - name: Configurer les proxys pour les environnements sur site
+                    - name: Configurer les proxys pour les environnements locaux
                       href: deployment/onprem-reverseproxy.md
+                    - name: Installer des périphériques d’impression réseau dans les environnements locaux
+                      href: analytics/install-network-printer-onprem.md
                     - name: Diagnostics locaux
                       href: deployment/on-premises-diagnostics.md
                     - name: Configuration de récupération d’urgence localement
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: FAQ sur les ordinateurs virtuels de développement et de version n’accordant pas l’accès à un administrateur
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Configurer le VHD téléchargeable pour la première utilisation
+                  href: dev-tools/vhd-setup.md
                 - name: Renommer les environnements locaux pour accéder à Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Configuration requise pour le développement
@@ -1026,8 +1028,10 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Fichiers de mémoire de traduction
                   href: lifecycle-services/use-translation-service-tm.md
-                - name: Extension d’Azure DevOps (version préliminaire publique)
+                - name: Extension Azure DevOps (version préliminaire publique)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: Didacticiel de l’extension Azure DevOps (version préliminaire publique)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: Intégration de Microsoft Power Platform
           items:
             - name: Vue d’ensemble
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Exécuter Regression Suite Automation Tool (RSAT) avec exécution parallèle
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: Intégrer RSAT avec les pipelines Azure DevOps
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Résolution des problèmes
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Publier des solutions à l’aide de Lifecycle Services
