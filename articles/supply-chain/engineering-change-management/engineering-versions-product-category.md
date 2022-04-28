@@ -2,7 +2,7 @@
 title: Versions d’ingénierie et catégories de produits d’ingénierie
 description: Cette rubrique fournit des informations sur le concept des versions d’ingénierie. Les versions d’ingénierie garantissent que les différents états d’un produit et de ses données sont tenus à jour et clairs, et qu’ils peuvent être visualisés dans le système.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572887"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553360"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versions d’ingénierie et catégories de produits d’ingénierie
 
@@ -137,7 +137,7 @@ Pour chaque ligne que vous ajoutez à la grille, définissez les champs suivants
 |---|---|
 | Nom | Sélectionnez l’attribut à ajouter. |
 | Valeur | Sélectionnez la valeur par défaut pour l’attribut. |
-| Obligatoire | Pour les attributs du type *Booléen*, si cette option est définie sur *Oui*, les utilisateurs doivent définir l’attribut sur *Oui*. Si cette option est définie sur *Non*, les utilisateurs peuvent définir l’attribut sur *Oui* ou *Non*. Pour les autres types de données, le paramètre de cette option est simplement informatif. |
+| Obligatoire | Choisissez si l'attribut est obligatoire, ce qui signifie que les utilisateurs doivent spécifier une valeur valide pour l'attribut avant de pouvoir enregistrer un produit. L'effet de ce paramètre varie légèrement en fonction du type de données de l'attribut sélectionné, tel que défini dans la liste suivante.<ul><li>**Booléen** : définissez cette option sur *Oui* pour exiger que l'attribut ait une valeur *Oui* (le système refusera d'enregistrer un produit dont l'attribut est défini sur *Non*). Définissez cette option sur *Non* pour accepter une valeur *Oui* ou *Non*. (Les attributs de type *booléen* ne peuvent pas avoir une valeur vide.)</li><li>**Entier ou décimal** : définissez cette option sur *Oui* pour obliger les utilisateurs à entrer une valeur différente de zéro pour cet attribut. Définissez-la sur *Non* pour permettre aux utilisateurs de réaliser l'enregistrement avec une valeur nulle.  (Les attributs de ces types ne peuvent pas avoir une valeur vide.)</li><li>**Liste** : les listes ont un type de données *Texte*, mais incluent également une liste prédéfinie de valeurs possibles. Par conséquent, il n'est pas possible d'entrer une valeur vide pour les attributs de ce type, ce paramètre n'a donc aucun effet et est simplement informatif.</li><li>**Tous les autres types de données** : définissez cette option sur *Oui* pour rendre l'attribut obligatoire. Définissez-la sur *Non* pour permettre aux utilisateurs d'enregistrer un produit sans fournir de valeur pour cet attribut.</li></ul> |
 | Attribut de traitement par lots | Sélectionnez si l’attribut doit être propagé via la fonctionnalité de traitement par lots. |
 
 ### <a name="readiness-policy-fasttab"></a>Raccourci de stratégie de disponibilité

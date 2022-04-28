@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920198"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570476"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
 
@@ -57,7 +57,7 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Approvisionnements | Nettoyer l’historique des mises à jour des commandes fournisseur | Cette fonctionnalité vous permet de nettoyer les enregistrements historiques temporaires liés aux mises à jour des bons de commande. Il ajoute un nouveau bouton appelé **Nettoyer l’historique des mises à jour des achats** au volet Actions sur la page **Tous les bons de commande**. Cette fonctionnalité est activée par défaut. |
 | Contrôle de la production | (Version préliminaire) Prélèvement automatique des matières activées pour les entrepôts pour les prélèvements automatiquement validés | Cette fonction vous permet de sélectionner automatiquement et de résoudre les dimensions de stock pour les journaux des prélèvements automatiquement validés, dérivés. |
 | Contrôle de la production | Valider l’expiration des matières premières par rapport à la date de consommation prévue | Cette fonctionnalité modifie la manière dont les dates d’expiration des lots sont validées lors de la réservation d’un lot de matières premières à utiliser pendant la production. Lorsque cette fonctionnalité est activée, la date d’expiration du lot est validée par rapport à la date de consommation planifiée (la date de la matière première), telle qu’établie sur la ligne de nomenclature de production ou la ligne de formule de commande de lot. Lorsque cette fonctionnalité est désactivée, la date d’expiration du lot est validée par rapport à la date de livraison prévue de la production ou de la commande de lot (comme précédemment). |
-| Ventes et marketing | Nettoyer l’historique des mises à jour de ventes selon l’âge | Cette fonctionnalité vous permet de définir l’âge maximum des enregistrements à conserver lors de l’exécution de la tâche périodique **Nettoyage de l’historique des mises à jour des ventes**. Les enregistrements plus anciens seront supprimés. Ceci est utile lorsque vous définissez la tâche pour qu’elle s’exécute périodiquement, car l’âge est toujours calculé par rapport à la date d’exécution de la tâche. Sans cette fonctionnalité, vous ne pouvez définir qu’une date spécifique pour les enregistrements les plus anciens à conserver. |
+| Ventes et marketing | Nettoyer l’historique des mises à jour de ventes selon l’âge | Cette fonctionnalité vous permet de définir l’âge maximum des enregistrements à conserver lors de l’exécution de la tâche périodique **Nettoyage de l’historique des mises à jour des ventes**. Les enregistrements plus anciens seront supprimés. Ceci est utile lorsque vous définissez la tâche pour qu’elle s’exécute périodiquement, car l’âge est toujours calculé par rapport à la date d’exécution de la tâche. Sans cette fonctionnalité, vous ne pouvez définir qu’une date spécifique pour les enregistrements les plus anciens à conserver. Pour plus d’informations, consultez [Planifier le nettoyage des données de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventes et marketing | Améliorer les performances de l’état des « 100 principaux clients » | Cette fonction améliore les performances des rapports clients **Top 100** en exécutant toujours le rapport sur tous les clients (ce qui est son utilisation prévue) plutôt qu’en autorisant les requêtes personnalisées. Lorsque cette fonction est activée, tous les paramètres **Enregistrements à inclure** sont désactivés dans la boîte de dialogue du rapport **Top 100**. |
 | Gestion des entrepôts | Prise en charge de l’unité d’échelle pour la mise en production dans l’entrepôt des commandes sortantes | Lorsque cette fonction est activée, les commandes sortantes peuvent être mises en production directement du hub vers l’unité d’échelle à partir de laquelle les commandes vont être traitées. |
 
@@ -79,9 +79,9 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance et Opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.23 des applications Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finance et Opérations, version 10.0.23 (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

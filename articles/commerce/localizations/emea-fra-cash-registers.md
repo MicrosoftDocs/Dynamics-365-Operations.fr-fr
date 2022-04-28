@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 6fb3631f52adf94eabd8bab9c3e3784e2fc11db8
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e442a07232dd2d6c5e5f73b10466ed7cda457dec
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488005"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548058"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -37,7 +37,7 @@ La fonctionnalité de caisse enregistreuse pour la France est constituée des é
 
 Cette version de la fonctionnalité de caisse enregistreuse pour la France a passé un audit selon les exigences de certification NF 525 et se voit attribuer des certificats de conformité qui ont les catégories et numéros suivants : 
 
-- **Microsoft Dynamics 365 Finance, version 10** :
+- **Microsoft Dynamics 365 Finance, version 10** :
 
     - Catégorie de certification : B
     - Numéro de certificat : 0350
@@ -257,7 +257,7 @@ Vous devez apporter les modifications suivantes dans la page **Entités juridiqu
 
 ### <a name="set-up-vat-per-french-requirements"></a>Paramétrer la TVA selon les exigences de la France
 
-Vous devez créer des codes de taxe, des groupes de taxe et des groupes de taxe d’article. Vous devez également paramétrer les informations de taxe pour les produits et services. Pour plus d’informations sur le paramétrage et l’utilisation de la taxe, voir [Vue d’ensemble des taxes](../../financials/general-ledger/indirect-taxes-overview.md).
+Vous devez créer des codes de taxe, des groupes de taxe et des groupes de taxe d’article. Vous devez également paramétrer les informations de taxe pour les produits et services. Pour plus d’informations sur le paramétrage et l’utilisation de la taxe, voir [Vue d’ensemble des taxes](/dynamics365/finance/general-ledger/indirect-taxes-overview).
 
 Vous devez également spécifier des groupes de taxe et activer l’option **Prix, taxe incluse** pour les magasins situés en France.
 

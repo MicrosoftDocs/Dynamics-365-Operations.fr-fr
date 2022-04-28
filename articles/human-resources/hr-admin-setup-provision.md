@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060415"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565626"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -40,6 +40,10 @@ Avant de commencer la mise en service d’un nouvel environnement de production,
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
 
+>[!NOTE]
+> À partir d'avril 2022, les environnements d'essai de Human Resources ne seront plus disponibles sur l'application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications Finance et Opérations peuvent le faire en utilisant l'essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l'infrastructure de Finance grâce à la fusion de l'application autonome. Pour plus d'informations, voir [La fusion des offres HR rassemble les fonctionnalités pour les clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Pour plus d'informations sur les versions d'évaluation de Dynamics 365 Finance, consultez le [guide](/fin-ops/get-started/before-you-buy) pas-à-pas. 
+
+
 Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
 
 Les environnements d’essai offrent la possibilité d’évaluer la fonctionnalité des ressources humaines pour les personnes qui n’ont pas encore accès à un environnement de ressources humaines. Si vous fournissez un environnement d’essai et que l’utilisateur authentifié a déjà accès à un ou plusieurs environnements de ressources humaines existants, l’utilisateur est redirigé vers l’environnement existant ou la liste d’environnements.
@@ -58,7 +62,7 @@ Avant de créer votre premier environnement Human Resources, vous devez planifie
 Considérations relatives aux environnements supplémentaires :
 
 - **Migration de données** : Vous devrez peut-être envisager un environnement supplémentaire pour les activités de migration de données afin de permettre à votre environnement sandbox d’être utilisé à des fins de test tout au long du projet. Le fait de disposer d’un environnement supplémentaire permet aux activités de migration de données de se poursuivre tandis que les activités de test et de configuration se produisent simultanément dans un environnement différent.
-- **Intégration** : Vous devrez peut-être envisager un environnement supplémentaire pour configurer et tester les intégrations. Cela peut inclure des intégrations natives telles que les intégrations Ceridian Dayforce LinkedIn Talent Hub, ou des intégrations personnalisées telles que celles pour la paie, les systèmes de suivi des candidatures ou les régimes et les fournisseurs de prestations.
+- **Intégration** : Vous devrez peut-être envisager un environnement supplémentaire pour configurer et tester les intégrations. Cela peut inclure des intégrations natives telles que les intégrations de Ceridian Dayforce ou LinkedIn Talent Hub, ou des intégrations personnalisées telles que celles pour la paie, les systèmes de suivi des candidatures ou les régimes et les fournisseurs de prestations.
 - **Formation** : Vous pouvez avoir besoin d’un environnement distinct configuré avec un ensemble de données de formation afin de former vos employés à l’utilisation du nouveau système. 
 - **Projet en plusieurs phases** : Vous pouvez avoir besoin d’un environnement supplémentaire pour prendre en charge la configuration, la migration des données, les tests ou d’autres activités dans une phase de projet qui est planifiée après la mise en service initiale du projet.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752806"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548078"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Nouveautés ou modifications dans Dynamics 365 for Operations version 1611 (novembre 2016)
 
@@ -816,7 +816,7 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu’applicati
 | En tant que fournisseur, obtenez les informations sur la quantité de stock consigné transférée au client. | Pour facturer un client, le fournisseur requiert des informations sur les matières premières achetées dans le stock de consignation et la date de l’achat. Le fournisseur peut également contrôler le stock disponible sur le site du client à l’aide de l’interface de collaboration du fournisseur. |
 | Déplacez le stock appartenant au fournisseur à l’aide d’un journal de transfert. | Pour effectuer le suivi de l’emplacement physique du stock appartenant au fournisseur, vous devez pouvoir enregistrer l’emplacement dans le système. Grâce à l’utilisation d’un journal de transfert, vous pouvez enregistrer les mouvements physiques du stock, tels que le mouvement d’un emplacement dans un entrepôt à un autre emplacement dans cet entrepôt. |
 | Ajustez le stock appartenant au fournisseur à l’aide d’un journal d’inventaire. | Il est important que vous conserviez le stock disponible dans le système synchronisé sur le stock physique réel. Le stock appartenant au fournisseur peut être ajusté en entrée et en sortie à l’aide des processus d’inventaire, tels que les processus d’ajustement de quantité et de journal d’inventaire. |
-| En savoir plus sur le support de consignation dans Dynamics 365 for Operations | Pour plus d’informations sur la prise en charge des processus de consignation, consultez [Consignation](../../../supply-chain/inventory/consignment.md), [Paramétrage de la consignation](../../../supply-chain/inventory/set-up-consignment.md), [Créer une commande de réapprovisionnement de consignation (guide de tâche)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), et [Modifier la propriété du stock de consignation en fonction de la demande de production (guide de tâche)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| En savoir plus sur le support de consignation dans Dynamics 365 for Operations | Pour plus d’informations sur la prise en charge des processus de consignation, consultez [Consignation](../../../supply-chain/inventory/consignment.md), [Paramétrage de la consignation](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Créer une commande de réapprovisionnement de consignation (guide de tâche)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), et [Modifier la propriété du stock de consignation en fonction de la demande de production (guide de tâche)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Collaboration du fournisseur (précédemment appelé le portail fournisseur)
 
@@ -942,7 +942,7 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu’applicati
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
+[Nouveautés ou modifications de la page d'accueil Finance et Opérations](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

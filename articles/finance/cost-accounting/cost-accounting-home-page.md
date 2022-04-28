@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: bfb59e2bf836f66f7f524461d4aad53bdb258b4f
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952544"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548106"
 ---
 # <a name="cost-accounting-home-page"></a>Page d’accueil du contrôle de gestion
 
@@ -38,7 +38,7 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Mise en route des coûts indirects (Learn)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Dimensions d’éléments de coût](cost-elements.md)  |
+|  [Mise en route des coûts indirects (Learn)](/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Dimensions d’éléments de coût](cost-elements.md)  |
 |  [Hiérarchie des dimensions](dimension-hierarchy.md)  |[Définir des unités de contrôle des coûts](./tasks/define-cost-control-units.md)| 
 | [Bases de répartition](allocation-bases.md)|[Créer et affecter une stratégie d’affectation des coûts à une unité de contrôle des coûts](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Gérer une source de données pour la comptabilité de contrôle de gestion](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Traiter et effectuer le suivi des données source](./tasks/process-trace-source-data.md)     | 

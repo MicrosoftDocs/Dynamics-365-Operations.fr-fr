@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575774"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570434"
 ---
 # <a name="manage-folios"></a>Gérer les folios
 
 [!include [banner](../../includes/banner.md)]
 
-Un folio est souvent déterminé par la réglementation douanière. Un folio se compose de marchandises d’un fournisseur pour une entité ou entreprise par expédition. Les marchandises d’un folio peuvent se trouver dans un seul conteneur ou être réparties sur plusieurs conteneurs.
+Un folio est souvent déterminé par la réglementation douanière. Un folio se compose de marchandises d’un fournisseur pour une entité ou entreprise par expédition. Les marchandises d'un folio sont gérées dans un conteneur.
 
 Pour ouvrir la page **Tous les folios**, allez à **Coût au débarquement \> folios \> Tous les folios**. Cette page affiche une liste de tous les folios en cours. Vous pouvez utiliser les boutons du volet Actions pour créer, supprimer et utiliser des folios. Sélectionnez n’importe quel folio dans la liste pour afficher ses détails sur la page **folios**.
 

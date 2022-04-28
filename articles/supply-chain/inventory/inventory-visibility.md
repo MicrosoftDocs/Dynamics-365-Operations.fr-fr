@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 9eb8a135d2415c867c746a1c40a80cdb84819c0e
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524491"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547899"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Vue d’ensemble du complément de visibilité des stocks
 
@@ -63,7 +63,7 @@ La fonctionnalité DAV est facile à adopter dans votre processus quotidien de t
 
 ### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibilité avec les éléments de la gestion avancée des entrepôts
 
-Microsoft vise à fournir une intégration prête à l’emploi avec la gestion avancée des entrepôts (WHS), afin que les clients de la WHS puissent également profiter des avantages du service Visibilité des stocks. Selon la version de la 1e vague de lancement 2022 (version préliminaire publique en mars), le service d’inventaire prend en charge les requêtes de disponibilité des stocks WHS et DAV. La fonctionnalité de répartition et de réservation provisoire sera prise en charge pour les clients WHS dans la prochaine vague. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+Microsoft vise à fournir une intégration prête à l’emploi avec la gestion avancée des entrepôts (WHS), afin que les clients de la WHS puissent également profiter des avantages du service Visibilité des stocks. Selon la version de la 1e vague de lancement 2022 (version préliminaire publique en mars), le service d’inventaire prend en charge les requêtes de disponibilité des stocks WHS et DAV. La fonctionnalité de répartition et de réservation provisoire sera prise en charge pour les clients WHS dans la prochaine vague. Pour plus d'informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Gestionnaire de licences
 

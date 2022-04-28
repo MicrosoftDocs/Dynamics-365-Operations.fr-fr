@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983415"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570379"
 ---
 # <a name="landed-cost-module"></a>Module de coût au débarquement
 
@@ -39,7 +39,7 @@ Le coût au débarquement fournit des estimations de coûts précises et opportu
 
 ### <a name="voyages"></a>Voyages
 
-Dans Coût au débarquement, un voyage est un mouvement distinct d’un emplacement de départ, via un ensemble spécifique de destinations sur une période spécifiée, à un emplacement d’entrepôt d’arrivée spécifié. Les commandes fournisseur et les lignes de commande peuvent être ajoutés à un seul conteneur ou à plusieurs conteneurs pour un voyage, et les coûts seront correctement réattribués à la ligne d’article. Les commandes et les lignes de commande peuvent également être ajoutées entre les entités juridiques pour un seul voyage.
+Dans Coût au débarquement, un voyage est un mouvement distinct d’un emplacement de départ, via un ensemble spécifique de destinations sur une période spécifiée, à un emplacement d’entrepôt d’arrivée spécifié. Les commandes fournisseur et les lignes de commande peuvent être ajoutés à un seul conteneur ou à plusieurs conteneurs pour un voyage, et les coûts seront correctement réattribués à la ligne d’article. 
 
 ### <a name="item-ownership"></a>Propriété de l’article
 

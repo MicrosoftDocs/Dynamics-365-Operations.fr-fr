@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-2-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fc9b3cbc4aef22e3e683f7cebf15c7beb7f1d3a1
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 4da00a0daca456f757bb3eaf6ed190e889a0c915
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407963"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547968"
 ---
 # <a name="fiscal-archive-for-france"></a>Archives fiscales pour la France
 
@@ -34,7 +34,7 @@ Une archive fiscale peut être exportée à partir d’un journal de total gén�
 
 Vous pouvez vérifier l’intégrité de l’archive fiscale et de ses données en utilisant l’[Outil de vérification de l’intégrité des archives fiscales](#fiscal-archive-integrity-verification-tool).
 
-Le format XML de l’archive fiscale est implémenté à l’aide de la [gestion des états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Pour plus d’informations sur l’importation et l’application des configurations ER requises pour exporter les archives fiscales, consultez [Configurer le format d’exportation des archives](./emea-fra-cash-registers.md#configure-the-archive-export-format).
+Le format XML de l’archive fiscale est implémenté à l’aide de la [gestion des états électroniques (ER)](/dynamics365/fin-ops-core/dev-itpro/analytics/general-electronic-reporting). Pour plus d’informations sur l’importation et l’application des configurations ER requises pour exporter les archives fiscales, consultez [Configurer le format d’exportation des archives](./emea-fra-cash-registers.md#configure-the-archive-export-format).
 
 ## <a name="fiscal-archive-structure"></a>Structure des archives fiscales
 

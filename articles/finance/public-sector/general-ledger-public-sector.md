@@ -8,22 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "27211"
 - intro-internal
 ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 269ad190d58afb53e7fc5360451eec5806ca01bb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e8a580bc8d52ca802d038c0d7edeb308d8056e5e
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984786"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566070"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 

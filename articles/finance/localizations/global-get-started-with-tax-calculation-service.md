@@ -2,7 +2,7 @@
 title: Mise en route du calcul de la taxe
 description: Cette rubrique explique comment paramétrer le calcul des taxes.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952519"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558311"
 ---
 # <a name="get-started-with-tax-calculation"></a>Mise en route du calcul de la taxe
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur la prise en main du calcul des taxes. Les sections de cette rubrique vous guident tout au travers des étapes de conception et de configuration de haut niveau dans Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) et Dynamics 365 Finance et Dynamics 365 Supply Chain Management. 
+Cette rubrique fournit des informations sur la prise en main du calcul des taxes. Les sections de cette rubrique vous guident tout au travers des étapes de conception et de configuration de haut niveau dans Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance et Dynamics 365 Supply Chain Management. 
 
 La configuration se compose de trois étapes principales.
 
@@ -36,7 +36,7 @@ La configuration se compose de trois étapes principales.
 
 ## <a name="high-level-design"></a>Conception de haut niveau
 
-### <a name="runtime-design"></a>Conception du runtime
+### <a name="runtime-design"></a><a name="runtime"></a> Conception du runtime
 
 L’illustration suivante présente la conception du runtime de haut niveau du calcul fiscal. Étant donné que le calcul des taxes peut être intégré à plusieurs applications Dynamics 365, l’illustration utilise l’intégration avec Finance comme exemple.
 
@@ -95,6 +95,14 @@ Avant de pouvoir effectuer les étapes restantes de cette rubrique, les conditio
 - Les fonctionnalités suivantes doivent être activées dans l’espace de travail **Gestion des fonctionnalités** de votre environnement RCS déployé.
 
     - Fonctionnalités de globalisation
+
+- Les rôles suivants doivent être attribués de manière appropriée aux utilisateurs de votre environnement RCS :
+
+    - Développeur d’états électroniques
+    - Développeur de fonctionnalités de globalisation
+    - Développeur du moteur de taxe
+    - Consultant fonctionnel du moteur de taxe
+    - Développeur du service fiscal
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Configurer le Calcul des taxes dans LCS
 
@@ -203,15 +211,21 @@ Les étapes de cette section ne sont pas liées à une entité juridique spécif
     | Vente            | DEU       | FRA     | DEU_UE       |
     | Vente            | BEL       | BEL     | BEL_Local |
     | Vente            | BEL       | FRA     | BEL_UE       |
+    
+    > [!NOTE]
+    > Si le groupe de taxe de vente par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cette rubrique.
 
 22. Sur l’onglet **Applicabilité des groupes de taxe d’article**, sélectionnez les colonnes requises pour déterminer le code de taxe correct, puis sélectionnez **Ajouter**. Saisissez ou sélectionnez des valeurs pour chaque colonne. Le champ **Groupe de taxe d’article** sera la sortie de cette matrice. Si cet onglet n’est pas configuré, le groupe de taxe d’article sur la ligne de transaction sera utilisé.
 
     Voici un exemple :
 
-    | Article - valide pour | Groupe de taxe d’article |
+    | Article - valide pour | Groupe de taxes d’article |
     | --------- | -------------- |
     | D0001     | Complet           |
     | D0003     | Réduction        |
+
+    > [!NOTE]
+    > Si le groupe de taxe de vente de l'article par défaut sur vos lignes de document imposables est correct, laissez cette matrice vide. Pour plus d’informations, voir la section [Conception du runtime](#runtime) plus haut dans cette rubrique.
 
     Pour plus d’informations sur la façon dont les codes taxe sont déterminés dans le calcul de la TVA, voir [Logique de détermination du groupe de taxe et du groupe de taxe d’article](global-sales-tax-group-determination.md).
 

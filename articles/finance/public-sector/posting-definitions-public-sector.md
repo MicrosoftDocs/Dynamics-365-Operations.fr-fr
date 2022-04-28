@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 27271
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c857d369c4eaebd6d01a57eaa8515662799c72b9
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 22eb5befe46a4b4117b5d0a18dd2a8a0a112f82d
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817792"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566077"
 ---
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 

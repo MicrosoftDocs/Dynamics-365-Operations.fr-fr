@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562100"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565851"
 ---
 # <a name="set-up-sales-tax-codes"></a>Paramétrer des codes taxe
 
@@ -41,11 +41,11 @@ La société fictive USMF est citée en exemple dans cette tâche.
 
     Dans le raccourci **Calcul**, dans le champ **Origine**, si **Montant par unité** est sélectionné, la valeur sera multipliée par la quantité de la transaction pour calculer le montant de la taxe.  Si le code taxe n’est pas une taxe basée sur des unités, la valeur est un pourcentage appliqué sur le code d’origine pour cette taxe pour calculer le montant de la taxe.     
 
-11. Sélectionnez **Enregistrer**.
+11. Cliquez sur **Enregistrer**.
 12. Fermez la page.
-13. Sélectionnez **Enregistrer**.
+13. Cliquez sur **Enregistrer**.
 
-Depuis Microsoft Dynamics 365 Finance version 10.0.22, si vous utilisez le [Service fiscal](../../localizations/global-tax-calcuation-service-overview.md), et que la fonction [**Prise en charge de plusieurs numéros d'immatriculation à la TVA**](../../localizations/emea-multiple-vat-registration-numbers.md) est activée dans l'espace de travail **Gestion des fonctionnalités**, vous pouvez utiliser le champ **Type de taxe** pour spécifier le type de code TVA. Les valeurs disponibles sont les suivantes :
+Depuis Microsoft Microsoft Dynamics 365 Finance version 10.0.22, si vous utilisez le [Service fiscal](../../localizations/global-tax-calcuation-service-overview.md), et que la fonction [**Prise en charge de plusieurs numéros d'immatriculation à la TVA**](../../localizations/emea-multiple-vat-registration-numbers.md) est activée dans l'espace de travail **Gestion des fonctionnalités**, vous pouvez utiliser le champ **Type de taxe** pour spécifier le type de code TVA. Les valeurs disponibles sont les suivantes :
 
 - TVA standard
 - TVA réduite

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524435"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547871"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.26 (mai 2022)
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les fonctionnalités incluses dans cette version.
 
 | Fonctionnalités | Fonction | Plus d’informations | Activé par |
 |---|---|---|---|
-| Inventaire et logistique | [Requête de disponibilité de la visibilité de l’inventaire pour prendre en charge les éléments de gestion des entrepôts avancés](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Bientôt disponible | Gestion des fonctions :<br>*Activer les articles d’entrepôt dans Visibilité des stocks* |
+| Inventaire et logistique | [Requête de disponibilité de la visibilité de l’inventaire pour prendre en charge les éléments de gestion des entrepôts avancés](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Prise en charge de la Visibilité des stocks pour les articles WHS](../inventory/inventory-visibility-whs-support.md) | Gestion des fonctions :<br>*Activer les articles d’entrepôt dans Visibilité des stocks* |
 | Inventaire et logistique | [Disponible à la promesse pour le complément Visibilité des stocks](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](../inventory/inventory-visibility-available-to-promise.md) | Activé par la configuration du service |
 | Fabrication | [Éléments à poids variable pour l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*(Aperçu) État sur les articles en poids variable à partir de l’interface d’exécution de l’atelier de production* |
 | Fabrication | Onglet Mes tâches sur l’interface d’exécution de l’atelier de production <!-- KFM: Add link to release plan when available --> | [Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-use.md) | Gestion des fonctions :<br>*Onglet Mes tâches sur l’interface d’exécution de l’atelier de production* |
@@ -51,7 +51,7 @@ Si vous souhaitez activer ou désactiver l’une de ces fonctionnalités, vous d
 | Approvisionnements | Synchroniser les dimensions de suivi sur les lignes de commandes fournisseur et commandes client intersociétés | Cette fonctionnalité vous permet de contrôler si les dimensions de suivi des numéros de série et de lot sont synchronisées sur les ventes intersociétés et les lignes de commande fournisseur. Elle ajoute de nouveaux paramètres aux deux onglets **Politiques de bons de commande** et **Politiques de commandes client** de la page de configuration **Intersociétés** pour les clients et les fournisseurs. Elle met également à jour les noms de quelques paramètres connexes à proximité pour plus de clarté.<br><br>Si vous utilisez la gestion avancée des entrepôts (WMS), sachez que cette fonctionnalité ne synchronisera uniquement les numéros de série et de lot lorsque ces dimensions se situent au-dessus de l’emplacement dans la hiérarchie de réservation de la destination cible. |
 | Gestion des informations sur les produits | Nettoyer les valeurs de l’attribut de produit | Cette fonction ajoute une tâche périodique appelée **Nettoyer les valeurs de l’attribut de produit**, qui nettoie les enregistrements de valeur de l’attribut de produit qui ne sont plus associés à un produit via une catégorie de produit. |
 | Gestion des entrepôts et des stocks | (Russie) Empêcher les écarts lors de l’émission des GTD pour les commandes fournisseur qui incluent des articles activés par le service de gestion du flux de travail | Cette fonctionnalité n’est disponible que pour la Russie. Elle évite les écarts qui se produisent lors de l’émission de numéros de déclaration en douane (GTD) russes pour les bons de commande d’importation qui incluent des éléments activés pour l’entreposage avancé (WMS). Le processus d’émission GTD modifie certaines valeurs de dimension de stock sur les transactions de stock associées pour les factures incluses dans le journal personnalisé, ce qui entraîne des écarts entre les enregistrements de travail pour le bon de commande et les transactions de stock pour l’achat. Lorsque cette fonctionnalité est activée, le processus d’émission de GTD génère un travail d’ajustement qui élimine ces écarts. |
-| Gestion des entrepôts | Analyseur amélioré pour les codes-barres GS1 | Cette fonctionnalité ajoute un analyseur amélioré pour les données de symboles GS1. Le nouvel analyseur implémente l’algorithme de spécification générale GS1 pour l’analyse des symboles GS1 et fournit une validation des données plus solide. |
+| Gestion des entrepôts | Analyseur amélioré pour les codes-barres GS1 | Cette fonctionnalité ajoute un analyseur amélioré pour les données de symboles GS1. Le nouvel analyseur implémente l’algorithme de spécification générale GS1 pour l’analyse des symboles GS1 et fournit une validation des données plus solide. Pour plus d'informations, voir [Lecture des codes-barres GS1](../warehousing/gs1-barcodes.md). |
 | Gestion des entrepôts | Nouvelles pages de l’atelier de planification des chargements | Ajoute deux nouvelles pages de l’atelier de planification des chargements : **Atelier de planification des chargements entrants** et **Atelier de planification des chargements sortants**. |
 | Gestion des entrepôts | Application Warehouse Management - GTD vierge | Cette fonctionnalité n’est disponible que pour la Russie. Il permet aux collaborateurs utilisant l’application mobile Warehouse Management de laisser les numéros de déclaration en douane (GTD) russes vides en cas de besoin. Si la dimension de suivi GTD est configurée pour autoriser les valeurs vides, le système acceptera les valeurs vides pour GTD pour les opérations de stock à condition que le stock disponible soit disponible. |
 
@@ -66,9 +66,9 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finances et Opérations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance et Opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.26 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.26 (mai 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.26 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finance et Opérations, version 10.0.26 (mai 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

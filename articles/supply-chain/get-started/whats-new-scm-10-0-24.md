@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087548"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570280"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.24 (février 2022)
 
@@ -63,14 +63,14 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 | Planification générale | [Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale pour les articles](../master-planning/safety-stock-journal.md) |
 | Contrôle de la production | [Personnaliser l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-customize.md) |
 | Contrôle de la production | [Appliquer un style à l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-styles.md) |
-| Ventes et marketing | [Améliorations des performances du nettoyage de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Ventes et marketing | [Planifier le nettoyage des données de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Gestion des entrepôts | [Comptes d’utilisateur d’appareil mobile](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finances et Opérations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance et Opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.24 (février 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finance et Opérations, version 10.0.24 (février 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

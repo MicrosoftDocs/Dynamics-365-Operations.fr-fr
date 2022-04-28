@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ConfirmingPOCodes, PurchTableListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 27291
 ms.assetid: 65032886-4dc6-4411-98c8-8969287fd7df
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8258607b32ddca68df306b1584de0d94ba31aeed
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 685dcc557c1b93c060eaa7a2993d45e7a2176d6d
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817701"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565504"
 ---
 # <a name="purchase-order-codes-in-the-public-sector"></a>Codes de commande fournisseur dans le secteur public
 

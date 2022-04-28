@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349741"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550005"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce Analytics (version préliminaire)
 
@@ -348,19 +348,24 @@ La page **Rapport d’impression** inclut les mesures suivantes :
 ## <a name="commerce-analytics-preview-installation"></a>Installation de Commerce Analytics (version préliminaire)
 
 > [!NOTE]
-> Commerce Analytics (version préliminaire) est disponible en version préliminaire aux États-Unis, au Canada, au Royaume-Uni, en Europe, en Asie du Sud-Est, en Asie de l’Est, en Australie et au Japon. Si votre environnement Finances et Opérations se trouve dans l’une de ces régions, vous pouvez activer cette fonctionnalité dans votre environnement en utilisant Microsoft Dynamics Lifecycle Services (LCS). Avant de pouvoir utiliser cette fonction, consultez [Configurer l’exportation vers Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+> Commerce Analytics (version préliminaire) est disponible en version préliminaire aux États-Unis, au Canada, au Royaume-Uni, en Europe, en Asie du Sud-Est, en Asie de l’Est, en Australie et au Japon. Si votre environnement Finance et Opérations se trouve dans l’une de ces régions, vous pouvez activer cette fonctionnalité dans votre environnement en utilisant Microsoft Dynamics Lifecycle Services (LCS). Avant de pouvoir utiliser cette fonction, consultez [Configurer l’exportation vers Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Activer et configurer Commerce Analytics (version préliminaire)
 
-Pour installer Commerce Analytics (version préliminaire), vous devez disposer des autorisations pour créer des ressources dans un abonnement Azure. Vous devez également disposer des autorisations pour installer des compléments dans LCS. 
+Pour installer Commerce Analytics (version préliminaire), vous devez disposer des autorisations pour créer des ressources dans un abonnement Azure. Vous devez également disposer des autorisations pour installer des compléments dans LCS.
 
 Pour activer et configurer Commerce Analytics (version préliminaire), procédez comme suit.
 
-1. [Activer et configurer le module complémentaire Exporter vers Data Lake](#enableExportToDataLake).
-1. [Installer et configurer Azure Synapse workspace](#configureAzureSynapse).
-1. [Ajouter des clés secrètes au coffre de clés](#addSecrets).
-1. [Activer et configurer le module complémentaire Commerce Analytics (version préliminaire)](#enableCommerceAnalyticsAddin).
-1. [Installer l’application du modèle Power BI](#powerbi).
+1. [Soumettre le formulaire d’admission Aperçu pour Commerce Analytics (version préliminaire)](#joinPreview)
+2. [Activer et configurer le module complémentaire Exporter vers Data Lake](#enableExportToDataLake).
+3. [Installer et configurer Azure Synapse workspace](#configureAzureSynapse).
+4. [Ajouter des clés secrètes au coffre de clés](#addSecrets).
+5. [Activer et configurer le module complémentaire Commerce Analytics (version préliminaire)](#enableCommerceAnalyticsAddin).
+6. [Installer l’application du modèle Power BI](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Soumettre le formulaire d’admission Aperçu pour Commerce Analytics (version préliminaire)
+
+Soumettre le [formulaire d’admission Aperçu pour Commerce Analytics (version préliminaire)](https://forms.office.com/r/vW5VLJGXZ2). Après traitement de la requête, un e-mail de confirmation sera envoyé à l’adresse e-mail que vous avez fournie dans le formulaire.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Activer et configurer le module complémentaire Exporter vers Data Lake
 
@@ -386,7 +391,7 @@ Commerce Analytics (version préliminaire) nécessite que Synapse SQL à la de
 1. Sélectionnez **Ajouter**.
 1. Dans le volet **Ajouter une attribution de rôle**, définissez les options comme décrit dans le tableau suivant.
 
-    | Option | Valeur  |
+    | Option | Valeur |
     |--------|-------|
     | Étendue | Sélectionnez **Espace de travail**. |
     | Rôle | Sélectionnez **Administrateur Synapse SQL**.|
@@ -444,7 +449,7 @@ Pour installer l’application du modèle Power BI pour Commerce Analytics (vers
 1. Connectez l’application à votre source de données en sélectionnant **Connecter**. Si vous avez déjà installé l’application, cliquez sur le lien **Connecter vos données** dans la barre de message jaune.
 1. Définisse les champs suivants.
 
-    | Champ | Valeur  |
+    | Champ | Valeur |
     |---|---|
     | Serveur | Entrez le point de terminaison SQL sans serveur que vous avez noté après avoir [créé Azure Synapse workspace](#serverlessep). |
     | Base de données | Entrez **CommerceAnalytics**. |
@@ -453,7 +458,7 @@ Pour installer l’application du modèle Power BI pour Commerce Analytics (vers
 
 1. Cliquez sur **Suivant**. Lorsque vous êtes invité à entrer les informations d’identification pour vous connecter à la base de données SQL Azure Synapse, définissez les valeurs de champ comme indiqué dans le tableau suivant.
 
-    | Champ | Valeur  |
+    | Champ | Valeur |
     |---|---|
     | Méthode d’authentification | Sélectionnez **De base**. |
     | Nom d’utilisateur | Entrez **reportreadonlyuser**. |

@@ -2,7 +2,7 @@
 title: Module Paiement
 description: Cette rubrique couvre le module Paiement et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952467"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565727"
 ---
 # <a name="payment-module"></a>Module Paiement
 
@@ -74,6 +74,8 @@ L’illustration suivante montre un exemple de l’iFrame Paypal appelée à l�
 | Remplacement du style de paiement | Code de feuilles de style en cascade (CSS) | Le module Paiement étant hébergé dans un iFrame, la capacité de style est limitée. Vous pouvez obtenir un style en utilisant cette propriété. Pour remplacer les styles de site, vous devez coller le code CSS comme valeur de cette propriété. Les remplacements et les styles CSS du générateur de site ne s’appliquent pas à ce module. |
 |Types d’offre pris en charge| Chaîne| Si plusieurs connecteurs de paiement sont configurés, vous devez fournir la chaîne de type de paiement pris en charge telle que définie dans la configuration du connecteur de paiement du siège de Commerce (voir l’image suivante). S’il est vide, il utilise par défaut le connecteur de paiement Adyen. Ajouté dans la version 10.0.14 de Commerce.|
 |Est le paiement principal|  **Vrai** ou **Faux** | Si **Vrai**, tous les messages d’erreur seront générés à partir du connecteur de paiement principal sur la page de paiement. Si les connecteurs de paiement Adyen et Paypal sont configurés, définissez Adyen sur **Vrai**, qui a été ajouté dans la version 10.0.14 de Commerce.|
+|Utiliser l’ID de connecteur| **Vrai** ou **Faux** | Utilisez cette propriété si plusieurs connecteurs de paiement sont configurés pour le site. Si elle est **True**, les connecteurs devront utiliser l'identifiant du connecteur pour la corrélation des paiements.|
+|Utiliser le code de langue défini par le navigateur pour iFrame|  **Vrai** ou **Faux** | (Adyen uniquement) Si la propriété est **true**, l'iFrame Adyen affichera la langue en fonction du contexte du navigateur de l'utilisateur du site au lieu d'utiliser le code de langue du canal Commerce configuré pour le site. Ajouté dans la version 10.0.27 de Commerce.|
 
 L’illustration suivante montre un exemple de valeur **Types d’offres pris en charge** définie sur "Paypal" dans la configuration du connecteur de paiement au siège de Commerce.
 ![Exemple de types d’appels d’offres pris en charge au siège du Commerce.](./media/ecommerce-paymenttendertypes.png)

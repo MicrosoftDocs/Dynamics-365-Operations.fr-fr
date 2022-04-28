@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413593"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603052"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Configurer les destinations spécifiques aux enregistrements de gestion de l'impression d’états électroniques
 
@@ -35,7 +35,7 @@ Les procédures peuvent être effectuées dans la société USMF. Aucun codage n
 
 ## <a name="introduction"></a>Introduction
 
-Vous pouvez configurer les [destinations](electronic-reporting-destinations.md) pour chaque dossier dans le composant de sortie de fichier d’une [configuration](general-electronic-reporting.md#Configuration) de [format](general-electronic-reporting.md#FormatComponentOutbound) de gestion des états électroniques utilisée pour générer un document sortant. Lorsque vous exécutez un format pour la gestion des états électroniques de ce type, si vous avez les droits d’accès appropriés, vous pouvez également changer les paramètres de destination configurés au moment de l’exécution.
+Vous pouvez configurer les [destinations](electronic-reporting-destinations.md) pour chaque dossier dans le composant de sortie de fichier d’une [configuration](general-electronic-reporting.md#Configuration) de [format](general-electronic-reporting.md) de gestion des états électroniques utilisée pour générer un document sortant. Lorsque vous exécutez un format pour la gestion des états électroniques de ce type, si vous avez les droits d’accès appropriés, vous pouvez également changer les paramètres de destination configurés au moment de l’exécution.
 
 Dans Microsoft Dynamics 365 Finance **version 10.0.17 et ultérieure**, un code d’action peut être [configuré](er-apis-app10-0-17.md) pour un format de gestion des états électroniques pour spécifier l'action que les utilisateurs effectuent en exécutant ce format de gestion des états électroniques. Par exemple, dans le module **Comptabilité client**, dans les paramètres de gestion de l’impression, vous pouvez sélectionner un format de gestion des états électroniques qui génère un document commercial spécifique, comme une facture financière. Vous pouvez ensuite sélectionner **Afficher** pour prévisualiser la facture ou **Imprimer** pour l’envoyer à une imprimante. Si une action est transmise pour le format de gestion des états électroniques en cours d’exécution au moment de l’exécution, vous pouvez [configurer différentes destinations des états électroniques pour différentes actions utilisateur](er-action-dependent-destinations.md).
 

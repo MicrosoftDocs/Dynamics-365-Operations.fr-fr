@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 371a8c7178cd7c5091d6dd9a91d0ee03b943a269
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 124fb90ecafd4f4cccbd8a8bb443694c95365732
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103186"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570308"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>Le travail de nettoyage de l’historique des mises à jour des ventes échoue ou présente des problèmes de performances
 
@@ -30,5 +30,5 @@ Cela peut se produire lorsque votre système inclut un grand nombre de mises à 
 
 ## <a name="resolution"></a>Résolution
 
-Une nouvelle version du traitement par lots **Nettoyage de l’historique des mises à jour des ventes** est disponible pour Supply Chain Management version 10.0.19 et versions ultérieures. Par défaut, cette fonctionnalité n’est pas activée. Pour plus de détails sur son fonctionnement et comment l’activer dans la gestion des fonctionnalités, consultez [Améliorations des performances de nettoyage de l’historique des ventes](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
+Une nouvelle version du traitement par lots **Nettoyage de l’historique des mises à jour des ventes** est disponible pour Supply Chain Management version 10.0.19 et versions ultérieures. Par défaut, cette fonctionnalité n’est pas activée. Pour plus de détails sur son fonctionnement et comment l’activer dans la gestion des fonctionnalités, consultez [Planifier le nettoyage des données de l’historique des ventes](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
 

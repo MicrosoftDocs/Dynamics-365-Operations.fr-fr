@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c781f9e5f5ebfe732c5fb51dc5f5c4eac9bd76d9d452924764ec1574e4e70e75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5619b90193819a64bb88e883fd8e4460e1b0f64
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729498"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565519"
 ---
 # <a name="purchasing-cards"></a>Cartes d’achat
 

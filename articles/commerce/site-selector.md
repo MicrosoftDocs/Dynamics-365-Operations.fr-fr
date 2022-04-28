@@ -2,7 +2,7 @@
 title: Module de sélection de site
 description: Cette rubrique couvre le module de sélecteur de sites et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109704"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551692"
 ---
 # <a name="site-picker-module"></a>Module de sélection de site
 
@@ -28,20 +28,15 @@ ms.locfileid: "8109704"
 
 Cette rubrique couvre le module de sélecteur de sites et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
-Lorsqu’une entreprise possède différents sites sur des marchés, des régions et des paramètres régionaux, les utilisateurs des sites ont besoin d’un moyen simple de basculer entre les sites et de sélectionner leur site d’achat préféré. Pour s’adapter à ce scénario, le module de sélecteur de sites permet aux utilisateurs de parcourir plusieurs sites.
+Lorsqu’une entreprise possède différents sites sur des marchés, des régions et des paramètres régionaux, les utilisateurs des sites ont besoin d’un moyen simple de basculer entre les sites et de sélectionner leur site d’achat préféré. Pour s’adapter à ce scénario, le module de sélecteur de sites permet aux utilisateurs de parcourir plusieurs sites. Un sélecteur de site est également recommandé lorsque la [géodétection et la redirection](geo-detection-redirection.md) ont été implémentés pour votre site de commerce électronique, afin que les clients aient un moyen de remplacer la préférence de site qu'ils indiquent en utilisant le module [sélecteur de pays/région](country-region-picker-module.md). 
 
-Le module de sélecteur de sites doit être configuré avec la liste des sites (marchés, régions ou paramètres régionaux) que les utilisateurs des sites peuvent parcourir.
-
-> [!NOTE]
-> Le module de sélecteur de sites est disponible dans la version 10.0.14 de Dynamics 365 Commerce.
-
-L’illustration suivante montre un exemple de module de sélecteur de sites qui figure dans l’en-tête d’une page de site.
+Le module de sélecteur de sites doit être configuré avec la liste des sites (marchés, régions ou paramètres régionaux) que les utilisateurs des sites peuvent parcourir. L’illustration suivante montre un exemple de module de sélecteur de sites qui figure dans l’en-tête d’une page de site.
 
 ![Exemple de module de sélecteur de sites dans l’en-tête d’une page de site.](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-picker-module-properties"></a>Propriétés du module de sélecteur de sites
 
-| Nom de la propriété | Valeur                  | Description |
+| Nom de la propriété | Valeur                 | Description |
 |---------------|-----------------------|-------------|
 | Titre       | Détails                  | En-tête du module. |
 | Options de site  | Nom, image, URL      | Cette propriété spécifie un nom, un lien vers la page d’accueil du site et une image facultative à afficher pour chaque site inclus dans le module. L’image peut être un drapeau ou une représentation d’un marché, d’une région ou d’un lieu. |

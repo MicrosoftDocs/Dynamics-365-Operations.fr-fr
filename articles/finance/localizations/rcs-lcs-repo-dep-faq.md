@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715228"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547980"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Abandon du stockage Lifecycle Services (LCS)
 
@@ -29,8 +29,8 @@ ms.locfileid: "7715228"
 L’utilisation de Microsoft Dynamics Lifecycle Services (LCS) comme référentiel de stockage pour les configurations de rapports électroniques (ER) est obsolète. Cet abandon entraînera les modifications suivantes :
 
 - Les configurations produites par Microsoft qui sont utilisées dans les applications Microsoft Dynamics 365 ne seront plus publiées dans la bibliothèque de biens partagés dans LCS. Au lieu de cela, elles seront publiés uniquement via le référentiel global RCS. Cependant, les configurations pour Dynamics AX 2012 continueront d’être publiées dans la bibliothèque de biens partagés dans LCS jusqu’à la fin du cycle de vie du support d’AX 2012.
-- La fonctionnalité qui vous permet de charger des configurations vers la bibliothèque de biens de projet dans LCS à partir des applications Finance and Operations et de RCS sera désactivée. Cependant, vous pourrez toujours utiliser le navigateur dans LCS pour charger des configurations dans la bibliothèque de biens du projet. Par conséquent, vous pourrez toujours ajouter des configurations à LCS afin qu’elles puissent être incluses dans des packages de solutions.
-- L’importation de configurations depuis LCS continuera d’être disponible et prise en charge dans les applications Finance and Operations et dans RCS pendant un certain temps. Cependant, la fonctionnalité finira par être abandonnées. (La date exacte de l’obsolescence sera annoncée ultérieurement.)
+- La fonctionnalité qui vous permet de charger des configurations vers la bibliothèque de biens de projet dans LCS à partir des applications Finance et Opérations et de RCS sera désactivée. Cependant, vous pourrez toujours utiliser le navigateur dans LCS pour charger des configurations dans la bibliothèque de biens du projet. Par conséquent, vous pourrez toujours ajouter des configurations à LCS afin qu’elles puissent être incluses dans des packages de solutions.
+- L’importation de configurations depuis LCS continuera d’être disponible et prise en charge dans les applications Finance et Opérations et dans RCS pendant un certain temps. Cependant, la fonctionnalité finira par être abandonnées. (La date exacte de l’obsolescence sera annoncée ultérieurement.)
 
 ## <a name="deprecation-notice"></a>Avis d′obsolescence
 
@@ -52,7 +52,7 @@ Importez toutes les configurations requises de LCS vers RCS, puis publiez-les de
 
 1. Si une instance RCS n’est pas déjà disponible, provisionnez-en une. Pour plus d’informations, voir [Vue d’ensemble de RCS](rcs-overview.md).
 2. Dans l’instance RCS provisionnée, pour chaque projet LCS de la bibliothèque de biens contenant des configurations ER dérivées, enregistrez le référentiel LCS approprié.
-3. Importez les configurations ER des référentiels LCS vers RCS. Pour plus d’informations, voir [Importer des configurations depuis LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
+3. Importez les configurations ER des référentiels LCS vers RCS. Pour plus d’informations, voir [Importer des configurations depuis LCS](/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services).
 4. Si le référentiel global n’est pas fourni automatiquement, enregistrez-le dans RCS.
 5. Chargez toutes les configurations dérivées de l’instance RCS actuelle vers le référentiel global. Utilisez la fonction **Paquets de configuration** pour faciliter le téléchargement. Pour plus d’informations, voir [Chargement dans le référentiel global RCS](rcs-global-repo-upload.md).
 
@@ -73,7 +73,7 @@ Utilisez le référentiel de globalisation aux fins suivantes :
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Ce changement signifie-t-il que LCS ne pourra plus être utilisé comme stockage central pour les configurations ?
 
-Oui. La fonctionnalité qui vous permet de charger des configurations vers la bibliothèque de biens de projet dans LCS à partir des applications Finance and Operations sera obsolète. Cependant, vous pouvez toujours utiliser le navigateur dans LCS pour charger des configurations dans la bibliothèque de biens du projet, selon vos besoins.
+Oui. La fonctionnalité qui vous permet de charger des configurations vers la bibliothèque de biens de projet dans LCS à partir des applications Finance et Opérations sera obsolète. Cependant, vous pouvez toujours utiliser le navigateur dans LCS pour charger des configurations dans la bibliothèque de biens du projet, selon vos besoins.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Je pensais que RCS était un référentiel de remplacement pour l’importation de fichiers de modèles globaux. Je ne pensais pas qu’il était utilisé pour stocker des configurations. Lequel des deux est vrai ?
 
@@ -81,7 +81,7 @@ RCS est un service de conception pour la création et la modification de configu
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Sans LCS, quelle est la méthode suggérée pour stocker les configurations afin de gérer et transférer facilement les configurations « test » et « production » ?
 
-RCS utilise le concept d’*application connectée*. Une application connectée établit une connexion entre RCS et toute instance des applications Finance and Operations. Étant donné que RCS peut être utilisé pour éditer des configurations, l’application connectée peut être utilisée pour envoyer les configurations directement du concepteur vers les environnements des applications Finance and Operations. Par conséquent, vous pouvez rapidement modifier et tester vos configurations au lieu de devoir passer par le stockage au niveau du projet LCS.
+RCS utilise le concept d’*application connectée*. Une application connectée établit une connexion entre RCS et toute instance des applications Finance et Opérations. Étant donné que RCS peut être utilisé pour éditer des configurations, l’application connectée peut être utilisée pour envoyer les configurations directement du concepteur vers les environnements des applications Finance et Opérations. Par conséquent, vous pouvez rapidement modifier et tester vos configurations au lieu de devoir passer par le stockage au niveau du projet LCS.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Existe-t-il des exemples illustrant la configuration et la gestion ?
 
@@ -104,4 +104,4 @@ Pour plus d'informations sur l'assistance produit, consultez [Présentation des 
 
 ### <a name="whats-the-cost-of-using-rcs"></a>Quel est le coût d'utilisation du RCS ?
 
-RCS et le référentiel de la mondialisation sont fournis gratuitement dans le cadre des licences d'applications Finance and Operations. Aucun coût distinct n'est associé à l'utilisation du service de conception RCS ou au stockage des configurations dans le référentiel global. Il n'y a actuellement aucune limite sur le nombre de configurations ou d'applications connectées.
+RCS et le référentiel de la mondialisation sont fournis gratuitement dans le cadre des licences d'applications Finance et Opérations. Aucun coût distinct n'est associé à l'utilisation du service de conception RCS ou au stockage des configurations dans le référentiel global. Il n'y a actuellement aucune limite sur le nombre de configurations ou d'applications connectées.

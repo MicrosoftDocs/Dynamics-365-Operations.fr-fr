@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986356"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565997"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Mise en route de la Facturation électronique pour le Mexique
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> La Facturation électronique pour le Mexique peut ne pas prendre en charge actuellement toutes les fonctions disponibles dans le document Comprobante Fiscal Digital por Internet (CFDI) et dans l’intégration associée intégrée dans Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.
+> La Facturation électronique pour le Mexique peut ne pas prendre en charge actuellement toutes les fonctions disponibles dans le document Comprobante Fiscal Digital por Internet (CFDI) et dans l’intégration associée intégrée dans Microsoft Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.
 
 Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour le Mexique. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Services (RCS) et Finance. Elle vous guide également tout au long des étapes que vous devez suivre dans Finance pour envoyer des factures CFDI via le service. Elle explique aussi comment passer en revue les résultats du traitement et le statut des factures CFDI.
 
@@ -141,7 +141,7 @@ Pour envoyer une annulation de facture CFDI, le paramétrage des fonctionnalité
 1. Sur la page **Paramétrage de version de fonctionnalité**, dans l’onglet **Variables**, sélectionnez le nom de la variable, **DigitalSignatureXSLT**.
 2. Dans le champ **Valeurs**, entrez : {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
-    où: <RelativePath> = folder\\folder\\filename avec doubles barres obliques inverses, ContainerName doit désigner le conteneur utilisé pour le service.
+    où: \<RelativePath\> = folder\\folder\\filename avec doubles barres obliques inverses, ContainerName doit désigner le conteneur utilisé pour le service.
    
     Exemple de variable :
     

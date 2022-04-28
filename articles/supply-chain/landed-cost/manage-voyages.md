@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570944"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570420"
 ---
 # <a name="manage-voyages"></a>Gérer les trajets
 
@@ -66,9 +66,9 @@ Le tableau suivant décrit les actions disponibles directement sur l’onglet **
 | En transit | Mettez à jour le champ **Statut du trajet** sur le statut en transit qui est établi sur la page **[Paramètres de coût au débarquement](landed-cost-parameters.md)**. Il n’y a plus de logique sur ce processus. Un trajet peut également être automatiquement mis à jour avec le statut en transit, en fonction des paramètres du [Centre de contrôle de suivi](delivery-information-setup.md).
 | Prêt pour l’évaluation des coûts | Mettez à jour le champ **Statut du trajet** sur le statut prêt à l’évaluation des coûts qui est établi sur la page **[Paramètres de coût au débarquement](landed-cost-parameters.md)**. Un trajet peut être chiffré lorsque toutes les factures ont été traitées (factures de stock et factures de frais de trajet) et que les marchandises ont été reçues. Si les coûts estimés associés à un trajet n’ont pas été chiffrés, une erreur se produit lorsque vous essayez de traiter le coût d’un trajet. |
 | Évaluer les coûts | Nettoyez toutes les irrégularités de coût après qu’une facture existe pour toutes les commandes fournisseur et les frais de trajet. Lorsque vous sélectionnez ce bouton, la boîte de dialogue **Mise à jour du trajet – Coûts évalués** apparaît. Là, vous pouvez choisir de publier à la date financière standard ou de spécifier une date comptable, puis d’exécuter l’action. Vous pouvez ré-exécuter l’action autant de fois que vous le souhaitez. Vous pouvez également utiliser la boîte de dialogue **Mise à jour du trajet – Coûts évalués** pour établir une planification pour exécuter l’action en tant que tâche périodique (trajet par lots). Nous vous recommandons d’exécuter régulièrement l’action en la configurant en tant que travail par lots. |
-| Valider la préparation de réception | Validez une liste de reçus pour toutes les lignes de commande fournisseur du trajet. Si des trajets multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de liste de reçus s’ouvre pour chaque entreprise et doit être traitée dans chaque entité juridique. |
-| Valider l’accusé de réception de produits | Validez un reçu produit pour toutes les lignes de commande fournisseur du trajet. Le processus de réception des produits pour les lignes de commandes fournisseur associées à un trajet ne sera utilisé que si les marchandises ne passent **pas** par le traitement des marchandises en transit. Si les marchandises passent par le traitement des marchandises en transit, vous recevez une erreur lorsque vous essayez de valider l’accusé de réception du produit pour une ligne de commande fournisseur. Si des trajets multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de note de livraison s’ouvre pour chaque entreprise. |
-| Valider la facture | Validez une facture pour toutes les lignes de commande fournisseur du trajet. Si les marchandises en cours de trajet passent par le traitement des marchandises en transit, les lignes de commande fournisseur seront facturées avant la fin du processus de réception. Lorsque la commande fournisseur d’origine est facturée, les commandes de marchandises en transit associées aux lignes de commande d’achat d’origine sont créées. Ces commandes peuvent ensuite être reçues par l’entrepôt. Si des expéditions multi-entreprises sont utilisés, une nouvelle boîte de dialogue d’enregistrement de facture s’ouvre pour chaque entreprise. |
+| Valider la préparation de réception | Validez une liste de reçus pour toutes les lignes de commande fournisseur du trajet.  |
+| Valider l’accusé de réception de produits | Validez un reçu produit pour toutes les lignes de commande fournisseur du trajet. Le processus de réception des produits pour les lignes de commandes fournisseur associées à un trajet ne sera utilisé que si les marchandises ne passent **pas** par le traitement des marchandises en transit. Si les marchandises passent par le traitement des marchandises en transit, vous recevez une erreur lorsque vous essayez de valider l’accusé de réception du produit pour une ligne de commande fournisseur.  |
+| Valider la facture | Validez une facture pour toutes les lignes de commande fournisseur du trajet. Si les marchandises en cours de trajet passent par le traitement des marchandises en transit, les lignes de commande fournisseur seront facturées avant la fin du processus de réception. Lorsque la commande fournisseur d’origine est facturée, les commandes de marchandises en transit associées aux lignes de commande d’achat d’origine sont créées. Ces commandes peuvent ensuite être reçues par l’entrepôt.  |
 | Expédier l’ordre de transfert | Validez un trajet de transfert de commande pour toutes les lignes de commande de transfert du trajet. Lorsque ce bouton est sélectionné, seuls les ordres de transfert seront disponibles pour mise à jour. |
 | Recevoir un ordre de transfert | Validez un reçu de transfert de commande pour toutes les lignes de commande de transfert du trajet. |
 | Recevoir des marchandises en transit | Recevez toutes les lignes de commande en transit pendant le trajet. Ce bouton est l’une des trois options disponibles pour recevoir des marchandises en transit lors d’un trajet. (Les deux autres options sont le bouton **Créer un journal des arrivées** décrit plus loin dans ce tableau, et l’application mobile Gestion des entrepôts.) Cette option est l’option la plus simple et traitera les marchandises en transit hors de l’entrepôt de marchandises en transit vers l’entrepôt de destination finale. Si vous souhaitez plus de contrôle sur le processus, utilisez le journal des arrivées ou un appareil mobile pour traiter la réception des marchandises. |
@@ -84,7 +84,7 @@ Le tableau suivant décrit les boutons disponibles directement sur l’onglet **
 
 | Bouton | Description |
 |---|---|
-| Préparation de réception | Ouvrez une liste des reçus produits pour toutes les lignes de commande fournisseur du trajet. Si des trajets multi-entreprises sont utilisés, une nouvelle liste de reçus est ouverte pour chaque entreprise. Si aucune liste de reçus de produits n’a été traitée, ce bouton n’est pas disponible. |
+| Préparation de réception | Ouvrez une liste des reçus produits pour toutes les lignes de commande fournisseur du trajet.  Si aucune liste de reçus de produits n’a été traitée, ce bouton n’est pas disponible. |
 | Accusé de réception des produits | Ouvrez l’enregistrement de réception de produit pour les lignes de commande d’achat associées au trajet, si cet enregistrement est utilisé. Si aucun reçu de produit n’a été validé, ce bouton n’est pas disponible. Le processus de réception des produits ne sera pas utilisé si vous utilisez le traitement des marchandises en transit. |
 | Arrivée d’articles | Ouvrez le journal d’arrivée des articles, s’il est utilisé. |
 | Suivi | Ouvrez la page **Suivi entrant**, où vous pouvez mettre à jour la date d’arrivée prévue des marchandises dans un conteneur d’expédition et un trajet, puis mettre à jour les dates de livraison prévues des lignes de commande. |

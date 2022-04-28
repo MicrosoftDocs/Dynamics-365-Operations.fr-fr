@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388591"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612347"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Concevoir un format ER pour conserver les lignes ensemble sur la même page Excel
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de consultant fonctionnel des états électroniques peut configurer un [format de gestion des états électroniques ](general-electronic-reporting.md) [(ER)](er-overview-components.md#format-component) qui génère des documents sortants dans Microsoft Excel et gérer la pagination des documents de telle sorte que les lignes créées sont conservées sur la même page.
 

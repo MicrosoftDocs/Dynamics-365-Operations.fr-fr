@@ -2,7 +2,7 @@
 title: Reconnaissance entre un règlement comptable et la clôture de fin d’exercice.
 description: Cette rubrique offre des informations sur les améliorations qui ont un impact sur les règlements comptable et la clôture de fin d’exercice comptable.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462350"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553330"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Reconnaissance entre un règlement comptable et la clôture de fin d’exercice.
 
 [!include [banner](../includes/banner.md)]
 
 
-Dans Microsoft Dynamics 365 Finance, version 10.0.25, la fonctionnalité **Reconnaissance entre un règlement comptable et la clôture de fin d’exercice** est disponible dans l’espace de travail **Gestion des fonctionnalités**. Cette fonctionnalité ajoute deux améliorations principales qui affectent le règlement comptable et la clôture de fin d’exercice comptable.
+Dans Microsoft Microsoft Dynamics 365 Finance, version 10.0.25, la fonctionnalité **Reconnaissance entre un règlement comptable et la clôture de fin d’exercice** est disponible dans l’espace de travail **Gestion des fonctionnalités**. Cette fonctionnalité ajoute deux améliorations principales qui affectent le règlement comptable et la clôture de fin d’exercice comptable.
 
 Lors de la clôture de fin d’exercice comptable, les transactions comptables qui ont été réglées ne seront plus incluses dans le solde d’ouverture de l’exercice suivant. Cette amélioration garantit que seules les transactions comptables non réglées sont incluses dans le solde d’ouverture. C’est important lors de l’exécution de la réévaluation des comptes en devises de la comptabilité. La réévaluation des comptes en devises étrangères est exécutée uniquement pour les transactions comptables dont le statut est **Non réglées**. Cependant, avant le lancement de la fonctionnalité **Reconnaissance entre un règlement comptable et la clôture de fin d’exercice**, le solde d’ouverture récapitulait à la fois les transactions avec un statut **Réglées** et celles avec un statut **Non réglées**, et le statut du montant récapitulatif était défini sur **Non réglées**.
 
@@ -48,12 +48,16 @@ Pour prendre en charge les nouvelles améliorations, des modifications ont été
 
 En raison des modifications apportées aux fonctionnalités et au modèle de données, il est important que vous considériez les points suivants avant d’activer la fonctionnalité :
 
+- Étant donné que seules les transactions réglées sont reportées dans le solde d'ouverture, vous devez annuler le règlement des transactions de l'exercice en cours qui sont réglées avec les transactions de l'exercice précédent. Les transactions doivent être rééquilibrées avec les transactions de l'exercice en cours. Cela peut être fait par une écriture de régularisation dans l'exercice en cours. L'ajustement annule les soldes d'ouverture résumés et les compense avec la transaction détaillée nécessaire pour régler les écritures comptables de l'année en cours. 
+
+  > [!IMPORTANT]
+  > Si cela n'est pas fait, vous recevrez une erreur **hors d'équilibre** lors de l'exécution de la clôture de fin d'exercice pour l'exercice en cours. S'il n'est pas possible d'annuler et de rééquilibrer les transactions du grand livre avec le même exercice, n'activez pas cette fonctionnalité avant la fin de la clôture de fin d'exercice. Activez la fonctionnalité immédiatement après la fin de la clôture de l'exercice et avant que toute nouvelle transaction du grand livre ne soit réglée au cours de l'exercice suivant. 
+  
 - Toutes les transactions qui ont été marquées pour règlement, mais qui n’ont pas été réglées seront automatiquement non marquées lorsque la fonction sera activée. Pour éviter toute perte de travail, réglez toutes les transactions marquées avant d’activer la fonctionnalité.
 - Certaines organisations exécutent la clôture de fin d’exercice à plusieurs reprises pour le même exercice fiscal. N’activez pas la fonctionnalité si la clôture de fin d’exercice a déjà été exécutée une fois et sera exécutée à nouveau pour le même exercice comptable. La fonctionnalité doit être activée avant de traiter la première clôture de fin d’exercice ou après avoir traité la dernière clôture de fin d’exercice pour l’exercice comptable.
 
   Si vous souhaitez activer la fonctionnalité, mais que la clôture de fin d’exercice a déjà été exécutée une fois, vous devez contrepasser la clôture de fin d’exercice avant de pouvoir activer la fonctionnalité.
 
-- Puisque le règlement sur plusieurs exercices n’est plus autorisé, nous vous recommandons d’activer la fonctionnalité avant de commencer le processus de clôture de fin d’exercice. Ensuite, pour s’assurer que les soldes d’ouverture de l’exercice suivant ne sont pas affectés par les règlements inter-exercices précédents, la transaction de solde d’ouverture doit être réglée pour l’exercice en cours de clôture.
 - Puisque le règlement entre les comptes principaux n’est plus autorisé, ajustez votre plan comptable ou vos processus selon les besoins pour vous assurer que le règlement comptable peut être effectué dans le même compte principal.
 - La fonctionnalité ne peut pas être activée si le processus de clôture de fin d’exercice du secteur public est utilisé.
 

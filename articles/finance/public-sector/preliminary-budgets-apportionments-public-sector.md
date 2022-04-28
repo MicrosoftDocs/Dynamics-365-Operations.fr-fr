@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 19701
 ms.assetid: 8885478d-67f5-4db8-b97b-c0734216f8dd
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d2cc92068c2125d434a8ab8965c41ea80d0c452
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: e849075d045225d48413aadf5010e66f83d2f95c
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817726"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565837"
 ---
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 

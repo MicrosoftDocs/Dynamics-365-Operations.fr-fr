@@ -2,7 +2,7 @@
 title: Créer une commande client
 description: Cette procédure vous indique comment créer une commande client.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566309"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551722"
 ---
 # <a name="create-sales-orders"></a>Créer une commande client
 
@@ -66,5 +66,7 @@ Les produits vendus par votre organisation peuvent se présenter sous différent
     
 3. Cliquez sur **OK**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Amélioration des performances de création des commandes client
+La nouvelle fonctionnalité introduite avec la version 10.0.26 de l'application réduit la création d'enregistrements supplémentaires pour les tables **SourceDocumentHeader** et **SourceDocumentLine**. Les performances sont améliorées et la taille de stockage est réduite car ces enregistrements ne sont pas créés. Ces tables de structure de document source sous-jacentes ne sont pas utilisées pour les commandes client dans le produit pour le moment et il n'est pas prévu de les utiliser. L'activation de cette fonctionnalité est considérée comme un changement sûr pour améliorer les performances. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392961"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612353"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer des étiquettes ZPL
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique explique comment un utilisateur avec le rôle d’administrateur système, de développeur d’états électroniques ou de consultant technique de gestion des états électroniques peut configurer les paramètres de la structure de [gestion des états électroniques (ER)](general-electronic-reporting.md), concevoir les [configurations](general-electronic-reporting.md#Configuration) de gestion des états électroniques requises d’une nouvelle solution de gestion des états électroniques pour accéder aux données du système de gestion des entrepôts et générer des étiquettes d’emplacement d’entrepôt personnalisées au format ZPL II. Ces étapes peuvent être effectuées dans la société **USRT**.
 
@@ -69,7 +68,7 @@ Vous pouvez afficher une version modifiable du modèle de données configuré su
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Concevoir une mise en correspondance de modèles pour le modèle de données configuré
 
-En tant qu’utilisateur avec le rôle de développeur d’états électroniques, vous devez créer une configuration de la gestion des états électroniques contenant un composant [mise en correspondance des modèles](er-overview-components.md#model-mapping-component) pour le modèle de données Entrepôt. Ce composant implémente le modèle de données configuré pour Dynamics 365 Finance, il est spécifique à cette application. Vous devez configurer le composant de mise en correspondance des modèles pour spécifier les objets d’application qui doivent être utilisés pour remplir le modèle de données configuré avec les données d’application au moment de l’exécution. Pour effectuer cette tâche, vous devez comprendre la mise en œuvre de la structure de données du domaine d’activités de gestion des entrepôts dans Finance.
+En tant qu’utilisateur avec le rôle de développeur d’états électroniques, vous devez créer une configuration de la gestion des états électroniques contenant un composant [mise en correspondance des modèles](er-overview-components.md#model-mapping-component) pour le modèle de données Entrepôt. Ce composant implémente le modèle de données configuré pour Dynamics 365 Finance et est spécifique à cette application. Vous devez configurer le composant de mise en correspondance des modèles pour spécifier les objets d’application qui doivent être utilisés pour remplir le modèle de données configuré avec les données d’application au moment de l’exécution. Pour effectuer cette tâche, vous devez comprendre la mise en œuvre de la structure de données du domaine d’activités de gestion des entrepôts dans Finance.
 
 ### <a name="import-a-model-mapping-configuration"></a>Importer une configuration de mise en correspondance de modèles
 

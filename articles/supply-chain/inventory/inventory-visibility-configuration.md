@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524519"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547786"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer la visibilité du stock
 
@@ -51,9 +51,10 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 
 | Nom dans la Gestion des fonctionnalités | Description |
 |---|---|
-| OnHandReservation | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | Cette fonctionnalité fournit un récapitulatif du stock pour les produits avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | La fonctionnalité active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV) (facultatif). Pour plus d’informations, voir [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
+| *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus d'entrepôt avancés (articles WHS). Pour plus d'informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
 
@@ -61,7 +62,7 @@ Si vous ne connaissez pas le bon point de terminaison de service de visibilité 
 
 ## <a name="data-source-configuration"></a>Configuration de la source de données
 
-Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « applications Finances et Opérations de Dynamics 365 Finance ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
+Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « applications Finances and Operations de Dynamics 365 ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
 
 > [!NOTE]
 > La source de données `fno` est réservée pour Supply Chain Management. Si votre complément de visibilité d’inventaire est intégré à un environnement Supply Chain Management, nous vous recommandons de ne pas supprimer les configurations liées à `fno` dans la source de données.

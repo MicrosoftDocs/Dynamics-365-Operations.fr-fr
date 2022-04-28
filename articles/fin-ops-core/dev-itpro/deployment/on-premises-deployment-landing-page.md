@@ -4,7 +4,8 @@ description: Cette rubrique fournit des informations et des liens vers du conten
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712566"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566037"
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d’accueil de déploiement local
 
@@ -33,7 +34,7 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Vue d’ensemble de déploiement local](on-premises-overview.md)
 - [Planifier et préparer les déploiements locaux](plan-onprem-deployment.md)
 - [Configuration requise pour les déploiements locaux](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Logiciels pris en charge par Microsoft Dynamics 365 Finance + Operations (local)](onprem-compatibility.md)
+- [Logiciel pris en charge par Microsoft Dynamics 365 Finance + Operations (on-premises)](onprem-compatibility.md)
 - [Configuration requise pour le calibrage de matériel pour les environnements sur site](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Acheter Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Comparaison des fonctions dans le cloud et sur site](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -51,8 +52,8 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Génération, publication et impression de documents dans les déploiements sur site](../analytics/printing-capabilities-on-premises.md)
-- [Configurer les proxys pour les environnements sur site](onprem-reverseproxy.md)
-- [Configurer le support technique pour les applications Finance and Operations](../lifecycle-services/support-experience.md)
+- [Configurer les proxys de contrepassation pour les environnements sur site](onprem-reverseproxy.md)
+- [Configurer le support technique pour les applications Finance et Opérations](../lifecycle-services/support-experience.md)
 - [Connectivité Internet du client](../user-interface/client-disconnected.md)
 - [Appliquer des mises à jour à des déploiement sur site](apply-updates-on-premises.md)
 - [Redéployer les environnements sur site](redeploy-on-prem.md)
@@ -72,7 +73,7 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Scripts pour résoudre les problèmes dans les environnements locaux](onprem-tsg-implementations.md)
 - [Rotation du certificat](certificate-rotation-on-prem.md)
 - [Diagnostics locaux](on-premises-diagnostics.md)
-- [Fonctionnalités supprimées ou obsolètes pour Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Fonctions supprimées ou abandonnées pour Finance et Opérations](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)
  
 

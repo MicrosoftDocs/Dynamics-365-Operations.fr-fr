@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527311"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573648"
 ---
-# <a name="get-started-with-financial-reporting"></a>Mise en route de Financial Reporting 
+# <a name="get-started-with-financial-reporting"></a>Démarrage de Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -138,7 +138,7 @@ Lorsque vous sélectionnez le menu **États financiers**, la liste des états fi
 
 ## <a name="creating-and-modifying-financial-reports"></a>Création et modification d’états financiers
 
-Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en sélectionnant **Nouveau** dans le volet Actions. Un programme de concepteur d’états est téléchargé sur votre périphérique. Une fois que le concepteur d’états démarre, vous pouvez créer l’état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Dynamics 365 Finance. 
+Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en sélectionnant **Nouveau** dans le volet Actions. Un programme de concepteur d’états est téléchargé sur votre périphérique. Une fois que le concepteur d’états démarre, vous pouvez créer l’état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Dynamics 365 Finance. 
 
 ## <a name="reporting-tree-definitions"></a>Définitions d’organigramme d’entreprise
 
@@ -148,7 +148,7 @@ Vous pouvez créer un nombre illimité d’arborescences de génération d’ét
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Mettre à jour la version de Financial Reporting via l’intégration
 
-Les applications Finances et Opérations sont mises à jour tous les mois. Cependant, Financial Reporting n’est pas nécessairement mis à jour à cette cadence. De plus, les clients ont plus de possibilités quant au moment où ils implémentent les mises à jour pour les applications Finances et Opérations. Les mises à jour de Financial Reporting sont automatiquement installées. Financial Reporting a une version désignée qui est utilisée dans un environnement client lorsqu’une mise à jour de service est mise en œuvre, lorsqu’un temps d’arrêt est déclenché ou lorsque l’environnement d’un client est en mode Maintenance. Ce processus est connu sous le nom d’*intégration* ou d’*ajustement*, car toutes les implémentations client sont définies sur la même version de Financial Reporting.
+Les applications Finance et Opérations sont mises à jour tous les mois. Cependant, Financial Reporting n’est pas nécessairement mis à jour à cette cadence. De plus, les clients ont plus de possibilités quant au moment où ils implémentent les mises à jour pour les applications Finance et Opérations. Les mises à jour de Financial Reporting sont automatiquement installées. Financial Reporting a une version désignée qui est utilisée dans un environnement client lorsqu’une mise à jour de service est mise en œuvre, lorsqu’un temps d’arrêt est déclenché ou lorsque l’environnement d’un client est en mode Maintenance. Ce processus est connu sous le nom d’*intégration* ou d’*ajustement*, car toutes les implémentations client sont définies sur la même version de Financial Reporting.
 
 Les changements qui sont publiés dans chaque version sont disponibles dans [Nouveautés ou modifications dans Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Les mises à jour de la plate-forme et les corrections de bogues sont disponibles dans la section « Ressources supplémentaires » en bas de la page pour chaque version.
 
@@ -212,7 +212,7 @@ Voici quelques étapes que vous pouvez suivre pour rendre votre conversation ave
 Les étapes suivantes décrivent le processus d’activation des messages de l’Observateur d’événements pour Financial Reporting. Les journaux générés par l’Observateur d’événements aideront les ingénieurs du support à identifier rapidement la source du problème de connexion. Envoyez des copies de ces journaux avec votre ticket lorsque vous contactez le support.
 
 
-1. Copiez le fichier RegisterETW.zip sur la station de travail client (de préférence sur le Bureau) et extrayez [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+1. Copiez le fichier RegisterETW.zip sur la station de travail client (de préférence sur le Bureau) et extrayez [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122).
 2. Assurez-vous que l’Observateur d’événements Windows est fermé.
 3. Ouvrez une invite de commande Administrateur PowerShell et accédez au répertoire où se trouve RegisterETW.ps1.
 4. Exécutez la commande suivante : .\RegisterETW.ps1
