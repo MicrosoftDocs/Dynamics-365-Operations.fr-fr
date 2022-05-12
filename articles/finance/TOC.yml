@@ -12,6 +12,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Finance
                   href: get-started/whats-new-home-page.md
+                - name: "Finance\_10.0.27 (juillet)"
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: "Finance\_10.0.26 (mai)"
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: "Finance\_10.0.25 (avril)"
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Facturation des contrats récurrents
                   items:
+                    - name: Configurer la facturation des contrats récurrents
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Créer des échéanciers de facturation
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copier un échéancier de facturation
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturation jalonnée
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Allocation des revenus
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Processus de support et de renouvellement
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Produit non facturé
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Planifications de l’indice des prix à la consommation
                       href: accounts-receivable/cpischedules.md
                     - name: Terminer les échéanciers de facturation
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Scénarios de date d’alignement
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Reports de revenus et de dépenses
                   items:
                     - name: Configurer les reports de revenus et de dépenses
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Échéanciers de reports
-                      items:
-                        - name: Créer des échéanciers de reports
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Transactions de report par défaut
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Créer des échéanciers de reports
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Transactions de report par défaut
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Répartition des revenus à plusieurs éléments
                   items:
                     - name: Configurer la répartition des revenus à plusieurs éléments
@@ -1429,7 +1437,7 @@
                             - name: Paramétrer les ressources Azure pour la facturation électronique
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Créer un Azure Key Vault dans le portail Azure
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Créer un compte de stockage Azure dans le portail Azure
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: Configurer une connexion SharePoint
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Partager avec d’autres organisations
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Tableau de bord de gestion de l’utilisation
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Traiter les documents électroniques entrants
                           items:
                             - name: Traitement des documents électroniques entrants
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: Configurer un canal SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Configurer et utiliser la facturation électronique avec Finance et Supply Chain Management
-                          items:
-                            - name: Activer et configurer l’intégration avec la facturation électronique
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Configurer les paramètres de facturation électronique
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Configurer et utiliser la facturation électronique avec Finance et Supply Chain Management
+                      items:
+                        - name: Activer et configurer l’intégration avec la facturation électronique
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Configurer les paramètres de facturation électronique
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Utiliser la facturation électronique
                           items:
                             - name: Soumettre des documents électroniques à la facturation électronique
@@ -1486,12 +1496,6 @@
                       items:
                         - name: Disponibilité des fonctionnalités de facturation électronique
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Démarrage de l’administration du service de facturation électronique
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Démarrage de la facturation électronique
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Créer une nouvelle fonctionnalité de facturation électronique
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Démarrage de la facturation électronique pour le Brésil
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Démarrage de la facturation électronique pour l’Égypte
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Utiliser le service de facturation électronique pour importer des factures fournisseurs
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Paramétrer la facturation électronique
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Référence de l’administrateur de plug-ins Power Platform
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: FAQ sur la facturation électronique
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Calcul de la taxe
@@ -1618,9 +1618,15 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Liste des fonctionnalités de taxe vide dans les paramètres de calcul de la taxe
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Le code taxe ne peut pas être déterminé
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Aucun résultat correspondant n’a été trouvé
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Activer le mode débogage dans le service de calcul de la taxe
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: FAQ sur le calcul de la taxe
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
-            - name: Taxes
+            - name: Taxe
               items:
                 - name: Taxe
                   items:
@@ -3721,10 +3727,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Analyse des dépenses d’achat
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Recrutement en cours
+                - name: Recrutement
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Performances de rentabilité et de ventes
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Contenu Power BI de la facturation de l’abonnement
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Paiements fournisseur
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Mesures de main-d’œuvre

@@ -12,14 +12,12 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management\_10.0.27 (juillet\_2022)"
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: "Supply Chain Management\_10.0.26 (mai\_2022)"
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: "Supply Chain Management\_10.0.25 (avril\_2022)"
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: "Supply Chain Management\_10.0.24 (février\_2022)"
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: "Supply Chain Management\_10.0.23 (janvier\_2022)"
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Fonctions supprimées ou déconseillées
               items:
                 - name: Page d’accueil des fonctions supprimées ou déconseillées
@@ -1723,10 +1721,8 @@
               href: iot/iot-intelligence-home-page.md
             - name: Paramétrer les ressources Azure
               href: iot/iot-azure-setup.md
-            - name: Formats du schéma de message pour hub IoT
+            - name: Formats du schéma de message pour IoT Hub
               href: iot/iot-schema-format.md
-            - name: Installer le complément dans LCS
-              href: iot/iot-lcs-setup.md
             - name: Paramétrer des mesures
               href: iot/iot-metrics-setup.md
             - name: Configuration d’un scénario
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Comment les collaborateurs utilisent l’interface d’exécution de l’atelier de production
                   href: production-control/production-floor-execution-use.md
+                - name: Afficher les soldes de congés dans l’interface d’exécution de l’atelier de production
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Appliquer un style à l’interface d’exécution de l’atelier de production
                   href: production-control/production-floor-execution-styles.md
                 - name: Personnaliser l’interface d’exécution de l’atelier de production

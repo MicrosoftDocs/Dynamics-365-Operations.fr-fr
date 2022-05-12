@@ -2,7 +2,7 @@
 title: Configuration de la fonctionnalité de prise en compte de revenu
 description: Cette rubrique décrit les options de paramétrage pour la prise en compte de revenu, ainsi que leurs implications.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867218"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656719"
 ---
 # <a name="revenue-recognition-setup"></a>Configuration de la fonctionnalité de prise en compte de revenu
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Entrez des valeurs descriptives dans les champs **Échéanciers de produit** et 
     - **Occurrences** : le montant est réparti également entre les occurrences, mais il peut inclure une période supplémentaire si vous sélectionnez **Date de début réelle** comme convention de constatation.
     - **Période fiscale en jours** : le montant est réparti selon les jours réels de chaque période fiscale. 
 
-    Les résultats des champs **Mensuellement en jours** et de **Période fiscale en jours** seront les mêmes lorsque les exercices fiscaux suivront des mois civils. La seule exception est lorsque la convention de constatation est définie sur **Fin de mois/période**, et que les champs **Date de début du contrat** et **Date de fin** sont laissés vides sur une ligne de commande client.
+         - Les résultats des champs **Mensuellement en jours** et de **Période fiscale en jours** seront les mêmes lorsque les exercices fiscaux suivront des mois civils. La seule exception est lorsque la convention de constatation est définie sur **Fin de mois/période**, et que les champs **Date de début du contrat** et **Date de fin** sont laissés vides sur une ligne de commande client.
 
 - **Convention de constatation** : la convention de constatation détermine les dates définies dans l’échéancier de produit pour la facture.
 
@@ -108,7 +108,7 @@ Entrez des valeurs descriptives dans les champs **Échéanciers de produit** et 
     - **1er jour du mois/période** : la date sur la première ligne de l’échéancier est la date de début du contrat (ou la date de facture). Toutefois, toutes les lignes de l’échéancier suivantes sont créées pour le premier jour du mois ou de la période fiscale.
     - **Fractionnement au quinze du mois** : la date sur la première ligne de l’échéancier dépend de la date de la facture. Si la facture est validée entre le premier et le quinze du mois, l’échéancier de produit est créé en utilisant le premier jour du mois. Si la facture est validée entre le seize et le dernier jour du mois, l’échéancier de produit est créé en utilisant le premier jour du mois suivant.
 
-        **Fractionnement au quinze du moi** ne peut pas être sélectionné si la base de reconnaissance est définie sur **Période fiscale en jours**.
+        - **Fractionnement au quinze du moi** ne peut pas être sélectionné si la base de reconnaissance est définie sur **Période fiscale en jours**.
 
     - **1er jour du mois suivant/de la période suivante** : la date sur l’échéancier est le premier jour du mois suivant ou de la période fiscale suivante.
     - **Fin de mois/période** : la date sur la première ligne de l’échéancier est la date de début du contrat (ou la date de facture). Toutefois, toutes les lignes de l’échéancier suivantes sont créées pour le dernier jour du mois ou de la période fiscale. 
