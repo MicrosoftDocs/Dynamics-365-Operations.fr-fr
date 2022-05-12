@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388234"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613907"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Exemple d’intégration du service d’enregistrement fiscal pour la République tchèque
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour la République tchèque dans Microsoft Dynamics 365 Commerce.
 
@@ -59,17 +58,17 @@ Les scénarios suivants sont couverts par l’exemple d’intégration du servic
 
 L’exemple d’intégration du service d’enregistrement fiscal implémente les règles suivantes liées aux cartes-cadeaux.
 
-- Les lignes de vente liées aux opérations *Émettre une carte-cadeau* ou *Ajouter à la carte-cadeau* dans une transaction de vente sont marquées d’un attribut spécial lorsque la transaction est enregistrée dans le service d’enregistrement fiscal.
-- Un paiement par carte cadeau est considéré comme un paiement régulier et marqué d’un attribut spécial lors de l’enregistrement de la transaction dans le service d’enregistrement fiscal.
+- Les lignes de vente liées aux opérations *Émettre une carte-cadeau* ou *Ajouter à la carte-cadeau* dans une transaction de vente sont marquées d’un attribut spécial quand la transaction est enregistrée dans le service d’enregistrement fiscal.
+- Un paiement par carte cadeau est considéré comme un paiement régulier et marqué d’un attribut spécial au moment de l’enregistrement de la transaction dans le service d’enregistrement fiscal.
 
 ### <a name="customer-account-deposits-and-customer-order-deposits"></a>Dépôts sur comptes client et acomptes commandes client
 
 L’exemple d’intégration du service d’enregistrement fiscal implémente les règles suivantes liées aux dépôts comptes clients et aux compte de commandes client.
 
 - Une transaction liée à un dépôt compte client ou à un dépôt de commande client est enregistrée dans le service d’enregistrement fiscal en tant que transaction sur une seule ligne et est marquée par un attribut spécial. Le groupe TVA d’acompte est précisé dans cette ligne.
-- Lorsqu’une commande client hybride est créée, c’est-à-dire une commande client qui contient des produits pouvant être effectués hors du magasin par le client, ainsi que des produits qui seront récupérés ou expédiés ultérieurement, la transaction enregistrée dans le service d’enregistrement fiscal contient des lignes pour les produits qui sont exécutés, ainsi qu’une ligne pour le dépôt de commande.
-- Un paiement par compte client est considéré comme un paiement régulier et marqué d’un attribut spécial lors de l’enregistrement de la transaction dans le service d’enregistrement fiscal.
-- Le montant de l’acompte de commande client qui est appliqué à une opération Retrait de commande client est considérée comme un paiement régulier et marquée d’un attribut spécial lorsque la transaction est enregistrée dans le service d’enregistrement fiscal.
+- Quand une commande client hybride est créée, c’est-à-dire une commande client qui contient des produits pouvant être effectués hors du magasin par le client, ainsi que des produits qui seront récupérés ou expédiés ultérieurement, la transaction enregistrée dans le service d’enregistrement fiscal contient des lignes pour les produits qui sont exécutés, ainsi qu’une ligne pour le dépôt de commande.
+- Un paiement par compte client est considéré comme un paiement régulier et marqué d’un attribut spécial au moment de l’enregistrement de la transaction dans le service d’enregistrement fiscal.
+- Le montant de l’acompte de commande client qui est appliqué à une opération Retrait de commande client est considérée comme un paiement régulier et marquée d’un attribut spécial quand la transaction est enregistrée dans le service d’enregistrement fiscal.
 
 ### <a name="offline-registration"></a>Inscription hors ligne
 

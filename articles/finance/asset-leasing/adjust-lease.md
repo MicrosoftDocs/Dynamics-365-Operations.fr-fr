@@ -2,7 +2,7 @@
 title: Ajuster les baux
 description: La rubrique explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729652"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644553"
 ---
 # <a name="adjust-leases"></a>Ajuster les baux
 
@@ -56,7 +56,7 @@ Procédez comme suit pour ouvrir l’assistant **Ajustement de bail** dans la pa
 
     Une fois le bail modifié, les champs relatifs aux droits d’utilisation s’appliquent. Si aucun coût direct initial, aucune incitation à la location, aucun paiement anticipé ou aucun coût de démantèlement n’est associé au bail modifié, vous devez laisser les champs correspondants vides. Les montants d’origine ne s’appliqueront pas au bail mis à jour. 
 
-    Par exemple, un bailleur offre une incitation de 1 000 $ pour accepter une prolongation du bail. Dans ce cas, lorsque vous modifiez le bail pour tenir compte de l’extension, vous devez entrer **1 000** dans le champ **Incitations à la location résultant de la modification**.
+    Par exemple, un bailleur offre une incitation de 1 000 $ pour accepter une prolongation du bail. Dans ce cas, quand vous modifiez le bail pour tenir compte de l’extension, vous devez entrer **1 000** dans le champ **Incitations à la location résultant de la modification**.
 
     Les lignes d’échéancier de paiement affichent désormais tous les paiements du mois et des mois suivants dans le champ **Date de début de la modification**. Les modifications étant prévisionnelles, les échéanciers de paiement ne peuvent pas commencer avant le début de la modification. Pour afficher les échéances de paiement antérieures à la date de début de la modification, accédez à la page **Historique de version des baux**.
 
@@ -134,5 +134,19 @@ Si un bail a été modifié, vous pouvez en afficher les différentes versions. 
 2. Pour afficher les horaires historiques, ouvrez le bail modifié à partir de la page **Récapitulatif du bail**, sélectionnez le livre souhaité, puis, dans le volet Actions, sélectionnez **Historique de version des baux**.
 3. Sur la page **Version des registres**, sélectionnez une version et l’échéancier à afficher.
 
+## <a name="adjust-a-lease-book"></a>Ajuster un registre de location
+
+Pour ajuster un registre de location uniquement, procédez comme suit.
+
+1. Accédez à **Location d’actifs** \> **Baux** \> **Récapitulatif du bail**.
+2. Sélectionnez et ouvrez un bail.
+3. Sur la page **Détails du bail**, sélectionnez **Registres**.
+4. Dans la page **Détails des registres**, dans le volet Actions, dans le groupe **Mettre à jour**, sélectionnez **Ajuster le registre**. 
+5. Supprimez les lignes de l’échéancier de paiement.
+6. Dans le champ **Date de modification du bail**, entrez la date de modification. Envisagez ensuite de supprimer toutes les considérations d’actif/passif supplémentaires (coût direct initial, incitatif à la location, paiement anticipé de la location, coût de démantèlement et garantie de valeur résiduelle), le cas échéant. 
+7. Pour éviter des calculs inexacts pour l’ajustement du bail, ajoutez de nouvelles lignes d’échéancier de paiement pour les nouvelles dates de paiement qui correspondent à la date de modification. 
+
+> [!NOTE] 
+> Nous vous recommandons d’utiliser l’Assistant **Ajustement de bail** pour ajuster un bail. L’Assistant réduit le nombre d’étapes manuelles, fournit un aperçu des soldes après l’ajustement et vous permet de modifier les montants avant la validation.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

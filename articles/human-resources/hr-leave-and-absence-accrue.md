@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533710"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644300"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Régulariser les plans de congé et d’absence
 
@@ -105,8 +105,10 @@ Supprimez les enregistrements de provisions pour un plan et une plage de dates s
 **Audit des provisions de congés** s’affiche chaque fois que vous exécutez ou supprimez une provision pour un ou tous les employés. La date et la personne qui ont effectué l’action s’affichent également.
 
 1. Dans la page **Plans de congé et d’absence**, sélectionnez l’onglet **Liens**.
-
 2. Sous **Gérer les congés**, sélectionnez **Supprimer l’audit de provision de congés**.
+
+## <a name="leave-accrual-rounding"></a>Arrondi de la régularisation des congés
+Quand un employé est inscrit ou non inscrit, l’arrondi des congés accumulés sera calculé au prorata. Auparavant, l’arrondi n’était autorisé que quand un plan de congé était défini au prorata et qu’un employé était inscrit/désinscrit au milieu de la période. Les accumulations de congés seront désormais arrondies indépendamment de l’inscription/de la désinscription à mi-période ou au début d’une période.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Audit des transactions de régularisation de congés
 

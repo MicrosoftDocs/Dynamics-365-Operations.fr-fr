@@ -1,6 +1,6 @@
 ---
 title: Planification avec des quantités disponibles négatives
-description: Cette rubrique explique comment une quantité disponible négative est gérée lorsque vous utilisez la fonctionnalité d’optimisation de la planification.
+description: Cette rubrique explique comment une quantité disponible négative est gérée quand vous utilisez la fonctionnalité d’optimisation de la planification.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469140"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625387"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planification avec des quantités disponibles négatives
 
@@ -73,9 +73,9 @@ Dans ce cas, le moteur de planification suppose que la quantité disponible pour
 
 Le résultat est une commande planifiée de 25 pcs (= 25 pcs &minus; 0 pcs) pour remplir l’entrepôt 13 de 0 pcs à 25 pcs
 
-## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planification lorsqu’il y a une réservation par rapport au stock disponible négatif
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planification quand  il y a une réservation par rapport au stock disponible négatif
 
-Si vous ajustez le stock alors que des réservations physiques existent, vous pouvez provoquer une situation où une commande est physiquement réservée par rapport à un stock négatif. Dans ce cas, étant donné qu’une réservation physique existe, l’optimisation de la planification suppose qu’elle est prise en charge par le stock disponible, même si la réception du stock disponible n’est pas encore enregistrée dans le système. Par conséquent, il suppose que le réapprovisionnement n’est pas requis et ne crée pas d’ordre planifié pour réapprovisionner la quantité de la commande.
+Si vous ajustez le stock alors que des réservations physiques existent, vous pouvez provoquer une situation où une commande est physiquement réservée par rapport à un stock négatif. Dans ce cas, étant donné qu’une réservation physique existe, vous devez disposer d’un approvisionnement pour couvrir la quantité réservée. Par conséquent, un réapprovisionnement est nécessaire, de sorte que le système crée soit une commande planifiée pour réapprovisionner la quantité qui ne peut pas être couverte par le stock disponible existant, soit la couvre avec une commande existante pour l’article.
 
 L’exemple suivant illustre ce scénario.
 
@@ -88,7 +88,7 @@ Le système est configuré de la manière suivante :
 - Une commande client existe pour une quantité de *10* unités. de produit *FG*.
 - La quantité de la commande client est physiquement réservée par rapport au stock disponible existant.
 
-Vous ajustez ensuite la quantité de produit *FG* de sorte que le stock disponible devienne 0 (zéro). Étant donné que le stock de produits en stock est nul, la quantité de la commande client est désormais réservée par rapport au stock négatif. Cependant, si vous exécutez la planification principale maintenant, aucun ordre planifié ne sera créé pour fournir la commande client, car l’optimisation de la planification supposera que le stock disponible requis existe pour fournir la réservation physique.
+Vous ajustez ensuite la quantité de produit *FG* de sorte que le stock disponible devienne 5. Étant donné que le stock de produits en stock est de 5, la quantité de la commande client est désormais réservée par rapport à la quantité qui n’est pas disponible en stock (ce serait similaire si le stock était de 0, auquel cas la commande client serait réservée par rapport au stock négatif ). Si vous exécutez la planification principale maintenant, un ordre planifié d’une quantit de 5 pour *FG* sera créé pour fournir la commande client, car l’optimisation de la planification utilisera toujours l’approvisionnement existant ou créera une commande planifiée pour fournir la réservation physique.
 
 ## <a name="related-resources"></a>Ressources associées
 

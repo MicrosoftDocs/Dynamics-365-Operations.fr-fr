@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384417"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644988"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -30,7 +30,7 @@ L’interface d’exécution de l’atelier de production est optimisée pour l�
 
 Avant que les travailleurs puissent commencer à utiliser l’appareil, un superviseur ou un membre du personnel technique doit le préparer et ouvrir la bonne page dans Dynamics 365 Supply Chain Management. Pour plus d’informations sur le paramétrage de l’appareil, consultez [Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production](production-floor-execution-setup.md).
 
-Une fois l’appareil préparé, la page de connexion apparaît dessus. Cette page affiche des informations sur le statut des tâches pour la cellule de travail locale. Ces informations sont mises à jour périodiquement. Sur la page, les employés utilisent leur ID badge pour se connecter. Bien que les employés ne soient pas obligés d’avoir un compte utilisateur pour Supply Chain Management, ils doivent avoir un compte *collaborateur à temps enregistré* qu’ils peuvent utiliser lorsqu’ils se connectent.
+Une fois l’appareil préparé, la page de connexion apparaît dessus. Cette page affiche des informations sur le statut des tâches pour la cellule de travail locale. Ces informations sont mises à jour périodiquement. Sur la page, les employés utilisent leur ID badge pour se connecter. Bien que les employés ne soient pas obligés d’avoir un compte utilisateur pour Supply Chain Management, ils doivent avoir un compte *collaborateur à temps enregistré* qu’ils peuvent utiliser quand  ils se connectent.
 
 ![Page de connexion à l’interface d’exécution de l’atelier de production.](media/pfei-sign-in-page.png "Page de connexion à l’interface d’exécution de l’atelier de production")
 
@@ -44,7 +44,7 @@ L’onglet **Toutes les tâches** fournit une liste de tâches qui affiche toute
 
 La liste des tâches comprend les colonnes suivantes. Les numéros correspondent aux numéros dans l’illustration précédente.
 
-1. **Colonne de sélection** – La colonne la plus à gauche utilise des coches pour indiquer les tâches qui ont été sélectionnés par le travailleur. Les travailleurs peuvent sélectionner plusieurs tâches dans la liste en même temps. Pour sélectionner toutes les tâches de la liste, cochez la case dans l’en-tête de colonne. Lorsqu’une seule tâche est sélectionnée, les détails de cette tâche sont affichés dans la partie inférieure de la page.
+1. **Colonne de sélection** – La colonne la plus à gauche utilise des coches pour indiquer les tâches qui ont été sélectionnés par le travailleur. Les travailleurs peuvent sélectionner plusieurs tâches dans la liste en même temps. Pour sélectionner toutes les tâches de la liste, cochez la case dans l’en-tête de colonne. Quand une seule tâche est sélectionnée, les détails de cette tâche sont affichés dans la partie inférieure de la page.
 1. **Colonne de statut de la tâche** – Cette colonne utilise des symboles pour indiquer le statut de chaque tâche. Les tâche qui n’ont pas de symbole dans cette colonne ont un statut *Non commencé*. Un triangle vert indique les tâches dont le statut est *Commencé*. Deux lignes verticales jaunes indiquent les tâches dont le statut est *Arrêté*.
 1. **Colonne haute priorité** – Cette colonne utilise des points d’exclamation pour indiquer les tâches qui ont une priorité élevée.
 1. **Ordre** – Cette colonne affiche le numéro d’ordre de fabrication d’une tâche.
@@ -63,7 +63,7 @@ L’onglet **Tâches actives** affiche une liste de toutes les tâches que le co
 
 La liste des tâches actives comprend les colonnes suivantes :
 
-- **Colonne de sélection** – La colonne la plus à gauche utilise des coches pour indiquer les tâches qui ont été sélectionnés par le travailleur. Les travailleurs peuvent sélectionner plusieurs tâches dans la liste en même temps. Pour sélectionner toutes les tâches de la liste, cochez la case dans l’en-tête de colonne. Lorsqu’une seule tâche est sélectionnée, les détails de cette tâche sont affichés dans la partie inférieure de la page.
+- **Colonne de sélection** – La colonne la plus à gauche utilise des coches pour indiquer les tâches qui ont été sélectionnés par le travailleur. Les travailleurs peuvent sélectionner plusieurs tâches dans la liste en même temps. Pour sélectionner toutes les tâches de la liste, cochez la case dans l’en-tête de colonne. Quand une seule tâche est sélectionnée, les détails de cette tâche sont affichés dans la partie inférieure de la page.
 - **Ordre** – Cette colonne affiche le numéro d’ordre de fabrication d’une tâche.
 - **Description** – Cette colonne affiche une description de l’opération dont fait partie une tâche.
 - **Demandé** – Cette colonne indique la quantité qu’une tâche est prévue pour produire.
@@ -74,9 +74,9 @@ La liste des tâches actives comprend les colonnes suivantes :
 
 ## <a name="my-jobs-tab"></a>Onglet Mes tâches
 
-L’onglet **Mes tâches** permettent aux collaborateurs de visualiser facilement toutes les tâches non démarrées et inachevées qui leur sont spécifiquement affectées. C’est utile dans les entreprises où les tâches sont parfois ou toujours attribuées à des collaborateurs spécifiques (ressources humaines) au lieu d’autres types de ressources (comme les machines). 
+L’onglet **Mes tâches** permettent aux collaborateurs de visualiser facilement toutes les tâches non démarrées et inachevées qui leur sont spécifiquement affectées. C’est utile dans les entreprises où les tâches sont parfois ou toujours attribuées à des collaborateurs spécifiques (ressources humaines) au lieu d’autres types de ressources (comme les machines).
 
-Le système de planification affecte automatiquement chaque travail de production à un enregistrement de ressource spécifique, et chaque enregistrement de ressource a un type (tel que machine ou humain). Lorsque vous configurez un employé en tant qu’employé de production, vous pouvez associer le compte d’employé à un enregistrement de ressource humaine unique. 
+Le système de planification affecte automatiquement chaque travail de production à un enregistrement de ressource spécifique, et chaque enregistrement de ressource a un type (tel que machine ou humain). Quand vous configurez un employé en tant qu’employé de production, vous pouvez associer le compte d’employé à un enregistrement de ressource humaine unique.
 
 L’onglet **Mes tâches** répertorie toutes les tâches non démarrées et non terminées qui ont été affectées à l’enregistrement des ressources humaines de l’employé connecté, si un employé est connecté. Il ne répertorie jamais les tâches qui ont été affectées à une machine ou à un autre type de ressource, même si le collaborateur connecté a commencé à travailler sur ces tâches.
 
@@ -87,7 +87,7 @@ Pour afficher toutes les tâches démarrées par le collaborateur connecté, que
 ## <a name="my-machine-tab"></a>Onglet Ma machine
 
 L’onglet **Ma machine** permet aux collaborateurs de sélectionner un actif connecté à une ressource de machine dans le filtre défini sur l’onglet **Toutes les tâches**. Le collaborateur peut ensuite voir l’état et l’intégrité de l’actif sélectionné en lisant les valeurs de quatre compteurs sélectionnés au maximum et les listes des demandes de maintenance récentes et des temps d’arret enregistrés. Le collaborateur peut également demander la maintenance de l’actif sélectionné et enregistrer et modifier les temps d’arrêt de la machine. (Ce nom d’onglet est personnalisable et peut être différent pour votre système.)
- 
+
 ![Onglet Ma machine.](media/pfei-my-machine-tab.png "Onglet Ma machine")
 
 L’onglet **Ma machine** contient les colonnes suivantes. Les numéros correspondent aux numéros dans l’illustration précédente.
@@ -113,11 +113,11 @@ Les travailleurs démarrent une tâche de production en sélectionnant une tâch
 
 Les travailleurs utilisent la boîte de dialogue **Commencer la tâche** pour confirmer la quantité de production, puis démarrer la tâche. Les travailleurs peuvent ajuster la quantité en sélectionnant le champ **Quantité** puis en utilisant le clavier numérique qui apparaît. Les travailleurs sélectionnent ensuite **Démarrer** pour commencer à travailler sur la tâche. La boîte de dialogue **Commencer la tâche** se ferme et la tâche est ajoutée à l’onglet **Tâches actives**.
 
-Les travailleurs peuvent démarrer une tâche qui a n’importe quel statut. Lorsqu’un travailleur commence une tâche dont le statut est *Non commencé*, le champ **Quantité** dans la boîte de dialogue **Commencer la tâche** affiche initialement la quantité totale. Lorsqu’un travailleur commence une tâche dont le statut est *Commencé* ou *Arrêté*, le champ **Quantité** affiche initialement la quantité restante.
+Les travailleurs peuvent démarrer une tâche qui a n’importe quel statut. Quand un travailleur commence une tâche dont le statut est *Non commencé*, le champ **Quantité** dans la boîte de dialogue **Commencer la tâche** affiche initialement la quantité totale. Quand un travailleur commence une tâche dont le statut est *Commencé* ou *Arrêté*, le champ **Quantité** affiche initialement la quantité restante.
 
 ## <a name="reporting-good-quantities"></a>Déclarer les bonnes quantités
 
-Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut déclarer les bonnes quantités produites en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie de l’avancement**. Puis, dans la boîte de dialogue **Saisie de l’avancement**, le travailleur entre la bonne quantité à l’aide du clavier numérique. La quantité est vide par défaut. Une fois qu’une quantité est entrée, le travailleur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
+Quand un travailleur termine ou termine partiellement une tâche, il peut déclarer les bonnes quantités produites en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie de l’avancement**. Puis, dans la boîte de dialogue **Saisie de l’avancement**, le travailleur entre la bonne quantité à l’aide du clavier numérique. La quantité est vide par défaut. Une fois qu’une quantité est entrée, le travailleur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
 
 ![Boîte de dialogue Saisie de l’avancement.](media/pfei-report-progress-dialog.png "Boîte de dialogue Saisie de l’avancement")
 
@@ -125,9 +125,9 @@ Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut dé
 
 Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier de production pour signaler l’avancement des commandes par lots. Ce reporting inclut le reporting sur les co-produits et les sous-produits.
 
-Certains fabricants, en particulier dans les industries de transformation, utilisent des commandes par lots pour gérer leurs processus de production. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des co-produits et des sous-produits en sortie. Lorsque des commentaires sur ces commandes par lots sont signalés, la quantité de sortie doit être enregistrée sur l’élément de formule, ainsi que sur les co-produits et sous-produits.
+Certains fabricants, en particulier dans les industries de transformation, utilisent des commandes par lots pour gérer leurs processus de production. Les commandes par lots sont créées à partir de formules, et ces formules peuvent être définies de manière à avoir des co-produits et des sous-produits en sortie. Quand des commentaires sur ces commandes par lots sont signalés, la quantité de sortie doit être enregistrée sur l’élément de formule, ainsi que sur les co-produits et sous-produits.
 
-Lorsqu’un collaborateur termine ou termine partiellement une tâche sur une commande par lots, il peut signaler les quantités bonnes ou rebutées pour chaque produit défini comme sortie pour la commande. Les produits définis comme sortie pour une commande par lots peuvent être du type *Formule*, *Co-produit* ou *Sous-produit*.
+Quand un collaborateur termine ou termine partiellement une tâche sur une commande par lots, il peut signaler les quantités bonnes ou rebutées pour chaque produit défini comme sortie pour la commande. Les produits définis comme sortie pour une commande par lots peuvent être du type *Formule*, *Co-produit* ou *Sous-produit*.
 
 Pour déclarer de bonnes quantités sur les produits, un collaborateur sélectionne un travail sur l’onglet **Emplois actifs**, puis sélectionne **Saisie de l’avancement**.
 
@@ -137,7 +137,7 @@ Ensuite, dans la boîte de dialogue **Saisie de l’avancement**, le collaborate
 
 ### <a name="reporting-on-batch-orders-for-planning-items"></a>Rapports sur les commandes par lots pour les articles de planification
 
-Lorsqu’un collaborateur termine un travail sur une commande par lots pour un article de planification, il rapportera uniquement les quantités sur les co-produits et les sous-produits, car les articles de planification ne contiennent pas d’article du type *Formule*.
+Quand un collaborateur termine un travail sur une commande par lots pour un article de planification, il rapportera uniquement les quantités sur les co-produits et les sous-produits, car les articles de planification ne contiennent pas d’article du type *Formule*.
 
 ### <a name="reporting-co-product-variation"></a>Signalement de la variation des coproduits
 
@@ -154,7 +154,7 @@ Les collaborateurs peuvent utiliser l’interface d’exécution de l’atelier 
 
 ## <a name="reporting-scrap"></a>Déclarer le rebut
 
-Lorsqu’un travailleur termine ou termine partiellement une tâche, il peut déclarer le rebut en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie du rebut**. Puis, dans la boîte de dialogue **Saisie du rebut**, le travailleur entre la quantité mise au rebut à l’aide du clavier numérique. Le travailleur sélectionne également une raison (*Aucune*, *Machine*, *Opérateur* ou *Matériel*).
+Quand un travailleur termine ou termine partiellement une tâche, il peut déclarer le rebut en sélectionnant une tâche sur l’onglet **Tâches actives** puis en sélectionnant **Saisie du rebut**. Puis, dans la boîte de dialogue **Saisie du rebut**, le travailleur entre la quantité mise au rebut à l’aide du clavier numérique. Le travailleur sélectionne également une raison (*Aucune*, *Machine*, *Opérateur* ou *Matériel*).
 
 ![Boîte de dialogue Saisie du rebut.](media/pfei-report-scrap-dialog.png "Boîte de dialogue Saisie du rebut")
 
@@ -175,14 +175,14 @@ Les employés peuvent spécifier la quantité à ajuster en sélectionnant **Aju
 
 ### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Ajuster la consommation de matières à partir des boîtes de dialogue Saisie du rebut et Saisie de l’avancement
 
-Une fois qu’un employé saisit la quantité à rapporter dans la boîte de dialogue **Saisie de l’avancement** ou **Saisie du rebut**, le bouton **Ajuster la matière** devient disponible. Lorsque l’utilisateur sélectionne ce bouton, la boîte de dialogue **Ajuster la matière** apparaît. Cette boîte de dialogue répertorie les articles dont la consommation est prévue lorsque la quantité de marchandises ou de mise au rebut est signalée pour la tâche.
+Une fois qu’un employé saisit la quantité à rapporter dans la boîte de dialogue **Saisie de l’avancement** ou **Saisie du rebut**, le bouton **Ajuster la matière** devient disponible. Quand l’utilisateur sélectionne ce bouton, la boîte de dialogue **Ajuster la matière** apparaît. Cette boîte de dialogue répertorie les articles dont la consommation est prévue quand la quantité de marchandises ou de mise au rebut est signalée pour la tâche.
 
 La liste dans la boîte de dialogue indique les informations suivantes :
 
 - **Numéro du produit** : le produit générique et la variante de produit.
 - **Nom du produit** – Nom du produit.
-- **Proposition** : la quantité estimée de matière qui sera consommée lorsque l’avancement ou le rebut est signalé pour la quantité spécifiée pour la tâche.
-- **Consommation** : la quantité réelle de matière qui sera consommée lorsque l’avancement ou le rebut est signalé pour la quantité spécifiée pour la tâche.
+- **Proposition** : la quantité estimée de matière qui sera consommée quand l’avancement ou le rebut est signalé pour la quantité spécifiée pour la tâche.
+- **Consommation** : la quantité réelle de matière qui sera consommée quand l’avancement ou le rebut est signalé pour la quantité spécifiée pour la tâche.
 - **Réservée** : la quantité de matière qui a été réservée physiquement dans l’inventaire.
 - **Unité** : l’unité de la nomenclature.
 
@@ -197,21 +197,21 @@ Le côté droit de la boîte de dialogue indique les informations suivantes :
 Les actions suivantes peuvent être exécutées :
 
 - L’employé peut spécifier la quantité à ajuster pour une matière en sélectionnant **Ajuster la consommation**. Une fois la quantité confirmée, la quantité dans la colonne **Consommation** est mise à jour avec la quantité ajustée.
-- Lorsque l’employé sélectionne **Ajuster la matière**, un journal de prélèvements de production est créé. Ce journal contient les mêmes articles et quantités que la liste **Ajuster la matière**.
-- Lorsque l’employé ajuste une quantité dans la boîte de dialogue **Ajuster la matière**, le champ **Proposition** de la ligne journal correspondante est mis à jour avec la même quantité. Si l’employé choisit **Annuler** dans la boîte de dialogue **Ajuster la matière**, la liste de prélèvement est supprimée.
-- Si l’employé choisit **OK**, la liste de prélèvement n’est pas supprimée. Elle sera affichée lorsque la tâche sera signalée dans la boîte de dialogue **Saisie du rebut** ou **Saisie de l’avancement**.
+- Quand l’employé sélectionne **Ajuster la matière**, un journal de prélèvements de production est créé. Ce journal contient les mêmes articles et quantités que la liste **Ajuster la matière**.
+- Quand l’employé ajuste une quantité dans la boîte de dialogue **Ajuster la matière**, le champ **Proposition** de la ligne journal correspondante est mis à jour avec la même quantité. Si l’employé choisit **Annuler** dans la boîte de dialogue **Ajuster la matière**, la liste de prélèvement est supprimée.
+- Si l’employé choisit **OK**, la liste de prélèvement n’est pas supprimée. Elle sera affichée quand la tâche sera signalée dans la boîte de dialogue **Saisie du rebut** ou **Saisie de l’avancement**.
 - Si l’employé choisit **Annuler** dans la boîte de dialogue **Saisie de l’avancement** ou **Saisie du rebut**, la liste de prélèvement est supprimée.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Ajuster la matière à partir de la barre d’outils à droite
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Ajuster le matériau à partir de la barre d’outils principale ou secondaire
 
-Le bouton **Ajuster la matière** peut être configuré pour qu’il apparaisse sur la barre d’outils à droite. (Pour plus d’informations, voir [oncevoir l’interface d’exécution de l’atelier de production](production-floor-execution-tabs.md).) Un employé peut sélectionner **Ajuster la matière** pour une tâche de production en cours. Dans ce cas, la boîte de dialogue **Ajuster la matière** apparaît, où l’employé peut effectuer les ajustements souhaités. Lorsque la boîte de dialogue est ouverte, une liste de prélèvement de production contenant des lignes pour les quantités ajustées est créée pour l’ordre de fabrication. Si l’employé choisit **Publier maintenant**, l’ajustement est confirmé et la liste de prélèvement est affichée. Si l’employé choisit **Annuler**, le prélèvement est supprimé et aucun ajustement n’est fait.
+Le bouton **Ajuster la matière** peut être configuré pour qu’il apparaisse sur la barre d’outils principale ou secondaire. (Pour plus d’informations, voir [oncevoir l’interface d’exécution de l’atelier de production](production-floor-execution-tabs.md).) Un employé peut sélectionner **Ajuster la matière** pour une tâche de production en cours. Dans ce cas, la boîte de dialogue **Ajuster la matière** apparaît, où l’employé peut effectuer les ajustements souhaités. Quand la boîte de dialogue est ouverte, une liste de prélèvement de production contenant des lignes pour les quantités ajustées est créée pour l’ordre de fabrication. Si l’employé choisit **Publier maintenant**, l’ajustement est confirmé et la liste de prélèvement est affichée. Si l’employé choisit **Annuler**, le prélèvement est supprimé et aucun ajustement n’est fait.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Ajuster la consommation de matériaux pour les éléments à poids variable
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: preview until further notice -->
 
-Les employés peuvent ajuster la consommation de matériaux pour les éléments à poids variable. Cette fonctionnalité est utilisée dans les scénarios où la quantité réelle de matières à poids variable qui a été consommée par une tâche de production était supérieure ou inférieure à la quantité planifiée. Par conséquent, elle doit être ajustée pour garantir que les niveaux d’inventaire sont à jour. Lorsqu’un employé ajuste la consommation d’un élément à poids variable, il peut ajuster à la fois la quantité de poids variable et la quantité de stock. Par exemple, si un travail de production est prévu pour consommer cinq boîtes dont le poids est estimé à 2 kilogrammes par boîte, l’employé peut ajuster à la fois le nombre de boîtes à consommer et le poids des boîtes. Le système validera que le poids spécifié des boîtes se situe dans les seuils minimum et maximum définis sur le produit lancé.
+Les employés peuvent ajuster la consommation de matériaux pour les éléments à poids variable. Cette fonctionnalité est utilisée dans les scénarios où la quantité réelle de matières à poids variable qui a été consommée par une tâche de production était supérieure ou inférieure à la quantité planifiée. Par conséquent, elle doit être ajustée pour garantir que les niveaux d’inventaire sont à jour. Quand un employé ajuste la consommation d’un élément à poids variable, il peut ajuster à la fois la quantité de poids variable et la quantité de stock. Par exemple, si un travail de production est prévu pour consommer cinq boîtes dont le poids est estimé à 2 kilogrammes par boîte, l’employé peut ajuster à la fois le nombre de boîtes à consommer et le poids des boîtes. Le système validera que le poids spécifié des boîtes se situe dans les seuils minimum et maximum définis sur le produit lancé.
 
 ### <a name="reserve-materials"></a>Réserver des matières
 
@@ -222,7 +222,7 @@ Si la matière est activée pour les processus d’entrepôt avancés, la liste 
 Pour plus d’informations sur la configuration de l’emplacement d’entrée de production, consultez le billet de blog suivant : [Configuration de l’emplacement d’entrée de production](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 
 > [!NOTE]
-> Les réservations d’un employé dans la boîte de dialogue **Réserver des matières** resteront lorsque l’employé sélectionne **Annuler** dans la boîte de dialogue **Saisie de l’avancement** ou **Saisie du rebut**.
+> Les réservations d’un employé dans la boîte de dialogue **Réserver des matières** resteront quand l’employé sélectionne **Annuler** dans la boîte de dialogue **Saisie de l’avancement** ou **Saisie du rebut**.
 >
 > Il n’est pas possible d’ajuster les réservations pour les éléments à poids variable.
 
@@ -260,6 +260,42 @@ Dans les deux scénarios, une fois que Shannon a confirmé sa sélection, elle a
 Les travailleurs peuvent enregistrer des pauses. Les pauses peuvent être définies de manière flexible, comme décrit dans [Salaire basé sur les enregistrements](pay-based-on-registrations.md).
 
 Un travailleur enregistre une pause en sélectionnant **Pause** puis en sélectionnant la carte qui représente le type de pause (comme le déjeuner). Une fois que le travailleur a confirmé la sélection, l’appareil affiche la page de connexion ou une page qui attendra que le travailleur confirme son retour de la pause. La page qui s’affiche dépend de la configuration de l’interface d’exécution de l’atelier de production. (Pour plus d’informations, consultez [Configurer l’interface d’exécution de l’atelier de production](production-floor-execution-configure.md) .)
+
+## <a name="view-the-my-day-dialog"></a>Afficher la boîte de dialogue "Ma journée"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+La boîte de dialogue **Ma journée** fournit aux collaborateurs un aperçu de leurs enregistrements et de leurs soldes. La boîte de dialogue est divisée en trois sections :
+
+- La section principale répertorie les enregistrements que le collaborateur actuel a effectués à une date sélectionnée. Elle s’ouvre en affichant les inscriptions pour le jour en cours et fournit un sélecteur de date qui permet au collaborateur de voir les autres jours.
+- La section **Dernier solde quotidien calculé** affiche les soldes actuels du collaborateur pour les heures rémunérées, les heures supplémentaires rémunérées, les absences et les absences rémunérées. Ces valeurs sont basées sur les enregistrements qui ont été calculés au cours du processus d’approbation.
+- La section **Soldes** fournit un aperçu des soldes au cours d’une période définie pour certaines catégories d’inscriptions (telles que les vacances, les heures normales et les heures supplémentaires). Ces soldes sont basés sur la façon dont les soldes statistiques sont établis dans le module **Temps et présence**. Pour plus d’informations sur le paramétrage, consultez [Afficher les soldes de congés dans l’interface d’exécution de l’atelier de production](production-floor-execution-payroll-stats.md).
+
+Les administrateurs peuvent ajouter cette fonctionnalité à l’interface en plaçant le bouton **Ma journée** sur une barre d’outils pour chaque onglet pertinent comme décrit dans [Concevoir l’interface d’exécution de l’atelier de production](production-floor-execution-tabs.md).
+
+## <a name="working-in-teams"></a>Travailler en équipe
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Quand plusieurs collaborateurs sont affectés au même projet de rpdocution, ils peuvent former une équipe. L’équipe peut nommer un collaborateur comme pilote. Les collaborateurs restants deviennent alors automatiquement des assistants de ce pilote. Pour l’équipe résultante, seul le pilote doit enregistrer le statut du projet. Les enregistrements de temps s’appliquent à tous les membres de l’équipe.
+
+### <a name="prerequisites"></a>Conditions préalables
+
+Pour utiliser les équipes, un administrateur doit activer l’action **Assistant** pour la barre d’outils principale sur l’onglet **Toutes les tâches** de l’interface d’exécution de l’atelier de production. Pour obtenir des instructions, voir [Concevoir l’interface d’exécution de l’atelier de production](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Former une nouvelle équipe qui a un pilote et un assistant
+
+Un collaborateur peut s’inscrire en tant qu’assistant en sélectionnant **Assistant** sur l’onglet **Tous les emplois**. Puis, dans la boîte de dialogue **Sélectionnez un employé pour vous aider** qui s’affiche, le collaborateur peut sélectionner un pilote dans une liste de collaborateurs qui travaillent activement sur une tâche. Une fois que le collaborateur a confirmé sa sélection, il devient l’assistant du collaborateur sélectionné, qui devient le pilote de la nouvelle équipe.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Affecter un nouveau pilote à une équipe existante
+
+Quand une équipe souhaite sélectionner un nouveau pilote, le pilote actuel doit désigner un autre collaborateur de l’équipe comme nouveau pilote. Pour nommer un nouveau pilote, le pilote actuel sélectionne **Assistant** sur l’onglet **Tous les emplois**. Puis, dans la boîte de dialogue **Changer de pilote** qui apparaît, le pilote peut sélectionner un nouveau pilote dans une liste de collaborateurs qui sont déjà dans l’équipe. Une fois que le pilote actuel a confirmé sa sélection, il est complètement exclu de l’équipe. Cependant, il peut rejoindre l’équipe au besoin.
+
+### <a name="assistant-clocks-out"></a>L’assistant sort
+
+Quand un collaborateur qui travaille comme assistant sort, il quitte l’équipe. Si les options **Equipes permanentes** et **Redémarrer à l’heure** sont définies sur *Oui*, un collaborateur qui pointera à la sortie rejoindra automatiquement l’équipe la prochaine fois qu’il pointera. Vous pouvez trouver ces options sur l’onglet **Général** de la page **Paramètres de temps et de présence**.
 
 ## <a name="opening-instructions"></a>Ouverture des instructions
 

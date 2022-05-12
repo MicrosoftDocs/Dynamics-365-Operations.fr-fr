@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565626"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625359"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -41,7 +41,7 @@ Avant de commencer la mise en service d’un nouvel environnement de production,
 ## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
 
 >[!NOTE]
-> À partir d'avril 2022, les environnements d'essai de Human Resources ne seront plus disponibles sur l'application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications Finance et Opérations peuvent le faire en utilisant l'essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l'infrastructure de Finance grâce à la fusion de l'application autonome. Pour plus d'informations, voir [La fusion des offres HR rassemble les fonctionnalités pour les clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Pour plus d'informations sur les versions d'évaluation de Dynamics 365 Finance, consultez le [guide](/fin-ops/get-started/before-you-buy) pas-à-pas. 
+> À partir d’avril 2022, les environnements d’essai de Human Resources ne seront plus disponibles sur l’application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications Finance et Opérations peuvent le faire en utilisant l’essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l’infrastructure de Finance grâce à la fusion de l’application autonome. Pour plus d’informations, voir [La fusion des offres HR rassemble les fonctionnalités pour les clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Pour plus d’informations sur les versions d’évaluation de Dynamics 365 Finance, consultez le [guide](../fin-ops-core/fin-ops/get-started/before-you-buy.md) pas-à-pas. 
 
 
 Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
@@ -50,7 +50,7 @@ Les environnements d’essai offrent la possibilité d’évaluer la fonctionnal
 
 Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 30 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
 
-Lors de la création d’un environnement d’essai Human Resources, un environnement d’essai Power Apps est également créé sur le locataire et est lié à l’environnement Human Resources. L’environnement Power Apps, nommé « TestDrive », a la même période d’essai que l’environnement Human Resources.
+Au moment de la création d’un environnement d’essai Human Resources, un environnement d’essai Power Apps est également créé sur le locataire et est lié à l’environnement Human Resources. L’environnement Power Apps, nommé « TestDrive », a la même période d’essai que l’environnement Human Resources.
 
 > [!NOTE]
 > L’approvisionnement d’un environnement d’essai Human Resources échouera si l’utilisateur authentifié n’a pas l’autorisation de créer d’environnement d’essai Power Apps. L’utilisateur doit être inclus dans le groupe d’utilisateurs qui peut créer des environnements d’essai dans le centre d’administration de Power Platform. Pour plus d’informations, consultez [Contrôler qui peut créer et gérer des environnements dans le centre d’administration de Power Platform](/power-platform/admin/control-environment-creation).
@@ -68,9 +68,9 @@ Considérations relatives aux environnements supplémentaires :
 
  > [!IMPORTANT]
  > En tenant compte de votre environnement, nous vous recommandons ce qui suit :
- > - Utilisez votre environnement de production tout au long de votre projet comme environnement de configuration GOLD. Ceci est important, car vous ne pouvez pas copier un environnement sandbox dans un environnement de production. Par conséquent, lors de la mise en service, votre environnement GOLD est votre environnement de production et c’est là que vous allez effectuer vos activités de basculement.</br></br>
+ > - Utilisez votre environnement de production tout au long de votre projet comme environnement de configuration GOLD. Ceci est important, car vous ne pouvez pas copier un environnement sandbox dans un environnement de production. Par conséquent, au moment de la mise en service, votre environnement GOLD est votre environnement de production et c’est là que vous allez effectuer vos activités de basculement.</br></br>
  > - Utilisez votre environnement de bac à sable ou un autre environnement pour effectuer une simulation de basculement avant votre mise en service. Vous pouvez le faire en actualisant l’environnement de production avec votre configuration GOLD dans votre environnement sandbox.</br></br>
- > - Conservez une liste de contrôle de basculement détaillée qui inclut chacun des packages de données requis pour migrer les données finales dans l’environnement de production lors de la mise en service.</br></br>
+ > - Conservez une liste de contrôle de basculement détaillée qui inclut chacun des packages de données requis pour migrer les données finales dans l’environnement de production au moment de la mise en service.</br></br>
  > - Utilisez votre environnement de bac à sable tout au long de votre projet comme environnement TEST. Si vous avez besoin d’environnements supplémentaires, votre organisation peut les acheter moyennant un coût supplémentaire.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Créer un projet LCS
@@ -104,7 +104,7 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
     > Le type d’instance Human Resources ne peut plus être modifié une fois défini. Vérifiez que le type d’instance correct est sélectionné avant de continuer.</br></br>
     > Le type d’instance Human Resources est distinct du type d’instance de l’environnement Microsoft Power Apps, que vous définissez dans le Centre d’administration Power Apps.
     
-3. Sélectionnez l’option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même jeu de données de démonstration que celui utilisé dans l’environnement d’essai de Human Resources. Les données de démonstration sont utiles pour les environnements de démonstration ou de formation à long terme, et ne doivent jamais être utilisées pour les environnements de production. Vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
+3. Sélectionnez l’option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même jeu de données de démonstration que celui utilisé dans l’environnement d’essai de Human Resources. Les données de démonstration sont utiles pour les environnements de démonstration ou de formation à long terme, et ne doivent jamais être utilisées pour les environnements de production. Vous devez sélectionner cette option au moment du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
 
 4. Human Resources est toujours mis en service dans un environnement Microsoft Power Apps pour permettre l’intégration et l’extensibilité des applications Power Apps. Lisez la section « Sélectionnant d’un environnement Power Apps » de cet article avant de continuer. Si vous n’avez pas déjà un environnement Power Apps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d’administration de Power Apps. Puis suivez les étapes pour [Créer un environnement Power Apps](/powerapps/administrator/create-environment).
 
@@ -129,13 +129,13 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 
 2. Un seul environnement Human Resources est mappé à un seul environnement Power Apps.
 
-3. Un environnement Power Apps « contient » l’application Human Resources, ainsi que les applications Power Apps, Power Automate et Dataverse. Si l’environnement Power Apps est supprimé, les applications qu’il contient le sont aussi. Lors de la mise en service d’un environnement Human Resources, vous pouvez mettre en service un environnement **d’évaluation** ou **de production**. Choisissez le type d’environnement selon la façon dont l’environnement sera utilisé. 
+3. Un environnement Power Apps « contient » l’application Human Resources, ainsi que les applications Power Apps, Power Automate et Dataverse. Si l’environnement Power Apps est supprimé, les applications qu’il contient le sont aussi. Au moment de la mise en service d’un environnement Human Resources, vous pouvez mettre en service un environnement **d’évaluation** ou **de production**. Choisissez le type d’environnement selon la façon dont l’environnement sera utilisé. 
 
 4. Des stratégies d’intégration de données et de test doivent être envisagées, par exemple : bac à sable (Sandbox), UAT ou Production. Prenez en compte avec précaution les implications de votre déploiement, car il sera difficile de modifier l’environnement Human Resources mappé à un environnement Power Apps par la suite.
 
 5. Les environnements Power Apps suivants ne peuvent pas être utilisés pour Human Resources. Ils sont filtrés à partir de la liste de sélection dans LCS :
  
-    - **Environnements Power Apps par défaut** – Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production lors des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
+    - **Environnements Power Apps par défaut** – Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production au moment des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
    
     - **Environnements d’essai** – Ces environnements sont créés avec une date d’expiration. À l’expiration, votre environnement et toutes les instances de Human Resources qu’il contient seront supprimés automatiquement.
    
@@ -144,7 +144,7 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 6. Les capacités de double écriture pour l’intégration des données de Ressources humaines avec l’environnement Power Apps ne peuvent être utilisées que si l’option **Activer les applications Dynamics 365** est sélectionnée pour l’environnement. Voir [Page d’accueil de la double écriture](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) pour en savoir plus sur la double écriture.
 
     > [!NOTE]
-    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. Pour plus d’informations, voir [Quelques considérations importantes lors de la création d’un nouvel environnement](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.
+    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. Pour plus d’informations, voir [Quelques considérations importantes au moment de la création d’un nouvel environnement](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.
 
 7. Après avoir déterminé l’environnement à utiliser, vous pouvez poursuivre le processus d’approvisionnement. 
 
@@ -159,7 +159,7 @@ Human Resources prend actuellement en charge les zones géographiques suivantes�
 - Canada
 - Asie 
 
-Lorsque vous créez un environnement Human Resources, vous sélectionnez un environnement Power Apps à associer à l’environnement Human Resources. L’environnement Human Resources est ensuite provisionné dans la même zone géographique Azure que l’environnement Power Apps. Vous pouvez sélectionner l’emplacement physique de l’environnement Human Resources et de la base de données en sélectionnant la zone géographique lors de la création de l’environnement Power Apps qui sera associé à l’environnement Human Resources.
+Quand vous créez un environnement Human Resources, vous sélectionnez un environnement Power Apps à associer à l’environnement Human Resources. L’environnement Human Resources est ensuite provisionné dans la même zone géographique Azure que l’environnement Power Apps. Vous pouvez sélectionner l’emplacement physique de l’environnement Human Resources et de la base de données en sélectionnant la zone géographique au moment de la création de l’environnement Power Apps qui sera associé à l’environnement Human Resources.
 
 Vous pouvez sélectionner la *zone géographique* Azure dans lequel l’environnement est provisionné, mais vous ne pouvez pas sélectionner la *région* spécifique à Azure. L’automatisation détermine la région spécifique de la zone géographique dans laquelle l’environnement est créé pour optimiser l’équilibrage de charge et les performances. Vous trouverez des informations sur les zones géographiques et les régions Azure dans la documentation sur les [Zones géographiques Azure](https://azure.microsoft.com/global-infrastructure/geographies).
 

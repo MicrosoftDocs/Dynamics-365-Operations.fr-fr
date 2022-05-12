@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781587"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645075"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Installer le complément Intelligence IoT dans LCS
 
 [!include [banner](../../includes/banner.md)]
 
 Cette rubrique explique comment installer le complément Intelligence IoT dans Microsoft Dynamics Lifecycle Services (LCS). Notez que les compléments ne peuvent pas être installés sur un environnement de démonstration/évaluation. Avant de pouvoir installer le complément, vous devez [créer les ressources Azure](iot-azure-setup.md).
+
+Vous pouvez installer et configurer l’intelligence IoT sans écrire de code. Voici les étapes de base.
+
+1. [Paramétrer les ressources Azure](iot-azure-setup.md) – Créez un hub IoT, un cache Redis et un coffre de clés accessibles depuis Supply Chain Management.
+2. [Formats du schéma de message pour hub IoT](iot-schema-format.md) – Configurez vos appareils pour envoyer des messages à IoT Hub et définissez le format de message JavaScript Object Notation (JSON).
+3. Dans Gestion des fonctionnalités, activez l’indicateur de la fonctionnalité d’intelligence IoT.
+4. Installez le complément d’intelligence IoT dans Microsoft Dynamics Lifecycle Services (LCS) – Installez le complément dans LCS et configurez les secrets Azure (comme décrit dans cette rubrique).
+5. [Configurer des mesures](iot-metrics-setup.md) – Configurez des mesures dans Supply Chain Management.
+6. [Configuration d’un scénario](iot-scenario-setup.md) – Configurez les scénarios dans Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>Paramétrage de l’environnement LCS
 

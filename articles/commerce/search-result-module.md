@@ -2,7 +2,7 @@
 title: Module des résultats de recherche
 description: Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919472"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644924"
 ---
 # <a name="search-results-module"></a>Module de résultats de recherche
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -47,17 +47,17 @@ Le tableau suivant répertorie les propriétés des modules de résultats de rec
 | Propriété | Valeurs | Description |
 |----------|--------|-------------|
 | Articles par page | Entier | Le nombre d’éléments à afficher sur chaque page. |
-| Autoriser le retour sur PDP | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu’un utilisateur sélectionne un produit sur la page de résultats de recherche, le fil d’Ariane sur la page de détails du produit (PDP) qui est ouverte affichera un lien « Retour aux résultats ». |
-| Développer les affinements | **Tout**, **1**, **2**, **3** ou **4** | Nombre de raffineurs supérieurs qui doivent être développés lorsqu’une page est chargée. Par exemple, si cette propriété est définie sur **3**, les trois premiers raffineurs de la page seront développés. |
+| Autoriser le retour sur PDP | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, quand un utilisateur sélectionne un produit sur la page de résultats de recherche, le fil d’Ariane sur la page de détails du produit (PDP) qui est ouverte affichera un lien « Retour aux résultats ». |
+| Développer les affinements | **Tout**, **1**, **2**, **3** ou **4** | Nombre de raffineurs supérieurs qui doivent être développés quand une page est chargée. Par exemple, si cette propriété est définie sur **3**, les trois premiers raffineurs de la page seront développés. |
 | Masquer l’affichage de la hiérarchie de catégories | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, l’affichage de la hiérarchie des catégories sur la page sera masqué. Cette propriété doit être définie sur **True** si vous utilisez le [module de fil d’Ariane](add-breadcrumb.md) pour afficher la hiérarchie des catégories.|
 | Inclure les attributs de produit dans les résultats de la recherche | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les attributs seront renvoyés pour les produits dans les résultats de la recherche. Bien que ces attributs puissent être affichés sur un site Commerce, une extension est requise.|
-| Afficher les prix d’affiliation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les prix d’affiliation pour les produits seront affichés dans les résultats de recherche lorsqu’un utilisateur connecté navigue sur la page. |
-| Mettre à jour le volet d’affinement | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, le volet d’affinement sera mis à jour lorsque des affinements sont sélectionnés. Dans ce mode, certains affinements à sélection multiple se comporteront comme des affinements à sélection unique lorsque le volet d’affinement est mis à jour. |
+| Afficher les prix d’affiliation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les prix d’affiliation pour les produits seront affichés dans les résultats de recherche quand un utilisateur connecté navigue sur la page. |
+| Mettre à jour le volet d’affinement | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, le volet d’affinement sera mis à jour quand des affinements sont sélectionnés. Dans ce mode, certains affinements à sélection multiple se comporteront comme des affinements à sélection unique quand le volet d’affinement est mis à jour. |
 
 > [!IMPORTANT]
 > Dans Commerce version 10.0.16 et les versions ultérieures, la configuration **Afficher les prix d’affiliation** peut être utilisée pour afficher les prix d’affiliation sur la page.
 >
-> Dans Commerce version 10.0.20 et les versions ultérieures, la configuration **Mettre à jour le volet d’affinement** peut être utilisée pour mettre à jour le volet d’affinement lors de la sélection d’affinements.
+> Dans Commerce version 10.0.20 et les versions ultérieures, la configuration **Mettre à jour le volet d’affinement** peut être utilisée pour mettre à jour le volet d’affinement au moment de la sélection d’affinements.
 
 ## <a name="supported-modules"></a>Modules pris en charge
 
@@ -86,53 +86,44 @@ Pour ajouter un module de résultats de recherche à une page de catégorie, pro
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Activer la connaissance du stock pour le module des résultats de recherche
 
-Les clients s’attendent généralement à ce qu’un site de commerce électronique tienne compte du stock tout au long de l’expérience de navigation, afin qu’ils puissent décider quoi faire s’il n’y a pas de stock pour un produit. Le module de résultats de recherche peut être amélioré afin d’intégrer les données de stock et de fournir les expériences suivantes :
+Les clients s’attendent généralement à ce que le site web d’e-commerce tienne compte du stock tout au long de l’expérience de navigation, afin qu’ils puissent décider quoi faire s’il n’y a pas de stock pour un produit. Le module de résultats de recherche peut être configurer pour intégrer les données de stock et de fournir les expériences suivantes :
 
-- Afficher une étiquette de disponibilité de stock avec les produits.
-- Cachez les produits en rupture de stock.
-- Afficher les produits en rupture de stock à la fin de la liste des résultats de recherche.
-    
-Pour activer ces expériences, vous devez configurer les paramètres prérequis suivants dans Commerce Headquarters.
+- Afficher une étiquette de disponibilité de stock avec le produit.
+- Masquer les produits en rupture de stock de la liste des produits.
+- Afficher les produits en rupture de stock à la fin de la liste des produits.
+- Filtrer les produits dans les résultats de recherche par niveau de stock.
 
-### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Activez la fonctionnalité Découverte de produits d’e-Commerce améliorée pour prendre en compte le stock
+Pour activer ces expériences, vous devez d’abord activer la fonctionnalité **Découverte améliorée des produits d’e-commerce pour tenir compte des stocks** dans l’espace de travail **Gestion des fonctionnalités**.
 
 > [!NOTE]
-> La fonctionnalité **Découverte améliorée des produits de commerce électronique pour tenir compte des stocks** est disponible à partir de Commerce version 10.0.20.
+> La fonctionnalité **Découverte améliorée des produits de commerce électronique pour tenir compte des stocks** est disponible dans Commerce version 10.0.20 et versions ultérieures.
 
-Pour activer la fonctionnalité **Découverte améliorée des produits de commerce électronique pour tenir compte des stocks** dans Commerce Headquarters, procédez comme suit.
+La recherche de produits prenant en compte le stock utilise des attributs de produit pour obtenir des informations sur la disponibilité de stock. Comme condition préalable à la fonctionnalité, des attributs de produit dédiés doivent être créés, des données de stock doivent être saisies pour eux et ils doivent être ajoutés au canal en ligne. 
 
-1. Accédez à **Espaces de travail \> Gestion des fonctionnalités**.
-1. Recherchez la fonctionnalité **Découverte de produits d’e-Commerce améliorée pour prendre en compte le stock**, puis activez-la.
-
-### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Configurer la tâche Remplir les attributs de produit avec le niveau de stock
-
-La tâche **Remplir les attributs de produit avec le niveau de stock** crée un nouvel attribut de produit pour capturer la disponibilité du stock, puis définit cet attribut sur la dernière valeur de niveau de stock pour chaque produit principal. Étant donné que la disponibilité des stocks d’un produit ou d’un assortiment vendu change constamment, nous vous recommandons fortement de planifier le travail en tant que traitement par lots.
-
-Pour configurer la tâche **Remplir les attributs de produit avec le niveau de stock** dans Commerce Headquarters, suivez ces étapes.
+Pour créer des attributs de produit dédiés afin de prendre en charge le module de résultats de recherche tenant compte du stock, procédez comme suit.
 
 1. Accédez à **Retail et Commerce \> IT Retail et Commerce \> Produits et stock**.
-1. Sélectionnez **Remplir les attributs de produit avec le niveau de stock**.
-1. Dans la boîte de dialogue **Remplir les attributs de produit avec le niveau de stock**, procédez comme suit :
+1. Sélectionnez et ouvrez **Remplir les attributs de produit avec le niveau de stock**.
+1. Dans la boîte de dialogue, entrez les informations suivantes :
 
-    1. Sous **Paramètres**, dans le champ **Attribut de produit et nom du type**, spécifiez un nom pour l’attribut de produit dédié qui sera créé pour capturer la disponibilité du stock.
-    1. Sous **Paramètres**, dans le champ **Disponibilité des stocks en fonction de**, sélectionnez la quantité sur laquelle le calcul du niveau de stock doit être basé (par exemple, **Physique disponible**).
-    1. Sous **Exécuter en arrière-plan**, configurez le travail pour qu’il s’exécute en arrière-plan et activez éventuellement l’option **Traitement par lots**. 
+    1. Dans le champ **Attribut de produit et nom du type**, spécifiez un nom pour l’attribut de produit dédié qui sera créé pour capturer les données de stock.
+    1. Dans le champ **Disponibilité des stocks en fonction de**, sélectionnez le type de quantité sur laquelle le calcul du niveau de stock doit être basé (par exemple, **Physique disponible**). 
 
-> [!NOTE]
-> Pour un calcul cohérent du niveau de stock sur les PDP et les pages de liste de produits sur votre site de commerce électronique, assurez-vous de sélectionner la même option de quantité pour **Disponibilité des stocks en fonction de** dans Commerce Headquarters et le paramètre **Niveau de stock basé sur** dans le générateur de site Commerce. Pour plus d’informations sur les paramètres du stock dans le générateur de site, voir [Appliquer les paramètres de stock](inventory-settings.md).
-
-### <a name="configure-the-new-product-attribute"></a>Configurer le nouvel attribut de produit
-
-Après l’exécution de la tâche **Remplir les attributs de produit avec le niveau de stock**, vous devez configurer l’attribut de produit nouvellement créé sur le site de commerce électronique sur lequel vous souhaitez activer la prise en compte du stock pour le module de résultats de recherche.
-
-Pour configurer le nouvel attribut de produit dans Commerce Headquarters, procédez comme suit.
-
-1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Catégories de canal et attributs de produit** et sélectionnez le site e-commerce.
-1. Sélectionnez et ouvrez un groupe d’attributs associé, ajoutez-y l’attribut de produit nouvellement créé, puis fermez la page.
-1. Sélectionnez **Définir les métadonnées d’attribut**, sélectionnez l’attribut de produit nouvellement ajouté, puis activez les options **Afficher l’attribut sur le canal**, **Récupérable**, **Peut être affiné** et **Peut être interrogé**.
+1. Exécutez la tâche en arrière-plan. Étant donné que le stock change constamment dans un environnement omnicanal, nous vous recommandons fortement de planifier cette tâche en tant que traitement par lots.
 
 > [!NOTE]
-> Pour les produits qui sont affichés dans le module de résultats de recherche, le niveau de stock est saisi au niveau du produit principal au lieu du niveau de la variante individuelle. Il n’a que deux valeurs possibles : "disponible" et "en rupture de stock". Le texte réel des valeurs est extrait de la définition [Profil de niveau de stock](inventory-buffers-levels.md). Un produit principal est considéré comme en rupture de stock uniquement lorsque toutes ses variantes sont en rupture de stock. Le niveau de stock d’une variante est déterminé en fonction de la définition du profil de niveau de stock du produit. 
+> Pour un calcul cohérent du niveau de stock sur les pages et modules sur votre site web d’e-commerce, assurez-vous de sélectionner le même type de quantité pour **Disponibilité des stocks en fonction de** dans Commerce Headquarters et le paramètre **Niveau de stock basé sur** dans le générateur de site Commerce. Pour plus d’informations sur les paramètres du stock dans le générateur de site, voir [Appliquer les paramètres de stock](inventory-settings.md).
+
+Pour configurer les attributs de produit pour un canal en ligne, procédez comme suit. 
+
+1. Accédez à **Commerce et vente au détail \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
+2. Sélectionnez le canal en ligne pour activer le module de des résultats de recherche basé sur le stock.
+3. Sélectionnez et ouvrez un groupe d’attributs associé, puis ajoutez-y l’attribut de produit nouvellement créé.
+4. Pour les versions 10.0.27 de Commerce, sélectionnez **Définir les métadonnées d’attribut**, sélectionnez l’attribut de produit nouvellement ajouté, puis activez les options **Afficher l’attribut sur le canal**, **Récupérable**, **Peut être affiné** et **Peut être interrogé**.
+5. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution**, et exécutez la tâche **1150 (Catalogue)**. Si vous programmez la tâche **Remplir les attributs de produit avec le niveau de stock** en tant que traitement par lots, nous vous recommandons de planifier également la tâche 1150 en tant que traitement par lots qui s’exécute à la même fréquence.
+
+> [!NOTE]
+> Pour les produits qui sont affichés dans le module de résultats de recherche, le niveau de stock est affiché au niveau du produit principal au lieu du niveau de la variante individuelle. Il n’a que deux valeurs possibles : "disponible" et "en rupture de stock". L’étiquette réelle de la valeur est extrait de la définition [Profil de niveau de stock](inventory-buffers-levels.md). Un produit principal est considéré comme en rupture de stock uniquement quand toutes ses variantes sont en rupture de stock.
 
 Une fois toutes les étapes de configuration précédentes terminées, les affineurs sur les pages de résultats de recherche affichent un filtre basé sur le stock et le module de résultats de recherche récupère les données de stock en arrière-plan. Vous pouvez ensuite configurer le paramètre **Paramètres de stock pour les pages de liste de produits** dans le générateur de site Commerce pour contrôler la façon dont le module de résultats de recherche affiche les produits en rupture de stock. Pour plus d’informations, voir [Appliquer les paramètres de stock](inventory-settings.md).
 

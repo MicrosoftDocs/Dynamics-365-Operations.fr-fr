@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782425"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644698"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuration d’un scénario pour l’intelligence IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management. Avant de paramétrer les scénarios, vous devez [paramétrer Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+Cette rubrique explique comment configurer des scénarios pour l’intelligence IoT dans Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Dans cette rubrique, vous allez configurer le scénario **Temps d’arrêt de l’équipement** pour générer une notification dans Supply Chain Management lorsqu’une machine tombe en panne. La rubrique montre également comment configurer le scénario **Qualité des produits** afin qu’une notification soit générée si un attribut d’un élément est en dehors d’une plage spécifiée, et comment configurer le scénario **Délais de production** afin qu’une notification soit générée si le débit de production tombe en dessous d’une valeur seuil.
+Dans cette rubrique, vous allez configurer le scénario **Temps d’arrêt de l’équipement** pour générer une notification dans Supply Chain Management quand une machine tombe en panne. La rubrique montre également comment configurer le scénario **Qualité des produits** afin qu’une notification soit générée si un attribut d’un élément est en dehors d’une plage spécifiée, et comment configurer le scénario **Délais de production** afin qu’une notification soit générée si le débit de production tombe en dessous d’une valeur seuil.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Configurer le scénario Temps d’arrêt de l’équipement dans Supply Chain Management
 
-Le scénario **Temps d’arrêt de l’équipement** mappe un signal **PartOut** (sortie de pièce) à un seuil d’alerte machine. La machine est surveillée uniquement lorsqu’elle est sélectionnée pour le scénario et configurée pour **s’exécuter** dans Supply Chain Management. Si le temps écoulé depuis le dernier signal **PartOut** reçu par la machine est supérieur au seuil d’alerte, la notification **Machine en panne** est déclenchée. Si la machine est toujours en marche, une notification **Machine en marche** est déclenchée lorsque le signal **PartOut** suivant est reçu. Si une machine s’arrête pendant 30 minutes, une nouvelle notification **Machine en panne** est déclenchée.
+Le scénario **Temps d’arrêt de l’équipement** mappe un signal **PartOut** (sortie de pièce) à un seuil d’alerte machine. La machine est surveillée uniquement quand  elle est sélectionnée pour le scénario et configurée pour **s’exécuter** dans Supply Chain Management. Si le temps écoulé depuis le dernier signal **PartOut** reçu par la machine est supérieur au seuil d’alerte, la notification **Machine en panne** est déclenchée. Si la machine est toujours en marche, une notification **Machine en marche** est déclenchée quand le signal **PartOut** suivant est reçu. Si une machine s’arrête pendant 30 minutes, une nouvelle notification **Machine en panne** est déclenchée.
 
 Le scénario **Temps d’arrêt de l’équipement** a les dépendances suivantes :
 

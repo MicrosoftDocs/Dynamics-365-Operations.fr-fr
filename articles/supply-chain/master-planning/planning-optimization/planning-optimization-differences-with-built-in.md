@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468326"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618258"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Différences entre la planification générale intégrée et l’optimisation de la planification
 
@@ -26,7 +26,7 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 | Fonctionnalité | Comportement actuel dans l’optimisation de la planification |
 |---|---|
 | Produits en poids variable | Les produits en poids variable sont considérés comme des produits habituels.|
-| Dimensions extensibles | Les dimensions extensibles sont vides sur les ordres prévisionnels, même lorsque la case **Plan de couverture par dimension** est cochée sur la page **Groupes de dimensions de stockage** ou **Groupes de dimensions de suivi**. |
+| Dimensions extensibles | Les dimensions extensibles sont vides sur les ordres prévisionnels, même quand la case **Plan de couverture par dimension** est cochée sur la page **Groupes de dimensions de stockage** ou **Groupes de dimensions de suivi**. |
 | Cycles de production filtrés | Pour plus de détails, voir [Planification de la production - Filtres](production-planning.md#filters). |
 | Planification prévisionnelle | La planification prévisionnelle n’est pas prise en charge. Nous vous recommandons d’utiliser la planification générale dans laquelle un modèle de prévision est affecté au plan général. |
 | Souches de numéros pour les ordres prévisionnels | Les souches de numéros pour les ordres prévisionnels ne sont pas prises en charge. Les numéros des ordres prévisionnels sont générés côté service. Le numéro de commande planifiée est normalement affiché avec 10 chiffres, mais la séquence est en fait construite sur 20 caractères, avec 10 chiffres alloués pour le nombre de cycles de planification et les 10 autres chiffres pour le nombre de commandes planifiées. |
@@ -34,9 +34,10 @@ Les résultats de l’optimisation de la planification peuvent différer des ré
 | Ordres de retour | Les ordres de retour ne sont pas pris en compte. |
 | Fonctionnalités liées à la planification | Pour plus de détails, voir [Planification avec une capacité infinie](infinite-capacity-planning.md#limitations). |
 | Traitement du stock de sécurité | L’optimisation de la planification utilise toujours l’option *Date du jour + heure d’approvisionnement* pour le champ **Exécuter le minimum** sur la page **Couverture de l’article**. Cela évite les commandes planifiées indésirables et d’autres problèmes, car si le délai d’approvisionnement n’est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. |
-| Origine des besoins du stock de sécurité et besoins nets | Le besoin de type *Stock de Sécurité* n’est pas inclus et n’est pas affiché sur la page **Besoins nets**. Le stock de sécurité ne représente pas la demande et n’a pas de date de besoin associée. Au lieu de cela, il définit une contrainte sur la quantité de stock qui doit être présente à tout moment. Cependant, la valeur du champ **Minimum** est toujours prise en compte lors du calcul des commandes planifiées dans le cadre de la planification générale. Nous vous suggérons d’inspecter la colonne **Quantité accumulée** sur la page **Besoins nets** pour voir que cette valeur a été prise en compte. |
+| Origine des besoins du stock de sécurité et besoins nets | Le besoin de type *Stock de Sécurité* n’est pas inclus et n’est pas affiché sur la page **Besoins nets**. Le stock de sécurité ne représente pas la demande et n’a pas de date de besoin associée. Au lieu de cela, il définit une contrainte sur la quantité de stock qui doit être présente à tout moment. Cependant, la valeur du champ **Minimum** est toujours prise en compte au moment du calcul des commandes planifiées dans le cadre de la planification générale. Nous vous suggérons d’inspecter la colonne **Quantité accumulée** sur la page **Besoins nets** pour voir que cette valeur a été prise en compte. |
 | Calendriers de transport | La valeur dans la colonne **Calendrier de transport** sur la page **Modes de livraison** est ignorée. |
-| Code de couverture min/max sans valeur| Avec le moteur de planification intégré, lorsque vous utilisez un code de couverture min/max où aucune valeur minimale ou maximale n’est définie, le moteur de planification traite le code de couverture comme une exigence et crée une commande pour chaque exigence. Avec l’optimisation de la planification, le système créera une commande par jour pour couvrir le montant total de cette journée.  |
+| Code de couverture min/max sans valeur| Avec le moteur de planification intégré, quand vous utilisez un code de couverture min/max où aucune valeur minimale ou maximale n’est définie, le moteur de planification traite le code de couverture comme une exigence et crée une commande pour chaque exigence. Avec l’optimisation de la planification, le système créera une commande par jour pour couvrir le montant total de cette journée.  |
+| Besoins nets et ordres planifiés créés manuellement | Avec le moteur de planification intégré, les commandes d’approvisionnement créées manuellement pour un article apparaissent automatiquement parmi les besoins nets pour cet article. Par exemple, à la création d’une commande fournisseur à partir d’une commande client, la commande client apparaît sur la page **Besoins nets** sans nécessiter aucune action préalable. En effet, le moteur de planification intégré enregistre les transactions de stock dans la table `inventLogTTS` et montre les changements sur la page **Besoins nets** pour les plans dynamiques. Cependant, avec l’optimisation de la planification, les commandes créées manuellement n’apparaissent pas parmi les besoins nets d’un article tant que l’optimisation de la planification n’est pas exécutée (à l’aide d’un plan qui inclut l’article) ou tant que vous n’avez pas sélectionné **Mise à jour \> Planification** dans le volet Actions de la page **Besoins nets** qui exécutera la planification de l’article. Pour plus d’informations sur l’utilisation de la page **Besoins nets**, consultez [Informations sur l’origine des besoins avec l’optimisation de la planification](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

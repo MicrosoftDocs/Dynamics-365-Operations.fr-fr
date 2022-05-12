@@ -1,8 +1,8 @@
 ---
 title: Présentation de la facturation de l’abonnement
-description: Cette rubrique décrit la facturation de l’abonnement dans Microsoft Dynamics 365 Finance.
+description: Cette rubrique décrit la facturation de l’abonnement dans Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462467"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644525"
 ---
 # <a name="subscription-billing-overview"></a>Présentation de la facturation de l’abonnement
 
@@ -33,6 +33,8 @@ La solution comporte trois modules qui peuvent être utilisés indépendamment. 
 - **Facturation contractuelle récurrente** – Ce module permet la facturation récurrente et la gestion des prix afin de contrôler les paramètres de tarification et de facturation, le renouvellement des contrats et la facturation consolidée.
 - **Reports de revenus et de dépenses** – Ce module élimine les processus manuels et la dépendance vis-à-vis des systèmes externes en gérant les revenus et en permettant un aperçu en temps réel des revenus récurrents mensuels.
 - **Répartition des revenus multi-éléments** – Ce module aide à la conformité des revenus en gérant la tarification et la répartition des revenus sur plusieurs éléments.
+
+Pour plus d’informations sur la facturation de l’abonnement, voir [Contenu de la facturation de l’abonnement Power BI](sub-bill-power-bi.md).
 
 La facturation de l’abonnement est activée via **Gestion des fonctionnalités**. Cependant, il ne peut pas être utilisé avec la fonctionnalité **Prise en compte des revenus**. Par conséquent, vous devez désactiver cette fonctionnalité avant d’activer la facturation de l’abonnement.
 

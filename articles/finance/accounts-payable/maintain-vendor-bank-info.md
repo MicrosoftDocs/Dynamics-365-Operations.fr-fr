@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 26181
 ms.assetid: 10f56dea-ea2d-48ea-9622-4ef715eb1179
 ms.search.region: USA
@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2011-01-14
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3fbcba98ecc4cf2f177c39bdca0c47cd7d86540d9e7c117a891448816f8b1f83
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3270fcc8ce9f4807376ca9c5af8fb9d909c06a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737370"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644970"
 ---
 # <a name="maintain-vendor-bank-account-information"></a>Tenir à jour les informations bancaires pour un compte fournisseur
 
@@ -39,9 +39,9 @@ Vous pouvez gérer votre compte fournisseur dans l’espace de travail **Informa
 - Numéro d’acheminement bancaire
 - Date d’effet
 - Date d’expiration
-- Commentaires (facultatifs)
+- Commentaires (facultatif)
 
-Si l’entité juridique est en dehors des États-Unis, la boîte de dialogue comprend également des champs pour le code SWIFT et le numéro de compte bancaire international (IBAN).
+Les codes SWIFT et IBAN (Numéro de compte bancaire international) sont requis pour toutes les entreprises non basées aux États-Unis. Vous pouvez mettre à jour le paramètre d’exigences SWIFT et IBAN sur la page **Paramètres de la Comptabilité fournisseur** une fois la fonctionnalité activée.
 
 S’il existe des documents liés à la certification spécifique, vous pouvez les joindre en sélectionnant **Document**.
 
@@ -58,6 +58,6 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votr
 
 ## <a name="vendor-collaboration-generated-bank-changes-page"></a>Page des modifications bancaires générées par la collaboration avec les fournisseurs
 
-Une fois que les fournisseurs ont mis à jour leurs informations bancaires, ces informations seront visibles sur la nouvelle page **Modifications bancaires générées par la collaboration avec les fournisseurs** disponible sous **Comptabilité fournisseur \> Recherches \> États fournisseur**. Par défaut, tous les enregistrements bancaires nouvellement saisis ou modifiés sont affichés. L’adjoint chargé de la comptabilité fournisseur peut visualiser les modifications et exécuter les informations de compte via le processus de pré-note pour les valider. Lorsque ce processus est terminé et que le mode de paiement principal a été mis à jour manuellement, le compte bancaire indiqué sur la page **Modifications bancaires générées par la collaboration avec les fournisseurs** peut être sélectionnée et marquée comme révisée. Cette action supprime le compte de la liste par défaut.
+Une fois que les fournisseurs ont mis à jour leurs informations bancaires, ces informations seront visibles sur la nouvelle page **Modifications bancaires générées par la collaboration avec les fournisseurs** disponible sous **Comptabilité fournisseur \> Recherches \> États fournisseur**. Par défaut, tous les enregistrements bancaires nouvellement saisis ou modifiés sont affichés. L’adjoint chargé de la comptabilité fournisseur peut visualiser les modifications et exécuter les informations de compte via le processus de pré-note pour les valider. Quand ce processus est terminé et que le mode de paiement principal a été mis à jour manuellement, le compte bancaire indiqué sur la page **Modifications bancaires générées par la collaboration avec les fournisseurs** peut être sélectionnée et marquée comme révisée. Cette action supprime le compte de la liste par défaut.
 
 Pour afficher toutes les modifications apportées aux informations bancaires d’un fournisseur, vous pouvez modifier les filtres pour afficher la page par compte fournisseur, par plage de dates de validité et si les modifications ont été vérifiées.

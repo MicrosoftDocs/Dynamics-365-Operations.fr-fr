@@ -2,7 +2,7 @@
 title: Vue d’ensemble des tâches d’importation et d’exportation de données
 description: L’espace de travail Gestion des données vous permet de créer et de gérer des tâches d’importation et d’exportation de données.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071083"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644457"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -63,7 +63,7 @@ Nous vous recommandons de prendre le temps de sélectionner une catégorie de pr
 Vous pouvez ajouter des entités spécifiques à une tâche d’importation ou d’exportation ou sélectionner un modèle à appliquer. Les modèles remplissent une tâche avec une liste d’entités. L’option **Appliquer un modèle** n’est disponible qu’après avoir attribué un nom à la tâche et enregistré la tâche.
 
 ### <a name="set-the-data-format-for-the-job"></a>Définir le format de données pour la tâche
-Lorsque vous sélectionnez une entité, vous devez sélectionner le format des données à exporter ou importer. Définissez des formats à l’aide de la vignette **Paramétrage de sources de données**. Un format de données sources est une combinaison de **Type**, de **Format de fichier**, de **Séparateur de ligne** et de **Séparateur de colonne**. Il existe également d’autres attributs, mais ceux-ci sont les principaux à comprendre. Le tableau suivant répertorie les combinaisons valides.
+Quand vous sélectionnez une entité, vous devez sélectionner le format des données à exporter ou importer. Définissez des formats à l’aide de la vignette **Paramétrage de sources de données**. Un format de données sources est une combinaison de **Type**, de **Format de fichier**, de **Séparateur de ligne** et de **Séparateur de colonne**. Il existe également d’autres attributs, mais ceux-ci sont les principaux à comprendre. Le tableau suivant répertorie les combinaisons valides.
 
 | Format de fichier            | Séparateur de colonnes/lignes                       | Style XML                 |
 |------------------------|--------------------------------------------|---------------------------|
@@ -72,10 +72,13 @@ Lorsque vous sélectionnez une entité, vous devez sélectionner le format des d
 | Délimité, largeur fixe | Virgule, point-virgule, onglet, barre verticale, deux points | \-S/O-                     |
 
 > [!NOTE]
-> Il est important de sélectionner la valeur appropriée pour **Séparateur de ligne**, **Séparateur de colonne**, et **Qualificatif de texte**, si l’option **Format de fichier** est définie sur **Délimité**. Assurez-vous que vos données ne contiennent pas le caractère utilisé comme délimiteur ou qualificateur, car cela peut entraîner des erreurs lors de l’importation et de l’exportation.
+> Il est important de sélectionner la valeur appropriée pour **Séparateur de ligne**, **Séparateur de colonne**, et **Qualificatif de texte**, si l’option **Format de fichier** est définie sur **Délimité**. Assurez-vous que vos données ne contiennent pas le caractère utilisé comme délimiteur ou qualificateur, car cela peut entraîner des erreurs au moment de l’importation et de l’exportation.
+
+> [!NOTE]
+> Pour les formats de fichiers basés sur XML, veillez à n’utiliser que des caractères légaux. Pour plus de détails sur les caractères valides, voir [Caractères valides dans XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 n’autorise aucun caractère de contrôle à l’exception des tabulations, des retours chariot et des sauts de ligne. Des exemples de caractères illégaux sont les crochets, les accolades et les barres obliques inverses. 
 
 ### <a name="sequence-the-entities"></a>Séquencer les entités
-Les entités peuvent être séquencées dans un modèle de données, ou dans des tâches d’importation et d’exportation. Lorsque vous exécutez une tâche qui contient plusieurs entités de données, vous devez vous assurer que les entités de données sont correctement séquencées. Séquencez principalement les entités afin de pouvoir traiter les dépendances fonctionnelles entre les entités. Si les entités n’ont aucune dépendance fonctionnelle, elles peuvent être planifiées pour l’importation ou l’exportation parallèle.
+Les entités peuvent être séquencées dans un modèle de données, ou dans des tâches d’importation et d’exportation. Quand vous exécutez une tâche qui contient plusieurs entités de données, vous devez vous assurer que les entités de données sont correctement séquencées. Séquencez principalement les entités afin de pouvoir traiter les dépendances fonctionnelles entre les entités. Si les entités n’ont aucune dépendance fonctionnelle, elles peuvent être planifiées pour l’importation ou l’exportation parallèle. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Unités, niveaux et séquences d’exécution
 L’unité d’exécution, le niveau dans l’unité d’exécution, et la séquence d’une entité permettent de contrôler l’ordre dans lequel les données sont exportées ou importés.
@@ -108,19 +111,19 @@ La mise en correspondance est une fonction qui s’applique aux tâches d’impo
 
 Si les noms de colonne dans la table intermédiaire et le fichier correspondent, le système crée automatiquement la mise en correspondance en fonction des noms. Toutefois, si les noms sont différents, les colonnes ne sont pas mises en correspondance automatiquement. Dans ces cas, vous devez effectuer la mise en correspondance en sélectionnant l’option **Afficher le mappage** sur l’entité dans la tâche de données.
 
-Il existe deux vues de mappage : **Visualisation de la mise en correspondance**, qui est la vue par défaut, et **Détails de la mise en correspondance**. Un astérisque rouge (\*) identifie les champs obligatoires dans l’entité. Ces champs doivent être mis en correspondance avant de pouvoir utiliser l’entité. Si nécessaire, vous pouvez supprimer la mise en correspondance d’autres champs lorsque vous utilisez l’entité. Pour supprimer la mise en correspondance d’un champ, sélectionnez le champ dans la colonne **Entité** ou la colonne **Source**, puis sélectionnez **Supprimer la sélection**. Sélectionnez **Enregistrer** pour enregistrer vos modifications, puis fermez la page pour revenir au projet. Vous pouvez utiliser le même processus pour modifier la mise en correspondance de la table source avec la table intermédiaire après leur importation.
+Il existe deux vues de mappage : **Visualisation de la mise en correspondance**, qui est la vue par défaut, et **Détails de la mise en correspondance**. Un astérisque rouge (\*) identifie les champs obligatoires dans l’entité. Ces champs doivent être mis en correspondance avant de pouvoir utiliser l’entité. Si nécessaire, vous pouvez supprimer la mise en correspondance d’autres champs quand vous utilisez l’entité. Pour supprimer la mise en correspondance d’un champ, sélectionnez le champ dans la colonne **Entité** ou la colonne **Source**, puis sélectionnez **Supprimer la sélection**. Sélectionnez **Enregistrer** pour enregistrer vos modifications, puis fermez la page pour revenir au projet. Vous pouvez utiliser le même processus pour modifier la mise en correspondance de la table source avec la table intermédiaire après leur importation.
 
 Vous pouvez générer une mise en correspondance sur la page en sélectionnant **Générer la mise en correspondance de la source**. Une mise en correspondance générée se comporte comme une mise en correspondance automatique. Par conséquent, vous devez mettre en correspondance manuellement tous les champs non mis en correspondance.
 
 ![Mise en correspondance de données.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Vérifier la sécurité de votre tâche d’importation ou d’exportation
-L’accès à l’espace de travail **Gestion des données** peut être limité, afin que les utilisateurs non-administrateurs puissent accéder uniquement à des tâches de données spécifiques. L’accès à une tâche de données implique un accès complet à l’historique d’exécution de cette tâche et l’accès aux tables intermédiaires. Par conséquent, vous devez vous assurer que les contrôles d’accès appropriés sont en place lorsque vous créez une tâche de données.
+L’accès à l’espace de travail **Gestion des données** peut être limité, afin que les utilisateurs non-administrateurs puissent accéder uniquement à des tâches de données spécifiques. L’accès à une tâche de données implique un accès complet à l’historique d’exécution de cette tâche et l’accès aux tables intermédiaires. Par conséquent, vous devez vous assurer que les contrôles d’accès appropriés sont en place quand vous créez une tâche de données.
 
 ### <a name="secure-a-job-by-roles-and-users"></a>Sécuriser une tâche en fonction des rôles et des utilisateurs
 Utilisez le menu **Rôles applicables** pour restreindre la tâche à un ou plusieurs rôles de sécurité. Seuls les utilisateurs disposant de ces rôles ont accès à la tâche.
 
-Vous pouvez également limiter une tâche à des utilisateurs spécifiques. Lorsque vous sécurisez une tâche en fonction des utilisateurs et non des rôles, cela offre plus de contrôle si plusieurs utilisateurs sont affectés à un rôle.
+Vous pouvez également limiter une tâche à des utilisateurs spécifiques. Quand vous sécurisez une tâche en fonction des utilisateurs et non des rôles, cela offre plus de contrôle si plusieurs utilisateurs sont affectés à un rôle.
 
 ### <a name="secure-a-job-by-legal-entity"></a>Sécuriser une tâche par une entité juridique
 Les tâches de données sont globales en nature. Par conséquent, si une tâche de données a été créée et utilisée dans une entité juridique, la tâche est visible dans les autres entités juridiques du système. Ce comportement par défaut peut être préféré dans certains scénarios d’application. Par exemple, une organisation qui permet d’importer des factures à l’aide d’entités de données peut fournir une équipe chargée du traitement centralisé des factures pour la gestion des erreurs de toutes les divisions de l’organisation. Dans ce cas, il est utile que l’équipe de traitement centralisé des factures ait accès aux tâches d’importation de factures de toutes les entités juridiques. Par conséquent, le comportement par défaut correspond aux exigences d’une perspective d’entité juridique.
@@ -190,18 +193,18 @@ La fonctionnalité de **nettoyage de l’historique d’exécution** doit être 
 
 ### <a name="scheduling-parameters"></a>Paramètres de planification
 
-Lors de la planification du processus de nettoyage, les paramètres suivants doivent être spécifiés pour définir les critères de nettoyage.
+Au moment de la planification du processus de nettoyage, les paramètres suivants doivent être spécifiés pour définir les critères de nettoyage.
 
--   **Nombre de jours pour conserver l’historique** – Ce paramètre permet de contrôler la quantité d’historique d’exécution à préserver. Il s’agit d’un nombre de jours spécifié. Lorsque la tâche de nettoyage est planifiée en tant que traitement par lots récurrent, ce paramètre agira comme une fenêtre continuellement en mouvement, laissant ainsi l’historique intact pour le nombre de jours spécifié, tout en supprimant le reste. La valeur par défaut est 7 jours.
+-   **Nombre de jours pour conserver l’historique** – Ce paramètre permet de contrôler la quantité d’historique d’exécution à préserver. Il s’agit d’un nombre de jours spécifié. Quand la tâche de nettoyage est planifiée en tant que traitement par lots récurrent, ce paramètre agira comme une fenêtre continuellement en mouvement, laissant ainsi l’historique intact pour le nombre de jours spécifié, tout en supprimant le reste. La valeur par défaut est 7 jours.
 
--   **Nombre d’heures pour exécuter la tâche** – Selon la quantité d’historique à nettoyer, le temps total d’exécution de la tâche de nettoyage peut varier de quelques minutes à quelques heures. Ce paramètre doit être défini sur le nombre d’heures d’exécution de la tâche. Une fois la tâche de nettoyage exécutée pour le nombre d’heures spécifié, elle va se fermer et reprendre le nettoyage lors de sa prochaine exécution en fonction de la périodicité.
+-   **Nombre d’heures pour exécuter la tâche** – Selon la quantité d’historique à nettoyer, le temps total d’exécution de la tâche de nettoyage peut varier de quelques minutes à quelques heures. Ce paramètre doit être défini sur le nombre d’heures d’exécution de la tâche. Une fois la tâche de nettoyage exécutée pour le nombre d’heures spécifié, elle va se fermer et reprendre le nettoyage au moment de sa prochaine exécution en fonction de la périodicité.
 
-    Vous pouvez spécifier une durée d’exécution maximale en définissant une limite maximale sur le nombre d’heures d’exécution du travail à l’aide de ce paramètre. La logique de nettoyage passe en revue un ID d’exécution de travail à la fois, dans une séquence classée dans l’ordre chronologique, le plus ancien étant le premier pour le nettoyage de l’historique d’exécution associé. Il arrêtera de sélectionner les nouveaux ID d’exécution à nettoyer lorsque la durée restante d’exécution sera comprise dans les 10 % restants de la durée spécifiée. Dans certains cas, il est à prévoir que la tâche de nettoyage se poursuivra au-delà de la durée maximale spécifiée. Cela dépendra en grande partie du nombre d’enregistrements à supprimer pour l’ID d’exécution en cours qui a été démarré avant que le seuil de 10% ne soit atteint. Le nettoyage qui a été lancé doit être terminé pour garantir l’intégrité des données, ce qui signifie que le nettoyage se poursuivra malgré le dépassement de la limite spécifiée. Une fois cette opération terminée, les nouveaux ID d’exécution ne sont pas récupérés et le travail de nettoyage est terminé. L’historique d’exécution restant, qui n’a pas été nettoyé faute de temps d’exécution suffisant, sera récupéré lors de la prochaine planification du travail de nettoyage. La valeur par défaut et la valeur minimale pour ce paramètre est définie sur 2 heures.
+    Vous pouvez spécifier une durée d’exécution maximale en définissant une limite maximale sur le nombre d’heures d’exécution du travail à l’aide de ce paramètre. La logique de nettoyage passe en revue un ID d’exécution de travail à la fois, dans une séquence classée dans l’ordre chronologique, le plus ancien étant le premier pour le nettoyage de l’historique d’exécution associé. Il arrêtera de sélectionner les nouveaux ID d’exécution à nettoyer quand la durée restante d’exécution sera comprise dans les 10 % restants de la durée spécifiée. Dans certains cas, il est à prévoir que la tâche de nettoyage se poursuivra au-delà de la durée maximale spécifiée. Cela dépendra en grande partie du nombre d’enregistrements à supprimer pour l’ID d’exécution en cours qui a été démarré avant que le seuil de 10% ne soit atteint. Le nettoyage qui a été lancé doit être terminé pour garantir l’intégrité des données, ce qui signifie que le nettoyage se poursuivra malgré le dépassement de la limite spécifiée. Une fois cette opération terminée, les nouveaux ID d’exécution ne sont pas récupérés et le travail de nettoyage est terminé. L’historique d’exécution restant, qui n’a pas été nettoyé faute de temps d’exécution suffisant, sera récupéré au moment de la prochaine planification du travail de nettoyage. La valeur par défaut et la valeur minimale pour ce paramètre est définie sur 2 heures.
 
 -   **Traitement par lots récurrent** – Le travail de nettoyage peut être exécuté en tant qu’exécution manuelle unique ou peut également être planifié pour une exécution récurrente par lot. Le traitement par lots peut être planifié à l’aide des paramètres **Exécuter à l’arrière-plan**, qui est le paramétrage de traitement par lots standard.
 
 > [!NOTE]
-> Si les enregistrements des tables intermédiaires ne sont pas complètement nettoyés, assurez-vous que la tâche de nettoyage est planifiée pour s’exécuter périodiquement. Comme expliqué ci-dessus, lors de l’exécution du nettoyage, la tâche va nettoyer autant d’ID d’exécution que possible dans le nombre maximal d’heures indiqué. Pour continuer le nettoyage des enregistrements intermédiaires restants, la tâche doit être planifiée pour s’exécuter périodiquement.
+> Si les enregistrements des tables intermédiaires ne sont pas complètement nettoyés, assurez-vous que la tâche de nettoyage est planifiée pour s’exécuter périodiquement. Comme expliqué ci-dessus, au moment de l’exécution du nettoyage, la tâche va nettoyer autant d’ID d’exécution que possible dans le nombre maximal d’heures indiqué. Pour continuer le nettoyage des enregistrements intermédiaires restants, la tâche doit être planifiée pour s’exécuter périodiquement.
 
 ## <a name="job-history-clean-up-and-archival"></a>Nettoyage et archivage de l’historique des tâches 
 La fonctionnalité de nettoyage et d’archivage de l’historique des tâches remplace les versions précédentes de la fonctionnalité de nettoyage. Cette section explique ces nouvelles fonctionnalités.

@@ -2,7 +2,7 @@
 title: Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 description: Cette rubrique explique comment vous pouvez définir les paramètres d’un format gestion des états électroniques par entité juridique.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927452"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644497"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Définir les paramètres d’un format de gestion des états électroniques par entité juridique
 
@@ -30,9 +30,9 @@ ms.locfileid: "7927452"
 
 Pour effectuer cette procédure, vous devez suivre les étapes de [Configurer les formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique](er-app-specific-parameters-configure-format.md).
 
-Pour terminer les exemples de cette rubrique, vous devez avoir accès à Microsoft Dynamics 365 Finance pour l’un des rôles suivants :
+Pour terminer les exemples de cette rubrique, vous devez avoir accès à Microsoft Dynamics 365 Finance pour un des rôles suivants :
 
-- Développeur de gestion des états électroniques
+- Développeur d’états électroniques
 - Consultant fonctionnel de gestion des états électroniques
 - Administrateur système
 
@@ -42,13 +42,13 @@ Pour importer des configurations de gestion des états électroniques, procédez
 1. Connectez-vous à votre environnement.
 2. Dans le tableau de bord par défaut, sélectionnez **Gestion des états électroniques**.
 3. Sélectionnez **Configurations des états**.
-4. Dans l’instance actuelle de Finance, importez les configurations exportées depuis Regulatory Configuration Services (RCS) lorsque vous exécutez ces étapes dans [Configurer les formats de gestion des états électroniques pour utiliser les paramètres qui sont spécifiques par entité juridique](er-app-specific-parameters-configure-format.md). Procédez comme suit pour chaque configuration [de gestion des états électroniques](general-electronic-reporting.md) dans l’ordre suivant : modèle de données, mise en correspondance de modèle et formats.
+4. Dans l’instance actuelle de Finance, importez les configurations exportées depuis Regulatory Configuration Services (RCS) quand vous exécutez ces étapes dans [Configurer les formats de gestion des états électroniques pour utiliser les paramètres qui sont spécifiques par entité juridique](er-app-specific-parameters-configure-format.md). Procédez comme suit pour chaque configuration [de gestion des états électroniques](general-electronic-reporting.md) dans l’ordre suivant : modèle de données, mise en correspondance de modèle et formats.
 
     1. Sélectionnez **Échanger \> Charger depuis le fichier XML**.
     2. Sélectionnez **Parcourir** pour sélectionner le fichier pour la configuration de gestion des états électroniques requise au format XML.
     3. Cliquez sur **OK**.
 
-    L’illustration suivante présente les configurations que vous devez avoir lorsque vous avez fini.
+    L’illustration suivante présente les configurations que vous devez avoir quand vous avez fini.
 
     ![Page Configurations ER.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
@@ -87,7 +87,7 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
 
 9. Sélectionnez la valeur **Imposition normale**.
 
-    En ajoutant cet enregistrement, vous définissez la règle suivante : lorsque la source de données de recherche **Sélecteur** est demandée, et que le code taxe **VAT19** est transmis comme argument, **Imposition normale** sera renvoyé comme le niveau d’imposition demandé.
+    En ajoutant cet enregistrement, vous définissez la règle suivante : quand la source de données de recherche **Sélecteur** est demandée, et que le code taxe **VAT19** est transmis comme argument, **Imposition normale** sera renvoyé comme le niveau d’imposition demandé.
 
 10. Sélectionnez **Ajouter**, puis procédez comme suit :
 
@@ -119,15 +119,15 @@ Vous pouvez utiliser la structure de gestion des états électroniques pour conf
     1. Dans le champ **Code**, sélectionnez l’option **\*Non vide\***.
     2. Dans le champ **Résultat de la recherche**, sélectionnez la valeur **Autre**.
 
-    En ajoutant ce dernier enregistrement, vous définissez la règle suivante : lorsque le code taxe transmis comme argument ne répond plus aux règles précédentes, la source de données de recherche renverra **Autre** comme le niveau d’imposition demandé.
+    En ajoutant ce dernier enregistrement, vous définissez la règle suivante : quand le code taxe transmis comme argument ne répond plus aux règles précédentes, la source de données de recherche renverra **Autre** comme le niveau d’imposition demandé.
 
     ![Dernier enregistrement ajouté dans la page de paramètres spécifiques à l’application des états électroniques.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
 
 16. Dans le champ **État**, sélectionnez **Terminé**.
 
-    Lorsque vous exécutez une version de format de gestion des états électroniques avec un état défini sur **Terminé** ou **Partagé**, cet ensemble de règles doit être à l’état **Terminé**. Sinon, l’exécution du format de gestion des états électroniques de base est interrompue lorsque le format essaye de charger les données provenant de cet ensemble de règles tandis que la source de données de recherche **Sélecteur** est exécutée.
+    Quand vous exécutez une version de format de gestion des états électroniques avec un état défini sur **Terminé** ou **Partagé**, cet ensemble de règles doit être à l’état **Terminé**. Sinon, l’exécution du format de gestion des états électroniques de base est interrompue quand le format essaye de charger les données provenant de cet ensemble de règles tandis que la source de données de recherche **Sélecteur** est exécutée.
 
-    Lorsque vous exécutez une version de format de gestion des états électroniques avec un état défini sur **Brouillon**, le format de gestion des états électroniques de base peut accéder à cet ensemble de règles, quel que soit son état.
+    Quand vous exécutez une version de format de gestion des états électroniques avec un état défini sur **Brouillon**, le format de gestion des états électroniques de base peut accéder à cet ensemble de règles, quel que soit son état.
 
 17. Sélectionnez **Enregistrer**.
 18. Fermez la page **Paramètres spécifiques de l’application**.
@@ -217,36 +217,60 @@ Pour importer les paramètres, procédez comme suit :
 
 ##### <a name="applicability-considerations"></a>Considérations relatives à l’applicabilité
 
-Les paramètres spécifiques à l’application d’un format de gestion des états électroniques dépendent de l’entité juridique. Pour réutiliser les paramètres spécifiques à l’application qui ont été configurés pour une entité juridique dans une autre entité juridique, vous devez les exporter lorsque vous êtes connecté à la première entité juridique. Ensuite, importez-les après vous être connecté à l’autre entité juridique.
+Les paramètres spécifiques à l’application d’un format de gestion des états électroniques dépendent de l’entité juridique. Pour réutiliser les paramètres spécifiques à l’application qui ont été configurés pour une entité juridique dans une autre entité juridique, vous devez les exporter quand vous êtes connecté à la première entité juridique. Ensuite, importez-les après vous être connecté à l’autre entité juridique.
 
 Vous pouvez également utiliser cette approche d’importation-exportation pour transférer les paramètres spécifiques à l’application associés à la gestion des états électroniques qui étaient configurés dans une instance de Finance vers une autre instance de Finance.
 
 Si vous configurez des paramètres spécifiques à l’application pour une version d’un format de gestion des états électroniques, puis importez une version ultérieure du même format dans l’instance Finance actuelle, les paramètres spécifiques à l’application existants ne seront pas appliqués à la version importée, sauf si vous utilisez la fonctionnalité **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique**. Pour plus d’informations, voir la section [Réutiliser les paramètres existants](#reuse-existing-parameters) plus loin dans cette rubrique.
 
-Lorsque vous sélectionnez un fichier pour importation, la structure des paramètres spécifiques à l’application de ce fichier est comparée à la structure des sources de données correspondantes du type **Recherche** dans le format de gestion des états électroniques sélectionné pour importation. Par défaut, l’importation est terminée uniquement si la structure de chaque paramètre spécifique à l’application correspond à la structure de la source de données correspondante dans le format de gestion des états électroniques sélectionné pour importation. Si les structures ne correspondent pas, un message d’avertissement vous informe que l’importation ne peut pas être finalisée. Si vous forcez l’importation, les paramètres spécifiques à l’application existants pour le format de gestion des états électroniques sélectionné seront effacés et vous devrez les configurer à partir de zéro.
+Quand vous sélectionnez un fichier pour importation, la structure des paramètres spécifiques à l’application de ce fichier est comparée à la structure des sources de données correspondantes du type **Recherche** dans le format de gestion des états électroniques sélectionné pour importation. Par défaut, l’importation est terminée uniquement si la structure de chaque paramètre spécifique à l’application correspond à la structure de la source de données correspondante dans le format de gestion des états électroniques sélectionné pour importation. Si les structures ne correspondent pas, un message d’avertissement vous informe que l’importation ne peut pas être finalisée. Si vous forcez l’importation, les paramètres spécifiques à l’application existants pour le format de gestion des états électroniques sélectionné seront effacés et vous devrez les configurer à partir de zéro.
 
 
-À partir de Dynamics 365 Finance version 10.0.24, vous pouvez modifier le comportement par défaut et éviter de recevoir un message d’avertissement en activant la fonctionnalité **Aligner les paramètres spécifiques à l’application de rapports électroniques lors de l’importation** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée, si la structure des paramètres spécifiques à l’application que vous importez est différente de celle des sources de données correspondantes dans le format de gestion des états électroniques sélectionné pour importation, l’importation sera effective dans les cas suivants.
+À partir de la version 10.0.24 de Finance, vous pouvez modifier le comportement par défaut et éviter de recevoir un message d’avertissement en activant la fonctionnalité **Aligner les paramètres spécifiques à l’application de rapports électroniques à l’importation** dans l’espace de travail **Gestion des fonctionnalités**. Quand cette fonctionnalité est activée, si la structure des paramètres spécifiques à l’application que vous importez est différente de celle des sources de données correspondantes dans le format de gestion des états électroniques sélectionné pour importation, l’importation sera effective dans les cas suivants.
 
 - La structure du format de gestion des états électroniques cible a été modifiée par l’ajout de nouvelles colonnes de condition à toutes les sources de données existantes du type **Recherche**. Une fois l’importation terminée, les paramètres spécifiques à l’application sont mis à jour. Dans tous les enregistrements importés de paramètres spécifiques à l’application, les valeurs de chaque colonne de condition ajoutée sont initialisées avec la valeur par défaut pour le [type de données](er-formula-supported-data-types-primitive.md) de cette colonne.
 - La structure du format de gestion des états électroniques cible a été modifiée par la suppression de colonnes de condition de toutes les sources de données existantes du type **Recherche**. Une fois l’importation terminée, les paramètres spécifiques à l’application sont mis à jour. Dans tous les enregistrements importés de paramètres spécifiques à l’application, les valeurs de chaque colonne de condition supprimée sont supprimées.
 - La structure du format de gestion des états électroniques cible a été modifiée par l’ajout de nouvelles sources de données du type **Recherche**. Une fois l’importation terminée, les recherches ajoutées sont ajoutées aux paramètres spécifiques à l’application.
 - La structure du format de gestion des états électroniques cible a été modifiée par la suppression de certaines sources de données existantes du type **Recherche**. Une fois l’importation terminée, tous les artefacts liés aux sources de données du type **Recherche** qui ont été supprimés du format de gestion des états électroniques cible sont supprimés des paramètres spécifiques à l’application importés.
 
-Lorsque l’importation est terminée, en plus des modifications qui viennent d’être décrites, l’état des paramètres spécifiques à l’application importés est remplacé par **En cours**. Un message d’avertissement vous informe que les paramètres spécifiques à l’application ajustés automatiquement doivent être modifiés manuellement.
+Quand l’importation est terminée, en plus des modifications qui viennent d’être décrites, l’état des paramètres spécifiques à l’application importés est remplacé par **En cours**. Un message d’avertissement vous informe que les paramètres spécifiques à l’application ajustés automatiquement doivent être modifiés manuellement.
+
+#### <a name="replicate-parameters"></a>Répliquer les paramètres
+
+À partir de la version 10.0.27 de Finance, vous pouvez copier les paramètres que vous avez configurés dans une société vers d’autres sociétés en même temps.
+
+Pour copier les paramètres, procédez comme suit.
+
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+2. Sélectionnez **Configurations des états**.
+3. Dans l’arborescence des configurations, sélectionnez le format **Format pour apprendre comment rechercher les données LE**.
+4. Dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres spécifiques à l’application**, sélectionnez **Configurer**.
+5. Sélectionnez la version **1.1.1** du format de gestion des états électroniques.
+6. Dans le volet Action, sélectionnez **Répliquer**.
+7. Dans la boîte de dialogue **Répliquer**, sur l’onglet **Entreprises**, sélectionnez les sociétés vers lesquelles vous souhaitez copier les paramètres.
+
+    > [!NOTE]
+    > La liste des sociétés cibles n’est proposée qu’aux utilisateurs auxquels est attribué un [rôle](../sysadmin/role-based-security.md#security-roles) de sécurité configuré pour accorder l’accès à toutes les organisations.
+
+8. Cliquez sur **OK**.
+
+    > [!NOTE]
+    > La boîte de dialogue de confirmation vous informe si certaines sociétés cibles contiennent des paramètres précédemment configurés pour la version sélectionnée d’un format ER. Sélectionner **Oui** pour remplacer les paramètres en les copiant depuis la société actuelle.
+
+    L’ensemble configuré de paramètres spécifiques à l’application est maintenant copié dans les entreprises sélectionnées.
 
 ### <a name="reuse-existing-parameters"></a>Réutiliser les paramètres existants
 
-À partir de Dynamics 365 Finance version 10.0.23, vous pouvez réutiliser les paramètres spécifiques à l’application qui ont été configurés pour une version d’un format de gestion des états électroniques, lorsque vous exécutez une version supérieure du même format. Pour cela, activez la fonctionnalité **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** dans l’espace de travail **Gestion des fonctionnalités**. Lorsque cette fonctionnalité est activée et que vous exécutez une version d’un format de gestion des états électroniques qui essaie de lire les paramètres spécifiques à l’application, la gestion des états électroniques tentera de trouver les paramètres spécifiques à l’application qui ont été configurés pour la version en cours d’exécution de ce format. Ou, lorsqu’ils ne sont pas disponibles, pour la version antérieure la plus proche de ce format.
+À partir de la version 10.0.23 de Finance, vous pouvez réutiliser les paramètres spécifiques à l’application qui ont été configurés pour une version d’un format de gestion des états électroniques, quand vous exécutez une version supérieure du même format. Pour réutiliser les paramètres existants, activez la fonctionnalité **Utiliser les paramètres spécifiques à l’application des versions précédentes de formats de rapport électronique** dans l’espace de travail **Gestion des fonctionnalités**. Quand cette fonctionnalité est activée et que vous exécutez une version d’un format de gestion des états électroniques qui essaie de lire les paramètres spécifiques à l’application, la gestion des états électroniques tentera de trouver les paramètres spécifiques à l’application qui ont été configurés pour la version en cours d’exécution du format. S’ils ne sont pas disponibles, ER essaiera de les trouver pour la version antérieure la plus proche du format.
 
 > [!NOTE]
 > Vous ne pouvez réutiliser les paramètres spécifiques à l’application que dans le cadre de l’entité juridique actuelle.
 >
-> Une erreur s’affiche au moment de l’exécution lorsque vous exécutez une version ultérieure d’un format de gestion des états électroniques qui tente de réutiliser des paramètres spécifiques à l’application qui ont été configurés pour une version antérieure du même format et que la structure d’au moins une source de données du type **Recherche** dans la version de format ultérieur a changé.
+> Une erreur s’affiche au moment de l’exécution quand vous exécutez une version ultérieure d’un format de gestion des états électroniques qui tente de réutiliser des paramètres spécifiques à l’application qui ont été configurés pour une version antérieure du même format et que la structure d’au moins une source de données du type **Recherche** dans la version de format ultérieur a changé.
 
 ## <a name="relationship-between-application-specific-parameters-and-an-er-format"></a>Relation entre les paramètres spécifiques à l’application et un format de gestion des états électroniques
 
-La relation entre un format de gestion des états électroniques et ses paramètres spécifiques à l’application est établie par le code d’identification unique indépendant de l’instance du format de gestion des états électroniques. Par conséquent, lorsque vous supprimez un format de gestion des états électroniques de Finance, les paramètres spécifiques à l’application qui sont configurés pour le format de gestion des états électroniques sont conservés dans l’instance actuelle de Finance. Ils peuvent être consultés lorsque le format de gestion des états électroniques de base est réimporté dans cette instance de Finance.
+La relation entre un format de gestion des états électroniques et ses paramètres spécifiques à l’application est établie par le code d’identification unique indépendant de l’instance du format de gestion des états électroniques. Par conséquent, quand vous supprimez un format de gestion des états électroniques de Finance, les paramètres spécifiques à l’application qui sont configurés pour le format de gestion des états électroniques sont conservés dans l’instance actuelle de Finance. Ils peuvent être consultés quand le format de gestion des états électroniques de base est réimporté dans cette instance de Finance.
 
 ## <a name="access-application-specific-parameters-by-using-the-er-framework"></a>Accéder aux paramètres spécifiques à l’application en utilisant la structure de gestion des états électroniques
 

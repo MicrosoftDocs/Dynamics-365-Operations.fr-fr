@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388361"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614149"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Exemple d’intégration du service d’enregistrement fiscal pour l’Autriche
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Autriche dans Microsoft Dynamics 365 Commerce.
 
@@ -76,7 +75,7 @@ L’exemple d’intégration du service d’enregistrement fiscal implémente le
 
 - Exclure les lignes de vente liées aux opérations *Émettre une carte-cadeau* et *Ajouter à la carte-cadeau* à partir d’une opération en espèces. Au lieu d’enregistrer ces lignes dans le cadre d’une transaction en espèces, enregistrez-les en tant que transaction distincte sans espèces dans le service d’enregistrement fiscal.
 - N’imprimez pas de ventilation par groupe fiscal et de code QR sur un reçu si celui-ci se compose uniquement de lignes de carte-cadeau.
-- Imprimez le montant total des cartes-cadeaux émises ou rechargées lors d’une transaction séparément du montant de la transaction en espèces sur le reçu.
+- Imprimez le montant total des cartes-cadeaux émises ou rechargées au moment d’une transaction séparément du montant de la transaction en espèces sur le reçu.
 - Enregistrez les ajustements calculés des lignes de paiement dans la base de données du canal avec une référence à une transaction fiscale correspondante.
 - Le paiement par carte-cadeau est considéré comme un paiement régulier.
 
@@ -86,7 +85,7 @@ L’exemple d’intégration du service d’enregistrement fiscal implémente le
 
 - Enregistrez une transaction autre qu’en espèces si une transaction est un dépôt client.
 - Enregistrez une transaction autre qu’en espèces si une transaction ne contient qu’un dépôt de commande client ou un remboursement de dépôt de commande client.
-- Déduisez le montant du dépôt de commande client des lignes de paiement lorsqu’une commande client hybride est créée.
+- Déduisez le montant du dépôt de commande client des lignes de paiement quand une commande client hybride est créée.
 - Enregistrez les ajustements calculés des lignes de paiement dans la base de données du canal avec une référence à une transaction fiscale pour une commande client hybride.
 
 ### <a name="limitations-of-the-sample"></a>Limites de l’échantillon

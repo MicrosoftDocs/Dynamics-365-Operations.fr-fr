@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749050"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629435"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Création de paiements fournisseur via une proposition de paiement
 
@@ -48,9 +48,9 @@ La demande de proposition de paiement contient différents onglets, chacun ayant
 - **Inclure les factures fournisseur d’autres entités juridiques** – Si votre organisation a un processus centralisé pour le paiement, et si la proposition de paiement doit inclure les factures d’autres entités juridiques incluses dans les critères de recherche, définissez cette option sur **Oui**.
 - **Proposer un paiement fournisseur séparé par entité juridique** – Si cette option est définie sur **Oui**, un paiement distinct est créé pour chaque entité juridique par fournisseur. Le fournisseur du paiement est le fournisseur de la facture de chaque entité juridique. Si cette option est définie sur **Non**, et si des factures doivent être payées à un fournisseur dans plusieurs entités juridiques, un paiement est créé pour le montant total des factures sélectionnées de toutes les sociétés sélectionnées. Le fournisseur pour le paiement correspond à l’entité juridique active. Si ce compte n’existe pas dans l’entité juridique active, le compte fournisseur de la première facture à payer est utilisé.
 - **Devise de paiement** – Ce champ permet de spécifier la devise dans laquelle tous les paiements sont créés. Si une devise n’est pas définie, chaque facture est payée dans la devise de la facture.
-- **Jour de paiement** – Permet d’entrer le jour de la semaine où le paiement doit être effectué. Ce champ n’est utilisé que si le mode de paiement est défini sur toutes les factures pour que le paiement survienne un jour précis de la semaine.
+- **Paiement en semaine** – Entrez le jour de la semaine où le paiement doit être effectué, ce champ n’est utilisé que si le mode de paiement est défini sur **Semaine**. Le montant des factures à payer est totalisé le jour de la semaine spécifié pour le paiement.
 - **Type de compte de contrepartie** et **Compte de contrepartie** – Ces champs permettent de définir un type de compte spécifique (tel que **Comptabilité** ou **Banque**) et le compte de contrepartie (tel qu’un compte bancaire spécifique). Le mode de paiement pour la facture définit le type de compte de contrepartie par défaut et le compte de contrepartie, mais vous pouvez utiliser ces champs pour remplacer les valeurs par défaut.
-- **Date de paiement récapitulative** : N’est utilisée que lorsque le champ **Période** du mode de paiement est défini sur **Total**. Si aucune date n’est définie, tous les paiements sont créés à cette date. Le champ **Date de paiement minimal** est ignoré.
+- **Date de paiement récapitulative** : N’est utilisée que quand le champ **Période** du mode de paiement est défini sur **Total**. Si aucune date n’est définie, tous les paiements sont créés à cette date. Le champ **Date de paiement minimal** est ignoré.
 - **Filtres supplémentaires** – Dans l’organisateur **Enregistrements à inclure**, vous pouvez définir des plages supplémentaires de critères. Par exemple, si vous souhaitez payer une seule plage de fournisseurs, vous pouvez définir un filtre pour la plage de fournisseurs. Cette fonctionnalité est souvent utilisée pour sélectionner des factures pour un mode de paiement spécifique. Par exemple, si vous définissez un filtre où **Mode de paiement** = **Chèque**, seules les factures associées à ce mode de paiement sont sélectionnées pour le paiement, à condition qu’elles répondent également à d’autres critères spécifiés dans la requête.
 
 ## <a name="scenarios"></a>Scénarios

@@ -2,7 +2,7 @@
 title: Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 description: Cette rubrique fournit des informations sur la procédure pour concevoir un format d’états électroniques (ER) pour renseigner un modèle PDF.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367854"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645105"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 
 [!include[banner](../includes/banner.md)]
 
-Les procédures de cette rubrique sont des exemples qui indiquent la manière dont le rôle **Administrateur système** ou le rôle **Développeur d’états électroniques** peut configurer un format d’états électroniques (ER) qui génère des états sous forme de fichiers PDF à l’aide de documents PDF pouvant être renseignés comme modèles d’états. Ces étapes peuvent être effectuées dans n’importe quelle société Dynamics 365 Finance ou Regulatory Configuration Service (RCS).
+Les procédures de cette rubrique sont des exemples qui indiquent la manière dont le rôle **Administrateur système** ou le rôle **Développeur d’états électroniques** peut configurer un format d’états électroniques (ER) qui génère des états sous forme de fichiers PDF à l’aide de documents PDF pouvant être renseignés comme modèles d’états. Ces étapes peuvent être effectuées dans n’importe quelle société Dynamics 365 Finance ou Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -102,7 +102,7 @@ Enfin, téléchargez les fichiers suivants.
     > [!NOTE]
     > Le fournisseur de configuration actif est automatiquement entré. Ce fournisseur pourra mettre à jour cette configuration. Bien que d’autres fournisseurs puissent utiliser cette configuration, ils ne pourront pas la mettre à jour.
 
-7. Facultatif : Dans le champ **Type de format**, vous pouvez sélectionner un format spécifique de document électronique. Si vous sélectionnez **PDF**, au moment de la conception, le concepteur des opérations ER proposera seulement les éléments de format qui s’appliquent uniquement aux documents générés au format PDF (**PDF\Fichier**, **Fusion PDF\PDF**, et ainsi de suite.). Si vous laissez ce champ vide, un format de document électronique sera spécifié au moment de la conception dans le concepteur des opérations ER lorsqu’un premier élément de format sera ajouté. Par exemple, si vous ajoutez **Excel\Fichier** comme premier élément de format, le concepteur des opérations ER vous proposera juste les éléments de format qui s’appliquent uniquement aux documents générés au format Excel (**Excel\Cellule**, **Excel\Plage**, et ainsi de suite.). format.
+7. Facultatif : Dans le champ **Type de format**, vous pouvez sélectionner un format spécifique de document électronique. Si vous sélectionnez **PDF**, au moment de la conception, le concepteur des opérations ER proposera seulement les éléments de format qui s’appliquent uniquement aux documents générés au format PDF (**PDF\Fichier**, **Fusion PDF\PDF**, et ainsi de suite.). Si vous laissez ce champ vide, un format de document électronique sera spécifié au moment de la conception dans le concepteur des opérations ER quand un premier élément de format sera ajouté. Par exemple, si vous ajoutez **Excel\Fichier** comme premier élément de format, le concepteur des opérations ER vous proposera juste les éléments de format qui s’appliquent uniquement aux documents générés au format Excel (**Excel\Cellule**, **Excel\Plage**, et ainsi de suite.). format.
 8. Sélectionnez **Créer une configuration**.
 
 Une configuration de format ER est créée. Vous pouvez utiliser la version temporaire de cette configuration pour stocker le composant de format ER conçu pour générer des documents électroniques au format PDF.
@@ -125,7 +125,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 2. Sélectionnez **Ajoutez racine**.
 3. Dans la boîte de dialogue déroulante, dans l’arborescence, sélectionnez **PDF \> Fusion PDF**.
 
-    Lorsque vous sélectionnez l’élément **Fusion PDF** comme l’élément racine du format, tous les documents PDF générés au moment de l’exécution seront fusionnés en un document PDF final unique. Si vous n’avez besoin que d’un modèle PDF pour générer tous les documents requis à l’aide du format ER que vous concevez, vous pouvez sélectionner **Fichier PDF** comme élément racine.
+    Quand vous sélectionnez l’élément **Fusion PDF** comme l’élément racine du format, tous les documents PDF générés au moment de l’exécution seront fusionnés en un document PDF final unique. Si vous n’avez besoin que d’un modèle PDF pour générer tous les documents requis à l’aide du format ER que vous concevez, vous pouvez sélectionner **Fichier PDF** comme élément racine.
 
 4. Dans le champ **Nom**, entrez **Production**.
 5. Dans le champ **Préférences linguistiques**, sélectionnez **Préférences utilisateur**. L’état sera généré dans la langue favorite de l’utilisateur qui l’exécute.
@@ -133,7 +133,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 7. Cliquez sur **OK**.
 8. Dans le volet Actions, sous l’onglet **Importer**, sélectionnez **Importer à partir du PDF**.
 
-    Lorsqu’un document PDF pouvant être renseigné est importé comme modèle pour ce format ER, tous les éléments nécessaires au format ER (éléments **Fichier PDF**, **Groupe de champs** et **Champ**) sont automatiquement créés au format défini, selon la structure du document PDF importé.
+    Quand un document PDF pouvant être renseigné est importé comme modèle pour ce format ER, tous les éléments nécessaires au format ER (éléments **Fichier PDF**, **Groupe de champs** et **Champ**) sont automatiquement créés au format défini, selon la structure du document PDF importé.
 
 9. Sélectionnez **Parcourir**. Accédez au fichier **IntrastatReportTemplate1.pdf** que vous avez téléchargé précédemment comme condition préalable et sélectionnez-le.
 10. Cliquez sur **OK**.
@@ -167,7 +167,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 
 17. Dans le volet Actions, sélectionnez l’onglet **Importer**. Notez que le bouton **Mettre à jour à partir du PDF** est devenu disponible pour l’élément de format sélectionné, **Fichier PDF**.
 
-    Vous pouvez utiliser ce bouton pour importer le modèle PDF mis à jour au format modifié. Lorsque le modèle PDF mis à jour est importé, la liste des éléments de format sera modifiée en fonction :
+    Vous pouvez utiliser ce bouton pour importer le modèle PDF mis à jour au format modifié. Quand le modèle PDF mis à jour est importé, la liste des éléments de format sera modifiée en fonction :
 
     - Pour les nouveaux champs dans le modèle PDF mis à jour, de nouveaux éléments de format sont créés au format ER modifié.
     - Si le modèle PDF mis à jour ne comprend plus des champs qui correspondent à tous les éléments de format existants dans le format ER modifié, ces éléments de format sont supprimés du format ER.
@@ -219,15 +219,15 @@ Ensuite, vous importerez l’exemple de format ER que vous avez précédemment t
 
     Notez les informations suivantes :
 
-    - L’élément de format **Production \> Page 1** du type **Fichier PDF** n’est associé à aucune source de données, et l’expression **Activé** de cet élément de format est vide. Par conséquent, au moment de l’exécution, le modèle PDF **IntrastatReportTemplate1** ne sera rempli qu’une fois lorsqu’un document PDF individuel sera généré.
-    - L’élément de format **Production \> Page N** du type **Fichier PDF** est lié à la source de données **Paging.PageN** du type **Liste d’enregistrements**, et l’expression **Activé** de cet élément de format est vide. Par conséquent, au moment de l’exécution, le modèle PDF **IntrastatReportTemplate2** sera rempli pour chaque enregistrement à partir de la liste des enregistrements associés lorsqu’un document PDF individuel sera généré.
+    - L’élément de format **Production \> Page 1** du type **Fichier PDF** n’est associé à aucune source de données, et l’expression **Activé** de cet élément de format est vide. Par conséquent, au moment de l’exécution, le modèle PDF **IntrastatReportTemplate1** ne sera rempli qu’une fois quand un document PDF individuel sera généré.
+    - L’élément de format **Production \> Page N** du type **Fichier PDF** est lié à la source de données **Paging.PageN** du type **Liste d’enregistrements**, et l’expression **Activé** de cet élément de format est vide. Par conséquent, au moment de l’exécution, le modèle PDF **IntrastatReportTemplate2** sera rempli pour chaque enregistrement à partir de la liste des enregistrements associés quand un document PDF individuel sera généré.
     - Comme les éléments de format **Page 1: Fichier PDF** et **Page N : Fichier PDF** sont les enfants de l’élément de format **Production : Fusion PDF**, tous les documents PDF renseignés sont fusionnés en un document PDF unique final.
     - Les sources de données **Paging.Page1** et **Paging.PageN** sont configurées en tant que filtres d’enregistrements dans la source de données **Paging.Pages**. Cette source de données est configurée pour fractionner l’ensemble complet des transactions de commerce extérieur en lots. Chaque lot contient jusqu’à 42 enregistrements. L’expression ER suivante permet de fractionner les transactions en lots :
 
         SPLITLIST(Totals.CommodityRecord,42)
 
     - La source de données **Paging.Pages** contient l’élément **Paging.Pages.Enumerated** qui renvoie les détails de chaque enregistrement inclus dans un lot. Ces détails incluent la séquence de l’enregistrement dans le lot actuel (le champ **Paging.Pages.Enumerated.Number**). Le champ **Paging.Pages.Enumerated.Number** est utilisé dans l’expression **Nom** des éléments de format **Champ PDF** pour générer de façon dynamique un nom de champ basé sur le nombre de transactions dans un lot. Le nom de champ qui est généré est ensuite utilisé pour renseigner le champ PDF approprié dans le modèle PDF utilisé.
-    - L’élément de format **Production \> Page N \> Détails 2** du type **Groupe PDF** est lié à la source de données **Paging.PageN.Enumerated** (ou **\@.Enumerated** si le mode d’affichage **Chemin d’accès relatif** est utilisé) du type **Liste d’enregistrements**. Par conséquent, au moment de l’exécution, les éléments imbriqués de ce groupe PDF seront renseignés pour chaque enregistrement de la liste d’enregistrements associés. Ainsi, chaque ligne PDF individuelle est virtuellement générée lorsque chaque nième de 42 enregistrements de la liste **Paging.PageN.Enumerated** les champs PDF suivants sont remplis : Date N, Sens N, Marchandise N, et ainsi de suite. Par conséquent, à cet égard, le comportement de cet élément de format **Groupe de champs** s’apparente au comportement des éléments de format **XML \> Séquence** et **Texte \> Séquence**.
+    - L’élément de format **Production \> Page N \> Détails 2** du type **Groupe PDF** est lié à la source de données **Paging.PageN.Enumerated** (ou **\@.Enumerated** si le mode d’affichage **Chemin d’accès relatif** est utilisé) du type **Liste d’enregistrements**. Par conséquent, au moment de l’exécution, les éléments imbriqués de ce groupe PDF seront renseignés pour chaque enregistrement de la liste d’enregistrements associés. Ainsi, chaque ligne PDF individuelle est virtuellement générée quand chaque nième de 42 enregistrements de la liste **Paging.PageN.Enumerated** les champs PDF suivants sont remplis : Date N, Sens N, Marchandise N, et ainsi de suite. Par conséquent, à cet égard, le comportement de cet élément de format **Groupe de champs** s’apparente au comportement des éléments de format **XML \> Séquence** et **Texte \> Séquence**.
 
 3. Dans l’arborescence, développez **Production \> Page N \> Details2**.
 4. Dans l’arborescence, sélectionnez **Production \> Page N \> Details2 \> PageFooter**.
@@ -252,10 +252,14 @@ Comme les deux propriétés sont facultatives pour un élément de format **Cham
 - Si l’attribut **Nom** est défini, et que l’expression **Nom** est configurée, le champ PDF ayant le même nom que la valeur renvoyée par l’expression **Nom** de l’élément de format est renseigné.
 
 > [!NOTE]
-> Une case à cocher PDF peut être renseignée comme activée comme suit :
+> Quand une case à cocher dans le modèle PDF n’appartient pas à un groupe de cases à cocher, elle est représentée au format ER modifiable sous la forme d’un élément **Champ** imbriqué sous l’élément **Fichier PDF**. Ce type de case à cocher PDF peut être définie comme activée comme suit :
 >
-> - Lorsque l’élément de format **Champ** correspondant est lié à un champ de source de données de type de donnée **Booléenne** ayant la valeur **True**
-> - Lorsque l’élément de format **Champ** correspondant contient un élément de format **Chaîne** imbriqué associé à un champ de source de données ayant une valeur de texte **1**, **True** ou **Oui**
+> - L’élément de format **Champ** correspondant est lié à un champ de source de données de type de donnée *[Booléenne](er-formula-supported-data-types-primitive.md#boolean)* ayant la valeur **True**.
+> - L’élément de format **Champ** correspondant contient un élément de format **Chaîne** imbriqué associé à un champ de source de données ayant une valeur de texte **1**, **True** ou **Oui**.
+>
+> Votre modèle peut contenir un groupe de cases à cocher où une seule case peut être cochée à la fois. Ces cases à cocher sont représentées dans un modèle PDF sous la forme de plusieurs champs de formulaire de type *CASE À COCHER*. Chaque champ a le même nom mais une valeur d’exportation différente. Quand vous importez le modèle au format ER modifiable, chaque case à cocher sera représentée dans la structure hiérarchique du format sous la forme d’un élément **Article de groupe de cases à cocher** imbriqué sous le même élément **Groupe de cases à cocher**. Le nom de l’élément **Groupe de cases à cocher** correspondra au nom des champs de case à cocher dans le modèle PDF. Le nom de chaque élément **Article de groupe de cases à cocher** sera égal à la valeur d’exportation du champ de case à cocher correspondant dans le modèle PDF.
+>
+> Vous pouvez lier un élément **Article de groupe de cases à cocher** à un champ de source de données du type de données *booléennes* uniquement.
 
 ## <a name="run-the-format-configuration"></a>Exécuter la configuration du format
 
@@ -273,7 +277,7 @@ Ensuite, vous chargerez l’exemple de format ER **Déclaration d’échanges de
     > [!NOTE]
     > Si vous avez défini précédemment l’option **Valeur par défaut de la mise en correspondance des modèles** sur **Oui** pour la configuration du **Modèle de déclaration d’échanges de biens** ou une autre configuration imbriquée sous la configuration **Modèle de déclaration d’échanges de biens**, définissez cette option sur **Non**.
 
-    Lorsque l’option **Valeur par défaut de la mise en correspondance des modèles** est définie sur **Oui**, le format ER **Déclaration d’échanges de biens (importation depuis Excel)** importé est attribué comme source de données par défaut de la configuration du format **État de déclaration d’échanges de biens (PDF)**. Puis, lorsque la configuration de format **État de déclaration d’échanges de biens (PDF)** est exécutée, le contenu du classeur Excel analysé par le format ER **Déclaration d’échanges de biens (importation depuis Excel)** simulera les transactions de commerce extérieur devant être déclarées. L’illustration suivante présente un exemple de classeur Excel.
+    Quand l’option **Valeur par défaut de la mise en correspondance des modèles** est définie sur **Oui**, le format ER **Déclaration d’échanges de biens (importation depuis Excel)** importé est attribué comme source de données par défaut de la configuration du format **État de déclaration d’échanges de biens (PDF)**. Puis, quand la configuration de format **État de déclaration d’échanges de biens (PDF)** est exécutée, le contenu du classeur Excel analysé par le format ER **Déclaration d’échanges de biens (importation depuis Excel)** simulera les transactions de commerce extérieur devant être déclarées. L’illustration suivante présente un exemple de classeur Excel.
 
     ![Classeur Excel contenant des exemples de données.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
@@ -297,17 +301,17 @@ L’illustration suivante présente un exemple d’une autre page de l’état g
 
 ## <a name="limitations"></a>Limitations
 
-Les noms des champs à remplir doivent être uniques dans le formulaire PDF que vous prévoyez d’utiliser comme modèle de rapport. Pour chacun de ces champs, un élément de format individuel portant le nom correspondant est créé au format ER modifiable lors de l’importation d’un formulaire PDF. Si un formulaire PDF contient plusieurs champs portant le même nom, un seul élément de format est créé pour les champs qui ne permet pas de les renseigner individuellement à l’exécution.
+Les noms des champs à remplir doivent être uniques dans le formulaire PDF que vous prévoyez d’utiliser comme modèle de rapport. Pour chacun de ces champs, un élément de format individuel portant le nom correspondant est créé au format ER modifiable au moment de l’importation d’un formulaire PDF. Si un formulaire PDF contient plusieurs champs portant le même nom, un seul élément de format est créé pour les champs qui ne permet pas de les renseigner individuellement à l’exécution.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Lorsque j’exécute le format ER pour générer un rapport au format PDF, pourquoi ai-je les erreurs suivantes : **Ne peut pas gérer les flux IREF. L’implémentation actuelle de PDFSharp ne peut pas gérer cette fonctionnalité PDF introduite avec Acrobat 6.** et **Un nom PDF doit commencer par une barre oblique (/).**
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Quand j’exécute le format ER pour générer un rapport au format PDF, pourquoi ai-je les erreurs suivantes : **Ne peut pas gérer les flux IREF. L’implémentation actuelle de PDFSharp ne peut pas gérer cette fonctionnalité PDF introduite avec Acrobat 6.** et **Un nom PDF doit commencer par une barre oblique (/).**
 
 Le framework ER utilise la version 1.5 de la bibliothèque PDFSharp pour générer ces rapports PDF. Certaines fonctionnalités de PDF 1.5 (Adobe Reader 6.0) ne sont pas encore implémentés dans cette bibliothèque. Par conséquent, PDFSharp ne peut pas encore ouvrir certains fichiers marqués comme **pour PDF 1.5 ou supérieur** et peut entraîner les erreurs reçues. Utilisez l’une des solutions suivantes pour résoudre le problème :
 
--   Lorsque vous utilisez votre propre modèle PDF : rétrogradez le modèle vers une version antérieure d’Adobe et commencez à utiliser un nouveau modèle dans votre format ER.
--   Lorsque vous utilisez un modèle de format ER qui a été partagé avec vous par un autre fournisseur de configuration dans le cadre d’une solution ER : Contactez le propriétaire de cette solution ER et fournissez une description du problème.
--   Lorsque vous utilisez la solution ISV qui contient une version antérieure de la bibliothèque PDFSharp : contactez le propriétaire de la solution et suggérez une mise à niveau vers la version plus récente de PDFSharp.
+-   Quand vous utilisez votre propre modèle PDF : rétrogradez le modèle vers une version antérieure d’Adobe et commencez à utiliser un nouveau modèle dans votre format ER.
+-   Quand vous utilisez un modèle de format ER qui a été partagé avec vous par un autre fournisseur de configuration dans le cadre d’une solution ER : Contactez le propriétaire de cette solution ER et fournissez une description du problème.
+-   Quand vous utilisez la solution ISV qui contient une version antérieure de la bibliothèque PDFSharp : contactez le propriétaire de la solution et suggérez une mise à niveau vers la version plus récente de PDFSharp.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

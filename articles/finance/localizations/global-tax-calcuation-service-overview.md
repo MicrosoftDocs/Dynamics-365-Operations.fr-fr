@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: d2fcc883cc87f785cad2e5f7efbf67888ca38d10
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388493"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644668"
 ---
 # <a name="tax-calculation-overview"></a>Vue d’ensemble du calcul de la taxe
 
@@ -30,7 +30,7 @@ Le calcul des taxes est un service multi-locataire hyper évolutif qui permet au
 Le calcul des taxes s’intègre à Dynamics 365 Finance et Dynamics 365 Supply Chain Management. À terme, il s’intégrera également avec Dynamics 365 Project Operations, Dynamics 365 Commerce et d’autres applications propriétaires et tierces.
 
 > [!IMPORTANT]
-> Lorsque vous activez le calcul des taxes, certaines opérations sur les données associées peuvent être effectuées dans un centre de données autre que le centre de données qui gère vos données de service. Consultez les [Conditions générales d’utilisation](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) avant d’activer le calcul des taxes. La protection de votre vie privée est importante pour nous. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Quand vous activez le calcul des taxes, certaines opérations sur les données associées peuvent être effectuées dans un centre de données autre que le centre de données qui gère vos données de service. Consultez les [Conditions générales d’utilisation](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) avant d’activer le calcul des taxes. La protection de votre vie privée est importante pour nous. Pour en savoir plus, lisez notre [Déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Le calcul des taxes est un moteur fiscal basé sur des microservices qui offre une évolutivité exponentielle et peut vous aider à effectuer les tâches suivantes :
 
@@ -79,6 +79,7 @@ Nous vous recommandons d’importer et de paramétrer votre configuration de cal
 | 10.0.24         | Configuration du calcul des taxes 40.50.225 |
 | 10.0.25         | Configuration du calcul des taxes 40.50.225 |
 | 10.0.26         | Configuration du calcul des taxes 40.54.234 |
+| 10.0.27         | Configuration du calcul des taxes 40.54.234 |
 
 
 ## <a name="data-flow"></a>Flux de données
@@ -89,7 +90,7 @@ Voici un aperçu du processus de flux de données pour le calcul des taxes.
 2. Dans RCS, créez ou gérez des fonctionnalités de taxe. Vous pouvez utiliser des fonctionnalités de taxe pour gérer les taux de taxe et les règles d’applicabilité des taxes.
 3. Une fois la configuration des fonctionnalités de taxe terminée, publiez les configurations de taxe et les fonctionnalités de taxe de RCS dans le référentiel global.
 4. Dans Finance, sélectionnez la version de configuration des fonctionnalités de taxe à utiliser pour une entité juridique spécifique.
-5. Dans Finance et Supply Chain Management, effectuez les transactions comme d’habitude. Lorsque le calcul des taxes est nécessaire, le client collectera les informations de la transaction, telles que la commande client ou la commande fournisseur, et conditionnera les informations en tant que charge utile. Une demande sera alors envoyée pour calculer la taxe.
+5. Dans Finance et Supply Chain Management, effectuez les transactions comme d’habitude. Quand le calcul des taxes est nécessaire, le client collectera les informations de la transaction, telles que la commande client ou la commande fournisseur, et conditionnera les informations en tant que charge utile. Une demande sera alors envoyée pour calculer la taxe.
 6. La demande de calcul des taxes est reçue du client et le calcul est effectué. Le résultat de taxe est ensuite retourné au client.
 7. Le client Dynamics 365 reçoit le résultat de taxe et présente le résultat du calcul des taxes sur une page de taxe.
 

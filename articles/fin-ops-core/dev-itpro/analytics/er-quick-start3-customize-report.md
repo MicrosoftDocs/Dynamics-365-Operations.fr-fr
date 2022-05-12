@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324085"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661656"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personnaliser les configurations ER pour générer un document électronique
 
 [!include[banner](../includes/banner.md)]
 
-La [structure de gestion des états électroniques (ER)](general-electronic-reporting.md) vous permet de télécharger les [configurations](general-electronic-reporting.md#Configuration) ER que Microsoft fournit dans votre instance Microsoft Dynamics 365 Finance. De cette manière, les configurations fournies par Microsoft peuvent servir de solution ER utilisée pour générer des factures clients électroniques (factures électroniques). Vous pouvez utiliser cette solution ER pour configurer votre solution ER personnalisée afin d’accéder à vos champs de base de données personnalisés et de générer des factures électroniques conformes à vos exigences spécifiques, sans avoir à modifier le code source.
+La [structure de gestion des états électroniques (ER)](general-electronic-reporting.md) vous permet de télécharger les [configurations](general-electronic-reporting.md#Configuration) ER que Microsoft fournit dans votre instance Microsoft Dynamics 365 Finance. De cette manière, les configurations fournies par Microsoft peuvent servir de solution ER utilisée pour générer des factures clients électroniques (factures électroniques). Vous pouvez utiliser cette solution ER pour configurer votre solution ER personnalisée afin d’accéder à vos champs de base de données personnalisés et de générer des factures électroniques conformes à vos exigences spécifiques, sans avoir à modifier le code source.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -61,7 +61,7 @@ En tant qu’utilisateur ayant le rôle de consultant fonctionnel ER ou de déve
 ### <a name="configure-er-parameters"></a>Configurer les paramètres ER
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Sur la page **Configurations de localisation**, dans la section **Liens connexes**, sélectionnez **Paramètres de gestion des états électroniques**.
+2. Sur la page **Blueprint de localisation**, dans la section **Liens connexes**, sélectionnez **Paramètres de gestion des états électroniques**.
 3. Sur la page **Paramètres de gestion des états électroniques**, sous l’onglet **Général**, définissez l’option **Activer le mode de configuration** sur **Oui**.
 4. Sur l’onglet **Pièces jointes**, dans le champ **Configurations**, sélectionnez **Fichier**.
 5. Dans les champs **Archive de tâche**, **Temporaire**, **Référence** et **Autres**, sélectionnez le type **Fichier**.
@@ -78,13 +78,13 @@ Chaque configuration de gestion des états électroniques ajoutée est marquée 
 #### <a name="review-the-list-of-er-configuration-providers"></a>Consulter la liste des fournisseurs de configuration de gestion des états électroniques
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Sur la page **Configurations de localisation**, dans la section **Liens connexes**, sélectionnez **Fournisseurs de configuration**.
+2. Sur la page **Blueprint de localisation**, dans la section **Liens connexes**, sélectionnez **Fournisseurs de configuration**.
 3. Sur la page **Table des fournisseurs de configuration**, chaque enregistrement de fournisseur a un nom et une URL uniques. Passez en revue le contenu de cette page. S’il existe déjà un enregistrement pour **Litware, Inc.** (`https://www.litware.com`), ignorez la procédure suivante, [Ajouter un nouveau fournisseur de configuration de gestion des états électroniques](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Ajouter un nouveau fournisseur de configuration de gestion des états électroniques
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Sur la page **Configurations de localisation**, dans la section **Liens connexes**, sélectionnez **Fournisseurs de configuration**.
+2. Sur la page **Blueprint de localisation**, dans la section **Liens connexes**, sélectionnez **Fournisseurs de configuration**.
 3. Sur la page **Fournisseurs de configuration**, sélectionnez **Nouveau**.
 4. Dans le champ **Nom**, entrez **Litware, Inc.**
 5. Dans le champ **Adresse Internet**, entrez `https://www.litware.com`.
@@ -93,7 +93,7 @@ Chaque configuration de gestion des états électroniques ajoutée est marquée 
 #### <a name="activate-an-er-configuration-provider"></a>Activer un fournisseur de configuration de gestion des états électroniques
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Sur la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Litware, Inc.**, puis sélectionnez **Activer**.
+2. Sur la page **Blueprint de localisation**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Litware, Inc.**, puis sélectionnez **Activer**.
 
 Pour plus d’informations sur les fournisseurs de configuration de gestion des états électroniques, voir [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur les fournisseurs de configuration de gestion des 
 Pour ajouter les configurations ER standard à votre instance actuelle de Finance, vous devez les importer depuis le [référentiel](general-electronic-reporting.md#Repository) ER qui a été configuré pour cette instance.
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Sur la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**, puis sélectionnez **Référentiels** pour afficher la liste des référentiels du fournisseur Microsoft.
+2. Sur la page **Blueprint de localisation**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**, puis sélectionnez **Référentiels** pour afficher la liste des référentiels du fournisseur Microsoft.
 3. Sur la page **Référentiels de configuration**, sélectionnez le référentiel de type **Global**, puis sélectionnez **Ouvrir**. Si vous êtes invité à autoriser la connexion à Regulatory Configuration Service, suivez les instructions d’autorisation.
 4. Sur la page **Référentiel de configuration**, dans l’arborescence de configuration du volet gauche, sélectionnez la configuration de format **Facture client Peppol**.
 5. Dans l’organisateur **Versions**, sélectionnez la version **11.2.2**.
@@ -116,7 +116,7 @@ Pour ajouter les configurations ER standard à votre instance actuelle de Financ
 ### <a name="review-the-imported-er-configurations"></a>Passer en revue les configurations de gestion des états électroniques importées
 
 1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez la vignette **Configurations des états**.
+2. Dans la page **Blueprint de localisation**, dans la section **Configurations**, sélectionnez la vignette **Configurations des états**.
 3. Sur la page **Configurations**, développez le FastTab **Composants de configuration**.
 4. Dans l’arborescence de configuration du volet gauche, développez **Modèle de facture**, puis développez **Facture client UBL**.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
+ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469811"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648707"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -29,18 +29,18 @@ ms.locfileid: "8469811"
 
 Comme [annoncé précédemment](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), une optimisation de la planification est planifiée pour remplacer le moteur de planification principal intégré existant.
 
-Si vous utilisez actuellement le moteur de planification principal intégré, vous devez commencer à planifier votre migration vers l’optimisation de la planification. Il est important de démarrer immédiatement le processus de migration car vos opérations peuvent être affectées lorsque l’obsolescence est appliquée. Pour éviter les problèmes de dernière minute lorsque l’obsolescence est appliquée, nous vous encourageons vivement à terminer la migration avant le 1er décembre 2020. 
+Si vous utilisez actuellement le moteur de planification principal intégré, vous devez commencer à planifier votre migration vers l’optimisation de la planification. Il est important de démarrer immédiatement le processus de migration car vos opérations peuvent être affectées quand l’obsolescence est appliquée. Pour éviter les problèmes de dernière minute quand l’obsolescence est appliquée, nous vous encourageons vivement à terminer la migration avant le 1er décembre 2020. 
 
 La fonctionnalité d’optimisation de la planification ne prend actuellement pas en charge toutes les fonctionnalités disponibles dans le moteur de planification intégré à Supply Chain Management. Par conséquent, il est important d’évaluer si la fonctionnalité définie, qui est actuellement disponible dans Optimisation de la planification, répondra à vos attentes. La fonctionnalité d’optimisation de la planification n’est actuellement pas activée par défaut dans Dynamics Lifecycle Services (LCS), vous avez donc la possibilité de faire votre évaluation avant que la fonctionnalité ne soit activée.
 
 > [!NOTE]
-> Vous devez demander une exception pour la migration vers l’optimisation de la planification si votre processus de planification générale n’inclut pas la production (planification générale des ordres de fabrication planifiés générés) et si vous avez besoin du moteur de planification principal intégré au-delà de la version 10.0.15. À compter de la version 10.0.16, une erreur s’affiche dans les environnements lors de l’exécution de la planification générale intégrée sans génération d’ordres de fabrication planifiés. L’optimisation de la planification doit être utilisée pour tous les nouveaux déploiements qui ne génèrent pas d’ordres de production planifiés lors de la planification générale. Les propriétaires d’environnements existants exécutant le moteur de planification principal intégré sans génération d’ordres de production planifiés recevront un e-mail contenant des détails sur le processus d’exception. Nous vous recommandons de travailler avec un partenaire pour évaluer et planifier la migration vers l’optimisation de la planification.
+> Vous devez demander une exception pour la migration vers l’optimisation de la planification si votre processus de planification générale n’inclut pas la production (planification générale des ordres de fabrication planifiés générés) et si vous avez besoin du moteur de planification principal intégré au-delà de la version 10.0.15. À compter de la version 10.0.16, une erreur s’affiche dans les environnements au moment de l’exécution de la planification générale intégrée sans génération d’ordres de fabrication planifiés. L’optimisation de la planification doit être utilisée pour tous les nouveaux déploiements qui ne génèrent pas d’ordres de production planifiés au moment de la planification générale. Les propriétaires d’environnements existants exécutant le moteur de planification principal intégré sans génération d’ordres de production planifiés recevront un e-mail contenant des détails sur le processus d’exception. Nous vous recommandons de travailler avec un partenaire pour évaluer et planifier la migration vers l’optimisation de la planification.
 
 Avant d’activer l’Optimisation de la planification, nous vous recommandons fortement d’évaluer les résultats de l’analyse de concordance d’Optimisation de la planification. Pour plus d’informations, voir [Analyse de concordance d’Optimisation de la planification](planning-optimization-fit-analysis.md).
 
 ## <a name="availability"></a>Disponibilité
 
-Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Europe, Royaume-Uni, Australie, Asie-Pacifique, Japon et Inde. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d’informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Le complément Optimisation de la planification est actuellement disponible dans les zones géographiques Azure suivantes : États-Unis, Canada, Brésil, Europe, Royaume-Uni, Australie, Asie-Pacifique, Japon et Inde. Si vous essayez d’installer le complément à partir d’une autre région géographique, LCS affichera un message indiquant que cette zone géographique n’est pas prise en charge. Pour plus d’informations sur les zones géographiques Azure et les régions associées, consultez [Géographies Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Notez que Optimisation de la planification ne prend pas en charge les déploiements locaux de Dynamics 365 Supply Chain Management.
 

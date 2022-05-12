@@ -2,7 +2,7 @@
 title: Ajouter des champs de données dans l’intégration fiscale à l’aide d’extensions
 description: Cette rubrique explique comment utiliser les extensions X++ pour ajouter des champs de données à l’intégration fiscale.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323520"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649099"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Ajouter des champs de données dans l’intégration fiscale à l’aide d’une extension
 
@@ -198,7 +198,7 @@ protected abstract void copyToLine(TaxIntegrationLineObject _line)
 }
 ```
 
-L’exemple suivant montre la structure de base lorsque la table `PurchTable` est utilisée.
+L’exemple suivant montre la structure de base quand la table `PurchTable` est utilisée.
 
 ```X++
 public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstractDataRetrievalTemplate
@@ -225,7 +225,7 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
 }
 ```
 
-Lorsque la méthode `CopyToDocument` est appelée, le tampon `this.purchTable` existe déjà. Le but de cette méthode est de copier toutes les données requises à partir de la table `this.purchTable` vers l’objet `document` en utilisant la méthode setter qui a été créée dans la classe `DocumentObject`.
+Quand la méthode `CopyToDocument` est appelée, le tampon `this.purchTable` existe déjà. Le but de cette méthode est de copier toutes les données requises à partir de la table `this.purchTable` vers l’objet `document` en utilisant la méthode setter qui a été créée dans la classe `DocumentObject`.
 
 De même, un tampon `this.purchLine` existe déjà dans la méthode `CopyToLine`. Le but de cette méthode est de copier toutes les données requises à partir de la table `this.purchLine` vers l’objet `_line` en utilisant la méthode setter qui a été créée dans la classe `LineObject`.
 
@@ -334,9 +334,10 @@ L’approche la plus simple consiste à étendre les méthodes `CopyToDocument` 
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Dans ce code, `_destination` est l’objet wrapper utilisé pour générer la requête de validation, et `_source` est l’objet `TaxIntegrationLineObject`.
+Dans ce code, `_destination` est l’objet wrapper utilisé pour générer la requête, et `_source` est l’objet `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Définissez la clé utilisée dans le formulaire de requête sous la forme **private const str**. La chaîne doit être exactement la même que le nom de la mesure ajouté dans la rubrique, [Ajouter des champs de données dans les configurations fiscales](tax-service-add-data-fields-tax-configurations.md).
-> Définissez le champ dans la méthode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** en utilisant la méthode **SetField**. Le type de données du deuxième paramètre doit être **string**. Si le type de données n’est pas **string**, convertissez-le.
-> Si un **type d’énumération** X++ est étendu, notez la différence entre sa valeur, son étiquette et son nom.
+> Définissez le nom du champ utilisé dans la requête sous la forme **private const str**. La chaîne doit être exactement la même que le nom du nœud (par l’étiquette) ajouté dans la rubrique, [Ajouter des champs de données dans les configurations fiscales](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Définissez le champ dans la méthode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** en utilisant la méthode **SetField**. Le type de données du deuxième paramètre doit être **string**. Si le type de données n’est pas **string**, convertissez-le en chaîne.
+> Si le type de données est **type d’énumération** X++, nous vous recommandons d’utiliser la méthode **enum2Symbol** pour convertir la valeur enum en une chaîne. La valeur enum ajoutée dans la configuration des taxes doit être exactement la même que le nom de l’énumération. Voici une liste des différences entre la valeur enum, l’étiquette et le nom.
+> 
+>   - Le nom de enum est un nom symbolique dans le code. **enum2Symbol()** peut convertir la valeur enum en son nom.
 >   - La valeur de l’énumération est de type entier.
->   - L’étiquette de l’énumération peut être différente selon les langues préférées. N’utilisez pas **enum2Str** pour convertir le type enum en chaîne.
->   - Le nom de enum est recommandé car il est fixe. **enum2Symbol** peut être utilisé pour convertir l’énumération en son nom. La valeur d’énumération ajoutée dans la configuration des taxes doit être exactement la même que le nom de l’énumération.
+>   - L’étiquette de l’énumération peut être différente selon les langues préférées. **enum2Str()** peut convertir la valeur enum en son étiquette.
 
 ## <a name="model-dependency"></a>Dépendance au modèle
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

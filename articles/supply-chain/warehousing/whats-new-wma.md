@@ -2,7 +2,7 @@
 title: Nouveautés ou modifications dans l’application mobile Warehouse Management
 description: Cette rubrique répertorie les fonctionnalités nouvelles et modifiées pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487834"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644730"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nouveautés ou modifications dans l’application mobile Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique répertorie les nouvelles fonctionnalités, les correctifs, les améliorations et les problèmes connus pour chaque version publiée de l’application mobile Warehouse Management pour Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20210"></a>Version 2.0.21.0
+
+Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
+
+- Correction de plusieurs problèmes provoquant le plantage.
+- Correction d’un problème où certains caractères n’étaient pas reconnus au moment de la numérisation ou de la saisie sur la page par défaut.
+- Correction d’un problème où la saisie d’un retour arrière sur la page par défaut supprimait deux caractères à la fois.
+- Correction d’un problème où le champ **Trier par** sur la page **Liste de travail** affichait une valeur incorrecte qui ne correspondait pas à l’ordre de tri réel des cartes.
+- Correction d’un problème où une disposition incorrecte s’affichait après le redimensionnement de la fenêtre de l’application au moment de l’exécution sur Microsoft Windows.
+- Correction d’un problème où le défilement dans une liste contextuelle pouvait entraîner le masquage ou la distorsion de certains éléments de la liste.
+- Refonte de la page de connexion pour lui permettre d’afficher les champs de nom d’utilisateur et de mot de passe sur la même page au moment de l’exécution sur des écrans plus grands.
+- Amélioration de la façon dont les commandes réagissent dans le cas où vous appuyez rapidement.
+- Ajout d’une vue du journal des erreurs dans l’application.
+- Ajout de plusieurs améliorations d’accessibilité (narration améliorée, correction des espaces réservés manquants sur Android, activation de la saisie sur le clavier pour les curseurs, etc.).
 
 ## <a name="version-20200"></a>Version 2.0.20.0
 
@@ -61,7 +76,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - Pour les flux qui en ont besoin, la toupie de quantité inclut désormais une position qui permet aux utilisateurs de soumettre une valeur numérique vide.
 - Correction de problèmes avec l’orientation de la toupie de quantité.
 - Correction d’un problème où la toupie de quantité afficherait la mauvaise valeur.
-- Correction d’un problème où l’entrée à la page principale était perdue lorsqu’elle était complétée depuis la page des détails.
+- Correction d’un problème où l’entrée à la page principale était perdue quand  elle était complétée depuis la page des détails.
 - Correction d’un problème où le texte de l’espace réservé était traité comme la valeur initialement sélectionnée dans les listes de sélection.
 - Le bouton « Envoyer » sur les étapes de confirmation est maintenant automatiquement activé s’il y a des valeurs présélectionnées.
 - Correction de la carte de détails pour afficher autant de lignes que possible pour les champs de texte comportant plusieurs lignes.
@@ -72,10 +87,10 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
   - Connexion d’utilisateur
   - Sélectionner une connexion
   - Modifier la connexion
-- Défilement fixe lors de l’utilisation de la navigation au clavier.
+- Défilement fixe au moment de l’utilisation de la navigation au clavier.
 - Accessibilité améliorée, y compris les améliorations suivantes :
   - Visibilité et contraste des couleurs fixes.
-  - Prévention de la perte de focus du clavier lorsque les pages contextuelles sont fermées.
+  - Prévention de la perte de focus du clavier quand les pages contextuelles sont fermées.
   - Ajout de messages d’erreur à la narration.
   - Augmentation de la taille des valeurs d’espace réservé dans la bannière d’étape.
 - Correction de l’exemple de la page héritée personnalisée en mode démo.
@@ -85,7 +100,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
 
 - Amélioration des performances en corrigeant un problème de fuite de mémoire.
-- Correction d’un problème où certaines valeurs de champ ne se mettaient pas à jour correctement lorsqu’elles étaient sélectionnées sur la page de détails.
+- Correction d’un problème où certaines valeurs de champ ne se mettaient pas à jour correctement quand  elles étaient sélectionnées sur la page de détails.
 
 ## <a name="version-20140"></a>Version 2.0.14.0
 
@@ -100,8 +115,8 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - Défilement amélioré entre les pages avec une animation plus fluide.
 - Correction des réponses contre-intuitives aux mouvements de balayage et aux blocages occasionnels de l’écran.
 - Amélioration des combinaisons de couleur du texte et de l’arrière-plan en mode sombre pour une meilleure lisibilité.
-- Correction d’un problème où certains textes pouvaient devenir très petits lors du redimensionnement de la fenêtre de l’application.
-- Correction d’un problème qui pouvait provoquer le plantage de l’application lors de la numérisation de codes-barres.
+- Correction d’un problème où certains textes pouvaient devenir très petits au moment du redimensionnement de la fenêtre de l’application.
+- Correction d’un problème qui pouvait provoquer le plantage de l’application au moment de la numérisation de codes-barres.
 - Ajout de la possibilité de remplacer un curseur par un bouton.
 - Correction d’un problème qui pouvait amener l’application à afficher le message d’erreur « AADSTS7000215 : un secret client non valide est fourni ».
 - Correction de l’animation de l’astuce montrant comment fermer une page à l’aide d’un geste de balayage vers le bas.
@@ -110,7 +125,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - Correction d’un problème de localisation où l’application ne reconnaissait pas une virgule (,) comme séparateur décimal.
 - Accessibilité améliorée.
 - Correction de la navigation sur la page **Nouvelle connexion** pour améliorer l’accessibilité.
-- Correction d’un problème où le clavier logiciel (à l’écran) n’apparaissait pas lors de la sélection d’un champ de saisie.
+- Correction d’un problème où le clavier logiciel (à l’écran) n’apparaissait pas au moment de la sélection d’un champ de saisie.
 - Correction d’un problème qui pouvait provoquer le plantage de l’application si les utilisateurs redimensionnaient rapidement sa fenêtre.
 - Correction d’un problème où une pression rapide sur une touche était parfois interprétée comme une pression longue.
 - Correction d’un problème où la mise en page de l’application pouvait être corrompue en raison des personnalisations de champ effectuées dans Supply Chain Management.
@@ -130,14 +145,14 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - Cartes détaillées améliorées.
 - Détours améliorés pour les étapes des éléments de menu.
 - Améliorations mineures de l’interface utilisateur.
-- Correction d’un problème qui pouvait provoquer le plantage de l’application lors de la numérisation de codes-barres.
+- Correction d’un problème qui pouvait provoquer le plantage de l’application au moment de la numérisation de codes-barres.
 - Divers problèmes corrigés qui empêcheraient le système de répondre.
 
 ## <a name="version-20100"></a>Version 2.0.10.0
 
 Cette version introduit les nouvelles fonctionnalités, les correctifs et les améliorations suivants :
 
-- Animation ajoutée lors du balayage via des listes et des pages.
+- Animation ajoutée au moment du balayage via des listes et des pages.
 - Le texte s’enroule désormais correctement sur la page d’erreur de connexion.
 - Les zones de liste déroulante sans valeurs par défaut s’affichent désormais correctement.
 - Les informations dans la zone de sous-en-tête sont désormais affichées uniquement sur la page de détails complets.
@@ -179,7 +194,7 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 
 ### <a name="known-issues-in-version-2070"></a>Problèmes connus dans la version 2.0.7.0
 
-- Sur certains appareils, vous obtiendrez le message d’erreur suivant lorsque vous démarrez l’application ou commencez une tâche : « Impossible de trouver une vue appropriée pour la taille spécifiée. » Si vous voyez ce message d’erreur sur l’un de vos appareils, vous devez rétrograder l’application mobile Warehouse Management vers la version 2.0.6.0 sur cet appareil et attendre la mise à niveau jusqu’à ce que la prochaine version de l’application soit publiée.
+- Sur certains appareils, vous obtiendrez le message d’erreur suivant quand vous démarrez l’application ou commencez une tâche : « Impossible de trouver une vue appropriée pour la taille spécifiée. » Si vous voyez ce message d’erreur sur l’un de vos appareils, vous devez rétrograder l’application mobile Warehouse Management vers la version 2.0.6.0 sur cet appareil et attendre la mise à niveau jusqu’à ce que la prochaine version de l’application soit publiée.
 
 ## <a name="version-2060"></a>Version 2.0.6.0
 
@@ -192,19 +207,19 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 - La hauteur minimale des fiches de travail a été augmentée (pour les cas où trois champs ou moins sont configurés pour la liste de travail).
 - Les marges (le fondu) au bas des cartes de détails ont été améliorées.
 - Les symboles non valides dans les fichiers XML échangés avec le serveur sont désormais gérés correctement. (Par exemple, les caractères non imprimables sont désormais gérés correctement et n’empêchent plus l’application de répondre.)
-- Les erreurs HTTP (telles que « erreur 503 ») lorsqu’une requête serveur est soumise sont désormais traitées correctement.
-- Lorsqu’une erreur est affichée, la liste des options n’est plus affichée automatiquement pour les contrôles de zone de liste.
+- Les erreurs HTTP (telles que « erreur 503 ») quand une requête serveur est soumise sont désormais traitées correctement.
+- Quand une erreur est affichée, la liste des options n’est plus affichée automatiquement pour les contrôles de zone de liste.
 - L’application ne cesse plus de répondre en raison de l’orientation d’affichage sélectionnée dans les paramètres utilisateur.
 - Les images des produits sont désormais affichées dans des environnements en libre service. (Cette modification s’applique uniquement aux versions basse résolution. Le service de gestion de fichiers ne prend pas en charge les images en taille réelle dans les environnements en libre service.)
 - Un problème qui impliquait des prélèvements partiels de quantité nulle (zéro) a été corrigé.
-- L’application ne cesse plus de répondre lorsqu’une carte de détails affiche plusieurs champs identiques.
+- L’application ne cesse plus de répondre quand une carte de détails affiche plusieurs champs identiques.
 
 ### <a name="known-issues-in-version-2060"></a>Problèmes connus dans la version 2.0.6.0
 
 Cette version présente les problèmes connus suivants :
 
 - L’application (en particulier la liste de travail) devient plus lente au fil du temps.
-- **Version Windows :** lorsqu’un pistolet USB est utilisé pour la lecture sous Windows, des résultats incohérents entraînent une confusion des symboles numérisés.
+- **Version Windows :** quand un pistolet USB est utilisé pour la lecture sous Windows, des résultats incohérents entraînent une confusion des symboles numérisés.
 
 ## <a name="version-2050"></a>Version 2.0.5.0
 
@@ -212,13 +227,13 @@ Cette version introduit les nouvelles fonctionnalités, les correctifs et les am
 
 - Le secret client n’est plus masqué dans la configuration des paramètres de connexion.
 - Vous pouvez maintenant appuyer longuement sur n’importe quel texte pour le voir complètement.
-- Le message d’erreur lorsque les autorisations de stockage sont absentes a été amélioré.
+- Le message d’erreur quand les autorisations de stockage sont absentes a été amélioré.
 - De nouvelles séquences de contrôle ont été ajoutées pour certains flux.
 - Le bouton d’envoi ne devient plus disponible de manière incorrecte en raison de la taille de la fenêtre.
-- Les curseurs peuvent désormais fonctionner sur des écrans plus petits lorsque des tailles de boutons plus grandes sont utilisées.
+- Les curseurs peuvent désormais fonctionner sur des écrans plus petits quand des tailles de boutons plus grandes sont utilisées.
 - La superposition à quatre boutons n’est plus tronquée.
 - Le clavier prend désormais en charge le bouton Supprimer.
-- Un problème de luminosité pouvant survenir lors de l’utilisation du clavier a été corrigé.
+- Un problème de luminosité pouvant survenir au moment de l’utilisation du clavier a été corrigé.
 - Divers problèmes des données de démonstration ont été corrigés.
 - Un problème qui affectait les champs numériques sur la page des détails a été corrigé.
 - Le clavier virtuel ne disparaît plus occasionnellement sur certains appareils.
@@ -253,4 +268,4 @@ Cette version introduit les nouvelles fonctionnalités, correctifs et améliorat
 
 Cette version présente le problème connu suivants :
 
-- Cette version présente un problème avec les appareils qui utilisent Android 4.4. Vous pouvez rencontrer des problèmes lorsque vous utilisez l’application sur cette version d’Android.
+- Cette version présente un problème avec les appareils qui utilisent Android 4.4. Vous pouvez rencontrer des problèmes quand vous utilisez l’application sur cette version d’Android.

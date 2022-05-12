@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Commerce.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384605"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649073"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Commerce
 
@@ -33,6 +33,20 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
 
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.25
+
+### <a name="modern-point-of-sale-mpos"></a>Modern POS (MPOS)
+
+L’application Modern Point of Sale (MPOS) sera obsolète dans la version 10.0.25 de Commerce et remplacée par l’application Store Commerce.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Les applications en magasin sont la pierre angulaire de l’offre omnicanale Dynamics 365 Commerce. Nous innovons en permanence pour offrir des expériences de magasin modernes et intelligentes, et pour moderniser davantage notre solution, nous déployons de nouveaux ensembles de changements qui amélioreront considérablement les opérations informatiques et les expériences des utilisateurs avec nos applications en magasin existantes sur Windows. La nouvelle application Store Commerce est une mise à niveau technologique du MPOS existant. Il offre des performances, une fiabilité et une prise en charge à long terme améliorées sur la plateforme Windows et élimine le besoin de reconditionner l’application à chaque mise à jour. |
+| **Remplacé par une autre fonctionnalité ?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **Zones de produit affectées**         | Modern POS |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète : À partir de la version 10.0.25 de Commerce, le programme d’installation MPOS fourni via les machines virtuelles (VM) LCS sera supprimé en octobre 2023. |
+
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.21
 
 [!include [banner](../includes/preview-banner.md)]
@@ -43,7 +57,7 @@ Le paramètre **Gestion des remises qui se chevauchent** sur la page **Paramètr
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l’option **Meilleure performance**. Par conséquent, il s’agit essentiellement d’une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles lors du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l’ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettre à jour la logique interne du moteur de tarification Commerce afin qu’il utilise désormais uniquement l’algorithme avancé (c’est-à-dire l’algorithme à l’origine de l’option **Meilleure performance**).</p> |
+| **Motif de l’abandon/de la suppression** | <p>Le paramètre **Gestion des remises qui se chevauchent** dans les paramètres Commerce contrôle la manière dont le moteur de tarification Commerce recherche et détermine la combinaison optimale de remises qui se chevauchent. Il propose actuellement trois options :<p><ul><li> **Meilleure performance** – Cette option utilise un algorithme heuristique avancé et une méthode [classement de la valeur marginale](../optimal-combination-overlapping-discounts.md) pour hiérarchiser, évaluer et déterminer la meilleure combinaison de remises en temps opportun.</li><li>**Calcul équilibré** – Dans la base de code actuelle, cette option fonctionne exactement comme l’option **Meilleure performance**. Par conséquent, il s’agit essentiellement d’une option dupliquée.</li><li>**Calcul exhaustif** – Cette option utilise un ancien algorithme qui passe en revue toutes les combinaisons de remises possibles au moment du calcul du prix. Pour les commandes comportant des lignes et des quantités importantes, cette option peut entraîner des problèmes de performances.</li></ul><p>Pour simplifier la configuration, améliorer les performances et réduire les incidents causés par l’ancien algorithme, nous supprimerons complètement le paramètre **Gestion des remises qui se chevauchent** et mettre à jour la logique interne du moteur de tarification Commerce afin qu’il utilise désormais uniquement l’algorithme avancé (c’est-à-dire l’algorithme à l’origine de l’option **Meilleure performance**).</p> |
 | **Remplacé par une autre fonctionnalité ?**   | Non. Nous recommandons aux organisations qui utilisent le commutateur d’option **Calcul équilibré** ou **Calcul exhaustif** à l’option **Meilleure performance** avant que cette fonctionnalité ne soit supprimée. |
 | **Zones de produit affectées**         | Tarification et remises |
 | **Option de déploiement**              | Tout |
@@ -59,7 +73,7 @@ Le SDK Retail est livré dans Lifecycle Services (LCS). Ce mode de distribution 
 | **Remplacé par une autre fonctionnalité ?**   |  [Télécharger les exemples et les packages de référence du SDK Retail depuis GitHub et NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Zones de produit affectées**         | Kit de développement logiciel (SDK) Retail |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : à partir de la version 10.0.21, le SDK fourni via les machines virtuelles LCS sera supprimé en avril 2023. |
+| **État**                         | Obsolète : à partir de la version 10.0.21, le SDK fourni via les machines virtuelles LCS sera supprimé en octobre 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Package déployable Retail et programmes d’installation combinés de points de vente, de stations matérielles et d’unité d’échelle Cloud
 
@@ -92,7 +106,7 @@ Le développement d’extensions PDV à l’aide de ModernPos.sln, CloudPos.sln,
 | **Remplacé par une autre fonctionnalité ?**   | [Kit de développement logiciel (SDK) de conditionnement indépendant du PDV](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Zones de produit affectées**         | Déploiement et extension PDV Dynamics 365 Commerce |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : à partir de la version 10.0.21, la prise en charge des packages de point de vente combinés et du modèle d’extension utilisant ModernPos.Sln, CloudPOs.sln et POS.Extensons.csproj dans le SDK Retail sera supprimée en avril 2023. |
+| **État**                         | Obsolète : à partir de la version 10.0.21, la prise en charge des packages de point de vente combinés et du modèle d’extension utilisant ModernPos.Sln, CloudPOs.sln et POS.Extensons.csproj dans le SDK Retail sera supprimée en octobre 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Fonctions supprimées ou obsolètes dans Commerce version 10.0.17
 

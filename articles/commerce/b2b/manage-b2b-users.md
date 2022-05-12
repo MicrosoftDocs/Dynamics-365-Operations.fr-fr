@@ -2,7 +2,7 @@
 title: Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 description: Cette rubrique décrit comment ajouter, supprimer et modifier des utilisateurs de partenaires commerciaux sur les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce et de Commerce Headquarters.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323453"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616855"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323453"
 Cette rubrique décrit comment ajouter, supprimer et modifier des utilisateurs de partenaires commerciaux sur les sites e-commerce interentreprises (B2B) Microsoft Dynamics 365 Commerce et de Commerce Headquarters.
 
 > [!NOTE]
-> La rubrique [Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients](partners-customer-hierarchies.md) est un prérequis pour ce document. 
+> - La rubrique [Gérer les partenaires commerciaux B2B à l’aide des hiérarchies de clients](partners-customer-hierarchies.md) est un prérequis pour ce document.
+> - Assurez-vous d’avoir initialisé l’entité des types de documents dans Commerce headquarters en ouvrant le formulaire **Types de documents** dans **Administration de l’organisation \> Gestion de documents \> Types de documents**.
 
 Les sites Web de commerce électronique B2B exigent que les organisations s’inscrivent pour devenir des partenaires commerciaux. Une fois qu’une organisation a soumis les détails d’inscription à un site e-commerce B2B, la demande d’inscription processuspasse par un processus de qualification. Si l’organisation est qualifiée avec succès, elle est intégrée en tant que partenaire commercial.
 
@@ -44,7 +45,7 @@ Pour approuver une demande de partenaire commercial au siège de Commerce, proc�
 1. Exécutez la tâche **P-0001** pour transférer toutes les demandes d’intégration des partenaires commerciaux dans Commerce Headquarters.
 1. Une fois que la tâche **P-0001** a été exécutée, accédez à **Retail et Commerce IT \> Client**, et exécutez la tâche **Synchroniser les clients et les demandes de canaux**. Une fois cette tâche exécutée avec succès, les demandes d’intégration sont créées en tant que type **Prospect B2B** dans Commerce Headquarters. 
 1. Accédez à **Clients \> Tous les prospects**, puis sélectionnez l’enregistrement de prospect du nouveau partenaire commercial pour ouvrir la page des détails du prospect.
-1. Sur l’onglet **Général**, sélectionnez **Convertir \> Approuver/Rejeter** pour approuver la demande d’intégration. Lorsqu’un message de confirmation apparaît, confirmez que vous souhaitez poursuivre le processus et approuvez la demande. L’approbation change dans le champ **Statut** de l’enregistrement du prospect sur **Approuvé**. Un e-mail est ensuite envoyé à l’adresse e-mail du demandeur pour confirmer que son organisation a été approuvée en tant que partenaire commercial. Une hiérarchie client est également créée, dans laquelle le demandeur est ajouté en tant qu’administrateur pour le partenaire commercial.
+1. Sur l’onglet **Général**, sélectionnez **Convertir \> Approuver/Rejeter** pour approuver la demande d’intégration. Quand un message de confirmation apparaît, confirmez que vous souhaitez poursuivre le processus et approuvez la demande. L’approbation change dans le champ **Statut** de l’enregistrement du prospect sur **Approuvé**. Un e-mail est ensuite envoyé à l’adresse e-mail du demandeur pour confirmer que son organisation a été approuvée en tant que partenaire commercial. Une hiérarchie client est également créée, dans laquelle le demandeur est ajouté en tant qu’administrateur pour le partenaire commercial.
 
     > [!NOTE]
     > Actuellement, l’e-mail de confirmation est envoyé immédiatement après approbation. Cependant, la future fonctionnalité Commerce permettra à l’administrateur de déclencher manuellement les e-mails.
@@ -54,15 +55,15 @@ Pour approuver une demande de partenaire commercial au siège de Commerce, proc�
 > [!NOTE]
 > Pour s’assurer que les nouveaux enregistrements client sont envoyés à la base de données du canal, au moins un des carnets d’adresses associés au client doit être inclus dans le carnet d’adresses client associé à la boutique en ligne. Vous pouvez automatiser ce processus en configurant le carnet d’adresses sur le client par défaut de la boutique en ligne afin que le système copie la valeur du carnet d’adresses pour chaque nouveau client.
 
-Une fois la demande approuvée et les enregistrements de la hiérarchie des clients et des clients synchronisés avec la base de données des canaux, le demandeur peut se connecter au site e-commerce B2B en utilisant l’adresse e-mail qu’il a fournie lors de la soumission de la demande. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte. Pour plus d’informations sur la façon d’activer l’enregistrement du fournisseur d’identité B2C Azure Active Directory (Azure AD) à lier à l’enregistrement client B2B qui a été créé lors de l’approbation du prospect, voir [Activer la liaison automatique](../identity-record-linking.md).
+Une fois la demande approuvée et les enregistrements de la hiérarchie des clients et des clients synchronisés avec la base de données des canaux, le demandeur peut se connecter au site e-commerce B2B en utilisant l’adresse e-mail qu’il a fournie au moment de la soumission de la demande. Les utilisateurs peuvent utiliser le flux d’inscription pour définir le mot de passe de leur compte. Pour plus d’informations sur la façon d’activer l’enregistrement du fournisseur d’identité B2C Azure Active Directory (Azure AD) à lier à l’enregistrement client B2B qui a été créé au moment de l’approbation du prospect, voir [Activer la liaison automatique](../identity-record-linking.md).
 
-## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notifier les prospects B2B lorsqu’ils sont approuvés ou rejetés
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notifier les prospects B2B quand  ils sont approuvés ou rejetés
 
-Lorsque vous approuvez ou rejetez une demande d’intégration de prospect B2B, une notification par e-mail peut être envoyée automatiquement au prospect.
+Quand vous approuvez ou rejetez une demande d’intégration de prospect B2B, une notification par e-mail peut être envoyée automatiquement au prospect.
 
 Pour configurer des notifications par e-mail dans Commerce Headquarters pour les événements du type de notification **Prospect B2B approuvé** ou **Prospect B2B rejeté**, procédez comme suit.
 
-1. Créez des modèles d’e-mails pour les e-mails qui seront envoyés aux prospects lorsque le type de notification **Prospect B2B approuvé** ou **Prospect B2B rejeté** est déclenché. Pour plus d’informations sur les espaces réservés pris en charge par ces types de notification, voir [Types de notifications](../email-templates-transactions.md#notification-types). Pour plus d’informations sur la création de modèles d’e-mails, voir [Créer un modèle d’e-mail](../email-templates-transactions.md#create-an-email-template).
+1. Créez des modèles d’e-mails pour les e-mails qui seront envoyés aux prospects quand le type de notification **Prospect B2B approuvé** ou **Prospect B2B rejeté** est déclenché. Pour plus d’informations sur les espaces réservés pris en charge par ces types de notification, voir [Types de notifications](../email-templates-transactions.md#notification-types). Pour plus d’informations sur la création de modèles d’e-mails, voir [Créer un modèle d’e-mail](../email-templates-transactions.md#create-an-email-template).
 1. Ajoutez les types de notification **Prospect B2B approuvé** et **Prospect B2B rejeté** à votre profil de notification par e-mail et mettez-les en correspondance avec les modèles d’e-mail que vous avez créés. Pour plus d’informations sur les profils de notification, voir [Configurer un profil de notification par e-mail](../email-notification-profiles.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Intégrer des utilisateurs partenaires supplémentaires
@@ -93,10 +94,10 @@ Pour modifier les détails des utilisateurs partenaires, procédez comme suit :
 Au besoin, un administrateur peut supprimer les utilisateurs existants d’une organisation partenaire commerciale de la liste des utilisateurs qui peuvent accéder au site Web de commerce électronique B2B.
 Pour supprimer un utilisateur partenaire, procédez comme suit :
 - Connectez-vous au site e-commerce B2B en tant qu’administrateur.
-- Accédez à **Mon compte > Utilisateurs de l’organisation \> Afficher les détails** et cliquez sur le bouton **Supprimer** (symbole "X"). Lorsqu’un message de confirmation apparaît, confirmez que vous souhaitez supprimer l’utilisateur. Les modifications ne prennent effet qu’après l’exécution des tâches **P-0001**, **Synchroniser les clients et les demandes de canaux**, et **1010 (Clients)**.
+- Accédez à **Mon compte > Utilisateurs de l’organisation \> Afficher les détails** et cliquez sur le bouton **Supprimer** (symbole "X"). Quand un message de confirmation apparaît, confirmez que vous souhaitez supprimer l’utilisateur. Les modifications ne prennent effet qu’après l’exécution des tâches **P-0001**, **Synchroniser les clients et les demandes de canaux**, et **1010 (Clients)**.
 
 > [!NOTE]
-> Lorsque vous supprimez un utilisateur de la liste des utilisateurs qui peuvent accéder au site Web de commerce électronique B2B, l’enregistrement client correspondant est supprimé de l’enregistrement de hiérarchie client du partenaire. Cependant, l’enregistrement client lui-même n’est pas supprimé de Commerce Headquarters.
+> Quand vous supprimez un utilisateur de la liste des utilisateurs qui peuvent accéder au site Web de commerce électronique B2B, l’enregistrement client correspondant est supprimé de l’enregistrement de hiérarchie client du partenaire. Cependant, l’enregistrement client lui-même n’est pas supprimé de Commerce Headquarters.
 
 ## <a name="onboard-existing-customers-as-business-partners-on-the-b2b-e-commerce-website"></a>Intégrer des clients existants en tant que partenaires commerciaux sur le site e-commerce B2B
 

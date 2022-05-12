@@ -2,7 +2,7 @@
 title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602960"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644355"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -40,14 +40,14 @@ Dans les applications Finance et Opérations, les utilisateurs ont la possibilit
 ### <a name="showing-the-grid-footer"></a>Affichage du pied de page de la grille
 Une zone de pied de page se trouve au bas de chaque grille tabulaire dans les applications Finance et Opérations. Le pied de page peut afficher des informations utiles relatives aux données qui s’affichent dans la grille. Voici quelques exemples de ces informations :
 
-- Le nombre de lignes sélectionnées dans le tableau (lorsque plusieurs enregistrements sont sélectionnés)
+- Le nombre de lignes sélectionnées dans le tableau (quand plusieurs enregistrements sont sélectionnés)
 - Les totaux généraux au bas des colonnes numériques configurées
 - Le nombre de lignes dans le dataset 
 
 Ce pied de page est masqué par défaut, mais peut être facilement activé. Pour afficher le pied de page d’une grille, sélectionnez le bouton **Options de grille** dans l’en-tête de la grille, puis sélectionnez l’option **Afficher le pied de page**. Une fois que vous avez activé le pied de page pour une grille particulière, ce paramètre sera mémorisé jusqu’à ce que l’utilisateur choisisse de masquer le pied de page. Pour masquer le pied de page, sélectionnez **Masquer le pied de page** dans le menu **Options de grille**.
 
 ### <a name="specifying-columns-with-totals"></a>Spécification de colonnes avec des totaux
-Actuellement, aucune colonne n’affiche les totaux par défaut. Cela est considéré comme une activité de configuration à part, similaire à l’ajustement de la largeur des colonnes dans les grilles. Une fois que vous avez spécifié que vous souhaitez voir les totaux d’une colonne, ce paramètre sera mémorisé lors de votre prochaine visite sur la page.
+Actuellement, aucune colonne n’affiche les totaux par défaut. Cela est considéré comme une activité de configuration à part, similaire à l’ajustement de la largeur des colonnes dans les grilles. Une fois que vous avez spécifié que vous souhaitez voir les totaux d’une colonne, ce paramètre sera mémorisé au moment de votre prochaine visite sur la page.
 
 Il existe deux façons de configurer une colonne pour afficher un total : 
 
@@ -59,31 +59,31 @@ Il existe deux façons de configurer une colonne pour afficher un total :
 
 - Une fois le pied de page visible, sélectionnez **Afficher le total** dans la zone de pied de page en bas de la colonne pour laquelle vous souhaitez voir un total. S’il n’y a pas de colonnes configurées, le bouton **Afficher le total** sera disponible pour toutes les colonnes numériques. 
 
-    Une fois qu’au moins une colonne est configurée pour les totaux, les boutons **Afficher le total** ne seront disponibles qu’en survol ou en focus. L’action de sélection de l’option **Afficher le total** enregistre simplement votre préférence d’affichage du total dans cette colonne, afin que la préférence soit appliquée lors des visites futures sur cette page. Dans le pied de page, cet état est indiqué par un tiret qui s’affiche dans la colonne. (Sinon, si l’ensemble de données est suffisamment petit, un total s’affiche immédiatement.)
+    Une fois qu’au moins une colonne est configurée pour les totaux, les boutons **Afficher le total** ne seront disponibles qu’en survol ou en focus. L’action de sélection de l’option **Afficher le total** enregistre simplement votre préférence d’affichage du total dans cette colonne, afin que la préférence soit appliquée au moment des visites futures sur cette page. Dans le pied de page, cet état est indiqué par un tiret qui s’affiche dans la colonne. (Sinon, si l’ensemble de données est suffisamment petit, un total s’affiche immédiatement.)
 
 Si vous faites une erreur et que vous ne voulez plus voir un total dans une colonne particulière, faites un clic droit sur la colonne et sélectionnez **Masquer le total** ou sélectionnez le bouton **Masquer le total** dans le pied de page de cette colonne. Cette préférence sera également enregistrée pour les futures visites de la page. 
 
 ### <a name="calculating-totals"></a>Calcul des totaux
-Lorsque vous accédez à une page avec le pied de page visible et des colonnes déjà configurées pour les totaux, les totaux peuvent ou non être affichés dans le pied de page. Le comportement dépend de la taille de l’ensemble de données sur la page. Si l’ensemble de données est suffisamment petit, les totaux seront affichés automatiquement, ainsi que le nombre de lignes dans l’ensemble de données. S’il y a des tirets dans le pied de page sous les colonnes que vous avez configurées pour les totaux, le jeu de données est trop volumineux pour que le système affiche immédiatement les totaux et une action explicite est nécessaire pour calculer les totaux. Pour ce faire, cliquez sur le bouton **Calculer** dans le pied de page, ou faites un clic droit sur une colonne pour laquelle vous souhaitez afficher un total et sélectionnez **Total de cette colonne**.
+Quand vous accédez à une page avec le pied de page visible et des colonnes déjà configurées pour les totaux, les totaux peuvent ou non être affichés dans le pied de page. Le comportement dépend de la taille de l’ensemble de données sur la page. Si l’ensemble de données est suffisamment petit, les totaux seront affichés automatiquement, ainsi que le nombre de lignes dans l’ensemble de données. S’il y a des tirets dans le pied de page sous les colonnes que vous avez configurées pour les totaux, le jeu de données est trop volumineux pour que le système affiche immédiatement les totaux et une action explicite est nécessaire pour calculer les totaux. Pour ce faire, cliquez sur le bouton **Calculer** dans le pied de page, ou faites un clic droit sur une colonne pour laquelle vous souhaitez afficher un total et sélectionnez **Total de cette colonne**.
 
 Si le calcul prend trop de temps, vous pouvez annuler l’opération en sélectionnant le bouton **Annuler**. Parfois, cependant, l’ensemble de données sera trop volumineux pour calculer les totaux (une limite imposée par votre organisation), et vous serez invité à filtrer davantage vos données. 
 
 > [!NOTE]
-> Les administrations système peuvent modifier la limite du nombre d’enregistrements disponibles pour le calcul des totaux en ajustant le paramètre **Nombre maximal d’enregistrements locaux pour chaque grille** sur la page **Options de performances des clients**. La valeur par défaut est 25 000 enregistrements. Les administrateurs doivent être prudents lors du réglage de cette valeur, car une valeur trop élevée peut épuiser la mémoire disponible sur la machine de l’utilisateur. La recommandation est de ne pas dépasser 50 000 enregistrements.   
+> Les administrations système peuvent modifier la limite du nombre d’enregistrements disponibles pour le calcul des totaux en ajustant le paramètre **Nombre maximal d’enregistrements locaux pour chaque grille** sur la page **Options de performances des clients**. La valeur par défaut est 25 000 enregistrements. Les administrateurs doivent être prudents au moment du réglage de cette valeur, car une valeur trop élevée peut épuiser la mémoire disponible sur la machine de l’utilisateur. La recommandation est de ne pas dépasser 50 000 enregistrements.   
 
-Les totaux seront mis à jour automatiquement lorsque vous mettez à jour, supprimez ou créez des lignes dans l’ensemble de données.
+Les totaux seront mis à jour automatiquement quand vous mettez à jour, supprimez ou créez des lignes dans l’ensemble de données.
 
 ## <a name="typing-ahead-of-the-system"></a>Saisie avant le système
 Dans de nombreux scénarios professionnels, la capacité de saisir rapidement des données dans le système est très importante. Avant l’introduction du nouveau contrôle de grille, les utilisateurs ne pouvaient modifier les données que dans la ligne actuelle. Avant de pouvoir créer une nouvelle ligne ou basculer vers une autre ligne, ils étaient obligés d’attendre que le système réussisse à valider les modifications. Afin de réduire le temps que les utilisateurs attendent pour que ces validations soient terminées et d’améliorer la productivité des utilisateurs, la nouvelle grille ajuste ces validations afin qu’elles soient asynchrones. Par conséquent, l’utilisateur peut passer à d’autres lignes pour apporter des modifications pendant que les validations de lignes précédentes sont en attente. 
 
-Pour prendre en charge ce nouveau comportement, une nouvelle colonne pour le statut de la ligne a été ajoutée à droite de la colonne de sélection de ligne lorsque la grille est en mode édition. Cette colonne indique l’un des statuts suivants :
+Pour prendre en charge ce nouveau comportement, une nouvelle colonne pour le statut de la ligne a été ajoutée à droite de la colonne de sélection de ligne quand la grille est en mode édition. Cette colonne indique l’un des statuts suivants :
 
 - **Vide** – L’image sans statut indique que la ligne a été correctement enregistrée par le système.
 - **Traitement en attente** – Ce statut indique que les modifications de la ligne n’ont pas encore été enregistrées par le serveur mais se trouvent dans une file d’attente de modifications qui doivent être traitées. Avant de prendre des mesures en dehors de la grille, vous devez attendre que toutes les modifications en attente soient traitées. En outre, le texte de ces lignes est en italique pour indiquer le statut non enregistré des lignes. 
-- **Etat non valide** – Ce statut indique qu’un avertissement ou un message a été déclenché pendant le traitement de la ligne et qu’il a pu empêcher le système d’enregistrer les modifications dans cette ligne. Dans l’ancienne grille, si l’enregistrement avait échoué, vous étiez obligé de retourner dans la ligne pour résoudre le problème immédiatement. Cependant, dans la nouvelle grille, vous êtes averti qu’un problème de validation a été rencontré, mais vous pouvez décider quand vous souhaitez résoudre les problèmes de la ligne. Lorsque vous êtes prêt à résoudre un problème, vous pouvez placer manuellement le focus sur la ligne. Vous pouvez également sélectionner l’action **Résoudre ce problème**. Cette action ramène immédiatement le focus sur la ligne qui pose problème et vous permet d’effectuer des modifications à l’intérieur ou à l’extérieur de la grille. Notez que le traitement des lignes en attente suivantes est arrêté jusqu’à ce que cet avertissement de validation soit résolu. 
-- **En pause** – Ce statut indique que le traitement par le serveur est interrompu, car la validation de la ligne a déclenché une boîte de dialogue contextuelle qui nécessite une entrée utilisateur. Étant donné que l’utilisateur peut entrer des données dans une autre ligne, la boîte de dialogue contextuelle n’est pas immédiatement présentée à cet utilisateur. Au lieu de cela, elle sera affichée lorsque l’utilisateur choisira de reprendre le traitement. Ce statut est accompagné d’une notification qui informe l’utilisateur de la situation. La notification comprend une action **Reprendre le traitement** qui déclenchera la boîte de dialogue contextuelle.
+- **Etat non valide** – Ce statut indique qu’un avertissement ou un message a été déclenché pendant le traitement de la ligne et qu’il a pu empêcher le système d’enregistrer les modifications dans cette ligne. Dans l’ancienne grille, si l’enregistrement avait échoué, vous étiez obligé de retourner dans la ligne pour résoudre le problème immédiatement. Cependant, dans la nouvelle grille, vous êtes averti qu’un problème de validation a été rencontré, mais vous pouvez décider quand vous souhaitez résoudre les problèmes de la ligne. Quand vous êtes prêt à résoudre un problème, vous pouvez placer manuellement le focus sur la ligne. Vous pouvez également sélectionner l’action **Résoudre ce problème**. Cette action ramène immédiatement le focus sur la ligne qui pose problème et vous permet d’effectuer des modifications à l’intérieur ou à l’extérieur de la grille. Notez que le traitement des lignes en attente suivantes est arrêté jusqu’à ce que cet avertissement de validation soit résolu. 
+- **En pause** – Ce statut indique que le traitement par le serveur est interrompu, car la validation de la ligne a déclenché une boîte de dialogue contextuelle qui nécessite une entrée utilisateur. Étant donné que l’utilisateur peut entrer des données dans une autre ligne, la boîte de dialogue contextuelle n’est pas immédiatement présentée à cet utilisateur. Au lieu de cela, elle sera affichée quand l’utilisateur choisira de reprendre le traitement. Ce statut est accompagné d’une notification qui informe l’utilisateur de la situation. La notification comprend une action **Reprendre le traitement** qui déclenchera la boîte de dialogue contextuelle.
 
-Lorsque les utilisateurs saisissent des données avant l’emplacement où le serveur effectue son traitement, ils peuvent s’attendre à quelques dégradations dans l’expérience de saisie de données, comme un manque de recherches, de validation au niveau du contrôle et de saisie de valeurs par défaut. Les utilisateurs qui ont besoin d’une liste déroulante pour trouver une valeur sont encouragés à attendre que le serveur rattrape la ligne actuelle. La validation au niveau du contrôle et la saisie des valeurs par défaut se produisent également lorsque le serveur traite cette ligne.
+Quand les utilisateurs saisissent des données avant l’emplacement où le serveur effectue son traitement, ils peuvent s’attendre à quelques dégradations dans l’expérience de saisie de données, comme un manque de recherches, de validation au niveau du contrôle et de saisie de valeurs par défaut. Les utilisateurs qui ont besoin d’une liste déroulante pour trouver une valeur sont encouragés à attendre que le serveur rattrape la ligne actuelle. La validation au niveau du contrôle et la saisie des valeurs par défaut se produisent également quand le serveur traite cette ligne.
 
 ### <a name="pasting-from-excel"></a>Collage depuis Excel
 Les utilisateurs ont toujours pu exporter des données à partir de grilles dans les applications Finance et Opérations vers Microsoft Excel à l’aide du mécanisme **Exporter vers Excel**. Cependant, la possibilité d’entrer des données avant le système permet à la nouvelle grille de prendre en charge la copie de tableaux à partir d’Excel et de les coller directement dans des grilles dans les applications Finance et Opérations. La cellule de grille à partir de laquelle l’opération de collage est lancée détermine où le tableau copié commence à être collé. Le contenu de la grille est écrasé par le contenu de la table copiée, sauf dans deux cas :
@@ -102,11 +102,11 @@ Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des
 Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon laquelle vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle colonne **Grouper par** au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe :
 
 - Valeur des données pour le groupe 
-- Nom de colonne (ces informations sont particulièrement utiles lorsque vous avez plusieurs niveaux de regroupement)
+- Nom de colonne (ces informations sont particulièrement utiles quand vous avez plusieurs niveaux de regroupement)
 - Nombre de lignes de données dans ce groupe
 - Sous-totaux pour toute colonne configurée pour afficher les totaux
 
-Lorsque [Vues enregistrées ](saved-views.md) est activé, ce regroupement peut être enregistré comme personnalisation dans le cadre d’une vue pour un accès rapide la prochaine fois que vous visiterez la page.
+Avec [Vues enregistrées](saved-views.md) activées, vous pouvez enregistrer le regroupement dans le cadre d’une vue sur des pages qui permettent d’enregistrer des requêtes dans des vues. Par exemple, celles avec de grands sélecteurs de vue. Pour obtenir des informations détaillées, voir la section [Basculer entre les vues](saved-views.md#switching-between-views). 
 
 ### <a name="multiple-levels-of-grouping"></a>Plusieurs niveaux de regroupement
 Après avoir regroupé les données dans une seule colonne, vous pouvez regrouper les données dans une colonne différente en sélectionnant **Regrouper selon cette colonne** sur la colonne souhaitée. Ce processus peut être répété jusqu’à ce que vous disposiez de 5 niveaux de regroupement imbriqués, ce qui correspond à la profondeur maximale prise en charge. À ce stade, vous ne pourrez plus regrouper par colonnes supplémentaires.
@@ -116,7 +116,7 @@ Après avoir regroupé les données dans une seule colonne, vous pouvez regroupe
 ### <a name="sorting-grouped-data"></a>Tri des données groupées
 Après avoir regroupé les données sur une ou plusieurs colonnes, vous pouvez modifier le sens du tri pour n’importe quelle colonne de regroupement via l’en-tête de colonne correspondant. 
 
-Le comportement lorsque vous triez sur des colonnes non groupées dépend de la version de votre produit :
+Le comportement quand vous triez sur des colonnes non groupées dépend de la version de votre produit :
 
 - Dans la version 10.0.24 et les versions antérieures, si vous triez sur une colonne non groupée, le regroupement est supprimé de toutes les colonnes et les données sont triées sur la colonne sélectionnée. 
 - Dans la version 10.0.25 et les versions ultérieures, si vous triez sur une colonne non groupée, le regroupement reste intact et les données sont triées dans chaque groupe, selon la colonne sélectionnée.
@@ -128,7 +128,7 @@ Le regroupement initial de données aura tous les groupes développés. Vous pou
 De la même manière que vous pouvez sélectionner (ou désélectionner) toutes les lignes de la grille en cochant la case en haut de la première colonne de la grille, vous pouvez également sélectionner (ou désélectionner) rapidement toutes les lignes d’un groupe en cochant la case dans la ligne d’en-tête de groupe correspondante. La case à cocher dans la ligne d’en-tête de groupe reflète toujours l’état de sélection actuel des lignes de ce groupe, que toutes les lignes soient sélectionnées, qu’aucune ligne ne soit sélectionnée ou que seules certaines lignes soient sélectionnées.
 
 ### <a name="hiding-column-names"></a>Masquer les noms de colonnes
-Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. Vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
+Au moment du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. Vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
 
 ### <a name="grouping-on-date-and-time-columns"></a>Regroupement sur des colonnes de date et d’heure
 À partir de la version 10.0.24, pour les champs Date ou DateHeure, l’option a été ajoutée pour regrouper par Année, Mois ou Jour. Le groupe « valeur » dans la ligne d’en-tête correspondante correspondra au format de ce champ. De plus, pour les champs DateHeure et Heure, vous pouvez regrouper par Heure, Minute ou Seconde. 
@@ -140,7 +140,7 @@ Pour figer une colonne, cliquez avec le bouton droit sur l’en-tête de la colo
 
 Pour libérer une colonne, cliquez avec le bouton droit sur l’en-tête de la colonne figée, puis sélectionnez **Libérer la colonne**. 
 
-Notez que les colonnes de sélection de ligne et d’état de ligne dans la nouvelle grille sont toujours figées comme les deux premières colonnes. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour les utilisateurs, quelle que soit la position de défilement horizontal dans la grille. Ces deux colonnes ne peuvent pas être réorganisées.
+Notez que les colonnes de sélection de ligne et d’état de ligne dans la nouvelle grille sont toujours figées comme les deux premières colonnes. Par conséquent, quand ces colonnes sont incluses dans une grille, elles seront toujours visibles pour les utilisateurs, quelle que soit la position de défilement horizontal dans la grille. Ces deux colonnes ne peuvent pas être réorganisées.
 
 ## <a name="autofit-column-width"></a>Ajuster automatiquement la largeur de la colonne
 Comme dans Excel, les utilisateurs peuvent forcer automatiquement le redimensionnement d’une colonne en fonction du contenu actuellement affiché dans cette colonne. Pour ce faire, double-cliquez sur les poignées de redimensionnement dans la colonne, ou mettez en évidence l’en-tête de colonne et appuyez sur **A** (pour l’ajustement automatique). Cette fonctionnalité est disponible à partir de la version 10.0.23.
@@ -160,15 +160,15 @@ Si votre organisation découvre une page qui n’arrive pas à utiliser la nouve
 Cette API sera disponible jusqu’à ce que le nouveau contrôle de grille devienne obligatoire. Ce changement est actuellement prévu pour octobre 2022. Si des problèmes nécessitent l’utilisation de cette API, signalez-les à Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forcer une page à utiliser la nouvelle grille après avoir précédemment refusé la grille
-Si vous avez refusé l’utilisation de la nouvelle grille pour une page individuelle, vous souhaiterez peut-être réactiver ultérieurement la nouvelle grille une fois les problèmes sous-jacents résolus. Pour ce faire, il vous suffit de supprimer l’appel à `forceLegacyGrid()`. La modification ne prendra effet que lorsque l’un des événements suivants se produira :
+Si vous avez refusé l’utilisation de la nouvelle grille pour une page individuelle, vous souhaiterez peut-être réactiver ultérieurement la nouvelle grille une fois les problèmes sous-jacents résolus. Pour ce faire, il vous suffit de supprimer l’appel à `forceLegacyGrid()`. La modification ne prendra effet que quand l’un des événements suivants se produira :
 
-- **Redéploiement de l’environnement** : lorsqu’un environnement est mis à jour et redéployé, la table qui stocke les pages pour lesquelles a été refusée la nouvelle grille (FormControlReactGridState) est automatiquement effacée.
+- **Redéploiement de l’environnement** : quand un environnement est mis à jour et redéployé, la table qui stocke les pages pour lesquelles a été refusée la nouvelle grille (FormControlReactGridState) est automatiquement effacée.
 - **Effacement manuel de la table** : pour les scénarios de développement, vous devrez utiliser SQL pour effacer la table FormControlReactGridState, puis redémarrer l’AOS. Cette combinaison d’actions réinitialisera la mise en cache des pages pour lesquelles la nouvelle grille a été refusée.
 
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Développeur] Désactiver les grilles individuelles de la saisie avant la capacité du système
-Certains scénarios se sont présentés qui ne se prêtent pas à une bonne collaboration avec la capacité *Saisie avant le système* de la grille. (Par exemple, un code qui est déclenché lorsqu’une ligne est validée provoque le déclenchement d’une recherche de source de données, et la recherche peut alors corrompre des modifications non validées sur des lignes existantes.) Si votre organisation fait face à un tel scénario, une API est disponible afin que le développeur désactive une grille individuelle de la validation de ligne asynchrone et rétablisse le comportement hérité.
+Certains scénarios se sont présentés qui ne se prêtent pas à une bonne collaboration avec la capacité *Saisie avant le système* de la grille. (Par exemple, un code qui est déclenché quand une ligne est validée provoque le déclenchement d’une recherche de source de données, et la recherche peut alors corrompre des modifications non validées sur des lignes existantes.) Si votre organisation fait face à un tel scénario, une API est disponible afin que le développeur désactive une grille individuelle de la validation de ligne asynchrone et rétablisse le comportement hérité.
 
-Lorsque la validation de ligne asynchrone est désactivée dans une grille, les utilisateurs ne peuvent pas créer de ligne ou passer à une autre ligne existante dans la grille tant qu’il existe des problèmes de validation sur la ligne actuelle. Comme effet secondaire de cette action, les tableaux ne peuvent pas être collés depuis Excel dans les grilles Finance et Opérations.
+Quand la validation de ligne asynchrone est désactivée dans une grille, les utilisateurs ne peuvent pas créer de ligne ou passer à une autre ligne existante dans la grille tant qu’il existe des problèmes de validation sur la ligne actuelle. Comme effet secondaire de cette action, les tableaux ne peuvent pas être collés depuis Excel dans les grilles Finance et Opérations.
 
 Pour désactiver une grille individuelle de la validation de ligne asynchrone, ajoutez l’appel suivant après `super()` dans la méthode `run()` du formulaire.
 
@@ -191,10 +191,10 @@ Cette section maintient une liste des problèmes connus pour le nouveau contrôl
     - Il existe une liste de cartes groupée sur la page.
     - Une colonne de grille avec un contrôle extensible non réactif.
 
-    Lorsqu’un utilisateur rencontre pour la première fois l’un de ces scénarios, un message concernant l’actualisation de la page s’affiche. Une fois ce message affiché, la page va continuer à utiliser la grille existante pour tous les utilisateurs jusqu’à la prochaine mise à jour de la version du produit. Une meilleure gestion de ces scénarios, afin de pouvoir utiliser la nouvelle grille, est envisagée pour une future mise à jour.
+    Quand un utilisateur rencontre pour la première fois l’un de ces scénarios, un message concernant l’actualisation de la page s’affiche. Une fois ce message affiché, la page va continuer à utiliser la grille existante pour tous les utilisateurs jusqu’à la prochaine mise à jour de la version du produit. Une meilleure gestion de ces scénarios, afin de pouvoir utiliser la nouvelle grille, est envisagée pour une future mise à jour.
 
-- [KB 4582758] Les enregistrements sont flous lorsque vous changez le zoom de 100 à tout autre pourcentage
-- [KB 4592012] Erreur client inattendue dans IE11 lors du collage de plusieurs lignes à partir d’Excel
+- [KB 4582758] Les enregistrements sont flous quand vous changez le zoom de 100 à tout autre pourcentage
+- [KB 4592012] Erreur client inattendue dans IE11 au moment du collage de plusieurs lignes à partir d’Excel
 
     Microsoft ne cherche pas à résoudre ce problème
 

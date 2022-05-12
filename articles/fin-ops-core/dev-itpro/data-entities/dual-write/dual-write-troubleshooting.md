@@ -2,19 +2,19 @@
 title: Résolution générale des problèmes
 description: Cette rubrique fournit des informations générales sur le dépannage de l’intégration de la double-écriture entre les applications Finance et Opérations et Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554597"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614093"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -29,7 +29,7 @@ Cette rubrique fournit des informations générales sur le dépannage de l’int
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Activer et afficher le journal de suivi des plug-ins dans Dataverse pour afficher les détails de l’erreur
 
-Les journaux de suivi peuvent être utiles lors du dépannage de problèmes de synchronisation en direct à double écriture entre Finance & Operations et Dataverse. Les journaux peuvent fournir des détails spécifiques aux équipes qui assurent le support technique et d'ingénierie pour Dynamics 365. Cet article explique comment activer les journaux de suivi et comment les afficher. Les journaux de suivi sont gérés dans la page Paramètres de Dynamics 365 et nécessitent des privilèges de niveau administrateur pour être modifiés et affichés. 
+Les journaux de suivi peuvent être utiles au moment du dépannage de problèmes de synchronisation en direct à double écriture entre Finance & Operations et Dataverse. Les journaux peuvent fournir des détails spécifiques aux équipes qui assurent le support technique et d’ingénierie pour Dynamics 365. Cet article explique comment activer les journaux de suivi et comment les afficher. Les journaux de suivi sont gérés dans la page Paramètres de Dynamics 365 et nécessitent des privilèges de niveau administrateur pour être modifiés et affichés. 
 
 **Rôle requis pour activer le journal de suivi et afficher les erreurs :** Administrateur système
 
@@ -38,12 +38,12 @@ Pour activer le journal de suivi, procédez comme suit.
 
 1.  Connectez-vous à Dynamics 365 et sélectionnez **Paramètres** dans la barre de navigation supérieure. Sur la page Systèmes, cliquez sur **Administration**.
 2.  Sur la page Administration, sélectionnez **Paramètres système**.
-3.  Sélectionnez l'onglet **Personnalisation** et le plug-in, puis dans la section de suivi des activités du workflow, changez le menu déroulant en **Tous**. Cela permettra de suivre toutes les activités et fournira un ensemble complet de données aux équipes qui doivent examiner les problèmes potentiels.
+3.  Sélectionnez l’onglet **Personnalisation** et le plug-in, puis dans la section de suivi des activités du workflow, changez le menu déroulant en **Tous**. Cela permettra de suivre toutes les activités et fournira un ensemble complet de données aux équipes qui doivent examiner les problèmes potentiels.
 
 > [!NOTE]
-> Si vous définissez la liste déroulante sur **Exception**, cela ne fournira d'informations de suivi que lorsque des exceptions (erreurs) se produiront.
+> Si vous définissez la liste déroulante sur **Exception**, cela ne fournira d’informations de suivi que quand des exceptions (erreurs) se produiront.
 
-Une fois activés, les journaux de suivi du plug-in continueront d'être collectés jusqu'à ce qu'ils soient désactivés manuellement en revenant à cet emplacement et en sélectionnant **Désactivé**.
+Une fois activés, les journaux de suivi du plug-in continueront d’être collectés jusqu’à ce qu’ils soient désactivés manuellement en revenant à cet emplacement et en sélectionnant **Désactivé**.
 
 ### <a name="view-the-trace-log"></a>Afficher le journal de suivi
 Pour afficher le journal de suivi, procédez comme suit.
@@ -51,9 +51,9 @@ Pour afficher le journal de suivi, procédez comme suit.
 1. Sur la page Paramètres de Dynamics 365, sélectionnez **Paramètres** dans la barre de navigation supérieure. 
 2. Sélectionnez **Journal de suivi du plug-in** dans la section **Personnalisations** de la page.
 3. Vous pouvez rechercher des entrées dans la liste des journaux de suivi, en fonction du nom du type et/ou du nom du message.
-4. Ouvrez l'entrée souhaitée pour afficher le journal complet. Le bloc de message dans la section Exécution fournira les informations disponibles pour le plug-in. Si disponibles, les détails de l'exception seront également fournis. 
+4. Ouvrez l’entrée souhaitée pour afficher le journal complet. Le bloc de message dans la section Exécution fournira les informations disponibles pour le plug-in. Si disponibles, les détails de l’exception seront également fournis. 
 
-Vous pouvez copier le contenu des journaux de suivi et les coller dans une autre application comme le Bloc-notes ou d'autres outils pour afficher les journaux ou les fichiers texte pour voir plus facilement tout le contenu. 
+Vous pouvez copier le contenu des journaux de suivi et les coller dans une autre application comme le Bloc-notes ou d’autres outils pour afficher les journaux ou les fichiers texte pour voir plus facilement tout le contenu. 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finance et Opérations
 
@@ -81,15 +81,15 @@ Des erreurs de double écriture qui proviennent de Dataverse peuvent apparaître
 6. Sélectionnez **Journaux des applications et des services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Opérationnel**.
 7. Consultez la liste des erreurs récentes.
 
-## <a name="dual-write-ui-landing-page-showing-blank"></a>Page de destination de l'interface utilisateur à double écriture vide
-Lors de l'ouverture de la page à double écriture dans le navigateur Microsoft Edge ou Google Chrome, la page d'accueil ne se charge pas et vous voyez une page vierge ou une erreur telle que « Une erreur s'est produite ».
+## <a name="dual-write-ui-landing-page-showing-blank"></a>Page de destination de l’interface utilisateur à double écriture vide
+Au moment de l’ouverture de la page à double écriture dans le navigateur Microsoft Edge ou Google Chrome, la page d’accueil ne se charge pas et vous voyez une page vierge ou une erreur telle que « Une erreur s’est produite ».
 Dans Devtools, vous voyez une erreur dans les journaux de la console :
 
->bundle.eed39124e62c58ef34d2.js:37 DOMException : Impossible de lire la propriété 'sessionStorage' depuis 'Window' : l'accès à ce document est refusé. at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
+>bundle.eed39124e62c58ef34d2.js:37 DOMException : Impossible de lire la propriété ’sessionStorage’ depuis ’Window’ : l’accès à ce document est refusé. at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
 
-L'interface utilisateur utilise le « stockage de session » du navigateur pour stocker certaines valeurs de propriété pour le chargement de la page d'accueil. Pour que cela fonctionne, les cookies tiers doivent être autorisés dans le navigateur du site. L'erreur indique que l'interface utilisateur ne peut pas accéder au stockage de session. Il peut y avoir deux scénarios dans lesquels ce problème est rencontré :
+L’interface utilisateur utilise le « stockage de session » du navigateur pour stocker certaines valeurs de propriété pour le chargement de la page d’accueil. Pour que cela fonctionne, les cookies tiers doivent être autorisés dans le navigateur du site. L’erreur indique que l’interface utilisateur ne peut pas accéder au stockage de session. Il peut y avoir deux scénarios dans lesquels ce problème est rencontré :
 
-1.  Vous ouvrez l'interface utilisateur en mode navigation privée d'Edge/Chrome et les cookies tiers en navigation privée sont bloqués.
+1.  Vous ouvrez l’interface utilisateur en mode navigation privée d’Edge/Chrome et les cookies tiers en navigation privée sont bloqués.
 2.  Vous avez complètement bloqué les cookies tiers dans Edge/Chrome.
 
 ### <a name="mitigation"></a>Atténuation
@@ -97,13 +97,13 @@ Les cookies tiers doivent être autorisés dans les paramètres du navigateur.
 
 ### <a name="google-chrome-browser"></a>Navigateur Google Chrome
 1ère option :
-1.  Accédez aux paramètres en entrant chrome://settings/ dans la barre d'adresse, puis accédez à Confidentialité et sécurité -> Cookies et autres données de site.
+1.  Accédez aux paramètres en entrant chrome://settings/ dans la barre d’adresse, puis accédez à Confidentialité et sécurité -> Cookies et autres données de site.
 2.  Sélectionnez « Autoriser tous les cookies ». Si vous ne souhaitez pas le faire, optez pour la deuxième option.
 
 2ème option :
-1.  Accédez aux paramètres en entrant chrome://settings/ dans la barre d'adresse, puis accédez à Confidentialité et sécurité -> Cookies et autres données de site.
+1.  Accédez aux paramètres en entrant chrome://settings/ dans la barre d’adresse, puis accédez à Confidentialité et sécurité -> Cookies et autres données de site.
 2.  Si « Bloquer les cookies tiers en mode navigation privée » ou « Bloquer les cookies tiers » est sélectionné, accédez à « Sites qui peuvent toujours utiliser des cookies » et cliquez sur **Ajouter**. 
-3.  Ajoutez le nom de votre site d'applications Finance & Operations - https://<votre_instance_FinOp>.cloudax.dynamics.com. Assurez-vous de cocher la case « Tous les cookies, sur ce site uniquement ». 
+3.  Ajoutez le nom de votre site d’applications Finance & Operations - https://<votre_instance_FinOp>.cloudax.dynamics.com. Assurez-vous de cocher la case « Tous les cookies, sur ce site uniquement ». 
 
 ### <a name="microsoft-edge-browser"></a>Navigateur Microsoft Edge
 1.  Accédez à Paramètres -> Autorisations du site -> Cookies et données de site.
@@ -123,7 +123,7 @@ Vous pouvez maintenant lier un nouvel environnement.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Impossible d’afficher le formulaire d’informations de ligne de la commande client 
 
-Lorsque vous créez une commande client dans Dynamics 365 Sales, cliquer sur **+ Ajouter des produits** peut vous rediriger vers le formulaire de ligne de commande Dynamics 365 Project Operations. Il n’y a aucun moyen à partir de ce formulaire pour afficher le formulaire de ligne de commande client **Informations**. L’option pour **Informations** n’apparaît pas dans la liste déroulante sous **Nouvelle ligne de commande**. Cela se produit car Project Operations a été installé dans votre environnement.
+Quand vous créez une commande client dans Dynamics 365 Sales, cliquer sur **+ Ajouter des produits** peut vous rediriger vers le formulaire de ligne de commande Dynamics 365 Project Operations. Il n’y a aucun moyen à partir de ce formulaire pour afficher le formulaire de ligne de commande client **Informations**. L’option pour **Informations** n’apparaît pas dans la liste déroulante sous **Nouvelle ligne de commande**. Cela se produit car Project Operations a été installé dans votre environnement.
 
 Pour réactiver l’option de formulaire **Informations**, procédez comme suit :
 
@@ -131,6 +131,29 @@ Pour réactiver l’option de formulaire **Informations**, procédez comme suit�
 2. Recherchez le formulaire **Informations** sous le nœud de formulaires.
 3. Sélectionnez le formulaire **Informations** et cliquez sur **Activer les rôles de sécurité**.
 4. Modifiez le paramètre de sécurité sur **Afficher pour tout le monde**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Comment s’assurer que l’intégration des données utilise le schéma de finances et d’opérations le plus récent
+
+Vous pouvez rencontrer des problèmes de données dans votre intégration de données si le schéma le plus récent n’est pas utilisé. Les étapes suivantes vous aideront à actualiser la liste des entités dans les applications de finances et d’opérations et les entités dans l’intégrateur de données.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Actualisez la liste d’entités à votre environnement de finances et d’opérations
+1.  Connectez-vous à votre environnement de finances et d’opérations.
+2.  Sélectionnez **Gestion de données**.
+3.  Dans Gestion des données, sélectionnez **Paramètres de l’environnement**.
+4.  Sur la page **Paramètres du cadre d’import/export de données**, sélectionnez l’onglet **Paramètres d’entité**, puis sélectionnez **Actualiser la liste des entités**. L’actualisation peut prendre plus de 30 minutes, selon le nombre d’entités impliquées.
+5.  Aller vers **Gestion de données** et sélectionnez **Entités de données** pour valider que les entités attendues sont listées. Si les entités attendues ne sont pas répertoriées, vérifiez que les entités apparaissent dans votre environnement de finances et d’opérations et restaurez les entités manquantes, si nécessaire.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Si l’actualisation ne résout pas le problème, supprimez et rajoutez les entités
+
+> [!NOTE]
+> Vous devrez peut-être arrêter tous les groupes de traitement qui utilisent activement les entités avant la suppression.
+
+1.  Sélectionnez **Gestion de données** dans votre environnement de finances et d’opérations et sélectionnez **Entités de données**.
+2.  Recherchez les entités avec problèmes et prenez note de l’entité cible, de la table intermédiaire, du nom de l’entité et des autres paramètres. Supprimez l’entité ou les entités de la liste.
+3.  Sélectionnez **Nouveau** et rajoutez l’entité ou les entités en utilisant les données de l’étape 2. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Actualiser les entités dans l’intégrateur de données
+Connectez-vous au Centre d’administration de Power Platform et sélectionnez **Intégration de données**. Ouvrez le projet où les problèmes se produisent et sélectionnez **Actualiser les entités**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Comment activer et enregistrer le suivi du réseau afin que le suivi puisse être joint aux tickets de support
 

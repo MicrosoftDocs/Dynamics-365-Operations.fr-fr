@@ -1,6 +1,6 @@
 ---
 title: Facturation électronique pour l’Égypte
-description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Égypte dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
+description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Égypte dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371354"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661720"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Facturation électronique pour l’Égypte
 
@@ -41,8 +41,8 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
     - [Paramétrer les ressources Azure pour la facturation électronique](e-invoicing-set-up-azure-resources.md)
     - [Installer le module complémentaire pour les microservices dans Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
     
-- Activez l’intégration entre votre application Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management et le service de Facturation électronique tel que décrit dans [Activer et configurer l’intégration avec la facturation électronique](e-invoicing-activate-setup-integration.md).
-- Créez une clé secrète de certificat numérique dans Azure Key Vault et configurez-la comme décrit dans [Certificats et clés secrètes client](e-invoicing-customer-certificates-secrets.md). À des fins de test, l’administration fiscale égyptienne fournit des certificats numériques de test spécifiques qui ne doivent être utilisés que pendant les phases de test et de validation de la solution. Pour plus d’informations, accédez au site web de l’administration fiscale égyptienne en utilisant le lien fourni dans le [SDK de facturation électronique pour l’Égypte](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Activez l’intégration entre votre application Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management et le service de Facturation électronique tel que décrit dans [Activer et configurer l’intégration avec la facturation électronique](e-invoicing-activate-setup-integration.md).
+- Créez une clé secrète de certificat numérique dans Azure Key Vault et configurez-la comme décrit dans [Certificats et clés secrètes client](e-invoicing-customer-certificates-secrets.md). À des fins de test, l’administration fiscale égyptienne fournit des certificats numériques de test spécifiques qui ne doivent être utilisés que pendant les phases de test et de validation de la solution. Pour plus d’informations, accédez au site web de l’administration fiscale égyptienne en utilisant le lien fourni dans le [SDK de facturation électronique pour l’Égypte](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Configuration spécifique au pays pour la fonctionnalité de facturation électronique pour l’Égypte (EG)
 
@@ -56,7 +56,7 @@ Certains des paramètres de la **Fonctionnalité de Facturation électronique de
 6. Sur l’onglet **Pipeline de traitement**, dans la section **Pipeline de traitement**, sélectionnez **Signer un document JSON pour l’administration fiscale égyptienne**.
 7. Dans la section **Paramètres**, sélectionnez **Nom du certificat**, puis sélectionnez le nom du certificat numérique que vous avez créé.
 8. Dans la section **Pipeline de traitement**, sélectionnez **Intégration avec le service ETA égyptien**. Répétez cette étape pour les deux occurrences de cette action.
-9. Dans la section **Paramètres**, sélectionnez **URL du service Web** et **URL du service de connexion**. Puis examinez les paramètres de l’URL. Pour obtenir l’URL de test et de production accédez au site web de l’administration fiscale égyptienne en utilisant le lien fourni dans le [kit SDK de facturation électronique pour l’Égypte](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Dans la section **Paramètres**, sélectionnez **URL du service Web** et **URL du service de connexion**. Puis examinez les paramètres de l’URL. Pour obtenir l’URL de test et de production accédez au site web de l’administration fiscale égyptienne en utilisant le lien fourni dans le [kit SDK de facturation électronique pour l’Égypte](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Cliquez sur **Enregistrer**, puis fermez la page.
 11. Répétez les étapes 4 à 10 pour la configuration de la fonctionnalité provenant de **Facture de projet**.
 
@@ -65,7 +65,7 @@ Certains des paramètres de la **Fonctionnalité de Facturation électronique de
 Certains paramètres doivent être configurés dans votre environnement Finance ou Supply Chain Management. Vous pouvez terminer cette configuration dans l’un des deux emplacements suivants :
 
 - Directement dans votre environnement Finance ou Supply Chain Management. Pour plus d’informations, voir [Configuration des paramètres de facturation électronique](e-invoicing-set-up-parameters.md).
-- Dans RCS. Dans le cadre de la configuration de la fonctionnalité de facturation électronique, vous pouvez définir tous les paramètres, puis les déployer directement dans votre environnement Finance ou Supply Chain Management lorsque vous déployez la fonctionnalité de facturation électronique.
+- Dans RCS. Dans le cadre de la configuration de la fonctionnalité de facturation électronique, vous pouvez définir tous les paramètres, puis les déployer directement dans votre environnement Finance ou Supply Chain Management quand vous déployez la fonctionnalité de facturation électronique.
 
 Pour les deux options, les paramètres sont les mêmes. Si vous configurez votre première fonctionnalité dans le service de facturation électronique, nous vous recommandons de suivre ces étapes pour configurer les paramètres dans RCS, puis les déployer sur votre application connectée.
 

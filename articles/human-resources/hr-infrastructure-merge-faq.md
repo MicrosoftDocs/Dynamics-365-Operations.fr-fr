@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062723"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661456"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>FAQ sur la fusion d’infrastructure de Dynamics 365 Human Resources
 
@@ -32,7 +32,7 @@ Cette rubrique répond aux questions fréquemment posées sur la fusion d’infr
 
 ## <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>Qu’est-ce que la fusion d’infrastructure pour Dynamics 365 Human Resources ?
 
-Dynamics 365 Human Resources est une application autonome qui utilise une infrastructure différente des autres applications Finances et Opérations, telles que Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce et Dynamics 365 Project Operations. La fusion des infrastructures permet d’intégrer Dynamics 365 Human Resources dans la même infrastructure que les autres applications Finances et Opérations.
+Dynamics 365 Human Resources est une application autonome qui utilise une infrastructure différente des autres applications de finances et d’opérations, telles que Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce et Dynamics 365 Project Operations. La fusion des infrastructures permet d’intégrer Dynamics 365 Human Resources dans la même infrastructure que les autres applications Finances et Opérations.
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>Valeur ajoutée et avantages de la fusion des infrastructures
 
@@ -141,7 +141,7 @@ Si les applications sont actuellement connectées au même environnement Power A
 
 Cependant, si l’application Human Resources et les applications Finances et Opérations sont connectées à des environnements Power Apps distincts elles devront être combinées dans le cadre de la migration. Cette tâche exigera que toutes les personnalisations Power Apps et autres soient redéployées dans le nouvel environnement.
 
-### <a name="we-have-enabled-dataverse-virtual-tables-for-dynamics-365-human-resources-what-will-happen-to-these-tables-during-the-migration"></a>Nous avons activé les tables virtuelles Dataverse pour Dynamics 365 Human Resources. Qu’adviendra-t-il de ces tables lors de la migration ?
+### <a name="we-have-enabled-dataverse-virtual-tables-for-dynamics-365-human-resources-what-will-happen-to-these-tables-during-the-migration"></a>Nous avons activé les tables virtuelles Dataverse pour Dynamics 365 Human Resources. Qu’adviendra-t-il de ces tables au moment de la migration ?
 
 Après la migration, si l’environnement de la nouvelle infrastructure demeure connecté à l’environnement Dataverse actuellement connecté à Dynamics 365 Human Resources, les tables virtuelles Dataverse qui ont été générées dans cet environnement continueront de fonctionner sans aucune configuration supplémentaire.
 
@@ -191,7 +191,7 @@ Les bibliothèques de processus métier pour le projet LCS seront migrées vers 
 
 Les options d’extensibilité de Microsoft Power Platform les options d’extensibilité de Finances et Opérations seront disponibles et pourront être utilisées pour le développement. Pour plus d’informations, consultez [Développer et personnaliser la page d’accueil](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md).
 
-### <a name="we-have-enabled-features-in-dynamics-365-human-resources-will-these-features-be-enabled-automatically-during-the-migration"></a>Nous avons activé des fonctionnalités dans Dynamics 365 Human Resources. Ces fonctionnalités seront-elles activées automatiquement lors de la migration ?
+### <a name="we-have-enabled-features-in-dynamics-365-human-resources-will-these-features-be-enabled-automatically-during-the-migration"></a>Nous avons activé des fonctionnalités dans Dynamics 365 Human Resources. Ces fonctionnalités seront-elles activées automatiquement au moment de la migration ?
 
 L’activation automatique d’une fonctionnalité dans la nouvelle infrastructure sera déterminée individuellement pour chaque fonctionnalité. Ces informations seront incluses dans la documentation des fonctionnalités.
 
@@ -207,7 +207,7 @@ Toute exportation actuellement configurée pour Azure Data Lake Storage dans les
 
 Oui. Dynamics 365 Human Resources sera inclus dans la base de code et l’infrastructure fusionnés pour les applications Finances et Opérations. Une mise à niveau de Dynamics AX 2012 vers Dynamics 365 Human Resources utilisera le même chemin de mise à niveau et les mêmes outils que ceux utilisés pour la mise à niveau vers la dernière version des applications Finances et Opérations.
 
-### <a name="we-use-document-handling-with-dynamics-365-human-resources-what-will-happen-to-the-documents-during-the-migration"></a>Nous utilisons la Gestion des documents avec Dynamics 365 Human Resources. Qu’adviendra-t-il de ces documents lors de la migration ?
+### <a name="we-use-document-handling-with-dynamics-365-human-resources-what-will-happen-to-the-documents-during-the-migration"></a>Nous utilisons la Gestion des documents avec Dynamics 365 Human Resources. Qu’adviendra-t-il de ces documents au moment de la migration ?
 
 Les documents resteront dans le stockage de documents existant. Ils seront remappés sur l’environnement dans la nouvelle infrastructure.
 
@@ -231,6 +231,3 @@ Les utilisateurs existants d’applications Dynamics 365 et les utilisateurs d�
 
 Des environnements supplémentaires ne sont pas nécessaires pour prendre en charge le changement d’infrastructure.
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>Où dois-je m’adresser si j’ai des questions supplémentaires sur les licences de produits ?
-
-Si vous avez des questions sur les licences, vous pourrez trouver plus d’informations sur [Biz Apps Hub – Tarification et licences D365](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering). Si ces informations ne vous aident pas à résoudre votre problème, ouvrez une demande avec LicenseQ.

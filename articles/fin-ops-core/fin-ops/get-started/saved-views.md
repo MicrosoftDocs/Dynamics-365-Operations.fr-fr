@@ -2,7 +2,7 @@
 title: Vues enregistrées
 description: Cette rubrique décrit l’utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065704"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644785"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -36,7 +36,7 @@ La personnalisation traditionnelle permet aux utilisateurs de disposer d’un se
 - Les vues permettent aux utilisateurs de disposer de plusieurs ensembles de personnalisations nommés par écran, entre lesquels ils peuvent rapidement basculer le cas échéant. Cela permet à un utilisateur pour créer plusieurs vues optimisées d’une page, où chaque vue a été adaptée pour qu’ils correspondent aux besoins d’exécuter une tâche particulière d’entreprise. 
 - Les vues créées pour les types spécifiques de page peuvent également inclure les filtres ou les tris ajoutés par l’utilisateur, ce qui permet aux utilisateurs de revenir rapidement aux jeux de données généralement filtrés. Voir la rubrique [Quelles pages prennent en charge les vue](saved-views.md#what-pages-support-views) pour plus de détails. 
 - Les vues peuvent être publiées aux utilisateurs ayant des rôles de sécurité spécifiques et dans des entités juridiques spécifiques. Par conséquent, tout utilisateur disposant d’un rôle spécifié et d’un accès à une entité juridique donnée peut accéder et utiliser cette vue, même si cet utilisateur n’a pas l’autorisation de la personnaliser. Cette capacité de publication permet aux organisations de définir les vues standard entreprise qui sont optimisées pour leur entreprise. Pour plus d’informations, voir la section [Gérer les personnalisations au niveau organisationnel avec des vues](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
-- Contrairement à une personnalisation traditionnelle, les vues ne sont pas enregistrées automatiquement lorsqu’un utilisateur effectue des personnalisations ou filtre une liste. Les enregistrements explicites sont nécessaires pour donner aux utilisateurs la flexibilité de créer une vue avant ou après que les modifications associées à cette vue aient été apportées. Cette exigence garantit également que les définitions de vue ne soient pas modifiées par inadvertance par des filtres ou des personnalisations qui ne sont pas destinés à une utilisation à long terme. Les éléments que le système stocke automatiquement dans le cadre de l’utilisation typique des pages (par exemple, la largeur des colonnes ou l’état développé ou réduit des sections) seront enregistrés par vue.
+- Contrairement à une personnalisation traditionnelle, les vues ne sont pas enregistrées automatiquement quand un utilisateur effectue des personnalisations ou filtre une liste. Les enregistrements explicites sont nécessaires pour donner aux utilisateurs la flexibilité de créer une vue avant ou après que les modifications associées à cette vue aient été apportées. Cette exigence garantit également que les définitions de vue ne soient pas modifiées par inadvertance par des filtres ou des personnalisations qui ne sont pas destinés à une utilisation à long terme. Les éléments que le système stocke automatiquement dans le cadre de l’utilisation typique des pages (par exemple, la largeur des colonnes ou l’état développé ou réduit des sections) seront enregistrés par vue.
 - Les vues peuvent être ajoutées aux espaces de travail en tant que vignettes, listes liens. Par conséquent, un jeu de données filtré peut être affiché sur un espace de travail, et les utilisateurs peuvent associer un ensemble de personnalisations pertinent pour ce jeu de données avec une vignette ou un lien.
 
 ## <a name="switching-between-views"></a>Basculer entre les vues
@@ -45,7 +45,7 @@ Une fois les vues rendues disponibles pour un environnement, le sommet de n’im
 
 Il existe deux variantes de taille pour le sélecteur de vue : 
 
-- **Grands sélecteurs de vue** – Les pages qui mettent en évidence une liste ont un plus grand sélecteur de vue pour certains motifs. Avant tout, le plus grand sélecteur de vue indique les pages où la vue peut inclure les filtres définis par l’utilisateur. Comme les filtres sont inclus dans les vues, la taille supérieure de sélecteur est également justifiée car les noms de vue sont souvent la meilleure description des données affichées dans l’écran et il est prévu que les utilisateurs basculent entre les vues plus souvent sur ces types de page.
+- **Grands sélecteurs de vue** – Les pages qui mettent en évidence une liste ont un plus grand sélecteur de vue pour certains motifs. Avant tout, le plus grand sélecteur de vue indique les pages où la vue peut inclure les filtres et tris définis par l’utilisateur. Comme les filtres et tris sont inclus dans les vues, la taille supérieure de sélecteur est également justifiée car les noms de vue sont souvent la meilleure description des données affichées dans l’écran et il est prévu que les utilisateurs basculent entre les vues plus souvent sur ces types de page. Le regroupement dans une grille peut également être enregistré dans les vues d’une page avec de grands sélecteurs de vue. 
 - **Petits sélecteurs de vue** – Toutes les autres pages en pleine écran (sauf les espaces de travail et le tableau de bord) ont un plus petit sélecteur de vue qui apparaît en regard de la légende de page. Les vues dans ces pages incluent uniquement les personnalisations, et non les filtres définis par l’utilisateur. Dans ces pages, la légende ou le titre d’enregistrement est souvent l’informations principale en haut de la page. Une plus petite taille du sélecteur de vue reflète également la fréquence inférieure de basculement entre les vue prévue dans ces pages. 
  
 Si vous sélectionnez le nom de la vue, le sélecteur de vue est ouvert et indique la liste des vues disponibles pour la page.
@@ -61,9 +61,9 @@ Pour basculer vers une autre vue, ouvrez d’abord le sélecteur d’affichage e
 
 ## <a name="creating-and-modifying-views"></a>Création et modification des vues
 
-Contrairement à la personnalisation traditionnelle, les vues ne sont pas automatiquement enregistrées lorsqu’un utilisateur personnalise la page, ou lorsqu’un utilisateur applique un filtre à une liste ou la trie. Une action explicite est nécessaire pour enregistrer ces modifications dans une vue. Cette exigence donne aux utilisateurs la flexibilité de créer une vue avant ou après que les modifications associées à cette vue aient été apportées. Cela garantit également que les définitions de vue ne soient pas modifiées par inadvertance par des filtres ou des personnalisations uniques. Notez que les éléments d’utilisation typique des pages (par exemple, la largeur des colonnes ou l’état développé ou réduit des sections) sont automatiquement enregistrés pour la vue activée, même dans les vues verrouillées.
+Contrairement à la personnalisation traditionnelle, les vues ne sont pas automatiquement enregistrées quand un utilisateur personnalise la page, ou quand un utilisateur applique un filtre à une liste ou la trie. Une action explicite est nécessaire pour enregistrer ces modifications dans une vue. Cette exigence donne aux utilisateurs la flexibilité de créer une vue avant ou après que les modifications associées à cette vue aient été apportées. Cela garantit également que les définitions de vue ne soient pas modifiées par inadvertance par des filtres ou des personnalisations uniques. Notez que les éléments d’utilisation typique des pages (par exemple, la largeur des colonnes ou l’état développé ou réduit des sections) sont automatiquement enregistrés pour la vue activée, même dans les vues verrouillées.
 
-Pour vous assurer que l’état actuel de la vue est connu, lorsque vous commencez à modifier une vue en la personnalisant ou en la filtrant, un astérisque (\*) apparaît à côté du nom de la vue actuelle. Ce symbole indique que vous regardez une version modifiée et non enregistrée de cette vue.
+Pour vous assurer que l’état actuel de la vue est connu, quand vous commencez à modifier une vue en la personnalisant ou en la filtrant, un astérisque (\*) apparaît à côté du nom de la vue actuelle. Ce symbole indique que vous regardez une version modifiée et non enregistrée de cette vue.
 
 Si vous souhaitez enregistrer ces modifications, procédez comme suit.
 
@@ -79,7 +79,7 @@ Si vous souhaitez enregistrer ces modifications, procédez comme suit.
 
 ## <a name="changing-the-default-view"></a>Modification de la vue par défaut
 
-La vue par défaut est la vue que le système essaie d’ouvrir lorsque vous ouvrez pour la première fois la page. Vous devez définir la vue par défaut sur la vue que vous comptez utiliser le plus souvent. 
+La vue par défaut est la vue que le système essaie d’ouvrir quand vous ouvrez pour la première fois la page. Vous devez définir la vue par défaut sur la vue que vous comptez utiliser le plus souvent. 
 
 > [!NOTE]
 > - Dans la fonctionnalité de base **Vues enregistrées**, il existe une vue par défaut unique et globale pour toutes les entités juridiques. Si vous modifiez la vue par défaut, cette vue sera ouverte par défaut, quelle que soit l’entité juridique dans laquelle vous vous trouvez actuellement.
@@ -91,10 +91,10 @@ Pour modifier la vue par défaut d’une page, procédez comme suit :
 2. Sélectionnez le nom de vue pour ouvrir le sélecteur de vue. 
 3. Sélectionnez **Plus** puis sur **Épingler par défaut**.
 
-Sinon, lorsque vous créez une vue (à l’aide l’action **Enregistrer sous**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l’option **Épingler par défaut** avant d’enregistrer la vue.
+Sinon, quand vous créez une vue (à l’aide l’action **Enregistrer sous**), vous pouvez faire de cette nouvelle vue la vue par défaut en définissant l’option **Épingler par défaut** avant d’enregistrer la vue.
 
 > [!WARNING]
-> Dans certains cas, la requête associée à la vue par défaut n’est pas exécutée lorsque vous ouvrez pour la première fois une page. Par exemple, si vous ouvrez la page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous ouvrez une page avec une vue **standard** ayant déjà une requête définie, la requête initiale sera exécutée à la place de la requête de la vue par défaut. Dans ce cas, vous recevrez un message d’information lorsque la vue sera chargée. Si vous changez de vue après le chargement de la page, la requête de vue doit pouvoir être exécutée comme prévu. Dans la version 10.0.10 et les versions ultérieures, le message d’information que vous recevez aura une action intégrée vous permettant de charger directement la requête de la vue par défaut.
+> Dans certains cas, la requête associée à la vue par défaut n’est pas exécutée quand vous ouvrez pour la première fois une page. Par exemple, si vous ouvrez la page via une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. En outre, si vous ouvrez une page avec une vue **standard** ayant déjà une requête définie, la requête initiale sera exécutée à la place de la requête de la vue par défaut. Dans ce cas, vous recevrez un message d’information quand la vue sera chargée. Si vous changez de vue après le chargement de la page, la requête de vue doit pouvoir être exécutée comme prévu. Dans la version 10.0.10 et les versions ultérieures, le message d’information que vous recevez aura une action intégrée vous permettant de charger directement la requête de la vue par défaut.
 
 ## <a name="managing-personal-views"></a>Gestion des vues personnelles
 
@@ -125,7 +125,7 @@ La capacité de publication permet aux organisations de définir les vues standa
 
 ## <a name="publishing-views"></a>Publier des vues
 
-Lors du processus de publication, les vues peuvent être affectées à un ou plusieurs rôles de sécurité pour une ou plusieurs entités juridiques. Par conséquent, tout utilisateur ayant accès à une entité juridique et affecté à un de ces rôles peut accéder à et utiliser les vues. Cependant, l’utilisateur ne peut pas modifier les vues. Par défaut, les administrateurs système ont accès à l’action **Publier** dans le menu déroulant du sélecteur de vue. Toutefois, d’autres utilisateurs approuvés de votre organisation peuvent également se voir octroyer un accès pour afficher les publications via le nouveau rôle **Administrateur des vues enregistrées**.
+Au moment du processus de publication, les vues peuvent être affectées à un ou plusieurs rôles de sécurité pour une ou plusieurs entités juridiques. Par conséquent, tout utilisateur ayant accès à une entité juridique et affecté à un de ces rôles peut accéder à et utiliser les vues. Cependant, l’utilisateur ne peut pas modifier les vues. Par défaut, les administrateurs système ont accès à l’action **Publier** dans le menu déroulant du sélecteur de vue. Toutefois, d’autres utilisateurs approuvés de votre organisation peuvent également se voir octroyer un accès pour afficher les publications via le nouveau rôle **Administrateur des vues enregistrées**.
 
 Pour publier une vue, procédez comme suit :
 
@@ -135,10 +135,10 @@ Pour publier une vue, procédez comme suit :
 4. Entrez un nom pour la vue. Le nom que vous entrez est celui que les utilisateurs qui reçoivent cette vue verront dans leurs sélecteurs de vue. Les noms des vues publiées pour une page doivent être uniques. Aucun doublon de nom n’est autorisé, même si la liste des rôles ou des entités juridiques auxquelles les vues sont appliquées diffèrent.
 5. **Mise à jour 10.0.17 ou ultérieure :** si la fonctionnalité **(Version préliminaire) Prise en charge de la traduction pour les vues d’organisation** est activée, vous pouvez ajouter des traductions pour le nom de votre vue dans autant de langues requises par votre organisation en sélectionnant le bouton **Traductions** en regard du champ **Nom**. Le nom de la vue sera alors affiché aux utilisateurs dans leur langue actuelle. Vous pouvez également définir la langue par défaut pour spécifier la traduction qui sera affichée aux utilisateurs qui exécutent des langues pour lesquelles aucune traduction n’est définie.
 5. Facultatif : entrez une description pour la vue afin que les utilisateurs qui la reçoivent puissent mieux comprendre son objectif. 
-6. Déterminez si la vue doit être publiée comme vue par défaut pour les utilisateurs sélectionnés. Lorsqu’une vue est définie comme vue par défaut, les utilisateurs la voient la prochaine fois qu’ils ouvriront la page cible. La vue par défaut unique et globale de chaque utilisateur ciblé sera modifiée. Cependant, les utilisateurs peuvent toujours modifier leur vue par défaut après la publication.
+6. Déterminez si la vue doit être publiée comme vue par défaut pour les utilisateurs sélectionnés. Quand une vue est définie comme vue par défaut, les utilisateurs la voient la prochaine fois qu’ils ouvriront la page cible. La vue par défaut unique et globale de chaque utilisateur ciblé sera modifiée. Cependant, les utilisateurs peuvent toujours modifier leur vue par défaut après la publication.
 
     > [!NOTE]
-    > Tenez compte du comportement suivant lorsque vous publiez une vue comme vue par défaut :
+    > Tenez compte du comportement suivant quand vous publiez une vue comme vue par défaut :
     >
     > - Si vous publiez une vue en tant que vue par défaut pour certaines ou toutes les entités juridiques, le comportement suivant se produit :
     >
@@ -219,9 +219,9 @@ Pour obtenir une liste des problèmes connus liés aux vues enregistrées, voir 
 
 Vous pouvez activer et désactiver la fonctionnalité **Vues enregistrées** par le biais de la gestion des fonctionnalités dans n’importe quel environnement. Une fois la fonctionnalité activée, les vues enregistrées seront activées dans toutes les sessions utilisateur suivantes.
 
-### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Qu’arrive-t-il aux personnalisations existantes lorsque les vues sont activées ? 
+### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Qu’arrive-t-il aux personnalisations existantes quand les vues sont activées ? 
 
-Lorsque les vues est activée, toutes les personnalisations existantes pour un utilisateur et un écran sont enregistrées dans une nouvelle vue appelée **Ma vue** qui est automatiquement définie comme la vue par défaut. Cela est conçu pour vérifier qu’il existe une expérience utilisateur cohérente avant et après que des vues aient été activées, à l’exception du contrôle du sélecteur de vue figurant sur les écrans.
+Quand les vues est activée, toutes les personnalisations existantes pour un utilisateur et un écran sont enregistrées dans une nouvelle vue appelée **Ma vue** qui est automatiquement définie comme la vue par défaut. Cela est conçu pour vérifier qu’il existe une expérience utilisateur cohérente avant et après que des vues aient été activées, à l’exception du contrôle du sélecteur de vue figurant sur les écrans.
 
 ### <a name="what-pages-support-views"></a>Quelles pages prennent en charge les vues ? 
 
@@ -238,20 +238,20 @@ Il existe certaines raisons pour lesquelles un filtre peut ne pas apparaître à
 - La page peut ne pas prendre en charge les filtres d’enregistrement dans le cadre de la définition de vue. Notez que seules les pages avec des grands sélecteurs de vue autorisent l’enregistrement des personnalisations et des modifications de requête comme vue. Pour plus d’informations, voir la section **Basculer entre les vues**. 
 - La page en question peut ne pas prendre en charge correctement les vues, car elle peut ignorer complètement la requête de vue ou peut opérer sur une table temporaire dont les données ne sont pas persistantes. 
 
-### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Quelles données vais-je voir lorsque je visite une page ?
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Quelles données vais-je voir quand je visite une page ?
 
-Pour les pages ayant de petits sélecteurs de vue (seules les personnalisations peuvent être enregistrées dans la vue), vous affichez les mêmes données que lorsque vous visitez la page. 
+Pour les pages ayant de petits sélecteurs de vue (seules les personnalisations peuvent être enregistrées dans la vue), vous affichez les mêmes données que quand vous visitez la page. 
 
 Pour les pages ayant de grands sélecteurs de vue (les personnalisations et les requêtes peuvent être enregistrées dans la vue), vous affichez généralement les données liées à la requête associée à votre vue par défaut. Il existe deux principales exceptions :
 
 - Si vous accédez à une page depuis une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. Si vous avez créé cette vignette après avoir activé les vues, la sélection d’une vignette ouvre la page avec la vue associée à cette vignette.
-- Si vous accédez à une page et que le point d’entrée inclut une requête, la requête initiale s’exécutera initialement à la place de la requête par défaut de la vue. Dans ce cas, vous êtes averti par un message d’information lorsque la vue se charge. Vous pouvez confirmer également en basculant vers cette vue après le chargement de la page, car cela devrait permettre à la requête de vue de s’exécuter quand même.
+- Si vous accédez à une page et que le point d’entrée inclut une requête, la requête initiale s’exécutera initialement à la place de la requête par défaut de la vue. Dans ce cas, vous êtes averti par un message d’information quand la vue se charge. Vous pouvez confirmer également en basculant vers cette vue après le chargement de la page, car cela devrait permettre à la requête de vue de s’exécuter quand même.
 
 ### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Pourquoi une vue publiée pour une entité juridique spécifique est-elle visible dans toutes les entités juridiques ?
 
 Si vous publiez une vue sur une entité juridique spécifique, mais que vous ne publiez pas cette vue comme vue par défaut, le comportement suivant se produit :
 
-- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée lorsqu’elle est chargée, et les vues personnelles sont globales.
+- Si seule la fonctionnalité de base **Vues enregistrées** est activée, le sélecteur de vue de l’utilisateur pour la page affiche initialement la vue uniquement pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, le sélecteur de vue pour la page sera toujours affiché, quelle que soit l’entité juridique. Ce comportement se produit car les utilisateurs obtiennent leur propre copie personnelle de la vue publiée quand  elle est chargée, et les vues personnelles sont globales.
 - **Version 10.0.21 ou ultérieure :** si la fonctionnalité **Prise en charge améliorée des entités juridiques pour les vues enregistrées** est activée, le sélecteur de vue n’affiche que la vue pour les entités juridiques spécifiées. Ce comportement se produit car la fonctionnalité permet aux vues (y compris les vues personnelles) d’être liées à des entités juridiques spécifiques.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

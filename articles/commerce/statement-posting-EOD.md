@@ -2,19 +2,19 @@
 title: Améliorations de la fonctionnalité de validation du relevé
 description: Cette rubrique décrit les améliorations apportées à la fonction de validation des relevés.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462548"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649017"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
@@ -28,12 +28,12 @@ Par défaut, au cours du déploiement de Finances et Opérations 7.3.2, le prog
 
 - Accédez à **Administration du système** \> **Paramétrage** \> **Configuration des licences**, puis, sous le nœud **Commerce et vente au détail**, désactivez la case à cocher **Relevés (hérités)** et activez la case à cocher **Relevés**.
 
-Lorsque la nouvelle clé de configuration **Relevés** est activée, une nouvelle option de menu **Relevés** est disponible. Cette option de menu permet de créer, calculer et valider manuellement des relevés. Un relevé qui génère une erreur lors de l’utilisation du processus de validation par lots sera également disponible via cette option de menu. (Lorsque la clé de configuration **Relevés (hérités)** est activée, l’option de menu est appelée **Relevés en cours**.)
+Quand la nouvelle clé de configuration **Relevés** est activée, une nouvelle option de menu **Relevés** est disponible. Cette option de menu permet de créer, calculer et valider manuellement des relevés. Un relevé qui génère une erreur au moment de l’utilisation du processus de validation par lots sera également disponible via cette option de menu. (Quand la clé de configuration **Relevés (hérités)** est activée, l’option de menu est appelée **Relevés en cours**.)
 
 Commerce comprend les validations suivantes qui sont associées à ces clés de configuration :
 
 - Les deux clés de configuration ne peuvent pas être activées en même temps.
-- Les mêmes clés de configuration doivent être utilisées pour toutes les opérations exécutées sur un relevé donné pendant son cycle de vie (créer, calculer, effacer, valider, etc.). Par exemple, vous ne pouvez pas créer et calculer un relevé lorsque la clé de configuration **Relevé (hérité)** est activée et essayer de valider le même relevé lorsque la clé de configuration **Relevé** est activée.
+- Les mêmes clés de configuration doivent être utilisées pour toutes les opérations exécutées sur un relevé donné pendant son cycle de vie (créer, calculer, effacer, valider, etc.). Par exemple, vous ne pouvez pas créer et calculer un relevé quand la clé de configuration **Relevé (hérité)** est activée et essayer de valider le même relevé quand la clé de configuration **Relevé** est activée.
 
 > [!NOTE]
 > Nous vous recommandons d’utiliser la clé de configuration **Relevés** pour la fonction améliorée de validation des relevés, sauf si vous avez des raisons valables d’utiliser la clé de configuration **Relevés (hérités)** à la place. Microsoft continuera à investir dans la fonction nouvelle et améliorée de validation des relevés, et il est important de l’utiliser dans les meilleurs délais pour en tirer parti. La fonction héritée de validation des relevés est supprimée depuis la version 8.0.
@@ -43,35 +43,16 @@ Commerce comprend les validations suivantes qui sont associées à ces clés de 
 Dans le cadre des améliorations de la fonction de validation des relevés, trois nouveaux paramètres ont été introduits dans le raccourci **Relevé** sous l’onglet **Validation** de la page **Paramètres Commerce** :
 
 - **Désactiver la fonction d’effacement de relevé** – Cette option s’applique uniquement à la fonction héritée de validation des relevés. Nous vous recommandons de définir cette option sur **Non** pour empêcher les utilisateurs d’effacer des relevés qui sont à l’état semi-validé. Si des relevés à l’état semi-validé sont effacés, les données sont corrompues. Vous devez définir cette option sur **Oui** uniquement dans des cas exceptionnels.
-- **Réserver le stock lors du calcul** – Nous vous recommandons d’utiliser le traitement par lots **Valider le stock** pour la réservation du stock et de définir cette option sur **Non**. Lorsque cette option est définie sur **Non**, la fonction améliorée de validation des relevés n’essaie pas de créer des entrées de réservation de stock au moment du calcul (si les entrées n’ont pas déjà été créées via le traitement par lots **Valider le stock**). À la place, la fonction crée des entrées de réservation de stock uniquement au moment de la validation. Cette implémentation était un choix de conception et reposait sur le fait que l’intervalle de temps entre le processus de calcul et le processus de validation est généralement petit. Toutefois, si vous souhaitez réserver le stock au moment du calcul, vous pouvez définir cette option **Oui**.
+- **Réserver le stock au moment du calcul** – Nous vous recommandons d’utiliser le traitement par lots **Valider le stock** pour la réservation du stock et de définir cette option sur **Non**. Quand cette option est définie sur **Non**, la fonction améliorée de validation des relevés n’essaie pas de créer des entrées de réservation de stock au moment du calcul (si les entrées n’ont pas déjà été créées via le traitement par lots **Valider le stock**). À la place, la fonction crée des entrées de réservation de stock uniquement au moment de la validation. Cette implémentation était un choix de conception et reposait sur le fait que l’intervalle de temps entre le processus de calcul et le processus de validation est généralement petit. Toutefois, si vous souhaitez réserver le stock au moment du calcul, vous pouvez définir cette option **Oui**.
 
-    La fonction héritée de validation des relevés réserve toujours le stock lors du processus de calcul des relevés (si la réservation n’a pas déjà été effectuée via le traitement par lots **Valider le stock**), quel que soit le paramètre de cette option.
+    La fonction héritée de validation des relevés réserve toujours le stock au moment du processus de calcul des relevés (si la réservation n’a pas déjà été effectuée via le traitement par lots **Valider le stock**), quel que soit le paramètre de cette option.
 
-- **Désactivation du comptage obligatoire** – Lorsque cette option est définie sur **Oui**, le processus de validation d’un relevé continue, même si la différence entre le montant calculé et le montant de la transaction sur le relevé dépasse le seuil défini dans le raccourci **Relevé** pour les magasins.
-
-> [!NOTE]
-> À partir de la version 10.0.14 de Commerce, lorsque la fonctionnalité **Relevés de vente au détail – Flux en continu** est activée, le traitement par lots **Publier l’inventaire** n’est plus applicable et ne peut pas être exécuté.
-
-En outre, les paramètres suivants ont été introduits dans le raccourci **Traitement par lots** de l’onglet **Validation** de la page **Paramètres Commerce** : 
-
-- **Nombre maximal de validation de relevés en parallèle** – Ce champ définit le nombre de tâches de traitement par lots qui seront utilisées pour valider plusieurs relevés. 
-- **Thread maximal pour le traitement des commandes par relevé** – Ce champ représente le nombre maximal de threads utilisés par le traitement par lots de validation de relevé pour créer et facturer les commandes client d’un seul relevé. Le nombre total de threads qui seront utilisés par le processus de validation du relevé sera calculé en fonction de la valeur de ce paramètre multipliée par la valeur indiquée dans le paramètre **Nombre maximal de validation de relevés en parallèle**. La définition de la valeur de ce paramètre trop élevée peut avoir un impact négatif sur les performances du processus de validation du relevé.
-- **Nombre maximal de lignes de transaction incluses dans l’agrégation** – Ce champ définit le nombre de lignes de transaction qui seront incluses dans une seule transaction regroupée avant qu’une nouvelle soit créée. Les transactions regroupées sont créées selon différents critères d’agrégation, tels que le client, date d’activité ou les dimensions financières. Il est important de noter que les lignes d’une transaction unique ne sont pas fractionnées entre différentes transactions regroupées. Cela signifie qu’il y a un risque que le nombre de lignes dans une transaction regroupée soit légèrement supérieur ou inférieur en fonction de facteurs comme le nombre de produits distincts.
-- **Nombre maximal de threads pour valider les transactions en magasin** – Ce champ définit le nombre de threads qui seront utilisés pour valider les transactions. La validation des transactions est une étape obligatoire qui doit être effectuée avant que les transactions puissent être extraites dans les relevés. Vous devez également définir un **Produit de la carte cadeau** dans le raccourci **Carte cadeau** sous l’onglet **Validation** de la page **Paramètres Commerce**. Cela doit être défini, même si aucune carte cadeau n’est utilisée par l’organisation.
-
-Le tableau suivant répertorie les valeurs recommandées pour les paramètres précédents. Ces valeurs doivent être testées et adaptées à la configuration de déploiement et à l’infrastructure disponible. Toute augmentation des valeurs recommandées peut affecter négativement d’autres traitements par lots et doit être validée.
-
-| Paramètre | Valeur recommandée | Détails |
-|-----------|-------------------|---------|
-| Nombre maximal de validation de relevés en parallèle | <p>Définissez ce paramètre sur le nombre de tâches par lots disponibles pour le groupe de lots qui exécute la tâche **Déclaration**.</p><p>**Règle générale :** multipliez le nombre de serveurs virtuels Application Object Server (AOS) par le nombre de tâches par lots disponibles par serveur virtuel AOS.</p> | Ce paramètre n’est pas applicable lorsque la fonctionnalité **Relevés de vente au détail – Flux continu** est activée. |
-| Nombre maximal de threads pour le traitement des commandes par relevé | Commencez à tester les valeurs à **4**. En règle générale, la valeur ne doit pas dépasser **8**. | Ce paramètre spécifie le nombre de threads utilisés pour créer et publier des commandes client. Il représente le nombre de threads disponibles pour publication par instruction. |
-| Nombre maximal de lignes de transaction incluses dans l’agrégation | Commencez à tester les valeurs à **1000**. Selon la configuration du siège social, des commandes plus petites peuvent être plus avantageuses pour les performances. | Ce paramètre détermine le nombre de lignes qui seront incluses dans chaque commande client lors de la validation du relevé. Une fois ce nombre atteint, les lignes seront divisées en une nouvelle commande. Bien que le nombre de lignes de vente ne soit pas exact, étant donné que le fractionnement se produit au niveau de la commande client, il sera proche du nombre défini. Ce paramètre est utilisé pour générer des bons de commande pour les transactions de vente au détail qui n’ont pas de client nommé. |
-| Nombre maximal de threads pour valider les transactions en magasin | Nous vous recommandons de définir ce paramètre sur **4**, et de ne pas l’augmenter hormis si vous atteignez des performances acceptables. Le nombre de threads utilisés par ce processus ne peut pas dépasser le nombre de processeurs disponibles pour le serveur de traitement par lots. Si vous affectez trop de threads ici, vous risquez d’affecter d’autres traitements par lots. | Ce paramètre contrôle le nombre de transactions pouvant être validées en même temps pour un magasin donné. |
+- **Désactivation du comptage obligatoire** – Quand cette option est définie sur **Oui**, le processus de validation d’un relevé continue, même si la différence entre le montant calculé et le montant de la transaction sur le relevé dépasse le seuil défini dans le raccourci **Relevé** pour les magasins.
 
 > [!NOTE]
-> Tous les paramètres associés aux validations de relevé et définis dans les magasins et sur la page **Paramètres Commerce** s’appliquent à la fonction améliorée de validation des relevés.
+> À partir de la version 10.0.14 de Commerce, quand la fonctionnalité **Relevés de vente au détail – Flux en continu** est activée, le traitement par lots **Publier l’inventaire** n’est plus applicable et ne peut pas être exécuté.
 
-## <a name="processing"></a>Traitement
+## <a name="processing"></a>Traitement en cours
 
 Les relevés peuvent être calculés et validés par lots à l’aide des options de menu **Calcul des relevés en mode de traitement par lots** et **Valider les relevés en mode de traitement par lots**. Les relevés peuvent également être calculés et validés manuellement à l’aide de l’option de menu **Relevés** fournie par la fonction améliorée de validation des relevés.
 
@@ -83,7 +64,7 @@ Les sections suivantes décrivent quelques-unes des principales améliorations d
 
 Un nouveau modèle d’état a été introduit dans la routine de validation des relevés pour les processus de calcul et de validation.
 
-Le tableau suivant décrit les différents états et leur ordre lors du processus de calcul.
+Le tableau suivant décrit les différents états et leur ordre au moment du processus de calcul.
 
 | Ordre des états | État      | Description |
 |-------------|------------|-------------|
@@ -91,7 +72,7 @@ Le tableau suivant décrit les différents états et leur ordre lors du processu
 | 2           | Marqué     | Les transactions entrant dans le cadre du relevé sont identifiées en fonction des paramètres du relevé, et elles sont marquées avec l’ID du relevé. |
 | 3           | Calculé | Les lignes du relevé sont calculées et affichées. |
 
-Le tableau suivant décrit les différents états et leur ordre lors du processus de validation.
+Le tableau suivant décrit les différents états et leur ordre au moment du processus de validation.
 
 | Ordre des états | État                   | Description |
 |-------------|-------------------------|-------------|
@@ -106,7 +87,7 @@ Le tableau suivant décrit les différents états et leur ordre lors du processu
 | 9           | Cartes cadeaux validées       | Les transactions de carte cadeau sont validées comme documents. |
 | 10          | Validé(e)                  | Le relevé est marqué comme validé. |
 
-Chaque état dans les tableaux précédents est indépendant par nature, et une dépendance hiérarchique est établie entre les états. Cette dépendance s’effectue de haut en bas. Si le système rencontre des erreurs lorsqu’il traite un état, l’état précédent du relevé est rétabli. Toute tentative ultérieure du processus reprend à partir de l’état qui a échoué et continue vers l’avant. Cette approche offre les avantages suivants :
+Chaque état dans les tableaux précédents est indépendant par nature, et une dépendance hiérarchique est établie entre les états. Cette dépendance s’effectue de haut en bas. Si le système rencontre des erreurs quand  il traite un état, l’état précédent du relevé est rétabli. Toute tentative ultérieure du processus reprend à partir de l’état qui a échoué et continue vers l’avant. Cette approche offre les avantages suivants :
 
 - L’utilisateur a une visibilité totale sur l’état où l’erreur s’est produite.
 - L’altération des données est évitée. Par exemple, dans la fonction héritée de validation des relevés, il y a des cas où certaines commandes client ont été facturées mais d’autres ont été laissées ouvertes. Il y a également des cas où certains journaux des paiements n’avaient pas de facture correspondante à régler, car la validation de la facture présentait une erreur.
@@ -139,10 +120,10 @@ Le raccourci **Détails de la commande client** d’une transaction regroupée a
 - **ID enregistrement** – ID de la transaction regroupée.
 - **Numéro de relevé** – Relevé auquel la transaction regroupée appartient.
 - **Date** – Date de création de la transaction regroupée.
-- **ID ventes** – ID commande client lorsque une commande client est créée à partir de la transaction regroupée. Si ce champ est vide, la commande client correspondante n’a pas été créée.
+- **ID ventes** – ID commande client quand une commande client est créée à partir de la transaction regroupée. Si ce champ est vide, la commande client correspondante n’a pas été créée.
 - **Nombre de lignes regroupées** – Nombre total de lignes de la transaction regroupée et de la commande client.
 - **Statut** – Dernier statut de la transaction regroupée.
-- **ID facture** – ID facture client lorsque la commande client de la transaction regroupée est facturée. Si ce champ est vide, la facture de la commande client n’a pas été validée.
+- **ID facture** – ID facture client quand la commande client de la transaction regroupée est facturée. Si ce champ est vide, la facture de la commande client n’a pas été validée.
 - **Code d’erreur** : ce champ est défini si le regroupement est dans un état d’erreur.
 - **Message d’erreur** : ce champ est défini si le regroupement est dans un état d’erreur. Il affiche des détails sur la cause de l’échec du processus. Vous pouvez utiliser les informations du code d’erreur pour résoudre le problème, puis redémarrer manuellement le processus. Selon le type de résolution, les ventes regroupées peuvent devoir être supprimées et traitées sur un nouveau relevé.
 
@@ -166,10 +147,10 @@ Si jamais vous ne pouvez pas résoudre l’erreur en corrigeant les données sur
 
 La vue des transactions regroupées offre les avantages suivants :
 
-- L’utilisateur a une visibilité sur les transactions regroupées qui ont échoué lors de la création de la commande client et sur les commandes client qui ont échoué lors de la facturation.
+- L’utilisateur a une visibilité sur les transactions regroupées qui ont échoué au moment de la création de la commande client et sur les commandes client qui ont échoué au moment de la facturation.
 - L’utilisateur a une visibilité sur la manière dont les transactions sont regroupées.
 - L’utilisateur a une piste d’audit complète depuis les transactions aux factures client en passant par les commandes client. Cette piste d’audit n’était pas disponible dans la fonction héritée de validation des relevés.
-- Le fichier XML regroupé facilite l’identification des problèmes lors de la création et de la facturation de la commande client.
+- Le fichier XML regroupé facilite l’identification des problèmes au moment de la création et de la facturation de la commande client.
 
 ### <a name="journal-vouchers"></a>N° documents de journal
 
@@ -199,7 +180,7 @@ D’autres améliorations importantes visibles par les utilisateurs ont été ap
 
 - Nous vous recommandons d’exécuter le processus de validation des relevés en mode de traitement par lots, car les exécutions en mode de traitement par lots tirent parti de la puissance du cadre de traitement par lots en termes de multithreading. Le multithreading permet de gérer les gros volumes de transactions qui entrent normalement dans le cadre des validations de relevé.
 - Nous vous recommandons d’activer le stock physique négatif dans le groupe de modèles d’article pour que la validation s’effectue de manière transparente. Dans certains scénarios, il n’est pas possible de valider des relevés négatifs sauf si un stock physique négatif est disponible. Par exemple, en théorie, s’il existe une seule unité d’un article en stock et s’il existe une transaction de vente et une transaction de retour pour l’article, la validation de la transaction doit être possible même si le stock négatif n’est pas activé. Toutefois, comme le processus de validation des relevés extrait la transaction de vente et la transaction de retour dans une commande client unique, il n’y a aucune garantie que la ligne de vente soit validée en premier, suivie de la ligne de retour. Par conséquent, des erreurs peuvent se produire. Si le stock négatif est activé dans ce scénario, la validation de la transaction n’est pas affectée négativement, et le système reflète correctement le stock.
-- Il est recommandé d’utiliser le regroupement lorsque vous calculez et validez des relevés. Par conséquent, les paramètres suivants sont recommandés pour certains paramètres de regroupement :
+- Il est recommandé d’utiliser le regroupement quand vous calculez et validez des relevés. Par conséquent, les paramètres suivants sont recommandés pour certains paramètres de regroupement :
 
     - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l’onglet **Validation**, dans le raccourci **Mise à jour du stock**, dans le champ **Niveau de détail**, sélectionnez **Synthèse**.
     - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l’onglet **Validation**, dans le raccourci **Regroupement**, définissez l’option **Pièces comptables** sur **Oui**.

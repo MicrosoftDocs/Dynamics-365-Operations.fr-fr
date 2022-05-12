@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388157"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614042"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Exemple d’intégration du service d’enregistrement fiscal pour l’Allemagne
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Cette rubrique fournit une présentation d’un exemple d’intégration fiscale pour l’Allemagne dans Microsoft Dynamics 365 Commerce.
 
@@ -43,7 +42,7 @@ Les scénarios suivants sont couverts par l’exemple d’intégration du servic
 
     2. Enregistrement de la date de fin
 
-        Lorsqu’une transaction est conclue au point de vente, elle est enregistrée en utilisant le même TID qui a été attribué lors de l’enregistrement du début de la transaction. À ce moment, les données détaillées de la transaction sont envoyées au service d’enregistrement fiscal. Ces données incluent des informations sur la ligne de vente et des informations sur les remises, les paiements et les taxes.
+        Quand une transaction est conclue au point de vente, elle est enregistrée en utilisant le même TID qui a été attribué au moment de l’enregistrement du début de la transaction. À ce moment, les données détaillées de la transaction sont envoyées au service d’enregistrement fiscal. Ces données incluent des informations sur la ligne de vente et des informations sur les remises, les paiements et les taxes.
 
     3. Capture d’une réponse du service d’enregistrement fiscal
 
@@ -61,7 +60,7 @@ Les scénarios suivants sont couverts par l’exemple d’intégration du servic
 
 #### <a name="notifying-users-about-fiscal-registration-failures"></a>Notifier les utilisateurs des échecs d’enregistrement fiscal
 
-Le service d’enregistrement fiscal peut notifier les utilisateurs des échecs survenus lors de l’enregistrement fiscal de deux manières :
+Le service d’enregistrement fiscal peut notifier les utilisateurs des échecs survenus au moment de l’enregistrement fiscal de deux manières :
 
 - Imprimer les informations supplémentaires de la réponse dans le champ **Message d’information** sur les reçus.
 - Afficher les notifications du service fiscal sous forme de messages d’utilisateur au PDV.

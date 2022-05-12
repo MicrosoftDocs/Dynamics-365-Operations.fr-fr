@@ -2,7 +2,7 @@
 title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications de finances et d’opérations.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396547"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644605"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de la plateforme supprimées ou déconseillées
 
@@ -32,7 +32,19 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 Des informations détaillées sur les objets dans les applications Finances et Opérations peuvent être consultés dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications Finances et Opérations.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Suppression de la fonctionnalité à compter du 14 mars 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Notification d’abandon de fonctionnalités à compter d’avril 2022
+
+### <a name="xml-url-resolution-in-data-management"></a>Résolution d’URL XML dans la gestion des données 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Nous supprimons la prise en charge de la résolution d’URL XML car cela a été identifié comme une vulnérabilité de sécurité potentielle. Cela signifie que les ressources externes associées aux fichiers XML ne seront plus résolues.  |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
+| **Zones de produit affectées**         | Applications Finances et Opérations |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Obsolète. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Notification d’abandon de fonctionnalités à compter du 14 mars 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>Script XSLT dans Gestion des données
 
@@ -40,9 +52,9 @@ Des informations détaillées sur les objets dans les applications Finances et O
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La prise en charge des scripts XSLT dans Gestion des données est obsolète pour améliorer la sécurité et la protection des données dans les applications de finances et d’opérations.  |
 | **Remplacé par une autre fonctionnalité ?**   | Non Les clients et les éditeurs de logiciels indépendants doivent envisager de réimplémenter leurs solutions selon le langage X++, à la place des scripts XSLT. |
-| **Zones de produit affectées**         | Applications de finances et d’opérations. |
-| **Option de déploiement**              | Tout. |
-| **Status**                         | Obsolète : date de suppression prévue est le 14 mars 2022.<br><br>Exception : les clients qui utilisent actuellement les scripts XLST. Ils peuvent continuer à l’utiliser jusqu’à la mise à jour vers la version 10.0.30 ou ultérieure. Les clients avec cette exception ont reçu une notification dans le centre de messages disponible dans le centre d’administration Microsoft 365. |
+| **Zones de produit affectées**         | Applications Finances et Opérations |
+| **Option de déploiement**              | Tout |
+| **Status**                         | Désapprouvé <br><br>**Exception :** les clients qui utilisent actuellement les scripts XLST. Ils peuvent continuer à l’utiliser jusqu’à la mise à jour vers la version 10.0.30 ou ultérieure. Pour les versions antérieures, l’exception expirera le 31 janvier 2023. Les clients avec cette exception ont reçu une notification dans le centre de messages disponible dans le centre d’administration Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Suppression de la fonctionnalité à compter d’octobre 2021
 
@@ -96,7 +108,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Microsoft requiert des paramètres supplémentaires lors de l’ajout de notifications. |
+| **Motif de l’abandon/de la suppression** | Microsoft requiert des paramètres supplémentaires au moment de l’ajout de notifications. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui l’API **SystemNotificationsManager.AddSystemNotification()**. Cette API nécessite que vous définissiez explicitement ExpirationDateTime et RuleID pour les notifications générées. |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tout |
@@ -190,7 +202,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Les artefacts de métadonnées associés à Dynamics AX 2012 Enterprise Portal (EP) ne sont plus utilisés, car EP n’a jamais été pris en charge dans les applications de finances et d’opérations. |
-| **Remplacé par une autre fonctionnalité ?**   | N° |
+| **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
 | **Statut**                         | Obsolète : tout le code EP devrait être supprimé dans la version d’octobre 2021. |
@@ -264,7 +276,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 | **Remplacé par une autre fonctionnalité ?**   | Le [nouveau contrôle de grille](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tout |
-| **Statut**                         | Dans la version 10.0.13, le nouveau contrôle de grille est généralement disponible et les clients peuvent éventuellement activer cette fonctionnalité. Le nouveau contrôle du réseau est activé par défaut avec la version d’octobre 2021 et devrait être obligatoire en avril 2022. Lorsque le nouveau contrôle de grille deviendra obligatoire, l’API **forceLegacyGrid()** ne sera plus disponible. |
+| **Statut**                         | Dans la version 10.0.13, le nouveau contrôle de grille est généralement disponible et les clients peuvent éventuellement activer cette fonctionnalité. Le nouveau contrôle du réseau est activé par défaut avec la version d’octobre 2021 et devrait être obligatoire en avril 2022. Quand le nouveau contrôle de grille deviendra obligatoire, l’API **forceLegacyGrid()** ne sera plus disponible. |
 
 ### <a name="personalization-without-saved-views"></a>Personnalisation sans vues enregistrées 
 
@@ -283,7 +295,7 @@ Des informations détaillées sur les objets dans les applications Finances et O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | La propriété de groupe de données sur les contrôles de grille ou de groupe est utilisée pour afficher automatiquement tous les champs d’un groupe de champs. Un contrôle de grille ou de groupe ajouté par une extension peut contenir des champs qui ne sont plus définis sur le groupe de champs, ou il peut y avoir des champs manquants qui sont définis sur le groupe de champs. Cela peut entraîner un comportement incohérent lors de l’exécution. Les mises à jour de la plateforme pour la version 10.0.12 des applications de finances et d’opérations classent désormais ce problème en tant qu’*avertissement* de compilateur. Pour résoudre ce problème, ouvrez l’extension de formulaire et enregistrez-la.
+| **Motif de l’abandon/de la suppression** | La propriété de groupe de données sur les contrôles de grille ou de groupe est utilisée pour afficher automatiquement tous les champs d’un groupe de champs. Un contrôle de grille ou de groupe ajouté par une extension peut contenir des champs qui ne sont plus définis sur le groupe de champs, ou il peut y avoir des champs manquants qui sont définis sur le groupe de champs. Cela peut entraîner un comportement incohérent au moment de l’exécution. Les mises à jour de la plateforme pour la version 10.0.12 des applications de finances et d’opérations classent désormais ce problème en tant qu’*avertissement* de compilateur. Pour résoudre ce problème, ouvrez l’extension de formulaire et enregistrez-la.
 | **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur du compilateur dans une future mise à jour. |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tout |
