@@ -444,7 +444,7 @@
               href: hr-personnel-jobs.md
             - name: Définir des départements
               href: hr-personnel-define-departments.md
-            - name: Ajouter un département à une hiérarchie
+            - name: Ajouter un service à une hiérarchie
               href: hr-personnel-add-department-hierarchy.md
             - name: Définir des tâches
               href: hr-personnel-define-jobs.md
@@ -452,18 +452,16 @@
               href: hr-personnel-positions.md
             - name: Créer un calendrier du temps de travail
               href: hr-personnel-create-working-time-calendar.md
-            - name: Recruter des candidats à un poste
-              href: hr-personnel-recruit.md
             - name: FAQ sur les actions du personnel
               href: hr-personnel-actions-faq.md
-            - name: Utiliser des workflows pour gérer les informations relatives aux employés
+            - name: Utiliser des flux de travail pour gérer les informations relatives aux employés
               href: hr-workflow-manage-employee-information.md
             - name: Afficher et gérer les changements d’adresse
               href: hr-personnel-view-address-changes.md
             - name: Modifier les relations hiérarchiques d’un poste
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Entrée d’employé simplifiée
-              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
+              href: stream-employee-entry.md
             - name: Saisir les informations du collaborateur
               href: hr-personnel-enter-worker-information.md
             - name: Collaborateurs sans emploi
@@ -488,26 +486,34 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: Mettre à jour les informations relatives aux blessures et aux maladies des employés
               href: hr-personnel-maintain-employee-injury-illness-information.md
-            - name: Recruter des candidats
+            - name: Recrutement
               items:
-                - name: Gestion des processus de recrutement
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Projets d’embauche collective
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Créer des projets d’embauche collective
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Entrer manuellement le candidat et les données de la candidature
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Développer et ouvrir des demandes de poste
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Paramétrer les postes
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Embaucher des candidats via le recrutement
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Embaucher des employés existants via le recrutement
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Identifier et déployer les outils de sélection de candidats
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                - name: Vue d’ensemble
+                  href: ../human-resources/hr-recruit-overview.md
+                - name: Projets de recrutement
+                  items:
+                    - name: Gérer le processus de projet de recrutement
+                      href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Entrer manuellement le candidat et les données de la candidature
+                      href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                    - name: Développer et ouvrir des demandes de poste
+                      href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                    - name: Paramétrer les postes
+                      href: ../human-resources/hr-personnel-set-up-positions.md
+                    - name: Embaucher des candidats via le recrutement
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                    - name: Embaucher des employés existants via le recrutement
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                    - name: Identifier et déployer les outils de sélection de candidats
+                      href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                    - name: Projets d’embauche collective
+                      href: ../human-resources/hr-personnel-mass-hire-projects.md
+                    - name: Créer des projets d’embauche collective
+                      href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: Demandes de recrutement (infrastructure fusionnée)
+                  items:
+                    - name: Recruter des candidats à un poste
+                      href: hr-personnel-recruit.md
         - name: Gestion des tâches
           href: hr-task-mgmt.md
         - name: Congé et absence
@@ -800,6 +806,8 @@
               href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Configurer l’intégration avec Finance
               href: hr-admin-integration-finance.md
+            - name: Créer des liens depuis Human Resources vers un autre environnement
+              href: configure-links.md
             - name: Configurer l’intégration avec Dayforce
               href: hr-admin-integration-dayforce.md
             - name: Créer une application d’exportation de données récurrentes

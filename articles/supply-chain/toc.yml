@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurer l’entreposage pour les déploiements locaux
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ressources documentaires
               items:
                 - name: Système d’aide
@@ -885,7 +883,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Mettre à niveau l’agent d’acheminement de document
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Installer des périphériques d’impression réseau dans les environnements sur site
+                    - name: Installer des périphériques d’impression réseau dans les environnements locaux
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Génération, publication et impression de documents dans les déploiements locaux'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
@@ -2411,7 +2409,7 @@
               href: pim/product-information-faq.md
         - name: Gestion des modifications d’ingénierie
           items:
-            - name: Présentation de la gestion des modifications d’ingénierie
+            - name: Vue d’ensemble de la gestion des modifications d’ingénierie
               href: engineering-change-management/product-engineering-overview.md
             - name: Présentation de la fonction de gestion des modifications d’ingénierie
               href: engineering-change-management/engineering-scenarios.md
@@ -3299,9 +3297,9 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Enregistrer des articles pour un article activé pour l’entreposage de base à l’aide d’un journal des arrivées d’articles
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Importer les APE entrants via l’entité de données V2
-                  href: warehousing/import-asn-v2-data-entity.md
-                - name: Produits croisés entre l’entrepôt de réception et les magasins
+                - name: Importer les APE entrants via l’entité de données V3
+                  href: warehousing/import-asn-data-entity.md
+                - name: Produits faisant l’objet d’un cross-docking entre l’entrepôt de réception et les magasins
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Paramétrer une instruction d’emplacement pour le rangement des commandes fournisseur
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md

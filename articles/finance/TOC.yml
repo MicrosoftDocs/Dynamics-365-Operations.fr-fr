@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Acheter Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurer l’entreposage pour les déploiements locaux
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Ressources documentaires
               items:
                 - name: Système d’aide
@@ -266,12 +264,14 @@
               href: accounts-payable/vendor-workflow.md
             - name: Résolution des écarts lors du rapprochement des totaux de factures
               items:
-                - name: Vue d’ensemble de résolution des écarts lors du rapprochement des totaux de factures
+                - name: Vue d’ensemble de la solution Résolution des écarts lors du rapprochement des totaux de factures
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
-                - name: Rechercher ou résoudre les exceptions
+                - name: Recherche ou résolution des exceptions
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Profils de validation fournisseur
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Création de codes frais
+              href: accounts-receivable/create-charges-codes.md
             - name: Dates des factures fournisseur
               href: accounts-payable/vendor-invoice-dates.md
             - name: Réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client
@@ -292,7 +292,9 @@
               items:
                 - name: Paiements centralisés de la Comptabilité fournisseur
                   href: accounts-payable/centralized-payments-accounts-payable.md
-                - name: Configurer un règlement
+                - name: Configuration et traitement des paiements en transition
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
+                - name: Configuration d’un règlement
                   href: cash-bank-management/configure-settlement.md
                 - name: Solde de règlement
                   href: cash-bank-management/settle-remainder.md
@@ -354,11 +356,15 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures financières
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Validation dans la comptabilité client
+              href: general-ledger/accts-recvble-posting.md
             - name: Profils de validation client
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Création de codes frais
+              href: accounts-receivable/create-charges-codes.md
             - name: Vue d’ensemble du débit direct SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: Paramétrer un mandat de débit direct SEPA
+            - name: Paramétrage d’un mandat de débit direct SEPA
               href: accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Paramétrage, autorisation et capture de carte de crédit'
               href: accounts-receivable/credit-card-authorizations.md
@@ -410,7 +416,7 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
             - name: Facturation de l’abonnement
               items:
-                - name: Présentation de la facturation de l’abonnement
+                - name: Vue d’ensemble de la facturation de l’abonnement
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Facturation des contrats récurrents
                   items:
@@ -432,13 +438,15 @@
                       href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Planifications de l’indice des prix à la consommation
                       href: accounts-receivable/cpischedules.md
-                    - name: Terminer les échéanciers de facturation
+                    - name: Résiliation des échéanciers de facturation
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Scénarios de date d’alignement
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Répartition des revenus
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Reports de revenus et de dépenses
                   items:
-                    - name: Configurer les reports de revenus et de dépenses
+                    - name: Configuration des reports de revenus et de dépenses
                       href: accounts-receivable/sb-deferrals.md
                     - name: Créer des échéanciers de reports
                       href: accounts-receivable/sb-deferrals-schedules.md
@@ -446,15 +454,17 @@
                       href: accounts-receivable/sb-deferral-transactions.md
                 - name: Répartition des revenus à plusieurs éléments
                   items:
-                    - name: Configurer la répartition des revenus à plusieurs éléments
+                    - name: Configuration de la répartition des revenus à plusieurs éléments
                       href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Paiements et règlements
               items:
                 - name: Vue d’ensemble des paiements client
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Configuration et traitement des paiements en transition
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Paiements centralisés de la comptabilité client
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
-                - name: Déposer les paiements client
+                - name: Dépôt des paiements client
                   href: accounts-receivable/tasks/deposit-customer-payments.md
                 - name: Vue d’ensemble du débit direct SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
@@ -634,7 +644,7 @@
               href: cash-bank-management/tasks/settle-postdated-check-customer.md
             - name: Régler un chèque postdaté pour un fournisseur
               href: cash-bank-management/tasks/settle-postdated-check-vendor.md
-            - name: Créer des chèques dont le statut est Nul
+            - name: Créer des chèques dont le statut est Vierge
               href: cash-bank-management/create-check-with-blank-status.md
             - name: Factures d’acompte et acomptes
               href: accounts-payable/prepayments-invoices-vs-prepayments.md
@@ -1022,15 +1032,23 @@
                       href: general-ledger/example-posting-definitions.md
                 - name: Devise
                   items:
-                    - name: Importer les taux de change des devises
+                    - name: Importation des taux de change des devises
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Devise double
                       href: general-ledger/dual-currency.md
+                - name: Profils de validation
+                  items:
+                    - name: Présentation des profils de validation
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Pratiques recommandées pour les profils de validation
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Comptes pour transactions automatiques
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Règles de répartition
                   items:
                     - name: Règles d’affectation comptable
                       href: general-ledger/ledger-allocation-rules.md
-                    - name: Traiter le journal de répartition comptable
+                    - name: Traitement du journal de répartition comptable
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
             - name: Journaux et documents sources
               items:
@@ -1050,7 +1068,7 @@
                       href: general-ledger/cant-reverse-transctns.md
                     - name: Créer une entrée de journal à l’aide d’un modèle
                       href: general-ledger/tasks/create-journal-entry-template.md
-                    - name: Traiter le journal de répartition comptable
+                    - name: Traitement du journal de répartition comptable
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Afficher les entrées de journal ou les transactions
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
@@ -1100,7 +1118,7 @@
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Soldes de la comptabilité
                   href: general-ledger/general-ledger-account-balances.md
-                - name: Traiter le journal de répartition comptable
+                - name: Traitement du journal de répartition comptable
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: Règles d’affectation comptable
                   href: general-ledger/ledger-allocation-rules.md
@@ -1250,7 +1268,7 @@
                   href: finance-insights/payment-insights-overview.md
                 - name: Utiliser les prédictions de paiement des clients
                   href: finance-insights/use-customer-payment-predictions.md
-                - name: Présentation des instantanés
+                - name: Vue d’ensemble des instantanés
                   href: finance-insights/payment-snapshots.md
             - name: FAQ sur la résolution des problèmes liés à Finance Insights
               href: finance-insights/finance-insights-troubleshooting-faq.md
@@ -2302,7 +2320,7 @@
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
                 - name: Fichier d’audit pour la France
                   items:
-                    - name: Présentation du fichier d’audit pour la France (FEC)
+                    - name: Vue d’ensemble du fichier d’audit pour la France (FEC)
                       href: localizations/emea-fra-fec-audit-file.md
                     - name: Prérequis pour générer un fichier d’audit FEC en France
                       href: localizations/emea-fra-fec-audit-file-pre-requisites.md
@@ -3178,7 +3196,7 @@
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Retour de TVA avec envoi direct à Altinn
                   items:
-                    - name: Présentation du retour de TVA avec envoi direct à Altinn
+                    - name: Vue d’ensemble du retour de TVA avec envoi direct à Altinn
                       href: localizations/emea-nor-vat-return.md
                     - name: Enregistrer un point d’intégration dans le portail web ID-porten
                       href: localizations/emea-nor-vat-return-integration-point.md
@@ -3765,7 +3783,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
                     - name: Mettre à niveau l’agent d’acheminement de document
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
-                    - name: Installer des périphériques d’impression réseau dans les environnements sur site
+                    - name: Installer des périphériques d’impression réseau dans les environnements locaux
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/finance/toc.json
                     - name: 'Génération, publication et impression de documents dans les déploiements locaux'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json

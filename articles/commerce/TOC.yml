@@ -420,7 +420,7 @@
                       href: charge-send.md
                     - name: Masquer les modes de livraison hors transporteur dans la boîte de dialogue Expédition du PDV
                       href: hide-non-carrier-modes.md
-                    - name: Enregistreur de tâches et aide pour MPOS et CPOS
+                    - name: Enregistreur de tâches et aide pour MPOS et Cloud POS
                       href: task-recorder-retail-pos.md
                     - name: Périphériques matériels
                       items:
@@ -600,9 +600,11 @@
                       href: wallets.md
                     - name: Paiements améliorés lors du paiement en magasin
                       href: dev-itpro/enhanced-sca.md
+                    - name: Configurer les paiements express pour PayPal
+                      href: dev-itpro/express-payments-paypal.md
                     - name: FAQ sur les paiements
                       href: dev-itpro/payments-retail.md
-                - name: Courrier électronique et notifications
+                - name: E-mail et notifications
                   items:
                     - name: Configurer les courriers électroniques de réception pour utiliser les dispositions et les modèles personnalisés
                       href: configure-emailed-receipt-formats.md
@@ -938,7 +940,7 @@
               href: task-mgmt-pos.md
             - name: Intégration de Dynamics 365 Commerce et Microsoft Teams
               items:
-                - name: Présentation de l’intégration de Commerce et Teams
+                - name: Vue d’ensemble de l’intégration de Commerce et Teams
                   href: commerce-teams-integration.md
                 - name: Activer l’intégration de Commerce et Teams
                   href: enable-teams-integration.md
@@ -954,10 +956,12 @@
                   href: teams-integration-faq.md
         - name: Gérer votre site d’e-commerce
           items:
-            - name: Présentation du site d’e-commerce
+            - name: Vue d’ensemble du site d’e-commerce
               href: online-store-overview.md
             - name: Créer un site d’e-commerce
               items:
+                - name: Mettre les canaux en correspondance avec les sites d’e-commerce
+                  href: map-channels-sites.md
                 - name: Configurer votre nom de domaine
                   href: configure-your-domain-name.md
                 - name: Déployer un nouveau client e-commerce
@@ -1562,7 +1566,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
                     - name: Mettre à niveau l’agent d’acheminement de document
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
-                    - name: Installer des périphériques d’impression réseau dans les environnements sur site
+                    - name: Installer des périphériques d’impression réseau dans les environnements locaux
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Génération, publication et impression de documents dans les déploiements locaux'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -2490,7 +2494,7 @@
               items:
                 - name: Vue d’ensemble
                   items:
-                    - name: Présentation de Commerce Scale Unit (CSU) principal
+                    - name: Vue d’ensemble de Commerce Scale Unit (CSU) principal
                       href: dev-itpro/CSU-core.md
                 - name: API et référence
                   items:
@@ -2554,24 +2558,26 @@
               items:
                 - name: Vue d’ensemble
                   items:
-                    - name: Présentation de l’extension du PDV
+                    - name: Vue d’ensemble de l’extension du PDV
                       href: dev-itpro/pos-extension/pos-extension-overview.md
                     - name: Concepts et terminologie des extensions de point de vente
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Migrer les extensions de point de vente vers le kit de développement logiciel (SDK) Commerce
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Créer un projet de package d’extension PDV
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: Déboguer les extensions Store Commerce à l’aide de VS Code
                       href: dev-itpro/sc-debug.md
+                    - name: Extensions MPOS et CPOS scellées
+                      items:
+                        - name: Créer un fichier .appx pour un package d’extension Modern POS
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: Déboguer les extensions MPOS (scellées) et CPOS
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: Configuration de l’environnement
                   items:
                     - name: Environnement de développement local
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: Créer un projet de package d’extension PDV
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Créer un fichier .appx pour un package d’extension Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Déboguer des extensions PDV
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API et référence
                   items:
                     - name: Afficher des informations sur les packages d’extension PDV
@@ -2644,7 +2650,7 @@
                   items:
                     - name: Vue d’ensemble de l’extensibilité des canaux en ligne
                       href: e-commerce-extensibility/overview.md
-                    - name: Présentation de l’architecture e-commerce
+                    - name: Vue d’ensemble de l’architecture e-commerce
                       href: e-commerce-extensibility/architectural-overview.md
                     - name: Composants e-commerce
                       href: e-commerce-extensibility/ecommerce-components.md
@@ -2666,7 +2672,7 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                     - name: Anatomie d’un module
                       items:
-                        - name: Présentation des modules
+                        - name: Vue d’ensemble des modules
                           href: e-commerce-extensibility/modules-overview.md
                         - name: Fichier de définition de module
                           href: e-commerce-extensibility/module-definition-file.md
@@ -2718,7 +2724,7 @@
                               href: e-commerce-extensibility/platform-settings.md
                             - name: Vue d’ensemble de l’API du cookie
                               href: e-commerce-extensibility/cookie-api-overview.md
-                            - name: Présentation des composants interactifs
+                            - name: Vue d’ensemble des composants interactifs
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Imiter l’état Connecté pendant le développement local
                               href: e-commerce-extensibility/mock-sign-in.md
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: Optimisation CSS du module
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: Optimiser les images sur les pages de détails du produit
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: Optimiser les images sur les pages de recherche et de catégorie
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: Télémétrie et analyse
                       items:
                         - name: Enregistreur automatique de télémétrie

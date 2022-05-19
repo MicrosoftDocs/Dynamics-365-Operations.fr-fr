@@ -50,10 +50,6 @@
           items:
             - name: Intégration entre les applications de finances et d’opérations et des services tiers
               href: data-entities/integration-overview.md
-            - name: Limitation basée sur la priorité
-              hreF: data-entities/priority-based-throttling.md
-            - name: FAQ sur la limitation basée sur la priorité
-              href: data-entities/throttling-faq.md
             - name: API d’intégration de données
               items:
                 - name: API REST du package Gestion des données
@@ -74,7 +70,19 @@
                   href: data-entities/recurring-integrations.md
                 - name: Tester les services à l’aide d’utilitaires tiers
                   href: data-entities/third-party-service-test.md
-            - name: Connecteur Finance and Operations
+            - name: Limites de protection de service
+              items:
+                - name: Limites API de protection de service
+                  href: data-entities/service-protection-api-limits.md
+                - name: Priorisation de limitation de requêtes
+                  href: data-entities/priority-based-throttling.md
+                - name: Réessayer les opérations
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Surveiller la limitation de l’API
+                  href: data-entities/service-protection-monitoring.md
+                - name: Optimiser le débit API
+                  href: data-entities/service-protection-maximizing-api-throughput.md
+            - name: Connecteur des applications de finances et d’opérations
               href: data-entities/fin-ops-connector.md
             - name: Développement pour l’intégration
               items:
@@ -234,7 +242,7 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Présentation de Exporter vers Azure Data Lake
+            - name: Vue d’ensemble du service Exporter vers Azure Data Lake
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Installer le complément Exporter vers Azure Data Lake
               href: data-entities/configure-export-data-lake.md
@@ -382,7 +390,7 @@
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Étapes d’installation des composants du canal Retail dans un environnement sur site
                       href: deployment/deploy-retail-onprem.md
-                    - name: Développer et déployer les modèles personnalisés sur les environnements sur site
+                    - name: Développer et déployer les modèles personnalisés sur les environnements locaux
                       href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Opérations sur les environnements
                   items:
@@ -398,13 +406,15 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Configurer les proxys pour les environnements locaux
                       href: deployment/onprem-reverseproxy.md
+                    - name: Configurer l’application d’entreposage pour les déploiements locaux
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Installer des périphériques d’impression réseau dans les environnements locaux
                       href: analytics/install-network-printer-onprem.md
                     - name: Diagnostics locaux
                       href: deployment/on-premises-diagnostics.md
                     - name: Configuration de récupération d’urgence localement
                       href: deployment/onprem-dr.md
-                    - name: Intégration de PowerBI.com aux environnements sur site
+                    - name: Intégration de PowerBI.com aux environnements locaux
                       href: analytics/entity-store-on-prem.md
                     - name: Reconfigurer des environnements
                       href: lifecycle-services/reconfigure-environment.md
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'Étendre, personnaliser et collaborer dans l’aide'
                   href: help/contributor-guide.md
-            - name: Considérations relatives au déploiement
+            - name: Services régionaux des applications de finances et d’opérations
               items:
-                - name: Options de déploiement cloud souverain et local pour Dynamics 365 Finance et Dynamics 365 Supply Chain Management
+                - name: Géographies locales
                   href: deployment/deployment-options-geo.md
-                - name: Finance et Supply Chain Management dans le cloud de la communauté du secteur public aux États Unis (GCC)
+                - name: Cloud de la communauté du secteur public aux États Unis (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance et Supply Chain Management exploitées par 21Vianet en Chine
+                - name: Exploité par 21Vianet en Chine
                   href: deployment/china-local-deployment.md
-                - name: Applications de finances et d’opérations en France
-                  href: deployment/france-local-deployment.md
         - name: Développer et personnaliser
           items:
             - name: Page d’accueil Développer et personnaliser
@@ -559,7 +567,7 @@
                     - name: Vue d’ensemble de création de modèles et d’éléments de modèle de données
                       href: dev-tools/create-data-model-elements.md
                     - name: Instructions de dénomination pour les extensions
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Désactiver la personnalisation de modèle et les fonctions déconseillées
                       href: dev-tools/lock-models.md
                 - name: État d’analyse de la personnalisation
@@ -854,7 +862,7 @@
                   href: perf-test/perfsdk-multi-user-testing.md
                 - name: Guide de dépannage pour les tests avec le Kit de développement logiciel (SDK) des performances
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: Kit de développement logiciel (SDK) des performances et tests multi-utilisateur dans les environnements sur site
+                - name: Kit de développement logiciel (SDK) des performances et tests multi-utilisateur dans les environnements locaux
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: Diagnostiquer les problèmes et analyser les performances à l’aide de Trace Parser
                   href: perf-test/trace-parser.md
@@ -1256,7 +1264,7 @@
                       href: business-events/how-to/period-close.md
             - name: Compléments
               items:
-                - name: Présentation des compléments
+                - name: Vue d’ensemble des compléments
                   href: power-platform/add-ins-overview.md
             - name: Stratégies et communications
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
