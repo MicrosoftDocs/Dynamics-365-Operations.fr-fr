@@ -1,7 +1,7 @@
 ---
 title: Clôture du stock
 description: Dans le cadre du processus pour régler les transactions de sortie avec des transactions de réception, vous pouvez également choisir de mettre à jour la comptabilité pour refléter les ajustements effectués.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 078969e12275c3abd2e4ea2f8c6c9579dce73e5f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be7649778790687b509cb0c28ca5a34c6bc9e708
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574015"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671420"
 ---
 # <a name="inventory-close"></a>Clôture du stock
 

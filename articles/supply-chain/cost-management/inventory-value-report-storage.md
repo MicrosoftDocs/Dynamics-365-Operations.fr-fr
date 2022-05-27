@@ -1,22 +1,22 @@
 ---
 title: États de valeur de stock
 description: Cette rubrique décrit comment paramétrer, générer et utiliser le rapport sur la valeur du stock. Ces rapports fournissent des détails sur les quantités et les montants physiques et financiers de votre stock.
-author: banluo-ms
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384693"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676157"
 ---
 # <a name="inventory-value-reports"></a>États de valeur de stock
 

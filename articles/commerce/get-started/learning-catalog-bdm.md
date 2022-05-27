@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d6d9dab85a5756d86051db52f16e6e0a46e20dcb
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: b86da1aa00214bc29268fd6e1ae1baeca7c2e083
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402422"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688934"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Catalogue d’apprentissage pour les décideurs commerciaux et techniques concernant Dynamics 365 Commerce
 
@@ -26,7 +25,7 @@ Décidez-vous d’investir dans de nouvelles technologies ?
 
 Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins.
 
-Pour un apprentissage des fonctionnalités partagées avec d’autres applications Finance and Operations, voir le [Catalogue d’apprentissage de Dynamics 365 Finance](../../finance/get-started/learning-catalog-bdm.md).
+Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-bdm.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 

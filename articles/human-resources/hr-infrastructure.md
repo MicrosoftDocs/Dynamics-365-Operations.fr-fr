@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487792"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688090"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Fusion de l’infrastructure Dynamics 365 Human Resources – Mise à jour de la version 10.0.25
 
@@ -28,7 +27,7 @@ La version 10.0.25 apporte la première vague de fonctionnalités dans la fusion
 
 La fusion offrira aux utilisateurs de Human Resources davantage de cohérence, des manières suivantes :
 
-- [La gestion de l’environnement et les intégrations sont cohérentes entre les applications Human Resources et Finances et Opérations.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
+- [La gestion de l’environnement et les intégrations sont cohérentes entre Human Resources et Finances et les applications de finances et d’opérations.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
 
     - Gestion d’environnements dans Microsoft Dynamics Lifecycle Services, recherche de problèmes et Regression Suite Automation Tool.
     - Il existe une base de code unique, où de nouvelles fonctionnalités pour Human Resources sont publiées dans le cadre du processus de mise à jour régulier One Version.

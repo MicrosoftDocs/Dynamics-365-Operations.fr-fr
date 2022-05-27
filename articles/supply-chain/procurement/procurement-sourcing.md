@@ -1,7 +1,7 @@
 ---
 title: Page d’accueil Approvisionnements
 description: Cette rubrique fournit une liste des rubriques d’aide et d’autres ressources disponibles pour les approvisionnements.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565493"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673016"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Page d’accueil Approvisionnements
 
@@ -56,11 +56,11 @@ Le module Approvisionnements couvre toutes les étapes : identification d’un b
 -   [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md)
 -   [Script de démonstration pour stock de consignation entrant pour Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(livre blanc)
 -   [Contrôler le stock de consignation à l’aide de la collaboration fournisseur](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Collaborer avec les fournisseurs à l’aide du portail fournisseur](collaborate-vendors-vendor-portal.md)  (versions de février et mai 2016 de Dynamics AX uniquement)
--   [Sécurité de l’utilisateur du portail fournisseur](configure-security-vendor-portal-users.md) (versions 2016 et de mai 2016 de Finance and Operations uniquement)
+-   [Collaborer avec les fournisseurs à l'aide du portail fournisseur](collaborate-vendors-vendor-portal.md)  (versions de février et mai 2016 de Dynamics AX uniquement)
+-   [Sécurité des utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md) (versions de février 2016 et mai 2016 de Finance and Operations uniquement)
 -   [Espace de travail de collaboration fournisseur sur téléphone mobile](vendor-collaboration-mobile-workspace.md)
 
-## <a name="procurement-product-management"></a>Gestion des produits d’approvisionnement
+## <a name="procurement-product-management"></a>Gestion des produits d'approvisionnement
 -   [Vue d’ensemble des catalogues d’approvisionnement](procurement-catalogs.md)
 -   [Créer des commandes fournisseur](tasks/create-procurement-catalog.md)
 -   [Importation des catalogues fournisseur](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (publication de blog)

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323663"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689240"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Types de données composites pris en charge pour les formules des États électroniques
 
@@ -81,7 +81,7 @@ Une *liste d’enregistrements* est une liste d’éléments du type *enregistre
 
 Par défaut, les enregistrements d’une *liste d’enregistrements* sont accessibles de manière séquentielle. Pour accéder à un enregistrement spécifique, vous pouvez utiliser la fonction [INDEX](er-functions-list-index.md) et spécifier l’indice *entier*.
 
-La valeur par défaut d’une *liste d’enregistrements* est **vide**. Vous pouvez utiliser la fonction [ISEMPTY](/er-functions-list-isempty.md) pour évaluer si une *liste d’enregistrements* est vide.
+La valeur par défaut d’une *liste d’enregistrements* est **vide**. Vous pouvez utiliser la fonction [ISEMPTY](er-functions-list-isempty.md) pour évaluer si une *liste d’enregistrements* est vide.
 
 > [!NOTE]
 > Si une *liste d’enregistrements* est vide, toute tentative d’obtenir une valeur de champ d’un *enregistrement* dedans provoque la levée d’une exception au moment de l’exécution. Pour savoir comment empêcher les exceptions d’exécution de ce type, consultez [Prise en compte des cas de liste vide](er-components-inspections.md#i9).

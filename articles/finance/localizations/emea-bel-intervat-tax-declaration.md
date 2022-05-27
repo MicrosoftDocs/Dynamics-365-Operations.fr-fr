@@ -2,7 +2,7 @@
 title: Déclaration de taxe INTERVAT
 description: Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 author: anasyash
-ms.date: 01/04/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 273023
 ms.search.region: Belgium
-ms.author: v-oloski
+ms.author: anasyash
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: ecd35a1629091b3e699ca443f0380d95b312bff6
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 68f65b759c6004700a3a5216e92af6b8e4dbf516
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595409"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674183"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -107,7 +107,7 @@ Des exemples de code déclaration de taxe sont fournis dans la section [Paramét
     -   Dans le champ **Numéro identifiant TVA**, entrez le numéro identifiant TVA de la contrepartie.
     -   Dans le champ **Nom de la société**, entrez le nom de la contrepartie.
 
-Pour plus d’informations sur le paramétrage des déclarations de fin, voir [Déclarations de TVA pour l’Europe](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-vat-reporting.md).
+Pour plus d’informations sur le paramétrage des déclarations de fin, voir [Déclarations de TVA pour l’Europe](emea-vat-reporting.md).
 
 ## <a name="settings"></a>Paramètres
 
@@ -119,7 +119,7 @@ Créez des lignes sur la page **Paramétrage INTERVAT** (**Taxe \> Paramétrage 
 
 ### <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
-Pour plus d’informations sur le paramétrage des codes déclaration de taxe, voir [Paramétrer des codes déclaration de taxe](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/general-ledger/tasks/set-up-sales-tax-reporting-codes.md).
+Pour plus d’informations sur le paramétrage des codes déclaration de taxe, voir [Paramétrer des codes déclaration de taxe](../general-ledger/tasks/set-up-sales-tax-reporting-codes.md).
 
 Si les utilisateurs sont autorisés à corriger manuellement un code déclaration, activez la case à cocher **Corrections de taxe**. Le tableau suivant fournit un exemple de codes déclaration de taxe pour la Belgique.
 
@@ -800,7 +800,7 @@ Notez que le montant du code **62** est égal à **200**.
     
 ## <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 
-Pour plus d’informations sur les états de rapprochement pour la Belgique, voir [États de rapprochement pour la Belgique](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-bel-reconciliation-reports.md).
+Pour plus d’informations sur les états de rapprochement pour la Belgique, voir [États de rapprochement pour la Belgique](emea-bel-reconciliation-reports.md).
 
 
 

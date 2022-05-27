@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407792"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688372"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
 
@@ -24,7 +24,7 @@ ms.locfileid: "8407792"
 
 Les [modèles Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) vous aide à mettre à niveau les données suivantes en double écriture vers le modèle de partie et de carnet d’adresses globales : données des tables **Compte**, **Contact** et **Fournisseurs** et les adresses postales et électroniques.
 
-Les trois modèles Data Factory suivants sont fournis. Ils facilitent le rapprochement des données des applications Finances et Opérations et des applications d’engagement client.
+Les trois modèles Data Factory suivants sont fournis. Ils facilitent le rapprochement des données des applications de finances et d’opérations et des applications d’engagement client.
 
 - **[Modèle de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Mettre à niveau des données vers un schéma dual-write Party-GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les données de **Partie** et de **Contact** associées aux données de **Compte**, **Contact** et **Fournisseur**.
 - **[Modèle d’adresse postale de la partie](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Mettre à niveau les données vers le schéma dual-write Party-GAB/Mettre à niveau vers l’adresse postale de partie – GAB/arm_template.json)** – Ce modèle permet de mettre à niveau les adresses postales associées aux données de **Compte**, **Contact** et **Fournisseur**.
@@ -61,7 +61,7 @@ Une mise à niveau nécessite la préparation suivante :
 + **Clés d’intégration** : les tables **Compte (client)**, **Contact** et **Fournisseur** dans les applications Customer Engagement utilisent les clés d’intégration prêtes à l’emploi. Si vous avez personnalisé les clés d’intégration, vous devez personnaliser le modèle.
 + **Numéro de partie :** tous les enregistrements **Compte (Client)**, **Contact** et **Fournisseur** qui seront mis à niveau ont un numéro de partie. Les enregistrements qui n’ont pas de numéro de partie seront ignorés. Si vous souhaitez mettre à niveau ces enregistrements, ajoutez-leur un numéro de partie avant de commencer le processus de mise à niveau.
 + **Panne du système** : pendant le processus de mise à niveau, vous devrez mettre hors connexion les environnements Finances et Opérations et Customer Engagement.
-+ **Instantané** : prenez un instantané des applications Finances et Opérations et des applications d’engagement client. Vous pouvez utiliser les instantanés pour restaurer l’état précédent si nécessaire.
++ **Instantané** : prenez un instantané des applications de finances et d’opérations et des applications d’engagement client. Vous pouvez utiliser les instantanés pour restaurer l’état précédent si nécessaire.
 
 ## <a name="deployment"></a>Déploiement
 
@@ -120,7 +120,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Configuration pour exécuter le modèle d’adresse postale de partie
 
-1. Connectez-vous aux applications Customer Engagement et accédez à **Paramètres** \> **Paramètres de personnalisation**. Puis, sur l’onglet **Général**, configurez le paramètre de fuseau horaire pour le compte d’administrateur système. Le fuseau horaire doit être en temps universel coordonné (UTC) pour mettre à jour les dates « valide à partir de » et « valide jusqu’au » des adresses postales à partir des applications Finances et Opérations.
+1. Connectez-vous aux applications Customer Engagement et accédez à **Paramètres** \> **Paramètres de personnalisation**. Puis, sur l’onglet **Général**, configurez le paramètre de fuseau horaire pour le compte d’administrateur système. Le fuseau horaire doit être en temps universel coordonné (UTC) pour mettre à jour les dates « valide à partir de » et « valide jusqu’au » des adresses postales à partir des applications de finances et d’opérations.
 
     ![Paramètre de fuseau horaire pour le compte d’administrateur système.](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
     | Nombre | Name | Type | Valeur |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses postales nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses postales dans les applications Finances et Opérations et les applications d’engagement client. Pour cet exemple, utilisez **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses postales nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses postales dans les applications de finances et d’opérations et les applications d’engagement client. Pour cet exemple, utilisez **ADF-PAD-**. |
 
     ![Paramètre global PostalAddressIdPrefix créé dans l’onglet Gérer.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
     | Nombre | Name | Type | Valeur |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Ce paramètre détermine quelles adresses système principales sont remplacées en cas de conflit. Si la valeur est **true**, les adresses principales dans les applications Finances et Opérations remplaceront les adresses principales dans les applications d’engagement client. Si la valeur est **false**, les adresses principales dans les applications d’engagement client remplaceront les adresses principales dans les applications Finances et Opérations. |
-    | 2 | ElectronicAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses électroniques nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses électroniques dans les applications Finances et Opérations et les applications d’engagement client. Pour cet exemple, utilisez **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Ce paramètre détermine quelles adresses système principales sont remplacées en cas de conflit. Si la valeur est **true**, les adresses principales dans les applications de finances et d’opérations remplaceront les adresses principales dans les applications d’engagement client. Si la valeur est **false**, les adresses principales dans les applications d’engagement client remplaceront les adresses principales dans les applications de finances et d’opérations. |
+    | 2 | ElectronicAddressIdPrefix | chaîne | Ce paramètre ajoute un numéro de série aux adresses électroniques nouvellement créées en tant que préfixe. Assurez-vous de fournir une chaîne qui n’entre pas en conflit avec les adresses électroniques dans les applications de finances et d’opérations et les applications d’engagement client. Pour cet exemple, utilisez **ADF-EAD-**. |
 
     ![Paramètres globaux IsFOSource et ElectronicAddressIdPrefix créés dans l’onglet Gérer.](media/ADF-4.png)
 
@@ -281,7 +281,7 @@ Cette section décrit la configuration requise avant d’exécuter les modèles 
 
     ![Exécution des modèles d’adresse postale et d’adresse électronique de partie.](media/ADF-7.png)
 
-10. Pour mettre à jour l’application Finances et Opérations avec ces données, vous devez convertir les fichiers .csv en classeur Excel et [les importer dans l’application Finances et Opérations](/data-entities/data-import-export-job). Si l’importation CSV fonctionne pour vous, vous pouvez importer les fichiers .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données.
+10. Pour mettre à jour l’application Finances et Opérations avec ces données, vous devez convertir les fichiers .csv en classeur Excel et [les importer dans l’application Finances et Opérations](../data-import-export-job.md). Si l’importation CSV fonctionne pour vous, vous pouvez importer les fichiers .csv directement. Cette étape peut prendre quelques heures, en fonction du volume de données.
 
     ![Importation réussie.](media/ADF-8.png)
 

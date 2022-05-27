@@ -1,7 +1,7 @@
 ---
 title: Espace de travail de collaboration fournisseur sur téléphone mobile
 description: Cette rubrique fournit des informations sur l’espace de travail mobile Collaboration du fournisseur. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: henrikan
+ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577022"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670102"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
@@ -27,10 +27,10 @@ ms.locfileid: "7577022"
 
 Cette rubrique fournit des informations sur l’espace de travail mobile **Collaboration du fournisseur**. Cet espace de travail permet aux fournisseurs d’être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance and Operations.
+Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
-## <a name="overview"></a>Vue d’ensemble 
-L’espace de travail mobile **Collaboration du fournisseur** tient les fournisseurs informés des nouvelles commandes fournisseur, de sorte qu’ils puissent y répondre dans le client Web. 
+## <a name="overview"></a>Présentation 
+L'espace de travail mobile **Collaboration du fournisseur** tient les fournisseurs informés des nouvelles commandes fournisseur, de sorte qu'ils puissent y répondre dans le client Web. 
 
 >[!NOTE]
 > L’espace de travail mobile doit être utilisé comme complément de l’interface Web de collaboration du fournisseur, mais pas comme un outil de remplacement. 
@@ -107,15 +107,15 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 
-Télécharger et installer l’application mobile Finance and Operations :
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
-1.  Démarrez l’application sur votre appareil mobile.
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
+1.  Démarrez l'application sur votre appareil mobile.
 2.  Saisissez votre URL Microsoft Dynamics 365.
 4.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 5.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.

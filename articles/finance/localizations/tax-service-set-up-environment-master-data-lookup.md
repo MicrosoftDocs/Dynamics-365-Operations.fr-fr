@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867350"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686709"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Activer la recherche des données de base pour la configuration du calcul des taxes 
 
@@ -33,7 +32,7 @@ Cette rubrique explique comment configurer et activer la fonctionnalité de rech
 
 1. Configurer l’intégration de Microsoft Power Platform dans Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir la rubrique [Intégration de Microsoft Power Platform - Vue d’ensemble des compléments](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Une fois cette étape terminée, le nom d’un environnement Microsoft Power Platform apparaîtra dans la section **Intégration Power Platform**.
 2. Accédez au [centre d’administration Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments), puis sélectionnez le nom de l’environnement. L’URL d’environnement est fourni.
-3. Configurez Dynamics 365 Finance et Dataverse. Pour plus d’informations, consultez [Obtenir la solution d’entité virtuelle](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) et [Authentification et autorisation](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+3. Configurer Dynamics 365 Finance et Dataverse. Pour plus d’informations, consultez [Obtenir la solution d’entité virtuelle](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) et [Authentification et autorisation](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
 4. Vous devez paramétrer les entités suivantes : Pour plus d’informations, consultez [Activer des entités virtuelles Microsoft Dataverse](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
     - CompanyInfoEntity

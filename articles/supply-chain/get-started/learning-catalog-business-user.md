@@ -1,23 +1,23 @@
 ---
 title: Catalogue d’apprentissage pour les utilisateurs de Dynamics 365 Supply Chain Management
 description: Découvrez toutes les options d’apprentissage pour les utilisateurs de Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402664"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673184"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Catalogue d’apprentissage pour les utilisateurs de Dynamics 365 Supply Chain Management
 
@@ -31,18 +31,18 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 |---------|-------------|--------|--------|
 | [Apprendre la valeur commerciale de Microsoft Dynamics 365 et Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Souhaitez-vous en savoir plus sur les applications métier ? Peut-être que vous ne savez pas par où commencer avec Microsoft Dynamics 365 et les applications Power Platform ? Découvrez comment la puissance des applications d’entreprise peut aider à transformer votre entreprise. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 8 heures |
 | [Principes fondamentaux de Dynamics 365 et Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Souhaitez-vous en savoir plus sur les applications métier ? Commencez ce parcours d’apprentissage pour voir comment les applications Dynamics 365 sont utilisées. Découvrez les concepts du cloud, Power Platform, et comment prendre en main les applications Dynamics 365. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures |
-| [Prise en main des applications Finance and Operations](/learn/paths/get-started-finance-operations/) | Découvrez comment les applications Finance and Operations prennent en charge les entreprises pour gérer leurs systèmes financiers mondiaux, les processus métier opérationnels et les chaînes d’approvisionnement rationalisées pour permettre aux utilisateurs de prendre rapidement des décisions éclairées. Dans le cadre de la première étape de votre expérience de collaboration avec les applications Finance and Operations, vous devez vous familiariser avec ses fonctionnalités, quel que soit votre rôle souhaité. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 2 heures |
+| [Mise en route des applications de finances et d’opérations](/learn/paths/get-started-finance-operations/) | Découvrez comment les applications de finances et d’opérations prennent en charge les entreprises pour gérer leurs systèmes financiers mondiaux, les processus métier opérationnels et les chaînes d’approvisionnement rationalisées pour permettre aux utilisateurs de prendre rapidement des décisions éclairées. Dans le cadre de la première étape de votre expérience de collaboration avec les applications de finances et d’opérations, vous devez vous familiariser avec ses fonctionnalités, quel que soit votre rôle souhaité. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 2 heures |
 | [Premiers pas avec Gestion des actifs pour Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Gestion des actifs est un module de gestion des actifs et des tâches de maintenance dans Dynamics 365 Supply Chain Management. Gestion des actifs vous permet de gérer et d’effectuer plus efficacement des tâches relatives à la gestion et à l’entretien de nombreux types d’équipements de votre société, par exemple, des machines, de l’équipement de production et des véhicules. Gestion des actifs prend en charge les solutions de nombreux secteurs. | Module d’apprentissage en ligne, gratuit et à son propre rythme | 1 heure |
-| [Démarrez avec le module complémentaire Gestion des modifications d'ingénierie pour Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management permet aux employés et aux organisations d'obtenir une vue unifiée des stocks, de l'entrepôt, de la fabrication, des services et de la logistique avec une analyse prédictive qui transforment les données en aperçus pour favoriser des décisions stratégiques optimales. | Module d’apprentissage en ligne, gratuit et à son propre rythme | 2 heures |
+| [Démarrez avec le module complémentaire Gestion des modifications d’ingénierie pour Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management permet aux employés et aux organisations d’obtenir une vue unifiée des stocks, de l’entrepôt, de la fabrication, des services et de la logistique avec une analyse prédictive qui transforment les données en aperçus pour favoriser des décisions stratégiques optimales. | Module d’apprentissage en ligne, gratuit et à son propre rythme | 2 heures |
 | [Mise en route de Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Avec Dynamics 365 Intelligent Order Management, les clients peuvent gérer l’orchestration des commandes jusqu’à leur exécution. Ces fonctionnalités permettent aux organisations d’orchestrer les flux de commandes sur différentes plateformes et applications. | Module d’apprentissage en ligne, gratuit et à son propre rythme | 4 heures |
 | [Cours MB-900T01-A : Principes fondamentaux de Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Ce cours familiarisera l’étudiant avec la fonctionnalité Dynamics 365 et la valeur métier. Le cours couvrira les applications Dynamics 365, Power Platform, les concepts de cloud, le modèle de sécurité et les licences. | Formation avec animateur ou en ligne ; le coût varie selon la région et le partenaire | 1 jour |
 
 ## <a name="core-platform-knowledge"></a>Principales connaissances de la plateforme<a name="core-platform-knowledge"></a>
 
-| Contenu | Description | Format | Longueur |
+| Contenu | Description | Format | Length |
 |---------|-------------|--------|--------|
-| [Configurer votre organisation dans les applications Finance and Operations](/learn/paths/configure-your-organization-finance-ops/) | Pour un consultant fonctionnel qui utilise des applications Finance and Operations, vous devez comprendre comment définir une organisation pour votre client. Ce parcours d’apprentissage vous montre, entre autres, comment configurer des entités légales, mettre en œuvre les paramètres de sécurité, personnaliser l’interface utilisateur pour les utilisateurs, concevoir et créer des applications mobiles, sans oublier mettre en place des intégrations courantes. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 12 heures |
-| [Configurer et utiliser les analyses et la génération d’états dans les applications Finance and Operations](/learn/paths/configure-analytics-reporting-finance-operations/) | Les chefs d’entreprise peuvent prendre des décisions importantes au sein de leur entreprise s’ils ont une vision précise des données financières et opérationnelles sous-jacentes. Un utilisateur professionnel peut également configurer et utiliser l’outil de génération d’états électroniques sans une seule ligne de code, pour adopter de nouvelles exigences réglementaires et générer des documents commerciaux dans le format requis pour échanger électroniquement des informations avec des organismes gouvernementaux, des banques et d’autres parties. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4 heures |
+| [Configurez votre organisation dans les applications de finances et d’opérations](/learn/paths/configure-your-organization-finance-ops/) | Pour un consultant fonctionnel qui utilise des applications de finances et d’opérations, vous devez comprendre comment définir une organisation pour votre client. Ce parcours d’apprentissage vous montre, entre autres, comment configurer des entités légales, mettre en œuvre les paramètres de sécurité, personnaliser l’interface utilisateur pour les utilisateurs, concevoir et créer des applications mobiles, sans oublier mettre en place des intégrations courantes. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 12 heures |
+| [Configurer et utiliser les analyses et la génération d’états dans les applications de finances et d’opérations](/learn/paths/configure-analytics-reporting-finance-operations/) | Les chefs d’entreprise peuvent prendre des décisions importantes au sein de leur entreprise s’ils ont une vision précise des données financières et opérationnelles sous-jacentes. Un utilisateur professionnel peut également configurer et utiliser l’outil de génération d’états électroniques sans une seule ligne de code, pour adopter de nouvelles exigences réglementaires et générer des documents commerciaux dans le format requis pour échanger électroniquement des informations avec des organismes gouvernementaux, des banques et d’autres parties. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4 heures |
 
 ## <a name="supply-chain-management"></a>Gestion de la chaîne d’approvisionnement<a name="supply-chain-management"></a>
 

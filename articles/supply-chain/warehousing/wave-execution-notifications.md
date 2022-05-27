@@ -1,7 +1,7 @@
 ---
 title: Notifications d’exécution de vague
 description: Cette rubrique décrit les notifications d’exécution de vague et explique comment les configurer.
-author: mirzaab
+author: Mirzaab
 ms.date: 04/03/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b6218610b673963f5d43e1b29c6fc356ea977935
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103237"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672512"
 ---
 # <a name="wave-execution-notifications"></a>Notifications d’exécution de vague
 
@@ -28,7 +28,7 @@ La fonctionnalité *Notifications d’exécution de vague* utilise des événeme
 
 Le bouton **Afficher les messages** (symbole de la cloche) sur le côté droit de la barre de navigation indique quand un message du centre d’action est disponible pour l’utilisateur actuel. L’utilisateur peut sélectionner le bouton **Afficher les messages** pour ouvrir le centre de notifications et consulter les messages.
 
-Les événements commerciaux se produisent lors de l’exécution des processus métier. Les processus métier sont constitués de tâches. Au cours d’un processus métier, les utilisateurs qui y participent exécutent des actions métier pour effectuer ces tâches. Les événements commerciaux fournissent un mécanisme permettant aux systèmes externes de recevoir des notifications de la part des applications Finances et Opérations. De cette manière, les systèmes peuvent effectuer des actions métier en réponse aux événements commerciaux. Pour plus d’informations, consultez [Présentation des événements commerciaux](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Les événements commerciaux se produisent lors de l’exécution des processus métier. Les processus métier sont constitués de tâches. Au cours d’un processus métier, les utilisateurs qui y participent exécutent des actions métier pour effectuer ces tâches. Les événements commerciaux fournissent un mécanisme permettant aux systèmes externes de recevoir des notifications de la part des applications de finances et d’opérations. De cette manière, les systèmes peuvent effectuer des actions métier en réponse aux événements commerciaux. Pour plus d’informations, consultez [Présentation des événements commerciaux](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Activer ou désactiver la fonctionnalité de notifications d’exécution de vague
 

@@ -1,7 +1,7 @@
 ---
 title: Espace de travail mobile Approbation des commandes fournisseur
 description: Cette rubrique fournit des informations sur l’espace de travail mobile Approbation des commandes fournisseur, qui permet d’afficher les commandes fournisseur et d’y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 30211
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc88f20b50e034f2f27b7e2576fe6a4bb3486e23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 32c22d582c0af03482767d335b824ccbe81ee607
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570559"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674307"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
 
@@ -69,16 +69,16 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
-Télécharger et installer l’application mobile Finance and Operations :
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
+Télécharger et installer l'application mobile Finance and Operations :
 
 - [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
 
-1. Démarrez l’application sur votre appareil mobile.
+1. Démarrez l'application sur votre appareil mobile.
 2. Saisissez votre URL Microsoft Dynamics 365.
 3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.

@@ -1,21 +1,21 @@
 ---
 title: Registre de la comptabilité globale des stocks
 description: Cette rubrique décrit les registres de la comptabilité globale des stocks, qui sont définis par la combinaison d’une devise, d’un calendrier, d’une convention et d’une association avec une entité juridique.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0130aef7212256a11ca9d27ffdd4af7a0aa6d98c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f5f610fa51fce18ecefbf96892b56b05208c666c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860423"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676073"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Registre de la comptabilité globale des stocks
 

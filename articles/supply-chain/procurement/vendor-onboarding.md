@@ -1,7 +1,7 @@
 ---
 title: Intégrer des fournisseurs
 description: Cette rubrique décrit le processus d’intégration de nouveaux fournisseurs. Elle explique les actions requises par différents rôles au cours de ce processus.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566885"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670998"
 ---
 # <a name="onboard-vendors"></a>Intégrer des fournisseurs
 
@@ -46,11 +46,11 @@ Le tableau suivant présente les étapes et les rôles impliqués dans le proces
 | Administrateur            | | | Créez un utilisateur dans Supply Chain Management et Microsoft Azure. | | | |
 | Personne à contacter chez le fournisseur    | | | Envoyez un e-mail à la personne à contacter. | Enregistrez les informations sur le fournisseur. | | |
 
-Pour une démonstration rapide du processus d’intégration des fournisseurs, visionnez cette petite vidéo YouTube : [Intégrer un nouveau fournisseur dans Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Pour une démonstration rapide du processus d'intégration des fournisseurs, consultez cette courte vidéo YouTube concernant la procédure [Intégrer un nouveau fournisseur dans Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
-## <a name="importing-the-prospective-vendor-registration-request"></a>Importation de la demande d’enregistrement du fournisseur potentiel
+## <a name="importing-the-prospective-vendor-registration-request"></a>Importation de la demande d'enregistrement du fournisseur potentiel
 
-La demande d’enregistrement du fournisseur potentiel est une entité dans Supply Chain Management. Vous pouvez paramétrer le système pour importer les données via cette entité. 
+La demande d'enregistrement du fournisseur potentiel est une entité dans Supply Chain Management. Vous pouvez paramétrer le système pour importer les données via cette entité. 
 
 Le tableau suivant présente les informations contenues dans cette entité qui peuvent être importées.
 
