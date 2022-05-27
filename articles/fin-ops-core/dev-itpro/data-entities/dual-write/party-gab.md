@@ -2,19 +2,19 @@
 title: Carnet d’adresses global et de la partie
 description: Cette rubrique décrit la fonctionnalité de carnet d’adresses global et de la partie de la double écriture.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407763"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717444"
 ---
 # <a name="party-and-global-address-book"></a>Partie et carnet d’adresses global
 
@@ -139,7 +139,7 @@ La grille comprend les colonnes suivantes :
 
 Vous pouvez utiliser le bouton **Nouvelle adresse électronique** au-dessus de la grille pour créer autant d’adresses que vous le souhaitez.
 
-Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets, par exemple des onglets **Résumé** et **Détails**. Les coordonnées affichées sur l’onglet **Détails** sont des copies en lecture seule de l’adresse électronique principale, comme le téléphone principal, l’e-mail principal, le téléphone principal, le télécopieur principal et l’identifiant Twitter principal. Au cours du processus de qualification des prospects, vous pouvez fournir un numéro de téléphone professionnel et un numéro de téléphone mobile. Le numéro de téléphone professionnel est considéré comme téléphone principal si **IsMobile=No** et le numéro de téléphone mobile est considéré comme téléphone secondaire si **IsMobile=Yes**.
+Au cours du processus de qualification des prospects, vous pouvez fournir un numéro de téléphone professionnel et un numéro de téléphone mobile. Le numéro de téléphone professionnel est considéré comme numéro téléphone principal si **IsMobile=No** et le numéro de téléphone mobile est considéré comme numéro téléphone secondaire si **IsMobile=Yes**.
 
 > [!TIP]
 > Utilisez les onglets **Adresses** et **Adresses électroniques** sur les formulaires **Compte** et **Contact** pour gérer les adresses postales et électroniques. Cela garantit que les données d’adresse se synchronisent avec les applications de finances et d’opérations.
@@ -148,7 +148,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
 1. Ouvrez votre environnement d’application d’engagement client.
 
-2. Installez la dernière version (2.2.2.60 ou ultérieure) de la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-app).
+2. Installez toutes les solutions prérequises, comme décrit dans [Package d'orchestration d'applications à double écriture séparée](separated-solutions.md).
 
 3. Installez la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
     Mapper | Mise à jour vers cette version | Modifications
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Customers V3 (accounts)` | 1.0.0.5 |Suppression du champ `PartyNumber` et d’autres champs liés à la partie tels que le nom, les détails personnels, les champs d’adresse postale, les champs d’adresse électronique, etc.
     `Customer V3 (contacts)` | 1.0.0.5 | Suppression du champ `PartyNumber` et d’autres champs liés à la partie tels que le nom, les détails personnels, les champs d’adresse postale, les champs d’adresse électronique, etc.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Suppression du champ `PartyNumber` et d’autres champs liés à la partie tels que le nom, les détails personnels, les champs d’adresse postale, les champs d’adresse électronique, etc.
@@ -174,16 +174,17 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Remplacement de la personne de contact par la référence `ContactforParty`.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Remplacement de la personne de contact par la référence `ContactforParty`.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
 
 8. Avant d’exécuter les mappages ci-dessus, vous devez mettre à jour les clés d’intégration manuellement comme décrit dans les étapes suivantes. Sélectionnez ensuite **Enregistrer**.
 
@@ -251,6 +252,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     [En-tête de devis de vente CDS](mapping-reference.md#215) | devis
     [En-têtes de commande client CDS](mapping-reference.md#217) | salesorders
     [En-têtes de facture client V2](mapping-reference.md#118) | factures
+    [Rôle d'adresse CDS](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > Le mappage `CDS Contacts V2 (contacts)` est celui que vous aviez interrompu à l’étape 1. Lorsque vous essayez d’exécuter d’autres mappages, ces 2 mappages peuvent apparaître dans la liste des personnes à charge. N’exécutez pas ces mappages.
@@ -258,7 +260,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 > Si la solution du carnet d’adresses global et de partie est installée, vous devez désactiver le plugin nommé `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Si vous désinstallez la solution du carnet d’adresses global et de partie, vous devez alors activer à nouveau le plugin.
 >
 > Le champ `msdyn_*partynumber` (un champ de texte sur une seule ligne) qui est inclus dans les tables **Compte**, **Contact** et **Fournisseur** ne doit plus être utilisé à l’avenir. Le nom de l’étiquette contient un préfixe **(Obsolète)** pour plus de clarté. Au lieu de cela, utilisez le champ **msdyn_partyid**. Ce champ effectue une recherche vers la table **msdyn_party**.
-
+>
 > Nom de la table | Ancien champ | Nouveau champ
 > --------|-------|--------
 > Compte | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction av
 | [En-têtes de facture client V2](mapping-reference.md#118) | factures |
 | [Salutations](mapping-reference.md#228) | msdyn\_salutations |
 | [Fournisseurs V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Rôle d'adresse CDS](mapping-reference.md#301) |msdyn\_addressroles|
 
 Pour plus d’informations, voir [Référence de mappage en double écriture](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Rôles d'adresse sous forme de liste déroulante à sélection multiple
+Une adresse postale ou une adresse électronique peut servir à plusieurs fins. Par exemple, une adresse postale peut servir à la fois d'adresse de facturation et d'adresse de livraison. Dans ces cas, un utilisateur peut sélectionner à la fois **Facturer** et **Livraison** dans la liste déroulante, comme indiqué dans l'illustration suivante. 
+
+![Liste déroulante Objectif/Rôle.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Problèmes connus et limitations
 
 + Dans les applications de finances et d’opérations lorsque vous créez un client avec l’adresse et que vous l’enregistrez, il est possible que l’adresse ne se synchronise pas avec la table **Adresse**. Cela est dû à un problème de séquençage de plateforme à double écriture. Pour contourner le problème, créez d’abord le client et enregistrez-le. Ajoutez ensuite l’adresse.
 + Dans les applications de finances et d’opérations, lorsqu’un enregistrement client a une adresse principale et que vous créez un nouveau contact pour ce client, l’enregistrement hérite d’une adresse principale de l’enregistrement client associé. Cela se produit également pour le contact fournisseur. Dataverse ne prend actuellement pas en charge ce comportement. Si la double écriture est activée, un client contact hérité d’une adresse principale de l’application de finances et d’opérations est synchronisé avec Dataverse avec son adresse.
-+ Les adresses électroniques définies sur l’onglet Adresses électroniques des formulaires **Compte**, **Contact** et **Fournisseur** proviennent de la table `msdyn_partyelectronicaddress`. Ces informations ne sont pas transmises aux transactions associées telles que la commande client, le devis et la commande fournisseur. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les enregistrements de compte et de contact continueront à fonctionner sur les transactions telles que la commande client, le devis et le bon de commande.
 + Dans les applications de finances et d’opérations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l’action échoue. Il s’agit d’un problème connu.
 
     ![Problème connu avec Ajouter des contacts.](media/party-gab-contact-issue.png)
 
-+ La **Synchronisation initiale** ne prend pas en charge les champs horaires **Disponible à partir de** et **Disponible jusqu’au** sur **ContactForParty**, car DIXF convertit la valeur en une chaîne au lieu d’un entier. La conversion déclenche l’erreur `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Lorsqu’une adresse postale est utilisée pour plusieurs raisons, par exemple, l’adresse de communication professionnelle et l’adresse de facturation, elle doit apparaître sous la forme `Business;Invoice` comme indiqué dans l’image suivante. Si vous ajoutez un espace entre les valeurs, vous obtiendrez une erreur.
-
-    ![Problème connu avec Adresse.](media/party-gab-address-issue.png)
-
++ La **Synchronisation initiale** ne prend pas en charge les champs horaires **Disponible à partir de** et **Disponible jusqu’au** sur **ContactForParty**, car DIXF convertit la valeur en une chaîne au lieu d’un entier. La conversion déclenche l’erreur `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Vous ne pouvez pas saisir une adresse postale postdatée à l’aide d’une application de finances et d’opérations avec la double écriture, car Dataverse ne prend pas en charge la validité de la date. Si vous saisissez une adresse postale postdatée à l’aide d’une application de finances et d’opérations, elle se synchronise complètement avec Dataverse et vous verrez l’adresse sur l’interface utilisateur immédiatement. Toute mise à jour de cet enregistrement entraînera une erreur car il est postdaté et n’est pas présent dans l’application de finances et d’opérations.

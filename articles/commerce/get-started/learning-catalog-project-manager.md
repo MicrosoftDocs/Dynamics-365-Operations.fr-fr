@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6af1e4bb0873945f85911aa72e22e334de0343d8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 497c1e8e69971ca7f1e176970c43ff8313b78678
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402101"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691078"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-commerce"></a>Catalogue d’apprentissage pour les chefs de projet d’implémentation qui utilisent Dynamics 365 Commerce
 
@@ -26,7 +25,7 @@ ms.locfileid: "7402101"
 
 Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins.
 
-Pour un apprentissage des fonctionnalités partagées avec d’autres applications Finance and Operations, voir le [Catalogue d’apprentissage de Dynamics 365 Finance](../../finance/get-started/learning-catalog-project-manager.md).
+Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-project-manager.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 

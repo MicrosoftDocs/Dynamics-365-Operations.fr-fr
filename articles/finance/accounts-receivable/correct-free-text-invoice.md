@@ -1,6 +1,6 @@
 ---
 title: Correction d’une facture financière
-description: Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
+description: Cette rubrique explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753800"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716211"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correction d’une facture financière
 
 [!include [banner](../includes/banner.md)]
 
-Cet article explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
+Cette rubrique explique comment corriger une facture financière validée et en émettre une nouvelle comme facture corrigée.
 
 Pour corriger une facture financière qui a déjà été validée, ouvrez la facture financière validée. Sur la page **Facture**, sélectionnez **Annuler**, puis **Corriger la facture**. Sélectionnez un code motif, ajoutez des commentaires, puis sélectionnez la date de la nouvelle facture corrigée. Vous pouvez modifier la facture corrigée, puis la valider. 
 

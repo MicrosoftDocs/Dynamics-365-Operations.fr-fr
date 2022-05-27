@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8fd6630a92ad9c7ad9b270e99814355fafc5510c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 4c74ce27c120342011c3bee53b0790dbc43a583b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402470"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694200"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catalogue d’apprentissage pour les développeurs de Dynamics 365 Commerce
 
@@ -26,7 +25,7 @@ Devez-vous écrire du code pour l’intégrer à d’autres sources de données,
 
 Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins.
 
-Pour un apprentissage des fonctionnalités partagées avec d’autres applications Finance and Operations, voir le [Catalogue d’apprentissage de Dynamics 365 Finance](../../finance/get-started/learning-catalog-developer.md).
+Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-developer.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 

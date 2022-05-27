@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065039"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717137"
 ---
 # <a name="choose-a-data-integration-technology"></a>Choisir une technologie d’intégration de données
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065039"
 
 
 
-Cette rubrique fournit des informations sur l’intégration aux données gérées par Dynamics 365 Human Resources. Il décrit différentes technologies d’intégration pour vous aider à décider quelles technologies correspondent le mieux à vos besoins.
+Cette rubrique fournit des informations pour l’intégration aux données gérées par Dynamics 365 Human resources. Il décrit différentes technologies d’intégration pour vous aider à décider quelles technologies correspondent le mieux à vos besoins.
 
 ## <a name="data-integration-background"></a>Arrière-plan de l’intégration des données
 
@@ -71,7 +70,7 @@ Les tables Dataverse et leurs API associées sont la meilleure option pour accé
 
 ### <a name="dmfdixf-entities"></a>Entités DMF/DIXF
 
-Human Resources, basée principalement sur la même plateforme que les applications Finances et Opérations, fournit un [cadre de gestion des données (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF est également appelé Data Import Export Framework (DIXF). Human Resources propose un ensemble d’entités de données que vous pouvez utiliser pour importer et exporter des données des ressources humaines. Tandis que les tables Dataverse sont l’interface d’intégration de données préférée pour Human Resources, les entités DMF seront toujours utiles dans certaines circonstances, telles que :
+Human Resources, basée principalement sur la même plateforme que les applications de finances et d’opérations, fournit un [cadre de gestion des données (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF est également appelé Data Import Export Framework (DIXF). Human Resources propose un ensemble d’entités de données que vous pouvez utiliser pour importer et exporter des données des ressources humaines. Tandis que les tables Dataverse sont l’interface d’intégration de données préférée pour Human Resources, les entités DMF seront toujours utiles dans certaines circonstances, telles que :
 
 - Les tables Dataverse ne sont pas encore disponibles.
 
@@ -128,7 +127,7 @@ Le complément Excel est approprié pour les importations / exportations de donn
 
 Vous pouvez utiliser le [Service d’intégrateur de données](/powerapps/administrator/data-integrator) pour intégrer des données vers et depuis Dataverse. L’intégrateur de données peut être utilisé pour définir des projets d’intégration (souvent basés sur des modèles prédéfinis que les développeurs d’applications ont adaptés à des intégrations spécifiques). Vous pouvez planifier les projets d’intégration pour s’exécuter automatiquement selon un calendrier récurrent ou être exécutés manuellement.
 
-Les projets Data Integrator conviennent aux intégrations par lots Dataverse. Ils constituent un choix parfait pour les intégrations entre la famille d’applications Dynamics 365. À titre d’exemple, Microsoft fournit un modèle d’intégration de données qui peut être utilisé pour intégrer les données de Human Resources dans Dynamics 365 Finance. Vous pouvez en savoir plus sur le modèle dans [Intégration depuis Dynamics 365 Human Resources à Dynamics 365 Finance](hr-admin-integration-finance.md).
+Les projets Data Integrator conviennent aux intégrations par lots Dataverse. Ils constituent un choix parfait pour les intégrations entre la famille d’applications Dynamics 365. À titre d’exemple, Microsoft fournit un modèle d’intégration de données qui peut être utilisé pour intégrer les données de Dynamics 365 Finance. Vous pouvez en savoir plus sur le modèle dans [Intégration depuis Dynamics 365 Human Resources à Dynamics 365 Finance](hr-admin-integration-finance.md)
 
 ### <a name="power-query"></a>Power Query
 

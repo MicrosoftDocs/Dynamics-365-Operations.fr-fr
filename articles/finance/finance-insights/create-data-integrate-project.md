@@ -2,7 +2,7 @@
 title: Créer un projet d’intégration de données
 description: Cette rubrique explique comment créer un projet d’intégration de données.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107285"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722881"
 ---
 # <a name="create-a-data-integration-project"></a>Créer un projet d’intégration de données
 
@@ -51,15 +51,18 @@ Cette rubrique explique comment créer un projet d’intégration de données.
         - Dynamics 365 for Fin & Ops
 
     6. Sélectionnez le mappage d’organisation approprié.
-    7. Sélectionnez **Créer**.
+    7. Cliquez sur **Créer**.
 
 5. Ouvrez les [environnements Power Apps](https://admin.powerapps.com/environments) et suivez ces étapes :  
 
-    1. Créez des projets d’intégration de données pour les modèles suivants à l’aide du jeu de connexions que vous venez de créer :
+    1. Créez un seul projet d'intégration de données pour chacun des modèles suivants à l'aide de l'ensemble de connexion que vous venez de créer :
 
         - Résultats des informations de paiement du client (CDS vers Fin and Ops 10.0.17+)
         - Résultats des séries chronologiques de flux de trésorerie (CDS à Fin et Ops)
         - Résultats des séries chronologiques de budget (CDS à Fin et Ops)
+
+      > [!NOTE]
+      > La création de plusieurs projets d'intégration de données pour chaque modèle peut provoquer des erreurs qui bloqueront les mises à jour.
 
     2. Définissez la planification appropriée pour chaque projet.
 

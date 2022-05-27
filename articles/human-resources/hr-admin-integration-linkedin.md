@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441263"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717109"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Intégration avec LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> L'intégration entre Dynamics 365 Human Resources et LinkedIn Talent Hub décrite dans cette rubrique sera obsolète le 31 décembre 2021. Le service d'intégration ne sera plus disponible après cette date. Les organisations qui n'utilisent pas déjà le service d'intégration ne pourront pas mettre en œuvre le service avant cette mise hors service.
+> L'intégration entre Dynamics 365 Human Resources et LinkedIn Talent Hub décrite dans cette rubrique n'est plus valable depuis le 31 décembre 2021. Le service d'intégration ne sera plus disponible après cette date. Les organisations qui n'utilisent pas déjà le service d'intégration ne pourront pas mettre en œuvre le service avant cette mise hors service.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) est une plateforme de système de suivi des candidats (ATS). Elle vous permet de trouver, gérer et embaucher des employés en un seul endroit. En intégrant Microsoft Dynamics 365 Human Resources avec LinkedIn Talent Hub, vous pouvez facilement créer des enregistrements d’employés dans Human Resources pour les candidats qui ont été embauchés pour un poste.
 

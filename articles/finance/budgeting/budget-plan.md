@@ -1,6 +1,6 @@
 ---
 title: Planification budgétaire
-description: L’objectif de cet atelier consiste à fournir aux partenaires une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 Finance dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l’accomplissement de la planification budgétaire à l’aide de cette configuration.
+description: L'objectif de cet atelier consiste à fournir aux partenaires une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 Finance dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l’accomplissement de la planification budgétaire à l’aide de cette configuration.
 author: panolte
 ms.date: 06/25/2018
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595332"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712002"
 ---
 # <a name="budget-planning"></a>Planification budgétaire
 
 [!include [banner](../includes/banner.md)]
 
-L’objectif de cet atelier consiste à fournir aux partenaires une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 Finance dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l’accomplissement de la planification budgétaire à l’aide de cette configuration.  Cet atelier pratique est consacré aux processus et tâches d’entreprise suivants :
+L'objectif de cet atelier consiste à fournir aux partenaires une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 Finance dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l’accomplissement de la planification budgétaire à l’aide de cette configuration.  Cet atelier pratique est consacré aux processus et tâches d’entreprise suivants :
 - Création de la hiérarchie d’organisation pour la planification budgétaire et la configuration de la sécurité utilisateur
 - Définition de scénarios de plan budgétaire, de colonnes de plan budgétaire, de mises en page et de modèles Excel
 - Création et activation du processus de planification budgétaire

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757217"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711318"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -969,7 +969,7 @@ Installation améliorée du composant client « à faible contact » via l’i
 </tr>
 <tr>
 <td>Surveillance de la santé du système, et diagnostic des erreurs et des problèmes.</td>
-<td>Cette fonctionnalité nécessite le <a href="https://www.microsoft.com/download/details.aspx?id=42636">Pack de gestion du centre système 2012 pour Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Cette fonctionnalité nécessite le <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">Pack de gestion du centre système 2012 pour Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>La surveillance et le diagnostic pour les composants Retail sont à présent disponibles via le tableau de bord <strong>Aperçu opérationnel</strong> dans LCS.</td>
 <td>Le tableau de bord <strong>Aperçu opérationnel</strong> est un portail de surveillance basé sur le cloud qui remplace la nécessité d’installer l’infrastructure System Center Operations Manager (SCOM).</td>
 </tr>
@@ -1024,11 +1024,11 @@ Aucune nouvelle fonctionnalité n’a été ajoutée :
 
 | Que pouvez-vous faire ? | Dynamics AX 2012 | Dynamics AX 7.0 | Pourquoi est-ce important ? |
 |------------------|------------------|-----------------|------------------------|
-| Possibilité de télécharger, d’installer et de configurer le portail des appareils mobiles d’entrepôt. | Vous pouvez télécharger, installer et configurer le portail lors du processus d’installation de Microsoft Dynamics AX, via un paramétrage standard. Il est conçu pour le déploiement et la configuration autonomes sur site. | Vous pouvez télécharger un installateur autonome via une option de menu dans le module gestion des entrepôts. Il est conçu pour le déploiement et la configuration autonomes sur site. | Lorsque vous configurez l’utilisation de la fonctionnalité de périphérique mobile, vous devez installer et configurer le portail des appareils mobiles d’entrepôt localement et obtenir une connexion à Dynamics AX dans le cloud. |
+| Possibilité de télécharger, d’installer et de configurer le portail des appareils mobiles d’entrepôt. | Vous pouvez télécharger, installer et configurer le portail lors du processus d’installation de Microsoft Dynamics AX, via un paramétrage standard. Il est conçu pour le déploiement et la configuration autonomes sur site. | Vous pouvez télécharger un installateur autonome via une option de menu dans le module gestion des entrepôts. Il est conçu pour le déploiement et la configuration autonomes sur site. | Lorsque vous configurez l'utilisation de la fonctionnalité de périphérique mobile, vous devez installer et configurer le portail des appareils mobiles d'entrepôt localement et obtenir une connexion à Dynamics AX dans le cloud. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
+[Nouveautés ou modifications de la page d'accueil Finance and Operations](whats-new-changed.md)
 
 [Nouveaux guides des tâches (février 2016)](new-task-guides-available-february-2016.md)
 

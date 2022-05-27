@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762065"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713583"
 ---
 # <a name="dual-currency"></a>Devise double
 
@@ -197,9 +197,9 @@ En outre, des modifications importantes ont été apportées au processus d’am
     - Si la devise comptable et les devises de déclaration dans la comptabilité sont identiques, les montants sont synchronisés. Si vous modifiez le montant du **Crédit**, le montant du **Crédit dans la devise de déclaration** sera automatiquement modifié afin qu’il lui corresponde.
     - Si un autre type de transaction est entré dans le journal des immobilisations, les montants du **Débit dans la devise de déclaration** et du **Crédit dans la devise de déclaration** ne sont jamais affichés, avant ou après la validation. Les montants de la devise comptable et de la devise de déclaration sont toujours disponibles dans le justificatif qui valide dans la comptabilité.
     
-### <a name="consolidations"></a>Consolidations
+### <a name="consolidations"></a>Regroupements
     
-La fonctionnalité qui a été introduite dans la version 10.0.5 Dynamics 365 Finance (octobre 2019) offre une meilleure flexibilité pour la consolidation et la double devise via la gestion des fonctionnalités. Pour activer cette fonctionnalité, allez dans l’espace de travail **Gestion des fonctionnalités** et sélectionnez **Activer la fonctionnalité de double devise dans la consolidation dans le module Comptabilité**.
+La fonctionnalité qui a été introduite dans Dynamics 365 Finance version 10.0.5 (octobre 2019) offre une meilleure flexibilité pour la consolidation et la double devise via la gestion des fonctionnalités. Pour activer cette fonctionnalité, allez dans l’espace de travail **Gestion des fonctionnalités** et sélectionnez **Activer la fonctionnalité de double devise dans la consolidation dans le module Comptabilité**.
 
 Dans la consolidation dans le module Comptabilité, une nouvelle option a été ajoutée pour consolider les montants de devise de déclaration et de comptabilité à partir des sociétés source. Si la devise comptable ou la devise de déclaration est identique à celle de la société de consolidation, les montants sont copiés directement au lieu d’être convertis.
 

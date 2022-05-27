@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919499"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722517"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Créer des modèles de messages électroniques pour les événements transactionnels
 
@@ -64,8 +64,8 @@ Le type de notification Emballage terminé prend en charge les espaces réservé
 | ------------------- | ------- |
 | `pickupstorename`     | Nom du magasin où la commande est disponible pour enlèvement. |
 | `pickupstoreaddress`  | Adresse du magasin où la commande est disponible pour enlèvement. |
-| `pickupstorehourfrom` | Heure d’ouverture du magasin d’enlèvement. |
-| `pickupstorehourto`   | Heure de fermeture du magasin d’enlèvement. |
+| `pickupstoreopenfrom` | Heure d’ouverture du magasin d’enlèvement. |
+| `pickupstoreopento` | Heure de fermeture du magasin d’enlèvement. |
 | `pickupchannelid`     | ID de canal de magasin du magasin d’enlèvement. |
 | `packingslipid`      | ID du bon de livraison de la commande qui sera enlevée. |
 | `confirmationid`      | ID de confirmation de commande de la commande qui sera enlevée. (Cet identifiant est parfois appelé ID référence de canal.) |
@@ -102,7 +102,7 @@ Le type de notification Émettre une carte cadeau prend en charge les espaces r�
 | Nom de l’espace réservé      | Objectif |
 | --------------------- | ------- |
 | `giftcardnumber`        | Le numéro de la carte cadeau, pour les produits du type de la carte cadeau. |
-| `giftcardbalance`       | Le solde de la carte cadeau, pour les produits du type de la carte cadeau. |
+| `availablebalance` | Le solde restant sur la carte-cadeau. |
 | `giftcardmessage`       | Le message de la carte cadeau, pour les produits du type de la carte cadeau. |
 | `giftcardpin`         | Le code PIN de la carte cadeau, pour les produits du type de la carte cadeau. (Cet espace réservé est spécifique aux cartes cadeaux externes.) |
 | `giftcardexpiration`    | La date d’expiration de la carte cadeau, pour les produits du type de la carte cadeau. (Cet espace réservé est spécifique aux cartes cadeaux externes.) |

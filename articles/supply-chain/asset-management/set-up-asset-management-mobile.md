@@ -1,6 +1,6 @@
 ---
 title: Configurer l’espace de travail mobile Gestion des actifs
-description: Cette rubrique décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Finance and Operations (Dynamics 365) pour exécuter un espace de travail mobile Gestion des actifs que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
+description: Cette rubrique décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Dynamics 365 Finance and Operations pour exécuter un espace de travail mobile Gestion des actifs que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572191"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693498"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurer l’espace de travail mobile Gestion des actifs
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Finance and Operations (Dynamics 365) pour exécuter un espace de travail mobile **Gestion des actifs** que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
+Cette rubrique décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Dynamics 365 Finance and Operations pour exécuter un espace de travail mobile **Gestion des actifs** que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Configurer les utilisateurs des agents de maintenance dans Supply Chain Management
 
@@ -42,7 +41,7 @@ Pour chaque utilisateur nécessitant un accès à l’espace de travail mobile *
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Publier l’espace de travail mobile Gestion des actifs
 
-Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’application mobile Finance and Operations (Dynamics 365), vous devez publier l’espace de travail mobile **Gestion des actifs**.
+Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’application mobile Dynamics 365 Finance and Operations, vous devez publier l’espace de travail mobile **Gestion des actifs**.
 
 1. Dans Supply Chain Management, sélectionnez le bouton **Paramètres** (le symbole d’engrenage dans le coin supérieur droit), puis sélectionnez **Application mobile** dans le menu.
 1. Dans la boîte de dialogue **Gérer l’application mobile**, recherchez la vignette **Gestion des actifs**. Si elle contient le texte « Dans les métadonnées : non publiées », l’espace de travail n’a pas encore été publié. Si elle contient le texte « Dans les métadonnées : publiées », l’espace de travail a déjà été publié et vous pouvez ignorer le reste de cette procédure.
@@ -51,14 +50,14 @@ Pour rendre les fonctionnalités de gestion des actifs disponibles dans l’appl
 
 1. Sélectionnez la vignette **Gestion des actifs**, puis sélectionnez **Publier** dans la barre d’outils. Après quelques secondes, vous devriez recevoir une notification indiquant que la publication de l’espace de travail a réussi. En outre, le texte de la vignette doit être modifié en « Dans les métadonnées : publiées ».
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installer et configurer l’application mobile Finance and Operations (Dynamics 365)
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installer et configurer l'application mobile Dynamics 365 Finance and Operations
 
 1. Accédez à l’un des magasins d’applications suivants pour installer l’application **Microsoft Finance and Operations (Dynamics 365)** sur votre appareil mobile :
 
     - [Pour les appareils Google Android](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Pour les appareils Apple iOS](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Ouvrez l’application Finance and Operations (Dynamics 365). La page de connexion doit apparaître. Dans le champ **Se connecter**, entrez l’URL de Supply Chain Management ou sélectionnez une URL récente dans la liste **Environnements récents**, puis appuyez sur **Se connecter**.
+1. Ouvrez l’application Finance et Operations (Dynamics 365). La page de connexion doit apparaître. Dans le champ **Se connecter**, entrez l’URL de Supply Chain Management ou sélectionnez une URL récente dans la liste **Environnements récents**, puis appuyez sur **Se connecter**.
 
     ![Page de connexion.](media/mobile-app-sign-in.png "Page de connexion")
 

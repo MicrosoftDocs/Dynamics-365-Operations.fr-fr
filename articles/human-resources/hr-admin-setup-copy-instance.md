@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04987f18542ff331124f5224e4b1240672874e83
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533962"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692420"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -72,9 +71,9 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
    ![[Sélectionner l’instance à remplacer.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
-5. Sélectionnez **Power Platform**, et connectez-vous au Centre d’administration Microsoft Power Platform.
+5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
 
-   ![[Sélectionner Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Sélectionnez Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
 

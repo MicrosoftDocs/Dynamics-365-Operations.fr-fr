@@ -1,6 +1,6 @@
 ---
 title: Régler un paiement partiel avant la date de remise et règlement final après la date de remise
-description: Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d’escompte de règlement et d’autres en dehors de la période d’escompte de règlement.
+description: Cette rubrique vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d’escompte de règlement et d’autres en dehors de la période d’escompte de règlement.
 author: abruer
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7331b4b2ad48cfa380497336d4ac22c8723568b5
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737135"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716745"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise et règlement final après la date de remise
 
 [!include [banner](../includes/banner.md)]
 
-Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d’escompte de règlement et d’autres en dehors de la période d’escompte de règlement.
+Cette rubrique vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d’escompte de règlement et d’autres en dehors de la période d’escompte de règlement.
 
 Fabrikam achète des marchandises au fournisseur 3057. Fabrikam reçoit un escompte de règlement de 1 % si la facture est payée sous 14 jours. Les factures doivent être réglées dans les 30 jours. Le fournisseur offre également à Fabrikam des escomptes de règlement en cas de paiements partiels. Les paramètres de règlement sont situés dans la page **Paramètres de la comptabilité fournisseur**.
 

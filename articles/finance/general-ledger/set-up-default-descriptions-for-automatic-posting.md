@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722693"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722434"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Paramétrage des descriptions par défaut pour la validation automatique
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722693"
 Cette rubrique explique comment vous pouvez paramétrer le texte par défaut utilisé pour décrire les écritures comptables validées automatiquement dans la comptabilité. Vous pouvez paramétrer le texte de description par défaut à l’aide de texte libre ou de variables fixes.
 
 > [!NOTE]
-> Pour certains types de transactions dans certains pays/régions, vous pouvez également inclure du texte provenant de champs de la base de données de Microsoft Dynamics AX associés à ces types de transactions. Pour obtenir une liste des types de transaction, et les pays et régions, voir la section [(Facultatif) Ajout d’un autre libellé aux descriptions par défaut](#optional-add-other-text-to-default-descriptions) plus loin dans cette rubrique.
+> Pour certains types de transactions dans certains pays/régions, vous pouvez également inclure du texte provenant de champs de la base de données associés à ces types de transactions. Pour obtenir une liste des types de transaction, et les pays et régions, voir la section [(Facultatif) Ajout d’un autre libellé aux descriptions par défaut](#optional-add-other-text-to-default-descriptions) plus loin dans cette rubrique.
 
 ## <a name="set-up-default-descriptions"></a>Paramétrage des descriptions par défaut
 

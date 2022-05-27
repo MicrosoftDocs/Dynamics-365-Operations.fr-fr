@@ -2,7 +2,7 @@
 title: Configurer un locataire B2C dans Commerce
 description: Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109887"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714310"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -157,7 +157,7 @@ Pour créer une stratégie de flux d’utilisateur d’inscription et de connexi
     | Nom de famille                | Nom de famille           |
     |                        | ID d’objet de l’utilisateur  |
 
-1. Sélectionnez **Créer**.
+1. Cliquez sur **Créer**.
 
 L’image suivante est un exemple de flux d’utilisateur d’inscription et de connexion Azure AD B2C.
 
@@ -332,9 +332,9 @@ Pour ajouter vos informations d’application de locataire Azure AD B2C à Comme
 
 1. Connectez-vous en tant qu’administrateur au générateur de site Commerce pour votre environnement.
 1. Dans le volet de navigation de gauche, cliquez sur **Paramètres de locataire** pour les étendre.
-1. Sous **Paramètres de locataire**, cliquez sur **Paramètres B2C**. 
-1. Dans la fenêtre principale suivante **Applications B2C**, sélectionnez **Gérer**. (Si votre locataire apparaît dans la liste des applications B2C, il a déjà été ajouté par un administrateur. Vérifiez que les éléments de l’étape 6 ci-dessous correspondent à votre application B2C.)
-1. Sélectionnez **Ajouter une application B2C**.
+1. Sous **Paramètres du client**, sélectionnez **Configuration de l'authentification du site**. 
+1. Dans la fenêtre principale à côté de **Profils d'authentification de site**, sélectionnez **Gérer**. (Si votre client apparaît dans la liste des profils d'authentification de site, alors il a déjà été ajouté par un administrateur. Vérifiez que les éléments de l'étape 6 ci-dessous correspondent à ceux de votre configuration B2C prévue. Un nouveau profil peut également être créé en utilisant des clients Azure AD ou applications B2C pour tenir compte des différences mineures, telles que des ID de stratégie utilisateur différents).
+1. Sélectionnez un **profil d’authentification du site**.
 1. Entrez les éléments requis suivants dans le formulaire affiché, en utilisant les valeurs de votre locataire et application B2C. Les champs qui ne sont pas obligatoires (ceux sans astérisque) peuvent être laissés vides.
 
     - **Nom de l’application** : le nom de votre application B2C, par exemple « Fabrikam B2C ».
@@ -347,12 +347,13 @@ Pour ajouter vos informations d’application de locataire Azure AD B2C à Comme
 1. Cliquez sur **OK**. Vous devriez maintenant voir le nom de votre application B2C apparaître dans la liste.
 1. Sélectionnez **Enregistrer** pour enregistrer les modifications.
 
+Le champ facultatif **Se connecter au domaine personnalisé** ne doit être utilisé que si vous configurez un domaine personnalisé pour le client B2C Azure AD. Pour plus de détails et de considérations concernant l'utilisation du champ **Se connecter au domaine personnalisé**, voir [Informations B2C supplémentaires](#additional-b2c-information) ci-dessous.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Associer l’application B2C à votre site et votre canal
 
 > [!WARNING]
-> Si votre site est déjà associé à une application B2C, le passage à une autre application B2C supprimera les références actuelles établies pour les utilisateurs déjà inscrits dans cet environnement. Si modifiées, les informations d’identification associées à l’application B2C actuellement affectée ne seront pas disponibles pour les utilisateurs. 
-> 
-> Mettez à jour l’application B2C uniquement si vous configurez l’application B2C du canal pour la première fois ou si vous avez l’intention de réinscrire les utilisateurs avec de nouvelles informations d’identification sur ce canal avec la nouvelle application B2C. Soyez prudent lorsque vous associez des canaux à des applications B2C et nommez clairement les applications. Si un canal n’est pas associé à une application B2C dans les étapes ci-dessous, les utilisateurs qui se connectent à ce canal pour votre site seront entrés dans l’application B2C en indiquant **Par défaut** dans la liste **Paramètres de locataire \> Paramètres B2C** des applications B2C.
+> - Si votre site est déjà associé à une application B2C, le passage à une autre application B2C supprimera les références actuelles établies pour les utilisateurs déjà inscrits dans cet environnement. Si modifiées, les informations d’identification associées à l’application B2C actuellement affectée ne seront pas disponibles pour les utilisateurs. 
+> - Mettez à jour l’application B2C uniquement si vous configurez l’application B2C du canal pour la première fois ou si vous avez l’intention de réinscrire les utilisateurs avec de nouvelles informations d’identification sur ce canal avec la nouvelle application B2C. Soyez prudent lorsque vous associez des canaux à des applications B2C et nommez clairement les applications. Si un canal n’est pas associé à une application B2C dans les étapes ci-dessous, les utilisateurs qui se connectent à ce canal pour votre site seront entrés dans l’application B2C en indiquant **Par défaut** dans la liste **Paramètres de locataire \> Paramètres B2C** des applications B2C.
 
 Pour associer l’application B2C à votre site et votre canal, procédez comme suit.
 
@@ -378,6 +379,23 @@ Pour en savoir plus sur la personnalisation des interactions Azure AD B2C et les
 ### <a name="secondary-admin"></a>Administrateur secondaire
 
 Un compte administrateur secondaire facultatif peut être ajouté dans la section **Utilisateurs** de votre locataire B2C. Cela peut être un compte direct ou un compte général. Si vous devez partager un compte entre les ressources de l’équipe, un compte commun peut également être créé. En raison de la sensibilité des données stockées dans Azure AD B2C, un compte commun doit être surveillé de près conformément aux pratiques de sécurité de votre entreprise.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Configurer un domaine de connexion personnalisé
+
+Azure AD B2C vous permet de configurer un domaine de connexion personnalisé pour le client Azure AD B2C. Pour obtenir des instructions, consultez [Activer les domaines personnalisés pour Azure Active Directory B2C](/azure/active-directory-b2c/custom-domain). 
+
+Si vous utilisez un domaine de connexion personnalisé, le domaine doit être saisi dans le générateur de site Commerce.
+
+Pour entrer un domaine de connexion personnalisé dans le créateur de site, procédez comme suit.
+
+1. Dans le coin supérieur droit du générateur de site, sélectionnez le sélecteur de site, puis sélectionnez, puis sélectionnez **Gérer les sites**.
+1. Dans le volet de navigation de gauche, sélectionnez **Paramètres du client \> Configuration de l’authentification du site**.
+1. Dans la section **Profils d'authentification de site**, sélectionnez **Gérer**.
+1. Dans le menu déroulant à droite, sélectionnez le bouton **Modifier** (symbole de crayon) à côté du profil d'authentification de site pour lequel vous souhaitez entrer un domaine personnalisé.
+1. Dans la boîte de dialogue **Modifier le profil d'authentification du site**, sous **Se connecter au domaine personnalisé**, saisissez votre domaine de connexion personnalisé (par exemple, "login.fabrikam.com").
+
+> [!WARNING]
+> Lorsque vous mettez à jour vers un domaine personnalisé pour le client B2C Azure AD, la modification affecte les détails de l'émetteur du client pour le jeton généré. Les détails de l'émetteur incluront alors le domaine personnalisé au lieu du domaine par défaut fourni par le client B2C Azure AD. Une autre configuration **Émetteur** à Commerce Headquarters (**Retail et Commerce \> Configuration de Headquarters \> Paramètres \> Paramètres partagés de Commerce \> Fournisseurs d'identité**) modifie l'interaction du système avec les utilisateurs du site, créant potentiellement un nouvel enregistrement client si un utilisateur s'authentifie auprès du nouvel émetteur. Toute modification de domaine personnalisé doit être soigneusement testée avant de passer au domaine personnalisé dans un environnement B2C Azure AD.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

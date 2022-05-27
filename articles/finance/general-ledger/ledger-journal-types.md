@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727015"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722267"
 ---
 # <a name="ledger-journal-types"></a>Types de journaux comptables
 
@@ -30,7 +30,7 @@ Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour le
 
 | Type de journal                      | Objectif                       | Entrer les transactions sur cette page                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
-| Affectation                        | Créer des transactions de répartition dans un journal des répartitions. Avant de pouvoir créer un journal de répartition, vous devez créer une règle de répartition sur la page **Règle de répartition comptable**.      | Traiter la demande de répartition             |
+| Allocation                        | Créer des transactions de répartition dans un journal des répartitions. Avant de pouvoir créer un journal de répartition, vous devez créer une règle de répartition sur la page **Règle de répartition comptable**.      | Traiter la demande de répartition             |
 | Approbation                          | Permet de valider les factures fournisseur approuvées dans les comptes généraux appropriés.  | Journal des approbations de facture                                       |
 | Contrepassation de chèque bancaire               | Contrepasser un chèque validé. Pour utiliser ce type de journal, sélectionnez l’option **Utiliser le processus de révision pour les contrepassations de paiement** sur la page **Paramètres de gestion des disponibilités et des banques**.   | Contrepassations de chèques, contrepassation de paiement                   |
 | Annulation du bordereau de remise en banque    | Annuler un paiement de bordereau de remise. Pour utiliser ce type de journal, sélectionnez l’option **Utiliser le processus de révision pour les annulations de paiement par bordereau de remise** sur la page **Paramètres de gestion des disponibilités et des banques**.   | Annulations de paiement de bordereau de remise            |

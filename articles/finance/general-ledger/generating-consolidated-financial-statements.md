@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 10f8754c4156893034117a4d449d464754eacafb0c0f6725c36709632af730ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727357"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716521"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d’analyse consolidés
 
@@ -90,14 +90,14 @@ Que vous utilisiez des comptes, des dimensions, ou les deux, l’outil États fi
 Une société peut détenir uniquement un pourcentage d’une autre société. Dans ce cas, lorsque vous générez un état consolidé, il est important de tenir compte uniquement du pourcentage détenu par la société. L’outil États financiers affiche la participation minoritaire de plusieurs façons, selon les préférences de l’utilisateur. L’une d’elles consiste à utiliser un pourcentage de cumul dans la définition d’organigramme d’entreprise. Il est également possible d’afficher la participation minoritaire en tant que ligne distincte dans un état.
 
 ### <a name="using-the-reporting-tree-definition"></a>Utilisation de la définition d’organigramme d’entreprise
-Dans la définition d’organigramme d’entreprise, entrez le pourcentage de participation dans la colonne **% de cumul** (colonne H), comme indiqué dans l’illustration suivante. Lorsque l’état est généré, ce pourcentage sera utilisé pour calculer le montant consolidé. Dans cet exemple, Contoso ne détient que 80 %% de Contoso Germany. Vous pouvez entrer **80** ou **0,8** dans la colonne **% de cumul**, et 80 %% seront cumulés au niveau consolidé.
+Dans la définition d’organigramme d’entreprise, entrez le pourcentage de participation dans la colonne **% de cumul** (colonne H), comme indiqué dans l’illustration suivante. Lorsque l’état est généré, ce pourcentage sera utilisé pour calculer le montant consolidé. Dans cet exemple, Contoso ne détient que 80 % de Contoso Germany. Vous pouvez entrer **80** ou **0,8** dans la colonne **% de cumul**, et 80 % seront cumulés au niveau consolidé.
 
 > [!NOTE]
 > Vous pouvez appliquer ce pourcentage de participation à n’importe quelle unité organisationnelle, pas uniquement au niveau de la société. 
 
 ![Utilisation du pourcentage de la définition d’organigramme d’entreprise.](./media/Using-reporting-tree-definition-percentage.png "Utilisation du pourcentage de la définition d’organigramme d’entreprise")
 
-Lorsque l’état est généré, l’état Contoso Germany affichera 100 %% du montant des ventes, et 80 %% du montant sera alloué et cumulé au niveau consolidé pour les ventes.
+Lorsque l’état est généré, l’état Contoso Germany affichera 100 % du montant des ventes, et 80 % du montant sera alloué et cumulé au niveau consolidé pour les ventes.
 
 Si vous détenez moins de 1 %% d’une société, vous pouvez activer la case à cocher **Autoriser un cumul inférieur à 1 %%** dans l’onglet **Options supplémentaires** de la page **Paramètres de l’état**, comme indiqué dans l’illustration suivante. Dans ce cas, les valeurs de la colonne **% de cumul** dans l’organigramme d’entreprise seront considérées comme inférieures à 1 %%. Par exemple, si vous entrez **0,8**, 0,8 %% est cumulé au niveau consolidé, et non 80 %%. Vous pouvez également obtenir le même résultat en laissant la case à cocher **Autoriser un cumul inférieur à 1 %%** désactivée et en entrant **0,008** dans la colonne **% de cumul**.
 

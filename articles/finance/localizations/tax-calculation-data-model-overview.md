@@ -9,24 +9,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 976a90b1a04a5bba91d73712d4d38a8c9038d885
-ms.sourcegitcommit: 6fd739976b46122f9a9002309aba60edb89e5468
+ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8453480"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694254"
 ---
 # <a name="tax-calculation-data-model"></a>Modèle de données de calcul des taxes
 
 Cette rubrique fournit des informations sur les valeurs de champ du modèle de données fiscales sont déterminées dans le cadre des transactions de calcul de taxes.
 
-Le *modèle de données fiscales* est composé de champs requis pour le calcul des taxes. Microsoft fournit le *modèle de données de calcul de taxes*, qui comprend les champs d’en-tête et les champs de ligne des documents de transaction dans les applications Finances et Opérations. Les champs définis dans le modèle de données de calcul de taxes sont les colonnes disponibles des tables de règles d’applicabilité dans la configuration de la fonctionnalité de calcul de taxes.
+Le *modèle de données fiscales* est composé de champs requis pour le calcul des taxes. Microsoft fournit le *modèle de données de calcul de taxes*, qui comprend les champs d’en-tête et les champs de ligne des documents de transaction dans les applications de finances et d’opérations. Les champs définis dans le modèle de données de calcul de taxes sont les colonnes disponibles des tables de règles d’applicabilité dans la configuration de la fonctionnalité de calcul de taxes.
 
 > [!NOTE] 
 > Certains nœuds définis dans le modèle de données, tels que **ID d’enregistrement** et **ID de table**, existent à des fins techniques. Ce ne sont pas des colonnes disponibles dans la configuration de la fonctionnalité de calcul des taxes.
@@ -55,7 +54,7 @@ Vous pouvez également afficher le modèle de données de calcul des taxes et le
 
     [![Gérer les colonnes.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Le modèle de données de calcul des taxes est intégré aux applications Finances et Opérations. Lors de chaque transaction liée au calcul des taxes, les valeurs des champs définis dans les tables des règles d’applicabilité sont collectées et envoyées au service de calcul des taxes pour calcul. Dans la version 40.46, 57 modèles de données prédéfinis sont disponibles pour les types de transactions suivants : commandes d’achat, commandes de vente, ordres de transfert, demandes d’achat, appels d’offre et devis de vente.
+Le modèle de données de calcul des taxes est intégré aux applications de finances et d’opérations. Lors de chaque transaction liée au calcul des taxes, les valeurs des champs définis dans les tables des règles d’applicabilité sont collectées et envoyées au service de calcul des taxes pour calcul. Dans la version 40.46, 57 modèles de données prédéfinis sont disponibles pour les types de transactions suivants : commandes d’achat, commandes de vente, ordres de transfert, demandes d’achat, appels d’offre et devis de vente.
 
 ## <a name="version-updates-and-restrictions"></a>Mises à jour et restrictions de version
 

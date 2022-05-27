@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "17251"
 - intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982063"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711741"
 ---
 # <a name="budget-planning-overview"></a>Vue d’ensemble de la planification de budget
 
@@ -57,7 +57,7 @@ La planification budgétaire est intégrée avec d’autres modules. Par conséq
 
 ## <a name="configuring-budget-planning"></a>Configuration de la planification budgétaire
 
-La fonctionnalité introduite dans la version 10.0.9 (avril 2020) de Dynamics 365 Finance inclut une fonctionnalité qui aide à améliorer les performances lorsque vous utilisez le bouton **Publier** pour mettre à jour les enregistrements existants dans Excel, puis les publier à nouveau sur le client. Cette fonctionnalité accélère le processus de mise à jour et contribue également à réduire la probabilité qu’une mise à jour soit bloquée lorsque vous mettez à jour plusieurs enregistrements en même temps. Pour rendre cette fonctionnalité disponible, accédez à l’espace de travail **Gestion des fonctionnalités** et activez la fonctionnalité **Optimisation des requêtes de planification budgétaire pour les performances** sous **Budgétisation**. Nous vous recommandons d’activer cette fonctionnalité.
+La fonctionnalité introduite dans Dynamics 365 Finance version 10.0.9 (avril 2020) inclut une fonctionnalité qui aide à améliorer les performances lorsque vous utilisez le bouton **Publier** pour mettre à jour les enregistrements existants dans Excel, puis les publier à nouveau sur le client. Cette fonctionnalité accélère le processus de mise à jour et contribue également à réduire la probabilité qu’une mise à jour soit bloquée lorsque vous mettez à jour plusieurs enregistrements en même temps. Pour rendre cette fonctionnalité disponible, accédez à l’espace de travail **Gestion des fonctionnalités** et activez la fonctionnalité **Optimisation des requêtes de planification budgétaire pour les performances** sous **Budgétisation**. Nous vous recommandons d’activer cette fonctionnalité.
 
 La page **Configuration de planification budgétaire** contient la plupart des paramètres nécessaires pour paramétrer la planification budgétaire. Les sections suivantes décrivent certains facteurs dont vous devez tenir compte lorsque vous configurez la planification budgétaire. Après avoir terminé la configuration, vous pouvez paramétrer les processus de planification budgétaire.
 
@@ -87,7 +87,7 @@ La planification du budget peut suivre l’un des deux modèles de sécurité po
 
 Les workflows de planification budgétaire sont utilisés avec les workflows de budgétisation pour gérer la création et l’évolution des plans budgétaires.
 
-Un workflow de planification budgétaire est composé d’un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l’un des types de workflows utilisés dans Dynamics 365 Finance. Ils acheminent les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu’ils soient révisés et approuvés.
+Un workflow de planification budgétaire est composé d’un ensemble ordonné de stades par lesquels un plan budgétaire passe. Chaque workflow de planification budgétaire est associé à un workflow de budgétisation. Les workflows de budgétisation sont l'un des types de workflows utilisés dans Dynamics 365 Finance. Ils acheminent les plans budgétaires, ainsi que les feuilles de calcul, justifications et pièces jointes, au sein de votre organisation pour qu’ils soient révisés et approuvés.
 
 Vous créez le workflow de planification budgétaire dans la section **Stades de workflow** de la page **Configuration de la planification budgétaire**. Là, vous pouvez sélectionner les stades et le workflow de budgétisation qui sera utilisé, puis configurer également les paramètres supplémentaires.
 

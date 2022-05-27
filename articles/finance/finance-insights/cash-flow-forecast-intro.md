@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945827"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711000"
 ---
 # <a name="cash-forecast"></a>Prévisions de trésorerie
 
@@ -43,7 +43,7 @@ Pour la plupart des entreprises, la gestion des flux de trésorerie et l’exéc
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Détails de la capacité de prévision des flux de trésorerie
 La fonction de prévision des flux de trésorerie comprend les fonctionnalités suivantes. 
 
-- Introduit la prévision intelligente des flux de trésorerie pour les prévisions à long terme, en utilisant la prévision de séries chronologiques grâce à une intégration automatisée avec AI Builder.
+- Introduit la prévision intelligente des flux de trésorerie pour les prévisions à long terme, en utilisant la prévision de séries chronologiques grâce à une intégration automatisée avec AI Builder.
 
 - Vous permet d’enregistrer un emplacement ou des prévisions de flux de trésorerie spécifiques, de les modifier, puis de comparer et de mesurer facilement les performances des prévisions avec les données financières réelles.
 

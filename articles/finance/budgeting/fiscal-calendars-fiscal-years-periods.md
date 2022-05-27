@@ -1,6 +1,6 @@
 ---
 title: Calendriers fiscaux, exercices et périodes
-description: Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
+description: Cette rubrique présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25851
 ms.assetid: a968a5e5-585e-4389-aa4e-c885a7e23413
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d06e9de2e4e360e92ed350dbad6350744e69ed79a30d2956ab598fdc8a9821
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734560"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717388"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendriers fiscaux, exercices et périodes
 
 [!include [banner](../includes/banner.md)]
 
-Cet article présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
+Cette rubrique présente des calendriers fiscaux, des exercices et des périodes et la manière de les utiliser pour les entités juridiques, les immobilisations et la budgétisation.
 
 Les calendriers fiscaux fournissent la structure de base de l’activité financière d’une organisation. Chaque calendrier fiscal inclut un ou plusieurs exercices constitués de plusieurs périodes. Les calendriers fiscaux peuvent être basés sur une année civile allant du 1er janvier au 31 décembre, ou sur les dates que vous sélectionnez. Par exemple, certaines organisations choisissent un calendrier fiscal qui commence le 1er juillet de l’année et se termine le 30 juin de l’année suivante. 
 

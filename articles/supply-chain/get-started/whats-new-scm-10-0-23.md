@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570476"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691468"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.23 (janvier 2022)
 
@@ -75,13 +75,15 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 | Gestion des entrepôts | [Paramètres globaux des appareils mobiles](../warehousing/mobile-device-parameters.md) |
 | Gestion des entrepôts | [Ancrage](../warehousing/anchoring.md) |
 | Ventes et marketing | Le commerce interentreprises est maintenant décrit en détail, en commençant par [Mettre en place des échanges interentreprises](../sales-marketing/intercompany-trade-set-up.md) et ce sont des sujets connexes. |
+| Ventes et marketing | [Améliorations des performances du nettoyage de l’historique des ventes](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Gestion des stocks | La documentation sur la visibilité du stock a été étendue et mise à jour, en commençant par [Présentation du complément de visibilité de stock](../inventory/inventory-visibility.md) et ce sont des sujets connexes. |
+| Gestion des entrepôts | [Comptes d’utilisateur d’appareil mobile](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance et Opérations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finance et Opérations, version 10.0.23 (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.23 (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

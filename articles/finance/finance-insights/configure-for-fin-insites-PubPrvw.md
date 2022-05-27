@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 ROBOTS: noindex,nofollow
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061752"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711602"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuration pour Finance Insights – versions 10.0.20 et ultérieures
 
@@ -38,7 +38,7 @@ Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance 
 
 Procédez comme suit pour déployer les environnements.
 
-1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Finance. L’environnement nécessite la version 10.0.20 ou ultérieure des applications Finances et Opérations.
+1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Finance. L’environnement nécessite la version 10.0.20 ou ultérieure des applications de finances et d’opérations.
 2. L’environnement doit être un environnement haute disponibilité (HA) dans Sandbox. (Ce type d’environnement est également appelé environnement de niveau 2.) Pour plus d’informations, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Si vous configurez Informations financières dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner comme il se doit le modèle de prédiction. 
 
@@ -126,7 +126,7 @@ Si vous ne trouvez aucune des applications précédentes, essayez les étapes su
         - **Performance** : nous vous recommandons de sélectionner **Standard**.
         - **Type de compte** : vous devez sélectionner **StorageV2**.
 
-    3. Dans la boîte de dialogue **Options avancées**, pour l’option **Stockage Data Lake Gen2**, sélectionnez **Activer** sous la fonctionnalité **Espaces de noms hiérarchiques**. Si vous n’activez pas cette fonctionnalité, vous ne pouvez pas consommer les données que les applications Finances et Opérations écrivent à l’aide de services tels que les flux de données Power BI.
+    3. Dans la boîte de dialogue **Options avancées**, pour l’option **Stockage Data Lake Gen2**, sélectionnez **Activer** sous la fonctionnalité **Espaces de noms hiérarchiques**. Si vous n’activez pas cette fonctionnalité, vous ne pouvez pas consommer les données que les applications de finances et d’opérations écrivent à l’aide de services tels que les flux de données Power BI.
     4. Sélectionnez **Réviser et créer**. Une fois le déploiement terminé, la nouvelle ressource s’affiche dans le portail Azure.
     5. Accédez au compte de stockage que vous avez créé.
     6. Dans le menu de gauche, sélectionnez **Clés d’accès**.

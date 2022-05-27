@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565277"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695561"
 ---
 # <a name="sales-returns"></a>Retours sur ventes
 
@@ -76,7 +76,6 @@ Lorsque vous créez un ordre de retour, les informations du tableau suivant doiv
 | Numéro de retour marchandises         | L’ID affecté à l’ordre de retour.              | Le numéro de retour marchandises est utilisé comme clé secondaire pendant l’intégralité du processus d’ordre de retour. Le numéro de retour marchandises affecté est fondé sur la souche de numéros de retour marchandises paramétrée dans la page **Paramètres de la comptabilité client**.                                                                                                                              |
 | Date limite           | La dernière date à laquelle l’article peut être retourné.               | La valeur par défaut est calculée comme la date du jour plus la période de validité. Par exemple, si un retour est valable pendant seulement 90 jours à compter de la date de création de l’ordre de retour et que l’ordre de retour a été créé le 1er mai, la valeur du champ est **30 juillet**. La période de validité est définie dans la page **Paramètres de la comptabilité client**. |
 | Code motif de retour | Le motif du client pour le retour du produit          | Le code motif est sélectionné dans la liste des codes motif définis par l’utilisateur. Vous pouvez actualiser ce champ à tout moment.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Créer des lignes d’ordre de retour
 
 Après avoir réalisé l’en-tête de retour, vous pouvez créer des lignes de retour à l’aide d’une des méthodes suivantes :
@@ -84,7 +83,8 @@ Après avoir réalisé l’en-tête de retour, vous pouvez créer des lignes de 
 -   Entrez manuellement les détails de l’article, la quantité et les autres informations pour chaque ligne de retour.
 -   Créez une ligne de retour à l’aide la fonction **Rechercher une commande client**. Il est recommandé d’utiliser cette fonction quand vous créez un ordre de retour. La fonction **Rechercher une commande client** établit une référence entre la ligne de retour et la ligne de commande client facturée, et extrait des détails de ligne tels que le numéro d’article, la quantité, le prix, la remise, et le coût à partir de la ligne de vente. Vous aide de référence garantissent que, lorsque le produit est retourné à la société, elle a la valeur du même coût unitaire qu’elle a été vendu à. La référence valide également que les ordres de retour ne sont pas créés pour une quantité supérieure à la quantité vendue sur la facture.
 
->[Remarque!] Les lignes de retour faisant référence à une commande client sont traitées comme des corrections, ou des contrepassations de la vente. Pour plus d’informations, voir la section « Valider dans la comptabilité » plus loin dans cette rubrique.
+>[!NOTE] 
+>Les lignes de retour faisant référence à une commande client sont traitées comme des corrections, ou des contrepassations de la vente. Pour plus d’informations, voir la section « Valider dans la comptabilité » plus loin dans cette rubrique.
 
 ### <a name="charges"></a>Frais
 
@@ -189,8 +189,10 @@ Pendant le processus d’arrivée, les retours sont intégrés au processus gén
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identifier les produits dans la liste de vue d’ensemble des arrivées
 
-La page **Vue d’ensemble des arrivées** répertorie toutes les arrivées entrantes prévues. 
->[Remarque!] Les arrivées provenant d’ordres de retour doivent être traitées séparément des autres types de transactions d’arrivée. Après avoir identifié un article entrant dans la page **Vue d’ensemble des arrivées** (par exemple, à l’aide du document de retour marchandise d’accompagnement), dans le volet Action, cliquez sur **Commencer une arrivée** pour créer et initialiser un journal des arrivées correspondant à l’arrivée.
+La page **Vue d’ensemble des arrivées** répertorie toutes les arrivées entrantes prévues.
+
+>[!NOTE] 
+>Les arrivées provenant d’ordres de retour doivent être traitées séparément des autres types de transactions d’arrivée. Après avoir identifié un article entrant dans la page **Vue d’ensemble des arrivées** (par exemple, à l’aide du document de retour marchandise d’accompagnement), dans le volet Action, cliquez sur **Commencer une arrivée** pour créer et initialiser un journal des arrivées correspondant à l’arrivée.
 
 ### <a name="edit-the-arrival-journal"></a>Modifier le journal des arrivées
 
@@ -232,7 +234,8 @@ Si vous expédiez un article de remplacement au client, et que vous utilisez l�
 
 L’article de remplacement sera livré à l’aide d’une commande client est indépendante, la commande client de remplacement. Cette commande client est créée lorsque le bon de livraison de l’ordre de retour est généré. L’en-tête de l’ordre utilise les informations du client référencé dans l’en-tête de l’ordre de retour. Les informations de ligne sont collectées à partir des informations entrées dans la page **Article de remplacement**. La page **Article de remplacement** doit être remplie pour les lignes ayant des actions de disposition commençant par le mot « remplacer ». Toutefois, ni la quantité ni l’identité de l’article de remplacement n’est validée ou limitée. Cela permet de traiter les cas où le client souhaite recevoir le même article, mais dans une taille ou une configuration différente, ainsi que les cas où le client souhaite un article complètement différent. Par défaut, un article identiques est entré dans la page **Article de remplacement**. Toutefois, vous pouvez sélectionner un autre article, à condition que la fonction ait été paramétrée. 
 
->[Remarque!] Vous pouvez modifier et supprimer la commande client de remplacement une fois qu’elle a été créée.
+>[!NOTE] 
+>Vous pouvez modifier et supprimer la commande client de remplacement une fois qu’elle a été créée.
 
 ## <a name="generate-a-packing-slip"></a>Générer un bon de livraison
 Pour pouvoir recevoir des retours marchandises dans le stock, vous devez mettre à jour le bon de livraison relatif à la commande à laquelle appartiennent les articles. Toute comme le traitement de mise à jour de facture consiste à mettre à jour la transaction financière, le traitement de mise à jour de bon de livraison consiste à mettre à jour physiquement l’enregistrement de stock. En d’autres termes, ce processus valide les modifications apportées au stock. En cas de retour, les opérations affectées à l’action de disposition sont exécutées durant la mise à jour du bon de livraison. Lorsque vous générez le bon de livraison, les événements suivants se produisent :
@@ -253,8 +256,10 @@ Bien que la page **Ordre de retour** contienne les informations et les actions n
 
 ### <a name="credit-correction"></a>Correction de crédit
 
-Dans le cadre du processus de facturation, vérifiez que tous les frais divers sont corrects. Pour que les validations dans la comptabilité deviennent des corrections (Storno), envisagez d’utiliser l’option **Correction de crédit** de l’onglet **Autre** de la page **Validation de la facture** quand vous validez la facture ou l’avoir. 
->[Remarque!] Par défaut, l’option **Correction de crédit** est activée si l’option **Avoir comme correction** de la page **Paramètres de la comptabilité client** est activée. Cependant, il est recommandé de ne pas valider les retours avec la méthode Storno.
+Dans le cadre du processus de facturation, vérifiez que tous les frais divers sont corrects. Pour que les validations dans la comptabilité deviennent des corrections (Storno), envisagez d’utiliser l’option **Correction de crédit** de l’onglet **Autre** de la page **Validation de la facture** quand vous validez la facture ou l’avoir.
+
+> [!NOTE]
+> Par défaut, l’option **Correction de crédit** est activée si l’option **Avoir comme correction** de la page **Paramètres de la comptabilité client** est activée. Cependant, il est recommandé de ne pas valider les retours avec la méthode Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Créer des ordres de retour intersociétés
 Les ordres de retour peuvent être réalisés entre deux sociétés de votre organisation. Les scénarios suivants sont pris en charge :
@@ -308,7 +313,8 @@ L’ordre de retour ne fait pas référence à une facture client. L’article r
 
 ![L’ordre de retour ne fait pas référence à une facture client.](./media/SalesReturn09.png)  
 
->[Remarque!] Le prix de base de l’article sert de valeur par défaut pour le paramètre **Prix de vente de retour**. Le prix par défaut diffère du prix de revient au moment de la sortie du stock. Par conséquent, l’implication est qu’une perte de 3 a été subie. En outre, l’ordre de retour n’inclut pas la remise qui a été accordée au client sur la commande client. Par conséquent, un crédit excessif apparaît.
+> [!NOTE]
+> Le prix de base de l’article sert de valeur par défaut pour le paramètre **Prix de vente de retour**. Le prix par défaut diffère du prix de revient au moment de la sortie du stock. Par conséquent, l’implication est qu’une perte de 3 a été subie. En outre, l’ordre de retour n’inclut pas la remise qui a été accordée au client sur la commande client. Par conséquent, un crédit excessif apparaît.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Exemple 2 : la correction de crédit est sélectionnée pour l’ordre de retour
 
@@ -316,7 +322,8 @@ L’exemple 2 est le même que l’exemple 1, mais le paramètre **Correction 
 
 ![Ordre de retour lorsque la correction de crédit est sélectionnée.](./media/SalesReturn10.png)  
 
->[Remarque!] Les validations comptables sont entrées comme des corrections négatives.
+>[!NOTE] 
+>Les validations comptables sont entrées comme des corrections négatives.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Exemple 3 : la ligne d’ordre de retour est créée à l’aide de la fonction Rechercher une commande client
 
@@ -324,7 +331,8 @@ Dans cet exemple, la ligne d’ordre de retour est créée à l’aide de la fon
 
 ![Ligne d’ordre de retour créée à l’aide de la fonction Rechercher une commande client.](./media/SalesReturn11.png)  
 
->[Remarque!] **Remise** et **Prix de vente de retour** sont définis correctement. Par conséquent, une contrepassation exacte de la facture client est réalisée.
+> [!NOTE]
+> **Remise** et **Prix de vente de retour** sont définis correctement. Par conséquent, une contrepassation exacte de la facture client est réalisée.
 
 
 

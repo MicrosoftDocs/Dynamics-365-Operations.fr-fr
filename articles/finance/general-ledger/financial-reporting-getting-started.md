@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "10444"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
-ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
+ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8573648"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721897"
 ---
 # <a name="get-started-with-financial-reporting"></a>Démarrage de Financial Reporting 
 
@@ -148,7 +148,7 @@ Vous pouvez créer un nombre illimité d’arborescences de génération d’ét
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Mettre à jour la version de Financial Reporting via l’intégration
 
-Les applications Finance et Opérations sont mises à jour tous les mois. Cependant, Financial Reporting n’est pas nécessairement mis à jour à cette cadence. De plus, les clients ont plus de possibilités quant au moment où ils implémentent les mises à jour pour les applications Finance et Opérations. Les mises à jour de Financial Reporting sont automatiquement installées. Financial Reporting a une version désignée qui est utilisée dans un environnement client lorsqu’une mise à jour de service est mise en œuvre, lorsqu’un temps d’arrêt est déclenché ou lorsque l’environnement d’un client est en mode Maintenance. Ce processus est connu sous le nom d’*intégration* ou d’*ajustement*, car toutes les implémentations client sont définies sur la même version de Financial Reporting.
+Les applications de finances et d’opérations sont mises à jour tous les mois. Cependant, Financial Reporting n’est pas nécessairement mis à jour à cette cadence. De plus, les clients ont plus de possibilités quant au moment où ils implémentent les mises à jour pour les applications de finances et d’opérations. Les mises à jour de Financial Reporting sont automatiquement installées. Financial Reporting a une version désignée qui est utilisée dans un environnement client lorsqu’une mise à jour de service est mise en œuvre, lorsqu’un temps d’arrêt est déclenché ou lorsque l’environnement d’un client est en mode Maintenance. Ce processus est connu sous le nom d’*intégration* ou d’*ajustement*, car toutes les implémentations client sont définies sur la même version de Financial Reporting.
 
 Les changements qui sont publiés dans chaque version sont disponibles dans [Nouveautés ou modifications dans Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Les mises à jour de la plate-forme et les corrections de bogues sont disponibles dans la section « Ressources supplémentaires » en bas de la page pour chaque version.
 

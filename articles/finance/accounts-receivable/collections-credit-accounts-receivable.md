@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723917"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710355"
 ---
 # <a name="collections-in-accounts-receivable"></a>Recouvrements dans Comptabilité client
 
@@ -64,7 +64,7 @@ Les pages de liste suivantes permettent d’organiser les informations de recouv
 -   Dossiers de recouvrement – Les colonnes de la page de liste affichent les informations relatives aux demandes de devis associées à une catégorie de demande de devis et au type de demande de devis Recouvrements.
 
 > [!NOTE]
-> Vous devez créer un instantané de balance âgée avant d’afficher des informations dans ces pages de liste. Les informations ne sont affichées que pour les clients pour lesquels un instantané de balance âgée a été créé. L’accès aux enregistrements affichés dans la page de liste peut également être filtré de la manière suivante :
+> Vous devez créer un instantané de balance âgée avant d’afficher des informations dans ces pages de liste. Les informations ne sont affichées que pour les clients pour lesquels un instantané de balance âgée a été créé. L'accès aux enregistrements affichés dans la page de liste peut également être filtré de la manière suivante :
 > <li>Par défaut, un utilisateur de Finance and Operations a accès à tous les clients associés à un instantané de balance âgée.</li>
 > <li>Si des regroupements de clients existent, un utilisateur doit être paramétré en tant qu’agent de recouvrement pour les utiliser afin de filtrer les informations des pages de liste de recouvrement. Les informations sont limitées aux clients inclus dans le regroupement de clients sélectionné.</li>
 > <li>Si un utilisateur est paramétré en tant qu’agent de recouvrement, seuls les regroupements sélectionnés pour celui-ci sont disponibles dans la page de liste. Si l’option Autoriser l’agent à voir tous les regroupements de clients est sélectionnée sur la page Agent de recouvrement pour l’agent de recouvrement, tous les regroupements sont disponibles pour celui-ci.</li>

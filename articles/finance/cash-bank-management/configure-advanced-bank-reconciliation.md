@@ -1,6 +1,6 @@
 ---
 title: Processus de configuration du rapprochement bancaire avancé
-description: Le rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article décrit l’ensemble des processus de rapprochement.
+description: Le rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article décrit l’ensemble des processus de rapprochement.
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42c86a120403d8d87d62c76d56993decca7f6cdafaeb67c7afec29da0bf8f18f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f000b689f55b8155a7c7372c780800122f762b40
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757167"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712479"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processus de configuration du rapprochement bancaire avancé
 
 [!include [banner](../includes/banner.md)]
 
-Le rapprochement bancaire avancé permet d’importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article décrit l’ensemble des processus de rapprochement.  
+Le rapprochement bancaire avancé permet d'importer des relevés bancaires électroniques et de les rapprocher automatiquement avec des transactions bancaires dans Microsoft Dynamics 365 Finance. Cet article décrit l’ensemble des processus de rapprochement.  
 
 Un certain nombre d’éléments doit être défini avant d’utiliser la fonctionnalité de rapprochement bancaire avancé. Pour plus d’informations sur la configuration de l’importation de relevé bancaire, consultez [Configurer le processus d’importation de rapprochement bancaire avancé](set-up-advanced-bank-reconciliation-import-process.md).  La configuration requise pour configurer le processus de rapprochement est détaillée ci-dessous.
 

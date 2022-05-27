@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722765"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716392"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatisation des factures pour les documents numérisés
 
@@ -58,7 +58,7 @@ Un package de données est l’unité de travail qui doit être envoyée, afin q
 
 Les pièces jointes des documents de facture fournisseur sont une nouvelle entité de données introduite dans le cadre de cette fonctionnalité. L’entité En-tête de facture fournisseur a été modifiée pour prendre en charge les pièces jointes. L’entité Ligne de facture fournisseur n’a pas été modifiée pour cette fonctionnalité.
 
-Pour des informations détaillées sur les packages de données, consultez [Vue d’ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Pour plus d’informations sur la création de packages de données à l’aide de l’espace de travail de gestion des données, consultez [Traiter et consommer des packages de données dans la solution d’applications Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Pour des informations détaillées sur les packages de données, consultez [Vue d’ensemble de la gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Pour plus d’informations sur la création de packages de données à l’aide de l’espace de travail de gestion des données, consultez [Traiter et consommer des packages de données dans la solution d'applications de finances et d’opérations Dynamics 365](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Pour générer rapidement des données de test incluant des factures et des pièces jointes, procédez comme suit :
 
@@ -86,7 +86,7 @@ Les factures importées via des packages de données peuvent être associées à
 
 ## <a name="exception-processing"></a>Traitement des exceptions
 
-Dans les scénarios où les factures fournisseur sont envoyées dans Finance and Operations par le biais de l’intégration, un membre de l’équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie de Finance and Operations.
+Dans les scénarios où les factures fournisseur sont envoyées dans Finance and Operations par le biais de l'intégration, un membre de l'équipe de la comptabilité fournisseur doit pouvoir traiter facilement les exceptions ou les factures ayant échoué, et créer des factures en attente à partir des factures ayant échoué. Ce traitement des exceptions pour les factures fournisseur fait désormais partie de Finance and Operations.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Factures fournisseur qui n’ont pas réussi à importer la page de liste
 
