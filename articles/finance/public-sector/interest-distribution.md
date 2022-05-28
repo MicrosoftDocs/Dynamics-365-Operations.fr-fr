@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PSNLedgerInterestDistributionRules, PSNLedgerInterestDistributionResults
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: a2c85fff681be70f505e47a9e783284a5b1619fb
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 7aea8ae00cd2f3817631fc2aa810056fdc949a6e
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890688"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735740"
 ---
 # <a name="set-up-interest-distribution-for-cash-accounts"></a>Paramétrer la distribution d’intérêts pour les comptes de disponibilités
 

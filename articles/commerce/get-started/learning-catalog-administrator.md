@@ -9,22 +9,21 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 74d349f6c870c638ee42086e47635817366c3a1a
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 57b284663021bd60dcaf83cda2e10a319b33512a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402590"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693360"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Commerce
 
 Avez-vous besoin de maintenir les systèmes et les données fluides, mis en service et sécurisés 24h/24 ?
 
-Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins. Ce catalogue ne comprend que des fonctionnalités spécifiques à Dynamics 365 Commerce. Pour un apprentissage des fonctionnalités partagées avec d’autres applications Finance and Operations, voir le [Catalogue d’apprentissage de Dynamics 365 Finance](../../finance/get-started/learning-catalog-administrator.md).
+Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins. Ce catalogue ne comprend que des fonctionnalités spécifiques à Dynamics 365 Commerce. Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-administrator.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 

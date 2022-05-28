@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739333"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734865"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Paramétrer des groupes de taxe et groupes de taxe d’article
 
 [!include [banner](../../includes/banner.md)]
 
-Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d’article. Les groupes de taxe sont des groupes de codes taxe associés aux clients et aux fournisseurs. Ils sont également associés aux comptes généraux pour les transactions non validées pour un fournisseur ou client spécifique.  Les groupes Taxe d’article sont des groupes de codes taxe associés aux ressources comme des produits.  Les taxes qui s’appliquent à une transaction donnée sont déterminées par les codes taxe inclus dans le groupe de taxe et le groupe de taxe d’article de la transaction.  Le calcul de la taxe requiert la sélection d’un groupe de taxe et d’un groupe de taxe d’article pour chaque transaction pour laquelle la taxe doit être calculée ou enregistrée.  
+Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d’article. Les groupes de taxe sont des groupes de codes taxe associés aux clients et aux fournisseurs. Ils sont également associés aux comptes généraux pour les transactions non validées pour un fournisseur ou client spécifique. Les groupes Taxe d’article sont des groupes de codes taxe associés aux ressources comme des produits. Les taxes qui s’appliquent à une transaction donnée sont déterminées par les codes taxe inclus dans le groupe de taxe et le groupe de taxe d’article de la transaction. Le calcul de la taxe requiert la sélection d’un groupe de taxe et d’un groupe de taxe d’article pour chaque transaction pour laquelle la taxe doit être calculée ou enregistrée.  
 
 1. Accédez à **Volet de navigation > Modules > Taxes > Taxes indirectes > Taxe > Groupes de taxe**.
 2. Cliquez sur **Nouveau**.

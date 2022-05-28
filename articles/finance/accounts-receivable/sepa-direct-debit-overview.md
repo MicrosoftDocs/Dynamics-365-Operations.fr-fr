@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du débit direct SEPA
-description: L’Espace unique de paiement en euros (SEPA) est défini par la Commission européenne et stipule que tous les paiements électroniques sont considérés comme locaux, quel que soit le pays/la région où la personne, l’entreprise ou l’organisation et la banque sont localisées. Il n’existe aucune différence entre les paiements nationaux et transfrontières. Le SEPA inclut les 28 états membres de l’Union européenne (EU), ainsi que l’Islande, le Liechtenstein, la Norvège, la Suisse, Monaco et San Marin. Le SEPA permet de former un marché unique pour les transactions de paiement dans l’Espace économique européen. Enfin, le SEPA est supposé réduire le nombre de formats de paiement pour les banques, les entreprises et les personnes.
+description: Cette rubrique fournit des informations sur l'espace unique de paiement en euros (SEPA), mis en place par la Commission européenne.
 author: ShivamPandey-msft
 ms.date: 08/22/2017
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "11144"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ad115fbc8f57f0d6b69d425b2f5180f208771409
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984376"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726404"
 ---
 # <a name="sepa-direct-debit-overview"></a>Vue d’ensemble du débit direct SEPA
 

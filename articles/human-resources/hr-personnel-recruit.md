@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066598"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733983"
 ---
 # <a name="recruit-job-candidates"></a>Recruter des candidats à un poste
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066598"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources vous aide à gérer les demandes de recrutement. Il vous aide également à faire la transition transparente des candidats aux employés. Si votre organisation utilise une application de recrutement distincte, votre processus de recrutement peut inclure les étapes suivantes :
+Dynamics 365 Human Resources vous aide à gérer les demandes de recrutement. Il vous aide également à faire la transition transparente des candidats aux employés. Si votre organisation utilise une application de recrutement distincte, votre processus de recrutement peut inclure les étapes suivantes :<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Saisissez votre demande de recrutement dans Human Resources.
 - Recevez des références de candidats dans Human Resources à partir de l’application de recrutement.
@@ -38,17 +37,22 @@ Dynamics 365 Human Resources vous aide à gérer les demandes de recrutement. Il
 Si vous n’utilisez pas d’application de recrutement distincte, vous pouvez également gérer manuellement les candidats dans Human Resources.
 
 > [!NOTE]
-> Si vous êtes administrateur ou développeur et souhaitez intégrer Human Resources à une application de recrutement tierce, consultez [Configurer l’intégration de Dataverse](hr-admin-integration-common-data-service.md) et [Configurer les tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
+> Si vous êtes administrateur ou développeur et souhaitez intégrer Human Resources à une application de recrutement tierce, accédez à [Configurer l’intégration de Dataverse](hr-admin-integration-common-data-service.md) et [Configurer les tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Vous pouvez également trouver des applications d’intégration de recrutement sur [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Activer les demandes de recrutement
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Activer les demandes de recrutement sur l'infrastructure fusionnée
 
-Si vous souhaitez soumettre des demandes de recrutement dans Human Resources, vous devez d’abord activer la fonctionnalité dans **Paramètres partagés de Human Resources**.
+Si vous souhaitez soumettre des demandes de recrutement dans le recrutement RH, vous devez d'abord activer les fonctionnalités **Expérience utilisateur RH** et **Gestion du processus de recrutement**.
 
-1. Dans l’espace de travail **Gestion du personnel**, sélectionnez **Liens**.
-2. Sous **Configuration**, sélectionnez **Paramètres partagés des ressources humaines**.
-3. Sur l’onglet **Recrutement**, sous **Recrutement**, définissez **Activer les demandes de recrutement** sur **Oui**.
+Une fois les fonctionnalités activées, sélectionnez la fonctionnalité en procédant comme suit : 
+1. Accédez à **Ressources humaines** > **Paramétrage** > **Paramètres des ressources humaines**.
+2. Dans l'onglet  **Recrutement** , définissez le champ **Recrutement désactivé** sur **Non**.
+3. Dans la liste déroulante **Expérience de recrutement** , sélectionnez **Recrutement RH**.   
+
+> [!Note] 
+> Une fois que **Recrutement RH** est sélectionné, **Projets de recrutement** (hérité) sera en lecture seule. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>Ajouter un emplacement de demande de recrutement
 
@@ -60,8 +64,8 @@ Si votre organisation possède plusieurs emplacements, vous pouvez les ajouter a
 
     ![Ajouter un emplacement de demande de recrutement.](./media/hr-recruit-0a-add-location.png)
 
-4. Dans **Description**, entrez une description de l’emplacement.
-5. Sous **Emplacement**, sélectionnez **Ajouter**. Si la boîte de dialogue **Nouvelle adresse** apparaît, entrez l’adresse de l’emplacement.
+4. Pour **Description**, entrez une description de l’emplacement.
+5. Sous **Emplacement**, sélectionnez **Ajouter**. Si la boîte de dialogue **Nouvelle adresse** apparaît, entrez l’adresse de l’emplacement.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Entrer l’adresse.](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
     ![Remplissez la demande de recrutement.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Sélectionnez **Continuer**. La demande de recrutement pour votre poste apparaît.
-6. Sous **Général**, sélectionnez un recruteur dans la liste déroulante **Recruteur**, puis sélectionnez un emplacement dans le menu déroulant **Emplacement de la demande de recrutement**.
+6. Sous **Général**, sélectionnez un recruteur dans la liste déroulante **Recruteur**, puis sélectionnez un emplacement dans la liste déroulante **Emplacement de la demande de recrutement**.
 7. Sous **Emploi**, modifiez les informations selon vos besoins, puis sélectionnez **Créer des détails à partir du poste**.
 
     ![Créer des détails à partir de la tâche.](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,7 +95,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
     Le reste de la demande de recrutement sera rempli avec les informations par défaut pour l’emploi que vous avez entré.
 
 8. Sous **Description externe**, saisissez une description de poste externe.
-9. Sous **Postes**, sélectionnez **Ajouter**, puis sélectionnez un poste pour cette demande de recrutement.
+9. Sous **Postes**, sélectionnez **Ajouter**, puis sélectionnez un poste pour cette demande de recrutement.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Ajouter un poste.](./media/hr-recruit-4-select-position.png)
 

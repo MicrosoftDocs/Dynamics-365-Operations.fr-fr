@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392909"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756961"
 ---
 # <a name="create-a-customer-invoice"></a>Création d’une facture client
 
@@ -41,7 +41,10 @@ Pour plus d’informations, voir :
 [Générer et valider les factures financières récurrentes](tasks/post-recurring-free-text-invoices.md)
 
 
-Une **facture pro forma** est une facture préparée comme une estimation des montants de facture réels avant la validation de la facture. Vous pouvez imprimer une facture pro forma pour une facture client associée à une commande client ou pour une facture financière.
+Une **facture proforma** est une facture préparée comme une estimation des montants de facture réels avant la validation de la facture. Vous pouvez imprimer une **facture proforma** pour une facture client associée à une commande client ou pour une facture financière. 
+
+>[!NOTE]
+> En cas d'interruption du système pendant le processus de facturation pro forma des ventes, une facture pro forma peut être orpheline. Une facture pro forma orpheline peut être supprimée en exécutant la tâche périodique **Supprimer manuellement les factures proforma**. Accédez à **Ventes et marketing > Tâches périodiques > Nettoyer > Supprimer manuellement les factures proforma**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Utilisation d’entités de données de facture client de commande client
 Vous pouvez utiliser des entités de données pour importer et exporter des informations sur une facture client pour une commande client. Il existe différentes entités pour les informations sur l’en-tête de facture client et les lignes de facture client.
@@ -70,7 +73,7 @@ Vous pouvez afficher le statut des commandes client sur la page de liste **Toute
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Validation et impression de factures client individuelles basées sur les bons de livraison et la date
 Utilisez ce processus lorsqu’un ou plusieurs bons de livraison ont été validés pour la commande client. La facture client est basée sur ces bons de livraison et reflète les quantités pour ceux‑ci. Les informations financières pour la facture sont basées sur les informations entrées lors de la validation de la facture. 
 
-Vous pouvez créer une facture client basée sur les articles de ligne du bon de livraison qui ont été expédiés jusqu’à présent, même si tous les articles pour une commande client particulière n’ont pas encore été expédiés. Vous pouvez procéder de la sorte si, par exemple, votre entité juridique émet une facture par client et par mois qui couvre toutes les expéditions que vous avez effectuées au cours de ce mois. Chaque bon de livraison représente l’expédition partielle ou complète des articles sur la commande client. 
+Vous pouvez créer une facture client basée sur les articles de ligne du bon de livraison qui ont été expédiés jusqu’à présent, même si tous les articles pour une commande client particulière n’ont pas été expédiés. Vous pouvez procéder de la sorte si, par exemple, votre entité juridique émet une facture par client et par mois qui couvre toutes les expéditions que vous avez effectuées au cours de ce mois. Chaque bon de livraison représente l’expédition partielle ou complète des articles sur la commande client. 
 
 Lorsque vous validez la facture, la quantité **Solde de la facture** pour chaque article est mise à jour avec le total des quantités expédiées pour les bons de livraison sélectionnés. Si la quantité **Solde de la facture** et la quantité **Livrer quantité restante** pour tous les articles de la commande client ont la valeur 0 (zéro), le statut de la commande client passe à **Facturé**. Si la quantité **Solde de la facture** n’a pas la valeur 0 (zéro), le statut de la commande client reste inchangé et des factures supplémentaires peuvent être entrées pour celle-ci. 
 
@@ -82,6 +85,11 @@ Affichez le statut des commandes client sur la page de liste **Toutes les comman
 Utilisez ce processus lorsqu’une ou plusieurs commandes client sont prêtes à être facturées, et que vous souhaitez les consolider dans une seule facture. 
 
 Vous pouvez sélectionner plusieurs factures dans la page de liste **Commande client**, puis utiliser **Générer des factures** pour les consolider. Sur la page **Validation de la facture**, vous pouvez modifier le paramètre **Commande de synthèse** pour récapituler par numéro de commande (lorsqu’il existe plusieurs bons de livraison pour une commande client unique) ou par compte de facturation (lorsqu’il existe plusieurs commandes client pour un compte de facturation unique). Utilisez le bouton **Réorganiser** pour consolider des commandes client dans des factures uniques, en fonction des paramètres **Commande de synthèse**.
+
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Fractionner les factures des commandes clients par site et informations de livraison
+Vous pouvez paramétrer le fractionnement des factures clients des commandes clients par site ou par adresse de livraison sur l'onglet **Mise à jour sommaire** de la page **Paramètres des comptes clients**. 
+ - Sélectionnez l'option **Fractionner en fonction du site de facturation** pour créer une facture par site lors de la validation. 
+ - Sélectionnez l'option **Fractionner en fonction des informations de livraison de la facture** pour créer une facture par adresse de livraison de ligne de commande client lors de la validation. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Valider sur le compte Produit pour les lignes de commande client sans prix
 Vous aurez la possibilité de mettre à jour le compte **Revenu** en **Comptabilité** pour les lignes de commande client sans prix. Pour configurer ou afficher ces informations, accédez au paramètre **Valider sur le compte Produit pour les lignes de facture de commande client sans prix** sur l’onglet **Comptabilité et taxe** de la page **Paramètres de la comptabilité client**. (**Comptabilité client > Comptabilité client > Paramètres de la comptabilité client**). Sélectionnez **Oui** pour mettre à jour le compte **Revenu** pour les lignes de facture de commande client qui n’ont pas de prix. Un compte de produit est défini sur la page du paramètre **Validation de l’inventaire**, sur l’onglet de définition du compte **Commande client**. Si cette option n’est pas sélectionnée, les lignes qui n’ont pas d’informations sur les prix ne seront pas validées vers le compte **Revenu**.

@@ -1,7 +1,7 @@
 ---
 title: Moyenne pondérée avec valeur physique et marquage
 description: La moyenne pondérée est un modèle de stock basé sur le principe de moyenne pondérée, dans lequel les sorties de stock correspondent à la valeur moyenne des articles reçus en stock au cours de la période de clôture du stock, plus le stock disponible éventuel de la période précédente.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 65501
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c124716b70be837573506a738ef2034397f2bda
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 41c80dcdc08432bb68478827c8763735e644aa4a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330224"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675261"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Moyenne pondérée avec valeur physique et marquage
 

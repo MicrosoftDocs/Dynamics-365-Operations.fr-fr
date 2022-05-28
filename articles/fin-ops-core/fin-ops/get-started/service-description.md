@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656801"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740650"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications de finances et d’opérations
 
@@ -265,7 +265,7 @@ L’administrateur du locataire du client peut accéder aux instances de product
 |---|---|---|
 | **Hors production**<br>Bac à sable de niveau 1 | Environnement hors production que les clients déploient à des fins de développement, de démonstration ou de formation. | Le bac à sable de niveau 1 (également appelé environnement hébergé dans le cloud) est une machine virtuelle gérée par le client qui est déployée sur l’abonnement Azure du client à partir de LCS. Étant donné qu’il s’agit d’une machine virtuelle dans l’abonnement Azure du client, le client dispose d’un accès administratif complet à l’environnement via Remote Desktop. |
 | **Hors production**<br>Bac à sable de niveau 2 (ou supérieur) | Un environnement hors production que les clients déploient pour les tests d’acceptation des utilisateurs, les tests d’intégration, la formation, la préparation ou tout autre scénario de pré-production. | Les bacs à sable de niveau 2 et supérieurs sont déployés sur l’abonnement SaaS de finances et d’opérations. L’accès aux bases de données Azure SQL associées à l’environnement hors production est accordé via [l’accès juste-à-temps](../../dev-itpro/database/database-just-in-time-jit-access.md). L’accès à Remote Desktop n’est pas disponible. |
-| **Production** | Un environnement de production est déployé quand le projet est [prêt pour la mise en service initiale](/imp-lifecycle/environment-planning.md#production-system-readiness). | Les environnements de production sont déployés sur l’abonnement SaaS. Tous les accès se font via le navigateur, les points de terminaison de service ou LCS. |
+| **Production** | Un environnement de production est déployé quand le projet est [prêt pour la mise en service initiale](../imp-lifecycle/environment-planning.md#production-system-readiness). | Les environnements de production sont déployés sur l’abonnement SaaS. Tous les accès se font via le navigateur, les points de terminaison de service ou LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Accès administratif Microsoft
 
@@ -286,7 +286,7 @@ Microsoft a investi dans un ensemble d’outils complet pour surveiller et diagn
 |---|---|
 | <ul><li>Surveillez la disponibilité du service.</li><li>Surveillez et alertez en permanence via des métriques de santé et des « chiens de garde » pour les composants critiques tels que Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce et Management Reporter.</li><li>Surveillez la dégradation des performances causée par les services d’infrastructure (tels que Azure Active Directory \[Azure AD\] et Azure SQL).</li><li>Si Microsoft détermine qu’un seul processus ou tâche par lots provoque des aberrations, ce processus ou cette tâche sera interrompu après la communication avec le client.</li></ul> | <ul><li>Surveillez les modifications apportées aux configurations et aux extensions des applications qui peuvent entraîner des problèmes fonctionnels et de performances.</li><li>Les erreurs d’application doivent être diagnostiquées à l’aide des outils de surveillance. Utilisez ces outils pour diagnostiquer les aberrations de performances signalées par les utilisateurs.</li><li>Informez Microsoft s’il y a une charge prévue sur le système au-delà de l’utilisation maximale prévue.</li><li>Si le service applicable n’est pas disponible dans l’instance de production, le client peut utiliser LCS pour signaler un [arrêt de production](../../dev-itpro/lifecycle-services/report-production-outage.md).</li></ul> |
 
-En soumettant des demandes de support en ligne, via LCS, les clients permettent à Microsoft de fournir une expertise technique rapide et approfondie de la manière la plus efficace et la plus efficiente. Bien qu’une option téléphonique soit disponible, elle ne doit être utilisée que si l’option en ligne n’est pas disponible. Pour plus d’informations, voir la rubrique [Options de support téléphonique](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+En soumettant des demandes de support en ligne, via LCS, les clients permettent à Microsoft de fournir une expertise technique rapide et approfondie de la manière la plus efficace et la plus efficiente. Bien qu’une option téléphonique soit disponible, elle ne doit être utilisée que si l’option en ligne n’est pas disponible. Pour plus d’informations, voir la rubrique [Options de support téléphonique](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Gestion des incidents
 

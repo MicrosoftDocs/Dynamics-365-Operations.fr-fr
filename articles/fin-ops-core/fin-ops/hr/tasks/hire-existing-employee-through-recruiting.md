@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074911"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734921"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Embaucher des employés existants via le recrutement
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients des ressources humaines sur l’infrastructure Finance.  
+> La fonctionnalité de recrutement dans cette rubrique sera appelée Projets de recrutement et se concentre sur les candidats, les candidatures et les projets de recrutement.  
 
 
 Les postes vacants peuvent parfois être pourvus par des candidats déjà employés de votre organisation. Cette procédure décrit les étapes pour embaucher un employé existant dans le processus de recrutement. Dans cette procédure, un projet de recrutement a déjà été paramétré, et un employé existant a déjà envoyé une candidature pour le projet de recrutement. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.

@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19641
 ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
 ms.search.region: Global
@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4153bc136c22e707d32ff4b25a6178fe3d9fae2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2d102ba9ee809541db1bd7dd255591c24279406e
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075437"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734824"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 

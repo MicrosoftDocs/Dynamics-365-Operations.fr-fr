@@ -7,24 +7,24 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 60e0f721c9bcf6e966a91a66fcd0e05e85b4830015a0e26f9c3b558957c2d3d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ed160444647f9d82f2ead51a3e2401d468f6861
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733579"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734982"
 ---
 # <a name="set-up-and-run-the-cash-position-inquiry"></a>Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique fournit des informations sur les renseignements sur l’emplacement des disponibilités. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Ils montrent les éléments suivants :
+Cette rubrique fournit des informations sur les renseignements sur l’**emplacement des disponibilités**. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Ils montrent les éléments suivants :
 
 - Le solde des disponibilités d’ouverture
 - L’effet de l’ajout de rentrées de fonds

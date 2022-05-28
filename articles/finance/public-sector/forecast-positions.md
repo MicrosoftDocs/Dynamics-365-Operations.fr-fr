@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ca9bf92461afc8c7287dbc48228710b108b731b4a33a7f90676e6766c6840eb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dffbd2d05a21a73d25ec70082cfe16e8f023cbf2
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767574"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734177"
 ---
 # <a name="forecast-position-distribution"></a>Distribution de poste de prévision 
 

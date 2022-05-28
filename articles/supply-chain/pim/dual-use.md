@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570751"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736031"
 ---
 # <a name="dual-use-goods"></a>Biens à double usage
 
@@ -34,7 +34,7 @@ Prenons le scénario suivant :
 2. La page **Détails du produit lancé** pour le produit X-100 indique qu’il s’agit d’un bien à double usage. Ensemble, le code, la catégorie, le groupe et le régime indiquent la classe de contrôle des exportations à laquelle appartient le produit.
 3. La page **Certificats des biens à double usage** inclut un certificat pour le produit X-100 lorsqu’il est expédié vers la France. Ce certificat expire le 1er janvier 2020.
 4. Le 17 juin 2020, vous créez une commande client pour une société cliente basée en France et la commande comprend le produit X-100.
-5. Lorsque vous sauvegardez la commande client, le système détermine les informations suivantes :
+5. Lorsque vous confirmez la commande client, le système détermine les informations suivantes :
 
     1. La commande comprend-elle des produits à double usage ?
     2. Si la commande comprend des biens à double usage, le pays de destination exige-t-il des certificats de double usage ?

@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075371"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734658"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Embauche d’un candidat via le recrutement
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> La fonctionnalité indiquée dans cette rubrique est actuellement disponible pour les clients des ressources humaines sur l’infrastructure Finance.  
-
+> La fonctionnalité de recrutement dans cette rubrique sera appelée Projets de recrutement et se concentre sur les candidats, les candidatures et les projets de recrutement.  
 
 Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l’enregistrement du candidat a le statut **Employé**. Les données fictives utilisées pour créer cette procédure correspondent à la société **USMF**.
 

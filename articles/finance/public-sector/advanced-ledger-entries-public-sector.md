@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AdvancedLedgerEntry, BudgetControlConfiguration, LedgerParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19511
 ms.assetid: 3db0233e-d767-4dc0-b008-733098b6ca70
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64ec598c44bc5bb425551a925fe35991a088b149
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 72959a232833552e0c9a6c4529c86fe7a66dcc90
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817687"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734413"
 ---
 # <a name="advanced-ledger-entries-in-the-public-sector"></a>Écritures comptables avancées dans le secteur public
 

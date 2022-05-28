@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557876"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735519"
 ---
 # <a name="customer-aging-data-storage"></a>Stockage des données âgées du client
 
 [!include [banner](../includes/banner.md)]
 
-
-Cette rubrique décrit le processus d’utilisation du stockage externe pour les données d’ancienneté du client. Dans Microsoft Dynamics 365 Finance, vous pouvez exécuter le processus de stockage des données d’ancienneté du client pour rendre la sortie disponible pour l’exportation vers un système externe. Lorsque vous exécutez le processus, les options de rapport d’ancienneté disponibles dans le système sont aussi disponibles pour les systèmes externes. Les détails sont toujours inclus dans les données exportées.
+Cette rubrique décrit le processus d’utilisation du stockage externe pour les données d’ancienneté du client. Dans Microsoft Dynamics 365 Finance, vous pouvez exécuter le processus de **stockage des données d’ancienneté du client** pour rendre la sortie disponible pour l’exportation vers un système externe. Lorsque vous exécutez le processus, les options de rapport d’ancienneté disponibles dans le système sont aussi disponibles pour les systèmes externes. Les détails sont toujours inclus dans les données exportées.
 
 Il peut être utile de mettre les données d’ancienneté du client à la disposition d’un système externe à des fins de stockage dans les cas où la sortie contient de nombreux clients et/ou de nombreuses transactions. En cas d’expiration de la **Balance âgée des clients** en raison d’un trop grand nombre de données à imprimer, cette fonctionnalité offre un autre moyen d’obtenir les mêmes données.
 

@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753968"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734455"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Ajout d’informations sur la gestion du crédit pour des clients
 
@@ -32,7 +32,7 @@ Vous povuez ajouter les détails du client dans le raccourci **Crédit et relanc
 1. Paramétrez l’option **Limite de crédit illimitée** sur **Oui** si le client ne doit pas être limité par des tests de limite de crédit.
 2. Paramétrez l’option **Exclure de la gestion du crédit** sur **Oui** pour exclure le client de toutes les actions qui se produisent généralement au cours des processus de gestion de crédit.
 3. Sélectionnez le groupe de gestion des crédits pour le client.
-4. Pour calculer la limite de crédit dans la devise du client, dans le champ **Limite de crédit dans la devise du client**, entrez la limite de crédit du client. La limite de crédit dans la devise de l’entreprise sera convertie en utilisant les taux de change définis par le type de taux de change de limite de crédit sélectionné dans les paramètres de gestion de crédit.
+4. Pour calculer la limite de crédit dans la devise du client, dans le champ **Limite de crédit dans la devise du client**, entrez la limite de crédit du client. La limite de crédit dans la devise de l’entreprise sera convertie en utilisant les taux de change définis par le type de taux de change de limite de crédit sélectionné dans les **paramètres de gestion de crédit**.
 5. Dans le champ **Date du dernier examen**, entrez la date à laquelle la limite de crédit du client a été révisée pour la dernière fois par un gestionnaire de crédit.
 6. Dans le champ **Prochaine date d’examen prévue**, entrez la date à laquelle le client doit effectuer une révision et une mise à jour du crédit.
 7. Dans le champ **Limite de crédit éligible**, entrez la limite de crédit la plus élevée qui peut être attribuée au client, en fonction de votre examen de l’historique de crédit de ce client. La limite de crédit éligible peut différer de la limite de crédit indiquée sur le raccourci **Crédit et recouvrements**.
@@ -46,7 +46,8 @@ Vous povuez ajouter les détails du client dans le raccourci **Crédit et relanc
 15. Dans le champ **Client depuis**, entrez la date à laquelle les premières transactions ont été traitées pour le client. Ces informations sont utilisées lors de la création des scores de risque.
 16. Entrez des notes que l’équipe de crédit peut utiliser pour évaluer davantage la solvabilité du client.
 
-Notez que certaines des informations affichées dans la page **Client** sont créées par un autre processus :
+> [!Note] 
+> Certaines des informations affichées dans la page **Client** sont créées par un autre processus :
 
 - Le champ **Date d’expiration de limite de crédit** indique date d’expiration de la limite de crédit. Si vous ne définissez pas ce champ, la limite de crédit du client n’expirera pas.
 - Le champ **Date de limite de crédit** indique date de création de la limite de crédit. Ce champ est mis à jour chaque fois que la limite de crédit est ajustée.

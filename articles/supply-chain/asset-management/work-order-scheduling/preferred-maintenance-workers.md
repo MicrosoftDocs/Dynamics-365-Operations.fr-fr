@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734425"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687667"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Définir les agents de maintenance préférés
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Lors de la planification des ordres de travail, vous pouvez définir une préférence concernant l’agent de maintenance ou le groupe de collaborateurs affecté pour effectuer l’ordre de travail. L’utilisation de cette fonctionnalité est facultative. Elle peut néanmoins vous aider à choisir l’agent de maintenance le plus qualifié pour effectuer une tâche, selon les compétences et les aptitudes des agents. Seuls les agents de maintenance qui sont disponibles pour le temps de planification sont planifiés. Si un paramétrage d’agent de maintenance préféré correspond à un ordre de travail durant la planification, mais si l’agent de maintenance est alloué à d’autres tâches, l’ordre de travail est alors planifié pour un autre agent de maintenance disponible.
 
@@ -51,13 +49,15 @@ Plus vous faites de sélections pour le même enregistrement, plus votre paramé
 
 3. Commencez par créer un agents et groupes d’agents de maintenance « par défaut ». Autrement dit, vous effectuez une seule sélection dans le champ **Groupe d’agents de maintenance préféré** ou le champ **Agent de maintenance préféré**. Dans la capture d’écran ci-dessous, vous voyez un exemple dans le premier enregistrement dans lequel « Demandes » est sélectionné comme le **groupe d’agents de maintenance préféré**.
 
-    [!NOTE] Le paramétrage par défaut sera utilisé lors de la planification des ordres de travail si aucune autre combinaison plus spécifique ne correspond au contenu de l’ordre de travail.
+    > [!NOTE]
+    > Le paramétrage par défaut sera utilisé lors de la planification des ordres de travail si aucune autre combinaison plus spécifique ne correspond au contenu de l’ordre de travail.
 
 4. Répétez l’étape 2 pour créer un enregistrement. Effectuez les sélections nécessaires, selon le niveau de détail pour l’agent ou le groupe d’agents de maintenance préféré. 
 
     *Exemple :* dans la capture d’écran ci-dessous, dans le sixième enregistrement, l’agent de maintenance Shawn Richardson est sélectionné comme agent préféré. Il est automatiquement sélectionné lors de la planification d’un ordre de travail contenant l’agent « CH-BP1-03-02 et la tâche de maintenance de type "Évaluation du site" », s’il est disponible au moment prévu.
 
-    [!NOTE] En général, si un agent de maintenance préféré est sélectionné lors de la planification des ordres de travail, le module Gestion des actifs parcourt tous les enregistrements **Agents de maintenance préférés** pour vérifier une correspondance éventuelle, en vérifiant toujours la combinaison la plus spécifique en premier. Si aucune correspondance n’est trouvée, l’enregistrement « par défaut » avec une sélection dans le champ **Groupe d’agents de maintenance préféré** ou le champ **Agent de maintenance préféré** est utilisé.
+    > [!NOTE]
+    > En général, si un agent de maintenance préféré est sélectionné lors de la planification des ordres de travail, le module Gestion des actifs parcourt tous les enregistrements **Agents de maintenance préférés** pour vérifier une correspondance éventuelle, en vérifiant toujours la combinaison la plus spécifique en premier. Si aucune correspondance n’est trouvée, l’enregistrement « par défaut » avec une sélection dans le champ **Groupe d’agents de maintenance préféré** ou le champ **Agent de maintenance préféré** est utilisé.
 
 ![Figure 1.](media/02-work-order-scheduling.png)
 

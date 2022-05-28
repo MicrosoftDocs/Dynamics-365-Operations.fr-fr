@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerFund, LedgerFundType
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19571
 ms.assetid: c746c09f-dc9e-4381-ae92-e1af484064b6
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83f61fe55134565db18a930fe8cde99b2083143d
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 1f5b9bd2ac42b257ffe2c1cf7a00af4f13a356e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817703"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735594"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5062cfc7ce47a2356c72462da805e8d0d6a756
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714633"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727788"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Définitions d’arborescence de génération d’états dans les états financiers
 
@@ -101,7 +101,7 @@ Lorsque vous utilisez une arborescence de génération d’états, vous pouvez a
     > Si vous spécifiez des dimensions pour des unités enfant et des unités parent, vous pouvez causer la duplication des données dans l’état.
 
 - Les unités organisationnelles contenant des dimensions dans l’arborescence de génération d’états correspondent aux dimensions utilisées dans les définitions de ligne et de colonne. La combinaison des dimensions détermine les montants retournés pour cette unité. Par exemple, les lignes 6 et 7 de l’exemple 2 renverront uniquement les valeurs pour les départements 00 et 01, respectivement.
-- Les montants des unités organisationnelles parent qui ne contiennent pas de dimension dans l’arborescence de génération d’états sont déterminés à partir de l’état de l’unité enfant et se cumulent au montant de l’unité parent spécifiée. Par exemple, si l’unité parent (voir Contoso USA dans l’exemple 2 des exemples de cumul des données) a deux unités enfant (022 et 023) et ne contient pas de dimension, un état est généré pour chaque enfant et le parent. Le total parent est la somme des deux montants enfant.
+- Les montants des unités organisationnelles parent qui ne contiennent pas de dimension dans l’arborescence de génération d’états sont déterminés à partir de l’état de l’unité enfant et se cumulent au montant de l’unité parent spécifiée. Par exemple, si l’unité parent (voir Contoso USA dans l’exemple 2 des exemples de cumul des données) a deux unités enfant (022 et 023) et ne contient pas de dimension, un état est généré pour chaque enfant et le parent. Le total parent est la somme des deux montants enfant.
 
 ### <a name="manage-reporting-units"></a>Gestion des unités organisationnelles
 
@@ -170,13 +170,13 @@ Voici la structure des unités de génération d’états dans l’arborescence 
 - Les unités organisationnelles du niveau le plus bas (Home Sales, Auto Sales, Client Services, et Operations) représentent les départements dans les données financières. Ces unités organisationnelless se trouvent dans la zone grisée du schéma.
 - Les unités de synthèse du plus haut niveau résument les informations des unités de détail.
 
-[![Structure de l’état de synthèse Contoso - Exemple 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Structure de l’état de synthèse Contoso – Exemple 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Structure d’unité organisationnelle, exemple 2
 
 Le schéma suivant présente une arborescence de génération d’états qui affiche une structure d’organisation est divisée par fonctions dans l’entreprise.
 
-[![Structure de l’état de synthèse Contoso - Exemple 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Structure de l’état de synthèse Contoso – Exemple 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemple de la boîte de dialogue Insérer des unités organisationnelles à partir des dimensions
 

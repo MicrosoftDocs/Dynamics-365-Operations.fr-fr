@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetTransfer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 20891
 ms.assetid: 552c7969-f044-4774-82ec-080aeae8cf3f
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e79e2092e6fc7b3ea63406800572946d6c3b3bcd
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 89638318f8331650bb83d02f24c8448c622ecce3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817717"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733749"
 ---
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 

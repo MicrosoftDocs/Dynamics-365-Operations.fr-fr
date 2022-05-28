@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemSetup, CustPosting, VendPosting, InventPosting, AssetPosting, ProjPosting, AssetLeasePostingAccounts, ProjCategory, ITMCostTypeTable, ProdGroup, WrkCtrTable, WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ad33d9a34bc449b81ec6d02a78b9ca1653aca5
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018377"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734574"
 ---
 # <a name="posting-profiles-overview"></a>Présentation des profils de validation
 
-Dans les applications Finances et Opérations, le terme *profils de validation* est utilisé pour décrire les configurations qui contrôlent la façon dont les comptes auxiliaires sont convertis en comptes principaux afin d’être utilisés dans les transactions qui sont validées dans la comptabilité. Par exemple, ils contrôlent la manière dont le client est converti en compte principal de la comptabilité client lorsqu’une facture est enregistrée.
+Dans les applications de finances et d’opérations, le terme *profils de validation* est utilisé pour décrire les configurations qui contrôlent la façon dont les comptes auxiliaires sont convertis en comptes principaux afin d’être utilisés dans les transactions qui sont validées dans la comptabilité. Par exemple, ils contrôlent la manière dont le client est converti en compte principal de la comptabilité client lorsqu’une facture est enregistrée.
 
 Certains modules et fonctionnalités ont une page qui inclut les mots « profil de validation » dans le nom (par exemple, **Profil de validation client** ou **Profil de valiadtion fournisseur**). De plus, certains modules disposent de plusieurs options pour configurer la validation dans le grand livre pour les transactions générées à partir de la comptabilité auxiliaire. Par exemple, dans le module **Contrôle de production**, vous pouvez configurer la validation par groupe de production, ressource ou groupe de ressources.
 
@@ -34,7 +34,7 @@ Avant de pouvoir configurer les profils de validation, les définitions de valid
 
 ## <a name="posting-types"></a>Types de validation
 
-Dans les applications Finances et Opérations, un type de validation est utilisé pour définir une catégorie générale pour un débit ou un crédit. Cette catégorie est indépendante du compte principal dans la comptabilité générale. Il existe des types de validation pour chaque débit ou crédit dans la comptabilité.
+Dans les applications de finances et d’opérations, un type de validation est utilisé pour définir une catégorie générale pour un débit ou un crédit. Cette catégorie est indépendante du compte principal dans la comptabilité générale. Il existe des types de validation pour chaque débit ou crédit dans la comptabilité.
 
 Un seul document peut avoir un ou plusieurs types de validation. Par exemple, une transaction validée via un journal général où le compte et le compte de contrepartie sont définis sur **Comptabilité** aura un type de validation **Journal comptable**, tant pour le débit que pour le crédit. En revanche, une facture fournisseur aura plusieurs types de validation. Ces types de validation incluront une ligne pour le solde fournisseur et des lignes supplémentaires pour l’écriture de contrepartie, telles que le **Journal comptable**.
 

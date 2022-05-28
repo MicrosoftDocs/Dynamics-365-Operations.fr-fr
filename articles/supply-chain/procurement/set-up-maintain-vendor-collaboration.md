@@ -1,7 +1,7 @@
 ---
 title: Paramétrer et mettre à jour la collaboration fournisseur
 description: Cette rubrique explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment provisionner de nouveaux utilisateurs de collaboration de fournisseurs et gérer les rôles de sécurité pour ces utilisateurs.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651996"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677560"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Paramétrer et mettre à jour la collaboration fournisseur
 
@@ -31,7 +31,7 @@ L'interface de collaboration avec les fournisseurs expose un ensemble limité d'
 Cette rubrique explique comment paramétrer la collaboration fournisseur dans Dynamics 365 Supply Chain Management. Il explique également comment configurer un flux de travail pour provisionner de nouveaux utilisateurs de collaboration fournisseur et comment gérer les rôles de sécurité pour ces utilisateurs.
 
 > [!NOTE]
-> Les informations sur la configuration des rôles de sécurité pour la collaboration avec les fournisseurs s'appliquent uniquement à la version actuelle de Finance and Operations. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d'informations sur les autorisations des utilisateurs pour le portail des fournisseurs dans Microsoft Dynamics AX, voir [Sécurité des utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md).
+> Les informations sur la configuration des rôles de sécurité pour la collaboration avec les fournisseurs s'appliquent uniquement à la version actuelle de Finance et Operations. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d'informations sur les autorisations des utilisateurs pour le portail des fournisseurs dans Microsoft Dynamics AX, voir [Sécurité des utilisateurs du portail fournisseur](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Configurer les rôles de sécurité de collaboration avec les fournisseurs
 

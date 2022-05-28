@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationYearEndClose_PSN
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e9053279e94b98eb852ffe379c561e54a112113451562445bdf45109b31b8316
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d40750aaae1cfeb029723385f24efea81b1bae4
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721646"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735068"
 ---
 # <a name="maintain-general-budget-reservations"></a>Tenir à jour les réservations budgétaires générales
 

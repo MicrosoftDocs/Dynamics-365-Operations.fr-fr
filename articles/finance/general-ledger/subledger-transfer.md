@@ -1,26 +1,26 @@
 ---
 title: Transfert de la comptabilité auxiliaire vers la comptabilité
 description: Cette rubrique décrit les fonctionnalités associées au transfert de la comptabilité auxiliaire dans la comptabilité.
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 70a34fa1f4ee540d89ec05816e4065fb3e1df9ef
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900728"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727312"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transfert de la comptabilité auxiliaire vers la comptabilité
 
@@ -28,7 +28,7 @@ ms.locfileid: "7900728"
 
 Cette rubrique décrit les fonctionnalités liées aux règles permettant le transfert par lots des écritures de journal de la comptabilité auxiliaire.
 
-Dans la version 8.1, des modifications ont été apportées pour permettre le transfert des règles, ce qui a rendu l’option **Synchrone** obsolète. Pour plus d’informations, voir [Fonctionnalités supprimées ou obsolètes pour Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
+Dans la version 8.1, des modifications ont été apportées pour permettre le transfert des règles, ce qui a rendu l’option **Synchrone** obsolète. Pour plus d'informations sur cette obsolescence, voir [Fonctions supprimées ou abandonnées pour Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
 Les options suivantes sont disponibles pour le transfert par lots de la comptabilité auxiliaire :
 

@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25821
 ms.assetid: 483e2726-ec48-4d1f-82f5-bffddea301ce
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a044d332ef8208e808d2d7a3230e1f445131423d
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 7a3d644328bc7156bfecfde714b2ce502e448853
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817720"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734474"
 ---
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 

@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728743"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734837"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Paramétrer des codes déclaration de taxe
 
 [!include [banner](../../includes/banner.md)]
 
-Les codes déclaration de taxe font référence à un numéro de champ répertorié dans la déclaration de taxe. Ils sont utilisés sur des présentations de rapport spécifiques à un pays. Ils sont également utilisés sur l’état de déclaration de taxe par code. Ce rapport affiche les montants de la taxe pour une période de décompte récapitulée pour chaque code de déclaration. Après avoir créé les codes déclaration de taxe, vous pouvez vous y référer dans les organisateurs de paramétrage d’état sur la page **code taxe**. 
+Les **codes déclaration de taxe** font référence à un numéro de champ répertorié dans la déclaration de taxe. Ils sont utilisés sur des présentations de rapport spécifiques à un pays. Ils sont également utilisés sur l’état de déclaration de taxe par code. Ce rapport affiche les montants de la taxe pour une période de décompte récapitulée pour chaque code de déclaration. Après avoir créé les **codes déclaration de taxe**, vous pouvez vous y référer dans les organisateurs de **paramétrage d’état** sur la page **Code taxe**. 
 
 La société fictive DEMF sert d’exemple dans cet enregistrement.
 

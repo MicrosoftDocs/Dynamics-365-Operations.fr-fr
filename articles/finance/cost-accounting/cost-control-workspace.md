@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763188"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734602"
 ---
 # <a name="cost-control-workspace"></a>Espace de travail de contrôle des coûts 
 
@@ -54,7 +54,7 @@ Dans l’organisateur **Filtrage des données**, définissez la base des donnée
 | Comptabilité de contrôle de gestion                                            | La **comptabilité de contrôle de gestion** sur laquelle l’état est basé. La valeur est extraite du champ **Unité de contrôle des coûts**. |
 | Unité de contrôle des coûts                                                 | La valeur que vous sélectionnez détermine les objets de comptabilité et le coût de contrôle de gestion sur lesquels cet état sera basé. |
 | Hiérarchie de dimension statistique, Hiérarchie des dimensions d’élément de coût | Un enregistrement de configuration de l’espace de travail **Contrôle des coûts** peut générer des états de valeurs non-monétaires ou monétaires, mais pas dans la même mise en page. Sélectionnez une valeur dans le champ **Hiérarchie de dimension d’élément de coût** pour déclarer des valeurs monétaires. Sélectionnez une valeur dans le champ **Hiérarchie de dimension statistique** pour déclarer des valeurs non-monétaires. L’enregistrement de la hiérarchie de dimension que vous sélectionnez détermine la structure des niveaux de génération et d’agrégation d’états.<blockquote>[!NOTE]<br>Pour afficher des valeurs non-monétaires et des valeurs monétaires côte à côte, vous pouvez exporter des données vers Microsoft Excel pour le pack de contenu Microsoft Power BI.</blockquote> |
-| Hiérarchie des dimensions d’objet de coût                                   | Sélectionnez la hiérarchie des dimensions de la dimension d’objet de coût qui s’adapte à l’objet de la génération d’états que vous définissez. |
+| Hiérarchie des dimensions d’objet de coût      | Sélectionnez la hiérarchie des dimensions de la dimension d’objet de coût qui s’adapte à l’objet de la génération d’états que vous définissez. |
 | Version originale du budget                                           | Sélectionnez l’ID de la version de budget agissant comme le budget d’origine dans le contexte de cet état. |
 | Version révisée du budget                                            | Sélectionnez l’ID de la version de budget agissant comme le budget révisé dans le contexte de cet état. |
 

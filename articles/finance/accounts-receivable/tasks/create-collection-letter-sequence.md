@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921197"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734156"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Créer une série de lettres de relance
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921197"
 
 Utilisez cette procédure pour créer une série de lettres de relance. La société fictive USMF est citée en exemple dans cette tâche.
 
-1. Dans le volet de navigation, accédez à **Modules > Crédit et recouvrements > Paramétrage > Paramétrer la série de lettres de relance**.
+1. Accédez à **Crédit et relances > Paramétrage > Paramétrer la série de lettres de relance**.
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Série de lettres de relance**, entrez un ID souche qui représentera la séquence. Il sera utilisé pour paramétrer un profil de validation.
-4. Tapez une valeur dans le champ **Description**.  Les conditions de paiement sont facultatives. Si vous entrez une valeur ici, la facture de frais de relance utilise ces conditions de paiement à la place de ceux enregistrés avec le client.  
+4. Tapez une valeur dans le champ **Description**. Les conditions de paiement sont facultatives. Si vous entrez une valeur ici, la facture de frais de relance utilise ces conditions de paiement à la place de ceux enregistrés avec le client.  
 5. Dans le champ **Code lettre de relance**, sélectionnez le code pour la première lettre de relance à envoyer. La première lettre de relance est créée en fonction de la date d’échéance figurant sur la facture, de la valeur que vous entrez pour la période de grâce dans le champ Jours de cette ligne, et des autres informations que vous entrez dans cette ligne.  
 6. Tapez une valeur dans le champ **Description**. 
 7. La devise par défaut des frais est définie sur la devise de l’entité juridique. Ce code devise peut être différent de la devise de facturation.   
@@ -52,9 +52,9 @@ Utilisez cette procédure pour créer une série de lettres de relance. La soci�
 22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 23. Entrez un nombre dans le champ **Solde minimal en retard**.
 24. Entrez un nombre dans le champ **Jours**.
-25. Activez la case à cocher **Bloc** pour empêcher de nouvelles livraisons ou facturations avec le client. Pour débloquer le compte, sélectionnez **Non** dans le champ Facturation et livraison en attente dans la page Clients.  
+25. Activez la case à cocher **Bloc** pour empêcher de nouvelles livraisons ou facturations avec le client. Pour débloquer le compte, sélectionnez **Non** dans le champ **Facturation et livraison en attente** dans la page **Clients**.  
 26. Développez l’organisateur **Note**.
-27. Entrez le texte tel que vous souhaitez qu’il apparaisse dans la lettre de relance pour le code lettre de relance sélectionné. Vous pouvez traduire ce texte dans plusieurs langues à l’aide du menu Traductions au-dessus de la zone de note.  
+27. Entrez le texte tel que vous souhaitez qu’il apparaisse dans la lettre de relance pour le code lettre de relance sélectionné. Vous pouvez traduire ce texte dans plusieurs langues à l’aide du menu **Traductions** au-dessus de la zone de note.  
 
 
 

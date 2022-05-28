@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4d96f50db4379a44ad8f2b06725db654a27393f9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753896"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734801"
 ---
 # <a name="credit-limit-adjustments"></a>Ajustements de limite de crédit 
 
@@ -27,7 +27,7 @@ Les ajustements de limite de crédit permettent aux gestionnaires de crédit de 
 
 ## <a name="set-up-credit-limit-adjustments"></a>Paramétrer des ajustements de limite de crédit
 
-Vous pouvez créer des écritures dans le journal d’ajustement de limite de crédit à la page **Ajustement de limite de crédit** (**Gestion de crédit \> Ajustements de limite de crédit \> Ajustements de limite de crédit**).
+Vous pouvez créer des écritures dans le journal d’**ajustement de limite de crédit** à la page **Ajustement de limite de crédit** (**Gestion de crédit \> Ajustements de limite de crédit \> Ajustements de limite de crédit**).
 
 1. Sélectionnez **Nouveau**. Un nouveau groupe d’entrées est créé avec un numéro d’ajustement de limite de crédit.
 2. Sélectionnez le type d’ajustement de limite de crédit :

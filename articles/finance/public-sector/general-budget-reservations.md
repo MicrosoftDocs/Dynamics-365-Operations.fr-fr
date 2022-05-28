@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 40050d069d167eb82b4a1050a5b83dca0082af02
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 571970bda6d90852754bdf5e5b495014b3942fbc
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890817"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735800"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 

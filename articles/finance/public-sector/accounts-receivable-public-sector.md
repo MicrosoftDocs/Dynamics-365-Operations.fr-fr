@@ -8,22 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustParameters, CustTradingPartnerCode
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "26281"
 - intro-internal
 ms.assetid: a411ec87-a209-471c-a141-5f5a92f2e45e
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca8ae917ab436ea54f30a6a4367e30bc1bc8f4a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 111156841b9bcb09a3f2328d21faaf3f66a8e6e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985951"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735189"
 ---
 # <a name="accounts-receivable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité client (Secteur public)
 

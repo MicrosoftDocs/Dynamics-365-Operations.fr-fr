@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064920"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743539"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Authentification de serveur à serveur pour l’API d’intégration ATS
 
@@ -89,7 +89,7 @@ Pour le nouveau rôle, un accès approprié doit être attribué, au minimum, au
 
 La deuxième étape consiste à s’assurer que l’application dispose des autorisations appropriées sur les données des ressources humaines en la liant à un utilisateur dans l’application des ressources humaines. Pour un utilisateur d’application, les appels de serveur à serveur via les tables virtuelles Dataverse sont effectués dans le contexte de l’identité de l’utilisateur (app) dans Dataverse qui invoque l’action. Le service d’adaptateur de table virtuelle recherche ensuite l’utilisateur associé dans les ressources humaines et exécute la requête dans le contexte de cet utilisateur. Cela signifie qu’un utilisateur doit être créé dans les ressources humaines avec les bons rôles attribués afin de fournir un accès aux données dont l’application d’intégration aura besoin.
 
-L’utilisateur des ressources humaines devra également disposer des autorisations appropriées pour les données dans les ressources humaines. Le rôle **Demande de recrutement** (HcmRecruitingIntegrator) est disponible avec des privilèges sur les entités principales requises pour l’intégration avec les données de recrutement. Ce rôle peut être attribué à l’utilisateur de l’application sur la page **Utilisateurs** pour accorder un accès approprié aux données. Pour plus d’informations sur les rôles de sécurité des ressources humaines, consultez [Sécurité basée sur les rôles](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+L’utilisateur des ressources humaines devra également disposer des autorisations appropriées pour les données dans les ressources humaines. Le rôle **Demande de recrutement** (HcmRecruitingIntegrator) est disponible avec des privilèges sur les entités principales requises pour l’intégration avec les données de recrutement. Ce rôle peut être attribué à l’utilisateur de l’application sur la page **Utilisateurs** pour accorder un accès approprié aux données. Pour plus d’informations sur les rôles de sécurité des ressources humaines, consultez [Sécurité basée sur les rôles](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Configurer le nouvel utilisateur avec les autorisations appropriées
 

@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779954"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734427"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779954"
 Le contrôle de gestion vous permet de mieux comprendre comment le flux des coûts se rapporte aux produits et services fournis dans une organisation. Pour voir la transparence des coûts, il est primordial d’effectuer la répartition des coûts entre les objets de coût en fonction d’une base de répartition appropriée. Par défaut, la répartition des coûts est effectuée pour l’élément de coût principal, qui est désiré dans certains cas, mais elle comporte certaines implications qui doivent être prises en compte.
 
 -   Les objets de coût auxiliaires se termineront par un solde nul pour l’élément de coût principal après le calcul des frais généraux.
-
 -   Le volume des écritures de coût généré par le calcul des frais généraux peut être très élevé.
-
 -   Il est impossible de suivre le flux des coûts entre les objets de coût.
 
 Pour éviter ces implications, le contrôle de gestion vous permet de configurer la répartition des coûts pour obtenir une adéquation dans les exigences hiérarchiques de votre organisation. Cette rubrique montre comment déterminer le niveau correct d’éléments de coût secondaires et comment créer des règles de repositionnement des coûts qui correspondent à la hiérarchie de l’organisation et à la traçabilité des coûts.

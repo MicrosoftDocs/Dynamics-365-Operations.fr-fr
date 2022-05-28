@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723965"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734331"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Blocages de crédit pour les commandes client
 [!include [banner](../includes/banner.md)]
@@ -33,7 +33,7 @@ Cette rubrique décrit le paramétrage des règles utilisées pour placer une co
 6. Montant de la commande client
 7. Portion de crédit disponible utilisée
 
-De plus, deux paramètres contrôlent des scénarios supplémentaires qui bloqueront une commande client
+De plus, deux paramètres contrôlent des scénarios supplémentaires qui bloqueront une commande client :
 
 1. Modification des modalités de paiement
 2. Modification des remises de règlement

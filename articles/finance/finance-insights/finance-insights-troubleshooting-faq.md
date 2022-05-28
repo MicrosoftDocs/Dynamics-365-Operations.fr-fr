@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109858"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725903"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Résoudre les problèmes de configuration de Finance Insights
 
@@ -34,7 +34,7 @@ Cette rubrique répertorie les problèmes qui peuvent survenir lorsque vous util
 
 ### <a name="resolution"></a>Résolution
 
-Vous utilisez peut-être un modèle pour une version antérieure. Avant la sortie de la version 10.0.17, les clients de version préliminaire configuraient le Modèle d’intégration de données (DI) **Résultats des analyses de paiement client (CDS à Fin and Ops)** en utilisant l’entité **Résultat de la prédiction de paiement (aperçu)**. Après une mise à niveau vers 10.0.17 et versions ultérieures, vous devez utiliser le modèle DI **Résultats des analyses de paiement client (CDS à Fin and Ops)** pour terminer le mappage. Vous ne pourrez peut-être pas mapper la colonne de destination du modèle DI tant que la liste des entités de gestion des données n’est pas actualisée et que l’entité **Résultat de la prédiction de paiement** y apparaît. Pour actualiser la liste des entités et afficher le résultat de la prévision de paiement, vous devrez effectuer les étapes dans Microsoft Dynamics 365 Finance et Dataverse (anciennement connu sous le nom de portail d’administration Common Data Service\[CDS\]).
+Vous utilisez peut-être un modèle pour une version antérieure. Avant la sortie de la version 10.0.17, les clients de version préliminaire configuraient le Modèle d’intégration de données (DI) **Résultats des analyses de paiement client (CDS à Fin and Ops)** en utilisant l’entité **Résultat de la prédiction de paiement (aperçu)**. Après une mise à niveau vers 10.0.17 et versions ultérieures, vous devez utiliser le modèle DI **Résultats des analyses de paiement client (CDS à Fin and Ops)** pour terminer le mappage. Vous ne pourrez peut-être pas mapper la colonne de destination du modèle DI tant que la liste des entités de gestion des données n’est pas actualisée et que l’entité **Résultat de la prédiction de paiement** y apparaît. Pour actualiser la liste des entités et afficher le résultat de la prévision de paiement, vous devrez effectuer les étapes dans Microsoft Dynamics 365 Finance et Dataverse (anciennement connu sous le nom de portail d’administration Common Data Service \[CDS\]).
 
 ### <a name="in-finance"></a>Dans Finance
 

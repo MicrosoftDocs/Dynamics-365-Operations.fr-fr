@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779810"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734687"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calculer et ajuster la taxe sur une facture fournisseur
 
@@ -26,8 +26,8 @@ ms.locfileid: "6779810"
 
 Cette rubrique explique comment ajuster la taxe sur une facture fournisseur. Si le document source d’origine affiche différents montants de taxe calculés, vous pouvez régler ces montants avant la validation. La société fictive DEMF est citée en exemple dans cette tâche.
 
-1. Dans le volet de navigation, accédez **Modules > Comptabilité fournisseur > Factures > Journal des factures**.
-2. Sélectionnez **Nouveau**.
+1. Accédez à **Comptabilité fournisseur > Factures > Journal des factures**.
+2. Cliquez sur **Nouveau**.
 3. Dans le champ **Nom** de la nouvelle ligne, sélectionnez une option du menu déroulant.
 4. Dans le volet Actions, sélectionnez **Lignes**.
 5. Dans le champ **Compte**, spécifiez les valeurs souhaitées.

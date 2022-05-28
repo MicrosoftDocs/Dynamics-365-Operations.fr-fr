@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075297"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739385"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.21 (octobre 2021)
 
@@ -130,16 +130,16 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 | Planification générale | [Afficher l’historique du plan et les journaux de planification](../master-planning/planning-optimization/plan-history-logs.md) |
 | Gestion des entrepôts | [Stratégies d’emballage de conteneur](../warehousing/container-packing-strategy-overview.md) |
 | Gestion des entrepôts | [Exemples de scénarios d’inventaire tournant](../warehousing/cycle-counting-scenarios.md) |
-| Gestion des entrepôts | [Importer les APE entrants via l’entité de données V2](../warehousing/import-asn-v2-data-entity.md) |
+| Gestion des entrepôts | [Importer les APE entrants via l’entité de données V3](../warehousing/import-asn-data-entity.md) |
 | Gestion des entrepôts | [Prélèvement excessif pour les commandes client et les ordres de transfert](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Gestion des entrepôts | [Planifier l’impression d’étiquettes de vague pendant la vague](../warehousing/configure-task-based-wave-label-printing.md) |
 | Gestion des entrepôts | [Nouveautés ou modifications dans l’application mobile Warehouse Management](../warehousing/whats-new-wma.md) |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finances et Opérations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications de finances et d’opérations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications Finances et Opérations, version 10.0.21 (octobre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de plateforme pour les applications de finances et d’opérations, version 10.0.21 (octobre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 

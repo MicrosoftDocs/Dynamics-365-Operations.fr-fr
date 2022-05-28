@@ -8,30 +8,30 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cd86fdf640e59885e5e8aea841dc1c1c9604825b0f18d3b741c5a2777f8e9ff8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728791"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734071"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espace de travail mobile Contrôle des coûts
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur l’espace de travail mobile **Contrôle des coûts**. Cet espace de travail permet aux responsables de centre de coût d’afficher des informations sur les performances du centre de coût à tout moment et n’importe où.
+Cette rubrique fournit des informations sur l’espace de travail mobile **Contrôle des coûts**. Cet espace de travail permet aux responsables de centre de coût d'afficher des informations sur les performances du centre de coût à tout moment et n'importe où.
 
-Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance and Operations.
+Cet espace de travail mobile est destiné à être utilisé avec l'application mobile Finance and Operations.
 
-## <a name="overview"></a>Vue d’ensemble
-L’espace de travail mobile **Contrôle des coûts** fournit une vue instantanée des performances actuelles des centres de coût en comparant les coûts réels aux coûts budgétés. Vous pouvez accéder au statut des éléments de coût individuels.
+## <a name="overview"></a>Présentation
+L'espace de travail mobile **Contrôle des coûts** fournit une vue instantanée des performances actuelles des centres de coût en comparant les coûts réels aux coûts budgétés. Vous pouvez accéder au statut des éléments de coût individuels.
 
 Par exemple, un employé reçoit une invitation à une conférence internationale, mais l’organisation doit couvrir toutes les dépenses de déplacement. L’employé demande à son responsable s’il peut assister à la conférence. Le responsable ouvre rapidement l’espace de travail **Contrôle des coûts** sur son téléphone portable de voir s’il dispose du budget nécessaire.
 
@@ -112,13 +112,13 @@ Si la version 1611 avec Platform Update 3 ou version ultérieure a été déplo
 </table>
 
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
-Télécharger et installer l’application mobile Finance and Operations :
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
+Télécharger et installer l'application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
 
 1.  Démarrez l’application sur votre appareil mobile.
 2.  Entrez votre URL Dynamics 365.

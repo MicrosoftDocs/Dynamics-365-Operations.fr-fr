@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4be1e748724331c4e2089da8a08a9ac7e5cf88a2ac6d3d89b37b9fcd4480f516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727298"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733817"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importer des données d’une filiale à partir de fichiers
 
@@ -29,7 +29,7 @@ Cette rubrique explique comment préparer les données de systèmes externes afi
 1. Créez l’entité juridique de succursale pour la consolidation. Pour plus d’informations sur la création d’entités juridiques, consultez [Créer une entité juridique](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Pour plus d’informations, voir [Préparer une entité juridique en vue de son utilisation dans le processus de consolidation](prepare-company-for-consolidation.md) et [Paramétrer une entité juridique filiale pour la consolidation](set-up-subsidiary-company-for-consolidation.md).
 
 2. Préparez un fichier qui contiendra les données importées. Pour plus d’informations sur le processus d’importation, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-3. Exportez les données dans un fichier en suivant les étapes du « Processus d’importation et d’exportation de données » dans [Vue d’ensemble de tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Vous pouvez utiliser ce processus pour consolider les données à partir d’une autre instance de Dynamics 365 Finance ou de Dynamics 365 Business Central. Si vous importez des données à partir de systèmes externes, elles doivent être au format décrit dans [Exportation des données d’une filiale dans des fichiers](export-subsidiary-data-to-file.md).
+3. Exportez les données dans un fichier en suivant les étapes du « Processus d’importation et d’exportation de données » dans [Vue d’ensemble de tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Vous pouvez utiliser ce processus pour consolider les données à partir d’une autre instance de Dynamics 365 Finance ou à partir de Dynamics 365 Business Central. Si vous importez des données à partir de systèmes externes, elles doivent être au format décrit dans [Exportation des données d’une filiale dans des fichiers](export-subsidiary-data-to-file.md).
 4. Allez dans **Consolidations \> Consolider avec importation**. Sur la page **Consolider avec importation**, sur l’onglet **Critères**, spécifiez les détails de l’état et/ou de l’importation en définissant les champs suivants.
 
     | Champ                                 | Valeur de l’état | Valeur de l’importation |
