@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982507"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694366"
 ---
 # <a name="sales-agreements-overview"></a>Vue d’ensemble des contrats de vente
 
@@ -36,7 +36,8 @@ La période de validité d’un contrat de vente est définie par les champs **D
 
 Vous pouvez créer une commande client directement à partir d’un contrat de vente à l’aide de l’action **Lancer la commande**. Vous pouvez également sélectionner un contrat de vente en vigueur lorsque vous acceptez des commandes (voir la section « Application des contrats de vente dans le processus de commande » de cet article).  
 
-> [Remarque!] Dans les versions antérieures, les contrats de vente étaient nommés Commandes ouvertes vente.
+> [!NOTE] 
+> Dans les versions antérieures, les contrats de vente étaient nommés Commandes ouvertes vente.
 
 ## <a name="commitment-types"></a>Types d’engagements
 Chaque ligne d’un accord de vente exprime un engagement à vendre quelque chose. En général il existe deux catégories d’engagement :

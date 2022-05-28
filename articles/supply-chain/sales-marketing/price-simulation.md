@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580502"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689676"
 ---
 # <a name="price-simulation"></a>Simulation de prix
 
@@ -32,7 +32,8 @@ Une simulation de prix pour un devis affiche un nouveau montant total basé sur 
 
 Lors d’une simulation de prix, le prix du devis n’est pas modifié. Si la simulation de prix est appliquée à l’ensemble du devis, elle est considérée comme une remise spéciale sur l’en-tête du devis. Si la simulation de prix est appliquée à des articles spécifiques, elle est considérée comme une remise spéciale sur les lignes du devis. Le prix de vente unitaire sur une ligne de devis créée ne change pas lorsqu’une simulation de prix est appliquée. À la place, un pourcentage de remise qui correspond à la réduction de prix du devis est appliqué. Lorsqu’une simulation de prix est appliquée, le prix de vente unitaire et le pourcentage de remise sont transférés vers la ligne de devis ou l’en-tête du devis.  
 
->[Remarque!] Lorsque vous exécutez une simulation de prix, seule la devise de vente actuelle est utilisée pour créer la simulation. Toutefois, lorsque vous affichez les totaux du devis, vous découvrez une combinaison de la devise de la société et de la devise de vente.  
+>[!NOTE]
+>Lorsque vous exécutez une simulation de prix, seule la devise de vente actuelle est utilisée pour créer la simulation. Toutefois, lorsque vous affichez les totaux du devis, vous découvrez une combinaison de la devise de la société et de la devise de vente.  
 
 Les articles supplémentaires ajoutés à des lignes de devis peuvent engendrer des remises sur une ou plusieurs lignes. Ils peuvent également déclencher des remises totales modifiant l’état des marges contributives et des taux de contribution des lignes de devis et de la remise complète.  
 

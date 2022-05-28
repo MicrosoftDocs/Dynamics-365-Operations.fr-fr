@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071108"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694002"
 ---
 # <a name="integration-with-finance-faq"></a>Intégration avec Finance
 

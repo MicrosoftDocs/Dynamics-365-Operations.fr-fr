@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087215"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710219"
 ---
 # <a name="task-management"></a>Gestion des tâches
 
@@ -57,18 +56,14 @@ L’onglet **Départ** contient une liste des employés qui quittent l’entrepr
 L’onglet **Transitions** contient une liste **Toutes les tâches** qui montre toutes les tâches pour tous les employés qui vont changer de poste ou qui ont récemment changé de poste. Il existe aussi une liste des tâches en retard et une liste des tâches affectées à l’utilisateur actuel.
 
 Sur les trois onglets, les assistants et responsables RH peuvent effectuer les activités suivantes :
-
-- Appliquer une liste de contrôle à un employé.
-- Mise à jour du statut d’une tâche.
-- Réaffecter une tâche.
-- Mettre à jour la date d’échéance d’une tâche.
+- Appliquer une liste de contrôle à un employé
+- Mise à jour du statut d’une tâche
+- Réaffecter une tâche
+- Mettre à jour la date d’échéance d’une tâche
 
 > [!NOTE]
 > Par défaut, l’onglet **Intégration** affiche les employés qui ont été embauchés au cours des sept derniers jours. Pour modifier ce paramètre, sur la page **Paramètres des ressources humaines**, sur l’onglet **Général**, dans le champ **Embauches récentes**, définissez un laps de temps. Les informations de la liste **Embauches récentes** peuvent être affichées pour un nombre spécifique de jours, de mois ou d’années. Par exemple, pour afficher la liste des employés qui ont été embauchés au cours des 14 derniers jours, définissez le champ **Période** sur **14** et le champ **Unité** sur **Jours**.
->
-> Sur la page **Paramètres des ressources humaines**, vous pouvez également mettre à jour la plage de dates pour les listes d’employés sortants et sortants qui sont affichées sur l’onglet **Départ**.
->
-> Ces paramètres s’appliquent également à l’espace de travail **Gestion du personnel**.
+> Sur la page **Paramètres des ressources humaines**, vous pouvez également mettre à jour la plage de dates pour les listes d’employés sortants et sortants qui sont affichées sur l’onglet **Départ**. Ces paramètres s'appliquent également à l'espace de travail **Gestion du personnel**.
 
 ## <a name="setting-up-tasks"></a>Paramétrage des tâches
 
@@ -188,6 +183,13 @@ Vous pouvez également appliquer une liste de contrôle à un employé en ouvran
 ## <a name="completing-tasks"></a>Achèvement des tâches
 
 Sur la page **Libre-service pour les employés**, un employé peut visualiser toutes les tâches qui lui sont assignées. Pour chaque tâche affectée, les valeurs **Tâche**, **Description**, **Instructions**, et **Contact** sont affichées. De plus, pour chaque tâche, l’employé peut ouvrir la page web externe associée ou la page associée dans l’application Dynamics 365.
+
+Les tâches peuvent également être affichées sur le tableau de bord par défaut. Pour afficher les tâches sur le tableau de bord par défaut :
+1. Accédez à **Options utilisateur - Préférences - Gestion des tâches** 
+2. Définissez l'option **Afficher les tâches sur le tableau de bord par défaut** sur **Activé**.  
+
+>[!Note] 
+>La fonction **Gestion des tâches** doit être activée dans **Gestion des fonctionnalités** pour l'option d'affichage dans **Options utilisateur**.
 
 Les tâches peuvent être marquées comme **En cours**, **annulées** ou **terminées**. Si une tâche a été affectée à un groupe, elle sera marquée comme **Terminé** lorsqu’une personne du groupe le termine.
 

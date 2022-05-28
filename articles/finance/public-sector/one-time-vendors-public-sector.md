@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19801
 ms.assetid: 403857a3-bebb-4ff7-b1b5-c88f41fc18ae
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438307addb00188a822601bf91a416fe4233f9d8
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 63e2c90d5bf0ca144288b1e62f81d23beff0f87a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817711"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735861"
 ---
 # <a name="one-time-vendors-in-the-public-sector"></a>Fournisseurs occasionnels dans le secteur public
 

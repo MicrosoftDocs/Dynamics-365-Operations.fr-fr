@@ -1,7 +1,7 @@
 ---
 title: Présentation des demandes d’achat
 description: Cette rubrique décrit le workflow de demande d’achat et les différents statuts d’une demande d’achat.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982900"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671166"
 ---
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d’achat
 

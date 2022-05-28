@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dab3e00baefb92e83b8ede46e3ed233467d5609cdd261e6b17132d1fa375568e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3281445ed736a4e8f161c89b7736ab2636b0fc10
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754125"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723151"
 ---
 # <a name="project-accounting-with-general-budget-reservations"></a>Comptabilité de projet avec des réservations budgétaires générales
 

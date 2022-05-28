@@ -1,6 +1,6 @@
 ---
 title: Approvisionnements dans le secteur public
-description: Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
+description: Cette rubrique décrit la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,28 +8,26 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19681
 ms.assetid: c99b2aeb-4ac2-4abe-b8b9-786b664c103d
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b91435dd1d8220f607922872713e5f0f43c4cac9
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 80d44280b43d1d23a19292bf4c78d8a1818acd09
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817789"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733864"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
-
-Cet article décrit la fonctionnalité d’approvisionnements disponible pour le secteur public. 
+Cette rubrique présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
 
 ## <a name="what-are-the-prerequisites-for-setting-up-procurement-and-sourcing-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage des approvisionnements dans le secteur public ?
 Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez effectuer les opérations suivantes :

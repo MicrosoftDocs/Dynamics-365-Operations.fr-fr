@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 66e73ff2bd5dbff2cb0bcca8e0645c485f3a0bba
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 7ea395b1514cb632b823ca62eb92c098d4e0c0ce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402395"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687357"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Catalogue d’apprentissage pour les rôles de vente et de marketing des partenaires Microsoft pour Dynamics 365 Commerce
 
@@ -26,7 +25,7 @@ ms.locfileid: "7402395"
 
 Le catalogue suivant est constitué de connaissances fondamentales de base et avancées dans des domaines spécifiques. Si le contenu existe dans plusieurs formats, nous vous le ferons savoir, de telle sorte que vous puissiez choisir le format de formation qui correspond le mieux à vos besoins.
 
-Pour un apprentissage des fonctionnalités partagées avec d’autres applications Finance and Operations, voir le [Catalogue d’apprentissage de Dynamics 365 Finance](../../finance/get-started/learning-catalog-partner-sales.md).
+Pour une formation sur les fonctionnalités partagées avec d'autres applications de finances et d’opérations, consultez le [Catalogue de formations Dynamics 365 Finance](../../finance/get-started/learning-catalog-partner-sales.md).
 
 ## <a name="get-started"></a>Prise en main<a name="get-started"></a>
 

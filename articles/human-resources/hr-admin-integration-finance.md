@@ -1,5 +1,5 @@
 ---
-title: Configurer l’intégration avec Finance
+title: Configuration de l’intégration avec Finance
 description: Cette rubrique décrit l’intégration entre les applications Dynamics 365 Human Resources et Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/19/2021
@@ -8,21 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065014"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687530"
 ---
-# <a name="configure-integration-with-finance"></a>Configurer l’intégration avec Finance
+# <a name="configure-integration-with-finance"></a>Configuration de l’intégration avec Finance
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
@@ -31,7 +30,7 @@ ms.locfileid: "8065014"
 
 
 
-Pour intégrer Dynamics 365 Human Resources avec Dynamics 365 Finance, vous pouvez utiliser le modèle Human Resources à Finance dans [Intégrateur de données](/powerapps/administrator/data-integrator). Le modèle Human Resources à Finance active le flux de données pour les emplois, les postes et les collaborateurs. Le modèle permet aux données de passer de Human Resources à Finance, mais ne permet pas aux données de passer de Finance à Human Resources.
+Pour intégrer Dynamics 365 Human Resources avec Dynamics 365 Finance, vous pouvez utiliser le modèle Ressources humaines dans le modèle Finance au sein de l'[Intégrateur de données](/powerapps/administrator/data-integrator). Le modèle Human Resources à Finance active le flux de données pour les emplois, les postes et les collaborateurs. Le modèle permet aux données de passer de Human Resources à Finance, mais ne permet pas aux données de passer de Finance à Human Resources.
 
 ![Flux d’intégration de Human Resources à Finance.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ La solution Human Resources à Finance fournit les types de synchronisation de d
 La solution d’intégration nécessite les versions suivantes de Human Resources et de Finance : 
 
 - Dynamics 365 Human Resources sur Dataverse
-- Dynamics 365 Finance version 7.2 et versions ultérieures
+- Dynamics 365 Finance versions 7.2 et ultérieures
 
 ## <a name="template-and-tasks"></a>Modèle et tâches
 

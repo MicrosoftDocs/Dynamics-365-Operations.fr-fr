@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625359"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710861"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -41,7 +40,7 @@ Avant de commencer la mise en service d’un nouvel environnement de production,
 ## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
 
 >[!NOTE]
-> À partir d’avril 2022, les environnements d’essai de Human Resources ne seront plus disponibles sur l’application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications Finance et Opérations peuvent le faire en utilisant l’essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l’infrastructure de Finance grâce à la fusion de l’application autonome. Pour plus d’informations, voir [La fusion des offres HR rassemble les fonctionnalités pour les clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Pour plus d’informations sur les versions d’évaluation de Dynamics 365 Finance, consultez le [guide](../fin-ops-core/fin-ops/get-started/before-you-buy.md) pas-à-pas. 
+> À partir d’avril 2022, les environnements d’essai de Human Resources ne seront plus disponibles sur l’application autonome. Les clients potentiels qui souhaitent évaluer les capacités de Human Resources dans les applications de finances et d’opérations peuvent le faire en utilisant l’essai gratuit de 30 jours avec les données de démonstration. Dynamics 365 Finance inclura les fonctionnalités de Human Resources intégrées dans l’infrastructure de Finance grâce à la fusion de l’application autonome. Pour plus d’informations, voir [La fusion des offres HR rassemble les fonctionnalités pour les clients](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Pour plus d’informations sur les versions d’évaluation de Dynamics 365 Finance, consultez le [guide](../fin-ops-core/fin-ops/get-started/before-you-buy.md) pas-à-pas. 
 
 
 Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
@@ -144,7 +143,7 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 6. Les capacités de double écriture pour l’intégration des données de Ressources humaines avec l’environnement Power Apps ne peuvent être utilisées que si l’option **Activer les applications Dynamics 365** est sélectionnée pour l’environnement. Voir [Page d’accueil de la double écriture](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) pour en savoir plus sur la double écriture.
 
     > [!NOTE]
-    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. Pour plus d’informations, voir [Quelques considérations importantes au moment de la création d’un nouvel environnement](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.
+    > L’option **Activer les applications Dynamics 365** doit être sélectionnée au moment de la création de l’environnement Power Apps. Si l’option n’est pas sélectionnée au moment de l’approvisionnement, vous ne pouvez pas utiliser la double écriture pour intégrer des données entre Dynamics 365 Human Resources et l’environnement Power Apps ni installer des applications Dynamics 365 telles que Dynamics 365 Sales et Field Service sur l’environnement. Cette option n’est pas réversible. Pour plus d’informations, voir [Quelques considérations importantes au moment de la création d’un nouvel environnement](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) sur le site de documentation Power Platform.
 
 7. Après avoir déterminé l’environnement à utiliser, vous pouvez poursuivre le processus d’approvisionnement. 
 

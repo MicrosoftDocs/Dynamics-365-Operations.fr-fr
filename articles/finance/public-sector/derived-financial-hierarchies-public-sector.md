@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EcoResCategory, EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyRole, LedgerDerivedFinHierarchies, LedgerDerivedFinHierarchyFilterResults, LedgerDerivedFinHierarchyLegalEntities
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 20911
 ms.assetid: a1b30d2a-a370-402a-b3bd-d562adca55f0
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5c32819f9067a97d9dddbe04a015a3470f9143b
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: dc00b2147bb606b6f2efd22cb0b59fe3a2669d54
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817729"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734972"
 ---
 # <a name="derived-financial-hierarchies-in-the-public-sector"></a>Hiérarchies financières dérivées dans le secteur public
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740000"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717528"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Clôture de la comptabilité en fin de période
 
@@ -28,7 +28,7 @@ ms.locfileid: "6740000"
 
 Cette rubrique décrit les tâches qui sont généralement effectuées lors de l’exécution d’une clôture de période pour la comptabilité. 
 
-Dans la comptabilité, vous pouvez exécuter les procédures de clôture pour une période ou année. Les procédures de clôture préparent le système pour une nouvelle période. Pour préparer le système pour une année, vous devez exécuter le processus de clôture de fin d’exercice. Chaque organisation a différents processus et étapes qu’elle effectue pour la fin d’une période. Voici quelques étapes facultatives pour les fins de période :
+Dans la comptabilité, vous pouvez exécuter les procédures de clôture pour une période ou année. Les procédures de clôture préparent le système pour une nouvelle période. Pour préparer une nouvelle année, vous devez exécuter le processus de clôture de fin d’exercice. Chaque organisation a différents processus et étapes qu’elle effectue pour la fin d’une période. Voici quelques étapes facultatives pour les fins de période :
 
 -   Complétez toutes les tâches de tous les autres modules, tels que Comptabilité client Comptabilité fournisseur et Stock.
 -   Vérifiez que tous les journaux sont validés.
@@ -41,7 +41,7 @@ Dans la comptabilité, vous pouvez exécuter les procédures de clôture pour un
 -   Générez des tableaux d’analyse de période de fin à l’aide des états financiers.
 -   Définissez les périodes comptables sur **En attente**, afin qu’aucune autre validation ne se produise. Vous pouvez également limiter une période à un groupe d’utilisateurs spécifique pendant que les activités de période de fin ont lieu, pour un meilleur contrôle. Il n’est pas recommandé de définir des périodes sur **Clôturé définitivement**, car vous ne pouvez pas rouvrir une période clôturée.
 
-L’espace de travail Clôture de période comptable peut être utilisé pour organiser et suivre les tâches requises pour différents processus de fin de période. 
+L’espace de travail **Clôture de période comptable** peut être utilisé pour organiser et suivre les tâches requises pour différents processus de fin de période. 
 
 
 Pour plus d’informations, voir les rubriques suivantes :

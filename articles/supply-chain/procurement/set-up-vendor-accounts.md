@@ -1,7 +1,7 @@
 ---
 title: Paramétrer les comptes fournisseur
 description: Cette rubrique décrit les types d’informations que vous devez spécifier lorsque vous créez un nouveau compte fournisseur.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565469"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676972"
 ---
 # <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
 
@@ -63,7 +63,7 @@ Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouve
 
 Vous ne pouvez pas supprimer l’enregistrement d’une personne à contacter si le contact est référencé sur un document. Au lieu de cela, vous pouvez désactiver le contact.  
 
-Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft 365. Toutefois, vous devez d’abord paramétrer la synchronisation entre Supply Chain Management et Microsoft 365 dans la synchronisation de Microsoft Exchange Server et l’Assistant Paramétrage de Microsoft Outlook.
+Vous pouvez ajouter des contacts fournisseur à vos contacts personnels dans Microsoft 365. Toutefois, vous devez d'abord paramétrer la synchronisation entre Supply Chain Management et Microsoft 365 dans la synchronisation de Microsoft Exchange Server et l'Assistant Paramétrage de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fournisseurs dans plusieurs entités juridiques
 Si un fournisseur est enregistré pour une seule entité juridique de votre organisation, et que d’autres entités juridiques doivent enregistrer le même fournisseur, vous pouvez utiliser la page **Ajouter le fournisseur à une autre entité juridique** pour configurer le fournisseur pour qu’il exerce son activité avec une autre entité juridique. Vous devez sélectionner un groupe de fournisseurs, une devise et un statut de blocage pour le fournisseur dans l’entité juridique sélectionnée.  

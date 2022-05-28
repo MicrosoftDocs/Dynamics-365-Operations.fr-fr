@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustCustomField
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 19491
 ms.assetid: 47624566-0b4c-41dc-9cd4-801e213b5da3
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9343079ad9dc98b3a411d8a49f2c49a95b6ca76c
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 4f7d152535fe0153d67082b1f54dade5339e3c3c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817691"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733747"
 ---
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 

@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Finance et Dynamics 365 Supply Chain Management dans le Cloud de la communauté du secteur public américain
+title: Dynamics 365 Finance, Supply Chain Management, et Commerce dans le cloud de la communauté du secteur public aux États Unis (GCC)
 description: Cette rubrique fournit des informations sur les produits Microsoft Dynamics 365 US Government disponibles pour les entités gouvernementales et privées qualifiées.
 author: hasaid
 ms.date: 11/12/2021
@@ -9,14 +9,14 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062284"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693306"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance et Dynamics 365 Supply Chain Management dans le Cloud de la communauté du secteur public américain
+# <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management, et Commerce dans le cloud de la communauté du secteur public aux États Unis (GCC)
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,9 +38,9 @@ Une fois l’intégration initiale terminée, suivez les instructions de la rubr
 
 ## <a name="environment-deployment"></a>Déploiement de l’environnement
 
-Une fois l’intégration du projet terminée, vous pouvez passer en revue les fonctionnalités supplémentaires de LCS décrites dans [Lifecycle Services (LCS) pour les clients des applications Finances et Opérations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Passez ensuite au déploiement de l’environnement.
+Une fois l’intégration du projet terminée, vous pouvez passer en revue les fonctionnalités supplémentaires de LCS décrites dans [Lifecycle Services (LCS) pour les clients des applications de finances et d’opérations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Passez ensuite au déploiement de l’environnement.
 
-- Pour déployer des environnements gérés par Microsoft via LCS, suivez les instructions de la rubrique [Lifecycle Services (LCS) pour les clients des applications Finances et Opérations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Pour déployer des environnements gérés par Microsoft via LCS, suivez les instructions de la rubrique [Lifecycle Services (LCS) pour les clients des applications de finances et d’opérations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Pour les environnements hébergés dans le cloud, consultez [Déployer des environnements de développement et y accéder](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Vous devez également terminer le processus d’intégration de Resource Manager pour vos connecteurs, comme décrit dans [Terminer le processus d’intégration d’Azure Resource Manager pour les projets Lifecycle Services de l’administration américaine](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Certaines fonctionnalités ne seront pas disponibles pour le déploiement dans G
 
 ### <a name="are-dynamics-365-finance-and-dynamics-365-supply-chain-management-supported-in-gcc-high"></a>Dynamics 365 Finance et Dynamics 365 Supply Chain Management sont-ils pris en charge par GCC-High ?
 
-Non Dynamics 365 Finance et Dynamics 365 Supply Chain Management sont uniquement pris en charge par GCC.
+Non Dynamics 365 Finance et Dynamics 365 Supply Chain Management sont pris en charge dans GCC.
 
 ### <a name="can-i-use-public-azure-devops-with-finance-and-supply-chain-management-in-gcc"></a>Puis-je utiliser Azure DevOps public avec Finance et Supply Chain Management dans GCC ?
 

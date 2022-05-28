@@ -1,7 +1,7 @@
 ---
 title: Vue d’ensemble des politiques d’achat
 description: Cet article fournit des informations sur les politiques d’achat. Une stratégie d’achat est une collection de règles qui contrôlent le processus de demande. Les stratégies d’achat permettent aux administrateurs de l’approvisionnement d’implémenter leur stratégie d’approvisionnement en créant une structure de stratégie qui est aligné sur les besoins d’achats stratégiques de l’organisation.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1268e619d27a2e400c76bfa45fb932997ec88483
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982275"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675989"
 ---
 # <a name="purchasing-policies-overview"></a>Vue d’ensemble des politiques d’achat
 

@@ -1,5 +1,5 @@
 ---
-title: Spécification du taux croisé
+title: Spécifier le taux croisé
 description: Cette rubrique fournit des informations générales sur les taux croisés dans Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 05/16/2018
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737015"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735288"
 ---
-# <a name="specify-the-cross-rate"></a>Spécification du taux croisé
+# <a name="specify-the-cross-rate"></a>Spécifier le taux croisé
 
 [!include [banner](../includes/banner.md)]
 

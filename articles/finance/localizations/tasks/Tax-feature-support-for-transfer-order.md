@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647711"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689212"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
@@ -31,7 +30,7 @@ Cette rubrique fournit des informations sur le calcul des taxes et l’intégrat
 Pour configurer et utiliser cette fonctionnalité, vous devez effectuer trois étapes principales :
 
 1. **Configuration RCS :** dans Regulatory Configuration Service, configurez la fonctionnalité de taxe, les codes taxe et l’applicabilité des codes taxe pour la détermination du code taxe dans les ordres de transfert.
-2. **Configuration de Dynamics 365 Finance :** Dans Finance, activez la fonctionnalité **Taxe dans l’ordre de transfert**, configurez les paramètres du service de calcul de taxe pour le stock et configurez les paramètres fiscaux de base.
+2. **Configuration de Dynamics 365 Finance** : Dans Finance, activez la fonctionnalité **Taxe dans l’ordre de transfert**, configurez les paramètres du service de calcul de taxe pour le stock et configurez les paramètres fiscaux de base.
 3. **Configuration du stock :** paramétrez la configuration du stock pour les transactions d’ordre de transfert.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Configurer RCS pour les taxes et les transactions d’ordre de transfert

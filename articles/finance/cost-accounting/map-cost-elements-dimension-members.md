@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728029"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735462"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mappage de membres de dimension d’élément de coût à un ensemble commun de membres de dimension
 
@@ -33,12 +33,12 @@ Si vous êtes une société internationale et que vous vous conformez aux besoin
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Mapper les membres de la dimension d’élément de coût à un format commun
 L’exemple suivant illustre comment vous, contrôleur de coût, pouvez créer une nouvelle dimension d’élément de coût dans le contrôle de gestion qui mappe des membres de la dimension d’élément de coût dans la structure du plan de comptes américain et la structure de plan de comptes française à un ensemble commun de membres de la dimension d’élément de coût. Vous pouvez ensuite utiliser l’ensemble commun de membres de la dimension d’élément de coût pour analyser les données de coût des deux entités juridiques dans la comptabilité de contrôle de gestion.
 
-| Source : Plan de comptes américain                                          | Source : Plan de comptes français                                          | Nouvel ensemble commun de membres de la dimension d’élément de coût                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Source : Plan de comptes américain          | Source : Plan de comptes français           | Nouvel ensemble commun de membres de la dimension d’élément de coût                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Membres de dimension d’élément de coût importés du plan de comptes américain | Membres de dimension d’élément de coût importés du plan de comptes français | Mappage des membres de dimension d’élément de coût américains et français à un ensemble commun |
-| 5001 : Ventes                                                           | 5001 : Ventes et publicité                                               | 5000 : Ventes et publicité                                             |
-| 5030 : Publicité                                                     | 6390 : Achat d’actions\*                                                    | 7000 : Dépenses de nettoyage                                                 |
-| 7001 : Dépenses de nettoyage                                               | 7001 : Dépenses de déplacements                                                      | 7001 : Dépenses de déplacements                                                   |
+| 5001 : Ventes                   | 5001 : Ventes et publicité                      | 5000 : Ventes et publicité                               |
+| 5030 : Publicité             | 6390 : Achat d’actions\*                          | 7000 : Dépenses de nettoyage                                   |
+| 7001 : Dépenses de nettoyage              | 7001 : Dépenses de déplacements                     | 7001 : Dépenses de déplacements                                                   |
 
 \*Le membre de dimension de l’élément du coût d’achat d’actions français n’est pas mappé.
 

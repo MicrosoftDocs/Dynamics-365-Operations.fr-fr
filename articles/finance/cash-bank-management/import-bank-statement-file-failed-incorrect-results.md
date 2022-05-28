@@ -1,6 +1,6 @@
 ---
-title: Dépannage d’importation de fichier de relevé bancaire
-description: Il est important que le fichier de relevé bancaire de la banque corresponde à la mise en page prise en charge par Microsoft Dynamics 365 Finance. En raison de normes strictes pour les relevés bancaires, la plupart des intégrations fonctionneront correctement. Toutefois, il arrive que le fichier de relevé ne puisse pas être importé ou contienne des résultats incorrects. Généralement, ces problèmes sont engendrés par de petites différences dans le fichier de relevé bancaire. Cet article décrit comment résoudre ces différences ainsi que les problèmes.
+title: Résoudre les problèmes d’importation de fichier de relevé bancaire
+description: Cet article explique comment résoudre des problèmes liés à de petites différences dans le fichier de relevé bancaire.
 author: panolte
 ms.date: 03/29/2021
 ms.topic: article
@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757119"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711171"
 ---
-# <a name="bank-statement-file-import-troubleshooting"></a>Dépannage d’importation de fichier de relevé bancaire
+# <a name="bank-statement-file-import-troubleshooting"></a>Résoudre les problèmes d’importation de fichier de relevé bancaire
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Une fois que vous avez essayé d’importer un fichier de relevé bancaire, alle
 Comparez la définition bancaire de la mise en page de fichier à la définition d’importation de Finance, et notez les différences dans les champs et les éléments. Comparez le fichier de relevé bancaire à l’exemple de fichier Finance associé. Dans les fichiers ISO20022, il est facile d’afficher toutes les différences.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Différences de fuseau horaire dans les relevés bancaires importés
-Les valeurs d’heure et de date dans le fichier d’importation peuvent différer des valeurs d’heure et de date affichées dans Finance and Operations. Pour éviter cet écart, saisissez la préférence de fuseau horaire sur la page **Configurer les sources de données**. Pour plus d’informations sur la saisie d’une préférence de fuseau horaire, voir [Paramétrage du processus d’importation du rapprochement bancaire](set-up-advanced-bank-reconciliation-import-process.md).
+Les valeurs d'heure et de date dans le fichier d'importation peuvent différer des valeurs d'heure et de date affichées dans Finance and Operations. Pour éviter cet écart, saisissez la préférence de fuseau horaire sur la page **Configurer les sources de données**. Pour plus d’informations sur la saisie d’une préférence de fuseau horaire, voir [Paramétrage du processus d’importation du rapprochement bancaire](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Transformations
 Généralement, la modification doit être effectuée dans l’une des trois transformations. Chaque transformation concerne une norme spécifique.

@@ -1,6 +1,6 @@
 ---
 title: Prendre plus que la remise calculée pour un paiement fournisseur
-description: Cet article vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture.
+description: Cette rubrique vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52e18e75cfad34829dc78486d2b78b8e4211bb948bc5ddd0be85552bd914010b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd8fd2fcbc56a91c0bcabfd2fc51e9ff62fe3994
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736943"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716645"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Prendre plus que la remise calculée pour un paiement fournisseur
 
 [!include [banner](../includes/banner.md)]
 
-Cet article vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture. 
+Cette rubrique vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture. 
 
 Le fournisseur 3051 accorde à Fabrikam un escompte de règlement de 4 % si la facture est payée sous sept jours. Le 29 juin, April entre une facture d’un montant de 1 000,00. Le fournisseur permet à April de bénéficier d’une remise de 60,00 au lieu de la remise par défaut de 40,00 disponible pour la facture. April enregistre un paiement unique à l’aide du journal des paiements Achats. Elle entre le fournisseur pour le paiement puis ouvre la page **Régler les transactions**. Elle marque la facture et remplace la valeur du champ **Montant de l’escompte de règlement** par **60,00**.
 

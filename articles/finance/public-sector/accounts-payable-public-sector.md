@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la comptabilité fournisseur (Secteur public)
-description: Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 Finance. Cette fonctionnalité pour les entités du secteur public concerne les capacités de gestion des fournisseurs, d’achat et de génération d’états.
+description: Cette rubrique explique la fonctionnalité Comptabilité fournisseur dans le secteur public qui est intégrée à Microsoft Dynamics 365 Finance. Ma
 author: v-kiarnd
 ms.date: 07/25/2019
 ms.topic: overview
@@ -8,22 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters, CustParameters, LedgerJournalTable, OMLegalEntity, PurchAgreementListPage, PurchTableListPage, SrmParameters, VendCertificationType, VendCoverPageLayout, VendOpenInvoicesListPage, VendParametersVendParameters, VendTableListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "19661"
 - intro-internal
 ms.assetid: b4c903dd-5ec7-4ec5-9dc9-77ba4f00fab8
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2781c8f24f85012a554183fbe8388c1d64a5239
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1ddd7fed6177038860c861d4cd90e278d33fccfd
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982081"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735421"
 ---
 # <a name="accounts-payable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité fournisseur (Secteur public)
 
@@ -43,21 +43,21 @@ Après avoir paramétré les conditions préalables, vous devez paramétrer les 
 
 - [Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Vous pouvez créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation contourne le processus d’achat habituel. Par exemple, vous autorisez une commande non planifiée par l’intermédiaire d’un numéro de commande fournisseur au moment d’un achat, plutôt que via un document qui est fourni avant que l’article soit requis. 
   > [!NOTE]
-  > Cela s’applique également à l’approvisionnement.
+  > Cela s’applique également à l’**approvisionnement**.
 
 - [Définitions de validation dans le secteur public](posting-definitions-public-sector.md) – Les définitions permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés. Par exemple, les définitions de validation vous permettent de générer plusieurs écritures comptables équilibrées en fonction d’attributs tels que les types de transactions et les comptes. 
   > [!NOTE]
-  > Cela s’applique également à la comptabilité, à la budgétisation et à la comptabilité client.
+  > Cela s’applique également à la **comptabilité**, à la **budgétisation** et à la **comptabilité client**.
 
 
 - [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md) – Lorsqu’une approbation ou un contrat sous forme d’une commande fournisseur n’est pas nécessaire, vous pouvez rapidement créer une ou plusieurs factures tout en créant un enregistrement pour le fournisseur. Pour plus d’informations, voir [Plan pour les fournisseurs occasionnels dans le secteur public](plan-one-time-vendors-public-sector.md).
 - Vue d’ensemble du formulaire de déclaration des honoraires dans le secteur public – Si vous entretenez des relations commerciales avec des fournisseurs américains assujettis à la taxe sur les honoraires, vous devez effectuer le suivi du montant réglé à chaque fournisseur et le déclarer à la fin de l’année civile. Les organisations du secteur public utilisent les formulaires 1099-G et 1099-S.
 
 > [!NOTE]
-> Cela s’applique également à l’approvisionnement.
+> Cela s’applique également à l’**approvisionnement**.
 
 ## <a name="additional-public-sector-functionality"></a>Fonctionnalité Secteur public supplémentaire
-Les sections restantes de cet article décrivent la fonctionnalité Comptabilité fournisseur disponible pour le secteur public.
+Les sections restantes décrivent la fonctionnalité Comptabilité fournisseur disponible pour le secteur public.
 
 -   **Escomptes de règlement** – Permet de sélectionner le compte sur lequel effectuer la compensation lorsque les escomptes de règlement sont appliqués aux factures.
 -   **Type de certification du fournisseur** – Permet de définir un type de certification pour toute condition requise du fournisseur dont vous souhaitez effectuer le suivi.

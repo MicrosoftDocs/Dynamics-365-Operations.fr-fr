@@ -3,7 +3,7 @@ title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772154"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710778"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
@@ -59,6 +59,16 @@ Pour entrer les valeurs de longitude et de la latitude pour un emplacement de ma
     ![Exemple de configuration de latitude et de longitude pour un magasin dans Commerce Headquarters.](./media/Store-latitude-longitude.png)
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Masquer un magasin du module de sélection de magasin
+
+Certains magasins d'un groupe de distribution peuvent ne pas être des lieux de retrait valides. Pour vous assurer que seuls les emplacements de retrait valides apparaissent comme options dans le module de sélection de magasin, suivez ces étapes dans Commerce Headquarters.
+
+1. Accédez à **Retail et Commerce \> Paramétrage de Commerce \> Groupes d’exécution \> Tous les magasins**.
+1. Dans le volet Actions, sélectionnez **Modifier**.
+1. Sous **Installer**, pour chaque magasin qui n'est pas un lieu de retrait valide, décochez la case **Est un emplacement de prélèvement**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Exécutez le programme de distribution 1070 **Configuration du canal**.
 
 ## <a name="bing-maps-integration"></a>Intégration Bing Cartes
 

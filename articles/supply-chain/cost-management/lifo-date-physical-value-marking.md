@@ -1,7 +1,7 @@
 ---
 title: Date LIFO avec valeur physique et marquage
 description: Date LIFO (dernier entré, premier sorti) est un modèle de stock basé sur le principe LIFO. Les sorties de stock sont réglées avec les dernières réceptions, en fonction de la date du mouvement de stock. En utilisant Date LIFO, s’il n’y a aucune réception avant la sortie, la sortie est réglée avec les réceptions intervenant après la date de sortie. Plusieurs sorties intervenant à la même date peuvent être réglées dans l’ordre Dernière sortie, dernière réception.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330274"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671448"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Date LIFO avec valeur physique et marquage
 

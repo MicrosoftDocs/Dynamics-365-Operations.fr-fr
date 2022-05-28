@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766956"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716969"
 ---
 # <a name="establish-customer-payment-terms"></a>Établir les conditions de paiement client
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766956"
 
 Cette procédure définit un escompte de règlement et une date d’échéance. La société fictive USMF sert d’exemple dans ce guide de tâche.
 
-1. Accédez à **Volet de navigation > Modules > Comptabilité client > Paramétrage des paiements > Jours de paiement**. Le paramétrage des **Conditions de paiement** est partagé pour la **Comptabilité client** et la **Comptabilité fournisseur**. Si vous le définissez dans le module, il est disponible dans l’autre module également. Pour ce guide de tâche, je paramètre toutes les conditions de paiement sous **Comptabilité client**.
+1. Accédez à **Volet de navigation > Modules > Comptabilité client > Paramétrage des paiements > Jours de paiement**. Le paramétrage des **Conditions de paiement** est partagé pour la **Comptabilité client** et la **Comptabilité fournisseur**. Si vous le définissez dans le module, il est disponible dans l’autre module également. Pour ce guide de tâche, toutes les conditions de paiement sous **Comptabilité client** sont paramétrées.
 2. Cliquez sur **Nouveau**. Créez un jour de paiement si les conditions de paiement ont besoin d’un jour de la semaine (lundi, mardi, etc.). ou d’une date spécifique du mois (le 5, le 10, etc.). 
 3. Entrez un ID dans le champ **Jour de paiement**.
 4. Dans le champ **Description**, entrez une description du jour de paiement.
