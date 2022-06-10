@@ -2,7 +2,7 @@
 title: Module Paiement
 description: Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715504"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780512"
 ---
 # <a name="checkout-module"></a>Module Paiement
 
@@ -91,14 +91,14 @@ La plupart des informations de paiement, telles que l’adresse d’expédition 
 Pour ajouter un module de caisse à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
 1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
-1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Caisse**.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le module **Caisse**.
 1. Sous **Nom du fragment**, entrez le nom **Fragment de caisse**, puis sélectionnez **OK**.
 1. Sélectionnez l’emplacement **Module de caisse**.
 1. Dans le volet des propriétés à droite, sélectionnez le symbole du crayon, entrez le texte de l’en-tête dans le champ, puis sélectionnez le symbole de coche.
 1. Dans l’emplacement **Informations de caisse**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez les modules **Adresse de livraison**, **Options de livraison**, **Conteneur de section de caisse**, et **Informations de contact**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez les modules **Adresse de livraison**, **Options de livraison**, **Conteneur de section de caisse**, et **Informations de contact**, puis sélectionnez **OK**.
 1. Dans le module **Conteneur de section de caisse**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez les modules **Carte-cadeau**, **Points de fidélité** et **Paiement**, puis sélectionnez **OK**. Ainsi, vous vous assurez que tous les modes de paiement s’affichent dans la section.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez les modules **Carte-cadeau**, **Points de fidélité** et **Paiement**, puis sélectionnez **OK**. Ainsi, vous vous assurez que tous les modes de paiement s’affichent dans la section.
 1. À l’emplacement **Conditions générales**, ajoutez un module **Conditions de paiement** si nécessaire. Dans le volet des propriétés du module, configurez le texte des conditions générales comme il convient.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu du fragment. Certains modules qui n’ont pas de contexte de panier peuvent ne pas s’afficher dans l’aperçu.
 1. Sélectionnez **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.

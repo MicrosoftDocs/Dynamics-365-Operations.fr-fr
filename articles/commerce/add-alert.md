@@ -2,7 +2,7 @@
 title: Module de bannière promotionnelle
 description: Cette rubrique couvre les modules de bannière promotionnelle et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b7e7a8324c6460473e52543caf1484f9cf876a9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718778"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780651"
 ---
 # <a name="promo-banner-module"></a>Module Bannière promotionnelle
 
@@ -34,7 +34,7 @@ Les modules de bannière promotionnelle prennent en charge un texte et un lien. 
 
 Les modules de bannière promotionnelle sont pilotés par les données du système de gestion de contenu (CMS) et peuvent être placés dans n’importe quelle page.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Exemples d’utilisation de bannières promotionnelles dans l'e-commerce
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Exemples d’utilisation de bannières promotionnelles dans l’e-commerce
 
 Les bannières promotionnelles peuvent être utilisées dans l’en-tête du site pour afficher des promotions ou des messages à l’échelle du site, comme dans les exemples suivants.
 
@@ -59,7 +59,7 @@ L’image suivante montre un exemple d’une bannière promotionnelle.
 | Afficher le flipper du carrousel     | **Vrai** ou **Faux**              | Valeur qui indique si les flippers du carrousel doivent être affichés, afin que les clients puissent parcourir manuellement plusieurs éléments de bannière. |
 | Alignement du texte            | **Droite**, **Gauche** ou **Centre** | L’alignement du texte dans le module de bannière promotionnelle. |
 | Lien                      | Une URL                              | URL pour un lien supplémentaire. |
-|Alignement du texte             | **Droite**, **Gauche** ou **Centre** | Cette propriété est disponible en tant qu'extension de thème dans le thème Adventure Works. Elle permet à un utilisateur de définir l'alignement du texte dans la bannière promotionnelle. |
+|Alignement du texte             | **Droite**, **Gauche** ou **Centre** | Cette propriété est disponible en tant qu’extension de thème dans le thème Adventure Works. Elle permet à un utilisateur de définir l’alignement du texte dans la bannière promotionnelle. |
 
 > [!IMPORTANT]
 > Le thème Adventure Works est disponible à partir de la version 10.0.20 de Dynamics 365 Commerce.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469895"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809093"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migration vers l’Optimisation de la planification pour la planification
 
@@ -63,7 +63,7 @@ Actuellement, les exceptions pour la migration vers l’optimisation de la plani
 
 Une fois que les fonctionnalités requises seront disponibles, Microsoft fournira une période de grâce jusqu’à l’expiration de l’exception. L’administrateur de l’environnement sera informé lorsque les fonctionnalités requises seront disponibles et que la période de grâce aura commencé.
 
-L’organigramme suivant résume les informations fournies dans cette rubrique afin que vous puissiez savoir rapidement si vous devez demander une exception. Si vous devez demander une exception, veuillez remplir et soumettre le [Questionnaire pour la migration vers l’optimisation de la planification et les exceptions](https://go.microsoft.com/fwlink/?linkid=2144962).
+L’organigramme suivant résume les informations fournies dans cette rubrique afin que vous puissiez savoir rapidement si vous devez demander une exception. Si vous devez demander une exception, veuillez remplir et soumettre le [Questionnaire pour la migration vers l’optimisation de la planification et les exceptions](https://go.microsoft.com/fwlink/?linkid=2144962). Le groupe de produits est responsable de l’évaluation et de l’approbation de chaque demande d’exception. Veuillez donc soumettre votre demande directement au groupe de produits en utilisant le lien fourni et ne créez pas de ticket d’assistance pour celui-ci. Si votre demande est rejetée, veuillez ne pas créer de ticket de support car le support Microsoft n’est pas en mesure de réévaluer ou d’accorder des exceptions.
 
 ![Organigramme des exceptions.](media/exception-diagram.png "Organigramme des exceptions")
 

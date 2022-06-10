@@ -2,7 +2,7 @@
 title: Utiliser l’espace de travail mobile pour la gestion des actifs
 description: Cette rubrique fournit des informations sur l’espace de travail mobile Gestion des actifs.
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771537"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811502"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Utiliser l’espace de travail mobile pour la gestion des actifs
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Cette rubrique fournit des informations sur l’espace de travail mobile **Gestion des actifs**. Cet espace de travail permet aux utilisateurs de voir et de créer des demandes de maintenance et des ordres de travail. Les utilisateurs peuvent également afficher les tâches de l’ordre de travail attribuées dans un calendrier ou dans une vue de liste. Les actifs et les postes techniques peuvent également être affichés et recherchés.
 
@@ -45,7 +46,7 @@ Avant de pouvoir utiliser l’espace de travail mobile **Gestion des actifs**, v
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Téléchargez et installez l’application mobile Dynamics 365 for Unified Operations :
+Téléchargez et installez l’application mobile Finance et Opérations (Dynamics 365) :
 
 - [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

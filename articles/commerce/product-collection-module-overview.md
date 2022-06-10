@@ -2,7 +2,7 @@
 title: Modules de collecte de produits
 description: Cette rubrique fournit une vue d’ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984542"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780407"
 ---
 # <a name="product-collection-modules"></a>Modules de collecte de produits
 
@@ -70,11 +70,14 @@ Le module de collecte de produits prend en charge le [module de visualisation ra
 Pour ajouter un module de collecte de produits à une page de catégorie, procédez comme suit.
 
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le même modèle que celui utilisé par votre page de catégorie par défaut. Sous **Nom de la page**, entrez un nom approprié, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Créer une page**, sous **Nom de la page**, entrez un nom de page approprié, puis sélectionnez **Suivant**.
+1. Sous **Choisir un modèle**, sélectionnez le même modèle que celui utilisé par votre page de catégorie par défaut, puis sélectionnez **Suivant**.
+1. Sous **Choisir une mise en page**, sélectionnez une mise en page (par exemple, **Disposition flexible**), puis sélectionnez **Suivant**.
+1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**. 
 1. Dans l’emplacement **Sous-pied de page**, sélectionnez le bouton (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Collecte de produits**, puis sélectionnez **OK**.  
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Collecte de produits**, puis sélectionnez **OK**.  
 1. Dans le volet de propriétés du module de collecte de produit, sélectionnez **Ajouter une liste de produit**.
 1. Dans la boîte de dialogue **Sélectionner la configuration de liste de produit**, sélectionnez le type de liste, la source de liste, puis entrez le nombre d’articles. Configurez toutes les autres options disponibles pour le type de liste. Pour plus d’informations sur ces types de listes, voir le tableau suivant. 
 1. Cliquez sur **OK**.

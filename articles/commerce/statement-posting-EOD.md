@@ -2,19 +2,19 @@
 title: Améliorations de la fonctionnalité de validation du relevé
 description: Cette rubrique décrit les améliorations apportées à la fonction de validation des relevés.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649017"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770138"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Améliorations de la fonctionnalité de validation du relevé
 
@@ -87,7 +87,7 @@ Le tableau suivant décrit les différents états et leur ordre au moment du pro
 | 9           | Cartes cadeaux validées       | Les transactions de carte cadeau sont validées comme documents. |
 | 10          | Validé(e)                  | Le relevé est marqué comme validé. |
 
-Chaque état dans les tableaux précédents est indépendant par nature, et une dépendance hiérarchique est établie entre les états. Cette dépendance s’effectue de haut en bas. Si le système rencontre des erreurs quand  il traite un état, l’état précédent du relevé est rétabli. Toute tentative ultérieure du processus reprend à partir de l’état qui a échoué et continue vers l’avant. Cette approche offre les avantages suivants :
+Chaque état dans les tableaux précédents est indépendant par nature, et une dépendance hiérarchique est établie entre les états. Cette dépendance s’effectue de haut en bas. Si le système rencontre des erreurs quand il traite un état, l’état précédent du relevé est rétabli. Toute tentative ultérieure du processus reprend à partir de l’état qui a échoué et continue vers l’avant. Cette approche offre les avantages suivants :
 
 - L’utilisateur a une visibilité totale sur l’état où l’erreur s’est produite.
 - L’altération des données est évitée. Par exemple, dans la fonction héritée de validation des relevés, il y a des cas où certaines commandes client ont été facturées mais d’autres ont été laissées ouvertes. Il y a également des cas où certains journaux des paiements n’avaient pas de facture correspondante à régler, car la validation de la facture présentait une erreur.
@@ -151,6 +151,9 @@ La vue des transactions regroupées offre les avantages suivants :
 - L’utilisateur a une visibilité sur la manière dont les transactions sont regroupées.
 - L’utilisateur a une piste d’audit complète depuis les transactions aux factures client en passant par les commandes client. Cette piste d’audit n’était pas disponible dans la fonction héritée de validation des relevés.
 - Le fichier XML regroupé facilite l’identification des problèmes au moment de la création et de la facturation de la commande client.
+
+> [!NOTE]
+> Lorsque les transactions sont agrégées, le membre du personnel affecté à la transaction n’est plus disponible pour le **Rapport sur les ventes du meilleur personnel**, ce qui signifie que le **Rapport sur les ventes du meilleur personnel** n’affichera pas toutes les transactions. Nous vous recommandons de ne pas utiliser le **Rapport sur les ventes du meilleur personnel** avec des transactions agrégées.
 
 ### <a name="journal-vouchers"></a>N° documents de journal
 

@@ -2,7 +2,7 @@
 title: Mon espace de travail mobile Équipe
 description: Cette rubrique fournit des informations sur l’espace de travail mobile Mon équipe, qui permet aux responsables d’afficher leurs rapports directs et leur personnel étendu.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767110"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811055"
 ---
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Cette rubrique fournit des informations sur l’espace de travail mobile **Mon équipe**. Cet espace de travail permet aux responsables de voir leurs rapports directs et leur personnel étendu. lls peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique.
 
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance and Operations.
 
-## <a name="overview"></a>Vue d’ensemble 
+## <a name="overview"></a>Présentation 
 L’espace de travail mobile **Mon équipe** permet aux responsables d’effectuer les tâches suivantes :
 
 - Afficher la liste des états directs d’un responsable.
@@ -54,7 +55,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 </ul>
 </td>
 <td>Administrateur système</td>
-<td>Si vous n&#39;avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n&#39;avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
+<td>Si vous n’avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>. Si vous n&#39;avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +68,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Télécharger et installer l’application mobile Finance and Operations :
+Télécharger et installer l’application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

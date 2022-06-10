@@ -3,7 +3,7 @@ title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710778"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780637"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
@@ -62,11 +62,11 @@ Pour entrer les valeurs de longitude et de la latitude pour un emplacement de ma
 
 ### <a name="hide-a-store-from-the-store-selector-module"></a>Masquer un magasin du module de sélection de magasin
 
-Certains magasins d'un groupe de distribution peuvent ne pas être des lieux de retrait valides. Pour vous assurer que seuls les emplacements de retrait valides apparaissent comme options dans le module de sélection de magasin, suivez ces étapes dans Commerce Headquarters.
+Certains magasins d’un groupe de distribution peuvent ne pas être des lieux de retrait valides. Pour vous assurer que seuls les emplacements de retrait valides apparaissent comme options dans le module de sélection de magasin, suivez ces étapes dans Commerce Headquarters.
 
 1. Accédez à **Retail et Commerce \> Paramétrage de Commerce \> Groupes d’exécution \> Tous les magasins**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Sous **Installer**, pour chaque magasin qui n'est pas un lieu de retrait valide, décochez la case **Est un emplacement de prélèvement**.
+1. Sous **Installer**, pour chaque magasin qui n’est pas un lieu de retrait valide, décochez la case **Est un emplacement de prélèvement**.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 1. Exécutez le programme de distribution 1070 **Configuration du canal**.
 
@@ -138,23 +138,26 @@ Pour configurer le module de sélection de magasin afin d’afficher les magasin
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle marketing**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle marketing**. Sous **Nom de la page**, entrez **Emplacements magasin**, puis cliquez sur **OK**.
+1. Dans la boîte de dialogue **Créer une page**, sous **Nom de la page**, entrez **Emplacements magasin**, puis cliquez sur **Suivant**.
+1. Sous **Choisir un modèle**, sélectionnez le **Modèle marketing** que vous avez créé, puis sélectionnez **Suivant**.
+1. Sous **Choisir une mise en page**, sélectionnez une mise en page (par exemple, **Disposition flexible**), puis sélectionnez **Suivant**.
+1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**. 
 1. Dans l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur avec 2 colonnes**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur avec 2 colonnes**, puis sélectionnez **OK**.
 1. Dans le volet des propriétés du module, définissez la valeur **Largeur** sur **Remplir le conteneur**.
 1. Définissez la valeur de **Configuration de port d’affichage extra-petit** sur **100 %%**.
 1. Définissez la valeur de **Configuration de port d’affichage petit** sur **100 %%**.
 1. Définissez la valeur de **Configuration de port d’affichage moyen** sur **33 %% 67 %%**.
 1. Définissez la valeur de **Configuration de port d’affichage grand** sur **33 %% 67 %%**.
 1. Dans l’emplacement **Conteneur avec 2 colonnes**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Sélecteur de magasin**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Sélecteur de magasin**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés du module, définissez la valeur **Mode** sur **Recherche de magasins**.
 1. Définissez la valeur du **Rayon de recherche** en miles.
 1. Définissez d’autres propriétés, telles que **Définir comme magasin préféré**, **Afficher tous les magasins** et **Activer la suggestion automatique**, comme vous le souhaitez.
 1. Dans l’emplacement **Conteneur avec 2 colonnes**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Carte**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner les modules**, sélectionnez le module **Plan**, puis sélectionnez **OK**.
 1. Dans le volet des propriétés du module, définissez les propriétés supplémentaires selon vos besoins.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
  

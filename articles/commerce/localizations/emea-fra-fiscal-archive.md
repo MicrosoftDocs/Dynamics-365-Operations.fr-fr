@@ -3,7 +3,7 @@ title: Archives fiscales pour la France
 description: Cette rubrique fournit des informations sur les archives fiscales et l’outil de vérification de l’intégrité des archives fiscales qui sont disponibles dans la localisation de Microsoft Dynamics 365 Commerce pour la France.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 05/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-2-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4da00a0daca456f757bb3eaf6ed190e889a0c915
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: ea09f1a3a167847b8ec23383fd7049cd22f48174
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547968"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767828"
 ---
 # <a name="fiscal-archive-for-france"></a>Archives fiscales pour la France
 
@@ -34,7 +34,7 @@ Une archive fiscale peut être exportée à partir d’un journal de total gén�
 
 Vous pouvez vérifier l’intégrité de l’archive fiscale et de ses données en utilisant l’[Outil de vérification de l’intégrité des archives fiscales](#fiscal-archive-integrity-verification-tool).
 
-Le format XML de l’archive fiscale est implémenté à l’aide de la [gestion des états électroniques (ER)](/dynamics365/fin-ops-core/dev-itpro/analytics/general-electronic-reporting). Pour plus d’informations sur l’importation et l’application des configurations ER requises pour exporter les archives fiscales, consultez [Configurer le format d’exportation des archives](./emea-fra-cash-registers.md#configure-the-archive-export-format).
+Le format XML de l’archive fiscale est implémenté à l’aide de la [gestion des états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Pour plus d’informations sur l’importation et l’application des configurations ER requises pour exporter les archives fiscales, consultez [Configurer les formats d’exportation des archives et des Z de caisse](./emea-fra-cash-registers.md#configure-the-z-report-and-archive-export-formats).
 
 ## <a name="fiscal-archive-structure"></a>Structure des archives fiscales
 
@@ -152,7 +152,7 @@ Nœud **Receipt** d’une archive fiscale contient les éléments suivants.
 | TaxRate                 | Taux d’imposition. |
 | TaxAmount               | Montant total d’une taxe pour le taux d’imposition. |
 | SequentialNumber        | Numéro séquentiel de la transaction de vente signée pour le registre. |
-| DataToSign              | Chaîne [créée à partir des éléments de l’enregistrement de la transaction de vente](./emea-fra-cash-registers.md#digital-signing-of-sales-transactions) et utilisée pour la signature. |
+| DataToSign              | Chaîne [créée à partir des éléments de l’enregistrement de la transaction de vente](./emea-fra-cash-registers.md#digital-signing-of-sales-and-return-transactions) et utilisée pour la signature. |
 | DataToSignFormatVersion | Version interne du format de données qui a été utilisé pour la signature. |
 | Signature               | Signature numérique de l’enregistrement de la transaction de vente. |
 | HashAlgorithm           | Algorithme de code de hachage utilisé pour hacher les données avant signature. |

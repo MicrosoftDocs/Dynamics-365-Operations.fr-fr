@@ -2,7 +2,7 @@
 title: Module Confirmation de commande
 description: Cette rubrique couvre les modules de confirmation de commande et décrit leur utilisation dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/06/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733844"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780382"
 ---
 # <a name="order-confirmation-module"></a>Module de confirmation de commande
 
@@ -51,15 +51,18 @@ Pour ajouter un module de confirmation de commande à une nouvelle page et défi
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez un nom pour le **modèle de confirmation de commande**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Page par défaut**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Confirmation de commande**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Confirmation de commande**, puis sélectionnez **OK**.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher le modèle. Le module de confirmation de commande ne sera pas affiché, car il nécessite le contexte du numéro de confirmation de commande.
 1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle de confirmation de commande**. Sous **Nom de la page**, entrez **Page de confirmation de la commande**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Créer une page**, sous **Nom de la page**, entrez **Page de confirmation de la commande**, puis cliquez sur **Suivant**.
+1. Sous **Choisir un modèle**, sélectionnez **Modèle de confirmation de commande**, puis sélectionnez **Suivant**.
+1. Sous **Choisir une mise en page**, sélectionnez une mise en page (par exemple, **Disposition flexible**), puis sélectionnez **Suivant**.
+1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**. 
 1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Confirmation de commande**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Confirmation de commande**, puis sélectionnez **OK**.
 1. Dans le volet des propriétés du module de confirmation de commande, sélectionnez **En-tête** à côté du symbole du crayon.
 1. Dans le champ **Texte d’en-tête** de la boîte de dialogue **Titre**, entrez le texte de l’en-tête **Confirmation de la commande**, puis sélectionnez **OK**.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547786"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786836"
 ---
 # <a name="configure-inventory-visibility"></a>Configurer la visibilité du stock
 
@@ -54,13 +54,13 @@ Le complément de visibilité des stocks ajoute plusieurs nouvelles fonctionnali
 | *OnHandReservation* | Cette fonction vous permet de créer des réservations, consommer des réservations et/ou annuler la réservation de quantités en stock spécifiées à l’aide de la Visibilité des stocks. Pour plus d’informations, voir [Réservation dans la visibilité des stocks](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Cette fonctionnalité fournit un récapitulatif du stock pour les produits, avec toutes les dimensions. Les données récapitulatives du stock seront périodiquement synchronisées à partir de la visibilité des stocks. Pour plus d’informations, voir [Récapitulatif du stock](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Cette fonctionnalité facultative active les fonctionnalités de planning de changement du stock disponible et de quantité disponible à la vente (DAV). Pour plus d’informations, voir [Planning de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md). |
-| *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus d'entrepôt avancés (articles WHS). Pour plus d'informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md). |
+| *Activer les articles d’entrepôt dans Visibilité des stocks* | Cette fonctionnalité facultative permet à la Visibilité des stocks de prendre en charge les articles activés pour les processus d’entrepôt avancés (articles WHS). Pour plus d’informations, voir [Prise en charge de la Visibilité des stocks pour les articles WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Rechercher le point de terminaison de service
 
 Si vous ne connaissez pas le bon point de terminaison de service de visibilité des stocks, ouvrez la page **Configuration** dans Power Apps, puis sélectionnez **Afficher le point de terminaison de service** dans le coin supérieur droit. La page affichera le bon point de terminaison de service.
 
-## <a name="data-source-configuration"></a>Configuration de la source de données
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuration de la source de données
 
 Chaque source de données représente un système d’où proviennent vos données. Les exemples de noms de source de données incluent `fno` (qui signifie « applications Finances and Operations de Dynamics 365 ») et `pos` (qui signifie « point de vente »). Par défaut, Supply Chain Management est configuré comme source de données par défaut (`fno`) dans la visibilité des stocks.
 
@@ -141,7 +141,7 @@ Pour ajouter des mappages de dimensions, procédez comme suit.
 
 Par exemple, si votre source de données inclut une dimension de couleur de produit, vous pouvez la mapper à la dimension de base `ColorId` pour ajouter une dimension personnalisée `ProductColor` dans la source de données `exterchannel`. Elle sera ensuite mappée à la dimension de base `ColorId`.
 
-### <a name="physical-measures"></a>Mesures physiques
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Mesures physiques
 
 Lorsqu’une source de données valide une modification de stock dans la visibilité des stocks, cette modification est validée en utilisant les *mesures physiques*. Les mesures physiques modifient la quantité et reflètent le statut des stocks. Vous pouvez définir vos propres mesures physiques en fonction de vos besoins. Les requêtes peuvent être basées sur les mesures physiques.
 
@@ -175,6 +175,9 @@ Si la source de données est Supply Chain Management, vous n’avez pas besoin d
 ### <a name="calculated-measures"></a>Mesures calculées
 
 Vous pouvez utiliser la visibilité des stocks pour interroger à la fois les mesures physiques de stock et les *mesures calculées personnalisées*. Les mesures calculées fournissent une formule de calcul personnalisée qui consiste en une combinaison de mesures physiques. Cette fonctionnalité vous permet de définir un ensemble de mesures physiques qui seront ajoutées, et/ou un ensemble de mesures physiques qui seront soustraites, afin de former la mesure personnalisée.
+
+> [!IMPORTANT]
+> Une mesure calculée est une composition de mesures physiques. Sa formule ne peut inclure que des mesures physiques sans doublons, et non des mesures calculées.
 
 La configuration vous permet de définir un ensemble de modificateurs qui sont ajoutés ou soustraits pour obtenir la quantité de sortie agrégée totale.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688118"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809611"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>FAQ sur la fusion d’infrastructure de Dynamics 365 Human Resources
 
@@ -131,6 +131,9 @@ Cela dépend du point de terminaison d’intégration. Pour plus d’information
 Si les environnements Dynamics 365 Human Resources et Finances et Opérations qui seront joints à l’environnement dans la nouvelle infrastructure sont connectés au même environnement Dataverse, les deux applications resteront connectées au même environnement Dataverse après la migration. Aucune migration ne sera requise pour aucune extension Dataverse.
 
 Toutefois, si les environnements Dynamics 365 Human Resources et Finances et Opérations sont actuellement connectés à des environnements Dataverse distincts, les deux environnements Dataverse devront être combinés de manière à être connectés à un seul environnement de la nouvelle infrastructure. Pour cette migration de Dataverse, les tables Dataverse qui sont standard dans les solutions Human Resources peuvent être connectées et resynchronisées avec le nouvel environnement Dataverse. Aucune extension de l’environnement Dataverse ne sera migrée automatiquement, mais devra être redéployée dans le nouvel environnement. Nous vous recommandons d’utiliser des solutions gérées pour gérer vos extensions Dataverse. Pour plus d’informations, consultez [Présentation des solutions](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Nous avons utilisé la fonctionnalité de champ personnalisé dans Dynamics 365 Human Resources, ces champs personnalisés migreront-ils automatiquement ?
+Oui, les champs personnalisés qui ont été ajoutés migreront vers la nouvelle infrastructure.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Nous avons configuré les flux Microsoft Power Automate et/ou Microsoft Power Apps pour qu’ils fonctionnent avec Dynamics 365 Human Resources. Est-ce que ces composants Microsoft Power Platform seront migrés et fonctionneront-ils automatiquement une fois le changement d’infrastructure terminé ?
 

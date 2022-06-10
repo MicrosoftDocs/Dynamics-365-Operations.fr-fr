@@ -2,7 +2,7 @@
 title: Créer une configuration pour générer des documents au format Excel
 description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645133"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811418"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -144,7 +144,7 @@ Vous pouvez configurer votre modèle Excel pour utiliser des cellules pour prés
 À partir de la version 10.0.23 de Dynamics 365 Finance, quand vous utilisez un document généré, vous pouvez forcer ER à calculer la hauteur de chaque ligne qui a été configurée pour adapter automatiquement sa hauteur au contenu des cellules imbriquées chaque fois que cette ligne contient au moins une cellule fusionnée qui a été configurée pour encapsuler le texte à l’intérieur. La hauteur calculée est ensuite utilisée pour redimensionner la ligne afin de s’assurer que toutes les cellules de la ligne sont visibles sur le document généré.
 
 > [!NOTE]
-> Sachez que cette fonctionnalité peut ne pas fonctionner comme prévu quand une police personnalisée est utilisée pour la mise en forme d’une cellule fusionnée. Étant donné qu’Excel n’intègre pas de polices personnalisées, il ne fournit pas d’informations sur la taille de police personnalisée. Par conséquent, la taille de la cellule fusionnée peut être estimée de manière incorrecte.
+> Sachez que cette fonctionnalité peut ne pas fonctionner comme prévu quand une police personnalisée est utilisée pour la mise en forme d’une cellule fusionnée. Étant donné qu’Excel n’incorpore pas de polices personnalisées, il ne fournit pas d’informations sur la taille de police personnalisée. Par conséquent, la taille de la cellule fusionnée peut être estimée de manière incorrecte.
 
 Pour commencer à utiliser cette fonctionnalité quand vous exécutez des formats ER qui ont été configurés pour utiliser des modèles Excel pour générer des documents sortants, procédez comme suit.
 
@@ -187,7 +187,7 @@ Quand un composant **Cellule** est configuré pour entrer une valeur dans une im
 > [!NOTE]
 > Chaque image et forme Excel est considérée comme étant ancrée par son coin supérieur gauche à une cellule ou une plage Excel spécifique. Si vous souhaitez répliquer une image ou une forme Excel, vous devez configurer la cellule ou la plage à laquelle il est ancré en tant que cellule ou plage répliquée.
 
-Pour en savoir plus sur l’incorporation d’images et de formes, consultez [Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md).
+Pour en savoir plus sur l’incorporation d’images et de formes, consultez [Incorporer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md).
 
 ## <a name="page-break-component"></a>Composant Saut de page
 
@@ -288,6 +288,16 @@ Vous pouvez sélectionner **Mettre à jour à partir d’Excel** sur l’onglet 
 
 ![Option Créer un élément de format de feuille Excel dans la boîte de dialogue Mettre à jour à partir d’Excel.](./media/er-excel-format-update-template.png)
 
+Dans la version 10.0.28 et ultérieure, vous pouvez utiliser l’option **Mettre à jour les éléments de format d’en-tête et de pied de page Excel**.
+
+- Lorsque vous définissez cette option sur **Non**, les éléments de format d’en-tête et de pied de page Excel restent inchangés, même si les en-têtes ou pieds de page correspondants ont été mis à jour dans les feuilles de calcul du modèle importé au format classeur Excel.
+- Lorsque vous définissez cette option sur **Oui**, les éléments de format d’en-tête et de pied de page Excel changent lorsque les en-têtes ou pieds de page correspondants sont mis à jour dans les feuilles de calcul du modèle importé au format classeur Excel.
+
+    - Si la structure d’un en-tête ou d’un pied de page de feuille de calcul n’a pas été modifiée, ou si elle a seulement été ajoutée, la structure de l’élément de format En-tête Excel ou Pied de page Excel correspondant est mise à jour. Les liaisons des éléments de format imbriqués sous cet élément de format En-tête Excel ou Pied de page Excel seront conservées.
+    - Si la structure d’un en-tête ou d’un pied de page de feuille de calcul a été modifiée, l’élément de format En-tête Excel ou Pied de page Excel correspondant est créé à nouveau. Les liaisons des éléments de format imbriqués sous cet élément de format En-tête Excel ou Pied de page Excel seront supprimées.
+
+![Option Mettre à jour les éléments de format d’en-tête et de pied de page Excel dans la boîte de dialogue Mettre à jour à partir d’Excel.](./media/er-excel-format-update-template2.png)
+
 Pour en savoir plus sur cette fonctionnalité, suivez les étapes de rubrique [Modifier des formats de gestion des états électroniques en réappliquant des modèles Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>Valider un format ER
@@ -355,7 +365,7 @@ Quand un document sortant dans un format du classeur Microsoft Excel est génér
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Exemple 2 : résolution du problème EPPlus des cellules fusionnées
 
-Vous pouvez exécuter un format ER pour générer un document sortant dans un format de classeur Excel. Quand la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques** est activée dans l’espace de travail **Gestion des fonctionnalités**, la [Bibliothèque EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) est utilisée pour créer la sortie Excel. Cependant, en raison d’un [comportement d’Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) connu et d’une limitation de la bibliothèque EPPlus, vous pourriez rencontrer l’exception suivante : « Impossible de supprimer/écraser les cellules fusionnées. Une plage est en partie fusionnée avec une autre plage fusionnée. » Pour savoir quel type de modèles Excel peut provoquer cette exception et comment vous pouvez résoudre le problème, suivez l’exemple suivant.
+Vous pouvez exécuter un format ER pour générer un document sortant dans un format de classeur Excel. Quand la fonctionnalité **Activer l’utilisation de la bibliothèque EPPlus dans le cadre d’états électroniques** est activée dans l’espace de travail **Gestion des fonctionnalités**, la [Bibliothèque EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) est utilisée pour créer la sortie Excel. Cependant, en raison d’un [comportement d’Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) connu et d’une limitation de la bibliothèque EPPlus, vous pourriez rencontrer l’exception suivante : « Impossible de supprimer/écraser les cellules fusionnées. Une plage est en partie fusionnée avec une autre plage fusionnée. » Pour savoir quel type de modèles Excel peut provoquer cette exception et comment vous pouvez résoudre le problème, suivez l’exemple suivant.
 
 1. Dans l’application de bureau Excel, créez un nouveau classeur Excel.
 2. Sur feuille de calcul **Feuille1**, ajoutez le nom **ReportTitle** pour la cellule **A2**.

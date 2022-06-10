@@ -2,7 +2,7 @@
 title: Recherche de produits et de clients dans le point de vente (PDV)
 description: Cette rubrique fournit une vue d’ensemble des améliorations apportées à la fonctionnalité de recherche de produits et de clients dans Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700087"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806425"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Recherche de produits et de clients dans le point de vente (PDV)
 
@@ -106,6 +106,8 @@ Pour définir des critères de recherche en tant que raccourcis, l’administrat
 > Si vous ajoutez un trop grand nombre de raccourcis, le menu déroulant de la barre de recherche du PDV est surchargé, et l’expérience de recherche de l’employé peut en être affectée. Il est recommandé d’ajouter uniquement autant de raccourcis que nécessaire.
 
 Le champ **Ordre d’affichage** détermine l’ordre dans lequel les raccourcis sont affichés dans le PDV. Les critères affichés sont les propriétés prêtes à l’emploi que l’algorithme de recherche du client utilise pour rechercher des clients. Toutefois, les partenaires peuvent ajouter des propriétés personnalisées comme raccourcis de recherche. Pour ajouter des propriétés personnalisées comme raccourcis de recherche, l’administrateur système doit étendre l’énumération extensible (enum) utilisée pour les critères de recherche de client puis marquer les propriétés personnalisées du partenaire comme raccourcis. Les partenaires sont responsables d’écrire le code pour rechercher des résultats lorsque leurs raccourcis personnalisés sont utilisés pour des recherches.
+
+Les traductions des raccourcis sont requises si vous souhaitez que les raccourcis soient rendus sur le PDV. Si la langue de votre canal est différente de la langue par défaut du système, vous devez définir la traduction de chaque raccourci dans la langue attendue. Vous pouvez définir des traductions en sélectionnant **Traduire** pour chaque raccourci. 
 
 > [!NOTE]
 > Une propriété personnalisée qui est ajoutée à l’énumération n’affecte pas l’algorithme de recherche du client standard. En d’autres termes, l’algorithme de recherche du client ne recherche pas dans la propriété personnalisée. Les utilisateurs peuvent utiliser une propriété personnalisée pour les recherches uniquement si cette propriété personnalisée est ajoutée comme raccourci, ou si l’algorithme de recherche par défaut est remplacé.

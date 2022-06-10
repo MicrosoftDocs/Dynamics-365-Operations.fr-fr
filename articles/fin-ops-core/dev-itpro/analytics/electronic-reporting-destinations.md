@@ -2,7 +2,7 @@
 title: Destinations pour la gestion des états électroniques
 description: Cette rubrique fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647091"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780458"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -45,11 +45,11 @@ Vous pouvez également installer l’un des éléments requis suivants. Toutefoi
 - Application Microsoft Dynamics AX version 7.0.1 (mai 2016)
 - [Correctif de l’application de gestion des destinations de rapports électroniques](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Il y a aussi un type de destination [Impression](er-destination-type-print.md). Pour l’utiliser, vous devez installer Microsoft Dynamics 365 Finance version 10.0.9 (avril 2020).
+Il y a aussi un type de destination [Impression](er-destination-type-print.md). Pour l’utiliser, vous devez installer Microsoft Dynamics 365 Finance version 10.0.9 (avril 2020).
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
-Vous pouvez paramétrer des destinations uniquement pour les configurations d’ER qui ont été [importées](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) dans l’instance Finance actuelle, et pour les formats qui sont disponibles sur la page **Configurations de la gestion des états électroniques**. Le fonctionnalité pour la gestion de destination des ER est disponible ici : **Administration d’organisation** \> **Gestion des états électroniques** \> **Destination de la gestion des états électroniques**.
+Vous pouvez paramétrer des destinations uniquement pour les configurations d’ER qui ont été [importées](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) dans l’instance Finance actuelle, et pour les formats qui sont disponibles sur la page **Configurations de la gestion des états électroniques**. La fonctionnalité pour la gestion de destination des ER est disponible ici : **Administration d’organisation** \> **Gestion des états électroniques** \> **Destination de la gestion des états électroniques**.
 
 ### <a name="default-behavior"></a>Comportement par défaut
 
@@ -162,7 +162,7 @@ Pour rendre l’option de conversion PDF disponible dans l’instance Finance ac
 
 [![Activation de la fonctionnalité de conversion PDF des documents sortants dans Gestion des fonctionnalités.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
-### <a name="applicability"></a>Conditions d'application
+### <a name="applicability"></a>Conditions d’application
 
 Dans les versions de Finance **antérieures à la version 10.0.18**, l’option de conversion PDF ne peut être activée que pour les composants **Excel\\File** utilisés pour générer une sortie au format Office (Excel ou Word). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF. Cependant, dans **la version 10.0.18 et les versions ultérieures**, vous pouvez également activer cette option pour les composants du type **Common\\File**.
 
@@ -173,11 +173,11 @@ Dans les versions de Finance **antérieures à la version 10.0.18**, l’option 
 
 ### <a name="limitations"></a>Limitations
 
-L’option de conversion PDF n’est disponible que pour les déploiements cloud.
+Depuis la **version 10.0.9** de Finance, l’option de conversion PDF n’est disponible que pour les déploiements cloud. À partir de la version **10.0.27** de Finance, l’option de conversion PDF est disponible pour tout déploiement sur site ayant une [connectivité Internet](../user-interface/client-disconnected.md) activée.
 
 Le document PDF produit est limité à une longueur maximum de 300 pages.
 
-Dans Finance, **version 10.0.9**, seule l’orientation de la page au format paysage est prise en charge dans le document PDF généré depuis une sortie Excel. Dans Finance, **version 10.0.10 (mai 2020) et ultérieure**, vous pouvez [spécifier l’orientation de la page](#SelectPdfPageOrientation) dans le document PDF généré à partir d’une sortie Excel pendant que vous configurez une destination pour la gestion des états électroniques.
+Depuis la **version 10.0.9** de Finance, seule l’orientation de la page au format paysage est prise en charge dans le document PDF généré depuis une sortie Excel. À compter de la **version 10.0.10** de Finance, vous pouvez [spécifier l’orientation de la page](#SelectPdfPageOrientation) dans le document PDF généré à partir d’une sortie Excel pendant que vous configurez une destination pour les états électroniques (ER).
 
 Seules les polices système courantes du système d’exploitation Windows sont utilisées pour la conversion d’une sortie qui ne contient aucune police intégrée.
 
@@ -218,7 +218,7 @@ Lorsque vous configurez une destination pour le composant **Dossier** de votre f
 
 Pour rendre l’option de déploiement de la sortie disponible dans l’instance actuelle de Finance, ouvrez l’espace de travail **Gestion des fonctionnalités** et activez la fonctionnalité **Autoriser la configuration des destinations d’états électroniques pour envoyer le contenu des dossiers en tant que fichiers distincts**.
 
-### <a name="applicability"></a>Conditions d'application
+### <a name="applicability"></a>Conditions d’application
 
 L’option de déploiement de la sortie ne peut être configurée que pour les composants de format de type **Dossier**. Lorsque vous commencez à configurer un composant **Dossier**, le raccourci **Général** devient disponible dans la page **Destination des états électroniques**. 
 
@@ -260,7 +260,7 @@ Vérifiez que vous sélectionnez **Nouveau**, puis sélectionnez une configurati
 
 ### <a name="is-there-any-way-to-define-which-microsoft-azure-storage-account-and-azure-blob-storage-are-used"></a>Est-il possible de définir quel compte de stockage Microsoft Azure et quel stockage Blob Azure sont utilisés ?
 
-N° Le stockage Blob Microsoft Azure par défaut défini et utilisé pour le système de gestion des documents est utilisé.
+Non Le stockage Blob Microsoft Azure par défaut défini et utilisé pour le système de gestion des documents est utilisé.
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Quel est l’objectif de la destination de fichier dans les paramètres de destination ? Que fait ce paramètre ?
 

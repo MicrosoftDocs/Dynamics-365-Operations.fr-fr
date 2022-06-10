@@ -2,7 +2,7 @@
 title: Concevoir des états multilingues dans les états électroniques
 description: Cette rubrique explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313689"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811605"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Concevoir des états multilingues dans les états électroniques
 
@@ -81,7 +81,7 @@ Lorsqu’un modèle de données ER est configuré de cette manière, son contenu
 
 ### <a name="model-mapping-component"></a>Composant de mise en correspondance de modèles
 
-Étant donné que le mappage de modèles ER est basé sur un modèle de données ER, les étiquettes des éléments de modèle de données auxquels il est fait référence sont affichées dans la langue préférée de l’utilisateur dans le concepteur de mise en correspondance de modèles. L’illustration suivante montre comment la signification de **Bon de commande** est expliquée dans la mise en correspondance de modèles modifiables à l’aide de l’étiquette de l’attribut **Description** ayant été ajouté au modèle de données configuré. Notez que cette étiquette est présentée dans la langue préférée de l’utilisateur (DE-AT dans cet exemple).
+Étant donné que la mise en correspondance des modèles ER est basée sur un modèle de données ER, les étiquettes des éléments de modèle de données auxquels il est fait référence apparaissent dans la langue préférée de l’utilisateur dans le concepteur de mise en correspondance des modèles. L’illustration suivante montre comment la signification de **Bon de commande** est expliquée dans la mise en correspondance de modèles modifiables à l’aide de l’étiquette de l’attribut **Description** ayant été ajouté au modèle de données configuré. Notez que cette étiquette est présentée dans la langue préférée de l’utilisateur (DE-AT dans cet exemple).
 
 ![Disposition du concepteur de mise en correspondance de modèles pour un utilisateur ayant défini DE-AT comme langue préférée.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -218,6 +218,11 @@ Les étiquettes d’un composant ER qui peuvent être modifiées sont conservée
 
 Les étiquettes d’un composant ER de base peuvent être référencées dans une version dérivée du composant ER que vous créez pour introduire vos modifications.
 
+> [!TIP]
+> Lorsque vous concevez une solution ER, vous pouvez dériver votre propre composant [modèle de données](er-overview-components.md#data-model-component) ER à partir de celui qui est fourni. Dans ce modèle de données dérivé, vous pouvez introduire vos propres étiquettes ER et les utiliser dans tous les formats ER qui utiliseront le modèle de données comme source de données. Vous pouvez ensuite dériver votre propre composant de [format](er-overview-components.md#format-component) ER de celui qui est fourni en sélectionnant votre modèle de données ER dérivé au lieu de celui fourni. Dans la version 10.0.28 et ultérieures, vous pouvez activer la fonctionnalité **Accès amélioré aux étiquettes du modèle de données de rapport électronique croissant** pour accéder aux étiquettes d’un modèle de données ER croissant dans les composants de format ER dérivés, même si modèle de données ER sélectionné pour le composant ER dérivé diffère de celui utilisé dans le composant ER de base.
+>
+> Lorsque le même nom d’étiquette est utilisé dans votre composant dérivé et ses composants ascendants, votre traduction de cette étiquette est utilisée comme la plus pertinente.
+
 Le contrôle de version ER contrôle l’attribution d’étiquette à n’importe quel attribut d’un composant ER. Les modifications apportées à l’affectation d’étiquette sont enregistrées dans la liste des modifications (delta) d’un composant ER modifiable qui a été créé en tant que version dérivée du composant ER fourni. Ces modifications seront validées lorsqu’une version dérivée est rebasée vers une nouvelle version de base.
 
 ## <a name="functions"></a>Fonctions
@@ -240,7 +245,7 @@ Lorsque vous changez le statut d’une version de configuration de la gestion de
 
 Nous vous recommandons d’activer la fonctionnalité **Accélérer le stockage des étiquettes de gestion des états électroniques** dans l’espace de travail **Gestion des fonctionnalités**. Cette fonctionnalité permet d’améliorer l’utilisation de la bande passante du réseau et les performances globales du système car, dans la plupart des cas, les étiquettes de gestion des états électroniques d’une seule langue sont utilisées lorsque vous travaillez avec une seule configuration de gestion des états électroniques.
 
-Pour appliquer le schéma de stockage sélectionné afin de conserver les étiquettes de toutes les configurations de gestion des états électroniques dans l’instance Finance actuelle, procédez comme suit.
+Pour appliquer le schéma de stockage sélectionné afin de conserver les étiquettes de toutes les configurations ER dans l’instance Finance actuelle, procédez comme suit :
 
 1. Accédez à **Administration de l’organisation** > **Périodique** > **Appliquer le schéma de stockage des étiquettes sélectionnées pour toutes les configurations de gestion des états électroniques**.
 2. Cliquez sur **OK**.

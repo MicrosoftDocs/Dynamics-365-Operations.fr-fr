@@ -2,7 +2,7 @@
 title: Afficher et mettre à jour les données d’entité avec Excel
 description: Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464935"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762637"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Afficher et mettre à jour les données d’entité avec Excel 
 
@@ -110,7 +110,7 @@ Vous pouvez utiliser le concepteur pour ajuster les colonnes qui sont automatiqu
 5. Si vous avez ajouté un champ (colonne), cliquez sur **Actualiser** pour extraire un jeu de données mis à jour.
 
 ## <a name="change-the-publish-batch-size"></a>Modifier la taille du lot de publication
-Lorsque les utilisateurs publient les modifications des enregistrements de données à l’aide du complément Excel, les mises à jour sont envoyées par lots. La taille du lot de publication par défaut est de 100 lignes. Dans la version 10.0.17 et les versions ultérieures, la fonctionnalité **Autoriser la configuration de la taille du lot de publication dans le complément Excel** vous offre un contrôle flexible sur la taille du lot de publication.
+Lorsque les utilisateurs publient les modifications des enregistrements de données à l’aide du complément Excel, les mises à jour sont envoyées par lots. La taille de lot de validation par défaut (et maximale) est de 100 lignes ; cependant, la fonctionnalité **Autoriser la configuration de la taille du lot de validation dans le complément Excel** vous donne la possibilité de réduire la taille du lot de validation, en particulier si vous rencontrez des délais d’attente lorsque vous tentez de valider des mises à jour à partir d’Excel.
 
 Les administrateurs système peuvent spécifier une limite à l’échelle du système de la taille du lot de publication pour les classeurs « Ouvrir dans Excel » en définissant le champ **Publier la limite du lot** dans la section **Paramètres de l’application** de la page **Paramètres de l’application Office**.
 

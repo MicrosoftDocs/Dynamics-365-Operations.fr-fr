@@ -2,7 +2,7 @@
 title: Module de fonctionnalité interactive
 description: Cette rubrique couvre les modules de fonctionnalités interactives et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b18a29ce43e69ec0578602535f21e52388fe3d04ac14673bbdefed9ec8ea161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749848"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780737"
 ---
 # <a name="interactive-feature-module"></a>Module de fonctionnalité interactive
 
@@ -55,8 +55,8 @@ Le module de fonctionnalité interactive peut prendre en charge diverses disposi
 | Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Image         | Fichier image | Image qui représente un produit ou une catégorie. L’image peut être chargée dans le générateur de site de la bibliothèque multimédia dans Commerce, ou une image existante peut être utilisée. |
-| Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d'en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |
-| Paragraphe     | Texte du paragraphe | Les modules prennent en charge le texte de paragraphe dans en format de texte enrichi. Certains capacités de texte enrichi de base sont prises en charge, telles que les liens hypertexte, le gras, le souligné, et l'italique. Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s’applique au module. |
+| Titre       | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Par défaut, la balise d’en-tête **H2** est utilisée pour le titre, mais la balise peut être modifiée pour répondre aux besoins en accessibilité. |
+| Paragraphe     | Texte du paragraphe | Les modules prennent en charge le texte de paragraphe dans en format de texte enrichi. Certains capacités de texte enrichi de base sont prises en charge, telles que les liens hypertexte, le gras, le souligné, et l’italique. Certaines de ces fonctionnalités peuvent être remplacées par le thème de la page qui s’applique au module. |
 | Lien          | Texte du lien, URL du lien, étiquette ARIA (Applications Internet enrichie accessibles), et sélecteur **Ouvrir le lien dans le nouvel onglet** | Le module prend en charge un ou plusieurs liens d’« appels à l’action ». Si un lien est ajouté, un texte de lien, une URL, et une étiquette ARIA sont requis. Les étiquettes ARIA doivent être descriptives pour satisfaire aux exigences d’accessibilité. Les liens peuvent être configurés de sorte qu’ils sont ouverts sur un nouvel onglet. |
 
 ## <a name="add-an-interactive-feature-module-to-a-new-page"></a>Ajouter un module de fonctionnalité interactive à une nouvelle page
@@ -65,14 +65,14 @@ Pour ajouter un module de fonctionnalité interactive à une nouvelle page et d�
 
 1. Accédez à **Modèles** et ouvrez le modèle marketing pour la page d’accueil de votre site (ou créez un nouveau modèle marketing).
 1. Dans l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Fonctionnalité interactive**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Fonctionnalité interactive**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages** et ouvrez la page d’accueil du site (ou créez une nouvelle page d’accueil à l’aide du modèle marketing).
-1. À l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajoutez le module**.
-1. Dans la boîte de dialogue **Ajouter le module**, sous **Sélectionner les modules**, sélectionnez le module **Fonctionnalité interactive**, puis sélectionnez **OK**.
+1. À l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajoutez un module**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sous **Sélectionner des modules**, sélectionnez le module **Fonctionnalité interactive**, puis cliquez sur **OK**.
 1. Dans le volet de propriété du module de fonctionnalité interactive, ajoutez un en-tête.
 1. Dans l’emplacement **Fonctionnalité interactive**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Élément de fonctionnalité interactive**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Élément de fonctionnalité interactive**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés du module d’élément de fonctionnalité interactive, ajoutez une image, un texte d’en-tête, un texte de paragraphe et une URL.
 1. Ajoutez et configurez des modules d’élément de fonctionnalités interactives supplémentaires selon vos besoins.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page.

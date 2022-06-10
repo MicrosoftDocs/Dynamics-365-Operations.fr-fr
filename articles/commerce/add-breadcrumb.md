@@ -2,7 +2,7 @@
 title: Module de piste de navigation
 description: Cette rubrique couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109730"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780332"
 ---
 # <a name="breadcrumb-module"></a>Module de barre de navigation
 
@@ -64,11 +64,11 @@ Pour ajouter un module de piste de navigation à une page PDP et définir les pr
 1. Accédez à **Paramètres du site \> Extensions** puis, pour le paramètre **Type d’affichage de la piste de navigation sur la PDP**, sélectionnez **Afficher la hiérarchie de catégories**.
 1. Accédez à **Modèles** et sélectionnez le modèle PDP.
 1. Dans l’emplacement **Conteneur** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Piste de navigation**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Barre de navigation**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages** et ouvrez une page PDP qui utilise le modèle PDP. Si aucune page PDP n’existe encore, créez-en une.
 1. Dans l’emplacement **Conteneur** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Piste de navigation**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Barre de navigation**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés de l’emplacement **Piste de navigation**, sous **Racine**, sélectionnez **Texte du lien**.
 1. Dans la boîte de dialogue **Texte du lien**, entrez **Accueil** puis, sous **Cible du lien**, sélectionnez **Ajouter un lien**.
 1. Dans la boîte de dialogue **Ajouter un lien**, sélectionnez un lien pour la racine de la piste de navigation, puis sélectionnez **OK**.

@@ -2,7 +2,7 @@
 title: Résolution des problèmes de performances dans les configurations ER
 description: Cette rubrique explique comment rechercher et résoudre les problèmes de performances dans les configurations d’états électroniques (ER).
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744384"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811678"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Résolution des problèmes de performances dans les configurations ER
 
@@ -82,7 +82,7 @@ Ouvrez ensuite la trace dans le concepteur de mappage de modèle ER et regardez 
 
 - Le nombre de requêtes et d’enregistrements récupérés correspond-il à la quantité totale de données ? Par exemple, si un document comporte 10 lignes, les statistiques montrent-elles que le rapport extrait 10 lignes ou 1 000 lignes ? Si vous avez un nombre important d’enregistrements récupérés, envisagez l’une des corrections suivantes :
 
-    - [Utilisez la fonction **FILTER** au lieu de la fonction **WHERE**](#filter) pour traiter les données côté SQL Server.
+    - [Utilisez la fonction **FILTRER** au lieu de la fonction **WHERE**](#filter) pour traiter les données côté Microsoft SQL Server.
     - Utilisez la mise en cache pour éviter de récupérer les mêmes données.
     - [Utilisez des fonctions de données collectées](#collected-data) pour éviter de récupérer les mêmes données pour le résumé.
 
@@ -191,6 +191,10 @@ Cette approche présente quelques limites. Vous devez disposer de l’accès adm
 
 Bien que la mise en cache réduise le temps nécessaire pour extraire à nouveau les données, elle coûte de la mémoire. Utilisez la mise en cache dans les cas où la quantité de données récupérées n’est pas très importante. Pour plus d’informations et un exemple montrant comment utiliser la mise en cache, consultez [Améliorer le mappage du modèle en fonction des informations de la trace d’exécution](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>Réduire le volume de données récupérées
+
+Vous pouvez réduire la consommation de mémoire pour la mise en cache en limitant le nombre de champs dans les enregistrements d’une table d’application que vous récupérez au moment de l’exécution. Dans ce cas, vous récupérerez uniquement les valeurs de champ d’une table d’application dont vous avez besoin dans votre mise en correspondance des modèles ER. Les autres champs de cette table ne seront pas récupérés. Par conséquent, le volume de mémoire requis pour mettre en cache les enregistrements extraits est réduit. Pour plus d’informations, voir [Améliorer les performances des solutions ER en réduisant le nombre de champs de table extraits lors de l’exécution](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Utiliser un champ calculé paramétré en cache
 
 Parfois, les valeurs doivent être consultées à plusieurs reprises. Il peut s’agir par exemple de noms de compte et de numéros de compte. Pour gagner du temps, vous pouvez créer un champ calculé avec des paramètres au niveau supérieur, puis ajouter le champ au cache.
@@ -218,4 +222,4 @@ La génération d’états électroniques peut consommer des données provenant 
 - Classes (sources de données **objet** et **classe**)
 - Tables (sources de données **table** et **enregistrements de table**)
 
-L’[API ER](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) fournit également un moyen d’envoyer des données précalculées à partir du code d’appel. La suite d’applications contient de nombreux exemples de cette approche.
+L’[interface de programmation d’applications (API) ER](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) fournit également un moyen d’envoyer des données précalculées à partir du code d’appel. La suite d’applications contient de nombreux exemples de cette approche.

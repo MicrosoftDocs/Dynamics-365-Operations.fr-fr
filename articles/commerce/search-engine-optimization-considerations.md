@@ -2,39 +2,38 @@
 title: Considérations relatives à l’optimisation de moteur de recherche (SEO) pour le site
 description: Cette rubrique couvre des considérations sur l’optimisation du moteur de recherche (SEO) pour votre site du développement à la production.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716855"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806403"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considérations relatives à l’optimisation de moteur de recherche (SEO) pour le site
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les considérations sur l’optimisation du moteur de recherche (SEO) pour votre site du développement à la production.
+Cette rubrique couvre des considérations sur l’optimisation du moteur de recherche (SEO) pour votre site du développement à la production.
 
 ## <a name="a-site-that-is-under-development"></a>Site en cours de développement
 
-Lorsqu’un site est cours de développement, toutes les pages du site doivent avoir des métabalises **NOINDEX** et **NOFOLLOW**, de sorte que les moteurs de recherche n’indexent pas les pages ni ne stockent les versions de développement de votre site dans leur cache. Pour effectuer cette configuration, vous devez ajouter le module par défaut de métabalises au modèle de page du site. Les propriétés par défaut de métabalises sont alors disponibles dans la section des propriétés SEO dans l’éditeur de page. Vous pouvez utiliser ces propriétés pour gérer les métabalises.
+Pour s’assurer que les moteurs de recherche n’indexent pas un site en cours de développement, toutes les pages du site doivent avoir les balises méta **noindex** et **nofollow**. Une bonne pratique consiste à créer un fragment basé sur le [module MetaTags](metatags-module.md) qui contient l’entrée de balise méta suivante et assurez-vous que le fragment est ajouté à la section HTML \<head\> de tous les modèles utilisés sur votre site.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Lancement provisoire un site
 
-Pendant « un lancement provisoire », un site web est rendu disponible à une audience ou à un marché limité avant que le lancement complet se produise. Si vous effectuez un lancement provisoire de votre site web, vous devez envisager de laisser les métabalises **NOINDEX** en place. Ainsi, vous garantissez que le lancement provisoire reste limité à l’audience limitée que vous souhaitez atteindre.
+Pendant « un lancement provisoire », un site web est rendu disponible à une audience ou à un marché limité avant que le lancement complet se produise. Si vous effectuez un lancement provisoire de votre site web, vous devez envisager de laisser les métabalises **noindex** en place. Ainsi, vous garantissez que le lancement provisoire reste limité à l’audience limitée que vous souhaitez atteindre.
 
 ## <a name="a-site-that-is-in-production"></a>Un site qui est en production
 
@@ -44,7 +43,7 @@ Pour optimiser l’indexation du moteur de recherche, la zone de rendu utilise l
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Paramètres SEO de la page pour un aperçu interne, audiences limitées, toutes les audiences
 
-Comme Dynamics 365 Commerce prend en charge des aperçus authentifiés « Tel écrit, tel écran » dans le générateur de page visuel, les auteurs peuvent préparer leur contenu de page sans devoir s’inquiéter que les informations deviennent visibles par les visiteurs du site. Si une page doit être publiée, mais que son exposition doit être limitée, elle doit avoir la métabalise **NOINDEX**, afin qu’elle ne soit pas indexée par les moteurs de recherche. Puis, lorsque la page est prête pour toutes les audiences, toutes les métadonnées SEO de base doivent être présentes, afin d’optimiser l’efficacité de l’indexation du moteur de recherche. En outre, la métabalise **NOLIMIT** doit être supprimée.
+Comme Dynamics 365 Commerce prend en charge des aperçus authentifiés « Tel écrit, tel écran » dans le générateur de page visuel, les auteurs peuvent préparer leur contenu de page sans devoir s’inquiéter que les informations deviennent visibles par les visiteurs du site. Si une page doit être validée, mais que son exposition doit être limitée, elle doit avoir la métabalise **noindex**, afin qu’elle ne soit pas indexée par les moteurs de recherche. Puis, lorsque la page est prête pour toutes les audiences, toutes les métadonnées SEO de base doivent être présentes, afin d’optimiser l’efficacité de l’indexation du moteur de recherche. En outre, la métabalise **nolimit** doit être supprimée.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

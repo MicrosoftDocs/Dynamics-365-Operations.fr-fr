@@ -2,7 +2,7 @@
 title: Module Zone d’achat
 description: Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eba86cd0fe2790cabed1f091ddc59002d19ae228
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717793"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780432"
 ---
 # <a name="buy-box-module"></a>Module Zone d’achat
 
@@ -69,9 +69,9 @@ Les paramètres de module de zone d’achat suivants peuvent être configurés s
 - **Stock** – Pour plus d’informations sur l’application des paramètres de stock, voir [Appliquer les paramètres de stock](inventory-settings.md).
 - **Ajouter le produit au panier** – Pour savoir comment postuler **Ajouter le produit au panier** paramètres, voir [Paramètres Ajouter un produit aux paramètres](add-cart-settings.md).
 
-## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Extensions de définition de module de zone d'achat dans le thème Adventure Works
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Extensions de définition de module de zone d’achat dans le thème Adventure Works
 
-Le module de zone d'achat fourni par le thème Adventure Works possède une extension de définition de module qui prend en charge l'implémentation d'un module de spécifications de produit dans un module d'accordéon dans une zone d'achat PDP. Pour présenter les attributs de spécification de produit dans une zone d'achat PDP, ajoutez un module de spécification de produit à l'emplacement du module d'accordéon à l'emplacement de la zone d'achat.
+Le module de zone d’achat fourni par le thème Adventure Works possède une extension de définition de module qui prend en charge l’implémentation d’un module de spécifications de produit dans un module d’accordéon dans une zone d’achat PDP. Pour présenter les attributs de spécification de produit dans une zone d’achat PDP, ajoutez un module de spécification de produit à l’emplacement du module d’accordéon à l’emplacement de la zone d’achat.
 
 
 > [!IMPORTANT]
@@ -90,23 +90,26 @@ Pour ajouter un module de zone d’achat à une nouvelle page et définir les pr
 1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Zone d’achat**.
 1. Sous **Nom du fragment**, entrez le nom **Fragment de zone d’achat**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Galerie de supports** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Galerie de supports**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Galerie de supports**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Sélecteur de magasin** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Sélecteur de magasin**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Sélecteur de magasin**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle PDP**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Page par défaut**, puis cliquez sur **OK**.
 1. À l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé au préalable, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle PDP**. Sous **Nom de la page**, entrez **Page PDP**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Créer une page**, sous **Nom de la page**, entrez **Page PDP**, puis cliquez sur **Suivant**.
+1. Sous **Choisir un modèle**, sélectionnez **Modèle PDP**, puis sélectionnez **Suivant**.
+1. Sous **Choisir une mise en page**, sélectionnez une mise en page (par exemple, **Disposition flexible**), puis sélectionnez **Suivant**.
+1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**.
 1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé au préalable, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé, puis cliquez sur **OK**.
 1. Enregistrez et affichez un aperçu de la page. Ajoutez le paramètre de chaîne de requête **?productid=&lt;product id&gt;** à l’URL de la page d’aperçu. Ainsi, le contexte de produit est utilisé pour charger et afficher la page d’aperçu.
-1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. Un zone d’achat doit figurer sur la page de détails des produits.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. Une zone d’achat doit figurer sur la page de détails des produits.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

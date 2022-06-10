@@ -2,7 +2,7 @@
 title: Module de visualisation rapide
 description: Cette rubrique couvre les modules de visualisation rapide et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692698"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780816"
 ---
 # <a name="quick-view-module"></a>Module de visualisation rapide
 
@@ -61,7 +61,7 @@ Pour ajouter un module de visualisation rapide à un module de collecte de produ
 
 1. Allez dans **Pages**, puis sélectionnez la page d’accueil du site Fabrikam.
 1. Allez dans n’importe quel module **Collecte de produits** sur la page d’accueil, sélectionnez les points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module de **visualisation rapide**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module de **visualisation rapide**, puis sélectionnez **OK**.
 1. Dans le volet des propriétés du module de **visualisation rapide**, sélectionnez **En-tête**. Dans la boîte de dialogue **En-tête**, définissez le champ **Niveau d’en-tête** sur **H2**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 

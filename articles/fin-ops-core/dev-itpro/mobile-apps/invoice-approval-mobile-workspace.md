@@ -2,7 +2,7 @@
 title: Espace de travail mobile Approbations de factures
 description: Cette rubrique fournit des informations sur l’espace de travail mobile Approbations de factures.
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759978"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811356"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Espace de travail mobile Approbations de factures
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Cette rubrique fournit des informations sur l’espace de travail mobile **Approbations de factures**. Cet espace de travail fournit une liste de factures qui vous ont été affectées dans le processus de workflow d’en-tête de facture fournisseur. 
 
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance and Operations.
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 L’espace de travail mobile **Approbations des facture** permet aux employés et aux responsables d’afficher les factures qui leur sont affectées dans le cadre du processus de workflow d’en-tête de facture fournisseur. Vous pouvez afficher les informations de facturation, et même les détails de ligne et de répartition, pour vous permettre de prendre des décisions d’approbation informées. Dans l’espace de travail, vous pouvez déplacer la facture via le processus de workflow. 
 
@@ -45,7 +46,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 Finance doit être déployé au sein de votre organisation.</td>
+<td>Microsoft Dynamics 365 Finance doit être déployé dans votre organisation.</td>
 <td>Administrateur système</td>
 <td>Voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.
 </td>
@@ -60,7 +61,7 @@ Avant d’utiliser cet espace de travail mobile, les conditions requises suivant
 
 ## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Télécharger et installer l’application mobile Finance and Operations :
+Télécharger et installer l’application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

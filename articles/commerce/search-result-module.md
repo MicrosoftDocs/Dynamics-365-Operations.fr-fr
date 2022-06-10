@@ -2,7 +2,7 @@
 title: Module des résultats de recherche
 description: Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644924"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780916"
 ---
 # <a name="search-results-module"></a>Module de résultats de recherche
 
@@ -65,23 +65,26 @@ Le module de résultats de recherche prend en charge le [module de visualisation
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Ajouter un module de résultats de recherche à une page de catégorie
 
-Pour ajouter un module de résultats de recherche à une page de catégorie, procédez comme suit.
+Pour ajouter un module de résultats de recherche à une page de catégorie dans le générateur de site, procédez comme suit.
 
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, entrez le nom **Résultats de la recherche**, et cliquez sur **OK**.
 1. Dans l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (…), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Page par défaut**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Piste de navigation**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Barre de navigation**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés **Fil d’Ariane**, entrez la valeur de **1** pour **Nombre minimal d’exécutions**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Résultats de la recherche**, puis cliquez sur **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Résultats de la recherche**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés **Résultats de recherche**, entrez la valeur de **1** pour **Nombre minimal d’exécutions**, puis définissez toutes les autres propriétés requises pour le module de résultats de recherche. En définissant ces propriétés dans le modèle, vous vous assurez que toute personnalisation d’une page de catégorie spécifique inclura automatiquement ces paramètres.
 1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le modèle.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Résultats de la recherche** que vous avez créé, entrez **Page des catégories** pour **Nom de la page**, puis cliquez sur **OK**. Étant donné que toutes les valeurs sont définies dans le modèle, la page est prête à être publiée.
+1. Dans la boîte de dialogue **Créer une page**, sous **Nom de la page**, entrez **Page de catégorie**, puis cliquez sur **Suivant**.
+1. Sous **Choisir un modèle**, sélectionnez le modèle **Résultats de la recherche** que vous avez créé, puis sélectionnez **Suivant**.
+1. Sous **Choisir une mise en page**, sélectionnez une mise en page (par exemple, **Disposition flexible**), puis sélectionnez **Suivant**.
+1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Activer la connaissance du stock pour le module des résultats de recherche
@@ -102,7 +105,7 @@ La recherche de produits prenant en compte le stock utilise des attributs de pro
 
 Pour créer des attributs de produit dédiés afin de prendre en charge le module de résultats de recherche tenant compte du stock, procédez comme suit.
 
-1. Accédez à **Retail et Commerce \> IT Retail et Commerce \> Produits et stock**.
+1. Dans Headquarters, accédez à **Retail et Commerce \> IT Retail et Commerce \> Produits et stock**.
 1. Sélectionnez et ouvrez **Remplir les attributs de produit avec le niveau de stock**.
 1. Dans la boîte de dialogue, entrez les informations suivantes :
 
@@ -116,11 +119,11 @@ Pour créer des attributs de produit dédiés afin de prendre en charge le modul
 
 Pour configurer les attributs de produit pour un canal en ligne, procédez comme suit. 
 
-1. Accédez à **Commerce et vente au détail \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
-2. Sélectionnez le canal en ligne pour activer le module de des résultats de recherche basé sur le stock.
-3. Sélectionnez et ouvrez un groupe d’attributs associé, puis ajoutez-y l’attribut de produit nouvellement créé.
-4. Pour les versions 10.0.27 de Commerce, sélectionnez **Définir les métadonnées d’attribut**, sélectionnez l’attribut de produit nouvellement ajouté, puis activez les options **Afficher l’attribut sur le canal**, **Récupérable**, **Peut être affiné** et **Peut être interrogé**.
-5. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution**, et exécutez la tâche **1150 (Catalogue)**. Si vous programmez la tâche **Remplir les attributs de produit avec le niveau de stock** en tant que traitement par lots, nous vous recommandons de planifier également la tâche 1150 en tant que traitement par lots qui s’exécute à la même fréquence.
+1. Dans Headquarters, accédez à **Retail et Commerce \> Paramétrage du canal \> Catégories de canal et attributs de produit**.
+1. Sélectionnez le canal en ligne pour activer le module de des résultats de recherche basé sur le stock.
+1. Sélectionnez et ouvrez un groupe d’attributs associé, puis ajoutez-y l’attribut de produit nouvellement créé.
+1. Pour les versions 10.0.27 de Commerce, sélectionnez **Définir les métadonnées d’attribut**, sélectionnez l’attribut de produit nouvellement ajouté, puis activez les options **Afficher l’attribut sur le canal**, **Récupérable**, **Peut être affiné** et **Peut être interrogé**.
+1. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution**, et exécutez la tâche **1150 (Catalogue)**. Si vous programmez la tâche **Remplir les attributs de produit avec le niveau de stock** en tant que traitement par lots, nous vous recommandons de planifier également la tâche 1150 en tant que traitement par lots qui s’exécute à la même fréquence.
 
 > [!NOTE]
 > Pour les produits qui sont affichés dans le module de résultats de recherche, le niveau de stock est affiché au niveau du produit principal au lieu du niveau de la variante individuelle. Il n’a que deux valeurs possibles : "disponible" et "en rupture de stock". L’étiquette réelle de la valeur est extrait de la définition [Profil de niveau de stock](inventory-buffers-levels.md). Un produit principal est considéré comme en rupture de stock uniquement quand toutes ses variantes sont en rupture de stock.

@@ -2,7 +2,7 @@
 title: Module Galerie multimédia
 description: Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 08/02/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733195"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780866"
 ---
 # <a name="media-gallery-module"></a>Module Galerie multimédia
 
@@ -45,7 +45,7 @@ Dans l’exemple de l’illustration suivante, une zone d’achat sur une page d
 
 ## <a name="media-gallery-properties"></a>Propriétés de la galerie multimédia
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Source de l’image | **Contexte de la page** ou **ID produit** | La valeur par défaut est **Contexte de la page**. Si l’option **Contexte de la page** est sélectionnée, le module s’attend à ce que la page fournisse les informations sur l’ID produit. Si l’option **ID produit** est sélectionnée, l’ID produit d’une image doit être fourni comme valeur de la propriété **ID produit**. Cette fonctionnalité est disponible dans la version 10.0.12 de Commerce. |
 | ID produit | ID produit | Cette propriété n’est applicable que si la valeur de la propriété **Source de l’image** est **ID produit**. |
@@ -59,7 +59,7 @@ Dans l’exemple de l’illustration suivante, une zone d’achat sur une page d
 | Mettre à jour le média lors de la sélection des dimensions | **Vrai** ou **Faux** | Si cette propriété est définie sur **Vrai**, les images de la bibliothèque multimédia seront mises à jour lorsqu’une dimension (telle que la couleur, le style ou la taille) est sélectionnée et qu’une image est disponible. Cette propriété permet de simplifier l’expérience de navigation, car toutes les dimensions de variante de produit ne doivent pas être sélectionnées pour que l’image correspondante soit mise à jour. Cette propriété est disponible dans l’onglet **Avancé**. |
 
 > [!IMPORTANT]
-> La propriété **Mettre à jour le média lors de la sélection des dimensions** est disponible à partir de la version 10.0.21 de Commerce. Elle nécessite l'installation du package de bibliothèque du module Commerce version 9.31.
+> La propriété **Mettre à jour le média lors de la sélection des dimensions** est disponible à partir de la version 10.0.21 de Commerce. Elle nécessite l’installation du package de bibliothèque du module Commerce version 9.31.
 
 L’illustration suivante montre un exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles.
 
@@ -80,16 +80,19 @@ Pour ajouter un module Galerie multimédia à une page marketing, procédez comm
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle marketing**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Page par défaut**, puis cliquez sur **OK**.
 1. Dans l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle marketing**. Sous **Nom de la page**, entrez **Page de la galerie multimédia**, puis cliquez sur **OK**.
+1. Dans la boîte de dialogue **Créer une page**, sous **Nom de la page**, entrez **Page Galerie multimédia**, puis cliquez sur **Suivant**.
+1. Sous **Choisir un modèle**, sélectionnez le **Modèle marketing** que vous avez créé, puis sélectionnez **Suivant**.
+1. Sous **Choisir une mise en page**, sélectionnez une mise en page (par exemple, **Disposition flexible**), puis sélectionnez **Suivant**.
+1. Sous **Revoir et terminer**, vérifiez la configuration de la page. Si vous devez modifier les informations de la page, sélectionnez **Précédent**. Si les informations de la page sont correctes, sélectionnez **Créer une page**. 
 1. Dans l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Galerie de supports**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Galerie de supports**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés du module Galerie multimédia, sous **Source de l’image**, sélectionnez **Productid**. Puis, dans le champ **ID produit**, entrez un ID produit.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. Vous devriez pouvoir voir les images du produit dans une vue de galerie.
 1. Pour utiliser uniquement des images organisées, dans le volet des propriétés, sous **Source de l’image**, sélectionnez **Productid**. Puis, sous **Images**, sélectionnez **Ajouter une image** autant de fois que nécessaire pour ajouter des images à partir de la bibliothèque multimédia.

@@ -2,19 +2,19 @@
 title: Créer des catalogues Commerce pour les sites B2B
 description: Cette rubrique décrit comment créer des catalogues Commerce pour les sites interentreprises (B2B) dans Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656843"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782835"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Créer des catalogues Commerce pour les sites B2B
 
@@ -24,7 +24,7 @@ ms.locfileid: "8656843"
 Cette rubrique décrit comment créer des catalogues de produits Commerce pour les sites interentreprises (B2B) dans Microsoft Dynamics 365 Commerce. Pour obtenir des réponses aux questions fréquemment posées sur les catalogues Commerce pour les sites B2B, consultez [FAQ des Catalogues Commerce pour B2B](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Cette rubrique s’applique à Dynamics 365 Commerce version 10.0.26 et versions ultérieures.
+> Cette rubrique s’applique à Dynamics 365 Commerce version 10.0.27 et versions ultérieures.
 
 Vous pouvez utiliser les catalogues Commerce pour identifier les produits que vous souhaitez proposer dans vos magasins en ligne B2B. Quand vous créez un catalogue, identifiez les magasins en ligne dans lesquels les produits sont proposés, ajoutez les produits souhaités et améliorez les offres de produit en ajoutant des détails de vente. Vous pouvez créer plusieurs catalogues pour chaque magasin en ligne B2B.
 
@@ -42,7 +42,7 @@ Les catalogues de produits Commerce vous permettent de définir les informations
 - **Groupes de prix** – Vous pouvez configurer des prix et des promotions spécifiques à un catalogue donné. Cette capacité est une raison essentielle pour définir un catalogue pour un canal B2B. Les groupes de prix pour les catalogues permettent aux organisations de mettre des produits à la disposition de leurs organisations B2B prévues et d’appliquer leurs prix et remises préférés. Les clients B2B qui commandent à partir d’un catalogue configuré peuvent bénéficier de prix spéciaux et de promotions après s’être connectés à un site Commerce B2B. Pour configurer des prix spécifiques au catalogue, sélectionnez **Groupes de prix** sur l’onglet **Catalogues** pour associer un ou plusieurs groupes de prix au catalogue. Les accords commerciaux, les journaux d’ajustement de prix et les remises avancées associés au même groupe de prix sont appliqués quand les clients passent une commande à partir de ce catalogue. (Les remises avancées incluent les remises de seuil, de quantité et de combinaison.) Pour plus d’informations sur les groupes de prix, voir [Groupes de prix](price-management.md#price-groups).
 
 > [!NOTE]
-> Cette fonctionnalité est disponible à partir de la version 10.0.26 de Dynamics 365 Commerce. Pour configurer des configurations spécifiques au catalogue telles que la hiérarchie de navigation et la hiérarchie des clients, dans Commerce headquarters, ouvrez l’espace de travail **Gestion des fonctionnalités** (**Administration système \> Espaces de travail \> Gestion des fonctionnalités**), activez la fonctionnalité **Activer l’utilisation de plusieurs catalogues sur les canaux de vente au détail**, puis exécutez la tâche **1110 CDX**.
+> Cette fonctionnalité est disponible à partir de la version 10.0.27 de Dynamics 365 Commerce. Pour configurer des configurations spécifiques au catalogue telles que la hiérarchie de navigation et la hiérarchie des clients, dans Commerce headquarters, ouvrez l’espace de travail **Gestion des fonctionnalités** (**Administration système \> Espaces de travail \> Gestion des fonctionnalités**), activez la fonctionnalité **Activer l’utilisation de plusieurs catalogues sur les canaux de vente au détail**, puis exécutez la tâche **1110 CDX**.
 
 ## <a name="catalog-process-flow"></a>Flux de processus du catalogue
 

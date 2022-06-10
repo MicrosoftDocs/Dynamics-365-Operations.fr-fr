@@ -2,35 +2,32 @@
 title: Créer des pages e-commerce dynamiques basées sur des paramètres d’URL
 description: Cette rubrique décrit comment configurer une page d’e-commerce Microsoft Dynamics 365 Commerce pouvant diffuser du contenu dynamique, en fonction des paramètres d’URL.
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694338"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811029"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Créer des pages e-commerce dynamiques basées sur des paramètres d’URL
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique décrit comment configurer une page d’e-commerce Microsoft Dynamics 365 Commerce pouvant diffuser du contenu dynamique, en fonction des paramètres d’URL.
 
-Une page d’e-commerce peut être configurée pour diffuser un contenu différent, en fonction d’un segment dans le chemin de l’URL. Par conséquent, la page est appelée page dynamique. Le segment est utilisé comme paramètre pour récupérer le contenu de la page. Par exemple, une page nommée **blog\_observateur** est créée et associée à l’URL `https://fabrikam.com/blog`. Cette page peut ensuite être utilisée pour afficher un contenu différent, en fonction du dernier segment du chemin de l’URL. Par exemple, le dernier segment de l’URL `https://fabrikam.com/blog/article-1` est **article-1**.
+Une page d’e-commerce peut être configurée pour diffuser un contenu différent, en fonction d’un segment dans le chemin de l’URL. Par conséquent, la page est appelée page dynamique. Le segment est utilisé comme paramètre pour récupérer le contenu de la page. Par exemple, une page créée dans le générateur de site et nommée **blog\_observateur** est mappée à l’URL `https://fabrikam.com/blog`. Cette page peut ensuite être utilisée pour afficher un contenu différent, en fonction du dernier segment du chemin de l’URL. Par exemple, le dernier segment de l’URL `https://fabrikam.com/blog/article-1` est **article-1**.
 
-Des pages personnalisées distinctes qui remplacent la page dynamique peuvent également être associées à des segments dans le chemin de l’URL. Par exemple, une page nommée **blog\_résumé** est créée et associée à l’URL `https://fabrikam.com/blog/about-this-blog`. Lorsque cette URL est demandée, la page **blog\_résumé** associée au paramètre **/about-this-blog** est renvoyée à la place de la page **blog\_observateur**.
+Vous pouvez également remplacer un segment d’URL paramétré par une page de générateur de site. Par exemple, une page créée dans le générateur de site et nommée **blog\_résumé** est mappée à l’URL `https://fabrikam.com/blog/about-this-blog`. Quand l’URL `https://fabrikam.com/blog` est demandée avec le segment `/about-this-blog` à la fin, le contenu de la page **blog\_résumé** est renvoyé à la place du segment `/about-this-blog` qui est interprété comme un paramètre à utiliser par la page `https://fabrikam.com/blog`. 
+
+Lors de la sélection des noms des paramètres à transmettre à la page dynamique, le nom de la page dynamique tel qu’il apparaît dans l’URL (`/blog` dans l’exemple ci-dessus) ne peut pas être utilisé comme nom de paramètre ou sous-chaîne d’un nom de paramètre. 
 
 > [!NOTE]
 > La fonctionnalité d’hébergement, de récupération et d’affichage du contenu de page dynamique est implémentée à l’aide d’un module personnalisé. Pour plus d’informations, consultez [Extensibilité des canaux en ligne](e-commerce-extensibility/overview.md).
@@ -60,7 +57,7 @@ Pour configurer l’itinéraire vers la page dynamique dans le générateur de s
 1. Sous **Chemins d’URL paramétrés**, sélectionnez **Ajouter**, puis entrez le chemin de l’URL que vous avez entré lors de la création de l’URL (dans cet exemple, **/blog**).
 1. Sélectionnez **Enregistrer et publier**.
 
-Une fois l’itinéraire configuré, toutes les demandes adressées au chemin d’URL paramétré renverront la page associée à cette URL. Si des demandes contiennent un segment supplémentaire, la page associée sera renvoyée et le contenu de la page sera récupéré en utilisant le segment comme paramètre. Par exemple, `https://fabrikam.com/blog/article-1` retournera la page **blog\_résumé**, et le contenu de la page sera récupéré en utilisant le paramètre **/article-1**.
+Une fois l’itinéraire configuré, toutes les demandes adressées au chemin d’URL paramétré renverront la page associée à cette URL. Si des demandes contiennent un segment supplémentaire, la page associée sera renvoyée et le contenu de la page sera récupéré en utilisant le segment comme paramètre. Par exemple, `https://fabrikam.com/blog/article-1` retournera la page `https://fabrikam.com/blog` affichant le contenu récupéré en utilisant le paramètre **/article-1**.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Remplacer une URL paramétrée par une page personnalisée
 

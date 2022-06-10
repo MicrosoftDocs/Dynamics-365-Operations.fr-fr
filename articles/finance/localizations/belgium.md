@@ -2,7 +2,7 @@
 title: Vue d’ensemble spécifique à la Belgique
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité spécifique à la Belgique.
 author: anasyash
-ms.date: 10/27/2021
+ms.date: 05/27/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: belgium
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0b6672e447a2eb223f3608c5784015fbece18b15
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8888e2728b8123092355633934983ec1345e78d8
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985642"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809519"
 ---
 # <a name="belgium-overview"></a>Vue d’ensemble spécifique à la Belgique
 
@@ -31,7 +31,14 @@ CODA est un format d’état qui est utilisé dans le système bancaire électro
 ## <a name="export-ledger-transactions"></a>Exporter les écritures comptables
 Vous pouvez exporter des écritures comptables pour un intervalle spécifique, tel qu’un exercice, sous forme de fichier ASCII au format CED. Vous pouvez utiliser le traitement par lots pour exporter des transactions. Pour paramétrer le processus de traitement par lots, accédez à **Comptabilité** > **Périodique** > **Exporter les écritures comptables**. Pour plus d’informations, voir [Exporter les écritures comptables](emea-bel-export-ledger-transactions.md).
 
+## <a name="vat-declaration"></a>Déclaration de TVA
+Pour plus d’informations sur la configuration et l’utilisation d’une nouvelle déclaration de TVA en Belgique, consultez [Déclaration de TVA (Belgique)](emea-bel-vat-declaration-belgium.md).
+
 ## <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
+
+> [!NOTE]
+> Cette fonctionnalité a été remplacée par la fonctionnalité de déclaration de TVA. Pour plus d’informations, voir [Déclaration de TVA (Belgique)](emea-bel-vat-declaration-belgium.md).
+
 Pour plus d’informations sur la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement, voir [Déclaration de taxe INTERVAT](emea-bel-intervat-tax-declaration.md). Pour plus d’informations sur les états standard qui peuvent vous aider avec la déclaration de taxe INTERVAT et l’analyse de rapprochement, voir [États de rapprochement pour la Belgique](emea-bel-reconciliation-reports.md).
 
 ## <a name="reports-for-belgium"></a>États pour la Belgique
@@ -43,6 +50,7 @@ Pour plus d’informations sur la configuration et la création de la déclarati
 |États sur les journaux|**Comptabilité** > **Recherches et états** > **États sur les journaux**|Périodiquement, les entreprises belges doivent imprimer un état pour chaque journal. Cet état fournit une liste chronologique de toutes les écritures dans les comptes de la comptabilité pour chaque journal. Ces rapports prouvent l’intégrité de la comptabilité et sont utilisés lors des audits financiers pour rapprocher le règlement de la TVA avec les écritures sur les comptes correspondants de la comptabilité. Pour plus d’informations, voir [États des journaux (Journaux de validation)](emea-bel-journal-reports.md). |
 |Liste annuelle de TVA des ventes intérieures| **Taxe** > **Recherche et états** > **États de taxe** > **État du chiffre d’affaires des factures – Belgique** | L’état du chiffre d’affaires des factures est envoyé aux autorités une fois par an. Il est utilisé pour déclarer le chiffre d’affaires des clients belges assujettis à la TVA, si ce chiffre d’affaires dépasse un certain montant. L’état comprend les factures des transactions des clients pour lesquelles les clients ont un numéro d’entreprise formaté conformément aux directives des autorités belges. Pour plus d’informations, voir [Liste annuelle de TVA des ventes intérieures](emea-bel-annual-vat-listing-of-domestic-sales.md). |
 |Déclaration d’échanges de biens, Belgique|  **Taxes** > **Déclarations** > **Commerce extérieur** > **Déclaration d’échanges de biens** | Vous pouvez utiliser la page **Déclaration d’échanges de biens** pour générer et rapporter des informations sur le commerce entre pays/régions de l’Union européenne. La déclaration d’échanges de biens belge contient des informations sur le commerce de biens à déclarer. Pour plus d’informations, voir [Déclaration d’échanges de biens, Belgique](emea-bel-intrastat.md). |
+|Liste des ventes intracommunautaires pour la Belgique|  **Taxe** > **Déclarations** > **Commerce extérieur** > **Liste des ventes intracommunautaires** | Vous pouvez utiliser la page **Liste des ventes intracommunautaires** pour générer et rapporter des informations sur la vente de biens et services pour les rapports au format XML. Pour plus d’informations, voir [Liste des ventes intracommunautaires pour la Belgique](emea-bel-eu-sales-list.md). |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

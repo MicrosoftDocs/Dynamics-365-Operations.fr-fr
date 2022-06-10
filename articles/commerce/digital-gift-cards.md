@@ -2,7 +2,7 @@
 title: Cartes-cadeaux numériques e-commerce
 description: Cette rubrique décrit le fonctionnement des cartes-cadeaux numériques dans la mise en œuvre du e-commerce de Microsoft Dynamics 365 Commerce. Elle fournit également un aperçu des étapes de configuration importantes.
 author: anupamar-ms
-ms.date: 12/15/2020
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727555"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809585"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Cartes-cadeaux numériques e-commerce
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique décrit le fonctionnement des cartes-cadeaux numériques dans la mise en œuvre du e-commerce de Microsoft Dynamics 365 Commerce. Elle fournit également un aperçu des étapes de configuration importantes.
 
@@ -51,16 +50,19 @@ Les produits des cartes-cadeaux numériques doivent être configurés dans Comme
 
     ![Champ Produit de la carte cadeau dans Commerce Headquarters.](./media/PostGiftcard.png)
 
-- Si une carte-cadeau doit prendre en charge plusieurs montants prédéfinis (par exemple, 25 $, 50 $ et 100 $), la dimension **Taille** doit être utilisée pour définir ces montants prédéfinis. Chaque montant prédéfini sera une variante. Pour plus d’informations, voir [Dimensions de produit](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
-- Si les clients doivent pouvoir spécifier un montant personnalisé pour une carte-cadeau, commencez par configurer une variante qui autorise un montant personnalisé. Ensuite, ouvrez le produit à partir de la page **Produits lancés dans la catégorie**, puis sur le raccourci **Commerce**, définissez le champ **Entrer un prix** sur **Obligation d’entrer un nouveau prix**, comme indiqué dans l’illustration suivante. Ce paramètre garantit que les clients peuvent entrer un prix lorsqu’ils parcourent le produit sur une PDP.
+- Si une carte-cadeau doit prendre en charge plusieurs montants prédéfinis (par exemple, 25 $, 50 $ et 100 $), la dimension **Taille** doit être utilisée pour définir ces montants prédéfinis. Chaque montant prédéfini sera une variante de produit. Pour plus d’informations, voir [Dimensions de produit](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
+- Si les clients doivent pouvoir spécifier un montant personnalisé pour une carte-cadeau en plus des montants prédéfinis, commencez par configurer une variante qui autorise un montant personnalisé. L’attribut **Taille** prend en charge les variantes de montant personnalisées. Ensuite, ouvrez le produit à partir de la page **Produits lancés dans la catégorie**, puis sur le raccourci **Commerce**, définissez le champ **Entrer un prix** sur **Obligation d’entrer un nouveau prix**, comme indiqué dans l’exemple suivant. Ce paramètre garantit que les clients peuvent entrer un prix lorsqu’ils parcourent le produit sur une PDP.
 
     ![Champ Entrer un prix dans Commerce Headquarters.](./media/KeyInPrice.png)
+    
+    L’exemple suivant montre une liste de variantes de produits de cartes-cadeaux numériques dans Commerce Headquarters, y compris deux variantes de prix personnalisées.
+    ![Variantes de produit de carte-cadeau numérique avec exemple de variante de prix personnalisé](./media/DigitalGiftCards_ProductVariantsWithCustom.png)
 
 - Le mode de livraison d’une carte-cadeau numérique doit être défini sur **Électronique**. Sur la page **Modes de livraison** (**Commerce et vente au détail \> Paramétrage du canal \> Modes de livraison**), sélectionnez le mode de livraison **Électronique** dans le volet de liste, puis ajoutez le produit de la carte-cadeau numérique à la grille du raccourci **Produits**, comme indiqué dans l’illustration suivante. Pour plus d’informations, voir [Paramétrer des modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Produits de cartes-cadeaux numériques sur la page Mode de livraison dans Commerce Headquarters.](./media/ElectronicMode.PNG)
-
-- Assurez-vous qu’un profil de fonctionnalité en ligne a été créé et est associé à votre magasin en ligne dans Commerce headquarters. Dans le profil de fonctionnalité, définissez l’option **Produits agrégés** sur **Oui**. Ce paramètre garantit que tous les articles, à l’exception des cartes-cadeaux, sont regroupés. Pour plus d’informations, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
+    
+- Assurez-vous qu’un profil de fonctionnalité en ligne a été créé et est associé à votre magasin en ligne dans Commerce Headquarters. Dans le profil de fonctionnalité, définissez l’option **Produits agrégés** sur **Oui**. Ce paramètre garantit que tous les articles, à l’exception des cartes-cadeaux, sont regroupés. Pour plus d’informations, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
 - Pour vous assurer que les clients reçoivent un e-mail après la facturation d’une carte-cadeau, créez un nouveau type de notification par e-mail sur la page **Profils de notification par e-mail** et définissez le champ **Type de notification par e-mail** sur **Émettre une carte-cadeau**. Pour plus d’informations, voir [Configurer un profil de notification par e-mail](email-notification-profiles.md).
 
 ## <a name="add-product-images-to-the-commerce-site-builder-media-library"></a>Ajouter des images de produits à la médiathèque du générateur de site Commerce

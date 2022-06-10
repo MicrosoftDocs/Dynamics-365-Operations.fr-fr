@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524463"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786863"
 ---
 # <a name="inventory-visibility-public-apis"></a>API publiques de visibilité des stocks
 
@@ -41,17 +41,22 @@ Le tableau suivant répertorie les API actuellement disponibles :
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Valider | [Définir/remplacer les quantités de stock disponible](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Valider | [Créer un événement de réservation](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Valider | [Créer plusieurs événements de réservation](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | Valider | [Créer un changement planifié du stock disponible](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Valider | [Créer plusieurs changements planifiés du stock disponible](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | Valider | [Créer un changement planifié du stock disponible](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Valider | [Créer plusieurs changements planifiés du stock disponible](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Valider | [Interroger en utilisant la méthode post](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Obtenir | [Interroger en utilisant la méthode get](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | Valider | [Créer un événement d’affectation](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | Valider | [Créer un événement de non affectation](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | Valider | [Créer un événement de réaffectation](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | Valider | [Créer un événement de consommation](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | Valider | [Résultat d’allocation de requête](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > La partie {environmentId} du chemin d’accès est l’ID d’environnement dans Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > L’API en masse peut renvoyer un maximum de 512 enregistrements pour chaque requête.
 
-Microsoft a fourni une collection de requêtes *Postman* prêtes à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoft a fourni une collection de requêtes *Postman* prêtes à l’emploi. Vous pouvez importer cette collection dans votre logiciel *Postman* en utilisant le lien partagé suivant : <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rechercher le point de terminaison en fonction de votre environnement Lifecycle Services
 
@@ -539,7 +544,7 @@ L’exemple suivant montre un exemple de contenu du corps.
 }
 ```
 
-Les exemples suivants montrent comment interroger tous les produits d’un site et d’un emplacement spécifiques.
+L’exemple suivant montre comment interroger tous les produits d’un site et d’un emplacement spécifiques.
 
 ```json
 {
@@ -580,6 +585,10 @@ Voici un exemple d’URL pour get. Cette requête get est exactement la même qu
 
 ## <a name="available-to-promise"></a>Disponible à la vente
 
-Vous pouvez configurer la Visibilité des stocks pour vous permettre de planifier les futurs changements de stock et de calculer les quantités DAV. Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation du calcul de la DAV peut augmenter considérablement votre capacité de traitement des commandes. Pour plus d’informations sur l’activation de cette fonctionnalité et sur l’interaction avec la Visibilité des stocks via son API une fois la fonctionnalité activée, consultez [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md).
+Vous pouvez configurer la Visibilité des stocks pour vous permettre de planifier les futurs changements de stock et de calculer les quantités DAV. Le DAV correspond à la quantité d’un article qui est disponible et peut être promise à un client dans le courant d’une période à venir. L’utilisation du calcul de la DAV peut augmenter considérablement votre capacité de traitement des commandes. Pour plus d’informations sur l’activation de cette fonctionnalité et sur l’interaction avec la Visibilité des stocks via son API une fois la fonctionnalité activée, consultez [Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Allocation
+
+Les API liées à l’allocation sont situées dans [Allocation de la visibilité des stocks](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

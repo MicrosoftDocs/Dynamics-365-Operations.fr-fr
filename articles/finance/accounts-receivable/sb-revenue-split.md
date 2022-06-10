@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660453"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770152"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Modèles de répartition des produits dans Facturation de l’abonnement
 
@@ -99,3 +99,54 @@ Pour créer un échéancier de facturation comportant un article configuré pour
 > - Les articles enfants sont automatiquement renseignés sur la ligne de commande client ou d’échéancier de facturation.
 >
 > Si l’option **Créer automatiquement un fractionnement de produit** est définie sur **Non**, le comportement est comme expliqué précédemment.
+
+## <a name="additional-revenue-split-information"></a>Informations supplémentaires sur la répartition des revenus
+
+Lorsque vous ajoutez un article faisant partie d’une répartition des revenus, notez les informations suivantes : 
+
+- Le montant parental ne peut pas être reporté.
+- La date de début, la date de fin, la quantité, l’unité, le site et les valeurs d’entrepôt des articles enfants sont basées sur l’article parent. Ces valeurs ne peuvent pas être modifiées pour les articles enfants. Toutes les modifications doivent être apportées à l’article parent. 
+- La méthode de tarification est **Forfaitaire** et ne peut pas être modifiée.
+- Les articles enfants peuvent être ajoutés ou supprimés.
+- Les articles parent et enfant doivent utiliser le même groupe d’articles. 
+- Les articles enfants peuvent avoir l’une des configurations suivantes :
+
+    - Les champs **Fréquence de facturation** et **Intervalles de facturation** sont définis sur la même valeur que l’article parent. 
+    - Le champ **Fréquence de facturation** est défini sur **Une fois**. Dans ce cas, le champ **Intervalles de facturation** est automatiquement défini sur **1**. 
+
+- La somme des montants nets des articles enfants est égale au montant parent. Si la méthode d’attribution est **Montants nuls**, la somme des montants de l’article enfant et du montant parent est égale à 0 (zéro). 
+
+    > [!NOTE]
+    > Si la méthode d’attribution est **Zéro montant parental**, la somme (non nulle) des articles enfants n’est pas égale au montant parent, qui est 0 (zéro). Cette méthode de répartition est utilisée à des fins internes, afin que les employés puissent voir les articles enfants. Cependant, les clients ne peuvent voir que l’article parent.
+
+- Si le type de disposition à articles multiples (MEA) de la commande client est **Seul**, la ligne de transaction de répartition des revenus à articles multiples correspondante est créée lorsque les articles parent et enfant sont ajoutés. 
+- Si la méthode de répartition pour une répartition des revenus est **Montants égaux**, et que le montant parent est modifié, les montants sont recalculés pour toutes les lignes enfants. 
+- Pour une répartition des revenus où la méthode de répartition est **Montant variable**, le comportement suivant se produit :
+
+    - Le montant net de l’article parent apparaît dans la colonne **Montant parental**. Cette valeur peut être modifiée. Cependant, le prix unitaire, le montant net et la remise sont 0 (zéro) et ne peuvent pas être modifiés.
+    - Le prix unitaire des articles enfants est 0 (zéro). Vous pouvez modifier le prix unitaire ou le montant net. Lorsque vous modifiez une valeur, l’autre valeur est automatiquement mise à jour.
+
+- Pour une répartition des revenus où la méthode de répartition est **Pourcentage**, le comportement suivant se produit :
+
+    - Le montant net de l’article parent apparaît dans la colonne **Montant parental**. Cette valeur peut être modifiée. Cependant, le prix unitaire, le montant net et la remise sont 0 (zéro) et ne peuvent pas être modifiés. 
+    - Le montant net des articles enfants est calculé comme suit : *Pourcentage* &times; *Montant parental*.
+
+- Pour une répartition des revenus où la méthode de répartition est **Montant égal**, le comportement suivant se produit :
+
+    - Le montant net de l’article parent apparaît dans la colonne **Montant parental**. Cette valeur peut être modifiée. Cependant, le prix unitaire, le montant net et la remise sont 0 (zéro) et ne peuvent pas être modifiés. 
+    - Le montant net des articles enfants est calculé en divisant le montant parent de manière égale entre tous les articles enfants. 
+    - Si des articles enfants sont supprimés ou ajoutés, le montant net et les prix unitaires sont recalculés afin que toutes les lignes enfants aient des montants égaux. 
+    - Si le montant parent ne peut pas être divisé en parts égales, le montant net et le prix unitaire du dernier article enfant peuvent être légèrement supérieurs ou inférieurs au montant net et au prix unitaire des autres articles enfants. 
+
+- Pour une répartition des revenus où la méthode de répartition est **Montant nul**, le comportement suivant se produit :
+
+    - Le prix unitaire, le montant net et la remise peuvent être modifiés. Le montant parent est 0 (zéro) et ne peut pas être modifié. 
+    - La quantité, l’unité, le site et les valeurs d’entrepôt des articles enfants sont basés sur l’article parent. Vous ne pouvez pas modifier ces valeurs pour les articles enfants. Toutes les modifications doivent être apportées à l’article parent. 
+    - Le prix unitaire et le prix net des articles enfants sont 0 (zéro) et ne peuvent pas être modifiés. 
+
+- Pour une répartition des revenus où la méthode de répartition est **Montant parent nul**, le comportement suivant se produit :
+
+    - Le prix unitaire, le montant parent et le montant net de l’article parent sont 0 (zéro).
+    - Dans un échéancier de facturation, les lignes enfants apparaissent comme si elles avaient été ajoutées manuellement et toutes les valeurs sont mises à jour en fonction du groupe d’échéanciers de facturation sélectionné. Ces valeurs ne peuvent pas être modifiées. Pour les articles enfants, vous pouvez accéder à l’option **Escalade et remise** et **Tarification avancée** en utilisant les champs **Quantité saisie**, **Prix unitaire**, **Remise** et **Montant net** dans **Afficher les détails de facturation**. 
+    - Sur une commande client, les lignes enfants ont une remise et un pourcentage de remise de 0 (zéro). 
+    - La fréquence de facturation des articles parent et enfant peut être modifiée, et chaque ligne peut avoir une fréquence différente. Cependant, l’article parent est automatiquement mis à jour afin qu’il utilise la fréquence la plus courte parmi ses lignes enfants. Par exemple, une répartition des revenus comporte deux articles enfants, dont l’un utilise la fréquence de facturation **Mensuelle** et dont l’autre utilise la fréquence de facturation **Annuelle**. Dans ce cas, la fréquence de facturation de l’article parent est mise à jour sur **Mensuelle**.

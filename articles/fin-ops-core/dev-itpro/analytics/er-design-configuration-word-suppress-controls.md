@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323923"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782174"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Supprimer les contrôles de contenu Word dans les rapports générés
 
@@ -26,7 +26,7 @@ ms.locfileid: "8323923"
 
 Pour générer des états en tant que documents Microsoft Word, vous devez concevoir un modèle pour les états sous forme de document Word. Ce modèle doit contenir des contrôles de contenu Word en tant qu’espaces réservés pour les données qui seront renseignées au moment de l’exécution. Pour utiliser le document Word créé comme modèle pour vos états, vous pouvez [configurer](er-design-configuration-word.md) une nouvelle [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md). La solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de gestion des états électroniques qui contient un composant de format de gestion des états électroniques. Ce format ER doit être configuré pour utiliser le modèle conçu pour la génération d’états.
 
-Dans la version 10.0.6 et les versions ultérieures de Dynamics 365 Finance, vous pouvez configurer des formules dans votre format ER pour supprimer certains contrôles de contenu Word dans les documents générés.
+Dans la version 10.0.6 et ultérieures de Dynamics 365 Finance, vous pouvez configurer des formules dans votre format ER pour supprimer certains contrôles de contenu Word dans les documents générés.
 
 Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de consultant fonctionnel des états électroniques peut configurer un format ER qui génère des états sous forme de fichiers Word et supprime certains des contrôles de contenu dans les rapports générés qui ont été configurés à l’aide d’un modèle Word.
 
@@ -47,7 +47,7 @@ Lorsque vous avez terminé les étapes de ces guides de tâches, les éléments 
 
 Vous devez également télécharger et enregistrer le modèle suivant pour l’exemple d’état :
 
-- [Modèle lié 2 d’état de paiement (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Modèle lié 2 d’état de paiement (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>Consulter le modèle Word téléchargé
 
@@ -69,7 +69,7 @@ Vous devez également télécharger et enregistrer le modèle suivant pour l’e
 
 Pour les étapes suivantes, vous réutiliserez la configuration ER existante que vous avez configurée lorsque vous avez effectué les étapes des guides de tâches mentionnés précédemment.
 
-1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **Gestion des états électroniques**.
 2. Sélectionnez **Configurations des états**.
 3. Sur la page **Configurations**, dans l’arborescence de configuration, développez **Modèle de paiement**, puis sélectionnez **Exemple d’état sur les feuilles de calcul**.
 4. Sélectionnez **Concepteur** pour modifier la version brouillon du format ER sélectionné.

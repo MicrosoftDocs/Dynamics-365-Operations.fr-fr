@@ -2,7 +2,7 @@
 title: Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks
 description: Cette rubrique décrit comment planifier les futurs changements de stock disponible et calculer les quantités disponibles à la vente (DAV).
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525882"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763251"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Plannings de changement du stock disponible et disponibilité à la vente de la Visibilité des stocks
 
@@ -32,9 +32,12 @@ Avant de pouvoir utiliser la DAV, vous devez paramétrer une ou plusieurs mesure
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>Configurer les mesures calculées pour les quantités DAV
 
-La *Mesure DAV calculée* est une mesure calculée prédéfinie qui est généralement utilisée pour trouver la quantité actuellement disponible. La somme des quantités de ses modificateurs d’addition est la quantité d’offre et la somme des quantités de ses modificateurs de soustraction est la quantité de demande.
+La *Mesure DAV calculée* est une mesure calculée prédéfinie qui est généralement utilisée pour trouver la quantité actuellement disponible. La *quantité d’approvisionnement* est la somme des quantités pour les mesures physiques qui ont un type de modificateur *addition*, et la *quantité demandée* est la somme des quantités pour les mesures physiques qui ont un type de modificateur *soustraction*.
 
-Vous pouvez ajouter plusieurs mesures calculées pour calculer les quantités DAV. Cependant, le nombre total des modificateurs pour toutes les mesures calculées de la DAV doit être inférieur à neuf.
+Vous pouvez ajouter plusieurs mesures calculées pour calculer plusieurs quantités DAV. Cependant, le nombre total de mesures physiques distinctes pour toutes les mesures calculées DAV doit être inférieur à neuf.
+
+> [!IMPORTANT]
+> Une mesure calculée est une composition de mesures physiques. Sa formule ne peut inclure que des mesures physiques sans doublons, et non des mesures calculées.
 
 Par exemple, vous pouvez définir la mesure calculée suivante :
 
@@ -43,6 +46,12 @@ Par exemple, vous pouvez définir la mesure calculée suivante :
 La somme (*StockPhysique* + *Disponible* + *Illimité* + *InspectionQualité* + *Entrant*) représente l’offre, et la somme (*RéservPhysique* + *RéservPhysiqueProv* + *Sortant*) représente la demande. Par conséquent, la mesure calculée peut être comprise de la manière suivante :
 
 **Disponible immédiatement** = *Offre* – *Demande*
+
+Vous pouvez ajouter une autre mesure calculée pour calculer la quantité DAV **Disponible-physique**.
+
+**On-hand-physical** = (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*Outbound*)
+
+Il existe huit mesures physiques distinctes dans ces deux mesures calculées DAV : *PhysicalInvent*, *OnHand*, *Unrestricted*, *QualityInspection*, *Inbound*, *ReservPhysical*, *SoftReservePhysical* et *Outbound*.
 
 Pour plus d’informations sur les mesures calculées, voir [Mesures calculées](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ Par exemple, vous passez une commande de 10 vélos et vous vous attendez à ce 
 
 Lorsque vous interrogez la Visibilité du stock pour connaître les quantités en stock et DAV, les informations suivantes sont renvoyées pour chaque jour de la période de planification :
 
-- **Date** – La date à laquelle le résultat s’applique.
+- **Date** – La date à laquelle le résultat s’applique. Le fuseau horaire est le temps universel coordonné (UTC).
 - **Quantité disponible immédiatement** – La quantité disponible réelle en stock pour la date spécifiée. Ce calcul est effectué en fonction de la mesure DAV calculée qui est configurée pour la Visibilité du stock.
 - **Offre planifiée** – La somme de toutes les quantités entrantes planifiées qui ne sont pas devenues physiquement disponibles pour une consommation ou une expédition immédiate à la date spécifiée.
 - **Demande planifiée** – La somme de toutes les quantités sortantes planifiées qui n’ont pas été consommées ou expédiées à la date spécifiée.
@@ -108,79 +117,79 @@ Les résultats de cet exemple montrent une valeur *stock disponible projeté*. C
 
     | Date | Disponible | Offre planifiée | Demande planifiée | Stock disponible projeté | DAV |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 20 | | 3 | 17 | 17 |
-    | 02/02/2022 | 20 | | | 17 | 17 |
-    | 03/02/2022 | 20 | | | 17 | 17 |
-    | 04/02/2022 | 20 | | | 17 | 17 |
-    | 05/02/2022 | 20 | | | 17 | 17 |
-    | 06/02/2022 | 20 | | | 17 | 17 |
-    | 07/02/2022 | 20 | | | 17 | 17 |
+    | 01-02-2022 | 20 | | 3 | 17 | 17 |
+    | 02-02-2022 | 20 | | | 17 | 17 |
+    | 03-02-2022 | 20 | | | 17 | 17 |
+    | 04-02-2022 | 20 | | | 17 | 17 |
+    | 05-02-2022 | 20 | | | 17 | 17 |
+    | 06-02-2022 | 20 | | | 17 | 17 |
+    | 07-02-2022 | 20 | | | 17 | 17 |
 
 1. À la date actuelle (1er février 2022), vous soumettez une quantité d’approvisionnement planifié de 10 pour le 3 février 2022. Le tableau suivant présente le résultat.
 
     | Date | Disponible | Offre planifiée | Demande planifiée | Stock disponible projeté | DAV |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 20 | | 3 | 17 | 17 |
-    | 02/02/2022 | 20 | | | 17 | 17 |
-    | 03/02/2022 | 20 | 10 | | 27 | 27 |
-    | 04/02/2022 | 20 | | | 27 | 27 |
-    | 05/02/2022 | 20 | | | 27 | 27 |
-    | 06/02/2022 | 20 | | | 27 | 27 |
-    | 07/02/2022 | 20 | | | 27 | 27 |
+    | 01-02-2022 | 20 | | 3 | 17 | 17 |
+    | 02-02-2022 | 20 | | | 17 | 17 |
+    | 03-02-2022 | 20 | 10 | | 27 | 27 |
+    | 04-02-2022 | 20 | | | 27 | 27 |
+    | 05-02-2022 | 20 | | | 27 | 27 |
+    | 06-02-2022 | 20 | | | 27 | 27 |
+    | 07-02-2022 | 20 | | | 27 | 27 |
 
 1. À la date actuelle (1er février 2022), vous soumettez les changements de quantité planifiés suivants :
 
     - Quantité demandée de 15 pour le 4 février 2022
     - Quantité fournie de 1 pour le 5 février 2022
-    - Quantité demandée de 3 pour le 6 février 2022
+    - Quantité fournie de 3 pour le 6 février 2022
 
     Le tableau suivant présente le résultat.
 
     | Date | Disponible | Offre planifiée | Demande planifiée | Stock disponible projeté | DAV |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 20 | | 3 | 17 | 12 |
-    | 02/02/2022 | 20 | | | 17 | 12 |
-    | 03/02/2022 | 20 | 10 | | 27 | 12 |
-    | 04/02/2022 | 20 | | 15 | 12 | 12 |
-    | 05/02/2022 | 20 | 1 | | 13 | 13 |
-    | 06/02/2022 | 20 | 3 | | 16 | 16 |
-    | 07/02/2022 | 20 | | | 16 | 16 |
+    | 01-02-2022 | 20 | | 3 | 17 | 12 |
+    | 02-02-2022 | 20 | | | 17 | 12 |
+    | 03-02-2022 | 20 | 10 | | 27 | 12 |
+    | 04-02-2022 | 20 | | 15 | 12 | 12 |
+    | 05-02-2022 | 20 | 1 | | 13 | 13 |
+    | 06-02-2022 | 20 | 3 | | 16 | 16 |
+    | 07-02-2022 | 20 | | | 16 | 16 |
 
 1. À la date actuelle (1er février 2022), vous expédiez la quantité demandée planifiée de 3. Par conséquent, vous devez valider ce changement afin qu’il se reflète dans votre quantité en stock réelle. Pour valider le changement, vous soumettez un événement de changement du stock disponible dont la quantité sortante est de 3. Vous annulez ensuite le changement planifié en soumettant un programme de changement du stock disponible ayant une quantité sortante de -3. Le tableau suivant présente le résultat.
 
     | Date | Disponible | Offre planifiée | Demande planifiée | Stock disponible projeté | DAV |
     | --- | --- | --- | --- | --- | --- |
-    | 01/02/2022 | 17 | | 0 | 17 | 12 |
-    | 02/02/2022 | 17 | | | 17 | 12 |
-    | 03/02/2022 | 17 | 10 | | 27 | 12 |
-    | 04/02/2022 | 17 | | 15 | 12 | 12 |
-    | 05/02/2022 | 17 | 1 | | 13 | 13 |
-    | 06/02/2022 | 17 | 3 | | 16 | 16 |
-    | 07/02/2022 | 17 | | | 16 | 16 |
+    | 01-02-2022 | 17 | | 0 | 17 | 12 |
+    | 02-02-2022 | 17 | | | 17 | 12 |
+    | 03-02-2022 | 17 | 10 | | 27 | 12 |
+    | 04-02-2022 | 17 | | 15 | 12 | 12 |
+    | 05-02-2022 | 17 | 1 | | 13 | 13 |
+    | 06-02-2022 | 17 | 3 | | 16 | 16 |
+    | 07-02-2022 | 17 | | | 16 | 16 |
 
 1. Le jour suivant (2 février 2022), la période de planification avance d’un jour. Le tableau suivant présente le résultat.
 
     | Date | Disponible | Offre planifiée | Demande planifiée | Stock disponible projeté | DAV |
     | --- | --- | --- | --- | --- | --- |
-    | 02/02/2022 | 17 | | | 17 | 12 |
-    | 03/02/2022 | 17 | 10 | | 27 | 12 |
-    | 04/02/2022 | 17 | | 15 | 12 | 12 |
-    | 05/02/2022 | 17 | 1 | | 13 | 13 |
-    | 06/02/2022 | 17 | 3 | | 16 | 16 |
-    | 07/02/2022 | 17 | | | 16 | 16 |
-    | 08/02/2022 | 17 | | | 16 | 16 |
+    | 02-02-2022 | 17 | | | 17 | 12 |
+    | 03-02-2022 | 17 | 10 | | 27 | 12 |
+    | 04-02-2022 | 17 | | 15 | 12 | 12 |
+    | 05-02-2022 | 17 | 1 | | 13 | 13 |
+    | 06-02-2022 | 17 | 3 | | 16 | 16 |
+    | 07-02-2022 | 17 | | | 16 | 16 |
+    | 08-02-2022 | 17 | | | 16 | 16 |
 
 1. Cependant, deux jours plus tard (le 4 février 2022), la quantité d’approvisionnement de 10 qui était prévue pour le 3 février n’est toujours pas arrivée. Le tableau suivant présente le résultat.
 
     | Date | Disponible | Offre planifiée | Demande planifiée | Stock disponible projeté | DAV |
     | --- | --- | --- | --- | --- | --- |
-    | 04/02/2022 | 17 | | 15 | 2 | 2 |
-    | 05/02/2022 | 17 | 1 | | 3 | 3 |
-    | 06/02/2022 | 17 | 3 | | 6 | 6 |
-    | 07/02/2022 | 17 | | | 6 | 6 |
-    | 08/02/2022 | 17 | | | 6 | 6 |
-    | 09/02/2022 | 17 | | | 6 | 6 |
-    | 10/02/2022 | 17 | | | 6 | 6 |
+    | 04-02-2022 | 17 | | 15 | 2 | 2 |
+    | 05-02-2022 | 17 | 1 | | 3 | 3 |
+    | 06-02-2022 | 17 | 3 | | 6 | 6 |
+    | 07-02-2022 | 17 | | | 6 | 6 |
+    | 08-02-2022 | 17 | | | 6 | 6 |
+    | 09-02-2022 | 17 | | | 6 | 6 |
+    | 10-02-2022 | 17 | | | 6 | 6 |
 
     Comme vous le voyez, les changements planifiés (mais non validés) du stock disponible n’affectent pas la quantité de stock disponible réelle.
 
@@ -190,8 +199,8 @@ Vous pouvez utiliser les URL d’interface de programmation d’application (API
 
 | Chemin d’accès | méthode | Description |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Créer un changement planifié du stock disponible. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Créer plusieurs changements planifiés du stock disponible. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Créer un changement planifié du stock disponible. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Créer plusieurs changements planifiés du stock disponible. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Créer un événement de changement de stock disponible. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Créer plusieurs événements de changement. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Requête à l’aide de la méthode `POST`. |
@@ -199,31 +208,46 @@ Vous pouvez utiliser les URL d’interface de programmation d’application (API
 
 Pour plus d’informations, voir [API publiques de la Visibilité des stocks](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>Soumettre les plannings de changement du stock disponible
+### <a name="create-one-on-hand-change-schedule"></a>Créer un changement planifié du stock disponible
 
-Les plannings de changement du stock disponible sont effectués en soumettant une requête `POST` à l’URL du service Visibilité du stock concerné (voir la section [Soumettre des plannings de changement, des événements de changement et des requêtes DAV via l’API](#api-urls)). Vous pouvez également soumettre des requêtes en masse.
+Un programme de changement du stock disponible est créé en soumettant une requête `POST` à l’URL du service Visibilité des stocks concerné (voir la section [Soumettre des plannings de changement, des événements de changement et des requêtes DAV via l’API](#api-urls)). Vous pouvez également soumettre des requêtes en masse.
 
-Pour soumettre un planning de changement de stock disponible, le corps de la requête doit contenir un ID d’organisation, un ID de produit, une date planifiée et des quantités par date. La date planifiée doit être comprise entre la date actuelle et la fin de la période de planification actuelle.
+Un programme de modification disponible ne peut être créé que si la date planifiée est comprise entre la date actuelle et la fin de la période de planification actuelle. Le format date/heure doit être *jour-mois-année* (par exemple, **01-02-2022**). Le format de l’heure doit être précis uniquement au jour près.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Exemple de corps de requête contenant une seule mise à jour
+Cette API crée un seul programme de modification de stock disponible.
 
-L’exemple suivant présente un corps de requête contenant une seule mise à jour.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+L’exemple suivant montre un exemple de contenu du corps sans `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Exemple de corps de requête contenant plusieurs mises à jour (en masse)
+### <a name="create-multiple-on-hand-change-schedules"></a>Créer plusieurs programmes de changement disponibles
 
-L’exemple suivant présente un corps de requête contenant plusieurs mises à jour (en masse).
+Cette API peut créer plusieurs enregistrements en même temps. Les seules différences entre cette API et l’API d’événement unique sont les valeurs `Path` et `Body`. Pour cette API, `Body` fournit un tableau d’enregistrements. Le nombre maximal d’enregistrements est de 512. Par conséquent, l’API en bloc de planification des modifications disponibles peut prendre en charge jusqu’à 512 modifications planifiées à la fois.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+L’exemple suivant montre un exemple de contenu du corps.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Soumettre des événements de changement de stock disponible
+### <a name="create-on-hand-change-events"></a>Créer des événements de modification de stock disponible
 
 Les événements de changement du stock disponible sont effectués en soumettant une requête `POST` à l’URL du service Visibilité du stock concerné (voir la section [Soumettre des plannings de changement, des événements de changement et des requêtes DAV via l’API](#api-urls)). Vous pouvez également soumettre des requêtes en masse.
 
 > [!NOTE]
-> Les événements de changement du stock disponibles ne sont pas propres à la fonctionnalité DAV, mais font partie de l’API Visibilité du stock standard. Cet exemple a été inclus car les événements sont pertinents lorsque vous travaillez avec la DAV. Les événements de changement du stock disponible ressemblent aux réservations de changement du stock disponible, mais les messages d’événement doivent être envoyés à une URL d’API différente, et les événements utilisent `quantities` au lieu de `quantityByDate` dans le corps du message. Pour plus d’informations sur les événements de changement du stock disponible et d’autres fonctionnalités de l’API Visibilité du stock, consultez [API publiques de visibilité du stock](inventory-visibility-api.md).
-
-Pour soumettre un événement de changement de stock disponible, le corps de la requête doit contenir un ID d’organisation, un ID de produit, une date planifiée et des quantités par date. La date planifiée doit être comprise entre la date actuelle et la fin de la période de planification actuelle.
+> Les événements de changement du stock disponibles ne sont pas propres à la fonctionnalité DAV, mais font partie de l’API Visibilité du stock standard. Cet exemple a été inclus car les événements sont pertinents lorsque vous travaillez avec la DAV. Les événements de changement du stock disponible ressemblent aux réservations de changement du stock disponible, mais les messages d’événement doivent être envoyés à une URL d’API différente, et les événements utilisent `quantities` au lieu de `quantityByDate` dans le corps du message. Pour plus d’informations sur les événements de changement du stock disponible et d’autres fonctionnalités de l’API Visibilité du stock, consultez [API publiques de visibilité du stock](inventory-visibility-api.md#create-one-onhand-change-event).
 
 L’exemple suivant présente un corps de requête contenant un seul événement de changement du stock disponible.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Dans votre requête, définissez `QueryATP` sur *true* si vous souhaitez interro
 - Si vous soumettez la requête en utilisant la méthode `POST`, définissez ce paramètre dans le corps de la requête.
 
 > [!NOTE]
-> Indépendamment du fait que le paramètre `returnNegative` est défini sur *true* ou *false* dans le corps de la requête, le résultat inclura des valeurs négatives lorsque vous interrogerez les changements planifiés du stock disponible et les résultats de la DAV. Ces valeurs négatives seront incluses car, si seules les commandes de demande sont planifiées, ou si les quantités d’approvisionnement sont inférieures aux quantités demandées, les quantités du changement planifié du stock disponible seront négatives. Si les valeurs négatives n’étaient pas incluses, les résultats seraient déroutants. Pour plus d’informations sur cette option et son fonctionnement pour d’autres types de requêtes, voir [API publiques de visibilité du stock](inventory-visibility-api.md).
+> Indépendamment du fait que le paramètre `returnNegative` est défini sur *true* ou *false* dans le corps de la requête, le résultat inclura des valeurs négatives lorsque vous interrogerez les changements planifiés du stock disponible et les résultats de la DAV. Ces valeurs négatives seront incluses car, si seules les commandes de demande sont planifiées, ou si les quantités d’approvisionnement sont inférieures aux quantités demandées, les quantités du changement planifié du stock disponible seront négatives. Si les valeurs négatives n’étaient pas incluses, les résultats seraient déroutants. Pour plus d’informations sur cette option et son fonctionnement pour d’autres types de requêtes, voir [API publiques de visibilité du stock](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>Exemple de méthode POST
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 L’exemple suivant montre comment créer un corps de requête pouvant être soumis à la Visibilité du stock à l’aide de la méthode `POST`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>Exemple de méthode GET
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 L’exemple suivant montre comment créer une URL de requête sous forme de requête `GET`.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 Le résultat de cette requête `GET` est exactement le même que le résultat de la requête `POST` dans l’exemple précédent.

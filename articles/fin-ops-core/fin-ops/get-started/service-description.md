@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740650"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758767"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Description du service pour les applications de finances et d’opérations
 
@@ -132,9 +132,9 @@ Cette section décrit certains événements typiques d’environnement et de ges
 
 LCS fournit des [outils en libre-service](../../dev-itpro/deployment/infrastructure-stack.md) et [opérations de déplacement de base de données](../../dev-itpro/database/dbmovement-operations.md) qui sont utilisés pour effectuer des tâches de gestion de l’environnement et des données. Voici quelques exemples :
 
-**Événement :** [Demander une instance de production](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Événement :** [Demander une instance de production](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Complétez la [Liste de contrôle de lancement](../imp-lifecycle/prepare-go-live.md), et soumettez-la à l’équipe [Microsoft FastTrack](/dynamics365/fasttrack/).
+- Complétez le [Processus d’évaluation de la mise en service](../imp-lifecycle/prepare-go-live.md) et soumettez-la à l’équipe [Microsoft FastTrack](/dynamics365/fasttrack/).
 - Exécutez l’[estimateur d’abonnement LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) avant de demander une instance de production.
 - Effectuez toutes les tâches de mise en œuvre spécifiées dans la [méthodologie LCS](../../dev-itpro/lifecycle-services/create-methodology.md).
 

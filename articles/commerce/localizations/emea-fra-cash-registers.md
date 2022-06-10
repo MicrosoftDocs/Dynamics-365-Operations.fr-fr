@@ -3,7 +3,7 @@ title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 09/14/2021
+ms.date: 05/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: e442a07232dd2d6c5e5f73b10466ed7cda457dec
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 9436e1fe120eafe62bdd1e9b9df654fc0abd4e6f
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548058"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767857"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -35,19 +35,14 @@ La fonctionnalité de caisse enregistreuse pour la France est constituée des é
 
 ## <a name="certification-information"></a>Informations sur la certification
 
-Cette version de la fonctionnalité de caisse enregistreuse pour la France a passé un audit selon les exigences de certification NF 525 et se voit attribuer des certificats de conformité qui ont les catégories et numéros suivants : 
-
-- **Microsoft Dynamics 365 Finance, version 10** :
-
-    - Catégorie de certification : B
-    - Numéro de certificat : 0350
+Cette version de la fonctionnalité de caisse enregistreuse pour la France a passé un audit selon les exigences de certification NF 525 et se voit attribuer un certificat de conformité ayant la catégorie et numéro suivant : 
 
 - **Microsoft Dynamics 365 Commerce, version 10** :
 
     - Catégorie de certification : B
     - Numéro de certificat : 0203
 
-Les certificats à jour sont disponibles sur le [portail de l’organisme de certification](https://certificates.infocert.org/).
+Un certificat à jour est disponible sur le [portail de l’organisme de certification](https://certificates.infocert.org/).
 
 ## <a name="common-pos-features"></a>Fonctionnalités de PDV courantes
 
@@ -64,6 +59,7 @@ Les fonctionnalités de localisation PDV suivantes disponibles pour les clients 
     - Fin du mode hors ligne
     - Application d’un remplacement de gestionnaire
     - Annulation d’une transaction 
+    - Annulation d’une ligne de transaction
     - Nettoyage des transactions de la base de données des canaux
     - Application d’une mise à jour majeure du logiciel avec impact sur la conformité
 
@@ -75,9 +71,9 @@ Les fonctionnalités de point de vente spécifiques à la France suivantes sont 
 
 Les types d’enregistrements suivants (transactions et événements) sont signés numériquement dans le PDV :
 
-- Transactions de vente
+- Transactions de retour et de vente
 - Copies des tickets de caisse
-- États des équipes clôturées/Z
+- Équipes clôturées/Z de caisse
 - Événements d’audit
 
 La signature est créée puis enregistrée dans la base de données des canaux lorsque la transaction est finalisée ou que l’événement est enregistré. Les données signées sont une chaîne de texte composée de plusieurs champs de données. Ces champs varient en fonction du type d’enregistrement. Le processus général de signature inclut les étapes suivantes :
@@ -97,9 +93,9 @@ La signature est créée puis enregistrée dans la base de données des canaux l
 >
 > Vous pouvez utiliser soit un certificat numérique délivré par un organisme accrédité, soit un certificat auto-signé pour la signature numérique. Seuls les certificats qui ont des clés privées RSA-2048 bits ou Elliptic Curve Digital Signature Algorithm (ECDSA) 224 bits minimum sont acceptables. Commerce ne prend en charge que les clés RSA-2048 bits ou plus. Si vous souhaitez utiliser une clé ECDSA, vous devez implémenter une personnalisation.
 
-### <a name="digital-signing-of-sales-transactions"></a>Signature numérique des transactions de vente
+### <a name="digital-signing-of-sales-and-return-transactions"></a>Signature numérique des transactions de retour et de vente
 
-Seules les transactions pour les ventes en espèces sont signées. Voici quelques exemples de transactions exclues du processus de signature :
+Seules les transactions pour les ventes en espèces et les retours sont signées. Voici quelques exemples de transactions exclues du processus de signature :
 
 - Acomptes (dépôts sur comptes client)
 - Devis
@@ -107,22 +103,25 @@ Seules les transactions pour les ventes en espèces sont signées. Voici quelque
 - Émission d’une carte cadeau et ajout de fonds à une carte cadeau
 - Transactions hors ventes (entrée de fond de caisse, vidage de caisse, etc.)
 
-Les données signées pour une transaction de vente sont une chaîne de texte composée des champs de données suivants :
+Les données signées pour une transaction de vente ou de retour sont une chaîne de texte composée des champs de données suivants :
 
-- Montant total des ventes, taxes comprises, par taux d’imposition.
-- Montant total des ventes, taxes comprises.
+- Montant total de la vente ou du retour, taxes incluses selon le taux d’imposition.
+- Montant total de la vente ou de retour, taxes comprises.
 - Date et heure de la transaction, au format AAAAMMJJHHMMSS.
 - Numéro de caisse enregistreuse.
-- Numéro séquentiel de la transaction de vente signée pour le registre.
-- Type de la transaction de vente.
-- Valeur (O/N) qui indique si la transaction est la première transaction de vente signée pour la caisse enregistreuse.
-- La signature précédente pour la même caisse enregistreuse. Une valeur vide est utilisée pour la première transaction de vente signée.
+- Numéro séquentiel de la transaction de vente ou de retour signée pour le registre.
+- Type de transaction de vente ou de retour.
+- Valeur (O/N) qui indique si la transaction est la première transaction de vente ou de retour signée pour la caisse enregistreuse.
+- La signature précédente pour la même caisse enregistreuse. Une valeur vide est utilisée pour la première transaction de vente ou de retour signée.
+
+> [!NOTE]
+> Pour la signature numérique, les transactions de retour sont considérées comme des transactions de vente régulières. Par conséquent, le processus de signature pour les transactions de retour est le même que le processus de signature pour les transactions de vente, et les transactions de retour sont incluses dans la même séquence de signatures que les transactions de vente. Le montant total d’un retour est négatif. En d’autres termes, il inclut un signe moins lorsqu’il est ajouté à la chaîne de texte signée.
 
 Vous pouvez afficher la signature de transaction, avec les données de transaction utilisées pour la générer, sous le raccourci **Transactions fiscales** de la page **Transactions de magasin** dans Commerce Headquarters. En sélectionnant **Données étendues**, vous pouvez afficher des propriétés spécifiques de la transaction fiscale, telles que la signature, le numéro séquentiel, l’empreinte numérique du certificat et l’identification de l’algorithme de hachage. 
 
 ### <a name="digital-signing-of-receipt-copies"></a>Signature numérique des copies de tickets de caisse
 
-Lorsqu’une copie d’un ticket de caisse est imprimée, l’événement est enregistré dans le journal d’événements d’audit du PDV. Seuls les copies des tickets de caisse des transactions de vente signées sont signées. Les données signées pour un événement de copie de ticket de caisse sont une chaîne de texte composée des champs de données suivants :
+Lorsqu’une copie d’un ticket de caisse est imprimée, l’événement est enregistré dans le journal d’événements d’audit du PDV. Seules les copies des tickets de caisse des transactions de vente signées sont signées. Les données signées pour un événement de copie de ticket de caisse sont une chaîne de texte composée des champs de données suivants :
 
 - Numéro du registre à partir duquel la copie du ticket de caisse est imprimée.
 - Numéro séquentiel de l’événement de copie de ticket de caisse signée pour le registre.
@@ -193,23 +192,48 @@ Les tickets de caisse pour la France peuvent inclure des informations supplémen
 
 Il existe une option pour appliquer la clôture d’équipe quotidienne dans le PDV. Une équipe ne peut pas durer plus longtemps que la durée spécifiée dans le champ **Heure de clôture de l’équipe de travail**. Plusieurs minutes avant cette heure, l’opérateur commencera à recevoir des avertissements que l’équipe doit être clôturée. Le nombre de minutes est déterminé par la valeur du champ **Intervalle de clôture de l’équipe de travail (minutes)**.
 
-### <a name="x-and-z-reports"></a>États X et Z
+### <a name="x-and-z-reports"></a>X et Z de caisse
 
-Les informations qui sont incluses dans les états X et Z sont basées sur les besoins français :
+Les informations qui sont incluses dans les X et Z de caisse sont basées sur les besoins français :
 
 - **Total des ventes** de l’équipe. Ces informations incluent les montants uniquement pour les transactions de ventes au comptant. Les acomptes et les opérations d’émission d’une carte cadeau sont exclues.
 - **Total des retours** de l’équipe.
-- **Total général perpétuel cumulé**. Ce montant est calculé comme le montant total général cumulé de l’équipe précédente plus le montant total des ventes de cette équipe moins la valeur absolue du total des retours de cette équipe.
-- **Total général perpétuel cumulé (valeur absolue)**. Ce montant est calculé comme le montant total général perpétuel cumulé de l’équipe précédente plus le montant total des ventes de cette équipe plus la valeur absolue du total des retours de cette équipe.
+- **Total général perpétuel cumulé**. Ce montant est calculé comme le montant total général perpétuel cumulé de l’équipe précédente, plus le montant total des ventes de cette équipe, moins la valeur absolue du total des retours de cette équipe.
+- **Total général perpétuel cumulé (valeur absolue)**. Ce montant est calculé comme le montant total général perpétuel cumulé de l’équipe précédente (valeur absolue), plus le montant total des ventes de cette équipe plus la valeur absolue du total des retours de cette équipe.
 - Montants de taxe sur la valeur ajoutée (VAT) par taux de taxe.
 
 Les totaux sont également stockés dans l’enregistrement de l’équipe clôturée et transférés dans Commerce Headquarters.
+
+Vous pouvez exporter un Z de caisse à partir d’une équipe fermée dans Commerce headquarters. Un Z de caisse exporté est un fichier XML qui inclut les totaux pour l’équipe clôturée. Plus précisément, le fichier inclut les données décrites dans le tableau suivant.
+
+| Élément/nœud                     | Commentaire |
+|----------------------------------|---------|
+| RegisterNumber                   | Identification du registre sur lequel l’équipe a été ouverte. |
+| Date                             | Date de l’équipe. |
+| TotalCashSales                   | Montant total des ventes, taxes comprises, pour l’équipe. |
+| TotalCashReturns                 | Valeur absolue du montant total des retours, taxes comprises, pour l’équipe. |
+| GrandTotal                       | Montant total des ventes, taxes comprises, moins la valeur absolue du montant total des retours, taxes comprises, pour l’équipe. |
+| PerpetualGrandTotal              | Total général perpétuel cumulé pour l’équipe. Autrement dit, le total général perpétuel cumulé de l’équipe précédente du même registre, plus le montant total des ventes TTC pour l’équipe, moins la valeur absolue du montant total des retours TTC de l’équipe. |
+| PerpetualGrandTotalAbsoluteValue | Total général perpétuel cumulé pour l’équipe. Autrement dit, le total général perpétuel cumulé de l’équipe précédente du même registre, plus le montant total des ventes TTC pour l’équipe, plus la valeur absolue du montant total des retours TTC de l’équipe. |
+| ShiftLines                       | Collection de montants totaux généraux par taux d’imposition. |
+| ShiftLine                        | Nœud pour le montant total général d’un taux d’imposition. |
+| TotalInclTax                     | Montant total général d’un taux d’imposition pour l’équipe. |
+| TaxRate                          | Taux d’imposition. |
+| TaxAmount                        | Montant total général d’une taxe pour le taux d’imposition. |
+| SequentialNumber                 | Numéro séquentiel de l’équipe ayant signé pour le registre. |
+| DataToSign                       | Chaîne [créée à partir des éléments de l’enregistrement de l’équipe](#digital-signing-of-closed-shifts) et utilisée pour la signature. |
+| DataToSignFormatVersion          | Version interne du format de données qui a été utilisé pour la signature. |
+| Signature                        | Signature numérique de l’enregistrement de l’équipe. |
+| HashAlgorithm                    | Algorithme de code de hachage utilisé pour hacher les données avant signature. |
+| CertificateThumbprint            | Empreinte numérique du certificat utilisée pour la signature. |
+
+Le fichier de Z de caisse exporté est numériquement signé, et la signature est contenue dans un fichier distinct.
 
 ### <a name="period-grand-total-journal"></a>Journal du total général de la période
 
 Les journaux du total général de la période synthétisent les totaux des ventes par magasin et par période fiscale (par exemple, par mois). De plus, un journal annuel résume les totaux des ventes par magasin et par exercice.
 
-Les journaux du total général de la période sont tenus à jour sur la page **Journal du total général de la période**. Pour créer un journal, vous devez spécifier un magasin. Si des journaux précédent existent pour le magasin, la prochaine période fiscale après le dernier journal clôturé pour le magasin est automatiquement utilisée comme période de journal. Si aucun journal précédent n’existent, vous pouvez spécifier la date de fin du journal. Dans ce cas, la période fiscale qui inclut la date spécifiée est utilisée comme période de journal.
+Les journaux du total général de la période sont tenus à jour sur la page **Journal du total général de la période**. Pour créer un journal, vous devez spécifier un magasin. Si des journaux précédent existent pour le magasin, la prochaine période fiscale après le dernier journal clôturé pour le magasin est automatiquement utilisée comme période de journal. Si aucun journal précédent n’existe, vous pouvez spécifier la date de fin du journal. Dans ce cas, la période fiscale qui inclut la date spécifiée est utilisée comme période de journal.
 
 Le journal peut ensuite être calculé. Les équipes clôturées au cours de la période de journal sont sélectionnées, et les totaux sont calculés pour les équipes. Vous pouvez afficher les totaux de taxe du journal par code taxe. Vous pouvez également afficher les équipes qui sont incluses dans le journal.
 
@@ -246,6 +270,13 @@ Pour utiliser la fonctionnalité spécifique pour la France, vous devez effectue
 - Définissez le champ **Code ISO** sur **FR** (France) dans le profil de fonctionnalité du PDV de chaque magasin situé en France.
 
 Vous devez également spécifier les paramètres suivants pour la France. Notez que vous devez exécuter des tâches de distribution appropriées après que vous avez terminé le paramétrage.
+
+### <a name="enable-features-for-france"></a>Activer les fonctionnalités pour la France
+
+Vous devez activer les fonctionnalités suivantes dans l’espace de travail **Gestion des fonctionnalités** :
+
+- (France) Activer les événements d’audit supplémentaires dans le PDV
+- (France) Activer l’exportation d’un Z de caisse vers un fichier
 
 ### <a name="set-up-the-legal-entity"></a>Paramétrer l’entité juridique
 
@@ -325,20 +356,20 @@ Dans le Concepteur de format de ticket de caisse, ajoutez des champs personnalis
 - **Pied de page :** Ajoutez les champs suivants :
 
     - **Total des ventes** – Ce champ permet d’imprimer le montant total des ventes de disponibilités du ticket de caisse. Le montant est hors taxe. Les acomptes et les opérations de carte cadeau sont exclues.
-    - **Taxe totale** – Ce champ permet d’imprimer le montant total des taxes des ventes de disponibilités. Les acomptes et les opérations de carte cadeau sont exclues. 
+    - **Taxe totale** – Ce champ permet d’imprimer le montant total des taxes des ventes de disponibilités. Les acomptes et les opérations de carte cadeau sont exclus. 
     - **Total des ventes TTC** – Ce champ permet d’imprimer le montant total des ventes de disponibilités du ticket de caisse. Le montant inclue la taxe. Les acomptes et les opérations de carte cadeau sont exclues.
     - **ID taxe** – Ce champ standard active une synthèse de taxe à imprimer par code taxe. Le champ doit être ajouté sur une nouvelle ligne.
     - **Base de la taxe de vente** – Ce champ permet d’imprimer la base des taxes des ventes de disponibilités par code de taxe. Les acomptes et les opérations de carte cadeau sont exclues. Le champ doit être ajouté à la même ligne que le champ **ID taxe**.
-    - **Montant de la taxe de vente** – Ce champ permet d’imprimer le montant des taxes des ventes de disponibilités par code de taxe. Les acomptes et les opérations de carte cadeau sont exclues. Le champ doit être ajouté à la même ligne que le champ **ID taxe**.
+    - **Montant de la taxe de vente** – Ce champ permet d’imprimer le montant des taxes des ventes de disponibilités par code de taxe. Les acomptes et les opérations de carte cadeau sont exclus. Le champ doit être ajouté à la même ligne que le champ **ID taxe**.
     - **Numéro séquentiel** – Ce champ imprimer le numéro séquentiel d’une transaction de vente signée.
     - **Signature numérique** – Ce champ imprime l’extraction de la signature numérique.
     - **Réimprimer le numéro** – Ce champ imprime le numéro d’une copie de ticket de caisse.
     - **Certificat NF 525** : ce champ imprime la catégorie du certificat de conformité et son numéro qu’un organisme autorisé a émis conformément aux exigences de certification de la norme NF 525.
 
         > [!NOTE]
-        > Par défaut, la catégorie et le numéro de certificat qui sont attribués à [Finance](#certification-information) sont imprimés. Si vous implémentez Commerce, vous devez remplacer la catégorie et le numéro de certificat.
+        > La catégorie et le numéro de certificat qui sont attribués à [Commerce](#certification-information) sont imprimés.
 
-    - **Texte** : ajoutez un champ de texte et précisez la version du logiciel certifié conformément aux exigences de certification NF 525et utilisé pour produire des tickets de caisse (par exemple, **Microsoft Dynamics 365 Finance v.10** ou **Microsoft Dynamics 365 Commerce v.10**).
+    - **Texte** : ajoutez un champ de texte et précisez la version du logiciel certifié conformément aux exigences de certification NF 525et utilisé pour produire des tickets de caisse (par exemple, **Microsoft Dynamics 365 Commerce v.10**).
 
         > [!NOTE]
         > Si vous personnalisez l’application POS et que vos personnalisations affectent la conformité de l’application, vous devrez peut-être demander un nouveau certificat de conformité à un organisme accrédité. Dans ce cas, vous devez remplacer la catégorie et le numéro de certificat et spécifier un numéro de version de logiciel correspondant. Sinon, les valeurs par défaut de la catégorie et du numéro de certificat seront imprimées.
@@ -384,7 +415,7 @@ Pour activer le processus d’enregistrement fiscal pour la France dans Commerce
 
 ### <a name="configure-the-digital-signature-parameters"></a>Configurer les paramètres de signature numérique
 
-Vous devez configurer les certificats utilisés pour la signature numérique des enregistrements côté canal Commerce (transactions de vente et événements d’audit) et côté Commerce Headquarters (journaux du total général de la période et archives fiscales). La signature s’effectue à l’aide d’un certificat numérique enregistré dans Azure Key Vault. Pour le mode hors ligne de Modern POS, la signature peut également être effectuée à l’aide d’un certificat numérique stocké en local sur la machine sur laquelle Modern POS est installé. La fonction [Profils de certificats définis par l’utilisateur pour les magasins de détail](./certificate-profiles-for-retail-stores.md) permet de configurer les certificats stockés dans Key Vault. Elle prend également en charge le basculement en mode hors ligne lorsque Key Vault ou Commerce Headquarters n’est pas disponible. Cette fonctionnalité étend la fonction [Gérer les clés secrètes pour les canaux de vente au détail](../dev-itpro/manage-secrets.md).
+Vous devez configurer les certificats utilisés pour la signature numérique des enregistrements côté canal Commerce (transactions de vente et événements d’audit) et côté Commerce Headquarters (journaux du total général de la période, Z de caisse et archives fiscales). La signature s’effectue à l’aide d’un certificat numérique enregistré dans Azure Key Vault. Pour le mode hors ligne de Modern POS, la signature peut également être effectuée à l’aide d’un certificat numérique stocké en local sur la machine sur laquelle Modern POS est installé. La fonction [Profils de certificats définis par l’utilisateur pour les magasins de détail](./certificate-profiles-for-retail-stores.md) permet de configurer les certificats stockés dans Key Vault. Elle prend également en charge le basculement en mode hors ligne lorsque Key Vault ou Commerce Headquarters n’est pas disponible. Cette fonctionnalité étend la fonction [Gérer les clés secrètes pour les canaux de vente au détail](../dev-itpro/manage-secrets.md).
 
 > [!NOTE]
 > Vous pouvez utiliser soit un certificat numérique délivré par un organisme accrédité, soit un certificat auto-signé pour la signature numérique. Seuls les certificats qui ont des clés privées RSA-2048 bits ou Elliptic Curve Digital Signature Algorithm (ECDSA) 224 bits minimum sont acceptables. Commerce ne prend en charge que les clés RSA-2048 bits ou plus. Si vous souhaitez utiliser une clé ECDSA, vous devez implémenter une personnalisation.
@@ -434,15 +465,19 @@ Enfin, sur la page **Paramètres Commerce** (**Retail et Commerce \> Configurati
 > [!NOTE]
 > Les fonctions de hachage suivantes ne sont pas acceptables : CRC16, CRC32, SHA-1 et MD5. Commerce prend uniquement en charge les fonctions de hachage SHA256, SHA384 et SHA512. Si vous souhaitez utiliser une fonction de hachage différente, vous devez implémenter une personnalisation.
 
-### <a name="configure-the-archive-export-format"></a>Configurez le format d’exportation d’archive
+### <a name="configure-the-z-report-and-archive-export-formats"></a>Configurer les formats d’exportation des archives et des Z de caisse
 
-Vous pouvez charger la configuration ER pour l’archive de Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir [Importer les configurations de génération d’états électroniques](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Vous devez télécharger les versions suivantes, ou les versions ultérieures, des configurations :
+Vous pouvez télécharger les configurations ER pour les Z de caisse et l’archive à partir de Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir [Importer les configurations de génération d’états électroniques](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Vous devez télécharger les versions suivantes, ou les versions ultérieures, des configurations :
 
 - Modèle données **Canal de vente au détail data.version.2**
 - Mise en correspondance de modèle de données **Archivage DMM.version.2.3**
-- Format **Archive de données Retail FR .version.2.5**
+- Format **Z de caisse de la vente au détail (FR).version.24.23.3**
+- Format **Archive des données de vente au détail (FR).version.2.5**
 
-Après l’importation des configurations, dans la page **Paramètres Commerce**, sous l’onglet **Documents électroniques**, dans le champ **Paramètres Commerce**, sélectionnez le format **Archive de données Retail FR .version.2.5** ou le format téléchargé précédemment.
+Après l’importation des configurations, sélectionnez les formats ER pour le Z de caisse et l’archive dans les champs suivants de l’onglet **Documents électroniques** de la page **Paramètres de Commerce** :
+
+- **Format d’exportation d’un Z de caisse** : Sélectionnez le format **Z de caisse de la vente au détail (FR).version.24.23.3** ou le format que vous avez téléchargé précédemment.
+- **Format d’exportation de l’archive des données de vente au détail** : Sélectionnez le format **Archive des données de vente au détail (FR).version.2.5** ou le format que vous avez téléchargé précédemment.
 
 ### <a name="reinitialize-commerce-components"></a>Réinitialiser les composants Commerce
 

@@ -2,7 +2,7 @@
 title: Module d’onglet
 description: Cette rubrique couvre les modules d’onglet et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 104fb57cfdcd96a0da50899c0eac576074282017
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723285"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780612"
 ---
 # <a name="tab-module"></a>Module Onglet
 
@@ -38,7 +38,7 @@ L’image suivante montre un exemple de module d’onglet sur une page de site. 
 
 ## <a name="tab-module-properties"></a>Propriétés du module d’onglet
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Titre | Détails | Cette propriété spécifie un en-tête de texte facultatif pour le module d’onglet. |
 | Index des onglets actifs | Nombre | Cette propriété spécifie l’onglet qui doit être actif par défaut au chargement d’une page. Si aucune valeur n’est fournie, le premier élément d’onglet est activé par défaut. |
@@ -55,16 +55,16 @@ Pour ajouter un module d’onglet à une page et définir les propriétés requi
 
 1. Utilisez le modèle de marketing Fabrikam (ou tout modèle dénué de restriction) pour créer une nouvelle page nommée **Page des politiques du magasin**.
 1. Dans l’emplacement **Principal** de la **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Onglet**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner les modules**, sélectionnez le module **Onglet**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés du module d’onglet, sélectionnez **En-tête** à côté du symbole du crayon.
 1. Dans la boîte de dialogue **En-tête**, sous **Texte d’en-tête**, saisissez le texte de l’en-tête (par exemple, **Politiques**). Puis sélectionnez **OK**.
 1. Dans l’emplacement **Onglet**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Élément d’onglet**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Élément d’onglet**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés du module d’élément d’onglet, sous **Titre**, saisissez le texte du titre (par exemple, **Livraison**).
 1. Dans l’emplacement **Élément d’onglet**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Bloc de texte**, puis sélectionnez **OK**.
+1. Dans la boîte de dialogue **Sélectionner des modules**, sélectionnez le module **Bloc de texte**, puis cliquez sur **OK**.
 1. Dans le volet des propriétés du module de bloc de texte, sous **Texte enrichi**, entrez un paragraphe de texte.
 1. Dans l’emplacement **Onglet**, ajoutez quelques autres modules d’élément d’onglet portant un titre. Dans chaque module d’élément d’onglet, ajoutez un module de bloc de texte portant du contenu.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La page affichera un module d’onglet contenant les modules d’élément d’onglet ayant le contenu que vous avez ajouté.
