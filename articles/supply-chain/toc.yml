@@ -12,6 +12,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management\_10.0.28 (août\_2022)"
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: "Supply Chain Management\_10.0.27 (juillet\_2022)"
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: "Supply Chain Management\_10.0.26 (mai\_2022)"
@@ -711,6 +713,8 @@
           items:
             - name: Page d’accueil de la gestion des coûts
               href: cost-management/cost-management-home-page.md
+            - name: Questions fréquentes sur l’évaluation des coûts de stock
+              href: cost-management/inventory-costing-faq.md
             - name: Prérequis pour les coûts standard
               items:
                 - name: Vue d’ensemble des prérequis pour les coûts standard
@@ -1427,6 +1431,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Utiliser les sources de données COLLECTE DE DONNÉES aux formats ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Utilisez les sources de données USER INPUT PARAMETER pour spécifier les paramètres d’un état que vous souhaitez générer
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Déboguer des sources de données
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurer les modèles de données
@@ -1707,6 +1713,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Réservations Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
+                - name: Allocation de stocks Inventory Visibility
+                  href: inventory/inventory-visibility-allocation.md
                 - name: Planification des modifications Inventory Visibility et quantité disponible à la vente
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: API publiques Inventory Visibility
@@ -3283,8 +3291,20 @@
               href: landed-cost/update-tracking-putaway.md
             - name: Demandes de coût au débarquement
               href: landed-cost/landed-cost-inquiries.md
-            - name: États sur le coût au débarquement
+            - name: Rapports sur le coût au débarquement
               href: landed-cost/landed-cost-reports.md
+            - name: Entités de données de coût au débarquement
+              items:
+                - name: Vue d’ensemble des entités de coût au débarquement
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: Entités de création de voyages
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: Entités de transaction de coût
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: Entité d’activités de conteneur
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: Entités de facture fournisseur
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Gestion des entrepôts
           items:
             - name: Vue d’ensemble de la gestion des entrepôts

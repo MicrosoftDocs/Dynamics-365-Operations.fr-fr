@@ -14,6 +14,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
+                - name: "Mises à jour de la plateforme pour la version\_10.0.28 (août\_2022)"
+                  href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.27 (juillet\_2022)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.26 (mai\_2022)"
@@ -384,9 +386,9 @@
                   items:
                     - name: Paramétrer des projets locaux dans LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: "Configurer et déployer des environnements locaux (Mise à jour de plateforme\_41 et ultérieures)"
+                    - name: "Configurer et déployer des environnements locaux (Mise à jour de la plateforme\_41 et ultérieures)"
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: "Configurer et déployer des environnements locaux (Mises à jour de plateforme 12\_à\_40)"
+                    - name: "Configurer et déployer des environnements locaux (Mises à jour de la plateforme 12\_à\_40)"
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Étapes d’installation des composants du canal Retail dans un environnement sur site
                       href: deployment/deploy-retail-onprem.md
@@ -1016,8 +1018,10 @@
                   href: lifecycle-services/monitoring-diagnostics.md
                 - name: Utiliser Azure Data Explorer pour interroger les journaux d’informations brutes
                   href: lifecycle-services/azure-data-explorer.md
-            - name: Redémarrer les services d’environnement
+            - name: Redémarrer les services de l’environnement
               href: lifecycle-services/restart-environment-services.md
+            - name: Mettre à jour l’administrateur de l’environnement
+              href: lifecycle-services/update-environment-admin.md
             - name: Signaler une panne de production
               href: lifecycle-services/report-production-outage.md
             - name: Suivre les connexions des utilisateurs
@@ -1266,6 +1270,8 @@
               items:
                 - name: Vue d’ensemble des compléments
                   href: power-platform/add-ins-overview.md
+            - name: Créer des expériences mobiles
+              href: power-platform/build-mobile-experiences.md
             - name: Stratégies et communications
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Plateforme mobile
@@ -1782,7 +1788,7 @@
                       href: migration-upgrade/appupdate-80-81.md
                 - name: Stratégie du cycle de vie de logiciel et versions de cloud
                   href: migration-upgrade/versions-update-policy.md
-                - name: Appliquer la dernière mise à jour de plateforme aux environnements
+                - name: Appliquer la dernière mise à jour de la plateforme aux environnements
                   href: migration-upgrade/upgrade-latest-platform-update.md
                 - name: Mettre à niveau des données dans des environnement de développement ou de démonstration
                   href: migration-upgrade/upgrade-data-to-latest-update.md

@@ -12,11 +12,13 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                   href: get-started/whats-new-home-page.md
-                - name: "Commerce\_10.0.27 (juillet\_2022)"
+                - name: "Commerce 10.0.28 (juillet\_2022)"
+                  href: get-started/whats-new-commerce-10-0-28.md
+                - name: "Commerce 10.0.27 (juillet\_2022)"
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: "Commerce\_10.0.26 (mai\_2022)"
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: "Commerce\_10.0.25 (avril\_2022)"
+                - name: "Commerce 10.0.25 (avril\_2022)"
                   href: get-started/whats-new-commerce-10-0-25.md
             - name: Fonctions supprimées ou déconseillées
               items:
@@ -1300,7 +1302,11 @@
               items:
                 - name: Établir des pages personnalisées de réponse pour les erreurs de code statut 4xx/5xx
                   href: build-pages-400-500-errors.md
-        - name: Fraud Protection
+            - name: "Intégration\_Office"
+              items:
+                - name: Intégrer Customer Voice dans les pages du site d’e-commerce
+                  href: customer-voice-integration.md
+        - name: Protection contre la fraude
           items:
             - name: Intégration de Dynamics 365 Fraud Protection à Dynamics 365 Commerce
               href: dev-itpro/DFP.md
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Utiliser les sources de données COLLECTE DE DONNÉES aux formats ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Utilisez les sources de données USER INPUT PARAMETER pour spécifier les paramètres d’un état que vous souhaitez générer
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Déboguer des sources de données
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les modèles de données
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Imiter l’état Connecté pendant le développement local
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Configurer le transfert de l’authentification de l’API Web à l’aide de Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Configurer les propriétés du module à afficher en fonction du contexte
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Globaliser les modules à l’aide de la classe CultureInfoFormatter
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: L’affinement des évaluations apparaît sur les résultats de recherche et les pages de catégorie lorsque la solution d’évaluations et d’avis n’est pas activée
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: Le sous-total du récapitulatif de la commande n’inclut pas les taxes sur les frais lors de l’utilisation de modules de récapitulatif de commande personnalisés
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Gestion des clients
               items:
                 - name: L’e-mail de bienvenue n’est pas envoyé lorsque de nouveaux clients sont créés

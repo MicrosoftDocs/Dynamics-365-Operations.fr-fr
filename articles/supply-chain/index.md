@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487861"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789210"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d’accueil de Supply Chain Management
 
@@ -56,9 +56,9 @@ Pour plus d’informations sur Dynamics 365 Finance, accédez à la [page d’ac
 
 ## <a name="videos"></a>Vidéos
 
-Cette courte vidéo résume les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à la version 8.0 de Microsoft Dynamics 365 for Finance and Operations (avril 2018).
+Cette courte vidéo résume les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations version 8.0 (avril 2018).
 
-- [Synchroniser un ordre d’exécution entre Field Service et Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Synchroniser un ordre de travail entre Field Service et Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
 Ces courtes vidéos résument les nouvelles fonctionnalités de gestion de la chaîne d’approvisionnement ajoutées à Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (décembre 2017).
 
@@ -98,7 +98,7 @@ Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisi
 ## <a name="white-papers"></a>Livres blancs
 
 - [Lean manufacturing : planification de capable to promise et des tâches de kanban](/dynamics/s-e/)
-- [Calcul de nomenclature à l’aide d’une feuille d’évaluation des coûts](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [Calcul de nomenclature à l’aide d’une feuille d’évaluation des coûts](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>Cours eLearning
 
