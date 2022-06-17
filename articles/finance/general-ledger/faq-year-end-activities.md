@@ -1,6 +1,6 @@
 ---
 title: FAQ sur les activités de fin d’exercice
-description: Cette rubrique répertorie les questions qui peuvent se poser lors de la clôture d’un exercice et les réponses qui peuvent faciliter les activités de clôture de fin d’exercice.
+description: Cet article répertorie les questions qui peuvent se poser lors de la clôture d’un exercice et les réponses qui peuvent faciliter les activités de clôture de fin d’exercice.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865738"
 ---
 # <a name="year-end-activities-faq"></a>FAQ sur les activités de fin d’exercice 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les questions qui peuvent se poser lors de la clôture d’un exercice et les réponses qui peuvent faciliter les activités de clôture de fin d’exercice. Les informations contenues dans cette rubrique traitent principalement des questions relatives aux activités de clôture de fin d’exercice en comptabilité et en comptabilité fournisseur.
+Cet article répertorie les questions qui peuvent se poser lors de la clôture d’un exercice et les réponses qui peuvent faciliter les activités de clôture de fin d’exercice. Les informations contenues dans cet article traitent principalement des questions relatives aux activités de clôture de fin d’exercice en comptabilité et en comptabilité fournisseur.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Améliorations apportées à la fin de l’exercice en comptabilité 
 La version 10.0.20 améliore la clôture de fin d’exercice activée par défaut à partir de la version 10.0.25. Si votre organisation utilise une version antérieure à la version 10.0.25, nous vous recommandons d’activer cette fonctionnalité avant de commencer le processus de clôture de fin d’exercice. Pour pouvoir utiliser cette fonctionnalité, vous devez l’activer dans le système. Les administrateurs peuvent utiliser l’espace de travail Gestion des fonctionnalités pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. À cet emplacement, la fonctionnalité est répertoriée de la manière suivante :
@@ -75,7 +75,7 @@ Les ensembles de dimensions inutiles ont également un impact sur le traitement 
 [![Ensembles de dimensions financières.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuration du modèle de clôture de fin d’exercice
-Le modèle de clôture de fin d’exercice permet aux organisations de sélectionner le niveau de dimension financière à maintenir lors du transfert des soldes de profits et pertes vers les bénéfices non répartis. Les paramètres permettent à une organisation de conserver les dimensions financières détaillées (**Clôturer tout**) lors du transfert des soldes vers les bénéfices non répartis ou de choisir de récapituler les montants en une seule valeur de dimension (**Clôturer individuellement**). Cela peut être défini pour chaque dimension financière. Pour plus d’informations sur ces paramètres, consultez la rubrique [Clôture de fin d’exercice](year-end-close.md).
+Le modèle de clôture de fin d’exercice permet aux organisations de sélectionner le niveau de dimension financière à maintenir lors du transfert des soldes de profits et pertes vers les bénéfices non répartis. Les paramètres permettent à une organisation de conserver les dimensions financières détaillées (**Clôturer tout**) lors du transfert des soldes vers les bénéfices non répartis ou de choisir de récapituler les montants en une seule valeur de dimension (**Clôturer individuellement**). Cela peut être défini pour chaque dimension financière. Pour plus d’informations sur ces paramètres, consultez l’article [Clôture de fin d’exercice](year-end-close.md).
 
 Nous vous recommandons d’évaluer les exigences de votre organisation et, si possible, de clôturer autant de dimensions que possible à l’aide de l’option de fin d’exercice **Clôturer individuellement** pour améliorer les performances. En clôturant sur une seule valeur de dimension (qui peut également être une valeur vide), le système calcule moins de détails lors de la détermination des soldes pour les écritures de compte de bénéfices non répartis.
 

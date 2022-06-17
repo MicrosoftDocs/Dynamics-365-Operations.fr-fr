@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 886d4897899ec9067cdd332aea81ca5cceda253badfc824b121e4a005fa762ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63e75089921fe3e6d8f59c22cfb9c57a04fb4f40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896636"
 ---
 > [!IMPORTANT]
-> Tout ou partie de la fonctionnalité décrite dans cette rubrique est accessible dans le cadre d’une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d’informations sur les préversions, voir [Disponibilité des mises à jour de service](../get-started/public-preview-releases.md).
+> Tout ou partie de la fonctionnalité décrite dans cet article est accessible dans le cadre d’une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d’informations sur les préversions, voir [Disponibilité des mises à jour de service](../get-started/public-preview-releases.md).

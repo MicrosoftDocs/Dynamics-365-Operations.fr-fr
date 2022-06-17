@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: "Nouveautés ou modifications dans Human\_Resources"
               items:
+                - name: "Human\_Resources\_10.0.28 (infrastructure fusionnée)"
+                  href: ./get-started/whats-new-changed-10.0.28.md
                 - name: "Human\_Resources\_10.0.27 (infrastructure fusionnée)"
                   href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: "Human\_Resources\_10.0.26 (infrastructure fusionnée)"

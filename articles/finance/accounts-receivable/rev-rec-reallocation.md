@@ -1,6 +1,6 @@
 ---
 title: Réaffectation de la prise en compte de revenu
-description: Cette rubrique fournit des informations sur la réaffectation, qui permet aux organisations de recalculer les prix de produit lorsque les conditions d’une vente contractuelle sont modifiées. Elle comprend des liens vers d’autres rubriques décrivant comment reconnaître les revenus dans plusieurs scénarios.
+description: Cet article fournit des informations sur la réaffectation, qui permet aux organisations de recalculer les prix de produit lorsque les conditions d’une vente contractuelle sont modifiées. Elle comprend des liens vers d’autres rubriques décrivant comment reconnaître les revenus dans plusieurs scénarios.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903418"
 ---
 # <a name="revenue-recognition-reallocation"></a>Réaffectation de la prise en compte de revenu
 
@@ -58,7 +58,7 @@ Un paramètre affecte le processus de réaffectation.
 
 Étant donné que la réallocation peut être effectuée sur une commande client qui est partiellement ou entièrement facturée, toutes les écritures comptables précédentes de la facture doivent être corrigées à l’aide des nouveaux prix de revenus réalloués. Cette correction est effectuée en contrepassant l’écriture comptable de la facture d’origine et en validant une nouvelle écriture comptable basée sur les prix des produits réalloués.
 
-Chaque organisation doit décider si la correction doit mettre à jour uniquement la Comptabilité ou si elle doit également mettre à jour la Comptabilité client. La décision détermine le paramètre approprié de l’option **Valider les corrections des factures dans la comptabilité client lors de la réaffectation** de l’onglet **Prise en compte de revenu** de la page **Paramètres de comptabilité** (**Prise en compte de revenu \> Paramétrage \> Paramètres de Comptabilité**). Le paramètre approprié dépend du scénario spécifique. Pour plus d’informations sur les scénarios possibles, consultez les liens de la section [Scénarios de réaffectation](#scenarios-for-reallocation) plus loin dans cette rubrique.
+Chaque organisation doit décider si la correction doit mettre à jour uniquement la Comptabilité ou si elle doit également mettre à jour la Comptabilité client. La décision détermine le paramètre approprié de l’option **Valider les corrections des factures dans la comptabilité client lors de la réaffectation** de l’onglet **Prise en compte de revenu** de la page **Paramètres de comptabilité** (**Prise en compte de revenu \> Paramétrage \> Paramètres de Comptabilité**). Le paramètre approprié dépend du scénario spécifique. Pour plus d’informations sur les scénarios possibles, consultez les liens de la section [Scénarios de réaffectation](#scenarios-for-reallocation) plus loin dans cet article.
 
 [![Onglet Prise en compte de revenu sur la page Paramètres de Comptabilité.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Pour démarrer le processus de réaffectation, sélectionnez **Redistribuer le p
 
 [![Page Redistribuer le prix avec les nouvelles lignes de commande.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-La grille supérieure de la page **Redistribuer le prix avec les nouvelles lignes de commande** s’intitule **Ventes**. Elle répertorie les commandes du client. Sélectionnez les commandes client à réaffecter. Si une commande client a un ID de réaffectation, elle a déjà été marquée pour une réaffectation par un autre utilisateur. Si une ou plusieurs commandes client ont été précédemment réaffectées et doivent être incluses dans une autre réaffectation, celle-ci doit d’abord être annulée. Elles peuvent alors être incluses dans une nouvelle réaffectation. Pour plus d’informations, voir les sections [Annuler une réaffectation](#undo-a-reallocation) et [Réaffecter plusieurs fois](#reallocate-multiple-times) plus loin dans cette rubrique.
+La grille supérieure de la page **Redistribuer le prix avec les nouvelles lignes de commande** s’intitule **Ventes**. Elle répertorie les commandes du client. Sélectionnez les commandes client à réaffecter. Si une commande client a un ID de réaffectation, elle a déjà été marquée pour une réaffectation par un autre utilisateur. Si une ou plusieurs commandes client ont été précédemment réaffectées et doivent être incluses dans une autre réaffectation, celle-ci doit d’abord être annulée. Elles peuvent alors être incluses dans une nouvelle réaffectation. Pour plus d’informations, voir les sections [Annuler une réaffectation](#undo-a-reallocation) et [Réaffecter plusieurs fois](#reallocate-multiple-times) plus loin dans cet article.
 
 La grille inférieure de la page s’intitule **Lignes**. Après avoir sélectionné une ou plusieurs commandes client dans la grille **Ventes**, la grille **Lignes** affiche les lignes de commande client. Sélectionnez les lignes de la commande client qui doivent être réaffectées. Si vous avez sélectionné une seule commande client, les lignes de cette même commande client doivent être réaffectées. Cette situation peut se produire lorsqu’une des lignes de commande client a été précédemment facturée, puis une nouvelle ligne a été ajoutée, ou une ligne existante a été supprimée ou annulée. Si une ligne a été supprimée, elle n’apparaîtra pas dans la grille. Par conséquent, elle ne peut pas être sélectionnée. Cependant, elle sera toujours prise en compte lors de l’exécution du processus de réaffectation.
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des scénarios de règlement de facture
-description: Cette rubrique décrit la procédure de configuration de Dynamics 365 Commerce pour prendre en charge différents scénarios relatifs aux règlements de facture.
+description: Cet article décrit la procédure de configuration de Dynamics 365 Commerce pour prendre en charge différents scénarios relatifs aux règlements de facture.
 author: josaw1
 ms.date: 11/14/2018
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9dc4ff9241cec4033b65f15449c233bdb43233c0dce1ab04a2cd66baf5272a6b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78af54fec771e5012aca095d07fd772988a56029
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885372"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Paramétrer des scénarios de règlement de facture
 

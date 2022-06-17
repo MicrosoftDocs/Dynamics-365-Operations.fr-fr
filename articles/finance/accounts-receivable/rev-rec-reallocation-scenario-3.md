@@ -1,6 +1,6 @@
 ---
 title: Réaffectation de la prise en compte de revenu - Scénario 3
-description: Cette rubrique décrit un scénario de réaffectation dans lequel une nouvelle ligne est ajoutée à une commande client existante, facturée. Lorsqu’un nouvel article est ajouté à un contrat, il peut être ajouté soit à une nouvelle commande client, soit à la commande client existante.
+description: Cet article décrit un scénario de réaffectation dans lequel une nouvelle ligne est ajoutée à une commande client existante, facturée. Lorsqu’un nouvel article est ajouté à un contrat, il peut être ajouté soit à une nouvelle commande client, soit à la commande client existante.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904814"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Réaffectation de la prise en compte de revenu - Scénario 3
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit un scénario de réaffectation dans lequel une nouvelle ligne est ajoutée à une commande client existante, facturée. Lorsqu’un nouvel article est ajouté à un contrat, il peut être ajouté soit à une nouvelle commande client, soit à la commande client existante. Ce scénario montre également ce qui se produit lors d’une mise à jour en Comptabilité client suite à une réaffectation.
+Cet article décrit un scénario de réaffectation dans lequel une nouvelle ligne est ajoutée à une commande client existante, facturée. Lorsqu’un nouvel article est ajouté à un contrat, il peut être ajouté soit à une nouvelle commande client, soit à la commande client existante. Ce scénario montre également ce qui se produit lors d’une mise à jour en Comptabilité client suite à une réaffectation.
 
 Pour ce scénario, l’option **Valider les corrections des factures dans la Comptabilité client** est définie sur **Oui** sur l’onglet **Prise en compte de revenu** de la page **Paramètres de comptabilité** (**Prise en compte de revenu \> Paramétrage \> Paramètres de Comptabilité**).
 

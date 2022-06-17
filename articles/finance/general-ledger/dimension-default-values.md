@@ -1,6 +1,6 @@
 ---
 title: Dimensions financières par défaut des journaux financiers
-description: Cette rubrique décrit les règles qui définissent la manière dont les valeurs de dimensions financières sont définies sur les transactions entrées à l’aide des journaux financiers. Elle comprend également des détails sur les scénarios dans lesquels des dimensions fixes sont utilisées.
+description: Cet article décrit les règles qui définissent la manière dont les valeurs de dimensions financières sont définies sur les transactions entrées à l’aide des journaux financiers. Il comprend également des détails sur les scénarios dans lesquels des dimensions fixes sont utilisées.
 author: kweekley
 ms.date: 09/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8d0fcf836e22207baae562801fb082d735df0f96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907920"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>Dimensions financières par défaut des journaux financiers
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les règles qui définissent la manière dont les valeurs de dimensions financières sont définies sur les transactions entrées à l’aide des journaux financiers (mais pas des journaux de stock ou des journaux de projets). Elle comprend également des détails sur les scénarios dans lesquels des dimensions fixes sont utilisées.
+Cet article décrit les règles qui définissent la manière dont les valeurs de dimensions financières sont définies sur les transactions entrées à l’aide des journaux financiers (mais pas des journaux de stock ou des journaux de projets). Il comprend également des détails sur les scénarios dans lesquels des dimensions fixes sont utilisées.
 
 ## <a name="symptom"></a>Problème
 
@@ -56,7 +56,7 @@ Les règles suivantes permettent d’entrer des valeurs de dimension financière
 
  - Pour commencer, les dimensions de compte de contrepartie de ligne de journal proviennent par défaut des dimensions de compte de ligne de journal.
 
- - Si des dimensions financières sont vides, la prochaine entrée de valeurs par défaut proviendra des dimensions par défaut des client, fournisseur, banque, immobilisation, projet ou comptabilité.
+ - Si des dimensions financières sont vides, la prochaine entrée de valeurs par défaut proviendra des dimensions par défaut de Client, Fournisseur, Banque, Immobilisation, Projet ou Comptabilité.
    1. Si le type de compte de contrepartie est **Comptabilité**, une dimension fixe sur un compte général est traitée comme une dimension par défaut au moment de l’entrée de la transaction. Si une valeur de dimension a déjà été entrée par défaut à partir du compte, la valeur de dimension par défaut ou fixe du compte principal ne remplacera pas la valeur existante.
    2. Si le type de compte de contrepartie est **Client**, **Fournisseur**, **Banque**, **Immobilisations** ou **Projet**, le compte principal n’est pas encore connu, par conséquent, une dimension fixe ne sera jamais par défaut définie sur le compte de contrepartie.
 

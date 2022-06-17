@@ -1,6 +1,6 @@
 ---
-title: prise en compte de revenu dans les commandes client
-description: Cette rubrique décrit les fonctionnalités de base pour constater le produit dans les commandes client et les factures. La prise en compte de revenu est disponible sur les commandes client et sur les factures correspondantes créées à partir des commandes client.
+title: Prise en compte de revenu dans les commandes client
+description: Cet article décrit les fonctionnalités de base pour constater le produit dans les commandes client et les factures. La prise en compte de revenu est disponible sur les commandes client et sur les factures correspondantes créées à partir des commandes client.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899955"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>prise en compte de revenu dans les commandes client
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725482"
 > [!NOTE]
 > La fonctionnalité de prise en compte de revenu ne peut pas être activée via la gestion des fonctionnalités. Vous devez pour l’instant utiliser les clés de configuration pour l’activer.
 
-Cette rubrique décrit les fonctionnalités de base pour constater le produit dans les commandes client et les factures. La prise en compte de revenu est disponible sur une commande client et sur la facture correspondante créée à partir de la commande client. La commande client peut également être créée via un projet Régie.
+Cet article décrit les fonctionnalités de base pour constater le produit dans les commandes client et les factures. La prise en compte de revenu est disponible sur une commande client et sur la facture correspondante créée à partir de la commande client. La commande client peut également être créée via un projet Régie.
 
 > [!NOTE]
-> Dans les illustrations de cette rubrique, des colonnes ont été masquées ou ajoutées aux grilles afin de mieux expliquer les concepts. Par conséquent, les pages et les données des illustrations peuvent être différentes de ce que vous voyez dans le produit.
+> Dans les illustrations de cet article, des colonnes ont été masquées ou ajoutées aux grilles afin de mieux expliquer les concepts. Par conséquent, les pages et les données des illustrations peuvent être différentes de ce que vous voyez dans le produit.
 
 ## <a name="enter-a-sales-order"></a>Entrer une commande client
 

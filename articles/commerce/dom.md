@@ -1,6 +1,6 @@
 ---
 title: Gestion des commandes distribuées (DOM)
-description: Cette rubrique décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Dynamics 365 Commerce.
+description: Cet article décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878510"
 ---
 # <a name="distributed-order-management-dom"></a>Gestion des commandes distribuées (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Microsoft Dynamics 365 Commerce.
+Cet article décrit la fonctionnalité de gestion des commandes distribuées (DOM) dans Microsoft Dynamics 365 Commerce.
 
 La fonctionnalité DOM est une solution d’optimisation de l’exécution des commandes omnicanale qui aide à maximiser l’exécution des commandes dans un réseau de chaîne d’approvisionnement. La fonctionnalité DOM vous aide à vous assurer que les produits sont livrés à vos clients dans les bonnes quantités, à partir des bonnes sources, au bon moment. La fonctionnalité DOM peut également vous aider à maximiser les profits, à minimiser les coûts et à répondre aux exigences de niveau de service.
 

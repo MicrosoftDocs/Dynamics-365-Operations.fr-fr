@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Avant la maintenance et après la maintenance
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Suspendre les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Être informé sur les mises à jour de service
@@ -394,6 +396,8 @@
                   items:
                     - name: Application Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Migrer Modern POS vers Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Conseils de mise en œuvre pour la gestion des périphériques
                       href: implementation-considerations-devices.md
                     - name: Choisir entre Store Commerce et Cloud POS
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Résoudre les problèmes de performances dans les configurations ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Réduire le nombre de champs de table extraits lors de l’exécution
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Gestion des documents commerciaux (BDM)
                   items:
                     - name: Vue d’ensemble d’un processus BDM
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Migration de l’ancien kit de développement logiciel (SDK) Retail
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'API, classes et méthodes obsolètes et supprimées'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: Modernisation de la pile technologique Commerce en magasin (livre blanc)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Configuration de l’environnement
@@ -2560,6 +2568,8 @@
                   items:
                     - name: Créer un package d’extension Cloud Scale Unit
                       href: dev-itpro/CSU-packaging.md
+                    - name: Fusionner les packages d’extension Cloud Scale Unit pour le déploiement
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Supprimer les extensions Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Résolution des problèmes
           items:
+            - name: Store Commerce
+              items:
+                - name: Problèmes de configuration et d’installation
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Problèmes de performances
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Problèmes d’extension
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Traitement des commandes
               items:
                 - name: Le type de paiement doit être une erreur de carte de crédit

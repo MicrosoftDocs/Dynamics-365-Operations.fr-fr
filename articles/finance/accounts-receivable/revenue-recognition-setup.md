@@ -1,6 +1,6 @@
 ---
 title: Configuration de la fonctionnalité de prise en compte de revenu
-description: Cette rubrique décrit les options de paramétrage pour la prise en compte de revenu, ainsi que leurs implications.
+description: Cet article décrit les options de paramétrage pour la prise en compte de revenu, ainsi que leurs implications.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900011"
 ---
 # <a name="revenue-recognition-setup"></a>Configuration de la fonctionnalité de prise en compte de revenu
 [!include [banner](../includes/banner.md)]
 
-Un nouveau module **prise en compte de revenu** qui inclut des options de menu pour tous les paramètres de configuration requis a été ajouté. Cette rubrique décrit les options de paramétrage, ainsi que leurs implications.
+Un nouveau module **prise en compte de revenu** qui inclut des options de menu pour tous les paramètres de configuration requis a été ajouté. Cet article décrit les options de paramétrage, ainsi que leurs implications.
 
 > [!NOTE]
 > La fonctionnalité de prise en compte de revenu est désormais activée par défaut via Gestion des fonctionnalités. Si votre organisation n’utilise pas cette fonctionnalité, vous pouvez la désactiver dans l’espace de travail **Gestion des fonctionnalités**.

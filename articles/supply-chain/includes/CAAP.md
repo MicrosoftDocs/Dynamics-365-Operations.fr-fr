@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 649cd6ae78ef4922054f6c767255b5a1fc38b793b0bd1fd49943d4946d8025a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 06c4c2baba00ffb074fce7bb68fd9dfc91714c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888612"
 ---
 > [!IMPORTANT]
-> Certaines améliorations notées dans cette rubrique sont accessibles à des utilisateurs ciblés qui ont choisi le programme Continuous Auto-Update Advantage Program (CAAP) pour les mises à jour de la plateforme. Pour plus d'informations sur les versions standard et ciblées, voir [Versions de plateforme standard et ciblées](../../get-started/public-preview-releases.md).
+> Certaines améliorations notées dans cet article sont accessibles à des utilisateurs ciblés qui ont choisi le programme Continuous Auto-Update Advantage Program (CAAP) pour les mises à jour de la plateforme. Pour plus d’informations sur les versions standard et ciblées, voir [Versions de plateforme standard et ciblées](../../get-started/public-preview-releases.md).

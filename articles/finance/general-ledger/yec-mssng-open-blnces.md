@@ -1,6 +1,6 @@
 ---
 title: Soldes d’ouverture manquants à la clôture de fin d’exercice
-description: Cette rubrique explique pourquoi les soldes d’ouverture peuvent être manquants lorsque vous clôturez un exercice et comment les reconstituer, le cas échéant.
+description: Cet article explique pourquoi les soldes d’ouverture peuvent être manquants lorsque vous clôturez un exercice et comment les reconstituer, le cas échéant.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894846"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Soldes d’ouverture manquants à la clôture de fin d’exercice
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique pourquoi les soldes d’ouverture peuvent être manquants lorsque vous clôturez un exercice et comment les reconstituer, le cas échéant.
+Cet article explique pourquoi les soldes d’ouverture peuvent être manquants lorsque vous clôturez un exercice et comment les reconstituer, le cas échéant.
 
 ### <a name="symptom"></a>Problème
 
@@ -36,7 +36,7 @@ Voici des éléments à vérifier si vous avez clôturé un exercice en comptabi
 
 Si le champ **Annuler la clôture précédente** est défini sur **Oui**, la clôture de fin d’exercice pour le même exercice est annulée. Lors de la contrepassation de la clôture de fin d’exercice, toutes les écritures de solde de clôture et de solde d’ouverture sont supprimées, comme si l’exercice n’avait jamais été clôturé. Les justificatifs sont également supprimés. Le processus de clôture de fin d’exercice ne s’exécutera pas à nouveau automatiquement. Vous devez recommencer le processus, cette fois en définissant l’option **Annuler la clôture précédente** sur **Non**.
 
-Ce scénario est traité dans la rubrique FAQ sur la clôture de fin d’exercice. Pour plus d’informations, voir [FAQ sur les activités de fin d’exercice](faq-year-end-activities.md).
+Ce scénario est traité dans l’article FAQ sur la clôture de fin d’exercice. Pour plus d’informations, voir [FAQ sur les activités de fin d’exercice](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Problème
 

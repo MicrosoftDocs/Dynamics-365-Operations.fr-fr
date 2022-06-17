@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil de Supply Chain Management
-description: Cette page fournit une liste de rubriques d’aide et d’autres ressources pour les fonctionnalités de Supply Chain Management.
+description: Cette page fournit une liste d’articles d’aide et d’autres ressources pour les fonctionnalités de Supply Chain Management.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879074"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d’accueil de Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une liste de ressources et d’autres informations dans Dynamics 365 Supply Chain Management.
+Cet article fournit une liste d’articles d’aide et d’autres ressources dans Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
@@ -93,7 +93,7 @@ Les enregistrements de conférence technique suivants traitent des fonctionnalit
 
 ## <a name="blogs"></a>Blogs
 
-Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisionnement sont consultables sur le [Blog de l’équipe R&D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s’appliquent toujours et les procédures sont similaires dans la version actuelle.
+Plusieurs articles sur la fabrication et la gestion de la chaîne d’approvisionnement sont consultables sur le [Blog de l’équipe R&D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s’appliquent toujours et les procédures sont similaires dans la version actuelle.
 
 ## <a name="white-papers"></a>Livres blancs
 

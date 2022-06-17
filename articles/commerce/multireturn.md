@@ -1,6 +1,6 @@
 ---
 title: Retourner des articles pour plusieurs commandes et factures client
-description: Cette rubrique décrit la fonctionnalité d’activation des retours pour plusieurs commandes et factures client dans Dynamics 365 Commerce.
+description: Cet article décrit la fonctionnalité d’activation des retours pour plusieurs commandes et factures client dans Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/27/2020
 ms.topic: index-page
@@ -15,19 +15,19 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 410a78dca29f1d723a5b5ef43836d07ec5502a567ec81098241fafeb6354373b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65ef700db5a81c49a962fd388af54e7811c088d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890319"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Retourner des articles pour plusieurs commandes et factures client
 
 [!include [banner](includes/banner.md)]
 
 
-Il est possible d'effectuer des retours pour plusieurs commandes et factures client. 
+Il est possible d’effectuer des retours pour plusieurs commandes et factures client. 
 
 ## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>Configurer Commerce pour prendre en charge les retours pour plusieurs commandes et factures client
 
@@ -36,6 +36,6 @@ Il est possible d'effectuer des retours pour plusieurs commandes et factures cli
 
 ## <a name="process-returns"></a>Traiter les retours
 
-Une fois que le paramètre est activé et que les modifications sont synchronisées avec les magasins, le caissier du magasin peut sélectionner plusieurs commandes d'un client pour les retourner.
+Une fois que le paramètre est activé et que les modifications sont synchronisées avec les magasins, le caissier du magasin peut sélectionner plusieurs commandes d’un client pour les retourner.
 
 Lorsque les commandes sont sélectionnées, la liste de tous les produits retournables pour toutes les factures des commandes s’affiche. Le caissier peut ensuite sélectionner les produits à retourner. Un ordre de retour unique sera créé pour tous les produits sélectionnés.

@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil des immobilisations
-description: Cette rubrique donne accès à des ressources qui peuvent vous aider à utiliser la solution Immobilisations pour Microsoft Dynamics 365 Finance.
+description: Cet article donne accès à des ressources qui peuvent vous aider à utiliser la solution Immobilisations pour Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880814"
 ---
 # <a name="fixed-assets-home-page"></a>Page d’accueil des immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne accès à des ressources qui peuvent vous aider à utiliser la solution Immobilisations pour Microsoft Dynamics 365 Finance. Les immobilisations sont des articles de valeur appartenant à un individu ou à une organisation. Les articles comprennent des bâtiments, des véhicules, des terrains et des équipements. 
+Cet article donne accès à des ressources qui peuvent vous aider à utiliser la solution Immobilisations pour Microsoft Dynamics 365 Finance. Les immobilisations sont des articles de valeur appartenant à un individu ou à une organisation. Les articles comprennent des bâtiments, des véhicules, des terrains et des équipements. 
 
 Vous pouvez définir et entrer des informations d’acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation pour déterminer l’amortissement. Vous pouvez calculer des ajustements pour les immobilisations ou les céder. Lorsque vous utilisez les modules Comptabilité et Immobilisations, vous pouvez afficher la valeur actuelle de toutes les immobilisations. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. Il peut s’agir de respecter des règles concernant l’enregistrement des transactions d’acquisition et de cession, l’amortissement, les durées de vie, les revalorisations et dévalorisations des immobilisations. La fonctionnalité Immobilisations intègre bon nombre de ces normes et règles.
 

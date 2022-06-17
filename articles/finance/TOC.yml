@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Avant la maintenance et après la maintenance
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Suspendre les mises à jour de service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Être informé sur les mises à jour de service
@@ -1684,7 +1686,9 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Options de calcul montant entier et intervalle pour les codes taxe
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                    - name: Calcul de taxe sur les lignes générales du journal
+                    - name: Calcul et arrondi de la taxe
+                      href: general-ledger/sales-tax-calculation-rounding.md
+                    - name: Calcul de la taxe sur les lignes générales du journal
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calculer et ajuster la taxe sur une facture fournisseur
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
@@ -2164,10 +2168,12 @@
                   href: localizations/estonia.md
                 - name: Demandes d’informations personnelles
                   href: localizations/emea-est-personal-info.md
-                - name: Relevés de TVA
+                - name: Déclaration de TVA
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Déclaration d’échanges de biens (Estonie)
                   href: localizations/emea-est-intrastat.md
+                - name: Liste des ventes intracommunautaires
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Europe
               items:
                 - name: Vue d’ensemble de l’Europe
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Déclarations de taxe pour la Hongrie
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Déclaration d’échanges de biens (Hongrie)
+                  href: localizations/emea-hun-intrastat.md
                 - name: Calculs de la taxe différée
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islande
@@ -2862,7 +2870,7 @@
               items:
                 - name: Vue d’ensemble de l’Italie
                   href: localizations/italy.md
-                - name: Détails de relevés de TVA
+                - name: Détails de déclaration de TVA
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: état trimestriel de communication TVA
                   href: localizations/emea-ita-quarterly-vat-communication.md
@@ -3108,10 +3116,12 @@
                   href: localizations/emea-invoices-packing-slips-numbering.md
                 - name: État de taxe sur les ressources naturelles
                   href: localizations/emea-lva-tax-natural-resources.md
-                - name: Détails de relevé de TVA
+                - name: Détails de déclaration de TVA
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Déclaration d’échanges de biens (Lettonie)
                   href: localizations/emea-lva-intrastat.md
+                - name: Liste des ventes intracommunautaires
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Lituanie
               items:
                 - name: Vue d’ensemble de la Lituanie
@@ -3120,7 +3130,7 @@
                   href: localizations/emea-ltu-fixed-asset-repair-statement.md
                 - name: Générer un document de transfert d’immobilisation entre entrepôts
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: Détails de relevé de TVA
+                - name: Détails de déclaration de TVA
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: Déclaration d’échanges de biens lituanienne
                   href: localizations/emea-ltu-intrastat.md
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Paramétrer les documents de transfert pour le mouvement de marchandises dans une société
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: Liste des ventes intracommunautaires
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malaisie
               items:
                 - name: Vue d’ensemble de la Malaisie
@@ -3228,7 +3240,7 @@
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
                 - name: Format d’importations nettes
                   href: localizations/emea-nor-nets-import-format.md
-                - name: Relevés de TVA
+                - name: Déclaration de TVA
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Retour de TVA avec envoi direct à Altinn
                   items:
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Résoudre les problèmes de performances dans les configurations ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Réduire le nombre de champs de table extraits lors de l’exécution
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Gestion des documents commerciaux (BDM)
                   items:
                     - name: Vue d’ensemble d’un processus BDM

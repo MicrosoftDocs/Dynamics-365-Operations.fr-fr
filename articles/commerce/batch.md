@@ -1,6 +1,6 @@
 ---
 title: Gestion améliorée des articles suivis par lots
-description: Cette rubrique décrit les améliorations apportées à la gestion des articles suivis par lots pendant le processus de validation des relevés dans Microsoft Dynamics 365 Commerce.
+description: Cet article décrit les améliorations apportées à la gestion des articles suivis par lots pendant le processus de validation des relevés dans Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881876"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Gestion améliorée des articles suivis par lots
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les améliorations apportées à la gestion des articles suivis par lots pendant le processus de validation des relevés dans Microsoft Dynamics 365 Commerce.
+Cet article décrit les améliorations apportées à la gestion des articles suivis par lots pendant le processus de validation des relevés dans Microsoft Dynamics 365 Commerce.
 
 Dans le point de vente (PDV) Dynamics 365 Commerce, les numéros de lot ne peuvent pas être capturés pour les articles suivis par lots au moment de la vente. Toutefois, pour des configurations spécifiques, lorsque les ventes sont validées dans Comme Headquarters au moyen des commandes client ou de la validation des relevés, Commerce nécessite que des numéros de lot valides soient disponibles pour les articles suivis par lots et qu’ils soient utilisés pendant le processus de facturation.
 

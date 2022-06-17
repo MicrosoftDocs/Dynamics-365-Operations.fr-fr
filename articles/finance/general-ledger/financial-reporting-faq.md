@@ -1,6 +1,6 @@
 ---
 title: FAQ sur les états financiers
-description: Cette rubrique fournit des réponses à certaines questions fréquentes sur les états financiers.
+description: Cet article fournit des réponses à certaines questions fréquentes sur les états financiers.
 author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 5981946a4bba2c58402f4cf566bfa008de67363b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901368"
 ---
 # <a name="financial-reporting-faq"></a>FAQ sur les états financiers
 
-Cette rubrique fournit des réponses aux questions fréquentes sur les états financiers.
+Cet article fournit des réponses aux questions fréquentes sur les états financiers.
 
 ## <a name="how-do-i-restrict-access-to-a-report-by-using-tree-security"></a>Comment restreindre l’accès à un état à l’aide de la sécurité de l’organigramme ?
 

@@ -1,6 +1,6 @@
 ---
 title: Ressources de globalisation
-description: Cette rubrique liste des ressources utiles pour en savoir plus sur les fonctionnalisés et offres spécifiques aux pays/régions.
+description: Cet article liste des ressources utiles pour en savoir plus sur les fonctionnalisés et offres spécifiques aux pays/régions.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866535"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
 ## <a name="local-and-regional-deployments"></a>Déploiements locaux et régionaux
-Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes susceptibles de vous concerner :
+Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes qui peuvent vous concerner :
 
-[Applications Finance and Operations exploitées par 21Vianet en Chine](../deployment/china-local-deployment.md)
+[Applications de finances et d’opérations exploitées par 21Vianet en Chine](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Fonctions de localisation et de réglementation
 
 [!include [banner](../includes/banner.md)]
 
-Les applications Finance and Operations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l’adresse principale de l’entité juridique active. 
+Les applications de finances et d’opérations incluent une fonctionnalité pour les pays/régions documentée dans le [Guide de disponibilité pour la localisation et la traduction du produit](https://aka.ms/dynamics_365_international_availability_deck). Cette fonctionnalité est activée en fonction de l’adresse principale de l’entité juridique active. 
 
-Cette rubrique liste des ressources utiles pour effectuer ce qui suit : 
+Cet article liste des ressources utiles pour effectuer ce qui suit : 
 - En savoir plus sur le développement de solutions spécifiques à des pays/régions.
 - Obtenir des mises à jour spécifiques à des pays/régions.
 - Soumettre et réviser des alertes de réglementation.
@@ -60,10 +60,10 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 -   [Soumettre des alertes concernant les fonctions de réglementation spécifiques à un pays/une région](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Programmes de publication de Dynamics 365
-Les [Programmes de publication de Dynamics 365](/business-applications-release-notes/) fournissent des descriptions des fonctionnalités nouvelles et améliorées, planifiées pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
+Les [Programmes de publication de Dynamics 365](/business-applications-release-notes/) fournissent des descriptions des fonctionnalités, nouvelles et améliorées, planifiées pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nouveautés des applications Finance and Operations
-La [page d’accueil Nouveautés ou modifications de Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités qui sont incluses dans des versions spécifiques des applications Finance and Operations.
+La [page d’accueil Nouveautés ou modifications dans Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités incluses dans des versions spécifiques des applications Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Gestion des états électroniques
 L’outil de gestion des états électroniques (ER) vous permet de configurer des formats électroniques conformes aux obligations légales de différents pays/régions. Il vous permet de gérer ces formats au cours de tout leur cycle de vie. Pour plus d’informations, voir l’une des rubriques suivantes :

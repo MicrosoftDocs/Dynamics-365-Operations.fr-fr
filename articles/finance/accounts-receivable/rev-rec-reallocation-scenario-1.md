@@ -1,6 +1,6 @@
 ---
 title: Réaffectation de la prise en compte de revenu - Scénario 1
-description: Cette rubrique décrit un scénario de réaffectation dans lequel deux commandes client sont saisies, mais ne sont que confirmées. Le même scénario produira des résultats similaires si plus de deux commandes client sont dans un état confirmé.
+description: Cet article décrit un scénario de réaffectation dans lequel deux commandes client sont saisies, mais ne sont que confirmées. Le même scénario produira des résultats similaires si plus de deux commandes client sont dans un état confirmé.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd094840e16a0ab19e234148e4ef40c454315d96
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 597c83388937cff689748889eff29d6be1b8341a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876266"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Réaffectation de la prise en compte de revenu - Scénario 1
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit un scénario de réaffectation dans lequel deux commandes client sont saisies, mais ne sont que confirmées. Le même scénario produira des résultats similaires si plus de deux commandes client sont dans un état confirmé.
+Cet article décrit un scénario de réaffectation dans lequel deux commandes client sont saisies, mais ne sont que confirmées. Le même scénario produira des résultats similaires si plus de deux commandes client sont dans un état confirmé.
 
 Pour ce scénario, l’option **Valider les corrections des factures dans la Comptabilité client** est définie sur **Non** sur l’onglet **Prise en compte de revenu** de la page **Paramètres de comptabilité** (**Prise en compte de revenu \> Paramétrage \> Paramètres de Comptabilité**).
 

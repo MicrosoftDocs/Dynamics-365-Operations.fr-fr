@@ -1,6 +1,6 @@
 ---
 title: Offres groupées dans la prise en compte de revenu
-description: Cette rubrique décrit la fonctionnalité d’offre groupée incluse dans la fonction de prise en compte de revenu en Comptabilité client. Une offre groupée comprend un article parent et plusieurs éléments constitutifs.
+description: Cet article décrit la fonctionnalité d’offre groupée incluse dans la fonction de prise en compte de revenu en Comptabilité client. Une offre groupée comprend un article parent et plusieurs éléments constitutifs.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876294"
 ---
 # <a name="revenue-recognition-bundles"></a>Offres groupées dans la prise en compte de revenu
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la fonctionnalité d’offre groupée incluse dans la fonction de prise en compte de revenu en Comptabilité client. Une offre groupée comprend un article parent et plusieurs éléments constitutifs. L’article parent est saisi sur une commande client, pour que la saisie soit plus efficace. Cependant, il est ensuite éclaté dans les éléments constitutifs. Les documents internes, tels que le bon de livraison, répertorient les éléments constitutifs. Cependant, les documents externes affichent uniquement l’élément parent.
+Cet article décrit la fonctionnalité d’offre groupée incluse dans la fonction de prise en compte de revenu en Comptabilité client. Une offre groupée comprend un article parent et plusieurs éléments constitutifs. L’article parent est saisi sur une commande client, pour que la saisie soit plus efficace. Cependant, il est ensuite éclaté dans les éléments constitutifs. Les documents internes, tels que le bon de livraison, répertorient les éléments constitutifs. Cependant, les documents externes affichent uniquement l’élément parent.
 
 > [!NOTE]
 > Les canaux Microsoft Dynamics 365 Commerce, tels que les services en ligne, les points de vente (PDV) et les centres d’appels, ne prennent pas en charge la prise en compte de revenu (y compris la fonctionnalité d’offre groupée). Cela inclut également la solution Prospect en disponibilités pour Dynamics 365 Supply Chain Management et Dynamics 365 Sales. Les articles configurés pour utiliser la prise en compte de revenu ne doivent pas être ajoutés aux commandes ou aux transactions créées dans les canaux Commerce ou dans la solution Prospect en disponibilités.

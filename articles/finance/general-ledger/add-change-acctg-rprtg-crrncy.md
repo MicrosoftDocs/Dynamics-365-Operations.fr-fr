@@ -1,6 +1,6 @@
 ---
 title: Modifier une devise comptable ou de déclaration
-description: Cette rubrique explique comment modifier une devise comptable ou de déclaration (ou ajouter une devise de déclaration à la configuration de la comptabilité).
+description: Cet article explique comment modifier une devise comptable ou de déclaration (ou ajouter une devise de déclaration à la configuration de la comptabilité).
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904612"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Modifier une devise comptable ou de déclaration
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment modifier une devise comptable ou de déclaration (ou ajouter une devise de déclaration à la configuration de la comptabilité).
+Cet article explique comment modifier une devise comptable ou de déclaration (ou ajouter une devise de déclaration à la configuration de la comptabilité).
 
 ## <a name="symptom"></a>Problème
 
@@ -73,7 +73,7 @@ Suivez ces étapes pour copier la configuration et les données principales de l
 10. Dans la zone **Entités sélectionnées**, sélectionnez **Ajouter un modèle**.
 11. Sélectionnez les modèles à utiliser. Les modèles suggérés pour une nouvelle entité juridique incluent **025 - Comptabilité** et **Finances**. Nous vous recommandons de consulter tous les autres modèles disponibles pour déterminer si l’un d’entre eux s’applique à vos besoins.
 12. Sélectionnez **Copier dans l’entité juridique** pour démarrer un processus de traitement par lots qui créera les entités sélectionnées et les copiera dans l’entité juridique de destination.
-13. Une fois le processus terminé, mais avant que toute transaction ne soit validée, accédez à la comptabilité et mettez à jour les devises de comptabilité et de déclaration comme décrit précédemment dans cette rubrique.
+13. Une fois le processus terminé, mais avant que toute transaction ne soit validée, accédez à la comptabilité et mettez à jour les devises de comptabilité et de déclaration comme décrit précédemment dans cet article.
 
 Si vous avez créé une nouvelle entité juridique afin de pouvoir modifier la devise comptable ou de déclaration, vérifiez que les soldes de début ont été convertis des devises de l’ancienne entité juridique vers les nouvelles devises.
 
